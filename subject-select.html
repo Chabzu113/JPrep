@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Your AP Classes — AP Test Prep</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/planner.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <span class="navbar-brand">AP Test Prep</span>
+    <div class="navbar-actions">
+      <button class="btn btn-secondary btn-sm dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="subject-select-hero">
+      <h1>Which AP exams are you taking?</h1>
+      <p>Select all the subjects you're studying this year. You can always change this later in Settings.</p>
+    </div>
+
+    <div class="subject-grid" id="subjectGrid">
+      <!-- Injected by subjectSelect.js -->
+    </div>
+
+  </div>
+
+  <!-- Sticky confirm bar -->
+  <div class="select-confirm-bar">
+    <span class="select-confirm-count" id="selectedCount">No subjects selected</span>
+    <button class="btn btn-primary" id="confirmBtn" disabled style="min-width:180px">
+      Select a subject to start →
+    </button>
+  </div>
+
+  <script src="js/subjects.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/subjectSelect.js"></script>
+</body>
+</html>

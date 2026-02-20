@@ -1,0 +1,45 @@
+{
+  "name": "ap-csa-practice",
+  "version": "1.0.0",
+  "description": "AP Computer Science A Practice Platform",
+  "main": "main.js",
+  "author": "Abhijay Ramaka",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "npm run copy-files && electron-builder --mac",
+    "copy-files": "cp -r ../index.html ../question-bank.html ../practice-test.html ../review.html ../results.html ../subject-select.html ../planner.html ../css ../js ../problems ."
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.abhijay.apcsa-practice",
+    "productName": "AP Test Prep",
+    "icon": "icon.icns",
+    "mac": {
+      "category": "public.app-category.education",
+      "target": "dir",
+      "icon": "icon.icns"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "question-bank.html",
+      "practice-test.html",
+      "review.html",
+      "results.html",
+      "subject-select.html",
+      "planner.html",
+      "css/**/*",
+      "js/**/*",
+      "problems/**/*"
+    ],
+    "extraResources": [],
+    "directories": {
+      "output": "../dist"
+    }
+  }
+}
