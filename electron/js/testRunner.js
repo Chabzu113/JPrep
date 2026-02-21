@@ -39,6 +39,11 @@ function loadAllQuestionsForActiveSubject() {
         const arr = window[varName];
         if (Array.isArray(arr)) allQ.push(...arr);
       });
+      // Also load test-only question banks (not shown in question bank)
+      (subject.testDataFiles || []).forEach(varName => {
+        const arr = window[varName];
+        if (Array.isArray(arr)) allQ.push(...arr);
+      });
       if (allQ.length > 0) return allQ;
     }
   }

@@ -88,8 +88,9 @@ const SUBJECTS = [
     examDate: new Date('2026-05-12T08:00:00'),
     description: 'Biochemistry, cells, genetics, evolution & ecology.',
     hasContent: true,
-    dataFiles: ['APBIO_MCQ'],
-    testFiles: [],
+    dataFiles: ['APBIO_MCQ', 'APBIO_FRQ'],
+    testFiles: ['APBIO_TESTS'],
+    testDataFiles: ['APBIO_TEST_MCQ'],
     units: [
       { num: 1, title: 'Chemistry of Life', weight: '8–11%', topics: [
         { value: '1.1', label: '1.1 Water Properties' },
