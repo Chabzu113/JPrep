@@ -1,51 +1,99 @@
-const { app, BrowserWindow, Menu, shell, ipcMain } = require('electron');
+const { app, BrowserWindow, Menu, shell, ipcMain, session } = require('electron');
 const { execSync } = require('child_process');
+const crypto = require('crypto');
 const path = require('path');
 const os = require('os');
+const fs = require('fs');
 
-// Keep a global reference to prevent garbage collection
-let mainWindow;
+const isMac = process.platform === 'darwin';
+
+// ─── Trusted domains for update downloads ─────────────────────────────────
+const ALLOWED_UPDATE_DOMAINS = [
+  'github.com',
+  'objects.githubusercontent.com',
+  'releases.githubusercontent.com'
+];
 
 // ─── In-App Updater ────────────────────────────────────────────────────────
-// Downloads APTestPrep.zip from GitHub, extracts it, strips quarantine,
-// replaces the running .app bundle on disk, then relaunches.
+// macOS only: Downloads APTestPrep-Mac.zip from GitHub, verifies its SHA-256
+// checksum, extracts it, strips quarantine, replaces the running .app bundle,
+// then relaunches. On Windows the renderer falls back to a browser download.
 ipcMain.on('install-update', (event, assetUrl) => {
   const send = (msg) => {
     try { event.sender.send('update-progress', msg); } catch (e) {}
   };
 
+  // ── Security: validate download domain ──────────────────────────────────
+  try {
+    const urlHost = new URL(assetUrl).hostname;
+    if (!ALLOWED_UPDATE_DOMAINS.some(d => urlHost === d || urlHost.endsWith('.' + d))) {
+      send(`Update blocked: untrusted source (${urlHost})`);
+      return;
+    }
+  } catch (e) {
+    send('Update blocked: invalid download URL');
+    return;
+  }
+
+  // ── Windows: open release page in browser instead ───────────────────────
+  if (!isMac) {
+    shell.openExternal('https://github.com/Chabzu113/APCSAPractice/releases/latest');
+    return;
+  }
+
   const tmpDir = os.tmpdir();
-  const zipPath = path.join(tmpDir, 'APTestPrep_update.zip');
+  const zipPath    = path.join(tmpDir, 'APTestPrep_update.zip');
+  const checksumPath = path.join(tmpDir, 'APTestPrep_checksums.txt');
   const extractDir = path.join(tmpDir, 'APTestPrep_update');
 
   try {
-    // 1. Download — curl handles GitHub's redirects natively
+    // 1. Download ZIP
     send('Downloading...');
     execSync(`curl -L -o "${zipPath}" "${assetUrl}"`, { stdio: 'pipe' });
 
-    // 2. Extract
+    // 2. Download and verify checksum
+    send('Verifying...');
+    const checksumUrl = assetUrl.replace('APTestPrep-Mac.zip', 'checksums.txt');
+    try {
+      execSync(`curl -L -o "${checksumPath}" "${checksumUrl}"`, { stdio: 'pipe' });
+      const checksumsText = fs.readFileSync(checksumPath, 'utf8');
+      const expectedLine = checksumsText.split('\n').find(l => l.includes('APTestPrep-Mac.zip'));
+      const expectedHash = expectedLine ? expectedLine.split(/\s+/)[0].trim() : null;
+      if (expectedHash) {
+        const actualHash = crypto.createHash('sha256').update(fs.readFileSync(zipPath)).digest('hex');
+        if (actualHash !== expectedHash) {
+          execSync(`rm -f "${zipPath}" "${checksumPath}"`);
+          send('Update cancelled: file integrity check failed. Please try again or download manually.');
+          return;
+        }
+      }
+    } catch (checksumErr) {
+      // checksums.txt not available — proceed without verification (older releases)
+    }
+
+    // 3. Extract
     send('Extracting...');
     execSync(`rm -rf "${extractDir}" && unzip -o "${zipPath}" -d "${extractDir}"`, { stdio: 'pipe' });
 
-    // 3. Remove quarantine (same fix as the Open AP Test Prep.command launcher)
+    // 4. Remove macOS quarantine (same as Open AP Test Prep.command launcher)
     send('Installing...');
     execSync(`xattr -cr "${extractDir}/AP Test Prep.app"`, { stdio: 'pipe' });
 
-    // 4. Locate the running .app bundle
+    // 5. Locate running .app bundle
     //    app.getPath('exe') → /…/AP Test Prep.app/Contents/MacOS/AP Test Prep
     const exePath = app.getPath('exe');
     const dotAppIndex = exePath.indexOf('.app/');
     if (dotAppIndex === -1) throw new Error('Could not locate .app bundle path');
-    const appPath = exePath.substring(0, dotAppIndex + 5); // e.g. /path/AP Test Prep.app
+    const appPath = exePath.substring(0, dotAppIndex + 5);
 
-    // 5. Replace old app with new one
+    // 6. Replace old app with new one
     execSync(`rm -rf "${appPath}"`, { stdio: 'pipe' });
     execSync(`cp -r "${extractDir}/AP Test Prep.app" "${appPath}"`, { stdio: 'pipe' });
 
-    // 6. Clean up temp files
-    execSync(`rm -f "${zipPath}" && rm -rf "${extractDir}"`, { stdio: 'pipe' });
+    // 7. Clean up temp files
+    execSync(`rm -f "${zipPath}" "${checksumPath}" && rm -rf "${extractDir}"`, { stdio: 'pipe' });
 
-    // 7. Relaunch into the updated app
+    // 8. Relaunch into updated version
     send('Restarting...');
     app.relaunch();
     app.quit();
@@ -63,28 +111,35 @@ function createWindow() {
     minWidth: 800,
     minHeight: 600,
     title: 'AP Test Prep',
-    titleBarStyle: 'hiddenInset',
-    trafficLightPosition: { x: 15, y: 15 },
     backgroundColor: '#f8f9fa',
+    // macOS-only: hidden title bar with traffic lights
+    ...(isMac ? {
+      titleBarStyle: 'hiddenInset',
+      trafficLightPosition: { x: 15, y: 15 }
+    } : {}),
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
+      sandbox: true,
       preload: path.join(__dirname, 'preload.js')
     }
   });
 
-  // Load the main HTML file
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
-  // Route window.open() calls (e.g. the update "Download →" fallback link)
-  // to the system browser instead of a new Electron window
+  // Route window.open() calls to system browser (update "Download →" fallback)
   mainWindow.webContents.setWindowOpenHandler(({ url }) => {
     shell.openExternal(url);
     return { action: 'deny' };
   });
 
+  // Disable DevTools in production (prevents JS injection via inspector)
+  mainWindow.webContents.on('devtools-opened', () => {
+    mainWindow.webContents.closeDevTools();
+  });
+
   // Add macOS class so CSS can offset the navbar past traffic lights
-  if (process.platform === 'darwin') {
+  if (isMac) {
     mainWindow.webContents.on('did-finish-load', () => {
       mainWindow.webContents.executeJavaScript(
         'document.documentElement.classList.add("macos")'
@@ -92,17 +147,20 @@ function createWindow() {
     });
   }
 
-  // Build a simple menu bar
+  // ── Menu bar ──────────────────────────────────────────────────────────
   const menuTemplate = [
     {
       label: 'AP Test Prep',
       submenu: [
         { role: 'about' },
         { type: 'separator' },
-        { role: 'hide' },
-        { role: 'hideOthers' },
-        { role: 'unhide' },
-        { type: 'separator' },
+        // macOS-only window management roles
+        ...(isMac ? [
+          { role: 'hide' },
+          { role: 'hideOthers' },
+          { role: 'unhide' },
+          { type: 'separator' }
+        ] : []),
         { role: 'quit' }
       ]
     },
@@ -136,8 +194,7 @@ function createWindow() {
       submenu: [
         { role: 'minimize' },
         { role: 'zoom' },
-        { type: 'separator' },
-        { role: 'front' }
+        ...(isMac ? [{ type: 'separator' }, { role: 'front' }] : [])
       ]
     }
   ];
@@ -149,7 +206,30 @@ function createWindow() {
   });
 }
 
-app.whenReady().then(createWindow);
+// Keep a global reference to prevent garbage collection
+let mainWindow;
+
+// ─── Content Security Policy ───────────────────────────────────────────────
+// Restricts what the renderer can load/execute. Prevents XSS even if
+// malicious content were injected into question data.
+app.whenReady().then(() => {
+  session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
+    callback({
+      responseHeaders: {
+        ...details.responseHeaders,
+        'Content-Security-Policy': [
+          "default-src 'self';" +
+          "script-src 'self';" +
+          "style-src 'self' 'unsafe-inline';" +
+          "img-src 'self' data:;" +
+          "connect-src https://api.github.com https://objects.githubusercontent.com https://releases.githubusercontent.com;"
+        ]
+      }
+    });
+  });
+
+  createWindow();
+});
 
 // Quit when all windows are closed (macOS standard behavior override)
 app.on('window-all-closed', () => {

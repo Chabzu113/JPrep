@@ -1,7 +1,7 @@
 // AP Practice Platform — Global App State & Utilities
 // Handles: localStorage persistence, dark mode, shared state, helper functions
 
-const APP_VERSION = '1.2.0';   // keep in sync with GitHub release tags
+const APP_VERSION = '1.3.1';   // keep in sync with GitHub release tags
 const GITHUB_REPO  = 'Chabzu113/APCSAPractice';
 const STORAGE_KEY  = 'apcsa_state';
 
@@ -18,8 +18,8 @@ async function checkForUpdate() {
     const latestTag = (data.tag_name || '').replace(/^v/, '');
     if (!isNewerVersion(APP_VERSION, latestTag)) return;
 
-    // Find the direct download URL for the ZIP asset
-    const asset = (data.assets || []).find(a => a.name === 'APTestPrep.zip');
+    // Find the direct download URL for the macOS ZIP asset
+    const asset = (data.assets || []).find(a => a.name === 'APTestPrep-Mac.zip');
     const assetUrl = asset ? asset.browser_download_url : null;
 
     showUpdateBanner(data.tag_name, assetUrl, data.html_url);
@@ -38,7 +38,8 @@ function isNewerVersion(current, latest) {
 
 function showUpdateBanner(version, assetUrl, releaseUrl) {
   if (document.getElementById('updateBanner')) return;
-  const canAutoUpdate = !!(window.electronAPI && assetUrl);
+  // Auto-install only works on macOS; Windows users get a browser download link
+  const canAutoUpdate = !!(window.electronAPI && assetUrl && window.electronAPI.platform === 'darwin');
   const banner = document.createElement('div');
   banner.id = 'updateBanner';
   banner.innerHTML = `

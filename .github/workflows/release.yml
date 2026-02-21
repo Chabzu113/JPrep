@@ -1,0 +1,87 @@
+name: Build & Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  # ── macOS build ─────────────────────────────────────────────────────────────
+  build-mac:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: cd electron && npm install
+
+      - name: Copy app files into electron/
+        run: cd electron && npm run copy-files
+
+      - name: Build macOS app (dir target)
+        run: cd electron && npx electron-builder --mac
+
+      - name: Package macOS ZIP with launcher script
+        run: |
+          cd dist/mac-arm64
+
+          # Create the double-click launcher (removes quarantine, then opens the app)
+          cat > "Open AP Test Prep.command" << 'LAUNCHER'
+          #!/bin/bash
+          DIR="$(cd "$(dirname "$0")" && pwd)"
+          APP="$DIR/AP Test Prep.app"
+          echo "Removing macOS quarantine flag..."
+          xattr -cr "$APP"
+          echo "Opening AP Test Prep..."
+          open "$APP"
+          LAUNCHER
+          chmod +x "Open AP Test Prep.command"
+
+          # Compute SHA-256 checksum before zipping
+          shasum -a 256 "AP Test Prep.app/Contents/MacOS/AP Test Prep" > /tmp/app_sha.txt
+
+          # Create the ZIP
+          zip -r APTestPrep-Mac.zip "AP Test Prep.app" "Open AP Test Prep.command"
+
+          # Generate checksums.txt for the ZIP (used by the in-app updater to verify integrity)
+          shasum -a 256 APTestPrep-Mac.zip > checksums.txt
+
+      - name: Upload macOS release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/mac-arm64/APTestPrep-Mac.zip
+            dist/mac-arm64/checksums.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # ── Windows build ───────────────────────────────────────────────────────────
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: cd electron && npm install
+
+      - name: Copy app files into electron/
+        shell: bash
+        run: cd electron && npm run copy-files
+
+      - name: Build Windows installer (NSIS)
+        run: cd electron && npx electron-builder --win
+
+      - name: Upload Windows release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
