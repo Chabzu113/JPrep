@@ -94,8 +94,11 @@ function renderHubScreen() {
   let inProgress = null;
   try { inProgress = JSON.parse(localStorage.getItem('apcsa_active_test')); } catch(e) {}
 
+  const selectedIds = new Set(state.selectedSubjects || []);
   const subjectsWithTests = allSubjects.filter(s =>
-    s.hasContent && (s.testFiles || []).some(v => Array.isArray(window[v]) && window[v].length > 0)
+    selectedIds.has(s.id) &&
+    s.hasContent &&
+    (s.testFiles || []).some(v => Array.isArray(window[v]) && window[v].length > 0)
   );
 
   let html = `<div style="max-width:940px;margin:0 auto;padding:36px 24px">
@@ -105,7 +108,7 @@ function renderHubScreen() {
     </div>`;
 
   if (!subjectsWithTests.length) {
-    html += `<div style="text-align:center;padding:60px;color:var(--text-muted)">No practice tests available yet.</div>`;
+    html += `<div style="text-align:center;padding:60px;color:var(--text-muted)">No practice tests available for your selected subjects yet.<br><br><a href="subject-select.html" style="color:var(--accent-blue)">Update your subjects →</a></div>`;
   }
 
   for (const subject of subjectsWithTests) {
