@@ -73,6 +73,14 @@ function goBackToHub() {
   renderHubScreen();
 }
 
+function saveAndExit() {
+  saveActiveTest();
+  stopTimer();
+  clearInterval(autoSaveInterval);
+  currentSection = 'intro';
+  renderHubScreen();
+}
+
 // ─── Hub Screen — all practice tests across all subjects ──────────────────────
 function renderHubScreen() {
   setTestMode(false);
@@ -270,6 +278,7 @@ function wireButtons() {
   document.addEventListener('click', e => {
     if (e.target.id === 'startTestBtn') startSection('mcq');
     if (e.target.id === 'startFRQBtn') startSection('frq');
+    if (e.target.id === 'saveExitBtn') saveAndExit();
     if (e.target.id === 'submitSectionBtn') {
       if (currentSection === 'mcq') confirmSubmit('mcq');
       else if (currentSection === 'frq') confirmSubmit('frq');
@@ -430,6 +439,14 @@ function renderFRQQuestion(index) {
   const numEl = document.getElementById('frqQuestionNum');
   if (numEl) numEl.textContent = `FRQ ${index + 1} of ${frqQuestions.length}`;
 
+  const frqFillEl = document.getElementById('frqProgressFill');
+  if (frqFillEl) {
+    const frqAnswered = frqQuestions.filter(f =>
+      frqAnswers[f.id] && Object.values(frqAnswers[f.id]).some(v => v && v.trim())
+    ).length;
+    frqFillEl.style.width = Math.round((frqAnswered / frqQuestions.length) * 100) + '%';
+  }
+
   const flagBtn = document.getElementById('frqFlagBtn');
   if (flagBtn) {
     const isFlagged = flagged.has(frq.id);
@@ -509,14 +526,56 @@ function finishFRQ() {
   };
   App.saveTestResult(result);
   localStorage.removeItem('apcsa_active_test');
+
+  // AP score + percentile estimate based on MCQ only (FRQ not graded yet)
+  const mcqPct = mcqQuestions.length > 0 ? mcqCorrect / mcqQuestions.length : 0;
+  const mcqPctDisplay = Math.round(mcqPct * 100);
+  let estScore;
+  if (mcqPct >= 0.75) estScore = 5;
+  else if (mcqPct >= 0.60) estScore = 4;
+  else if (mcqPct >= 0.45) estScore = 3;
+  else if (mcqPct >= 0.30) estScore = 2;
+  else estScore = 1;
+
+  const PERCENTILES = {
+    apcsa: { 5:'~top 25%', 4:'~top 50%', 3:'~top 70%', 2:'~top 85%', 1:'bottom 15%' },
+    apbio: { 5:'~top 15%', 4:'~top 35%', 3:'~top 55%', 2:'~top 75%', 1:'bottom 25%' },
+    _default: { 5:'~top 20%', 4:'~top 45%', 3:'~top 65%', 2:'~top 82%', 1:'bottom 18%' }
+  };
+  const pTable = PERCENTILES[App.getActiveSubject()] || PERCENTILES._default;
+  const percentile = pTable[estScore];
+  const scoreColors = { 5:'#10B981', 4:'#3B82F6', 3:'#F59E0B', 2:'#F97316', 1:'#EF4444' };
+  const scoreColor = scoreColors[estScore];
+  const scoreLabels = { 5:'Excellent', 4:'Great', 3:'Proficient', 2:'Developing', 1:'Needs Work' };
+
   showScreen('doneScreen');
   document.getElementById('doneScreen').innerHTML = `
-    <div style="max-width:480px;margin:100px auto;text-align:center;padding:0 20px">
+    <div style="max-width:520px;margin:60px auto;text-align:center;padding:0 20px">
       <div style="font-size:3rem;margin-bottom:16px">🎉</div>
-      <h2 style="font-size:1.8rem;font-weight:800;margin-bottom:8px">Test Complete!</h2>
-      <p style="color:var(--text-muted);margin-bottom:8px">MCQ: ${mcqCorrect}/${mcqQuestions.length} answered correctly</p>
-      <p style="color:var(--text-muted);margin-bottom:32px">Grade your FRQs to get your estimated AP score.</p>
-      <a href="review.html" class="btn btn-primary btn-lg">Review & Grade FRQs →</a>
+      <h2 style="font-size:1.8rem;font-weight:800;margin-bottom:24px">Test Complete!</h2>
+
+      <!-- MCQ Score -->
+      <div class="card" style="text-align:left;margin-bottom:20px;padding:20px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+          <span style="font-weight:600">MCQ Score</span>
+          <span style="font-weight:700;font-size:1.1rem">${mcqCorrect} / ${mcqQuestions.length} &nbsp; <span style="color:${scoreColor}">${mcqPctDisplay}%</span></span>
+        </div>
+        <div style="height:8px;background:var(--bg-secondary);border-radius:99px;overflow:hidden">
+          <div style="height:100%;width:${mcqPctDisplay}%;background:${scoreColor};border-radius:99px;transition:width 0.8s"></div>
+        </div>
+      </div>
+
+      <!-- AP Score -->
+      <div class="card" style="margin-bottom:20px;padding:24px">
+        <div style="font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:8px">Estimated AP Score (MCQ only)</div>
+        <div style="font-size:4rem;font-weight:900;color:${scoreColor};line-height:1">${estScore}</div>
+        <div style="font-size:0.95rem;font-weight:600;color:${scoreColor};margin-top:4px">${scoreLabels[estScore]}</div>
+        <div style="margin-top:10px;font-size:0.85rem;color:var(--text-muted)">Approx. percentile: <strong>${percentile}</strong></div>
+        <div style="margin-top:6px;font-size:0.78rem;color:var(--text-muted)">Grade your FRQs to refine this estimate</div>
+      </div>
+
+      <a href="review.html" class="btn btn-primary btn-lg" style="width:100%;margin-bottom:12px">Review &amp; Grade FRQs →</a>
+      <button onclick="renderHubScreen()" class="btn btn-secondary" style="width:100%">← Back to Tests</button>
     </div>`;
 }
 
