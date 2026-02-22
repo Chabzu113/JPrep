@@ -1,5 +1,7 @@
 const { app, BrowserWindow, Menu, shell, ipcMain, session } = require('electron');
-const { execSync } = require('child_process');
+const { exec } = require('child_process');
+const { promisify } = require('util');
+const execAsync = promisify(exec);
 const crypto = require('crypto');
 const path = require('path');
 const os = require('os');
@@ -18,7 +20,7 @@ const ALLOWED_UPDATE_DOMAINS = [
 // macOS only: Downloads APTestPrep-Mac.zip from GitHub, verifies its SHA-256
 // checksum, extracts it, strips quarantine, replaces the running .app bundle,
 // then relaunches. On Windows the renderer falls back to a browser download.
-ipcMain.on('install-update', (event, assetUrl) => {
+ipcMain.on('install-update', async (event, assetUrl) => {
   const send = (msg) => {
     try { event.sender.send('update-progress', msg); } catch (e) {}
   };
@@ -42,27 +44,34 @@ ipcMain.on('install-update', (event, assetUrl) => {
   }
 
   const tmpDir = os.tmpdir();
-  const zipPath    = path.join(tmpDir, 'APTestPrep_update.zip');
+  const zipPath      = path.join(tmpDir, 'APTestPrep_update.zip');
   const checksumPath = path.join(tmpDir, 'APTestPrep_checksums.txt');
-  const extractDir = path.join(tmpDir, 'APTestPrep_update');
+  const extractDir   = path.join(tmpDir, 'APTestPrep_update');
 
   try {
-    // 1. Download ZIP
+    // 1. Download ZIP (async — main process stays responsive during the download)
     send('Downloading...');
-    execSync(`curl -L -o "${zipPath}" "${assetUrl}"`, { stdio: 'pipe' });
+    await execAsync(`curl -L -o "${zipPath}" "${assetUrl}"`);
 
     // 2. Download and verify checksum
+    //    Use a read stream for hashing so we never load 280 MB into RAM at once
     send('Verifying...');
     const checksumUrl = assetUrl.replace('APTestPrep-Mac.zip', 'checksums.txt');
     try {
-      execSync(`curl -L -o "${checksumPath}" "${checksumUrl}"`, { stdio: 'pipe' });
+      await execAsync(`curl -L -o "${checksumPath}" "${checksumUrl}"`);
       const checksumsText = fs.readFileSync(checksumPath, 'utf8');
-      const expectedLine = checksumsText.split('\n').find(l => l.includes('APTestPrep-Mac.zip'));
-      const expectedHash = expectedLine ? expectedLine.split(/\s+/)[0].trim() : null;
+      const expectedLine  = checksumsText.split('\n').find(l => l.includes('APTestPrep-Mac.zip'));
+      const expectedHash  = expectedLine ? expectedLine.split(/\s+/)[0].trim() : null;
       if (expectedHash) {
-        const actualHash = crypto.createHash('sha256').update(fs.readFileSync(zipPath)).digest('hex');
+        const actualHash = await new Promise((resolve, reject) => {
+          const hash   = crypto.createHash('sha256');
+          const stream = fs.createReadStream(zipPath);
+          stream.on('data',  chunk => hash.update(chunk));
+          stream.on('end',   ()    => resolve(hash.digest('hex')));
+          stream.on('error', reject);
+        });
         if (actualHash !== expectedHash) {
-          execSync(`rm -f "${zipPath}" "${checksumPath}"`);
+          await execAsync(`rm -f "${zipPath}" "${checksumPath}"`);
           send('Update cancelled: file integrity check failed. Please try again or download manually.');
           return;
         }
@@ -73,25 +82,25 @@ ipcMain.on('install-update', (event, assetUrl) => {
 
     // 3. Extract
     send('Extracting...');
-    execSync(`rm -rf "${extractDir}" && unzip -o "${zipPath}" -d "${extractDir}"`, { stdio: 'pipe' });
+    await execAsync(`rm -rf "${extractDir}" && unzip -o "${zipPath}" -d "${extractDir}"`);
 
-    // 4. Remove macOS quarantine (same as Open AP Test Prep.command launcher)
+    // 4. Remove macOS quarantine
     send('Installing...');
-    execSync(`xattr -cr "${extractDir}/AP Test Prep.app"`, { stdio: 'pipe' });
+    await execAsync(`xattr -cr "${extractDir}/AP Test Prep.app"`);
 
     // 5. Locate running .app bundle
     //    app.getPath('exe') → /…/AP Test Prep.app/Contents/MacOS/AP Test Prep
-    const exePath = app.getPath('exe');
+    const exePath     = app.getPath('exe');
     const dotAppIndex = exePath.indexOf('.app/');
     if (dotAppIndex === -1) throw new Error('Could not locate .app bundle path');
     const appPath = exePath.substring(0, dotAppIndex + 5);
 
     // 6. Replace old app with new one
-    execSync(`rm -rf "${appPath}"`, { stdio: 'pipe' });
-    execSync(`cp -r "${extractDir}/AP Test Prep.app" "${appPath}"`, { stdio: 'pipe' });
+    await execAsync(`rm -rf "${appPath}"`);
+    await execAsync(`cp -r "${extractDir}/AP Test Prep.app" "${appPath}"`);
 
     // 7. Clean up temp files
-    execSync(`rm -f "${zipPath}" "${checksumPath}" && rm -rf "${extractDir}"`, { stdio: 'pipe' });
+    await execAsync(`rm -f "${zipPath}" "${checksumPath}" && rm -rf "${extractDir}"`);
 
     // 8. Relaunch into updated version
     send('Restarting...');
