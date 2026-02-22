@@ -44,6 +44,24 @@ jobs:
       - name: Upload macOS release assets
         uses: softprops/action-gh-release@v2
         with:
+          body: |
+            ## Install Instructions
+
+            ### macOS
+            1. Download **APTestPrep-Mac.dmg** and open it
+            2. Drag **AP Test Prep** into your Applications folder
+            3. **If the app doesn't open** (macOS security warning), run this in Terminal:
+            ```
+            xattr -cr /Applications/"AP Test Prep.app"
+            ```
+            Then double-click the app again.
+
+            ### Windows
+            1. Download **AP.Test.Prep.Setup.${{ github.ref_name }}.exe** and run it
+            2. Click "More info → Run anyway" if Windows Defender SmartScreen appears
+
+            ---
+            > The in-app updater will handle future updates automatically.
           files: |
             dist/APTestPrep-Mac.dmg
             dist/mac-arm64/APTestPrep-Mac.zip
