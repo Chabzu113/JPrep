@@ -3,14 +3,9 @@
 const selectedSet = new Set();
 
 function initSubjectSelect() {
-  // If already configured, skip to home
   const state = App.getState();
-  if (state.subjectsConfigured && state.selectedSubjects.length > 0) {
-    App.navigateTo('index.html');
-    return;
-  }
 
-  // Pre-select any already-saved subjects (e.g. user came back to change)
+  // Pre-select any already-saved subjects so returning users see their current picks
   (state.selectedSubjects || []).forEach(id => selectedSet.add(id));
 
   renderSubjectGrid();
@@ -101,8 +96,8 @@ function confirmSelection() {
     }
   });
 
-  // Pick active subject: prefer apcsa if selected, else first in list
-  const activeSubject = ids.includes('apcsa') ? 'apcsa' : ids[0];
+  // Keep current active subject if it's still selected, otherwise use first in list
+  const activeSubject = ids.includes(state.activeSubject) ? state.activeSubject : ids[0];
 
   App.updateState({
     selectedSubjects: ids,

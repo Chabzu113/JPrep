@@ -44,8 +44,12 @@
     .math-display .katex-display { margin:4px 0; }
     .choice-item .katex { font-size:1em; }
     /* ── Desmos panel ─────────────────────────────────────────────── */
-    #desmos-panel { display:none; position:fixed; bottom:20px; right:20px; width:440px; height:340px; background:#fff; border:2px solid var(--border-color); border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,.18); z-index:9999; overflow:hidden; }
-    #desmos-close { position:absolute; top:6px; right:10px; background:none; border:none; font-size:1.2rem; cursor:pointer; color:#555; z-index:10000; line-height:1; }
+    #desmos-panel { display:none; position:fixed; bottom:20px; right:20px; width:460px; height:360px; background:#fff; border:2px solid var(--border-color); border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,.18); z-index:9999; overflow:hidden; resize:both; min-width:280px; min-height:200px; }
+    #desmos-drag { display:flex; align-items:center; justify-content:space-between; padding:0 10px; height:32px; background:var(--bg-secondary); border-bottom:1px solid var(--border-color); cursor:grab; border-radius:10px 10px 0 0; user-select:none; flex-shrink:0; }
+    #desmos-drag:active { cursor:grabbing; }
+    #desmos-drag-label { font-size:0.75rem; font-weight:600; color:var(--text-muted); letter-spacing:0.03em; }
+    #desmos-close { background:none; border:none; font-size:1.1rem; cursor:pointer; color:#777; line-height:1; padding:2px 4px; border-radius:4px; }
+    #desmos-close:hover { background:var(--bg-card); color:var(--text-primary); }
     .calc-btn { background:var(--bg-secondary); border:1px solid var(--border-color); padding:6px 12px; border-radius:6px; cursor:pointer; color:var(--text-primary); font-size:0.85rem; }
     .calc-btn:hover { background:var(--bg-card); }
   </style>
@@ -63,10 +67,10 @@
 
   <!-- Test Navbar (shown during an active test) -->
   <nav class="test-navbar hidden" id="testNavbar">
-    <a href="#" onclick="goBackToHub();return false;" class="navbar-brand" style="text-decoration:none;font-size:0.9rem;color:var(--text-muted)">← Tests</a>
+    <a href="#" id="goBackBtn" class="navbar-brand" style="text-decoration:none;font-size:0.9rem;color:var(--text-muted)">← Tests</a>
     <div class="timer" id="timerDisplay" style="font-family:monospace;font-size:1.2rem;font-weight:700">1:30:00</div>
     <div style="display:flex;gap:8px;align-items:center">
-      <button class="calc-btn" onclick="toggleDesmos()" title="Graphing Calculator">📊 Calc</button>
+      <button class="calc-btn" id="desmosBtn" title="Graphing Calculator">📊 Calc</button>
       <button class="btn btn-secondary btn-sm" id="saveExitBtn">💾 Save &amp; Exit</button>
       <button class="btn btn-danger btn-sm" id="submitSectionBtn">Submit Section</button>
     </div>
@@ -141,12 +145,13 @@
     </div>
   </div>
 
-  <!-- Desmos Graphing Calculator (loaded async; toggleDesmos() handles offline gracefully) -->
-  <script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0faa6" async></script>
-  <!-- Desmos floating panel -->
-  <div id="desmos-panel">
-    <button id="desmos-close" onclick="toggleDesmos()" title="Close">✕</button>
-    <div id="desmos-container" style="width:100%;height:100%;"></div>
+  <!-- Desmos floating panel — draggable + resizable -->
+  <div id="desmos-panel" style="display:none">
+    <div id="desmos-drag">
+      <span id="desmos-drag-label">📊 Desmos Calculator</span>
+      <button id="desmos-close" title="Close">✕</button>
+    </div>
+    <iframe src="https://www.desmos.com/calculator" style="width:100%;height:calc(100% - 32px);border:none;display:block;" title="Desmos Graphing Calculator"></iframe>
   </div>
   <!-- Question bank data -->
   <script src="js/data/mcq_u1u2.js"></script>

@@ -9,6 +9,16 @@
   <link rel="stylesheet" href="css/planner.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+  <style>
+    #desmos-panel { display:none; position:fixed; bottom:20px; right:20px; width:460px; height:360px; background:#fff; border:2px solid var(--border-color); border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,.18); z-index:9999; overflow:hidden; resize:both; min-width:280px; min-height:200px; }
+    #desmos-drag { display:flex; align-items:center; justify-content:space-between; padding:0 10px; height:32px; background:var(--bg-secondary); border-bottom:1px solid var(--border-color); cursor:grab; border-radius:10px 10px 0 0; user-select:none; flex-shrink:0; }
+    #desmos-drag:active { cursor:grabbing; }
+    #desmos-drag-label { font-size:0.75rem; font-weight:600; color:var(--text-muted); letter-spacing:0.03em; }
+    #desmos-close { background:none; border:none; font-size:1.1rem; cursor:pointer; color:#777; line-height:1; padding:2px 4px; border-radius:4px; }
+    #desmos-close:hover { background:var(--bg-card); color:var(--text-primary); }
+    .calc-btn { background:var(--bg-secondary); border:1px solid var(--border-color); padding:6px 12px; border-radius:6px; cursor:pointer; color:var(--text-primary); font-size:0.85rem; }
+    .calc-btn:hover { background:var(--bg-card); }
+  </style>
 </head>
 <body>
 
@@ -89,14 +99,10 @@
           </div>
         </div>
 
-        <!-- Type -->
+        <!-- Type (dynamically populated from subject's questionTypes by questionBank.js) -->
         <div class="filter-group">
           <span class="filter-label">Question Type</span>
-          <div class="filter-chips" id="typeChips">
-            <button class="filter-chip active" data-filter="type" data-value="all">All</button>
-            <button class="filter-chip" data-filter="type" data-value="MCQ">MCQ</button>
-            <button class="filter-chip" data-filter="type" data-value="FRQ">FRQ</button>
-          </div>
+          <div class="filter-chips" id="typeChips"></div>
         </div>
 
         <!-- Status -->
@@ -151,7 +157,7 @@
     </div>
 
     <!-- Mobile filter overlay -->
-    <div class="modal-overlay hidden" id="filterOverlay" onclick="document.getElementById('filtersSidebar').classList.remove('open');this.classList.add('hidden')"></div>
+    <div class="modal-overlay hidden" id="filterOverlay"></div>
   </div><!-- /#setupScreen -->
 
 
@@ -173,6 +179,7 @@
       </div>
       <div class="session-header-right">
         <span id="sessionScore" class="session-score-badge"></span>
+        <button class="calc-btn" id="desmosBtn" title="Graphing Calculator">📊 Calc</button>
         <button class="btn btn-secondary btn-sm dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
       </div>
     </div>
@@ -200,6 +207,15 @@
   </div><!-- /#sessionScreen -->
 
 
+
+  <!-- Desmos floating panel — draggable + resizable, works for AP Bio FRQ & AP Calc AB -->
+  <div id="desmos-panel" style="display:none">
+    <div id="desmos-drag">
+      <span id="desmos-drag-label">📊 Desmos Calculator</span>
+      <button id="desmos-close" title="Close">✕</button>
+    </div>
+    <iframe src="https://www.desmos.com/calculator" style="width:100%;height:calc(100% - 32px);border:none;display:block;" title="Desmos Graphing Calculator"></iframe>
+  </div>
 
   <script src="js/subjects.js"></script>
   <script src="js/data/mcq_u1u2.js"></script>

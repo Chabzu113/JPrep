@@ -1,33 +1,6 @@
 // AP Practice Test Runner
-
-// ─── Math rendering (KaTeX) ───────────────────────────────────────────────────
-function isLatexString(s) {
-  return typeof s === 'string' && (
-    s.startsWith('\\') || /\\(frac|sqrt|lim|int|sum|infty|cdot|leq|geq|neq|pi|theta|alpha|beta|delta|sigma|lambda|mu|to|pm|times|div)/.test(s)
-  );
-}
-
-function renderMath(container) {
-  if (typeof katex === 'undefined') return; // offline / CDN not yet loaded
-  container.querySelectorAll('[data-latex]').forEach(el => {
-    try {
-      katex.render(el.dataset.latex, el, {
-        throwOnError: false,
-        displayMode: el.dataset.display === 'true',
-        output: 'html'
-      });
-    } catch (e) { /* leave raw text on error */ }
-  });
-}
-
-function mathSpan(text, display) {
-  if (isLatexString(text)) {
-    // Safely embed in a span; KaTeX will render it after innerHTML is set
-    const escaped = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-    return `<span data-latex="${escaped}" data-display="${display ? 'true' : 'false'}"></span>`;
-  }
-  return App.escapeHtml(String(text));
-}
+// Note: isLatexString, renderMath, mathSpan, renderFRQPromptText, initDesmos,
+// toggleDesmos are all global functions defined in app.js (loaded first).
 
 function buildTableHtml(tableData) {
   if (!tableData || !tableData.headers) return '';
@@ -37,23 +10,6 @@ function buildTableHtml(tableData) {
     return `<tr>${tds}</tr>`;
   }).join('');
   return `<div class="q-table-wrap"><table class="q-table"><thead><tr>${ths}</tr></thead><tbody>${rows}</tbody></table></div>`;
-}
-
-// ─── Desmos Graphing Calculator ───────────────────────────────────────────────
-let desmosCalc = null;
-
-function initDesmos() {
-  if (typeof Desmos === 'undefined' || desmosCalc) return;
-  const el = document.getElementById('desmos-container');
-  if (el) desmosCalc = Desmos.GraphingCalculator(el, { expressionsCollapsed: true });
-}
-
-function toggleDesmos() {
-  const panel = document.getElementById('desmos-panel');
-  if (!panel) return;
-  const visible = panel.style.display !== 'none';
-  panel.style.display = visible ? 'none' : 'block';
-  if (!visible) initDesmos();
 }
 
 // ─── State ────────────────────────────────────────────────────────────────────
@@ -329,11 +285,20 @@ function renderIntroScreen() {
         </div>
       </div>
       <button class="btn btn-primary btn-lg" id="startTestBtn">Start Test →</button>
-      <br><a href="#" onclick="goBackToHub();return false;" style="display:inline-block;margin-top:16px;color:var(--text-muted);font-size:0.9rem">← All Tests</a>
+      <br><a href="#" id="allTestsLink" style="display:inline-block;margin-top:16px;color:var(--text-muted);font-size:0.9rem">← All Tests</a>
     </div>`;
 }
 
 function wireButtons() {
+  // Wire up static buttons (navbar goBack + desmos) that can't use inline onclick due to CSP
+  const goBackBtn = document.getElementById('goBackBtn');
+  if (goBackBtn) goBackBtn.addEventListener('click', e => { e.preventDefault(); goBackToHub(); });
+  const desmosBtn = document.getElementById('desmosBtn');
+  if (desmosBtn) desmosBtn.addEventListener('click', toggleDesmos);
+  const desmosClose = document.getElementById('desmos-close');
+  if (desmosClose) desmosClose.addEventListener('click', toggleDesmos);
+
+  // Event delegation for dynamically-rendered buttons
   document.addEventListener('click', e => {
     if (e.target.id === 'startTestBtn') startSection('mcq');
     if (e.target.id === 'startFRQBtn') startSection('frq');
@@ -348,6 +313,8 @@ function wireButtons() {
     if (e.target.id === 'nextMCQ') goNextMCQ();
     if (e.target.id === 'prevFRQ') goPrevFRQ();
     if (e.target.id === 'nextFRQ') goNextFRQ();
+    // Dynamically-rendered "← All Tests" link in test intro screen
+    if (e.target.id === 'allTestsLink') { e.preventDefault(); goBackToHub(); }
   });
 }
 
@@ -547,8 +514,8 @@ function renderFRQQuestion(index) {
         <span class="badge badge-frq">${frq.type || frq.frqType || 'FRQ'}</span>
         <span class="badge badge-unit">${frq.source || 'Original'}</span>
       </div>
-      <h3 style="font-size:1.2rem;font-weight:700;margin-bottom:12px">${frq.title}</h3>
-      <div style="white-space:pre-wrap;line-height:1.7;color:var(--text-primary);margin-bottom:16px">${App.escapeHtml(frq.prompt || '')}</div>
+      <h3 style="font-size:1.2rem;font-weight:700;margin-bottom:12px">${App.escapeHtml(frq.title)}</h3>
+      <div style="white-space:pre-wrap;line-height:1.7;color:var(--text-primary);margin-bottom:16px">${renderFRQPromptText(frq.prompt || '')}</div>
       ${frq.starterCode ? `<p style="font-weight:600;margin-bottom:6px">Given code:</p>${App.renderCode(frq.starterCode)}` : ''}
     </div>
     ${(frq.parts || []).map(p => {
@@ -558,12 +525,15 @@ function renderFRQQuestion(index) {
       return `
       <div class="frq-part">
         <div class="frq-part-label">Part (${p.label}) ${pointsHtml}</div>
-        <div class="frq-part-instruction">${App.escapeHtml(instruction)}</div>
+        <div class="frq-part-instruction">${renderFRQPromptText(instruction)}</div>
         <textarea class="frq-textarea" placeholder="${placeholder}"
           onchange="saveFRQInput('${frq.id}','${p.label}',this.value)"
           oninput="saveFRQInput('${frq.id}','${p.label}',this.value)">${App.escapeHtml(saved[p.label] || '')}</textarea>
       </div>`;
     }).join('')}`;
+
+  // Render any LaTeX that was embedded as data-latex spans
+  renderMath(content);
 
   const prevBtn = document.getElementById('prevFRQ');
   const nextBtn = document.getElementById('nextFRQ');

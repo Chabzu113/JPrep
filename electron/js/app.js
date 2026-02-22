@@ -1,7 +1,7 @@
 // AP Practice Platform — Global App State & Utilities
 // Handles: localStorage persistence, dark mode, shared state, helper functions
 
-const APP_VERSION = '1.3.8';   // keep in sync with GitHub release tags
+const APP_VERSION = '1.4.0';   // keep in sync with GitHub release tags
 const GITHUB_REPO  = 'Chabzu113/APCSAPractice';
 const STORAGE_KEY  = 'apcsa_state';
 
@@ -199,7 +199,18 @@ function getUnitStats(unitNumber) {
   const subjId = getActiveSubject();
   const bucket = state.subjects[subjId] || {};
   const questionHistory = bucket.questionHistory || {};
-  const allQ = getAllQuestions();
+  // Load questions for the active subject (not AP CS A legacy getAllQuestions())
+  const subj = typeof SubjectRegistry !== 'undefined' ? SubjectRegistry.getSubjectById(subjId) : null;
+  const allQ = [];
+  if (subj && subj.dataFiles) {
+    subj.dataFiles.forEach(f => {
+      const arr = window[f];
+      if (Array.isArray(arr)) allQ.push(...arr);
+    });
+  } else {
+    // Fallback to legacy AP CS A globals if SubjectRegistry unavailable
+    allQ.push(...getAllQuestions());
+  }
   const unitQ = allQ.filter(q => q.unit === unitNumber);
   let seen = 0, correct = 0;
   unitQ.forEach(q => {
@@ -458,6 +469,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initDarkMode();
   initNavbar();
   checkForUpdate();
+  initDesmosPanel(); // no-op on pages that don't have the panel
 });
 
 // ─── Public API ──────────────────────────────────────────────────────────────
@@ -477,3 +489,107 @@ window.App = {
   formatDate, formatPercent, shuffle, clamp, debounce, escapeHtml,
   renderCode, estimateAPScore
 };
+
+// ─── Math Rendering Utilities (KaTeX) ────────────────────────────────────────
+// Global helpers shared by questionBank.js and testRunner.js.
+// Requires KaTeX to be loaded on the page (deferred CDN script).
+
+function isLatexString(s) {
+  return typeof s === 'string' && (
+    s.startsWith('\\') ||
+    /\\(frac|sqrt|lim|int|sum|infty|cdot|leq|geq|neq|pi|theta|alpha|beta|delta|sigma|lambda|mu|to|pm|times|div)/.test(s)
+  );
+}
+
+function renderMath(container) {
+  if (typeof katex === 'undefined') return; // offline or CDN not yet loaded
+  container.querySelectorAll('[data-latex]').forEach(el => {
+    try {
+      katex.render(el.dataset.latex, el, {
+        throwOnError: false,
+        displayMode: el.dataset.display === 'true',
+        output: 'html'
+      });
+    } catch(e) { /* leave raw text on KaTeX error */ }
+  });
+}
+
+function mathSpan(text, display) {
+  if (isLatexString(text)) {
+    const escaped = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    return `<span data-latex="${escaped}" data-display="${display ? 'true' : 'false'}"></span>`;
+  }
+  return App.escapeHtml(String(text));
+}
+
+// Renders text that may contain LaTeX: $$...$$ (display), $...$ (inline),
+// or a fully-raw LaTeX string (detected by isLatexString).
+function renderFRQPromptText(text) {
+  if (!text) return '';
+  if (isLatexString(text)) return mathSpan(text, false);
+  const re = /(\$\$[\s\S]*?\$\$|\$[^$\n]+?\$)/g;
+  let lastIndex = 0, result = '', match;
+  while ((match = re.exec(text)) !== null) {
+    if (match.index > lastIndex) result += App.escapeHtml(text.slice(lastIndex, match.index));
+    const raw = match[0];
+    const isDisplay = raw.startsWith('$$');
+    const inner = isDisplay ? raw.slice(2, -2).trim() : raw.slice(1, -1).trim();
+    const esc = inner.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    result += `<span data-latex="${esc}" data-display="${isDisplay ? 'true' : 'false'}"></span>`;
+    lastIndex = match.index + raw.length;
+  }
+  if (lastIndex < text.length) result += App.escapeHtml(text.slice(lastIndex));
+  return result;
+}
+
+// ─── Desmos Graphing Calculator ───────────────────────────────────────────────
+// Toggles the floating Desmos panel (iframe-based, no API key needed).
+// Buttons wire up via addEventListener in questionBank.js / testRunner.js —
+// NOT onclick attributes, which are blocked by the Electron CSP.
+function toggleDesmos() {
+  const panel = document.getElementById('desmos-panel');
+  if (!panel) return;
+  const visible = panel.style.display !== 'none';
+  panel.style.display = visible ? 'none' : 'block';
+}
+
+// Makes the Desmos panel draggable via its title bar (#desmos-drag).
+// Called once on DOMContentLoaded for pages that include the panel.
+function initDesmosPanel() {
+  const panel = document.getElementById('desmos-panel');
+  const handle = document.getElementById('desmos-drag');
+  if (!panel || !handle) return;
+
+  let isDragging = false;
+  let startMouseX = 0, startMouseY = 0;
+  let startPanelLeft = 0, startPanelTop = 0;
+
+  handle.addEventListener('mousedown', e => {
+    // Don't initiate drag when clicking the close button inside the handle
+    if (e.target.id === 'desmos-close') return;
+    isDragging = true;
+    const rect = panel.getBoundingClientRect();
+    // Switch from bottom/right anchoring to top/left so we can move it freely
+    panel.style.bottom = 'auto';
+    panel.style.right  = 'auto';
+    panel.style.left   = rect.left + 'px';
+    panel.style.top    = rect.top  + 'px';
+    startMouseX    = e.clientX;
+    startMouseY    = e.clientY;
+    startPanelLeft = rect.left;
+    startPanelTop  = rect.top;
+    e.preventDefault();
+  });
+
+  document.addEventListener('mousemove', e => {
+    if (!isDragging) return;
+    const dx = e.clientX - startMouseX;
+    const dy = e.clientY - startMouseY;
+    const maxX = window.innerWidth  - panel.offsetWidth;
+    const maxY = window.innerHeight - panel.offsetHeight;
+    panel.style.left = Math.max(0, Math.min(startPanelLeft + dx, maxX)) + 'px';
+    panel.style.top  = Math.max(0, Math.min(startPanelTop  + dy, maxY)) + 'px';
+  });
+
+  document.addEventListener('mouseup', () => { isDragging = false; });
+}

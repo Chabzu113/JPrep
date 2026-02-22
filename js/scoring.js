@@ -132,7 +132,7 @@ function renderScoreSummary(containerId, testResult) {
 function renderUnitBreakdown(containerId, breakdown) {
   const el = document.getElementById(containerId);
   if (!el) return;
-  const colors = { 1: '#3B82F6', 2: '#10B981', 3: '#8B5CF6', 4: '#F59E0B' };
+  const colors = { 1: '#3B82F6', 2: '#10B981', 3: '#8B5CF6', 4: '#F59E0B', 5: '#EF4444', 6: '#06B6D4', 7: '#F97316', 8: '#84CC16' };
   el.innerHTML = breakdown.map(u => `
     <div class="unit-breakdown-row">
       <div class="unit-breakdown-label">

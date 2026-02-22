@@ -99,6 +99,22 @@ function renderSubjectContext() {
   }
 }
 
+// ─── Question Type Label ───────────────────────────────────────────────────────
+// Returns the fine-grained type label used for filtering. Called at load time so
+// that the per-subject questionTypes chips always match normalised question types.
+function getQuestionTypeLabel(q, subjId) {
+  const isFRQ = Array.isArray(q.units) && q.units.length > 0 && !q.choices;
+  if (isFRQ) {
+    const ft = q.frqType;
+    return ft === 'short' ? 'Short FRQ' : ft === 'long' ? 'Long FRQ' : 'FRQ';
+  }
+  // MCQ
+  if (subjId === 'apcalcab') {
+    return q.calculator ? 'Calc MCQ' : 'Non-Calc MCQ';
+  }
+  return 'MCQ';
+}
+
 // ─── Load questions for the active subject ────────────────────────────────────
 function loadQuestionsForActiveSubject() {
   if (typeof SubjectRegistry === 'undefined' || typeof App === 'undefined') {
@@ -123,7 +139,7 @@ function loadQuestionsForActiveSubject() {
       questions.push({
         ...q,
         subject: subjectId,
-        type: q.type || (isFRQ ? 'FRQ' : 'MCQ'),
+        type: getQuestionTypeLabel(q, subjectId),
         unit: isFRQ ? q.units[0] : q.unit
       });
     });
@@ -190,6 +206,25 @@ function applyFilters() {
 }
 
 // ─── Render Filters ───────────────────────────────────────────────────────────
+
+// Builds type filter chips from the active subject's questionTypes definition.
+// Falls back to All / MCQ / FRQ for subjects that don't define questionTypes.
+function renderTypeFilterChips() {
+  const subj = typeof SubjectRegistry !== 'undefined'
+    ? SubjectRegistry.getSubjectById(App.getActiveSubject())
+    : null;
+  const types = (subj && subj.questionTypes)
+    ? subj.questionTypes
+    : [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'FRQ', label: 'FRQ' }];
+  const container = document.getElementById('typeChips');
+  if (!container) return;
+  // Render chips with active state — click handling is done by the global
+  // document listener in wireSetupListeners() which calls applyFilters().
+  container.innerHTML = types.map(t =>
+    `<button class="filter-chip${currentFilters.type === t.value ? ' active' : ''}" data-filter="type" data-value="${t.value}">${t.label}</button>`
+  ).join('');
+}
+
 function renderFilters() {
   const diffFilter = document.getElementById('diffChips');
   if (diffFilter) {
@@ -198,13 +233,8 @@ function renderFilters() {
       if (btn) btn.className = `filter-chip${currentFilters.difficulty === o.v ? ' active' : ''}`;
     });
   }
-  const typeFilter = document.getElementById('typeChips');
-  if (typeFilter) {
-    [{ v: 'all', l: 'All' }, { v: 'MCQ', l: 'MCQ' }, { v: 'FRQ', l: 'FRQ' }].forEach(o => {
-      const btn = typeFilter.querySelector(`[data-value="${o.v}"]`);
-      if (btn) btn.className = `filter-chip${currentFilters.type === o.v ? ' active' : ''}`;
-    });
-  }
+  // Type chips are fully dynamic — rebuilt from subject's questionTypes
+  renderTypeFilterChips();
   const statusFilter = document.getElementById('statusChips');
   if (statusFilter) {
     [{ v: 'all' }, { v: 'unseen' }, { v: 'correct' }, { v: 'incorrect' }].forEach(o => {
@@ -493,8 +523,10 @@ function renderSessionQuestion() {
     // FRQ: smart rendering — split prose from embedded code
     questionHtml = `<div class="session-question-text frq-prompt">${renderFRQPrompt(q.prompt || '')}</div>`;
   } else {
-    // MCQ: plain text, escape properly
-    questionHtml = `<div class="session-question-text">${safeText(q.question || '')}</div>`;
+    // MCQ: use mathSpan for LaTeX questions, safeText for plain text
+    questionHtml = q.isLatex
+      ? `<div class="session-question-text math-display">${mathSpan(q.question, true)}</div>`
+      : `<div class="session-question-text">${safeText(q.question || '')}</div>`;
   }
 
   // MCQ code block (separate field)
@@ -515,12 +547,15 @@ function renderSessionQuestion() {
         if (ci === q.answer) { cls += ' correct'; icon = '<span class="choice-icon correct-icon">✓</span>'; }
         else if (ci === state.selectedIndex) { cls += ' incorrect'; icon = '<span class="choice-icon wrong-icon">✗</span>'; }
       }
-      // Choice text: may contain code snippets — render inline code with monospace
+      // Choice text: LaTeX → mathSpan, code → monospace, plain → escapeHtml
       const choiceText = String(c).replace(/\n/g, ' ');
-      const isCodeChoice = /[{};=()]/.test(choiceText) && choiceText.length < 80;
-      const renderedChoice = isCodeChoice
-        ? `<code style="font-family:monospace;font-size:0.9em">${App.escapeHtml(choiceText)}</code>`
-        : App.escapeHtml(choiceText);
+      const isLatexChoice = isLatexString(choiceText);
+      const isCodeChoice = !isLatexChoice && /[{};=()]/.test(choiceText) && choiceText.length < 80;
+      const renderedChoice = isLatexChoice
+        ? mathSpan(choiceText, false)
+        : isCodeChoice
+          ? `<code style="font-family:monospace;font-size:0.9em">${App.escapeHtml(choiceText)}</code>`
+          : App.escapeHtml(choiceText);
 
       return `<label class="${cls}" style="cursor:${state ? 'default' : 'pointer'}" data-ci="${ci}">
         <input type="radio" name="session_choice" value="${ci}" style="display:none" ${state ? 'disabled' : ''} ${state && ci === state.selectedIndex ? 'checked' : ''}>
@@ -642,6 +677,9 @@ function renderSessionQuestion() {
       ${starterHtml}
       <div class="session-answer-area">${bodyHtml}</div>
     </div>`;
+
+  // Render any LaTeX embedded as data-latex spans (AP Calc AB, etc.)
+  renderMath(wrap);
 
   // Wire MCQ choices
   if (!isFRQ && !state) {
@@ -820,6 +858,21 @@ function wireSetupListeners() {
   if (mobileToggle && sidebar) {
     mobileToggle.addEventListener('click', () => sidebar.classList.toggle('open'));
   }
+
+  // Filter overlay (mobile) — close sidebar when overlay is clicked
+  const filterOverlay = document.getElementById('filterOverlay');
+  if (filterOverlay && sidebar) {
+    filterOverlay.addEventListener('click', () => {
+      sidebar.classList.remove('open');
+      filterOverlay.classList.add('hidden');
+    });
+  }
+
+  // Desmos calculator button (can't use inline onclick due to CSP)
+  const desmosBtn = document.getElementById('desmosBtn');
+  if (desmosBtn) desmosBtn.addEventListener('click', toggleDesmos);
+  const desmosClose = document.getElementById('desmos-close');
+  if (desmosClose) desmosClose.addEventListener('click', toggleDesmos);
 
   // Question limit input — update the "ready" count live
   const limitInput = document.getElementById('questionLimitInput');

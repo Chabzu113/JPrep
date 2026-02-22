@@ -223,18 +223,28 @@ let mainWindow;
 // malicious content were injected into question data.
 app.whenReady().then(() => {
   session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
-    callback({
-      responseHeaders: {
-        ...details.responseHeaders,
-        'Content-Security-Policy': [
-          "default-src 'self';" +
-          "script-src 'self';" +
-          "style-src 'self' 'unsafe-inline';" +
-          "img-src 'self' data:;" +
-          "connect-src https://api.github.com https://objects.githubusercontent.com https://releases.githubusercontent.com;"
-        ]
-      }
-    });
+    // Only inject our CSP on local HTML pages — NOT on external iframe content
+    // (e.g. the Desmos iframe has its own CSP from desmos.com; overriding it breaks it)
+    if (details.url.startsWith('file://')) {
+      callback({
+        responseHeaders: {
+          ...details.responseHeaders,
+          'Content-Security-Policy': [
+            "default-src 'self';" +
+            "script-src 'self' https://cdn.jsdelivr.net;" +
+            "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;" +
+            "font-src 'self' https://cdn.jsdelivr.net;" +
+            "img-src 'self' data:;" +
+            "connect-src https://api.github.com https://objects.githubusercontent.com https://releases.githubusercontent.com;" +
+            "frame-src https://www.desmos.com;" +
+            "worker-src 'self' blob:;"
+          ]
+        }
+      });
+    } else {
+      // Pass external responses through unchanged (preserves Desmos's own CSP)
+      callback({ responseHeaders: details.responseHeaders });
+    }
   });
 
   createWindow();

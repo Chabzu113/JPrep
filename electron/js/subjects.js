@@ -14,6 +14,11 @@ const SUBJECTS = [
     hasContent: true,
     dataFiles: ['MCQ_U1U2', 'MCQ_U3U4', 'FRQ_BANK'],
     testFiles: ['PRACTICE_TESTS'],
+    questionTypes: [
+      { value: 'all', label: 'All' },
+      { value: 'MCQ', label: 'MCQ' },
+      { value: 'FRQ', label: 'FRQ' }
+    ],
     units: [
       { num: 1, title: 'Using Objects and Methods',  weight: '15–25%', topics: [
         { value: '1.1',  label: '1.1 Introduction to Algorithms' },
@@ -91,6 +96,12 @@ const SUBJECTS = [
     dataFiles: ['APBIO_MCQ', 'APBIO_FRQ'],
     testFiles: ['APBIO_TESTS'],
     testDataFiles: ['APBIO_TEST_MCQ'],
+    questionTypes: [
+      { value: 'all',       label: 'All' },
+      { value: 'MCQ',       label: 'MCQ' },
+      { value: 'Short FRQ', label: 'Short FRQ' },
+      { value: 'Long FRQ',  label: 'Long FRQ' }
+    ],
     units: [
       { num: 1, title: 'Chemistry of Life', weight: '8–11%', topics: [
         { value: '1.1', label: '1.1 Water Properties' },
@@ -173,6 +184,13 @@ const SUBJECTS = [
     hasContent: true,
     dataFiles: ['APCALC_MCQ'],
     testFiles: [],
+    questionTypes: [
+      { value: 'all',          label: 'All' },
+      { value: 'Non-Calc MCQ', label: 'Non-Calc MCQ' },
+      { value: 'Calc MCQ',     label: 'Calc MCQ' },
+      { value: 'Short FRQ',    label: 'Short FRQ' },
+      { value: 'Long FRQ',     label: 'Long FRQ' }
+    ],
     units: [
       { num: 1, title: 'Limits and Continuity', weight: '10–12%', topics: [
         { value: '1.1', label: '1.1 Limits – Algebraic Evaluation' },
@@ -236,6 +254,7 @@ const SUBJECTS = [
     hasContent: false,
     dataFiles: [],
     testFiles: [],
+    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'FRQ', label: 'FRQ' }],
     units: []
   },
   {
@@ -250,6 +269,7 @@ const SUBJECTS = [
     hasContent: false,
     dataFiles: [],
     testFiles: [],
+    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'FRQ', label: 'FRQ' }],
     units: []
   },
   {
@@ -264,6 +284,7 @@ const SUBJECTS = [
     hasContent: false,
     dataFiles: [],
     testFiles: [],
+    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'FRQ', label: 'FRQ' }],
     units: []
   },
   {
@@ -278,6 +299,7 @@ const SUBJECTS = [
     hasContent: false,
     dataFiles: [],
     testFiles: [],
+    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'FRQ', label: 'FRQ' }],
     units: []
   },
   {
@@ -292,6 +314,7 @@ const SUBJECTS = [
     hasContent: false,
     dataFiles: [],
     testFiles: [],
+    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'SAQ', label: 'SAQ' }, { value: 'LEQ', label: 'LEQ' }, { value: 'DBQ', label: 'DBQ' }],
     units: []
   },
   {
@@ -306,6 +329,7 @@ const SUBJECTS = [
     hasContent: false,
     dataFiles: [],
     testFiles: [],
+    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'FRQ', label: 'FRQ' }],
     units: []
   },
   {
@@ -320,6 +344,7 @@ const SUBJECTS = [
     hasContent: false,
     dataFiles: [],
     testFiles: [],
+    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'FRQ', label: 'FRQ' }],
     units: []
   },
   {
@@ -334,6 +359,7 @@ const SUBJECTS = [
     hasContent: false,
     dataFiles: [],
     testFiles: [],
+    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'FRQ', label: 'FRQ' }],
     units: []
   }
 ];
