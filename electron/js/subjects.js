@@ -170,10 +170,59 @@ const SUBJECTS = [
     colorDark: '#FCD34D',
     examDate: new Date('2026-05-13T08:00:00'),
     description: 'Limits, derivatives, integrals & the Fundamental Theorem.',
-    hasContent: false,
-    dataFiles: [],
+    hasContent: true,
+    dataFiles: ['APCALC_MCQ'],
     testFiles: [],
-    units: []
+    units: [
+      { num: 1, title: 'Limits and Continuity', weight: '10–12%', topics: [
+        { value: '1.1', label: '1.1 Limits – Algebraic Evaluation' },
+        { value: '1.2', label: '1.2 Limits at Infinity' },
+        { value: '1.3', label: '1.3 Trigonometric Limits' },
+        { value: '1.4', label: '1.4 Continuity' },
+        { value: '1.5', label: '1.5 Intermediate Value Theorem' },
+      ]},
+      { num: 2, title: 'Differentiation: Definition & Properties', weight: '10–12%', topics: [
+        { value: '2.1', label: '2.1 Definition of Derivative' },
+        { value: '2.2', label: '2.2 Basic Differentiation Rules' },
+        { value: '2.3', label: '2.3 Product & Quotient Rules' },
+        { value: '2.4', label: '2.4 Trigonometric Derivatives' },
+      ]},
+      { num: 3, title: 'Differentiation: Composite, Implicit & Inverse', weight: '9–13%', topics: [
+        { value: '3.1', label: '3.1 Chain Rule' },
+        { value: '3.2', label: '3.2 Implicit Differentiation' },
+        { value: '3.3', label: '3.3 Inverse Function Derivatives' },
+      ]},
+      { num: 4, title: 'Contextual Applications of Differentiation', weight: '10–15%', topics: [
+        { value: '4.1', label: '4.1 Related Rates' },
+        { value: '4.2', label: '4.2 Linear Approximation' },
+        { value: '4.3', label: "4.3 L'Hôpital's Rule" },
+      ]},
+      { num: 5, title: 'Analytical Applications of Differentiation', weight: '15–18%', topics: [
+        { value: '5.1', label: '5.1 Mean Value Theorem' },
+        { value: '5.2', label: '5.2 Extrema & Critical Points' },
+        { value: '5.3', label: '5.3 Concavity & Inflection Points' },
+        { value: '5.4', label: '5.4 Curve Sketching' },
+        { value: '5.5', label: '5.5 Optimization' },
+      ]},
+      { num: 6, title: 'Integration and Accumulation of Change', weight: '17–20%', topics: [
+        { value: '6.1', label: '6.1 Antiderivatives' },
+        { value: '6.2', label: '6.2 Riemann Sums' },
+        { value: '6.3', label: '6.3 Definite Integrals' },
+        { value: '6.4', label: '6.4 Fundamental Theorem of Calculus' },
+        { value: '6.5', label: '6.5 U-Substitution' },
+      ]},
+      { num: 7, title: 'Differential Equations', weight: '6–12%', topics: [
+        { value: '7.1', label: '7.1 Slope Fields' },
+        { value: '7.2', label: '7.2 Separable Differential Equations' },
+        { value: '7.3', label: '7.3 Exponential Growth & Decay' },
+      ]},
+      { num: 8, title: 'Applications of Integration', weight: '10–15%', topics: [
+        { value: '8.1', label: '8.1 Average Value of a Function' },
+        { value: '8.2', label: '8.2 Area Between Curves' },
+        { value: '8.3', label: '8.3 Volume: Disc & Washer Method' },
+        { value: '8.4', label: '8.4 Accumulation Problems' },
+      ]},
+    ]
   },
   {
     id: 'apcalcbc',

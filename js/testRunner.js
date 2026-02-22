@@ -1,4 +1,60 @@
-// AP CS A Practice Test Runner
+// AP Practice Test Runner
+
+// ─── Math rendering (KaTeX) ───────────────────────────────────────────────────
+function isLatexString(s) {
+  return typeof s === 'string' && (
+    s.startsWith('\\') || /\\(frac|sqrt|lim|int|sum|infty|cdot|leq|geq|neq|pi|theta|alpha|beta|delta|sigma|lambda|mu|to|pm|times|div)/.test(s)
+  );
+}
+
+function renderMath(container) {
+  if (typeof katex === 'undefined') return; // offline / CDN not yet loaded
+  container.querySelectorAll('[data-latex]').forEach(el => {
+    try {
+      katex.render(el.dataset.latex, el, {
+        throwOnError: false,
+        displayMode: el.dataset.display === 'true',
+        output: 'html'
+      });
+    } catch (e) { /* leave raw text on error */ }
+  });
+}
+
+function mathSpan(text, display) {
+  if (isLatexString(text)) {
+    // Safely embed in a span; KaTeX will render it after innerHTML is set
+    const escaped = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    return `<span data-latex="${escaped}" data-display="${display ? 'true' : 'false'}"></span>`;
+  }
+  return App.escapeHtml(String(text));
+}
+
+function buildTableHtml(tableData) {
+  if (!tableData || !tableData.headers) return '';
+  const ths = tableData.headers.map(h => `<th>${App.escapeHtml(h)}</th>`).join('');
+  const rows = (tableData.rows || []).map(row => {
+    const tds = row.map(cell => `<td>${App.escapeHtml(cell)}</td>`).join('');
+    return `<tr>${tds}</tr>`;
+  }).join('');
+  return `<div class="q-table-wrap"><table class="q-table"><thead><tr>${ths}</tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+// ─── Desmos Graphing Calculator ───────────────────────────────────────────────
+let desmosCalc = null;
+
+function initDesmos() {
+  if (typeof Desmos === 'undefined' || desmosCalc) return;
+  const el = document.getElementById('desmos-container');
+  if (el) desmosCalc = Desmos.GraphingCalculator(el, { expressionsCollapsed: true });
+}
+
+function toggleDesmos() {
+  const panel = document.getElementById('desmos-panel');
+  if (!panel) return;
+  const visible = panel.style.display !== 'none';
+  panel.style.display = visible ? 'none' : 'block';
+  if (!visible) initDesmos();
+}
 
 // ─── State ────────────────────────────────────────────────────────────────────
 let currentTest = null;
@@ -371,16 +427,38 @@ function renderMCQQuestion(index) {
   const content = document.getElementById('mcqQuestionContent');
   if (!content) return;
   const sel = mcqAnswers[q.id];
+
+  // Build question text (LaTeX-aware)
+  const questionHtml = q.isLatex
+    ? `<div class="question-text math-display">${mathSpan(q.question, true)}</div>`
+    : `<div class="question-text">${App.escapeHtml(q.question)}</div>`;
+
+  // Table (for type:"table" questions)
+  const tableHtml = q.type === 'table' && q.tableData ? buildTableHtml(q.tableData) : '';
+
+  // Graph description (for type:"graph" questions — Desmos handles visualization)
+  const graphHtml = q.type === 'graph' && q.graphDescription
+    ? `<div class="graph-description"><span>📈</span> ${App.escapeHtml(q.graphDescription)}</div>`
+    : '';
+
+  // Code block (for CS A questions)
+  const codeHtml = q.isCode && q.code ? App.renderCode(q.code) : '';
+
   content.innerHTML = `
-    <div class="question-text">${App.escapeHtml(q.question)}</div>
-    ${q.isCode && q.code ? App.renderCode(q.code) : ''}
+    ${questionHtml}
+    ${tableHtml}
+    ${graphHtml}
+    ${codeHtml}
     <div class="choices-list">
       ${(q.choices || []).map((c, ci) => `
         <div class="choice-item${sel === ci ? ' selected' : ''}" onclick="selectAnswer('${q.id}',${ci},${index})">
           <span class="choice-label">${String.fromCharCode(65+ci)})</span>
-          <span>${App.escapeHtml(String(c))}</span>
+          <span>${mathSpan(c, false)}</span>
         </div>`).join('')}
     </div>`;
+
+  // Render any KaTeX spans after setting innerHTML
+  renderMath(content);
 
   const prevBtn = document.getElementById('prevMCQ');
   const nextBtn = document.getElementById('nextMCQ');
