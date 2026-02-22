@@ -1,14 +1,49 @@
-// AP CS A Results / Analytics Page
+// AP Practice Results / Analytics Page
+
+function loadAllQuestionsForActiveSubject() {
+  if (typeof SubjectRegistry !== 'undefined' && typeof App !== 'undefined') {
+    const subject = SubjectRegistry.getSubjectById(App.getActiveSubject());
+    if (subject && subject.dataFiles) {
+      const allQ = [];
+      subject.dataFiles.forEach(varName => {
+        const arr = window[varName];
+        if (Array.isArray(arr)) allQ.push(...arr);
+      });
+      (subject.testDataFiles || []).forEach(varName => {
+        const arr = window[varName];
+        if (Array.isArray(arr)) allQ.push(...arr);
+      });
+      if (allQ.length > 0) return allQ;
+    }
+  }
+  // Fallback: legacy globals for AP CS A
+  return [
+    ...(typeof MCQ_U1U2 !== 'undefined' ? MCQ_U1U2 : []),
+    ...(typeof MCQ_U3U4 !== 'undefined' ? MCQ_U3U4 : []),
+    ...(typeof FRQ_BANK !== 'undefined' ? FRQ_BANK : [])
+  ];
+}
 
 function initResults() {
-  const state = App.getState();
-  const allQ = App.getAllQuestions();
+  const activeSubjectId = App.getActiveSubject();
+  const subjectData = App.getSubjectData(activeSubjectId);
+  const allQ = loadAllQuestionsForActiveSubject();
 
-  renderOverallStats(state, allQ);
-  renderUnitMastery(state.questionHistory || {}, allQ);
-  renderDifficultyBreakdown(state.questionHistory || {}, allQ);
-  renderWeakTopics(state.questionHistory || {}, allQ);
-  renderTestHistory(state.testHistory || []);
+  // Get subject info for dynamic title and unit data
+  const subject = typeof SubjectRegistry !== 'undefined'
+    ? SubjectRegistry.getSubjectById(activeSubjectId)
+    : null;
+  const subjectUnits = subject ? subject.units : null;
+
+  // Update page title to show active subject name
+  const titleEl = document.querySelector('h1');
+  if (titleEl && subject) titleEl.textContent = `Your ${subject.shortName} Progress`;
+
+  renderOverallStats();
+  renderUnitMastery(subjectData.questionHistory || {}, allQ, subjectUnits);
+  renderDifficultyBreakdown(subjectData.questionHistory || {}, allQ);
+  renderWeakTopics(subjectData.questionHistory || {}, allQ);
+  renderTestHistory(subjectData.testHistory || []);
 
   const resetBtn = document.getElementById('resetProgressBtn');
   if (resetBtn) {
@@ -21,7 +56,7 @@ function initResults() {
   }
 }
 
-function renderOverallStats(state, allQ) {
+function renderOverallStats() {
   const el = document.getElementById('overallStats');
   if (!el) return;
   const stats = App.getOverallStats();
@@ -34,10 +69,10 @@ function renderOverallStats(state, allQ) {
     <div class="stat-card card"><div class="stat-num">${apDisplay}</div><div class="stat-lbl">Last AP Estimate</div></div>`;
 }
 
-function renderUnitMastery(questionHistory, allQ) {
+function renderUnitMastery(questionHistory, allQ, subjectUnits) {
   const el = document.getElementById('unitMastery');
   if (!el) return;
-  const breakdown = Scoring.calculateUnitBreakdown(questionHistory, allQ);
+  const breakdown = Scoring.calculateUnitBreakdown(questionHistory, allQ, subjectUnits);
   Scoring.renderUnitBreakdown('unitMastery', breakdown);
 }
 

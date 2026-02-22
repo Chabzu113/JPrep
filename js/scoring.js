@@ -47,9 +47,14 @@ function calculateTestScore(testResult, questions) {
   };
 }
 
-function calculateUnitBreakdown(questionHistory, allQuestions) {
-  return [1, 2, 3, 4].map(unit => {
-    const unitQ = allQuestions.filter(q => q.unit === unit);
+function calculateUnitBreakdown(questionHistory, allQuestions, subjectUnits) {
+  // If subjectUnits is provided (from SubjectRegistry), use it; otherwise fall back to CS A hardcoded units
+  const units = subjectUnits
+    ? subjectUnits.map(u => ({ num: u.num, title: u.title }))
+    : [1, 2, 3, 4].map(n => ({ num: n, title: UNIT_TITLES[n] }));
+
+  return units.map(({ num, title }) => {
+    const unitQ = allQuestions.filter(q => q.unit === num);
     let seen = 0, correct = 0;
     unitQ.forEach(q => {
       const h = questionHistory[q.id];
@@ -62,7 +67,7 @@ function calculateUnitBreakdown(questionHistory, allQuestions) {
       else if (accuracy >= 60) masteryLevel = 'practicing';
       else masteryLevel = 'learning';
     }
-    return { unit, unitTitle: UNIT_TITLES[unit], total: unitQ.length, seen, correct, accuracy, masteryLevel };
+    return { unit: num, unitTitle: title, total: unitQ.length, seen, correct, accuracy, masteryLevel };
   });
 }
 

@@ -198,7 +198,7 @@ function selectTest(testId, subjectId) {
   const tests = [];
   (subject.testFiles || []).forEach(v => { const a = window[v]; if (Array.isArray(a)) tests.push(...a); });
   currentTest = tests.find(t => t.id === testId);
-  if (!currentTest) return;
+  if (!currentTest) { renderHubScreen(); return; }
 
   const allQ = loadAllQuestionsForActiveSubject();
   const allMCQ = allQ.filter(q => q.choices || !Array.isArray(q.units));
