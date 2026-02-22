@@ -1,6 +1,6 @@
 {
   "name": "ap-csa-practice",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "AP Test Prep — Multi-Subject Practice Platform",
   "main": "main.js",
   "author": "Abhijay Ramaka",
@@ -9,7 +9,7 @@
     "start": "electron .",
     "build": "npm run copy-files && electron-builder --mac",
     "build:win": "npm run copy-files && electron-builder --win",
-    "copy-files": "cp -r ../index.html ../question-bank.html ../practice-test.html ../review.html ../results.html ../subject-select.html ../planner.html ../css ../js ../problems ."
+    "copy-files": "cp -r ../index.html ../question-bank.html ../practice-test.html ../review.html ../results.html ../subject-select.html ../planner.html ../css ../js ../problems . && node scripts/sync-version.js"
   },
   "devDependencies": {
     "electron": "^33.0.0",
