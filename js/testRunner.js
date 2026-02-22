@@ -433,11 +433,11 @@ function renderMCQQuestion(index) {
     ? `<div class="question-text math-display">${mathSpan(q.question, true)}</div>`
     : `<div class="question-text">${App.escapeHtml(q.question)}</div>`;
 
-  // Table (for type:"table" questions)
-  const tableHtml = q.type === 'table' && q.tableData ? buildTableHtml(q.tableData) : '';
+  // Table (for format:"table" questions — q.format preserves algebraic/table/graph)
+  const tableHtml = q.format === 'table' && q.tableData ? buildTableHtml(q.tableData) : '';
 
-  // Graph description (for type:"graph" questions — Desmos handles visualization)
-  const graphHtml = q.type === 'graph' && q.graphDescription
+  // Graph description (for format:"graph" questions — Desmos handles visualization)
+  const graphHtml = q.format === 'graph' && q.graphDescription
     ? `<div class="graph-description"><span>📈</span> ${App.escapeHtml(q.graphDescription)}</div>`
     : '';
 
