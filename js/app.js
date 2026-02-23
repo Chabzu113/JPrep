@@ -90,6 +90,17 @@ function migrateStateIfNeeded(state) {
   if (!Array.isArray(state.selectedSubjects)) state.selectedSubjects = [];
   if (state.subjectsConfigured === undefined) state.subjectsConfigured = false;
   if (!state.activeSubject) state.activeSubject = 'apcsa';
+  // Auto-add any newly available subjects (hasContent: true) that aren't selected yet
+  if (typeof SubjectRegistry !== 'undefined') {
+    const availableIds = SubjectRegistry.SUBJECTS
+      .filter(s => s.hasContent)
+      .map(s => s.id);
+    availableIds.forEach(id => {
+      if (!state.selectedSubjects.includes(id)) {
+        state.selectedSubjects.push(id);
+      }
+    });
+  }
   return state;
 }
 

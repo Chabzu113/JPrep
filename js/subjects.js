@@ -311,11 +311,74 @@ const SUBJECTS = [
     colorDark: '#FCA5A5',
     examDate: new Date('2026-05-09T08:00:00'),
     description: 'US history from pre-contact through present.',
-    hasContent: false,
-    dataFiles: [],
+    hasContent: true,
+    dataFiles: ['APUSH_MCQ'],
     testFiles: [],
-    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'SAQ', label: 'SAQ' }, { value: 'LEQ', label: 'LEQ' }, { value: 'DBQ', label: 'DBQ' }],
-    units: []
+    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }],
+    units: [
+      { num: 1, title: 'Period 1: 1491–1607', weight: '4–6%', topics: [
+        { value: '1.2', label: '1.2 Native American Societies Before European Contact' },
+        { value: '1.3', label: '1.3 European Exploration in the Americas' },
+        { value: '1.4', label: '1.4 Columbian Exchange, Spanish Exploration, and Conquest' },
+        { value: '1.6', label: '1.6 Cultural Interactions' }
+      ]},
+      { num: 2, title: 'Period 2: 1607–1754', weight: '6–8%', topics: [
+        { value: '2.1', label: '2.1 European Colonization' },
+        { value: '2.2', label: '2.2 Transatlantic Trade' },
+        { value: '2.3', label: '2.3 Colonial Society' },
+        { value: '2.4', label: '2.4 Governance' },
+        { value: '2.5', label: '2.5 Interactions between European, Native American, and African Peoples' }
+      ]},
+      { num: 3, title: 'Period 3: 1754–1800', weight: '10–17%', topics: [
+        { value: '3.1', label: '3.1 British–American Tensions' },
+        { value: '3.2', label: '3.2 The American Revolution' },
+        { value: '3.3', label: '3.3 The Articles of Confederation' },
+        { value: '3.4', label: '3.4 The Constitutional Convention' },
+        { value: '3.5', label: '3.5 The Early Republic' }
+      ]},
+      { num: 4, title: 'Period 4: 1800–1848', weight: '10–17%', topics: [
+        { value: '4.1', label: '4.1 The New Republic' },
+        { value: '4.2', label: '4.2 The Market Revolution' },
+        { value: '4.3', label: '4.3 Politics and Regional Interests' },
+        { value: '4.4', label: '4.4 Jacksonian Democracy' },
+        { value: '4.5', label: '4.5 Westward Expansion' },
+        { value: '4.6', label: '4.6 Reform Movements' }
+      ]},
+      { num: 5, title: 'Period 5: 1844–1877', weight: '10–17%', topics: [
+        { value: '5.1', label: '5.1 Manifest Destiny' },
+        { value: '5.2', label: '5.2 Sectional Conflict' },
+        { value: '5.3', label: '5.3 The Civil War' },
+        { value: '5.4', label: '5.4 Reconstruction' }
+      ]},
+      { num: 6, title: 'Period 6: 1865–1898', weight: '10–17%', topics: [
+        { value: '6.1', label: '6.1 Westward Expansion' },
+        { value: '6.2', label: '6.2 Industrialization' },
+        { value: '6.3', label: '6.3 Labor and Immigration' },
+        { value: '6.4', label: '6.4 Gilded Age Politics' },
+        { value: '6.5', label: '6.5 Populism' }
+      ]},
+      { num: 7, title: 'Period 7: 1890–1945', weight: '10–17%', topics: [
+        { value: '7.1', label: '7.1 Imperialism' },
+        { value: '7.2', label: '7.2 Progressive Era' },
+        { value: '7.3', label: '7.3 World War I' },
+        { value: '7.4', label: '7.4 1920s' },
+        { value: '7.5', label: '7.5 Great Depression and New Deal' },
+        { value: '7.6', label: '7.6 World War II' }
+      ]},
+      { num: 8, title: 'Period 8: 1945–1980', weight: '10–17%', topics: [
+        { value: '8.1', label: '8.1 The Cold War' },
+        { value: '8.2', label: '8.2 The Korean War and McCarthyism' },
+        { value: '8.3', label: '8.3 Civil Rights Movement' },
+        { value: '8.4', label: '8.4 The Great Society' },
+        { value: '8.5', label: '8.5 Vietnam and Counterculture' },
+        { value: '8.6', label: '8.6 Nixon and Détente' }
+      ]},
+      { num: 9, title: 'Period 9: 1980–Present', weight: '4–6%', topics: [
+        { value: '9.1', label: '9.1 Reagan and Conservatism' },
+        { value: '9.2', label: '9.2 End of the Cold War' },
+        { value: '9.3', label: '9.3 Contemporary America' }
+      ]}
+    ]
   },
   {
     id: 'apstats',
@@ -326,11 +389,108 @@ const SUBJECTS = [
     colorDark: '#93C5FD',
     examDate: new Date('2026-05-15T08:00:00'),
     description: 'Data collection, probability, inference & regression.',
-    hasContent: false,
-    dataFiles: [],
+    hasContent: true,
+    dataFiles: ['APSTATS_MCQ', 'APSTATS_FRQ'],
     testFiles: [],
-    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'FRQ', label: 'FRQ' }],
-    units: []
+    questionTypes: [
+      { value: 'all',       label: 'All' },
+      { value: 'MCQ',       label: 'MCQ' },
+      { value: 'Short FRQ', label: 'Short FRQ' },
+      { value: 'Long FRQ',  label: 'Long FRQ' }
+    ],
+    units: [
+      { num: 1, title: 'Exploring One-Variable Data', weight: '15–23%', topics: [
+        { value: '1.1', label: '1.1 Introducing Statistics' },
+        { value: '1.2', label: '1.2 The Language of Variation: Variables' },
+        { value: '1.3', label: '1.3 Representing a Categorical Variable with Tables' },
+        { value: '1.4', label: '1.4 Representing a Categorical Variable with Graphs' },
+        { value: '1.5', label: '1.5 Representing a Quantitative Variable with Graphs' },
+        { value: '1.6', label: '1.6 Describing the Distribution of a Quantitative Variable' },
+        { value: '1.7', label: '1.7 Summary Statistics for a Quantitative Variable' },
+        { value: '1.8', label: '1.8 Graphical Representations of Summary Statistics' },
+        { value: '1.9', label: '1.9 Comparing Distributions of a Quantitative Variable' },
+        { value: '1.10', label: '1.10 The Normal Distribution' }
+      ]},
+      { num: 2, title: 'Exploring Two-Variable Data', weight: '5–7%', topics: [
+        { value: '2.1', label: '2.1 Introducing Statistics: Are Variables Related?' },
+        { value: '2.2', label: '2.2 Representing Two Categorical Variables' },
+        { value: '2.3', label: '2.3 Statistics for Two Categorical Variables' },
+        { value: '2.4', label: '2.4 Representing the Relationship Between Two Quantitative Variables' },
+        { value: '2.5', label: '2.5 Correlation' },
+        { value: '2.6', label: '2.6 Linear Regression Models' },
+        { value: '2.7', label: '2.7 Residuals' },
+        { value: '2.8', label: '2.8 Least Squares Regression' },
+        { value: '2.9', label: '2.9 Analyzing Departures from Linearity' }
+      ]},
+      { num: 3, title: 'Collecting Data', weight: '12–15%', topics: [
+        { value: '3.1', label: '3.1 Introducing Statistics: Do the Data We Collected Tell the Truth?' },
+        { value: '3.2', label: '3.2 Introduction to Designing Studies' },
+        { value: '3.3', label: '3.3 Random Sampling and Data Collection' },
+        { value: '3.4', label: '3.4 Potential Problems with Sampling' },
+        { value: '3.5', label: '3.5 Introduction to Experimental Design' },
+        { value: '3.6', label: '3.6 Selecting an Experimental Design' },
+        { value: '3.7', label: '3.7 Inference and Experiments' }
+      ]},
+      { num: 4, title: 'Probability, Random Variables & Probability Distributions', weight: '10–20%', topics: [
+        { value: '4.1', label: '4.1 Introducing Statistics: Random and Non-Random Patterns?' },
+        { value: '4.2', label: '4.2 Estimating Probabilities Using Simulation' },
+        { value: '4.3', label: '4.3 Introduction to Probability' },
+        { value: '4.4', label: '4.4 Mutually Exclusive Events' },
+        { value: '4.5', label: '4.5 Conditional Probability' },
+        { value: '4.6', label: '4.6 Independent Events and Unions of Events' },
+        { value: '4.7', label: '4.7 Introduction to Random Variables and Probability Distributions' },
+        { value: '4.8', label: '4.8 Mean and Standard Deviation of Random Variables' },
+        { value: '4.9', label: '4.9 Combining Random Variables' },
+        { value: '4.10', label: '4.10 Introduction to the Binomial Distribution' },
+        { value: '4.11', label: '4.11 Parameters for a Binomial Distribution' },
+        { value: '4.12', label: '4.12 The Geometric Distribution' }
+      ]},
+      { num: 5, title: 'Sampling Distributions', weight: '7–12%', topics: [
+        { value: '5.1', label: '5.1 Introducing Statistics: Why Is My Sample Not Like Yours?' },
+        { value: '5.2', label: '5.2 The Normal Distribution, Revisited' },
+        { value: '5.3', label: '5.3 The Central Limit Theorem' },
+        { value: '5.4', label: '5.4 Biased and Unbiased Point Estimates' },
+        { value: '5.5', label: '5.5 Sampling Distributions for Sample Proportions' },
+        { value: '5.6', label: '5.6 Sampling Distributions for Sample Means' }
+      ]},
+      { num: 6, title: 'Inference for Categorical Data: Proportions', weight: '12–15%', topics: [
+        { value: '6.1', label: '6.1 Introducing Statistics: Why Be Normal?' },
+        { value: '6.2', label: '6.2 Constructing a Confidence Interval for a Population Proportion' },
+        { value: '6.3', label: '6.3 Justifying a Claim Based on a Confidence Interval' },
+        { value: '6.4', label: '6.4 Setting Up a Test for a Population Proportion' },
+        { value: '6.5', label: '6.5 Interpreting p-Values' },
+        { value: '6.6', label: '6.6 Concluding a Test for a Population Proportion' },
+        { value: '6.7', label: '6.7 Potential Errors When Performing Tests' }
+      ]},
+      { num: 7, title: 'Inference for Quantitative Data: Means', weight: '10–18%', topics: [
+        { value: '7.1', label: '7.1 Introducing Statistics: Should I Worry About Error?' },
+        { value: '7.2', label: '7.2 Constructing a Confidence Interval for a Population Mean' },
+        { value: '7.3', label: '7.3 Justifying a Claim About a Population Mean' },
+        { value: '7.4', label: '7.4 Setting Up a Test for a Population Mean' },
+        { value: '7.5', label: '7.5 Carrying Out a Test for a Population Mean' },
+        { value: '7.6', label: '7.6 Confidence Intervals for the Difference of Two Means' },
+        { value: '7.7', label: '7.7 Testing for the Difference of Two Population Means' },
+        { value: '7.8', label: '7.8 Inference for Means with Paired Data' },
+        { value: '7.9', label: '7.9 Randomization-Based Inference for the Difference of Two Means' }
+      ]},
+      { num: 8, title: 'Inference for Categorical Data: Chi-Square', weight: '2–5%', topics: [
+        { value: '8.1', label: '8.1 Introducing Statistics: Are My Results Unexpected?' },
+        { value: '8.2', label: '8.2 Setting Up a Chi-Square Goodness of Fit Test' },
+        { value: '8.3', label: '8.3 Carrying Out a Chi-Square Test for Goodness of Fit' },
+        { value: '8.4', label: '8.4 Expected Counts in Two-Way Tables' },
+        { value: '8.5', label: '8.5 Setting Up a Chi-Square Test for Homogeneity or Independence' },
+        { value: '8.6', label: '8.6 Carrying Out a Chi-Square Test for Homogeneity or Independence' },
+        { value: '8.7', label: '8.7 Skills Focus: Selecting an Appropriate Inference Procedure' }
+      ]},
+      { num: 9, title: 'Inference for Quantitative Data: Slopes', weight: '2–5%', topics: [
+        { value: '9.1', label: '9.1 Introducing Statistics: Do Those Points Align?' },
+        { value: '9.2', label: '9.2 Confidence Intervals for the Slope of a Regression Model' },
+        { value: '9.3', label: '9.3 Justifying a Claim About the Slope of a Regression Model' },
+        { value: '9.4', label: '9.4 Setting Up a Test for the Slope of a Regression Model' },
+        { value: '9.5', label: '9.5 Carrying Out a Test for the Slope of a Regression Model' },
+        { value: '9.6', label: '9.6 Skills Focus: Selecting an Appropriate Inference Procedure' }
+      ]}
+    ]
   },
   {
     id: 'apmicro',
@@ -341,11 +501,63 @@ const SUBJECTS = [
     colorDark: '#67E8F9',
     examDate: new Date('2026-05-14T08:00:00'),
     description: 'Supply & demand, market structures & consumer theory.',
-    hasContent: false,
-    dataFiles: [],
+    hasContent: true,
+    dataFiles: ['APMICRO_MCQ', 'APMICRO_FRQ'],
     testFiles: [],
-    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }, { value: 'FRQ', label: 'FRQ' }],
-    units: []
+    questionTypes: [
+      { value: 'all',       label: 'All' },
+      { value: 'MCQ',       label: 'MCQ' },
+      { value: 'Short FRQ', label: 'Short FRQ' }
+    ],
+    units: [
+      { num: 1, title: 'Basic Economic Concepts', weight: '12–15%', topics: [
+        { value: '1.1', label: '1.1 Scarcity' },
+        { value: '1.2', label: '1.2 Resource Allocation and Economic Systems' },
+        { value: '1.3', label: '1.3 Production Possibilities Curve' },
+        { value: '1.4', label: '1.4 Comparative Advantage and Trade' },
+        { value: '1.5', label: '1.5 Cost-Benefit Analysis' },
+        { value: '1.6', label: '1.6 Marginal Analysis and Consumer Choice' }
+      ]},
+      { num: 2, title: 'Supply and Demand', weight: '20–25%', topics: [
+        { value: '2.1', label: '2.1 Demand' },
+        { value: '2.2', label: '2.2 Supply' },
+        { value: '2.3', label: '2.3 Price Elasticity of Demand' },
+        { value: '2.4', label: '2.4 Price Elasticity of Supply' },
+        { value: '2.5', label: '2.5 Other Elasticities' },
+        { value: '2.6', label: '2.6 Market Equilibrium, Disequilibrium, and Changes in Equilibrium' },
+        { value: '2.7', label: '2.7 The Effects of Government Intervention in Markets' },
+        { value: '2.8', label: '2.8 International Trade and Public Policy' }
+      ]},
+      { num: 3, title: 'Production, Cost, and the Perfect Competition Model', weight: '22–25%', topics: [
+        { value: '3.1', label: '3.1 The Production Function' },
+        { value: '3.2', label: '3.2 Short-Run Production Costs' },
+        { value: '3.3', label: '3.3 Long-Run Production Costs' },
+        { value: '3.4', label: '3.4 Types of Profit' },
+        { value: '3.5', label: '3.5 Profit Maximization' },
+        { value: '3.6', label: '3.6 Firms\' Short-Run Decisions to Produce and Long-Run Decisions to Enter or Exit' },
+        { value: '3.7', label: '3.7 Perfect Competition' }
+      ]},
+      { num: 4, title: 'Imperfect Competition', weight: '15–22%', topics: [
+        { value: '4.1', label: '4.1 Introduction to Imperfectly Competitive Markets' },
+        { value: '4.2', label: '4.2 Monopoly' },
+        { value: '4.3', label: '4.3 Price Discrimination' },
+        { value: '4.4', label: '4.4 Oligopoly and Game Theory' },
+        { value: '4.5', label: '4.5 Monopolistic Competition' }
+      ]},
+      { num: 5, title: 'Factor Markets', weight: '10–13%', topics: [
+        { value: '5.1', label: '5.1 Introduction to Factor Markets' },
+        { value: '5.2', label: '5.2 Changes in Factor Demand and Factor Supply' },
+        { value: '5.3', label: '5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets' },
+        { value: '5.4', label: '5.4 Monopsonistic Markets' }
+      ]},
+      { num: 6, title: 'Market Failure and the Role of Government', weight: '8–13%', topics: [
+        { value: '6.1', label: '6.1 Socially Efficient and Inefficient Market Outcomes' },
+        { value: '6.2', label: '6.2 Externalities' },
+        { value: '6.3', label: '6.3 Public and Private Goods' },
+        { value: '6.4', label: '6.4 The Effects of Government Intervention in Different Market Structures' },
+        { value: '6.5', label: '6.5 Inequality' }
+      ]}
+    ]
   },
   {
     id: 'apmacro',

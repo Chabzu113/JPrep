@@ -1,7 +1,7 @@
 // AP Practice Platform — Global App State & Utilities
 // Handles: localStorage persistence, dark mode, shared state, helper functions
 
-const APP_VERSION = '1.4.0';   // keep in sync with GitHub release tags
+const APP_VERSION = '1.5.0';   // keep in sync with GitHub release tags
 const GITHUB_REPO  = 'Chabzu113/APCSAPractice';
 const STORAGE_KEY  = 'apcsa_state';
 
@@ -90,6 +90,17 @@ function migrateStateIfNeeded(state) {
   if (!Array.isArray(state.selectedSubjects)) state.selectedSubjects = [];
   if (state.subjectsConfigured === undefined) state.subjectsConfigured = false;
   if (!state.activeSubject) state.activeSubject = 'apcsa';
+  // Auto-add any newly available subjects (hasContent: true) that aren't selected yet
+  if (typeof SubjectRegistry !== 'undefined') {
+    const availableIds = SubjectRegistry.SUBJECTS
+      .filter(s => s.hasContent)
+      .map(s => s.id);
+    availableIds.forEach(id => {
+      if (!state.selectedSubjects.includes(id)) {
+        state.selectedSubjects.push(id);
+      }
+    });
+  }
   return state;
 }
 

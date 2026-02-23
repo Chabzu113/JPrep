@@ -313,8 +313,10 @@ function wireAccordion(container) {
       const topics = getActiveSubjectTopics()[unitNum] || [];
       if (cb.checked) {
         topics.forEach(t => currentFilters.topics.add(t.value));
+        currentFilters.topics.add('unit:' + unitNum); // fallback for free-text topic subjects
       } else {
         topics.forEach(t => currentFilters.topics.delete(t.value));
+        currentFilters.topics.delete('unit:' + unitNum);
       }
       syncAccordionState();
       applyFilters();
@@ -504,7 +506,7 @@ function renderSessionQuestion() {
   if (!q) return;
 
   const wrap = document.getElementById('sessionQuestionWrap');
-  const isFRQ = q.type === 'FRQ';
+  const isFRQ = q.type && q.type.includes('FRQ');
   const state = sessionAnswerState[q.id];
   const diffColor = { easy: '#16a34a', medium: '#d97706', hard: '#dc2626' };
   const diffBg = { easy: '#dcfce7', medium: '#fef9c3', hard: '#fee2e2' };
@@ -579,15 +581,17 @@ function renderSessionQuestion() {
     // ── FRQ ──
     const totalPts = (q.rubric || []).reduce((s, r) => s + (r.points || 0), 0);
 
-    const partsHtml = (q.parts || []).map(p =>
-      `<div class="frq-part-card">
+    const partsHtml = (q.parts || []).map(p => {
+      const ptsHtml = p.points !== undefined ? `<span class="frq-part-pts">${p.points} pt${p.points !== 1 ? 's' : ''}</span>` : '';
+      const text = p.instruction || p.question || '';
+      return `<div class="frq-part-card">
         <div class="frq-part-header">
           <span class="frq-part-label">Part (${p.label})</span>
-          <span class="frq-part-pts">${p.points} pt${p.points !== 1 ? 's' : ''}</span>
+          ${ptsHtml}
         </div>
-        <p class="frq-part-instruction">${App.escapeHtml(p.instruction)}</p>
-      </div>`
-    ).join('');
+        <p class="frq-part-instruction">${renderFRQPromptText(text)}</p>
+      </div>`;
+    }).join('');
 
     if (!state) {
       // ── Not yet answered: show editor + "Check Answer" button ──
