@@ -766,3 +766,30 @@
   color: var(--text-primary, #f1f5f9);
   font-style: italic;
 }
+
+/* ── Visual Document Type Badge ─────────────────────────────────────────── */
+.dbq-doc-type-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: rgba(99, 102, 241, 0.18);
+  color: #a5b4fc;
+  font-size: 0.70rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+/* Visual source description — muted + labelled so students know it's a visual */
+.dbq-visual-desc {
+  color: #94a3b8 !important;
+  font-style: normal !important;
+}
+.dbq-visual-desc::before {
+  content: '[Visual Source Description] ';
+  font-weight: 700;
+  color: #a5b4fc;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+}

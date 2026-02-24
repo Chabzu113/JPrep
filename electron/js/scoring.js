@@ -236,12 +236,20 @@ function renderFrqGrading(containerId, frqQuestions, frqAnswers, onGradeChange) 
            <div class="dbq-stimulus-header">📄 Documents (${reviewRawDocs.length})</div>
            <div class="dbq-documents-scroll">
              ${reviewRawDocs.map(function(doc, i) {
-               const num    = doc.id || doc.docNum || (i + 1);
-               const source = doc.source || doc.attribution || '';
-               const text   = doc.content || doc.excerpt || '';
+               const num      = doc.id || doc.docNum || (i + 1);
+               const source   = doc.source || doc.attribution || '';
+               const text     = doc.content || doc.excerpt || '';
+               const docType  = doc.docType || 'text';
+               const typeIcon = {
+                 data_table: '📊 Data Table', map: '🗺️ Map', diagram: '📐 Diagram',
+                 political_cartoon: '🖼️ Political Cartoon', advertisement: '📰 Advertisement',
+                 photo: '📷 Photograph', poster: '🪧 Poster', chart: '📈 Chart'
+               }[docType] || '';
+               const typeBadge  = typeIcon ? '<span class="dbq-doc-type-badge">' + typeIcon + '</span>' : '';
+               const contentCls = docType !== 'text' ? ' dbq-visual-desc' : '';
                return '<div class="dbq-document-card">' +
-                 '<div class="dbq-document-source">Document ' + num + ' — ' + escapeHtml(source) + '</div>' +
-                 '<div class="dbq-document-content">' + escapeHtml(text) + '</div>' +
+                 '<div class="dbq-document-source">Document ' + num + ' — ' + escapeHtml(source) + typeBadge + '</div>' +
+                 '<div class="dbq-document-content' + contentCls + '">' + escapeHtml(text) + '</div>' +
                  '</div>';
              }).join('')}
            </div>

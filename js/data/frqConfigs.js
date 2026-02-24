@@ -202,7 +202,10 @@ var FRQ_CONFIGS = {
           'john adams', 'thomas jefferson', 'james madison', 'alexander hamilton',
           'federalist papers', 'checks and balances', 'separation of powers',
           'popular sovereignty', 'social contract', 'natural rights',
-          'proclamation of 1763'
+          'proclamation of 1763',
+          // Added v1.7.0 — people, laws, events named in new Unit 3 DBQ docs
+          'mercy otis warren', 'patrick henry', 'electoral college',
+          'constitutional convention', 'philadelphia convention'
         ],
         niche: [
           'virtual representation', 'actual representation',
@@ -211,14 +214,23 @@ var FRQ_CONFIGS = {
           'coercive acts', 'writs of assistance',
           'quartering act', 'townsend acts', 'three-fifths compromise',
           'great compromise', 'connecticut compromise',
-          'pontiac\'s rebellion', 'alien and sedition acts', 'republican motherhood'
+          'pontiac\'s rebellion', 'alien and sedition acts', 'republican motherhood',
+          // Added v1.7.0 — from Unit 3 DBQ docs (Mercy Otis Warren pamphlet,
+          // Washington-Knox letter, Patrick Henry speech, Electoral College diagram)
+          'observations on the new constitution', 'virginia ratifying convention',
+          'henry knox', 'qualified veto', 'presidential veto',
+          'land ordinance', 'land ordinance 1785', 'paper money', 'paper currency',
+          'state debts', 'benjamin lincoln', 'brutus'
         ],
         // These terms always count as outside evidence for Unit 3 DBQs
         // even if they appear in Federalist Papers excerpts
         outsideEvidenceTerms: [
           'bill of rights', 'articles of confederation', 'shays rebellion',
           'northwest ordinance', 'three-fifths compromise', 'great compromise',
-          'connecticut compromise', 'alien and sedition acts'
+          'connecticut compromise', 'alien and sedition acts',
+          // Added v1.7.0 — new Unit 3 DBQ doc figures / concepts
+          'mercy otis warren', 'electoral college', 'patrick henry',
+          'constitutional convention', 'henry knox', 'land ordinance'
         ],
         qualifierChecks: [
           {
@@ -244,7 +256,9 @@ var FRQ_CONFIGS = {
           'missouri compromise', 'tariff of abominations', 'henry clay',
           'american system', 'john c calhoun', 'bank war',
           'nat turner', 'harriet tubman', 'underground railroad',
-          'monroe doctrine'
+          'monroe doctrine',
+          // Added v1.7.0 — people, laws, events from new Unit 4 DBQ docs
+          'transportation revolution', 'cyrus mccormick', 'sarah bagley'
         ],
         niche: [
           'utopian communities', 'brook farm', 'oneida community',
@@ -252,7 +266,15 @@ var FRQ_CONFIGS = {
           'immediate emancipation', 'gradualism', 'moral suasion',
           'spoils system', 'rotation in office', 'kitchen cabinet',
           'pet banks', 'specie circular', 'panic of 1837',
-          'gag rule', 'annexation of texas'
+          'gag rule', 'annexation of texas',
+          // Added for v1.7.0 Market Revolution DBQ
+          'charles river bridge', 'lowell offering', 'mccormick reaper',
+          'putting-out system', 'factory system', 'wage labor',
+          'charles grandison finney', 'revivalism',
+          // Added v1.7.0 — specific people/sources from Unit 4 DBQ docs
+          'roger taney', 'sarah g bagley', 'lectures on revivals of religion',
+          'southern agriculturist', 'lowell strikes', 'prairie farmer',
+          'virginia reaper', 'lowell mill worker'
         ],
         qualifierChecks: [
           {
@@ -330,7 +352,12 @@ var FRQ_CONFIGS = {
           'tenements', 'jane addams', 'hull house', 'settlement houses',
           'knights of labor', 'american federation of labor', 'samuel gompers',
           'homestead strike', 'pullman strike', 'haymarket riot',
-          'plessy v ferguson', 'jim crow', 'segregation'
+          'plessy v ferguson', 'jim crow', 'segregation',
+          // Added for v1.7.0 Gilded Age DBQ
+          'gospel of wealth', 'jacob riis', 'how the other half lives',
+          'trust', 'monopoly', 'laissez-faire',
+          // Added v1.7.0 — specific people/laws from Unit 6 DBQ docs
+          'henry clay frick', 'amalgamated association', 'protective tariff'
         ],
         niche: [
           'munn v illinois', 'wabash v illinois', 'interstate commerce act',
@@ -340,7 +367,15 @@ var FRQ_CONFIGS = {
           'ghost dance', 'battle of wounded knee', 'dawes act',
           'deflation', 'bimetallism', 'gold standard', 'greenbacks',
           'crop lien system', 'convict leasing',
-          'ida b wells', 'long drive', 'comstock lode'
+          'ida b wells', 'long drive', 'comstock lode',
+          // Added for v1.7.0 Gilded Age DBQ
+          'pinkerton', 'pinkerton agency', 'welfare capitalism',
+          'eight hour day', 'collective bargaining',
+          // Added v1.7.0 — specific people/sources from Unit 6 DBQ docs
+          'frick', 'joseph keppler', 'puck magazine',
+          'amalgamated association of iron and steel workers',
+          'governor pattison', 'five points', 'lower east side',
+          'carnegie wharf', 'protectors of our industries'
         ],
         qualifierChecks: [
           {
@@ -384,7 +419,9 @@ var FRQ_CONFIGS = {
           'harlem renaissance', 'great migration', 'ku klux klan',
           'red scare', 'palmer raids', 'isolationism',
           'fourteen points', 'league of nations', 'treaty of versailles',
-          'neutrality acts', 'd-day', 'hiroshima'
+          'neutrality acts', 'd-day', 'hiroshima',
+          // Added v1.7.0 — people from Unit 7 DBQ docs
+          'eleanor roosevelt', 'a philip randolph'
         ],
         niche: [
           'dollar diplomacy', 'moral diplomacy', 'open door policy',
@@ -395,7 +432,21 @@ var FRQ_CONFIGS = {
           'bonus army', 'townsend plan', 'huey long',
           'court packing plan', 'second new deal',
           'war industries board', 'irreconcilables', 'cash and carry',
-          'bracero program', 'dust bowl', 'zoot suit riots'
+          'bracero program', 'dust bowl', 'zoot suit riots',
+          // Added for v1.7.0 Great Depression & WWII DBQ
+          'share our wealth', 'a. philip randolph', 'march on washington',
+          'gerald nye', 'neutrality act', 'executive order 9066',
+          'we can do it', 'rosie the riveter', 'war production',
+          'defense spending', 'double v campaign',
+          // Added v1.7.0 — specific laws, events, people from Unit 7 DBQ docs
+          'nye committee', 'executive order 8802',
+          'war production board', 'war production coordinating committee',
+          'westinghouse', 'j howard miller',
+          'japanese american internment', 'internment camps',
+          'japanese american', 'munitions makers',
+          'every man a king', 'share our wealth society',
+          'dust bowl farmer', 'pearl harbor', 'home front',
+          'women in workforce', 'defense industries'
         ],
         qualifierChecks: [
           {

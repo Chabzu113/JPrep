@@ -675,58 +675,71 @@ var APUSH_FRQ = [
   //  Note: complexity is a 7th optional point awarded for highest-level synthesis
   // ═══════════════════════════════════════════════════════════════
 
+  // ─── v1.7.0 DBQ: Unit 3 — Crisis of the Confederation & Ratification ──────
   {
     id: 'apush-dbq-u3-01',
     subject: 'apush',
     frqType: 'dbq',
-    title: 'Ratification Debate: Federalists vs. Anti-Federalists',
+    title: 'Crisis of the Confederation & Ratification, 1781–1789',
     units: [3],
     difficulty: 'hard',
     source: 'AP Exam Style',
     points: 7,
-    prompt: 'Using the following documents and your knowledge of the period, evaluate the extent to which disagreements over the Constitution (1787–1789) reflected fundamental differences in political philosophy between Federalists and Anti-Federalists.',
+    prompt: 'Using the following documents and your knowledge of the period, evaluate the extent to which the weaknesses of the Articles of Confederation drove the movement to create a new Constitution in the period 1781–1789.',
     stimulus: [
       {
         docNum: 1,
-        attribution: 'James Madison, Federalist No. 10, November 1787',
-        excerpt: 'The latent causes of faction are thus sown in the nature of man... The only remedy is to enlarge the sphere of government. Extend the republic to a greater variety of parties and interests; you make it less probable that a majority of the whole will have a common motive to invade the rights of other citizens.'
+        attribution: 'Letter from a Massachusetts Farmer, 1786 (written during Shays\' Rebellion)',
+        excerpt: 'We have labored hard all our days, and have scarcely been able to live — our farms will be sold for taxes and our children left with nothing. The men of property cry "order," but we ask — whose order? The lawyer and the merchant grow fat while the farmer suffers. We fought a war against British tyranny only to find ourselves ground down by taxes and courts no less merciless. If the laws cannot be reformed, those who make them must answer to the people, by force if need be. We do not seek to overturn government — we seek a government that governs justly.'
       },
       {
         docNum: 2,
-        attribution: 'Brutus (Anti-Federalist), Essay No. 1, October 1787',
-        excerpt: 'In a republic, the manners, sentiments, and interests of the people should be similar. If this be not the case, there will be a constant clashing of opinions; and the representatives of one part will be continually striving against those of the other. The territory of the United States is of vast extent; it is not possible for a government to extend equal benefits to all its parts.'
+        attribution: 'Alexander Hamilton, Federalist No. 23, 1787',
+        excerpt: 'The principal purposes to be answered by union are these: the common defense of the members; the preservation of the public peace, as well against internal convulsions as external attacks; the regulation of commerce with other nations and between the States; the superintendence of our intercourse, political and commercial, with foreign countries. The authorities essential to the care of the common defense are these: to raise armies; to build and equip fleets; to prescribe rules for the government of both; to direct their operations; to provide for their support. These powers ought to exist without limitation, because it is impossible to foresee or define the extent and variety of the exigencies which may arise, and because it is impossible to foresee the circumstances which may render them necessary or proper.'
       },
       {
         docNum: 3,
-        attribution: 'Alexander Hamilton, Federalist No. 70, March 1788',
-        excerpt: 'Energy in the Executive is a leading character in the definition of good government... A feeble Executive implies a feeble execution of the government. A feeble execution is but another phrase for a bad execution; and a government ill executed, whatever it may be in theory, must be, in practice, a bad government.'
+        attribution: 'Mercy Otis Warren, Observations on the New Constitution, 1788',
+        excerpt: 'There is no security in the proposed system, either for the rights of conscience or the liberty of the press. The executive and legislative are so dangerously blended as to give just cause of alarm, and everything relative to the organization of the latter is considered as imperfect and insecure. We have struggled for liberty and made costly sacrifices at every stage, and it is our duty to guard with vigilance every constitutional right. The new system proposes to consolidate all power in the hands of a few — a senate of appointed men, and an executive clothed in regal splendor. Is this the republic our soldiers bled for?'
       },
       {
         docNum: 4,
-        attribution: 'George Mason, Objections to the Constitution, October 1787',
-        excerpt: 'There is no Declaration of Rights, and the laws of the general government being paramount to the laws and constitution of the several States, the declarations of rights in the separate States are no security... The President of the United States has no Constitutional Council... He will therefore be unsupported by proper information and advice, and will generally be directed by minions and favorites.'
+        attribution: 'State Indebtedness and Paper Money Valuation, 1785–1787',
+        docType: 'data_table',
+        excerpt: 'A comparative table of state finances compiled from treasury records, 1785–1787. Per capita state debt (in pounds): Massachusetts $35, South Carolina $28, Virginia $22, New York $18, Pennsylvania $14, Maryland $12, Georgia $8. States issuing paper currency (depreciated vs. specie): Rhode Island paper money traded at 10:1 against hard coin; North Carolina at 5:1; Georgia at 3:1. Seven of thirteen states issued paper money; Massachusetts and Connecticut refused. Shays\' Rebellion (1786–87) erupted directly from Massachusetts\' decision to collect debt in hard currency, closing courts against debtors and triggering armed resistance by over a thousand farmers.'
       },
       {
         docNum: 5,
-        attribution: 'Patrick Henry, Virginia Ratification Convention, June 5, 1788',
-        excerpt: 'I smell a rat. I smell a rat... The Constitution is said to have beautiful features; but when I come to examine these features, sir, they appear to me horribly frightful. Among other deformities, it has an awful squinting: it squints toward monarchy... Your President may easily become king.'
+        attribution: 'George Washington, Letter to Henry Knox, February 3, 1787',
+        excerpt: 'We are fast verging to anarchy and confusion! A letter which I have just received from General Lincoln, who had been sent by the government of Massachusetts to quell the insurgents in that State, speaks of the disorders as having risen to an alarming height, and that he had been authorized to make use of force... What stronger evidence can be given of the want of energy in our governments than these disorders? Without some alteration in our political creed, the superstructure we have been seven years raising at the expense of so much blood and treasure must fall. We are fast verging to anarchy and confusion!'
+      },
+      {
+        docNum: 6,
+        attribution: 'Patrick Henry, Speech at the Virginia Ratifying Convention, June 5, 1788',
+        excerpt: 'This Constitution is said to have beautiful features; but when I come to examine these features, sir, they appear to me horribly frightful. Among other deformities, it has an awful squinting: it squints toward monarchy. Your President may easily become king. Your Senate is so imperfectly constructed that your dearest rights may be sacrificed by what may be a small minority... Where are your checks in this government? The President, senators, and representatives all immediately or ultimately are the choice of the people — and this, you say, is sufficient check? The President can appoint every great man of the country. Can he not, by his influence, make the Senate his accomplices?'
+      },
+      {
+        docNum: 7,
+        attribution: 'Constitutional Design: The Electoral College and the Presidential Veto, 1787',
+        docType: 'diagram',
+        excerpt: 'A diagram illustrating two key structural compromises in the Constitution as debated at the Philadelphia Convention. The Electoral College: state legislatures appoint a number of electors equal to their total congressional representation (senators + representatives); these electors meet in their respective states and vote for president, insulating the office from direct popular election. The qualified veto: the president returns unsigned legislation to Congress; Congress may override by a two-thirds majority in both the House and Senate. These mechanisms were designed to balance popular will against the judgment of experienced statesmen, and to prevent the "excess of democracy" that many Federalists blamed for the disorders of the 1780s.'
       }
     ],
     parts: [
       {
         label: 'essay',
-        question: 'Using the documents and your knowledge of the period, write a well-organized essay with a thesis, historical context, use of multiple documents (including at least 3 with sourcing analysis for at least 1), and outside historical evidence.',
-        rubric: 'Thesis (1 pt): Historically defensible claim establishing line of reasoning about the EXTENT of philosophical difference. Context (1 pt): Pre-Constitutional context — Articles of Confederation failures, Shays\' Rebellion, Philadelphia Convention. Document Use (2 pts): 1 pt for accurately using content from at least 3 documents to address the topic; 2 pts for accurately using content from at least 6 documents. Sourcing (1 pt): For at least 1 document, explain how the document\'s historical situation, audience, purpose, or point of view is relevant to the argument. Outside Evidence (1 pt): Uses relevant historical evidence beyond the documents (e.g., Bill of Rights compromise, specific state ratification debates, later history of federal power). Complexity (1 pt): Qualifies the extent of difference (areas of Federalist-Anti-Federalist agreement; long-term evolution of constitutional interpretation; connection to earlier or later debates about federal power).'
+        question: 'Using the documents and your knowledge of the period, write a well-organized essay with a historically defensible thesis, relevant historical context, evidence from at least 4 documents, sourcing analysis for at least 2 documents, and outside historical evidence.',
+        rubric: 'Thesis (1 pt): Defensible claim about the EXTENT to which Articles\' weaknesses drove the constitutional movement — avoid simple "yes" or "no." Context (1 pt): Pre-Confederation era — Revolutionary War debts, currency crises, state rivalries, Shays\' Rebellion. Document Use (2 pts): 1pt = 3+ docs accurately used; 2pts = 6+ docs or sophisticated use of fewer. Sourcing (1 pt): For at least 2 docs, explain how historical situation, audience, purpose, or POV shapes the argument (e.g., Washington writes to Knox as a fellow general alarmed by disorder; Mercy Otis Warren writes as an Anti-Federalist pamphleteer). Outside Evidence (1 pt): Specific evidence not in docs — e.g., specific state ratification battles, Northwest Ordinance (1787), Land Ordinance (1785), Jay-Gardoqui Treaty failure. Complexity (1 pt): Qualify the argument — note what the Articles accomplished, or trace the long-term debate over federal vs. state power.'
       }
     ],
     rubric: [
-      { points: 1, description: 'Thesis: Makes a historically defensible claim about the extent of philosophical differences between Federalists and Anti-Federalists.' },
-      { points: 1, description: 'Context: Accurately describes relevant pre-Constitutional context (Articles failures, Shays\' Rebellion).' },
+      { points: 1, description: 'Thesis: Makes a historically defensible claim about the extent to which Articles\' weaknesses drove the constitutional movement.' },
+      { points: 1, description: 'Context: Accurately describes relevant pre-Constitutional context — currency crises, debt, interstate rivalry, Shays\' Rebellion.' },
       { points: 1, description: 'Document Use (basic): Accurately uses content from at least 3 documents to address the topic.' },
-      { points: 1, description: 'Document Use (advanced): Accurately uses content from at least 6 of the 5 documents, OR uses fewer documents but with exceptional sophistication.' },
-      { points: 1, description: 'Sourcing: For at least 1 document, explains how its historical situation, audience, purpose, or POV is relevant to argument.' },
-      { points: 1, description: 'Outside Evidence: Uses specific historical evidence beyond the documents that supports the argument.' },
-      { points: 1, description: 'Complexity: Demonstrates complex understanding (areas of agreement, long-term constitutional evolution, connection to later debates about federal power).' }
+      { points: 1, description: 'Document Use (advanced): Accurately uses content from at least 6 documents to support the argument.' },
+      { points: 1, description: 'Sourcing: For at least 2 documents, explains how historical situation, audience, purpose, or POV is relevant to the argument.' },
+      { points: 1, description: 'Outside Evidence: Uses specific historical evidence beyond the documents (Northwest Ordinance, Jay-Gardoqui Treaty, state ratification debates, Bill of Rights compromise).' },
+      { points: 1, description: 'Complexity: Acknowledges what the Articles accomplished, or traces the long-term debate about federal power, or connects to later constitutional amendments.' }
     ],
     sampleSolution: null
   },
@@ -790,58 +803,210 @@ var APUSH_FRQ = [
     ],
     sampleSolution: null
   },
+
+  // ─── v1.7.0 DBQ: Unit 4 — The Market Revolution ─────────────────────────
   {
-    id: 'apush-dbq-u7-01',
+    id: 'apush-dbq-u4-01',
     subject: 'apush',
     frqType: 'dbq',
-    title: 'American Imperialism, 1890–1914',
-    units: [7],
+    title: 'The Market Revolution and American Society, 1820–1850',
+    units: [4],
     difficulty: 'hard',
     source: 'AP Exam Style',
     points: 7,
-    prompt: 'Using the following documents and your knowledge of the period, evaluate the extent to which economic, political, and ideological motivations drove American imperialism in the period 1890–1914.',
+    prompt: 'Using the following documents and your knowledge of the period, evaluate the extent to which the Market Revolution transformed American society in the period 1820–1850.',
     stimulus: [
       {
         docNum: 1,
-        attribution: 'Alfred Thayer Mahan, The Influence of Sea Power upon History, 1890',
-        excerpt: 'The history of sea power is largely, though by no means solely, a narrative of contests between nations... Whether they will or no, Americans must now begin to look outward. The growing production of the country demands it. An increasing volume of public sentiment demands it.'
+        attribution: 'Diary of Sarah G. Bagley, Lowell Mill Worker, 1845',
+        excerpt: 'We rise at the ringing of the morning bell, before daylight in the winter months, and labor in the mill until seven in the evening, with thirty minutes each for breakfast and dinner. The atmosphere of the factory is unhealthy — the air is heavy with cotton dust that we breathe with every breath. Many of my companions suffer from persistent cough and weakened lungs. Yet I stay, as the wages — though small — are more than I could earn at home, and I send money to my father\'s farm in New Hampshire each month. We are not slaves, but neither are we entirely free — the bell rules us as surely as any master.'
       },
       {
         docNum: 2,
-        attribution: 'Senator Albert Beveridge, Congressional Speech, January 1900',
-        excerpt: 'The Philippines are ours forever... And just beyond the Philippines are China\'s illimitable markets. We will not retreat from either... We will not renounce our part in the mission of our race, trustee, under God, of the civilization of the world... He has marked the American people as His chosen nation to finally lead in the regeneration of the world.'
+        attribution: 'Reverend Charles Grandison Finney, Lectures on Revivals of Religion, 1835',
+        excerpt: 'The church must take right ground on the subject of temperance, on the subject of slavery, and on all other subjects connected with the moral condition of society. A revival of religion is not a miracle, or dependent on a miracle, in any sense. It is a purely philosophical result of the right use of the constituted means. God has established, and brought into being, the necessary conditions for revival — and it is the work of man to put them in operation. These revivals produce a great change in the moral character of community. They break up the moral stupor of men, and produce a powerful excitement on the subject of religion.'
       },
       {
         docNum: 3,
-        attribution: 'Anti-Imperialist League Platform, 1899',
-        excerpt: 'We hold that the policy known as imperialism is hostile to liberty and tends toward militarism... We regret that it has become necessary in the land of Washington and Lincoln to reaffirm that all men, of whatever race or color, are entitled to life, liberty, and the pursuit of happiness... We propose to contribute to the defeat of persons who in the pretended defense of liberty are establishing despotism.'
+        attribution: 'Editorial in The Southern Agriculturist, 1840',
+        excerpt: 'The marvels of the Northern factories are presented to us as models of progress, yet what is their true cost? The factory system destroys the family — husband, wife, and children are separated to tend to machinery, enslaved to the clock rather than to the seasons. The Southern planter cultivates his acres with a steady and experienced hand, produces the cotton which feeds these Northern mills, and maintains the social order which alone can preserve republican virtue. Let the North keep its machines and its restless, disorderly changes; the South shall keep its traditions, its stability, and its time-honored way of life.'
       },
       {
         docNum: 4,
-        attribution: 'Josiah Strong, Our Country: Its Possible Future and Its Present Crisis, 1885',
-        excerpt: 'It seems to me that God, with infinite wisdom and skill, is training the Anglo-Saxon race for an hour sure to come in the world\'s future... This race of unequaled energy, with all the majesty of numbers and the might of wealth behind it—the representative, let us hope, of the largest liberty, the purest Christianity, the highest civilization—having developed peculiarly aggressive traits... will spread itself over the earth.'
+        attribution: 'Expansion of the Erie Canal and Railroad Mileage, 1825–1850',
+        docType: 'map',
+        excerpt: 'A map of the northeastern United States illustrating the transportation revolution, 1825–1850. The Erie Canal (completed 1825) is shown running 363 miles from Albany on the Hudson River to Buffalo on Lake Erie, opening the Great Lakes interior to Atlantic commerce and reducing freight costs by approximately 90%. Inset bar charts show total U.S. railroad mileage growing from 23 miles in 1830 to 2,818 miles by 1840 and 9,021 miles by 1850, concentrated in the Northeast and Midwest. A second inset shows the resulting decline in shipping costs from New York to Cincinnati: from $100 per ton by wagon road in 1815 to $4 per ton by canal and lake steamer by 1850.'
       },
       {
         docNum: 5,
-        attribution: 'Emilio Aguinaldo, Appeal to the Filipino People, 1899',
-        excerpt: 'My government cannot remain indifferent in view of such a violent and aggressive seizure of a portion of its territory... I sincerely desire that the United States and the Philippine people should not be brought to an open break... but my government will strive to avoid armed conflict, while preserving its dignity and the honor of our country.'
+        attribution: 'The Lowell Offering Magazine, Editorial, 1840',
+        excerpt: 'Is the factory system unfavorable to the moral and intellectual improvement of operatives? We think not. Many of our number who came here as strangers, friendless and uneducated, have here found companions, have acquired education, have laid up money, and have learned to reflect and to judge. We cannot but consider the manufacturing system of New England as favorable, rather than adverse, to the moral and intellectual improvement of the operative class. The Offering itself — written entirely by factory women — is evidence enough that the hand at the loom may hold also the pen, and that the mill girl may aspire to the condition of a citizen.'
+      },
+      {
+        docNum: 6,
+        attribution: 'Chief Justice Roger B. Taney, Charles River Bridge v. Warren Bridge, 1837',
+        excerpt: 'The object and end of all government is to promote the happiness and prosperity of the community by which it is established, and it can never be assumed that the government intended to diminish its power of accomplishing the end for which it was created. While the rights of private property are sacredly guarded, we must not forget that the community also have rights, and that the happiness and well-being of every citizen depends on their faithful preservation. In a country like ours, free, active, and enterprising, continually advancing in numbers and wealth, new channels of communication are daily found necessary, both for travel and trade, and unless the right to open them is reserved to the public, the community will be held back by the monopolies of an earlier and less enlightened day.'
+      },
+      {
+        docNum: 7,
+        attribution: 'Advertisement for the McCormick "Virginia Reaper," 1847',
+        docType: 'advertisement',
+        excerpt: 'A printed advertisement for Cyrus McCormick\'s mechanical reaper, published in agricultural newspapers and the Prairie Farmer journal in 1847. The advertisement features an engraving of the horse-drawn reaper moving through a field of standing wheat alongside bold text claiming the machine can harvest 15 acres per day — the equivalent of 15 men working with hand scythes — at a purchase price of $100–$115. Testimonials from Virginia and Illinois farmers praise its reliability and cost savings. The advertisement boasts over 1,500 machines sold since 1840 and notes that the McCormick factory in Chicago now employs 50 workers producing 500 reapers annually using water-powered machinery and standardized parts.'
       }
     ],
     parts: [
       {
         label: 'essay',
-        question: 'Using the documents and your knowledge of the period, write a well-organized essay evaluating the motivations for American imperialism.',
-        rubric: 'Thesis: Defensible claim about the EXTENT and relative weight of economic, political, and ideological motivations. Context: Post-Civil War industrialization, closing of the frontier (Turner Thesis), Spanish-American War, Monroe Doctrine tradition. Document Use: 3+ docs (1 pt) or all 5 docs (2 pts). Sourcing: At least 1 doc analyzed for audience/purpose/POV. Outside Evidence: Specific events beyond the docs (e.g., Hawaii annexation, Open Door Policy, Panama Canal, Roosevelt Corollary, Philippine-American War). Complexity: Address Anti-Imperialist arguments and the tension between democratic ideals and imperial practice.'
+        question: 'Using the documents and your knowledge of the period, write a well-organized essay with a historically defensible thesis, relevant historical context, evidence from at least 4 documents, sourcing analysis for at least 2 documents, and outside historical evidence.',
+        rubric: 'Thesis (1 pt): Defensible claim about the EXTENT and nature of Market Revolution transformation — avoid generic "it changed things." Context (1 pt): Pre-Market Revolution economy — subsistence farming, household production, limited markets; OR earlier transportation (post roads, keelboats). Document Use (2 pts): 1pt = 3+ docs accurately used; 2pts = 6+ docs. Sourcing (1 pt): For at least 2 docs explain how POV/audience/purpose/historical situation shapes argument (e.g., Bagley writes as a mill worker defending her own choices; the Southern Agriculturist writes to defend slavery and oppose Northern industrialism). Outside Evidence (1 pt): Specific evidence beyond docs — Erie Canal specific statistics, specific strikes at Lowell (1834, 1836), Seneca Falls connection to women in workforce, Second Bank controversy, specific railroad companies. Complexity (1 pt): Regional variation (North vs. South vs. West); limits of transformation; connection to slavery expansion or labor reform movements.'
       }
     ],
     rubric: [
-      { points: 1, description: 'Thesis: Makes a historically defensible claim about the motivations (economic, political, ideological) for American imperialism.' },
-      { points: 1, description: 'Context: Accurately describes relevant context (industrialization, frontier closing, Spanish-American War).' },
+      { points: 1, description: 'Thesis: Makes a historically defensible claim about the extent to which the Market Revolution transformed American society.' },
+      { points: 1, description: 'Context: Accurately describes pre-Market Revolution economic conditions or earlier transportation limitations.' },
+      { points: 1, description: 'Document Use (basic): Accurately uses content from at least 3 documents to address the topic.' },
+      { points: 1, description: 'Document Use (advanced): Accurately uses content from at least 6 documents.' },
+      { points: 1, description: 'Sourcing: For at least 2 documents, explains how historical situation, audience, purpose, or POV is relevant to the argument.' },
+      { points: 1, description: 'Outside Evidence: Uses specific historical evidence beyond the documents (specific canal statistics, Lowell strikes, Seneca Falls, specific legislation).' },
+      { points: 1, description: 'Complexity: Addresses regional variation, limits of transformation, or connections to slavery expansion or reform movements.' }
+    ],
+    sampleSolution: null
+  },
+
+  // ─── v1.7.0 DBQ: Unit 6 — The Gilded Age: Labor & Capital ───────────────
+  {
+    id: 'apush-dbq-u6-01',
+    subject: 'apush',
+    frqType: 'dbq',
+    title: 'Labor, Capital, and Reform in the Gilded Age, 1870–1900',
+    units: [6],
+    difficulty: 'hard',
+    source: 'AP Exam Style',
+    points: 7,
+    prompt: 'Using the following documents and your knowledge of the period, evaluate the extent to which conflicts between labor and capital shaped American society and government policy in the Gilded Age.',
+    stimulus: [
+      {
+        docNum: 1,
+        attribution: 'Andrew Carnegie, "The Gospel of Wealth," North American Review, 1889',
+        excerpt: 'The problem of our age is the proper administration of wealth, so that the ties of brotherhood may still bind together the rich and poor in harmonious relationship. The conditions of human life have not only been changed, but revolutionized, within the past few hundred years. The contrast between the palace of the millionaire and the cottage of the laborer with us today measures the change which has come with civilization. This change, however, is not to be deplored, but welcomed as highly beneficial. It is well, nay, essential for the progress of the race, that the houses of some should be homes for all that is highest and best in literature and the arts. The duty of the man of wealth is to consider all surplus revenues which come to him simply as trust funds, which he is called upon to administer in the manner which is best calculated to produce the most beneficial results for the community.'
+      },
+      {
+        docNum: 2,
+        attribution: 'Preamble to the Constitution of the Knights of Labor, 1878',
+        excerpt: 'The alarming development and aggressiveness of great capitalists and corporations, unless checked, will inevitably lead to the pauperization and hopeless degradation of the toiling masses. It is imperative, if we desire to enjoy the full blessings of life, that a check be placed upon unjust accumulation, and the powers for evil of aggregated wealth. This much-desired object can be accomplished only by the united efforts of those who obey the divine injunction: "In the sweat of thy face shalt thou eat bread." Therefore we have formed the Order of the Knights of Labor, with a view to securing the organization and direction, by co-operative effort, of the power of the industrial classes; and we submit to the world the object sought to be accomplished by our organization, calling upon all who believe in securing the "greatest good to the greatest number" to aid and assist us.'
+      },
+      {
+        docNum: 3,
+        attribution: 'Testimony of a Pinkerton Detective Agency Agent before the U.S. Senate, Homestead Strike, 1892',
+        excerpt: 'We were brought in by steamboat in the night of July 5th, on orders from the Carnegie Steel Company\'s chief manager, Mr. Frick. As we landed at the Carnegie wharf, the striking workers and their families lined the shore in great numbers. There was firing — I cannot say who fired first. Several of my companions fell wounded, and several of the workers likewise. We were vastly outnumbered and, after hours of fighting, had no choice but to surrender. We were marched through the town and suffered considerable abuse from the crowd. The National Guard was then called in by Governor Pattison, the strikers gradually returned to work at reduced wages, and the workers who had led the strike were not re-hired. The Amalgamated Association was effectively destroyed at Carnegie Steel.'
+      },
+      {
+        docNum: 4,
+        attribution: '"The Protectors of Our Industries," Puck Magazine, 1883',
+        docType: 'political_cartoon',
+        excerpt: 'A political cartoon from Puck magazine (1883) by artist Joseph Keppler. The cartoon shows three enormous figures, labeled "Standard Oil," "Steel Trust," and "Railroad Monopoly," straddling the dome of the U.S. Capitol building. The monopolists physically dwarf the legislators working inside. The cartoon is titled "The Protectors of Our Industries" — a sarcastic reference to industrialists\' argument that high protective tariffs benefit American workers. Small figures representing ordinary citizens, farmers, and factory workers are shown being crushed beneath the feet of the giants. An eagle perched on the Capitol looks on helplessly. The cartoon reflects widespread public anxiety that large corporations had effectively captured the federal government and its regulatory machinery.'
+      },
+      {
+        docNum: 5,
+        attribution: 'Samuel Gompers, "What Does the Working Man Want?", Louisville, Kentucky, 1893',
+        excerpt: 'The working people want more wages. The working people want shorter hours of labor. We want eight hours for work, eight hours for rest, eight hours for what we will — that is the demand of labor today. We want the right to organize. We want the recognition of our organizations by the employers of labor. We want an American standard of living. The American working man demands not charity — he demands justice. He demands the right to share in the wealth his labor creates. Is it the wildest scheme of socialism or anarchy to claim that those who do the work of the world should receive enough to live in decency, in comfort, to educate their children, and to save something against the day of old age and sickness?'
+      },
+      {
+        docNum: 6,
+        attribution: 'The Sherman Antitrust Act, Section 1, United States Congress, 1890',
+        excerpt: 'Every contract, combination in the form of trust or otherwise, or conspiracy, in restraint of trade or commerce among the several States, or with foreign nations, is hereby declared to be illegal. Every person who shall make any such contract or engage in any such combination or conspiracy shall be deemed guilty of a misdemeanor, and, on conviction thereof, shall be punished by fine not exceeding five thousand dollars, or by imprisonment not exceeding one year, or by both said punishments, in the discretion of the court. The Act shall not be construed to prevent and restrain contracts, combinations, or conspiracies in restraint of trade that may be necessary or proper.'
+      },
+      {
+        docNum: 7,
+        attribution: 'Jacob Riis, How the Other Half Lives: Studies Among the Tenements of New York, 1890',
+        docType: 'photo',
+        excerpt: 'A photograph and accompanying text from Jacob Riis\'s 1890 exposé of New York City tenement life, documenting conditions in the Five Points and lower East Side neighborhoods. The photograph shows a dark alley flanked by wooden tenement buildings rising five stories, with families crowded onto narrow fire escapes and laundry strung between windows. The text reads: "In the tenements of the lower East Side, twelve or fourteen people may occupy a three-room apartment designed for four. The air in these rooms is foul, light is absent, and the water supply is a single tap on each floor shared by all tenants of that landing. Disease — especially tuberculosis, known as \'the great white plague\' — thrives under these conditions. In one block between Mulberry and Mott Streets, I counted over a thousand human beings living in a space designed for two hundred."'
+      }
+    ],
+    parts: [
+      {
+        label: 'essay',
+        question: 'Using the documents and your knowledge of the period, write a well-organized essay with a historically defensible thesis, relevant historical context, evidence from at least 4 documents, sourcing analysis for at least 2 documents, and outside historical evidence.',
+        rubric: 'Thesis (1 pt): Defensible claim about the EXTENT to which labor-capital conflict shaped society and policy — address the "extent" qualifier. Context (1 pt): Post-Civil War industrialization — rapid growth of railroads, steel, oil; immigration providing cheap labor; laissez-faire ideology. Document Use (2 pts): 1pt = 3+ docs; 2pts = 6+ docs. Sourcing (1 pt): For at least 2 docs — e.g., Carnegie writes as a beneficiary of industrial capitalism defending the system; Puck cartoon uses satire to critique tariff policy. Outside Evidence (1 pt): Haymarket Riot (1886), Pullman Strike (1894), Interstate Commerce Act (1887), specific Supreme Court rulings, Populist Party platform, Ida B. Wells, settlement house movement. Complexity (1 pt): Explain limits of government response, or regional variation (urban vs. rural labor), or long-term legacy (Progressive Era regulation).'
+      }
+    ],
+    rubric: [
+      { points: 1, description: 'Thesis: Makes a historically defensible claim about the extent to which labor-capital conflict shaped American society and policy.' },
+      { points: 1, description: 'Context: Accurately describes post-Civil War industrialization, immigration, and laissez-faire ideology as context for Gilded Age conflicts.' },
       { points: 1, description: 'Document Use (basic): Accurately uses content from at least 3 documents.' },
-      { points: 1, description: 'Document Use (advanced): Accurately uses content from at least 5 documents.' },
-      { points: 1, description: 'Sourcing: For at least 1 document, explains how its historical situation, audience, purpose, or POV is relevant.' },
-      { points: 1, description: 'Outside Evidence: Uses specific historical evidence beyond the documents.' },
-      { points: 1, description: 'Complexity: Addresses the tension between democratic ideals and imperial practice, or compares U.S. imperialism to European models, or connects to later interventionism.' }
+      { points: 1, description: 'Document Use (advanced): Accurately uses content from at least 6 documents.' },
+      { points: 1, description: 'Sourcing: For at least 2 documents, explains how historical situation, audience, purpose, or POV is relevant to the argument.' },
+      { points: 1, description: 'Outside Evidence: Uses specific historical evidence beyond the documents (Haymarket, Pullman Strike, Interstate Commerce Act, specific court rulings).' },
+      { points: 1, description: 'Complexity: Addresses limits of government response, regional variation in labor conflict, or long-term Progressive Era connections.' }
+    ],
+    sampleSolution: null
+  },
+
+  // ─── v1.7.0 DBQ: Unit 7 — Great Depression & WWII ───────────────────────
+  {
+    id: 'apush-dbq-u7-01',
+    subject: 'apush',
+    frqType: 'dbq',
+    title: 'The Great Depression, New Deal, and American Society, 1929–1945',
+    units: [7],
+    difficulty: 'hard',
+    source: 'AP Exam Style',
+    points: 7,
+    prompt: 'Using the following documents and your knowledge of the period, evaluate the extent to which the New Deal represented a significant departure from earlier approaches to the relationship between the federal government and American citizens.',
+    stimulus: [
+      {
+        docNum: 1,
+        attribution: 'Letter from a Dust Bowl Farmer to Eleanor Roosevelt, 1935',
+        excerpt: 'Dear Mrs. Roosevelt, I am writing to you because I have heard that you care about common people like us. We have lived on this land for twenty years, and now the dust has driven us off. Last spring the dust storms buried our wheat and choked our livestock. The bank has foreclosed on our farm, and we have nothing left. My husband tries to find work, but there are a thousand men for every job. We have six children to feed. I know the President is trying to help with his programs, but the relief money does not reach us here. I am not a woman given to asking charity, Mrs. Roosevelt, but our children are hungry. We ask only for a fair chance — for a loan to start again somewhere, for work, for any help at all that the government can provide.'
+      },
+      {
+        docNum: 2,
+        attribution: 'Senator Gerald P. Nye, Speech on American Neutrality, United States Senate, 1935',
+        excerpt: 'We are told that we must stand against aggression in Europe, that we cannot remain indifferent to the march of dictators. But I ask this Senate: at what cost? The last time we entered a European war, we sent two million young Americans across the ocean, fifty thousand of whom never returned. We were told we were fighting to make the world safe for democracy — and look at Europe today. More dictators, more armaments, more danger than before we went. America\'s first duty is to its own people. The munitions makers and the international bankers will push us toward war, for they profit from it. The American people want peace, and this body has both the power and the duty to keep them out of Europe\'s ancient quarrels.'
+      },
+      {
+        docNum: 3,
+        attribution: 'Executive Order 9066, President Franklin D. Roosevelt, February 19, 1942',
+        excerpt: 'Now, therefore, by virtue of the authority vested in me as President of the United States, and Commander in Chief of the Army and Navy, I hereby authorize and direct the Secretary of War, and the Military Commanders whom he may from time to time designate, whenever he or any designated Commander deems such action necessary or desirable, to prescribe military areas in such places and of such extent as he or the appropriate Military Commander may determine, from which any or all persons may be excluded, and with respect to which, the right of any person to enter, remain in, or leave shall be subject to whatever restrictions the Secretary of War or the appropriate Military Commander may impose in his discretion. The Secretary of War is hereby authorized to provide for residents of any such area who are excluded therefrom, such transportation, food, shelter, and other accommodations as may be necessary.'
+      },
+      {
+        docNum: 4,
+        attribution: 'U.S. Unemployment Rate vs. Federal Defense Spending, 1938–1945',
+        docType: 'chart',
+        excerpt: 'A dual-axis line chart showing two economic indicators from 1938 to 1945. Left axis (civilian unemployment rate, %): 1938 = 19.0%; 1939 = 17.2%; 1940 = 14.6%; 1941 = 9.9%; 1942 = 4.7%; 1943 = 1.9%; 1944 = 1.2%; 1945 = 1.9%. Right axis (federal defense spending, billions of dollars): 1938 = $1.1B; 1939 = $1.3B; 1940 = $1.6B; 1941 = $6.1B; 1942 = $25.7B; 1943 = $66.0B; 1944 = $79.1B; 1945 = $75.9B. The chart demonstrates a strong inverse correlation: as defense spending surged after Pearl Harbor, unemployment fell from Depression-era highs to historically low levels, suggesting that wartime military mobilization — rather than New Deal programs alone — ended the Great Depression.'
+      },
+      {
+        docNum: 5,
+        attribution: 'Huey Long, "Every Man a King" Radio Address, 1934',
+        excerpt: 'How many men ever went to a barbecue and would let one man take off the table what\'s intended for nine-tenths of the people? The only way you\'ll ever be able to feed the balance of the people is to make that man come back and bring back some of that food that he\'s got no business with. Now we have organized a society, and we call it "Share Our Wealth Society." We propose to limit the wealth of big men in the country. There\'s an average of $15,000 in wealth to every family in America. That is plenty for everybody to be well off, is it not? We do not propose to divide it up equally. But we do say that 1% of the people cannot own 59% of the wealth of America. Every man a king — that is our motto.'
+      },
+      {
+        docNum: 6,
+        attribution: 'A. Philip Randolph, "Call to Negro America to March on Washington," The Black Worker, 1941',
+        excerpt: 'We call upon you to fight for jobs in National Defense. We call upon you to struggle for the integration of Negroes in the armed forces — Army, Navy, Air Corps and Marine Corps of the Nation. We call upon you to demonstrate for the abolition of Jim-Crowism in all Government departments and defense employment. An all-out, bold and total effort must be made to remove barriers of color discrimination against Negroes in the war industries and government departments. Most important and vital of all, Negroes by the mobilization and coordination of their mass power, can cause PRESIDENT ROOSEVELT TO ISSUE AN EXECUTIVE ORDER ABOLISHING DISCRIMINATIONS IN ALL GOVERNMENT DEPARTMENTS, ARMY, NAVY, AIR CORPS AND NATIONAL DEFENSE JOBS. We propose that 10,000 Negro Americans MARCH ON WASHINGTON FOR JOBS IN NATIONAL DEFENSE AND EQUAL INTEGRATION IN THE FIGHTING FORCES OF THE UNITED STATES.'
+      },
+      {
+        docNum: 7,
+        attribution: '"We Can Do It!" Westinghouse Electric & Manufacturing Co. Poster, J. Howard Miller, 1942',
+        docType: 'poster',
+        excerpt: 'A wartime industrial morale poster commissioned by the War Production Coordinating Committee for display in Westinghouse Electric factories, February–March 1942. The poster features a woman in a blue collared work shirt and red polka-dot bandana, flexing her right arm in a show of muscular strength. The bold text above reads "We Can Do It!" The image was designed to encourage female factory workers and boost morale on the home front production lines. During World War II, over six million women entered the industrial workforce for the first time, filling positions in aircraft manufacturing, shipbuilding, munitions production, and steel fabrication vacated by men serving in the military. By 1945, women constituted approximately 36% of the civilian labor force, compared to 24% in 1940.'
+      }
+    ],
+    parts: [
+      {
+        label: 'essay',
+        question: 'Using the documents and your knowledge of the period, write a well-organized essay with a historically defensible thesis, relevant historical context, evidence from at least 4 documents, sourcing analysis for at least 2 documents, and outside historical evidence.',
+        rubric: 'Thesis (1 pt): Defensible claim about the EXTENT of the New Deal\'s departure from earlier federal-citizen relationships — avoid generic "it was significant." Context (1 pt): Pre-Depression government role — laissez-faire, limited federal welfare, Hoover\'s response, 1929 crash causes. Document Use (2 pts): 1pt = 3+ docs; 2pts = 6+ docs. Sourcing (1 pt): At least 2 docs — e.g., the Dust Bowl farmer writes as a desperate supplicant to the First Lady (reflects changed expectations of federal role); Randolph writes as a Black labor organizer applying pressure on a president reluctant to antagonize Southern Democrats. Outside Evidence (1 pt): Specific New Deal programs (CCC, WPA, SSA, FDIC), Supreme Court challenges (Schechter Poultry, NLRB v. Jones), specific pre-Depression policies (Mellon tax cuts, Smoot-Hawley). Complexity (1 pt): Address limits of the New Deal (racial exclusions in AAA/Social Security, court-packing failure), or compare to Hoover\'s voluntarism, or trace legacy to Great Society.'
+      }
+    ],
+    rubric: [
+      { points: 1, description: 'Thesis: Makes a historically defensible claim about the extent to which the New Deal departed from earlier federal-citizen relationships.' },
+      { points: 1, description: 'Context: Accurately describes pre-Depression laissez-faire policies, Hoover\'s response, or causes of the 1929 crash.' },
+      { points: 1, description: 'Document Use (basic): Accurately uses content from at least 3 documents.' },
+      { points: 1, description: 'Document Use (advanced): Accurately uses content from at least 6 documents.' },
+      { points: 1, description: 'Sourcing: For at least 2 documents, explains how historical situation, audience, purpose, or POV is relevant to the argument.' },
+      { points: 1, description: 'Outside Evidence: Uses specific New Deal programs, Supreme Court challenges, pre-Depression policies, or home front mobilization details beyond the documents.' },
+      { points: 1, description: 'Complexity: Addresses limits of the New Deal (racial exclusions, court-packing), compares to Hoover\'s voluntarism, or traces legacy to the Great Society.' }
     ],
     sampleSolution: null
   },
