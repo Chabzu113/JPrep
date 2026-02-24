@@ -106,6 +106,9 @@ function getQuestionTypeLabel(q, subjId) {
   const isFRQ = Array.isArray(q.units) && q.units.length > 0 && !q.choices;
   if (isFRQ) {
     const ft = q.frqType;
+    if (ft === 'saq') return 'SAQ';
+    if (ft === 'leq') return 'LEQ';
+    if (ft === 'dbq') return 'DBQ';
     return ft === 'short' ? 'Short FRQ' : ft === 'long' ? 'Long FRQ' : 'FRQ';
   }
   // MCQ
@@ -506,7 +509,7 @@ function renderSessionQuestion() {
   if (!q) return;
 
   const wrap = document.getElementById('sessionQuestionWrap');
-  const isFRQ = q.type && q.type.includes('FRQ');
+  const isFRQ = q.type && (q.type.includes('FRQ') || q.type === 'SAQ' || q.type === 'LEQ' || q.type === 'DBQ');
   const state = sessionAnswerState[q.id];
   const diffColor = { easy: '#16a34a', medium: '#d97706', hard: '#dc2626' };
   const diffBg = { easy: '#dcfce7', medium: '#fef9c3', hard: '#fee2e2' };
@@ -593,83 +596,133 @@ function renderSessionQuestion() {
       </div>`;
     }).join('');
 
+    const isAutoGraded = q.subject && typeof FRQ_CONFIGS !== 'undefined' && FRQ_CONFIGS[q.subject];
+    const displayPts = isAutoGraded ? (q.points || 7) : totalPts;
+
+    // DBQ: render stimulus documents above the editor
+    // Supports both q.documents {id,source,content} and q.stimulus {docNum,attribution,excerpt}
+    const frqTypeForDocs = (q.frqType || q.type || '').toLowerCase();
+    const rawDocs = q.documents || q.stimulus || [];
+    const stimulusHtml = (frqTypeForDocs === 'dbq' && rawDocs.length > 0)
+      ? `<div class="dbq-stimulus-container">
+           <div class="dbq-stimulus-header">📄 Documents (${rawDocs.length})</div>
+           <div class="dbq-documents-scroll">
+             ${rawDocs.map(function(doc, i) {
+               const num    = doc.id    || doc.docNum || (i + 1);
+               const source = doc.source || doc.attribution || '';
+               const text   = doc.content || doc.excerpt || '';
+               return '<div class="dbq-document-card">' +
+                 '<div class="dbq-document-source">Document ' + num + ' — ' + App.escapeHtml(source) + '</div>' +
+                 '<div class="dbq-document-content">' + App.escapeHtml(text) + '</div>' +
+                 '</div>';
+             }).join('')}
+           </div>
+         </div>`
+      : '';
+
     if (!state) {
-      // ── Not yet answered: show editor + "Check Answer" button ──
+      // ── Not yet answered: show editor + action button ──
+      const gradingSectionHtml = isAutoGraded
+        ? `<div id="frqGradingSection" class="hidden" style="margin-top:20px">
+             <div id="frqAutoAnalysis" class="frq-analysis-placeholder"></div>
+           </div>`
+        : `<div id="frqGradingSection" class="hidden" style="margin-top:20px">
+             ${q.sampleSolution ? `<div style="margin-bottom:20px">
+               <p class="frq-section-label">Sample Solution:</p>
+               ${App.renderCode(q.sampleSolution)}
+             </div>` : ''}
+             <div class="frq-rubric-grader">
+               <div class="frq-rubric-grader-header">
+                 <p style="font-weight:700;font-size:1rem;margin:0">Grade Your Answer</p>
+                 <p style="color:var(--text-muted);font-size:0.85rem;margin:4px 0 0">Check each rubric point your answer earns:</p>
+               </div>
+               <div class="frq-rubric-checklist" id="rubricChecklist">
+                 ${(q.rubric || []).map((r, ri) => `
+                   <label class="rubric-check-row" data-idx="${ri}" data-pts="${r.points}">
+                     <input type="checkbox" class="rubric-checkbox" data-pts="${r.points}">
+                     <span class="rubric-check-desc">${App.escapeHtml(r.description)}</span>
+                     <span class="rubric-check-pts">${r.points} pt</span>
+                   </label>
+                 `).join('')}
+               </div>
+               <div class="frq-rubric-score-bar">
+                 <span>Your score:</span>
+                 <span id="frqLiveScore" class="frq-live-score">0 / ${totalPts}</span>
+               </div>
+               <button class="btn btn-primary" id="frqSubmitScore" style="width:100%;margin-top:12px">
+                 Submit Score
+               </button>
+             </div>
+           </div>`;
+
+      const frqTypeForEditor = (q.frqType || q.type || '').toLowerCase();
+      const isSAQEditor = isAutoGraded && frqTypeForEditor === 'saq';
+      const editorHtml = isSAQEditor
+        ? (q.parts || [{label:'a'},{label:'b'},{label:'c'}]).map(p => `
+            <div class="frq-editor-section" style="margin-bottom:12px">
+              <div class="frq-editor-header">
+                <span class="frq-section-label">Part (${p.label.toUpperCase()}) RESPONSE:</span>
+              </div>
+              <textarea id="frqPartEditor_${p.label}" class="frq-code-editor" style="min-height:80px" placeholder="Write your answer for Part (${p.label.toUpperCase()})..."></textarea>
+            </div>`).join('')
+        : `<div class="frq-editor-section">
+             <div class="frq-editor-header">
+               <span class="frq-section-label">${isFRQ ? 'ESSAY RESPONSE:' : 'Your answer (Java code):'}</span>
+               <span style="font-size:0.8rem;color:var(--text-muted)">${displayPts} points total</span>
+             </div>
+             <textarea id="frqAnswerEditor" class="frq-code-editor" placeholder="${isFRQ ? 'Write your essay response here...' : '// Write your Java solution here...'}"></textarea>
+           </div>`;
+
       bodyHtml = `
         ${partsHtml}
-
-        <!-- Answer Editor -->
-        <div class="frq-editor-section">
-          <div class="frq-editor-header">
-            <span class="frq-section-label">Your answer (Java code):</span>
-            <span style="font-size:0.8rem;color:var(--text-muted)">${totalPts} points total</span>
-          </div>
-          <textarea id="frqAnswerEditor" class="frq-code-editor" placeholder="// Write your Java solution here..."></textarea>
-          <div class="frq-editor-actions">
-            <button class="btn btn-primary" id="frqCheckAnswer">
-              Check My Answer
-            </button>
-          </div>
+        ${stimulusHtml}
+        ${editorHtml}
+        <div class="frq-editor-actions" style="margin-top:4px">
+          <button class="btn btn-primary" id="frqCheckAnswer">
+            ${isAutoGraded ? 'Grade My Essay' : 'Check My Answer'}
+          </button>
         </div>
-
-        <!-- Rubric Grading (hidden until Check is clicked) -->
-        <div id="frqGradingSection" class="hidden" style="margin-top:20px">
-          <!-- Sample Solution -->
-          ${q.sampleSolution ? `<div style="margin-bottom:20px">
+        ${gradingSectionHtml}`;
+    } else {
+      // ── Already answered: show result ──
+      const maxPts = isAutoGraded ? (state.frqScoreMax || q.points || 7) : totalPts;
+      const score = state.frqScore != null ? state.frqScore : (state.correct ? maxPts : 0);
+      const pct = maxPts > 0 ? Math.round((score / maxPts) * 100) : 0;
+      if (isAutoGraded) {
+        bodyHtml = `
+          ${partsHtml}
+          ${stimulusHtml}
+          <div class="session-feedback ${state.correct ? 'session-feedback-correct' : 'session-feedback-wrong'}" style="margin-top:16px">
+            <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+              <span style="font-size:1.6rem;font-weight:800">${score}/${maxPts}</span>
+              <span style="font-weight:600">${pct}% — ${state.correct ? '✓ Passing' : '✗ Needs work'}</span>
+            </div>
+          </div>
+          <div id="frqAutoAnalysisResult" class="frq-analysis-placeholder" style="margin-top:16px"></div>`;
+      } else {
+        bodyHtml = `
+          ${partsHtml}
+          <div class="session-feedback ${state.correct ? 'session-feedback-correct' : 'session-feedback-wrong'}" style="margin-top:16px">
+            <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+              <span style="font-size:1.6rem;font-weight:800">${score}/${totalPts}</span>
+              <span style="font-weight:600">${pct}% — ${state.correct ? '✓ Passing' : '✗ Needs work'}</span>
+            </div>
+          </div>
+          ${q.sampleSolution ? `<div style="margin-top:16px">
             <p class="frq-section-label">Sample Solution:</p>
             ${App.renderCode(q.sampleSolution)}
           </div>` : ''}
-
-          <!-- Rubric Checklist -->
-          <div class="frq-rubric-grader">
-            <div class="frq-rubric-grader-header">
-              <p style="font-weight:700;font-size:1rem;margin:0">Grade Your Answer</p>
-              <p style="color:var(--text-muted);font-size:0.85rem;margin:4px 0 0">Check each rubric point your answer earns:</p>
+          <div style="margin-top:16px">
+            <div class="session-feedback session-feedback-info">
+              <p style="font-weight:700;margin-bottom:8px">Rubric (${totalPts} pts)</p>
+              <ul class="rubric-list">${(q.rubric || []).map(r =>
+                `<li class="rubric-item">
+                  <span>${App.escapeHtml(r.description)}</span>
+                  <span class="rubric-pts">${r.points} pt</span>
+                </li>`).join('')}</ul>
             </div>
-            <div class="frq-rubric-checklist" id="rubricChecklist">
-              ${(q.rubric || []).map((r, ri) => `
-                <label class="rubric-check-row" data-idx="${ri}" data-pts="${r.points}">
-                  <input type="checkbox" class="rubric-checkbox" data-pts="${r.points}">
-                  <span class="rubric-check-desc">${App.escapeHtml(r.description)}</span>
-                  <span class="rubric-check-pts">${r.points} pt</span>
-                </label>
-              `).join('')}
-            </div>
-            <div class="frq-rubric-score-bar">
-              <span>Your score:</span>
-              <span id="frqLiveScore" class="frq-live-score">0 / ${totalPts}</span>
-            </div>
-            <button class="btn btn-primary" id="frqSubmitScore" style="width:100%;margin-top:12px">
-              Submit Score
-            </button>
-          </div>
-        </div>`;
-    } else {
-      // ── Already answered: show result ──
-      const score = state.frqScore != null ? state.frqScore : (state.correct ? totalPts : 0);
-      const pct = totalPts > 0 ? Math.round((score / totalPts) * 100) : 0;
-      bodyHtml = `
-        ${partsHtml}
-        <div class="session-feedback ${state.correct ? 'session-feedback-correct' : 'session-feedback-wrong'}" style="margin-top:16px">
-          <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
-            <span style="font-size:1.6rem;font-weight:800">${score}/${totalPts}</span>
-            <span style="font-weight:600">${pct}% — ${state.correct ? '✓ Passing' : '✗ Needs work'}</span>
-          </div>
-        </div>
-        ${q.sampleSolution ? `<div style="margin-top:16px">
-          <p class="frq-section-label">Sample Solution:</p>
-          ${App.renderCode(q.sampleSolution)}
-        </div>` : ''}
-        <div style="margin-top:16px">
-          <div class="session-feedback session-feedback-info">
-            <p style="font-weight:700;margin-bottom:8px">Rubric (${totalPts} pts)</p>
-            <ul class="rubric-list">${(q.rubric || []).map(r =>
-              `<li class="rubric-item">
-                <span>${App.escapeHtml(r.description)}</span>
-                <span class="rubric-pts">${r.points} pt</span>
-              </li>`).join('')}</ul>
-          </div>
-        </div>`;
+          </div>`;
+      }
     }
   }
 
@@ -684,6 +737,25 @@ function renderSessionQuestion() {
 
   // Render any LaTeX embedded as data-latex spans (AP Calc AB, etc.)
   renderMath(wrap);
+
+  // Re-render auto-analysis panel for already-answered auto-graded FRQs
+  if (isFRQ && state) {
+    const isAutoGradedRerender = q.subject && typeof FRQ_CONFIGS !== 'undefined' && FRQ_CONFIGS[q.subject];
+    if (isAutoGradedRerender && state.frqAnswerObj && typeof APUSHGrader !== 'undefined' && typeof Scoring !== 'undefined') {
+      const analysisEl = document.getElementById('frqAutoAnalysisResult');
+      if (analysisEl) {
+        try {
+          const frqType = (q.frqType || q.type || 'leq').toLowerCase();
+          const unitNum = (q.units && q.units[0]) || q.unit || 1;
+          const result = APUSHGrader.grade(state.frqAnswerObj, frqType, unitNum, q.subject, q);
+          const rawText = Object.values(state.frqAnswerObj).join('\n\n');
+          Scoring.renderAnalysisPanel(analysisEl, result, rawText);
+        } catch (e) {
+          console.error('Grader Error (re-render):', e.message, e);
+        }
+      }
+    }
+  }
 
   // Wire MCQ choices
   if (!isFRQ && !state) {
@@ -714,46 +786,99 @@ function renderSessionQuestion() {
 
   // Wire FRQ buttons
   if (isFRQ && !state) {
+    const isAutoGradedWire = q.subject && typeof FRQ_CONFIGS !== 'undefined' && FRQ_CONFIGS[q.subject];
     const totalPtsForWire = (q.rubric || []).reduce((s, r) => s + (r.points || 0), 0);
-
-    // "Check My Answer" reveals rubric grader
     const checkBtn = document.getElementById('frqCheckAnswer');
+
     if (checkBtn) {
-      checkBtn.addEventListener('click', () => {
-        document.getElementById('frqGradingSection').classList.remove('hidden');
-        checkBtn.style.display = 'none';
-        // Make editor read-only
-        const editor = document.getElementById('frqAnswerEditor');
-        if (editor) { editor.readOnly = true; editor.style.opacity = '0.7'; }
-      });
+      if (isAutoGradedWire) {
+        // Auto-graded: run engine, show analysis, record result
+        checkBtn.addEventListener('click', () => {
+          const frqType = (q.frqType || q.type || 'leq').toLowerCase();
+          const isSAQWire = frqType === 'saq';
+
+          // Collect answer: per-part textareas for SAQ, single textarea for LEQ/DBQ
+          let answerObj = {};
+          if (isSAQWire) {
+            (q.parts || [{label:'a'},{label:'b'},{label:'c'}]).forEach(p => {
+              const el = document.getElementById('frqPartEditor_' + p.label);
+              answerObj[p.label] = el ? el.value.trim() : '';
+            });
+            // Lock all part editors
+            (q.parts || [{label:'a'},{label:'b'},{label:'c'}]).forEach(p => {
+              const el = document.getElementById('frqPartEditor_' + p.label);
+              if (el) { el.readOnly = true; el.style.opacity = '0.7'; }
+            });
+          } else {
+            const editor = document.getElementById('frqAnswerEditor');
+            const fullText = (editor ? editor.value : '').trim();
+            answerObj = { essay: fullText };
+            if (editor) { editor.readOnly = true; editor.style.opacity = '0.7'; }
+          }
+
+          const hasAnyText = Object.values(answerObj).some(v => v && v.trim());
+          if (!hasAnyText) {
+            checkBtn.classList.add('shake');
+            const orig = checkBtn.textContent.trim();
+            checkBtn.textContent = 'Write something first!';
+            setTimeout(() => { checkBtn.classList.remove('shake'); checkBtn.textContent = orig; }, 1500);
+            return;
+          }
+
+          document.getElementById('frqGradingSection').classList.remove('hidden');
+          checkBtn.style.display = 'none';
+          const rawText = Object.values(answerObj).join('\n\n');
+          const analysisEl = document.getElementById('frqAutoAnalysis');
+          try {
+            const unitNum = (q.units && q.units[0]) || q.unit || 1;
+            const result = APUSHGrader.grade(answerObj, frqType, unitNum, q.subject, q);
+            if (typeof Scoring !== 'undefined') Scoring.renderAnalysisPanel(analysisEl, result, rawText);
+            const earned = result.score.total;
+            const isCorrect = earned >= Math.ceil(result.score.max * 0.6);
+            recordFRQResult(isCorrect, earned, answerObj, result.score.max);
+          } catch (e) {
+            console.error('Grader Error (submit):', e.message, e);
+            if (analysisEl) analysisEl.innerHTML = '<p class="frq-analysis-empty text-muted">Analysis unavailable — check console for details.</p>';
+            recordFRQResult(false, 0, answerObj, q.points || 7);
+          }
+        });
+      } else {
+        // Manual rubric: reveal checklist
+        checkBtn.addEventListener('click', () => {
+          document.getElementById('frqGradingSection').classList.remove('hidden');
+          checkBtn.style.display = 'none';
+          const editor = document.getElementById('frqAnswerEditor');
+          if (editor) { editor.readOnly = true; editor.style.opacity = '0.7'; }
+        });
+      }
     }
 
-    // Live score updating from rubric checkboxes
-    const checklist = document.getElementById('rubricChecklist');
-    const liveScore = document.getElementById('frqLiveScore');
-    if (checklist && liveScore) {
-      checklist.addEventListener('change', () => {
-        let earned = 0;
-        checklist.querySelectorAll('.rubric-checkbox:checked').forEach(cb => {
-          earned += parseInt(cb.dataset.pts) || 0;
+    if (!isAutoGradedWire) {
+      // Live score updating from rubric checkboxes
+      const checklist = document.getElementById('rubricChecklist');
+      const liveScore = document.getElementById('frqLiveScore');
+      if (checklist && liveScore) {
+        checklist.addEventListener('change', () => {
+          let earned = 0;
+          checklist.querySelectorAll('.rubric-checkbox:checked').forEach(cb => {
+            earned += parseInt(cb.dataset.pts) || 0;
+          });
+          liveScore.textContent = `${earned} / ${totalPtsForWire}`;
+          const pct = totalPtsForWire > 0 ? earned / totalPtsForWire : 0;
+          liveScore.style.color = pct >= 0.6 ? 'var(--accent-green)' : pct >= 0.4 ? '#d97706' : 'var(--accent-red)';
         });
-        liveScore.textContent = `${earned} / ${totalPtsForWire}`;
-        const pct = totalPtsForWire > 0 ? earned / totalPtsForWire : 0;
-        liveScore.style.color = pct >= 0.6 ? 'var(--accent-green)' : pct >= 0.4 ? '#d97706' : 'var(--accent-red)';
-      });
-    }
-
-    // Submit final score
-    const submitScoreBtn = document.getElementById('frqSubmitScore');
-    if (submitScoreBtn) {
-      submitScoreBtn.addEventListener('click', () => {
-        let earned = 0;
-        (checklist || document).querySelectorAll('.rubric-checkbox:checked').forEach(cb => {
-          earned += parseInt(cb.dataset.pts) || 0;
+      }
+      const submitScoreBtn = document.getElementById('frqSubmitScore');
+      if (submitScoreBtn) {
+        submitScoreBtn.addEventListener('click', () => {
+          let earned = 0;
+          (checklist || document).querySelectorAll('.rubric-checkbox:checked').forEach(cb => {
+            earned += parseInt(cb.dataset.pts) || 0;
+          });
+          const isCorrect = earned >= Math.ceil(totalPtsForWire * 0.6);
+          recordFRQResult(isCorrect, earned);
         });
-        const isCorrect = earned >= Math.ceil(totalPtsForWire * 0.6);
-        recordFRQResult(isCorrect, earned);
-      });
+      }
     }
   }
 
@@ -770,10 +895,10 @@ function submitMCQ(q, selectedIndex) {
   updateSessionHeader();
 }
 
-function recordFRQResult(isCorrect, frqScore) {
+function recordFRQResult(isCorrect, frqScore, frqAnswerObj, frqScoreMax) {
   const q = sessionQuestions[sessionIndex];
   App.recordAnswer(q.id, isCorrect);
-  sessionAnswerState[q.id] = { answered: true, correct: isCorrect, selectedIndex: -1, frqScore };
+  sessionAnswerState[q.id] = { answered: true, correct: isCorrect, selectedIndex: -1, frqScore, frqAnswerObj, frqScoreMax };
   sessionAnswered++;
   if (isCorrect) sessionCorrect++;
   renderSessionQuestion();

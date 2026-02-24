@@ -508,6 +508,26 @@ function renderFRQQuestion(index) {
 
   const content = document.getElementById('frqQuestionContent');
   if (!content) return;
+  // Build DBQ document block if applicable
+  const frqTypeLower = (frq.frqType || frq.type || '').toLowerCase();
+  const frqRawDocs   = frq.documents || frq.stimulus || [];
+  const frqDocsHtml  = (frqTypeLower === 'dbq' && frqRawDocs.length > 0)
+    ? `<div class="dbq-stimulus-container" style="margin-bottom:20px">
+         <div class="dbq-stimulus-header">📄 Documents (${frqRawDocs.length})</div>
+         <div class="dbq-documents-scroll">
+           ${frqRawDocs.map(function(doc, i) {
+             const num    = doc.id || doc.docNum || (i + 1);
+             const source = doc.source || doc.attribution || '';
+             const text   = doc.content || doc.excerpt || '';
+             return '<div class="dbq-document-card">' +
+               '<div class="dbq-document-source">Document ' + num + ' — ' + App.escapeHtml(source) + '</div>' +
+               '<div class="dbq-document-content">' + App.escapeHtml(text) + '</div>' +
+               '</div>';
+           }).join('')}
+         </div>
+       </div>`
+    : '';
+
   content.innerHTML = `
     <div style="margin-bottom:20px">
       <div style="display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap">
@@ -518,7 +538,15 @@ function renderFRQQuestion(index) {
       <div style="white-space:pre-wrap;line-height:1.7;color:var(--text-primary);margin-bottom:16px">${renderFRQPromptText(frq.prompt || '')}</div>
       ${frq.starterCode ? `<p style="font-weight:600;margin-bottom:6px">Given code:</p>${App.renderCode(frq.starterCode)}` : ''}
     </div>
-    ${(frq.parts || []).map(p => {
+    ${frqDocsHtml}
+    ${(frq.parts && frq.parts.length > 0
+      ? frq.parts
+      : (frq.frqType === 'dbq' || frq.frqType === 'leq')
+          ? [{ label: 'essay', question: 'Write your full essay response here.' }]
+          : frq.frqType === 'saq'
+              ? [{ label: 'a', question: 'Part (a)' }, { label: 'b', question: 'Part (b)' }, { label: 'c', question: 'Part (c)' }]
+              : []
+    ).map(p => {
       const instruction = p.instruction || ((p.command ? p.command + ': ' : '') + (p.question || ''));
       const pointsHtml = p.points !== undefined ? `<span class="frq-points">· ${p.points} pt${p.points!==1?'s':''}</span>` : '';
       const placeholder = frq.starterCode ? 'Write your Java code here...' : 'Write your answer here...';

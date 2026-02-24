@@ -52,7 +52,7 @@ function renderSummary() {
           <span>MCQ Score</span><strong>${mcqCorrect} / ${mcqTotal} (${Math.round(mcqCorrect/mcqTotal*100)}%)</strong>
         </div>
         <div style="display:flex;justify-content:space-between">
-          <span>FRQ Score (self-graded)</span><strong id="frqTotalSummary">${frqTotal} / 28</strong>
+          <span>FRQ Score</span><strong id="frqTotalSummary">${frqTotal} / 28</strong>
         </div>
       </div>
     </div>`;
@@ -111,8 +111,34 @@ function renderFRQReview() {
   if (!container) return;
   const frqIds = _testResult.frqIds || (_testDef ? _testDef.frqIds : []);
   const frqAnswers = _testResult.frqAnswers || {};
-  const frqs = frqIds.map(id => _allQuestions.find(q => q.id === id) ||
-    (typeof FRQ_BANK !== 'undefined' ? FRQ_BANK.find(f => f.id === id) : null)).filter(Boolean);
+
+  // Build a combined pool of all loaded question arrays so we can find FRQs
+  // from ANY subject (APUSH, AP Bio, etc.) not just legacy AP CS A globals.
+  const allPools = [_allQuestions];
+  if (typeof SubjectRegistry !== 'undefined' && typeof App !== 'undefined') {
+    const subjId = App.getActiveSubject();
+    const subj = SubjectRegistry.getSubjectById(subjId);
+    if (subj && subj.dataFiles) {
+      subj.dataFiles.forEach(varName => {
+        const arr = window[varName];
+        if (Array.isArray(arr)) allPools.push(arr);
+      });
+    }
+  }
+  // Also try known global FRQ arrays as a final fallback
+  ['APUSH_FRQ', 'FRQ_BANK', 'APBIO_FRQ', 'APMICRO_FRQ', 'APSTATS_FRQ'].forEach(name => {
+    if (typeof window[name] !== 'undefined') allPools.push(window[name]);
+  });
+
+  const findFRQ = id => {
+    for (const pool of allPools) {
+      const q = pool.find(q => q.id === id);
+      if (q) return q;
+    }
+    return null;
+  };
+
+  const frqs = frqIds.map(findFRQ).filter(Boolean);
 
   Scoring.renderFrqGrading('frqReviewList', frqs, frqAnswers, (grades) => {
     _frqGrades = grades;

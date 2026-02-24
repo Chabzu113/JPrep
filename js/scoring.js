@@ -122,7 +122,7 @@ function renderScoreSummary(containerId, testResult) {
           <strong>${mcqCorrect} / ${mcqTotal} (${mcqPct}%)</strong>
         </div>
         <div class="score-row">
-          <span>FRQ Score (self-graded)</span>
+          <span>FRQ Score</span>
           <strong>${frqTotal} / ${frqMax}</strong>
         </div>
       </div>
@@ -210,14 +210,59 @@ function renderTestHistory(containerId, history) {
     </table>`;
 }
 
-// ─── FRQ Self-Grading ────────────────────────────────────────────────────────
+// ─── FRQ Grading ─────────────────────────────────────────────────────────────
 function renderFrqGrading(containerId, frqQuestions, frqAnswers, onGradeChange) {
   const el = document.getElementById(containerId);
   if (!el) return;
   const grades = {};
   el.innerHTML = frqQuestions.map((frq, idx) => {
     grades[frq.id] = 0;
+    const isAutoGraded = frq.subject && typeof FRQ_CONFIGS !== 'undefined' && FRQ_CONFIGS[frq.subject];
     const studentAnswer = frqAnswers[frq.id] || {};
+    const partsHtml = (frq.parts || []).map(part => {
+      const ans = studentAnswer[part.label] || '(no answer)';
+      return `<div class="frq-part-review">
+        <strong>Part (${part.label}):</strong>
+        <pre class="code-block"><code>${escapeHtml(ans)}</code></pre>
+      </div>`;
+    }).join('');
+    const maxPts = (frq.rubric || []).reduce((s, r) => s + (r.points || 0), 0) || frq.points || 7;
+
+    // DBQ: build document block for review
+    const frqTypeLower = (frq.frqType || frq.type || '').toLowerCase();
+    const reviewRawDocs = frq.documents || frq.stimulus || [];
+    const reviewDocsHtml = (frqTypeLower === 'dbq' && reviewRawDocs.length > 0)
+      ? `<div class="dbq-stimulus-container" style="margin:12px 0">
+           <div class="dbq-stimulus-header">📄 Documents (${reviewRawDocs.length})</div>
+           <div class="dbq-documents-scroll">
+             ${reviewRawDocs.map(function(doc, i) {
+               const num    = doc.id || doc.docNum || (i + 1);
+               const source = doc.source || doc.attribution || '';
+               const text   = doc.content || doc.excerpt || '';
+               return '<div class="dbq-document-card">' +
+                 '<div class="dbq-document-source">Document ' + num + ' — ' + escapeHtml(source) + '</div>' +
+                 '<div class="dbq-document-content">' + escapeHtml(text) + '</div>' +
+                 '</div>';
+             }).join('')}
+           </div>
+         </div>`
+      : '';
+
+    if (isAutoGraded) {
+      // Auto-graded: show analysis panel only, no manual rubric
+      return `
+        <div class="frq-grade-card card" id="frqGradeCard_${frq.id}">
+          <div class="frq-grade-header">
+            <h3>${idx + 1}. ${frq.title}</h3>
+            <span class="badge badge-frq">${frq.type}</span>
+          </div>
+          ${reviewDocsHtml}
+          <div class="frq-student-answer">${partsHtml}</div>
+          <div id="apushAnalysis_${frq.id}" class="frq-analysis-placeholder"></div>
+        </div>`;
+    }
+
+    // Manual rubric (non-auto-graded subjects, e.g. APCSA)
     const rubricHtml = (frq.rubric || []).map((point, pi) => `
       <div class="rubric-row" data-frq="${frq.id}" data-point="${pi}">
         <div class="rubric-desc">${point.description} <em>(${point.points} pt)</em></div>
@@ -226,13 +271,6 @@ function renderFrqGrading(containerId, frqQuestions, frqAnswers, onGradeChange) 
           <button class="btn btn-sm btn-success rubric-btn" data-frq="${frq.id}" data-val="${point.points}" data-pi="${pi}">✓ +${point.points}</button>
         </div>
       </div>`).join('');
-    const partsHtml = (frq.parts || []).map(part => {
-      const ans = studentAnswer[part.label] || '(no answer)';
-      return `<div class="frq-part-review">
-        <strong>Part (${part.label}):</strong>
-        <pre class="code-block"><code>${escapeHtml(ans)}</code></pre>
-      </div>`;
-    }).join('');
     return `
       <div class="frq-grade-card card" id="frqGradeCard_${frq.id}">
         <div class="frq-grade-header">
@@ -243,25 +281,22 @@ function renderFrqGrading(containerId, frqQuestions, frqAnswers, onGradeChange) 
         <div class="frq-rubric">
           <h4>Scoring Rubric</h4>
           ${rubricHtml}
-          <div class="frq-total">Total: <strong id="frqTotal_${frq.id}">0</strong> / 7 pts</div>
+          <div class="frq-total">Total: <strong id="frqTotal_${frq.id}">0</strong> / ${maxPts} pts</div>
         </div>
       </div>`;
   }).join('');
 
-  // Wire up rubric buttons
+  // Wire up manual rubric buttons (non-auto-graded only)
   el.querySelectorAll('.rubric-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const frqId = btn.dataset.frq;
       const val = parseFloat(btn.dataset.val);
       const pi = btn.dataset.pi;
-      // Store grade per rubric point
       if (!grades[frqId]) grades[frqId] = 0;
-      // Toggle
       const key = `${frqId}_${pi}`;
       const current = el.dataset[key] || '0';
       const newVal = current === String(val) ? 0 : val;
       el.dataset[key] = String(newVal);
-      // Recalculate total for this FRQ
       let total = 0;
       (frqQuestions.find(f => f.id === frqId)?.rubric || []).forEach((_, i) => {
         total += parseFloat(el.dataset[`${frqId}_${i}`] || 0);
@@ -272,6 +307,273 @@ function renderFrqGrading(containerId, frqQuestions, frqAnswers, onGradeChange) 
       if (onGradeChange) onGradeChange({ ...grades });
     });
   });
+
+  // ── Auto-Grading Panels ───────────────────────────────────────────────────
+  frqQuestions.forEach(frq => {
+    if (!frq.subject || typeof FRQ_CONFIGS === 'undefined' || !FRQ_CONFIGS[frq.subject]) return;
+    if (typeof APUSHGrader === 'undefined') return;
+
+    const panel = document.getElementById(`apushAnalysis_${frq.id}`);
+    if (!panel) return;
+
+    const studentAnswer = frqAnswers[frq.id] || {};
+    const fullText = Object.values(studentAnswer).join('\n\n').trim();
+    if (!fullText) {
+      panel.innerHTML = '<p class="frq-analysis-empty">No answer submitted.</p>';
+      return;
+    }
+
+    try {
+      const unitNum = (frq.units && frq.units[0]) || 1;
+      const result  = APUSHGrader.grade(studentAnswer, frq.frqType, unitNum, 'apush', frq);
+      renderAnalysisPanel(panel, result, fullText);
+      // Feed automated score into grades and notify
+      grades[frq.id] = result.score.total;
+      if (onGradeChange) onGradeChange({ ...grades });
+    } catch (e) {
+      panel.innerHTML = '<p class="frq-analysis-empty text-muted">Analysis unavailable.</p>';
+    }
+  });
+}
+
+// ─── APUSH Analysis Panel Renderer ───────────────────────────────────────────
+function renderAnalysisPanel(el, gradeResult, rawAnswer) {
+  if (!el || !gradeResult) return;
+
+  const bd = gradeResult.score.breakdown || {};
+  const fb = gradeResult.feedback || {};
+  const frqType = (gradeResult._raw && gradeResult._raw.type) || 'leq';
+  const isDBQ   = frqType === 'dbq';
+  const isSAQ   = frqType === 'saq';
+
+  // Build score chip row
+  function chip(label, earned, max) {
+    const dots = Array.from({ length: max }, (_, i) =>
+      `<span class="score-dot ${i < earned ? 'earned' : 'empty'}">●</span>`
+    ).join('');
+    return `<span class="analysis-chip ${earned > 0 ? 'earned' : 'missing'}">
+      ${label} ${dots}
+    </span>`;
+  }
+
+  let chips = '';
+  if (!isSAQ) {
+    chips += chip('Thesis', bd.thesis || 0, 1);
+    chips += chip('Context', bd.context || 0, 1);
+    if (isDBQ) {
+      chips += chip('Outside Ev', bd.outsideEvidence || 0, 1); // 2026 CB: outside evidence point
+      chips += chip('Doc Use', bd.docUse || 0, 2);
+      chips += chip('Sourcing', bd.sourcing || 0, 1);
+    } else {
+      chips += chip('Evidence', bd.evidence || 0, 2);
+      chips += chip('Analysis', bd.analysis || 0, 2);
+    }
+  } else {
+    // SAQ: show per-part results
+    const parts = (gradeResult._raw && gradeResult._raw.parts) || {};
+    for (const [lbl, pr] of Object.entries(parts)) {
+      chips += chip('Part ' + lbl.toUpperCase(), pr.earned || 0, 1);
+    }
+  }
+
+  // Build highlighted answer — SAQ: split by part, LEQ/DBQ: single block
+  let highlightedAnswerHtml = '';
+  if (isSAQ) {
+    const saqParts = (gradeResult._raw && gradeResult._raw.parts) || {};
+    const rawParts = rawAnswer ? rawAnswer.split(/\n\n/) : [];
+    const partLabels = Object.keys(saqParts);
+    highlightedAnswerHtml = partLabels.map((lbl, idx) => {
+      const partText = rawParts[idx] || '';
+      const partResult = saqParts[lbl] || {};
+      // Build a synthetic gradeResult scoped to this part's text/highlights
+      const partHL = APUSHGrader.buildHighlightedHtml(partText, gradeResult);
+      const earnedIcon = partResult.earned ? '✓' : '✗';
+      const earnedCls  = partResult.earned ? 'part-earned' : 'part-missing';
+      return `<div class="saq-part-block">
+        <div class="saq-part-header ${earnedCls}">
+          <strong>Part ${lbl.toUpperCase()}</strong>
+          <span class="saq-part-score">${earnedIcon} ${partResult.earned || 0}/1</span>
+        </div>
+        <div class="frq-highlighted-answer">${partHL || escapeHtml(partText)}</div>
+      </div>`;
+    }).join('');
+  } else {
+    const fullHL = APUSHGrader.buildHighlightedHtml(rawAnswer, gradeResult);
+    highlightedAnswerHtml = `<div class="frq-highlighted-answer">${fullHL}</div>`;
+  }
+
+  // Build feedback lists
+  const missingHtml = (fb.missing || []).map(m =>
+    `<li class="feedback-missing">⚠ ${escapeHtml(m)}</li>`
+  ).join('');
+  const foundHtml = (fb.found || []).map(f =>
+    `<li class="feedback-found">✓ ${escapeHtml(f)}</li>`
+  ).join('');
+  const anachronismHtml = (fb.anachronisms || []).length > 0
+    ? `<li class="feedback-warning">🚫 Anachronism: ${escapeHtml(fb.anachronisms.join(', '))}</li>`
+    : '';
+
+  // Build point breakdown table
+  function breakdownRow(label, earned, max, manual) {
+    const cls = manual ? 'manual' : earned === max ? 'full' : earned > 0 ? 'partial' : 'zero';
+    const icon = manual ? '—' : earned === max ? '✓' : earned > 0 ? '½' : '✗';
+    const pts  = manual ? '?/1' : `${earned}/${max}`;
+    return `<tr class="breakdown-row ${cls}">
+      <td class="breakdown-icon">${icon}</td>
+      <td class="breakdown-label">${label}${manual ? ' <em style="opacity:.6">(manual)</em>' : ''}</td>
+      <td class="breakdown-pts">${pts}</td>
+    </tr>`;
+  }
+
+  let breakdownRows = '';
+  if (isSAQ) {
+    const parts = (gradeResult._raw && gradeResult._raw.parts) || {};
+    breakdownRows = Object.entries(parts).map(([lbl, pr]) =>
+      breakdownRow('Part ' + lbl.toUpperCase() + (pr.reason ? ' — ' + pr.reason : ''), pr.earned || 0, 1, false)
+    ).join('');
+  } else if (isDBQ) {
+    const complexityEarned = bd.complexity || 0;
+    const complexityManual = complexityEarned === 0; // manual only if not auto-awarded
+    const complexityLabel  = complexityEarned
+      ? 'Complexity (bonus: all docs cited)'
+      : 'Complexity';
+    breakdownRows = [
+      breakdownRow('Thesis',             bd.thesis || 0,          1, false),
+      breakdownRow('Historical Context', bd.context || 0,         1, false),
+      breakdownRow('Outside Evidence',   bd.outsideEvidence || 0, 1, false),
+      breakdownRow('Document Use',       bd.docUse || 0,          2, false),
+      breakdownRow('Sourcing (HAPP)',    bd.sourcing || 0,        1, false),
+      breakdownRow(complexityLabel,      complexityEarned,        1, complexityManual),
+    ].join('');
+  } else {
+    breakdownRows = [
+      breakdownRow('Thesis',             bd.thesis || 0,   1, false),
+      breakdownRow('Historical Context', bd.context || 0,  1, false),
+      breakdownRow('Evidence',           bd.evidence || 0, 2, false),
+      breakdownRow('Analysis',           bd.analysis || 0, 2, false),
+    ].join('');
+  }
+
+  // Build Scoring Logic section — raw counts for each grading criterion
+  const details = (gradeResult._raw && gradeResult._raw.details) || {};
+  let scoringLogicHtml = '';
+
+  if (isDBQ) {
+    const docsCited    = (details.citations || []);
+    const sourcingExs  = (details.sourcingExamples || []);
+    const uniqueHAPP   = [...new Set(sourcingExs.map(e => e.docNum))];
+    const outsideTerm  = details.outsideTerm || null;
+    const docsIcon     = docsCited.length >= 4 ? '✓' : docsCited.length >= 3 ? '½' : '✗';
+    const happIcon     = uniqueHAPP.length  >= 2 ? '✓' : uniqueHAPP.length >= 1 ? '½' : '✗';
+    const outsideIcon  = outsideTerm ? '✓' : '✗';
+
+    scoringLogicHtml = `
+      <div class="scoring-logic-row">
+        <span class="sl-icon ${docsCited.length >= 4 ? 'full' : docsCited.length >= 3 ? 'partial' : 'zero'}">${docsIcon}</span>
+        <span class="sl-label">Docs Found:</span>
+        <span class="sl-value">${docsCited.length > 0 ? docsCited.map(n => 'Doc ' + n).join(', ') : 'none'}</span>
+        <span class="sl-req">(need 3 for 1pt, 4 for 2pts)</span>
+      </div>
+      <div class="scoring-logic-row">
+        <span class="sl-icon ${uniqueHAPP.length >= 2 ? 'full' : uniqueHAPP.length >= 1 ? 'partial' : 'zero'}">${happIcon}</span>
+        <span class="sl-label">Docs Sourced (HAPP):</span>
+        <span class="sl-value">${uniqueHAPP.length > 0 ? uniqueHAPP.map(n => 'Doc ' + n).join(', ') : 'none'}</span>
+        <span class="sl-req">(need 2 for 1pt)</span>
+      </div>
+      <div class="scoring-logic-row">
+        <span class="sl-icon ${outsideTerm ? 'full' : 'zero'}">${outsideIcon}</span>
+        <span class="sl-label">Outside Evidence:</span>
+        <span class="sl-value">${outsideTerm ? '"' + escapeHtml(outsideTerm) + '"' : 'none found'}</span>
+        <span class="sl-req">(1 term not from docs = 1pt)</span>
+      </div>`;
+  } else if (!isSAQ) {
+    // LEQ
+    const evFound   = details.evidenceFound || [];
+    const links15   = details.links15 || [];
+    const linked    = [...new Set(links15.map(l => l.evidence))];
+    const connUsed  = [...new Set(links15.map(l => l.connector))];
+    const evIcon    = evFound.length >= 2 ? (linked.length >= 2 ? '✓' : '½') : '✗';
+    scoringLogicHtml = `
+      <div class="scoring-logic-row">
+        <span class="sl-icon ${evFound.length >= 2 ? 'full' : 'zero'}">${evFound.length >= 2 ? '✓' : '✗'}</span>
+        <span class="sl-label">Evidence Terms Found:</span>
+        <span class="sl-value">${evFound.length > 0 ? evFound.map(t => '"' + escapeHtml(t) + '"').join(', ') : 'none'}</span>
+        <span class="sl-req">(need 2 for 1pt)</span>
+      </div>
+      <div class="scoring-logic-row">
+        <span class="sl-icon ${linked.length >= 2 ? 'full' : linked.length >= 1 ? 'partial' : 'zero'}">${linked.length >= 2 ? '✓' : linked.length >= 1 ? '½' : '✗'}</span>
+        <span class="sl-label">Linked to Connector (≤15 words):</span>
+        <span class="sl-value">${linked.length > 0 ? linked.map(t => '"' + escapeHtml(t) + '"').join(', ') : 'none'}</span>
+        <span class="sl-req">(need 2 linked for 2pts)</span>
+      </div>
+      <div class="scoring-logic-row">
+        <span class="sl-icon ${connUsed.length > 0 ? 'full' : 'zero'}">${connUsed.length > 0 ? '✓' : '✗'}</span>
+        <span class="sl-label">Causal Connectors Found:</span>
+        <span class="sl-value">${connUsed.length > 0 ? connUsed.map(c => '"' + escapeHtml(c) + '"').join(', ') : 'none'}</span>
+        <span class="sl-req">(${connUsed.length} connector${connUsed.length !== 1 ? 's' : ''} used)</span>
+      </div>`;
+  } else {
+    // SAQ — per-part detail rows
+    const saqParts = (gradeResult._raw && gradeResult._raw.parts) || {};
+    scoringLogicHtml = Object.entries(saqParts).map(([lbl, pr]) => {
+      const ev   = (pr.evFound   || []).slice(0, 3).map(t => '"' + escapeHtml(t) + '"').join(', ') || 'none';
+      const conn = (pr.connFound || []).slice(0, 3).map(c => '"' + escapeHtml(c) + '"').join(', ') || 'none';
+      return `<div class="scoring-logic-row">
+        <span class="sl-icon ${pr.earned ? 'full' : 'zero'}">${pr.earned ? '✓' : '✗'}</span>
+        <span class="sl-label">Part ${lbl.toUpperCase()}:</span>
+        <span class="sl-value">Evidence: ${ev} &nbsp;|&nbsp; Connector: ${conn}</span>
+        <span class="sl-req">(ACE: both needed for 1pt)</span>
+      </div>`;
+    }).join('');
+  }
+
+  const scoreDisplay = `${gradeResult.score.total}/${gradeResult.score.max}`;
+
+  el.innerHTML = `
+    <div class="frq-analysis-panel expanded">
+      <div class="frq-analysis-header" onclick="this.parentElement.classList.toggle('expanded')">
+        <span>📊 Auto-Graded Score</span>
+        <span class="analysis-toggle">▼</span>
+      </div>
+      <div class="frq-analysis-body">
+        <div class="frq-analysis-scores">
+          ${chips}
+          <span class="analysis-suggestion">Suggested: ${scoreDisplay} pts</span>
+        </div>
+        <div class="frq-analysis-section">
+          <h5>Point Breakdown</h5>
+          <table class="score-breakdown-table">
+            ${breakdownRows}
+          </table>
+        </div>
+        <div class="frq-analysis-section">
+          <h5>Your Essay (Highlighted)</h5>
+          ${highlightedAnswerHtml}
+          <div class="hl-legend">
+            <span class="hl-evidence">■</span> Evidence &nbsp;
+            <span class="hl-logic">■</span> Logic/Connector &nbsp;
+            <span class="hl-niche">■</span> Niche &nbsp;
+            <span class="hl-warning">■</span> Warning &nbsp;
+            <span class="hl-anachronism">■</span> Anachronism &nbsp;
+            <span class="hl-copy-warning">■</span> Copy
+          </div>
+        </div>
+        <div class="frq-analysis-section">
+          <h5>Detailed Feedback</h5>
+          <ul class="feedback-list">
+            ${foundHtml}
+            ${anachronismHtml}
+            ${missingHtml}
+          </ul>
+        </div>
+        <div class="frq-analysis-section">
+          <h5>Scoring Logic</h5>
+          <div class="scoring-logic-grid">
+            ${scoringLogicHtml}
+          </div>
+        </div>
+      </div>
+    </div>`;
 }
 
 // ─── Exports ─────────────────────────────────────────────────────────────────
@@ -279,5 +581,5 @@ window.Scoring = {
   calculateTestScore, calculateUnitBreakdown, calculateDifficultyBreakdown,
   getWeakestTopics, renderScoreSummary, renderUnitBreakdown,
   renderDifficultyBreakdown, renderWeakTopics, renderTestHistory,
-  renderFrqGrading, UNIT_TITLES
+  renderFrqGrading, renderAnalysisPanel, UNIT_TITLES
 };

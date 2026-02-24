@@ -312,9 +312,15 @@ const SUBJECTS = [
     examDate: new Date('2026-05-09T08:00:00'),
     description: 'US history from pre-contact through present.',
     hasContent: true,
-    dataFiles: ['APUSH_MCQ'],
+    dataFiles: ['APUSH_MCQ', 'APUSH_FRQ'],
     testFiles: [],
-    questionTypes: [{ value: 'all', label: 'All' }, { value: 'MCQ', label: 'MCQ' }],
+    questionTypes: [
+      { value: 'all', label: 'All' },
+      { value: 'MCQ', label: 'MCQ' },
+      { value: 'SAQ', label: 'SAQ' },
+      { value: 'LEQ', label: 'LEQ' },
+      { value: 'DBQ', label: 'DBQ' }
+    ],
     units: [
       { num: 1, title: 'Period 1: 1491–1607', weight: '4–6%', topics: [
         { value: '1.2', label: '1.2 Native American Societies Before European Contact' },

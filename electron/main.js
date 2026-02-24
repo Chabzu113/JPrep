@@ -143,9 +143,10 @@ function createWindow() {
   });
 
   // Disable DevTools in production (prevents JS injection via inspector)
-  mainWindow.webContents.on('devtools-opened', () => {
-    mainWindow.webContents.closeDevTools();
-  });
+  //mainWindow.webContents.on('devtools-opened', () => {
+  //  mainWindow.webContents.closeDevTools();
+  //});
+  mainWindow.webContents.openDevTools();
 
   // Add macOS class so CSS can offset the navbar past traffic lights
   if (isMac) {
