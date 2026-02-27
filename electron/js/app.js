@@ -1,7 +1,7 @@
 // AP Practice Platform — Global App State & Utilities
 // Handles: localStorage persistence, dark mode, shared state, helper functions
 
-const APP_VERSION = '1.7.0';   // keep in sync with GitHub release tags
+const APP_VERSION = '1.8.1';   // keep in sync with GitHub release tags
 const GITHUB_REPO  = 'Chabzu113/APCSAPractice';
 const STORAGE_KEY  = 'apcsa_state';
 
@@ -40,9 +40,8 @@ function isNewerVersion(current, latest) {
 
 function showUpdateBanner(version, assetUrl, releaseUrl) {
   if (document.getElementById('updateBanner')) return;
-  // Auto-install works on macOS and Windows; other platforms get a browser download link
-  const canAutoUpdate = !!(window.electronAPI && assetUrl &&
-    (window.electronAPI.platform === 'darwin' || window.electronAPI.platform === 'win32'));
+  // In-app update for any Electron build; browser users get a download link
+  const canAutoUpdate = !!(window.electronAPI && assetUrl);
   const banner = document.createElement('div');
   banner.id = 'updateBanner';
   banner.innerHTML = `

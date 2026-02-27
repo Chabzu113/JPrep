@@ -76,6 +76,8 @@ pre, code { font-family: 'Courier New', Courier, monospace; }
 }
 /* macOS: push content right of the traffic-light buttons */
 html.macos .navbar { padding-left: 88px; }
+html.macos .test-navbar { padding-left: 88px; }
+html.macos #updateBanner { padding-left: 88px; }
 
 .navbar-brand {
   font-weight: 800;

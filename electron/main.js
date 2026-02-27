@@ -2,6 +2,7 @@ const { app, BrowserWindow, Menu, shell, ipcMain, session } = require('electron'
 const { exec, spawn } = require('child_process');
 const { promisify } = require('util');
 const execAsync = promisify(exec);
+const https = require('https');
 const crypto = require('crypto');
 const path = require('path');
 const os = require('os');
@@ -15,6 +16,30 @@ const ALLOWED_UPDATE_DOMAINS = [
   'objects.githubusercontent.com',
   'releases.githubusercontent.com'
 ];
+
+// ─── Download helper (pure Node.js — no curl dependency) ──────────────────
+// Follows redirects (GitHub releases always 302 to a CDN), streams to file.
+function downloadFile(url, destPath, maxRedirects = 5) {
+  return new Promise((resolve, reject) => {
+    if (maxRedirects <= 0) return reject(new Error('Too many redirects'));
+    https.get(url, (res) => {
+      // Follow 3xx redirects
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        res.resume(); // drain response so socket can be reused
+        return downloadFile(res.headers.location, destPath, maxRedirects - 1)
+          .then(resolve).catch(reject);
+      }
+      if (res.statusCode !== 200) {
+        res.resume();
+        return reject(new Error(`Download failed (HTTP ${res.statusCode})`));
+      }
+      const file = fs.createWriteStream(destPath);
+      res.pipe(file);
+      file.on('finish', () => file.close(resolve));
+      file.on('error', (err) => { fs.unlink(destPath, () => {}); reject(err); });
+    }).on('error', reject);
+  });
+}
 
 // ─── In-App Updater ────────────────────────────────────────────────────────
 // Downloads the platform-specific installer from GitHub, verifies SHA-256.
@@ -42,15 +67,15 @@ ipcMain.on('install-update', async (event, assetUrl) => {
 
   // ── Shared helper: download & verify SHA-256 checksum ─────────────────
   async function downloadAndVerify(downloadPath, assetName) {
-    // 1. Download asset
+    // 1. Download asset (pure Node.js https — no curl, no HTTP/2 issues)
     send('Downloading...');
-    await execAsync(`curl -L -o "${downloadPath}" "${assetUrl}"`);
+    await downloadFile(assetUrl, downloadPath);
 
     // 2. Download and verify checksum (stream-based so we don't load 280 MB into RAM)
     send('Verifying...');
     const checksumUrl = assetUrl.replace(assetName, 'checksums.txt');
     try {
-      await execAsync(`curl -L -o "${checksumPath}" "${checksumUrl}"`);
+      await downloadFile(checksumUrl, checksumPath);
       const checksumsText = fs.readFileSync(checksumPath, 'utf8');
       const expectedLine  = checksumsText.split('\n').find(l => l.includes(assetName));
       const expectedHash  = expectedLine ? expectedLine.split(/\s+/)[0].trim() : null;
@@ -95,7 +120,7 @@ ipcMain.on('install-update', async (event, assetUrl) => {
       setTimeout(() => app.quit(), 1500);
 
     } catch (err) {
-      send(`Update failed: ${err.message}`);
+      send('Update failed — please try again or download manually.');
     }
     return;
   }
@@ -136,7 +161,7 @@ ipcMain.on('install-update', async (event, assetUrl) => {
     app.quit();
 
   } catch (err) {
-    send(`Update failed: ${err.message}`);
+    send('Update failed — please try again or download manually.');
   }
 });
 
