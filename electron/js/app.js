@@ -569,12 +569,11 @@ function renderFRQPromptText(text) {
 // Renders a { headers: [...], rows: [[...], ...] } data object as an HTML table.
 function buildTableHtml(tableData) {
   if (!tableData || !tableData.headers) return '';
-  const ths = tableData.headers.map(h => `<th>${App.escapeHtml(h)}</th>`).join('');
-  const rows = (tableData.rows || []).map(row => {
-    const tds = row.map(cell => `<td>${App.escapeHtml(cell)}</td>`).join('');
-    return `<tr>${tds}</tr>`;
+  const headerRow = `<tr>${tableData.headers.map(h => `<td>${App.escapeHtml(h)}</td>`).join('')}</tr>`;
+  const bodyRows = (tableData.rows || []).map(row => {
+    return `<tr>${row.map(cell => `<td>${App.escapeHtml(cell)}</td>`).join('')}</tr>`;
   }).join('');
-  return `<div class="q-table-wrap"><table class="q-table"><thead><tr>${ths}</tr></thead><tbody>${rows}</tbody></table></div>`;
+  return `<table class="question-table">${headerRow}${bodyRows}</table>`;
 }
 
 // ─── Desmos Graphing Calculator ───────────────────────────────────────────────
