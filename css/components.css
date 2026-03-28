@@ -941,8 +941,9 @@
   pointer-events: none; /* click registers on overlay, not image */
 }
 
-/* ─── Question Table (markdown pipe-table rendering) ───────────────────────── */
+/* ─── Question Table (tableData + markdown pipe-table rendering) ───────────── */
 .question-table {
+  width: 100%;
   border-collapse: collapse;
   margin: 12px 0;
   font-size: 0.9rem;
@@ -955,4 +956,5 @@
 .question-table tr:first-child td {
   font-weight: 600;
   background: var(--bg-secondary);
+  color: var(--text-muted);
 }
