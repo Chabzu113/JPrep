@@ -7,11 +7,12 @@ let _currentFilter = 'all';
 let _frqGrades = {};
 
 function initReview() {
-  // Load last test result
+  // Load last test result (subject-scoped, with legacy fallback)
   try {
-    const raw = localStorage.getItem('apcsa_last_result');
+    const key = App.subjectStorageKey ? App.subjectStorageKey('last_result') : 'apcsa_last_result';
+    const raw = localStorage.getItem(key) || localStorage.getItem('apcsa_last_result');
     if (raw) _testResult = JSON.parse(raw);
-  } catch(e) {}
+  } catch(e) { console.warn('review: failed to load test result:', e); }
 
   if (!_testResult) {
     document.getElementById('reviewSummary').innerHTML =
@@ -152,7 +153,7 @@ function saveFRQGrades(grades) {
   _testResult.frqSelfGrades = grades;
   _testResult.frqTotal = frqTotal;
   _testResult.estimatedScore = App.estimateAPScore(_testResult.mcqCorrect || 0, frqTotal);
-  try { localStorage.setItem('apcsa_last_result', JSON.stringify(_testResult)); } catch(e) {}
+  try { localStorage.setItem(App.subjectStorageKey('last_result'), JSON.stringify(_testResult)); } catch(e) { console.warn('review: failed to save grades:', e); }
   // Update displayed FRQ total
   const el = document.getElementById('frqTotalSummary');
   if (el) el.textContent = `${frqTotal} / 28`;

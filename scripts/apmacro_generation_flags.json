@@ -1,0 +1,110 @@
+{
+  "generated": "2026-03-27T17:33:51.620Z",
+  "flags": [
+    {
+      "id": "macro_u1_q006",
+      "issue": "Answer choice C 'Capital markets' is technically a subset of factor markets, making it a partially correct answer that could create ambiguity",
+      "fix": "Change choice C to something clearly distinct like 'Money markets' or 'Stock exchanges' to eliminate the overlap with factor markets"
+    },
+    {
+      "id": "macro_u1_q004",
+      "issue": "Answer is mathematically incorrect. The correct answer should be 'C' (Country A has comparative advantage in trucks, Country B in cars), but the answer is marked as '2' (B).",
+      "fix": "Change answer from 2 to 3 to reflect correct comparative advantage calculation"
+    },
+    {
+      "id": "macro_u1_q020",
+      "issue": "Answer is conceptually incorrect. Room and board should not be included in opportunity cost if the student needs these regardless of choice. The correct answer should be 'D' (tuition, books, and foregone wages), but it's marked as '3'.",
+      "fix": "Change answer from 3 to 3 (which is correct as D) - actually the answer appears correct but explanation needs clarification that room/board are needed either way"
+    },
+    {
+      "id": "macro_u1_q024",
+      "issue": "Incorrect calculation and flawed logic in opportunity cost. The opportunity cost should be the net benefit of the foregone alternative ($30), not $30 + $20 = $40.",
+      "fix": "Change correct answer to D) $30. Opportunity cost is the net benefit of the best alternative foregone: textbook value ($130) minus textbook price ($100) = $30."
+    },
+    {
+      "id": "macro_u1_q026",
+      "issue": "Mathematical error in explanation and wrong answer key. Country A: wheat costs 0.5 cloth, cloth costs 2 wheat. Country B: wheat costs 0.67 cloth, cloth costs 1.5 wheat. A has advantage in wheat (lower opportunity cost: 0.5 vs 0.67 cloth), B has advantage in cloth (lower opportunity cost: 1.5 vs 2 wheat).",
+      "fix": "Change correct answer to C) Country A has comparative advantage in wheat, Country B in cloth. Fix the explanation to show correct opportunity cost calculations."
+    },
+    {
+      "id": "macro_u1_q027",
+      "issue": "Answer key indicates option D but explanation describes option C. The question asks about the purchasing transaction (money flow from households to firms), making D correct.",
+      "fix": "Change correct answer to D) Product market; money flow from households to firms, or clarify that the question is asking specifically about the money flow aspect of the transaction."
+    },
+    {
+      "id": "macro_u1_q027",
+      "issue": "Calculation error and confusing explanation. The opportunity cost compared to studying all 20 hours should be what she gives up by not studying those 16 hours (16 × $12 = $192), but the answer key indicates D) $288 which doesn't match any logical calculation",
+      "fix": "Recalculate and clarify what exactly is being asked. If comparing net benefit, the answer should be C) $192"
+    },
+    {
+      "id": "macro_u1_q029",
+      "issue": "Answer key indicates option C is correct, but explanation describes both countries benefiting. However, the calculation shows this is true, so the answer should remain C, not 2 as indicated",
+      "fix": "Change answer from 2 to 2 (both countries benefit - option C)"
+    },
+    {
+      "id": "macro_u1_q032",
+      "issue": "Labor market analysis is incorrect. With both demand and supply increasing, employment definitely increases, but the wage effect is ambiguous depending on relative shifts. However, the question asks about skilled labor where productivity increased significantly",
+      "fix": "The analysis is actually correct - employment definitely increases, wage change is ambiguous"
+    },
+    {
+      "id": "macro_u1_q033",
+      "issue": "The analysis of tax credits and subsidies is overly complex and the answer choice D is poorly worded. The economic analysis about price effects is muddled",
+      "fix": "Simplify analysis: consumer tax credit shifts demand right, production subsidy shifts supply right, both effects reduce net consumer cost significantly"
+    },
+    {
+      "id": "macro_u2_q038",
+      "issue": "Incorrect answer key - calculation error",
+      "fix": "Answer should be B) $12.5 trillion, not index 1. GDP = 8 + 2 + 3 + (1.5 - 2) = 12.5"
+    },
+    {
+      "id": "macro_u2_q040",
+      "issue": "Incorrect answer key - calculation error",
+      "fix": "Answer should be B) 5.0%, not index 1. Calculation: (126-120)/120 × 100% = 5.0%"
+    },
+    {
+      "id": "macro_u2_q045",
+      "issue": "Incorrect answer key - calculation error",
+      "fix": "Answer should be B) 66.7%, not index 1. Labor force participation = 160/240 × 100% = 66.7%"
+    },
+    {
+      "id": "macro_u2_q052",
+      "issue": "Incorrect answer key - conceptual error",
+      "fix": "Answer should be B) The unemployment rate to decrease, not index 1. When discouraged workers leave the labor force, unemployment rate decreases"
+    },
+    {
+      "id": "macro_u2_q050",
+      "issue": "Answer is factually incorrect. The explanation contains flawed reasoning about the GDP deflator calculation and the effects on investment and net exports are not analyzed correctly.",
+      "fix": "The purchase of German machinery increases imports (decreases NX) and increases investment (I). The sale of old machinery increases exports (increases NX) but doesn't count as new investment since it's existing capital. The net effect depends on relative magnitudes, but we cannot assume the import exceeds the export value. Choice A's reasoning is flawed - the correct answer should account for both transactions properly."
+    },
+    {
+      "id": "macro_u3_q060",
+      "issue": "Incorrect answer and explanation. The correct answer should be A (prices and wages are perfectly flexible in the long run). Choice C is incorrect because proportional adjustment doesn't explain why LRAS is vertical - it's the flexibility that allows for proportional adjustment that matters.",
+      "fix": "Change answer to 0 and revise explanation to focus on price/wage flexibility enabling the economy to produce at potential output regardless of price level"
+    },
+    {
+      "id": "macro_u3_q065",
+      "issue": "Mathematical error in explanation. The calculation 1/(1-0.8) = 1/0.2 = 5 is correct, but the explanation of choice C is wrong. Choice C gives 4, which would be 1/0.25, not 1/MPS with MPS=0.2.",
+      "fix": "Correct the explanation for why choice C is wrong - it appears to use an incorrect MPS value or formula"
+    },
+    {
+      "id": "macro_u4_q066",
+      "issue": "Correct answer should be C, not B. Withdrawing cash from savings increases M1 and leaves M2 unchanged.",
+      "fix": "Change answer to 2 (choice C) and revise explanation to clarify that cash and savings accounts are both in M2, so total M2 doesn't change"
+    },
+    {
+      "id": "macro_u4_q073",
+      "issue": "Correct answer should be C, not B. When Fed buys securities, both reserves and money supply increase by $100M immediately.",
+      "fix": "Change answer to 2 (choice C) - both reserves and money supply increase immediately by the same amount"
+    },
+    {
+      "id": "macro_u6_q098",
+      "issue": "Answer explanation has factual error regarding who benefits from yen depreciation",
+      "fix": "Choice E is incorrect - Japanese banks holding dollar-denominated assets would actually benefit from yen depreciation as their assets become more valuable in yen terms, not fall in value"
+    },
+    {
+      "id": "macro_u6_q125",
+      "issue": "Incorrect answer and flawed reasoning. When both demand and supply shift right and price remains constant, we cannot definitively conclude quantity increased without knowing the relative magnitudes of the shifts.",
+      "fix": "Change correct answer to A) 'The demand increase must be exactly equal to the supply increase in magnitude' - this is the only way price can remain unchanged with both curves shifting right."
+    }
+  ]
+}

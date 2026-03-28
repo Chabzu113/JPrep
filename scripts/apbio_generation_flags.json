@@ -1,0 +1,125 @@
+{
+  "generated": "2026-03-27T10:42:16.801Z",
+  "flags": [
+    {
+      "id": "bio_u1_q005",
+      "issue": "Incorrect answer - proteins are missing from choices but are one of the four major macromolecules",
+      "fix": "Replace 'Vitamins' with 'Proteins' in choice C, or change question to ask which IS a major macromolecule and include proteins in choices"
+    },
+    {
+      "id": "bio_u1_q019",
+      "issue": "Answer choice B is factually incorrect - both starch and cellulose can have branched and linear forms",
+      "fix": "Change choice B to 'Starch contains glucose monomers while cellulose contains different monosaccharides' or revise to focus solely on linkage differences"
+    },
+    {
+      "id": "bio_u1_q033",
+      "issue": "Answer is factually incorrect. Primary structure does change when any amino acid is substituted, and this is the direct cause of tertiary structure changes.",
+      "fix": "Change choice A to be more accurate: 'Primary structure changes by one amino acid, but this does not cause complete denaturation' or revise the explanation to acknowledge that primary structure changes but the main effect is on tertiary structure."
+    },
+    {
+      "id": "bio_u1_q037",
+      "issue": "Answer is factually incorrect. During dehydration synthesis, water is eliminated but isotopic exchange with remaining hydroxyl groups is minimal under normal synthetic conditions. The primary isotopic incorporation would be through hydrolysis reactions, not synthesis.",
+      "fix": "Revise the question to focus on hydrolysis reactions with labeled water, or change the answer to D with explanation that labeled water is removed and does not significantly exchange with the product under synthetic conditions."
+    },
+    {
+      "id": "bio_u2_q048",
+      "issue": "Answer is misleading - mitochondria and chloroplasts contain DNA, but the nucleus contains the majority of genetic material. The explanation mentions this but the answer choice B doesn't acknowledge this important distinction.",
+      "fix": "Revise the question to be more specific: 'Which organelle contains the majority of the cell's genetic material in eukaryotic cells?' or modify distractors to avoid the ambiguity with mitochondrial DNA."
+    },
+    {
+      "id": "bio_u2_q051",
+      "issue": "Outdated terminology - mesosomes are now considered artifacts of preparation",
+      "fix": "Replace explanation with: 'Prokaryotes can perform cellular respiration using their cell membrane and internal membrane systems that contain the electron transport chain and ATP synthase complexes, performing the same functions as mitochondrial membranes.'"
+    },
+    {
+      "id": "bio_u2_q072",
+      "issue": "Incorrect answer and explanation. The correct answer should be A. Both Na+ AND K+ move against their concentration gradients (Na+ from 15→150 mM and K+ from 140→5 mM are both uphill movements), plus the 3:2 stoichiometry creates electrogenic transport. The current answer B is partially correct but incomplete.",
+      "fix": "Change answer to 0 (choice A) and revise explanation to: 'Both Na+ (15 mM inside to 150 mM outside) and K+ (140 mM inside to 5 mM outside) move against their concentration gradients, requiring energy. Additionally, the 3:2 stoichiometry creates net positive charge efflux, making the process electrochemically unfavorable and requiring ATP.'"
+    },
+    {
+      "id": "bio_u3_q084",
+      "issue": "Answer choice C is factually incorrect and explanation contains error",
+      "fix": "Change choice C to 'Cannot be overcome by increasing substrate concentration' and correct explanation to state that non-competitive inhibition cannot be overcome by adding more substrate, which is a key distinguishing feature"
+    },
+    {
+      "id": "bio_u3_q084",
+      "issue": "Answer is scientifically questionable - protein denaturation at 45°C for enzymes adapted to 37°C may be reversible, not permanent",
+      "fix": "Change explanation to acknowledge that some denaturation may be reversible, or change answer to D with revised explanation"
+    },
+    {
+      "id": "bio_u3_q085",
+      "issue": "Answer choice B states incorrect calculation - enzyme reduces activation energy by 50 kJ/mol, but 75-25=50 is correct. The issue is the explanation could be clearer",
+      "fix": null
+    },
+    {
+      "id": "bio_u3_q090",
+      "issue": "Answer explanation contains inaccuracy - states blocking ETC prevents NAD+ regeneration affecting Krebs cycle, but NAD+ regeneration occurs at Complex I, and cyanide blocks Complex IV",
+      "fix": "Revise explanation to focus on proton gradient collapse and ATP synthesis cessation as primary effects"
+    },
+    {
+      "id": "bio_u3_q092",
+      "issue": "Answer explanation is imprecise - states NADP+ depletion but should clarify that NADPH accumulation leads to NADP+ depletion",
+      "fix": "Clarify that Calvin cycle stoppage leads to NADPH accumulation and NADP+ depletion, eventually slowing light reactions"
+    },
+    {
+      "id": "bio_u4_q145",
+      "issue": "The question scenario contradicts choice B. The scenario states cells 'undergo apoptosis normally' when treated with caspase-3 activator, but choice B says they 'maintain the ability to undergo programmed cell death' - this doesn't explain why p53 mutations are 'particularly dangerous' if apoptosis still works normally.",
+      "fix": "Revise choice B to: 'p53 mutations disable the G1/S checkpoint while preserving apoptotic machinery, but damaged cells may not receive proper death signals during normal conditions, allowing replication of mutations before apoptosis can be triggered' or modify the scenario to better support the intended answer."
+    },
+    {
+      "id": "bio_u5_q165",
+      "issue": "Answer choice numbering mismatch - explanation indicates 9:4:3 ratio but answer index 1 points to option B which shows 9:4:3",
+      "fix": "Verify the correct epistasis ratio - should be 9:3:4 (9 A_B_ black : 3 A_bb brown : 4 aa__ white), so answer B should read '9:3:4' not '9:4:3'"
+    },
+    {
+      "id": "bio_u5_q175",
+      "issue": "Answer key and explanation are incorrect. With 52% recombinant offspring, the genes are 52 map units apart, making choice A correct, not choice B as indicated by answer index 0.",
+      "fix": "Change answer from 0 to A, or update explanation to clarify that A is correct"
+    },
+    {
+      "id": "bio_u5_q184",
+      "issue": "Mathematical error in explanation and potentially incorrect answer. The explanation shows confusion about the calculation and doesn't match the given answer choice.",
+      "fix": "Need to properly work through the genetics: If the daughter marries a colorblind man, she must receive his X^c chromosome. From her carrier mother (X^C X^c) she has 50% chance of getting X^C or X^c. So daughter is either X^C X^c (carrier) or X^c X^c (colorblind). Since the problem asks about her son, and sons inherit X from mother: if she's X^C X^c, 50% sons colorblind; if she's X^c X^c, 100% sons colorblind. Overall: 0.5 × 0.5 + 0.5 × 1.0 = 0.75 or 75%. Answer should be D, not C."
+    },
+    {
+      "id": "bio_u6_q190",
+      "issue": "Answer is incomplete - translation occurs in multiple locations in eukaryotic cells",
+      "fix": "Change answer explanation to acknowledge that while cytoplasm is the primary location, translation also occurs in mitochondria and on ER-bound ribosomes, or modify choice B to be more specific like 'Primarily in the cytoplasm'"
+    },
+    {
+      "id": "bio_u6_q217",
+      "issue": "Choice C explanation is incorrect - DNA ligase does not remove RNA primers, this is done by RNase H and DNA polymerase I (5' to 3' exonuclease activity). The choice itself also incorrectly states that DNA ligase removes primers.",
+      "fix": "Revise choice C to accurately reflect enzyme functions, such as: 'RNA primers must be removed by other enzymes before DNA ligase can join the fragments together' and update explanation accordingly"
+    },
+    {
+      "id": "bio_u6_q217",
+      "issue": "Factual error in scenario. A modified nucleotide lacking 3'-OH would be in the template strand, but DNA polymerase doesn't need 3'-OH on template strand - it needs it on the growing strand's 3' end.",
+      "fix": "Revise to specify the modified nucleotide is incorporated into the growing strand, causing chain termination when the next nucleotide cannot be added due to missing 3'-OH group."
+    },
+    {
+      "id": "bio_u7_q220",
+      "issue": "Answer is incorrect - 'Equal fitness of all genotypes' IS required for Hardy-Weinberg equilibrium, which is equivalent to 'no natural selection'",
+      "fix": "Change answer to 2 (Large population size) and explanation to state that while large population size helps reduce genetic drift effects, the strict condition is 'infinite population size' or 'no genetic drift', making this the least precisely stated condition"
+    },
+    {
+      "id": "bio_u7_q222",
+      "issue": "Explanation contains error - states gene flow 'increases rather than decreases differences' which contradicts the correct answer",
+      "fix": "Change explanation to remove the contradictory statement and clearly state that gene flow decreases genetic differences between populations by homogenizing allele frequencies"
+    },
+    {
+      "id": "bio_u7_q250",
+      "issue": "Mathematical calculation in explanation doesn't match the described scenario - the given numbers (360 AA, 480 Aa, 160 aa) actually DO match Hardy-Weinberg predictions exactly, but the question states there IS a deviation",
+      "fix": "Change the observed numbers to show actual deviation from H-W predictions, such as 360 AA, 380 Aa, 260 aa to demonstrate heterozygote deficiency"
+    },
+    {
+      "id": "bio_u8_q275",
+      "issue": "Incorrect answer classification - this is standard mutualism, not facultative mutualism",
+      "fix": "Change correct answer to A) Mutualism, because both species benefit, or rewrite answer D to be more accurate about obligate vs facultative relationships"
+    },
+    {
+      "id": "bio_u8_q290",
+      "issue": "Answer is factually oversimplified. While generation time contributes to the lag, the primary mechanism is the time needed for increased prey availability to translate into predator reproductive success and offspring survival to reproductive age. Also, choice C about migration is not plausible for the classic lynx-hare cycle which occurs in stable territories.",
+      "fix": "Revise answer A to be more accurate: 'Time is required for increased prey abundance to result in successful lynx reproduction and offspring recruitment' and replace choice C with a more plausible distractor about disease or environmental factors."
+    }
+  ]
+}

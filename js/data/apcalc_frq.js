@@ -100,30 +100,23 @@ var APCALC_FRQ = [
     "autoGraded": true,
     "prompt": "Let g be a function defined by:\n\ng(x) = { ax² + b,  if x ≤ 1\n        { 3x + 2,   if x > 1\n\nwhere a and b are constants.",
     "parts": [
-      { "label": "a", "question": "Find values of a and b so that g is continuous at x = 1." },
-      { "label": "b", "question": "Using the values found in (a), determine whether g is differentiable at x = 1. Justify." }
+      { "label": "a", "question": "Write an equation that relates a and b so that g is continuous at x = 1." },
+      { "label": "b", "question": "Find the unique values of a and b that make g both continuous and differentiable at x = 1. Justify your answer." }
     ],
     "rubric": [
       {
-        "points": 1,
-        "description": "Set up continuity condition: a(1)² + b = 3(1) + 2 → a + b = 5",
+        "points": 2,
+        "description": "Continuity at x = 1 requires a(1)² + b = 3(1) + 2 → a + b = 5",
         "partLabel": "a",
         "skill": "calculate",
-        "keywords": ["a + b = 5", "a(1) + b", "continuous", "equal", "a + b"]
+        "keywords": ["a + b = 5", "a(1)^2 + b", "3(1) + 2", "continuous", "a + b = 5"]
       },
       {
         "points": 1,
-        "description": "One additional condition needed (e.g. b = 0 gives a = 5); any consistent pair accepted",
-        "partLabel": "a",
-        "skill": "calculate",
-        "keywords": ["a + b = 5", "any value", "infinite solutions", "one equation two unknowns", "infinitely many"]
-      },
-      {
-        "points": 1,
-        "description": "Left derivative: lim(x→1⁻) g'(x) = 2ax; Right derivative: g'(x) = 3. Differentiable if 2a = 3, i.e. a = 3/2",
+        "description": "Left derivative 2a must equal right derivative 3, so a = 1.5. Substitute back into a + b = 5 to find b = 3.5.",
         "partLabel": "b",
         "skill": "explain",
-        "keywords": ["2a", "left derivative", "2a(1)", "right derivative is 3", "equal", "differentiable", "not differentiable", "3/2"]
+        "keywords": ["2a = 3", "a = 1.5", "a = 3/2", "b = 3.5", "b = 7/2", "left derivative", "right derivative", "differentiable", "2a(1) = 3"]
       }
     ]
   },
@@ -242,7 +235,7 @@ var APCALC_FRQ = [
       },
       {
         "points": 1,
-        "description": "f'(x) = 0: x = 0 (multiplicity) and tan(x) = -2x/x = -2 solutions",
+        "description": "f'(x) = x(2sin(x) + xcos(x)) = 0: x = 0 is one solution; remaining solutions where 2sin(x) + xcos(x) = 0 require numerical methods",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": ["x = 0", "2x sin(x) + x^2 cos(x) = 0", "x(2 sin(x) + x cos(x)) = 0", "factor out x"]

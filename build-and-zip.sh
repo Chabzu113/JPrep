@@ -27,7 +27,13 @@ zip -r ~/Desktop/APTestPrep-Mac.zip "AP Test Prep.app" "Open AP Test Prep.comman
 rm "Open AP Test Prep.command"
 
 # Generate checksums.txt so the in-app updater integrity check passes
+# Includes both Mac and Windows builds (if present) — updater requires all platforms
 shasum -a 256 ~/Desktop/APTestPrep-Mac.zip | awk '{print $1 "  APTestPrep-Mac.zip"}' > ~/Desktop/checksums.txt
-echo "🔐 checksums.txt written to Desktop."
+if [ -f ~/Desktop/APTestPrep-Win.exe ]; then
+  shasum -a 256 ~/Desktop/APTestPrep-Win.exe | awk '{print $1 "  APTestPrep-Win.exe"}' >> ~/Desktop/checksums.txt
+  echo "🔐 checksums.txt written to Desktop (Mac + Windows)."
+else
+  echo "🔐 checksums.txt written to Desktop (Mac only — add Windows .exe to Desktop before uploading)."
+fi
 
 echo "✅ Done! APTestPrep-Mac.zip is on your Desktop."

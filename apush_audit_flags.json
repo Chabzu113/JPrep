@@ -1,0 +1,261 @@
+{
+  "generated": "2026-03-26",
+  "description": "Questions flagged during audit that need human review — NOT auto-fixed",
+  "flags": [
+    {
+      "id": "apush_u1_q3",
+      "category": "double-keyed",
+      "detail": "Answer 2 ('irrigation techniques') and answer 3 ('spread of maize') are both defensible. AP curriculum emphasizes maize cultivation as foundational to complex Mesoamerican societies; current key (2) is acceptable but 3 may be more precise."
+    },
+    {
+      "id": "apush_u1_q28",
+      "category": "misleading-wording",
+      "detail": "Choice C says enslaved Africans were 'immune to most European diseases.' This is an overstatement — they had greater resistance to tropical diseases (malaria, yellow fever) due to sickle cell trait and prior exposure, not immunity. Consider rewording to 'had greater resistance to tropical diseases.'"
+    },
+    {
+      "id": "apush_u1_q5",
+      "category": "bad-distractors",
+      "detail": "Choice B ('British settlers in Florida') is anachronistic — no British in Florida in the 1540s. Choice D ('printing press') is absurd. Replace with plausible Spanish colonial tensions."
+    },
+    {
+      "id": "apush_u1_q8",
+      "category": "bad-distractors",
+      "detail": "Choice A ('Spanish invasion in the 1400s') is implausible for Iroquois context. Choice D ('adoption of horses') is anachronistic — horses weren't present in Northeast before European contact."
+    },
+    {
+      "id": "apush_u1_q9",
+      "category": "anachronism-in-stimulus",
+      "detail": "Stimulus references 18th-century Casta paintings, which are outside Unit 1 timeframe (1491-1607). The caste system itself is Period 1 material but the art genre is from the 1700s."
+    },
+    {
+      "id": "apush_u1_q18",
+      "category": "imprecise-wording",
+      "detail": "Keyed answer says Asiento 'allowed the Spanish Crown to tax the importation of enslaved Africans.' More precisely, it was a monopoly contract/license granted to other nations. 'Taxing' is slightly misleading."
+    },
+    {
+      "id": "apush_u2_q6",
+      "category": "chronological-mismatch",
+      "detail": "Stimulus is a 1662 slave law, but answer cites Bacon's Rebellion (1676) as cause of shift from indentured servitude. The stimulus predates the cited cause by 14 years."
+    },
+    {
+      "id": "apush_u2_q19",
+      "category": "imprecise-wording",
+      "detail": "'Southern colonies' had 'lower life expectancy and gender imbalance' is correct for Chesapeake but less precise for the broader Southern category. By early 1700s the imbalance had stabilized."
+    },
+    {
+      "id": "apush_u2_q37",
+      "category": "anachronism",
+      "detail": "Answer says Spanish colonization by 'early 1700s' focused on 'mission systems in California and the Southwest.' California missions were not established until 1769. Remove 'California' or adjust timeframe."
+    },
+    {
+      "id": "apush_u2_q40",
+      "category": "debatable-claim",
+      "detail": "Claims Southern colonies were 'most populous' by 1750. Virginia was the largest single colony, but as a region the claim is debatable. 'Most prosperous' (plantation wealth) is more defensible."
+    },
+    {
+      "id": "apush_u3_q8",
+      "category": "imprecise-answer",
+      "detail": "'Better military leadership under Washington' is debatable — Washington lost many battles. French alliance (not listed) was arguably the single most important advantage."
+    },
+    {
+      "id": "apush_u3_q10",
+      "category": "double-keyed",
+      "detail": "Abigail Adams's letter argues for legal equality, which goes BEYOND Republican Motherhood (a more conservative concept). Answer aligns with standard AP curriculum but the connection is indirect."
+    },
+    {
+      "id": "apush_u3_q21",
+      "category": "bad-distractor",
+      "detail": "Choice D ('join the United Nations') is anachronistic — UN founded in 1945. Replace with era-appropriate option like 'honor alliance with France.'"
+    },
+    {
+      "id": "apush_u3_q23",
+      "category": "incomplete-choice",
+      "detail": "Choice D ('Viability of the US Navy') is an incomplete sentence fragment, not a proper answer choice."
+    },
+    {
+      "id": "apush_u3_q27",
+      "category": "imprecise-wording",
+      "detail": "Paxton Boys (1763-64) and Regulators (1760s-1771) described as 'late-18th-century tensions.' They are mid-18th century, not late."
+    },
+    {
+      "id": "apush_u3_q34",
+      "category": "bad-distractor",
+      "detail": "Choice A ('Capture the cotton gin') is anachronistic — cotton gin invented 1793, after the Revolutionary War."
+    },
+    {
+      "id": "apush_u4_q1",
+      "category": "bad-distractors",
+      "detail": "Choices A/C/D ('abolish Supreme Court', 'single political party', 'invade Canada') are absurd. Replace with plausible misconceptions about Jefferson's inauguration."
+    },
+    {
+      "id": "apush_u4_q6",
+      "category": "imprecise-wording",
+      "detail": "Choice C says Erie Canal 'isolating the South.' The South remained connected via Mississippi River and coastal trade. 'Isolating' overstates the impact."
+    },
+    {
+      "id": "apush_u4_q9",
+      "category": "timeline-mismatch",
+      "detail": "Question says 'Nullification Crisis of 1832' but answer says 'Tariff of Abominations' (1828). The actual crisis was triggered by the Tariff of 1832. Both defensible but slightly misaligned."
+    },
+    {
+      "id": "apush_u4_q10",
+      "category": "imprecise-wording",
+      "detail": "Question implies only one 'tribe' on Trail of Tears. The Cherokee, Choctaw, Creek, Chickasaw, and Seminole were all removed. Reword to 'most closely associated with which nation.'"
+    },
+    {
+      "id": "apush_u4_q28",
+      "category": "bad-distractors",
+      "detail": "Choices A/B/C include 'airplane,' 'internet,' 'Panama Canal' — absurd anachronisms for the 1830s. Replace with era-appropriate options."
+    },
+    {
+      "id": "apush_u4_q51",
+      "category": "ambiguous",
+      "detail": "'Largest social group in the South by 1850': Yeomen is the standard AP answer among White Southerners, but enslaved people were ~33% of the population. Ambiguous between 'social class' and 'demographic group.'"
+    },
+    {
+      "id": "apush_u5_q1",
+      "category": "source-attribution",
+      "detail": "The phrase 'manifest destiny' appeared in O'Sullivan's 1845 'Annexation' article, not his 1839 'The Great Nation of Futurity.' The question may conflate the two sources."
+    },
+    {
+      "id": "apush_u5_q19",
+      "category": "bad-distractors",
+      "detail": "Choices A/D ('Ended the Civil War', 'Gave Canada to the US') are absurd for Treaty of Guadalupe Hidalgo. Replace with plausible alternatives."
+    },
+    {
+      "id": "apush_u5_q28",
+      "category": "bad-distractors",
+      "detail": "Choices A/B ('Moved to New York City', 'Enlisted in Confederate Army') are absurd for Homestead Act. Replace with plausible misconceptions."
+    },
+    {
+      "id": "apush_u5_q39",
+      "category": "terminology",
+      "detail": "References 'Monitor and Merrimack' — the Confederate vessel was officially CSS Virginia (built from hull of USS Merrimack). Popular name is widely used but technically incorrect."
+    },
+    {
+      "id": "apush_u5_q41",
+      "category": "offensive-distractor",
+      "detail": "Choice B ('Grant land to the KKK') is offensive and absurd for a Morrill Act question. Replace with plausible alternative like 'Provide land grants to railroad companies.'"
+    },
+    {
+      "id": "apush_u5_q48",
+      "category": "bad-distractors",
+      "detail": "Choices A/B ('Build more cotton gins', 'Sale of the state to France') are absurd for Mississippi Plan. Replace with plausible Reconstruction-era alternatives."
+    },
+    {
+      "id": "apush_u5_q49",
+      "category": "duplicate-content",
+      "detail": "Nearly identical to apush_u4_q60 (both about Mormon migration to Utah / Brigham Young). Consider removing one to avoid redundancy."
+    },
+    {
+      "id": "apush_u5_q54",
+      "category": "bad-distractor",
+      "detail": "Choice A ('bribe from the KKK') is absurd for Credit Mobilier. Replace with plausible Gilded Age scandal description."
+    },
+    {
+      "id": "apush_u6_q3",
+      "category": "bad-distractors",
+      "detail": "Distractors B/C/D are polar opposites of the Dawes Act intent. Replace with plausible misconceptions like 'provide citizenship' or 'establish schools.'"
+    },
+    {
+      "id": "apush_u6_q5",
+      "category": "question-structure",
+      "detail": "Question names 'Horizontal Integration' in the stem, making it a vocabulary test rather than a concept test. Consider restructuring to present a scenario."
+    },
+    {
+      "id": "apush_u6_q11",
+      "category": "bad-distractors",
+      "detail": "Choices A/D ('bargain with labor unions', 'annex the Philippines') have no connection to civil service reform."
+    },
+    {
+      "id": "apush_u6_q17",
+      "category": "bad-distractors",
+      "detail": "Choices B/C/D ('Gold Standard', 'train soldiers for Spanish-American War', 'annex Hawaii') have no connection to Hull House."
+    },
+    {
+      "id": "apush_u6_q36",
+      "category": "bad-distractors",
+      "detail": "Choices B/C/D ('settlement of Utah', 'Gold Standard', 'light bulb') are irrelevant for Ida B. Wells question."
+    },
+    {
+      "id": "apush_u6_q37",
+      "category": "imprecise-wording",
+      "detail": "'Wiped out George Custer's 7th Cavalry' — only Custer's detachment (~210 men) was destroyed. The rest of the 7th Cavalry under Reno and Benteen survived."
+    },
+    {
+      "id": "apush_u7_q2",
+      "category": "bad-distractors",
+      "detail": "Choices B/C ('German invasion of Poland', 'assassination of Archduke Franz Ferdinand') are from entirely different eras for a Spanish-American War question."
+    },
+    {
+      "id": "apush_u7_q40",
+      "category": "bad-distractors",
+      "detail": "Choices A/C/D ('only NYC electricity', 'abolish Tennessee', 'funded by Nazi party') are absurd for TVA question."
+    },
+    {
+      "id": "apush_u7_q53",
+      "category": "double-keyed",
+      "detail": "WCTU also advocated for women's suffrage, making Choice A partially correct. Choice D (prohibition) is more comprehensive but A is not wrong."
+    },
+    {
+      "id": "apush_u7_q67",
+      "category": "bad-distractors",
+      "detail": "Choices A/B/C are weak for Potsdam Declaration question. Replace with more historically plausible ultimatum terms."
+    },
+    {
+      "id": "apush_u7_q86",
+      "category": "conflated-events",
+      "detail": "Question conflates Hawaii overthrow (1893) with annexation (1898). These are distinct events separated by five years under different presidents."
+    },
+    {
+      "id": "apush_u7_q93",
+      "category": "borderline-topic",
+      "detail": "Margaret Sanger under '7.8 1920s Cultural Controversies' — her activism began 1916 (Brownsville Clinic). 1920s placement is acceptable per AP framework but borderline."
+    },
+    {
+      "id": "apush_u7_q94",
+      "category": "borderline-topic",
+      "detail": "Seattle General Strike (1919) under '7.6 WWI: Home Front' — occurred after WWI ended (Nov 1918). More properly a postwar event, could fit 7.8 (Red Scare content)."
+    },
+    {
+      "id": "apush_u8_q13",
+      "category": "borderline-distractor",
+      "detail": "Rosa Parks as distractor for Feminine Mystique author — implausible for feminist literature (she's civil rights), but could trip students who confuse the movements."
+    },
+    {
+      "id": "apush_u8_q32",
+      "category": "terminology",
+      "detail": "'War Powers Act' — official name is 'War Powers Resolution' of 1973. Common usage is acceptable but technically imprecise."
+    },
+    {
+      "id": "apush_u8_q35",
+      "category": "misattribution",
+      "detail": "Attributes 1969 Alcatraz occupation to AIM. It was led by 'Indians of All Tribes.' AIM is associated with 1972 Trail of Broken Treaties and 1973 Wounded Knee. Reword to 'Native American activists' or change to Wounded Knee."
+    },
+    {
+      "id": "apush_u8_q47",
+      "category": "bad-distractors",
+      "detail": "Choice A ('only applied to men') and Choice D ('signed by George Washington') are absurd for ERA question."
+    },
+    {
+      "id": "apush_u8_q56",
+      "category": "joke-distractor",
+      "detail": "Choice A ('popular rock band from Ireland') is a joke reference to the band U2 for the U-2 incident question. Replace with historically plausible distractor."
+    },
+    {
+      "id": "apush_u8_q57",
+      "category": "bad-distractors",
+      "detail": "Distractors ('major battle in Vietnam', 'riot in fruit packing plant', 'end of Civil War') are absurd for Orangeburg Massacre. Replace with plausible civil rights incidents."
+    },
+    {
+      "id": "apush_u8_q59",
+      "category": "borderline-topic",
+      "detail": "Kent State under '8.15 1970s' — thematically tied to Vietnam War (8.8) and anti-war movement (8.12). Either placement is defensible."
+    },
+    {
+      "id": "apush_u9_q15",
+      "category": "borderline-topic",
+      "detail": "ACA under '9.4 A Changing Economy' — primarily a healthcare/social policy issue. Could fit better under '9.6 Challenges of the 21st Century.'"
+    }
+  ]
+}

@@ -22,7 +22,7 @@ const ALLOWED_UPDATE_DOMAINS = [
 function downloadFile(url, destPath, maxRedirects = 5) {
   return new Promise((resolve, reject) => {
     if (maxRedirects <= 0) return reject(new Error('Too many redirects'));
-    https.get(url, (res) => {
+    const req = https.get(url, (res) => {
       // Follow 3xx redirects
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         res.resume(); // drain response so socket can be reused
@@ -37,7 +37,9 @@ function downloadFile(url, destPath, maxRedirects = 5) {
       res.pipe(file);
       file.on('finish', () => file.close(resolve));
       file.on('error', (err) => { fs.unlink(destPath, () => {}); reject(err); });
-    }).on('error', reject);
+    });
+    req.on('error', reject);
+    req.setTimeout(60000, () => { req.destroy(new Error('Download timed out after 60s')); });
   });
 }
 
@@ -47,7 +49,7 @@ function downloadFile(url, destPath, maxRedirects = 5) {
 // Windows: runs NSIS installer silently (/S), which replaces files and relaunches.
 ipcMain.on('install-update', async (event, assetUrl) => {
   const send = (msg) => {
-    try { event.sender.send('update-progress', msg); } catch (e) {}
+    try { event.sender.send('update-progress', msg); } catch (e) { console.warn('IPC send error:', e.message); }
   };
 
   // ── Security: validate download domain ──────────────────────────────────
@@ -79,23 +81,30 @@ ipcMain.on('install-update', async (event, assetUrl) => {
       const checksumsText = fs.readFileSync(checksumPath, 'utf8');
       const expectedLine  = checksumsText.split('\n').find(l => l.includes(assetName));
       const expectedHash  = expectedLine ? expectedLine.split(/\s+/)[0].trim() : null;
-      if (expectedHash) {
-        const actualHash = await new Promise((resolve, reject) => {
-          const hash   = crypto.createHash('sha256');
-          const stream = fs.createReadStream(downloadPath);
-          stream.on('data',  chunk => hash.update(chunk));
-          stream.on('end',   ()    => resolve(hash.digest('hex')));
-          stream.on('error', reject);
-        });
-        if (actualHash !== expectedHash) {
-          try { fs.unlinkSync(downloadPath); } catch (e) {}
-          try { fs.unlinkSync(checksumPath); } catch (e) {}
-          send('Update cancelled: file integrity check failed. Please try again or download manually.');
-          return false;
-        }
+      if (!expectedHash) {
+        console.warn('Checksum entry not found for', assetName, 'in checksums.txt');
+        send('Update cancelled: no checksum found for this platform. Please download manually.');
+        try { fs.unlinkSync(downloadPath); } catch (e) { console.warn('cleanup error:', e); }
+        return false;
+      }
+      const actualHash = await new Promise((resolve, reject) => {
+        const hash   = crypto.createHash('sha256');
+        const stream = fs.createReadStream(downloadPath);
+        stream.on('data',  chunk => hash.update(chunk));
+        stream.on('end',   ()    => resolve(hash.digest('hex')));
+        stream.on('error', reject);
+      });
+      if (actualHash !== expectedHash) {
+        try { fs.unlinkSync(downloadPath); } catch (e) { console.warn('cleanup error:', e); }
+        try { fs.unlinkSync(checksumPath); } catch (e) { console.warn('cleanup error:', e); }
+        send('Update cancelled: file integrity check failed. Please try again or download manually.');
+        return false;
       }
     } catch (checksumErr) {
-      // checksums.txt not available — proceed without verification (older releases)
+      console.warn('Checksum verification failed:', checksumErr.message);
+      try { fs.unlinkSync(downloadPath); } catch (e) { console.warn('cleanup error:', e); }
+      send('Update cancelled: could not verify file integrity. Please download manually.');
+      return false;
     }
     return true;
   }
@@ -113,7 +122,7 @@ ipcMain.on('install-update', async (event, assetUrl) => {
       spawn(installerPath, ['/S'], { detached: true, stdio: 'ignore' }).unref();
 
       // Clean up checksum file
-      try { fs.unlinkSync(checksumPath); } catch (e) {}
+      try { fs.unlinkSync(checksumPath); } catch (e) { console.warn('cleanup error:', e.message); }
 
       // Give the installer a moment to start, then quit so it can replace files
       send('Restarting...');
@@ -139,10 +148,10 @@ ipcMain.on('install-update', async (event, assetUrl) => {
 
     // 4. Remove macOS quarantine
     send('Installing...');
-    await execAsync(`xattr -cr "${extractDir}/AP Test Prep.app"`);
+    await execAsync(`xattr -cr "${extractDir}/JPrep.app"`);
 
     // 5. Locate running .app bundle
-    //    app.getPath('exe') → /…/AP Test Prep.app/Contents/MacOS/AP Test Prep
+    //    app.getPath('exe') → /…/JPrep.app/Contents/MacOS/JPrep
     const exePath     = app.getPath('exe');
     const dotAppIndex = exePath.indexOf('.app/');
     if (dotAppIndex === -1) throw new Error('Could not locate .app bundle path');
@@ -150,7 +159,7 @@ ipcMain.on('install-update', async (event, assetUrl) => {
 
     // 6. Replace old app with new one
     await execAsync(`rm -rf "${appPath}"`);
-    await execAsync(`cp -r "${extractDir}/AP Test Prep.app" "${appPath}"`);
+    await execAsync(`cp -r "${extractDir}/JPrep.app" "${appPath}"`);
 
     // 7. Clean up temp files
     await execAsync(`rm -f "${zipPath}" "${checksumPath}" && rm -rf "${extractDir}"`);
@@ -172,7 +181,7 @@ function createWindow() {
     height: 820,
     minWidth: 800,
     minHeight: 600,
-    title: 'AP Test Prep',
+    title: 'JPrep',
     backgroundColor: '#f8f9fa',
     // macOS-only: hidden title bar with traffic lights
     ...(isMac ? {
@@ -212,7 +221,7 @@ function createWindow() {
   // ── Menu bar ──────────────────────────────────────────────────────────
   const menuTemplate = [
     {
-      label: 'AP Test Prep',
+      label: 'JPrep',
       submenu: [
         { role: 'about' },
         { type: 'separator' },

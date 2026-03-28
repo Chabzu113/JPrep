@@ -40,7 +40,7 @@
   function fuzzyMatch(word, target) {
     if (word === target) return true;
     var maxLen = Math.max(word.length, target.length);
-    if (maxLen === 0) return true;
+    if (maxLen === 0) return false;
     if (Math.abs(word.length - target.length) > maxLen * 0.4) return false;
     return levenshtein(word, target) / maxLen <= 0.2;
   }

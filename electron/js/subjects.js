@@ -12,7 +12,7 @@ const SUBJECTS = [
     examDate: new Date('2026-05-07T08:00:00'),
     description: 'Java programming, OOP, algorithms & data structures.',
     hasContent: true,
-    dataFiles: ['MCQ_U1U2', 'MCQ_U3U4', 'FRQ_BANK'],
+    dataFiles: ['APCSA_MCQ', 'FRQ_BANK'],
     testFiles: ['PRACTICE_TESTS'],
     questionTypes: [
       { value: 'all', label: 'All' },
@@ -330,15 +330,24 @@ const SUBJECTS = [
     examDate: new Date('2026-05-14T08:00:00'),
     description: 'Electrostatics, circuits, magnetism & electromagnetic induction.',
     hasContent: true,
-    dataFiles: ['APPHYSCEM_FRQ'],
+    dataFiles: ['APPHYSCEM_FRQ', 'PHYSC_MCQ'],
     testFiles: [],
-    questionTypes: [{ value: 'all', label: 'All' }, { value: 'FRQ', label: 'FRQ' }],
+    questionTypes: [
+      { value: 'all', label: 'All' },
+      { value: 'MCQ', label: 'MCQ' },
+      { value: 'FRQ', label: 'FRQ' }
+    ],
     units: [
-      { value: 1, label: 'Unit 1: Electrostatics' },
-      { value: 2, label: 'Unit 2: Conductors, Capacitors & Dielectrics' },
-      { value: 3, label: 'Unit 3: Electric Circuits' },
-      { value: 4, label: 'Unit 4: Magnetic Fields' },
-      { value: 5, label: 'Unit 5: Electromagnetism' }
+      { num: 1, title: 'Electrostatics',                          weight: '', topics: [] },
+      { num: 2, title: 'Conductors, Capacitors & Dielectrics',    weight: '', topics: [] },
+      { num: 3, title: 'Electric Circuits',                        weight: '', topics: [] },
+      { num: 4, title: 'Magnetic Fields',                          weight: '', topics: [] },
+      { num: 5, title: 'Electromagnetism',                         weight: '', topics: [] },
+      { num: 6, title: 'Kinematics (Calculus)',                    weight: '', topics: [] },
+      { num: 7, title: 'Newton\'s Laws (Calculus)',                 weight: '', topics: [] },
+      { num: 8, title: 'Work, Energy & Power (Calculus)',          weight: '', topics: [] },
+      { num: 9, title: 'Momentum & Collisions',                   weight: '', topics: [] },
+      { num: 10, title: 'Rotation (Calculus)',                     weight: '', topics: [] }
     ]
   },
   {

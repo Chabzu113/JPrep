@@ -18,8 +18,7 @@ function loadAllQuestionsForActiveSubject() {
   }
   // Fallback: legacy globals for AP CS A
   return [
-    ...(typeof MCQ_U1U2 !== 'undefined' ? MCQ_U1U2 : []),
-    ...(typeof MCQ_U3U4 !== 'undefined' ? MCQ_U3U4 : []),
+    ...(typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ : []),
     ...(typeof FRQ_BANK !== 'undefined' ? FRQ_BANK : [])
   ];
 }

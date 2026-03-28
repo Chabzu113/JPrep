@@ -1,0 +1,335 @@
+{
+  "generated": "2026-03-27T03:28:31.399Z",
+  "flags": [
+    {
+      "id": "phys1_u1_q011",
+      "issue": "Answer choice labeling inconsistency - correct answer is C but explanation acknowledges both A and B are correct statements, making this ambiguous",
+      "fix": "Rewrite choices to be: A) It has no initial vertical velocity, B) It has no horizontal acceleration, C) Both A and B, D) Neither A nor B"
+    },
+    {
+      "id": "phys1_u1_q031",
+      "issue": "Mathematical error in answer calculation",
+      "fix": "The calculation is incorrect. At 45°, vy₀ = v₀sin(45°) = v₀/√2. Using vy = vy₀ - gt: 0 = v₀/√2 - 10(2), so v₀ = 20√2 ≈ 28.3 m/s. However, none of the choices match exactly. The calculation gives 28.3 m/s but choice B shows 28 m/s as correct."
+    },
+    {
+      "id": "phys1_u1_q043",
+      "issue": "Difficulty label inappropriate - this is medium difficulty, not hard. The problem involves straightforward area calculations under a v-t graph with basic triangular regions.",
+      "fix": "Change difficulty from 'hard' to 'medium'"
+    },
+    {
+      "id": "phys1_u2_q046",
+      "issue": "The question is ambiguous about what forces exist on the box. If it slides at constant velocity, there must be an applied force to overcome friction, making choice C potentially correct.",
+      "fix": "Clarify the scenario by stating either 'A box slides across a rough horizontal surface at constant velocity after being given an initial push' or specify that an external force is continuously applied."
+    },
+    {
+      "id": "phys1_u2_q058",
+      "issue": "Question assumes identical blocks have same coefficient of kinetic friction, but states blocks have different friction forces. This creates contradiction - if blocks are identical and on similar surfaces, they should have same μ_k.",
+      "fix": "Clarify that blocks are on different surfaces or specify different normal force conditions explicitly"
+    },
+    {
+      "id": "phys1_u2_q061",
+      "issue": "Answer and explanation are incorrect. In tug-of-war, tension throughout massless rope equals force applied by each person to rope, not the smaller force. System accelerates but tension remains uniform at value determined by force analysis.",
+      "fix": "Correct answer should be 150 N with proper explanation of constraint forces and system acceleration"
+    },
+    {
+      "id": "phys1_u2_q066",
+      "issue": "Mathematical error - explanation calculation is incorrect and convoluted",
+      "fix": "Recalculate properly: For Box A: F = Ma + friction. For Box B with same acceleration: 2F = (M+m)a + friction. Setting frictions equal: F - Ma = 2F - (M+m)a, solving gives m = M"
+    },
+    {
+      "id": "phys1_u2_q070",
+      "issue": "Mathematical error - calculated answer (1.8 m/s²) doesn't match the actual calculation (≈3.0 m/s²)",
+      "fix": "Recalculate or adjust answer choices. Actual calculation gives a ≈ 2.9 m/s²"
+    },
+    {
+      "id": "phys1_u2_q073",
+      "issue": "Mathematical error - calculated answer is 4.4 m/s² but marked answer A) 3.1 m/s² is incorrect",
+      "fix": "Change correct answer to match calculation: v = √(2 × 4.9 × 2) = 4.4 m/s, or add choice matching this value"
+    },
+    {
+      "id": "phys1_u2_q074",
+      "issue": "Mathematical error - calculation gives 3.44 m/s² but none of the choices match, and marked answer A) 2.1 m/s² is clearly wrong",
+      "fix": "Recalculate forces and verify answer choices. Net force should be √((10-6cos45°)² + (8-6sin45°)²) ≈ 6.9 N, giving a ≈ 3.4 m/s²"
+    },
+    {
+      "id": "phys1_u3_q086",
+      "issue": "Answer is mathematically incorrect",
+      "fix": "Since ac = 4π²r/T² with same T, larger radius gives larger acceleration, but explanation says ac is proportional to r. Should be ac ∝ r when T is constant."
+    },
+    {
+      "id": "phys1_u3_q095",
+      "issue": "Question assumes constant speed but spring force and radius relationship is more complex",
+      "fix": "Need to clarify whether speed changes or if we're considering equilibrium conditions. The relationship Fc = kx = mv²/r doesn't necessarily mean constant speed when spring stretches."
+    },
+    {
+      "id": "phys1_u3_q102",
+      "issue": "Orbital motion with Kepler's third law is beyond AP Physics 1 scope and difficulty is too high",
+      "fix": "Replace with simpler circular motion problem using basic centripetal force concepts, or change difficulty to 'hard' and verify it fits AP Physics 1 curriculum"
+    },
+    {
+      "id": "phys1_u3_q114",
+      "issue": "Mathematical error in calculation. The ratio √(6800/7200) = 0.972, which is about 3% decrease, not 6%",
+      "fix": "Change choice C to 'Decrease by about 3%' or recalculate using different altitude values to achieve 6% decrease"
+    },
+    {
+      "id": "phys1_u4_q149",
+      "issue": "Explanation contains error - states cos(37°) = 0.8 when it should be approximately 0.799, and incorrectly describes choice B as using cos(37°) ≈ 0.6",
+      "fix": "Correct the explanation to use cos(37°) ≈ 0.8 (rounded appropriately) and fix the description of choice B's error"
+    },
+    {
+      "id": "phys1_u4_q151",
+      "issue": "Mathematical error in calculation - should be W_friction = 24 - 90 = -66 J, but explanation shows different intermediate steps",
+      "fix": "Correct the calculation steps to clearly show: 90 J + W_friction = 24 J, therefore W_friction = -66 J ≈ -65 J"
+    },
+    {
+      "id": "phys1_u4_q156",
+      "issue": "Mathematical error in calculation. Work by friction should be approximately -350 J, not -173 J as claimed",
+      "fix": "Recalculate: mg = 341.5 N, N = 291.5 N, friction force = 116.6 N, work = -116.6 × 5 = -583 J. None of the given choices match. Need to recalculate entire problem or adjust choices."
+    },
+    {
+      "id": "phys1_u4_q158",
+      "issue": "Mathematical error in final calculation. Should be μₖ = 0.75, but explanation shows conflicting work",
+      "fix": "Verify calculation: 60 J initial energy, 80μₖ work by friction, so μₖ = 60/80 = 0.75. The answer is correct but explanation needs clarity."
+    },
+    {
+      "id": "phys1_u4_q165",
+      "issue": "Mathematical error. Energy lost should be 2.4 J, but answer choice A is 6 J",
+      "fix": "Either fix the calculation (final KE = 19.6 J, loss = 2.4 J) or adjust answer choices to match correct calculation."
+    },
+    {
+      "id": "phys1_u4_q167",
+      "issue": "Explanation contains self-contradiction and incorrect reasoning about chain position",
+      "fix": "Clarify: initially center of mass is L/2 below ceiling, finally it's L/2 below ceiling (chain bunched up). Net work should be MgL/2 as claimed, but reasoning needs correction."
+    },
+    {
+      "id": "phys1_u4_q170",
+      "issue": "Extremely complex calculation that may exceed AP Physics 1 level and explanation is incomplete",
+      "fix": "Either provide complete step-by-step energy analysis or simplify problem. Current explanation jumps to conclusion without showing work."
+    },
+    {
+      "id": "phys1_u5_q169",
+      "issue": "Incorrect answer - momentum is not conserved in choice A due to external forces during collision",
+      "fix": "Change correct answer to a scenario with truly no external forces, or clarify that external forces during collision are negligible"
+    },
+    {
+      "id": "phys1_u5_q175",
+      "issue": "Incomplete explanation - states N⋅s equals kg⋅m/s but momentum units are kg⋅m/s, not kg⋅m/s²",
+      "fix": "Correct explanation to state that N⋅s = kg⋅m/s (units of momentum change), not kg⋅m/s²"
+    },
+    {
+      "id": "phys1_u5_q180",
+      "issue": "Answer key incorrect - calculation gives 3.5 m/s but answer is marked as B (2.5 m/s)",
+      "fix": "Change answer to 2 (choice C)"
+    },
+    {
+      "id": "phys1_u5_q181",
+      "issue": "Duplicate of q180",
+      "fix": "Remove duplicate question"
+    },
+    {
+      "id": "phys1_u5_q182",
+      "issue": "Math error - initial momentum is 0 but none of the choices reflect this",
+      "fix": "Revise problem parameters or answer choices"
+    },
+    {
+      "id": "phys1_u5_q183",
+      "issue": "Math error - calculated answer is 1.2 m/s east, not 1.5 m/s west",
+      "fix": "Revise problem parameters to match answer choice B or change answer choices"
+    },
+    {
+      "id": "phys1_u5_q184",
+      "issue": "Answer key incorrect - calculation gives 5.2 m/s but answer is marked as C (5.6 m/s)",
+      "fix": "Change answer to 1 (choice B)"
+    },
+    {
+      "id": "phys1_u5_q189",
+      "issue": "Answer key incorrect - elastic collision formula gives 1 m/s but answer is marked as A, explanation shows confusion",
+      "fix": "Recalculate using proper elastic collision formulas and correct answer key"
+    },
+    {
+      "id": "phys1_u5_q192",
+      "issue": "Mathematical error in explanation and unclear problem setup",
+      "fix": "The problem statement gives momentum that already equals zero (6mv - 6mv = 0), making the question about reference frames nonsensical. Need to revise with different values or clarify what reference frame transformation is being asked."
+    },
+    {
+      "id": "phys1_u5_q197",
+      "issue": "Mathematical calculation error in explanation",
+      "fix": "The fraction calculation is wrong. Correct calculation: Energy lost = 76 - 148/3 = 80/3 J. Fraction = (80/3)/76 = 80/228 ≈ 0.35, which doesn't match any answer choice. Need to recalculate or revise numbers."
+    },
+    {
+      "id": "phys1_u5_q198",
+      "issue": "Mathematical error in percentage calculation",
+      "fix": "Final KE = 2mv²/3. Energy lost = 9mv² - 2mv²/3 = 25mv²/3. Percentage = (25mv²/3)/(9mv²) = 25/27 ≈ 93%, not 75%. The calculation in explanation is incorrect."
+    },
+    {
+      "id": "phys1_u5_q204",
+      "issue": "Mathematical error in final answer",
+      "fix": "The calculation gives v₁ = 2 m/s, but the explanation shows solving steps that don't match. Need to verify: using standard elastic collision formulas, v₁ = ((m₁-m₂)/(m₁+m₂))u₁ = (4-2)/(4+2) × 6 = 2 m/s. Answer A is correct."
+    },
+    {
+      "id": "phys1_u5_q206",
+      "issue": "Mathematical error and contradiction in explanation",
+      "fix": "Calculation: 1000(20) + 1500(-10) = 20000 - 15000 = 5000. Final velocity = 5000/2500 = 2 m/s in car's direction. But explanation contradicts itself. The answer should be A) 2 m/s in car's direction."
+    },
+    {
+      "id": "phys1_u6_q214",
+      "issue": "Field name typo: 'difference' instead of 'difficulty'",
+      "fix": "Change 'difference': 'easy' to 'difficulty': 'easy'"
+    },
+    {
+      "id": "phys1_u6_q222",
+      "issue": "Mathematically incorrect answer and explanation",
+      "fix": "The explanation incorrectly assumes the spring constant k remains unchanged when mass increases by factor of 9. Actually, if period T changes by factor 3 (from T = 2π√(m/k)), then k must decrease. The problem statement doesn't specify what happens to k or T, making the question ambiguous."
+    },
+    {
+      "id": "phys1_u6_q247",
+      "issue": "Incorrect physics explanation - at highest point of vertical spring oscillation, restoring force should be spring force minus gravitational force (since gravity aids the restoring motion at the top), not plus",
+      "fix": "Correct explanation: At highest point, mass is above equilibrium, so restoring force points downward toward equilibrium. The net restoring force is the additional spring compression beyond equilibrium minus the gravitational force that already balanced at equilibrium. Answer should be C) spring force minus gravitational force."
+    },
+    {
+      "id": "phys1_u6_q249",
+      "issue": "Incorrect physics for two-mass spring system - the analysis is flawed and overcomplicated for AP Physics 1 level",
+      "fix": "This problem requires center-of-mass analysis beyond AP Physics 1 scope. Should be simplified to standard spring-mass system or removed entirely."
+    },
+    {
+      "id": "phys1_u6_q255",
+      "issue": "Overly complex calculation with unclear setup and convoluted explanation that doesn't clearly establish the geometry or reference points",
+      "fix": "Simplify problem setup with clearer geometry and step-by-step calculation, or replace with more straightforward energy ratio problem appropriate for AP Physics 1 level."
+    },
+    {
+      "id": "phys1_u7_q255",
+      "issue": "Question conflates rotational equilibrium with static equilibrium. An object can be in rotational equilibrium while rotating at constant angular velocity.",
+      "fix": "Clarify the question to specify static rotational equilibrium or modify choice C to read 'The angular acceleration must be zero'"
+    },
+    {
+      "id": "phys1_u7_q258",
+      "issue": "Choice D is incorrect as stated. L = mvr is valid for a point particle, making this distractor factually correct in some contexts.",
+      "fix": "Change choice D to 'L = mr²' or 'L = mvt' to make it clearly incorrect"
+    },
+    {
+      "id": "phys1_u7_q264",
+      "issue": "Math error in equilibrium calculation and explanation is confused",
+      "fix": "Recalculate the balance point or revise the problem setup. Current calculation gives 1.1 m but explanation claims 0.75 m is correct without verification"
+    },
+    {
+      "id": "phys1_u7_q270",
+      "issue": "Incorrect analysis of parallel force",
+      "fix": "The force parallel to the rod at the midpoint creates zero torque only if applied through the pivot. The problem states it's applied at the midpoint, not through the pivot, so it should contribute to torque"
+    },
+    {
+      "id": "phys1_u7_q272",
+      "issue": "Calculation error and confused explanation",
+      "fix": "The explanation shows multiple calculation attempts and doesn't arrive at the stated answer. Need to correctly solve: 3(x-0.5) = 2(2-x) to find x = 1.1 m, but this isn't among the choices"
+    },
+    {
+      "id": "phys1_u7_q275",
+      "issue": "Answer key error",
+      "fix": "The calculation clearly gives 0.8 kg⋅m²/s (choice B) but answer key shows 0 (choice A). Change answer to 1"
+    },
+    {
+      "id": "phys1_u7_q279",
+      "issue": "Answer key error",
+      "fix": "The calculation gives 200 N (choice A) but answer key shows 1 (choice B). The explanation even confirms 200 N is correct. Change answer to 0"
+    },
+    {
+      "id": "phys1_u7_q280",
+      "issue": "Calculation doesn't match any provided answer choices",
+      "fix": "The correct calculation gives 4.0 rad/s which isn't among the choices. Either revise the numbers in the problem or provide correct answer choices"
+    },
+    {
+      "id": "phys1_u7_q278",
+      "issue": "Incorrect calculation. The 100 N weight is 1 m from the left end, so it's 1 m from the center (2-1=1), not creating 100 N·m torque. It creates 1 m × 100 N = 100 N·m torque. The 150 N weight should be placed 100/150 = 0.67 m from center on the right side, which is 2-0.67 = 1.33 m from the right end. However, the explanation incorrectly states the 100 N weight is 1 m from center.",
+      "fix": "Correct the explanation to state that the 100 N weight placed 1 m from the left end is 1 m from the center (since the beam is 4 m long and supported at center), creating 100 N × 1 m = 100 N·m torque."
+    },
+    {
+      "id": "phys1_u7_q284",
+      "issue": "Incorrect calculation in explanation. When axis moves from center to end, I changes from 2mL² to m(0)² + m(2L)² = 4mL². However, the rod length is 2L, so when axis is at center, each mass is at distance L (correct), but when axis is at one end, masses are at distances 0 and 2L (correct). The ratio 4mL²/2mL² = 2 is correct.",
+      "fix": null
+    },
+    {
+      "id": "phys1_u7_q289",
+      "issue": "Mathematical error in ratio calculation. τ₃ = rF sin(60°) = rF(√3/2) ≈ 0.866rF. The ratio should be rF : 0 : 0.866rF ≈ 2:0:1.73, which does not simplify to 2:0:1",
+      "fix": "Change choice A to '2:0:√3' and adjust explanation to show exact ratio"
+    },
+    {
+      "id": "phys1_u7_q291",
+      "issue": "Confusing and potentially incorrect explanation. The problem setup and solution are unclear about mass placement constraints and the final answer seems questionable",
+      "fix": "Revise problem to clearly state constraints and provide clearer mathematical solution"
+    },
+    {
+      "id": "phys1_u7_q293",
+      "issue": "Incorrect physics explanation. When friction becomes zero, there's no mechanism described for the cylinder to 'gradually start rolling' - it would continue sliding indefinitely without friction",
+      "fix": "Revise explanation to clarify that rolling only resumes if friction is reintroduced or change answer choice"
+    },
+    {
+      "id": "phys1_u7_q294",
+      "issue": "Incorrect analysis of angular momentum directions. Two spheres rolling toward each other have angular momenta in opposite directions, not the same direction",
+      "fix": "Correct explanation to show angular momenta cancel out, making choice C (completely at rest) the correct answer"
+    },
+    {
+      "id": "phys1_u8_q292",
+      "issue": "Ambiguous question - could refer to either fundamental physical unit (elementary charge) or SI unit (coulomb)",
+      "fix": "Change question to 'What is the SI unit of electric charge?' to make it unambiguous"
+    },
+    {
+      "id": "phys1_u8_q302",
+      "issue": "Incorrect answer - when positive charge moves from high to low potential, potential energy decreases, not increases",
+      "fix": "Change answer from 1 to 1 (B is correct - potential energy decreases)"
+    },
+    {
+      "id": "phys1_u8_q314",
+      "issue": "Ambiguous question - two correct answers possible",
+      "fix": "Rephrase question to ask specifically for 'the increase in current' or change option D to an incorrect statement"
+    },
+    {
+      "id": "phys1_u8_q320",
+      "issue": "Mathematical error in solution. The equation k(3Q)/(x²) = k(Q)/(x-4d)² leads to 3(x-4d)² = x², which gives x = 6d, but this point is beyond the negative charge where fields would add, not cancel. For opposite charges, the zero field point should be between them.",
+      "fix": "Correct the setup to find the point between charges where fields oppose each other, likely around x = 3d"
+    },
+    {
+      "id": "phys1_u8_q322",
+      "issue": "Incorrect answer selection. The explanation correctly derives 4R but the answer is marked as choice 3 (2R) instead of choice 4 (4R).",
+      "fix": "Change answer from 3 to 4, or reorder choices so 4R is choice C"
+    },
+    {
+      "id": "phys1_u8_q322",
+      "issue": "Answer is incorrect. The equilibrium position is between x=d and x=2d, not beyond x=2d",
+      "fix": "Change answer to 1 (choice B) and update explanation to correctly analyze force balance between charges"
+    },
+    {
+      "id": "phys1_u8_q323",
+      "issue": "Answer is incorrect. When displaced toward nearer charge, net force pushes away from nearer charge (toward farther charge), so it accelerates toward the farther charge",
+      "fix": "Change answer to 2 (choice C) and correct explanation about unstable equilibrium behavior"
+    },
+    {
+      "id": "phys1_u9_q347",
+      "issue": "Incorrect answer indexing - answer should be 1 (2A) but is marked as 1 (B) which corresponds to 2A",
+      "fix": "Change answer to 1 (B is correct as 2A)"
+    },
+    {
+      "id": "phys1_u9_q348",
+      "issue": "Incorrect answer indexing - answer should be 1 (9V) but is marked as 1 (B) which corresponds to 9V",
+      "fix": "Change answer to 1 (B is correct as 9V)"
+    },
+    {
+      "id": "phys1_u9_q358",
+      "issue": "Incorrect answer - marked as 1 (0.6A) but explanation shows 0.6A which is choice B, answer should be 1",
+      "fix": "Answer is correctly indexed as 1 for choice B (0.6A)"
+    },
+    {
+      "id": "phys1_u9_q362",
+      "issue": "Answer index error - answer is 2 but correct choice is C which should be index 2, however the current through R3 is actually 4.0 A making the correct answer choice C, but choices are zero-indexed so answer should be 2, which matches. However, there's ambiguity about circuit description without diagram.",
+      "fix": "Add clear circuit diagram or more explicit description of how components are connected, as the circuit topology could be interpreted different ways without visual reference"
+    },
+    {
+      "id": "phys1_u9_q368",
+      "issue": "Mathematical error in calculation",
+      "fix": "The explanation incorrectly states that parallel resistance of 1000Ω and 10000Ω is 909Ω. Correct calculation: (1000×10000)/(1000+10000) = 909.09Ω ≈ 909Ω, but the voltage division should be considered in context of the entire circuit, not just this parallel combination. Without knowing the rest of the circuit, this percentage cannot be determined."
+    },
+    {
+      "id": "phys1_u9_q379",
+      "issue": "Incorrect answer and confusing explanation",
+      "fix": "The question asks for minimum number of independent equations needed. For a circuit with 5 junctions and 3 loops, you need (n-1) = 4 current equations and can use up to 3 voltage equations, but the total should equal the number of unknown currents in the circuit. Without knowing the circuit topology, this cannot be definitively answered. The explanation is also confusing and contradicts itself."
+    }
+  ]
+}

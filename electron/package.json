@@ -1,7 +1,7 @@
 {
-  "name": "ap-csa-practice",
+  "name": "jprep",
   "version": "1.8.1",
-  "description": "AP Test Prep — Multi-Subject Practice Platform",
+  "description": "JPrep — Multi-Subject AP Practice Platform",
   "main": "main.js",
   "author": "Abhijay Ramaka",
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "build": {
     "appId": "com.abhijay.apcsa-practice",
-    "productName": "AP Test Prep",
+    "productName": "JPrep",
     "icon": "icon.png",
     "mac": {
       "category": "public.app-category.education",
@@ -38,7 +38,7 @@
       "icon": "icon.png"
     },
     "dmg": {
-      "title": "AP Test Prep",
+      "title": "JPrep",
       "icon": "icon.png",
       "contents": [
         {

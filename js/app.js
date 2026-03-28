@@ -245,20 +245,25 @@ function getOverallStats() {
 
 // Helper to get all questions merged
 function getAllQuestions() {
-  const mcq1 = typeof MCQ_U1U2 !== 'undefined' ? MCQ_U1U2 : [];
-  const mcq2 = typeof MCQ_U3U4 !== 'undefined' ? MCQ_U3U4 : [];
+  const mcq1 = typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ : [];
+  const mcq2 = [];
   const frqs = typeof FRQ_BANK !== 'undefined' ? FRQ_BANK : [];
   return [...mcq1, ...mcq2, ...frqs];
 }
 
 // ─── Test History (scoped to active subject) ─────────────────────────────────
+// Subject-scoped localStorage key helper — prevents cross-subject collision
+function subjectStorageKey(base) {
+  return getActiveSubject() + '_' + base;
+}
+
 function saveTestResult(result) {
   const state = getState();
   const subjId = getActiveSubject();
   if (!state.subjects[subjId]) {
     state.subjects[subjId] = { questionHistory: {}, testHistory: [], studyMinutes: 0 };
   }
-  try { localStorage.setItem('apcsa_last_result', JSON.stringify(result)); } catch(e){}
+  try { localStorage.setItem(subjectStorageKey('last_result'), JSON.stringify(result)); } catch(e) { console.warn('localStorage write error:', e); }
   const hist = state.subjects[subjId].testHistory || [];
   const filtered = hist.filter(h => h.testId !== result.testId || h.date !== result.date);
   filtered.unshift(result);
@@ -500,7 +505,7 @@ window.App = {
   navigateTo, getCurrentPage, getUrlParam,
   // Utilities
   formatDate, formatPercent, shuffle, clamp, debounce, escapeHtml,
-  renderCode, estimateAPScore
+  renderCode, estimateAPScore, subjectStorageKey
 };
 
 // ─── Math Rendering Utilities (KaTeX) ────────────────────────────────────────
@@ -510,7 +515,9 @@ window.App = {
 function isLatexString(s) {
   return typeof s === 'string' && (
     s.startsWith('\\') ||
-    /\\(frac|sqrt|lim|int|sum|infty|cdot|leq|geq|neq|pi|theta|alpha|beta|delta|sigma|lambda|mu|to|pm|times|div)/.test(s)
+    /\\(frac|sqrt|lim|int|sum|infty|cdot|leq|geq|neq|pi|theta|alpha|beta|delta|sigma|lambda|mu|to|pm|times|div|vec|hat|partial|nabla|ln|log|cos|sin|tan|exp)/.test(s) ||
+    /\^[\({]/.test(s) ||
+    /[_\^]\d/.test(s)
   );
 }
 
@@ -543,6 +550,57 @@ function mathSpan(text, display) {
 // Also handles a fully-raw bare-LaTeX string (e.g. "\frac{1}{2}x^2").
 function renderFRQPromptText(text) {
   if (!text) return '';
+
+  // Pre-process: convert markdown-style pipe tables to HTML tables.
+  // Detects consecutive lines containing | separators, skips --- divider rows.
+  if (text.includes('|')) {
+    const lines = text.split('\n');
+    let i = 0;
+    const outputParts = [];
+    while (i < lines.length) {
+      // Check if this line looks like a table row (contains at least one |)
+      if (lines[i].includes('|')) {
+        const tableRows = [];
+        while (i < lines.length && lines[i].includes('|')) {
+          const trimmed = lines[i].trim();
+          // Skip pure separator rows like ---|---|---
+          if (/^[\s|:-]+$/.test(trimmed)) { i++; continue; }
+          const cells = trimmed.split('|').map(c => c.trim()).filter(c => c !== '');
+          if (cells.length > 0) {
+            tableRows.push('<tr>' + cells.map(c => '<td>' + c + '</td>').join('') + '</tr>');
+          }
+          i++;
+        }
+        if (tableRows.length > 0) {
+          outputParts.push('<table class="question-table">\n' + tableRows.join('\n') + '\n</table>');
+        }
+      } else {
+        outputParts.push(lines[i]);
+        i++;
+      }
+    }
+    text = outputParts.join('\n');
+  }
+
+  // Pre-process: wrap bare caret/subscript math in $ delimiters so path ② picks them up.
+  // Only if string is not already using LaTeX delimiters or backslash-only.
+  if (!text.includes('$') && !text.startsWith('\\')) {
+    // Convert ^(n/d) and ^(n) to proper LaTeX brace syntax
+    text = text.replace(/\^\(([^)]+)\)/g, '^{$1}');
+    // x^(1/3), x^{2}, f^(n) style
+    text = text.replace(/([A-Za-z0-9.]+\^[\({][^)}\s,]+[\)}])/g, function(m) {
+      return '$' + m + '$';
+    });
+    // x^2, x^10 bare numeric exponents (skip if already wrapped)
+    text = text.replace(/(?<!\$)([A-Za-z0-9.]+\^[0-9]+)(?!\$)/g, function(m) {
+      return '$' + m + '$';
+    });
+    // x_0, v_f, a_n subscripts (skip if already wrapped)
+    text = text.replace(/(?<!\$)([A-Za-z0-9.]+_[0-9A-Za-z]+)(?!\$)/g, function(m) {
+      return '$' + m + '$';
+    });
+  }
+
   // Shortcut: ONLY for pure bare-LaTeX strings that start with \ and have no delimiter wrappers.
   // Excludes natural-language sentences like "The rate... \(A(t)=10\sqrt{t}\) people/hr."
   if (isLatexString(text) && text.startsWith('\\') && !text.includes('$')) return mathSpan(text, false);

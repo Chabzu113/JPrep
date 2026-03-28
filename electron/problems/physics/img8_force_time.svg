@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="white"/>
+  <!-- Axes -->
+  <line x1="60" y1="280" x2="460" y2="280" stroke="black" stroke-width="2"/>
+  <line x1="60" y1="280" x2="60" y2="30" stroke="black" stroke-width="2"/>
+  <text x="250" y="330" text-anchor="middle" font-size="14" font-family="Arial">Time (s)</text>
+  <text x="18" y="155" text-anchor="middle" font-size="14" font-family="Arial" transform="rotate(-90,18,155)">Force (N)</text>
+  <text x="250" y="20" text-anchor="middle" font-size="16" font-weight="bold" font-family="Arial">Force vs. Time (Collision)</text>
+  <!-- Grid -->
+  <line x1="127" y1="280" x2="127" y2="35" stroke="#ddd" stroke-width="1"/>
+  <line x1="193" y1="280" x2="193" y2="35" stroke="#ddd" stroke-width="1"/>
+  <line x1="260" y1="280" x2="260" y2="35" stroke="#ddd" stroke-width="1"/>
+  <line x1="327" y1="280" x2="327" y2="35" stroke="#ddd" stroke-width="1"/>
+  <line x1="393" y1="280" x2="393" y2="35" stroke="#ddd" stroke-width="1"/>
+  <line x1="460" y1="280" x2="460" y2="35" stroke="#ddd" stroke-width="1"/>
+  <line x1="60" y1="230" x2="460" y2="230" stroke="#ddd" stroke-width="1"/>
+  <line x1="60" y1="180" x2="460" y2="180" stroke="#ddd" stroke-width="1"/>
+  <line x1="60" y1="130" x2="460" y2="130" stroke="#ddd" stroke-width="1"/>
+  <line x1="60" y1="80" x2="460" y2="80" stroke="#ddd" stroke-width="1"/>
+  <!-- Tick labels - X (each = 1s, spacing = 66.7px) -->
+  <text x="60" y="298" text-anchor="middle" font-size="12" font-family="Arial">0</text>
+  <text x="127" y="298" text-anchor="middle" font-size="12" font-family="Arial">1</text>
+  <text x="193" y="298" text-anchor="middle" font-size="12" font-family="Arial">2</text>
+  <text x="260" y="298" text-anchor="middle" font-size="12" font-family="Arial">3</text>
+  <text x="327" y="298" text-anchor="middle" font-size="12" font-family="Arial">4</text>
+  <text x="393" y="298" text-anchor="middle" font-size="12" font-family="Arial">5</text>
+  <text x="460" y="298" text-anchor="middle" font-size="12" font-family="Arial">6</text>
+  <!-- Tick labels - Y (each = 2N, spacing = 50px) -->
+  <text x="50" y="284" text-anchor="end" font-size="12" font-family="Arial">0</text>
+  <text x="50" y="234" text-anchor="end" font-size="12" font-family="Arial">2</text>
+  <text x="50" y="184" text-anchor="end" font-size="12" font-family="Arial">4</text>
+  <text x="50" y="134" text-anchor="end" font-size="12" font-family="Arial">6</text>
+  <text x="50" y="84" text-anchor="end" font-size="12" font-family="Arial">8</text>
+  <!-- Triangle: 0 to 3s, peak at 1.5s = 6N → area = ½ × 3 × 6 = 9 N·s -->
+  <polygon points="60,280 193,130 260,280" fill="rgba(220,38,38,0.15)" stroke="none"/>
+  <polyline points="60,280 193,130 260,280" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="60" cy="280" r="4" fill="#dc2626"/>
+  <circle cx="193" cy="130" r="4" fill="#dc2626"/>
+  <circle cx="260" cy="280" r="4" fill="#dc2626"/>
+  <!-- Area label -->
+  <text x="170" y="240" text-anchor="middle" font-size="13" fill="#dc2626" font-family="Arial" font-weight="bold">Impulse = Area</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="380" viewBox="0 0 500 380">
+  <rect width="500" height="380" fill="white"/>
+  <text x="250" y="25" text-anchor="middle" font-size="16" font-weight="bold" font-family="Arial">Pulley System</text>
+  <!-- Table -->
+  <rect x="40" y="160" width="260" height="20" fill="#d1d5db" stroke="#374151" stroke-width="2"/>
+  <line x1="40" y1="180" x2="40" y2="360" stroke="#374151" stroke-width="2"/>
+  <!-- Block A on table -->
+  <rect x="160" y="100" width="80" height="60" fill="#93c5fd" stroke="#2563eb" stroke-width="2" rx="6"/>
+  <text x="200" y="128" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial" fill="#1e3a5f">A</text>
+  <text x="200" y="148" text-anchor="middle" font-size="12" font-family="Arial" fill="#1e3a5f">3 kg</text>
+  <!-- Pulley -->
+  <circle cx="330" cy="80" r="25" fill="#f3f4f6" stroke="#374151" stroke-width="2"/>
+  <circle cx="330" cy="80" r="4" fill="#374151"/>
+  <!-- Pulley mount -->
+  <line x1="330" y1="55" x2="330" y2="30" stroke="#374151" stroke-width="3"/>
+  <line x1="310" y1="30" x2="350" y2="30" stroke="#374151" stroke-width="3"/>
+  <!-- String from A to pulley top -->
+  <line x1="240" y1="130" x2="305" y2="130" stroke="#374151" stroke-width="2"/>
+  <line x1="305" y1="130" x2="305" y2="80" stroke="#374151" stroke-width="2"/>
+  <path d="M 305,80 A 25,25 0 0,1 355,80" fill="none" stroke="#374151" stroke-width="2"/>
+  <!-- String from pulley down to B -->
+  <line x1="355" y1="80" x2="355" y2="190" stroke="#374151" stroke-width="2"/>
+  <!-- Block B hanging -->
+  <rect x="315" y="190" width="80" height="60" fill="#fca5a5" stroke="#dc2626" stroke-width="2" rx="6"/>
+  <text x="355" y="218" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial" fill="#7f1d1d">B</text>
+  <text x="355" y="238" text-anchor="middle" font-size="12" font-family="Arial" fill="#7f1d1d">2 kg</text>
+  <!-- Arrow showing motion direction -->
+  <line x1="200" y1="85" x2="260" y2="85" stroke="#9333ea" stroke-width="2" marker-end="url(#arrowP)"/>
+  <text x="230" y="78" text-anchor="middle" font-size="11" font-family="Arial" fill="#9333ea">a</text>
+  <line x1="395" y1="210" x2="395" y2="250" stroke="#9333ea" stroke-width="2" marker-end="url(#arrowP)"/>
+  <text x="410" y="235" font-size="11" font-family="Arial" fill="#9333ea">a</text>
+  <!-- Label -->
+  <text x="150" y="200" font-size="11" fill="#6b7280" font-family="Arial">Frictionless table</text>
+  <defs>
+    <marker id="arrowP" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#9333ea"/></marker>
+  </defs>
+</svg>

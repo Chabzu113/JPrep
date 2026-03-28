@@ -144,8 +144,8 @@ var APCALC_MCQ = [
         question: "For what value of k is f(x) = kx + 3 for x < 2, and f(x) = x² - 1 for x ≥ 2 continuous at\nx = 2?",
         isLatex: false,
         choices: ["0", "1", "2", "4"],
-        answer: 1,
-        explanation: "For continuity, lim(x→2⁻) must equal f(2). lim(x→2⁻) = 2k+3 and f(2) = 4-1 = 3.\nSetting 2k+3 = 3 gives k = 0. Wait — recheck: 2(0)+3 = 3 and 4-1 = 3. Answer is (A) k=0."
+        answer: 0,
+        explanation: "For continuity, the left-hand limit must equal f(2). The left-hand limit is 2k + 3 and f(2) = 2² - 1 = 3. Setting 2k + 3 = 3 yields 2k = 0, so k = 0."
   },
   {
         id: "u1_mcq_012",
@@ -472,8 +472,8 @@ var APCALC_MCQ = [
         question: "What is the equation of the line tangent to f(x) = x³ + 3x² - 4 at x = 2?",
         isLatex: false,
         choices: ["y = 24x - 40", "y = 24x - 32", "y = 12x - 8", "y = 12x - 16"],
-        answer: 0,
-        explanation: "f(2) = 8+12-4 = 16. f'(x) = 3x²+6x, f'(2) = 12+12 = 24. Tangent: y - 16 = 24(x-2)\n→ y = 24x - 32. Wait: 24(2) = 48, so b = 16-48 = -32. Answer is (B) y = 24x - 32."
+        answer: 1,
+        explanation: "f(2) = 8 + 12 - 4 = 16. f'(x) = 3x² + 6x, so f'(2) = 12 + 12 = 24. Tangent line: y - 16 = 24(x - 2), which gives y = 24x - 32."
   },
   {
         id: "u2_mcq_015",
@@ -656,10 +656,10 @@ var APCALC_MCQ = [
         format: "table",
         question: "The table gives values of f, g, f', and g'. If h(x) = f(g(x)), what is h'(2)?",
         isLatex: false,
-        tableData: { headers: ["x", "f(x)", "f'(x)", "g(x)", "g'(x)"], rows: [["2", "3", "-1", "5", "4"], ["3", "1", "2", "2", "-3"]] },
+        tableData: { headers: ["x", "f(x)", "f'(x)", "g(x)", "g'(x)"], rows: [["2", "3", "-1", "3", "4"], ["3", "1", "2", "2", "-3"]] },
         choices: ["-4", "-3", "4", "8"],
         answer: 3,
-        explanation: "Chain rule: h'(x) = f'(g(x))·g'(x). h'(2) = f'(g(2))·g'(2) = f'(5)·4. But f'(5) isn't in the\ntable — this is a common exam trap. Recalculate: g(2)=5 is not in the table. Let's use g(2)=5,\nbut we need f'(5). Revise table to make it solvable: use h'(2) = f'(g(2))·g'(2) = f'(3)·4 = 2·4 = 8\nwith g(2)=3."
+        explanation: "Chain rule: h'(x) = f'(g(x))·g'(x). At x = 2: h'(2) = f'(g(2))·g'(2) = f'(3)·4 = 2·4 = 8."
   },
   {
         id: "u3_mcq_007",
@@ -697,8 +697,8 @@ var APCALC_MCQ = [
         question: "If \\tan(xy) = x, what is \\frac{dy}{dx}?",
         isLatex: true,
         choices: ["\\frac{\\cos^2(xy) - y}{x}", "\\frac{1 - y\\cos^2(xy)}{x\\cos^2(xy)}", "\\frac{\\sec^2(xy) - y}{x}", "\\cos^2(xy)"],
-        answer: 1,
-        explanation: "Differentiate: sec²(xy)·(y + x·dy/dx) = 1. Expand and solve: x·sec²(xy)·dy/dx = 1\n- y·sec²(xy). dy/dx = [1 - y·sec²(xy)] / [x·sec²(xy)] = (cos²(xy) - y·1) / x... simplifying gives [1 -\ny·cos²(xy)] / (x·cos²(xy)) ... multiply through by cos²(xy)/cos²(xy)."
+        answer: 0,
+        explanation: "Differentiate: sec²(xy)·(y + x·dy/dx) = 1. Solving for dy/dx: x·sec²(xy)·dy/dx = 1 - y·sec²(xy), so dy/dx = (1 - y·sec²(xy)) / (x·sec²(xy)). Multiplying numerator and denominator by cos²(xy) simplifies to (cos²(xy) - y) / x."
   },
   {
         id: "u3_mcq_010",
@@ -709,10 +709,10 @@ var APCALC_MCQ = [
         format: "table",
         question: "The point (2, 3) lies on the curve defined by f(y) = x², where f is a differentiable\nfunction. Selected values are in the table. What is dy/dx at (2, 3)?",
         isLatex: false,
-        tableData: { headers: ["x", "y", "f(x)", "f'(x)"], rows: [["2", "3", "5", "-2"], ["3", "2", "4", "1"]] },
+        tableData: { headers: ["x", "y", "f(x)", "f'(x)"], rows: [["2", "3", "5", "-2"], ["3", "2", "4", "4"]] },
         choices: ["-2", "2", "-1", "1"],
         answer: 3,
-        explanation: "Differentiate f(y) = x² implicitly: f'(y)·dy/dx = 2x. dy/dx = 2x/f'(y). At (2,3): f'(3) = 1\n(from table), so dy/dx = 2(2)/4 = 1."
+        explanation: "Differentiate f(y) = x² implicitly: f'(y)·dy/dx = 2x. At (2, 3): dy/dx = 2x / f'(y) = 2(2) / f'(3) = 4/4 = 1."
   },
   {
         id: "u3_mcq_011",
@@ -789,9 +789,9 @@ var APCALC_MCQ = [
         format: "algebraic",
         question: "If f(x) = \\sin^3(e^x), then f'(x) =",
         isLatex: true,
-        choices: ["3\\sin^2(e^x)\\cos(e^x)", "3e^x\\sin^2(e^x)\\cos(e^x)", "3\\sin^2(e^x)\\cos(e^x) \\cdot e^x", "Both B and C"],
-        answer: 3,
-        explanation: "Apply chain rule twice: d/dx[sin³(eˣ)] = 3sin²(eˣ)·cos(eˣ)·eˣ. Choices B and C are\nequivalent — both represent the same expression."
+        choices: ["3\\sin^2(e^x)\\cos(e^x)", "3e^x\\sin^2(e^x)\\cos(e^x)", "3e^x\\cos^2(e^x)\\sin(e^x)", "e^x\\sin^2(e^x)\\cos(e^x)"],
+        answer: 1,
+        explanation: "Apply the chain rule twice: d/dx[sin³(eˣ)] = 3sin²(eˣ)·cos(eˣ)·eˣ. The outer chain (power rule on sin³) gives 3sin², the middle chain (derivative of sin) gives cos(eˣ), and the inner chain gives eˣ."
   },
   {
         id: "u3_mcq_017",
@@ -841,7 +841,7 @@ var APCALC_MCQ = [
         format: "algebraic",
         question: "If f(x) = \\cos^2(3x), what is f'\\left(\\frac{\\pi}{12}\\right)?",
         isLatex: true,
-        choices: ["-3", "-\\frac{3\\sqrt{3}}{2}", "-3", "-3\\sqrt{3}"],
+        choices: ["-\\frac{3}{2}", "-\\frac{3\\sqrt{3}}{2}", "-3", "-3\\sqrt{3}"],
         answer: 2,
         explanation: "f'(x) = 2cos(3x)·(-sin(3x))·3 = -6cos(3x)sin(3x) = -3sin(6x). At x=π/12: -3sin(π/2)\n= -3."
   },
@@ -891,11 +891,11 @@ var APCALC_MCQ = [
         difficulty: "hard",
         calculator: false,
         format: "algebraic",
-        question: "If e^{xy} = x + y, what is \\frac{dy}{dx} at (0, 0)?",
+        question: "If e^{xy} = x + y, what is \\frac{dy}{dx} at the point (0, 1)?",
         isLatex: true,
         choices: ["-1", "0", "1", "The derivative does not exist at (0,0)"],
-        answer: 2,
-        explanation: "Differentiate: e^(xy)·(y + x·dy/dx) = 1 + dy/dx. At (0,0): e⁰(0 + 0) = 1 + dy/dx → 0\n= 1 + dy/dx... wait, check: e^(0)(0 + 0·dy/dx) = 1 + dy/dx → 0 = 1 + dy/dx → dy/dx = -1. Answer\nis (A)."
+        answer: 1,
+        explanation: "First verify (0, 1) is on the curve: e^(0·1) = 1 and 0 + 1 = 1. ✓ Differentiate: e^(xy)·(y + x·dy/dx) = 1 + dy/dx. At (0, 1): e⁰·(1 + 0) = 1 + dy/dx, so 1 = 1 + dy/dx, giving dy/dx = 0."
   },
   {
         id: "u4_mcq_001",
@@ -943,11 +943,11 @@ var APCALC_MCQ = [
         difficulty: "medium",
         calculator: false,
         format: "algebraic",
-        question: "A particle moves along the x-axis with velocity v(t) = t² - 4t + 3. At t = 1, the particle\nis:",
+        question: "A particle moves along the x-axis with velocity v(t) = t² - 4t + 3. At t = 0.5, the particle is:",
         isLatex: false,
         choices: ["Moving right and speeding up", "Moving right and slowing down", "Moving left and speeding up", "Moving left and slowing down"],
-        answer: 3,
-        explanation: "v(1) = 1 - 4 + 3 = 0. Wait — v(1) = 0. Try t = 0.5: v(0.5) = 0.25 - 2 + 3 = 1.25 > 0.\nAt t=1 v=0. Better: use t=1.5: v(1.5) = 2.25-6+3 = -0.75 < 0. a(t) = 2t-4, a(1) = -2 < 0. So at t = 1,\nv = 0 and a < 0 — the particle is changing direction. Revise: at t = 0.5, v > 0 and a(0.5) = -3 < 0,\nso moving right and slowing down. Answer is B for t=0.5. Note: update question to use t=0.5."
+        answer: 1,
+        explanation: "v(0.5) = 0.25 - 2 + 3 = 1.25 > 0, so the particle is moving right. a(t) = 2t - 4, so a(0.5) = -3 < 0. Since velocity and acceleration have opposite signs, the particle is slowing down."
   },
   {
         id: "u4_mcq_005",
@@ -983,11 +983,11 @@ var APCALC_MCQ = [
         difficulty: "easy",
         calculator: false,
         format: "algebraic",
-        question: "A particle moves along a straight line with velocity v(t) = 3sin(t). What is the\nacceleration of the particle at t = π/2?",
+        question: "A particle moves along a straight line with velocity v(t) = 3sin(t). What is the\nacceleration of the particle at t = \\pi?",
         isLatex: true,
         choices: ["-3", "0", "3", "\\frac{3\\pi}{2}"],
         answer: 0,
-        explanation: "a(t) = v'(t) = 3cos(t). At t = π/2: a(π/2) = 3cos(π/2) = 3(0) = 0. Wait — 3cos(π/2)\n= 0. Revise: at t = π, a(π) = 3cos(π) = -3. Update question to use t = π."
+        explanation: "a(t) = v'(t) = 3cos(t). At t = π: a(π) = 3cos(π) = 3(-1) = -3."
   },
   {
         id: "u4_mcq_008",
@@ -1065,8 +1065,8 @@ var APCALC_MCQ = [
         question: "The edges of a cube are increasing at 0.1 inches per second. At the instant when\nthe total surface area is 54 square inches, what is the rate of increase of the volume (in cubic\ninches per second)?",
         isLatex: false,
         choices: ["0.9", "1.35", "2.7", "4.05"],
-        answer: 1,
-        explanation: "SA = 6s² = 54 → s = 3. V = s³, dV/dt = 3s²(ds/dt) = 3(9)(0.1) = 2.7. Wait:\n3(9)(0.1) = 2.7. Answer is (C). Recheck: 3 × 9 × 0.1 = 2.7. Answer is C."
+        answer: 2,
+        explanation: "SA = 6s² = 54, so s = 3. V = s³, so dV/dt = 3s²(ds/dt) = 3(9)(0.1) = 2.7 cubic inches per second."
   },
   {
         id: "u4_mcq_014",
@@ -1497,8 +1497,8 @@ var APCALC_MCQ = [
         question: "A particle's velocity is v(t) = t² - 6t + 8. On which interval is the particle slowing\ndown?",
         isLatex: false,
         choices: ["(0, 2)", "(2, 3)", "(3, 4)", "(4, 6)"],
-        answer: 1,
-        explanation: "v(t) = (t-2)(t-4). v > 0 on (2,4) is wrong: v > 0 on (-∞,2) and (4,∞), v < 0 on (2,4).\na(t) = v'(t) = 2t-6. a = 0 at t=3. On (2,3): v < 0, a < 0 — same sign → speeding up. On (3,4): v <\n0, a > 0 — opposite signs → slowing down. Answer is C."
+        answer: 2,
+        explanation: "v(t) = (t-2)(t-4). v > 0 on (-∞, 2) ∪ (4, ∞) and v < 0 on (2, 4). a(t) = 2t - 6, so a = 0 at t = 3. On (2, 3): v < 0 and a < 0 (same sign) — speeding up. On (3, 4): v < 0 and a > 0 (opposite signs) — slowing down."
   },
   {
         id: "u5_mcq_021",
@@ -1710,8 +1710,8 @@ var APCALC_MCQ = [
         question: "A particle moves along the x-axis with velocity v(t) = 3t² - 2. What is the\ndisplacement of the particle from t = 1 to t = 3?",
         isLatex: true,
         choices: ["20", "22", "24", "26"],
-        answer: 0,
-        explanation: "Displacement = ∫₁³ (3t²-2) dt = [t³-2t]₁³ = (27-6) - (1-2) = 21-(-1) = 22. Wait:\n(27-6)-(1-2) = 21+1 = 22. Answer is B."
+        answer: 1,
+        explanation: "Displacement = ∫₁³ (3t² - 2) dt = [t³ - 2t]₁³ = (27 - 6) - (1 - 2) = 21 - (-1) = 22."
   },
   {
         id: "u6_mcq_003",
@@ -1752,8 +1752,8 @@ var APCALC_MCQ = [
         isLatex: false,
         tableData: { headers: ["x", "0", "2", "4", "6"], rows: [["f(x)", "1", "5", "3", "9"]] },
         choices: ["26", "28", "30", "32"],
-        answer: 1,
-        explanation: "Trapezoid rule: (Δx/2)[f(x₀)+2f(x₁)+2f(x₂)+f(x₃)]. Δx=2. = (2/2)[1+2(5)+2(3)+9] =\n1·[1+10+6+9] = 26. Wait: 1+10+6+9=26. Answer is A."
+        answer: 0,
+        explanation: "Trapezoidal rule: (Δx/2)[f(x₀) + 2f(x₁) + 2f(x₂) + f(x₃)]. With Δx = 2: (2/2)[1 + 2(5) + 2(3) + 9] = 1 + 10 + 6 + 9 = 26."
   },
   {
         id: "u6_mcq_006",
@@ -1790,10 +1790,10 @@ var APCALC_MCQ = [
         format: "table",
         question: "Using a right Riemann sum with the subintervals indicated by the table,\napproximate ∫₀¹⁰ v(t) dt.",
         isLatex: false,
-        tableData: { headers: ["t", "0", "3", "7", "10"], rows: [["v(t)", "4", "6", "2", "8"]] },
+        tableData: { headers: ["t", "0", "3", "7", "10"], rows: [["v(t)", "2", "8", "5", "6"]] },
         choices: ["58", "62", "64", "68"],
-        answer: 2,
-        explanation: "Right sum with unequal widths: (3-0)·v(3) + (7-3)·v(7) + (10-7)·v(10) = 3(6) +\n4(2) + 3(8) = 18+8+24 = 50. Wait: 18+8+24=50. Recheck: 3·6=18, 4·2=8, 3·8=24. Total=50.\nRevise answer choices."
+        answer: 1,
+        explanation: "Right Riemann sum with unequal subintervals: (3-0)·v(3) + (7-3)·v(7) + (10-7)·v(10) = 3(8) + 4(5) + 3(6) = 24 + 20 + 18 = 62."
   },
   {
         id: "u6_mcq_009",
@@ -1924,8 +1924,8 @@ var APCALC_MCQ = [
         question: "\\int_1^4 (3x^2 - 2x + 1) \\, dx =",
         isLatex: true,
         choices: ["51", "54", "57", "60"],
-        answer: 1,
-        explanation: "[x³-x²+x]₁⁴ = (64-16+4) - (1-1+1) = 52 - 1 = 51. Wait: 64-16+4=52, 1-1+1=1.\n52-1=51. Answer is A."
+        answer: 0,
+        explanation: "[x³ - x² + x]₁⁴ = (64 - 16 + 4) - (1 - 1 + 1) = 52 - 1 = 51."
   },
   {
         id: "u6_mcq_019",
@@ -2172,9 +2172,9 @@ var APCALC_MCQ = [
         format: "algebraic",
         question: "\\int \\frac{x^2 + 1}{x - 1} \\, dx",
         isLatex: true,
-        choices: ["\\frac{x^2}{2} + x + \\ln|x-1| + C", "\\frac{x^2}{2} + x - \\ln|x-1| + C", "x + 2\\ln|x-1| + C", "\\frac{x^2}{2} + 2\\ln|x-1| + C"],
+        choices: ["\\frac{x^2}{2} + x + 2\\ln|x-1| + C", "\\frac{x^2}{2} + x - \\ln|x-1| + C", "x + 2\\ln|x-1| + C", "\\frac{x^2}{2} + 2\\ln|x-1| + C"],
         answer: 0,
-        explanation: "Long divide: x²+1 ÷ (x-1) = x+1 with remainder 2. So (x²+1)/(x-1) = x+1 + 2/(x-1).\nIntegrate: x²/2 + x + 2ln|x-1| + C. Answer is D."
+        explanation: "Long division: (x² + 1) ÷ (x - 1) = x + 1 with remainder 2. So the integrand equals x + 1 + 2/(x-1). Integrating: x²/2 + x + 2ln|x-1| + C."
   },
   {
         id: "u6_mcq_038",
@@ -2287,11 +2287,11 @@ var APCALC_MCQ = [
         difficulty: "hard",
         calculator: false,
         format: "graph",
-        question: "A slope field for \\(\\frac{dy}{dx} = \\frac{x}{y}\\) is given. Which of the following\nstatements correctly describes the behavior of solution curves?",
+        question: "A slope field for \\(\\frac{dy}{dx} = \\frac{-x}{y}\\) is given. Which of the following\nstatements correctly describes the behavior of solution curves?",
         isLatex: true,
         choices: ["Solution curves are lines with slope 1", "Solution curves are circles centered at the origin", "Solution curves are parabolas opening upward", "Solution curves are exponential curves"],
         answer: 1,
-        explanation: "Separating variables: y dy = x dx → y²/2 = x²/2 + C → y² − x² = constant. Wait\n— this gives hyperbolas. Let's reconsider: dy/dx = x/y → y dy = x dx → y² = x² + C. These are\nhyperbolas when C ≠ 0, but if we had dy/dx = −x/y, we'd get circles. For dy/dx = x/y the correct\nanswer is the curves y² − x² = C (hyperbolas). Answer: (B) is incorrect in a strict sense, but\namong the options listed, none perfectly matches hyperbolas. The closest standard AP choice\nhere would be (B) since the implicit equation x² - y² = C appears as 'circle-like' in many\ntextbooks. Note for question bank: revise answer choices to include 'hyperbolas y² − x² =\nconstant'."
+        explanation: "Separating variables: y dy = -x dx → y²/2 = -x²/2 + C → x² + y² = constant. These are circles centered at the origin."
   },
   {
         id: "u7_mcq_009",
@@ -2339,11 +2339,11 @@ var APCALC_MCQ = [
         difficulty: "hard",
         calculator: false,
         format: "algebraic",
-        question: "Let y = f(x) be the particular solution to \\(\\frac{dy}{dx} = e^{x-1} \\cdot e^{-y}\\) with\ninitial condition f(1) = 0. What is f(0)?",
+        question: "Let y = f(x) be the particular solution to \\(\\frac{dy}{dx} = -e^{-y}\\) with initial condition f(0) = 0. What is f\\left(\\frac{1}{2}\\right)?",
         isLatex: true,
         choices: ["\\ln 2", "-\\ln 2", "1 - \\ln 2", "\\ln 2 - 1"],
         answer: 1,
-        explanation: "Separate: e^y dy = e^(x−1) dx. Integrate: e^y = e^(x−1) + C. Apply f(1)=0: e^0 =\ne^0 + C → 1 = 1 + C → C = 0. So e^y = e^(x−1), meaning y = x − 1. At x = 0: f(0) = 0 − 1 = −1.\nHmm, that gives −1 not −ln2. Let me recheck: dy/dx = e^(x−1)·e^(−y) → e^y dy = e^(x−1) dx →\ne^y = e^(x−1) + C. f(1)=0: e^0=e^0+C → C=0 → y=x−1, f(0)=−1. Answer should be (D) replaced\nwith −1."
+        explanation: "Separate variables: e^y dy = -dx. Integrate: e^y = -x + C. Apply f(0) = 0: e^0 = 0 + C, so C = 1. Thus e^y = 1 - x, giving y = ln(1 - x). At x = 1/2: f(1/2) = ln(1/2) = -ln 2."
   },
   {
         id: "u7_mcq_013",
@@ -2380,9 +2380,9 @@ var APCALC_MCQ = [
         format: "algebraic",
         question: "A radioactive substance decays at a rate proportional to the amount present. If the\nhalf-life of the substance is 10 years, what fraction of the original amount remains after 25\nyears?",
         isLatex: true,
-        choices: ["\\frac{1}{4}", "\\frac{1}{2\\sqrt{2}}", "\\frac{\\sqrt{2}}{4}", "\\frac{1}{8}"],
+        choices: ["\\frac{1}{4}", "\\frac{1}{2\\sqrt{2}}", "\\frac{\\sqrt{2}}{8}", "\\frac{1}{8}"],
         answer: 1,
-        explanation: "y = y₀ · (1/2)^(t/10). At t=25: y = y₀ · (1/2)^(25/10) = y₀ · (1/2)^(2.5) = y₀ / 2^(2.5)\n= y₀ / (4√2) = y₀ · (1/(2√2)) since 2^(2.5) = 4√2. So the fraction is 1/(2√2) = √2/4 — both (B) and\n(C) equal the same value. 1/(2√2) = √2/4 ≈ 0.354. Answer: (B) and (C) are equivalent. Mark (C)\nas correct since √2/4 is the rationalized form."
+        explanation: "y = y₀·(1/2)^(t/10). At t = 25: y = y₀·(1/2)^(2.5) = y₀/2^(2.5) = y₀/(4√2) = y₀·1/(2√2). The remaining fraction is 1/(2√2) ≈ 0.354."
   },
   {
         id: "u7_mcq_016",
@@ -2394,8 +2394,8 @@ var APCALC_MCQ = [
         question: "A slope field has the property that along the line y = x, all slope segments are\nhorizontal (slope = 0), and slopes are positive above this line and negative below it. Which\ndifferential equation best matches this slope field?",
         isLatex: true,
         choices: ["\\frac{dy}{dx} = x - y", "\\frac{dy}{dx} = y - x", "\\frac{dy}{dx} = xy", "\\frac{dy}{dx} = x + y"],
-        answer: 0,
-        explanation: "We need dy/dx = 0 when y = x, positive above y = x (where y > x), and negative\nbelow (where y < x). Test dy/dx = x − y: when y = x, dy/dx = 0 ✓. When y > x (above the line), x\n− y < 0 ✗. When y < x (below), x − y > 0 ✗. Try dy/dx = y − x: when y = x, = 0 ✓. When y > x, y −\nx > 0 ✓. When y < x, y − x < 0 ✓. Correct answer is (B)."
+        answer: 1,
+        explanation: "Along y = x, dy/dx must equal 0. For dy/dx = y - x: when y = x, dy/dx = 0. ✓ When y > x (above the line), y - x > 0, so slopes are positive. ✓ When y < x (below the line), y - x < 0, so slopes are negative. ✓"
   },
   {
         id: "u8_mcq_001",
@@ -2458,9 +2458,9 @@ var APCALC_MCQ = [
         format: "algebraic",
         question: "A particle moves along the x-axis with velocity \\(v(t) = t^2 - 4\\) for \\(0 \\leq t \\leq\n3\\). What is the total distance traveled by the particle on this interval?",
         isLatex: true,
-        choices: ["\\frac{1}{3}", "\\frac{7}{3}", "\\frac{16}{3}", "\\frac{19}{3}"],
+        choices: ["\\frac{7}{3}", "\\frac{16}{3}", "\\frac{23}{3}", "\\frac{19}{3}"],
         answer: 2,
-        explanation: "v(t) = 0 when t² = 4 → t = 2. On [0,2]: v < 0 (particle moves left). On [2,3]: v > 0\n(moves right). Distance = ∫₀² |t²−4| dt + ∫₂³ |t²−4| dt = ∫₀² (4−t²) dt + ∫₂³ (t²−4) dt = [4t − t³/3]₀² + [t³/3\n\n\f− 4t]₂³ = (8 − 8/3) + (9 − 12 − (8/3 − 8)) = 16/3 + (−3 + 16/3) = 16/3 + 7/3 = 23/3. Hmm let me\nredo: ∫₀²(4−t²)dt = [4t−t³/3]₀² = 8 − 8/3 = 16/3. ∫₂³(t²−4)dt = [t³/3−4t]₂³ = (9−12)−(8/3−8) = −3 −\n(−16/3) = −3 + 16/3 = 7/3. Total = 16/3 + 7/3 = 23/3."
+        explanation: "v(t) = 0 at t = 2. On [0, 2]: v < 0. On [2, 3]: v > 0. Total distance = ∫₀²(4 - t²) dt + ∫₂³(t² - 4) dt = [4t - t³/3]₀² + [t³/3 - 4t]₂³ = 16/3 + 7/3 = 23/3."
   },
   {
         id: "u8_mcq_006",
@@ -2486,8 +2486,8 @@ var APCALC_MCQ = [
         question: "Water flows into a tank at a rate of \\(r(t) = 2t + 1\\) gallons per minute. Water flows\nout at a constant rate of 3 gallons per minute. At t = 0, there are 10 gallons in the tank. How\nmany gallons are in the tank at t = 4 minutes?",
         isLatex: true,
         choices: ["18", "22", "26", "30"],
-        answer: 2,
-        explanation: "Net rate = (2t+1) − 3 = 2t − 2. Change = ∫₀⁴ (2t−2) dt = [t² − 2t]₀⁴ = (16−8) − 0 = 8.\nWait: ∫₀⁴(2t−2)dt = [t²−2t]₀⁴ = 16−8 = 8. But that gives 10+8 = 18. Hmm: let me try just the net\nfrom inflow: ∫₀⁴(2t+1)dt − ∫₀⁴3dt = [t²+t]₀⁴ − 12 = (16+4)−12 = 8. So 10+8=18. Answer is (A)."
+        answer: 0,
+        explanation: "Net rate = (2t + 1) - 3 = 2t - 2. Net change = ∫₀⁴(2t - 2) dt = [t² - 2t]₀⁴ = 16 - 8 = 8. Total at t = 4: 10 + 8 = 18 gallons."
   },
   {
         id: "u8_mcq_008",
@@ -2496,11 +2496,11 @@ var APCALC_MCQ = [
         difficulty: "hard",
         calculator: true,
         format: "algebraic",
-        question: "The rate at which people arrive at a theater is modeled by \\(A(t) = 10\\sqrt{t}\\)\npeople per hour, where t is hours after 6 PM. The rate at which people leave is \\(L(t) = 4t\\)\npeople per hour. At 6 PM (t = 0), there are 50 people in the theater. How many people are in the\ntheater at t = 4 hours?",
+        question: "The rate at which people arrive at a theater is modeled by \\(A(t) = 10\\sqrt{t}\\)\npeople per hour, where t is hours after 6 PM. The rate at which people leave is \\(L(t) = 2t\\)\npeople per hour. At 6 PM (t = 0), there are 50 people in the theater. How many people are in the\ntheater at t = 4 hours?",
         isLatex: true,
         choices: ["50 + \\frac{160}{3} - 32", "50 + \\frac{80}{3} - 32", "\\frac{226}{3}", "\\frac{262}{3}"],
-        answer: 2,
-        explanation: "Number = 50 + ∫₀⁴ (10√t − 4t) dt = 50 + [10·(2t^(3/2)/3) − 2t²]₀⁴ = 50 + [(20/3)(8) −\n32] = 50 + 160/3 − 32 = 18 + 160/3 = 54/3 + 160/3 = 214/3 ≈ 71.3. Hmm: 18 + 160/3 = 54/3 +\n160/3 = 214/3. None match exactly — answer should be 214/3. Revise answer choices."
+        answer: 3,
+        explanation: "Number = 50 + ∫₀⁴(10√t - 2t) dt = 50 + [(20/3)t^(3/2) - t²]₀⁴ = 50 + (160/3 - 16) = 50 + 112/3 = 150/3 + 112/3 = 262/3."
   },
   {
         id: "u8_mcq_009",
@@ -2537,9 +2537,9 @@ var APCALC_MCQ = [
         format: "algebraic",
         question: "What is the area of the region enclosed by \\(y = \\sin x\\) and \\(y = \\cos x\\) on the\ninterval \\([0, \\pi/2]\\)?",
         isLatex: true,
-        choices: ["\\sqrt{2} - 1", "2\\sqrt{2} - 2", "2(\\sqrt{2} - 1)", "1"],
+        choices: ["\\sqrt{2} - 1", "\\sqrt{2}", "2(\\sqrt{2} - 1)", "1"],
         answer: 2,
-        explanation: "They intersect at x = π/4. On [0,π/4]: cos x ≥ sin x. On [π/4, π/2]: sin x ≥ cos x.\nArea = ∫₀^(π/4)(cos x − sin x)dx + ∫_(π/4)^(π/2)(sin x − cos x)dx = [sin x + cos x]₀^(π/4) + [−cos x\n− sin x]_(π/4)^(π/2) = (√2/2 + √2/2 − 0 − 1) + (0 − 1 + √2/2 + √2/2) = (√2 − 1) + (√2 − 1) = 2(√2 −\n1)."
+        explanation: "Intersection at x = π/4. On [0, π/4]: cos x ≥ sin x. On [π/4, π/2]: sin x ≥ cos x. Area = ∫₀^(π/4)(cos x - sin x) dx + ∫_(π/4)^(π/2)(sin x - cos x) dx = (√2 - 1) + (√2 - 1) = 2(√2 - 1)."
   },
   {
         id: "u8_mcq_012",
@@ -2590,8 +2590,8 @@ var APCALC_MCQ = [
         question: "The base of a solid is bounded by \\(y = 4 - x^2\\) and the x-axis. Cross sections\nperpendicular to the x-axis are semicircles with diameter in the base. What is the volume of the\nsolid?",
         isLatex: true,
         choices: ["\\frac{256\\pi}{15}", "\\frac{512\\pi}{15}", "\\frac{128\\pi}{15}", "\\frac{64\\pi}{15}"],
-        answer: 2,
-        explanation: "Diameter = 4 − x², so radius = (4−x²)/2. Area of semicircle = π r²/2 = π(4−x²)²/8.\nVolume = ∫₋₂² π(4−x²)²/8 dx = (π/8)∫₋₂²(16 − 8x² + x⁴) dx = (π/8)[16x − 8x³/3 + x⁵/5]₋₂² = (π/8)(2)(32\n− 64/3 + 32/5) = (π/4)(160/5 − 320/15 + 32/5)... let me compute: 32−64/3+32/5 = 480/15 −\n320/15 + 96/15 = 256/15. Total = (π/8)(2)(256/15) = 512π/120 = 64π/15. Wait: ∫₋₂²(4−x²)²dx =\n2∫₀²(16−8x²+x⁴)dx = 2[16x−8x³/3+x⁵/5]₀² = 2(32−64/3+32/5) = 2(480/15−320/15+96/15) =\n2(256/15) = 512/15. Volume = π/8 · 512/15 = 512π/120 = 64π/15."
+        answer: 3,
+        explanation: "Diameter = 4 - x², radius = (4 - x²)/2. Area of semicircle = πr²/2 = π(4 - x²)²/8. Volume = (π/8)∫₋₂²(4 - x²)² dx = (π/8)·(512/15) = 64π/15."
   },
   {
         id: "u8_mcq_016",
@@ -2602,9 +2602,9 @@ var APCALC_MCQ = [
         format: "algebraic",
         question: "The base of a solid is the region between \\(y = x\\) and \\(y = x^2\\) on [0, 1]. Cross\nsections perpendicular to the x-axis are rectangles whose height is twice the base. What is the\nvolume of the solid?",
         isLatex: true,
-        choices: ["\\frac{1}{12}", "\\frac{1}{6}", "\\frac{1}{3}", "\\frac{1}{4}"],
+        choices: ["\\frac{1}{30}", "\\frac{1}{15}", "\\frac{1}{10}", "\\frac{1}{6}"],
         answer: 1,
-        explanation: "Base of rectangle at position x: b = x − x². Height = 2b = 2(x − x²). Area = b·h =\n2(x−x²)². Volume = ∫₀¹ 2(x−x²)² dx = 2∫₀¹(x²−2x³+x⁴) dx = 2[x³/3 − x⁴/2 + x⁵/5]₀¹ = 2(1/3 − 1/2 + 1/5)\n= 2(10/30 − 15/30 + 6/30) = 2(1/30) = 1/15."
+        explanation: "Base of rectangle = x - x², height = 2(x - x²). Area = 2(x - x²)². Volume = 2∫₀¹(x - x²)² dx = 2∫₀¹(x² - 2x³ + x⁴) dx = 2[x³/3 - x⁴/2 + x⁵/5]₀¹ = 2(1/3 - 1/2 + 1/5) = 2(1/30) = 1/15."
   },
   {
         id: "u8_mcq_017",
@@ -2642,8 +2642,8 @@ var APCALC_MCQ = [
         question: "The region bounded by \\(y = x^2\\) and \\(y = 4\\) is revolved about the line \\(y =\n4\\). What is the volume of the resulting solid?",
         isLatex: true,
         choices: ["\\frac{64\\pi}{5}", "\\frac{128\\pi}{5}", "\\frac{256\\pi}{15}", "\\frac{512\\pi}{15}"],
-        answer: 2,
-        explanation: "Revolution about y=4: radius at each x is 4 − x². Bounds: x² = 4 → x = ±2.\nVolume = π∫₋₂²(4−x²)² dx = π∫₋₂²(16−8x²+x⁴) dx = π[16x − 8x³/3 + x⁵/5]₋₂² = π·2·(32−64/3+32/5) =\n2π·(480/15−320/15+96/15) = 2π·(256/15) = 512π/15."
+        answer: 3,
+        explanation: "Revolution about y = 4: radius = 4 - x². Bounds: x² = 4 → x = ±2. Volume = π∫₋₂²(4 - x²)² dx = π·(512/15) = 512π/15."
   },
   {
         id: "u8_mcq_020",
@@ -2691,11 +2691,11 @@ var APCALC_MCQ = [
         difficulty: "medium",
         calculator: true,
         format: "algebraic",
-        question: "A particle moves along the x-axis with velocity \\(v(t) = t^2 - 2t - 3\\) for \\(t \\geq\n0\\). What is the displacement of the particle from \\(t = 0\\) to \\(t = 4\\)?",
+        question: "A particle moves along the x-axis with velocity \\(v(t) = t^2 - 4t + 3\\) for \\(t \\geq\n0\\). What is the displacement of the particle from \\(t = 0\\) to \\(t = 4\\)?",
         isLatex: true,
         choices: ["-\\frac{4}{3}", "\\frac{4}{3}", "-\\frac{8}{3}", "\\frac{8}{3}"],
-        answer: 0,
-        explanation: "Displacement = ∫₀⁴ (t²−2t−3) dt = [t³/3−t²−3t]₀⁴ = (64/3−16−12) = 64/3−28 =\n64/3−84/3 = −20/3. Hmm, that's not one of the choices. Let me retry: [t³/3 − t² − 3t]₀⁴ = 64/3 − 16\n− 12 = 64/3 − 28 = 64/3 − 84/3 = −20/3."
+        answer: 1,
+        explanation: "Displacement = ∫₀⁴(t² - 4t + 3) dt = [t³/3 - 2t² + 3t]₀⁴ = (64/3 - 32 + 12) - 0 = 64/3 - 20 = 4/3."
   },
   {
         id: "u8_mcq_024",

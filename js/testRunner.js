@@ -15,6 +15,21 @@ let autoSaveInterval = null;
 let mcqQuestions = [];
 let frqQuestions = [];
 
+// ─── Event delegation (CSP-safe — no inline onclick) ─────────────────────────
+document.addEventListener('click', function(e) {
+  const el = e.target.closest('[data-action]');
+  if (!el) return;
+  switch (el.dataset.action) {
+    case 'selectTest':       selectTest(el.dataset.testId, el.dataset.subjectId); break;
+    case 'setActiveSubject': App.setActiveSubject(el.dataset.subjectId); break;
+    case 'selectAnswer':     selectAnswer(el.dataset.qId, parseInt(el.dataset.choice), parseInt(el.dataset.index)); break;
+    case 'renderMCQQuestion': renderMCQQuestion(parseInt(el.dataset.index)); break;
+    case 'renderFRQQuestion': renderFRQQuestion(parseInt(el.dataset.index)); break;
+    case 'renderHubScreen':  renderHubScreen(); break;
+    case 'toggleZoom':       el.classList.toggle('zoomed'); break;
+  }
+});
+
 // ─── Load test bank for active subject ───────────────────────────────────────
 function loadTestsForActiveSubject() {
   if (typeof SubjectRegistry !== 'undefined' && typeof App !== 'undefined') {
@@ -51,8 +66,7 @@ function loadAllQuestionsForActiveSubject() {
   }
   // Fallback: legacy globals for AP CS A
   return [
-    ...(typeof MCQ_U1U2 !== 'undefined' ? MCQ_U1U2 : []),
-    ...(typeof MCQ_U3U4 !== 'undefined' ? MCQ_U3U4 : []),
+    ...(typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ : []),
     ...(typeof FRQ_BANK !== 'undefined' ? FRQ_BANK : [])
   ];
 }
@@ -94,7 +108,10 @@ function renderHubScreen() {
   const state = App.getState();
 
   let inProgress = null;
-  try { inProgress = JSON.parse(localStorage.getItem('apcsa_active_test')); } catch(e) {}
+  try {
+    const key = App.subjectStorageKey ? App.subjectStorageKey('active_test') : 'apcsa_active_test';
+    inProgress = JSON.parse(localStorage.getItem(key) || localStorage.getItem('apcsa_active_test'));
+  } catch(e) { console.warn('localStorage read error:', e); }
 
   const selectedIds = new Set(state.selectedSubjects || []);
   const subjectsWithTests = allSubjects.filter(s =>
@@ -150,8 +167,8 @@ function renderHubScreen() {
             <div style="height:100%;width:${pct}%;background:${scoreColor};border-radius:99px;transition:width 0.6s"></div>
           </div></div>`;
         actionsHtml = `<div style="display:flex;gap:8px;margin-top:14px">
-          <button onclick="selectTest('${test.id}','${subject.id}')" style="flex:1" class="btn btn-secondary btn-sm">Retake</button>
-          <a href="review.html" onclick="App.setActiveSubject('${subject.id}')" style="flex:1;text-align:center" class="btn btn-primary btn-sm">Results →</a>
+          <button data-action="selectTest" data-test-id="${test.id}" data-subject-id="${subject.id}" style="flex:1" class="btn btn-secondary btn-sm">Retake</button>
+          <a href="review.html" data-action="setActiveSubject" data-subject-id="${subject.id}" style="flex:1;text-align:center" class="btn btn-primary btn-sm">Results →</a>
         </div>`;
       } else if (isProg) {
         const answeredCnt = inProgress.mcqAnswers ? Object.keys(inProgress.mcqAnswers).length : 0;
@@ -165,10 +182,10 @@ function renderHubScreen() {
           <div style="height:6px;background:var(--bg-secondary);border-radius:99px;overflow:hidden">
             <div style="height:100%;width:${pct}%;background:#F59E0B;border-radius:99px"></div>
           </div></div>`;
-        actionsHtml = `<button onclick="selectTest('${test.id}','${subject.id}')" style="width:100%;margin-top:14px" class="btn btn-primary">Resume Test →</button>`;
+        actionsHtml = `<button data-action="selectTest" data-test-id="${test.id}" data-subject-id="${subject.id}" style="width:100%;margin-top:14px" class="btn btn-primary">Resume Test →</button>`;
       } else {
         barHtml = `<div style="margin-top:12px;height:6px;background:var(--bg-secondary);border-radius:99px"></div>`;
-        actionsHtml = `<button onclick="selectTest('${test.id}','${subject.id}')" style="width:100%;margin-top:14px" class="btn btn-primary">Start Test →</button>`;
+        actionsHtml = `<button data-action="selectTest" data-test-id="${test.id}" data-subject-id="${subject.id}" style="width:100%;margin-top:14px" class="btn btn-primary">Start Test →</button>`;
       }
 
       // Shorten title — strip subject name prefix
@@ -210,7 +227,8 @@ function selectTest(testId, subjectId) {
   frqQuestions = (currentTest.frqIds || []).map(id => frqPool.find(f => f.id === id)).filter(Boolean);
 
   try {
-    const saved = localStorage.getItem('apcsa_active_test');
+    const activeKey = App.subjectStorageKey('active_test');
+    const saved = localStorage.getItem(activeKey) || localStorage.getItem('apcsa_active_test');
     if (saved) {
       const data = JSON.parse(saved);
       if (data.testId === testId && confirm('Resume your in-progress test?')) {
@@ -222,10 +240,11 @@ function selectTest(testId, subjectId) {
         if (data.section === 'mcq') { startSection('mcq'); return; }
         if (data.section === 'frq') { startSection('frq'); return; }
       } else {
+        localStorage.removeItem(activeKey);
         localStorage.removeItem('apcsa_active_test');
       }
     }
-  } catch(e) {}
+  } catch(e) { console.warn('localStorage read error:', e); }
 
   setTestMode(true);
   renderIntroScreen();
@@ -400,11 +419,12 @@ function renderMCQQuestion(index) {
   // Code block (for CS A questions)
   const codeHtml = q.isCode && q.code ? App.renderCode(q.code) : '';
 
-  // Diagram (for Physics / STEM questions — renders before choices)
-  const diagramHtml = q.diagram
-    ? `<div class="physics-diagram-wrap">
+  // Diagram / image (Physics diagrams, or generic question images)
+  const imgSrc = q.image || q.diagram;
+  const diagramHtml = imgSrc
+    ? `<div class="question-image-wrap">
          <img class="physics-diagram-img" data-physics-diagram
-              src="${App.escapeHtml(q.diagram)}"
+              src="${App.escapeHtml(imgSrc)}"
               alt="Diagram" loading="lazy">
          <span class="physics-diagram-hint">Click to expand</span>
        </div>`
@@ -418,7 +438,7 @@ function renderMCQQuestion(index) {
     ${diagramHtml}
     <div class="choices-list">
       ${(q.choices || []).map((c, ci) => `
-        <div class="choice-item${sel === ci ? ' selected' : ''}" onclick="selectAnswer('${q.id}',${ci},${index})">
+        <div class="choice-item${sel === ci ? ' selected' : ''}" data-action="selectAnswer" data-q-id="${q.id}" data-choice="${ci}" data-index="${index}">
           <span class="choice-label">${String.fromCharCode(65+ci)})</span>
           <span>${renderFRQPromptText(c)}</span>
         </div>`).join('')}
@@ -449,7 +469,7 @@ function renderQuestionNav() {
     if (mcqAnswers[q.id] !== undefined) cls += ' answered';
     if (flagged.has(q.id)) cls += ' flagged';
     if (i === currentQuestion && currentSection === 'mcq') cls += ' current';
-    return `<button class="${cls}" onclick="renderMCQQuestion(${i})">${i+1}</button>`;
+    return `<button class="${cls}" data-action="renderMCQQuestion" data-index="${i}">${i+1}</button>`;
   }).join('');
 }
 
@@ -461,6 +481,7 @@ function goPrevMCQ() { if (currentQuestion > 0) renderMCQQuestion(currentQuestio
 
 function finishMCQ() {
   stopTimer(); clearInterval(autoSaveInterval);
+  localStorage.removeItem(App.subjectStorageKey('active_test'));
   localStorage.removeItem('apcsa_active_test');
   renderBreakScreen(); showScreen('breakScreen');
 }
@@ -533,7 +554,7 @@ function renderFRQQuestion(index) {
              if (imgUrl) {
                return '<div class="dbq-document-card">' +
                  '<div class="dbq-document-source">Document ' + num + ' — ' + App.escapeHtml(source) + typeBadge + '</div>' +
-                 '<img class="dbq-visual-image" src="' + imgUrl + '" alt="' + App.escapeHtml(source) + '" loading="lazy" onclick="this.classList.toggle(\'zoomed\')">' +
+                 '<img class="dbq-visual-image" src="' + imgUrl + '" alt="' + App.escapeHtml(source) + '" loading="lazy" data-action="toggleZoom">' +
                  '<div class="dbq-visual-caption">' + App.escapeHtml(text) + '</div>' +
                  '</div>';
              }
@@ -554,6 +575,7 @@ function renderFRQQuestion(index) {
       </div>
       <h3 style="font-size:1.2rem;font-weight:700;margin-bottom:12px">${App.escapeHtml(frq.title)}</h3>
       <div style="white-space:pre-wrap;line-height:1.7;color:var(--text-primary);margin-bottom:16px">${renderFRQPromptText(frq.prompt || '')}</div>
+      ${(() => { const src = frq.image || frq.diagram; return src ? `<div class="question-image-wrap"><img class="physics-diagram-img" data-physics-diagram src="${App.escapeHtml(src)}" alt="Diagram" loading="lazy"><span class="physics-diagram-hint">Click to expand</span></div>` : ''; })()}
       ${frq.starterCode ? `<p style="font-weight:600;margin-bottom:6px">Given code:</p>${App.renderCode(frq.starterCode)}` : ''}
     </div>
     ${frqDocsHtml}
@@ -572,6 +594,7 @@ function renderFRQQuestion(index) {
       <div class="frq-part">
         <div class="frq-part-label">Part (${p.label}) ${pointsHtml}</div>
         <div class="frq-part-instruction">${renderFRQPromptText(instruction)}</div>
+        ${p.image ? `<div class="question-image-wrap frq-part-image"><img class="physics-diagram-img" data-physics-diagram src="${App.escapeHtml(p.image)}" alt="Diagram" loading="lazy"><span class="physics-diagram-hint">Click to expand</span></div>` : ''}
         <textarea class="frq-textarea" placeholder="${placeholder}"
           onchange="saveFRQInput('${frq.id}','${p.label}',this.value)"
           oninput="saveFRQInput('${frq.id}','${p.label}',this.value)">${App.escapeHtml(saved[p.label] || '')}</textarea>
@@ -580,6 +603,8 @@ function renderFRQQuestion(index) {
 
   // Render any LaTeX that was embedded as data-latex spans
   renderMath(content);
+  // Attach lightbox + dark-mode invert to any diagram/image tags
+  if (window.PhysicsRenderer) PhysicsRenderer.upgradeDiagrams(content);
 
   const prevBtn = document.getElementById('prevFRQ');
   const nextBtn = document.getElementById('nextFRQ');
@@ -602,7 +627,7 @@ function renderFRQNav() {
     if (hasAny) cls += ' answered';
     if (flagged.has(f.id)) cls += ' flagged';
     if (i === currentQuestion) cls += ' current';
-    return `<button class="${cls}" onclick="renderFRQQuestion(${i})">FRQ ${i+1}</button>`;
+    return `<button class="${cls}" data-action="renderFRQQuestion" data-index="${i}">FRQ ${i+1}</button>`;
   }).join('');
 }
 
@@ -622,6 +647,7 @@ function finishFRQ() {
     estimatedScore: App.estimateAPScore(mcqCorrect, 0)
   };
   App.saveTestResult(result);
+  localStorage.removeItem(App.subjectStorageKey('active_test'));
   localStorage.removeItem('apcsa_active_test');
 
   // AP score + percentile estimate based on MCQ only (FRQ not graded yet)
@@ -672,18 +698,18 @@ function finishFRQ() {
       </div>
 
       <a href="review.html" class="btn btn-primary btn-lg" style="width:100%;margin-bottom:12px">Review &amp; Grade FRQs →</a>
-      <button onclick="renderHubScreen()" class="btn btn-secondary" style="width:100%">← Back to Tests</button>
+      <button data-action="renderHubScreen" class="btn btn-secondary" style="width:100%">← Back to Tests</button>
     </div>`;
 }
 
 // ─── Auto Save ────────────────────────────────────────────────────────────────
 function saveActiveTest() {
   try {
-    localStorage.setItem('apcsa_active_test', JSON.stringify({
+    localStorage.setItem(App.subjectStorageKey('active_test'), JSON.stringify({
       testId: currentTest?.id, section: currentSection,
       mcqAnswers, frqAnswers, flagged: [...flagged], timeRemaining
     }));
-  } catch(e) {}
+  } catch(e) { console.warn('auto-save error:', e); }
 }
 
 // ─── Confirm Modal ────────────────────────────────────────────────────────────

@@ -1,0 +1,187 @@
+{
+  "generated": "2026-03-28",
+  "description": "Actionable fixes for APUSH question bank. Two groups: Group A (unambiguous text fixes) and Group B (distractor replacements). Apply all programmatically — no judgment calls needed.",
+  "instructions": "For each fix, locate the question by id in the APUSH question bank. Apply exactly the change described. Do not modify any other part of the question. After applying all fixes, delete apush_u5_q49 (confirmed duplicate of apush_u4_q60).",
+  "fixes": [
+    {
+      "id": "apush_u1_q28",
+      "group": "A",
+      "category": "wording-fix",
+      "action": "Replace the text 'immune to most European diseases' with 'had greater resistance to tropical diseases such as malaria and yellow fever'"
+    },
+    {
+      "id": "apush_u2_q37",
+      "group": "A",
+      "category": "factual-fix",
+      "action": "Remove 'California' from the answer choice referencing mission systems. Reword to 'mission systems in the Southwest and Florida' — California missions were not established until 1769."
+    },
+    {
+      "id": "apush_u3_q21",
+      "group": "A",
+      "category": "distractor-replacement",
+      "action": "Replace the anachronistic distractor 'join the United Nations' with 'honor the terms of the Franco-American alliance of 1778'"
+    },
+    {
+      "id": "apush_u3_q23",
+      "group": "A",
+      "category": "incomplete-choice-fix",
+      "action": "Choice D is an incomplete sentence fragment ('Viability of the US Navy'). Rewrite as a complete, grammatically parallel answer choice that fits the question context."
+    },
+    {
+      "id": "apush_u3_q27",
+      "group": "A",
+      "category": "wording-fix",
+      "action": "Replace 'late-18th-century tensions' with 'mid-18th-century tensions' — the Paxton Boys (1763-64) and Regulators (1760s-1771) are mid-century events."
+    },
+    {
+      "id": "apush_u4_q10",
+      "group": "A",
+      "category": "wording-fix",
+      "action": "Replace the word 'tribe' with 'nation' throughout this question. Also reword to specify 'most closely associated with which Native nation' to avoid implying only one group was affected by Indian Removal."
+    },
+    {
+      "id": "apush_u5_q41",
+      "group": "A",
+      "category": "distractor-replacement",
+      "action": "Replace the offensive distractor 'Grant land to the KKK' with 'Provide federal land grants to railroad companies to fund westward expansion'"
+    },
+    {
+      "id": "apush_u5_q49",
+      "group": "A",
+      "category": "deletion",
+      "action": "DELETE this question entirely. It is a confirmed duplicate of apush_u4_q60 (both cover Mormon migration to Utah under Brigham Young). Remove from the question bank and update any index references."
+    },
+    {
+      "id": "apush_u6_q37",
+      "group": "A",
+      "category": "wording-fix",
+      "action": "Replace 'wiped out George Custer's 7th Cavalry' with 'destroyed Custer's detachment of approximately 210 men' — the rest of the 7th Cavalry under Reno and Benteen survived the battle."
+    },
+    {
+      "id": "apush_u8_q32",
+      "group": "A",
+      "category": "terminology-fix",
+      "action": "Replace 'War Powers Act' with 'War Powers Resolution' throughout this question. The correct official name is the War Powers Resolution of 1973."
+    },
+    {
+      "id": "apush_u8_q35",
+      "group": "A",
+      "category": "misattribution-fix",
+      "action": "Remove the attribution of the 1969 Alcatraz occupation to AIM. It was led by 'Indians of All Tribes,' not AIM. Reword to attribute it to 'Native American activists' or change the question to reference the 1973 Wounded Knee occupation, which was an AIM action."
+    },
+    {
+      "id": "apush_u8_q56",
+      "group": "A",
+      "category": "distractor-replacement",
+      "action": "Replace the joke distractor 'popular rock band from Ireland' (a U2 band reference) with a historically plausible distractor such as 'a US civilian cargo plane shot down over the Atlantic during a NATO exercise'"
+    },
+    {
+      "id": "apush_u1_q5",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace Choice B ('British settlers in Florida') and Choice D ('printing press') with the following: Choice B → 'French Huguenot settlers competing for the same Caribbean trade routes', Choice D → 'Spanish missionaries overextending into Pueblo territories in the Rio Grande valley'"
+    },
+    {
+      "id": "apush_u1_q8",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace Choice A ('Spanish invasion in the 1400s') and Choice D ('adoption of horses') with the following: Choice A → 'growing raids from the Erie and Susquehannock peoples to the south', Choice D → 'intensifying competition with Algonquian groups for access to Great Lakes fishing grounds'"
+    },
+    {
+      "id": "apush_u3_q34",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace the anachronistic distractor 'Capture the cotton gin' (cotton gin invented 1793, after the Revolutionary War) with 'Seize British naval supply depots along the Chesapeake coast'"
+    },
+    {
+      "id": "apush_u4_q1",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace all three absurd distractors ('abolish Supreme Court', 'single political party', 'invade Canada') with: (1) 'Impose a French-style revolutionary restructuring of state governments', (2) 'Redistribute Federalist-owned land to western frontier farmers', (3) 'Repeal the Constitution and call a new constitutional convention'"
+    },
+    {
+      "id": "apush_u4_q28",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace the anachronistic distractors ('airplane', 'internet', 'Panama Canal') with era-appropriate 1830s options: (1) 'the mechanical reaper', (2) 'the transcontinental railroad', (3) 'the steam-powered rotary printing press'"
+    },
+    {
+      "id": "apush_u5_q19",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'Ended the Civil War' and 'Gave Canada to the US' with: (1) 'Established the Nueces River as the permanent and recognized US-Mexico boundary', (2) 'Granted US merchants exclusive trading rights through Mexican Pacific seaports'"
+    },
+    {
+      "id": "apush_u5_q28",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'Moved to New York City' and 'Enlisted in Confederate Army' with: (1) 'Purchased government land at auction through the Second Bank of the United States', (2) 'Received 40-acre land allotments through the Freedmen\\'s Bureau'"
+    },
+    {
+      "id": "apush_u5_q48",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'Build more cotton gins' and 'Sale of the state to France' with: (1) 'Establish Black Codes restricting freedmen\\'s rights to own property or sign labor contracts', (2) 'Challenge the constitutionality of the 15th Amendment in federal court'"
+    },
+    {
+      "id": "apush_u5_q54",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'bribe from the KKK' with 'an illegal loan arrangement between Jay Cooke & Company and railroad bond underwriters'"
+    },
+    {
+      "id": "apush_u6_q3",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace the polar-opposite distractors with plausible-sounding alternatives: (1) 'provide federal recognition of tribal sovereignty over existing reservation boundaries', (2) 'establish reservation schools to preserve Native languages and cultural practices', (3) 'create a system of tribal self-governance modeled on US county governments'"
+    },
+    {
+      "id": "apush_u6_q11",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'bargain with labor unions' and 'annex the Philippines' with: (1) 'reduce Populist Party influence over federal patronage appointments in southern states', (2) 'consolidate executive authority by eliminating Senate confirmation of cabinet-level posts'"
+    },
+    {
+      "id": "apush_u6_q17",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'Gold Standard', 'train soldiers for Spanish-American War', and 'annex Hawaii' with: (1) 'lobby Congress to pass the Sherman Antitrust Act against railroad monopolies', (2) 'advocate for protective tariffs to raise wages for industrial factory workers', (3) 'campaign for municipal ownership of Chicago\\'s water and transit infrastructure'"
+    },
+    {
+      "id": "apush_u6_q36",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'settlement of Utah', 'Gold Standard', and 'light bulb' with: (1) 'editing The Crisis magazine to document racial violence across the South', (2) 'organizing sharecropper labor strikes throughout the Mississippi Delta', (3) 'serving as the founding president of the NAACP'"
+    },
+    {
+      "id": "apush_u7_q2",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'German invasion of Poland' and 'assassination of Archduke Franz Ferdinand' with: (1) 'the assassination of President McKinley by a suspected Spanish-backed operative', (2) 'the sinking of a US merchant ship by Spanish naval forces off the coast of Cuba'"
+    },
+    {
+      "id": "apush_u7_q40",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'only NYC electricity', 'abolish Tennessee', and 'funded by Nazi party' with: (1) 'provide electricity exclusively to Tennessee residents through a state-run public utility', (2) 'permanently transfer ownership of private utility companies to the federal government', (3) 'fund rural electrification through a special tax levied on Appalachian coal mining operations'"
+    },
+    {
+      "id": "apush_u7_q67",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace the weak Potsdam distractors with historically grounded alternatives: (1) 'offered Japan a conditional surrender that would preserve the Emperor\\'s full political authority', (2) 'warned Japan that conventional firebombing campaigns would continue unless surrender occurred within 30 days', (3) 'demanded that Japan cede Manchuria and Korea directly to Soviet administrative control'"
+    },
+    {
+      "id": "apush_u8_q47",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'only applied to men' and 'signed by George Washington' with: (1) 'required equal pay only in occupations receiving direct federal contract funding', (2) 'was ratified by the required 38 states prior to the 1982 deadline'"
+    },
+    {
+      "id": "apush_u8_q57",
+      "group": "B",
+      "category": "distractor-replacement",
+      "action": "Replace 'major battle in Vietnam', 'riot in fruit packing plant', and 'end of Civil War' with: (1) 'a confrontation between SNCC voter registration volunteers and Alabama state troopers near Selma', (2) 'a clash between striking Memphis sanitation workers and city police in 1968', (3) 'a standoff between Black Panther Party members and FBI agents in Oakland, California'"
+    }
+  ]
+}

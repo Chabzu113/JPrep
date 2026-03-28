@@ -54,7 +54,7 @@ var APMACRO_MCQ = [
       "Neither country can benefit from trade."
     ],
     "answer": 2,
-    "explanation": "Trap: Country A's cost for 1 computer is 2 shirts (20/10). Country B's cost for 1 computer is 3 shirts (15/5). Since A has the lower opportunity cost for computers, it has the comparative advantage."
+    "explanation": "Country A's opportunity cost of 1 computer is 2 shirts (20/10). Country B's opportunity cost of 1 computer is 3 shirts (15/5). Since A has the lower opportunity cost for computers, A has the comparative advantage in computers."
   },
   {
     "id": "macro-u1-m004",
@@ -157,7 +157,7 @@ var APMACRO_MCQ = [
     "unit": 1,
     "topic": "Law of Increasing Opportunity Costs",
     "topicLabel": "Law of Increasing Opportunity Costs",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "source": "Generated",
     "question": "A PPC that is a straight line indicates:",
     "choices": [
@@ -168,7 +168,7 @@ var APMACRO_MCQ = [
       "An economy with only one resource."
     ],
     "answer": 1,
-    "explanation": "Trap: Students often think a straight line is 'ideal.' In Econ, a straight-line PPC means resources are perfectly adaptable between the two goods, resulting in a constant trade-off."
+    "explanation": "A straight-line PPC means resources are perfectly adaptable between the two goods, resulting in a constant trade-off ratio regardless of how much of either good is produced."
   },
   {
     "id": "macro-u1-m010",
@@ -244,7 +244,7 @@ var APMACRO_MCQ = [
       "A decrease in the price level."
     ],
     "answer": 2,
-    "explanation": "Trap: Unemployment (A) is a point inside the curve. An inward shift (C) means the country's actual *capacity* to produce has shrunk, which happens if factories or land are destroyed."
+    "explanation": "An increase in unemployment (A) places the economy inside the curve but does not shift it. An inward shift means the nation's productive capacity has permanently decreased, as occurs when infrastructure is destroyed by a natural disaster."
   },
   {
     "id": "macro-u1-e014",
@@ -301,7 +301,7 @@ var APMACRO_MCQ = [
       "Indeterminate."
     ],
     "answer": 0,
-    "explanation": "Trap: This is an 'Input' problem (hours). For Worker A, 1 table costs 2 chairs (10/5). For Worker B, 1 table costs 3 chairs (12/4). Since A has the lower cost, they have the comparative advantage."
+    "explanation": "With input-based data (hours per unit), convert to opportunity costs. Worker A's cost of 1 table is 10/5 = 2 chairs. Worker B's cost of 1 table is 12/4 = 3 chairs. Since A has the lower opportunity cost, A has the comparative advantage in tables."
   },
   {
     "id": "macro-u1-e017",
@@ -320,7 +320,7 @@ var APMACRO_MCQ = [
       "The total cost is minimized."
     ],
     "answer": 2,
-    "explanation": "This is the core rule of marginal analysis: proceed as long as the additional benefit exceeds the additional cost."
+    "explanation": "The fundamental principle of marginal analysis states that a rational decision maker will take an action only when the marginal (additional) benefit exceeds the marginal (additional) cost."
   },
   {
     "id": "macro-u1-m018",
@@ -339,7 +339,7 @@ var APMACRO_MCQ = [
       "Public goods and private goods."
     ],
     "answer": 2,
-    "explanation": "This classic Macro example shows how a government must choose between defense (guns) and civilian needs (butter)."
+    "explanation": "The guns versus butter model illustrates the fundamental trade-off a government faces between allocating resources toward military spending (guns) and domestic civilian goods (butter)."
   },
   {
     "id": "macro-u1-h019",
@@ -510,7 +510,7 @@ var APMACRO_MCQ = [
       "The purchase of 100 shares of Apple stock."
     ],
     "answer": 3,
-    "explanation": "Trap: Used goods (A), transfers (B), intermediate goods (C), and financial assets (E) are excluded. However, the *service* provided by the agent this year is a productive activity and is included."
+    "explanation": "Used goods (A), transfer payments (B), intermediate goods (C), and financial assets (E) are excluded from GDP. However, the real estate agent's commission represents a service produced this year and is included."
   },
   {
     "id": "macro-u2-h003",
@@ -928,7 +928,7 @@ var APMACRO_MCQ = [
       "Not in the labor force."
     ],
     "answer": 1,
-    "explanation": "Trap: They are technically 'Employed' in the official stats, but economists classify this as underemployment because their skills are not being fully utilized."
+    "explanation": "Although the engineer is technically classified as employed in official statistics, working in a position far below one's skill level is considered underemployment. The official unemployment rate does not capture this form of labor market slack."
   },
   {
     "id": "macro-u2-h025",
@@ -966,7 +966,7 @@ var APMACRO_MCQ = [
       "Inflation adjustments."
     ],
     "answer": 2,
-    "explanation": "Trap: 'I' in GDP does NOT mean financial investment (stocks). It means physical investment in goods that produce future output."
+    "explanation": "In the GDP formula, 'I' refers to gross private domestic investment, which includes business purchases of tools, factories, equipment, and new residential housing. It does not include financial investment such as stocks and bonds."
   },
   {
     "id": "macro-u2-e027",
@@ -985,7 +985,7 @@ var APMACRO_MCQ = [
       "Stagflation point."
     ],
     "answer": 1,
-    "explanation": "The Peak is the 'mountain top' of the business cycle."
+    "explanation": "The peak represents the highest point of economic activity before the economy begins to contract into a recession."
   },
   {
     "id": "macro-u2-m028",
@@ -1061,7 +1061,7 @@ var APMACRO_MCQ = [
       "Deflation and full employment."
     ],
     "answer": 2,
-    "explanation": "Stagflation is the 'worst of both worlds' (Stagnation + Inflation)."
+    "explanation": "Stagflation combines economic stagnation (high unemployment) with inflation (rising prices), typically caused by a negative supply shock such as a spike in oil prices."
   },
   {
     "id": "macro-u2-m032",
@@ -1194,7 +1194,7 @@ var APMACRO_MCQ = [
       "A decrease in the money supply."
     ],
     "answer": 1,
-    "explanation": "Trap: Disinflation (A) is a slowing of the price increase. Deflation (B) is when prices actually drop."
+    "explanation": "Deflation is an actual decrease in the general price level. Do not confuse it with disinflation (A), which is merely a reduction in the rate at which prices are rising."
   },
   {
     "id": "macro-u2-h039",
@@ -1324,10 +1324,10 @@ var APMACRO_MCQ = [
       "Recession.",
       "Trough.",
       "Depression.",
-      ""
+      "Expansion."
     ],
     "answer": 2,
-    "explanation": "The Trough is the 'rock bottom' before the recovery starts."
+    "explanation": "The trough is the lowest point of the business cycle, marking the transition from contraction to expansion."
   },
   {
     "id": "macro-u3-e001",
@@ -1341,12 +1341,12 @@ var APMACRO_MCQ = [
     "choices": [
       "An increase in personal income taxes.",
       "A decrease in government spending on infrastructure.",
-      "",
+      "An increase in consumer confidence.",
       "A decrease in the money supply.",
       "An increase in the price level."
     ],
     "answer": 2,
-    "explanation": "Aggregate Demand ($AD = C + I + G + Xn$) shifts right when any of its components increase. Higher consumer confidence leads to more consumption (C)."
+    "explanation": "Aggregate Demand (AD = C + I + G + Xn) shifts right when any of its components increase. Higher consumer confidence leads to more consumption (C), shifting AD right."
   },
   {
     "id": "macro-u3-m002",
@@ -1365,7 +1365,7 @@ var APMACRO_MCQ = [
       "Decreases the demand for labor."
     ],
     "answer": 0,
-    "explanation": "Trap: Don't confuse this with the interest rate effect. The wealth effect specifically refers to how a lower price level makes the cash people hold more valuable, increasing their purchasing power."
+    "explanation": "The wealth (real balances) effect states that a lower price level increases the real value of household financial assets, making consumers feel wealthier and leading to more spending. This is distinct from the interest rate effect and the foreign purchases effect."
   },
   {
     "id": "macro-u3-m004",
@@ -1517,7 +1517,7 @@ var APMACRO_MCQ = [
       "The price level will increase until the gap is closed."
     ],
     "answer": 1,
-    "explanation": "Trap: Self-correction takes time. In a recession, unemployment is high. Eventually, workers accept lower wages. Lower wages reduce production costs, shifting SRAS right until it hits LRAS."
+    "explanation": "Without government intervention, self-correction occurs through the labor market. In a recession, high unemployment eventually leads workers to accept lower nominal wages. Lower wages reduce production costs, shifting SRAS to the right until the economy returns to long-run equilibrium at full employment."
   },
   {
     "id": "macro-u3-m012",
@@ -1550,12 +1550,12 @@ var APMACRO_MCQ = [
     "choices": [
       "Congress passing a new infrastructure bill.",
       "The Federal Reserve lowering interest rates.",
-      "",
+      "The progressive income tax system.",
       "A flat tax on all citizens.",
       "Military spending."
     ],
     "answer": 2,
-    "explanation": "Automatic stabilizers are policies already in place that naturally stimulate AD during a recession (like more people qualifying for unemployment checks) without new laws being passed."
+    "explanation": "Automatic stabilizers are policies already in place that naturally cushion the economy without new legislation. A progressive income tax automatically collects less revenue during recessions and more during expansions, helping to stabilize AD."
   },
   {
     "id": "macro-u3-h014",
@@ -1726,7 +1726,7 @@ var APMACRO_MCQ = [
       "Government regulation prevents firms from expanding."
     ],
     "answer": 1,
-    "explanation": "When the government runs a deficit to spend, it borrows money. This increases the demand for loanable funds, raising interest rates and 'crowding out' private investment ($I$)."
+    "explanation": "When the government finances increased spending through borrowing, the demand for loanable funds increases. This raises real interest rates, which discourages (crowds out) private investment spending."
   },
   {
     "id": "macro-u3-m024",
@@ -1821,7 +1821,7 @@ var APMACRO_MCQ = [
       "The SRAS curve will shift to the left."
     ],
     "answer": 1,
-    "explanation": "Trap: A change in the price level is a movement *along* the AD curve, not a shift. Lower prices make your bank account worth more in 'real' terms, so you spend more."
+    "explanation": "A change in the price level causes a movement along the AD curve, not a shift. When the price level falls, the real value of existing money holdings increases, raising consumption. This explains the downward slope of the AD curve."
   },
   {
     "id": "macro-u3-m030",
@@ -2011,7 +2011,7 @@ var APMACRO_MCQ = [
       "Monetary expansion."
     ],
     "answer": 1,
-    "explanation": "Spending > Taxes = Deficit."
+    "explanation": "A budget deficit occurs when government spending exceeds tax revenue. In this case, $500 billion - $450 billion = a $50 billion deficit."
   },
   {
     "id": "macro-u3-e040",
@@ -2144,7 +2144,7 @@ var APMACRO_MCQ = [
       "Is held in inventory by retailers."
     ],
     "answer": 1,
-    "explanation": "Supply is always about the production side."
+    "explanation": "Aggregate supply represents the total quantity of goods and services that all firms in the economy are willing and able to produce at each price level."
   },
   {
     "id": "macro-u3-h047",
@@ -2163,7 +2163,7 @@ var APMACRO_MCQ = [
       "Taxes will automatically decrease."
     ],
     "answer": 1,
-    "explanation": "If demand > supply, shelves go empty (inventories fall). This signals firms to raise prices and produce more."
+    "explanation": "When aggregate demand exceeds aggregate supply at the current price level, businesses experience unplanned inventory decreases. This signals firms to raise prices and increase production to meet the excess demand."
   },
   {
     "id": "macro-u3-m048",
@@ -2182,7 +2182,7 @@ var APMACRO_MCQ = [
       "Cause the SRAS curve to shift to the left."
     ],
     "answer": 1,
-    "explanation": "Higher prices make our stuff expensive to foreigners and their stuff cheap to us."
+    "explanation": "A higher domestic price level makes domestic goods more expensive for foreign buyers, reducing exports, while foreign goods become relatively cheaper for domestic consumers, increasing imports. Both effects reduce net exports."
   },
   {
     "id": "macro-u3-e049",
@@ -2258,7 +2258,7 @@ var APMACRO_MCQ = [
       "An increase in investment spending."
     ],
     "answer": 1,
-    "explanation": "Trap: A change in the *price level* causes a move along the curve via the interest rate *effect*. But a change in the interest rate *policy* shifts the whole curve."
+    "explanation": "A change in the price level causes a movement along the AD curve through the interest rate effect. However, when interest rates change due to monetary policy (not because of the price level), this shifts the entire AD curve. Higher interest rates reduce investment and consumption, shifting AD left."
   },
   {
     "id": "macro-u3-h053",
@@ -2296,7 +2296,7 @@ var APMACRO_MCQ = [
       "An increase in imports only."
     ],
     "answer": 1,
-    "explanation": "If foreigners are richer, they buy more of our stuff."
+    "explanation": "When a nation's trading partners experience income growth, their consumers have more purchasing power and buy more imports, which are that nation's exports. Higher exports increase net exports (Xn) and shift AD to the right."
   },
   {
     "id": "macro-u3-e055",
@@ -2315,7 +2315,7 @@ var APMACRO_MCQ = [
       "The money supply increases."
     ],
     "answer": 1,
-    "explanation": "The government has extra money left over."
+    "explanation": "A budget surplus occurs when the government's tax revenue exceeds its spending for a given fiscal year."
   },
   {
     "id": "macro-u3-h056",
@@ -2353,7 +2353,7 @@ var APMACRO_MCQ = [
       "Taxes; Income"
     ],
     "answer": 1,
-    "explanation": "It measures how much of each additional dollar of income you keep."
+    "explanation": "The Marginal Propensity to Save (MPS) measures the fraction of each additional dollar of disposable income that is saved rather than spent. It is calculated as the change in saving divided by the change in disposable income."
   },
   {
     "id": "macro-u3-e058",
@@ -2372,7 +2372,7 @@ var APMACRO_MCQ = [
       "Only one year has passed."
     ],
     "answer": 1,
-    "explanation": "The short run is defined by 'stickiness.'"
+    "explanation": "In macroeconomics, the short run is defined as the period during which some input prices, particularly wages, are slow to adjust to changes in the overall price level. This 'stickiness' is what gives the SRAS curve its upward slope."
   },
   {
     "id": "macro-u3-h059",
@@ -2410,7 +2410,7 @@ var APMACRO_MCQ = [
       "A decrease in the price level."
     ],
     "answer": 1,
-    "explanation": "It makes investment cheaper, increasing $I$ and $AD$."
+    "explanation": "An investment tax credit reduces the after-tax cost of purchasing capital goods. This incentivizes firms to increase investment spending (I), which is a component of AD, shifting the AD curve to the right."
   },
   {
     "id": "macro-u3-e061",
@@ -2429,7 +2429,7 @@ var APMACRO_MCQ = [
       "Increase the price of exports."
     ],
     "answer": 1,
-    "explanation": "Trap: Transfer payments are NOT part of 'G' in GDP, but when people spend them, they increase 'C'."
+    "explanation": "Transfer payments are not directly counted in government spending (G) in the GDP formula. However, when recipients spend those payments, this increases consumption (C) and thus shifts AD to the right."
   },
   {
     "id": "macro-u3-h062",
@@ -2524,7 +2524,7 @@ var APMACRO_MCQ = [
       "No change."
     ],
     "answer": 1,
-    "explanation": "Less wealth = less consumption = AD shift left."
+    "explanation": "A stock market crash reduces household wealth, causing consumers to decrease spending. Since consumption (C) is a component of AD, the decrease in C shifts the AD curve to the left."
   },
   {
     "id": "macro-u3-e067",
@@ -2543,7 +2543,7 @@ var APMACRO_MCQ = [
       "Budget surplus."
     ],
     "answer": 2,
-    "explanation": "It's the output level on the LRAS curve."
+    "explanation": "Potential GDP is the level of output the economy produces when operating at full employment, represented by the vertical LRAS curve on the AD/AS model."
   },
   {
     "id": "macro-u3-h068",
@@ -2581,7 +2581,7 @@ var APMACRO_MCQ = [
       "Increase the trade surplus."
     ],
     "answer": 1,
-    "explanation": "$G$ is a component of $AD$."
+    "explanation": "Government spending (G) is a direct component of AD. When the government increases spending through deficit financing, this directly increases aggregate demand, shifting the AD curve to the right."
   },
   {
     "id": "macro-u3-h070",
@@ -2657,7 +2657,7 @@ var APMACRO_MCQ = [
       "The price will increase as demand for safe assets rises."
     ],
     "answer": 2,
-    "explanation": "Trap: Students often think prices move *with* interest rates. In reality, they are inverse. If new bonds pay 5%, no one wants your 3% bond unless you sell it for a lower price."
+    "explanation": "Bond prices and interest rates have an inverse relationship. When market interest rates rise to 5%, existing bonds paying only 3% become less attractive to investors, so their market price must fall to compensate."
   },
   {
     "id": "macro-u4-m004",
@@ -2714,7 +2714,7 @@ var APMACRO_MCQ = [
       "Expansionary monetary policy."
     ],
     "answer": 3,
-    "explanation": "Trap: A change in the interest rate is a movement *along* the MD curve. A shift (D) happens when people need less cash for daily life, such as using credit cards instead of physical currency."
+    "explanation": "A change in the interest rate causes a movement along the MD curve, not a shift. A shift in money demand occurs when factors other than the interest rate change. Increased use of credit cards reduces the need to hold cash for transactions, shifting MD to the left."
   },
   {
     "id": "macro-u4-h008",
@@ -2828,7 +2828,7 @@ var APMACRO_MCQ = [
       "$10,000"
     ],
     "answer": 0,
-    "explanation": "Trap: Don't use the excess reserves. Required Reserves = $rr \times \text{Deposits}$. $2,000 = 0.10 \times \text{Deposits}$. Therefore, $\text{Deposits} = 20,000$."
+    "explanation": "Use only the required reserves to find deposits. Required Reserves = reserve ratio x Deposits. Therefore, $2,000 = 0.10 x Deposits, so Deposits = $20,000. The excess reserves are not needed for this calculation."
   },
   {
     "id": "macro-u4-m015",
@@ -2866,7 +2866,7 @@ var APMACRO_MCQ = [
       "Buy bonds to increase the money supply."
     ],
     "answer": 1,
-    "explanation": "Inflationary gap needs contractionary policy. Selling bonds (Sell = Small money) reduces the money supply, which increases interest rates, shifting AD left."
+    "explanation": "An inflationary gap requires contractionary monetary policy. Selling bonds removes reserves from the banking system, reducing the money supply, raising interest rates, and shifting AD to the left to close the gap."
   },
   {
     "id": "macro-u4-e017",
@@ -2923,7 +2923,7 @@ var APMACRO_MCQ = [
       "It will remain unchanged because the Fed controls the rate."
     ],
     "answer": 2,
-    "explanation": "Trap: This is a Money Market question. If people want to hold less cash, Money Demand shifts left. A leftward shift in MD results in a lower equilibrium nominal interest rate."
+    "explanation": "When households shift from holding cash to holding bonds, Money Demand shifts left in the money market. A leftward shift in MD with a fixed MS results in a lower equilibrium nominal interest rate."
   },
   {
     "id": "macro-u4-e020",
@@ -3018,7 +3018,7 @@ var APMACRO_MCQ = [
       "The spending multiplier is zero."
     ],
     "answer": 1,
-    "explanation": "Trap: If investment is 'insensitive' (A), then lower interest rates won't cause more spending. For the policy to work, firms must respond to lower rates by significantly increasing investment (B)."
+    "explanation": "Expansionary monetary policy works by lowering interest rates to stimulate investment. If investment is highly sensitive to interest rate changes, even a small decrease in rates will generate a large increase in investment spending and Real GDP."
   },
   {
     "id": "macro-u4-m025",
@@ -3093,7 +3093,7 @@ var APMACRO_MCQ = [
       "Sell gold."
     ],
     "answer": 1,
-    "explanation": "Mnemonic: 'Buy = Big Money'. Buying bonds puts cash into the banking system.",
+    "explanation": "When the Fed buys bonds, it pays for them by crediting bank reserves, injecting new money into the banking system and increasing the money supply.",
     "unit": 4
   },
   {
@@ -3208,7 +3208,7 @@ var APMACRO_MCQ = [
       "Lower the reserve requirement."
     ],
     "answer": 1,
-    "explanation": "Trap: Selling bonds pulls money *out* of the system. This makes money scarce, raising interest rates, which is a tool to fight inflation."
+    "explanation": "Selling bonds removes money from the banking system, reducing the money supply. This makes money scarcer, raising interest rates, which reduces aggregate demand and helps combat inflation."
   },
   {
     "id": "macro-u4-m035",
@@ -3246,7 +3246,7 @@ var APMACRO_MCQ = [
       "No change in the level of investment."
     ],
     "answer": 2,
-    "explanation": "Trap: A change in the interest rate (the 'price' of borrowing) causes a movement *along* the curve. Lower rates mean moving down and right to a higher quantity of investment."
+    "explanation": "A change in the interest rate causes a movement along the investment demand curve, not a shift. Lower interest rates reduce the cost of borrowing, so firms move down along the curve to a higher quantity of investment demanded."
   },
   {
     "id": "macro-u4-e037",
@@ -3322,7 +3322,7 @@ var APMACRO_MCQ = [
       "Is made of gold or silver."
     ],
     "answer": 2,
-    "explanation": "This function allows you to hold your wealth in a liquid form to use later."
+    "explanation": "The store of value function means money can retain purchasing power over time, allowing individuals to save wealth in a liquid form for future use."
   },
   {
     "id": "macro-u4-m041",
@@ -3398,7 +3398,7 @@ var APMACRO_MCQ = [
       "Increase its prices to cover the gap."
     ],
     "answer": 1,
-    "explanation": "You don't take a deal where the cost (interest) is higher than the reward (return)."
+    "explanation": "A rational firm will only invest in a project if the expected return exceeds the cost of borrowing. Since the real interest rate (5%) exceeds the project's expected return (4%), the firm will not proceed."
   },
   {
     "id": "macro-u4-h045",
@@ -3436,7 +3436,7 @@ var APMACRO_MCQ = [
       "The use of fiat currency."
     ],
     "answer": 1,
-    "explanation": "You can only trade if you have what the other person wants and they have what you want."
+    "explanation": "A barter system requires a double coincidence of wants, meaning each party must have what the other desires. Money eliminates this problem by serving as a universally accepted medium of exchange."
   },
   {
     "id": "macro-u4-m047",
@@ -3493,7 +3493,7 @@ var APMACRO_MCQ = [
       "Audit the Federal Reserve."
     ],
     "answer": 1,
-    "explanation": "If people know their money is safe even if the bank fails, they won't panic and pull it all out."
+    "explanation": "The FDIC insures bank deposits, giving depositors confidence that their money is safe even if a bank becomes insolvent. This reduces the incentive for depositors to withdraw funds during financial uncertainty, preventing bank runs."
   },
   {
     "id": "macro-u4-m050",
@@ -3569,7 +3569,7 @@ var APMACRO_MCQ = [
       "Right; pay more in taxes."
     ],
     "answer": 1,
-    "explanation": "Rich people (or a richer society) do more transactions, so they demand more liquid cash."
+    "explanation": "Higher real income leads to more economic transactions. People need to hold more cash to facilitate these additional transactions, increasing the demand for money."
   },
   {
     "id": "macro-u4-h054",
@@ -3588,7 +3588,7 @@ var APMACRO_MCQ = [
       "Gold reserves plus silver reserves."
     ],
     "answer": 1,
-    "explanation": "Trap: Money Supply (M1) includes deposits. Monetary Base (MB) is the 'high-powered money' directly controlled by the Fed (cash + reserves)."
+    "explanation": "The monetary base (MB) consists of currency in circulation plus bank reserves held at the Fed. It is sometimes called 'high-powered money' because it is directly controlled by the Fed and serves as the foundation for money creation through the banking system."
   },
   {
     "id": "macro-u4-e055",
@@ -3702,7 +3702,7 @@ var APMACRO_MCQ = [
       "Is backed by gold."
     ],
     "answer": 1,
-    "explanation": "This is the most basic function: using money to facilitate a trade."
+    "explanation": "The medium of exchange function means money is used to facilitate transactions. When you use money to purchase a cup of coffee, it is serving this fundamental function."
   },
   {
     "id": "macro-u4-m062",
@@ -3740,7 +3740,7 @@ var APMACRO_MCQ = [
       "Increase discount rate $\rightarrow$ Interest rates down $\rightarrow$ AD up."
     ],
     "answer": 2,
-    "explanation": "This is the 'Macro Transmission Mechanism' in its full form."
+    "explanation": "The monetary policy transmission mechanism: the Fed buys bonds, increasing the money supply, which lowers interest rates, stimulating investment spending, and ultimately increasing aggregate demand."
   },
   {
     "id": "macro-u4-e064",
@@ -3816,7 +3816,7 @@ var APMACRO_MCQ = [
       "A rightward shift of the Long-Run Phillips Curve (LRPC)."
     ],
     "answer": 2,
-    "explanation": "Trap: Students often want to shift the curve. However, because an AD increase raises inflation and lowers unemployment, it is represented as a movement *along* the existing SRPC to a higher inflation/lower unemployment point."
+    "explanation": "An increase in AD raises inflation and lowers unemployment, which is represented as a movement up and to the left along the existing SRPC. Changes in AD cause movements along the SRPC, while supply shocks or changes in inflation expectations shift the SRPC."
   },
   {
     "id": "macro-u5-m003",
@@ -3854,7 +3854,7 @@ var APMACRO_MCQ = [
       "The inflation rate to fall while unemployment rises."
     ],
     "answer": 1,
-    "explanation": "Trap: A negative supply shock (Stagflation) increases BOTH inflation and unemployment. To show both increasing simultaneously, the entire SRPC must shift to the right (outward)."
+    "explanation": "A negative supply shock increases both inflation and unemployment simultaneously. Since the SRPC normally shows an inverse relationship between these two variables, the only way to represent both rising at once is to shift the entire SRPC to the right (outward)."
   },
   {
     "id": "macro-u5-m005",
@@ -3949,7 +3949,7 @@ var APMACRO_MCQ = [
       "Expansionary fiscal policy."
     ],
     "answer": 1,
-    "explanation": "Trap: The LRPC shifts if the Natural Rate of Unemployment changes. Policies that make the labor market more flexible (like reducing union power or improving job-matching tech) lower the NRU, shifting the LRPC left."
+    "explanation": "The LRPC shifts only when the natural rate of unemployment changes. Reducing labor union power makes the labor market more flexible, lowering structural unemployment and the NRU, which shifts the LRPC to the left."
   },
   {
     "id": "macro-u5-e010",
@@ -4025,7 +4025,7 @@ var APMACRO_MCQ = [
       "A steeper slope of the PPC."
     ],
     "answer": 1,
-    "explanation": "Trap: Option A is just reducing unemployment. True long-run economic growth means the *capacity* to produce has increased, which shifts the entire curve outward."
+    "explanation": "A movement from inside the PPC to the curve (A) represents reducing unemployment, not growth. True economic growth means an increase in productive capacity, which is shown by an outward shift of the entire PPC."
   },
   {
     "id": "macro-u5-h014",
@@ -4044,7 +4044,7 @@ var APMACRO_MCQ = [
       "A shift right of the LRAS curve."
     ],
     "answer": 1,
-    "explanation": "Trap: Money is 'neutral' in the long run. It doesn't change Real GDP. It only increases nominal variablesspecifically, it raises the price level (inflation) and nominal interest rates (Fisher Effect)."
+    "explanation": "Money is neutral in the long run, meaning changes in the money supply do not affect Real GDP. Expansionary monetary policy ultimately raises only nominal variables: the price level (inflation) and, through the Fisher Effect, nominal interest rates."
   },
   {
     "id": "macro-u5-e015",
@@ -4174,10 +4174,10 @@ var APMACRO_MCQ = [
       "A decrease in tax rates may actually increase tax revenue.",
       "Government spending is always equal to tax revenue.",
       "Tax revenue is independent of tax rates.",
-      ""
+      "Zero tax revenue occurs only at a tax rate of 50%."
     ],
     "answer": 1,
-    "explanation": "The Laffer Curve shows the relationship between tax rates and revenue. If rates are so high they discourage work, cutting them could boost economic activity and increase total revenue."
+    "explanation": "The Laffer Curve illustrates that at very high tax rates, economic activity is suppressed enough that reducing rates can stimulate more output and actually increase total tax revenue collected."
   },
   {
     "id": "macro-u5-e022",
@@ -4329,7 +4329,7 @@ var APMACRO_MCQ = [
       "The inflation rate to increase."
     ],
     "answer": 1,
-    "explanation": "Trap: Think of the result. SRAS right means lower prices (inflation down) and higher GDP (unemployment down). Both variables getting 'better' is shown by a leftward (inward) shift of the SRPC."
+    "explanation": "A rightward shift of SRAS lowers the price level (reducing inflation) and increases Real GDP (reducing unemployment). When both inflation and unemployment decrease simultaneously, this is shown as a leftward (inward) shift of the SRPC."
   },
   {
     "id": "macro-u5-m031",
@@ -4424,7 +4424,7 @@ var APMACRO_MCQ = [
       "Where the interest rate is zero."
     ],
     "answer": 1,
-    "explanation": "Trap: SRAS left means unemployment goes UP. On a Phillips curve graph, 'Unemployment Up' means moving to the right of the vertical LRPC."
+    "explanation": "A leftward shift of SRAS raises the price level and decreases Real GDP, increasing unemployment. On the Phillips Curve, higher unemployment places the economy to the right of the LRPC, on a new SRPC that has shifted rightward due to the supply shock."
   },
   {
     "id": "macro-u5-e036",
@@ -4462,7 +4462,7 @@ var APMACRO_MCQ = [
       "A period of zero interest rates."
     ],
     "answer": 1,
-    "explanation": "Trap: Don't confuse with deflation. Disinflation means prices are still rising, just more slowly (e.g., from 5% to 2%)."
+    "explanation": "Disinflation is a decrease in the rate of inflation, not a decrease in the price level. Prices are still rising, just at a slower pace (e.g., from 5% to 2%). This is distinct from deflation, which is an actual decline in the general price level."
   },
   {
     "id": "macro-u5-h038",
@@ -4937,7 +4937,7 @@ var APMACRO_MCQ = [
       "The Yen's value will remain constant while the Dollar appreciates."
     ],
     "answer": 1,
-    "explanation": "Trap: Students often forget the trade effect. If Yen appreciates (becomes more expensive), Japanese goods become more expensive for foreigners, so Japan's exports fall."
+    "explanation": "Increased demand for the Yen causes it to appreciate (increase in value). When the Yen appreciates, Japanese goods become more expensive for foreigners, leading to a decrease in Japanese exports."
   },
   {
     "id": "macro-u6-m004",
@@ -4975,7 +4975,7 @@ var APMACRO_MCQ = [
       "Both currencies depreciate."
     ],
     "answer": 2,
-    "explanation": "Trap: U.S. money flows to Canada to earn higher interest (Financial Account debit/outflow for the U.S.). This increased demand for CAD causes it to appreciate."
+    "explanation": "Higher Canadian interest rates attract U.S. capital. Money flows from the U.S. to Canada (a debit/outflow in the U.S. Financial Account). The increased demand for CAD causes it to appreciate."
   },
   {
     "id": "macro-u6-e006",
@@ -5203,7 +5203,7 @@ var APMACRO_MCQ = [
       "Remain unchanged; stay stable"
     ],
     "answer": 1,
-    "explanation": "Trap: People are pulling money out (Supply of loanable funds shifts left $\rightarrow$ higher rates). As they sell the currency to leave, it depreciates (Supply of currency shifts right)."
+    "explanation": "During capital flight, investors withdraw funds from the country, decreasing the supply of loanable funds and raising real interest rates. Simultaneously, as they sell the domestic currency to move assets abroad, the supply of the currency in FOREX markets increases, causing it to depreciate."
   },
   {
     "id": "macro-u6-m018",

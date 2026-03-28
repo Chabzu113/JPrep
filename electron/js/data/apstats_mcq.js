@@ -129,7 +129,7 @@ var APSTATS_MCQ = [
       "IQR",
       "Correlation"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "The IQR only looks at the middle 50%, ignoring the extreme tails.\n\n💡 Median and IQR are 'resistant'; Mean and SD are not."
   },
   {
@@ -528,7 +528,7 @@ var APSTATS_MCQ = [
       "40% scored <= 70",
       "Median is 70"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Cumulative frequency is 'at or below'.\n\n💡 The y-axis is the percentile."
   },
   {
@@ -567,7 +567,7 @@ var APSTATS_MCQ = [
       "75th"
     ],
     "answer": 0,
-    "explanation": "Area left of -1.28 is approx 0.10.\n\n💡 Use normaldist(0,1) in Desmos."
+    "explanation": "Area left of -1.28 is approx 0.10.\n\n💡 TI-84: normalcdf(−1E99, −1.28, 0, 1) ≈ 0.10."
   },
   {
     "id": "stats_u1_031",
@@ -585,7 +585,7 @@ var APSTATS_MCQ = [
       "SD is zero",
       "Symmetric"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "High outliers pull the mean up (right skew).\n\n💡 Mean follows the tail!"
   },
   {
@@ -604,7 +604,7 @@ var APSTATS_MCQ = [
       "Mode",
       "Sample size"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "SD is highly non-resistant to outliers.\n\n💡 Adding an outlier significantly increases SD."
   },
   {
@@ -623,8 +623,8 @@ var APSTATS_MCQ = [
       "Equal",
       "Impossible"
     ],
-    "answer": 0,
-    "explanation": "SAT z=1.25. ACT z=1.4.\n\n💡 Compare different scales using Z-scores."
+    "answer": 1,
+    "explanation": "SAT z = (1300 − 1050) / 200 = 1.25. ACT z = (28 − 21) / 5 = 1.4. The ACT z-score is higher, so the ACT performance is relatively stronger.\n\n💡 Compare different scales using z-scores."
   },
   {
     "id": "stats_u1_034",
@@ -642,7 +642,7 @@ var APSTATS_MCQ = [
       "M:1, S:1",
       "Depends"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Standardized distributions always have 0 mean and 1 SD.\n\n💡 Standard Normal Distribution N(0,1)."
   },
   {
@@ -718,7 +718,7 @@ var APSTATS_MCQ = [
       "47.5-52.5",
       "42.5-57.5"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "50 ± 2(5) = 40 to 60.\n\n💡 95% = 2 standard deviations."
   },
   {
@@ -1022,8 +1022,8 @@ var APSTATS_MCQ = [
       "0.24",
       "40"
     ],
-    "answer": 2,
-    "explanation": "Slope b = r * (Sy / Sx). So, b = 0.6 * (10 / 4) = 0.6 * 2.5 = 1.2.\n\n💡 This formula is on the AP formula sheet. Use it when you don't have the raw data!"
+    "answer": 0,
+    "explanation": "Slope b = r × (Sy / Sx) = 0.6 × (10 / 4) = 0.6 × 2.5 = 1.5.\n\n💡 This formula is on the AP formula sheet. Use it when you don't have the raw data!"
   },
   {
     "id": "stats_u2_015",
@@ -1364,7 +1364,7 @@ var APSTATS_MCQ = [
       "Blocked by gender",
       "Volunteers choose"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "The key is that assignment is based entirely on a chance process.\n\n💡 Completely randomized = No subgroups/blocks."
   },
   {
@@ -1478,7 +1478,7 @@ var APSTATS_MCQ = [
       "Biased tone",
       "SRS"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Certain segments of the population have no chance of being picked.\n\n💡 Undercoverage happens when the 'list' is incomplete."
   },
   {
@@ -1516,7 +1516,7 @@ var APSTATS_MCQ = [
       "Selection method",
       "No difference"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Observational studies just watch; experiments intervene.\n\n💡 Only experiments can prove causation."
   },
   {
@@ -1574,7 +1574,7 @@ var APSTATS_MCQ = [
       "0.080"
     ],
     "answer": 2,
-    "explanation": "P(X=9) for binomial n=10, p=0.8.\n\n💡 In Desmos: binomialdist(10, 0.8).pdf(9)."
+    "explanation": "P(X=9) for binomial n=10, p=0.8.\n\n💡 TI-84: binompdf(10, 0.8, 9) ≈ 0.268."
   },
   {
     "id": "stats_u3_024",
@@ -1649,7 +1649,7 @@ var APSTATS_MCQ = [
       "Small size error",
       "Mean-median difference"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "It's the natural variability of random samples, not an actual error.\n\n💡 Error = Variation; Bias = Systematic mistake."
   },
   {
@@ -1744,7 +1744,7 @@ var APSTATS_MCQ = [
       "Non-response bias",
       "Unethical"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Volunteers might differ significantly from the average person.\n\n💡 Causation okay; Generalization restricted."
   },
   {
@@ -1801,7 +1801,7 @@ var APSTATS_MCQ = [
       "Easier assignment",
       "No replication"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "It helps see what happens without the active ingredient.\n\n💡 Control = Counter-factual."
   },
   {
@@ -1877,7 +1877,7 @@ var APSTATS_MCQ = [
       "Help randomization",
       "Make it observational"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Observers might subconsciously see what they want to see if not blinded.\n\n💡 Observer bias is real!"
   },
   {
@@ -2201,7 +2201,7 @@ var APSTATS_MCQ = [
       "0.05"
     ],
     "answer": 2,
-    "explanation": "Using binomial formula or calculator: 5C3 * (0.5)^3 * (0.5)^2 = 10 * 0.125 * 0.25 = 0.3125.\n\n💡 In Desmos: binomialdist(5, 0.5).pdf(3)."
+    "explanation": "Using binomial formula or calculator: 5C3 × (0.5)^3 × (0.5)^2 = 10 × 0.125 × 0.25 = 0.3125.\n\n💡 TI-84: binompdf(5, 0.5, 3) = 0.3125."
   },
   {
     "id": "stats_u4_017",
@@ -2809,7 +2809,7 @@ var APSTATS_MCQ = [
       "0.05"
     ],
     "answer": 1,
-    "explanation": "New SD = 3 / sqrt(9) = 1. z = (66 - 64) / 1 = 2.0. Area to the right of z=2 is approx 0.0228.\n\n💡 Use normaldist(64, 1) in Desmos and find area > 66."
+    "explanation": "New SD = 3 / sqrt(9) = 1. z = (66 − 64) / 1 = 2.0. Area to the right of z = 2 is approx 0.0228.\n\n💡 TI-84: normalcdf(66, 1E99, 64, 1) ≈ 0.0228."
   },
   {
     "id": "stats_u5_014",
@@ -2866,7 +2866,7 @@ var APSTATS_MCQ = [
       "0.025"
     ],
     "answer": 0,
-    "explanation": "mu = 0.8. SD = sqrt(0.8*0.2/100) = 0.04. z = (0.75 - 0.80) / 0.04 = -1.25. P(z < -1.25) ≈ 0.1056.\n\n💡 normaldist(0.8, 0.04).cdf(-infinity, 0.75) in Desmos."
+    "explanation": "μ = 0.8. SD = √(0.8 × 0.2 / 100) = 0.04. z = (0.75 − 0.80) / 0.04 = −1.25. P(z < −1.25) ≈ 0.1056.\n\n💡 TI-84: normalcdf(−1E99, 0.75, 0.8, 0.04) ≈ 0.1056."
   },
   {
     "id": "stats_u5_017",
@@ -3132,7 +3132,7 @@ var APSTATS_MCQ = [
       "Correct Decision"
     ],
     "answer": 1,
-    "explanation": "Type II Error is a 'miss'—failing to reject a false null hypothesis.\n\n💡 Increasing sample size reduces the probability of both Type I and Type II errors."
+    "explanation": "Type II Error is a 'miss'—failing to reject a false null hypothesis.\n\n💡 Increasing sample size reduces the probability of a Type II error (increases Power). Type I error rate is set by alpha, not sample size."
   },
   {
     "id": "stats_u6_011",

@@ -1,0 +1,100 @@
+{
+  "generated": "2026-03-27T18:03:50.175Z",
+  "flags": [
+    {
+      "id": "apush_u1_q103",
+      "issue": "Ambiguous question with two potentially correct answers",
+      "fix": "Rephrase to specify 'primary personal motivation of conquistadors' rather than 'primary goal' to distinguish between individual conquistador motivations (gold/wealth) and broader Spanish colonial policy (which included Christianity as a major goal)"
+    },
+    {
+      "id": "apush_u1_q110",
+      "issue": "Factual error and ambiguous phrasing - Caribbean populations were smaller but the question ambiguously mixes population size with vulnerability, and explanation contradicts itself about disease immunity",
+      "fix": "Revise to clarify that the key factor was small isolated populations being more vulnerable to complete demographic collapse, with all Native Americans equally lacking disease immunity"
+    },
+    {
+      "id": "apush_u2_q157",
+      "issue": "Factually incorrect answer and explanation",
+      "fix": "The Royal African Company's monopoly ended in 1698, but the growth of slavery after 1690 was more directly influenced by Bacon's Rebellion (1676) and the shift away from indentured servants, plus increased tobacco profitability. The explanation conflates timing and causation."
+    },
+    {
+      "id": "apush_u2_q165",
+      "issue": "Explanation contains theological inaccuracy - states Puritans taught salvation by grace alone, not works, but this oversimplifies Puritan theology which emphasized both grace and the covenant of works",
+      "fix": "Revise explanation to clarify that while Puritans believed in predestination, they still required visible signs of election through behavior and conversion experiences, creating the paradox between predetermined salvation and public demonstration"
+    },
+    {
+      "id": "apush_u2_q167",
+      "issue": "Question difficulty may be overstated - this is more of a medium difficulty question as the causes of Bacon's Rebellion are well-established historical facts",
+      "fix": "Change difficulty from 'hard' to 'medium' or add more complex analysis requirement to justify hard difficulty"
+    },
+    {
+      "id": "apush_u3_q174",
+      "issue": "Answer is factually incorrect. The correct answer should be D, not C. Sugar Act protests did focus on the external vs internal tax distinction, which became important in later resistance patterns.",
+      "fix": "Change correct answer from C to D and revise explanation accordingly"
+    },
+    {
+      "id": "apush_u3_q176",
+      "issue": "Answer is factually incorrect. The correct answer should be A, not C. Shays' Rebellion primarily demonstrated the federal government's lack of military power to maintain order, as Massachusetts had to use its own militia.",
+      "fix": "Change correct answer from C to A and revise explanation to focus on military weakness rather than fiscal structure"
+    },
+    {
+      "id": "apush_u4_q176",
+      "issue": "Answer choice C about foreign alliances was central to early party divisions, making this ambiguous between C and D",
+      "fix": "Revise distractor C to be less plausible or strengthen explanation for why D is more fundamental"
+    },
+    {
+      "id": "apush_u5_q191",
+      "issue": "Factual correctness issue - Missouri Compromise occurred in 1820, while Manifest Destiny as a named ideology emerged in 1845. The chronology makes option A anachronistic as presented.",
+      "fix": "Revise distractors to focus on contemporaneous challenges to Manifest Destiny, or clarify temporal relationship"
+    },
+    {
+      "id": "apush_u5_q194",
+      "issue": "Multiple defensible answers - both C (Democratic Party dominance) and D (congressional authority principle) could be considered correct as significant consequences",
+      "fix": "Revise question to more clearly distinguish between immediate constitutional consequences versus broader political effects"
+    },
+    {
+      "id": "apush_u5_q195",
+      "issue": "Factual accuracy issue - Dred Scott ruling actually strengthened Republican free soil platform by making it more urgent, rather than invalidating it",
+      "fix": "Revise option A or select different correct answer, as Republicans could still oppose slavery expansion through constitutional amendment"
+    },
+    {
+      "id": "apush_u5_q209",
+      "issue": "Grammatical error and unclear meaning - 'Federal government accepted primary responsibility for civil rights enforcement would shift to state courts' is not coherent",
+      "fix": "Rewrite option A for grammatical clarity and logical meaning"
+    },
+    {
+      "id": "apush_u6_q213",
+      "issue": "Factually incorrect answer and explanation. The railroad actually increased regional political divisions in the short term and the explanation incorrectly dismisses the Interstate Commerce Act of 1887.",
+      "fix": "Change correct answer to A) or rewrite question to better match intended answer C)"
+    },
+    {
+      "id": "apush_u7_q221",
+      "issue": "Answer choice A is factually incorrect - this was not the first time African Americans linked domestic and foreign policy objectives. The same strategy was used during WWI with similar rhetoric about making the world safe for democracy.",
+      "fix": "Revise choice A to reflect the unique aspects of the Double V campaign, such as its explicit dual victory framing or its widespread media campaign approach, rather than claiming it was the first linkage of domestic and foreign policy objectives."
+    },
+    {
+      "id": "apush_u8_q228",
+      "issue": "Question has two potentially correct answers - both A (nuclear weapons) and B (civilian control/expanding war) are historically accurate reasons for the dismissal",
+      "fix": "Revise to focus on one clear aspect or modify distractors to make B unambiguously better"
+    },
+    {
+      "id": "apush_u9_q237",
+      "issue": "Typo in difficulty field - 'difference' instead of 'difficulty'",
+      "fix": "Change 'difference': 'easy' to 'difficulty': 'easy'"
+    },
+    {
+      "id": "apush_u9_q255",
+      "issue": "Answer indexing inconsistency - uses 0 instead of 1 like all other questions",
+      "fix": "Change answer from 0 to 1 to maintain consistency with other questions using 1-based indexing"
+    },
+    {
+      "id": "apush_u9_q259",
+      "issue": "Anachronistic topic - Great Recession (2008) is beyond typical AP US History scope which ends around 1980-2000",
+      "fix": "Replace with a topic from the appropriate time period like 1970s stagflation, 1980s recession, or savings and loan crisis"
+    },
+    {
+      "id": "apush_u9_q268",
+      "issue": "Factually incorrect answer - Obama used executive orders extensively, more than Bush in many areas",
+      "fix": "Change correct answer to B (multilateral consultation) and revise explanation to remove incorrect claim about executive orders"
+    }
+  ]
+}

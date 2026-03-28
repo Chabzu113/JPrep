@@ -402,13 +402,6 @@ window.APUSHGrader = (function () {
       if (intro.includes(w.toLowerCase())) return { earned: 1, match: w };
     }
 
-    // Fallback: era-appropriate term in first 20% also counts as contextualization
-    const unitCfg  = (config.units && config.units[unitNum]) || {};
-    const stdTerms = unitCfg.standard || [];
-    for (const term of stdTerms) {
-      if (fuzzyContains(term, intro, 0.2)) return { earned: 1, match: term + ' (contextual)' };
-    }
-
     return { earned: 0, match: null };
   }
 
@@ -504,10 +497,10 @@ window.APUSHGrader = (function () {
 
       // Check for sourcing trigger within 20 words of citation
       const words = sentence.split(/\s+/);
+      const docMatchPos = normS.search(/\(\s*doc(?:ument)?\s*\d+\s*\)|document\s+\d+/i);
       let docWordIdx = -1;
-      const docRe = new RegExp('doc(?:ument)?\\s*' + docNum, 'i');
-      for (let i = 0; i < words.length; i++) {
-        if (docRe.test(words[i])) { docWordIdx = i; break; }
+      if (docMatchPos !== -1) {
+        docWordIdx = sentence.substring(0, docMatchPos).split(/\s+/).filter(Boolean).length;
       }
       if (docWordIdx === -1) continue;
 
@@ -543,7 +536,9 @@ window.APUSHGrader = (function () {
     // Anachronism anywhere in the essay voids the outside evidence point
     const hasAnachronism = evDetect.highlights.some(function (h) { return h.type === 'anachronism'; });
     if (hasAnachronism) {
-      return { earned: 0, outsideTerm: null, highlights: evDetect.highlights };
+      const aTerm = evDetect.highlights.find(function (h) { return h.type === 'anachronism'; });
+      return { earned: 0, outsideTerm: null, highlights: evDetect.highlights,
+        reason: 'Anachronism: "' + (aTerm ? aTerm.text : 'modern term') + '" is not historically valid for this period' };
     }
 
     // Check unit-specific outsideEvidenceTerms first — these always count as outside

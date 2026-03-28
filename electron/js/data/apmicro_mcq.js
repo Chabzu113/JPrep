@@ -157,7 +157,7 @@ var APMICRO_MCQ = [
     "unit": 1,
     "topic": "PPC Points",
     "topicLabel": "PPC Points",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "source": "Generated",
     "question": "If an economy is currently producing at a point inside its PPC, which of the following is true?",
     "choices": [
@@ -168,7 +168,7 @@ var APMICRO_MCQ = [
       "Economic growth has shifted the curve inward."
     ],
     "answer": 1,
-    "explanation": "Points inside the curve represent waste or underutilization of resources. Moving from inside to the curve has an opportunity cost of zero for the good being increased."
+    "explanation": "A point inside the PPC indicates that the economy is not using all of its resources efficiently, either due to unemployment or misallocation. The economy can produce more of both goods by moving to the curve."
   },
   {
     "id": "micro-u1-m010",
@@ -220,12 +220,12 @@ var APMICRO_MCQ = [
     "choices": [
       "Farmer A has the comparative advantage in wheat.",
       "Farmer B has the absolute advantage in corn.",
-      "Farmer A has the comparative advantage in corn.",
+      "Farmer A has the absolute advantage in corn only.",
       "Farmer B has the comparative advantage in wheat.",
       "Neither can benefit from trade because Farmer A is faster at both."
     ],
-    "answer": 0,
-    "explanation": "This is an input problem. Farmer A's cost for 1 wheat is 2 corn (4/2). Farmer B's cost for 1 wheat is 1.5 corn (6/4). Wait—correction: Farmer B's cost for 1 wheat is 1.5 corn. Farmer A's cost is 2 corn. Therefore, Farmer B has the comparative advantage in wheat."
+    "answer": 3,
+    "explanation": "This is an input problem. Farmer A's opportunity cost for 1 wheat is 4/2 = 2 corn. Farmer B's opportunity cost for 1 wheat is 6/4 = 1.5 corn. Since 1.5 < 2, Farmer B has the lower opportunity cost for wheat and therefore the comparative advantage in wheat."
   },
   {
     "id": "micro-u1-e013",
@@ -259,7 +259,8 @@ var APMICRO_MCQ = [
       "Marginal benefit is greater than the marginal cost.",
       "Total benefit is equal to the total cost.",
       "Marginal cost is increasing.",
-      "Price of the good is increasing."
+      "Price of the good is increasing.",
+      "Total utility has reached zero."
     ],
     "answer": 0,
     "explanation": "The Marginal Decision Rule states that you should take an action as long as the additional benefit (MB) exceeds the additional cost (MC)."
@@ -348,7 +349,7 @@ var APMICRO_MCQ = [
     "topicLabel": "Marginal Utility",
     "difficulty": "medium",
     "source": "Generated",
-    "question": "If the marginal utility of the last sliced of pizza is 10 and its price is $2, while the marginal utility of the last soda is 15 and its price is $3, a rational consumer should:",
+    "question": "If the marginal utility of the last slice of pizza is 10 and its price is $2, while the marginal utility of the last soda is 15 and its price is $3, a rational consumer should:",
     "choices": [
       "Buy more pizza.",
       "Buy more soda.",
@@ -557,7 +558,7 @@ var APMICRO_MCQ = [
     "topicLabel": "Marginal Utility Per Dollar",
     "difficulty": "hard",
     "source": "Generated",
-    "question": "A consumer is spent their entire budget on Apples ($1 each) and Bananas ($2 each). The marginal utility of the last apple was 10, and the marginal utility of the last banana was 30. To maximize utility, the consumer should:",
+    "question": "A consumer has spent their entire budget on Apples ($1 each) and Bananas ($2 each). The marginal utility of the last apple was 10, and the marginal utility of the last banana was 30. To maximize utility, the consumer should:",
     "choices": [
       "Consume more apples and fewer bananas.",
       "Consume more bananas and fewer apples.",
@@ -1592,7 +1593,7 @@ var APMICRO_MCQ = [
       "160 units."
     ],
     "answer": 1,
-    "explanation": "Shortage = Quantity Demanded - Quantity Supplied. $100 - 60 = 40$."
+    "explanation": "Shortage = Quantity Demanded - Quantity Supplied = 100 - 60 = 40 units."
   },
   {
     "id": "micro-u2-m045",
@@ -1820,7 +1821,7 @@ var APMICRO_MCQ = [
       "$0."
     ],
     "answer": 1,
-    "explanation": "The area of the producer surplus triangle is $1/2 \times \text{base} \times \text{height}$. $1/2 \times 50 \times 10 = 250$."
+    "explanation": "Producer surplus is the triangular area above the supply curve and below the price. Area = (1/2) x base x height = (1/2) x 50 x 10 = 250."
   },
   {
     "id": "micro-u2-e057",
@@ -1877,7 +1878,7 @@ var APMICRO_MCQ = [
       "Increase by 50%."
     ],
     "answer": 1,
-    "explanation": "Calculation: $0.5 = \frac{x}{10%}$. Therefore, $x = +5%$. Positive result means they are substitutes."
+    "explanation": "Cross-Price Elasticity = % Change in Qx / % Change in Py. So 0.5 = x / 10%, which gives x = +5%. The positive sign confirms they are substitutes."
   },
   {
     "id": "micro-u2-e060",
@@ -2542,7 +2543,7 @@ var APMICRO_MCQ = [
       "$0."
     ],
     "answer": 1,
-    "explanation": "Profit = $(P - ATC) \times Q$. Here, $(20 - 15) \times 50 = 5 \times 50 = 250$."
+    "explanation": "Profit = (P - ATC) x Q. Here, (20 - 15) x 50 = 5 x 50 = $250."
   },
   {
     "id": "micro-u3-h030",
@@ -2647,7 +2648,7 @@ var APMICRO_MCQ = [
     "topicLabel": "Definitions of Profit",
     "difficulty": "easy",
     "source": "Generated",
-    "question": "If a firm's total revenue is enough to cover all its explicit costs but none of its implicit costs, the firm has:",
+    "question": "If a firm's total revenue exceeds its explicit costs but is not sufficient to cover its implicit costs as well, the firm has:",
     "choices": [
       "An economic profit of zero.",
       "An accounting profit of zero.",
@@ -2656,7 +2657,7 @@ var APMICRO_MCQ = [
       "An economic profit that is positive."
     ],
     "answer": 2,
-    "explanation": "Accounting profit = TR - Explicit. Economic profit = TR - (Explicit + Implicit). If TR only covers Explicit, accounting profit is positive (barely), but economic profit is negative."
+    "explanation": "Accounting profit = TR - Explicit Costs, which is positive here. Economic profit = TR - (Explicit + Implicit Costs), which is negative because TR cannot cover both. The firm appears profitable by accounting standards but is not covering all opportunity costs."
   },
   {
     "id": "micro-u3-h036",
@@ -2751,7 +2752,7 @@ var APMICRO_MCQ = [
       "$250."
     ],
     "answer": 2,
-    "explanation": "Trap: Option A is $AVC$. $AVC = ATC - AFC = 20 - 5 = 15$. $TVC = AVC \times Q = 15 \times 10 = 150$."
+    "explanation": "AVC = ATC - AFC = 20 - 5 = 15 (this is choice A, a common trap). TVC = AVC x Q = 15 x 10 = $150."
   },
   {
     "id": "micro-u3-h041",
@@ -3150,7 +3151,7 @@ var APMICRO_MCQ = [
       "Price increases; profit remains zero."
     ],
     "answer": 0,
-    "explanation": "Trap: Many think firms keep some profit. In the long run, entry occurs because of the subsidy until economic profit is driven back to zero. In a constant-cost industry, the price must drop by the exact amount of the subsidy to reach the new minimum ATC."
+    "explanation": "In the long run, the subsidy creates short-run profits that attract entry. Entry shifts market supply right, driving price down. In a constant-cost industry, the consumer price ultimately falls by the full amount of the subsidy as the new minimum ATC is lower by that amount, and economic profit returns to zero."
   },
   {
     "id": "micro-u3-m062",
@@ -4648,10 +4649,10 @@ var APMICRO_MCQ = [
       "$MP_L = MP_K$.",
       "$Wage = Price of Capital$.",
       "$TR = TC$.",
-      "$MRP_L = Wage$ and $MRP_K = Price of Capital$."
+      "$MP_L/Wage = MP_K/Price of K$ regardless of the ratio's value."
     ],
     "answer": 0,
-    "explanation": "The profit-max rule for resources is to hire until the marginal benefit equals the marginal cost for each, which simplifies to the ratio equaling 1."
+    "explanation": "The profit-maximizing rule for hiring multiple resources requires MRP/P = 1 for each input. This ensures the last dollar spent on each resource generates exactly one dollar in revenue. Choice E describes the least-cost rule (equal ratios) but does not require the ratios to equal 1."
   },
   {
     "id": "micro-u5-h011",
@@ -4803,7 +4804,7 @@ var APMICRO_MCQ = [
       "The unemployment rate."
     ],
     "answer": 1,
-    "explanation": "If the price of the product ($P$) rises, the $MRP (MP \times P)$ rises, making workers more profitable to hire."
+    "explanation": "If the price of the product rises, MRP (= MP x P) increases at every level of employment, shifting the labor demand curve to the right."
   },
   {
     "id": "micro-u5-h019",
@@ -4860,7 +4861,7 @@ var APMICRO_MCQ = [
       "Marginal Revenue is greater than Price."
     ],
     "answer": 0,
-    "explanation": "Trap: For a competitor, $MRP = MP \times P$ (P is constant). For a monopolist, $MRP = MP \times MR$. Since $MR$ falls as $Q$ increases, the $MRP$ curve drops due to both falling $MP$ and falling $MR$."
+    "explanation": "For a competitive firm, MRP = MP x P (where P is constant). For a monopolist, MRP = MP x MR. Since MR falls as output increases, the MRP curve declines due to both diminishing marginal returns (falling MP) and falling MR."
   },
   {
     "id": "micro-u5-m022",
@@ -5031,7 +5032,7 @@ var APMICRO_MCQ = [
       "Become perfectly elastic."
     ],
     "answer": 0,
-    "explanation": "Higher productivity increases the $MP$ part of $MRP (MP \times P)$, making the demand curve shift right."
+    "explanation": "Higher productivity increases MP, which raises MRP (= MP x P) at every wage level, shifting the labor demand curve to the right."
   },
   {
     "id": "micro-u5-e031",

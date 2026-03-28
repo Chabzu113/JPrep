@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test Review — AP Test Prep</title>
+  <title>Test Review — JPrep</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/components.css">
+  <!-- KaTeX math rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
   <style>
     .review-card { margin-bottom: 20px; }
     .rubric-row { display:flex; justify-content:space-between; align-items:flex-start; padding:10px 0; border-bottom:1px solid var(--border-color); gap:16px; flex-wrap:wrap; }
@@ -24,7 +27,7 @@
 </head>
 <body>
   <nav class="navbar">
-    <a href="index.html" class="navbar-brand">AP Test Prep</a>
+    <a href="index.html" class="navbar-brand">JPrep</a>
     <div class="navbar-links">
       <a href="question-bank.html" class="nav-link">Question Bank</a>
       <a href="practice-test.html" class="nav-link">Practice Tests</a>
@@ -77,20 +80,34 @@
     </section>
   </div>
 
-  <script src="js/data/mcq_u1u2.js"></script>
-  <script src="js/data/mcq_u3u4.js"></script>
+  <script src="js/data/apcsa_mcq.js"></script>
   <script src="js/data/frq.js"></script>
   <script src="js/data/apbio_mcq.js"></script>
   <script src="js/data/apbio_test_mcq.js"></script>
   <script src="js/data/apbio_frq.js"></script>
   <script src="js/data/apbio_tests.js"></script>
   <script src="js/data/tests.js"></script>
+  <script src="js/data/apcalc_mcq.js"></script>
+  <script src="js/data/apcalc_frq.js"></script>
+  <script src="js/data/apstats_mcq.js"></script>
+  <script src="js/data/apstats_frq.js"></script>
+  <script src="js/data/apmicro_mcq.js"></script>
+  <script src="js/data/apmicro_frq.js"></script>
+  <script src="js/data/apmacro_mcq.js"></script>
+  <script src="js/data/apmacro_frq.js"></script>
   <script src="js/data/apush_mcq.js"></script>
   <script src="js/data/apush_frq.js"></script>
+  <script src="js/data/apphyscem_frq.js"></script>
+  <script src="js/data/physc_mcq.js"></script>
+  <script src="js/data/physics_mcq.js"></script>
+  <script src="js/data/physics_frq.js"></script>
   <script src="js/data/frqConfigs.js"></script>
+  <script src="js/physicsRenderer.js"></script>
+  <script src="js/genericFRQGrader.js"></script>
   <script src="js/app.js"></script>
   <script src="js/apushGrader.js"></script>
   <script src="js/scoring.js"></script>
+  <script src="js/subjects.js"></script>
   <script src="js/review.js"></script>
 </body>
 </html>

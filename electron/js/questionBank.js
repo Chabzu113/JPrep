@@ -147,8 +147,7 @@ function loadQuestionsForActiveSubject() {
   if (typeof SubjectRegistry === 'undefined' || typeof App === 'undefined') {
     // Fallback: legacy globals for AP CS A
     return [
-      ...(typeof MCQ_U1U2 !== 'undefined' ? MCQ_U1U2.map(q => ({ ...q, type: q.type || 'MCQ' })) : []),
-      ...(typeof MCQ_U3U4 !== 'undefined' ? MCQ_U3U4.map(q => ({ ...q, type: q.type || 'MCQ' })) : []),
+      ...(typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ.map(q => ({ ...q, type: q.type || 'MCQ' })) : []),
       ...(typeof FRQ_BANK !== 'undefined' ? FRQ_BANK.map(f => ({ ...f, type: 'FRQ', unit: f.units ? f.units[0] : 1 })) : [])
     ];
   }
@@ -561,6 +560,16 @@ function renderSessionQuestion() {
 
   // MCQ code block (separate field)
   const codeHtml = (!isFRQ && q.isCode && q.code) ? App.renderCode(q.code) : '';
+  // MCQ / FRQ image (generic — q.image takes priority, falls back to q.diagram)
+  const imgSrc = q.image || q.diagram;
+  const imageHtml = imgSrc
+    ? `<div class="question-image-wrap">
+         <img class="physics-diagram-img" data-physics-diagram
+              src="${App.escapeHtml(imgSrc)}"
+              alt="Diagram" loading="lazy">
+         <span class="physics-diagram-hint">Click to expand</span>
+       </div>`
+    : '';
   // FRQ starter code
   const starterHtml = q.starterCode
     ? `<div style="margin-top:16px"><p class="frq-section-label">Starter code:</p>${App.renderCode(q.starterCode)}</div>`
@@ -641,6 +650,7 @@ function renderSessionQuestion() {
           ${ptsHtml}
         </div>
         <p class="frq-part-instruction">${renderFRQPromptText(text)}</p>
+        ${p.image ? `<div class="question-image-wrap frq-part-image"><img class="physics-diagram-img" data-physics-diagram src="${App.escapeHtml(p.image)}" alt="Diagram" loading="lazy"><span class="physics-diagram-hint">Click to expand</span></div>` : ''}
       </div>`;
     }).join('');
 
@@ -821,12 +831,15 @@ function renderSessionQuestion() {
       ${questionHtml}
       ${tableHtml}
       ${codeHtml}
+      ${imageHtml}
       ${starterHtml}
       <div class="session-answer-area">${bodyHtml}</div>
     </div>`;
 
   // Render any LaTeX embedded as data-latex spans (AP Calc AB, etc.)
   renderMath(wrap);
+  // Attach lightbox + dark-mode invert to any diagram/image tags
+  if (window.PhysicsRenderer) PhysicsRenderer.upgradeDiagrams(wrap);
 
   // Re-render auto-analysis panel for already-answered auto-graded FRQs
   if (isFRQ && state) {

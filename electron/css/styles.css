@@ -1,4 +1,6 @@
 /* AP CS A Practice Platform — Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 /* ─── CSS Custom Properties ─── */
 :root {
@@ -21,15 +23,22 @@
 }
 
 [data-theme="dark"] {
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-card: #1e293b;
-  --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
-  --border-color: #334155;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.5);
+  --bg-primary: #1a1f2e;
+  --bg-secondary: #1e2639;
+  --bg-card: #242d3d;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #4a5568;
+  --border-color: #2e3a52;
+  --accent-blue: #58a6ff;
+  --accent-blue-hover: #79b8ff;
+  --accent-green: #3fb950;
+  --accent-red: #f85149;
+  --accent-yellow: #d29922;
+  --accent-purple: #bc8cff;
+  --accent-orange: #db6d28;
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
 }
 
 /* ─── Reset ─── */
@@ -38,7 +47,7 @@ html { scroll-behavior: smooth; }
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
   line-height: 1.6;
   transition: background-color 0.2s ease, color 0.2s ease;
   min-height: 100vh;
@@ -47,7 +56,7 @@ img { max-width: 100%; display: block; }
 a { color: var(--accent-blue); }
 h1, h2, h3, h4 { color: var(--text-primary); font-weight: 700; line-height: 1.3; }
 p { margin-bottom: 0; }
-pre, code { font-family: 'Courier New', Courier, monospace; }
+code, pre, .frq-code-editor, .choice-text code { font-family: 'JetBrains Mono', monospace; }
 ::selection { background: var(--accent-blue); color: white; }
 
 /* ─── Scrollbar ─── */

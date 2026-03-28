@@ -1,0 +1,20 @@
+{
+  "generated": "2026-03-28T15:57:03.527Z",
+  "flags": [
+    {
+      "id": "physc_u3_q768",
+      "issue": "The question stem states F(x) = (6x^2 - 4x) N, but the correct integral of this force from 1 to 3 is 36 J, which is not among the answer choices. The explanation itself reveals this error and mid-stream changes the force to F(x) = (6x^2 - 2x) N to make the answer 44 J match choice B. The question text and answer are inconsistent.",
+      "fix": "Change the force in the question stem to F(x) = (6x^2 - 2x) N to be consistent with the intended answer of 44 J (choice B). Alternatively, keep F(x) = (6x^2 - 4x) N and change the answer choices to include 36 J as the correct answer. Also rewrite the explanation cleanly without the mid-calculation revision."
+    },
+    {
+      "id": "physc_u3_q770",
+      "issue": "The question states F(x) = 6x^2 - 4x, but the correct integral from 1 to 3 gives 36 J, which is not among the choices. The explanation itself reveals this problem and then silently changes the force to F(x) = 6x^2 - 2x to make the answer 44 J. The question stem and the intended answer are inconsistent.",
+      "fix": "Change the force in the question stem to F(x) = (6x^2 - 2x) N so the integral yields 44 J matching answer B. Alternatively, keep F(x) = 6x^2 - 4x and change the answer choices to include 36 J as the correct answer. Also rewrite the explanation cleanly without the mid-calculation course correction."
+    },
+    {
+      "id": "physc_u9_q773",
+      "issue": "Choices A and C are algebraically equivalent (as acknowledged in the explanation itself). This means the question has two correct answers, violating the requirement of one clear correct answer. A multiple-choice question must have exactly one unambiguous best answer. Additionally, the explanation tries to hand-wave this away but it is a fundamental flaw.",
+      "fix": "Rewrite choice C so it is NOT equivalent to choice A. For example, change C to something like E(x) = Qd / [epsilon_0 * A * (d + 3x)^2] or E(x) = Q(d + 3x) / (epsilon_0 * A * d), which are genuinely different and incorrect. This ensures only one correct answer (A)."
+    }
+  ]
+}

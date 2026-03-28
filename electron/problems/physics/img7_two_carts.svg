@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300">
+  <rect width="500" height="300" fill="white"/>
+  <text x="250" y="25" text-anchor="middle" font-size="16" font-weight="bold" font-family="Arial">Two-Cart Collision (Before)</text>
+  <!-- Track -->
+  <rect x="30" y="180" width="440" height="8" fill="#d1d5db" stroke="#9ca3af" stroke-width="1" rx="4"/>
+  <!-- Cart A -->
+  <rect x="100" y="120" width="100" height="60" fill="#93c5fd" stroke="#2563eb" stroke-width="2" rx="8"/>
+  <text x="150" y="148" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial" fill="#1e3a5f">Cart A</text>
+  <text x="150" y="168" text-anchor="middle" font-size="13" font-family="Arial" fill="#1e3a5f">2 kg</text>
+  <!-- Wheels A -->
+  <circle cx="120" cy="188" r="8" fill="#6b7280" stroke="#374151" stroke-width="1.5"/>
+  <circle cx="180" cy="188" r="8" fill="#6b7280" stroke="#374151" stroke-width="1.5"/>
+  <!-- Cart B -->
+  <rect x="300" y="120" width="100" height="60" fill="#fca5a5" stroke="#dc2626" stroke-width="2" rx="8"/>
+  <text x="350" y="148" text-anchor="middle" font-size="15" font-weight="bold" font-family="Arial" fill="#7f1d1d">Cart B</text>
+  <text x="350" y="168" text-anchor="middle" font-size="13" font-family="Arial" fill="#7f1d1d">1 kg</text>
+  <!-- Wheels B -->
+  <circle cx="320" cy="188" r="8" fill="#6b7280" stroke="#374151" stroke-width="1.5"/>
+  <circle cx="380" cy="188" r="8" fill="#6b7280" stroke="#374151" stroke-width="1.5"/>
+  <!-- Velocity arrow for A -->
+  <line x1="150" y1="100" x2="220" y2="100" stroke="#2563eb" stroke-width="3" marker-end="url(#arrowB)"/>
+  <text x="185" y="92" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial" fill="#2563eb">3 m/s →</text>
+  <!-- Cart B label: at rest -->
+  <text x="350" y="100" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial" fill="#dc2626">At rest</text>
+  <!-- Direction reference -->
+  <text x="250" y="240" text-anchor="middle" font-size="12" fill="#6b7280" font-family="Arial">→ positive direction</text>
+  <defs>
+    <marker id="arrowB" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/></marker>
+  </defs>
+</svg>

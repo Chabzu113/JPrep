@@ -1,0 +1,195 @@
+{
+  "generated": "2026-03-28T03:30:24.300Z",
+  "flags": [
+    {
+      "id": "calc_u1_q005",
+      "issue": "Choices B (1/2) and C (3/6) are mathematically identical, meaning there are two correct answers. A multiple-choice question must have exactly one correct answer. Additionally, having two identical answer choices is a design flaw that would confuse students.",
+      "fix": "Replace choice C with a different plausible distractor, such as 'C) 3' (the misconception of only looking at the leading coefficient of the numerator) or 'C) 1' (misapplying the rule). For example: A) 0, B) 1/2, C) 3, D) Infinity."
+    },
+    {
+      "id": "calc_u1_q012",
+      "issue": "Choices A and C are the same value. Choice C is 10/5 = 2, which equals choice B (2). This means there are two identical distractor values, and effectively only three distinct answer choices. Also, having a distractor that visibly simplifies to another distractor looks like an error rather than a plausible trap.",
+      "fix": "Replace choice C with a distinct plausible distractor, e.g., '8' (from a sign error yielding numerator 9-1=8 and denominator 1). Keep choices as: A) 10, B) 2, C) 8, D) Does not exist."
+    },
+    {
+      "id": "calc_u1_q015",
+      "issue": "The explanation is self-contradictory and reveals the problem is broken. The two bounding functions evaluated at x=1 give different values (lower bound = 3, upper bound = 5), so the Squeeze Theorem cannot be applied. The author acknowledges this in the explanation and tries to fix the bounds mid-explanation but never actually updates the question text. The stated question does not support the claimed answer of 5.",
+      "fix": "Change the bounding inequalities so both bounds agree at x=1. For example: 'If x^2 + 2x + 2 ≤ f(x) ≤ 2x^2 + 3 for all x near 1, what is lim_{x→1} f(x)?' Lower: 1+2+2=5, Upper: 2+3=5, so by Squeeze Theorem the limit is 5. Update distractors accordingly: A) 3, B) 5, C) 4, D) Does not exist, with answer index 1."
+    },
+    {
+      "id": "calc_u3_q055",
+      "issue": "Choice C '2x / x^2' simplifies to 2/x, which is identical to Choice A '2 / x'. This means there are two correct answers, violating the one-clear-correct-answer requirement.",
+      "fix": "Replace Choice C with a distinct distractor, e.g., 'C) 2 / (x * ln(x))' or 'C) 2x' or 'C) 1 / (2x)' — any plausible but incorrect option that is not equivalent to 2/x."
+    },
+    {
+      "id": "calc_u3_q056",
+      "issue": "Choice D '(2x + 3)^(-1/2)' equals 1/sqrt(2x + 3), which is identical to Choice A. This means there are two correct answers. Also, the explanation is self-contradictory, stating D 'omits the factor from the chain rule' while acknowledging it equals A numerically.",
+      "fix": "Replace Choice D with a distinct distractor, e.g., 'D) 1 / (2(2x + 3))' or 'D) (2x + 3)^(-3/2)' — a plausible wrong answer that is not equivalent to the correct answer."
+    },
+    {
+      "id": "calc_u3_q057",
+      "issue": "\"Both B and C\" as an answer choice is problematic for a well-designed MC question. Having two choices that are mathematically equivalent and then a 'both' option is confusing and tests reading comprehension rather than calculus. AP exams do not use 'Both X and Y' answer choices.",
+      "fix": "Remove choice D. Make the answer just C) e^x(x^2 + 2x) as the simplified/factored form, and change B to a plausible wrong answer such as e^x(x^2 - 2x) or x^2 e^x + 2x."
+    },
+    {
+      "id": "calc_u3_q058",
+      "issue": "Choice A text reads '2x^2 - 6 - 2x^2 - x' which does not match the correct expansion from the quotient rule (which gives 2x^2 - 6 - 4x^2 - 2x). The distractor is labeled as having an 'arithmetic error' but the expression shown is not a plausible error—it seems like a different, poorly constructed wrong answer that is hard to parse without LaTeX.",
+      "fix": "Replace choice A with a cleaner plausible distractor, e.g., (-2x^2 + 2x - 6)/(x^2 - 3)^2 (sign error on middle term). Also mark isLatex: true or use clearer formatting."
+    },
+    {
+      "id": "calc_u3_q067",
+      "issue": "\"Both A and C\" answer choice is not used on AP exams and is pedagogically problematic. It tests whether students can simplify algebra rather than compute a derivative.",
+      "fix": "Remove the 'Both A and C' option. Present only the simplified form A) (x cos(x) - 2 sin(x))/x^3 as the correct answer, and replace choice C with a different plausible distractor such as (x cos(x) + 2 sin(x))/x^3."
+    },
+    {
+      "id": "calc_u3_q069",
+      "issue": "\"Both A and C\" answer choice is not used on AP exams. Same structural issue as q067 and q057.",
+      "fix": "Remove the 'Both A and C' option. Use the simplified form C) (x + 2)/sqrt(x^2 + 4x + 1) as the sole correct answer and replace A with a plausible distractor such as (2x + 4)/sqrt(x^2 + 4x + 1)."
+    },
+    {
+      "id": "calc_u3_q070",
+      "issue": "The explanation claims choice A is the expanded form of B, but choice A reads 'e^x * ln(x) + x * e^x * ln(x) + e^x' which equals e^x(ln(x) + x ln(x) + 1), matching B. So the question again uses 'Both' logic implicitly — but the actual answer key is only B (index 1). However, A is also mathematically correct. This makes the question have two correct answers without a 'Both' option, which is a serious flaw. Additionally, the explanation says A is the expanded form of B but the answer key only credits B.",
+      "fix": "Either add a 'Both A and B' option (not recommended for AP style) or change choice A to be genuinely incorrect, e.g., e^x * ln(x) + x * e^x * ln(x) + x * e^x (replacing the last term). This ensures only one correct answer."
+    },
+    {
+      "id": "calc_u3_q071",
+      "issue": "\"Both A and B\" answer choice is not used on AP exams. Same structural problem.",
+      "fix": "Remove 'Both A and B'. Keep B) 2x/(1 - cos(y)) as the correct answer and replace A with a plausible distractor such as 2x/(1 + cos(y))."
+    },
+    {
+      "id": "calc_u3_q074",
+      "issue": "\"Both A and C\" answer choice is not used on AP exams. Same structural problem as multiple other questions.",
+      "fix": "Remove 'Both A and C'. Keep A) e^x * x/(x + 1)^2 as the correct simplified answer and replace C with a plausible distractor such as e^x(x - 1)/(x + 1)^2."
+    },
+    {
+      "id": "calc_u3_q075",
+      "issue": "\"Both A and B\" answer choice is not AP style. Also -3/12 is trivially equal to -1/4, making this a fraction-reduction question rather than a calculus question.",
+      "fix": "Remove the 'Both A and B' option. Keep A) -1/4 as the sole correct answer and replace B with a different plausible numerical distractor such as -1/2 or -3/4."
+    },
+    {
+      "id": "calc_u3_q071",
+      "issue": "Choices A and B are mathematically identical (x^2/x = x), so there are two correct answers. The explanation even acknowledges this: 'Choice B is the same as A since x^2/x = x, so it is equivalent.' A multiple-choice question must have exactly one correct answer.",
+      "fix": "Change Choice B to a genuinely incorrect expression, e.g., 'e^(3x)(2x * ln(x) + x^2 + 3x^2 * ln(x))' where x^2 replaces x (as if the student forgot to simplify x^2 * (1/x) and instead just dropped the 1/x)."
+    },
+    {
+      "id": "calc_u3_q076",
+      "issue": "The explanation is a stream-of-consciousness self-correction showing the author trying multiple sets of function values to make the answer come out to -12. The final intended values (including g(5)=7 and f'(7)=4) are inconsistent with the given data in the problem stem, which states g(5)=2. The problem stem's given values yield f'(g(f(2))) * g'(f(2)) * f'(2) = f'(2) * g'(5) * f'(2) = 3 * (-1) * 3 = -9, which does not match any answer choice. The question as stated has no correct answer among the choices.",
+      "fix": "Rewrite the given function values to be consistent with answer -12. For example, use: f(2)=5, f'(2)=3, g(5)=7, g'(5)=-1, f'(7)=4, g'(2)=6. Then d/dx[f(g(f(x)))] at x=2 = f'(g(f(2)))*g'(f(2))*f'(2) = f'(g(5))*g'(5)*f'(2) = f'(7)*(-1)*3 = 4*(-1)*3 = -12. Update the problem stem and explanation accordingly."
+    },
+    {
+      "id": "calc_u4_q081",
+      "issue": "L'Hôpital's Rule is not part of the AP Calculus AB curriculum (it is AB-excluded / BC-only). Unit 4 topics should not include L'Hôpital's Rule for AP Calculus AB.",
+      "fix": "Replace with a Unit 4 AB-appropriate topic such as an application of the Mean Value Theorem, related rates, or finding extreme values. Alternatively, re-frame the question as evaluating lim sin(x)/x using the squeeze theorem or as a known foundational limit without invoking L'Hôpital's Rule."
+    },
+    {
+      "id": "calc_u4_q083",
+      "issue": "The question asks for 'a necessary condition' but choice D ('f is differentiable on [a, b]') is also a necessary condition (differentiability on the open interval (a, b) is required, and differentiability on the closed interval is a strictly stronger—hence sufficient for that part—condition, but the wording of D says [a, b] which is technically not the exact hypothesis). However, the real issue is ambiguity: choice A (f(a) = f(b)) is a necessary condition, but so is continuity on [a, b] and differentiability on (a, b). With only one correct answer allowed, the question should ask which condition distinguishes Rolle's Theorem from the MVT, or it should list all three hypotheses as the correct answer. As written, a strong student could argue that D is also a necessary condition (differentiability on [a,b] implies differentiability on (a,b), but requiring [a,b] is stronger than needed—this makes D incorrect as stated but for a subtle reason). The explanation's reasoning for eliminating D is technically correct but could confuse students since differentiability on (a,b) IS required.",
+      "fix": "Reword the question to: 'Which condition distinguishes Rolle's Theorem from the Mean Value Theorem?' or 'In addition to continuity on [a,b] and differentiability on (a,b), Rolle's Theorem requires which additional condition?' This removes ambiguity and makes choice A unambiguously the single correct answer."
+    },
+    {
+      "id": "calc_u4_q086",
+      "issue": "L'Hôpital's Rule is not part of the AP Calculus AB curriculum; it is a BC-only topic. This question should not appear in an AB course assessment.",
+      "fix": "Replace with a Unit 4 AB-appropriate question, or reframe as evaluating the limit using the definition of the derivative: recognize (e^x - 1)/x as the limit definition of d/dx(e^x) at x = 0, which equals e^0 = 1, without referencing L'Hôpital's Rule."
+    },
+    {
+      "id": "calc_u4_q087",
+      "issue": "Choices A and D are mathematically identical (1/(10pi) = 10/(100pi)), so there are two correct answers. This violates the requirement of one clear correct answer.",
+      "fix": "Change choice D to a distinct incorrect value, e.g., 'D) 1/(5pi) cm/s' (and adjust C to something else like '2/(25pi) cm/s'), or simplify D to a clearly different wrong answer such as 'D) 10/(25pi) cm/s'."
+    },
+    {
+      "id": "calc_u4_q093",
+      "issue": "L'Hôpital's Rule is not part of the AP Calculus AB curriculum (it is AB-optional/BC topic). The AP Calculus AB Course and Exam Description does not include L'Hôpital's Rule. This also applies to q094, q095, and q105. However, many AB teachers do cover the basic sin(x)/x limit, so this may be acceptable if the course covers it. Flagging for awareness.",
+      "fix": "If strictly adhering to the AB CED, reclassify these questions as AP Calculus BC, or re-frame them using algebraic/trigonometric limit techniques rather than explicitly citing L'Hôpital's Rule. Alternatively, keep them if your course scope includes L'Hôpital's Rule as supplementary material."
+    },
+    {
+      "id": "calc_u4_q104",
+      "issue": "Choices B and D are identical ('2/pi ft/min' and '2/(pi) ft/min'). The explanation acknowledges 'Choice D is the same as B' which means there are effectively only 3 distinct answer choices.",
+      "fix": "Replace choice D with a distinct distractor, e.g., 'D) 1/(4pi) ft/min'."
+    },
+    {
+      "id": "calc_u4_q107",
+      "issue": "Choices A (2/sqrt(3)) and B (2sqrt(3)/3) are mathematically identical values. A multiple-choice question must have one unique correct answer, but here two choices are correct. This makes the question ambiguous and unanswerable in a standardized testing context.",
+      "fix": "Replace choice B with a distinct incorrect value, such as 'B) sqrt(3)/2', and update the explanation accordingly. Alternatively, rationalize choice A to 2sqrt(3)/3 and replace choice B with a different distractor like 'B) 4/3'."
+    },
+    {
+      "id": "calc_u4_q110",
+      "issue": "Choices A and D both state the correct maximum value of 6. While D adds extra (correct) information about where the max occurs, the question asks only for 'the absolute maximum value,' which is 6 in both A and D. Additionally, choice C (1 + 1/100 = 1.01) is identical to choice A (1.01), making two pairs of duplicate answers in this question — wait, this flag is for q110, not q114. For q110: Choice D says '6 at x = 1 and x = 4' which includes the correct value 6. A student could reasonably argue D is also correct since it gives the maximum value along with correct location info. The explanation tries to distinguish them, but this is ambiguous.",
+      "fix": "Replace choice D with a clearly incorrect option, such as 'D) 8' or 'D) 7', to ensure only one choice is unambiguously correct."
+    },
+    {
+      "id": "calc_u4_q114",
+      "issue": "Choices A (1.01) and C (1 + 1/100) are numerically identical, giving two correct answers. A multiple-choice question cannot have duplicate correct choices.",
+      "fix": "Replace choice C with a distinct incorrect value, such as 'C) 1.1' (which could come from using x = 0.3 instead of 0.03), and update the explanation."
+    },
+    {
+      "id": "calc_u5_q005",
+      "issue": "Duplicate question. The answer key says 1 (answer index 1 = choice B = 2), but the explanation concludes the answer is 1 inflection point (choice A, answer index 0). The answer field contradicts the explanation. This question is also duplicated by calc_u5_q005_fix.",
+      "fix": "Remove this duplicate entirely in favor of calc_u5_q005_fix, which has the correct answer index of 0 (choice A = 1 inflection point)."
+    },
+    {
+      "id": "calc_u5_q005_fix",
+      "issue": "Duplicate of calc_u5_q005. The id uses a non-standard '_fix' suffix. Content and answer (index 0, choice A = 1 inflection point) are mathematically correct, but the id should be cleaned up and the duplicate removed.",
+      "fix": "Rename id to 'calc_u5_q005' and remove the other duplicate. The math is correct as-is."
+    },
+    {
+      "id": "calc_u5_q008",
+      "issue": "The question asks how many critical points on the open interval (0, 5). On the regions (0,1) and (3,5), f(x) = x^2 - 4x + 3 with f'(x) = 2x - 4 = 0 at x = 2, but x = 2 is in (1,3) where the formula is different. On (0,1), f'(x) = 2x-4 which is nonzero. On (3,5), f'(x) = 2x-4 = 0 at x = 2, not in (3,5). So the only additional critical point from the smooth pieces in their respective domains is x = 2. Combined with corners at x = 1 and x = 3, total is 3. The answer (B, index 1) is correct. However, the difficulty label 'medium' may be slightly low for a question involving absolute value and non-differentiable points; could be labeled 'hard'.",
+      "fix": "Consider relabeling difficulty as 'hard'. Otherwise the question is correct."
+    },
+    {
+      "id": "calc_u6_q159",
+      "issue": "The correct answer is 55/3 but none of the four answer choices equals 55/3. The explanation itself discovers this error mid-calculation and admits 'none match perfectly.' The listed answer index 3 points to choice D (43/3) which is incorrect.",
+      "fix": "Replace the answer choices with: A) 55/3, B) 28/3, C) 37/3, D) 43/3 and set the answer index to 0 (55/3). Alternatively, change the integrand or bounds so one of the existing choices is correct."
+    },
+    {
+      "id": "calc_u6_q166",
+      "issue": "The explanation for distractors is inconsistent. It claims Choice C uses right endpoints giving 2(4+16+36)=112, which doesn't match 76. Choice D at 64 is also unexplained convincingly. The distractors 76 and 64 are not clearly tied to common errors, making them somewhat implausible.",
+      "fix": "Replace distractors with values from common errors: e.g., left Riemann sum = 2(0+4+16)=40, right Riemann sum = 2(4+16+36)=112, or trapezoidal = 2(0+2·4+2·16+36)/2=76 (actually that works). Verify 76 comes from trapezoidal and 64 from another plausible error path, or replace 64 with 40 (left sum). Update explanations accordingly."
+    },
+    {
+      "id": "calc_u7_q176",
+      "issue": "Ambiguous question: multiple answer choices are correct. Using u = cos(x), du = -sin(x) dx gives -cos²(x)/2 + C. Choice B is -cos²(x) + C, which is not equivalent, but the existence of the alternate valid form -cos²(x)/2 + C (not listed) and the fact that sin²(x)/2 and -cos²(x)/2 differ only by a constant could confuse students. More critically, the explanation acknowledges that u = cos(x) gives -cos²(x)/2 + C, yet this equivalent form is not among the choices. Choice B (-cos²(x) + C) is missing the 1/2 factor but could be confused with the alternate substitution approach. The question is not truly ambiguous since only choice A is mathematically correct, but the explanation's mention of an equivalent alternate form and the presence of choice B (a near-miss of that alternate form) may cause confusion. Consider revising choice B or the explanation for clarity.",
+      "fix": "Minor issue. To improve clarity, either remove the alternate-method discussion from the explanation or replace choice B with -cos²(x)/2 + C (making it a true equivalent that tests whether students recognize both are correct, then accept both A and that new B). Simplest fix: keep the question as-is but remove the alternate method note from the explanation to avoid suggesting another answer form exists."
+    },
+    {
+      "id": "calc_u7_q193",
+      "issue": "Both A (tan²(x)/2 + C) and B (sec²(x)/2 + C) are valid antiderivatives of sec²(x)·tan(x), since they differ by the constant 1/2. This means there are two correct answer choices, making the question ambiguous.",
+      "fix": "Replace choice B with a clearly incorrect option, e.g., 'tan(x)/2 + C' or 'sec(x)·tan(x)/2 + C', or change the integrand so that only one answer choice is a valid antiderivative."
+    },
+    {
+      "id": "calc_u7_q196",
+      "issue": "Both A (sec²(x)/2 + C) and C (tan²(x)/2 + C) are valid antiderivatives of sin(x)/cos³(x), since sec²(x) = tan²(x) + 1 and the constant is absorbed by +C. This gives two correct answer choices. Also, choice B = -1/(2cos²(x)) = -sec²(x)/2 which is the negative of A, so it is incorrect, but having two correct choices (A and C) is a problem.",
+      "fix": "Replace choice C with a clearly incorrect option, e.g., '-tan²(x)/2 + C' or 'tan(x)/2 + C', to ensure only one correct answer."
+    },
+    {
+      "id": "calc_u7_q198",
+      "issue": "Choice B is -cos²(x) + C. The correct antiderivative via u = cos(x) would be -cos²(x)/2 + C, which equals sin²(x)/2 + C up to a constant (since sin²x + cos²x = 1). So B with coefficient -1 (not -1/2) is indeed wrong. However, the explanation says 'B has coefficient -1 instead of -1/2 on cos²(x)' which is correct. But the real concern is that -cos²(x)/2 + C would also be a correct antiderivative. Since -cos²(x) + C (without the 1/2) is listed, B is genuinely wrong. The question is technically fine, but the explanation could be clearer. Passing on closer inspection.",
+      "fix": null
+    },
+    {
+      "id": "calc_u7_q207",
+      "issue": "The answer key (choice A) does not match the correct result. Long division of (x³ + 2x² − x + 3) by (x² + 1) gives quotient x + 2 with remainder −2x + 1. Integrating x + 2 + (−2x + 1)/(x² + 1) yields x²/2 + 2x − ln(x² + 1) + arctan(x) + C, but choice A states coefficients of −(3/2)ln(x² + 1) + 3·arctan(x). The explanation itself identifies this mismatch. None of the four choices matches the correct answer.",
+      "fix": "Either change the polynomial in the question so that the remainder produces coefficients matching choice A (e.g., use (x³ + 2x² − 3x + 5)/(x² + 1) which gives remainder −4x + 3, leading to −2ln(x²+1) + 3arctan(x)), or change the answer choices to match the correct integral: A) x²/2 + 2x − ln(x² + 1) + arctan(x) + C, with corresponding plausible distractors."
+    },
+    {
+      "id": "calc_u7_q211",
+      "issue": "The correct answer is x²/2 + 2x − ln(x² + 1) + arctan(x) + C (from dividing by x − 1 giving 2x² + 2x − 1 + 4/(x−1)). Wait — this question divides by (x−1), not (x²+1). Let me recheck. 2x³ − 3x + 5 divided by x − 1: 2x³ ÷ x = 2x², 2x²(x−1) = 2x³ − 2x². Subtract: 2x² − 3x + 5. 2x² ÷ x = 2x, 2x(x−1) = 2x² − 2x. Subtract: −x + 5. −x ÷ x = −1, −1(x−1) = −x + 1. Subtract: 4. So quotient = 2x² + 2x − 1, remainder = 4. Integral = (2/3)x³ + x² − x + 4 ln|x−1| + C. This matches choice A. The question and answer are correct.",
+      "fix": null
+    },
+    {
+      "id": "calc_u7_q214",
+      "issue": "The cos⁴(x) integral and power-reduction identity topics go beyond AP Calculus AB curriculum. Power-reduction formulas for cos⁴(x) (double application of half-angle identities) are typically BC or college calculus topics, not standard AB content. Additionally, difficulty label 'hard' is appropriate if it were in scope, but it may be out of scope for AB.",
+      "fix": "Consider replacing with a question that uses a single application of the power-reduction identity (e.g., ∫cos²(x) dx) or reclassifying this question for AP Calculus BC. If keeping for AB, note that this topic is rarely tested on the AB exam."
+    },
+    {
+      "id": "calc_u8_q221",
+      "issue": "The shell method is not part of the AP Calculus AB curriculum (it is a BC/college topic). Additionally, distractor C's explanation ('sets up the integrand incorrectly') is vague—the integral $2\\pi \\int_0^4 y\\sqrt{y}\\,dy$ actually represents a valid (though differently structured) shell approach in y that doesn't equal the correct volume, but the reasoning given is unclear. The question should be replaced with an AB-appropriate topic or clearly re-labeled as BC.",
+      "fix": "Replace with a different Unit 8 AB-appropriate question (e.g., another disc/washer problem or cross-section problem), or if intentionally including shells, change the subject tag to AP Calculus BC."
+    },
+    {
+      "id": "calc_u8_q225",
+      "issue": "Arc length is not part of the AP Calculus AB curriculum. The arc length formula is tested in AP Calculus BC but not AB.",
+      "fix": "Replace with an AB-appropriate Unit 8 topic (e.g., volumes with known cross sections, another area between curves problem, or an accumulation/motion problem), or re-label as AP Calculus BC."
+    }
+  ]
+}

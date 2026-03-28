@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Question Bank — AP Test Prep</title>
+  <title>Question Bank — JPrep</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/planner.css">
@@ -18,6 +18,8 @@
     #desmos-close:hover { background:var(--bg-card); color:var(--text-primary); }
     .calc-btn { background:var(--bg-secondary); border:1px solid var(--border-color); padding:6px 12px; border-radius:6px; cursor:pointer; color:var(--text-primary); font-size:0.85rem; }
     .calc-btn:hover { background:var(--bg-card); }
+    .ai-explanation-box { margin-top:12px; padding:12px 14px; border-radius:6px; font-size:0.88rem; line-height:1.7; background:rgba(0,0,0,0.15); color:rgba(255,255,255,0.92); }
+    [data-theme="light"] .ai-explanation-box { background:rgba(0,0,0,0.06); color:var(--text-primary); }
   </style>
 </head>
 <body>
@@ -27,7 +29,7 @@
   ═══════════════════════════════════════════════════════ -->
   <div id="setupScreen">
     <nav class="navbar">
-      <a href="index.html" class="navbar-brand">AP Test Prep</a>
+      <a href="index.html" class="navbar-brand">JPrep</a>
       <div class="navbar-links">
         <a href="planner.html" class="nav-link">Planner</a>
         <a href="question-bank.html" class="nav-link active">Question Bank</a>
@@ -120,6 +122,7 @@
         <div class="filter-group">
           <span class="filter-label">Sort By</span>
           <select class="filter-select" id="sortSelect">
+            <option value="adaptive">Smart Order</option>
             <option value="unit-order">Unit Order</option>
             <option value="difficulty-asc">Easiest First</option>
             <option value="difficulty-desc">Hardest First</option>
@@ -180,6 +183,7 @@
       <div class="session-header-right">
         <span id="sessionScore" class="session-score-badge"></span>
         <button class="calc-btn" id="desmosBtn" title="Graphing Calculator">📊 Calc</button>
+        <button class="btn btn-secondary btn-sm" id="aiSettingsBtn" title="AI Settings">✦ AI</button>
         <button class="btn btn-secondary btn-sm dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
       </div>
     </div>
@@ -218,8 +222,7 @@
   </div>
 
   <script src="js/subjects.js"></script>
-  <script src="js/data/mcq_u1u2.js"></script>
-  <script src="js/data/mcq_u3u4.js"></script>
+  <script src="js/data/apcsa_mcq.js"></script>
   <script src="js/data/frq.js"></script>
   <script src="js/data/apbio_mcq.js"></script>
   <script src="js/data/apbio_test_mcq.js"></script>
@@ -237,6 +240,7 @@
   <script src="js/data/apush_mcq.js"></script>
   <script src="js/data/apush_frq.js"></script>
   <script src="js/data/apphyscem_frq.js"></script>
+  <script src="js/data/physc_mcq.js"></script>
   <script src="js/data/frqConfigs.js"></script>
   <script src="js/data/physics_mcq.js"></script>
   <script src="js/data/physics_frq.js"></script>
@@ -245,6 +249,16 @@
   <script src="js/apushGrader.js"></script>
   <script src="js/scoring.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/adaptiveEngine.js"></script>
   <script src="js/questionBank.js"></script>
+  <script src="js/aiExplainer.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const btn = document.getElementById('aiSettingsBtn');
+      if (btn) btn.addEventListener('click', function() {
+        if (typeof AIExplainer !== 'undefined') AIExplainer.openSettings();
+      });
+    });
+  </script>
 </body>
 </html>

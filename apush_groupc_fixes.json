@@ -1,0 +1,109 @@
+{
+  "generated": "2026-03-28",
+  "description": "Group C fixes from APUSH audit — judgment-call items now resolved. Mix of answer key changes, wording fixes, and retags. Apply to both js/data/apush_mcq.js and electron/js/data/apush_mcq.js.",
+  "instructions": "For each fix, locate the question by id. Apply exactly the change described. For retag-only fixes, update the topic and topicLabel fields only — do not touch question text, choices, or answer key.",
+  "no_action": [
+    {
+      "id": "apush_u3_q10",
+      "reason": "Leave as-is. Republican Motherhood framing is standard AP curriculum even if imprecise."
+    },
+    {
+      "id": "apush_u7_q53",
+      "reason": "Leave as-is. Prohibition is the primary AP association with WCTU."
+    },
+    {
+      "id": "apush_u7_q93",
+      "reason": "Leave as-is. 1920s placement for Sanger is AP-defensible."
+    },
+    {
+      "id": "apush_u8_q13",
+      "reason": "Leave as-is. Rosa Parks as a distractor is intentional — tests whether students distinguish civil rights from second-wave feminism."
+    },
+    {
+      "id": "apush_u8_q59",
+      "reason": "Leave as-is. Either unit placement is defensible for Kent State."
+    }
+  ],
+  "fixes": [
+    {
+      "id": "apush_u1_q3",
+      "category": "answer-key-change",
+      "action": "Change the correct answer key from answer 2 ('irrigation techniques') to answer 3 ('spread of maize'). Update the explanation to reflect that AP curriculum emphasizes maize cultivation as foundational to complex Mesoamerican societies. Note in explanation that agricultural innovation generally was important, but maize is the more precise AP answer."
+    },
+    {
+      "id": "apush_u1_q9",
+      "category": "stimulus-replacement",
+      "action": "Replace the 18th-century Casta painting stimulus with a period-appropriate primary source from 1491-1607. A suitable replacement would be a passage from a Spanish colonial law, encomienda grant, or a Bartolome de las Casas excerpt describing the caste hierarchy in early Spanish colonies. The question concept (Spanish racial/social hierarchy) is valid — only the stimulus source is out of period."
+    },
+    {
+      "id": "apush_u1_q18",
+      "category": "wording-fix",
+      "action": "Replace the description of the Asiento as allowing the Spanish Crown to 'tax the importation of enslaved Africans' with 'granted a licensed monopoly contract over the importation of enslaved Africans to other European nations.' Update explanation accordingly."
+    },
+    {
+      "id": "apush_u2_q6",
+      "category": "stimulus-replacement",
+      "action": "The current stimulus is a 1662 slave law but the keyed answer cites Bacon's Rebellion (1676) as the cause of the shift from indentured servitude — the stimulus predates the cause by 14 years. Fix by replacing the stimulus with a post-1676 source (e.g., a Virginia colonial record from the 1680s-1690s referencing the shift toward enslaved labor after Bacon's Rebellion). Keep the answer key and explanation as-is."
+    },
+    {
+      "id": "apush_u2_q19",
+      "category": "wording-fix",
+      "action": "Replace all instances of 'Southern colonies' with 'Chesapeake colonies' throughout the question, choices, and explanation. The claims about lower life expectancy and gender imbalance are accurate for the Chesapeake specifically but not for the broader Southern category."
+    },
+    {
+      "id": "apush_u2_q40",
+      "category": "wording-fix",
+      "action": "Replace 'most populous' with 'most economically productive' or 'wealthiest' when describing the Southern colonies by 1750. The population claim is debatable; the economic/plantation wealth claim is more historically defensible. Update explanation to match."
+    },
+    {
+      "id": "apush_u3_q8",
+      "category": "answer-key-change",
+      "action": "The current keyed answer 'better military leadership under Washington' is historically debatable — Washington lost many battles. Rekey to the French alliance as the most significant American advantage. If French alliance is not currently a choice, add it and remove the Washington leadership option. Update explanation to note that the Franco-American alliance of 1778 provided critical naval power, troops, and financial support that proved decisive."
+    },
+    {
+      "id": "apush_u4_q6",
+      "category": "wording-fix",
+      "action": "Replace the phrase describing the Erie Canal as 'isolating the South' — this is historically inaccurate, as the South remained connected via the Mississippi River and coastal trade. Replace with 'deepening the economic divide between the industrializing North and the plantation-based Southern economy.' Update explanation to match."
+    },
+    {
+      "id": "apush_u4_q9",
+      "category": "wording-fix",
+      "action": "The question references the 'Nullification Crisis of 1832' but the answer cites the 'Tariff of Abominations' (1828). Fix the answer and explanation to reference the Tariff of 1832, which directly triggered the nullification crisis. The Tariff of Abominations (1828) caused anger but the actual crisis was a response to the 1832 tariff."
+    },
+    {
+      "id": "apush_u4_q51",
+      "category": "wording-fix",
+      "action": "Add the qualifier 'among White Southerners' to the question stem when asking about the 'largest social group in the South by 1850.' Without this qualifier the answer is ambiguous — yeomen farmers were the largest White social class but enslaved people constituted roughly a third of the total Southern population."
+    },
+    {
+      "id": "apush_u5_q1",
+      "category": "factual-fix",
+      "action": "Fix the source attribution for the phrase 'manifest destiny.' It appeared in John O'Sullivan's 1845 article 'Annexation,' not his 1839 'The Great Nation of Futurity.' Update the stimulus attribution or explanation to reference the correct 1845 article."
+    },
+    {
+      "id": "apush_u5_q39",
+      "category": "terminology-fix",
+      "action": "Replace 'Merrimack' with 'CSS Virginia (Merrimack)' wherever the Confederate vessel is referenced. The ship was officially the CSS Virginia; it was built from the salvaged hull of the USS Merrimack. Using both names gives students accurate context without being confusing."
+    },
+    {
+      "id": "apush_u6_q5",
+      "category": "question-restructure",
+      "action": "Restructure this question so it does not name 'Horizontal Integration' in the stem — currently it functions as a vocabulary test rather than a concept test. Rewrite the stem to present a scenario describing the business strategy (e.g., 'Standard Oil acquired competing oil refineries across multiple states to control the refining market') and ask students to identify which business strategy this represents. Answer choices remain the same."
+    },
+    {
+      "id": "apush_u7_q86",
+      "category": "wording-fix",
+      "action": "Rewrite the question stem to separate the 1893 overthrow from the 1898 annexation, which are distinct events. Current stem incorrectly implies they happened simultaneously. Replace with: 'Which territory did the United States annex in 1898, five years after a US-backed coup removed its reigning monarch?' Answer key (Hawaii) and explanation remain the same — just update explanation to note that the overthrow occurred in 1893 under Cleveland and annexation in 1898 under McKinley."
+    },
+    {
+      "id": "apush_u7_q94",
+      "category": "retag-only",
+      "action": "Update topic from '7.6 WWI: Home Front' to '7.8 1920s: Cultural Controversies' and update topicLabel to match. The Seattle General Strike occurred in February 1919, after WWI ended in November 1918 — it is more accurately a postwar Red Scare event than a home front event. Do not change question text, choices, or answer key."
+    },
+    {
+      "id": "apush_u9_q15",
+      "category": "retag-only",
+      "action": "Update topic from '9.4 A Changing Economy' to '9.6 Challenges of the 21st Century' and update topicLabel to match. The ACA is primarily a healthcare and social policy issue, not an economic one. Do not change question text, choices, or answer key."
+    }
+  ]
+}
