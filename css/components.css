@@ -886,3 +886,21 @@
   box-shadow: 0 12px 56px rgba(0, 0, 0, 0.8);
   pointer-events: none; /* click registers on overlay, not image */
 }
+
+/* ─── Question Table (tableData rendering) ───────────────────────────────── */
+.question-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 0.92rem;
+}
+.question-table td {
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+.question-table tr:first-child td {
+  font-weight: 700;
+  background: var(--bg-secondary);
+  color: var(--text-muted);
+}
