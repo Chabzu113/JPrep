@@ -147,8 +147,7 @@ function loadQuestionsForActiveSubject() {
   if (typeof SubjectRegistry === 'undefined' || typeof App === 'undefined') {
     // Fallback: legacy globals for AP CS A
     return [
-      ...(typeof MCQ_U1U2 !== 'undefined' ? MCQ_U1U2.map(q => ({ ...q, type: q.type || 'MCQ' })) : []),
-      ...(typeof MCQ_U3U4 !== 'undefined' ? MCQ_U3U4.map(q => ({ ...q, type: q.type || 'MCQ' })) : []),
+      ...(typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ.map(q => ({ ...q, type: q.type || 'MCQ' })) : []),
       ...(typeof FRQ_BANK !== 'undefined' ? FRQ_BANK.map(f => ({ ...f, type: 'FRQ', unit: f.units ? f.units[0] : 1 })) : [])
     ];
   }
@@ -227,6 +226,8 @@ function applyFilters() {
     filteredQuestions.sort((a, b) => (order[b.difficulty] || 0) - (order[a.difficulty] || 0));
   } else if (currentSort === 'random') {
     filteredQuestions = App.shuffle(filteredQuestions);
+  } else if (currentSort === 'adaptive') {
+    filteredQuestions = AdaptiveEngine.sort(filteredQuestions);
   }
 
   renderPreview();
@@ -437,7 +438,7 @@ function renderPreview() {
       const status = App.getQuestionStatus(q.id);
       return `<div class="card preview-row" style="margin-bottom:10px;padding:14px 18px;display:flex;align-items:center;gap:12px;cursor:default">
         <span style="color:var(--text-muted);font-size:0.85rem;min-width:24px;font-weight:600">${i + 1}</span>
-        <span style="flex:1;font-size:0.95rem;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${App.escapeHtml(q.question || q.prompt || '')}</span>
+        <span style="flex:1;font-size:0.95rem;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${renderFRQPromptText(q.question || q.prompt || '')}</span>
         <span class="badge ${diffColor[q.difficulty] || 'badge-medium'}" style="flex-shrink:0">${q.difficulty || 'medium'}</span>
         <span class="badge badge-unit" style="flex-shrink:0">U${q.unit}</span>
         <span style="flex-shrink:0">${statusIcon[status] || '⬜'}</span>
@@ -445,6 +446,8 @@ function renderPreview() {
     }).join('')}
     ${total > 8 ? `<div style="text-align:center;padding:16px;color:var(--text-muted);font-size:0.9rem">+ ${total - 8} more questions</div>` : ''}
   `;
+  const previewEl = document.getElementById('previewContainer');
+  if (typeof renderMath !== 'undefined' && previewEl) renderMath(previewEl);
 }
 
 // ─── Session: Start ───────────────────────────────────────────────────────────
@@ -561,6 +564,16 @@ function renderSessionQuestion() {
 
   // MCQ code block (separate field)
   const codeHtml = (!isFRQ && q.isCode && q.code) ? App.renderCode(q.code) : '';
+  // MCQ / FRQ image (generic — q.image takes priority, falls back to q.diagram)
+  const imgSrc = q.image || q.diagram;
+  const imageHtml = imgSrc
+    ? `<div class="question-image-wrap">
+         <img class="physics-diagram-img" data-physics-diagram
+              src="${App.escapeHtml(imgSrc)}"
+              alt="Diagram" loading="lazy">
+         <span class="physics-diagram-hint">Click to expand</span>
+       </div>`
+    : '';
   // FRQ starter code
   const starterHtml = q.starterCode
     ? `<div style="margin-top:16px"><p class="frq-section-label">Starter code:</p>${App.renderCode(q.starterCode)}</div>`
@@ -600,10 +613,16 @@ function renderSessionQuestion() {
 
     const submitBtn = state ? '' : `<button class="btn btn-primary session-submit-btn" id="sessionSubmitBtn" style="margin-top:24px">Submit Answer</button>`;
 
+    const explainBtnHtml = (state && !state.correct && q.choices) ?
+      `<button class="btn btn-secondary btn-sm" id="explainThisBtn"
+        style="margin-top:12px;font-size:0.85rem">✦ Explain This</button>
+       <div id="aiExplanationContainer" class="ai-explanation-box"></div>` : '';
+
     const feedbackHtml = state ? `
       <div class="session-feedback ${state.correct ? 'session-feedback-correct' : 'session-feedback-wrong'}">
         <p class="feedback-title">${state.correct ? '✓ Correct!' : '✗ Incorrect — Correct answer: ' + String.fromCharCode(65 + q.answer) + ')'}</p>
         <p class="feedback-body">${renderFRQPromptText(q.explanation || '')}</p>
+        ${explainBtnHtml}
       </div>` : '';
 
     bodyHtml = `<div class="choices-list" id="sessionChoices">${choicesHtml}</div>${submitBtn}${feedbackHtml}`;
@@ -641,6 +660,7 @@ function renderSessionQuestion() {
           ${ptsHtml}
         </div>
         <p class="frq-part-instruction">${renderFRQPromptText(text)}</p>
+        ${p.image ? `<div class="question-image-wrap frq-part-image"><img class="physics-diagram-img" data-physics-diagram src="${App.escapeHtml(p.image)}" alt="Diagram" loading="lazy"><span class="physics-diagram-hint">Click to expand</span></div>` : ''}
       </div>`;
     }).join('');
 
@@ -821,12 +841,16 @@ function renderSessionQuestion() {
       ${questionHtml}
       ${tableHtml}
       ${codeHtml}
+      ${imageHtml}
       ${starterHtml}
       <div class="session-answer-area">${bodyHtml}</div>
     </div>`;
 
   // Render any LaTeX embedded as data-latex spans (AP Calc AB, etc.)
+  console.log('[renderSessionQuestion] KaTeX available:', typeof katex !== 'undefined', '| renderMath available:', typeof renderMath !== 'undefined');
   renderMath(wrap);
+  // Attach lightbox + dark-mode invert to any diagram/image tags
+  if (window.PhysicsRenderer) PhysicsRenderer.upgradeDiagrams(wrap);
 
   // Re-render auto-analysis panel for already-answered auto-graded FRQs
   if (isFRQ && state) {
@@ -986,6 +1010,17 @@ function renderSessionQuestion() {
       }
     }
 
+  }
+
+  // Wire Explain This button
+  const explainBtn = document.getElementById('explainThisBtn');
+  if (explainBtn && typeof AIExplainer !== 'undefined') {
+    explainBtn.addEventListener('click', function() {
+      const container = document.getElementById('aiExplanationContainer');
+      explainBtn.disabled = true;
+      explainBtn.textContent = '✦ Explaining...';
+      AIExplainer.explain(q, sessionAnswerState[q.id].selectedIndex, container);
+    });
   }
 
   updateSessionHeader();
