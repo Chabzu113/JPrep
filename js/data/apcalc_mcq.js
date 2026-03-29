@@ -28,8 +28,8 @@ var APCALC_MCQ = [
     "isLatex": true,
     "choices": [
       "0",
-      "\\frac{5}{7}",
-      "\\frac{5}{3}",
+      "$\\frac{5}{7}$",
+      "$\\frac{5}{3}$",
       "The limit does not exist"
     ],
     "answer": 2,
@@ -60,13 +60,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "Which of the following is true about f(x) = \\frac{x^2 - x - 6}{x - 3}?",
+    "question": "Which of the following is true about f(x) = $\\frac{x^2 - x - 6}{x - 3}$?",
     "isLatex": true,
     "choices": [
       "f is continuous at x = 3",
       "f has a vertical asymptote at x = 3",
       "f has a removable discontinuity at x = 3",
-      "\\lim_{x \\to 3} f(x) does not exist"
+      "$\\lim_{x \\to 3} f(x)$ does not exist"
     ],
     "answer": 2,
     "explanation": "Factor: (x-3)(x+2)/(x-3) = x+2. The limit as x→3 equals 5, but f(3) is undefined.\nRemovable discontinuity."
@@ -81,10 +81,10 @@ var APCALC_MCQ = [
     "question": "\\lim_{x \\to 0^+} \\frac{1}{x} =",
     "isLatex": true,
     "choices": [
-      "-\\infty",
+      "$-\\infty$",
       "0",
       "1",
-      "+\\infty"
+      "$+\\infty$"
     ],
     "answer": 3,
     "explanation": "As x approaches 0 from the right, 1/x grows without bound."
@@ -100,7 +100,7 @@ var APCALC_MCQ = [
     "isLatex": true,
     "choices": [
       "0",
-      "\\frac{1}{2}",
+      "$\\frac{1}{2}$",
       "1",
       "The limit does not exist"
     ],
@@ -135,10 +135,10 @@ var APCALC_MCQ = [
     "question": "\\lim_{x \\to -\\infty} \\frac{2x^2 - 3}{x + 4} =",
     "isLatex": true,
     "choices": [
-      "-\\infty",
+      "$-\\infty$",
       "-2",
       "2",
-      "+\\infty"
+      "$+\\infty$"
     ],
     "answer": 0,
     "explanation": "Numerator grows as x², denominator grows as x. The ratio behaves like 2x →\n-∞ as x → -∞."
@@ -283,9 +283,9 @@ var APCALC_MCQ = [
     "question": "\\lim_{x \\to 1} \\frac{x^3 - 1}{x^2 - 1} =",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{2}",
+      "$\\frac{1}{2}$",
       "1",
-      "\\frac{3}{2}",
+      "$\\frac{3}{2}$",
       "3"
     ],
     "answer": 2,
@@ -321,8 +321,8 @@ var APCALC_MCQ = [
     "choices": [
       "0",
       "2",
-      "\\frac{3}{5}",
-      "\\infty"
+      "$\\frac{3}{5}$",
+      "$\\infty$"
     ],
     "answer": 0,
     "explanation": "Degree of numerator (2) is less than degree of denominator (3), so the limit is\n0."
@@ -355,8 +355,8 @@ var APCALC_MCQ = [
     "question": "\\lim_{x \\to 0} \\frac{\\tan(3x)}{\\sin(5x)} =",
     "isLatex": true,
     "choices": [
-      "\\frac{3}{5}",
-      "\\frac{5}{3}",
+      "$\\frac{3}{5}$",
+      "$\\frac{5}{3}$",
       "1",
       "0"
     ],
@@ -429,10 +429,10 @@ var APCALC_MCQ = [
     "question": "Which of the following is the definition of f'(x)?",
     "isLatex": false,
     "choices": [
-      "\\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}",
-      "\\lim_{h \\to 0} \\frac{f(x) - f(x+h)}{h}",
-      "\\lim_{h \\to 0} \\frac{f(x+h) + f(x)}{h}",
-      "\\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{x}"
+      "$\\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$",
+      "$\\lim_{h \\to 0} \\frac{f(x) - f(x+h)}{h}$",
+      "$\\lim_{h \\to 0} \\frac{f(x+h) + f(x)}{h}$",
+      "$\\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{x}$"
     ],
     "answer": 0,
     "explanation": "The derivative of f at x is defined as the limit of the difference quotient as h\napproaches 0."
@@ -504,7 +504,7 @@ var APCALC_MCQ = [
       "x^4",
       "5x^4",
       "5x^6",
-      "\\frac{x^6}{6}"
+      "$\\frac{x^6}{6}$"
     ],
     "answer": 1,
     "explanation": "By the power rule, d/dx[xⁿ] = nxⁿ⁻¹. So d/dx[x⁵] = 5x⁴."
@@ -516,13 +516,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = \\frac{1}{x^7}, then f'(x) =",
+    "question": "If f(x) = $\\frac{1}{x^7}$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{7x^6}",
-      "\\frac{7}{x^8}",
-      "\\frac{-7}{x^8}",
-      "\\frac{-1}{7x^6}"
+      "$\\frac{1}{7x^6}$",
+      "$\\frac{7}{x^8}$",
+      "$\\frac{-7}{x^8}$",
+      "$\\frac{-1}{7x^6}$"
     ],
     "answer": 2,
     "explanation": "Rewrite as x⁻⁷. By the power rule, f'(x) = -7x⁻⁸ = -7/x⁸."
@@ -534,13 +534,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = \\sqrt[4]{x}, then f'(x) =",
+    "question": "If f(x) = $\\sqrt[4]{x}$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{4}x^{3/4}",
-      "\\frac{1}{4}x^{-3/4}",
+      "$\\frac{1}{4}x^{3/4}$",
+      "$\\frac{1}{4}x^{-3/4}$",
       "4x^{3/4}",
-      "\\frac{-1}{4}x^{-3/4}"
+      "$\\frac{-1}{4}x^{-3/4}$"
     ],
     "answer": 1,
     "explanation": "Rewrite as x^(1/4). By the power rule, f'(x) = (1/4)x^(1/4 - 1) = (1/4)x^(-3/4)."
@@ -552,13 +552,13 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = 4\\sin x - 3\\cos x, then f'(x) =",
+    "question": "If f(x) = $4\\sin x - 3\\cos x$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "-4\\cos x - 3\\sin x",
-      "4\\cos x + 3\\sin x",
-      "-4\\cos x + 3\\sin x",
-      "4\\cos x - 3\\sin x"
+      "$-4\\cos x - 3\\sin x$",
+      "$4\\cos x + 3\\sin x$",
+      "$-4\\cos x + 3\\sin x$",
+      "$4\\cos x - 3\\sin x$"
     ],
     "answer": 1,
     "explanation": "d/dx[sin x] = cos x and d/dx[-cos x] = sin x. So f'(x) = 4cos x + 3sin x."
@@ -588,13 +588,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = x^3 \\sin x, then f'(x) =",
+    "question": "If f(x) = $x^3 \\sin x$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "3x^2 \\cos x",
-      "x^3 \\cos x + 3x^2 \\sin x",
-      "3x^2 \\sin x - x^3 \\cos x",
-      "3x^2 \\sin x - x^3 \\cos x"
+      "$3x^2 \\cos x$",
+      "$x^3 \\cos x + 3x^2 \\sin x$",
+      "$3x^2 \\sin x - x^3 \\cos x$",
+      "$3x^2 \\sin x - x^3 \\cos x$"
     ],
     "answer": 2,
     "explanation": "By the product rule: f'(x) = (x³)'sin x + x³(sin x)' = 3x²sin x + x³cos x."
@@ -642,13 +642,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = \\frac{2x^2 - 1}{5x + 3}, then f'(x) =",
+    "question": "If f(x) = $\\frac{2x^2 - 1}{5x + 3}$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "\\frac{4x}{5}",
-      "\\frac{10x^2 + 12x + 5}{(5x+3)^2}",
-      "\\frac{4x(5x+3) + 5(2x^2-1)}{(5x+3)^2}",
-      "\\frac{4x(5x+3) - 5(2x^2-1)}{(5x+3)^2}"
+      "$\\frac{4x}{5}$",
+      "$\\frac{10x^2 + 12x + 5}{(5x+3)^2}$",
+      "$\\frac{4x(5x+3) + 5(2x^2-1)}{(5x+3)^2}$",
+      "$\\frac{4x(5x+3) - 5(2x^2-1)}{(5x+3)^2}$"
     ],
     "answer": 3,
     "explanation": "Quotient rule: [lo·d(hi) - hi·d(lo)] / lo². = [(5x+3)(4x) - (2x²-1)(5)] / (5x+3)²."
@@ -660,7 +660,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "What is the slope of the line tangent to y = \\frac{9x^2}{x+2} at x = 1?",
+    "question": "What is the slope of the line tangent to y = $\\frac{9x^2}{x+2}$ at x = 1?",
     "isLatex": true,
     "choices": [
       "3",
@@ -696,13 +696,13 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = 3\\ln x + x^2, then f'(x) =",
+    "question": "If f(x) = $3\\ln x + x^2$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "\\frac{3}{x} + 2x",
-      "\\frac{1}{3x} + 2x",
-      "3\\ln x + 2x",
-      "\\frac{3}{x^2} + 2x"
+      "$\\frac{3}{x} + 2x$",
+      "$\\frac{1}{3x} + 2x$",
+      "$3\\ln x + 2x$",
+      "$\\frac{3}{x^2} + 2x$"
     ],
     "answer": 0,
     "explanation": "d/dx[ln x] = 1/x. So f'(x) = 3/x + 2x."
@@ -772,9 +772,9 @@ var APCALC_MCQ = [
     "question": "\\lim_{h \\to 0} \\frac{\\sin(\\frac{\\pi}{6} + h) - \\sin(\\frac{\\pi}{6})}{h} =",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{2}",
-      "\\frac{\\sqrt{2}}{2}",
-      "\\frac{\\sqrt{3}}{2}",
+      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$\\frac{\\sqrt{3}}{2}$",
       "1"
     ],
     "answer": 2,
@@ -838,13 +838,13 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": false,
     "format": "algebraic",
-    "question": "Let g(x) = \\lim_{h \\to 0} \\frac{\\sin(x+h) - \\sin x}{h}. What is the instantaneous rate\nof change of g at x = \\frac{\\pi}{3}?",
+    "question": "Let g(x) = $\\lim_{h \\to 0} \\frac{\\sin(x+h) - \\sin x}{h}$. What is the instantaneous rate\nof change of g at x = $\\frac{\\pi}{3}$?",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{2}",
-      "\\frac{\\sqrt{2}}{2}",
-      "\\frac{\\sqrt{3}}{2}",
-      "-\\frac{\\sqrt{3}}{2}"
+      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$-\\frac{\\sqrt{3}}{2}$"
     ],
     "answer": 3,
     "explanation": "g(x) is the derivative of sin x, so g(x) = cos x. The instantaneous rate of change\nof g at x = π/3 is g'(π/3) = -sin(π/3) = -√3/2."
@@ -874,13 +874,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = \\sin(x^3), then f'(x) =",
+    "question": "If f(x) = $\\sin(x^3)$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "\\cos(x^3)",
-      "3x^2 \\cos(x^3)",
-      "-3x^2 \\cos(x^3)",
-      "3x^2 \\sin(x^3)"
+      "$\\cos(x^3)$",
+      "$3x^2 \\cos(x^3)$",
+      "$-3x^2 \\cos(x^3)$",
+      "$3x^2 \\sin(x^3)$"
     ],
     "answer": 1,
     "explanation": "Chain rule: d/dx[sin(u)] = cos(u)·u'. Here u = x³, u' = 3x². So f'(x) = cos(x³)·3x²."
@@ -898,7 +898,7 @@ var APCALC_MCQ = [
       "e^{3x^2 - x}",
       "(6x - 1)e^{3x^2 - x}",
       "(3x^2 - x)e^{3x^2 - x - 1}",
-      "6x \\cdot e^{3x^2 - x}"
+      "$6x \\cdot e^{3x^2 - x}$"
     ],
     "answer": 1,
     "explanation": "d/dx[eᵘ] = eᵘ·u'. Here u = 3x²-x, u' = 6x-1. So f'(x) = (6x-1)e^(3x²-x)."
@@ -910,7 +910,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "For which of the following functions is the chain rule an appropriate method to find\nthe derivative? I. f(x) = sin(x²) II. f(x) = x²sin(x) III. f(x) = \\sqrt{\\ln x}",
+    "question": "For which of the following functions is the chain rule an appropriate method to find\nthe derivative? I. f(x) = sin(x²) II. f(x) = x²sin(x) III. f(x) = $\\sqrt{\\ln x}$",
     "isLatex": true,
     "choices": [
       "I only",
@@ -928,10 +928,10 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": false,
     "format": "algebraic",
-    "question": "If h(x) = x^2 \\cdot e^{4x}, then h'(x) =",
+    "question": "If h(x) = $x^2 \\cdot e^{4x}$, then h'(x) =",
     "isLatex": true,
     "choices": [
-      "2x \\cdot e^{4x}",
+      "$2x \\cdot e^{4x}$",
       "4x^2 e^{4x} + 2xe^{4x}",
       "2xe^{4x} - 4x^2 e^{4x}",
       "8xe^{4x}"
@@ -989,13 +989,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If x^2 + y^2 = 25, what is \\frac{dy}{dx}?",
+    "question": "If x^2 + y^2 = 25, what is $\\frac{dy}{dx}$?",
     "isLatex": true,
     "choices": [
-      "\\frac{x}{y}",
-      "\\frac{-x}{y}",
-      "\\frac{y}{x}",
-      "\\frac{-y}{x}"
+      "$\\frac{x}{y}$",
+      "$\\frac{-x}{y}$",
+      "$\\frac{y}{x}$",
+      "$\\frac{-y}{x}$"
     ],
     "answer": 1,
     "explanation": "Differentiate both sides: 2x + 2y·(dy/dx) = 0. Solve: dy/dx = -x/y."
@@ -1010,10 +1010,10 @@ var APCALC_MCQ = [
     "question": "What is the slope of the tangent to x^2 + xy + y^2 = 7 at the point (1, 2)?",
     "isLatex": true,
     "choices": [
-      "-\\frac{4}{5}",
-      "-\\frac{2}{3}",
-      "\\frac{2}{3}",
-      "\\frac{4}{5}"
+      "$-\\frac{4}{5}$",
+      "$-\\frac{2}{3}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{4}{5}$"
     ],
     "answer": 0,
     "explanation": "Differentiate implicitly: 2x + y + x·(dy/dx) + 2y·(dy/dx) = 0. Solve for dy/dx: dy/dx\n= -(2x+y)/(x+2y). At (1,2): -(2+2)/(1+4) = -4/5."
@@ -1025,13 +1025,13 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": false,
     "format": "algebraic",
-    "question": "If \\tan(xy) = x, what is \\frac{dy}{dx}?",
+    "question": "If $\\tan(xy) = x$, what is $\\frac{dy}{dx}$?",
     "isLatex": true,
     "choices": [
-      "\\frac{\\cos^2(xy) - y}{x}",
-      "\\frac{1 - y\\cos^2(xy)}{x\\cos^2(xy)}",
-      "\\frac{\\sec^2(xy) - y}{x}",
-      "\\cos^2(xy)"
+      "$\\frac{\\cos^2(xy) - y}{x}$",
+      "$\\frac{1 - y\\cos^2(xy)}{x\\cos^2(xy)}$",
+      "$\\frac{\\sec^2(xy) - y}{x}$",
+      "$\\cos^2(xy)$"
     ],
     "answer": 0,
     "explanation": "Differentiate: sec²(xy)·(y + x·dy/dx) = 1. Solving for dy/dx: x·sec²(xy)·dy/dx = 1 - y·sec²(xy), so dy/dx = (1 - y·sec²(xy)) / (x·sec²(xy)). Multiplying numerator and denominator by cos²(xy) simplifies to (cos²(xy) - y) / x."
@@ -1087,9 +1087,9 @@ var APCALC_MCQ = [
     "isLatex": false,
     "choices": [
       "4",
-      "\\frac{1}{7}",
-      "\\frac{1}{4}",
-      "\\frac{1}{3}"
+      "$\\frac{1}{7}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{3}$"
     ],
     "answer": 2,
     "explanation": "The derivative of an inverse function: (f⁻¹)'(b) = 1/f'(a) where f(a) = b. Since f(3) =\n7, (f⁻¹)'(7) = 1/f'(3) = 1/4."
@@ -1120,13 +1120,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = \\arcsin(2x), then f'(x) =",
+    "question": "If f(x) = $\\arcsin(2x)$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{\\sqrt{1-4x^2}}",
-      "\\frac{2}{\\sqrt{1-4x^2}}",
-      "\\frac{1}{\\sqrt{1-2x^2}}",
-      "\\frac{2}{\\sqrt{1-2x}}"
+      "$\\frac{1}{\\sqrt{1-4x^2}}$",
+      "$\\frac{2}{\\sqrt{1-4x^2}}$",
+      "$\\frac{1}{\\sqrt{1-2x^2}}$",
+      "$\\frac{2}{\\sqrt{1-2x}}$"
     ],
     "answer": 1,
     "explanation": "d/dx[arcsin(u)] = u'/√(1-u²). Here u = 2x, u' = 2. So f'(x) = 2/√(1-(2x)²) =\n2/√(1-4x²)."
@@ -1138,13 +1138,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = \\arctan(x^2), then f'(x) =",
+    "question": "If f(x) = $\\arctan(x^2)$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{1+x^4}",
-      "\\frac{2x}{1+x^2}",
-      "\\frac{2x}{1+x^4}",
-      "\\frac{1}{1+x^2}"
+      "$\\frac{1}{1+x^4}$",
+      "$\\frac{2x}{1+x^2}$",
+      "$\\frac{2x}{1+x^4}$",
+      "$\\frac{1}{1+x^2}$"
     ],
     "answer": 2,
     "explanation": "d/dx[arctan(u)] = u'/(1+u²). Here u = x², u' = 2x. So f'(x) = 2x/(1+(x²)²) =\n2x/(1+x⁴)."
@@ -1156,13 +1156,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = \\ln(x^2 + 5), then f'(x) =",
+    "question": "If f(x) = $\\ln(x^2 + 5)$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{x^2+5}",
-      "\\frac{x}{x^2+5}",
-      "\\frac{2x}{x^2+5}",
-      "\\frac{2x}{(x^2+5)^2}"
+      "$\\frac{1}{x^2+5}$",
+      "$\\frac{x}{x^2+5}$",
+      "$\\frac{2x}{x^2+5}$",
+      "$\\frac{2x}{(x^2+5)^2}$"
     ],
     "answer": 2,
     "explanation": "d/dx[ln(u)] = u'/u. Here u = x²+5, u' = 2x. So f'(x) = 2x/(x²+5)."
@@ -1174,13 +1174,13 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = \\sin^3(e^x), then f'(x) =",
+    "question": "If f(x) = $\\sin^3(e^x)$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "3\\sin^2(e^x)\\cos(e^x)",
-      "3e^x\\sin^2(e^x)\\cos(e^x)",
-      "3e^x\\cos^2(e^x)\\sin(e^x)",
-      "e^x\\sin^2(e^x)\\cos(e^x)"
+      "$3\\sin^2(e^x)\\cos(e^x)$",
+      "$3e^x\\sin^2(e^x)\\cos(e^x)$",
+      "$3e^x\\cos^2(e^x)\\sin(e^x)$",
+      "$e^x\\sin^2(e^x)\\cos(e^x)$"
     ],
     "answer": 1,
     "explanation": "Apply the chain rule twice: d/dx[sin³(eˣ)] = 3sin²(eˣ)·cos(eˣ)·eˣ. The outer chain (power rule on sin³) gives 3sin², the middle chain (derivative of sin) gives cos(eˣ), and the inner chain gives eˣ."
@@ -1192,13 +1192,13 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": false,
     "format": "algebraic",
-    "question": "If x^2 + y^2 = 16, what is \\frac{d^2y}{dx^2}?",
+    "question": "If x^2 + y^2 = 16, what is $\\frac{d^2y}{dx^2}$?",
     "isLatex": true,
     "choices": [
-      "\\frac{-1}{y}",
-      "\\frac{-16}{y^3}",
-      "\\frac{-x^2+y^2}{y^3}",
-      "\\frac{1}{y}"
+      "$\\frac{-1}{y}$",
+      "$\\frac{-16}{y^3}$",
+      "$\\frac{-x^2+y^2}{y^3}$",
+      "$\\frac{1}{y}$"
     ],
     "answer": 1,
     "explanation": "dy/dx = -x/y. d²y/dx² = d/dx[-x/y] = [-y - (-x)(dy/dx)] / y² = [-y + x(-x/y)] / y² = [-(y² +\nx²)/y] / y² = -16/y³, using x²+y²=16."
@@ -1215,7 +1215,7 @@ var APCALC_MCQ = [
     "choices": [
       "3(f(x))^2",
       "3f'(x)",
-      "3(f(x))^2 \\cdot f'(x)",
+      "$3(f(x))^2 \\cdot f'(x)$",
       "3(f'(x))^2"
     ],
     "answer": 2,
@@ -1228,12 +1228,12 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": false,
     "format": "algebraic",
-    "question": "Let f be a differentiable function defined by f(x) = \\int_0^x (t^2 + 1) \\, dt, where x ≥\n0. If g is the inverse of f, what is g'(0)?",
+    "question": "Let f be a differentiable function defined by f(x) = $\\int_0^x (t^2 + 1)$ \\, dt, where x ≥\n0. If g is the inverse of f, what is g'(0)?",
     "isLatex": true,
     "choices": [
       "0",
       "1",
-      "\\frac{1}{2}",
+      "$\\frac{1}{2}$",
       "2"
     ],
     "answer": 1,
@@ -1246,13 +1246,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = \\cos^2(3x), what is f'\\left(\\frac{\\pi}{12}\\right)?",
+    "question": "If f(x) = $\\cos^2(3x)$, what is f'$\\left(\\frac{\\pi}{12}\\right)$?",
     "isLatex": true,
     "choices": [
-      "-\\frac{3}{2}",
-      "-\\frac{3\\sqrt{3}}{2}",
+      "$-\\frac{3}{2}$",
+      "$-\\frac{3\\sqrt{3}}{2}$",
       "-3",
-      "-3\\sqrt{3}"
+      "$-3\\sqrt{3}$"
     ],
     "answer": 2,
     "explanation": "f'(x) = 2cos(3x)·(-sin(3x))·3 = -6cos(3x)sin(3x) = -3sin(6x). At x=π/12: -3sin(π/2)\n= -3."
@@ -1267,9 +1267,9 @@ var APCALC_MCQ = [
     "question": "The curve x³ + y³ = 9 passes through (1, 2). What is the equation of the tangent\nline at (1, 2)?",
     "isLatex": false,
     "choices": [
-      "y = -\\frac{1}{4}x + \\frac{9}{4}",
-      "y = -\\frac{1}{4}x + \\frac{7}{4}",
-      "y = \\frac{1}{4}x + \\frac{7}{4}",
+      "$y = -\\frac{1}{4}x + \\frac{9}{4}$",
+      "$y = -\\frac{1}{4}x + \\frac{7}{4}$",
+      "$y = \\frac{1}{4}x + \\frac{7}{4}$",
       "y = -4x + 6"
     ],
     "answer": 0,
@@ -1282,13 +1282,13 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": false,
     "format": "algebraic",
-    "question": "The position of a particle is given by s(t) = \\sin^2(3t). What is the velocity of the\nparticle at t = \\frac{\\pi}{6}?",
+    "question": "The position of a particle is given by s(t) = $\\sin^2(3t)$. What is the velocity of the\nparticle at t = $\\frac{\\pi}{6}$?",
     "isLatex": true,
     "choices": [
       "0",
       "3",
       "6",
-      "3\\sqrt{3}"
+      "$3\\sqrt{3}$"
     ],
     "answer": 0,
     "explanation": "s'(t) = 2sin(3t)·cos(3t)·3 = 3sin(6t). At t=π/6: 3sin(π) = 0."
@@ -1300,13 +1300,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f(x) = x\\arccos(x), then f'(x) =",
+    "question": "If f(x) = $x\\arccos(x)$, then f'(x) =",
     "isLatex": true,
     "choices": [
-      "\\arccos(x) + \\frac{x}{\\sqrt{1-x^2}}",
-      "\\arccos(x) - \\frac{x}{\\sqrt{1-x^2}}",
-      "-\\frac{x}{\\sqrt{1-x^2}}",
-      "\\arccos(x) + \\frac{1}{\\sqrt{1-x^2}}"
+      "$\\arccos(x) + \\frac{x}{\\sqrt{1-x^2}}$",
+      "$\\arccos(x) - \\frac{x}{\\sqrt{1-x^2}}$",
+      "$-\\frac{x}{\\sqrt{1-x^2}}$",
+      "$\\arccos(x) + \\frac{1}{\\sqrt{1-x^2}}$"
     ],
     "answer": 1,
     "explanation": "Product rule: f'(x) = (x)'arccos(x) + x·(arccos(x))' = arccos(x) + x·(-1/√(1-x²)) =\narccos(x) - x/√(1-x²)."
@@ -1318,7 +1318,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": false,
     "format": "algebraic",
-    "question": "If e^{xy} = x + y, what is \\frac{dy}{dx} at the point (0, 1)?",
+    "question": "If e^{xy} = x + y, what is $\\frac{dy}{dx}$ at the point (0, 1)?",
     "isLatex": true,
     "choices": [
       "-1",
@@ -1445,13 +1445,13 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "A particle moves along a straight line with velocity v(t) = 3sin(t). What is the\nacceleration of the particle at t = \\pi?",
+    "question": "A particle moves along a straight line with velocity v(t) = 3sin(t). What is the\nacceleration of the particle at t = $\\pi$?",
     "isLatex": true,
     "choices": [
       "-3",
       "0",
       "3",
-      "\\frac{3\\pi}{2}"
+      "$\\frac{3\\pi}{2}$"
     ],
     "answer": 0,
     "explanation": "a(t) = v'(t) = 3cos(t). At t = π: a(π) = 3cos(π) = 3(-1) = -3."
@@ -1520,10 +1520,10 @@ var APCALC_MCQ = [
     "question": "The radius of a circle is increasing at a constant rate of 0.2 meters per second.\nWhat is the rate of increase of the area when the circumference is 10π meters?",
     "isLatex": true,
     "choices": [
-      "\\pi \\text{ m}^2/\\text{s}",
-      "2\\pi \\text{ m}^2/\\text{s}",
-      "\\pi^2 \\text{ m}^2/\\text{s}",
-      "4\\pi \\text{ m}^2/\\text{s}"
+      "$\\pi \\text{ m}^2/\\text{s}$",
+      "$2\\pi \\text{ m}^2/\\text{s}$",
+      "$\\pi^2 \\text{ m}^2/\\text{s}$",
+      "$4\\pi \\text{ m}^2/\\text{s}$"
     ],
     "answer": 1,
     "explanation": "Circumference = 2πr = 10π → r = 5. A = πr², dA/dt = 2πr · dr/dt = 2π(5)(0.2) =\n2π m²/s."
@@ -1538,10 +1538,10 @@ var APCALC_MCQ = [
     "question": "The radius of a sphere is decreasing at a rate of 2 cm/s. At what rate is the surface\narea changing when the radius is 5 cm? (Surface area S = 4πr²)",
     "isLatex": true,
     "choices": [
-      "-80\\pi \\text{ cm}^2/\\text{s}",
-      "-40\\pi \\text{ cm}^2/\\text{s}",
-      "40\\pi \\text{ cm}^2/\\text{s}",
-      "-20\\pi \\text{ cm}^2/\\text{s}"
+      "$-80\\pi \\text{ cm}^2/\\text{s}$",
+      "$-40\\pi \\text{ cm}^2/\\text{s}$",
+      "$40\\pi \\text{ cm}^2/\\text{s}$",
+      "$-20\\pi \\text{ cm}^2/\\text{s}$"
     ],
     "answer": 0,
     "explanation": "dS/dt = 8πr · dr/dt = 8π(5)(-2) = -80π cm²/s."
@@ -1666,7 +1666,7 @@ var APCALC_MCQ = [
     "choices": [
       "3",
       "6",
-      "\\infty",
+      "$\\infty$",
       "0"
     ],
     "answer": 3,
@@ -1683,8 +1683,8 @@ var APCALC_MCQ = [
     "isLatex": true,
     "choices": [
       "0",
-      "\\frac{1}{6}",
-      "\\frac{1}{3}",
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{3}$",
       "1"
     ],
     "answer": 1,
@@ -1700,7 +1700,7 @@ var APCALC_MCQ = [
     "question": "\\lim_{x \\to 0^+} x \\ln x =",
     "isLatex": true,
     "choices": [
-      "-\\infty",
+      "$-\\infty$",
       "-1",
       "0",
       "1"
@@ -1718,10 +1718,10 @@ var APCALC_MCQ = [
     "question": "The radius of a right circular cylinder is increasing at 4 units/s and the height is\ndecreasing at 6 units/s. Which expression gives the rate of change of the volume? (V = πr²h)",
     "isLatex": true,
     "choices": [
-      "\\pi(8rh - 6r^2)",
-      "\\pi(8rh + 6r^2)",
-      "\\pi(4rh - 6r^2)",
-      "\\pi(2r - 6h)"
+      "$\\pi(8rh - 6r^2)$",
+      "$\\pi(8rh + 6r^2)$",
+      "$\\pi(4rh - 6r^2)$",
+      "$\\pi(2r - 6h)$"
     ],
     "answer": 0,
     "explanation": "dV/dt = π[2r(dr/dt)h + r²(dh/dt)] = π[2r(4)h + r²(-6)] = π(8rh - 6r²)."
@@ -1792,8 +1792,8 @@ var APCALC_MCQ = [
     "choices": [
       "-2C",
       "-C",
-      "-4\\pi",
-      "\\frac{-C}{\\pi}"
+      "$-4\\pi$",
+      "$\\frac{-C}{\\pi}$"
     ],
     "answer": 0,
     "explanation": "A = πr², dA/dt = 2πr(dr/dt) = 2πr(-2) = -4πr. Since C = 2πr, we have r = C/(2π).\ndA/dt = -4π(C/2π) = -2C."
@@ -1808,10 +1808,10 @@ var APCALC_MCQ = [
     "question": "For which of the following limits is L'Hôpital's Rule directly applicable?",
     "isLatex": false,
     "choices": [
-      "\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}",
-      "\\lim_{x \\to \\infty} \\frac{\\ln x}{x}",
-      "\\lim_{x \\to 0} \\frac{\\sin x}{x^2 + 1}",
-      "\\lim_{x \\to 1} \\frac{x^3 + 2}{x - 1}"
+      "$\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$",
+      "$\\lim_{x \\to \\infty} \\frac{\\ln x}{x}$",
+      "$\\lim_{x \\to 0} \\frac{\\sin x}{x^2 + 1}$",
+      "$\\lim_{x \\to 1} \\frac{x^3 + 2}{x - 1}$"
     ],
     "answer": 1,
     "explanation": "L'Hôpital's applies to 0/0 or ∞/∞ forms. Choice B gives ∞/∞ as x→∞. Choice A is\n0/0 but factors easily. Choice C gives 0/1 (not indeterminate). Choice D gives 3/0 (not\nindeterminate — it's a vertical asymptote)."
@@ -2329,9 +2329,9 @@ var APCALC_MCQ = [
     "isLatex": true,
     "choices": [
       "1",
-      "\\sqrt{2}",
+      "$\\sqrt{2}$",
       "2",
-      "-\\sqrt{2}"
+      "$-\\sqrt{2}$"
     ],
     "answer": 1,
     "explanation": "f'(x) = cos(x) - sin(x) = 0 → tan(x) = 1 → x = π/4 and 5π/4. f(π/4) = √2/2 + √2/2 =\n√2. f(5π/4) = -√2. Check endpoints: f(0) = 1, f(2π) = 1. Absolute max is √2."
@@ -2494,8 +2494,8 @@ var APCALC_MCQ = [
     "choices": [
       "r(5) - r(0)",
       "r'(5)",
-      "\\int_0^5 r(t) \\, dt",
-      "5 \\cdot r(5)"
+      "$\\int_0^5 r(t)$ \\, dt",
+      "$5 \\cdot r(5)$"
     ],
     "answer": 2,
     "explanation": "The definite integral of a rate function over an interval gives the total\naccumulated change (net amount). ∫₀⁵ r(t) dt gives total gallons accumulated from t=0 to t=5."
@@ -2781,11 +2781,11 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If g(x) = \\int_0^x (t^2 + 1) \\, dt, then g'(x) =",
+    "question": "If g(x) = $\\int_0^x (t^2 + 1)$ \\, dt, then g'(x) =",
     "isLatex": true,
     "choices": [
       "x^2 + 1",
-      "\\frac{x^3}{3} + x",
+      "$\\frac{x^3}{3} + x$",
       "2x",
       "x^2"
     ],
@@ -2799,13 +2799,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If h(x) = \\int_0^{x^2} \\sin(t) \\, dt, then h'(x) =",
+    "question": "If h(x) = $\\int_0^{x^2} \\sin(t)$ \\, dt, then h'(x) =",
     "isLatex": true,
     "choices": [
-      "\\sin(x^2)",
-      "2x\\sin(x^2)",
-      "\\cos(x^2)",
-      "2x\\cos(x^2)"
+      "$\\sin(x^2)$",
+      "$2x\\sin(x^2)$",
+      "$\\cos(x^2)$",
+      "$2x\\cos(x^2)$"
     ],
     "answer": 1,
     "explanation": "FTC Part 1 with chain rule: h'(x) = sin(x²) · d/dx[x²] = sin(x²) · 2x = 2x·sin(x²)."
@@ -2817,7 +2817,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": false,
     "format": "algebraic",
-    "question": "If F(x) = \\int_{x}^{x^3} e^t \\, dt, then F'(x) =",
+    "question": "If F(x) = $\\int_{x}^{x^3} e^t$ \\, dt, then F'(x) =",
     "isLatex": true,
     "choices": [
       "e^{x^3} - e^x",
@@ -2966,10 +2966,10 @@ var APCALC_MCQ = [
     "question": "\\int (\\cos x + 3\\sin x) \\, dx =",
     "isLatex": true,
     "choices": [
-      "\\sin x + 3\\cos x + C",
-      "-\\sin x + 3\\cos x + C",
-      "\\sin x - 3\\cos x + C",
-      "-\\sin x - 3\\cos x + C"
+      "$\\sin x + 3\\cos x + C$",
+      "$-\\sin x + 3\\cos x + C$",
+      "$\\sin x - 3\\cos x + C$",
+      "$-\\sin x - 3\\cos x + C$"
     ],
     "answer": 2,
     "explanation": "∫cos x dx = sin x, ∫3sin x dx = -3cos x. Total: sin x - 3cos x + C."
@@ -2984,10 +2984,10 @@ var APCALC_MCQ = [
     "question": "\\int \\left( e^x + \\frac{2}{x} \\right) dx =",
     "isLatex": true,
     "choices": [
-      "e^x + 2\\ln|x| + C",
-      "e^x + \\frac{2}{x^2} + C",
-      "xe^{x-1} + 2\\ln|x| + C",
-      "e^x - \\frac{2}{x^2} + C"
+      "e^x + $2\\ln$|x| + C",
+      "$e^x + \\frac{2}{x^2} + C$",
+      "xe^{x-1} + $2\\ln$|x| + C",
+      "$e^x - \\frac{2}{x^2} + C$"
     ],
     "answer": 0,
     "explanation": "∫eˣ dx = eˣ, ∫(2/x) dx = 2ln|x|. Total: eˣ + 2ln|x| + C."
@@ -3020,10 +3020,10 @@ var APCALC_MCQ = [
     "question": "\\int 2x(x^2 + 1)^4 \\, dx =",
     "isLatex": true,
     "choices": [
-      "\\frac{(x^2+1)^5}{5} + C",
-      "\\frac{(x^2+1)^4}{4} + C",
+      "$\\frac{(x^2+1)^5}{5} + C$",
+      "$\\frac{(x^2+1)^4}{4} + C$",
       "8x(x^2+1)^3 + C",
-      "\\frac{2x(x^2+1)^5}{5} + C"
+      "$\\frac{2x(x^2+1)^5}{5} + C$"
     ],
     "answer": 0,
     "explanation": "Let u = x²+1, du = 2x dx. Integral becomes ∫u⁴ du = u⁵/5 + C = (x²+1)⁵/5 + C."
@@ -3038,10 +3038,10 @@ var APCALC_MCQ = [
     "question": "\\int \\cos(3x) \\, dx =",
     "isLatex": true,
     "choices": [
-      "-\\sin(3x) + C",
-      "3\\sin(3x) + C",
-      "\\frac{\\sin(3x)}{3} + C",
-      "-3\\sin(3x) + C"
+      "$-\\sin(3x) + C$",
+      "$3\\sin(3x) + C$",
+      "$\\frac{\\sin(3x)}{3} + C$",
+      "$-3\\sin(3x) + C$"
     ],
     "answer": 2,
     "explanation": "Let u = 3x, du = 3 dx, dx = du/3. ∫cos(u)·(du/3) = (1/3)sin(u) + C = sin(3x)/3 + C."
@@ -3057,7 +3057,7 @@ var APCALC_MCQ = [
     "isLatex": true,
     "choices": [
       "e^{x^2} + C",
-      "\\frac{e^{x^2}}{2} + C",
+      "$\\frac{e^{x^2}}{2} + C$",
       "2xe^{x^2} + C",
       "x^2 e^{x^2} + C"
     ],
@@ -3074,10 +3074,10 @@ var APCALC_MCQ = [
     "question": "\\int_0^1 3x^2(x^3 + 1)^4 \\, dx =",
     "isLatex": true,
     "choices": [
-      "\\frac{31}{5}",
-      "\\frac{32}{5}",
-      "\\frac{63}{5}",
-      "\\frac{1}{5}"
+      "$\\frac{31}{5}$",
+      "$\\frac{32}{5}$",
+      "$\\frac{63}{5}$",
+      "$\\frac{1}{5}$"
     ],
     "answer": 0,
     "explanation": "Let u = x³+1, du = 3x² dx. Limits: x=0→u=1, x=1→u=2. ∫₁² u⁴ du = [u⁵/5]₁² = 32/5\n- 1/5 = 31/5."
@@ -3092,10 +3092,10 @@ var APCALC_MCQ = [
     "question": "\\int \\frac{2x}{x^2 + 3} \\, dx =",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{x^2+3} + C",
-      "2\\ln|x^2+3| + C",
-      "\\ln|x^2+3| + C",
-      "\\frac{\\ln|x^2+3|}{2} + C"
+      "$\\frac{1}{x^2+3} + C$",
+      "$2\\ln|x^2+3| + C$",
+      "$\\ln|x^2+3| + C$",
+      "$\\frac{\\ln|x^2+3|}{2} + C$"
     ],
     "answer": 2,
     "explanation": "Let u = x²+3, du = 2x dx. ∫(1/u) du = ln|u| + C = ln|x²+3| + C."
@@ -3128,9 +3128,9 @@ var APCALC_MCQ = [
     "question": "\\int_0^2 \\sqrt{4 - x^2} \\, dx =",
     "isLatex": true,
     "choices": [
-      "\\pi",
-      "2\\pi",
-      "\\frac{\\pi}{2}",
+      "$\\pi$",
+      "$2\\pi$",
+      "$\\frac{\\pi}{2}$",
       "4"
     ],
     "answer": 0,
@@ -3165,10 +3165,10 @@ var APCALC_MCQ = [
     "question": "Which of the following must equal zero?",
     "isLatex": true,
     "choices": [
-      "\\int_{-2}^{2} x^2 \\, dx",
-      "\\int_{-\\pi}^{\\pi} \\cos x \\, dx",
-      "\\int_{-3}^{3} x^4 \\sin x \\, dx",
-      "\\int_{-1}^{1} e^x \\, dx"
+      "$\\int_{-2}^{2} x^2 \\, dx$",
+      "$\\int_{-\\pi}^{\\pi} \\cos x \\, dx$",
+      "$\\int_{-3}^{3} x^4 \\sin x$ \\, dx",
+      "$\\int_{-1}^{1} e^x$ \\, dx"
     ],
     "answer": 2,
     "explanation": "An integral of an odd function over a symmetric interval [-a, a] equals zero. f(x)\n= x⁴sin(x): x⁴ is even, sin(x) is odd, so the product is odd. ∫₋₃³ x⁴sin(x) dx = 0."
@@ -3183,10 +3183,10 @@ var APCALC_MCQ = [
     "question": "\\int \\frac{\\cos x}{\\sin^3 x} \\, dx =",
     "isLatex": true,
     "choices": [
-      "-\\frac{1}{2\\sin^2 x} + C",
-      "\\frac{1}{2\\sin^2 x} + C",
-      "-\\frac{3\\cos x}{\\sin^4 x} + C",
-      "\\ln|\\sin x| + C"
+      "$-\\frac{1}{2\\sin^2 x} + C$",
+      "$\\frac{1}{2\\sin^2 x} + C$",
+      "$-\\frac{3\\cos x}{\\sin^4 x} + C$",
+      "$\\ln|\\sin x| + C$"
     ],
     "answer": 0,
     "explanation": "Let u = sin x, du = cos x dx. ∫u⁻³ du = u⁻²/(-2) + C = -1/(2sin²x) + C."
@@ -3220,10 +3220,10 @@ var APCALC_MCQ = [
     "question": "\\int \\frac{x^2 + 1}{x - 1} \\, dx",
     "isLatex": true,
     "choices": [
-      "\\frac{x^2}{2} + x + 2\\ln|x-1| + C",
-      "\\frac{x^2}{2} + x - \\ln|x-1| + C",
-      "x + 2\\ln|x-1| + C",
-      "\\frac{x^2}{2} + 2\\ln|x-1| + C"
+      "$\\frac{x^2}{2} + x + 2\\ln|x-1| + C$",
+      "$\\frac{x^2}{2} + x - \\ln|x-1| + C$",
+      "$x + 2\\ln|x-1| + C$",
+      "$\\frac{x^2}{2} + 2\\ln|x-1| + C$"
     ],
     "answer": 0,
     "explanation": "Long division: (x² + 1) ÷ (x - 1) = x + 1 with remainder 2. So the integrand equals x + 1 + 2/(x-1). Integrating: x²/2 + x + 2ln|x-1| + C."
@@ -3238,10 +3238,10 @@ var APCALC_MCQ = [
     "question": "\\int_0^{\\pi/2} \\sin^3 x \\cos x \\, dx =",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{4}",
-      "\\frac{1}{2}",
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
       "1",
-      "\\frac{3}{4}"
+      "$\\frac{3}{4}$"
     ],
     "answer": 0,
     "explanation": "Let u = sin x, du = cos x dx. Limits: x=0→u=0, x=π/2→u=1. ∫₀¹ u³ du = [u⁴/4]₀¹ =\n1/4."
@@ -3256,10 +3256,10 @@ var APCALC_MCQ = [
     "question": "A population P grows at a rate proportional to the current population. Which of the\nfollowing differential equations models this situation, where k is a positive constant?",
     "isLatex": true,
     "choices": [
-      "\\frac{dP}{dt} = k",
-      "\\frac{dP}{dt} = kP",
-      "\\frac{dP}{dt} = \\frac{k}{P}",
-      "\\frac{dP}{dt} = k + P"
+      "$\\frac{dP}{dt} = k$",
+      "$\\frac{dP}{dt} = kP$",
+      "$\\frac{dP}{dt} = \\frac{k}{P}$",
+      "$\\frac{dP}{dt} = k + P$"
     ],
     "answer": 1,
     "explanation": "Rate proportional to the current population means dP/dt = kP, which is the\nstandard exponential growth model."
@@ -3274,8 +3274,8 @@ var APCALC_MCQ = [
     "question": "The rate of change of the volume V with respect to time t of water leaking from a\ntank is proportional to the cube of the volume. The tank is losing water. Which of the following\ndifferential equations describes this situation?",
     "isLatex": true,
     "choices": [
-      "\\frac{dV}{dt} = kV^3, \\text{ where } k > 0",
-      "\\frac{dV}{dt} = kV^3, \\text{ where } k < 0",
+      "$\\frac{dV}{dt} = kV^3, \\text{ where } k > 0$",
+      "$\\frac{dV}{dt} = kV^3, \\text{ where } k < 0$",
       "\\frac{dV}{dt} = k\\sqrt[3]{V}, \\text{ where } k < 0",
       "\\frac{dV}{dt} = 3kV^2, \\text{ where } k > 0"
     ],
@@ -3292,10 +3292,10 @@ var APCALC_MCQ = [
     "question": "A hard-boiled egg is placed on a table to cool. The rate of change of the egg's\ntemperature T with respect to time t is proportional to the difference between the egg's\ntemperature and the room temperature of 72°F. Which differential equation models this\nsituation, where k is a negative constant?",
     "isLatex": true,
     "choices": [
-      "\\frac{dT}{dt} = k(T - 72)",
-      "\\frac{dT}{dt} = kT - 72",
-      "\\frac{dT}{dt} = k(72 - T)",
-      "\\frac{dT}{dt} = 72kT"
+      "$\\frac{dT}{dt} = k(T - 72)$",
+      "$\\frac{dT}{dt} = kT - 72$",
+      "$\\frac{dT}{dt} = k(72 - T)$",
+      "$\\frac{dT}{dt} = 72kT$"
     ],
     "answer": 0,
     "explanation": "Newton's Law of Cooling: dT/dt = k(T - 72). Since k < 0 and T > 72 initially, the\ntemperature decreases. Option (C) would require k > 0 to cool, making (A) the more standard\nform."
@@ -3313,7 +3313,7 @@ var APCALC_MCQ = [
       "y = 2x",
       "y = e^{2x}",
       "y = x^2",
-      "y = \\ln(2x)"
+      "$y = \\ln(2x)$"
     ],
     "answer": 1,
     "explanation": "For y = e^{2x}: dy/dx = 2e^{2x} = 2y. ✓ The others fail: for y=2x, dy/dx=2 ≠\n2(2x). For y=x², dy/dx=2x ≠ 2x². For y=ln(2x), dy/dx=1/x ≠ 2ln(2x)."
@@ -3331,7 +3331,7 @@ var APCALC_MCQ = [
       "y = x + 1",
       "y = e^x",
       "y = x^2",
-      "y = x + 1 + Ce^x \\text{ for any constant } C"
+      "y = x + 1 + Ce$^x \\text{ for any constant } C$"
     ],
     "answer": 0,
     "explanation": "Test y = x + 1: dy/dx = 1. And y - x = (x+1) - x = 1. So dy/dx = 1 = y - x. ✓ Note:\noption (D) is the general solution, but (A) is the specific verifiable choice among the options\nlisted."
@@ -3364,10 +3364,10 @@ var APCALC_MCQ = [
     "question": "Which differential equation is best represented by a slope field where all slopes along the y-axis are zero AND slopes along the x-axis equal the x-coordinate?",
     "isLatex": true,
     "choices": [
-      "\\frac{dy}{dx} = y",
-      "\\frac{dy}{dx} = x",
-      "\\frac{dy}{dx} = x + 1",
-      "\\frac{dy}{dx} = xy"
+      "$\\frac{dy}{dx} = y$",
+      "$\\frac{dy}{dx} = x$",
+      "$\\frac{dy}{dx} = x + 1$",
+      "$\\frac{dy}{dx} = xy$"
     ],
     "answer": 1,
     "explanation": "For the slope to be 0 whenever x = 0, the derivative expression must equal zero\nwhen x = 0. Only dy/dx = x satisfies this — when x = 0, dy/dx = 0 for all y values."
@@ -3402,7 +3402,7 @@ var APCALC_MCQ = [
     "choices": [
       "y = x^2 + C",
       "y^2 = x^2 + C",
-      "y = \\ln|x| + C",
+      "$y = \\ln|x| + C$",
       "y^2 = 2x + C"
     ],
     "answer": 1,
@@ -3421,7 +3421,7 @@ var APCALC_MCQ = [
       "y = 3x^2 + C",
       "y = Ce^{x^3}",
       "y = e^{x^3} + C",
-      "y = \\frac{3x^3}{y} + C"
+      "$y = \\frac{3x^3}{y} + C$"
     ],
     "answer": 1,
     "explanation": "Separate: dy/y = 3x² dx. Integrate: ln|y| = x³ + C₁. Exponentiate: |y| = e^(x³+C₁) =\ne^C₁ · e^(x³). So y = Ce^(x³) where C = ±e^(C₁) is an arbitrary constant."
@@ -3436,10 +3436,10 @@ var APCALC_MCQ = [
     "question": "Let y = f(x) be the particular solution to the differential equation \\(\\frac{dy}{dx} =\n\\frac{x}{y}\\) with the initial condition f(2) = 0. What is f(3)?",
     "isLatex": true,
     "choices": [
-      "\\sqrt{5}",
-      "\\sqrt{3}",
+      "$\\sqrt{5}$",
+      "$\\sqrt{3}$",
       "5",
-      "\\sqrt{7}"
+      "$\\sqrt{7}$"
     ],
     "answer": 0,
     "explanation": "From the general solution y² = x² + C. Apply f(2) = 0: 0 = 4 + C → C = −4. So y²\n= x² − 4. At x = 3: y² = 9 − 4 = 5, so y = √5 (taking positive root since the solution goes through\n(2,0) and increases)."
@@ -3454,10 +3454,10 @@ var APCALC_MCQ = [
     "question": "Let y = f(x) be the particular solution to \\(\\frac{dy}{dx} = -e^{-y}\\) with initial condition f(0) = 0. What is f\\left(\\frac{1}{2}\\right)?",
     "isLatex": true,
     "choices": [
-      "\\ln 2",
-      "-\\ln 2",
-      "1 - \\ln 2",
-      "\\ln 2 - 1"
+      "$\\ln 2$",
+      "$-\\ln 2$",
+      "$1 - \\ln 2$",
+      "$\\ln 2 - 1$"
     ],
     "answer": 1,
     "explanation": "Separate variables: e^y dy = -dx. Integrate: e^y = -x + C. Apply f(0) = 0: e^0 = 0 + C, so C = 1. Thus e^y = 1 - x, giving y = ln(1 - x). At x = 1/2: f(1/2) = ln(1/2) = -ln 2."
@@ -3475,7 +3475,7 @@ var APCALC_MCQ = [
       "200e^{-0.05}",
       "200e",
       "200e^{-1}",
-      "\\frac{200}{20}"
+      "$\\frac{200}{20}$"
     ],
     "answer": 2,
     "explanation": "The solution to dy/dt = ky with y(0) = y₀ is y = y₀e^(kt). Here y₀ = 200, k = −0.05.\nAt t = 20: y = 200e^(−0.05·20) = 200e^(−1)."
@@ -3508,10 +3508,10 @@ var APCALC_MCQ = [
     "question": "A radioactive substance decays at a rate proportional to the amount present. If the\nhalf-life of the substance is 10 years, what fraction of the original amount remains after 25\nyears?",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{4}",
-      "\\frac{1}{2\\sqrt{2}}",
-      "\\frac{\\sqrt{2}}{8}",
-      "\\frac{1}{8}"
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2\\sqrt{2}}$",
+      "$\\frac{\\sqrt{2}}{8}$",
+      "$\\frac{1}{8}$"
     ],
     "answer": 1,
     "explanation": "y = y₀·(1/2)^(t/10). At t = 25: y = y₀·(1/2)^(2.5) = y₀/2^(2.5) = y₀/(4√2) = y₀·1/(2√2). The remaining fraction is 1/(2√2) ≈ 0.354."
@@ -3526,10 +3526,10 @@ var APCALC_MCQ = [
     "question": "A slope field has the property that along the line y = x, all slope segments are\nhorizontal (slope = 0), and slopes are positive above this line and negative below it. Which\ndifferential equation best matches this slope field?",
     "isLatex": true,
     "choices": [
-      "\\frac{dy}{dx} = x - y",
-      "\\frac{dy}{dx} = y - x",
-      "\\frac{dy}{dx} = xy",
-      "\\frac{dy}{dx} = x + y"
+      "$\\frac{dy}{dx} = x - y$",
+      "$\\frac{dy}{dx} = y - x$",
+      "$\\frac{dy}{dx} = xy$",
+      "$\\frac{dy}{dx} = x + y$"
     ],
     "answer": 1,
     "explanation": "Along y = x, dy/dx must equal 0. For dy/dx = y - x: when y = x, dy/dx = 0. ✓ When y > x (above the line), y - x > 0, so slopes are positive. ✓ When y < x (below the line), y - x < 0, so slopes are negative. ✓"
@@ -3563,9 +3563,9 @@ var APCALC_MCQ = [
     "isLatex": true,
     "choices": [
       "0",
-      "\\frac{1}{\\pi}",
-      "\\frac{2}{\\pi}",
-      "\\frac{\\pi}{2}"
+      "$\\frac{1}{\\pi}$",
+      "$\\frac{2}{\\pi}$",
+      "$\\frac{\\pi}{2}$"
     ],
     "answer": 2,
     "explanation": "Average value = (1/π) ∫₀^π sin x dx = (1/π)[−cos x]₀^π = (1/π)(−cos π + cos 0) =\n(1/π)(1 + 1) = 2/π."
@@ -3616,10 +3616,10 @@ var APCALC_MCQ = [
     "question": "A particle moves along the x-axis with velocity \\(v(t) = t^2 - 4\\) for \\(0 \\leq t \\leq\n3\\). What is the total distance traveled by the particle on this interval?",
     "isLatex": true,
     "choices": [
-      "\\frac{7}{3}",
-      "\\frac{16}{3}",
-      "\\frac{23}{3}",
-      "\\frac{19}{3}"
+      "$\\frac{7}{3}$",
+      "$\\frac{16}{3}$",
+      "$\\frac{23}{3}$",
+      "$\\frac{19}{3}$"
     ],
     "answer": 2,
     "explanation": "v(t) = 0 at t = 2. On [0, 2]: v < 0. On [2, 3]: v > 0. Total distance = ∫₀²(4 - t²) dt + ∫₂³(t² - 4) dt = [4t - t³/3]₀² + [t³/3 - 4t]₂³ = 16/3 + 7/3 = 23/3."
@@ -3688,10 +3688,10 @@ var APCALC_MCQ = [
     "question": "The rate at which people arrive at a theater is modeled by \\(A(t) = 10\\sqrt{t}\\)\npeople per hour, where t is hours after 6 PM. The rate at which people leave is \\(L(t) = 2t\\)\npeople per hour. At 6 PM (t = 0), there are 50 people in the theater. How many people are in the\ntheater at t = 4 hours?",
     "isLatex": true,
     "choices": [
-      "50 + \\frac{160}{3} - 32",
-      "50 + \\frac{80}{3} - 32",
-      "\\frac{226}{3}",
-      "\\frac{262}{3}"
+      "$50 + \\frac{160}{3} - 32$",
+      "$50 + \\frac{80}{3} - 32$",
+      "$\\frac{226}{3}$",
+      "$\\frac{262}{3}$"
     ],
     "answer": 3,
     "explanation": "Number = 50 + ∫₀⁴(10√t - 2t) dt = 50 + [(20/3)t^(3/2) - t²]₀⁴ = 50 + (160/3 - 16) = 50 + 112/3 = 150/3 + 112/3 = 262/3."
@@ -3706,9 +3706,9 @@ var APCALC_MCQ = [
     "question": "What is the area of the region enclosed by \\(y = x^2\\) and \\(y = x\\)?",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{6}",
-      "\\frac{1}{3}",
-      "\\frac{1}{2}",
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{2}$",
       "1"
     ],
     "answer": 0,
@@ -3724,9 +3724,9 @@ var APCALC_MCQ = [
     "question": "What is the area of the region bounded by \\(y = 4 - x^2\\) and \\(y = 0\\) (the\nx-axis)?",
     "isLatex": true,
     "choices": [
-      "\\frac{16}{3}",
+      "$\\frac{16}{3}$",
       "8",
-      "\\frac{32}{3}",
+      "$\\frac{32}{3}$",
       "16"
     ],
     "answer": 2,
@@ -3742,9 +3742,9 @@ var APCALC_MCQ = [
     "question": "What is the area of the region enclosed by \\(y = \\sin x\\) and \\(y = \\cos x\\) on the\ninterval \\([0, \\pi/2]\\)?",
     "isLatex": true,
     "choices": [
-      "\\sqrt{2} - 1",
-      "\\sqrt{2}",
-      "2(\\sqrt{2} - 1)",
+      "$\\sqrt{2} - 1$",
+      "$\\sqrt{2}$",
+      "$2(\\sqrt{2} - 1)$",
       "1"
     ],
     "answer": 2,
@@ -3760,8 +3760,8 @@ var APCALC_MCQ = [
     "question": "What is the area of the region bounded by \\(x = y^2\\) and \\(x = 4\\), integrating\nwith respect to y?",
     "isLatex": true,
     "choices": [
-      "\\frac{16}{3}",
-      "\\frac{32}{3}",
+      "$\\frac{16}{3}$",
+      "$\\frac{32}{3}$",
       "8",
       "16"
     ],
@@ -3779,7 +3779,7 @@ var APCALC_MCQ = [
     "isLatex": true,
     "choices": [
       "0",
-      "\\frac{1}{2}",
+      "$\\frac{1}{2}$",
       "1",
       "2"
     ],
@@ -3814,10 +3814,10 @@ var APCALC_MCQ = [
     "question": "The base of a solid is bounded by \\(y = 4 - x^2\\) and the x-axis. Cross sections\nperpendicular to the x-axis are semicircles with diameter in the base. What is the volume of the\nsolid?",
     "isLatex": true,
     "choices": [
-      "\\frac{256\\pi}{15}",
-      "\\frac{512\\pi}{15}",
-      "\\frac{128\\pi}{15}",
-      "\\frac{64\\pi}{15}"
+      "$\\frac{256\\pi}{15}$",
+      "$\\frac{512\\pi}{15}$",
+      "$\\frac{128\\pi}{15}$",
+      "$\\frac{64\\pi}{15}$"
     ],
     "answer": 3,
     "explanation": "Diameter = 4 - x², radius = (4 - x²)/2. Area of semicircle = πr²/2 = π(4 - x²)²/8. Volume = (π/8)∫₋₂²(4 - x²)² dx = (π/8)·(512/15) = 64π/15."
@@ -3832,10 +3832,10 @@ var APCALC_MCQ = [
     "question": "The base of a solid is the region between \\(y = x\\) and \\(y = x^2\\) on [0, 1]. Cross\nsections perpendicular to the x-axis are rectangles whose height is twice the base. What is the\nvolume of the solid?",
     "isLatex": true,
     "choices": [
-      "\\frac{1}{30}",
-      "\\frac{1}{15}",
-      "\\frac{1}{10}",
-      "\\frac{1}{6}"
+      "$\\frac{1}{30}$",
+      "$\\frac{1}{15}$",
+      "$\\frac{1}{10}$",
+      "$\\frac{1}{6}$"
     ],
     "answer": 1,
     "explanation": "Base of rectangle = x - x², height = 2(x - x²). Area = 2(x - x²)². Volume = 2∫₀¹(x - x²)² dx = 2∫₀¹(x² - 2x³ + x⁴) dx = 2[x³/3 - x⁴/2 + x⁵/5]₀¹ = 2(1/3 - 1/2 + 1/5) = 2(1/30) = 1/15."
@@ -3850,10 +3850,10 @@ var APCALC_MCQ = [
     "question": "The region bounded by \\(y = \\sqrt{x}\\), \\(y = 0\\), and \\(x = 4\\) is revolved about\nthe x-axis. What is the volume of the resulting solid?",
     "isLatex": true,
     "choices": [
-      "4\\pi",
-      "8\\pi",
-      "16\\pi",
-      "32\\pi"
+      "$4\\pi$",
+      "$8\\pi$",
+      "$16\\pi$",
+      "$32\\pi$"
     ],
     "answer": 1,
     "explanation": "Volume = π∫₀⁴ (√x)² dx = π∫₀⁴ x dx = π[x²/2]₀⁴ = π(8) = 8π."
@@ -3868,10 +3868,10 @@ var APCALC_MCQ = [
     "question": "The region bounded by \\(y = x^2\\), \\(x = 0\\), and \\(y = 4\\) is revolved about the\ny-axis. What is the volume?",
     "isLatex": true,
     "choices": [
-      "4\\pi",
-      "8\\pi",
-      "16\\pi",
-      "32\\pi"
+      "$4\\pi$",
+      "$8\\pi$",
+      "$16\\pi$",
+      "$32\\pi$"
     ],
     "answer": 1,
     "explanation": "Revolve about y-axis: express x in terms of y. From y = x², x = √y. Volume = π∫₀⁴\n(√y)² dy = π∫₀⁴ y dy = π[y²/2]₀⁴ = π(8) = 8π."
@@ -3886,10 +3886,10 @@ var APCALC_MCQ = [
     "question": "The region bounded by \\(y = x^2\\) and \\(y = 4\\) is revolved about the line \\(y =\n4\\). What is the volume of the resulting solid?",
     "isLatex": true,
     "choices": [
-      "\\frac{64\\pi}{5}",
-      "\\frac{128\\pi}{5}",
-      "\\frac{256\\pi}{15}",
-      "\\frac{512\\pi}{15}"
+      "$\\frac{64\\pi}{5}$",
+      "$\\frac{128\\pi}{5}$",
+      "$\\frac{256\\pi}{15}$",
+      "$\\frac{512\\pi}{15}$"
     ],
     "answer": 3,
     "explanation": "Revolution about y = 4: radius = 4 - x². Bounds: x² = 4 → x = ±2. Volume = π∫₋₂²(4 - x²)² dx = π·(512/15) = 512π/15."
@@ -3904,10 +3904,10 @@ var APCALC_MCQ = [
     "question": "The region bounded by \\(y = \\sqrt{x}\\) and \\(y = x\\) on [0, 1] is revolved about\nthe x-axis. What is the volume?",
     "isLatex": true,
     "choices": [
-      "\\frac{\\pi}{6}",
-      "\\frac{\\pi}{3}",
-      "\\frac{\\pi}{4}",
-      "\\frac{\\pi}{2}"
+      "$\\frac{\\pi}{6}$",
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{\\pi}{4}$",
+      "$\\frac{\\pi}{2}$"
     ],
     "answer": 0,
     "explanation": "Washer method: outer radius R = √x, inner radius r = x. Volume =\nπ∫₀¹[(√x)²−x²]dx = π∫₀¹[x−x²]dx = π[x²/2−x³/3]₀¹ = π(1/2−1/3) = π/6."
@@ -3922,10 +3922,10 @@ var APCALC_MCQ = [
     "question": "The region bounded by \\(y = x^2\\) and \\(y = \\sqrt{x}\\) is revolved about the\ny-axis. What is the volume?",
     "isLatex": true,
     "choices": [
-      "\\frac{3\\pi}{10}",
-      "\\frac{\\pi}{3}",
-      "\\frac{\\pi}{5}",
-      "\\frac{2\\pi}{5}"
+      "$\\frac{3\\pi}{10}$",
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{\\pi}{5}$",
+      "$\\frac{2\\pi}{5}$"
     ],
     "answer": 0,
     "explanation": "Intersection: x²=√x → x⁴=x → x=0,1. Express in terms of y: x=√y (right) from\ny=x², and x=y² (left) from y=√x. Revolve about y-axis, washers: outer radius √y, inner radius y².\nVolume = π∫₀¹[(√y)²−(y²)²]dy = π∫₀¹[y−y⁴]dy = π[y²/2−y⁵/5]₀¹ = π(1/2−1/5) = 3π/10."
@@ -3958,10 +3958,10 @@ var APCALC_MCQ = [
     "question": "A particle moves along the x-axis with velocity \\(v(t) = t^2 - 4t + 3\\) for \\(t \\geq\n0\\). What is the displacement of the particle from \\(t = 0\\) to \\(t = 4\\)?",
     "isLatex": true,
     "choices": [
-      "-\\frac{4}{3}",
-      "\\frac{4}{3}",
-      "-\\frac{8}{3}",
-      "\\frac{8}{3}"
+      "$-\\frac{4}{3}$",
+      "$\\frac{4}{3}$",
+      "$-\\frac{8}{3}$",
+      "$\\frac{8}{3}$"
     ],
     "answer": 1,
     "explanation": "Displacement = ∫₀⁴(t² - 4t + 3) dt = [t³/3 - 2t² + 3t]₀⁴ = (64/3 - 32 + 12) - 0 = 64/3 - 20 = 4/3."
@@ -3995,7 +3995,7 @@ var APCALC_MCQ = [
     "isLatex": true,
     "choices": [
       "60°F",
-      "60 + \\frac{20}{\\pi} °F",
+      "$60 + \\frac{20}{\\pi} °F$",
       "70°F",
       "65°F"
     ],
@@ -4012,10 +4012,10 @@ var APCALC_MCQ = [
     "question": "The region R is bounded by \\(y = \\ln x\\), \\(y = 0\\), and \\(x = e\\). Which integral\ngives the volume of the solid obtained by revolving R about the y-axis?",
     "isLatex": true,
     "choices": [
-      "\\pi \\int_0^1 (e^2 - e^{2y})\\, dy",
-      "\\pi \\int_0^e (\\ln x)^2\\, dx",
-      "2\\pi \\int_1^e x \\ln x\\, dx",
-      "\\pi \\int_0^1 e^{2y}\\, dy"
+      "$\\pi \\int_0^1 (e^2 - e^{2y})$\\, dy",
+      "$\\pi \\int_0^e (\\ln x)^2\\, dx$",
+      "$2\\pi \\int_1^e x \\ln x$\\, dx",
+      "$\\pi \\int_0^1 e^{2y}$\\, dy"
     ],
     "answer": 0,
     "explanation": "Revolution about y-axis using washer method (integrating with respect to y): y =\nln x means x = e^y. From y=0 to y=1. Outer radius = e (right boundary), inner radius = e^y.\nVolume = π∫₀¹[(e)²−(e^y)²]dy = π∫₀¹[e²−e^(2y)]dy."
@@ -4210,7 +4210,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "The graph of f has a hole at (3, 5) and a solid dot at (3, 2). What is \\lim_{x \\to 3} f(x)?",
+    "question": "The graph of f has a hole at (3, 5) and a solid dot at (3, 2). What is $\\lim_{x \\to 3} f(x)$?",
     "choices": [
       "A) 2",
       "B) 5",
@@ -4230,10 +4230,10 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "Evaluate \\lim_{x \\to 4} \\frac{x^2 - 16}{x^2 - 5x + 4}.",
+    "question": "Evaluate $\\lim_{x \\to 4} \\frac{x^2 - 16}{x^2 - 5x + 4}$.",
     "choices": [
       "A) 0",
-      "B) \\frac{8}{3}",
+      "B) $\\frac{8}{3}$",
       "C) 4",
       "D) Does not exist"
     ],
@@ -4250,7 +4250,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "Let f(x) = \\begin{cases} x^2 + 1 & x < 1 \\\\ 3x - k & x \\geq 1 \\end{cases}. For what value of k does \\lim_{x \\to 1} f(x) exist?",
+    "question": "Let f(x) = $\\begin{cases} x^2 + 1$ & x < 1 \\\\ 3x - k & $x \\geq 1 \\end{cases}$. For what value of k does $\\lim_{x \\to 1} f(x)$ exist?",
     "choices": [
       "A) k = -1",
       "B) k = 0",
@@ -4270,12 +4270,12 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "Evaluate \\lim_{x \\to \\infty} \\frac{3x^3 - 2x + 1}{5x^3 + 4x^2 - 7}.",
+    "question": "Evaluate $\\lim_{x \\to \\infty} \\frac{3x^3 - 2x + 1}{5x^3 + 4x^2 - 7}$.",
     "choices": [
       "A) 0",
-      "B) \\frac{3}{5}",
-      "C) \\frac{3}{4}",
-      "D) \\infty"
+      "B) $\\frac{3}{5}$",
+      "C) $\\frac{3}{4}$",
+      "D) $\\infty$"
     ],
     "answer": 1,
     "explanation": "When the degrees of numerator and denominator are equal, the limit is the ratio of leading coefficients: 3/5. Choice A would apply if the numerator degree were smaller. Choice C incorrectly uses the coefficient of the second-highest term in the denominator. Choice D would apply if the numerator degree were larger."
@@ -4293,8 +4293,8 @@ var APCALC_MCQ = [
     "question": "Which of the following conditions is NOT required for f to be continuous at x = c?",
     "choices": [
       "A) f(c) is defined",
-      "B) \\lim_{x \\to c} f(x) exists",
-      "C) \\lim_{x \\to c} f(x) = f(c)",
+      "B) $\\lim_{x \\to c} f(x)$ exists",
+      "C) $\\lim_{x \\to c} f(x) = f(c)$",
       "D) f'(c) exists"
     ],
     "answer": 3,
@@ -4310,7 +4310,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "The function g(x) = \\frac{x^2 - 9}{x - 3} has what type of discontinuity at x = 3?",
+    "question": "The function g(x) = $\\frac{x^2 - 9}{x - 3}$ has what type of discontinuity at x = 3?",
     "choices": [
       "A) Jump discontinuity",
       "B) Removable discontinuity",
@@ -4350,11 +4350,11 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "Evaluate \\lim_{x \\to 0} \\frac{\\sqrt{x+4} - 2}{x}.",
+    "question": "Evaluate $\\lim_{x \\to 0} \\frac{\\sqrt{x+4} - 2}{x}$.",
     "choices": [
       "A) 0",
-      "B) \\frac{1}{4}",
-      "C) \\frac{1}{2}",
+      "B) $\\frac{1}{4}$",
+      "C) $\\frac{1}{2}$",
       "D) Does not exist"
     ],
     "answer": 1,
@@ -4370,7 +4370,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "What is \\lim_{x \\to -\\infty} \\frac{2x}{\\sqrt{x^2 + 1}}?",
+    "question": "What is $\\lim_{x \\to -\\infty} \\frac{2x}{\\sqrt{x^2 + 1}}$?",
     "choices": [
       "A) 2",
       "B) -2",
@@ -4390,7 +4390,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "Evaluate \\lim_{x \\to 0^+} \\frac{|x|}{x}.",
+    "question": "Evaluate $\\lim_{x \\to 0^+} \\frac{|x|}{x}$.",
     "choices": [
       "A) -1",
       "B) 0",
@@ -4410,11 +4410,11 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "From a graph, \\lim_{x \\to 2^-} f(x) = 4 and \\lim_{x \\to 2^+} f(x) = 4, but f(2) = 1. Which statement is true?",
+    "question": "From a graph, $\\lim_{x \\to 2^-} f(x) = 4$ and $\\lim_{x \\to 2^+} f(x) = 4$, but f(2) = 1. Which statement is true?",
     "choices": [
-      "A) \\lim_{x \\to 2} f(x) = 1",
-      "B) \\lim_{x \\to 2} f(x) = 4",
-      "C) \\lim_{x \\to 2} f(x) does not exist",
+      "A) $\\lim_{x \\to 2} f(x) = 1$",
+      "B) $\\lim_{x \\to 2} f(x) = 4$",
+      "C) $\\lim_{x \\to 2} f(x)$ does not exist",
       "D) f is continuous at x = 2"
     ],
     "answer": 1,
@@ -4430,11 +4430,11 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "For what value of a is f(x) = \\begin{cases} x^2 + a & x < 2 \\\\ 3ax - 2 & x \\geq 2 \\end{cases} continuous at x = 2?",
+    "question": "For what value of a is f(x) = $\\begin{cases} x^2 + a$ & x < 2 \\\\ 3ax - 2 & $x \\geq 2 \\end{cases}$ continuous at x = 2?",
     "choices": [
-      "A) a = \\frac{2}{5}",
+      "A) $a = \\frac{2}{5}$",
       "B) a = 1",
-      "C) a = \\frac{6}{5}",
+      "C) $a = \\frac{6}{5}$",
       "D) a = 2"
     ],
     "answer": 2,
@@ -4450,7 +4450,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "If \\lim_{x \\to 5} f(x) = 0 and \\lim_{x \\to 5} g(x) = 0, what can be concluded about \\lim_{x \\to 5} \\frac{f(x)}{g(x)}?",
+    "question": "If $\\lim_{x \\to 5} f(x) = 0$ and $\\lim_{x \\to 5} g(x) = 0$, what can be concluded about $\\lim_{x \\to 5} \\frac{f(x)}{g(x)}$?",
     "choices": [
       "A) The limit equals 0",
       "B) The limit equals 1",
@@ -4470,7 +4470,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "Evaluate \\lim_{x \\to 0} x^2 \\cos\\left(\\frac{1}{x}\\right).",
+    "question": "Evaluate $\\lim_{x \\to 0} x^2 \\cos\\left(\\frac{1}{x}\\right)$.",
     "choices": [
       "A) -1",
       "B) 0",
@@ -4490,7 +4490,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "The function h(x) = \\frac{1}{(x-2)^2} has what type of discontinuity at x = 2?",
+    "question": "The function h(x) = $\\frac{1}{(x-2)^2}$ has what type of discontinuity at x = 2?",
     "choices": [
       "A) Removable discontinuity",
       "B) Jump discontinuity",
@@ -4530,7 +4530,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "Evaluate \\lim_{h \\to 0} \\frac{(3+h)^2 - 9}{h}.",
+    "question": "Evaluate $\\lim_{h \\to 0} \\frac{(3+h)^2 - 9}{h}$.",
     "choices": [
       "A) 0",
       "B) 3",
@@ -4550,11 +4550,11 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "What is \\lim_{x \\to \\infty} \\frac{5x^2 + 3}{2x^3 - x}?",
+    "question": "What is $\\lim_{x \\to \\infty} \\frac{5x^2 + 3}{2x^3 - x}$?",
     "choices": [
       "A) 0",
-      "B) \\frac{5}{2}",
-      "C) \\infty",
+      "B) $\\frac{5}{2}$",
+      "C) $\\infty$",
       "D) -3"
     ],
     "answer": 0,
