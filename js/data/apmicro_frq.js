@@ -641,7 +641,7 @@ var APMICRO_FRQ = [
         "label": "b",
         "command": "Predict",
         "question": "Using your graph, predict what happens to producer surplus and consumer surplus as a result of the binding price floor compared to the free-market equilibrium.",
-        "rubric": "Earns 1 point for correctly identifying that producer surplus increases (area above supply curve up to $8 expands) and consumer surplus decreases (area below demand curve down to $8 shrinks) as a result of the price floor above equilibrium."
+        "rubric": "Earns 1 point for correctly identifying that consumer surplus decreases (area below demand curve and above price shrinks as consumers pay $8 instead of $5 and buy fewer units). The effect on producer surplus is ambiguous: producers receive a higher price on the 70 million bushels still sold (gain), but lose surplus on the 30 million bushels no longer purchased (loss). Full credit requires acknowledging that the net change in producer surplus depends on the relative size of these two effects (i.e., on the elasticities of supply and demand) and cannot be stated as an unambiguous increase."
       },
       {
         "label": "c",
@@ -677,24 +677,24 @@ var APMICRO_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student correctly identifies that producer surplus increases and consumer surplus decreases as a result of the binding price floor above equilibrium.",
+        "description": "Student correctly identifies that consumer surplus decreases as consumers pay a higher price and buy fewer units. Student recognizes that the effect on producer surplus is ambiguous: producers gain on the higher price received for units sold but lose surplus on the units no longer traded (100M down to 70M bushels), and the net change depends on the relative elasticities of supply and demand.",
         "partLabel": "b",
         "skill": "predict",
         "keywords": [
-          "producer surplus increases",
           "consumer surplus decreases",
-          "PS increases",
           "CS decreases",
-          "higher price for producers",
           "consumers pay higher price",
-          "area above supply curve expands",
           "area below demand curve shrinks",
-          "redistribution from consumers to producers",
-          "price floor raises price",
-          "welfare transfer to producers",
+          "producer surplus ambiguous",
+          "PS may increase or decrease",
+          "higher price on units sold",
+          "lost surplus on unsold units",
+          "net effect on producer surplus depends on elasticity",
+          "quantity sold falls to 70 million bushels",
+          "gain rectangle offset by loss triangle",
+          "ambiguous net change in producer surplus",
           "buyers face higher price",
-          "sellers receive higher price",
-          "net welfare effect on consumers negative"
+          "welfare transfer to producers offset by quantity reduction"
         ]
       },
       {
@@ -1370,7 +1370,7 @@ var APMICRO_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A perfectly competitive firm produces widgets. The firm's cost structure at its current output level of 50 units is as follows: Total Fixed Cost (TFC) = $200, Total Variable Cost (TVC) = $300, so Total Cost (TC) = $500. The market price for widgets is $4.00 per unit. On a correctly labeled graph showing the firm's ATC, AVC, MC, and MR curves, the price of $4.00 falls above the AVC curve but below the ATC curve at the profit-maximizing output quantity.",
+    "prompt": "A perfectly competitive firm produces widgets. The firm's cost structure at its current output level of 50 units is as follows: Total Fixed Cost (TFC) = $200, Total Variable Cost (TVC) = $300, so Total Cost (TC) = $500. The market price for widgets is $4.00 per unit. On a correctly labeled graph showing the firm's ATC, AVC, MC, and MR curves, the price of $4.00 falls below the AVC curve, which itself falls below the ATC curve, at all output levels.",
     "starterCode": null,
     "parts": [
       {
