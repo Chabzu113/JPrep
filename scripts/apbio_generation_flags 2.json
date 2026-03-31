@@ -1,0 +1,20 @@
+{
+  "generated": "2026-03-29T21:51:37.494Z",
+  "flags": [
+    {
+      "id": "bio_u8_q320",
+      "issue": "The clownfish-anemone relationship is factually contested and widely taught as mutualism, not commensalism. Research (e.g., Fautin & Allen) has demonstrated that clownfish benefit anemones through aeration, removal of parasites, and nutrient provision via waste. Using this relationship as the canonical example of commensalism is scientifically inaccurate and likely to confuse well-prepared AP Biology students who have encountered the mutualism framing in their coursework and textbooks.",
+      "fix": "Replace the exemplar organism pair with a less contested commensalism example, such as barnacles living on whale skin (barnacles gain transportation and access to food-rich waters; whales are unaffected) or cattle egrets feeding on insects stirred up by grazing cattle (egrets benefit; cattle are unaffected). Update the explanation accordingly."
+    },
+    {
+      "id": "bio_u8_q323",
+      "issue": "The answer and explanation are internally contradictory and factually wrong. The question asks when growth rate is 'slowest,' and the answer key selects B (exactly at carrying capacity), which is correct mathematically (dN/dt approaches 0 at K). However, the explanation then states 'Options A and D represent small populations where growth rate is low in absolute terms but accelerating, not at its minimum relative to K,' which is misleading and conflates absolute rate with relative rate. More critically, at very small population sizes (option D, just above zero), dN/dt is also near zero - meaning options B and D are both mathematically valid answers for when growth rate is slowest, creating ambiguity. The question is therefore ambiguous with two defensible correct answers.",
+      "fix": "Revise the question to ask specifically when population growth rate 'approaches zero as the population reaches its limit' or reframe to ask where growth rate is 'maximized' (answer: K/2), which is unambiguous. Alternatively, if keeping the current intent, change option D to something like 'When the population is growing exponentially' to eliminate the near-zero ambiguity at very small N."
+    },
+    {
+      "id": "bio_u8_q324",
+      "issue": "The factual premise of the question is scientifically contested and likely incorrect for AP Biology purposes. The clownfish-anemone relationship is widely regarded as mutualism, not commensalism. Research indicates clownfish benefit anemones by chasing away butterflyfish that eat anemone tentacles, providing nutrients via waste, and improving water circulation. AP Biology textbooks and the College Board treat this as a classic mutualism example. Presenting it as commensalism could directly contradict what students have learned and introduce a factual error on an exam.",
+      "fix": "Replace the scenario with an unambiguous commensalism example, such as barnacles attaching to whale skin (barnacles gain mobility and feeding access; whales are unaffected) or cattle egrets feeding on insects stirred up by grazing cattle (egrets benefit; cattle are unaffected). Update the explanation accordingly."
+    }
+  ]
+}

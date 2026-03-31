@@ -8150,5 +8150,341 @@ window.APMACRO_MCQ = [
     ],
     "answer": 1,
     "explanation": "Within a currency union, Germany cannot devalue (eliminates A). Expansionary fiscal policy increases domestic income, boosting import demand and reducing the trade surplus. Choice C would harm German exporters unnecessarily, D affects capital flows not trade directly, and E would increase the trade surplus and violate EU rules. This tests understanding that fiscal policy becomes the main tool when monetary policy is constrained by currency union membership."
+  },
+  {
+    "id": "macro_u1_q125",
+    "subject": "apmacro",
+    "unit": 1,
+    "topic": "Opportunity Cost",
+    "topicLabel": "Opportunity Cost",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A student decides to spend two hours studying for an economics exam instead of working at a job that pays $15 per hour. If working is the student's next best alternative, what is the opportunity cost of studying?",
+    "choices": [
+      "A) $15",
+      "B) $20",
+      "C) $30",
+      "D) $45",
+      "E) $60"
+    ],
+    "answer": 2,
+    "explanation": "Opportunity cost is the value of the next best alternative foregone. The student spends 2 hours studying instead of working at $15 per hour. Therefore, the opportunity cost is 2 × $15 = $30. Choice A ($15) represents only one hour of foregone wages, a common error of ignoring the full time spent. Choice B ($20) is a miscalculation. Choice D ($45) and Choice E ($60) overestimate the foregone wages by using incorrect time or wage figures."
+  },
+  {
+    "id": "macro_u1_q126",
+    "subject": "apmacro",
+    "unit": 1,
+    "topic": "Comparative Advantage",
+    "topicLabel": "Comparative Advantage",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Country A can produce 30 shoes or 10 hats. Country B can produce 20 shoes or 20 hats. Which of the following statements is correct?",
+    "choices": [
+      "A) Country A has a comparative advantage in hats because it can produce more shoes.",
+      "B) Country B has a comparative advantage in hats because it has a lower opportunity cost of producing hats.",
+      "C) Country A has a comparative advantage in both goods because it can produce more total output.",
+      "D) Country B has a comparative advantage in shoes because it has a lower opportunity cost of producing shoes.",
+      "E) Neither country has a comparative advantage because their total production capacities are equal."
+    ],
+    "answer": 1,
+    "explanation": "Country A's opportunity cost of 1 hat = 3 shoes (30/10). Country B's opportunity cost of 1 hat = 1 shoe (20/20). Since Country B has a lower opportunity cost of hats, it has the comparative advantage in hats. Choice A incorrectly links comparative advantage to absolute production of a different good. Choice C confuses absolute advantage with comparative advantage - a very common student misconception. Choice D is wrong because Country A has the comparative advantage in shoes (1/3 hat vs. 1 hat). Choice E is wrong because differing opportunity costs guarantee comparative advantage exists."
+  },
+  {
+    "id": "macro_u1_q127",
+    "subject": "apmacro",
+    "unit": 1,
+    "topic": "Production Possibilities Curve",
+    "topicLabel": "Production Possibilities Curve",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "An economy is operating at a point inside its production possibilities curve. Which of the following is the most likely explanation and implication?",
+    "choices": [
+      "A) The economy lacks the technology to reach the curve, so it must invest in research.",
+      "B) The economy has unemployed resources and could increase production of both goods without sacrificing either.",
+      "C) The economy is experiencing inflation, which pushes production below potential.",
+      "D) The economy is allocating resources efficiently but faces a scarcity constraint.",
+      "E) The economy must be experiencing an outward shift of the PPC due to economic growth."
+    ],
+    "answer": 1,
+    "explanation": "A point inside the PPC indicates underutilization of resources - typically unemployment or productive inefficiency. The economy could produce more of both goods by employing idle resources. Choice A is wrong because the technology is already reflected in the curve itself; the economy can reach the curve with existing technology. Choice C confuses inflation with underproduction - inflation does not directly place an economy inside its PPC. Choice D is wrong because efficiency corresponds to points on the curve, not inside it. Choice E is wrong because an outward shift moves the entire curve, not the production point inside it."
+  },
+  {
+    "id": "macro_u1_q128",
+    "subject": "apmacro",
+    "unit": 1,
+    "topic": "Circular Flow Model",
+    "topicLabel": "Circular Flow Model",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In the circular flow model, which of the following correctly describes a flow from households to firms?",
+    "choices": [
+      "A) Households supply finished goods to firms through the product market.",
+      "B) Households provide labor, land, and capital to firms through the factor market.",
+      "C) Households receive wages, rent, and profit from firms through the product market.",
+      "D) Households purchase factors of production from firms through the factor market.",
+      "E) Households send transfer payments to firms through the government sector."
+    ],
+    "answer": 1,
+    "explanation": "In the circular flow, households own the factors of production (labor, land, capital, entrepreneurship) and supply them to firms through the factor market. Choice A is wrong because households are buyers, not sellers, in the product market - firms supply goods. Choice C correctly identifies income flows but places them in the wrong market; wages, rent, and profit flow through the factor market, not the product market. Choice D reverses the direction - households supply factors, not purchase them. Choice E is incorrect because transfer payments flow from the government to households, not from households to firms."
+  },
+  {
+    "id": "macro_u1_q129",
+    "subject": "apmacro",
+    "unit": 1,
+    "topic": "Economic Systems",
+    "topicLabel": "Economic Systems",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A government allows private ownership of businesses and market-determined prices for most goods, but it heavily regulates the healthcare and energy sectors and provides public education. This economy is best described as which of the following?",
+    "choices": [
+      "A) A pure market economy because private ownership exists.",
+      "B) A command economy because the government regulates key industries.",
+      "C) A traditional economy because the government follows established patterns of regulation.",
+      "D) A mixed economy because it combines elements of market and command systems.",
+      "E) A market economy transitioning into a command economy due to increasing regulation."
+    ],
+    "answer": 3,
+    "explanation": "This economy features both private markets and significant government intervention in specific sectors, which is the hallmark of a mixed economy. Choice A is wrong because a pure market economy would have no government intervention in production or pricing. Choice B is wrong because a command economy features government control over most or all production decisions, not just selected industries. Choice C is wrong because traditional economies are based on customs, habits, and historical roles - not modern regulatory frameworks. Choice E is a common student misconception that any government regulation signals a shift toward a command system, but regulation of specific sectors is a normal feature of mixed economies."
+  },
+  {
+    "id": "macro_u1_q130",
+    "subject": "apmacro",
+    "unit": 1,
+    "topic": "PPC and opportunity cost",
+    "topicLabel": "Production Possibilities Curve",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "An economy is currently producing at a point on its bowed-out (concave) production possibilities curve. The government decides to shift production toward more capital goods and fewer consumer goods. Which of the following best describes the short-run and long-run effects of this decision?",
+    "choices": [
+      "A) In the short run, consumer goods decrease and opportunity cost decreases as more capital goods are produced; in the long run, the PPC shifts inward.",
+      "B) In the short run, the opportunity cost of capital goods increases as more are produced; in the long run, the PPC is likely to shift outward due to increased productive capacity.",
+      "C) In the short run, the economy moves inside the PPC; in the long run, the PPC shifts outward as capital accumulates.",
+      "D) In the short run, the opportunity cost of capital goods increases as the economy moves along the bowed-out PPC; in the long run, the PPC shifts outward due to greater productive capacity from capital accumulation.",
+      "E) In the short run, the economy moves beyond the PPC due to increased investment; in the long run, production returns to the curve."
+    ],
+    "answer": 3,
+    "explanation": "On a bowed-out PPC, opportunity costs are increasing, so as the economy produces more capital goods, each additional unit of capital goods requires giving up an increasing amount of consumer goods. This reflects the law of increasing opportunity costs in the short run. In the long run, greater investment in capital goods increases the economy's productive capacity, shifting the PPC outward. A is wrong because opportunity cost increases (not decreases) along a concave PPC, and the long-run effect of increased capital investment is an outward shift, not an inward one. C is wrong because the economy moves along the PPC, not inside it - moving inside would imply unemployment or inefficiency. B is partially correct about the short run but does not fully describe the mechanism, making D the more complete and precise answer. E is wrong because an economy cannot produce beyond the PPC in the short run."
+  },
+  {
+    "id": "macro_u1_q131",
+    "subject": "apmacro",
+    "unit": 1,
+    "topic": "circular flow and factor markets",
+    "topicLabel": "Circular Flow and Factor Markets",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In the circular flow model, a software engineer receives a salary from a technology firm and then uses that income to purchase groceries and pay rent. Which of the following correctly traces the flow of money through the model?",
+    "choices": [
+      "A) Money flows from the product market to the household as wages, then from the household to the factor market as consumer spending.",
+      "B) Money flows from the firm to the household through the factor market as wage income, then from the household to firms through the product market as consumer spending.",
+      "C) Money flows from the household to the firm through the factor market as labor services, then returns as goods and services through the product market.",
+      "D) Money flows from the firm directly to the household as profit, then from the household directly to the firm as spending, bypassing both markets.",
+      "E) Money flows from the government to the household as transfer payments, then from the household to the product market as consumer spending."
+    ],
+    "answer": 1,
+    "explanation": "In the circular flow model, firms pay households for factors of production (labor, in this case) through the factor market. The software engineer's salary represents money flowing from the firm through the factor market to the household. The household then spends this income on goods and services (groceries, rent) in the product market, sending money back to firms. B correctly traces this monetary flow. A reverses the markets - wages are paid through the factor market, not the product market. C describes the flow of real resources (labor services and goods), not money. D incorrectly states that money bypasses both markets; in the circular flow model, transactions occur through markets. E introduces government transfer payments, which is not what is described in the scenario - the engineer earns a salary from a firm, not a government transfer."
+  },
+  {
+    "id": "macro_u2_q132",
+    "subject": "apmacro",
+    "unit": 2,
+    "topic": "GDP components",
+    "topicLabel": "GDP components (C+I+G+NX)",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A country reports the following data for 2024: household consumption of $800 billion, business investment of $200 billion, government purchases of $300 billion, exports of $150 billion, and imports of $250 billion. Additionally, the government paid $100 billion in transfer payments. What is the country's GDP?",
+    "choices": [
+      "A) $1,100 billion",
+      "B) $1,200 billion",
+      "C) $1,300 billion",
+      "D) $1,400 billion",
+      "E) $1,500 billion"
+    ],
+    "answer": 1,
+    "explanation": "GDP = C + I + G + NX = $800 + $200 + $300 + ($150 - $250) = $800 + $200 + $300 - $100 = $1,200 billion. Transfer payments are NOT included in G because they do not represent the government purchasing goods or services. Students who add transfer payments to G get $1,300 billion (C). Students who forget to subtract imports or ignore NX entirely may arrive at $1,300 or $1,400 billion."
+  },
+  {
+    "id": "macro_u2_q133",
+    "subject": "apmacro",
+    "unit": 2,
+    "topic": "real vs nominal GDP and GDP deflator",
+    "topicLabel": "Real vs Nominal GDP and GDP Deflator",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In 2023, a country's nominal GDP was $500 billion and its GDP deflator was 125 (base year = 2020). In 2024, nominal GDP rose to $550 billion and the GDP deflator increased to 137.5. Which of the following is true?",
+    "choices": [
+      "A) Real GDP increased from 2023 to 2024 and the economy experienced no inflation.",
+      "B) Real GDP remained unchanged at $400 billion, meaning all of the nominal GDP increase was due to inflation.",
+      "C) Real GDP increased from $400 billion to $440 billion, and prices rose.",
+      "D) Real GDP decreased because the GDP deflator rose faster than nominal GDP.",
+      "E) Real GDP increased from $400 billion to $412 billion, and prices rose."
+    ],
+    "answer": 1,
+    "explanation": "Real GDP = (Nominal GDP / GDP deflator) x 100. For 2023: ($500B / 125) x 100 = $400B. For 2024: ($550B / 137.5) x 100 = $400B. Real GDP stayed at $400 billion, meaning the entire $50 billion increase in nominal GDP was due to rising prices (inflation), not increased output. Choice C is a common error where students might miscalculate the 2024 real GDP. Choice D incorrectly concludes real GDP fell. Choice E reflects a computational error."
+  },
+  {
+    "id": "macro_u2_q134",
+    "subject": "apmacro",
+    "unit": 2,
+    "topic": "unemployment types and natural rate",
+    "topicLabel": "Unemployment Types and Natural Rate of Unemployment",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "An economy has a frictional unemployment rate of 2%, structural unemployment rate of 3%, and cyclical unemployment rate of 1.5%. Which of the following statements is correct?",
+    "choices": [
+      "A) The natural rate of unemployment is 6.5%, and the economy is at full employment.",
+      "B) The natural rate of unemployment is 5%, and the economy is operating below full employment.",
+      "C) The natural rate of unemployment is 5%, and the economy is operating above full employment.",
+      "D) The natural rate of unemployment is 3.5%, and the economy is in a recession.",
+      "E) The natural rate of unemployment is 6.5%, and the economy is in an expansion."
+    ],
+    "answer": 1,
+    "explanation": "The natural rate of unemployment (NRU) = frictional + structural = 2% + 3% = 5%. The actual unemployment rate = 2% + 3% + 1.5% = 6.5%. Because cyclical unemployment is positive (1.5%), the economy is producing below its full-employment output - it is in a recessionary gap. Choice A incorrectly includes cyclical unemployment in the NRU. Choice C confuses the direction - positive cyclical unemployment means below, not above, full employment. Choice D excludes frictional unemployment from the NRU."
+  },
+  {
+    "id": "macro_u2_q135",
+    "subject": "apmacro",
+    "unit": 2,
+    "topic": "inflation types and CPI",
+    "topicLabel": "Inflation Types and CPI",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The consumer price index (CPI) was 200 in Year 1 and 210 in Year 2. During this period, oil supply disruptions significantly raised energy costs across the economy, leading firms to increase prices. Which of the following best describes the inflation rate and its type?",
+    "choices": [
+      "A) 10% inflation rate; demand-pull inflation caused by excess aggregate demand",
+      "B) 5% inflation rate; cost-push inflation caused by a negative supply shock",
+      "C) 10% inflation rate; cost-push inflation caused by a negative supply shock",
+      "D) 5% inflation rate; demand-pull inflation caused by increased consumer spending",
+      "E) 5% inflation rate; built-in inflation caused by wage-price spirals"
+    ],
+    "answer": 1,
+    "explanation": "The inflation rate = ((210 - 200) / 200) x 100 = 5%. The scenario describes oil supply disruptions raising energy costs, which is a classic negative supply shock leading to cost-push inflation. Choice A and C incorrectly calculate the inflation rate as 10% (dividing the change by 100 instead of 200, a common student error). Choice D identifies the correct rate but misidentifies the type - demand-pull inflation is caused by shifts in aggregate demand, not supply disruptions. Choice E correctly calculates 5% but attributes it to built-in inflation, which involves expectations and wage-price spirals, not a supply shock."
+  },
+  {
+    "id": "macro_u2_q136",
+    "subject": "apmacro",
+    "unit": 2,
+    "topic": "GDP deflator vs CPI and inflation measurement",
+    "topicLabel": "GDP deflator vs CPI and inflation measurement",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Suppose nominal GDP rises by 8% from one year to the next while real GDP rises by 3%. At the same time, the CPI increases by 6% over the same period. A worker receives a 5% nominal wage increase. Which of the following statements is correct?",
+    "choices": [
+      "A) The GDP deflator increased by approximately 5%, and the worker's real wage fell when measured by the CPI.",
+      "B) The GDP deflator increased by approximately 5%, and the worker's real wage rose when measured by the CPI.",
+      "C) The GDP deflator increased by approximately 11%, and the worker's real wage fell when measured by the CPI.",
+      "D) The GDP deflator increased by approximately 5%, and the worker's real wage rose when measured by the GDP deflator.",
+      "E) The GDP deflator increased by approximately 6%, and the worker's real wage remained constant when measured by the CPI."
+    ],
+    "answer": 0,
+    "explanation": "The GDP deflator is calculated as (Nominal GDP / Real GDP) × 100. When nominal GDP rises by 8% and real GDP rises by 3%, the GDP deflator increases by approximately 5% (using the approximation: 1.08/1.03 ≈ 1.0485, or roughly 5%). For the worker's real wage: the nominal wage increased by 5% but the CPI increased by 6%, so the worker's real wage fell when measured by the CPI (real wage change ≈ 5% − 6% = −1%). Choice B is wrong because it incorrectly claims the real wage rose by CPI. Choice C is wrong because it adds nominal and real GDP growth rates instead of using the correct relationship. Choice D is tempting because measured by the GDP deflator (≈5%), the 5% nominal raise would leave real wages roughly unchanged, not rising. Choice E is wrong because the GDP deflator is not equal to the CPI and the real wage did not remain constant by CPI measurement."
+  },
+  {
+    "id": "macro_u3_q137",
+    "subject": "apmacro",
+    "unit": 3,
+    "topic": "multiplier effect and MPC",
+    "topicLabel": "Multiplier Effect and MPC",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If the marginal propensity to consume (MPC) is 0.8 and the government increases spending by $50 billion, what is the maximum possible change in real GDP, assuming no crowding out or other leakages beyond saving?",
+    "choices": [
+      "A) $40 billion",
+      "B) $50 billion",
+      "C) $100 billion",
+      "D) $250 billion",
+      "E) $400 billion"
+    ],
+    "answer": 3,
+    "explanation": "The spending multiplier is 1/MPS = 1/(1 - MPC) = 1/0.2 = 5. The maximum change in GDP = multiplier × change in spending = 5 × $50 billion = $250 billion. A) $40 billion incorrectly multiplies $50 billion by the MPC. B) $50 billion assumes no multiplier effect at all. C) $100 billion results from mistakenly using 1/MPC as the multiplier. E) $400 billion may come from incorrectly calculating the multiplier as 1/MPC × MPC or other arithmetic errors."
+  },
+  {
+    "id": "macro_u3_q138",
+    "subject": "apmacro",
+    "unit": 3,
+    "topic": "inflationary gap and fiscal policy",
+    "topicLabel": "Inflationary Gap and Fiscal Policy",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "An economy is currently producing above its full-employment output, and the price level is rising. Which of the following fiscal policy actions would be most appropriate to close the inflationary gap?",
+    "choices": [
+      "A) Increase government spending and decrease taxes",
+      "B) Decrease government spending and increase taxes",
+      "C) Increase government spending and increase taxes by the same amount",
+      "D) Decrease taxes and increase transfer payments",
+      "E) Increase the money supply and decrease the reserve requirement"
+    ],
+    "answer": 1,
+    "explanation": "An inflationary gap means real GDP exceeds full-employment output, so contractionary fiscal policy is needed to reduce aggregate demand. Decreasing government spending and increasing taxes both reduce AD, closing the gap. A) is expansionary fiscal policy, which would widen the inflationary gap. C) is the balanced budget multiplier scenario, which would still increase GDP (net expansionary), not reduce it. D) is also expansionary, as both actions increase disposable income and consumption. E) describes monetary policy tools (controlled by the central bank), not fiscal policy, which is a common student confusion between fiscal and monetary policy."
+  },
+  {
+    "id": "macro_u4_q139",
+    "subject": "apmacro",
+    "unit": 4,
+    "topic": "open market operations and money market",
+    "topicLabel": "Open Market Operations and the Money Market",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Suppose the Federal Reserve conducts an open market purchase of government bonds. In the money market graph, which of the following correctly describes the resulting changes?",
+    "choices": [
+      "A) The money supply curve shifts left, and the nominal interest rate increases.",
+      "B) The money supply curve shifts right, and the nominal interest rate decreases.",
+      "C) The money demand curve shifts right, and the nominal interest rate increases.",
+      "D) The money demand curve shifts left, and the nominal interest rate decreases.",
+      "E) The money supply curve shifts right, and the nominal interest rate increases."
+    ],
+    "answer": 1,
+    "explanation": "When the Fed conducts an open market purchase, it buys government bonds from banks and the public, injecting reserves into the banking system. This increases the money supply, shifting the money supply curve to the right. With greater supply of money at the existing interest rate, the nominal interest rate falls to restore equilibrium. Choice (A) describes an open market sale, not a purchase. Choices (C) and (D) incorrectly shift the money demand curve, which is not directly affected by open market operations. Choice (E) correctly shifts supply right but incorrectly states the interest rate rises - a common error where students confuse the direction of the rate change when supply increases."
+  },
+  {
+    "id": "macro_u6_q140",
+    "subject": "apmacro",
+    "unit": 6,
+    "topic": "balance of payments",
+    "topicLabel": "Balance of Payments",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Country Z has a current account deficit of $50 billion. Which of the following must be true about Country Z's capital (financial) account, assuming no statistical discrepancy and no official reserve transactions?",
+    "choices": [
+      "A) It has a capital account surplus of $50 billion.",
+      "B) It has a capital account deficit of $50 billion.",
+      "C) It has a capital account surplus, but the amount cannot be determined.",
+      "D) It has a capital account balance of zero because the two accounts are independent.",
+      "E) It has a capital account deficit that is less than $50 billion due to currency depreciation."
+    ],
+    "answer": 0,
+    "explanation": "The balance of payments must sum to zero. If the current account has a deficit of $50 billion, the capital (financial) account must have a corresponding surplus of $50 billion to offset it, assuming no statistical discrepancy or official reserve changes. Choice B is a common misconception where students confuse surplus and deficit directions. Choice C is wrong because the amount is determinable given the assumptions. Choice D incorrectly treats the accounts as independent when they are linked by the balance of payments identity. Choice E incorrectly introduces currency depreciation as a factor that would change the accounting relationship."
   }
 ];

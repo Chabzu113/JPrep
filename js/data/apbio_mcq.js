@@ -4576,11 +4576,11 @@ window.APBIO_MCQ = [
     "choices": [
       "A) Has 4 valence electrons allowing 4 covalent bonds",
       "B) Is the most abundant element in living things",
-      "C) Forms only single bonds",
+      "C) Is the most electronegative element commonly found in organic molecules",
       "D) Is highly electronegative"
     ],
     "answer": 0,
-    "explanation": "Carbon's 4 valence electrons allow it to form 4 stable covalent bonds, creating diverse molecular structures including chains and rings. While carbon is abundant in life, this abundance results from its bonding properties, not the cause of them. Carbon forms single, double, and triple bonds. Carbon has moderate electronegativity, not high."
+    "explanation": "Carbon's 4 valence electrons allow it to form 4 stable covalent bonds, creating diverse molecular structures including chains and rings. While carbon is abundant in life, this abundance results from its bonding properties, not the cause of them. Carbon is not the most electronegative element in organic molecules - oxygen is significantly more electronegative than carbon. Carbon has moderate electronegativity, not high."
   },
   {
     "id": "bio_u1_q005",
@@ -4896,11 +4896,11 @@ window.APBIO_MCQ = [
     "choices": [
       "A) The reaction must be spontaneous and release energy",
       "B) The reaction must be coupled to energy-requiring processes",
-      "C) Water molecules must be completely removed from the cell",
-      "D) The amino acids must first be converted to carbohydrates"
+      "C) The concentration of water must temporarily increase to drive the removal of water molecules from the reactants",
+      "D) The amino acids must accumulate in hydrophobic regions of the cell where water is excluded before bonding can occur"
     ],
     "answer": 1,
-    "explanation": "Dehydration synthesis in aqueous environments is thermodynamically unfavorable because it removes water where water is abundant. The reaction requires energy input, typically from ATP hydrolysis. Choice A incorrectly suggests spontaneity, C is impossible for living cells, and D describes an unrelated conversion."
+    "explanation": "Dehydration synthesis in aqueous environments is thermodynamically unfavorable because it removes water where water is abundant. The reaction requires energy input, typically from ATP hydrolysis. Choice A incorrectly suggests spontaneity, C is a plausible-sounding but incorrect claim about water concentration driving dehydration, and D represents a believable misconception about hydrophobic exclusion being a prerequisite for peptide bond formation."
   },
   {
     "id": "bio_u1_q021",
@@ -5032,15 +5032,15 @@ window.APBIO_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Sickle cell anemia results from a single amino acid substitution in hemoglobin (glutamic acid replaced by valine). This change causes the protein to polymerize and distort red blood cell shape. Which level of protein structure is most directly affected by this mutation?",
+    "question": "Sickle cell anemia results from a single amino acid substitution in hemoglobin (glutamic acid replaced by valine). When this mutant hemoglobin polymerizes and distorts red blood cell shape, which bonds or interactions are most directly disrupted compared to normal hemoglobin, leading to loss of proper function?",
     "choices": [
-      "A) Primary structure, leading to changes in all higher levels",
-      "B) Secondary structure only, affecting local folding",
-      "C) Tertiary structure only, affecting overall shape",
-      "D) Quaternary structure only, affecting subunit interactions"
+      "A) R-group interactions (ionic bonds, hydrophobic interactions, and hydrogen bonds) governing tertiary and quaternary structure",
+      "B) Peptide bonds linking amino acids in the primary sequence",
+      "C) Hydrogen bonds forming alpha helices and beta sheets in secondary structure only",
+      "D) Covalent disulfide bonds stabilizing the overall protein shape"
     ],
     "answer": 0,
-    "explanation": "The mutation directly changes the primary structure (amino acid sequence), but this change cascades through all levels of organization, ultimately affecting how hemoglobin molecules interact with each other (polymerization). While other levels are affected, the primary change drives all subsequent structural alterations."
+    "explanation": "The glutamic acid to valine substitution replaces a charged, hydrophilic R-group with a nonpolar, hydrophobic one. This directly disrupts the R-group interactions - including ionic bonds, hydrophobic interactions, and hydrogen bonds - that govern tertiary and quaternary structure. While the change originates at the primary structure level, it is the altered R-group interactions that cause abnormal hydrophobic patches on the protein surface, driving polymerization and loss of function. Although pH can disrupt hydrogen bonds involved in secondary structure, in sickle cell anemia the loss of function is most directly tied to tertiary and quaternary structural disruption caused by aberrant R-group interactions, not to changes in peptide bonds or secondary structure elements alone."
   },
   {
     "id": "bio_u1_q028",
@@ -5115,12 +5115,12 @@ window.APBIO_MCQ = [
     "question": "A scientist observes that when ethanol (C2H5OH) is mixed with water, it dissolves readily, but when vegetable oil is added to the same mixture, it forms a separate layer. Which property of water best explains this differential solubility?",
     "choices": [
       "A) Water's high specific heat capacity allows it to maintain temperature while dissolving polar substances",
-      "B) Water's ability to form hydrogen bonds with other polar molecules but not with nonpolar molecules",
+      "B) Water's surface tension, caused by hydrogen bonds between water molecules at the surface pulling inward toward the bulk liquid, since surface molecules have no water neighbors above them.",
       "C) Water's high surface tension prevents nonpolar molecules from breaking through the surface",
       "D) Water's density changes allow polar molecules to sink while nonpolar molecules float"
     ],
     "answer": 1,
-    "explanation": "Water forms hydrogen bonds with ethanol (polar) due to ethanol's -OH group, but cannot form hydrogen bonds with nonpolar vegetable oil molecules. Choice A incorrectly connects specific heat to solubility. Choice C misapplies surface tension concept. Choice D incorrectly attributes the separation to density rather than polarity."
+    "explanation": "Water forms hydrogen bonds with ethanol (polar) due to ethanol's -OH group, but cannot form hydrogen bonds with nonpolar vegetable oil molecules. Surface water molecules experience a net downward pull toward the bulk liquid because they have no water neighbors above them, creating surface tension. Insect legs that rest on water are not specifically hydrophobic; rather, their weight is distributed across the surface in a way that does not overcome the downward pull on surface molecules. Choice A incorrectly connects specific heat to solubility. Choice C misapplies surface tension concept. Choice D incorrectly attributes the separation to density rather than polarity."
   },
   {
     "id": "bio_u1_q032",
@@ -5140,7 +5140,7 @@ window.APBIO_MCQ = [
       "D) The molecules must first be phosphorylated to become reactive; this is phosphorylation"
     ],
     "answer": 1,
-    "explanation": "Dehydration synthesis removes water (H from one sugar, OH from another) to form a glycosidic bond between monosaccharides. Choice A describes hydrolysis (the reverse reaction). Choice C incorrectly focuses on energy rather than the mechanism. Choice D incorrectly suggests phosphorylation is needed for sugar linkage."
+    "explanation": "Dehydration synthesis removes water (H from one sugar, OH from another) to form a glycosidic bond between monosaccharides. Choice A describes hydrolysis (the reverse reaction). Choice C incorrectly focuses on energy rather than the mechanism. Choice D incorrectly claims that phosphorylation is required for sugar linkage; in reality, glycosidic bond formation proceeds through dehydration synthesis without the need for prior phosphorylation of the monomers."
   },
   {
     "id": "bio_u1_q033",
@@ -5180,7 +5180,7 @@ window.APBIO_MCQ = [
       "D) The acidic conditions protonate carboxyl groups, neutralizing negative charges essential for catalysis"
     ],
     "answer": 1,
-    "explanation": "The correct answer is B. At pH 5.8 (below the pKa of 6.0), histidine residues will be predominantly protonated and positively charged. Since the enzyme evolved to function at pH 7.4 where histidines would be mostly neutral, this change in charge distribution disrupts the active site's electrostatic environment and substrate binding. Choice A is backwards - at low pH, histidines gain protons rather than lose them. Choice C is incorrect because peptide bonds are stable at pH 5.8 and wouldn't be broken. Choice D, while chemically accurate about carboxyl group protonation, doesn't address the specific role of histidine residues mentioned in the question setup."
+    "explanation": "The correct answer is B. At pH 5.8 (below the pKa of 6.0), histidine residues will be predominantly protonated and positively charged. Since the enzyme evolved to function at pH 7.4 where histidines would be mostly neutral, this change in charge distribution disrupts the active site's electrostatic environment and substrate binding. Choice A is incorrect because at low pH, histidines gain protons rather than lose them - protonation, not deprotonation, occurs below the pKa. Choice C is incorrect because peptide bonds are chemically stable at pH 5.8 and are not broken under mildly acidic conditions. Choice D, while chemically plausible regarding carboxyl group protonation, does not address the specific role of histidine residues highlighted in the question and is therefore not the best explanation for the observed pH sensitivity."
   },
   {
     "id": "bio_u1_q035",
@@ -5320,7 +5320,7 @@ window.APBIO_MCQ = [
       "D) Purely lipid barriers"
     ],
     "answer": 1,
-    "explanation": "The fluid mosaic model describes membranes as fluid phospholipid bilayers with embedded proteins that can move laterally. Membranes are not rigid, crystalline, or purely lipid - they contain proteins as integral components."
+    "explanation": "The fluid mosaic model describes membranes as fluid phospholipid bilayers with embedded proteins that can move laterally. Membranes are not rigid, crystalline, or purely lipid - they contain proteins as integral components. Choice C is incorrect because water moves from HIGHER water potential to LOWER water potential, not the reverse; solid crystalline structures would prevent the dynamic, flexible behavior that characterizes real cell membranes."
   },
   {
     "id": "bio_u2_q042",
@@ -5468,19 +5468,19 @@ window.APBIO_MCQ = [
     "unit": 2,
     "topic": "cell structure",
     "topicLabel": "cell structure",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
     "format": "text",
     "question": "A researcher observes a cell with a distinct nucleus, membrane-bound organelles, and ribosomes attached to an extensive network of membranes. Based on these observations, what can be concluded about this cell's likely function?",
     "choices": [
-      "A) It is primarily involved in energy production through photosynthesis",
+      "A) It is primarily involved in energy production, as the extensive membrane network houses the enzymes needed for cellular respiration",
       "B) It is likely specialized for protein synthesis and secretion",
-      "C) It is designed for rapid cell division and reproduction",
+      "C) It is specialized for rapid cell division, since the membrane-bound organelles provide the energy needed to replicate DNA quickly",
       "D) It functions mainly in lipid storage and metabolism"
     ],
     "answer": 1,
-    "explanation": "The presence of ribosomes attached to an extensive membrane network (rough ER) indicates the cell is specialized for protein synthesis and secretion. Choice A assumes photosynthesis without chloroplast evidence, C focuses on division rather than the ER structure, and D would require lipid droplets or smooth ER dominance."
+    "explanation": "The presence of ribosomes attached to an extensive membrane network describes the rough endoplasmic reticulum (rough ER), which is characteristic of cells specialized for protein synthesis and secretion. Choice A is a plausible misconception because membranes are involved in cellular respiration (inner mitochondrial membrane), but the rough ER specifically is not the site of energy production. Choice C is plausible but incorrect because the presence of membrane-bound organelles is a feature of eukaryotic cells generally and does not specifically indicate specialization for rapid division; rapid division is more associated with structural features like condensed chromosomes and mitotic spindle formation. Choice D would require the presence of abundant lipid droplets or a predominance of smooth ER rather than ribosome-studded rough ER."
   },
   {
     "id": "bio_u2_q050",
@@ -5628,16 +5628,16 @@ window.APBIO_MCQ = [
     "unit": 2,
     "topic": "endocytosis",
     "topicLabel": "endocytosis",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
     "format": "text",
     "question": "A cell engulfs a bacterium through phagocytosis. After engulfment, the phagosome fuses with lysosomes. What would most likely happen if the lysosomes in this cell lacked functional enzymes?",
     "choices": [
       "A) The bacterium would be released back into the extracellular space",
-      "B) The bacterium would remain intact and potentially harmful within the cell",
+      "B) The cell will become turgid because the hypertonic external solution draws water into the cell, and the rigid cell wall resists expansion, building pressure.",
       "C) The phagosome would fuse with the nucleus instead",
-      "D) The bacterium would be digested by enzymes from the rough ER"
+      "D) The cell will shrink irreversibly because plant cells lack contractile vacuoles and cannot pump water back in under hypertonic conditions."
     ],
     "answer": 1,
     "explanation": "Lysosomal enzymes are essential for digesting phagocytosed material. Without functional enzymes, the bacterium would remain undigested and could harm the cell. Choice A describes exocytosis which doesn't occur with phagosomes, C is anatomically incorrect, and D misattributes digestive function to the ER."
@@ -5692,15 +5692,15 @@ window.APBIO_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A genetic mutation prevents the formation of signal sequences on newly synthesized proteins. Which organelle would be most directly affected by this mutation?",
+    "question": "A genetic mutation prevents the formation of signal sequences on all newly synthesized proteins. Without these signal sequences, ribosomes translating such proteins cannot be recruited to the rough endoplasmic reticulum membrane, and the proteins are instead synthesized entirely in the cytosol. Which organelle would be most directly affected by this mutation?",
     "choices": [
-      "A) Mitochondria, because proteins couldn't enter for cellular respiration",
-      "B) Rough endoplasmic reticulum, because ribosomes couldn't attach properly",
-      "C) Smooth endoplasmic reticulum, because lipid synthesis would be impaired",
-      "D) Golgi apparatus, because protein modification would be prevented"
+      "A) Mitochondria, because the absence of signal sequences would make the inner mitochondrial membrane more fluid than normal, since signal sequences typically restrict phospholipid movement at low temperatures",
+      "B) Rough endoplasmic reticulum, because ribosomes would no longer associate with its membrane, preventing cotranslational insertion and synthesis of secreted and membrane-bound proteins",
+      "C) Smooth endoplasmic reticulum, because lipid synthesis enzymes embedded in its membrane depend on signal sequences to function",
+      "D) Golgi apparatus, because protein modification and sorting would be prevented without signal sequences directing vesicle fusion"
     ],
     "answer": 1,
-    "explanation": "Signal sequences direct ribosomes to the rough ER for protein synthesis. Without them, ribosomes wouldn't attach to ER membranes, preventing synthesis of secreted and membrane proteins. Choice A affects mitochondrial import but isn't the most direct effect, C involves different proteins, and D occurs after ER processing."
+    "explanation": "Signal sequences direct ribosomes to the rough ER during translation, allowing newly synthesized proteins to be cotranslationally inserted into or across the ER membrane. Without signal sequences, ribosomes remain free in the cytosol and cannot associate with the rough ER membrane, directly abolishing the synthesis of secreted proteins, membrane proteins, and proteins destined for the endomembrane system. Choice A is a misconception conflating signal sequences with membrane fluidity regulation, which is actually controlled by cholesterol and fatty acid composition. Choice C is incorrect because smooth ER lipid synthesis does not rely on signal sequences. Choice D is incorrect because Golgi processing is downstream of ER entry and would only be secondarily affected."
   },
   {
     "id": "bio_u2_q061",

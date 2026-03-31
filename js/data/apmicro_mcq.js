@@ -8407,5 +8407,151 @@ var APMICRO_MCQ = [
     ],
     "answer": 1,
     "explanation": "Cap-and-trade allows trading between firms with different abatement costs, ensuring emission reductions occur where they're cheapest. This achieves cost-effectiveness even with imperfect information. A carbon tax may not account for cost differences across firms. Students often focus on certainty (A,E) or revenue (D) rather than cost-effectiveness."
+  },
+  {
+    "id": "micro_u1_q130",
+    "subject": "apmicro",
+    "unit": 1,
+    "topic": "PPC and opportunity cost",
+    "topicLabel": "Production Possibilities Curve and Opportunity Cost",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "An economy's production possibilities curve is bowed outward (concave to the origin). The economy is currently operating at a point on the curve. If it moves along the curve to produce more of Good X, which of the following must be true?",
+    "choices": [
+      "A) The opportunity cost of each additional unit of Good X remains constant because the economy has an absolute advantage in producing Good X.",
+      "B) The opportunity cost of each additional unit of Good X decreases because the economy becomes more efficient at producing Good X.",
+      "C) The opportunity cost of each additional unit of Good X decreases because resources are not perfectly adaptable between the two goods.",
+      "D) The total production of both goods increases as the economy reallocates resources toward Good X.",
+      "E) The economy must be experiencing economic growth in order to produce more of Good X."
+    ],
+    "answer": 2,
+    "explanation": "A bowed-outward PPC reflects the law of increasing opportunity costs. As the economy produces more of Good X, it must divert resources that are increasingly less suited for Good X production, causing the opportunity cost per additional unit of Good X to rise. C is incorrect because it states that opportunity cost decreases due to resources not being perfectly adaptable - in fact, the opposite is true: the imperfect adaptability of resources causes opportunity cost to increase, not decrease. A is incorrect because absolute advantage has no bearing on opportunity costs along the PPC, and a bowed-out curve by definition does not have constant opportunity costs. B is a common misconception - specialization along the curve does not reduce opportunity cost; it increases it. D is wrong because moving along the curve means producing more of one good at the expense of the other, not increasing both. E confuses movement along the curve (reallocation) with an outward shift of the curve (economic growth)."
+  },
+  {
+    "id": "micro_u1_q131",
+    "subject": "apmicro",
+    "unit": 1,
+    "topic": "circular flow model",
+    "topicLabel": "Circular Flow Model",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "question": "In the circular flow model, a software engineer receives a salary from a technology firm. At the same time, she purchases a new laptop from that firm's retail store. Which of the following correctly identifies the markets through which these two transactions flow?",
+    "choices": [
+      "A) Both transactions occur in the product market because they both involve exchanges of money for something of value.",
+      "B) The salary is a flow in the product market; the laptop purchase is a flow in the factor market.",
+      "C) The salary is a flow in the factor market; the laptop purchase is a flow in the product market.",
+      "D) Both transactions occur in the factor market because the engineer is both a worker and a consumer of the firm.",
+      "E) The salary is a transfer payment and does not flow through either market; only the laptop purchase flows through the product market."
+    ],
+    "answer": 2,
+    "explanation": "In the circular flow model, the factor (resource) market is where households sell their labor, land, and capital to firms in exchange for income. The product market is where households buy finished goods and services from firms. The engineer's salary represents compensation for labor, which flows through the factor market. Her laptop purchase is a purchase of a final good, which flows through the product market (C is correct). A incorrectly classifies the salary as a product market transaction - a common error when students focus on the monetary exchange rather than what is being exchanged. B reverses the two markets entirely. D incorrectly places both in the factor market. E is wrong because a salary is earned income for labor services, not a transfer payment (transfer payments are unearned income like government subsidies, which is a macroeconomic concept students sometimes confuse here)."
+  },
+  {
+    "id": "micro_u2_q132",
+    "subject": "apmicro",
+    "unit": 2,
+    "topic": "cross price elasticity",
+    "topicLabel": "Cross-Price Elasticity of Demand",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "When the price of good X increases by 10%, the quantity demanded of good Y decreases by 15%. Which of the following best describes the relationship between goods X and Y and the cross-price elasticity of demand?",
+    "choices": [
+      "A) X and Y are substitutes with a cross-price elasticity of 1.5",
+      "B) X and Y are complements with a cross-price elasticity of -1.5",
+      "C) X and Y are complements with a cross-price elasticity of 1.5",
+      "D) X and Y are substitutes with a cross-price elasticity of -1.5",
+      "E) X and Y are unrelated goods with a cross-price elasticity of 0"
+    ],
+    "answer": 1,
+    "explanation": "Cross-price elasticity of demand (XED) is calculated as the percentage change in quantity demanded of good Y divided by the percentage change in price of good X: -15% / 10% = -1.5. A negative cross-price elasticity indicates that the goods are complements - when the price of X rises, consumers buy less of Y as well. Choice A is wrong because substitutes have a positive XED (higher price of X would increase demand for Y). Choice C incorrectly identifies them as complements but gives a positive value. Choice D reverses both the sign logic and the classification. Choice E is incorrect because the quantity demanded of Y clearly responds to changes in the price of X."
+  },
+  {
+    "id": "micro_u5_q133",
+    "subject": "apmicro",
+    "unit": 5,
+    "topic": "monopsony",
+    "topicLabel": "Monopsony and Wage Determination",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A monopsony employer maximizes profit by hiring workers where MRP = MFC. Compared to a perfectly competitive labor market, this monopsony will pay a wage that is:",
+    "choices": [
+      "A) Equal to MRP and hire fewer workers",
+      "B) Below MRP and hire fewer workers",
+      "C) Above MRP and hire more workers",
+      "D) Below MRP and hire the same number of workers",
+      "E) Equal to MFC and hire fewer workers"
+    ],
+    "answer": 1,
+    "explanation": "A monopsony hires where MRP = MFC but pays the wage from the labor supply curve (which lies below MFC), not the MFC itself. This results in a wage below the worker's MRP and fewer workers hired compared to a competitive labor market. Answer A is wrong because the wage is set on the supply curve, not at MRP. Answer C reverses the direction of both distortions. Answer D is wrong because the monopsony restricts employment below the competitive quantity. Answer E is wrong because the firm pays the supply-curve wage, not MFC - paying MFC would eliminate the monopsony's surplus extraction."
+  },
+  {
+    "id": "micro_u5_q134",
+    "subject": "apmicro",
+    "unit": 5,
+    "topic": "monopsony and minimum wage",
+    "topicLabel": "Monopsony and Minimum Wage",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A monopsony employer hires 200 workers at a wage of $12 per hour, while the competitive equilibrium would be 250 workers at $16 per hour. The monopoly union's preferred wage is $20 per hour. If the union and the monopsony employer engage in collective bargaining, which of the following outcomes is most likely?",
+    "choices": [
+      "A) The wage will be set at $12 because the monopsony employer has all the bargaining power in the labor market.",
+      "B) The wage will be set at $20 because the union can always enforce its preferred wage through strike threats.",
+      "C) The wage will be indeterminate between $12 and $20 depending on relative bargaining power, and employment could increase toward the competitive level of 250 workers.",
+      "D) The wage will be set at the competitive level of $16 because bargaining always produces the most efficient outcome.",
+      "E) Employment will fall below 200 workers because any wage increase in a monopsony always reduces hiring."
+    ],
+    "answer": 2,
+    "explanation": "When a union bargains with a monopsony employer, the result is called bilateral monopoly. The monopsony prefers to pay $12 (its profit-maximizing wage), while the union prefers $20 (its utility-maximizing wage). Because neither side has complete market power, the final wage is indeterminate and will fall somewhere between $12 and $20 depending on the relative bargaining strength of each party. Importantly, employment under bilateral monopoly can increase toward the competitive level of 250 workers compared to pure monopsony, because the union's bargaining power counteracts the monopsony's tendency to restrict hiring. Choice A is wrong because the union's bargaining power prevents the monopsony from simply dictating the wage. Choice B is wrong because the monopsony's market power prevents the union from unilaterally setting the wage at $20. Choice D is wrong because bilateral monopoly does not guarantee an efficient competitive outcome. Choice E incorrectly applies the logic that minimum wages always reduce employment; in a monopsony setting, counteracting market power can actually increase employment."
+  },
+  {
+    "id": "micro_u6_q135",
+    "subject": "apmicro",
+    "unit": 6,
+    "topic": "Coase theorem",
+    "topicLabel": "Coase theorem",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A factory's pollution damages a nearby fishery. According to the Coase theorem, which of the following conditions would prevent the two parties from reaching an efficient private solution to the externality?",
+    "choices": [
+      "A) The factory values its right to pollute more than the fishery values clean water.",
+      "B) Property rights are clearly assigned to the factory owner.",
+      "C) Transaction costs of negotiation between the two parties are very high.",
+      "D) The government has not imposed a corrective tax on the factory.",
+      "E) The fishery owner is willing to pay the factory to reduce pollution."
+    ],
+    "answer": 2,
+    "explanation": "The Coase theorem states that private parties can reach an efficient outcome regardless of the initial assignment of property rights, as long as property rights are well-defined and transaction costs are low. High transaction costs (C) are a key barrier that prevents private bargaining from achieving efficiency. (A) is wrong because the Coase theorem works regardless of relative valuations - bargaining still leads to the efficient outcome. (B) is wrong because clearly assigned property rights actually facilitate a Coasean solution rather than prevent one. (D) is wrong because the Coase theorem specifically addresses situations where government intervention is unnecessary. (E) is wrong because willingness to pay for pollution reduction is exactly the type of bargaining the theorem predicts will occur."
+  },
+  {
+    "id": "micro_u6_q136",
+    "subject": "apmicro",
+    "unit": 6,
+    "topic": "Coase theorem",
+    "topicLabel": "Coase theorem",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A factory emits pollution that damages a nearby fishery. The factory's profit from polluting is $50,000, and the fishery suffers $80,000 in damages. According to the Coase theorem, if property rights are assigned to the factory and transaction costs are zero, which of the following outcomes is most likely?",
+    "choices": [
+      "A) The fishery pays the factory between $50,000 and $80,000 to stop polluting, and the efficient outcome is achieved.",
+      "B) The factory continues to pollute because it holds the property rights, and the inefficient outcome persists.",
+      "C) The government must impose a Pigouvian tax of $80,000 on the factory to achieve the efficient outcome.",
+      "D) The fishery pays the factory exactly $80,000 to stop polluting, capturing all the gains from trade.",
+      "E) The factory voluntarily stops polluting because the social cost exceeds its private benefit."
+    ],
+    "answer": 0,
+    "explanation": "The Coase theorem states that when property rights are well-defined and transaction costs are zero, private bargaining will lead to the socially efficient outcome regardless of who holds the property rights. Since the fishery's damage ($80,000) exceeds the factory's profit from polluting ($50,000), the fishery can pay the factory any amount between $50,000 and $80,000 to stop polluting, making both parties better off and achieving efficiency. B is wrong because it ignores the central insight of the Coase theorem - bargaining occurs even when the polluter holds the rights. C is wrong because the Coase theorem specifically demonstrates that government intervention is unnecessary when transaction costs are zero. D is wrong because the payment would be negotiated between $50,000 and $80,000 (the bargaining range), not necessarily at $80,000; paying exactly $80,000 would leave the fishery no better off than under pollution. E is wrong because the factory has no private incentive to stop voluntarily - it only stops if compensated."
   }
 ];

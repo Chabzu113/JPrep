@@ -1,1291 +1,5699 @@
 var APBIO_FRQ = [
   {
-    id: 'SB-01',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Enzyme Kinetics",
-    units: [1],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "Amylase is an enzyme found in human saliva that catalyzes the hydrolysis of starch into maltose. A student tests amylase activity by mixing it with starch solution at pH 7, pH 5, and pH 9 and measuring the rate of starch breakdown over 10 minutes. The highest activity is observed at pH 7, with significantly reduced activity at pH 5 and pH 9.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the relationship between enzyme structure and substrate specificity.", rubric: "Student describes that the enzyme's active site has a specific 3D shape (complementary to the substrate) formed by the arrangement of amino acids; only substrates with a complementary shape can bind and be catalyzed." },
-    { label: 'b', command: 'Explain', question: "why amylase activity is reduced at pH 5 compared to pH 7.", rubric: "Student explains that at pH 5 (more acidic), the ionization state of amino acid R groups in the active site changes; altered charges disrupt the shape of the active site, reducing substrate binding and/or catalysis. Must reference active site or enzyme structure." },
-    { label: 'c', command: 'Predict', question: "what would happen to amylase activity if the experiment were repeated at 70°C instead of body temperature (37°C). Justify your prediction.", rubric: "Prediction: activity would decrease significantly or be near zero at 70°C. Justification: high temperature disrupts hydrogen bonds and other non-covalent interactions that maintain the enzyme's 3D shape (denaturation), permanently altering the active site so substrate cannot bind." }
+    "id": "bio_u1_frq001",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Dehydration Synthesis and Macromolecule Formation",
+    "units": [
+      1
     ],
-    rubric: [{ points: 1, description: "Student describes that the enzyme's active site has a specific 3D shape (complem", partLabel: 'a', skill: 'describe', keywords: ["amino acids", "active site", "substrate", "enzyme", "complementary to the substrate"] }, { points: 1, description: "Student explains that at pH 5 (more acidic), the ionization state of amino acid", partLabel: 'b', skill: 'explain', keywords: ["active site", "amino acid", "ionization", "substrate", "enzyme", "more acidic"] }, { points: 1, description: "Prediction: activity would decrease significantly or be near zero at 70°C. Justi", partLabel: 'c', skill: 'predict', keywords: ["denaturation", "active site", "substrate", "enzyme"] }],
-    sampleSolution: null
+    "difficulty": "easy",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "Cells build large macromolecules by joining smaller monomer subunits together through a chemical reaction called dehydration synthesis (also known as a condensation reaction). For example, glucose monomers can be linked together to form the polysaccharide glycogen, which is used for energy storage in animal cells.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe what occurs at the chemical level during a dehydration synthesis reaction when two monomers are joined together.",
+        "rubric": "Student must describe the removal of a water molecule (H2O) as a covalent bond forms between two monomers."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why dehydration synthesis reactions require an input of energy.",
+        "rubric": "Student must explain that forming a covalent bond between monomers requires energy input, making it an anabolic/endergonic/biosynthetic process that builds larger molecules from smaller ones."
+      },
+      {
+        "label": "c",
+        "command": "Describe",
+        "question": "Describe the reverse reaction of dehydration synthesis and identify the molecule that is used in that process.",
+        "rubric": "Student must identify hydrolysis as the reverse reaction and describe that a water molecule is added/used to break the covalent bond between monomers."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly describes that a water molecule (H2O) is released/removed as a covalent bond forms between two monomers during dehydration synthesis.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "water molecule",
+          "water is released",
+          "H2O removed",
+          "covalent bond forms",
+          "condensation reaction",
+          "loses water",
+          "water lost",
+          "bond between monomers",
+          "removal of water",
+          "dehydration synthesis",
+          "hydroxyl group",
+          "hydrogen removed",
+          "polymer formation",
+          "monomer joined"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student correctly explains that energy is required because dehydration synthesis is an anabolic/endergonic reaction that builds larger molecules, requiring energy to form covalent bonds.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "anabolic",
+          "endergonic",
+          "energy input",
+          "energy required",
+          "form covalent bond",
+          "build larger molecules",
+          "biosynthesis",
+          "ATP",
+          "energy to form bonds",
+          "requires energy",
+          "free energy",
+          "activation energy",
+          "polymerization",
+          "energy absorbed",
+          "unfavorable reaction"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student correctly identifies hydrolysis as the reverse reaction and states that a water molecule is added/consumed to break the covalent bond between monomers.",
+        "partLabel": "c",
+        "skill": "describe",
+        "keywords": [
+          "hydrolysis",
+          "water is added",
+          "water added",
+          "H2O added",
+          "breaks covalent bond",
+          "bond broken",
+          "splits monomers",
+          "digestion",
+          "water consumed",
+          "reverse of dehydration synthesis",
+          "cleavage",
+          "polymer broken down",
+          "enzymatic hydrolysis",
+          "releases monomers",
+          "water molecule incorporated"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-02',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Macromolecules",
-    units: [1],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "A nutrition label lists the following components of a food: 30g carbohydrates, 10g protein, 8g fat. A biochemistry student notes that the carbohydrates and proteins have similar caloric density (4 kcal/g) while fat has much higher caloric density (9 kcal/g).",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "a structural difference between a saturated and an unsaturated fatty acid.", rubric: "Student states that saturated fatty acids have no double bonds between carbon atoms in the hydrocarbon tail (all C-C single bonds, maximum H atoms); unsaturated fatty acids have one or more C=C double bonds, resulting in fewer hydrogen atoms and a kinked/bent tail." },
-    { label: 'b', command: 'Explain', question: "why fats store more energy per gram than carbohydrates.", rubric: "Fats contain more C-H bonds per carbon atom than carbohydrates (which are already partially oxidized with many C-OH bonds); C-H bonds contain more chemical energy that can be released through oxidation/cellular respiration. Award point for noting fats are more reduced than carbohydrates OR for noting higher proportion of C-H bonds." },
-    { label: 'c', command: 'Identify', question: "the monomer units of proteins and describe the bond that links them together.", rubric: "Monomers are amino acids; they are linked by peptide bonds (formed by dehydration synthesis between the carboxyl group of one amino acid and the amino group of the next, releasing water)." }
+    "id": "bio_u1_frq002",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Hydrogen Bonds and Water's Unique Properties",
+    "units": [
+      1
     ],
-    rubric: [{ points: 1, description: "Student states that saturated fatty acids have no double bonds between carbon at", partLabel: 'a', skill: 'describe', keywords: ["c=c double bonds", "unsaturated", "saturated"] }, { points: 1, description: "Fats contain more C-H bonds per carbon atom than carbohydrates (which are alread", partLabel: 'b', skill: 'explain', keywords: ["fats are m", "cellular respiration", "chemical energy", "more reduced", "c-h bonds", "oxidation", "oxidized", "reduced"] }, { points: 1, description: "Monomers are amino acids; they are linked by peptide bonds (formed by dehydratio", partLabel: 'c', skill: 'describe', keywords: ["dehydration synthesis", "carboxyl group", "amino acids", "amino group", "amino acid"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "Water is essential to life and exhibits several unique properties that arise from its molecular structure. A biology student investigates why water has an unusually high boiling point compared to other molecules of similar molecular mass, and why ice floats on liquid water. The student also observes that water molecules interact with dissolved polar solutes in a predictable way.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain why water has a higher boiling point than expected for a molecule of its size, referencing the specific intermolecular interactions involved.",
+        "rubric": "Student earns 1 point for explaining that water molecules form hydrogen bonds with each other due to the partial negative charge on oxygen and partial positive charge on hydrogen (polarity/electronegativity), and that significant energy is required to break these hydrogen bonds, resulting in a high boiling point."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why ice is less dense than liquid water and describe how this property is important to aquatic organisms in cold climates.",
+        "rubric": "Student earns 1 point for explaining that in ice, water molecules form a crystalline lattice held together by hydrogen bonds that keep molecules farther apart than in liquid water, making ice less dense; this allows ice to float, insulating the liquid water below and allowing aquatic organisms to survive."
+      },
+      {
+        "label": "c",
+        "command": "Describe",
+        "question": "Describe how water acts as a solvent for polar and ionic solutes, using the concept of hydration shells in your response.",
+        "rubric": "Student earns 1 point for describing that water molecules surround polar or ionic solutes by orienting their partial charges toward opposite charges on the solute, forming hydration shells that stabilize dissolved ions or polar molecules and keep them in solution."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Explains that hydrogen bonds between water molecules require large amounts of energy to break, causing a high boiling point; references polarity and partial charges.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "hydrogen bond",
+          "hydrogen bonds",
+          "partial negative charge",
+          "partial positive charge",
+          "polarity",
+          "polar molecule",
+          "electronegativity",
+          "oxygen attracts electrons",
+          "energy to break",
+          "high boiling point",
+          "intermolecular forces",
+          "cohesion",
+          "dipole-dipole",
+          "unusually high boiling point",
+          "covalent bond polarity",
+          "δ- oxygen",
+          "δ+ hydrogen"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Explains that ice forms a crystalline lattice via hydrogen bonds with molecules spaced farther apart, making ice less dense than liquid water, and connects this to survival of aquatic organisms.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "crystalline lattice",
+          "lattice structure",
+          "hydrogen bonds",
+          "less dense",
+          "lower density",
+          "ice floats",
+          "liquid water below",
+          "insulation",
+          "aquatic organisms survive",
+          "frozen surface",
+          "density of ice",
+          "spaces between molecules",
+          "expands when freezes",
+          "hexagonal arrangement",
+          "thermal insulation",
+          "overwinter",
+          "below freezing"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Describes water as a universal solvent that forms hydration shells around ionic or polar solutes by orienting partial charges, stabilizing solutes in solution.",
+        "partLabel": "c",
+        "skill": "describe",
+        "keywords": [
+          "hydration shell",
+          "hydration shells",
+          "universal solvent",
+          "polar solvent",
+          "surrounds solute",
+          "ionic solute",
+          "partial charges orient",
+          "dissolves",
+          "stabilizes ions",
+          "water molecules surround",
+          "soluble",
+          "polar interactions",
+          "electrostatic attraction",
+          "like dissolves like",
+          "sphere of water molecules",
+          "δ- toward cation",
+          "δ+ toward anion",
+          "keeps ions in solution"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-03',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Membrane Transport",
-    units: [2],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Cystic fibrosis (CF) is caused by a mutation in the CFTR gene, which encodes a chloride ion channel in the plasma membrane of epithelial cells. In healthy cells, CFTR opens in response to elevated cAMP and allows Cl- to move out of the cell. In CF patients, the most common mutation (delta-F508) causes the CFTR protein to misfold and be degraded before it reaches the plasma membrane. Cells lining the airways of CF patients have abnormally thick, sticky mucus that cannot be cleared.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "a difference between facilitated diffusion and active transport.", rubric: "Student states that facilitated diffusion moves substances down their concentration gradient and requires no energy (ATP); active transport moves substances against their concentration gradient and requires energy (ATP). Must distinguish directionality relative to gradient." },
-    { label: 'b', command: 'Identify', question: "the type of membrane transport CFTR performs and justify your identification.", rubric: "CFTR performs facilitated diffusion (channel-mediated). Justification: Cl- moves out of the cell down its electrochemical gradient through the CFTR channel; no ATP is consumed. Award point for correct identification AND correct reasoning." },
-    { label: 'c', command: 'Explain', question: "why the delta-F508 mutation, which causes protein misfolding, results in loss of CFTR function at the plasma membrane even though the gene is still transcribed and translated.", rubric: "The misfolded CFTR protein is recognized by the cell's quality control machinery (in the ER) and targeted for degradation (via the proteasome/ubiquitin pathway) before it can be properly processed and transported to the plasma membrane. The channel never reaches its functional location." },
-    { label: 'd', command: 'Predict', question: "how the loss of Cl- transport from airway epithelial cells contributes to the thick mucus observed in CF patients. Justify your prediction.", rubric: "Prediction: without Cl- export, less water follows by osmosis into the airway lumen. Justification: normally, Cl- export creates an osmotic gradient that draws water out of cells and into the airway, hydrating the mucus layer; without this gradient, less water moves out, leaving mucus dehydrated and thick. Award point for osmosis/water movement reasoning." }
+    "id": "bio_u1_frq003",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Dehydration Synthesis and Hydrolysis of Macromolecules",
+    "units": [
+      1
     ],
-    rubric: [{ points: 1, description: "Student states that facilitated diffusion moves substances down their concentrat", partLabel: 'a', skill: 'describe', keywords: ["concentration gradient", "facilitated diffusion", "active transport", "diffusion", "atp"] }, { points: 1, description: "CFTR performs facilitated diffusion (channel-mediated). Justification: Cl- moves", partLabel: 'b', skill: 'describe', keywords: ["electrochemical gradient", "facilitated diffusion", "diffusion", "atp", "channel-mediated"] }, { points: 1, description: "The misfolded CFTR protein is recognized by the cell's quality control machinery", partLabel: 'c', skill: 'explain', keywords: ["plasma membrane", "quality control", "proteasome", "ubiquitin", "in the er", "via the proteasome/ubiquitin pathway"] }, { points: 1, description: "Prediction: without Cl- export, less water follows by osmosis into the airway lu", partLabel: 'd', skill: 'predict', keywords: ["osmotic gradient", "water movement", "water moves", "osmosis"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "Cells constantly build and break down macromolecules through two complementary reactions: dehydration synthesis and hydrolysis. A student compares the digestion of a protein in the small intestine to the synthesis of a polysaccharide in a plant cell. The student notes that both processes involve monomers and polymers and that water plays a central role in each reaction.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe what occurs at the molecular level during dehydration synthesis when two amino acids are joined together, identifying the bond formed and the molecule released.",
+        "rubric": "Student earns 1 point for describing that a water molecule is released as two amino acids are covalently joined by a peptide bond between the carboxyl group of one amino acid and the amino group of the other, forming a dipeptide."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain how hydrolysis is used to break down a polysaccharide such as starch, and identify what molecule is required for this reaction.",
+        "rubric": "Student earns 1 point for explaining that water is added (consumed) to break the glycosidic bonds between glucose monomers in starch, splitting the polymer into individual monosaccharides or shorter chains; water is the reactant required."
+      },
+      {
+        "label": "c",
+        "command": "Justify",
+        "question": "Justify why dehydration synthesis and hydrolysis are considered complementary (opposing) reactions, using the role of water in each to support your answer.",
+        "rubric": "Student earns 1 point for justifying that dehydration synthesis releases water to form covalent bonds and build polymers from monomers, while hydrolysis consumes water to break those same covalent bonds and break polymers into monomers - making them reverse/opposing processes with water as either a product or reactant."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Describes dehydration synthesis joining two amino acids via a peptide bond with the release of a water molecule.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "dehydration synthesis",
+          "dehydration reaction",
+          "condensation reaction",
+          "peptide bond",
+          "water released",
+          "water molecule removed",
+          "amino acid",
+          "carboxyl group",
+          "amino group",
+          "covalent bond",
+          "dipeptide",
+          "monomer to polymer",
+          "-COOH",
+          "-NH2",
+          "H2O released",
+          "bond formation",
+          "polypeptide chain begins"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Explains that hydrolysis breaks glycosidic bonds in starch by adding water, releasing glucose monomers.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "hydrolysis",
+          "water added",
+          "water consumed",
+          "glycosidic bond",
+          "glycosidic linkage",
+          "starch",
+          "glucose",
+          "monosaccharide",
+          "breaks bonds",
+          "polymer broken down",
+          "digestion",
+          "water as reactant",
+          "amylase",
+          "alpha-1,4-glycosidic bond",
+          "H2O required",
+          "enzymatic hydrolysis",
+          "releases monomers"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Justifies that the two reactions are complementary because dehydration synthesis releases water to build polymers while hydrolysis uses water to break them apart - opposite roles of water.",
+        "partLabel": "c",
+        "skill": "justify",
+        "keywords": [
+          "complementary reactions",
+          "opposing reactions",
+          "reverse reactions",
+          "water released in synthesis",
+          "water consumed in hydrolysis",
+          "builds polymers",
+          "breaks down polymers",
+          "monomers to polymer",
+          "polymer to monomers",
+          "water as product",
+          "water as reactant",
+          "opposite processes",
+          "anabolic reaction",
+          "catabolic reaction",
+          "mirror image reactions",
+          "H2O produced vs consumed",
+          "bond formation vs bond breaking"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-04',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Organelles and Cell Function",
-    units: [2],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "Pancreatic acinar cells produce and secrete large amounts of digestive enzymes. These cells have an unusually high density of rough endoplasmic reticulum, a large Golgi apparatus, and many secretory vesicles. In contrast, skeletal muscle cells have very few of these organelles but contain extremely high numbers of mitochondria.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why pancreatic acinar cells have high densities of rough ER and Golgi apparatus.", rubric: "Rough ER is studded with ribosomes and is the site of synthesis and processing of proteins destined for secretion; the Golgi apparatus further modifies, sorts, and packages these proteins into secretory vesicles. Cells that secrete large amounts of protein require extensive ER and Golgi for this production line." },
-    { label: 'b', command: 'Explain', question: "why skeletal muscle cells have a high density of mitochondria.", rubric: "Skeletal muscle cells require large amounts of ATP for muscle contraction (myosin cross-bridge cycling). Mitochondria are the site of aerobic respiration (oxidative phosphorylation), which generates most cellular ATP. High energy demand = high mitochondria density." },
-    { label: 'c', command: 'Describe', question: "the structural feature of the inner mitochondrial membrane that increases its surface area and explain the functional significance of this feature.", rubric: "The inner mitochondrial membrane has folds called cristae that greatly increase its surface area. Functional significance: the proteins of the electron transport chain and ATP synthase are embedded in this membrane; greater surface area = more ETC/ATP synthase complexes = greater ATP production capacity." }
+    "id": "bio_u1_frq004",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Protein Denaturation and Disruption of Molecular Interactions",
+    "units": [
+      1
     ],
-    rubric: [{ points: 1, description: "Rough ER is studded with ribosomes and is the site of synthesis and processing o", partLabel: 'a', skill: 'explain', keywords: ["golgi apparatus", "rough er", "golgi"] }, { points: 1, description: "Skeletal muscle cells require large amounts of ATP for muscle contraction (myosi", partLabel: 'b', skill: 'explain', keywords: ["oxidative phosphorylation", "aerobic respiration", "muscle contraction", "phosphorylation", "mitochondria", "myosin", "atp", "myosin cross-bridge cycling"] }, { points: 1, description: "The inner mitochondrial membrane has folds called cristae that greatly increase", partLabel: 'c', skill: 'describe', keywords: ["inner mitochondrial membrane", "electron transport chain", "atp synthase", "cristae", "atp"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A researcher is studying two enzymes: Enzyme X, a globular protein that functions optimally at pH 7 and loses activity when exposed to pH 2, and Enzyme Y, a membrane-associated protein whose hydrophobic core is stabilized by interactions with a phospholipid bilayer. The researcher denatures Enzyme X by dropping the pH to 2 and observes that its polypeptide chain unfolds completely. Separately, the researcher uses a detergent to disrupt Enzyme Y's association with the membrane, causing it to lose function. Both enzymes contain multiple R-groups capable of forming hydrogen bonds with surrounding water molecules under normal physiological conditions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain why decreasing the pH to 2 causes Enzyme X to denature, specifically addressing how the change in hydrogen ion concentration disrupts the interactions that maintain the protein's tertiary structure.",
+        "rubric": "Earn 1 point: Student must explain that low pH (excess H⁺/hydronium ions) protonates ionizable R-groups (such as carboxyl or amino side chains), altering their charge and disrupting ionic bonds and/or hydrogen bonds that stabilize tertiary structure, causing the polypeptide to unfold/denature."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Enzyme Y contains a hydrophobic core buried within the phospholipid bilayer. Explain how hydrophobic interactions and the properties of the aqueous cellular environment drive the folding of hydrophobic R-groups away from water, and predict what happens to these R-groups when detergent disrupts the membrane association.",
+        "rubric": "Earn 1 point: Student must explain that hydrophobic R-groups are nonpolar and cannot form hydrogen bonds with water, so they are excluded from the aqueous environment (hydrophobic effect), clustering in the interior away from water to minimize disruption of water's hydrogen bonding network. When detergent disrupts the membrane, hydrophobic R-groups are exposed to the aqueous environment, destabilizing the protein's structure."
+      },
+      {
+        "label": "c",
+        "command": "Justify",
+        "question": "A student claims that because both enzymes contain R-groups capable of forming hydrogen bonds with water, renaturation (refolding to a functional state) should occur spontaneously for both enzymes once the denaturing conditions are removed. Justify whether this claim is well-supported, referencing the specific molecular interactions involved in each enzyme's stability.",
+        "rubric": "Earn 1 point: Student must refute or qualify the claim by explaining that renaturation is not guaranteed for both enzymes - while some proteins can refold spontaneously (driven by thermodynamically favorable hydrophobic interactions and hydrogen bond formation), the ability to renature depends on the specific sequence and complexity of the protein. For Enzyme Y especially, renaturation may not occur spontaneously outside the membrane environment because the hydrophobic R-groups require the nonpolar lipid bilayer context to achieve their stable conformation; hydrogen bond formation with water alone does not restore hydrophobic core stability."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that low pH protonates R-groups, disrupting ionic bonds and/or hydrogen bonds that maintain tertiary structure, causing unfolding/denaturation.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "low pH",
+          "excess hydrogen ions",
+          "protonation",
+          "R-groups protonated",
+          "ionizable side chains",
+          "carboxyl group protonated",
+          "amino side chain altered",
+          "ionic bonds disrupted",
+          "hydrogen bonds broken",
+          "tertiary structure lost",
+          "denaturation",
+          "polypeptide unfolds",
+          "side chains charged",
+          "altered charge state",
+          "disrupts noncovalent interactions"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains hydrophobic effect - nonpolar R-groups cluster away from water to minimize disruption of water's hydrogen bonding network - and predicts that detergent exposes hydrophobic R-groups to aqueous environment, destabilizing the protein.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "hydrophobic effect",
+          "nonpolar R-groups",
+          "excluded from water",
+          "hydrophobic interactions",
+          "water hydrogen bonding network disrupted",
+          "aqueous environment",
+          "hydrophobic core exposed",
+          "detergent disrupts membrane",
+          "protein destabilized",
+          "nonpolar side chains cluster",
+          "cannot form hydrogen bonds with water",
+          "amphipathic detergent",
+          "protein loses native conformation",
+          "interior of protein",
+          "thermodynamic exclusion"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student refutes or qualifies the claim by explaining that renaturation is not guaranteed, especially for Enzyme Y, because hydrophobic stability requires the membrane lipid environment, and hydrogen bond formation with water alone does not restore full native structure.",
+        "partLabel": "c",
+        "skill": "justify",
+        "keywords": [
+          "renaturation not guaranteed",
+          "hydrophobic R-groups require nonpolar environment",
+          "lipid bilayer required",
+          "spontaneous refolding not always possible",
+          "hydrogen bonds with water insufficient",
+          "native conformation not restored",
+          "thermodynamically favorable refolding",
+          "membrane context necessary",
+          "protein sequence and complexity",
+          "claim not well-supported",
+          "misfolding possible",
+          "chaperone proteins may be required",
+          "irreversible denaturation",
+          "hydrophobic core cannot reform in aqueous solution",
+          "membrane-associated protein stability"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-05',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Osmosis and Water Potential",
-    units: [2],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "A researcher places red onion epidermal cells into solutions of varying sucrose concentrations and observes them under a microscope. In 0.0 M sucrose (distilled water), the cells appear turgid and full. In 0.4 M sucrose, the membrane pulls slightly away from the cell wall in some cells. In 0.8 M sucrose, the membrane has clearly pulled away from the cell wall in most cells (plasmolysis).",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the movement of water in a cell placed in a hypertonic solution, using the concept of water potential.", rubric: "In a hypertonic solution, the external solution has lower (more negative) water potential than the cell; water moves from higher water potential (inside cell) to lower water potential (outside cell) by osmosis, causing the cell to lose water." },
-    { label: 'b', command: 'Explain', question: "why plasmolysis occurs in plant cells but not in animal cells placed in hypertonic solutions.", rubric: "Plant cells have a rigid cell wall that maintains the cell's shape even as the membrane pulls away from it; the membrane (and cytoplasm) shrinks inward while the wall stays in place, creating visible space between them (plasmolysis). Animal cells lack a cell wall, so when they lose water in a hypertonic solution, the entire cell shrinks (crenation) — there is no wall to pull away from." },
-    { label: 'c', command: 'Predict', question: "the solute concentration inside the red onion cells, relative to 0.4 M sucrose. Justify your prediction using the data.", rubric: "The solute concentration inside the cells is approximately 0.4 M (or between 0.0 M and 0.8 M, closer to 0.4 M). Justification: at 0.4 M, only some cells begin to plasmolyze, suggesting this is near the incipient plasmolysis point where external and internal concentrations are approximately equal (water potential inside ≈ water potential outside). Below this, cells are turgid; above this, most cells plasmolyze." },
-    { label: 'd', command: 'Justify', question: "why a plant cell in distilled water does not burst, even though an animal cell in distilled water would lyse.", rubric: "The plant cell's rigid cell wall provides structural support; as water enters by osmosis, the cell wall resists expansion and generates turgor pressure (wall pressure) that opposes further water entry. The equilibrium is reached before the cell bursts. Animal cells lack a cell wall and have no mechanism to resist expansion, so they burst (lyse) when water continually enters." }
+    "id": "bio_u1_frq005",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Macromolecule Structure, Synthesis, and Function in a Cell",
+    "units": [
+      1
     ],
-    rubric: [{ points: 1, description: "In a hypertonic solution, the external solution has lower (more negative) water", partLabel: 'a', skill: 'describe', keywords: ["water potential", "water moves", "hypertonic", "osmosis", "more negative", "inside cell", "outside cell"] }, { points: 1, description: "Plant cells have a rigid cell wall that maintains the cell's shape even as the m", partLabel: 'b', skill: 'explain', keywords: ["plasmolysis", "hypertonic", "crenation", "cell wall", "cytoplasm"] }, { points: 1, description: "The solute concentration inside the cells is approximately 0.4 M (or between 0.0", partLabel: 'c', skill: 'predict', keywords: ["incipient plasmolysis", "solute concentration", "water potential", "plasmolysis", "turgid"] }, { points: 1, description: "The plant cell's rigid cell wall provides structural support; as water enters by", partLabel: 'd', skill: 'explain', keywords: ["turgor pressure", "cell wall", "osmosis", "wall pressure", "lyse"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A cell biologist is studying the major macromolecules found in a eukaryotic cell. She isolates samples of starch, a triglyceride, a protein, and a DNA strand. She notes that all of these molecules are polymers or large organic molecules built from smaller subunits, and that water plays a critical role in both their assembly and breakdown. She also measures the pH of a cellular compartment and finds it to be 2, which she suspects affects protein structure. Use your knowledge of biological macromolecules, chemical bonding, and cellular chemistry to answer the following questions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe the process by which two glucose monomers are joined together to form a disaccharide. Include the type of bond formed and the role of water in this reaction.",
+        "rubric": "Student earns 1 point for correctly identifying dehydration synthesis (also called condensation reaction) as the process, stating that a water molecule is released, and identifying the glycosidic bond formed between the two glucose monomers."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain how a triglyceride is assembled from its subunits. Identify the subunits and describe the bonds that hold the molecule together.",
+        "rubric": "Student earns 1 point for identifying glycerol and three fatty acids as the subunits, stating that ester bonds are formed via dehydration synthesis, and noting that three water molecules are released during the assembly of one triglyceride."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "The cellular compartment has a pH of 2. Explain what this pH value indicates about the concentration of hydrogen ions in that compartment, and explain how this acidic environment could disrupt the tertiary structure of a protein.",
+        "rubric": "Student earns 1 point for stating that a pH of 2 indicates a high concentration of hydrogen ions (H+) or hydronium ions, and explaining that the acidic environment can disrupt hydrogen bonds, ionic bonds, or other noncovalent interactions that maintain the protein's tertiary (3D) shape, leading to denaturation."
+      },
+      {
+        "label": "d",
+        "command": "Describe",
+        "question": "Describe the structure of a DNA nucleotide and explain what type of bond links nucleotides together along one strand of the DNA molecule.",
+        "rubric": "Student earns 1 point for correctly identifying that a DNA nucleotide contains a deoxyribose sugar, a phosphate group, and a nitrogenous base, and stating that phosphodiester bonds (covalent bonds) link nucleotides together along the sugar-phosphate backbone."
+      },
+      {
+        "label": "e",
+        "command": "Justify",
+        "question": "A student claims that lipids and carbohydrates are both good long-term energy storage molecules. Justify whether this claim is accurate by comparing the energy storage potential and structural features of triglycerides and polysaccharides such as starch.",
+        "rubric": "Student earns 1 point for justifying that the claim is partially inaccurate: triglycerides store more energy per gram than polysaccharides because they are composed mostly of C-H bonds (nonpolar, highly reduced carbons) that release more energy when oxidized, whereas starch is more oxidized and stores less energy per gram; starch is used for shorter-term or accessible energy storage while triglycerides are the primary long-term energy storage molecules."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly identifies dehydration synthesis or condensation reaction as the process joining two glucose monomers, states that a water molecule is removed or released, and identifies the glycosidic bond formed.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "dehydration synthesis",
+          "condensation reaction",
+          "water released",
+          "water removed",
+          "glycosidic bond",
+          "covalent bond",
+          "glucose monomers joined",
+          "disaccharide formation",
+          "loss of water molecule",
+          "hydroxyl groups react",
+          "OH removed",
+          "polymer synthesis"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student identifies glycerol and three fatty acids as the subunits of a triglyceride, states that ester bonds are formed via dehydration synthesis, and notes three water molecules are released.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "glycerol",
+          "fatty acids",
+          "three fatty acids",
+          "ester bond",
+          "ester linkage",
+          "dehydration synthesis",
+          "condensation reaction",
+          "three water molecules released",
+          "triglyceride assembly",
+          "nonpolar hydrocarbon tails",
+          "carboxyl group",
+          "hydroxyl group reacts"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student states that pH 2 indicates a high concentration of H+ or hydronium ions, and explains that the acidic environment disrupts noncovalent interactions (hydrogen bonds, ionic bonds) maintaining tertiary structure, causing denaturation.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "high hydrogen ion concentration",
+          "high H+ concentration",
+          "hydronium ions",
+          "acidic environment",
+          "hydrogen bonds disrupted",
+          "ionic bonds disrupted",
+          "tertiary structure lost",
+          "denaturation",
+          "protein unfolds",
+          "noncovalent interactions broken",
+          "loss of 3D shape",
+          "R group interactions disrupted"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student correctly identifies the three components of a DNA nucleotide (deoxyribose, phosphate group, nitrogenous base) and states that phosphodiester bonds link nucleotides along the backbone.",
+        "partLabel": "d",
+        "skill": "describe",
+        "keywords": [
+          "deoxyribose",
+          "deoxyribose sugar",
+          "phosphate group",
+          "nitrogenous base",
+          "phosphodiester bond",
+          "covalent bond",
+          "sugar-phosphate backbone",
+          "nucleotide components",
+          "3 prime to 5 prime linkage",
+          "three-part nucleotide",
+          "adenine thymine guanine cytosine",
+          "backbone linkage"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student justifies that the claim is partially inaccurate by explaining that triglycerides store more energy per gram than starch due to highly reduced C-H bonds, while polysaccharides like starch are more oxidized and store less energy per gram, making lipids superior long-term energy storage molecules.",
+        "partLabel": "e",
+        "skill": "justify",
+        "keywords": [
+          "more energy per gram",
+          "C-H bonds",
+          "highly reduced carbons",
+          "nonpolar hydrocarbon chains",
+          "triglycerides superior long-term storage",
+          "starch more oxidized",
+          "less energy per gram",
+          "long-term energy storage",
+          "lipids store more energy",
+          "polysaccharides short-term storage",
+          "claim partially inaccurate",
+          "oxidation releases energy"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-06',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Photosynthesis",
-    units: [3],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "A researcher investigates photosynthesis in spinach leaves using a floating leaf disk assay. She removes air from leaf disks using a vacuum and then infiltrates them with a sodium bicarbonate solution (providing CO2). The disks initially sink. She exposes one group of disks to white light and another to darkness. Over 30 minutes, the light-exposed disks gradually float to the surface while the dark disks remain sunken.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why the leaf disks sink initially and why they float to the surface when exposed to light.", rubric: "Initially, the leaf disks sink because air (which normally provides buoyancy) has been removed and replaced with solution. When exposed to light, photosynthesis occurs and O2 is produced as a byproduct of the light reactions (water splitting); this O2 accumulates in the intercellular spaces, restoring buoyancy and causing the disks to float." },
-    { label: 'b', command: 'Describe', question: "the role of NADPH in the Calvin cycle.", rubric: "NADPH (produced in the light reactions) serves as an electron donor (reducing agent) in the Calvin cycle. It provides the electrons and hydrogen needed to reduce 3-PGA to G3P (glyceraldehyde-3-phosphate) during the reduction phase of the Calvin cycle." },
-    { label: 'c', command: 'Predict', question: "what would happen to the rate of the Calvin cycle if the light reactions were suddenly blocked. Justify your prediction.", rubric: "Prediction: the rate of the Calvin cycle would decrease and eventually stop. Justification: the Calvin cycle depends on ATP and NADPH produced by the light reactions to reduce 3-PGA to G3P and regenerate RuBP. Without the light reactions, ATP and NADPH supplies would be depleted and the Calvin cycle could not continue." },
-    { label: 'd', command: 'Support', question: "the claim that photosynthesis and cellular respiration are complementary processes, using the reactants and products of each.", rubric: "Photosynthesis uses CO2 and H2O (consuming light energy) to produce glucose and O2. Cellular respiration uses glucose and O2 to produce CO2, H2O, and ATP. The products of one process are the reactants of the other, creating a cycle. Must reference both processes' reactants and products." }
+    "id": "bio_u1_frq006",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Macromolecule Structure, Bonding, and Functional Chemistry in a Novel Organism",
+    "units": [
+      1
     ],
-    rubric: [{ points: 1, description: "Initially, the leaf disks sink because air (which normally provides buoyancy) ha", partLabel: 'a', skill: 'explain', keywords: ["water splitting", "light reactions", "photosynthesis", "o2", "which normally provides buoyancy"] }, { points: 1, description: "NADPH (produced in the light reactions) serves as an electron donor (reducing ag", partLabel: 'b', skill: 'describe', keywords: ["glyceraldehyde-3-phosphate", "light reactions", "calvin cycle", "reduction", "3-pga", "nadph", "g3p", "produced in the light reactions", "reducing agent"] }, { points: 1, description: "Prediction: the rate of the Calvin cycle would decrease and eventually stop. Jus", partLabel: 'c', skill: 'predict', keywords: ["light reactions", "calvin cycle", "3-pga", "nadph", "rubp", "g3p", "atp"] }, { points: 1, description: "Photosynthesis uses CO2 and H2O (consuming light energy) to produce glucose and", partLabel: 'd', skill: 'describe', keywords: ["both processes' reactants", "cellular respiration", "photosynthesis", "light energy", "atp", "co2", "o2", "consuming light energy"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "Scientists discover a novel extremophile organism living in a highly acidic hydrothermal vent (pH ≈ 2) with ambient temperatures near 80°C. Biochemical analysis reveals the following: (1) The organism's cell membrane is composed primarily of ether-linked isoprenoid lipids rather than ester-linked fatty acid phospholipids typical of bacteria. (2) Its primary energy storage molecule is a branched polysaccharide composed entirely of glucose monomers linked by α-1,4 and α-1,6 glycosidic bonds. (3) Its genome is double-stranded DNA, but unusually high in G-C base pairs. (4) A key structural protein in its cell wall contains an unusually high proportion of cysteine residues. (5) The organism secretes an enzyme that catalyzes the breakdown of its polysaccharide energy reserves under starvation conditions. Use your knowledge of biological macromolecules, chemical bonding, and water chemistry to answer the following questions about this organism.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain why the organism's double-stranded DNA, which is unusually high in G-C base pairs, is better suited to survive at 80°C compared to DNA with a higher proportion of A-T base pairs. Be sure to reference the specific bonds involved.",
+        "rubric": "Earns 1 point for explaining that G-C base pairs form three hydrogen bonds while A-T base pairs form only two hydrogen bonds, making G-C-rich DNA more thermally stable because more energy is required to denature (separate) the strands at high temperatures."
+      },
+      {
+        "label": "b",
+        "command": "Describe",
+        "question": "Describe how the ether-linked isoprenoid lipids in this organism's cell membrane differ structurally from the ester-linked phospholipids found in bacterial membranes, and explain how the ether linkage contributes to membrane stability in the acidic, high-temperature environment of the hydrothermal vent.",
+        "rubric": "Earns 1 point for correctly describing that ether bonds (C-O-C linkage) replace ester bonds (C-O-C=O linkage), and that ether bonds are more chemically resistant to hydrolysis under acidic conditions and high temperatures, making the membrane more stable in low-pH, high-heat environments."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "The organism's primary energy storage polysaccharide is described as branched, composed of glucose monomers joined by α-1,4 and α-1,6 glycosidic bonds. Explain how each type of glycosidic bond contributes to the overall structure of this molecule, and identify which well-known macromolecule in animals this most closely resembles.",
+        "rubric": "Earns 1 point for correctly explaining that α-1,4 glycosidic bonds form the linear backbone chains and α-1,6 glycosidic bonds create branch points, and for identifying the molecule as glycogen (or noting its structural similarity to glycogen/starch/amylopectin), which serves as an energy reserve in animals."
+      },
+      {
+        "label": "d",
+        "command": "Justify",
+        "question": "The key structural protein in the organism's cell wall contains an unusually high proportion of cysteine residues. Justify why this feature would be advantageous for maintaining protein structure at the low pH (≈ 2) and high temperature (80°C) conditions of the hydrothermal vent.",
+        "rubric": "Earns 1 point for justifying that cysteine residues can form disulfide bonds (covalent S-S bonds) between adjacent cysteine side chains, and that these covalent bonds are stronger and more resistant to disruption by heat and pH changes than hydrogen bonds or ionic interactions, thereby stabilizing tertiary and quaternary protein structure under extreme conditions."
+      },
+      {
+        "label": "e",
+        "command": "Predict",
+        "question": "Under starvation conditions, the organism secretes an enzyme that breaks down its branched polysaccharide energy reserves. Predict the type of chemical reaction this enzyme catalyzes, identify what molecule must be present as a reactant for this reaction to proceed, and describe what monomeric product is released.",
+        "rubric": "Earns 1 point for correctly predicting that the enzyme catalyzes hydrolysis (hydrolytic cleavage), that water (H2O) must be present as a reactant, and that the monomeric product released is glucose (monosaccharide/glucose molecules), as water molecules are added across glycosidic bonds to break them."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that G-C base pairs form three hydrogen bonds compared to two in A-T base pairs, conferring greater thermal stability and resistance to strand separation at 80°C.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "G-C base pair",
+          "three hydrogen bonds",
+          "A-T base pair",
+          "two hydrogen bonds",
+          "thermal stability",
+          "denature",
+          "strand separation",
+          "melting temperature",
+          "double helix",
+          "hydrogen bonding between bases",
+          "higher Tm",
+          "more energy to separate strands",
+          "thermostable DNA",
+          "guanine-cytosine",
+          "adenine-thymine"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student describes that ether bonds replace ester bonds in isoprenoid lipids and explains that ether bonds resist acid-catalyzed hydrolysis and thermal degradation better than ester bonds, stabilizing the membrane.",
+        "partLabel": "b",
+        "skill": "describe",
+        "keywords": [
+          "ether bond",
+          "ester bond",
+          "ether linkage",
+          "ester linkage",
+          "hydrolysis resistant",
+          "acid hydrolysis",
+          "membrane stability",
+          "isoprenoid",
+          "phospholipid",
+          "C-O-C linkage",
+          "C-O-C=O linkage",
+          "resistant to low pH",
+          "thermally stable membrane",
+          "archaeal lipid",
+          "no carbonyl group"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student correctly explains that α-1,4 bonds form linear chains and α-1,6 bonds create branch points, and identifies the molecule as glycogen or notes its close resemblance to glycogen or amylopectin.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "alpha-1,4 glycosidic bond",
+          "linear chain",
+          "alpha-1,6 glycosidic bond",
+          "branch point",
+          "branching",
+          "glycogen",
+          "amylopectin",
+          "glucose monomers",
+          "energy storage polysaccharide",
+          "dehydration synthesis",
+          "polysaccharide backbone",
+          "alpha configuration",
+          "animal energy reserve",
+          "glycosidic linkage",
+          "compact branched structure"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student justifies that high cysteine content allows formation of disulfide bonds, which are covalent and stronger than non-covalent interactions, maintaining protein tertiary structure under extreme heat and acidity.",
+        "partLabel": "d",
+        "skill": "justify",
+        "keywords": [
+          "cysteine",
+          "disulfide bond",
+          "S-S bond",
+          "covalent bond",
+          "tertiary structure",
+          "protein stability",
+          "heat resistant",
+          "acid resistant",
+          "non-covalent interactions disrupted",
+          "sulfur-sulfur bond",
+          "R-group interaction",
+          "cross-linking",
+          "oxidized thiol groups",
+          "stabilizes protein conformation",
+          "stronger than hydrogen bonds"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student predicts hydrolysis as the reaction type, identifies water as the required reactant, and states that glucose monomers are released as the product of glycosidic bond cleavage.",
+        "partLabel": "e",
+        "skill": "predict",
+        "keywords": [
+          "hydrolysis",
+          "water molecule",
+          "H2O as reactant",
+          "glucose monomer",
+          "monosaccharide",
+          "glycosidic bond broken",
+          "hydrolytic cleavage",
+          "water added",
+          "glucose released",
+          "breakdown of polysaccharide",
+          "enzyme-catalyzed hydrolysis",
+          "depolymerization",
+          "amylase-like activity",
+          "water splits bond",
+          "OH and H added across bond"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-07',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Cellular Respiration",
-    units: [3],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Yeast cells (Saccharomyces cerevisiae) are facultative anaerobes — they can switch between aerobic and anaerobic metabolism depending on oxygen availability. In a sealed flask with excess glucose and oxygen, yeast initially consume oxygen rapidly and produce CO2 and water. As oxygen is depleted, the yeast switch to fermentation and begin producing ethanol and CO2.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the role of NAD+ in glycolysis and explain why regenerating NAD+ is essential for continued glycolysis.", rubric: "NAD+ accepts electrons (is reduced to NADH) during glycolysis, specifically during the oxidation of glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate. Without NAD+, glycolysis stalls at this step. Fermentation regenerates NAD+ by using NADH to reduce pyruvate (to ethanol or lactate), allowing glycolysis to continue." },
-    { label: 'b', command: 'Explain', question: "why yeast cells produce far less ATP per glucose molecule during fermentation than during aerobic respiration.", rubric: "Fermentation produces only 2 ATP per glucose (from substrate-level phosphorylation in glycolysis). Aerobic respiration produces approximately 30-32 ATP because the NADH and FADH2 generated in glycolysis and the Krebs cycle are used in the electron transport chain via oxidative phosphorylation, which generates many more ATP molecules. Fermentation bypasses the Krebs cycle and ETC entirely." },
-    { label: 'c', command: 'Predict', question: "what will happen to the rate of glucose consumption when yeast switch from aerobic respiration to fermentation. Justify your prediction.", rubric: "Prediction: glucose consumption rate will increase when yeast switch to fermentation. Justification: since fermentation produces only 2 ATP per glucose (vs. ~30 aerobically), yeast must consume far more glucose to produce the same amount of ATP needed for cellular processes (Pasteur effect)." },
-    { label: 'd', command: 'Justify', question: "why the sealed flask eventually stops supporting any yeast metabolism, regardless of the fermentation pathway.", rubric: "Ethanol accumulates in the sealed flask as a byproduct of fermentation. At high concentrations (typically >10-15%), ethanol becomes toxic to yeast cells, denatures proteins, and disrupts membrane integrity. Additionally, glucose may be depleted. Eventually the toxic ethanol buildup (and/or glucose depletion) kills the yeast." }
+    "id": "bio_u2_frq007",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Osmosis and Tonicity in Red Blood Cells",
+    "units": [
+      2
     ],
-    rubric: [{ points: 1, description: "NAD+ accepts electrons (is reduced to NADH) during glycolysis, specifically duri", partLabel: 'a', skill: 'describe', keywords: ["glyceraldehyde-3-phosphate", "fermentation", "glycolysis", "oxidation", "pyruvate", "reduced", "nadh", "is reduced to nadh", "to ethanol or lactate"] }, { points: 1, description: "Fermentation produces only 2 ATP per glucose (from substrate-level phosphorylati", partLabel: 'b', skill: 'explain', keywords: ["substrate-level phosphorylation", "oxidative phosphorylation", "electron transport chain", "aerobic respiration", "phosphorylation", "fermentation", "krebs cycle", "glycolysis", "substrate", "nadh"] }, { points: 1, description: "Prediction: glucose consumption rate will increase when yeast switch to fermenta", partLabel: 'c', skill: 'predict', keywords: ["fermentation", "atp", "pasteur effect"] }, { points: 1, description: "Ethanol accumulates in the sealed flask as a byproduct of fermentation. At high", partLabel: 'd', skill: 'explain', keywords: ["fermentation", "and/or glucose depletion"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A red blood cell is placed into a solution with a solute concentration higher than that of the cell's cytoplasm. Water moves across the cell membrane in response to the difference in water potential between the cell and its surrounding environment.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe the tonicity of the external solution relative to the red blood cell and identify the direction water will move by osmosis.",
+        "rubric": "Student earns 1 point for correctly identifying the solution as hypertonic relative to the cell AND stating that water moves out of the cell (from high water potential to low water potential / from low solute to high solute concentration)."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict what will happen to the red blood cell as a result of this water movement.",
+        "rubric": "Student earns 1 point for predicting that the red blood cell will shrink, crenate, or undergo crenation as water leaves the cell."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain why water moves across the membrane without requiring energy input from the cell.",
+        "rubric": "Student earns 1 point for explaining that water moves by osmosis through the phospholipid bilayer or aquaporins down its concentration gradient (from high water potential to low water potential), which is a form of passive transport requiring no ATP."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student identifies the solution as hypertonic and states water moves out of the cell by osmosis.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "hypertonic",
+          "higher solute concentration",
+          "water moves out",
+          "water exits the cell",
+          "osmosis",
+          "low water potential",
+          "water potential gradient",
+          "net movement of water",
+          "out of the cell",
+          "solute concentration gradient",
+          "hyperosmotic"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student predicts the red blood cell will shrink or crenate due to water loss.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "crenation",
+          "crenate",
+          "shrink",
+          "shrivels",
+          "cell shrinks",
+          "decrease in cell volume",
+          "water loss",
+          "red blood cell shrinks",
+          "cell dehydration",
+          "cytoplasm volume decreases",
+          "scalloped membrane"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains that water moves by passive transport / osmosis down its water potential gradient through the membrane without ATP.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "passive transport",
+          "osmosis",
+          "no ATP required",
+          "down its gradient",
+          "water potential gradient",
+          "aquaporins",
+          "phospholipid bilayer",
+          "high water potential to low water potential",
+          "does not require energy",
+          "spontaneous movement",
+          "semipermeable membrane",
+          "facilitated diffusion"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-08',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Light Reactions",
-    units: [3],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Researchers use an inhibitor called DCMU (3-(3,4-dichlorophenyl)-1,1-dimethylurea) that blocks electron flow from Photosystem II to the plastoquinone pool in the thylakoid membrane. Plants treated with DCMU are unable to survive in light but can survive briefly in darkness. The scientists note that DCMU-treated plants in light show rapid accumulation of oxidized P680 (P680+) and a complete absence of NADPH production.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why DCMU-treated plants accumulate P680+ (oxidized form of Photosystem II) when exposed to light.", rubric: "When light excites P680, it ejects electrons toward the electron transport chain. DCMU blocks the transfer of these electrons from PSII to the plastoquinone pool, preventing downstream electron flow. Although water splitting can initially donate electrons to re-reduce P680+, the blockage causes electron acceptors at PSII to become fully reduced, halting further electron acceptance from P680. With no available downstream acceptor, P680+ cannot be efficiently re-reduced and accumulates in its oxidized state." },
-    { label: 'b', command: 'Explain', question: "why DCMU-treated plants cannot produce NADPH.", rubric: "NADPH is produced at the end of the non-cyclic electron transport chain when electrons from Photosystem I reduce NADP+. Since DCMU blocks electron flow from PSII to the plastoquinone pool, electrons cannot flow through the ETC to reach Photosystem I. Without electron input, PSI cannot reduce NADP+ to NADPH." },
-    { label: 'c', command: 'Predict', question: "whether ATP synthesis in the chloroplast will be affected by DCMU treatment. Justify your prediction.", rubric: "Prediction: non-cyclic photophosphorylation (the main source of ATP in light reactions alongside NADPH production) will be severely reduced or eliminated. Justification: ATP synthesis via the ATP synthase (CF1CF0) requires a proton gradient across the thylakoid membrane; this gradient is built by proton pumping through the ETC (especially plastoquinol) and water splitting. With DCMU blocking electron flow, proton pumping through the ETC stops, the gradient dissipates, and ATP synthesis halts. Cyclic photophosphorylation around PSI may still produce some ATP, but overall ATP production drops dramatically." },
-    { label: 'd', command: 'Justify', question: "why DCMU-treated plants can survive in darkness but not in light.", rubric: "In darkness, photosynthesis does not occur, so DCMU has no effect — there is no light-driven electron flow to block. Cells can survive briefly on stored carbohydrates via cellular respiration. In light, DCMU blocks the electron transport chain; excited chlorophyll cannot transfer electrons safely, and the backed-up energy and accumulating reactive oxygen species (or simply inability to fix carbon) damage cellular components. The plant cannot produce the ATP and NADPH needed for the Calvin cycle to sustain itself." }
+    "id": "bio_u2_frq008",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Fluid Mosaic Model and Membrane Protein Function",
+    "units": [
+      2
     ],
-    rubric: [{ points: 1, description: "Light excites P680 which ejects electrons; DCMU blocks transfer to plastoquinone", partLabel: 'a', skill: 'explain', keywords: ["water splitting", "oxidation", "reduction", "oxidized", "reduced", "dcmu", "plastoquinone", "psii", "photosystem ii", "p680"] }, { points: 1, description: "NADPH is produced at the end of the non-cyclic electron transport chain when ele", partLabel: 'b', skill: 'explain', keywords: ["electron transport chain", "photosystem i", "photosystem", "nadph"] }, { points: 1, description: "Prediction: non-cyclic photophosphorylation (the main source of ATP in light rea", partLabel: 'c', skill: 'predict', keywords: ["cyclic photophosphorylation", "photophosphorylation", "water splitting", "proton gradient", "light reactions", "atp synthesis", "atp synthase", "thylakoid", "reduced", "nadph"] }, { points: 1, description: "In darkness, photosynthesis does not occur, so DCMU has no effect — there is no", partLabel: 'd', skill: 'explain', keywords: ["electron transport chain", "cellular respiration", "photosynthesis", "calvin cycle", "chlorophyll", "nadph", "atp"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "The plasma membrane is described by the fluid mosaic model, which characterizes the dynamic structure of biological membranes. A researcher is studying how membrane composition affects the movement of molecules across the membrane under different temperature conditions. The membrane contains phospholipids, cholesterol, and various embedded proteins including channel proteins and carrier proteins.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe TWO structural features of the plasma membrane as explained by the fluid mosaic model that contribute to its flexibility and dynamic nature.",
+        "rubric": "Student earns 1 point for correctly describing two structural features: (1) phospholipid bilayer with hydrophilic heads facing outward and hydrophobic tails facing inward, allowing lateral movement of lipids; AND (2) proteins are embedded within or attached to the bilayer and can move laterally (mosaic of proteins floating in the lipid bilayer). Cholesterol interspersed among phospholipids to maintain fluidity may also be accepted as one feature."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain how cholesterol in the plasma membrane helps the cell maintain membrane fluidity when environmental temperature decreases significantly.",
+        "rubric": "Student earns 1 point for explaining that cholesterol prevents phospholipid tails from packing too closely together at low temperatures, thereby preventing the membrane from solidifying or becoming too rigid, and maintaining fluidity by acting as a buffer against temperature-induced changes."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain why large, polar molecules cannot cross the plasma membrane by simple diffusion, and identify the type of membrane protein that would facilitate their transport.",
+        "rubric": "Student earns 1 point for explaining that large polar molecules are repelled by the hydrophobic interior (nonpolar core) of the phospholipid bilayer and cannot pass through unaided, and identifying channel proteins or carrier proteins (transport proteins) as the structures that facilitate their movement via facilitated diffusion."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly describes two structural features of the fluid mosaic model contributing to membrane flexibility and dynamics, such as the phospholipid bilayer arrangement and lateral movement of proteins and lipids.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "fluid mosaic model",
+          "phospholipid bilayer",
+          "hydrophobic tails",
+          "hydrophilic heads",
+          "lateral movement",
+          "proteins embedded",
+          "mosaic of proteins",
+          "amphipathic",
+          "phospholipids move laterally",
+          "integral proteins",
+          "peripheral proteins",
+          "lipid bilayer fluidity",
+          "nonpolar fatty acid tails",
+          "polar phosphate head"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student correctly explains that cholesterol prevents phospholipid tails from packing together at low temperatures, maintaining membrane fluidity and preventing solidification.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "cholesterol",
+          "membrane fluidity",
+          "phospholipid tails",
+          "packing together",
+          "solidify",
+          "too rigid",
+          "buffer against temperature",
+          "maintains fluidity",
+          "prevents crystallization",
+          "low temperature",
+          "stabilizes membrane",
+          "intercalated between phospholipids",
+          "prevents gel state",
+          "temperature buffer"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student correctly explains that polar molecules are repelled by the hydrophobic core of the bilayer and identifies channel proteins or carrier proteins as facilitating transport.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "hydrophobic interior",
+          "nonpolar core",
+          "polar molecules repelled",
+          "cannot diffuse freely",
+          "channel protein",
+          "carrier protein",
+          "transport protein",
+          "facilitated diffusion",
+          "hydrophobic barrier",
+          "large polar molecule",
+          "simple diffusion blocked",
+          "selectively permeable",
+          "aquaporin",
+          "transmembrane protein"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-09',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Free Energy and Metabolism",
-    units: [3],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "All living organisms must continuously perform work — moving molecules, synthesizing macromolecules, maintaining ion gradients, and generating movement. ATP serves as the primary energy currency linking exergonic (energy-releasing) reactions to endergonic (energy-requiring) reactions.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "how ATP hydrolysis is coupled to an endergonic reaction to drive it forward.", rubric: "ATP hydrolysis (ATP → ADP + Pi) releases free energy (exergonic, negative delta G). When this reaction is coupled to an endergonic reaction, the overall combined delta G becomes negative (exergonic), making the previously unfavorable reaction thermodynamically favorable. Often achieved by phosphorylating a substrate or by conformational changes in proteins." },
-    { label: 'b', command: 'Explain', question: "why organisms must continuously regenerate ATP rather than simply storing large amounts of it.", rubric: "ATP is chemically unstable and cannot be stored efficiently in large quantities (it would spontaneously hydrolyze). Additionally, cells have a limited ATP pool — the entire cellular ATP supply is recycled many times per minute. Continuous regeneration (via cellular respiration and photosynthesis) from ADP + Pi is more efficient than synthesis and storage of large ATP reserves. Accept any two of these reasons." },
-    { label: 'c', command: 'Identify', question: "two metabolic processes that produce ATP and state whether each uses substrate-level or oxidative phosphorylation.", rubric: "Accept any two: glycolysis (substrate-level phosphorylation), Krebs cycle (substrate-level), oxidative phosphorylation/electron transport chain (oxidative phosphorylation), fermentation (substrate-level). Must correctly pair process with type." }
+    "id": "bio_u2_frq009",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Osmosis, Tonicity, and Cell Response",
+    "units": [
+      2
     ],
-    rubric: [{ points: 1, description: "ATP hydrolysis (ATP → ADP + Pi) releases free energy (exergonic, negative delta", partLabel: 'a', skill: 'describe', keywords: ["atp hydrolysis", "free energy", "hydrolysis", "endergonic", "substrate", "exergonic", "atp"] }, { points: 1, description: "ATP is chemically unstable and cannot be stored efficiently in large quantities", partLabel: 'b', skill: 'explain', keywords: ["cellular respiration", "photosynthesis", "atp", "it would spontaneously hydrolyze", "via cellular respiration and photosynthesis"] }, { points: 1, description: "Accept any two: glycolysis (substrate-level phosphorylation), Krebs cycle (subst", partLabel: 'c', skill: 'describe', keywords: ["substrate-level phosphorylation", "oxidative phosphorylation", "electron transport chain", "phosphorylation", "fermentation", "krebs cycle", "glycolysis", "substrate", "substrate-level"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A student places red blood cells and plant cells into three separate solutions: a 0.9% NaCl solution, a 0.2% NaCl solution, and a 10% NaCl solution. The normal solute concentration inside a red blood cell is equivalent to 0.9% NaCl. The student observes changes in cell shape and volume over time. Water moves across the plasma membrane by osmosis in response to differences in water potential.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Predict",
+        "question": "Predict what will happen to the red blood cell placed in the 0.2% NaCl solution. Use the concept of tonicity to justify your prediction.",
+        "rubric": "Student earns 1 point for predicting that the red blood cell will swell and may lyse (undergo cytolysis/hemolysis) because the 0.2% NaCl solution is hypotonic relative to the cell's interior, causing water to move into the cell by osmosis down its water potential gradient."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why a plant cell placed in the 10% NaCl solution would respond differently than a red blood cell placed in the same solution, referencing a structural feature unique to plant cells.",
+        "rubric": "Student earns 1 point for explaining that the plant cell would undergo plasmolysis (membrane pulls away from cell wall) but would NOT burst because the rigid cell wall prevents the cell from collapsing beyond a point, whereas the red blood cell has no cell wall and would crenate (shrivel) freely. The cell wall provides structural support that limits volume change."
+      },
+      {
+        "label": "c",
+        "command": "Describe",
+        "question": "Describe the net movement of water molecules when a red blood cell is placed in the 0.9% NaCl solution, and identify the term used to describe this type of solution relative to the cell.",
+        "rubric": "Student earns 1 point for stating that there is no net movement of water (water moves equally in both directions / dynamic equilibrium) because the solution is isotonic to the cell, meaning the solute concentrations inside and outside the cell are equal, so there is no net osmosis."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly predicts the red blood cell will swell and potentially lyse in the hypotonic 0.2% NaCl solution, explaining that water moves into the cell by osmosis due to the higher solute concentration inside the cell.",
+        "partLabel": "a",
+        "skill": "predict",
+        "keywords": [
+          "hypotonic",
+          "water moves into cell",
+          "cell swells",
+          "lysis",
+          "cytolysis",
+          "hemolysis",
+          "osmosis",
+          "lower solute concentration outside",
+          "water potential gradient",
+          "net movement of water inward",
+          "higher water potential outside",
+          "lower solute outside cell",
+          "turgid",
+          "bursts"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student correctly explains that the plant cell undergoes plasmolysis rather than bursting because the cell wall provides rigidity and structural support, contrasting with the red blood cell which crenates due to lack of a cell wall.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "cell wall",
+          "plasmolysis",
+          "membrane pulls away from wall",
+          "rigid cell wall",
+          "does not burst",
+          "crenation",
+          "red blood cell shrinks",
+          "hypertonic solution",
+          "structural support",
+          "cellulose cell wall",
+          "water leaves cell",
+          "shrivels",
+          "no cell wall in red blood cell",
+          "plasma membrane detaches"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student correctly identifies that there is no net movement of water in an isotonic solution and uses the term isotonic to describe the 0.9% NaCl solution relative to the red blood cell.",
+        "partLabel": "c",
+        "skill": "describe",
+        "keywords": [
+          "isotonic",
+          "no net movement of water",
+          "dynamic equilibrium",
+          "equal solute concentration",
+          "water moves equally in both directions",
+          "0.9% NaCl isotonic",
+          "osmotic equilibrium",
+          "no net osmosis",
+          "equal water potential",
+          "solute concentration equal inside and outside",
+          "cell volume unchanged",
+          "normal cell shape maintained",
+          "osmotic balance",
+          "physiological saline"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-10',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Signal Transduction",
-    units: [4],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Epinephrine (adrenaline) is released from the adrenal glands during a stress response. When epinephrine binds to its receptor on liver cells, it triggers the breakdown of glycogen into glucose through a signal transduction cascade involving a G-protein, adenylyl cyclase, cAMP, protein kinase A (PKA), and glycogen phosphorylase kinase. This cascade amplifies the original signal dramatically.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "why epinephrine cannot enter the liver cell to deliver its signal directly.", rubric: "Epinephrine is a water-soluble (hydrophilic) molecule — specifically a modified amino acid (catecholamine) — and cannot cross the hydrophobic interior of the plasma membrane's lipid bilayer. It must bind to a receptor on the cell surface, which then initiates intracellular signaling." },
-    { label: 'b', command: 'Explain', question: "how the signal transduction cascade described above amplifies the original epinephrine signal.", rubric: "At each step, one activated molecule activates many downstream molecules: one epinephrine molecule activates one GPCR, which activates multiple G-proteins; each G-protein activates one adenylyl cyclase molecule producing many cAMP molecules; each cAMP activates PKA, which phosphorylates many glycogen phosphorylase kinase molecules; each kinase activates many glycogen phosphorylase molecules. This cascade multiplication means a tiny amount of epinephrine can trigger massive glycogen breakdown." },
-    { label: 'c', command: 'Predict', question: "what would happen to cellular cAMP levels if phosphodiesterase (the enzyme that degrades cAMP) were inhibited. State the effect on glycogen breakdown.", rubric: "cAMP levels would rise and remain elevated because it is no longer being degraded. Glycogen breakdown would continue (or increase) because PKA remains active as long as cAMP is elevated. Caffeine works partly through this mechanism (inhibiting phosphodiesterase)." },
-    { label: 'd', command: 'Justify', question: "why the same epinephrine signal produces glycogen breakdown in liver cells but different effects in other cell types.", rubric: "The cellular response depends on which receptors, signal transduction components, and effector proteins a cell expresses — not the hormone alone. Different cell types have different receptor subtypes, G-proteins, downstream kinases, and target proteins, so the same ligand (epinephrine) can activate different pathways and produce different responses in different cell types." }
+    "id": "bio_u2_frq010",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Vesicular Transport and Membrane Dynamics in Secretory Cells",
+    "units": [
+      2
     ],
-    rubric: [{ points: 1, description: "Epinephrine is a water-soluble (hydrophilic) molecule — specifically a modified", partLabel: 'a', skill: 'describe', keywords: ["plasma membrane", "hydrophobic", "hydrophilic", "amino acid", "catecholamine"] }, { points: 1, description: "At each step, one activated molecule activates many downstream molecules: one ep", partLabel: 'b', skill: 'explain', keywords: ["adenylyl cyclase", "camp"] }, { points: 1, description: "cAMP levels would rise and remain elevated because it is no longer being degrade", partLabel: 'c', skill: 'predict', keywords: ["camp", "inhibiting phosphodiesterase"] }, { points: 1, description: "The cellular response depends on which receptors, signal transduction components", partLabel: 'd', skill: 'explain', keywords: ["signal transduction", "ligand", "epinephrine"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A researcher studying pancreatic acinar cells observes that these cells produce and secrete large quantities of digestive enzymes packaged in vesicles. During secretion, the cells' plasma membrane surface area temporarily increases, and the total number of membrane phospholipids at the cell surface rises. Under normal conditions, the membrane returns to its original size after secretion. Separately, the researcher treats a different set of cells with a toxin that blocks clathrin-coated pit formation at the plasma membrane. After toxin treatment, cells continue to secrete vesicles normally but accumulate excess plasma membrane over time.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain how the process of exocytosis causes a temporary increase in plasma membrane surface area in the pancreatic acinar cells, referencing the membrane components involved.",
+        "rubric": "Earns 1 point for explaining that exocytosis involves the fusion of secretory vesicles with the plasma membrane, adding phospholipid bilayer material (lipids and proteins) from the vesicle membrane to the cell surface, thereby increasing total membrane surface area."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why cells treated with the clathrin-blocking toxin accumulate excess plasma membrane over time, identifying the specific process that is inhibited.",
+        "rubric": "Earns 1 point for explaining that the toxin blocks receptor-mediated endocytosis (or clathrin-mediated endocytosis), which is the process that normally retrieves excess membrane by forming clathrin-coated vesicles that pinch inward from the plasma membrane; without this compensatory membrane retrieval, exocytosis continues to add membrane while endocytosis cannot remove it, leading to membrane accumulation."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Predict what would happen to the concentration gradient of a lipid-soluble signaling molecule across the plasma membrane if the excess membrane accumulation caused the membrane to become significantly more fluid. Justify your prediction using the fluid mosaic model.",
+        "rubric": "Earns 1 point for predicting that increased membrane fluidity would increase the rate of simple diffusion of the lipid-soluble molecule across the membrane, reducing or dissipating the concentration gradient more rapidly, and justifying this by referencing the fluid mosaic model - specifically that a more fluid phospholipid bilayer allows faster lateral movement of phospholipids, increased permeability to lipid-soluble molecules, and less resistance to passage through the hydrophobic core."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that exocytosis involves vesicle fusion with the plasma membrane, adding phospholipid bilayer from the vesicle to the cell surface and increasing membrane surface area.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "exocytosis",
+          "vesicle fusion",
+          "fuses with plasma membrane",
+          "phospholipid bilayer added",
+          "membrane surface area increases",
+          "secretory vesicle",
+          "vesicle membrane incorporated",
+          "lipids and proteins added to membrane",
+          "membrane material donated",
+          "secretory pathway"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that clathrin-mediated endocytosis (receptor-mediated endocytosis) is blocked, preventing membrane retrieval via clathrin-coated vesicles, so ongoing exocytosis adds membrane without compensatory removal.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "endocytosis",
+          "clathrin-mediated endocytosis",
+          "receptor-mediated endocytosis",
+          "clathrin-coated vesicle",
+          "clathrin-coated pit",
+          "membrane retrieval blocked",
+          "compensatory endocytosis",
+          "membrane not recycled",
+          "inward pinching inhibited",
+          "exocytosis continues",
+          "membrane recycling impaired",
+          "vesicle budding inward blocked"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student predicts that increased membrane fluidity increases the rate of simple diffusion of the lipid-soluble molecule, dissipating the concentration gradient faster, and justifies using the fluid mosaic model by referencing phospholipid lateral movement, hydrophobic core permeability, or reduced resistance.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "fluid mosaic model",
+          "increased fluidity",
+          "simple diffusion",
+          "lipid-soluble molecule",
+          "hydrophobic core",
+          "concentration gradient dissipated",
+          "phospholipid lateral movement",
+          "faster diffusion rate",
+          "membrane permeability increases",
+          "reduced resistance to diffusion",
+          "nonpolar molecule crosses membrane",
+          "gradient equilibrates more rapidly"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-11',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Cell Cycle and Cancer",
-    units: [4],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Researchers studying colorectal cancer identify two genes frequently mutated together: APC (a tumor suppressor that normally promotes beta-catenin degradation) and KRAS (a proto-oncogene encoding a GTPase in the MAPK growth signaling pathway). In normal cells, APC suppresses cell division and KRAS activity is transient. In cancer cells, APC is inactivated and KRAS is constitutively active due to a mutation preventing GTP hydrolysis.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the functional difference between a proto-oncogene and a tumor suppressor gene in regulating cell division.", rubric: "Proto-oncogenes encode proteins that promote cell growth and division (e.g., growth factor receptors, signal transduction proteins, transcription factors); gain-of-function mutations convert them to oncogenes. Tumor suppressors encode proteins that inhibit cell growth or promote apoptosis; loss-of-function mutations remove this brake on division. One gene accelerates division, the other slows or stops it." },
-    { label: 'b', command: 'Explain', question: "why the KRAS mutation described (preventing GTP hydrolysis) leads to constitutive (always-on) signaling.", rubric: "Normally, KRAS is active when bound to GTP and inactive when bound to GDP; GTPase activity hydrolyzes GTP to GDP, turning the signal off. If GTP hydrolysis is prevented, KRAS remains locked in the GTP-bound (active) state and continuously sends growth signals downstream even in the absence of growth factors — the signal cannot be terminated." },
-    { label: 'c', command: 'Explain', question: "why cancer typically requires mutations in multiple genes (such as both APC and KRAS) rather than a single mutation.", rubric: "Cells have multiple layers of regulation and checkpoints (G1/S checkpoint, G2/M checkpoint, spindle assembly checkpoint, apoptosis pathways, DNA repair). A single mutation is usually checked or compensated by other mechanisms. Cancer requires overcoming multiple controls simultaneously — typically proto-oncogene activation AND tumor suppressor inactivation — before a cell can divide uncontrollably. This multi-hit requirement makes cancer rarer than if a single mutation were sufficient." },
-    { label: 'd', command: 'Predict', question: "whether a drug that restores KRAS GTPase activity would be sufficient to stop tumor growth in cells with both APC and KRAS mutations. Justify your prediction.", rubric: "Prediction: restoring KRAS GTPase activity alone would likely NOT be sufficient to stop tumor growth. Justification: the APC mutation is still present, meaning beta-catenin still accumulates constitutively and drives cell proliferation through a KRAS-independent pathway. Targeting one driver mutation while the other remains active may slow but not stop tumor growth; both mutations (and possibly others) would need to be addressed." }
+    "id": "bio_u2_frq011",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Cell Membranes, Transport, and Tonicity in Red Blood Cells",
+    "units": [
+      2
     ],
-    rubric: [{ points: 1, description: "Proto-oncogenes encode proteins that promote cell growth and division (e.g., gro", partLabel: 'a', skill: 'describe', keywords: ["signal transduction", "transcription", "gene"] }, { points: 1, description: "Normally, KRAS is active when bound to GTP and inactive when bound to GDP; GTPas", partLabel: 'b', skill: 'explain', keywords: ["hydrolysis", "active"] }, { points: 1, description: "Cells have multiple layers of regulation and checkpoints (G1/S checkpoint, G2/M", partLabel: 'c', skill: 'explain', keywords: ["tumor suppressor", "proto-oncogene", "checkpoint", "dna repair", "mutation", "oncogene", "cancer"] }, { points: 1, description: "Prediction: restoring KRAS GTPase activity alone would likely NOT be sufficient", partLabel: 'd', skill: 'predict', keywords: ["mutation"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A researcher places human red blood cells into three different solutions: Solution A (0.9% NaCl), Solution B (0.1% NaCl), and Solution C (2.0% NaCl). Red blood cells maintain normal function in 0.9% NaCl. The plasma membrane of red blood cells is composed of a phospholipid bilayer embedded with various proteins, cholesterol, and carbohydrate chains. Some solutes cross the membrane freely, while others require assistance or energy. The researcher also compares these eukaryotic red blood cells to a bacterium (Escherichia coli) to examine structural differences relevant to how each cell responds to osmotic stress.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe the fluid mosaic model of the plasma membrane, including the roles of at least TWO different molecular components found in the membrane.",
+        "rubric": "1 point for correctly describing the fluid mosaic model: phospholipids form a bilayer with hydrophilic heads facing outward and hydrophobic tails facing inward, and proteins are embedded or attached and can move laterally. Must identify at least two components (e.g., phospholipids, integral/peripheral proteins, cholesterol, glycoproteins) and describe their roles."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict what will happen to the red blood cells placed in Solution B (0.1% NaCl) and in Solution C (2.0% NaCl). Use the concept of tonicity to justify your predictions.",
+        "rubric": "1 point for correctly predicting AND explaining both outcomes using tonicity: Solution B is hypotonic so water enters by osmosis causing the cell to swell and lyse; Solution C is hypertonic so water exits by osmosis causing the cell to shrink (crenate). Must use the terms hypotonic/hypertonic or correctly describe relative solute concentrations."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain how glucose crosses the plasma membrane of a red blood cell, and classify this process as a form of active or passive transport. Justify your classification.",
+        "rubric": "1 point for correctly identifying facilitated diffusion via a transport protein (GLUT transporter/glucose carrier), classifying it as passive transport (no ATP required), and justifying that glucose moves down its concentration gradient from high to low concentration without energy input."
+      },
+      {
+        "label": "d",
+        "command": "Explain",
+        "question": "The sodium-potassium pump (Na⁺/K⁺-ATPase) maintains ion gradients across the red blood cell membrane. Explain how this pump works and why it is classified as active transport.",
+        "rubric": "1 point for correctly explaining that the Na⁺/K⁺ pump uses ATP hydrolysis to move 3 Na⁺ out of the cell and 2 K⁺ into the cell against their concentration gradients, and that this requires energy (ATP), which is why it is classified as active transport - movement against the concentration gradient."
+      },
+      {
+        "label": "e",
+        "command": "Justify",
+        "question": "E. coli is a prokaryotic bacterium. Justify why E. coli is less likely to lyse than a red blood cell when placed in a hypotonic solution, using structural differences between prokaryotic and eukaryotic cells.",
+        "rubric": "1 point for correctly identifying that E. coli has a rigid cell wall (peptidoglycan/murein) that resists expansion and prevents the cell from bursting, while red blood cells (eukaryotes) lack a cell wall and rely solely on the plasma membrane, making them vulnerable to lysis under osmotic pressure in hypotonic conditions."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly describes the fluid mosaic model including phospholipid bilayer arrangement and identifies roles of at least two membrane components.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "fluid mosaic model",
+          "phospholipid bilayer",
+          "hydrophilic heads",
+          "hydrophobic tails",
+          "integral protein",
+          "peripheral protein",
+          "cholesterol",
+          "glycoprotein",
+          "lateral movement",
+          "selectively permeable",
+          "amphipathic",
+          "membrane fluidity",
+          "lipid bilayer",
+          "phospholipid heads face outward",
+          "hydrophobic core"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student correctly predicts cell swelling/lysis in hypotonic Solution B and crenation/shrinking in hypertonic Solution C, using tonicity terminology.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "hypotonic",
+          "hypertonic",
+          "osmosis",
+          "water moves into cell",
+          "water moves out of cell",
+          "lyse",
+          "lysis",
+          "crenation",
+          "shrink",
+          "swell",
+          "lower solute concentration",
+          "higher solute concentration",
+          "net movement of water",
+          "osmotic pressure",
+          "water potential",
+          "solution B hypotonic",
+          "solution C hypertonic"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student correctly identifies glucose transport as facilitated diffusion via a carrier/transport protein, classifies it as passive transport, and justifies using the concept of concentration gradient and no ATP requirement.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "facilitated diffusion",
+          "GLUT transporter",
+          "GLUT1",
+          "glucose carrier protein",
+          "transport protein",
+          "passive transport",
+          "no ATP required",
+          "concentration gradient",
+          "high to low concentration",
+          "down the gradient",
+          "carrier-mediated transport",
+          "specific transporter",
+          "no energy input",
+          "moves with gradient"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student correctly explains that the Na⁺/K⁺ pump uses ATP to move sodium out and potassium in against their concentration gradients, classifying it as active transport.",
+        "partLabel": "d",
+        "skill": "explain",
+        "keywords": [
+          "sodium-potassium pump",
+          "Na+/K+-ATPase",
+          "ATP hydrolysis",
+          "against concentration gradient",
+          "3 sodium out",
+          "2 potassium in",
+          "active transport",
+          "energy required",
+          "electrochemical gradient",
+          "ion gradient",
+          "ATPase",
+          "phosphorylation",
+          "conformational change",
+          "pumps ions against gradient",
+          "consumes ATP"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student correctly justifies that E. coli resists lysis due to its peptidoglycan cell wall, contrasting it with the absence of a cell wall in red blood cells (eukaryotic cells).",
+        "partLabel": "e",
+        "skill": "justify",
+        "keywords": [
+          "cell wall",
+          "peptidoglycan",
+          "murein",
+          "prokaryote",
+          "eukaryote",
+          "no cell wall",
+          "resists osmotic pressure",
+          "prevents lysis",
+          "turgor pressure",
+          "structural support",
+          "red blood cells lack cell wall",
+          "rigid cell wall",
+          "wall pressure",
+          "osmotic stress resistance",
+          "hypotonic lysis"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-12',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Apoptosis",
-    units: [4],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "During embryonic development of the human hand, cells between the developing fingers undergo programmed cell death (apoptosis), sculpting the individual digits. Cells that fail to undergo apoptosis in this region result in webbed fingers (syndactyly). Researchers find that these inter-digit cells receive a death signal that activates caspase enzymes, ultimately causing DNA fragmentation and cell shrinkage.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "one difference between apoptosis and necrosis.", rubric: "Apoptosis is programmed, orderly cell death — the cell shrinks, chromatin condenses, DNA is fragmented into regular pieces, and the cell is packaged into apoptotic bodies that are phagocytosed without triggering inflammation. Necrosis is uncontrolled cell death due to injury/toxins — the cell swells, the membrane ruptures, cellular contents spill out, causing inflammation. Accept any one clear distinguishing feature." },
-    { label: 'b', command: 'Explain', question: "why apoptosis is essential for normal embryonic development beyond just digit formation.", rubric: "Apoptosis sculpts many structures during development: removes cells between digits (as described), eliminates excess neurons that fail to form synapses, removes T cells in the thymus that would attack self-tissues (immune tolerance), eliminates the tadpole tail during metamorphosis. Award point for any two additional examples OR a general explanation that development requires removing excess/misplaced cells to build functional structures." },
-    { label: 'c', command: 'Predict', question: "the consequence if apoptosis signaling were completely absent in an organism. Describe one specific developmental outcome.", rubric: "Prediction: without apoptosis, excess cells cannot be eliminated during development. Specific outcome examples: webbed digits (as in the scenario), excessive neurons remaining with unregulated connections, auto-reactive T cells not eliminated leading to autoimmune disease, failure to remove internal structures (e.g., persistent tail in frogs), tumor formation. Award point for a specific, biologically plausible consequence." },
-    { label: 'd', command: 'Justify', question: "why cancer cells that downregulate apoptosis pathways are more difficult to treat with chemotherapy.", rubric: "Many chemotherapy drugs work by damaging DNA or disrupting cell division, which normally triggers apoptosis in cells with damaged DNA. If cancer cells downregulate apoptosis (e.g., by overexpressing Bcl-2, a pro-survival protein, or by mutating p53), they can survive drug-induced damage that would normally kill them. The treatment signal (DNA damage) is received but the cell does not execute the death program." }
+    "id": "bio_u2_frq012",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Membrane Dynamics: Structure, Transport, and Cellular Uptake in a Novel Organism",
+    "units": [
+      2
     ],
-    rubric: [{ points: 1, description: "Apoptosis is programmed, orderly cell death — the cell shrinks, chromatin conden", partLabel: 'a', skill: 'describe', keywords: ["chromatin"] }, { points: 1, description: "Apoptosis sculpts many structures during development: removes cells between digi", partLabel: 'b', skill: 'explain', keywords: ["as described", "immune tolerance"] }, { points: 1, description: "Prediction: without apoptosis, excess cells cannot be eliminated during developm", partLabel: 'c', skill: 'predict', keywords: ["autoimmune", "as in the scenario"] }, { points: 1, description: "Many chemotherapy drugs work by damaging DNA or disrupting cell division, which", partLabel: 'd', skill: 'explain', keywords: ["cancer", "dna damage"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "Researchers are studying a newly discovered unicellular organism, Xenocellus adaptus, which thrives in highly variable aquatic environments. Unlike typical eukaryotes, Xenocellus lacks cholesterol in its plasma membrane but possesses an unusually high proportion of unsaturated phospholipids. Its plasma membrane also contains a dense array of aquaporins, carrier proteins, and ATP-powered pumps. Scientists observe that when Xenocellus is placed in a hypotonic solution, it rapidly internalizes large volumes of extracellular fluid containing dissolved macromolecules. Additionally, the organism secretes a protective glycoprotein coat by fusing intracellular vesicles with its plasma membrane. In a separate experiment, ouabain (a drug that blocks the Na⁺/K⁺ ATPase) is applied to Xenocellus cells suspended in an isotonic solution. After treatment, cells show abnormal swelling and eventual lysis.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain how the absence of cholesterol and the high proportion of unsaturated phospholipids together affect the fluid mosaic model properties of the Xenocellus plasma membrane compared to a typical eukaryotic membrane.",
+        "rubric": "Student earns 1 point for explaining that the absence of cholesterol removes the molecule that normally buffers membrane fluidity, AND that unsaturated phospholipids have kinked hydrocarbon tails that prevent tight packing of phospholipids, resulting in a membrane that is MORE fluid (hyperfluid) across a wider temperature range than a typical eukaryotic membrane. Must connect both structural features to fluidity or lateral movement of proteins/lipids within the bilayer."
+      },
+      {
+        "label": "b",
+        "command": "Describe",
+        "question": "Describe the process by which Xenocellus internalizes large volumes of extracellular fluid and dissolved macromolecules, and identify the specific type of endocytosis involved.",
+        "rubric": "Student earns 1 point for correctly identifying the process as pinocytosis (cell drinking / fluid-phase endocytosis) and describing that the plasma membrane invaginates (folds inward) around extracellular fluid, pinches off to form a vesicle inside the cell, and the vesicle contains the ingested fluid and dissolved solutes/macromolecules. Must distinguish this from phagocytosis (which involves large solid particles)."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain the mechanism by which Xenocellus secretes its glycoprotein coat to the extracellular environment, referencing the organelles involved in the production and export of this glycoprotein.",
+        "rubric": "Student earns 1 point for describing exocytosis: glycoproteins are synthesized at the rough ER, processed and modified in the Golgi apparatus (Golgi body / Golgi complex), packaged into secretory vesicles that bud from the trans face of the Golgi, and the vesicles fuse with the plasma membrane, releasing the glycoprotein to the extracellular space. Must include at least two organelles (rough ER and Golgi) and the term exocytosis or vesicle fusion."
+      },
+      {
+        "label": "d",
+        "command": "Predict",
+        "question": "Predict what happens to the solute concentration inside Xenocellus cells when ouabain blocks the Na⁺/K⁺ ATPase, and justify why this causes swelling and lysis. Your answer must reference tonicity and osmosis.",
+        "rubric": "Student earns 1 point for predicting that blocking the Na⁺/K⁺ ATPase causes Na⁺ to accumulate inside the cell (because active transport pumping Na⁺ out is inhibited), raising intracellular solute concentration so the cell becomes hypertonic relative to the surrounding isotonic solution; water then enters by osmosis down its water potential gradient through aquaporins or by diffusion, causing the cell to swell (turgor) and eventually lyse (cytolysis). Must use osmosis and tonicity or water potential correctly."
+      },
+      {
+        "label": "e",
+        "command": "Justify",
+        "question": "Justify why the Na⁺/K⁺ ATPase is classified as active transport and not facilitated diffusion, and explain one structural feature of this pump that distinguishes it from a channel protein.",
+        "rubric": "Student earns 1 point for justifying that the Na⁺/K⁺ ATPase moves ions against their concentration gradient (from low to high concentration), which requires energy in the form of ATP hydrolysis, making it active transport - whereas facilitated diffusion moves solutes down their concentration gradient and requires no energy input. Must also distinguish the pump structurally from a channel: e.g., the pump undergoes a conformational change upon ATP hydrolysis to translocate ions (it is a carrier/transporter that changes shape), while channel proteins form open pores that allow passive flow."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Explains that absence of cholesterol removes fluidity buffering AND unsaturated phospholipids with kinked tails prevent tight packing, resulting in a more fluid membrane than typical eukaryotic membranes.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "cholesterol",
+          "unsaturated phospholipids",
+          "kinked hydrocarbon tails",
+          "fluid mosaic model",
+          "membrane fluidity",
+          "lateral movement of lipids",
+          "hyperfluid",
+          "phospholipid packing",
+          "tight packing prevented",
+          "bilayer more fluid",
+          "fluidity buffering absent",
+          "double bonds in fatty acid tails",
+          "increased membrane permeability",
+          "temperature range flexibility",
+          "integral protein mobility"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Identifies pinocytosis (cell drinking / fluid-phase endocytosis) and describes membrane invagination forming an intracellular vesicle containing extracellular fluid and dissolved macromolecules.",
+        "partLabel": "b",
+        "skill": "describe",
+        "keywords": [
+          "pinocytosis",
+          "fluid-phase endocytosis",
+          "cell drinking",
+          "membrane invaginates",
+          "plasma membrane folds inward",
+          "vesicle forms",
+          "vesicle pinches off",
+          "endocytosis",
+          "dissolved macromolecules internalized",
+          "extracellular fluid ingested",
+          "not phagocytosis",
+          "non-specific uptake",
+          "endocytic vesicle",
+          "membrane-bound compartment",
+          "bulk fluid uptake"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Describes exocytosis involving synthesis at rough ER, processing in Golgi apparatus, packaging into secretory vesicles, and vesicle fusion with plasma membrane to release glycoprotein extracellularly.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "exocytosis",
+          "rough ER",
+          "rough endoplasmic reticulum",
+          "Golgi apparatus",
+          "Golgi body",
+          "secretory vesicles",
+          "vesicle fuses with plasma membrane",
+          "trans face of Golgi",
+          "glycoprotein secreted",
+          "vesicle budding",
+          "extracellular release",
+          "post-translational modification",
+          "endomembrane system",
+          "glycoprotein processing",
+          "secretory pathway"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Predicts Na⁺ accumulates inside cell raising intracellular solute concentration, cell becomes hypertonic relative to isotonic solution, water enters by osmosis causing swelling and lysis.",
+        "partLabel": "d",
+        "skill": "predict",
+        "keywords": [
+          "Na⁺ accumulates intracellularly",
+          "intracellular solute concentration increases",
+          "cell becomes hypertonic",
+          "water enters by osmosis",
+          "osmosis",
+          "water potential gradient",
+          "aquaporins facilitate water entry",
+          "cell swells",
+          "lysis",
+          "cytolysis",
+          "tonicity",
+          "Na⁺/K⁺ ATPase inhibited",
+          "active transport blocked",
+          "osmotic imbalance",
+          "net movement of water into cell"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Justifies active transport because ions move against concentration gradient requiring ATP hydrolysis; distinguishes pump from channel by conformational change vs. open pore for passive flow.",
+        "partLabel": "e",
+        "skill": "justify",
+        "keywords": [
+          "against concentration gradient",
+          "requires ATP",
+          "ATP hydrolysis",
+          "active transport",
+          "facilitated diffusion requires no energy",
+          "down concentration gradient",
+          "conformational change",
+          "carrier protein changes shape",
+          "channel protein forms open pore",
+          "passive flow through channel",
+          "electrochemical gradient opposed",
+          "pump is a transporter not a channel",
+          "phosphorylation drives translocation",
+          "Na⁺ pumped out K⁺ pumped in",
+          "energy-dependent ion movement"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-13',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Meiosis and Genetic Variation",
-    units: [5],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Chiasmata are X-shaped structures visible during prophase I of meiosis at sites where homologous chromosomes have undergone crossing over. A geneticist studying corn (maize) finds that mutations in the MRE11 gene, which codes for a protein involved in initiating double-strand DNA breaks, result in plants that produce no chiasmata. These mutant plants show highly abnormal chromosome segregation during meiosis I.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the process of crossing over and identify the stage of meiosis at which it occurs.", rubric: "Crossing over occurs during prophase I of meiosis (specifically pachytene stage). Homologous chromosomes (paired as bivalents) exchange corresponding segments at chiasmata; non-sister chromatids break at the same point and rejoin with the other homolog's chromatid, producing recombinant chromosomes with new combinations of alleles." },
-    { label: 'b', command: 'Explain', question: "why chiasmata are physically important for correct chromosome segregation during meiosis I, not just for genetic recombination.", rubric: "Chiasmata hold homologous chromosomes together after the synaptonemal complex dissolves in late prophase I. This connection ensures that homologs are pulled to opposite poles during anaphase I — they are physically tethered and tension from opposite kinetochore microtubules can properly orient them. Without chiasmata, homologs may not orient correctly on the metaphase I plate and can fail to segregate properly, leading to aneuploidy." },
-    { label: 'c', command: 'Predict', question: "the consequences for the genetic diversity of offspring produced by MRE11 mutant plants compared to wild-type plants.", rubric: "MRE11 mutant plants produce no crossing over, so only independent assortment contributes to genetic diversity. Wild-type plants have both crossing over AND independent assortment, generating far greater diversity. Mutant gametes will have only parental combinations of alleles (no recombinants), significantly reducing the number of genetically distinct gametes produced." },
-    { label: 'd', command: 'Justify', question: "why MRE11 mutant plants show abnormal chromosome segregation, connecting this to the role of chiasmata described in part (b).", rubric: "Without chiasmata, homologous chromosomes are not physically held together after synaptonemal complex breakdown. During metaphase I, the bivalents cannot generate the tension between opposing microtubule attachments needed for stable orientation; chromosomes may fail to bi-orient properly or separate prematurely. This leads to unequal distribution of chromosomes to daughter cells (aneuploidy) — some cells receive extra chromosomes while others receive none." }
+    "id": "bio_u3_frq013",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Enzyme Inhibition and Active Site Binding",
+    "units": [
+      3
     ],
-    rubric: [{ points: 1, description: "Crossing over occurs during prophase I of meiosis (specifically pachytene stage)", partLabel: 'a', skill: 'describe', keywords: ["homologous chromosomes", "sister chromatids", "crossing over", "chromatid", "chiasmata", "prophase", "meiosis", "specifically pachytene stage", "paired as bivalents"] }, { points: 1, description: "Chiasmata hold homologous chromosomes together after the synaptonemal complex di", partLabel: 'b', skill: 'explain', keywords: ["homologous chromosomes", "kinetochore", "metaphase", "chiasmata", "anaphase", "prophase"] }, { points: 1, description: "MRE11 mutant plants produce no crossing over, so only independent assortment con", partLabel: 'c', skill: 'predict', keywords: ["independent assortment", "crossing over", "no recombinants"] }, { points: 1, description: "Without chiasmata, homologous chromosomes are not physically held together after", partLabel: 'd', skill: 'explain', keywords: ["homologous chromosomes", "microtubule", "metaphase", "chiasmata", "aneuploidy"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "Enzymes are biological catalysts that speed up chemical reactions by lowering activation energy. Their activity can be regulated through inhibition. A researcher is studying an enzyme that catalyzes the breakdown of a substrate. When a specific molecule is added to the reaction, it binds directly to the active site of the enzyme and blocks the substrate from binding. The researcher observes that adding more substrate to the reaction can overcome this inhibition.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Identify",
+        "question": "Identify the type of inhibition described in the scenario and explain how the inhibitor affects enzyme function.",
+        "rubric": "Student must identify competitive inhibition and explain that the inhibitor binds to the active site, preventing substrate from binding, thereby reducing enzyme activity."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why adding excess substrate can overcome the inhibition described in the scenario.",
+        "rubric": "Student must explain that with excess substrate, substrate molecules out-compete the inhibitor for the active site, so the probability of substrate binding increases and enzyme activity is restored."
+      },
+      {
+        "label": "c",
+        "command": "Describe",
+        "question": "Describe how a noncompetitive inhibitor differs from the inhibitor described in the scenario in terms of where it binds and its effect on enzyme activity.",
+        "rubric": "Student must state that a noncompetitive inhibitor binds to the allosteric site (not the active site), changing the enzyme's shape so that the substrate can no longer bind effectively, and that adding more substrate cannot overcome this inhibition."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student identifies competitive inhibition and correctly explains that the competitive inhibitor binds to the active site, blocking substrate binding and reducing enzyme activity.",
+        "partLabel": "a",
+        "skill": "identify",
+        "keywords": [
+          "competitive inhibition",
+          "competitive inhibitor",
+          "active site",
+          "binds to active site",
+          "blocks substrate",
+          "substrate cannot bind",
+          "reduces enzyme activity",
+          "enzyme activity decreases",
+          "occupies active site",
+          "mimics substrate",
+          "same shape as substrate",
+          "reversible inhibition",
+          "enzyme-inhibitor complex"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that excess substrate outcompetes the competitive inhibitor for the active site, increasing the likelihood of substrate binding and restoring enzyme activity.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "excess substrate",
+          "outcompetes inhibitor",
+          "substrate concentration",
+          "compete for active site",
+          "probability of binding",
+          "overcomes inhibition",
+          "displaces inhibitor",
+          "substrate displaces",
+          "enzyme activity restored",
+          "higher substrate concentration",
+          "mass action",
+          "collision frequency",
+          "relative concentration",
+          "substrate outnumbers inhibitor"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student describes that a noncompetitive inhibitor binds to the allosteric site, causes a conformational change in enzyme shape, prevents substrate from binding effectively, and cannot be overcome by adding more substrate.",
+        "partLabel": "c",
+        "skill": "describe",
+        "keywords": [
+          "noncompetitive inhibitor",
+          "allosteric site",
+          "binds allosteric site",
+          "conformational change",
+          "changes enzyme shape",
+          "active site shape changes",
+          "cannot be overcome",
+          "adding substrate does not help",
+          "substrate still cannot bind",
+          "enzyme shape altered",
+          "tertiary structure change",
+          "reduces enzyme efficiency",
+          "Vmax decreases",
+          "independent of substrate concentration"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-14',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Mendelian Genetics",
-    units: [5],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "Huntington's disease is caused by an autosomal dominant allele. A person who has one copy of the Huntington's allele (Hh) and one normal allele will develop the disease. A man with Huntington's disease (Hh) whose mother was unaffected and whose father was also unaffected asks a genetic counselor about the risk of passing the disease to his children. His partner does not carry the allele.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Identify', question: "the probability that a child of this couple will inherit Huntington's disease. Show your reasoning.", rubric: "Cross: Hh (affected parent) x hh (unaffected partner). Offspring: 1/2 Hh (affected), 1/2 hh (unaffected). Probability = 50% or 1/2. Must show the cross or Punnett square reasoning." },
-    { label: 'b', command: 'Explain', question: "why the man's parents were both unaffected even though he carries the dominant Huntington's allele.", rubric: "Huntington's disease has late onset — symptoms typically appear in middle age (35-50 years). One of his parents likely carries the allele but had not yet developed symptoms during the man's childhood. Alternatively, the mutation arose de novo in the man. The key point is late onset: being unaffected at the time of observation does not guarantee genotype hh for a late-onset disease." },
-    { label: 'c', command: 'Describe', question: "one limitation of using a Punnett square to predict the actual outcomes in a family with four children.", rubric: "A Punnett square gives probabilities, not certainties. With only 4 children, the actual ratio may deviate significantly from the expected 1:1 ratio due to chance (small sample size). Each conception is an independent event, so all 4 children could be affected or all could be unaffected, even though the expected probability is 50% each. Accept any statement about probability vs. certainty or small sample size deviation." }
+    "id": "bio_u3_frq014",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Enzyme Inhibition and Reaction Rate",
+    "units": [
+      3
     ],
-    rubric: [{ points: 1, description: "Cross: Hh (affected parent) x hh (unaffected partner). Offspring: 1/2 Hh (affect", partLabel: 'a', skill: 'identify', keywords: ["punnett square", "probability", "affected parent", "unaffected partner", "affected", "unaffected"] }, { points: 1, description: "Huntington's disease has late onset — symptoms typically appear in middle age (3", partLabel: 'b', skill: 'explain', keywords: ["mutation", "genotype", "allele"] }, { points: 1, description: "A Punnett square gives probabilities, not certainties. With only 4 children, the", partLabel: 'c', skill: 'describe', keywords: ["punnett square", "probability", "small sample size"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A researcher is studying the enzyme succinate dehydrogenase, which catalyzes a reaction in the Krebs cycle. In one experiment, malonate (a molecule structurally similar to the substrate succinate) is added to the reaction mixture. In a second experiment, oxaloacetate is added; oxaloacetate binds to a site on the enzyme other than the active site and changes the enzyme's shape. The researcher measures reaction rates under both conditions and compares them to a control with no inhibitor.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe how malonate inhibits succinate dehydrogenase, and identify the type of inhibition it represents.",
+        "rubric": "Student earns 1 point for identifying malonate as a competitive inhibitor that binds to the active site of the enzyme, preventing the substrate succinate from binding, because malonate is structurally similar to succinate."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain how the inhibition caused by oxaloacetate differs mechanistically from the inhibition caused by malonate.",
+        "rubric": "Student earns 1 point for explaining that oxaloacetate is a noncompetitive inhibitor that binds to an allosteric site, causing a conformational change in the enzyme that reduces or eliminates catalytic activity even when substrate is present."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Predict what would happen to the reaction rate in the malonate-inhibited experiment if the concentration of succinate were greatly increased. Justify your prediction.",
+        "rubric": "Student earns 1 point for predicting that increasing substrate concentration would overcome competitive inhibition and restore reaction rate toward the uninhibited maximum (Vmax), because excess succinate outcompetes malonate for the active site, reducing inhibitor binding."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student identifies malonate as a competitive inhibitor that binds to the active site and blocks substrate binding due to structural similarity.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "competitive inhibitor",
+          "competitive inhibition",
+          "active site",
+          "binds to active site",
+          "structurally similar",
+          "succinate cannot bind",
+          "blocks substrate",
+          "substrate binding prevented",
+          "structural analog",
+          "mimics substrate",
+          "competes with succinate"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that oxaloacetate is a noncompetitive inhibitor binding an allosteric site, causing a conformational change that reduces enzyme activity.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "noncompetitive inhibitor",
+          "noncompetitive inhibition",
+          "allosteric site",
+          "allosteric inhibition",
+          "conformational change",
+          "shape change",
+          "enzyme activity decreases",
+          "active site altered",
+          "substrate can still bind",
+          "reduces catalytic activity",
+          "different site than active site",
+          "does not compete with substrate"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student predicts reaction rate increases or is restored toward Vmax because excess succinate outcompetes malonate for the active site.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "reaction rate increases",
+          "overcomes inhibition",
+          "outcompetes malonate",
+          "active site occupied by substrate",
+          "competitive inhibition reversed",
+          "rate restored",
+          "approaches Vmax",
+          "excess substrate",
+          "substrate concentration increase",
+          "displacement of inhibitor",
+          "mass action",
+          "malonate displaced"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-15',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Non-Mendelian Genetics",
-    units: [5],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "In a population of cats, coat color is controlled by an X-linked gene. The allele X^O produces orange fur and X^B produces black fur. Female cats (XX) that are heterozygous X^O X^B display a patchy coat with both orange and black regions (calico pattern). Male cats (XY) can only be orange or black, never calico. Rare male calico cats exist but are almost always sterile.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why female cats can display the calico (patchy orange and black) phenotype but most male cats cannot.", rubric: "Female cats have two X chromosomes and can be heterozygous (X^O X^B), carrying both alleles. In each cell, one X chromosome is randomly inactivated (Lyon hypothesis/X-inactivation), so some cells express X^O (orange) and others express X^B (black), creating patches. Male cats have only one X chromosome, so they express only one allele — either orange or black, never both simultaneously." },
-    { label: 'b', command: 'Explain', question: "why the patches in a calico cat's coat are large and well-defined rather than a uniform mixture of individual orange and black cells.", rubric: "X-inactivation occurs early in embryonic development (around the 16-32 cell stage). Once an X is inactivated in a progenitor cell, all daughter cells derived from that cell inherit the same inactivated X (inactivation is mitotically stable and heritable). Large patches of cells all expressing the same color arise because they all descended from the same progenitor cell that had a particular X inactivated." },
-    { label: 'c', command: 'Predict', question: "the most likely karyotype of a rare male calico cat. Justify your prediction.", rubric: "Male calico cats are most likely XXY (Klinefelter syndrome in cats). Justification: a male calico must carry two X chromosomes (one X^O and one X^B) to display both colors, plus a Y chromosome to be phenotypically male. The XXY karyotype can arise from nondisjunction in meiosis. This also explains their sterility — XXY individuals typically have abnormal testis development." },
-    { label: 'd', command: 'Justify', question: "why X-inactivation in female cats is considered an example of epigenetic regulation.", rubric: "X-inactivation silences an entire chromosome through modifications that do not alter the DNA sequence itself. The inactive X is coated with XIST RNA, DNA is heavily methylated, histones are modified (deacetylated, specific methylation marks like H3K27me3), and the chromosome condenses into a Barr body. These heritable epigenetic marks maintain silencing through cell divisions without any change in the DNA base sequence — the classic definition of epigenetic regulation." }
+    "id": "bio_u3_frq015",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Electron Transport Chain and ATP Synthesis",
+    "units": [
+      3
     ],
-    rubric: [{ points: 1, description: "Female cats have two X chromosomes and can be heterozygous (X^O X^B), carrying b", partLabel: 'a', skill: 'explain', keywords: ["heterozygous", "chromosome", "allele", "lyon hypothesis/x-inactivation", "orange", "black"] }, { points: 1, description: "X-inactivation occurs early in embryonic development (around the 16-32 cell stag", partLabel: 'b', skill: 'explain', keywords: ["around the 16-32 cell stage", "inactivation is mitotically stable and heritable"] }, { points: 1, description: "Male calico cats are most likely XXY (Klinefelter syndrome in cats). Justificati", partLabel: 'c', skill: 'predict', keywords: ["nondisjunction", "chromosome", "karyotype", "meiosis", "klinefelter syndrome in cats"] }, { points: 1, description: "X-inactivation silences an entire chromosome through modifications that do not a", partLabel: 'd', skill: 'explain', keywords: ["chromosome"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A researcher adds a chemical called dinitrophenol (DNP) to isolated mitochondria that are actively undergoing cellular respiration. DNP makes the inner mitochondrial membrane permeable to hydrogen ions (H⁺), allowing protons to pass freely across the membrane without going through ATP synthase. The researcher observes that oxygen consumption continues but ATP production drops dramatically. A second experiment uses rotenone, a compound that blocks Complex I of the electron transport chain, and the researcher measures both oxygen consumption and NADH levels in the matrix.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain why ATP production drops dramatically when DNP is added, even though the electron transport chain continues to function.",
+        "rubric": "Student earns 1 point for explaining that DNP dissipates the proton gradient (electrochemical gradient / proton motive force) across the inner mitochondrial membrane by allowing H⁺ to leak back without passing through ATP synthase, so chemiosmosis cannot drive ATP synthesis even though electrons are still being transferred."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict what would happen to NADH levels in the mitochondrial matrix after rotenone is added, and explain your reasoning.",
+        "rubric": "Student earns 1 point for predicting that NADH levels would increase (accumulate) in the mitochondrial matrix because Complex I normally oxidizes NADH to NAD⁺ by transferring electrons to ubiquinone; blocking Complex I prevents NADH oxidation, so NADH builds up and NAD⁺ becomes depleted."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain how a buildup of NADH and depletion of NAD⁺ caused by rotenone would affect the Krebs cycle.",
+        "rubric": "Student earns 1 point for explaining that the Krebs cycle would slow down or stop because NAD⁺ is required as an electron acceptor for multiple dehydrogenase reactions in the Krebs cycle; without sufficient NAD⁺, these reactions cannot proceed, inhibiting Krebs cycle activity and reducing acetyl-CoA oxidation."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that DNP dissipates the proton gradient/proton motive force, preventing H⁺ from flowing through ATP synthase, so chemiosmosis-driven ATP synthesis cannot occur.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "proton gradient",
+          "electrochemical gradient",
+          "proton motive force",
+          "H+ leaks across membrane",
+          "ATP synthase bypassed",
+          "chemiosmosis disrupted",
+          "inner mitochondrial membrane",
+          "protons not channeled through ATP synthase",
+          "uncoupler",
+          "gradient dissipated",
+          "proton leak",
+          "oxidative phosphorylation uncoupled"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student predicts NADH accumulates because Complex I cannot oxidize NADH to NAD⁺ when blocked by rotenone, causing NADH buildup and NAD⁺ depletion.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "NADH accumulates",
+          "NADH builds up",
+          "NAD+ depleted",
+          "Complex I blocked",
+          "NADH not oxidized",
+          "electron transfer inhibited",
+          "ubiquinone",
+          "NADH levels increase",
+          "oxidation of NADH prevented",
+          "NAD+ cannot be regenerated",
+          "NADH cannot donate electrons",
+          "electron carrier saturated"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains that Krebs cycle slows or stops because NAD⁺ is required as electron acceptor for dehydrogenase reactions; NAD⁺ depletion prevents these reactions from proceeding.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "Krebs cycle slows",
+          "Krebs cycle inhibited",
+          "NAD+ required",
+          "electron acceptor",
+          "dehydrogenase reactions",
+          "isocitrate dehydrogenase",
+          "alpha-ketoglutarate dehydrogenase",
+          "acetyl-CoA cannot be oxidized",
+          "cycle stops",
+          "NAD+ limiting factor",
+          "citric acid cycle halted",
+          "product inhibition"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-16',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Transcription and Translation",
-    units: [6],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "Streptomycin is an antibiotic that binds to the 30S ribosomal subunit in bacteria, causing misreading of mRNA codons during translation. Treated bacteria produce nonfunctional proteins and die. Human cells are unaffected because our ribosomes (80S) have a different structure than bacterial ribosomes (70S).",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the process by which a ribosome reads a codon and incorporates the correct amino acid during translation.", rubric: "The ribosome positions mRNA in its decoding center; aminoacyl-tRNA molecules enter the A site where their anticodon base-pairs with the codon on the mRNA. If the anticodon-codon match is correct, peptidyl transferase catalyzes peptide bond formation between the growing polypeptide (in P site) and the new amino acid (in A site). Translocation moves the ribosome one codon down the mRNA." },
-    { label: 'b', command: 'Explain', question: "why streptomycin-induced misreading of codons is lethal to bacteria.", rubric: "Misreading causes incorrect amino acids to be incorporated into proteins. This changes the protein's primary structure, which alters its 3D shape (since folding depends on R group interactions), disrupting its function. If critical enzymes, structural proteins, or membrane proteins are mistranslated throughout the cell, essential cellular processes fail and the bacterium dies." },
-    { label: 'c', command: 'Justify', question: "why streptomycin can be used as an antibiotic in humans without (at typical doses) affecting human cells, even though both humans and bacteria perform translation.", rubric: "Streptomycin specifically targets the 30S subunit of prokaryotic ribosomes (70S total). Human ribosomes are structurally distinct (80S, with 40S and 60S subunits); the streptomycin binding site either does not exist or has a different shape in human ribosomes, so the drug does not bind effectively to human ribosomes. This structural difference allows selective targeting of bacterial translation." }
+    "id": "bio_u3_frq016",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Electron Transport Chain and Chemiosmosis Under Inhibited Conditions",
+    "units": [
+      3
     ],
-    rubric: [{ points: 1, description: "The ribosome positions mRNA in its decoding center; aminoacyl-tRNA molecules ent", partLabel: 'a', skill: 'describe', keywords: ["translocation", "peptide bond", "polypeptide", "amino acid", "anticodon", "ribosome", "codon", "mrna", "trna", "in p site"] }, { points: 1, description: "Misreading causes incorrect amino acids to be incorporated into proteins. This c", partLabel: 'b', skill: 'explain', keywords: ["primary structure", "amino acids", "r group", "since folding depends on r group interactions"] }, { points: 1, description: "Streptomycin specifically targets the 30S subunit of prokaryotic ribosomes (70S", partLabel: 'c', skill: 'explain', keywords: ["translation"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A researcher is studying oxidative phosphorylation in isolated mitochondria. In Experiment 1, mitochondria are supplied with NADH and oxygen and ATP synthesis proceeds normally. In Experiment 2, the researcher adds oligomycin, a drug that physically blocks the ATP synthase channel, preventing protons from flowing through it. In Experiment 3, the researcher instead adds 2,4-dinitrophenol (DNP), an uncoupler that makes the inner mitochondrial membrane freely permeable to protons. Oxygen consumption is measured in all three experiments.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain what happens to the proton gradient (proton-motive force) and the rate of oxygen consumption in Experiment 2 after oligomycin is added.",
+        "rubric": "Earns 1 point for explaining that oligomycin blocks proton flow through ATP synthase, causing protons to accumulate in the intermembrane space and the proton gradient to build up (increase). Because the gradient becomes so large, electron transport slows or halts, so oxygen consumption decreases. Student must link gradient buildup to reduced electron transport and reduced O2 consumption."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict and justify what will happen to ATP synthesis and oxygen consumption in Experiment 3 when DNP is added.",
+        "rubric": "Earns 1 point for predicting that ATP synthesis decreases or stops because protons bypass ATP synthase (leak through the membrane), so the proton gradient is dissipated and chemiosmosis cannot drive ATP synthase. Oxygen consumption increases because the electron transport chain continues (or accelerates) trying to re-establish the gradient. Student must address both ATP synthesis decrease and oxygen consumption increase."
+      },
+      {
+        "label": "c",
+        "command": "Justify",
+        "question": "A student claims that if both oligomycin and DNP are added simultaneously to mitochondria, the effects of oligomycin will be completely reversed and ATP production will return to normal levels. Justify whether this claim is correct or incorrect using your understanding of the electron transport chain and chemiosmosis.",
+        "rubric": "Earns 1 point for correctly identifying the claim as incorrect and explaining that DNP dissipates the proton gradient by making the membrane permeable to protons, so even though oligomycin's blockage of ATP synthase is bypassed in terms of proton flow, protons still do not pass through ATP synthase and no ATP is synthesized via chemiosmosis. The proton gradient cannot drive ATP synthase because oligomycin still blocks the channel; protons leak through the membrane instead. Student must clarify that ATP synthase remains blocked and chemiosmosis-driven ATP synthesis does not occur."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that oligomycin blocks ATP synthase, causing the proton gradient to increase/build up in the intermembrane space, which slows electron transport and decreases oxygen consumption.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "oligomycin",
+          "ATP synthase blocked",
+          "proton gradient increases",
+          "proton-motive force builds up",
+          "intermembrane space accumulation",
+          "electron transport slows",
+          "oxygen consumption decreases",
+          "back pressure",
+          "protons accumulate",
+          "chemiosmosis halted",
+          "electrochemical gradient",
+          "reduced O2 uptake",
+          "ETC inhibited"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student predicts ATP synthesis decreases or stops because protons bypass ATP synthase via DNP, dissipating the gradient, while oxygen consumption increases as the electron transport chain accelerates to compensate.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "DNP uncoupler",
+          "proton gradient dissipated",
+          "protons bypass ATP synthase",
+          "ATP synthesis decreases",
+          "ATP synthesis stops",
+          "oxygen consumption increases",
+          "electron transport accelerates",
+          "inner mitochondrial membrane permeable",
+          "uncoupling",
+          "chemiosmosis disrupted",
+          "proton leak",
+          "oxidative phosphorylation uncoupled",
+          "heat released"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student correctly identifies the claim as incorrect, explaining that oligomycin still blocks ATP synthase so protons cannot flow through it, and DNP causes protons to leak through the membrane rather than through ATP synthase, meaning no ATP is produced via chemiosmosis.",
+        "partLabel": "c",
+        "skill": "justify",
+        "keywords": [
+          "claim is incorrect",
+          "ATP synthase still blocked",
+          "protons leak through membrane",
+          "bypass ATP synthase",
+          "no chemiosmotic ATP synthesis",
+          "oligomycin blocks channel",
+          "proton-motive force dissipated by DNP",
+          "ATP not synthesized",
+          "oxidative phosphorylation fails",
+          "protons do not pass through ATP synthase",
+          "F0 subunit blocked",
+          "electrochemical gradient collapsed",
+          "net effect no ATP"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-17',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Gene Regulation",
-    units: [6],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Scientists studying development discover that the Hox genes control the body plan of animals from insects to humans. Hox genes encode transcription factors that are expressed in specific regions along the anterior-posterior body axis. In Drosophila, mutations in the Ultrabithorax (Ubx) Hox gene cause the fly to grow legs in place of its halteres (balancing organs). Similar Hox genes in vastly different animals control analogous developmental regions.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the general function of transcription factors in regulating gene expression.", rubric: "Transcription factors are proteins that bind to specific DNA sequences (promoters or enhancers) and either activate or repress transcription of target genes by interacting with RNA polymerase or other components of the transcription machinery. They control which genes are expressed in which cells at which times." },
-    { label: 'b', command: 'Explain', question: "how a single Hox gene mutation (such as loss of Ubx function) can cause a dramatic change in body structure (legs instead of halteres).", rubric: "Hox transcription factors regulate many downstream target genes simultaneously. Ubx normally activates genes for haltere development while repressing genes for leg development in the relevant body segment. Without functional Ubx, the repression of leg-development genes is relieved and the activation of haltere genes is lost — the default developmental pathway (leg formation) proceeds in a region that should form a haltere. One transcription factor controls a whole developmental program." },
-    { label: 'c', command: 'Support', question: "the claim that Hox genes provide evidence for common ancestry of diverse animal groups.", rubric: "Hox genes are highly conserved across vast evolutionary distances — the same Hox gene family (with similar sequences and similar spatial expression patterns) controls anterior-posterior body patterning in insects, worms, frogs, mice, and humans. The conservation of both sequence and function implies these genes were inherited from a common ancestor; independent evolution would be astronomically unlikely to produce such similar sequences and functions. Additionally, Hox genes from one species can often functionally substitute for those in another (e.g., mouse Hox genes can rescue Drosophila Hox mutants)." },
-    { label: 'd', command: 'Predict', question: "the consequences for gene expression if a Hox transcription factor binding site (on a target gene's promoter) were mutated so the Hox protein could no longer bind. Would this affect only that target gene or multiple genes?", rubric: "The mutation would affect only the specific target gene whose promoter/enhancer binding site was altered — the Hox protein itself is unchanged and can still bind all other normal binding sites. Only the gene with the mutated binding site loses Hox regulation. This is different from a Hox protein mutation, which would affect all targets. Must distinguish between a mutation in the regulator vs. a mutation in the regulated sequence." }
+    "id": "bio_u3_frq017",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Cellular Respiration: Glycolysis, ATP, and Fermentation Under Anaerobic Conditions",
+    "units": [
+      3
     ],
-    rubric: [{ points: 1, description: "Transcription factors are proteins that bind to specific DNA sequences (promoter", partLabel: 'a', skill: 'describe', keywords: ["rna polymerase", "transcription", "promoters or enhancers"] }, { points: 1, description: "Hox transcription factors regulate many downstream target genes simultaneously.", partLabel: 'b', skill: 'explain', keywords: ["transcription factor", "transcription", "leg formation"] }, { points: 1, description: "Hox genes are highly conserved across vast evolutionary distances — the same Hox", partLabel: 'c', skill: 'describe', keywords: ["common ancestor", "gene"] }, { points: 1, description: "The mutation would affect only the specific target gene whose promoter/enhancer", partLabel: 'd', skill: 'predict', keywords: ["mutation", "promoter", "enhancer", "gene"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A researcher is studying energy metabolism in yeast cells (Saccharomyces cerevisiae). The researcher places yeast in two separate flasks containing glucose solution. Flask A is sealed with no oxygen present (anaerobic conditions), while Flask B is open to the atmosphere (aerobic conditions). After 30 minutes, the researcher measures glucose consumption, ATP production, ethanol and CO2 output, and overall cell activity in both flasks. The researcher observes that Flask A consumes glucose at a much higher rate than Flask B, yet Flask B produces significantly more ATP per glucose molecule. Use your knowledge of cellular respiration and fermentation to answer the following questions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe what happens to glucose during glycolysis, including where glycolysis occurs in the cell, the net ATP yield, and the end products that are passed to subsequent pathways.",
+        "rubric": "Student earns 1 point for accurately describing glycolysis as occurring in the cytoplasm/cytosol, producing a net yield of 2 ATP (substrate-level phosphorylation), 2 NADH, and 2 pyruvate molecules per glucose."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain the role of ATP in cellular processes, specifically describing how ATP releases energy and why it is considered the primary energy currency of the cell.",
+        "rubric": "Student earns 1 point for explaining that ATP releases energy through hydrolysis of the phosphoanhydride bond (breaking the bond between the second and third phosphate groups), releasing inorganic phosphate and ADP, and that this released energy drives endergonic cellular reactions."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain why the yeast cells in Flask A (anaerobic) must undergo fermentation after glycolysis, and describe what happens to pyruvate and NADH during alcoholic fermentation.",
+        "rubric": "Student earns 1 point for explaining that fermentation is necessary to regenerate NAD+ from NADH so that glycolysis can continue, and that pyruvate is converted to ethanol and CO2 while NADH is oxidized back to NAD+ in alcoholic fermentation."
+      },
+      {
+        "label": "d",
+        "command": "Justify",
+        "question": "Justify why Flask A (anaerobic/fermentation) consumes glucose at a higher rate than Flask B (aerobic respiration), even though fermentation produces far less ATP per glucose molecule.",
+        "rubric": "Student earns 1 point for justifying that because fermentation yields only 2 ATP per glucose (compared to approximately 30-32 ATP per glucose in aerobic respiration), yeast cells must consume glucose at a much higher rate to meet the same energy demands, a principle known as the Pasteur effect."
+      },
+      {
+        "label": "e",
+        "command": "Predict",
+        "question": "Predict what would happen to the rate of fermentation in Flask A if a researcher added a compound that inhibits the enzyme pyruvate decarboxylase, which catalyzes the conversion of pyruvate to acetaldehyde. Explain your prediction in terms of NAD+ availability and glycolysis.",
+        "rubric": "Student earns 1 point for predicting that fermentation rate would decrease or stop because pyruvate cannot be converted to acetaldehyde and then ethanol, so NADH cannot be oxidized back to NAD+, causing NAD+ depletion, which halts glycolysis and therefore stops ATP production and fermentation."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student accurately describes glycolysis: location in cytoplasm/cytosol, net yield of 2 ATP via substrate-level phosphorylation, production of 2 pyruvate and 2 NADH per glucose molecule.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "glycolysis",
+          "cytoplasm",
+          "cytosol",
+          "2 ATP",
+          "net ATP",
+          "substrate-level phosphorylation",
+          "pyruvate",
+          "2 pyruvate",
+          "NADH",
+          "2 NADH",
+          "glucose split",
+          "10 steps",
+          "glucose to pyruvate",
+          "investment phase",
+          "payoff phase"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains ATP hydrolysis: the phosphoanhydride bond between the second and third phosphate is broken, releasing inorganic phosphate (Pi) and ADP, and the released free energy drives endergonic reactions in the cell.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "ATP hydrolysis",
+          "phosphoanhydride bond",
+          "inorganic phosphate",
+          "Pi",
+          "ADP",
+          "free energy released",
+          "endergonic reaction",
+          "energy currency",
+          "coupled reaction",
+          "terminal phosphate",
+          "exergonic hydrolysis",
+          "adenosine triphosphate",
+          "phosphorylation",
+          "delta G negative"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains that fermentation regenerates NAD+ from NADH to allow glycolysis to continue, and that in alcoholic fermentation pyruvate is decarboxylated to acetaldehyde and then reduced to ethanol, while NADH is oxidized to NAD+.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "regenerate NAD+",
+          "NAD+ regeneration",
+          "NADH oxidized",
+          "alcoholic fermentation",
+          "pyruvate to acetaldehyde",
+          "acetaldehyde to ethanol",
+          "ethanol",
+          "CO2 released",
+          "glycolysis continues",
+          "electron acceptor",
+          "no oxygen",
+          "anaerobic",
+          "oxidized to NAD+",
+          "decarboxylation"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student justifies higher glucose consumption in anaerobic conditions by connecting low ATP yield of fermentation (2 ATP/glucose) versus aerobic respiration (~30-32 ATP/glucose) to the need to catabolize more glucose to meet energy demands; may reference the Pasteur effect.",
+        "partLabel": "d",
+        "skill": "justify",
+        "keywords": [
+          "2 ATP per glucose",
+          "fermentation ATP yield",
+          "30-32 ATP aerobic",
+          "low efficiency",
+          "higher glucose consumption",
+          "energy demands",
+          "Pasteur effect",
+          "compensate for low yield",
+          "metabolic rate",
+          "glucose catabolism rate",
+          "inefficient energy production",
+          "anaerobic versus aerobic",
+          "upregulate glycolysis"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student predicts that fermentation and glycolysis would stop/slow because inhibiting pyruvate decarboxylase prevents NAD+ regeneration from NADH, depleting available NAD+, and halting glycolysis, thus stopping ATP production.",
+        "partLabel": "e",
+        "skill": "predict",
+        "keywords": [
+          "fermentation stops",
+          "glycolysis halted",
+          "NAD+ depleted",
+          "NADH accumulates",
+          "NAD+ not regenerated",
+          "pyruvate decarboxylase inhibited",
+          "acetaldehyde not produced",
+          "ethanol not produced",
+          "glycolysis requires NAD+",
+          "ATP production ceases",
+          "enzyme inhibition",
+          "pyruvate accumulates",
+          "oxidized electron carrier unavailable"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-18',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Biotechnology",
-    units: [6],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "PCR (polymerase chain reaction) amplifies a specific DNA sequence from a complex mixture. The technique requires two oligonucleotide primers that flank the target sequence, a heat-stable DNA polymerase (Taq polymerase), and dNTPs. A scientist wants to amplify a 500 bp region of a bacterial gene from a soil sample containing hundreds of different bacterial species.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the three steps in one PCR cycle and the temperature used for each step.", rubric: "(1) Denaturation: ~95°C — heat denatures (unwinds) double-stranded DNA into single strands; (2) Annealing: ~50-65°C — primers bind (anneal) to their complementary sequences on the single-stranded template DNA; (3) Extension: ~72°C — Taq polymerase extends from the primers, synthesizing new DNA strands. All three steps and approximate temperatures required." },
-    { label: 'b', command: 'Explain', question: "why Taq polymerase (from the hot-spring bacterium Thermus aquaticus) is used in PCR rather than a typical mesophilic DNA polymerase.", rubric: "PCR requires repeated heating to ~95°C for denaturation. Most DNA polymerases are denatured and lose activity at this temperature. Taq polymerase is thermostable — it maintains activity even after repeated exposure to high temperatures — because it evolved in hot springs where temperatures approach its optimum (~72°C). Using Taq eliminates the need to add new polymerase after each denaturation step." },
-    { label: 'c', command: 'Explain', question: "how the primers provide specificity, allowing the scientist to amplify one target gene from a mixture of hundreds of different bacterial species' DNA.", rubric: "Primers are designed to be complementary to the sequences flanking ONLY the target gene. They will only anneal (stably base-pair) at the specific temperature to sequences that are complementary to them. If the target gene sequence is unique to the bacterium of interest, primers complementary to those flanking regions will only amplify that specific gene. Non-target sequences either have no complementary primer binding sites or form unstable primer-template hybrids that are washed away at the annealing temperature." },
-    { label: 'd', command: 'Predict', question: "what would happen to PCR amplification efficiency if the annealing temperature was set too high (e.g., 75°C instead of 55°C). Justify your prediction.", rubric: "Prediction: little to no amplification would occur. Justification: at too-high annealing temperatures, even correctly matched primer-template hybrids become thermodynamically unstable and dissociate before extension can occur. The Tm (melting temperature) of the primer-template hybrid would be exceeded, preventing stable primer binding and thus no new DNA synthesis." }
+    "id": "bio_u3_frq018",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Integrated Cellular Respiration: From Glycolysis to the Electron Transport Chain",
+    "units": [
+      3
     ],
-    rubric: [{ points: 1, description: "(1) Denaturation: ~95°C — heat denatures (unwinds) double-stranded DNA into sing", partLabel: 'a', skill: 'describe', keywords: ["denaturation", "unwinds", "anneal"] }, { points: 1, description: "PCR requires repeated heating to ~95°C for denaturation. Most DNA polymerases ar", partLabel: 'b', skill: 'explain', keywords: ["denaturation", "denatured", "pcr"] }, { points: 1, description: "Primers are designed to be complementary to the sequences flanking ONLY the targ", partLabel: 'c', skill: 'explain', keywords: ["gene", "stably base-pair"] }, { points: 1, description: "Prediction: little to no amplification would occur. Justification: at too-high a", partLabel: 'd', skill: 'predict', keywords: ["melting temperature"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A researcher is studying cellular respiration in yeast cells (Saccharomyces cerevisiae) under varying oxygen conditions. In Experiment 1, yeast are grown in a well-oxygenated glucose solution. In Experiment 2, oxygen is completely removed from the same glucose solution. The researcher also introduces a compound, oligomycin, which specifically blocks ATP synthase in the inner mitochondrial membrane. The researcher measures ATP production, NADH accumulation, and pyruvate fate under each condition. Use your knowledge of glycolysis, the Krebs cycle, the electron transport chain, fermentation, and ATP synthesis to answer the following questions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe what happens to pyruvate produced during glycolysis in Experiment 1 (aerobic conditions) versus Experiment 2 (anaerobic conditions), including the location and key products of each pathway.",
+        "rubric": "Earns 1 point for correctly contrasting the fate of pyruvate: in aerobic conditions, pyruvate is transported into the mitochondrial matrix and converted to acetyl-CoA via pyruvate oxidation (pyruvate decarboxylation), releasing CO2 and producing NADH, then entering the Krebs cycle; in anaerobic conditions, pyruvate is converted to ethanol and CO2 (alcoholic fermentation in yeast) in the cytoplasm, regenerating NAD+ so glycolysis can continue."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain the role of NAD+ in glycolysis and why its regeneration is essential for ATP production under anaerobic conditions in yeast.",
+        "rubric": "Earns 1 point for explaining that NAD+ is an electron carrier that accepts electrons (and H+) during glycolysis to become NADH; without oxygen, the electron transport chain cannot oxidize NADH back to NAD+, so fermentation regenerates NAD+ by transferring electrons to pyruvate (or its derivative acetaldehyde), allowing glycolysis to continue producing the small net yield of 2 ATP per glucose via substrate-level phosphorylation."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Predict what would happen to the proton gradient (proton-motive force) across the inner mitochondrial membrane and to cellular ATP levels in Experiment 1 yeast cells when oligomycin is added. Justify your prediction.",
+        "rubric": "Earns 1 point for predicting that the proton gradient (proton-motive force) across the inner mitochondrial membrane would increase/accumulate because protons pumped by Complexes I, III, and IV cannot flow back through ATP synthase (which is blocked by oligomycin), causing the gradient to build up; simultaneously, ATP levels would drop because oxidative phosphorylation via chemiosmosis is blocked, and the backed-up proton gradient would also slow the electron transport chain, reducing NADH oxidation."
+      },
+      {
+        "label": "d",
+        "command": "Explain",
+        "question": "Explain how the Krebs cycle contributes to ATP production, specifying the types of electron carriers produced per acetyl-CoA and how those carriers connect to the electron transport chain.",
+        "rubric": "Earns 1 point for explaining that per acetyl-CoA, the Krebs cycle produces 3 NADH, 1 FADH2, and 1 ATP (or GTP) via substrate-level phosphorylation, plus releases 2 CO2; NADH donates electrons to Complex I (NADH dehydrogenase) and FADH2 donates electrons to Complex II (succinate dehydrogenase) in the inner mitochondrial membrane, driving the electron transport chain to pump protons and ultimately produce ATP via ATP synthase through chemiosmosis/oxidative phosphorylation."
+      },
+      {
+        "label": "e",
+        "command": "Justify",
+        "question": "A student claims that blocking ATP synthase with oligomycin would have no effect on ATP production from glycolysis alone. Justify whether this claim is correct or incorrect, referencing the specific mechanism of ATP production in glycolysis.",
+        "rubric": "Earns 1 point for justifying that the claim is correct with respect to glycolysis specifically: glycolysis produces ATP exclusively through substrate-level phosphorylation (direct transfer of a phosphate group from a phosphorylated substrate to ADP), as seen in the phosphoglycerate kinase and pyruvate kinase reactions, which does not involve ATP synthase, the proton gradient, or the mitochondria; therefore oligomycin, which only blocks ATP synthase-driven oxidative phosphorylation/chemiosmosis, would not inhibit the 2 net ATP produced by glycolysis in the cytoplasm."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly describes the fate of pyruvate under aerobic vs. anaerobic conditions, including location and key products of each pathway.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "pyruvate oxidation",
+          "acetyl-CoA",
+          "mitochondrial matrix",
+          "Krebs cycle",
+          "alcoholic fermentation",
+          "ethanol",
+          "CO2",
+          "NAD+",
+          "NADH",
+          "cytoplasm",
+          "anaerobic",
+          "aerobic",
+          "pyruvate decarboxylation",
+          "acetaldehyde",
+          "pyruvate dehydrogenase",
+          "coenzyme A",
+          "inner mitochondrial membrane",
+          "oxidative decarboxylation"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that NAD+ must be regenerated via fermentation to sustain glycolysis and the 2 net ATP produced under anaerobic conditions.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "NAD+",
+          "NADH",
+          "electron carrier",
+          "regenerated",
+          "glycolysis continues",
+          "substrate-level phosphorylation",
+          "2 ATP",
+          "fermentation regenerates NAD+",
+          "anaerobic",
+          "electron transport chain cannot function",
+          "oxidized",
+          "oxidation-reduction",
+          "redox reaction",
+          "alcohol dehydrogenase",
+          "acetaldehyde reduced to ethanol",
+          "net 2 ATP per glucose"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student predicts that the proton gradient increases and ATP levels decrease when oligomycin blocks ATP synthase, with mechanistic justification.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "proton gradient increases",
+          "proton-motive force",
+          "ATP synthase blocked",
+          "oligomycin",
+          "protons accumulate",
+          "ATP levels decrease",
+          "oxidative phosphorylation inhibited",
+          "chemiosmosis blocked",
+          "electron transport chain slows",
+          "inner mitochondrial membrane",
+          "back-pressure",
+          "intermembrane space",
+          "H+ cannot re-enter matrix",
+          "proton pump",
+          "Complex I Complex III Complex IV",
+          "electrochemical gradient"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student explains the Krebs cycle outputs per acetyl-CoA (3 NADH, 1 FADH2, 1 ATP/GTP, 2 CO2) and correctly links NADH to Complex I and FADH2 to Complex II.",
+        "partLabel": "d",
+        "skill": "explain",
+        "keywords": [
+          "3 NADH",
+          "1 FADH2",
+          "1 ATP",
+          "GTP",
+          "substrate-level phosphorylation",
+          "2 CO2",
+          "Complex I",
+          "Complex II",
+          "NADH dehydrogenase",
+          "succinate dehydrogenase",
+          "electron transport chain",
+          "oxidative phosphorylation",
+          "chemiosmosis",
+          "acetyl-CoA",
+          "citric acid cycle",
+          "isocitrate dehydrogenase",
+          "alpha-ketoglutarate",
+          "electron donors"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student correctly justifies that the claim is correct because glycolysis uses substrate-level phosphorylation in the cytoplasm, which is independent of ATP synthase and the mitochondria.",
+        "partLabel": "e",
+        "skill": "justify",
+        "keywords": [
+          "substrate-level phosphorylation",
+          "phosphoglycerate kinase",
+          "pyruvate kinase",
+          "cytoplasm",
+          "cytosol",
+          "independent of ATP synthase",
+          "does not require proton gradient",
+          "2 net ATP",
+          "oligomycin does not affect glycolysis",
+          "phosphate transferred directly to ADP",
+          "not mitochondrial",
+          "no chemiosmosis required",
+          "claim is correct",
+          "glycolysis is cytosolic",
+          "1,3-bisphosphoglycerate",
+          "phosphoenolpyruvate"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-19',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Mutations and Cancer",
-    units: [6],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Lynch syndrome is an inherited condition caused by mutations in mismatch repair (MMR) genes (MLH1, MSH2, etc.). MMR proteins recognize and correct base-pair mismatches that escape DNA polymerase proofreading. People with Lynch syndrome have a significantly elevated lifetime risk of colorectal and other cancers (up to 80% for colorectal cancer). The MMR genes are not proto-oncogenes or tumor suppressors — they maintain genome stability.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why loss of mismatch repair function increases cancer risk, even though MMR genes are not directly involved in cell cycle control.", rubric: "MMR corrects replication errors (mismatches, insertion/deletion loops). Without MMR, mutations accumulate at a much higher rate (microsatellite instability is a hallmark). This elevated mutation rate increases the probability that proto-oncogenes or tumor suppressor genes will be mutated by chance over the person's lifetime — accelerating the multi-hit process required for cancer development. MMR deficiency is a 'mutator phenotype' that accelerates all downstream mutations." },
-    { label: 'b', command: 'Describe', question: "the difference between a germline mutation (such as in Lynch syndrome patients) and a somatic mutation.", rubric: "A germline mutation occurs in the egg or sperm (or their precursors) and is present in every cell of the organism from fertilization — it can be passed to offspring. A somatic mutation occurs in a non-reproductive body cell after fertilization and is present only in that cell and its descendants — it is not passed to offspring. Lynch syndrome patients inherit an MMR mutation in every cell." },
-    { label: 'c', command: 'Predict', question: "whether Lynch syndrome patients would benefit more from increased cancer surveillance (frequent colonoscopies) or from prophylactic surgery to remove at-risk tissue. Justify your prediction using mutation accumulation logic.", rubric: "Both have merit — award point for a well-reasoned answer either way. Surveillance argument: Lynch syndrome patients have elevated mutation rate in ALL cells, but cancer requires multiple hits; frequent surveillance catches early-stage tumors before they progress — this is widely practiced and effective. Prophylactic surgery argument: removing high-risk tissue (e.g., colon) before cancer develops eliminates the tissue in which mutations are accumulating. Current clinical practice favors surveillance with prophylactic surgery considered in high-risk cases. Accept either position with sound mutation-rate reasoning." },
-    { label: 'd', command: 'Justify', question: "why Lynch syndrome follows an autosomal dominant inheritance pattern even though cancer only develops when BOTH copies of an MMR gene are inactivated.", rubric: "Lynch syndrome patients are born with one mutant MMR allele in every cell. One functional copy of MMR is still sufficient for normal DNA repair in most cells. However, in some cells, a second (somatic) mutation spontaneously inactivates the remaining normal allele — this second hit is much more likely when only one normal copy remains. The inherited allele creates a strong predisposition (dominant at the population/clinical level) even though cellular cancer requires the second somatic hit. This is the classic dominant predisposition / recessive tumor suppressor model." }
+    "id": "bio_u4_frq019",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Apoptosis and Programmed Cell Death",
+    "units": [
+      4
     ],
-    rubric: [{ points: 1, description: "MMR corrects replication errors (mismatches, insertion/deletion loops). Without", partLabel: 'a', skill: 'explain', keywords: ["tumor suppressor", "probability", "phenotype", "mutation", "cancer", "microsatellite instability is a hallmark"] }, { points: 1, description: "A germline mutation occurs in the egg or sperm (or their precursors) and is pres", partLabel: 'b', skill: 'describe', keywords: ["fertilization", "mutation"] }, { points: 1, description: "Both have merit — award point for a well-reasoned answer either way. Surveillanc", partLabel: 'c', skill: 'predict', keywords: ["mutation", "cancer"] }, { points: 1, description: "Lynch syndrome patients are born with one mutant MMR allele in every cell. One f", partLabel: 'd', skill: 'explain', keywords: ["tumor suppressor", "population", "dna repair", "recessive", "mutation", "dominant", "cancer", "allele", "somatic", "dominant at the population/clinical level"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "Apoptosis is a form of programmed cell death that is essential for normal development and tissue homeostasis in multicellular organisms. During apoptosis, a cell undergoes a series of controlled changes including cell shrinkage, DNA fragmentation, and the formation of apoptotic bodies that are engulfed by neighboring cells. Cells that fail to undergo apoptosis when signaled to do so can contribute to disease.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe ONE role that apoptosis plays in the normal development or maintenance of a multicellular organism.",
+        "rubric": "Earns 1 point for describing a specific normal function of apoptosis, such as removal of cells between developing digits (fingers/toes), elimination of excess neurons, removal of the tadpole tail, or deletion of self-reactive immune cells."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain how caspases contribute to the process of apoptosis within a cell.",
+        "rubric": "Earns 1 point for explaining that caspases are proteases (enzymes) that are activated in a cascade and cleave (cut/digest) cellular proteins and/or DNA, leading to the breakdown and death of the cell."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain why a mutation that prevents apoptosis in a cell could lead to cancer.",
+        "rubric": "Earns 1 point for explaining that if a damaged or abnormal cell cannot undergo apoptosis, it continues to divide (proliferate) uncontrollably, accumulating mutations and potentially forming a tumor."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student describes a specific, biologically correct role of apoptosis in normal development or tissue maintenance, such as digit separation, synaptic pruning, tadpole tail resorption, or immune cell selection.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "digit separation",
+          "webbing removal",
+          "programmed cell death",
+          "synaptic pruning",
+          "tadpole tail resorption",
+          "self-reactive lymphocyte elimination",
+          "tissue homeostasis",
+          "normal development",
+          "finger formation",
+          "clonal deletion",
+          "interdigital cell death",
+          "excess neuron elimination",
+          "morphogenesis",
+          "apoptotic sculpting",
+          "developmental remodeling"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that caspases are proteolytic enzymes activated in a cascade that cleave cellular proteins and/or fragment DNA, executing cell death.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "caspase",
+          "protease",
+          "proteolytic enzyme",
+          "cleave proteins",
+          "caspase cascade",
+          "DNA fragmentation",
+          "activated caspase",
+          "cell breakdown",
+          "execute apoptosis",
+          "caspase activation cascade",
+          "initiator caspase",
+          "executioner caspase",
+          "cytochrome c release",
+          "intrinsic pathway",
+          "protein cleavage"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains that failure of apoptosis allows damaged or abnormal cells to survive and continue dividing uncontrollably, accumulating mutations and potentially forming a tumor or cancer.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "uncontrolled cell division",
+          "abnormal cell survives",
+          "tumor formation",
+          "accumulate mutations",
+          "cannot undergo apoptosis",
+          "apoptosis prevented",
+          "cancer",
+          "cell proliferation",
+          "damaged cell continues to divide",
+          "loss of apoptotic signaling",
+          "checkpoint failure",
+          "oncogenesis",
+          "malignant transformation",
+          "cell survival signal",
+          "unchecked mitosis"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-20',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Natural Selection",
-    units: [7],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "The peppered moth (Biston betularia) exists in two forms: light-colored (typical) and dark-colored (melanic). Before the Industrial Revolution, light moths were common and dark moths were rare in England. During industrialization, soot darkened tree bark, and dark moths became dominant in industrial areas. After clean air legislation reduced pollution in the latter 20th century, light moths again increased in frequency.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "using the principles of natural selection, why dark moths increased in frequency during industrialization.", rubric: "Dark moths were better camouflaged against soot-darkened tree bark and were less likely to be seen and eaten by predatory birds (higher survival). Light moths were more visible on dark bark and were preferentially eaten. Dark moths survived longer, reproduced more, and passed on dark coloration alleles at higher frequency each generation — directional selection favoring dark coloration." },
-    { label: 'b', command: 'Describe', question: "one piece of evidence that would support the hypothesis that predation (rather than another factor) was the selective pressure driving these changes in moth frequency.", rubric: "Accept any valid evidence: (1) direct observation of birds preferentially eating the more visible (contrasting) moths; (2) reciprocal transplant experiments showing that light moths survive better on clean bark and dark moths survive better on sooty bark; (3) removal of predatory birds from an area eliminates the correlation between bark color and moth frequency; (4) actual predation rate data showing that contrasting moths are eaten at higher rates. Most famous: Kettlewell's classic mark-recapture studies (though later partially debated)." },
-    { label: 'c', command: 'Justify', question: "why the return of light moths after clean air legislation is consistent with evolution by natural selection rather than individual moths changing their color.", rubric: "Individual organisms cannot change their genetically determined coloration (individual moths do not change color). The population change in frequency is due to differential survival and reproduction — after clean air legislation, light-colored moths are again better camouflaged on clean bark; they survive and reproduce more than dark moths, passing light-color alleles on at higher frequency. Evolution is a change in allele frequency in a population over generations, not a change within an individual." }
+    "id": "bio_u4_frq020",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "cAMP as a Second Messenger in Cell Signaling",
+    "units": [
+      4
     ],
-    rubric: [{ points: 1, description: "Dark moths were better camouflaged against soot-darkened tree bark and were less", partLabel: 'a', skill: 'explain', keywords: ["directional selection", "higher survival"] }, { points: 1, description: "Accept any valid evidence: (1) direct observation of birds preferentially eating", partLabel: 'b', skill: 'describe', keywords: ["predation", "contrasting", "though later partially debated"] }, { points: 1, description: "Individual organisms cannot change their genetically determined coloration (indi", partLabel: 'c', skill: 'explain', keywords: ["allele frequency", "population", "allele", "individual moths do not change color"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "Epinephrine is a hormone released during a stress response. When epinephrine binds to a G-protein-coupled receptor (GPCR) on a liver cell, it initiates a signal transduction pathway involving the second messenger cyclic AMP (cAMP). Adenylyl cyclase converts ATP to cAMP, which then activates protein kinase A (PKA). PKA phosphorylates target enzymes that ultimately stimulate glycogen breakdown. A researcher treats liver cells with a drug that inhibits phosphodiesterase, the enzyme that degrades cAMP.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain the role of cAMP as a second messenger in the epinephrine signaling pathway, including how the signal is amplified after cAMP is produced.",
+        "rubric": "Student earns 1 point for explaining that cAMP is a small intracellular signaling molecule produced by adenylyl cyclase that activates PKA, AND that signal amplification occurs because one receptor-G-protein interaction leads to production of many cAMP molecules, each of which can activate multiple PKA molecules, causing a cascade effect."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict what effect the phosphodiesterase inhibitor drug will have on cAMP levels and on glycogen breakdown in the liver cell. Justify your prediction.",
+        "rubric": "Student earns 1 point for predicting that cAMP levels will remain elevated (or increase) because phosphodiesterase cannot degrade cAMP, resulting in prolonged or increased glycogen breakdown due to sustained PKA activation."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain why it is important for cells to be able to terminate signal transduction pathways, using the epinephrine pathway as an example.",
+        "rubric": "Student earns 1 point for explaining that termination prevents continuous or unregulated cellular responses, and in the epinephrine pathway, phosphodiesterase degrades cAMP to stop PKA activation, ensuring glycogen breakdown halts when the hormonal signal is no longer present, maintaining homeostasis."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains cAMP as an intracellular second messenger produced by adenylyl cyclase that activates PKA, and describes signal amplification through the cascade.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "second messenger",
+          "cAMP",
+          "cyclic AMP",
+          "adenylyl cyclase",
+          "protein kinase A",
+          "PKA",
+          "signal amplification",
+          "phosphorylation cascade",
+          "phosphorylates target enzymes",
+          "intracellular signaling molecule",
+          "G-protein activated",
+          "many cAMP molecules",
+          "relay molecule",
+          "activates multiple PKA molecules"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student predicts elevated cAMP levels due to inhibited degradation by phosphodiesterase, leading to prolonged PKA activation and increased glycogen breakdown.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "cAMP levels elevated",
+          "cAMP accumulates",
+          "phosphodiesterase inhibited",
+          "cannot degrade cAMP",
+          "prolonged PKA activation",
+          "sustained glycogen breakdown",
+          "glycogenolysis",
+          "PKA remains active",
+          "signal prolonged",
+          "cAMP not degraded",
+          "increased glucose release",
+          "exaggerated cellular response"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains that termination of signaling is necessary to prevent unregulated responses and maintain homeostasis, citing phosphodiesterase degrading cAMP in the epinephrine pathway.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "terminate signaling pathway",
+          "signal termination",
+          "phosphodiesterase",
+          "degrades cAMP",
+          "homeostasis",
+          "prevent continuous cellular response",
+          "unregulated signaling",
+          "stop glycogen breakdown",
+          "return to resting state",
+          "negative regulation",
+          "turn off pathway",
+          "avoid excessive glycogenolysis",
+          "prevent overstimulation"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-21',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Speciation",
-    units: [7],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "The Galapagos Islands were colonized by a single species of finch from mainland South America approximately 2-3 million years ago. Today, the islands host 14 species of Darwin's finches that differ in beak size and shape, diet, and foraging behavior. Different species occupy different islands and different ecological niches on the same island.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the process of allopatric speciation and explain how it would apply to the initial colonization and diversification of Darwin's finches.", rubric: "Allopatric speciation occurs when a population becomes geographically isolated from the parent population; separated populations evolve independently (different mutations, different selection pressures), accumulating genetic differences over time until they can no longer interbreed if reunited. For finches: birds from mainland colonized islands, geographic isolation between islands (and from mainland) separated populations; each island had different food resources, driving natural selection for different beak morphologies; over millions of years, populations diverged genetically until reproductive isolation was complete." },
-    { label: 'b', command: 'Explain', question: "how natural selection drove the divergence in beak morphology among Darwin's finches.", rubric: "Different islands and niches had different food resources (large seeds, cactus flowers, insects in bark, small seeds). Finches with beak shapes better suited to exploiting the available food source on their island survived and reproduced more successfully. Directional selection on different islands consistently favored different beak types, causing heritable variation in beak morphology to shift in different directions on different islands over generations." },
-    { label: 'c', command: 'Predict', question: "whether two finch species from different islands that have been separated long enough to become distinct species would be able to produce fertile offspring if brought together. Justify your prediction.", rubric: "Prediction: they would likely be unable to produce fertile offspring (or have reduced fertility). Justification: speciation involves the accumulation of genetic differences that eventually lead to reproductive isolation. After millions of years of independent evolution, the two populations would have diverged in chromosome structure, gene regulatory networks, mating behaviors, and possibly gamete compatibility — all post- or pre-zygotic barriers that reduce or eliminate successful interbreeding." },
-    { label: 'd', command: 'Support', question: "the claim that Darwin's finches demonstrate adaptive radiation, using evidence from the scenario.", rubric: "Adaptive radiation is the rapid diversification of a single ancestral species into many ecologically distinct species filling different niches. Evidence: (1) all 14 species descended from a single ancestral species; (2) they diversified rapidly (geologically speaking) over 2-3 million years; (3) different species occupy clearly distinct ecological niches (different beak morphologies, diets, foraging behaviors); (4) the diversification is linked to exploitation of different food resources (adaptive). Must connect the scenario data to the definition." }
+    "id": "bio_u4_frq021",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Cyclin-CDK Complexes and the Cell Cycle Checkpoint",
+    "units": [
+      4
     ],
-    rubric: [{ points: 1, description: "Allopatric speciation occurs when a population becomes geographically isolated f", partLabel: 'a', skill: 'describe', keywords: ["reproductive isolation", "allopatric speciation", "geographic isolation", "natural selection", "population", "speciation"] }, { points: 1, description: "Different islands and niches had different food resources (large seeds, cactus f", partLabel: 'b', skill: 'explain', keywords: ["directional selection", "heritable variation", "variation"] }, { points: 1, description: "Prediction: they would likely be unable to produce fertile offspring (or have re", partLabel: 'c', skill: 'predict', keywords: ["reproductive isolation", "chromosome", "speciation", "reduced", "gamete", "gene"] }, { points: 1, description: "Adaptive radiation is the rapid diversification of a single ancestral species in", partLabel: 'd', skill: 'describe', keywords: ["adaptive radiation", "geologically speaking", "adaptive"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "The cell cycle is tightly regulated by cyclin-dependent kinases (CDKs) and their regulatory partners, cyclins. CDK activity depends on cyclin binding; cyclin concentrations fluctuate throughout the cell cycle. At the G1/S checkpoint, the cyclin D-CDK4/6 complex phosphorylates the retinoblastoma protein (Rb), releasing the transcription factor E2F to promote S-phase gene expression. A mutation renders Rb nonfunctional. Separately, researchers studying apoptosis find that a different cell line has lost expression of caspase proteins.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain how the cyclin D-CDK4/6 complex normally regulates passage through the G1/S checkpoint, including the role of Rb.",
+        "rubric": "Student earns 1 point for explaining that cyclin D binds CDK4/6 to form an active complex that phosphorylates Rb, causing Rb to release the transcription factor E2F, which then activates genes required for S-phase entry and DNA replication."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict the consequence of a mutation that renders Rb nonfunctional on cell cycle progression. Justify your prediction.",
+        "rubric": "Student earns 1 point for predicting that cells will pass through the G1/S checkpoint uncontrollably (or continuously enter S phase) because nonfunctional Rb cannot inhibit E2F, so E2F is constitutively active, driving unregulated cell division that can lead to cancer or tumor formation."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain how the loss of caspase expression in a cell compromises apoptosis, and describe one consequence for the organism if apoptosis is impaired.",
+        "rubric": "Student earns 1 point for explaining that caspases are proteases that execute apoptosis by cleaving cellular proteins and triggering cell death, so loss of caspases prevents programmed cell death, and one consequence is that damaged or abnormal cells survive and accumulate, potentially leading to tumor formation or cancer."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that cyclin D-CDK4/6 phosphorylates Rb, releasing E2F transcription factor to activate S-phase genes and allow cell cycle progression.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "cyclin D",
+          "CDK4",
+          "CDK6",
+          "cyclin-CDK complex",
+          "phosphorylates Rb",
+          "retinoblastoma protein",
+          "releases E2F",
+          "E2F transcription factor",
+          "S-phase entry genes",
+          "G1/S checkpoint",
+          "DNA replication initiated",
+          "cell cycle progression",
+          "Rb inactivated by phosphorylation",
+          "cyclin-dependent kinase activity"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student predicts uncontrolled passage through G1/S checkpoint because nonfunctional Rb cannot sequester E2F, resulting in constitutively active E2F driving unregulated cell division and potential cancer.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "nonfunctional Rb",
+          "Rb cannot inhibit E2F",
+          "E2F constitutively active",
+          "uncontrolled cell division",
+          "bypass G1/S checkpoint",
+          "unregulated proliferation",
+          "tumor formation",
+          "cancer",
+          "continuous S-phase entry",
+          "checkpoint failure",
+          "loss of cell cycle control",
+          "proto-oncogene pathway dysregulation",
+          "tumor suppressor loss of function"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains caspases are proteases that execute apoptosis, and their loss prevents programmed cell death, allowing damaged cells to survive and potentially form tumors or cancer.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "caspases",
+          "caspase proteases",
+          "execute apoptosis",
+          "programmed cell death",
+          "cleave cellular proteins",
+          "apoptosis impaired",
+          "damaged cells survive",
+          "abnormal cells accumulate",
+          "tumor formation",
+          "cancer",
+          "loss of apoptosis",
+          "cell death pathway blocked",
+          "caspase activation cascade",
+          "failure to eliminate defective cells"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-22',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Population Genetics",
-    units: [7],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "A researcher studies a population of 500 pocket mice living on a dark lava flow in New Mexico. The surrounding desert has pale soil. Mice with dark fur (matching the lava) survive predation better on the lava flow, while pale mice survive better on the surrounding pale soil. DNA analysis reveals that dark coloration in these mice is caused by a single point mutation in the MC1R gene. The dark allele frequency is 0.7 on the lava flow and 0.05 on the pale soil.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Identify', question: "the evolutionary force most likely responsible for the high frequency of the dark allele on the lava flow. Justify your identification.", rubric: "Natural selection (specifically positive/directional selection). Justification: the dark allele provides a selective advantage (camouflage from predators) on the dark lava substrate, increasing survival and reproductive success of dark mice. This non-random differential survival drives the allele to high frequency in the lava population. Genetic drift alone would be unlikely to produce such a consistent correlation between allele frequency and habitat type." },
-    { label: 'b', command: 'Explain', question: "why the dark allele frequency is not 1.0 (fixed) on the lava flow, even after many generations of selection.", rubric: "Several factors could maintain polymorphism: (1) migration/gene flow from the surrounding pale soil population continuously introduces pale alleles; (2) heterozygote advantage; (3) selection may not be absolute (some pale mice survive); (4) mutation from dark to pale; (5) genetic drift in finite population. Most likely answer: gene flow from the pale soil population introduces pale alleles each generation, preventing fixation of the dark allele despite local selection." },
-    { label: 'c', command: 'Predict', question: "what would happen to dark allele frequency on the lava flow if the two populations (lava flow and pale soil) were completely isolated from each other for 10,000 generations.", rubric: "Dark allele frequency on the lava flow would increase, likely approaching fixation (approaching 1.0), because without gene flow introducing pale alleles, selection would continuously favor dark mice and remove pale alleles from the population. Meanwhile, on the pale soil, pale allele frequency would increase toward fixation. The two populations would diverge genetically." },
-    { label: 'd', command: 'Justify', question: "why the existence of the same MC1R mutation in multiple independently evolved dark mouse populations on different lava flows supports natural selection rather than genetic drift as the explanation for the dark allele's spread.", rubric: "Genetic drift is random and would cause different allele frequencies to change in different directions in different populations. If multiple independent populations all evolved dark coloration through the SAME mutation in the SAME gene, this convergence is extremely unlikely to be due to chance. The most parsimonious explanation is that natural selection consistently favors this specific mutation on dark lava substrates — the same adaptive solution (camouflage) independently arose or was selectively amplified in each lava population." }
+    "id": "bio_u4_frq022",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Cyclin-CDK Dysregulation, Checkpoint Failure, and Apoptotic Evasion in Cancer",
+    "units": [
+      4
     ],
-    rubric: [{ points: 1, description: "Natural selection (specifically positive/directional selection). Justification:", partLabel: 'a', skill: 'describe', keywords: ["directional selection", "natural selection", "allele frequency", "genetic drift", "population", "substrate", "habitat", "allele", "specifically positive/directional selection", "camouflage from predators"] }, { points: 1, description: "Several factors could maintain polymorphism: (1) migration/gene flow from the su", partLabel: 'b', skill: 'explain', keywords: ["genetic drift", "population", "gene flow", "mutation", "allele", "gene", "some pale mice survive"] }, { points: 1, description: "Dark allele frequency on the lava flow would increase, likely approaching fixati", partLabel: 'c', skill: 'predict', keywords: ["allele frequency", "population", "gene flow", "allele", "gene"] }, { points: 1, description: "Genetic drift is random and would cause different allele frequencies to change i", partLabel: 'd', skill: 'explain', keywords: ["natural selection", "genetic drift", "population", "mutation", "allele", "gene", "camouflage"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A researcher studying a novel tumor cell line discovers three simultaneous molecular abnormalities: (1) the gene encoding p21, a cyclin-dependent kinase inhibitor (CKI), carries a loss-of-function mutation; (2) cyclin D is constitutively overexpressed due to a gene amplification event; and (3) the mitochondrial pathway of apoptosis is blocked because Bcl-2 is overexpressed and all pro-apoptotic Bax proteins are sequestered. Under normal conditions, p21 is transcriptionally activated by p53 in response to DNA damage and binds to cyclin D-CDK4/6 complexes to halt progression through the G1/S checkpoint. Answer the following questions about these tumor cells.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain how the simultaneous loss of p21 function AND overexpression of cyclin D cooperatively drive these tumor cells through the G1/S checkpoint even in the presence of DNA damage.",
+        "rubric": "Earns 1 point for explaining that p21 normally inhibits the cyclin D-CDK4/6 complex (preventing Rb phosphorylation), AND that loss of p21 removes this brake while excess cyclin D further activates CDK4/6, leading to hyperphosphorylation of Rb, release of E2F transcription factors, and unchecked S-phase entry despite DNA damage."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict what would happen to the cell cycle progression of these tumor cells if a researcher introduced a drug that specifically stabilizes p27, another CKI that also inhibits cyclin D-CDK4/6 and cyclin E-CDK2 complexes. Justify your prediction using your knowledge of cyclin-CDK regulation.",
+        "rubric": "Earns 1 point for predicting that stabilizing p27 would inhibit both cyclin D-CDK4/6 and cyclin E-CDK2 complexes, preventing Rb hyperphosphorylation and blocking E2F-driven transcription, thereby arresting cells at the G1/S boundary and slowing or halting uncontrolled proliferation despite cyclin D overexpression."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain why the overexpression of Bcl-2 and sequestration of Bax prevents apoptosis in these tumor cells, and describe how this molecular change contributes to tumor survival even after extensive DNA damage accumulates.",
+        "rubric": "Earns 1 point for explaining that Bcl-2 is an anti-apoptotic protein that binds and sequesters pro-apoptotic Bax, preventing Bax from forming pores in the outer mitochondrial membrane, blocking cytochrome c release, preventing apoptosome formation and caspase activation, so cells with catastrophic DNA damage evade programmed cell death and continue to survive and proliferate."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that loss of p21 removes inhibition of the cyclin D-CDK4/6 complex AND that cyclin D overexpression further activates CDK4/6, resulting in Rb hyperphosphorylation, E2F release, and unchecked S-phase entry despite DNA damage at the G1/S checkpoint.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "p21",
+          "cyclin D-CDK4/6",
+          "cyclin D CDK4",
+          "CDK6",
+          "Rb phosphorylation",
+          "hyperphosphorylation of Rb",
+          "retinoblastoma protein",
+          "E2F",
+          "E2F transcription factor",
+          "E2F released",
+          "G1/S checkpoint",
+          "S phase entry",
+          "S-phase progression",
+          "CKI",
+          "cyclin-dependent kinase inhibitor",
+          "loss of inhibition",
+          "constitutively active CDK",
+          "CDK4 activated",
+          "CDK6 activated",
+          "DNA damage bypassed",
+          "checkpoint override",
+          "cooperative dysregulation"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student predicts that p27 stabilization inhibits both cyclin D-CDK4/6 and cyclin E-CDK2 complexes, prevents Rb phosphorylation and E2F-driven transcription, and arrests tumor cells at the G1/S boundary, counteracting the effect of cyclin D overexpression.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "p27",
+          "cyclin E-CDK2",
+          "cyclin E CDK2",
+          "CDK2 inhibited",
+          "Rb remains hypophosphorylated",
+          "hypophosphorylated Rb",
+          "E2F blocked",
+          "E2F repressed",
+          "G1 arrest",
+          "G1/S arrest",
+          "cell cycle arrest",
+          "CKI compensates",
+          "cyclin D overexpression offset",
+          "S phase blocked",
+          "proliferation halted",
+          "p27 stabilization",
+          "redundant CKI",
+          "CDK4/6 inhibited",
+          "downstream transcription blocked"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains that Bcl-2 sequesters Bax, preventing Bax pore formation in the outer mitochondrial membrane, blocking cytochrome c release, preventing apoptosome assembly and caspase cascade activation, allowing cells with severe DNA damage to evade apoptosis and survive.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "Bcl-2",
+          "Bax",
+          "anti-apoptotic",
+          "pro-apoptotic",
+          "outer mitochondrial membrane",
+          "mitochondrial pore",
+          "Bax pore formation blocked",
+          "cytochrome c",
+          "cytochrome c release blocked",
+          "apoptosome",
+          "apoptosome assembly prevented",
+          "caspase activation",
+          "caspase cascade",
+          "caspase-9",
+          "programmed cell death evaded",
+          "apoptosis blocked",
+          "intrinsic pathway",
+          "mitochondrial pathway of apoptosis",
+          "tumor survival",
+          "DNA damage accumulation tolerated",
+          "Bcl-2 overexpression"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-23',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Community Ecology",
-    units: [8],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "Sea otters in the Pacific kelp forest ecosystem prey almost exclusively on sea urchins. Sea urchins graze on kelp. When sea otters were hunted to near-extinction in the early 20th century, sea urchin populations exploded and devoured the kelp forests, creating barren stretches of ocean floor called 'urchin barrens.' When sea otters were reintroduced and protected, kelp forests slowly recovered.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Identify', question: "the ecological role of sea otters in this ecosystem and explain what this role reveals about community structure.", rubric: "Sea otters are a keystone species — a species that has a disproportionately large effect on community structure relative to its biomass/abundance. Their presence regulates sea urchin populations through predation, which in turn protects the kelp forest. Removing this single species restructures the entire community (urchin barrens vs. kelp forest), demonstrating top-down control of community structure." },
-    { label: 'b', command: 'Describe', question: "the trophic cascade triggered by sea otter removal and explain how it demonstrates that predators can regulate lower trophic levels.", rubric: "Trophic cascade: sea otter removal → sea urchin population explosion (no predation) → massive kelp grazing by urchins → kelp forest destruction → loss of habitat for fish and invertebrates dependent on kelp. This demonstrates that predators indirectly regulate primary producers through their effect on herbivores; the effect of removing a top predator propagates downward through trophic levels (top-down control)." },
-    { label: 'c', command: 'Predict', question: "how climate change-driven ocean warming, which stresses kelp (a cold-water species), might interact with otter presence or absence to affect kelp forest resilience.", rubric: "Climate warming would reduce kelp growth rate and health, making it more vulnerable to urchin grazing. In the presence of otters (urchins controlled), kelp might persist even under moderate climate stress because grazing pressure is low. In the absence of otters, climate warming compounds the urchin overgrazing — kelp faces simultaneous stressors (thermal stress AND overgrazing), reducing recovery potential and making urchin barrens more permanent. The two stressors are synergistic in the absence of otters." }
+    "id": "bio_u4_frq023",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Cell Cycle Regulation, Cyclin-CDK Complexes, and Cancer",
+    "units": [
+      4
     ],
-    rubric: [{ points: 1, description: "Sea otters are a keystone species — a species that has a disproportionately larg", partLabel: 'a', skill: 'describe', keywords: ["keystone species", "community", "predation", "biomass"] }, { points: 1, description: "Trophic cascade: sea otter removal → sea urchin population explosion (no predati", partLabel: 'b', skill: 'describe', keywords: ["trophic cascade", "population", "predation", "habitat", "no predation", "top-down control"] }, { points: 1, description: "Climate warming would reduce kelp growth rate and health, making it more vulnera", partLabel: 'c', skill: 'predict', keywords: ["urchins controlled", "thermal stress and overgrazing"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A research team is studying cell cycle regulation in human epithelial cells. They discover that cells from a tumor sample exhibit abnormally high levels of cyclin D protein throughout the entire cell cycle, even during phases when cyclin D is normally absent or degraded. The team also finds that the tumor cells have a mutated form of the Rb (retinoblastoma) protein that cannot be phosphorylated. Additionally, the tumor cells show resistance to apoptotic signals, and the G1/S checkpoint appears to be nonfunctional. Use your knowledge of cell cycle regulation, cyclin-CDK complexes, checkpoints, and apoptosis to answer the following questions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe the normal role of cyclin D and its associated cyclin-dependent kinase (CDK4/6) complex in regulating progression through the G1/S checkpoint.",
+        "rubric": "Student earns 1 point for describing that cyclin D binds to CDK4 or CDK6 to form an active cyclin-CDK complex, which phosphorylates the Rb (retinoblastoma) protein, releasing the transcription factor E2F so the cell can progress from G1 into S phase."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why tumor cells with a mutated Rb protein that cannot be phosphorylated would continue to divide uncontrollably, even if cyclin D levels were normal.",
+        "rubric": "Student earns 1 point for explaining that the mutated Rb protein cannot be phosphorylated, so it is constitutively inactive or cannot release E2F regardless of cyclin-CDK activity, meaning E2F-driven transcription of S-phase genes is always active, driving continuous cell division without a functional G1/S checkpoint."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Predict what would happen to a normal (non-tumor) cell if it were experimentally treated with a drug that completely inhibits CDK4/6 activity. Justify your prediction in terms of the cell cycle.",
+        "rubric": "Student earns 1 point for predicting that the cell would arrest in G1 phase (or fail to enter S phase), because without active CDK4/6, Rb cannot be phosphorylated, E2F remains bound and inhibited by Rb, and S-phase genes are not transcribed, halting cell cycle progression at the G1/S checkpoint."
+      },
+      {
+        "label": "d",
+        "command": "Explain",
+        "question": "Explain how the process of apoptosis normally serves as a safeguard against cancer, and describe one molecular mechanism by which tumor cells commonly evade apoptosis.",
+        "rubric": "Student earns 1 point for explaining that apoptosis eliminates cells with DNA damage or abnormal proliferation signals, preventing mutated cells from accumulating and forming tumors, AND describing a specific evasion mechanism such as overexpression of Bcl-2 (anti-apoptotic protein) that inhibits cytochrome c release from mitochondria, inactivation of p53 that prevents pro-apoptotic gene expression, or downregulation of caspase activity."
+      },
+      {
+        "label": "e",
+        "command": "Justify",
+        "question": "Scientists propose that loss of the spindle assembly checkpoint (SAC) in addition to the existing mutations in these tumor cells would accelerate tumor progression. Justify this claim using your knowledge of mitosis and cell cycle checkpoints.",
+        "rubric": "Student earns 1 point for justifying that the spindle assembly checkpoint normally ensures all chromosomes are properly attached to spindle fibers (kinetochore-microtubule attachment) before anaphase proceeds, and that loss of the SAC would allow cells to complete mitosis with unattached or misaligned chromosomes, leading to chromosomal instability, aneuploidy, and accelerated accumulation of mutations that drive further tumor progression."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly describes that cyclin D binds CDK4/6 to form an active complex that phosphorylates Rb, releasing E2F to drive G1-to-S phase transition.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "cyclin D",
+          "CDK4",
+          "CDK6",
+          "cyclin-CDK complex",
+          "phosphorylates Rb",
+          "retinoblastoma protein",
+          "E2F released",
+          "G1 to S phase",
+          "G1/S checkpoint",
+          "transcription factor E2F",
+          "cyclin-dependent kinase",
+          "hyperphosphorylation of Rb",
+          "S-phase gene transcription",
+          "cell cycle progression",
+          "growth factor signaling"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that a non-phosphorylatable Rb protein cannot release E2F, so E2F-driven S-phase gene transcription is constitutively active, bypassing the G1/S checkpoint and causing uncontrolled division.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "Rb cannot be phosphorylated",
+          "E2F always active",
+          "constitutively active",
+          "S-phase genes transcribed",
+          "uncontrolled cell division",
+          "G1/S checkpoint bypassed",
+          "loss of tumor suppressor",
+          "Rb tumor suppressor",
+          "E2F transcription factor",
+          "E2F remains free",
+          "loss of function mutation",
+          "checkpoint failure",
+          "hypophosphorylated Rb",
+          "cell cycle dysregulation",
+          "oncogenic proliferation"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student predicts cell arrest in G1 phase due to CDK4/6 inhibition preventing Rb phosphorylation and E2F release, halting cell cycle at the G1/S checkpoint.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "arrested in G1",
+          "G1 arrest",
+          "CDK4/6 inhibited",
+          "Rb not phosphorylated",
+          "E2F not released",
+          "S phase not entered",
+          "cell cycle halted",
+          "G1/S checkpoint blocked",
+          "cannot progress to S phase",
+          "hypophosphorylated Rb",
+          "E2F sequestered",
+          "CDK inhibitor",
+          "cell cycle arrest",
+          "quiescence",
+          "inhibition of kinase activity"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student explains apoptosis eliminates damaged or abnormally dividing cells to prevent tumor formation, AND correctly identifies a molecular evasion mechanism such as Bcl-2 overexpression, p53 inactivation, or caspase downregulation.",
+        "partLabel": "d",
+        "skill": "explain",
+        "keywords": [
+          "apoptosis eliminates damaged cells",
+          "programmed cell death",
+          "Bcl-2 overexpression",
+          "cytochrome c release blocked",
+          "p53 inactivation",
+          "caspase inhibition",
+          "anti-apoptotic proteins",
+          "mitochondrial apoptotic pathway",
+          "evade apoptosis",
+          "tumor suppressor p53",
+          "intrinsic pathway",
+          "pro-apoptotic Bax",
+          "apoptosome",
+          "DNA damage response",
+          "cancer cell survival"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student justifies that loss of the spindle assembly checkpoint allows mitosis to proceed with unattached chromosomes, causing aneuploidy and chromosomal instability that accelerates mutation accumulation and tumor progression.",
+        "partLabel": "e",
+        "skill": "justify",
+        "keywords": [
+          "spindle assembly checkpoint",
+          "kinetochore-microtubule attachment",
+          "unattached chromosomes",
+          "anaphase proceeds prematurely",
+          "aneuploidy",
+          "chromosomal instability",
+          "abnormal chromosome number",
+          "accumulation of mutations",
+          "accelerated tumor progression",
+          "SAC failure",
+          "Mad2 protein",
+          "APC/C activation",
+          "nondisjunction",
+          "mitotic spindle",
+          "chromosomal segregation errors"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-24',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Population Ecology",
-    units: [8],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "A wildlife biologist monitors a population of white-tailed deer in a 500 km² wildlife reserve over 10 years. The population grows rapidly from 200 deer to 800 deer in the first 5 years, then slows significantly, fluctuating between 750 and 850 deer in years 6-10. The estimated carrying capacity of the reserve is approximately 800 deer based on available food resources.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the difference between exponential and logistic population growth and identify which model best describes the deer population's growth pattern.", rubric: "Exponential growth: constant rate of increase, J-shaped curve, occurs when resources are unlimited (r = rmax). Logistic growth: growth rate declines as population approaches carrying capacity (K), S-shaped curve, accounts for density-dependent factors. The deer population shows logistic growth: rapid initial growth (far below K) followed by slowing and leveling off near K (~800)." },
-    { label: 'b', command: 'Explain', question: "why population growth slowed as the deer population approached 800 individuals.", rubric: "As population density increases, density-dependent limiting factors become more significant: food and water competition increases, intraspecific competition reduces individual access to resources, disease may spread more easily in dense populations, predation may increase as prey are more abundant. Per capita resource availability declines, reducing birth rates and/or increasing death rates until the population stabilizes near K." },
-    { label: 'c', command: 'Predict', question: "what would happen to the deer population if a drought reduced the carrying capacity of the reserve to 500 deer. Justify your prediction.", rubric: "Prediction: the deer population would decline from ~800 toward the new carrying capacity of 500. Justification: at 800 deer with a K of 500, the population far exceeds the environment's support capacity. Limited food/water resources would increase mortality and/or reduce reproduction. The population would decrease (negative growth rate) until it approaches the new, lower K. The decline rate would depend on how severe the resource limitation is." },
-    { label: 'd', command: 'Justify', question: "why eliminating the top predator (wolves) from the reserve would likely cause the deer population to overshoot the carrying capacity before declining, rather than simply maintaining a stable elevated population.", rubric: "Without wolf predation (a density-dependent mortality factor), deer survival and reproduction increase temporarily beyond K. Populations often overshoot K before resource depletion and disease catch up and drive the population back down — this lag in negative feedback is due to the time required for food resources to become critically depleted and for disease/starvation effects to increase mortality. The result is boom-bust oscillations rather than a stable higher population, because the density-dependent environmental feedback has a time lag." }
+    "id": "bio_u4_frq024",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Cell Cycle Dysregulation, Cyclin-CDK Complexes, and the Path to Cancer",
+    "units": [
+      4
     ],
-    rubric: [{ points: 1, description: "Exponential growth: constant rate of increase, J-shaped curve, occurs when resou", partLabel: 'a', skill: 'describe', keywords: ["exponential growth", "density-dependent", "carrying capacity", "logistic growth", "population", "far below k"] }, { points: 1, description: "As population density increases, density-dependent limiting factors become more", partLabel: 'b', skill: 'explain', keywords: ["intraspecific competition", "population density", "density-dependent", "competition", "population", "predation"] }, { points: 1, description: "Prediction: the deer population would decline from ~800 toward the new carrying", partLabel: 'c', skill: 'predict', keywords: ["carrying capacity", "population", "negative growth rate"] }, { points: 1, description: "Without wolf predation (a density-dependent mortality factor), deer survival and", partLabel: 'd', skill: 'explain', keywords: ["density-dependent", "negative feedback", "population", "predation", "a density-dependent mortality factor"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A research team is studying a newly identified mutation in a rapidly dividing human cell line. They discover two simultaneous defects: (1) the gene encoding p21, a CDK inhibitor protein (CKI), has been silenced via hypermethylation, and (2) the apoptotic pathway is impaired because cytochrome c is no longer released from the mitochondria in response to DNA damage signals. In healthy cells, p21 is transcriptionally activated by p53 in response to DNA damage and binds to cyclin E-CDK2 complexes to halt the cell cycle at the G1/S checkpoint. The cell line in question also expresses constitutively elevated levels of cyclin D. A separate experiment shows that when these mutant cells are treated with a drug that artificially activates caspase-9, approximately 60% of cells undergo apoptosis while 40% survive. Using your knowledge of cell signaling, signal transduction, second messengers, the cell cycle, cyclin-CDK regulation, apoptosis, checkpoints, and cancer, answer the following questions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain how the silencing of p21 disrupts the G1/S checkpoint in these mutant cells. In your answer, describe the normal molecular mechanism by which p21 halts cell cycle progression at this checkpoint.",
+        "rubric": "Earns 1 point for explaining that p21 normally binds to and inhibits the cyclin E-CDK2 complex, preventing CDK2 from phosphorylating Rb (retinoblastoma protein); when Rb remains hypophosphorylated it sequesters E2F transcription factors, blocking S-phase gene expression and halting cell cycle progression at G1/S. With p21 silenced, cyclin E-CDK2 remains active, Rb is hyperphosphorylated, E2F is released, and the cell proceeds into S phase despite DNA damage."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict the combined effect of p21 silencing AND constitutively elevated cyclin D levels on CDK4/6 activity and progression through G1. Justify your prediction using your knowledge of cyclin-CDK complexes and checkpoint regulation.",
+        "rubric": "Earns 1 point for predicting that constitutively elevated cyclin D drives hyperactivation of CDK4/6, which phosphorylates Rb independently of the G1/S checkpoint; combined with p21 silencing (loss of CDK inhibition), both the early-G1 and late-G1 brakes are removed, resulting in unrestrained, accelerated passage through G1 and unchecked entry into S phase, a hallmark of cancer cell proliferation."
+      },
+      {
+        "label": "c",
+        "command": "Describe",
+        "question": "Describe the normal intrinsic apoptotic pathway that should be triggered by DNA damage in these cells, beginning with the DNA damage signal and ending with the execution of apoptosis. Explain specifically where this pathway is blocked in the mutant cell line.",
+        "rubric": "Earns 1 point for describing that DNA damage activates p53, which upregulates pro-apoptotic proteins (e.g., Bax/Bak); these proteins permeabilize the outer mitochondrial membrane, releasing cytochrome c into the cytoplasm; cytochrome c binds Apaf-1 to form the apoptosome, which activates caspase-9 (initiator caspase), which then cleaves and activates executioner caspases (caspase-3/7), leading to apoptosis. The block in the mutant cells occurs at cytochrome c release from the mitochondria, preventing apoptosome formation and downstream caspase activation."
+      },
+      {
+        "label": "d",
+        "command": "Explain",
+        "question": "Explain why the drug that artificially activates caspase-9 can still induce apoptosis in 60% of the mutant cells even though cytochrome c release is blocked. Predict one molecular reason why 40% of cells survive the drug treatment.",
+        "rubric": "Earns 1 point for explaining that the drug bypasses the upstream mitochondrial block by directly activating caspase-9 downstream of the cytochrome c release step, thereby reconstituting the caspase cascade (caspase-9 → caspase-3/7 → apoptosis) without requiring cytochrome c or apoptosome formation. For the 40% survival, credit is awarded for predicting that those cells may overexpress IAPs (inhibitor of apoptosis proteins) such as XIAP or survivin that inhibit caspase-9 or caspase-3 activity, or that they overexpress anti-apoptotic Bcl-2/Bcl-xL that may sequester other pro-apoptotic factors, allowing survival despite caspase-9 activation."
+      },
+      {
+        "label": "e",
+        "command": "Justify",
+        "question": "Justify the claim that the combination of defects in this cell line (p21 silencing, elevated cyclin D, and impaired cytochrome c release) is sufficient to satisfy the multi-hit model of cancer development. In your answer, connect each defect to a specific hallmark of cancer.",
+        "rubric": "Earns 1 point for justifying all three components with specific cancer hallmarks: (1) p21 silencing removes tumor suppressor function (loss of cell cycle inhibition / evasion of growth suppressors), allowing uncontrolled proliferation; (2) constitutively elevated cyclin D acts as a proto-oncogene/oncogene providing sustained proliferative signaling; (3) impaired cytochrome c release disables the intrinsic apoptotic pathway, conferring resistance to apoptosis/programmed cell death. Together, these defects represent multiple independent mutations in both tumor suppressors and proto-oncogenes that collectively drive malignant transformation consistent with the multi-hit hypothesis."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that p21 normally inhibits cyclin E-CDK2, keeping Rb hypophosphorylated and sequestering E2F to block S-phase entry; silencing p21 removes this inhibition, allowing unchecked G1/S transition despite DNA damage.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "p21",
+          "cyclin E-CDK2",
+          "CDK2 inhibited",
+          "Rb hypophosphorylated",
+          "retinoblastoma protein",
+          "E2F sequestered",
+          "E2F transcription factor",
+          "G1/S checkpoint",
+          "CDK inhibitor",
+          "CKI",
+          "S phase entry blocked",
+          "DNA damage response",
+          "Rb phosphorylation",
+          "p21 silenced",
+          "hypermethylation",
+          "CDK inhibitor protein",
+          "unrestrained CDK2 activity"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student predicts that elevated cyclin D hyperactivates CDK4/6, phosphorylating Rb; combined with absent p21 inhibition of CDK2, both checkpoints within G1 are bypassed, resulting in unrestrained G1 progression and constitutive S-phase entry characteristic of cancer.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "cyclin D elevated",
+          "CDK4/6 hyperactivated",
+          "Rb phosphorylated",
+          "CDK4 CDK6 complex",
+          "G1 checkpoint bypassed",
+          "unrestrained proliferation",
+          "loss of CDK inhibition",
+          "constitutive S-phase entry",
+          "cancer hallmark",
+          "proto-oncogene activation",
+          "cyclin D overexpression",
+          "early G1 brake removed",
+          "late G1 brake removed",
+          "Rb inactivation",
+          "E2F released"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student describes the intrinsic apoptotic pathway: DNA damage → p53 activation → Bax/Bak upregulation → mitochondrial outer membrane permeabilization → cytochrome c release → apoptosome (Apaf-1/caspase-9) → executioner caspases → apoptosis; identifies that the block is at cytochrome c release.",
+        "partLabel": "c",
+        "skill": "describe",
+        "keywords": [
+          "p53 activation",
+          "Bax Bak upregulation",
+          "pro-apoptotic proteins",
+          "mitochondrial outer membrane permeabilization",
+          "cytochrome c release",
+          "apoptosome formation",
+          "Apaf-1",
+          "caspase-9 initiator caspase",
+          "executioner caspase",
+          "caspase-3 caspase-7",
+          "intrinsic apoptotic pathway",
+          "cytochrome c release blocked",
+          "programmed cell death",
+          "DNA damage signal",
+          "downstream caspase cascade"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student explains the drug bypasses the cytochrome c block by directly activating caspase-9 downstream, reconstituting the caspase cascade without apoptosome formation; predicts 40% survival due to IAP overexpression (XIAP/survivin) or anti-apoptotic Bcl-2/Bcl-xL activity inhibiting caspase function.",
+        "partLabel": "d",
+        "skill": "explain",
+        "keywords": [
+          "bypasses mitochondrial block",
+          "directly activates caspase-9",
+          "downstream of cytochrome c release",
+          "reconstitutes caspase cascade",
+          "caspase-3 activation",
+          "IAP inhibitor of apoptosis proteins",
+          "XIAP",
+          "survivin",
+          "Bcl-2 Bcl-xL anti-apoptotic",
+          "caspase-9 inhibited",
+          "resistance to apoptosis",
+          "apoptosome-independent activation",
+          "executioner caspase cleavage",
+          "heterogeneous cell population",
+          "caspase inhibition mechanism"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student justifies multi-hit model by connecting: p21 silencing = loss of tumor suppressor / evasion of growth suppressors; elevated cyclin D = oncogene / sustained proliferative signaling; impaired cytochrome c release = resistance to apoptosis/programmed cell death; all three independent mutations collectively drive malignant transformation.",
+        "partLabel": "e",
+        "skill": "justify",
+        "keywords": [
+          "multi-hit model of cancer",
+          "tumor suppressor loss",
+          "oncogene activation",
+          "sustained proliferative signaling",
+          "evasion of growth suppressors",
+          "resistance to apoptosis",
+          "malignant transformation",
+          "multiple independent mutations",
+          "hallmarks of cancer",
+          "proto-oncogene",
+          "cyclin D oncogene",
+          "p21 tumor suppressor",
+          "impaired cytochrome c release",
+          "uncontrolled cell proliferation",
+          "two-hit hypothesis",
+          "cancer driver mutations"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-25',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Ecosystem Ecology",
-    units: [8],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "The Hubbard Brook Experimental Forest in New Hampshire was the site of a classic experiment in which researchers clear-cut all trees in one watershed and applied herbicide to prevent regrowth. They monitored the stream water chemistry flowing out of this watershed compared to an undisturbed control watershed. In the deforested watershed, nitrate concentrations in stream water increased 40-fold and water outflow increased significantly.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why nitrate concentrations in stream water increased dramatically after deforestation.", rubric: "Trees and other plants actively take up nitrate from the soil as part of nutrient cycling. Decomposers continue mineralizing organic matter and nitrifying bacteria continue converting ammonium to nitrate in the soil, but without plants absorbing the nitrate, it accumulates in soil water and leaches into streams. Additionally, removing trees reduces transpiration (and water uptake), so more water flows through the soil carrying nutrients with it." },
-    { label: 'b', command: 'Describe', question: "the nitrogen cycle step that produces nitrate in soil from organic matter.", rubric: "Organic nitrogen in dead organisms/waste → ammonification by decomposers → ammonium (NH4+) → nitrification by nitrifying bacteria (e.g., Nitrosomonas, Nitrobacter) → nitrite (NO2-) → nitrate (NO3-). Award point for identifying nitrification as the process and nitrifying bacteria as the organisms responsible. Must include that organic matter is ultimately converted to nitrate." },
-    { label: 'c', command: 'Predict', question: "the likely consequences for the stream ecosystem downstream of the deforested watershed as nitrate levels rise 40-fold.", rubric: "Elevated nitrate causes algal blooms (eutrophication) in the receiving stream/lake. As algae die and decompose, microbial decomposition consumes dissolved oxygen (hypoxia/anoxia). Fish and other aquatic organisms sensitive to low oxygen die or emigrate. The stream food web is disrupted. Accept any biologically sound prediction connecting high nitrate to eutrophication and its downstream effects." },
-    { label: 'd', command: 'Justify', question: "why the control (undisturbed) watershed showed no significant increase in stream nitrate, even though decomposition and nitrification occur continuously in its soil.", rubric: "In an intact forest ecosystem, nitrogen cycling is tightly coupled: plants absorb nitrate as fast as it is produced (tight nutrient retention). Trees, understory plants, and soil microbes form an efficient recycling system where most nutrients are captured before reaching streams. The demand for nitrate by plants and microbes matches or exceeds the rate of nitrification, so nitrate does not accumulate and leach. This demonstrates that intact vegetation is essential for nutrient retention in watersheds." }
+    "id": "bio_u5_frq025",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Monohybrid Cross and Dominant/Recessive Inheritance",
+    "units": [
+      5
     ],
-    rubric: [{ points: 1, description: "Trees and other plants actively take up nitrate from the soil as part of nutrien", partLabel: 'a', skill: 'explain', keywords: ["nutrient cycling", "transpiration"] }, { points: 1, description: "Organic nitrogen in dead organisms/waste → ammonification by decomposers → ammon", partLabel: 'b', skill: 'describe', keywords: ["that", "nitrification as the process", "nitrifying bacteria as the", "no2-", "no3-"] }, { points: 1, description: "Elevated nitrate causes algal blooms (eutrophication) in the receiving stream/la", partLabel: 'c', skill: 'predict', keywords: ["food web", "eutrophication", "hypoxia/anoxia"] }, { points: 1, description: "In an intact forest ecosystem, nitrogen cycling is tightly coupled: plants absor", partLabel: 'd', skill: 'explain', keywords: ["ecosystem", "tight nutrient retention"] }],
-    sampleSolution: null
+    "difficulty": "easy",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "In pea plants, the allele for tall height (T) is dominant over the allele for short height (t). Two heterozygous tall pea plants are crossed with each other (Tt × Tt).",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Predict",
+        "question": "Predict the expected genotypic ratio of the offspring produced from the cross Tt × Tt.",
+        "rubric": "1 point for correctly stating the genotypic ratio: 1 TT : 2 Tt : 1 tt."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict the expected phenotypic ratio of the offspring produced from the cross Tt × Tt.",
+        "rubric": "1 point for correctly stating the phenotypic ratio: 3 tall : 1 short, or 3:1 ratio."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain why the tall phenotype appears more frequently than the short phenotype in the offspring of this cross.",
+        "rubric": "1 point for explaining that tall (T) is dominant over short (t), so any plant with at least one T allele (TT or Tt) expresses the tall phenotype, while only homozygous recessive (tt) plants express the short phenotype."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly predicts the genotypic ratio of 1 TT : 2 Tt : 1 tt from the Tt × Tt cross.",
+        "partLabel": "a",
+        "skill": "predict",
+        "keywords": [
+          "1 TT",
+          "2 Tt",
+          "1 tt",
+          "genotypic ratio",
+          "1:2:1",
+          "homozygous dominant",
+          "heterozygous",
+          "homozygous recessive",
+          "TT Tt tt",
+          "Punnett square",
+          "monohybrid cross",
+          "allele combinations",
+          "25% TT",
+          "50% Tt",
+          "25% tt"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student correctly predicts the phenotypic ratio of 3 tall : 1 short (3:1) from the Tt × Tt cross.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "3:1",
+          "3 tall",
+          "1 short",
+          "phenotypic ratio",
+          "three tall one short",
+          "75% tall",
+          "25% short",
+          "three to one",
+          "phenotype ratio",
+          "monohybrid ratio",
+          "dominant phenotype",
+          "recessive phenotype",
+          "tall phenotype",
+          "short phenotype"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains that T is dominant over t, so both TT and Tt genotypes express the tall phenotype, while only tt expresses short, making tall more frequent.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "dominant",
+          "dominant allele",
+          "T is dominant",
+          "at least one T allele",
+          "TT and Tt are tall",
+          "tt is short",
+          "homozygous recessive",
+          "masks recessive",
+          "recessive allele masked",
+          "dominant masks recessive",
+          "heterozygous expresses dominant",
+          "recessive only expressed when homozygous",
+          "dominance relationship",
+          "three genotypes tall"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-26',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Biodiversity and Conservation",
-    units: [8],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "The IUCN Red List classifies species by extinction risk. The vaquita porpoise (Phocoena sinus), found only in the northern Gulf of California, had an estimated population of 10-22 individuals in 2019. The primary threat is bycatch in illegal gillnets used to catch the totoaba fish. Conservation efforts include net removal, enforcement patrols, and captive breeding attempts.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why a population of 10-22 individuals faces extinction risk beyond the immediate threat of bycatch.", rubric: "At such small population sizes, the vaquita faces: (1) genetic factors — inbreeding depression (mating between relatives increases homozygosity for deleterious alleles, reducing fitness), loss of genetic diversity reduces adaptive potential; (2) demographic stochasticity — random variation in birth/death rates can by chance eliminate the entire population; (3) Allee effects — at very low densities, individuals may have difficulty finding mates, reducing reproduction; (4) environmental stochasticity — a single catastrophic event (disease, storm) could eliminate the entire population. Any two accepted." },
-    { label: 'b', command: 'Describe', question: "the concept of a minimum viable population (MVP) and explain why the vaquita population is well below any realistic MVP estimate.", rubric: "MVP is the smallest population size that has a high probability (typically >95%) of surviving for a given time period (usually 100 years) in the face of genetic, demographic, and environmental stochasticity. Most estimates for vertebrates place MVP at 500-5,000 individuals. With 10-22 individuals, the vaquita is orders of magnitude below any MVP threshold — even if bycatch were eliminated today, the genetic and demographic forces described above make recovery extremely challenging and extinction likely." },
-    { label: 'c', command: 'Predict', question: "whether captive breeding followed by reintroduction is likely to succeed for the vaquita. Justify your prediction.", rubric: "Captive breeding success is uncertain-to-unlikely. Reasons against: (1) vaquita are notoriously stress-sensitive — the one captive breeding attempt (2017) had to be abandoned when the captured female showed severe stress responses; (2) captive breeding of wild-caught porpoises has essentially never succeeded in establishing self-sustaining captive populations; (3) the cause of decline (illegal gillnets) remains; reintroduced animals would face the same threat. Reasons for: any captive population preserves genetic material. Most biologists consider wild habitat protection as the only realistic option. Accept either position with sound reasoning." },
-    { label: 'd', command: 'Justify', question: "why eliminating bycatch alone, even if immediately 100% successful, may be insufficient to save the vaquita from extinction.", rubric: "Even with zero bycatch, the population is so small that inbreeding depression, genetic drift, demographic stochasticity, and Allee effects may drive it to extinction. A population of 10-22 has extremely limited genetic diversity — accumulated deleterious alleles from inbreeding may already reduce survival and reproductive rates below replacement. Additionally, recovery to a viable population size takes many generations, during which chance events could eliminate the remaining individuals. Eliminating the threat is necessary but may not be sufficient to overcome the extinction debt already incurred." }
+    "id": "bio_u5_frq026",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Crossing Over and Genetic Recombination During Meiosis",
+    "units": [
+      5
     ],
-    rubric: [{ points: 1, description: "At such small population sizes, the vaquita faces: (1) genetic factors — inbreed", partLabel: 'a', skill: 'explain', keywords: ["population", "variation", "fitness"] }, { points: 1, description: "MVP is the smallest population size that has a high probability (typically >95%)", partLabel: 'b', skill: 'describe', keywords: ["probability", "population", "usually 100 years"] }, { points: 1, description: "Captive breeding success is uncertain-to-unlikely. Reasons against: (1) vaquita", partLabel: 'c', skill: 'predict', keywords: ["population", "habitat", "illegal gillnets"] }, { points: 1, description: "Even with zero bycatch, the population is so small that inbreeding depression, g", partLabel: 'd', skill: 'explain', keywords: ["genetic drift", "population"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "During meiosis I, homologous chromosomes pair up and crossing over can occur. A geneticist is studying two genes, A and B, that are located on the same chromosome (linked). Gene A has alleles A (dominant) and a (recessive), and gene B has alleles B (dominant) and b (recessive). A parent organism has the genotype AB/ab (alleles A and B are on one homolog; alleles a and b are on the other homolog). Without crossing over, only parental-type gametes (AB and ab) would be produced. However, crossing over between these two loci produces recombinant gametes.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe the physical event of crossing over that occurs during meiosis I and explain at what stage it takes place.",
+        "rubric": "Earns 1 point for describing crossing over as the exchange of homologous segments between non-sister chromatids of homologous chromosomes, occurring during prophase I (specifically at the tetrad/bivalent stage), forming chiasmata."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict the four types of gametes that can be produced by the AB/ab parent when crossing over occurs between the A and B loci, and classify each as parental-type or recombinant-type.",
+        "rubric": "Earns 1 point for correctly identifying all four gamete types: AB and ab as parental-type gametes, and Ab and aB as recombinant-type gametes."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain how crossing over contributes to genetic variation in a population, referencing what would happen to variation if crossing over never occurred in linked genes.",
+        "rubric": "Earns 1 point for explaining that crossing over generates new combinations of alleles (recombinant chromosomes), increasing genetic diversity; without crossing over, linked alleles would always be inherited together, reducing genetic variation in offspring."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student describes crossing over as the exchange of segments between non-sister chromatids of homologous chromosomes during prophase I, with formation of chiasmata at the tetrad or bivalent stage.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "crossing over",
+          "non-sister chromatids",
+          "homologous chromosomes",
+          "prophase I",
+          "chiasmata",
+          "chiasma",
+          "tetrad",
+          "bivalent",
+          "exchange of segments",
+          "recombination",
+          "synaptonemal complex",
+          "homologs pair",
+          "breakage and rejoining",
+          "synapsis",
+          "loci"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student correctly identifies AB and ab as parental-type gametes and Ab and aB as recombinant-type gametes, listing all four gamete classes.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "AB gamete",
+          "ab gamete",
+          "Ab gamete",
+          "aB gamete",
+          "parental type",
+          "recombinant type",
+          "parental gametes",
+          "recombinant gametes",
+          "four gamete types",
+          "Ab and aB recombinants",
+          "linked loci",
+          "new allele combinations",
+          "non-parental combinations"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains that crossing over produces new allele combinations on chromosomes, increasing genetic variation; without crossing over, linked alleles would remain together reducing diversity.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "new allele combinations",
+          "genetic variation",
+          "genetic diversity",
+          "linked alleles",
+          "always inherited together",
+          "recombinant chromosomes",
+          "shuffling of alleles",
+          "linkage",
+          "without crossing over variation reduced",
+          "independent assortment",
+          "allele combinations fixed",
+          "heritable variation",
+          "novel genotypes"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-27',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Water and Life",
-    units: [1],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 2,
-    autoGraded: true,
-    prompt: "Water has several unusual properties that make it essential for life. A biologist studying desert organisms notes that animals living in hot environments must regulate their body temperature and prevent water loss simultaneously.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "two properties of water that are directly relevant to temperature regulation in animals.", rubric: "Award one point each for any two: (1) High specific heat capacity — water resists temperature change, buffering body temperature; (2) High heat of vaporization — evaporation of water (sweating, panting) removes large amounts of heat from the body, cooling it; (3) Cohesion/surface tension — less directly relevant to temperature but accept if student connects to fluid movement. Must get two specific properties with connection to temperature regulation." },
-    { label: 'b', command: 'Explain', question: "why evaporative cooling (sweating) is an effective mechanism for thermoregulation in hot environments.", rubric: "Water has a very high heat of vaporization — it takes a large amount of energy (heat) to convert liquid water to vapor. When sweat evaporates from the skin surface, it carries this heat away from the body, cooling the skin and the blood flowing beneath it. The cooling effect is proportional to the amount of water evaporated." }
+    "id": "bio_u5_frq027",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Codominance and Predicting Offspring Phenotypes",
+    "units": [
+      5
     ],
-    rubric: [{ points: 1, description: "Award one point each for any two: (1) High specific heat capacity — water resist", partLabel: 'a', skill: 'describe', keywords: ["specific heat", "cohesion"] }, { points: 1, description: "Water has a very high heat of vaporization — it takes a large amount of energy (", partLabel: 'b', skill: 'explain', keywords: ["heat"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "In a population of horses, coat color is controlled by a single gene with two alleles that show codominance. The allele C^R produces red coat color and the allele C^W produces white coat color. Horses with the genotype C^R C^W have a roan coat, in which both red and white hairs are present. A red horse (C^R C^R) is crossed with a roan horse (C^R C^W).",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Calculate",
+        "question": "Calculate the expected genotypic and phenotypic ratios of the offspring from a cross between a red horse (C^R C^R) and a roan horse (C^R C^W). Show your work using a Punnett square or equivalent method.",
+        "rubric": "Earns 1 point for correctly identifying the offspring genotypic ratio as 1 C^R C^R : 1 C^R C^W (or 50% C^R C^R and 50% C^R C^W) and the phenotypic ratio as 1 red : 1 roan (50% red, 50% roan), with no white offspring."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why codominance differs from incomplete dominance, using the horse coat color example and a contrasting example of incomplete dominance to support your answer.",
+        "rubric": "Earns 1 point for explaining that in codominance both alleles are fully expressed simultaneously (both red and white hairs visible separately), whereas in incomplete dominance the phenotype is a blend of both alleles (e.g., red and white producing pink), referencing that codominance shows distinct phenotypes of both alleles rather than an intermediate blended phenotype."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Predict whether it is possible for two roan horses to produce a white offspring. Justify your prediction by describing the expected offspring phenotypic ratio from a roan x roan cross.",
+        "rubric": "Earns 1 point for predicting yes, white offspring are possible, and correctly stating that a roan x roan cross (C^R C^W x C^R C^W) produces a 1 red : 2 roan : 1 white phenotypic ratio (or 25% C^R C^R : 50% C^R C^W : 25% C^W C^W), with C^W C^W being white."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly calculates 1:1 genotypic ratio of C^R C^R to C^R C^W and 1:1 phenotypic ratio of red to roan, with no white offspring produced.",
+        "partLabel": "a",
+        "skill": "calculate",
+        "keywords": [
+          "1:1 ratio",
+          "50% red",
+          "50% roan",
+          "C^R C^R",
+          "C^R C^W",
+          "no white offspring",
+          "Punnett square",
+          "genotypic ratio",
+          "phenotypic ratio",
+          "one red one roan",
+          "heterozygous roan",
+          "homozygous red",
+          "monohybrid cross"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that codominance involves both alleles being fully and simultaneously expressed as distinct phenotypes, contrasted with incomplete dominance which produces a blended intermediate phenotype.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "codominance",
+          "both alleles fully expressed",
+          "simultaneously expressed",
+          "distinct phenotypes",
+          "incomplete dominance",
+          "blended phenotype",
+          "intermediate phenotype",
+          "neither allele dominant",
+          "red and white hairs separate",
+          "pink as blend",
+          "heterozygote phenotype",
+          "allele expression",
+          "snapdragon"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student predicts yes, white offspring are possible from a roan x roan cross, and correctly identifies the 1 red : 2 roan : 1 white phenotypic ratio with C^W C^W genotype producing white coat.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "yes white possible",
+          "roan cross roan",
+          "1:2:1 ratio",
+          "25% white",
+          "C^W C^W",
+          "homozygous white",
+          "1 red 2 roan 1 white",
+          "25% C^R C^R",
+          "50% C^R C^W",
+          "white offspring possible",
+          "C^R C^W x C^R C^W",
+          "codominant cross",
+          "Punnett square"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-28',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Feedback Mechanisms",
-    units: [4],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 2,
-    autoGraded: true,
-    prompt: "Blood glucose regulation involves two hormones produced by the pancreas: insulin (produced by beta cells) and glucagon (produced by alpha cells). When blood glucose rises after a meal, insulin is released and stimulates cells to take up glucose, lowering blood glucose. When blood glucose falls, glucagon is released and stimulates the liver to release glucose into the blood.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Identify', question: "the type of feedback mechanism used in blood glucose regulation and justify your identification.", rubric: "Negative feedback. Justification: each hormone's effect opposes the change that triggered its release — insulin is released when glucose is high and acts to lower glucose; glucagon is released when glucose is low and acts to raise glucose. The response counteracts and reverses the original deviation from the set point (homeostasis). Must name negative feedback AND provide correct reasoning." },
-    { label: 'b', command: 'Predict', question: "the consequence for blood glucose regulation in a person whose pancreatic beta cells are destroyed by an autoimmune attack (Type 1 diabetes).", rubric: "Without beta cells, insulin cannot be produced. After eating, blood glucose will rise (hyperglycemia) and cannot be brought back down by the body's normal mechanism. Cells throughout the body cannot efficiently take up glucose without insulin signaling. Left untreated, persistently high blood glucose causes organ damage. The negative feedback loop is broken — the corrective response (insulin) is absent." }
+    "id": "bio_u5_frq028",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Epistasis and Coat Color: Multi-Gene Interaction Analysis",
+    "units": [
+      5
     ],
-    rubric: [{ points: 1, description: "Negative feedback. Justification: each hormone's effect opposes the change that", partLabel: 'a', skill: 'describe', keywords: ["negative feedback", "homeostasis", "insulin"] }, { points: 1, description: "Without beta cells, insulin cannot be produced. After eating, blood glucose will", partLabel: 'b', skill: 'predict', keywords: ["negative feedback", "feedback loop", "insulin", "hyperglycemia"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "In Labrador retrievers, coat color is controlled by two independently assorting gene loci. The E gene controls whether pigment is deposited in the fur: dogs with at least one dominant E allele deposit pigment, while dogs homozygous recessive (ee) are yellow regardless of the other gene. The B gene controls pigment color: dogs with at least one B allele produce black pigment, while bb dogs produce brown (chocolate) pigment. A cross is performed between two black Labrador retrievers with genotypes BbEe × BbEe. A student claims that because both parents are black, all offspring will also be black.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain the type of gene interaction occurring between the B and E loci in this example, and describe how the ee genotype masks the expression of the B gene.",
+        "rubric": "Earns 1 point for identifying the interaction as epistasis (specifically recessive epistasis), and explaining that the homozygous recessive ee genotype prevents pigment deposition entirely, masking/suppressing the expression of the B locus so that the coat is yellow regardless of whether the dog carries B or b alleles."
+      },
+      {
+        "label": "b",
+        "command": "Calculate",
+        "question": "Using a dihybrid cross (BbEe × BbEe), calculate the expected phenotypic ratio of black : chocolate (brown) : yellow offspring. Show your reasoning.",
+        "rubric": "Earns 1 point for correctly calculating a 9 black : 3 chocolate : 4 yellow ratio. Student must demonstrate that 9/16 are B_E_ (black), 3/16 are bbE_ (chocolate), and 4/16 are __ee (yellow, combining 1/16 BBee + 2/16 Bbee + 1/16 bbee)."
+      },
+      {
+        "label": "c",
+        "command": "Justify",
+        "question": "Justify why the student's claim that all offspring will be black is incorrect, referencing both epistasis and independent assortment in your response.",
+        "rubric": "Earns 1 point for explaining that independent assortment of the B and E loci produces offspring with new genotypic combinations, including ee homozygotes, and that recessive epistasis at the E locus causes 4/16 (25%) of offspring to be yellow and 3/16 to be chocolate, demonstrating that phenotypes other than black are expected."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student identifies the gene interaction as recessive epistasis and explains that the ee genotype suppresses/masks expression of the B locus, resulting in yellow coat regardless of B allele presence.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "epistasis",
+          "recessive epistasis",
+          "ee masks B locus",
+          "homozygous recessive ee",
+          "suppresses B gene expression",
+          "pigment deposition blocked",
+          "yellow regardless of B allele",
+          "gene interaction",
+          "masks phenotypic expression",
+          "epistatic gene hides hypostatic",
+          "E locus epistatic to B locus",
+          "no pigment deposited in fur",
+          "hypostatic gene",
+          "two-gene interaction"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student correctly calculates 9 black : 3 chocolate : 4 yellow from the BbEe × BbEe dihybrid cross, identifying that 9/16 are B_E_, 3/16 are bbE_, and 4/16 carry ee.",
+        "partLabel": "b",
+        "skill": "calculate",
+        "keywords": [
+          "9:3:4 ratio",
+          "9 black 3 chocolate 4 yellow",
+          "9/16 B_E_ black",
+          "3/16 bbE_ chocolate",
+          "4/16 homozygous ee yellow",
+          "dihybrid cross BbEe",
+          "modified 9:3:3:1 ratio",
+          "epistatic ratio",
+          "BBee Bbee bbee all yellow",
+          "Punnett square dihybrid",
+          "recessive epistasis phenotypic ratio",
+          "four sixteenths yellow"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student justifies that the claim is incorrect by referencing independent assortment generating ee offspring and recessive epistasis causing yellow and chocolate phenotypes, so not all offspring are black.",
+        "partLabel": "c",
+        "skill": "justify",
+        "keywords": [
+          "independent assortment",
+          "new allele combinations produced",
+          "ee offspring generated",
+          "recessive epistasis at E locus",
+          "4/16 yellow offspring",
+          "3/16 chocolate offspring",
+          "phenotypic diversity among offspring",
+          "not all offspring black",
+          "heterozygous parents BbEe",
+          "25% yellow from ee genotype",
+          "law of independent assortment",
+          "segregation of B and E alleles independently",
+          "chocolate brown phenotype expressed"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-29',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Epigenetics",
-    units: [6],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Monozygotic (identical) twins begin life with identical DNA sequences. However, studies comparing elderly identical twins show increasing divergence in their epigenomes (DNA methylation patterns, histone modification patterns) with age, particularly in twins who have lived very different lifestyles. Some twin pairs become discordant for diseases such as cancer, schizophrenia, or rheumatoid arthritis despite having identical genomes.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "two mechanisms of epigenetic gene regulation that do not involve changes to the DNA sequence.", rubric: "Award one point each for any two: (1) DNA methylation — addition of methyl groups (by DNA methyltransferases) to cytosines (usually at CpG sites) typically silences gene expression; (2) histone modification — acetylation (loosens chromatin, activates transcription), methylation, phosphorylation of histone tails alter chromatin structure and gene accessibility; (3) chromatin remodeling — repositioning nucleosomes to expose or hide promoters; (4) non-coding RNA regulation (miRNA, siRNA, lncRNA). Must be clearly epigenetic (no DNA sequence change)." },
-    { label: 'b', command: 'Explain', question: "why epigenetic differences between identical twins increase with age, particularly in twins with different lifestyles.", rubric: "Epigenetic marks are not perfectly copied during DNA replication and cell division — stochastic errors in copying accumulate over time. Additionally, environmental factors (diet, smoking, exercise, stress, exposure to chemicals) actively influence epigenetic patterns by altering enzyme activities that add/remove methyl groups or histone marks. Different lifestyles expose twins to different epigenetic-modifying environments, while stochastic copying errors accumulate independently in each twin's cells. Over decades, these differences compound." },
-    { label: 'c', command: 'Predict', question: "whether epigenetic differences between twins could explain disease discordance, or whether additional somatic mutations are required. Justify your prediction.", rubric: "Epigenetic differences alone could plausibly explain some disease discordance for conditions where gene expression level (rather than sequence) is the determining factor — e.g., differential silencing of tumor suppressors via methylation, altered immune gene expression leading to autoimmune disease. However, for many cancers, somatic mutations in proto-oncogenes or tumor suppressors are also required. Award point for acknowledging both possibilities: epigenetic changes can contribute to disease discordance (especially for complex traits) but somatic mutations are additionally necessary for most cancers. A clear, well-reasoned argument for either possibility is acceptable." },
-    { label: 'd', command: 'Justify', question: "why epigenetic inheritance is considered a form of inheritance even though it does not involve changes to the DNA sequence.", rubric: "Epigenetic marks are heritable through cell divisions — when a cell divides, maintenance methyltransferases copy methylation patterns onto daughter strands, and histone modification patterns are partially propagated to daughter chromatin. Thus, a gene that is silenced in a parent cell will be silenced in its daughter cells (mitotic inheritance). Some epigenetic marks are also transmitted through the germline (transgenerational epigenetic inheritance), though this is debated in mammals. The key is that information about gene expression state is faithfully copied and transmitted independently of DNA sequence." }
+    "id": "bio_u5_frq029",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Dihybrid Cross, Independent Assortment, and Codominance in Pea Plants",
+    "units": [
+      5
     ],
-    rubric: [{ points: 1, description: "Award one point each for any two: (1) DNA methylation — addition of methyl group", partLabel: 'a', skill: 'describe', keywords: ["histone modification", "chromatin remodeling", "phosphorylation", "dna methylation", "gene expression", "transcription", "chromatin", "histone", "gene", "by dna methyltransferases"] }, { points: 1, description: "Epigenetic marks are not perfectly copied during DNA replication and cell divisi", partLabel: 'b', skill: 'explain', keywords: ["dna replication", "histone", "enzyme"] }, { points: 1, description: "Epigenetic differences alone could plausibly explain some disease discordance fo", partLabel: 'c', skill: 'predict', keywords: ["gene expression", "autoimmune", "gene", "rather than sequence", "especially for complex traits"] }, { points: 1, description: "Epigenetic marks are heritable through cell divisions — when a cell divides, mai", partLabel: 'd', skill: 'explain', keywords: ["histone modification", "gene expression", "chromatin", "histone", "gene", "mitotic inheritance", "transgenerational epigenetic inheritance"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A genetics student is investigating two traits in pea plants: seed color and seed texture. Seed color exhibits codominance, where the alleles Y (yellow) and G (green) are both expressed when present together, producing yellow-green (YG) seeds. Seed texture is controlled by a separate, independently assorting gene, where smooth (S) is dominant over wrinkled (s). A plant that is heterozygous for both traits - specifically a YGSs plant - is crossed with a YGss plant. The student wants to predict offspring phenotype ratios, understand the genetic basis of the observed variation, and connect the results to core principles of heredity.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain why seed color in this scenario is an example of codominance rather than incomplete dominance. In your response, distinguish between the two patterns of inheritance.",
+        "rubric": "Earns 1 point for correctly explaining that in codominance both alleles (Y and G) are fully and simultaneously expressed as distinct phenotypes (yellow-green seeds show both colors), whereas in incomplete dominance a blended or intermediate phenotype results (e.g., a single mixed color rather than two distinguishable colors). Student must contrast the two concepts with reference to allele expression."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict the genotypic ratio of offspring produced from the cross YGSs × YGss. Show your work using a Punnett square or systematic gamete listing.",
+        "rubric": "Earns 1 point for correctly identifying the gamete classes from each parent (YGSs parent produces YGS, YGs, GGS, GGs gametes; YGss parent produces YGs, GGs gametes) and arriving at the correct genotypic classes in a 1:1:1:1 ratio: YGSs, YGss, GGSs, GGss. Accept any equivalent notation showing four distinct genotypic outcomes with correct allele combinations."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Based on the cross YGSs × YGss, predict the phenotypic ratio of the offspring. Identify all phenotypic classes and their expected proportions.",
+        "rubric": "Earns 1 point for correctly stating all four phenotypic classes with a 1:1:1:1 ratio: yellow-green smooth, yellow-green wrinkled, green smooth, and green wrinkled (each 1/4 or 25%). Student must correctly apply codominance (YG = yellow-green, GG = green) and dominance for texture (Ss = smooth, ss = wrinkled) to arrive at all four classes."
+      },
+      {
+        "label": "d",
+        "command": "Explain",
+        "question": "Explain how the principle of independent assortment accounts for the variety of offspring phenotypes observed in this cross. Reference what occurs during meiosis to support your answer.",
+        "rubric": "Earns 1 point for correctly explaining that independent assortment occurs during meiosis I when homologous chromosome pairs align randomly at the metaphase plate, causing the seed color gene and seed texture gene (located on different chromosomes) to be distributed into gametes independently of one another, generating all possible allele combinations in the gametes and thus multiple phenotypic classes in offspring."
+      },
+      {
+        "label": "e",
+        "command": "Justify",
+        "question": "A student claims that if crossing over occurred between the seed color locus and the seed texture locus during meiosis, the phenotypic ratio from this cross would change significantly. Justify whether this claim is correct or incorrect.",
+        "rubric": "Earns 1 point for correctly identifying the claim as incorrect and justifying that crossing over affects phenotypic ratios only when the two genes are linked on the same chromosome; because the seed color and seed texture genes are on different chromosomes (independently assorting), crossing over between them is not applicable, and the 1:1:1:1 phenotypic ratio would not change. Accept answers that note crossing over increases genetic recombination but does not alter independent assortment ratios for unlinked genes."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly distinguishes codominance from incomplete dominance by explaining that codominance results in simultaneous full expression of both alleles as distinct phenotypes (yellow-green shows both yellow and green), while incomplete dominance produces a blended intermediate phenotype.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "codominance",
+          "both alleles expressed",
+          "simultaneously expressed",
+          "distinct phenotypes",
+          "incomplete dominance",
+          "blended phenotype",
+          "intermediate phenotype",
+          "yellow-green",
+          "fully expressed",
+          "two colors visible",
+          "neither allele masked",
+          "allele expression pattern",
+          "phenotypic blend"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student correctly identifies gametes from each parent and produces the four genotypic classes in a 1:1:1:1 ratio: YGSs, YGss, GGSs, GGss from the cross YGSs × YGss.",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "YGSs",
+          "YGss",
+          "GGSs",
+          "GGss",
+          "1:1:1:1 genotypic ratio",
+          "gametes",
+          "Punnett square",
+          "four genotypic classes",
+          "allele combinations",
+          "genotype ratio",
+          "gamete segregation",
+          "heterozygous parent",
+          "dihybrid cross"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student correctly identifies all four phenotypic classes - yellow-green smooth, yellow-green wrinkled, green smooth, green wrinkled - each at 1/4 (25%) frequency, applying codominance for color and dominance for texture correctly.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "yellow-green smooth",
+          "yellow-green wrinkled",
+          "green smooth",
+          "green wrinkled",
+          "1:1:1:1 phenotypic ratio",
+          "25% each",
+          "codominance applied",
+          "dominant smooth",
+          "wrinkled recessive",
+          "four phenotypic classes",
+          "phenotype prediction",
+          "Ss smooth phenotype",
+          "ss wrinkled phenotype"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student correctly explains that independent assortment during meiosis I, when homologous chromosomes orient randomly at the metaphase plate, causes the two genes on different chromosomes to segregate into gametes independently, producing all possible allele combinations and multiple phenotypic classes.",
+        "partLabel": "d",
+        "skill": "explain",
+        "keywords": [
+          "independent assortment",
+          "meiosis I",
+          "metaphase plate",
+          "homologous chromosomes",
+          "random orientation",
+          "different chromosomes",
+          "allele combinations",
+          "gamete variation",
+          "Law of Independent Assortment",
+          "segregate independently",
+          "nonhomologous chromosomes",
+          "random alignment",
+          "phenotypic diversity"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student correctly identifies the claim as incorrect and justifies that crossing over only alters phenotypic ratios for linked genes on the same chromosome; because the two genes are on different (non-homologous) chromosomes, crossing over between them is not applicable and the 1:1:1:1 ratio remains unchanged.",
+        "partLabel": "e",
+        "skill": "justify",
+        "keywords": [
+          "claim incorrect",
+          "linked genes",
+          "same chromosome",
+          "crossing over affects linked genes",
+          "unlinked genes",
+          "different chromosomes",
+          "ratio unchanged",
+          "genetic recombination",
+          "non-homologous chromosomes",
+          "independent assortment unaffected",
+          "gene linkage",
+          "recombination frequency",
+          "chromosomal location"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'SB-30',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Evidence for Evolution",
-    units: [7],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Comparative anatomical studies reveal that the forelimbs of whales, bats, humans, and horses all contain the same bones (humerus, radius, ulna, carpals, metacarpals, phalanges) but in different proportions and with different functions (swimming flippers, wings, grasping hands, weight-bearing legs). Fossil evidence shows that whale ancestors had fully functional hind limbs approximately 50 million years ago, and vestigial hind limb bones are sometimes found in modern whales.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Identify', question: "the type of anatomical structures described in the forelimb example and explain what they reveal about the evolutionary history of these species.", rubric: "Homologous structures — same underlying bone structure inherited from a common ancestor, but modified through descent for different functions. They reveal that whales, bats, humans, and horses share a common tetrapod ancestor that had this basic limb plan; each lineage subsequently evolved modifications to the proportions and functions of these bones through natural selection. Homologous structures are evidence for common descent." },
-    { label: 'b', command: 'Explain', question: "why vestigial hind limb bones in modern whales are considered evidence for evolution rather than evidence against it.", rubric: "Vestigial structures are reduced, functionless (or reduced-function) remnants of structures that were functional in ancestors. The presence of vestigial hind limbs in whales is exactly what evolution predicts: whale ancestors transitioned from land to sea over millions of years; hind limbs became less useful and selection for their maintenance relaxed; mutations reducing hind limb development were not selected against and spread through the population. The existence of these vestigial structures, and the fossil record showing fully functional hind limbs in whale ancestors, directly supports the hypothesis of terrestrial whale ancestors." },
-    { label: 'c', command: 'Describe', question: "one additional line of evidence (other than comparative anatomy) that supports the common ancestry of whales, bats, humans, and horses.", rubric: "Accept any valid line: (1) Molecular/genetic evidence — shared DNA sequences, similar gene sequences for the same proteins (cytochrome c, hemoglobin), shared pseudogenes and transposable element insertions at identical locations; (2) Embryological evidence — all share similar early embryonic development (pharyngeal pouches, tail structure); (3) Fossil record — transitional forms showing gradual anatomical change over time (especially well-documented for whale evolution: Pakicetus → Ambulocetus → Rodhocetus → modern whales); (4) Biogeographic patterns consistent with common ancestry and dispersal. Must be a different type of evidence from comparative anatomy." },
-    { label: 'd', command: 'Support', question: "the claim that natural selection, not random mutation alone, drove the modification of whale forelimbs from walking legs to swimming flippers.", rubric: "Random mutation alone would produce changes in all directions equally — mutations shortening, lengthening, or otherwise modifying each bone would occur randomly. Natural selection filtered these variations: mutations that improved swimming efficiency (broader, flatter limb, reduced individual digit mobility) increased survival and reproduction for an increasingly aquatic lifestyle; mutations reducing swimming effectiveness were selected against. The directed, adaptive change from functional walking limb to an efficient flipper requires selection — random mutation alone would produce random, non-adaptive changes. The consistent direction of modification across whale evolution supports the role of selection." }
+    "id": "bio_u5_frq030",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Epistasis, Dihybrid Crosses, and Sex-Linked Inheritance in a Novel Organism",
+    "units": [
+      5
     ],
-    rubric: [{ points: 1, description: "Homologous structures — same underlying bone structure inherited from a common a", partLabel: 'a', skill: 'describe', keywords: ["natural selection", "common ancestor"] }, { points: 1, description: "Vestigial structures are reduced, functionless (or reduced-function) remnants of", partLabel: 'b', skill: 'explain', keywords: ["population", "reduced"] }, { points: 1, description: "Accept any valid line: (1) Molecular/genetic evidence — shared DNA sequences, si", partLabel: 'c', skill: 'describe', keywords: ["hemoglobin", "gene"] }, { points: 1, description: "Random mutation alone would produce changes in all directions equally — mutation", partLabel: 'd', skill: 'describe', keywords: ["natural selection", "mutation", "reduced"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A geneticist is studying coat color and pattern in a fictional mammal called the marblex. Two autosomal gene loci control coat color: the B locus (B = brown pigment, b = no brown pigment) and the C locus (C = color expressed, c = color suppressed). A homozygous recessive genotype at the C locus (cc) is epistatic to the B locus, resulting in an albino phenotype regardless of the B genotype. When at least one dominant C allele is present, brown pigment is produced if at least one B allele is present (BB or Bb = brown; bb = white-coated but not albino). A third independently assorting, X-linked locus controls spotting: the allele X^S produces spots, while X^s produces no spots. X^S is dominant over X^s in females; hemizygous males express whichever allele they carry. Two true-breeding parent strains are crossed: Parent 1 is a brown-coated, spotted female (BBCCX^SX^S) and Parent 2 is an albino, non-spotted male (bbccX^sY). All F1 offspring are brown and spotted. Two F1 brown spotted females (BbCcX^SX^s) are NOT used in the next cross. Instead, an F1 brown spotted female (BbCcX^SX^s) is crossed with an F1 brown spotted male (BbCcX^SY) to produce F2 offspring.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain how epistasis at the C locus determines whether the B locus is expressed in the marblex, and identify the specific type of epistatic relationship described.",
+        "rubric": "Earns 1 point for correctly explaining that homozygous recessive cc genotype suppresses/masks expression of the B locus (preventing pigment from being expressed regardless of B alleles), AND identifying this as recessive epistasis (or hypostatic/epistatic masking where one gene masks another)."
+      },
+      {
+        "label": "b",
+        "command": "Calculate",
+        "question": "Calculate the expected fraction of F2 offspring that will be brown-coated (not albino and not white-coated). Show your work by determining the probability of each relevant genotype class separately before combining.",
+        "rubric": "Earns 1 point for correctly calculating 9/16 brown-coated F2 offspring. Must show that P(at least one B) = 3/4 AND P(at least one C) = 3/4, and that 3/4 × 3/4 = 9/16. Accept equivalent reasoning using a 16-square Punnett square yielding 9 B_C_ individuals out of 16."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Predict the phenotypic ratio for spotting among F2 males and F2 females separately. Explain why the ratios differ between sexes.",
+        "rubric": "Earns 1 point for correctly predicting that F2 females are 1/2 spotted (X^SX^s) and 1/4 spotted (X^SX^S) = 3/4 spotted : 1/4 non-spotted, AND F2 males are 1/2 spotted (X^SY) : 1/2 non-spotted (X^sY). Must explain that males are hemizygous (only one X chromosome), so they express whichever X-linked allele they inherit with no dominance relationship, while females can be heterozygous and X^S is dominant."
+      },
+      {
+        "label": "d",
+        "command": "Justify",
+        "question": "The geneticist claims that the B and C loci assort independently from each other and from the X-linked spotting locus. Justify this claim using the principle of independent assortment and the chromosomal basis of inheritance.",
+        "rubric": "Earns 1 point for justifying that independent assortment occurs when genes are located on different (non-homologous) chromosomes, such that homologous chromosome pairs align and separate independently during meiosis I (metaphase I). The X-linked locus assorts independently from autosomal loci because the sex chromosomes segregate independently of autosomes. Must reference non-homologous chromosomes, metaphase I, or random orientation of bivalents/tetrads."
+      },
+      {
+        "label": "e",
+        "command": "Describe",
+        "question": "Describe how a crossover event between the B locus and a hypothetical tightly linked autosomal locus (D) during meiosis in the F1 female would affect the gametes she produces, and explain how this would cause observed offspring phenotype frequencies to deviate from expected Mendelian ratios.",
+        "rubric": "Earns 1 point for correctly describing that crossing over (recombination) between linked loci during prophase I (at the chiasma/chiasmata) produces recombinant gametes containing new combinations of alleles not present in the parental chromosomes, and that because linked genes do not assort independently, recombinant class offspring are produced at lower frequency than parental class offspring, causing deviation from the expected 9:3:3:1 or other standard Mendelian ratio. Must reference linkage, recombinant gametes or recombination frequency, and deviation from expected ratios."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that homozygous recessive cc genotype masks/suppresses expression of the B locus regardless of B alleles present, and identifies the relationship as recessive epistasis.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "recessive epistasis",
+          "cc masks B locus",
+          "homozygous recessive suppresses pigment",
+          "epistatic locus",
+          "C locus epistatic to B locus",
+          "hypostatic",
+          "pigment expression suppressed by cc",
+          "regardless of B alleles present",
+          "albino regardless of B genotype",
+          "gene interaction masks downstream locus",
+          "cc prevents brown pigment production",
+          "B locus hypostatic to C locus"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student correctly calculates 9/16 of F2 offspring are brown-coated by multiplying 3/4 (probability of at least one B) by 3/4 (probability of at least one C) to get 9/16.",
+        "partLabel": "b",
+        "skill": "calculate",
+        "keywords": [
+          "9/16",
+          "nine sixteenths",
+          "3/4 times 3/4 equals 9/16",
+          "B_C_ genotype class",
+          "at least one dominant B allele",
+          "at least one dominant C allele",
+          "dihybrid cross ratio",
+          "9:3:3:1 modified by epistasis",
+          "probability of each locus multiplied independently",
+          "independent probabilities combined by multiplication",
+          "BbCc cross yields 9 brown",
+          "Punnett square 9 out of 16"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student correctly predicts 3/4 spotted females and 1/2 spotted males, and explains the difference is due to hemizygosity in males versus dominant X^S allele masking X^s in heterozygous females.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "hemizygous males express single X allele",
+          "3/4 spotted females",
+          "1/2 spotted males",
+          "X-linked dominant inheritance",
+          "X^SY phenotypically spotted male",
+          "X^sY phenotypically non-spotted male",
+          "sex-linked trait differs by sex",
+          "hemizygous no masking in males",
+          "females heterozygous X^SX^s spotted due to dominance",
+          "X^S dominant over X^s in females",
+          "1/4 non-spotted females X^sX^s",
+          "sex-specific phenotypic ratio"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student justifies independent assortment by referencing that B, C, and spotting loci are on different non-homologous chromosomes and that chromosomes orient randomly at metaphase I of meiosis, allowing each pair to segregate independently.",
+        "partLabel": "d",
+        "skill": "justify",
+        "keywords": [
+          "non-homologous chromosomes assort independently",
+          "metaphase I random orientation",
+          "random alignment at metaphase plate",
+          "independent assortment of bivalents",
+          "bivalents orient randomly during meiosis I",
+          "sex chromosomes segregate independently of autosomes",
+          "autosomal loci on separate chromosomes",
+          "law of independent assortment",
+          "different chromosome pairs segregate independently",
+          "chromosomal basis of independent assortment",
+          "spindle fiber attachment random",
+          "each homolog pair orients independently"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student describes crossing over producing recombinant gametes with new allele combinations not in parental chromosomes, and explains that linkage and reduced recombination frequency cause recombinant offspring classes to appear less frequently than expected under independent assortment, deviating from Mendelian ratios.",
+        "partLabel": "e",
+        "skill": "describe",
+        "keywords": [
+          "crossing over between linked loci",
+          "recombinant gametes produced at chiasma",
+          "chiasmata form during prophase I",
+          "prophase I crossover event",
+          "linked loci do not assort independently",
+          "parental gamete combinations more frequent than recombinant",
+          "recombinant offspring class less frequent than expected",
+          "deviation from expected Mendelian ratio",
+          "physical linkage reduces independent assortment",
+          "new allele combinations not present in parental chromosomes",
+          "recombination frequency reflects map distance",
+          "coupling repulsion linkage phase affects gamete frequency"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-01',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Cellular Respiration - Data Analysis",
-    units: [3],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 10,
-    autoGraded: true,
-    prompt: "Researchers investigated the effect of temperature on cellular respiration in germinating pea seeds using a respirometer. Each respirometer contained either 25 germinating peas or 25 glass beads (control). KOH solution in each respirometer absorbed CO2 produced, so any change in gas volume was due to O2 consumption alone. Capillary tubes connected to the respirometers allowed measurement of water displacement (proportional to O2 consumed). The experiment was run at two temperatures (10°C and 25°C) and monitored for 20 minutes. Data from a representative trial is shown below: Table 1. Change in water displacement (mm) over 20 minutes | Time (min) | Germinating Peas 10°C | Germinating Peas 25°C | Glass Beads 10°C | Glass Beads 25°C | |------------|----------------------|----------------------|-----------------|-------- ---------| | 0 | 0.0 | 0.0 | 0.0 | 0.0 | | 5 | 0.5 | 1.2 | 0.0 | 0.0 | | 10 | 1.1 | 2.3 | 0.0 | 0.0 | | 15 | 1.6 | 3.5 | 0.0 | 0.0 | | 20 | 2.1 | 4.7 | 0.0 | 0.0 |",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Identify', question: "the independent and dependent variables in this experiment.", rubric: "Independent variable: temperature (10°C vs. 25°C). Dependent variable: rate of oxygen consumption (water displacement in mm / time). Both must be correctly identified for full point." }
+    "id": "bio_u6_frq031",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "DNA Replication: Enzymes and Directionality",
+    "units": [
+      6
     ],
-    rubric: [{ points: 1, description: "Independent variable: temperature (10°C vs. 25°C). Dependent variable: rate of o", partLabel: 'a', skill: 'describe', keywords: ["water displacement in mm / time"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "DNA replication is a highly coordinated process that occurs in the nucleus of eukaryotic cells prior to cell division. During replication, the double helix is unwound and each strand serves as a template for the synthesis of a new complementary strand. Several key enzymes work together to ensure accurate and efficient copying of the genome.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe the role of helicase during DNA replication.",
+        "rubric": "Earns 1 point for stating that helicase unwinds/separates/breaks hydrogen bonds between the two strands of the DNA double helix at the replication fork."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why DNA polymerase can only synthesize DNA in the 5' to 3' direction, and how this results in the formation of the lagging strand.",
+        "rubric": "Earns 1 point for explaining that DNA polymerase adds nucleotides only to the 3' hydroxyl end, so the lagging strand is synthesized discontinuously as Okazaki fragments in the direction away from the replication fork."
+      },
+      {
+        "label": "c",
+        "command": "Describe",
+        "question": "Describe the role of DNA ligase in completing DNA replication.",
+        "rubric": "Earns 1 point for stating that DNA ligase joins/seals the Okazaki fragments on the lagging strand by forming covalent phosphodiester bonds between adjacent fragments."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly describes helicase as the enzyme that unwinds the DNA double helix by breaking hydrogen bonds between complementary bases at the replication fork.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "helicase",
+          "unwinds",
+          "separates strands",
+          "breaks hydrogen bonds",
+          "replication fork",
+          "double helix",
+          "complementary base pairs",
+          "unzips DNA",
+          "opening of DNA",
+          "ATP-dependent unwinding",
+          "replication bubble"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that DNA polymerase adds nucleotides only in the 5' to 3' direction by attaching to the 3' hydroxyl group, causing the lagging strand to be made discontinuously as Okazaki fragments.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "5' to 3'",
+          "3' hydroxyl",
+          "Okazaki fragments",
+          "lagging strand",
+          "discontinuous synthesis",
+          "adds nucleotides to 3' end",
+          "away from replication fork",
+          "RNA primer",
+          "template strand",
+          "leading strand contrast",
+          "nucleotide addition",
+          "free 3' OH"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student correctly describes DNA ligase as the enzyme that seals nicks or joins Okazaki fragments by forming covalent phosphodiester bonds on the lagging strand.",
+        "partLabel": "c",
+        "skill": "describe",
+        "keywords": [
+          "DNA ligase",
+          "joins fragments",
+          "seals nicks",
+          "phosphodiester bonds",
+          "covalent bond",
+          "Okazaki fragments joined",
+          "connects fragments",
+          "lagging strand",
+          "phosphodiester linkage",
+          "backbone sealed",
+          "continuous strand",
+          "removes gaps"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-02',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Cell Transport and Osmosis",
-    units: [2],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 8,
-    autoGraded: true,
-    prompt: "Students investigated osmosis in potato cells by cutting potato cylinders of equal size (3 cm long, 0.5 cm diameter) and immersing them in sucrose solutions of varying concentrations (0.0 M, 0.2 M, 0.4 M, 0.6 M, 0.8 M, 1.0 M) for 24 hours. After 24 hours, they measured the mass of each cylinder and calculated the percent change in mass. Table 2. Percent change in potato cylinder mass after 24 hours in sucrose solutions | Sucrose Concentration (M) | % Change in Mass | |--------------------------|-----------------| | 0.0 | +10.2 | | 0.2 | +5.1 | | 0.4 | +0.3 | | 0.6 | -4.8 | | 0.8 | -9.3 | | 1.0 | -13.7 |",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Construct', question: "a graph of the data in Table 2. Label the axes and title the graph. (Describe your graph in words since no drawing tool is available.)", rubric: "Graph description: x-axis = sucrose concentration (M), 0 to 1.0; y-axis = percent change in mass (%), ranging from approximately -15 to +12; title = 'Effect of Sucrose Concentration on Mass of Potato Cylinders' (or similar). Data points should be plotted and connected with a smooth line. The line crosses zero percent change between 0.2 M and 0.6 M (near 0.4 M). Award point for correct axes, labeling, and described data trend." }
+    "id": "bio_u6_frq032",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "DNA Replication: Leading and Lagging Strand Synthesis",
+    "units": [
+      6
     ],
-    rubric: [{ points: 1, description: "Graph description: x-axis = sucrose concentration (M), 0 to 1.0; y-axis = percen", partLabel: 'a', skill: 'predict', keywords: [] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "During DNA replication, the two strands of the parental double helix are separated at the replication fork, and each strand serves as a template for the synthesis of a new complementary strand. However, DNA polymerase can only add nucleotides in the 5' to 3' direction, which creates an asymmetry in how the two new strands are synthesized. One strand, the leading strand, is synthesized continuously, while the other strand, the lagging strand, is synthesized discontinuously as a series of short fragments.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain why RNA primers are required before DNA polymerase can begin synthesizing a new strand during DNA replication.",
+        "rubric": "Student earns 1 point for explaining that DNA polymerase cannot initiate new strand synthesis on its own and requires a free 3'-OH group to add nucleotides onto; RNA primase synthesizes a short RNA primer providing this 3'-OH group so DNA polymerase III can extend the new strand."
+      },
+      {
+        "label": "b",
+        "command": "Describe",
+        "question": "Describe how the lagging strand is synthesized at the replication fork, including the names of the fragments produced.",
+        "rubric": "Student earns 1 point for describing that the lagging strand is synthesized discontinuously in short segments called Okazaki fragments, each initiated by a separate RNA primer, and synthesized in the 5' to 3' direction away from the replication fork."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain the roles of DNA polymerase I and DNA ligase in completing lagging strand synthesis after the Okazaki fragments have been formed.",
+        "rubric": "Student earns 1 point for explaining that DNA polymerase I removes the RNA primers and replaces them with DNA nucleotides, and DNA ligase seals the nicks (phosphodiester bonds) between adjacent Okazaki fragments to produce a continuous strand."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that DNA polymerase requires a free 3'-OH group to add nucleotides, so primase synthesizes an RNA primer to provide this group before DNA polymerase III can extend the strand.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "RNA primer",
+          "primase",
+          "3'-OH",
+          "3' hydroxyl",
+          "free 3' end",
+          "DNA polymerase cannot initiate",
+          "DNA polymerase III",
+          "5' to 3' synthesis",
+          "initiation of replication",
+          "new strand synthesis",
+          "template-dependent",
+          "primer synthesis",
+          "ribonucleotides"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student describes that the lagging strand is made discontinuously as Okazaki fragments, each requiring its own RNA primer, synthesized 5' to 3' in the direction away from the replication fork.",
+        "partLabel": "b",
+        "skill": "describe",
+        "keywords": [
+          "Okazaki fragments",
+          "lagging strand",
+          "discontinuous synthesis",
+          "5' to 3' direction",
+          "away from replication fork",
+          "multiple RNA primers",
+          "short fragments",
+          "template strand",
+          "antiparallel",
+          "lagging strand synthesis",
+          "replication fork",
+          "each fragment primed separately"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains that DNA polymerase I removes RNA primers and fills in the gaps with DNA, and DNA ligase covalently joins the fragments by forming phosphodiester bonds between them.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "DNA polymerase I",
+          "removes RNA primers",
+          "replaces with DNA",
+          "DNA ligase",
+          "seals nicks",
+          "phosphodiester bonds",
+          "covalently joins",
+          "continuous strand",
+          "fills gaps",
+          "nick sealing",
+          "5' to 3' exonuclease activity",
+          "primer removal",
+          "gap filling"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-03',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Genetics - Inheritance Patterns",
-    units: [5],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 9,
-    autoGraded: true,
-    prompt: "A geneticist studies coat color inheritance in Labrador retrievers. Coat color in Labs is controlled by two independently assorting gene loci: the B locus (B = black pigment, b = brown pigment — B is dominant) and the E locus (E = pigment expression allowed, e = no pigment expressed — E is dominant). The E locus is epistatic to the B locus: dogs that are homozygous recessive at the E locus (ee) are yellow regardless of their B genotype, because they cannot produce any pigment. Dogs that are not ee can produce black (B_) or brown (bb) pigment. A black male (BbEe) is crossed with a yellow female. The yellow female's genotype at the B locus is unknown, but she is known to be homozygous recessive at the E locus (ee). The cross produces the following offspring: 3 black, 3 brown, 6 yellow.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Determine', question: "the genotype of the yellow female. Show your work.", rubric: "The yellow female is ee at the E locus (given). The offspring ratio of approximately 1 black : 1 brown : 2 yellow indicates a Bb x bb cross at the B locus and an Ee x ee cross at the E locus. Therefore, the female genotype is BbEe (producing yellow phenotype due to ee masking). The cross BbEe x bbee produces BbEe (black), Bbee (yellow), bbEe (brown), and bbee (yellow) in a 1:1:1:1 ratio, consistent with the observed approximately 1:1:2 phenotypic ratio." }
+    "id": "bio_u6_frq033",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Mutations and Their Effects on Protein Function",
+    "units": [
+      6
     ],
-    rubric: [{ points: 1, description: "Yellow female is ee at E locus (given). We need to determine her B genotype. Mal", partLabel: 'a', skill: 'explain', keywords: ["genotype", "locus", "given", "black", "brown", "yellow", "approximate"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A researcher is studying a gene that encodes a functional enzyme. The wild-type mRNA sequence at the beginning of the coding region reads: 5'-AUG-GAA-UUU-CGU-UAA-3'. The researcher identifies two mutant strains. In Mutant 1, the third codon has been changed from UUU to UUC. In Mutant 2, a single adenine nucleotide has been inserted immediately after the start codon (AUG), shifting the reading frame of all subsequent codons. Use the genetic code to inform your answers. (Glu = GAA/GAG; Phe = UUU/UUC; Arg = CGU/CGC/CGA/CGG; Stop = UAA/UAG/UGA)",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Predict",
+        "question": "Predict whether the amino acid sequence of the enzyme produced by Mutant 1 will differ from the wild-type enzyme. Justify your prediction using the genetic code.",
+        "rubric": "Student earns 1 point for predicting that the amino acid sequence will NOT change in Mutant 1, and correctly justifying that UUU and UUC both code for phenylalanine, making this a silent (synonymous) mutation with no change to the protein."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why the insertion mutation in Mutant 2 is likely to have a more severe effect on enzyme function than the mutation in Mutant 1.",
+        "rubric": "Student earns 1 point for explaining that the insertion causes a frameshift mutation, shifting the reading frame of all downstream codons so that the entire amino acid sequence after the insertion point is altered, likely producing a nonfunctional protein, whereas Mutant 1 is a silent mutation with no amino acid change."
+      },
+      {
+        "label": "c",
+        "command": "Describe",
+        "question": "Describe one type of chromosomal or point mutation, different from those described above, that could also disrupt the function of this enzyme, and explain the mechanism by which it disrupts function.",
+        "rubric": "Student earns 1 point for correctly naming a distinct mutation type (e.g., nonsense mutation, missense mutation, deletion, inversion, translocation, duplication) and providing a mechanistically accurate explanation of how it disrupts protein function."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student predicts no change in amino acid sequence for Mutant 1 and justifies using the degeneracy/redundancy of the genetic code, stating UUU and UUC both encode phenylalanine (silent or synonymous mutation).",
+        "partLabel": "a",
+        "skill": "predict",
+        "keywords": [
+          "silent mutation",
+          "synonymous mutation",
+          "UUU",
+          "UUC",
+          "phenylalanine",
+          "same amino acid",
+          "degenerate genetic code",
+          "redundant codons",
+          "no change in protein",
+          "wobble position",
+          "third codon position",
+          "no amino acid change",
+          "protein sequence unchanged"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that the insertion causes a frameshift mutation altering all downstream codons, producing a drastically different and likely nonfunctional amino acid sequence, compared to the silent mutation in Mutant 1 which causes no amino acid change.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "frameshift mutation",
+          "reading frame shifted",
+          "all downstream codons altered",
+          "nonfunctional protein",
+          "insertion mutation",
+          "amino acid sequence changed",
+          "premature stop codon",
+          "loss of function",
+          "silent mutation no effect",
+          "disrupts protein structure",
+          "single nucleotide insertion",
+          "downstream codons",
+          "altered polypeptide"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student names a valid distinct mutation type (nonsense, missense, deletion, inversion, translocation, or duplication) and accurately explains the mechanism by which it disrupts enzyme function.",
+        "partLabel": "c",
+        "skill": "describe",
+        "keywords": [
+          "nonsense mutation",
+          "missense mutation",
+          "premature stop codon",
+          "wrong amino acid",
+          "deletion mutation",
+          "chromosomal inversion",
+          "translocation",
+          "nonfunctional protein",
+          "altered active site",
+          "truncated protein",
+          "chromosomal duplication",
+          "loss of enzyme activity",
+          "disrupted protein folding"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-04',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Gene Expression - Transcription and Translation",
-    units: [6],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 10,
-    autoGraded: true,
-    prompt: "Scientists studying sickle cell disease investigate the molecular basis of the condition. Normal hemoglobin (HbA) is encoded by the HBB gene. A single nucleotide mutation changes the codon GAG (glutamic acid) to GTG (valine) in the beta-globin chain, producing sickle hemoglobin (HbS). The resulting amino acid substitution (Glu → Val) causes HbS molecules to polymerize under low-oxygen conditions, distorting red blood cells into a sickle shape. Researchers also discover that some individuals in malaria-endemic regions are heterozygous for HbS (HbA/HbS genotype). These individuals show greater resistance to severe malaria than homozygous HbA/HbA individuals, yet do not suffer from full sickle cell disease like HbS/HbS individuals.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Identify', question: "the type of mutation that causes sickle cell disease and describe how it alters the primary structure of the beta-globin protein.", rubric: "Point mutation / single nucleotide substitution (specifically a missense mutation — changes one codon to specify a different amino acid). The mutation changes codon 6 of HBB from GAG (glutamic acid, negatively charged, hydrophilic) to GTG (valine, neutral, hydrophobic). This replaces one amino acid in the primary sequence of beta-globin. The primary structure changes at position 6: Glu → Val." }
+    "id": "bio_u6_frq034",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Nonsense Mutation Effects on Gene Expression and Protein Function",
+    "units": [
+      6
     ],
-    rubric: [{ points: 1, description: "Point mutation / single nucleotide substitution (specifically a missense mutatio", partLabel: 'a', skill: 'describe', keywords: ["primary structure", "hydrophobic", "hydrophilic", "amino acid", "nucleotide", "mutation", "codon"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A researcher is studying a gene that encodes a 300-amino-acid enzyme critical for cellular metabolism. The wild-type mRNA contains the codon sequence UGG-CAU-UGC-UAC-AAA near the middle of the coding sequence (codon positions 148-152). A newly discovered mutant strain carries a single nucleotide substitution in codon 149, changing CAU to UAU. A second mutant strain carries a different single nucleotide substitution in codon 149, changing CAU to UAA. The genetic code is universal and UAA is a stop codon; UAU codes for tyrosine; CAU codes for histidine.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain why the mutation in the second mutant strain (CAU → UAA at codon 149) is considered a nonsense mutation, and describe how this mutation affects the polypeptide produced during translation.",
+        "rubric": "Earns 1 point for correctly identifying that CAU→UAA converts a sense codon to a premature stop codon (nonsense mutation), AND explaining that translation terminates early at codon 149, producing a truncated polypeptide of approximately 148 amino acids instead of the full 300 amino acids."
+      },
+      {
+        "label": "b",
+        "command": "Justify",
+        "question": "The first mutant strain (CAU → UAU) produces a full-length polypeptide, yet the enzyme still shows reduced catalytic activity compared to the wild type. Justify how a single missense mutation at codon 149 could reduce enzyme activity without changing the length of the protein.",
+        "rubric": "Earns 1 point for explaining that the amino acid change (histidine to tyrosine) alters the primary structure, which can disrupt the tertiary/three-dimensional structure or active site conformation, reducing the enzyme's ability to bind substrate or catalyze the reaction."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "A molecular biologist proposes using CRISPR-Cas9 to correct the nonsense mutation (UAA → CAU) in the second mutant strain. Predict what must be provided along with the Cas9 protein and a guide RNA targeting codon 149 in order for the correct wild-type sequence to be restored, and explain why it is necessary.",
+        "rubric": "Earns 1 point for stating that a DNA repair template (donor DNA / HDR template) containing the wild-type sequence (CAU) must be provided, and explaining that CRISPR-Cas9 only creates a double-strand break and that homology-directed repair (HDR) uses the template to incorporate the correct nucleotide sequence, restoring the wild-type codon."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student identifies CAU→UAA as a nonsense mutation because it introduces a premature stop codon, and explains that translation terminates early, producing a truncated polypeptide (~148 amino acids) shorter than the wild-type 300-amino-acid protein.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "nonsense mutation",
+          "premature stop codon",
+          "UAA stop codon",
+          "truncated polypeptide",
+          "early termination",
+          "translation termination",
+          "148 amino acids",
+          "shortened protein",
+          "premature termination codon",
+          "truncated protein",
+          "sense codon converted",
+          "ribosome releases",
+          "nonfunctional protein",
+          "incomplete polypeptide",
+          "release factor"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that the missense mutation changes histidine to tyrosine, altering the primary structure and potentially disrupting the tertiary structure or active site shape, which reduces the enzyme's ability to bind substrate or carry out catalysis.",
+        "partLabel": "b",
+        "skill": "justify",
+        "keywords": [
+          "missense mutation",
+          "amino acid change",
+          "histidine to tyrosine",
+          "primary structure altered",
+          "tertiary structure disrupted",
+          "active site conformation",
+          "substrate binding",
+          "protein folding",
+          "three-dimensional structure",
+          "catalytic activity reduced",
+          "R-group properties",
+          "hydrogen bonding altered",
+          "enzyme-substrate interaction",
+          "polypeptide conformation",
+          "induced fit disrupted"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student states that a DNA repair template (donor DNA with the wild-type CAU sequence) must be supplied, and explains that homology-directed repair (HDR) uses this template after Cas9 creates a double-strand break to incorporate the correct nucleotide and restore the wild-type codon.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "DNA repair template",
+          "donor DNA",
+          "HDR template",
+          "homology-directed repair",
+          "double-strand break",
+          "wild-type sequence",
+          "CAU restored",
+          "homologous recombination",
+          "Cas9 cuts DNA",
+          "correct nucleotide incorporated",
+          "template-directed repair",
+          "homology arms",
+          "single-stranded oligonucleotide",
+          "DNA repair pathway",
+          "precise editing requires template"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-05',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Evolution and Natural Selection - Population",
-    units: [7],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 9,
-    autoGraded: true,
-    prompt: "A population geneticist studies the evolution of antibiotic resistance in Staphylococcus aureus. She begins with a culture of 10^8 bacteria, all susceptible to methicillin (an antibiotic). She adds methicillin at a concentration that kills all susceptible bacteria. After 48 hours, she observes that approximately 50 colonies of bacteria have survived and are growing. These survivors are methicillin-resistant (MRSA). Further analysis reveals that the resistance is due to a mutation in the mecA gene that encodes an altered penicillin-binding protein (PBP2a) with low affinity for methicillin. She also finds that the mecA gene is located on a mobile genetic element (SCCmec cassette) that can be transferred between bacteria via horizontal gene transfer. She tests whether the surviving colonies arose from pre-existing mutations or were induced by the antibiotic by comparing two populations: one exposed to methicillin (experimental), and one not exposed (control). She plates dilutions of each culture and counts colonies before and after antibiotic treatment.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why 50 bacteria survived the methicillin treatment out of 10^8 starting bacteria, using the principles of natural selection.", rubric: "In any large population, random mutations arise spontaneously before exposure to the selective agent. Some bacteria in the original 10^8 had spontaneously acquired mecA mutations (approximately 1 in 2×10^6 — consistent with ~50 in 10^8). When methicillin was added, these pre-existing resistant mutants had a selective advantage — they survived and reproduced while all others were killed. Natural selection did not create resistance; it selected for pre-existing resistant variants." }
+    "id": "bio_u7_frq035",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Hardy-Weinberg Equilibrium in a Wildflower Population",
+    "units": [
+      7
     ],
-    rubric: [{ points: 1, description: "In any large population, random mutations arise spontaneously before exposure to", partLabel: 'a', skill: 'explain', keywords: ["natural selection", "population"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "In a large population of wildflowers, flower color is determined by a single gene with two alleles: R (red, dominant) and r (white, recessive). A researcher surveys 500 plants and finds that 80 plants display white flowers. Assume the population is in Hardy-Weinberg equilibrium. Use this information to answer the following questions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Calculate",
+        "question": "Calculate the frequency of the recessive allele (r) and the dominant allele (R) in this population. Show your work.",
+        "rubric": "Student correctly identifies q² = 80/500 = 0.16, takes the square root to find q = 0.4, and calculates p = 1 − 0.4 = 0.6. Earns 1 point for correctly calculating both allele frequencies (p = 0.6, q = 0.4)."
+      },
+      {
+        "label": "b",
+        "command": "Calculate",
+        "question": "Using your allele frequencies from part (a), calculate the expected frequency of heterozygous individuals (Rr) in this population.",
+        "rubric": "Student correctly applies the Hardy-Weinberg equation 2pq = 2(0.6)(0.4) = 0.48, meaning 48% of the population is expected to be heterozygous. Earns 1 point for the correct frequency of 0.48 (or 48%)."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Identify ONE condition required for Hardy-Weinberg equilibrium and explain how violating that condition could cause allele frequencies to change in this wildflower population.",
+        "rubric": "Student names one valid Hardy-Weinberg condition (e.g., no natural selection, no mutation, random mating, no gene flow, large population size) and explains how its violation would cause allele frequencies to shift away from equilibrium. Earns 1 point for correctly naming a condition AND providing a logical explanation of how its violation disrupts equilibrium."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly calculates q² = 0.16, q = 0.4, and p = 0.6 using the Hardy-Weinberg equilibrium equations.",
+        "partLabel": "a",
+        "skill": "calculate",
+        "keywords": [
+          "q squared",
+          "q² = 0.16",
+          "recessive allele frequency",
+          "q = 0.4",
+          "p = 0.6",
+          "allele frequency",
+          "square root",
+          "p + q = 1",
+          "0.16",
+          "dominant allele frequency",
+          "homozygous recessive",
+          "80/500",
+          "genotype frequency",
+          "Hardy-Weinberg",
+          "rr phenotype"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student correctly applies 2pq = 2(0.6)(0.4) = 0.48 to find the heterozygote frequency.",
+        "partLabel": "b",
+        "skill": "calculate",
+        "keywords": [
+          "2pq",
+          "heterozygous frequency",
+          "heterozygote",
+          "0.48",
+          "48 percent",
+          "2(0.6)(0.4)",
+          "Hardy-Weinberg equation",
+          "Rr frequency",
+          "carrier frequency",
+          "p² + 2pq + q² = 1",
+          "expected genotype frequency",
+          "heterozygous genotype",
+          "binomial expansion",
+          "predicted frequency"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student names one Hardy-Weinberg condition and explains how violating it would change allele frequencies in the population.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "no natural selection",
+          "random mating",
+          "large population size",
+          "no gene flow",
+          "no mutation",
+          "genetic drift",
+          "non-random mating",
+          "allele frequencies shift",
+          "Hardy-Weinberg assumptions",
+          "equilibrium disrupted",
+          "violating conditions",
+          "bottleneck",
+          "selective pressure",
+          "migration",
+          "founder effect",
+          "assortative mating",
+          "small population",
+          "microevolution"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-06',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Ecosystem Ecology - Energy Flow",
-    units: [8],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 8,
-    autoGraded: true,
-    prompt: "A lake ecosystem was studied over several years. Researchers measured the biomass (g/m²) at each trophic level and the energy content of each level. The data are summarized below: Table 3. Biomass and energy at each trophic level in a lake ecosystem | Trophic Level | Biomass (g/m²) | Energy (kcal/m²/year) | |--------------------------|----------------|----------------------| | Phytoplankton (producer) | 800 | 20,000 | | Zooplankton (primary consumer) | 160 | 3,800 | | Small fish (secondary consumer) | 16 | 380 | | Large fish (tertiary consumer) | 2 | 36 | A second lake nearby was studied before and after the introduction of an invasive predatory fish species that feeds on small fish and reproduces rapidly.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Calculate', question: "the ecological efficiency (energy transfer efficiency) between phytoplankton and zooplankton. Show your work.", rubric: "Ecological efficiency = (energy at trophic level n+1 / energy at trophic level n) × 100% = (3,800 / 20,000) × 100% = 19%. Show division and multiplication for full credit." }
+    "id": "bio_u7_frq036",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Hardy-Weinberg Equilibrium and Allele Frequencies",
+    "units": [
+      7
     ],
-    rubric: [{ points: 1, description: "Ecological efficiency = (energy at trophic level n+1 / energy at trophic level n", partLabel: 'a', skill: 'calculate', keywords: ["trophic level"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "In a population of 500 wildflowers, flower color is determined by a single gene with two alleles: red (R, dominant) and white (r, recessive). A researcher surveys the population and finds that 80 individuals display white flowers. Assume the population is in Hardy-Weinberg equilibrium.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Calculate",
+        "question": "Calculate the frequency of the recessive allele (r) and the dominant allele (R) in this population. Show your work.",
+        "rubric": "Student earns 1 point for correctly calculating q = 0.4 (frequency of r) using q² = 80/500 = 0.16, so q = 0.4, and p = 1 − q = 0.6."
+      },
+      {
+        "label": "b",
+        "command": "Calculate",
+        "question": "Using your allele frequencies from part (a), calculate the expected number of heterozygous individuals (Rr) in this population of 500.",
+        "rubric": "Student earns 1 point for correctly applying 2pq = 2(0.6)(0.4) = 0.48, and multiplying by 500 to get 240 heterozygous individuals."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain TWO conditions that must be met for this population to remain in Hardy-Weinberg equilibrium.",
+        "rubric": "Student earns 1 point for correctly identifying any two of the five Hardy-Weinberg conditions: no natural selection, no mutation, no gene flow, random mating, large population size (no genetic drift)."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Correctly calculates q = 0.4 and p = 0.6 using q² = 0.16 derived from 80/500",
+        "partLabel": "a",
+        "skill": "calculate",
+        "keywords": [
+          "q squared",
+          "q² = 0.16",
+          "q = 0.4",
+          "p = 0.6",
+          "recessive allele frequency",
+          "dominant allele frequency",
+          "square root of 0.16",
+          "80/500",
+          "allele frequency calculation",
+          "p + q = 1",
+          "Hardy-Weinberg",
+          "homozygous recessive",
+          "genotype frequency",
+          "0.16",
+          "frequency of r"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Correctly applies 2pq to calculate 240 heterozygous individuals",
+        "partLabel": "b",
+        "skill": "calculate",
+        "keywords": [
+          "2pq",
+          "heterozygous frequency",
+          "2(0.6)(0.4)",
+          "0.48",
+          "240 individuals",
+          "heterozygotes",
+          "carrier frequency",
+          "Hardy-Weinberg equation",
+          "2pq = 0.48",
+          "expected heterozygous",
+          "Rr genotype",
+          "heterozygous genotype",
+          "multiply by population size",
+          "500 individuals",
+          "genotype frequency"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Identifies any two valid Hardy-Weinberg equilibrium conditions",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "no natural selection",
+          "no mutation",
+          "random mating",
+          "no gene flow",
+          "large population",
+          "no genetic drift",
+          "panmictic",
+          "no migration",
+          "Hardy-Weinberg conditions",
+          "equilibrium requirements",
+          "mating is random",
+          "sexually reproducing",
+          "neutral alleles",
+          "infinite population",
+          "no bottleneck"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-07',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Cell Communication and Signal Transduction",
-    units: [4],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 9,
-    autoGraded: true,
-    prompt: "Researchers study cell communication in the context of cancer. They investigate two signaling proteins: HER2 (a receptor tyrosine kinase overexpressed in ~20% of breast cancers) and Ras (a GTPase proto-oncogene mutated in ~30% of all cancers). Normal HER2 is activated by growth factor binding, dimerizes with another HER receptor, autophosphorylates its tyrosine kinase domain, and activates downstream signaling (PI3K/Akt and MAPK pathways) to promote cell survival and proliferation. In HER2-positive breast cancer, the HER2 gene is amplified (many copies are present), leading to constitutive signaling even without growth factors. Normal Ras is a GTPase activated by receptor tyrosine kinases via GEF proteins, and inactivated by GAP proteins that stimulate its GTPase activity. Mutant Ras (found in cancers) has impaired GTPase activity and remains constitutively active.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the general mechanism by which a receptor tyrosine kinase (RTK) like HER2 transduces an extracellular signal to an intracellular response.", rubric: "Extracellular growth factor binds HER2 → HER2 dimerizes with another HER receptor → dimerization triggers conformational change that activates the intracellular tyrosine kinase domain → kinase domains cross-phosphorylate each other on tyrosine residues (autophosphorylation) → phosphorylated tyrosines serve as docking sites for intracellular signaling proteins (adaptor proteins, PI3K, GEF) → these activate downstream cascades (Ras/MAPK, PI3K/Akt) → gene expression changes promoting cell survival and proliferation." }
+    "id": "bio_u7_frq037",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Phylogenetics and Cladogram Interpretation",
+    "units": [
+      7
     ],
-    rubric: [{ points: 1, description: "Extracellular growth factor binds HER2 → HER2 dimerizes with another HER recepto", partLabel: 'a', skill: 'describe', keywords: ["gene expression", "gene", "autophosphorylation"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A biologist constructs a cladogram of five vertebrate species (lamprey, shark, salamander, lizard, and chimpanzee) based on shared derived characters. The cladogram reveals the following derived characters at successive nodes: (1) vertebral column, (2) jaws, (3) four limbs (tetrapod), (4) amniotic egg, (5) opposable thumbs. The lamprey is used as the outgroup.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe what the position of the lamprey as the outgroup indicates about its evolutionary relationship to the other species on the cladogram.",
+        "rubric": "Student earns 1 point for explaining that the outgroup (lamprey) is the most distantly related taxon, sharing the fewest derived characters with the ingroup, and is used to root the cladogram or determine the ancestral character state."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why the salamander and lizard are considered more closely related to each other than either is to the shark, based on the derived characters listed.",
+        "rubric": "Student earns 1 point for explaining that salamander and lizard share a more recent common ancestor, evidenced by both possessing the shared derived character of four limbs (tetrapody), a synapomorphy not present in the shark."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "A researcher proposes using differences in a conserved DNA sequence to estimate when the lizard and chimpanzee lineages diverged. Explain the principle that makes this molecular clock approach valid.",
+        "rubric": "Student earns 1 point for explaining that molecular clocks rely on the assumption that mutations accumulate at a relatively constant rate over time in neutral or conserved sequences, so the number of nucleotide or amino acid differences between two species is proportional to the time since their divergence from a common ancestor."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Correctly describes the outgroup as most distantly related, used to identify ancestral character states and root the cladogram",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "outgroup",
+          "most distantly related",
+          "ancestral character state",
+          "root the cladogram",
+          "fewest shared derived characters",
+          "ingroup",
+          "basal",
+          "plesiomorphy",
+          "common ancestor",
+          "outgroup comparison",
+          "lamprey",
+          "vertebral column only",
+          "lacks jaws",
+          "sister group",
+          "phylogenetic tree"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Correctly explains that salamander and lizard share four limbs as a synapomorphy indicating a more recent common ancestor than either shares with the shark",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "shared derived character",
+          "synapomorphy",
+          "four limbs",
+          "tetrapod",
+          "more recent common ancestor",
+          "clade",
+          "monophyletic",
+          "closer evolutionary relationship",
+          "shark lacks limbs",
+          "derived trait",
+          "tetrapody",
+          "node",
+          "branching point",
+          "last common ancestor",
+          "ingroup"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Correctly explains molecular clock principle: mutations accumulate at a constant rate, so sequence differences are proportional to divergence time",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "molecular clock",
+          "constant mutation rate",
+          "neutral mutations",
+          "nucleotide differences",
+          "sequence divergence",
+          "time since common ancestor",
+          "proportional to divergence time",
+          "amino acid differences",
+          "calibrate",
+          "divergence estimate",
+          "substitution rate",
+          "DNA sequence comparison",
+          "neutral evolution",
+          "accumulated mutations",
+          "last common ancestor"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-08',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Chemistry of Life - Enzymes and Metabolism",
-    units: [1],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 8,
-    autoGraded: true,
-    prompt: "Carbonic anhydrase is one of the fastest known enzymes, catalyzing the reversible reaction: CO2 + H2O ⇌ H2CO3 (carbonic acid), which quickly dissociates to H+ + HCO3- (bicarbonate). This enzyme is critical in red blood cells for CO2 transport: it converts CO2 from respiring tissues into bicarbonate for transport in plasma, and in the lungs converts bicarbonate back to CO2 for exhalation. An inhibitor study was conducted: carbonic anhydrase activity was measured at increasing substrate (CO2) concentrations in the presence and absence of acetazolamide (a sulfonamide inhibitor). The Vmax was the same in both conditions, but the Km (substrate concentration needed for half-maximum velocity) was higher in the presence of acetazolamide.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Identify', question: "the type of inhibition demonstrated by acetazolamide based on the kinetic data described. Justify your identification.", rubric: "Competitive inhibition. Justification: Vmax is unchanged (can be overcome by excess substrate) but Km is increased (apparent affinity for substrate decreases — more substrate needed to half-saturate the enzyme). This is the diagnostic kinetic signature of competitive inhibition — the inhibitor competes with the substrate for the active site and can be displaced by high substrate concentrations." }
+    "id": "bio_u7_frq038",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Molecular Clocks and Divergence Time Estimation",
+    "units": [
+      7
     ],
-    rubric: [{ points: 1, description: "Competitive inhibition. Justification: Vmax is unchanged (can be overcome by exc", partLabel: 'a', skill: 'explain', keywords: ["active site", "substrate", "enzyme", "can be overcome by excess substrate"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "Researchers are studying two populations of salamanders that became geographically isolated approximately 10 million years ago. Using mitochondrial DNA sequences, they calculate that the two populations differ by 8% in their nucleotide sequences. A well-established molecular clock for mitochondrial DNA in salamanders indicates a divergence rate of 2% sequence difference per million years. However, when the researchers construct a phylogenetic tree using both morphological data and molecular data, they find that the molecular clock estimate for a third, related salamander species does not match the fossil record, which shows that species diverged only 2 million years ago despite showing a 10% sequence difference in a nuclear gene region. The researchers hypothesize that different genomic regions evolve at different rates due to varying levels of natural selection acting on those regions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Calculate",
+        "question": "Using the mitochondrial DNA molecular clock rate of 2% sequence divergence per million years, calculate the estimated divergence time for the two isolated salamander populations that show 8% sequence difference. Show your work and state your answer in millions of years.",
+        "rubric": "Student earns 1 point for correctly dividing 8% by 2% per million years to obtain 4 million years, showing the calculation or logic clearly."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "The nuclear gene region used for the third salamander species shows a 10% sequence difference despite a fossil-confirmed divergence of only 2 million years. Explain why this nuclear gene region is NOT reliable as a molecular clock for estimating divergence times in this case, referencing the role of natural selection.",
+        "rubric": "Student earns 1 point for explaining that the nuclear gene region likely evolves under positive selection or relaxed purifying selection, causing a higher-than-expected substitution rate that violates the assumption of constant neutral mutation accumulation required for a reliable molecular clock."
+      },
+      {
+        "label": "c",
+        "command": "Justify",
+        "question": "A colleague proposes using the mitochondrial DNA data to determine whether the two originally isolated salamander populations have undergone allopatric speciation. Justify whether the 8% sequence difference alone is sufficient evidence to conclude that speciation has occurred.",
+        "rubric": "Student earns 1 point for justifying that sequence difference alone is insufficient to confirm speciation, because reproductive isolation must be demonstrated, and sequence divergence does not necessarily indicate that the populations would fail to interbreed if reunited; speciation requires reproductive barriers, not just genetic divergence."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student correctly calculates 4 million years by dividing 8% sequence difference by the clock rate of 2% per million years, demonstrating proper application of the molecular clock formula.",
+        "partLabel": "a",
+        "skill": "calculate",
+        "keywords": [
+          "8% divided by 2%",
+          "4 million years",
+          "molecular clock rate",
+          "sequence divergence rate",
+          "divergence time",
+          "2% per million years",
+          "nucleotide sequence difference",
+          "clock calculation",
+          "mtDNA clock",
+          "divergence time formula"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that the elevated substitution rate in the nuclear gene violates the neutral mutation assumption of molecular clocks because positive selection or relaxed purifying selection accelerated divergence, making the clock unreliable.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "positive selection",
+          "purifying selection",
+          "neutral mutation",
+          "substitution rate",
+          "molecular clock assumption",
+          "non-neutral evolution",
+          "selection pressure",
+          "faster rate of evolution",
+          "violates assumption",
+          "accelerated divergence",
+          "directional selection",
+          "adaptive evolution",
+          "nucleotide substitution",
+          "non-synonymous substitution",
+          "clock unreliable"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student justifies that sequence difference alone is insufficient for concluding speciation has occurred because reproductive isolation must be established; genetic divergence does not confirm that allopatric populations are reproductively isolated or would fail to produce viable fertile offspring.",
+        "partLabel": "c",
+        "skill": "justify",
+        "keywords": [
+          "reproductive isolation",
+          "allopatric speciation",
+          "sequence difference insufficient",
+          "biological species concept",
+          "reproductive barriers",
+          "viable fertile offspring",
+          "gene flow prevention",
+          "speciation requires isolation",
+          "interbreeding",
+          "not sufficient evidence",
+          "prezygotic barrier",
+          "postzygotic barrier",
+          "genetic divergence alone",
+          "sympatry test",
+          "hybridization"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-09',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Cell Structure - Endomembrane System",
-    units: [2],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 8,
-    autoGraded: true,
-    prompt: "Scientists use pulse-chase experiments to track protein secretion through the endomembrane system. In a pulse-chase experiment, cells are briefly exposed to radioactively labeled amino acids (the 'pulse'), then flushed with normal (unlabeled) amino acids (the 'chase'). At various time points after the pulse, cells are lysed and radioactivity is measured in different cellular compartments. In one experiment, secretory proteins were tracked in pancreatic acinar cells (which secrete digestive enzymes). The results showed: - At 3 min after pulse: radioactivity concentrated in rough ER - At 20 min: radioactivity moved to Golgi apparatus - At 60 min: radioactivity concentrated in secretory vesicles - At 120 min: radioactivity detected outside the cells (in the culture medium) A second experiment used a drug called brefeldin A, which disrupts the Golgi apparatus by causing it to fuse with the ER. Cells treated with brefeldin A accumulated radioactive protein in the ER/Golgi hybrid compartment and no radioactivity appeared in the culture medium.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the path a secretory protein takes from synthesis to secretion, naming each organelle it passes through.", rubric: "Ribosome (on rough ER) → rough ER lumen (co-translational insertion through translocon) → ER vesicle → cis face of Golgi apparatus → Golgi cisternae (cis → medial → trans) → trans-Golgi network → secretory vesicle (exocytic vesicle) → plasma membrane fusion → extracellular space. Must include ER, Golgi, secretory vesicle, and plasma membrane in correct order." }
+    "id": "bio_u7_frq039",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Population Genetics and Evolutionary Change in a Beetle Population",
+    "units": [
+      7
     ],
-    rubric: [{ points: 1, description: "Ribosome (on rough ER) → rough ER lumen (co-translational insertion through tran", partLabel: 'a', skill: 'describe', keywords: ["er, golgi, secretory vesicle", "secretory vesicle", "plasma membrane", "golgi apparatus", "er lumen", "rough er", "ribosome", "vesicle", "golgi", "on rough er"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A population of beetles lives in a forest environment where the substrate is predominantly dark bark. Two alleles exist for body color: B (dark body, dominant) and b (light body, recessive). A researcher surveys the population and finds the following genotype frequencies: BB = 0.49, Bb = 0.42, bb = 0.09. The population is large and has been isolated from other beetle populations for many generations. Dark-bodied beetles survive predation at a higher rate than light-bodied beetles in this environment. Later, a severe flood kills most of the population, leaving only 12 individuals, all of whom happen to carry the b allele at high frequency. After the flood, a neighboring population with an allele frequency of B = 0.90 begins migrating into the recovering population.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Calculate",
+        "question": "Using the given genotype frequencies (BB = 0.49, Bb = 0.42, bb = 0.09), calculate the allele frequencies of B and b in the original population. Show your work.",
+        "rubric": "Student correctly calculates p (frequency of B) = 0.49 + 0.5(0.42) = 0.70, and q (frequency of b) = 0.09 + 0.5(0.42) = 0.30. Both values must be shown with work."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Determine whether the original beetle population is in Hardy-Weinberg equilibrium for this locus. Justify your conclusion using the allele frequencies you calculated in part (a).",
+        "rubric": "Student uses p^2, 2pq, q^2 to calculate expected genotype frequencies (BB = 0.49, Bb = 0.42, bb = 0.09) and compares them to observed frequencies, concluding the population IS in Hardy-Weinberg equilibrium because observed and expected frequencies match."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Given that dark-bodied beetles survive predation at a higher rate in this environment, identify the type of natural selection acting on body color in this population and explain how allele frequencies are expected to change over generations.",
+        "rubric": "Student correctly identifies directional selection acting on body color. Student explains that the B allele (dark body) confers higher fitness/survival/reproductive success, so the frequency of B will increase and frequency of b will decrease over generations."
+      },
+      {
+        "label": "d",
+        "command": "Describe",
+        "question": "After the flood reduces the population to 12 individuals, describe the evolutionary mechanism that is now acting on this population and explain how it differs from natural selection.",
+        "rubric": "Student correctly identifies genetic drift (specifically the bottleneck effect) as the mechanism. Student explains that genetic drift is a random change in allele frequencies due to chance events in small populations, and that unlike natural selection it is not driven by differential fitness or adaptation to the environment."
+      },
+      {
+        "label": "e",
+        "command": "Predict",
+        "question": "Predict how the migration of beetles from the neighboring population (B allele frequency = 0.90) into the post-flood population will affect the allele frequencies of the recovering population. Explain the evolutionary mechanism responsible.",
+        "rubric": "Student correctly identifies gene flow as the mechanism. Student predicts that the frequency of the B allele in the recovering population will increase (move toward 0.90) because migrants introduce B alleles into the gene pool, changing allele frequencies in the recipient population."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Correctly calculates allele frequency p (B) = 0.70 and q (b) = 0.30 using genotype frequencies, showing work with p = BB + 1/2 Bb formula.",
+        "partLabel": "a",
+        "skill": "calculate",
+        "keywords": [
+          "p = 0.70",
+          "q = 0.30",
+          "allele frequency",
+          "p equals 0.49 plus 0.21",
+          "q equals 0.09 plus 0.21",
+          "frequency of B",
+          "frequency of b",
+          "0.70 and 0.30",
+          "sum to 1.0",
+          "homozygous dominant plus half heterozygous",
+          "p plus q equals one"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Correctly determines population IS in Hardy-Weinberg equilibrium by calculating expected genotype frequencies using p^2, 2pq, q^2 and showing they match observed frequencies.",
+        "partLabel": "b",
+        "skill": "justify",
+        "keywords": [
+          "Hardy-Weinberg equilibrium",
+          "p squared",
+          "2pq",
+          "q squared",
+          "expected frequencies match observed",
+          "0.49",
+          "0.42",
+          "0.09",
+          "in equilibrium",
+          "HWE conditions met",
+          "predicted genotype frequencies",
+          "no evolution occurring"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Correctly identifies directional selection and explains that the B allele increases in frequency because dark body color confers higher survival/fitness against predation.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "directional selection",
+          "B allele increases",
+          "b allele decreases",
+          "higher fitness",
+          "differential survival",
+          "predation pressure",
+          "dark body selected for",
+          "adaptive advantage",
+          "allele frequency shifts in one direction",
+          "camouflage",
+          "relative reproductive success",
+          "phenotypic advantage"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Correctly identifies genetic drift and the bottleneck effect, explaining that random changes in allele frequency occur in small populations and are not based on fitness.",
+        "partLabel": "d",
+        "skill": "describe",
+        "keywords": [
+          "genetic drift",
+          "bottleneck effect",
+          "small population",
+          "random change in allele frequency",
+          "not based on fitness",
+          "chance event",
+          "random sampling error",
+          "unpredictable allele frequency change",
+          "differs from natural selection",
+          "loss of genetic variation",
+          "non-adaptive",
+          "stochastic process"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Correctly identifies gene flow and predicts that the B allele frequency in the recovering population will increase toward 0.90 as migrants introduce B alleles into the gene pool.",
+        "partLabel": "e",
+        "skill": "predict",
+        "keywords": [
+          "gene flow",
+          "migration",
+          "B allele frequency increases",
+          "allele introduced into gene pool",
+          "recipient population",
+          "frequency moves toward 0.90",
+          "migrants carry B alleles",
+          "changes allele frequency",
+          "influx of alleles",
+          "interbreeding between populations",
+          "source population",
+          "homogenizes allele frequencies"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-10',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Biotechnology - CRISPR and Genetic Engineering",
-    units: [6],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 10,
-    autoGraded: true,
-    prompt: "Researchers are using CRISPR-Cas9 to develop a gene drive system intended to reduce the population of Anopheles gambiae mosquitoes, which transmit malaria. The gene drive works by inserting the Cas9 and guide RNA genes at the target site, ensuring that the drive is transmitted to nearly 100% of offspring (instead of the normal 50% for heterozygous alleles). The target gene encodes a female-fertility protein: mosquitoes with two disrupted copies of this gene are sterile females. Field trials in Africa are proposed. Scientists debate the ecological, ethical, and genetic consequences of releasing gene-drive mosquitoes that could potentially spread the drive to all Anopheles gambiae worldwide within decades.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the mechanism by which CRISPR-Cas9 cuts DNA and how homology-directed repair (HDR) can be used to insert new genetic material.", rubric: "Cas9 is guided to a specific target sequence by the guide RNA (gRNA), which base-pairs with the complementary DNA strand (20 nt matching). Cas9 creates a double-strand break (DSB) at the target site. If a repair template (donor DNA) flanked by sequences homologous to either side of the cut is provided, the cell's HDR machinery uses the template to repair the break, incorporating the new sequence. In a gene drive, the Cas9 + gRNA genes themselves serve as the repair template, so the drive cassette is copied into the cut site." }
+    "id": "bio_u7_frq040",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Evolutionary Forces, Hardy-Weinberg Equilibrium, and Speciation in Island Lizard Populations",
+    "units": [
+      7
     ],
-    rubric: [{ points: 1, description: "Cas9 is guided to a specific target sequence by the guide RNA (gRNA), which base", partLabel: 'a', skill: 'describe', keywords: ["complementary dna", "gene", "grna", "dsb", "donor dna"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A species of lizard (Anolis scriptus) inhabits a large mainland population in Central America. The gene controlling dorsal scale coloration has two alleles: B (brown, dominant) and b (green, recessive). In the mainland population, researchers determine that 36% of individuals display the green phenotype. A catastrophic hurricane washes a small group of 12 lizards onto a previously uninhabited island 200 km offshore. By chance, 10 of the 12 founding lizards are brown (BB or Bb) and only 2 are green (bb). Over the next 500 years, the island population grows to thousands of individuals. The island environment has dense green vegetation with few predators, while the mainland has mixed brown-and-green terrain with active predation. Researchers later collect DNA sequence data from both populations and use a molecular clock to estimate divergence time. After many generations, the two populations can no longer interbreed successfully due to accumulated genetic incompatibilities.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Calculate",
+        "question": "Using the Hardy-Weinberg equations, calculate the expected frequency of the heterozygous genotype (Bb) in the mainland population. Show all work, including how you determined allele frequencies from the given phenotype data.",
+        "rubric": "Earns 1 point for correctly identifying q² = 0.36, therefore q = 0.6 (frequency of b allele), p = 1 − 0.6 = 0.4 (frequency of B allele), and calculating 2pq = 2(0.4)(0.6) = 0.48 (48% heterozygous). Must show the step of taking the square root of q² to find q."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain why the allele frequencies in the newly founded island population are likely to differ from the mainland population, and identify the specific evolutionary mechanism responsible. Then predict the long-term effect of this mechanism on genetic diversity in the island population.",
+        "rubric": "Earns 1 point for correctly identifying genetic drift (specifically the founder effect) as the mechanism responsible for allele frequency differences due to the small, non-representative founding group. Must explain that the small founding population does not represent the full genetic variation of the mainland (sampling error / non-random subset), and that genetic drift reduces genetic diversity / allelic richness over generations in the small population."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Predict which type of natural selection (directional, stabilizing, or disruptive) is most likely acting on scale coloration in the island population over many generations, and justify your prediction using the environmental context provided.",
+        "rubric": "Earns 1 point for correctly predicting directional selection acting on the island population, with a justification that the dense green vegetation environment provides a selective advantage to green (bb) lizards because they are better camouflaged / have higher survival / greater reproductive success, shifting allele frequencies toward the b allele over successive generations."
+      },
+      {
+        "label": "d",
+        "command": "Explain",
+        "question": "After 200 years, a second, smaller hurricane deposits 5 lizards from the mainland onto the island. Explain how this event could affect the evolutionary trajectory of the island population, and identify the specific evolutionary mechanism involved.",
+        "rubric": "Earns 1 point for correctly identifying gene flow (migration / immigration) as the mechanism by which new alleles or different allele frequencies are introduced into the island population from the mainland. Must explain that the arrival of mainland lizards introduces B alleles (or increases B allele frequency) into the island gene pool, potentially counteracting or slowing the directional selection toward b alleles, and reducing genetic differentiation between the two populations."
+      },
+      {
+        "label": "e",
+        "command": "Justify",
+        "question": "After many generations, researchers find that the island and mainland lizards cannot produce viable offspring when mated in the laboratory. Using evidence from the scenario and your knowledge of speciation, justify whether these two populations should be classified as separate species, and identify the most likely speciation model that produced this outcome.",
+        "rubric": "Earns 1 point for correctly justifying that the two populations should be classified as separate species based on the biological species concept because they are reproductively isolated / cannot interbreed successfully / have reproductive incompatibilities. Must identify allopatric speciation as the model, noting that geographic isolation (200 km of ocean / physical barrier) prevented gene flow and allowed independent evolution, genetic drift, and natural selection to accumulate differences leading to reproductive isolation."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Correctly applies Hardy-Weinberg equations: identifies q² = 0.36, calculates q = 0.6, p = 0.4, and determines 2pq = 0.48 (48% heterozygous Bb genotype frequency).",
+        "partLabel": "a",
+        "skill": "calculate",
+        "keywords": [
+          "q squared equals 0.36",
+          "q equals 0.6",
+          "p equals 0.4",
+          "2pq",
+          "heterozygous frequency",
+          "0.48",
+          "48 percent",
+          "Hardy-Weinberg equation",
+          "recessive phenotype frequency",
+          "allele frequency",
+          "square root of q squared",
+          "Hardy-Weinberg equilibrium",
+          "green phenotype frequency",
+          "recessive homozygous",
+          "p plus q equals 1"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Identifies genetic drift / founder effect as the mechanism responsible for allele frequency differences in the founding island population, explains sampling error from small non-representative group, and predicts reduced genetic diversity over time.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "genetic drift",
+          "founder effect",
+          "small founding population",
+          "non-representative sample",
+          "sampling error",
+          "reduced genetic diversity",
+          "allelic richness decreases",
+          "random change in allele frequency",
+          "loss of alleles",
+          "bottleneck",
+          "random sampling",
+          "founding individuals",
+          "underrepresented alleles",
+          "overrepresented alleles",
+          "stochastic process"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Predicts directional selection acting on the island population and justifies using green vegetation providing camouflage advantage to green (bb) lizards, increasing survival and reproductive success, shifting allele frequency toward b.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "directional selection",
+          "green phenotype advantaged",
+          "camouflage",
+          "selective advantage",
+          "b allele frequency increases",
+          "differential survival",
+          "differential reproductive success",
+          "green vegetation",
+          "predation pressure reduced",
+          "phenotype shifts toward green",
+          "homozygous recessive favored",
+          "bb genotype",
+          "cryptic coloration",
+          "fitness advantage green",
+          "selection coefficient against brown"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Identifies gene flow as the mechanism and explains that mainland lizards introduce B alleles into the island gene pool, potentially counteracting directional selection and reducing genetic differentiation between populations.",
+        "partLabel": "d",
+        "skill": "explain",
+        "keywords": [
+          "gene flow",
+          "migration",
+          "immigration",
+          "introduces B alleles",
+          "allele frequency shifts",
+          "increases genetic variation",
+          "reduces genetic differentiation",
+          "counteracts directional selection",
+          "mainland alleles enter island gene pool",
+          "new alleles introduced",
+          "interbreeding between populations",
+          "homogenizes allele frequencies",
+          "slows local adaptation",
+          "brown allele reintroduced",
+          "mixing of gene pools"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Justifies classification as separate species using biological species concept (reproductive isolation / no viable offspring) and correctly identifies allopatric speciation as the model due to geographic isolation over ocean barrier.",
+        "partLabel": "e",
+        "skill": "justify",
+        "keywords": [
+          "biological species concept",
+          "reproductive isolation",
+          "cannot interbreed",
+          "no viable offspring",
+          "allopatric speciation",
+          "geographic isolation",
+          "physical barrier",
+          "independent evolution",
+          "accumulated genetic incompatibilities",
+          "separate species",
+          "postzygotic barrier",
+          "ocean barrier",
+          "divergent evolution",
+          "prezygotic isolation",
+          "reproductive incompatibility"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-11',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Population Ecology - Community Interactions",
-    units: [8],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 8,
-    autoGraded: true,
-    prompt: "Researchers monitored populations of snowshoe hares and Canada lynx in the boreal forests of Canada over 90 years, using historical trapping records from the Hudson's Bay Company. The data show oscillating population cycles in both species with a period of approximately 10 years. Hare populations peak approximately 1-2 years before lynx populations peak. Table 4. Approximate population data (thousands of individuals) | Year | Hares (×1000) | Lynx (×1000) | |------|---------------|--------------| | 1900 | 30 | 4 | | 1905 | 80 (peak) | 5 | | 1910 | 12 (low) | 8 (peak) | | 1915 | 40 | 3 | | 1920 | 70 (peak) | 5 | | 1925 | 10 (low) | 7 (peak) | Additional research found that hare populations cycle even in areas without lynx, though the cycles are less extreme.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the ecological relationship between snowshoe hares and Canada lynx and explain how this relationship drives the population cycles.", rubric: "Predator-prey relationship: lynx are obligate predators of snowshoe hares (hares constitute ~90% of lynx diet). Hare increase → more food for lynx → lynx population increases (with 1-2 year lag) → intense predation reduces hare population → less food for lynx → lynx decline → reduced predation pressure → hares begin to recover → cycle repeats. The time lag in lynx response to hare abundance creates oscillations rather than equilibrium." }
+    "id": "bio_u8_frq041",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Carrying Capacity and Population Limits",
+    "units": [
+      8
     ],
-    rubric: [{ points: 1, description: "Predator-prey relationship: lynx are obligate predators of snowshoe hares (hares", partLabel: 'a', skill: 'describe', keywords: ["predator-prey", "population", "predation", "reduced", "with 1-2 year lag"] }],
-    sampleSolution: null
+    "difficulty": "easy",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A population of white-tailed deer lives in a forest ecosystem. Over several decades, ecologists tracked the deer population size. Initially, the population grew rapidly, but over time the growth rate slowed and the population stabilized at approximately 500 individuals. The ecologists noted that food availability, disease, and territorial space were all factors observed during the study period.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Define",
+        "question": "Define carrying capacity and identify the carrying capacity of the deer population described above.",
+        "rubric": "Student earns 1 point for defining carrying capacity as the maximum number of individuals an environment can sustainably support AND identifying 500 individuals as the carrying capacity."
+      },
+      {
+        "label": "b",
+        "command": "Describe",
+        "question": "Describe ONE limiting factor mentioned in the scenario that would prevent the deer population from exceeding its carrying capacity.",
+        "rubric": "Student earns 1 point for correctly describing food availability, disease, or territorial space as a limiting factor that increases death rate or decreases birth rate, thereby capping population growth."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Predict what would happen to the deer population size if a severe drought significantly reduced the vegetation in the forest.",
+        "rubric": "Student earns 1 point for predicting that the deer population would decline or decrease below the current carrying capacity because reduced food availability lowers the new carrying capacity, increasing death rate or decreasing birth rate."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student defines carrying capacity as the maximum population size an environment can sustainably support and correctly identifies 500 individuals as the carrying capacity of this deer population.",
+        "partLabel": "a",
+        "skill": "define",
+        "keywords": [
+          "carrying capacity",
+          "maximum number",
+          "sustainably support",
+          "environmental resources",
+          "500 individuals",
+          "stable population",
+          "maximum population size",
+          "environment can support",
+          "logistic growth",
+          "K",
+          "population stabilized",
+          "resource limits"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student identifies and describes one density-dependent limiting factor from the scenario (food availability, disease, or territorial space) and explains how it limits population growth by affecting birth rate or death rate.",
+        "partLabel": "b",
+        "skill": "describe",
+        "keywords": [
+          "limiting factor",
+          "food availability",
+          "disease",
+          "territorial space",
+          "density-dependent",
+          "death rate increases",
+          "birth rate decreases",
+          "intraspecific competition",
+          "population growth slows",
+          "resource depletion",
+          "habitat space",
+          "pathogen transmission",
+          "overcrowding"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student predicts that the deer population would decline or fall below 500 individuals because drought reduces vegetation, lowering food availability, which lowers the carrying capacity of the ecosystem.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "population decline",
+          "decrease below carrying capacity",
+          "reduced food availability",
+          "drought reduces vegetation",
+          "lower carrying capacity",
+          "death rate exceeds birth rate",
+          "population decreases",
+          "resource scarcity",
+          "starvation",
+          "new carrying capacity",
+          "abiotic factor",
+          "reduced primary productivity",
+          "population falls below 500"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-12',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Photosynthesis - C4 and CAM Adaptations",
-    units: [3],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 9,
-    autoGraded: true,
-    prompt: "In C3 plants, the Calvin cycle enzyme RuBisCO fixes CO2 directly in mesophyll cells. RuBisCO has a competing oxygenase activity — in hot, dry conditions when stomata close, O2 builds up and RuBisCO catalyzes photorespiration, wasting up to 50% of fixed carbon. C4 plants (corn, sugarcane) evolved a biochemical CO2 concentrating mechanism: CO2 is first fixed in mesophyll cells by PEP carboxylase (PEPC, which has no oxygenase activity and high CO2 affinity) into 4-carbon oxaloacetate (OAA) → malate → transported to bundle sheath cells, where CO2 is released and re-fixed by RuBisCO in a high-CO2 environment. CAM plants (cacti, agave, succulents) fix CO2 at night using PEPC (stomata open only at night) into malic acid stored in vacuoles. During the day (stomata closed), malate is released and CO2 is delivered to RuBisCO in high concentrations. A researcher compares the productivity (g dry mass / m² / year) of a C3 wheat field, a C4 corn field, and a CAM agave plantation in the same climate — a hot, semi-arid region.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why C4 plants outcompete C3 plants in hot, sunny environments.", rubric: "In hot environments, stomata close to prevent water loss, causing O2 to accumulate and CO2 to be depleted around RuBisCO. The elevated O2:CO2 ratio increases RuBisCO's oxygenase activity, causing high rates of photorespiration in C3 plants (wasting 30-50% of fixed carbon). C4 plants concentrate CO2 around RuBisCO in bundle sheath cells (10-20× ambient CO2 levels) by using PEPC to pre-fix CO2 in mesophyll cells; this high CO2 concentration suppresses RuBisCO's oxygenase activity, eliminating photorespiration. Additionally, C4 plants use less water per unit carbon fixed (higher water use efficiency) — closed stomata are not needed to maintain high CO2 around RuBisCO." }
+    "id": "bio_u8_frq042",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Predator-Prey Population Dynamics in a Boreal Forest",
+    "units": [
+      8
     ],
-    rubric: [{ points: 1, description: "In hot environments: high temperature increases O2 solubility relative to CO2 an", partLabel: 'a', skill: 'explain', keywords: ["photorespiration", "mesophyll", "stomata", "rubisco", "co2", "o2", "higher water use efficiency"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A long-term study of a boreal forest ecosystem tracks the populations of snowshoe hares and Canadian lynx over 40 years. Data show that hare population peaks are consistently followed by lynx population peaks approximately 1-2 years later. When hare populations crash, lynx populations subsequently decline as well. Researchers note that the hare population also fluctuates even in the absence of lynx, suggesting that vegetation availability plays a secondary role in hare population regulation.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain why the lynx population peak occurs 1-2 years after the hare population peak rather than at the same time.",
+        "rubric": "Student earns 1 point for explaining that lynx reproduction and survival depend on hare availability as a food source; as hare numbers rise, lynx have increased resources leading to higher lynx birth rates or survival, but this reproductive response takes time (lag), so lynx numbers peak after hares."
+      },
+      {
+        "label": "b",
+        "command": "Predict",
+        "question": "Predict what would happen to the lynx population if a disease eliminated 90% of the hare population in a single season. Justify your prediction.",
+        "rubric": "Student earns 1 point for predicting a sharp decline or crash in the lynx population, justified by the loss of primary prey/food source causing increased lynx starvation, decreased reproductive success, or emigration, reducing lynx density significantly."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain how the observation that hare populations fluctuate even without lynx present supports the concept of bottom-up regulation in this ecosystem.",
+        "rubric": "Student earns 1 point for explaining that hare population size is also controlled by plant/vegetation availability (food supply from lower trophic level), meaning resource limitation from producers limits herbivore populations independently of predation, demonstrating bottom-up control."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Explains the time lag between hare and lynx population peaks due to predator reproductive response to prey availability",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "time lag",
+          "prey availability",
+          "food source",
+          "lynx reproduction",
+          "birth rate increases",
+          "hare density",
+          "predator reproductive response",
+          "delayed reproductive response",
+          "generation time",
+          "population overshoot",
+          "predator-prey oscillation",
+          "resource-dependent reproduction"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Predicts lynx population crash due to loss of prey and justifies with food limitation, starvation, or reproductive failure",
+        "partLabel": "b",
+        "skill": "predict",
+        "keywords": [
+          "lynx population declines",
+          "starvation",
+          "food limitation",
+          "prey scarcity",
+          "decreased reproductive success",
+          "reduced carrying capacity",
+          "population crash",
+          "primary prey eliminated",
+          "emigration",
+          "density-dependent mortality",
+          "trophic disruption",
+          "obligate predator"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Explains bottom-up regulation by linking hare fluctuations in absence of lynx to vegetation or food resource limitation from lower trophic level",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "bottom-up regulation",
+          "bottom-up control",
+          "vegetation availability",
+          "plant resources",
+          "food supply",
+          "lower trophic level",
+          "resource limitation",
+          "herbivore regulated by producers",
+          "independent of predation",
+          "producer-driven regulation",
+          "limiting resource",
+          "intraspecific competition for food"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-13',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Chromosomal Inheritance and Nondisjunction",
-    units: [5],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 9,
-    autoGraded: true,
-    prompt: "A cytogeneticist studies chromosomal abnormalities in human cells. During routine karyotype analysis of amniotic fluid cells from multiple pregnancies, she identifies several cases with abnormal chromosome numbers. She also examines meiotic divisions in tissue samples and observes that errors in chromosome segregation (nondisjunction) can occur in either meiosis I or meiosis II, producing gametes with abnormal chromosome numbers. She presents the following data: Table 5. Observed chromosomal abnormalities in analyzed samples bnormality A Chromosome Affected Frequency in Samples Chr 21 12 cases Trisomy 18 (Edwards syndrome) Chr 18 3 cases Monosomy X (Turner syndrome) Chr X 5 cases XXY (Klinefelter syndrome) Chr X 4 cases Trisomy 13 (Patau syndrome) Chr 13 2 cases Trisomy 21 (Down syndrome) She notes that the frequency of trisomy 21 increases dramatically with maternal age, but the frequency of Turner syndrome (monosomy X) does not show the same strong maternal age correlation.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the process of nondisjunction during meiosis I and explain how it produces aneuploid gametes.", rubric: "Nondisjunction in meiosis I: homologous chromosome pairs fail to separate at anaphase I — both homologs migrate to the same pole instead of one going to each pole. Both resulting cells contain either two copies of the affected chromosome (n+1) or zero copies (n-1). After meiosis II, which divides these unequal cells normally, all four resulting gametes are abnormal: two have an extra chromosome (n+1) and two are missing that chromosome (n-1). Contrast with meiosis II nondisjunction, where sister chromatids fail to separate — produces two abnormal gametes (one n+1 and one n-1) and two normal gametes." },
-    { label: 'b', command: 'Predict', question: "whether a trisomy 21 individual whose trisomy arose from meiosis I nondisjunction or meiosis II nondisjunction could be distinguished by genetic analysis of the extra chromosome. Explain the diagnostic approach.", rubric: "Yes, they can be distinguished. In meiosis I nondisjunction: both homologs of chromosome 21 from the same parent travel to the same pole, so the trisomic individual has three chromosomes 21 — one from one parent and both homologs from the other. The two \"extra\" copies from the non-disjunction parent are non-identical (they are the two homologs, which differ at heterozygous loci). In meiosis II nondisjunction: sister chromatids from the same chromosome fail to separate, so the trisomic individual has one chromosome 21 from each parent plus one extra sister chromatid — the two copies from the same parent are identical (or nearly so) because they are the same original chromatid duplicated. Using microsatellite markers (STRs) on chromosome 21 that differ between parents, one can determine whether the extra copy is heterozygous at those markers (meiosis I origin) or homozygous/identical (meiosis II origin) at the same markers. Approximately 75-80% of trisomy 21 cases arise from maternal meiosis I nondisjunction." },
-    { label: 'c', command: 'Explain', question: "why the frequency of trisomy 21 increases with maternal age but does not increase significantly with paternal age.", rubric: "Female meiosis is arrested at prophase I from before birth through puberty (primary oocytes remain in dictyate arrest). Meiosis I does not complete until just before ovulation — potentially decades later. During this arrest, the cohesion proteins (cohesin) that hold sister chromatids and chiasmata together gradually degrade over time. Older oocytes have cohesin that has deteriorated over more years, making chromosome segregation less accurate and nondisjunction more likely. Male meiosis, in contrast, is continuous from puberty — spermatocytes complete meiosis in approximately 72 days and are continuously renewed from spermatogonial stem cells. There is no decades-long meiotic arrest in males, so the cohesin deterioration problem does not apply. Must reference oocyte arrest and cohesin degradation." },
-    { label: 'd', command: 'Explain', question: "why Turner syndrome (monosomy X) is compatible with survival while most other monosomies are lethal in humans.", rubric: "Most autosomal monosomies are lethal because cells require two functional copies (or at least one) of most autosomal genes — hemizygosity for many essential autosomal genes causes insufficient gene product to maintain development. Monosomy X is less lethal because: (1) normal females already functionally inactivate one X chromosome in every somatic cell (X-inactivation / Lyon hypothesis) — so normal XX females effectively operate with one active X per cell anyway; (2) the Y chromosome in normal males carries very few genes beyond sex-determining ones, so males (XY) survive with only one X; this demonstrates that one X is sufficient for viability; (3) the X chromosome, while containing many genes, has been partially \"pre-adapted\" to monosomic expression. Note: Turner syndrome individuals are still affected because some X-linked genes escape inactivation and two copies are needed — explaining their clinical features (short stature, gonadal dysgenesis)." },
-    { label: 'e', command: 'Describe', question: "the chromosomal composition of an individual with Klinefelter syndrome (XXY) and explain the most likely meiotic origin of this karyotype.", rubric: "Klinefelter syndrome (XXY): individual has two X chromosomes and one Y chromosome (total 47 chromosomes). Two most likely origins: (1) Maternal meiosis I nondisjunction — both X chromosomes fail to separate, producing an XX egg; fertilization by a Y sperm → XXY; (2) Maternal meiosis II nondisjunction — sister chromatids of one X fail to separate, producing an XX egg from the same chromosome; fertilization by Y sperm → XXY; (3) Paternal meiosis I nondisjunction — X and Y fail to separate, producing an XY sperm; fertilization of a normal X egg → XXY. Any of these origins produces XXY. Approximately 50% of cases are paternally derived (XY sperm + X egg). Must correctly describe the origin mechanism for full credit." },
-    { label: 'f', command: 'Justify', question: "why a deletion of a chromosomal segment is generally more harmful than a duplication of the same segment.", rubric: "A deletion removes genes entirely — for any essential gene in the deleted segment, there is only the copy on the homolog remaining. If that copy is also mutated or insufficient alone (haploinsufficiency), the organism lacks essential function. Many genes are haploinsufficient — one copy cannot produce enough protein for normal function. A duplication provides an extra copy of genes, which generally causes overexpression rather than complete loss. Overexpression is often better tolerated than complete loss (cells can sometimes compensate for extra gene product more easily than for absent product). Additionally, duplications provide raw material for evolution — extra copies can mutate and evolve new functions without eliminating the original function. Deletions provide no such redundancy and cannot be compensated by mutation." },
-    { label: 'g', command: 'Predict', question: "the consequences for an individual if a translocation occurs between chromosome 14 and chromosome 21, with the long arm of chromosome 21 fusing to chromosome 14, during the formation of a parental gamete. Under what circumstances would the resulting offspring have clinical Down syndrome?", rubric: "This is Robertsonian translocation. The translocation chromosome (14;21) carries the long arm of chromosome 21 attached to chromosome 14. A parent carrying this translocation has 45 chromosomes but is phenotypically normal because they have a normal chromosome 14, a normal chromosome 21, AND the translocation chromosome (which together provide two full copies of chromosome 21 material). When this parent produces gametes, several possible gametes form. One type carries: the translocation chromosome (21q attached to 14) + a normal chromosome 21 → when fertilized by a normal gamete (with one 14 and one 21) → offspring has three copies of chromosome 21 material (translocation + normal 21 from carrier parent + normal 21 from other parent) → clinical Down syndrome. This is familial Down syndrome, which does not increase in frequency with maternal age (unlike standard trisomy 21 from nondisjunction) because it is due to a chromosomal rearrangement, not a meiotic segregation error dependent on oocyte age." },
-    { label: 'h', command: 'Support', question: "the claim that aneuploidy in cancer cells often provides a selective growth advantage, connecting this to what you know about tumor suppressor genes and oncogenes.", rubric: "In cancer cells, chromosomal instability (CIN) leads to aneuploidy — gains and losses of whole chromosomes or chromosome arms. This provides growth advantages through: (1) Loss of heterozygosity (LOH) — if one allele of a tumor suppressor gene is already mutated, losing the remaining chromosome carrying the wild-type allele (monosomy) eliminates the last functional copy in a single event, more rapidly than a second point mutation; (2) Amplification of oncogene-containing chromosomes — gaining extra copies of chromosomes carrying activated oncogenes increases their expression; (3) Aneuploidy creates phenotypic variation in the tumor cell population, enabling rapid Darwinian selection for subclones with growth advantages in response to treatment or microenvironmental changes. The instability itself (despite being initially harmful) generates the variation that selection acts on. Must connect aneuploidy to either tumor suppressor LOH or oncogene amplification." },
-    { label: 'i', command: 'Explain', question: "why prenatal genetic testing using cell-free fetal DNA (cfDNA) from maternal blood can detect chromosomal abnormalities such as trisomy 21, and describe one limitation of this approach compared to amniocentesis.", rubric: "During pregnancy, the placenta sheds fragments of fetal DNA into the maternal circulation as cell-free DNA (cfDNA). These short DNA fragments (150-200 bp) circulate in maternal plasma alongside maternal cfDNA. Massively parallel sequencing (next-generation sequencing) of all cfDNA fragments allows counting of reads mapping to each chromosome. If the fetus has trisomy 21, approximately 3.3% more reads than expected will map to chromosome 21 (because there is one extra chromosome 21 worth of DNA in the mixture). Bioinformatic analysis detects this subtle overrepresentation. Limitation compared to amniocentesis: cfDNA screening is a screening test, not a diagnostic test — it gives a probability of aneuploidy but cannot definitively diagnose because: (a) cfDNA is mostly of placental origin (trophoblast), and placental mosaicism can cause a false positive (placenta is aneuploid but fetus is not); (b) maternal chromosomal abnormalities can confound results; (c) statistical noise at low fetal fraction (if < 4% fetal cfDNA, sensitivity drops). Amniocentesis provides fetal cells directly and allows definitive karyotyping, but carries a small procedure-associated miscarriage risk. Must correctly explain the sequencing/read-count principle AND name a valid limitation." }
+    "id": "bio_u8_frq043",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Nitrogen Cycle Disruption from Agricultural Runoff",
+    "units": [
+      8
     ],
-    rubric: [{ points: 1, description: "Nondisjunction in meiosis I: homologous chromosome pairs fail to separate at ana", partLabel: 'a', skill: 'describe', keywords: ["sister chromatids", "nondisjunction", "chromosome", "meiosis ii", "meiosis i", "anaphase", "meiosis", "n-1"] }, { points: 1, description: "Yes, they can be distinguished. In meiosis I nondisjunction: both homologs of ch", partLabel: 'b', skill: 'predict', keywords: ["sister chromatids", "nondisjunction", "heterozygous", "chromosome", "meiosis ii", "homozygous", "chromatid", "meiosis i", "trisomy", "meiosis"] }, { points: 1, description: "Female meiosis is arrested at prophase I from before birth through puberty (prim", partLabel: 'c', skill: 'explain', keywords: ["oocyte arrest", "sister chromatids", "nondisjunction", "chromosome", "chiasmata", "meiosis i", "cohesion", "prophase", "meiosis", "primary oocytes remain in dictyate arrest"] }, { points: 1, description: "Most autosomal monosomies are lethal because cells require two functional copies", partLabel: 'd', skill: 'explain', keywords: ["linked genes", "chromosome", "x-linked", "gene", "x-inactivation / lyon hypothesis"] }, { points: 1, description: "Klinefelter syndrome (XXY): individual has two X chromosomes and one Y chromosom", partLabel: 'e', skill: 'describe', keywords: ["sister chromatids", "nondisjunction", "fertilization", "chromosome", "meiosis ii", "meiosis i", "meiosis", "xxy", "total 47 chromosomes"] }, { points: 1, description: "A deletion removes genes entirely — for any essential gene in the deleted segmen", partLabel: 'f', skill: 'explain', keywords: ["mutation", "gene", "haploinsufficiency"] }, { points: 1, description: "This is Robertsonian translocation. The translocation chromosome (14;21) carries", partLabel: 'g', skill: 'predict', keywords: ["nondisjunction", "translocation", "chromosome", "trisomy", "carrier", "gamete", "with one 14 and one 21", "unlike standard trisomy 21 from nondisjunction"] }, { points: 1, description: "In cancer cells, chromosomal instability (CIN) leads to aneuploidy — gains and l", partLabel: 'h', skill: 'describe', keywords: ["tumor suppressor", "chromosome", "population", "variation", "mutation", "oncogene", "cancer", "allele", "gene", "cin"] }, { points: 1, description: "During pregnancy, the placenta sheds fragments of fetal DNA into the maternal ci", partLabel: 'i', skill: 'explain', keywords: ["probability", "chromosome", "trisomy", "cfdna", "next-generation sequencing", "trophoblast", "placenta is aneuploid but fetus is not"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A river ecosystem borders several large cornfields that are heavily fertilized with nitrogen-containing compounds each spring. Over the past decade, ecologists have documented a dramatic increase in algae growth in the river during late spring and early summer, followed by large-scale fish kills in midsummer. Water samples taken during the fish kills show extremely low dissolved oxygen concentrations. The ecologists also note that denitrifying bacteria are abundant in the river sediments.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain how agricultural runoff from the cornfields leads to the algal blooms observed in the river, referencing the nitrogen cycle.",
+        "rubric": "Student earns 1 point for explaining that nitrogen-containing fertilizers (nitrates or ammonium) wash into the river via runoff, increasing available inorganic nitrogen, which acts as a limiting nutrient that stimulates excessive algal growth (eutrophication)."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain the sequence of events that connects the algal bloom to the fish kills observed in midsummer.",
+        "rubric": "Student earns 1 point for explaining that algae die and decomposers/bacteria decompose the organic matter, consuming large amounts of dissolved oxygen through cellular respiration (aerobic decomposition), causing hypoxic or anoxic conditions that lead to fish suffocation or death."
+      },
+      {
+        "label": "c",
+        "command": "Describe",
+        "question": "Describe the role of denitrifying bacteria found in the river sediments in the nitrogen cycle.",
+        "rubric": "Student earns 1 point for describing that denitrifying bacteria convert nitrates (NO3-) or nitrites back into nitrogen gas (N2), which is released into the atmosphere, completing the nitrogen cycle by returning fixed nitrogen to the atmosphere and reducing bioavailable nitrogen in the ecosystem."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Explains that fertilizer nitrogen enters the river as runoff, providing excess inorganic nitrogen that stimulates algal growth (eutrophication)",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "nitrogen runoff",
+          "nitrates",
+          "ammonium",
+          "limiting nutrient",
+          "eutrophication",
+          "algal bloom",
+          "excess inorganic nitrogen",
+          "fertilizer leaching",
+          "nutrient pollution",
+          "nonpoint source pollution",
+          "nitrogen loading",
+          "primary productivity increase"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Explains decomposition of dead algae depletes dissolved oxygen via aerobic respiration, causing hypoxia and fish kills",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "decomposition",
+          "heterotrophic decomposers",
+          "aerobic cellular respiration",
+          "dissolved oxygen depleted",
+          "hypoxia",
+          "anoxic conditions",
+          "oxygen depletion",
+          "microbial decomposition of algae",
+          "algal die-off",
+          "fish suffocation",
+          "biological oxygen demand",
+          "dead zone formation"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Describes denitrifying bacteria converting nitrates/nitrites to nitrogen gas, returning nitrogen to the atmosphere",
+        "partLabel": "c",
+        "skill": "describe",
+        "keywords": [
+          "denitrification",
+          "denitrifying bacteria",
+          "nitrate converted to nitrogen gas",
+          "NO3- to N2",
+          "atmospheric nitrogen released",
+          "anaerobic sediment conditions",
+          "fixed nitrogen returned to atmosphere",
+          "reduces bioavailable nitrogen",
+          "completes nitrogen cycle",
+          "nitrogen reservoir",
+          "nitrite intermediate",
+          "anaerobic metabolism"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-14',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Succession, Nutrient Cycling, and Ecosystem Recovery",
-    units: [8],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 8,
-    autoGraded: true,
-    prompt: "In 1980, the eruption of Mount St. Helens in Washington State destroyed all vegetation and soil in a 600 km² area. Ecologists have monitored the recovery of this zone for more than 40 years. Within months, pioneer species (mosses, lupines, small insects) began colonizing bare rock and ash. Over subsequent decades, a progression of plant communities developed. By 2010, much of the area had transitioned from bare ash to early shrubland and young conifer stands, though the process is still incomplete. Ecologists also monitor nearby Spirit Lake, which was drastically altered by the eruption. The lake was filled with logs and debris, became anoxic, and had dramatically altered water chemistry. Twenty years after the eruption, Spirit Lake showed recovering phytoplankton communities and slowly improving water quality. Table 6. Plant community changes at Mount St. Helens over 40 years Year Post-Eruption Dominant Community Type Approximate Species Richness 0-1 Bare ash/rock (no plants) 0 2-5 Pioneer species (mosses, fireweed, lupine) 5-15 10-15 Mixed herbaceous and early shrubs 20-40 20-30 Alder and willow thickets, early conifers 35-60 30-40 Young conifer forest, mixed understory 50-80",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Identify', question: "the type of ecological succession occurring at Mount St. Helens and distinguish it from the other major type of succession.", rubric: "Primary succession — colonization of bare, lifeless substrate with no existing soil or biological legacy. The eruption removed all soil, seeds, and living organisms from much of the blast zone, leaving bare rock and ash with no established ecosystem. Distinguished from secondary succession: secondary succession occurs after a disturbance that destroys existing vegetation but leaves soil, seed banks, roots, and soil microorganisms intact (e.g., after a forest fire, abandoned agricultural field, or flood). Secondary succession is faster because the biological infrastructure (soil structure, nutrients, seed banks) is already in place. In primary succession, soil itself must be built from scratch through weathering and organic matter accumulation. Must correctly define both types." },
-    { label: 'b', command: 'Explain', question: "why lupines were among the first successful colonizers of the Mount St. Helens blast zone, given that the volcanic ash was virtually devoid of nutrients.", rubric: "Lupines (Lupinus) are legumes — they form mutualistic symbioses with nitrogen-fixing bacteria (Rhizobium / Bradyrhizobium) in root nodules. These bacteria convert atmospheric N2 into ammonium (NH4+), which the plant can use as a nitrogen source. In nitrogen-poor volcanic ash, lupines can grow without depending on soil nitrate or ammonium, giving them a massive competitive advantage over non-nitrogen-fixing plants. Additionally, when lupines die and decompose, they enrich the ash with organic nitrogen, facilitating colonization by other plant species. Pioneer species that fix nitrogen are classic early colonizers in primary succession because they can manufacture their own nitrogen supply." },
-    { label: 'c', command: 'Describe', question: "the mechanism by which pioneer plants like mosses and lupines facilitate the colonization of subsequent plant species — a process called facilitation.", rubric: "Facilitation occurs when early colonizers modify the environment in ways that make it more suitable for later species: (1) Physical weathering — pioneer roots and secreted organic acids break down rock, beginning soil formation; (2) Organic matter accumulation — when pioneers die, their biomass decomposes, adding organic carbon and nutrients (especially nitrogen from legumes) to the developing soil; (3) Microclimate modification — pioneer plant cover reduces wind erosion, moderates temperature extremes, and increases moisture retention in soil; (4) Mycorrhizal network establishment — pioneer plants establish mycorrhizal fungal networks that later species can connect to; (5) Nitrogen enrichment (lupines specifically) — enriches soil for nutrient-demanding successional species. These modifications collectively transform bare ash into a substrate that can support more complex plant communities." },
-    { label: 'd', command: 'Justify', question: "why species richness generally increases throughout succession at Mount St. Helens (as shown in Table 6), but might eventually decrease in the climax community.", rubric: "During early-to-mid succession, species richness increases because: the environment becomes more complex (more niches available as plant structure develops — ground layer, shrub layer, small trees), soil improves enabling more species to establish, resources are not yet monopolized by any single dominant. As succession progresses toward a climax conifer forest, species richness may eventually decrease because: dominant conifers (hemlock, fir) create deep shade that excludes shade-intolerant species; competitive exclusion by dominants narrows niche space; the community becomes more specialized. The intermediate disturbance hypothesis predicts that maximum diversity occurs at intermediate successional stages (not at climax), which is consistent with peak diversity in shrub/early forest phases." },
-    { label: 'e', command: 'Explain', question: "why Spirit Lake became anoxic after the eruption and predict how the ecosystem would recover as phytoplankton communities returned.", rubric: "Spirit Lake became anoxic because: massive amounts of organic matter (logs, ash, dead organisms) entered the lake; aerobic decomposer bacteria rapidly consumed dissolved oxygen as they broke down this organic load; the lake was stratified (mixing prevented by temperature and organic layer), trapping deoxygenated water in the depths; inputs of nutrients (especially from ash leaching and decaying matter) fueled enormous microbial respiration that consumed all available O2. Recovery as phytoplankton return: phytoplankton perform photosynthesis, producing O2 and fixing CO2 (reestablishing primary production); O2 levels in surface water increase; decomposition of organic matter slows as the original organic load decreases; nutrient cycling is reestablished (phytoplankton take up inorganic nutrients, zooplankton graze, nutrient cycling improves water quality); fish and invertebrate communities can eventually recolonize as DO (dissolved oxygen) rises to acceptable levels." },
-    { label: 'f', command: 'Describe', question: "the carbon cycle processes occurring simultaneously in the recovering Mount St. Helens ecosystem, distinguishing between processes that add CO2 to the atmosphere and those that remove it.", rubric: "Processes adding CO2 to atmosphere: (1) Decomposition — microbes and fungi break down dead organic matter (logs, ash-covered humus), releasing CO2 through aerobic respiration; (2) Respiration of pioneer and successional plants — all living organisms respire, releasing CO2; (3) Weathering of carbonate minerals (minor) — CO2 may be released from volcanic rock dissolution. Processes removing CO2 from atmosphere: (1) Photosynthesis by pioneer plants and later successional species — fixing atmospheric CO2 into organic carbon; (2) Soil carbon accumulation — as organic matter accumulates and soil develops, carbon is stored in soil (humus, roots); (3) Wood accumulation in growing conifers — long-term carbon storage in biomass. Net: a recovering ecosystem initially may be a net CO2 source (more decomposition than photosynthesis in early years) but shifts to a net CO2 sink as plant biomass accumulates." },
-    { label: 'g', command: 'Predict', question: "how the rate of succession would differ if the eruption had occurred during the Little Ice Age (several centuries ago, before modern warming) versus today's warmer climate. Justify your prediction.", rubric: "Under modern warmer climate, succession would likely proceed faster than under Little Ice Age conditions: (1) Warmer temperatures increase rates of soil formation through faster weathering and greater decomposer activity; (2) Longer growing seasons in warmer climate allow more time for plant establishment and growth per year; (3) Higher temperatures can accelerate nitrogen fixation by root-nodule bacteria in pioneer legumes; (4) However, increased drought stress in a warmer, drier climate could slow colonization of water-sensitive species; (5) Changes in species ranges (species arriving from warmer latitudes) could introduce new colonizers not available during the Little Ice Age. On balance, for a Pacific Northwest location with adequate moisture, the warmer climate effect on metabolic rates would likely accelerate early succession, while drought stress would be a countervailing factor. Accept well-reasoned predictions for either faster or slower succession with appropriate climate justification." },
-    { label: 'h', command: 'Support', question: "the claim that the monitoring of the Mount St. Helens recovery represents a \"natural experiment\" that cannot be fully replicated in a controlled laboratory setting, and explain what unique knowledge it provides.", rubric: "Natural experiment: the eruption created a massive-scale, replicated disturbance across a real landscape simultaneously. This cannot be replicated in a lab because: (1) Scale — the ecosystem spans 600 km² with complex topography, microhabitats, animal dispersal corridors, and regional species pools that cannot be reproduced in any laboratory; (2) Time — 40+ years of data captures multiple generations of plant and animal species and soil development that would require centuries to fully observe; (3) Complexity — hundreds of species interactions, soil microorganism networks, hydrology, climate variation, and wildlife recolonization interact in ways impossible to control or simulate; (4) Authenticity — real dispersal events, chance colonization, and actual climate conditions produce outcomes that controlled experiments cannot predict. Unique knowledge: successional trajectories, rates of soil development, role of refugia (surviving patches) in recolonization, effects of disturbance heterogeneity (differential blast damage), and long-term carbon dynamics in recovering systems." }
+    "id": "bio_u8_frq044",
+    "subject": "apbio",
+    "frqType": "short",
+    "title": "Nitrogen Cycle Disruption and Eutrophication",
+    "units": [
+      8
     ],
-    rubric: [{ points: 1, description: "Primary succession — colonization of bare, lifeless substrate with no existing s", partLabel: 'a', skill: 'describe', keywords: ["secondary succession", "primary succession", "substrate", "ecosystem"] }, { points: 1, description: "Lupines (Lupinus) are legumes — they form mutualistic symbioses with nitrogen-fi", partLabel: 'b', skill: 'explain', keywords: ["primary succession", "lupinus", "rhizobium / bradyrhizobium"] }, { points: 1, description: "Facilitation occurs when early colonizers modify the environment in ways that ma", partLabel: 'c', skill: 'describe', keywords: ["substrate", "biomass", "especially nitrogen from legumes", "lupines specifically"] }, { points: 1, description: "During early-to-mid succession, species richness increases because: the environm", partLabel: 'd', skill: 'explain', keywords: ["community", "dominant", "niche", "not at climax"] }, { points: 1, description: "Spirit Lake became anoxic because: massive amounts of organic matter (logs, ash,", partLabel: 'e', skill: 'explain', keywords: ["nutrient cycling", "photosynthesis", "decomposer", "co2", "o2", "mixing prevented by temperature and organic layer", "especially from ash leaching and decaying matter", "reestablishing primary production", "dissolved oxygen"] }, { points: 1, description: "Processes adding CO2 to atmosphere: (1) Decomposition — microbes and fungi break", partLabel: 'f', skill: 'describe', keywords: ["aerobic respiration", "photosynthesis", "ecosystem", "biomass", "co2", "minor"] }, { points: 1, description: "Under modern warmer climate, succession would likely proceed faster than under L", partLabel: 'g', skill: 'predict', keywords: ["nitrogen fixation", "decomposer", "species arriving from warmer latitudes"] }, { points: 1, description: "Natural experiment: the eruption created a massive-scale, replicated disturbance", partLabel: 'h', skill: 'describe', keywords: ["variation", "ecosystem", "surviving patches", "differential blast damage"] }],
-    sampleSolution: null
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 3,
+    "prompt": "A coastal estuary receives runoff from surrounding agricultural fields that have been heavily fertilized with ammonium-based fertilizers over several decades. Scientists monitoring the estuary document a dramatic increase in dissolved inorganic nitrogen, followed by explosive algal blooms. Subsequent decomposition of the algae by heterotrophic bacteria has caused dissolved oxygen levels to drop below 2 mg/L across large portions of the estuary, creating a persistent hypoxic dead zone. Meanwhile, nitrifying bacteria populations in the estuary sediment have been significantly reduced due to the hypoxic conditions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain how the reduction in nitrifying bacteria populations in the estuary sediment disrupts the nitrogen cycle, referencing the specific transformation these bacteria normally perform.",
+        "rubric": "Earns 1 point for explaining that nitrifying bacteria convert ammonium (NH4+) to nitrite (NO2-) and then to nitrate (NO3-) through nitrification, and that their reduction means ammonium accumulates rather than being oxidized, disrupting the flow of nitrogen through the cycle and potentially reducing the substrate available for denitrification."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain the mechanism by which the algal bloom leads to hypoxic conditions, specifically addressing the role of decomposers in oxygen depletion.",
+        "rubric": "Earns 1 point for explaining that heterotrophic bacteria decompose the large mass of dead algae through cellular respiration, consuming dissolved oxygen (O2) faster than it can be replenished by photosynthesis or diffusion, thereby depleting dissolved oxygen and creating hypoxia."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Predict how hypoxic dead zone conditions would affect denitrification rates in the estuary sediment, and justify why this outcome is paradoxical given the goal of reducing excess nitrogen in the estuary.",
+        "rubric": "Earns 1 point for predicting that denitrification rates would increase because denitrifying bacteria are anaerobic or facultative anaerobes that thrive in low-oxygen conditions, converting nitrate to nitrogen gas (N2), and that this is paradoxical because denitrification does remove nitrogen but the dead zone itself is caused by the excess nitrogen, meaning the system self-corrects at the cost of catastrophic biodiversity loss and ecosystem disruption."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that nitrifying bacteria perform nitrification, converting ammonium/NH4+ to nitrate/NO3- (via nitrite), and that their reduction causes ammonium to accumulate and disrupts the nitrogen cycle.",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "nitrifying bacteria",
+          "nitrification",
+          "ammonium to nitrate",
+          "NH4+ to NO3-",
+          "ammonium oxidation",
+          "nitrite intermediate",
+          "nitrogen cycle disrupted",
+          "accumulation of ammonium",
+          "Nitrosomonas",
+          "Nitrobacter",
+          "chemolithotrophs",
+          "ammonium not oxidized",
+          "nitrification blocked",
+          "inorganic nitrogen transformation"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student explains that decomposers/heterotrophic bacteria consume dissolved oxygen through aerobic cellular respiration while breaking down dead algal biomass, depleting O2 faster than it is replaced and causing hypoxia.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "decomposers",
+          "heterotrophic bacteria",
+          "cellular respiration",
+          "dissolved oxygen consumed",
+          "oxygen depletion",
+          "aerobic decomposition",
+          "dead algae decomposed",
+          "biological oxygen demand",
+          "BOD",
+          "hypoxia",
+          "O2 depleted",
+          "microbial respiration",
+          "algal biomass breakdown",
+          "oxygen not replenished",
+          "eutrophication"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student predicts denitrification increases under hypoxic/anaerobic conditions because denitrifying bacteria are anaerobes/facultative anaerobes that convert nitrate to N2 gas, and identifies the paradox that the dead zone enabling this removal also destroys the ecosystem.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "denitrification increases",
+          "denitrifying bacteria",
+          "anaerobic conditions",
+          "nitrate to nitrogen gas",
+          "NO3- to N2",
+          "facultative anaerobes",
+          "low oxygen favors denitrifiers",
+          "paradox",
+          "ecosystem destruction",
+          "nitrogen removed but dead zone persists",
+          "anoxic sediment",
+          "nitrate reduction",
+          "denitrification rate elevated",
+          "biodiversity loss",
+          "self-correcting at ecosystem cost"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'LB-15',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Cell Cycle Regulation and DNA Repair",
-    units: [4],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 10,
-    autoGraded: true,
-    prompt: "The p53 protein (encoded by the TP53 gene) is often called the \"guardian of the genome.\" It functions as a transcription factor activated by cellular stress signals — particularly DNA damage. Upon activation, p53 transcriptionally upregulates genes involved in cell cycle arrest (p21/CDKN1A), DNA repair (GADD45), and apoptosis (BAX, PUMA). TP53 is the most frequently mutated gene in human cancers, with mutations present in more than 50% of all cancers. Li-Fraumeni syndrome is a rare hereditary condition in which patients inherit one mutant TP53 allele and have a lifetime cancer risk approaching 100%. Researchers studying p53 conduct two experiments: ● ● Experiment 1: Normal cells and p53-null cells (both TP53 alleles deleted) are exposed to ionizing radiation. Cell viability and division are monitored. Experiment 2: Cells with a \"dominant negative\" p53 mutation (the mutant protein inactivates the wild-type protein in the same cell) are compared to cells heterozygous for a simple loss-of-function p53 allele.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "the molecular mechanism by which DNA damage activates p53.", rubric: "DNA double-strand breaks (or other DNA damage) are sensed by kinases — primarily ATM (ataxia telangiectasia mutated) and ATR — which are recruited to damage sites. ATM/ATR phosphorylate the protein kinases Chk1 and Chk2, which in turn phosphorylate p53 on serine 15 and 20. Normally, p53 is rapidly ubiquitinated by MDM2 (a ubiquitin E3 ligase that binds p53 and targets it for proteasomal degradation) — phosphorylation of p53 prevents MDM2 binding, stabilizing p53. Additionally, phosphorylation of MDM2 by ATM reduces its ability to ubiquitinate p53. The result: p53 accumulates in the nucleus, tetramerizes, and binds p53 response elements in target gene promoters to activate transcription of cell cycle arrest and apoptosis genes." },
-    { label: 'b', command: 'Describe', question: "the role of p21 (CDKN1A) in p53-mediated cell cycle arrest and explain at which checkpoint p21 acts.", rubric: "p21 is a CDK inhibitor (CKI) — it binds to and inhibits cyclin E-CDK2 and cyclin D-CDK4/6 complexes. These CDK complexes are normally responsible for phosphorylating Rb (retinoblastoma protein) at the G1/S checkpoint, releasing E2F transcription factors that drive S-phase gene expression. When p53 activates p21 transcription, p21 protein accumulates and inhibits CDK activity, preventing Rb phosphorylation. Rb remains unphosphorylated (hypophosphorylated) and sequesters E2F transcription factors, blocking progression into S phase. The cell arrests at the G1/S checkpoint. This arrest gives the cell time to repair DNA damage before replication, preventing propagation of mutations to daughter cells." },
-    { label: 'c', command: 'Predict', question: "the outcome of Experiment 1 — how would p53-null cells respond to ionizing radiation differently from normal cells?", rubric: "Normal cells: ionizing radiation causes DNA damage → p53 activated → p21 upregulated → cell cycle arrest at G1/S checkpoint → DNA repair attempted. If damage is irreparable, p53 upregulates pro-apoptotic genes (BAX, PUMA) → apoptosis → cell death. Normal cells show decreased viability and division initially, but surviving cells have repaired DNA. P53-null cells: radiation causes same DNA damage → but without p53, no transcriptional activation of p21 or apoptosis genes. p53-null cells do NOT arrest at G1/S — they continue into S phase and replicate damaged DNA. This leads to: (1) accumulation of mutations (misrepaired breaks, deletions, translocations); (2) chromosomal instability; (3) no apoptosis of severely damaged cells. p53-null cells show HIGHER short-term viability (they don't undergo apoptosis) but accumulate genomic damage that leads to cancer-prone genomic instability. Cell division continues unchecked despite extensive DNA damage." },
-    { label: 'd', command: 'Explain', question: "why a dominant-negative p53 mutation (Experiment 2) might be more oncogenic than a simple heterozygous loss-of-function mutation.", rubric: "p53 functions as a tetramer — four p53 monomers assemble to form the active transcription factor complex. In a cell heterozygous for a loss-of-function allele: roughly 50% of p53 monomers are non-functional (from the mutant allele) and 50% are functional. Tetramers form with different ratios of wild-type and mutant subunits; some tetramers contain sufficient wild-type subunits to retain partial activity. Overall, the cell still has significant p53 function, just reduced. In a dominant-negative mutation: the mutant p53 protein is not simply non-functional — it actively interferes with the wild-type protein by forming non-functional tetramers. If the mutant monomer can incorporate into tetramers with wild-type monomers and inactivate them, then even the wild-type protein from the intact allele is partially or fully neutralized. One mutant allele can thus functionally eliminate most or all p53 activity — behaving more like a homozygous null than a simple heterozygote. This makes dominant-negative mutations more potent oncogenic drivers." },
-    { label: 'e', command: 'Justify', question: "why Li-Fraumeni syndrome patients (inheriting one mutant TP53 allele) develop cancers at very young ages across many different tissue types, rather than only in specific tissues.", rubric: "p53 is a universal genome surveillance protein expressed in virtually every cell type — it responds to DNA damage, replication stress, oncogene activation, and hypoxia in all tissues. Unlike organ-specific tumor suppressors (e.g., BRCA1 conferring breast/ovarian risk, APC conferring colorectal risk), p53's function is tissue-universal. Li-Fraumeni patients start life with one mutant TP53 allele in every cell. A second somatic mutation inactivating the remaining wild-type allele in any cell type — breast, bone, brain, adrenal, soft tissue — can immediately eliminate p53 function in that cell, removing the critical brake on cell division and DNA damage response. Because this second hit can occur in any dividing cell, cancers arise in multiple tissues. Early onset reflects the reduced number of mutational \"hits\" needed — only one somatic mutation (in any tissue) is required rather than two independent mutations." },
-    { label: 'f', command: 'Describe', question: "the MDM2-p53 feedback loop and explain how it normally maintains low p53 levels in undamaged cells.", rubric: "MDM2 and p53 form an autoregulatory negative feedback loop: (1) p53 transcriptionally activates MDM2 gene expression — elevated p53 increases MDM2 protein; (2) MDM2 protein binds to the N-terminal transactivation domain of p53, blocking p53's transcriptional activity; (3) MDM2 is a ubiquitin E3 ligase — it ubiquitinates p53, marking it for proteasomal degradation; (4) As p53 is degraded, MDM2 transcription drops, allowing p53 to slowly accumulate again before being degraded. Net result: in undamaged cells, p53 is continuously transcribed and translated but immediately ubiquitinated and degraded by MDM2 — p53 half-life is approximately 20-30 minutes, maintaining very low steady-state p53 protein levels. When DNA damage occurs, phosphorylation of p53 prevents MDM2 binding, allowing p53 to accumulate and activate target genes." },
-    { label: 'g', command: 'Predict', question: "whether MDM2 gene amplification (producing excess MDM2 protein) would have a similar effect to a loss-of-function TP53 mutation in terms of cancer risk. Justify your prediction.", rubric: "Prediction: MDM2 amplification would have a similar functional effect to TP53 loss-of-function — elevated MDM2 would constitutively ubiquitinate and degrade p53, maintaining near-zero p53 levels even in the presence of DNA damage. The cell effectively lacks functional p53 response even though the TP53 gene is intact. Cancer risk would be elevated for the same reasons as TP53 loss: DNA damage signals would not activate p53-dependent arrest or apoptosis, allowing cells to propagate mutations. Evidence supports this: MDM2 is amplified in approximately 10-15% of all cancers (particularly soft tissue sarcomas), and MDM2 amplification and TP53 mutation are typically mutually exclusive in tumors — confirming they achieve the same functional outcome (p53 pathway inactivation) through different mechanisms. This mutual exclusivity is itself strong evidence that both alterations eliminate p53 function." },
-    { label: 'h', command: 'Explain', question: "the rationale for developing MDM2 inhibitor drugs (such as Nutlin-3a) as cancer therapeutics, and identify the patient population most likely to benefit.", rubric: "Rationale: many cancers retain wild-type TP53 but inactivate the p53 pathway by amplifying MDM2 or through other means. MDM2 inhibitors (stapled peptides, small molecule inhibitors like Nutlins) compete with p53 for the MDM2 binding pocket, preventing MDM2 from binding and ubiquitinating p53. This stabilizes p53 and reactivates the p53 pathway — allowing p53 to accumulate and drive cell cycle arrest or apoptosis in cancer cells. Patient population: MDM2 inhibitors are only effective in cancers that retain wild-type TP53 and overexpress MDM2. They would have no effect in cancers where TP53 itself is mutated (mutant p53 protein cannot be rescued by stabilizing it — it has no function to restore). Testing for TP53 mutation status and MDM2 amplification before treatment is essential. Approximately 50% of cancers retain wild-type TP53 and are therefore candidate responders to MDM2 inhibitors." },
-    { label: 'i', command: 'Support', question: "the claim that the p53 pathway exemplifies the principle of \"fail-safe\" mechanisms in biological systems, using specific molecular examples from this scenario.", rubric: "Fail-safe mechanisms are redundant or multi-layered controls that ensure a critical process occurs correctly. p53 exemplifies this through: (1) Multiple independent activation signals — p53 is activated by DNA damage (ATM/ATR), oncogene overexpression (Arf pathway), hypoxia (REDD1), and ribosomal stress, ensuring that multiple types of cellular danger trigger the response; (2) Multiple downstream outcomes — p53 can induce temporary arrest (via p21), permanent arrest/senescence, or apoptosis (via BAX, PUMA), giving cells options proportional to damage severity; (3) Multiple tumor suppressor inputs — even if p53 is mutant, other pathways (Rb, BRCA1/2) partially compensate; (4) MDM2 auto-regulation itself is a fail-safe — the tight MDM2-p53 feedback prevents runaway p53 activation in undamaged cells; (5) Tetramerization requirement — p53 must assemble as a tetramer, ensuring that only cells with sufficient p53 protein produce an active response. The system is designed so that multiple failures are required to completely bypass p53 surveillance." },
-    { label: 'j', command: 'Justify', question: "why cancer cells that have lost p53 function often show \"genomic instability\" — accumulating many more mutations per cell division than normal cells.", rubric: "p53 normally enforces the G1/S checkpoint (via p21), preventing DNA replication of damaged templates. Without p53: (1) Cells with damaged DNA (including double-strand breaks, mismatches, crosslinks) enter S phase and replicate the damaged template — DNA polymerase slipping at damaged sites creates additional errors; (2) Without p53-mediated apoptosis, cells that would normally be eliminated (due to irreparable damage) survive and divide; (3) p53 also upregulates DNA repair genes (GADD45 for nucleotide excision repair) — without p53, this repair pathway is underactivated; (4) Cells with unrepaired double-strand breaks undergo abnormal chromosome rearrangements (translocations, deletions, amplifications) as NHEJ misjoins broken ends from different chromosomes; (5) In the absence of p53-mediated apoptosis for spindle checkpoint failures, cells with improper chromosome segregation survive, generating aneuploid progeny. All five mechanisms compound to dramatically increase mutation rate per division. ═══════════════════════════════════════════════════════════ PRACTICE TEST EXCLUSIVE FRQs Short FRQs: 12 questions (4 per practice test) Long FRQs: 6 questions (2 per practice test) ═══════════════════════════════════════════════════════════ ─────────────────────────────────────────────────────────── PRACTICE TEST 1 — SHORT FRQs ───────────────────────────────────────────────────────────" }
+    "id": "bio_u8_frq045",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Logistic Growth, Carrying Capacity, and Human Impact on a Deer Population",
+    "units": [
+      8
     ],
-    rubric: [{ points: 1, description: "DNA double-strand breaks (or other DNA damage) are sensed by kinases — primarily", partLabel: 'a', skill: 'explain', keywords: ["phosphorylation", "transcription", "cell cycle", "ubiquitin", "nucleus", "gene", "ataxia telangiectasia mutated"] }, { points: 1, description: "p21 is a CDK inhibitor (CKI) — it binds to and inhibits cyclin E-CDK2 and cyclin", partLabel: 'b', skill: 'describe', keywords: ["phosphorylation", "gene expression", "transcription", "checkpoint", "s phase", "cyclin", "gene", "cdk", "cki", "retinoblastoma protein"] }, { points: 1, description: "Normal cells: ionizing radiation causes DNA damage → p53 activated → p21 upregul", partLabel: 'c', skill: 'predict', keywords: ["checkpoint", "cell cycle", "dna repair", "s phase", "cancer"] }, { points: 1, description: "p53 functions as a tetramer — four p53 monomers assemble to form the active tran", partLabel: 'd', skill: 'explain', keywords: ["transcription factor", "transcription", "heterozygous", "homozygous", "mutation", "dominant", "monomer", "reduced", "allele", "from the mutant allele"] }, { points: 1, description: "p53 is a universal genome surveillance protein expressed in virtually every cell", partLabel: 'e', skill: 'explain', keywords: ["mutation", "oncogene", "reduced", "allele", "in any tissue"] }, { points: 1, description: "MDM2 and p53 form an autoregulatory negative feedback loop: (1) p53 transcriptio", partLabel: 'f', skill: 'describe', keywords: ["negative feedback", "phosphorylation", "gene expression", "feedback loop", "transcription", "ubiquitin", "gene"] }, { points: 1, description: "Prediction: MDM2 amplification would have a similar functional effect to TP53 lo", partLabel: 'g', skill: 'predict', keywords: ["mutation", "cancer", "gene", "particularly soft tissue sarcomas", "p53 pathway inactivation"] }, { points: 1, description: "Rationale: many cancers retain wild-type TP53 but inactivate the p53 pathway by", partLabel: 'h', skill: 'explain', keywords: ["cell cycle", "population", "mutation", "cancer"] }, { points: 1, description: "Fail-safe mechanisms are redundant or multi-layered controls that ensure a criti", partLabel: 'i', skill: 'describe', keywords: ["tumor suppressor", "oncogene", "atm/atr", "arf pathway", "redd1", "via p21"] }, { points: 1, description: "p53 normally enforces the G1/S checkpoint (via p21), preventing DNA replication", partLabel: 'j', skill: 'explain', keywords: ["dna replication", "dna polymerase", "chromosome", "checkpoint", "dna repair", "nucleotide", "mutation", "s phase", "via p21", "due to irreparable damage"] }],
-    sampleSolution: null
+    "difficulty": "medium",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A white-tailed deer population is introduced to a 500-hectare protected forest reserve. Over the next 30 years, wildlife biologists monitor the population size. During the first decade, the population grows rapidly. By year 15, growth rate slows noticeably, and by year 25, the population stabilizes at approximately 600 individuals. In year 28, a nearby highway is constructed, fragmenting the habitat and reducing available food and shelter resources by 40%. Biologists also note that a pack of wolves was reintroduced to the reserve in year 20 as part of a conservation program. Use your knowledge of population ecology and human impacts to answer the following questions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Describe",
+        "question": "Describe the pattern of logistic population growth observed in the deer population from year 0 to year 25, referencing the specific phases of the logistic growth curve.",
+        "rubric": "Student earns 1 point for accurately describing the logistic growth curve: an initial exponential (J-shaped) growth phase when population is far below carrying capacity, followed by a deceleration phase as resources become limiting, and finally a plateau phase where the population stabilizes at the carrying capacity (K = 600 individuals). Must reference at least two distinct phases or mention the S-shaped (sigmoidal) curve."
+      },
+      {
+        "label": "b",
+        "command": "Explain",
+        "question": "Explain what determines the carrying capacity (K) of the deer population in this reserve, and identify the carrying capacity value based on the data provided.",
+        "rubric": "Student earns 1 point for defining carrying capacity as the maximum population size the environment can sustainably support, AND correctly identifying K = 600 individuals, AND referencing at least one limiting factor such as food availability, water, shelter, or space that sets this limit."
+      },
+      {
+        "label": "c",
+        "command": "Predict",
+        "question": "Predict how the construction of the highway in year 28 will affect the deer population's carrying capacity and population size over the following several years. Justify your prediction.",
+        "rubric": "Student earns 1 point for predicting that the carrying capacity will decrease (new K will be lower than 600) because habitat fragmentation reduces available resources by 40%, and predicting the population will decline toward the new, lower carrying capacity. Must connect resource reduction or habitat loss to a lowered K value specifically."
+      },
+      {
+        "label": "d",
+        "command": "Explain",
+        "question": "Explain how the reintroduction of wolves in year 20 could have contributed to the stabilization of the deer population near carrying capacity, referencing the predator-prey relationship.",
+        "rubric": "Student earns 1 point for explaining that wolves act as a top-down control (top-down regulation) on deer population size: increased predation pressure reduces deer population growth rate, removing excess individuals and preventing overshoot of carrying capacity. Must reference predator-prey dynamics, predation as a density-dependent limiting factor, or trophic cascade."
+      },
+      {
+        "label": "e",
+        "command": "Describe",
+        "question": "Describe TWO ways that human activities, other than highway construction, can reduce the carrying capacity of a wildlife population in a natural ecosystem.",
+        "rubric": "Student earns 1 point for correctly identifying and describing TWO distinct human impacts that reduce carrying capacity: acceptable answers include deforestation/habitat destruction reducing food or shelter, pollution degrading water or food quality, introduction of invasive species increasing competition, overhunting/overharvesting reducing population directly, climate change altering resource availability, or agriculture replacing natural habitat. Both impacts must be clearly linked to a reduction in resources or habitat quality (i.e., a mechanism connecting the activity to lower K)."
+      }
+    ],
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student accurately describes the logistic (S-shaped/sigmoidal) growth curve with at least two phases: initial rapid exponential growth and deceleration as population approaches carrying capacity, ending in stabilization at K.",
+        "partLabel": "a",
+        "skill": "describe",
+        "keywords": [
+          "logistic growth",
+          "S-shaped curve",
+          "sigmoidal",
+          "exponential phase",
+          "deceleration phase",
+          "carrying capacity",
+          "stabilization",
+          "population growth rate decreases",
+          "density-dependent",
+          "growth slows",
+          "J-shaped initial growth",
+          "resource limitation slows growth",
+          "plateau at K",
+          "per capita growth rate",
+          "biotic potential"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student defines carrying capacity as the maximum sustainable population size set by limiting resources and correctly identifies K = 600 individuals, referencing at least one specific limiting factor.",
+        "partLabel": "b",
+        "skill": "explain",
+        "keywords": [
+          "carrying capacity",
+          "K = 600",
+          "maximum population size",
+          "limiting factor",
+          "food availability",
+          "resource limitation",
+          "sustainable population",
+          "environmental resistance",
+          "shelter",
+          "space",
+          "water availability",
+          "intraspecific competition",
+          "density-dependent regulation",
+          "habitat quality",
+          "biotic and abiotic factors"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student predicts that highway construction will lower the carrying capacity below 600 due to habitat fragmentation and 40% resource reduction, and that the population will decline toward the new lower K.",
+        "partLabel": "c",
+        "skill": "predict",
+        "keywords": [
+          "carrying capacity decreases",
+          "lower K",
+          "habitat fragmentation",
+          "resource reduction",
+          "population decline",
+          "new carrying capacity",
+          "habitat loss",
+          "reduced food availability",
+          "population will decrease",
+          "overpopulation relative to new K",
+          "reduced shelter",
+          "ecosystem disruption",
+          "edge effects",
+          "isolated subpopulations",
+          "density-dependent mortality increases"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student explains that wolf predation acts as a density-dependent top-down control on deer numbers, preventing overshoot and helping stabilize the population at or near carrying capacity through predator-prey dynamics.",
+        "partLabel": "d",
+        "skill": "explain",
+        "keywords": [
+          "predator-prey",
+          "top-down control",
+          "predation pressure",
+          "density-dependent",
+          "wolves reduce deer population",
+          "prevents overshoot",
+          "trophic cascade",
+          "natural predation",
+          "population regulation",
+          "predator limits prey",
+          "predation rate increases with prey density",
+          "negative feedback",
+          "Lotka-Volterra",
+          "consumer-resource interaction",
+          "keystone predator"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student correctly describes TWO distinct human activities (other than highway construction) that reduce carrying capacity and connects each to a mechanism that lowers resource availability or habitat quality.",
+        "partLabel": "e",
+        "skill": "describe",
+        "keywords": [
+          "deforestation",
+          "habitat destruction",
+          "pollution",
+          "invasive species",
+          "overhunting",
+          "overharvesting",
+          "climate change",
+          "agriculture",
+          "reduces food availability",
+          "degrades habitat quality",
+          "reduces carrying capacity",
+          "resource depletion",
+          "urban sprawl",
+          "pesticide contamination",
+          "introduced competitors displace native species"
+        ]
+      }
+    ],
+    "sampleSolution": null
   },
   {
-    id: 'PT1-S1',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Macromolecule Structure and Function",
-    units: [1],
-    difficulty: 'easy',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "A biochemist is studying the structural properties of DNA and comparing them to those of RNA. She notes that the two molecules serve fundamentally different roles in the cell despite their chemical similarities.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "two structural differences between DNA and RNA.", rubric: "Any two of: (1) DNA contains deoxyribose sugar; RNA contains ribose (one extra -OH group on 2' carbon); (2) DNA contains thymine (T) as a base; RNA contains uracil (U) in place of thymine; (3) DNA is typically double-stranded (double helix); RNA is typically single-stranded; (4) DNA is generally much longer than most RNA molecules. Must be structural differences, not functional ones." },
-    { label: 'b', command: 'Explain', question: "why the double-stranded structure of DNA makes it more suitable for long-term information storage than single-stranded RNA.", rubric: "The complementary strand of dsDNA provides a template for error correction — if one strand is damaged, the complementary strand serves as a template for repair enzymes (e.g., base excision repair, nucleotide excision repair) to restore the original sequence. Single-stranded RNA has no backup template; damage cannot be corrected using a complementary strand. Additionally, dsDNA is more chemically stable — the 2'-OH group of RNA makes it more susceptible to hydrolysis (self-cleavage), which is why RNA degrades faster than DNA. The double helix also protects bases from chemical modification by \"hiding\" them in the interior of the helix." },
-    { label: 'c', command: 'Justify', question: "why the same information encoded in DNA can give rise to many different RNA sequences in a single cell, even though the DNA sequence itself does not change.", rubric: "Different genes are transcribed in different cell types, developmental stages, and environmental conditions. RNA polymerase transcribes only specific regions of DNA (genes) when transcription factors bind to their promoters and enhancers. Alternative splicing of pre-mRNA can produce multiple different mature mRNAs from the same primary transcript by including or excluding different exons. Additionally, non-coding RNAs (rRNA, tRNA, miRNA, lncRNA) are transcribed from different genomic loci and serve different functions. The same DNA therefore produces a highly diverse RNA landscape without any change in the underlying sequence." }
+    "id": "bio_u8_frq046",
+    "subject": "apbio",
+    "frqType": "long",
+    "title": "Nitrogen Cycle Disruption, Eutrophication, and Ecosystem Cascade Effects",
+    "units": [
+      8
     ],
-    rubric: [{ points: 1, description: "Any two of: (1) DNA contains deoxyribose sugar; RNA contains ribose (one extra -", partLabel: 'a', skill: 'describe', keywords: ["double helix", "thymine", "uracil"] }, { points: 1, description: "The complementary strand of dsDNA provides a template for error correction — if", partLabel: 'b', skill: 'explain', keywords: ["base excision repair", "complementary strand", "double helix", "hydrolysis", "nucleotide", "self-cleavage"] }, { points: 1, description: "Different genes are transcribed in different cell types, developmental stages, a", partLabel: 'c', skill: 'explain', keywords: ["rna polymerase", "transcription", "splicing", "rrna", "mrna", "trna", "genes"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT1-S2',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Chemiosmosis and ATP Synthesis",
-    units: [3],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Researchers study mitochondrial function using a potent uncoupling agent called FCCP (carbonyl cyanide-4-(trifluoromethoxy)phenylhydrazone). FCCP is a lipid-soluble molecule that can carry protons across the inner mitochondrial membrane, dissipating the proton gradient without passing through ATP synthase. Cells treated with FCCP show dramatically increased oxygen consumption but produce almost no ATP.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "the role of the proton gradient (proton motive force) in ATP synthesis during oxidative phosphorylation.", rubric: "The electron transport chain (complexes I, III, IV) uses energy from electron flow (ultimately to O2) to pump protons (H+) from the mitochondrial matrix to the intermembrane space, creating an electrochemical gradient (proton motive force = concentration gradient + charge gradient). Protons flow back into the matrix exclusively through ATP synthase (Complex V), which uses the energy of proton flow to drive a conformational change in its catalytic subunits (F1 subunit) that synthesizes ATP from ADP + Pi. The proton gradient stores energy that is converted to ATP; without it, ATP synthase cannot function." },
-    { label: 'b', command: 'Explain', question: "why FCCP-treated cells show increased oxygen consumption despite producing no ATP.", rubric: "Normally, the proton gradient \"backs up\" as ATP synthase is the only significant route for proton re-entry — if ATP is not being consumed (ADP not available), the gradient builds, slowing proton pumping and thus slowing electron transport and O2 consumption (respiratory control). FCCP provides an alternative proton leak pathway, constantly dissipating the gradient regardless of ATP synthase activity. The electron transport chain is no longer limited by the back-pressure of a built-up proton gradient — it runs at maximum rate, consuming O2 as fast as possible to pump protons that are immediately dissipated by FCCP. O2 consumption rises to maximum but the energy is released as heat rather than captured as ATP." },
-    { label: 'c', command: 'Predict', question: "the effect of FCCP treatment on cellular ATP levels and explain the immediate metabolic consequence.", rubric: "Prediction: ATP levels would plummet dramatically. Without ATP synthesis via oxidative phosphorylation, cells would have only glycolysis (and Krebs cycle substrate-level phosphorylation) as ATP sources — producing only ~2-4 ATP per glucose rather than ~30-32. Immediate consequences: energy-requiring processes (ion pumps, biosynthesis, movement, signal transduction) would fail due to ATP deficit. Cells would rapidly attempt to compensate by increasing glycolytic rate (Pasteur effect) but this cannot sustain the ATP demands of most mammalian cells. Prolonged FCCP treatment is lethal — cells undergo necrosis or apoptosis from ATP depletion." },
-    { label: 'd', command: 'Justify', question: "why brown adipose tissue (brown fat) in newborns and hibernating mammals actually benefits from having natural uncoupling proteins (UCP1) that function similarly to FCCP.", rubric: "Brown adipose tissue generates body heat (thermogenesis) rather than ATP. UCP1 (thermogenin) is a natural proton carrier in the inner mitochondrial membrane that allows protons to re-enter the matrix without passing through ATP synthase, dissipating the proton gradient as heat. Newborns cannot shiver to generate heat (they lack the muscle coordination) and have high surface-area-to-volume ratios making them prone to hypothermia — brown fat provides non-shivering thermogenesis to maintain core body temperature. Hibernating mammals use brown fat to rewarm before emerging from hibernation. In these contexts, wasting the proton gradient as heat is adaptive — the organism benefits from heat generation more than it needs additional ATP." }
+    "difficulty": "hard",
+    "autoGraded": true,
+    "points": 5,
+    "prompt": "A freshwater lake ecosystem in a temperate region borders a heavily farmed agricultural watershed. Over the past decade, farmers have applied large quantities of synthetic nitrogen fertilizers to their fields. Runoff carrying excess nitrates (NO3−) and ammonium (NH4+) enters the lake each spring during heavy rains. Researchers monitoring the lake have documented the following changes over 10 years: (1) a dramatic increase in cyanobacteria and algal populations forming surface blooms; (2) a sharp decline in submerged aquatic vegetation (SAV); (3) a 60% reduction in dissolved oxygen in the hypolimnion (deep water layer) during summer; (4) a collapse of the native zooplankton population followed by a decline in planktivorous fish; and (5) an eventual increase in benthic (bottom-dwelling) detritivore populations. The lake's original trophic state was oligotrophic. Consider all aspects of the nitrogen biogeochemical cycle, energy flow, trophic dynamics, and human impact as you answer the following questions.",
+    "starterCode": null,
+    "parts": [
+      {
+        "label": "a",
+        "command": "Explain",
+        "question": "Explain how synthetic nitrogen fertilizer applied to agricultural fields enters the lake and disrupts the natural nitrogen cycle. In your answer, identify at least two specific nitrogen cycle processes that are altered.",
+        "rubric": "Earns 1 point for explaining that surface runoff and leaching carry nitrates and ammonium from fields into the lake (agricultural runoff, nonpoint source pollution), AND identifying at least two disrupted nitrogen cycle processes such as: nitrification being bypassed because inorganic nitrogen is added directly; denitrification being overwhelmed or outpaced so nitrogen is not converted back to N2; nitrogen fixation becoming less significant relative to anthropogenic inputs; or that decomposition/ammonification rates are altered by increased organic matter from algal blooms."
+      },
+      {
+        "label": "b",
+        "command": "Describe",
+        "question": "Describe the process of eutrophication in this lake and explain why the submerged aquatic vegetation (SAV) declined even though total nutrient levels increased.",
+        "rubric": "Earns 1 point for accurately describing eutrophication as the process by which excess nutrients (nitrogen and phosphorus) stimulate explosive algal/cyanobacterial growth forming blooms that increase turbidity or reduce light penetration, AND explaining that SAV declined because algal blooms block sunlight from reaching the benthic zone, preventing photosynthesis in submerged plants (light limitation, shading, light attenuation), not because nutrients were insufficient."
+      },
+      {
+        "label": "c",
+        "command": "Explain",
+        "question": "Explain the mechanism by which the 60% reduction in dissolved oxygen in the hypolimnion occurred, and predict the consequence of this hypoxic condition on the energy available to higher trophic levels in the lake.",
+        "rubric": "Earns 1 point for explaining that dead algal biomass sinks to the hypolimnion where aerobic decomposers (bacteria, decomposition) consume oxygen during cellular respiration, creating a hypoxic or anoxic dead zone (biochemical oxygen demand, BOD, microbial decomposition depletes dissolved oxygen), AND predicting that hypoxia reduces aerobic decomposition efficiency, kills benthic invertebrates and fish, reduces secondary productivity, and decreases energy transfer to higher trophic levels (energy loss, trophic collapse, reduced biomass at higher trophic levels)."
+      },
+      {
+        "label": "d",
+        "command": "Justify",
+        "question": "The collapse of zooplankton was followed by a decline in planktivorous fish populations. Justify whether this sequence represents a bottom-up or top-down trophic cascade, and explain how the original algal bloom contributed to this cascade.",
+        "rubric": "Earns 1 point for correctly identifying this as a bottom-up trophic cascade (bottom-up control, bottom-up regulation) and justifying that changes at the producer/primary producer level (algal bloom outcompeting edible phytoplankton, producing toxic cyanobacteria that zooplankton cannot consume) reduced food quality or quantity available to zooplankton (primary consumers), which then reduced energy and biomass available to planktivorous fish (secondary consumers), demonstrating that the disturbance propagated upward through trophic levels."
+      },
+      {
+        "label": "e",
+        "command": "Predict",
+        "question": "Researchers propose two restoration strategies: (1) riparian buffer zones planted with native vegetation along the lakeshore and farmland edges, and (2) introduction of filter-feeding bivalves (mussels) into the lake. Predict the effect of each strategy on the lake ecosystem and identify one potential unintended ecological consequence of introducing the bivalves.",
+        "rubric": "Earns 1 point for predicting that riparian buffer zones would reduce nitrogen and sediment runoff through plant uptake, filtration, and denitrification by soil microbes (nitrogen uptake, runoff interception, buffer strip, nutrient retention), reducing eutrophication; AND predicting that filter-feeding bivalves would reduce algal bloom density by filtering phytoplankton and suspended particles (biofiltration, suspension feeders, clearing turbidity, increasing water clarity), potentially allowing SAV recovery; AND identifying one unintended consequence such as: bivalves could outcompete native filter feeders (competitive exclusion, invasive species impact), accumulate toxins from cyanobacteria (bioaccumulation), alter sediment chemistry by depositing biodeposits, or disrupt native food webs."
+      }
     ],
-    rubric: [{ points: 1, description: "The electron transport chain (complexes I, III, IV) uses energy from electron fl", partLabel: 'a', skill: 'explain', keywords: ["electron transport chain", "electrochemical gradient", "concentration gradient", "mitochondrial matrix", "proton motive force", "proton gradient", "atp synthase", "atp", "o2", "ultimately to o2"] }, { points: 1, description: "Prediction: ATP levels would plummet dramatically. Without ATP synthesis via oxi", partLabel: 'b', skill: 'explain', keywords: ["electron transport chain", "proton gradient", "atp synthase", "atp", "o2", "adp not available", "respiratory control"] }, { points: 1, description: "Brown adipose tissue generates body heat (thermogenesis) rather than ATP. UCP1 (", partLabel: 'c', skill: 'predict', keywords: ["substrate-level phosphorylation", "oxidative phosphorylation", "signal transduction", "phosphorylation", "atp synthesis", "krebs cycle", "glycolysis", "substrate", "atp", "pasteur effect"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT1-S3',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Linkage and Recombination",
-    units: [5],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "A geneticist studies two genes in Drosophila melanogaster: body color (B = gray, dominant; b = black, recessive) and wing size (V = normal, dominant; v = vestigial, recessive). She performs a testcross: a doubly heterozygous gray, normal-wing fly (BbVv) is crossed with a doubly recessive black, vestigial-wing fly (bbvv). She expects a 1:1:1:1 ratio if the genes assort independently, but instead observes: Gray, normal wings: 428 Black, vestigial wings: 411 Gray, vestigial wings: 63 Black, normal wings: 67 Total: 969",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "what the observed results reveal about the chromosomal arrangement of the B and V genes in the doubly heterozygous parent.", rubric: "The results reveal that B and V are linked — located on the same chromosome. The parental classes (gray, normal: 428; black, vestigial: 411) are far more frequent than recombinant classes (gray, vestigial: 63; black, normal: 67), indicating that B and V tend to be inherited together. Furthermore, the parental arrangement in the doubly heterozygous parent is B with V on one chromosome and b with v on the other (cis configuration / coupling) — because BV and bv combinations are the most frequent in offspring." },
-    { label: 'b', command: 'Calculate', question: "the recombination frequency between the B and V genes. Show your work and state what this means in terms of map distance.", rubric: "Recombination frequency = (number of recombinant offspring / total offspring) × 100%. Recombinant offspring = gray, vestigial + black, normal = 63 + 67 = 130. Total = 969. Recombination frequency = (130 / 969) × 100% = 13.4%. This corresponds to approximately 13.4 centimorgans (cM) or map units — the genes are linked and approximately 13.4 cM apart on the same chromosome. Must show calculation and include unit interpretation." },
-    { label: 'c', command: 'Explain', question: "the molecular mechanism that produces recombinant offspring in this cross.", rubric: "Recombinant offspring arise from crossing over during prophase I of meiosis. Homologous chromosomes (one carrying BV, one carrying bv) synapse and form chiasmata. A chiasma represents a physical crossover where non-sister chromatids from each homolog break at the same point and rejoin with the other homolog's chromatid. If a crossover occurs between the B and V loci, chromosomes carrying BV and bv are converted to chromosomes carrying Bv and bV — recombinant combinations. The frequency of crossover reflects the physical distance between the genes (farther apart = more likely to have a crossover between them)." },
-    { label: 'd', command: 'Predict', question: "the expected recombination frequency if a third gene (W) were located between B and V on the chromosome, 5 cM from B and 8 cM from V. Explain whether simply adding the two distances would give an accurate estimate of B-V recombination frequency.", rubric: "Simply adding 5 + 8 = 13 cM would be close but not perfectly accurate. The issue is double crossovers: if a crossover occurs in the B-W interval AND another in the W-V interval, the net result on B-V recombination appears as NO crossover (the chromosomes are restored to parental configuration for B and V). Double crossovers are not counted in B-V recombination frequency measurements when you only look at B and V. This causes the observed B-V recombination frequency to be lower than the sum of the two interval distances (negative interference reduces this in most organisms, but Haldane mapping function accounts for double crossovers). Using three-point crosses and intervening markers (like W) gives more accurate map distances than two-point crosses alone, especially for genes far apart." }
+    "rubric": [
+      {
+        "index": 0,
+        "points": 1,
+        "description": "Student explains that agricultural runoff/leaching carries inorganic nitrogen (nitrates, ammonium) into the lake via nonpoint source pollution AND identifies at least two disrupted nitrogen cycle processes (e.g., nitrification bypassed, denitrification overwhelmed, nitrogen fixation less significant, ammonification altered).",
+        "partLabel": "a",
+        "skill": "explain",
+        "keywords": [
+          "nitrogen runoff",
+          "nitrate leaching",
+          "nonpoint source pollution",
+          "agricultural runoff",
+          "nitrification bypassed",
+          "denitrification overwhelmed",
+          "nitrogen fixation",
+          "ammonification",
+          "inorganic nitrogen input",
+          "nitrogen cycle disrupted",
+          "surface runoff",
+          "subsurface leaching",
+          "anthropogenic nitrogen",
+          "nitrate accumulation",
+          "nitrogen loading"
+        ]
+      },
+      {
+        "index": 1,
+        "points": 1,
+        "description": "Student accurately describes eutrophication as nutrient-driven algal bloom formation increasing turbidity, AND explains SAV decline results from light limitation/shading by algal blooms blocking sunlight from reaching submerged plants, not nutrient deficiency.",
+        "partLabel": "b",
+        "skill": "describe",
+        "keywords": [
+          "eutrophication",
+          "algal bloom",
+          "cyanobacteria bloom",
+          "turbidity",
+          "light penetration reduced",
+          "light attenuation",
+          "shading",
+          "submerged aquatic vegetation",
+          "SAV light limitation",
+          "excess nutrients stimulate growth",
+          "phytoplankton proliferation",
+          "nutrient enrichment",
+          "benthic light reduction",
+          "photosynthesis blocked",
+          "oligotrophic to eutrophic transition"
+        ]
+      },
+      {
+        "index": 2,
+        "points": 1,
+        "description": "Student explains that aerobic decomposition of sinking algal biomass by bacteria consumes dissolved oxygen in the hypolimnion (BOD), creating hypoxia/anoxia, AND predicts this reduces energy transfer to higher trophic levels by killing aerobic organisms and reducing secondary productivity.",
+        "partLabel": "c",
+        "skill": "explain",
+        "keywords": [
+          "aerobic decomposition",
+          "bacterial respiration",
+          "biochemical oxygen demand",
+          "BOD",
+          "dissolved oxygen depletion",
+          "hypoxic zone",
+          "anoxic hypolimnion",
+          "dead zone",
+          "reduced energy transfer",
+          "trophic level collapse",
+          "microbial decomposition",
+          "sinking algal biomass",
+          "stratification",
+          "oxygen consumption",
+          "secondary productivity decline"
+        ]
+      },
+      {
+        "index": 3,
+        "points": 1,
+        "description": "Student correctly identifies a bottom-up trophic cascade and justifies that the algal bloom reduced food quality/quantity for zooplankton (toxic cyanobacteria inedible, edible phytoplankton displaced), which propagated upward to reduce planktivorous fish biomass.",
+        "partLabel": "d",
+        "skill": "justify",
+        "keywords": [
+          "bottom-up trophic cascade",
+          "bottom-up control",
+          "primary producer disruption",
+          "toxic cyanobacteria inedible",
+          "zooplankton food quality",
+          "energy propagates upward",
+          "planktivorous fish decline",
+          "trophic cascade",
+          "producer-level change",
+          "bottom-up regulation",
+          "edible phytoplankton displaced",
+          "cyanotoxins",
+          "primary consumer starvation",
+          "trophic mismatch",
+          "upward propagation of disturbance"
+        ]
+      },
+      {
+        "index": 4,
+        "points": 1,
+        "description": "Student predicts riparian buffers reduce nitrogen runoff through plant uptake and soil denitrification; predicts bivalves reduce algal turbidity through biofiltration improving water clarity; AND identifies one unintended consequence of bivalve introduction (competitive exclusion of native species, bioaccumulation of toxins, biodeposition altering sediment, disruption of native food webs).",
+        "partLabel": "e",
+        "skill": "predict",
+        "keywords": [
+          "riparian buffer",
+          "nitrogen uptake by plants",
+          "denitrification in soil",
+          "runoff reduction",
+          "bivalve biofiltration",
+          "filter feeder",
+          "water clarity restored",
+          "competitive exclusion",
+          "bioaccumulation of cyanotoxins",
+          "unintended ecological consequence",
+          "nutrient interception",
+          "native species displacement",
+          "biodeposition",
+          "SAV recovery",
+          "suspension feeder phytoplankton removal"
+        ]
+      }
     ],
-    rubric: [{ points: 1, description: "The results reveal that B and V are linked — located on the same chromosome. The", partLabel: 'a', skill: 'describe', keywords: ["heterozygous", "chromosome", "cis configuration / coupling"] }, { points: 1, description: "Recombination frequency = (number of recombinant offspring / total offspring) ×", partLabel: 'b', skill: 'calculate', keywords: ["recombination frequency", "chromosome", "number of recombinant offspring / total offspring"] }, { points: 1, description: "Recombinant offspring arise from crossing over during prophase I of meiosis. Hom", partLabel: 'c', skill: 'explain', keywords: ["homologous chromosomes", "sister chromatids", "crossing over", "chromatid", "chiasmata", "prophase", "synapse", "meiosis"] }, { points: 1, description: "Simply adding 5 + 8 = 13 cM would be close but not perfectly accurate. The issue", partLabel: 'd', skill: 'predict', keywords: ["recombination frequency", "like w"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT1-S4',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Ecosystem Services and Human Impact",
-    units: [8],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Coral reefs are often called the \"rainforests of the sea\" for their biodiversity. The Great Barrier Reef (GBR) in Australia has undergone dramatic bleaching events in 2016, 2017, 2020, and 2022, driven by marine heatwaves. Coral bleaching occurs when sea surface temperatures exceed the thermal tolerance of the symbiotic dinoflagellates (Symbiodiniaceae, or zooxanthellae) that live within coral tissue. Stressed zooxanthellae produce reactive oxygen species that damage coral tissue, leading corals to expel them. Without zooxanthellae, corals lose their color, their primary food source, and often die if the stress persists.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "the mutualistic relationship between corals and their zooxanthellae, describing what each partner provides.", rubric: "Mutualism: both partners benefit. Coral provides: (1) physical shelter (protected internal tissue environment); (2) CO2 and nutrients (ammonium) needed for photosynthesis by zooxanthellae; (3) access to light in shallow, clear water. Zooxanthellae provide: (1) photosynthetically fixed carbon — up to 90% of the coral's energy needs in the form of sugars and lipids; (2) oxygen as a byproduct of photosynthesis; (3) contribute to calcium carbonate skeleton deposition. Without zooxanthellae, corals must rely on heterotrophic feeding alone, which is insufficient to meet their energy demands and build their calcium carbonate skeleton." },
-    { label: 'b', command: 'Predict', question: "the cascading ecological effects on reef-associated communities if a major bleaching event kills 50% of coral coverage on a reef.", rubric: "(1) Loss of structural habitat — coral skeletons provide the complex 3D architecture that hundreds of species depend on for shelter, breeding grounds, and foraging habitat; fish and invertebrate diversity would drop dramatically; (2) Trophic cascade — fish that feed directly on coral (corallivores) lose their food source; herbivorous fish that depend on reef structure lose habitat; apex predators that feed on reef fish decline; (3) Algal overgrowth — without herbivorous fish maintaining grazing pressure, macroalgae may overgrow dead coral skeletons, preventing new coral recruitment (phase shift from coral-dominated to algae-dominated reef); (4) Loss of ecosystem services — reduced fish production affecting coastal fisheries that local communities depend on; reduced coastal protection from wave action; loss of tourism revenue. Award point for any two well-described cascading effects." },
-    { label: 'c', command: 'Explain', question: "how ocean acidification (from rising CO2 dissolving in seawater to form carbonic acid) compounds the threat of bleaching to coral reef ecosystems.", rubric: "Ocean acidification decreases seawater pH and reduces carbonate ion (CO3²⁻) concentration. Corals and other calcifiers build their skeletons from calcium carbonate (CaCO3 in the form of aragonite). Lower carbonate ion availability makes it energetically harder to deposit calcium carbonate — coral calcification rates decrease. Additionally, more acidic water can dissolve existing carbonate skeletons. Combined with bleaching (which weakens the living coral tissue): bleached corals that survive have reduced ability to rebuild and maintain their skeletons in more acidic water. Dead coral skeletons that might otherwise serve as substrate for reef recovery dissolve faster. The two stressors — thermal bleaching and ocean acidification — act synergistically to reduce both coral survival and reef structural integrity." },
-    { label: 'd', command: 'Justify', question: "whether assisted evolution (selectively breeding or genetically engineering more heat-tolerant coral strains) represents a sound conservation strategy for the GBR under continued climate change.", rubric: "Arguments for: (1) Natural adaptation is too slow — corals have relatively long generation times and climate change is outpacing natural selection; assisted evolution could dramatically accelerate the development of heat-tolerant genotypes; (2) Preliminary evidence shows that some coral genotypes/zooxanthellae strains are more thermally tolerant and can survive bleaching events that kill other corals — selective breeding could amplify these; (3) CRISPR tools could potentially introduce or enhance heat tolerance mechanisms; (4) Without intervention, reef collapse may be inevitable under 2°C+ warming scenarios. Arguments against: (1) Genetically modified organisms released to open ecosystems carry unknown ecological risks; (2) Heat tolerance may come at the cost of reduced growth, disease resistance, or competitive ability — traded traits; (3) Without addressing root cause (CO2 emissions and temperature rise), even heat-tolerant corals face ocean acidification and continued stressors; (4) Scale challenge — the GBR spans 2,300 km and contains hundreds of coral species. Award full point for a well-reasoned position engaging with both sides. ─────────────────────────────────────────────────────────── PRACTICE TEST 2 — SHORT FRQs ───────────────────────────────────────────────────────────" }
-    ],
-    rubric: [{ points: 1, description: "Mutualism: both partners benefit. Coral provides: (1) physical shelter (protecte", partLabel: 'a', skill: 'explain', keywords: ["photosynthesis", "mutualism", "co2", "protected internal tissue environment", "ammonium"] }, { points: 1, description: "(1) Loss of structural habitat — coral skeletons provide the complex 3D architec", partLabel: 'b', skill: 'predict', keywords: ["trophic cascade", "ecosystem", "habitat", "reduced", "corallivores"] }, { points: 1, description: "Ocean acidification decreases seawater pH and reduces carbonate ion (CO3²⁻) conc", partLabel: 'c', skill: 'explain', keywords: ["substrate", "reduced", "caco3 in the form of aragonite", "which weakens the living coral tissue"] }, { points: 1, description: "Arguments for: (1) Natural adaptation is too slow — corals have relatively long", partLabel: 'd', skill: 'explain', keywords: ["natural selection", "adaptation", "reduced", "co2", "co2 emissions and temperature rise"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT2-S1',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Cell Signaling and Membrane Receptors",
-    units: [2],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "Cholera is caused by the bacterium Vibrio cholerae, which releases a toxin (CT) that permanently activates the Gs-alpha subunit of a G-protein in intestinal epithelial cells. CT catalyzes the ADP-ribosylation of Gs-alpha, preventing it from hydrolyzing GTP to GDP. Normally, Gs-alpha activates adenylyl cyclase when bound to GTP; the signal terminates when Gs-alpha hydrolyzes GTP to GDP. In cholera, adenylyl cyclase remains permanently active.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the normal G-protein signaling cycle, including how the signal is activated and terminated.", rubric: "Ligand binds GPCR → GPCR undergoes conformational change → GPCR acts as GEF (guanine nucleotide exchange factor) → Gs-alpha releases GDP and binds GTP → Gs-alpha (GTP-bound) dissociates from Gβγ → Gs-alpha (GTP) binds and activates adenylyl cyclase → cAMP produced → downstream signaling. Signal termination: Gs-alpha has intrinsic GTPase activity — it hydrolyzes GTP to GDP → Gs-alpha (GDP) dissociates from adenylyl cyclase → adenylyl cyclase inactivated → reassembles with Gβγ → system returns to resting state. Must include both activation and GTP hydrolysis termination." },
-    { label: 'b', command: 'Explain', question: "why cholera toxin-induced permanent Gs-alpha activation leads to severe watery diarrhea.", rubric: "Permanent Gs-alpha activation → adenylyl cyclase constitutively active → cAMP levels massively elevated in intestinal epithelial cells. Elevated cAMP activates PKA → PKA phosphorylates CFTR chloride channels → CFTR remains constitutively open, secreting Cl⁻ into the intestinal lumen → osmotic gradient draws water from epithelial cells and bloodstream into the intestinal lumen → massive secretory diarrhea (up to 20 liters/day in severe cases). The mechanism is identical to the normal physiology of Cl⁻ secretion, but driven continuously rather than transiently. Must connect cAMP → PKA → CFTR → Cl⁻ secretion → osmotic water loss → diarrhea." },
-    { label: 'c', command: 'Predict', question: "whether a drug that inhibits adenylyl cyclase would be effective in treating cholera symptoms. Justify your prediction.", rubric: "Prediction: yes, an adenylyl cyclase inhibitor would likely reduce cholera symptoms. Justification: cholera toxin acts upstream of adenylyl cyclase (by locking Gs-alpha in its active form, which stimulates adenylyl cyclase). Blocking adenylyl cyclase directly would prevent cAMP production despite the constitutively active Gs-alpha signaling — cutting the signal pathway downstream of the toxin's action point. This should reduce cAMP levels, reduce PKA activity, reduce CFTR hyperactivation, and decrease Cl⁻ secretion, reducing diarrhea. This approach is a real active area of research in cholera therapeutics." },
-    { label: 'd', command: 'Justify', question: "why cholera toxin can affect all intestinal epithelial cells simultaneously, even though the toxin molecule is released outside the cell.", rubric: "Cholera toxin (CT) is an AB5 toxin — it consists of an A subunit (toxic) and five B subunits (binding). The B subunits bind to GM1 ganglioside receptors on the surface of intestinal epithelial cells. After binding, the toxin undergoes endocytosis and is retrogradely transported through the Golgi to the ER, where the A subunit (or its active A1 fragment) is translocated into the cytosol. The A1 subunit acts as an ADP-ribosyltransferase, modifying Gs-alpha intracellularly. Because CT enters cells through a ubiquitous surface receptor (GM1 is expressed on all intestinal epithelial cells) and delivers its enzymatic payload to the cytosol, it can affect every cell it reaches. A single toxin molecule can ADP-ribosylate many Gs-alpha molecules (enzymatic amplification), explaining the severe effects." }
-    ],
-    rubric: [{ points: 1, description: "Ligand binds GPCR → GPCR undergoes conformational change → GPCR acts as GEF (gua", partLabel: 'a', skill: 'describe', keywords: ["both activation", "adenylyl cyclase", "hydrolysis", "nucleotide", "guanine", "ligand", "camp", "guanine nucleotide exchange factor", "gtp-bound", "gtp"] }, { points: 1, description: "Permanent Gs-alpha activation → adenylyl cyclase constitutively active → cAMP le", partLabel: 'b', skill: 'explain', keywords: ["osmotic gradient", "adenylyl cyclase", "camp", "up to 20 liters/day in severe cases"] }, { points: 1, description: "Prediction: yes, an adenylyl cyclase inhibitor would likely reduce cholera sympt", partLabel: 'c', skill: 'predict', keywords: ["adenylyl cyclase", "camp"] }, { points: 1, description: "Cholera toxin (CT) is an AB5 toxin — it consists of an A subunit (toxic) and fiv", partLabel: 'd', skill: 'explain', keywords: ["endocytosis", "golgi", "toxic", "binding", "enzymatic amplification"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT2-S2',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "RNA Processing and Gene Expression",
-    units: [6],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "In eukaryotic cells, pre-mRNA undergoes extensive processing before it can be translated. A researcher studying alternative splicing identifies a gene that can produce six different protein isoforms from a single pre-mRNA by including different combinations of four alternatively spliced exons.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Describe', question: "the three major types of pre-mRNA processing that occur in the nucleus before export.", rubric: "(1) 5' capping — addition of a modified guanosine (7-methylguanosine) to the 5' end via a 5'-to-5' triphosphate linkage; protects mRNA from degradation and aids ribosome binding for translation initiation; (2) 3' polyadenylation — cleavage of the pre-mRNA downstream of the poly-A signal sequence (AAUAAA) and addition of approximately 100-250 adenosine residues (poly-A tail) by poly(A) polymerase; stabilizes mRNA and aids nuclear export and translation; (3) Splicing — removal of non-coding intron sequences and joining of exons by the spliceosome (snRNA-protein complex); produces mature mRNA containing only coding exon sequences." },
-    { label: 'b', command: 'Explain', question: "how a single pre-mRNA can give rise to six different protein isoforms through alternative splicing.", rubric: "Alternative splicing allows different combinations of exons to be included or excluded in the final mature mRNA. With four alternatively spliced exons (exons that may or may not be included), each exon can be independently included or excluded. The theoretical number of combinations is 2^4 = 16, but biological and regulatory constraints limit actual isoforms to 6 in this case. Different spliceosome regulatory proteins (SR proteins, hnRNPs) bind to exonic splicing enhancers (ESEs) or silencers (ESSs) and direct inclusion or skipping of specific exons depending on which regulatory proteins are expressed in a given cell type or developmental stage. Different isoforms may have different protein domains, subcellular localization signals, or regulatory sequences, giving different functions." },
-    { label: 'c', command: 'Predict', question: "the consequence for protein diversity if all eukaryotic genes were processed like prokaryotic genes (no introns, no splicing, no 5' cap or poly-A tail).", rubric: "Protein diversity would be dramatically reduced. Each gene could only produce one protein — the one encoded by its single uninterrupted coding sequence. Alternative splicing generates much of the proteome's diversity (humans have ~20,000 genes but produce ~100,000+ distinct proteins largely due to alternative splicing). Without splicing, each gene is limited to one polypeptide. Additionally, without 5' cap and poly-A protection, mRNA stability would be reduced (mRNAs would be degraded faster), affecting protein levels. The regulatory complexity enabled by differential splicing (cell-type-specific isoforms, developmental switching between isoforms) would be entirely lost. The relationship between gene number and phenotypic complexity would be much more rigid." },
-    { label: 'd', command: 'Justify', question: "why mutations in spliceosomal components (proteins that form the splicing machinery) tend to cause diseases affecting many tissue types rather than being tissue-specific.", rubric: "The spliceosome is a constitutively expressed, universally required complex — all eukaryotic cells require splicing to process pre-mRNA of virtually every gene. If a core spliceosomal protein is mutated, splicing efficiency or accuracy is impaired in every cell that expresses that protein (i.e., essentially all cells). This would affect the processing of thousands of different pre-mRNAs across all tissues, causing widespread dysfunction. In contrast, a mutation in a tissue-specific splicing regulatory protein (SR protein expressed only in neurons, for example) would only affect alternative splicing decisions in that tissue. Core spliceosomal mutations tend to cause severe, multi-system diseases (e.g., some forms of retinitis pigmentosa caused by mutations in ubiquitous spliceosomal proteins). This is analogous to why mutations in core transcription machinery (RNA polymerase II subunits) are lethal while mutations in tissue-specific transcription factors cause tissue-specific diseases." }
-    ],
-    rubric: [{ points: 1, description: "(1) 5' capping — addition of a modified guanosine (7-methylguanosine) to the 5'", partLabel: 'a', skill: 'describe', keywords: ["translation", "splicing", "ribosome", "intron", "mrna", "exon", "aauaaa", "poly-a tail", "snrna-protein complex"] }, { points: 1, description: "Alternative splicing allows different combinations of exons to be included or ex", partLabel: 'b', skill: 'explain', keywords: ["splicing", "mrna", "exon", "exons that may or may not be included", "eses", "esss"] }, { points: 1, description: "Protein diversity would be dramatically reduced. Each gene could only produce on", partLabel: 'c', skill: 'predict', keywords: ["polypeptide", "splicing", "reduced", "mrna", "gene", "mrnas would be degraded faster"] }, { points: 1, description: "The spliceosome is a constitutively expressed, universally required complex — al", partLabel: 'd', skill: 'explain', keywords: ["rna polymerase", "transcription", "mutation", "splicing", "mrna", "gene", "rna polymerase ii subunits"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT2-S3',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Hardy-Weinberg and Population Genetics",
-    units: [7],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "A genetics student surveys a population of 1,000 red-green colorblind people and those with normal color vision in an isolated mountain village. Red-green colorblindness is caused by an X-linked recessive allele (X^c); normal vision is dominant (X^C). She finds 8 colorblind males and 2 colorblind females.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Calculate', question: "the frequency of the colorblind allele (q) in this population. Show your work.", rubric: "In X-linked traits, males are hemizygous. Males: 8 colorblind / total males. Assuming equal sex ratio in 1,000 individuals: 500 males, 500 females. Colorblind males = 8 out of 500 males → q (frequency of X^c allele) can be estimated from male frequency because males express the allele directly: q = 8/500 = 0.016. Colorblind females = 2 out of 500 females → for females, colorblind = q² (assuming H-W equilibrium) → q² = 2/500 = 0.004 → q = 0.063. Note: the two estimates differ (0.016 vs. 0.063), suggesting this population may not be in H-W equilibrium, or the sample size is too small for accurate estimation. Award full credit for correctly calculating q from males (q = 0.016) with work shown AND noting that the female frequency can provide an independent estimate. Accept either method with clear work." },
-    { label: 'b', command: 'State', question: "the five conditions required for Hardy-Weinberg equilibrium and identify which condition(s) are most likely violated in an isolated mountain village.", rubric: "Five conditions: (1) No mutation; (2) No natural selection (all genotypes have equal fitness); (3) No gene flow (no migration in or out); (4) Random mating (panmixia); (5) Large population size (no genetic drift). Most likely violated in isolated mountain village: (a) Small population size — isolated villages often have small founding populations, making genetic drift significant; (b) No gene flow — isolation by mountain geography would restrict immigration; (c) Possibly non-random mating — small communities may have consanguineous marriages (related individuals) or assortative mating. Must name all five conditions and identify at least two likely violations with reasoning." },
-    { label: 'c', command: 'Explain', question: "why the frequency of carrier females (X^C X^c) is much higher than the frequency of colorblind females in most populations with low colorblind allele frequency.", rubric: "Using Hardy-Weinberg for X-linked alleles: frequency of colorblind females = q² (must inherit X^c from both parents). Frequency of carrier females = 2pq (one X^C and one X^c). When q is small (say q = 0.08, p = 0.92): colorblind females = q² = 0.0064 (0.64%); carrier females = 2pq = 2(0.92)(0.08) = 0.147 (14.7%). The ratio of carriers to affected females = 2pq/q² = 2p/q. When p ≈ 1 (q is small), this ratio ≈ 2/q, which is very large. Biologically: to be colorblind, a female must inherit the allele from BOTH parents (independently); carrier status requires inheriting it from only one parent. The probability of inheriting two rare alleles simultaneously is the square of the probability of inheriting one — a much rarer event." },
-    { label: 'd', command: 'Predict', question: "whether natural selection against colorblindness in males would cause colorblindness to disappear rapidly from a population. Justify your prediction using H-W principles.", rubric: "Selection against colorblind males would reduce the frequency of the X^c allele slowly, not rapidly. Justification: in any given generation, the majority of X^c alleles are \"hidden\" in carrier females (X^C X^c) who do not express the phenotype and experience no selective disadvantage. Only the fraction of X^c alleles in hemizygous males (q of all X chromosomes in males = q × total X chromosomes in males = roughly 1/3 of all X^c alleles) are exposed to selection. The X^c alleles in carrier females are protected from selection — they cannot be eliminated without selecting against carriers who have normal vision. The result is slow allele frequency decline rather than rapid elimination, because selection can only act on alleles when they are expressed. This is the same \"sheltering\" effect seen with autosomal recessives in heterozygotes, but amplified for X-linked traits because females have twice as many X chromosomes as males in the gene pool." }
-    ],
-    rubric: [{ points: 1, description: "In X-linked traits, males are hemizygous. Males: 8 colorblind / total males. Ass", partLabel: 'a', skill: 'calculate', keywords: ["population", "x-linked", "allele", "assuming h-w equilibrium"] }, { points: 1, description: "Five conditions: (1) No mutation; (2) No natural selection (all genotypes have e", partLabel: 'b', skill: 'describe', keywords: ["natural selection", "genetic drift", "population", "gene flow", "mutation", "fitness", "gene", "all genotypes have equal fitness", "no migration in or out", "panmixia"] }, { points: 1, description: "Using Hardy-Weinberg for X-linked alleles: frequency of colorblind females = q²", partLabel: 'c', skill: 'explain', keywords: ["probability", "x-linked", "carrier", "allele", "q is small", "independently"] }, { points: 1, description: "Selection against colorblind males would reduce the frequency of the X^c allele", partLabel: 'd', skill: 'predict', keywords: ["allele frequency", "gene pool", "phenotype", "x-linked", "carrier", "allele", "gene"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT2-S4',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Cytoskeleton and Cell Division",
-    units: [2],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "A cell biology student treats dividing HeLa cells with two different drugs: Drug A (colchicine) prevents tubulin polymerization, and Drug B (taxol) prevents microtubule depolymerization. Both drugs ultimately arrest cells in mitosis and prevent cell division.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why both preventing polymerization and preventing depolymerization of microtubules block mitosis, even though these are opposite effects on microtubule dynamics.", rubric: "Mitosis requires dynamic microtubules for multiple reasons. Spindle assembly requires microtubules to polymerize from centrosomes and search for kinetochores (dynamic instability — growing and shrinking). Chromosome attachment to kinetochores requires microtubule ends to polymerize and capture kinetochores. Chromosome alignment and movement at metaphase requires continuous polymerization and depolymerization: chromosomes \"surf\" on dynamic microtubule plus-ends. Anaphase chromosome separation requires coordinated depolymerization of kinetochore microtubules to pull chromosomes poleward. Drug A (colchicine) freezes microtubules in a depolymerized state — no spindle forms, no chromosome attachment. Drug B (taxol) freezes microtubules in a polymerized state — spindle forms but chromosomes cannot move (no dynamic shortening). Both disrupt the essential dynamism required for chromosome capture, alignment, and segregation." },
-    { label: 'b', command: 'Describe', question: "the role of the spindle assembly checkpoint (SAC) in explaining why cells treated with either drug arrest specifically in mitosis.", rubric: "The spindle assembly checkpoint (SAC) monitors whether all kinetochores are properly attached to microtubules from opposite poles (bi-orientation/amphitelic attachment) with appropriate tension. Unattached or improperly attached kinetochores generate a \"wait-anaphase\" signal by producing the mitotic checkpoint complex (MCC), which inhibits the APC/C (anaphase-promoting complex/cyclosome) — the E3 ubiquitin ligase that triggers anaphase by degrading securin and cyclin B. While even one kinetochore remains unattached, the SAC signal persists and APC/C is inhibited. With Drug A: no microtubules form, all kinetochores unattached → continuous SAC signal → arrest at metaphase. With Drug B: microtubules stable but not dynamic → chromosomes may attach but lack proper tension (dynamic instability provides the force for tension generation) → SAC remains active → arrest at metaphase. Both drugs maintain the \"wrong\" situation that SAC monitors, indefinitely blocking anaphase." },
-    { label: 'c', command: 'Justify', question: "why taxol (now called paclitaxel) is used as an anti-cancer drug in humans, given that it affects microtubules in all cells.", rubric: "Cancer cells divide rapidly and spend a greater proportion of their time in mitosis compared to most normal adult cells. Paclitaxel preferentially kills cells undergoing mitosis — cells that are not dividing (non-cycling, differentiated cells like neurons, liver cells) are not actively undergoing mitosis and are therefore less affected. Cancer cells, by virtue of their high proliferation rate, encounter paclitaxel during mitosis more frequently than normal cells, making them more susceptible to the drug's anti-mitotic effects. Additionally, the therapeutic window relies on the differential proliferation rate: cancer cells are killed disproportionately while most normal tissues tolerate the drug (though dividing normal cells — bone marrow, gut epithelium, hair follicles — do experience side effects like neutropenia, nausea, and hair loss). ─────────────────────────────────────────────────────────── PRACTICE TEST 3 — SHORT FRQs ───────────────────────────────────────────────────────────" }
-    ],
-    rubric: [{ points: 1, description: "Mitosis requires dynamic microtubules for multiple reasons. Spindle assembly req", partLabel: 'a', skill: 'explain', keywords: ["microtubule", "kinetochore", "chromosome", "metaphase", "anaphase", "mitosis", "colchicine", "taxol", "no dynamic shortening"] }, { points: 1, description: "The spindle assembly checkpoint (SAC) monitors whether all kinetochores are prop", partLabel: 'b', skill: 'describe', keywords: ["kinetochore", "checkpoint", "metaphase", "ubiquitin", "anaphase", "cyclin", "sac", "bi-orientation/amphitelic attachment", "mcc", "anaphase-promoting complex/cyclosome"] }, { points: 1, description: "Cancer cells divide rapidly and spend a greater proportion of their time in mito", partLabel: 'c', skill: 'explain', keywords: ["mitosis", "cancer"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT3-S1',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Membrane Lipids and Fluid Mosaic Model",
-    units: [1],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "The plasma membrane of cells is a fluid mosaic of phospholipids, cholesterol, and proteins. A researcher studying membrane composition finds that bacteria adapted to cold environments have membranes with a higher proportion of unsaturated fatty acids compared to bacteria living in warm environments.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why cold-adapted bacteria have more unsaturated fatty acids in their membranes.", rubric: "Membrane fluidity decreases at low temperatures — fatty acid tails become more ordered and pack tightly, reducing fluidity and potentially causing the membrane to become too rigid for normal function. Unsaturated fatty acids have kinked/bent tails (due to C=C double bonds) that prevent tight packing between adjacent phospholipids, maintaining greater membrane fluidity at low temperatures. Bacteria in cold environments increase the proportion of unsaturated fatty acids in their membranes as a homeoviscous adaptation — maintaining appropriate fluidity for membrane function (protein mobility, transport, signal transduction) despite the cold. If membranes became too rigid, membrane proteins would lose mobility and membrane-dependent functions would fail." },
-    { label: 'b', command: 'Describe', question: "the role of cholesterol in maintaining membrane fluidity in animal cells across a range of temperatures.", rubric: "Cholesterol has an intermediate effect on membrane fluidity that acts as a \"buffer\": at high temperatures — cholesterol restricts phospholipid tail movement by inserting between phospholipid molecules and interacting with their tails; this reduces the increase in fluidity that would otherwise occur at high temperatures (prevents membranes from becoming too fluid/permeable). At low temperatures — cholesterol interferes with close-packing of saturated fatty acid tails that would otherwise cause the membrane to become too ordered/gel-like; this maintains fluidity at temperatures where it would otherwise drop too low. Cholesterol is a fluidity modulator that narrows the range of temperature-dependent fluidity changes." },
-    { label: 'c', command: 'Justify', question: "why integral membrane proteins can move laterally within the membrane but generally cannot flip-flop (transverse diffusion) between the two leaflets.", rubric: "Integral membrane proteins span the lipid bilayer and have transmembrane domains embedded in the hydrophobic core, but also have hydrophilic domains on one or both sides of the membrane. Lateral diffusion (within one leaflet) is energetically favorable — the protein moves within a consistent hydrophobic environment while its hydrophilic domains remain in the aqueous environment they already occupy. Flip-flopping would require the large hydrophilic domains of the protein (which may include extracellular glycosylated regions or cytoplasmic signaling domains) to pass through the hydrophobic lipid bilayer core — an enormously energetically unfavorable process that would require burying charged and polar groups in a completely non-polar environment. For lipids, flip-flop is also slow for the same reason (polar headgroups must pass through the hydrophobic core), but lipids have much smaller headgroups than proteins and can occasionally flip-flop with assistance from specialized enzymes (flippases, floppases)." }
-    ],
-    rubric: [{ points: 1, description: "Membrane fluidity decreases at low temperatures — fatty acid tails become more o", partLabel: 'a', skill: 'explain', keywords: ["signal transduction", "c=c double bonds", "unsaturated", "fatty acid", "adaptation"] }, { points: 1, description: "Integral membrane proteins span the lipid bilayer and have transmembrane domains", partLabel: 'b', skill: 'describe', keywords: ["saturated fatty acid", "phospholipid", "fatty acid", "saturated"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT3-S2',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Cell Cycle Checkpoints",
-    units: [4],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "In 2001, the Nobel Prize in Physiology or Medicine was awarded to Leland Hartwell, Tim Hunt, and Paul Nurse for their discovery of cell cycle regulatory proteins. Hartwell discovered cell division cycle (cdc) mutants in yeast; Nurse discovered cyclin-dependent kinases (CDKs); Hunt discovered cyclins — proteins whose concentrations oscillate throughout the cell cycle.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why CDKs require cyclin binding to become active and how this mechanism links cyclin protein levels to cell cycle progression.", rubric: "CDKs (cyclin-dependent kinases) are constitutively expressed but catalytically inactive without a cyclin partner. The cyclin binding domain of CDK undergoes a conformational change upon cyclin binding that repositions the T-loop of the CDK, opening the active site for substrate binding and phosphorylation. Because cyclins are synthesized and degraded in a precisely timed pattern during the cell cycle (e.g., cyclin B accumulates in G2/M and is rapidly degraded at the metaphase-anaphase transition; cyclin D/E accumulate in G1), CDK activity is directly controlled by cyclin availability. When cyclin is present, CDK is active and phosphorylates substrates that drive cell cycle progression; when cyclin is degraded, CDK is immediately inactivated. This links cell cycle timing to cyclin protein abundance." },
-    { label: 'b', command: 'Describe', question: "the role of the Rb protein and E2F transcription factor in regulating the G1/S checkpoint, and explain how active cyclin D-CDK4/6 complex triggers S-phase entry.", rubric: "In G0/early G1: Rb (retinoblastoma protein) is hypophosphorylated and binds tightly to E2F transcription factors, sequestering them and preventing transcription of genes needed for S-phase (DNA polymerase, thymidine kinase, dihydrofolate reductase, etc.). When mitogenic signals activate cyclin D synthesis: cyclin D-CDK4/6 complex phosphorylates Rb at multiple serine/threonine residues → hyperphosphorylated Rb undergoes conformational change and releases E2F → free E2F transactivates S-phase gene expression → cell enters S phase. A positive feedback loop: E2F also activates cyclin E transcription → cyclin E-CDK2 further phosphorylates Rb → more E2F released → drives rapid, irreversible commitment to S phase (restriction point). Must include Rb phosphorylation releasing E2F as the central mechanism." },
-    { label: 'c', command: 'Predict', question: "the cell cycle fate of a cell in which Rb has been deleted (both alleles), and justify why this mutation is oncogenic.", rubric: "Prediction: cells with both Rb alleles deleted would bypass the G1/S checkpoint and continuously enter S phase without requiring mitogenic growth factor signals. E2F would be constitutively free (not sequestered by Rb) and would continuously activate S-phase gene expression. Cells would proliferate even in the absence of growth factors — unregulated division. Oncogenic because: Rb is a tumor suppressor whose normal function is to inhibit proliferation by restraining E2F. Loss of Rb removes the primary brake on cell cycle entry. RB1 was the first tumor suppressor gene identified (in retinoblastoma eye cancer in children) — children who inherit one mutant RB1 allele develop eye tumors when the second allele is lost (two-hit hypothesis/Knudson hypothesis). Rb loss is found in many cancers (lung, bladder, breast) because eliminating Rb removes a fundamental cell cycle checkpoint." },
-    { label: 'd', command: 'Explain', question: "why cancer cells that have bypassed the G1/S checkpoint (e.g., through Rb loss) still require the S-phase and G2/M checkpoints to remain functional in order for cell division to produce viable daughter cells.", rubric: "Bypassing G1/S controls forces the cell into S phase but does not guarantee faithful DNA replication or proper chromosome segregation. The S-phase checkpoint monitors for replication stress and DNA damage during replication — it activates ATR/Chk1 to slow replication fork progression and prevent the cell from exiting S phase before replication is complete. The G2/M checkpoint prevents mitosis from occurring before replication is complete — it ensures that CDK1/cyclin B are only activated after all DNA has been replicated and any damage is repaired. The spindle assembly checkpoint ensures proper chromosome attachment. Cancer cells frequently lose these checkpoints too, which causes chromosomal instability — but cells that lose ALL checkpoints accumulate so much chromosomal damage that they undergo mitotic catastrophe and die. Some level of checkpoint function is generally required to complete each division cycle. Most cancer cells retain partial checkpoint function while overriding specific restrictive ones." }
-    ],
-    rubric: [{ points: 1, description: "CDKs (cyclin-dependent kinases) are constitutively expressed but catalytically i", partLabel: 'a', skill: 'explain', keywords: ["phosphorylation", "active site", "cell cycle", "substrate", "metaphase", "anaphase", "cyclin", "cdk", "cyclin-dependent kinases"] }, { points: 1, description: "In G0/early G1: Rb (retinoblastoma protein) is hypophosphorylated and binds tigh", partLabel: 'b', skill: 'describe', keywords: ["positive feedback", "phosphorylation", "gene expression", "dna polymerase", "feedback loop", "transcription", "s phase", "cyclin", "gene", "retinoblastoma protein"] }, { points: 1, description: "Prediction: cells with both Rb alleles deleted would bypass the G1/S checkpoint", partLabel: 'c', skill: 'predict', keywords: ["tumor suppressor", "gene expression", "checkpoint", "cell cycle", "s phase", "cancer", "allele", "gene", "not sequestered by rb", "in retinoblastoma eye cancer in children"] }, { points: 1, description: "Bypassing G1/S controls forces the cell into S phase but does not guarantee fait", partLabel: 'd', skill: 'explain', keywords: ["replication fork", "dna replication", "chromosome", "checkpoint", "mitosis", "s phase", "cancer", "cyclin"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT3-S3',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Evolutionary Mechanisms and Genetic Drift",
-    units: [7],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 4,
-    autoGraded: true,
-    prompt: "A population of 10,000 birds is swept by a catastrophic hurricane that leaves only 20 survivors. The surviving 20 birds found a new population on an isolated island. Before the hurricane, the frequency of an allele for crest length (C allele: 0.40) was maintained by stabilizing selection (intermediate crest length was optimal). Among the 20 survivors, by chance, the C allele frequency is 0.70.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Identify', question: "the evolutionary phenomenon illustrated by the population crash and subsequent founding of the new island population. Distinguish it from a related concept.", rubric: "This is a bottleneck effect — a dramatic reduction in population size due to a catastrophic event, followed by population recovery. The small surviving population does not genetically represent the original population (C allele frequency shifted from 0.40 to 0.70 by chance). Distinguish from the founder effect: the founder effect occurs when a small group deliberately or accidentally colonizes a new area (geographic separation), while the bottleneck effect refers to a catastrophic reduction of an existing population in its original or a new location. Here, both phenomena may apply — the hurricane creates a bottleneck AND the survivors colonize a new island (founder effect). Accept either identification with clear reasoning." },
-    { label: 'b', command: 'Explain', question: "why genetic drift has a larger effect on allele frequencies in the new island population of 20 birds than it did in the original population of 10,000 birds.", rubric: "Genetic drift is the random fluctuation in allele frequencies from generation to generation due to chance sampling of gametes. The magnitude of drift is inversely proportional to population size (approximately proportional to 1/2N for diploid organisms). In a population of 10,000 birds: random sampling error is small — the law of large numbers means that gamete sampling closely approximates actual allele frequencies; drift is negligible relative to selection. In a population of 20 birds: each breeding event samples only 40 alleles total (20 diploid individuals × 2 alleles each); random sampling error in such a small sample is enormous; a single individual failing to breed (or breeding more/less than others) causes large swings in allele frequency. Allele frequencies can change substantially by chance each generation, potentially eliminating or fixing alleles regardless of their fitness effects." },
-    { label: 'c', command: 'Predict', question: "the long-term fate of genetic variation in the new island population, assuming no migration occurs. Justify your prediction.", rubric: "Prediction: genetic variation in the island population would decrease over time, with alleles eventually becoming fixed (frequency = 1.0) or lost (frequency = 0) due to genetic drift. Justification: in a small isolated population, genetic drift dominates over selection for neutral or mildly selected alleles. Each generation, rare alleles have a high probability of being lost by chance sampling — a rare allele carried by only one individual may not be passed on. Over many generations, all loci approach fixation for one allele. Additionally, inbreeding increases as all individuals share common ancestors, reducing heterozygosity by 1/(2N) per generation (≈ 1/40 = 2.5% per generation for N=20). Without immigration to restore variation, the population will become increasingly genetically uniform." },
-    { label: 'd', command: 'Justify', question: "whether natural selection or genetic drift would be expected to ultimately determine the allele frequencies in this new island population over the next 100 generations, given that the original stabilizing selection for intermediate crest length still operates on the island.", rubric: "The answer depends on the strength of selection relative to the magnitude of drift. For genetic drift to dominate over selection, drift must be strong relative to selection — roughly when |s| (selection coefficient) < 1/(2N). With N=20 birds, drift dominates when s < 1/40 = 0.025. For selection to dominate, s must be >> 0.025. Stabilizing selection for intermediate crest length was operating in the original population — if this selection is strong (s substantially > 0.025), natural selection would drive the allele frequency back toward an intermediate optimum. If selection is weak (s < 0.025), drift will dominate and allele frequencies will wander randomly. For most quantitative traits in small populations, drift is typically powerful enough to overcome moderate selection. As the population grows (if it does), selection becomes more effective. Must include the concept of effective population size and the relative magnitudes of drift (1/2N) and selection (s) for full credit." }
-    ],
-    rubric: [{ points: 1, description: "This is a bottleneck effect — a dramatic reduction in population size due to a c", partLabel: 'a', skill: 'describe', keywords: ["bottleneck effect", "allele frequency", "founder effect", "population", "reduction", "allele", "geographic separation"] }, { points: 1, description: "Genetic drift is the random fluctuation in allele frequencies from generation to", partLabel: 'b', skill: 'explain', keywords: ["allele frequency", "genetic drift", "population", "fitness", "diploid", "gamete", "allele"] }, { points: 1, description: "Prediction: genetic variation in the island population would decrease over time,", partLabel: 'c', skill: 'predict', keywords: ["genetic drift", "probability", "population", "variation", "allele"] }, { points: 1, description: "The answer depends on the strength of selection relative to the magnitude of dri", partLabel: 'd', skill: 'explain', keywords: ["the concept of effective population size", "stabilizing selection", "natural selection", "allele frequency", "genetic drift", "population", "allele", "selection coefficient", "if it does"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT3-S4',
-    subject: 'apbio',
-    frqType: 'short',
-    title: "Biogeography and Island Ecology",
-    units: [8],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 3,
-    autoGraded: true,
-    prompt: "The theory of island biogeography (MacArthur and Wilson, 1967) predicts that the number of species on an island reaches a dynamic equilibrium determined by a balance between immigration (colonization) and extinction rates. Larger islands support more species at equilibrium than smaller islands; islands closer to the mainland have higher immigration rates than distant islands.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Predict', question: "how species richness would compare between two islands of equal size — one 5 km from the mainland and one 200 km from the mainland. Justify your prediction using immigration and extinction rates.", rubric: "The island 5 km from the mainland would have higher species richness at equilibrium. Justification: the near island has a much higher immigration rate because organisms (seeds via wind/water, animals via swimming/flying/rafting) can more easily colonize a nearby island than a distant one — the dispersal barrier is smaller. At equilibrium, immigration rate equals extinction rate. With the same island size (same extinction rate), a higher immigration rate pushes the equilibrium toward more species. The distant island has a lower immigration rate; even as species go extinct, replacement via colonization is slow, so the equilibrium species number is lower. Both islands have the same extinction rate curve (same area = same carrying capacity for species), but the near island intersects this curve at a higher species number." },
-    { label: 'b', command: 'Explain', question: "why larger islands support more species than smaller islands at equilibrium, even if immigration rates are the same.", rubric: "Larger islands support more species because: (1) More habitat diversity — larger islands contain more diverse habitat types (more ecological niches), allowing species with different requirements to coexist without competitive exclusion; (2) Greater total resource availability — larger resource base supports larger populations of each species; (3) Lower per-species extinction rate — larger population sizes (supported by more resources) reduce the probability of stochastic extinction; larger islands effectively decrease the extinction rate curve relative to smaller islands. At the same immigration rate, a lower extinction rate means the equilibrium is reached at a higher species number. The species-area relationship (S = cA^z, where S = species, A = area, c and z are constants) empirically describes this; z ≈ 0.25-0.35 for most island groups." },
-    { label: 'c', command: 'Describe', question: "how the theory of island biogeography applies to fragmented habitat patches in conservation biology, and identify one conservation implication.", rubric: "Habitat fragments created by human land use (deforestation, agriculture, urban development) function as ecological \"islands\" surrounded by an inhospitable \"sea\" of modified habitat. The same principles apply: larger fragments retain more species; fragments closer to intact habitat have higher immigration (colonization) rates from surrounding source populations. Fragmentation reduces fragment area and increases isolation, which the theory predicts would reduce equilibrium species richness and increase extinction rates. Conservation implication: (1) Larger reserves are better than smaller ones (all other things equal) — the species-area relationship means doubling reserve area does not double species retained, but consistently preserves more; (2) Connecting fragments with wildlife corridors increases immigration rate, compensating for small fragment size — corridors function like \"mainland proximity\" in the island analogy; (3) A single large reserve may be preferable to several small reserves of the same total area (SLOSS debate — still debated). Must name one clear implication with ecological reasoning. ─────────────────────────────────────────────────────────── PRACTICE TEST 1 — LONG FRQs ───────────────────────────────────────────────────────────" }
-    ],
-    rubric: [{ points: 1, description: "The island 5 km from the mainland would have higher species richness at equilibr", partLabel: 'a', skill: 'predict', keywords: ["carrying capacity", "same extinction rate"] }, { points: 1, description: "Larger islands support more species because: (1) More habitat diversity — larger", partLabel: 'b', skill: 'explain', keywords: ["probability", "population", "habitat", "more ecological niches", "supported by more resources"] }, { points: 1, description: "Habitat fragments created by human land use (deforestation, agriculture, urban d", partLabel: 'c', skill: 'describe', keywords: ["habitat", "colonization", "all other things equal"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT1-L1',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Membrane Structure, Transport, and Cell Energetics",
-    units: [2],
-    difficulty: 'medium',
-    source: 'CB 2024',
-    points: 10,
-    autoGraded: true,
-    prompt: "Researchers investigate membrane transport properties using two experimental systems. In Experiment 1, they use artificial lipid bilayer vesicles (liposomes) made from pure phosphatidylcholine (a phospholipid with saturated fatty acid tails) and test the permeability of various molecules. In Experiment 2, they study red blood cells placed in solutions of varying tonicity and measure the rate of water movement using stopped-flow light scattering. Table 7. Relative permeability of artificial lipid bilayer to various molecules Molecule Size harge C Relative Permeability O2 Small None Very high CO2 Small None Very high H2O Small None Low Ethanol Small None High Glucose Large None Very low Na+ Small +1 Extremely low Cl- Small -1 Extremely low",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "the pattern of membrane permeability shown in Table 7, using the properties of the phospholipid bilayer to account for the differences among molecule types.", rubric: "The hydrophobic interior of the lipid bilayer determines permeability. Small, nonpolar molecules (O2, CO2, ethanol) dissolve readily in the lipid core and diffuse freely — very high permeability. Water is small and uncharged but polar (has partial charges) — it passes slowly across pure lipid bilayers without aquaporins (low permeability). Glucose is large AND polar — both size and polarity exclude it from the hydrophobic core (very low permeability). Ions (Na+, Cl-) are charged — a fully hydrated ion carries a large shell of water molecules and has a net charge; both properties make passage through the hydrophobic bilayer extremely energetically costly (the energy cost of removing the hydration shell vastly exceeds the available thermal energy). Permeability decreases with increasing polarity/charge, and also decreases with increasing size for polar molecules." },
-    { label: 'b', command: 'Predict', question: "how the permeability of water would change if the liposomes incorporated purified aquaporin (AQP1) protein channels into their membranes. Justify your prediction and explain the mechanism.", rubric: "Water permeability would increase dramatically (typically 10-50× or more) in aquaporin-containing liposomes. Mechanism: aquaporins are transmembrane channel proteins that form a narrow pore lined with polar amino acid residues and precisely positioned oxygen atoms (carbonyls). Water molecules pass through single-file, forming hydrogen bonds with the channel lining that substitute for the hydrogen bonds they would otherwise form with other water molecules. Critically, the channel has a \"selectivity filter\" — a narrowing called the ar/R region — that excludes protons (H3O+) by an electrostatic mechanism (asparagine-proline-alanine motifs create a region that reorients water dipoles, preventing H+ transfer). This allows rapid, selective water passage without allowing solute, ion, or proton passage. Aquaporins increase osmotic water permeability 10-50× without affecting reflection coefficient or ion permeability." },
-    { label: 'c', command: 'Describe', question: "the experiment that could be performed using the red blood cell system to distinguish between water movement through aquaporin channels and diffusion through the lipid bilayer directly.", rubric: "To distinguish aquaporin-mediated from bilayer-diffusion-mediated water movement: (1) Treat red blood cells with HgCl2 (mercuric chloride) or other sulfhydryl-blocking agents that inhibit aquaporins by binding to cysteine residues in the channel (specific aquaporin inhibitors). Measure the rate of water movement in treated vs. untreated cells under the same osmotic gradient. The portion of water movement inhibited by the aquaporin blocker = aquaporin-mediated transport. The remaining water movement = bilayer diffusion. (2) Alternatively, express specific amounts of aquaporin protein in Xenopus oocytes (which have low baseline aquaporin expression) and measure osmotic swelling as an assay. (3) Compare osmotic permeability (Pf) to diffusional permeability (Pd) — high Pf/Pd ratio indicates channel-mediated transport; Pf ≈ Pd indicates pure diffusion." },
-    { label: 'd', command: 'Explain', question: "why red blood cells placed in a strongly hypotonic solution (e.g., distilled water) will lyse, while plant cells in the same solution become turgid but do not burst.", rubric: "Red blood cells: no cell wall. Water moves into cells by osmosis down the water potential gradient (external water potential > internal water potential in distilled water). As water enters, the cell membrane stretches — but the lipid bilayer has limited extensibility. As turgor pressure increases, the membrane reaches its elastic limit and ruptures (hemolysis/lysis). Plant cells: have a rigid cell wall made of cellulose microfibrils and cross-linking polysaccharides. As water enters by osmosis, the expanding cell is constrained by the cell wall, which resists deformation. The wall generates an inward pressure (wall pressure / turgor pressure) that opposes further water entry by reducing the water potential inside the cell. Equilibrium is reached when wall pressure equals the osmotic pressure driving water in — the cell is turgid but intact. The cell wall acts as a pressure vessel preventing cell rupture." },
-    { label: 'e', command: 'Evaluate', question: "student claims that the Na+/K+-ATPase pump in red blood cell membranes is unnecessary because Na+ and K+ concentrations are maintained by the impermeability of the membrane to ions. Evaluate this claim using your knowledge of membrane permeability and active transport.", rubric: "The claim is incorrect. While the lipid bilayer has extremely low permeability to ions, it is not perfectly impermeable — there is slow but continuous leak of Na+ into cells and K+ out of cells through leak channels (non-gated channels) and directly through the membrane over time. Without the Na+/K+-ATPase to counteract this leak, Na+ would gradually accumulate intracellularly and K+ would gradually deplete. The resulting changes in ion concentration would: (1) alter membrane potential; (2) cause osmotic imbalance — as Na+ enters, cell osmolarity increases, driving water entry and causing swelling/lysis; (3) disrupt Na+-dependent secondary active transport of glucose and amino acids. The Na+/K+-ATPase continuously pumps 3 Na+ out and 2 K+ in per ATP, maintaining the steady-state gradients against continuous leak. Perfect impermeability does not exist at physiological temperatures; the pump is essential to counteract unavoidable ion leak." },
-    { label: 'f', command: 'Predict', question: "what would happen to cellular ATP consumption if ouabain (a specific Na+/K+-ATPase inhibitor) were applied to cells, and explain the paradox that ouabain treatment actually REDUCES total cellular ATP consumption rather than increasing it.**", rubric: "Initially one might predict ATP consumption would remain the same or increase (cells might try to compensate). However, ouabain REDUCES total ATP consumption. Explanation: the Na+/K+-ATPase is responsible for approximately 20-40% of total cellular ATP consumption in most cells. Blocking it immediately reduces ATP usage by that amount. Because ouabain stops the pump, Na+ accumulates and K+ depletes — the cell becomes depolarized and ion gradients dissipate. Without ion gradients, secondary active transporters that use Na+ gradients (Na+-glucose cotransporter, Na+-amino acid transporters) stop functioning, reducing their indirect ATP costs too. The dissipation of ion gradients also reduces the electrochemical work the cell was doing. Total metabolic activity decreases as the cell can no longer perform normal Na+-dependent transport. This is why cells eventually die — loss of Na+/K+ gradients collapses secondary transport and membrane potential, shutting down metabolism." },
-    { label: 'g', command: 'Describe', question: "the chemiosmotic mechanism by which the proton gradient across the inner mitochondrial membrane is used to synthesize ATP, drawing a parallel to how the Na+ gradient across the plasma membrane is used to drive glucose uptake by secondary active transport.**", rubric: "Parallel structure: Both systems use an electrochemical gradient of one ion, established at energetic cost, to drive a thermodynamically unfavorable process. In mitochondria: the ETC uses energy from electron transfer (ultimately from NADH and FADH2) to pump H+ against its electrochemical gradient into the IMS, creating a proton motive force (pH gradient + membrane potential). H+ flows back through ATP synthase (the coupling factor) down its electrochemical gradient; this flow drives rotation of the F0 rotor, causing conformational changes in F1 catalytic subunits that synthesize ATP from ADP + Pi. In intestinal epithelium: the Na+/K+-ATPase uses ATP to pump Na+ against its gradient, creating a low-intracellular-Na+ electrochemical gradient. The Na+-glucose cotransporter (SGLT) uses this Na+ gradient as the driving force — Na+ flows into the cell down its gradient through the cotransporter, and the free energy of this Na+ movement is coupled to the uphill transport of glucose against its gradient. In both cases: primary active transport (ATP-driven) establishes an ion gradient → ion gradient drives secondary energy-requiring process (ATP synthesis or solute uphill transport). The coupling factor (ATP synthase / cotransporter) converts ion gradient energy to useful work." },
-    { label: 'h', command: 'Justify', question: "why the fluid mosaic model (as proposed by Singer and Nicolson in 1972) was a revolutionary advance over the earlier Davson-Danielli \"sandwich\" model of membrane structure.", rubric: "Davson-Danielli sandwich model (1935): membrane was proposed to be a phospholipid bilayer coated on both sides with a static layer of protein — proteins were distributed uniformly on membrane surfaces and did not penetrate the bilayer interior. Limitations: could not explain how hydrophobic integral membrane proteins existed, how membrane functions like selective transport and enzymatic activity occurred, or why membrane components of different cells had different properties. Fluid mosaic model advances: (1) recognized that proteins are embedded within and spanning the lipid bilayer (integral/transmembrane proteins) as well as associated with membrane surfaces (peripheral proteins); (2) recognized that both lipids and proteins are mobile — lateral diffusion within the plane of the membrane (demonstrated by FRAP and cell fusion experiments); (3) explained functional diversity — different proteins perform different functions in different regions; (4) explained lipid and protein asymmetry between bilayer leaflets; (5) enabled understanding of membrane-based functions (enzyme activity, receptor signaling, selective transport, cell recognition). Must contrast the static protein-coating model with the dynamic, embedded-protein model and explain why the shift was important." },
-    { label: 'i', command: 'Explain', question: "how FRAP (fluorescence recovery after photobleaching) experiments provided evidence for lateral membrane protein mobility, supporting the fluid mosaic model.", rubric: "FRAP: (1) Label membrane proteins with a fluorescent tag (e.g., antibody conjugated to fluorochrome, or GFP-fusion protein); (2) Use a focused laser beam to bleach (permanently inactivate the fluorescence of) the fluorescent molecules in a small defined region of the membrane; (3) Monitor the fluorescence in the bleached region over time. If the membrane is fluid and proteins can diffuse laterally: unbleached fluorescent molecules from outside the bleached zone will diffuse into the bleached area, gradually restoring fluorescence. The rate of fluorescence recovery (t1/2 of recovery) gives the diffusion coefficient of the membrane protein. If the membrane were static (Davson-Danielli model), no recovery would occur. FRAP experiments showed rapid fluorescence recovery for many membrane proteins, with diffusion coefficients consistent with a fluid lipid environment (~10^-9 to 10^-11 cm²/sec), confirming lateral mobility of membrane proteins as predicted by the fluid mosaic model." },
-    { label: 'j', command: 'Predict', question: "whether a membrane protein with a very large extracellular domain would diffuse more slowly or more rapidly than a protein with a small extracellular domain. Justify your prediction using principles of membrane dynamics.**", rubric: "Prediction: a protein with a larger extracellular domain would diffuse more slowly. Justification: lateral diffusion of membrane proteins is limited not only by the viscosity of the lipid bilayer but also by the \"drag\" from interactions between the extracellular domain and the extracellular matrix (ECM), glycocalyx, or neighboring cell surfaces, as well as from interactions between the cytoplasmic domain and the cytoskeleton. A larger extracellular domain creates more surface area for potential interactions with the extracellular environment — more friction / more likelihood of transient binding to ECM components that slows diffusion. Additionally, according to the Saffman-Delbrück model, membrane protein diffusion depends primarily on the transmembrane domain size (not extracellular domain), but in practice, the extracellular domain interactions with the dense extracellular environment are a major obstacle. Real cells show that heavily glycosylated or ECM-interacting proteins diffuse much more slowly than predicted from bilayer viscosity alone." }
-    ],
-    rubric: [{ points: 1, description: "The hydrophobic interior of the lipid bilayer determines permeability. Small, no", partLabel: 'a', skill: 'explain', keywords: ["hydrophobic", "co2", "o2", "has partial charges", "low permeability", "very low permeability"] }, { points: 1, description: "Water permeability would increase dramatically (typically 10-50× or more) in aqu", partLabel: 'b', skill: 'predict', keywords: ["amino acid", "aquaporin", "carbonyls"] }, { points: 1, description: "To distinguish aquaporin-mediated from bilayer-diffusion-mediated water movement", partLabel: 'c', skill: 'describe', keywords: ["osmotic gradient", "water movement", "aquaporin", "diffusion", "mercuric chloride", "specific aquaporin inhibitors", "which have low baseline aquaporin expression"] }, { points: 1, description: "Red blood cells: no cell wall. Water moves into cells by osmosis down the water", partLabel: 'd', skill: 'explain', keywords: ["osmotic pressure", "water potential", "turgor pressure", "cell membrane", "water moves", "cell wall", "osmosis", "turgid", "hemolysis/lysis", "wall pressure / turgor pressure"] }, { points: 1, description: "The claim is incorrect. While the lipid bilayer has extremely low permeability t", partLabel: 'e', skill: 'describe', keywords: ["membrane potential", "active transport", "amino acids", "atpase", "atp", "non-gated channels"] }, { points: 1, description: "Initially one might predict ATP consumption would remain the same or increase (c", partLabel: 'f', skill: 'predict', keywords: ["membrane potential", "amino acid", "metabolism", "atpase", "atp", "cells might try to compensate"] }, { points: 1, description: "Parallel structure: Both systems use an electrochemical gradient of one ion, est", partLabel: 'g', skill: 'describe', keywords: ["electrochemical gradient", "proton motive force", "membrane potential", "active transport", "atp synthesis", "mitochondria", "atp synthase", "free energy", "atpase", "nadh"] }, { points: 1, description: "Davson-Danielli sandwich model (1935): membrane was proposed to be a phospholipi", partLabel: 'h', skill: 'explain', keywords: ["phospholipid bilayer", "fluid mosaic model", "phospholipid", "hydrophobic", "diffusion", "enzyme", "integral/transmembrane proteins", "peripheral proteins", "demonstrated by frap and cell fusion experiments"] }, { points: 1, description: "FRAP: (1) Label membrane proteins with a fluorescent tag (e.g., antibody conjuga", partLabel: 'i', skill: 'explain', keywords: ["fluid mosaic model", "diffusion", "antibody", "permanently inactivate the fluorescence of", "t1/2 of recovery", "davson-danielli model"] }, { points: 1, description: "Prediction: a protein with a larger extracellular domain would diffuse more slow", partLabel: 'j', skill: 'predict', keywords: ["extracellular matrix", "cytoskeleton", "diffusion", "ecm", "not extracellular domain"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT1-L2',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Phylogenetics and Molecular Evolution",
-    units: [7],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 10,
-    autoGraded: true,
-    prompt: "Scientists reconstruct the evolutionary history of four primate species — chimpanzees (Pan troglodytes), gorillas (Gorilla gorilla), orangutans (Pongo pygmaeus), and humans (Homo sapiens) — using DNA sequence data from the mitochondrial genome (mtDNA) and the nuclear cytochrome c gene. Table 8. Percent DNA sequence similarity in cytochrome c gene among four primates uman H Chimpanzee Gorill a Orangutan Human — 98.7% 98.4% 96.9% Chimpanzee 8.7% 9 — 98.2% 96.7% Gorilla 8.4% 9 98.2% — 96.5% Orangutan 6.9% 9 96.7% 96.5% — The scientists also compare mtDNA versus nuclear DNA and find that mtDNA mutates approximately 10 times faster than nuclear DNA in these species.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Construct', question: "a phylogenetic tree (describe its structure in words) showing the most likely evolutionary relationships among the four primate species based on Table 8. Justify your tree topology using the data.", rubric: "Most parsimonious tree based on data: ((Human, Chimpanzee), Gorilla), Orangutan. Justification: Humans and chimpanzees share the highest similarity (98.7%), indicating they are most closely related and share the most recent common ancestor. Gorillas are most similar to the human-chimp clade (98.4% and 98.2%, respectively) compared to their similarity to orangutans, placing gorillas as the next outgroup. Orangutans are most distantly related to all three African apes (96.5-96.9% similarity), consistent with a divergence predating the human-chimp-gorilla radiation. Tree structure: root (ancestor) → splits into orangutan lineage and the African ape clade → African ape clade splits into gorilla lineage and human+chimp clade → human+chimp clade splits into human and chimp lineages." },
-    { label: 'b', command: 'Explain', question: "why mtDNA evolves faster than nuclear DNA and describe one advantage and one disadvantage of using mtDNA for phylogenetic reconstruction.**", rubric: "mtDNA evolution rate: (1) mtDNA lacks efficient mismatch repair and proofreading machinery that nuclear DNA repair systems provide — more mutations persist; (2) mtDNA polymerase (Pol γ) has higher error rate than nuclear replicative polymerases; (3) Mitochondria are exposed to reactive oxygen species (byproducts of oxidative phosphorylation), causing high rates of oxidative DNA damage. Advantage: faster mutation rate means greater sequence divergence accumulates between related species in shorter time periods — more phylogenetic signal for recently diverged species (useful for resolving relationships within species or between recently speciated lineages that would show too little divergence in nuclear genes). Disadvantage: faster mutation rate causes saturation — at great evolutionary distances, the same sites accumulate multiple substitutions, obscuring the historical signal; phylogenies for anciently diverged groups may be inaccurate from mtDNA alone. Additional disadvantage: mtDNA is maternally inherited, so it only captures female lineages and may not represent the full organismal phylogeny." },
-    { label: 'c', command: 'Explain', question: "why the cytochrome c gene is particularly useful for phylogenetic analysis despite being extremely conserved across all eukaryotes.", rubric: "Cytochrome c is a slowly evolving gene because its protein product performs a highly specific, evolutionarily optimized function in the electron transport chain — nearly every amino acid position interacts precisely with cytochrome c oxidase or cytochrome bc1 complex, and changes at most positions reduce electron transfer efficiency and organism fitness. This constraint (functional conservation) means that most sequence changes are lethal or deleterious and are eliminated by purifying selection. Paradoxically, this conservation makes it useful for phylogenetics because: (1) the few changes that do accumulate are predominantly at less functionally constrained positions and represent genuine substitutions (not noise); (2) the protein is universal — present in all eukaryotes and even some bacteria — allowing comparison across enormous evolutionary distances; (3) the constrained rate means that relationships among deeply diverged groups (like kingdoms) can be inferred without saturation problems that affect faster-evolving genes. For closely related species, cytochrome c is NOT useful (too conserved, not enough differences); it's best for comparing ancient divergences." },
-    { label: 'd', command: 'Describe', question: "how the molecular clock hypothesis would allow scientists to estimate the divergence time between humans and chimpanzees, using the data in Table 8 and knowledge that the orangutan lineage diverged approximately 12-14 million years ago.", rubric: "Molecular clock: assumes that DNA substitutions accumulate at a roughly constant rate over time in a given gene/genome. Method: (1) Use the known divergence date (12-14 million years ago for orangutan divergence) as a calibration point; (2) Measure the percent sequence difference between orangutans and humans (from Table 8: 3.1% divergence, or 6.2% total substitutions in both lineages since divergence); (3) Calculate substitution rate: 6.2% / 12-14 Mya = approximately 0.44-0.52% substitutions per million years per lineage (or ~0.88-1.04% between two lineages per Mya); (4) Apply this rate to human-chimpanzee divergence: 1.3% sequence difference → 1.3% / (0.44-0.52 × 2) ≈ 1.25-1.48 Mya. This is approximately consistent with fossil estimates (human-chimp divergence ~4-7 Mya, though the cytochrome c gene may give different estimates than genome-wide data). Award full credit for correctly describing the calibration approach and rate calculation." },
-    { label: 'e', command: 'Justify', question: "why molecular phylogenies sometimes disagree with morphological phylogenies, using what you know about convergent evolution and the nature of both data types.", rubric: "Morphological phylogenies rely on physical traits (bone structure, organ anatomy, external features). Molecular phylogenies use DNA/protein sequence data. They can disagree because: (1) Convergent evolution — morphologically similar traits (e.g., camera eyes in vertebrates and cephalopods, streamlined body in dolphins and sharks) can evolve independently in unrelated lineages; morphological analysis might incorrectly group convergent species together, while molecular data reveals their true independence; (2) Molecular homoplasy — different lineages may independently acquire the same mutation (parallel substitution) or revert to an ancestral state, causing molecular data to misrepresent relationships; (3) Selection vs. drift — morphological traits under strong selection evolve rapidly in adaptive radiations (as in Darwin's finches) and may diverge rapidly even among close relatives or remain similar among distant relatives; molecular markers evolving neutrally may give different signal; (4) Horizontal gene transfer (especially in bacteria and some eukaryotes) — a gene acquired from a distantly related organism will group the recipient with the donor in gene trees. Best practice: combine both data types for robust phylogenetic inference." },
-    { label: 'f', command: 'Predict', question: "whether gorilla mtDNA would be more useful for reconstructing the human-chimp-gorilla phylogeny or the much older mammal-fish-amphibian phylogeny. Justify using mutation rate logic.**", rubric: "Gorilla mtDNA would be more useful for reconstructing the human-chimp-gorilla relationships (recent, within ~5-10 Mya) rather than the mammal-fish-amphibian phylogeny (ancient, >350 Mya). Justification: mtDNA mutates ~10× faster than nuclear DNA. For the closely related primate group (5-10 Mya divergence): mtDNA has accumulated enough substitutions to distinguish the lineages clearly (human-chimp-gorilla differences are resolvable). For the ancient mammal-fish-amphibian phylogeny (~350-450 Mya divergence): mtDNA has mutated so many times at each site that saturation is extreme — multiple substitutions at the same position erase the historical record. The same nucleotide positions have cycled through all four bases many times, making it impossible to know whether a match between fish and mammals at a position is shared ancestry or coincidence. For ancient divergences, very slowly evolving genes (cytochrome c, rRNA, Hox genes) or morphological data are more informative." },
-    { label: 'g', command: 'Explain', question: "the difference between homologous and analogous structures and explain why molecular biologists prefer using homologous genes for phylogenetic analysis rather than analogous ones.**", rubric: "Homologous structures: derived from a common ancestral structure — inherited from a common ancestor and potentially modified for different functions (e.g., forelimbs of tetrapods — whale flipper, bat wing, human arm, horse leg). Analogous structures (homoplastic): similar function and sometimes appearance but evolved independently without common ancestry (e.g., bird wing and insect wing; marsupial mole and placental mole). In molecular analysis: homologous genes are defined by descent from a common ancestral gene (orthologous between species; paralogous within a genome). Using homologous sequences ensures that sequence similarities reflect shared ancestry (meaningful phylogenetic signal). Using analogous (non-homologous) sequences that are similar by convergence would incorrectly group unrelated species; comparing non-homologous sequence would be comparing different genes entirely — like comparing the sequences of two completely different proteins from different organisms, which provides no phylogenetic information. Phylogenetic analysis requires aligning and comparing sequences at the same positions of the same ancestral gene." },
-    { label: 'h', command: 'Describe', question: "the evidence that supports the endosymbiotic theory for the origin of mitochondria, connecting this to the fact that mtDNA is a distinct genome within eukaryotic cells.**", rubric: "Endosymbiotic theory proposes mitochondria originated from alpha-proteobacterial ancestors engulfed by a proto-eukaryotic host. Evidence: (1) Mitochondria have their own DNA (mtDNA) — circular, not associated with histones, located in the mitochondrial matrix, much like bacterial chromosomes; (2) Mitochondria divide by binary fission (like bacteria), not by mitosis; (3) Mitochondrial ribosomes (55S) are more similar to bacterial ribosomes (70S) than to eukaryotic cytoplasmic ribosomes (80S) — antibiotics targeting bacterial ribosomes (streptomycin, chloramphenicol) also inhibit mitochondrial ribosomes; (4) The inner mitochondrial membrane's lipid composition (especially cardiolipin) resembles bacterial membranes more than eukaryotic membranes; (5) Mitochondrial gene sequences (16S rRNA, protein-coding genes) are more closely related to alpha-proteobacteria (specifically Rickettsia-like ancestors) than to nuclear genes in the same cell; (6) Mitochondria are about the size of bacteria. Must connect the molecular/genetic evidence specifically to the endosymbiotic origin." },
-    { label: 'i', command: 'Justify', question: "why the cytochrome c gene sequence data in Table 8, while compelling, cannot alone definitively prove common descent of these four primate species — and what additional evidence would strengthen the conclusion.**", rubric: "Sequence similarity alone cannot definitively prove common descent because: (1) Convergence — two species could independently evolve similar cytochrome c sequences if selection strongly constrained which amino acids can be present at each position (though this is unlikely at the nucleotide level for neutral synonymous sites); (2) The data show only one gene — molecular phylogenies based on one gene can be misleading (gene tree ≠ species tree due to incomplete lineage sorting, horizontal gene transfer, etc.); (3) Sequence similarity is correlation, not causation — without fossil evidence, we cannot observe the actual evolutionary process. Additional strengthening evidence: (1) Genome-wide data — agreement of phylogenetic signal across thousands of independently inherited nuclear loci; (2) Shared non-functional elements — identical transposable element (SINE/LINE) insertions at the same genomic positions in two species cannot be explained by convergence and is strong evidence for common ancestry (the probability of independent insertion at the same site is negligible); (3) Fossil record — transitional forms connecting the lineages; (4) Comparative anatomy — homologous structures consistent with the proposed phylogeny; (5) Biogeographic data — geographic distribution consistent with evolutionary history." },
-    { label: 'j', command: 'Explain', question: "the concept of incomplete lineage sorting and describe how it could cause the gorilla-human-chimp phylogenetic relationship to be incorrectly estimated from a single gene.**", rubric: "Incomplete lineage sorting (ILS) occurs when ancestral polymorphisms persist through multiple speciation events. In the ancestor of humans, chimps, and gorillas (before the gorilla split, then the human-chimp split), multiple allelic variants of any gene existed in the population. When speciation events are rapid (short time between branching events) or ancestral population sizes are large, polymorphisms from the common ancestor can persist (\"sort\" incompletely) into multiple descendant lineages and resolve differently in each. For human-chimp-gorilla: the speciation events were closely spaced in time (~8 Mya gorilla split, ~6 Mya human-chimp split). Ancestral polymorphisms present before the gorilla split may not have \"sorted out\" before the human-chimp split occurred. A particular gene copy that was divergent in the ancestor might be inherited by gorillas and one other species rather than sorting perfectly along the species tree, making that gene suggest gorillas are closest to humans or chimps, rather than the correct species tree. ILS is why ~30% of the gorilla genome gives the \"wrong\" phylogenetic signal for any individual gene. Must explain the mechanism of polymorphism retention through multiple speciation events. ─────────────────────────────────────────────────────────── PRACTICE TEST 2 — LONG FRQs ───────────────────────────────────────────────────────────" }
-    ],
-    rubric: [{ points: 1, description: "Most parsimonious tree based on data: ((Human, Chimpanzee), Gorilla), Orangutan.", partLabel: 'a', skill: 'predict', keywords: ["common ancestor", "ancestor"] }, { points: 1, description: "mtDNA evolution rate: (1) mtDNA lacks efficient mismatch repair and proofreading", partLabel: 'b', skill: 'explain', keywords: ["oxidative phosphorylation", "phosphorylation", "mitochondria", "dna repair", "phylogeny", "mutation", "byproducts of oxidative phosphorylation"] }, { points: 1, description: "Cytochrome c is a slowly evolving gene because its protein product performs a hi", partLabel: 'c', skill: 'explain', keywords: ["electron transport chain", "amino acid", "fitness", "gene", "functional conservation", "not noise", "like kingdoms"] }, { points: 1, description: "Molecular clock: assumes that DNA substitutions accumulate at a roughly constant", partLabel: 'd', skill: 'describe', keywords: ["molecular clock", "gene"] }, { points: 1, description: "Morphological phylogenies rely on physical traits (bone structure, organ anatomy", partLabel: 'e', skill: 'explain', keywords: ["mutation", "gene", "parallel substitution", "especially in bacteria and some eukaryotes"] }, { points: 1, description: "Gorilla mtDNA would be more useful for reconstructing the human-chimp-gorilla re", partLabel: 'f', skill: 'predict', keywords: ["nucleotide", "phylogeny", "rrna", "human-chimp-gorilla differences are resolvable"] }, { points: 1, description: "Homologous structures: derived from a common ancestral structure — inherited fro", partLabel: 'g', skill: 'explain', keywords: ["common ancestor", "gene", "homoplastic", "meaningful phylogenetic signal", "non-homologous"] }, { points: 1, description: "Endosymbiotic theory proposes mitochondria originated from alpha-proteobacterial", partLabel: 'h', skill: 'describe', keywords: ["inner mitochondrial membrane", "endosymbiotic theory", "mitochondrial matrix", "binary fission", "mitochondria", "mitosis", "rrna", "gene", "mtdna", "like bacteria"] }, { points: 1, description: "Sequence similarity alone cannot definitively prove common descent because: (1)", partLabel: 'i', skill: 'explain', keywords: ["probability", "amino acids", "nucleotide", "phylogeny", "gene", "sine/line"] }, { points: 1, description: "Incomplete lineage sorting (ILS) occurs when ancestral polymorphisms persist thr", partLabel: 'j', skill: 'explain', keywords: ["common ancestor", "population", "speciation", "gene", "ils", "short time between branching events"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT2-L1',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Photosynthesis — Light Reactions and Electron Transport",
-    units: [3],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 10,
-    autoGraded: true,
-    prompt: "A plant biochemist performs experiments on isolated thylakoid membranes to study the light reactions of photosynthesis. She measures O2 evolution (from water splitting) and NADPH production at different light intensities and wavelengths. She also tests the effects of two inhibitors: DCMU (blocks plastoquinone reduction by PSII) and methyl viologen (MV, which accepts electrons from PSI and generates superoxide instead of NADPH). Table 9. Effect of light wavelength on photosynthetic activity (measured as relative O2 evolution and NADPH production) Wavelength (nm) Color O2 Evolution NADPH Production 430 iolet-blue V High High 500 reen G Low Low 550 ellow-green Y Very low Very low 680 ed R High High 700 ar-red F Moderate Very low",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "the pattern of O2 evolution across wavelengths in Table 9, connecting this to the absorption spectra of photosynthetic pigments.", rubric: "O2 evolution is highest at 430 nm (blue) and 680 nm (red) — wavelengths where chlorophyll a and b absorb strongly. O2 is produced by water splitting at PSII, which is driven by light absorption at P680. Chlorophyll a absorbs maximally at ~430 nm and ~680 nm; chlorophyll b absorbs at ~450 nm and ~640 nm; carotenoids absorb primarily in the 400-500 nm range. At 500-550 nm (green-yellow), chlorophylls absorb minimally — most green light is reflected or transmitted (explaining why leaves appear green). Low absorption at these wavelengths means less photon energy is captured for driving PSII, resulting in low O2 evolution. The pattern of O2 evolution closely mirrors the absorption spectrum of chlorophyll (action spectrum ≈ absorption spectrum), confirming that absorbed light drives photosynthesis." },
-    { label: 'b', command: 'Explain', question: "the Emerson enhancement effect using the data for 700 nm light — specifically why 700 nm alone gives moderate O2 evolution but very low NADPH production.", rubric: "P700 (PSI) absorbs maximally at 700 nm (far-red); P680 (PSII) absorbs maximally at 680 nm and does not efficiently absorb 700 nm light. At 700 nm: PSI is strongly excited (can pass electrons to NADP+ via ferredoxin), but PSII is poorly excited — little water splitting occurs, generating little electron input to the chain. PSI can perform cyclic photophosphorylation (electrons cycle from ferredoxin back through plastoquinone and the cytochrome b6f complex, generating ATP but no NADPH and no O2). This explains moderate O2 evolution (some PSII activity at suboptimal wavelength) but very low NADPH (PSI running without adequate electron input from PSII defaults to cyclic electron flow, producing ATP not NADPH). The Emerson enhancement effect: combining 700 nm + 680 nm light gives greater than additive photosynthesis because both photosystems are simultaneously optimally excited — PSI and PSII work together for maximum non-cyclic electron flow. This was the experimental evidence that two photosystems existed." },
-    { label: 'c', command: 'Predict', question: "the effect of adding DCMU to thylakoid membranes illuminated at 680 nm. Describe the expected changes in O2 evolution, NADPH production, and the oxidation state of P680.**", rubric: "With DCMU added: O2 evolution — stops (or dramatically decreases). DCMU blocks the QB site of PSII, preventing plastoquinone reduction. PSII continues to split water and P680+ can be re-reduced by water donation, but electrons cannot leave PSII through the plastoquinone pool. Eventually, without an electron acceptor, PSII becomes \"backed up\" and P680 may remain in an oxidized (P680+) state — actually, water still reduces P680+ but electrons pile up and the system stalls. O2 evolution initially continues at a low rate (some water splitting still occurs to re-reduce P680+) but overall photosynthetic electron flow halts. NADPH production — stops completely. No electrons can flow from PSII through the ETC to PSI, so PSI cannot reduce NADP+. P680 state — cycles rapidly between excited (P680*) and oxidized (P680+) states as light excites it and water re-reduces it, but electrons cannot proceed beyond the blocked DCMU site. P680+ accumulates as described in SB-08." },
-    { label: 'd', command: 'Explain', question: "why methyl viologen (MV) treatment would cause O2 evolution to continue but could be toxic to the thylakoid system despite PSI still receiving electrons.**", rubric: "MV accepts electrons from PSI (at the Fd/NADP+ reduction site) and transfers them directly to O2, generating superoxide radical (O2•-). Because MV continuously accepts electrons from PSI (competing with ferredoxin/NADP+ reduction): PSI continues to receive electrons from PSII through the ETC, so PSII continues splitting water and O2 evolution continues. NADPH production is abolished (electrons go to MV → superoxide, not to NADP+). Toxicity: superoxide is a reactive oxygen species (ROS) that damages lipids, proteins, and DNA through oxidative reactions. Superoxide dismutase converts superoxide to H2O2, but H2O2 can then generate hydroxyl radical (OH•) via the Fenton reaction — an even more reactive ROS. In thylakoids, these ROS damage the photosynthetic proteins directly, particularly PSII (D1 protein oxidation) and lipid membranes of the thylakoid. MV can cause photooxidative destruction of the thylakoid. This is also why MV (paraquat) is an effective herbicide." },
-    { label: 'e', command: 'Describe', question: "the chemiosmotic mechanism of ATP synthesis in the chloroplast, identifying the specific membrane and the direction of proton flow during ATP synthesis.", rubric: "In the chloroplast, protons (H+) are pumped into the thylakoid lumen (inside the thylakoid membrane) during non-cyclic electron flow: (1) Water splitting releases H+ into the lumen; (2) Plastoquinol (QH2) is oxidized by the cytochrome b6f complex, pumping additional H+ into the lumen (Q cycle); (3) This creates a proton gradient: high H+ concentration in lumen, low H+ concentration in stroma. ATP synthase (CF1CF0-ATPase) is embedded in the thylakoid membrane with its F0 rotor in the thylakoid membrane and F1 catalytic head in the stroma. H+ flows from lumen → stroma through the F0 channel, down the electrochemical gradient. This proton flow drives rotation of the CF0 rotor → conformational change in CF1 catalytic subunits (β-subunits cycle through open, loose, and tight conformations — binding change mechanism) → synthesis of ATP from ADP + Pi in the stroma. ATP is released into the stroma for use in the Calvin cycle." },
-    { label: 'f', command: 'Calculate', question: "the minimum number of photons required to produce one molecule of O2 in the Z-scheme of photosynthesis. Show your reasoning.", rubric: "Producing one O2 requires splitting two water molecules: 2 H2O → O2 + 4 H+ + 4 e-. Each electron removal from water (reducing P680+) requires one photon absorbed by PSII (to drive the oxidizing power of P680+). Additionally, each electron must be re-energized at PSI to reach the energy level needed to reduce NADP+, requiring another photon at PSI. Therefore: 4 electrons from 2 H2O → 4 photons at PSII + 4 photons at PSI = 8 photons minimum per O2 produced. This is the Z-scheme minimum — experimentally, the actual requirement is higher (~8-12 photons per O2) due to inefficiencies. Must reach 8 photons with correct reasoning about 4 electrons requiring 2 light reactions each." },
-    { label: 'g', command: 'Predict', question: "what would happen to ATP production in the chloroplast if the thylakoid membrane became freely permeable to protons (due to a membrane-disrupting detergent), but all other components (PSII, PSI, ETC, CF1 head of ATP synthase) remained functional.", rubric: "Prediction: ATP production would stop completely. Justification: the proton gradient across the thylakoid membrane is essential for CF0/F1 ATP synthase to function. If the membrane becomes freely permeable to protons, any protons pumped into the thylakoid lumen by water splitting and the cytochrome b6f complex would immediately leak back out through the membrane without passing through ATP synthase. No proton gradient would form — without a gradient, there is no driving force for proton flow through CF0, no rotation of the rotor, no conformational change in CF1, and no ATP synthesis. This is equivalent to uncoupling (like FCCP in mitochondria). Light reactions would still occur (electrons would still flow, O2 would still be produced) but no ATP would be generated from the proton gradient. NADPH might still be produced (if PSI still reduces NADP+), but ATP-dependent Calvin cycle reactions (RuBP regeneration, 3-PGA reduction) would cease." },
-    { label: 'h', command: 'Explain', question: "how the carotenoid pigments (beta-carotene, xanthophylls) contribute to photosynthesis beyond simply absorbing additional wavelengths of light.", rubric: "Carotenoids contribute in multiple ways: (1) Light harvesting — absorb blue-green light (400-500 nm) that chlorophyll absorbs poorly; transfer excitation energy to chlorophyll a via resonance energy transfer (FRET); extend the usable portion of the light spectrum; (2) Photoprotection — carotenoids quench excited chlorophyll (singlet and triplet states) before it can generate singlet oxygen; xanthophylls (especially zeaxanthin) perform non-photochemical quenching (NPQ) when light is excessive — they dissipate excess excitation energy as heat rather than passing it to the reaction center; (3) Quench reactive oxygen species — beta-carotene physically quenches singlet oxygen and other ROS produced when chlorophyll is over-excited; (4) The xanthophyll cycle (violaxanthin → zeaxanthin conversion under high light) is a key photoprotective mechanism. Award point for light harvesting AND at least one photoprotective function." },
-    { label: 'i', command: 'Justify', question: "why C4 plants (like corn) performing the \"extra\" step of CO2 fixation by PEPC in mesophyll cells actually have higher overall photosynthetic efficiency than C3 plants under hot, high-light conditions, even though C4 requires more ATP.**", rubric: "C4 plants spend extra ATP concentrating CO2 around RuBisCO in bundle sheath cells (~2 ATP per CO2 pumped, via the pyruvate → PEP step by PPDK). However, the cost of NOT doing this in hot, high-light conditions is much greater: C3 plants in hot conditions experience high rates of photorespiration — RuBisCO's oxygenase activity produces 2-phosphoglycolate that must be recovered in the expensive photorespiratory pathway, which consumes ATP, NADPH, and releases CO2, wasting approximately 25-50% of fixed carbon. The energetic cost of the photorespiratory carbon salvage pathway (requiring multiple enzymatic steps across chloroplast, peroxisome, and mitochondrion) far exceeds the 2 ATP cost of the C4 pump per CO2. Net result: C4 plants fix more carbon per unit ATP and NADPH consumed than C3 plants in hot conditions, because the CO2 concentration around RuBisCO in bundle sheath cells essentially eliminates oxygenase activity. Under cool, low-light conditions, C3 plants are actually more efficient (less photorespiration, and the C4 pump cost is not offset by reduced photorespiration savings)." },
-    { label: 'j', command: 'Predict', question: "the outcome for a plant if a mutation eliminated the enzyme ferredoxin-NADP+ reductase (FNR), which is required for transferring electrons from ferredoxin to NADP+ at the end of the non-cyclic electron transport chain.**", rubric: "Without FNR, electrons from PSI cannot be transferred to NADP+ — NADPH production via non-cyclic electron flow stops. Consequences: (1) No NADPH for Calvin cycle — the reduction of 3-PGA to G3P (by NADPH) stops, halting the Calvin cycle; (2) No CO2 fixation → plant cannot produce carbohydrates by photosynthesis; (3) Electron backup: without FNR, ferredoxin (Fd) remains in the reduced state and cannot accept more electrons from PSI. This would cause electrons to back up through the ETC — PSI becomes over-reduced, P700+ cannot be re-reduced by the ETC, and the whole linear electron flow slows down; (4) Cyclic electron flow might compensate partially: reduced Fd can donate electrons to plastoquinone through alternative pathways (PGRL1, NDH complex), generating ATP but no NADPH; (5) Without NADPH, ROS production may increase (over-reduced PSI generates superoxide). Ultimately, the plant cannot sustain growth by photosynthesis and would die. The mutation would be lethal unless supplemented with alternative carbon sources. ─────────────────────────────────────────────────────────── PRACTICE TEST 3 — LONG FRQs ───────────────────────────────────────────────────────────" }
-    ],
-    rubric: [{ points: 1, description: "O2 evolution is highest at 430 nm (blue) and 680 nm (red) — wavelengths where ch", partLabel: 'a', skill: 'explain', keywords: ["absorption spectrum", "water splitting", "action spectrum", "photosynthesis", "chlorophyll", "photon", "o2", "blue", "red", "green-yellow"] }, { points: 1, description: "P700 (PSI) absorbs maximally at 700 nm (far-red); P680 (PSII) absorbs maximally", partLabel: 'b', skill: 'explain', keywords: ["cyclic photophosphorylation", "photophosphorylation", "water splitting", "photosynthesis", "nadph", "atp", "o2", "psi", "far-red", "psii"] }, { points: 1, description: "With DCMU added: O2 evolution — stops (or dramatically decreases). DCMU blocks t", partLabel: 'c', skill: 'predict', keywords: ["water splitting", "reduction", "oxidized", "reduced", "nadph", "o2"] }, { points: 1, description: "MV accepts electrons from PSI (at the Fd/NADP+ reduction site) and transfers the", partLabel: 'd', skill: 'explain', keywords: ["thylakoid", "oxidation", "reduction", "nadph", "o2", "ros", "d1 protein oxidation", "paraquat"] }, { points: 1, description: "In the chloroplast, protons (H+) are pumped into the thylakoid lumen (inside the", partLabel: 'e', skill: 'describe', keywords: ["electrochemical gradient", "water splitting", "proton gradient", "calvin cycle", "atp synthase", "chloroplast", "thylakoid", "oxidized", "atpase", "stroma"] }, { points: 1, description: "Producing one O2 requires splitting two water molecules: 2 H2O → O2 + 4 H+ + 4 e", partLabel: 'f', skill: 'calculate', keywords: ["light reactions", "photon", "o2"] }, { points: 1, description: "Prediction: ATP production would stop completely. Justification: the proton grad", partLabel: 'g', skill: 'predict', keywords: ["water splitting", "proton gradient", "light reactions", "atp synthesis", "mitochondria", "calvin cycle", "atp synthase", "thylakoid", "reduction", "3-pga"] }, { points: 1, description: "Carotenoids contribute in multiple ways: (1) Light harvesting — absorb blue-gree", partLabel: 'h', skill: 'explain', keywords: ["reaction center", "chlorophyll", "fret", "singlet and triplet states", "especially zeaxanthin", "npq"] }, { points: 1, description: "C4 plants spend extra ATP concentrating CO2 around RuBisCO in bundle sheath cell", partLabel: 'i', skill: 'explain', keywords: ["photorespiration", "chloroplast", "peroxisome", "pyruvate", "rubisco", "reduced", "nadph", "atp", "co2"] }, { points: 1, description: "Without FNR, electrons from PSI cannot be transferred to NADP+ — NADPH productio", partLabel: 'j', skill: 'predict', keywords: ["photosynthesis", "calvin cycle", "reduction", "mutation", "reduced", "3-pga", "nadph", "g3p", "atp", "co2"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT3-L1',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Genetics — Gene Expression, Regulation, and Epigenetics",
-    units: [5],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 10,
-    autoGraded: true,
-    prompt: "Researchers investigate gene expression in human embryonic stem cells (hESCs) and differentiated neurons derived from those stem cells. They find that hESCs express pluripotency genes (OCT4, SOX2, NANOG) at high levels while neurons express neuron-specific genes (MAP2, NEFL, SYP) at high levels. The pluripotency genes are silenced in neurons and vice versa. DNA sequence analysis confirms that the genomic sequence is identical between hESCs and neurons derived from them. Chromatin immunoprecipitation (ChIP) experiments reveal that the promoters of pluripotency genes are highly methylated in neurons (but not in hESCs), while neuron-specific gene promoters are highly methylated in hESCs (but not in neurons). Histone acetylation patterns also differ between the two cell types at these gene loci.",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "the paradox that hESCs and neurons have identical DNA sequences yet express completely different sets of genes.", rubric: "The paradox is resolved by epigenetic regulation — heritable changes in gene expression that do not involve changes in DNA sequence. Both cell types contain the same genetic information, but different genes are accessible for transcription in each cell type due to different patterns of DNA methylation and histone modification. In hESCs: pluripotency gene promoters are unmethylated and histones are acetylated (active chromatin) → RNA polymerase can access these promoters; neuron-specific gene promoters are methylated and histones are deacetylated (repressive chromatin) → inaccessible to RNA polymerase. In neurons: the opposite pattern applies. The DNA sequence is unchanged, but the epigenetic state — which determines chromatin accessibility — is reversed. This demonstrates that differential gene expression drives differentiation, not changes in DNA sequence." },
-    { label: 'b', command: 'Describe', question: "two specific mechanisms by which DNA methylation at a gene's promoter represses transcription.", rubric: "(1) Direct interference with transcription factor binding — methylation of CpG dinucleotides in promoters (particularly CpG islands at transcription factor binding sites) can directly prevent transcription factor binding; many transcription factors require unmethylated recognition sequences; (2) Recruitment of methyl-binding proteins — methylated cytosines are recognized by methyl-CpG-binding domain (MBD) proteins (e.g., MeCP2, MBD1-4); these proteins recruit co-repressor complexes (including histone deacetylases, HDACs) that deacetylate histones, compacting chromatin into a repressive state that further blocks transcription factor access; (3) Histone methylation recruitment — DNA methylation can recruit histone methyltransferases that add repressive histone marks (H3K9me3, H3K27me3), reinforcing the repressive chromatin state. Award full credit for any two specific, mechanistically correct descriptions." },
-    { label: 'c', command: 'Predict', question: "what would happen to gene expression patterns if a neuron were treated with a drug that inhibits DNA methyltransferases (DNMTs), preventing new DNA methylation from being established after each cell division.", rubric: "If DNA methylation cannot be maintained through cell division, the methylation patterns silencing pluripotency genes in neurons would gradually be erased (passive demethylation): after each cell division, new DNA strands are not methylated by the maintenance methyltransferase DNMT1 (which normally recognizes hemimethylated DNA after replication and methylates the new strand). Over multiple divisions, the methylation at pluripotency gene promoters would decrease progressively. Pluripotency genes (OCT4, SOX2, NANOG) might be re-expressed as their promoters become unmethylated and accessible. The neuron might partially re-acquire characteristics of an earlier developmental state. In practice, non-dividing neurons wouldn't experience passive demethylation, so the effect would be minimal unless active demethylation mechanisms (TET enzymes) also operate. For dividing neural progenitor cells: loss of DNMT activity would cause expression of silenced genes and potential de-differentiation or aberrant gene expression." },
-    { label: 'd', command: 'Explain', question: "how histone acetylation leads to increased transcription and why histone deacetylation has the opposite effect, connecting these modifications to chromatin structure.", rubric: "Histone acetylation: histone acetyltransferases (HATs) add acetyl groups to lysine residues on histone N-terminal tails. Acetylation neutralizes the positive charge on lysine (which normally attracts the negatively charged DNA phosphate backbone). This weakens the histone-DNA interaction, loosening the nucleosome and allowing chromatin to adopt an open, accessible conformation (euchromatin). Additionally, acetylated histone residues serve as docking sites for bromodomain-containing proteins that recruit RNA polymerase, mediator complex, and other transcription activation machinery. Histone deacetylation: HDACs remove acetyl groups, restoring the positive charge on lysines → stronger histone-DNA interaction → chromatin compacts (heterochromatin) → DNA is inaccessible to RNA polymerase and transcription factors → transcription is repressed. Both modifications are reversible and dynamically controlled, allowing gene expression to be regulated bidirectionally." },
-    { label: 'e', command: 'Describe', question: "the experiment the researchers could perform (beyond ChIP) to directly demonstrate that the chromatin structure at pluripotency gene promoters is in a more open conformation in hESCs than in neurons.", rubric: "ATAC-seq (Assay for Transposase-Accessible Chromatin by sequencing): treat isolated nuclei from hESCs and neurons with a hyperactive transposase (Tn5) that preferentially inserts sequencing adapters into regions of open chromatin (nucleosome-depleted regions); sequence the captured fragments; open chromatin regions (accessible) will have more transposase insertions and therefore more sequencing reads. Compare read density at pluripotency gene promoters between hESCs and neurons — higher reads in hESCs indicates more open chromatin. Alternative accepted answer: DNase I hypersensitivity assay — DNase I preferentially cleaves open (nucleosome-depleted) chromatin; treat nuclei from each cell type with DNase I and measure fragmentation at pluripotency gene promoters by Southern blot or qPCR — more cleavage in hESCs = more open chromatin. Also accept: FAIRE-seq, MNase-seq." },
-    { label: 'f', command: 'Explain', question: "how Yamanaka's discovery that adding four transcription factors (OCT4, SOX2, KLF4, c-MYC) to a somatic cell can reprogram it into an induced pluripotent stem cell (iPSC) provides evidence about the relationship between transcription factor expression and cell identity.", rubric: "Yamanaka's experiment demonstrates that cell identity (differentiated state) is maintained by transcription factor networks, not irreversible changes to DNA sequence or cell structure. Adding four pluripotency transcription factors to a differentiated somatic cell: the transcription factors bind to pluripotency gene enhancers and promoters → activate OCT4, SOX2, NANOG (Yamanaka factors promote their own expression forming a self-reinforcing network) → pluripotency TFs recruit chromatin remodeling enzymes that open pluripotency gene loci (removing repressive marks) and silence differentiation gene loci (adding repressive marks) → cell progressively adopts stem cell gene expression program → full reprogramming to iPSC state. This shows: (1) Differentiated chromatin states are reversible — not permanent; (2) Master transcription factors are the primary determinants of cell identity; (3) Overwriting the transcription factor network can overwrite the epigenetic state and, consequently, cell identity. This has major implications for regenerative medicine." },
-    { label: 'g', command: 'Predict', question: "whether a mutation in the OCT4 gene that prevents its protein from binding DNA would affect hESC self-renewal even if OCT4 mRNA levels remain normal. Justify your prediction.**", rubric: "Prediction: yes, loss of OCT4 DNA binding would severely impair hESC self-renewal, even with normal mRNA levels. Justification: OCT4 protein must bind to specific DNA sequences (POU domain binds Oct motifs in pluripotency gene enhancers) to activate target genes (NANOG, SOX2, Klf4, and many others) and to maintain the transcriptional network that sustains the pluripotent state. If the protein cannot bind DNA, it cannot activate transcription of these target genes — despite being present at normal protein levels. Normal mRNA levels do not guarantee protein function; the protein must physically interact with DNA to fulfill its role as a transcription factor. Without OCT4 transactivation of pluripotency genes, the self-reinforcing OCT4-SOX2-NANOG network would collapse, differentiation programs would be de-repressed, and hESCs would exit pluripotency and begin differentiating. Function depends on DNA binding activity, not mere expression." },
-    { label: 'h', command: 'Support', question: "the claim that the existence of identical twins (monozygotic twins) who differ in disease susceptibility provides evidence for epigenetic contributions to disease beyond genetic factors.**", rubric: "Identical twins share the same DNA sequence (same genome, inherited from the same fertilized egg). If all disease susceptibility were determined purely by genotype, identical twins should have concordance rates of 100% for genetically determined diseases. Many complex diseases, however, show concordance rates well below 100% in identical twins: Type 1 diabetes ~50%, schizophrenia ~40-50%, rheumatoid arthritis ~15-30%, breast cancer ~20-30%. This indicates that for the discordant twin, additional non-genetic factors caused the disease. Epigenetics provides a mechanism: identical twins accumulate diverging epigenetic patterns (DNA methylation, histone modification) over time in response to different environmental exposures, diet, stress, and stochastic developmental variation. These epigenetic differences alter gene expression without changing DNA sequence, potentially predisposing one twin to disease while the other remains healthy. This is the most parsimonious explanation for twin discordance that preserves genetic identity while explaining phenotypic differences." },
-    { label: 'i', command: 'Describe', question: "how transgenerational epigenetic inheritance could explain why nutritional deficiencies in a grandmother could affect the health of her grandchildren, even if the intermediate generation (parent) was well-nourished.**", rubric: "Transgenerational epigenetic inheritance: epigenetic marks (DNA methylation, histone modifications) can persist through the germline and be transmitted to subsequent generations. Mechanism for the grandmother-grandchild scenario: (1) Grandmother experiences nutritional deficiency during pregnancy (or pre-conception); (2) Nutritional signals (e.g., methionine availability affects S-adenosylmethionine, the methyl group donor for DNA methylation) alter the epigenome of the grandmother's cells, including her oocytes (the grandmother's oocytes contain the cells that will become the parent's cells); (3) The altered methylation patterns in the grandmother's oocytes are partially maintained in the developing parent and in the parent's germ cells; (4) The parent, despite being well-nourished themselves, has inherited altered epigenetic marks in their germ cells; (5) These marks are transmitted to the grandchildren, predisposing them to metabolic or developmental abnormalities. Classic examples: Dutch Hunger Winter studies showing grandchildren of women starved during WWII had altered metabolic profiles; agouti mouse model showing maternal diet affects offspring coat color and disease susceptibility via DNA methylation changes. Must include the germ cell transmission mechanism." },
-    { label: 'j', command: 'Justify', question: "why cancer epigenome reprogramming (reversing cancer-associated epigenetic changes) is considered a promising therapeutic approach, and describe one specific drug class that targets epigenetic machinery in cancer.**", rubric: "Justification: unlike DNA mutations, epigenetic alterations are potentially reversible — enzymes that write and erase epigenetic marks are drugable targets. In cancer: aberrant DNA methylation (hypermethylation silencing tumor suppressors, or global hypomethylation causing genomic instability) and aberrant histone modifications drive cancer gene expression programs. If these epigenetic changes can be reversed, cancer cells might re-express silenced tumor suppressors (like p16/CDKN2A, MLH1) or lose expression of oncogenes maintained by active chromatin marks — potentially restoring a more normal gene expression program or triggering differentiation and apoptosis. Drug class example: (1) DNMT inhibitors (azacitidine/5-azacytidine, decitabine) — nucleoside analogs that incorporate into DNA and trap DNMT enzymes, causing passive demethylation; approved for myelodysplastic syndrome and AML; re-express silenced tumor suppressors; (2) HDAC inhibitors (vorinostat/SAHA, romidepsin, panobinostat) — inhibit histone deacetylases, increasing histone acetylation and activating silenced genes; approved for cutaneous T-cell lymphoma and multiple myeloma; (3) BET bromodomain inhibitors (JQ1, OTX015) — block BRD4 from reading acetylated histones at enhancers of oncogenes (particularly MYC), reducing oncogene transcription. Must name one specific drug class with mechanism and cancer application." }
-    ],
-    rubric: [{ points: 1, description: "The paradox is resolved by epigenetic regulation — heritable changes in gene exp", partLabel: 'a', skill: 'explain', keywords: ["histone modification", "dna methylation", "gene expression", "rna polymerase", "transcription", "chromatin", "histone", "neuron", "gene", "active chromatin"] }, { points: 1, description: "(1) Direct interference with transcription factor binding — methylation of CpG d", partLabel: 'b', skill: 'describe', keywords: ["transcription factor", "dna methylation", "transcription", "repressor", "chromatin", "histone", "mbd"] }, { points: 1, description: "If DNA methylation cannot be maintained through cell division, the methylation p", partLabel: 'c', skill: 'predict', keywords: ["dna methylation", "gene expression", "neuron", "gene", "passive demethylation", "tet enzymes"] }, { points: 1, description: "Histone acetylation: histone acetyltransferases (HATs) add acetyl groups to lysi", partLabel: 'd', skill: 'explain', keywords: ["gene expression", "rna polymerase", "transcription", "nucleosome", "chromatin", "histone", "gene", "hats", "euchromatin", "heterochromatin"] }, { points: 1, description: "ATAC-seq (Assay for Transposase-Accessible Chromatin by sequencing): treat isola", partLabel: 'e', skill: 'describe', keywords: ["southern blot", "nucleosome", "chromatin", "gene", "tn5", "nucleosome-depleted regions", "accessible", "nucleosome-depleted"] }, { points: 1, description: "Yamanaka's experiment demonstrates that cell identity (differentiated state) is", partLabel: 'f', skill: 'explain', keywords: ["chromatin remodeling", "transcription factor", "gene expression", "transcription", "chromatin", "gene", "differentiated state", "removing repressive marks", "adding repressive marks"] }, { points: 1, description: "Prediction: yes, loss of OCT4 DNA binding would severely impair hESC self-renewa", partLabel: 'g', skill: 'predict', keywords: ["transcription factor", "transcription", "mrna", "gene"] }, { points: 1, description: "Identical twins share the same DNA sequence (same genome, inherited from the sam", partLabel: 'h', skill: 'describe', keywords: ["histone modification", "dna methylation", "gene expression", "epigenetics", "variation", "genotype", "histone", "cancer", "gene"] }, { points: 1, description: "Transgenerational epigenetic inheritance: epigenetic marks (DNA methylation, his", partLabel: 'i', skill: 'describe', keywords: ["dna methylation", "histone"] }, { points: 1, description: "Justification: unlike DNA mutations, epigenetic alterations are potentially reve", partLabel: 'j', skill: 'explain', keywords: ["dna methylation", "gene expression", "transcription", "chromatin", "oncogene", "histone", "cancer", "gene", "particularly myc"] }],
-    sampleSolution: null
-  },
-  {
-    id: 'PT3-L2',
-    subject: 'apbio',
-    frqType: 'long',
-    title: "Climate Change, Ecosystem Disruption, and Conservation",
-    units: [8],
-    difficulty: 'hard',
-    source: 'CB 2024',
-    points: 10,
-    autoGraded: true,
-    prompt: "Scientists monitoring the Arctic tundra have documented dramatic changes over the past 50 years correlated with a 2-3°C average warming in the region. Key observations include: (1) Permafrost thawing in previously permanently frozen soils; (2) Shrub encroachment (larger shrubs moving into previously grass-dominated tundra — \"shrubification\"); (3) Earlier snowmelt (3-4 weeks earlier than 50 years ago); (4) Changes in migratory bird timing and insect emergence timing. They also measure significantly elevated CO2 and methane (CH4) efflux from thawing permafrost soils. Table 10. Selected ecosystem measurements in Arctic tundra study sites easurement M 1970 2020 Permafrost depth (active layer, 40 cm) 85 Change +45 cm Shrub cover (% area) 12% 31% +19% Mean annual temperature (°C) -8.2 -5.7 +2.5°C Soil CO2 flux (g C/m²/yr) 110 230 CH4 flux (g CH4/m²/yr) 4.2 11.8 +7.6 +120",
-    starterCode: null,
-    parts: [
-    { label: 'a', command: 'Explain', question: "why thawing permafrost releases CO2 and methane, connecting this to nutrient cycling and microbial ecology.", rubric: "Permafrost contains enormous quantities of organic carbon that have been frozen and metabolically unavailable for thousands to millions of years — dead plant material, animal remains, and microorganisms preserved in ice. When permafrost thaws: (1) Aerobic decomposition — thawed organic matter becomes available to aerobic soil bacteria and fungi; decomposers break down organic carbon through aerobic respiration, releasing CO2 (C + O2 → CO2); deeper thaw increases substrate availability; (2) Anaerobic decomposition (methanogenesis) — in waterlogged, anoxic conditions (water from melting permafrost creates saturated soils), methanogenic archaea decompose organic matter fermentatively, producing CH4 as a byproduct; (3) Previously frozen microorganisms themselves may revive and begin decomposing substrates. The key point: carbon that has been locked in frozen storage for millennia is now being metabolized and released as greenhouse gases at rates that increase with each degree of warming — a positive feedback loop." },
-    { label: 'b', command: 'Explain', question: "the concept of a positive feedback loop and describe how permafrost thawing creates a positive climate feedback.**", rubric: "A positive feedback loop occurs when the output of a system amplifies the original input — the system reinforces and accelerates itself (contrasted with negative feedback, which dampens and stabilizes). In climate: initial warming → permafrost thaws → organic carbon released as CO2 and CH4 by decomposers → CO2 and CH4 are greenhouse gases that trap more heat in the atmosphere → additional warming → more permafrost thaws → more CO2/CH4 released → even more warming → etc. This is a self-amplifying cycle: warming causes more warming through the permafrost carbon feedback. Arctic amplification (the Arctic warms faster than other regions) makes this feedback especially concerning because vast quantities of carbon are stored in Arctic and subarctic permafrost (~1,500 Gt C, approximately twice the current atmospheric carbon pool). Each degree of warming releases more carbon, causing more warming — there is no natural corrective mechanism within this loop. Compare to negative feedback: if warming caused plants to absorb more CO2 (increased photosynthesis), that would be negative feedback dampening the warming." },
-    { label: 'c', command: 'Calculate', question: "the percentage increase in soil CO2 flux and CH4 flux between 1970 and 2020 based on Table 10, and explain why CH4 release is disproportionately significant for climate forcing despite its lower quantity compared to CO2.**", rubric: "CO2 flux increase: (230 - 110) / 110 × 100% = 120/110 × 100% = 109% increase. CH4 flux increase: (11.8 - 4.2) / 4.2 × 100% = 7.6/4.2 × 100% = 181% increase. CH4 significance: methane is approximately 84× more potent than CO2 as a greenhouse gas over a 20-year time horizon (commonly cited as 28-36× over 100 years due to CH4's shorter atmospheric lifetime of ~12 years vs. CO2's longer lifetime). Therefore, while CH4 flux is much lower in mass than CO2 flux, each gram of CH4 causes much greater climate forcing. The 181% increase in CH4 vs. 109% in CO2 suggests disproportionately accelerating methane release — particularly alarming because the near-term climate impact of CH4 is so large. Even modest absolute increases in CH4 can drive significant additional warming, potentially accelerating permafrost thaw further." },
-    { label: 'd', command: 'Describe', question: "how the \"shrubification\" of Arctic tundra could further amplify warming through changes in albedo (reflectivity of the land surface).**", rubric: "Albedo is the fraction of incoming solar radiation reflected by a surface. Snow-covered tundra has very high albedo (~0.8-0.9) — it reflects most solar radiation back to space. Shrubs have much lower albedo (~0.1-0.2) — they absorb more solar radiation. As shrubs encroach on previously snow-covered tundra: (1) Shrubs protrude above snowpack during late winter and early spring, exposing darker surfaces; (2) Earlier" }
-    ],
-    rubric: [{ points: 1, description: "Permafrost contains enormous quantities of organic carbon that have been frozen", partLabel: 'a', skill: 'explain', keywords: ["aerobic respiration", "positive feedback", "feedback loop", "substrate", "saturated", "co2", "o2", "methanogenesis"] }, { points: 1, description: "A positive feedback loop occurs when the output of a system amplifies the origin", partLabel: 'b', skill: 'explain', keywords: ["negative feedback", "positive feedback", "photosynthesis", "feedback loop", "co2", "the arctic warms faster than other regions", "increased photosynthesis"] }, { points: 1, description: "CO2 flux increase: (230 - 110) / 110 × 100% = 120/110 × 100% = 109% increase. CH", partLabel: 'c', skill: 'calculate', keywords: ["co2"] }, { points: 1, description: "Albedo is the fraction of incoming solar radiation reflected by a surface. Snow-", partLabel: 'd', skill: 'describe', keywords: [] }],
-    sampleSolution: null
-  },
+    "sampleSolution": null
+  }
 ];

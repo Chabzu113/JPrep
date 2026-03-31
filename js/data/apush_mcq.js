@@ -10177,7 +10177,7 @@ var APUSH_MCQ = [
       "D) was temporary and designed to eventually grant full citizenship to Native Americans"
     ],
     "answer": 1,
-    "explanation": "The encomienda was legally justified as Spanish colonists providing protection and Christian education in exchange for Native labor and tribute, creating a theoretical reciprocal relationship. Unlike slavery, it wasn't based on ownership of people but on rights to labor. However, it didn't provide wages (A), didn't allow free movement (C), and wasn't intended to lead to citizenship (D)."
+    "explanation": "The encomienda was legally justified as Spanish colonists providing protection and Christian education in exchange for Native labor and tribute, creating a theoretical reciprocal relationship. Unlike slavery, it wasn't based on ownership of people but on rights to labor. However, it didn't provide wages (A), didn't allow free movement (C), and wasn't intended to lead to citizenship (D). Notably, while the encomienda system devastated Native populations, this demographic collapse was driven largely by epidemic disease, to which all Native Americans - regardless of their status under the encomienda - equally lacked immunity. Smaller, more isolated Native communities were especially vulnerable to complete demographic collapse, as disease could wipe out an entire population before any recovery was possible."
   },
   {
     "id": "apush_u1_q111",
@@ -11117,7 +11117,7 @@ var APUSH_MCQ = [
       "D) Geographic isolation from European cultural influences"
     ],
     "answer": 2,
-    "explanation": "Colonial women's roles were primarily defined by the economic demands of household production, which required their participation in manufacturing, food processing, and agricultural work. While A and B had influence, C was the most direct shaping factor, and D overstates cultural isolation."
+    "explanation": "Colonial women's roles were primarily defined by the economic demands of household production, which required their participation in manufacturing, food processing, and agricultural work. English common law (A) established legal constraints such as coverture, and religious teachings (B) reinforced expectations of female subordination, but these were secondary to the immediate economic realities of colonial life. Geographic isolation (D) overstates the degree to which colonists were cut off from European cultural norms."
   },
   {
     "id": "apush_u2_q158",
@@ -11456,8 +11456,8 @@ var APUSH_MCQ = [
       "C) appeal to European monarchs for military support by showing respect for the principle of divine right",
       "D) establish precedent for a strong executive in their future government by emphasizing the importance of royal power"
     ],
-    "answer": 1,
-    "explanation": "By blaming the King rather than Parliament, colonists could argue they were loyal subjects resisting tyranny, not rebels against legitimate government - this provided legal and moral justification. Choice A mischaracterizes colonial political theory. Choice C ignores that most European monarchs opposed the rebellion. Choice D wrongly suggests the Declaration supported strong executives."
+    "answer": 3,
+    "explanation": "By directing grievances at the King and emphasizing executive overreach, the Declaration helped establish a framework that would later inform debates about executive power in the new American government. Choice A mischaracterizes colonial political theory, as colonists were not seeking to preserve monarchical institutions. Choice B, while plausible, does not capture the forward-looking constitutional implications of targeting the King specifically. Choice C ignores that most European monarchs were hostile to the American rebellion and that appealing to divine right would have undermined colonial arguments about natural rights."
   },
   {
     "id": "apush_u4_q175",
@@ -11493,11 +11493,11 @@ var APUSH_MCQ = [
     "choices": [
       "A) demonstrated that power could transfer peacefully between opposing political parties",
       "B) reversed most of Hamilton's financial program and reduced federal power",
-      "C) ended the influence of aristocratic Federalists in American politics",
+      "C) permanently eliminated Federalist candidates from winning any future national elections",
       "D) established the principle of judicial review through Marbury v. Madison"
     ],
     "answer": 0,
-    "explanation": "The 'Revolution of 1800' was revolutionary because it proved democratic government could survive peaceful transfer of power between opposing parties, unprecedented globally. Choice B is wrong because Jefferson kept most of Hamilton's system. Choice C overstates Federalist decline. Choice D describes an important case but not what made 1800 'revolutionary.'"
+    "explanation": "The 'Revolution of 1800' was revolutionary because it proved democratic government could survive a peaceful transfer of power between opposing parties - a development considered unprecedented in modern republican governance at the time. Choice B is wrong because Jefferson largely preserved Hamilton's financial system, including the Bank of the United States. Choice C is incorrect because Federalists continued to contest national elections well into the 1810s and remained influential regionally. Choice D describes a significant constitutional milestone established during Jefferson's presidency, but judicial review was the result of a legal dispute - not the defining characteristic of what contemporaries and historians meant by the 'Revolution of 1800,' which specifically referred to the electoral transition of power itself."
   },
   {
     "id": "apush_u4_q177",
@@ -11792,12 +11792,12 @@ var APUSH_MCQ = [
     "question": "The Wilmot Proviso's repeated passage in the House but failure in the Senate during the Mexican-American War most clearly demonstrated which fundamental shift in American politics?",
     "choices": [
       "A) The emergence of sectional voting patterns that would define antebellum politics",
-      "B) The decline of the two-party system and rise of single-issue politics",
-      "C) Northern industrial interests gaining permanent control over Southern agricultural interests",
-      "D) The growing influence of abolitionist societies in mainstream political parties"
+      "B) The growing opposition to Manifest Destiny among Northern Whigs who viewed westward expansion as a Southern slaveholders' conspiracy",
+      "C) The inability of Congress to resolve the moral contradictions exposed by simultaneous territorial expansion and the existence of slavery",
+      "D) The fracturing of the Democratic Party over whether newly acquired Mexican territories should be open to free or slave labor"
     ],
     "answer": 0,
-    "explanation": "The Wilmot Proviso showed how sectional identity was beginning to override party loyalty, with Northern Democrats and Whigs voting together against Southern Democrats and Whigs. The two-party system remained strong until the 1850s, Northern control wasn't permanent, and abolitionist influence remained limited in mainstream parties."
+    "explanation": "The Wilmot Proviso showed how sectional identity was beginning to override party loyalty, with Northern Democrats and Whigs voting together against Southern Democrats and Whigs. While Northern Whigs did critique Manifest Destiny, opposition to expansion was not the proviso's primary revelation. The proviso exposed sectional fault lines across both parties rather than solely fracturing the Democrats, and though it highlighted slavery's contradictions with expansion, the most significant political shift was the overriding of party loyalty by sectional allegiance."
   },
   {
     "id": "apush_u5_q192",
@@ -11849,15 +11849,15 @@ var APUSH_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "The secession of the Deep South states immediately after Lincoln's election, but before his inauguration, most clearly demonstrated which aspect of the sectional crisis?",
+    "question": "The secession of the Deep South states immediately after Lincoln's election, but before his inauguration or the implementation of any Republican policies, most clearly demonstrated which of the following about the sectional crisis?",
     "choices": [
-      "A) Southern fears were based on Lincoln's actual policies rather than Republican rhetoric",
-      "B) The constitutional process for secession was well-established and widely accepted",
-      "C) Southern secessionists prioritized perceived threats to slavery over compromise attempts",
-      "D) Economic competition between North and South had become irreconcilable"
+      "A) Lincoln's election had immediately altered the constitutional balance of power between federal and state governments",
+      "B) Southern secessionists were responding to perceived future threats to slavery rather than any concrete policy actions",
+      "C) The Republican Party's platform had directly triggered an irreconcilable economic conflict between the regions",
+      "D) The constitutional framework for resolving sectional disputes had already collapsed before Lincoln took office"
     ],
-    "answer": 2,
-    "explanation": "Seceding before Lincoln took office or announced policies showed that secessionists were acting on perceived future threats to slavery rather than actual policies. Lincoln had not yet implemented any policies, the constitutional process for secession was disputed, and while economic issues mattered, the immediate trigger was political fears about slavery's future."
+    "answer": 1,
+    "explanation": "Because Deep South states seceded before Lincoln was inaugurated or enacted any policies, their actions most clearly demonstrate that secessionists were motivated by anticipated threats to slavery based on Republican ideology rather than actual policy changes. Lincoln had not yet taken any constitutional action, no economic policies had been implemented, and the constitutional framework for dispute resolution-though strained-had not formally collapsed prior to secession. The timing reveals that the driving force was political fear about slavery's future, not a response to concrete governing decisions."
   },
   {
     "id": "apush_u5_q195",
@@ -11871,13 +11871,13 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Lincoln's decision to supply Fort Sumter rather than evacuate or reinforce it represented which strategic calculation about the secession crisis?",
     "choices": [
-      "A) Forcing the Confederacy to fire the first shot would unite Northern opinion behind war",
+      "A) Forcing the Confederacy to fire the first shot would place moral responsibility for the war on the South and unite Northern public opinion",
       "B) Maintaining federal authority in Charleston harbor would prevent further secessions",
       "C) Demonstrating peaceful intentions would encourage Unionist sentiment in the South",
       "D) Avoiding military confrontation would allow time for a negotiated settlement"
     ],
     "answer": 0,
-    "explanation": "Lincoln's careful strategy of supplying (not reinforcing) the fort put the Confederacy in the position of either allowing federal authority or firing first. This united Northern opinion behind the war effort after the attack. The Upper South had already shown it would secede if war began, peaceful intentions weren't the goal, and Lincoln had concluded negotiation had failed."
+    "explanation": "Lincoln's careful strategy of supplying (not reinforcing) the fort put the Confederacy in the position of either allowing federal authority or firing first. By notifying South Carolina of his peaceful resupply intentions, Lincoln ensured that if the Confederacy attacked, it would bear responsibility for starting the conflict, thereby uniting Northern opinion behind the war effort. The Upper South had already shown it would secede if war began, peaceful intentions weren't the primary goal, and Lincoln had concluded negotiation had failed."
   },
   {
     "id": "apush_u5_q196",
@@ -12229,15 +12229,15 @@ var APUSH_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Which factor best explains why American industrial output increased nearly sixfold between 1860 and 1900, despite relatively modest population growth during the same period?",
+    "question": "Which factor best explains why American industrial output increased dramatically in the late nineteenth century, as the United States shifted from a predominantly agricultural economy to the world's leading industrial nation by 1900?",
     "choices": [
-      "A) The adoption of scientific management principles that maximized worker efficiency",
-      "B) The convergence of technological innovation, abundant natural resources, and capital accumulation from wartime profits",
+      "A) The convergence of technological innovation, abundant natural resources, and capital accumulation from wartime profits",
+      "B) The adoption of scientific management principles that maximized worker efficiency",
       "C) The influx of skilled European immigrants who brought advanced manufacturing techniques",
       "D) The development of a national banking system that provided stable currency and credit"
     ],
-    "answer": 1,
-    "explanation": "Industrial growth resulted from the convergence of multiple factors: new technologies (steel, electricity), abundant resources (coal, iron ore), and massive capital from Civil War profiteering that funded expansion. Choice A is incorrect as scientific management came later. Choice C is wrong because most immigrants were unskilled laborers. Choice D, while important, was insufficient alone to explain such dramatic growth."
+    "answer": 0,
+    "explanation": "Industrial growth resulted from the convergence of multiple factors: new technologies (steel, electricity), abundant resources (coal, iron ore), and massive capital from Civil War profiteering that funded expansion. Choice B is incorrect as scientific management came later in the early twentieth century. Choice C is wrong because most immigrants were unskilled laborers. Choice D, while important, was insufficient alone to explain such dramatic growth."
   },
   {
     "id": "apush_u6_q214",
@@ -12529,15 +12529,15 @@ var APUSH_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "McCarthyism's decline after 1954 can best be attributed to:",
+    "question": "Which of the following best explains why Senator Joseph McCarthy's public influence collapsed so rapidly after 1954?",
     "choices": [
-      "A) The end of the Korean War reducing fears of communist expansion",
-      "B) McCarthy's attack on the Army exposing his methods to public scrutiny via television",
-      "C) The Supreme Court's declaration that loyalty oaths were unconstitutional",
-      "D) Eisenhower's direct public confrontation with McCarthy's accusations"
+      "A) President Eisenhower publicly denounced McCarthy in a nationally broadcast address, turning Republican leadership against him",
+      "B) The televised Army-McCarthy hearings exposed McCarthy's bullying and reckless accusations to a mass national audience, destroying his credibility",
+      "C) Congress passed legislation formally censuring McCarthyism as a threat to civil liberties, signaling official rejection of his methods",
+      "D) The signing of a Korean armistice eliminated public anxiety about communist threats, removing the basis for McCarthy's appeals"
     ],
     "answer": 1,
-    "explanation": "The Army-McCarthy hearings were televised, allowing Americans to see McCarthy's bullying tactics firsthand, which destroyed his credibility. A is wrong because anti-communist sentiment continued after Korea. C is wrong because the Court didn't broadly strike down loyalty oaths in this period. D is wrong because Eisenhower largely avoided direct confrontation with McCarthy."
+    "explanation": "The Army-McCarthy hearings in 1954 were broadcast live on television, allowing millions of Americans to witness McCarthy's intimidating and reckless tactics firsthand. Attorney Joseph Welch's famous rebuke - 'Have you no sense of decency?' - crystallized public disillusionment. A is incorrect because Eisenhower deliberately avoided direct public confrontation with McCarthy. C is incorrect because no such legislation was passed; the Senate voted to censure McCarthy personally, not McCarthyism as a movement. D is incorrect because the Korean armistice was signed in 1953 and anti-communist fears persisted well beyond that point."
   },
   {
     "id": "apush_u8_q229",
@@ -13076,7 +13076,7 @@ var APUSH_MCQ = [
       "C) eliminating federal regulations that were constraining business growth",
       "D) providing loans exclusively to failed banks to restore financial stability"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The stimulus package followed Keynesian economic theory by using government spending to boost aggregate demand during the recession, funding infrastructure projects, education, and providing direct aid to individuals and states. Choice A describes supply-side policy. Choice C describes deregulation not stimulus. Choice D mischaracterizes the broader scope of the legislation."
   },
   {
@@ -13143,21 +13143,21 @@ var APUSH_MCQ = [
     "id": "apush_u9_q259",
     "subject": "apush",
     "unit": 9,
-    "topic": "Reagan Revolution",
-    "topicLabel": "Reagan Revolution",
+    "topic": "1970s Stagflation",
+    "topicLabel": "1970s Stagflation",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "The Reagan Revolution's electoral success can best be attributed to the convergence of which combination of factors?",
+    "question": "The stagflation crisis of the 1970s contributed most directly to which of the following political and economic outcomes?",
     "choices": [
-      "A) Economic stagflation, the Iranian hostage crisis, and the rise of the religious right",
-      "B) Defeat in Vietnam, Watergate scandal, and urban riots of the 1960s",
-      "C) The oil embargo, environmental regulations, and feminist movement backlash",
-      "D) Cold War tensions, civil rights fatigue, and anti-union sentiment"
+      "A) It undermined confidence in Keynesian economic policy and fueled support for supply-side tax cuts and deregulation",
+      "B) It led to the expansion of Great Society social programs as the government sought to stimulate consumer spending",
+      "C) It strengthened labor union influence as workers demanded higher wages to keep pace with rising prices",
+      "D) It prompted Congress to increase the money supply and reduce interest rates to encourage economic growth"
     ],
     "answer": 0,
-    "explanation": "The Reagan Revolution succeeded due to immediate late-1970s crises (stagflation, hostage crisis) combined with the emerging Christian conservative movement. Option B focuses on earlier 1960s-70s events that were less direct factors by 1980. Option C includes some relevant economic issues but mischaracterizes the environmental and feminist factors. Option D includes ongoing issues but doesn't capture the specific convergence of crises that made 1980 pivotal."
+    "explanation": "The stagflation of the 1970s - characterized by simultaneous high inflation and high unemployment - discredited traditional Keynesian demand-management policies, which had no effective remedy for this combination. This opened the door for supply-side economics, which argued that tax cuts and deregulation would stimulate production and tame inflation. Option B is incorrect because stagflation discredited, rather than expanded, government spending programs. Option C is incorrect because union influence declined during this period as inflation outpaced wage gains. Option D is incorrect because increasing the money supply would worsen inflation, and the Federal Reserve under Volcker actually raised interest rates sharply to combat stagflation."
   },
   {
     "id": "apush_u9_q260",
@@ -13336,8 +13336,8 @@ var APUSH_MCQ = [
       "C) Minimizing disruption to existing arrangements while expanding coverage",
       "D) Reducing implementation costs by utilizing established administrative structures"
     ],
-    "answer": 2,
-    "explanation": "The ACA's design around existing private insurance systems reflected Obama's 'if you like your plan, you can keep it' promise - expanding coverage while minimizing disruption to current arrangements. Option A is incorrect as the individual mandate actually raised more constitutional issues. Option B overstates Republican support, though some ideas were incorporated. Option D addresses practical concerns but not the primary political strategy."
+    "answer": 1,
+    "explanation": "The ACA's reliance on private insurance markets and employer-based coverage reflected Obama's strategy of building bipartisan support by incorporating Republican policy proposals. The individual mandate and insurance exchange model had roots in conservative policy ideas, including proposals from the Heritage Foundation and the Massachusetts health care reform under Mitt Romney. Option A is incorrect as the individual mandate actually raised significant constitutional questions. Option C partially explains the design but was not the primary strategic motivation. Option D addresses administrative practicality but not the broader political strategy."
   },
   {
     "id": "apush_u9_q269",

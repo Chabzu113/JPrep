@@ -16362,8 +16362,8 @@ window.PHYSC_MCQ = [
       "C) x = 0 and x = 1",
       "D) There are no positions of stable equilibrium"
     ],
-    "answer": 2,
-    "explanation": "Equilibrium occurs where F = -dU/dx = 0. dU/dx = 12x^3 - 24x^2 + 12x = 12x(x^2 - 2x + 1) = 12x(x-1)^2. Setting this to zero gives x = 0 and x = 1. For stability, we need d^2U/dx^2 > 0. d^2U/dx^2 = 36x^2 - 48x + 12. At x = 0: d^2U/dx^2 = 12 > 0, so stable. At x = 1: d^2U/dx^2 = 36 - 48 + 12 = 0, which is inconclusive at second order. We check d^3U/dx^3 = 72x - 48; at x=1 this is 24, nonzero, but since (x-1) appears squared in F, we examine the sign of F near x=1. For x slightly less than 1, F = -12x(x-1)^2 < 0 (force in -x direction). For x slightly greater than 1, F = -12x(x-1)^2 < 0 (still negative). The force does not restore toward x = 1 from both sides — it pushes in the same direction, indicating x = 1 is an inflection point of U, not a true minimum. Actually, U(1) = 3 - 8 + 6 = 1, and checking U near x=1 shows U is flat (quartic minimum behavior). Since (x-1) appears as a squared factor in dU/dx and U(x) near x=1 behaves like a quartic, we check: U(1+e) = 3(1+e)^4 - 8(1+e)^3 + 6(1+e)^2. Expanding to order e^4 gives U(1) + 0 + 0 + 0 + 3e^4 > U(1), so x=1 is also a local minimum (stable). Therefore both x = 0 and x = 1 are stable equilibria. Common trap: students may say x = 1 is unstable because the second derivative test is inconclusive, but higher-order analysis shows it is a quartic minimum. Answer C is correct."
+    "answer": 0,
+    "explanation": "Equilibrium occurs where F = -dU/dx = 0. Computing the derivative: dU/dx = 12x^3 - 24x^2 + 12x = 12x(x^2 - 2x + 1) = 12x(x-1)^2. Setting this equal to zero gives equilibrium positions at x = 0 and x = 1. To determine stability, we examine the second derivative: d^2U/dx^2 = 36x^2 - 48x + 12. At x = 0: d^2U/dx^2 = 12 > 0, confirming a local minimum, so x = 0 is a stable equilibrium. At x = 1: d^2U/dx^2 = 36 - 48 + 12 = 0, so the second derivative test is inconclusive. To go further, we examine the sign of the force F = -12x(x-1)^2 near x = 1. For x slightly less than 1, F = -12x(x-1)^2 < 0. For x slightly greater than 1, F = -12x(x-1)^2 < 0. The force points in the same direction on both sides of x = 1 rather than restoring the particle toward x = 1, which means x = 1 is not a stable equilibrium. This is consistent with x = 1 being an inflection point in the force function. Therefore, only x = 0 is a position of stable equilibrium. Answer A is correct."
   },
   {
     "id": "physc_u3_q769",
@@ -16397,13 +16397,13 @@ window.PHYSC_MCQ = [
     "isLatex": false,
     "question": "A conservative force acts on a particle in three dimensions. The potential energy function is U(x, y) = 3x^2·y - 2y^3. What is the y-component of the force at the point (2, 1)?",
     "choices": [
-      "A) -6",
-      "B) 6",
-      "C) -18",
-      "D) -12"
+      "A) -12",
+      "B) -6",
+      "C) 6",
+      "D) -18"
     ],
-    "answer": 0,
-    "explanation": "For a conservative force, F_y = -dU/dy (partial derivative). U(x,y) = 3x^2·y - 2y^3. Taking the partial derivative with respect to y: dU/dy = 3x^2 - 6y^2. Therefore F_y = -(3x^2 - 6y^2) = -3x^2 + 6y^2. At (2,1): F_y = -3(4) + 6(1) = -12 + 6 = -6 N. Answer A is correct. Distractor B (6) is the common sign error of forgetting the negative in F = -dU/dy. Distractor C (-18) comes from incorrectly computing the partial derivative as dU/dy = 3x^2 + 6y^2 and then applying the negative sign. Distractor D (-12) results from only computing -3x^2 and forgetting the second term."
+    "answer": 1,
+    "explanation": "For a conservative force, the y-component is given by F_y = -∂U/∂y. Given U(x, y) = 3x^2·y - 2y^3, the partial derivative with respect to y is ∂U/∂y = 3x^2 - 6y^2. Applying the negative sign: F_y = -(3x^2 - 6y^2) = -3x^2 + 6y^2. Evaluating at (2, 1): F_y = -3(2)^2 + 6(1)^2 = -12 + 6 = -6 N. Distractor A (-12) results from computing only the -3x^2 term and neglecting the 6y^2 contribution. Distractor C (6) reflects a sign error from forgetting the negative in F_y = -∂U/∂y. Distractor D (-18) comes from incorrectly treating the partial derivative as ∂U/∂y = 3x^2 + 6y^2 before applying the negative sign."
   },
   {
     "id": "physc_u3_q771",

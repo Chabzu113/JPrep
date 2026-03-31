@@ -1,110 +1,30 @@
 {
-  "generated": "2026-03-27T17:33:51.620Z",
+  "generated": "2026-03-30T13:14:17.938Z",
   "flags": [
     {
-      "id": "macro_u1_q006",
-      "issue": "Answer choice C 'Capital markets' is technically a subset of factor markets, making it a partially correct answer that could create ambiguity",
-      "fix": "Change choice C to something clearly distinct like 'Money markets' or 'Stock exchanges' to eliminate the overlap with factor markets"
+      "id": "macro_u1_q125",
+      "issue": "The question implicitly assumes working is the next best alternative, but this is stated as fact rather than given as a premise. More importantly, the true opportunity cost of studying for 2 hours includes not only the $30 in forgone wages but also any non-monetary costs. The question should explicitly state that working is the next best alternative to make answer C unambiguous. Additionally, distractor D ('Two hours of leisure time') could be argued as plausible if a student considers leisure their next best alternative, since the problem doesn't definitively establish the ranking of alternatives. The question should add a phrase such as 'and the next best alternative use of that time is working' to eliminate ambiguity.",
+      "fix": "Revise the question stem to: 'A student decides to spend two hours studying for an economics exam instead of working at a job that pays $15 per hour. If working is the student's next best alternative, what is the opportunity cost of studying?' This makes C ($30) the unambiguously correct answer."
     },
     {
-      "id": "macro_u1_q004",
-      "issue": "Answer is mathematically incorrect. The correct answer should be 'C' (Country A has comparative advantage in trucks, Country B in cars), but the answer is marked as '2' (B).",
-      "fix": "Change answer from 2 to 3 to reflect correct comparative advantage calculation"
+      "id": "macro_u1_q130",
+      "issue": "The question does not have one clear correct answer. Both choice A and choice D are factually correct statements with accurate opportunity cost calculations. The explanation itself acknowledges 'Both A and D are factually accurate statements.' This violates the requirement of having one unambiguous correct answer. Choice A correctly identifies Country X's comparative advantage in cloth (OC of cloth: 2 wheat vs 4 wheat), and Choice D correctly identifies Country Y's comparative advantage in wheat (OC of wheat: 0.25 cloth vs 0.5 cloth). Both are equally valid.",
+      "fix": "Revise choice A to contain an error (e.g., swap the opportunity cost numbers, misidentify which country has the advantage, or introduce incorrect math) so that only choice D is correct. For example, change A to: 'Country X has a comparative advantage in cloth because its opportunity cost of one unit of cloth is 4 units of wheat, while Country Y's is 2 units of wheat.' This makes A factually incorrect and leaves D as the sole correct answer. Also update the explanation to remove the acknowledgment that A is correct."
     },
     {
-      "id": "macro_u1_q020",
-      "issue": "Answer is conceptually incorrect. Room and board should not be included in opportunity cost if the student needs these regardless of choice. The correct answer should be 'D' (tuition, books, and foregone wages), but it's marked as '3'.",
-      "fix": "Change answer from 3 to 3 (which is correct as D) - actually the answer appears correct but explanation needs clarification that room/board are needed either way"
+      "id": "macro_u1_q132",
+      "issue": "Two answer choices are correct (C and D), violating the requirement for one clear correct answer. The explanation itself acknowledges that Choice C 'is actually true as well,' then tries to dismiss it by calling D 'more precise.' But C is factually correct: combined output after specialization is 100 steel + 240 cloth, which exceeds pre-trade totals of 90 steel + 220 cloth. A valid MC question cannot have two correct answers. Additionally, D says 'Country A specializes in steel because its opportunity cost of steel is 2 cloth, compared to Country B's 3 cloth' — this is also correct but does not make C wrong. The question must be revised so only one choice is unambiguously correct.",
+      "fix": "Either revise Choice C to include an incorrect detail (e.g., wrong numbers like '100 steel and 200 cloth') so it becomes a genuine distractor, or revise Choice D to be the sole correct option by removing the overlap. For example, change C to: 'Combined output after specialization is 100 steel and 200 cloth, which exceeds pre-trade totals.' This makes C clearly wrong (240 cloth, not 200) and leaves D as the only correct answer."
     },
     {
-      "id": "macro_u1_q024",
-      "issue": "Incorrect calculation and flawed logic in opportunity cost. The opportunity cost should be the net benefit of the foregone alternative ($30), not $30 + $20 = $40.",
-      "fix": "Change correct answer to D) $30. Opportunity cost is the net benefit of the best alternative foregone: textbook value ($130) minus textbook price ($100) = $30."
+      "id": "macro_u4_q139",
+      "issue": "Ambiguous wording and debatable correct answer. The question asks for the 'maximum total change in the money supply' resulting from the deposit. On the AP exam, a new deposit (e.g., someone depositing cash they held) converts currency into a checkable deposit—the initial deposit itself does not change the money supply (it merely changes its form). The new money created by the banking system through lending is $10,000 × (1/0.20) - $10,000 = $40,000, making (B) the more defensible answer for the 'change' in money supply. Alternatively, if the deposit represents new reserves injected by the Fed, then the total change is $50,000. The question says 'a bank receives a new deposit' which is ambiguous about the source. Additionally, the explanation states distractor (D) is '$8,000 — the amount initially lent,' but 20% of $10,000 is $2,000 in reserves and $8,000 lent, so $8,000 is indeed the amount lent by the first bank, which is correct in the explanation but the question's ambiguity about what constitutes the 'change' remains the core problem.",
+      "fix": "Clarify the source of the deposit to remove ambiguity. For answer (C) $50,000 to be unambiguously correct, reword to: 'The Federal Reserve purchases $10,000 in government bonds from a member bank. If the reserve requirement is 20%, what is the maximum total increase in the money supply for the entire banking system?' This makes it clear that $10,000 in new reserves enters the system and the full multiplier applies. Alternatively, if keeping the deposit framing, change the correct answer to (B) $40,000 and reframe as the change in money supply beyond the initial deposit."
     },
     {
-      "id": "macro_u1_q026",
-      "issue": "Mathematical error in explanation and wrong answer key. Country A: wheat costs 0.5 cloth, cloth costs 2 wheat. Country B: wheat costs 0.67 cloth, cloth costs 1.5 wheat. A has advantage in wheat (lower opportunity cost: 0.5 vs 0.67 cloth), B has advantage in cloth (lower opportunity cost: 1.5 vs 2 wheat).",
-      "fix": "Change correct answer to C) Country A has comparative advantage in wheat, Country B in cloth. Fix the explanation to show correct opportunity cost calculations."
-    },
-    {
-      "id": "macro_u1_q027",
-      "issue": "Answer key indicates option D but explanation describes option C. The question asks about the purchasing transaction (money flow from households to firms), making D correct.",
-      "fix": "Change correct answer to D) Product market; money flow from households to firms, or clarify that the question is asking specifically about the money flow aspect of the transaction."
-    },
-    {
-      "id": "macro_u1_q027",
-      "issue": "Calculation error and confusing explanation. The opportunity cost compared to studying all 20 hours should be what she gives up by not studying those 16 hours (16 × $12 = $192), but the answer key indicates D) $288 which doesn't match any logical calculation",
-      "fix": "Recalculate and clarify what exactly is being asked. If comparing net benefit, the answer should be C) $192"
-    },
-    {
-      "id": "macro_u1_q029",
-      "issue": "Answer key indicates option C is correct, but explanation describes both countries benefiting. However, the calculation shows this is true, so the answer should remain C, not 2 as indicated",
-      "fix": "Change answer from 2 to 2 (both countries benefit - option C)"
-    },
-    {
-      "id": "macro_u1_q032",
-      "issue": "Labor market analysis is incorrect. With both demand and supply increasing, employment definitely increases, but the wage effect is ambiguous depending on relative shifts. However, the question asks about skilled labor where productivity increased significantly",
-      "fix": "The analysis is actually correct - employment definitely increases, wage change is ambiguous"
-    },
-    {
-      "id": "macro_u1_q033",
-      "issue": "The analysis of tax credits and subsidies is overly complex and the answer choice D is poorly worded. The economic analysis about price effects is muddled",
-      "fix": "Simplify analysis: consumer tax credit shifts demand right, production subsidy shifts supply right, both effects reduce net consumer cost significantly"
-    },
-    {
-      "id": "macro_u2_q038",
-      "issue": "Incorrect answer key - calculation error",
-      "fix": "Answer should be B) $12.5 trillion, not index 1. GDP = 8 + 2 + 3 + (1.5 - 2) = 12.5"
-    },
-    {
-      "id": "macro_u2_q040",
-      "issue": "Incorrect answer key - calculation error",
-      "fix": "Answer should be B) 5.0%, not index 1. Calculation: (126-120)/120 × 100% = 5.0%"
-    },
-    {
-      "id": "macro_u2_q045",
-      "issue": "Incorrect answer key - calculation error",
-      "fix": "Answer should be B) 66.7%, not index 1. Labor force participation = 160/240 × 100% = 66.7%"
-    },
-    {
-      "id": "macro_u2_q052",
-      "issue": "Incorrect answer key - conceptual error",
-      "fix": "Answer should be B) The unemployment rate to decrease, not index 1. When discouraged workers leave the labor force, unemployment rate decreases"
-    },
-    {
-      "id": "macro_u2_q050",
-      "issue": "Answer is factually incorrect. The explanation contains flawed reasoning about the GDP deflator calculation and the effects on investment and net exports are not analyzed correctly.",
-      "fix": "The purchase of German machinery increases imports (decreases NX) and increases investment (I). The sale of old machinery increases exports (increases NX) but doesn't count as new investment since it's existing capital. The net effect depends on relative magnitudes, but we cannot assume the import exceeds the export value. Choice A's reasoning is flawed - the correct answer should account for both transactions properly."
-    },
-    {
-      "id": "macro_u3_q060",
-      "issue": "Incorrect answer and explanation. The correct answer should be A (prices and wages are perfectly flexible in the long run). Choice C is incorrect because proportional adjustment doesn't explain why LRAS is vertical - it's the flexibility that allows for proportional adjustment that matters.",
-      "fix": "Change answer to 0 and revise explanation to focus on price/wage flexibility enabling the economy to produce at potential output regardless of price level"
-    },
-    {
-      "id": "macro_u3_q065",
-      "issue": "Mathematical error in explanation. The calculation 1/(1-0.8) = 1/0.2 = 5 is correct, but the explanation of choice C is wrong. Choice C gives 4, which would be 1/0.25, not 1/MPS with MPS=0.2.",
-      "fix": "Correct the explanation for why choice C is wrong - it appears to use an incorrect MPS value or formula"
-    },
-    {
-      "id": "macro_u4_q066",
-      "issue": "Correct answer should be C, not B. Withdrawing cash from savings increases M1 and leaves M2 unchanged.",
-      "fix": "Change answer to 2 (choice C) and revise explanation to clarify that cash and savings accounts are both in M2, so total M2 doesn't change"
-    },
-    {
-      "id": "macro_u4_q073",
-      "issue": "Correct answer should be C, not B. When Fed buys securities, both reserves and money supply increase by $100M immediately.",
-      "fix": "Change answer to 2 (choice C) - both reserves and money supply increase immediately by the same amount"
-    },
-    {
-      "id": "macro_u6_q098",
-      "issue": "Answer explanation has factual error regarding who benefits from yen depreciation",
-      "fix": "Choice E is incorrect - Japanese banks holding dollar-denominated assets would actually benefit from yen depreciation as their assets become more valuable in yen terms, not fall in value"
-    },
-    {
-      "id": "macro_u6_q125",
-      "issue": "Incorrect answer and flawed reasoning. When both demand and supply shift right and price remains constant, we cannot definitively conclude quantity increased without knowing the relative magnitudes of the shifts.",
-      "fix": "Change correct answer to A) 'The demand increase must be exactly equal to the supply increase in magnitude' - this is the only way price can remain unchanged with both curves shifting right."
+      "id": "macro_u6_q141",
+      "issue": "The answer is debatable and not aligned with standard AP Macroeconomics expectations. On the AP exam, the balance of payments identity (current account deficit = capital/financial account surplus) is tested straightforwardly, and the standard AP framework does not treat the currency effect as 'ambiguous.' The BOP identity means ex post the accounts balance, but the AP curriculum teaches that a current account deficit, considered in isolation, puts depreciation pressure on a currency, and many AP-level questions use this framing. More importantly, the question asks 'which must be true AND what is the most likely effect,' combining two claims. Choice B's assertion that the effect is 'ambiguous' is more of a university-level nuance. At the AP level, Choice D (capital account surplus + depreciation pressure from current account deficit) is the more standard expected answer. Additionally, answer index 1 corresponds to choice B, which could confuse students expecting the conventional AP treatment. The question is too nuanced/ambiguous for an AP exam format where one answer must be clearly defensible.",
+      "fix": "For AP-level alignment, revise the question to separate the two concepts or change the correct answer to D (index 3), which reflects standard AP teaching: a current account deficit implies a capital/financial account surplus, and the persistent current account deficit (net imports > net exports) means more currency is supplied in forex markets, leading to depreciation pressure. Alternatively, simplify the question to only ask about the BOP identity without the currency effect, to avoid ambiguity."
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "generated": "2026-03-31T01:12:34.492Z",
+  "flags": [
+    {
+      "id": "bio_u4_frq019",
+      "issue": "Difficulty relabeled from 'easy' to 'medium': the question requires multi-part mechanistic explanations of caspase cascades and the apoptosis-cancer connection, which demand content-specific reasoning beyond basic recall and are not appropriate for an 'easy' classification."
+    },
+    {
+      "id": "bio_u6_frq035",
+      "issue": "Factual/logical error in Part D: The question states that 'a point mutation changes the third codon of the template strand from GGG to GGA,' but GGG is the SECOND codon of the template strand (3'-TAC|GGG|CCT|ATG|AAT|CCC-5'), not the third. The third template codon is CCT. This internal inconsistency makes the question factually incorrect and potentially confusing to students, warranting a drop or a rewrite to either correctly identify GGG as the second codon or replace the mutated codon with the actual third codon (CCT→CCA or similar) and recalculate the mutation effect accordingly."
+    },
+    {
+      "id": "bio_u6_frq036",
+      "issue": "Factual error in the coding strand and prompt: The coding strand shown is 5'-ATG-CCT-TAG-TAA-GCA-TGA-3', which contains two stop codons (TAG at codon 3 and TAA at codon 4), making it an implausible coding sequence for a functional membrane transport protein. Additionally, the prompt states the coding strand contains 'TAG' and 'TAA' consecutively, which would terminate translation immediately and contradicts the premise of a gene encoding a functional protein. The mRNA derived from this sequence (5'-AUG-CCU-UAG-UAA-GCA-UGA-3') also contains three stop codons (UAG, UAA, UGA), rendering the entire transcription/translation analysis of parts a, c, and e based on a biologically nonsensical sequence. Furthermore, the prompt description of the mutation is internally inconsistent: it references 'CIT' (not a valid nucleotide abbreviation) and confusingly describes both the 9th and 12th nucleotide positions as the site of mutation. The operon-like mechanism reference is also problematic because eukaryotic genes (as stated in the prompt) do not use operons - operons are a prokaryotic regulatory mechanism. This factual error undermines the validity of part d. Due to multiple compounding factual errors (premature stop codons in the model sequence, use of prokaryotic operon logic for a eukaryotic gene, and an internally contradictory mutation description), this question must be flagged and dropped."
+    }
+  ]
+}

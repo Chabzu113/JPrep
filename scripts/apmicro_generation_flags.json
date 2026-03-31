@@ -1,55 +1,20 @@
 {
-  "generated": "2026-03-27T17:16:17.803Z",
+  "generated": "2026-03-30T13:07:41.073Z",
   "flags": [
     {
-      "id": "micro_u1_q015",
-      "issue": "Mathematical error in PPC calculation",
-      "fix": "If PPC shows 100 guns OR 50 butter, then at 60 guns the maximum butter possible is 20 units (using linear PPC: 50 - (60/100)*50 = 20). The point (60,20) is ON the curve, not inside it. Change to (60,15) to be inside the curve."
+      "id": "micro_u1_q130",
+      "issue": "The answer is index 3 (choice D), which is mathematically correct. However, the explanation acknowledges that choice A is also a correct statement: 'Choice A correctly identifies Country A's comparative advantage in wine but is not the answer selected.' Choice A states 'Country A has a comparative advantage in wine because its opportunity cost of wine is lower,' which is factually true (OC of wine for A is 2 cloth vs 4 cloth for B). The question asks 'Which of the following statements is correct?' but both A and D are correct statements, making the question ambiguous with two correct answers.",
+      "fix": "Either remove choice A or reword it to be incorrect. For example, change choice A to: 'Country A has a comparative advantage in wine because it can produce more wine.' (This makes the reasoning wrong — confusing absolute with comparative advantage.) Alternatively, change the question stem to 'Which of the following statements about Country B is correct?' so that only D applies."
     },
     {
-      "id": "micro_u1_q023",
-      "issue": "Mathematical calculation error in explanation",
-      "fix": "Correct Country A's resource calculation: 80 cars requires 80% capacity (80/100), 40 computers requires 20% capacity (40/200), totaling 100% which is feasible, not 120%"
+      "id": "micro_u1_q130",
+      "issue": "The question has two correct answer choices. Choice A is factually correct (Country A's opportunity cost of cloth is 2 wheat vs. Country B's 4 wheat, so Country A has comparative advantage in cloth) and Choice D is also factually correct (Country B's opportunity cost of wheat is 0.25 cloth vs. Country A's 0.50 cloth, so Country B has comparative advantage in wheat). Both A and D are logically equivalent true statements. The explanation itself acknowledges this problem ('Both A and D are factually correct'). A well-constructed MC question must have exactly one correct answer.",
+      "fix": "Either remove or make one of the two correct choices incorrect. For example, change Choice A to contain an incorrect opportunity cost figure (e.g., 'Country A has a comparative advantage in cloth because its opportunity cost of cloth is 1.5 wheat, while Country B's is 3 wheat') so that only D remains correct. Alternatively, rephrase Choice A to state something subtly wrong, such as misidentifying which country has the comparative advantage in cloth."
     },
     {
-      "id": "micro_u1_q024",
-      "issue": "Mathematical error in comparative advantage calculation",
-      "fix": "Worker Y's opportunity cost of producing good B should be 8/6 = 1.33A per B, not the calculation shown in explanation"
-    },
-    {
-      "id": "micro_u1_q029",
-      "issue": "Mathematical error and incorrect answer",
-      "fix": "From B to C: 30 guns for 20 butter = 1.5 guns per butter, but answer choice C incorrectly states 1.0. The explanation is correct but doesn't match the answer choice provided"
-    },
-    {
-      "id": "micro_u2_q033",
-      "issue": "Mathematical error in calculation of surplus workers",
-      "fix": "Change explanation to correctly identify surplus as 95,000 - 80,000 = 15,000, which matches choice B, but the explanation incorrectly describes this as the calculation while stating the right numbers"
-    },
-    {
-      "id": "micro_u5_q067",
-      "issue": "Incorrect answer key - answer is indexed as 3 but should be indexed as 1",
-      "fix": "Change answer from 3 to 1 (choice B is correct - MRP >= wage rate)"
-    },
-    {
-      "id": "micro_u5_q090",
-      "issue": "Incorrect economic analysis - higher productivity increases labor demand, fewer firms reduces labor demand, making wages ambiguous not definitely increasing",
-      "fix": "Change answer to D and revise explanation to note both wage and employment effects are ambiguous"
-    },
-    {
-      "id": "micro_u5_q091",
-      "issue": "Incorrect answer - a wage ceiling above monopsony wage but below competitive wage increases employment but has ambiguous effect on worker surplus",
-      "fix": "Change answer to C with explanation that employment increases but worker surplus effect depends on relative magnitude of wage vs employment changes"
-    },
-    {
-      "id": "micro_u6_q110",
-      "issue": "Choice C contradicts the assumption stated in the question stem",
-      "fix": "Replace choice C with 'The size of the externality' or 'The type of economic activity involved'"
-    },
-    {
-      "id": "micro_u6_q125",
-      "issue": "Mathematical error in calculation. The calculation shown gives Q=1.67, not Q=8. Also, the setup is unclear about whether benefits are per firework or cumulative.",
-      "fix": "Recalculate the optimal quantity or revise the numbers to make the math work out to a whole number. Clarify whether marginal benefits are per additional firework."
+      "id": "micro_u5_q134",
+      "issue": "The correct answer (C) states employment is fully 'indeterminate,' but standard AP Micro treatment of bilateral monopoly holds that while the wage is indeterminate between the monopsony and union wages, employment can actually increase toward (or even reach) the competitive level — both sides may agree on a higher employment level than the monopsony alone would choose. More importantly, distractor B is arguably as defensible as C: employment in bilateral monopoly is generally understood to fall somewhere in a range (not be completely unbounded/indeterminate), and the distinction the explanation draws between B and C is too subtle and debatable to yield one unambiguous answer. Additionally, the claim that employment could fall outside the 150–250 range lacks clear theoretical support, making the question ambiguous at the AP level.",
+      "fix": "Simplify the question to focus on the standard AP-level conclusion: the wage is indeterminate between $12 and $20, and employment may increase toward the competitive level compared to pure monopsony. Revise the correct answer and distractors so the key tested concept is that bilateral monopoly produces an indeterminate wage between the two preferred wages, with employment potentially closer to the competitive outcome. For example, make the correct answer: 'The wage will be between $12 and $20 depending on bargaining power, and employment could increase toward the competitive level of 250 workers.' Remove the fine distinction between B and C that creates ambiguity."
     }
   ]
 }

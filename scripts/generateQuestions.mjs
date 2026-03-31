@@ -331,15 +331,21 @@ async function generateForSubject(subjectKey) {
 
           let generated;
           try {
-            const cleaned = genRaw.replace(/```json|```/g, '').replace(/\.\.\./g, '').trim();
+            const cleaned = genRaw.replace(/```json|```/g, '').replace(/\.\.\./g, '').replace(/\u2014/g, '-').replace(/\u2013/g, '-').trim();
             // Try direct parse first
             try {
               generated = JSON.parse(cleaned);
             } catch {
-              // Fall back to extracting the array from anywhere in the response
-              const match = cleaned.match(/\[[\s\S]*\]/);
-              if (!match) throw new Error('No JSON array found in response');
-              generated = JSON.parse(match[0]);
+              // Fall back to extracting the array using bracket matching
+              const start = cleaned.indexOf('[');
+              if (start === -1) throw new Error('No JSON array found in response');
+              let depth = 0, end = -1;
+              for (let i = start; i < cleaned.length; i++) {
+                if (cleaned[i] === '[') depth++;
+                else if (cleaned[i] === ']') { depth--; if (depth === 0) { end = i; break; } }
+              }
+              if (end === -1) throw new Error('Unterminated JSON array');
+              generated = JSON.parse(cleaned.slice(start, end + 1));
             }
           } catch {
             console.log(`PARSE ERROR — skipping`);

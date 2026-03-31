@@ -1,0 +1,13 @@
+{
+  "generated": "2026-03-30T23:25:06.608Z",
+  "flags": [
+    {
+      "id": "micro_u2_frq006",
+      "issue": "Factual error in Part (c) and its rubric: the question and rubric assert unambiguously that producer surplus increases after the binding price floor is imposed. This is incorrect. With the price floor at $8, only 140 bushels are traded (constrained by quantity demanded, down from the equilibrium of 200). Producers gain surplus on the price increase for units still sold, but lose surplus on the 60 units (200-140) that are no longer purchased. Whether producer surplus rises or falls on net depends on the relative elasticities of supply and demand and the exact shape of the curves - it cannot be stated as an unambiguous increase without additional information. This would misinform students and contradicts standard AP Microeconomics treatment of price floors, which acknowledges the ambiguous net effect on producer surplus."
+    },
+    {
+      "id": "micro_u3_frq013",
+      "issue": "FACTUAL ERROR in prompt: The prompt states 'the price of $4.00 falls above the AVC curve but below the ATC curve at the profit-maximizing output quantity,' but part (a) calculations reveal AVC = $6.00, which is greater than the price of $4.00. Therefore P < AVC, and the price actually falls BELOW the AVC curve - not above it. This internal contradiction means the prompt's graphical description directly contradicts the numeric scenario. NOTE: Despite the factual error in the prompt description, the question has been retained in 'clean' with the prompt error flagged here, because the numeric parts (a, b, c) are internally consistent and the prompt's erroneous sentence could be corrected by removing or revising that final sentence. The prompt sentence 'the price of $4.00 falls above the AVC curve but below the ATC curve' should be changed to 'the price of $4.00 falls below the AVC curve, which itself falls below the ATC curve, at all output levels.'"
+    }
+  ]
+}

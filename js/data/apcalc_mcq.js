@@ -8479,5 +8479,2125 @@ var APCALC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The curves y = x^2 and y = 2x intersect where x^2 = 2x, giving x = 0 and x = 2. On [0, 2], the outer radius is R = 2x and the inner radius is r = x^2. The washer method gives V = pi * integral from 0 to 2 of [(2x)^2 - (x^2)^2] dx. Choice B incorrectly squares the difference of the functions rather than subtracting the squares of the radii — a common error where students compute pi*(R - r)^2 instead of pi*(R^2 - r^2). Choice C uses the wrong upper limit of x = 4 (confusing the y-intersection value of 4 with the x-intersection value of 2). Choice D is the correct volume using the shell method about the y-axis, not the x-axis as specified."
+  },
+  {
+    "id": "calc_u1_q229",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "limit laws",
+    "topicLabel": "Limit Laws",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If lim(x->3) f(x) = 5 and lim(x->3) g(x) = 2, what is lim(x->3) [3f(x) - g(x)]?",
+    "choices": [
+      "A) 13",
+      "B) 15",
+      "C) 7",
+      "D) 17"
+    ],
+    "answer": 0,
+    "explanation": "By limit laws, lim(x->3) [3f(x) - g(x)] = 3·lim(x->3) f(x) - lim(x->3) g(x) = 3(5) - 2 = 13. Choice B (15) results from computing 3(5) and forgetting to subtract g(x). Choice C (7) comes from incorrectly computing 5 + 2 = 7 without the coefficient. Choice D (17) comes from adding instead of subtracting: 3(5) + 2 = 17."
+  },
+  {
+    "id": "calc_u1_q230",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "types of discontinuity",
+    "topicLabel": "Types of Discontinuity",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let g(x) = (x^2 - 4)/(x - 2) for x not equal to 2, and g(2) = 5. Which type of discontinuity does g have at x = 2?",
+    "choices": [
+      "A) g is continuous at x = 2",
+      "B) Removable discontinuity",
+      "C) Jump discontinuity",
+      "D) Infinite discontinuity"
+    ],
+    "answer": 1,
+    "explanation": "Simplifying (x^2 - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2 for x not equal to 2, so lim(x->2) g(x) = 4. Since g(2) = 5 and the limit equals 4, the limit exists but does not equal the function value, which is the definition of a removable discontinuity. Choice A is wrong because continuity requires g(2) = lim(x->2) g(x), but 5 ≠ 4. Choice C is wrong because both one-sided limits equal 4 (they agree), so there is no jump. Choice D is wrong because the limit is finite, not infinite."
+  },
+  {
+    "id": "calc_u1_q233",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "squeeze theorem",
+    "topicLabel": "Squeeze Theorem",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f be a function such that -x^4 + 2 <= f(x) <= x^2 + 2 for all x near 0. What is the limit of (f(x) - 2) / x^2 as x approaches 0?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) The limit does not exist"
+    ],
+    "answer": 1,
+    "explanation": "From the given inequality, subtract 2: -x^4 <= f(x) - 2 <= x^2. Divide all parts by x^2 (positive for x near 0, x != 0): -x^2 <= (f(x) - 2)/x^2 <= 1. As x approaches 0, -x^2 approaches 0 and 1 approaches 1. By the Squeeze Theorem, the limit is 1. Students who forget to divide the bounds by x^2 may incorrectly say 0 or 2. Students who think the indeterminate form means DNE are also mistaken."
+  },
+  {
+    "id": "calc_u1_q234",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "types of discontinuity",
+    "topicLabel": "Types of Discontinuity and IVT",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let g(x) = (x^2 - 4x + 3) / (x^2 - 5x + 6) for x != 3, and g(3) = 5. Which statement is true?",
+    "choices": [
+      "A) g has a vertical asymptote at x = 3",
+      "B) g has a removable discontinuity at x = 3 and a vertical asymptote at x = 2",
+      "C) g is continuous at x = 3 because g(3) is defined",
+      "D) g has removable discontinuities at both x = 2 and x = 3"
+    ],
+    "answer": 1,
+    "explanation": "Factor: g(x) = (x-1)(x-3) / [(x-2)(x-3)]. The (x-3) cancels, so the limit as x->3 exists and equals (3-1)/(3-2) = 2. Since g(3) = 5 != 2, there is a removable discontinuity at x = 3. At x = 2, the denominator is zero but the numerator (2-1) = 1 != 0, so there is a vertical asymptote at x = 2. Choice A is wrong because the factor cancels so x = 3 is not a vertical asymptote. Choice C is wrong because continuity requires the limit to equal the function value, not merely that the function is defined. Choice D is wrong because x = 2 is a non-removable (infinite) discontinuity."
+  },
+  {
+    "id": "calc_u1_q235",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "limits at infinity",
+    "topicLabel": "Limits at Infinity",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "What is the limit as x approaches infinity of (sqrt(9x^2 + 4x) - 3x)?",
+    "choices": [
+      "A) 0",
+      "B) 2/3",
+      "C) 4/3",
+      "D) The limit does not exist"
+    ],
+    "answer": 1,
+    "explanation": "Multiply by the conjugate: (sqrt(9x^2+4x) - 3x) * (sqrt(9x^2+4x) + 3x) / (sqrt(9x^2+4x) + 3x) = (9x^2+4x - 9x^2) / (sqrt(9x^2+4x) + 3x) = 4x / (sqrt(9x^2+4x) + 3x). For x -> infinity, divide numerator and denominator by x: 4 / (sqrt(9 + 4/x) + 3). As x -> infinity, this becomes 4 / (3 + 3) = 4/6 = 2/3. Students who assume the difference of two terms going to infinity is 0 choose A. Students who incorrectly simplify the conjugate expression may get 4/3. Students unfamiliar with the conjugate technique may think the limit DNE."
+  },
+  {
+    "id": "calc_u1_q236",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "squeeze theorem",
+    "topicLabel": "Squeeze Theorem",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f be a function such that -x^4 + 2 <= f(x) <= x^2 cos(1/x) + 2 for all x near 0 but not equal to 0. What is the value of lim as x->0 of f(x)?",
+    "choices": [
+      "A) 0",
+      "B) 2",
+      "C) 1",
+      "D) The limit does not exist"
+    ],
+    "answer": 1,
+    "explanation": "As x->0, the lower bound -x^4 + 2 approaches 0 + 2 = 2. For the upper bound, x^2 cos(1/x) approaches 0 since |x^2 cos(1/x)| <= x^2 -> 0, so x^2 cos(1/x) + 2 approaches 2. By the Squeeze Theorem, lim f(x) = 2. Choice A (0) comes from ignoring the +2 constant. Choice D is a common trap because students see cos(1/x) and assume oscillation prevents a limit. Choice C is a miscalculation."
+  },
+  {
+    "id": "calc_u1_q237",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "squeeze theorem",
+    "topicLabel": "Squeeze Theorem",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f be a function such that -x^4 + 2x^2 <= f(x) <= x^4 - 2x^2 + 2 for all x near 1. What is the value of lim as x approaches 1 of f(x)?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) The limit does not exist"
+    ],
+    "answer": 1,
+    "explanation": "Evaluating the lower bound at x = 1: -(1)^4 + 2(1)^2 = -1 + 2 = 1. Evaluating the upper bound at x = 1: (1)^4 - 2(1)^2 + 2 = 1 - 2 + 2 = 1. Since both bounds approach 1, by the Squeeze Theorem, lim f(x) = 1. A common error (choice A) is miscomputing the bounds or confusing the structure with a problem where the limit is 0. Choice C (2) results from only evaluating the upper bound incorrectly as 1 + 2 = 3 or dropping the negative sign in the lower bound. Choice D is chosen by students who mistakenly believe the Squeeze Theorem cannot apply when the bounding functions are polynomials of degree 4."
+  },
+  {
+    "id": "calc_u2_q238",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "average rate of change",
+    "topicLabel": "Average Rate of Change",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The function f is defined by f(x) = x^3 - 2x + 5. What is the average rate of change of f on the interval [1, 3]?",
+    "choices": [
+      "A) 11",
+      "B) 12",
+      "C) 22",
+      "D) 24"
+    ],
+    "answer": 0,
+    "explanation": "f(3) = 27 - 6 + 5 = 26 and f(1) = 1 - 2 + 5 = 4. Average rate of change = (26 - 4)/(3 - 1) = 22/2 = 11. Choice C (22) is the numerator only, a common error of forgetting to divide by the interval length. Choice B (12) results from an arithmetic error. Choice D (24) could result from incorrectly computing f(3)."
+  },
+  {
+    "id": "calc_u2_q239",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "instantaneous rate of change",
+    "topicLabel": "Instantaneous Rate of Change",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A particle moves along the x-axis with position given by s(t) = t^2 - 6t + 10. At what time t is the instantaneous velocity of the particle equal to zero?",
+    "choices": [
+      "A) t = 0",
+      "B) t = 1",
+      "C) t = 3",
+      "D) t = 6"
+    ],
+    "answer": 2,
+    "explanation": "The instantaneous velocity is s'(t) = 2t - 6. Setting 2t - 6 = 0 gives t = 3. Choice A (t = 0) is a common mistake of plugging in zero rather than solving. Choice D (t = 6) results from using the coefficient 6 without dividing. Choice B (t = 1) may come from misreading or an algebraic error."
+  },
+  {
+    "id": "calc_u2_q240",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "definition of derivative",
+    "topicLabel": "Definition of the Derivative",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Using the limit definition of the derivative, which of the following represents f'(2) for f(x) = x^2 + 3x?",
+    "choices": [
+      "A) lim as h->0 of [(2+h)^2 + 3(2+h) - 10] / h",
+      "B) lim as h->0 of [(2+h)^2 + 3(2+h)] / h",
+      "C) lim as h->0 of [(2+h)^2 + 3h - 10] / h",
+      "D) lim as h->0 of [h^2 + 3h] / h"
+    ],
+    "answer": 0,
+    "explanation": "By definition, f'(2) = lim as h->0 of [f(2+h) - f(2)] / h. Here f(2+h) = (2+h)^2 + 3(2+h) and f(2) = 4 + 6 = 10. So the expression is [(2+h)^2 + 3(2+h) - 10] / h. Choice B forgets to subtract f(2). Choice C fails to distribute the 3 correctly into 3(2+h). Choice D skips to a simplified form incorrectly by dropping constant terms prematurely."
+  },
+  {
+    "id": "calc_u2_q241",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "differentiability",
+    "topicLabel": "Differentiability",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let g(x) = |x - 4|. Which of the following statements is true?",
+    "choices": [
+      "A) g is differentiable at x = 4 because g is continuous at x = 4",
+      "B) g is not differentiable at x = 4 because g is not continuous at x = 4",
+      "C) g is not differentiable at x = 4 because the left-hand and right-hand derivatives at x = 4 are not equal",
+      "D) g is differentiable at x = 4 and g'(4) = 1"
+    ],
+    "answer": 2,
+    "explanation": "The function g(x) = |x - 4| has a corner at x = 4. The left-hand derivative is -1 and the right-hand derivative is +1, so the derivative does not exist there. Choice A incorrectly assumes continuity implies differentiability. Choice B is wrong because g is continuous at x = 4 (it just isn't differentiable). Choice D incorrectly claims the derivative exists and equals 1."
+  },
+  {
+    "id": "calc_u2_q242",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "power rule",
+    "topicLabel": "Power Rule",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = 3/x^4, what is f'(x)?",
+    "choices": [
+      "A) -12/x^5",
+      "B) 12/x^3",
+      "C) -12/x^3",
+      "D) -3/(4x^3)"
+    ],
+    "answer": 0,
+    "explanation": "Rewrite f(x) = 3x^(-4). By the power rule, f'(x) = 3(-4)x^(-5) = -12x^(-5) = -12/x^5. Choice B results from using a positive exponent and reducing the power incorrectly. Choice C uses the wrong resulting exponent of -3 instead of -5. Choice D applies a misremembered rule similar to dividing by the exponent instead of multiplying."
+  },
+  {
+    "id": "calc_u2_q243",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "constant rule",
+    "topicLabel": "Constant Rule",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let h(x) = 5x^3 - 7. What is h'(x)?",
+    "choices": [
+      "A) 15x^2 - 7",
+      "B) 15x^2",
+      "C) 5x^2",
+      "D) 15x^2 - 7x"
+    ],
+    "answer": 1,
+    "explanation": "Using the power rule on 5x^3 gives 15x^2, and the derivative of the constant -7 is 0. So h'(x) = 15x^2. Choice A is a common error where students keep the constant -7 in the derivative. Choice C forgets to multiply by the exponent 3. Choice D incorrectly treats -7 as -7x before differentiating."
+  },
+  {
+    "id": "calc_u2_q244",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "sum rule",
+    "topicLabel": "Sum Rule",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = x^(1/2) + x^(-1/2), what is f'(x)?",
+    "choices": [
+      "A) (1/2)x^(-1/2) - (1/2)x^(-3/2)",
+      "B) (1/2)x^(-1/2) + (1/2)x^(-3/2)",
+      "C) (1/2)x^(1/2) - (1/2)x^(-1/2)",
+      "D) -(1/2)x^(-1/2) - (1/2)x^(-3/2)"
+    ],
+    "answer": 0,
+    "explanation": "Using the power rule on each term: d/dx[x^(1/2)] = (1/2)x^(-1/2) and d/dx[x^(-1/2)] = (-1/2)x^(-3/2). By the sum rule, f'(x) = (1/2)x^(-1/2) - (1/2)x^(-3/2). Choice B uses a positive sign on the second term, forgetting that the exponent -1/2 produces a negative coefficient. Choice C reduces exponents incorrectly. Choice D makes both terms negative."
+  },
+  {
+    "id": "calc_u2_q245",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "trig derivatives",
+    "topicLabel": "Trigonometric Derivatives",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "What is the derivative of f(x) = 2sin(x) - 3cos(x)?",
+    "choices": [
+      "A) 2cos(x) + 3sin(x)",
+      "B) 2cos(x) - 3sin(x)",
+      "C) -2cos(x) + 3sin(x)",
+      "D) -2cos(x) - 3sin(x)"
+    ],
+    "answer": 0,
+    "explanation": "d/dx[sin(x)] = cos(x) and d/dx[cos(x)] = -sin(x). So f'(x) = 2cos(x) - 3(-sin(x)) = 2cos(x) + 3sin(x). Choice B forgets that the derivative of cos(x) is -sin(x), not sin(x). Choice C negates the derivative of sin(x). Choice D negates both terms incorrectly."
+  },
+  {
+    "id": "calc_u2_q246",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "higher order derivatives",
+    "topicLabel": "Higher-Order Derivatives",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = x^5 - 4x^3 + 2x, what is the third derivative f'''(x)?",
+    "choices": [
+      "A) 60x^2 - 24",
+      "B) 60x^2 - 24x",
+      "C) 20x^3 - 12x",
+      "D) 5x^4 - 12x^2 + 2"
+    ],
+    "answer": 0,
+    "explanation": "f'(x) = 5x^4 - 12x^2 + 2. f''(x) = 20x^3 - 24x. f'''(x) = 60x^2 - 24. Choice D is the first derivative, not the third. Choice C is the second derivative. Choice B incorrectly keeps an x on the constant term -24, as if the derivative of -24x were -24x instead of -24."
+  },
+  {
+    "id": "calc_u2_q247",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "average rate of change",
+    "topicLabel": "Average vs. Instantaneous Rate of Change",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The table below gives selected values of a differentiable function f:\n\nx:   0   2   4   6\nf(x): 3   8   11  18\n\nWhich of the following best approximates f'(4)?",
+    "choices": [
+      "A) 3/2",
+      "B) 5/2",
+      "C) 11/4",
+      "D) 7/2"
+    ],
+    "answer": 1,
+    "explanation": "The best approximation for f'(4) uses the symmetric difference quotient: [f(6) - f(2)] / (6 - 2) = (18 - 8) / 4 = 10/4 = 5/2. Choice A uses (f(4) - f(2))/(4 - 2) = 3/2, a one-sided estimate. Choice C uses f(4)/4 = 11/4, confusing average value with rate of change. Choice D uses (f(6) - f(4))/(6 - 4) = 7/2, the other one-sided estimate."
+  },
+  {
+    "id": "calc_u2_q248",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "average rate of change",
+    "topicLabel": "Average Rate of Change",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = x^3 - 2x. What is the average rate of change of f on the interval [1, 4]?",
+    "choices": [
+      "A) 19",
+      "B) 21",
+      "C) 56",
+      "D) 17"
+    ],
+    "answer": 0,
+    "explanation": "f(4) = 64 - 8 = 56 and f(1) = 1 - 2 = -1. Average rate of change = (56 - (-1))/(4 - 1) = 57/3 = 19. Choice B (21) comes from an arithmetic error such as computing f(1) = 0. Choice C (56) is just f(4), a common mistake of forgetting to subtract f(1) and divide. Choice D (17) results from miscalculating f(4) as 54."
+  },
+  {
+    "id": "calc_u2_q249",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "instantaneous rate of change",
+    "topicLabel": "Instantaneous Rate of Change",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The position of a particle is given by s(t) = t^2 - 5t + 6. At what time t does the instantaneous rate of change of position equal zero?",
+    "choices": [
+      "A) t = 5/2",
+      "B) t = 2",
+      "C) t = 3",
+      "D) t = 5"
+    ],
+    "answer": 0,
+    "explanation": "The instantaneous rate of change is s'(t) = 2t - 5. Setting 2t - 5 = 0 gives t = 5/2. Choices B and C (t = 2 and t = 3) are the roots of s(t) = 0, a common error where students set the original function equal to zero instead of the derivative. Choice D (t = 5) comes from forgetting to divide by 2."
+  },
+  {
+    "id": "calc_u2_q250",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "definition of derivative",
+    "topicLabel": "Definition of the Derivative",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Using the limit definition of the derivative, which of the following represents f'(3) for f(x) = x^2 + 1?",
+    "choices": [
+      "A) lim as h->0 of [(3+h)^2 + 1 - 10] / h",
+      "B) lim as h->0 of [(3+h)^2 + 1] / h",
+      "C) lim as h->0 of [(3+h)^2 - 10] / h",
+      "D) lim as h->0 of [h^2 + 1] / h"
+    ],
+    "answer": 0,
+    "explanation": "By definition, f'(3) = lim as h->0 of [f(3+h) - f(3)] / h. f(3+h) = (3+h)^2 + 1 and f(3) = 9 + 1 = 10. So f'(3) = lim as h->0 of [(3+h)^2 + 1 - 10] / h. Choice B forgets to subtract f(3). Choice C subtracts 10 but drops the +1 from f(3+h). Choice D incorrectly simplifies (3+h)^2 as h^2."
+  },
+  {
+    "id": "calc_u2_q251",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "power rule",
+    "topicLabel": "Power Rule",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = 4x^(5/2), what is f'(x)?",
+    "choices": [
+      "A) 10x^(3/2)",
+      "B) 10x^(5/2)",
+      "C) (5/2)x^(3/2)",
+      "D) 4x^(3/2)"
+    ],
+    "answer": 0,
+    "explanation": "Using the power rule, f'(x) = 4 * (5/2) * x^(5/2 - 1) = 10x^(3/2). Choice B keeps the exponent as 5/2 instead of reducing it by 1. Choice C forgets to multiply the coefficient 4 by 5/2. Choice D drops the 5/2 multiplier entirely and only reduces the exponent."
+  },
+  {
+    "id": "calc_u2_q252",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "constant rule",
+    "topicLabel": "Constant Rule",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let h(x) = 3x^4 + 7. What is h'(x)?",
+    "choices": [
+      "A) 12x^3",
+      "B) 12x^3 + 7",
+      "C) 3x^3",
+      "D) 12x^4"
+    ],
+    "answer": 0,
+    "explanation": "The derivative of 3x^4 is 12x^3 by the power rule, and the derivative of the constant 7 is 0. So h'(x) = 12x^3. Choice B incorrectly carries the constant 7 through the derivative. Choice C forgets to multiply the coefficient 3 by the exponent 4. Choice D applies the coefficient multiplication but forgets to reduce the exponent by 1."
+  },
+  {
+    "id": "calc_u2_q253",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "sum rule",
+    "topicLabel": "Sum Rule",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = 2x^3 - 5x^2 + 3x - 8, what is f'(1)?",
+    "choices": [
+      "A) -1",
+      "B) -8",
+      "C) 1",
+      "D) -3"
+    ],
+    "answer": 0,
+    "explanation": "f'(x) = 6x^2 - 10x + 3 by applying the power rule and sum rule term by term. f'(1) = 6(1) - 10(1) + 3 = 6 - 10 + 3 = -1. Choice B is f(1) = 2 - 5 + 3 - 8 = -8, confusing the function value with the derivative. Choice C (1) is a sign error. Choice D (-3) comes from omitting the constant term derivative incorrectly or arithmetic errors."
+  },
+  {
+    "id": "calc_u2_q254",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "trig derivatives",
+    "topicLabel": "Trigonometric Derivatives",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "What is the derivative of f(x) = 3sin(x) - 2cos(x)?",
+    "choices": [
+      "A) 3cos(x) + 2sin(x)",
+      "B) 3cos(x) - 2sin(x)",
+      "C) -3cos(x) + 2sin(x)",
+      "D) -3cos(x) - 2sin(x)"
+    ],
+    "answer": 0,
+    "explanation": "The derivative of sin(x) is cos(x) and the derivative of cos(x) is -sin(x). So f'(x) = 3cos(x) - 2(-sin(x)) = 3cos(x) + 2sin(x). Choice B forgets the negative in the derivative of cos(x), giving -2sin(x) instead of +2sin(x). Choice C reverses both signs. Choice D applies incorrect signs to both trig derivatives."
+  },
+  {
+    "id": "calc_u2_q255",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "higher order derivatives",
+    "topicLabel": "Higher Order Derivatives",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = x^5 - 3x^3 + 2x, what is f''(x)?",
+    "choices": [
+      "A) 20x^3 - 18x",
+      "B) 5x^4 - 9x^2 + 2",
+      "C) 60x^2 - 18",
+      "D) 20x^3 - 9x"
+    ],
+    "answer": 0,
+    "explanation": "First derivative: f'(x) = 5x^4 - 9x^2 + 2. Second derivative: f''(x) = 20x^3 - 18x. Choice B is the first derivative f'(x), not the second. Choice C is the third derivative f'''(x). Choice D results from incorrectly differentiating -9x^2 as -9x instead of -18x in the second derivative step."
+  },
+  {
+    "id": "calc_u2_q256",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "power rule",
+    "topicLabel": "Power Rule with Negative and Fractional Exponents",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If g(x) = 6/x^2 + sqrt(x), rewritten as g(x) = 6x^(-2) + x^(1/2), what is g'(x)?",
+    "choices": [
+      "A) -12x^(-3) + (1/2)x^(-1/2)",
+      "B) -12x^(-1) + (1/2)x^(-1/2)",
+      "C) -12x^(-3) + (1/2)x^(1/2)",
+      "D) 12x^(-3) + (1/2)x^(-1/2)"
+    ],
+    "answer": 0,
+    "explanation": "Applying the power rule: d/dx[6x^(-2)] = 6(-2)x^(-3) = -12x^(-3) and d/dx[x^(1/2)] = (1/2)x^(-1/2). So g'(x) = -12x^(-3) + (1/2)x^(-1/2). Choice B incorrectly reduces the exponent -2 by adding 1 to get -1 instead of -3. Choice C does not reduce the exponent on the square root term. Choice D has the wrong sign on the first term, forgetting the negative from (-2)."
+  },
+  {
+    "id": "calc_u2_q257",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "definition of derivative and differentiability",
+    "topicLabel": "Definition of Derivative and Differentiability",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = |x^2 - 4x + 3|. At how many points in the open interval (0, 4) is f not differentiable?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": 2,
+    "explanation": "First factor: x^2 - 4x + 3 = (x - 1)(x - 3), which equals zero at x = 1 and x = 3. The parabola is negative between x = 1 and x = 3, so the absolute value creates a cusp (corner) at both x = 1 and x = 3 where the graph reflects upward. At these points the left-hand and right-hand derivatives differ, so f is not differentiable. That gives 2 points. A) 0 is wrong because students may forget the absolute value creates corners. B) 1 is wrong if a student only identifies one root. D) 3 is wrong if a student incorrectly counts the vertex of the parabola at x = 2 as a point of non-differentiability, but f is smooth there since x^2 - 4x + 3 is strictly negative near x = 2 and the absolute value simply negates a smooth function."
+  },
+  {
+    "id": "calc_u2_q258",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "higher order derivatives with trig and power rule",
+    "topicLabel": "Higher Order Derivatives with Trig and Power Rule",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = x^3 * sin(x), what is f''(0)?",
+    "choices": [
+      "A) 0",
+      "B) 3",
+      "C) 6",
+      "D) -6"
+    ],
+    "answer": 0,
+    "explanation": "Using the product rule: f'(x) = 3x^2 * sin(x) + x^3 * cos(x). Applying the product rule again to each term: f''(x) = 6x * sin(x) + 3x^2 * cos(x) + 3x^2 * cos(x) - x^3 * sin(x) = 6x * sin(x) + 6x^2 * cos(x) - x^3 * sin(x). Evaluating at x = 0: f''(0) = 6(0)sin(0) + 6(0)^2 cos(0) - (0)^3 sin(0) = 0. B) 3 is a common error from misapplying the product rule once and evaluating incorrectly. C) 6 comes from students who compute 6x and plug in x = 1 instead of x = 0, or who forget that sin(0) = 0 and only keep the 6x term evaluated incorrectly. D) -6 is a sign error variant of the same misconception."
+  },
+  {
+    "id": "calc_u2_q259",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "definition of derivative and differentiability",
+    "topicLabel": "Definition of Derivative and Differentiability",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = |x^2 - 4x + 3|. At how many points in the open interval (0, 4) is f not differentiable?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": 2,
+    "explanation": "First factor the inside: x^2 - 4x + 3 = (x - 1)(x - 3). This expression equals zero at x = 1 and x = 3, and is negative on (1, 3). The absolute value creates a corner (cusp) wherever the inside expression changes sign, which occurs at x = 1 and x = 3. At these points the left-hand and right-hand derivatives differ, so f is not differentiable. That gives 2 points. A) 0 is wrong because students may forget the absolute value creates non-differentiable points. B) 1 is wrong if a student only identifies one root or thinks the parabola only crosses zero once. D) 3 is wrong if a student mistakenly includes the vertex of the parabola as a non-differentiable point."
+  },
+  {
+    "id": "calc_u2_q260",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "higher order derivatives with trig and power rule",
+    "topicLabel": "Higher Order Derivatives with Trig and Power Rule",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = x^3 * sin(x), what is f''(0)?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 6",
+      "D) 3"
+    ],
+    "answer": 0,
+    "explanation": "Using the product rule: f'(x) = 3x^2 * sin(x) + x^3 * cos(x). Applying the product rule again to each term: f''(x) = 6x * sin(x) + 3x^2 * cos(x) + 3x^2 * cos(x) - x^3 * sin(x) = 6x * sin(x) + 6x^2 * cos(x) - x^3 * sin(x). Evaluating at x = 0: f''(0) = 6(0)sin(0) + 6(0)^2 * cos(0) - (0)^3 * sin(0) = 0. B) 1 is a common error from misapplying the product rule and evaluating cos(0) = 1 without the x-factors. C) 6 comes from students who drop the sin(x) and cos(x) factors and just differentiate x^3 twice to get 6x, then mistakenly evaluate at x = 1. D) 3 results from incorrectly computing only one derivative and evaluating."
+  },
+  {
+    "id": "calc_u2_q261",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "definition of derivative and differentiability",
+    "topicLabel": "Definition of Derivative and Differentiability",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = |x^2 - 4x + 3|. At how many points in the open interval (0, 4) is f not differentiable?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": 2,
+    "explanation": "First factor: x^2 - 4x + 3 = (x - 1)(x - 3). This expression equals zero at x = 1 and x = 3, and is negative between them. The absolute value creates corner points (cusps) wherever the inside expression changes sign, which occurs at x = 1 and x = 3. At these points the left-hand and right-hand derivatives differ, so f is not differentiable. Students who choose 0 may forget about the absolute value. Students who choose 1 may only find one root. Students who choose 3 may incorrectly count the vertex of the parabola as a non-differentiable point."
+  },
+  {
+    "id": "calc_u2_q262",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "higher order derivatives with trig and power rule",
+    "topicLabel": "Higher Order Derivatives with Trig Functions",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = x^3 * sin(x), what is f''(0)?",
+    "choices": [
+      "A) 0",
+      "B) 6",
+      "C) 3",
+      "D) -6"
+    ],
+    "answer": 0,
+    "explanation": "Using the product rule: f'(x) = 3x^2 * sin(x) + x^3 * cos(x). Applying the product rule again to each term: f''(x) = 6x * sin(x) + 3x^2 * cos(x) + 3x^2 * cos(x) - x^3 * sin(x) = 6x * sin(x) + 6x^2 * cos(x) - x^3 * sin(x). Evaluating at x = 0: f''(0) = 6(0)sin(0) + 6(0)^2 cos(0) - (0)^3 sin(0) = 0. Students who choose 6 may incorrectly differentiate only the x^3 part and get 6x, evaluating that at x = 0 as 6 by confusing it with f'''(0) of x^3 alone. Students who choose 3 may make an error in the product rule by dropping a term."
+  },
+  {
+    "id": "calc_u3_q266",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "chain rule",
+    "topicLabel": "chain rule",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Find the derivative of f(x) = (3x + 1)^5.",
+    "choices": [
+      "A) 15(3x + 1)^4",
+      "B) 5(3x + 1)^4",
+      "C) 15(3x + 1)^5",
+      "D) 3(3x + 1)^4"
+    ],
+    "answer": 0,
+    "explanation": "Using the chain rule, f'(x) = 5(3x + 1)^4 * 3 = 15(3x + 1)^4. Choice B forgets to multiply by the derivative of the inner function (3). Choice C keeps the exponent as 5 instead of reducing it. Choice D uses 3 instead of 5 * 3 = 15, confusing the chain rule factor with the coefficient."
+  },
+  {
+    "id": "calc_u3_q267",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "inverse trig derivatives",
+    "topicLabel": "inverse trig derivatives",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "What is the derivative of y = arctan(x)?",
+    "choices": [
+      "A) 1/(1 + x^2)",
+      "B) 1/sqrt(1 - x^2)",
+      "C) -1/(1 + x^2)",
+      "D) -1/sqrt(1 - x^2)"
+    ],
+    "answer": 0,
+    "explanation": "The derivative of arctan(x) is 1/(1 + x^2). Choice B is the derivative of arcsin(x), a common confusion between inverse trig derivatives. Choice C incorrectly includes a negative sign, which students may recall from the derivative of arccos(x). Choice D is the derivative of arccos(x), mixing up both the formula and the sign."
+  },
+  {
+    "id": "calc_u3_q268",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "chain rule",
+    "topicLabel": "Chain Rule",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = sin(3x^2 + 1), what is f'(x)?",
+    "choices": [
+      "A) 6x cos(3x^2 + 1)",
+      "B) cos(3x^2 + 1)",
+      "C) 6x sin(3x^2 + 1)",
+      "D) -6x cos(3x^2 + 1)"
+    ],
+    "answer": 0,
+    "explanation": "Using the chain rule, f'(x) = cos(3x^2 + 1) * d/dx(3x^2 + 1) = cos(3x^2 + 1) * 6x = 6x cos(3x^2 + 1). Choice B forgets the inner derivative. Choice C keeps sin instead of switching to cos. Choice D incorrectly introduces a negative sign."
+  },
+  {
+    "id": "calc_u3_q269",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "implicit differentiation",
+    "topicLabel": "Implicit Differentiation",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Given x^2 + xy + y^2 = 7, find dy/dx.",
+    "choices": [
+      "A) -(2x + y)/(x + 2y)",
+      "B) (2x + y)/(x + 2y)",
+      "C) -(2x)/(2y)",
+      "D) -(2x + 1)/(1 + 2y)"
+    ],
+    "answer": 0,
+    "explanation": "Differentiating implicitly: 2x + y + x(dy/dx) + 2y(dy/dx) = 0. The product rule on xy gives y + x(dy/dx). Solving: dy/dx(x + 2y) = -(2x + y), so dy/dx = -(2x + y)/(x + 2y). Choice B has the wrong sign. Choice C ignores the xy term's product rule. Choice D treats y and x in the xy term as constants when differentiating."
+  },
+  {
+    "id": "calc_u3_q270",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "inverse trig derivatives",
+    "topicLabel": "Inverse Trig Derivatives",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "What is the derivative of f(x) = arctan(4x)?",
+    "choices": [
+      "A) 4/(1 + 16x^2)",
+      "B) 1/(1 + 16x^2)",
+      "C) 4/(1 + 4x^2)",
+      "D) -4/(1 + 16x^2)"
+    ],
+    "answer": 0,
+    "explanation": "The derivative of arctan(u) is 1/(1+u^2) * du/dx. Here u = 4x, so f'(x) = 1/(1+(4x)^2) * 4 = 4/(1+16x^2). Choice B forgets the chain rule factor of 4. Choice C fails to square the 4 inside (4x)^2. Choice D incorrectly introduces a negative sign, confusing arctan with another inverse trig function."
+  },
+  {
+    "id": "calc_u3_q271",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "chain rule",
+    "topicLabel": "Chain Rule with Composed Functions",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = e^(cos(x^2)), what is f'(x)?",
+    "choices": [
+      "A) -2x sin(x^2) * e^(cos(x^2))",
+      "B) e^(cos(x^2)) * (-sin(x^2))",
+      "C) 2x cos(x^2) * e^(cos(x^2))",
+      "D) -2x e^(sin(x^2))"
+    ],
+    "answer": 0,
+    "explanation": "Applying the chain rule twice: f'(x) = e^(cos(x^2)) * d/dx[cos(x^2)] = e^(cos(x^2)) * (-sin(x^2)) * 2x = -2x sin(x^2) e^(cos(x^2)). Choice B forgets the innermost derivative 2x. Choice C uses cos instead of -sin when differentiating cos. Choice D incorrectly changes cos to sin inside the exponential."
+  },
+  {
+    "id": "calc_u3_q272",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "implicit differentiation with inverse trig derivatives",
+    "topicLabel": "Implicit Differentiation with Inverse Trig Derivatives",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If arctan(xy) + y^2 = pi/4 + 1, find dy/dx at the point (1, 1).",
+    "choices": [
+      "A) -1/4",
+      "B) -1/6",
+      "C) -1/5",
+      "D) -3/4"
+    ],
+    "answer": 2,
+    "explanation": "Differentiate implicitly: d/dx[arctan(xy)] + d/dx[y^2] = 0. For arctan(xy), use the chain rule: 1/(1+(xy)^2) * (y + x dy/dx). For y^2: 2y dy/dx. At (1,1): 1/(1+1) * (1 + dy/dx) + 2 dy/dx = 0, so (1/2)(1 + dy/dx) + 2 dy/dx = 0. Expanding: 1/2 + (1/2) dy/dx + 2 dy/dx = 0, so 1/2 + (5/2) dy/dx = 0, giving dy/dx = -1/5. Choice A (-1/4) results from incorrectly computing 1/(1+xy) instead of 1/(1+(xy)^2). Choice B (-1/6) comes from using 2/(1+(xy)^2) in the derivative. Choice D (-3/4) results from forgetting the chain rule on arctan and only differentiating y + x dy/dx without the 1/(1+(xy)^2) factor."
+  },
+  {
+    "id": "calc_u3_q273",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "logarithmic differentiation with product and chain rules",
+    "topicLabel": "Logarithmic Differentiation",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let y = (x^2 + 1)^(sin x). Find dy/dx expressed in terms of x.",
+    "choices": [
+      "A) (x^2 + 1)^(sin x) * [cos(x) * ln(x^2 + 1) + 2x sin(x) / (x^2 + 1)]",
+      "B) sin(x) * (x^2 + 1)^(sin x - 1) * 2x",
+      "C) (x^2 + 1)^(sin x) * [cos(x) * ln(x^2 + 1) + sin(x) / (x^2 + 1)]",
+      "D) (x^2 + 1)^(sin x) * [cos(x) + 2x sin(x) / (x^2 + 1)]"
+    ],
+    "answer": 0,
+    "explanation": "Take ln of both sides: ln y = sin(x) * ln(x^2 + 1). Differentiate: (1/y) dy/dx = cos(x) * ln(x^2 + 1) + sin(x) * 2x/(x^2 + 1). Multiply both sides by y = (x^2 + 1)^(sin x) to get choice A. Choice B is wrong because it treats sin(x) as a constant exponent and uses the power rule, a very common error when the exponent is a function. Choice C forgets the chain rule on ln(x^2 + 1), differentiating it as 1/(x^2 + 1) instead of 2x/(x^2 + 1). Choice D drops the ln(x^2 + 1) factor from the first term, writing cos(x) instead of cos(x) * ln(x^2 + 1), which results from a product rule error."
+  },
+  {
+    "id": "calc_u4_q274",
+    "subject": "apcalc",
+    "unit": 4,
+    "topic": "mean value theorem",
+    "topicLabel": "Mean Value Theorem",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = x^2 on the interval [1, 3], what value of c satisfies the conclusion of the Mean Value Theorem?",
+    "choices": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "answer": 1,
+    "explanation": "The Mean Value Theorem states there exists c in (1, 3) such that f'(c) = (f(3) - f(1))/(3 - 1). We have f(3) = 9, f(1) = 1, so (9 - 1)/(3 - 1) = 4. Since f'(x) = 2x, setting 2c = 4 gives c = 2. Choice A (c = 1) is an endpoint and not in the open interval. Choice C (c = 3) is the other endpoint. Choice D (c = 4) results from confusing the slope value with c itself."
+  },
+  {
+    "id": "calc_u4_q275",
+    "subject": "apcalc",
+    "unit": 4,
+    "topic": "linearization",
+    "topicLabel": "Linearization",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "What is the linearization L(x) of f(x) = sqrt(x) at a = 25?",
+    "choices": [
+      "A) L(x) = 5 + (1/10)(x - 25)",
+      "B) L(x) = 5 + (1/5)(x - 25)",
+      "C) L(x) = 5 + 10(x - 25)",
+      "D) L(x) = 25 + (1/10)(x - 25)"
+    ],
+    "answer": 0,
+    "explanation": "The linearization formula is L(x) = f(a) + f'(a)(x - a). Here f(25) = 5 and f'(x) = 1/(2*sqrt(x)), so f'(25) = 1/(2*5) = 1/10. Thus L(x) = 5 + (1/10)(x - 25). Choice B uses f'(25) = 1/5, a common error from forgetting the factor of 2 in the derivative. Choice C uses f'(25) = 10, confusing 2*sqrt(25) with 1/(2*sqrt(25)). Choice D uses 25 instead of sqrt(25) for f(a)."
+  },
+  {
+    "id": "calc_u5_q277",
+    "subject": "apcalc",
+    "unit": 5,
+    "topic": "inflection points",
+    "topicLabel": "inflection points",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f be a twice-differentiable function. The second derivative is given by f''(x) = x^2(x - 3)(x + 1). How many inflection points does f have?",
+    "choices": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "answer": 1,
+    "explanation": "Inflection points occur where f''(x) changes sign. Setting f''(x) = x^2(x - 3)(x + 1) = 0 gives x = 0, x = 3, and x = -1. Testing intervals: for x < -1, f'' is positive; for -1 < x < 0, f'' is negative (sign change at x = -1); for 0 < x < 3, f'' is still negative (no sign change at x = 0 because x^2 does not change sign); for x > 3, f'' is positive (sign change at x = 3). So f'' changes sign at x = -1 and x = 3 only, giving 2 inflection points. A common mistake is choosing 3 (option C) by counting all zeros of f'' including x = 0, but x^2 is always non-negative so there is no sign change there. Choosing 1 (option A) may result from only checking one side, and 4 (option D) may come from miscounting intervals."
+  },
+  {
+    "id": "calc_u6_q279",
+    "subject": "apcalc",
+    "unit": 6,
+    "topic": "net change theorem and FTC part 2",
+    "topicLabel": "Net Change Theorem and FTC Part 2",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Water flows into a tank at a rate of R(t) = 4t - t^2 gallons per minute for 0 <= t <= 5, where R(t) < 0 indicates water flowing out. If the tank contains 10 gallons at t = 0, at what time t does the tank have the most water?",
+    "choices": [
+      "A) t = 2",
+      "B) t = 4",
+      "C) t = 5",
+      "D) t = 0"
+    ],
+    "answer": 1,
+    "explanation": "The amount of water at time t is W(t) = 10 + integral from 0 to t of (4s - s^2) ds. To maximize, set R(t) = 0: 4t - t^2 = t(4 - t) = 0, so t = 0 or t = 4. R(t) > 0 on (0,4) and R(t) < 0 on (4,5), so water flows in until t = 4 and flows out after. By the first derivative test (W'(t) = R(t) changes from positive to negative at t = 4), the maximum occurs at t = 4. Choice A (t=2) is the vertex of the rate function (maximum rate), a common mistake of maximizing the rate instead of the accumulation. Choice C (t=5) is the endpoint but water has been draining from t=4 to t=5. Choice D (t=0) is wrong since water flows in immediately after t=0."
+  },
+  {
+    "id": "calc_u6_q280",
+    "subject": "apcalc",
+    "unit": 6,
+    "topic": "Riemann sums and definite integrals",
+    "topicLabel": "Riemann Sums and Definite Integrals",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A function f is continuous and concave down on [1, 5]. Using four subintervals of equal width, which of the following must be true?",
+    "choices": [
+      "A) Left Riemann sum > Trapezoidal sum > integral from 1 to 5 of f(x) dx",
+      "B) Trapezoidal sum < integral from 1 to 5 of f(x) dx < Midpoint sum",
+      "C) Left Riemann sum > integral from 1 to 5 of f(x) dx > Right Riemann sum",
+      "D) Midpoint sum < integral from 1 to 5 of f(x) dx < Trapezoidal sum"
+    ],
+    "answer": 1,
+    "explanation": "For a concave down function, the trapezoidal rule underestimates the integral because the trapezoids cut below the curve, while the midpoint rule overestimates because the tangent line at the midpoint lies above the curve. So Trapezoidal sum < integral < Midpoint sum, which is choice B. Choice A is wrong because we cannot determine whether the left Riemann sum is greater than the integral without knowing if f is increasing or decreasing. Choice C is wrong for the same reason — concavity alone does not determine the relationship of left and right sums to the integral. Choice D reverses the trapezoidal and midpoint relationships, a common student error of confusing concave up and concave down behavior."
+  },
+  {
+    "id": "calc_u6_q281",
+    "subject": "apcalc",
+    "unit": 6,
+    "topic": "net change theorem and antiderivatives",
+    "topicLabel": "Net Change Theorem and Antiderivatives",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Water flows into a tank at a rate of R(t) = 4t - t^2 gallons per minute for 0 <= t <= 4, and flows out at a constant rate of 2 gallons per minute. If the tank contains 10 gallons at t = 0, at what time t does the tank have the maximum amount of water?",
+    "choices": [
+      "A) t = 2",
+      "B) t = 2 + sqrt(2)",
+      "C) t = 4",
+      "D) t = 2 - sqrt(2)"
+    ],
+    "answer": 1,
+    "explanation": "The net rate of change of water in the tank is R(t) - 2 = 4t - t^2 - 2 = -(t^2 - 4t + 2). The amount of water is maximized when the net rate equals zero: t^2 - 4t + 2 = 0. By the quadratic formula, t = (4 +/- sqrt(16 - 8))/2 = 2 +/- sqrt(2). Since t = 2 - sqrt(2) approximately 0.586 makes the net rate change from negative to positive (net rate is negative just before), and t = 2 + sqrt(2) approximately 3.414 makes the net rate change from positive to negative, the maximum occurs at t = 2 + sqrt(2). Choice A is wrong because students may set R(t) = 0 or find the vertex of the inflow rate rather than the net rate. Choice C is wrong because students may assume the endpoint is the maximum. Choice D gives the other root where the net rate changes from negative to positive, which is actually a minimum of the water level."
+  },
+  {
+    "id": "calc_u7_q283",
+    "subject": "apcalc",
+    "unit": 7,
+    "topic": "u-substitution indefinite",
+    "topicLabel": "u-substitution indefinite",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex",
+    "question": "Find \\int 2x \\cos(x^2)\\, dx.",
+    "choices": [
+      "A) \\sin(x^2) + C",
+      "B) -\\sin(x^2) + C",
+      "C) \\cos(x^2) + C",
+      "D) 2\\sin(x^2) + C"
+    ],
+    "answer": 0,
+    "explanation": "Let u = x^2, so du = 2x dx. The integral becomes ∫cos(u) du = sin(u) + C = sin(x^2) + C. Choice B is wrong because students sometimes incorrectly apply a negative sign as they would with the derivative of cos. Choice C is wrong because students may confuse integration of cos with leaving it unchanged. Choice D is wrong because students may mistakenly keep the factor of 2 instead of recognizing it is absorbed into du."
+  },
+  {
+    "id": "calc_u7_q284",
+    "subject": "apcalc",
+    "unit": 7,
+    "topic": "u-substitution definite",
+    "topicLabel": "u-substitution definite",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Evaluate the definite integral from 0 to 2 of x * e^(x^2) dx.",
+    "choices": [
+      "A) (1/2)(e^4 - 1)",
+      "B) e^4 - 1",
+      "C) (1/2)e^4",
+      "D) 2(e^4 - 1)"
+    ],
+    "answer": 0,
+    "explanation": "Let u = x^2, so du = 2x dx, meaning x dx = du/2. When x = 0, u = 0; when x = 2, u = 4. The integral becomes (1/2) * integral from 0 to 4 of e^u du = (1/2)(e^4 - e^0) = (1/2)(e^4 - 1). Choice B is wrong because it omits the 1/2 factor from the substitution. Choice C is wrong because it forgets to subtract the lower bound evaluation e^0 = 1. Choice D is wrong because it multiplies by 2 instead of 1/2, a common error when solving for du."
+  },
+  {
+    "id": "calc_u7_q285",
+    "subject": "apcalc",
+    "unit": 7,
+    "topic": "long division",
+    "topicLabel": "long division",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Find the indefinite integral of (x^2 + 3) / (x + 1) dx.",
+    "choices": [
+      "A) (x^2)/2 - x + 4 ln|x + 1| + C",
+      "B) (x^2)/2 + x + 4 ln|x + 1| + C",
+      "C) (x^2)/2 - x + 2 ln|x + 1| + C",
+      "D) x^2 - x + 4 ln|x + 1| + C"
+    ],
+    "answer": 0,
+    "explanation": "Perform polynomial long division: (x^2 + 3) / (x + 1) = x - 1 + 4/(x + 1). Integrating term by term: integral of x dx = x^2/2, integral of -1 dx = -x, integral of 4/(x + 1) dx = 4 ln|x + 1|. So the answer is (x^2)/2 - x + 4 ln|x + 1| + C. Choice B has +x instead of -x, a sign error in the long division quotient. Choice C uses 2 instead of 4 for the remainder, reflecting an arithmetic error in the division. Choice D has x^2 instead of x^2/2, forgetting to apply the power rule correctly when integrating x."
+  },
+  {
+    "id": "calc_u7_q286",
+    "subject": "apcalc",
+    "unit": 7,
+    "topic": "completing the square",
+    "topicLabel": "completing the square",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Evaluate the indefinite integral of 1 / (x^2 + 6x + 13) dx.",
+    "choices": [
+      "A) (1/2) arctan((x + 3)/2) + C",
+      "B) arctan((x + 3)/2) + C",
+      "C) (1/2) arctan((x + 3)/4) + C",
+      "D) (1/4) arctan((x + 3)/2) + C"
+    ],
+    "answer": 0,
+    "explanation": "Complete the square: x^2 + 6x + 13 = (x + 3)^2 + 4. The integral becomes integral of 1/((x + 3)^2 + 4) dx. Using the formula integral of 1/(u^2 + a^2) du = (1/a) arctan(u/a) + C with u = x + 3 and a = 2, we get (1/2) arctan((x + 3)/2) + C. Choice B forgets the 1/a = 1/2 factor out front. Choice C incorrectly uses a^2 = 4 instead of a = 2 in the denominator of the arctan argument. Choice D uses 1/a^2 = 1/4 instead of 1/a = 1/2 as the leading coefficient."
+  },
+  {
+    "id": "calc_u8_q288",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "area between curves",
+    "topicLabel": "area between curves",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "What is the area of the region enclosed by y = x^2 and y = x for 0 <= x <= 1?",
+    "choices": [
+      "A) 1/6",
+      "B) 1/3",
+      "C) 1/2",
+      "D) 2/3"
+    ],
+    "answer": 0,
+    "explanation": "The area is the integral from 0 to 1 of (x - x^2) dx = [x^2/2 - x^3/3] from 0 to 1 = 1/2 - 1/3 = 1/6. Choice B (1/3) results from forgetting to subtract one function and only integrating x^2. Choice C (1/2) comes from only integrating x. Choice D (2/3) comes from adding 1/2 and 1/3 instead of subtracting."
+  },
+  {
+    "id": "calc_u8_q290",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "area between curves",
+    "topicLabel": "Area Between Curves",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": true,
+    "format": "text",
+    "question": "Find the area of the region enclosed by \\( y = x^2 \\) and \\( y = 2x \\).",
+    "choices": [
+      "A) \\(\\frac{4}{3}\\)",
+      "B) \\(\\frac{8}{3}\\)",
+      "C) \\(\\frac{2}{3}\\)",
+      "D) \\(4\\)"
+    ],
+    "answer": 0,
+    "explanation": "The curves intersect where x^2 = 2x, so x = 0 and x = 2. The area is the integral from 0 to 2 of (2x - x^2) dx = [x^2 - x^3/3] from 0 to 2 = (4 - 8/3) = 4/3. Choice B (8/3) results from forgetting to subtract one curve from the other or doubling. Choice C (2/3) comes from a sign or algebra error. Choice D (4) results from integrating only 2x without subtracting x^2."
+  },
+  {
+    "id": "calc_u8_q291",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes disc method",
+    "topicLabel": "Volumes Using the Disc Method",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": true,
+    "format": "text",
+    "question": "The region bounded by \\( y = \\sqrt{x} \\), \\( y = 0 \\), and \\( x = 4 \\) is revolved about the x-axis. What is the volume of the resulting solid?",
+    "choices": [
+      "A) \\(8\\pi\\)",
+      "B) \\(4\\pi\\)",
+      "C) \\(16\\pi\\)",
+      "D) \\(\\frac{16\\pi}{3}\\)"
+    ],
+    "answer": 0,
+    "explanation": "Using the disc method, V = pi * integral from 0 to 4 of (sqrt(x))^2 dx = pi * integral from 0 to 4 of x dx = pi * [x^2/2] from 0 to 4 = pi * 8 = 8pi. Choice B (4pi) comes from forgetting to square the radius or an integration error. Choice C (16pi) comes from not dividing by 2 during integration. Choice D (16pi/3) results from incorrectly using x^(3/2) as the integrand."
+  },
+  {
+    "id": "calc_u8_q292",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes washer method",
+    "topicLabel": "Volumes Using the Washer Method",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": true,
+    "format": "text",
+    "question": "The region bounded by \\( y = x \\) and \\( y = x^2 \\) is revolved about the x-axis. Which integral represents the volume of the solid?",
+    "choices": [
+      "A) \\(\\pi \\int_0^1 (x^2 - x^4)\\, dx\\)",
+      "B) \\(\\pi \\int_0^1 (x - x^2)^2\\, dx\\)",
+      "C) \\(\\pi \\int_0^1 (x^2 - x^4)^2\\, dx\\)",
+      "D) \\(2\\pi \\int_0^1 x(x - x^2)\\, dx\\)"
+    ],
+    "answer": 0,
+    "explanation": "The washer method gives V = pi * integral of (R^2 - r^2) dx where R = x (outer) and r = x^2 (inner) on [0,1]. So V = pi * integral from 0 to 1 of (x^2 - x^4) dx. Choice B incorrectly squares the difference (x - x^2)^2 instead of taking the difference of squares. Choice C squares the already-squared terms. Choice D is the shell method setup, which would be used for revolution about the y-axis."
+  },
+  {
+    "id": "calc_u8_q293",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes shell method",
+    "topicLabel": "Volumes Using the Shell Method",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": true,
+    "format": "text",
+    "question": "Using the shell method, find the volume of the solid generated by revolving the region bounded by \\( y = x^2 \\), \\( y = 0 \\), and \\( x = 1 \\) about the y-axis.",
+    "choices": [
+      "A) \\(\\frac{\\pi}{2}\\)",
+      "B) \\(\\frac{2\\pi}{3}\\)",
+      "C) \\(\\pi\\)",
+      "D) \\(\\frac{\\pi}{3}\\)"
+    ],
+    "answer": 0,
+    "explanation": "Using the shell method: V = 2pi * integral from 0 to 1 of x * x^2 dx = 2pi * integral from 0 to 1 of x^3 dx = 2pi * [x^4/4] from 0 to 1 = 2pi * (1/4) = pi/2. Choice B (2pi/3) comes from integrating x * x instead of x * x^2 (using the wrong height). Choice C (pi) comes from forgetting the 1/4 factor. Choice D (pi/3) results from using the disc method formula incorrectly."
+  },
+  {
+    "id": "calc_u8_q294",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "arc length",
+    "topicLabel": "Arc Length",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": true,
+    "format": "text",
+    "question": "Which integral gives the arc length of \\( y = \\frac{x^3}{3} \\) from \\( x = 0 \\) to \\( x = 1 \\)?",
+    "choices": [
+      "A) \\(\\int_0^1 \\sqrt{1 + x^4}\\, dx\\)",
+      "B) \\(\\int_0^1 \\sqrt{1 + x^6}\\, dx\\)",
+      "C) \\(\\int_0^1 \\sqrt{1 + x^3}\\, dx\\)",
+      "D) \\(\\int_0^1 (1 + x^4)\\, dx\\)"
+    ],
+    "answer": 0,
+    "explanation": "Arc length = integral of sqrt(1 + (dy/dx)^2) dx. Here dy/dx = x^2, so (dy/dx)^2 = x^4. The integral is integral from 0 to 1 of sqrt(1 + x^4) dx. Choice B uses x^6, which would come from squaring x^3 instead of x^2. Choice C uses x^3, forgetting to square the derivative. Choice D forgets the square root in the arc length formula."
+  },
+  {
+    "id": "calc_u8_q295",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "area between curves",
+    "topicLabel": "Area Between Curves (Horizontal)",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": true,
+    "format": "text",
+    "question": "Find the area of the region enclosed by \\( x = y^2 \\) and \\( x = 4 - y^2 \\).",
+    "choices": [
+      "A) \\(\\frac{16\\sqrt{2}}{3}\\)",
+      "B) \\(\\frac{8\\sqrt{2}}{3}\\)",
+      "C) \\(\\frac{32}{3}\\)",
+      "D) \\(8\\)"
+    ],
+    "answer": 0,
+    "explanation": "Setting y^2 = 4 - y^2 gives y^2 = 2, so y = ±sqrt(2). The area is integral from -sqrt(2) to sqrt(2) of [(4 - y^2) - y^2] dy = integral of (4 - 2y^2) dy = [4y - 2y^3/3] from -sqrt(2) to sqrt(2) = 2[4sqrt(2) - 2(2sqrt(2))/3] = 2[4sqrt(2) - 4sqrt(2)/3] = 2[8sqrt(2)/3] = 16sqrt(2)/3. Choice B comes from only integrating from 0 to sqrt(2) and forgetting to double. Choice C (32/3) incorrectly uses y = ±2 as bounds. Choice D (8) comes from a simplified estimate without proper integration."
+  },
+  {
+    "id": "calc_u8_q296",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes disc method",
+    "topicLabel": "Volumes Disc Method about y-axis",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": true,
+    "format": "text",
+    "question": "The region bounded by \\( y = x^3 \\), \\( x = 0 \\), and \\( y = 8 \\) is revolved about the y-axis. What is the volume of the resulting solid?",
+    "choices": [
+      "A) \\(\\frac{96\\pi}{5}\\)",
+      "B) \\(\\frac{48\\pi}{5}\\)",
+      "C) \\(32\\pi\\)",
+      "D) \\(\\frac{128\\pi}{7}\\)"
+    ],
+    "answer": 0,
+    "explanation": "Revolving about the y-axis, we use the disc method with x as a function of y: x = y^(1/3). V = pi * integral from 0 to 8 of [y^(1/3)]^2 dy = pi * integral from 0 to 8 of y^(2/3) dy = pi * [y^(5/3)/(5/3)] from 0 to 8 = pi * (3/5) * 8^(5/3) = pi * (3/5) * 32 = 96pi/5. Choice B (48pi/5) comes from a factor-of-2 error. Choice C (32pi) forgets the 3/5 coefficient. Choice D (128pi/7) uses the wrong exponent in integration, treating it as y^(6/7) or similar."
+  },
+  {
+    "id": "calc_u8_q298",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes washer method",
+    "topicLabel": "Volumes Washer Method",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The region bounded by y = x^2 and y = 2x is revolved about the line y = -1. Which integral gives the volume of the resulting solid?",
+    "choices": [
+      "A) pi * integral from 0 to 2 of [(2x + 1)^2 - (x^2 + 1)^2] dx",
+      "B) pi * integral from 0 to 2 of [(2x)^2 - (x^2)^2] dx",
+      "C) pi * integral from 0 to 2 of [(2x - 1)^2 - (x^2 - 1)^2] dx",
+      "D) pi * integral from 0 to 2 of [(x^2 + 1)^2 - (2x + 1)^2] dx"
+    ],
+    "answer": 0,
+    "explanation": "The curves intersect at x = 0 and x = 2. When revolving about y = -1, the outer radius is the distance from y = -1 to the farther curve y = 2x, which is (2x - (-1)) = 2x + 1. The inner radius is the distance from y = -1 to the closer curve y = x^2, which is (x^2 - (-1)) = x^2 + 1. The volume is pi * integral of [(2x+1)^2 - (x^2+1)^2] dx. Choice B is wrong because it ignores the shift by revolving about y = 0 instead. Choice C subtracts 1 instead of adding 1, a common sign error when shifting axes. Choice D reverses outer and inner radii."
+  },
+  {
+    "id": "calc_u8_q299",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "area between curves",
+    "topicLabel": "Area Between Curves",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = sin(x) and g(x) = cos(x). What is the area of the region enclosed between f and g from x = pi/4 to x = 5pi/4?",
+    "choices": [
+      "A) 2 * sqrt(2)",
+      "B) sqrt(2)",
+      "C) 2",
+      "D) 4"
+    ],
+    "answer": 0,
+    "explanation": "On the interval [pi/4, 5pi/4], sin(x) >= cos(x). The area is the integral from pi/4 to 5pi/4 of [sin(x) - cos(x)] dx = [-cos(x) - sin(x)] evaluated from pi/4 to 5pi/4. At x = 5pi/4: -cos(5pi/4) - sin(5pi/4) = -(-sqrt(2)/2) - (-sqrt(2)/2) = sqrt(2). At x = pi/4: -cos(pi/4) - sin(pi/4) = -sqrt(2)/2 - sqrt(2)/2 = -sqrt(2). The area = sqrt(2) - (-sqrt(2)) = 2*sqrt(2). Choice B (sqrt(2)) results from dropping one of the endpoint evaluations. Choice C (2) comes from incorrectly integrating without the cosine term. Choice D (4) results from incorrectly doubling the answer or mishandling the absolute value over a wrong interval."
+  },
+  {
+    "id": "calc_u8_q302",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes washer method",
+    "topicLabel": "volumes washer method",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The region R is bounded by y = x^2 and y = 2x. What is the volume of the solid generated when R is revolved about the line y = -1?",
+    "choices": [
+      "A) pi * integral from 0 to 2 of [(2x+1)^2 - (x^2+1)^2] dx",
+      "B) pi * integral from 0 to 2 of [(2x)^2 - (x^2)^2] dx",
+      "C) pi * integral from 0 to 2 of [(x^2-1)^2 - (2x-1)^2] dx",
+      "D) pi * integral from 0 to 2 of [(2x-1)^2 - (x^2-1)^2] dx"
+    ],
+    "answer": 0,
+    "explanation": "The curves y = x^2 and y = 2x intersect at x = 0 and x = 2. When revolving about y = -1, the outer radius is the distance from y = -1 to the farther curve (y = 2x), giving R_outer = 2x - (-1) = 2x + 1. The inner radius is the distance from y = -1 to the closer curve (y = x^2), giving R_inner = x^2 - (-1) = x^2 + 1. The washer method yields V = pi * integral from 0 to 2 of [(2x+1)^2 - (x^2+1)^2] dx, which is choice A. Choice B is the common error of ignoring the shift to y = -1 entirely (revolving about y = 0 instead). Choice C incorrectly subtracts 1 instead of adding 1, as if the axis were y = 1. Choice D makes the same subtraction error and also reverses which function is the outer versus inner radius."
+  },
+  {
+    "id": "calc_u1_q303",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "types of discontinuity",
+    "topicLabel": "Types of Discontinuity",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = (x^2 - 4x + 3) / (x^2 - 1). Which of the following describes the discontinuities of f?",
+    "choices": [
+      "A) Removable discontinuity at x = 1 and vertical asymptote at x = -1",
+      "B) Vertical asymptotes at x = 1 and x = -1",
+      "C) Removable discontinuities at x = 1 and x = -1",
+      "D) Removable discontinuity at x = -1 and vertical asymptote at x = 1"
+    ],
+    "answer": 0,
+    "explanation": "Factor the numerator: x^2 - 4x + 3 = (x - 1)(x - 3). Factor the denominator: x^2 - 1 = (x - 1)(x + 1). The common factor (x - 1) cancels, leaving f(x) = (x - 3)/(x + 1) for x ≠ 1. At x = 1, the limit exists (equals -2/2 = -1) but f(1) is undefined, so there is a removable discontinuity. At x = -1, the simplified function has a nonzero numerator (-4) over zero, producing a vertical asymptote. Choice B is wrong because it treats both as vertical asymptotes, ignoring the cancellation. Choice C is wrong because x = -1 does not have a finite limit. Choice D reverses which point is removable and which is an asymptote."
+  },
+  {
+    "id": "calc_u1_q304",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "types of discontinuity",
+    "topicLabel": "Types of Discontinuity and Continuity",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = (x^2 - 4x + 3) / (x^2 - 5x + 6) for x != 3, and f(3) = k. For which value of k is f continuous at x = 3, and what type of discontinuity exists at x = 2?",
+    "choices": [
+      "A) k = 2 and x = 2 is a removable discontinuity",
+      "B) k = -2 and x = 2 is a vertical asymptote (infinite discontinuity)",
+      "C) k = 2 and x = 2 is a vertical asymptote (infinite discontinuity)",
+      "D) k = -2 and x = 2 is a removable discontinuity"
+    ],
+    "answer": 2,
+    "explanation": "Factor the numerator: x^2 - 4x + 3 = (x-1)(x-3). Factor the denominator: x^2 - 5x + 6 = (x-2)(x-3). The simplified form is (x-1)/(x-2) for x != 3. At x = 3: lim as x->3 of (x-1)/(x-2) = 2/1 = 2, so k = 2 makes f continuous at x = 3. At x = 2: the simplified function (x-1)/(x-2) has a non-zero numerator (2-1 = 1) and a zero denominator, producing a vertical asymptote (infinite discontinuity). Choice A is wrong because it incorrectly identifies x = 2 as removable - a common error when students see a factored form and assume all discontinuities from the original rational function are removable. Choice B has the wrong k value. Choice D has both errors."
+  },
+  {
+    "id": "calc_u1_q305",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "squeeze theorem",
+    "topicLabel": "Squeeze Theorem",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f be a function satisfying (x^2 - 4x + 4) <= f(x) <= (x^2 - 2x) for all x near x = 2 but not necessarily at x = 2. What is the limit of f(x) as x approaches 2?",
+    "choices": [
+      "A) 0",
+      "B) 2",
+      "C) Does not exist",
+      "D) -4"
+    ],
+    "answer": 0,
+    "explanation": "Evaluate both bounding functions at x = 2. The lower bound is (2)^2 - 4(2) + 4 = 4 - 8 + 4 = 0. The upper bound is (2)^2 - 2(2) = 4 - 4 = 0. Since both bounds approach 0 as x approaches 2, by the Squeeze Theorem, the limit of f(x) is 0. Choice B (2) comes from confusing the value x approaches with the limit value. Choice C is wrong because the Squeeze Theorem guarantees existence when both bounds converge to the same value. Choice D results from an algebra error such as evaluating -(2)^2 instead of (2)^2."
+  },
+  {
+    "id": "calc_u1_q306",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "types of discontinuity",
+    "topicLabel": "Types of Discontinuity and Continuity",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let g(x) = (x^3 - 8)/(x^2 - 4) for x not equal to 2, and g(2) = k. For which value of k is g continuous at x = 2, and what type of discontinuity exists if k is chosen incorrectly?",
+    "choices": [
+      "A) k = 3; otherwise a removable discontinuity",
+      "B) k = 3; otherwise a jump discontinuity, because the left- and right-hand limits differ at x = 2",
+      "C) k = 2; otherwise a removable discontinuity, because the limit as x approaches 2 equals 2",
+      "D) k = 3; otherwise an infinite discontinuity, because (x - 2) does not cancel from the denominator"
+    ],
+    "answer": 0,
+    "explanation": "Factor the numerator as (x - 2)(x^2 + 2x + 4) and the denominator as (x - 2)(x + 2). After canceling (x - 2), the simplified form is (x^2 + 2x + 4)/(x + 2). Evaluating at x = 2 gives (4 + 4 + 4)/(2 + 2) = 12/4 = 3. So the limit as x approaches 2 is 3, meaning k must equal 3 for continuity. If k is any other value, the two-sided limit still exists and equals 3, but g(2) does not equal 3, so the discontinuity is removable - not a jump or infinite discontinuity. Choice B is wrong because both one-sided limits equal 3, so there is no jump. Choice C is wrong because the limit equals 3, not 2. Choice D is wrong because the (x - 2) factor cancels completely from numerator and denominator, so there is no vertical asymptote and hence no infinite discontinuity. Only choice A correctly identifies both k = 3 and the removable nature of the discontinuity when k is chosen incorrectly."
+  },
+  {
+    "id": "calc_u1_q307",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "IVT",
+    "topicLabel": "Intermediate Value Theorem",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let h be a function defined on [-1, 3] where h(-1) = 5, h(1) = -2, h(3) = 4, and h is continuous on [-1, 1] but has a non-removable discontinuity at x = 1 from the right. A student claims the IVT guarantees a value c in (1, 3) such that h(c) = 1. Which statement is correct?",
+    "choices": [
+      "A) The claim is not justified because h is not guaranteed to be continuous on [1, 3]",
+      "B) The claim is justified because h(-1) = 5 > 1 and h(1) = -2 < 1, so a c exists in (-1, 1)",
+      "C) The claim is justified because h(1) = -2 < 1 < 4 = h(3) and h is defined on [1, 3]",
+      "D) The claim is justified because h is continuous on [-1, 3]"
+    ],
+    "answer": 0,
+    "explanation": "The IVT requires continuity on the closed interval in question. Since h has a non-removable discontinuity at x = 1 from the right, h is not continuous on [1, 3], so the IVT cannot be applied on that interval to guarantee h(c) = 1. Choice B correctly identifies a valid IVT application on [-1, 1] but answers a different question than what the student claimed (the student specified c in (1, 3), not (-1, 1)). Choice C ignores the continuity requirement entirely - having the right function values is necessary but not sufficient. Choice D is false because the problem explicitly states h has a non-removable discontinuity at x = 1."
+  },
+  {
+    "id": "calc_u1_q308",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "types of discontinuity",
+    "topicLabel": "Types of Discontinuity and Continuity",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = (x^2 - 4x + 3)/(x^2 - 5x + 6) for x != 1 and x != 2 and x != 3. If f(1) = 0 and f(2) is undefined, and f(3) = 5, at which x-value(s) does f have a removable discontinuity?",
+    "choices": [
+      "A) x = 3 only",
+      "B) x = 2 and x = 3",
+      "C) x = 1 and x = 3",
+      "D) x = 2 only"
+    ],
+    "answer": 0,
+    "explanation": "Factor: f(x) = (x-1)(x-3)/((x-2)(x-3)). For x != 3, this simplifies to (x-1)/(x-2). At x = 3, the limit is (3-1)/(3-2) = 2, which exists and is finite, but f(3) = 5 != 2, so x = 3 is a removable discontinuity. At x = 2, the simplified form (x-1)/(x-2) has a vertical asymptote (limit is +/- infinity), so x = 2 is a non-removable (infinite) discontinuity. At x = 1, the simplified function gives (1-1)/(1-2) = 0, and f(1) = 0, so f is actually continuous at x = 1. The correct answer is x = 3 only."
+  },
+  {
+    "id": "calc_u1_q309",
+    "subject": "apcalc",
+    "unit": 1,
+    "topic": "IVT",
+    "topicLabel": "Intermediate Value Theorem",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f be continuous on [0, 4]. Suppose f(0) = -3, f(2) = 5, and f(4) = 2. Let g(x) = f(x) - x. Which of the following is guaranteed by the Intermediate Value Theorem?",
+    "choices": [
+      "A) g has a zero on (0, 2) only",
+      "B) g has a zero on (2, 4) only",
+      "C) g has at least one zero on (0, 2) and at least one zero on (2, 4)",
+      "D) g has a zero on (0, 4) but the subinterval cannot be determined"
+    ],
+    "answer": 2,
+    "explanation": "Since f is continuous on [0,4], g(x) = f(x) - x is also continuous on [0,4]. Evaluate: g(0) = f(0) - 0 = -3, g(2) = f(2) - 2 = 3, g(4) = f(4) - 4 = -2. On [0,2]: g(0) = -3 < 0 and g(2) = 3 > 0, so by IVT there is at least one c in (0,2) where g(c) = 0. On [2,4]: g(2) = 3 > 0 and g(4) = -2 < 0, so by IVT there is at least one c in (2,4) where g(c) = 0. Therefore g has at least one zero in each subinterval. Students who only check one interval may choose A or B. Students who think IVT cannot specify subintervals choose D. The correct answer is C."
+  },
+  {
+    "id": "calc_u2_q310",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "higher order derivatives",
+    "topicLabel": "Higher Order Derivatives",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = 3x^5 - 2sin(x) + 7x, what is f''(x)?",
+    "choices": [
+      "A) 60x^3 + 2sin(x) + 7",
+      "B) 60x^3 + 2sin(x)",
+      "C) 60x^3 - 2sin(x)",
+      "D) 15x^4 - 2cos(x) + 7"
+    ],
+    "answer": 1,
+    "explanation": "First, find f'(x) = 15x^4 - 2cos(x) + 7. Then f''(x) = 60x^3 + 2sin(x). The derivative of -2cos(x) is 2sin(x), and the constant 7 differentiates to 0. Choice A (60x^3 + 2sin(x) + 7) is wrong because it keeps the constant 7 through both derivatives. Choice C (60x^3 - 2sin(x)) reflects a sign error where the student forgot that the derivative of -cos(x) is sin(x), not -sin(x). Choice D is f'(x), not f''(x) - a common mistake of stopping after only one differentiation."
+  },
+  {
+    "id": "calc_u2_q311",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "definition of derivative and differentiability",
+    "topicLabel": "Definition of Derivative and Differentiability",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = x^(1/3). Using the limit definition of the derivative, which of the following best describes f'(0)?",
+    "choices": [
+      "A) f'(0) = 0",
+      "B) f'(0) = 1/3",
+      "C) f'(0) does not exist because the limit approaches infinity",
+      "D) f'(0) does not exist because the left- and right-hand limits differ"
+    ],
+    "answer": 2,
+    "explanation": "Using the limit definition, f'(0) = lim(h->0) [h^(1/3) - 0]/h = lim(h->0) 1/h^(2/3). As h approaches 0, h^(2/3) approaches 0 from the positive side (since h^(2/3) is always nonneg), so 1/h^(2/3) approaches +infinity. The derivative does not exist because the limit is infinite, meaning the graph has a vertical tangent at x = 0. Choice A incorrectly assumes the cube root flattens out. Choice B results from applying the power rule without checking its validity at x = 0 (the power rule gives (1/3)x^(-2/3), which is undefined at x = 0). Choice D confuses this with a cusp where one-sided limits differ in sign; here both sides go to +infinity."
+  },
+  {
+    "id": "calc_u2_q312",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "higher order derivatives with trig and sum rule",
+    "topicLabel": "Higher Order Derivatives with Trig Functions",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = 3x^4 - sin(x), what is f'''(x)?",
+    "choices": [
+      "A) 72x - cos(x)",
+      "B) 72x + cos(x)",
+      "C) 36x^2 + sin(x)",
+      "D) 36x^2 - sin(x)"
+    ],
+    "answer": 1,
+    "explanation": "f(x) = 3x^4 - sin(x). First derivative: f'(x) = 12x^3 - cos(x). Second derivative: f''(x) = 36x^2 - (-sin(x)) = 36x^2 + sin(x). Third derivative: f'''(x) = 72x + cos(x). Choice A (72x - cos(x)) results from incorrectly keeping the negative sign through all trig derivatives, forgetting that the derivative of -sin(x) is -cos(x) and the derivative of -cos(x) is sin(x), not -sin(x). Choices C and D are the second derivative (correct and incorrect sign versions), a common error from stopping one step too early."
+  },
+  {
+    "id": "calc_u2_q313",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "average vs instantaneous rate of change",
+    "topicLabel": "Average vs Instantaneous Rate of Change",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let g(x) = x^3 - 6x. The average rate of change of g on [1, 4] equals the instantaneous rate of change of g at x = c for some c in (1, 4). What is the value of c?",
+    "choices": [
+      "A) c = sqrt(7)",
+      "B) c = 5/2",
+      "C) c = sqrt(3)",
+      "D) c = 3"
+    ],
+    "answer": 0,
+    "explanation": "Average rate of change on [1, 4]: [g(4) - g(1)]/(4 - 1) = [(64 - 24) - (1 - 6)]/3 = [40 - (-5)]/3 = 45/3 = 15. The instantaneous rate of change is g'(x) = 3x^2 - 6. Setting 3x^2 - 6 = 15 gives 3x^2 = 21, so x^2 = 7 and x = sqrt(7) (approximately 2.646, which is in (1, 4)). Choice B (5/2) comes from averaging the endpoints (1+4)/2, confusing the midpoint with the MVT value. Choice C (sqrt(3)) results from setting 3x^2 - 6 = 3, an arithmetic error. Choice D (c = 3) is a common guess from picking a convenient integer in the interval."
+  },
+  {
+    "id": "calc_u2_q314",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "definition of derivative and differentiability",
+    "topicLabel": "Definition of Derivative and Differentiability",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = x|x|. Using the limit definition of the derivative, which of the following is true about f'(0)?",
+    "choices": [
+      "A) f'(0) = 0",
+      "B) f'(0) = 1",
+      "C) f'(0) does not exist because f is not continuous at x = 0",
+      "D) f'(0) does not exist because the left- and right-hand limits of the difference quotient are not equal"
+    ],
+    "answer": 0,
+    "explanation": "f(x) = x|x| can be written as x^2 for x >= 0 and -x^2 for x < 0. The difference quotient at 0 is f(h)/h. For h > 0, f(h)/h = h^2/h = h -> 0. For h < 0, f(h)/h = -h^2/h = -h -> 0. Both one-sided limits equal 0, so f'(0) = 0. Choice B comes from confusing f with |x| and thinking the slope is 1. Choice C is wrong because f is continuous at 0. Choice D is a common misconception from students who assume absolute value functions are never differentiable at the critical point."
+  },
+  {
+    "id": "calc_u2_q315",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "definition of derivative and differentiability",
+    "topicLabel": "Definition of Derivative and Differentiability",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = x|x|. Using the limit definition of the derivative, which of the following is true about f'(0)?",
+    "choices": [
+      "A) f'(0) = 0",
+      "B) f'(0) = 1",
+      "C) f'(0) does not exist because f is not continuous at x = 0",
+      "D) f'(0) does not exist because the left- and right-hand limits of the difference quotient are not equal"
+    ],
+    "answer": 1,
+    "explanation": "f(x) = x|x| can be written as x^2 for x >= 0 and -x^2 for x < 0. The difference quotient from the right is h^2/h = h -> 0, and from the left is -h^2/h = -h -> 0. Both one-sided limits equal 0, so f'(0) = 0. Choice B comes from confusing f with |x| and thinking the slope is 1. Choice C is wrong because f is continuous. Choice D is a common misconception from students who assume absolute value functions are never differentiable at the critical point."
+  },
+  {
+    "id": "calc_u2_q316",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "average vs instantaneous rate of change",
+    "topicLabel": "Average vs Instantaneous Rate of Change",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let g(x) = x^3 - 6x^2 + 9x + 2. On the interval [0, 4], at how many values of c does the instantaneous rate of change equal the average rate of change over [0, 4]?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": 3,
+    "explanation": "The average rate of change is (g(4) - g(0))/(4 - 0). g(4) = 64 - 96 + 36 + 2 = 6 and g(0) = 2, so the average rate is (6 - 2)/4 = 1. The instantaneous rate is g'(x) = 3x^2 - 12x + 9. Setting 3x^2 - 12x + 9 = 1 gives 3x^2 - 12x + 8 = 0. The discriminant is 144 - 96 = 48 > 0, so there are two real solutions: x = (12 ± sqrt(48))/6 = 2 ± (2sqrt(3))/3, approximately 0.845 and 3.155. Both values lie in the open interval (0, 4), giving exactly 2 values of c in the open interval."
+  },
+  {
+    "id": "calc_u2_q317",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "definition of derivative and differentiability",
+    "topicLabel": "Definition of Derivative and Differentiability",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = |x^2 - 4x + 3|. At how many points in the open interval (0, 4) is f not differentiable?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": 2,
+    "explanation": "First factor the inside: x^2 - 4x + 3 = (x - 1)(x - 3). This expression equals zero at x = 1 and x = 3, and is negative between them. The absolute value creates a corner at each point where the inside changes sign and the derivative of the inside is nonzero. At x = 1, the derivative of the inside is 2(1) - 4 = -2 (nonzero), so there is a corner. At x = 3, the derivative of the inside is 2(3) - 4 = 2 (nonzero), so there is a corner. Thus f is not differentiable at exactly 2 points."
+  },
+  {
+    "id": "calc_u2_q318",
+    "subject": "apcalc",
+    "unit": 2,
+    "topic": "higher order derivatives with trig and power rule",
+    "topicLabel": "Higher Order Derivatives with Trig Functions",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = x^3 * sin(x), what is f''(0)?",
+    "choices": [
+      "A) 0",
+      "B) 3",
+      "C) 6",
+      "D) -6"
+    ],
+    "answer": 0,
+    "explanation": "Using the product rule: f'(x) = 3x^2 * sin(x) + x^3 * cos(x). Differentiating again: f''(x) = 6x * sin(x) + 3x^2 * cos(x) + 3x^2 * cos(x) + x^3 * (-sin(x)) = 6x * sin(x) + 6x^2 * cos(x) - x^3 * sin(x). Evaluating at x = 0: f''(0) = 0 + 0 - 0 = 0."
+  },
+  {
+    "id": "calc_u3_q319",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "chain rule",
+    "topicLabel": "Chain Rule",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "If f(x) = sin(3x^2 + 1), what is f'(x)?",
+    "choices": [
+      "A) 6x cos(3x^2 + 1)",
+      "B) cos(3x^2 + 1)",
+      "C) 6x sin(3x^2 + 1)",
+      "D) -6x cos(3x^2 + 1)"
+    ],
+    "answer": 0,
+    "explanation": "Using the chain rule, f'(x) = cos(3x^2 + 1) * d/dx(3x^2 + 1) = cos(3x^2 + 1) * 6x = 6x cos(3x^2 + 1). Choice B is wrong because it forgets the derivative of the inner function (a very common error). Choice C incorrectly keeps sin instead of changing to cos. Choice D has an incorrect negative sign, confusing the derivative of sin with that of cos."
+  },
+  {
+    "id": "calc_u3_q320",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "implicit differentiation",
+    "topicLabel": "Implicit Differentiation",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Given x^2 + xy + y^2 = 7, find dy/dx.",
+    "choices": [
+      "A) -(2x + y) / (x + 2y)",
+      "B) -(2x + y) / (2y)",
+      "C) (2x + y) / (x + 2y)",
+      "D) -(2x) / (x + 2y)"
+    ],
+    "answer": 0,
+    "explanation": "Differentiating implicitly: 2x + y + x(dy/dx) + 2y(dy/dx) = 0. The product rule on xy gives y + x(dy/dx). Collecting dy/dx terms: (x + 2y)(dy/dx) = -(2x + y), so dy/dx = -(2x + y)/(x + 2y). Choice B forgets the x(dy/dx) term from the product rule on xy, only accounting for 2y(dy/dx). Choice C has the wrong sign, forgetting the negative. Choice D omits the y term from the product rule differentiation of xy."
+  },
+  {
+    "id": "calc_u3_q321",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "inverse trig derivatives",
+    "topicLabel": "Inverse Trig Derivatives",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "What is the derivative of g(x) = arctan(4x)?",
+    "choices": [
+      "A) 1 / (1 + 16x^2)",
+      "B) 4 / (1 + 16x^2)",
+      "C) 4 / (1 + 4x^2)",
+      "D) 1 / (1 + 4x^2)"
+    ],
+    "answer": 1,
+    "explanation": "The derivative of arctan(u) is 1/(1 + u^2) * du/dx. Here u = 4x, so du/dx = 4 and u^2 = 16x^2. Thus g'(x) = 4/(1 + 16x^2). Choice A forgets the chain rule factor of 4. Choice C incorrectly squares only the coefficient (writing 4x^2 instead of 16x^2) while remembering the chain rule multiplier. Choice D makes both errors: forgetting the chain rule multiplier and not squaring properly."
+  },
+  {
+    "id": "calc_u3_q322",
+    "subject": "apcalc",
+    "unit": 3,
+    "topic": "quotient rule",
+    "topicLabel": "Quotient Rule",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let h(x) = (e^x) / (x^2 + 1). What is h'(0)?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) -1"
+    ],
+    "answer": 1,
+    "explanation": "Using the quotient rule: h'(x) = [(e^x)(x^2 + 1) - (e^x)(2x)] / (x^2 + 1)^2. At x = 0: numerator = (1)(1) - (1)(0) = 1, denominator = (1)^2 = 1, so h'(0) = 1. Choice A results from incorrectly thinking the numerator cancels to zero. Choice C comes from incorrectly computing the numerator as e^0 * (0 + 1) + e^0 * 0 = 2, confusing the subtraction in the quotient rule with addition (a common sign error). Choice D results from reversing the order in the quotient rule numerator, computing (2x)(e^x) - (x^2+1)(e^x)."
+  },
+  {
+    "id": "calc_u4_q323",
+    "subject": "apcalc",
+    "unit": 4,
+    "topic": "related rates",
+    "topicLabel": "Related Rates",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A conical tank has its vertex at the bottom. The radius of the base is 4 m and the height is 8 m. Water is being pumped into the tank at a rate of 2 cubic meters per minute. At the instant when the water depth is 4 m, what is the rate at which the water level is rising, in meters per minute?",
+    "choices": [
+      "A) 1/(2pi)",
+      "B) 2/pi",
+      "C) 1/(8pi)",
+      "D) 8/pi"
+    ],
+    "answer": 0,
+    "explanation": "By similar triangles, r/h = 4/8 = 1/2, so r = h/2. The volume of a cone is V = (1/3)pi*r^2*h = (1/3)pi*(h/2)^2*h = pi*h^3/12. Differentiating: dV/dt = (pi*h^2/4)(dh/dt). At h = 4 and dV/dt = 2: 2 = (pi*16/4)(dh/dt) = 4pi*(dh/dt), so dh/dt = 1/(2pi). Choice B (2/pi) results from forgetting the 1/3 in the cone volume formula. Choice C (1/(8pi)) results from an arithmetic error in which the student evaluates pi*h^2/4 at h=4 as 8pi instead of 4pi (e.g., computing 4^2/4 as 2 instead of 4). Choice D (8/pi) results from incorrectly differentiating the volume formula."
+  },
+  {
+    "id": "calc_u4_q324",
+    "subject": "apcalc",
+    "unit": 4,
+    "topic": "mean value theorem",
+    "topicLabel": "Mean Value Theorem and Rolle's Theorem",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let f(x) = x^3 - 6x^2 + 9x + 1 on the interval [0, 4]. The Mean Value Theorem guarantees the existence of at least one c in (0, 4) where f'(c) equals the average rate of change. How many values of c in (0, 4) satisfy the conclusion of the MVT?",
+    "choices": [
+      "A) 0",
+      "B) 1",
+      "C) 2",
+      "D) 3"
+    ],
+    "answer": 2,
+    "explanation": "First compute the average rate of change: f(4) = 64 - 96 + 36 + 1 = 5 and f(0) = 1, so [f(4)-f(0)]/(4-0) = 4/4 = 1. Now f'(x) = 3x^2 - 12x + 9. Setting f'(c) = 1 gives 3c^2 - 12c + 9 = 1, or 3c^2 - 12c + 8 = 0. Using the quadratic formula: c = (12 +/- sqrt(144 - 96))/6 = (12 +/- sqrt(48))/6 = 2 +/- (2sqrt(3))/3. Since 2sqrt(3)/3 is approximately 1.155, both c = 2 - 1.155 = 0.845 and c = 2 + 1.155 = 3.155 lie in (0, 4), giving 2 values. Choice B (1) is a common error from students who assume the MVT guarantees exactly one value. Choice A is wrong because the MVT guarantees at least one. Choice D is wrong because a cubic derivative yields a quadratic equation with at most 2 solutions."
+  },
+  {
+    "id": "calc_u6_q325",
+    "subject": "apcalc",
+    "unit": 6,
+    "topic": "FTC part 1",
+    "topicLabel": "FTC part 1",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let g(x) = the integral from 2 to x^2 of sqrt(t^3 + 1) dt. What is g'(x)?",
+    "choices": [
+      "A) sqrt(x^6 + 1) * 2x",
+      "B) sqrt(x^3 + 1) * 2x",
+      "C) sqrt(x^6 + 1)",
+      "D) 2x * sqrt(x^2 + 1)"
+    ],
+    "answer": 0,
+    "explanation": "By FTC Part 1 combined with the chain rule, g'(x) = sqrt((x^2)^3 + 1) * d/dx(x^2) = sqrt(x^6 + 1) * 2x. Choice B incorrectly substitutes x instead of x^2 into t^3. Choice C forgets the chain rule factor of 2x. Choice D incorrectly simplifies (x^2)^3 as x^2 instead of x^6."
+  },
+  {
+    "id": "calc_u6_q326",
+    "subject": "apcalc",
+    "unit": 6,
+    "topic": "average value",
+    "topicLabel": "average value",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "What is the average value of f(x) = 3x^2 - 6x on the interval [0, 4]?",
+    "choices": [
+      "A) 4",
+      "B) 16",
+      "C) 8",
+      "D) 12"
+    ],
+    "answer": 0,
+    "explanation": "The average value is (1/(4-0)) * integral from 0 to 4 of (3x^2 - 6x) dx. The antiderivative is x^3 - 3x^2. Evaluating: (4^3 - 3(4^2)) - (0) = 64 - 48 = 16. Then (1/4)(16) = 4. Choice B (16) is the value of the definite integral without dividing by the interval length. Choice C (8) results from dividing by 2 instead of 4. Choice D (12) may come from an antiderivative error such as forgetting the coefficient when integrating."
+  },
+  {
+    "id": "calc_u6_q327",
+    "subject": "apcalc",
+    "unit": 6,
+    "topic": "FTC part 1",
+    "topicLabel": "FTC part 1",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let g(x) = the integral from 0 to x^3 of sqrt(1 + t^2) dt. What is g'(x)?",
+    "choices": [
+      "A) 3x^2 * sqrt(1 + x^6)",
+      "B) sqrt(1 + x^6)",
+      "C) 3x^2 * sqrt(1 + x^2)",
+      "D) x^3 * sqrt(1 + x^6)"
+    ],
+    "answer": 0,
+    "explanation": "By FTC Part 1 combined with the chain rule, g'(x) = sqrt(1 + (x^3)^2) * d/dx(x^3) = 3x^2 * sqrt(1 + x^6). Choice B forgets the chain rule factor of 3x^2. Choice C substitutes x instead of x^3 into the integrand. Choice D incorrectly uses x^3 as the chain rule derivative instead of 3x^2."
+  },
+  {
+    "id": "calc_u6_q328",
+    "subject": "apcalc",
+    "unit": 6,
+    "topic": "average value",
+    "topicLabel": "average value",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The average value of f(x) = 6x^2 on the interval [1, 4] is equal to f(c) for some c in [1, 4]. What is the value of c?",
+    "choices": [
+      "A) -20/3 gallons",
+      "B) 25/3 gallons",
+      "C) -25/6 gallons",
+      "D) 5/6 gallons"
+    ],
+    "answer": 0,
+    "explanation": "Evaluate the integral from 0 to 5 of (4t - t^2 - 3) dt. Finding the antiderivative gives [2t^2 - t^3/3 - 3t]. Evaluating from 0 to 5: (2(25) - 125/3 - 3(5)) - 0 = (50 - 125/3 - 15) = 35 - 125/3 = (105 - 125)/3 = -20/3 gallons. Choice B (25/3 gallons) results from only considering the inflow term and forgetting the outflow. Choice C (-25/6 gallons) comes from a plausible arithmetic error during evaluation. Choice D (5/6 gallons) results from an arithmetic error in combining terms."
+  },
+  {
+    "id": "calc_u6_q329",
+    "subject": "apcalc",
+    "unit": 6,
+    "topic": "FTC part 1 and average value",
+    "topicLabel": "FTC Part 1 and Average Value",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let g(x) = (1/(2x)) * integral from 0 to 2x of sin(t^2) dt. Which of the following expressions equals g'(x)?",
+    "choices": [
+      "A) (1/(2x)) * [2sin(4x^2) - (1/(2x)) * integral from 0 to 2x of sin(t^2) dt]",
+      "B) sin(4x^2)",
+      "C) (1/x) * sin(4x^2)",
+      "D) (sin(4x^2) - g(x)) / x"
+    ],
+    "answer": 3,
+    "explanation": "g(x) = (1/(2x)) * integral from 0 to 2x of sin(t^2) dt. Using the product rule: g'(x) = (-1/(2x^2)) * integral from 0 to 2x of sin(t^2) dt + (1/(2x)) * d/dx[integral from 0 to 2x of sin(t^2) dt]. By FTC Part 1 with the chain rule, d/dx[integral from 0 to 2x of sin(t^2) dt] = sin((2x)^2) * 2 = 2sin(4x^2). So g'(x) = -g(x)/x + (1/(2x))*2sin(4x^2) = -g(x)/x + sin(4x^2)/x = (sin(4x^2) - g(x))/x, which is choice D. Choice B forgets the product rule entirely. Choice C only accounts for the FTC part without the quotient/product rule. Choice A is a common partial simplification error where the factor of 2 from the chain rule is not properly combined."
+  },
+  {
+    "id": "calc_u6_q330",
+    "subject": "apcalc",
+    "unit": 6,
+    "topic": "FTC part 1 and average value",
+    "topicLabel": "FTC Part 1 and Average Value",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let g(x) = (1/(2x)) * the integral from 0 to 2x of sin(t^2) dt. Which of the following expressions equals g'(x)?",
+    "choices": [
+      "A) (1/(2x)) * [2sin(4x^2) - (1/(2x)) * the integral from 0 to 2x of sin(t^2) dt]",
+      "B) sin(4x^2)",
+      "C) 2sin(4x^2) - (1/(2x)) * the integral from 0 to 2x of sin(t^2) dt",
+      "D) (1/(2x)) * [2sin(4x^2)] - (1/(4x^2)) * the integral from 0 to 2x of sin(t^2) dt"
+    ],
+    "answer": 3,
+    "explanation": "g(x) = (1/(2x)) * integral from 0 to 2x of sin(t^2) dt. Using the quotient rule with numerator F(x) = integral from 0 to 2x of sin(t^2) dt and denominator 2x: g'(x) = [F'(x)(2x) - F(x)(2)] / (4x^2). By FTC Part 1 with the chain rule, F'(x) = sin((2x)^2) * 2 = 2sin(4x^2). So g'(x) = [2sin(4x^2)(2x) - 2F(x)] / (4x^2) = [4x sin(4x^2) - 2F(x)] / (4x^2) = (1/(2x))[2sin(4x^2)] - (1/(4x^2)) * integral from 0 to 2x of sin(t^2) dt, which is choice D. Choice A incorrectly uses 1/(2x) instead of 1/(4x^2) on the second term (wrong quotient rule). Choice B forgets the quotient rule entirely and only applies FTC. Choice C incorrectly applies the product rule without proper scaling, omitting the 1/(2x) factor on the derivative term and dropping the denominator structure entirely."
+  },
+  {
+    "id": "calc_u7_q331",
+    "subject": "apcalc",
+    "unit": 7,
+    "topic": "long division",
+    "topicLabel": "long division",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Find the integral of (x^3 + 2x^2 - 5) / (x^2 + 1) dx.",
+    "choices": [
+      "A) (1/2)x^2 + 2x - (1/2)ln|x^2+1| - 2arctan(x) - 5arctan(x) + C",
+      "B) (1/2)x^2 + 2x - (1/2)ln(x^2+1) - 7arctan(x) + C",
+      "C) (1/2)x^2 + 2x + (1/2)ln(x^2+1) - 5arctan(x) + C",
+      "D) (1/2)x^2 + 2x - (1/2)ln(x^2+1) - 5arctan(x) + C"
+    ],
+    "answer": 0,
+    "explanation": "Perform polynomial long division: x^3 + 2x^2 - 5 divided by x^2 + 1. First, x^3/(x^2+1) gives quotient x with remainder -x. Then (2x^2 - x - 5)/(x^2+1): 2x^2/(x^2+1) gives quotient 2 with remainder -x - 7. So the integrand becomes x + 2 + (-x - 7)/(x^2+1) = x + 2 - x/(x^2+1) - 7/(x^2+1). Integrating: (1/2)x^2 + 2x - (1/2)ln(x^2+1) - 7arctan(x) + C. Choice B is correct. Choice D has -5arctan(x) instead of -7arctan(x), which comes from using the original constant -5 without properly completing the long division remainder. Choice C has a sign error on the ln term. Choice A separates the arctan terms incorrectly and double-counts."
+  },
+  {
+    "id": "calc_u7_q332",
+    "subject": "apcalc",
+    "unit": 7,
+    "topic": "completing the square",
+    "topicLabel": "completing the square",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Evaluate the integral of 1 / (x^2 + 6x + 13) dx.",
+    "choices": [
+      "A) (1/2)arctan((x+3)/2) + C",
+      "B) arctan((x+3)/2) + C",
+      "C) (1/4)arctan((x+3)/4) + C",
+      "D) (1/2)ln|x^2+6x+13| + C"
+    ],
+    "answer": 0,
+    "explanation": "Complete the square: x^2 + 6x + 13 = (x+3)^2 + 4. The integral becomes integral of 1/((x+3)^2 + 4) dx. Using the formula integral of 1/(u^2+a^2) du = (1/a)arctan(u/a) + C with u = x+3 and a = 2, we get (1/2)arctan((x+3)/2) + C. Choice A is correct. Choice B forgets the 1/a factor out front, a very common mistake when students recall the arctan formula as just arctan(u/a). Choice C incorrectly uses a=4 instead of a=2 (confusing a^2 with a). Choice D incorrectly applies an ln rule as if the numerator were the derivative of the denominator, which it is not."
+  },
+  {
+    "id": "calc_u8_q333",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes disc method",
+    "topicLabel": "Volumes - Disc Method",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The region bounded by y = sqrt(x), y = 0, and x = 4 is revolved about the x-axis. What is the volume of the resulting solid?",
+    "choices": [
+      "A) 8pi",
+      "B) 4pi",
+      "C) 16pi",
+      "D) 8pi/3"
+    ],
+    "answer": 0,
+    "explanation": "Using the disc method, V = pi * integral from 0 to 4 of (sqrt(x))^2 dx = pi * integral from 0 to 4 of x dx = pi * [x^2/2] from 0 to 4 = pi * (16/2) = 8pi. Choice B (4pi) results from forgetting to square the radius or making an integration error. Choice C (16pi) comes from omitting the 1/2 when integrating x. Choice D (8pi/3) comes from incorrectly integrating sqrt(x) without squaring it first, computing pi * integral of x^(1/2) dx."
+  },
+  {
+    "id": "calc_u8_q334",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes washer method",
+    "topicLabel": "Volumes - Washer Method",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The region bounded by y = x^2 and y = x is revolved about the x-axis. What is the volume of the resulting solid?",
+    "choices": [
+      "A) 3pi/10",
+      "B) 2pi/15",
+      "C) pi/6",
+      "D) pi/5"
+    ],
+    "answer": 1,
+    "explanation": "The curves intersect at x = 0 and x = 1. For 0 <= x <= 1, x >= x^2, so the outer radius is R = x and the inner radius is r = x^2. V = pi * integral from 0 to 1 of (x^2 - x^4) dx = pi * [x^3/3 - x^5/5] from 0 to 1 = pi * (1/3 - 1/5) = pi * (2/15) = 2pi/15. Choice A (3pi/10) results from incorrectly computing 1/2 - 1/5. Choice C (pi/6) comes from integrating the area formula (x - x^2) instead of the washer formula. Choice D (pi/5) comes from only using the inner radius squared term."
+  },
+  {
+    "id": "calc_u8_q335",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes shell method",
+    "topicLabel": "Volumes - Shell Method",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Using the shell method, find the volume of the solid formed by revolving the region bounded by y = x^2, y = 0, and x = 2 about the y-axis.",
+    "choices": [
+      "A) 8pi",
+      "B) 4pi",
+      "C) 16pi/3",
+      "D) 32pi/5"
+    ],
+    "answer": 0,
+    "explanation": "Using the shell method with shells parallel to the y-axis: V = 2pi * integral from 0 to 2 of x * (x^2) dx = 2pi * integral from 0 to 2 of x^3 dx = 2pi * [x^4/4] from 0 to 2 = 2pi * (16/4) = 2pi * 4 = 8pi. Choice B (4pi) comes from forgetting the factor of 2 in the shell formula. Choice C (16pi/3) comes from incorrectly integrating x^2 instead of x^3. Choice D (32pi/5) results from using the disc method formula incorrectly or integrating x^4 by mistake."
+  },
+  {
+    "id": "calc_u8_q336",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "arc length",
+    "topicLabel": "Arc Length",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Which integral gives the arc length of y = (2/3)x^(3/2) from x = 0 to x = 3?",
+    "choices": [
+      "A) integral from 0 to 3 of sqrt(1 + x) dx",
+      "B) integral from 0 to 3 of sqrt(1 + x^3) dx",
+      "C) integral from 0 to 3 of sqrt(1 + (4/9)x^3) dx",
+      "D) integral from 0 to 3 of (1 + x) dx"
+    ],
+    "answer": 0,
+    "explanation": "The arc length formula is L = integral of sqrt(1 + (dy/dx)^2) dx. Here dy/dx = (2/3)(3/2)x^(1/2) = x^(1/2). So (dy/dx)^2 = x. The integrand is sqrt(1 + x). Choice B incorrectly cubes x, possibly from squaring x^(3/2) instead of x^(1/2). Choice C comes from forgetting to simplify the derivative and squaring (2/3)x^(3/2) directly. Choice D forgets the square root entirely."
+  },
+  {
+    "id": "calc_u8_q337",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes disc method",
+    "topicLabel": "Volumes - Disc Method (about y-axis)",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The region bounded by y = x^3, x = 0, and y = 8 is revolved about the y-axis. Using the disc method, what is the volume?",
+    "choices": [
+      "A) 96pi/5",
+      "B) 24pi",
+      "C) 128pi/7",
+      "D) 16pi"
+    ],
+    "answer": 0,
+    "explanation": "Solving y = x^3 for x gives x = y^(1/3). When revolving about the y-axis, the disc has radius r = y^(1/3). V = pi * integral from 0 to 8 of (y^(1/3))^2 dy = pi * integral from 0 to 8 of y^(2/3) dy = pi * [y^(5/3)/(5/3)] from 0 to 8 = pi * (3/5) * 8^(5/3) = pi * (3/5) * 32 = 96pi/5. Choice B (24pi) comes from incorrectly computing 8^(5/3) or the antiderivative. Choice C (128pi/7) results from using the wrong exponent in integration. Choice D (16pi) comes from forgetting to square the radius."
+  },
+  {
+    "id": "calc_u8_q338",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "motion problems with integrals",
+    "topicLabel": "Motion Problems - Displacement vs Distance",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A particle has velocity v(t) = 3t^2 - 12 for 0 <= t <= 3. If the particle starts at position s(0) = 5, what is the position of the particle at t = 3?",
+    "choices": [
+      "A) -4",
+      "B) 4",
+      "C) -9",
+      "D) 14"
+    ],
+    "answer": 0,
+    "explanation": "s(3) = s(0) + integral from 0 to 3 of v(t) dt = 5 + integral from 0 to 3 of (3t^2 - 12) dt = 5 + [t^3 - 12t] from 0 to 3 = 5 + (27 - 36) - 0 = 5 + (-9) = -4. Note that the net signed displacement (the integral of velocity) equals -9, meaning the particle moved a net of 9 units in the negative direction over [0, 3]; this is the signed value and should not be confused with total distance traveled. Choice B (4) comes from using the absolute value of the displacement instead of the signed displacement. Choice C (-9) comes from forgetting to add the initial position s(0) = 5. Choice D (14) comes from incorrectly adding 9 instead of subtracting."
+  },
+  {
+    "id": "calc_u8_q339",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes washer method",
+    "topicLabel": "Volumes - Washer Method (non-axis)",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Find the area of the region bounded by x = y^2 and x = y + 2.",
+    "choices": [
+      "A) 9/2",
+      "B) 7/2",
+      "C) 9/4",
+      "D) 3"
+    ],
+    "answer": 0,
+    "explanation": "First, find the intersections of x = y^2 and x = y + 2 by setting y^2 = y + 2, which gives y^2 - y - 2 = 0, or (y - 2)(y + 1) = 0. So y = -1 and y = 2. The area is the integral from -1 to 2 of (right curve minus left curve) dy = integral from -1 to 2 of [(y + 2) - y^2] dy. Evaluating: [y^2/2 + 2y - y^3/3] from -1 to 2 = (4/2 + 4 - 8/3) - (1/2 - 2 + 1/3) = (2 + 4 - 8/3) - (1/2 - 2 + 1/3) = (6 - 8/3) - (-3/2 + 1/3) = (18/3 - 8/3) - (-9/6 + 2/6) = 10/3 - (-7/6) = 10/3 + 7/6 = 20/6 + 7/6 = 27/6 = 9/2. Choice B subtracts incorrectly, Choice C halves the correct answer, and Choice D results from an arithmetic error in evaluation."
+  },
+  {
+    "id": "calc_u8_q340",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "area between curves",
+    "topicLabel": "area between curves",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "What is the area of the region enclosed by y = x^2 and y = 2x?",
+    "choices": [
+      "A) 4/3",
+      "B) 2/3",
+      "C) 8/3",
+      "D) 1/3"
+    ],
+    "answer": 0,
+    "explanation": "The curves intersect where x^2 = 2x, so x = 0 and x = 2. The area is the integral from 0 to 2 of (2x - x^2) dx = [x^2 - x^3/3] from 0 to 2 = (4 - 8/3) = 4/3. Choice B (2/3) results from integrating from 0 to 1 only or a factor error. Choice C (8/3) comes from forgetting to subtract one curve from the other or doubling. Choice D (1/3) results from reversing the curves and getting a sign error combined with a limits mistake."
+  },
+  {
+    "id": "calc_u8_q341",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes washer method",
+    "topicLabel": "volumes washer method",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The region bounded by y = x and y = x^2 is revolved about the x-axis. Which integral gives the volume of the resulting solid?",
+    "choices": [
+      "A) pi * integral from 0 to 1 of (x^2 - x^4) dx",
+      "B) pi * integral from 0 to 1 of (x - x^2)^2 dx",
+      "C) pi * integral from 0 to 1 of (x^4 - x^2) dx",
+      "D) 2*pi * integral from 0 to 1 of x(x - x^2) dx"
+    ],
+    "answer": 0,
+    "explanation": "Using the washer method, the outer radius is R = x and the inner radius is r = x^2 (since x >= x^2 on [0,1]). The volume is pi * integral from 0 to 1 of (R^2 - r^2) dx = pi * integral from 0 to 1 of (x^2 - x^4) dx. Choice B incorrectly squares the difference of the functions rather than taking the difference of the squares - a very common student error. Choice C reverses outer and inner radii, which would give a negative value. Choice D is the shell method setup, which would apply if revolving about the y-axis, not the x-axis."
+  },
+  {
+    "id": "calc_u8_q342",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "motion problems with integrals",
+    "topicLabel": "motion problems with integrals",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A particle moves along the x-axis with velocity v(t) = t^2 - 4t + 3 for 0 <= t <= 4. What is the total distance traveled by the particle over this interval?",
+    "choices": [
+      "A) 4",
+      "B) 4/3",
+      "C) 28/3",
+      "D) 20/3"
+    ],
+    "answer": 0,
+    "explanation": "First find where v(t) = 0: t^2 - 4t + 3 = (t-1)(t-3) = 0 at t = 1 and t = 3. Total distance = integral from 0 to 1 of |v(t)| dt + integral from 1 to 3 of |v(t)| dt + integral from 3 to 4 of |v(t)| dt. On [0,1], v(t) > 0: integral = [t^3/3 - 2t^2 + 3t] from 0 to 1 = 1/3 - 2 + 3 = 4/3. On [1,3], v(t) < 0: integral of |v| = -[t^3/3 - 2t^2 + 3t] from 1 to 3 = -(9 - 18 + 9 - 1/3 + 2 - 3) = -(-4/3) = 4/3. On [3,4], v(t) > 0: integral = [t^3/3 - 2t^2 + 3t] from 3 to 4 = (64/3 - 32 + 12) - (9 - 18 + 9) = 4/3. Total = 4/3 + 4/3 + 4/3 = 4. Choice B (4/3) is the displacement (net change in position), a common error from not using absolute value. Choice C (28/3) results from incorrectly computing the antiderivative. Choice D (20/3) comes from a sign error in one of the subintervals."
+  },
+  {
+    "id": "calc_u8_q343",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes washer method",
+    "topicLabel": "volumes washer method",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Let R be the region bounded by y = x^2 and y = 2x. What is the volume of the solid generated when R is revolved about the line y = 5?",
+    "choices": [
+      "A) pi * integral from 0 to 2 of [(5 - x^2)^2 - (5 - 2x)^2] dx",
+      "B) pi * integral from 0 to 2 of [(5 - 2x)^2 - (5 - x^2)^2] dx",
+      "C) pi * integral from 0 to 2 of [(2x - x^2)^2] dx",
+      "D) pi * integral from 0 to 4 of [(5 - sqrt(y))^2 - (5 - y/2)^2] dy"
+    ],
+    "answer": 0,
+    "explanation": "The curves intersect at x = 0 and x = 2. When revolving about y = 5 (above the region), the outer radius is the distance from y = 5 to the farther curve (y = x^2, which is smaller, so 5 - x^2 is larger) and the inner radius is the distance to the closer curve (y = 2x, giving 5 - 2x). Choice B reverses outer and inner radii - a common error when students confuse which curve is closer to the axis of revolution. Choice C incorrectly uses the area between curves formula squared without accounting for the axis of revolution. Choice D sets up the integral in y but incorrectly identifies the outer and inner radii."
+  },
+  {
+    "id": "calc_u8_q344",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "motion problems with integrals",
+    "topicLabel": "motion problems with integrals",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A particle moves along the x-axis with velocity v(t) = t^2 - 5t + 4 for t >= 0. At time t = 0, the particle is at position x = 2. What is the position of the particle when it is farthest to the left for 0 <= t <= 5?",
+    "choices": [
+      "A) 2 + integral from 0 to 4 of (t^2 - 5t + 4) dt",
+      "B) integral from 0 to 4 of (t^2 - 5t + 4) dt",
+      "C) 2 + integral from 1 to 4 of (t^2 - 5t + 4) dt",
+      "D) 2 - integral from 1 to 4 of |t^2 - 5t + 4| dt"
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is choice C: 2 + integral from 1 to 4 of (t^2 - 5t + 4) dt. v(t) = t^2 - 5t + 4 = (t - 1)(t - 4). The velocity is negative on (1, 4), meaning the particle moves left during this interval. The particle is farthest to the left at t = 4, where it stops moving left. To find the position at t = 4, we start from the initial position x(0) = 2 and add the net displacement from t = 1 to t = 4 (the interval during which the particle moves left). Since v(t) is positive on (0, 1), the particle first moves right and returns to a local reference, but the net displacement starting from t = 1 accounts for the leftward motion. The position at t = 4 is 2 + integral from 1 to 4 of (t^2 - 5t + 4) dt. Choice A incorrectly starts the integral at t = 0, including rightward displacement from (0,1) that offsets the leftward motion. Choice B forgets the initial position x(0) = 2. Choice D incorrectly uses the absolute value, which would compute total distance rather than net displacement."
+  },
+  {
+    "id": "calc_u8_q345",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes washer method",
+    "topicLabel": "Volumes - Washer Method",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The region R is bounded by y = x^2 and y = 2x. What is the volume of the solid generated when R is revolved about the line y = -1?",
+    "choices": [
+      "A) pi * integral from 0 to 2 of [(2x+1)^2 - (x^2+1)^2] dx",
+      "B) pi * integral from 0 to 2 of [(2x)^2 - (x^2)^2] dx",
+      "C) pi * integral from 0 to 2 of [(x^2-1)^2 - (2x-1)^2] dx",
+      "D) pi * integral from 0 to 2 of [(2x-1)^2 - (x^2-1)^2] dx"
+    ],
+    "answer": 0,
+    "explanation": "When revolving about y = -1, the outer radius is the distance from y = 2x to y = -1, which is (2x + 1), and the inner radius is the distance from y = x^2 to y = -1, which is (x^2 + 1). On [0,2], y = 2x >= y = x^2, so y = 2x is closer to the axis of revolution y = -1. The inner radius is (2x + 1) (shorter distance) and the outer radius is (x^2 + 1) (longer distance). Since (x^2 + 1) > (2x + 1) on (0,2), the volume is pi * integral from 0 to 2 of [(2x+1)^2 - (x^2+1)^2] dx. Choice B is wrong because it ignores the shift to y = -1. Choice C reverses outer and inner radii and subtracts 1 instead of adding 1. Choice D subtracts 1 instead of adding 1, a common error when students confuse the direction of the shift for a line below the x-axis."
+  },
+  {
+    "id": "calc_u8_q346",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "area between curves",
+    "topicLabel": "Area Between Curves",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The curves y = sin(x) and y = cos(x) intersect at x = pi/4 and x = 5pi/4. Which expression gives the area of the region enclosed between these two curves from x = pi/4 to x = 5pi/4?",
+    "choices": [
+      "A) integral from pi/4 to 5pi/4 of [cos(x) - sin(x)] dx",
+      "B) integral from pi/4 to 5pi/4 of [sin(x) - cos(x)] dx",
+      "C) integral from pi/4 to 5pi/4 of [sin(x) + cos(x)] dx",
+      "D) integral from pi/4 to pi of [sin(x) - cos(x)] dx + integral from pi to 5pi/4 of [cos(x) - sin(x)] dx"
+    ],
+    "answer": 1,
+    "explanation": "On the interval (pi/4, 5pi/4), sin(x) >= cos(x), so the area is the integral of [sin(x) - cos(x)] dx from pi/4 to 5pi/4. Choice A reverses the order of subtraction, yielding a negative value. Choice C incorrectly adds the functions instead of subtracting. Choice D unnecessarily splits the integral and reverses the subtraction on the second piece, incorrectly assuming the top and bottom curves switch at x = pi when they do not switch until x = 5pi/4."
+  },
+  {
+    "id": "calc_u8_q347",
+    "subject": "apcalc",
+    "unit": 8,
+    "topic": "volumes washer method",
+    "topicLabel": "volumes washer method",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The region R is bounded by y = x^2 and y = 2x. What is the volume of the solid generated when R is revolved about the line y = -1?",
+    "choices": [
+      "A) 34/3",
+      "B) 20/3",
+      "C) 26/3",
+      "D) 32/3"
+    ],
+    "answer": 2,
+    "explanation": "The curves y = x^2 and y = 2x intersect at x = 0 and x = 2. On [0,2], y = 2x is above y = x^2. When revolving about y = -1, the outer radius is R = 2x - (-1) = 2x + 1 and the inner radius is r = x^2 - (-1) = x^2 + 1. The volume is V = pi * integral from 0 to 2 of [(2x+1)^2 - (x^2+1)^2] dx = pi * integral from 0 to 2 of [4x^2 + 4x + 1 - x^4 - 2x^2 - 1] dx = pi * integral from 0 to 2 of [-x^4 + 2x^2 + 4x] dx = pi * [-x^5/5 + 2x^3/3 + 2x^2] from 0 to 2 = pi * [-32/5 + 16/3 + 8] = pi * [(-96 + 80 + 120)/15] = 104pi/15. The correct answer is 26/3."
   }
 ];

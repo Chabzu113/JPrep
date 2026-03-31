@@ -1,0 +1,13 @@
+{
+  "generated": "2026-03-30T21:01:24.541Z",
+  "flags": [
+    {
+      "id": "phys1_u2_frq010",
+      "issue": "Factual error in part (c): The question asserts that increasing the hanging mass to m = 3.0 kg causes the system to accelerate, but this is incorrect. The net driving force along the incline is mg − Mg sinθ = 30 − 20 = 10 N (tending to pull M up the incline), while the maximum static friction force is μ_s × Mg cosθ = 0.50 × 4.0 × 10 × cos30° ≈ 17.3 N, which exceeds the 10 N driving force. Therefore the system remains stationary. The premise of part (c) is physically false, which also invalidates parts (d) and (e) as written. The entire question is dropped."
+    },
+    {
+      "id": "phys1_u7_frq032_difficulty",
+      "issue": "Difficulty label was 'hard' but the question is standard conservation-of-angular-momentum content (a canonical AP Physics 1 example) requiring only direct application of L = Iω, explanation of internal work, and a conceptual distinction - complexity is medium. Corrected to 'medium' in the clean output."
+    }
+  ]
+}
