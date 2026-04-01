@@ -3320,46 +3320,6 @@ window.APGOV_MCQ = [
     "explanation": "Locke specifically identified natural rights as life, liberty, and property. \"The pursuit of happiness\" is the phrase Thomas Jefferson substituted in the Declaration of Independence, which is a common student misconception. Security and self-governance were not part of Locke's formulation of natural rights."
   },
   {
-    "id": "gov_u1_q167",
-    "subject": "apgov",
-    "unit": 1,
-    "topic": "Articles of Confederation",
-    "topicLabel": "Articles of Confederation",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Which of the following was a major weakness of the Articles of Confederation?",
-    "choices": [
-      "A) The national government had the power to tax citizens directly.",
-      "B) The executive branch held too much power over the states.",
-      "C) Congress lacked the power to levy taxes.",
-      "D) The national judiciary was too powerful."
-    ],
-    "answer": 2,
-    "explanation": "A central weakness of the Articles of Confederation was that Congress could not levy taxes and had to rely on voluntary contributions from the states. The Articles actually had no executive branch or national judiciary with significant power, making options B and D incorrect. Option A describes the opposite of what was true under the Articles."
-  },
-  {
-    "id": "gov_u1_q168",
-    "subject": "apgov",
-    "unit": 1,
-    "topic": "Great Compromise",
-    "topicLabel": "Great Compromise",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "The Great Compromise at the Constitutional Convention resolved a dispute between large and small states by establishing which of the following?",
-    "choices": [
-      "A) A unicameral legislature with equal representation for all states",
-      "B) A bicameral legislature with one chamber based on population and one with equal representation",
-      "C) A system in which only states with large populations could vote on legislation",
-      "D) A bicameral legislature with both chambers based on state population"
-    ],
-    "answer": 1,
-    "explanation": "The Great Compromise (Connecticut Compromise) created a bicameral legislature: the House of Representatives with representation based on population (favoring large states) and the Senate with equal representation for each state (favoring small states). Option A describes a unicameral system, option D describes the Virginia Plan's approach, and option C was never a serious proposal."
-  },
-  {
     "id": "gov_u1_q169",
     "subject": "apgov",
     "unit": 1,
@@ -3380,26 +3340,6 @@ window.APGOV_MCQ = [
     "explanation": "Separation of powers refers to dividing governmental authority among the legislative, executive, and judicial branches. Option A describes federalism, not separation of powers - a very common student confusion. Option C describes checks and balances, which is a related but distinct concept. Option D describes the Ninth and Tenth Amendments."
   },
   {
-    "id": "gov_u1_q170",
-    "subject": "apgov",
-    "unit": 1,
-    "topic": "necessary and proper clause",
-    "topicLabel": "Necessary and Proper Clause",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "The Necessary and Proper Clause of the Constitution grants Congress the power to do which of the following?",
-    "choices": [
-      "A) Override presidential vetoes with a simple majority vote",
-      "B) Pass laws needed to carry out its enumerated powers",
-      "C) Amend the Constitution without state approval",
-      "D) Appoint federal judges when vacancies arise"
-    ],
-    "answer": 1,
-    "explanation": "The Necessary and Proper Clause (also called the Elastic Clause) in Article I, Section 8, gives Congress the authority to make all laws \"necessary and proper\" for executing its enumerated powers. Overriding a veto requires a two-thirds vote (not a simple majority), amending the Constitution requires state ratification, and appointing federal judges is a power of the president, not Congress."
-  },
-  {
     "id": "gov_u1_q171",
     "subject": "apgov",
     "unit": 1,
@@ -3418,26 +3358,6 @@ window.APGOV_MCQ = [
     ],
     "answer": 2,
     "explanation": "In McCulloch v. Maryland, Chief Justice Marshall ruled that the federal government was supreme over the states and that Maryland could not tax a federal institution, reinforcing national supremacy under the Supremacy Clause. The case was about the relationship between national and state power, not about separation of powers, popular sovereignty, or checks and balances among branches."
-  },
-  {
-    "id": "gov_u1_q172",
-    "subject": "apgov",
-    "unit": 1,
-    "topic": "categorical grants",
-    "topicLabel": "Categorical Grants",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Which of the following best describes a categorical grant?",
-    "choices": [
-      "A) Federal funds given to states with few restrictions on how the money is spent",
-      "B) Federal funds given to states for a specific, defined purpose with strict conditions",
-      "C) State funds given to the federal government to support national defense",
-      "D) Federal funds distributed equally to all states regardless of population"
-    ],
-    "answer": 1,
-    "explanation": "Categorical grants are federal funds provided to state and local governments for specific purposes with detailed conditions on how the money must be spent. Option A describes block grants, which give states broader discretion. Option C reverses the direction of fiscal federalism - grants flow from the federal government to states, not the reverse. Option D does not accurately describe how categorical grants are distributed."
   },
   {
     "id": "gov_u1_q173",
@@ -3780,26 +3700,6 @@ window.APGOV_MCQ = [
     "explanation": "Cooperative federalism (marble-cake federalism) involves national and state governments working together and sharing responsibilities on policy issues, which matches the shared funding and management described. Dual federalism (A) is incorrect because it envisions strict separation of federal and state responsibilities with little overlap. Confederalism (C) is incorrect because the federal government played a major funding and policy role, not a subordinate one. Centralized federalism (D) is incorrect because states played an active role in planning and construction."
   },
   {
-    "id": "gov_u1_q190",
-    "subject": "apgov",
-    "unit": 1,
-    "topic": "McCulloch v Maryland and necessary and proper clause",
-    "topicLabel": "McCulloch v Maryland and necessary and proper clause",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A state legislature passes a law imposing a special licensing fee on all federally chartered financial institutions operating within the state, arguing that the state's police power allows it to regulate businesses for the health and safety of its citizens. Based on the precedent established in McCulloch v. Maryland (1819), which of the following best explains why this law would most likely be struck down?",
-    "choices": [
-      "A) The Supremacy Clause and the doctrine of implied powers prevent states from using their taxing or regulatory authority to impede the operations of legitimate federal instrumentalities.",
-      "B) The Tenth Amendment reserves the power to regulate financial institutions exclusively to the federal government, leaving states with no authority over banking.",
-      "C) The Commerce Clause grants Congress the sole power to regulate all businesses, so states cannot impose any fees or regulations on commercial entities.",
-      "D) The enumerated powers of Congress explicitly include the chartering of banks, making any state interference with those banks unconstitutional under Article I, Section 8."
-    ],
-    "answer": 0,
-    "explanation": "In McCulloch v. Maryland, Chief Justice Marshall held that Congress had the implied power to create a national bank under the Necessary and Proper Clause and that states could not tax or burden federal instrumentalities because the Supremacy Clause makes federal law supreme. Option A correctly synthesizes both principles. Option B is wrong because the Tenth Amendment does not reserve banking exclusively to the federal government, and states can regulate state-chartered banks. Option C overstates the Commerce Clause; states retain broad regulatory authority over businesses. Option D is wrong because the power to charter a national bank is not an enumerated power - it is an implied power, which was the central holding of McCulloch."
-  },
-  {
     "id": "gov_u1_q191",
     "subject": "apgov",
     "unit": 1,
@@ -4020,46 +3920,6 @@ window.APGOV_MCQ = [
     "explanation": "B is correct because cooperative federalism is characterized by intergovernmental collaboration where the federal government provides funding with conditions (categorical grants), blurring the lines between state and federal authority. Critics argue this arrangement undermines state sovereignty-a principle rooted in the Tenth Amendment-because states must comply with federal mandates or lose funding, effectively coercing state policy choices. A is wrong because dual federalism features clearly separated spheres of authority, which is the opposite of this conditional funding arrangement. C is wrong because the federal government does not directly administer the program; states build the highways but under federal conditions, which is the hallmark of cooperative rather than centralized governance. D is wrong because the scenario explicitly describes conditions attached to the funding, which contradicts the claim of no conditions."
   },
   {
-    "id": "gov_u2_q202",
-    "subject": "apgov",
-    "unit": 2,
-    "topic": "bicameralism",
-    "topicLabel": "Bicameralism",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "The term 'bicameralism' refers to which feature of the United States Congress?",
-    "choices": [
-      "A) The division of Congress into two chambers: the House and the Senate",
-      "B) The requirement that both political parties approve legislation",
-      "C) The separation of legislative and executive powers",
-      "D) The process of splitting a bill into two versions for debate"
-    ],
-    "answer": 0,
-    "explanation": "Bicameralism literally means 'two chambers,' referring to the House of Representatives and the Senate. Option B is wrong because bicameralism refers to institutional structure, not partisan agreement. Option C confuses bicameralism with separation of powers. Option D mischaracterizes the legislative process."
-  },
-  {
-    "id": "gov_u2_q203",
-    "subject": "apgov",
-    "unit": 2,
-    "topic": "filibuster and cloture",
-    "topicLabel": "Filibuster and Cloture",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "How many senators must vote in favor of cloture to end a filibuster in the United States Senate?",
-    "choices": [
-      "A) A simple majority of 51 senators",
-      "B) Three-fifths of senators, or 60 votes",
-      "C) Two-thirds of senators, or 67 votes",
-      "D) Three-fourths of senators, or 75 votes"
-    ],
-    "answer": 1,
-    "explanation": "Senate rules require 60 votes (three-fifths of the full Senate) to invoke cloture and end debate on most legislation. Option A (51) is the threshold for a simple majority vote to pass a bill, not to end a filibuster. Option C (67) is the threshold needed to override a presidential veto or convict in impeachment. Option D (75) is not a standard threshold in Senate procedures."
-  },
-  {
     "id": "gov_u2_q204",
     "subject": "apgov",
     "unit": 2,
@@ -4118,26 +3978,6 @@ window.APGOV_MCQ = [
     ],
     "answer": 1,
     "explanation": "Gerrymandering is the deliberate manipulation of district boundaries to favor one political party or group. Option A describes the legal requirement of equal apportionment, not gerrymandering. Option C is wrong because the number of representatives is determined by census population, not by how districts are drawn. Option D is incorrect because redistricting is primarily a state-level process."
-  },
-  {
-    "id": "gov_u2_q207",
-    "subject": "apgov",
-    "unit": 2,
-    "topic": "iron triangles",
-    "topicLabel": "Iron Triangles",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "An iron triangle consists of which three groups working together to influence policy?",
-    "choices": [
-      "A) The president, the vice president, and the Speaker of the House",
-      "B) Congressional committees, interest groups, and bureaucratic agencies",
-      "C) The Supreme Court, Congress, and the president",
-      "D) State governments, local governments, and the federal government"
-    ],
-    "answer": 1,
-    "explanation": "An iron triangle is a mutually beneficial relationship among a congressional committee, an interest group, and a federal bureaucratic agency that shapes policy in a specific area. Option A lists individual officeholders, not the institutional relationships that define iron triangles. Option C describes the three branches of government (separation of powers), not an iron triangle. Option D describes levels of government in a federal system, not a policy-making alliance."
   },
   {
     "id": "gov_u2_q208",

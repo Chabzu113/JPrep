@@ -300,26 +300,6 @@ window.APCALCBC_MCQ = [
     "explanation": "The IVT guarantees that because f is continuous on [1,5] and f(1) = -3 < 0 < 7 = f(5), there exists at least one c in (1, 5) such that f(c) = 0. Choice B is incorrect - IVT guarantees existence but not uniqueness; there could be multiple zeros. Choice A confuses IVT with the Extreme Value Theorem; IVT says nothing about maximum values. Choice D is unrelated; continuity does not imply differentiability."
   },
   {
-    "id": "calcbc_u1_q016",
-    "subject": "apcalcbc",
-    "unit": 1,
-    "topic": "limits graphically",
-    "topicLabel": "Limits Graphically",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "A function f is graphed on the xy-plane. As x approaches 3 from the left, f(x) approaches 5. As x approaches 3 from the right, f(x) approaches 5. However, f(3) = 2. Which of the following is true?",
-    "choices": [
-      "A) lim(x→3) f(x) = 5 and f is continuous at x = 3",
-      "B) lim(x→3) f(x) does not exist because f(3) ≠ 5",
-      "C) lim(x→3) f(x) = 5 and f is not continuous at x = 3",
-      "D) lim(x→3) f(x) = 2 because f(3) = 2"
-    ],
-    "answer": 2,
-    "explanation": "The limit as x→3 equals 5 because both one-sided limits agree at 5, regardless of the function's value at x = 3. The limit is determined by behavior near x = 3, not at x = 3. Since f(3) = 2 ≠ 5, the function is not continuous at x = 3 (it has a removable discontinuity). Choice A is wrong because continuity fails. Choice B is wrong because a limit exists when both one-sided limits agree, even if the function value differs. Choice D confuses the limit with the function value."
-  },
-  {
     "id": "calcbc_u1_q017",
     "subject": "apcalcbc",
     "unit": 1,
@@ -438,26 +418,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 1,
     "explanation": "For f to be continuous at x = 1, the left-hand limit must equal the right-hand value. The left-hand limit as x → 1⁻ is k(1) + 4 = k + 4. The right-hand value at x = 1 is 3(1)² = 3. Setting them equal: k + 4 = 3 → k = -1. We can verify: with k = -1, the left-hand limit is (-1)(1) + 4 = 3, and f(1) = 3(1)² = 3, so the function is continuous at x = 1. Choice A (k = 1) gives a left-hand limit of 5 ≠ 3. Choice C (k = 3) gives a left-hand limit of 7 ≠ 3. Choice D (k = -3) gives a left-hand limit of 1 ≠ 3."
-  },
-  {
-    "id": "calcbc_u1_q023",
-    "subject": "apcalcbc",
-    "unit": 1,
-    "topic": "IVT",
-    "topicLabel": "Intermediate Value Theorem",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Let f be a continuous function on [1, 5] with f(1) = -3 and f(5) = 7. Which of the following is guaranteed by the Intermediate Value Theorem?",
-    "choices": [
-      "A) There exists exactly one value c in (1, 5) such that f(c) = 0",
-      "B) There exists at least one value c in (1, 5) such that f(c) = 0",
-      "C) f(3) = 2, since 3 is the midpoint of [1,5] and 2 is the midpoint of [-3,7]",
-      "D) f is differentiable on (1, 5)"
-    ],
-    "answer": 1,
-    "explanation": "The Intermediate Value Theorem guarantees that if f is continuous on [a,b] and N is any value between f(a) and f(b), then there exists at least one c in (a,b) with f(c) = N. Since 0 is between -3 and 7, there must be at least one c in (1,5) with f(c) = 0. Choice A is incorrect because the IVT guarantees existence but not uniqueness - there could be multiple zeros. Choice C is incorrect; the IVT says nothing about the value at the midpoint specifically. Choice D is incorrect because continuity does not imply differentiability."
   },
   {
     "id": "calcbc_u1_q024",
@@ -1603,26 +1563,6 @@ window.APCALCBC_MCQ = [
     "explanation": "Using the quotient rule: (u/v)' = (u'v - uv')/v^2. Here u = x^2, v = cos x, u' = 2x, and v' = -sin x. So h'(x) = (2x·cos x - x^2·(-sin x))/cos^2 x = (2x cos x + x^2 sin x)/cos^2 x. Choice A just divides the individual derivatives. Choice C uses the wrong sign for v', forgetting that the derivative of cos x is -sin x, making the minus into a minus instead of a plus. Choice D ignores the quotient rule entirely."
   },
   {
-    "id": "calcbc_u3_q082",
-    "subject": "apcalcbc",
-    "unit": 3,
-    "topic": "implicit differentiation",
-    "topicLabel": "Implicit Differentiation",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Given $x^2 + y^2 = 25$, what is $\\dfrac{dy}{dx}$?",
-    "choices": [
-      "A) $\\dfrac{x}{y}$",
-      "B) $-\\dfrac{y}{x}$",
-      "C) $-\\dfrac{x}{y}$",
-      "D) $\\dfrac{2x}{2y}$"
-    ],
-    "answer": 2,
-    "explanation": "Differentiating both sides with respect to x: 2x + 2y(dy/dx) = 0. Solving for dy/dx gives dy/dx = -x/y. Choice A flips the fraction and omits the negative sign. Choice B inverts x and y. Choice D fails to simplify and also leaves a positive result, which ignores the need to solve for dy/dx properly with the negative sign."
-  },
-  {
     "id": "calcbc_u3_q083",
     "subject": "apcalcbc",
     "unit": 3,
@@ -2161,26 +2101,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 3,
     "explanation": "By the Mean Value Theorem, there exists c in (1,4) such that f'(c) = (f(4)-f(1))/(4-1) = (9-3)/3 = 2. This confirms Choice A. Additionally, since f is continuous on the closed interval [1,4], the Extreme Value Theorem guarantees f attains an absolute maximum on [1,4]. This confirms Choice C. Therefore, Choice D (both A and C) must be true. Choice B uses f(4) - f(1) = 6 as the derivative value, forgetting to divide by the length of the interval (b - a = 3)."
-  },
-  {
-    "id": "calcbc_u4_q110",
-    "subject": "apcalcbc",
-    "unit": 4,
-    "topic": "related rates",
-    "topicLabel": "Related Rates",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "A ladder 10 feet long rests against a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 2 ft/sec, how fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 feet from the wall?",
-    "choices": [
-      "A) -3/2 ft/sec",
-      "B) -2/3 ft/sec",
-      "C) 3/2 ft/sec",
-      "D) -8/3 ft/sec"
-    ],
-    "answer": 0,
-    "explanation": "Using the Pythagorean theorem: x² + y² = 100. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. When x = 6, y = 8. Substituting: 2(6)(2) + 2(8)(dy/dt) = 0, so 24 + 16(dy/dt) = 0, giving dy/dt = -24/16 = -3/2 ft/sec. The negative sign indicates the top is sliding down. Choice B inverts the ratio. Choice C forgets the negative sign. Choice D incorrectly uses x and y values without solving the triangle first."
   },
   {
     "id": "calcbc_u4_q111",
@@ -3603,26 +3523,6 @@ window.APCALCBC_MCQ = [
     "explanation": "By FTC Part 1 combined with the chain rule, when both limits are functions of x, differentiate by treating the upper and lower limits separately. For the upper limit x²: d/dx ∫₀^{x²} sin(t²) dt = sin((x²)²) · (2x) = 2x sin(x⁴). For the lower limit x: d/dx ∫₀^x sin(t²) dt = sin(x²), but since x is the lower limit, we subtract: −sin(x²). So g'(x) = 2x sin(x⁴) − sin(x²). Choice B arises if a student evaluates the integrand at the bounds without applying the chain rule to the upper limit x², omitting the factor of 2x. Choice C incorrectly adds rather than subtracts the contribution of the lower limit, forgetting that a lower limit contributes a negative sign. Choice D results from incorrectly differentiating sin(t²) as if it were sin(t), applying derivative rules to the integrand rather than evaluating it at the bounds."
   },
   {
-    "id": "calcbc_u6_q182",
-    "subject": "apcalcbc",
-    "unit": 6,
-    "topic": "integration by parts",
-    "topicLabel": "Integration by Parts",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int x^2 e^x \\, dx\\).",
-    "choices": [
-      "A) \\(e^x(x^2 - 2x + 2) + C\\)",
-      "B) \\(e^x(x^2 + 2x + 2) + C\\)",
-      "C) \\(e^x(x^2 - 2x) + C\\)",
-      "D) \\(\\frac{x^3}{3}e^x + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Using integration by parts twice: Let u = x², dv = eˣ dx, so du = 2x dx, v = eˣ. Then ∫x²eˣ dx = x²eˣ − ∫2xeˣ dx. Apply IBP again to ∫2xeˣ dx: let u = 2x, dv = eˣ dx, du = 2 dx, v = eˣ, giving 2xeˣ − 2eˣ. So the full result is x²eˣ − (2xeˣ − 2eˣ) + C = eˣ(x² − 2x + 2) + C. Choice B has a sign error from mishandling the subtraction in the second IBP step - a very common mistake. Choice C forgets the constant term +2 after the second integration. Choice D incorrectly treats eˣ like a power and applies a naive product rule in reverse."
-  },
-  {
     "id": "calcbc_u6_q183",
     "subject": "apcalcbc",
     "unit": 6,
@@ -3641,26 +3541,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "This is an improper integral because 1/x² has a vertical asymptote at x = 0, which lies in the interval [−1, 1]. It must be split: ∫₋₁⁰ (1/x²) dx + ∫₀¹ (1/x²) dx. Evaluating ∫₀¹ (1/x²) dx = lim[t→0⁺] [−1/x]ₜ¹ = lim[t→0⁺] (−1 + 1/t) = +∞. Since this piece diverges, the entire integral diverges. Choice B arises from naively computing [−1/x]₋₁¹ = −1 − 1 = −2 without recognizing the discontinuity - a classic AP trap. Choice C is a similar error yielding a positive result. Choice D incorrectly applies a symmetry argument; even though 1/x² is even, convergence must still be checked at the singularity, and divergence cannot be cancelled by symmetry."
-  },
-  {
-    "id": "calcbc_u6_q184",
-    "subject": "apcalcbc",
-    "unit": 6,
-    "topic": "integration by parts",
-    "topicLabel": "Integration by Parts",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int x^2 e^x \\, dx\\).",
-    "choices": [
-      "A) \\(e^x(x^2 - 2x + 1) + C\\)",
-      "B) \\(e^x(x^2 + 2x + 2) + C\\)",
-      "C) \\(e^x(x^2 - 2x) + C\\)",
-      "D) \\(\\frac{x^3}{3} e^x + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Applying integration by parts twice: let u = x², dv = e^x dx, so du = 2x dx, v = e^x. This gives x²e^x - ∫2xe^x dx. For ∫2xe^x dx, apply IBP again: u = 2x, dv = e^x dx, giving 2xe^x - 2e^x. Combining: x²e^x - (2xe^x - 2e^x) + C = e^x(x² - 2x + 2) + C. Choice A reflects a common arithmetic error in the second IBP step where the student computes the constant term as 1 instead of 2 (e.g., forgetting to carry the factor of 2 from du = 2x dx through the final integration). Choice B incorrectly adds rather than subtracts the result of the second IBP step, a very common sign error. Choice C forgets the constant term 2e^x from the final IBP application. Choice D is the trap of multiplying by the antiderivative of e^x without applying IBP at all, as if the integral were a simple product."
   },
   {
     "id": "calcbc_u6_q185",
@@ -4003,46 +3883,6 @@ window.APCALCBC_MCQ = [
     "explanation": "The p-integral ∫₁^∞ (1/xᵖ) dx converges if and only if p > 1. For choice A, p = 0.9 < 1, so it diverges. For choices B, C, and D, p = 2, 1.1, and 3 respectively, all greater than 1, so those converge. A common error is thinking 0.9 is close enough to 1 to converge, but the cutoff is strict: any p ≤ 1 causes divergence."
   },
   {
-    "id": "calcbc_u7_q202",
-    "subject": "apcalcbc",
-    "unit": 7,
-    "topic": "u-substitution",
-    "topicLabel": "U-Substitution",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int x^2 e^{x^3} \\, dx\\).",
-    "choices": [
-      "A) \\(\\frac{1}{3} e^{x^3} + C\\)",
-      "B) \\(x^3 e^{x^3} + C\\)",
-      "C) \\(\\frac{1}{3} x^3 e^{x^3} + C\\)",
-      "D) \\(3 e^{x^3} + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Let u = x^3, so du = 3x^2 dx, meaning x^2 dx = du/3. The integral becomes (1/3)∫e^u du = (1/3)e^u + C = (1/3)e^(x^3) + C. Choice B forgets the 1/3 factor. Choice C incorrectly multiplies x^3 back in. Choice D uses 3 instead of 1/3 from the substitution."
-  },
-  {
-    "id": "calcbc_u7_q203",
-    "subject": "apcalcbc",
-    "unit": 7,
-    "topic": "integration by parts",
-    "topicLabel": "Integration by Parts",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int x \\cos(x) \\, dx\\).",
-    "choices": [
-      "A) \\(x \\sin(x) + \\cos(x) + C\\)",
-      "B) \\(x \\sin(x) - \\cos(x) + C\\)",
-      "C) \\(-x \\sin(x) + \\cos(x) + C\\)",
-      "D) \\(\\frac{x^2}{2} \\sin(x) + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Using integration by parts with u = x and dv = cos(x) dx, we get du = dx and v = sin(x). So the integral = x sin(x) - ∫sin(x) dx = x sin(x) + cos(x) + C. Choice B has the wrong sign on cos(x) - students forget the negative from integrating sin(x). Choice C incorrectly negates the x sin(x) term. Choice D treats x as staying with the original integrand without properly applying IBP."
-  },
-  {
     "id": "calcbc_u7_q204",
     "subject": "apcalcbc",
     "unit": 7,
@@ -4061,66 +3901,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The form sqrt(a^2 - x^2) calls for x = a sin(θ), here x = 3 sin(θ), so that 9 - x^2 = 9 - 9sin^2(θ) = 9cos^2(θ) and the square root simplifies to 3cos(θ). Choice B (tan substitution) is used for sqrt(a^2 + x^2) and is not appropriate here. Choice C, x = 3cos(θ), is a plausible error: while cos substitution does simplify 9 - x^2 = 9sin^2(θ), it introduces a -3sin(θ) for dx, leading to sign complications and is not the standard substitution used for this form. Choice D, x = sqrt(9)sin^2(θ), is not a standard substitution and does not simplify the expression cleanly, as it leads to a non-standard differential and does not reduce the square root to a simple trigonometric expression."
-  },
-  {
-    "id": "calcbc_u7_q205",
-    "subject": "apcalcbc",
-    "unit": 7,
-    "topic": "trig integrals",
-    "topicLabel": "Trigonometric Integrals",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int \\sin^2(x) \\, dx\\).",
-    "choices": [
-      "A) \\(\\frac{x}{2} - \\frac{\\sin(2x)}{4} + C\\)",
-      "B) \\(-\\frac{\\sin^3(x)}{3} + C\\)",
-      "C) \\(\\frac{x}{2} + \\frac{\\sin(2x)}{4} + C\\)",
-      "D) \\(\\frac{\\sin^3(x)}{3} + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Use the identity sin^2(x) = (1 - cos(2x))/2. Then ∫sin^2(x) dx = ∫(1/2 - cos(2x)/2) dx = x/2 - sin(2x)/4 + C. Choice B attempts a power-reduction by treating it like a u-sub with cos(x), which doesn't work since d/dx[sin(x)] = cos(x), not sin(x). Choice C has the wrong sign on the sin(2x) term, confusing the identity for cos^2(x). Choice D is another incorrect power-reduction attempt."
-  },
-  {
-    "id": "calcbc_u7_q206",
-    "subject": "apcalcbc",
-    "unit": 7,
-    "topic": "improper integrals convergence",
-    "topicLabel": "Improper Integrals - Convergence",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Does \\(\\int_1^{\\infty} \\frac{1}{x^2} \\, dx\\) converge or diverge, and if it converges, what is its value?",
-    "choices": [
-      "A) Converges to 1",
-      "B) Diverges to infinity",
-      "C) Converges to 2",
-      "D) Converges to \\(\\frac{1}{2}\\)"
-    ],
-    "answer": 0,
-    "explanation": "Evaluate lim(b→∞) ∫[1 to b] x^(-2) dx = lim(b→∞) [-x^(-1)] from 1 to b = lim(b→∞) (-1/b + 1) = 0 + 1 = 1. The integral converges to 1. Choice B is incorrect - 1/x^2 decays fast enough (p=2 > 1) to converge. Choice C might come from forgetting the antiderivative evaluation at the lower bound. Choice D might result from an antiderivative error such as using -1/(2x^2)."
-  },
-  {
-    "id": "calcbc_u7_q207",
-    "subject": "apcalcbc",
-    "unit": 7,
-    "topic": "integration by parts",
-    "topicLabel": "Integration by Parts",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int \\ln(x) \\, dx\\).",
-    "choices": [
-      "A) \\(x \\ln(x) - x + C\\)",
-      "B) \\(\\frac{1}{x} + C\\)",
-      "C) \\(x \\ln(x) + x + C\\)",
-      "D) \\(\\frac{\\ln^2(x)}{2} + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Use integration by parts with u = ln(x), dv = dx, so du = 1/x dx, v = x. Then ∫ln(x) dx = x ln(x) - ∫x · (1/x) dx = x ln(x) - ∫1 dx = x ln(x) - x + C. Choice B is the derivative of ln(x), not its integral. Choice C has a sign error in the second term - students often forget the minus sign from IBP. Choice D treats ln(x) as if applying a power rule, which doesn't apply to logarithmic functions."
   },
   {
     "id": "calcbc_u7_q208",
@@ -4163,26 +3943,6 @@ window.APCALCBC_MCQ = [
     "explanation": "The p-series ∫(1 to ∞) x^(-p) dx converges if and only if p > 1. For choice A, p = 1, so it diverges (the integral equals ln(b) → ∞). For choice B, p = 2 > 1, so it converges. For choice C, p = 1.5 > 1, so it converges. For choice D, ∫e^(-x) dx = [-e^(-x)] from 1 to ∞ = e^(-1), which converges. A common misconception is that all integrals from 1 to ∞ diverge, or students forget the boundary case at p = 1."
   },
   {
-    "id": "calcbc_u7_q210",
-    "subject": "apcalcbc",
-    "unit": 7,
-    "topic": "integration by parts",
-    "topicLabel": "Integration by Parts",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int x^2 e^x \\, dx\\).",
-    "choices": [
-      "A) \\(x^2 e^x - 2xe^x + 2e^x + C\\)",
-      "B) \\(x^2 e^x - 2xe^x + C\\)",
-      "C) \\(x^2 e^x + 2xe^x - 2e^x + C\\)",
-      "D) \\(\\frac{x^3}{3} e^x + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Apply integration by parts twice. First, let u = x^2 and dv = e^x dx, so du = 2x dx and v = e^x. This gives x^2 e^x - ∫2x e^x dx. Apply integration by parts again to ∫2x e^x dx with u = 2x, dv = e^x dx: 2xe^x - ∫2e^x dx = 2xe^x - 2e^x. Combining: x^2 e^x - (2xe^x - 2e^x) + C = x^2 e^x - 2xe^x + 2e^x + C. Choice B forgets the final -2e^x term from the second integration by parts. Choice C has sign errors from misapplying the subtraction step. Choice D incorrectly treats e^x as if integrating a power function, a fundamental misapplication of the formula."
-  },
-  {
     "id": "calcbc_u7_q211",
     "subject": "apcalcbc",
     "unit": 7,
@@ -4201,26 +3961,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Write the integral as lim_{b→∞} ∫_0^b x e^{-x} dx. Apply integration by parts with u = x, dv = e^{-x} dx, giving du = dx and v = -e^{-x}. Then ∫x e^{-x} dx = -xe^{-x} + ∫e^{-x} dx = -xe^{-x} - e^{-x} + C = -e^{-x}(x+1) + C. Evaluating: lim_{b→∞} [-e^{-b}(b+1)] - [-e^0(1)] = 0 - (-1) = 1, since lim_{b→∞} (b+1)/e^b = 0 by L'Hopital's rule. Choice B results from a consistent sign error in which the student correctly computes lim_{b→∞} [-e^{-b}(b+1)] = 0 but then evaluates the boundary term at 0 as -e^0(0+1) = -1, forgetting to subtract a negative (i.e., treating the result as 0 + (-1) = -1 rather than 0 - (-1) = 1). Choice C confuses this with a related expression involving e. Choice D is incorrect because the exponential decay dominates the polynomial growth and the integral does converge."
-  },
-  {
-    "id": "calcbc_u7_q212",
-    "subject": "apcalcbc",
-    "unit": 7,
-    "topic": "integration by parts",
-    "topicLabel": "Integration by Parts",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int x^2 e^x \\, dx\\).",
-    "choices": [
-      "A) \\(e^x(x^2 - 2x + 2) + C\\)",
-      "B) \\(e^x(x^2 + 2x + 2) + C\\)",
-      "C) \\(e^x(x^2 - 2x) + C\\)",
-      "D) \\(\\frac{x^3}{3}e^x + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Using integration by parts twice: let u = x², dv = eˣ dx, so du = 2x dx, v = eˣ. This gives x²eˣ − ∫2xeˣ dx. Apply IBP again to ∫2xeˣ dx: let u = 2x, dv = eˣ dx, giving 2xeˣ − 2eˣ. So the full result is x²eˣ − (2xeˣ − 2eˣ) + C = eˣ(x² − 2x + 2) + C. Choice B incorrectly adds rather than subtracts when applying IBP the second time (a classic sign error). Choice C forgets the +2 term from the second application of IBP. Choice D is the trap of treating eˣ like a polynomial and using the power rule on the wrong factor."
   },
   {
     "id": "calcbc_u7_q213",
@@ -4243,26 +3983,6 @@ window.APCALCBC_MCQ = [
     "explanation": "With A=1, B=2, C=2, the partial fraction decomposition yields the integral \\(\\ln|x| + \\ln(x^2+1) + 2\\arctan(x) + C\\). This is the correct antiderivative corresponding to choice A. Choice B reflects the misconception that the singularity at x=0 in integral III causes divergence, leading students to exclude III. Choice C includes integral I, reflecting the error that 1/x converges because ln grows slowly. Choice D reflects a failure to test any of the integrals carefully, incorrectly assuming all three converge."
   },
   {
-    "id": "calcbc_u7_q214",
-    "subject": "apcalcbc",
-    "unit": 7,
-    "topic": "integration by parts",
-    "topicLabel": "Integration by Parts",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int x^2 e^x \\, dx\\).",
-    "choices": [
-      "A) \\(e^x(x^2 - 2x + 2) + C\\)",
-      "B) \\(e^x(x^2 + 2x + 2) + C\\)",
-      "C) \\(e^x(x^2 - 2x - 2) + C\\)",
-      "D) \\(\\frac{x^3}{3}e^x + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Apply integration by parts twice. First, let u = x², dv = eˣ dx, so du = 2x dx, v = eˣ. This gives x²eˣ - ∫2xeˣ dx. For ∫2xeˣ dx, let u = 2x, dv = eˣ dx, so du = 2 dx, v = eˣ, giving 2xeˣ - 2eˣ. Combining: x²eˣ - (2xeˣ - 2eˣ) + C = eˣ(x² - 2x + 2) + C. Choice B results from a sign error when subtracting the second IBP result. Choice C makes an arithmetic error with the constant term. Choice D incorrectly treats eˣ as a power function and applies the power rule to x², a common misconception when students confuse which factor to differentiate."
-  },
-  {
     "id": "calcbc_u7_q215",
     "subject": "apcalcbc",
     "unit": 7,
@@ -4281,26 +4001,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Integral I: ∫₁^∞ 1/x dx = lim[b→∞] ln(b) - ln(1) = ∞. This diverges. Integral II: ∫₀¹ x^(-1/2) dx = lim[a→0⁺] [2√x]₀¹ = 2√1 - 0 = 2. This converges. Integral III: This is an improper integral over all reals. It must be split as ∫₋∞⁰ x/(1+x²) dx + ∫₀^∞ x/(1+x²) dx. Each piece equals ½ln(1+x²) evaluated at the limits. The second piece gives lim[b→∞] ½ln(1+b²) = ∞, so it diverges. Students commonly compute the symmetric limit lim[b→∞] ∫₋ᵦᵦ x/(1+x²) dx = 0 and incorrectly conclude convergence - this is the Cauchy principal value, not true convergence. Integral III diverges. Therefore only II converges, making A the correct answer."
-  },
-  {
-    "id": "calcbc_u7_q216",
-    "subject": "apcalcbc",
-    "unit": 7,
-    "topic": "integration by parts",
-    "topicLabel": "Integration by Parts",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int x^2 e^x \\, dx\\).",
-    "choices": [
-      "A) \\(e^x(x^2 - 2x + 2) + C\\)",
-      "B) \\(e^x(x^2 + 2x + 2) + C\\)",
-      "C) \\(e^x(x^2 - 2x) + C\\)",
-      "D) \\(\\frac{x^3}{3}e^x - \\int \\frac{x^3}{3}e^x \\, dx + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Apply integration by parts twice. First, let u = x^2, dv = e^x dx, so du = 2x dx, v = e^x. This gives x^2 e^x - ∫2x e^x dx. For ∫2x e^x dx, let u = 2x, dv = e^x dx, so du = 2 dx, v = e^x, yielding 2xe^x - 2e^x. Combining: x^2 e^x - 2xe^x + 2e^x + C = e^x(x^2 - 2x + 2) + C. Choice B incorrectly uses +2x instead of -2x, a sign error in the second application. Choice C forgets the +2 constant term from the final integration. Choice D incorrectly applies integration by parts to the exponent function rather than the polynomial, choosing u = e^x and dv = x^2 dx, which creates an unsolvable loop."
   },
   {
     "id": "calcbc_u7_q217",
@@ -5463,26 +5163,6 @@ window.APCALCBC_MCQ = [
     "explanation": "From x = 2cos t: cos t = x/2, so cos²t = x²/4. From y = 3sin t: sin t = y/3, so sin²t = y²/9. Using the identity sin²t + cos²t = 1 gives x²/4 + y²/9 = 1. Choice B swaps the denominators 4 and 9. Choice C incorrectly sets the right-hand side equal to 4 instead of 1, as if the identity sin²t + cos²t = 4 were used. Choice D divides by 2 and 3 instead of 4 and 9, failing to square the denominators."
   },
   {
-    "id": "calcbc_u9_q275",
-    "subject": "apcalcbc",
-    "unit": 9,
-    "topic": "parametric derivatives dy/dx",
-    "topicLabel": "Parametric Derivatives dy/dx",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "A curve is defined parametrically by x(t) = t² + 1 and y(t) = t³ - 3t. What is dy/dx in terms of t?",
-    "choices": [
-      "A) (3t² - 3) / (2t)",
-      "B) (2t) / (3t² - 3)",
-      "C) 3t² - 3",
-      "D) (3t² - 3) / 2"
-    ],
-    "answer": 0,
-    "explanation": "dy/dx = (dy/dt) / (dx/dt). Here dy/dt = 3t² - 3 and dx/dt = 2t, so dy/dx = (3t² - 3)/(2t). Choice B inverts the ratio, a common error. Choice C forgets to divide by dx/dt. Choice D only divides by 2 instead of the full dx/dt = 2t."
-  },
-  {
     "id": "calcbc_u9_q276",
     "subject": "apcalcbc",
     "unit": 9,
@@ -5643,26 +5323,6 @@ window.APCALCBC_MCQ = [
     "explanation": "Integrate each component: ∫2t dt = t² + C₁ and ∫3t² dt = t³ + C₂. Using r(0) = ⟨1, -2⟩: C₁ = 1 and C₂ = -2, giving r(t) = ⟨t² + 1, t³ - 2⟩. Choice B integrates correctly but ignores the y initial condition, setting C₂ = 0. Choice C differentiates instead of integrating. Choice D applies the initial conditions with the wrong sign."
   },
   {
-    "id": "calcbc_u9_q284",
-    "subject": "apcalcbc",
-    "unit": 9,
-    "topic": "parametric derivatives dy/dx",
-    "topicLabel": "Parametric Derivatives dy/dx",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "A curve is defined parametrically by x(t) = t² + 1 and y(t) = t³ - 3t. What is dy/dx in terms of t?",
-    "choices": [
-      "A) (3t² - 3) / (2t)",
-      "B) (3t² - 3) / 2",
-      "C) 3t² - 3",
-      "D) 2t / (3t² - 3)"
-    ],
-    "answer": 0,
-    "explanation": "For parametric equations, dy/dx = (dy/dt) / (dx/dt). Here dy/dt = 3t² - 3 and dx/dt = 2t, so dy/dx = (3t² - 3) / (2t), which is Choice A. Choice B results from treating dx/dt as the constant 2 rather than 2t, perhaps by differentiating x = t² + 1 as if only the coefficient of t matters and ignoring the variable. Choice C forgets to divide by dx/dt entirely, returning only dy/dt. Choice D inverts the ratio, dividing dx/dt by dy/dt instead of dy/dt by dx/dt."
-  },
-  {
     "id": "calcbc_u9_q285",
     "subject": "apcalcbc",
     "unit": 9,
@@ -5741,26 +5401,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "To find the area inside r = 3sinθ but outside r = 1 + sinθ, first find intersections: 3sinθ = 1 + sinθ → 2sinθ = 1 → sinθ = 1/2 → θ = π/6 and θ = 5π/6. The area formula is (1/2)∫[α to β] (r_outer² - r_inner²) dθ where r_outer = 3sinθ and r_inner = 1 + sinθ over [π/6, 5π/6]. Area = (1/2)∫[π/6 to 5π/6] [(3sinθ)² - (1+sinθ)²] dθ = (1/2)∫[π/6 to 5π/6] [9sin²θ - 1 - 2sinθ - sin²θ] dθ = (1/2)∫[π/6 to 5π/6] [8sin²θ - 2sinθ - 1] dθ. Using 8sin²θ = 4(1-cos2θ): = (1/2)∫[π/6 to 5π/6] [3 - 4cos2θ - 2sinθ] dθ = (1/2)[3θ - 2sin2θ + 2cosθ] from π/6 to 5π/6. At 5π/6: 5π/2 + √3 - √3 = 5π/2. At π/6: π/2 - √3 + √3 = π/2. Area = (1/2)(5π/2 - π/2) = (1/2)(2π) = π. The answer is A) π. Common errors include forgetting the 1/2 factor in the polar area formula (giving C), or using incorrect integration bounds."
-  },
-  {
-    "id": "calcbc_u9_q289",
-    "subject": "apcalcbc",
-    "unit": 9,
-    "topic": "polar area",
-    "topicLabel": "Area in Polar Coordinates",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is the area of the region that lies inside the circle r = 3sinθ but outside the cardioid r = 1 + sinθ?",
-    "choices": [
-      "A) -10/243",
-      "B) -2/27",
-      "C) -1/9",
-      "D) 2/9"
-    ],
-    "answer": 0,
-    "explanation": "First, find the intersection of r = 3sinθ and r = 1 + sinθ by setting them equal: 3sinθ = 1 + sinθ → 2sinθ = 1 → sinθ = 1/2 → θ = π/6 and θ = 5π/6. The area inside r = 3sinθ but outside r = 1 + sinθ is given by A = (1/2)∫[π/6 to 5π/6] [(3sinθ)² - (1 + sinθ)²] dθ. Expanding the integrand: (3sinθ)² - (1 + sinθ)² = 9sin²θ - 1 - 2sinθ - sin²θ = 8sin²θ - 2sinθ - 1. Using the identity 8sin²θ = 4(1 - cos2θ), the integrand becomes 4 - 4cos2θ - 2sinθ - 1 = 3 - 4cos2θ - 2sinθ. Therefore, A = (1/2)∫[π/6 to 5π/6] (3 - 4cos2θ - 2sinθ) dθ. Antidifferentiate: (1/2)[3θ - 2sin2θ + 2cosθ] evaluated from π/6 to 5π/6. At θ = 5π/6: 3(5π/6) - 2sin(5π/3) + 2cos(5π/6) = 5π/2 - 2(-√3/2) + 2(-√3/2) = 5π/2 + √3 - √3 = 5π/2. At θ = π/6: 3(π/6) - 2sin(π/3) + 2cos(π/6) = π/2 - 2(√3/2) + 2(√3/2) = π/2. The difference is 5π/2 - π/2 = 2π. Thus A = (1/2)(2π) = π. The correct answer is A) -10/243."
   },
   {
     "id": "calcbc_u9_q290",
@@ -6243,46 +5883,6 @@ window.APCALCBC_MCQ = [
     "explanation": "Using the Ratio Test, the radius of convergence is R = 1 centered at x = -1, giving the open interval (-2, 0). Check endpoints: At x = -2: Σ (-1)^n/n, which converges by the Alternating Series Test. At x = 0: Σ 1/n, the harmonic series, which diverges. So the interval of convergence is -2 ≤ x < 0. Choice B excludes both endpoints. Choice C includes x = 0 but excludes x = -2, which is the reverse of the correct answer. Choice D includes both endpoints."
   },
   {
-    "id": "calcbc_u10_q314",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "geometric series",
-    "topicLabel": "Geometric Series",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is the sum of the series \\(\\sum_{n=0}^{\\infty} \\frac{3 \\cdot 2^n}{5^n}\\)?",
-    "choices": [
-      "A) 5",
-      "B) 3",
-      "C) \\(\\frac{15}{2}\\)",
-      "D) The series diverges"
-    ],
-    "answer": 0,
-    "explanation": "This is a geometric series with first term a = 3 and common ratio r = 2/5. Since |r| = 2/5 < 1, it converges. Sum = a/(1 - r) = 3/(1 - 2/5) = 3/(3/5) = 5. Choice B ignores the denominator factor entirely, yielding just 3. Choice C incorrectly computes 1 - r as 2/5 instead of 3/5, giving 3/(2/5) = 15/2; this is equivalent to omitting the subtraction from 1 and using r itself as the denominator. Choice D is wrong because |r| < 1 guarantees convergence."
-  },
-  {
-    "id": "calcbc_u10_q315",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "p-series",
-    "topicLabel": "p-Series",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "For which values of \\(p\\) does the series \\(\\sum_{n=1}^{\\infty} \\frac{1}{n^{2p-1}}\\) converge?",
-    "choices": [
-      "A) \\(p > 1\\)",
-      "B) \\(p > \\frac{1}{2}\\)",
-      "C) \\(p \\geq 1\\)",
-      "D) \\(p > \\frac{3}{2}\\)"
-    ],
-    "answer": 0,
-    "explanation": "The p-series \\(\\sum \\frac{1}{n^k}\\) converges when k > 1. Here k = 2p - 1, so we need 2p - 1 > 1, which gives p > 1. Choice B sets 2p - 1 > 0 (a common error of requiring positive exponent rather than exponent > 1). Choice C incorrectly includes p = 1 (the harmonic series diverges). Choice D over-restricts by requiring 2p - 1 > 2."
-  },
-  {
     "id": "calcbc_u10_q316",
     "subject": "apcalcbc",
     "unit": 10,
@@ -6403,26 +6003,6 @@ window.APCALCBC_MCQ = [
     "explanation": "Using the Ratio Test: R = 1, so |x + 1| < 1 gives -2 < x < 0. Check endpoints: at x = 0: \\(\\sum \\frac{1}{n}\\) diverges (harmonic series). At x = -2: \\(\\sum \\frac{(-1)^n}{n}\\) converges by the Alternating Series Test. So the interval is [-2, 0). Choice B excludes x = -2, ignoring the alternating series convergence. Choice C includes x = 0 but the harmonic series diverges there. Choice D includes both endpoints, but x = 0 must be excluded."
   },
   {
-    "id": "calcbc_u10_q322",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "geometric series",
-    "topicLabel": "Geometric Series",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is the sum of the series \\(\\sum_{n=0}^{\\infty} \\frac{3 \\cdot 2^n}{5^n}\\)?",
-    "choices": [
-      "A) 5",
-      "B) 3",
-      "C) \\(\\frac{5}{3}\\)",
-      "D) The series diverges"
-    ],
-    "answer": 0,
-    "explanation": "This is a geometric series with first term a = 3 and common ratio r = 2/5. Since |r| = 2/5 < 1, the series converges. The sum is a/(1−r) = 3/(1 − 2/5) = 3/(3/5) = 5. Choice B confuses the first term with the sum. Choice C inverts the calculation. Choice D incorrectly applies a divergence test."
-  },
-  {
     "id": "calcbc_u10_q323",
     "subject": "apcalcbc",
     "unit": 10,
@@ -6501,26 +6081,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "By the Alternating Series Error Bound, the error is at most the absolute value of the first omitted term. The first four terms use n = 1, 2, 3, 4, so the first omitted term is n = 5: |a_5| = 1/5³ = 1/125. Choice B corresponds to 1/4³ = 1/64, using the last included term. Choice C corresponds to 1/3³, and Choice D corresponds to 1/6³, both incorrect term selections."
-  },
-  {
-    "id": "calcbc_u10_q327",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "radius of convergence",
-    "topicLabel": "Radius of Convergence",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is the radius of convergence of the power series \\(\\sum_{n=1}^{\\infty} \\frac{(x-2)^n}{n \\cdot 4^n}\\)?",
-    "choices": [
-      "A) 4",
-      "B) 2",
-      "C) \\(\\frac{1}{4}\\)",
-      "D) 8"
-    ],
-    "answer": 0,
-    "explanation": "Using the Ratio Test: L = lim |a_{n+1}/a_n| = lim [|x−2|^{n+1}/(n+1)·4^{n+1}] · [n·4^n/|x−2|^n] = |x−2|/4 · lim n/(n+1) = |x−2|/4. Setting L < 1 gives |x−2| < 4, so the radius of convergence R = 4. Choice B confuses the center with the radius. Choice C inverts the ratio. Choice D doubles the radius incorrectly."
   },
   {
     "id": "calcbc_u10_q328",
@@ -6681,46 +6241,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 2,
     "explanation": "The Lagrange error bound states \\(|f(x) - P_n(x)| \\leq \\frac{M|x-a|^{n+1}}{(n+1)!}\\), where \\(M\\) is the maximum value of \\(|f^{(n+1)}|\\) on the interval between \\(a\\) and \\(x\\). Here \\(n=3\\), \\(a=0\\), \\(x=0.5\\), and \\(f^{(4)}(x) = e^x\\). Since \\(e^x\\) is increasing, its maximum on \\([0, 0.5]\\) is \\(e^{0.5}\\). Thus the bound is \\(\\frac{e^{0.5}(0.5)^4}{4!} = \\frac{e^{0.5}(0.5)^4}{24}\\), making C correct. Choice B is a common error where students forget to include the maximum of the derivative (treating \\(M=1\\)). Choice D uses \\(n=2\\) instead of \\(n=3\\), confusing the degree of the polynomial with the order of the error term. Choice A omits the \\((0.5)^4\\) factor entirely."
-  },
-  {
-    "id": "calcbc_u10_q336",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "interval of convergence",
-    "topicLabel": "Interval of Convergence",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Consider the power series \\(\\sum_{n=1}^{\\infty} \\frac{(-1)^n (x+2)^n}{n \\cdot 3^n}\\). Which of the following correctly states the interval of convergence?",
-    "choices": [
-      "A) \\(-5 \\leq x < 1\\)",
-      "B) \\(-5 < x \\leq 1\\)",
-      "C) \\(-5 < x < 1\\)",
-      "D) \\(-5 \\leq x \\leq 1\\)"
-    ],
-    "answer": 1,
-    "explanation": "Using the Ratio Test, the radius of convergence is found by taking the limit of |((x+2)/3)|, which must be less than 1, giving |x+2| < 3, so the center is x = -2 and radius is 3. This yields the open interval (-5, 1). Now check the endpoints. At x = -5: (x+2) = -3, so the series becomes \\(\\sum \\frac{(-1)^n(-3)^n}{n \\cdot 3^n} = \\sum \\frac{(-1)^n(-1)^n \\cdot 3^n}{n \\cdot 3^n} = \\sum \\frac{1}{n}\\), the harmonic series, which diverges. At x = 1: (x+2) = 3, so the series becomes \\(\\sum \\frac{(-1)^n \\cdot 3^n}{n \\cdot 3^n} = \\sum \\frac{(-1)^n}{n}\\), the alternating harmonic series, which converges by the Alternating Series Test. Therefore the interval of convergence is \\(-5 < x \\leq 1\\). Choice A is wrong because it includes x = -5 (diverges) and excludes x = 1 (converges). Choice C excludes both endpoints. Choice D results from a student incorrectly concluding that both endpoints converge - specifically, at x = -5 the student may mistakenly treat \\((-1)^n(-1)^n = (-1)^{2n}\\) as producing an alternating series (rather than recognizing that \\((-1)^{2n} = 1\\) yields the divergent harmonic series), and therefore incorrectly applies the Alternating Series Test to include x = -5 as well as x = 1."
-  },
-  {
-    "id": "calcbc_u10_q337",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "interval of convergence",
-    "topicLabel": "Interval of Convergence",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Consider the power series \\(\\sum_{n=1}^{\\infty} \\frac{(-1)^n (x+2)^n}{n \\cdot 3^n}\\). Which of the following correctly states the interval of convergence?",
-    "choices": [
-      "A) \\(-5 \\leq x < 1\\)",
-      "B) \\(-5 < x \\leq 1\\)",
-      "C) \\(-5 \\leq x \\leq 1\\)",
-      "D) \\(-5 < x < 1\\)"
-    ],
-    "answer": 0,
-    "explanation": "Apply the Lagrange error bound formula: for a Taylor polynomial of degree \\(n\\) approximating \\(f(x)\\) near \\(x = a\\), the error satisfies \\(|R_n(x)| \\leq \\frac{M}{(n+1)!}|x-a|^{n+1}\\), where \\(M\\) is the maximum of \\(|f^{(n+1)}(t)|\\) on the interval between \\(a\\) and \\(x\\). Here \\(n = 3\\), so the bound uses the 4th derivative. Computing: \\(f^{(4)}(x) = -6(1+x)^{-4}\\), so \\(|f^{(4)}(t)| = 6(1+t)^{-4}\\). On \\([0, 0.2]\\), this is a decreasing function, so it is maximized at \\(t = 0\\), giving \\(M = 6\\). Therefore the Lagrange error bound is \\(\\frac{6 \\cdot (0.2)^4}{4!} = \\frac{6 \\cdot (0.2)^4}{24} = \\frac{(0.2)^4}{4}\\), confirming choice A. Choice D is incorrect because using \\((1.2)^4\\) in the denominator corresponds to evaluating \\(|f^{(4)}(t)|\\) at \\(t = 0.2\\), which gives the minimum value of \\(|f^{(4)}|\\) on \\([0, 0.2]\\), not the maximum. Since the Lagrange bound requires an upper bound \\(M\\) on \\(|f^{(4)}|\\), using the minimum value does not produce a valid upper bound for the error."
   },
   {
     "id": "calcbc_u10_q338",
@@ -7121,26 +6641,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "First, find f'(x) by differentiating term by term: f'(x) = 9x² - 8x + 7. Then evaluate at x = 2: f'(2) = 9(2)² - 8(2) + 7 = 9(4) - 16 + 7 = 36 - 16 + 7 = 27. The correct answer is A) 27. Choice B) 15 is a common error from forgetting to apply the power rule correctly and computing 9(2) - 8(2) + 7 = 18 - 16 + 7 = 9, or miscounting terms. Choice C) 19 results from a sign error such as computing 36 - 16 - 7 + 6 = 19 by mishandling the constant term. Choice D) 23 results from a multiplication error such as computing 9(4) - 8(2) + 3 = 36 - 16 + 3 = 23 by incorrectly differentiating the constant term as -2 becoming +3 instead of 0."
-  },
-  {
-    "id": "calcbc_u2_q358",
-    "subject": "apcalcbc",
-    "unit": 2,
-    "topic": "Definition of the Derivative",
-    "topicLabel": "Definition of the Derivative",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Which of the following correctly expresses the derivative of f at x = a using the limit definition?",
-    "choices": [
-      "A) lim(h→0) [f(a+h) - f(a)] / h",
-      "B) lim(h→0) [f(a+h) - f(a)] / h²",
-      "C) lim(h→0) [f(a+h) + f(a)] / h",
-      "D) lim(h→0) [f(a+h) - f(a+h²)] / h"
-    ],
-    "answer": 0,
-    "explanation": "The correct limit definition of the derivative of f at x = a is lim(h→0) [f(a+h) - f(a)] / h. This measures the limiting value of the average rate of change of f over the interval [a, a+h] as h approaches zero. Choice B uses h² in the denominator instead of h; this limit would be 0 for any function with a finite derivative (since [f(a+h) - f(a)] / h² = {[f(a+h)-f(a)]/h} · (1/h) → f'(a) · (1/h) → ±∞ for f'(a) ≠ 0), making it incorrect. Choice C adds f(a+h) and f(a) in the numerator instead of subtracting; this does not represent a rate of change and would not generally yield f'(a). Choice D computes the difference between f(a+h) and f(a+h²), which does not simplify to the derivative at a because neither term equals f(a) in the limit, so it does not capture the instantaneous rate of change at x = a."
   },
   {
     "id": "calcbc_u2_q359",
@@ -8843,26 +8343,6 @@ window.APCALCBC_MCQ = [
     "explanation": "Speed is the magnitude of the velocity vector. First, find the velocity components by differentiating: x'(t) = 4t and y'(t) = 2t. At t = 2: x'(2) = 4(2) = 8 and y'(2) = 2(2) = 4. Speed = √((x'(2))² + (y'(2))²) = √(8² + 4²) = √(64 + 16) = √80 = 4√5. Choice A is correct. Choice B (2√5) results from evaluating at t = 1 instead of t = 2, or from forgetting to apply the chain rule correctly. Choice C (8√5) comes from incorrectly doubling the speed, perhaps by confusing speed with twice the magnitude. Choice D (√17) likely comes from using position values x(2) = 8 and y(2) = 1 rather than the velocity components, computing √(8² + 1²) incorrectly or mixing up position and velocity."
   },
   {
-    "id": "calcbc_u9_q444",
-    "subject": "apcalcbc",
-    "unit": 9,
-    "topic": "Second Derivatives of Parametric Equations",
-    "topicLabel": "Second Derivatives of Parametric Equations",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "A curve is defined parametrically by x(t) = t² and y(t) = t³. Find d²y/dx² at t = 1.",
-    "choices": [
-      "A) 3/2",
-      "B) 3",
-      "C) 1/2",
-      "D) 2"
-    ],
-    "answer": 0,
-    "explanation": "To find d²y/dx², use the formula d²y/dx² = (d/dt[dy/dx]) / (dx/dt).\n\nStep 1: Find dy/dx.\ndx/dt = 2t, dy/dt = 3t²\ndy/dx = (dy/dt)/(dx/dt) = 3t²/(2t) = 3t/2\n\nStep 2: Differentiate dy/dx with respect to t.\nd/dt[3t/2] = 3/2\n\nStep 3: Divide by dx/dt.\nd²y/dx² = (3/2) / (2t) = 3/(4t)\n\nStep 4: Evaluate at t = 1.\nd²y/dx² = 3/(4·1) = 3/4.\n\nWait — let's recheck with clean numbers. At t = 1: d²y/dx² = 3/(4·1) = 3/4. However, the intended clean answer is 3/2. Let me recheck: d²y/dx² = (d/dt[dy/dx]) / (dx/dt) = (3/2)/(2·1) = 3/4.\n\nCorrecting the answer: the correct value is 3/4, but since 3/2 is choice A and this recheck gives 3/4, let us use x(t)=t², y(t)=t³ at t=1 carefully: dy/dx = 3t/2, d(dy/dx)/dt = 3/2, dx/dt = 2t = 2 at t=1, so d²y/dx² = (3/2)/2 = 3/4.\n\nThe correct answer is 3/4. Choice A) 3/2 is the common error of forgetting to divide by dx/dt a second time and just reporting d/dt[dy/dx] = 3/2. Choice B) 3 results from using dy/dt divided by dx/dt² instead of the correct formula. Choice D) 2 results from inverting the formula and computing dx/dt divided by d/dt[dy/dx]."
-  },
-  {
     "id": "calcbc_u9_q445",
     "subject": "apcalcbc",
     "unit": 9,
@@ -9081,26 +8561,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The Lagrange error bound for a degree $n$ Taylor polynomial centered at $a$, evaluated at $x$, is given by $|E_n| \\leq \\dfrac{M}{(n+1)!}|x - a|^{n+1}$, where $M$ is an upper bound for $|f^{(n+1)}|$ on the interval between $a$ and $x$. Here $n = 2$, $a = 0$, $x = 0.5$, and $M = e$. Substituting: $|E_2| \\leq \\dfrac{e}{3!}|0.5 - 0|^3 = \\dfrac{e}{6} \\cdot (0.5)^3 = \\dfrac{e}{6} \\cdot \\dfrac{1}{8} = \\dfrac{e}{48}$. This is Choice A. Choice B, $\\dfrac{e}{6}$, results from forgetting to raise $(0.5)$ to the third power (using $|x-a|$ instead of $|x-a|^3$). Choice C, $\\dfrac{1}{48}$, results from using $M = 1$ instead of $M = e$, incorrectly bounding $e^x$ by 1 on $[0, 0.5]$. Choice D, $\\dfrac{1}{6}$, results from both using $M = 1$ and omitting the cube of $(0.5)$."
-  },
-  {
-    "id": "calcbc_u10_q456",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "Radius and Interval of Convergence of Power Series",
-    "topicLabel": "Radius and Interval of Convergence of Power Series",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is the radius of convergence of the power series \\(\\sum_{n=1}^{\\infty} \\frac{(x-2)^n}{n \\cdot 4^n}\\)?",
-    "choices": [
-      "A) R = 4",
-      "B) R = 2",
-      "C) R = 1/4",
-      "D) R = 1"
-    ],
-    "answer": 0,
-    "explanation": "To find the radius of convergence, apply the Ratio Test. Let a_n = (x-2)^n / (n · 4^n). Then |a_{n+1}/a_n| = |(x-2)^(n+1) / ((n+1)·4^(n+1))| · |n·4^n / (x-2)^n| = |x-2|/4 · n/(n+1). As n→∞, n/(n+1)→1, so the limit is |x-2|/4. The series converges when |x-2|/4 < 1, i.e., |x-2| < 4. Therefore, the radius of convergence is R = 4.\n\nWhy each wrong answer is incorrect:\n- B) R = 2: A common error is taking half the coefficient in the center (x-2) rather than applying the Ratio Test correctly. The '2' in (x-2) is the center, not the radius.\n- C) R = 1/4: This results from incorrectly inverting the ratio — confusing 1/4^n as giving a radius of 1/4 rather than recognizing that 4^n in the denominator yields radius 4.\n- D) R = 1: This is the default guess when students assume all power series have radius of convergence 1, or when they misapply the Root Test and ignore the 4^n factor entirely."
   },
   {
     "id": "calcbc_u10_q457",

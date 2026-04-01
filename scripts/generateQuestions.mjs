@@ -385,7 +385,14 @@ async function generateForSubject(subjectKey, targetOverride) {
 
           let generated;
           try {
-            const cleaned = genRaw.replace(/```json|```/g, '').replace(/\.\.\./g, '').replace(/\u2014/g, '-').replace(/\u2013/g, '-').trim();
+            const cleaned = genRaw
+              .replace(/```json|```/g, '')
+              .replace(/\.\.\./g, '')
+              .replace(/\u2014/g, '-')
+              .replace(/\u2013/g, '-')
+              .replace(/"([A-D])"(\)[^"]*?)"/g, '"$1$2"')
+              .replace(/"([A-D])": "([^"]*)"/g, '"$1) $2"')
+              .trim();
             // Try direct parse first
             try {
               generated = JSON.parse(cleaned);
@@ -393,17 +400,64 @@ async function generateForSubject(subjectKey, targetOverride) {
               // Fall back to extracting the array using bracket matching
               const start = cleaned.indexOf('[');
               if (start === -1) throw new Error('No JSON array found in response');
-              let depth = 0, end = -1;
-              for (let i = start; i < cleaned.length; i++) {
-                if (cleaned[i] === '[') depth++;
-                else if (cleaned[i] === ']') { depth--; if (depth === 0) { end = i; break; } }
+              let depth = 0, end = -1, inString = false, i = start;
+              while (i < cleaned.length) {
+                const ch = cleaned[i];
+                if (inString) {
+                  if (ch === '\\') { i += 2; continue; } // skip escaped char
+                  if (ch === '"') inString = false;
+                } else {
+                  if (ch === '"') inString = true;
+                  else if (ch === '[') depth++;
+                  else if (ch === ']') { depth--; if (depth === 0) { end = i; break; } }
+                }
+                i++;
               }
               if (end === -1) throw new Error('Unterminated JSON array');
               generated = JSON.parse(cleaned.slice(start, end + 1));
             }
           } catch {
-            console.log(`PARSE ERROR — skipping`);
-            console.log(`Raw (last 500): ${genRaw.slice(-500)}`);
+            console.log(`PARSE ERROR — retrying one at a time...`);
+            fs.writeFileSync('scripts/parse_error_debug.txt', genRaw, 'utf8');
+            let recovered = 0;
+            for (let r = 0; r < batchCount; r++) {
+              await sleep(DELAY_MS);
+              try {
+                const singleRaw = await callBedrock(
+                  buildGeneratePrompt(subjectKey, unit, unitConfig.topics, difficulty, 1, lastIndex + r)
+                );
+                const singleCleaned = singleRaw
+                  .replace(/```json|```/g, '')
+                  .replace(/\.\.\./g, '')
+                  .replace(/\u2014/g, '-')
+                  .replace(/\u2013/g, '-')
+                  .replace(/"([A-D])"(\)[^"]*?)"/g, '"$1$2"')
+                  .trim();
+                let singleParsed;
+                try {
+                  singleParsed = JSON.parse(singleCleaned);
+                } catch {
+                  const start2 = singleCleaned.indexOf('[');
+                  if (start2 === -1) throw new Error('no array');
+                  let depth2 = 0, end2 = -1, inStr2 = false, j = start2;
+                  while (j < singleCleaned.length) {
+                    const c = singleCleaned[j];
+                    if (inStr2) { if (c === '\\') { j += 2; continue; } if (c === '"') inStr2 = false; }
+                    else { if (c === '"') inStr2 = true; else if (c === '[') depth2++; else if (c === ']') { depth2--; if (depth2 === 0) { end2 = j; break; } } }
+                    j++;
+                  }
+                  if (end2 === -1) throw new Error('unterminated');
+                  singleParsed = JSON.parse(singleCleaned.slice(start2, end2 + 1));
+                }
+                if (Array.isArray(singleParsed) && singleParsed.length > 0) {
+                  existing.push(singleParsed[0]);
+                  recovered++;
+                }
+              } catch {
+                console.log(`  single retry ${r + 1} failed — skipping`);
+              }
+            }
+            console.log(`  recovered ${recovered}/${batchCount} from retry`);
             remaining -= batchCount;
             await sleep(DELAY_MS);
             continue;
