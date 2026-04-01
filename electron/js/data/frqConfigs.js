@@ -914,4 +914,92 @@ var FRQ_CONFIGS = {
     ]
   }
 
+  ,apgov: {
+    principles: [
+      "separation of powers",
+      "checks and balances",
+      "federalism",
+      "supremacy clause",
+      "necessary and proper clause",
+      "tenth amendment",
+      "first amendment",
+      "fourth amendment",
+      "fourteenth amendment",
+      "due process",
+      "equal protection",
+      "judicial review",
+      "selective incorporation",
+      "commerce clause",
+      "enumerated powers",
+      "reserved powers",
+      "iron triangle",
+      "citizens united",
+      "duverger's law",
+      "free speech",
+      "linkage institutions"
+    ]
+  }
+
+  ,apcalcbc: {
+    principles: [
+      "fundamental theorem of calculus",
+      "ftc",
+      "chain rule",
+      "product rule",
+      "quotient rule",
+      "mean value theorem",
+      "mvt",
+      "intermediate value theorem",
+      "ivt",
+      "l'hopital's rule",
+      "squeeze theorem",
+      "riemann sum",
+      "definition of the derivative",
+      "limit definition",
+      "power rule",
+      "derivative",
+      "antiderivative",
+      "integration by substitution",
+      "integration by parts",
+      "partial fractions",
+      "taylor series",
+      "maclaurin series",
+      "lagrange error bound",
+      "ratio test",
+      "alternating series test",
+      "geometric series",
+      "radius of convergence",
+      "interval of convergence",
+      "parametric equations",
+      "polar coordinates",
+      "vector-valued functions"
+    ]
+  }
+
+  ,apenviro: {
+    principles: [
+      "law of conservation of energy",
+      "10% rule",
+      "trophic level energy transfer",
+      "law of limiting factors",
+      "range of tolerance",
+      "logistic growth",
+      "carrying capacity",
+      "demographic transition model",
+      "rule of 70",
+      "nitrogen cycle",
+      "carbon cycle",
+      "phosphorus cycle",
+      "hydrologic cycle",
+      "bioaccumulation",
+      "biomagnification",
+      "primary succession",
+      "secondary succession",
+      "competitive exclusion principle",
+      "tragedy of the commons",
+      "greenhouse effect",
+      "EROI"
+    ]
+  }
+
 };

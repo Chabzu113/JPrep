@@ -536,7 +536,9 @@ window.APUSHGrader = (function () {
     // Anachronism anywhere in the essay voids the outside evidence point
     const hasAnachronism = evDetect.highlights.some(function (h) { return h.type === 'anachronism'; });
     if (hasAnachronism) {
-      return { earned: 0, outsideTerm: null, highlights: evDetect.highlights };
+      const aTerm = evDetect.highlights.find(function (h) { return h.type === 'anachronism'; });
+      return { earned: 0, outsideTerm: null, highlights: evDetect.highlights,
+        reason: 'Anachronism: "' + (aTerm ? aTerm.text : 'modern term') + '" is not historically valid for this period' };
     }
 
     // Check unit-specific outsideEvidenceTerms first — these always count as outside

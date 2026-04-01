@@ -133,7 +133,16 @@ function getQuestionTypeLabel(q, subjId) {
     if (ft === 'saq') return 'SAQ';
     if (ft === 'leq') return 'LEQ';
     if (ft === 'dbq') return 'DBQ';
-    return ft === 'short' ? 'Short FRQ' : ft === 'long' ? 'Long FRQ' : 'FRQ';
+    if (ft === 'short') return 'Short FRQ';
+    if (ft === 'long') return 'Long FRQ';
+    if (ft === 'saq') return 'SAQ';
+    if (ft === 'leq') return 'LEQ';
+    if (ft === 'dbq') return 'DBQ';
+    if (ft === 'ca') return 'CA';
+    if (ft === 'qa') return 'QA';
+    if (ft === 'scotus') return 'SCOTUS';
+    if (ft === 'arg') return 'ARG';
+    return 'FRQ';
   }
   // MCQ
   if (subjId === 'apcalcab') {
@@ -181,6 +190,9 @@ function initQuestionBank() {
   const urlDiff = App.getUrlParam('difficulty');
   if (urlDiff) currentFilters.difficulty = urlDiff;
 
+  const urlStatus = App.getUrlParam('status');
+  if (urlStatus) currentFilters.status = urlStatus;
+
   renderSubjectContext();
   renderUnitTabs();
   renderAccordion();
@@ -226,6 +238,8 @@ function applyFilters() {
     filteredQuestions.sort((a, b) => (order[b.difficulty] || 0) - (order[a.difficulty] || 0));
   } else if (currentSort === 'random') {
     filteredQuestions = App.shuffle(filteredQuestions);
+  } else if (currentSort === 'adaptive') {
+    filteredQuestions = AdaptiveEngine.sort(filteredQuestions);
   }
 
   renderPreview();
@@ -436,7 +450,7 @@ function renderPreview() {
       const status = App.getQuestionStatus(q.id);
       return `<div class="card preview-row" style="margin-bottom:10px;padding:14px 18px;display:flex;align-items:center;gap:12px;cursor:default">
         <span style="color:var(--text-muted);font-size:0.85rem;min-width:24px;font-weight:600">${i + 1}</span>
-        <span style="flex:1;font-size:0.95rem;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${App.escapeHtml(q.question || q.prompt || '')}</span>
+        <span style="flex:1;font-size:0.95rem;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${renderFRQPromptText(q.question || q.prompt || '')}</span>
         <span class="badge ${diffColor[q.difficulty] || 'badge-medium'}" style="flex-shrink:0">${q.difficulty || 'medium'}</span>
         <span class="badge badge-unit" style="flex-shrink:0">U${q.unit}</span>
         <span style="flex-shrink:0">${statusIcon[status] || '⬜'}</span>
@@ -444,6 +458,8 @@ function renderPreview() {
     }).join('')}
     ${total > 8 ? `<div style="text-align:center;padding:16px;color:var(--text-muted);font-size:0.9rem">+ ${total - 8} more questions</div>` : ''}
   `;
+  const previewEl = document.getElementById('previewContainer');
+  if (typeof renderMath !== 'undefined' && previewEl) renderMath(previewEl);
 }
 
 // ─── Session: Start ───────────────────────────────────────────────────────────
@@ -532,7 +548,7 @@ function renderSessionQuestion() {
   if (!q) return;
 
   const wrap = document.getElementById('sessionQuestionWrap');
-  const isFRQ = q.type && (q.type.includes('FRQ') || q.type === 'SAQ' || q.type === 'LEQ' || q.type === 'DBQ');
+  const isFRQ = q.type && (q.type.includes('FRQ') || q.type === 'SAQ' || q.type === 'LEQ' || q.type === 'DBQ' || q.type === 'CA' || q.type === 'QA' || q.type === 'SCOTUS' || q.type === 'ARG');
   const state = sessionAnswerState[q.id];
   const diffColor = { easy: '#16a34a', medium: '#d97706', hard: '#dc2626' };
   const diffBg = { easy: '#dcfce7', medium: '#fef9c3', hard: '#fee2e2' };
@@ -609,10 +625,16 @@ function renderSessionQuestion() {
 
     const submitBtn = state ? '' : `<button class="btn btn-primary session-submit-btn" id="sessionSubmitBtn" style="margin-top:24px">Submit Answer</button>`;
 
+    const explainBtnHtml = (state && !state.correct && q.choices) ?
+      `<button class="btn btn-secondary btn-sm" id="explainThisBtn"
+        style="margin-top:12px;font-size:0.85rem">✦ Explain This</button>
+       <div id="aiExplanationContainer" class="ai-explanation-box"></div>` : '';
+
     const feedbackHtml = state ? `
       <div class="session-feedback ${state.correct ? 'session-feedback-correct' : 'session-feedback-wrong'}">
         <p class="feedback-title">${state.correct ? '✓ Correct!' : '✗ Incorrect — Correct answer: ' + String.fromCharCode(65 + q.answer) + ')'}</p>
         <p class="feedback-body">${renderFRQPromptText(q.explanation || '')}</p>
+        ${explainBtnHtml}
       </div>` : '';
 
     bodyHtml = `<div class="choices-list" id="sessionChoices">${choicesHtml}</div>${submitBtn}${feedbackHtml}`;
@@ -837,6 +859,7 @@ function renderSessionQuestion() {
     </div>`;
 
   // Render any LaTeX embedded as data-latex spans (AP Calc AB, etc.)
+  console.log('[renderSessionQuestion] KaTeX available:', typeof katex !== 'undefined', '| renderMath available:', typeof renderMath !== 'undefined');
   renderMath(wrap);
   // Attach lightbox + dark-mode invert to any diagram/image tags
   if (window.PhysicsRenderer) PhysicsRenderer.upgradeDiagrams(wrap);
@@ -999,6 +1022,17 @@ function renderSessionQuestion() {
       }
     }
 
+  }
+
+  // Wire Explain This button
+  const explainBtn = document.getElementById('explainThisBtn');
+  if (explainBtn && typeof AIExplainer !== 'undefined') {
+    explainBtn.addEventListener('click', function() {
+      const container = document.getElementById('aiExplanationContainer');
+      explainBtn.disabled = true;
+      explainBtn.textContent = '✦ Explaining...';
+      AIExplainer.explain(q, sessionAnswerState[q.id].selectedIndex, container);
+    });
   }
 
   updateSessionHeader();

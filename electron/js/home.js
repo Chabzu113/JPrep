@@ -6,7 +6,7 @@
   try {
     var s = JSON.parse(localStorage.getItem('apcsa_state') || '{}');
     if (!s.subjectsConfigured) { window.location.replace('subject-select.html'); }
-  } catch(e) {}
+  } catch(e) { console.warn('home: state parse error:', e); }
 })();
 
 // Returns total question count for a subject by summing all its dataFile arrays

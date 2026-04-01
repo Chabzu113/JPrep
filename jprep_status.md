@@ -41,6 +41,14 @@ All banks deduped via `scripts/dedupeMCQ.mjs` — zero duplicates confirmed.
 
 ## Features Completed
 
+### New Subjects — AP Gov, AP Calc BC, AP Environmental Science
+- **AP Gov:** 315 MCQ + 25 FRQ (CA, QA, SCOTUS, ARG types) — live with full MCQ and FRQ banks wired into app
+- **AP Calc BC:** 442 MCQ + 50 FRQ — live with full MCQ and FRQ banks wired into app
+- **AP Environmental Science:** 615 MCQ + 54 FRQ — live with full MCQ and FRQ banks wired into app
+- `generateFRQ.mjs` extended to support `apgov`, `apcalcbc`, and `apenviro`
+- `frqConfigs.js` has grading configs for all three subjects
+- `questionBank.js` FRQ type display mapping extended to handle CA, QA, SCOTUS, and ARG types for AP Gov
+
 ### Core App
 - Multi-subject dashboard with subject switcher
 - Question bank with filtering by unit, difficulty, topic, question type
@@ -109,14 +117,8 @@ All banks deduped via `scripts/dedupeMCQ.mjs` — zero duplicates confirmed.
 
 ## Remaining Tasks
 
-### 1. FRQ Generation for new subjects (new chat)
-- Add `apgov`, `apcalcbc`, `apenviro` to `generateFRQ.mjs`
-- Generate FRQ banks for all three
-- Wire into app (`subjects.js` dataFiles, hasContent)
-
-### 2. Flip `hasContent: true` for apgov, apcalcbc, apenviro
-- Update `subjects.js` with full unit definitions and `hasContent: true`
-- Wire dataFiles for MCQ + FRQ once FRQs are generated
+### 1. ~~FRQ Generation for new subjects~~ — COMPLETE
+### 2. ~~Flip `hasContent: true` for apgov, apcalcbc, apenviro~~ — COMPLETE
 
 ### 3. AI Answer Explainer hardening (new chat)
 - API key format validation (`sk-ant-` prefix)

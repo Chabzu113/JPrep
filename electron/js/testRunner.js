@@ -244,7 +244,7 @@ function selectTest(testId, subjectId) {
         localStorage.removeItem('apcsa_active_test');
       }
     }
-  } catch(e) {}
+  } catch(e) { console.warn('localStorage read error:', e); }
 
   setTestMode(true);
   renderIntroScreen();
