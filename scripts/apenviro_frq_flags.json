@@ -1,0 +1,13 @@
+{
+  "generated": "2026-04-01T20:55:55.128Z",
+  "flags": [
+    {
+      "id": "enviro_u3_frq017",
+      "issue": "Part (d) contains an internal factual contradiction: the question prompt describes fawns experiencing 'very high early mortality,' which is the defining characteristic of a Type III survivorship curve (concave), yet the rubric awards the point only for identifying a Type I survivorship curve (convex, low early mortality). This makes the question unanswerable as written - the scenario described does not match the expected answer. The question text in part (d) has been corrected in the clean version to remove the high fawn mortality detail so the described survival pattern (low early mortality, high adult survival, sharp drop in old age) is internally consistent with a Type I curve. Additionally, the rubric text in part (d) originally contained a stray self-contradicting editorial note ('Type II survivorship curve is NOT correct here') that was removed for clarity."
+    },
+    {
+      "id": "enviro_u8_frq043",
+      "issue": "Difficulty label was 'easy' but the question requires multi-step mechanistic reasoning (eutrophication sequence), source classification with justification, and consequence explanation across three parts - corrected to 'medium'."
+    }
+  ]
+}

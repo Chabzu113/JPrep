@@ -4066,25 +4066,6 @@ window.APMACRO_MCQ = [
     "explanation": "Public capital (infrastructure) makes private production more efficient, shifting LRAS and the PPC outward."
   },
   {
-    "id": "macro-u5-m016",
-    "subject": "apmacro",
-    "unit": 5,
-    "topic": "Budget Balance",
-    "topicLabel": "Budget Balance",
-    "difficulty": "medium",
-    "source": "Generated",
-    "question": "A budget surplus occurs when:",
-    "choices": [
-      "The money supply is increasing.",
-      "Tax revenues exceed government spending.",
-      "Exports exceed imports.",
-      "The national debt is zero.",
-      "Interest rates are falling."
-    ],
-    "answer": 1,
-    "explanation": "A surplus is the opposite of a deficit; it's when the government brings in more than it spends."
-  },
-  {
     "id": "macro-u5-h017",
     "subject": "apmacro",
     "unit": 5,

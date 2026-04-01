@@ -5081,26 +5081,6 @@ var APCALC_MCQ = [
     "explanation": "By the chain rule, f'(x) = cos(3x^2 + 1) * d/dx(3x^2 + 1) = cos(3x^2 + 1) * 6x = 6x cos(3x^2 + 1). Choice B forgets the inner derivative. Choice C keeps sin instead of cos. Choice D incorrectly adds a negative sign."
   },
   {
-    "id": "calc_u3_q057",
-    "subject": "apcalc",
-    "unit": 3,
-    "topic": "implicit differentiation",
-    "topicLabel": "Implicit Differentiation",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Given x^2 + y^2 = 25, find dy/dx.",
-    "choices": [
-      "A) -x/y",
-      "B) x/y",
-      "C) -y/x",
-      "D) -2x"
-    ],
-    "answer": 0,
-    "explanation": "Differentiating both sides: 2x + 2y(dy/dx) = 0, so dy/dx = -2x/(2y) = -x/y. Choice B forgets the negative sign. Choice C has x and y swapped. Choice D only differentiates x^2 and ignores the implicit y term."
-  },
-  {
     "id": "calc_u3_q058",
     "subject": "apcalc",
     "unit": 3,
@@ -9041,106 +9021,6 @@ var APCALC_MCQ = [
     "explanation": "Using the product rule: f'(x) = 3x^2 * sin(x) + x^3 * cos(x). Applying the product rule again to each term: f''(x) = 6x * sin(x) + 3x^2 * cos(x) + 3x^2 * cos(x) - x^3 * sin(x) = 6x * sin(x) + 6x^2 * cos(x) - x^3 * sin(x). Evaluating at x = 0: f''(0) = 6(0)sin(0) + 6(0)^2 cos(0) - (0)^3 sin(0) = 0. B) 3 is a common error from misapplying the product rule once and evaluating incorrectly. C) 6 comes from students who compute 6x and plug in x = 1 instead of x = 0, or who forget that sin(0) = 0 and only keep the 6x term evaluated incorrectly. D) -6 is a sign error variant of the same misconception."
   },
   {
-    "id": "calc_u2_q259",
-    "subject": "apcalc",
-    "unit": 2,
-    "topic": "definition of derivative and differentiability",
-    "topicLabel": "Definition of Derivative and Differentiability",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Let f(x) = |x^2 - 4x + 3|. At how many points in the open interval (0, 4) is f not differentiable?",
-    "choices": [
-      "A) 0",
-      "B) 1",
-      "C) 2",
-      "D) 3"
-    ],
-    "answer": 2,
-    "explanation": "First factor the inside: x^2 - 4x + 3 = (x - 1)(x - 3). This expression equals zero at x = 1 and x = 3, and is negative on (1, 3). The absolute value creates a corner (cusp) wherever the inside expression changes sign, which occurs at x = 1 and x = 3. At these points the left-hand and right-hand derivatives differ, so f is not differentiable. That gives 2 points. A) 0 is wrong because students may forget the absolute value creates non-differentiable points. B) 1 is wrong if a student only identifies one root or thinks the parabola only crosses zero once. D) 3 is wrong if a student mistakenly includes the vertex of the parabola as a non-differentiable point."
-  },
-  {
-    "id": "calc_u2_q260",
-    "subject": "apcalc",
-    "unit": 2,
-    "topic": "higher order derivatives with trig and power rule",
-    "topicLabel": "Higher Order Derivatives with Trig and Power Rule",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "If f(x) = x^3 * sin(x), what is f''(0)?",
-    "choices": [
-      "A) 0",
-      "B) 1",
-      "C) 6",
-      "D) 3"
-    ],
-    "answer": 0,
-    "explanation": "Using the product rule: f'(x) = 3x^2 * sin(x) + x^3 * cos(x). Applying the product rule again to each term: f''(x) = 6x * sin(x) + 3x^2 * cos(x) + 3x^2 * cos(x) - x^3 * sin(x) = 6x * sin(x) + 6x^2 * cos(x) - x^3 * sin(x). Evaluating at x = 0: f''(0) = 6(0)sin(0) + 6(0)^2 * cos(0) - (0)^3 * sin(0) = 0. B) 1 is a common error from misapplying the product rule and evaluating cos(0) = 1 without the x-factors. C) 6 comes from students who drop the sin(x) and cos(x) factors and just differentiate x^3 twice to get 6x, then mistakenly evaluate at x = 1. D) 3 results from incorrectly computing only one derivative and evaluating."
-  },
-  {
-    "id": "calc_u2_q261",
-    "subject": "apcalc",
-    "unit": 2,
-    "topic": "definition of derivative and differentiability",
-    "topicLabel": "Definition of Derivative and Differentiability",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Let f(x) = |x^2 - 4x + 3|. At how many points in the open interval (0, 4) is f not differentiable?",
-    "choices": [
-      "A) 0",
-      "B) 1",
-      "C) 2",
-      "D) 3"
-    ],
-    "answer": 2,
-    "explanation": "First factor: x^2 - 4x + 3 = (x - 1)(x - 3). This expression equals zero at x = 1 and x = 3, and is negative between them. The absolute value creates corner points (cusps) wherever the inside expression changes sign, which occurs at x = 1 and x = 3. At these points the left-hand and right-hand derivatives differ, so f is not differentiable. Students who choose 0 may forget about the absolute value. Students who choose 1 may only find one root. Students who choose 3 may incorrectly count the vertex of the parabola as a non-differentiable point."
-  },
-  {
-    "id": "calc_u2_q262",
-    "subject": "apcalc",
-    "unit": 2,
-    "topic": "higher order derivatives with trig and power rule",
-    "topicLabel": "Higher Order Derivatives with Trig Functions",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "If f(x) = x^3 * sin(x), what is f''(0)?",
-    "choices": [
-      "A) 0",
-      "B) 6",
-      "C) 3",
-      "D) -6"
-    ],
-    "answer": 0,
-    "explanation": "Using the product rule: f'(x) = 3x^2 * sin(x) + x^3 * cos(x). Applying the product rule again to each term: f''(x) = 6x * sin(x) + 3x^2 * cos(x) + 3x^2 * cos(x) - x^3 * sin(x) = 6x * sin(x) + 6x^2 * cos(x) - x^3 * sin(x). Evaluating at x = 0: f''(0) = 6(0)sin(0) + 6(0)^2 cos(0) - (0)^3 sin(0) = 0. Students who choose 6 may incorrectly differentiate only the x^3 part and get 6x, evaluating that at x = 0 as 6 by confusing it with f'''(0) of x^3 alone. Students who choose 3 may make an error in the product rule by dropping a term."
-  },
-  {
-    "id": "calc_u3_q266",
-    "subject": "apcalc",
-    "unit": 3,
-    "topic": "chain rule",
-    "topicLabel": "chain rule",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Find the derivative of f(x) = (3x + 1)^5.",
-    "choices": [
-      "A) 15(3x + 1)^4",
-      "B) 5(3x + 1)^4",
-      "C) 15(3x + 1)^5",
-      "D) 3(3x + 1)^4"
-    ],
-    "answer": 0,
-    "explanation": "Using the chain rule, f'(x) = 5(3x + 1)^4 * 3 = 15(3x + 1)^4. Choice B forgets to multiply by the derivative of the inner function (3). Choice C keeps the exponent as 5 instead of reducing it. Choice D uses 3 instead of 5 * 3 = 15, confusing the chain rule factor with the coefficient."
-  },
-  {
     "id": "calc_u3_q267",
     "subject": "apcalc",
     "unit": 3,
@@ -9941,26 +9821,6 @@ var APCALC_MCQ = [
     "explanation": "f(x) = x|x| can be written as x^2 for x >= 0 and -x^2 for x < 0. The difference quotient at 0 is f(h)/h. For h > 0, f(h)/h = h^2/h = h -> 0. For h < 0, f(h)/h = -h^2/h = -h -> 0. Both one-sided limits equal 0, so f'(0) = 0. Choice B comes from confusing f with |x| and thinking the slope is 1. Choice C is wrong because f is continuous at 0. Choice D is a common misconception from students who assume absolute value functions are never differentiable at the critical point."
   },
   {
-    "id": "calc_u2_q315",
-    "subject": "apcalc",
-    "unit": 2,
-    "topic": "definition of derivative and differentiability",
-    "topicLabel": "Definition of Derivative and Differentiability",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Let f(x) = x|x|. Using the limit definition of the derivative, which of the following is true about f'(0)?",
-    "choices": [
-      "A) f'(0) = 0",
-      "B) f'(0) = 1",
-      "C) f'(0) does not exist because f is not continuous at x = 0",
-      "D) f'(0) does not exist because the left- and right-hand limits of the difference quotient are not equal"
-    ],
-    "answer": 1,
-    "explanation": "f(x) = x|x| can be written as x^2 for x >= 0 and -x^2 for x < 0. The difference quotient from the right is h^2/h = h -> 0, and from the left is -h^2/h = -h -> 0. Both one-sided limits equal 0, so f'(0) = 0. Choice B comes from confusing f with |x| and thinking the slope is 1. Choice C is wrong because f is continuous. Choice D is a common misconception from students who assume absolute value functions are never differentiable at the critical point."
-  },
-  {
     "id": "calc_u2_q316",
     "subject": "apcalc",
     "unit": 2,
@@ -9979,86 +9839,6 @@ var APCALC_MCQ = [
     ],
     "answer": 3,
     "explanation": "The average rate of change is (g(4) - g(0))/(4 - 0). g(4) = 64 - 96 + 36 + 2 = 6 and g(0) = 2, so the average rate is (6 - 2)/4 = 1. The instantaneous rate is g'(x) = 3x^2 - 12x + 9. Setting 3x^2 - 12x + 9 = 1 gives 3x^2 - 12x + 8 = 0. The discriminant is 144 - 96 = 48 > 0, so there are two real solutions: x = (12 ± sqrt(48))/6 = 2 ± (2sqrt(3))/3, approximately 0.845 and 3.155. Both values lie in the open interval (0, 4), giving exactly 2 values of c in the open interval."
-  },
-  {
-    "id": "calc_u2_q317",
-    "subject": "apcalc",
-    "unit": 2,
-    "topic": "definition of derivative and differentiability",
-    "topicLabel": "Definition of Derivative and Differentiability",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Let f(x) = |x^2 - 4x + 3|. At how many points in the open interval (0, 4) is f not differentiable?",
-    "choices": [
-      "A) 0",
-      "B) 1",
-      "C) 2",
-      "D) 3"
-    ],
-    "answer": 2,
-    "explanation": "First factor the inside: x^2 - 4x + 3 = (x - 1)(x - 3). This expression equals zero at x = 1 and x = 3, and is negative between them. The absolute value creates a corner at each point where the inside changes sign and the derivative of the inside is nonzero. At x = 1, the derivative of the inside is 2(1) - 4 = -2 (nonzero), so there is a corner. At x = 3, the derivative of the inside is 2(3) - 4 = 2 (nonzero), so there is a corner. Thus f is not differentiable at exactly 2 points."
-  },
-  {
-    "id": "calc_u2_q318",
-    "subject": "apcalc",
-    "unit": 2,
-    "topic": "higher order derivatives with trig and power rule",
-    "topicLabel": "Higher Order Derivatives with Trig Functions",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "If f(x) = x^3 * sin(x), what is f''(0)?",
-    "choices": [
-      "A) 0",
-      "B) 3",
-      "C) 6",
-      "D) -6"
-    ],
-    "answer": 0,
-    "explanation": "Using the product rule: f'(x) = 3x^2 * sin(x) + x^3 * cos(x). Differentiating again: f''(x) = 6x * sin(x) + 3x^2 * cos(x) + 3x^2 * cos(x) + x^3 * (-sin(x)) = 6x * sin(x) + 6x^2 * cos(x) - x^3 * sin(x). Evaluating at x = 0: f''(0) = 0 + 0 - 0 = 0."
-  },
-  {
-    "id": "calc_u3_q319",
-    "subject": "apcalc",
-    "unit": 3,
-    "topic": "chain rule",
-    "topicLabel": "Chain Rule",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "If f(x) = sin(3x^2 + 1), what is f'(x)?",
-    "choices": [
-      "A) 6x cos(3x^2 + 1)",
-      "B) cos(3x^2 + 1)",
-      "C) 6x sin(3x^2 + 1)",
-      "D) -6x cos(3x^2 + 1)"
-    ],
-    "answer": 0,
-    "explanation": "Using the chain rule, f'(x) = cos(3x^2 + 1) * d/dx(3x^2 + 1) = cos(3x^2 + 1) * 6x = 6x cos(3x^2 + 1). Choice B is wrong because it forgets the derivative of the inner function (a very common error). Choice C incorrectly keeps sin instead of changing to cos. Choice D has an incorrect negative sign, confusing the derivative of sin with that of cos."
-  },
-  {
-    "id": "calc_u3_q320",
-    "subject": "apcalc",
-    "unit": 3,
-    "topic": "implicit differentiation",
-    "topicLabel": "Implicit Differentiation",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Given x^2 + xy + y^2 = 7, find dy/dx.",
-    "choices": [
-      "A) -(2x + y) / (x + 2y)",
-      "B) -(2x + y) / (2y)",
-      "C) (2x + y) / (x + 2y)",
-      "D) -(2x) / (x + 2y)"
-    ],
-    "answer": 0,
-    "explanation": "Differentiating implicitly: 2x + y + x(dy/dx) + 2y(dy/dx) = 0. The product rule on xy gives y + x(dy/dx). Collecting dy/dx terms: (x + 2y)(dy/dx) = -(2x + y), so dy/dx = -(2x + y)/(x + 2y). Choice B forgets the x(dy/dx) term from the product rule on xy, only accounting for 2y(dy/dx). Choice C has the wrong sign, forgetting the negative. Choice D omits the y term from the product rule differentiation of xy."
   },
   {
     "id": "calc_u3_q321",
@@ -10541,26 +10321,6 @@ var APCALC_MCQ = [
     "explanation": "The correct answer is choice C: 2 + integral from 1 to 4 of (t^2 - 5t + 4) dt. v(t) = t^2 - 5t + 4 = (t - 1)(t - 4). The velocity is negative on (1, 4), meaning the particle moves left during this interval. The particle is farthest to the left at t = 4, where it stops moving left. To find the position at t = 4, we start from the initial position x(0) = 2 and add the net displacement from t = 1 to t = 4 (the interval during which the particle moves left). Since v(t) is positive on (0, 1), the particle first moves right and returns to a local reference, but the net displacement starting from t = 1 accounts for the leftward motion. The position at t = 4 is 2 + integral from 1 to 4 of (t^2 - 5t + 4) dt. Choice A incorrectly starts the integral at t = 0, including rightward displacement from (0,1) that offsets the leftward motion. Choice B forgets the initial position x(0) = 2. Choice D incorrectly uses the absolute value, which would compute total distance rather than net displacement."
   },
   {
-    "id": "calc_u8_q345",
-    "subject": "apcalc",
-    "unit": 8,
-    "topic": "volumes washer method",
-    "topicLabel": "Volumes - Washer Method",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "The region R is bounded by y = x^2 and y = 2x. What is the volume of the solid generated when R is revolved about the line y = -1?",
-    "choices": [
-      "A) pi * integral from 0 to 2 of [(2x+1)^2 - (x^2+1)^2] dx",
-      "B) pi * integral from 0 to 2 of [(2x)^2 - (x^2)^2] dx",
-      "C) pi * integral from 0 to 2 of [(x^2-1)^2 - (2x-1)^2] dx",
-      "D) pi * integral from 0 to 2 of [(2x-1)^2 - (x^2-1)^2] dx"
-    ],
-    "answer": 0,
-    "explanation": "When revolving about y = -1, the outer radius is the distance from y = 2x to y = -1, which is (2x + 1), and the inner radius is the distance from y = x^2 to y = -1, which is (x^2 + 1). On [0,2], y = 2x >= y = x^2, so y = 2x is closer to the axis of revolution y = -1. The inner radius is (2x + 1) (shorter distance) and the outer radius is (x^2 + 1) (longer distance). Since (x^2 + 1) > (2x + 1) on (0,2), the volume is pi * integral from 0 to 2 of [(2x+1)^2 - (x^2+1)^2] dx. Choice B is wrong because it ignores the shift to y = -1. Choice C reverses outer and inner radii and subtracts 1 instead of adding 1. Choice D subtracts 1 instead of adding 1, a common error when students confuse the direction of the shift for a line below the x-axis."
-  },
-  {
     "id": "calc_u8_q346",
     "subject": "apcalc",
     "unit": 8,
@@ -10579,25 +10339,5 @@ var APCALC_MCQ = [
     ],
     "answer": 1,
     "explanation": "On the interval (pi/4, 5pi/4), sin(x) >= cos(x), so the area is the integral of [sin(x) - cos(x)] dx from pi/4 to 5pi/4. Choice A reverses the order of subtraction, yielding a negative value. Choice C incorrectly adds the functions instead of subtracting. Choice D unnecessarily splits the integral and reverses the subtraction on the second piece, incorrectly assuming the top and bottom curves switch at x = pi when they do not switch until x = 5pi/4."
-  },
-  {
-    "id": "calc_u8_q347",
-    "subject": "apcalc",
-    "unit": 8,
-    "topic": "volumes washer method",
-    "topicLabel": "volumes washer method",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "The region R is bounded by y = x^2 and y = 2x. What is the volume of the solid generated when R is revolved about the line y = -1?",
-    "choices": [
-      "A) 34/3",
-      "B) 20/3",
-      "C) 26/3",
-      "D) 32/3"
-    ],
-    "answer": 2,
-    "explanation": "The curves y = x^2 and y = 2x intersect at x = 0 and x = 2. On [0,2], y = 2x is above y = x^2. When revolving about y = -1, the outer radius is R = 2x - (-1) = 2x + 1 and the inner radius is r = x^2 - (-1) = x^2 + 1. The volume is V = pi * integral from 0 to 2 of [(2x+1)^2 - (x^2+1)^2] dx = pi * integral from 0 to 2 of [4x^2 + 4x + 1 - x^4 - 2x^2 - 1] dx = pi * integral from 0 to 2 of [-x^4 + 2x^2 + 4x] dx = pi * [-x^5/5 + 2x^3/3 + 2x^2] from 0 to 2 = pi * [-32/5 + 16/3 + 8] = pi * [(-96 + 80 + 120)/15] = 104pi/15. The correct answer is 26/3."
   }
 ];

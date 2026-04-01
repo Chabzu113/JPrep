@@ -7386,26 +7386,6 @@ window.PHYSC_MCQ = [
     "explanation": "At the zero field point, GM/x² = G(M/81)/(d-x)², where d is Earth-Moon distance and x is distance from Earth. This gives 1/x² = 1/[81(d-x)²], so 9(d-x) = x, giving x = 9d/10. Students often set up the equation incorrectly or make algebraic errors in solving the quadratic."
   },
   {
-    "id": "physc_u7_q299",
-    "subject": "apphysc",
-    "unit": 7,
-    "topic": "orbital mechanics",
-    "topicLabel": "orbital mechanics",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A satellite in circular orbit has kinetic energy K. What is its total mechanical energy?",
-    "choices": [
-      "A) -K",
-      "B) K",
-      "C) -K/2",
-      "D) K/2"
-    ],
-    "answer": 0,
-    "explanation": "For circular orbits, K = GMm/2r and U = -GMm/r, so U = -2K. Total energy E = K + U = K - 2K = -K. This is a fundamental result: for bound orbits, total energy is negative and equals the negative of kinetic energy. Students often forget the negative sign or think E = K + U without considering the relationship between K and U."
-  },
-  {
     "id": "physc_u7_q300",
     "subject": "apphysc",
     "unit": 7,
@@ -10446,26 +10426,6 @@ window.PHYSC_MCQ = [
     "explanation": "Kirchhoff's current law states that current in equals current out at any junction (conservation of charge). If current in = 1.5 × current out, KCL is violated. KVL could still be satisfied around loops. Students might think this violates both laws or is somehow physically possible."
   },
   {
-    "id": "physc_u10_q452",
-    "subject": "apphysc",
-    "unit": 10,
-    "topic": "RC circuits transient",
-    "topicLabel": "RC circuits transient",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "In an RC charging circuit, when does the power dissipated in the resistor reach its maximum value?",
-    "choices": [
-      "A) At t = 0",
-      "B) At t = RC",
-      "C) At t = 2RC",
-      "D) As t approaches infinity"
-    ],
-    "answer": 0,
-    "explanation": "Power in resistor P = I²R = (V₀e^(-t/RC)/R)²R = V₀²e^(-2t/RC)/R. This is maximum at t = 0 when current is maximum (V₀/R). Students often confuse this with capacitor energy storage, which peaks later, or think maximum power occurs at the time constant RC."
-  },
-  {
     "id": "physc_u10_q453",
     "subject": "apphysc",
     "unit": 10,
@@ -13406,26 +13366,6 @@ window.PHYSC_MCQ = [
     "explanation": "The period of a simple pendulum is T = 2 pi sqrt(L/g). Replacing g with g/4 gives T' = 2 pi sqrt(L/(g/4)) = 2 pi sqrt(4L/g) = 2 * 2 pi sqrt(L/g) = 2T. The period doubles. Choice B incorrectly assumes T is proportional to 1/g. Choice C reverses the relationship. Choice D confuses the factor with reducing g by half instead of by a factor of 4."
   },
   {
-    "id": "physc_u6_q603",
-    "subject": "apphysc",
-    "unit": 6,
-    "topic": "energy in SHM",
-    "topicLabel": "Energy in Simple Harmonic Motion",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A mass on a spring oscillates with amplitude A. At what displacement from equilibrium is the kinetic energy equal to three times the potential energy?",
-    "choices": [
-      "A) x = A / 2",
-      "B) x = A sqrt(3) / 2",
-      "C) x = A / sqrt(2)",
-      "D) x = A / 4"
-    ],
-    "answer": 0,
-    "explanation": "Total energy E = (1/2)kA^2. Potential energy U = (1/2)kx^2 and kinetic energy K = E - U. Setting K = 3U gives E - U = 3U, so E = 4U, meaning U = E/4. Then (1/2)kx^2 = (1/4)(1/2)kA^2, so x^2 = A^2/4, giving x = A/2. Choice B comes from confusing with the case K = U (x = A/sqrt(2)) or misapplying trig identities. Choice C is where K = U. Choice D confuses x with A/4 by incorrectly setting x = A/4 from U = E/4 without proper algebra."
-  },
-  {
     "id": "physc_u6_q604",
     "subject": "apphysc",
     "unit": 6,
@@ -16364,26 +16304,6 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Equilibrium occurs where F = -dU/dx = 0. Computing the derivative: dU/dx = 12x^3 - 24x^2 + 12x = 12x(x^2 - 2x + 1) = 12x(x-1)^2. Setting this equal to zero gives equilibrium positions at x = 0 and x = 1. To determine stability, we examine the second derivative: d^2U/dx^2 = 36x^2 - 48x + 12. At x = 0: d^2U/dx^2 = 12 > 0, confirming a local minimum, so x = 0 is a stable equilibrium. At x = 1: d^2U/dx^2 = 36 - 48 + 12 = 0, so the second derivative test is inconclusive. To go further, we examine the sign of the force F = -12x(x-1)^2 near x = 1. For x slightly less than 1, F = -12x(x-1)^2 < 0. For x slightly greater than 1, F = -12x(x-1)^2 < 0. The force points in the same direction on both sides of x = 1 rather than restoring the particle toward x = 1, which means x = 1 is not a stable equilibrium. This is consistent with x = 1 being an inflection point in the force function. Therefore, only x = 0 is a position of stable equilibrium. Answer A is correct."
-  },
-  {
-    "id": "physc_u3_q769",
-    "subject": "apphysc",
-    "unit": 3,
-    "topic": "power",
-    "topicLabel": "Instantaneous Power and Calculus",
-    "difficulty": "hard",
-    "calculator": false,
-    "format": "text",
-    "isLatex": false,
-    "question": "A 2 kg object moves along a straight line with velocity v(t) = (3t^2 - 2t) m/s. What is the instantaneous power delivered by the net force acting on the object at t = 2 s?",
-    "choices": [
-      "A) 80 W",
-      "B) 160 W",
-      "C) 128 W",
-      "D) 64 W"
-    ],
-    "answer": 1,
-    "explanation": "Power is P = F·v. First find acceleration: a = dv/dt = 6t - 2. At t = 2 s, a = 6(2) - 2 = 10 m/s^2. The net force is F = ma = 2(10) = 20 N. The velocity at t = 2 s is v = 3(4) - 2(2) = 12 - 4 = 8 m/s. Therefore P = Fv = 20 × 8 = 160 W. Distractor A (80 W) results from forgetting to multiply by mass (using P = a·v = 10·8 = 80). Distractor C (128 W) comes from incorrectly computing P = d(KE)/dt using the chain rule but making an algebraic error, such as using v^2 derivative incorrectly. Distractor D (64 W) arises from using v = 3t^2 without the -2t term, giving v(2) = 12 and then an incorrect force calculation, or from computing (1/2)(2)(8^2) = 64 which is the kinetic energy, not power."
   },
   {
     "id": "physc_u3_q770",

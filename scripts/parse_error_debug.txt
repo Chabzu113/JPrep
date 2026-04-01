@@ -1,0 +1,202 @@
+[
+  {
+    "id": "enviro_u2_q047",
+    "subject": "apenviro",
+    "unit": 2,
+    "topic": "biodiversity",
+    "topicLabel": "Biodiversity",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Which of the following best defines biodiversity?",
+    "choices": [
+      "A) The variety of life in an area, including genetic, species, and ecosystem diversity",
+      "B) The total number of individual organisms living in a given habitat",
+      "C) The number of different ecosystems found on Earth",
+      "D) The genetic similarity among members of the same species"
+    ],
+    "answer": 0,
+    "explanation": "Biodiversity refers to the variety of life at multiple levels: genetic diversity within species, species diversity within communities, and ecosystem diversity across landscapes. Option B describes population size, not diversity. Option C only addresses one level of biodiversity. Option D describes genetic uniformity, which is the opposite of genetic diversity."
+  },
+  {
+    "id": "enviro_u2_q048",
+    "subject": "apenviro",
+    "unit": 2,
+    "topic": "natural selection",
+    "topicLabel": "Natural Selection",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A population of moths lives on trees covered in dark bark due to industrial pollution. Over several generations, dark-colored moths become more common than light-colored moths. This change is best explained by which process?",
+    "choices": [
+      "A) Natural selection favoring dark moths because they are better camouflaged from predators",
+      "B) Individual moths changing their color in response to the dark environment",
+      "C) Dark moths migrating into the area from other regions",
+      "D) Mutation randomly increasing the number of dark moths in one generation"
+    ],
+    "answer": 0,
+    "explanation": "Natural selection occurs when traits that improve survival and reproduction become more common over generations. Dark moths survive better because predators cannot easily spot them on dark bark, so they reproduce more. Option B describes Lamarckian inheritance, a common misconception — individuals do not change their traits based on environment. Option C is migration, not selection. Option D describes mutation, which provides variation but does not explain the directional change over generations."
+  },
+  {
+    "id": "enviro_u2_q049",
+    "subject": "apenviro",
+    "unit": 2,
+    "topic": "ecological succession",
+    "topicLabel": "Ecological Succession",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Which of the following is an example of primary succession?",
+    "choices": [
+      "A) Plants colonizing bare rock exposed by a retreating glacier",
+      "B) A forest recovering after a wildfire that left soil intact",
+      "C) Grasses returning to a field that was previously farmed",
+      "D) Shrubs replacing grasses after a flood recedes"
+    ],
+    "answer": 0,
+    "explanation": "Primary succession begins in areas where no soil exists and no previous community was present, such as bare rock left by a retreating glacier. Pioneer species like lichens break down rock into soil. Options B, C, and D all describe secondary succession, which occurs where soil remains after a disturbance and recovery is faster because nutrients and seeds are already present."
+  },
+  {
+    "id": "enviro_u2_q050",
+    "subject": "apenviro",
+    "unit": 2,
+    "topic": "island biogeography",
+    "topicLabel": "Island Biogeography",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "According to the theory of island biogeography, which island would be expected to have the greatest species richness?",
+    "choices": [
+      "A) A large island located close to the mainland",
+      "B) A small island located close to the mainland",
+      "C) A large island located far from the mainland",
+      "D) A small island located far from the mainland"
+    ],
+    "answer": 0,
+    "explanation": "Island biogeography theory predicts that species richness is highest on large islands that are close to the mainland. Large islands have more habitat and resources, reducing extinction rates. Proximity to the mainland increases immigration rates as colonizing species do not have to travel far. Small and distant islands have higher extinction rates and lower immigration rates, respectively, resulting in fewer species."
+  },
+  {
+    "id": "enviro_u2_q051",
+    "subject": "apenviro",
+    "unit": 2,
+    "topic": "keystone species",
+    "topicLabel": "Keystone Species",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A keystone species is best described as a species that:",
+    "choices": [
+      "A) Has a disproportionately large effect on its ecosystem relative to its abundance",
+      "B) Is the most numerous species in an ecosystem",
+      "C) Occupies the highest trophic level in a food web",
+      "D) Is introduced to an ecosystem from another region"
+    ],
+    "answer": 0,
+    "explanation": "A keystone species has an outsized impact on ecosystem structure and function relative to how abundant it is. If removed, the ecosystem changes dramatically. Option B describes a dominant species, not a keystone species — keystone species are often not the most numerous. Option C describes apex predators, which may or may not be keystone species. Option D describes an introduced or invasive species."
+  },
+  {
+    "id": "enviro_u2_q052",
+    "subject": "apenviro",
+    "unit": 2,
+    "topic": "species richness",
+    "topicLabel": "Species Richness",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Species richness refers to which of the following?",
+    "choices": [
+      "A) The total number of different species present in a given area",
+      "B) The relative abundance of each species in a community",
+      "C) The number of individuals belonging to the most common species",
+      "D) The genetic diversity within a single species"
+    ],
+    "answer": 0,
+    "explanation": "Species richness is simply the count of distinct species in a defined area. It does not take into account how many individuals of each species are present. Option B describes species evenness, which together with richness contributes to species diversity. Option C refers to the dominant species' population size. Option D refers to genetic diversity, a different component of biodiversity."
+  },
+  {
+    "id": "enviro_u2_q053",
+    "subject": "apenviro",
+    "unit": 2,
+    "topic": "extinction",
+    "topicLabel": "Extinction",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Which of the following human activities is most directly responsible for the current elevated rate of species extinction?",
+    "choices": [
+      "A) Habitat destruction and fragmentation",
+      "B) Overhunting of apex predators only",
+      "C) Introduction of native species to new regions",
+      "D) Reduction of carbon dioxide in the atmosphere"
+    ],
+    "answer": 0,
+    "explanation": "Habitat destruction and fragmentation is the leading cause of the current mass extinction, as it eliminates the living spaces and resources species need to survive and reproduce. Option B is too narrow — overhunting affects some species but is not the primary driver overall. Option C is incorrect because the introduction of native species is not a concern; it is invasive (non-native) species that threaten biodiversity. Option D is incorrect because reducing CO2 would not cause extinctions and is not a current trend."
+  },
+  {
+    "id": "enviro_u2_q054",
+    "subject": "apenviro",
+    "unit": 2,
+    "topic": "biotic interactions",
+    "topicLabel": "Biotic Interactions",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In a mutualistic relationship, which of the following outcomes is correct?",
+    "choices": [
+      "A) Both species benefit from the interaction",
+      "B) One species benefits while the other is unaffected",
+      "C) One species benefits while the other is harmed",
+      "D) Both species are harmed by the interaction"
+    ],
+    "answer": 0,
+    "explanation": "Mutualism is a biotic interaction in which both species gain a benefit, such as the relationship between bees and flowering plants — bees get nectar and plants get pollinated. Option B describes commensalism, where one organism benefits and the other is neither helped nor harmed. Option C describes parasitism or predation, where one benefits and the other is harmed. Option D does not describe any standard ecological interaction among species that persist together."
+  },
+  {
+    "id": "enviro_u2_q055",
+    "subject": "apenviro",
+    "unit": 2,
+    "topic": "ecological succession",
+    "topicLabel": "Ecological Succession",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In ecological succession, pioneer species are important because they:",
+    "choices": [
+      "A) Modify the environment in ways that allow other species to establish",
+      "B) Outcompete all other species and remain dominant indefinitely",
+      "C": "Prevent further succession by stabilizing the ecosystem",
+      "D) Are always the largest and most productive organisms in the community"
+    ],
+    "answer": 0,
+    "explanation": "Pioneer species colonize disturbed or barren environments and begin to alter abiotic conditions — for example, lichens break down rock into soil and fix nutrients — making the habitat suitable for later successional species. Option B is incorrect because pioneer species are typically replaced by other species as conditions change. Option C is the opposite of what happens; pioneers facilitate further succession. Option D is incorrect because pioneers are usually small, slow-growing organisms like lichens and mosses."
+  },
+  {
+    "id": "enviro_u2_q056",
+    "subject": "apenviro",
+    "unit": 2,
+    "topic": "keystone species",
+    "topicLabel": "Keystone Species",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Sea otters are considered a keystone species in kelp forest ecosystems because they prey on sea urchins. What would most likely happen if sea otters were removed from the ecosystem?",
+    "choices": [
+      "A) Sea urchin populations would increase and overgraze kelp, collapsing the kelp forest",
+      "B) Kelp populations would increase because sea otters also eat kelp",
+      "C) Sea urchin populations would decrease due to lack of competition",
+      "D) The ecosystem would remain stable because other predators would increase equally"
+    ],
+    "answer": 0,
+    "explanation": "Sea otters keep sea urchin populations in check. Without otters, sea urchins multiply and consume vast amounts of kelp, destroying the kelp forest habitat that many species depend on. This demonstrates the disproportionate role of keystone species. Option B is incorrect because sea otters eat sea urchins, not kelp. Option C is incorrect — removing a predator increases, not decreases, prey populations. Option D is a common misconception; trophic cascades do not automatically stabilize when a keystone species is removed."
+  }
+]

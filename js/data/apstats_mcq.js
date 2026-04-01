@@ -1501,25 +1501,6 @@ var APSTATS_MCQ = [
     "explanation": "Picking based on a fixed interval (k).\n\n💡 Systematic = 'Pattern-based'."
   },
   {
-    "id": "stats_u3_020",
-    "subject": "apstats",
-    "unit": 3,
-    "topic": "Observational vs Experiment",
-    "topicLabel": "Observational vs Experiment",
-    "difficulty": "medium",
-    "source": "Generated",
-    "question": "Key difference?",
-    "choices": [
-      "Sample size",
-      "Doctor involvement",
-      "Deliberate treatment",
-      "Selection method",
-      "No difference"
-    ],
-    "answer": 2,
-    "explanation": "Observational studies just watch; experiments intervene.\n\n💡 Only experiments can prove causation."
-  },
-  {
     "id": "stats_u3_021",
     "subject": "apstats",
     "unit": 3,
@@ -9841,27 +9822,6 @@ var APSTATS_MCQ = [
     "explanation": "E(W) = 2E(X) - 3E(Y) + 1 = 2(5) - 3(2) + 1 = 10 - 6 + 1 = 5. Since X and Y are independent, Var(W) = 2^2 Var(X) + (-3)^2 Var(Y) = 4(3) + 9(4) = 12 + 36 = 48. Choice B is wrong because students sometimes think the variances cancel when subtracting. Choice C (24) results from forgetting to square the coefficients: 2(3) + 3(4) + some error, or computing 2(3) + 9(4)/2. Choice D incorrectly computes the expected value by subtracting the constant instead of adding it. Choice E is wrong because students sometimes subtract variances when variables are subtracted, getting 4(3) - 9(4) = -24, but variance can never be negative and variances always add for independent variables regardless of whether variables are added or subtracted."
   },
   {
-    "id": "stats_u5_q266",
-    "subject": "apstats",
-    "unit": 5,
-    "topic": "unbiasedness",
-    "topicLabel": "Unbiasedness",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A statistic is said to be an unbiased estimator of a population parameter if which of the following is true?",
-    "choices": [
-      "A) The mean of its sampling distribution equals the population parameter.",
-      "B) The standard deviation of its sampling distribution is as small as possible.",
-      "C) Its value from any single sample equals the population parameter.",
-      "D) Its sampling distribution is approximately normal.",
-      "E) It consistently overestimates the population parameter by a known amount."
-    ],
-    "answer": 0,
-    "explanation": "An estimator is unbiased when the mean (expected value) of its sampling distribution equals the true population parameter. Choice B describes efficiency, not unbiasedness. Choice C is incorrect because individual sample statistics will vary around the parameter; unbiasedness is about the long-run average, not any single value. Choice D describes normality, which is related to the Central Limit Theorem but not to unbiasedness. Choice E describes a biased estimator, not an unbiased one."
-  },
-  {
     "id": "stats_u5_q267",
     "subject": "apstats",
     "unit": 5,
@@ -10807,27 +10767,6 @@ var APSTATS_MCQ = [
     "explanation": "Because the same runners are measured under both conditions, the data are paired and a paired t-test is appropriate. The test statistic is t = d-bar / (s_d / sqrt(n)) = 0.8 / (1.2 / sqrt(12)) = 0.8 / (1.2 / 3.464) = 0.8 / 0.3464 ≈ 2.31. A and D are wrong because a two-sample t-test ignores the paired structure, which loses information about within-subject variability. C uses the paired test but computes t incorrectly (0.8/1.2 = 0.67, forgetting to divide s_d by sqrt(n)). E incorrectly uses 0.8 as the test statistic without any standardization."
   },
   {
-    "id": "stats_u7_q312",
-    "subject": "apstats",
-    "unit": 7,
-    "topic": "t-distribution",
-    "topicLabel": "t-Distribution",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Which of the following statements about the t-distribution is true?",
-    "choices": [
-      "A) The t-distribution is skewed to the right for all degrees of freedom.",
-      "B) As the degrees of freedom increase, the t-distribution approaches the chi-square distribution.",
-      "C) The t-distribution has a larger standard deviation than the standard normal distribution for any finite degrees of freedom.",
-      "D) The t-distribution can only be used when the population standard deviation is known.",
-      "E) The center of the t-distribution shifts to the right as degrees of freedom increase."
-    ],
-    "answer": 2,
-    "explanation": "The t-distribution is symmetric and bell-shaped (like the normal), but it has heavier tails, meaning more spread and a larger standard deviation than the standard normal for any finite degrees of freedom. A is wrong because the t-distribution is symmetric, not skewed. B is wrong because the t-distribution approaches the standard normal (z), not the chi-square distribution. D is wrong because the t-distribution is specifically used when the population standard deviation is unknown and must be estimated by s. E is wrong because the t-distribution is always centered at 0 regardless of degrees of freedom."
-  },
-  {
     "id": "stats_u7_q313",
     "subject": "apstats",
     "unit": 7,
@@ -11768,26 +11707,6 @@ var APSTATS_MCQ = [
     ],
     "answer": 0,
     "explanation": "The standard error of the slope is s / sqrt(sum of (x_i - x_bar)^2). Increasing the spread of x-values increases the denominator, which decreases SE_b. Choice B would decrease the denominator and increase SE_b. Choice C would increase s and thus SE_b. Choice D reduces the spread of x-values, increasing SE_b. Choice E shifts y-values but does not affect variability around the line or the spread of x."
-  },
-  {
-    "id": "stats_u9_q358",
-    "subject": "apstats",
-    "unit": 9,
-    "topic": "inference for slope",
-    "topicLabel": "Conditions for Inference for Slope",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "question": "Which of the following is NOT a condition that must be checked before performing inference for the slope of a regression line?",
-    "choices": [
-      "A) The distribution of x-values must be approximately normal.",
-      "B) The true relationship between x and y is linear.",
-      "C) The standard deviation of y is the same for all values of x.",
-      "D) For each value of x, the responses y are independent.",
-      "E) For each value of x, the y-values are approximately normally distributed."
-    ],
-    "answer": 0,
-    "explanation": "Inference for regression slope requires linearity, independence, normality of residuals (or y for given x), and equal variance (constant SD). There is no requirement that the x-values themselves be normally distributed. Choices B, C, D, and E are all legitimate conditions (LINE: Linear, Independent, Normal, Equal variance)."
   },
   {
     "id": "stats_u9_q359",

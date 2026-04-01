@@ -49,6 +49,229 @@ const PHASE_CONTENT = {
   }
 };
 
+// ─── Insights Engine ─────────────────────────────────────────────────────────
+function getPlannerInsights(subjectId) {
+  const subject = SubjectRegistry.getSubjectById(subjectId);
+
+  // Return zeroed object for subjects without content
+  if (!subject || !subject.hasContent || !subject.units || subject.units.length === 0) {
+    return {
+      unitStats: [], weakUnits: [], unseenUnits: [],
+      totalQuestions: 0, totalAnswered: 0, coveragePct: 0,
+      pacePer7Days: 0, projectedCoverage: 0, streak: 0,
+      testsTaken: 0, totalWrongCount: 0, daysUntilExam: subject ? SubjectRegistry.daysUntilExam(subject) : 0
+    };
+  }
+
+  // Load all questions from window globals
+  const allQ = [];
+  (subject.dataFiles || []).forEach(f => {
+    const arr = window[f];
+    if (Array.isArray(arr)) allQ.push(...arr);
+  });
+
+  const state = App.getState();
+  const bucket = (state.subjects && state.subjects[subjectId]) || {};
+  const questionHistory = bucket.questionHistory || {};
+
+  // Per-unit stats
+  const unitStats = subject.units.map(u => {
+    const unitQ = allQ.filter(q => q.unit === u.num);
+    let seen = 0, correct = 0;
+    unitQ.forEach(q => {
+      const h = questionHistory[q.id];
+      if (h && h.seen) { seen++; if (h.correct) correct++; }
+    });
+    return {
+      unitNum: u.num,
+      unitTitle: u.title,
+      total: unitQ.length,
+      seen,
+      correct,
+      accuracy: seen > 0 ? correct / seen : 0,
+      wrongCount: seen - correct
+    };
+  });
+
+  const weakUnits = unitStats
+    .filter(u => u.accuracy < 0.65 && u.seen >= 5)
+    .sort((a, b) => a.accuracy - b.accuracy);
+
+  const unseenUnits = unitStats.filter(u => u.seen === 0);
+
+  const totalQuestions = unitStats.reduce((s, u) => s + u.total, 0);
+  const totalAnswered = unitStats.reduce((s, u) => s + u.seen, 0);
+  const coveragePct = totalQuestions > 0 ? Math.round(totalAnswered / totalQuestions * 100) : 0;
+
+  // Pace: questions answered in last 7 days
+  const sevenDaysAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  let pacePer7Days = 0;
+  Object.values(questionHistory).forEach(h => {
+    if (h.lastSeen && h.lastSeen >= sevenDaysAgo) pacePer7Days++;
+  });
+
+  const daysUntilExam = SubjectRegistry.daysUntilExam(subject);
+
+  // Projected coverage
+  let projectedCoverage;
+  if (daysUntilExam > 0 && totalQuestions > 0) {
+    projectedCoverage = Math.min(100, Math.round(
+      (totalAnswered + pacePer7Days * (daysUntilExam / 7)) / totalQuestions * 100
+    ));
+  } else {
+    projectedCoverage = coveragePct;
+  }
+
+  // Streak: consecutive calendar days ending today with activity
+  let streak = 0;
+  const datesToCheck = new Set();
+  Object.values(questionHistory).forEach(h => {
+    if (h.lastSeen) datesToCheck.add(new Date(h.lastSeen).toDateString());
+  });
+  const day = new Date();
+  while (true) {
+    if (datesToCheck.has(day.toDateString())) {
+      streak++;
+      day.setDate(day.getDate() - 1);
+    } else {
+      break;
+    }
+  }
+
+  const testsTaken = App.getSubjectOverallStats(subjectId).testsTaken;
+  const totalWrongCount = unitStats.reduce((s, u) => s + u.wrongCount, 0);
+
+  return {
+    unitStats, weakUnits, unseenUnits,
+    totalQuestions, totalAnswered, coveragePct,
+    pacePer7Days, daysUntilExam, projectedCoverage,
+    streak, testsTaken, totalWrongCount
+  };
+}
+
+// ─── Today's Focus Card ──────────────────────────────────────────────────────
+function buildTodaysFocusCard(insights, subject) {
+  // Determine focus unit by priority
+  let focus = null;
+  if (insights.weakUnits.length > 0) {
+    focus = insights.weakUnits[0];
+  } else if (insights.unseenUnits.length > 0) {
+    focus = insights.unseenUnits[0];
+  } else {
+    // Lowest accuracy unit with at least 1 seen question
+    const candidates = insights.unitStats.filter(u => u.seen >= 1).sort((a, b) => a.accuracy - b.accuracy);
+    if (candidates.length > 0) focus = candidates[0];
+  }
+
+  if (!focus && insights.totalAnswered === 0) {
+    return `
+      <div class="card" style="border-left:4px solid ${subject.color};margin-bottom:16px">
+        <h3>\u{1F4CD} Today's Focus</h3>
+        <p style="color:var(--text-muted)">Start practicing to unlock your personalized focus recommendations</p>
+        <a href="question-bank.html" class="btn btn-primary btn-sm">Go to Question Bank</a>
+      </div>`;
+  }
+
+  if (!focus) return '';
+
+  const accDisplay = focus.seen > 0 ? Math.round(focus.accuracy * 100) + '% accuracy' : 'Not started';
+  const remaining = focus.total - focus.seen;
+
+  return `
+    <div class="card" style="border-left:4px solid ${subject.color};margin-bottom:16px">
+      <h3>\u{1F4CD} Today's Focus</h3>
+      <div style="font-size:1.05rem;font-weight:600;margin-bottom:4px">Unit ${focus.unitNum} &mdash; ${App.escapeHtml(focus.unitTitle)}</div>
+      <div style="font-size:0.9rem;color:var(--text-muted);margin-bottom:10px">${accDisplay} &middot; ${remaining} question${remaining !== 1 ? 's' : ''} remaining</div>
+      <a href="question-bank.html?unit=${focus.unitNum}" class="btn btn-primary btn-sm">Drill it &rarr;</a>
+    </div>`;
+}
+
+// ─── Dynamic Task List ───────────────────────────────────────────────────────
+function buildDynamicTaskList(insights, subject, phase) {
+  if (!subject.hasContent && phase.phase !== 'past') {
+    return `
+      <div class="card schedule-week-card" style="grid-column:1/-1">
+        <div class="schedule-week-label">Study Schedule</div>
+        <div class="coming-soon-note">
+          ${subject.emoji} Question bank content for <strong>${subject.name}</strong> is coming soon.<br>
+          Use the countdown and phase guide above to plan your external study sessions.
+        </div>
+      </div>`;
+  }
+
+  if (insights.totalAnswered === 0) {
+    return `
+      <div class="card">
+        <h3>\u{1F4CB} Your Study Plan</h3>
+        <p style="color:var(--text-muted)">Complete some practice questions to unlock your personalized study plan</p>
+        <a href="question-bank.html" class="btn btn-primary btn-sm">Start Practicing</a>
+      </div>`;
+  }
+
+  const tasks = [];
+
+  if (insights.weakUnits.length > 0) {
+    const u = insights.weakUnits[0];
+    tasks.push({
+      label: 'Drill your weakest unit',
+      note: `Unit ${u.unitNum} \u2014 ${Math.round(u.accuracy * 100)}% accuracy`,
+      href: `question-bank.html?unit=${u.unitNum}`,
+      btnText: 'Practice'
+    });
+  }
+
+  if (insights.totalWrongCount > 0) {
+    tasks.push({
+      label: 'Re-attempt wrong answers',
+      note: `${insights.totalWrongCount} question${insights.totalWrongCount !== 1 ? 's' : ''} to retry`,
+      href: 'question-bank.html?status=incorrect',
+      btnText: 'Retry'
+    });
+  }
+
+  if (insights.unseenUnits.length > 0) {
+    const u = insights.unseenUnits[0];
+    tasks.push({
+      label: 'Start a new unit',
+      note: `Unit ${u.unitNum} \u2014 ${App.escapeHtml(u.unitTitle)}`,
+      href: `question-bank.html?unit=${u.unitNum}`,
+      btnText: 'Start'
+    });
+  }
+
+  if (insights.testsTaken < 2) {
+    tasks.push({
+      label: 'Take a full practice test',
+      note: `${insights.testsTaken} test${insights.testsTaken !== 1 ? 's' : ''} completed so far`,
+      href: 'practice-test.html',
+      btnText: 'Go'
+    });
+  }
+
+  tasks.push({
+    label: 'Review your progress',
+    note: `${insights.coveragePct}% of question bank covered`,
+    href: 'results.html',
+    btnText: 'View'
+  });
+
+  const rows = tasks.slice(0, 5).map(t => `
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--border-color)">
+      <div>
+        <div style="font-weight:600;font-size:0.95rem">${App.escapeHtml(t.label)}</div>
+        <div style="font-size:0.82rem;color:var(--text-muted)">${t.note}</div>
+      </div>
+      <a href="${t.href}" class="btn btn-secondary btn-sm" style="white-space:nowrap;margin-left:12px">${App.escapeHtml(t.btnText)}</a>
+    </div>
+  `).join('');
+
+  return `
+    <div class="card">
+      <h3>\u{1F4CB} Your Study Plan</h3>
+      ${rows}
+    </div>`;
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 function initPlanner() {
   const state = App.getState();
@@ -130,23 +353,25 @@ function renderPlannerContent(subjectId) {
 
   const days = SubjectRegistry.daysUntilExam(subject);
   const phase = SubjectRegistry.getStudyPhase(days);
+  const insights = getPlannerInsights(subjectId);
 
   container.innerHTML = `
+    ${buildTodaysFocusCard(insights, subject)}
     <div class="planner-grid">
       <div class="planner-left">
-        ${buildCountdownCard(subject, days)}
-        ${buildProgressCard(subjectId, subject)}
+        ${buildCountdownCard(subject, days, insights)}
+        ${buildProgressCard(subjectId, subject, insights)}
       </div>
       <div class="planner-right">
-        ${buildPhaseCard(phase, days, subject)}
-        ${buildScheduleGrid(phase, subject)}
+        ${buildPhaseCard(phase, days, subject, insights)}
+        ${buildDynamicTaskList(insights, subject, phase)}
       </div>
     </div>
   `;
 }
 
 // ─── Countdown Card ───────────────────────────────────────────────────────────
-function buildCountdownCard(subject, days) {
+function buildCountdownCard(subject, days, insights) {
   const examDateStr = SubjectRegistry.formatExamDate(subject);
 
   if (days <= 0) {
@@ -158,21 +383,30 @@ function buildCountdownCard(subject, days) {
       </div>`;
   }
 
+  const streakHtml = insights.streak >= 2
+    ? `<div style="margin-top:8px;font-size:0.9rem;color:var(--text-muted)">🔥 ${insights.streak}-day streak</div>`
+    : '';
+
   return `
     <div class="card countdown-card" style="border-top-color:${subject.color}">
       <div class="countdown-days-number" style="color:${subject.color}">${days}</div>
       <div class="countdown-days-label">Days Until Exam</div>
       <div class="countdown-exam-date">${examDateStr}</div>
       <div class="countdown-clock" id="countdownClock">loading...</div>
+      ${streakHtml}
     </div>`;
 }
 
 // ─── Phase Card ───────────────────────────────────────────────────────────────
-function buildPhaseCard(phase, days, subject) {
+function buildPhaseCard(phase, days, subject, insights) {
   const content = PHASE_CONTENT[phase.phase] || PHASE_CONTENT.foundations;
 
+  const qbankLink = subject.hasContent && insights.weakUnits.length > 0
+    ? `<a href="question-bank.html?unit=${insights.weakUnits[0].unitNum}" class="btn btn-primary btn-sm">📚 Drill Unit ${insights.weakUnits[0].unitNum}</a>`
+    : `<a href="question-bank.html" class="btn btn-primary btn-sm">📚 Question Bank</a>`;
+
   const actionButtons = subject.hasContent ? `
-    <a href="question-bank.html" class="btn btn-primary btn-sm">📚 Question Bank</a>
+    ${qbankLink}
     <a href="practice-test.html" class="btn btn-secondary btn-sm">📝 Practice Test</a>
     <a href="results.html" class="btn btn-secondary btn-sm">📊 Progress</a>
   ` : `
@@ -190,37 +424,9 @@ function buildPhaseCard(phase, days, subject) {
     </div>`;
 }
 
-// ─── Schedule Grid ────────────────────────────────────────────────────────────
-function buildScheduleGrid(phase, subject) {
-  const content = PHASE_CONTENT[phase.phase] || PHASE_CONTENT.foundations;
-  const weekLabels = ['This Week', 'Next Week', 'Week After'];
-
-  if (!subject.hasContent && phase.phase !== 'past') {
-    return `
-      <div class="card schedule-week-card" style="grid-column:1/-1">
-        <div class="schedule-week-label">Study Schedule</div>
-        <div class="coming-soon-note">
-          ${subject.emoji} Question bank content for <strong>${subject.name}</strong> is coming soon.<br>
-          Use the countdown and phase guide above to plan your external study sessions.
-        </div>
-      </div>`;
-  }
-
-  return `
-    <div class="schedule-grid">
-      ${content.weeks.map((tasks, i) => `
-        <div class="card schedule-week-card">
-          <div class="schedule-week-label">${weekLabels[i] || `Week ${i + 1}`}</div>
-          <ul class="schedule-task-list">
-            ${tasks.map(t => `<li>${App.escapeHtml(t)}</li>`).join('')}
-          </ul>
-        </div>
-      `).join('')}
-    </div>`;
-}
 
 // ─── Progress Card ────────────────────────────────────────────────────────────
-function buildProgressCard(subjectId, subject) {
+function buildProgressCard(subjectId, subject, insights) {
   if (!subject.hasContent || subject.units.length === 0) {
     return `
       <div class="card progress-card">
@@ -247,12 +453,27 @@ function buildProgressCard(subjectId, subject) {
 
   const overall = App.getSubjectOverallStats(subjectId);
 
+  const projColor = insights.projectedCoverage >= 70 ? '#10B981'
+    : insights.projectedCoverage >= 40 ? '#d97706'
+    : '#EF4444';
+
+  const paceHtml = insights.pacePer7Days > 0
+    ? `<div style="margin-top:8px;font-size:0.85rem;color:var(--text-muted)">${insights.pacePer7Days} question${insights.pacePer7Days !== 1 ? 's' : ''} this week</div>`
+    : '';
+
+  const coverageHtml = `
+    <div style="margin-top:4px;font-size:0.85rem;color:${projColor}">
+      ${insights.coveragePct}% of bank covered &middot; on track to reach ${insights.projectedCoverage}% by exam day
+    </div>`;
+
   return `
     <div class="card progress-card">
       <h3>📈 Your Progress
         <span style="float:right;font-size:0.8rem;font-weight:400;color:var(--text-muted)">${overall.totalAnswered} answered · ${overall.accuracy}% accuracy</span>
       </h3>
       ${unitsHtml}
+      ${paceHtml}
+      ${coverageHtml}
       <div style="margin-top:12px;text-align:center">
         <a href="results.html" class="btn btn-secondary btn-sm" style="font-size:0.8rem">Full Analytics →</a>
       </div>

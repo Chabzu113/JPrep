@@ -10,9 +10,13 @@
     return localStorage.getItem(STORAGE_KEY) || '';
   }
 
+  function sanitizeKey(raw) { return raw.replace(/\s+/g, ''); }
+
   function setKey(key) {
-    localStorage.setItem(STORAGE_KEY, key.trim());
+    localStorage.setItem(STORAGE_KEY, sanitizeKey(key));
   }
+
+  function clearKey() { localStorage.removeItem(STORAGE_KEY); }
 
   function hasKey() {
     return !!getKey();
@@ -126,10 +130,13 @@
     });
 
     saveBtn.addEventListener('click', function () {
-      const val = input.value.trim();
-      if (val) {
-        setKey(val);
+      const val = sanitizeKey(input.value);
+      if (!val.startsWith('sk-ant-') || val.length < 20) {
+        errorEl.textContent = 'Key must start with sk-ant-';
+        return;
       }
+      setKey(val);
+      errorEl.textContent = '';
       closeModal();
     });
 
@@ -162,7 +169,12 @@
       modal.appendChild(link);
     }
 
+    const errorEl = document.createElement('p');
+    errorEl.style.cssText = 'margin:4px 0 0;font-size:0.8rem;color:#f87171;min-height:1em;';
+    errorEl.textContent = '';
+
     modal.appendChild(input);
+    modal.appendChild(errorEl);
     modal.appendChild(btnRow);
     overlay.appendChild(modal);
     document.body.appendChild(overlay);
@@ -232,10 +244,12 @@
     if (!response.ok) {
       if (response.status === 400) {
         const body = await response.text();
-        console.log('Anthropic 400 response body:', body);
         containerEl.textContent = 'API 400 error: ' + body;
       } else if (response.status === 401) {
-        containerEl.textContent = 'Invalid API key \u2014 click \u2756 AI to update it.';
+        clearKey();
+        containerEl.textContent = 'API key invalid \u2014 re-enter it in settings.';
+        openSettings();
+        return;
       } else {
         containerEl.textContent = 'API error (' + response.status + '). Please try again.';
       }
@@ -298,7 +312,6 @@
   // ── Export ────────────────────────────────────────────────────────────────
 
   window.AIExplainer = {
-    getKey: getKey,
     setKey: setKey,
     hasKey: hasKey,
     openSettings: openSettings,

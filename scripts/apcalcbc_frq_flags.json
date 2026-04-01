@@ -1,0 +1,29 @@
+{
+  "generated": "2026-04-01T22:25:43.436Z",
+  "flags": [
+    {
+      "id": "calcbc_u2_frq012",
+      "issue": "The system of equations derived from the three given conditions is overdetermined and inconsistent, making the problem factually flawed. The three conditions - (1) average rate of change on [0,2] equals 5 giving 2a+b=5, (2) f(π)=0 with continuity giving aπ²+bπ=0 and c=0, and (3) equal derivatives at x=π giving 2aπ+b=-3 - form a system of three equations in two unknowns (a and b) that has no solution. Specifically, from equations 1 and 3: a=-4/(π-1) and b=5-2a; substituting into equation 2 gives aπ²+bπ=π(aπ+b)=π(aπ+5-2a)=π(a(π-2)+5), which does not equal zero for a=-4/(π-1). The rubric's stated answer a=5π/(2π-4) is also incorrect and inconsistent with the given equations. The problem cannot be solved as written and must be dropped."
+    },
+    {
+      "id": "calcbc_u4_frq023",
+      "issue": "Factual error in Part (a): The point (x, y) = (1, 1) does not lie on the curve x² + 3xy + y² = 7, since 1² + 3(1)(1) + 1² = 5 ≠ 7. A related-rates problem requiring substitution of a specific point must use a point that actually satisfies the defining equation; otherwise the setup is mathematically invalid. Additionally, the Part (d) rubric contains a garbled/incomplete algebraic expression for solving f'(c) = ln(3), suggesting a corrupt formula that would mislead graders."
+    },
+    {
+      "id": "calcbc_u5_frq025",
+      "issue": "Factual error in the y-coordinate of the inflection points. The rubric and part (c) claim g(±2/√3) = −5/9, showing the arithmetic as (16/9) − (32/9) + 3 = −5/9. However, g(2/√3) = (2/√3)⁴ − 8(2/√3)² + 3 = 16/9 − 8(4/3) + 3 = 16/9 − 32/3 + 3 = 16/9 − 96/9 + 27/9 = −53/9. The correct y-coordinate is −53/9, not −5/9. The intermediate step incorrectly reduces 8·(4/3) to 32/9 instead of 96/9. This error propagates through part (c) rubric text, the rubric item description, and the rubric keywords."
+    },
+    {
+      "id": "calcbc_u8_frq044",
+      "issue": "Part (d) rubric contains a garbled/incomplete exact form expression ('[√(4x+1)(4x+1)^(1/2)/4] evaluated, giving L = (1/8)[√5·√(4·1+1) − ]') that is mathematically incoherent and incomplete, indicating a factual/content error in the rubric text. Additionally, part (e) rubric contains an incomplete expression ('= ∫₀^(1/2) √(4 + 1/(4x(t))) · ') that is cut off and mathematically incomplete, and the total distance calculation is conflated with the arc length from part (d) without a clear correct derivation. The distance formula in part (e) yields ∫₀¹ √(4 + 1/x)·(1/2) dx which does NOT equal 1.479 (the arc length of y=√x scaled differently), making the claimed equivalence '≈ 1.479, matching scaled arc length result' factually incorrect - the arc length of y=√x ≈ 1.479 uses ∫₀¹ √(1 + 1/(4x)) dx, while (1/2)∫₀¹ √(4 + 1/x) dx = (1/2)∫₀¹ √(4 + 1/x) dx ≈ (1/2)(2·1.479) = 1.479 is numerically coincidental but the rubric's explanation of the equivalence is muddled and pedagogically inaccurate. The question is dropped due to factual errors in parts (d) and (e)."
+    },
+    {
+      "id": "calcbc_u9_frq047",
+      "issue": "Factual error in part (c) and rubric index 2: The second derivative d²y/dx² at t = 2 is NOT 6. Applying the formula d²y/dx² = [d/dt(dy/dx)]/(dx/dt) with dy/dx = (3t²−6)/(2t−3): d/dt(dy/dx) = [6t(2t−3) − 2(3t²−6)] / (2t−3)² = (6t²−18t+12)/(2t−3)². Dividing by (2t−3) gives d²y/dx² = (6t²−18t+12)/(2t−3)³. At t=2: numerator = 24−36+12 = 0, denominator = (1)³ = 1, so d²y/dx² = 0, not 6. The conclusion of concave up is also therefore wrong. The question, part rubric, and rubric array item all state an incorrect numerical answer."
+    },
+    {
+      "id": "calcbc_u9_frq048",
+      "issue": "Factual error in part (c) and rubric index 2: The slope dy/dx at θ = π is NOT 0. With r = 2+2sinθ, dr/dθ = 2cosθ. At θ = π: r = 2, dr/dθ = −2. dy/dθ = r·cosθ + sinθ·(dr/dθ) = 2·(−1) + 0·(−2) = −2. dx/dθ = −r·sinθ + cosθ·(dr/dθ) = −2·(0) + (−1)·(−2) = 2. Therefore dy/dx = −2/2 = −1, not 0. The rubric description also incorrectly states dx/dθ = 0. The part rubric and rubric array item both contain the wrong slope value and wrong concavity conclusion."
+    }
+  ]
+}

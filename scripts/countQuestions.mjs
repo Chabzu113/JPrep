@@ -14,6 +14,8 @@ const FILES = [
   { file: 'apush_mcq.js',      subject: 'APUSH' },
   { file: 'physics_mcq.js',    subject: 'AP Physics 1' },
   { file: 'physc_mcq.js',      subject: 'AP Physics C' },
+  { file: 'apgov_mcq.js',    subject: 'AP Gov' },
+  { file: 'apcalcbc_mcq.js', subject: 'AP Calc BC' },
 ];
 
 function extractArray(content) {

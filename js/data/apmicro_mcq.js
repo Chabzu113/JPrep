@@ -6750,27 +6750,6 @@ var APMICRO_MCQ = [
     "explanation": "C is correct because if resale is possible, customers who pay lower prices could resell to those facing higher prices, undermining the price discrimination scheme. A is not necessary - price discrimination works with various cost structures. B is wrong because price discrimination requires different groups with different elasticities of demand. D is incorrect as government regulation typically restricts rather than enables price discrimination. E confuses price discrimination with product differentiation."
   },
   {
-    "id": "micro_u4_q051",
-    "subject": "apmicro",
-    "unit": 4,
-    "topic": "natural monopoly",
-    "topicLabel": "natural monopoly",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A natural monopoly occurs when:",
-    "choices": [
-      "A) A firm owns all the natural resources needed for production",
-      "B) Average total cost decreases over the entire range of market demand",
-      "C) The government grants exclusive rights to operate in a market",
-      "D) A firm has a patent on a naturally occurring substance",
-      "E) Market demand is perfectly inelastic"
-    ],
-    "answer": 1,
-    "explanation": "B is correct because natural monopoly occurs when economies of scale are so significant that average total cost continues to decline over the relevant range of market demand, making it efficient to have only one producer. A confuses natural monopoly with resource monopoly. C describes a legal monopoly. D describes a patent monopoly. E about demand elasticity is unrelated to the cost structure that creates natural monopoly."
-  },
-  {
     "id": "micro_u4_q052",
     "subject": "apmicro",
     "unit": 4,
@@ -6853,27 +6832,6 @@ var APMICRO_MCQ = [
     ],
     "answer": 2,
     "explanation": "C is correct because oligopoly's defining feature is that firms must consider rivals' reactions to their decisions due to the small number of competitors. A describes perfect and monopolistic competition. B is wrong because oligopolies can have differentiated products. D is incorrect because oligopolies typically have significant barriers to entry. E describes perfect competition, not oligopoly."
-  },
-  {
-    "id": "micro_u4_q056",
-    "subject": "apmicro",
-    "unit": 4,
-    "topic": "game theory",
-    "topicLabel": "game theory",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "In game theory, a dominant strategy is one that:",
-    "choices": [
-      "A) Always results in the highest possible payoff for a player",
-      "B) Is the best response regardless of what other players do",
-      "C) Guarantees that a player will win the game",
-      "D) Is chosen most frequently by players in repeated games",
-      "E) Leads to the outcome that maximizes total payoffs for all players"
-    ],
-    "answer": 1,
-    "explanation": "B is correct because a dominant strategy is optimal for a player no matter what strategies the other players choose. A is wrong because it might not yield the absolute highest payoff if other players don't cooperate. C misunderstands that games don't always have winners and losers. D confuses frequency with optimality. E describes strategies that maximize social welfare, not individual dominant strategies."
   },
   {
     "id": "micro_u4_q057",

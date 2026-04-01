@@ -676,12 +676,16 @@ const SUBJECTS = [
     colorDark: '#A5B4FC',
     examDate: new Date('2026-05-05T13:00:00'),
     description: 'Constitution, branches of government, civil rights, and political participation.',
-    hasContent: false,
-    dataFiles: ['APGOV_MCQ'],
+    hasContent: true,
+    dataFiles: ['APGOV_MCQ', 'APGOV_FRQ'],
     testFiles: [],
     questionTypes: [
-      { value: 'all', label: 'All' },
-      { value: 'MCQ', label: 'MCQ' }
+      { value: 'all',    label: 'All' },
+      { value: 'MCQ',    label: 'MCQ' },
+      { value: 'CA',     label: 'Concept Application' },
+      { value: 'QA',     label: 'Quantitative Analysis' },
+      { value: 'SCOTUS', label: 'SCOTUS Comparison' },
+      { value: 'ARG',    label: 'Argument Essay' }
     ],
     units: [
       { num: 1, title: 'Foundations of American Democracy', weight: '15–22%', topics: [
@@ -758,12 +762,15 @@ const SUBJECTS = [
     colorDark: '#F9A8D4',
     examDate: new Date('2026-05-11T08:00:00'),
     description: 'All of Calc AB plus series, parametric, polar, and vector-valued functions.',
-    hasContent: false,
-    dataFiles: ['APCALCBC_MCQ'],
+    hasContent: true,
+    dataFiles: ['APCALCBC_MCQ', 'APCALCBC_FRQ'],
     testFiles: [],
     questionTypes: [
-      { value: 'all', label: 'All' },
-      { value: 'MCQ', label: 'MCQ' }
+      { value: 'all',          label: 'All' },
+      { value: 'Non-Calc MCQ', label: 'Non-Calc MCQ' },
+      { value: 'Calc MCQ',     label: 'Calc MCQ' },
+      { value: 'Short FRQ',    label: 'Short FRQ' },
+      { value: 'Long FRQ',     label: 'Long FRQ' }
     ],
     units: [
       { num: 1, title: 'Limits and Continuity', weight: '4–7%', topics: [
@@ -862,6 +869,159 @@ const SUBJECTS = [
         { value: '10.12', label: '10.12 Lagrange Error Bound' },
         { value: '10.13', label: '10.13 Radius and Interval of Convergence of Power Series' },
         { value: '10.14', label: '10.14 Finding Taylor or Maclaurin Series' }
+      ]}
+    ]
+  },
+  {
+    id: 'apenviro',
+    name: 'AP Environmental Science',
+    shortName: 'AP Enviro',
+    emoji: '🌿',
+    color: '#16A34A',
+    colorDark: '#86EFAC',
+    examDate: new Date('2026-05-07T13:00:00'), // placeholder — verify against College Board
+    description: 'Ecosystems, biodiversity, populations, earth systems, and global change.',
+    hasContent: true,
+    dataFiles: ['APENVIRO_MCQ', 'APENVIRO_FRQ'],
+    testFiles: [],
+    questionTypes: [
+      { value: 'all',       label: 'All' },
+      { value: 'MCQ',       label: 'MCQ' },
+      { value: 'Short FRQ', label: 'Short FRQ' },
+      { value: 'Long FRQ',  label: 'Long FRQ' }
+    ],
+    units: [
+      { num: 1, title: 'Ecosystems', weight: '6–8%', topics: [
+        { value: '1.1',  label: '1.1 Ecosystems' },
+        { value: '1.2',  label: '1.2 Biomes' },
+        { value: '1.3',  label: '1.3 Carbon Cycle' },
+        { value: '1.4',  label: '1.4 Nitrogen Cycle' },
+        { value: '1.5',  label: '1.5 Phosphorus Cycle' },
+        { value: '1.6',  label: '1.6 Hydrologic Cycle' },
+        { value: '1.7',  label: '1.7 Primary Productivity' },
+        { value: '1.8',  label: '1.8 Net Primary Productivity' },
+        { value: '1.9',  label: '1.9 Trophic Levels' },
+        { value: '1.10', label: '1.10 Energy Flow' },
+        { value: '1.11', label: '1.11 Food Webs' },
+        { value: '1.12', label: '1.12 Food Chains' },
+        { value: '1.13', label: '1.13 10% Rule' }
+      ]},
+      { num: 2, title: 'Biodiversity', weight: '6–8%', topics: [
+        { value: '2.1',  label: '2.1 Biodiversity' },
+        { value: '2.2',  label: '2.2 Ecosystem Services' },
+        { value: '2.3',  label: '2.3 Island Biogeography' },
+        { value: '2.4',  label: '2.4 Species-Area Relationship' },
+        { value: '2.5',  label: '2.5 Ecological Tolerance' },
+        { value: '2.6',  label: '2.6 Range of Tolerance' },
+        { value: '2.7',  label: '2.7 Ecological Succession' },
+        { value: '2.8',  label: '2.8 Primary Succession' },
+        { value: '2.9',  label: '2.9 Secondary Succession' },
+        { value: '2.10', label: '2.10 Keystone Species' },
+        { value: '2.11', label: '2.11 Adaptations' }
+      ]},
+      { num: 3, title: 'Populations', weight: '8–10%', topics: [
+        { value: '3.1',  label: '3.1 Population Dynamics' },
+        { value: '3.2',  label: '3.2 Exponential Growth' },
+        { value: '3.3',  label: '3.3 Logistic Growth' },
+        { value: '3.4',  label: '3.4 Carrying Capacity' },
+        { value: '3.5',  label: '3.5 Survivorship Curves' },
+        { value: '3.6',  label: '3.6 Age Structure Diagrams' },
+        { value: '3.7',  label: '3.7 Demographic Transition Model' },
+        { value: '3.8',  label: '3.8 Total Fertility Rate' },
+        { value: '3.9',  label: '3.9 Doubling Time' },
+        { value: '3.10', label: '3.10 Rule of 70' }
+      ]},
+      { num: 4, title: 'Earth Systems and Resources', weight: '10–15%', topics: [
+        { value: '4.1',  label: '4.1 Plate Tectonics' },
+        { value: '4.2',  label: '4.2 Soil Formation' },
+        { value: '4.3',  label: '4.3 Soil Horizons' },
+        { value: '4.4',  label: '4.4 Soil Composition' },
+        { value: '4.5',  label: '4.5 Atmosphere Layers' },
+        { value: '4.6',  label: '4.6 Global Wind Patterns' },
+        { value: '4.7',  label: '4.7 Hadley Cells' },
+        { value: '4.8',  label: '4.8 Watersheds' },
+        { value: '4.9',  label: '4.9 Solar Radiation' },
+        { value: '4.10', label: '4.10 Seasons' },
+        { value: '4.11', label: '4.11 Coriolis Effect' },
+        { value: '4.12', label: '4.12 El Niño' },
+        { value: '4.13', label: '4.13 La Niña' },
+        { value: '4.14', label: '4.14 Rain Shadow Effect' }
+      ]},
+      { num: 5, title: 'Land and Water Use', weight: '10–15%', topics: [
+        { value: '5.1',  label: '5.1 Tragedy of the Commons' },
+        { value: '5.2',  label: '5.2 Deforestation' },
+        { value: '5.3',  label: '5.3 Green Revolution' },
+        { value: '5.4',  label: '5.4 Agricultural Practices' },
+        { value: '5.5',  label: '5.5 Irrigation Impacts' },
+        { value: '5.6',  label: '5.6 Pesticides' },
+        { value: '5.7',  label: '5.7 Integrated Pest Management' },
+        { value: '5.8',  label: '5.8 Meat Production' },
+        { value: '5.9',  label: '5.9 Overfishing' },
+        { value: '5.10', label: '5.10 Bycatch' },
+        { value: '5.11', label: '5.11 Mining Impacts' },
+        { value: '5.12', label: '5.12 Urbanization' },
+        { value: '5.13', label: '5.13 Ecological Footprint' },
+        { value: '5.14', label: '5.14 CITES' },
+        { value: '5.15', label: '5.15 Environmental Policy' }
+      ]},
+      { num: 6, title: 'Energy Resources and Consumption', weight: '10–15%', topics: [
+        { value: '6.1',  label: '6.1 Renewable vs Nonrenewable Energy' },
+        { value: '6.2',  label: '6.2 Fossil Fuels' },
+        { value: '6.3',  label: '6.3 Coal' },
+        { value: '6.4',  label: '6.4 Natural Gas' },
+        { value: '6.5',  label: '6.5 Oil' },
+        { value: '6.6',  label: '6.6 Nuclear Power' },
+        { value: '6.7',  label: '6.7 Hydroelectric Power' },
+        { value: '6.8',  label: '6.8 Solar Energy' },
+        { value: '6.9',  label: '6.9 Wind Energy' },
+        { value: '6.10', label: '6.10 Hydrogen Fuel Cells' },
+        { value: '6.11', label: '6.11 EROI' },
+        { value: '6.12', label: '6.12 Energy Conservation' },
+        { value: '6.13', label: '6.13 Energy Efficiency' }
+      ]},
+      { num: 7, title: 'Atmospheric Pollution', weight: '7–10%', topics: [
+        { value: '7.1',  label: '7.1 Air Pollution' },
+        { value: '7.2',  label: '7.2 Primary vs Secondary Pollutants' },
+        { value: '7.3',  label: '7.3 Photochemical Smog' },
+        { value: '7.4',  label: '7.4 Thermal Inversion' },
+        { value: '7.5',  label: '7.5 Indoor Air Pollutants' },
+        { value: '7.6',  label: '7.6 Acid Deposition' },
+        { value: '7.7',  label: '7.7 Acid Rain' },
+        { value: '7.8',  label: '7.8 Ozone Depletion' },
+        { value: '7.9',  label: '7.9 CFCs' },
+        { value: '7.10', label: '7.10 Stratospheric Ozone' },
+        { value: '7.11', label: '7.11 Clean Air Act' }
+      ]},
+      { num: 8, title: 'Aquatic and Terrestrial Pollution', weight: '7–10%', topics: [
+        { value: '8.1',  label: '8.1 Water Pollution' },
+        { value: '8.2',  label: '8.2 Point Source vs Nonpoint Source' },
+        { value: '8.3',  label: '8.3 Eutrophication' },
+        { value: '8.4',  label: '8.4 Hypoxic Zones' },
+        { value: '8.5',  label: '8.5 Bioaccumulation' },
+        { value: '8.6',  label: '8.6 Biomagnification' },
+        { value: '8.7',  label: '8.7 Persistent Organic Pollutants' },
+        { value: '8.8',  label: '8.8 Heavy Metals' },
+        { value: '8.9',  label: '8.9 Solid Waste' },
+        { value: '8.10', label: '8.10 MSW' },
+        { value: '8.11', label: '8.11 Landfills' },
+        { value: '8.12', label: '8.12 Recycling' },
+        { value: '8.13', label: '8.13 Waste Reduction' }
+      ]},
+      { num: 9, title: 'Global Change', weight: '15–20%', topics: [
+        { value: '9.1',  label: '9.1 Greenhouse Effect' },
+        { value: '9.2',  label: '9.2 Greenhouse Gases' },
+        { value: '9.3',  label: '9.3 Climate Change' },
+        { value: '9.4',  label: '9.4 Global Warming' },
+        { value: '9.5',  label: '9.5 Carbon Sequestration' },
+        { value: '9.6',  label: '9.6 Ocean Warming' },
+        { value: '9.7',  label: '9.7 Ocean Acidification' },
+        { value: '9.8',  label: '9.8 Sea Level Rise' },
+        { value: '9.9',  label: '9.9 Invasive Species' },
+        { value: '9.10', label: '9.10 Endangered Species' },
+        { value: '9.11', label: '9.11 Habitat Fragmentation' },
+        { value: '9.12', label: '9.12 Biodiversity Loss' },
+        { value: '9.13', label: '9.13 IPCC' },
+        { value: '9.14', label: '9.14 Paris Agreement' }
       ]}
     ]
   }

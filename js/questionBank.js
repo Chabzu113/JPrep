@@ -133,7 +133,16 @@ function getQuestionTypeLabel(q, subjId) {
     if (ft === 'saq') return 'SAQ';
     if (ft === 'leq') return 'LEQ';
     if (ft === 'dbq') return 'DBQ';
-    return ft === 'short' ? 'Short FRQ' : ft === 'long' ? 'Long FRQ' : 'FRQ';
+    if (ft === 'short') return 'Short FRQ';
+    if (ft === 'long') return 'Long FRQ';
+    if (ft === 'saq') return 'SAQ';
+    if (ft === 'leq') return 'LEQ';
+    if (ft === 'dbq') return 'DBQ';
+    if (ft === 'ca') return 'CA';
+    if (ft === 'qa') return 'QA';
+    if (ft === 'scotus') return 'SCOTUS';
+    if (ft === 'arg') return 'ARG';
+    return 'FRQ';
   }
   // MCQ
   if (subjId === 'apcalcab') {
@@ -180,6 +189,9 @@ function initQuestionBank() {
 
   const urlDiff = App.getUrlParam('difficulty');
   if (urlDiff) currentFilters.difficulty = urlDiff;
+
+  const urlStatus = App.getUrlParam('status');
+  if (urlStatus) currentFilters.status = urlStatus;
 
   renderSubjectContext();
   renderUnitTabs();
@@ -536,7 +548,7 @@ function renderSessionQuestion() {
   if (!q) return;
 
   const wrap = document.getElementById('sessionQuestionWrap');
-  const isFRQ = q.type && (q.type.includes('FRQ') || q.type === 'SAQ' || q.type === 'LEQ' || q.type === 'DBQ');
+  const isFRQ = q.type && (q.type.includes('FRQ') || q.type === 'SAQ' || q.type === 'LEQ' || q.type === 'DBQ' || q.type === 'CA' || q.type === 'QA' || q.type === 'SCOTUS' || q.type === 'ARG');
   const state = sessionAnswerState[q.id];
   const diffColor = { easy: '#16a34a', medium: '#d97706', hard: '#dc2626' };
   const diffBg = { easy: '#dcfce7', medium: '#fef9c3', hard: '#fee2e2' };

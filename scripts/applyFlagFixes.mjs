@@ -24,6 +24,8 @@ const SUBJECTS = {
   apush:    { globalVar: 'APUSH_MCQ',    outputFile: 'js/data/apush_mcq.js'    },
   apphys1:  { globalVar: 'PHYSICS_MCQ',  outputFile: 'js/data/physics_mcq.js'  },
   apphysc:  { globalVar: 'PHYSC_MCQ',    outputFile: 'js/data/physc_mcq.js'    },
+  apgov:    { globalVar: 'APGOV_MCQ',    outputFile: 'js/data/apgov_mcq.js'    },
+  apcalcbc: { globalVar: 'APCALCBC_MCQ', outputFile: 'js/data/apcalcbc_mcq.js' },
 };
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
