@@ -9,10 +9,11 @@ import path from 'path';
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 
-const MODEL_ID = "us.anthropic.claude-opus-4-6-v1";
+const MODEL_ID = "us.anthropic.claude-sonnet-4-6";
 const BATCH_SIZE = 10;
 const DELAY_MS = 2000;
 const DATA_DIR = './js/data';
+const SESSION_TOKEN_LIMIT = 5000000;
 
 const client = new BedrockRuntimeClient({ region: "us-east-1" });
 
@@ -152,6 +153,51 @@ const SUBJECTS = {
       11: { target: 70, topics: ['magnetic force on charge', 'magnetic force on wire', 'torque on current loop', 'Biot-Savart law', 'Ampere\'s law', 'magnetic field configurations', 'solenoids'] },
       12: { target: 70, topics: ['magnetic flux', 'Faraday\'s law', 'Lenz\'s law', 'motional EMF', 'inductance', 'RL circuits', 'energy in inductor'] },
     }
+  },
+  apgov: {
+    globalVar: 'APGOV_MCQ',
+    outputFile: 'js/data/apgov_mcq.js',
+    idPrefix: 'gov',
+    units: {
+      1: { target: 70, topics: ['popular sovereignty', 'social contract', 'natural rights', 'limited government', 'separation of powers', 'checks and balances', 'federalism', 'Articles of Confederation', 'Constitutional Convention', 'Virginia Plan', 'New Jersey Plan', 'Great Compromise', 'enumerated powers', 'necessary and proper clause', 'Supremacy Clause', 'McCulloch v Maryland', 'categorical grants', 'block grants', 'dual federalism', 'cooperative federalism'] },
+      2: { target: 70, topics: ['Article I', 'bicameralism', 'House vs Senate', 'filibuster', 'cloture', 'gerrymandering', 'legislative process', 'Article II', 'executive orders', 'veto power', 'commander in chief', 'cabinet', 'bureaucracy', 'iron triangles', 'Article III', 'judicial review', 'Marbury v Madison', 'federal court structure', 'judicial activism', 'judicial restraint'] },
+      3: { target: 70, topics: ['First Amendment', 'free speech limits', 'Schenck v United States', 'Tinker v Des Moines', 'establishment clause', 'Engel v Vitale', 'Fourth Amendment', 'exclusionary rule', 'Miranda v Arizona', 'Gideon v Wainwright', '14th Amendment', 'equal protection', 'incorporation doctrine', 'Brown v Board', 'Civil Rights Act 1964', 'Voting Rights Act 1965', 'affirmative action', 'suspect classification'] },
+      4: { target: 70, topics: ['political socialization', 'political ideology', 'liberal vs conservative', 'party identification', 'public opinion polls', 'sampling', 'question wording effects', 'ideological realignment', 'generational effects', 'political spectrum'] },
+      5: { target: 70, topics: ['voter registration', 'voter turnout', 'rational ignorance', 'Electoral College', 'campaign finance', 'PACs', 'Super PACs', 'Citizens United', 'incumbency advantage', 'third parties', 'interest groups', 'lobbying', 'free rider problem', 'media agenda setting', 'framing', 'party realignment', 'primary elections'] },
+    }
+  },
+  apcalcbc: {
+    globalVar: 'APCALCBC_MCQ',
+    outputFile: 'js/data/apcalcbc_mcq.js',
+    idPrefix: 'calcbc',
+    units: {
+      1: { target: 40, topics: ['limits graphically', 'limits algebraically', 'limit laws', 'one-sided limits', 'limits at infinity', 'squeeze theorem', 'continuity', 'types of discontinuity', 'IVT'] },
+      2: { target: 40, topics: ['average rate of change', 'instantaneous rate of change', 'definition of derivative', 'differentiability', 'power rule', 'trig derivatives', 'higher order derivatives'] },
+      3: { target: 40, topics: ['chain rule', 'product rule', 'quotient rule', 'implicit differentiation', 'inverse trig derivatives', 'logarithmic differentiation'] },
+      4: { target: 40, topics: ['related rates', 'linearization', 'L\'Hopital\'s rule', 'mean value theorem', 'Rolle\'s theorem', 'extreme value theorem'] },
+      5: { target: 40, topics: ['critical points', 'first derivative test', 'second derivative test', 'concavity', 'inflection points', 'optimization', 'curve sketching'] },
+      6: { target: 40, topics: ['antiderivatives', 'indefinite integrals', 'Riemann sums', 'definite integrals', 'FTC part 1', 'FTC part 2', 'average value', 'net change theorem', 'integration by parts', 'partial fractions', 'improper integrals'] },
+      7: { target: 40, topics: ['u-substitution', 'integration by parts', 'partial fractions', 'trig substitution', 'trig integrals', 'improper integrals convergence', 'long division integration'] },
+      8: { target: 40, topics: ['area between curves', 'volumes disc method', 'volumes washer method', 'volumes shell method', 'arc length', 'motion problems with integrals'] },
+      9: { target: 70, topics: ['parametric equations', 'parametric derivatives dy/dx', 'second derivative parametric', 'arc length parametric', 'polar coordinates', 'polar area', 'polar derivatives', 'vector-valued functions', 'vector derivatives', 'vector integrals', 'position velocity acceleration vectors'] },
+      10: { target: 70, topics: ['sequences', 'series', 'convergence divergence', 'geometric series', 'p-series', 'integral test', 'comparison test', 'limit comparison test', 'ratio test', 'alternating series test', 'alternating series error bound', 'power series', 'radius of convergence', 'interval of convergence', 'Taylor series', 'Maclaurin series', 'Taylor polynomial', 'Lagrange error bound', 'known series e^x sin x cos x ln(1+x)'] },
+    }
+  },
+  apenviro: {
+    globalVar: 'APENVIRO_MCQ',
+    outputFile: 'js/data/apenviro_mcq.js',
+    idPrefix: 'enviro',
+    units: {
+      1: { target: 70, topics: ['ecosystems', 'biomes', 'food chains', 'food webs', 'trophic levels', 'energy flow', 'biogeochemical cycles', 'carbon cycle', 'nitrogen cycle', 'phosphorus cycle', 'water cycle', 'primary productivity'] },
+      2: { target: 70, topics: ['biodiversity', 'natural selection', 'ecological succession', 'island biogeography', 'keystone species', 'species richness', 'extinction', 'biotic interactions'] },
+      3: { target: 70, topics: ['population growth', 'exponential growth', 'logistic growth', 'carrying capacity', 'survivorship curves', 'age structure diagrams', 'demographic transition', 'total fertility rate', 'human population growth'] },
+      4: { target: 70, topics: ['plate tectonics', 'soil formation', 'soil horizons', 'erosion', 'weathering', 'aquifers', 'watersheds', 'El Nino', 'atmospheric layers', 'Coriolis effect', 'ocean currents'] },
+      5: { target: 70, topics: ['deforestation', 'agriculture impacts', 'irrigation', 'pesticides', 'overfishing', 'mining impacts', 'urban sprawl', 'desertification', 'sustainable agriculture', 'aquaculture'] },
+      6: { target: 70, topics: ['fossil fuels', 'nuclear energy', 'solar energy', 'wind energy', 'hydroelectric power', 'geothermal energy', 'biomass energy', 'energy efficiency', 'CAFE standards'] },
+      7: { target: 70, topics: ['air pollution', 'primary vs secondary pollutants', 'particulate matter', 'ground level ozone', 'smog', 'acid rain', 'thermal inversion', 'Clean Air Act', 'CFCs', 'Montreal Protocol', 'indoor air pollution'] },
+      8: { target: 70, topics: ['water pollution', 'point source', 'nonpoint source', 'eutrophication', 'hypoxic zones', 'biomagnification', 'bioaccumulation', 'oil spills', 'wastewater treatment', 'solid waste', 'hazardous waste', 'Clean Water Act'] },
+      9: { target: 70, topics: ['climate change', 'greenhouse gases', 'greenhouse effect', 'CO2 emissions', 'sea level rise', 'ocean acidification', 'feedback loops', 'albedo', 'Paris Agreement', 'cap and trade', 'ozone depletion', 'loss of biodiversity', 'habitat fragmentation', 'invasive species'] },
+    }
   }
 };
 
@@ -190,6 +236,8 @@ async function callBedrock(prompt) {
   });
   const resp = await client.send(cmd);
   const decoded = JSON.parse(new TextDecoder().decode(resp.body));
+  const usage = decoded.usage || {};
+  callBedrock._lastTokens = (usage.input_tokens || 0) + (usage.output_tokens || 0);
   return decoded.content[0].text;
 }
 
@@ -201,7 +249,9 @@ function buildGeneratePrompt(subjectKey, unit, topics, difficulty, count, startI
   const subjectName = {
     apcsa: 'AP Computer Science A', apbio: 'AP Biology', apcalc: 'AP Calculus AB',
     apstats: 'AP Statistics', apmicro: 'AP Microeconomics', apmacro: 'AP Macroeconomics',
-    apush: 'AP US History', apphys1: 'AP Physics 1', apphysc: 'AP Physics C: Mechanics & E&M'
+    apush: 'AP US History', apphys1: 'AP Physics 1', apphysc: 'AP Physics C: Mechanics & E&M',
+    apgov: 'AP United States Government and Politics', apcalcbc: 'AP Calculus BC',
+    apenviro: 'AP Environmental Science'
   }[subjectKey];
 
   return `Generate exactly ${count} ${subjectName} multiple choice questions.
@@ -235,14 +285,16 @@ Return ONLY a valid JSON array, zero markdown:
   "explanation": "Why correct answer is right and why common wrong answers are wrong."
 }]
 
-answer is 0-indexed integer. Generate all ${count} now.`;
+answer is 0-indexed integer. Generate all ${count} now. Output the JSON array only. Do not write any text before or after the array. Start your response with [ and end with ].`;
 }
 
 function buildAuditPrompt(subjectKey, questions) {
   const subjectName = {
     apcsa: 'AP Computer Science A', apbio: 'AP Biology', apcalc: 'AP Calculus AB',
     apstats: 'AP Statistics', apmicro: 'AP Microeconomics', apmacro: 'AP Macroeconomics',
-    apush: 'AP US History', apphys1: 'AP Physics 1', apphysc: 'AP Physics C'
+    apush: 'AP US History', apphys1: 'AP Physics 1', apphysc: 'AP Physics C',
+    apgov: 'AP United States Government and Politics', apcalcbc: 'AP Calculus BC',
+    apenviro: 'AP Environmental Science'
   }[subjectKey];
 
   return `You are an expert ${subjectName} teacher. Audit these ${questions.length} questions.
@@ -264,7 +316,7 @@ Return ONLY valid JSON, zero markdown:
 
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
 
-async function generateForSubject(subjectKey) {
+async function generateForSubject(subjectKey, targetOverride) {
   const config = SUBJECTS[subjectKey];
   if (!config) {
     console.error(`Unknown subject: ${subjectKey}\nAvailable: ${Object.keys(SUBJECTS).join(', ')}`);
@@ -290,6 +342,7 @@ async function generateForSubject(subjectKey) {
   let lastIndex = getLastIndex(existing);
   let totalGenerated = 0;
   let totalFlagged = 0;
+  let sessionTokens = 0;
 
   for (const [unitNum, unitConfig] of Object.entries(config.units)) {
     const unit = parseInt(unitNum);
@@ -298,7 +351,7 @@ async function generateForSubject(subjectKey) {
     const currentMed  = currentInUnit.filter(q => q.difficulty === 'medium').length;
     const currentHard = currentInUnit.filter(q => q.difficulty === 'hard').length;
 
-    const target    = unitConfig.target || 70;
+    const target    = targetOverride || unitConfig.target || 70;
     const targetE   = Math.ceil(target * 0.20);
     const targetM   = Math.ceil(target * 0.50);
     const targetH   = Math.ceil(target * 0.30);
@@ -328,6 +381,7 @@ async function generateForSubject(subjectKey) {
           const genRaw = await callBedrock(
             buildGeneratePrompt(subjectKey, unit, unitConfig.topics, difficulty, batchCount, lastIndex)
           );
+          sessionTokens += callBedrock._lastTokens || 0;
 
           let generated;
           try {
@@ -359,6 +413,7 @@ async function generateForSubject(subjectKey) {
           process.stdout.write(`auditing... `);
 
           const auditRaw = await callBedrock(buildAuditPrompt(subjectKey, generated));
+          sessionTokens += callBedrock._lastTokens || 0;
 
           let auditResult;
           try {
@@ -392,6 +447,19 @@ async function generateForSubject(subjectKey) {
           console.log(`✓ ${clean.length} clean, ${flagged.length} flagged`);
           await sleep(DELAY_MS);
 
+          if (sessionTokens >= SESSION_TOKEN_LIMIT) {
+            console.warn(`\nSession token limit reached — saving progress and stopping.`);
+            const usesWindow = content.includes('window.');
+            const varName = config.globalVar;
+            const declaration = usesWindow ? `window.${varName}` : `var ${varName}`;
+            fs.writeFileSync(filePath, `${declaration} = ${JSON.stringify(existing, null, 2)};`, 'utf8');
+            if (allFlagged.length > 0) {
+              const flagPath = `scripts/${subjectKey}_generation_flags.json`;
+              fs.writeFileSync(flagPath, JSON.stringify({ generated: new Date().toISOString(), flags: allFlagged }, null, 2));
+            }
+            return;
+          }
+
         } catch (err) {
           if (err.message && err.message.includes('Too many tokens')) {
             console.log(`FATAL: Too many tokens — ${err.message}`);
@@ -402,6 +470,12 @@ async function generateForSubject(subjectKey) {
         }
       }
     }
+
+    // Intermediate save after each unit
+    const usesWindowUnit = content.includes('window.');
+    const declarationUnit = usesWindowUnit ? `window.${config.globalVar}` : `var ${config.globalVar}`;
+    fs.writeFileSync(filePath, `${declarationUnit} = ${JSON.stringify(existing, null, 2)};`, 'utf8');
+    console.log(`  [saved ${existing.length} questions after unit ${unit}]`);
   }
 
   // Write file
@@ -429,6 +503,8 @@ async function generateForSubject(subjectKey) {
 
 const args = process.argv.slice(2);
 const flag = args.indexOf('--subject');
+const targetFlag = args.indexOf('--target');
+const targetOverride = targetFlag !== -1 && args[targetFlag + 1] ? parseInt(args[targetFlag + 1], 10) : null;
 
 if (flag === -1 || !args[flag + 1]) {
   console.log(`
@@ -448,7 +524,7 @@ Subjects:
   process.exit(0);
 }
 
-generateForSubject(args[flag + 1].toLowerCase()).catch(err => {
+generateForSubject(args[flag + 1].toLowerCase(), targetOverride).catch(err => {
   console.error('Fatal:', err);
   process.exit(1);
 });

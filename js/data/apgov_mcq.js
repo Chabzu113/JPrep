@@ -6118,5 +6118,345 @@ window.APGOV_MCQ = [
     ],
     "answer": 0,
     "explanation": "Agenda setting refers to the media's power to determine which issues the public considers important - extensive coverage of immigration signals it is a priority issue. Framing refers to how the media presents an issue, influencing which aspects audiences use to evaluate it - emphasizing security threats frames immigration as a danger rather than an economic asset, shaping how people think about the policy. Option B reverses the definitions: agenda setting determines salience (what is important), not the moral values applied; framing shapes evaluative context, not importance rankings. Option C misrepresents gatekeeping as a neutralizing or accuracy-ensuring function; gatekeeping is the editorial selection process and does not eliminate framing effects. Option D overstates rational ignorance - while some voters are disengaged, research consistently shows media framing and agenda setting do influence broad public opinion, particularly on salient issues."
+  },
+  {
+    "id": "gov_u2_q310",
+    "subject": "apgov",
+    "unit": 2,
+    "topic": "The Senate and Congressional Action",
+    "topicLabel": "The Senate and Congressional Action",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A controversial climate change bill has passed the House and is now being debated in the Senate. A minority bloc of senators strongly opposes the bill and has been speaking continuously on the Senate floor for days to prevent a final vote. Which of the following best describes how the Senate majority could end this debate and proceed to a vote?",
+    "choices": [
+      "A) File a motion for unanimous consent, requiring all 100 senators to agree to end debate immediately.",
+      "B) Invoke cloture by securing 60 votes, which would limit further debate and allow the Senate to proceed to a vote on the bill.",
+      "C) Appeal to the House Speaker to formally order the Senate to end debate and hold a vote.",
+      "D) Request that the President issue an executive order compelling the Senate to vote on the bill within 24 hours."
+    ],
+    "answer": 1,
+    "explanation": "B is correct. Under Senate Rule XXII, invoking cloture on legislation requires 60 votes (three-fifths of the Senate). Cloture is the formal mechanism used to end a filibuster — extended debate used to delay or block a vote. Once cloture is invoked, debate is limited to an additional 30 hours before the Senate must vote. A is incorrect because unanimous consent agreements are used for routine procedural matters and can be blocked by even a single objection; they are not a reliable tool for ending an active filibuster against a controversial bill. C is incorrect because the House Speaker has no authority over Senate proceedings — each chamber of Congress operates independently under its own rules. D is incorrect because the President has no constitutional authority to compel the Senate to hold a vote; the separation of powers prevents executive interference in the internal procedures of the legislative branch."
+  },
+  {
+    "id": "gov_u3_q311",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Civil Liberties and the Bill of Rights",
+    "topicLabel": "Civil Liberties and the Bill of Rights",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Miranda warnings, required before custodial police interrogation, are specifically designed to protect which two constitutional rights?",
+    "choices": [
+      "A) The Fifth Amendment right against self-incrimination and the Sixth Amendment right to counsel",
+      "B) The Fourth Amendment right against unreasonable searches and the Fifth Amendment right against self-incrimination",
+      "C) The First Amendment right to free speech and the Sixth Amendment right to a speedy trial",
+      "D) The Fourth Amendment right against unreasonable searches and the Sixth Amendment right to counsel"
+    ],
+    "answer": 0,
+    "explanation": "Correct: A. In Miranda v. Arizona (1966), the Supreme Court held that suspects must be informed of their Fifth Amendment right against self-incrimination (the right to remain silent) and their Sixth Amendment right to counsel (the right to an attorney) before custodial interrogation. These are the two rights Miranda warnings are specifically designed to safeguard. Note: While the Fourteenth Amendment's Due Process Clause is the vehicle through which these protections are incorporated and applied to state actors, the rights themselves originate in the Fifth and Sixth Amendments. Choice B is incorrect because the Fourth Amendment governs searches and seizures; while relevant to the arrest itself, it is not what Miranda warnings are designed to protect. Choice C is incorrect because the First Amendment's free speech clause is unrelated to custodial interrogation, and the right to a speedy trial, though a Sixth Amendment protection, is not addressed by Miranda warnings. Choice D is incorrect because while the Fourth Amendment is contextually relevant to arrests, Miranda warnings do not specifically protect against unreasonable searches and seizures."
+  },
+  {
+    "id": "gov_u3_q312",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Freedom of Speech",
+    "topicLabel": "Freedom of Speech",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "During World War I, Charles Schenck distributed pamphlets urging men to resist the military draft, arguing the draft violated the Thirteenth Amendment. The federal government prosecuted him under the Espionage Act of 1917. According to the Supreme Court's reasoning in Schenck v. United States (1919), which principle did the Court apply to uphold Schenck's conviction and justify restricting his speech?",
+    "choices": [
+      "A) Speech that creates a 'clear and present danger' of producing serious harm that Congress has the power to prevent may be restricted, even if the same speech might be protected in peacetime.",
+      "B) Any speech that criticizes government policy is categorically excluded from First Amendment protection regardless of the circumstances in which it occurs.",
+      "C) The government may only restrict speech after it has already resulted in measurable physical harm to identifiable individuals.",
+      "D) Under the Brandenburg standard, speech may be restricted only when it is directed to inciting imminent lawless action and is likely to produce such action."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct. In Schenck v. United States (1919), Justice Oliver Wendell Holmes articulated the 'clear and present danger' test, reasoning that context determines whether speech is protected — just as falsely shouting fire in a theater is not protected, speech that poses a clear and present danger of bringing about harms Congress may prevent (such as obstruction of military recruitment during wartime) loses First Amendment protection. Choice B is incorrect because the Court did not create a blanket rule against all criticism of government; the ruling was context-dependent. Choice C is incorrect because the Schenck test does not require that physical harm has already occurred — it focuses on the danger posed by the speech, not completed injury. Choice D is incorrect because the Brandenburg v. Ohio (1969) incitement standard came 50 years after Schenck and substantially replaced it; attributing the Brandenburg test to the Schenck-era Court would be historically inaccurate and is a common student misconception."
+  },
+  {
+    "id": "gov_u3_q313",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Civil Liberties and the Bill of Rights",
+    "topicLabel": "Civil Liberties and the Bill of Rights",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A suspect is arrested and taken to a police station for questioning. Officers begin interrogating the suspect without reading Miranda warnings. During the interrogation, the suspect makes several incriminating statements. At trial, the prosecution seeks to introduce those statements as evidence. Which of the following best describes the constitutional outcome under Miranda v. Arizona (1966)?",
+    "choices": [
+      "A) The statements are inadmissible because the suspect was subjected to custodial interrogation without first being informed of their Fifth and Sixth Amendment rights.",
+      "B) The statements are admissible because the suspect voluntarily chose to speak with officers and did not attempt to end the interrogation.",
+      "C) The statements are admissible because Miranda warnings are only required when a suspect explicitly requests an attorney.",
+      "D) The statements are inadmissible only if the suspect explicitly invoked the right to silence before speaking to the officers."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct. Under Miranda v. Arizona (1966), the Supreme Court held that statements obtained during a custodial interrogation are inadmissible unless the suspect was first informed of their rights — including the right to remain silent, the right to an attorney, and the warning that anything said can be used against them. Because no Miranda warnings were given before the interrogation began, the threshold constitutional requirement was never satisfied, making the statements inadmissible regardless of the suspect's apparent willingness to speak. Choice B is incorrect because voluntariness alone does not satisfy Miranda. The Court in Miranda established that the inherently coercive nature of custodial interrogation requires procedural safeguards; the absence of those warnings renders statements inadmissible even if the suspect seemed cooperative. Choice C is incorrect because Miranda warnings are not contingent on a suspect requesting an attorney. The warnings must be administered automatically by law enforcement at the outset of any custodial interrogation, before questioning begins. Choice D is incorrect because the Miranda warning requirement is triggered at the outset of custodial interrogation regardless of whether the suspect invokes any right. Since no warnings were given at all in this scenario, the threshold requirement was never met; the question of invocation only becomes relevant after warnings have been administered. The issue of invocation — addressed in cases like Berghuis v. Thompkins (2010) — presupposes that warnings were properly given in the first place."
+  },
+  {
+    "id": "gov_u3_q314",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Equal Protection and Civil Liberties",
+    "topicLabel": "Equal Protection and Civil Liberties",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A public university automatically awards 20 bonus points (out of 150 total) to all applicants who belong to an underrepresented racial minority group as part of its undergraduate admissions process. A rejected white applicant challenges the policy in federal court, arguing it violates the Equal Protection Clause of the Fourteenth Amendment. Based on the Supreme Court's ruling in Gratz v. Bollinger (2003), how would the Court most likely rule on this policy?\n\nA) The policy would be struck down because the automatic point system is not narrowly tailored, even if promoting campus diversity can be a compelling interest.\nB) The policy would be upheld because racial classifications in education are subject only to rational basis review, which the university easily satisfies.\nC) The policy would be upheld because any government use of race to remedy historical discrimination automatically satisfies strict scrutiny.\nD) The policy would be struck down because the Supreme Court has held that diversity can never constitute a compelling governmental interest in higher education.",
+    "choices": [
+      "A) The policy would be struck down because the automatic point system is not narrowly tailored, even if promoting campus diversity can be a compelling interest.",
+      "B) The policy would be upheld because racial classifications in education are subject only to rational basis review, which the university satisfies.",
+      "C) The policy would be upheld because any government use of race to remedy historical discrimination automatically satisfies strict scrutiny.",
+      "D) The policy would be struck down because the Supreme Court has held that diversity can never constitute a compelling governmental interest in higher education."
+    ],
+    "answer": 0,
+    "explanation": "Answer A is correct. In Gratz v. Bollinger (2003), the Supreme Court applied strict scrutiny — the standard used whenever government policy makes distinctions based on race — and struck down the University of Michigan's undergraduate admissions point system. The Court assumed, without fully deciding, that achieving a diverse student body could be a compelling interest (as recognized the same day in Grutter v. Bollinger for law school admissions), but held that automatically awarding a fixed bonus to every minority applicant was not narrowly tailored. The mechanical, non-individualized nature of the policy made it unconstitutional.\n\nAnswer B is incorrect. Racial classifications by government actors are never reviewed under rational basis; they trigger strict scrutiny, the most demanding standard, because race is a suspect classification under the Equal Protection Clause.\n\nAnswer C is incorrect. No racial classification automatically satisfies strict scrutiny. Even when the government asserts a compelling interest such as remedying discrimination or promoting diversity, the means chosen must still be narrowly tailored. A blanket bonus system fails that requirement.\n\nAnswer D is incorrect. The Supreme Court did not categorically reject diversity as a compelling interest in 2003. In Grutter v. Bollinger (decided the same day as Gratz), the Court upheld the University of Michigan Law School's holistic, individualized review, finding that diversity could be a compelling interest when pursued through narrowly tailored means.\n\nInstructor note: Students should be aware that SFFA v. Harvard (2023) significantly restricted race-conscious admissions by ruling that the admissions programs at Harvard and UNC violated the Equal Protection Clause. While Gratz remains the controlling precedent for the specific fact pattern tested here (mechanical point systems), the broader permissibility of race-conscious admissions recognized in Grutter has been effectively curtailed by SFFA."
+  },
+  {
+    "id": "gov_u3_q315",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "First Amendment: Freedom of Speech",
+    "topicLabel": "First Amendment: Freedom of Speech",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A public high school student wears a black armband to school to protest a government policy. School officials suspend the student, citing a general policy against disruptive clothing. The student challenges the suspension as a violation of the First Amendment. Which of the following best explains why the suspension is most likely unconstitutional, and how Tinker v. Des Moines (1969) departed from the speech-restrictive framework established in Schenck v. United States (1919)?",
+    "choices": [
+      "A) Because Schenck established that speech posing a clear and present danger may be restricted, and a school environment during active class hours constitutes such a danger, the suspension is permissible under the combined Schenck-Tinker framework.",
+      "B) Under Tinker, student expression in public schools is protected unless it causes substantial disruption to the educational environment; because school officials could not demonstrate that the armband caused or was reasonably forecast to cause such disruption, the suspension is unconstitutional — a higher bar for restriction than Schenck's clear and present danger test.",
+      "C) Schenck's clear and present danger test gives school administrators broad authority to restrict any political speech on school grounds, but Tinker overruled Schenck entirely, meaning no student speech may ever be restricted.",
+      "D) The suspension is unconstitutional because the First Amendment provides absolute protection for all symbolic speech in any setting, and neither Schenck nor Tinker permits the government to restrict nonverbal political expression."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct. In Tinker v. Des Moines (1969), the Supreme Court held that students do not 'shed their constitutional rights at the schoolhouse gate' and that student expression may only be restricted if school officials can show it would substantially disrupt the educational environment. The Court found no such disruption was demonstrated for the armbands, making the suspension unconstitutional. This represents a meaningful departure from Schenck v. United States (1919), which upheld restrictions on speech that posed a 'clear and present danger' — a government-friendly, context-based test that generally favored restriction. Tinker applied a higher burden on school officials specifically in the school context, requiring actual or reasonably forecast substantial disruption rather than mere danger. Choice A is incorrect because it misapplies Schenck to the school context and incorrectly suggests the two cases combine to permit the suspension; Tinker, not Schenck, is the controlling precedent for student speech in schools, and Tinker's standard is more protective of student speech than Schenck's framework. Choice C is incorrect because Tinker did not overrule Schenck entirely — the two cases operate in different contexts — and Tinker explicitly acknowledged that some student speech can be restricted when substantial disruption is demonstrated. Choice D is incorrect because the First Amendment does not provide absolute protection for all speech or symbolic expression in any setting; both Schenck and Tinker acknowledge that speech rights have limits depending on context and demonstrated harm."
+  },
+  {
+    "id": "gov_u3_q316",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Civil Liberties and Civil Rights",
+    "topicLabel": "Equal Protection and Affirmative Action",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A state university implements an admissions policy that awards a fixed number of bonus points to all applicants from underrepresented racial minorities, automatically and without individualized review, in order to increase campus diversity. Which of the following best explains how the Court would likely analyze this policy using suspect classification doctrine and the precedent established in cases addressing race-conscious admissions policies?",
+    "choices": [
+      "A) The policy is unconstitutional because it employs a rigid, mechanical racial classification rather than conducting individualized holistic review, failing to satisfy the narrow tailoring requirement of strict scrutiny as established in Gratz v. Bollinger.",
+      "B) The policy is constitutional because the government has a compelling interest in diversity, and any race-conscious measure designed to remedy historical discrimination automatically satisfies the requirements of strict scrutiny.",
+      "C) The policy is unconstitutional per se because the Equal Protection Clause prohibits all race-conscious government programs, regardless of intent or context, under strict scrutiny analysis.",
+      "D) The policy is subject only to rational basis review because it benefits a historically disadvantaged group rather than burdening one, making strict scrutiny inapplicable under the Equal Protection Clause."
+    ],
+    "answer": 0,
+    "explanation": "Answer A is correct. Under the suspect classification doctrine, any government policy that classifies individuals by race is subject to strict scrutiny, requiring a compelling governmental interest and narrow tailoring. In Gratz v. Bollinger (2003), the Supreme Court struck down the University of Michigan's undergraduate admissions point system because it automatically awarded points based solely on race without individualized consideration, failing the narrow tailoring requirement even though diversity was acknowledged as a compelling interest. Answer B is incorrect because a compelling interest alone does not automatically satisfy strict scrutiny — the means must also be narrowly tailored. Not every race-conscious remedy passes constitutional muster simply because it addresses historical discrimination. Answer C is a plausible but incorrect student misconception; the Equal Protection Clause does not categorically prohibit all race-conscious programs. Grutter v. Bollinger (2003) upheld the University of Michigan Law School's holistic, individualized race-conscious admissions policy as constitutional under strict scrutiny, demonstrating that race-conscious policies can be permissible when narrowly tailored. Answer D is incorrect because the Supreme Court has consistently held that racial classifications — including those that benefit minority groups — trigger strict scrutiny regardless of direction or benign intent, as established in Adarand Constructors v. Peña (1995)."
+  },
+  {
+    "id": "gov_u3_q317",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Civil Liberties and Civil Rights",
+    "topicLabel": "Civil Liberties and Civil Rights",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Based on Supreme Court precedent as established through Gratz v. Bollinger (2003) and Grutter v. Bollinger (2003), which of the following best describes the equal protection clause's application to race-conscious university admissions policies?",
+    "choices": [
+      "A) The equal protection clause permits universities to use any race-conscious admissions policy, provided it serves a compelling government interest such as campus diversity.",
+      "B) The equal protection clause permits narrowly tailored, holistic consideration of race as one factor among many in admissions, but prohibits mechanical point systems that automatically award benefits based solely on race.",
+      "C) The equal protection clause applies only to intentional racial discrimination by the federal government, not to state university admissions processes.",
+      "D) The equal protection clause forbids any mechanical or formulaic use of race in admissions, making all race-conscious admissions policies unconstitutional regardless of whether they are holistic or point-based in their design."
+    ],
+    "answer": 1,
+    "explanation": "Under the doctrine established in Gratz v. Bollinger (2003) and Grutter v. Bollinger (2003), the correct answer is B. In Grutter, the Court upheld the University of Michigan Law School's holistic admissions program, which considered race as one flexible factor among many, finding it was narrowly tailored to achieve the compelling interest of educational diversity. In Gratz, the Court struck down the University of Michigan's undergraduate point system, which automatically awarded 20 points to underrepresented minority applicants, because it was not sufficiently individualized or narrowly tailored. Together, these cases established that holistic, individualized race-conscious review was permissible while mechanical formulas were not. Choice A is incorrect because even under pre-SFFA doctrine, race-conscious policies still had to be narrowly tailored — a compelling interest alone was not sufficient. Choice C is incorrect because the Fourteenth Amendment's equal protection clause applies to state actors, including public universities, and the Court has extended analogous scrutiny to federal programs as well. Choice D is incorrect within the Gratz/Grutter framework because holistic consideration of race, as in Grutter, was explicitly upheld — the prohibition was on mechanical, formulaic systems, not all race-conscious review. Note: Students should be aware that in Students for Fair Admissions v. Harvard/UNC (2023), the Supreme Court substantially narrowed this doctrine, but this question focuses on the Gratz/Grutter era precedent."
+  },
+  {
+    "id": "gov_u3_q318",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "First Amendment: Freedom of Speech",
+    "topicLabel": "First Amendment: Freedom of Speech",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A provocateur delivers an inflammatory political speech in a public park, using harsh rhetoric that many listeners find deeply offensive and emotionally distressing. The local government seeks to prosecute the speaker under an ordinance banning speech that causes emotional distress. The speaker argues the prosecution violates the First Amendment because the speech does not incite imminent lawless action. Which of the following best explains why a court would most likely rule in the speaker's favor?",
+    "choices": [
+      "A) The government cannot restrict speech unless it applies strict scrutiny, and causing emotional distress qualifies as a compelling government interest that nonetheless fails narrow tailoring.",
+      "B) Under Brandenburg v. Ohio (1969), speech may only be restricted as incitement when it is both directed to producing and likely to produce imminent lawless action. Because emotional distress alone does not satisfy this standard, the speech retains First Amendment protection. While Schenck v. United States (1919) originally established the 'clear and present danger' test, Brandenburg replaced it with this more speech-protective standard as the controlling doctrine.",
+      "C) The First Amendment provides absolute protection for all speech delivered in a public forum, meaning no content-based restriction of any kind can survive constitutional challenge.",
+      "D) Because the speech occurred in a public park, it is automatically protected as a form of symbolic speech under the time, place, and manner doctrine, regardless of its content."
+    ],
+    "answer": 1,
+    "explanation": "B is correct. Brandenburg v. Ohio (1969) is the modern governing standard for incitement analysis. It holds that the government may not punish speech as incitement unless it is directed to inciting or producing imminent lawless action AND is likely to produce such action. Emotional distress caused to listeners does not place speech in an unprotected category and does not satisfy the Brandenburg test, so the prosecution would fail. Schenck v. United States (1919) is historically significant as the origin of the 'clear and present danger' test, but Brandenburg substantially refined and superseded it with a more speech-protective standard. A is wrong because emotional distress is not a recognized compelling government interest that places speech into an unprotected category — strict scrutiny applies to content-based restrictions, but the threshold question is whether the speech falls into an unprotected category at all, and 'causes emotional distress' does not establish one. C is wrong because the First Amendment is not absolute — categories such as true threats, incitement meeting the Brandenburg standard, and obscenity remain unprotected. D is wrong because the time, place, and manner doctrine governs content-neutral restrictions on when, where, and how speech occurs, not whether content-based restrictions are permissible; it does not render all speech in a public forum immune from content-based analysis."
+  },
+  {
+    "id": "gov_u4_q319",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "Political Ideologies and Parties",
+    "topicLabel": "Political Ideologies and Parties",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Which of the following best describes how libertarians differ from both liberals and conservatives in the United States?",
+    "choices": [
+      "A) Libertarians support government intervention in both economic and social matters, whereas liberals and conservatives each support intervention in only one domain.",
+      "B) Libertarians favor a strong federal government to protect individual rights, whereas liberals and conservatives both prefer limiting federal power.",
+      "C) Libertarians support government enforcement of traditional moral values while opposing economic regulation, whereas liberals and conservatives both accept some degree of social pluralism.",
+      "D) Libertarians oppose government intervention in both economic and personal/social matters, whereas liberals generally accept economic regulation and conservatives generally accept social regulation."
+    ],
+    "answer": 3,
+    "explanation": "Libertarians are distinct from both liberals and conservatives because they consistently oppose government intervention across all domains — both economic and personal/social. Liberals tend to support government regulation of the economy (e.g., minimum wage, social programs) but favor personal freedoms on social issues. Conservatives tend to support free-market economic policies but often favor government regulation of social and moral behavior. Libertarians reject both forms of government intervention, favoring maximum individual liberty in all areas. Choice A is the opposite of libertarianism — libertarians want minimal government intervention, not maximum. Choice B is incorrect because libertarians do not favor a strong federal government; they seek to limit it. Choice C describes a socially conservative or authoritarian position, not libertarianism, since libertarians explicitly reject government enforcement of traditional moral values."
+  },
+  {
+    "id": "gov_u4_q320",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "Public Opinion and Polling",
+    "topicLabel": "Public Opinion and Polling",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A news organization conducts a poll of 1,200 likely voters and finds that 54% support a ballot measure, with a margin of error of ±3%. A university research center conducts a separate poll of 800 likely voters on the same measure and finds that 49% support it, with a margin of error of ±3%. Which of the following is the most accurate conclusion a political analyst should draw from these two polls?",
+    "choices": [
+      "A) The first poll should be accepted as definitive and the second poll dismissed entirely, because the second poll's smaller sample size makes its result statistically irrelevant.",
+      "B) The two polls are contradictory and cannot both be valid, so one polling organization must have used a biased sampling method.",
+      "C) The two polls are not necessarily contradictory, because their confidence intervals overlap — the true level of support could fall within the range where both margins of error intersect.",
+      "D) The polls prove that public opinion on the ballot measure is evenly divided at exactly 50%, since the two results average out to that figure."
+    ],
+    "answer": 2,
+    "explanation": "Answer C is correct. When interpreting polls, analysts must account for the margin of error. The first poll's confidence interval ranges from 51% to 57%, and the second poll's confidence interval ranges from 46% to 52%. These intervals overlap in the range of 51% to 52%, meaning there is a plausible true value of support that is consistent with both polls simultaneously. This overlap means the polls are not contradictory — they are measuring the same underlying reality within the bounds of normal statistical uncertainty. Answer A is incorrect and overstates the significance of sample size. While larger samples do tend to produce smaller margins of error, a larger sample does not make a poll definitive or render other polls statistically irrelevant. Both polls carry uncertainty expressed through their margins of error, and both must be interpreted within those ranges. Dismissing the second poll entirely ignores valid data. Answer B is incorrect because two polls showing different point estimates are not automatically contradictory or evidence of bias. Sampling variability is expected — different random samples drawn from the same population will produce different estimates. The overlap in confidence intervals demonstrates that both results are statistically compatible. Answer D is incorrect because averaging two poll results is not a valid statistical method for determining true public opinion. The polls do not 'cancel out' to yield an exact figure, and neither poll claims to measure a precise number — each reports a range of plausible values defined by the margin of error."
+  },
+  {
+    "id": "gov_u4_q321",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "Political Socialization",
+    "topicLabel": "Political Socialization",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A political scientist studying partisan change finds that adults who relocate to communities with strong partisan majorities frequently shift their party identification over time to align with their new neighbors, even when their family of origin held different partisan views. This finding most directly challenges which of the following assumptions about political socialization?",
+    "choices": [
+      "A) Geographic region has no independent effect on partisan identity once family socialization is complete.",
+      "B) Political socialization is largely complete by early adulthood, with family remaining the dominant lifelong influence on party identification.",
+      "C) Political parties actively recruit new members by targeting recent transplants in communities with strong partisan majorities.",
+      "D) Economic self-interest is the primary driver of partisan realignment among adults who change their place of residence."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct because the scenario directly challenges the assumption that political socialization ends in early adulthood and that family remains the dominant lifelong influence. The finding shows adults continuing to update their partisan identity well into adulthood based on their community environment, contradicting the idea that early family-based socialization is fixed and permanent. Choice A is incorrect because while the scenario does show geographic community influencing partisan identity, it does not directly test whether region has an effect 'independent of' family socialization — the scenario involves adults already past family socialization, making A a related but less directly challenged assumption than B. Choice C is incorrect because the scenario describes organic social influence from neighbors and community norms, not deliberate party recruitment strategies. Choice D is incorrect because the scenario attributes partisan change to community social influence and neighbor alignment, not to economic self-interest, making this assumption unrelated to the finding described."
+  },
+  {
+    "id": "gov_u4_q322",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "Political Parties and Realignment",
+    "topicLabel": "Political Parties and Realignment",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Which of the following best describes the partisan realignment that occurred in the American South during the latter half of the twentieth century?",
+    "choices": [
+      "A) A region that had been solidly Democratic since Reconstruction shifted toward the Republican Party, becoming reliably Republican in presidential and eventually congressional elections by the 1990s.",
+      "B) Southern states realigned toward the Democratic Party in response to the national Republican Party's embrace of civil rights legislation in the 1960s.",
+      "C) The South experienced a critical realignment in the 1930s when Roosevelt's New Deal coalition drew white Southerners permanently away from the Republican Party.",
+      "D) Southern voters became overwhelmingly independent by the 1990s and showed no consistent increase in Republican Party identification, leaving the region without a dominant party."
+    ],
+    "answer": 0,
+    "explanation": "Answer A is correct. The South was dominated by the Democratic Party from Reconstruction through the mid-twentieth century ('Solid South'). Following the Civil Rights Act of 1964 and Voting Rights Act of 1965, white Southern voters increasingly shifted toward the Republican Party — beginning with presidential elections (e.g., Nixon's 1972 landslide, Reagan's 1984 sweep) and later extending to congressional and state-level offices. By the 1990s the region had become reliably Republican. Answer B reverses the actual direction of the realignment; it was the Democratic Party, not the Republican Party, that championed major civil rights legislation, which drove white Southern conservatives away from the Democrats. Answer C is incorrect in direction and timing; the New Deal did reinforce Southern Democratic loyalty in the 1930s, but it did not cause a shift away from the Republicans — the South was already overwhelmingly Democratic. Answer D is unambiguously contradicted by the empirical record: survey data and election results show a sustained, substantial rise in Republican Party identification among Southern whites from the 1960s onward, not a retreat into independence with no partisan trend."
+  },
+  {
+    "id": "gov_u4_q323",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "Public Opinion and Polling",
+    "topicLabel": "Public Opinion and Polling",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A polling organization releases a survey showing that 68% of Americans oppose raising the top marginal income tax rate. A critic argues that the poll overstates opposition to the tax increase because the sample was drawn exclusively from landline telephone users. Which of the following best explains the methodological basis for the critic's concern?",
+    "choices": [
+      "A) Landline users tend to be older and wealthier than the general population, and these demographic groups are more likely to oppose tax increases, skewing the sample toward higher opposition rates.",
+      "B) Limiting the sample to registered voters rather than all eligible adults creates a sampling bias because registered voters are more politically engaged and more likely to oppose tax increases than the broader public.",
+      "C) Landline users tend to be younger and lower-income than the general population, and these demographic groups are more likely to support tax increases, skewing the sample toward lower support rates.",
+      "D) Using a landline-only sample reduces the response rate, and lower response rates always produce results that overstate opposition to any given policy position regardless of the demographic composition of respondents."
+    ],
+    "answer": 0,
+    "explanation": "Option A is correct. The critic's concern is that the poll overstates opposition to the tax increase, meaning the sample is biased toward respondents who are more likely to oppose the tax. Landline telephone users skew older and wealthier compared to the general population. Older and wealthier individuals are, on average, more likely to oppose increases in the top marginal income tax rate, so a landline-only sample would systematically overrepresent this opposition — a classic example of sampling bias. Option B is wrong because the question describes a poll of the general public via telephone, not a voter-only sample; this distractor conflates two different methodological concerns and does not address the landline sampling issue at all. Option C is wrong because it misidentifies the demographic characteristics of landline users — landline users are not disproportionately younger and lower-income; this reversal of the demographic direction makes the logic internally inconsistent with the critic's stated concern. Option D is wrong because low response rates do not automatically produce results that overstate opposition to any policy; the direction of bias depends on the characteristics of non-respondents relative to respondents, not on response rate alone."
+  },
+  {
+    "id": "gov_u5_q324",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Political Parties",
+    "topicLabel": "Political Parties",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Which of the following best explains why third parties have historically failed to win seats in congressional elections in the United States?",
+    "choices": [
+      "A) Single-member, plurality-vote districts reward only the candidate with the most votes, so third-party support spread across many districts rarely produces seats, discouraging voters from backing candidates unlikely to win.",
+      "B) State ballot access laws require third parties to collect large numbers of petition signatures, which prevents them from appearing on ballots in most congressional districts.",
+      "C) The Federal Election Commission prohibits third-party candidates from receiving public campaign financing, eliminating their ability to compete financially with major-party candidates.",
+      "D) The Constitution requires that only members of established political parties may serve in Congress, formally excluding independent or third-party candidates from holding office."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct. The single-member, plurality-vote (winner-take-all) system used in U.S. congressional elections means only one candidate wins each district seat — the one with the most votes. Because third-party support tends to be dispersed across many districts rather than concentrated enough to reach a plurality in any single district, third parties almost never convert votes into seats. This structural barrier reinforces a two-party system and triggers a psychological effect (Duverger's Law) where voters avoid 'wasting' their vote on a candidate unlikely to win. Choice B describes a real obstacle third parties face, but ballot access laws — while burdensome — are a secondary barrier; the more fundamental structural cause is the plurality district system itself, which would disadvantage third parties even with easy ballot access. Choice C is incorrect; the FEC does provide limited public financing pathways for third parties that meet vote-share thresholds, and campaign finance rules are not the primary structural explanation for third-party failure in congressional races. Choice D is incorrect; the Constitution places no such requirement — independent and third-party candidates may legally run for and serve in Congress, as examples like Bernie Sanders and various historical independents demonstrate."
+  },
+  {
+    "id": "gov_u5_q325",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Campaign Finance and Citizens United",
+    "topicLabel": "Campaign Finance and Citizens United",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A nonprofit advocacy organization wants to run television advertisements during the final weeks of a presidential election that explicitly urge viewers to vote against a specific candidate. Under the Supreme Court's ruling in Citizens United v. FEC (2010), which of the following best explains why the organization may legally spend unlimited funds on these advertisements?",
+    "choices": [
+      "A) The First Amendment prohibits Congress from placing any restrictions on political speech, including direct contributions to a candidate's official campaign committee.",
+      "B) The Court held that political spending by corporations, associations, and nonprofits constitutes protected free speech under the First Amendment, and the government may not limit independent expenditures made without coordination with a candidate.",
+      "C) The ruling established that only Super PACs created after 2010 are permitted to make unlimited expenditures, so older organizations remain subject to strict spending caps.",
+      "D) Because the organization is incorporated as a 501(c)(4) nonprofit, all of its political expenditures are automatically exempt from FEC disclosure requirements and spending limits, regardless of whether the ads support or oppose a candidate."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct. In Citizens United v. FEC (2010), the Supreme Court ruled that the First Amendment protects political spending as a form of free speech. The Court struck down restrictions on independent expenditures — spending not coordinated with a candidate — by corporations, nonprofits, and associations, holding that the government cannot limit such spending based on the speaker's corporate or organizational identity. Choice A is incorrect because Citizens United explicitly did not remove limits on direct contributions to candidate campaigns; it addressed only independent expenditures. Choice C is incorrect because Citizens United applied to all corporations and organizations regardless of when they were formed; there is no date-based distinction in the ruling. Choice D is incorrect because 501(c)(4) tax status does not automatically exempt an organization from all FEC oversight or disclosure requirements. The Citizens United holding rests on First Amendment free speech protections for independent expenditures, not on a tax-status exemption, and certain disclosure rules can still apply to such organizations."
+  },
+  {
+    "id": "gov_u5_q326",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Electoral College and Third Parties",
+    "topicLabel": "Electoral College and Third Parties",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In 1992, Ross Perot received approximately 19% of the national popular vote yet earned zero Electoral College votes. Which of the following best explains this outcome in terms of the structural features of the U.S. electoral system?",
+    "choices": [
+      "A) Rational ignorance among voters caused them to underestimate Perot's policy positions, reducing his support in enough states to prevent Electoral College wins.",
+      "B) The winner-take-all allocation of electors in most states functions like a single-member district system, meaning a candidate must finish first in a state to receive any of its electors — even a candidate with substantial national popular vote support can be entirely shut out of the Electoral College.",
+      "C) The Federal Election Commission has the authority to redistribute Electoral College votes proportionally when a third-party candidate exceeds 15% of the national popular vote.",
+      "D) The two-party system is protected by a constitutional provision requiring major-party status to convert popular votes into Electoral College votes."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct. In most states, all electoral votes are awarded to whichever candidate finishes first in that state — a winner-take-all rule that mirrors a single-member district system. Perot, despite earning nearly one in five popular votes nationally, did not finish first in any state, so he received zero electors. This structural feature, combined with Duverger's Law tendency for plurality systems to concentrate support in two dominant parties, creates an almost insurmountable barrier for third-party presidential candidates. Choice A is incorrect: rational ignorance refers to voters choosing not to acquire political information because the cost outweighs the benefit; it does not explain the mechanical conversion of votes into electors and is not a structural feature of the Electoral College. Choice C is incorrect: the FEC has no such authority, and no law or constitutional provision redistributes electors based on a popular vote threshold; proportional allocation is a reform sometimes debated but not in effect. Choice D is incorrect: the Constitution contains no provision granting or withholding Electoral College representation based on party status; the barrier Perot faced was structural (winner-take-all state allocation), not a constitutional prohibition on third parties."
   }
 ];
