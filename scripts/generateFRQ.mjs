@@ -150,7 +150,58 @@ const SUBJECTS = {
       4: { topics: ['impulse momentum', 'conservation of momentum', 'elastic collisions', 'inelastic collisions', 'center of mass', 'variable mass systems'] },
       5: { topics: ['torque', 'rotational inertia', 'parallel axis theorem', 'Newton\'s second law rotation', 'rolling without slipping', 'angular momentum', 'gyroscopic motion'] },
     }
-  }
+  },
+  apgov: {
+    globalVar: 'APGOV_FRQ',
+    outputFile: 'js/data/apgov_frq.js',
+    idPrefix: 'gov',
+    useWindow: false,
+    targets: { ca: 2, qa: 1, scotus: 1, arg: 1 },
+    units: {
+      1: { topics: ['Constitution', 'federalism', 'separation of powers', 'checks and balances', 'amendments', 'Bill of Rights', 'enumerated powers', 'reserved powers', 'concurrent powers'] },
+      2: { topics: ['Congress structure', 'lawmaking process', 'presidential powers', 'executive orders', 'bureaucracy', 'federal courts', 'judicial review', 'Marbury v Madison', 'McCulloch v Maryland', 'iron triangles', 'interest group lobbying'] },
+      3: { topics: ['incorporation doctrine', 'First Amendment', 'Fourth Amendment', 'due process', 'equal protection', 'Brown v Board', 'affirmative action', 'voting rights', 'civil liberties vs civil rights', 'selective incorporation'] },
+      4: { topics: ['political ideology', 'public opinion', 'polling', 'media influence', 'political socialization', 'party platforms', 'interest groups', 'PACs', 'campaign finance', 'Citizens United', 'linkage institutions'] },
+      5: { topics: ['voter turnout', 'electoral college', 'gerrymandering', 'third parties', 'Duverger\'s law', 'linkage institutions', 'political parties', 'candidate-centered campaigns', 'incumbency advantage'] },
+    }
+  },
+  apcalcbc: {
+    globalVar: 'APCALCBC_FRQ',
+    outputFile: 'js/data/apcalcbc_frq.js',
+    idPrefix: 'calcbc',
+    useWindow: false,
+    targets: { short: 4, long: 2 },
+    units: {
+      1: { topics: ['limits graphically', 'limits algebraically', 'limit laws', 'one-sided limits', 'limits at infinity', 'squeeze theorem', 'continuity', 'types of discontinuity', 'IVT'] },
+      2: { topics: ['average rate of change', 'instantaneous rate of change', 'definition of derivative', 'differentiability', 'power rule', 'constant rule', 'sum rule', 'trig derivatives', 'higher order derivatives'] },
+      3: { topics: ['chain rule', 'product rule', 'quotient rule', 'implicit differentiation', 'inverse trig derivatives', 'logarithmic differentiation'] },
+      4: { topics: ['related rates', 'linearization', 'L\'Hopital\'s rule', 'mean value theorem', 'Rolle\'s theorem', 'extreme value theorem'] },
+      5: { topics: ['critical points', 'first derivative test', 'second derivative test', 'concavity', 'inflection points', 'optimization', 'curve sketching'] },
+      6: { topics: ['antiderivatives', 'indefinite integrals', 'Riemann sums', 'definite integrals', 'FTC part 1', 'FTC part 2', 'average value', 'net change theorem'] },
+      7: { topics: ['u-substitution indefinite', 'u-substitution definite', 'trig integrals', 'integration by parts', 'partial fractions', 'improper integrals'] },
+      8: { topics: ['area between curves', 'volumes disc method', 'volumes washer method', 'volumes shell method', 'arc length', 'motion problems with integrals'] },
+      9: { topics: ['parametric equations', 'parametric derivatives dy/dx', 'second derivatives parametric', 'arc length parametric', 'polar coordinates', 'polar area', 'polar curve derivatives', 'vector-valued functions', 'motion in a plane'] },
+      10: { topics: ['sequences', 'series convergence', 'geometric series', 'p-series', 'alternating series test', 'ratio test', 'comparison test', 'limit comparison test', 'integral test', 'power series', 'interval of convergence', 'radius of convergence', 'Taylor series', 'Maclaurin series', 'Lagrange error bound'] },
+    }
+  },
+  apenviro: {
+    globalVar: 'APENVIRO_FRQ',
+    outputFile: 'js/data/apenviro_frq.js',
+    idPrefix: 'enviro',
+    useWindow: false,
+    targets: { short: 4, long: 2 },
+    units: {
+      1: { topics: ['ecosystems', 'biomes', 'carbon cycle', 'nitrogen cycle', 'phosphorus cycle', 'hydrologic cycle', 'primary productivity', 'net primary productivity', 'trophic levels', 'energy flow', 'food webs', 'food chains', '10% rule'] },
+      2: { topics: ['biodiversity', 'ecosystem services', 'island biogeography', 'species-area relationship', 'ecological tolerance', 'range of tolerance', 'ecological succession', 'primary succession', 'secondary succession', 'keystone species', 'adaptations'] },
+      3: { topics: ['population dynamics', 'exponential growth', 'logistic growth', 'carrying capacity', 'survivorship curves', 'age structure diagrams', 'demographic transition model', 'total fertility rate', 'doubling time', 'rule of 70'] },
+      4: { topics: ['plate tectonics', 'soil formation', 'soil horizons', 'soil composition', 'atmosphere layers', 'global wind patterns', 'Hadley cells', 'watersheds', 'solar radiation', 'seasons', 'Coriolis effect', 'El Niño', 'La Niña', 'rain shadow effect'] },
+      5: { topics: ['tragedy of the commons', 'deforestation', 'green revolution', 'agricultural practices', 'irrigation impacts', 'pesticides', 'integrated pest management', 'meat production', 'overfishing', 'bycatch', 'mining impacts', 'urbanization', 'ecological footprint', 'CITES', 'environmental policy'] },
+      6: { topics: ['renewable vs nonrenewable energy', 'fossil fuels', 'coal', 'natural gas', 'oil', 'nuclear power', 'hydroelectric power', 'solar energy', 'wind energy', 'hydrogen fuel cells', 'EROI', 'energy conservation', 'energy efficiency'] },
+      7: { topics: ['air pollution', 'primary vs secondary pollutants', 'photochemical smog', 'thermal inversion', 'indoor air pollutants', 'acid deposition', 'acid rain', 'ozone depletion', 'CFCs', 'stratospheric ozone', 'Clean Air Act'] },
+      8: { topics: ['water pollution', 'point source vs nonpoint source', 'eutrophication', 'hypoxic zones', 'bioaccumulation', 'biomagnification', 'persistent organic pollutants', 'heavy metals', 'solid waste', 'MSW', 'landfills', 'recycling', 'waste reduction'] },
+      9: { topics: ['greenhouse effect', 'greenhouse gases', 'climate change', 'global warming', 'carbon sequestration', 'ocean warming', 'ocean acidification', 'sea level rise', 'invasive species', 'endangered species', 'habitat fragmentation', 'biodiversity loss', 'IPCC', 'Paris Agreement'] },
+    }
+  },
 };
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
@@ -192,7 +243,14 @@ async function callBedrock(prompt) {
 }
 
 function parseJSON(raw) {
-  const cleaned = raw.replace(/```json|```/g, '').replace(/\.\.\./g, '').replace(/\u2014/g, '-').replace(/\u2013/g, '-').trim();
+  const cleaned = raw
+    .replace(/```json|```/g, '')
+    .replace(/\.\.\./g, '')
+    .replace(/\u2014/g, '-')
+    .replace(/\u2013/g, '-')
+    .replace(/"([A-D])"(\)[^"]*?)"/g, '"$1$2"')
+    .replace(/"([A-D])": "([^"]*)"/g, '"$1) $2"')
+    .trim();
   // Try direct parse first
   try {
     return JSON.parse(cleaned);
@@ -205,10 +263,18 @@ function parseJSON(raw) {
     const closeChar = isArray ? ']' : '}';
     const start = isArray ? startBracket : startBrace;
     if (start === -1) throw new Error('No JSON found in response');
-    let depth = 0, end = -1;
-    for (let i = start; i < cleaned.length; i++) {
-      if (cleaned[i] === openChar) depth++;
-      else if (cleaned[i] === closeChar) { depth--; if (depth === 0) { end = i; break; } }
+    let depth = 0, end = -1, inString = false, i = start;
+    while (i < cleaned.length) {
+      const ch = cleaned[i];
+      if (inString) {
+        if (ch === '\\') { i += 2; continue; }
+        if (ch === '"') inString = false;
+      } else {
+        if (ch === '"') inString = true;
+        else if (ch === openChar) depth++;
+        else if (ch === closeChar) { depth--; if (depth === 0) { end = i; break; } }
+      }
+      i++;
     }
     if (end === -1) throw new Error('Unterminated JSON');
     return JSON.parse(cleaned.slice(start, end + 1));
@@ -228,7 +294,8 @@ function difficultyDistribution(target) {
 const SUBJECT_NAMES = {
   apbio: 'AP Biology', apcalc: 'AP Calculus AB', apstats: 'AP Statistics',
   apmicro: 'AP Microeconomics', apmacro: 'AP Macroeconomics',
-  apush: 'AP US History', apphys1: 'AP Physics 1', apphysc: 'AP Physics C: Mechanics & E&M'
+  apush: 'AP US History', apphys1: 'AP Physics 1', apphysc: 'AP Physics C: Mechanics & E&M',
+  apgov: 'AP Government and Politics', apcalcbc: 'AP Calculus BC', apenviro: 'AP Environmental Science'
 };
 
 // ─── GENERIC FRQ GENERATION PROMPT ──────────────────────────────────────────
@@ -275,6 +342,16 @@ For rubric items involving causal reasoning, set "proximity" to an object with "
     subjectSpecific = `
 - Every question MUST involve graph analysis (supply/demand, cost curves, market models).
 - Keywords must include graph-specific terms (shifts right, shifts left, price increases, quantity decreases, deadweight loss, etc.).`;
+  } else if (subjectKey === 'apcalcbc') {
+    subjectSpecific = `
+- Include notation keywords (f'(x), dy/dx, d²y/dx², parametric, polar, series notation, sigma, interval of convergence, etc.).
+- Questions must involve computation, not just recall.
+- For Units 9-10, make the scenario context explicit (parametric curve, polar graph, power series, etc.).`;
+  } else if (subjectKey === 'apenviro') {
+    subjectSpecific = `
+- Every question MUST use a real-world environmental context (ecosystem study, pollution event, energy policy scenario, etc.).
+- Calculation questions (energy EROI, population growth, 10% rule, doubling time) must show the setup clearly.
+- Keywords must be scientifically precise — no vague terms like 'environment', 'pollution', 'change'.`;
   }
 
   return `Generate exactly ${count} ${subjectName} free-response questions for Unit ${unit}.
@@ -338,10 +415,13 @@ DIFFICULTY DEFINITIONS:
 - hard: multi-concept synthesis, non-standard scenario
 
 SAQ RULES:
-- 3 parts following: describe → explain cause → explain effect or compare
+- 3 parts with escalating analytical demand — NO softballs
+- Part (a): Identify a NUANCED or underrepresented development — NOT the obvious textbook example. Must require students to distinguish between surface-level and deeper historical significance (e.g. "Briefly describe a development that complicated [broad trend] rather than reinforced it.")
+- Part (b): Explain causation with SPECIFICITY — must require students to name a particular force, group, policy, or event as cause and explain the mechanism of causation, not just correlation (e.g. "Briefly explain how [specific factor] contributed to [development] by describing the process through which it operated.")
+- Part (c): Either (A) a sophisticated comparison requiring students to identify a MEANINGFUL similarity OR difference between two distinct time periods, groups, or regions — not just surface-level contrast; OR (B) a multi-layered effect analysis requiring students to explain both an immediate AND a long-term consequence, or both an intended AND unintended consequence
 - Each response should be 3-5 sentences
 - No stimulus
-- Each question on a different topic
+- Each question on a different, specific topic — no vague or recycled themes
 
 Return ONLY a valid JSON array, zero markdown:
 [{
@@ -352,12 +432,12 @@ Return ONLY a valid JSON array, zero markdown:
   "units": [${unit}],
   "difficulty": "${difficulty}",
   "points": 3,
-  "prompt": "Answer (a), (b), and (c). Each response should be 3-5 sentences.",
+  "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
   "stimulus": null,
   "parts": [
-    { "label": "a", "question": "Briefly describe ONE development related to [topic]." },
-    { "label": "b", "question": "Briefly explain ONE cause of [development]." },
-    { "label": "c", "question": "Briefly explain ONE effect OR compare to [contrasting development]." }
+    { "label": "a", "question": "Briefly describe ONE development related to [specific nuanced aspect of topic] that complicated or challenged [broader trend]." },
+    { "label": "b", "question": "Briefly explain how [specific cause] contributed to [development described in (a)] by describing the mechanism through which it operated." },
+    { "label": "c", "question": "Briefly explain ONE significant similarity OR difference between [specific group/period/region] and [contrasting group/period/region] in their [experience/response/outcome] regarding [topic]." }
   ],
   "sampleSolution": null
 }]
@@ -372,11 +452,14 @@ Difficulty: ${difficulty}
 Topics (spread across): ${topics.join(', ')}
 
 LEQ RULES:
-- Must be genuinely analytical — require a thesis with a reasoning process (causation, comparison, or continuity/change over time)
-- NOT a knowledge-dump question — must require argument construction
+- Must demand a sophisticated, defensible thesis — not a restatement of the prompt
+- Must require students to construct a complex argument: a clear line of reasoning with at least two distinct categories of evidence (e.g. political + economic, or domestic + foreign)
+- Must address multiple perspectives, competing forces, or span more than one time period — questions that can be answered with a single narrative are REJECTED
+- Must use one of these reasoning skills explicitly: causation (require identifying multiple causes with relative weight), comparison (require a nuanced similarity AND difference across groups/regions/periods), or continuity and change over time (require identifying what changed, what persisted, AND why)
+- The claim in the prompt must be genuinely debatable — avoid prompts where the "extent" is obvious or where only one side has strong evidence
+- Prompt format: "Evaluate the extent to which..." — NO prompts that ask students to simply "describe" or "explain"
 - No parts, no stimulus
-- Prompt format: "Evaluate the extent to which..."
-- Each question on a different topic
+- Each question on a distinctly different topic — do not repeat themes
 
 Return ONLY a valid JSON array, zero markdown:
 [{
@@ -403,10 +486,11 @@ Difficulty: ${difficulty}
 Topics: ${topics.join(', ')}
 
 DBQ RULES:
-- 6 documents with VARIED perspectives (e.g. colonist, official, indigenous voice, merchant, critic, religious figure)
+- exactly 7 documents with VARIED perspectives — include at minimum: one supporter, one critic, one marginalized/non-elite voice (e.g. enslaved person, indigenous leader, laborer, woman), one government/official source, and two additional contrasting viewpoints
 - All document years MUST be historically accurate within Period ${unit}
-- Each document has: docNum, title, author, year, excerpt (2-4 sentences of realistic primary source content)
-- Prompt format: "Using the documents and your knowledge of the period, evaluate the extent to which..."
+- Each document has: docNum, title, author, year, excerpt (2-4 sentences of realistic primary source content with period-accurate vocabulary and tone)
+- Prompt MUST require students to: (1) evaluate complexity by addressing both supporting and contradicting evidence, (2) engage with a counterargument or limitation of the argument, and (3) use ALL 7 documents — the prompt should not be answerable without cross-referencing multiple documents
+- Prompt format: "Using all seven documents and your knowledge of the period, evaluate the extent to which..." — the claim must be debatable, not obviously true
 - No parts
 - Points: 7
 
@@ -419,16 +503,203 @@ Return ONLY a valid JSON array, zero markdown:
   "units": [${unit}],
   "difficulty": "hard",
   "points": 7,
-  "prompt": "Using the documents and your knowledge of the period, evaluate the extent to which...",
+  "prompt": "Using all seven documents and your knowledge of the period, evaluate the extent to which...",
   "stimulus": [
     { "docNum": 1, "title": "...", "author": "...", "year": 1500, "excerpt": "2-4 sentences of realistic primary source content..." },
     { "docNum": 2, "title": "...", "author": "...", "year": 1520, "excerpt": "..." },
     { "docNum": 3, "title": "...", "author": "...", "year": 1540, "excerpt": "..." },
     { "docNum": 4, "title": "...", "author": "...", "year": 1560, "excerpt": "..." },
     { "docNum": 5, "title": "...", "author": "...", "year": 1580, "excerpt": "..." },
-    { "docNum": 6, "title": "...", "author": "...", "year": 1600, "excerpt": "..." }
+    { "docNum": 6, "title": "...", "author": "...", "year": 1600, "excerpt": "..." },
+    { "docNum": 7, "title": "...", "author": "...", "year": 1620, "excerpt": "..." }
   ],
   "parts": [],
+  "sampleSolution": null
+}]
+
+Generate all ${count} now.`;
+}
+
+// ─── APGOV FRQ GENERATION PROMPTS ────────────────────────────────────────────
+
+function buildAPGOVCAPrompt(unit, topics, difficulty, count, startIndex) {
+  return `Generate exactly ${count} AP Government and Politics Concept Application (CA) FRQ(s) for Unit ${unit}.
+
+Difficulty: ${difficulty}
+Topics (spread across): ${topics.join(', ')}
+
+DIFFICULTY DEFINITIONS:
+- easy: single concept, direct application
+- medium: 2-3 concept integration or data interpretation
+- hard: multi-concept synthesis, non-standard scenario
+
+CA RULES:
+- 3 parts (a, b, c), 3 points total
+- Grounded in a realistic political scenario: proposed legislation, court case, executive action, or political event
+- Part (a): Identify a foundational concept directly illustrated by the scenario
+- Part (b): Explain how the concept applies to the scenario — must require genuine application, not definition recall
+- Part (c): Explain a tradeoff, tension, or competing interest created by or within the scenario
+- No softballs — each part must require students to apply concepts to a novel situation, not recite definitions
+- Each question must cover a DIFFERENT topic
+
+Return ONLY a valid JSON array, zero markdown:
+[{
+  "id": "gov-ca-u${unit}-${String(startIndex).padStart(2,'0')}",
+  "subject": "apgov",
+  "frqType": "ca",
+  "title": "Descriptive Title",
+  "units": [${unit}],
+  "difficulty": "${difficulty}",
+  "points": 3,
+  "prompt": "Full realistic political scenario with enough context to answer all parts...",
+  "stimulus": null,
+  "parts": [
+    { "label": "a", "question": "Identify a foundational concept illustrated by the scenario." },
+    { "label": "b", "question": "Explain how [concept from part a] applies to the described situation." },
+    { "label": "c", "question": "Explain a tradeoff or tension that the scenario creates between [competing interest 1] and [competing interest 2]." }
+  ],
+  "rubric": [
+    { "index": 0, "points": 1, "description": "Full description of what earns the point for part (a)", "partLabel": "a", "skill": "identify", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] },
+    { "index": 1, "points": 1, "description": "Full description of what earns the point for part (b)", "partLabel": "b", "skill": "explain", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] },
+    { "index": 2, "points": 1, "description": "Full description of what earns the point for part (c)", "partLabel": "c", "skill": "explain", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] }
+  ],
+  "sampleSolution": null
+}]
+
+Generate all ${count} now.`;
+}
+
+function buildAPGOVQAPrompt(unit, topics, difficulty, count, startIndex) {
+  return `Generate exactly ${count} AP Government and Politics Quantitative Analysis (QA) FRQ(s) for Unit ${unit}.
+
+Difficulty: ${difficulty}
+Topics (spread across): ${topics.join(', ')}
+
+QA RULES:
+- 4 parts (a, b, c, d), 4 points total
+- Based on a text-described data source (polling data, bar chart, table, or electoral map described in text — no actual image)
+- The stimulus MUST include specific numbers (percentages, vote totals, approval ratings, etc.)
+- Part (a): Describe a pattern in the data (what the numbers show)
+- Part (b): Draw a conclusion from the data (what the pattern means politically)
+- Part (c): Explain how the data relates to a specific political science concept
+- Part (d): Explain a limitation of the data or an alternative explanation for the pattern
+- Each question must cover a DIFFERENT topic
+
+Return ONLY a valid JSON array, zero markdown:
+[{
+  "id": "gov-qa-u${unit}-${String(startIndex).padStart(2,'0')}",
+  "subject": "apgov",
+  "frqType": "qa",
+  "title": "Descriptive Title",
+  "units": [${unit}],
+  "difficulty": "${difficulty}",
+  "points": 4,
+  "prompt": "Use the data described below to answer parts (a) through (d).",
+  "stimulus": "Text description of the data source with specific numbers, e.g.: 'A 2022 Gallup poll shows approval ratings for Congress: 18% approve among Republicans, 22% among Democrats, and 14% among Independents. Approval has declined from 35% in 2010.'",
+  "parts": [
+    { "label": "a", "question": "Describe a pattern shown in the data." },
+    { "label": "b", "question": "Draw a conclusion about [political phenomenon] based on the data." },
+    { "label": "c", "question": "Explain how the data relates to [specific political science concept]." },
+    { "label": "d", "question": "Explain ONE limitation of the data or an alternative explanation for the pattern described in part (a)." }
+  ],
+  "rubric": [
+    { "index": 0, "points": 1, "description": "Full description of what earns the point for part (a)", "partLabel": "a", "skill": "describe", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] },
+    { "index": 1, "points": 1, "description": "Full description of what earns the point for part (b)", "partLabel": "b", "skill": "explain", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] },
+    { "index": 2, "points": 1, "description": "Full description of what earns the point for part (c)", "partLabel": "c", "skill": "explain", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] },
+    { "index": 3, "points": 1, "description": "Full description of what earns the point for part (d)", "partLabel": "d", "skill": "explain", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] }
+  ],
+  "sampleSolution": null
+}]
+
+Generate all ${count} now.`;
+}
+
+function buildAPGOVSCOTUSPrompt(unit, topics, difficulty, count, startIndex) {
+  const requiredCases = [
+    'Marbury v. Madison', 'McCulloch v. Maryland', 'Schenck v. United States',
+    'Brown v. Board of Education', 'Baker v. Carr', 'Engel v. Vitale',
+    'Gideon v. Wainwright', 'Tinker v. Des Moines', 'New York Times v. United States',
+    'Wisconsin v. Yoder', 'Roe v. Wade', 'Shaw v. Reno',
+    'United States v. Lopez', 'McDonald v. Chicago', 'Citizens United v. FEC'
+  ];
+  return `Generate exactly ${count} AP Government and Politics SCOTUS Comparison FRQ(s) for Unit ${unit}.
+
+Difficulty: ${difficulty}
+Topics (spread across): ${topics.join(', ')}
+Required AP Gov SCOTUS cases (must cite one): ${requiredCases.join(', ')}
+
+SCOTUS COMPARISON RULES:
+- 3 parts (a, b, c), 3 points total
+- Must cite ONE required SCOTUS case from the list above AND one non-required case
+- Part (a): Describe the holding of the required SCOTUS case
+- Part (b): Explain how the non-required case is similar to OR different from the required case in its constitutional reasoning or outcome
+- Part (c): Explain the broader constitutional principle or precedent at stake across both cases
+- Each question must cover a DIFFERENT topic
+
+Return ONLY a valid JSON array, zero markdown:
+[{
+  "id": "gov-scotus-u${unit}-${String(startIndex).padStart(2,'0')}",
+  "subject": "apgov",
+  "frqType": "scotus",
+  "title": "Descriptive Title",
+  "units": [${unit}],
+  "difficulty": "${difficulty}",
+  "points": 3,
+  "prompt": "Use your knowledge of [Required Case] and [Non-Required Case] to answer parts (a) through (c).",
+  "stimulus": null,
+  "requiredCase": "Name of the required AP Gov SCOTUS case used",
+  "nonRequiredCase": "Name of the non-required case used",
+  "parts": [
+    { "label": "a", "question": "Describe the holding of [Required Case]." },
+    { "label": "b", "question": "Explain how [Non-Required Case] is [similar to / different from] [Required Case] in its constitutional reasoning." },
+    { "label": "c", "question": "Explain the broader constitutional principle or precedent that both cases address." }
+  ],
+  "rubric": [
+    { "index": 0, "points": 1, "description": "Full description of what earns the point for part (a)", "partLabel": "a", "skill": "describe", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] },
+    { "index": 1, "points": 1, "description": "Full description of what earns the point for part (b)", "partLabel": "b", "skill": "explain", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] },
+    { "index": 2, "points": 1, "description": "Full description of what earns the point for part (c)", "partLabel": "c", "skill": "explain", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] }
+  ],
+  "sampleSolution": null
+}]
+
+Generate all ${count} now.`;
+}
+
+function buildAPGOVARGPrompt(unit, topics, difficulty, count, startIndex) {
+  return `Generate exactly ${count} AP Government and Politics Argument Essay (ARG) FRQ(s) for Unit ${unit}.
+
+Difficulty: hard
+Topics (spread across): ${topics.join(', ')}
+
+ARG RULES:
+- No parts, 6 points total
+- Prompt format: "Develop an argument that explains..." — the claim must be GENUINELY DEBATABLE
+- Must require students to:
+  1. Write a defensible claim responding to the prompt
+  2. Support it with at least TWO pieces of specific evidence from different categories (foundational document, required SCOTUS case, or political institution)
+  3. Address a counterargument and explain why the argument still holds
+  4. Explain how the argument relates to a specific political science concept
+- Reject prompts where one side has overwhelming evidence — the claim must be contestable
+- Each question must cover a DIFFERENT topic
+
+Return ONLY a valid JSON array, zero markdown:
+[{
+  "id": "gov-arg-u${unit}-${String(startIndex).padStart(2,'0')}",
+  "subject": "apgov",
+  "frqType": "arg",
+  "title": "Descriptive Title",
+  "units": [${unit}],
+  "difficulty": "hard",
+  "points": 6,
+  "prompt": "Develop an argument that explains [genuinely debatable claim about a political science concept]...",
+  "stimulus": null,
+  "parts": [],
+  "rubric": [
+    { "index": 0, "points": 1, "description": "States a defensible claim or thesis that responds to the prompt", "partLabel": null, "skill": "argue", "keywords": ["defensible claim", "thesis", "responds to prompt", "debatable position", "political argument", "policy position"] },
+    { "index": 1, "points": 2, "description": "Supports the argument with at least two specific pieces of evidence from different categories (foundational document, required SCOTUS case, or political institution)", "partLabel": null, "skill": "argue", "keywords": ["evidence", "foundational document", "SCOTUS case", "political institution", "specific example", "supports claim"] },
+    { "index": 2, "points": 2, "description": "Addresses a counterargument and explains why the argument still holds", "partLabel": null, "skill": "argue", "keywords": ["counterargument", "opposing view", "despite", "however", "concede", "rebuttal", "acknowledges"] },
+    { "index": 3, "points": 1, "description": "Explains how the argument relates to a specific political science concept", "partLabel": null, "skill": "explain", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5", "keyword6"] }
+  ],
   "sampleSolution": null
 }]
 
@@ -465,9 +736,36 @@ function buildAPUSHAuditPrompt(questions) {
 
 Check and FIX:
 1. SAQ has exactly 3 parts with labels a, b, c
-2. DBQ has exactly 6 stimulus documents with years that are historically accurate within the stated period
+2. DBQ has exactly 7 stimulus documents with years that are historically accurate within the stated period
 3. LEQ prompt is genuinely analytical, not a knowledge-dump — rewrite if needed
 4. DROP any question with anachronistic content (add to flagged)
+
+${JSON.stringify(questions, null, 2)}
+
+Return ONLY valid JSON, zero markdown:
+{
+  "clean": [full fixed question objects that passed all checks],
+  "flagged": [{"id": "...", "issue": "description of what is wrong"}]
+}`;
+}
+
+function buildAPGOVAuditPrompt(questions) {
+  const requiredCases = [
+    'Marbury v. Madison', 'McCulloch v. Maryland', 'Schenck v. United States',
+    'Brown v. Board of Education', 'Baker v. Carr', 'Engel v. Vitale',
+    'Gideon v. Wainwright', 'Tinker v. Des Moines', 'New York Times v. United States',
+    'Wisconsin v. Yoder', 'Roe v. Wade', 'Shaw v. Reno',
+    'United States v. Lopez', 'McDonald v. Chicago', 'Citizens United v. FEC'
+  ];
+  return `You are an expert AP Government and Politics teacher. Audit these ${questions.length} AP Gov FRQ questions.
+
+Check and FIX:
+1. CA questions have exactly 3 parts with labels a, b, c
+2. QA questions have exactly 4 parts with labels a, b, c, d — AND the stimulus is text-described with specific numbers (not a vague description)
+3. SCOTUS questions cite a real required AP Gov case from this list: ${requiredCases.join(', ')} — flag if the required case is not on this list
+4. ARG prompts are genuinely debatable — rewrite any prompt where only one side has strong evidence
+5. Every rubric item has at least 5 subject-specific keywords — add more if fewer
+6. DROP any question with factual errors (add to flagged)
 
 ${JSON.stringify(questions, null, 2)}
 
@@ -517,6 +815,7 @@ async function generateForSubject(subjectKey, unitFilter, wipe) {
   let totalFlagged = 0;
 
   const isAPUSH = subjectKey === 'apush';
+  const isAPGOV = subjectKey === 'apgov';
   const units = Object.entries(config.units);
 
   for (const [unitNum, unitConfig] of units) {
@@ -527,6 +826,8 @@ async function generateForSubject(subjectKey, unitFilter, wipe) {
 
     if (isAPUSH) {
       await generateAPUSHUnit(unit, unitConfig, config, currentInUnit, existing, allFlagged, { lastIndex, totalGenerated, totalFlagged });
+    } else if (isAPGOV) {
+      await generateAPGOVUnit(unit, unitConfig, config, currentInUnit, existing, allFlagged, { lastIndex, totalGenerated, totalFlagged });
     } else {
       await generateGenericUnit(subjectKey, unit, unitConfig, config, currentInUnit, existing, allFlagged, { lastIndex, totalGenerated, totalFlagged });
     }
@@ -598,6 +899,7 @@ async function generateGenericUnit(subjectKey, unit, unitConfig, config, current
             if (!Array.isArray(generated)) generated = [generated];
           } catch {
             console.log(`PARSE ERROR — skipping`);
+            fs.writeFileSync('scripts/frq_parse_error_debug.txt', raw, 'utf8');
             console.log(`Raw (last 500): ${genRaw.slice(-500)}`);
             remaining -= batchCount;
             await sleep(DELAY_MS);
@@ -695,6 +997,7 @@ async function generateAPUSHUnit(unit, unitConfig, config, currentInUnit, existi
             if (!Array.isArray(generated)) generated = [generated];
           } catch {
             console.log(`PARSE ERROR — skipping`);
+            fs.writeFileSync('scripts/frq_parse_error_debug.txt', raw, 'utf8');
             remaining -= batchCount;
             await sleep(DELAY_MS);
             continue;
@@ -760,6 +1063,7 @@ async function generateAPUSHUnit(unit, unitConfig, config, currentInUnit, existi
           if (!Array.isArray(generated)) generated = [generated];
         } catch {
           console.log(`PARSE ERROR — skipping`);
+          fs.writeFileSync('scripts/frq_parse_error_debug.txt', raw, 'utf8');
           remaining -= batchCount;
           await sleep(DELAY_MS);
           continue;
@@ -824,6 +1128,7 @@ async function generateAPUSHUnit(unit, unitConfig, config, currentInUnit, existi
           if (!Array.isArray(generated)) generated = [generated];
         } catch {
           console.log(`PARSE ERROR — skipping`);
+          fs.writeFileSync('scripts/frq_parse_error_debug.txt', raw, 'utf8');
           remaining -= batchCount;
           await sleep(DELAY_MS);
           continue;
@@ -871,6 +1176,235 @@ async function generateAPUSHUnit(unit, unitConfig, config, currentInUnit, existi
   }
 }
 
+async function generateAPGOVUnit(unit, unitConfig, config, currentInUnit, existing, allFlagged, counters) {
+  const targets = config.targets;
+
+  // CA
+  const currentCA = currentInUnit.filter(q => q.frqType === 'ca').length;
+  const needCA = Math.max(0, targets.ca - currentCA);
+
+  // QA
+  const currentQA = currentInUnit.filter(q => q.frqType === 'qa').length;
+  const needQA = Math.max(0, targets.qa - currentQA);
+
+  // SCOTUS
+  const currentSCOTUS = currentInUnit.filter(q => q.frqType === 'scotus').length;
+  const needSCOTUS = Math.max(0, targets.scotus - currentSCOTUS);
+
+  // ARG
+  const currentARG = currentInUnit.filter(q => q.frqType === 'arg').length;
+  const needARG = Math.max(0, targets.arg - currentARG);
+
+  console.log(`Unit ${unit}: need +${needCA} CA, +${needQA} QA, +${needSCOTUS} SCOTUS, +${needARG} ARG`);
+
+  // Generate CAs
+  if (needCA > 0) {
+    const dist = difficultyDistribution(needCA);
+    const batches = [
+      { difficulty: 'easy', count: dist.easy },
+      { difficulty: 'medium', count: dist.medium },
+      { difficulty: 'hard', count: dist.hard },
+    ].filter(b => b.count > 0);
+
+    for (const { difficulty, count } of batches) {
+      let remaining = count;
+      while (remaining > 0) {
+        const batchCount = Math.min(BATCH_SIZE, remaining);
+        counters.lastIndex++;
+        process.stdout.write(`  Generating ${batchCount}x ${difficulty} CA Unit ${unit}... `);
+        try {
+          const genRaw = await callBedrock(buildAPGOVCAPrompt(unit, unitConfig.topics, difficulty, batchCount, counters.lastIndex));
+          let generated;
+          try {
+            generated = parseJSON(genRaw);
+            if (!Array.isArray(generated)) generated = [generated];
+          } catch {
+            console.log(`PARSE ERROR — skipping`);
+            fs.writeFileSync('scripts/frq_parse_error_debug.txt', raw, 'utf8');
+            remaining -= batchCount;
+            await sleep(DELAY_MS);
+            continue;
+          }
+          await sleep(1000);
+          process.stdout.write(`auditing... `);
+          const auditRaw = await callBedrock(buildAPGOVAuditPrompt(generated));
+          let auditResult;
+          try { auditResult = parseJSON(auditRaw); } catch { auditResult = { clean: generated, flagged: [] }; }
+          let clean = auditResult.clean || [];
+          const flagged = auditResult.flagged || [];
+          if (clean.length === 0 && flagged.length === 0) { clean = generated; }
+          clean.forEach((q, i) => { q.id = `gov-ca-u${unit}-${String(counters.lastIndex + i).padStart(2, '0')}`; });
+          existing.push(...clean);
+          allFlagged.push(...flagged);
+          counters.totalGenerated += clean.length;
+          counters.totalFlagged += flagged.length;
+          remaining -= batchCount;
+          counters.lastIndex += Math.max(0, clean.length - 1);
+          console.log(`✓ ${clean.length} clean, ${flagged.length} flagged`);
+          await sleep(DELAY_MS);
+        } catch (err) {
+          console.log(`ERROR: ${err.message}`);
+          await sleep(DELAY_MS * 2);
+          remaining -= batchCount;
+        }
+      }
+    }
+  }
+
+  // Generate QAs
+  if (needQA > 0) {
+    const dist = difficultyDistribution(needQA);
+    const batches = [
+      { difficulty: 'easy', count: dist.easy },
+      { difficulty: 'medium', count: dist.medium },
+      { difficulty: 'hard', count: dist.hard },
+    ].filter(b => b.count > 0);
+
+    for (const { difficulty, count } of batches) {
+      let remaining = count;
+      while (remaining > 0) {
+        const batchCount = Math.min(BATCH_SIZE, remaining);
+        counters.lastIndex++;
+        process.stdout.write(`  Generating ${batchCount}x ${difficulty} QA Unit ${unit}... `);
+        try {
+          const genRaw = await callBedrock(buildAPGOVQAPrompt(unit, unitConfig.topics, difficulty, batchCount, counters.lastIndex));
+          let generated;
+          try {
+            generated = parseJSON(genRaw);
+            if (!Array.isArray(generated)) generated = [generated];
+          } catch {
+            console.log(`PARSE ERROR — skipping`);
+            fs.writeFileSync('scripts/frq_parse_error_debug.txt', raw, 'utf8');
+            remaining -= batchCount;
+            await sleep(DELAY_MS);
+            continue;
+          }
+          await sleep(1000);
+          process.stdout.write(`auditing... `);
+          const auditRaw = await callBedrock(buildAPGOVAuditPrompt(generated));
+          let auditResult;
+          try { auditResult = parseJSON(auditRaw); } catch { auditResult = { clean: generated, flagged: [] }; }
+          let clean = auditResult.clean || [];
+          const flagged = auditResult.flagged || [];
+          if (clean.length === 0 && flagged.length === 0) { clean = generated; }
+          clean.forEach((q, i) => { q.id = `gov-qa-u${unit}-${String(counters.lastIndex + i).padStart(2, '0')}`; });
+          existing.push(...clean);
+          allFlagged.push(...flagged);
+          counters.totalGenerated += clean.length;
+          counters.totalFlagged += flagged.length;
+          remaining -= batchCount;
+          counters.lastIndex += Math.max(0, clean.length - 1);
+          console.log(`✓ ${clean.length} clean, ${flagged.length} flagged`);
+          await sleep(DELAY_MS);
+        } catch (err) {
+          console.log(`ERROR: ${err.message}`);
+          await sleep(DELAY_MS * 2);
+          remaining -= batchCount;
+        }
+      }
+    }
+  }
+
+  // Generate SCOTUS
+  if (needSCOTUS > 0) {
+    const dist = difficultyDistribution(needSCOTUS);
+    const batches = [
+      { difficulty: 'easy', count: dist.easy },
+      { difficulty: 'medium', count: dist.medium },
+      { difficulty: 'hard', count: dist.hard },
+    ].filter(b => b.count > 0);
+
+    for (const { difficulty, count } of batches) {
+      let remaining = count;
+      while (remaining > 0) {
+        const batchCount = Math.min(BATCH_SIZE, remaining);
+        counters.lastIndex++;
+        process.stdout.write(`  Generating ${batchCount}x ${difficulty} SCOTUS Unit ${unit}... `);
+        try {
+          const genRaw = await callBedrock(buildAPGOVSCOTUSPrompt(unit, unitConfig.topics, difficulty, batchCount, counters.lastIndex));
+          let generated;
+          try {
+            generated = parseJSON(genRaw);
+            if (!Array.isArray(generated)) generated = [generated];
+          } catch {
+            console.log(`PARSE ERROR — skipping`);
+            fs.writeFileSync('scripts/frq_parse_error_debug.txt', raw, 'utf8');
+            remaining -= batchCount;
+            await sleep(DELAY_MS);
+            continue;
+          }
+          await sleep(1000);
+          process.stdout.write(`auditing... `);
+          const auditRaw = await callBedrock(buildAPGOVAuditPrompt(generated));
+          let auditResult;
+          try { auditResult = parseJSON(auditRaw); } catch { auditResult = { clean: generated, flagged: [] }; }
+          let clean = auditResult.clean || [];
+          const flagged = auditResult.flagged || [];
+          if (clean.length === 0 && flagged.length === 0) { clean = generated; }
+          clean.forEach((q, i) => { q.id = `gov-scotus-u${unit}-${String(counters.lastIndex + i).padStart(2, '0')}`; });
+          existing.push(...clean);
+          allFlagged.push(...flagged);
+          counters.totalGenerated += clean.length;
+          counters.totalFlagged += flagged.length;
+          remaining -= batchCount;
+          counters.lastIndex += Math.max(0, clean.length - 1);
+          console.log(`✓ ${clean.length} clean, ${flagged.length} flagged`);
+          await sleep(DELAY_MS);
+        } catch (err) {
+          console.log(`ERROR: ${err.message}`);
+          await sleep(DELAY_MS * 2);
+          remaining -= batchCount;
+        }
+      }
+    }
+  }
+
+  // Generate ARGs (DBQ_BATCH_SIZE like DBQ)
+  if (needARG > 0) {
+    let remaining = needARG;
+    while (remaining > 0) {
+      const batchCount = Math.min(DBQ_BATCH_SIZE, remaining);
+      counters.lastIndex++;
+      process.stdout.write(`  Generating ${batchCount}x ARG Unit ${unit}... `);
+      try {
+        const genRaw = await callBedrock(buildAPGOVARGPrompt(unit, unitConfig.topics, 'hard', batchCount, counters.lastIndex));
+        let generated;
+        try {
+          generated = parseJSON(genRaw);
+          if (!Array.isArray(generated)) generated = [generated];
+        } catch {
+          console.log(`PARSE ERROR — skipping`);
+          fs.writeFileSync('scripts/frq_parse_error_debug.txt', raw, 'utf8');
+          remaining -= batchCount;
+          await sleep(DELAY_MS);
+          continue;
+        }
+        await sleep(1000);
+        process.stdout.write(`auditing... `);
+        const auditRaw = await callBedrock(buildAPGOVAuditPrompt(generated));
+        let auditResult;
+        try { auditResult = parseJSON(auditRaw); } catch { auditResult = { clean: generated, flagged: [] }; }
+        let clean = auditResult.clean || [];
+        const flagged = auditResult.flagged || [];
+        if (clean.length === 0 && flagged.length === 0) { clean = generated; }
+        clean.forEach((q, i) => { q.id = `gov-arg-u${unit}-${String(counters.lastIndex + i).padStart(2, '0')}`; });
+        existing.push(...clean);
+        allFlagged.push(...flagged);
+        counters.totalGenerated += clean.length;
+        counters.totalFlagged += flagged.length;
+        remaining -= batchCount;
+        counters.lastIndex += Math.max(0, clean.length - 1);
+        console.log(`✓ ${clean.length} clean, ${flagged.length} flagged`);
+        await sleep(DELAY_MS);
+      } catch (err) {
+        console.log(`ERROR: ${err.message}`);
+        await sleep(DELAY_MS * 2);
+        remaining -= batchCount;
+      }
+    }
+  }
+}
+
 // ─── ENTRY ───────────────────────────────────────────────────────────────────
 
 const args = process.argv.slice(2);
@@ -883,14 +1417,17 @@ if (subjectFlag === -1 || !args[subjectFlag + 1]) {
 Usage: node scripts/generateFRQ.mjs --subject <subject> [--unit N] [--wipe]
 
 Subjects:
-  apbio     AP Biology              (4 short + 2 long per unit, 8 units)
-  apcalc    AP Calculus AB           (4 short + 2 long per unit, 8 units)
-  apstats   AP Statistics            (6 short per unit, 9 units)
-  apmicro   AP Microeconomics        (3 short + 2 long per unit, 6 units)
-  apmacro   AP Macroeconomics        (3 short + 2 long per unit, 6 units)
-  apush     AP US History            (2 SAQ + 1 LEQ + 1 DBQ per period, 9 periods)
-  apphys1   AP Physics 1             (3 short + 2 long per unit, 7 units)
-  apphysc   AP Physics C             (3 short + 2 long per unit, 5 units)
+  apbio     AP Biology                    (4 short + 2 long per unit, 8 units)
+  apcalc    AP Calculus AB                (4 short + 2 long per unit, 8 units)
+  apcalcbc  AP Calculus BC                (4 short + 2 long per unit, 10 units)
+  apstats   AP Statistics                 (6 short per unit, 9 units)
+  apmicro   AP Microeconomics             (3 short + 2 long per unit, 6 units)
+  apmacro   AP Macroeconomics             (3 short + 2 long per unit, 6 units)
+  apush     AP US History                 (2 SAQ + 1 LEQ + 1 DBQ per period, 9 periods)
+  apgov     AP Government and Politics    (2 CA + 1 QA + 1 SCOTUS + 1 ARG per unit, 5 units)
+  apenviro  AP Environmental Science      (4 short + 2 long per unit, 9 units)
+  apphys1   AP Physics 1                  (3 short + 2 long per unit, 7 units)
+  apphysc   AP Physics C                  (3 short + 2 long per unit, 5 units)
 
 Options:
   --unit N    Only generate for unit/period N
