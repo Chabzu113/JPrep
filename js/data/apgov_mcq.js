@@ -4658,5 +4658,1465 @@ window.APGOV_MCQ = [
     ],
     "answer": 0,
     "explanation": "A is correct because the durability of iron triangles stems from the mutually reinforcing benefits exchanged among the three actors: the bureaucratic agency receives funding and political support, the congressional committee members receive campaign contributions and expertise, and the interest group receives favorable policy outcomes. This mutual dependence makes them resilient even against external political opposition. B is wrong because bureaucratic officials are executive branch employees, not protected by Article III (which applies to federal judges); presidents can influence agencies through appointments and executive orders. C is wrong because iron triangles are informal relationships, not formally created by statute, and no supermajority is required to restructure them. D is wrong because while lobbying is protected by the First Amendment, this does not grant legal immunity from congressional oversight - Congress retains broad oversight powers over agencies and can investigate relationships with interest groups."
+  },
+  {
+    "id": "gov_u1_q234",
+    "subject": "apgov",
+    "unit": 1,
+    "topic": "McCulloch v Maryland",
+    "topicLabel": "McCulloch v Maryland",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In McCulloch v. Maryland (1819), the Supreme Court ruled that Maryland could not tax the Second Bank of the United States. Which constitutional principles did the Court primarily rely on to reach this decision?",
+    "choices": [
+      "A) The enumerated powers clause and the Tenth Amendment, which together reserve all financial powers to the states",
+      "B) The necessary and proper clause and the Supremacy Clause, which established broad federal power and federal supremacy over conflicting state actions",
+      "C) The separation of powers doctrine and checks and balances, which prevent states from interfering with any branch of the federal government",
+      "D) The social contract theory and popular sovereignty, which grant the national government authority derived directly from the people of each state"
+    ],
+    "answer": 1,
+    "explanation": "The Court, under Chief Justice John Marshall, used the necessary and proper clause to argue that Congress had implied power to charter a national bank as a means of executing its enumerated powers (taxing, borrowing, regulating commerce). The Supremacy Clause then established that because the bank was a constitutional federal instrument, Maryland's tax on it was unconstitutional since federal law is supreme over state law. Option A is wrong because the Tenth Amendment was actually used by Maryland's side, not the Court's ruling, and the enumerated powers alone don't address state taxation. Option C is wrong because separation of powers governs the federal branches internally, not federal-state conflicts. Option D is wrong because while popular sovereignty is a founding principle, Marshall's ruling was grounded in specific constitutional text, not social contract theory."
+  },
+  {
+    "id": "gov_u2_q235",
+    "subject": "apgov",
+    "unit": 2,
+    "topic": "executive orders",
+    "topicLabel": "Executive Orders",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A president issues an executive order directing federal agencies to change how they enforce an existing immigration law. A legal challenge is brought, and the case reaches the Supreme Court. Which of the following outcomes would MOST likely result in the executive order being struck down?",
+    "choices": [
+      "A) The Court finds that the order contradicts the explicit text of the statute passed by Congress",
+      "B) The Court finds that the order was not approved by a two-thirds majority of the Senate",
+      "C) The Court finds that fewer than half of the cabinet secretaries supported the order",
+      "D) The Court finds that the order was not ratified by three-fourths of the states"
+    ],
+    "answer": 0,
+    "explanation": "Executive orders carry the force of law but cannot contradict existing legislation passed by Congress. If the Court determines the order conflicts with a statute, it will be struck down under the principle that Congress's lawmaking authority is supreme over executive enforcement discretion. Option B is incorrect because executive orders do not require Senate approval of any kind - that process applies to treaties. Option C is a misconception; cabinet support is politically relevant but has no legal bearing on an order's validity. Option D confuses the constitutional amendment process with executive action review - ratification by states applies only to constitutional amendments, not executive orders."
+  },
+  {
+    "id": "gov_u2_q236",
+    "subject": "apgov",
+    "unit": 2,
+    "topic": "judicial review and Marbury v Madison",
+    "topicLabel": "Judicial Review and Marbury v Madison",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In Marbury v. Madison (1803), Chief Justice John Marshall established the principle of judicial review. Which of the following scenarios best reflects the practical use of this principle in the modern federal system?",
+    "choices": [
+      "A) Congress passes a law expanding Medicare, and the president signs it into law after consulting the Supreme Court",
+      "B) The Supreme Court strikes down a state law mandating school prayer, ruling it violates the First Amendment",
+      "C) The Senate confirms a federal judge nominated by the president to fill a vacancy on the circuit court",
+      "D) The president issues a veto of a bill passed by Congress, sending it back for a two-thirds override vote"
+    ],
+    "answer": 1,
+    "explanation": "Judicial review is the power of federal courts to invalidate laws or government actions that conflict with the Constitution. The Supreme Court striking down a state law as unconstitutional is a direct application of this principle. Option A is incorrect because judicial review does not involve the Court advising on legislation before it is passed - the Court rules on actual cases, not hypothetical consultations. Option C describes the appointments process under Article II, not judicial review. Option D describes the veto process, which is an executive check on the legislature entirely separate from the judiciary's role in constitutional interpretation."
+  },
+  {
+    "id": "gov_u2_q237",
+    "subject": "apgov",
+    "unit": 2,
+    "topic": "iron triangles",
+    "topicLabel": "Iron Triangles & Bureaucracy",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A defense contractor lobbies Congress for increased military spending, while the Department of Defense supports the expanded budget, and the relevant congressional subcommittee approves the funding in exchange for constituent jobs. A critic argues this arrangement undermines democratic accountability. Which of the following best explains why iron triangles are considered a threat to democratic governance?",
+    "choices": [
+      "A) They allow unelected bureaucrats, interest groups, and narrow legislative coalitions to advance shared interests largely outside of public scrutiny, insulating policy from broader electoral accountability.",
+      "B) They violate the constitutional separation of powers by forcing the executive branch to implement legislation it did not propose.",
+      "C) They concentrate power exclusively in the hands of the President, who directs both the bureaucracy and congressional subcommittees.",
+      "D) They are unconstitutional because the Constitution prohibits federal agencies from communicating directly with members of Congress."
+    ],
+    "answer": 0,
+    "explanation": "Iron triangles are mutually beneficial relationships among a bureaucratic agency, a congressional subcommittee, and an interest group. The democratic accountability problem is that policy gets made through self-reinforcing insider relationships rather than open public deliberation - elected officials in the broader Congress and the general public have little visibility or influence. Choice B is wrong because iron triangles do not inherently violate separation of powers; all three branches have constitutional roles. Choice C is a common misconception - the President is actually often excluded from or marginalized by iron triangle dynamics, not empowered by them. Choice D is fabricated; no such constitutional prohibition exists, and agency-congressional communication is routine and legal."
+  },
+  {
+    "id": "gov_u2_q238",
+    "subject": "apgov",
+    "unit": 2,
+    "topic": "judicial review",
+    "topicLabel": "Judicial Review & Marbury v. Madison",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In Marbury v. Madison (1803), Chief Justice John Marshall simultaneously declined to give Marbury his commission and established a sweeping constitutional precedent. Which of the following best explains the political significance of Marshall's reasoning in that decision?",
+    "choices": [
+      "A) By ruling against Marbury on narrow statutory grounds, Marshall avoided a direct confrontation with the Jefferson administration while permanently expanding the Supreme Court's power to strike down acts of Congress, making the ruling politically unassailable.",
+      "B) Marshall's decision was significant primarily because it established the principle of stare decisis, requiring future courts to follow precedents set by earlier decisions.",
+      "C) The ruling was significant because it forced President Jefferson to deliver Marbury's commission, thereby affirming the supremacy of the judiciary over the executive branch.",
+      "D) Marshall established judicial review by invoking a specific clause of Article III that explicitly grants the Court authority to invalidate unconstitutional legislation."
+    ],
+    "answer": 0,
+    "explanation": "Marshall's genius was strategic: by ruling that Section 13 of the Judiciary Act of 1789 unconstitutionally expanded the Court's original jurisdiction, he gave Jefferson what he wanted (no commission for Marbury) while asserting judicial review - a far more powerful long-term claim. Jefferson could not appeal a ruling that went in his favor, so the precedent stood unchallenged. Choice B is wrong because stare decisis, while real, was not the central precedent established in Marbury; judicial review was. Choice C is factually incorrect - Marshall ruled he could NOT order Jefferson to deliver the commission, which is the opposite of forcing Jefferson's hand. Choice D is a common trap: Article III does NOT explicitly mention judicial review; Marshall inferred it from the logic of a written constitution and the Court's role in saying what the law is."
+  },
+  {
+    "id": "gov_u3_q239",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "First Amendment",
+    "topicLabel": "First Amendment",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Which of the following freedoms is NOT protected by the First Amendment?",
+    "choices": [
+      "A) The right to keep and bear arms",
+      "B) Freedom of the press",
+      "C) Freedom of religion",
+      "D) The right to petition the government"
+    ],
+    "answer": 0,
+    "explanation": "The right to keep and bear arms is protected by the Second Amendment, not the First. The First Amendment protects freedom of religion, speech, press, assembly, and the right to petition the government. Students sometimes confuse which amendment covers which right."
+  },
+  {
+    "id": "gov_u3_q240",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Schenck v United States",
+    "topicLabel": "Schenck v United States",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In Schenck v. United States (1919), the Supreme Court ruled that speech could be restricted when it presented a 'clear and present danger.' What was the context of this case?",
+    "choices": [
+      "A) Distributing anti-draft leaflets during World War I",
+      "B) Burning an American flag during a political protest",
+      "C) Publishing classified military documents in a newspaper",
+      "D) Students wearing black armbands to protest the Vietnam War"
+    ],
+    "answer": 0,
+    "explanation": "Schenck involved the distribution of leaflets urging resistance to the military draft during World War I. The Court upheld his conviction, establishing the 'clear and present danger' test. Flag burning is associated with Texas v. Johnson, classified documents with the Pentagon Papers case, and armbands with Tinker v. Des Moines."
+  },
+  {
+    "id": "gov_u3_q241",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Tinker v Des Moines",
+    "topicLabel": "Tinker v Des Moines",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The Supreme Court's ruling in Tinker v. Des Moines (1969) established that students",
+    "choices": [
+      "A) do not shed their constitutional rights at the schoolhouse gate",
+      "B) may be searched without a warrant on school grounds",
+      "C) have no First Amendment protections during school hours",
+      "D) can be punished for any speech that offends other students"
+    ],
+    "answer": 0,
+    "explanation": "The Court ruled in Tinker that students retain their First Amendment rights in school, famously stating they do not 'shed their constitutional rights at the schoolhouse gate.' The other options contradict this ruling - students do retain speech protections, though those protections can be limited when they cause substantial disruption."
+  },
+  {
+    "id": "gov_u3_q242",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Engel v Vitale",
+    "topicLabel": "Engel v Vitale",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In Engel v. Vitale (1962), the Supreme Court ruled that school-sponsored prayer in public schools violated which clause of the First Amendment?",
+    "choices": [
+      "A) The Establishment Clause",
+      "B) The Free Exercise Clause",
+      "C) The Free Speech Clause",
+      "D) The Due Process Clause"
+    ],
+    "answer": 0,
+    "explanation": "The Establishment Clause prohibits the government from establishing or sponsoring religion. School-sponsored prayer violates this clause. The Free Exercise Clause protects individuals' rights to practice religion, not restrict government sponsorship. Free Speech and Due Process are unrelated to this ruling."
+  },
+  {
+    "id": "gov_u3_q243",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "incorporation doctrine",
+    "topicLabel": "Incorporation Doctrine",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The incorporation doctrine refers to the process by which",
+    "choices": [
+      "A) the Supreme Court applies provisions of the Bill of Rights to state governments through the Fourteenth Amendment",
+      "B) Congress passes legislation that expands the rights listed in the Bill of Rights",
+      "C) the president signs executive orders enforcing constitutional rights",
+      "D) federal courts allow new amendments to be added to the Constitution"
+    ],
+    "answer": 0,
+    "explanation": "The incorporation doctrine uses the Due Process Clause of the Fourteenth Amendment to apply most Bill of Rights protections to state governments. Originally, the Bill of Rights only restricted the federal government. Congress, the president, and the amendment process are not involved in judicial incorporation."
+  },
+  {
+    "id": "gov_u3_q244",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Brown v Board",
+    "topicLabel": "Brown v Board of Education",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Brown v. Board of Education (1954) overturned which earlier Supreme Court precedent?",
+    "choices": [
+      "A) Plessy v. Ferguson",
+      "B) Marbury v. Madison",
+      "C) McCulloch v. Maryland",
+      "D) Gibbons v. Ogden"
+    ],
+    "answer": 0,
+    "explanation": "Brown overturned Plessy v. Ferguson (1896), which had established the 'separate but equal' doctrine allowing racial segregation. The Court unanimously ruled that separate educational facilities were inherently unequal. Marbury, McCulloch, and Gibbons deal with judicial review and federal power, not racial segregation."
+  },
+  {
+    "id": "gov_u3_q245",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Schenck v United States",
+    "topicLabel": "Schenck v United States",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In Schenck v. United States (1919), the Supreme Court upheld the conviction of Charles Schenck for distributing leaflets opposing the military draft. Which of the following scenarios would most closely parallel the Court's reasoning in that decision?",
+    "choices": [
+      "A) A journalist publishing an investigative article criticizing the government's wartime budget decisions.",
+      "B) A protestor burning a flag silently on the steps of a state capitol.",
+      "C) An activist distributing pamphlets urging soldiers to resist orders during an active armed conflict.",
+      "D) A professor teaching a college course that analyzes the arguments made by historical draft resisters."
+    ],
+    "answer": 2,
+    "explanation": "Schenck's conviction rested on the idea that his speech posed a clear and present danger by attempting to obstruct military recruitment during wartime. Choice C mirrors this by urging active resistance during armed conflict. Choice A is protected journalism without direct incitement. Choice B is symbolic speech that does not directly threaten military operations. Choice D is academic analysis, not incitement."
+  },
+  {
+    "id": "gov_u3_q246",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Tinker v Des Moines",
+    "topicLabel": "Tinker v Des Moines",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A public high school principal bans students from wearing t-shirts bearing political slogans after students began wearing them to protest a local school board decision. Based on Tinker v. Des Moines (1969), which of the following would most likely determine whether this ban is constitutional?",
+    "choices": [
+      "A) Whether the political slogans are considered obscene under community standards.",
+      "B) Whether the t-shirts caused or were reasonably forecast to cause a substantial disruption to school operations.",
+      "C) Whether the students obtained prior approval from school administrators before wearing the shirts.",
+      "D) Whether the school board formally voted to approve the restriction at a public meeting."
+    ],
+    "answer": 1,
+    "explanation": "Tinker established that students do not 'shed their constitutional rights at the schoolhouse gate,' but schools may restrict expression if it substantially disrupts school operations. Choice A is incorrect because obscenity is a separate legal standard unrelated to Tinker. Choice C is wrong because prior restraint is not the test Tinker established. Choice D is irrelevant because the constitutionality depends on the disruption standard, not procedural voting."
+  },
+  {
+    "id": "gov_u3_q247",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Establishment Clause",
+    "topicLabel": "Establishment Clause",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A state legislature passes a law requiring all public school students to observe one minute of silence at the start of each school day 'for the purpose of prayer or meditation.' Which constitutional principle is most directly at issue in evaluating this law?",
+    "choices": [
+      "A) The free exercise clause, because students who do not wish to pray are being coerced.",
+      "B) The establishment clause, because the state law appears to endorse or promote religious activity.",
+      "C) The equal protection clause, because students of different faiths are treated differently.",
+      "D) The due process clause, because students are not given notice before being required to participate."
+    ],
+    "answer": 1,
+    "explanation": "The establishment clause prohibits government from endorsing or promoting religion. A state-mandated moment of silence explicitly referencing prayer raises establishment clause concerns, as seen in Wallace v. Jaffree. Choice A is incorrect because free exercise protects individuals from government interference with their religious practice - this law imposes state-endorsed religious activity rather than restricting it. Choice C is wrong because all students are subject to the same rule. Choice D is a misapplication of due process, which addresses procedural fairness, not religious observance."
+  },
+  {
+    "id": "gov_u3_q248",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Engel v Vitale",
+    "topicLabel": "Engel v Vitale",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In Engel v. Vitale (1962), the Supreme Court ruled that a New York school district's practice of beginning the school day with a state-composed prayer was unconstitutional. Which of the following best explains the Court's primary reasoning?",
+    "choices": [
+      "A) The prayer violated the free speech rights of students who did not wish to recite it.",
+      "B) By composing and sponsoring a prayer for use in public schools, the government was directly involved in religious activity in violation of the establishment clause.",
+      "C) The prayer was discriminatory because it favored one religious denomination over others, violating the equal protection clause.",
+      "D) Public school teachers are government employees and therefore are personally prohibited from engaging in any religious activity."
+    ],
+    "answer": 1,
+    "explanation": "The Court's core reasoning in Engel was that government composition and sponsorship of a prayer - even a nondenominational one - constituted government establishment of religion. Choice A is wrong because the Court's reasoning centered on establishment, not free speech. Choice C is incorrect because the prayer was nondenominational; the issue was government involvement in religion itself. Choice D is an overstatement - teachers have personal religious rights but cannot lead state-sponsored religious exercises."
+  },
+  {
+    "id": "gov_u3_q249",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Exclusionary Rule",
+    "topicLabel": "Exclusionary Rule",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Police officers search a suspect's home without a warrant and without meeting any recognized exception to the warrant requirement. They find incriminating evidence. At trial, the defense moves to have the evidence excluded. Which of the following best describes the constitutional basis for the court granting this motion?",
+    "choices": [
+      "A) The Fifth Amendment's protection against self-incrimination prohibits the use of any physical evidence against a defendant.",
+      "B) The exclusionary rule, derived from the Fourth Amendment, bars the use of evidence obtained through unconstitutional searches and seizures.",
+      "C) The Sixth Amendment's right to counsel requires that defense attorneys be present during all searches.",
+      "D) The due process clause automatically nullifies any conviction based on evidence gathered without a warrant."
+    ],
+    "answer": 1,
+    "explanation": "The exclusionary rule, established in Mapp v. Ohio, prevents illegally obtained evidence from being used in court and is grounded in the Fourth Amendment's protection against unreasonable searches. Choice A is wrong because the Fifth Amendment covers self-incrimination through testimony, not physical evidence obtained by police. Choice C is incorrect because the Sixth Amendment right to counsel applies at critical stages of prosecution, not during searches. Choice D overstates the rule - the due process clause does not automatically nullify convictions, and the exclusionary rule is the specific remedy for Fourth Amendment violations."
+  },
+  {
+    "id": "gov_u3_q250",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Gideon v Wainwright",
+    "topicLabel": "Gideon v Wainwright",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A defendant facing felony charges in a state court cannot afford an attorney and requests that one be appointed. The state court refuses, arguing that the Sixth Amendment only obligates the federal government to provide counsel. Which Supreme Court precedent directly refutes this state court's reasoning?",
+    "choices": [
+      "A) Miranda v. Arizona, which requires all suspects to be informed of their right to an attorney.",
+      "B) Gideon v. Wainwright, which incorporated the Sixth Amendment right to counsel to the states through the Fourteenth Amendment.",
+      "C) Marbury v. Madison, which established that states must follow federal constitutional interpretations.",
+      "D) McCulloch v. Maryland, which held that states cannot obstruct the exercise of federal rights."
+    ],
+    "answer": 1,
+    "explanation": "Gideon v. Wainwright (1963) held that the Sixth Amendment right to counsel is a fundamental right incorporated to the states via the Fourteenth Amendment's due process clause, requiring states to provide attorneys to defendants who cannot afford one. Choice A is partly related but Miranda concerns warnings during interrogation, not the right to appointed counsel at trial. Choice C is wrong because Marbury v. Madison established judicial review, not incorporation. Choice D is wrong because McCulloch concerned federal supremacy in taxation, not the right to counsel."
+  },
+  {
+    "id": "gov_u3_q251",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Brown v Board",
+    "topicLabel": "Brown v Board of Education",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "In Brown v. Board of Education (1954), the Supreme Court overturned its earlier ruling in Plessy v. Ferguson. Which of the following best explains the constitutional shift between the two decisions?",
+    "choices": [
+      "A) Plessy upheld racial segregation under the commerce clause, while Brown struck it down under the First Amendment.",
+      "B) Plessy held that 'separate but equal' facilities satisfied the Fourteenth Amendment's equal protection clause, while Brown ruled that separate educational facilities were inherently unequal and unconstitutional.",
+      "C) Plessy applied only to transportation, and Brown extended equal protection to all areas of public life for the first time.",
+      "D) Plessy was decided on due process grounds, while Brown was the first case to apply the equal protection clause to racial discrimination."
+    ],
+    "answer": 1,
+    "explanation": "Brown directly reversed Plessy's 'separate but equal' doctrine by ruling that segregated schools were inherently unequal under the Fourteenth Amendment's equal protection clause, because segregation itself caused psychological harm to Black children. Choice A is wrong because neither decision was grounded in the commerce clause or First Amendment. Choice C is a partial truth but overstates what Brown ruled - it focused on public education, not all areas of public life. Choice D is incorrect because Plessy also involved equal protection; Brown did not introduce the clause but reinterpreted it."
+  },
+  {
+    "id": "gov_u3_q252",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Voting Rights Act 1965",
+    "topicLabel": "Voting Rights Act 1965",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The Voting Rights Act of 1965 included a provision requiring certain states with a history of racial discrimination in voting to obtain federal approval before changing their election laws. This provision was primarily justified by which constitutional authority?",
+    "choices": [
+      "A) The First Amendment's protection of the right to petition the government.",
+      "B) The Fourteenth Amendment's equal protection clause and the Fifteenth Amendment's prohibition on race-based voting restrictions, combined with Congress's enforcement powers.",
+      "C) The commerce clause, because voting patterns affect interstate economic activity.",
+      "D) The necessary and proper clause alone, which gives Congress unlimited authority to regulate state elections."
+    ],
+    "answer": 1,
+    "explanation": "The preclearance provision of the Voting Rights Act was grounded in Congress's authority to enforce the Fourteenth Amendment's equal protection clause and the Fifteenth Amendment's ban on racial discrimination in voting. Both amendments include enforcement clauses granting Congress power to pass legislation. Choice A is wrong because the First Amendment does not grant Congress authority to regulate state voting laws. Choice C is incorrect because voting is not regulated through the commerce clause. Choice D overstates congressional power - the necessary and proper clause enables execution of enumerated powers but does not grant unlimited authority over state elections."
+  },
+  {
+    "id": "gov_u3_q253",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Free Speech Limits",
+    "topicLabel": "Free Speech Limits",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A citizen stands outside a crowded sports arena and loudly shouts false claims that a fire has broken out inside, causing a dangerous stampede. Under which legal principle would the government most likely be justified in prosecuting this individual?",
+    "choices": [
+      "A) Speech that creates a clear and present danger of imminent harm is not protected by the First Amendment.",
+      "B) The government may restrict any speech that occurs in a public forum without a permit.",
+      "C) Political speech directed at government institutions receives the highest level of First Amendment protection.",
+      "D) The exclusionary rule prevents prosecution when no physical evidence is obtained."
+    ],
+    "answer": 0,
+    "explanation": "The 'clear and present danger' test, established in Schenck v. United States, allows the government to restrict speech that poses an immediate threat of serious harm. Falsely shouting 'fire' in a crowded place is the classic example used by Justice Holmes. Option B is wrong because public forum doctrine does not eliminate speech rights entirely-permits apply to time, place, and manner, not content based on danger. Option C is a misconception; political speech protections do not shield speech that causes imminent harm. Option D confuses the exclusionary rule, which applies to illegally obtained evidence in Fourth Amendment contexts, not to speech prosecutions."
+  },
+  {
+    "id": "gov_u3_q254",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Tinker v Des Moines",
+    "topicLabel": "Tinker v Des Moines",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A high school student wears a t-shirt to school expressing a political opinion about immigration policy. School officials order the student to remove the shirt, citing potential controversy. Based on the precedent established in Tinker v. Des Moines (1969), how would a court most likely rule?",
+    "choices": [
+      "A) The school violated the student's rights because the shirt did not cause a substantial disruption to the educational environment.",
+      "B) The school acted appropriately because administrators have absolute authority over student expression on school grounds.",
+      "C) The student's rights were violated because political speech outside of school is always protected by the First Amendment.",
+      "D) The school's action was constitutional because students voluntarily forfeit speech rights upon enrolling in public school."
+    ],
+    "answer": 0,
+    "explanation": "In Tinker v. Des Moines, the Supreme Court ruled that students do not 'shed their constitutional rights at the schoolhouse gate.' School officials may only restrict student expression if it causes a substantial disruption to the educational environment. Mere controversy or discomfort does not meet this standard. Option B is wrong because Tinker explicitly rejected absolute administrative authority. Option C misstates the ruling-Tinker applies to in-school expression, not only off-campus speech. Option D is a common misconception; public school students retain constitutional rights, though they are balanced against the school's interest in order."
+  },
+  {
+    "id": "gov_u3_q255",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Establishment Clause",
+    "topicLabel": "Establishment Clause",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A local public school board requires that each school day begin with a non-denominational prayer composed by the state board of education. A parent challenges this policy in federal court. Based on Engel v. Vitale (1962), the court would most likely rule that this policy is unconstitutional because",
+    "choices": [
+      "A) government-sponsored prayer in public schools violates the Establishment Clause, regardless of whether participation is voluntary.",
+      "B) prayer in public schools is only unconstitutional if it references a specific religion.",
+      "C) the Free Exercise Clause requires students to participate in state-sanctioned religious activities.",
+      "D) the Establishment Clause only restricts the federal government and does not apply to state-run public schools."
+    ],
+    "answer": 0,
+    "explanation": "In Engel v. Vitale, the Supreme Court held that government-sponsored prayer in public schools violates the Establishment Clause even if the prayer is non-denominational and participation is voluntary. The key issue is state involvement in crafting and promoting religious activity. Option B is wrong because the ruling was not limited to sectarian prayers-any state-composed prayer is unconstitutional. Option C misrepresents the Free Exercise Clause, which protects individual religious practice from government interference rather than requiring participation. Option D is incorrect because the Establishment Clause has been incorporated against the states through the Fourteenth Amendment's Due Process Clause."
+  },
+  {
+    "id": "gov_u3_q256",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Fourth Amendment",
+    "topicLabel": "Fourth Amendment",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Police officers receive an anonymous tip that a homeowner is storing stolen goods. Without obtaining a warrant, they enter the home and discover the stolen items. Which of the following best explains why this evidence would likely be inadmissible in court?",
+    "choices": [
+      "A) The evidence was obtained in violation of the Fourth Amendment's protection against unreasonable searches, triggering the exclusionary rule.",
+      "B) The Sixth Amendment right to counsel was violated because the homeowner was not informed of the search.",
+      "C) An anonymous tip automatically constitutes probable cause, making the warrantless search constitutional.",
+      "D) The Fifth Amendment's self-incrimination clause prevents any physical evidence from being used against a defendant."
+    ],
+    "answer": 0,
+    "explanation": "The Fourth Amendment protects against unreasonable searches and seizures, generally requiring a warrant based on probable cause. When evidence is obtained in violation of this amendment, the exclusionary rule (established in Mapp v. Ohio) bars its use at trial. Option B is wrong because the Sixth Amendment addresses the right to counsel at trial, not the validity of searches. Option C is a misconception-an anonymous tip alone does not automatically establish probable cause; police must corroborate the tip before a warrant can be issued. Option D incorrectly applies the Fifth Amendment, which protects against compelled self-incrimination in testimony, not the seizure of physical evidence."
+  },
+  {
+    "id": "gov_u3_q257",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Miranda v Arizona",
+    "topicLabel": "Miranda v Arizona",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "During a police interrogation, a suspect confesses to a crime without being informed of his right to remain silent or his right to an attorney. The prosecution plans to use this confession at trial. Which of the following best predicts how a court would rule on the admissibility of the confession?",
+    "choices": [
+      "A) The confession is inadmissible because police failed to inform the suspect of his Fifth and Sixth Amendment rights under the Miranda warning requirement.",
+      "B) The confession is admissible because verbal confessions made without physical coercion are always voluntary.",
+      "C) The confession is admissible as long as the suspect has a prior criminal record indicating familiarity with legal rights.",
+      "D) The confession is inadmissible solely because the exclusionary rule applies to all statements made to police."
+    ],
+    "answer": 0,
+    "explanation": "Miranda v. Arizona (1966) established that suspects in custody must be informed of their right to remain silent (Fifth Amendment) and their right to an attorney (Sixth Amendment) before interrogation. Confessions obtained without these warnings are inadmissible. Option B is wrong because voluntariness is not solely determined by the absence of physical coercion; uninformed waivers of rights are also problematic. Option C is a misconception-courts do not presume knowledge of rights based on criminal history; the warning must be given. Option D overstates the exclusionary rule; it applies to evidence obtained in violation of constitutional rights, but the specific basis here is the Miranda requirement, not a blanket rule against all police statements."
+  },
+  {
+    "id": "gov_u3_q258",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Gideon v Wainwright",
+    "topicLabel": "Gideon v Wainwright",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A defendant charged with a felony cannot afford a private attorney. The state court denies his request for a court-appointed attorney, arguing that the Sixth Amendment only obligates the federal government to provide counsel. How would the Supreme Court most likely respond to this situation based on Gideon v. Wainwright (1963)?",
+    "choices": [
+      "A) The state must provide counsel because the Sixth Amendment right to an attorney has been incorporated against the states through the Fourteenth Amendment.",
+      "B) The state is correct because the Bill of Rights was originally written to restrict only the federal government, and this protection has not been incorporated.",
+      "C) The defendant must represent himself because the right to counsel only applies to capital punishment cases at the state level.",
+      "D) The state must provide counsel only if the defendant can prove that the lack of an attorney directly caused the guilty verdict."
+    ],
+    "answer": 0,
+    "explanation": "In Gideon v. Wainwright, the Supreme Court unanimously ruled that the Sixth Amendment right to counsel is a fundamental right incorporated against the states via the Fourteenth Amendment's Due Process Clause. States must provide attorneys to defendants who cannot afford them in criminal cases. Option B reflects a pre-incorporation understanding that is no longer valid after Gideon. Option C is wrong because while earlier cases (like Betts v. Brady, which Gideon overruled) limited the right, Gideon extended it broadly to felony cases, not just capital cases. Option D is incorrect because the Court did not require a showing of prejudice-the denial of counsel is itself a constitutional violation."
+  },
+  {
+    "id": "gov_u3_q259",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Incorporation Doctrine",
+    "topicLabel": "Incorporation Doctrine",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "The Supreme Court rules that a state law violates a provision of the Bill of Rights. The state argues that the Bill of Rights was only intended to limit the federal government. The Court rejects this argument by relying on which constitutional mechanism?",
+    "choices": [
+      "A) The Due Process Clause of the Fourteenth Amendment, which has been interpreted to apply most Bill of Rights protections to the states.",
+      "B) The Supremacy Clause of Article VI, which automatically applies all federal laws and constitutional provisions to the states.",
+      "C) The Privileges and Immunities Clause of Article IV, which has been used to selectively incorporate the Bill of Rights.",
+      "D) The Tenth Amendment, which reserves all rights not granted to the federal government to the states and the people."
+    ],
+    "answer": 0,
+    "explanation": "The incorporation doctrine holds that the Due Process Clause of the Fourteenth Amendment ('nor shall any state deprive any person of life, liberty, or property, without due process of law') has been used by the Supreme Court to apply most provisions of the Bill of Rights to state governments on a case-by-case basis (selective incorporation). Option B is wrong because the Supremacy Clause establishes federal law as supreme but does not directly apply Bill of Rights provisions to the states-incorporation is a separate judicial doctrine. Option C is a common trap; the Privileges and Immunities Clause of the Fourteenth Amendment, not Article IV, was initially proposed as the incorporation vehicle but was rejected in the Slaughterhouse Cases. Option D is incorrect because the Tenth Amendment reserves powers to states and does not protect individuals from state infringement of rights."
+  },
+  {
+    "id": "gov_u3_q260",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Civil Rights Act 1964",
+    "topicLabel": "Civil Rights Act 1964",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A restaurant owner refuses to serve customers of a certain race, claiming that as a private business owner, the Fourteenth Amendment's Equal Protection Clause does not apply to his establishment. Which of the following best explains why this argument fails under federal law?",
+    "choices": [
+      "A) The Civil Rights Act of 1964 prohibits racial discrimination in public accommodations, making the owner's practices illegal regardless of the Fourteenth Amendment's scope.",
+      "B) The Equal Protection Clause of the Fourteenth Amendment directly prohibits all forms of private racial discrimination.",
+      "C) The owner's argument is valid because the Constitution only restricts government action, and no federal statute addresses private discrimination in restaurants.",
+      "D) Brown v. Board of Education extended equal protection requirements to all private businesses engaged in commerce."
+    ],
+    "answer": 0,
+    "explanation": "The Civil Rights Act of 1964 prohibits racial discrimination in public accommodations (Title II), including restaurants, hotels, and theaters. Congress justified this under the Commerce Clause, not the Fourteenth Amendment. The restaurant owner is correct that the Fourteenth Amendment applies to state action, not private conduct, but wrong that no law prevents the discrimination. Option B overstates the Fourteenth Amendment-it applies to government, not purely private actors. Option C is factually wrong because the Civil Rights Act of 1964 does address private businesses in interstate commerce. Option D is incorrect; Brown v. Board addressed state-sponsored segregation in public schools and did not extend equal protection to private businesses."
+  },
+  {
+    "id": "gov_u3_q261",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "incorporation doctrine",
+    "topicLabel": "14th Amendment, Incorporation, and Gideon v. Wainwright",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Prior to Gideon v. Wainwright (1963), many states did not provide court-appointed attorneys to indigent defendants in non-capital felony cases. The Supreme Court's unanimous ruling in Gideon changed this by applying the Sixth Amendment right to counsel to the states. Which of the following most accurately describes the constitutional mechanism by which Gideon accomplished this, and why this mechanism is significant for civil liberties broadly?",
+    "choices": [
+      "A) Gideon used the privileges or immunities clause of the 14th Amendment to selectively incorporate the Sixth Amendment, establishing that only rights deemed 'fundamental' could be applied to states.",
+      "B) Gideon applied the Sixth Amendment to the states through the due process clause of the 14th Amendment via selective incorporation, demonstrating that the Bill of Rights can be enforced against state governments on a right-by-right basis.",
+      "C) Gideon relied on total incorporation of the entire Bill of Rights through the 14th Amendment, meaning all constitutional rights simultaneously became binding on every state after 1963.",
+      "D) Gideon extended the right to counsel by invoking the equal protection clause of the 14th Amendment, ruling that denying attorneys to poor defendants while wealthy defendants could afford them violated equal treatment under the law."
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is B. Gideon v. Wainwright used the due process clause of the 14th Amendment to selectively incorporate the Sixth Amendment right to counsel, making it binding on states. Selective incorporation means the Court applies Bill of Rights protections to states one right at a time, case by case, when a right is deemed fundamental. Answer A is a trap: the privileges or immunities clause was largely gutted by the Slaughterhouse Cases (1873) and the Supreme Court has relied primarily on the due process clause for incorporation, not privileges or immunities. Answer C incorrectly describes 'total incorporation,' a theory advocated by Justice Hugo Black but never adopted by the Court - the U.S. uses selective incorporation. Answer D is a plausible distractor because poverty and inequality are central to Gideon's facts, but the Court's reasoning was grounded in due process and the fundamental right to a fair trial, not equal protection."
+  },
+  {
+    "id": "gov_u3_q262",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "equal protection",
+    "topicLabel": "Brown v. Board, Civil Rights Act 1964, and Suspect Classification",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "When the Supreme Court evaluates a law that classifies people based on race, it applies strict scrutiny under the equal protection clause of the 14th Amendment. Which of the following scenarios and outcomes best illustrates the correct application of strict scrutiny, and reflects why race is treated as a 'suspect classification'?",
+    "choices": [
+      "A) A state law requiring racially segregated public schools is upheld under strict scrutiny because the state demonstrates a compelling interest in community cohesion and administrative efficiency.",
+      "B) A federal affirmative action admissions program is automatically upheld because the equal protection clause only restricts state governments, not the federal government, making strict scrutiny inapplicable.",
+      "C) A university's race-conscious admissions policy is subject to strict scrutiny and must be narrowly tailored to serve a compelling governmental interest; if it uses rigid racial quotas it will likely be struck down even if the goal is remedying past discrimination.",
+      "D) Strict scrutiny applies only when a law explicitly discriminates against racial minorities; laws that benefit minorities through affirmative action are reviewed under rational basis because they do not burden a suspect class."
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is C. Strict scrutiny requires that a law be narrowly tailored to achieve a compelling governmental interest. Race is a suspect classification because it is immutable, historically associated with discrimination, and politically vulnerable. Even benign or remedial racial classifications - such as affirmative action admissions - trigger strict scrutiny. Rigid racial quotas have been struck down (Regents of UC v. Bakke, 1978) even when designed to remedy past discrimination. Answer A is wrong because no court has upheld racial segregation under strict scrutiny - community cohesion and efficiency are not compelling interests sufficient to justify racial classifications. Answer B is a common misconception: while the 14th Amendment technically applies to states, the Supreme Court has held in Bolling v. Sharpe (1954) that the federal government is also bound by equal protection principles through the 5th Amendment's due process clause. Answer D is incorrect because strict scrutiny applies to all racial classifications regardless of which group is burdened or benefited - the Court applies the same standard to affirmative action as to discriminatory laws."
+  },
+  {
+    "id": "gov_u3_q263",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Free Speech Limits",
+    "topicLabel": "Free Speech Limits",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A high school student wears a t-shirt to school that reads 'End the War' during a period of active military conflict. The school principal bans the shirt, citing potential disruption to the learning environment, but provides no evidence that any disruption has occurred or is likely. Based on the reasoning in Tinker v. Des Moines (1969) and its relationship to Schenck v. United States (1919), which of the following best explains the constitutional status of the principal's action?",
+    "choices": [
+      "A) The ban is unconstitutional because the student's expression is passive symbolic speech that causes no substantial disruption, and unlike Schenck, there is no clear and present danger justifying suppression.",
+      "B) The ban is constitutional because school officials have broad authority to restrict any political speech that could distract from the educational mission, consistent with the Schenck standard.",
+      "C) The ban is unconstitutional because the First Amendment provides absolute protection for symbolic political speech in all public settings, including schools.",
+      "D) The ban is constitutional because wartime political speech falls under the Schenck precedent, allowing government institutions to suppress messages that undermine military morale."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A. In Tinker, the Court held that students do not shed their constitutional rights at the schoolhouse gate and that school officials must demonstrate substantial disruption - not mere discomfort or speculation - to restrict student expression. Passive symbolic speech like wearing a t-shirt is protected unless there is concrete evidence of disruption. Schenck's 'clear and present danger' test applied to government suppression of speech during wartime outside schools, and even that standard required an imminent, direct threat - not hypothetical distraction. Option B is wrong because Tinker explicitly rejected the idea that schools have blanket authority to suppress political speech. Option C is a trap: the First Amendment is not absolute even for symbolic speech; Tinker itself allows restrictions when substantial disruption is proven. Option D misapplies Schenck - that case involved direct interference with military conscription, not general political commentary, and its logic does not extend to school dress codes in the absence of clear danger."
+  },
+  {
+    "id": "gov_u3_q264",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "Establishment Clause",
+    "topicLabel": "Establishment Clause",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A state legislature passes a law requiring that all public school students participate in a moment of silence each morning, during which teachers are instructed to inform students that they 'may pray, reflect, or think about the day.' Critics argue this violates the Establishment Clause. Which of the following best evaluates this claim in light of Engel v. Vitale (1962) and the incorporation doctrine?",
+    "choices": [
+      "A) The law likely violates the Establishment Clause because directing teachers to specifically mention prayer as an option signals government endorsement of religion, similar to the state-sponsored prayer struck down in Engel.",
+      "B) The law is clearly constitutional because it does not compel prayer and students are free to use the silence however they choose, making it entirely neutral toward religion.",
+      "C) The law is constitutional because the Establishment Clause only restricts the federal government, and the incorporation doctrine has never been applied to religion cases in public schools.",
+      "D) The law violates the Free Exercise Clause rather than the Establishment Clause, since forcing silence interferes with students who wish to pray aloud during school hours."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A. In Engel v. Vitale, the Supreme Court ruled that even a non-denominational, voluntary state-composed prayer in public schools violated the Establishment Clause because government sponsorship of religious activity - however mild - constitutes an establishment of religion. When teachers are instructed to specifically mention prayer as an option, the state is subtly promoting religious practice, which echoes the Engel concern about government entanglement with religion. Option B is a common trap: voluntariness does not cure an Establishment Clause violation - Engel's prayer was also technically voluntary. Option C is factually false; the Establishment Clause has been incorporated against the states through the 14th Amendment's Due Process Clause, and Engel itself applied this to a state school board. Option D misidentifies the clause - the Free Exercise Clause protects individuals from being prevented from practicing religion; the concern here is about government promotion of religion, which is an Establishment Clause issue."
+  },
+  {
+    "id": "gov_u3_q265",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "First Amendment",
+    "topicLabel": "Free Speech Limits and Schenck v. United States",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A state law prohibits any person from distributing pamphlets near a military recruitment center that discourage enlistment during a declared war. A civil liberties group challenges the law as a violation of the First Amendment. Which of the following best predicts how the Supreme Court would rule based on precedent established in Schenck v. United States, and why?",
+    "choices": [
+      "A) The law is likely constitutional, because speech that creates a clear and present danger of a substantive evil Congress has the right to prevent may be restricted, and wartime anti-recruitment speech could satisfy that standard.",
+      "B) The law is unconstitutional, because the First Amendment provides absolute protection for political speech regardless of the context in which it occurs.",
+      "C) The law is likely constitutional, because the government has a compelling interest in national security that automatically overrides any First Amendment claim.",
+      "D) The law is unconstitutional, because Schenck established that only speech directly inciting immediate violence can be regulated, and pamphlets do not meet that threshold."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A. In Schenck v. United States (1919), the Court held that speech can be restricted when it presents a 'clear and present danger' of bringing about evils Congress has the power to prevent. Anti-recruitment pamphlets distributed near military centers during wartime closely mirror the facts of Schenck, making such a restriction likely constitutional under that precedent. B is wrong because the First Amendment has never been interpreted as absolute - Schenck itself rejected that idea. C is a trap: while national security is a compelling interest, the Court does not apply an 'automatic override'; it still applies a contextual test, and framing it as automatic misrepresents the doctrine. D misrepresents Schenck's standard - the 'clear and present danger' test is broader than incitement to immediate violence; Schenck was convicted for causing insubordination in the military through pamphlets, not for direct incitement to violence."
+  },
+  {
+    "id": "gov_u3_q266",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "incorporation doctrine",
+    "topicLabel": "14th Amendment, Incorporation Doctrine, and Gideon v. Wainwright",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Prior to Gideon v. Wainwright (1963), the Sixth Amendment right to counsel had been incorporated against the states only for capital cases under Betts v. Brady's 'special circumstances' rule. The Gideon ruling overturned this and required states to provide counsel to all indigent defendants in felony cases. Which of the following most accurately explains the constitutional mechanism by which Gideon bound state governments, and identifies the broader significance of this mechanism?",
+    "choices": [
+      "A) Gideon applied the Sixth Amendment to states through the due process clause of the Fourteenth Amendment, representing selective incorporation, which has been used to extend most Bill of Rights protections to state action case by case.",
+      "B) Gideon applied the Sixth Amendment to states through the privileges or immunities clause of the Fourteenth Amendment, which is the primary vehicle the Court uses to incorporate the Bill of Rights against the states.",
+      "C) Gideon applied the Sixth Amendment to states through the equal protection clause of the Fourteenth Amendment, because denying counsel to poor defendants treats them unequally compared to wealthy defendants.",
+      "D) Gideon applied the Sixth Amendment to states through the full faith and credit clause, which requires states to honor rights recognized by the federal government."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A. The Supreme Court has incorporated most Bill of Rights protections against the states through the due process clause of the Fourteenth Amendment, a doctrine known as selective incorporation. Gideon followed this approach, holding that the right to counsel is fundamental to a fair trial and therefore protected against state infringement via due process. B is a common trap: while the privileges or immunities clause seems like the logical vehicle, the Court effectively gutted it in the Slaughterhouse Cases (1873) and has relied on due process, not privileges or immunities, for incorporation. C is plausible but wrong - although equal protection concerns were present, the Court's reasoning in Gideon was rooted in due process and the fundamental fairness of a trial, not equal protection analysis. D is entirely incorrect; the full faith and credit clause governs how states recognize each other's laws and judicial proceedings, not the application of federal constitutional rights to states."
+  },
+  {
+    "id": "gov_u3_q267",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "establishment clause",
+    "topicLabel": "Establishment Clause & Engel v. Vitale",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A public school district requires teachers to begin each day with a moment of silence during which the teacher must say aloud, 'This is a time to reflect or pray.' A student challenges this practice. Which of the following best explains why a court would most likely strike down this practice under the Establishment Clause?",
+    "choices": [
+      "A) The practice is unconstitutional because any acknowledgment of religion in a public school, including a moment of silence, is categorically prohibited by the First Amendment.",
+      "B) The practice is unconstitutional because, as established in Engel v. Vitale, government-directed prayer or religious observance in public schools violates the Establishment Clause even if participation is not formally required and the prayer is nondenominational.",
+      "C) The practice is constitutional because the moment of silence itself is secular, and the teacher's optional suggestion to pray does not constitute government endorsement of religion.",
+      "D) The practice is unconstitutional only because it discriminates against non-Christian students; if the prayer were made inclusive of all religions it would satisfy the Establishment Clause."
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is B. In Engel v. Vitale, the Supreme Court held that government-sponsored prayer in public schools violates the Establishment Clause of the First Amendment, even when the prayer is nondenominational and participation is voluntary. The key principle is that the government may not compose or direct religious exercises in public schools. Here, the teacher's scripted invitation to pray is state-directed religious activity, which crosses the constitutional line. A is wrong and represents a major misconception - not all acknowledgment of religion in public schools is prohibited; teaching about religion in an academic context, for example, is permissible. C is wrong because calling the practice 'optional' does not cure the Establishment Clause violation; Engel specifically rejected the voluntariness defense. D is wrong because the Establishment Clause prohibits government-sponsored religious exercises altogether, not merely those that favor one religion over others - making a prayer 'inclusive' does not make it constitutional in a public school setting."
+  },
+  {
+    "id": "gov_u3_q268",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "incorporation doctrine",
+    "topicLabel": "Incorporation Doctrine, Equal Protection & Brown v. Board",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Prior to Brown v. Board of Education (1954), Southern states defended school segregation by arguing that separate facilities satisfied the Fourteenth Amendment so long as they were 'equal.' The Warren Court unanimously rejected this reasoning. Which of the following best explains the constitutional basis and broader significance of the Court's ruling in Brown?",
+    "choices": [
+      "A) The Court ruled that segregated schools violated the Fourteenth Amendment's equal protection clause because inherently unequal psychological and educational conditions meant separate could never be truly equal, effectively overturning Plessy v. Ferguson's 'separate but equal' doctrine.",
+      "B) The Court ruled that school segregation violated the Fourteenth Amendment's privileges or immunities clause, which the Court had previously interpreted in the Slaughterhouse Cases to broadly protect individual civil rights against state infringement.",
+      "C) The Court ruled that segregation was unconstitutional solely because Southern states had demonstrably failed to provide physically equal facilities, meaning that states maintaining genuinely equal separate schools would still be constitutionally permissible.",
+      "D) The Court ruled that the Civil Rights Act of 1964 prohibited school segregation, and that Congress had validly exercised its Fourteenth Amendment enforcement powers to override state segregation laws."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A. In Brown v. Board of Education, the Warren Court held that racially segregated public schools violated the Equal Protection Clause of the Fourteenth Amendment. Critically, the Court rejected the 'separate but equal' standard from Plessy v. Ferguson (1896) by reasoning that segregation itself generated a sense of inferiority in Black children that damaged their educational opportunities - meaning separate was inherently unequal regardless of physical facilities. This made segregation unconstitutional on its face, not merely when facilities differed in quality. B is wrong because the Court's reasoning rested on the Equal Protection Clause, not the Privileges or Immunities Clause; furthermore, the Slaughterhouse Cases (1873) had severely narrowed that clause's scope, making it an implausible basis for the ruling. C is wrong and represents the very argument the Court rejected - the holding was that separation itself constituted inequality, so equal physical facilities would not save a segregation policy. D is wrong because Brown was decided in 1954 and the Civil Rights Act was not passed until 1964; the decision was grounded entirely in constitutional, not statutory, law."
+  },
+  {
+    "id": "gov_u3_q269",
+    "subject": "apgov",
+    "unit": 3,
+    "topic": "incorporation doctrine",
+    "topicLabel": "Incorporation Doctrine",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A state legislature passes a law permitting student-led, school-sponsored prayer at the beginning of each public school day. Opponents challenge the law in federal court. Which combination of constitutional provisions and precedents would MOST directly invalidate this law?",
+    "choices": [
+      "A) The Free Exercise Clause of the First Amendment as incorporated through the Fifth Amendment, supported by Engel v. Vitale, because the law compels religious participation",
+      "B) The Establishment Clause of the First Amendment as incorporated against the states through the Fourteenth Amendment's Due Process Clause, supported by Engel v. Vitale, because government-sponsored prayer in public schools violates the separation of church and state",
+      "C) The Equal Protection Clause of the Fourteenth Amendment, supported by Brown v. Board of Education, because the law discriminates against non-religious students",
+      "D) The Free Speech Clause of the First Amendment as applied through Tinker v. Des Moines, because the government cannot regulate the content of student expression in public schools"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is B. The Establishment Clause prohibits government from sponsoring or endorsing religion. Through the incorporation doctrine - which uses the Fourteenth Amendment's Due Process Clause to apply Bill of Rights protections to the states - the Establishment Clause binds state legislatures. Engel v. Vitale (1962) directly held that state-sponsored prayer in public schools violates the Establishment Clause, even when participation is voluntary. Option A is wrong because it misidentifies the incorporation vehicle (Fifth Amendment does not incorporate rights against states) and misapplies the Free Exercise Clause, which protects individual religious practice rather than prohibiting government-sponsored prayer. Option C is a common trap: while the Fourteenth Amendment is involved, Brown and equal protection address discriminatory classification, not religious establishment - this is the wrong doctrinal framework. Option D is a sophisticated distractor because Tinker protects student free speech, but it addresses government restriction of student expression, not government-initiated religious activity; applying Tinker here confuses the direction of the constitutional concern."
+  },
+  {
+    "id": "gov_u4_q270",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "political socialization",
+    "topicLabel": "Political Socialization",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Which of the following is considered the most influential agent of political socialization for most Americans?",
+    "choices": [
+      "A) Family",
+      "B) Mass media",
+      "C) Schools",
+      "D) Peer groups"
+    ],
+    "answer": 0,
+    "explanation": "Family is widely considered the most influential agent of political socialization because children are exposed to their parents' political values and party identification from a very young age. Schools, media, and peer groups also matter, but family has the earliest and strongest influence on forming basic political beliefs."
+  },
+  {
+    "id": "gov_u4_q271",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "liberal vs conservative",
+    "topicLabel": "Liberal vs. Conservative",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Which of the following positions is most consistent with a conservative political ideology?",
+    "choices": [
+      "A) Expanding government-funded social welfare programs",
+      "B) Increasing environmental regulations on businesses",
+      "C) Reducing the size and scope of the federal government",
+      "D) Supporting higher marginal tax rates on top earners"
+    ],
+    "answer": 2,
+    "explanation": "Conservatives generally favor limited government, lower taxes, and free-market principles. Reducing the size and scope of the federal government is a core conservative position. Expanding social welfare programs, increasing business regulations, and raising taxes on top earners are positions more commonly associated with liberal ideology."
+  },
+  {
+    "id": "gov_u4_q272",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "party identification",
+    "topicLabel": "Party Identification",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Party identification in the United States is best described as",
+    "choices": [
+      "A) a legal requirement to register with a political party before voting",
+      "B) a psychological attachment to a political party that shapes political attitudes",
+      "C) a formal membership that requires paying dues to a party organization",
+      "D) the process of selecting party candidates through a primary election"
+    ],
+    "answer": 1,
+    "explanation": "Party identification is a psychological or emotional attachment to a political party, not a formal legal or financial commitment. It influences how individuals evaluate candidates and issues. It is not a legal voting requirement, does not involve dues, and is distinct from the primary election process."
+  },
+  {
+    "id": "gov_u4_q273",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "sampling",
+    "topicLabel": "Sampling in Public Opinion Polls",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A polling organization wants to conduct a survey that accurately reflects the opinions of all adult Americans. Which sampling method would best ensure the results are representative?",
+    "choices": [
+      "A) Convenience sampling by surveying people at a local shopping mall",
+      "B) Voluntary response sampling through an online opt-in survey",
+      "C) Random sampling where every adult American has an equal chance of being selected",
+      "D) Purposive sampling by selecting only registered voters in one state"
+    ],
+    "answer": 2,
+    "explanation": "Random sampling gives every member of the population an equal chance of being selected, which minimizes bias and produces results most likely to be representative of the entire population. Convenience, voluntary, and purposive sampling methods all introduce significant bias because they do not give everyone an equal chance of being included."
+  },
+  {
+    "id": "gov_u4_q274",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "question wording effects",
+    "topicLabel": "Question Wording Effects",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A poll asks: 'Do you support the government wasting taxpayer money on unnecessary foreign aid?' This question is an example of",
+    "choices": [
+      "A) a push poll designed to spread disinformation about a candidate",
+      "B) a loaded question that uses biased wording to influence respondents' answers",
+      "C) a benchmark poll used to measure a candidate's initial level of support",
+      "D) a tracking poll designed to monitor changes in opinion over time"
+    ],
+    "answer": 1,
+    "explanation": "The question uses charged language ('wasting,' 'unnecessary') that steers respondents toward a negative answer, making it a loaded question. This is a wording effect that can skew poll results. A push poll is specifically used to spread negative information about a candidate, while benchmark and tracking polls are types of campaign polls unrelated to question bias."
+  },
+  {
+    "id": "gov_u4_q275",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "generational effects",
+    "topicLabel": "Generational Effects on Political Opinion",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Political scientists use the term 'generational effect' to describe which of the following?",
+    "choices": [
+      "A) The tendency for people to become more conservative as they age",
+      "B) The influence of a major historical event on the political views of a generation coming of age at that time",
+      "C) The process by which children adopt the same party identification as their parents",
+      "D) The gradual shift in a political party's platform over several decades"
+    ],
+    "answer": 1,
+    "explanation": "A generational effect occurs when a significant historical event, such as the Great Depression or the Vietnam War, shapes the political attitudes of the cohort coming of age during that period. These shared experiences leave lasting imprints on that generation's political views. Answer A describes a lifecycle effect, C describes family socialization, and D describes ideological drift, all of which are distinct concepts."
+  },
+  {
+    "id": "gov_u4_q277",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "political socialization",
+    "topicLabel": "Political Socialization",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A teenager grows up in a household where both parents consistently vote Republican, attend a church that emphasizes traditional values, and live in a rural community. Which conclusion best reflects how political socialization theory would explain this teenager's likely political development?",
+    "choices": [
+      "A) The teenager will likely develop conservative political views because multiple overlapping socialization agents reinforce similar values.",
+      "B) The teenager will likely reject parental political views during adolescence as peer influence becomes the dominant socialization agent.",
+      "C) The teenager's political views will be primarily shaped by formal civics education rather than family or community.",
+      "D) The teenager will develop moderate political views because exposure to diverse agents of socialization creates a balancing effect."
+    ],
+    "answer": 0,
+    "explanation": "When multiple agents of socialization - family, religion, and community - consistently reinforce the same political values, individuals are more likely to adopt those views. This is known as cross-cutting reinforcement working in the same direction. Option B is a common misconception; while peers gain influence in adolescence, they do not typically override consistent family and community influence. Option C overstates the role of formal education relative to primary socialization agents. Option D is incorrect because overlapping agents pointing in the same direction do not produce moderation - they strengthen ideological consistency."
+  },
+  {
+    "id": "gov_u4_q278",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "political ideology",
+    "topicLabel": "Political Ideology",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A citizen believes the federal government should expand funding for public healthcare and increase environmental regulations, but also supports strict limits on government surveillance of private citizens. Which label most accurately describes this citizen's ideological position?",
+    "choices": [
+      "A) Conservative, because support for limiting government surveillance aligns with traditional conservative distrust of federal power.",
+      "B) Liberal, because support for expanded social programs and regulations is the defining characteristic of liberalism, even if some positions appear libertarian.",
+      "C) Libertarian, because any support for limiting government authority on civil liberties defines a libertarian.",
+      "D) Moderate, because the citizen holds positions from both ends of the political spectrum and therefore has no coherent ideology."
+    ],
+    "answer": 1,
+    "explanation": "Liberals generally support active government intervention in the economy and social programs while also defending civil liberties. This citizen's support for expanded healthcare funding and environmental regulation is the core of the liberal economic platform. The civil liberties position is also consistent with liberal ideology. Option A is a trap - while conservatives can oppose surveillance, that position alone does not override the strongly liberal economic positions. Option C is wrong because libertarians oppose both economic regulation and government surveillance, not just the latter. Option D incorrectly assumes holding any cross-ideological position means someone lacks a coherent ideology."
+  },
+  {
+    "id": "gov_u4_q279",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "liberal vs conservative",
+    "topicLabel": "Liberal vs. Conservative",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "On the issue of criminal justice reform, a conservative and a liberal are debating mandatory minimum sentencing laws. Which pair of positions most accurately reflects the traditional ideological divide between these two perspectives?",
+    "choices": [
+      "A) The conservative supports mandatory minimums to deter crime and ensure consistent punishment; the liberal opposes them as removing judicial discretion and disproportionately affecting minorities.",
+      "B) The conservative opposes mandatory minimums because they increase government power over individuals; the liberal supports them as ensuring equal treatment under the law.",
+      "C) Both conservatives and liberals typically oppose mandatory minimums, but for different reasons related to cost and civil liberties respectively.",
+      "D) The conservative supports mandatory minimums to rehabilitate offenders; the liberal opposes them as being too lenient on corporate crime."
+    ],
+    "answer": 0,
+    "explanation": "Conservatives traditionally favor tougher sentencing and law-and-order policies, viewing mandatory minimums as necessary deterrents. Liberals typically criticize mandatory minimums for reducing judicial flexibility and producing racially disparate outcomes. Option B reverses the standard positions - it is libertarians, not mainstream conservatives, who primarily oppose mandatory minimums on anti-government grounds. Option C is inaccurate because conservatives broadly support, not oppose, mandatory minimums. Option D incorrectly characterizes rehabilitation as a conservative goal and misrepresents the liberal critique."
+  },
+  {
+    "id": "gov_u4_q280",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "party identification",
+    "topicLabel": "Party Identification",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Research consistently shows that party identification is the single strongest predictor of how Americans vote. Which of the following best explains why party identification is considered a psychological attachment rather than simply a rational policy calculation?",
+    "choices": [
+      "A) Party identification is determined by income level, making it an economic rather than psychological variable.",
+      "B) Party identification is formed early in life through socialization and tends to persist even when voters disagree with their party on specific issues.",
+      "C) Party identification reflects a voter's careful analysis of each party's platform before every election cycle.",
+      "D) Party identification is strongest among independent voters because they evaluate candidates more objectively than partisans."
+    ],
+    "answer": 1,
+    "explanation": "Political scientists describe party identification as a long-term psychological attachment rooted in early socialization - primarily through family - that guides political behavior and filters how voters interpret political information. It is remarkably stable and persists even when individuals disagree with their party on particular issues. Option A incorrectly attributes party ID solely to income; while income correlates with partisanship, the attachment is psychological, not purely economic. Option C describes rational-choice voting behavior, not party identification. Option D is backwards - independents by definition have weaker party attachments, not stronger ones."
+  },
+  {
+    "id": "gov_u4_q281",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "sampling",
+    "topicLabel": "Sampling",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A news organization wants to measure national public opinion on immigration policy. They conduct a poll by asking viewers to call a toll-free number and record their opinion. Why would political scientists consider the results of this poll potentially unreliable?",
+    "choices": [
+      "A) The sample size is likely too small to generate any meaningful data about immigration opinions.",
+      "B) The poll uses a voluntary response sample, which overrepresents people with strong opinions and does not produce a random sample of the population.",
+      "C) Telephone polls are inherently biased toward older Americans who are more likely to own landline phones.",
+      "D) The poll is unreliable because immigration is a politically sensitive topic that people are unwilling to answer honestly."
+    ],
+    "answer": 1,
+    "explanation": "A call-in poll is a classic example of a voluntary response sample (or self-selection bias). Only viewers of that network who feel strongly enough to call will respond, systematically overrepresenting people with intense opinions and underrepresenting those with moderate or no views. This violates the principle of random sampling. Option A is not necessarily accurate - call-in polls can receive thousands of responses, so size alone isn't the primary flaw. Option C describes a real limitation of random-digit-dial telephone surveys, not call-in polls specifically. Option D, known as social desirability bias, is a real phenomenon but is not the primary methodological flaw of a self-selected call-in poll."
+  },
+  {
+    "id": "gov_u4_q282",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "question wording effects",
+    "topicLabel": "Question Wording Effects",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Two polls ask about the same tax policy. Poll A asks: 'Do you support increasing taxes on the wealthy to fund schools and infrastructure?' Poll B asks: 'Do you support raising taxes that could slow economic growth and reduce job creation?' If Poll A shows 65% support and Poll B shows 32% support, which conclusion is best supported?",
+    "choices": [
+      "A) Americans are fundamentally inconsistent in their political beliefs and cannot be reliably polled on tax issues.",
+      "B) Poll A is more accurate because it provides respondents with concrete reasons to support the policy.",
+      "C) The difference in results illustrates how question framing and loaded language can significantly shape measured public opinion.",
+      "D) The results indicate that a majority of Americans support the tax increase since Poll A used a larger, more representative sample."
+    ],
+    "answer": 2,
+    "explanation": "This scenario is a textbook example of question wording effects and framing bias. Poll A frames the tax increase in terms of popular benefits (schools, infrastructure), while Poll B frames it in terms of economic costs (job loss, slow growth). Both questions are about the same policy but yield dramatically different results due to framing, not differences in the underlying public opinion. Option A overstates the conclusion - the inconsistency is in the questions, not necessarily in public opinion itself. Option B incorrectly validates Poll A; both polls are methodologically flawed due to loaded framing. Option D invents a sample size difference that was not stated in the question."
+  },
+  {
+    "id": "gov_u4_q283",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "ideological realignment",
+    "topicLabel": "Ideological Realignment",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Prior to the 1960s, the Solid South referred to the region's overwhelming loyalty to the Democratic Party. Today, the South is a Republican stronghold. Which factor best explains this ideological realignment?",
+    "choices": [
+      "A) Southern voters shifted to the Republican Party primarily because of the party's stronger support for labor unions and economic protections for working-class whites.",
+      "B) The Democratic Party's support for the Civil Rights Act of 1964 and subsequent social legislation alienated many Southern white voters, who gradually moved to the Republican Party.",
+      "C) The realignment occurred because the Republican Party adopted a more progressive platform on racial equality, attracting Southern minority voters in large numbers.",
+      "D) Southern realignment was driven mainly by foreign policy disagreements over Vietnam, causing conservatives nationwide to abandon the Democratic Party simultaneously."
+    ],
+    "answer": 1,
+    "explanation": "The Southern realignment is one of the most studied electoral shifts in American political history. The Democratic Party's embrace of civil rights legislation - particularly the Civil Rights Act of 1964 and Voting Rights Act of 1965 - led many white Southern conservatives to feel politically abandoned. Richard Nixon's 'Southern Strategy' explicitly appealed to these voters, and over subsequent decades white Southerners shifted decisively toward the Republican Party. Option A is incorrect - the Republican Party has generally opposed expanding union power, which would not have attracted working-class Southern Democrats. Option C reverses the actual demographic reality; minority voters moved toward Democrats, not Republicans. Option D partially explains some national partisan shifts but does not specifically account for the geographic concentration of the Southern realignment."
+  },
+  {
+    "id": "gov_u4_q284",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "generational effects",
+    "topicLabel": "Generational Effects",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Political scientists distinguish between a 'generational effect' and a 'lifecycle effect' when analyzing political attitudes. Which scenario best illustrates a generational effect rather than a lifecycle effect?",
+    "choices": [
+      "A) Voters in their 20s tend to favor more liberal policies, but as they age and accumulate wealth, the same voters gradually shift toward more conservative economic positions.",
+      "B) Americans who came of age during the Great Depression maintained a strong belief in government economic intervention throughout their lives, regardless of their age at the time of polling.",
+      "C) Young voters are more likely to support environmental policies than older voters because environmental awareness is typically highest among college students.",
+      "D) Middle-aged voters consistently show higher turnout rates than younger voters because greater civic responsibility develops naturally as people take on family obligations."
+    ],
+    "answer": 1,
+    "explanation": "A generational effect (also called a cohort effect) occurs when a formative political experience shapes an entire generation's political attitudes in a lasting way that persists as that cohort ages. The Great Depression generation's enduring belief in government economic intervention - carried throughout their lives - is a classic example. Option A describes a lifecycle effect, where political attitudes change predictably as people move through life stages (youth to old age). Option C describes a contemporary age-group difference but does not establish that the young people will retain those attitudes across their lifetimes, making it ambiguous rather than a clear generational effect. Option D describes a turnout pattern related to life stage, which is a lifecycle phenomenon, not a generational one."
+  },
+  {
+    "id": "gov_u4_q285",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "public opinion polls",
+    "topicLabel": "Public Opinion Polls & Sampling",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A polling firm surveys 1,200 likely voters about a proposed tax increase. The poll shows 52% support with a margin of error of ±3%. A critic argues the results are invalid because the survey asked: 'Do you support a modest tax increase to fully fund children's education and prevent school closures?' Which critique of the poll is most methodologically significant, and why does the margin of error not resolve this problem?",
+    "choices": [
+      "A) The sample size is too small; increasing respondents to 10,000 would eliminate bias introduced by the question wording.",
+      "B) The question contains loaded language and an embedded appeal that inflates support, and a larger sample or smaller margin of error cannot correct for systematic bias in question wording.",
+      "C) The margin of error of ±3% means the true support could be as low as 49%, making the results statistically inconclusive regardless of question wording.",
+      "D) Likely voter screens introduce sampling bias that is more significant than question wording effects, making the wording critique secondary."
+    ],
+    "answer": 1,
+    "explanation": "This question tests the synthesis of question wording effects and sampling concepts. The question uses loaded framing ('modest,' 'children's education,' 'prevent school closures') that primes respondents toward support, introducing systematic bias. Crucially, margin of error reflects random sampling error only - it cannot correct for non-random, systematic bias introduced by flawed question wording. No matter how large the sample or how small the margin of error, the bias persists because every respondent is exposed to the same skewed framing. Choice A is a classic misconception - students often think bigger samples fix all polling problems, but sample size only reduces random error, not systematic bias. Choice C is a trap because while the margin of error observation is mathematically correct, it sidesteps the more fundamental methodological flaw of question wording. Choice D is a distractor that introduces a real concept (likely voter screens) but misapplies it as more significant than the clearly identified wording problem in this scenario."
+  },
+  {
+    "id": "gov_u4_q286",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "ideological realignment",
+    "topicLabel": "Ideological Realignment & Generational Effects",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Political scientists observe that from the 1960s through the 1990s, white working-class voters in the South shifted from reliably voting Democratic to reliably voting Republican, while college-educated suburban voters in the Northeast shifted in the opposite direction. Which combination of factors best explains this ideological realignment?",
+    "choices": [
+      "A) Generational replacement alone explains the shift, as older Southern Democrats died and were replaced by younger voters who had always identified as Republican.",
+      "B) The Civil Rights Act and Great Society programs caused a values-based realignment in which racial and social issues displaced economic class as the primary axis of partisan identification for many voters, a process reinforced across generations.",
+      "C) Southern voters rationally responded to Republican economic policies that specifically benefited working-class incomes, while Northeastern voters shifted due to dissatisfaction with Democratic foreign policy during the Cold War.",
+      "D) The realignment was primarily driven by increasing media nationalization, which homogenized political opinions and eliminated regional party differences by the 1990s."
+    ],
+    "answer": 1,
+    "explanation": "This question requires synthesizing ideological realignment, generational effects, and the liberal-conservative divide. The historically accurate explanation is that the Civil Rights Act of 1964 and subsequent Great Society legislation caused a values-based partisan realignment - the Democratic Party's embrace of civil rights alienated many white Southern conservatives (the 'Southern Strategy' response by Republicans) while attracting Black voters and eventually college-educated liberal whites. This realignment was reinforced generationally as new voters were socialized into a restructured party system where social and cultural issues, not just economic class, defined partisanship. Choice A is wrong because generational replacement alone cannot explain the realignment - many voters actively switched parties within their lifetimes, which is conversion, not just replacement. Choice C is a plausible-sounding distractor but is historically inaccurate; economic policy differences do not explain why the realignment followed the Civil Rights Act so directly, and Cold War foreign policy is not the driver of suburban Northeastern shifts. Choice D introduces a real trend (media nationalization) but misapplies it as the primary cause and overstates its homogenizing effect; regional political differences persist well beyond the 1990s."
+  },
+  {
+    "id": "gov_u4_q287",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "political socialization",
+    "topicLabel": "Political Socialization",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A researcher finds that adults who frequently move across state lines and change jobs show less stable partisan identification over time than adults who remain in the same community. Which of the following best explains this finding in the context of political socialization theory?",
+    "choices": [
+      "A) Geographic mobility disrupts reinforcing agents of socialization such as community, workplace, and peer networks, weakening previously formed partisan attachments.",
+      "B) Adults who move frequently are more likely to have been raised in politically disengaged families, making their partisanship inherently weaker from the outset.",
+      "C) Partisan identification is primarily determined by generational cohort effects, so mobility would have little effect unless it coincides with a major realigning election.",
+      "D) Political socialization is essentially complete by early adulthood, so any change in partisan identification among mobile adults reflects rational policy voting rather than socialization."
+    ],
+    "answer": 0,
+    "explanation": "Answer A is correct because political socialization is an ongoing process influenced by multiple agents - family, peers, community, and workplace. Geographic and occupational mobility disrupts these reinforcing social networks, reducing the consistent cues that stabilize partisan identity. Answer B is a misconception; the researcher's data describe adults who moved, not people with disengaged families - this introduces an unsupported causal variable. Answer C incorrectly treats generational cohort effects as the dominant or exclusive mechanism, ignoring the role of continuous social reinforcement. Answer D reflects a common trap: while socialization is strongest in childhood, research consistently shows it continues into adulthood, and attributing all adult partisan change to rational voting oversimplifies the phenomenon."
+  },
+  {
+    "id": "gov_u4_q288",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "public opinion polls",
+    "topicLabel": "Public Opinion Polls & Sampling",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A polling organization surveys 800 registered voters and finds that 52% support a proposed immigration bill, with a margin of error of ±4 percentage points at the 95% confidence level. A critic argues the poll is invalid because it did not survey all 230 million registered voters. Which of the following most accurately evaluates the poll's methodology?",
+    "choices": [
+      "A) The poll is methodologically sound if the sample was randomly selected, because a properly drawn random sample of 800 can accurately represent a population of millions with a predictable margin of error.",
+      "B) The poll is flawed because the margin of error of ±4 points means the true level of support could be anywhere from 0% to 100%, making the result meaningless.",
+      "C) The poll would only be valid if the sample size were proportional to the total population, meaning at least 23,000 respondents would be required for a population of 230 million.",
+      "D) The poll is valid only if it oversamples minority groups to correct for historical underrepresentation in electoral outcomes."
+    ],
+    "answer": 0,
+    "explanation": "Answer A is correct. The validity of a poll rests on random sampling methodology, not sample size relative to total population. Statistical theory demonstrates that a randomly drawn sample of 800 can yield reliable estimates for any large population, with the margin of error reflecting the range of likely variation. Answer B misinterprets the margin of error - ±4 points means the true value likely falls between 48% and 56%, not anywhere between 0% and 100%. This is a classic student misconception. Answer C reflects the false belief that sample size must be proportional to population size; in practice, accuracy depends on the absolute size of the sample, not the ratio to the population. Answer D describes oversampling, which is a technique sometimes used to study subgroups, but it is not a general validity requirement and conflates representativeness with oversampling corrections."
+  },
+  {
+    "id": "gov_u4_q289",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "political socialization",
+    "topicLabel": "Political Socialization",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A researcher finds that college students raised in politically active households hold stronger partisan identities than students raised in apolitical households, even after four years of exposure to diverse campus viewpoints. Which of the following best explains this pattern in the context of political socialization theory?",
+    "choices": [
+      "A) Primary agents of socialization, particularly the family, establish deep partisan orientations early in life that tend to persist even when secondary agents present competing influences.",
+      "B) Peer groups and educational institutions are the dominant agents of socialization, so students from politically active homes must have self-selected into politically homogeneous friend groups on campus.",
+      "C) The mass media reinforces family partisan identity more effectively among students from politically active households because those students consume more political media.",
+      "D) Generational effects uniformly override family socialization once individuals enter young adulthood, meaning the persistence of partisan identity reflects innate political predisposition rather than socialization."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A. Political socialization theory holds that the family is the most powerful primary agent of socialization, instilling partisan identity and political values early in childhood. These foundational orientations are deeply internalized and tend to be stable even when secondary agents such as schools, peers, or media present different viewpoints. Option B is a misconception: while peer groups matter, the question is asking why family-based identity persists despite campus exposure, not why students self-segregate. Option C introduces media as the key variable, but the research finding is specifically about family political activity, not media consumption habits. Option D confuses generational effects (shared political experiences across a birth cohort) with individual developmental psychology, and incorrectly dismisses socialization as an explanatory factor entirely."
+  },
+  {
+    "id": "gov_u4_q290",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "ideological realignment",
+    "topicLabel": "Ideological Realignment & Party Identification",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Political scientists have observed that since the 1960s, the Democratic and Republican parties have become increasingly ideologically sorted, with conservatives clustering in the Republican Party and liberals in the Democratic Party. Which of the following most accurately describes this process and its most significant consequence for American politics?",
+    "choices": [
+      "A) Dealignment has caused voters to abandon both major parties equally, producing ideological sorting as third parties absorb the moderate wings of both parties and push each major party toward its ideological extreme.",
+      "B) Ideological realignment has produced sorted, polarized parties in which cross-party coalition building in Congress has become more common because legislators now have clearer ideological mandates from their base.",
+      "C) Ideological sorting - driven in part by the realignment of the South from Democratic to Republican following the Civil Rights Act - has produced more internally homogeneous parties, increasing partisan polarization and reducing legislative compromise.",
+      "D) The ideological sorting of the parties reflects a generational replacement effect in which each new cohort of voters has adopted more extreme views than the previous cohort, meaning polarization is driven entirely by attitude change rather than party switching."
+    ],
+    "answer": 2,
+    "explanation": "The correct answer is C. Ideological sorting refers to the process by which the two major parties became more internally homogeneous along ideological lines. A major driver was the realignment of white Southern conservatives from the Democratic Party to the Republican Party, accelerated by the Civil Rights Act of 1964 and the subsequent 'Southern Strategy.' The result is two parties that are more ideologically distinct from each other, which has contributed to increased partisan polarization and made bipartisan compromise more politically costly and less common. Option A confuses dealignment (voters weakening ties to both parties) with ideological sorting; dealignment and sorting are related but distinct phenomena, and third parties have not absorbed the moderate wings of either party in any meaningful electoral sense. Option B contradicts the observed consequence - sorted, polarized parties produce less cross-party coalition building, not more. Option D is incorrect because ideological sorting is substantially explained by partisan switching and realignment (people changing which party they belong to) rather than voters as individuals adopting more extreme attitudes - it is a compositional change in party membership, not simply an attitudinal shift."
+  },
+  {
+    "id": "gov_u4_q291",
+    "subject": "apgov",
+    "unit": 4,
+    "topic": "ideological realignment",
+    "topicLabel": "Ideological Realignment",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A political scientist notes that between the 1960s and 1990s, white Southern voters who had historically voted Democratic shifted toward the Republican Party, while suburban college-educated professionals who had historically voted Republican began moving toward the Democratic Party. Which of the following best explains why these simultaneous shifts do NOT contradict the concept of party identification being a stable, long-term attachment?",
+    "choices": [
+      "A) Party identification is entirely determined by economic self-interest, and both groups were simply responding to changes in party economic platforms.",
+      "B) Generational replacement and shifts in party issue positions can cause long-term realignment without undermining the concept that, once formed, partisan attachments resist short-term change.",
+      "C) Because both groups changed parties at the same time, their shifts demonstrate that party identification is actually volatile and changes with each election cycle.",
+      "D) Party identification only applies to individual voters, so group-level trends are irrelevant to assessing the stability of partisan attachments."
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is B. Realignment theory explains that party identification, while generally stable for individuals in the short term, can shift across generations or in response to major changes in party platforms and social conditions - such as the civil rights era reshaping party coalitions. The Southern realignment unfolded over decades through generational replacement (younger Southerners adopting Republican identification) and conversion, consistent with the idea that partisan change is slow and structural, not volatile. Choice A is wrong because party identification research (beginning with The American Voter) emphasizes psychological attachment and socialization over pure economic calculation. Choice C reflects a common misconception that conflates group-level realignment trends with individual-level instability - realignment is precisely defined as a durable, large-scale shift, not election-to-election volatility. Choice D is wrong because political scientists routinely analyze aggregate partisan trends among social groups as evidence of realignment, and group-level shifts are central to understanding how coalitions evolve."
+  },
+  {
+    "id": "gov_u5_q294",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "rational ignorance",
+    "topicLabel": "Rational Ignorance",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A citizen follows local sports closely but spends almost no time researching candidates before an election, reasoning that her single vote is unlikely to change the outcome. Which concept best explains this behavior?",
+    "choices": [
+      "A) Rational ignorance, because the perceived cost of gathering political information outweighs the expected benefit of one vote",
+      "B) The free rider problem, because she benefits from government services without contributing taxes",
+      "C) Low voter turnout, because she has chosen not to register to vote",
+      "D) Media agenda setting, because television networks have failed to cover the election adequately"
+    ],
+    "answer": 0,
+    "explanation": "Rational ignorance occurs when individuals decide that the cost of becoming informed exceeds the personal benefit, since one vote rarely decides an election. This is distinct from the free rider problem (B), which involves enjoying collective benefits without contributing - she is not avoiding a contribution here. Low voter turnout (C) describes an aggregate outcome, not the reasoning behind an individual's information choice, and we are not told she fails to vote. Media agenda setting (D) blames external forces rather than describing her deliberate cost-benefit calculation."
+  },
+  {
+    "id": "gov_u5_q295",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Electoral College",
+    "topicLabel": "Electoral College",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Critics argue that the winner-take-all system used by most states in the Electoral College encourages presidential candidates to concentrate campaign resources in a small number of states. Which of the following best explains why this criticism is valid?",
+    "choices": [
+      "A) Candidates focus on competitive 'swing' states because winning those states provides the same Electoral College return as a landslide victory in those states, making safe states less worth contesting",
+      "B) Candidates are legally prohibited from campaigning in states where one party holds a supermajority",
+      "C) The Electoral College awards bonus electors to whichever candidate wins the most individual states, regardless of popular vote totals",
+      "D) Small states receive no Electoral College votes, so candidates ignore them entirely"
+    ],
+    "answer": 0,
+    "explanation": "Under winner-take-all rules, a candidate receives all of a state's electors whether they win by 1 vote or 1 million votes, so additional campaigning in a 'safe' state yields zero extra electors. This directs resources to competitive swing states. Option B is false - no such legal prohibition exists. Option C misrepresents the Electoral College; there are no bonus electors for winning the most states. Option D is false - every state plus D.C. receives Electoral College votes, and small states are actually slightly overrepresented on a per-capita basis."
+  },
+  {
+    "id": "gov_u5_q296",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Citizens United and Super PACs",
+    "topicLabel": "Citizens United and Super PACs",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Following the Supreme Court's ruling in Citizens United v. FEC (2010), outside groups began raising and spending unlimited sums on federal elections. Which of the following accurately describes a key restriction that still applies to Super PACs despite this ruling?",
+    "choices": [
+      "A) Super PACs may not donate money directly to a candidate's official campaign committee",
+      "B) Super PACs are prohibited from airing political advertisements within 90 days of a general election",
+      "C) Corporations may not fund Super PACs; only individuals and unions may contribute",
+      "D) Super PACs must spend at least half of their funds on get-out-the-vote drives rather than advertising"
+    ],
+    "answer": 0,
+    "explanation": "The core legal distinction preserved after Citizens United is that Super PACs must operate independently - they cannot coordinate with or directly contribute to a candidate's campaign. This independence requirement is what legally justifies their unlimited fundraising. Option B is false; Citizens United specifically struck down restrictions on electioneering communications near elections. Option C is false; the ruling explicitly extended First Amendment spending rights to corporations. Option D has no basis in campaign finance law."
+  },
+  {
+    "id": "gov_u5_q297",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "incumbency advantage",
+    "topicLabel": "Incumbency Advantage",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Members of Congress are reelected at very high rates even in years when public approval of Congress as an institution is low. Which of the following best accounts for this apparent paradox?",
+    "choices": [
+      "A) Voters tend to disapprove of Congress as a whole while viewing their own representative favorably due to name recognition, casework, and franking privileges",
+      "B) Gerrymandering ensures that no incumbent can ever lose a general election regardless of performance",
+      "C) Congressional elections are held in off-years when turnout is low, preventing challengers from mobilizing new voters",
+      "D) Campaign finance laws give incumbents a legal monopoly on fundraising from PACs"
+    ],
+    "answer": 0,
+    "explanation": "This phenomenon - approving of one's own member while disapproving of Congress broadly - reflects name recognition built over time, the use of casework (helping constituents with federal agencies), and the franking privilege (free official mailings). These structural advantages make incumbents well known and personally liked even when Congress is unpopular. Option B overstates gerrymandering; incumbents can and do lose. Option C is partially true about lower midterm turnout but does not explain the paradox - challengers also benefit from higher turnout. Option D is false; PAC contributions are not legally restricted to incumbents, though incumbents do attract more in practice."
+  },
+  {
+    "id": "gov_u5_q298",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "media framing",
+    "topicLabel": "Media Framing",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Two newspapers cover the same unemployment data. One headline reads 'Unemployment Holds Steady at 5%,' while another reads 'One in Twenty Workers Still Jobless.' Both statements are factually accurate. Which media concept does this scenario best illustrate?",
+    "choices": [
+      "A) Framing, because identical information is presented in ways that lead audiences toward different interpretations",
+      "B) Agenda setting, because both newspapers have chosen to prioritize unemployment over other possible stories",
+      "C) Selective exposure, because readers are choosing news sources that confirm their existing beliefs about the economy",
+      "D) Priming, because the coverage prepares audiences to evaluate the president based on economic performance"
+    ],
+    "answer": 0,
+    "explanation": "Framing refers to how the presentation or wording of information shapes how audiences interpret it. The same 5% figure sounds neutral in one headline and alarming in the other - this is framing at work. Agenda setting (B) describes which topics media choose to cover, not how those topics are described; both papers are already covering unemployment. Selective exposure (C) is about audience behavior in seeking out preferred sources, which is not described here. Priming (D) refers to the process of influencing the criteria by which audiences evaluate leaders - a related but distinct concept not illustrated by these two headlines."
+  },
+  {
+    "id": "gov_u5_q299",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "interest groups and lobbying",
+    "topicLabel": "Interest Groups and Lobbying",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "An environmental interest group has 200,000 dues-paying members but estimates that over 2 million people share its policy goals and benefit from its advocacy work without joining or contributing. This situation is best described as an example of which concept?",
+    "choices": [
+      "A) The free rider problem, because non-members receive the collective benefits of the group's lobbying without bearing its costs",
+      "B) Rational ignorance, because non-members are unaware that the interest group exists",
+      "C) Pluralism, because multiple groups are competing for influence over the same environmental policy",
+      "D) Hyperpluralism, because the large number of interest groups has paralyzed Congress from acting on environmental policy"
+    ],
+    "answer": 0,
+    "explanation": "The free rider problem occurs when individuals can enjoy the benefits of a collective good - here, favorable environmental policy - without contributing to its production. Non-members benefit from the group's lobbying victories regardless of whether they paid dues. Rational ignorance (B) involves a deliberate decision not to gather information; the scenario gives no indication non-members are uninformed. Pluralism (C) describes a system of competing groups, but only one group is described here. Hyperpluralism (D) refers to a condition where so many groups compete that governance becomes gridlocked - that dynamic is not described in this scenario."
+  },
+  {
+    "id": "gov_u5_q300",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Citizens United and Campaign Finance",
+    "topicLabel": "Citizens United and Campaign Finance",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A Super PAC raises $50 million to run attack ads supporting a presidential candidate. Which of the following best explains why this activity is constitutionally protected under Citizens United v. FEC (2010), and what legal restriction still applies to the Super PAC?",
+    "choices": [
+      "A) Political spending by independent groups is protected as free speech under the First Amendment, but Super PACs are prohibited from coordinating directly with the candidate's campaign.",
+      "B) Political spending by independent groups is protected as free speech under the First Amendment, and Super PACs face no restrictions on how they interact with campaigns.",
+      "C) Super PACs are protected because they are classified as political parties, but they are prohibited from accepting corporate donations.",
+      "D) Super PACs are protected under the Fourth Amendment's right to privacy for donors, but they must disclose all expenditures to the FEC within 24 hours."
+    ],
+    "answer": 0,
+    "explanation": "Citizens United held that independent political expenditures by corporations, unions, and outside groups constitute protected free speech under the First Amendment, allowing unlimited fundraising and spending. However, the key remaining restriction is that Super PACs cannot coordinate directly with a candidate's official campaign - coordination would essentially make their spending an illegal in-kind contribution subject to FEC limits. Choice B is wrong because the no-coordination rule is a real and significant legal boundary. Choice C is wrong on both counts - Super PACs are not classified as political parties, and they can accept corporate donations (that was the core holding of Citizens United). Choice D is wrong because the Fourth Amendment is irrelevant here; disclosure requirements exist but the 24-hour framing and constitutional basis are both incorrect."
+  },
+  {
+    "id": "gov_u5_q301",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Third Parties and Electoral College",
+    "topicLabel": "Third Parties and Electoral College",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Third parties in the United States consistently fail to win presidential elections despite sometimes capturing significant shares of the popular vote. Which of the following best synthesizes the structural and institutional barriers that explain this pattern?",
+    "choices": [
+      "A) The winner-take-all allocation of Electoral College votes in most states, combined with ballot access laws and the duopoly reinforced by single-member district plurality elections, systematically disadvantages third parties.",
+      "B) The Constitution explicitly prohibits third-party candidates from receiving Electoral College votes, and the Federal Election Commission denies matching funds to parties with less than 50% of the popular vote.",
+      "C) Third parties are structurally disadvantaged because proportional representation is used only in Senate elections, leaving presidential third-party candidates without a legislative base to build name recognition.",
+      "D) Winner-take-all Electoral College rules prevent third parties from winning, but ballot access laws actually favor third parties because states are required to list all candidates who collect at least 1,000 signatures."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer synthesizes multiple structural barriers: winner-take-all (unit rule) Electoral College allocation means a third party winning 20% of a state's popular vote earns zero electors, effectively wasting votes; ballot access laws vary by state but generally impose burdensome signature and filing requirements on non-major parties; and Duverger's Law explains how single-member plurality districts naturally produce two-party dominance. Choice B is factually wrong - the Constitution does not prohibit third-party electors, and the 50% threshold for matching funds is fabricated (the real threshold is 5% of the prior popular vote). Choice C is wrong because the U.S. does not use proportional representation in Senate elections - senators are elected by statewide plurality. Choice D is a trap: while winner-take-all is correctly identified, ballot access laws in reality systematically disadvantage third parties with much higher and varied requirements - the 1,000-signature claim is an oversimplification that reverses the true burden."
+  },
+  {
+    "id": "gov_u5_q302",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Media Framing and Agenda Setting",
+    "topicLabel": "Media Framing and Agenda Setting",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "During a congressional budget debate, major television networks devote extensive coverage to potential cuts to Medicare, consistently describing the debate as 'a crisis threatening seniors' retirement security' rather than 'a long-term fiscal sustainability discussion.' Which of the following most accurately distinguishes the two media effects at work in this scenario?",
+    "choices": [
+      "A) Agenda setting occurs because the heavy coverage causes the public to view Medicare cuts as an important issue; framing occurs because the specific language used shapes how the public interprets and evaluates the issue.",
+      "B) Framing occurs because the heavy coverage causes the public to view Medicare cuts as an important issue; agenda setting occurs because the specific language used shapes how the public interprets and evaluates the issue.",
+      "C) Both effects described are examples of agenda setting, because the media is influencing public opinion about a political issue in both the volume and the language of coverage.",
+      "D) The scenario describes the priming effect only, because the media is activating preexisting attitudes about Medicare rather than setting a new agenda or framing a new perspective."
+    ],
+    "answer": 0,
+    "explanation": "Agenda setting is the media's power to influence which issues the public considers important through the volume and prominence of coverage - by saturating airtime with Medicare cut stories, networks elevate its perceived importance. Framing is the distinct effect whereby the specific words, metaphors, and context used to describe an issue shape how audiences interpret and evaluate it - calling it a 'crisis threatening seniors' versus a 'fiscal sustainability discussion' activates very different values and leads to different conclusions about the same policy debate. Choice B reverses the two definitions, a very common student error. Choice C incorrectly collapses framing into agenda setting - they are related but conceptually distinct effects. Choice D incorrectly identifies the scenario as solely priming; while priming (using prior coverage to set evaluative standards) is related, the question specifically highlights both volume of coverage and language choice, making agenda setting and framing the more precise and complete answer."
+  },
+  {
+    "id": "gov_u5_q303",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Citizens United and Campaign Finance",
+    "topicLabel": "Citizens United and Campaign Finance",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A political consultant advises a wealthy donor that he may give unlimited funds to a Super PAC supporting his preferred presidential candidate, but that direct contributions to the candidate's official campaign remain capped under federal law. Which of the following best explains why this distinction is constitutionally and legally valid after Citizens United v. FEC (2010)?",
+    "choices": [
+      "A) Citizens United eliminated all limits on campaign contributions, including direct donations to candidates, making the consultant's advice legally incorrect.",
+      "B) The Court held that independent expenditures by outside groups do not constitute quid pro quo corruption, while direct contributions to campaigns retain a sufficient government interest in preventing corruption to justify limits.",
+      "C) Super PACs are regulated by the FEC more strictly than candidate campaigns, so donors prefer them primarily to avoid public disclosure requirements.",
+      "D) The First Amendment protects only individual speech, so corporations and Super PACs remain subject to stricter contribution limits than individual donors giving directly to candidates."
+    ],
+    "answer": 1,
+    "explanation": "Citizens United ruled that independent political expenditures-spending not coordinated with a candidate-cannot be limited because they do not create the risk of quid pro quo corruption that justifies contribution limits. This is why Super PACs (which must operate independently) can receive unlimited funds. However, direct contributions to candidate campaigns still trigger the government's compelling interest in preventing corruption, so Buckley v. Valeo-era caps on direct contributions survived. Choice A is wrong because Citizens United did NOT remove direct contribution limits-a very common student misconception. Choice C is wrong because Super PACs actually require public disclosure; donors do not use them to avoid disclosure. Choice D is wrong because Citizens United explicitly extended First Amendment speech protections to corporations and associations, not just individuals."
+  },
+  {
+    "id": "gov_u5_q304",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Third Parties and Electoral College",
+    "topicLabel": "Third Parties and Electoral College",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Third-party presidential candidates who win millions of popular votes routinely receive zero Electoral College votes, while a major-party candidate who narrowly wins several large states can secure the presidency despite losing the national popular vote. Which combination of structural factors most directly explains both phenomena?",
+    "choices": [
+      "A) Ballot access laws prevent third-party candidates from appearing in most states, and the Electoral College allocates votes proportionally based on each candidate's share of the national popular vote.",
+      "B) The winner-take-all allocation of electoral votes in most states systematically disadvantages third parties and allows a candidate to accumulate a majority of electoral votes by winning key states by small margins.",
+      "C) Federal matching funds are unavailable to third parties, and the Constitution requires a candidate to win a majority of congressional districts rather than a majority of electoral votes.",
+      "D) Third-party candidates are excluded from the Electoral College by statute, and large-state voters receive more individual influence over the outcome than small-state voters because electoral votes are allocated strictly by population."
+    ],
+    "answer": 1,
+    "explanation": "The winner-take-all (unit rule) system used by 48 states means a candidate who finishes second in a state earns zero electoral votes regardless of their vote share, structurally crushing third-party viability. The same rule explains why a major-party candidate can win the presidency by carrying several competitive states by thin margins and losing others by large margins, resulting in an Electoral College majority without a popular vote majority. Choice A is wrong on two counts: while ballot access is a real barrier, the Electoral College does NOT allocate votes proportionally by popular vote-this is a critical misconception. Choice C invents a congressional-district majority requirement that does not exist constitutionally. Choice D is wrong because no statute formally excludes third parties from the Electoral College, and small states are actually slightly over-represented per capita due to the two-senator bonus, not under-represented."
+  },
+  {
+    "id": "gov_u5_q305",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Rational Ignorance, Media Framing, and Voter Turnout",
+    "topicLabel": "Rational Ignorance, Media Framing, and Voter Turnout",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Political scientists studying a midterm election observe that overall turnout was low and that most voters who did participate held inaccurate beliefs about the candidates' actual policy positions. A researcher argues that both patterns are predictable consequences of the same underlying rational calculation. Which of the following best supports the researcher's argument?",
+    "choices": [
+      "A) Because media framing emphasizes horse-race coverage over policy substance, voters deliberately seek out ideologically aligned sources, which increases turnout among partisan voters while suppressing turnout among independents.",
+      "B) Because the individual cost of casting a decisive vote and the individual cost of acquiring accurate policy information both exceed the expected personal benefit, rational actors predictably abstain from voting and from investing in detailed policy research.",
+      "C) Because incumbents dominate media coverage, challengers are unable to communicate accurate policy differences to voters, causing both low turnout and widespread misinformation regardless of voters' cost-benefit calculations.",
+      "D) Because interest groups fund campaigns that deliberately obscure policy positions, voters face artificially high information costs, but turnout remains low only in non-competitive districts where the Electoral College diminishes perceived influence."
+    ],
+    "answer": 1,
+    "explanation": "Rational ignorance is the concept that when the personal benefit of acquiring political information is very low (a single vote is virtually never decisive) and the cost of becoming informed is non-trivial, it is individually rational to remain ignorant. The same expected-utility logic applies to the act of voting itself: if one vote is exceedingly unlikely to change an outcome, the rational actor may not vote. The researcher is arguing that a single rational cost-benefit framework-not two separate phenomena-explains both low turnout and voter ignorance, which matches rational ignorance/rational abstention theory precisely. Choice A incorrectly attributes the pattern to media framing and partisan sorting rather than the underlying cost-benefit logic, and misstates the directional effect on turnout. Choice C attributes the outcome to incumbency advantage and media coverage, which are real phenomena but not the same rational-calculus argument the researcher is making. Choice D correctly notes information costs but then incorrectly limits the turnout effect only to non-competitive districts and introduces an irrelevant Electoral College mechanism, distorting the core rational ignorance logic."
+  },
+  {
+    "id": "gov_u5_q306",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Third Parties and Electoral College",
+    "topicLabel": "Third Parties and Electoral College",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A third-party presidential candidate wins 22% of the national popular vote but carries no states in the Electoral College. Which of the following most accurately describes the structural reason this outcome is possible, and its likely consequence under the Twelfth Amendment?",
+    "choices": [
+      "A) The winner-take-all allocation of electoral votes in most states means a candidate with broad but geographically diffuse support can receive zero electoral votes; if no candidate reaches 270, the Senate selects the president from the top two electoral vote recipients.",
+      "B) The winner-take-all allocation of electoral votes in most states means a candidate with broad but geographically diffuse support can receive zero electoral votes; if no candidate reaches 270, the House of Representatives selects the president from the top three electoral vote recipients, with each state delegation casting one vote.",
+      "C) Proportional allocation of electoral votes ensures third-party candidates rarely win states; if no candidate reaches 270, the full House of Representatives votes for president with each member casting one vote.",
+      "D) The winner-take-all system prevents third parties from winning states; if no candidate reaches 270, the Electoral College reconvenes and holds a runoff between the top two candidates."
+    ],
+    "answer": 1,
+    "explanation": "Most states use a winner-take-all (unit rule) system, so a candidate whose support is spread thinly across many states will finish second or third everywhere and earn no electoral votes despite a substantial popular vote share. The Twelfth Amendment specifies that if no candidate wins a majority of electoral votes (270), the House of Representatives chooses the president from the top three electoral vote recipients, with each state delegation casting a single vote regardless of state population. Choice A is wrong because it incorrectly states the Senate selects the president - the Senate only selects the vice president in a contingent election. Choice C is wrong because the U.S. does not use proportional allocation nationally, and it incorrectly describes the House vote as individual members rather than state delegations. Choice D is wrong because there is no Electoral College runoff mechanism in the Constitution."
+  },
+  {
+    "id": "gov_u5_q307",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Incumbency Advantage and Primary Elections",
+    "topicLabel": "Incumbency Advantage and Primary Elections",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A political scientist studying congressional elections notes that incumbents are reelected at rates exceeding 90% in the House, yet public approval of Congress as an institution often falls below 20%. Which of the following best explains this paradox, incorporating the role of primary elections?",
+    "choices": [
+      "A) Low congressional approval ratings are driven primarily by partisan polarization in the media, which distorts public perception but has no measurable effect on actual voting behavior in either primary or general elections.",
+      "B) Incumbents benefit from name recognition, franking privileges, casework, and gerrymandered safe districts that insulate them in general elections; however, they face their greatest electoral threat in low-turnout primaries where ideologically extreme bases can defeat them, making primaries a check on incumbency advantage.",
+      "C) The paradox is explained by rational ignorance: because voters know so little about Congress, they consistently approve of their own representative while disapproving of Congress, and this effect is amplified in primaries where turnout is highest, giving incumbents a larger mandate.",
+      "D) Incumbents survive because campaign finance law prohibits challengers from raising more money than sitting members of Congress, effectively preventing competitive general election campaigns."
+    ],
+    "answer": 1,
+    "explanation": "The paradox of high incumbent reelection rates alongside low congressional approval is classic AP content. Incumbents enjoy structural advantages - name recognition, the franking privilege for constituent communication, credit-claiming for federal projects, casework that builds goodwill, and in many cases safe districts drawn to favor their party. These advantages dominate general elections. However, the primary election is where incumbents are most vulnerable: low turnout primaries are dominated by highly engaged, ideologically motivated party bases, meaning an incumbent who drifts from the base's preferences can face a serious primary challenge. Choice A is wrong because media polarization does measurably affect voting behavior, and the explanation ignores concrete structural factors. Choice C misapplies rational ignorance - rational ignorance actually describes why voters are uninformed, not why they approve of their own member; also, primary turnout is lowest, not highest, which weakens rather than strengthens an incumbent mandate argument. Choice D is false - no such law prohibits challengers from outraising incumbents; incumbents simply have structural fundraising advantages, not a legal protection."
+  },
+  {
+    "id": "gov_u5_q308",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Citizens United and Campaign Finance",
+    "topicLabel": "Citizens United and Campaign Finance",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A corporation wishes to spend unlimited funds on independent political advertisements supporting a candidate in a federal election. Which of the following best explains the constitutional basis for this activity following Citizens United v. FEC (2010)?",
+    "choices": [
+      "A) The First Amendment protects corporations as legal persons whose political spending constitutes protected free speech, invalidating limits on independent expenditures.",
+      "B) The Fourteenth Amendment's equal protection clause requires that corporations receive the same campaign contribution limits as individuals.",
+      "C) Congress explicitly granted corporations the right to make unlimited direct contributions to federal candidates through the Bipartisan Campaign Reform Act.",
+      "D) The Supreme Court ruled that all campaign finance limits, including direct contributions to candidates, violate the First Amendment."
+    ],
+    "answer": 0,
+    "explanation": "Citizens United held that political spending is a form of protected speech under the First Amendment and that corporations and unions have the same First Amendment rights as individuals, making limits on independent expenditures unconstitutional. Option B is wrong because the 14th Amendment was not the basis of the ruling and the case concerned spending, not equal protection. Option C is a direct misconception - BCRA (McCain-Feingold) actually restricted corporate electioneering communications, and Citizens United partially struck down those provisions; it did not grant unlimited direct contributions. Option D is a critical trap: Citizens United only struck down limits on independent expenditures, not direct contributions to candidates, which remain regulated under federal law."
+  },
+  {
+    "id": "gov_u5_q309",
+    "subject": "apgov",
+    "unit": 5,
+    "topic": "Media Framing and Agenda Setting",
+    "topicLabel": "Media Framing and Agenda Setting",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "During a congressional debate over immigration policy, major news networks devote extensive coverage to stories emphasizing national security threats at the border, while giving minimal airtime to economic arguments about immigrant labor contributions. Which media effects concepts best explain the likely influence on public opinion?",
+    "choices": [
+      "A) Agenda setting causes the public to view immigration as important, while framing shapes their evaluation of it primarily through a security lens.",
+      "B) Framing causes the public to view immigration as an important issue, while agenda setting shapes the specific moral values they apply to the debate.",
+      "C) The media's gatekeeping function ensures only accurate information reaches citizens, reducing the influence of framing on public attitudes.",
+      "D) Rational ignorance prevents most citizens from being influenced by media coverage, limiting both agenda setting and framing effects."
+    ],
+    "answer": 0,
+    "explanation": "Agenda setting refers to the media's power to determine which issues the public considers important - extensive coverage of immigration signals it is a priority issue. Framing refers to how the media presents an issue, influencing which aspects audiences use to evaluate it - emphasizing security threats frames immigration as a danger rather than an economic asset, shaping how people think about the policy. Option B reverses the definitions: agenda setting determines salience (what is important), not the moral values applied; framing shapes evaluative context, not importance rankings. Option C misrepresents gatekeeping as a neutralizing or accuracy-ensuring function; gatekeeping is the editorial selection process and does not eliminate framing effects. Option D overstates rational ignorance - while some voters are disengaged, research consistently shows media framing and agenda setting do influence broad public opinion, particularly on salient issues."
   }
 ];
