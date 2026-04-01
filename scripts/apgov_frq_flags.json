@@ -1,0 +1,9 @@
+{
+  "generated": "2026-04-01T22:47:23.381Z",
+  "flags": [
+    {
+      "id": "gov-arg-u3-15",
+      "issue": "Rubric index 1 referenced Mapp v. Ohio as a required Supreme Court case, but Mapp v. Ohio does not appear on the AP Gov required case list. The reference has been corrected in the clean version to remove it as a citable required case. Additionally, rubric items 0 and 1 had fewer than 5 subject-specific keywords each; keywords were expanded across all rubric items to meet the minimum of 5. The question was retained in clean after fixes rather than dropped, as the issue was a rubric citation error rather than a factual error in the prompt itself."
+    }
+  ]
+}
