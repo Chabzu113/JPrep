@@ -1,6 +1,6 @@
 {
   "name": "jprep",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "JPrep — Multi-Subject AP Practice Platform",
   "main": "main.js",
   "author": "Abhijay Ramaka",
@@ -59,7 +59,8 @@
     },
     "win": {
       "target": "nsis",
-      "icon": "icon.png"
+      "icon": "icon.png",
+      "artifactName": "APTestPrep-Win.exe"
     },
     "nsis": {
       "oneClick": true,
