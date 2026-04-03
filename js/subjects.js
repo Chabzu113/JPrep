@@ -12,6 +12,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-07T08:00:00'),
     description: 'Java programming, OOP, algorithms & data structures.',
     hasContent: true,
+    mcqTime: 5400,
+    frqTime: 5400,
     dataFiles: ['APCSA_MCQ', 'FRQ_BANK'],
     testFiles: ['PRACTICE_TESTS', 'P1_CSA_TEST'],
     questionTypes: [
@@ -93,6 +95,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-12T08:00:00'),
     description: 'Biochemistry, cells, genetics, evolution & ecology.',
     hasContent: true,
+    mcqTime: 5400,
+    frqTime: 5400,
     dataFiles: ['APBIO_MCQ', 'APBIO_FRQ', 'APBIO_FRQ_GRADED'],
     testFiles: ['APBIO_TESTS', 'P1_BIO_TEST'],
     testDataFiles: ['APBIO_TEST_MCQ'],
@@ -182,6 +186,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-13T08:00:00'),
     description: 'Limits, derivatives, integrals & the Fundamental Theorem.',
     hasContent: true,
+    mcqTime: 6300,
+    frqTime: 5400,
     dataFiles: ['APCALC_MCQ', 'APCALC_FRQ'],
     testFiles: ['P1_CALCAB_TEST'],
     questionTypes: [
@@ -252,6 +258,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-06T08:00:00'),
     description: 'Algebra-based mechanics, waves, circuits & rotational motion.',
     hasContent: true,
+    mcqTime: 5400,
+    frqTime: 5400,
     dataFiles: ['PHYSICS_MCQ', 'PHYSICS_FRQ'],
     testFiles: ['P1_PHYS1_TEST'],
     questionTypes: [
@@ -315,6 +323,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-14T08:00:00'),
     description: 'Electrostatics, circuits, magnetism & electromagnetic induction.',
     hasContent: true,
+    mcqTime: 2700,
+    frqTime: 2700,
     dataFiles: ['APPHYSCEM_FRQ', 'PHYSC_MCQ'],
     testFiles: ['P1_PHYSCEM_TEST'],
     questionTypes: [
@@ -345,6 +355,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-09T08:00:00'),
     description: 'US history from pre-contact through present.',
     hasContent: true,
+    mcqTime: 5700,
+    frqTime: 6000,
     dataFiles: ['APUSH_MCQ', 'APUSH_FRQ'],
     testFiles: ['P1_USH_TEST'],
     questionTypes: [
@@ -429,6 +441,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-15T08:00:00'),
     description: 'Data collection, probability, inference & regression.',
     hasContent: true,
+    mcqTime: 5400,
+    frqTime: 5400,
     dataFiles: ['APSTATS_MCQ', 'APSTATS_FRQ'],
     testFiles: ['P1_STATS_TEST'],
     questionTypes: [
@@ -541,6 +555,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-14T08:00:00'),
     description: 'Supply & demand, market structures & consumer theory.',
     hasContent: true,
+    mcqTime: 4200,
+    frqTime: 3600,
     dataFiles: ['APMICRO_MCQ', 'APMICRO_FRQ'],
     testFiles: ['P1_MICRO_TEST'],
     questionTypes: [
@@ -608,6 +624,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-09T08:00:00'),
     description: 'GDP, fiscal & monetary policy & international trade.',
     hasContent: true,
+    mcqTime: 4200,
+    frqTime: 3600,
     dataFiles: ['APMACRO_MCQ', 'APMACRO_FRQ'],
     testFiles: ['P1_MACRO_TEST'],
     questionTypes: [
@@ -677,6 +695,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-05T13:00:00'),
     description: 'Constitution, branches of government, civil rights, and political participation.',
     hasContent: true,
+    mcqTime: 4800,
+    frqTime: 6000,
     dataFiles: ['APGOV_MCQ', 'APGOV_FRQ'],
     testFiles: ['P1_GOV_TEST'],
     questionTypes: [
@@ -763,6 +783,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-11T08:00:00'),
     description: 'All of Calc AB plus series, parametric, polar, and vector-valued functions.',
     hasContent: true,
+    mcqTime: 6300,
+    frqTime: 5400,
     dataFiles: ['APCALCBC_MCQ', 'APCALCBC_FRQ'],
     testFiles: ['P1_CALCBC_TEST'],
     questionTypes: [
@@ -882,6 +904,8 @@ const SUBJECTS = [
     examDate: new Date('2026-05-07T13:00:00'), // placeholder — verify against College Board
     description: 'Ecosystems, biodiversity, populations, earth systems, and global change.',
     hasContent: true,
+    mcqTime: 5400,
+    frqTime: 4200,
     dataFiles: ['APENVIRO_MCQ', 'APENVIRO_FRQ'],
     testFiles: ['P1_ENVIRO_TEST'],
     questionTypes: [
