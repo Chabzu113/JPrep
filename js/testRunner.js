@@ -10,7 +10,8 @@ let mcqAnswers = {};
 let frqAnswers = {};
 let flagged = new Set();
 let timer = null;
-let timeRemaining = 5400;
+let mcqTimeRemaining = 5400;
+let frqTimeRemaining = 5400;
 let autoSaveInterval = null;
 let mcqQuestions = [];
 let frqQuestions = [];
@@ -146,8 +147,8 @@ function renderHubScreen() {
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px">`;
 
     for (const test of tests) {
-      const mcqCnt = (test.mcqIds || []).length;
-      const frqCnt = (test.frqIds || []).length;
+      const mcqCnt = (test.mcqIds || test.questions || []).length;
+      const frqCnt = (test.frqIds || test.frqs || []).length;
       const results = subjHist.filter(r => r.testId === test.id).sort((a,b) => b.date - a.date);
       const latest = results[0];
       const isProg = inProgress && inProgress.testId === test.id;
@@ -219,12 +220,29 @@ function selectTest(testId, subjectId) {
   currentTest = tests.find(t => t.id === testId);
   if (!currentTest) { renderHubScreen(); return; }
 
+  // If test has embedded questions, use them directly (new JSON format)
+  if (currentTest.questions && Array.isArray(currentTest.questions)) {
+    mcqQuestions = currentTest.questions;
+    // Normalize rubric field: map criterion → description for manual grading UI
+    frqQuestions = (currentTest.frqs || []).map(f => {
+      if (f.rubric) {
+        f.rubric = f.rubric.map(r => ({
+          ...r,
+          description: r.description || r.criterion || '',
+        }));
+      }
+      // Tag APUSH FRQs so the grader routes correctly
+      if (currentTest.subject === 'apush') f.subject = 'apush';
+      return f;
+    });
+  } else {
   const allQ = loadAllQuestionsForActiveSubject();
   const allMCQ = allQ.filter(q => q.choices || !Array.isArray(q.units));
   const frqPool = allQ.filter(q => Array.isArray(q.units) || q.parts);
 
   mcqQuestions = (currentTest.mcqIds || []).map(id => allMCQ.find(q => q.id === id)).filter(Boolean);
   frqQuestions = (currentTest.frqIds || []).map(id => frqPool.find(f => f.id === id)).filter(Boolean);
+  } // end ID-based lookup
 
   try {
     const activeKey = App.subjectStorageKey('active_test');
@@ -235,7 +253,8 @@ function selectTest(testId, subjectId) {
         mcqAnswers = data.mcqAnswers || {};
         frqAnswers = data.frqAnswers || {};
         flagged = new Set(data.flagged || []);
-        timeRemaining = data.timeRemaining || 5400;
+        mcqTimeRemaining = data.mcqTimeRemaining ?? 5400;
+        frqTimeRemaining = data.frqTimeRemaining ?? 5400;
         setTestMode(true);
         if (data.section === 'mcq') { startSection('mcq'); return; }
         if (data.section === 'frq') { startSection('frq'); return; }
@@ -334,6 +353,8 @@ function startSection(section) {
   stopTimer();
 
   if (section === 'mcq') {
+    const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+    mcqTimeRemaining = (subj && subj.mcqTime) || 5400;
     showScreen('mcqScreen');
     updateTimerDisplay();
     startTimer();
@@ -344,7 +365,8 @@ function startSection(section) {
     showScreen('breakScreen');
     renderBreakScreen();
   } else if (section === 'frq') {
-    timeRemaining = 5400;
+    const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+    frqTimeRemaining = (subj && subj.frqTime) || 5400;
     showScreen('frqScreen');
     updateTimerDisplay();
     startTimer();
@@ -358,9 +380,10 @@ function startSection(section) {
 function startTimer() {
   stopTimer();
   timer = setInterval(() => {
-    timeRemaining = Math.max(0, timeRemaining - 1);
+    if (currentSection === 'mcq') mcqTimeRemaining = Math.max(0, mcqTimeRemaining - 1);
+    else frqTimeRemaining = Math.max(0, frqTimeRemaining - 1);
     updateTimerDisplay();
-    if (timeRemaining === 0) { stopTimer(); currentSection === 'mcq' ? finishMCQ() : finishFRQ(); }
+    if ((currentSection === 'mcq' ? mcqTimeRemaining : frqTimeRemaining) === 0) { stopTimer(); currentSection === 'mcq' ? finishMCQ() : finishFRQ(); }
   }, 1000);
 }
 
@@ -369,13 +392,14 @@ function stopTimer() { if (timer) { clearInterval(timer); timer = null; } }
 function updateTimerDisplay() {
   const el = document.getElementById('timerDisplay');
   if (!el) return;
-  const h = Math.floor(timeRemaining / 3600);
-  const m = Math.floor((timeRemaining % 3600) / 60);
-  const s = timeRemaining % 60;
+  const t = currentSection === 'frq' ? frqTimeRemaining : mcqTimeRemaining;
+  const h = Math.floor(t / 3600);
+  const m = Math.floor((t % 3600) / 60);
+  const s = t % 60;
   el.textContent = `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
   el.className = 'timer';
-  if (timeRemaining <= 600) el.classList.add('warning');
-  if (timeRemaining <= 60) el.classList.add('danger');
+  if (t <= 600) el.classList.add('warning');
+  if (t <= 60) el.classList.add('danger');
 }
 
 // ─── MCQ ──────────────────────────────────────────────────────────────────────
@@ -643,7 +667,9 @@ function finishFRQ() {
     mcqIds: currentTest.mcqIds, frqIds: currentTest.frqIds,
     mcqAnswers, frqAnswers, flagged: [...flagged],
     mcqCorrect, mcqTotal: mcqQuestions.length,
-    frqSelfGrades: {}, frqTotal: 0, frqMax: 28,
+    frqSelfGrades: {}, frqTotal: 0, frqMax: (typeof Scoring !== 'undefined' && Scoring.AP_SCORE_TABLES)
+      ? (Scoring.AP_SCORE_TABLES[App.getActiveSubject()] || Scoring.AP_SCORE_TABLES._default).frqMax
+      : 28,
     estimatedScore: App.estimateAPScore(mcqCorrect, 0)
   };
   App.saveTestResult(result);
@@ -653,12 +679,10 @@ function finishFRQ() {
   // AP score + percentile estimate based on MCQ only (FRQ not graded yet)
   const mcqPct = mcqQuestions.length > 0 ? mcqCorrect / mcqQuestions.length : 0;
   const mcqPctDisplay = Math.round(mcqPct * 100);
-  let estScore;
-  if (mcqPct >= 0.75) estScore = 5;
-  else if (mcqPct >= 0.60) estScore = 4;
-  else if (mcqPct >= 0.45) estScore = 3;
-  else if (mcqPct >= 0.30) estScore = 2;
-  else estScore = 1;
+  const subjectId = App.getActiveSubject();
+  const estScore = (typeof Scoring !== 'undefined' && Scoring.estimateAPScoreForSubject)
+    ? Scoring.estimateAPScoreForSubject(mcqCorrect, mcqQuestions.length, 0, subjectId)
+    : (mcqPct >= 0.75 ? 5 : mcqPct >= 0.60 ? 4 : mcqPct >= 0.45 ? 3 : mcqPct >= 0.30 ? 2 : 1);
 
   const PERCENTILES = {
     apcsa: { 5:'~top 25%', 4:'~top 50%', 3:'~top 70%', 2:'~top 85%', 1:'bottom 15%' },
@@ -707,7 +731,7 @@ function saveActiveTest() {
   try {
     localStorage.setItem(App.subjectStorageKey('active_test'), JSON.stringify({
       testId: currentTest?.id, section: currentSection,
-      mcqAnswers, frqAnswers, flagged: [...flagged], timeRemaining
+      mcqAnswers, frqAnswers, flagged: [...flagged], mcqTimeRemaining, frqTimeRemaining
     }));
   } catch(e) { console.warn('auto-save error:', e); }
 }
