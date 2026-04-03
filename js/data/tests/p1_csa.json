@@ -58,18 +58,17 @@
     {
       "id": "pt_csa_p1_u1_004",
       "unit": 1,
-      "question": "A student writes the following code:\n\nint score = 85;\nscore += 10;\nscore *= 2;\nscore -= 5;\nSystem.out.println(score);\n\nA classmate claims the final value is 185. Is the classmate correct, and what is the actual output?",
+      "question": "A student writes the following code:\n\nint score = 85;\nscore += 10;\nscore *= 2;\nscore -= 5;\nSystem.out.println(score);\n\nA classmate claims the final value printed is 185. Is the classmate correct?",
       "choices": [
-        "A) The classmate is incorrect; the output is 185.",
-        "B) The classmate is incorrect; the output is 185 only if the operations are applied to the original value each time.",
-        "C) The classmate is incorrect; the output is 185 is wrong because the output is 185.",
-        "D) The classmate is incorrect; the output is 185."
+        "A) 185 (correct, classmate is right)",
+        "B) 180 (student forgot the -= 5 step)",
+        "C) 190 (student stopped at *= 2 and forgot the -= 5 step)",
+        "D) 175 (student applied -= 5 before *= 2)"
       ],
-      "answer": 3,
-      "explanation": "Wait - let me restate this properly. Starting with score = 85: score += 10 gives 95; score *= 2 gives 190; score -= 5 gives 185. The output is 185. The classmate IS correct. However the correct answer here is the one that accurately confirms the output is 185 through proper sequential evaluation of compound assignment operators. Each operator modifies the running value of score, not the original 85.",
+      "answer": 0,
+      "explanation": "The classmate is correct. Each compound assignment operator modifies the running value of score sequentially, not the original value of 85. Step by step: score starts at 85; score += 10 gives 95; score *= 2 gives 190; score -= 5 gives 185. The final output is 185.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u1_005",
@@ -134,18 +133,17 @@
     {
       "id": "pt_csa_p1_u2_009",
       "unit": 2,
-      "question": "Consider the following code segment:\n\nint x = 7;\nif (x > 5) {\n    System.out.print(\"A\");\n}\nif (x > 3) {\n    System.out.print(\"B\");\n}\nif (x > 9) {\n    System.out.print(\"C\");\n} else {\n    System.out.print(\"D\");\n}\n\nWhat is printed when this code segment executes?",
+      "question": "Consider the following code segment:\n\nint x = 4;\nif (x > 5) {\n    System.out.print(\"A\");\n} else if (x > 3) {\n    System.out.print(\"B\");\n} else if (x > 1) {\n    System.out.print(\"C\");\n} else {\n    System.out.print(\"D\");\n}\n\nWhat is printed when this code segment executes?",
       "choices": [
-        "A) AD",
-        "B) AB",
-        "C) ABD",
-        "D) ABCD"
+        "A) A",
+        "B) B",
+        "C) BC",
+        "D) BCD"
       ],
-      "answer": 2,
-      "explanation": "Each if statement is independent (not else-if). x=7: first condition (x>5) is true → prints 'A'; second condition (x>3) is true → prints 'B'; third condition (x>9) is false → goes to else → prints 'D'. Result: 'ABD'. Option A is wrong because it ignores the second independent if. Option B omits the else clause output. Option D is wrong because x>9 is false so 'C' is never printed.",
+      "answer": 1,
+      "explanation": "This is an if/else-if chain, so only the first true branch executes. x=4: first condition (x>5) is false; second condition (x>3) is true → prints 'B' and skips all remaining branches. The remaining else-if and else clauses are never evaluated. Result: 'B'. Option A is wrong because x>5 is false. Option C and D are wrong because in an else-if chain, once a true branch is found, execution skips the rest.",
       "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u2_010",
@@ -180,7 +178,7 @@
     {
       "id": "pt_csa_p1_u2_012",
       "unit": 2,
-      "question": "Consider the following code segment:\n\nString s = \"programming\";\nint count = 0;\nfor (int i = 0; i < s.length() - 1; i++) {\n    if (s.substring(i, i + 2).equals(s.substring(i, i + 2).toUpperCase() == null ? \"\" : s.substring(i, i + 2))) {\n        count++;\n    }\n}\nSystem.out.println(count);\n\nActually, ignore the above. Consider this corrected segment instead:\n\nString s = \"programming\";\nint count = 0;\nfor (int i = 0; i < s.length() - 1; i++) {\n    String sub = s.substring(i, i + 2);\n    if (sub.charAt(0) == sub.charAt(1)) {\n        count++;\n    }\n}\nSystem.out.println(count);\n\nWhat is printed?",
+      "question": "Consider the following code segment:\n\nString s = \"programming\";\nint count = 0;\nfor (int i = 0; i < s.length() - 1; i++) {\n    String sub = s.substring(i, i + 2);\n    if (sub.charAt(0) == sub.charAt(1)) {\n        count++;\n    }\n}\nSystem.out.println(count);\n\nWhat is printed?",
       "choices": [
         "A) 0",
         "B) 1",
@@ -188,10 +186,9 @@
         "D) 3"
       ],
       "answer": 1,
-      "explanation": "The loop iterates through all consecutive character pairs in 'programming' (indices 0 through 9, giving substrings of length 2). It counts pairs where both characters are the same. The string 'programming' has characters: p-r-o-g-r-a-m-m-i-n-g. The only consecutive repeated character pair is 'm' at indices 6 and 7 (substring 'mm'). So count = 1. Option A (0) is wrong because 'mm' does exist. Option C (2) might occur if a student also miscounts 'rr' which doesn't appear consecutively. Option D (3) represents a further overcount.",
+      "explanation": "The loop iterates through all consecutive character pairs in 'programming' (indices 0 through 9, giving substrings of length 2). It counts pairs where both characters are the same. The string 'programming' has characters: p-r-o-g-r-a-m-m-i-n-g. The only consecutive repeated character pair is 'm' at indices 6 and 7 (substring 'mm'). So count = 1. Option A (0) is wrong because the 'mm' pair does exist in the string. Option C (2) might result if a student mistakenly uses i <= s.length() - 1 as the loop condition combined with s.substring(i, i + 2), which would throw a StringIndexOutOfBoundsException, but a student who instead imagines the loop running one extra iteration and incorrectly counting a phantom duplicate pair would arrive at 2. Option D (3) represents a further overcount, perhaps from a student who believes 'r', 'm', and another character each appear as consecutive pairs.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u2_013",
@@ -211,18 +208,17 @@
     {
       "id": "pt_csa_p1_u2_014",
       "unit": 2,
-      "question": "Consider the following code segment:\n\nint x = 7;\nif (x > 5) {\n    System.out.print(\"A\");\n}\nif (x > 3) {\n    System.out.print(\"B\");\n}\nif (x > 8) {\n    System.out.print(\"C\");\n} else {\n    System.out.print(\"D\");\n}\n\nWhat is printed when this code segment is executed?",
+      "question": "Consider the following code segment:\n\nint x = 6;\nif (x > 8) {\n    System.out.print(\"A\");\n} else if (x > 5) {\n    System.out.print(\"B\");\n} else if (x > 3) {\n    System.out.print(\"C\");\n} else {\n    System.out.print(\"D\");\n}\n\nWhat is printed when this code segment is executed?",
       "choices": [
-        "A) ABD",
-        "B) AB",
-        "C) AD",
-        "D) ABCD"
+        "A) B",
+        "B) BC",
+        "C) BCD",
+        "D) D"
       ],
       "answer": 0,
-      "explanation": "Each if statement is independent (not else-if). x=7: x>5 is true → prints 'A'; x>3 is true → prints 'B'; x>8 is false so the else executes → prints 'D'. Total output: 'ABD'. Choice B is wrong because students may forget the final else branch. Choice C is wrong because students may think the second if is skipped. Choice D is wrong because x>8 is false so 'C' is never printed.",
+      "explanation": "In an if/else-if chain, only the first branch whose condition is true executes, and all remaining branches are skipped. x=6: x>8 is false, so we check x>5, which is true → prints 'B'. Because 'B' was printed, the remaining else-if and else branches are skipped entirely. Choice B is wrong because students may think multiple true conditions each print their letter. Choice C is wrong for the same reason - x>3 is also true, but that branch is never reached. Choice D is wrong because the else only runs if all prior conditions are false.",
       "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u2_015",
@@ -247,13 +243,12 @@
         "A) allUpperCase(\"Ab\") returns true instead of false",
         "B) allUpperCase(\"AB\") returns false instead of true",
         "C) allUpperCase(\"\") returns false instead of true",
-        "D) allUpperCase(\"abc\") returns true instead of false"
+        "D) allUpperCase(\"aBC\") returns true instead of false"
       ],
       "answer": 0,
-      "explanation": "The method returns on the very first character without checking the rest. For 'Ab': 'A' is uppercase so the condition is true and the method immediately returns true without ever checking 'b'. It should return false since 'b' is lowercase. Choice B is wrong - 'AB' returns true correctly (first char 'A' is uppercase → returns true, which happens to be the right answer but for the wrong reason). Choice C is wrong - an empty string correctly returns true from the final return. Choice D is wrong - 'a' is not in [A,Z] range so it returns false, which is the correct answer.",
+      "explanation": "The method returns on the very first character without checking the rest. For 'Ab': 'A' is uppercase, so 'A'.compareTo('A') >= 0 and 'A'.compareTo('Z') <= 0 are both true, causing the method to immediately return true without ever examining 'b'. The correct answer should be false since 'b' is lowercase - this demonstrates the bug. Choice B is wrong - 'AB' correctly returns true (first char 'A' satisfies the condition), even if only one character is examined. Choice C is wrong - an empty string never enters the loop and correctly returns true from the final return statement. Choice D is wrong - for 'aBC', the first character 'a' has a higher Unicode value than 'Z' (lowercase letters have higher Unicode values than uppercase letters), so 'a'.compareTo('Z') > 0, meaning the second condition in the && is false. The else branch fires and returns false, which is coincidentally the correct result for the wrong structural reason: the method happens to reject 'aBC' correctly only because 'a' falls outside the [A-Z] range, not because it checked all characters.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u2_017",
@@ -275,16 +270,15 @@
       "unit": 2,
       "question": "Consider the following code segment:\n\nint a = 4;\nint b = 8;\nint c = 4;\n\nboolean result = (a == c) && (b > a) || !(b == 2 * c);\n\nWhat is the value of result, and which evaluation correctly applies Java's operator precedence for boolean expressions?",
       "choices": [
-        "A) true, because ! is applied first, then &&, then ||, yielding: true && true || false → true",
+        "A) false, because || is evaluated before &&, yielding: true || !(true) → true && false → false",
         "B) false, because || is evaluated before && due to left-to-right parsing",
         "C) true, because && is evaluated before ||, yielding: (true && true) || false → true",
         "D) false, because !(b == 2 * c) evaluates to false and causes the entire expression to be false"
       ],
       "answer": 2,
-      "explanation": "Java operator precedence: ! (highest), then &&, then ||. Step 1: evaluate ! first - b==2*c is 8==8 → true, so !(true) = false. Step 2: evaluate && - (a==c) is 4==4 → true; (b>a) is 8>4 → true; true && true = true. Step 3: evaluate || - true || false = true. Result is true. Choice A gets the correct final answer but misstates the precedence order (says ! then && then || which is actually correct, but the sub-expression explanation is muddled and misleading). Choice B is wrong - && has higher precedence than ||; Java does not simply evaluate left-to-right for different operators. Choice D is wrong - !(b==2*c) is false, but because it is joined by ||, it does not force the entire expression to false; the left side (true) makes the || true.",
+      "explanation": "Java operator precedence: ! (highest), then &&, then ||. Step 1: evaluate ! first - b==2*c is 8==8 → true, so !(true) = false. Step 2: evaluate && - (a==c) is 4==4 → true; (b>a) is 8>4 → true; true && true = true. Step 3: evaluate || - true || false = true. Result is true. Choice A is wrong because it incorrectly claims || is evaluated before &&, which reverses actual Java precedence, and arrives at the wrong answer. Choice B is wrong - && has higher precedence than ||; Java does not simply evaluate left-to-right for different operators. Choice D is wrong - !(b==2*c) is false, but because it is joined by ||, it does not force the entire expression to false; the left side (true) makes the || true.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u2_019",
@@ -381,16 +375,15 @@
       "unit": 3,
       "question": "Consider the following incomplete class:\n\npublic class Circle {\n    private double radius;\n    private static int circleCount = 0;\n\n    public Circle(double r) {\n        radius = r;\n        circleCount++;\n    }\n\n    public Circle(Circle other) {\n        /* Line X */\n        circleCount++;\n    }\n\n    public double getRadius() { return radius; }\n    public static int getCircleCount() { return circleCount; }\n}\n\nA developer wants the copy constructor (the second constructor) to create a new Circle with the same radius as other. Which of the following replacements for /* Line X */ correctly completes the copy constructor, and what will Circle.getCircleCount() return after the following code runs?\n\nCircle c1 = new Circle(5.0);\nCircle c2 = new Circle(c1);",
       "choices": [
-        "A) radius = other.radius; - getCircleCount() returns 1",
+        "A) radius = other.getRadius(); - getCircleCount() returns 1",
         "B) this.radius = other.getRadius(); - getCircleCount() returns 2",
-        "C) radius = other.radius; - getCircleCount() returns 2",
-        "D) this.radius = other.radius; - getCircleCount() returns 1"
+        "C) radius = Circle.radius; - getCircleCount() returns 2",
+        "D) this.radius = other.getRadius(); - getCircleCount() returns 1"
       ],
-      "answer": 2,
-      "explanation": "Both radius = other.radius and this.radius = other.getRadius() correctly copy the radius. Since radius is private but being accessed on an instance of the same class (Circle), direct field access other.radius is valid in Java - private access is class-scoped, not instance-scoped. After creating c1 and c2, the constructor is called twice, so circleCount = 2. A is wrong about the count (it says 1). B is correct in behavior but choice C uses direct field access which is equally valid and also gives count = 2 - C is the best complete answer. D incorrectly states count = 1. Both A and C have correct Line X, but only C has the correct count of 2, making C the answer.",
+      "answer": 1,
+      "explanation": "The correct Line X is this.radius = other.getRadius(), which uses the getter to retrieve the radius from the other Circle and assigns it to the new instance's radius field. After creating c1 with new Circle(5.0) and c2 with new Circle(c1), the constructor is called twice, so circleCount = 2, making getCircleCount() return 2. Choice A has an incorrect count of 1. Choice C uses Circle.radius, which is invalid because radius is an instance field and cannot be accessed statically. Choice D has the correct Line X but incorrectly states the count is 1. Only choice B has both the correct Line X and the correct count of 2.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u3_026",
@@ -410,18 +403,17 @@
     {
       "id": "pt_csa_p1_u4_027",
       "unit": 4,
-      "question": "Consider the following method that searches a sorted integer array using binary search:\n\npublic static int binarySearch(int[] arr, int target) {\n    int low = 0;\n    int high = arr.length - 1;\n    while (low <= high) {\n        int mid = (low + high) / 2;\n        if (arr[mid] == target) return mid;\n        else if (arr[mid] < target) low = mid + 1;\n        else high = mid - 1;\n    }\n    return -1;\n}\n\nGiven the sorted array {3, 7, 11, 15, 22, 34, 45, 60}, how many comparisons (evaluations of arr[mid] == target or arr[mid] < target) are made before the method returns when searching for target = 34?",
+      "question": "Consider the following method that searches a sorted integer array using binary search:\n\npublic static int binarySearch(int[] arr, int target) {\n    int low = 0;\n    int high = arr.length - 1;\n    while (low <= high) {\n        int mid = (low + high) / 2;\n        if (arr[mid] == target) return mid;\n        else if (arr[mid] < target) low = mid + 1;\n        else high = mid - 1;\n    }\n    return -1;\n}\n\nGiven the sorted array {3, 7, 11, 15, 22, 34, 45, 60}, what value is returned when the method is called with target = 34?",
       "choices": [
-        "A) 2",
-        "B) 3",
-        "C) 4",
-        "D) 5"
+        "A) 4",
+        "B) 5",
+        "C) 6",
+        "D) -1"
       ],
       "answer": 1,
-      "explanation": "The array has 8 elements (indices 0-7). Iteration 1: low=0, high=7, mid=3, arr[3]=15. Since 15 < 34, low becomes 4 (2 comparisons: == and <). Iteration 2: low=4, high=7, mid=5, arr[5]=34. Since arr[5]==34, return 5 (1 comparison). Total comparisons = 3. Students who answer 2 forget that each loop iteration involves up to 2 comparisons. Students who answer 4 or 5 likely miscalculate mid or count extra iterations that don't occur.",
+      "explanation": "The array has 8 elements (indices 0-7). Iteration 1: low=0, high=7, mid=3, arr[3]=15. Since 15 < 34, low becomes 4. Iteration 2: low=4, high=7, mid=5, arr[5]=34. Since arr[5] == target, the method returns 5. Students who answer 4 may confuse the value at the index with the index itself. Students who answer 6 likely miscalculate mid in one of the iterations. Students who answer -1 incorrectly believe the target is not found.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u4_028",
@@ -449,10 +441,9 @@
         "D) [10, 40]"
       ],
       "answer": 0,
-      "explanation": "This is a classic ArrayList traversal trap (Topic 4.9). Initially: [10, 20, 30, 40]. i=0: 10%20=10, not removed. i=1: 20%20=0, removed. List becomes [10, 30, 40], i increments to 2. i=2: 40%20=0, removed. List becomes [10, 30], i increments to 3. size() is now 2, loop ends. Wait - rechecking: after removing 20 at index 1, list is [10, 30, 40]. i becomes 2. nums.get(2)=40, 40%20=0, so 40 is removed. List is [10, 30]. i becomes 3, loop ends. So [10, 30] is actually the result. However, 30 is skipped (the element that shifts to index 1 after removal of 20 is 30, but i jumps to 2, skipping 30's re-evaluation). Since 30%20=10 ≠ 0, skipping 30 doesn't change the outcome here. Final list: [10, 30]. Answer A is correct. Correction: answer index should be 0. [10, 30] is index 0 (A). Students who pick B ([10, 30, 40]) think neither 20 nor 40 are removed due to the skip bug. Students who pick C think 40 is skipped but 20 is removed correctly without the index issue. Students who pick D mistrack which element is skipped.",
+      "explanation": "This is a classic ArrayList traversal trap (Topic 4.9). Initially: [10, 20, 30, 40]. i=0: 10%20=10, not removed. i=1: 20%20=0, removed. List becomes [10, 30, 40], i increments to 2. i=2: 40%20=0, removed. List becomes [10, 30], i increments to 3. size() is now 2, loop ends. Wait - rechecking: after removing 20 at index 1, list is [10, 30, 40]. i becomes 2. nums.get(2)=40, 40%20=0, so 40 is removed. List is [10, 30]. i becomes 3, loop ends. So [10, 30] is actually the result. However, 30 is skipped (the element that shifts to index 1 after removal of 20 is 30, but i jumps to 2, skipping 30's re-evaluation). Since 30%20=10 ≠ 0, skipping 30 doesn't change the outcome here. Final list: [10, 30]. Answer A is correct. Choice B results if students think the index skip after removing 20 causes 40 to also be skipped and never evaluated. Students who pick C think 40 is skipped but 20 is removed correctly without the index issue. Students who pick D mistrack which element is skipped.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u4_030",
@@ -547,18 +538,17 @@
     {
       "id": "pt_csa_p1_u4_036",
       "unit": 4,
-      "question": "The following method is intended to perform a binary search on a sorted array and return the index of target, or -1 if not found. However, it contains a bug.\n\npublic static int binarySearch(int[] arr, int target) {\n    int low = 0;\n    int high = arr.length - 1;\n    while (low <= high) {\n        int mid = (low + high) / 2;\n        if (arr[mid] == target) {\n            return mid;\n        } else if (arr[mid] < target) {\n            high = mid - 1;  // Line X\n        } else {\n            low = mid + 1;   // Line Y\n        }\n    }\n    return -1;\n}\n\nCalled with arr = {2, 5, 9, 14, 20} and target = 14, what does this method return?",
+      "question": "Consider the following method intended to perform a binary search on a sorted array, returning the index of target, or -1 if not found.\n\npublic static int binarySearch(int[] arr, int target) {\n    int low = 0;\n    int high = arr.length - 1;\n    while (low <= high) {\n        int mid = (low + high) / 2;\n        if (arr[mid] == target) {\n            return mid;\n        } else if (arr[mid] < target) {\n            high = mid - 1;  // Line X\n        } else {\n            low = mid + 1;   // Line Y\n        }\n    }\n    return -1;\n}\n\nCalled with arr = {2, 5, 9, 14, 20} and target = 14, what does this method return?",
       "choices": [
         "A) 3",
         "B) -1",
         "C) 2",
-        "D) 14"
+        "D) 4"
       ],
       "answer": 1,
-      "explanation": "The bug is on Line X and Line Y - the update directions are swapped. When arr[mid] < target, the target is in the upper half, so low should be set to mid+1, but the code incorrectly sets high = mid-1. Similarly, the else branch sets low = mid+1 when it should set high = mid-1. Tracing with target=14: low=0,high=4 → mid=2, arr[2]=9 < 14 → incorrectly sets high=1. Now high < low, loop exits, returns -1. A) 3 would be correct if the algorithm were implemented properly. C) 2 is the mid index on the first iteration. D) 14 confuses the value with the index.",
+      "explanation": "The bug is on Line X and Line Y - the update directions are swapped. When arr[mid] < target, the target is in the upper half, so low should be set to mid+1, but the code incorrectly sets high = mid-1. Similarly, the else branch sets low = mid+1 when it should set high = mid-1. Tracing with target=14: low=0,high=4 → mid=2, arr[2]=9 < 14 → incorrectly sets high=1. Now high < low, loop exits, returns -1. A) 3 would be correct if the algorithm were implemented properly. C) 2 is the mid index on the first iteration. D) 4 is the last valid index in the array, which a student might expect if they believed the search advanced toward the upper end of the array before finding the target.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u4_037",
@@ -583,13 +573,12 @@
         "A) 410",
         "B) 262",
         "C) 322",
-        "D) 267"
+        "D) 350"
       ],
       "answer": 1,
-      "explanation": "The loop starts at index 1 (skipping index 0, which is 88) and runs while i < scores.length - 1, meaning i < 4, so it stops before index 4 (which is 60). The loop processes indices 1, 2, and 3: scores[1]=92, scores[2]=75, scores[3]=95. Total = 92 + 75 + 95 = 262. Choice A (410) is the sum of all elements. Choice C (322) results from a common error of including index 0 but not index 4: 88+92+75+67 - not aligned with the array. Choice D (267) might result from a student incorrectly including index 4 but not index 0: 92+75+95+ which doesn't match either, representing a misread of loop bounds.",
+      "explanation": "The loop starts at index 1 (skipping index 0, which is 88) and runs while i < scores.length - 1, meaning i < 4, so it stops before index 4 (which is 60). The loop processes indices 1, 2, and 3: scores[1]=92, scores[2]=75, scores[3]=95. Total = 92 + 75 + 95 = 262. Choice A (410) is the sum of all elements. Choice C (322) results from a student who reads i < scores.length - 1 as i <= scores.length - 1, which would include index 4 (60) but still skip index 0, giving 92+75+95+60=322. Choice D (350) results from a student who starts the loop at i=0 but correctly stops before index 4, computing 88+92+75+95=350.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_csa_p1_u4_039",

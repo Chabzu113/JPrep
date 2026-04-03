@@ -63,7 +63,7 @@
     {
       "id": "pt_phys1_p1_u1_004",
       "unit": 1,
-      "question": "An object moves along a straight line. Its position as a function of time is given by the equation x(t) = 3t³ − 12t² + 9t, where x is in meters and t is in seconds. At what time(s) is the object momentarily at rest?",
+      "question": "An object moves along a straight line. Its position as a function of time is given by the equation x(t) = t³ − 6t² + 9t, where x is in meters and t is in seconds. At what time(s) is the object momentarily at rest?",
       "choices": [
         "A) t = 1 s only",
         "B) t = 3 s only",
@@ -71,10 +71,9 @@
         "D) t = 0 s and t = 2 s"
       ],
       "answer": 2,
-      "explanation": "The object is at rest when velocity equals zero. Taking the derivative: v(t) = dx/dt = 9t² − 24t + 9. Setting v = 0: 9t² − 24t + 9 = 0, which simplifies to 3t² − 8t + 3 = 0. Using the quadratic formula: t = (8 ± √(64−36))/6 = (8 ± √28)/6. √28 ≈ 5.29, so t ≈ (8−5.29)/6 ≈ 0.45 s and t ≈ (8+5.29)/6 ≈ 2.21 s. Wait - let me recheck: v(t) = 9t² − 24t + 9 = 0 → t² − (8/3)t + 1 = 0. Discriminant = 64/9 − 4 = 28/9. The roots are not clean integers. Revising the position function to x(t) = t³ − 6t² + 9t: v(t) = 3t² − 12t + 9 = 3(t²−4t+3) = 3(t−1)(t−3) = 0. So t = 1 s and t = 3 s. Choice C is correct. Choice A reflects finding only the smaller root. Choice B reflects finding only the larger root. Choice D reflects errors in differentiating or factoring, possibly confusing position zeros with velocity zeros by setting x(t)=0 instead of v(t)=0.",
+      "explanation": "The object is at rest when velocity equals zero. Taking the derivative of the position function: v(t) = dx/dt = 3t² − 12t + 9. Setting v = 0: 3t² − 12t + 9 = 0, which simplifies to t² − 4t + 3 = 0. Factoring: (t − 1)(t − 3) = 0. Therefore t = 1 s and t = 3 s. Choice C is correct. Choice A reflects finding only the smaller root. Choice B reflects finding only the larger root. Choice D reflects errors in differentiating or factoring, possibly confusing position zeros with velocity zeros by setting x(t) = 0 instead of v(t) = 0.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u1_005",
@@ -112,15 +111,14 @@
       "question": "A 5 kg block is pushed against a wall by a horizontal applied force of 40 N directed perpendicular to the wall. The coefficient of static friction between the block and wall is 0.60. Which of the following correctly describes the magnitude of the static friction force acting on the block and whether the block remains stationary?",
       "choices": [
         "A) Friction force = 30 N upward; the block remains stationary because static friction equals μₛN.",
-        "B) Friction force = 49 N upward; the block remains stationary because static friction can reach up to 24 N, which exceeds the gravitational force.",
-        "C) Friction force = 49 N upward; the block remains stationary because static friction adjusts to balance gravity, and the maximum available static friction of 24 N is exceeded - so the block slides.",
+        "B) Friction force = 24 N upward; the block remains stationary because static friction equals μₛN and exactly balances gravity.",
+        "C) Friction force = 49 N upward; the block remains stationary because static friction adjusts to match gravity, and the block is in equilibrium.",
         "D) Friction force = 24 N upward; the block slides down because the maximum static friction force of 24 N is less than the gravitational force of 49 N acting on the block."
       ],
       "answer": 3,
-      "explanation": "The normal force on the block from the wall equals the applied horizontal force: N = 40 N. The maximum static friction force is μₛN = 0.60 × 40 N = 24 N. The gravitational force on the block is mg = 5 × 9.8 = 49 N downward. Since the maximum static friction (24 N) is less than the weight (49 N), static friction cannot balance gravity and the block slides down. Choice A incorrectly applies μₛN as if it equals the actual friction force regardless of equilibrium conditions - static friction only equals μₛN at its maximum, and here that maximum is still insufficient. Choice B incorrectly states that 24 N exceeds 49 N. Choice C correctly identifies that 24 N < 49 N but misidentifies the friction force magnitude (49 N is the weight, not the friction force); the actual friction force at the moment of sliding would be the maximum static value of 24 N, and the block does slide. Choice D correctly states the friction force is 24 N (its maximum value) and correctly concludes the block slides because 24 N < 49 N.",
+      "explanation": "The normal force on the block from the wall equals the applied horizontal force: N = 40 N. The maximum static friction force is μₛN = 0.60 × 40 N = 24 N. The gravitational force on the block is mg = 5 × 9.8 = 49 N downward. Since the maximum static friction (24 N) is less than the weight (49 N), static friction cannot balance gravity and the block slides down. Choice A incorrectly computes the friction force as 30 N and wrongly concludes the block remains stationary. Choice B correctly calculates the maximum static friction as 24 N but incorrectly concludes it balances gravity - 24 N does not equal 49 N, so equilibrium is not achieved. Choice C incorrectly assumes static friction can freely adjust up to any value needed (49 N) to maintain equilibrium, ignoring the upper limit imposed by μₛN = 24 N. Choice D correctly states the friction force is 24 N (its maximum available value) and correctly concludes the block slides because 24 N < 49 N.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u2_008",
@@ -140,7 +138,7 @@
     {
       "id": "pt_phys1_p1_u2_009",
       "unit": 2,
-      "question": "A 10 kg box is pushed across a horizontal floor at a constant velocity by a horizontal applied force of 40 N. What is the coefficient of kinetic friction between the box and the floor?",
+      "question": "A 10 kg box is pushed across a horizontal floor at a constant velocity by a horizontal applied force of 40 N. Use g = 10 m/s². What is the coefficient of kinetic friction between the box and the floor?",
       "choices": [
         "A) 0.25",
         "B) 0.40",
@@ -150,40 +148,37 @@
       "answer": 1,
       "explanation": "Since the box moves at constant velocity, the net force is zero (Newton's First Law), meaning the applied force equals the kinetic friction force: f_k = 40 N. The normal force equals the weight: F_N = mg = 10 × 10 = 100 N. Therefore, μ_k = f_k / F_N = 40 / 100 = 0.40. Choice A (0.25) results from incorrectly using 160 N as the normal force or miscalculating friction. Choice C (0.50) is a common error from dividing 40 by 80 or misremembering the weight. Choice D (4.0) results from inverting the friction formula, dividing the normal force by the friction force rather than the other way around.",
       "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u2_010",
       "unit": 2,
-      "question": "A 10 kg box is pushed across a horizontal surface at a constant velocity by a horizontal applied force of 40 N. What is the coefficient of kinetic friction between the box and the surface?",
+      "question": "A 5 kg box is pulled across a horizontal surface by a horizontal applied force of 15 N. If the coefficient of kinetic friction between the box and the surface is 0.20, what is the magnitude of the net force acting on the box?",
       "choices": [
-        "A) 0.25",
-        "B) 0.40",
-        "C) 0.50",
-        "D) 4.0"
+        "A) 0 N",
+        "B) 5 N",
+        "C) 10 N",
+        "D) 15 N"
       ],
       "answer": 1,
-      "explanation": "Since the box moves at constant velocity, the net force is zero (Newton's First Law), meaning the applied force equals the kinetic friction force: f_k = 40 N. The normal force on a horizontal surface equals the weight: N = mg = (10 kg)(10 m/s²) = 100 N. The coefficient of kinetic friction is μ_k = f_k / N = 40 N / 100 N = 0.40. Choice A (0.25) results from incorrectly using 160 N as the normal force. Choice C (0.50) is a common error where students use only half the applied force or miscalculate the weight. Choice D (4.0) results from inverting the ratio, dividing N by f_k instead of f_k by N.",
+      "explanation": "The kinetic friction force is f_k = μ_k × N = μ_k × mg = (0.20)(5 kg)(10 m/s²) = 10 N. The net force is the difference between the applied force and the friction force: F_net = 15 N − 10 N = 5 N. Choice A (0 N) is incorrect because the applied force and friction force are not equal; the box is accelerating. Choice C (10 N) results from using only the friction force as the net force. Choice D (15 N) results from ignoring friction entirely.",
       "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u2_011",
       "unit": 2,
-      "question": "A 10 kg box is pushed across a horizontal surface at constant velocity by a horizontal applied force of 40 N. What is the coefficient of kinetic friction between the box and the surface?",
+      "question": "A 5 kg block is pulled up a frictionless 30° incline by a rope parallel to the surface. If the block accelerates up the incline at 2 m/s², what is the tension in the rope?",
       "choices": [
-        "A) 0.25",
-        "B) 0.40",
-        "C) 0.50",
-        "D) 4.0"
+        "A) 10 N",
+        "B) 25 N",
+        "C) 35 N",
+        "D) 50 N"
       ],
-      "answer": 1,
-      "explanation": "Since the box moves at constant velocity, the net force is zero (Newton's First Law), meaning the applied force equals the kinetic friction force: f_k = 40 N. The normal force on a horizontal surface equals the weight: N = mg = (10 kg)(10 m/s²) = 100 N. The coefficient of kinetic friction is μ_k = f_k / N = 40 N / 100 N = 0.40. Choice A (0.25) results from incorrectly using 160 N as the normal force or dividing incorrectly. Choice C (0.50) likely comes from using g = 8 m/s² or a computational error. Choice D (4.0) is a common error where students invert the ratio, dividing N by f_k instead of f_k by N.",
-      "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "answer": 2,
+      "explanation": "Applying Newton's Second Law along the incline (taking up the incline as positive): T - mg sin30° = ma. The gravitational component along the incline is mg sin30° = (5 kg)(10 m/s²)(0.5) = 25 N. The net force needed for acceleration is ma = (5 kg)(2 m/s²) = 10 N. Therefore, T = 25 N + 10 N = 35 N. Choice A (10 N) results from ignoring the gravitational component and only computing ma. Choice B (25 N) comes from correctly computing the gravitational component along the incline but neglecting the acceleration term. Choice D (50 N) results from using the full weight mg instead of the component along the incline.",
+      "difficulty": "medium",
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u2_012",
@@ -266,15 +261,14 @@
       "question": "A 0.5 kg ball is thrown vertically upward with an initial kinetic energy of 40 J. Air resistance exerts a constant force of 2 N opposing motion throughout the ball's flight. How high does the ball rise above its launch point before momentarily stopping? (Use g = 10 m/s²)",
       "choices": [
         "A) 8.0 m",
-        "B) 6.7 m",
+        "B) 5.7 m",
         "C) 5.0 m",
         "D) 3.3 m"
       ],
       "answer": 1,
-      "explanation": "Using the work-energy theorem from launch to highest point: initial KE is converted to gravitational PE and lost to air resistance. At the top, KE = 0. So: KE_i = ΔPE + W_friction → 40 J = mgh + f × h = (0.5 × 10 × h) + (2 × h) = 5h + 2h = 7h → h = 40/7 ≈ 5.71 m, which rounds to approximately 6.7 m (exact: 40/7 ≈ 5.71 m - note answer B is 40/6 = 6.67 m). Re-checking: mgh = 5h, f×h = 2h, total = 7h = 40 J → h = 40/7 ≈ 5.71 m. The closest answer is B) 6.7 m is incorrect upon recheck - correcting: h = 40/7 ≈ 5.71 m, so answer C (5.0 m) uses only gravity without air resistance: mgh = 40 → h = 8 m is A. Without air resistance h = 40/5 = 8 m (choice A). With air resistance h = 40/7 ≈ 5.71 m, nearest is B at one interpretation, but exact match is not listed perfectly. Choice B uses 6 as denominator (mg + f = 3+2 wrong mass?). Using mg = 5 N and f = 2 N: 7h = 40 → h ≈ 5.7 m. Choice B is the best available answer. Choice A (8.0 m) ignores air resistance entirely. Choice C (5.0 m) uses only gravity with double mass or incorrect setup. Choice D (3.3 m) overestimates energy lost to friction.",
+      "explanation": "Using the work-energy theorem from launch to highest point, the initial kinetic energy is converted to gravitational potential energy and lost to air resistance. At the top, KE = 0, so: KE_i = mgh + f_air × h → 40 = (mg + f_air)h = (0.5 × 10 + 2)h = (5 + 2)h = 7h → h = 40/7 ≈ 5.7 m. Choice A (8.0 m) ignores air resistance entirely (40 = 5h → h = 8 m). Choice C (5.0 m) and Choice D (3.3 m) result from incorrect force combinations.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u3_018",
@@ -339,18 +333,17 @@
     {
       "id": "pt_phys1_p1_u3_023",
       "unit": 3,
-      "question": "A 2 kg block starts from rest at the top of a frictionless ramp that is 5 m tall. At the bottom of the ramp, the block slides onto a rough horizontal surface and comes to a complete stop after traveling 4 m. Which of the following correctly describes the energy transformation that occurs on the rough horizontal surface, and what is the magnitude of the friction force acting on the block?",
+      "question": "A 2 kg block starts from rest at the top of a frictionless ramp that is 5 m tall. At the bottom of the ramp, the block slides onto a rough horizontal surface and comes to a complete stop after traveling 4 m. Use g = 10 m/s². Which of the following correctly describes the energy transformation that occurs on the rough horizontal surface, and what is the magnitude of the friction force acting on the block?",
       "choices": [
         "A) Kinetic energy is converted to thermal energy; friction force = 12.5 N",
-        "B) Potential energy is converted to thermal energy; friction force = 24.5 N",
-        "C) Kinetic energy is converted to thermal energy; friction force = 24.5 N",
+        "B) Potential energy is converted to thermal energy; friction force = 25 N",
+        "C) Kinetic energy is converted to thermal energy; friction force = 25 N",
         "D) Kinetic energy is converted to potential energy; friction force = 12.5 N"
       ],
       "answer": 2,
-      "explanation": "At the bottom of the ramp, all gravitational potential energy (mgh = 2×10×5 = 100 J) has been converted to kinetic energy. On the rough horizontal surface, this kinetic energy is converted to thermal energy (internal energy) via friction - not potential energy, since the surface is horizontal. Using the work-energy theorem: the friction force does negative work equal to the kinetic energy lost: W_friction = f×d → 100 J = f×4 m → f = 25 N. Using g = 9.8 m/s², mgh = 2×9.8×5 = 98 J, giving f = 98/4 = 24.5 N. Answer C is correct. Choice A uses the right energy transformation but an incorrect force value (possibly from using only half the energy or a math error). Choice B incorrectly states potential energy is converted on the horizontal surface - there is no change in height on a horizontal surface. Choice D confuses the energy transformation type and gets the force wrong.",
+      "explanation": "At the bottom of the ramp, all gravitational potential energy (mgh = 2×10×5 = 100 J) has been converted to kinetic energy. On the rough horizontal surface, this kinetic energy is converted to thermal energy (internal energy) via friction - not potential energy, since the surface is horizontal and there is no change in height. Using the work-energy theorem: the friction force does negative work equal to the kinetic energy lost: f×d = 100 J → f×4 m = 100 J → f = 25 N. Answer C is correct. Choice A uses the correct energy transformation description but an incorrect force value of 12.5 N, which would result from mistakenly using only half the initial potential energy (50 J) in the calculation. Choice B incorrectly states that potential energy is converted on the horizontal surface - there is no change in gravitational potential energy on a horizontal surface. Choice D both misidentifies the energy transformation and gives the wrong force value.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u4_024",
@@ -402,16 +395,15 @@
       "unit": 5,
       "question": "A 3 kg cart moving at 6 m/s to the right collides with a 5 kg cart at rest on a frictionless track. After the collision, the 3 kg cart moves at 1.5 m/s to the left. What is the speed of the 5 kg cart after the collision, and was kinetic energy conserved?",
       "choices": [
-        "A) 1.8 m/s; kinetic energy was conserved, so it is elastic",
-        "B) 2.7 m/s; kinetic energy was not conserved, so it is inelastic",
-        "C) 2.7 m/s; kinetic energy was conserved, so it is elastic",
-        "D) 1.8 m/s; kinetic energy was not conserved, so it is inelastic"
+        "A) 3.6 m/s; kinetic energy was conserved, so it is elastic",
+        "B) 4.5 m/s; kinetic energy was not conserved, so it is inelastic",
+        "C) 4.5 m/s; kinetic energy was conserved, so it is elastic",
+        "D) 3.6 m/s; kinetic energy was not conserved, so it is inelastic"
       ],
       "answer": 2,
-      "explanation": "Using conservation of momentum: p_initial = (3)(6) = 18 kg·m/s. After collision: (3)(−1.5) + (5)v₂ = 18 → −4.5 + 5v₂ = 18 → v₂ = 4.5 m/s. KE_i = ½(3)(6²) = 54 J; KE_f = ½(3)(1.5²) + ½(5)(4.5²) = 3.375 + 50.625 = 54 J. KE is conserved, so the collision is elastic. Choice B incorrectly states 2.7 m/s, which comes from forgetting the sign reversal of the 3 kg cart's velocity. Choice D uses an incorrect speed and incorrect classification. Choice A has the correct classification but wrong speed.",
+      "explanation": "Using conservation of momentum: p_initial = (3)(6) = 18 kg·m/s. After collision: (3)(−1.5) + (5)v₂ = 18 → −4.5 + 5v₂ = 18 → v₂ = 4.5 m/s. KE_i = ½(3)(6²) = 54 J; KE_f = ½(3)(1.5²) + ½(5)(4.5²) = 3.375 + 50.625 = 54 J. KE is conserved, so the collision is elastic. Choice B incorrectly states that kinetic energy was not conserved despite having the correct speed of 4.5 m/s. Choice D uses an incorrect speed of 3.6 m/s and incorrectly classifies the collision as inelastic. Choice A has the correct classification but uses the wrong speed of 3.6 m/s.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u5_028",
@@ -420,14 +412,13 @@
       "choices": [
         "A) The claim is correct; by Newton's second law, the lighter skater receives more force because F = ma and the system must gain momentum.",
         "B) The claim is incorrect; both skaters experience equal and opposite forces by Newton's third law, but the 90 kg skater has a smaller acceleration and moves at 2 m/s to the left.",
-        "C) The claim is incorrect; the 90 kg skater actually experiences the greater force because it has more inertia to overcome.",
+        "C) The claim is incorrect; the 90 kg skater actually experiences a greater force because a greater force is needed to move a heavier object.",
         "D) The claim is correct; the 90 kg skater moves slower, which means it received a smaller impulse and therefore a smaller force."
       ],
       "answer": 1,
-      "explanation": "By Newton's third law, the forces the skaters exert on each other are equal in magnitude and opposite in direction - neither skater experiences a larger force. By conservation of momentum (initial momentum = 0): 0 = (60)(3) + (90)v₂ → v₂ = −2 m/s, so the 90 kg skater moves at 2 m/s to the left. Although both forces are equal, the 90 kg skater accelerates less (a = F/m). Choice A incorrectly claims unequal forces. Choice C incorrectly inverts the Newton's third law relationship. Choice D confuses the result of greater mass (slower speed) with receiving less impulse - in fact, both receive equal magnitude impulses (Δp = 180 kg·m/s for each), just in opposite directions.",
+      "explanation": "By Newton's third law, the forces the skaters exert on each other are equal in magnitude and opposite in direction - neither skater experiences a larger force. By conservation of momentum (initial momentum = 0): 0 = (60)(3) + (90)v₂ → v₂ = −2 m/s, so the 90 kg skater moves at 2 m/s to the left. Although both forces are equal, the 90 kg skater accelerates less (a = F/m). Choice A incorrectly claims unequal forces. Choice C reflects a common misconception that heavier objects require greater forces from their interaction partner, which is not consistent with Newton's third law. Choice D confuses the result of greater mass (slower speed) with receiving less impulse - in fact, both skaters receive equal magnitude impulses of 180 kg·m/s (confirmed: 60 × 3 = 180 kg·m/s and 90 × 2 = 180 kg·m/s), just in opposite directions.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u5_029",
@@ -450,15 +441,14 @@
       "question": "Ball X (mass m) travels at speed v and makes a perfectly elastic head-on collision with Ball Y (mass 3m) at rest. After the collision, Ball X moves to the left at speed v/2, and Ball Y moves to the right. A student argues that since the collision is elastic, each ball must have the same kinetic energy after the collision. Which of the following best identifies the flaw in this reasoning AND gives the correct post-collision speed of Ball Y?",
       "choices": [
         "A) The student is correct; each ball has kinetic energy mv²/8, and Ball Y moves at v/√3.",
-        "B) The student is incorrect; elastic collisions conserve total kinetic energy, not distribute it equally. Ball Y moves at v/2.",
+        "B) The student is incorrect; elastic collisions conserve total kinetic energy, not distribute it equally. Ball Y moves at v/4 to the right.",
         "C) The student is incorrect; elastic collisions conserve total kinetic energy, not distribute it equally. Ball Y moves at v/2 to the right, but Ball X's final KE is greater than Ball Y's.",
         "D) The student is incorrect; elastic collisions conserve total kinetic energy, not distribute it equally. Ball Y moves at v/2 to the right, and total KE is conserved but unequally distributed between the balls."
       ],
       "answer": 3,
-      "explanation": "Conservation of momentum: mv = m(−v/2) + 3m·v_Y → mv + mv/2 = 3m·v_Y → v_Y = v/2. KE_initial = ½mv². KE_X_final = ½m(v/2)² = mv²/8. KE_Y_final = ½(3m)(v/2)² = 3mv²/8. Total KE_final = mv²/8 + 3mv²/8 = 4mv²/8 = mv²/2. But KE_initial = mv²/2, confirming kinetic energy is conserved. However, KE_X (= mv²/8) ≠ KE_Y (= 3mv²/8); they are unequally distributed. The student's flaw is assuming equal distribution. Choice B is partially correct about the flaw but doesn't address the distribution. Choice C incorrectly states Ball X has greater KE (Ball Y has 3 times Ball X's KE). Choice D correctly identifies the flaw (total KE conserved, not equally split) and gives the correct speed v/2. Choice A is numerically inconsistent and invents an incorrect formula.",
+      "explanation": "Conservation of momentum: mv = m(−v/2) + 3m·v_Y → mv + mv/2 = 3m·v_Y → v_Y = v/2. KE_initial = ½mv². KE_X_final = ½m(v/2)² = mv²/8. KE_Y_final = ½(3m)(v/2)² = 3mv²/8. Total KE_final = mv²/8 + 3mv²/8 = 4mv²/8 = mv²/2. But KE_initial = mv²/2, confirming kinetic energy is conserved. However, KE_X (= mv²/8) ≠ KE_Y (= 3mv²/8); they are unequally distributed. The student's flaw is assuming equal distribution. Choice B correctly identifies the flaw but gives an incorrect speed of v/4 for Ball Y (the correct speed is v/2). Choice C incorrectly states Ball X has greater KE (Ball Y has 3 times Ball X's KE). Choice D correctly identifies the flaw (total KE conserved, not equally split) and gives the correct speed v/2. Choice A is numerically inconsistent and invents an incorrect formula.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u5_031",
@@ -470,11 +460,10 @@
         "C) 2.0 m/s to the right",
         "D) 4.0 m/s to the right"
       ],
-      "answer": 1,
-      "explanation": "Using conservation of momentum: p_initial = (2)(4) + (6)(0) = 8 kg·m/s. After collision: p_final = (2)(−2) + (6)v = −4 + 6v. Setting equal: −4 + 6v = 8, so 6v = 12, v = 2/1 wait - let me recalculate: 6v = 8 + 4 = 12 no: 6v = 8 − (−4) = 8 + 4 = 12, giving v = 2 m/s. Actually re-examining: p_initial = 8 kg·m/s. p_final = (2 kg)(−2 m/s) + (6 kg)(v) = −4 + 6v = 8, so 6v = 12, v = 2 m/s. Wait that gives answer C. Let me redo carefully: initial momentum = 2×4 = 8 kg·m/s. Final: 2×(−2) + 6v = 8 → −4 + 6v = 8 → 6v = 12 → v = 2 m/s Hmm, the correct answer is actually C) 2.0 m/s. Correcting the answer index to 2. The correct answer is C: applying conservation of momentum, (2)(4) + (6)(0) = (2)(−2) + (6)v, yielding 8 = −4 + 6v, so v = 2.0 m/s to the right. Choice A (1.0 m/s) results from forgetting that the first cart reverses direction and treating its final momentum as +2 instead of −2. Choice B (1.33 m/s) is a common error from dividing the total initial momentum by the total mass as if it were a perfectly inelastic collision. Choice D (4.0 m/s) incorrectly assumes the 6 kg cart acquires the initial speed of the 2 kg cart.",
+      "answer": 2,
+      "explanation": "Conservation of momentum: (2)(4) + (6)(0) = (2)(−2) + (6)v → 8 = −4 + 6v → v = 2.0 m/s to the right. Choice A (1.0 m/s) results from forgetting that the first cart reverses direction and treating its final momentum as +2 instead of −2. Choice B (1.33 m/s) is a common error from dividing the total initial momentum by the total mass as if it were a perfectly inelastic collision. Choice D (4.0 m/s) incorrectly assumes the 6 kg cart acquires the initial speed of the 2 kg cart.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u6_032",
@@ -517,10 +506,9 @@
         "D) 392 N"
       ],
       "answer": 1,
-      "explanation": "Taking torques about the hinge eliminates the unknown hinge forces. The weight of the beam (mg = 196 N) acts at the center (2.0 m from the hinge). The torque due to gravity is (196 N)(2.0 m) = 392 N·m. The cable tension T acts at the end of the beam (4.0 m from hinge) at 30° above the beam, so its torque is T(4.0 m)(sin 30°) = T(4.0)(0.5) = 2T. Setting torques equal: 2T = 392, so T = 196 N. Choice A neglects the lever arm geometry. Choice C results from using cos 30° instead of sin 30°. Choice D neglects the factor of one-half from the center-of-mass position and doubles the result.",
+      "explanation": "Taking torques about the hinge eliminates the unknown hinge forces. The weight of the beam (mg = 196 N) acts at the center (2.0 m from the hinge). The torque due to gravity is (196 N)(2.0 m) = 392 N·m. The cable tension T acts at the end of the beam (4.0 m from hinge) at 30° above the beam, so its torque is T(4.0 m)(sin 30°) = T(4.0)(0.5) = 2T. Setting torques equal: 2T = 392, so T = 196 N. Choice A neglects the lever arm geometry. Choice C results from using cos 30° instead of sin 30°. Choice D results from using the full beam length (4.0 m) as the moment arm for gravity rather than half the length (2.0 m) for the center of mass, giving (196)(4.0) = T(4.0)(0.5), so T = 392 N.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u7_035",
@@ -560,13 +548,12 @@
         "A) v₂ = v₁/2",
         "B) v₂ = v₁",
         "C) v₂ = 2v₁",
-        "D) v₂ = 4v₁"
+        "D) v₂ = √2 · v₁"
       ],
       "answer": 2,
-      "explanation": "The tension in the string always points toward the center (the hole), so it exerts no torque about the center. Therefore angular momentum about the center is conserved: L = mvr = constant. So mv₁r₁ = mv₂r₂. With r₂ = r₁/2: v₁r₁ = v₂(r₁/2) → v₂ = 2v₁. Choice A (v₁/2) confuses the relationship - students might think speed decreases as radius decreases, as with a planet slowing at aphelion, but that is the opposite effect. Choice B (v₁) incorrectly applies conservation of linear momentum or energy. Choice D (4v₁) results from conserving kinetic energy (½mv² = constant) rather than angular momentum, giving v₂² = v₁²·(r₁/r₂)², so v₂ = 2v₁ is still the answer - actually D would arise from incorrectly using L = mr²ω and setting ω rather than v constant.",
+      "explanation": "The tension in the string always points toward the center (the hole), so it exerts no torque about the center. Therefore angular momentum about the center is conserved: L = mvr = constant. So mv₁r₁ = mv₂r₂. With r₂ = r₁/2: v₁r₁ = v₂(r₁/2) → v₂ = 2v₁. Choice A (v₁/2) reflects the mistaken intuition that speed decreases as radius decreases, reversing the correct relationship. Choice B (v₁) incorrectly treats linear momentum rather than angular momentum as the conserved quantity. Choice D (√2 · v₁) arises from incorrectly conserving kinetic energy: a student might write ½mv₁² · r₁ = ½mv₂² · r₂, yielding v₂² = v₁²(r₁/r₂) = 2v₁², and therefore v₂ = √2 · v₁. This error conflates an energy-like conservation condition with the correct angular momentum conservation law.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u7_038",
@@ -676,34 +663,32 @@
     {
       "id": "pt_phys1_p1_u8_045",
       "unit": 8,
-      "question": "Two small charged spheres are separated by a distance d and exert an electrostatic force F on each other. The distance between the spheres is then doubled, and the charge on one sphere is quadrupled while the charge on the other remains unchanged. What is the new electrostatic force between the spheres?",
+      "question": "Two small charged spheres exert an electrostatic force F on each other when separated by a distance d. Both charges are then tripled and the distance between the spheres is halved. What is the new electrostatic force between the spheres?",
       "choices": [
-        "A) F",
-        "B) 2F",
-        "C) 4F",
-        "D) F/4"
+        "A) 9F",
+        "B) 18F",
+        "C) 36F",
+        "D) 72F"
       ],
-      "answer": 0,
-      "explanation": "Using Coulomb's Law: F = kq₁q₂/r². If one charge is quadrupled (×4) and the distance is doubled (r → 2d, so r² → 4d²), the new force is k(4q₁)(q₂)/(2d)² = k(4q₁q₂)/(4d²) = kq₁q₂/d² = F. The factor of 4 from quadrupling the charge is exactly canceled by the factor of 4 in the denominator from doubling the distance. Choice B (2F) is a trap for students who forget to square the distance change. Choice C (4F) reflects only applying the charge change without adjusting for distance. Choice D (F/4) reflects only applying the distance change without accounting for the charge increase.",
+      "answer": 2,
+      "explanation": "Using Coulomb's Law: F = kq₁q₂/r². When both charges are tripled, the numerator becomes k(3q₁)(3q₂) = 9kq₁q₂, introducing a factor of 9. When the distance is halved (r → d/2), the denominator becomes (d/2)² = d²/4, which introduces a factor of 1/4 in the denominator - equivalent to multiplying the force by 4. Therefore, the new force is (9)(4) × kq₁q₂/d² = 36F. Choice A (9F) is a trap for students who account only for the charge change and forget to square the distance change. Choice B (18F) reflects an error in which the distance factor is halved rather than quartered. Choice D (72F) reflects an error in which the distance factor is doubled rather than quartered, perhaps from forgetting to square the factor of 2.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u8_046",
       "unit": 8,
-      "question": "In the circuit shown, a 12 V battery is connected to three resistors. R₁ = 6 Ω is in series with a parallel combination of R₂ = 6 Ω and R₃ = 6 Ω. What is the power dissipated by R₁?",
+      "question": "In the circuit shown, a 12 V battery is connected to three resistors. R₁ = 3 Ω is in series with a parallel combination of R₂ = 6 Ω and R₃ = 6 Ω. What is the power dissipated by R₁?",
       "choices": [
         "A) 6 W",
         "B) 12 W",
-        "C) 16 W",
-        "D) 24 W"
+        "C) 24 W",
+        "D) 48 W"
       ],
       "answer": 1,
-      "explanation": "First, find the equivalent resistance of the parallel combination: 1/R_parallel = 1/6 + 1/6 = 2/6, so R_parallel = 3 Ω. The total resistance is R_total = R₁ + R_parallel = 6 + 3 = 9 Ω. The current from the battery is I = V/R_total = 12/9 = 4/3 A. This same current flows through R₁ (series element), so the power dissipated by R₁ is P = I²R₁ = (4/3)²(6) = (16/9)(6) = 96/9 ≈ 10.67 W, which rounds to approximately Re-evaluating: I = 12/9 = 4/3 A, P = (16/9)(6) = 96/9 = 32/3 ≈ 10.7 W. The closest and exact answer using P = I²R with I = 4/3 A gives 32/3 W ≈ 10.7 W. However, reconsidering with cleaner numbers if R₁=4Ω: total = 7Ω. To keep clean: with the stated values, P = (4/3)²×6 = 32/3 W ≈ 10.7 W. Choice B (12 W) is the answer students get when they incorrectly use the full 12 V across R₁ (P=V²/R = 144/12 = 12 W), which is the most common misconception - applying the full battery voltage to a series resistor. Choice A (6 W) comes from halving the voltage incorrectly. Choice C (16 W) comes from miscalculating the parallel resistance as 6 Ω and getting I=1 A then P=I²×R=16. Choice D (24 W) comes from using full voltage and wrong resistance. The correct answer is B, as the most tested AP trap is students using full EMF voltage across a single series resistor.",
+      "explanation": "First, find the equivalent resistance of the parallel combination: 1/R_parallel = 1/6 + 1/6 = 2/6, so R_parallel = 3 Ω. The total resistance is R_total = R₁ + R_parallel = 3 + 3 = 6 Ω. The current from the battery is I = V/R_total = 12/6 = 2 A. This same current flows through R₁ since it is the series element. The power dissipated by R₁ is P = I²R₁ = (2)²(3) = 4 × 3 = 12 W. Choice A (6 W) results from incorrectly halving the current before applying it to R₁. Choice C (24 W) results from incorrectly applying the full battery voltage across R₁ using P = V²/R = 144/6 = 24 W. Choice D (48 W) results from using the full battery voltage and an incorrect resistance value.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u9_047",
@@ -746,10 +731,9 @@
         "D) 0 Hz, because the reflected wave travels back at the same frequency as the direct wave"
       ],
       "answer": 1,
-      "explanation": "The observer is behind the moving source. For the direct sound (source moving away from observer): f_direct = f₀(v/(v + v_s)) = 500(340/374) ≈ 454.5 Hz. For the reflected wave: first, the wall acts as a stationary observer receiving the source moving toward it: f_wall = 500(340/(340−34)) = 500(340/306) ≈ 555.6 Hz. The wall then re-emits (reflects) at 555.6 Hz. Now the 'source' of the reflected sound (the wall) is stationary, but the observer is also stationary, so the observer hears f_reflected ≈ 555.6 Hz. Beat frequency = 555.6 − 454.5 ≈ 101 Hz ≈ 100 Hz. Choice A (50 Hz) reflects a common error of applying only one Doppler shift rather than accounting for both the moving-toward and moving-away scenarios. Choice C results from arithmetic errors or partial application. Choice D is a misconception that reflection preserves frequency regardless of source motion.",
+      "explanation": "The observer is behind the moving source. For the direct sound (source moving away from observer): f_direct = f₀(v/(v + v_s)) = 500(340/374) ≈ 454.5 Hz. For the reflected wave: first, the wall acts as a stationary observer receiving the source moving toward it: f_wall = 500(340/(340−34)) = 500(340/306) ≈ 555.6 Hz. The wall then re-emits (reflects) at 555.6 Hz. Now the 'source' of the reflected sound (the wall) is stationary, and the observer is also stationary, so the observer hears f_reflected ≈ 555.6 Hz. Beat frequency = 555.6 − 454.5 ≈ 101 Hz ≈ 100 Hz. Choice A (50 Hz) results from a common shortcut error in which a student computes the beat frequency directly as f₀ × (v_s/v) = 500 × (34/340) = 50 Hz, incorrectly treating the beat frequency as simply proportional to the source speed without properly applying the Doppler formula to both the direct and reflected paths. Choice C results from arithmetic errors or partial application of the Doppler shift. Choice D is a misconception that reflection preserves frequency regardless of source motion.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_phys1_p1_u9_050",
@@ -774,13 +758,12 @@
         "A) A higher frequency, because both cars are moving toward each other, so both the moving-source and moving-observer Doppler effects increase the perceived frequency.",
         "B) The same frequency, because both cars travel at the same speed so the effects cancel out.",
         "C) A higher frequency, but only due to the motion of Car B (the source); the motion of Car A has no effect since it is the observer's reference frame.",
-        "D) A higher frequency equal to what would be heard if only Car B moved at 40 m/s toward a stationary observer."
+        "D) A higher frequency equal to what would be heard if Car B were stationary and Car A moved at 40 m/s toward it."
       ],
       "answer": 0,
-      "explanation": "Using the Doppler formula f' = f₀(v + v_observer)/(v − v_source), where both v_observer = 20 m/s (moving toward source) and v_source = 20 m/s (moving toward observer): f' = 400(340 + 20)/(340 − 20) = 400(360/320) = 400(1.125) = 450 Hz. This is higher than 400 Hz, confirming Choice A. Choice B is a common misconception that equal speeds cancel - they do not; both effects compound to raise the frequency. Choice C incorrectly states the observer's motion has no effect - in classical Doppler analysis, both source and observer motion matter. Choice D is a trap: if only Car B moved at 40 m/s, f' = 400(340)/(340−40) = 400(340/300) ≈ 453 Hz, which is close but not equal to 450 Hz, showing the two scenarios are not equivalent.",
+      "explanation": "Using the Doppler formula f' = f₀(v + v_observer)/(v − v_source), where both v_observer = 20 m/s (moving toward source) and v_source = 20 m/s (moving toward observer): f' = 400(340 + 20)/(340 − 20) = 400(360/320) = 400(1.125) = 450 Hz. This is higher than 400 Hz, confirming Choice A. Choice B is a common misconception that equal speeds cancel - they do not; both effects compound to raise the frequency. Choice C incorrectly states the observer's motion has no effect - in classical Doppler analysis, both source and observer motion matter. Choice D is a trap: if Car B were stationary and Car A moved at 40 m/s toward it, f' = 400(340 + 40)/(340) = 400(380/340) ≈ 447 Hz, which differs from the correct 450 Hz. This reveals that source motion and observer motion are not interchangeable in the classical Doppler formula - equal total speed produces different results depending on which object is moving.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     }
   ],
   "frqs": [

@@ -63,18 +63,17 @@
     {
       "id": "pt_enviro_p1_u1_004",
       "unit": 1,
-      "question": "A coastal kelp forest food web includes the following: phytoplankton → sea urchins → sea otters. Sea otters are removed from the ecosystem due to hunting. Using principles of trophic cascades and the 10% rule, which of the following outcomes is most likely, and what does it imply about energy availability at the phytoplankton level?",
+      "question": "A coastal kelp forest food web includes the following: kelp → sea urchins → sea otters. Sea otters are removed from the ecosystem due to hunting. Using principles of trophic cascades and the 10% rule, which of the following outcomes is most likely, and what does it imply about energy availability at the kelp level?",
       "choices": [
-        "A) Sea urchin populations decline, phytoplankton populations increase, and more energy is available at the producer level because fewer herbivores are consuming them.",
-        "B) Sea urchin populations increase, kelp (a primary producer analogous to phytoplankton here) is overgrazed and declines, and the total energy stored at the producer level decreases significantly.",
-        "C) Sea urchin populations increase, but because only 10% of energy transfers between trophic levels, the effect on phytoplankton energy stores is negligible and producers are unaffected.",
+        "A) Sea urchin populations decline, kelp populations increase, and more energy is available at the producer level because fewer herbivores are consuming them.",
+        "B) Sea urchin populations increase, kelp is overgrazed and declines, and the total energy stored at the producer level decreases significantly.",
+        "C) Sea urchin populations increase, but because only 10% of energy transfers between trophic levels, the effect on kelp energy stores is negligible and producers are unaffected.",
         "D) Sea otter removal increases competition among all trophic levels, causing a uniform 10% reduction in energy at every level of the food web."
       ],
       "answer": 1,
-      "explanation": "This question tests trophic cascades combined with the 10% rule's implications. When sea otters (apex predators) are removed, their prey - sea urchins - experience a population explosion (release from predation). Sea urchins are voracious grazers of kelp (the primary producer); unchecked urchin populations devastate kelp forests, dramatically reducing the total energy stored at the producer level. This is a classic, well-documented trophic cascade. Option A is incorrect - it reverses the relationship; sea urchins eat kelp/phytoplankton, so MORE urchins means LESS producer biomass. Option C represents a common misconception: students think the 10% rule insulates lower trophic levels from top-down effects, but the 10% rule describes energy transfer efficiency, not immunity to population-level trophic cascades. Option D is fabricated - the 10% rule does not cause uniform reductions across trophic levels in response to species removal.",
+      "explanation": "This question tests trophic cascades combined with the 10% rule's implications. When sea otters (apex predators) are removed, their prey - sea urchins - experience a population explosion (release from predation). Sea urchins are voracious grazers of kelp (the primary producer); unchecked urchin populations devastate kelp forests, dramatically reducing the total energy stored at the producer level. This is a classic, well-documented trophic cascade. Option A is incorrect - it reverses the relationship; sea urchins eat kelp, so MORE urchins means LESS producer biomass. Option C represents a common misconception: students think the 10% rule insulates lower trophic levels from top-down effects, but the 10% rule describes energy transfer efficiency, not immunity to population-level trophic cascades. Option D is fabricated - the 10% rule does not cause uniform reductions across trophic levels in response to species removal.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u1_005",
@@ -99,13 +98,12 @@
         "A) 150 kcal/m²/year",
         "B) 480 kcal/m²/year",
         "C) 1,350 kcal/m²/year",
-        "D) 480 kcal/m²/year, because secondary consumers receive 10% of the GPP allocated to herbivores"
+        "D) 48 kcal/m²/year, because secondary consumers receive 10% of the NPP and then 10% again at the next transfer (4,800 × 0.10 × 0.10 = 48)"
       ],
       "answer": 0,
-      "explanation": "Net primary productivity (NPP) = GPP − Respiration = 8,000 − 3,200 = 4,800 kcal/m²/year. The herbivores consume 1,500 kcal/m²/year from that plant biomass. Applying the 10% rule, secondary consumers receive approximately 10% of the energy assimilated at the herbivore trophic level: 1,500 × 0.10 = 150 kcal/m²/year. Choice B (480) is a common trap - students mistakenly apply 10% to the NPP (4,800 × 0.10 = 480) rather than to the energy actually consumed by the herbivores. Choice C (1,350) represents a misunderstanding where students subtract the 10% loss rather than multiplying by 10% (1,500 − 150 = 1,350). Choice D repeats the numeric value of B but with an incorrect rationale involving GPP, compounding two separate misconceptions. The correct calculation requires first identifying the energy at the herbivore level (1,500 kcal/m²/year) and then applying the 10% transfer efficiency to find energy available to secondary consumers.",
+      "explanation": "Net primary productivity (NPP) = GPP − Respiration = 8,000 − 3,200 = 4,800 kcal/m²/year. The herbivores consume 1,500 kcal/m²/year from that plant biomass. Applying the 10% rule, secondary consumers receive approximately 10% of the energy assimilated at the herbivore trophic level: 1,500 × 0.10 = 150 kcal/m²/year. Choice B (480) is a common trap - students mistakenly apply 10% to the NPP (4,800 × 0.10 = 480) rather than to the energy actually consumed by the herbivores. Choice C (1,350) represents a misunderstanding where students subtract the 10% loss rather than multiplying by 10% (1,500 − 150 = 1,350). Choice D (48) reflects the misconception of applying the 10% rule twice sequentially to NPP (4,800 × 0.10 × 0.10 = 48), incorrectly treating each trophic transfer as a separate 10% reduction of the original NPP rather than of the energy available at the preceding trophic level. The correct calculation requires first identifying the energy at the herbivore level (1,500 kcal/m²/year) and then applying the 10% transfer efficiency to find energy available to secondary consumers.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u2_007",
@@ -155,7 +153,7 @@
     {
       "id": "pt_enviro_p1_u2_010",
       "unit": 2,
-      "question": "A researcher studying a river ecosystem removes all sea otters from one section of the river. Over the following two years, sea urchin populations increase dramatically, kelp forests are decimated, and fish species richness declines by 60%. When sea otters are reintroduced, the system gradually recovers. Which of the following conclusions is best supported by these observations, and what concept does it most directly illustrate?",
+      "question": "A researcher studying a kelp forest ecosystem removes all sea otters from one section of the ecosystem. Over the following two years, sea urchin populations increase dramatically, kelp forests are decimated, and fish species richness declines by 60%. When sea otters are reintroduced, the system gradually recovers. Which of the following conclusions is best supported by these observations, and what concept does it most directly illustrate?",
       "choices": [
         "A) Sea otters are a dominant species because their large body size allows them to control the food web",
         "B) Sea otters are a keystone species because their removal caused disproportionately large changes in community structure relative to their biomass",
@@ -165,24 +163,22 @@
       "answer": 1,
       "explanation": "A keystone species is one whose impact on the ecosystem is disproportionately large relative to its abundance or biomass. The sea otter exerts top-down control on sea urchins; without otters, urchins overgraze kelp, collapsing the entire kelp forest ecosystem and reducing fish diversity. This is the classic definition of a keystone species. Choice A confuses 'keystone' with 'dominant' - dominant species are numerically or biomass-abundant, which sea otters are not. Choice C describes an indicator species, which signals environmental conditions but does not structurally control the food web in the same manner. Choice D is incorrect because the disturbance did not remove soil or substrate - fish diversity declined but the physical structure and soil remained, making any succession secondary, not primary.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u2_011",
       "unit": 2,
-      "question": "A field study measures the population size of a native wildflower species across a gradient of soil pH ranging from 4.5 to 8.5. The population peaks at pH 6.5, declines significantly at pH 5.5 and 7.5, and is absent below pH 5.0 and above pH 8.0. A proposed agricultural project would alter the soil pH in the region to 7.8. Based on this information, which of the following best predicts the outcome for the wildflower population and explains the underlying principle?",
+      "question": "A field study measures the population size of a native wildflower species across a gradient of soil pH ranging from 4.5 to 8.5. The population peaks at pH 6.5, declines significantly at pH 5.5 and 7.5, and is absent below pH 5.0 and above pH 8.0. A proposed agricultural project would alter the soil pH in the region to 8.2. Based on this information, which of the following best predicts the outcome for the wildflower population and explains the underlying principle?",
       "choices": [
-        "A) The wildflower population will likely survive because pH 7.8 falls within the range of tolerance, even though it is outside the optimal zone",
-        "B) The wildflower population will likely be eliminated because pH 7.8 exceeds the zone of tolerance, where physiological stress prevents reproduction and survival",
-        "C) The wildflower population will thrive at pH 7.8 because moving away from the optimum increases genetic diversity through increased selection pressure",
+        "A) The wildflower population will likely survive because pH 8.2 is only slightly above the upper boundary and organisms can acclimate to minor changes in abiotic conditions",
+        "B) The wildflower population will likely be eliminated because pH 8.2 exceeds the zone of tolerance, where physiological stress prevents reproduction and survival",
+        "C) The wildflower population will thrive at pH 8.2 because moving away from the optimum increases genetic diversity through increased selection pressure",
         "D) The wildflower population will decline temporarily but fully recover because organisms always adapt to gradual changes in abiotic factors"
       ],
       "answer": 1,
-      "explanation": "The data shows the wildflower is absent above pH 8.0 and significantly declining at pH 7.5, with the population absent below 5.0 and above 8.0 - defining the zone of tolerance. pH 7.8 falls between the optimal zone (around 6.5) and the upper lethal limit (8.0), placing the population in the zone of physiological stress near the upper boundary. The species shows severe decline even at 7.5, so 7.8 would likely reduce the population to near-zero or eliminate it. Choice A is a common trap - students may think 7.8 is within the tolerance range since it is below 8.0, but the declining trend from 7.5 onward indicates this is in the zone of physiological stress where survival and reproduction are severely compromised. Choice C is incorrect - moving away from the optimum does not increase genetic diversity or help populations; it causes stress and population decline. Choice D is a misconception; not all organisms can adapt, and evolutionary adaptation requires many generations and genetic variation, not a guaranteed outcome.",
+      "explanation": "The data shows the wildflower is absent above pH 8.0, defining the upper lethal limit of the zone of tolerance. pH 8.2 exceeds this upper lethal limit, placing the population entirely outside its zone of tolerance. The species shows severe decline even at 7.5 and is completely absent above 8.0, so 8.2 would eliminate the population. Choice A is incorrect because 8.2 is not within the tolerance range at all - the species is already absent above 8.0, and acclimation cannot extend survival beyond the lethal limit. Choice C is incorrect - moving outside the zone of tolerance does not increase genetic diversity or benefit populations; it causes mortality and population elimination. Choice D is a misconception; not all organisms can adapt, and evolutionary adaptation requires many generations and genetic variation, not a guaranteed outcome. The principle illustrated here is Shelford's Law of Tolerance: populations are absent when abiotic conditions exceed their maximum or minimum tolerance limits.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u2_012",
@@ -240,10 +236,9 @@
         "D) Country X has a higher life expectancy than Country Y because it has more people in younger age groups."
       ],
       "answer": 1,
-      "explanation": "A broad-based age structure pyramid (Country X) indicates a large proportion of young individuals, high birth rates, high TFR, and rapid population growth - characteristic of Stage 2 of the demographic transition. Country Y's uniform distribution suggests low birth rates and low death rates with a stable population, characteristic of Stage 3 or 4. Choice A reverses the relationship between pyramid shape and demographic transition stage. Choice C is incorrect because population momentum is greater in Country X, which has a larger proportion of pre-reproductive and reproductive-age individuals who will drive future births. Choice D confuses age distribution with life expectancy - high numbers of young individuals often reflect high birth rates and high early mortality, not longer lifespans.",
+      "explanation": "A broad-based age structure pyramid (Country X) indicates a large proportion of young individuals, high birth rates, high TFR, and rapid population growth - characteristic of Stage 2 of the demographic transition. Country Y's uniform distribution suggests low birth rates and low death rates with a stable population, characteristic of Stage 3 or 4. Choice A reverses the relationship between pyramid shape and demographic transition stage. Choice C is incorrect because population momentum is greater in Country X, which has a larger proportion of pre-reproductive and reproductive-age individuals who will drive future births. Choice D is incorrect because a broad pyramid base is primarily driven by high birth rates and a high TFR, meaning many children are being born. While high early mortality can further compress the pyramid by reducing the number of individuals who survive to older age groups, it is not the primary cause of the broad base. In fact, high numbers of young individuals in such a pyramid often reflect high fertility rather than long lifespans, and Country X likely has lower life expectancy than Country Y, not higher.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u3_016",
@@ -263,18 +258,17 @@
     {
       "id": "pt_enviro_p1_u3_017",
       "unit": 3,
-      "question": "A conservation ecologist compares survivorship data for three species: a Pacific salmon (spawns once and dies), a songbird (high juvenile mortality, stable adult survival), and an elephant (low mortality throughout life, most deaths occur in old age). Which of the following correctly matches each species to its survivorship curve type AND explains the ecological implication?",
+      "question": "A conservation ecologist compares survivorship data for three species: a Pacific salmon (spawns once and dies), an American robin (high juvenile mortality, stable adult survival), and an elephant (low mortality throughout life, most deaths occur in old age). Which of the following correctly matches each species to its survivorship curve type AND explains the ecological implication?",
       "choices": [
-        "A) Salmon - Type II; songbird - Type I; elephant - Type III, because each species has a constant mortality rate independent of age.",
-        "B) Salmon - Type III; songbird - Type II; elephant - Type I, because salmon produce many offspring with low parental investment, songbirds have relatively constant age-specific mortality, and elephants invest heavily in few offspring that survive to old age.",
-        "C) Salmon - Type I; songbird - Type III; elephant - Type II, because salmon live long lives before dying, songbirds die young, and elephants have constant mortality.",
-        "D) Salmon - Type II; songbird - Type III; elephant - Type I, because songbirds have high early mortality before reaching a stable adult phase, while elephants' survival is weighted toward later life."
+        "A) Salmon - Type II; robin - Type I; elephant - Type III, because each species has a constant mortality rate independent of age.",
+        "B) Salmon - Type III; robin - Type II; elephant - Type I, because salmon produce many offspring with low parental investment, robins have relatively constant age-specific mortality, and elephants invest heavily in few offspring that survive to old age.",
+        "C) Salmon - Type I; robin - Type III; elephant - Type II, because salmon live long lives before dying, robins die young, and elephants have constant mortality.",
+        "D) Salmon - Type III; robin - Type I; elephant - Type II, because robins have low mortality throughout life with deaths concentrated in old age, while elephants experience a constant mortality rate regardless of age."
       ],
       "answer": 1,
-      "explanation": "Type III survivorship (salmon) involves high early mortality with few survivors reaching old age - salmon produce thousands of eggs with minimal parental care. Type II survivorship (songbird) is characterized by a relatively constant mortality rate across all age classes, which fits songbirds that face consistent predation and environmental risk throughout their lives. Type I survivorship (elephant) involves low mortality throughout life with most deaths occurring in old age, typical of large K-selected mammals with high parental investment. Choice A incorrectly assigns Type II (constant mortality) to salmon and misidentifies all three. Choice C incorrectly assigns Type I to salmon, confusing semelparous life history with longevity. Choice D misidentifies songbirds as Type III, ignoring that songbird adults have relatively stable (not sharply declining) survivorship compared to juveniles - the overall pattern is more consistent with Type II.",
+      "explanation": "Type III survivorship (salmon) involves high early mortality with few survivors reaching old age - salmon produce thousands of eggs with minimal parental care. Type II survivorship (robin) is characterized by a relatively constant mortality rate across all age classes; while robins do experience higher juvenile mortality, their overall survivorship pattern is most consistent with Type II compared to the other options. Type I survivorship (elephant) involves low mortality throughout life with most deaths occurring in old age, typical of large K-selected mammals with high parental investment. Choice A incorrectly assigns Type II to salmon and misidentifies all three. Choice C incorrectly assigns Type I to salmon, confusing semelparous life history with longevity. Choice D is incorrect because it reverses elephants and robins - elephants are classic Type I (low mortality until old age), not Type II (constant mortality), and robins do not exhibit the low, stable mortality of a Type I species.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u3_018",
@@ -296,16 +290,15 @@
       "unit": 3,
       "question": "A wildlife biologist is studying two isolated island populations of seabirds. Population A is a small colony of albatrosses with low reproductive rates, delayed sexual maturity (first breeding at age 8-10), and very low adult mortality. Population B is a large colony of terns that breed annually beginning at age 2 and experience high chick mortality but relatively moderate adult survival. A severe storm event kills 40% of the adult individuals in both populations. Which of the following best predicts the long-term recovery trajectory of these populations, and what ecological principle best explains the difference?",
       "choices": [
-        "A) Population B will recover more rapidly than Population A because terns have a higher intrinsic rate of natural increase (r), and the loss of adults in a Type III survivorship species has less demographic impact than the same loss in a Type I survivorship species.",
+        "A) Population B will recover more rapidly than Population A because terns have a higher intrinsic rate of natural increase (r), and the loss of adults in a Type I survivorship species [albatrosses] has greater demographic impact than the same loss in a species with a higher r value [terns].",
         "B) Population A will recover more rapidly than Population B because older, experienced breeders produce higher-quality offspring that are more likely to survive, compensating for the adult mortality.",
         "C) Both populations will recover at the same rate because a 40% reduction in adults creates the same proportional reduction in reproductive output regardless of life history strategy.",
         "D) Population B will recover more rapidly than Population A because terns experience density-dependent population regulation, while albatrosses, as K-selected species, grow exponentially once below carrying capacity."
       ],
       "answer": 0,
-      "explanation": "This question synthesizes survivorship curves, life history strategy (r/K selection), and population recovery. Albatrosses are classic K-selected, Type I survivorship species - long-lived, slow to mature, low reproductive rate - meaning adult survival is critical to population persistence, and the loss of 40% of breeding adults is catastrophic and slow to recover from. Terns, with earlier maturity, higher annual reproductive output, and Type III-leaning early life mortality, have a much higher intrinsic rate of increase (r) and can rebound quickly even after significant adult losses. Choice B is incorrect - while experienced breeders may produce better offspring, albatross life history still cannot compensate for 40% adult loss quickly enough given delayed maturity. Choice C is a common misconception that proportional loss equals proportional impact - life history traits fundamentally alter recovery dynamics. Choice D contains a real AP trap: while density-dependent regulation is real for both species, albatrosses do NOT grow exponentially when below carrying capacity - their low r value means growth is always slow regardless of density. Calling albatrosses purely K-selected and implying exponential rebound misapplies the concept.",
+      "explanation": "This question synthesizes survivorship curves, life history strategy (r/K selection), and population recovery. Albatrosses are classic K-selected, Type I survivorship species - long-lived, slow to mature, low reproductive rate - meaning adult survival is critical to population persistence, and the loss of adults in a Type I survivorship species [albatrosses] has greater demographic impact than the same loss in a species with a higher r value [terns]. Terns, with earlier maturity, higher annual reproductive output, and high early life mortality, have a much higher intrinsic rate of increase (r) and can rebound quickly even after significant adult losses. Choice B is incorrect - while experienced breeders may produce better offspring, albatross life history still cannot compensate for 40% adult loss quickly enough given delayed maturity. Choice C is a common misconception that proportional loss equals proportional impact - life history traits fundamentally alter recovery dynamics. Choice D contains a real AP trap: while density-dependent regulation is real for both species, albatrosses do NOT grow exponentially when below carrying capacity - their low r value means growth is always slow regardless of density. Calling albatrosses purely K-selected and implying exponential rebound misapplies the concept.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u3_021",
@@ -342,16 +335,15 @@
       "unit": 4,
       "question": "During an El Niño event, which of the following combinations of regional effects would most likely be observed simultaneously?",
       "choices": [
-        "A) Drier-than-normal conditions in the southeastern United States and wetter-than-normal conditions in Peru and Ecuador",
+        "A) Drier-than-normal conditions in the Amazon basin and wetter-than-normal conditions in Australia and Indonesia",
         "B) Wetter-than-normal conditions in Australia and Indonesia and cooler-than-normal sea surface temperatures along the South American coast",
         "C) Weakened trade winds in the Pacific, warmer-than-normal sea surface temperatures off South America, and increased rainfall in Peru",
         "D) Stronger-than-normal trade winds, upwelling intensification off Peru, and drought conditions along the western coast of South America"
       ],
       "answer": 2,
-      "explanation": "El Niño (Topic 4.12) is characterized by a weakening (or reversal) of the easterly trade winds in the tropical Pacific, which allows warm water that normally piles up in the western Pacific to slosh eastward toward South America. This suppresses the cold upwelling off Peru and Ecuador, raises sea surface temperatures there, and brings heavy rainfall to normally arid coastal South America. Choice A has the U.S. effect backward; El Niño typically brings wetter conditions to the southern U.S., not drier. Choice B describes La Niña conditions for Australia/Indonesia (wetter) and also contradicts the warm SST signature of El Niño off South America. Choice D describes La Niña: stronger trade winds, enhanced upwelling, and drought in western South America.",
+      "explanation": "El Niño (Topic 4.12) is characterized by a weakening (or reversal) of the easterly trade winds in the tropical Pacific, which allows warm water that normally piles up in the western Pacific to slosh eastward toward South America. This suppresses the cold upwelling off Peru and Ecuador, raises sea surface temperatures there, and brings heavy rainfall to normally arid coastal South America. Choice A describes La Niña conditions: the Amazon typically receives above-normal rainfall during La Niña, while Australia and Indonesia also experience wetter-than-normal conditions - making this a strong distractor that reverses the correct El Niño pattern. Choice B describes La Niña conditions for Australia/Indonesia (wetter) and also contradicts the warm SST signature of El Niño off South America. Choice D describes La Niña: stronger trade winds, enhanced upwelling, and drought in western South America.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u4_024",
@@ -376,13 +368,12 @@
         "A) The Coriolis effect causes deflection to the right in the Northern Hemisphere because Earth's surface rotates faster at higher latitudes, pushing moving objects eastward.",
         "B) The Coriolis effect causes deflection to the right in the Northern Hemisphere due to Earth's rotation, creating clockwise circulation in Northern Hemisphere ocean gyres.",
         "C) Friction from Earth's surface deflects moving air and water to the right in the Northern Hemisphere, causing counterclockwise circulation in Northern Hemisphere ocean gyres.",
-        "D) The Coriolis effect deflects objects to the left in the Northern Hemisphere, which is why Northern Hemisphere hurricanes rotate counterclockwise around their low-pressure centers."
+        "D) The Coriolis effect deflects objects to the left in the Northern Hemisphere, which is why Northern Hemisphere hurricanes rotate clockwise around their low-pressure centers."
       ],
       "answer": 1,
-      "explanation": "The Coriolis effect (Topic 4.11) deflects freely moving objects to the RIGHT in the Northern Hemisphere (and to the left in the Southern Hemisphere) as a result of Earth's rotation. This rightward deflection causes large-scale Northern Hemisphere ocean gyres to circulate CLOCKWISE. Choice A has the mechanism wrong: Earth's surface rotates faster near the equator, not at higher latitudes, and the explanation given is inaccurate. Choice C incorrectly names friction as the cause and gets the gyre rotation direction wrong-Northern Hemisphere gyres are clockwise, not counterclockwise. Choice D correctly states that hurricanes rotate counterclockwise (they spiral inward toward low pressure, deflecting right means the rotation around the center appears counterclockwise), but it incorrectly claims the Coriolis effect deflects objects to the LEFT in the Northern Hemisphere, which is the opposite of reality.",
+      "explanation": "The Coriolis effect (Topic 4.11) deflects freely moving objects to the RIGHT in the Northern Hemisphere (and to the left in the Southern Hemisphere) as a result of Earth's rotation. This rightward deflection causes large-scale Northern Hemisphere ocean gyres to circulate CLOCKWISE. Choice A has the mechanism wrong: Earth's surface rotates faster near the equator, not at higher latitudes, and the explanation given is inaccurate. Choice C incorrectly names friction as the cause and gets the gyre rotation direction wrong - Northern Hemisphere gyres are clockwise, not counterclockwise. Choice D is wrong on both counts: the Coriolis effect deflects objects to the RIGHT in the Northern Hemisphere, not to the left, and Northern Hemisphere hurricanes rotate counterclockwise (not clockwise) as air spirals inward toward low pressure with rightward deflection.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u4_026",
@@ -447,18 +438,17 @@
     {
       "id": "pt_enviro_p1_u4_030",
       "unit": 4,
-      "question": "The graph below (described in text) shows average monthly streamflow in a river watershed over one year. Streamflow peaks in April-May and drops to its lowest in August-September. The watershed is located in a temperate region with cold winters and warm summers. Which combination of factors MOST likely explains this pattern?",
+      "question": "Average monthly streamflow data for a river watershed in a temperate region with cold winters and warm summers shows the following pattern: streamflow is low in January-February, rises sharply through March-April, peaks in April-May, then declines steadily to its lowest values in August-September before rising again in the fall. Which combination of factors MOST likely explains this seasonal streamflow pattern?",
       "choices": [
-        "A) Peak summer evapotranspiration drives high streamflow in August, while frozen ground in winter prevents infiltration and reduces spring runoff",
+        "A) Peak summer evapotranspiration drives high streamflow in August, while snow accumulation stores winter precipitation and delays its contribution to streamflow until summer melting",
         "B) Snowmelt in spring adds large volumes of water to the watershed simultaneously with spring rains, while high summer evapotranspiration and plant uptake reduce runoff to a minimum",
         "C) Summer convective storms increase precipitation in August, but high infiltration rates in dry soils absorb all runoff before it reaches the stream",
         "D) The watershed's impervious surfaces cause immediate runoff during winter precipitation events, peaking streamflow in January, and the April peak reflects delayed subsurface flow"
       ],
       "answer": 1,
-      "explanation": "In temperate watersheds with cold winters, the April-May streamflow peak is classically driven by the combination of snowmelt releasing large stored water volumes and concurrent spring rainfall - both occurring when vegetation is not yet fully leafed out (reducing interception and evapotranspiration). By August-September, high temperatures maximize evapotranspiration, plants are at peak water uptake, soils may be drier, and there is no snowmelt contribution, collectively minimizing runoff to the stream. Option A is backwards - evapotranspiration is lowest in winter and highest in summer, and frozen ground actually REDUCES infiltration, which would increase winter runoff, not decrease it. Option C is a plausible distractor but incorrectly implies summer peaks in convective precipitation outpace the stated low streamflow. Option D incorrectly attributes winter peaking to impervious surfaces and is inconsistent with the described April peak.",
+      "explanation": "In temperate watersheds with cold winters, the April-May streamflow peak is classically driven by the combination of snowmelt releasing large stored water volumes and concurrent spring rainfall - both occurring when vegetation is not yet fully leafed out (reducing interception and evapotranspiration). By August-September, high temperatures maximize evapotranspiration, plants are at peak water uptake, soils may be drier, and there is no snowmelt contribution, collectively minimizing runoff to the stream. Option A is a plausible distractor but is incorrect because snowmelt peaks in spring, not summer, so stored winter snow would contribute to the April-May peak rather than an August peak; evapotranspiration is also highest in summer, which suppresses rather than drives high streamflow. Option C is a plausible distractor but incorrectly implies summer convective precipitation outpaces the stated low streamflow. Option D incorrectly attributes winter peaking to impervious surfaces and is inconsistent with the described April peak.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u4_031",
@@ -478,18 +468,17 @@
     {
       "id": "pt_enviro_p1_u4_033",
       "unit": 4,
-      "question": "A mountain range runs north-south along a coastline in the Northern Hemisphere. Prevailing westerly winds carry moisture-laden air from the ocean toward the mountains. A meteorologist compares precipitation and vegetation data from both sides of the mountain range and finds that the western slope receives over 100 inches of rain annually and supports a temperate rainforest, while the eastern slope receives fewer than 12 inches annually and supports scrubland. Which of the following best explains the stark difference in precipitation between the two sides, and what atmospheric process is primarily responsible for the dry conditions on the eastern slope?",
+      "question": "A mountain range runs north-south along a coastline in the Northern Hemisphere. A meteorologist measures air temperature and humidity at the base of the western slope, at the summit, and at the base of the eastern slope. The air mass begins at 20°C and 100% relative humidity at the western base (elevation 0 m) and reaches the summit (elevation 3,000 m) before descending to the eastern base (elevation 0 m). Assuming a dry adiabatic lapse rate of 10°C/1,000 m and a saturated adiabatic lapse rate of 6°C/1,000 m, and that condensation begins immediately as the air rises, what is the expected temperature of the air at the eastern base, and what does this indicate about conditions there?",
       "choices": [
-        "A) The Coriolis effect deflects moisture-laden air away from the eastern slope, preventing precipitation from reaching it, resulting in arid conditions due to wind deflection rather than topographic influence.",
-        "B) As air rises over the western slope it cools and condenses releasing precipitation, then descends on the eastern slope where adiabatic compression warms and dries the air, dramatically reducing its relative humidity and precipitation potential.",
-        "C) The eastern slope is in a higher latitude zone that receives less direct solar radiation, reducing evaporation and convective lifting needed to generate precipitation on that side of the range.",
-        "D) Ocean currents deliver warm moist air exclusively to the western slope, and since the eastern slope is farther from the ocean, moisture is simply lost through distance before reaching it regardless of topography."
+        "A) The air arrives at the eastern base at 20°C, the same temperature as at the western base, because energy is conserved as the air descends, meaning precipitation differences between the two slopes must be caused by differences in prevailing wind direction rather than topographic processes.",
+        "B) The air arrives at the eastern base at 32°C, warmer and drier than at the western base, because latent heat released during condensation on the windward side is retained in the air mass, which then warms at the dry adiabatic lapse rate during its full 3,000 m descent on the leeward side.",
+        "C) The air arrives at the eastern base at 8°C, much cooler than at the western base, because the saturated adiabatic lapse rate applies during both ascent and descent, and precipitation removes energy from the system permanently.",
+        "D) The air arrives at the eastern base at 32°C, but this warming is caused by cold ocean currents on the eastern side stabilizing the lower atmosphere, preventing convective uplift and trapping heat near the surface rather than by any adiabatic process."
       ],
       "answer": 1,
-      "explanation": "The correct answer is B. This describes the rain shadow effect. As moist air is forced up the windward (western) slope, it undergoes orographic lifting, cools at the dry adiabatic lapse rate, and then at the dew point it cools at the slower saturated adiabatic lapse rate while releasing latent heat through condensation and precipitation. When this now-dry air descends on the leeward (eastern) side, it undergoes adiabatic compression and warms at the dry adiabatic lapse rate, becoming significantly warmer and drier than when it began its ascent. This creates the characteristically arid rain shadow. Answer A is incorrect because the Coriolis effect influences large-scale wind patterns and storm deflection at a planetary scale, not the localized precipitation differences across a single mountain range. Answer C is incorrect because both slopes are at essentially the same latitude, so differential solar radiation is not the cause of the precipitation disparity. Answer D is a common misconception - while proximity to the ocean contributes to moisture availability, the rain shadow effect is specifically a topographic phenomenon caused by orographic lifting and adiabatic processes, not simply distance from the coast.",
-      "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "explanation": "The correct answer is B. On the windward (western) side, the air rises 3,000 m and cools at the saturated adiabatic lapse rate of 6°C/1,000 m, losing 18°C total, arriving at the summit at 2°C. Precipitation falls, removing water vapor and releasing latent heat into the air mass. On the leeward (eastern) side, the now-dry air descends 3,000 m and warms at the dry adiabatic lapse rate of 10°C/1,000 m, gaining 30°C, arriving at the eastern base at 32°C. The net temperature gain of 12°C (32°C − 20°C) results from the latent heat released during condensation on the windward slope. This föhn effect explains why leeward slopes are not only drier but significantly warmer than windward slopes at equivalent elevations, intensifying arid rain shadow conditions. Answer A is incorrect because energy is not simply conserved at the same temperature - the asymmetry in lapse rates due to latent heat release produces a net warming. Answer C is incorrect because once precipitation has removed moisture, the descending air is unsaturated and warms at the faster dry adiabatic lapse rate, not the saturated rate. Answer D incorrectly attributes the warming to cold ocean currents and atmospheric stability rather than to the adiabatic compression that is the actual mechanism.",
+      "difficulty": "hard",
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u5_034",
@@ -559,30 +548,27 @@
         "A) IPM eliminates the use of all synthetic chemicals and relies exclusively on biological controls such as predatory insects; its primary advantage is that it eliminates pesticide resistance entirely.",
         "B) IPM combines monitoring, economic thresholds, biological controls, cultural practices, and targeted pesticide use only when necessary; its primary advantage is reducing total pesticide load, thereby decreasing risks of biomagnification and harm to non-target species.",
         "C) IPM relies on planting genetically modified, pest-resistant crop varieties as the sole control strategy; its primary advantage is eliminating the need for any form of pest monitoring.",
-        "D) IPM involves applying pesticides on a fixed seasonal schedule to prevent pest populations from reaching damaging levels before they can be detected; its primary advantage is consistent crop protection.",
-        "E) IPM is identical to organic farming and prohibits synthetic fertilizers in addition to pesticides; its primary advantage is improving soil health through composting alone."
+        "D) IPM involves applying pesticides on a fixed seasonal schedule to prevent pest populations from reaching damaging levels before they can be detected; its primary advantage is consistent crop protection."
       ],
       "answer": 1,
-      "explanation": "IPM (Topic 5.7) is a multi-tactic, ecologically based strategy that uses monitoring and economic thresholds to determine if and when intervention is needed, prioritizing non-chemical methods (biological controls, crop rotation, resistant varieties) and reserving pesticides as a last resort. The primary environmental benefit is reducing overall pesticide use, which lowers risks of biomagnification through food chains (Topic 5.6), harm to pollinators and other non-target organisms, and development of pesticide resistance. Choice A is incorrect because IPM does not prohibit all synthetic chemicals - it uses them judiciously - and resistance is reduced but not eliminated. Choice C describes only one component (resistant varieties) and misrepresents IPM as a single-tactic approach. Choice D describes calendar-based spraying, which is the conventional approach IPM is meant to replace. Note: This question intentionally contains 5 options formatted as A-E to test careful reading; standard AP questions have 4 options, but the answer key references the correct conceptual choice at index 1 (B).",
+      "explanation": "IPM (Topic 5.7) is a multi-tactic, ecologically based strategy that uses monitoring and economic thresholds to determine if and when intervention is needed, prioritizing non-chemical methods (biological controls, crop rotation, resistant varieties) and reserving pesticides as a last resort. The primary environmental benefit is reducing overall pesticide use, which lowers risks of biomagnification through food chains (Topic 5.6), harm to pollinators and other non-target organisms, and development of pesticide resistance. Choice A is incorrect because IPM does not prohibit all synthetic chemicals - it uses them judiciously - and resistance is reduced but not eliminated. Choice C describes only one component (resistant varieties) and misrepresents IPM as a single-tactic approach. Choice D describes calendar-based spraying, which is the conventional approach IPM is meant to replace.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u5_039",
       "unit": 5,
-      "question": "A coastal fishing community relies on a shared bay that has historically supported abundant fish populations. Over the past decade, each fishing family has independently increased the size of its fleet to maximize individual profit. Fish populations have now collapsed, harming all families. Which of the following best explains the underlying cause of this outcome?",
+      "question": "A farming region overlies a shared underground aquifer that has historically provided sufficient water for all households and farms. Over the past two decades, each farm has independently drilled deeper wells and increased pumping to maximize crop yields. The water table has now dropped dramatically, causing wells to run dry and harming the entire community. A regional planning board is evaluating three policy interventions to address this problem: (1) a uniform pumping quota allocating each farm an equal maximum withdrawal, (2) a tradeable permit system allowing farms to buy and sell pumping rights, and (3) a community-based management council of local farmers empowered to set and enforce their own withdrawal rules. Which of the following best evaluates these interventions in terms of both effectiveness at preventing overexploitation and economic efficiency?",
       "choices": [
-        "A) The bay's fish population was too small to sustain any level of commercial fishing.",
-        "B) Individual rational self-interest in an unregulated shared resource led to collective overexploitation.",
-        "C) Government subsidies encouraged overfishing by artificially lowering the cost of fishing equipment.",
-        "D) The introduction of non-native species outcompeted the native fish, reducing their population."
+        "A) The uniform pumping quota is most effective because equal allocation ensures fairness and eliminates incentives to over-pump, while also maximizing overall economic output.",
+        "B) The tradeable permit system is most effective because it caps total withdrawal at a sustainable level while allowing permits to flow to their highest-value uses, achieving both ecological sustainability and economic efficiency.",
+        "C) The community-based management council is least effective because local farmers lack the technical expertise to set scientifically accurate withdrawal limits, making external regulation necessary.",
+        "D) All three interventions are equally effective because any form of regulation, regardless of structure, eliminates the tragedy of the commons by removing individual incentives to over-exploit the shared resource."
       ],
       "answer": 1,
-      "explanation": "This is a classic example of the Tragedy of the Commons: individually rational decisions (expanding fleets to maximize personal gain) lead to collectively irrational outcomes (resource collapse) when a shared, unregulated resource is involved. Choice A is wrong because the question states the bay historically supported abundant populations-the issue is exploitation, not initial scarcity. Choice C introduces government subsidies, which are not mentioned and represent a different mechanism. Choice D introduces an ecological cause (invasive species) that is not supported by the scenario, which clearly attributes the decline to increased fishing effort.",
-      "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "explanation": "This question applies the Tragedy of the Commons to groundwater depletion and requires second-order reasoning about policy solutions. Choice B is correct: a tradeable permit system sets a hard cap on total aquifer withdrawal (ensuring ecological sustainability) while allowing farms with higher-value uses to purchase permits from lower-value users, achieving economic efficiency through market allocation. Choice A is incorrect because a uniform quota, while limiting total withdrawal, does not allocate water to its most productive uses and may be economically inefficient. Choice C is incorrect because research on common-pool resource governance (e.g., Ostrom's work) shows that community-based management can be highly effective when communities have strong social ties, clear rules, and enforcement mechanisms-local knowledge can complement scientific expertise. Choice D is incorrect because the structure of regulation matters significantly: poorly designed interventions (e.g., quotas set too high, unenforceable rules) may fail to prevent overexploitation, and different mechanisms carry very different efficiency outcomes.",
+      "difficulty": "hard",
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u5_040",
@@ -722,18 +708,17 @@
     {
       "id": "pt_enviro_p1_u6_049",
       "unit": 6,
-      "question": "A coal-fired power plant converts chemical energy in coal to electricity. If the plant burns 1,000 units of coal energy and produces 350 units of electrical energy, with 500 units lost as waste heat and 150 units lost through transmission, what is the thermal efficiency of the plant itself (not including transmission losses)?",
+      "question": "A coal-fired power plant converts chemical energy in coal to electricity. If the plant burns 1,000 units of coal energy, loses 500 units as waste heat at the plant, and generates 500 units of electrical energy at its generator terminals, of which 150 units are lost during transmission, delivering 350 units to consumers, what is the thermal efficiency of the plant itself (not including transmission losses)?",
       "choices": [
         "A) 35%",
         "B) 85%",
         "C) 50%",
         "D) 65%"
       ],
-      "answer": 0,
-      "explanation": "Thermal efficiency is calculated as useful energy output divided by total energy input, multiplied by 100. The plant produces 350 units of electrical energy from 1,000 units of coal energy, so efficiency = 350/1,000 × 100 = 35%. The 150 units lost in transmission occur after generation and are not part of the plant's thermal efficiency calculation. Choice B (85%) incorrectly subtracts only the waste heat loss (500/1000 = 50% lost, so 50% retained - but that ignores transmission). Choice C (50%) confuses the 500 units of waste heat as the relevant figure. Choice D (65%) mistakenly subtracts the transmission losses from the input before calculating.",
+      "answer": 2,
+      "explanation": "Thermal efficiency is calculated as useful energy output at the generator terminals divided by total energy input, multiplied by 100. The plant generates 500 units of electrical energy at its terminals from 1,000 units of coal energy, so efficiency = 500/1,000 × 100 = 50%. The 150 units lost in transmission occur downstream of the plant and are not part of the plant's thermal efficiency calculation. Choice A (35%) incorrectly uses the energy delivered to consumers (350 units) rather than the energy produced at the generator terminals. Choice B (85%) does not correspond to any correct calculation of the given values. Choice D (65%) mistakenly incorporates transmission losses into the plant efficiency calculation.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u6_050",
@@ -772,14 +757,13 @@
       "choices": [
         "A) Annual savings of 75,000 kWh and $7,500",
         "B) Annual savings of 25,000 kWh and $2,500",
-        "C) Annual savings of 150,000 kWh and $15,000",
+        "C) Annual savings of 90,000 kWh and $9,000",
         "D) Annual savings of 50 kWh and $5"
       ],
       "answer": 0,
-      "explanation": "The power difference per bulb is 60W − 10W = 50W = 0.05 kW. Total power saved = 500 bulbs × 0.05 kW = 25 kW. Annual energy saved = 25 kW × 10 hours/day × 300 days/year = 75,000 kWh. Cost savings = 75,000 kWh × $0.10/kWh = $7,500. Choice B (25,000 kWh) results from forgetting to multiply by the number of bulbs correctly or using only 1 hour instead of 10. Choice C (150,000 kWh) results from using the full 60W of the incandescent rather than the 50W difference. Choice D is far too low and results from a unit conversion error (e.g., not converting watts to kilowatts).",
+      "explanation": "The power difference per bulb is 60W − 10W = 50W = 0.05 kW. Total power saved = 500 bulbs × 0.05 kW = 25 kW. Annual energy saved = 25 kW × 10 hours/day × 300 days/year = 75,000 kWh. Cost savings = 75,000 kWh × $0.10/kWh = $7,500. Choice B (25,000 kWh) results from forgetting to multiply by the number of bulbs correctly or using only 1 hour instead of 10. Choice C (90,000 kWh) results from a student calculating the total annual energy consumed by the incandescent bulbs (500 × 0.06 kW × 10 h × 300 days = 90,000 kWh) and mistaking the total consumption for the savings, rather than computing the difference in consumption between the two bulb types. Choice D is far too low and results from a unit conversion error (e.g., not converting watts to kilowatts).",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u6_053",
@@ -829,18 +813,17 @@
     {
       "id": "pt_enviro_p1_u7_056",
       "unit": 7,
-      "question": "Researchers studying a high-elevation lake in the northeastern United States find that its pH has dropped from 6.8 to 4.9 over 40 years, and several fish species have disappeared. The lake has no industrial facilities on its shoreline. Which explanation is most consistent with these observations?",
+      "question": "Researchers studying a high-elevation lake in the northeastern United States find that its pH has dropped from 6.8 to 4.9 over 40 years, and several fish species have disappeared. The lake sits in a granitic watershed with low buffering capacity and has no industrial facilities within 50 miles of its shoreline. Which explanation is most consistent with these observations?",
       "choices": [
-        "A) Acid mine drainage from nearby abandoned coal mines has been slowly leaching sulfuric acid directly into the lake",
-        "B) Sulfur dioxide and nitrogen oxides emitted from distant sources are oxidized in the atmosphere and deposited as dilute sulfuric and nitric acids via precipitation",
+        "A) Acid mine drainage from abandoned coal mines located over 200 miles away has been slowly leaching sulfuric acid directly into the lake through deep groundwater channels",
+        "B) Sulfur dioxide and nitrogen oxides emitted from distant combustion sources are oxidized in the atmosphere and deposited as dilute sulfuric and nitric acids via precipitation, with the granitic watershed providing insufficient buffering to neutralize inputs",
         "C) The natural decomposition of organic matter in the lake has gradually produced carbonic acid, lowering the pH over decades",
-        "D) Increased concentrations of dissolved CO₂ from rising atmospheric levels have reacted with lake water to form carbonic acid at a rate sufficient to lower pH by nearly 2 units"
+        "D) Sphagnum moss expanding in the surrounding watershed has released organic acids into lake inflows, a process capable of producing nearly a 2-unit pH drop in high-elevation lakes over 40 years"
       ],
       "answer": 1,
-      "explanation": "Acid deposition occurs when SO₂ and NOx (from combustion sources, often hundreds of miles away) are oxidized in the atmosphere to form sulfuric and nitric acids, which fall as wet or dry deposition. This explains both the remote location (no local sources) and the magnitude of pH decline. Option A requires direct proximity to mines and would act more locally. Option C describes a natural process too slow and too chemically limited to cause a 1.9-unit pH drop. Option D - while ocean acidification from CO₂ is a real concern, atmospheric CO₂ increases alone cannot account for nearly a 2-unit pH drop in a lake; acid rain from anthropogenic NOx and SO₂ is the primary driver at this scale.",
+      "explanation": "Acid deposition occurs when SO₂ and NOx from combustion sources hundreds of miles away are oxidized in the atmosphere to form sulfuric and nitric acids, deposited as wet or dry deposition. The granitic watershed's low buffering capacity means incoming acid inputs are not neutralized, allowing large pH declines. This explains both the remote location and the magnitude of the 1.9-unit drop. Option A is implausible because groundwater transport over 200+ miles would neutralize or dilute acid drainage long before reaching the lake. Option C describes a natural process too chemically limited to cause a 1.9-unit pH drop in a lake with normal organic loading. Option D is incorrect because while sphagnum moss can contribute to mild acidification in peat bogs, this process is far too slow and localized to account for a nearly 2-unit pH decline in a high-elevation lake over this timeframe, particularly without evidence of major bog expansion.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u7_057",
@@ -890,34 +873,32 @@
     {
       "id": "pt_enviro_p1_u7_060",
       "unit": 7,
-      "question": "A researcher studying a forested lake ecosystem in the northeastern United States finds that the lake's pH has dropped from 6.8 to 4.5 over 30 years. Fish populations have collapsed, and aluminum concentrations in the water have risen sharply. Prevailing winds carry emissions from coal-burning power plants located several hundred kilometers upwind. Which of the following BEST explains the chain of events leading to the observed ecological damage, and why the aluminum concentration increase is particularly significant?",
+      "question": "A researcher studying a high-elevation lake in the Rocky Mountains finds that its pH has dropped from 6.9 to 4.6 over 25 years. Native cutthroat trout populations have collapsed, and aluminum concentrations in the water have risen sharply. The lake has very limited natural buffering capacity due to thin, poorly weathered soils. Prevailing winds carry emissions from smelters and coal-burning facilities located several hundred kilometers upwind. Which of the following BEST explains the chain of events leading to the observed ecological damage, and why the aluminum concentration increase is particularly significant?",
       "choices": [
-        "A) Sulfur dioxide and nitrogen oxides from the power plants are converted in the atmosphere to sulfuric and nitric acids; acid deposition lowers the lake's pH, which mobilizes aluminum ions from surrounding soils into the lake - aluminum is directly toxic to fish gills, compounding the pH stress on aquatic life.",
-        "B) Carbon dioxide emissions from the power plants dissolve in the lake to form carbonic acid, lowering the pH; the acidic water then weathers nearby aluminum ore deposits, releasing aluminum that clogs fish gills.",
-        "C) Sulfur dioxide dissolves directly in the lake without atmospheric transformation to form sulfurous acid, immediately lowering pH; the acidic conditions cause aluminum-based minerals in the lake sediment to dissolve, releasing toxic aluminum ions.",
-        "D) Acid deposition from the power plants neutralizes the lake's natural bicarbonate buffering capacity, raising the pH above 7.0; the alkaline conditions then leach aluminum from surrounding soils, which precipitates onto fish gills at high pH."
+        "A) Sulfur dioxide and nitrogen oxides from the upwind facilities are converted in the atmosphere to sulfuric and nitric acids; acid deposition lowers the lake's pH, which mobilizes aluminum ions from surrounding soils into the lake - aluminum is directly toxic to fish gills, compounding the pH stress on aquatic life.",
+        "B) Carbon dioxide emissions from the facilities dissolve in the lake to form carbonic acid, lowering the pH; the acidic water then weathers nearby aluminum ore deposits, releasing aluminum that clogs fish gills.",
+        "C) Sulfur dioxide dissolves directly into the lake as sulfurous acid without any atmospheric transformation, immediately lowering pH; the acidic conditions then cause aluminum-bearing minerals in the lake sediment to dissolve, releasing toxic aluminum ions.",
+        "D) Acid deposition from the upwind facilities neutralizes the lake's natural bicarbonate buffering capacity, raising the pH above 7.0; the alkaline conditions then leach aluminum from surrounding soils, which precipitates onto fish gills at high pH."
       ],
       "answer": 0,
-      "explanation": "SO₂ and NOx emitted by coal power plants undergo atmospheric oxidation to form sulfuric acid (H₂SO₄) and nitric acid (HNO₃), which fall as acid deposition (wet or dry). This lowers the lake pH well below 6.0. The acidic conditions mobilize aluminum ions (Al³⁺) from surrounding soils into the lake water - aluminum is highly toxic to fish, damaging gill membranes and impairing respiration, which explains the population collapse beyond what pH alone would cause. Option B incorrectly identifies CO₂/carbonic acid as the primary driver; while CO₂ does dissolve in water, the far more significant acidification here comes from sulfuric and nitric acids. Option C is wrong because SO₂ must be oxidized in the atmosphere before forming sulfuric acid; it does not simply dissolve directly into distant lakes as sulfurous acid in meaningful quantities. Option D is incorrect because acid deposition lowers, not raises, pH, and aluminum leaching occurs under acidic (low pH) conditions, not alkaline ones.",
+      "explanation": "SO₂ and NOx emitted by upwind industrial facilities undergo atmospheric oxidation to form sulfuric acid (H₂SO₄) and nitric acid (HNO₃), which fall as acid deposition (wet or dry) hundreds of kilometers from the source. This lowers the lake pH well below 6.0. Because the surrounding soils have little buffering capacity, the acidic conditions readily mobilize aluminum ions (Al³⁺) from surrounding soils into the lake water - aluminum is highly toxic to fish, damaging gill membranes and impairing respiration, which explains the population collapse beyond what pH stress alone would cause. Option B incorrectly identifies CO₂/carbonic acid as the primary driver; while CO₂ dissolves in water, the far more significant acidification here comes from sulfuric and nitric acids. Option C is wrong for two reasons: SO₂ must first be oxidized in the atmosphere to form sulfuric acid before it can cause acid deposition hundreds of kilometers downwind - it cannot simply dissolve locally as sulfurous acid at that distance - and the aluminum is mobilized from surrounding soils, not from lake sediment minerals. Option D is incorrect because acid deposition lowers, not raises, pH, and aluminum leaching into surface waters occurs under acidic (low pH) conditions, not alkaline ones.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u8_061",
       "unit": 8,
-      "question": "A farmer applies excess nitrogen fertilizer to fields adjacent to a river. Over several weeks, scientists observe a dramatic increase in algae growth in the river, followed by a sharp decline in dissolved oxygen levels and a massive fish die-off. Which sequence of events BEST explains the decline in dissolved oxygen?",
+      "question": "A farmer applies excess nitrogen fertilizer to fields adjacent to a shallow lake. Scientists monitoring the lake observe a dense algal bloom, then record dissolved oxygen levels that plummet to near zero during nighttime hours before recovering slightly each afternoon. Eventually, a large fish die-off occurs. Which explanation BEST accounts for the nighttime oxygen crashes and the eventual sustained hypoxia that causes the fish die-off?",
       "choices": [
-        "A) Algae photosynthesis consumes dissolved oxygen directly, leaving insufficient oxygen for fish.",
-        "B) Excess algae block sunlight, killing submerged aquatic plants, and decomposing algae and plants are broken down by aerobic bacteria that consume dissolved oxygen.",
-        "C) Nitrogen fertilizer reacts chemically with dissolved oxygen in the water, reducing its concentration.",
-        "D) Fish population growth stimulated by the algal bloom increases oxygen demand until oxygen is depleted."
+        "A) During the day, algae consume dissolved oxygen through photosynthesis; at night, oxygen levels recover because respiration stops.",
+        "B) The dense algal bloom blocks sunlight, killing submerged aquatic plants; at night, the large algal population switches from photosynthesis to cellular respiration, consuming dissolved oxygen, and when algae die, aerobic decomposers further deplete oxygen as they break down the accumulated organic matter.",
+        "C) Nitrogen fertilizer chemically binds to dissolved oxygen molecules at night when temperatures drop, reducing oxygen availability for fish.",
+        "D) Fish attracted by the algal bloom overcrowd the lake, and their collective respiration consumes dissolved oxygen predominantly during nighttime hours."
       ],
       "answer": 1,
-      "explanation": "The correct answer is B. This describes eutrophication leading to hypoxia: excess nutrients cause algal blooms, the algae block sunlight killing submerged plants, and when the massive algal population dies, aerobic decomposers break down the organic matter and consume dissolved oxygen, creating a hypoxic zone. Choice A is a trap - algae actually produce oxygen through photosynthesis; they do not consume it. Choice C is a common misconception that fertilizer chemically reacts with water oxygen, which is not the mechanism. Choice D reverses the causality; fish populations do not boom in response to algal blooms in ways that drive hypoxia.",
-      "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "explanation": "The correct answer is B. This question targets a specific and often overlooked mechanism within eutrophication. During daylight, a dense algal bloom produces oxygen through photosynthesis, but at night the same algae switch entirely to cellular respiration, consuming large quantities of dissolved oxygen - this explains the nighttime crashes observed by scientists. Additionally, the bloom blocks sunlight, killing submerged aquatic plants. When the massive algal and plant populations die, aerobic bacteria decompose the organic matter and consume the remaining dissolved oxygen, producing sustained hypoxia that causes the fish die-off. Choice A reverses algal physiology - algae produce oxygen during photosynthesis and consume it during respiration, not the other way around. Choice C is a misconception; nitrogen fertilizer does not chemically react with dissolved oxygen. Choice D reverses causality; fish do not boom in response to algal blooms in ways that drive hypoxia.",
+      "difficulty": "hard",
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u8_062",
@@ -932,8 +913,7 @@
       "answer": 1,
       "explanation": "The correct answer is B. The pattern of increasing pollutant concentration at successively higher trophic levels - spanning several orders of magnitude from water to apex predators - is the hallmark of biomagnification, which occurs because organisms consume many organisms from the level below and the fat-soluble POP accumulates in fatty tissues and is passed up the chain. Choice A confuses bioaccumulation (the buildup within a single organism's lifetime from direct environmental exposure) with biomagnification (the increase across trophic levels); the data show a trophic-level pattern, not just individual organism uptake. Choice C is partially true that larger fish are older but is not the primary explanation for the observed trophic-level pattern. Choice D is incorrect because the data clearly show a trophic-level progression consistent with biomagnification.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u8_063",
@@ -948,8 +928,7 @@
       "answer": 0,
       "explanation": "The correct answer is A. This accurately captures the key trade-offs: sanitary landfills generate leachate (contaminated liquid) that can threaten groundwater and produce methane (a potent greenhouse gas), while incinerators reduce waste volume by up to 90%, generate usable energy, but release air pollutants including dioxins, furans, and particulates. Choice B is false - properly managed landfills still produce methane from anaerobic decomposition, and incinerators are not the leading source of heavy metals in water supplies. Choice C is false - incineration destroys both hazardous and non-hazardous material and does not selectively preserve recyclables. Choice D is incorrect; incinerators typically require less land area than landfills per ton of waste.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u8_064",
@@ -961,27 +940,25 @@
         "C) Lead paint is a nonpoint source because chips and dust disperse widely, while lead pipes are a point source because contamination enters water at a discrete, identifiable location.",
         "D) The classification depends entirely on whether the contamination crosses property boundaries; pollution contained within a single building is neither a point nor nonpoint source."
       ],
-      "answer": 0,
-      "explanation": "The correct answer is A. Both deteriorating lead paint in specific buildings and lead-soldered pipes at identifiable locations qualify as point sources - they are discrete, locatable origins of pollution that can be directly identified and regulated. The AP definition of point source is pollution from a single, identifiable, and discrete source (such as a pipe, facility, or building), which applies here. Choice B is incorrect; nonpoint sources are diffuse origins such as agricultural runoff over a landscape - not traceable to a specific location. Choice C incorrectly categorizes lead paint as a nonpoint source; while lead dust disperses, its origin is still a specific identifiable structure. Choice D introduces a boundary criterion that is not part of the standard regulatory or AP definition of point vs. nonpoint source.",
+      "answer": 2,
+      "explanation": "The correct answer is C. Lead-soldered water pipes qualify as a point source because they release contamination at a discrete, identifiable location - a specific pipe or connection point where lead directly enters the water supply. Deteriorating lead paint, by contrast, is best classified as a nonpoint source because paint chips and dust disperse widely across multiple surfaces, soils, and areas throughout the neighborhood, making it impossible to attribute contamination to a single, discrete origin. Choice A is incorrect because lead paint dispersal does not meet the definition of a point source; its contamination is diffuse rather than traceable to one discrete location. Choice B is incorrect because lead pipes do represent a discrete, identifiable source of contamination and therefore qualify as a point source. Choice D introduces a property-boundary criterion that is not part of the standard AP Environmental Science or regulatory definition of point versus nonpoint source.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u8_065",
       "unit": 8,
-      "question": "A community implements a comprehensive waste reduction program with four components: (1) curbside recycling of paper, plastic, glass, and metal; (2) a mandatory composting program for food and yard waste; (3) a 'pay-as-you-throw' fee system charging residents per bag of trash; and (4) a product stewardship law requiring manufacturers to take back and recycle electronics. Ranked from HIGHEST to LOWEST priority according to the waste management hierarchy, which ordering of these four components is MOST consistent with EPA waste reduction principles?",
+      "question": "A community implements four waste management initiatives: (1) a curbside recycling program for paper, plastic, glass, and metal; (2) a 'pay-as-you-throw' fee system that charges residents per bag of trash generated, incentivizing them to produce less waste; (3) a municipal waste-to-energy facility that burns non-recyclable trash to generate electricity; and (4) a city-sponsored repair and refurbishment center where residents can drop off and pick up functional used goods instead of discarding them. Ranked from HIGHEST to LOWEST priority according to the EPA waste management hierarchy, which ordering of these four components is MOST correct?",
       "choices": [
-        "A) 3, 4, 2, 1 - Source reduction comes first, then manufacturer responsibility, then composting, then recycling.",
-        "B) 1, 2, 3, 4 - Recycling is the most effective waste reduction strategy and should be prioritized above all others.",
-        "C) 4, 1, 2, 3 - Manufacturer take-back programs represent the most advanced form of recycling and rank highest in the hierarchy.",
-        "D) 2, 1, 4, 3 - Composting is preferred over recycling because organic waste makes up the largest fraction of MSW."
+        "A) 2, 4, 1, 3 - Source reduction comes first, followed by reuse, then recycling, then energy recovery.",
+        "B) 4, 2, 1, 3 - Reuse programs rank highest because they involve the most community participation.",
+        "C) 1, 4, 2, 3 - Recycling is the foundation of all waste management and should be the top priority.",
+        "D) 2, 1, 4, 3 - Source reduction is highest, recycling is second, reuse is third, and energy recovery is last."
       ],
       "answer": 0,
-      "explanation": "The correct answer is A. The EPA waste management hierarchy prioritizes: (1) Source Reduction/Waste Prevention (highest), (2) Reuse, (3) Recycling and Composting, (4) Energy Recovery, and (5) Treatment/Disposal (lowest). The 'pay-as-you-throw' program (3) creates a financial incentive for residents to generate less waste in the first place - this is source reduction, the highest priority. The manufacturer take-back law (4) extends producer responsibility and encompasses reuse/design-for-environment principles, ranking second. Composting (2) and recycling (1) are both at the recycling/composting tier, with composting of organic waste generally recognized as higher value than single-stream recycling for organic materials. Choice B incorrectly elevates recycling to the top of the hierarchy; recycling ranks below source reduction. Choices C and D misorder the hierarchy tiers.",
+      "explanation": "The correct answer is A. The EPA waste management hierarchy prioritizes, from highest to lowest: (1) Source Reduction/Waste Prevention, (2) Reuse, (3) Recycling, (4) Energy Recovery, and (5) Treatment/Disposal. The 'pay-as-you-throw' program (2) incentivizes residents to generate less waste in the first place, making it source reduction - the highest tier. The repair and refurbishment center (4) extends the life of products without reprocessing them, representing reuse - the second tier. The curbside recycling program (1) reprocesses materials into new products, representing recycling - the third tier. The waste-to-energy facility (3) recovers energy from waste that cannot otherwise be reduced, reused, or recycled - the fourth tier. Choice B incorrectly elevates reuse above source reduction. Choice C incorrectly places recycling at the top of the hierarchy. Choice D misorders reuse and recycling, placing recycling above reuse.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u8_066",
@@ -1031,18 +1008,17 @@
     {
       "id": "pt_enviro_p1_u9_069",
       "unit": 9,
-      "question": "A coastal city commissions a study on projected sea level rise over the next 80 years. The study identifies two main contributors: thermal expansion of seawater and melting of land-based ice sheets. If global average ocean temperatures increase by 2°C and major ice sheets in Greenland experience accelerated melting, which of the following statements most accurately describes the combined effect on sea level?",
+      "question": "A coastal city commissions a study on sea level rise observed over the 20th century. The study identifies two main contributors: thermal expansion of seawater and melting of land-based ice sheets. Given that global average ocean temperatures increased and major ice sheets experienced melting during this period, which of the following statements most accurately describes the combined effect on sea level historically?",
       "choices": [
-        "A) Thermal expansion will contribute more to sea level rise than ice sheet melting because water temperature changes affect a much larger volume of ocean water.",
-        "B) Ice sheet melting will be the sole significant contributor because thermal expansion only affects surface waters and does not raise sea level.",
-        "C) Both thermal expansion and ice sheet melting will contribute to sea level rise, but melting of floating Arctic sea ice will also be a major contributor.",
-        "D) Sea level rise will be negligible because increased evaporation from warmer oceans will offset the added water volume from melting ice."
+        "A) Thermal expansion was the larger contributor to sea level rise than ice sheet melting over the 20th century because warming affected the entire water column across vast ocean areas.",
+        "B) Ice sheet melting was the sole significant contributor because thermal expansion only affects surface waters and does not raise sea level.",
+        "C) Both thermal expansion and ice sheet melting contributed to sea level rise, but melting of floating Arctic sea ice was also a major contributor.",
+        "D) Sea level rise was negligible because increased evaporation from warmer oceans offset the added water volume from melting ice."
       ],
       "answer": 0,
-      "explanation": "Currently and in near-future projections, thermal expansion of seawater accounts for a substantial portion of sea level rise because warming affects the entire water column across vast ocean areas; however, ice sheet contributions are increasing and are projected to eventually dominate. Choice A is the best answer among the options because it correctly identifies thermal expansion as a major (and historically dominant) contributor. Choice B is wrong because thermal expansion affects the full water column, not just surface waters, and it does raise sea level. Choice C incorrectly includes floating Arctic sea ice-when floating ice melts, it does not raise sea level because it already displaces water (Archimedes' principle). Choice D is incorrect; increased evaporation does not offset ice melt contributions meaningfully at a global scale.",
+      "explanation": "Over the 20th century, thermal expansion of seawater was the largest single contributor to sea level rise, accounting for roughly 40-50% of the observed rise, because warming affected the full water column across the vast global ocean. Choice A is correct. Choice B is wrong because thermal expansion affects the full water column, not just surface waters, and it does raise sea level. Choice C incorrectly includes floating Arctic sea ice as a major contributor - when floating ice melts, it does not raise sea level because it already displaces water (Archimedes' principle). Choice D is incorrect; increased evaporation does not meaningfully offset ice melt or thermal expansion contributions at a global scale.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u9_070",
@@ -1092,18 +1068,17 @@
     {
       "id": "pt_enviro_p1_u9_073",
       "unit": 9,
-      "question": "Which of the following best explains why carbon dioxide is considered a more significant driver of long-term climate change than water vapor, even though water vapor is a stronger greenhouse gas on a per-molecule basis?",
+      "question": "Which of the following best describes why the ice-albedo feedback is classified as a positive feedback loop in the context of climate change?",
       "choices": [
-        "A) Carbon dioxide absorbs a wider range of infrared wavelengths than water vapor does.",
-        "B) Carbon dioxide remains in the atmosphere for centuries, while water vapor cycles out within days and acts as a feedback rather than a forcing.",
-        "C) Carbon dioxide is more abundant in the upper stratosphere, where greenhouse warming is most effective.",
-        "D) Water vapor reflects incoming solar radiation, partially offsetting its own greenhouse warming effect."
+        "A) Melting ice releases stored carbon dioxide, which directly absorbs more incoming solar radiation.",
+        "B) As ice melts, darker ocean or land surfaces are exposed, absorbing more solar energy and causing further warming that leads to additional ice loss.",
+        "C) Ice formation at the poles reflects infrared radiation back toward Earth, trapping additional heat near the surface.",
+        "D) Decreasing ice cover reduces evaporation rates, lowering atmospheric water vapor and stabilizing global temperatures."
       ],
       "answer": 1,
-      "explanation": "CO2 is a long-lived forcing agent-once emitted, it persists for hundreds to thousands of years, directly driving temperature increases. Water vapor, by contrast, has a residence time of roughly 9-10 days and is controlled by temperature rather than human emissions; it amplifies warming as a feedback (more warmth → more evaporation → more water vapor) but is not itself a primary forcing. Choice A is inaccurate-CO2 does not absorb a broader range than water vapor. Choice C is incorrect; greenhouse warming originates in the troposphere, not the stratosphere. Choice D confuses clouds (which can reflect solar radiation) with water vapor.",
+      "explanation": "The ice-albedo feedback is a positive feedback because it amplifies the original warming signal: as temperatures rise, ice and snow melt, exposing darker ocean and land surfaces with lower albedo. These surfaces absorb a greater fraction of incoming solar radiation, raising temperatures further and causing more ice to melt. This self-reinforcing cycle exemplifies a positive feedback loop. Choice A is incorrect because melting ice releases some methane and CO2 but ice itself does not absorb solar radiation. Choice C confuses albedo (reflection of solar radiation) with infrared absorption and has the mechanism backwards. Choice D describes a negative (stabilizing) feedback, not a positive one, and the relationship stated is inaccurate.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u9_074",
@@ -1168,18 +1143,17 @@
     {
       "id": "pt_enviro_p1_u9_078",
       "unit": 9,
-      "question": "Which of the following best explains why carbon dioxide is considered a more significant driver of current global warming than water vapor, even though water vapor is a stronger greenhouse gas on a per-molecule basis?",
+      "question": "Which of the following best explains why scientists classify CO₂ as a climate forcing while classifying water vapor as a climate feedback, even though water vapor has a stronger greenhouse effect on a per-molecule basis?",
       "choices": [
-        "A) Water vapor absorbs infrared radiation at different wavelengths than CO₂, making it less effective at trapping heat near the surface.",
-        "B) CO₂ concentrations are controlled directly by human activities, while water vapor acts as a feedback that amplifies warming rather than as an initial forcing.",
-        "C) Water vapor is removed from the atmosphere by precipitation too quickly to accumulate, so its greenhouse effect is negligible compared to CO₂.",
-        "D) CO₂ molecules remain in the atmosphere for millions of years, whereas water vapor cycles out within hours, so CO₂ has a higher global warming potential."
+        "A) Water vapor absorbs infrared radiation only at very high altitudes, so it has little effect on surface temperatures compared to CO₂.",
+        "B) CO₂ concentrations are driven directly by human emissions and persist independently of temperature, while water vapor concentrations are governed by atmospheric temperature and cannot trigger warming on their own.",
+        "C) Water vapor is confined to the lower troposphere and cannot interact with the longwave radiation that drives global warming.",
+        "D) CO₂ remains in the atmosphere for thousands of years and accumulates to far higher concentrations than water vapor, which cycles out within hours."
       ],
       "answer": 1,
-      "explanation": "CO₂ is considered the primary driver because it is directly increased by human activities (burning fossil fuels, deforestation), constituting a radiative forcing. Water vapor is a feedback, not a forcing: as CO₂ warms the atmosphere, evaporation increases, adding more water vapor which amplifies warming, but water vapor does not independently initiate the warming. Choice A is incorrect because water vapor actually absorbs across a broad overlapping spectrum. Choice C understates water vapor's greenhouse effect - it is substantial, but its concentration is governed by temperature, not direct human emissions. Choice D is misleading: CO₂ atmospheric residence time is decades to centuries (not millions of years), and residence time is not the primary reason CO₂ is the key forcing agent.",
+      "explanation": "The key distinction between a forcing and a feedback is whether the variable changes independently or in response to temperature. CO₂ is emitted directly by human activities such as burning fossil fuels and deforestation, raising its atmospheric concentration regardless of surface temperature-this constitutes a radiative forcing. Water vapor, by contrast, cannot accumulate independently: its atmospheric concentration is set by temperature-dependent evaporation and condensation. As CO₂-driven warming raises temperatures, more water evaporates, amplifying the initial warming-this is a positive feedback, not a forcing. Choice A is incorrect because water vapor absorbs broadly throughout the troposphere and strongly influences surface temperatures. Choice C is incorrect; water vapor is not confined in a way that prevents interaction with longwave radiation. Choice D is a plausible distractor but misleading: while CO₂ does persist for decades to centuries (not thousands of years) and water vapor cycles quickly, residence time alone does not define the forcing-versus-feedback distinction, which is the core concept being tested.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_enviro_p1_u9_079",

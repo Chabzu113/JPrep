@@ -31,19 +31,18 @@
     {
       "id": "pt_micro_p1_u1_002",
       "unit": 1,
-      "question": "Country A can produce either 200 units of wheat or 100 units of cloth per year, while Country B can produce either 180 units of wheat or 90 units of cloth per year. If both countries currently produce only wheat, which of the following statements best describes the basis and direction of beneficial trade?",
+      "question": "Country A can produce either 200 units of wheat or 100 units of cloth per year, while Country B can produce either 120 units of wheat or 80 units of cloth per year. If both countries currently produce only wheat, which of the following statements best describes the basis and direction of beneficial trade?",
       "choices": [
         "A) No trade is beneficial because Country A has an absolute advantage in both goods.",
-        "B) Country A should specialize in cloth and Country B in wheat, because Country A has a comparative advantage in cloth.",
-        "C) Country B should specialize in cloth and Country A in wheat, because Country A has a comparative advantage in wheat.",
-        "D) Trade is equally beneficial regardless of which country specializes in which good.",
-        "E) Country A should specialize in wheat and Country B in cloth, because Country B has a lower opportunity cost of producing cloth."
+        "B) Country A should specialize in cloth and Country B in wheat, because Country A has a lower opportunity cost of producing cloth.",
+        "C) Country B should specialize in cloth and Country A in wheat, because Country B has a lower opportunity cost of producing cloth.",
+        "D) Trade is equally beneficial regardless of which country specializes in which good, because both countries have the same opportunity costs.",
+        "E) Country B should specialize in wheat and Country A in cloth, because Country B has an absolute advantage in cloth production."
       ],
-      "answer": 4,
-      "explanation": "Opportunity cost for Country A: 1 unit of cloth costs 2 units of wheat (200/100). Opportunity cost for Country B: 1 unit of cloth costs 2 units of wheat (180/90). Both countries have identical opportunity costs, meaning neither has a comparative advantage. However, the question asks which statement 'best describes' the situation - and Choice E is technically correct in its reasoning structure even though the opportunity costs are equal, making any specialization equally efficient. Wait - re-examining: A's OC of cloth = 2 wheat; B's OC of cloth = 2 wheat. They are identical, so no comparative advantage exists for either good. Choice A is wrong because absolute advantage does not determine trade benefit alone. Choice B incorrectly assigns comparative advantage. Choice C is wrong for the same reason. Choice D is closest to correct - trade yields no net gain since opportunity costs are identical. Therefore Choice D is actually the best answer.",
+      "answer": 2,
+      "explanation": "Opportunity cost for Country A: producing 1 unit of cloth requires giving up 2 units of wheat (200/100 = 2). Opportunity cost for Country B: producing 1 unit of cloth requires giving up 1.5 units of wheat (120/80 = 1.5). Because Country B has a lower opportunity cost of producing cloth (1.5 wheat vs. 2 wheat), Country B has the comparative advantage in cloth and should specialize in cloth. Conversely, Country A has a lower opportunity cost of producing wheat (1/2 cloth vs. 1/1.5 cloth), so Country A has the comparative advantage in wheat and should specialize in wheat. Choice C correctly identifies this. Choice A is incorrect because absolute advantage alone does not determine the gains from trade. Choice B incorrectly reverses the comparative advantages. Choice D is incorrect because the opportunity costs are clearly different. Choice E incorrectly assigns absolute advantage as the basis for specialization and reverses Country B's correct specialization.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u1_003",
@@ -64,36 +63,34 @@
     {
       "id": "pt_micro_p1_u1_004",
       "unit": 1,
-      "question": "A consumer is deciding how many slices of pizza to eat at a party. The table below shows the total utility received from each slice: 1st slice = 20 utils, 2nd slice = 35 utils, 3rd slice = 45 utils, 4th slice = 50 utils, 5th slice = 52 utils. If each slice costs $2 and the consumer is rational, at what point should the consumer STOP eating pizza according to marginal analysis?",
+      "question": "A consumer is deciding how many slices of pizza to eat at a party. The table below shows the total utility received from each slice: 1st slice = 20 utils, 2nd slice = 35 utils, 3rd slice = 45 utils, 4th slice = 50 utils, 5th slice = 52 utils. The consumer values each util at exactly $1 and each slice costs $2. If the consumer is rational and applies marginal analysis, after which slice should the consumer STOP eating pizza?",
       "choices": [
-        "A) After the 2nd slice, because total utility increases at a decreasing rate after that point.",
-        "B) After the 4th slice, because the marginal utility of the 5th slice (2 utils) is less than the marginal utility of the 4th slice (5 utils).",
-        "C) After the 3rd slice, because total utility is maximized at 45 utils.",
-        "D) After the 5th slice, because total utility is highest at 52 utils and a rational consumer always maximizes total utility regardless of cost.",
-        "E) After the 4th slice, because the marginal utility per dollar of the 5th slice falls below the marginal utility per dollar of the 4th slice, suggesting diminishing returns have made further consumption suboptimal given the price."
+        "A) After the 2nd slice, because total utility begins to increase at a decreasing rate starting with the 3rd slice.",
+        "B) After the 3rd slice, because the marginal utility of the 4th slice (5 utils) is less than the marginal utility of the 3rd slice (10 utils).",
+        "C) After the 4th slice, because the marginal utility of the 4th slice (5 utils) exceeds the $2 price, but the marginal utility of the 5th slice (2 utils) falls below the $2 price.",
+        "D) After the 5th slice, because a rational consumer always consumes until total utility stops increasing.",
+        "E) After the 3rd slice, because total utility of 45 utils is the highest value achievable before marginal utility drops below 10 utils."
       ],
-      "answer": 4,
-      "explanation": "Marginal utilities: 1st=20, 2nd=15, 3rd=10, 4th=5, 5th=2. Each slice costs $2. Marginal utility per dollar: 1st=10, 2nd=7.5, 3rd=5, 4th=2.5, 5th=1. A rational consumer should consume as long as the marginal benefit (MU) is at least equal to marginal cost. With each slice at $2, the consumer should stop when MU < $2 (i.e., MU per dollar < 1, or simply MU < MC in utils-per-dollar terms). Since the 5th slice yields only 2 utils for $2 (MU/P = 1), and the 4th slice yields 5 utils for $2 (MU/P = 2.5), the consumer maximizes net benefit after the 5th slice but since MU of 5th slice equals the price exactly (2 utils = effectively the break-even), eating through the 4th slice (MU=5 > price-equivalent) is clearly optimal and the 5th is marginal. Choice E correctly frames this in terms of marginal utility per dollar comparison, making it the most analytically complete answer. Choice D is wrong because rational consumers maximize net benefit, not just total utility. Choice C is wrong because 45 is not the total at the 3rd slice - total is 45 utils but more slices add utility. Choice A misidentifies the cutoff. Choice B is partially correct in observation but incomplete in reasoning.",
+      "answer": 3,
+      "explanation": "Marginal utilities: 1st=20, 2nd=15, 3rd=10, 4th=5, 5th=2. Since the consumer values each util at $1, the marginal benefit in dollars equals the marginal utility. Each slice costs $2. A rational consumer should continue eating as long as marginal benefit (MU in dollars) is greater than or equal to marginal cost ($2), and stop when MU falls below MC. The 1st slice: MU=$20 > $2 ✓. The 2nd slice: MU=$15 > $2 ✓. The 3rd slice: MU=$10 > $2 ✓. The 4th slice: MU=$5 > $2 ✓. The 5th slice: MU=$2 = $2, which does not exceed the price, so the consumer stops after the 4th slice. Choice C correctly identifies that the 4th slice is worth consuming (MU=$5 > $2) but the 5th is not (MU=$2 is not greater than $2). Choice A incorrectly applies diminishing marginal utility as the stopping rule rather than comparing MU to price. Choice B confuses comparing slices to each other with comparing MU to price. Choice D is incorrect because rational consumers maximize net benefit, not total utility. Choice E incorrectly states the total utility and misapplies the stopping rule.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u1_005",
       "unit": 1,
-      "question": "A city is considering building a new highway. The projected costs include $500 million in construction, $50 million annually in maintenance, and $200 million in environmental mitigation. The projected benefits include $900 million in reduced commuting costs over 20 years and $100 million in increased business activity. A policy analyst argues that the highway should NOT be built. Which of the following additional pieces of information, if true, would most strongly support the analyst's conclusion using cost-benefit principles?",
+      "question": "A city is considering building a new highway. The projected costs include $300 million in construction, $20 million annually in maintenance over 20 years ($400 million total), and $100 million in environmental mitigation, for a total cost of $800 million. The projected benefits include $900 million in reduced commuting costs over 20 years and $100 million in increased business activity, for a total benefit of $1 billion. A policy analyst argues that the highway should NOT be built. Which of the following additional pieces of information, if true, would most strongly support the analyst's conclusion using cost-benefit principles?",
       "choices": [
         "A) The construction company building the highway will earn a $75 million profit on the project.",
         "B) The reduced commuting costs were calculated using optimistic traffic projections that overestimate future highway usage by 40%.",
         "C) The environmental mitigation costs were paid in advance by a federal grant, so the city bears no direct financial burden for them.",
         "D) Neighboring cities have built similar highways and reported net benefits exceeding initial projections.",
-        "E) The 20-year maintenance cost totals $1 billion, which exceeds the construction cost alone."
+        "E) The annual maintenance cost of $20 million will be funded through a dedicated toll revenue stream."
       ],
       "answer": 1,
-      "explanation": "If the $900 million in reduced commuting costs were overestimated by 40%, the actual benefit would be approximately $540 million. Adding $100 million in business activity gives $640 million in total benefits. Total costs include $500 million construction + $1 billion maintenance (20 years × $50M) + $200 million environmental = $1.7 billion. Even with original estimates, total benefits ($1 billion) are less than total costs ($1.7 billion), but the question asks what most strongly supports the analyst's position. Choice B directly undermines the primary benefit estimate, making the cost-benefit ratio even worse and most strongly supporting the 'do not build' conclusion. Choice A is irrelevant because the contractor's profit is a transfer payment within the cost structure, not an additional social cost. Choice C actually weakens the case against building by reducing the city's perceived costs. Choice D provides evidence from other cities that benefits can exceed projections, which weakens the analyst's position. Choice E provides useful cost information but is already implicitly captured in the 20-year maintenance figure ($50M × 20 = $1B), adding no new information beyond what is given.",
+      "explanation": "With the given figures, total benefits ($900M + $100M = $1 billion) narrowly exceed total costs ($300M construction + $400M maintenance + $100M environmental = $800M), yielding a modest net benefit of $200 million and making the build/no-build decision genuinely ambiguous. Choice B reveals that the $900 million commuting benefit was overestimated by 40%, reducing it to approximately $540 million. Total benefits then become $540M + $100M = $640 million, which falls well below the $800 million in total costs - decisively supporting the analyst's conclusion not to build. Choice A is irrelevant because the contractor's profit is a transfer payment within the cost structure, not an additional social cost. Choice C actually weakens the case against building by reducing the city's perceived costs. Choice D provides evidence from other cities that benefits can exceed projections, which weakens the analyst's position. Choice E similarly weakens the analyst's position by suggesting maintenance costs are self-financing through tolls.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u1_006",
@@ -117,16 +114,15 @@
       "question": "A student is deciding whether to attend a concert that costs $40 for a ticket. She values the concert experience at $70. She had already purchased a $25 nonrefundable parking pass for the venue before making her decision. While reconsidering, she realizes she could spend the same evening studying for an exam, an activity she values at $20. What is the correct net benefit of attending the concert, and which costs should influence her decision?",
       "choices": [
         "A) Net benefit is $30; both the ticket price and the parking pass are relevant costs because she paid for both.",
-        "B) Net benefit is $5; the parking pass is a sunk cost and irrelevant, the ticket price and opportunity cost of studying are the relevant costs.",
-        "C) Net benefit is $10; only the ticket price is a relevant cost because the opportunity cost of studying is not a monetary expense.",
+        "B) Net benefit is $10; the parking pass is a sunk cost and irrelevant, the ticket price ($40) and opportunity cost of studying ($20) are the relevant costs, so net benefit = $70 − $40 − $20 = $10.",
+        "C) Net benefit is $5; only the ticket price is a relevant cost because opportunity cost is not a true economic expense, so net benefit = $70 − $40 − $25 = $5.",
         "D) Net benefit is $30; the parking pass is a sunk cost and should be ignored, and the opportunity cost of studying is not a true economic cost.",
         "E) Net benefit is $55; the parking pass should be subtracted from the value of the concert but the opportunity cost of studying is irrelevant once the ticket is purchased."
       ],
       "answer": 1,
-      "explanation": "This question tests marginal analysis and the distinction between sunk costs and relevant costs. The $25 parking pass is already paid and nonrefundable - it is a sunk cost and should NOT influence the decision. The relevant costs are the $40 ticket price and the $20 opportunity cost of studying (the next best alternative). Total relevant costs = $40 + $20 = $60. Net benefit = $70 − $60 = $10. Wait - recalculating: $70 value − $40 ticket − $20 opportunity cost = $10. Choice B states net benefit is $5, which is incorrect arithmetic. The correct net benefit is $10, making Choice C arithmetically correct but it incorrectly dismisses opportunity cost as irrelevant. Choice B correctly identifies the sunk cost principle and relevant costs but miscalculates. The best answer is B for its correct economic reasoning even though the arithmetic yields $10 not $5 - however, re-examining: $70 − $40 − $25(sunk, ignored) − $20 = $10. Choice B: $70−$40−$20 = $10, not $5. NOTE: The answer is B based on correct economic logic (sunk cost ignored, ticket + opportunity cost relevant), and the net benefit is $10. Choice A incorrectly includes the sunk cost. Choice D ignores opportunity cost entirely. Choice C incorrectly dismisses opportunity cost as irrelevant to economic decisions.",
+      "explanation": "This question tests marginal analysis and the distinction between sunk costs and relevant costs. The $25 parking pass is already paid and nonrefundable - it is a sunk cost and should NOT influence the decision. The relevant costs are the $40 ticket price and the $20 opportunity cost of studying (the next best alternative). Net benefit = $70 − $40 − $20 = $10. Choice A incorrectly includes the sunk cost parking pass as a relevant cost. Choice C incorrectly dismisses opportunity cost as irrelevant and mistakenly subtracts the sunk cost instead. Choice D correctly ignores the parking pass but wrongly dismisses the opportunity cost of studying, which is a true economic cost. Choice E incorrectly includes the parking pass and ignores the opportunity cost. Choice B correctly identifies that the parking pass is a sunk cost to be ignored, that both the ticket price and opportunity cost of studying are the relevant costs, and accurately calculates the net benefit as $10.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u1_008",
@@ -341,17 +337,16 @@
       "unit": 2,
       "question": "A government imposes a binding price floor on wheat above the current equilibrium price. Which of the following correctly describes the combined effects of this policy on wheat producers and consumers?",
       "choices": [
-        "A) Producers benefit unambiguously because all producers sell more wheat at a higher price.",
-        "B) Consumers are harmed because they pay a higher price and purchase less wheat.",
-        "C) Producers benefit unambiguously, and consumers benefit because the higher price signals higher quality.",
-        "D) Both producers and consumers benefit, because the price floor stabilizes the market.",
-        "E) Consumers are unaffected because the price floor only constrains producers."
+        "A) Both producers and consumers benefit because the higher price stabilizes the market and increases total surplus.",
+        "B) Consumers are harmed because they pay a higher price and purchase less wheat, while the effect on producers is ambiguous because the higher price benefits some sellers but the resulting surplus means not all producers can sell their output.",
+        "C) Producers benefit unambiguously and consumers benefit because the higher price signals higher quality wheat.",
+        "D) Both producers and consumers are harmed because the price floor causes a shortage that reduces the quantity of wheat available.",
+        "E) Consumers are unaffected because the price floor only constrains producers, while producers benefit unambiguously from the higher price."
       ],
       "answer": 1,
-      "explanation": "A binding price floor set above equilibrium raises the legal minimum price above what the market would clear at, causing a surplus. Consumers face a higher price and therefore buy a smaller quantity, making them unambiguously worse off - Choice B is correct. Choice A is incorrect because a price floor creates a surplus; not all producers can sell - some are left with unsold inventory, so producers are not unambiguously better off (some gain from the higher price, some lose sales). Choice C repeats the error about producers and introduces an irrelevant quality argument. Choice D is incorrect because price floors create inefficiency (deadweight loss) rather than mutual benefit. Choice E is wrong because the higher price directly affects the quantity consumers demand and the price they pay.",
-      "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "explanation": "A binding price floor set above equilibrium raises the legal minimum price above what the market would clear at, causing a surplus. Consumers face a higher price and therefore buy a smaller quantity, making them unambiguously worse off. Producers face a mixed outcome: the higher price is beneficial, but the surplus means not all producers can sell their output, so some gain while others are left with unsold inventory - Choice B is correct. Choice A is incorrect because price floors create inefficiency (deadweight loss) rather than mutual benefit. Choice C is incorrect because producers are not unambiguously better off and the quality argument is irrelevant. Choice D is incorrect because a price floor above equilibrium causes a surplus, not a shortage. Choice E is wrong because the higher price directly affects the quantity consumers demand and the price they pay.",
+      "difficulty": "medium",
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u2_022",
@@ -397,27 +392,25 @@
         "E) The firm should produce where P = ATC to eliminate its losses before making a long-run decision."
       ],
       "answer": 2,
-      "explanation": "The shutdown rule states that a firm should cease production in the short run when price falls below the minimum of average variable cost (AVC). Here, minimum AVC = $18 and price = $15, so P < min AVC. By producing, the firm would lose more than its fixed costs, so it minimizes losses by shutting down and paying only fixed costs. Choice A correctly identifies a loss but uses the wrong criterion (P < ATC triggers a long-run exit decision, not necessarily a short-run shutdown). Choice B would be correct if P were between min AVC and ATC, but here P is below min AVC, so the firm should not produce at all. Choice D is incorrect because the firm is not covering variable costs and no rational firm would expand in this situation. Choice E is not a real decision rule - firms cannot simply choose to produce at a price equal to ATC; price is determined by the market.",
+      "explanation": "The shutdown rule states that a firm should cease production in the short run when price falls below the minimum of average variable cost (AVC). Here, minimum AVC = $18 and price = $15, so P < min AVC. By producing, the firm would lose more than its fixed costs, so it minimizes losses by shutting down and paying only fixed costs. Choice A recommends the correct action - shutting down - but for the wrong reason. P < ATC alone is not sufficient to trigger a short-run shutdown; that condition signals a long-run exit decision, not necessarily an immediate shutdown. Choice A arrives at the right action by accident but applies the wrong rule. On the AP exam, reasoning matters: a response that identifies the correct outcome through incorrect logic would not receive full credit. Choice B would be correct if P were between min AVC and ATC, but here P is below min AVC, so the firm should not produce at all. Choice D is incorrect because the firm is not covering variable costs and no rational firm would expand in this situation. Choice E is not a real decision rule - firms cannot simply choose to produce at a price equal to ATC; price is determined by the market.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u3_025",
       "unit": 3,
       "question": "The table below shows a firm's long-run average total cost (LRATC) at various output levels:\n\nOutput (units): 100 | 200 | 300 | 400 | 500\nLRATC ($):       20  |  15  |  12  |  12  |  14\n\nBased on this data, which of the following statements is most accurate?",
       "choices": [
-        "A) The firm experiences economies of scale from 100 to 300 units and diseconomies of scale from 400 to 500 units.",
+        "A) The firm experiences economies of scale from 100 to 400 units and diseconomies of scale from 400 to 500 units.",
         "B) The firm experiences economies of scale from 100 to 400 units because LRATC is falling throughout that range.",
         "C) The firm is at minimum efficient scale at both 300 and 400 units of output.",
         "D) The firm experiences constant returns to scale from 100 to 300 units because LRATC is positive.",
         "E) The firm experiences diseconomies of scale from 300 to 400 units because output is increasing."
       ],
       "answer": 2,
-      "explanation": "Minimum efficient scale (MES) is the lowest output level at which LRATC is minimized. Here, LRATC reaches its minimum value of $12 at both 300 and 400 units, meaning the firm experiences constant returns to scale over that range. Both 300 and 400 units represent points at minimum efficient scale. Choice A is partially correct but misidentifies the range: LRATC falls from 100 to 300 (economies of scale) and rises only after 400 (diseconomies of scale), so the ranges stated in A are inaccurate. Choice B is wrong because LRATC is not falling from 300 to 400 - it is constant at $12, indicating constant returns to scale, not economies of scale. Choice D confuses the concept: constant returns to scale means LRATC is flat, not merely that LRATC is positive. Choice E is wrong because diseconomies of scale require LRATC to rise, which doesn't happen between 300 and 400.",
+      "explanation": "Minimum efficient scale (MES) is the lowest output level at which LRATC is minimized. Here, LRATC reaches its minimum value of $12 at both 300 and 400 units, meaning the firm experiences constant returns to scale over that range. Both 300 and 400 units represent points at minimum efficient scale. Choice A is wrong because it incorrectly classifies the 300-to-400 unit range as economies of scale when LRATC is actually flat at $12 over that range, indicating constant returns to scale rather than economies of scale. Choice B is wrong for the same reason: LRATC is not falling from 300 to 400 - it is constant at $12, indicating constant returns to scale, not economies of scale. Choice D confuses the concept: constant returns to scale means LRATC is flat, not merely that LRATC is positive. Choice E is wrong because diseconomies of scale require LRATC to rise, which doesn't happen between 300 and 400.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u3_026",
@@ -438,7 +431,7 @@
     {
       "id": "pt_micro_p1_u3_027",
       "unit": 3,
-      "question": "A perfectly competitive firm is profit-maximizing in the short run. A permanent increase in the market wage rate raises the firm's marginal cost and average variable cost at every output level, but does not affect fixed costs. After the wage increase, the firm finds that at its new profit-maximizing output, price equals average total cost exactly. Which of the following must be true about the firm's situation and the long-run market adjustment that follows?",
+      "question": "A perfectly competitive firm is profit-maximizing in the short run. A permanent increase in the market wage rate raises the firm's marginal cost and average variable cost at every output level, but does not affect fixed costs. After all long-run adjustments have occurred, the firm finds that price equals average total cost exactly at its profit-maximizing output. Which of the following must be true about the firm's situation and the long-run market adjustment that follows?",
       "choices": [
         "A) The firm is earning positive economic profit, so new firms will enter and price will eventually fall below average total cost.",
         "B) The firm is earning zero economic profit, so no long-run adjustment will occur and the market is in long-run equilibrium.",
@@ -447,10 +440,9 @@
         "E) The firm is earning zero economic profit, but the higher wage rate means the long-run supply curve will shift rightward as firms re-enter the market at the lower cost level."
       ],
       "answer": 1,
-      "explanation": "When P = ATC at the profit-maximizing output (where P = MC), the firm earns exactly zero economic profit - it is covering all explicit and implicit costs, including a normal profit. This is precisely the condition for long-run equilibrium in perfect competition. Since the firm is neither earning positive nor negative economic profit, there is no incentive for entry or exit, and the market is in long-run equilibrium at the new, higher cost level. Choice A is wrong because P = ATC means zero, not positive, economic profit. Choice C describes a transitional adjustment, but this would apply if the firm had negative economic profit following the cost shock - here the firm has already adjusted and reached P = ATC, so no further exit is needed. Choice D would be correct if P < ATC (negative profit), but the question states P = ATC exactly. Choice E incorrectly predicts rightward supply shifts and re-entry; with zero economic profit and higher costs, the long-run equilibrium is simply at the new minimum ATC, and there is no impetus for further entry.",
+      "explanation": "When P = ATC at the profit-maximizing output (where P = MC) after all long-run adjustments have occurred, the firm earns exactly zero economic profit - it is covering all explicit and implicit costs, including a normal profit. This is precisely the condition for long-run equilibrium in perfect competition. Since the firm is neither earning positive nor negative economic profit, there is no incentive for entry or exit, and the market is in long-run equilibrium at the new, higher cost level. Choice A is wrong because P = ATC means zero, not positive, economic profit. Choice C describes a transitional adjustment that would apply if the firm had negative economic profit following the cost shock - but the stem specifies that all long-run adjustments have already occurred and P = ATC, so no further exit is needed. Choice D would be correct if P < ATC (negative profit), but the question states P = ATC exactly. Choice E incorrectly predicts rightward supply shifts and re-entry; with zero economic profit and higher costs, the long-run equilibrium is simply at the new minimum ATC, and there is no impetus for further entry.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u3_028",
@@ -554,21 +546,20 @@
       "question": "The table below shows output and total cost data for a firm in the short run.\n\nOutput (units): 0 | 1 | 2 | 3 | 4 | 5\nTotal Cost ($):  20 | 35 | 46 | 54 | 65 | 80\n\nIf the market price is $13 per unit, what is this firm's profit-maximizing output level, and what type of profit does the firm earn at that output?",
       "choices": [
         "A) 3 units; the firm earns an economic profit because total revenue exceeds total variable cost.",
-        "B) 4 units; the firm earns an economic profit because total revenue exceeds total cost.",
+        "B) 4 units; the firm earns an economic profit because total revenue exceeds total variable cost.",
         "C) 5 units; the firm earns a normal profit because price equals marginal cost.",
         "D) 4 units; the firm earns an economic loss because total revenue is less than total cost.",
         "E) 3 units; the firm earns an economic loss because total revenue is less than total cost."
       ],
       "answer": 3,
-      "explanation": "First, calculate marginal cost (MC) at each unit: MC(1)=$15, MC(2)=$11, MC(3)=$8, MC(4)=$11, MC(5)=$15. The firm maximizes profit where P = MC or where MC transitions from below to above price. At Q=3, MC=$8 < P=$13, so the firm should expand. At Q=4, MC=$11 < P=$13, so producing the 4th unit adds more revenue than cost. At Q=5, MC=$15 > P=$13, so the 5th unit should not be produced. Profit-maximizing output is 4 units. Now check profit: TR = 4 × $13 = $52; TC = $65. Economic profit = $52 − $65 = −$13, so the firm earns an economic loss. Choice A is wrong because 3 units is not profit-maximizing and comparing TR to TVC (not TC) misidentifies profit. Choice B incorrectly states TR > TC when TR ($52) < TC ($65). Choice C is wrong because 5 units overshoots the optimum and normal profit requires TR = TC. Choice E uses the wrong output level.",
+      "explanation": "First, calculate marginal cost (MC) at each unit: MC(1)=$15, MC(2)=$11, MC(3)=$8, MC(4)=$11, MC(5)=$15. The firm maximizes profit where P = MC or where MC transitions from below to above price. At Q=3, MC=$8 < P=$13, so the firm should expand. At Q=4, MC=$11 < P=$13, so producing the 4th unit adds more revenue than cost. At Q=5, MC=$15 > P=$13, so the 5th unit should not be produced. Profit-maximizing output is 4 units. Now check profit: TR = 4 × $13 = $52; TC = $65. Economic profit = $52 − $65 = −$13, so the firm earns an economic loss. Choice A is wrong because 3 units is not profit-maximizing and comparing TR to TVC (not TC) misidentifies profit. Choice B correctly identifies the profit-maximizing output of 4 units, and TR ($52) does exceed TVC ($45), meaning the firm covers its variable costs and contributes to fixed costs; however, this describes contribution margin, not economic profit - because TR ($52) is still less than TC ($65), the firm earns an economic loss, not a profit. Choice C is wrong because 5 units overshoots the optimum and normal profit requires TR = TC. Choice E uses the wrong output level.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u3_035",
       "unit": 3,
-      "question": "A firm currently operates at a point on its long-run average total cost (LRATC) curve where LRATC is declining as output increases. Which of the following statements most accurately describes the firm's situation, and what would be the expected long-run market outcome if many firms share this cost structure in a perfectly competitive industry?",
+      "question": "A firm currently operates at a point on its long-run average total cost (LRATC) curve where LRATC is declining as output increases. Which of the following best identifies a tension or inconsistency created by this cost structure if many firms share it in a perfectly competitive industry?",
       "choices": [
         "A) The firm is experiencing diseconomies of scale; in the long run, firms will exit until economic profits are zero.",
         "B) The firm is experiencing constant returns to scale; the LRATC curve is flat, and the market is already in long-run equilibrium.",
@@ -577,10 +568,9 @@
         "E) The firm is experiencing diminishing marginal returns; it should reduce output to reach the minimum efficient scale."
       ],
       "answer": 2,
-      "explanation": "A declining LRATC as output rises indicates economies of scale-larger firms produce at lower average cost than smaller ones. This creates a structural tension with perfect competition: if one firm grows larger and achieves lower costs, it can undercut competitors, which tends toward natural monopoly or oligopoly rather than a competitive market of many small firms. This is why the standard perfectly competitive model typically assumes firms operate at or near the minimum of LRATC (constant returns to scale) in long-run equilibrium. Choice D is a tempting trap because it correctly identifies economies of scale but then incorrectly grafts the standard long-run competitive equilibrium story onto it-that story applies when firms are at minimum LRATC, not on the declining portion. Choice A confuses economies of scale with diseconomies. Choice B misidentifies a declining LRATC as flat. Choice E conflates short-run diminishing marginal returns (a short-run production concept) with long-run scale economies.",
+      "explanation": "A declining LRATC as output rises indicates economies of scale - larger firms produce at lower average cost than smaller ones. This creates a structural tension with perfect competition: if one firm grows larger and achieves lower costs, it can undercut competitors, which tends toward natural monopoly or oligopoly rather than a competitive market of many small price-taking firms. The standard perfectly competitive model assumes firms operate at or near the minimum of LRATC in long-run equilibrium, which implies constant returns to scale at that point - not a still-declining LRATC. Choice D is a common distractor: it correctly identifies economies of scale but then incorrectly applies the standard long-run zero-profit equilibrium story. That story holds only once firms have reached the minimum of LRATC; it does not resolve the inconsistency that arises when LRATC is still declining, because in that case larger firms always have a cost advantage over smaller rivals, undermining the many-small-firms assumption. Choice A confuses economies of scale with diseconomies. Choice B misidentifies a declining LRATC as flat. Choice E conflates short-run diminishing marginal returns with long-run scale economies.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u3_036",
@@ -594,10 +584,9 @@
         "E) The firm earns an economic loss of $200 and should exit the industry in the long run if conditions do not improve, but in the short run the correct decision depends on whether price exceeds marginal cost."
       ],
       "answer": 2,
-      "explanation": "Total cost = TFC + TVC = $500 + $600 = $1,100. Economic profit = TR − TC = $900 − $1,100 = −$200, so the firm earns an economic loss of $200. For the short-run shutdown decision, compare TR to TVC: TR ($900) > TVC ($600), meaning the firm covers all variable costs and the $300 surplus goes toward partially offsetting fixed costs. If the firm shuts down, it still owes $500 in fixed costs; by operating, its loss is only $200. Therefore, the firm should continue operating in the short run. In the long run, persistent economic losses signal the firm should exit. Choice B incorrectly claims the firm cannot cover variable costs when TR > TVC. Choice D mistakes the TR − TVC difference for economic profit, ignoring fixed costs. Choice E contains a true long-run exit conclusion but adds a misleading qualifier about price vs. MC-the shutdown decision uses TR vs. TVC (or equivalently P vs. AVC), not an additional P vs. MC comparison. Choice A is wrong because the firm is not earning zero economic profit.",
+      "explanation": "Total cost = TFC + TVC = $500 + $600 = $1,100. Economic profit = TR − TC = $900 − $1,100 = −$200, so the firm earns an economic loss of $200. For the short-run shutdown decision, compare TR to TVC: TR ($900) > TVC ($600), meaning the firm covers all variable costs and the $300 surplus goes toward partially offsetting fixed costs. If the firm shuts down, it still owes $500 in fixed costs; by operating, its loss is only $200. Therefore, the firm should continue operating in the short run. In the long run, persistent economic losses signal the firm should exit. Choice B incorrectly claims the firm cannot cover variable costs when TR > TVC. Choice D mistakes the TR − TVC difference for economic profit, ignoring fixed costs. Choice E's long-run exit conclusion is correct, but the qualifier is misleading - the problem states the firm is already at its profit-maximizing output (so P=MC is already satisfied). The short-run operating decision is fully resolved by comparing TR to TVC, not by an additional P vs. MC check. Choice A is wrong because the firm is not earning zero economic profit.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u4_037",
@@ -746,19 +735,18 @@
     {
       "id": "pt_micro_p1_u4_046",
       "unit": 4,
-      "question": "A pharmaceutical company holds a patent on a life-saving drug and currently charges $200 per dose, selling 1 million doses per year. The company's marginal cost is constant at $20 per dose. A government economist proposes two policy alternatives: Policy X sets a price ceiling at $20 (marginal cost pricing), and Policy Y sets a price ceiling at $80 (the output level where the demand curve intersects average total cost, yielding zero economic profit). Assuming fixed costs are substantial, which of the following most accurately compares the two policies?",
+      "question": "A pharmaceutical company holds a patent on a life-saving drug. The company's marginal cost is constant at $20 per dose. A government economist proposes two policy alternatives: Policy X sets a price ceiling at $20 (marginal cost pricing), and Policy Y sets a price ceiling at $80 (the output level where the demand curve intersects average total cost, yielding zero economic profit). Assuming fixed costs are substantial, which of the following most accurately compares the two policies?",
       "choices": [
         "A) Policy X achieves allocative efficiency and ensures the firm remains financially viable in the long run.",
         "B) Policy Y eliminates deadweight loss entirely and allows the firm to cover all costs including fixed costs.",
         "C) Policy X maximizes output and eliminates deadweight loss but may cause the firm to exit if price falls below average total cost.",
-        "D) Policy Y is inferior to Policy X because it still results in a price above marginal cost, maintaining some deadweight loss.",
+        "D) Policy Y is a worse policy than Policy X in every respect because deadweight loss is not reduced at all under Policy Y compared to the unregulated monopoly outcome.",
         "E) Both policies result in the same quantity produced because the marginal cost is the same under both price ceilings."
       ],
       "answer": 2,
-      "explanation": "Policy X (P = MC = $20) achieves allocative efficiency by eliminating deadweight loss and maximizing output, but if the price of $20 does not cover average total cost (which includes substantial fixed costs), the firm will earn economic losses and may exit the market in the long run - the so-called 'natural monopoly dilemma.' Policy Y (P = ATC = $80) allows the firm to cover all costs and earn zero economic profit (a fair return), but since P > MC, some deadweight loss remains. Choice A is wrong because while Policy X achieves allocative efficiency, it does NOT ensure financial viability if P < ATC. Choice B is wrong because Policy Y does not eliminate deadweight loss since P ($80) > MC ($20). Choice D oversimplifies: Policy Y is a reasonable second-best solution because it preserves the firm's incentive to operate while reducing (though not eliminating) the deadweight loss compared to unregulated monopoly pricing. Choice E is wrong because a lower price ceiling induces greater quantity demanded along a downward-sloping demand curve.",
+      "explanation": "Policy X (P = MC = $20) achieves allocative efficiency by eliminating deadweight loss and maximizing output, but if the price of $20 does not cover average total cost (which includes substantial fixed costs), the firm will earn economic losses and may exit the market in the long run - the so-called 'natural monopoly dilemma.' Policy Y (P = ATC = $80) allows the firm to cover all costs and earn zero economic profit (a fair return), but since P > MC, some deadweight loss remains. Choice A is wrong because while Policy X achieves allocative efficiency, it does NOT ensure financial viability if P < ATC. Choice B is wrong because Policy Y does not eliminate deadweight loss since P ($80) > MC ($20). Choice D is wrong on two counts: Policy Y does reduce deadweight loss relative to the unregulated monopoly outcome (it is a reasonable second-best solution), and it is not inferior to Policy X in every respect since it preserves the firm's incentive to operate. Choice E is wrong because a lower price ceiling induces greater quantity demanded along a downward-sloping demand curve.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u4_047",
@@ -843,19 +831,18 @@
     {
       "id": "pt_micro_p1_u5_052",
       "unit": 5,
-      "question": "Economists compare outcomes in a monopsonistic labor market with those in a perfectly competitive labor market. Which of the following accurately describes both the wage and employment effects of monopsony power, AND the welfare implication relative to perfect competition?",
+      "question": "A monopsonistic labor market is in equilibrium. The government then imposes a minimum wage set exactly at the competitive equilibrium wage. Compared to the monopsony equilibrium, what happens to employment and the wage paid to workers?",
       "choices": [
-        "A) A monopsonist pays a higher wage and hires more workers than a competitive market, resulting in a deadweight loss.",
-        "B) A monopsonist pays a lower wage and hires fewer workers than a competitive market, resulting in a deadweight loss that represents unexploited gains from trade.",
-        "C) A monopsonist pays a lower wage but hires the same number of workers as a competitive market, transferring surplus from workers to the firm.",
-        "D) A monopsonist pays a lower wage and hires fewer workers than a competitive market, but there is no deadweight loss because the firm captures all surplus.",
-        "E) A monopsonist pays a wage equal to the competitive wage but hires fewer workers, reducing producer surplus without creating deadweight loss."
+        "A) Employment decreases and the wage decreases.",
+        "B) Employment decreases and the wage increases.",
+        "C) Employment increases and the wage increases.",
+        "D) Employment stays the same and the wage increases.",
+        "E) Employment increases and the wage stays the same."
       ],
-      "answer": 1,
-      "explanation": "In a monopsonistic labor market, the firm faces an upward-sloping labor supply curve and a MFC curve that lies above it. The monopsonist hires where MRP = MFC, which is fewer workers than in competitive equilibrium (where MRP = supply). Because fewer workers are hired, the wage is also lower - read from the supply curve below the competitive wage. This outcome generates a deadweight loss: there are worker-firm pairs who would mutually benefit from employment at wages between the monopsony wage and the competitive wage, but those transactions do not occur. Choice A is entirely incorrect - monopsonists hire less and pay less, not more. Choice C incorrectly states that quantity hired is unchanged. Choice D acknowledges the wage and quantity effects correctly but wrongly claims there is no deadweight loss; the deadweight loss exists because mutually beneficial transactions are foregone, not simply redistributed. Choice E is incorrect about the wage being equal to the competitive wage.",
+      "answer": 2,
+      "explanation": "In a monopsony, the firm hires fewer workers at a lower wage than would prevail in a competitive market. When a minimum wage is set at the competitive equilibrium wage, the monopsonist faces a horizontal labor supply curve up to that wage, making the minimum wage the new effective MFC for workers up to the competitive quantity. The profit-maximizing monopsonist now hires more workers than before (moving toward the competitive employment level) and pays the higher minimum wage. This is a key distinction from a competitive market, where a minimum wage above equilibrium reduces employment. In a monopsony, a well-placed minimum wage can simultaneously raise wages AND increase employment, reducing or eliminating the deadweight loss. Choices A and B describe incorrect employment directions. Choice D correctly notes the wage increase but incorrectly states employment is unchanged. Choice E correctly notes the employment increase but incorrectly states the wage is unchanged.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u5_053",
@@ -876,19 +863,18 @@
     {
       "id": "pt_micro_p1_u5_054",
       "unit": 5,
-      "question": "A monopsonist is the sole employer in a regional labor market. Compared to a perfectly competitive labor market with the same supply and demand conditions, which of the following most accurately describes the monopsonist's equilibrium outcome and its welfare implications?",
+      "question": "A minimum wage is imposed in a monopsonistic labor market at a level above the monopsony wage but below the competitive equilibrium wage. Compared to the monopsony equilibrium without the minimum wage, which of the following most accurately describes the effect of this minimum wage?",
       "choices": [
-        "A) The monopsonist hires more workers at a higher wage than the competitive equilibrium, resulting in a deadweight loss due to oversupply of labor.",
-        "B) The monopsonist hires fewer workers at a lower wage than the competitive equilibrium, creating a deadweight loss and transferring surplus from workers to the firm.",
-        "C) The monopsonist hires fewer workers but pays the same wage as the competitive equilibrium, with the efficiency loss arising solely from reduced employment.",
-        "D) The monopsonist hires the same number of workers as the competitive equilibrium but pays a lower wage, capturing all worker surplus as producer surplus.",
-        "E) The monopsonist sets the wage equal to the marginal revenue product of the last worker hired, which coincidentally equals the competitive wage, so there is no deadweight loss."
+        "A) Employment falls further below the monopsony level because the higher wage discourages the firm from hiring.",
+        "B) Employment increases and the wage increases, moving the market closer to the competitive equilibrium outcome.",
+        "C) Employment remains unchanged but the wage rises, transferring surplus from the firm to workers without affecting efficiency.",
+        "D) The minimum wage creates a surplus of labor (unemployment) identical to what would occur in a competitive market with the same minimum wage.",
+        "E) The monopsonist responds by becoming a price taker in the labor market, hiring workers up to the point where the minimum wage equals the marginal revenue product."
       ],
       "answer": 1,
-      "explanation": "A monopsonist faces an upward-sloping labor supply curve and a marginal factor cost (MFC) curve that lies above the supply curve. To maximize profit, the monopsonist hires where MRP = MFC, which results in fewer workers being hired than in the competitive equilibrium (where MRP = wage = supply). Because fewer workers are hired, the monopsonist can pay a wage read off the supply curve at that lower quantity - a wage below the competitive wage. This creates a deadweight loss (mutually beneficial transactions between workers willing to work and a firm willing to hire at wages between the monopsony wage and the competitive wage do not occur) and transfers surplus from workers to the firm. Option A is incorrect - monopsonists restrict, not expand, employment. Option C is wrong because the wage is also lower, not the same. Option D incorrectly states employment is unchanged; the entire source of monopsony power is restricting employment below the competitive level. Option E misunderstands that the monopsonist sets MRP = MFC, not MRP = supply (wage), so the monopsony wage is below the competitive wage and a deadweight loss does arise.",
+      "explanation": "In a monopsonistic labor market, the firm restricts employment below the competitive level and pays a wage below the competitive wage. When a minimum wage is set above the monopsony wage but below the competitive wage, the monopsonist's supply curve becomes horizontal at the minimum wage up to the quantity supplied at that wage. This eliminates the incentive to restrict employment to depress the wage, so the firm hires more workers than it did under monopsony. Both employment and the wage rise, moving the outcome closer to the competitive equilibrium. This is a unique result: unlike in a competitive market where a minimum wage above equilibrium reduces employment, in a monopsony a minimum wage set in this range can increase employment. Option A is incorrect because employment rises, not falls. Option C is incorrect because employment does change. Option D is incorrect because the unemployment effect depends on market structure; in a monopsony this minimum wage can increase employment. Option E overstates the result - the monopsonist does not become a true price taker, but the effective MFC becomes the minimum wage over the relevant range.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u6_055",
@@ -909,7 +895,7 @@
     {
       "id": "pt_micro_p1_u6_056",
       "unit": 6,
-      "question": "The table below shows the marginal private benefit (MPB), marginal social benefit (MSB), and marginal private cost (MPC) for flu vaccinations in a community.\n\nQuantity | MPB | MSB | MPC\n1,000    | $50 | $80 | $30\n2,000    | $40 | $70 | $30\n3,000    | $30 | $60 | $30\n4,000    | $20 | $50 | $30\n5,000    | $10 | $40 | $30\n\nIf the government wants to achieve the socially optimal quantity of vaccinations, which of the following per-unit subsidies should it provide to consumers?",
+      "question": "The table below shows the marginal private benefit (MPB), marginal social benefit (MSB), and marginal private cost (MPC) for flu vaccinations in a community.\n\nQuantity | MPB | MSB | MPC\n1,000    | $50 | $80 | $30\n2,000    | $40 | $70 | $30\n3,000    | $30 | $60 | $30\n4,000    | $20 | $50 | $30\n5,000    | $10 | $30 | $30\n\nIf the government wants to achieve the socially optimal quantity of vaccinations, which of the following per-unit subsidies should it provide to consumers?",
       "choices": [
         "A) $10 per vaccination",
         "B) $20 per vaccination",
@@ -917,11 +903,10 @@
         "D) $40 per vaccination",
         "E) $50 per vaccination"
       ],
-      "answer": 2,
-      "explanation": "The socially optimal quantity occurs where MSB = MPC. From the table, MSB = MPC = $30 at 5,000 vaccinations. The market equilibrium occurs where MPB = MPC = $30, also at 5,000 - wait, re-examining: MPB = MPC at 3,000 (MPB = $30 = MPC). The social optimum is where MSB = MPC: MSB = $60 and MPC = $30 at 3,000, MSB = $50 and MPC = $30 at 4,000, MSB = $40 and MPC = $30 at 5,000. So social optimum is at 5,000 where MSB ($40) still exceeds MPC ($30) actually at 5,000 MSB=$40 > MPC=$30, so optimum is beyond 5,000 in principle, but the closest listed point where MSB approaches MPC most closely is 5,000. The gap between MSB and MPB at 5,000 is $40 - $10 = $30. To shift market equilibrium from 3,000 (where MPB=MPC) to 5,000 (social optimum), the subsidy must equal the external benefit at the socially optimal quantity: MSB - MPB = $40 - $10 = $30. Choice A ($10) is the external benefit at 1,000. Choice B ($20) is incorrect. Choice D ($40) is the full MSB at the optimum, not the gap. Choice E ($50) is the gap at 1,000 units.",
+      "answer": 1,
+      "explanation": "The market equilibrium occurs where MPB = MPC. From the table, MPB = MPC = $30 at 3,000 vaccinations, so the market produces 3,000 vaccinations without intervention. The socially optimal quantity occurs where MSB = MPC. From the table, MSB = MPC = $30 at 5,000 vaccinations, so the social optimum is 5,000 vaccinations. Because flu vaccinations generate positive externalities, the market under-produces relative to the social optimum. To correct this, the government should provide a per-unit subsidy equal to the external benefit at the socially optimal quantity: MSB − MPB = $30 − $10 = $20 at 5,000 vaccinations. A $20 subsidy effectively shifts consumers' perceived benefit upward by $20, so the new market equilibrium occurs where MPB + subsidy = MPC, i.e., $10 + $20 = $30, at 5,000 vaccinations - the socially optimal quantity. The correct answer is B) $20 per vaccination.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u6_057",
@@ -942,19 +927,18 @@
     {
       "id": "pt_micro_p1_u6_058",
       "unit": 6,
-      "question": "A natural monopoly currently produces 500 units at a price of $18 per unit, with average total cost of $12 and marginal cost of $7 at that output. The government is considering three regulatory options: (1) unregulated monopoly pricing, (2) average-cost pricing, and (3) marginal-cost pricing. Which of the following correctly ranks these options from least to most allocatively efficient, and identifies the option that requires a government subsidy to implement?",
+      "question": "A natural monopoly is subject to three regulatory options under consideration by the government: (1) unregulated monopoly pricing, (2) average-cost pricing, and (3) marginal-cost pricing. For a natural monopoly, average total cost is declining over the relevant range of output, and marginal cost lies below average total cost. Which of the following correctly ranks these options from least to most allocatively efficient, and identifies the option that requires a government subsidy to implement?",
       "choices": [
         "A) Unregulated < average-cost < marginal-cost; marginal-cost pricing requires a subsidy.",
         "B) Average-cost < unregulated < marginal-cost; average-cost pricing requires a subsidy.",
         "C) Unregulated < marginal-cost < average-cost; no subsidy is required under any option.",
         "D) Marginal-cost < average-cost < unregulated; average-cost pricing requires a subsidy.",
-        "E) Unregulated < average-cost < marginal-cost; average-cost pricing requires a subsidy."
+        "E) Average-cost < unregulated < marginal-cost; marginal-cost pricing requires a subsidy."
       ],
       "answer": 0,
-      "explanation": "Allocative efficiency requires P = MC. Unregulated monopoly sets P > MC (highest price, furthest from efficiency). Average-cost pricing sets P = ATC, which is closer to MC but still above it, so it is more efficient than unregulated but not fully allocatively efficient. Marginal-cost pricing sets P = MC and achieves allocative efficiency. Therefore the ranking from least to most efficient is: unregulated < average-cost < marginal-cost. However, for a natural monopoly, P = MC < ATC, meaning the firm earns a loss and requires a government subsidy to remain operational. Choice E describes the same ranking but incorrectly assigns the subsidy to average-cost pricing. Under average-cost pricing P = ATC so the firm earns zero economic profit and needs no subsidy. Choice B misstates the efficiency ranking. Choices C and D reverse the rankings incorrectly.",
+      "explanation": "Allocative efficiency requires P = MC. Unregulated monopoly sets P > MC (highest price, furthest from efficiency). Average-cost pricing sets P = ATC, which is closer to MC but still above it, so it is more efficient than unregulated but not fully allocatively efficient. Marginal-cost pricing sets P = MC and achieves allocative efficiency. Therefore the ranking from least to most efficient is: unregulated < average-cost < marginal-cost. However, for a natural monopoly, MC < ATC, meaning that when P = MC the firm earns a loss and requires a government subsidy to remain operational. Under average-cost pricing P = ATC, so the firm earns zero economic profit and needs no subsidy. Choice E incorrectly ranks average-cost as less efficient than unregulated monopoly pricing. Choice B misstates both the efficiency ranking and the subsidy assignment. Choices C and D reverse the rankings incorrectly.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_micro_p1_u6_059",

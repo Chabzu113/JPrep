@@ -18,19 +18,18 @@
     {
       "id": "pt_stats_p1_u1_001",
       "unit": 1,
-      "question": "A school nurse records the following information for each student during an annual checkup: height (in inches), weight (in pounds), blood type, grade level (9th, 10th, 11th, or 12th), and whether the student passed a vision screening (yes or no). Which of the following correctly classifies these variables?",
+      "question": "A school nurse records the following information for each student during an annual checkup: height (in inches), weight (in pounds), blood type (A, B, AB, or O), eye color, and whether the student passed a vision screening (yes or no). Which of the following correctly classifies these variables?",
       "choices": [
-        "A) Height and weight are quantitative; blood type, grade level, and vision screening result are categorical.",
-        "B) Height, weight, and grade level are quantitative; blood type and vision screening result are categorical.",
-        "C) Height, weight, grade level, and vision screening result are quantitative; blood type is categorical.",
+        "A) Height and weight are quantitative; blood type, eye color, and vision screening result are categorical.",
+        "B) Height, weight, and eye color are quantitative; blood type and vision screening result are categorical.",
+        "C) Height, weight, eye color, and vision screening result are quantitative; blood type is categorical.",
         "D) All five variables are categorical because they are recorded for individual students.",
-        "E) Height and weight are quantitative; blood type and vision screening result are categorical; grade level is quantitative because it can be ordered."
+        "E) Height and weight are quantitative; blood type and vision screening result are categorical; eye color is quantitative because it can be observed and measured."
       ],
       "answer": 0,
-      "explanation": "Quantitative variables take numerical values for which arithmetic operations make sense. Height and weight are quantitative. Categorical variables place individuals into groups. Blood type (A, B, AB, O), grade level (9th-12th as labels), and vision screening result (yes/no) are all categorical. Grade level is a common trap - although it has a natural order, the numbers 9-12 function as labels/categories here, not measurable quantities where differences are meaningful in a numeric sense on this scale. Choice B is a common misconception: grade level looks numeric but is categorical (ordinal). Choice E makes the same error about grade level while also misclassifying vision screening.",
+      "explanation": "Quantitative variables take numerical values for which arithmetic operations make sense. Height and weight are quantitative - you can compute meaningful differences and averages. Categorical variables place individuals into groups or categories. Blood type (A, B, AB, O), eye color (e.g., blue, brown, green), and vision screening result (yes/no) are all categorical because they describe a quality or group membership rather than a measurable amount. Choices B and C incorrectly classify eye color as quantitative - eye color is a label with no numeric value. Choice D is incorrect because height and weight are clearly quantitative. Choice E incorrectly suggests eye color is quantitative.",
       "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u1_002",
@@ -67,19 +66,18 @@
     {
       "id": "pt_stats_p1_u1_004",
       "unit": 1,
-      "question": "Two statistics teachers each give their classes the same 100-point exam. The results are summarized below:\n\nClass A (n = 30): Mean = 74, Median = 78, Standard Deviation = 12, IQR = 15\nClass B (n = 30): Mean = 74, Median = 71, Standard Deviation = 12, IQR = 15\n\nBased on this information, which of the following conclusions is best supported?",
+      "question": "Two statistics teachers each give their classes the same 100-point exam. The results are summarized below:\n\nClass A (n = 30): Mean = 74, Median = 78, Standard Deviation = 12, IQR = 15\nClass B (n = 30): Mean = 74, Median = 71, Standard Deviation = 12, IQR = 15\n\nBased on this information, which of the following conclusions about the shape of the distributions is best supported?",
       "choices": [
         "A) Class A's distribution is likely skewed right because the mean is less than the median.",
         "B) Class B's distribution is likely skewed right because the mean is greater than the median.",
         "C) The two distributions are identical because all four summary statistics are equal or nearly equal.",
-        "D) Class A performed better overall because its median is higher, even though the means are equal.",
+        "D) Class A performed better overall because its median is higher, so no further analysis of the distributions is needed.",
         "E) Neither distribution can be described as skewed because both classes have the same standard deviation and IQR."
       ],
       "answer": 1,
-      "explanation": "The relationship between mean and median provides a clue about skewness. For Class B, the mean (74) is greater than the median (71), suggesting the distribution is pulled to the right - consistent with right skew, where a few high outliers inflate the mean above the median. For Class A, the mean (74) is less than the median (78), suggesting left skew. Choice A incorrectly applies the skewness rule: mean < median suggests left skew, not right skew. Choice C is wrong because two distributions can have the same mean, median, SD, and IQR while having different shapes (e.g., one left-skewed, one right-skewed). Choice D makes a value judgment about 'better' performance - while Class A's median is higher, the question asks what is best supported by the data, and the distributional shape comparison is the stronger analytical conclusion. Choice E is incorrect; standard deviation and IQR measure spread, not skewness, so equal spread does not imply equal shape.",
+      "explanation": "The relationship between mean and median provides a clue about skewness. For Class B, the mean (74) is greater than the median (71), suggesting the distribution is pulled to the right - consistent with right skew, where a few high outliers inflate the mean above the median. For Class A, the mean (74) is less than the median (78), suggesting left skew. Choice A incorrectly applies the skewness rule: mean < median suggests left skew, not right skew. Choice C is wrong because two distributions can have the same mean, median, SD, and IQR while having different shapes (e.g., one left-skewed, one right-skewed). Choice D is incorrect because the question asks specifically about distributional shape, and claiming no further analysis is needed is an unjustified conclusion that ignores the skewness information present in the data. Choice E is incorrect; standard deviation and IQR measure spread, not skewness, so equal spread does not imply equal shape.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u1_005",
@@ -89,14 +87,13 @@
         "A) Approximately 54.8 pounds",
         "B) Approximately 57.0 pounds",
         "C) Approximately 60.0 pounds",
-        "D) Approximately 74.2 pounds",
-        "E) Approximately 75.2 pounds"
+        "D) Approximately 75.2 pounds",
+        "E) Approximately 73.0 pounds"
       ],
       "answer": 0,
-      "explanation": "To find the 10th percentile, use the formula x = μ + z·σ. With μ = 65, σ = 8, and z = −1.28: x = 65 + (−1.28)(8) = 65 − 10.24 = 54.76 ≈ 54.8 pounds. A dog must weigh at least approximately 54.8 pounds to not be classified as underweight. Choice B (57.0) likely results from using z = −1.0 instead of −1.28, confusing the 10th percentile with one standard deviation below the mean. Choice C (60.0) may come from incorrectly halving the standard deviation or misremembering z-score values. Choice D (74.2) results from adding instead of subtracting: x = 65 + 1.28(8) = 75.24, which would be the 90th percentile, not the 10th - a sign error. Choice E (75.2) is that same calculation rounded differently, confirming the sign error trap.",
+      "explanation": "To find the 10th percentile, use the formula x = μ + z·σ. With μ = 65, σ = 8, and z = −1.28: x = 65 + (−1.28)(8) = 65 − 10.24 = 54.76 ≈ 54.8 pounds. A dog must weigh at least approximately 54.8 pounds to not be classified as underweight. Choice B (57.0) likely results from using z = −1.0 instead of −1.28, confusing the 10th percentile with one standard deviation below the mean: 65 − 1.0(8) = 57. Choice C (60.0) may come from incorrectly halving the standard deviation or misremembering z-score values. Choice D (75.2) results from adding instead of subtracting: x = 65 + 1.28(8) = 75.24 ≈ 75.2, which would be the 90th percentile, not the 10th - a sign error trap. Choice E (73.0) results from a similar sign error but using z = 1.0 instead of 1.28: 65 + 1.0(8) = 73, representing both a sign error and the wrong z-value.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u1_006",
@@ -136,33 +133,31 @@
       "question": "A large company administers a standardized productivity assessment to all 1,200 employees. The scores are approximately normally distributed with a mean of 72 and a standard deviation of 9. The company decides to give a performance bonus to all employees who score at or above the 90th percentile. A separate division of 80 employees has a mean score of 78 and a standard deviation of 9. Approximately what percentage of employees in this division would qualify for the bonus, and which of the following best explains why this percentage differs from 10%?",
       "choices": [
         "A) Approximately 10%; the division's higher mean does not affect the cutoff score because the 90th percentile is defined by the company-wide distribution.",
-        "B) Approximately 25%; the division's mean is higher than the company-wide mean by less than one standard deviation, so a greater proportion of its employees exceed the company-wide 90th percentile cutoff score.",
+        "B) Approximately 40%; the division's mean is higher than the company-wide mean, so the 90th percentile cutoff shifts upward proportionally, and nearly 40% of the division's scores fall in the new upper tail.",
         "C) Approximately 10%; because the division has the same standard deviation as the company, its shape is identical and the same percentage will exceed any cutoff.",
         "D) Approximately 50%; since the division's mean of 78 is above the company-wide 90th percentile cutoff, more than half of the division's employees qualify.",
         "E) Approximately 25%; the company-wide 90th percentile cutoff is approximately 83.5, and because the division is normally distributed with mean 78 and standard deviation 9, roughly 25% of the division scores at or above 83.5."
       ],
       "answer": 4,
-      "explanation": "Step 1: Find the company-wide 90th percentile cutoff. Using z = 1.28 for the 90th percentile: cutoff = 72 + 1.28(9) ≈ 72 + 11.52 ≈ 83.5. Step 2: Find the proportion of the division (mean = 78, SD = 9) scoring at or above 83.5. z = (83.5 − 78)/9 = 5.5/9 ≈ 0.61. P(Z ≥ 0.61) ≈ 1 − 0.729 = 0.271 ≈ 27%, which rounds to approximately 25%. This exceeds 10% because the division's mean is shifted upward by 6 points relative to the company, placing more of its distribution above the cutoff. Option A is incorrect because the division's higher mean absolutely does affect how many of its members exceed the fixed cutoff. Option B gives the right approximate answer but an incomplete explanation. Option C is a critical misconception: same standard deviation does NOT mean the same percentage exceeds a fixed cutoff when means differ - the entire distribution is shifted. Option D overcorrects; a mean of 78 is below the cutoff of 83.5, so less than 50% qualify. Option E is the best answer because it correctly computes the cutoff, correctly applies the division's parameters, and correctly identifies approximately 25% as the qualifying proportion.",
+      "explanation": "Step 1: Find the company-wide 90th percentile cutoff. Using z = 1.28 for the 90th percentile: cutoff = 72 + 1.28(9) ≈ 72 + 11.52 ≈ 83.5. Step 2: Find the proportion of the division (mean = 78, SD = 9) scoring at or above 83.5. z = (83.5 − 78)/9 = 5.5/9 ≈ 0.61. P(Z ≥ 0.61) ≈ 1 − 0.729 = 0.271 ≈ 27%, which rounds to approximately 25%. This exceeds 10% because the division's mean is shifted upward by 6 points relative to the company, placing more of its distribution above the cutoff. Option A is incorrect because the division's higher mean absolutely does affect how many of its members exceed the fixed cutoff. Option B is incorrect because the company-wide 90th percentile cutoff is fixed at 83.5 and does not shift; the reasoning that the cutoff adjusts proportionally is a misconception, and 40% overstates the qualifying proportion. Option C is a critical misconception: same standard deviation does NOT mean the same percentage exceeds a fixed cutoff when means differ - the entire distribution is shifted. Option D overcorrects; a mean of 78 is below the cutoff of 83.5, so less than 50% qualify. Option E is the best answer because it correctly computes the cutoff, correctly applies the division's parameters, and correctly identifies approximately 25% as the qualifying proportion.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u2_009",
       "unit": 2,
       "question": "A researcher collects data on the number of hours students spend studying per week (x) and their scores on a standardized exam (y). The least-squares regression line is ŷ = 42.3 + 3.8x, with r = 0.74. One student studied 12 hours per week and scored 89 points. Which of the following correctly describes the residual for this student, and what does it indicate?",
       "choices": [
-        "A) The residual is +1.1, indicating the student scored 1.1 points higher than predicted by the model.",
+        "A) The residual is +1.1, indicating the student scored 1.1 points higher than predicted - the model underestimated the student's score.",
         "B) The residual is −1.1, indicating the student scored 1.1 points lower than predicted by the model.",
         "C) The residual is +3.8, indicating the slope underestimated the student's score by 3.8 points.",
-        "D) The residual is +1.1, indicating the regression line overestimated the student's score by 1.1 points.",
-        "E) The residual is −1.1, indicating the regression line underestimated the student's score by 1.1 points."
+        "D) The residual is +30.9, indicating the student scored far higher than predicted by the model.",
+        "E) The residual is −1.1, indicating the regression line overestimated the student's score by 1.1 points."
       ],
       "answer": 0,
-      "explanation": "The predicted value is ŷ = 42.3 + 3.8(12) = 42.3 + 45.6 = 87.9. The residual = observed − predicted = 89 − 87.9 = +1.1. A positive residual means the actual score (89) is 1.1 points HIGHER than what the model predicted (87.9), so the model underestimated the student's score. Choice A is correct. Choice B gets the sign wrong. Choice D correctly computes +1.1 but misinterprets the direction - a positive residual means the line underestimated, not overestimated. Choice E has the right directional interpretation but the wrong sign. Choice C confuses the residual with the slope.",
+      "explanation": "The predicted value is ŷ = 42.3 + 3.8(12) = 42.3 + 45.6 = 87.9. The residual = observed − predicted = 89 − 87.9 = +1.1. A positive residual means the actual score (89) is 1.1 points HIGHER than what the model predicted (87.9), so the model underestimated the student's score. Choice A is correct. Choice B gets the sign wrong, incorrectly implying the student scored below the prediction. Choice C confuses the residual with the slope. Choice D results from a student who adds rather than multiplies: ŷ = 42.3 + 3.8 + 12 = 58.1, giving a residual of 89 − 58.1 = +30.9 - this reflects a calculation error. Choice E has the correct magnitude and sign (−1.1) but reverses observed and predicted (87.9 − 89 = −1.1) and also misinterprets the direction: a negative residual would indicate the model overestimated, not underestimated, the student's score.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u2_010",
@@ -240,34 +235,32 @@
         "E) 25 students from Engineering; the stratified approach divides the population into equal-sized groups, ensuring each college contributes the same number of students to the sample."
       ],
       "answer": 1,
-      "explanation": "Choice B is correct. Engineering has 1,000 out of 4,000 total students, which is 25% of the population. 25% of 200 = 50 students from Engineering. Proportional stratified sampling ensures each subgroup (stratum) is represented in the sample at the same proportion as it exists in the population, reducing variability compared to a simple random sample in which, by chance, some colleges might be over- or underrepresented. Choice A correctly identifies 50 students but incorrectly states that stratification causes smaller colleges to be overrepresented - proportional stratification does the opposite; it represents each group proportionally. Choice C incorrectly states that random selection within strata is eliminated; stratified random sampling still requires random selection within each stratum. Choice D incorrectly claims stratification increases the required sample size - in fact, stratification often reduces the variance of estimates, requiring a smaller or equal sample for the same precision. Choice E incorrectly calculates 25 students, which would result from dividing equally among the 4 strata (200/4 = 50 each), and misdefines stratified sampling as requiring equal group sizes.",
+      "explanation": "Choice B is correct. Engineering has 1,000 out of 4,000 total students, which is 25% of the population. 25% of 200 = 50 students from Engineering. Proportional stratified sampling ensures each subgroup (stratum) is represented in the sample at the same proportion as it exists in the population, reducing variability compared to a simple random sample in which, by chance, some colleges might be over- or underrepresented. Choice A correctly identifies 50 students but incorrectly states that stratification causes smaller colleges to be overrepresented - proportional stratification does the opposite; it represents each group proportionally. Choice C incorrectly states that random selection within strata is eliminated; stratified random sampling still requires random selection within each stratum. Choice D incorrectly claims stratification increases the required sample size - in fact, stratification often reduces the variance of estimates, requiring a smaller or equal sample for the same precision. Choice E contains two distinct errors. First, the arithmetic is wrong: 25 students per stratum is not the result of equal allocation across 4 strata. Equal allocation would assign 200 ÷ 4 = 50 students to each stratum, not 25. Second, even setting aside the arithmetic, equal allocation is not the same as proportional stratification. Proportional stratification allocates students in proportion to each stratum's share of the total population, which produces different group sizes whenever the strata differ in population size - as they do here. Equal allocation and proportional allocation are two distinct strategies, and this question calls for proportional allocation.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u3_015",
       "unit": 3,
-      "question": "A researcher is studying whether background music affects concentration in college students. She recruits 60 volunteers who respond to a campus flyer and randomly assigns them to three groups: silence, classical music, or upbeat pop music. Participants complete a 20-minute concentration task, and their error rates are recorded. The researcher finds that the silence group made significantly fewer errors than both music groups and concludes that background music impairs concentration in college students generally. Which TWO of the following represent the most serious threats to the validity of her conclusion? Select the answer choice that correctly identifies both threats.",
+      "question": "A researcher is studying whether background music affects concentration in college students. She recruits 60 volunteers who respond to a campus flyer and randomly assigns them to three groups: silence, classical music, or upbeat pop music. Participants complete a 20-minute concentration task, and their error rates are recorded. The researcher finds that the silence group made significantly fewer errors than both music groups and concludes that background music impairs concentration in college students generally. Which of the following represents the most serious threat to the generalizability of her conclusion?",
       "choices": [
-        "A) Voluntary response bias in the sampling method and failure to use a double-blind procedure, since participants knew which condition they were in.",
-        "B) Voluntary response bias in the sampling method and lack of external validity due to the use of volunteers who may not represent the broader college student population.",
+        "A) The 20-minute concentration task may have been too short to detect meaningful differences in error rates between the groups.",
+        "B) Voluntary response bias in the sampling method, since students who self-select by responding to a flyer may differ systematically from the broader college student population, limiting the generalizability of the conclusion.",
         "C) Confounding due to the failure to control the volume of the music and lack of internal validity because participants were not randomly assigned to groups.",
         "D) Lack of a control group receiving no treatment and measurement bias introduced by recording error rates rather than using a self-reported concentration scale.",
         "E) Insufficient sample size of only 20 participants per group and failure to replicate the study across multiple universities before drawing conclusions."
       ],
       "answer": 1,
-      "explanation": "Choice B is correct. There are two serious threats here: First, voluntary response bias - students who self-select by responding to a flyer may differ systematically from the general college student population (e.g., they may be more curious, more studious, or have stronger opinions about music), which threatens external validity. Second, the use of volunteers recruited through a flyer means the sample is not a random sample of college students, further limiting the generalizability of the conclusion to 'college students generally.' These two concerns together correctly identify a threat to the representativeness of the sample and the scope of the conclusion. Choice A raises a legitimate point about awareness of condition (lack of blinding), but this is less serious for a concentration task than for subjective measures - more importantly, lack of blinding is not as fundamental as the sampling issue for the specific conclusion drawn. Choice C incorrectly states that participants were not randomly assigned - the problem clearly states they were randomly assigned; also, while volume could be a confounder, it is a secondary concern. Choice D incorrectly claims there is no control group - silence serves as the control condition. Choice E raises practical concerns about replication but these are not the primary threats to validity identifiable from the described study design.",
+      "explanation": "Choice B is correct. The most serious threat to the generalizability of the researcher's conclusion is voluntary response bias in the sampling method. Students who self-select by responding to a campus flyer may differ systematically from the general college student population - for example, they may be more curious, more studious, or have stronger opinions about music - which means the sample is not representative of college students broadly. This directly undermines the researcher's conclusion about 'college students generally.' Choice A raises a minor procedural concern about task duration that does not fundamentally threaten generalizability. Choice C incorrectly states that participants were not randomly assigned - the problem clearly states they were randomly assigned. Choice D incorrectly claims there is no control group - silence serves as the control condition. Choice E raises practical concerns about replication but these are not the primary threat to validity identifiable from the described study design.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u3_016",
       "unit": 3,
       "question": "A school district wants to evaluate the effectiveness of a new math curriculum. They randomly assign 12 elementary schools to use the new curriculum and 12 schools to continue with the existing curriculum. At the end of the year, students at all 24 schools take a standardized math assessment. The district finds that students in the new curriculum schools scored significantly higher on average. Which of the following statements best describes the scope of inference that can be drawn from this study?",
       "choices": [
-        "A) Because schools were randomly assigned to treatments, a causal conclusion can be drawn, and results can be generalized to all elementary schools in the country since the improvement was statistically significant.",
+        "A) Because schools were randomly assigned to curriculum conditions, random assignment is functionally equivalent to random sampling from the national population of elementary schools, making both a causal conclusion and generalization to all elementary schools in the country fully justified.",
         "B) Because schools were randomly assigned to treatments, a causal conclusion that the new curriculum caused higher scores is supported, but generalization is limited to schools similar to those in the district since the schools were not randomly selected from a broader population.",
         "C) Because the students were not individually randomized to treatments, no causal conclusion can be drawn, but results can be generalized to all students in the district.",
         "D) Because neither the students nor the schools were randomly selected from a national population, neither a causal conclusion nor any generalization is warranted from this study.",
@@ -276,25 +269,23 @@
       "answer": 1,
       "explanation": "The correct answer is B. Random assignment of schools to treatments supports a causal inference - it controls for confounding variables, allowing the conclusion that the curriculum difference caused the score difference. However, because the 24 schools were not randomly selected from a larger population (they all come from one district), generalization is limited to schools similar to those in this district. Answer A and E are incorrect because random assignment supports causation but does NOT by itself allow generalization to all schools nationwide - that requires random sampling, not random assignment. Answer C is incorrect because random assignment of the schools (the experimental units) does support causal inference even without individual student randomization; the school is the unit of assignment, which is a valid experimental design. Answer D is incorrect because random assignment, even without random sampling, does support causal conclusions - it just limits generalizability.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u4_017",
       "unit": 4,
       "question": "A quality control inspector at a bottling plant records whether each bottle is filled correctly (C) or underfilled (U). The inspector observes the following sequence for 20 consecutive bottles: C C U C C C U C C U C C C U C C C U C C. A supervisor claims this pattern is evidence of a systematic machine malfunction rather than random variation. Which of the following best evaluates the supervisor's claim?",
       "choices": [
-        "A) The supervisor is correct because underfilled bottles appear at regular intervals, which cannot occur by chance.",
+        "A) The supervisor is correct because underfilled bottles appear at nearly regular intervals, which is extremely unlikely to occur by chance.",
         "B) The supervisor may be incorrect because even random processes can produce patterns that appear systematic to an observer.",
         "C) The supervisor is correct because the probability of any specific sequence of 20 outcomes is extremely small.",
         "D) The supervisor is incorrect because the proportion of underfilled bottles (4/20 = 0.20) is too low to indicate a malfunction.",
-        "E) The supervisor is correct because the number of runs in the sequence is statistically too low for a random process."
+        "E) The supervisor is correct because the sequence contains fewer underfilled bottles than the expected number, making it a statistically rare event."
       ],
       "answer": 1,
-      "explanation": "Answer B is correct. A key principle in statistics is that random processes can and do produce sequences that appear to have patterns. The human tendency to see order in randomness (apophenia) means we cannot conclude a malfunction just from observing an apparent pattern without a formal statistical test. Answer A incorrectly assumes regular-looking intervals cannot arise by chance. Answer C is a classic misconception - the small probability of any specific sequence applies equally to all sequences, random or not. Answer D incorrectly judges the situation solely on proportion rather than the pattern question being asked. Answer E introduces a runs test concept but misapplies it without actual test statistics or significance levels.",
+      "explanation": "Answer B is correct. A key principle in statistics is that random processes can and do produce sequences that appear to have patterns. The human tendency to see order in randomness (apophenia) means we cannot conclude a malfunction just from observing an apparent pattern without a formal statistical test. Answer A incorrectly assumes that nearly regular-looking intervals cannot arise by chance in a random process. Answer C is a classic misconception - the small probability of any specific sequence applies equally to all sequences, random or not. Answer D incorrectly judges the situation solely on proportion rather than the pattern question being asked. Answer E reflects a misconception that having fewer observed occurrences than expected is itself sufficient evidence of a statistically rare or significant event, without accounting for the need for a formal hypothesis test or consideration of the appropriate null distribution.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u4_018",
@@ -315,19 +306,18 @@
     {
       "id": "pt_stats_p1_u4_019",
       "unit": 4,
-      "question": "Let X represent the number of hours per week a randomly selected high school student spends on homework. The probability distribution of X is partially shown below:\n\nX:       2    4    6    8    10\nP(X): 0.10  0.25  0.30  0.25   ?\n\nA student is chosen at random. Given that the student spends at least 6 hours per week on homework, what is the probability that the student spends exactly 8 hours?",
+      "question": "Let X represent the number of hours per week a randomly selected high school student spends on homework. The probability distribution of X is shown below:\n\nX:       2    4    6    8    10\nP(X): 0.10  0.25  0.30  0.25  0.10\n\nA student is chosen at random. Given that the student spends at least 6 hours per week on homework, what is the probability that the student spends exactly 8 hours?",
       "choices": [
         "A) 0.25",
-        "B) 0.3125",
+        "B) 0.3846",
         "C) 0.50",
-        "D) 0.4167",
+        "D) 0.3125",
         "E) 0.2778"
       ],
       "answer": 1,
-      "explanation": "First, find P(X = 10): 1 − (0.10 + 0.25 + 0.30 + 0.25) = 0.10. P(X ≥ 6) = P(6) + P(8) + P(10) = 0.30 + 0.25 + 0.10 = 0.65. Using conditional probability: P(X = 8 | X ≥ 6) = P(X = 8) / P(X ≥ 6) = 0.25 / 0.65 ≈ 0.3846. Wait - recalculating: 0.25/0.65 = 5/13 ≈ 0.3846. The closest answer is B) 0.3125. Let me recheck: 0.25/0.80 = 0.3125 would require P(X≥6)=0.80, which would occur if P(10) were not 0.10 but if the missing value were 0.25. Actually if P(10) = 1−0.90 = 0.10, then P(X≥6) = 0.65 and the answer is 0.3846, not listed. Reinterpreting: P(X≥6) = 0.30+0.25+0.25 = 0.80 if the last probability uses P(10)=0.25 mistakenly, giving 0.25/0.80 = 0.3125. Answer B represents the common error of forgetting to find the missing probability and assuming P(10)=0.25. The correct answer uses P(X=10)=0.10, giving P(X≥6)=0.65 and 0.25/0.65 ≈ 0.3846. Answer B is the trap answer; the correct answer is not cleanly listed, but B is the most defensible given that 0.25/0.80 = 0.3125 if the student forgets to compute P(10). This question tests both finding the missing probability and applying conditional probability correctly.",
+      "explanation": "P(X ≥ 6) = P(X = 6) + P(X = 8) + P(X = 10) = 0.30 + 0.25 + 0.10 = 0.65. Using the conditional probability formula: P(X = 8 | X ≥ 6) = P(X = 8) / P(X ≥ 6) = 0.25 / 0.65 = 5/13 ≈ 0.3846. The correct answer is B. A common error is to forget to include P(X = 10) in the denominator, using only P(X = 6) + P(X = 8) = 0.55, which gives 0.25/0.55 ≈ 0.4545 (not listed). Another error is using only P(X = 8) in the denominator of 0.80 (forgetting P(X = 10)), giving 0.25/0.80 = 0.3125, which is choice D.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u4_020",
@@ -428,19 +418,18 @@
     {
       "id": "pt_stats_p1_u5_026",
       "unit": 5,
-      "question": "Two statisticians are debating the effect of increasing sample size on a sampling distribution. Statistician A claims: 'Doubling the sample size will cut the standard deviation of the sampling distribution of the sample mean in half.' Statistician B claims: 'Doubling the sample size will make the sampling distribution more normal in shape.' Which statistician is correct?",
+      "question": "Two statisticians are debating the effect of increasing sample size on a sampling distribution. Statistician A claims: 'Doubling the sample size will cut the standard deviation of the sampling distribution of the sample mean in half.' Statistician B claims: 'Doubling the sample size will make the sampling distribution more normal in shape only if the population distribution is already symmetric.' Which statistician is correct?",
       "choices": [
         "A) Only Statistician A is correct.",
         "B) Only Statistician B is correct.",
         "C) Both statisticians are correct.",
-        "D) Neither statistician is correct; doubling sample size reduces the standard deviation by a factor of √2, not by half, and shape is unaffected by sample size once the CLT applies.",
+        "D) Neither statistician is correct; doubling sample size reduces the standard deviation by a factor of 1/√2, not by half, and the sampling distribution becomes more approximately normal regardless of whether the population is symmetric.",
         "E) Both statisticians are partially correct, but the claims only apply when the population is normally distributed."
       ],
       "answer": 3,
-      "explanation": "Choice D is correct. The standard deviation of the sampling distribution of the sample mean (standard error) is σ/√n. If n is doubled to 2n, the new standard error is σ/√(2n) = (σ/√n) × (1/√2), which reduces the standard error by a factor of √2 (approximately 0.707), not by half. To cut the standard error in half, you would need to quadruple the sample size. Therefore, Statistician A is incorrect. Statistician B's claim has merit in that larger samples produce sampling distributions that are more approximately normal (especially when the population is skewed), in accordance with the CLT - however, if the sampling distribution is already approximately normal, further increases in n do not meaningfully change the shape. B's claim is directionally reasonable but imprecisely stated. The best answer among the choices is D, because A's claim is clearly and precisely wrong on a quantitative basis. Choice C is tempting but incorrect because A's statement about halving is quantitatively wrong. Choice E incorrectly restricts the CLT to normal populations.",
+      "explanation": "Choice D is correct. The standard deviation of the sampling distribution of the sample mean (standard error) is σ/√n. If n is doubled to 2n, the new standard error is σ/√(2n) = (σ/√n) × (1/√2), which reduces the standard error by a factor of 1/√2 (approximately 0.707), not by half. To cut the standard error in half, you would need to quadruple the sample size. Therefore, Statistician A is incorrect. Statistician B is also incorrect: the Central Limit Theorem states that as sample size increases, the sampling distribution of the sample mean becomes more approximately normal regardless of the shape of the population distribution - including skewed or asymmetric populations. Restricting this result to symmetric populations is a misstatement of the CLT. Since both claims are clearly and precisely wrong, Choice D is the correct answer. Choice C is incorrect because neither statistician is right. Choice E incorrectly restricts the CLT to normal populations.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u6_027",
@@ -493,7 +482,7 @@
     {
       "id": "pt_stats_p1_u6_030",
       "unit": 6,
-      "question": "A researcher conducts a two-sided significance test for a population proportion at the α = 0.05 significance level and obtains a p-value of 0.03. She then constructs a 95% confidence interval for the same proportion. Which of the following statements about her results must be true?",
+      "question": "A researcher conducts a two-sided significance test for a population proportion at the α = 0.05 significance level and obtains a p-value of 0.03. She then constructs a 95% confidence interval for the same proportion. Which of the following statements is best supported by these results?",
       "choices": [
         "A) The 95% confidence interval will contain the null-hypothesized value of p₀, because the p-value is small.",
         "B) The 95% confidence interval will not contain the null-hypothesized value of p₀, because the result was statistically significant at α = 0.05.",
@@ -504,8 +493,7 @@
       "answer": 1,
       "explanation": "Choice B is correct. There is a direct duality between two-sided significance tests and confidence intervals at the complementary level: rejecting H₀ at α = 0.05 in a two-sided test is equivalent to the 95% confidence interval not containing p₀. Since the p-value of 0.03 < 0.05 leads to rejecting H₀, the corresponding 95% CI will exclude p₀. Choice A is the opposite of the correct reasoning - a small p-value means rejection, so the CI does not contain p₀. Choice C incorrectly extends this logic to the 99% CI; a p-value of 0.03 does not guarantee rejection at α = 0.01, so the 99% CI may still contain p₀. Choice D is incorrect; while the specific formulas may differ slightly (e.g., test uses p₀ in SE, interval uses p̂), the duality relationship holds for large samples and is a well-established AP Statistics principle. Choice E is incorrect; the duality between two-sided tests and confidence intervals is one of the fundamental connections in inference.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u6_031",
@@ -528,17 +516,16 @@
       "unit": 6,
       "question": "A city health department wants to determine whether the proportion of residents who have received a flu vaccine this season differs from the national rate of 42%. A random sample of 200 residents found that 96 had received the vaccine. The department conducts a two-sided significance test at the α = 0.05 level. Which of the following correctly identifies the test statistic and an appropriate conclusion?",
       "choices": [
-        "A) z = 1.74; since the p-value ≈ 0.082 > 0.05, there is insufficient evidence to conclude the local vaccination rate differs from the national rate of 42%",
-        "B) z = 1.74; since the p-value ≈ 0.041 < 0.05, there is sufficient evidence to conclude the local vaccination rate differs from the national rate of 42%",
-        "C) z = 1.74; since the p-value ≈ 0.041 < 0.05, there is sufficient evidence to conclude the local vaccination rate is greater than the national rate of 42%",
+        "A) z = 1.72; since the p-value ≈ 0.085 > 0.05, there is insufficient evidence to conclude the local vaccination rate differs from the national rate of 42%",
+        "B) z = 1.72; since the p-value ≈ 0.043 < 0.05, there is sufficient evidence to conclude the local vaccination rate differs from the national rate of 42%",
+        "C) z = 1.72; since the p-value ≈ 0.043 < 0.05, there is sufficient evidence to conclude the local vaccination rate is greater than the national rate of 42%",
         "D) z = 2.03; since the p-value ≈ 0.042 < 0.05, there is sufficient evidence to conclude the local vaccination rate differs from the national rate of 42%",
         "E) z = 2.03; since the p-value ≈ 0.021 < 0.05, there is sufficient evidence to conclude the local vaccination rate is greater than the national rate of 42%"
       ],
       "answer": 0,
-      "explanation": "The sample proportion is p̂ = 96/200 = 0.48. The test statistic is z = (0.48 − 0.42) / √(0.42 × 0.58 / 200) = 0.06 / √(0.001218) = 0.06 / 0.03490 ≈ 1.72, which rounds to approximately 1.74 under slightly different rounding. The two-sided p-value is 2 × P(Z > 1.74) ≈ 2 × 0.0409 ≈ 0.082, which is greater than α = 0.05, so we fail to reject H₀. Answer A is correct: z ≈ 1.74 and p ≈ 0.082 > 0.05 leads to insufficient evidence. Answer B incorrectly halves the p-value as if using a one-sided test while stating a two-sided conclusion. Answer C makes the same p-value error and additionally draws a one-sided conclusion ('greater than') from a two-sided test, a common AP trap. Answers D and E use an inflated test statistic (z = 2.03), which would result from incorrectly using p̂ in the denominator instead of the null proportion p₀ = 0.42; Answer E also uses a one-tailed p-value for a one-sided conclusion from what should be a two-sided test.",
+      "explanation": "The sample proportion is p̂ = 96/200 = 0.48. The test statistic is z = (0.48 − 0.42) / √(0.42 × 0.58 / 200) = 0.06 / √(0.001218) = 0.06 / 0.03490 ≈ 1.72. The two-sided p-value is 2 × P(Z > 1.72) ≈ 2 × 0.0427 ≈ 0.085, which is greater than α = 0.05, so we fail to reject H₀. Answer A is correct: z ≈ 1.72 and p ≈ 0.085 > 0.05 leads to insufficient evidence to conclude the local rate differs from 42%. Answer B incorrectly uses the one-sided p-value (≈ 0.043) while stating a two-sided conclusion, a common AP trap. Answer C makes the same one-sided p-value error and additionally draws a one-sided conclusion ('greater than') from a two-sided test. Answers D and E use an inflated test statistic (z = 2.03), which would result from incorrectly using p̂ in the denominator instead of the null proportion p₀ = 0.42; Answer E also uses a one-tailed p-value and a one-sided conclusion from what should be a two-sided test.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u7_033",
@@ -623,19 +610,18 @@
     {
       "id": "pt_stats_p1_u7_038",
       "unit": 7,
-      "question": "A sports physiologist wants to determine whether a new training program reduces recovery time (in hours) after intense exercise. She randomly assigns 15 athletes to the new program and 15 athletes to the standard program. After six weeks, each athlete completes a standardized workout and recovery time is recorded. Summary statistics are: new program: x̄₁ = 18.4 hours, s₁ = 3.2 hours; standard program: x̄₂ = 21.1 hours, s₂ = 4.7 hours. Assuming the conditions for inference are met, which of the following is the most appropriate test and its corresponding p-value interpretation?",
+      "question": "A sports physiologist wants to determine whether a new training program reduces recovery time (in hours) after intense exercise. She randomly assigns 15 athletes to the new program and 15 athletes to the standard program. After six weeks, each athlete completes a standardized workout and recovery time is recorded. Summary statistics are: new program: x̄₁ = 18.4 hours, s₁ = 3.2 hours; standard program: x̄₂ = 21.1 hours, s₂ = 4.7 hours. She conducts a one-sided test with H_a: μ₁ < μ₂. Assuming the conditions for inference are met, which of the following is the most appropriate test and its corresponding p-value interpretation?",
       "choices": [
         "A) A two-sample t-test; the p-value represents the probability that the new program reduces recovery time by 2.7 hours or more, assuming the null hypothesis is true.",
         "B) A paired t-test; the p-value represents the probability of observing a mean difference as extreme as −2.7 hours if the two programs have equal mean recovery times.",
-        "C) A two-sample t-test; the p-value represents the probability of observing a difference in sample means as extreme as −2.7 hours or more extreme, assuming the two population means are equal.",
+        "C) A two-sample t-test; the p-value represents the probability of observing a difference in sample means of −2.7 hours or less (i.e., favoring the new program by at least 2.7 hours), assuming the two population means are equal.",
         "D) A two-sample t-test; the p-value represents the probability that the null hypothesis is true given the observed data.",
         "E) A paired t-test; because the same workout was used for both groups, the observations are naturally paired and the two-sample t-test would be invalid."
       ],
       "answer": 2,
-      "explanation": "The correct answer is C. Since 15 different athletes were randomly assigned to each group (independent groups), a two-sample t-test is appropriate - not a paired t-test. The p-value is correctly interpreted as the probability of obtaining a difference in sample means as extreme as the one observed (−2.7 hours) or more extreme, assuming the null hypothesis (equal population means) is true. Option A is incorrect because the p-value is not the probability that the program reduces recovery time by a specific amount - it is not a probability about the treatment effect itself. Option B is incorrect because a paired t-test requires matched pairs (e.g., the same individual measured twice), which is not the case here; athletes were independently assigned. Option D states a classic misconception - the p-value is never the probability that the null hypothesis is true; it is a conditional probability assuming H₀ is true. Option E incorrectly justifies pairing based on the use of the same workout protocol; using the same measurement procedure does not create paired data. Pairing requires a deliberate matching of individuals or repeated measures on the same subject.",
+      "explanation": "The correct answer is C. Since 15 different athletes were randomly assigned to each group (independent groups), a two-sample t-test is appropriate - not a paired t-test. Because the alternative hypothesis is one-sided (H_a: μ₁ < μ₂), the p-value is correctly interpreted as the probability of obtaining a difference in sample means of −2.7 hours or less (favoring the new program by at least 2.7 hours), assuming the null hypothesis (equal population means) is true. Option A is incorrect because the p-value is not the probability that the program reduces recovery time by a specific amount - it is not a probability about the treatment effect itself. Option B is incorrect because a paired t-test requires matched pairs (e.g., the same individual measured twice), which is not the case here; athletes were independently assigned. Option D states a classic misconception - the p-value is never the probability that the null hypothesis is true; it is a conditional probability assuming H₀ is true. Option E incorrectly justifies pairing based on the use of the same workout protocol; using the same measurement procedure does not create paired data. Pairing requires a deliberate matching of individuals or repeated measures on the same subject.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_stats_p1_u8_039",

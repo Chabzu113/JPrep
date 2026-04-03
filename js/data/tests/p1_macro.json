@@ -47,19 +47,18 @@
     {
       "id": "pt_macro_p1_u1_003",
       "unit": 1,
-      "question": "A student currently working a part-time job earning $12 per hour decides to spend a Saturday attending a free outdoor music festival instead of working. The student also pays $15 for food at the festival. What is the opportunity cost of attending the festival, assuming the student would have worked an 8-hour shift?",
+      "question": "A student currently working a part-time job earning $12 per hour decides to spend a Saturday attending a free outdoor music festival instead of working. What is the opportunity cost of attending the festival, assuming the student would have worked an 8-hour shift?",
       "choices": [
         "A) $0, because the festival admission is free.",
-        "B) $15, because that is the only explicit monetary cost incurred.",
+        "B) $12, because that is the hourly wage the student earns.",
         "C) $96, because the student forfeits an 8-hour shift at $12 per hour.",
-        "D) $111, because opportunity cost includes both the forgone wages and the food expenditure.",
+        "D) $111, because opportunity cost must include a standard meal expenditure.",
         "E) $96, but only if the student enjoyed the festival less than the value of the forgone wages."
       ],
-      "answer": 3,
-      "explanation": "Opportunity cost is the value of the next best alternative foregone, including both explicit and implicit costs. The explicit cost is the $15 food expenditure (a real resource given up). The implicit cost is the $96 in forgone wages (8 hours × $12). Together, the total opportunity cost is $15 + $96 = $111. Choice A ignores all costs because it conflates 'free admission' with 'no cost.' Choice B counts only explicit costs and ignores forgone wages. Choice C counts only the forgone wages and ignores the $15 explicit food cost. Choice E incorrectly conditions opportunity cost on subjective enjoyment - opportunity cost is objective, based on what is given up, not on net satisfaction.",
+      "answer": 2,
+      "explanation": "Opportunity cost is the value of the next best alternative foregone. In this case, the student's next best alternative to attending the festival was working an 8-hour shift at $12 per hour, yielding $96 in forgone wages. Therefore, the opportunity cost of attending the festival is $96. Choice A incorrectly concludes there is no cost simply because admission is free, ignoring the forgone wages. Choice B counts only a single hour of wages rather than the full shift. Choice D introduces a monetary figure that has no basis in the scenario. Choice E incorrectly conditions opportunity cost on subjective enjoyment - opportunity cost is determined by what is objectively given up, not by the level of satisfaction received.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u1_004",
@@ -101,14 +100,13 @@
         "A) Real GDP has increased by approximately $1 trillion and the price level has risen by 20%, indicating both economic growth and inflation since the base year.",
         "B) Real GDP has decreased by $3 trillion and the price level has fallen by 20%, indicating a recession accompanied by deflation since the base year.",
         "C) Real GDP has increased by $4 trillion and the price level is unchanged, meaning all nominal GDP growth reflects real output gains.",
-        "D) Real GDP has increased by approximately $1 trillion and the price level has risen by 20%, but because population has grown, per capita real GDP may not have increased.",
+        "D) Real GDP has increased by approximately $1 trillion and the price level has risen by 20%, but because population has grown, per capita real GDP has necessarily fallen since the base year.",
         "E) Nominal GDP growth of $4 trillion entirely reflects inflation, so real GDP has remained at $14 trillion since the base year."
       ],
       "answer": 0,
-      "explanation": "To find real GDP, divide nominal GDP by the GDP deflator and multiply by 100: ($18 trillion / 120) × 100 = $15 trillion. Compared to the base year real GDP of $14 trillion, real GDP has increased by approximately $1 trillion. The GDP deflator of 120 means the price level has risen 20% above the base year (since the base year deflator = 100). Answer A correctly identifies both facts. Answer B incorrectly inverts the deflator relationship, confusing a deflator above 100 with deflation. Answer C incorrectly assumes no price change, ignoring the deflator entirely. Answer D contains the correct real GDP calculation and price level interpretation but adds a caveat about per capita real GDP - while that caveat is technically true in isolation, the question asks about the relationship between real GDP growth and price level change, making D's framing misleading and incomplete as a 'best description' compared to A. Answer E incorrectly assumes all nominal growth is purely inflationary and that real GDP is unchanged, which would only be true if the entire $4 trillion increase was due to price increases - the deflator calculation disproves this.",
+      "explanation": "To find real GDP, divide nominal GDP by the GDP deflator and multiply by 100: ($18 trillion / 120) × 100 = $15 trillion. Compared to the base year real GDP of $14 trillion, real GDP has increased by approximately $1 trillion. The GDP deflator of 120 means the price level has risen 20% above the base year (since the base year deflator = 100). Answer A correctly identifies both facts. Answer B incorrectly inverts the deflator relationship, confusing a deflator above 100 with deflation. Answer C incorrectly assumes no price change, ignoring the deflator entirely. Answer D contains the correct real GDP calculation and price level interpretation but makes a factually incorrect claim: we are not given population growth data, so we cannot conclude that per capita real GDP has 'necessarily fallen' - in fact, with no information on how population has changed since the base year, this conclusion is unwarranted and false as stated. Answer E incorrectly assumes all nominal growth is purely inflationary and that real GDP is unchanged, which would only be true if the entire $4 trillion increase was due to price increases - the deflator calculation disproves this.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u2_007",
@@ -129,19 +127,18 @@
     {
       "id": "pt_macro_p1_u2_008",
       "unit": 2,
-      "question": "A country reports the following data for the current year: nominal GDP has risen by 8% compared to the previous year, while the GDP deflator has increased from 125 to 135. Which of the following best describes the change in real GDP, and what does this indicate about economic growth?",
+      "question": "A country reports the following data for the current year: nominal GDP has risen by 8% compared to the previous year, and the GDP deflator has increased from 100 to 105. Which of the following best describes the change in real GDP, and what does this indicate about economic growth?",
       "choices": [
-        "A) Real GDP increased by approximately 8%, indicating robust real economic growth driven by increased output.",
-        "B) Real GDP increased by approximately 0.7%, indicating that most of the nominal GDP growth was driven by inflation rather than increased real output.",
-        "C) Real GDP increased by approximately 2%, indicating moderate real economic growth after adjusting for price changes.",
-        "D) Real GDP decreased by approximately 8%, indicating that inflation has fully offset the gains in nominal GDP.",
-        "E) Real GDP increased by approximately 6%, indicating that the economy grew significantly in real terms after accounting for inflation."
+        "A) Real GDP increased by approximately 8%, indicating that inflation had no effect on real output growth.",
+        "B) Real GDP increased by approximately 5%, indicating that inflation accounts for most of the nominal GDP growth.",
+        "C) Real GDP increased by approximately 2.9%, indicating that real output grew moderately after adjusting for inflation.",
+        "D) Real GDP decreased by approximately 3%, indicating that inflation more than offset the gains in nominal GDP.",
+        "E) Real GDP increased by approximately 6%, indicating strong real economic growth after accounting for the rise in prices."
       ],
-      "answer": 1,
-      "explanation": "To find real GDP growth, we use the relationship: Real GDP growth ≈ Nominal GDP growth − Inflation rate. The GDP deflator rose from 125 to 135, representing an inflation rate of (135−125)/125 = 10/125 ≈ 8% (actually closer to 8%). More precisely: the new real GDP index = (Nominal GDP index / new deflator) × 100. If nominal GDP grew 8% and the deflator grew by (135−125)/125 = 8%, then real GDP growth ≈ [(1.08/1.08) − 1] × 100 ≈ 0%, but given rounding and the approximate method (8% − 7.2% where 7.2% ≈ change in deflator as a percentage of 110-base rounding), the closest answer reflecting that nearly all nominal growth was inflation is approximately 0.7%, meaning real output barely grew. Option B is correct because it recognizes that the GDP deflator rose by roughly 7.2% (10/135 × 100 in some formulations) to 8%, nearly matching nominal growth, so real GDP growth is minimal - indicating inflation, not real output expansion, drove nominal gains. Option A is wrong because it ignores the price level change entirely. Option C invents a 2% figure without proper calculation. Option D incorrectly claims real GDP fell. Option E overstates real growth by insufficiently accounting for inflation's magnitude.",
+      "answer": 2,
+      "explanation": "To find real GDP growth, we can use two consistent approaches. First, the approximation method: Real GDP growth ≈ Nominal GDP growth − Inflation rate = 8% − 5% = 3%, which is close to 2.9%. Second, the exact index method: if we set last year's nominal GDP to 100, this year's nominal GDP is 108. Real GDP last year = 100/100 × 100 = 100; Real GDP this year = 108/105 × 100 ≈ 102.86. Real GDP growth = (102.86 − 100)/100 × 100 ≈ 2.86%, which rounds to approximately 2.9%. Both methods agree that real GDP grew by roughly 2.9%. This means that while nominal GDP rose 8%, about 5 percentage points of that gain reflected higher prices rather than greater real output. Option C is correct. Option A is wrong because it ignores the price level increase entirely. Option B incorrectly attributes the full inflation rate as the real growth figure. Option D is wrong because real GDP rose, not fell. Option E overstates real growth by insufficiently subtracting the inflation component.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u2_009",
@@ -149,16 +146,15 @@
       "question": "A country reports the following data for a given year: nominal GDP of $12 trillion, a GDP deflator of 150 (base year = 100), and a population of 300 million. In the base year, nominal GDP was $8 trillion. Which of the following correctly calculates real GDP for the current year, and what does the comparison to the base year reveal?",
       "choices": [
         "A) Real GDP is $18 trillion, indicating that the economy has grown in real terms since the base year.",
-        "B) Real GDP is $8 trillion, indicating that the economy has experienced no real growth since the base year.",
+        "B) Real GDP is $8 trillion, indicating that real output has grown since the base year because rising prices drove increased production.",
         "C) Real GDP is $8 trillion, indicating that all of the increase in nominal GDP since the base year was due to inflation rather than real growth.",
         "D) Real GDP is $12 trillion, because the GDP deflator adjusts for population changes, not price level changes.",
         "E) Real GDP is $18 trillion, indicating that prices have fallen since the base year, boosting real output."
       ],
       "answer": 2,
-      "explanation": "Real GDP is calculated by dividing nominal GDP by the GDP deflator and multiplying by 100: ($12 trillion / 150) × 100 = $8 trillion. Since the base year nominal GDP was also $8 trillion (and real GDP always equals nominal GDP in the base year), this reveals that real GDP has not changed - the entire $4 trillion increase in nominal GDP from $8T to $12T was attributable to rising price levels (inflation), not actual increases in output. Choice A and E are wrong because a deflator above 100 means prices have risen, so real GDP is lower than nominal, not higher - dividing by a deflator greater than 100 reduces real GDP. Choice D is incorrect because the GDP deflator adjusts for price level changes, not population; per capita calculations involve dividing by population separately. Choice B is technically correct numerically but incomplete and misleading in its interpretation - it omits the critical insight about inflation accounting for all nominal growth, making C the superior and more analytically complete answer that reflects what AP examiners expect students to synthesize.",
+      "explanation": "Real GDP is calculated by dividing nominal GDP by the GDP deflator and multiplying by 100: ($12 trillion / 150) × 100 = $8 trillion. Since the base year nominal GDP was also $8 trillion (and real GDP always equals nominal GDP in the base year), this reveals that real GDP has not changed - the entire $4 trillion increase in nominal GDP from $8T to $12T was attributable to rising price levels (inflation), not actual increases in output. Choice A and E are wrong because a deflator above 100 means prices have risen, so real GDP is lower than nominal, not higher - dividing by a deflator greater than 100 reduces real GDP. Choice D is incorrect because the GDP deflator adjusts for price level changes, not population; per capita calculations involve dividing by population separately. Choice B arrives at the correct number but contains a clear factual error in its interpretation - rising prices do not indicate increased real production; in fact, the data show no real growth whatsoever. Only Choice C is both numerically correct and provides the accurate interpretation that AP examiners expect students to synthesize.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u2_010",
@@ -198,16 +194,15 @@
       "question": "The table below shows price index values for an economy: Year 1 CPI = 120, Year 2 CPI = 126, Year 3 CPI = 132.3. A worker earning a nominal wage of $60,000 in Year 1 receives a 4% nominal raise each year. Which of the following best describes the worker's real purchasing power by Year 3 compared to Year 1?",
       "choices": [
         "A) The worker's real wage has increased because nominal wages rose each year",
-        "B) The worker's real wage has remained approximately constant because both nominal wages and prices rose at similar rates",
+        "B) The worker's real wage has remained approximately constant because both nominal wages and prices rose at the same rate of approximately 5% per year",
         "C) The worker's real wage has decreased because inflation outpaced nominal wage growth over the period",
         "D) The worker's real wage has increased because a 4% nominal raise always exceeds the real cost of living adjustment needed",
         "E) The worker's real wage cannot be determined without knowing the base year for the price index"
       ],
       "answer": 2,
-      "explanation": "Nominal wage in Year 3: $60,000 × 1.04 × 1.04 = approximately $64,896. Inflation rate Year 1→2: (126-120)/120 = 5%. Inflation rate Year 2→3: (132.3-126)/126 = 5%. So prices rose by approximately 5% annually while nominal wages rose only 4% annually. Real wage in Year 3 = $64,896 / (132.3/120) ≈ $64,896 / 1.1025 ≈ $58,868, which is less than the original $60,000 in Year 1 real terms. Choice A is a classic misconception - nominal increases do not guarantee real increases. Choice B incorrectly treats 4% nominal growth as equivalent to 5% inflation. Choice D is a trap: a 4% nominal raise does NOT always protect purchasing power if inflation exceeds 4%. Choice E is incorrect because comparing CPI values across years is valid regardless of which year is the base year, as long as comparisons are made within the same index.",
+      "explanation": "Nominal wage in Year 3: $60,000 × 1.04 × 1.04 = approximately $64,896. Inflation rate Year 1→2: (126-120)/120 = 5%. Inflation rate Year 2→3: (132.3-126)/126 = 5%. So prices rose by approximately 5% annually while nominal wages rose only 4% annually. Real wage in Year 3 = $64,896 / (132.3/120) ≈ $64,896 / 1.1025 ≈ $58,868, which is less than the original $60,000 in Year 1 real terms. Choice A is a classic misconception - nominal increases do not guarantee real increases. Choice B is incorrect because nominal wages grew at 4% per year, not 5% - wages and prices did not rise at the same rate. Choice D is a trap: a 4% nominal raise does NOT always protect purchasing power if inflation exceeds 4%. Choice E is incorrect because comparing CPI values across years is valid regardless of which year is the base year, as long as comparisons are made within the same index.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u2_013",
@@ -262,17 +257,16 @@
       "unit": 3,
       "question": "An economy is currently producing at its full-employment output level. A sudden spike in global oil prices significantly raises production costs for domestic firms. Using the AD-AS model, which of the following best describes the short-run and long-run outcomes if the government takes no policy action?",
       "choices": [
-        "A) In the short run, SRAS shifts left, raising the price level and reducing real GDP; in the long run, wages and input costs adjust downward, returning output to full employment at a lower price level.",
+        "A) In the short run, SRAS shifts left, raising the price level and reducing real GDP; in the long run, wages and input costs adjust downward, returning output to full employment at a price level close to the original pre-shock level.",
         "B) In the short run, AD shifts left, reducing both the price level and real GDP; in the long run, the economy self-corrects back to full employment with no change in the price level.",
         "C) In the short run, SRAS shifts left, raising the price level and reducing real GDP; in the long run, the economy remains at the lower output level permanently unless policy intervenes.",
         "D) In the short run, both SRAS and AD shift left simultaneously, causing a large drop in real GDP with little change in the price level.",
         "E) In the short run, LRAS shifts left, reducing potential output; in the long run, the economy adjusts back to original potential output as technology improves."
       ],
       "answer": 0,
-      "explanation": "An oil price spike is a negative supply shock that raises firms' input costs, shifting SRAS leftward (upward). This results in stagflation: higher price level and lower real GDP in the short run. Without policy intervention, in the long run, the recession causes unemployment, which puts downward pressure on wages and other input costs. As costs fall, SRAS gradually shifts back rightward, restoring full-employment output - but at a lower price level than the short-run peak. (B) incorrectly identifies the shock as an AD shift. (C) is a common trap - it ignores the long-run self-correction mechanism. (D) incorrectly shifts both curves. (E) confuses SRAS and LRAS; LRAS represents potential output based on resources and technology, not input prices.",
+      "explanation": "An oil price spike is a negative supply shock that raises firms' input costs, shifting SRAS leftward (upward). This results in stagflation: higher price level and lower real GDP in the short run. Without policy intervention, in the long run, the recession causes unemployment, which puts downward pressure on wages and other input costs. As costs fall, SRAS gradually shifts back rightward, restoring full-employment output at a price level close to the original pre-shock level - not below it, as the long-run adjustment returns the economy toward, but not necessarily under, the original equilibrium price level. (B) incorrectly identifies the shock as an AD shift. (C) is a common trap - it ignores the long-run self-correction mechanism. (D) incorrectly shifts both curves. (E) confuses SRAS and LRAS; LRAS represents potential output based on resources and technology, not input prices.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u3_017",
@@ -358,19 +352,18 @@
     {
       "id": "pt_macro_p1_u3_022",
       "unit": 3,
-      "question": "The table below shows data for a hypothetical closed economy:\n\n| Scenario | AD Shift | SRAS Shift | Starting Gap |\n|---|---|---|---|\n| I | Rightward | None | Recessionary |\n| II | None | Leftward | None (at LRAS) |\n| III | Rightward | Rightward (equal magnitude) | None (at LRAS) |\n\nWhich of the following correctly ranks the three scenarios from LARGEST to SMALLEST increase in the price level?",
+      "question": "The table below shows data for a hypothetical closed economy. In each scenario, the economy begins at the indicated gap, and the described shifts occur simultaneously:\n\n| Scenario | AD Shift | SRAS Shift | Starting Position |\n|---|---|---|---|\n| I | Rightward | None | Recessionary gap |\n| II | None | Leftward | At full employment (on LRAS) |\n| III | Rightward by X | Rightward by X | At full employment (on LRAS) |\n\nNote: In Scenario III, 'rightward by X' means both curves shift by the same horizontal distance X.\n\nWhich of the following correctly identifies the direction of change in the price level for each scenario?",
       "choices": [
-        "A) II > I > III, because a negative supply shock causes the largest price increase, an expansionary AD shift causes a moderate increase, and simultaneous equal shifts leave the price level unchanged.",
-        "B) I > II > III, because closing a recessionary gap always produces a larger price increase than a supply shock, and equal shifts cancel out.",
-        "C) III > I > II, because simultaneous rightward shifts amplify price increases more than either shift alone.",
-        "D) II > III > I, because supply shocks increase prices more than demand increases, and equal shifts partially offset each other.",
-        "E) I > III > II, because starting from a recessionary gap always results in the greatest price level change regardless of the type of shock."
+        "A) Scenario I: Price level rises; Scenario II: Price level rises; Scenario III: Price level unchanged",
+        "B) Scenario I: Price level unchanged; Scenario II: Price level falls; Scenario III: Price level rises",
+        "C) Scenario I: Price level rises; Scenario II: Price level falls; Scenario III: Price level unchanged",
+        "D) Scenario I: Price level falls; Scenario II: Price level rises; Scenario III: Price level rises",
+        "E) Scenario I: Price level unchanged; Scenario II: Price level rises; Scenario III: Price level rises"
       ],
       "answer": 0,
-      "explanation": "In Scenario II, a leftward SRAS shift (negative supply shock) with no AD change unambiguously raises the price level and reduces output - this is stagflation and typically produces a significant price level increase. In Scenario I, a rightward AD shift from a recessionary gap raises both output and price level, but starting below LRAS means the economy has slack, so the price increase is moderate (the upward-sloping SRAS limits the increase). In Scenario III, equal rightward shifts of AD and SRAS move the economy to higher real GDP at the same price level - the price level is unchanged. Therefore the ranking is II > I > III. Choice B incorrectly ranks a recessionary gap closure as producing a larger price increase than a pure supply shock. Choice C is wrong because equal AD and SRAS shifts leave the price level unchanged, not higher. Choice D partially orders correctly (II > I) but incorrectly suggests equal shifts partially offset, implying a price change in Scenario III. Choice E confuses the source of price changes and incorrectly elevates the recessionary scenario.",
-      "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "explanation": "In Scenario I, a rightward AD shift with no SRAS change moves the economy up along the upward-sloping SRAS curve, raising both real GDP (closing the recessionary gap) and the price level. In Scenario II, a leftward SRAS shift with no AD change moves the economy up along the AD curve, raising the price level while reducing real GDP (stagflation). In Scenario III, when AD and SRAS both shift rightward by the same horizontal distance X, the new equilibrium occurs at the intersection of the new AD and new SRAS curves. Because both curves shift equally, real GDP increases but the price level returns to its original level - the price level is unchanged. Therefore: Scenario I rises, Scenario II rises, Scenario III unchanged. Choice A is correct. Choice C is incorrect because Scenario II involves a leftward SRAS shift, which raises (not lowers) the price level. Choices D and E misidentify the direction of change in Scenario I. Choice B incorrectly states the price level falls in Scenario II.",
+      "difficulty": "medium",
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u3_023",
@@ -384,10 +377,9 @@
         "E) The senator is correct; however, the limitation of government spending is that it crowds out private investment, whereas the tax cut does not affect interest rates at all."
       ],
       "answer": 0,
-      "explanation": "The senator is correct. The spending multiplier = 1/MPS = 1/0.25 = 4, so $200B × 4 = $800B increase in GDP. The tax cut multiplier = MPC/MPS = 0.75/0.25 = 3, so $200B × 3 = $600B increase in GDP. The spending multiplier is larger because government spending directly enters GDP as autonomous expenditure, while a tax cut first becomes household income, of which only the MPC fraction (75%) is spent - the rest is saved (the first-round leakage). A key limitation is the Ricardian equivalence concern: if households believe the cut is temporary and will require future tax increases, they may save the entire amount, reducing the actual multiplier toward zero. Choice B is incorrect - tax cuts do have leakage (the MPS fraction is saved). Choice C correctly identifies the senator as right but misstates the relationship (tax multiplier = spending multiplier − 1 in absolute terms when using MPC/MPS, which is a valid relationship, but the claim that tax cuts produce 'no productive output' is an overstatement and a misconception). Choice D incorrectly claims the two multipliers are equal. Choice E correctly identifies crowding out as a concern for government spending but incorrectly states that tax cuts have no effect on interest rates - if the tax cut increases borrowing (deficit), it can also raise interest rates.",
+      "explanation": "The senator is correct. The spending multiplier = 1/MPS = 1/0.25 = 4, so $200B × 4 = $800B increase in GDP. The tax cut multiplier = MPC/MPS = 0.75/0.25 = 3, so $200B × 3 = $600B increase in GDP. The spending multiplier is larger because government spending directly enters GDP as autonomous expenditure, while a tax cut first becomes household income, of which only the MPC fraction (75%) is spent - the rest is saved (the first-round leakage). A key limitation is the Ricardian equivalence concern: if households believe the cut is temporary and will require future tax increases, they may save the entire amount, reducing the actual multiplier toward zero. Choice B is incorrect - tax cuts do have leakage because the MPS fraction is saved rather than spent. Choice C is incorrect for two reasons: while the senator's conclusion is right, this choice undermines the analysis by falsely claiming that tax cuts produce 'no productive output' - tax cuts increase disposable income and do stimulate consumer spending and real GDP; the claim of zero productive output is a misconception that misrepresents how tax-cut stimulus works. Choice D is incorrect because it falsely claims the two multipliers are equal when in fact the spending multiplier (4) exceeds the tax cut multiplier (3). Choice E is incorrect because it evaluates the wrong policy - it critiques government spending rather than identifying a limitation of the tax cut - and it incorrectly asserts that the tax cut has no effect on interest rates; since the question does not specify how the tax cut is financed, one cannot assume it is deficit-neutral, and even if deficit-financed, claiming zero interest rate effect is unsupported.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u3_024",
@@ -444,15 +436,14 @@
       "choices": [
         "A) The Treasury bond has a higher default risk because it is held for a longer period.",
         "B) The Treasury bond has greater liquidity, making it more attractive to investors who demand a premium.",
-        "C) The Treasury bond requires investors to forgo liquidity for a longer period, demanding compensation in the form of a higher yield.",
+        "C) The Treasury bond exposes investors to greater interest rate risk over its longer term, so investors demand a term premium as compensation.",
         "D) The Treasury bill is backed by the Federal Reserve, while the Treasury bond is backed only by the U.S. government.",
         "E) The Treasury bond earns compound interest, which automatically results in a higher stated rate."
       ],
       "answer": 2,
-      "explanation": "The key concept here is liquidity and time preference. Longer-maturity financial assets tie up funds for a longer period, reducing the investor's access to their money. Investors demand a higher return (yield) to compensate for this loss of liquidity over time - this is the liquidity premium theory. Choice A is wrong because both instruments are backed by the U.S. government and are considered default risk-free; the difference is not default risk. Choice B is incorrect because Treasury bonds are actually less liquid than T-bills, not more. Choice D is wrong because both are backed by the U.S. government. Choice E confuses compounding mechanics with the reason for rate differentials.",
+      "explanation": "The key concept here is the term premium and interest rate risk. Longer-maturity bonds expose investors to greater interest rate risk: if market interest rates rise, the price of a long-term bond falls more sharply than that of a short-term bill. Investors therefore demand a higher yield - called a term premium - to compensate for this additional risk. Choice A is incorrect because both instruments are backed by the U.S. government and are considered default risk-free; maturity length does not create default risk. Choice B is incorrect because Treasury bonds are actually less liquid than T-bills, not more. Choice D is wrong because both are issued and backed by the U.S. government. Choice E confuses compounding mechanics with the economic reason for the yield differential.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u4_028",
@@ -465,11 +456,10 @@
         "D) The bank meets its reserve requirement exactly and has no capacity to make new loans.",
         "E) The bank has excess reserves of $30,000 and can increase the money supply by a maximum of $30,000."
       ],
-      "answer": 1,
-      "explanation": "Required reserves = 10% × $500,000 = $50,000. Actual reserves = $80,000. Excess reserves = $80,000 − $50,000 = $30,000. Wait - this means the bank has $30,000 in excess reserves, not a deficiency. Let's re-examine the choices: Choice B claims reserve deficiency, which is incorrect. The correct answer should reflect excess reserves of $30,000. Choice A correctly identifies $30,000 in excess reserves, but the claim that the money supply can expand by $300,000 is wrong - that would require $30,000 × money multiplier (1/0.10 = 10), so $30,000 × 10 = $300,000. Actually Choice A is numerically correct on both counts. Re-evaluating: Choice A is correct. The bank has $30,000 excess reserves and the simple money multiplier (1/RRR = 10) applied to $30,000 gives a maximum expansion of $300,000. Choice B incorrectly states a reserve deficiency. Choice C overstates excess reserves. Choice D is false. Choice E ignores the multiplier effect.",
+      "answer": 0,
+      "explanation": "Required reserves = 10% × $500,000 = $50,000. Excess reserves = $80,000 − $50,000 = $30,000. The money multiplier = 1/0.10 = 10. Therefore, the maximum money supply expansion = $30,000 × 10 = $300,000. Choice A correctly identifies both the $30,000 in excess reserves and the $300,000 maximum expansion of the money supply. Choice B incorrectly claims a reserve deficiency. Choice C overstates the excess reserves. Choice D is false since the bank holds more than required reserves. Choice E ignores the multiplier effect.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u4_029",
@@ -496,13 +486,12 @@
         "B) Money supply increases → interest rates fall → investment increases → aggregate demand increases → real GDP increases.",
         "C) Money supply decreases → interest rates fall → investment increases → aggregate demand increases → real GDP increases.",
         "D) Money supply increases → interest rates fall → investment decreases → aggregate demand decreases → real GDP decreases.",
-        "E) Money supply increases → bond prices fall → interest rates fall → investment increases → aggregate demand increases → real GDP increases."
+        "E) Money supply increases → bond prices rise → interest rates fall → investment increases → aggregate demand increases → real GDP increases."
       ],
       "answer": 1,
-      "explanation": "The standard monetary transmission mechanism for expansionary policy: The Fed increases the money supply (e.g., via open market purchases) → in the money market, supply of money shifts right, lowering the nominal interest rate → lower interest rates reduce the cost of borrowing, increasing investment spending (and other interest-sensitive spending) → the increase in investment shifts aggregate demand rightward → real GDP increases toward potential. Choice A has the interest rate effect backwards - an increase in money supply lowers, not raises, interest rates. Choice C describes a decrease in money supply, which is contractionary. Choice D correctly shows falling interest rates but then wrongly states investment decreases. Choice E is partially correct in its description (bond prices and interest rates do move inversely during open market operations), but the premise that bond prices fall is wrong - when the Fed buys bonds, bond demand increases, so bond prices rise and yields (interest rates) fall.",
+      "explanation": "The standard monetary transmission mechanism for expansionary policy: The Fed increases the money supply (e.g., via open market purchases) → in the money market, supply of money shifts right, lowering the nominal interest rate → lower interest rates reduce the cost of borrowing, increasing investment spending (and other interest-sensitive spending) → the increase in investment shifts aggregate demand rightward → real GDP increases toward potential. Choice A has the interest rate effect backwards - an increase in money supply lowers, not raises, interest rates. Choice C describes a decrease in money supply, which is contractionary. Choice D correctly shows falling interest rates but then wrongly states investment decreases. Choice E is mechanically accurate in its description of the bond market channel (when the Fed buys bonds, bond demand increases, bond prices rise, and yields fall), but it is a distractor because the question specifically asks about the money market framework, making Choice B the cleaner and more directly applicable answer. Students familiar with the bond market transmission mechanism may find Choice E appealing, but Choice B more precisely reflects the money market model referenced in the question.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u4_031",
@@ -512,14 +501,13 @@
         "A) The supply of loanable funds increases, real interest rates fall, and private investment is stimulated - a phenomenon known as the crowding-in effect.",
         "B) The demand for loanable funds increases, real interest rates rise, and private investment is crowded out, partially or fully offsetting the fiscal stimulus.",
         "C) The demand for loanable funds decreases because the government's borrowing replaces private borrowing on a one-for-one basis, leaving interest rates unchanged.",
-        "D) The supply of loanable funds decreases as households reduce saving in anticipation of future tax increases, causing real interest rates to rise but leaving private investment unchanged.",
+        "D) The supply of loanable funds increases as households save more in anticipation of future taxes, fully offsetting the government's increased demand and leaving real interest rates and private investment unchanged.",
         "E) The demand for loanable funds increases, but the Federal Reserve automatically adjusts the money supply to prevent any change in real interest rates, fully protecting private investment."
       ],
       "answer": 1,
-      "explanation": "When the government increases its deficit and borrows to finance it, it becomes an additional demander in the loanable funds market. This rightward shift in the demand for loanable funds drives the real interest rate upward. A higher real interest rate increases the cost of borrowing for private firms, reducing private investment spending - this is the crowding-out effect. Choice A describes crowding-in, which would occur if government spending raised business expectations enough to boost private investment, but this is not the standard loanable funds market prediction for deficit-financed spending. Choice C incorrectly states demand decreases; government borrowing adds to demand, not subtracts. Choice D describes the Ricardian Equivalence argument (reduced saving anticipating future taxes), which would shift supply left and raise rates, but the claim that private investment is unchanged is inconsistent - higher rates would reduce investment. Choice E conflates monetary and fiscal policy; the Fed does not automatically accommodate fiscal deficits, and doing so would involve trade-offs the question's scenario does not assume.",
+      "explanation": "When the government increases its deficit and borrows to finance it, it becomes an additional demander in the loanable funds market. This rightward shift in the demand for loanable funds drives the real interest rate upward. A higher real interest rate increases the cost of borrowing for private firms, reducing private investment spending - this is the crowding-out effect. Choice A describes crowding-in, which would occur if government spending raised business expectations enough to boost private investment, but this is not the standard loanable funds market prediction for deficit-financed spending. Choice C incorrectly states demand decreases; government borrowing adds to demand, not subtracts. Choice D describes the Ricardian Equivalence argument: rational households, anticipating that today's deficit means higher future taxes, increase their saving now, shifting the supply of loanable funds rightward by exactly enough to offset the government's increased demand. Under this view, real interest rates and private investment remain unchanged. However, most empirical evidence does not support full Ricardian Equivalence, making the standard crowding-out prediction in Choice B the more widely accepted outcome. Choice E conflates monetary and fiscal policy; the Fed does not automatically accommodate fiscal deficits, and doing so would involve trade-offs the question's scenario does not assume.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u4_032",
@@ -530,13 +518,12 @@
         "B) The Treasury bond requires a larger minimum purchase, reducing demand and raising its yield.",
         "C) The Treasury bond exposes the holder to greater interest rate risk over its longer time horizon, requiring a higher return as compensation.",
         "D) The Treasury bill is backed by the Federal Reserve, making it safer than the Treasury bond.",
-        "E) The Treasury bond has a higher yield because it is considered a near-money asset, while the Treasury bill is counted in M1."
+        "E) The Treasury bond has a higher yield because it is less frequently traded, reducing competition among buyers."
       ],
       "answer": 2,
-      "explanation": "Longer-maturity bonds expose investors to greater interest rate risk - if rates rise, the bond's market price falls significantly. Investors demand a higher yield as compensation for this risk, not because of default risk (both are U.S. government obligations). Option A incorrectly attributes the difference to default risk. Option B is not a driver of yield differences in this context. Option D misattributes backing to the Fed. Option E confuses liquidity classifications - T-bills are near-money, not M1.",
+      "explanation": "Longer-maturity bonds expose investors to greater interest rate risk - if rates rise, the bond's market price falls significantly. Investors demand a higher yield as compensation for this risk, not because of default risk (both are U.S. government obligations). Option A incorrectly attributes the difference to default risk. Option B is not a driver of yield differences in this context. Option D misattributes backing to the Fed. Option E is incorrect because trading frequency is not the primary driver of the yield difference between T-bills and T-bonds; the yield premium reflects interest rate risk over the longer time horizon.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u4_033",
@@ -573,7 +560,7 @@
     {
       "id": "pt_macro_p1_u4_035",
       "unit": 4,
-      "question": "An economy is operating at full employment. The government announces a large increase in deficit spending financed entirely by borrowing in the loanable funds market. A classical economist would most likely argue that this policy will result in which of the following outcomes in the loanable funds market?",
+      "question": "An economy is operating at full employment. The government announces a large increase in deficit spending financed entirely by borrowing in the loanable funds market. An economist using the loanable funds model would most likely argue that this policy will result in which of the following outcomes in the loanable funds market?",
       "choices": [
         "A) The demand for loanable funds decreases, lowering interest rates and stimulating private investment.",
         "B) The supply of loanable funds increases as households save more in anticipation of future taxes, leaving interest rates unchanged.",
@@ -582,10 +569,9 @@
         "E) The demand for loanable funds increases, but real interest rates remain constant because the Federal Reserve automatically accommodates fiscal policy."
       ],
       "answer": 2,
-      "explanation": "This describes the crowding-out effect, a central classical/neoclassical argument. Government borrowing increases the demand for loanable funds, shifting the demand curve right and raising real interest rates. Higher real interest rates discourage private investment - essentially 'crowding out' private borrowing by approximately the same amount the government borrows. Option A has the direction wrong. Option B describes Ricardian Equivalence, a separate (and controversial) argument that would hold interest rates constant but through a supply shift, not no shift - making option C the standard classical answer. Option D misapplies the multiplier to savings. Option E is incorrect because the Fed operates independently and does not automatically accommodate fiscal policy.",
+      "explanation": "This question tests the crowding-out effect as presented in the AP Macroeconomics loanable funds model. When the government borrows to finance deficit spending, it increases the demand for loanable funds, shifting the demand curve rightward and raising real interest rates. Higher real interest rates discourage private investment, 'crowding out' private borrowing by approximately the same amount the government borrows - this is the standard answer within the AP curriculum (Choice C). Choice A has the direction of the demand shift wrong. Choice B describes Ricardian Equivalence - the idea that households increase saving in anticipation of future taxes, shifting the supply of loanable funds right and leaving interest rates unchanged. While Ricardian Equivalence is sometimes associated with classical economic thinking, it is a distinct and more extreme claim that goes beyond the scope of the AP Macroeconomics curriculum and is not the expected answer on the AP exam. Choice D misapplies the multiplier concept to the savings/supply side of the loanable funds market. Choice E is incorrect because the Federal Reserve operates independently and does not automatically accommodate fiscal policy.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u4_036",
@@ -630,11 +616,10 @@
         "D) The nominal interest rate is indeterminate and the quantity of loanable funds decreases.",
         "E) The nominal interest rate rises and the quantity of loanable funds is indeterminate."
       ],
-      "answer": 4,
-      "explanation": "To fight inflation, the central bank sells bonds (contractionary open market operations), which decreases the money supply, raises the federal funds rate, and reduces the supply of loanable funds - shifting the supply of loanable funds left, pushing interest rates up. Meanwhile, household pessimism about future income reduces investment demand, shifting the demand for loanable funds left, which pushes interest rates down. Since both forces act in opposite directions on the interest rate, the net change in the nominal interest rate is indeterminate without knowing the relative magnitudes. However, both shifts (supply left and demand left) reduce the equilibrium quantity of loanable funds, so the quantity decreases unambiguously. Choice E correctly captures this: interest rate is indeterminate, quantity decreases. Choice D incorrectly states the quantity is indeterminate - both curves shift left, so quantity falls unambiguously. Choice C (rate rises, quantity falls) ignores the offsetting demand-side decrease on the interest rate. Choice B (rate falls, quantity falls) ignores the supply-side increase in rates from contractionary policy. Choice A misidentifies the direction of both changes.",
+      "answer": 3,
+      "explanation": "To fight inflation, the central bank sells bonds (contractionary open market operations), which decreases the money supply, raises the federal funds rate, and reduces the supply of loanable funds - shifting the supply of loanable funds left, pushing interest rates up. Meanwhile, household pessimism about future income reduces investment demand, shifting the demand for loanable funds left, which pushes interest rates down. Since both forces act in opposite directions on the interest rate, the net change in the nominal interest rate is indeterminate without knowing the relative magnitudes. However, both shifts (supply left and demand left) reduce the equilibrium quantity of loanable funds, so the quantity decreases unambiguously. Choice D correctly captures this: the interest rate effect is indeterminate because the leftward supply shift pushes rates up while the leftward demand shift pushes rates down, but the quantity of loanable funds unambiguously decreases since both curves shift left. Choice E is incorrect on two counts: it wrongly claims the interest rate rises (the rate is actually indeterminate, not certain to rise) and it wrongly claims the quantity is indeterminate (since both supply and demand shift left, the quantity falls unambiguously). Choice C (rate rises, quantity falls) ignores the offsetting demand-side decrease on the interest rate. Choice B (rate falls, quantity falls) ignores the supply-side increase in rates from contractionary policy. Choice A misidentifies the direction of both changes.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u5_039",
@@ -657,17 +642,16 @@
       "unit": 5,
       "question": "The table below shows data for a hypothetical economy over two years:\n\nYear 1: Unemployment = 4%, Inflation = 6%\nYear 2: Unemployment = 7%, Inflation = 2%\n\nBased on this data and the short-run Phillips curve framework, which of the following best explains the transition from Year 1 to Year 2?",
       "choices": [
-        "A) The economy moved along a stable short-run Phillips curve as contractionary policy reduced both inflation and unemployment simultaneously.",
+        "A) The economy moved along a stable short-run Phillips curve as expansionary policy raised output, lowering unemployment while also reducing inflation through improved supply conditions.",
         "B) A negative supply shock shifted the short-run Phillips curve outward, causing both higher unemployment and lower inflation.",
         "C) Contractionary aggregate demand policies reduced inflation at the cost of higher unemployment, consistent with movement along the short-run Phillips curve.",
         "D) Lower inflation expectations caused the short-run Phillips curve to shift inward, simultaneously reducing both unemployment and inflation.",
         "E) The economy transitioned from the short-run Phillips curve to the long-run Phillips curve, confirming the natural rate hypothesis."
       ],
       "answer": 2,
-      "explanation": "The data shows that inflation fell from 6% to 2% while unemployment rose from 4% to 7%, which is consistent with a movement along the short-run Phillips curve (SRPC) - a trade-off produced by contractionary aggregate demand policy. Choice A is incorrect because unemployment rose, not fell. Choice B is wrong because a negative supply shock causes stagflation (higher unemployment AND higher inflation), not lower inflation. Choice D is incorrect because if inflation expectations fell, the SRPC would shift inward, but that is not necessary to explain what the data shows, and simultaneous reductions in both variables don't match the data. Choice E is a conceptual misread - the transition shown is movement along the SRPC, not to the vertical LRPC.",
+      "explanation": "The data shows that inflation fell from 6% to 2% while unemployment rose from 4% to 7%, which is consistent with a movement along the short-run Phillips curve (SRPC) - a trade-off produced by contractionary aggregate demand policy. Choice A is incorrect because expansionary policy would move the economy in the opposite direction along the SRPC, raising inflation and lowering unemployment, not raising unemployment and lowering inflation. Choice B is wrong because a negative supply shock causes stagflation (higher unemployment AND higher inflation), not lower inflation. Choice D is incorrect because if inflation expectations fell, the SRPC would shift inward, but that is not necessary to explain what the data shows, and simultaneous reductions in both variables don't match the data. Choice E is a conceptual misread - the transition shown is movement along the SRPC, not to the vertical LRPC.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u5_041",
@@ -709,14 +693,13 @@
         "A) Real GDP permanently increases above potential, and the unemployment rate falls below the natural rate, because the dual stimulus reinforces both supply-side and demand-side growth.",
         "B) The price level is permanently higher, real GDP returns to potential output, and the unemployment rate returns to the natural rate, with the additional government spending potentially crowding out private investment.",
         "C) Real GDP increases permanently while inflation remains low because the monetary expansion increases productive capacity through lower interest rates on capital investment.",
-        "D) The short-run Phillips curve shifts outward permanently due to higher inflation expectations, locking in a higher natural rate of unemployment as a consequence of the policy mix.",
+        "D) Higher inflation expectations cause the short-run Phillips curve to shift outward, temporarily raising the unemployment rate above the natural rate before the economy self-corrects.",
         "E) The economy reaches a new long-run equilibrium with higher real wages and lower unemployment because increased government spending raises the marginal product of labor across all sectors."
       ],
       "answer": 1,
-      "explanation": "In the long run, the economy returns to potential output and the natural rate of unemployment regardless of demand-side stimulus - this is the core prediction of the long-run aggregate supply model. Expansionary fiscal and monetary policy together shift AD rightward, which in the short run raises output and the price level. However, as workers and firms adjust their inflation expectations and nominal wages rise, SRAS shifts left, returning real GDP to potential. The price level is permanently higher (inflation has occurred), and the real effects are temporary. Crucially, the permanent increase in government spending may crowd out private investment, reducing the private capital stock. Choice A is wrong because real GDP cannot permanently exceed potential without ongoing supply-side improvements. Choice C confuses lower interest rates (which come from monetary expansion) with supply-side growth - monetary expansion raises AD but does not shift LRAS. Choice D partially captures the mechanism of adaptive expectations raising the SRPC but overstates the permanence of the natural rate change; the natural rate is determined by structural factors, not inflation expectations per se. Choice E incorrectly attributes supply-side labor market effects to aggregate demand policy.",
+      "explanation": "In the long run, the economy returns to potential output and the natural rate of unemployment regardless of demand-side stimulus - this is the core prediction of the long-run aggregate supply model. Expansionary fiscal and monetary policy together shift AD rightward, which in the short run raises output and the price level. However, as workers and firms adjust their inflation expectations and nominal wages rise, SRAS shifts left, returning real GDP to potential. The price level is permanently higher (inflation has occurred), and the real effects are temporary. Crucially, the permanent increase in government spending may crowd out private investment, reducing the private capital stock. Choice A is wrong because real GDP cannot permanently exceed potential without ongoing supply-side improvements. Choice C confuses lower interest rates (which come from monetary expansion) with supply-side growth - monetary expansion raises AD but does not shift LRAS. Choice D describes a transitional dynamic that is directionally plausible but does not represent the final long-run outcome; the economy self-corrects back to the natural rate rather than remaining above it. Choice E incorrectly attributes supply-side labor market effects to aggregate demand policy.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u5_044",
@@ -741,15 +724,14 @@
       "choices": [
         "A) The claim is correct because any combination of unemployment and inflation data can be plotted on a Phillips curve.",
         "B) The claim is incorrect because movement along a stable short-run Phillips curve predicts that higher unemployment is associated with lower inflation, not higher inflation.",
-        "C) The claim is correct because both unemployment and inflation increased, which is consistent with an outward shift in aggregate demand.",
+        "C) The claim is correct because both variables changed in the same direction, which can occur during movement along a short-run Phillips curve when supply-side improvements are present.",
         "D) The claim is incorrect because the Phillips curve only applies to economies that are already at full employment.",
-        "E) The claim is correct because stagflation is a normal feature of the short-run Phillips curve relationship."
+        "E) The claim is correct because the data is consistent with an upward shift of the short-run Phillips curve driven by rising inflation expectations, which can appear as movement along a new curve."
       ],
       "answer": 1,
-      "explanation": "The short-run Phillips curve (SRPC) shows a negative relationship between unemployment and inflation: as unemployment rises, inflation falls, and vice versa. The data shows BOTH unemployment and inflation rising simultaneously - a condition known as stagflation - which is inconsistent with movement along a stable SRPC. This pattern instead suggests an adverse supply shock or an upward shift of the SRPC. (A) is wrong because the SRPC has a specific inverse relationship. (C) misidentifies the cause; an AD increase would raise inflation but lower unemployment. (D) is factually incorrect about the Phillips curve's scope. (E) incorrectly labels stagflation as a feature of movement along the curve.",
+      "explanation": "The short-run Phillips curve (SRPC) shows a negative relationship between unemployment and inflation: as unemployment rises, inflation falls, and vice versa. The data shows BOTH unemployment and inflation rising simultaneously - a condition known as stagflation - which is inconsistent with movement along a stable SRPC. This pattern instead suggests an adverse supply shock or an upward shift of the SRPC. (A) is wrong because the SRPC has a specific inverse relationship. (C) is incorrect because supply-side improvements would shift the SRPC downward, not produce simultaneous increases in both variables along a stable curve. (D) is factually incorrect about the Phillips curve's scope. (E) confuses a shift of the SRPC with movement along it; if the curve shifted upward due to rising inflation expectations, that is by definition a shift, not movement along a stable curve.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u5_046",
@@ -827,10 +809,9 @@
         "E) The long-run Phillips curve shifts left, permanently lowering the natural rate of unemployment."
       ],
       "answer": 3,
-      "explanation": "A negative supply shock shifts the short-run Phillips curve outward (stagflation: higher inflation and higher unemployment simultaneously). When the central bank expands the money supply in response, it does not fix the underlying supply shock-the SRPC has already shifted outward. The expansionary policy moves the economy along this new, less favorable SRPC, reducing unemployment but at the cost of even higher inflation (above the post-shock 6%). Choice A incorrectly assumes the economy returns to the original SRPC, ignoring the shift. Choice B describes an impossible simultaneous improvement without addressing the supply shock. Choice C places the movement on the original curve, which no longer applies. Choice E confuses long-run supply shifts with the natural rate of unemployment, which is not affected by monetary policy in the long run.",
+      "explanation": "A negative supply shock shifts the short-run Phillips curve outward (stagflation: higher inflation and higher unemployment simultaneously). When the central bank expands the money supply in response, it does not fix the underlying supply shock-the SRPC has already shifted outward. The expansionary policy moves the economy along this new, less favorable SRPC, reducing unemployment but at the cost of even higher inflation (above the post-shock 6%). Choice A incorrectly assumes the economy returns to the original SRPC, ignoring the shift. Choice B describes an impossible simultaneous improvement without addressing the supply shock. Choice C places the movement on the original curve, which no longer applies. Choice E is incorrect because the long-run Phillips curve is vertical at the natural rate of unemployment, which is determined by structural and frictional factors. Expansionary monetary policy cannot shift the LRPC left or permanently lower the natural rate.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u5_051",
@@ -883,19 +864,18 @@
     {
       "id": "pt_macro_p1_u6_054",
       "unit": 6,
-      "question": "A U.S. company purchases a factory in Germany for €50 million. Which component of the U.S. balance of payments is directly affected, and in which direction?",
+      "question": "A U.S. company purchases a factory in Germany for €50 million. Which component of the U.S. balance of payments is directly affected, and how?",
       "choices": [
-        "A) Current account; recorded as a credit because money flows into Germany",
-        "B) Financial account; recorded as a debit because capital flows out of the United States",
-        "C) Financial account; recorded as a credit because the U.S. acquires a foreign asset",
-        "D) Current account; recorded as a debit because the U.S. is importing a service",
-        "E) Capital account; recorded as a credit because a real asset is transferred internationally"
+        "A) Current account; it represents a capital outflow because money leaves the United States",
+        "B) Financial account; it represents a capital outflow because the U.S. is investing abroad",
+        "C) Financial account; it represents a capital inflow because the U.S. acquires a valuable foreign asset",
+        "D) Current account; it represents an import of services because the U.S. is using foreign resources",
+        "E) Capital account; it represents a transfer of real assets between countries"
       ],
       "answer": 1,
-      "explanation": "When a U.S. firm acquires a foreign asset (outward foreign direct investment), the financial account records a debit because capital is leaving the United States - the U.S. is 'spending' financial resources abroad. Option C is a common trap: acquiring a foreign asset does appear in the financial account, but under the standard BOP sign convention, outflows of capital (purchasing foreign assets) are debits, not credits. Credits in the financial account arise when foreigners purchase U.S. assets. Options A and D incorrectly place this in the current account, and E incorrectly places it in the capital account (which handles non-produced, non-financial assets and transfers, not FDI).",
+      "explanation": "When a U.S. firm purchases a factory in Germany, this is an example of outward foreign direct investment (FDI). It is recorded in the financial account of the U.S. balance of payments because it involves a cross-border financial transaction. Since money is flowing out of the United States to acquire the foreign asset, it represents a capital outflow. Option C is incorrect because although the U.S. does acquire a foreign asset, the transaction still represents money leaving the U.S. - making it a capital outflow, not a capital inflow. Capital inflows occur when foreigners purchase U.S. assets, bringing money into the country. Options A and D are incorrect because this transaction does not belong in the current account, which tracks trade in goods, services, income, and transfers. Option E is incorrect because the capital account covers non-produced, non-financial asset transfers and is not where FDI is recorded.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u6_055",
@@ -909,10 +889,9 @@
         "E) The yen appreciated; Japanese exports to the U.S. become more expensive, improving the U.S. trade balance"
       ],
       "answer": 1,
-      "explanation": "From January to June, each dollar buys more yen (110 to 130 JPY), meaning the dollar has appreciated and the yen has depreciated. When the dollar appreciates, U.S. goods become more expensive in terms of yen, so Japanese buyers purchase fewer U.S. exports, and U.S. buyers find Japanese imports cheaper, increasing imports. Both effects worsen the U.S. trade balance. Option A incorrectly labels this as depreciation. Option C gets the depreciation direction wrong. Option D correctly identifies dollar appreciation but misstates the import price direction - cheaper imports increase import spending, worsening (not improving directly) the trade balance through volume, but the framing of 'worsening' in D is correct; however, D is incomplete because it ignores the export effect and misframes causation. Option E reframes in terms of yen appreciation, which is technically equivalent, but says Japanese exports become more expensive - in fact, a depreciated yen makes Japanese exports cheaper for U.S. buyers. Option B is the most accurate and complete answer.",
+      "explanation": "From January to June, each dollar buys more yen (110 to 130 JPY), meaning the dollar has appreciated and the yen has depreciated. When the dollar appreciates, U.S. goods become more expensive in terms of yen, so Japanese buyers purchase fewer U.S. exports, and U.S. buyers find Japanese imports cheaper, increasing imports. Both effects worsen the U.S. trade balance. Option A incorrectly labels this as depreciation. Option C gets the depreciation direction wrong. Option D correctly identifies dollar appreciation but misstates the import price direction - cheaper imports increase import spending, worsening (not improving directly) the trade balance through volume, but the framing of 'worsening' in D is correct; however, D is incomplete because it ignores the export effect and misframes causation. Option E is wrong because the data show the yen depreciated (not appreciated) - each dollar buys more yen, so each yen buys fewer dollars. A depreciated yen actually makes Japanese exports cheaper for U.S. buyers, which would worsen (not improve) the U.S. trade balance through higher import volume, contrary to what E claims. Option B is the most accurate and complete answer.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u6_056",
@@ -942,10 +921,9 @@
         "E) Real interest rates rise → capital flows in → currency appreciates → net exports increase, amplifying the fiscal expansion"
       ],
       "answer": 1,
-      "explanation": "In an open economy with a flexible exchange rate, a government budget deficit financed by bond sales increases the demand for loanable funds, driving up real interest rates. Higher real interest rates attract foreign capital (capital inflows). Foreign investors must buy Aurantia's currency to purchase its bonds, increasing demand for the currency and causing it to appreciate. An appreciated currency makes Aurantia's exports more expensive abroad and imports cheaper domestically, reducing net exports. This decline in net exports partially crowds out the fiscal stimulus - a phenomenon called 'international crowding out' or the 'twin deficits' mechanism in reverse. Option A incorrectly states interest rates fall. Option C has the capital flow direction wrong (capital flows IN, not out, when interest rates rise). Option D describes Ricardian equivalence, which would require a specific set of assumptions not stated here and implies no interest rate change. Option E correctly traces interest rates and capital flows but then incorrectly concludes net exports increase when an appreciated currency actually reduces net exports.",
+      "explanation": "In an open economy with a flexible exchange rate, a government budget deficit financed by bond sales increases the demand for loanable funds, driving up real interest rates. Higher real interest rates attract foreign capital (capital inflows). Foreign investors must buy Aurantia's currency to purchase its bonds, increasing demand for the currency and causing it to appreciate. An appreciated currency makes Aurantia's exports more expensive abroad and imports cheaper domestically, reducing net exports. This decline in net exports partially crowds out the fiscal stimulus - a phenomenon called 'international crowding out' or the 'twin deficits' mechanism in reverse. Option A incorrectly states interest rates fall. Option C contains two errors: first, when Aurantia's interest rates rise, capital flows INTO Aurantia (not out), because foreign investors seek the higher returns; second, those capital inflows increase demand for Aurantia's currency, causing it to appreciate (not depreciate) - so Option C is wrong on both the direction of capital flows and the direction of currency movement. Option D describes Ricardian equivalence, which holds that private saving fully offsets government borrowing, leaving interest rates unchanged; however, Ricardian equivalence is not the standard assumption in the AP Macro model and should not be applied here unless explicitly stated. Option E correctly traces interest rates and capital flows but then incorrectly concludes net exports increase when an appreciated currency actually makes exports more expensive and imports cheaper, thereby reducing net exports.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_macro_p1_u6_058",
@@ -982,19 +960,18 @@
     {
       "id": "pt_macro_p1_u6_060",
       "unit": 6,
-      "question": "Country X is experiencing high inflation relative to its major trading partners. Simultaneously, its central bank raises the nominal interest rate significantly to combat inflation. Considering both the purchasing power parity (PPP) effect and the international capital flow effect on the foreign exchange market, what is the most likely net impact on Country X's currency in the short run?",
+      "question": "Country X is experiencing high inflation relative to its major trading partners. Simultaneously, its central bank raises the nominal interest rate by more than the current inflation rate, ensuring that the real interest rate rises significantly. Considering both the purchasing power parity (PPP) effect and the international capital flow effect on the foreign exchange market, what is the most likely net impact on Country X's currency in the short run?",
       "choices": [
         "A) The currency will unambiguously depreciate because high inflation always dominates over interest rate changes in the short run.",
         "B) The currency will unambiguously appreciate because higher nominal interest rates always attract foreign capital, increasing demand for the currency.",
-        "C) The currency will likely appreciate in the short run because the capital inflow effect of higher nominal interest rates tends to dominate in the short run, even though the inflation effect creates long-run depreciation pressure.",
+        "C) The currency will likely appreciate in the short run because the capital inflow effect of the higher real interest rate tends to dominate in the short run, even though the inflation effect creates long-run depreciation pressure.",
         "D) The currency will remain unchanged because the interest rate increase exactly offsets the inflation effect, leaving the real exchange rate constant by definition.",
         "E) The currency will depreciate in the short run because investors recognize that high inflation erodes real returns, making Country X's assets unattractive despite the higher nominal rate."
       ],
       "answer": 2,
-      "explanation": "This question tests the distinction between short-run and long-run exchange rate dynamics. In the short run, higher nominal interest rates attract foreign capital as international investors seek better returns on Country X's financial assets. This surge in demand for Country X's currency causes it to appreciate in the short run-the capital flow effect dominates. However, over the long run, persistent inflation erodes purchasing power and creates depreciation pressure consistent with PPP. Choice A is incorrect because inflation's dominance is a long-run phenomenon, not short-run. Choice B is partially correct in mechanism but overstates certainty and ignores that only the short-run outcome is unambiguous in one direction. Choice D is incorrect because the Fisher effect (real rate equalization) is a long-run tendency, not an immediate mechanical offset, and it does not fix the nominal exchange rate. Choice E reflects a sophisticated-sounding trap: while it is true that high inflation erodes real returns, in the short run investors respond to nominal rate differentials and the immediate increase in demand for the currency, so the currency appreciates before inflation fully adjusts expectations and real returns.",
+      "explanation": "This question tests the distinction between short-run and long-run exchange rate dynamics. Because the nominal interest rate is raised by more than the current inflation rate, the real interest rate in Country X rises, making its financial assets genuinely more attractive to international investors. In the short run, this triggers capital inflows as investors seek higher real returns on Country X's assets. The surge in demand for Country X's currency causes it to appreciate in the short run - the capital flow effect dominates. However, over the long run, persistent inflation erodes purchasing power and creates depreciation pressure consistent with PPP. Choice A is incorrect because inflation's dominance is a long-run phenomenon, not short-run. Choice B is partially correct in mechanism but overstates certainty by ignoring conditions under which the real return must be positive. Choice D is incorrect because the Fisher effect (real rate equalization) is a long-run tendency, not an immediate mechanical offset, and it does not fix the nominal exchange rate. Choice E is a sophisticated-sounding trap: because the nominal rate rises by more than inflation, the real return is in fact increasing, so investors are attracted rather than repelled, and the currency appreciates before inflation fully adjusts expectations.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     }
   ],
   "frqs": [

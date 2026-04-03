@@ -65,48 +65,45 @@
       "unit": 2,
       "question": "A historian studying European colonization in North America notes that Spanish, French, and English colonial models differed significantly in their relationships with Native American populations. Which of the following best explains why French colonizers generally maintained more cooperative relationships with Native Americans compared to English colonizers during the seventeenth century?",
       "choices": [
-        "A) France outlawed the enslavement of Native Americans by royal decree, whereas England permitted it throughout its colonies.",
+        "A) French royal policy actively promoted alliances with Native American nations as military partners against English and Dutch rivals, whereas English colonies prioritized territorial expansion.",
         "B) French colonial goals centered on the fur trade and missionary activity, which required Native American cooperation rather than displacement of their lands.",
-        "C) The French colonial population remained small because France lacked sufficient interest in North America, making conflict with Native Americans unnecessary.",
+        "C) The French colonial population remained small and dispersed across vast territories, reducing direct competition with Native Americans over land.",
         "D) French colonizers intermarried with Native Americans as a deliberate government policy designed to create a loyal mixed-race colonial workforce."
       ],
       "answer": 1,
-      "explanation": "The correct answer is B. French economic priorities - primarily the fur trade - depended on Native American labor, knowledge, and cooperation, creating interdependent relationships. French missionaries also sought conversion rather than land seizure. Answer A is incorrect because while France did discourage enslavement in some contexts, this was not the primary driver of cooperative relations. Answer C misrepresents French intentions; France actively sought influence in North America through alliances, not indifference. Answer D contains a kernel of truth (intermarriage did occur more among French colonizers), but it was not a formal government policy designed to create a workforce - this misattributes the cause and purpose of these relationships.",
+      "explanation": "The correct answer is B. French economic priorities - primarily the fur trade - depended on Native American labor, knowledge, and cooperation, creating interdependent relationships. French missionaries also sought conversion rather than land seizure. Answer A is plausible in that France did cultivate Native American military alliances, but this explanation is secondary to the fundamental economic and religious motivations that structured French colonial relationships on a daily basis. Answer C is plausible in that the small, dispersed French population did reduce land competition, but this framing describes a byproduct rather than the primary driver of cooperative relations. Answer D contains a kernel of truth (intermarriage did occur more among French colonizers), but it was not a formal government policy designed to create a workforce - this misattributes the cause and purpose of these relationships.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u2_005",
       "unit": 2,
       "question": "The following is an excerpt from a colonial Virginia statute (1662): 'Whereas some doubts have arisen whether children got by any Englishman upon a Negro woman should be slave or free, Be it therefore enacted that all children borne in this country shall be held bond or free only according to the condition of the mother.' What was the most significant long-term consequence of this legal principle for the Atlantic slave system in English North America?",
       "choices": [
-        "A) It discouraged the transatlantic slave trade by making it more profitable to grow the enslaved population domestically through natural reproduction.",
+        "A) It encouraged planters to import larger numbers of enslaved Africans through the transatlantic trade rather than rely on natural population growth, since the law guaranteed that African-born enslaved people's children would also be enslaved.",
         "B) It provided a legal mechanism that permanently and hereditarily expanded the enslaved labor force, reinforcing racial slavery as an institution tied to birth status rather than religion or conquest.",
-        "C) It resolved tensions between English planters and the Church of England, which had argued that baptism should grant freedom to enslaved people.",
+        "C) It resolved tensions between English planters and the Church of England, which had argued that baptism should grant freedom to enslaved people (though Virginia addressed this issue in separate 1667 legislation).",
         "D) It primarily served to protect the property rights of white indentured servants who feared competition from free Black laborers."
       ],
       "answer": 1,
-      "explanation": "The correct answer is B. By tying slave status to the mother's condition (partus sequitur ventrem), Virginia ensured that children of enslaved women - regardless of the father's status - were automatically enslaved. This hereditary principle was foundational to the expansion of chattel slavery and helped cement race as the defining characteristic of enslaved status in English colonies. Answer A is partially plausible but reverses causation; the domestic reproduction argument became more relevant after the transatlantic trade was abolished in 1808, not in 1662. Answer C is a real historical tension (the question of baptism and freedom) but the statute did not resolve it - that issue required separate legislation. Answer D misidentifies the stakeholders; this law primarily benefited planters seeking to expand their enslaved workforce, not indentured servants.",
+      "explanation": "The correct answer is B. By tying slave status to the mother's condition (partus sequitur ventrem), Virginia ensured that children of enslaved women - regardless of the father's status - were automatically enslaved. This hereditary principle was foundational to the expansion of chattel slavery and helped cement race as the defining characteristic of enslaved status in English colonies. Answer A is partially plausible but subordinate to B as a long-term consequence; while the law did guarantee the enslaved status of African-born enslaved people's children, the more significant consequence was the hereditary expansion of the institution overall rather than a specific stimulus to the transatlantic trade. Answer C is a real historical tension (the question of baptism and freedom) but the statute did not resolve it - that issue required separate 1667 legislation. Answer D misidentifies the stakeholders; this law primarily benefited planters seeking to expand their enslaved workforce, not indentured servants.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u2_006",
       "unit": 2,
-      "question": "During the late seventeenth century, several English colonial governments shifted from relying primarily on white indentured servants to enslaved African laborers. Which of the following best explains why Bacon's Rebellion of 1676 accelerated this transition in the Chesapeake region?",
+      "question": "During the late seventeenth century, several English colonial governments shifted from relying primarily on white indentured servants to enslaved African laborers. Which of the following best explains why Bacon's Rebellion of 1676 accelerated this transition in the Chesapeake region, and why the political and social consequences of the rebellion were more decisive than its economic consequences in driving this shift?",
       "choices": [
         "A) Bacon's Rebellion demonstrated that indentured servants were physically incapable of sustained agricultural labor in Virginia's climate, prompting planters to seek a more resilient workforce.",
         "B) The rebellion revealed the dangers of a large class of landless, discontented former indentured servants, leading planters to prefer enslaved laborers who had no prospect of freedom or political rights.",
-        "C) The English Parliament responded to Bacon's Rebellion by restricting the flow of indentured servants to Virginia, forcing planters to turn to the African slave trade.",
-        "D) Bacon's Rebellion caused the collapse of the tobacco economy, and planters needed cheaper enslaved labor to restore profitability after widespread crop destruction."
+        "C) The resolution of Bacon's Rebellion included agreements between the Virginia government and frontier Native American tribes that restricted English settlement expansion, reducing the land available for former indentured servants and making the indenture system less attractive as a labor recruitment tool.",
+        "D) Bacon's Rebellion destroyed significant portions of Virginia's tobacco crop and plantation infrastructure, and planters calculated that the one-time capital cost of purchasing enslaved laborers for life was more economical than repeatedly paying indenture contracts during a period of economic recovery."
       ],
       "answer": 1,
-      "explanation": "The correct answer is B. Bacon's Rebellion exposed the volatility of a colonial underclass - former indentured servants who had served their terms but could not obtain land and harbored deep grievances against the planter elite. This social instability made planters wary of continuing to import white indentured servants. Enslaved Africans, by contrast, could be held in perpetual bondage with no expectation of freedom, land, or political participation, making them a more controllable labor force. Answer A is a misconception with no historical basis - the shift was political and economic, not based on physical capacity. Answer C invents a Parliamentary restriction that did not occur; the decline in indentured servitude was driven more by improving conditions in England and colonial demand shifts. Answer D is incorrect because the tobacco economy recovered; the rebellion was not primarily an economic collapse but a political and social crisis.",
-      "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "explanation": "The correct answer is B. Bacon's Rebellion exposed the volatility of a colonial underclass - former indentured servants who had served their terms but could not obtain land and harbored deep grievances against the planter elite. This social instability made planters wary of continuing to import white indentured servants. Enslaved Africans, by contrast, could be held in perpetual bondage with no expectation of freedom, land, or political participation, making them a more controllable labor force. Answer A is a misconception with no historical basis - the shift was political and economic, not based on physical capacity. Answer C is plausible but incorrect; while land availability did affect the indenture system, the resolution of Bacon's Rebellion did not produce formal agreements restricting English settlement in ways that drove planters toward enslaved labor - the primary driver was the social threat posed by free, landless former servants. Answer D presents a more tempting economic argument, but while the rebellion did cause some destruction, the tobacco economy recovered without the collapse this answer implies; moreover, historians emphasize the social and political motivations of planters over narrow cost calculations as the primary explanation for the labor transition.",
+      "difficulty": "hard",
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u2_007",
@@ -115,14 +112,13 @@
       "choices": [
         "A) Many Chesapeake settlers were Anglican rather than Puritan, suggesting that religion shaped colonial culture in both regions.",
         "B) The demographic composition of each region - Chesapeake settlers arriving mostly as young single male indentured servants versus New England's family-based migration - better accounts for differences in community stability, gender ratios, and social cohesion than religious motivation alone.",
-        "C) Puritan theology explicitly encouraged communal land ownership, which created more egalitarian social structures in New England than in the Chesapeake.",
-        "D) The New England colonies received more financial support from the Crown than the Chesapeake colonies, allowing them to develop stronger institutions independent of religious influence."
+        "C) Puritan theology emphasized covenant community and collective moral accountability, which naturally produced tighter, more hierarchical social structures in New England regardless of the demographic composition of settlers.",
+        "D) The geographic and ecological differences between New England and the Chesapeake - including soil quality, disease environment, and growing seasons - better explain differences in economic development and social structure than either religious motivation or demographic composition."
       ],
       "answer": 1,
-      "explanation": "The correct answer is B. The most effective challenge to a religion-centered explanation is to offer a competing structural factor with stronger explanatory power. The demographic difference - New England's family migration versus the Chesapeake's predominantly young male indentured servant population - directly explains differences in life expectancy, family formation, community stability, gender ratios, and long-term social structures. These material conditions account for divergence more comprehensively than religious motivation alone. Answer A actually supports the student's argument by reinforcing that religion differed between regions rather than challenging the interpretation. Answer C is a misconception; Puritan theology did not explicitly promote communal land ownership - Puritans practiced private land ownership and developed hierarchical social structures. Answer D is historically inaccurate; neither region received notably more Crown financial support during the early colonial period, and this claim does not address the social structure question effectively.",
+      "explanation": "The correct answer is B. The most effective challenge to a religion-centered explanation is to offer a competing structural factor with stronger explanatory power. The demographic difference - New England's family migration versus the Chesapeake's predominantly young male indentured servant population - directly explains differences in life expectancy, family formation, community stability, gender ratios, and long-term social structures. These material conditions account for divergence more comprehensively than religious motivation alone. Answer A fails as a challenge because, while it confirms that religious differences existed between the regions, it does not explain why religion would be insufficient to account for structural divergence - which is precisely what the question asks. Confirming that religion differed is not the same as demonstrating that religion drove structural outcomes, so this answer inadvertently reinforces rather than undermines the student's interpretation. Answer C is a plausible defense of the religion-based interpretation: it argues that Puritan theology itself - through covenant community and collective moral accountability - produced the tighter social structures seen in New England, making religion causally central rather than incidental. This competes with B but does not challenge the student's argument. Answer D presents a legitimate historiographical alternative rooted in environmental and ecological factors, arguing that soil quality, disease environment, and growing seasons drove divergent economic and social development. While this is a serious competing explanation that requires careful analytical evaluation, it is less directly tied to the specific social structure differences - such as gender ratios, family formation, and community cohesion - that B addresses with greater precision.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u3_008",
@@ -195,26 +191,24 @@
         "D) They maintained that financial legislation required a two-thirds supermajority in Congress, which Hamilton's bills had not achieved"
       ],
       "answer": 1,
-      "explanation": "Jefferson and Madison advanced a 'strict construction' argument: the necessary and proper clause authorized only measures that were strictly necessary - not merely useful or convenient - for carrying out enumerated powers. Since the Constitution did not explicitly grant Congress power to charter a bank, and since banking was not indispensably necessary to any enumerated power, they argued the Bank was unconstitutional. This became the foundation of Democratic-Republican constitutional theory. A is false; the Constitution contains no such explicit prohibition. C is partially related but the Tenth Amendment argument, while used, was secondary to the strict construction of 'necessary and proper.' D is entirely fabricated; no such supermajority requirement existed for financial legislation.",
-      "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "explanation": "Jefferson and Madison advanced a 'strict construction' argument: the necessary and proper clause authorized only measures that were strictly necessary - not merely useful or convenient - for carrying out enumerated powers. Since the Constitution did not explicitly grant Congress power to charter a bank, and since banking was not indispensably necessary to any enumerated power, they argued the Bank was unconstitutional. This became the foundation of Democratic-Republican constitutional theory. A is false; the Constitution contains no such explicit prohibition. C is related and was explicitly invoked by Jefferson, but the Tenth Amendment argument depended on first establishing that the power was not granted - meaning strict construction of necessary and proper was the foundational step. The question asks for the constitutional basis, and strict construction of that clause is the more precise and primary characterization. D is entirely fabricated; no such supermajority requirement existed for financial legislation.",
+      "difficulty": "medium",
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u3_013",
       "unit": 3,
       "question": "In the years following the Seven Years' War (French and Indian War), British policymakers fundamentally shifted their approach to the American colonies. Which of the following best explains why this shift generated colonial resistance that earlier British imperial policies had not?",
       "choices": [
-        "A) Earlier British policies had actively encouraged colonial self-governance as a deliberate imperial strategy, making post-1763 centralization feel like an attack on established rights.",
+        "A) Earlier British policies had formally guaranteed colonial self-governance through explicit parliamentary statute, making post-1763 centralization feel like an attack on established rights.",
         "B) Post-1763 policies required colonists to pay taxes directly to Parliament for the first time, violating the principle of 'no taxation without representation' that colonists had long claimed as a customary right.",
         "C) The colonists had never previously been subject to any British trade regulations, so the Stamp Act and Townshend Acts represented an entirely new form of imperial control.",
-        "D) Post-1763 policies were uniquely burdensome in economic terms because they taxed colonists at far higher rates than taxpayers in Britain itself."
+        "D) Post-1763 policies were uniquely burdensome because colonists, unlike British subjects, had never contributed anything to imperial defense costs and rejected any level of taxation on principle."
       ],
       "answer": 1,
-      "explanation": "The correct answer is B. The post-1763 shift introduced direct parliamentary taxation (Stamp Act, Townshend Acts) on colonists who had no representation in Parliament. Colonists had long accepted external trade regulations under salutary neglect but viewed internal/direct taxes as a violation of the British constitutional tradition they claimed as their birthright. Answer A is a distractor because Britain never deliberately encouraged colonial self-governance as official policy; salutary neglect was more passive than deliberate. Answer C is factually wrong - colonists had been subject to navigation acts and trade regulations for over a century. Answer D is a common misconception; the actual tax rates were often modest, and the constitutional principle rather than the economic burden was the core grievance.",
+      "explanation": "The correct answer is B. The post-1763 shift introduced direct parliamentary taxation (Stamp Act, Townshend Acts) on colonists who had no representation in Parliament. Colonists had long accepted external trade regulations under salutary neglect but viewed internal/direct taxes as a violation of the British constitutional tradition they claimed as their birthright. Answer A is a distractor because no explicit parliamentary statute ever formally guaranteed colonial self-governance; salutary neglect was a passive practice, not a legally enshrined right. Answer C is factually wrong - colonists had been subject to navigation acts and trade regulations for over a century. Answer D is incorrect because colonists had in fact contributed to imperial defense costs through colonial assemblies and militia service; moreover, their resistance was rooted in the constitutional principle of representation, not a blanket rejection of all taxation.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u3_014",
@@ -229,8 +223,7 @@
       "answer": 1,
       "explanation": "The correct answer is B. The historian's argument is that the Articles' limitations were contextually logical, not accidental. The most direct support is that the revolutionary experience had made Americans deeply suspicious of centralized taxing power - the very grievance that sparked the Revolution. Limiting Congress's taxing authority directly reflected this lived political reality. Answer A actually undermines the historian's argument by highlighting a weakness the Articles created, making it a trap answer. Answer C addresses a different claim (that the government was adequate overall) rather than explaining why specific features were logical responses to circumstances. Answer D is a distractor reflecting a misconception - there is little historical evidence of such a deliberate two-stage strategy among the founders as a group.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u3_015",
@@ -245,8 +238,7 @@
       "answer": 1,
       "explanation": "The correct answer is B. This captures the core intellectual debate: Anti-Federalists relied on Montesquieu's classical argument that republics must be small and culturally unified to remain virtuous and governable. Madison directly challenged this in Federalist No. 10, arguing the opposite - that a large, diverse republic would prevent any single faction from gaining majority tyranny, as competing interests would check one another. Answer A reverses the positions of each side, a classic AP trap. Answer C misrepresents the Anti-Federalist position; they did not concede the theoretical superiority of large republics but rather rejected the premise entirely. Answer D conflates the debate over executive power with the separate question of republican scale, and Anti-Federalists generally feared a powerful executive rather than embracing congressional supremacy as sufficient for a large nation.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u4_016",
@@ -298,16 +290,15 @@
       "unit": 4,
       "question": "Consider the following argument made by an antebellum reformer: 'The factory system, by separating labor from the rhythms of nature and placing workers under the clock and the overseer, has produced a new form of dependency indistinguishable in moral terms from chattel slavery.' This argument most directly reflects which of the following tensions within the antebellum reform movement?",
       "choices": [
-        "A) The contradiction between the labor reform movement's critique of industrial capitalism and the abolitionist movement's exclusive focus on chattel slavery as a unique moral evil.",
-        "B) The difficulty reformers faced in distinguishing between the moral imperative to end slavery and the broader Enlightenment critique of all forms of coercive authority.",
+        "A) The contradiction between the labor reform movement's critique of industrial capitalism and the abolitionist movement's primary emphasis on chattel slavery as a categorically distinct and uniquely severe moral evil.",
+        "B) The difficulty reformers faced in extending anti-slavery arguments beyond the United States to condemn monarchy and European aristocracy as comparable forms of coercive dependency.",
         "C) The growing alliance between Northern industrialists and Southern planters who both sought to suppress labor organizing by equating wage labor with slavery.",
         "D) The tension within evangelical Protestantism between the social gospel's emphasis on collective reform and the individualist ethos of the Second Great Awakening."
       ],
       "answer": 0,
-      "explanation": "The 'wage slavery' argument made by labor reformers like those in the Lowell Female Labor Reform Association directly clashed with abolitionists who argued that chattel slavery was a categorically distinct and uniquely severe moral wrong. Abolitionists like Frederick Douglass and William Lloyd Garrison rejected the wage slavery analogy, arguing it minimized the horrors of actual slavery. This tension was a real fault line within antebellum reform. Option B conflates distinct intellectual traditions and does not accurately describe the specific tension in the question. Option C mischaracterizes the political dynamics - Northern industrialists and Southern planters were not broadly allied, and this framing inverts the argument (it was labor reformers, not industrialists, making the wage slavery comparison). Option D introduces evangelical tensions that, while real, are not directly implicated in the wage slavery argument presented.",
+      "explanation": "The 'wage slavery' argument made by labor reformers like those in the Lowell Female Labor Reform Association directly clashed with abolitionists who argued that chattel slavery was a categorically distinct and uniquely severe moral wrong. Abolitionists like Frederick Douglass and William Lloyd Garrison rejected the wage slavery analogy, arguing it minimized the horrors of actual slavery. This tension was a real fault line within antebellum reform. Option B incorrectly frames the debate as one about extending anti-slavery arguments to critique European monarchy and aristocracy, which was not the tension at issue in the wage slavery argument presented. Option C mischaracterizes the political dynamics - Northern industrialists and Southern planters were not broadly allied, and this framing inverts the argument (it was labor reformers, not industrialists, making the wage slavery comparison). Option D introduces evangelical tensions that, while real, are not directly implicated in the wage slavery argument presented.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u4_020",
@@ -345,15 +336,14 @@
       "question": "Andrew Jackson's veto of the recharter of the Second Bank of the United States in 1832 was framed in his veto message as a defense of ordinary Americans against privileged elites. A historian analyzing this veto in the context of Jacksonian Democracy would most likely argue that it also reflected which of the following tensions in early nineteenth-century America?",
       "choices": [
         "A) A constitutional dispute between strict constructionists and those who favored broad federal authority to promote economic development.",
-        "B) A sectional conflict between Southern slaveholders who feared federal financial power and Northern industrialists who depended on easy credit.",
+        "B) A sectional conflict in which Southern states argued the federal government lacked constitutional authority to charter a national bank, while Northern states supported broad implied powers under the Necessary and Proper Clause.",
         "C) A class and regional struggle between agrarian interests suspicious of centralized financial power and Eastern commercial elites who benefited from the Bank's stabilizing role.",
         "D) A partisan conflict in which Jacksonian Democrats sought to eliminate all forms of paper currency in favor of returning to a gold standard."
       ],
       "answer": 2,
-      "explanation": "Jackson's Bank veto reflected deep agrarian suspicion of concentrated financial power, particularly among Western farmers and Southern planters who viewed the Bank as a tool of Eastern commercial elites and foreign investors. This class and regional tension is central to understanding Jacksonian Democracy. Choice A is partially relevant but misses the economic and class dimensions that were equally important to Jackson's rhetoric. Choice B overstates the sectional framing; many Southern planters were divided on the Bank issue. Choice D is a misconception-Jacksonians favored 'hard money' (specie) broadly but the veto message was not primarily about abolishing paper currency; the Specie Circular came later and is a separate policy.",
+      "explanation": "Jackson's Bank veto reflected deep agrarian suspicion of concentrated financial power, particularly among Western farmers and Southern planters who viewed the Bank as a tool of Eastern commercial elites and foreign investors. This class and regional tension is central to understanding Jacksonian Democracy. Choice A is partially relevant but misses the economic and class dimensions that were equally important to Jackson's rhetoric. Choice B focuses narrowly on a constitutional/legal dispute over federal chartering authority along sectional lines, whereas Jackson's veto message was primarily an economic and populist argument rather than a strict states'-rights constitutional challenge. Choice D is a misconception-Jacksonians favored 'hard money' (specie) broadly but the veto message was not primarily about abolishing paper currency; the Specie Circular came later and is a separate policy.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u4_023",
@@ -450,16 +440,15 @@
       "unit": 5,
       "question": "A senator arguing in favor of the annexation of Texas in 1845 would most likely have framed his support using which of the following ideological justifications?\n\n\"It is our manifest destiny to overspread and to possess the whole of the continent which Providence has given us for the development of the great experiment of liberty and federated self-government entrusted to us.\" - John L. O'Sullivan, 1845\n\nWhich of the following best explains why this argument was controversial in the context of American domestic politics?",
       "choices": [
-        "A) Many Americans feared that annexing Texas would provoke a war with Britain, which still claimed joint sovereignty over the region.",
+        "A) Many Americans feared that annexing Texas would provoke an immediate war with Mexico, which had never recognized Texan independence and regarded annexation as an act of aggression.",
         "B) Critics argued that territorial expansion would reignite the debate over the extension of slavery into new territories, threatening the sectional balance.",
         "C) Northern industrialists opposed annexation because they feared new western agricultural markets would undermine domestic manufacturing interests.",
         "D) Most Americans believed that the United States lacked the military capacity to defend such an expansive new border with Mexico."
       ],
       "answer": 1,
-      "explanation": "The annexation of Texas was deeply controversial because Texas had been an independent slaveholding republic, and its admission as a state would add slave territory and potentially upset the balance between free and slave states in the Senate. This reignited the broader sectional conflict over slavery's expansion. Option A is incorrect because Britain's dispute was over Oregon, not Texas - Mexico, not Britain, contested Texas. Option C reflects a real tension of the era but was not the primary political controversy surrounding annexation. Option D was not a dominant concern in congressional debate; the political and sectional implications of slavery drove opposition far more than military capacity.",
+      "explanation": "The annexation of Texas was deeply controversial because Texas had been an independent slaveholding republic, and its admission as a state would add slave territory and potentially upset the balance between free and slave states in the Senate. This reignited the broader sectional conflict over slavery's expansion. Option A is a plausible distractor because Mexico did in fact go to war with the United States following annexation, making foreign policy concerns real - however, the primary domestic political controversy centered on slavery and sectionalism rather than the foreign policy consequences of annexation. Option C reflects a real tension of the era but was not the primary political controversy surrounding annexation. Option D was not a dominant concern in congressional debate; the political and sectional implications of slavery drove opposition far more than military capacity.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u5_030",
@@ -588,14 +577,13 @@
       "choices": [
         "A) The concentration of industrial wealth, dangerous working conditions, and suppression of unions by both corporations and the federal government created persistent grievances, but government intervention on behalf of employers - as seen in the use of federal troops in 1894 - prevented workers from sustaining political or economic leverage.",
         "B) The rise in strike activity demonstrates that American workers were increasingly influenced by European socialist ideology, which alienated mainstream voters and led Congress to pass legislation banning union organizing by 1898.",
-        "C) The data shows that strikes were most effective in 1894 because the largest number of workers participated, proving that mass mobilization was the primary reason the Pullman Strike succeeded in winning workers' demands.",
-        "D) Industrial workers failed to achieve their goals primarily because the American Federation of Labor refused to organize any workers before 1900, leaving the labor movement without any organizational structure during the Gilded Age."
+        "C) The data shows that strikes were most effective when worker participation was highest, suggesting that the Pullman Strike's mass mobilization forced the federal government to negotiate a compromise settlement favorable to workers.",
+        "D) Industrial workers failed to achieve their goals primarily because the American Federation of Labor limited its membership to skilled craft workers and refused to organize unskilled industrial laborers, leaving the majority of the industrial workforce without union representation during the Gilded Age."
       ],
       "answer": 0,
-      "explanation": "Choice A is correct because it synthesizes the structural causes of labor unrest - industrial consolidation, unsafe conditions, wage cuts - with the key mechanism of failure: state power aligned with capital. The use of federal troops to break the Pullman Strike in 1894 (over the objection of Illinois's governor) exemplifies how government force prevented labor from converting mass mobilization into lasting gains. This supports the historian's 'structural' thesis while explaining the movement's limitations. Choice B is a classic AP trap - while some labor leaders were influenced by socialist ideas, Congress passed no law banning union organizing, and portraying the entire movement as driven by European radicalism overstates ideology and ignores material grievances central to the data. Choice C misreads the data: the Pullman Strike did not succeed - it was crushed by federal injunction and troops, and Eugene Debs was imprisoned. High participation did not translate to victory. Choice D is factually wrong: the American Federation of Labor was founded in 1886 and was actively organizing craft workers throughout the Gilded Age, making this a clear misconception about the period's institutional labor history.",
+      "explanation": "Choice A is correct because it synthesizes the structural causes of labor unrest - industrial consolidation, unsafe conditions, wage cuts - with the key mechanism of failure: state power aligned with capital. The use of federal troops to break the Pullman Strike in 1894 (over the objection of Illinois's governor) exemplifies how government force prevented labor from converting mass mobilization into lasting gains. This supports the historian's 'structural' thesis while explaining the movement's limitations. Choice B is a classic AP trap - while some labor leaders were influenced by socialist ideas, Congress passed no law banning union organizing, and portraying the entire movement as driven by European radicalism overstates ideology and ignores material grievances central to the data. Choice C is incorrect because the Pullman Strike did not result in a compromise settlement favorable to workers - it was crushed by federal injunction and troops, and Eugene Debs was imprisoned. High participation did not translate to victory; the federal government intervened decisively on behalf of employers rather than negotiating with strikers. Choice D presents a plausible and common misconception: while the AFL did limit itself primarily to skilled craft workers and excluded most unskilled industrial laborers, this alone does not fully explain the failure of the labor movement, as structural factors including employer power and government intervention were equally or more decisive in undermining workers' gains during the Gilded Age.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u7_039",
@@ -660,34 +648,32 @@
     {
       "id": "pt_ush_p1_u7_043",
       "unit": 7,
-      "question": "During World War II, the United States mobilized its economy for total war while simultaneously managing significant social tensions at home. Which of the following best illustrates the CONTRADICTION between American wartime democratic ideology and domestic policy?\n\nA) The federal government imposed wage and price controls that limited the free market freedoms American soldiers claimed to be fighting to defend\nB) The internment of Japanese Americans under Executive Order 9066 while the U.S. fought a war against fascist racial ideology in Europe\nC) The Lend-Lease program provided military aid to the Soviet Union, a communist state ideologically opposed to American democracy\nD) African American soldiers served in segregated units even as the military officially emphasized meritocracy and unit cohesion as essential to victory",
+      "question": "During World War II, the United States mobilized its economy for total war while simultaneously managing significant social tensions at home. Which of the following was MOST EXPLICITLY ACKNOWLEDGED AS A CONTRADICTION by contemporaries at the time between American wartime democratic ideology and domestic policy?\n\nA) The federal government imposed wage and price controls that limited the free market freedoms American soldiers claimed to be fighting to defend\nB) The internment of Japanese Americans under Executive Order 9066 while the U.S. fought a war against fascist racial ideology in Europe\nC) The Lend-Lease program provided military aid to the Soviet Union, a communist state ideologically opposed to American democracy\nD) African American soldiers served in segregated units in accordance with long-standing military policy that had been upheld by Congress and the War Department since before the war",
       "choices": [
         "A) The federal government imposed wage and price controls that limited the free market freedoms American soldiers claimed to be fighting to defend",
-        "B) The internment of Japanese Americans under Executive Order 9066 while the U.S. fought a war against fascist racial ideology in Europe",
+        "B) The internment of approximately 120,000 Japanese Americans under Executive Order 9066 while the U.S. fought a war against fascist racial ideology in Europe",
         "C) The Lend-Lease program provided military aid to the Soviet Union, a communist state ideologically opposed to American democracy",
-        "D) African American soldiers served in segregated units even as the military officially emphasized meritocracy and unit cohesion as essential to victory"
+        "D) African American soldiers served in segregated units in accordance with long-standing military policy that had been upheld by Congress and the War Department since before the war"
       ],
       "answer": 1,
-      "explanation": "The internment of approximately 120,000 Japanese Americans - the majority of whom were U.S. citizens - based solely on ethnic ancestry represents the most direct and dramatic contradiction: the U.S. government imprisoned people for their racial background while publicly proclaiming it was fighting Nazi racial ideology. This irony was noted by contemporaries and has become a defining example of wartime civil liberties failures. Choice A is a weak contradiction - wartime economic controls were widely accepted as temporary emergency measures, not seen as antithetical to American values. Choice C represents a pragmatic wartime alliance, not a democratic contradiction per se - Americans understood 'the enemy of my enemy' logic. Choice D is a strong distractor because military segregation was indeed hypocritical, but the prompt specifies the military 'officially emphasized meritocracy,' which is a harder historical claim to verify - in reality the military openly defended segregation, making this less of an overt contradiction than Japanese internment's direct clash with anti-fascist war aims.",
+      "explanation": "The internment of approximately 120,000 Japanese Americans - the majority of whom were U.S. citizens - based solely on ethnic ancestry was explicitly debated and criticized by contemporaries as a direct contradiction of American war aims. Civil libertarians, newspaper editorialists, and some members of Congress publicly noted the irony of the U.S. government imprisoning people based on racial background while proclaiming it was fighting Nazi racial ideology abroad. This made the contradiction unusually visible and acknowledged at the time. Choice A is a weak contradiction - wartime economic controls were widely accepted as temporary emergency measures and were not broadly debated as antithetical to American values. Choice C represents a pragmatic wartime alliance that Americans largely understood through 'the enemy of my enemy' logic, not as an ideological contradiction. Choice D describes military segregation as an established, openly defended institutional policy - the War Department did not frame segregation as being in tension with democratic values, but rather justified it as a matter of military order and tradition, making it less of a publicly acknowledged contradiction than the internment policy.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u7_044",
       "unit": 7,
-      "question": "A historian analyzing the progressive reforms of the early twentieth century argues that the movement was fundamentally limited in its scope. Which of the following pieces of evidence would best support this interpretation?\n\nA) The passage of the Pure Food and Drug Act in 1906 addressed corporate abuses in the meatpacking industry.\nB) Progressive reformers focused primarily on regulating industrial capitalism rather than challenging the racial segregation codified by Jim Crow laws.\nC) The Seventeenth Amendment established the direct election of senators, expanding democratic participation.\nD) Settlement house workers like Jane Addams advocated for improved living conditions in urban immigrant communities.",
+      "question": "A historian argues that the federal judiciary posed a significant obstacle to Progressive Era reform efforts in the early twentieth century. Which of the following pieces of evidence would best support this interpretation?\n\nA) The Clayton Antitrust Act of 1914 strengthened federal authority to regulate monopolistic business practices.\nB) The Supreme Court's ruling in Lochner v. New York (1905) struck down a state law limiting bakers' working hours by invoking the liberty of contract doctrine.\nC) Progressive reformers successfully lobbied Congress to establish the Federal Trade Commission to oversee business conduct.\nD) The Sixteenth Amendment granted Congress the power to levy a federal income tax, redistributing the tax burden onto wealthier Americans.",
       "choices": [
-        "A) The passage of the Pure Food and Drug Act in 1906 addressed corporate abuses in the meatpacking industry.",
-        "B) Progressive reformers focused primarily on regulating industrial capitalism rather than challenging the racial segregation codified by Jim Crow laws.",
-        "C) The Seventeenth Amendment established the direct election of senators, expanding democratic participation.",
-        "D) Settlement house workers like Jane Addams advocated for improved living conditions in urban immigrant communities."
+        "A) The Clayton Antitrust Act of 1914 strengthened federal authority to regulate monopolistic business practices.",
+        "B) The Supreme Court's ruling in Lochner v. New York (1905) struck down a state law limiting bakers' working hours by invoking the liberty of contract doctrine.",
+        "C) Progressive reformers successfully lobbied Congress to establish the Federal Trade Commission to oversee business conduct.",
+        "D) The Sixteenth Amendment granted Congress the power to levy a federal income tax, redistributing the tax burden onto wealthier Americans."
       ],
       "answer": 1,
-      "explanation": "Choice B is correct because it directly supports the argument that progressivism was limited in scope - most mainstream Progressive reformers largely ignored or even reinforced racial inequality, leaving Jim Crow laws intact and sometimes actively excluding Black Americans from reform efforts. This represents a significant structural limitation. Choice A is incorrect because it describes a success of progressivism, not a limitation. Choices C and D also highlight achievements of the movement - democratic reform and social welfare work - which would contradict, not support, the historian's argument about limitations.",
+      "explanation": "Choice B is correct because the Lochner decision exemplifies how the federal judiciary used the liberty of contract doctrine to invalidate Progressive labor legislation, directly supporting the argument that courts obstructed reform efforts. By striking down state-level worker protections, the Supreme Court placed constitutional limits on the reach of Progressive reform. Choice A is incorrect because it describes a legislative success of the Progressive movement, not a judicial obstacle. Choice C similarly highlights a reform achievement - the creation of a regulatory agency - which would contradict the argument. Choice D describes another Progressive success, the income tax amendment, which does not support the claim that the judiciary limited reform.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u7_045",
@@ -785,15 +771,14 @@
       "question": "A historian analyzing domestic politics in the early 1950s notes that Senator Joseph McCarthy's influence grew rapidly after his 1950 Wheeling, West Virginia speech, yet declined sharply by 1954. Which of the following best explains this trajectory by identifying both the conditions that enabled his rise and the factor most responsible for his fall?",
       "choices": [
         "A) McCarthy rose because the Soviet atomic bomb and communist victories in China created genuine public anxiety about communist infiltration, and he fell because televised Army-McCarthy hearings exposed his reckless methods to a mass audience.",
-        "B) McCarthy rose because Truman's foreign policy failures alienated conservative voters, and he fell because Eisenhower publicly denounced him in a formal address to Congress.",
+        "B) McCarthy rose because Truman's foreign policy failures alienated conservative voters, and he fell because the Eisenhower administration quietly coordinated with Senate Republicans to engineer the censure vote, dismantling McCarthy through institutional pressure rather than public confrontation.",
         "C) McCarthy rose because the FBI under J. Edgar Hoover actively promoted his accusations to strengthen its own funding, and he fell when the FBI withdrew its support after the Korean War ended.",
-        "D) McCarthy rose because Republican Party leaders needed a figurehead to challenge Democratic dominance, and he fell once the Republicans won the presidency and no longer needed his political attacks."
+        "D) McCarthy rose because Republican Party leaders needed a high-profile attack dog to recapture Congress and the presidency, and he fell once Republicans secured both chambers and the White House in 1952 and party leadership systematically marginalized him to consolidate control over the anti-communist agenda."
       ],
       "answer": 0,
-      "explanation": "The correct answer is A. McCarthy's rise was fueled by legitimate Cold War anxieties - the Soviet atomic test (1949) and the communist victory in China (1949) made fears of communist subversion credible to many Americans, and the outbreak of the Korean War (1950) intensified those fears. His downfall came during the Army-McCarthy hearings (1954), which were televised nationally; attorney Joseph Welch's famous rebuke ('Have you no sense of decency?') turned public opinion against McCarthy, and the Senate subsequently censured him. Option B is incorrect because Eisenhower, though privately contemptuous of McCarthy, never publicly denounced him in a formal Congressional address - he deliberately avoided direct confrontation. Option C overstates Hoover's role; while Hoover did share information with McCarthy, he also grew wary of McCarthy's unpredictability, but the FBI's stance was not the primary cause of his fall. Option D mistakes tactical political use for the actual causes; McCarthy's fall was driven by overreach and public exposure, not by Republican strategic calculation after the 1952 election.",
-      "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "explanation": "The correct answer is A. McCarthy's rise was fueled by legitimate Cold War anxieties - the Soviet atomic test (1949) and the communist victory in China (1949) made fears of communist subversion credible to many Americans, and the outbreak of the Korean War (1950) intensified those fears. His downfall came during the Army-McCarthy hearings (1954), which were televised nationally; attorney Joseph Welch's famous rebuke ('Have you no sense of decency?') turned public opinion against McCarthy, and the Senate subsequently censured him. Option B is a stronger distractor because Eisenhower did work behind the scenes with Senate allies and the censure was indeed an institutional outcome, but the primary driver of McCarthy's fall was the public exposure through televised hearings that shifted mass opinion - the censure followed from that shift rather than causing it through coordinated backroom strategy. Option C overstates Hoover's role; while Hoover did share information with McCarthy, the FBI's stance was not the primary cause of his fall. Option D is a strong trap for students who understand the partisan context: while McCarthy did serve Republican electoral interests before 1952, his downfall was not the result of deliberate party marginalization after the election but rather of his own overreach and the devastating public exposure during the Army-McCarthy hearings.",
+      "difficulty": "hard",
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u8_052",
@@ -808,24 +793,22 @@
       "answer": 1,
       "explanation": "The correct answer is B. The second student's argument centers on the credibility gap - the disconnect between government claims of progress and the reality shown on television. Evidence that television viewers opposed the war at higher rates than print media consumers, even when controlling for personal losses, would directly support the claim that media portrayal of battlefield realities (rather than raw casualty numbers alone) drove the opinion shift. This isolates the medium of information as the causal variable. Option A would actually undermine the second student by supporting the first - if casualties explain the drop in support across both wars, it suggests human cost rather than media framing is the primary driver. Option C involves print newspaper coverage of veteran trauma, which does not specifically support the television/credibility gap argument. Option D links opposition to the draft rather than to the credibility gap, which is a distinct causal mechanism (self-interest in avoiding service) that supports neither student's specific thesis about casualties versus information credibility.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u9_053",
       "unit": 9,
       "question": "Reagan's 1981 Economic Recovery Tax Act reduced the top marginal income tax rate from 70% to 50% and indexed tax brackets to inflation. Supporters argued this would stimulate economic growth through 'supply-side economics.' Which of the following best explains the theoretical basis for this policy approach?",
       "choices": [
-        "A) By reducing taxes on lower-income Americans, increased consumer spending would drive demand and stimulate economic growth from the bottom up.",
+        "A) By reducing taxes on lower-income Americans, increased consumer spending would boost aggregate demand and stimulate economic growth from the bottom up.",
         "B) By reducing taxes on higher earners and corporations, increased investment and capital formation would generate economic activity that would benefit all income levels.",
         "C) By eliminating the progressive tax structure entirely, the government would create a flat-tax system that distributed the tax burden more equitably across the population.",
         "D) By reducing government revenue, Congress would be forced to cut military spending, redirecting resources toward private-sector infrastructure investment."
       ],
       "answer": 1,
-      "explanation": "Supply-side economics, often called 'Reaganomics' or 'trickle-down economics,' was premised on the idea that cutting taxes on higher earners and businesses would incentivize investment, capital formation, and entrepreneurship, generating economic growth that would eventually benefit all Americans. Option A describes demand-side Keynesian economics, which was the opposite theoretical framework Reagan was explicitly rejecting. Option C is incorrect because Reagan's tax cuts maintained a progressive structure - they reduced rates but did not eliminate progressivity. Option D misrepresents the policy's intent; Reagan actually sought to increase military spending alongside tax cuts, a combination that contributed to significant deficit growth.",
+      "explanation": "Supply-side economics, often called 'Reaganomics' or 'trickle-down economics,' was premised on the idea that cutting taxes on higher earners and businesses would incentivize investment, capital formation, and entrepreneurship, generating economic growth that would eventually benefit all Americans. Option A describes a demand-side logic - focused on boosting consumer spending and aggregate demand - that stands in direct contrast to supply-side theory. While this kind of reasoning shares some overlap with Keynesian-adjacent thinking, it is worth noting that Keynesian economics more precisely emphasizes government expenditure rather than tax cuts to lower-income households as the primary driver of demand. Option C is incorrect because Reagan's tax cuts maintained a progressive structure - they reduced rates but did not eliminate progressivity. Option D misrepresents the policy's intent; Reagan actually sought to increase military spending alongside tax cuts, a combination that contributed to significant deficit growth.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_ush_p1_u9_054",
@@ -847,16 +830,15 @@
       "unit": 9,
       "question": "Between 1980 and 2010, the United States experienced significant demographic shifts, including rapid growth of the Hispanic population, increased immigration from Asia and Latin America following the 1965 Immigration Act's effects, and suburbanization of minority communities. Which of the following best explains a major political consequence of these demographic changes by the early 21st century?",
       "choices": [
-        "A) The Republican Party expanded its electoral coalition by successfully appealing to Hispanic and Asian American voters through cultural conservative messaging on family values.",
-        "B) Demographic growth in Sun Belt states such as Texas, Florida, and Arizona increased their Electoral College significance, intensifying political competition in regions previously dominated by one party.",
+        "A) The Republican Party expanded its electoral coalition by successfully appealing to Hispanic and Asian American voters through cultural conservative messaging on family values, with Hispanic voters increasingly splitting evenly between the two major parties.",
+        "B) Demographic growth in Sun Belt states such as Florida and Nevada increased their Electoral College significance, transforming them from reliably partisan states into genuinely competitive battlegrounds during the 1980-2010 period.",
         "C) Congress passed comprehensive immigration reform legislation in the 1990s that created a clear pathway to citizenship, resolving the political debate over undocumented immigration.",
         "D) The growth of immigrant communities accelerated deindustrialization in the Midwest by drawing manufacturing investment toward southern states with larger immigrant labor pools."
       ],
       "answer": 1,
-      "explanation": "The demographic growth of the Sun Belt - driven by Hispanic population increases, retirement migration, and economic development - dramatically increased the Electoral College weight of states like Florida, Texas, and Arizona. By the 2000s and 2010s, previously safe Republican states began showing competitive margins, reshaping national political strategy. Option A contains a partial truth - some Republicans did appeal to Hispanic voters on social issues - but the party broadly did not expand its coalition among these groups; this option overstates Republican success. Option C is factually incorrect; no comprehensive immigration reform with a clear citizenship pathway passed Congress in the 1990s or 2000s despite multiple attempts. Option D conflates two separate phenomena - deindustrialization was driven primarily by automation and globalization, not immigrant demographic shifts toward the South.",
+      "explanation": "The demographic growth of the Sun Belt - driven by Hispanic population increases, retirement migration, and economic development - dramatically increased the Electoral College weight of states like Florida and Nevada. Both states became genuine swing states during the 1980-2010 window, reshaping national political strategy. Option A is clearly incorrect; Republican outreach to Hispanic voters on social conservative themes failed to produce sustained coalition expansion, and Hispanic voters trended Democratic as a bloc throughout this period rather than splitting evenly between the parties. Option C is factually incorrect; no comprehensive immigration reform with a clear citizenship pathway passed Congress in the 1990s or 2000s despite multiple attempts. Option D conflates two separate phenomena - deindustrialization was driven primarily by automation and globalization, not immigrant demographic shifts toward the South.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     }
   ],
   "frqs": [

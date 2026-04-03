@@ -49,13 +49,12 @@
         "A) Congress lacked the power to declare war or negotiate treaties with foreign nations.",
         "B) The national government had no authority to levy taxes directly on citizens or compel state compliance with financial obligations.",
         "C) The Articles required a simple majority of states to ratify any amendment, making reform nearly impossible.",
-        "D) Individual states were prohibited from coining their own currency, creating a shortage of funds for state governments."
+        "D) The lack of a uniform national currency allowed states to issue competing paper currencies, but this problem was unrelated to Congress's inability to collect requisitioned funds."
       ],
       "answer": 1,
-      "explanation": "The central flaw illustrated here is Congress's inability to tax directly. Under the Articles, Congress could only request money from states, with no enforcement mechanism. States routinely declined, leaving the national government perpetually underfunded. Option A describes a power Congress actually did have under the Articles. Option C is factually wrong - amendments required unanimous consent of all 13 states, not a simple majority, but this is not the weakness illustrated by the scenario. Option D is also incorrect: states could and did coin their own currency under the Articles, which was actually a separate problem (no uniform currency).",
+      "explanation": "The central flaw illustrated here is Congress's inability to tax directly. Under the Articles, Congress could only request money from states, with no enforcement mechanism. States routinely declined, leaving the national government perpetually underfunded. Option A describes a power Congress actually did have under the Articles. Option C is factually wrong - amendments required unanimous consent of all 13 states, not a simple majority, but this is not the weakness illustrated by the scenario. Option D describes a real weakness of the Articles - states could and did issue competing paper currencies of uncertain value, creating economic chaos - but this monetary problem was a separate structural flaw distinct from Congress's inability to collect requisitioned funds from the states.",
       "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u1_004",
@@ -135,18 +134,17 @@
     {
       "id": "pt_gov_p1_u1_009",
       "unit": 1,
-      "question": "Under the Articles of Confederation, Congress requisitioned funds from states to pay Revolutionary War debts, but many states refused to contribute. This situation is best described as an illustration of which fundamental weakness?",
+      "question": "After the Revolutionary War, New York imposed tariffs on goods imported from New Jersey and Connecticut, while those states retaliated with their own trade barriers. This interstate economic conflict is best explained by which weakness of the Articles of Confederation?",
       "choices": [
-        "A) Congress lacked the power to regulate interstate commerce, causing economic rivalries between states.",
-        "B) The national government had no independent authority to tax citizens directly, making it dependent on voluntary state compliance.",
-        "C) The absence of a federal judiciary meant war debt disputes could not be adjudicated.",
-        "D) States were prohibited from maintaining their own militias, leaving the national government responsible for all defense costs."
+        "A) The Articles required unanimous consent of all states to declare war, paralyzing the national government's ability to respond to foreign threats.",
+        "B) Congress lacked the authority to levy direct taxes on citizens, forcing it to rely on state requisitions.",
+        "C) Congress had no power to regulate interstate commerce, leaving states free to impose competing tariffs and trade barriers on one another.",
+        "D) The Articles prohibited states from entering into any treaties or agreements with foreign nations without congressional approval."
       ],
-      "answer": 1,
-      "explanation": "One of the most crippling weaknesses of the Articles of Confederation was that Congress could only request - not compel - financial contributions from states. Without the power to levy taxes directly on citizens, the national government could not reliably fund its operations or pay war debts, which nearly caused governmental collapse. Choice A describes a real weakness of the Articles but does not address the specific scenario about war debt financing described in the question stem. Choice C is partially true but peripheral to the fiscal problem described. Choice D is factually incorrect - states did maintain militias under the Articles.",
+      "answer": 2,
+      "explanation": "One of the central weaknesses of the Articles of Confederation was that Congress possessed no authority to regulate commerce between states. This allowed states to act as independent economic rivals, imposing tariffs and trade restrictions on one another, which disrupted national economic unity and was a primary motivation for the Constitutional Convention of 1787. Choice A describes a real procedural obstacle under the Articles but is unrelated to interstate trade disputes. Choice B describes the taxation weakness, which concerns war debt financing rather than commercial rivalry between states. Choice D is a mischaracterization; while states were restricted in foreign diplomacy, this does not explain the interstate trade conflict described.",
       "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u1_010",
@@ -216,14 +214,12 @@
         "A) Members vote with leadership primarily because the Constitution requires party-line voting in order to maintain a functioning majority government.",
         "B) Partisan voting reflects the delegate model of representation, because members are directly following the preferences of their party's national platform as a proxy for constituent wishes.",
         "C) Party discipline in voting reflects the trustee model, where members defer to their leaders' superior knowledge of policy rather than their own constituents' preferences.",
-        "D) Members follow party leadership due to institutional incentives - such as committee assignments, campaign funding, and agenda control - creating a tension between electoral accountability to constituents and organizational loyalty to the party.",
-        "E) Partisan cohesion has declined in recent decades, so members routinely break with leadership without consequence, undermining the entire premise of the observation."
+        "D) Members follow party leadership due to institutional incentives - such as committee assignments, campaign funding, and agenda control - creating a tension between electoral accountability to constituents and organizational loyalty to the party."
       ],
       "answer": 3,
-      "explanation": "Option D is correct. The pattern of voting with party leadership despite personal policy disagreement is best explained by institutional incentives: leadership controls committee assignments, campaign resources, and the legislative agenda. This creates a principal-agent tension between representing constituents (electoral accountability) and maintaining good standing within the party organization - a core concept in Topic 2.3. Option A is wrong because the Constitution does not require party-line voting; parties are not even mentioned in the Constitution. Option B conflates the delegate model (following constituents directly) with following party platforms, which are different principals. Option C misapplies the trustee model, which involves members using their own judgment independent of external pressure, not deference to party bosses. Note: Option E is an intentional fifth-looking distractor embedded as D's neighbor - the question has only 4 valid choices (A-D); this question presents exactly 4 choices as required.",
+      "explanation": "Option D is correct. The pattern of voting with party leadership despite personal policy disagreement is best explained by institutional incentives: leadership controls committee assignments, campaign resources, and the legislative agenda. This creates a principal-agent tension between representing constituents (electoral accountability) and maintaining good standing within the party organization - a core concept in Topic 2.3. Option A is wrong because the Constitution does not require party-line voting; parties are not even mentioned in the Constitution. Option B conflates the delegate model (following constituents directly) with following party platforms, which are different principals. Option C misapplies the trustee model, which involves members using their own judgment independent of external pressure, not deference to party bosses.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u2_015",
@@ -305,16 +301,15 @@
       "unit": 2,
       "question": "A president issues an executive order instructing all federal agencies to prioritize hiring veterans for civil service positions, bypassing the standard Office of Personnel Management (OPM) competitive examination process. Which of the following best describes the most constitutionally significant challenge this order would face?",
       "choices": [
-        "A) The order violates the Take Care Clause because the president is interfering with an independent agency's statutory mandate established by Congress",
+        "A) The order violates the Presentment Clause because the president is directing federal agencies without first submitting the policy to Congress for bicameral approval and presentment",
         "B) The order could be invalidated by Congress through legislation, since civil service rules are established by statute and Congress retains authority to override executive directives that conflict with existing law",
         "C) The order is unconstitutional because only the Senate can confirm federal employees through the Appointments Clause",
         "D) The order is an impermissible use of executive power because presidents may only issue executive orders during declared national emergencies"
       ],
       "answer": 1,
-      "explanation": "Federal civil service hiring procedures are governed by the Civil Service Reform Act and related statutes passed by Congress. An executive order cannot override a congressional statute; if the order conflicts with existing law, Congress can pass legislation to nullify it, or courts can strike it down for exceeding executive authority. Choice A misapplies the Take Care Clause, which requires the president to enforce laws faithfully - the OPM is not a fully independent agency insulated from presidential direction. Choice C is incorrect because the Appointments Clause applies to officers of the United States, not rank-and-file civil servants. Choice D is a common misconception; presidents issue executive orders routinely outside of emergencies, and no constitutional provision restricts them to emergency use.",
+      "explanation": "Federal civil service hiring procedures are governed by the Civil Service Reform Act and related statutes passed by Congress. An executive order cannot override a congressional statute; if the order conflicts with existing law, Congress can pass legislation to nullify it, or courts can strike it down for exceeding executive authority. Choice A is incorrect because the Presentment Clause governs the legislative process - specifically, how bills become law - and does not apply to executive orders directing agency conduct. Presidents routinely issue executive orders to manage the operations of the executive branch without bicameral approval. Choice C is incorrect because the Appointments Clause applies to officers of the United States, not rank-and-file civil servants. Choice D is a common misconception; presidents issue executive orders routinely outside of emergencies, and no constitutional provision restricts them to emergency use.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u2_021",
@@ -334,7 +329,7 @@
     {
       "id": "pt_gov_p1_u2_022",
       "unit": 2,
-      "question": "A president vetoes a major infrastructure bill. Two weeks later, Congress holds an override vote. The House votes 295-140 in favor of the override, and the Senate votes 65-35 in favor of the override. Which of the following correctly describes the outcome and its constitutional basis?",
+      "question": "A president vetoes a major infrastructure bill. Two weeks later, Congress holds an override vote. The House votes 295-140 in favor of the override, and the Senate votes 67-33 in favor of the override. Which of the following correctly describes the outcome and its constitutional basis?",
       "choices": [
         "A) The veto is overridden and the bill becomes law, because both chambers exceeded the simple majority required by Article I",
         "B) The veto is sustained because the Senate failed to reach the three-fifths threshold required to override a presidential veto",
@@ -342,10 +337,9 @@
         "D) The veto is sustained because the House, though exceeding two-thirds, must also secure the president's signature on a second reading"
       ],
       "answer": 2,
-      "explanation": "Article I, Section 7 of the Constitution requires a two-thirds majority in both the House and the Senate to override a presidential veto. The House vote of 295-140 represents approximately 68% (exceeding two-thirds of 435 = 290 needed), and the Senate vote of 65-35 represents exactly two-thirds of 100. Both chambers met the threshold, so the veto is overridden and the bill becomes law without the president's signature. Choice A is incorrect because override requires two-thirds, not a simple majority. Choice B is a classic misconception that conflates the three-fifths cloture threshold (used to end Senate filibusters) with the veto override requirement. Choice D is entirely fabricated - there is no constitutional provision for a 'second reading' signature after an override.",
+      "explanation": "Article I, Section 7 of the Constitution requires a two-thirds majority in both the House and the Senate to override a presidential veto. The House vote of 295-140 represents approximately 68% (exceeding two-thirds of 435 = 290 needed), and the Senate vote of 67-33 represents exactly two-thirds of 100 senators. Both chambers met the threshold, so the veto is overridden and the bill becomes law without the president's signature. Choice A is incorrect because override requires two-thirds, not a simple majority. Choice B is a classic misconception that conflates the three-fifths cloture threshold (used to end Senate filibusters) with the veto override requirement. Choice D is entirely fabricated - there is no constitutional provision for a 'second reading' signature after an override.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u2_023",
@@ -405,8 +399,7 @@
       "answer": 1,
       "explanation": "The correct answer is B. The Appointments Clause grants the president the power to nominate federal judges and requires Senate confirmation, but the Constitution does not specify a timeline for Senate action. The Senate can exercise its advise and consent power passively by simply refusing to schedule hearings or hold a vote, which effectively prevents the president from filling the vacancy - a real source of constitutional tension illustrated historically by the 2016 Merrick Garland nomination. A is incorrect because no such 60-day rule exists in the Constitution. C is incorrect because signing statements apply to legislation, not Senate procedures. D is incorrect because in practice the Judiciary Committee plays a decisive gatekeeping role in whether nominations advance, and this power has been exercised historically without constitutional challenge.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u2_027",
@@ -421,8 +414,7 @@
       "answer": 2,
       "explanation": "The correct answer is C. In West Virginia v. EPA (2022), the Supreme Court applied the major questions doctrine, holding that when an agency claims authority to regulate matters of significant economic and political importance, it must demonstrate clear congressional authorization - not merely rely on broadly worded or ambiguous statutory language. Here, the agency's expansive regulations on a significant public health issue would trigger this doctrine, making it likely the court would limit or invalidate the rules. A is incorrect because procedural compliance alone does not guarantee substantive validity under the major questions doctrine. B is incorrect because the nondelegation doctrine, while occasionally invoked, has rarely been used to strike down laws; Congress regularly and permissibly delegates rulemaking authority to agencies - the issue is the scope of that authority. D is incorrect because West Virginia v. EPA effectively narrowed Chevron deference in major questions contexts, signaling that courts will not simply defer to agencies when the regulatory action is of vast significance without explicit congressional direction.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u3_028",
@@ -445,15 +437,14 @@
       "question": "A state legislature passes a law requiring all public school students to recite a nondenominational prayer at the start of each school day. A parent challenges the law in federal court. Which of the following outcomes is most consistent with Supreme Court precedent?",
       "choices": [
         "A) The law is constitutional because the prayer is nondenominational and does not promote any specific religion",
-        "B) The law is unconstitutional because it violates the free exercise clause by compelling students to participate in a religious activity",
+        "B) The law is unconstitutional because it violates the free exercise clause by prohibiting students from practicing their own religion during school hours",
         "C) The law is unconstitutional because mandatory school prayer violates the establishment clause even if the prayer is nondenominational",
         "D) The law is constitutional because public schools are government institutions with the authority to instill civic and moral values"
       ],
       "answer": 2,
-      "explanation": "In Engel v. Vitale (1962), the Supreme Court ruled that state-sponsored prayer in public schools violates the establishment clause of the First Amendment, regardless of whether the prayer is nondenominational or voluntary in theory. Option A is a common misconception - the establishment clause prohibits government-sponsored religious activity even without denominational preference. Option B misidentifies the relevant clause; the free exercise clause protects individuals from being forced to practice religion, but the primary violation here is the government establishing a religious practice. Option D is incorrect; the government's interest in civic values does not override First Amendment prohibitions.",
+      "explanation": "In Engel v. Vitale (1962), the Supreme Court ruled that state-sponsored prayer in public schools violates the establishment clause of the First Amendment, regardless of whether the prayer is nondenominational or voluntary in theory. Option A is a common misconception - the establishment clause prohibits government-sponsored religious activity even without denominational preference. Option B misidentifies both the relevant clause and the nature of the harm; the free exercise clause protects individuals from government interference with their own religious practice, but the law does not prohibit students from practicing their religion - it imposes a state-sponsored religious activity, which is an establishment clause concern. Option D is incorrect; the government's interest in civic values does not override First Amendment prohibitions.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u3_030",
@@ -466,10 +457,9 @@
         "D) The tactics succeeded because the Supreme Court's rulings in Brown v. Board of Education directly compelled Congress to pass the Civil Rights Act without further political pressure"
       ],
       "answer": 1,
-      "explanation": "Civil rights activists used nonviolent direct action to dramatize the injustice of segregation before national and international media, raising the political cost of inaction for federal officials concerned with Cold War credibility and electoral pressure from Northern Black voters and white moderates. Option A is incorrect because African Americans were systematically disenfranchised in the South, so electoral pressure there was limited. Option C is wrong because direct action was explicitly distinct from - and often complementary to - litigation strategies. Option D overstates the direct causal link; Brown addressed school desegregation but did not directly compel Congress, and substantial political mobilization was required before the Civil Rights Act passed in 1964.",
+      "explanation": "Civil rights activists used nonviolent direct action to dramatize the injustice of segregation before national and international media, raising the political cost of inaction for federal officials concerned with Cold War credibility and electoral pressure from Northern Black voters and white moderates. Option A is incorrect as stated because systematic disenfranchisement in the South severely limited direct electoral threats to Southern congressional incumbents specifically; while Northern Black voters did constitute a meaningful electoral force that influenced national Democratic Party calculations, this regional electoral leverage does not fully explain the broader federal legislative response. Option C is wrong because direct action was explicitly distinct from - and often complementary to - litigation strategies. Option D overstates the direct causal link; Brown addressed school desegregation but did not directly compel Congress, and substantial political mobilization was required before the Civil Rights Act passed in 1964.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u3_031",
@@ -509,13 +499,12 @@
         "A) Engel v. Vitale (1962), which held that state-sponsored prayer in public schools violates the Establishment Clause regardless of whether participation is voluntary",
         "B) Wisconsin v. Yoder (1972), which held that states cannot compel practices that substantially burden sincere religious exercise",
         "C) Tinker v. Des Moines (1969), which held that students do not shed their constitutional rights at the schoolhouse gate",
-        "D) Lemon v. Kurtzman (1971), which established that government aid to religious schools is permissible as long as it benefits students rather than institutions"
+        "D) Lemon v. Kurtzman (1971), which established a three-part test for Establishment Clause analysis while striking down state salary supplements to teachers in religious schools"
       ],
       "answer": 0,
-      "explanation": "Engel v. Vitale directly addressed state-sponsored prayer in public schools, ruling it unconstitutional under the Establishment Clause even when voluntary. This is the most on-point precedent for challenging a school prayer requirement. Wisconsin v. Yoder (B) concerns the Free Exercise Clause - it protects religious minorities from state compulsion, which is the opposite constitutional concern here. Tinker v. Des Moines (C) deals with student free speech, not the Establishment Clause. Lemon v. Kurtzman (D) is a common distractor because it involves the Establishment Clause, but that case's holding actually allowed some government interaction with religious institutions; it does not directly prohibit school prayer. Students often confuse the two Establishment Clause cases.",
+      "explanation": "Engel v. Vitale directly addressed state-sponsored prayer in public schools, ruling it unconstitutional under the Establishment Clause even when voluntary. This is the most on-point precedent for challenging a school prayer requirement. Wisconsin v. Yoder (B) concerns the Free Exercise Clause - it protects religious minorities from state compulsion, which is the opposite constitutional concern here. Tinker v. Des Moines (C) deals with student free speech, not the Establishment Clause. Lemon v. Kurtzman (D) is a common distractor because it involves the Establishment Clause and established an influential three-part test for Establishment Clause analysis; however, that case specifically addressed government aid to religious schools by striking down state salary supplements to teachers in parochial schools. It does not directly prohibit school-sponsored prayer. Students often confuse the two Establishment Clause cases because both are relevant to the religion clauses, but Engel v. Vitale is the controlling precedent on school prayer specifically.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u3_034",
@@ -535,18 +524,17 @@
     {
       "id": "pt_gov_p1_u3_035",
       "unit": 3,
-      "question": "During the Civil Rights Movement of the 1950s and 1960s, African American activists organized sit-ins, freedom rides, and mass marches to protest racial segregation. The federal government initially responded with limited intervention, but later passed the Civil Rights Act of 1964 and the Voting Rights Act of 1965. Which of the following best explains why sustained social movement pressure was necessary to produce these legislative outcomes?",
+      "question": "During the Civil Rights Movement of the 1950s and 1960s, African American activists organized sit-ins, freedom rides, and mass marches to protest racial segregation. Despite a sympathetic international climate during the Cold War-in which the United States sought to portray itself as a beacon of democracy-the federal government did not pass major civil rights legislation until 1964 and 1965. Which of the following best explains why international reputational pressure alone was insufficient to produce civil rights legislation, and why sustained domestic social movement organizing was necessary?",
       "choices": [
         "A) The Supreme Court lacked jurisdiction to address racial discrimination in private businesses, leaving Congress as the only branch capable of protecting civil rights in those contexts",
         "B) Decentralized federalism, institutional inertia in Congress, and the political costs of challenging the status quo meant that majoritarian institutions required sustained external pressure before responding to minority grievances",
         "C) The President possesses inherent executive authority to enforce the Equal Protection Clause, but chose not to act without explicit congressional authorization to avoid separation of powers conflicts",
-        "D) Because civil rights were protected under state law in most Southern states, federal legislative action was unnecessary until the Supreme Court struck down those state protections"
+        "D) Cold War diplomatic concerns created strong incentives for the executive branch to act unilaterally on civil rights, but constitutional limits on executive power meant that only Congress could enact enforceable protections, and Congress would not act without domestic political pressure sufficient to overcome the Southern Democratic bloc"
       ],
       "answer": 1,
-      "explanation": "This question requires synthesizing knowledge of social movements, federalism, and legislative processes. Option B is correct because Congress is a majoritarian institution subject to filibuster, committee gatekeeping, and the influence of Southern Democrats who blocked civil rights legislation for decades. Social movements shifted public opinion, created political costs for inaction, and built coalitions that eventually overcame institutional barriers - a core AP concept about how minority groups achieve policy change. Option A is a partial truth used as a distractor: the Court did have limited tools against private discrimination (the Civil Rights Cases of 1883 had restricted federal power), but this alone does not explain why sustained pressure was needed or why Congress eventually acted. Option C mischaracterizes the executive's role and separation of powers - it also ignores that Presidents Eisenhower and Kennedy both faced political constraints independent of congressional authorization. Option D is factually inverted: Jim Crow laws were state laws enforcing segregation, not protecting civil rights.",
+      "explanation": "This question requires synthesizing knowledge of social movements, federalism, legislative processes, and Cold War context. Option B is correct because Congress is a majoritarian institution subject to filibuster, committee gatekeeping, and the influence of Southern Democrats who blocked civil rights legislation for decades. Social movements shifted public opinion, created political costs for inaction, and built coalitions that eventually overcame institutional barriers-a core AP concept about how minority groups achieve policy change. Option A is a partial truth used as a distractor: the Court did have limited tools against private discrimination (the Civil Rights Cases of 1883 had restricted federal power), but this alone does not explain why sustained domestic pressure was necessary or why Congress eventually acted. Option C mischaracterizes the executive's role and separation of powers, ignoring that Presidents Eisenhower and Kennedy both faced political constraints independent of congressional authorization. Option D is the most sophisticated distractor: it correctly identifies Cold War incentives and constitutional limits on executive power, and it is partially true that Congress needed domestic pressure to act. However, it overstates the executive's willingness to act unilaterally and implies a cleaner causal chain than actually existed-obscuring the deeper structural explanation that majoritarian institutions resist minority grievances regardless of international context unless domestic coalitions generate sufficient political costs for inaction.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u4_036",
@@ -626,18 +614,17 @@
     {
       "id": "pt_gov_p1_u4_041",
       "unit": 4,
-      "question": "A national polling organization surveys 1,200 randomly selected adults about their views on federal spending. The poll reports a 3% margin of error at a 95% confidence level and finds that 54% of respondents support increasing infrastructure spending. A political scientist reviewing the data notes that 68% of respondents were college graduates, while the national average for college graduates is approximately 38%. Which of the following best explains the most significant limitation of this poll's findings?",
+      "question": "A national polling organization surveys 950 randomly selected adults about their views on federal immigration policy. The poll reports a 3% margin of error at a 95% confidence level and finds that 47% of respondents support increasing border security funding. A political scientist reviewing the data notes that 65% of respondents were college graduates, while the national average for college graduates is approximately 38%. Which of the following best explains the most significant limitation of this poll's findings?",
       "choices": [
-        "A) The sample size of 1,200 is too small to produce a statistically meaningful margin of error for a national survey.",
+        "A) The sample size of 950 is too small to produce a statistically meaningful margin of error for a national survey.",
         "B) The overrepresentation of college graduates creates a sampling bias that may skew results away from the broader population's views.",
         "C) A 95% confidence level is insufficient for measuring public opinion on federal policy questions.",
-        "D) The margin of error of 3% is too large to draw any meaningful conclusions about public support for infrastructure spending."
+        "D) The margin of error of 3% is too large to draw any meaningful conclusions about public support for border security funding."
       ],
       "answer": 1,
-      "explanation": "The correct answer is B. When a sample does not reflect the demographic composition of the population - in this case, college graduates are nearly twice as represented as in the general public - the results suffer from sampling bias, making it difficult to generalize findings to all Americans. Choice A is incorrect because 1,200 is actually a widely accepted and statistically sound sample size for national polls. Choice C is incorrect because 95% confidence is the standard threshold used in social science research and is considered rigorous. Choice D is incorrect because a 3% margin of error is quite standard and does allow for meaningful interpretation, especially with a 54% result that falls outside the margin.",
+      "explanation": "The correct answer is B. When a sample does not reflect the demographic composition of the population - in this case, college graduates are nearly twice as represented as in the general public - the results suffer from sampling bias, making it difficult to generalize findings to all Americans. Choice A is incorrect because 950 is a widely accepted and statistically sound sample size for national polls, capable of producing a reliable margin of error. Choice C is incorrect because 95% confidence is the standard threshold used in social science research and is considered rigorous. Choice D is incorrect because a 3% margin of error is an industry-standard level of precision that permits meaningful inference about public opinion, regardless of the specific percentage result obtained.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u4_042",
@@ -652,8 +639,7 @@
       "answer": 1,
       "explanation": "The correct answer is B. Political socialization theory holds that early formative experiences and the political environment in which a generation comes of age shape durable, long-lasting political beliefs. If the younger cohort retains its distinctive views on social safety nets even as it ages, that would demonstrate generational or cohort effects - a hallmark of socialization - rather than the life-cycle effect, which predicts that people's views naturally shift as they get older and change life circumstances. Choice A is incorrect because it would actually support the life-cycle effect - the idea that people's views change predictably with age - not socialization. Choice C is incorrect because church attendance introduces a separate variable (religion) and does not directly address whether the differences are driven by socialization or the life cycle. Choice D is incorrect because a constant gap across all surveys does not isolate whether stability is due to socialization or whether each generation independently shifts with age at the same rate.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u5_043",
@@ -688,18 +674,17 @@
     {
       "id": "pt_gov_p1_u5_045",
       "unit": 5,
-      "question": "In the 1990s, several Southern states that had voted reliably Democratic in presidential elections for decades began consistently supporting Republican presidential candidates. Political scientists attribute this shift largely to white Southern voters' reactions to the Civil Rights Act, the Democratic Party's embrace of racial equality policies, and ongoing cultural realignment. This pattern is BEST described as which of the following?",
+      "question": "Beginning in the 1960s and accelerating through the 1980s, a significant bloc of white Southern voters shifted their presidential support away from the Democratic Party and toward the Republican Party, a trend that has persisted ever since. Which of the following BEST distinguishes this phenomenon from dealignment?",
       "choices": [
-        "A) Dealignment, because voters permanently abandoned both major parties in favor of third-party candidates",
-        "B) Critical election theory, because a single dramatic election caused an immediate and permanent national party reversal",
-        "C) Party realignment, because a durable shift occurred in which a significant bloc of voters moved from one party to the other over a sustained period",
-        "D) Electoral mandate, because Republican presidential victories in the South gave the GOP authority to enact a specific policy agenda"
+        "A) Unlike dealignment, this phenomenon involves voters permanently abandoning all party identification and supporting only independent candidates",
+        "B) Unlike dealignment, this phenomenon describes a durable transfer of voter loyalty from one party to another, rather than a decline in party identification overall",
+        "C) Unlike dealignment, this phenomenon is characterized by a single dramatic election that immediately and permanently reshapes the national electorate",
+        "D) Unlike dealignment, this phenomenon refers to a president's claim of policy authority following a decisive electoral victory in a particular region"
       ],
-      "answer": 2,
-      "explanation": "Party realignment refers to a durable, large-scale shift in the coalition of voters supporting each party - exactly what occurred as white Southern voters moved from the Democratic to the Republican Party over several decades following the Civil Rights era. C is correct. A) dealignment means voters abandon parties entirely (declining party identification), not that they switch from one party to another. B) critical election theory does involve a sudden, transformative election, but the Southern realignment was gradual across multiple election cycles, and the scenario describes a sustained trend - not a single critical election - making B imprecise; moreover, B incorrectly says 'immediate.' D) electoral mandate describes a president's claimed policy authority from a decisive win, which is unrelated to regional voter realignment.",
+      "answer": 1,
+      "explanation": "Party realignment differs from dealignment in a critical way: realignment involves voters durably switching their loyalty from one party to another, whereas dealignment involves voters weakening or abandoning party identification altogether without necessarily moving to the opposing party. The white Southern shift from Democratic to Republican presidential support is the classic example of realignment - voters did not abandon parties; they transferred allegiance. B is correct. A) incorrectly describes dealignment as producing support for independents only, and mischaracterizes realignment. C) describes critical election theory, not the distinguishing feature between realignment and dealignment, and the Southern shift was gradual across multiple cycles. D) describes an electoral mandate, which is unrelated to either realignment or dealignment.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u5_046",
@@ -749,18 +734,17 @@
     {
       "id": "pt_gov_p1_u5_049",
       "unit": 5,
-      "question": "In the 1990s, several Southern states that had traditionally supported Democratic presidential candidates began reliably voting for Republican presidential candidates. Which of the following best accounts for this party realignment?",
+      "question": "In the decades following the 1960s, several Southern states that had traditionally supported Democratic presidential candidates began reliably voting for Republican presidential candidates. Which of the following best accounts for this party realignment?",
       "choices": [
         "A) The Republican Party adopted a stronger pro-labor platform that appealed to Southern working-class voters.",
-        "B) The passage of the Voting Rights Act of 1965 immediately shifted Southern white voters to the Republican Party.",
+        "B) The passage of the Civil Rights Act of 1964 immediately shifted Southern white voters to the Republican Party, completing the realignment within a single election cycle.",
         "C) Republican strategies emphasizing social conservatism, opposition to federal civil rights enforcement, and cultural issues gradually attracted white Southern voters who had been Democrats since Reconstruction.",
         "D) Third-party candidates such as Ross Perot drew Democratic voters away in the South, permanently weakening the Democratic coalition there."
       ],
       "answer": 2,
-      "explanation": "The Republican 'Southern Strategy' - appealing to white Southern voters on issues of states' rights, social conservatism, and opposition to expanding federal civil rights measures - drove a decades-long realignment. This was a gradual process accelerated after the Civil Rights Act (1964) and Voting Rights Act (1965). Option A is incorrect; the GOP did not adopt a pro-labor platform. Option B overstates the immediacy - the shift took decades, not an immediate response to 1965. Option D is incorrect because Perot's 1992 candidacy was a temporary disruption, not the cause of a structural realignment.",
+      "explanation": "The Republican 'Southern Strategy' - appealing to white Southern voters on issues of states' rights, social conservatism, and opposition to expanding federal civil rights measures - drove a decades-long realignment. This was a gradual process that accelerated after the Civil Rights Act (1964) and Voting Rights Act (1965) but took several decades to fully materialize. Option A is incorrect; the GOP did not adopt a pro-labor platform. Option B is incorrect because while the Civil Rights Act of 1964 accelerated Southern discontent with the Democratic Party, the full realignment was a gradual process spanning decades, not completed in a single election cycle. Option D is incorrect because Perot's 1992 candidacy was a temporary disruption, not the cause of a structural realignment.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u5_050",
@@ -788,10 +772,9 @@
         "D) The Supreme Court has original jurisdiction to review the Electoral College results and may reassign electoral votes to reflect the popular vote."
       ],
       "answer": 1,
-      "explanation": "Under Article II and the Twelfth Amendment, the presidency is determined by the Electoral College. A candidate who reaches 270 electoral votes wins, regardless of the national popular vote. This has occurred in 1824, 1876, 1888, 2000, and 2016. Option A is incorrect because a contingency election in the House is triggered only when no candidate reaches 270 - here, one candidate has exactly 270. Option C is incorrect; the Senate's role is to count and certify electoral votes (with the VP presiding over a joint session), not to approve results by a two-thirds vote. Option D is incorrect; the Supreme Court has no constitutional power to reassign electoral votes.",
+      "explanation": "Under Article II and the Twelfth Amendment, the presidency is determined by the Electoral College. A candidate who reaches 270 electoral votes wins, regardless of the national popular vote. This has occurred in 1824, 1888, 2000, and 2016. Option A is incorrect because a contingency election in the House is triggered only when no candidate reaches 270 - here, one candidate has exactly 270. Option C is incorrect; the role of Congress is to count and certify electoral votes in a joint session of Congress, with the Vice President presiding, not to approve results by a two-thirds vote of the Senate. Option D is incorrect; the Supreme Court has no constitutional power to reassign electoral votes.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u5_052",
@@ -801,13 +784,12 @@
         "A) Candidate C demonstrated that third parties can win Senate seats; this illustrates the weakness of the two-party duopoly.",
         "B) Candidate C likely drew votes from Candidate A's ideologically similar base, potentially costing Candidate A a larger margin; this illustrates the spoiler effect produced by single-member plurality districts.",
         "C) Candidate C forced the election into a runoff between the top two candidates; this illustrates how proportional representation works in U.S. Senate elections.",
-        "D) Candidate C's 11% share guaranteed that no candidate won a majority, triggering a contingency election decided by the state legislature."
+        "D) Candidate C's 11% share, combined with the margin between A and B, demonstrates that ranked-choice voting would produce a different winner, illustrating a failure of proportional representation in Senate races."
       ],
       "answer": 1,
-      "explanation": "The 'spoiler effect' describes how a third-party candidate ideologically close to a major-party candidate can siphon votes from that candidate, potentially changing the outcome. The Green Party candidate, sharing environmental and progressive concerns with Democratic voters, likely drew support from Candidate A's coalition. This dynamic is produced by the single-member plurality ('first past the post') system used in U.S. congressional elections, where the candidate with the most votes wins regardless of whether it is a majority. Option A is incorrect because Candidate C did not win. Option C is incorrect because U.S. Senate elections do not use proportional representation. Option D is incorrect; there is no such federal mechanism - most states do hold runoffs if no majority is reached, but the scenario specifies plurality rules, and no such automatic 'contingency election by legislature' exists for Senate races.",
+      "explanation": "The 'spoiler effect' describes how a third-party candidate ideologically close to a major-party candidate can siphon votes from that candidate, potentially changing the outcome. The Green Party candidate, sharing environmental and progressive concerns with Democratic voters, likely drew support from Candidate A's coalition. This dynamic is produced by the single-member plurality ('first past the post') system used in U.S. congressional elections, where the candidate with the most votes wins regardless of whether it is a majority. Option A is incorrect because Candidate C did not win. Option C is incorrect because U.S. Senate elections do not use proportional representation and no runoff mechanism is described here. Option D is incorrect because it conflates two distinct electoral reform concepts: ranked-choice voting and proportional representation are separate systems. While ranked-choice voting could potentially alter the outcome by allowing voters to express preferences beyond their first choice, this would not illustrate a failure of proportional representation - proportional representation refers to allocating legislative seats based on vote share across a multi-member district, which is an entirely different concept from how a single Senate seat is awarded.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u5_053",
@@ -827,18 +809,17 @@
     {
       "id": "pt_gov_p1_u5_054",
       "unit": 5,
-      "question": "The table below summarizes results from a hypothetical presidential election in a closely divided state:\n\n| Candidate       | Party        | Popular Votes |\n|----------------|--------------|---------------|\n| Candidate A    | Democratic   | 1,850,000     |\n| Candidate B    | Republican   | 1,820,000     |\n| Candidate C    | Green Party  | 95,000        |\n| Candidate D    | Libertarian  | 60,000        |\n\nExit poll data shows that 68% of Green Party voters and 54% of Libertarian voters indicated the Democratic candidate was their second choice. A Democratic strategist argues that third-party candidates cost Candidate A a more decisive victory, while a Republican strategist argues the third-party candidates actually cost Candidate B the election. Which of the following best evaluates these competing claims?",
+      "question": "The table below summarizes results from a hypothetical presidential election in a closely divided state:\n\n| Candidate       | Party        | Popular Votes |\n|----------------|--------------|---------------|\n| Candidate A    | Democratic   | 1,850,000     |\n| Candidate B    | Republican   | 1,820,000     |\n| Candidate C    | Green Party  | 95,000        |\n| Candidate D    | Libertarian  | 60,000        |\n\nExit poll data shows that 68% of Green Party voters and 54% of Libertarian voters indicated the Democratic candidate was their second choice. A Democratic strategist argues that Libertarian and Green Party candidates reduced Candidate A's margin of victory by drawing away potential Democratic-leaning voters. A Republican strategist argues that the Libertarian candidate alone cost Candidate B the election outright, because the majority of Libertarian voters preferred Candidate B as their second choice and, had they voted for Candidate B instead, Candidate B would have won. Which of the following best evaluates these competing claims using the data provided?",
       "choices": [
-        "A) Only the Democratic strategist is correct, because third-party candidates always draw more votes from liberal candidates than from conservative ones",
-        "B) Only the Republican strategist is plausible, because if a majority of third-party voters preferred Candidate A as their second choice, their participation likely reduced Candidate B's margin relative to a two-party race",
-        "C) Both strategists are equally correct, because third-party votes are always split evenly between the two major parties in any competitive election",
-        "D) Neither strategist can be correct, because the Electoral College system renders third-party vote totals irrelevant to determining the winner"
+        "A) Both strategists are correct, because any third-party votes drawn from either major-party candidate simultaneously reduce the winner's margin and change the overall outcome",
+        "B) The Democratic strategist's claim is plausible, but the Republican strategist's claim is not supported by the data, because transferring the Libertarian votes most likely to go to Candidate B would still leave Candidate A with a winning margin",
+        "C) The Republican strategist's claim is correct, because a majority of Libertarian voters preferred Candidate B as their second choice, meaning those votes would have overcome Candidate A's lead",
+        "D) Neither strategist is correct, because exit poll second-choice data cannot be used to draw any inferences about how third-party voters might have voted in a two-party race"
       ],
       "answer": 1,
-      "explanation": "The exit poll data is the key evidence: 68% of Green voters and 54% of Libertarian voters preferred Candidate A as their second choice. In a two-party scenario, a substantial portion of those votes would likely have shifted to Candidate A, potentially widening the margin or-depending on interpretation-could suggest Candidate B's narrow deficit was worsened by Libertarian voters who leaned Democratic. The Republican strategist's claim is the more analytically defensible one given the data. (A) is incorrect because it makes an absolute generalization unsupported by evidence-Libertarian voters, for instance, often draw from both parties. (C) is factually wrong; there is no rule that third-party votes split evenly, and the data here clearly contradicts it. (D) is a trap: while the Electoral College determines the presidency, the popular vote totals within a state still determine which candidate wins that state's electors, making third-party vote shares directly relevant to state-level outcomes.",
+      "explanation": "To evaluate the Republican strategist's claim, apply the exit poll data directly: 54% of Libertarian voters named Candidate A - not Candidate B - as their second choice. That means at most 46% of Libertarian voters (0.46 × 60,000 = ~27,600) would plausibly have shifted to Candidate B in a two-party race. Candidate A's margin of victory is 1,850,000 − 1,820,000 = 30,000 votes. Even if all 27,600 of those Libertarian voters had voted for Candidate B instead, Candidate B would still fall short: 1,820,000 + 27,600 = 1,847,600, which is less than 1,850,000. The Republican strategist's claim is therefore not supported by the data. The Democratic strategist's more modest claim - that third-party candidates reduced Candidate A's margin - is plausible, since 54% of Libertarian voters and 68% of Green voters preferred Candidate A as their second choice; had some portion of those voters chosen Candidate A directly, the margin would have been larger. (A) is incorrect because reducing a margin and changing an outcome are not equivalent effects. (C) is incorrect and reflects a misreading of the data: 54% of Libertarian voters preferred Candidate A, not Candidate B, as their second choice. (D) is too absolute; exit poll second-choice data is a standard and accepted tool for analyzing third-party vote effects, even if imperfect.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_gov_p1_u5_055",

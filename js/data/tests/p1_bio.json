@@ -51,14 +51,13 @@
       "choices": [
         "A) The polypeptide will be unable to form α-helices because carbohydrates stabilize secondary structure through hydrogen bonding with the peptide backbone.",
         "B) Cell-to-cell recognition and signaling mediated by the carbohydrate chains will be impaired, potentially disrupting immune recognition or cell adhesion.",
-        "C) The protein will be degraded immediately after translation because carbohydrate chains are required to protect the polypeptide from proteasomal digestion.",
+        "C) The protein will be rapidly degraded by extracellular proteases because carbohydrate chains serve as the sole protective coat preventing enzymatic cleavage at the cell surface.",
         "D) The protein's tertiary structure will be disrupted because N-glycosidic bonds directly cross-link distant segments of the polypeptide, maintaining its three-dimensional fold."
       ],
       "answer": 1,
-      "explanation": "Carbohydrate chains on glycoproteins serve as cell-surface identity markers involved in cell-cell recognition, immune function, and adhesion (e.g., the glycocalyx). Removing these chains most directly impairs these signaling/recognition roles. Choice A is incorrect; secondary structure (α-helices) is determined by the amino acid sequence and intramolecular hydrogen bonds of the peptide backbone-carbohydrates do not govern this. Choice C overstates the role of glycosylation; while some glycosylation aids protein folding and stability in the ER, immediate proteasomal degradation is not the direct or universal consequence. Choice D is incorrect; carbohydrate chains are attached to the protein but do not cross-link separate polypeptide segments to maintain tertiary structure-that role is played by disulfide bonds, hydrophobic interactions, and other intramolecular forces.",
+      "explanation": "Carbohydrate chains on glycoproteins serve as cell-surface identity markers involved in cell-cell recognition, immune function, and adhesion (e.g., the glycocalyx). Removing these chains most directly impairs these signaling/recognition roles. Choice A is incorrect; secondary structure (α-helices) is determined by the amino acid sequence and intramolecular hydrogen bonds of the peptide backbone-carbohydrates do not govern this. Choice C is incorrect; while carbohydrates can contribute to some protection at the cell surface, they are not the sole protective coat against extracellular proteases, and the claim that their absence leads to rapid extracellular proteolytic degradation is an overstatement not supported by cell biology. Choice D is incorrect; carbohydrate chains are attached to the protein but do not cross-link separate polypeptide segments to maintain tertiary structure-that role is played by disulfide bonds, hydrophobic interactions, and other intramolecular forces.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u1_004",
@@ -95,16 +94,15 @@
       "unit": 1,
       "question": "A researcher is studying an enzyme that catalyzes a reaction optimally at pH 7.4 in the cytoplasm. The enzyme is then transferred to a lysosomal environment (pH ~4.5). Which of the following best explains why the enzyme's catalytic activity is significantly reduced in the lysosome?",
       "choices": [
-        "A) The lower pH increases the activation energy of the reaction, making it thermodynamically unfavorable regardless of enzyme conformation.",
+        "A) The lower pH alters the protonation states of active site residues, preventing the enzyme from properly stabilizing the transition state and thereby reducing its catalytic effectiveness.",
         "B) The change in pH alters the ionization states of amino acid R-groups at the active site, disrupting the precise charge interactions required for substrate binding and catalysis.",
-        "C) The acidic environment causes the enzyme to permanently lose all hydrogen bonds throughout its entire tertiary structure, completely denaturing it irreversibly.",
+        "C) The acidic environment disrupts the majority of hydrogen bonds stabilizing the enzyme's tertiary structure, causing irreversible unfolding of the active site.",
         "D) The lower pH reduces the concentration of substrate molecules available in the lysosome, decreasing the rate of enzyme-substrate complex formation."
       ],
       "answer": 1,
-      "explanation": "Correct Answer (B): Enzyme activity depends on the precise three-dimensional shape of the active site, which is maintained by specific interactions including ionic bonds and hydrogen bonds influenced by the ionization states of R-groups (e.g., histidine, aspartate, glutamate). A drop from pH 7.4 to pH 4.5 protonates or deprotonates key residues, altering the charge distribution at the active site and reducing affinity for the substrate - this is the mechanistic basis of pH sensitivity. (A) is incorrect because activation energy is lowered by the enzyme through the transition state; pH does not directly raise activation energy in the way described - it disrupts enzyme structure, not thermodynamic favorability of the reaction itself. (C) is a common misconception: while extreme pH can denature enzymes, not all hydrogen bonds are disrupted at pH 4.5, and the effect is primarily on ionizable R-groups rather than a complete, irreversible loss of all hydrogen bonding throughout the protein. The word 'completely' and 'irreversibly' make this an overstatement. (D) confuses enzyme kinetics with substrate concentration effects - the question is about the enzyme's activity in a different pH environment, not a change in substrate availability.",
+      "explanation": "Correct Answer (B): Enzyme activity depends on the precise three-dimensional shape of the active site, which is maintained by specific interactions including ionic bonds and hydrogen bonds influenced by the ionization states of R-groups (e.g., histidine, aspartate, glutamate). A drop from pH 7.4 to pH 4.5 protonates or deprotonates key residues, altering the charge distribution at the active site and reducing affinity for the substrate - this is the mechanistic basis of pH sensitivity. (A) is incorrect because while transition-state stabilization is indeed the core mechanism of enzyme catalysis, the reason it is compromised here is specifically due to altered R-group ionization states - making (B) the more precise and complete explanation of the pH effect. (C) is a plausible but overstated distractor: while a shift to pH 4.5 can disrupt some stabilizing interactions, it does not disrupt the majority of hydrogen bonds throughout the tertiary structure of most enzymes, and the primary effect on a cytoplasmic enzyme is localized changes in ionizable R-groups rather than wholesale unfolding. (D) confuses enzyme kinetics with substrate concentration effects - the question is about the enzyme's activity in a different pH environment, not a change in substrate availability.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u2_007",
@@ -126,16 +124,15 @@
       "unit": 2,
       "question": "A plant cell is placed in a solution with a water potential of −0.4 MPa. The cell has a solute potential of −0.7 MPa and a pressure potential of 0.4 MPa. Which of the following correctly describes the movement of water and the state of the cell?",
       "choices": [
-        "A) Water moves into the cell because the cell's water potential is more negative than the solution.",
-        "B) Water moves out of the cell because the solution's water potential is less negative than the cell's water potential.",
+        "A) Water moves into the cell because the solution has more solutes than the cell cytoplasm.",
+        "B) Water moves out of the cell because the cell's water potential (−0.3 MPa) is higher (less negative) than the solution's water potential (−0.4 MPa), so water moves down its gradient from cell to solution.",
         "C) There is no net movement of water because the cell is at equilibrium with the solution.",
         "D) Water moves into the cell because the cell's solute potential is more negative than the solution's water potential."
       ],
-      "answer": 2,
-      "explanation": "Water potential (Ψ) = solute potential (Ψs) + pressure potential (Ψp). The cell's water potential = −0.7 + 0.4 = −0.3 MPa. The solution's water potential is −0.4 MPa. Since the cell (−0.3 MPa) has a higher (less negative) water potential than the solution (−0.4 MPa), water would move from the cell into the solution-NOT into the cell. Wait: re-evaluating-water moves from high to low water potential, so from −0.3 MPa (cell) to −0.4 MPa (solution), meaning water moves OUT. However, option B states water moves out because the solution's water potential is less negative than the cell's-this is factually backwards (the solution IS more negative). Option B's reasoning is inverted. The correct answer is B in terms of direction but the reasoning in B is wrong. Actually the correct description is: water moves out of the cell. Re-reading option B: 'solution's water potential is less negative than the cell's'-this is INCORRECT (solution = −0.4, cell = −0.3; cell is less negative). So option B has the right direction but wrong reasoning. None perfectly match-but option C (equilibrium) is wrong. The closest correct statement is that water moves OUT, which only option B captures directionally. Given AP exam standards, option B is the best answer despite imprecise wording in distractor reasoning, but let me re-examine: Cell Ψ = −0.3 MPa; Solution Ψ = −0.4 MPa. Cell has higher water potential. Water flows from high to low, so OUT of cell into solution. Option B says water moves out because solution's Ψ is less negative than cell's-this is backward reasoning but correct direction. Option A says into cell-wrong direction. Option C says equilibrium-wrong. Option D uses only solute potential-incomplete reasoning. On an AP exam, option B would be selected as the answer capturing correct direction, even if the causal phrase is a trap. This makes B the intended answer as a trap for students who confuse the sign relationships.",
+      "answer": 1,
+      "explanation": "Water potential (Ψ) = solute potential (Ψs) + pressure potential (Ψp). The cell's water potential = −0.7 + 0.4 = −0.3 MPa. The solution's water potential is −0.4 MPa. Since the cell (−0.3 MPa) has a higher (less negative) water potential than the solution (−0.4 MPa), water moves from high to low water potential - out of the cell and into the solution. Option A is incorrect because the solution actually has a lower (more negative) water potential than the cell, not simply more solutes. Option C is incorrect because the cell and solution are not at equilibrium. Option D is incorrect because comparing only solute potential to water potential is an incomplete and invalid comparison.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u2_009",
@@ -190,13 +187,12 @@
         "A) In Solution X, the water potential of the solution is lower than that of the cell cytoplasm, causing water to move into the cell by active transport.",
         "B) In Solution Z, the water potential of the cell cytoplasm is lower than that of the surrounding solution, causing water to move out of the cell by osmosis.",
         "C) In Solution X, the water potential of the surrounding solution is higher than that of the cell cytoplasm, causing net movement of water into the cell by osmosis.",
-        "D) In Solution Y, the water potential of the solution equals that of the cell cytoplasm, and water molecules do not cross the membrane in either direction."
+        "D) In Solution Y, the water potential of the solution equals that of the cell cytoplasm, so equal amounts of water enter and leave the cell, resulting in no net change in cell volume."
       ],
       "answer": 2,
-      "explanation": "In Solution X, cells swell and lyse, indicating the solution is hypotonic - it has a higher water potential than the cell cytoplasm. Water moves down its water potential gradient (from high to low) into the cell via osmosis through aquaporins, a passive process. This makes C correct. A is wrong because osmosis is passive, not active transport, and also incorrectly states the direction of the water potential gradient. B is incorrect because in Solution Z (hypertonic), the surrounding solution has LOWER water potential than the cell cytoplasm (more solutes = lower water potential), so water leaves the cell moving toward lower water potential - the gradient description is reversed. D contains a common misconception: at equilibrium (isotonic), water molecules still cross the membrane in both directions at equal rates; there is no net movement, but individual water molecules continue to diffuse in both directions.",
+      "explanation": "In Solution X, cells swell and lyse, indicating the solution is hypotonic - it has a higher water potential than the cell cytoplasm. Water moves down its water potential gradient (from high to low) into the cell via osmosis through aquaporins, a passive process. This makes C correct. A is wrong because osmosis is passive, not active transport, and also incorrectly states the direction of the water potential gradient. B is incorrect because in Solution Z (hypertonic), the surrounding solution has LOWER water potential than the cell cytoplasm (more solutes = lower water potential), so water leaves the cell moving toward lower water potential - the gradient description is reversed. D is a plausible but incomplete distractor: while it is true that equal amounts of water enter and leave the cell under isotonic conditions and there is no net change in cell volume, the statement frames this as a consequence of equal water movement rather than recognizing that the equal bidirectional movement is itself the result of equal water potentials. The correct understanding is that water molecules continuously cross the membrane in both directions at equal rates due to matched water potentials, and this dynamic equilibrium - not a cessation of water movement - explains the stable cell volume observed in Solution Y.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u2_013",
@@ -278,16 +274,15 @@
       "unit": 3,
       "question": "CAM plants such as cacti open their stomata at night to fix CO2 as organic acids (e.g., malate) and close them during the day to perform the Calvin cycle using CO2 released from those stored acids. A researcher grows a CAM plant under continuous darkness for 48 hours, then exposes it to light. Which of the following best predicts the initial rate of the Calvin cycle relative to a normally day-night-cycled CAM plant, and why?",
       "choices": [
-        "A) The Calvin cycle rate will be higher than normal because the plant has stored excess malate over 48 hours of darkness, providing a large CO2 reservoir.",
+        "A) The Calvin cycle rate will be higher than normal because the plant has stored excess malate over 48 hours of darkness, providing a large CO2 reservoir that floods the Calvin cycle once light-driven ATP and NADPH production begins.",
         "B) The Calvin cycle rate will be lower than normal because stomata will open immediately in the light, allowing direct CO2 uptake and bypassing the need for stored malate.",
-        "C) The Calvin cycle rate will be lower than normal because the plant's stored organic acid pool is likely depleted during 48 hours of darkness without light-driven Calvin cycle activity consuming the released CO2, leading to feedback inhibition of CO2 fixation.",
+        "C) The Calvin cycle rate will be lower than normal because the plant's stored organic acid pool is depleted during 48 hours of darkness, leaving insufficient CO2 to supply the Calvin cycle upon light exposure.",
         "D) The Calvin cycle rate will be initially lower than normal because 48 hours of darkness depletes ATP and NADPH reserves needed to decarboxylate malate in the mesophyll cells."
       ],
-      "answer": 2,
-      "explanation": "In CAM plants, CO2 is fixed at night into malate (stored in vacuoles) and released during the day to supply the Calvin cycle. Under continuous darkness for 48 hours, the plant continues nightly CO2 fixation but cannot consume the released CO2 via the Calvin cycle (which requires light-driven ATP and NADPH). As malate accumulates and vacuolar storage capacity is saturated, negative feedback inhibits further nocturnal CO2 fixation (PEP carboxylase is inhibited by malate). When light is finally provided, the stored malate pool may be partially depleted or the system dysregulated, reducing the initial rate. Additionally, extended darkness reduces available RuBP and Calvin cycle intermediates. Choice A incorrectly assumes unlimited malate accumulation without feedback inhibition. Choice B incorrectly suggests stomata would open in the light-CAM stomata remain closed during the day, and bypassing stored malate is contrary to CAM physiology. Choice D misidentifies ATP and NADPH as required for malate decarboxylation; decarboxylation of malate by malic enzyme uses NADP+ but is not primarily limited by darkness in this context, and the core issue is the regulatory state of the CO2 fixation system.",
+      "answer": 0,
+      "explanation": "In CAM plants, CO2 is fixed at night into malate (stored in vacuoles) and released during the day to supply the Calvin cycle. Under continuous darkness for 48 hours, the plant undergoes multiple night cycles of CO2 fixation via PEP carboxylase, progressively accumulating a larger-than-normal malate reservoir in the vacuoles. When light is finally restored, the light reactions rapidly generate ATP and NADPH; once these are available, the large malate pool is decarboxylated, releasing an abundance of CO2 for RuBisCO. This elevated CO2 supply allows the Calvin cycle to run at a higher-than-normal initial rate compared to a plant that has accumulated only a single night's worth of malate. There is a brief lag while the light reactions ramp up, but once ATP and NADPH are available, the excess CO2 drives an elevated Calvin cycle rate. Choice B is incorrect because CAM stomata remain closed during the day regardless of light exposure, and direct CO2 uptake does not bypass the malate system. Choice C incorrectly claims the malate pool is depleted during darkness; without light-driven Calvin cycle activity consuming the released CO2, feedback would slow but not eliminate nocturnal fixation, and multiple dark cycles allow net malate accumulation. Choice D incorrectly identifies ATP and NADPH as requirements for malate decarboxylation itself; malic enzyme uses NADP+ as a cofactor but is not primarily limited by darkness in this context, and the light reactions quickly restore ATP and NADPH upon illumination.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u3_019",
@@ -353,18 +348,17 @@
     {
       "id": "pt_bio_p1_u4_023",
       "unit": 4,
-      "question": "A researcher discovers a mutant cell line in which G-protein-coupled receptors (GPCRs) bind their ligands normally, but the associated G-protein remains in its active (GTP-bound) state indefinitely. Which of the following best predicts the consequence of this mutation?",
+      "question": "A researcher discovers a mutant cell line in which G-protein-coupled receptors (GPCRs) bind their ligands normally, but the associated G-protein cannot exchange GDP for GTP upon receptor activation. Which of the following best predicts the consequence of this mutation?",
       "choices": [
-        "A) The signaling pathway will fail to activate because GTP hydrolysis is required for initial signal transduction.",
-        "B) The signaling pathway will be constitutively active, continuously stimulating downstream effectors regardless of ligand presence.",
-        "C) The receptor will be internalized and degraded more rapidly, effectively silencing the signal.",
-        "D) Secondary messenger molecules such as cAMP will be permanently depleted, leading to pathway inactivation."
+        "A) The signaling pathway will be constitutively active because the G-protein will continuously stimulate downstream effectors without ligand binding.",
+        "B) The signaling pathway will be permanently silenced, as the G-protein will remain in its inactive state regardless of ligand binding.",
+        "C) The receptor will be internalized more rapidly, preventing ligand binding and amplifying the silencing effect.",
+        "D) Secondary messenger molecules such as cAMP will accumulate to abnormally high levels, overstimulating downstream targets."
       ],
       "answer": 1,
-      "explanation": "G-proteins are activated when GDP is exchanged for GTP and are inactivated when intrinsic GTPase activity hydrolyzes GTP back to GDP. If the G-protein cannot hydrolyze GTP, it remains constitutively active, continuously stimulating adenylyl cyclase (or other effectors), leading to unregulated downstream signaling. Choice A is wrong because GTP hydrolysis is the OFF switch, not required for activation. Choice C describes receptor downregulation, which is a separate regulatory mechanism not triggered by this specific mutation. Choice D is incorrect because if adenylyl cyclase is constitutively active, cAMP would be continuously synthesized, not depleted.",
+      "explanation": "G-proteins are activated when the receptor, upon ligand binding, acts as a guanine nucleotide exchange factor (GEF), causing GDP to be replaced by GTP. If the G-protein cannot perform this GDP-to-GTP exchange, it remains permanently in its inactive (GDP-bound) state. No downstream effectors such as adenylyl cyclase will be stimulated, and no second messengers such as cAMP will be produced, silencing the pathway entirely. Choice A is incorrect because constitutive activity would result from a G-protein locked in the active GTP-bound state, not the inactive state. Choice C describes receptor downregulation, which is a separate mechanism unrelated to nucleotide exchange. Choice D is incorrect because without G-protein activation, adenylyl cyclase would not be stimulated and cAMP levels would be reduced, not elevated.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u4_024",
@@ -429,18 +423,17 @@
     {
       "id": "pt_bio_p1_u4_028",
       "unit": 4,
-      "question": "A researcher treats a population of cells with a drug that permanently activates a G-protein by preventing GTP hydrolysis. Which of the following outcomes is MOST likely to result from this treatment?",
+      "question": "A researcher treats a population of cells with a drug that permanently activates the Gs-protein of a Gs-coupled GPCR by preventing GTP hydrolysis. The cells are then exposed to a ligand that would normally produce a transient increase in cAMP. Which of the following outcomes is MOST likely to result from the drug treatment?",
       "choices": [
-        "A) Signal transduction will cease because G-proteins require GTP hydrolysis to initiate downstream signaling.",
-        "B) The pathway will be constitutively active, continuously stimulating downstream effectors regardless of ligand binding.",
-        "C) The receptor will be internalized and degraded, reducing the cell's sensitivity to the signal.",
-        "D) Adenylyl cyclase will be permanently inhibited, decreasing intracellular cAMP levels."
+        "A) Signal transduction will cease because Gs-proteins require GTP hydrolysis to initiate downstream signaling.",
+        "B) The pathway will be constitutively active, with adenylyl cyclase continuously stimulated and cAMP levels persistently elevated regardless of ligand binding.",
+        "C) The receptor will be internalized and degraded, permanently reducing the cell's sensitivity to the ligand.",
+        "D) Adenylyl cyclase will be permanently inhibited, decreasing intracellular cAMP levels below the normal resting state."
       ],
       "answer": 1,
-      "explanation": "G-proteins are active when bound to GTP and inactive when GTP is hydrolyzed to GDP. A drug preventing GTP hydrolysis locks the G-protein in its active conformation, meaning it continuously stimulates downstream effectors (e.g., adenylyl cyclase) without needing a receptor-ligand interaction - constitutive activation. Choice A is incorrect because GTP hydrolysis is the OFF switch, not the ON switch; signaling is initiated when GTP replaces GDP. Choice C describes receptor downregulation, a separate process not directly caused by blocking G-protein GTPase activity. Choice D is backwards - activated G-proteins (specifically Gs) stimulate adenylyl cyclase, increasing cAMP, not decreasing it.",
+      "explanation": "Gs-proteins are active when bound to GTP and inactive when GTP is hydrolyzed to GDP. A drug preventing GTP hydrolysis locks the Gs-protein in its active conformation, meaning it continuously stimulates adenylyl cyclase, causing persistent elevation of intracellular cAMP - constitutive activation - without requiring ongoing receptor-ligand interaction. Choice A is incorrect because GTP hydrolysis is the OFF switch, not the ON switch; signaling is initiated when GTP replaces GDP on the Gs-protein. Choice C describes receptor downregulation, a separate regulatory process not directly caused by blocking Gs-protein GTPase activity. Choice D is backwards - activated Gs-protein stimulates adenylyl cyclase, increasing cAMP production, not decreasing it; inhibition of adenylyl cyclase is associated with Gi-coupled pathways, which is not the scenario described here.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u4_029",
@@ -520,18 +513,17 @@
     {
       "id": "pt_bio_p1_u5_034",
       "unit": 5,
-      "question": "A geneticist examines a pedigree for a rare disorder and notes the following: the trait skips generations, affected individuals have at least one affected parent, both males and females are affected in approximately equal numbers, and two unaffected parents occasionally have affected children. Based solely on these observations, which mode of inheritance is LEAST consistent with the pedigree, and why?",
+      "question": "A geneticist examines a pedigree for a rare disorder and notes the following: the trait skips generations, unaffected parents can have affected children, males are affected far more often than females, and carrier females are always unaffected. Based solely on these observations, which mode of inheritance is LEAST consistent with the pedigree, and why?",
       "choices": [
-        "A) Autosomal recessive, because two unaffected parents would be unable to produce an affected child under any inheritance pattern",
-        "B) X-linked recessive, because the equal frequency of affected males and females and the occasional affected offspring of two unaffected parents are inconsistent with X-linked recessive inheritance in a rare trait",
-        "C) Autosomal dominant, because affected individuals always have at least one affected parent in dominant disorders, making skipped generations impossible",
-        "D) Mitochondrial inheritance, because mitochondrial traits are transmitted only through maternal lines and would not produce equal frequencies of affected males and females from unaffected parents"
+        "A) Autosomal recessive, because unaffected parents cannot pass a recessive allele to their offspring under any circumstances",
+        "B) Autosomal dominant, because dominant traits do not skip generations and cannot produce affected offspring from two unaffected parents without invoking incomplete penetrance, making it incompatible with the observed pattern",
+        "C) X-linked recessive, because males are more frequently affected than females, carrier females are unaffected, and the trait skips generations - all hallmarks of X-linked recessive inheritance",
+        "D) Mitochondrial inheritance, because mitochondrial traits affect both sexes equally and are transmitted exclusively through maternal lines, which could still produce some of the observed patterns"
       ],
       "answer": 1,
-      "explanation": "X-linked recessive inheritance is least consistent for two reasons: (1) in X-linked recessive disorders, males are far more commonly affected than females (females need two copies of the recessive allele), so equal sex frequencies argue against this pattern; and (2) two unaffected parents producing an affected daughter would require the mother to be a carrier and the father to be affected - but affected fathers would be identified in the pedigree. Choice A is incorrect because autosomal recessive CAN produce affected offspring from two unaffected carrier parents. Choice C is incorrect because autosomal dominant traits can appear to skip generations through incomplete penetrance, though the question states it does skip - this makes autosomal dominant less likely too, but the question asks which is LEAST consistent; X-linked recessive is more fundamentally incompatible with equal sex ratios. Choice D is partially correct about maternal transmission but does not reflect the 'least' consistent scenario given that X-linked recessive violates multiple observed patterns simultaneously.",
+      "explanation": "Autosomal dominant inheritance is least consistent with this pedigree. In autosomal dominant disorders, affected individuals must carry at least one dominant allele and therefore must have received it from an affected parent - meaning the trait should not skip generations and two unaffected parents should not be able to produce an affected child. The observed pattern (skipped generations, affected offspring from unaffected parents, male bias, unaffected carriers) is most consistent with X-linked recessive inheritance: carrier females are unaffected but pass the allele to sons, explaining the male predominance, skipped generations, and unaffected carrier females. Choice A is incorrect because autosomal recessive readily explains unaffected carrier parents having affected children. Choice C describes X-linked recessive, which is actually the most consistent pattern. Choice D is partially inconsistent because mitochondrial inheritance produces equal sex ratios and maternal-only transmission, but autosomal dominant is more fundamentally incompatible because it violates multiple key observations simultaneously.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u5_035",
@@ -596,7 +588,7 @@
     {
       "id": "pt_bio_p1_u6_039",
       "unit": 6,
-      "question": "A mutation in a eukaryotic gene changes the sequence 5'-AAGGUAAGC-3' in the pre-mRNA to 5'-AAGAUAAGC-3' at an intron-exon boundary. Which of the following best describes the most likely consequence of this mutation?",
+      "question": "A mutation in a eukaryotic gene changes the intron-initiating sequence at the 5' splice donor site from 5'-GU-3' to 5'-AU-3', altering the pre-mRNA sequence at that boundary from 5'-AAGGUA AGC-3' to 5'-AAGAUAAGC-3'. Which of the following best describes the most likely consequence of this mutation?",
       "choices": [
         "A) A missense mutation occurs, resulting in a protein with one amino acid substitution near the N-terminus.",
         "B) The mutation disrupts the splice donor site, likely causing intron retention or exon skipping, which alters or destroys protein function.",
@@ -604,10 +596,9 @@
         "D) The mutation prevents the 5' cap from being added to the pre-mRNA, blocking nuclear export."
       ],
       "answer": 1,
-      "explanation": "The canonical 5' splice donor site consensus sequence begins with GU (in the RNA). The original sequence contains GU at the splice site (AAGGUAAGC), which is mutated to AU (AAGAUAAGC), disrupting the conserved GU dinucleotide required for spliceosome recognition. This splicing mutation will likely cause intron retention or exon skipping, fundamentally altering the mRNA and protein. Choice A is incorrect because this is a splicing mutation in the pre-mRNA, not a coding sequence change that directly causes a missense substitution. Choice C is wrong because stop codons in introns are irrelevant - if the intron is retained, a stop codon could appear, but the primary effect is the splicing failure itself. Choice D incorrectly links a splice site sequence to 5' capping, which is an unrelated process.",
+      "explanation": "The canonical 5' splice donor site requires a conserved GU dinucleotide at the start of the intron for spliceosome recognition. This mutation directly changes that GU to AU, disrupting the splice donor site. The primary and direct consequence is splicing failure, most likely resulting in intron retention or exon skipping, which fundamentally alters the mRNA sequence and destroys normal protein function. Choice A is incorrect because this mutation occurs at the intronic splice donor site, not in a coding sequence, and therefore does not directly cause a missense substitution. Choice C is incorrect because, although intron retention could secondarily introduce an in-frame stop codon into the mature mRNA, this is a downstream consequence of splicing failure rather than the primary and direct effect of the mutation. Choice D incorrectly links a splice site sequence mutation to 5' capping, which is an entirely unrelated process.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u6_040",
@@ -657,18 +648,17 @@
     {
       "id": "pt_bio_p1_u6_043",
       "unit": 6,
-      "question": "In eukaryotes, a gene contains the following sequence components from 5' to 3' on the template strand: promoter region, exon 1, intron 1, exon 2, intron 2, exon 3. A nonsense mutation occurs in intron 1. Which of the following best predicts the effect on the final protein product?",
+      "question": "In eukaryotes, a gene contains the following sequence components from 5' to 3' on the template strand: promoter region, exon 1, intron 1, exon 2, intron 2, exon 3. A nonsense mutation occurs in intron 1, well away from any splice site boundaries. Which of the following best predicts the effect on the final protein product?",
       "choices": [
         "A) The protein will be truncated because the nonsense mutation introduces a premature stop codon that is translated.",
         "B) The protein will most likely be unaffected because introns are removed during pre-mRNA splicing before translation occurs.",
-        "C) The protein will be unaffected only if the nonsense mutation occurs near the 3' end of intron 1, since splice sites are at the 5' end.",
+        "C) The protein will be unaffected only if the nonsense mutation is located far from the splice donor and acceptor sites, since mutations near splice sites can disrupt splicing and alter the mature mRNA.",
         "D) The protein will be nonfunctional because the nonsense mutation disrupts the reading frame of the mature mRNA."
       ],
       "answer": 1,
-      "explanation": "Introns are noncoding sequences that are removed from pre-mRNA during RNA processing (splicing) before the mature mRNA is exported and translated. A nonsense mutation within an intron is therefore not present in the final mRNA and will not affect the amino acid sequence of the protein. Choice A is a common misconception - students confuse introns with exons, forgetting that introns are spliced out and never translated. Choice C incorrectly implies that the position within the intron matters for whether a stop codon is translated; since the entire intron is removed, no part of it reaches the ribosome (though mutations near splice sites can disrupt splicing itself, that scenario is not presented here). Choice D confuses a nonsense mutation with a frameshift mutation; nonsense mutations create stop codons, not frameshifts, and again this mutation is in an intron.",
+      "explanation": "Introns are noncoding sequences that are removed from pre-mRNA during RNA processing (splicing) before the mature mRNA is exported and translated. A nonsense mutation within an intron that is well away from splice site boundaries is therefore not present in the final mRNA and will not affect the amino acid sequence of the protein. Choice A is a common misconception - students confuse introns with exons, forgetting that introns are spliced out and never translated. Choice C is a tempting distractor because it contains a kernel of truth: mutations near splice donor or acceptor sites can indeed disrupt splicing and alter the mature mRNA. However, the question specifies that the mutation is well away from splice site boundaries, so splicing will proceed normally and the protein will be unaffected regardless of the mutation's intronic position in this context. Choice D confuses a nonsense mutation with a frameshift mutation; nonsense mutations create stop codons, not frameshifts, and in any case this mutation resides in an intron that is removed before translation.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u6_044",
@@ -763,34 +753,32 @@
     {
       "id": "pt_bio_p1_u7_050",
       "unit": 7,
-      "question": "A population of beetles lives in a forest where the bark of trees is uniformly dark brown. A mutation arises that produces bright green coloration in some individuals. Over several generations, the frequency of the green allele decreases significantly. Which of the following best explains this change in allele frequency?",
+      "question": "In human populations in sub-Saharan Africa, the allele for sickle cell hemoglobin (HbS) is maintained at a relatively high frequency despite causing a potentially fatal disease in homozygous individuals (HbS/HbS). Which of the following best explains why the HbS allele has not been eliminated from these populations?",
       "choices": [
-        "A) Directional selection is eliminating the green phenotype because it reduces survival against predators on dark bark.",
-        "B) Stabilizing selection is maintaining the dark phenotype because it represents the population mean.",
-        "C) The green allele is decreasing due to genetic drift because the population is infinitely large.",
-        "D) Disruptive selection is favoring both extremes, eliminating intermediate phenotypes like green."
+        "A) Directional selection is increasing the frequency of HbS because sickle cell disease increases overall fitness.",
+        "B) Heterozygote advantage maintains both alleles because individuals with one copy of HbS (HbA/HbS) have increased resistance to malaria compared to HbA/HbA homozygotes.",
+        "C) Genetic drift is responsible for maintaining the HbS allele because these populations are extremely small and isolated.",
+        "D) Stabilizing selection eliminates both homozygous genotypes, resulting in a population composed entirely of heterozygotes over time."
       ],
-      "answer": 0,
-      "explanation": "Directional selection (A) is correct: the environment consistently favors the dark phenotype, shifting allele frequencies in one direction by reducing the fitness of the green phenotype. (B) is incorrect - stabilizing selection eliminates extremes to maintain the mean, but here green is a new extreme being removed because of low fitness in this specific environment, not because the population is regressing to a mean. (C) is incorrect because genetic drift applies most strongly in small populations and does not require a specific environmental pressure; the question implies consistent directional removal. (D) is incorrect - disruptive selection favors two distinct extremes simultaneously, which is not occurring here.",
-      "difficulty": "easy",
-      "type": "MCQ",
-      "flagged": true
+      "answer": 1,
+      "explanation": "Heterozygote advantage (B) is correct: individuals who are heterozygous (HbA/HbS) are more fit in malaria-endemic environments than either homozygote, because they are resistant to malaria yet do not suffer the full effects of sickle cell disease. This balancing selection maintains both alleles in the population at stable frequencies. (A) is incorrect because directional selection would increase HbS until it fixed, but the severe fitness cost to HbS/HbS homozygotes prevents this. (C) is incorrect because genetic drift does not explain a consistent pattern maintained across large, geographically distributed populations; a selective mechanism is required. (D) is incorrect because stabilizing selection on this trait does not eliminate both homozygotes entirely - both phenotypes persist in the population, and the heterozygote is favored rather than the population converging to all heterozygotes.",
+      "difficulty": "medium",
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u7_051",
       "unit": 7,
       "question": "A population of 500 randomly mating frogs is in Hardy-Weinberg equilibrium for a gene with two alleles, T and t. The frequency of the homozygous recessive genotype (tt) is 0.09. A disease then strikes, killing all homozygous recessive individuals before they reproduce. After one generation of random mating among survivors, which of the following correctly describes the new frequency of the t allele?",
       "choices": [
-        "A) The frequency of t will be approximately 0.23, because the removal of tt individuals eliminates t alleles entirely from heterozygotes as well.",
+        "A) The frequency of t will be approximately 0.15, because the removal of tt individuals eliminates t alleles entirely from heterozygotes as well.",
         "B) The frequency of t will remain 0.30, because Hardy-Weinberg equilibrium is restored after one generation of random mating.",
-        "C) The frequency of t will be approximately 0.26, because heterozygotes carrying the t allele survive and still contribute t alleles to the next generation.",
+        "C) The frequency of t will be approximately 0.23, because heterozygotes carrying the t allele survive and still contribute t alleles to the next generation, but at a reduced frequency relative to the total allele pool.",
         "D) The frequency of t will be 0.09, because the recessive allele frequency equals the frequency of homozygous recessive individuals."
       ],
       "answer": 2,
-      "explanation": "Starting frequency of t: since tt = q² = 0.09, q = 0.30 and p = 0.70. After removing all tt individuals, survivors are TT (p² = 0.49) and Tt (2pq = 0.42). Total survivors = 0.49 + 0.42 = 0.91. New frequency of t among survivors = (alleles from Tt only) = (0.42 × 1) / (2 × 0.91) = 0.42/1.82 ≈ 0.2308 Recalculating: each Tt individual contributes one t allele. Count of t alleles = 0.42 (from Tt, each contributing 1 out of 2 alleles) → q_new = (0.42)/(2 × 0.91)  more precisely q_new = 0.42/(2×0.91) = 0.42/1.82 ≈ 0.2308, which rounds to approximately 0.23. Wait - rechecking option C which states ~0.26. Let me recalculate: q_new = [0 (from TT) + 0.42×(1/2 per allele counted per individual)] - the standard formula is q_new = (0×2×0.49 + 1×0.42) / (2×0.91) = 0.42/1.82 ≈ 0.2308 ≈ 0.23. Therefore option A states 0.23 with a wrong rationale, and option C states 0.26 with a correct rationale but wrong number. The correct value is ~0.23. Option (A) gives the right number (~0.23) but a wrong explanation claiming t alleles are removed from heterozygotes too - heterozygotes survive and retain their t alleles. Option (C) gives the correct mechanistic reasoning (heterozygotes survive and carry t alleles) but an imprecise numeric estimate of 0.26. On the AP exam, answer choice emphasis is on the reasoning: (C) is the best answer because it correctly identifies that t persists through heterozygotes and gives a reasonable estimate reflecting a decrease from 0.30. (B) is wrong - H-W equilibrium does not restore allele frequencies to pre-selection values in one generation; selection changes allele frequencies first. (D) is wrong - confusing q² with q. The correct answer is C for the reasoning, even with the approximate number.",
+      "explanation": "Starting frequency of t: since tt = q² = 0.09, q = 0.30 and p = 0.70. After removing all tt individuals, the surviving genotypes are TT (p² = 0.49) and Tt (2pq = 0.42). Total surviving genotype frequencies sum to 0.91. The new frequency of t among survivors is calculated as: q_new = (number of t alleles) / (total alleles) = (0.42 × 1) / (2 × 0.91) = 0.42 / 1.82 ≈ 0.23. This reflects that only heterozygotes (Tt) carry t alleles among survivors; homozygous recessive individuals have been eliminated, reducing t's frequency from 0.30 to approximately 0.23. Option A is incorrect because heterozygotes are not killed by the disease and do retain their t alleles, making 0.15 too low. Option B is incorrect because selection has already changed allele frequencies before random mating occurs, so H-W equilibrium cannot restore the original allele frequencies. Option D incorrectly equates q with q².",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u7_052",
@@ -829,14 +817,13 @@
       "choices": [
         "A) The deer population will immediately crash to zero because the ecosystem was previously at equilibrium",
         "B) The carrying capacity of the ecosystem will increase because predation reduces competition among deer",
-        "C) The deer population may fluctuate below its previous level as predation adds to density-dependent mortality, potentially altering vegetation structure and carrying capacity over time",
-        "D) The population growth rate (r) of the deer will permanently increase as individuals with faster reproduction are selected for under predation pressure"
+        "C) The deer population will likely fluctuate below its previous level as predation adds to density-dependent mortality, potentially altering vegetation structure and carrying capacity over time",
+        "D) The population growth rate (r) of the deer will increase within the first two years as predation immediately triggers faster reproduction at the individual level"
       ],
       "answer": 2,
-      "explanation": "Predator reintroduction (a classic example being wolves in Yellowstone) adds density-dependent mortality pressure, which can reduce the deer population below its previous carrying capacity. Over time, reduced browsing pressure allows vegetation recovery, which may shift the carrying capacity itself - this is a trophic cascade. Choice A is incorrect; predation rarely drives a population to zero immediately and equilibrium does not mean a system cannot respond to new factors. Choice B is a misconception: reducing competition among deer does not directly raise carrying capacity, which is set by resource availability. Choice D confuses evolutionary timescales with ecological timescales; natural selection for faster reproduction would take many generations, not occur as an immediate population-level response.",
+      "explanation": "Predator reintroduction (a classic example being wolves in Yellowstone) adds density-dependent mortality pressure, which can reduce the deer population below its previous carrying capacity. Over time, reduced browsing pressure allows vegetation recovery, which may shift the carrying capacity itself - this is a trophic cascade. Choice A is incorrect; predation rarely drives a population to zero immediately and equilibrium does not mean a system cannot respond to new factors. Choice B is a misconception: reducing competition among deer does not directly raise carrying capacity, which is set by resource availability. Choice D confuses evolutionary timescales with ecological timescales; natural selection for faster reproduction would take many generations, not occur as an immediate population-level response within just a couple of years.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u8_055",
@@ -874,15 +861,14 @@
       "question": "A conservation biologist compares two forest fragments of equal area: Fragment A contains 12 tree species, 8 bird species, 3 mammal species, and 15 insect species, all in relatively equal abundances. Fragment B contains 20 tree species, 14 bird species, 6 mammal species, and 30 insect species, but 80% of total individuals belong to just 2 species. Which of the following statements best evaluates the biodiversity of these two fragments?",
       "choices": [
         "A) Fragment B has greater biodiversity in all meaningful measures because it contains more species in every taxonomic group",
-        "B) Fragment A may have greater functional biodiversity despite lower species richness, because its more even distribution of individuals suggests greater species evenness and potentially more stable ecological interactions",
+        "B) Fragment A likely has a higher overall biodiversity index score because species evenness is a key component of diversity metrics such as the Shannon and Simpson indices; Fragment B's low evenness means most of its species are so rare that they contribute minimally to ecosystem interactions and community stability",
         "C) Fragment B is more biodiverse because total species richness is the only scientifically accepted metric for measuring biodiversity",
         "D) Fragment A has greater biodiversity because smaller numbers of species are easier for an ecosystem to support, indicating greater ecosystem efficiency"
       ],
       "answer": 1,
-      "explanation": "Biodiversity has two key components: species richness (number of species) and species evenness (relative abundance). Fragment B has higher species richness, but its extremely low evenness (80% of individuals in 2 species) means most species are rare and may not contribute substantially to ecosystem function. Fragment A's more even distribution suggests that more species are functionally active and interacting within the community, leading to potentially greater functional stability and resilience. Choice A ignores the critical role of species evenness in biodiversity assessments. Choice C is factually incorrect; ecologists use multiple metrics including Shannon diversity index, Simpson's index, and functional diversity. Choice D presents a fabricated rationale - supporting fewer species does not equate to efficiency or greater biodiversity.",
+      "explanation": "Biodiversity has two key components: species richness (number of species) and species evenness (relative abundance). Diversity indices such as the Shannon index (H') and Simpson's index incorporate both components, meaning a community with high richness but very low evenness can score lower than a community with moderate richness and high evenness. Fragment B has higher species richness, but its extremely low evenness (80% of individuals in just 2 species) means most species are rare and contribute minimally to ecosystem function and interactions. Fragment A's more even distribution means more species are functionally active, yielding a higher diversity index score and greater community stability. Choice A ignores the critical role of species evenness in biodiversity assessments. Choice C is factually incorrect; ecologists use multiple metrics including the Shannon diversity index and Simpson's index, both of which are referenced in AP Biology curricula. Choice D presents a fabricated rationale - supporting fewer species does not equate to efficiency or greater biodiversity.",
       "difficulty": "hard",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u8_058",
@@ -904,16 +890,15 @@
       "unit": 8,
       "question": "A population of snowshoe hares in a boreal forest is monitored over 10 years. During years 1-4, the population grows rapidly. In year 5, a severe winter reduces available vegetation, and the population declines sharply. By year 8, the population begins to recover. Which of the following best explains the population dynamics observed during years 1-4, assuming the population was well below carrying capacity at year 1?",
       "choices": [
-        "A) The population exhibited logistic growth because resources were abundant and intraspecific competition was low, producing a characteristic J-shaped curve.",
+        "A) The population exhibited logistic growth because even though resources were abundant, density-dependent factors were already moderating growth rates, producing an S-shaped curve consistent with logistic models.",
         "B) The population exhibited exponential growth because per capita birth rates exceeded per capita death rates and limiting factors had not yet significantly constrained the population.",
         "C) The population exhibited logistic growth because the carrying capacity of the environment increased as hares consumed more vegetation, allowing faster reproduction.",
         "D) The population exhibited exponential growth driven primarily by immigration from adjacent territories rather than by natural reproduction within the population."
       ],
       "answer": 1,
-      "explanation": "When a population is well below carrying capacity and resources are not yet limiting, it grows approximately exponentially - per capita birth rates exceed per capita death rates and density-dependent limiting factors have minimal effect. This produces a J-shaped curve. Choice A is incorrect because logistic growth produces an S-shaped curve; the J-shaped rapid growth phase described is characteristic of exponential, not logistic, growth. Choice C confuses cause and effect - consumption of vegetation depletes resources and lowers carrying capacity over time; it does not increase it. Choice D introduces immigration as the primary driver without any evidence from the scenario; the question asks about the mechanism of rapid growth in a below-carrying-capacity scenario, which is best explained by intrinsic reproductive rates.",
+      "explanation": "When a population is well below carrying capacity and resources are not yet limiting, it grows approximately exponentially - per capita birth rates exceed per capita death rates and density-dependent limiting factors have minimal effect. This produces a J-shaped curve. Choice A is incorrect because when a population is well below carrying capacity, density-dependent factors are not yet significantly moderating growth; the rapid growth observed in years 1-4 reflects the near-exponential phase that occurs before density-dependent constraints become meaningful. Choice C confuses cause and effect - consumption of vegetation depletes resources and lowers carrying capacity over time; it does not increase it. Choice D introduces immigration as the primary driver without any evidence from the scenario; the question asks about the mechanism of rapid growth in a below-carrying-capacity scenario, which is best explained by intrinsic reproductive rates.",
       "difficulty": "medium",
-      "type": "MCQ",
-      "flagged": true
+      "type": "MCQ"
     },
     {
       "id": "pt_bio_p1_u8_060",
