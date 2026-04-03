@@ -13,7 +13,7 @@ const SUBJECTS = [
     description: 'Java programming, OOP, algorithms & data structures.',
     hasContent: true,
     dataFiles: ['APCSA_MCQ', 'FRQ_BANK'],
-    testFiles: ['PRACTICE_TESTS'],
+    testFiles: ['PRACTICE_TESTS', 'P1_CSA_TEST'],
     questionTypes: [
       { value: 'all', label: 'All' },
       { value: 'MCQ', label: 'MCQ' },
@@ -94,7 +94,7 @@ const SUBJECTS = [
     description: 'Biochemistry, cells, genetics, evolution & ecology.',
     hasContent: true,
     dataFiles: ['APBIO_MCQ', 'APBIO_FRQ', 'APBIO_FRQ_GRADED'],
-    testFiles: ['APBIO_TESTS'],
+    testFiles: ['APBIO_TESTS', 'P1_BIO_TEST'],
     testDataFiles: ['APBIO_TEST_MCQ'],
     questionTypes: [
       { value: 'all',       label: 'All' },
@@ -183,7 +183,7 @@ const SUBJECTS = [
     description: 'Limits, derivatives, integrals & the Fundamental Theorem.',
     hasContent: true,
     dataFiles: ['APCALC_MCQ', 'APCALC_FRQ'],
-    testFiles: [],
+    testFiles: ['P1_CALCAB_TEST'],
     questionTypes: [
       { value: 'all',          label: 'All' },
       { value: 'Non-Calc MCQ', label: 'Non-Calc MCQ' },
@@ -253,7 +253,7 @@ const SUBJECTS = [
     description: 'Algebra-based mechanics, waves, circuits & rotational motion.',
     hasContent: true,
     dataFiles: ['PHYSICS_MCQ', 'PHYSICS_FRQ'],
-    testFiles: [],
+    testFiles: ['P1_PHYS1_TEST'],
     questionTypes: [
       { value: 'all', label: 'All' },
       { value: 'MCQ', label: 'MCQ' },
@@ -316,7 +316,7 @@ const SUBJECTS = [
     description: 'Electrostatics, circuits, magnetism & electromagnetic induction.',
     hasContent: true,
     dataFiles: ['APPHYSCEM_FRQ', 'PHYSC_MCQ'],
-    testFiles: [],
+    testFiles: ['P1_PHYSCEM_TEST'],
     questionTypes: [
       { value: 'all', label: 'All' },
       { value: 'MCQ', label: 'MCQ' },
@@ -346,7 +346,7 @@ const SUBJECTS = [
     description: 'US history from pre-contact through present.',
     hasContent: true,
     dataFiles: ['APUSH_MCQ', 'APUSH_FRQ'],
-    testFiles: [],
+    testFiles: ['P1_USH_TEST'],
     questionTypes: [
       { value: 'all', label: 'All' },
       { value: 'MCQ', label: 'MCQ' },
@@ -430,7 +430,7 @@ const SUBJECTS = [
     description: 'Data collection, probability, inference & regression.',
     hasContent: true,
     dataFiles: ['APSTATS_MCQ', 'APSTATS_FRQ'],
-    testFiles: [],
+    testFiles: ['P1_STATS_TEST'],
     questionTypes: [
       { value: 'all',       label: 'All' },
       { value: 'MCQ',       label: 'MCQ' },
@@ -542,7 +542,7 @@ const SUBJECTS = [
     description: 'Supply & demand, market structures & consumer theory.',
     hasContent: true,
     dataFiles: ['APMICRO_MCQ', 'APMICRO_FRQ'],
-    testFiles: [],
+    testFiles: ['P1_MICRO_TEST'],
     questionTypes: [
       { value: 'all',       label: 'All' },
       { value: 'MCQ',       label: 'MCQ' },
@@ -609,7 +609,7 @@ const SUBJECTS = [
     description: 'GDP, fiscal & monetary policy & international trade.',
     hasContent: true,
     dataFiles: ['APMACRO_MCQ', 'APMACRO_FRQ'],
-    testFiles: [],
+    testFiles: ['P1_MACRO_TEST'],
     questionTypes: [
       { value: 'all',       label: 'All' },
       { value: 'MCQ',       label: 'MCQ' },
@@ -678,7 +678,7 @@ const SUBJECTS = [
     description: 'Constitution, branches of government, civil rights, and political participation.',
     hasContent: true,
     dataFiles: ['APGOV_MCQ', 'APGOV_FRQ'],
-    testFiles: [],
+    testFiles: ['P1_GOV_TEST'],
     questionTypes: [
       { value: 'all',    label: 'All' },
       { value: 'MCQ',    label: 'MCQ' },
@@ -764,7 +764,7 @@ const SUBJECTS = [
     description: 'All of Calc AB plus series, parametric, polar, and vector-valued functions.',
     hasContent: true,
     dataFiles: ['APCALCBC_MCQ', 'APCALCBC_FRQ'],
-    testFiles: [],
+    testFiles: ['P1_CALCBC_TEST'],
     questionTypes: [
       { value: 'all',          label: 'All' },
       { value: 'Non-Calc MCQ', label: 'Non-Calc MCQ' },
@@ -883,7 +883,7 @@ const SUBJECTS = [
     description: 'Ecosystems, biodiversity, populations, earth systems, and global change.',
     hasContent: true,
     dataFiles: ['APENVIRO_MCQ', 'APENVIRO_FRQ'],
-    testFiles: [],
+    testFiles: ['P1_ENVIRO_TEST'],
     questionTypes: [
       { value: 'all',       label: 'All' },
       { value: 'MCQ',       label: 'MCQ' },
