@@ -7,8 +7,37 @@ const UNIT_TITLES = {
   4: 'Data Collections'
 };
 
+const AP_SCORE_TABLES = {
+  apcalcab:  { mcqWeight: 0.50, frqWeight: 0.50, frqMax: 54, cutoffs: [0.63, 0.48, 0.36, 0.24] },
+  apcalcbc:  { mcqWeight: 0.50, frqWeight: 0.50, frqMax: 54, cutoffs: [0.70, 0.57, 0.42, 0.31] },
+  apstats:   { mcqWeight: 0.50, frqWeight: 0.50, frqMax: 40, cutoffs: [0.70, 0.58, 0.44, 0.33] },
+  apmicro:   { mcqWeight: 0.67, frqWeight: 0.33, frqMax: 30, cutoffs: [0.75, 0.64, 0.50, 0.37] },
+  apmacro:   { mcqWeight: 0.67, frqWeight: 0.33, frqMax: 30, cutoffs: [0.72, 0.59, 0.46, 0.33] },
+  apush:     { mcqWeight: 0.40, frqWeight: 0.60, frqMax: 100, cutoffs: [0.75, 0.61, 0.50, 0.38] },
+  apphys1:   { mcqWeight: 0.50, frqWeight: 0.50, frqMax: 45, cutoffs: [0.70, 0.56, 0.40, 0.25] },
+  apphyscem: { mcqWeight: 0.50, frqWeight: 0.50, frqMax: 45, cutoffs: [0.65, 0.52, 0.38, 0.26] },
+  apgov:     { mcqWeight: 0.50, frqWeight: 0.50, frqMax: 50, cutoffs: [0.75, 0.62, 0.48, 0.36] },
+  apenviro:  { mcqWeight: 0.60, frqWeight: 0.40, frqMax: 23, cutoffs: [0.72, 0.59, 0.48, 0.35] },
+  apbio:     { mcqWeight: 0.50, frqWeight: 0.50, frqMax: 60, cutoffs: [0.70, 0.56, 0.43, 0.31] },
+  apcsa:     { mcqWeight: 0.60, frqWeight: 0.40, frqMax: 36, cutoffs: [0.67, 0.54, 0.40, 0.26] },
+  _default:  { mcqWeight: 0.50, frqWeight: 0.50, frqMax: 36, cutoffs: [0.70, 0.55, 0.40, 0.25] },
+};
+
+function estimateAPScoreForSubject(mcqCorrect, mcqTotal, frqEarned, subjectId) {
+  const table = AP_SCORE_TABLES[subjectId] || AP_SCORE_TABLES._default;
+  const mcqPct = mcqTotal > 0 ? mcqCorrect / mcqTotal : 0;
+  const frqPct = table.frqMax > 0 ? frqEarned / table.frqMax : 0;
+  const composite = (mcqPct * table.mcqWeight) + (frqPct * table.frqWeight);
+  const [c5, c4, c3, c2] = table.cutoffs;
+  if (composite >= c5) return 5;
+  if (composite >= c4) return 4;
+  if (composite >= c3) return 3;
+  if (composite >= c2) return 2;
+  return 1;
+}
+
 // ─── Score Calculation ───────────────────────────────────────────────────────
-function calculateTestScore(testResult, questions) {
+function calculateTestScore(testResult, questions, subjectId) {
   const { mcqAnswers = {}, frqSelfGrades = {}, flagged = [] } = testResult;
 
   const mcqQuestions = questions.filter(q => q.type === 'MCQ');
@@ -33,7 +62,7 @@ function calculateTestScore(testResult, questions) {
   });
 
   const frqTotal = Object.values(frqSelfGrades).reduce((sum, pts) => sum + (pts || 0), 0);
-  const apScore = App.estimateAPScore(mcqCorrect, frqTotal);
+  const apScore = estimateAPScoreForSubject(mcqCorrect, mcqQuestions.length, frqTotal, subjectId);
 
   return {
     mcqCorrect,
@@ -41,7 +70,7 @@ function calculateTestScore(testResult, questions) {
     mcqByUnit,
     mcqByDifficulty,
     frqTotal,
-    frqMax: 28,
+    frqMax: (AP_SCORE_TABLES[subjectId] || AP_SCORE_TABLES._default).frqMax,
     apScore,
     flagged
   };
@@ -710,6 +739,7 @@ window.Scoring = {
   getWeakestTopics, renderScoreSummary, renderUnitBreakdown,
   renderDifficultyBreakdown, renderWeakTopics, renderTestHistory,
   renderFrqGrading, renderAnalysisPanel, renderAutoFRQPanel,
+  estimateAPScoreForSubject,
   // Backward-compat alias
   renderPhysicsPanel: renderAutoFRQPanel,
   UNIT_TITLES
