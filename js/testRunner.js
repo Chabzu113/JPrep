@@ -265,6 +265,11 @@ function selectTest(testId, subjectId) {
     }
   } catch(e) { console.warn('localStorage read error:', e); }
 
+  const refBtn = document.getElementById('refSheetBtn');
+  if (refBtn) {
+    const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(subjectId) : null;
+    refBtn.classList.toggle('hidden', !(subj && subj.referenceSheet));
+  }
   setTestMode(true);
   renderIntroScreen();
   showScreen('introScreen');
@@ -325,6 +330,11 @@ function wireButtons() {
   if (desmosBtn) desmosBtn.addEventListener('click', toggleDesmos);
   const desmosClose = document.getElementById('desmos-close');
   if (desmosClose) desmosClose.addEventListener('click', toggleDesmos);
+  const refSheetBtn = document.getElementById('refSheetBtn');
+  if (refSheetBtn) refSheetBtn.addEventListener('click', () => {
+    const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+    if (subj && subj.referenceSheet) window.open(subj.referenceSheet, '_blank');
+  });
 
   // Event delegation for dynamically-rendered buttons
   document.addEventListener('click', e => {
