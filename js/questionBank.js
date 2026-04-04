@@ -145,7 +145,7 @@ function getQuestionTypeLabel(q, subjId) {
     return 'FRQ';
   }
   // MCQ
-  if (subjId === 'apcalcab') {
+  if (subjId === 'apcalcab' || subjId === 'apcalcbc') {
     return q.calculator ? 'Calc MCQ' : 'Non-Calc MCQ';
   }
   return 'MCQ';
