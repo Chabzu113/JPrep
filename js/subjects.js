@@ -187,6 +187,10 @@ const SUBJECTS = [
     description: 'Limits, derivatives, integrals & the Fundamental Theorem.',
     hasContent: true,
     mcqTime: 6300,
+    mcqParts: [
+      { label: 'Part A', count: 30, time: 3600, calculator: false },
+      { label: 'Part B', count: 15, time: 2700, calculator: true }
+    ],
     frqTime: 5400,
     referenceSheet: 'https://apstudents.collegeboard.org/ap/pdf/ap-calculus-ab-bc-equations-and-formulas.pdf',
     dataFiles: ['APCALC_MCQ', 'APCALC_FRQ'],
@@ -788,6 +792,10 @@ const SUBJECTS = [
     description: 'All of Calc AB plus series, parametric, polar, and vector-valued functions.',
     hasContent: true,
     mcqTime: 6300,
+    mcqParts: [
+      { label: 'Part A', count: 30, time: 3600, calculator: false },
+      { label: 'Part B', count: 15, time: 2700, calculator: true }
+    ],
     frqTime: 5400,
     referenceSheet: 'https://apstudents.collegeboard.org/ap/pdf/ap-calculus-ab-bc-equations-and-formulas.pdf',
     dataFiles: ['APCALCBC_MCQ', 'APCALCBC_FRQ'],
