@@ -82,7 +82,7 @@ A free, offline-first AP exam prep platform available as a macOS desktop app and
 
 ## Installing the macOS App
 
-Download `JPrep-Mac.dmg` from the [latest release](https://github.com/Chabzu113/APCSAPractice/releases/latest), open it, and drag **JPrep** to Applications.
+Download `JPrep-Mac.dmg` from the [latest release](https://github.com/Chabzu113/JPrep/releases/latest), open it, and drag **JPrep** to Applications.
 
 **First launch (unsigned app):** macOS will block the app since it isn't signed with an Apple certificate.
 
@@ -101,7 +101,7 @@ Then double-click to open normally. You only need to do this once.
 Requires Node.js and npm.
 
 ```bash
-git clone https://github.com/Chabzu113/APCSAPractice.git
+git clone https://github.com/Chabzu113/JPrep.git
 cd APCSAPractice/electron
 npm install
 npm start          # Run in dev mode
