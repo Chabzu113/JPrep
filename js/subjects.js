@@ -188,6 +188,7 @@ const SUBJECTS = [
     hasContent: true,
     mcqTime: 6300,
     frqTime: 5400,
+    referenceSheet: 'https://apstudents.collegeboard.org/ap/pdf/ap-calculus-ab-bc-equations-and-formulas.pdf',
     dataFiles: ['APCALC_MCQ', 'APCALC_FRQ'],
     testFiles: ['P1_CALCAB_TEST'],
     questionTypes: [
@@ -260,6 +261,7 @@ const SUBJECTS = [
     hasContent: true,
     mcqTime: 5400,
     frqTime: 5400,
+    referenceSheet: 'https://apstudents.collegeboard.org/ap/pdf/ap-physics-1-equations-table.pdf',
     dataFiles: ['PHYSICS_MCQ', 'PHYSICS_FRQ'],
     testFiles: ['P1_PHYS1_TEST'],
     questionTypes: [
@@ -325,6 +327,7 @@ const SUBJECTS = [
     hasContent: true,
     mcqTime: 2700,
     frqTime: 2700,
+    referenceSheet: 'https://apstudents.collegeboard.org/ap/pdf/ap-physics-c-equations-table.pdf',
     dataFiles: ['APPHYSCEM_FRQ', 'PHYSC_MCQ'],
     testFiles: ['P1_PHYSCEM_TEST'],
     questionTypes: [
@@ -443,6 +446,7 @@ const SUBJECTS = [
     hasContent: true,
     mcqTime: 5400,
     frqTime: 5400,
+    referenceSheet: 'https://apstudents.collegeboard.org/ap/pdf/statistics-formula-sheet-and-tables.pdf',
     dataFiles: ['APSTATS_MCQ', 'APSTATS_FRQ'],
     testFiles: ['P1_STATS_TEST'],
     questionTypes: [
@@ -785,6 +789,7 @@ const SUBJECTS = [
     hasContent: true,
     mcqTime: 6300,
     frqTime: 5400,
+    referenceSheet: 'https://apstudents.collegeboard.org/ap/pdf/ap-calculus-ab-bc-equations-and-formulas.pdf',
     dataFiles: ['APCALCBC_MCQ', 'APCALCBC_FRQ'],
     testFiles: ['P1_CALCBC_TEST'],
     questionTypes: [
