@@ -6,7 +6,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2} =",
+    "question": "$$\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2} =$$",
     "isLatex": true,
     "choices": [
       "0",
@@ -15,7 +15,7 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 2,
-    "explanation": "Factor the numerator: (x+2)(x-2)/(x-2) = x+2. As x→2, this equals 4."
+    "explanation": "Factor the numerator: (x+2)(x-2)/(x-2) = x+2. As x$\\to$2, this equals 4."
   },
   {
     "id": "u1_mcq_002",
@@ -24,7 +24,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\lim_{x \\to \\infty} \\frac{5x^3 - 2x}{3x^3 + 7} =",
+    "question": "$$\\lim_{x \\to \\infty} \\frac{5x^3 - 2x}{3x^3 + 7} =$$",
     "isLatex": true,
     "choices": [
       "0",
@@ -33,7 +33,7 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 2,
-    "explanation": "Divide numerator and denominator by x³. All other terms go to 0, leaving 5/3."
+    "explanation": "Divide numerator and denominator by $x^3$. All other terms go to 0, leaving 5/3."
   },
   {
     "id": "u1_mcq_003",
@@ -42,7 +42,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\lim_{x \\to 0} \\frac{\\sin(4x)}{2x} =",
+    "question": "$$\\lim_{x \\to 0} \\frac{\\sin(4x)}{2x} =$$",
     "isLatex": true,
     "choices": [
       "0",
@@ -51,7 +51,7 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 2,
-    "explanation": "Rewrite as (4/2) · sin(4x)/(4x). As x→0, sin(4x)/(4x)→1, so the limit is 2."
+    "explanation": "Rewrite as (4/2) · sin(4x)/(4x). As x$\\to$0, sin(4x)/(4x)$\\to$1, so the limit is 2."
   },
   {
     "id": "u1_mcq_004",
@@ -69,7 +69,7 @@ var APCALC_MCQ = [
       "$\\lim_{x \\to 3} f(x)$ does not exist"
     ],
     "answer": 2,
-    "explanation": "Factor: (x-3)(x+2)/(x-3) = x+2. The limit as x→3 equals 5, but f(3) is undefined.\nRemovable discontinuity."
+    "explanation": "Factor: (x-3)(x+2)/(x-3) = x+2. The limit as x$\\to$3 equals 5, but f(3) is undefined.\nRemovable discontinuity."
   },
   {
     "id": "u1_mcq_005",
@@ -78,7 +78,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\lim_{x \\to 0^+} \\frac{1}{x} =",
+    "question": "$$\\lim_{x \\to 0^+} \\frac{1}{x} =$$",
     "isLatex": true,
     "choices": [
       "$-\\infty$",
@@ -96,7 +96,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2} =",
+    "question": "$$\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2} =$$",
     "isLatex": true,
     "choices": [
       "0",
@@ -105,7 +105,7 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 1,
-    "explanation": "Multiply by (1+cosx)/(1+cosx) and use sin²x = 1-cos²x, giving sin²x/[x²(1+cosx)].\nAs x→0, sin(x)/x→1 and 1+cosx→2, so the result is 1/2."
+    "explanation": "Multiply by (1+cosx)/(1+cosx) and use si$n^2$x = 1-co$s^2$x, giving si$n^2$x/[$x^2$(1+cosx)].\nAs x$\\to$0, sin(x)/x$\\to$1 and 1+cosx$\\to$2, so the result is 1/2."
   },
   {
     "id": "u1_mcq_007",
@@ -117,13 +117,13 @@ var APCALC_MCQ = [
     "question": "The function f is defined as: f(x) = x^2 + 1 for x < 2, f(2) = 5, and f(x) = 3x - 1 for x >\n2. Which of the following is true?",
     "isLatex": false,
     "choices": [
-      "f is continuous at x = 2 because lim(x→2) f(x) = f(2)",
-      "f is not continuous at x = 2 because lim(x→2⁻) f(x) ≠ lim(x→2⁺) f(x)",
-      "f is not continuous at x = 2 because lim(x→2) f(x) ≠ f(2)",
+      "f is continuous at x = 2 because $\\lim_{x \\to 2}$ f(x) = f(2)",
+      "f is not continuous at x = 2 because $\\lim_{x \\to 2^-}$ f(x) $\\neq$ $\\lim_{x \\to 2^+}$ f(x)",
+      "f is not continuous at x = 2 because $\\lim_{x \\to 2}$ f(x) $\\neq$ f(2)",
       "f is continuous at x = 2 because f(2) is defined"
     ],
     "answer": 0,
-    "explanation": "lim(x→2⁻) = 4+1 = 5, lim(x→2⁺) = 6-1 = 5, f(2) = 5. All three agree, so f is\ncontinuous."
+    "explanation": "$\\lim_{x \\to 2^-}$ = 4+1 = 5, $\\lim_{x \\to 2^+}$ = 6-1 = 5, f(2) = 5. All three agree, so f is\ncontinuous."
   },
   {
     "id": "u1_mcq_008",
@@ -132,7 +132,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\lim_{x \\to -\\infty} \\frac{2x^2 - 3}{x + 4} =",
+    "question": "$$\\lim_{x \\to -\\infty} \\frac{2x^2 - 3}{x + 4} =$$",
     "isLatex": true,
     "choices": [
       "$-\\infty$",
@@ -141,7 +141,7 @@ var APCALC_MCQ = [
       "$+\\infty$"
     ],
     "answer": 0,
-    "explanation": "Numerator grows as x², denominator grows as x. The ratio behaves like 2x →\n-∞ as x → -∞."
+    "explanation": "Numerator grows as $x^2$, denominator grows as x. The ratio behaves like 2x $\\to$\n-$\\infty$ as x $\\to$ -$\\infty$."
   },
   {
     "id": "u1_mcq_009",
@@ -150,13 +150,13 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "If lim(x→a) f(x) = L and lim(x→a) g(x) = 0, which of the following must be true?",
+    "question": "If $\\lim_{x \\to a}$ f(x) = L and $\\lim_{x \\to a}$ g(x) = 0, which of the following must be true?",
     "isLatex": false,
     "choices": [
-      "lim(x→a) [f(x)/g(x)] does not exist",
-      "lim(x→a) [f(x)/g(x)] = ∞",
-      "lim(x→a) [f(x)·g(x)] = 0",
-      "lim(x→a) [f(x) + g(x)] = 0"
+      "$\\lim_{x \\to a}$ [f(x)/g(x)] does not exist",
+      "$\\lim_{x \\to a}$ [f(x)/g(x)] = $\\infty$",
+      "$\\lim_{x \\to a}$ [f(x)·g(x)] = 0",
+      "$\\lim_{x \\to a}$ [f(x) + g(x)] = 0"
     ],
     "answer": 2,
     "explanation": "By limit laws, lim[f(x)·g(x)] = L·0 = 0. The others are not guaranteed — f(x)/g(x)\ndepends on whether L is also 0."
@@ -168,7 +168,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "table",
-    "question": "The table gives values of a function h for selected values of x. Based on the table,\nwhat is lim(x→2) h(x)?",
+    "question": "The table gives values of a function h for selected values of x. Based on the table,\nwhat is $\\lim_{x \\to 2}$ h(x)?",
     "isLatex": false,
     "tableData": {
       "headers": [
@@ -199,7 +199,7 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 1,
-    "explanation": "Values approach 4 from both sides as x→2."
+    "explanation": "Values approach 4 from both sides as x$\\to$2."
   },
   {
     "id": "u1_mcq_011",
@@ -208,7 +208,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "For what value of k is f(x) = kx + 3 for x < 2, and f(x) = x² - 1 for x ≥ 2 continuous at\nx = 2?",
+    "question": "For what value of k is f(x) = kx + 3 for x < 2, and f(x) = $x^2$ - 1 for x $\\geq$ 2 continuous at\nx = 2?",
     "isLatex": false,
     "choices": [
       "0",
@@ -217,7 +217,7 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 0,
-    "explanation": "For continuity, the left-hand limit must equal f(2). The left-hand limit is 2k + 3 and f(2) = 2² - 1 = 3. Setting 2k + 3 = 3 yields 2k = 0, so k = 0."
+    "explanation": "For continuity, the left-hand limit must equal f(2). The left-hand limit is 2k + 3 and f(2) = $2^2$ - 1 = 3. Setting 2k + 3 = 3 yields 2k = 0, so k = 0."
   },
   {
     "id": "u1_mcq_012",
@@ -244,7 +244,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "If -x² ≤ f(x) ≤ x² for all x, what is lim(x→0) f(x)?",
+    "question": "If -$x^2$ $\\leq$ f(x) $\\leq$ $x^2$ for all x, what is $\\lim_{x \\to 0}$ f(x)?",
     "isLatex": false,
     "choices": [
       "-1",
@@ -253,7 +253,7 @@ var APCALC_MCQ = [
       "The limit cannot be determined"
     ],
     "answer": 1,
-    "explanation": "By the Squeeze Theorem, since lim(x→0) -x² = 0 and lim(x→0) x² = 0, we have\nlim(x→0) f(x) = 0."
+    "explanation": "By the Squeeze Theorem, since $\\lim_{x \\to 0}$ -$x^2$ = 0 and $\\lim_{x \\to 0}$ $x^2$ = 0, we have\n$\\lim_{x \\to 0}$ f(x) = 0."
   },
   {
     "id": "u1_mcq_014",
@@ -265,10 +265,10 @@ var APCALC_MCQ = [
     "question": "Which of the following functions has a vertical asymptote at x = 3?",
     "isLatex": false,
     "choices": [
-      "f(x) = (x-3)/(x²-9)",
-      "f(x) = (x²-9)/(x-3)",
+      "f(x) = (x-3)/($x^2$-9)",
+      "f(x) = ($x^2$-9)/(x-3)",
       "f(x) = (x+3)/(x-3)",
-      "f(x) = (x²-9)/(x+3)"
+      "f(x) = ($x^2$-9)/(x+3)"
     ],
     "answer": 2,
     "explanation": "(x+3)/(x-3) has denominator zero at x=3 and numerator nonzero (6), so it's a\nvertical asymptote. Option A has a removable discontinuity at x=3. Option B simplifies to x+3.\nOption D simplifies to x-3."
@@ -280,7 +280,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\lim_{x \\to 1} \\frac{x^3 - 1}{x^2 - 1} =",
+    "question": "$$\\lim_{x \\to 1} \\frac{x^3 - 1}{x^2 - 1} =$$",
     "isLatex": true,
     "choices": [
       "$\\frac{1}{2}$",
@@ -289,7 +289,7 @@ var APCALC_MCQ = [
       "3"
     ],
     "answer": 2,
-    "explanation": "Factor: (x³-1)/(x²-1) = (x-1)(x²+x+1)/[(x-1)(x+1)] = (x²+x+1)/(x+1). As x→1:\n(1+1+1)/(1+1) = 3/2."
+    "explanation": "Factor: ($x^3$-1)/($x^2$-1) = (x-1)($x^2$+x+1)/[(x-1)(x+1)] = ($x^2$+x+1)/(x+1). As x$\\to$1:\n(1+1+1)/(1+1) = 3/2."
   },
   {
     "id": "u1_mcq_016",
@@ -301,9 +301,9 @@ var APCALC_MCQ = [
     "question": "Which of the following describes a jump discontinuity at x = c?",
     "isLatex": false,
     "choices": [
-      "lim(x→c) f(x) exists but does not equal f(c)",
-      "lim(x→c⁻) f(x) and lim(x→c⁺) f(x) both exist but are not equal",
-      "lim(x→c) f(x) = ∞",
+      "$\\lim_{x \\to c}$ f(x) exists but does not equal f(c)",
+      "$\\lim_{x \\to c^-}$ f(x) and $\\lim_{x \\to c^+}$ f(x) both exist but are not equal",
+      "$\\lim_{x \\to c}$ f(x) = $\\infty$",
       "f(c) is undefined and the limit does not exist"
     ],
     "answer": 1,
@@ -316,7 +316,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\lim_{x \\to \\infty} \\frac{4x^2 + 3x}{2x^3 - 5} =",
+    "question": "$$\\lim_{x \\to \\infty} \\frac{4x^2 + 3x}{2x^3 - 5} =$$",
     "isLatex": true,
     "choices": [
       "0",
@@ -334,7 +334,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "For what values of a and b is f(x) = x² - a for x < 1, f(x) = 3 for x = 1, f(x) = bx + 2\nfor x > 1 continuous everywhere?",
+    "question": "For what values of a and b is f(x) = $x^2$ - a for x < 1, f(x) = 3 for x = 1, f(x) = bx + 2\nfor x > 1 continuous everywhere?",
     "isLatex": false,
     "choices": [
       "a = -2, b = 1",
@@ -343,7 +343,7 @@ var APCALC_MCQ = [
       "a = 2, b = 3"
     ],
     "answer": 0,
-    "explanation": "lim(x→1⁻) = 1-a must equal 3, so a = -2. lim(x→1⁺) = b+2 must equal 3, so b =\n1."
+    "explanation": "$\\lim_{x \\to 1^-}$ = 1-a must equal 3, so a = -2. $\\lim_{x \\to 1^+}$ = b+2 must equal 3, so b =\n1."
   },
   {
     "id": "u1_mcq_019",
@@ -352,7 +352,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\lim_{x \\to 0} \\frac{\\tan(3x)}{\\sin(5x)} =",
+    "question": "$$\\lim_{x \\to 0} \\frac{\\tan(3x)}{\\sin(5x)} =$$",
     "isLatex": true,
     "choices": [
       "$\\frac{3}{5}$",
@@ -361,7 +361,7 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 0,
-    "explanation": "Rewrite as [sin(3x)/cos(3x)]/sin(5x) = [sin(3x)/(3x)] · [5x/sin(5x)] · (3/5) ·\n(1/cos3x). As x→0, each sinc term→1 and cos(3x)→1, giving 3/5."
+    "explanation": "Rewrite as [sin(3x)/cos(3x)]/sin(5x) = [sin(3x)/(3x)] · [5x/sin(5x)] · (3/5) ·\n(1/cos3x). As x$\\to$0, each sinc term$\\to$1 and cos(3x)$\\to$1, giving 3/5."
   },
   {
     "id": "u1_mcq_020",
@@ -370,7 +370,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "f(x) = x³ + x - 1. Which of the following guarantees that f has a root on (0, 1)?",
+    "question": "f(x) = $x^3$ + x - 1. Which of the following guarantees that f has a root on (0, 1)?",
     "isLatex": false,
     "choices": [
       "f(0) = -1 < 0 and f(1) = 1 > 0, and f is continuous, so by IVT there exists c in (0,1) with\nf(c) = 0",
@@ -392,10 +392,10 @@ var APCALC_MCQ = [
     "isLatex": false,
     "graphDescription": "Graph of f(x) showing: open circle at (2, 3), closed circle at (2, 1), function\napproaching 3 from both sides as x→2",
     "choices": [
-      "lim(x→2) f(x) = 1",
-      "lim(x→2) f(x) = 3 and f(2) = 1",
+      "$\\lim_{x \\to 2}$ f(x) = 1",
+      "$\\lim_{x \\to 2}$ f(x) = 3 and f(2) = 1",
       "f is continuous at x = 2",
-      "lim(x→2) f(x) does not exist"
+      "$\\lim_{x \\to 2}$ f(x) does not exist"
     ],
     "answer": 1,
     "explanation": "The open circle at (2,3) means the limit from both sides is 3, but f(2) = 1 (closed\ncircle). Limit exists but doesn't equal f(2), so f is discontinuous there."
@@ -407,17 +407,17 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "graph",
-    "question": "Based on the graph of g, which of the following is true about lim(x→1) g(x)?",
+    "question": "Based on the graph of g, which of the following is true about $\\lim_{x \\to 1}$ g(x)?",
     "isLatex": false,
     "graphDescription": "Graph of g(x) showing: function approaching 4 from the left as x→1,\nfunction approaching -2 from the right as x→1, closed circle at (1, 4)",
     "choices": [
-      "lim(x→1) g(x) = 4",
-      "lim(x→1) g(x) = -2",
-      "lim(x→1) g(x) = 1",
-      "lim(x→1) g(x) does not exist"
+      "$\\lim_{x \\to 1}$ g(x) = 4",
+      "$\\lim_{x \\to 1}$ g(x) = -2",
+      "$\\lim_{x \\to 1}$ g(x) = 1",
+      "$\\lim_{x \\to 1}$ g(x) does not exist"
     ],
     "answer": 3,
-    "explanation": "lim(x→1⁻) = 4 and lim(x→1⁺) = -2. Since the one-sided limits are not equal, the\ntwo-sided limit does not exist."
+    "explanation": "$\\lim_{x \\to 1^-}$ = 4 and $\\lim_{x \\to 1^+}$ = -2. Since the one-sided limits are not equal, the\ntwo-sided limit does not exist."
   },
   {
     "id": "u2_mcq_001",
@@ -444,7 +444,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "Let f(x) = x² + 3x. What is the average rate of change of f on the interval [1, 4]?",
+    "question": "Let f(x) = $x^2$ + 3x. What is the average rate of change of f on the interval [1, 4]?",
     "isLatex": false,
     "choices": [
       "5",
@@ -462,7 +462,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\lim_{h \\to 0} \\frac{(3+h)^2 - 9}{h} =",
+    "question": "$$\\lim_{h \\to 0} \\frac{(3+h)^2 - 9}{h} =$$",
     "isLatex": true,
     "choices": [
       "0",
@@ -471,7 +471,7 @@ var APCALC_MCQ = [
       "9"
     ],
     "answer": 2,
-    "explanation": "This is the limit definition of the derivative of f(x) = x² at x = 3. f'(x) = 2x, so f'(3)\n= 6."
+    "explanation": "This is the limit definition of the derivative of f(x) = $x^2$ at x = 3. f'(x) = 2x, so f'(3)\n= 6."
   },
   {
     "id": "u2_mcq_004",
@@ -507,7 +507,7 @@ var APCALC_MCQ = [
       "$\\frac{x^6}{6}$"
     ],
     "answer": 1,
-    "explanation": "By the power rule, d/dx[xⁿ] = nxⁿ⁻¹. So d/dx[x⁵] = 5x⁴."
+    "explanation": "By the power rule, d/dx[xⁿ] = nxⁿ⁻¹. So d/dx[$x^5$] = 5$x^4$."
   },
   {
     "id": "u2_mcq_006",
@@ -525,7 +525,7 @@ var APCALC_MCQ = [
       "$\\frac{-1}{7x^6}$"
     ],
     "answer": 2,
-    "explanation": "Rewrite as x⁻⁷. By the power rule, f'(x) = -7x⁻⁸ = -7/x⁸."
+    "explanation": "Rewrite as x⁻⁷. By the power rule, f'(x) = -7x⁻⁸ = -7/$x^8$."
   },
   {
     "id": "u2_mcq_007",
@@ -597,7 +597,7 @@ var APCALC_MCQ = [
       "$3x^2 \\sin x - x^3 \\cos x$"
     ],
     "answer": 2,
-    "explanation": "By the product rule: f'(x) = (x³)'sin x + x³(sin x)' = 3x²sin x + x³cos x."
+    "explanation": "By the product rule: f'(x) = ($x^3$)'sin x + $x^3$(sin x)' = 3$x^2$sin x + $x^3$cos x."
   },
   {
     "id": "u2_mcq_011",
@@ -651,7 +651,7 @@ var APCALC_MCQ = [
       "$\\frac{4x(5x+3) - 5(2x^2-1)}{(5x+3)^2}$"
     ],
     "answer": 3,
-    "explanation": "Quotient rule: [lo·d(hi) - hi·d(lo)] / lo². = [(5x+3)(4x) - (2x²-1)(5)] / (5x+3)²."
+    "explanation": "Quotient rule: [lo·d(hi) - hi·d(lo)] / l$o^2$. = [(5x+3)(4x) - (2$x^2$-1)(5)] / (5x+3)²."
   },
   {
     "id": "u2_mcq_013",
@@ -669,7 +669,7 @@ var APCALC_MCQ = [
       "15"
     ],
     "answer": 1,
-    "explanation": "dy/dx = [18x(x+2) - 9x²(1)] / (x+2)² = (9x² + 36x)/(x+2)². At x=1: (9+36)/(9) = 45/9\n= 5."
+    "explanation": "dy/dx = [18x(x+2) - 9$x^2$(1)] / (x+2)² = (9$x^2$ + 36x)/(x+2)². At x=1: (9+36)/(9) = 45/9\n= 5."
   },
   {
     "id": "u2_mcq_014",
@@ -678,7 +678,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": true,
     "format": "algebraic",
-    "question": "What is the equation of the line tangent to f(x) = x³ + 3x² - 4 at x = 2?",
+    "question": "What is the equation of the line tangent to f(x) = $x^3$ + 3$x^2$ - 4 at x = 2?",
     "isLatex": false,
     "choices": [
       "y = 24x - 40",
@@ -687,7 +687,7 @@ var APCALC_MCQ = [
       "y = 12x - 16"
     ],
     "answer": 1,
-    "explanation": "f(2) = 8 + 12 - 4 = 16. f'(x) = 3x² + 6x, so f'(2) = 12 + 12 = 24. Tangent line: y - 16 = 24(x - 2), which gives y = 24x - 32."
+    "explanation": "f(2) = 8 + 12 - 4 = 16. f'(x) = 3$x^2$ + 6x, so f'(2) = 12 + 12 = 24. Tangent line: y - 16 = 24(x - 2), which gives y = 24x - 32."
   },
   {
     "id": "u2_mcq_015",
@@ -714,7 +714,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": true,
     "format": "algebraic",
-    "question": "Let f(x) = 3x + 1 for x ≤ 2 and f(x) = 5x - 3 for x > 2. Which of the following is true at\nx = 2?",
+    "question": "Let f(x) = 3x + 1 for x $\\leq$ 2 and f(x) = 5x - 3 for x > 2. Which of the following is true at\nx = 2?",
     "isLatex": false,
     "choices": [
       "f is both continuous and differentiable at x = 2",
@@ -741,7 +741,7 @@ var APCALC_MCQ = [
       "16x^3 - 9x^2"
     ],
     "answer": 1,
-    "explanation": "f'(x) = 16x³ - 9x² + 2. f''(x) = 48x² - 18x."
+    "explanation": "f'(x) = 16$x^3$ - 9$x^2$ + 2. f''(x) = 48$x^2$ - 18x."
   },
   {
     "id": "u2_mcq_018",
@@ -769,7 +769,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\lim_{h \\to 0} \\frac{\\sin(\\frac{\\pi}{6} + h) - \\sin(\\frac{\\pi}{6})}{h} =",
+    "question": "$$\\lim_{h \\to 0} \\frac{\\sin(\\frac{\\pi}{6} + h) - \\sin(\\frac{\\pi}{6})}{h} =$$",
     "isLatex": true,
     "choices": [
       "$\\frac{1}{2}$",
@@ -823,10 +823,10 @@ var APCALC_MCQ = [
     "isLatex": false,
     "graphDescription": "Graph of f(x) showing: f increasing on (-∞, -1), local max at x = -1,\ndecreasing on (-1, 2), local min at x = 2, increasing on (2, ∞). f is smooth throughout.",
     "choices": [
-      "(-∞, -1) only",
+      "(-$\\infty$, -1) only",
       "(-1, 2) only",
-      "(2, ∞) only",
-      "(-∞, -1) and (2, ∞)"
+      "(2, $\\infty$) only",
+      "(-$\\infty$, -1) and (2, $\\infty$)"
     ],
     "answer": 1,
     "explanation": "f'(x) < 0 where f is decreasing. The graph shows f is decreasing on (-1, 2)."
@@ -865,7 +865,7 @@ var APCALC_MCQ = [
       "30x^2(3x^2 + 1)^4"
     ],
     "answer": 1,
-    "explanation": "Chain rule: d/dx[u⁵] = 5u⁴·u'. Here u = 3x²+1, u' = 6x. So f'(x) = 5(3x²+1)⁴ · 6x =\n30x(3x²+1)⁴."
+    "explanation": "Chain rule: d/dx[$u^5$] = 5$u^4$·u'. Here u = 3$x^2$+1, u' = 6x. So f'(x) = 5(3$x^2$+1)⁴ · 6x =\n30x(3$x^2$+1)⁴."
   },
   {
     "id": "u3_mcq_002",
@@ -883,7 +883,7 @@ var APCALC_MCQ = [
       "$3x^2 \\sin(x^3)$"
     ],
     "answer": 1,
-    "explanation": "Chain rule: d/dx[sin(u)] = cos(u)·u'. Here u = x³, u' = 3x². So f'(x) = cos(x³)·3x²."
+    "explanation": "Chain rule: d/dx[sin(u)] = cos(u)·u'. Here u = $x^3$, u' = 3$x^2$. So f'(x) = cos($x^3$)·3$x^2$."
   },
   {
     "id": "u3_mcq_003",
@@ -901,7 +901,7 @@ var APCALC_MCQ = [
       "$6x \\cdot e^{3x^2 - x}$"
     ],
     "answer": 1,
-    "explanation": "d/dx[eᵘ] = eᵘ·u'. Here u = 3x²-x, u' = 6x-1. So f'(x) = (6x-1)e^(3x²-x)."
+    "explanation": "d/dx[eᵘ] = eᵘ·u'. Here u = 3$x^2$-x, u' = 6x-1. So f'(x) = (6x-1)e^(3$x^2$-x)."
   },
   {
     "id": "u3_mcq_004",
@@ -910,7 +910,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "For which of the following functions is the chain rule an appropriate method to find\nthe derivative? I. f(x) = sin(x²) II. f(x) = x²sin(x) III. f(x) = $\\sqrt{\\ln x}$",
+    "question": "For which of the following functions is the chain rule an appropriate method to find\nthe derivative? I. f(x) = sin($x^2$) II. f(x) = $x^2$sin(x) III. f(x) = $\\sqrt{\\ln x}$",
     "isLatex": true,
     "choices": [
       "I only",
@@ -919,7 +919,7 @@ var APCALC_MCQ = [
       "I, II, and III"
     ],
     "answer": 2,
-    "explanation": "I is a composition (sin of x²) — use chain rule. II is a product, not a composition\n— use product rule. III is a composition (√ of ln x) — use chain rule."
+    "explanation": "I is a composition (sin of $x^2$) — use chain rule. II is a product, not a composition\n— use product rule. III is a composition (√ of ln x) — use chain rule."
   },
   {
     "id": "u3_mcq_005",
@@ -937,7 +937,7 @@ var APCALC_MCQ = [
       "8xe^{4x}"
     ],
     "answer": 2,
-    "explanation": "Product rule first: h'(x) = (x²)'·e^(4x) + x²·(e^(4x))'. = 2x·e^(4x) + x²·4e^(4x) =\n2xe^(4x) + 4x²e^(4x)."
+    "explanation": "Product rule first: h'(x) = ($x^2$)'·e^(4x) + $x^2$·(e^(4x))'. = 2x·e^(4x) + $x^2$·4e^(4x) =\n2xe^(4x) + 4$x^2$e^(4x)."
   },
   {
     "id": "u3_mcq_006",
@@ -1034,7 +1034,7 @@ var APCALC_MCQ = [
       "$\\cos^2(xy)$"
     ],
     "answer": 0,
-    "explanation": "Differentiate: sec²(xy)·(y + x·dy/dx) = 1. Solving for dy/dx: x·sec²(xy)·dy/dx = 1 - y·sec²(xy), so dy/dx = (1 - y·sec²(xy)) / (x·sec²(xy)). Multiplying numerator and denominator by cos²(xy) simplifies to (cos²(xy) - y) / x."
+    "explanation": "Differentiate: se$c^2$(xy)·(y + x·dy/dx) = 1. Solving for dy/dx: x·se$c^2$(xy)·dy/dx = 1 - y·se$c^2$(xy), so dy/dx = (1 - y·se$c^2$(xy)) / (x·se$c^2$(xy)). Multiplying numerator and denominator by co$s^2$(xy) simplifies to (co$s^2$(xy) - y) / x."
   },
   {
     "id": "u3_mcq_010",
@@ -1043,7 +1043,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "table",
-    "question": "The point (2, 3) lies on the curve defined by f(y) = x², where f is a differentiable\nfunction. Selected values are in the table. What is dy/dx at (2, 3)?",
+    "question": "The point (2, 3) lies on the curve defined by f(y) = $x^2$, where f is a differentiable\nfunction. Selected values are in the table. What is dy/dx at (2, 3)?",
     "isLatex": false,
     "tableData": {
       "headers": [
@@ -1074,7 +1074,7 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 3,
-    "explanation": "Differentiate f(y) = x² implicitly: f'(y)·dy/dx = 2x. At (2, 3): dy/dx = 2x / f'(y) = 2(2) / f'(3) = 4/4 = 1."
+    "explanation": "Differentiate f(y) = $x^2$ implicitly: f'(y)·dy/dx = 2x. At (2, 3): dy/dx = 2x / f'(y) = 2(2) / f'(3) = 4/4 = 1."
   },
   {
     "id": "u3_mcq_011",
@@ -1129,7 +1129,7 @@ var APCALC_MCQ = [
       "$\\frac{2}{\\sqrt{1-2x}}$"
     ],
     "answer": 1,
-    "explanation": "d/dx[arcsin(u)] = u'/√(1-u²). Here u = 2x, u' = 2. So f'(x) = 2/√(1-(2x)²) =\n2/√(1-4x²)."
+    "explanation": "d/dx[arcsin(u)] = u'/√(1-$u^2$). Here u = 2x, u' = 2. So f'(x) = 2/√(1-(2x)²) =\n2/√(1-4$x^2$)."
   },
   {
     "id": "u3_mcq_014",
@@ -1147,7 +1147,7 @@ var APCALC_MCQ = [
       "$\\frac{1}{1+x^2}$"
     ],
     "answer": 2,
-    "explanation": "d/dx[arctan(u)] = u'/(1+u²). Here u = x², u' = 2x. So f'(x) = 2x/(1+(x²)²) =\n2x/(1+x⁴)."
+    "explanation": "d/dx[arctan(u)] = u'/(1+$u^2$). Here u = $x^2$, u' = 2x. So f'(x) = 2x/(1+($x^2$)²) =\n2x/(1+$x^4$)."
   },
   {
     "id": "u3_mcq_015",
@@ -1165,7 +1165,7 @@ var APCALC_MCQ = [
       "$\\frac{2x}{(x^2+5)^2}$"
     ],
     "answer": 2,
-    "explanation": "d/dx[ln(u)] = u'/u. Here u = x²+5, u' = 2x. So f'(x) = 2x/(x²+5)."
+    "explanation": "d/dx[ln(u)] = u'/u. Here u = $x^2$+5, u' = 2x. So f'(x) = 2x/($x^2$+5)."
   },
   {
     "id": "u3_mcq_016",
@@ -1183,7 +1183,7 @@ var APCALC_MCQ = [
       "$e^x\\sin^2(e^x)\\cos(e^x)$"
     ],
     "answer": 1,
-    "explanation": "Apply the chain rule twice: d/dx[sin³(eˣ)] = 3sin²(eˣ)·cos(eˣ)·eˣ. The outer chain (power rule on sin³) gives 3sin², the middle chain (derivative of sin) gives cos(eˣ), and the inner chain gives eˣ."
+    "explanation": "Apply the chain rule twice: d/dx[si$n^3$(eˣ)] = 3si$n^2$(eˣ)·cos(eˣ)·eˣ. The outer chain (power rule on si$n^3$) gives 3si$n^2$, the middle chain (derivative of sin) gives cos(eˣ), and the inner chain gives eˣ."
   },
   {
     "id": "u3_mcq_017",
@@ -1201,7 +1201,7 @@ var APCALC_MCQ = [
       "$\\frac{1}{y}$"
     ],
     "answer": 1,
-    "explanation": "dy/dx = -x/y. d²y/dx² = d/dx[-x/y] = [-y - (-x)(dy/dx)] / y² = [-y + x(-x/y)] / y² = [-(y² +\nx²)/y] / y² = -16/y³, using x²+y²=16."
+    "explanation": "dy/dx = -x/y. $d^2$y/d$x^2$ = d/dx[-x/y] = [-y - (-x)(dy/dx)] / $y^2$ = [-y + x(-x/y)] / $y^2$ = [-($y^2$ +\n$x^2$)/y] / $y^2$ = -16/$y^3$, using $x^2$+$y^2$=16."
   },
   {
     "id": "u3_mcq_018",
@@ -1228,7 +1228,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "Let f be a differentiable function defined by f(x) = $\\int_0^x (t^2 + 1)$ \\, dt, where x ≥\n0. If g is the inverse of f, what is g'(0)?",
+    "question": "Let f be a differentiable function defined by f(x) = $\\int_0^x (t^2 + 1)$ \\, dt, where x $\\geq$\n0. If g is the inverse of f, what is g'(0)?",
     "isLatex": true,
     "choices": [
       "0",
@@ -1237,7 +1237,7 @@ var APCALC_MCQ = [
       "2"
     ],
     "answer": 1,
-    "explanation": "f(0) = 0, so g(0) = 0. f'(x) = x²+1 by FTC. g'(0) = 1/f'(g(0)) = 1/f'(0) = 1/(0+1) = 1."
+    "explanation": "f(0) = 0, so g(0) = 0. f'(x) = $x^2$+1 by FTC. g'(0) = 1/f'(g(0)) = 1/f'(0) = 1/(0+1) = 1."
   },
   {
     "id": "u3_mcq_020",
@@ -1264,7 +1264,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "The curve x³ + y³ = 9 passes through (1, 2). What is the equation of the tangent\nline at (1, 2)?",
+    "question": "The curve $x^3$ + $y^3$ = 9 passes through (1, 2). What is the equation of the tangent\nline at (1, 2)?",
     "isLatex": false,
     "choices": [
       "$y = -\\frac{1}{4}x + \\frac{9}{4}$",
@@ -1273,7 +1273,7 @@ var APCALC_MCQ = [
       "y = -4x + 6"
     ],
     "answer": 0,
-    "explanation": "Differentiate implicitly: 3x² + 3y²·(dy/dx) = 0. dy/dx = -x²/y². At (1,2): -1/4.\nTangent: y-2 = -1/4(x-1) → y = -x/4 + 9/4."
+    "explanation": "Differentiate implicitly: 3$x^2$ + 3$y^2$·(dy/dx) = 0. dy/dx = -$x^2$/$y^2$. At (1,2): -1/4.\nTangent: y-2 = -1/4(x-1) $\\to$ y = -x/4 + 9/4."
   },
   {
     "id": "u3_mcq_022",
@@ -1309,7 +1309,7 @@ var APCALC_MCQ = [
       "$\\arccos(x) + \\frac{1}{\\sqrt{1-x^2}}$"
     ],
     "answer": 1,
-    "explanation": "Product rule: f'(x) = (x)'arccos(x) + x·(arccos(x))' = arccos(x) + x·(-1/√(1-x²)) =\narccos(x) - x/√(1-x²)."
+    "explanation": "Product rule: f'(x) = (x)'arccos(x) + x·(arccos(x))' = arccos(x) + x·(-1/√(1-$x^2$)) =\narccos(x) - x/√(1-$x^2$)."
   },
   {
     "id": "u3_mcq_024",
@@ -1327,7 +1327,7 @@ var APCALC_MCQ = [
       "The derivative does not exist at (0,0)"
     ],
     "answer": 1,
-    "explanation": "First verify (0, 1) is on the curve: e^(0·1) = 1 and 0 + 1 = 1. ✓ Differentiate: e^(xy)·(y + x·dy/dx) = 1 + dy/dx. At (0, 1): e⁰·(1 + 0) = 1 + dy/dx, so 1 = 1 + dy/dx, giving dy/dx = 0."
+    "explanation": "First verify (0, 1) is on the curve: e^(0·1) = 1 and 0 + 1 = 1. ✓ Differentiate: e^(xy)·(y + x·dy/dx) = 1 + dy/dx. At (0, 1): $e^0$·(1 + 0) = 1 + dy/dx, so 1 = 1 + dy/dx, giving dy/dx = 0."
   },
   {
     "id": "u4_mcq_001",
@@ -1354,7 +1354,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": true,
     "format": "algebraic",
-    "question": "The volume V(r) of a sphere is given by V(r) = (4/3)πr³. Which of the following\ncorrectly interprets dV/dr at r = 3?",
+    "question": "The volume V(r) of a sphere is given by V(r) = (4/3)π$r^3$. Which of the following\ncorrectly interprets dV/dr at r = 3?",
     "isLatex": false,
     "choices": [
       "The volume of the sphere when the radius is 3",
@@ -1372,7 +1372,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "A particle moves along the x-axis with position s(t) = t³ - 6t² + 9t. What is the\nvelocity of the particle at t = 2?",
+    "question": "A particle moves along the x-axis with position s(t) = $t^3$ - 6$t^2$ + 9t. What is the\nvelocity of the particle at t = 2?",
     "isLatex": false,
     "choices": [
       "-3",
@@ -1381,7 +1381,7 @@ var APCALC_MCQ = [
       "6"
     ],
     "answer": 0,
-    "explanation": "v(t) = s'(t) = 3t² - 12t + 9. At t = 2: v(2) = 12 - 24 + 9 = -3."
+    "explanation": "v(t) = s'(t) = 3$t^2$ - 12t + 9. At t = 2: v(2) = 12 - 24 + 9 = -3."
   },
   {
     "id": "u4_mcq_004",
@@ -1390,7 +1390,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": true,
     "format": "algebraic",
-    "question": "A particle moves along the x-axis with velocity v(t) = t² - 4t + 3. At t = 0.5, the particle is:",
+    "question": "A particle moves along the x-axis with velocity v(t) = $t^2$ - 4t + 3. At t = 0.5, the particle is:",
     "isLatex": false,
     "choices": [
       "Moving right and speeding up",
@@ -1408,7 +1408,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": true,
     "format": "algebraic",
-    "question": "A particle moves along the x-axis. Its velocity is v(t) = t² - 5t + 4. At t = 2, which of\nthe following is true?",
+    "question": "A particle moves along the x-axis. Its velocity is v(t) = $t^2$ - 5t + 4. At t = 2, which of\nthe following is true?",
     "isLatex": false,
     "choices": [
       "The particle is moving left and slowing down",
@@ -1463,7 +1463,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "The number of gallons of water in a tank is modeled by W(t) = 100 - 4t² for 0 ≤ t ≤\n5, where t is in minutes. At what rate is water leaving the tank at t = 3?",
+    "question": "The number of gallons of water in a tank is modeled by W(t) = 100 - 4$t^2$ for 0 $\\leq$ t $\\leq$\n5, where t is in minutes. At what rate is water leaving the tank at t = 3?",
     "isLatex": false,
     "choices": [
       "12 gallons per minute",
@@ -1526,7 +1526,7 @@ var APCALC_MCQ = [
       "$4\\pi \\text{ m}^2/\\text{s}$"
     ],
     "answer": 1,
-    "explanation": "Circumference = 2πr = 10π → r = 5. A = πr², dA/dt = 2πr · dr/dt = 2π(5)(0.2) =\n2π m²/s."
+    "explanation": "Circumference = 2πr = 10π $\\to$ r = 5. A = π$r^2$, dA/dt = 2πr · dr/dt = 2π(5)(0.2) =\n2π $m^2$/s."
   },
   {
     "id": "u4_mcq_011",
@@ -1535,7 +1535,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "The radius of a sphere is decreasing at a rate of 2 cm/s. At what rate is the surface\narea changing when the radius is 5 cm? (Surface area S = 4πr²)",
+    "question": "The radius of a sphere is decreasing at a rate of 2 cm/s. At what rate is the surface\narea changing when the radius is 5 cm? (Surface area S = 4π$r^2$)",
     "isLatex": true,
     "choices": [
       "$-80\\pi \\text{ cm}^2/\\text{s}$",
@@ -1544,7 +1544,7 @@ var APCALC_MCQ = [
       "$-20\\pi \\text{ cm}^2/\\text{s}$"
     ],
     "answer": 0,
-    "explanation": "dS/dt = 8πr · dr/dt = 8π(5)(-2) = -80π cm²/s."
+    "explanation": "dS/dt = 8πr · dr/dt = 8π(5)(-2) = -80π c$m^2$/s."
   },
   {
     "id": "u4_mcq_012",
@@ -1562,7 +1562,7 @@ var APCALC_MCQ = [
       "-3/4 ft/s"
     ],
     "answer": 0,
-    "explanation": "x² + y² = 100. At x=6: y=8. Differentiate: 2x(dx/dt) + 2y(dy/dt) = 0. 2(6)(2) +\n2(8)(dy/dt) = 0. dy/dt = -24/16 = -3/2 ft/s."
+    "explanation": "$x^2$ + $y^2$ = 100. At x=6: y=8. Differentiate: 2x(dx/dt) + 2y(dy/dt) = 0. 2(6)(2) +\n2(8)(dy/dt) = 0. dy/dt = -24/16 = -3/2 ft/s."
   },
   {
     "id": "u4_mcq_013",
@@ -1580,7 +1580,7 @@ var APCALC_MCQ = [
       "4.05"
     ],
     "answer": 2,
-    "explanation": "SA = 6s² = 54, so s = 3. V = s³, so dV/dt = 3s²(ds/dt) = 3(9)(0.1) = 2.7 cubic inches per second."
+    "explanation": "SA = 6$s^2$ = 54, so s = 3. V = $s^3$, so dV/dt = 3$s^2$(ds/dt) = 3(9)(0.1) = 2.7 cubic inches per second."
   },
   {
     "id": "u4_mcq_014",
@@ -1598,7 +1598,7 @@ var APCALC_MCQ = [
       "70 mph"
     ],
     "answer": 1,
-    "explanation": "After 2 hrs: x = 60, y = 80, d = √(3600+6400) = 100. d² = x²+y². 2d(dd/dt) =\n2x(dx/dt) + 2y(dy/dt). 2(100)(dd/dt) = 2(60)(30) + 2(80)(40) = 3600+6400 = 10000. dd/dt = 50\nmph."
+    "explanation": "After 2 hrs: x = 60, y = 80, d = √(3600+6400) = 100. $d^2$ = $x^2$+$y^2$. 2d(dd/dt) =\n2x(dx/dt) + 2y(dy/dt). 2(100)(dd/dt) = 2(60)(30) + 2(80)(40) = 3600+6400 = 10000. dd/dt = 50\nmph."
   },
   {
     "id": "u4_mcq_015",
@@ -1625,7 +1625,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "f(x) = x³ - 2. A local linear approximation at x = 2 is used to estimate f(2.1). Is this\nan overestimate or underestimate, and why?",
+    "question": "f(x) = $x^3$ - 2. A local linear approximation at x = 2 is used to estimate f(2.1). Is this\nan overestimate or underestimate, and why?",
     "isLatex": false,
     "choices": [
       "Overestimate, because f is concave up at x = 2",
@@ -1643,7 +1643,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} =",
+    "question": "$$\\lim_{x \\to 0} \\frac{e^x - 1}{x} =$$",
     "isLatex": true,
     "choices": [
       "0",
@@ -1652,7 +1652,7 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 1,
-    "explanation": "This is 0/0 indeterminate. Apply L'Hôpital's Rule: lim [eˣ/1] as x→0 = e⁰ = 1."
+    "explanation": "This is 0/0 indeterminate. Apply L'Hôpital's Rule: lim [eˣ/1] as x$\\to$0 = $e^0$ = 1."
   },
   {
     "id": "u4_mcq_018",
@@ -1661,7 +1661,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\lim_{x \\to \\infty} \\frac{3x^2}{e^x} =",
+    "question": "$$\\lim_{x \\to \\infty} \\frac{3x^2}{e^x} =$$",
     "isLatex": true,
     "choices": [
       "3",
@@ -1670,7 +1670,7 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 3,
-    "explanation": "This is ∞/∞. Apply L'Hôpital's twice: lim 3x²/eˣ → lim 6x/eˣ → lim 6/eˣ = 0 as x →\n∞. Exponential grows faster than any polynomial."
+    "explanation": "This is $\\infty$/$\\infty$. Apply L'Hôpital's twice: lim 3$x^2$/eˣ $\\to$ lim 6x/eˣ $\\to$ lim 6/eˣ = 0 as x $\\to$\n$\\infty$. Exponential grows faster than any polynomial."
   },
   {
     "id": "u4_mcq_019",
@@ -1679,7 +1679,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\lim_{x \\to 0} \\frac{x - \\sin x}{x^3} =",
+    "question": "$$\\lim_{x \\to 0} \\frac{x - \\sin x}{x^3} =$$",
     "isLatex": true,
     "choices": [
       "0",
@@ -1688,7 +1688,7 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 1,
-    "explanation": "Apply L'Hôpital's three times (0/0 form): [1-cosx]/3x² → [sinx]/6x → [cosx]/6 =\n1/6 as x→0."
+    "explanation": "Apply L'Hôpital's three times (0/0 form): [1-cosx]/3$x^2$ $\\to$ [sinx]/6x $\\to$ [cosx]/6 =\n1/6 as x$\\to$0."
   },
   {
     "id": "u4_mcq_020",
@@ -1697,7 +1697,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\lim_{x \\to 0^+} x \\ln x =",
+    "question": "$$\\lim_{x \\to 0^+} x \\ln x =$$",
     "isLatex": true,
     "choices": [
       "$-\\infty$",
@@ -1706,7 +1706,7 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 2,
-    "explanation": "Rewrite as ln(x)/(1/x), which is -∞/∞. Apply L'Hôpital's: (1/x)/(-1/x²) = -x → 0 as\nx→0⁺."
+    "explanation": "Rewrite as ln(x)/(1/x), which is -$\\infty$/$\\infty$. Apply L'Hôpital's: (1/x)/(-1/$x^2$) = -x $\\to$ 0 as\nx$\\to$0⁺."
   },
   {
     "id": "u4_mcq_021",
@@ -1715,7 +1715,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "The radius of a right circular cylinder is increasing at 4 units/s and the height is\ndecreasing at 6 units/s. Which expression gives the rate of change of the volume? (V = πr²h)",
+    "question": "The radius of a right circular cylinder is increasing at 4 units/s and the height is\ndecreasing at 6 units/s. Which expression gives the rate of change of the volume? (V = π$r^2$h)",
     "isLatex": true,
     "choices": [
       "$\\pi(8rh - 6r^2)$",
@@ -1724,7 +1724,7 @@ var APCALC_MCQ = [
       "$\\pi(2r - 6h)$"
     ],
     "answer": 0,
-    "explanation": "dV/dt = π[2r(dr/dt)h + r²(dh/dt)] = π[2r(4)h + r²(-6)] = π(8rh - 6r²)."
+    "explanation": "dV/dt = π[2r(dr/dt)h + $r^2$(dh/dt)] = π[2r(4)h + $r^2$(-6)] = π(8rh - 6$r^2$)."
   },
   {
     "id": "u4_mcq_022",
@@ -1733,7 +1733,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "A particle moves along the x-axis with position given by x(t) = t³ - 3t² - 9t + 5. At\nwhich of the following times does the particle change direction?",
+    "question": "A particle moves along the x-axis with position given by x(t) = $t^3$ - 3$t^2$ - 9t + 5. At\nwhich of the following times does the particle change direction?",
     "isLatex": false,
     "choices": [
       "t = 1 only",
@@ -1742,7 +1742,7 @@ var APCALC_MCQ = [
       "t = 1 and t = 3"
     ],
     "answer": 2,
-    "explanation": "v(t) = x'(t) = 3t² - 6t - 9 = 3(t² - 2t - 3) = 3(t-3)(t+1). v = 0 at t = 3 and t = -1. Since\nv changes sign at both, the particle changes direction at t = -1 and t = 3."
+    "explanation": "v(t) = x'(t) = 3$t^2$ - 6t - 9 = 3($t^2$ - 2t - 3) = 3(t-3)(t+1). v = 0 at t = 3 and t = -1. Since\nv changes sign at both, the particle changes direction at t = -1 and t = 3."
   },
   {
     "id": "u4_mcq_023",
@@ -1796,7 +1796,7 @@ var APCALC_MCQ = [
       "$\\frac{-C}{\\pi}$"
     ],
     "answer": 0,
-    "explanation": "A = πr², dA/dt = 2πr(dr/dt) = 2πr(-2) = -4πr. Since C = 2πr, we have r = C/(2π).\ndA/dt = -4π(C/2π) = -2C."
+    "explanation": "A = π$r^2$, dA/dt = 2πr(dr/dt) = 2πr(-2) = -4πr. Since C = 2πr, we have r = C/(2π).\ndA/dt = -4π(C/2π) = -2C."
   },
   {
     "id": "u4_mcq_026",
@@ -1814,7 +1814,7 @@ var APCALC_MCQ = [
       "$\\lim_{x \\to 1} \\frac{x^3 + 2}{x - 1}$"
     ],
     "answer": 1,
-    "explanation": "L'Hôpital's applies to 0/0 or ∞/∞ forms. Choice B gives ∞/∞ as x→∞. Choice A is\n0/0 but factors easily. Choice C gives 0/1 (not indeterminate). Choice D gives 3/0 (not\nindeterminate — it's a vertical asymptote)."
+    "explanation": "L'Hôpital's applies to 0/0 or $\\infty$/$\\infty$ forms. Choice B gives $\\infty$/$\\infty$ as x$\\to$$\\infty$. Choice A is\n0/0 but factors easily. Choice C gives 0/1 (not indeterminate). Choice D gives 3/0 (not\nindeterminate — it's a vertical asymptote)."
   },
   {
     "id": "u5_mcq_001",
@@ -1823,7 +1823,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "f(x) = x² - 3x on [1, 4]. Which value of c satisfies the conclusion of the Mean Value\nTheorem?",
+    "question": "f(x) = $x^2$ - 3x on [1, 4]. Which value of c satisfies the conclusion of the Mean Value\nTheorem?",
     "isLatex": false,
     "choices": [
       "c = 2",
@@ -1832,7 +1832,7 @@ var APCALC_MCQ = [
       "c = 3.5"
     ],
     "answer": 1,
-    "explanation": "MVT: f'(c) = [f(4)-f(1)]/(4-1) = [(16-12)-(1-3)]/3 = [4-(-2)]/3 = 2. f'(x) = 2x-3 = 2 →\nx = 2.5."
+    "explanation": "MVT: f'(c) = [f(4)-f(1)]/(4-1) = [(16-12)-(1-3)]/3 = [4-(-2)]/3 = 2. f'(x) = 2x-3 = 2 $\\to$\nx = 2.5."
   },
   {
     "id": "u5_mcq_002",
@@ -1847,10 +1847,10 @@ var APCALC_MCQ = [
       "f(x) = |x|",
       "f(x) = 1/x",
       "f(x) = x^{2/3}",
-      "f(x) = x³ + 2x"
+      "f(x) = $x^3$ + 2x"
     ],
     "answer": 3,
-    "explanation": "MVT requires f to be continuous on [-1,1] and differentiable on (-1,1). f(x) =\nx³+2x is a polynomial — both conditions satisfied. |x| is not differentiable at 0. 1/x has a\ndiscontinuity at 0. x^(2/3) is not differentiable at 0."
+    "explanation": "MVT requires f to be continuous on [-1,1] and differentiable on (-1,1). f(x) =\n$x^3$+2x is a polynomial — both conditions satisfied. |x| is not differentiable at 0. 1/x has a\ndiscontinuity at 0. x^(2/3) is not differentiable at 0."
   },
   {
     "id": "u5_mcq_003",
@@ -1895,7 +1895,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "Find all critical points of f(x) = x³ - 6x² + 9x + 1.",
+    "question": "Find all critical points of f(x) = $x^3$ - 6$x^2$ + 9x + 1.",
     "isLatex": false,
     "choices": [
       "x = 1 only",
@@ -1904,7 +1904,7 @@ var APCALC_MCQ = [
       "x = -1 and x = 3"
     ],
     "answer": 2,
-    "explanation": "f'(x) = 3x² - 12x + 9 = 3(x²-4x+3) = 3(x-1)(x-3) = 0. Critical points at x = 1 and x =\n3."
+    "explanation": "f'(x) = 3$x^2$ - 12x + 9 = 3($x^2$-4x+3) = 3(x-1)(x-3) = 0. Critical points at x = 1 and x =\n3."
   },
   {
     "id": "u5_mcq_006",
@@ -1913,13 +1913,13 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "On which interval is f(x) = x³ - 6x² + 9x + 1 decreasing?",
+    "question": "On which interval is f(x) = $x^3$ - 6$x^2$ + 9x + 1 decreasing?",
     "isLatex": false,
     "choices": [
-      "(−∞, 1)",
+      "(−$\\infty$, 1)",
       "(1, 3)",
-      "(3, ∞)",
-      "(−∞, 3)"
+      "(3, $\\infty$)",
+      "(−$\\infty$, 3)"
     ],
     "answer": 1,
     "explanation": "f'(x) = 3(x-1)(x-3). f' < 0 when 1 < x < 3, so f is decreasing on (1, 3)."
@@ -1940,7 +1940,7 @@ var APCALC_MCQ = [
       "Local max at x = -1; neither max nor min at x = 2"
     ],
     "answer": 1,
-    "explanation": "Critical points at x = -1 and x = 2. For x = -1: f' changes from negative to positive\n→ local min. For x = 2: (x-2)² is always ≥ 0, so f' doesn't change sign at x = 2 → neither max nor\nmin."
+    "explanation": "Critical points at x = -1 and x = 2. For x = -1: f' changes from negative to positive\n$\\to$ local min. For x = 2: (x-2)² is always $\\geq$ 0, so f' doesn't change sign at x = 2 $\\to$ neither max nor\nmin."
   },
   {
     "id": "u5_mcq_008",
@@ -1949,7 +1949,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "Find the absolute maximum of f(x) = -x² + 4x + 1 on [0, 5].",
+    "question": "Find the absolute maximum of f(x) = -$x^2$ + 4x + 1 on [0, 5].",
     "isLatex": false,
     "choices": [
       "1",
@@ -1958,7 +1958,7 @@ var APCALC_MCQ = [
       "6"
     ],
     "answer": 2,
-    "explanation": "f'(x) = -2x+4 = 0 → x = 2. Evaluate: f(0)=1, f(2)=5, f(5)=-25+20+1=-4. Maximum\nis f(2) = 5."
+    "explanation": "f'(x) = -2x+4 = 0 $\\to$ x = 2. Evaluate: f(0)=1, f(2)=5, f(5)=-25+20+1=-4. Maximum\nis f(2) = 5."
   },
   {
     "id": "u5_mcq_009",
@@ -1967,7 +1967,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "The absolute minimum of f(x) = x³ - 3x on [-2, 3] is:",
+    "question": "The absolute minimum of f(x) = $x^3$ - 3x on [-2, 3] is:",
     "isLatex": false,
     "choices": [
       "-2",
@@ -1976,7 +1976,7 @@ var APCALC_MCQ = [
       "-18"
     ],
     "answer": 0,
-    "explanation": "f'(x) = 3x²-3 = 0 → x = ±1. Evaluate: f(-2)=-8+6=-2, f(-1)=-1+3=2, f(1)=1-3=-2,\nf(3)=27-9=18. Minimum is -2 at x=-2 and x=1."
+    "explanation": "f'(x) = 3$x^2$-3 = 0 $\\to$ x = ±1. Evaluate: f(-2)=-8+6=-2, f(-1)=-1+3=2, f(1)=1-3=-2,\nf(3)=27-9=18. Minimum is -2 at x=-2 and x=1."
   },
   {
     "id": "u5_mcq_010",
@@ -1985,7 +1985,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "Where does f(x) = x⁴ - 4x³ have an inflection point?",
+    "question": "Where does f(x) = $x^4$ - 4$x^3$ have an inflection point?",
     "isLatex": false,
     "choices": [
       "x = 0 only",
@@ -1994,7 +1994,7 @@ var APCALC_MCQ = [
       "x = 3 only"
     ],
     "answer": 1,
-    "explanation": "f'(x) = 4x³-12x², f''(x) = 12x²-24x = 12x(x-2). f'' = 0 at x=0 and x=2. Check sign\nchange: f'' changes sign only at x=2 (from negative to positive). At x=0, no sign change. So\ninflection point only at x=2."
+    "explanation": "f'(x) = 4$x^3$-12$x^2$, f''(x) = 12$x^2$-24x = 12x(x-2). f'' = 0 at x=0 and x=2. Check sign\nchange: f'' changes sign only at x=2 (from negative to positive). At x=0, no sign change. So\ninflection point only at x=2."
   },
   {
     "id": "u5_mcq_011",
@@ -2021,7 +2021,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "f(x) = x³ - 6x² + 9x + 2 has a critical point at x = 1. What does the second derivative\ntest conclude?",
+    "question": "f(x) = $x^3$ - 6$x^2$ + 9x + 2 has a critical point at x = 1. What does the second derivative\ntest conclude?",
     "isLatex": false,
     "choices": [
       "Local maximum at x = 1",
@@ -2039,7 +2039,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "f(x) = x⁴ has a critical point at x = 0. What does the second derivative test\nconclude?",
+    "question": "f(x) = $x^4$ has a critical point at x = 0. What does the second derivative test\nconclude?",
     "isLatex": false,
     "choices": [
       "Local maximum",
@@ -2048,7 +2048,7 @@ var APCALC_MCQ = [
       "The second derivative test is inconclusive at x = 0"
     ],
     "answer": 3,
-    "explanation": "f''(x) = 12x², f''(0) = 0. When f'' = 0, the second derivative test is inconclusive.\n(Using the first derivative test: f' = 4x³ changes from negative to positive at x = 0, confirming it's\nactually a local minimum.)"
+    "explanation": "f''(x) = 12$x^2$, f''(0) = 0. When f'' = 0, the second derivative test is inconclusive.\n(Using the first derivative test: f' = 4$x^3$ changes from negative to positive at x = 0, confirming it's\nactually a local minimum.)"
   },
   {
     "id": "u5_mcq_014",
@@ -2067,7 +2067,7 @@ var APCALC_MCQ = [
       "f has inflection points at x = -2 and x = 1"
     ],
     "answer": 0,
-    "explanation": "f' changes from positive to negative at x = -2 → local max of f. f' changes from\nnegative to positive at x = 1 → local min of f."
+    "explanation": "f' changes from positive to negative at x = -2 $\\to$ local max of f. f' changes from\nnegative to positive at x = 1 $\\to$ local min of f."
   },
   {
     "id": "u5_mcq_015",
@@ -2131,7 +2131,7 @@ var APCALC_MCQ = [
       "20 ft × 60 ft"
     ],
     "answer": 1,
-    "explanation": "Let w = width (two sides), l = length (one side). Constraint: 2w + l = 100 → l =\n100-2w. A = wl = w(100-2w) = 100w-2w². A' = 100-4w = 0 → w = 25. l = 50. Area = 25×50 =\n1250 sq ft."
+    "explanation": "Let w = width (two sides), l = length (one side). Constraint: 2w + l = 100 $\\to$ l =\n100-2w. A = wl = w(100-2w) = 100w-2$w^2$. A' = 100-4w = 0 $\\to$ w = 25. l = 50. Area = 25×50 =\n1250 sq ft."
   },
   {
     "id": "u5_mcq_017",
@@ -2149,7 +2149,7 @@ var APCALC_MCQ = [
       "16"
     ],
     "answer": 1,
-    "explanation": "f'(x) = 1 - 4/x² = 0 → x² = 4 → x = 2 (since x > 0). f(2) = 2 + 4/2 = 2 + 2 = 4. f''(x)\n= 8/x³ > 0 at x = 2, confirming minimum."
+    "explanation": "f'(x) = 1 - 4/$x^2$ = 0 $\\to$ $x^2$ = 4 $\\to$ x = 2 (since x > 0). f(2) = 2 + 4/2 = 2 + 2 = 4. f''(x)\n= 8/$x^3$ > 0 at x = 2, confirming minimum."
   },
   {
     "id": "u5_mcq_018",
@@ -2158,7 +2158,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "A company's revenue is R(x) = 200x - 0.5x², where x is the number of units sold.\nHow many units maximize revenue?",
+    "question": "A company's revenue is R(x) = 200x - 0.5$x^2$, where x is the number of units sold.\nHow many units maximize revenue?",
     "isLatex": false,
     "choices": [
       "100 units",
@@ -2167,7 +2167,7 @@ var APCALC_MCQ = [
       "400 units"
     ],
     "answer": 2,
-    "explanation": "R'(x) = 200 - x = 0 → x = 200. R''(x) = -1 < 0, confirming a maximum."
+    "explanation": "R'(x) = 200 - x = 0 $\\to$ x = 200. R''(x) = -1 < 0, confirming a maximum."
   },
   {
     "id": "u5_mcq_019",
@@ -2195,7 +2195,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "A particle's velocity is v(t) = t² - 6t + 8. On which interval is the particle slowing\ndown?",
+    "question": "A particle's velocity is v(t) = $t^2$ - 6t + 8. On which interval is the particle slowing\ndown?",
     "isLatex": false,
     "choices": [
       "(0, 2)",
@@ -2204,7 +2204,7 @@ var APCALC_MCQ = [
       "(4, 6)"
     ],
     "answer": 2,
-    "explanation": "v(t) = (t-2)(t-4). v > 0 on (-∞, 2) ∪ (4, ∞) and v < 0 on (2, 4). a(t) = 2t - 6, so a = 0 at t = 3. On (2, 3): v < 0 and a < 0 (same sign) — speeding up. On (3, 4): v < 0 and a > 0 (opposite signs) — slowing down."
+    "explanation": "v(t) = (t-2)(t-4). v > 0 on (-$\\infty$, 2) ∪ (4, $\\infty$) and v < 0 on (2, 4). a(t) = 2t - 6, so a = 0 at t = 3. On (2, 3): v < 0 and a < 0 (same sign) — speeding up. On (3, 4): v < 0 and a > 0 (opposite signs) — slowing down."
   },
   {
     "id": "u5_mcq_021",
@@ -2236,13 +2236,13 @@ var APCALC_MCQ = [
     "isLatex": false,
     "graphDescription": "Graph of f'(x) is a parabola opening upward with vertex at (3, -2). f' is\ndecreasing on (-∞, 3) and increasing on (3, ∞).",
     "choices": [
-      "(3, ∞)",
-      "(-∞, 3)",
-      "(-∞, ∞)",
+      "(3, $\\infty$)",
+      "(-$\\infty$, 3)",
+      "(-$\\infty$, $\\infty$)",
       "f is never concave down"
     ],
     "answer": 1,
-    "explanation": "f is concave down where f'' < 0, i.e., where f' is decreasing. Since f' is\ndecreasing on (-∞, 3), f is concave down on (-∞, 3)."
+    "explanation": "f is concave down where f'' < 0, i.e., where f' is decreasing. Since f' is\ndecreasing on (-$\\infty$, 3), f is concave down on (-$\\infty$, 3)."
   },
   {
     "id": "u5_mcq_023",
@@ -2298,7 +2298,7 @@ var APCALC_MCQ = [
       "16 ft"
     ],
     "answer": 1,
-    "explanation": "V = s²h = 32 → h = 32/s². SA = s² + 4sh = s² + 128/s. SA' = 2s - 128/s² = 0 →\n2s³ = 128 → s³ = 64 → s = 4 ft."
+    "explanation": "V = $s^2$h = 32 $\\to$ h = 32/$s^2$. SA = $s^2$ + 4sh = $s^2$ + 128/s. SA' = 2s - 128/$s^2$ = 0 $\\to$\n2$s^3$ = 128 $\\to$ $s^3$ = 64 $\\to$ s = 4 ft."
   },
   {
     "id": "u5_mcq_025",
@@ -2307,7 +2307,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "For the curve defined by x² + 2y² - 6x = 0, which of the following are the\nx-coordinates where the curve has a horizontal tangent?",
+    "question": "For the curve defined by $x^2$ + 2$y^2$ - 6x = 0, which of the following are the\nx-coordinates where the curve has a horizontal tangent?",
     "isLatex": false,
     "choices": [
       "x = 0 only",
@@ -2316,7 +2316,7 @@ var APCALC_MCQ = [
       "x = 0 and x = 3"
     ],
     "answer": 1,
-    "explanation": "Differentiate implicitly: 2x + 4y(dy/dx) - 6 = 0. Horizontal tangent when dy/dx = 0:\n2x - 6 = 0 → x = 3."
+    "explanation": "Differentiate implicitly: 2x + 4y(dy/dx) - 6 = 0. Horizontal tangent when dy/dx = 0:\n2x - 6 = 0 $\\to$ x = 3."
   },
   {
     "id": "u5_mcq_026",
@@ -2334,7 +2334,7 @@ var APCALC_MCQ = [
       "$-\\sqrt{2}$"
     ],
     "answer": 1,
-    "explanation": "f'(x) = cos(x) - sin(x) = 0 → tan(x) = 1 → x = π/4 and 5π/4. f(π/4) = √2/2 + √2/2 =\n√2. f(5π/4) = -√2. Check endpoints: f(0) = 1, f(2π) = 1. Absolute max is √2."
+    "explanation": "f'(x) = cos(x) - sin(x) = 0 $\\to$ tan(x) = 1 $\\to$ x = π/4 and 5π/4. f(π/4) = √2/2 + √2/2 =\n√2. f(5π/4) = -√2. Check endpoints: f(0) = 1, f(2π) = 1. Absolute max is √2."
   },
   {
     "id": "u5_mcq_027",
@@ -2365,13 +2365,13 @@ var APCALC_MCQ = [
     "question": "f(x) = xe^{-x}. On which interval is f concave up?",
     "isLatex": true,
     "choices": [
-      "(0, ∞)",
-      "(-∞, 2)",
-      "(2, ∞)",
-      "(-∞, 0)"
+      "(0, $\\infty$)",
+      "(-$\\infty$, 2)",
+      "(2, $\\infty$)",
+      "(-$\\infty$, 0)"
     ],
     "answer": 2,
-    "explanation": "f'(x) = e^(-x) - xe^(-x) = e^(-x)(1-x). f''(x) = e^(-x)(x-2). f'' > 0 when x > 2. So f is\nconcave up on (2, ∞)."
+    "explanation": "f'(x) = e^(-x) - xe^(-x) = e^(-x)(1-x). f''(x) = e^(-x)(x-2). f'' > 0 when x > 2. So f is\nconcave up on (2, $\\infty$)."
   },
   {
     "id": "u5_mcq_029",
@@ -2398,7 +2398,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "What point on the curve y = x² is closest to the point (0, 3)?",
+    "question": "What point on the curve y = $x^2$ is closest to the point (0, 3)?",
     "isLatex": false,
     "choices": [
       "(0, 0)",
@@ -2407,7 +2407,7 @@ var APCALC_MCQ = [
       "(±1, 1)"
     ],
     "answer": 2,
-    "explanation": "Distance² = x² + (x²-3)². Let D = x² + (x²-3)². D' = 2x + 2(x²-3)(2x) = 2x[1 +\n2(x²-3)] = 2x(2x²-5). Critical points: x=0 and x=±√(5/2). D(0)=9, D(√(5/2))= 5/2 + (5/2-3)² =\n5/2+1/4 = 11/4 < 9. Closest points are (±√(5/2), 5/2) ≈ (±1.58, 2.5). Revise answer choices\naccordingly."
+    "explanation": "Distanc$e^2$ = $x^2$ + ($x^2$-3)². Let D = $x^2$ + ($x^2$-3)². D' = 2x + 2($x^2$-3)(2x) = 2x[1 +\n2($x^2$-3)] = 2x(2$x^2$-5). Critical points: x=0 and x=±√(5/2). D(0)=9, D(√(5/2))= 5/2 + (5/2-3)² =\n5/2+1/4 = 11/4 < 9. Closest points are (±√(5/2), 5/2) ≈ (±1.58, 2.5). Revise answer choices\naccordingly."
   },
   {
     "id": "u5_mcq_031",
@@ -2434,7 +2434,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "For the curve x² + y² - 4x - 6y + 9 = 0, at which point does the curve have a vertical\ntangent?",
+    "question": "For the curve $x^2$ + $y^2$ - 4x - 6y + 9 = 0, at which point does the curve have a vertical\ntangent?",
     "isLatex": false,
     "choices": [
       "(2, 6) and (2, 0)",
@@ -2443,7 +2443,7 @@ var APCALC_MCQ = [
       "(4, 6) and (0, 0)"
     ],
     "answer": 1,
-    "explanation": "Differentiate: 2x + 2y(dy/dx) - 4 - 6(dy/dx) = 0. dy/dx = (4-2x)/(2y-6). Vertical\ntangent when denominator = 0: 2y-6 = 0 → y = 3. Plug y=3 into original: x²-4x+4=0 → (x-2)²=0,\nonly x=2. So complete the square first: (x-2)²+(y-3)²=4, circle. Vertical tangent at y=3: x = 2±2.\nPoints: (0,3) and (4,3)."
+    "explanation": "Differentiate: 2x + 2y(dy/dx) - 4 - 6(dy/dx) = 0. dy/dx = (4-2x)/(2y-6). Vertical\ntangent when denominator = 0: 2y-6 = 0 $\\to$ y = 3. Plug y=3 into original: $x^2$-4x+4=0 $\\to$ (x-2)²=0,\nonly x=2. So complete the square first: (x-2)²+(y-3)²=4, circle. Vertical tangent at y=3: x = 2±2.\nPoints: (0,3) and (4,3)."
   },
   {
     "id": "u5_mcq_033",
@@ -2452,7 +2452,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "Let g(x) = x⁴ - 3x³ - x. What are all values of x where g'(x) = 12?",
+    "question": "Let g(x) = $x^4$ - 3$x^3$ - x. What are all values of x where g'(x) = 12?",
     "isLatex": false,
     "choices": [
       "x ≈ 2.320 only",
@@ -2461,7 +2461,7 @@ var APCALC_MCQ = [
       "x ≈ 3.145 only"
     ],
     "answer": 2,
-    "explanation": "g'(x) = 4x³-9x²-1 = 12. Solve 4x³-9x²-13 = 0 using a calculator. Solutions are\napproximately x ≈ 2.320 and x ≈ -0.574."
+    "explanation": "g'(x) = 4$x^3$-9$x^2$-1 = 12. Solve 4$x^3$-9$x^2$-13 = 0 using a calculator. Solutions are\napproximately x ≈ 2.320 and x ≈ -0.574."
   },
   {
     "id": "u5_mcq_034",
@@ -2480,7 +2480,7 @@ var APCALC_MCQ = [
       "I = f'', II = f', III = f"
     ],
     "answer": 0,
-    "explanation": "At x=2: Curve I has a local max → f'=0 there. Curve II crosses zero at x=2 (and\nchanges sign from + to -) → this is f'. Curve III is negative at x=2 → this is f'' (since f''<0 at a\nlocal max). So I=f, II=f', III=f''."
+    "explanation": "At x=2: Curve I has a local max $\\to$ f'=0 there. Curve II crosses zero at x=2 (and\nchanges sign from + to -) $\\to$ this is f'. Curve III is negative at x=2 $\\to$ this is f'' (since f''<0 at a\nlocal max). So I=f, II=f', III=f''."
   },
   {
     "id": "u6_mcq_001",
@@ -2507,7 +2507,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": true,
     "format": "algebraic",
-    "question": "A particle moves along the x-axis with velocity v(t) = 3t² - 2. What is the\ndisplacement of the particle from t = 1 to t = 3?",
+    "question": "A particle moves along the x-axis with velocity v(t) = 3$t^2$ - 2. What is the\ndisplacement of the particle from t = 1 to t = 3?",
     "isLatex": true,
     "choices": [
       "20",
@@ -2516,7 +2516,7 @@ var APCALC_MCQ = [
       "26"
     ],
     "answer": 1,
-    "explanation": "Displacement = ∫₁³ (3t² - 2) dt = [t³ - 2t]₁³ = (27 - 6) - (1 - 2) = 21 - (-1) = 22."
+    "explanation": "Displacement = ∫₁³ (3$t^2$ - 2) dt = [$t^3$ - 2t]₁³ = (27 - 6) - (1 - 2) = 21 - (-1) = 22."
   },
   {
     "id": "u6_mcq_003",
@@ -2646,7 +2646,7 @@ var APCALC_MCQ = [
       "Both sums underestimate"
     ],
     "answer": 1,
-    "explanation": "For an increasing function, left endpoints are smaller than the function values\non each subinterval → left sum underestimates. Right endpoints are larger → right sum\noverestimates."
+    "explanation": "For an increasing function, left endpoints are smaller than the function values\non each subinterval $\\to$ left sum underestimates. Right endpoints are larger $\\to$ right sum\noverestimates."
   },
   {
     "id": "u6_mcq_007",
@@ -2790,7 +2790,7 @@ var APCALC_MCQ = [
       "x^2"
     ],
     "answer": 0,
-    "explanation": "By the Fundamental Theorem of Calculus Part 1, if g(x) = ∫₀ˣ f(t) dt, then g'(x) =\nf(x). So g'(x) = x² + 1."
+    "explanation": "By the Fundamental Theorem of Calculus Part 1, if g(x) = ∫₀ˣ f(t) dt, then g'(x) =\nf(x). So g'(x) = $x^2$ + 1."
   },
   {
     "id": "u6_mcq_014",
@@ -2808,7 +2808,7 @@ var APCALC_MCQ = [
       "$2x\\cos(x^2)$"
     ],
     "answer": 1,
-    "explanation": "FTC Part 1 with chain rule: h'(x) = sin(x²) · d/dx[x²] = sin(x²) · 2x = 2x·sin(x²)."
+    "explanation": "FTC Part 1 with chain rule: h'(x) = sin($x^2$) · d/dx[$x^2$] = sin($x^2$) · 2x = 2x·sin($x^2$)."
   },
   {
     "id": "u6_mcq_015",
@@ -2826,7 +2826,7 @@ var APCALC_MCQ = [
       "e^{x^3} + e^x"
     ],
     "answer": 1,
-    "explanation": "Split using FTC with chain rule: F'(x) = eˣ³·(3x²) - eˣ·(1) = 3x²eˣ³ - eˣ."
+    "explanation": "Split using FTC with chain rule: F'(x) = eˣ³·(3$x^2$) - eˣ·(1) = 3$x^2$eˣ³ - eˣ."
   },
   {
     "id": "u6_mcq_016",
@@ -2882,7 +2882,7 @@ var APCALC_MCQ = [
       "60"
     ],
     "answer": 0,
-    "explanation": "[x³ - x² + x]₁⁴ = (64 - 16 + 4) - (1 - 1 + 1) = 52 - 1 = 51."
+    "explanation": "[$x^3$ - $x^2$ + x]₁⁴ = (64 - 16 + 4) - (1 - 1 + 1) = 52 - 1 = 51."
   },
   {
     "id": "u6_mcq_019",
@@ -2891,7 +2891,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\int_0^{\\pi} \\sin x \\, dx =",
+    "question": "$$\\int_0^{\\pi} \\sin x \\, dx =$$",
     "isLatex": true,
     "choices": [
       "0",
@@ -2912,13 +2912,13 @@ var APCALC_MCQ = [
     "question": "\\int_0^2 e^x \\, dx =",
     "isLatex": true,
     "choices": [
-      "e² - 1",
-      "e² + 1",
+      "$e^2$ - 1",
+      "$e^2$ + 1",
       "2e",
-      "e²"
+      "$e^2$"
     ],
     "answer": 0,
-    "explanation": "[eˣ]₀² = e² - e⁰ = e² - 1."
+    "explanation": "[eˣ]₀² = $e^2$ - $e^0$ = $e^2$ - 1."
   },
   {
     "id": "u6_mcq_021",
@@ -2936,7 +2936,7 @@ var APCALC_MCQ = [
       "16"
     ],
     "answer": 1,
-    "explanation": "f(x) = x³ is an odd function, so ∫₋₂² x³ dx = 0 by symmetry. Alternatively: [x⁴/4]₋₂² =\n4 - 4 = 0."
+    "explanation": "f(x) = $x^3$ is an odd function, so ∫₋₂² $x^3$ dx = 0 by symmetry. Alternatively: [$x^4$/4]₋₂² =\n4 - 4 = 0."
   },
   {
     "id": "u6_mcq_022",
@@ -2945,7 +2945,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\int (4x^3 - 6x + 2) \\, dx =",
+    "question": "$$\\int (4x^3 - 6x + 2) \\, dx =$$",
     "isLatex": true,
     "choices": [
       "12x^2 - 6 + C",
@@ -2954,7 +2954,7 @@ var APCALC_MCQ = [
       "4x^4 - 6x^2 + 2x + C"
     ],
     "answer": 1,
-    "explanation": "Integrate term by term: (4x⁴/4) - (6x²/2) + 2x + C = x⁴ - 3x² + 2x + C."
+    "explanation": "Integrate term by term: (4$x^4$/4) - (6$x^2$/2) + 2x + C = $x^4$ - 3$x^2$ + 2x + C."
   },
   {
     "id": "u6_mcq_023",
@@ -2963,7 +2963,7 @@ var APCALC_MCQ = [
     "difficulty": "easy",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\int (\\cos x + 3\\sin x) \\, dx =",
+    "question": "$$\\int (\\cos x + 3\\sin x) \\, dx =$$",
     "isLatex": true,
     "choices": [
       "$\\sin x + 3\\cos x + C$",
@@ -2981,7 +2981,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\int \\left( e^x + \\frac{2}{x} \\right) dx =",
+    "question": "$$\\int \\left( e^x + \\frac{2}{x} \\right) dx =$$",
     "isLatex": true,
     "choices": [
       "e^x + $2\\ln$|x| + C",
@@ -2999,16 +2999,16 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "If f'(x) = 3x² - 4x and f(1) = 2, what is f(x)?",
+    "question": "If f'(x) = 3$x^2$ - 4x and f(1) = 2, what is f(x)?",
     "isLatex": false,
     "choices": [
-      "x³ - 2x² + 3",
-      "x³ - 2x² + 2",
-      "x³ - 2x² + 4",
+      "$x^3$ - 2$x^2$ + 3",
+      "$x^3$ - 2$x^2$ + 2",
+      "$x^3$ - 2$x^2$ + 4",
       "6x - 4"
     ],
     "answer": 0,
-    "explanation": "f(x) = x³ - 2x² + C. f(1) = 1-2+C = 2 → C = 3. So f(x) = x³ - 2x² + 3."
+    "explanation": "f(x) = $x^3$ - 2$x^2$ + C. f(1) = 1-2+C = 2 $\\to$ C = 3. So f(x) = $x^3$ - 2$x^2$ + 3."
   },
   {
     "id": "u6_mcq_026",
@@ -3017,7 +3017,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\int 2x(x^2 + 1)^4 \\, dx =",
+    "question": "$$\\int 2x(x^2 + 1)^4 \\, dx =$$",
     "isLatex": true,
     "choices": [
       "$\\frac{(x^2+1)^5}{5} + C$",
@@ -3026,7 +3026,7 @@ var APCALC_MCQ = [
       "$\\frac{2x(x^2+1)^5}{5} + C$"
     ],
     "answer": 0,
-    "explanation": "Let u = x²+1, du = 2x dx. Integral becomes ∫u⁴ du = u⁵/5 + C = (x²+1)⁵/5 + C."
+    "explanation": "Let u = $x^2$+1, du = 2x dx. Integral becomes ∫$u^4$ du = $u^5$/5 + C = ($x^2$+1)⁵/5 + C."
   },
   {
     "id": "u6_mcq_027",
@@ -3035,7 +3035,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\int \\cos(3x) \\, dx =",
+    "question": "$$\\int \\cos(3x) \\, dx =$$",
     "isLatex": true,
     "choices": [
       "$-\\sin(3x) + C$",
@@ -3053,7 +3053,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\int x e^{x^2} \\, dx =",
+    "question": "$$\\int x e^{x^2} \\, dx =$$",
     "isLatex": true,
     "choices": [
       "e^{x^2} + C",
@@ -3062,7 +3062,7 @@ var APCALC_MCQ = [
       "x^2 e^{x^2} + C"
     ],
     "answer": 1,
-    "explanation": "Let u = x², du = 2x dx → x dx = du/2. ∫eᵘ·(du/2) = (1/2)eᵘ + C = eˣ²/2 + C."
+    "explanation": "Let u = $x^2$, du = 2x dx $\\to$ x dx = du/2. ∫eᵘ·(du/2) = (1/2)eᵘ + C = eˣ²/2 + C."
   },
   {
     "id": "u6_mcq_029",
@@ -3080,7 +3080,7 @@ var APCALC_MCQ = [
       "$\\frac{1}{5}$"
     ],
     "answer": 0,
-    "explanation": "Let u = x³+1, du = 3x² dx. Limits: x=0→u=1, x=1→u=2. ∫₁² u⁴ du = [u⁵/5]₁² = 32/5\n- 1/5 = 31/5."
+    "explanation": "Let u = $x^3$+1, du = 3$x^2$ dx. Limits: x=0$\\to$u=1, x=1$\\to$u=2. ∫₁² $u^4$ du = [$u^5$/5]₁² = 32/5\n- 1/5 = 31/5."
   },
   {
     "id": "u6_mcq_030",
@@ -3089,7 +3089,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\int \\frac{2x}{x^2 + 3} \\, dx =",
+    "question": "$$\\int \\frac{2x}{x^2 + 3} \\, dx =$$",
     "isLatex": true,
     "choices": [
       "$\\frac{1}{x^2+3} + C$",
@@ -3098,7 +3098,7 @@ var APCALC_MCQ = [
       "$\\frac{\\ln|x^2+3|}{2} + C$"
     ],
     "answer": 2,
-    "explanation": "Let u = x²+3, du = 2x dx. ∫(1/u) du = ln|u| + C = ln|x²+3| + C."
+    "explanation": "Let u = $x^2$+3, du = 2x dx. ∫(1/u) du = ln|u| + C = ln|$x^2$+3| + C."
   },
   {
     "id": "u6_mcq_031",
@@ -3107,7 +3107,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "What is the average value of f(x) = x² on [0, 3]?",
+    "question": "What is the average value of f(x) = $x^2$ on [0, 3]?",
     "isLatex": false,
     "choices": [
       "2",
@@ -3116,7 +3116,7 @@ var APCALC_MCQ = [
       "9"
     ],
     "answer": 1,
-    "explanation": "Average value = (1/(3-0))∫₀³ x² dx = (1/3)[x³/3]₀³ = (1/3)(9) = 3."
+    "explanation": "Average value = (1/(3-0))∫₀³ $x^2$ dx = (1/3)[$x^3$/3]₀³ = (1/3)(9) = 3."
   },
   {
     "id": "u6_mcq_032",
@@ -3125,7 +3125,7 @@ var APCALC_MCQ = [
     "difficulty": "medium",
     "calculator": false,
     "format": "algebraic",
-    "question": "\\int_0^2 \\sqrt{4 - x^2} \\, dx =",
+    "question": "$$\\int_0^2 \\sqrt{4 - x^2} \\, dx =$$",
     "isLatex": true,
     "choices": [
       "$\\pi$",
@@ -3134,7 +3134,7 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 0,
-    "explanation": "The integrand √(4-x²) represents the upper half of a circle with radius 2. ∫₀²\n√(4-x²) dx is a quarter circle of radius 2. Area = (1/4)π(2²) = π."
+    "explanation": "The integrand √(4-$x^2$) represents the upper half of a circle with radius 2. ∫₀²\n√(4-$x^2$) dx is a quarter circle of radius 2. Area = (1/4)π($2^2$) = π."
   },
   {
     "id": "u6_mcq_033",
@@ -3153,7 +3153,7 @@ var APCALC_MCQ = [
       "16 + 2π"
     ],
     "answer": 0,
-    "explanation": "Triangle area = (1/2)(4)(4) = 8. Semicircle area (below x-axis) = -(1/2)π(2²) =\n-2π. Total = 8 - 2π."
+    "explanation": "Triangle area = (1/2)(4)(4) = 8. Semicircle area (below x-axis) = -(1/2)π($2^2$) =\n-2π. Total = 8 - 2π."
   },
   {
     "id": "u6_mcq_034",
@@ -3171,7 +3171,7 @@ var APCALC_MCQ = [
       "$\\int_{-1}^{1} e^x$ \\, dx"
     ],
     "answer": 2,
-    "explanation": "An integral of an odd function over a symmetric interval [-a, a] equals zero. f(x)\n= x⁴sin(x): x⁴ is even, sin(x) is odd, so the product is odd. ∫₋₃³ x⁴sin(x) dx = 0."
+    "explanation": "An integral of an odd function over a symmetric interval [-a, a] equals zero. f(x)\n= $x^4$sin(x): $x^4$ is even, sin(x) is odd, so the product is odd. ∫₋₃³ $x^4$sin(x) dx = 0."
   },
   {
     "id": "u6_mcq_035",
@@ -3180,7 +3180,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\int \\frac{\\cos x}{\\sin^3 x} \\, dx =",
+    "question": "$$\\int \\frac{\\cos x}{\\sin^3 x} \\, dx =$$",
     "isLatex": true,
     "choices": [
       "$-\\frac{1}{2\\sin^2 x} + C$",
@@ -3189,7 +3189,7 @@ var APCALC_MCQ = [
       "$\\ln|\\sin x| + C$"
     ],
     "answer": 0,
-    "explanation": "Let u = sin x, du = cos x dx. ∫u⁻³ du = u⁻²/(-2) + C = -1/(2sin²x) + C."
+    "explanation": "Let u = sin x, du = cos x dx. ∫u⁻³ du = u⁻²/(-2) + C = -1/(2si$n^2$x) + C."
   },
   {
     "id": "u6_mcq_036",
@@ -3217,7 +3217,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\int \\frac{x^2 + 1}{x - 1} \\, dx",
+    "question": "$$\\int \\frac{x^2 + 1}{x - 1} \\, dx$$",
     "isLatex": true,
     "choices": [
       "$\\frac{x^2}{2} + x + 2\\ln|x-1| + C$",
@@ -3226,7 +3226,7 @@ var APCALC_MCQ = [
       "$\\frac{x^2}{2} + 2\\ln|x-1| + C$"
     ],
     "answer": 0,
-    "explanation": "Long division: (x² + 1) ÷ (x - 1) = x + 1 with remainder 2. So the integrand equals x + 1 + 2/(x-1). Integrating: x²/2 + x + 2ln|x-1| + C."
+    "explanation": "Long division: ($x^2$ + 1) ÷ (x - 1) = x + 1 with remainder 2. So the integrand equals x + 1 + 2/(x-1). Integrating: $x^2$/2 + x + 2ln|x-1| + C."
   },
   {
     "id": "u6_mcq_038",
@@ -3235,7 +3235,7 @@ var APCALC_MCQ = [
     "difficulty": "hard",
     "calculator": true,
     "format": "algebraic",
-    "question": "\\int_0^{\\pi/2} \\sin^3 x \\cos x \\, dx =",
+    "question": "$$\\int_0^{\\pi/2} \\sin^3 x \\cos x \\, dx =$$",
     "isLatex": true,
     "choices": [
       "$\\frac{1}{4}$",
@@ -3244,7 +3244,7 @@ var APCALC_MCQ = [
       "$\\frac{3}{4}$"
     ],
     "answer": 0,
-    "explanation": "Let u = sin x, du = cos x dx. Limits: x=0→u=0, x=π/2→u=1. ∫₀¹ u³ du = [u⁴/4]₀¹ =\n1/4."
+    "explanation": "Let u = sin x, du = cos x dx. Limits: x=0$\\to$u=0, x=π/2$\\to$u=1. ∫₀¹ $u^3$ du = [$u^4$/4]₀¹ =\n1/4."
   },
   {
     "id": "u7_mcq_001",
@@ -3276,11 +3276,11 @@ var APCALC_MCQ = [
     "choices": [
       "$\\frac{dV}{dt} = kV^3, \\text{ where } k > 0$",
       "$\\frac{dV}{dt} = kV^3, \\text{ where } k < 0$",
-      "\\frac{dV}{dt} = k\\sqrt[3]{V}, \\text{ where } k < 0",
-      "\\frac{dV}{dt} = 3kV^2, \\text{ where } k > 0"
+      "$$\\frac{dV}{dt} = k\\sqrt[3]{V}, \\text{ where } k < 0$$",
+      "$$\\frac{dV}{dt} = 3kV^2, \\text{ where } k > 0$$"
     ],
     "answer": 1,
-    "explanation": "Proportional to the cube of V means dV/dt = kV³. Since the tank is losing water,\nk must be negative so that dV/dt < 0."
+    "explanation": "Proportional to the cube of V means dV/dt = k$V^3$. Since the tank is losing water,\nk must be negative so that dV/dt < 0."
   },
   {
     "id": "u7_mcq_003",
@@ -3316,7 +3316,7 @@ var APCALC_MCQ = [
       "$y = \\ln(2x)$"
     ],
     "answer": 1,
-    "explanation": "For y = e^{2x}: dy/dx = 2e^{2x} = 2y. ✓ The others fail: for y=2x, dy/dx=2 ≠\n2(2x). For y=x², dy/dx=2x ≠ 2x². For y=ln(2x), dy/dx=1/x ≠ 2ln(2x)."
+    "explanation": "For y = e^{2x}: dy/dx = 2e^{2x} = 2y. ✓ The others fail: for y=2x, dy/dx=2 $\\neq$\n2(2x). For y=$x^2$, dy/dx=2x $\\neq$ 2$x^2$. For y=ln(2x), dy/dx=1/x $\\neq$ 2ln(2x)."
   },
   {
     "id": "u7_mcq_005",
@@ -3388,7 +3388,7 @@ var APCALC_MCQ = [
       "Solution curves are exponential curves"
     ],
     "answer": 1,
-    "explanation": "Separating variables: y dy = -x dx → y²/2 = -x²/2 + C → x² + y² = constant. These are circles centered at the origin."
+    "explanation": "Separating variables: y dy = -x dx $\\to$ $y^2$/2 = -$x^2$/2 + C $\\to$ $x^2$ + $y^2$ = constant. These are circles centered at the origin."
   },
   {
     "id": "u7_mcq_009",
@@ -3406,7 +3406,7 @@ var APCALC_MCQ = [
       "y^2 = 2x + C"
     ],
     "answer": 1,
-    "explanation": "Separate variables: y dy = x dx. Integrate both sides: y²/2 = x²/2 + C₁, so y² = x²\n+ C (absorbing the factor of 2 into C)."
+    "explanation": "Separate variables: y dy = x dx. Integrate both sides: $y^2$/2 = $x^2$/2 + C₁, so $y^2$ = $x^2$\n+ C (absorbing the factor of 2 into C)."
   },
   {
     "id": "u7_mcq_010",
@@ -3424,7 +3424,7 @@ var APCALC_MCQ = [
       "$y = \\frac{3x^3}{y} + C$"
     ],
     "answer": 1,
-    "explanation": "Separate: dy/y = 3x² dx. Integrate: ln|y| = x³ + C₁. Exponentiate: |y| = e^(x³+C₁) =\ne^C₁ · e^(x³). So y = Ce^(x³) where C = ±e^(C₁) is an arbitrary constant."
+    "explanation": "Separate: dy/y = 3$x^2$ dx. Integrate: ln|y| = $x^3$ + C₁. Exponentiate: |y| = e^($x^3$+C₁) =\ne^C₁ · e^($x^3$). So y = Ce^($x^3$) where C = ±e^(C₁) is an arbitrary constant."
   },
   {
     "id": "u7_mcq_011",
@@ -3442,7 +3442,7 @@ var APCALC_MCQ = [
       "$\\sqrt{7}$"
     ],
     "answer": 0,
-    "explanation": "From the general solution y² = x² + C. Apply f(2) = 0: 0 = 4 + C → C = −4. So y²\n= x² − 4. At x = 3: y² = 9 − 4 = 5, so y = √5 (taking positive root since the solution goes through\n(2,0) and increases)."
+    "explanation": "From the general solution $y^2$ = $x^2$ + C. Apply f(2) = 0: 0 = 4 + C $\\to$ C = −4. So $y^2$\n= $x^2$ − 4. At x = 3: $y^2$ = 9 − 4 = 5, so y = √5 (taking positive root since the solution goes through\n(2,0) and increases)."
   },
   {
     "id": "u7_mcq_012",
@@ -3496,7 +3496,7 @@ var APCALC_MCQ = [
       "16000"
     ],
     "answer": 2,
-    "explanation": "y = 500e^(kt). At t=3: 2000 = 500e^(3k) → e^(3k) = 4 → 3k = ln4. At t=6: y =\n500e^(6k) = 500(e^(3k))² = 500 · 16 = 8000."
+    "explanation": "y = 500e^(kt). At t=3: 2000 = 500e^(3k) $\\to$ e^(3k) = 4 $\\to$ 3k = ln4. At t=6: y =\n500e^(6k) = 500(e^(3k))² = 500 · 16 = 8000."
   },
   {
     "id": "u7_mcq_015",
@@ -3550,7 +3550,7 @@ var APCALC_MCQ = [
       "12"
     ],
     "answer": 0,
-    "explanation": "Average value = (1/(b−a)) ∫[a,b] f(x) dx = (1/2) ∫₀² 3x² dx = (1/2)[x³]₀² = (1/2)(8 −\n0) = 4."
+    "explanation": "Average value = (1/(b−a)) ∫[a,b] f(x) dx = (1/2) ∫₀² 3$x^2$ dx = (1/2)[$x^3$]₀² = (1/2)(8 −\n0) = 4."
   },
   {
     "id": "u8_mcq_002",
@@ -3580,13 +3580,13 @@ var APCALC_MCQ = [
     "question": "The average value of \\(h(x) = x^3\\) on [1, 3] equals h(c) for some c in (1, 3). What\nis c?",
     "isLatex": true,
     "choices": [
-      "\\sqrt[3]{10}",
+      "$$\\sqrt[3]{10}$$",
       "2",
-      "\\sqrt[3]{14}",
-      "\\sqrt{5}"
+      "$$\\sqrt[3]{14}$$",
+      "$$\\sqrt{5}$$"
     ],
     "answer": 0,
-    "explanation": "Average value = (1/(3−1)) ∫₁³ x³ dx = (1/2)[x⁴/4]₁³ = (1/2)(81/4 − 1/4) = (1/2)(80/4)\n= 10. Set h(c) = c³ = 10 → c = ∛10."
+    "explanation": "Average value = (1/(3−1)) ∫₁³ $x^3$ dx = (1/2)[$x^4$/4]₁³ = (1/2)(81/4 − 1/4) = (1/2)(80/4)\n= 10. Set h(c) = $c^3$ = 10 $\\to$ c = ∛10."
   },
   {
     "id": "u8_mcq_004",
@@ -3604,7 +3604,7 @@ var APCALC_MCQ = [
       "11"
     ],
     "answer": 0,
-    "explanation": "x(t) = x(0) + ∫₀ᵗ v(s) ds. x(3) = 2 + ∫₀³ (3t² − 6t) dt = 2 + [t³ − 3t²]₀³ = 2 + (27 − 27 −\n0) = 2 + 0 = 2."
+    "explanation": "x(t) = x(0) + ∫₀ᵗ v(s) ds. x(3) = 2 + ∫₀³ (3$t^2$ − 6t) dt = 2 + [$t^3$ − 3$t^2$]₀³ = 2 + (27 − 27 −\n0) = 2 + 0 = 2."
   },
   {
     "id": "u8_mcq_005",
@@ -3622,7 +3622,7 @@ var APCALC_MCQ = [
       "$\\frac{19}{3}$"
     ],
     "answer": 2,
-    "explanation": "v(t) = 0 at t = 2. On [0, 2]: v < 0. On [2, 3]: v > 0. Total distance = ∫₀²(4 - t²) dt + ∫₂³(t² - 4) dt = [4t - t³/3]₀² + [t³/3 - 4t]₂³ = 16/3 + 7/3 = 23/3."
+    "explanation": "v(t) = 0 at t = 2. On [0, 2]: v < 0. On [2, 3]: v > 0. Total distance = ∫₀²(4 - $t^2$) dt + ∫₂³($t^2$ - 4) dt = [4t - $t^3$/3]₀² + [$t^3$/3 - 4t]₂³ = 16/3 + 7/3 = 23/3."
   },
   {
     "id": "u8_mcq_006",
@@ -3676,7 +3676,7 @@ var APCALC_MCQ = [
       "30"
     ],
     "answer": 0,
-    "explanation": "Net rate = (2t + 1) - 3 = 2t - 2. Net change = ∫₀⁴(2t - 2) dt = [t² - 2t]₀⁴ = 16 - 8 = 8. Total at t = 4: 10 + 8 = 18 gallons."
+    "explanation": "Net rate = (2t + 1) - 3 = 2t - 2. Net change = ∫₀⁴(2t - 2) dt = [$t^2$ - 2t]₀⁴ = 16 - 8 = 8. Total at t = 4: 10 + 8 = 18 gallons."
   },
   {
     "id": "u8_mcq_008",
@@ -3694,7 +3694,7 @@ var APCALC_MCQ = [
       "$\\frac{262}{3}$"
     ],
     "answer": 3,
-    "explanation": "Number = 50 + ∫₀⁴(10√t - 2t) dt = 50 + [(20/3)t^(3/2) - t²]₀⁴ = 50 + (160/3 - 16) = 50 + 112/3 = 150/3 + 112/3 = 262/3."
+    "explanation": "Number = 50 + ∫₀⁴(10√t - 2t) dt = 50 + [(20/3)t^(3/2) - $t^2$]₀⁴ = 50 + (160/3 - 16) = 50 + 112/3 = 150/3 + 112/3 = 262/3."
   },
   {
     "id": "u8_mcq_009",
@@ -3712,7 +3712,7 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 0,
-    "explanation": "Intersection: x² = x → x = 0 and x = 1. On [0,1], x ≥ x². Area = ∫₀¹ (x − x²) dx =\n[x²/2 − x³/3]₀¹ = 1/2 − 1/3 = 1/6."
+    "explanation": "Intersection: $x^2$ = x $\\to$ x = 0 and x = 1. On [0,1], x $\\geq$ $x^2$. Area = ∫₀¹ (x − $x^2$) dx =\n[$x^2$/2 − $x^3$/3]₀¹ = 1/2 − 1/3 = 1/6."
   },
   {
     "id": "u8_mcq_010",
@@ -3730,7 +3730,7 @@ var APCALC_MCQ = [
       "16"
     ],
     "answer": 2,
-    "explanation": "Intersection with x-axis: 4 − x² = 0 → x = ±2. Area = ∫₋₂² (4 − x²) dx = [4x − x³/3]₋₂²\n= (8 − 8/3) − (−8 + 8/3) = 16 − 16/3 = 32/3."
+    "explanation": "Intersection with x-axis: 4 − $x^2$ = 0 $\\to$ x = ±2. Area = ∫₋₂² (4 − $x^2$) dx = [4x − $x^3$/3]₋₂²\n= (8 − 8/3) − (−8 + 8/3) = 16 − 16/3 = 32/3."
   },
   {
     "id": "u8_mcq_011",
@@ -3748,7 +3748,7 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 2,
-    "explanation": "Intersection at x = π/4. On [0, π/4]: cos x ≥ sin x. On [π/4, π/2]: sin x ≥ cos x. Area = ∫₀^(π/4)(cos x - sin x) dx + ∫_(π/4)^(π/2)(sin x - cos x) dx = (√2 - 1) + (√2 - 1) = 2(√2 - 1)."
+    "explanation": "Intersection at x = π/4. On [0, π/4]: cos x $\\geq$ sin x. On [π/4, π/2]: sin x $\\geq$ cos x. Area = ∫₀^(π/4)(cos x - sin x) dx + ∫_(π/4)^(π/2)(sin x - cos x) dx = (√2 - 1) + (√2 - 1) = 2(√2 - 1)."
   },
   {
     "id": "u8_mcq_012",
@@ -3766,7 +3766,7 @@ var APCALC_MCQ = [
       "16"
     ],
     "answer": 1,
-    "explanation": "Intersection: y² = 4 → y = ±2. Integrating with respect to y, the right curve is x =\n4 and left is x = y². Area = ∫₋₂² (4 − y²) dy = [4y − y³/3]₋₂² = (8 − 8/3) − (−8 + 8/3) = 16 − 16/3 =\n32/3."
+    "explanation": "Intersection: $y^2$ = 4 $\\to$ y = ±2. Integrating with respect to y, the right curve is x =\n4 and left is x = $y^2$. Area = ∫₋₂² (4 − $y^2$) dy = [4y − $y^3$/3]₋₂² = (8 − 8/3) − (−8 + 8/3) = 16 − 16/3 =\n32/3."
   },
   {
     "id": "u8_mcq_013",
@@ -3784,7 +3784,7 @@ var APCALC_MCQ = [
       "2"
     ],
     "answer": 1,
-    "explanation": "f(x) = x³ − x = x(x²−1) = x(x−1)(x+1). Zeros at x = −1, 0, 1. On [−1, 0]: f(x) ≥ 0.\nOn [0, 1]: f(x) ≤ 0. Area = ∫₋₁⁰(x³−x)dx + ∫₀¹|x³−x|dx = [x⁴/4−x²/2]₋₁⁰ + [x²/2−x⁴/4]₀¹ = (0 − (1/4−1/2)) +\n(1/2−1/4) = 1/4 + 1/4 = 1/2."
+    "explanation": "f(x) = $x^3$ − x = x($x^2$−1) = x(x−1)(x+1). Zeros at x = −1, 0, 1. On [−1, 0]: f(x) $\\geq$ 0.\nOn [0, 1]: f(x) $\\leq$ 0. Area = ∫₋₁⁰($x^3$−x)dx + ∫₀¹|$x^3$−x|dx = [$x^4$/4−$x^2$/2]₋₁⁰ + [$x^2$/2−$x^4$/4]₀¹ = (0 − (1/4−1/2)) +\n(1/2−1/4) = 1/4 + 1/4 = 1/2."
   },
   {
     "id": "u8_mcq_014",
@@ -3802,7 +3802,7 @@ var APCALC_MCQ = [
       "16"
     ],
     "answer": 1,
-    "explanation": "Each cross section is a square with side length √x. Area of square = (√x)² = x.\nVolume = ∫₀⁴ x dx = [x²/2]₀⁴ = 8."
+    "explanation": "Each cross section is a square with side length √x. Area of square = (√x)² = x.\nVolume = ∫₀⁴ x dx = [$x^2$/2]₀⁴ = 8."
   },
   {
     "id": "u8_mcq_015",
@@ -3820,7 +3820,7 @@ var APCALC_MCQ = [
       "$\\frac{64\\pi}{15}$"
     ],
     "answer": 3,
-    "explanation": "Diameter = 4 - x², radius = (4 - x²)/2. Area of semicircle = πr²/2 = π(4 - x²)²/8. Volume = (π/8)∫₋₂²(4 - x²)² dx = (π/8)·(512/15) = 64π/15."
+    "explanation": "Diameter = 4 - $x^2$, radius = (4 - $x^2$)/2. Area of semicircle = π$r^2$/2 = π(4 - $x^2$)²/8. Volume = (π/8)∫₋₂²(4 - $x^2$)² dx = (π/8)·(512/15) = 64π/15."
   },
   {
     "id": "u8_mcq_016",
@@ -3838,7 +3838,7 @@ var APCALC_MCQ = [
       "$\\frac{1}{6}$"
     ],
     "answer": 1,
-    "explanation": "Base of rectangle = x - x², height = 2(x - x²). Area = 2(x - x²)². Volume = 2∫₀¹(x - x²)² dx = 2∫₀¹(x² - 2x³ + x⁴) dx = 2[x³/3 - x⁴/2 + x⁵/5]₀¹ = 2(1/3 - 1/2 + 1/5) = 2(1/30) = 1/15."
+    "explanation": "Base of rectangle = x - $x^2$, height = 2(x - $x^2$). Area = 2(x - $x^2$)². Volume = 2∫₀¹(x - $x^2$)² dx = 2∫₀¹($x^2$ - 2$x^3$ + $x^4$) dx = 2[$x^3$/3 - $x^4$/2 + $x^5$/5]₀¹ = 2(1/3 - 1/2 + 1/5) = 2(1/30) = 1/15."
   },
   {
     "id": "u8_mcq_017",
@@ -3856,7 +3856,7 @@ var APCALC_MCQ = [
       "$32\\pi$"
     ],
     "answer": 1,
-    "explanation": "Volume = π∫₀⁴ (√x)² dx = π∫₀⁴ x dx = π[x²/2]₀⁴ = π(8) = 8π."
+    "explanation": "Volume = π∫₀⁴ (√x)² dx = π∫₀⁴ x dx = π[$x^2$/2]₀⁴ = π(8) = 8π."
   },
   {
     "id": "u8_mcq_018",
@@ -3874,7 +3874,7 @@ var APCALC_MCQ = [
       "$32\\pi$"
     ],
     "answer": 1,
-    "explanation": "Revolve about y-axis: express x in terms of y. From y = x², x = √y. Volume = π∫₀⁴\n(√y)² dy = π∫₀⁴ y dy = π[y²/2]₀⁴ = π(8) = 8π."
+    "explanation": "Revolve about y-axis: express x in terms of y. From y = $x^2$, x = √y. Volume = π∫₀⁴\n(√y)² dy = π∫₀⁴ y dy = π[$y^2$/2]₀⁴ = π(8) = 8π."
   },
   {
     "id": "u8_mcq_019",
@@ -3892,7 +3892,7 @@ var APCALC_MCQ = [
       "$\\frac{512\\pi}{15}$"
     ],
     "answer": 3,
-    "explanation": "Revolution about y = 4: radius = 4 - x². Bounds: x² = 4 → x = ±2. Volume = π∫₋₂²(4 - x²)² dx = π·(512/15) = 512π/15."
+    "explanation": "Revolution about y = 4: radius = 4 - $x^2$. Bounds: $x^2$ = 4 $\\to$ x = ±2. Volume = π∫₋₂²(4 - $x^2$)² dx = π·(512/15) = 512π/15."
   },
   {
     "id": "u8_mcq_020",
@@ -3910,7 +3910,7 @@ var APCALC_MCQ = [
       "$\\frac{\\pi}{2}$"
     ],
     "answer": 0,
-    "explanation": "Washer method: outer radius R = √x, inner radius r = x. Volume =\nπ∫₀¹[(√x)²−x²]dx = π∫₀¹[x−x²]dx = π[x²/2−x³/3]₀¹ = π(1/2−1/3) = π/6."
+    "explanation": "Washer method: outer radius R = √x, inner radius r = x. Volume =\nπ∫₀¹[(√x)²−$x^2$]dx = π∫₀¹[x−$x^2$]dx = π[$x^2$/2−$x^3$/3]₀¹ = π(1/2−1/3) = π/6."
   },
   {
     "id": "u8_mcq_021",
@@ -3928,7 +3928,7 @@ var APCALC_MCQ = [
       "$\\frac{2\\pi}{5}$"
     ],
     "answer": 0,
-    "explanation": "Intersection: x²=√x → x⁴=x → x=0,1. Express in terms of y: x=√y (right) from\ny=x², and x=y² (left) from y=√x. Revolve about y-axis, washers: outer radius √y, inner radius y².\nVolume = π∫₀¹[(√y)²−(y²)²]dy = π∫₀¹[y−y⁴]dy = π[y²/2−y⁵/5]₀¹ = π(1/2−1/5) = 3π/10."
+    "explanation": "Intersection: $x^2$=√x $\\to$ $x^4$=x $\\to$ x=0,1. Express in terms of y: x=√y (right) from\ny=$x^2$, and x=$y^2$ (left) from y=√x. Revolve about y-axis, washers: outer radius √y, inner radius $y^2$.\nVolume = π∫₀¹[(√y)²−($y^2$)²]dy = π∫₀¹[y−$y^4$]dy = π[$y^2$/2−$y^5$/5]₀¹ = π(1/2−1/5) = 3π/10."
   },
   {
     "id": "u8_mcq_022",
@@ -3940,13 +3940,13 @@ var APCALC_MCQ = [
     "question": "The region enclosed by \\(y = x\\) and \\(y = x^2\\) is revolved about the line \\(y =\n-1\\). The volume of the resulting solid is:",
     "isLatex": true,
     "choices": [
-      "\\pi \\int_0^1 [(x+1)^2 - (x^2+1)^2]\\, dx",
-      "\\pi \\int_0^1 [(x-1)^2 - (x^2-1)^2]\\, dx",
-      "\\pi \\int_0^1 [(x^2+1)^2 - (x+1)^2]\\, dx",
-      "\\pi \\int_0^1 [(1-x^2)^2 - (1-x)^2]\\, dx"
+      "$$\\pi \\int_0^1 [(x+1)^2 - (x^2+1)^2]\\, dx$$",
+      "$$\\pi \\int_0^1 [(x-1)^2 - (x^2-1)^2]\\, dx$$",
+      "$$\\pi \\int_0^1 [(x^2+1)^2 - (x+1)^2]\\, dx$$",
+      "$$\\pi \\int_0^1 [(1-x^2)^2 - (1-x)^2]\\, dx$$"
     ],
     "answer": 0,
-    "explanation": "Revolution about y=−1: outer radius = (top curve) − (−1) = x − (−1) = x+1 (since\ny=x is on top). Inner radius = x² − (−1) = x²+1. Volume = π∫₀¹[(x+1)²−(x²+1)²]dx."
+    "explanation": "Revolution about y=−1: outer radius = (top curve) − (−1) = x − (−1) = x+1 (since\ny=x is on top). Inner radius = $x^2$ − (−1) = $x^2$+1. Volume = π∫₀¹[(x+1)²−($x^2$+1)²]dx."
   },
   {
     "id": "u8_mcq_023",
@@ -3964,7 +3964,7 @@ var APCALC_MCQ = [
       "$\\frac{8}{3}$"
     ],
     "answer": 1,
-    "explanation": "Displacement = ∫₀⁴(t² - 4t + 3) dt = [t³/3 - 2t² + 3t]₀⁴ = (64/3 - 32 + 12) - 0 = 64/3 - 20 = 4/3."
+    "explanation": "Displacement = ∫₀⁴($t^2$ - 4t + 3) dt = [$t^3$/3 - 2$t^2$ + 3t]₀⁴ = (64/3 - 32 + 12) - 0 = 64/3 - 20 = 4/3."
   },
   {
     "id": "u8_mcq_024",
@@ -4018,7 +4018,7 @@ var APCALC_MCQ = [
       "$\\pi \\int_0^1 e^{2y}$\\, dy"
     ],
     "answer": 0,
-    "explanation": "Revolution about y-axis using washer method (integrating with respect to y): y =\nln x means x = e^y. From y=0 to y=1. Outer radius = e (right boundary), inner radius = e^y.\nVolume = π∫₀¹[(e)²−(e^y)²]dy = π∫₀¹[e²−e^(2y)]dy."
+    "explanation": "Revolution about y-axis using washer method (integrating with respect to y): y =\nln x means x = e^y. From y=0 to y=1. Outer radius = e (right boundary), inner radius = e^y.\nVolume = π∫₀¹[(e)²−(e^y)²]dy = π∫₀¹[$e^2$−e^(2y)]dy."
   },
   {
     "id": "calc_u1_q001",
@@ -4318,7 +4318,7 @@ var APCALC_MCQ = [
       "D) No discontinuity"
     ],
     "answer": 1,
-    "explanation": "Factor: (x^2-9)/(x-3) = (x-3)(x+3)/(x-3) = x+3 for x ≠ 3. The limit as x→3 is 6, but g(3) is undefined. Since the limit exists but the function is not defined there, this is a removable discontinuity (a hole). Choice A would require different one-sided limits. Choice C would require the function to approach ±∞. Choice D is wrong because g(3) is undefined."
+    "explanation": "Factor: (x^2-9)/(x-3) = (x-3)(x+3)/(x-3) = x+3 for x $\\neq$ 3. The limit as x$\\to$3 is 6, but g(3) is undefined. Since the limit exists but the function is not defined there, this is a removable discontinuity (a hole). Choice A would require different one-sided limits. Choice C would require the function to approach ±$\\infty$. Choice D is wrong because g(3) is undefined."
   },
   {
     "id": "calc_u1_q016",
@@ -4358,7 +4358,7 @@ var APCALC_MCQ = [
       "D) Does not exist"
     ],
     "answer": 1,
-    "explanation": "Multiply by the conjugate: [sqrt(x+4)-2]/x · [sqrt(x+4)+2]/[sqrt(x+4)+2] = (x+4-4)/[x(sqrt(x+4)+2)] = x/[x(sqrt(x+4)+2)] = 1/[sqrt(x+4)+2]. As x→0, this becomes 1/(2+2) = 1/4. Choice A comes from incorrectly thinking the numerator→0 means the limit is 0. Choice C comes from forgetting to add both terms in the denominator."
+    "explanation": "Multiply by the conjugate: [sqrt(x+4)-2]/x · [sqrt(x+4)+2]/[sqrt(x+4)+2] = (x+4-4)/[x(sqrt(x+4)+2)] = x/[x(sqrt(x+4)+2)] = 1/[sqrt(x+4)+2]. As x$\\to$0, this becomes 1/(2+2) = 1/4. Choice A comes from incorrectly thinking the numerator$\\to$0 means the limit is 0. Choice C comes from forgetting to add both terms in the denominator."
   },
   {
     "id": "calc_u1_q018",
@@ -4378,7 +4378,7 @@ var APCALC_MCQ = [
       "D) Does not exist"
     ],
     "answer": 1,
-    "explanation": "For x→-∞, sqrt(x^2) = |x| = -x (since x is negative). Divide numerator and denominator by |x| = -x: numerator becomes 2x/(-x) = -2. Denominator becomes sqrt(x^2+1)/(-x) = sqrt(1+1/x^2) → 1. So the limit is -2. The common error (choice A, getting 2) comes from using sqrt(x^2) = x instead of |x| = -x when x < 0."
+    "explanation": "For x$\\to$-$\\infty$, sqrt(x^2) = |x| = -x (since x is negative). Divide numerator and denominator by |x| = -x: numerator becomes 2x/(-x) = -2. Denominator becomes sqrt(x^2+1)/(-x) = sqrt(1+1/x^2) $\\to$ 1. So the limit is -2. The common error (choice A, getting 2) comes from using sqrt(x^2) = x instead of |x| = -x when x < 0."
   },
   {
     "id": "calc_u1_q019",
@@ -4398,7 +4398,7 @@ var APCALC_MCQ = [
       "D) Does not exist"
     ],
     "answer": 2,
-    "explanation": "As x→0^+, x is positive, so |x| = x. Therefore |x|/x = x/x = 1. Choice A (-1) is the left-hand limit, where x < 0 and |x| = -x. Choice B incorrectly assumes the function approaches 0. Choice D would be the answer for the two-sided limit since left and right limits differ."
+    "explanation": "As x$\\to$0^+, x is positive, so |x| = x. Therefore |x|/x = x/x = 1. Choice A (-1) is the left-hand limit, where x < 0 and |x| = -x. Choice B incorrectly assumes the function approaches 0. Choice D would be the answer for the two-sided limit since left and right limits differ."
   },
   {
     "id": "calc_u1_q020",
@@ -4458,7 +4458,7 @@ var APCALC_MCQ = [
       "D) The limit cannot be determined without more information"
     ],
     "answer": 3,
-    "explanation": "The form 0/0 is indeterminate — the limit could be any real number, ±∞, or may not exist depending on the specific functions. For example, f(x) = 2(x-5) and g(x) = (x-5) gives limit 2, while f(x) = (x-5)^2 and g(x) = (x-5) gives limit 0. Choice A assumes 0/anything = 0. Choice B assumes matching limits means ratio is 1. Choice C is too definitive."
+    "explanation": "The form 0/0 is indeterminate — the limit could be any real number, ±$\\infty$, or may not exist depending on the specific functions. For example, f(x) = 2(x-5) and g(x) = (x-5) gives limit 2, while f(x) = (x-5)^2 and g(x) = (x-5) gives limit 0. Choice A assumes 0/anything = 0. Choice B assumes matching limits means ratio is 1. Choice C is too definitive."
   },
   {
     "id": "calc_u1_q023",
@@ -4478,7 +4478,7 @@ var APCALC_MCQ = [
       "D) Does not exist"
     ],
     "answer": 1,
-    "explanation": "Since -1 ≤ cos(1/x) ≤ 1, we have -x^2 ≤ x^2 cos(1/x) ≤ x^2. Both -x^2 and x^2 approach 0 as x→0, so by the Squeeze Theorem the limit is 0. Choice D is a common error from students who know cos(1/x) oscillates and incorrectly conclude the product also has no limit. Choices A and C confuse the bounds of cosine with the limit of the product."
+    "explanation": "Since -1 $\\leq$ cos(1/x) $\\leq$ 1, we have -x^2 $\\leq$ x^2 cos(1/x) $\\leq$ x^2. Both -x^2 and x^2 approach 0 as x$\\to$0, so by the Squeeze Theorem the limit is 0. Choice D is a common error from students who know cos(1/x) oscillates and incorrectly conclude the product also has no limit. Choices A and C confuse the bounds of cosine with the limit of the product."
   },
   {
     "id": "calc_u1_q024",
@@ -4498,7 +4498,7 @@ var APCALC_MCQ = [
       "D) No discontinuity"
     ],
     "answer": 2,
-    "explanation": "As x→2, (x-2)^2 → 0^+ from both sides, so h(x) → +∞. This is an infinite (essential) discontinuity. Choice A is wrong because the limit is not finite. Choice B requires different finite one-sided limits, but here both sides go to +∞. Choice D is wrong because h(2) is undefined and the limit is infinite."
+    "explanation": "As x$\\to$2, (x-2)^2 $\\to$ 0^+ from both sides, so h(x) $\\to$ +$\\infty$. This is an infinite (essential) discontinuity. Choice A is wrong because the limit is not finite. Choice B requires different finite one-sided limits, but here both sides go to +$\\infty$. Choice D is wrong because h(2) is undefined and the limit is infinite."
   },
   {
     "id": "calc_u1_q025",
@@ -4538,7 +4538,7 @@ var APCALC_MCQ = [
       "D) 9"
     ],
     "answer": 2,
-    "explanation": "Expand: (3+h)^2 = 9 + 6h + h^2. So (9+6h+h^2 - 9)/h = (6h + h^2)/h = 6 + h. As h→0, this equals 6. This is the derivative of x^2 at x = 3. Choice A comes from plugging h = 0 before simplifying. Choice B is half the correct answer (common arithmetic error). Choice D confuses 3^2 with the limit."
+    "explanation": "Expand: (3+h)^2 = 9 + 6h + h^2. So (9+6h+h^2 - 9)/h = (6h + h^2)/h = 6 + h. As h$\\to$0, this equals 6. This is the derivative of x^2 at x = 3. Choice A comes from plugging h = 0 before simplifying. Choice B is half the correct answer (common arithmetic error). Choice D confuses 3^2 with the limit."
   },
   {
     "id": "calc_u1_q027",
@@ -4558,7 +4558,7 @@ var APCALC_MCQ = [
       "D) -3"
     ],
     "answer": 0,
-    "explanation": "The degree of the numerator (2) is less than the degree of the denominator (3), so the limit is 0 as x→∞. Choice B (5/2) is the error from comparing leading coefficients without considering that degrees differ. Choice C would apply if the numerator degree exceeded the denominator degree. Choice D has no valid reasoning."
+    "explanation": "The degree of the numerator (2) is less than the degree of the denominator (3), so the limit is 0 as x$\\to$$\\infty$. Choice B (5/2) is the error from comparing leading coefficients without considering that degrees differ. Choice C would apply if the numerator degree exceeded the denominator degree. Choice D has no valid reasoning."
   },
   {
     "id": "calc_u1_q028",
@@ -4610,7 +4610,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "The function g is defined as g(x) = (x^2 - 9)/(x - 3) for x ≠ 3 and g(3) = 10. What type of discontinuity does g have at x = 3?",
+    "question": "The function g is defined as g(x) = (x^2 - 9)/(x - 3) for x $\\neq$ 3 and g(3) = 10. What type of discontinuity does g have at x = 3?",
     "choices": [
       "A) Removable discontinuity",
       "B) Jump discontinuity",
@@ -4618,7 +4618,7 @@ var APCALC_MCQ = [
       "D) g is continuous at x = 3"
     ],
     "answer": 0,
-    "explanation": "For x ≠ 3, g(x) simplifies to (x-3)(x+3)/(x-3) = x+3, so lim(x->3) g(x) = 6. Since g(3) = 10 ≠ 6, the limit exists but does not equal the function value, which is a removable discontinuity. Choice B is wrong because both one-sided limits equal 6 (they agree). Choice C is wrong because the function does not approach infinity. Choice D is wrong because g(3) = 10 ≠ 6 = lim(x->3) g(x)."
+    "explanation": "For x $\\neq$ 3, g(x) simplifies to (x-3)(x+3)/(x-3) = x+3, so lim(x->3) g(x) = 6. Since g(3) = 10 $\\neq$ 6, the limit exists but does not equal the function value, which is a removable discontinuity. Choice B is wrong because both one-sided limits equal 6 (they agree). Choice C is wrong because the function does not approach infinity. Choice D is wrong because g(3) = 10 $\\neq$ 6 = lim(x->3) g(x)."
   },
   {
     "id": "calc_u1_q031",
@@ -5918,7 +5918,7 @@ var APCALC_MCQ = [
       "D) f(x) = x^3"
     ],
     "answer": 0,
-    "explanation": "Rolle's Theorem requires continuity on [-1,1], differentiability on (-1,1), and f(-1) = f(1). For A: f(-1)=0, f(1)=0, continuous and differentiable everywhere. B: f(-1)=0, f(1)=0, but |x| is not differentiable at x=0. C: not continuous at x=0. D: f(-1)=-1, f(1)=1, so f(-1) ≠ f(1)."
+    "explanation": "Rolle's Theorem requires continuity on [-1,1], differentiability on (-1,1), and f(-1) = f(1). For A: f(-1)=0, f(1)=0, continuous and differentiable everywhere. B: f(-1)=0, f(1)=0, but |x| is not differentiable at x=0. C: not continuous at x=0. D: f(-1)=-1, f(1)=1, so f(-1) $\\neq$ f(1)."
   },
   {
     "id": "calc_u4_q100",
@@ -6178,7 +6178,7 @@ var APCALC_MCQ = [
       "D) f(x) = x^3"
     ],
     "answer": 0,
-    "explanation": "Rolle's Theorem requires (1) continuity on [-1,1], (2) differentiability on (-1,1), and (3) f(-1) = f(1). For A: f is a polynomial (continuous and differentiable everywhere), and f(-1) = 0 = f(1). For B: f(-1) = 0 = f(1) and it's continuous, but |x| is not differentiable at x = 0. For C: 1/x^2 is not continuous at x = 0. For D: f(-1) = -1 and f(1) = 1, so f(-1) ≠ f(1)."
+    "explanation": "Rolle's Theorem requires (1) continuity on [-1,1], (2) differentiability on (-1,1), and (3) f(-1) = f(1). For A: f is a polynomial (continuous and differentiable everywhere), and f(-1) = 0 = f(1). For B: f(-1) = 0 = f(1) and it's continuous, but |x| is not differentiable at x = 0. For C: 1/x^2 is not continuous at x = 0. For D: f(-1) = -1 and f(1) = 1, so f(-1) $\\neq$ f(1)."
   },
   {
     "id": "calc_u4_q113",
@@ -6258,7 +6258,7 @@ var APCALC_MCQ = [
       "D) 2/(e^2 - 1)"
     ],
     "answer": 0,
-    "explanation": "The average rate of change is (ln(e^2) - ln(1))/(e^2 - 1) = 2/(e^2 - 1). Setting f'(c) = 1/c = 2/(e^2 - 1) gives c = (e^2 - 1)/2. Choice B (e) is a common guess since e is in the interval but 1/e ≠ 2/(e^2 - 1). Choice C (e^2/2) confuses the endpoint with the answer. Choice D gives the average rate of change itself, not the value of c."
+    "explanation": "The average rate of change is (ln(e^2) - ln(1))/(e^2 - 1) = 2/(e^2 - 1). Setting f'(c) = 1/c = 2/(e^2 - 1) gives c = (e^2 - 1)/2. Choice B (e) is a common guess since e is in the interval but 1/e $\\neq$ 2/(e^2 - 1). Choice C (e^2/2) confuses the endpoint with the answer. Choice D gives the average rate of change itself, not the value of c."
   },
   {
     "id": "calc_u5_q117",
@@ -6358,7 +6358,7 @@ var APCALC_MCQ = [
       "D) x = 0"
     ],
     "answer": 1,
-    "explanation": "f'(x) = 3x^2 - 12x + 9 and f''(x) = 6x - 12. Setting f''(x) = 0 gives x = 2. Checking: f'' changes sign around x = 2 (negative for x < 2, positive for x > 2), confirming an inflection point. A and C are the critical points where f'(x) = 0, a common confusion. D is simply f''(0) = -12 ≠ 0."
+    "explanation": "f'(x) = 3x^2 - 12x + 9 and f''(x) = 6x - 12. Setting f''(x) = 0 gives x = 2. Checking: f'' changes sign around x = 2 (negative for x < 2, positive for x > 2), confirming an inflection point. A and C are the critical points where f'(x) = 0, a common confusion. D is simply f''(0) = -12 $\\neq$ 0."
   },
   {
     "id": "calc_u5_q122",
@@ -6578,7 +6578,7 @@ var APCALC_MCQ = [
       "D) f has a local minimum at x = 3"
     ],
     "answer": 1,
-    "explanation": "Since f' is a parabola opening upward with vertex at (3, -4), the minimum value of f' is -4 at x = 3. The second derivative f'' changes sign at x = 3 (f'' goes from negative to positive since f' has a minimum there), so f has an inflection point at x = 3. Option A and D are wrong because f'(3) = -4 ≠ 0, so x = 3 is not a critical point of f. Option C is wrong because f' is positive for sufficiently large and small x values."
+    "explanation": "Since f' is a parabola opening upward with vertex at (3, -4), the minimum value of f' is -4 at x = 3. The second derivative f'' changes sign at x = 3 (f'' goes from negative to positive since f' has a minimum there), so f has an inflection point at x = 3. Option A and D are wrong because f'(3) = -4 $\\neq$ 0, so x = 3 is not a critical point of f. Option C is wrong because f' is positive for sufficiently large and small x values."
   },
   {
     "id": "calc_u5_q133",
@@ -6698,7 +6698,7 @@ var APCALC_MCQ = [
       "D) f is decreasing and concave up at x = 2"
     ],
     "answer": 1,
-    "explanation": "Since f'(2) = 0, x = 2 is a critical point. Since f''(2) = 3 > 0, the function is concave up at x = 2, so by the second derivative test it is a local minimum. The point is (2, f(2)) = (2, 1). Option A confuses the sign of f''. Option C is wrong because f'(2) = 0 and f''(2) ≠ 0. Option D is wrong because f'(2) = 0, not negative."
+    "explanation": "Since f'(2) = 0, x = 2 is a critical point. Since f''(2) = 3 > 0, the function is concave up at x = 2, so by the second derivative test it is a local minimum. The point is (2, f(2)) = (2, 1). Option A confuses the sign of f''. Option C is wrong because f'(2) = 0 and f''(2) $\\neq$ 0. Option D is wrong because f'(2) = 0, not negative."
   },
   {
     "id": "calc_u5_q139",
@@ -7210,7 +7210,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle moves along a line with velocity v(t) = t^2 - 4t + 3 for 0 ≤ t ≤ 4. What is the net displacement of the particle over this interval?",
+    "question": "A particle moves along a line with velocity v(t) = t^2 - 4t + 3 for 0 $\\leq$ t $\\leq$ 4. What is the net displacement of the particle over this interval?",
     "choices": [
       "A) 4/3",
       "B) 0",
@@ -7330,15 +7330,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ 2x(x² + 1)⁴ dx",
+    "question": "Find the indefinite integral: ∫ 2x($x^2$ + 1)⁴ dx",
     "choices": [
-      "A) (x² + 1)⁵ / 5 + C",
-      "B) (x² + 1)⁵ + C",
-      "C) 2x(x² + 1)⁵ / 5 + C",
-      "D) (x² + 1)⁵ / 10 + C"
+      "A) ($x^2$ + 1)⁵ / 5 + C",
+      "B) ($x^2$ + 1)⁵ + C",
+      "C) 2x($x^2$ + 1)⁵ / 5 + C",
+      "D) ($x^2$ + 1)⁵ / 10 + C"
     ],
     "answer": 0,
-    "explanation": "Let u = x² + 1, so du = 2x dx. The integral becomes ∫ u⁴ du = u⁵/5 + C = (x² + 1)⁵/5 + C. Choice B forgets to divide by 5. Choice C incorrectly keeps the 2x factor outside the antiderivative. Choice D incorrectly divides by 10 as if an extra factor of 2 needed to be removed."
+    "explanation": "Let u = $x^2$ + 1, so du = 2x dx. The integral becomes ∫ $u^4$ du = $u^5$/5 + C = ($x^2$ + 1)⁵/5 + C. Choice B forgets to divide by 5. Choice C incorrectly keeps the 2x factor outside the antiderivative. Choice D incorrectly divides by 10 as if an extra factor of 2 needed to be removed."
   },
   {
     "id": "calc_u7_q172",
@@ -7370,7 +7370,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫₀¹ 6x²(x³ + 1)² dx",
+    "question": "Evaluate: ∫₀¹ 6$x^2$($x^3$ + 1)² dx",
     "choices": [
       "A) 14/3",
       "B) 14",
@@ -7378,7 +7378,7 @@ var APCALC_MCQ = [
       "D) 7/3"
     ],
     "answer": 0,
-    "explanation": "Let u = x³ + 1, du = 3x² dx, so 6x² dx = 2 du. When x = 0, u = 1; when x = 1, u = 2. The integral becomes 2∫₁² u² du = 2[u³/3]₁² = 2(8/3 - 1/3) = 2(7/3) = 14/3. Choice B forgets to divide by 3 in the antiderivative. Choice C results from not changing limits correctly. Choice D forgets the factor of 2 from the substitution."
+    "explanation": "Let u = $x^3$ + 1, du = 3$x^2$ dx, so 6$x^2$ dx = 2 du. When x = 0, u = 1; when x = 1, u = 2. The integral becomes 2∫₁² $u^2$ du = 2[$u^3$/3]₁² = 2(8/3 - 1/3) = 2(7/3) = 14/3. Choice B forgets to divide by 3 in the antiderivative. Choice C results from not changing limits correctly. Choice D forgets the factor of 2 from the substitution."
   },
   {
     "id": "calc_u7_q174",
@@ -7390,15 +7390,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫₀² x · e^(x²) dx",
+    "question": "Evaluate: ∫₀² x · e^($x^2$) dx",
     "choices": [
-      "A) (e⁴ - 1) / 2",
-      "B) e⁴ - 1",
-      "C) e⁴ / 2",
-      "D) (e⁴ + 1) / 2"
+      "A) ($e^4$ - 1) / 2",
+      "B) $e^4$ - 1",
+      "C) $e^4$ / 2",
+      "D) ($e^4$ + 1) / 2"
     ],
     "answer": 0,
-    "explanation": "Let u = x², du = 2x dx, so x dx = du/2. When x = 0, u = 0; when x = 2, u = 4. The integral becomes (1/2)∫₀⁴ eᵘ du = (1/2)[eᵘ]₀⁴ = (1/2)(e⁴ - 1). Choice B forgets the 1/2 factor. Choice C forgets to subtract the lower limit evaluation e⁰ = 1. Choice D adds 1 instead of subtracting."
+    "explanation": "Let u = $x^2$, du = 2x dx, so x dx = du/2. When x = 0, u = 0; when x = 2, u = 4. The integral becomes (1/2)∫₀⁴ eᵘ du = (1/2)[eᵘ]₀⁴ = (1/2)($e^4$ - 1). Choice B forgets the 1/2 factor. Choice C forgets to subtract the lower limit evaluation $e^0$ = 1. Choice D adds 1 instead of subtracting."
   },
   {
     "id": "calc_u7_q175",
@@ -7410,7 +7410,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ sec²(x) dx",
+    "question": "Evaluate: ∫ se$c^2$(x) dx",
     "choices": [
       "A) tan(x) + C",
       "B) sec(x)tan(x) + C",
@@ -7418,7 +7418,7 @@ var APCALC_MCQ = [
       "D) -cot(x) + C"
     ],
     "answer": 0,
-    "explanation": "The antiderivative of sec²(x) is tan(x) + C, which is a standard result since d/dx[tan(x)] = sec²(x). Choice B is the derivative of sec(x), not the antiderivative of sec²(x). Choice C is not a standard antiderivative form. Choice D is the antiderivative of csc²(x), not sec²(x)."
+    "explanation": "The antiderivative of se$c^2$(x) is tan(x) + C, which is a standard result since d/dx[tan(x)] = se$c^2$(x). Choice B is the derivative of sec(x), not the antiderivative of se$c^2$(x). Choice C is not a standard antiderivative form. Choice D is the antiderivative of cs$c^2$(x), not se$c^2$(x)."
   },
   {
     "id": "calc_u7_q176",
@@ -7430,15 +7430,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ (x² + 3) / x dx",
+    "question": "Evaluate: ∫ ($x^2$ + 3) / x dx",
     "choices": [
-      "A) x²/2 + 3 ln|x| + C",
-      "B) x²/2 + 3x + C",
+      "A) $x^2$/2 + 3 ln|x| + C",
+      "B) $x^2$/2 + 3x + C",
       "C) x + 3 ln|x| + C",
-      "D) ln|x² + 3| + C"
+      "D) ln|$x^2$ + 3| + C"
     ],
     "answer": 0,
-    "explanation": "Divide each term by x: (x² + 3)/x = x + 3/x. Then ∫(x + 3/x) dx = x²/2 + 3 ln|x| + C. Choice B integrates 3/x as 3x instead of 3 ln|x|. Choice C integrates x as x instead of x²/2. Choice D incorrectly treats the integral as a logarithmic form without splitting the fraction."
+    "explanation": "Divide each term by x: ($x^2$ + 3)/x = x + 3/x. Then ∫(x + 3/x) dx = $x^2$/2 + 3 ln|x| + C. Choice B integrates 3/x as 3x instead of 3 ln|x|. Choice C integrates x as x instead of $x^2$/2. Choice D incorrectly treats the integral as a logarithmic form without splitting the fraction."
   },
   {
     "id": "calc_u7_q177",
@@ -7450,15 +7450,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ (x³ + x) / x² dx",
+    "question": "Evaluate: ∫ ($x^3$ + x) / $x^2$ dx",
     "choices": [
-      "A) x²/2 + x + C",
-      "B) x²/2 + ln|x| + C",
-      "C) x³/3 + x + C",
-      "D) x²/2 - ln|x| + C"
+      "A) $x^2$/2 + x + C",
+      "B) $x^2$/2 + ln|x| + C",
+      "C) $x^3$/3 + x + C",
+      "D) $x^2$/2 - ln|x| + C"
     ],
     "answer": 1,
-    "explanation": "Divide each term by x²: (x³ + x)/x² = x + 1/x. Then ∫(x + 1/x) dx = x²/2 + ln|x| + C. Choice A integrates 1/x as x. Choice C integrates x as x³/3 (power rule error) and 1/x as x. Choice D has a negative sign on ln|x| which is incorrect."
+    "explanation": "Divide each term by $x^2$: ($x^3$ + x)/$x^2$ = x + 1/x. Then ∫(x + 1/x) dx = $x^2$/2 + ln|x| + C. Choice A integrates 1/x as x. Choice C integrates x as $x^3$/3 (power rule error) and 1/x as x. Choice D has a negative sign on ln|x| which is incorrect."
   },
   {
     "id": "calc_u7_q178",
@@ -7470,7 +7470,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ 1 / (x² + 4) dx",
+    "question": "Evaluate: ∫ 1 / ($x^2$ + 4) dx",
     "choices": [
       "A) (1/2) arctan(x/2) + C",
       "B) arctan(x/2) + C",
@@ -7478,7 +7478,7 @@ var APCALC_MCQ = [
       "D) arctan(x) / 2 + C"
     ],
     "answer": 0,
-    "explanation": "Using the formula ∫ 1/(x² + a²) dx = (1/a) arctan(x/a) + C with a = 2, we get (1/2) arctan(x/2) + C. Choice B forgets the 1/a factor out front. Choice C incorrectly uses 1/a² = 1/4 instead of 1/a = 1/2. Choice D places the 1/2 outside arctan(x) without adjusting the argument."
+    "explanation": "Using the formula ∫ 1/($x^2$ + $a^2$) dx = (1/a) arctan(x/a) + C with a = 2, we get (1/2) arctan(x/2) + C. Choice B forgets the 1/a factor out front. Choice C incorrectly uses 1/$a^2$ = 1/4 instead of 1/a = 1/2. Choice D places the 1/2 outside arctan(x) without adjusting the argument."
   },
   {
     "id": "calc_u7_q179",
@@ -7490,15 +7490,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ 1 / (x² + 6x + 13) dx",
+    "question": "Evaluate: ∫ 1 / ($x^2$ + 6x + 13) dx",
     "choices": [
       "A) (1/2) arctan((x + 3)/2) + C",
       "B) arctan((x + 3)/2) + C",
       "C) (1/2) arctan((x + 6)/2) + C",
-      "D) ln|x² + 6x + 13| + C"
+      "D) ln|$x^2$ + 6x + 13| + C"
     ],
     "answer": 0,
-    "explanation": "Complete the square: x² + 6x + 13 = (x + 3)² + 4. Using the formula ∫ 1/((x + 3)² + 4) dx with a = 2, we get (1/2) arctan((x + 3)/2) + C. Choice B forgets the 1/a = 1/2 factor. Choice C incorrectly shifts by 6 instead of 3 when completing the square. Choice D applies a logarithmic form which requires a matching numerator of 2x + 6."
+    "explanation": "Complete the square: $x^2$ + 6x + 13 = (x + 3)² + 4. Using the formula ∫ 1/((x + 3)² + 4) dx with a = 2, we get (1/2) arctan((x + 3)/2) + C. Choice B forgets the 1/a = 1/2 factor. Choice C incorrectly shifts by 6 instead of 3 when completing the square. Choice D applies a logarithmic form which requires a matching numerator of 2x + 6."
   },
   {
     "id": "calc_u7_q180",
@@ -7530,15 +7530,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ 3x²·cos(x³) dx",
+    "question": "Find the indefinite integral: ∫ 3$x^2$·cos($x^3$) dx",
     "choices": [
-      "A) sin(x³) + C",
-      "B) -sin(x³) + C",
-      "C) 3sin(x³) + C",
-      "D) (1/3)sin(x³) + C"
+      "A) sin($x^3$) + C",
+      "B) -sin($x^3$) + C",
+      "C) 3sin($x^3$) + C",
+      "D) (1/3)sin($x^3$) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = x³, then du = 3x² dx. The integral becomes ∫ cos(u) du = sin(u) + C = sin(x³) + C. Choice B has wrong sign. Choice C incorrectly multiplies by 3 instead of recognizing 3x² dx = du exactly. Choice D incorrectly divides by 3."
+    "explanation": "Let u = $x^3$, then du = 3$x^2$ dx. The integral becomes ∫ cos(u) du = sin(u) + C = sin($x^3$) + C. Choice B has wrong sign. Choice C incorrectly multiplies by 3 instead of recognizing 3$x^2$ dx = du exactly. Choice D incorrectly divides by 3."
   },
   {
     "id": "calc_u7_q182",
@@ -7550,15 +7550,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ from 0 to 2 of x·e^(x²) dx",
+    "question": "Evaluate: ∫ from 0 to 2 of x·e^($x^2$) dx",
     "choices": [
-      "A) (1/2)(e⁴ - 1)",
-      "B) e⁴ - 1",
-      "C) (1/2)e⁴",
-      "D) (1/2)(e⁴ + 1)"
+      "A) (1/2)($e^4$ - 1)",
+      "B) $e^4$ - 1",
+      "C) (1/2)$e^4$",
+      "D) (1/2)($e^4$ + 1)"
     ],
     "answer": 0,
-    "explanation": "Let u = x², du = 2x dx, so x dx = du/2. When x=0, u=0; when x=2, u=4. Integral becomes (1/2)∫₀⁴ eᵘ du = (1/2)(e⁴ - e⁰) = (1/2)(e⁴ - 1). Choice B forgets the 1/2 factor. Choice C forgets to subtract the lower bound evaluation. Choice D adds 1 instead of subtracting."
+    "explanation": "Let u = $x^2$, du = 2x dx, so x dx = du/2. When x=0, u=0; when x=2, u=4. Integral becomes (1/2)∫₀⁴ eᵘ du = (1/2)($e^4$ - $e^0$) = (1/2)($e^4$ - 1). Choice B forgets the 1/2 factor. Choice C forgets to subtract the lower bound evaluation. Choice D adds 1 instead of subtracting."
   },
   {
     "id": "calc_u7_q183",
@@ -7570,15 +7570,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ sin²(x) dx",
+    "question": "Find the indefinite integral: ∫ si$n^2$(x) dx",
     "choices": [
       "A) (1/2)x - (1/4)sin(2x) + C",
       "B) (1/2)x + (1/4)sin(2x) + C",
-      "C) -cos²(x)/2 + C",
-      "D) sin³(x)/3 + C"
+      "C) -co$s^2$(x)/2 + C",
+      "D) si$n^3$(x)/3 + C"
     ],
     "answer": 0,
-    "explanation": "Use the power-reducing identity sin²(x) = (1 - cos(2x))/2. Then ∫(1/2 - cos(2x)/2) dx = x/2 - sin(2x)/4 + C. Choice B has the wrong sign on the sin(2x) term. Choice C is not equivalent (differentiating gives sin(x)cos(x), not sin²(x)). Choice D incorrectly uses a power rule for trig."
+    "explanation": "Use the power-reducing identity si$n^2$(x) = (1 - cos(2x))/2. Then ∫(1/2 - cos(2x)/2) dx = x/2 - sin(2x)/4 + C. Choice B has the wrong sign on the sin(2x) term. Choice C is not equivalent (differentiating gives sin(x)cos(x), not si$n^2$(x)). Choice D incorrectly uses a power rule for trig."
   },
   {
     "id": "calc_u7_q184",
@@ -7590,15 +7590,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ (x² + 1)/(x + 1) dx",
+    "question": "Find the indefinite integral: ∫ ($x^2$ + 1)/(x + 1) dx",
     "choices": [
-      "A) x²/2 - x + 2ln|x+1| + C",
-      "B) x²/2 + x + ln|x+1| + C",
-      "C) x²/2 - x + ln|x+1| + C",
-      "D) x² - x + 2ln|x+1| + C"
+      "A) $x^2$/2 - x + 2ln|x+1| + C",
+      "B) $x^2$/2 + x + ln|x+1| + C",
+      "C) $x^2$/2 - x + ln|x+1| + C",
+      "D) $x^2$ - x + 2ln|x+1| + C"
     ],
     "answer": 0,
-    "explanation": "Perform long division: (x² + 1)/(x + 1) = x - 1 + 2/(x + 1). Integrating: x²/2 - x + 2ln|x+1| + C. Choice B has wrong signs from incorrect division. Choice C has coefficient 1 instead of 2 on the ln term. Choice D forgets the 1/2 on x²."
+    "explanation": "Perform long division: ($x^2$ + 1)/(x + 1) = x - 1 + 2/(x + 1). Integrating: $x^2$/2 - x + 2ln|x+1| + C. Choice B has wrong signs from incorrect division. Choice C has coefficient 1 instead of 2 on the ln term. Choice D forgets the 1/2 on $x^2$."
   },
   {
     "id": "calc_u7_q185",
@@ -7610,15 +7610,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ 1/(x² + 4x + 8) dx",
+    "question": "Find the indefinite integral: ∫ 1/($x^2$ + 4x + 8) dx",
     "choices": [
       "A) (1/2)arctan((x+2)/2) + C",
       "B) arctan((x+2)/2) + C",
       "C) (1/2)arctan((x+4)/2) + C",
-      "D) ln|x² + 4x + 8| + C"
+      "D) ln|$x^2$ + 4x + 8| + C"
     ],
     "answer": 0,
-    "explanation": "Complete the square: x² + 4x + 8 = (x+2)² + 4. Then ∫1/((x+2)² + 4) dx. Using the formula ∫1/(u² + a²) du = (1/a)arctan(u/a) + C with u = x+2, a = 2: result is (1/2)arctan((x+2)/2) + C. Choice B forgets the 1/a factor. Choice C incorrectly completes the square. Choice D confuses this with the ln form used for ∫(2x+4)/(x²+4x+8) dx."
+    "explanation": "Complete the square: $x^2$ + 4x + 8 = (x+2)² + 4. Then ∫1/((x+2)² + 4) dx. Using the formula ∫1/($u^2$ + $a^2$) du = (1/a)arctan(u/a) + C with u = x+2, a = 2: result is (1/2)arctan((x+2)/2) + C. Choice B forgets the 1/a factor. Choice C incorrectly completes the square. Choice D confuses this with the ln form used for ∫(2x+4)/($x^2$+4x+8) dx."
   },
   {
     "id": "calc_u7_q186",
@@ -7630,15 +7630,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ x/√(1 - x²) dx",
+    "question": "Find the indefinite integral: ∫ x/√(1 - $x^2$) dx",
     "choices": [
-      "A) -√(1 - x²) + C",
-      "B) √(1 - x²) + C",
+      "A) -√(1 - $x^2$) + C",
+      "B) √(1 - $x^2$) + C",
       "C) arcsin(x) + C",
       "D) -arcsin(x) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = 1 - x², du = -2x dx, so x dx = -du/2. Integral becomes -(1/2)∫ u^(-1/2) du = -(1/2)(2u^(1/2)) + C = -√(1 - x²) + C. Choice B has the wrong sign. Choice C is ∫1/√(1-x²) dx, confusing the numerator x with 1. Choice D combines both errors."
+    "explanation": "Let u = 1 - $x^2$, du = -2x dx, so x dx = -du/2. Integral becomes -(1/2)∫ u^(-1/2) du = -(1/2)(2u^(1/2)) + C = -√(1 - $x^2$) + C. Choice B has the wrong sign. Choice C is ∫1/√(1-$x^2$) dx, confusing the numerator x with 1. Choice D combines both errors."
   },
   {
     "id": "calc_u7_q187",
@@ -7650,7 +7650,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ from 0 to π/4 of tan(x)·sec²(x) dx",
+    "question": "Evaluate: ∫ from 0 to π/4 of tan(x)·se$c^2$(x) dx",
     "choices": [
       "A) 1/2",
       "B) 1",
@@ -7658,7 +7658,7 @@ var APCALC_MCQ = [
       "D) 1/4"
     ],
     "answer": 0,
-    "explanation": "Let u = tan(x), du = sec²(x) dx. When x=0, u=0; when x=π/4, u=1. Integral becomes ∫₀¹ u du = u²/2 |₀¹ = 1/2. Choice B forgets the 1/2 from integration of u. Choice C likely comes from evaluating trig incorrectly. Choice D might arise from an extra factor of 1/2."
+    "explanation": "Let u = tan(x), du = se$c^2$(x) dx. When x=0, u=0; when x=π/4, u=1. Integral becomes ∫₀¹ u du = $u^2$/2 |₀¹ = 1/2. Choice B forgets the 1/2 from integration of u. Choice C likely comes from evaluating trig incorrectly. Choice D might arise from an extra factor of 1/2."
   },
   {
     "id": "calc_u7_q188",
@@ -7670,15 +7670,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ cos³(x) dx",
+    "question": "Find the indefinite integral: ∫ co$s^3$(x) dx",
     "choices": [
-      "A) sin(x) - sin³(x)/3 + C",
-      "B) cos⁴(x)/4 + C",
-      "C) 3cos²(x)sin(x) + C",
-      "D) sin(x) + sin³(x)/3 + C"
+      "A) sin(x) - si$n^3$(x)/3 + C",
+      "B) co$s^4$(x)/4 + C",
+      "C) 3co$s^2$(x)sin(x) + C",
+      "D) sin(x) + si$n^3$(x)/3 + C"
     ],
     "answer": 0,
-    "explanation": "Write cos³(x) = cos²(x)·cos(x) = (1 - sin²(x))cos(x). Let u = sin(x), du = cos(x) dx. Integral becomes ∫(1 - u²) du = u - u³/3 + C = sin(x) - sin³(x)/3 + C. Choice B incorrectly uses a power rule. Choice C is related to differentiation not integration. Choice D has the wrong sign on the cubic term."
+    "explanation": "Write co$s^3$(x) = co$s^2$(x)·cos(x) = (1 - si$n^2$(x))cos(x). Let u = sin(x), du = cos(x) dx. Integral becomes ∫(1 - $u^2$) du = u - $u^3$/3 + C = sin(x) - si$n^3$(x)/3 + C. Choice B incorrectly uses a power rule. Choice C is related to differentiation not integration. Choice D has the wrong sign on the cubic term."
   },
   {
     "id": "calc_u7_q189",
@@ -7690,15 +7690,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ (2x³ + 3x)/(x² + 1) dx",
+    "question": "Find the indefinite integral: ∫ (2$x^3$ + 3x)/($x^2$ + 1) dx",
     "choices": [
-      "A) x² + (1/2)ln(x² + 1) + C",
-      "B) x² + ln(x² + 1) + C",
-      "C) x² - (1/2)ln(x² + 1) + C",
-      "D) 2x + (1/2)ln(x² + 1) + C"
+      "A) $x^2$ + (1/2)ln($x^2$ + 1) + C",
+      "B) $x^2$ + ln($x^2$ + 1) + C",
+      "C) $x^2$ - (1/2)ln($x^2$ + 1) + C",
+      "D) 2x + (1/2)ln($x^2$ + 1) + C"
     ],
     "answer": 0,
-    "explanation": "Long division: (2x³ + 3x)/(x² + 1) = 2x + x/(x² + 1). Then ∫[2x + x/(x² + 1)] dx = x² + (1/2)ln(x² + 1) + C. For the second part, let u = x² + 1, du = 2x dx. Choice B forgets the 1/2 factor. Choice C has wrong sign on the ln term. Choice D forgets to integrate 2x."
+    "explanation": "Long division: (2$x^3$ + 3x)/($x^2$ + 1) = 2x + x/($x^2$ + 1). Then ∫[2x + x/($x^2$ + 1)] dx = $x^2$ + (1/2)ln($x^2$ + 1) + C. For the second part, let u = $x^2$ + 1, du = 2x dx. Choice B forgets the 1/2 factor. Choice C has wrong sign on the ln term. Choice D forgets to integrate 2x."
   },
   {
     "id": "calc_u7_q190",
@@ -7710,7 +7710,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ 1/√(6x - x²) dx",
+    "question": "Find the indefinite integral: ∫ 1/√(6x - $x^2$) dx",
     "choices": [
       "A) arcsin((x - 3)/3) + C",
       "B) arcsin(x/3) + C",
@@ -7718,7 +7718,7 @@ var APCALC_MCQ = [
       "D) arcsin((x - 3)/6) + C"
     ],
     "answer": 0,
-    "explanation": "Complete the square: 6x - x² = -(x² - 6x) = -(x² - 6x + 9 - 9) = 9 - (x-3)². So ∫1/√(9 - (x-3)²) dx = arcsin((x-3)/3) + C using the formula ∫1/√(a²-u²) du = arcsin(u/a). Choice B fails to complete the square. Choice C uses wrong center. Choice D uses 6 instead of 3 for the radius."
+    "explanation": "Complete the square: 6x - $x^2$ = -($x^2$ - 6x) = -($x^2$ - 6x + 9 - 9) = 9 - (x-3)². So ∫1/√(9 - (x-3)²) dx = arcsin((x-3)/3) + C using the formula ∫1/√($a^2$-$u^2$) du = arcsin(u/a). Choice B fails to complete the square. Choice C uses wrong center. Choice D uses 6 instead of 3 for the radius."
   },
   {
     "id": "calc_u7_q191",
@@ -7758,7 +7758,7 @@ var APCALC_MCQ = [
       "D) 2/3"
     ],
     "answer": 0,
-    "explanation": "Let u = ln x, du = (1/x) dx. When x=1, u=0; when x=e, u=1. Integral becomes ∫₀¹ u² du = u³/3 |₀¹ = 1/3. Choice B evaluates the integral as u|₀¹. Choice C uses u²/2 power rule error. Choice D might come from a computational mistake."
+    "explanation": "Let u = ln x, du = (1/x) dx. When x=1, u=0; when x=e, u=1. Integral becomes ∫₀¹ $u^2$ du = $u^3$/3 |₀¹ = 1/3. Choice B evaluates the integral as u|₀¹. Choice C uses $u^2$/2 power rule error. Choice D might come from a computational mistake."
   },
   {
     "id": "calc_u7_q193",
@@ -7770,15 +7770,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ (x³ - 1)/(x - 1) dx",
+    "question": "Find the indefinite integral: ∫ ($x^3$ - 1)/(x - 1) dx",
     "choices": [
-      "A) x³/3 + x²/2 + x + C",
-      "B) x³/3 - x²/2 + x + C",
-      "C) x³/3 + x + C",
-      "D) x²/2 + x + ln|x - 1| + C"
+      "A) $x^3$/3 + $x^2$/2 + x + C",
+      "B) $x^3$/3 - $x^2$/2 + x + C",
+      "C) $x^3$/3 + x + C",
+      "D) $x^2$/2 + x + ln|x - 1| + C"
     ],
     "answer": 0,
-    "explanation": "Factor: (x³ - 1)/(x - 1) = x² + x + 1 (sum of geometric series or polynomial division). Integrating: x³/3 + x²/2 + x + C. Choice B has wrong sign on the x² term. Choice C misses the x² term. Choice D incorrectly assumes there's a remainder term."
+    "explanation": "Factor: ($x^3$ - 1)/(x - 1) = $x^2$ + x + 1 (sum of geometric series or polynomial division). Integrating: $x^3$/3 + $x^2$/2 + x + C. Choice B has wrong sign on the $x^2$ term. Choice C misses the $x^2$ term. Choice D incorrectly assumes there's a remainder term."
   },
   {
     "id": "calc_u7_q194",
@@ -7790,7 +7790,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ 1/(x² - 6x + 13) dx",
+    "question": "Find the indefinite integral: ∫ 1/($x^2$ - 6x + 13) dx",
     "choices": [
       "A) (1/2)arctan((x - 3)/2) + C",
       "B) arctan((x - 3)/2) + C",
@@ -7798,7 +7798,7 @@ var APCALC_MCQ = [
       "D) (1/4)arctan((x - 3)/2) + C"
     ],
     "answer": 0,
-    "explanation": "Complete the square: x² - 6x + 13 = (x - 3)² + 4. Then ∫1/((x-3)² + 4) dx. With u = x-3, a = 2: (1/a)arctan(u/a) = (1/2)arctan((x-3)/2) + C. Choice B forgets the 1/a factor. Choice C uses a = 4 instead of a = 2. Choice D uses 1/4 instead of 1/2."
+    "explanation": "Complete the square: $x^2$ - 6x + 13 = (x - 3)² + 4. Then ∫1/((x-3)² + 4) dx. With u = x-3, a = 2: (1/a)arctan(u/a) = (1/2)arctan((x-3)/2) + C. Choice B forgets the 1/a factor. Choice C uses a = 4 instead of a = 2. Choice D uses 1/4 instead of 1/2."
   },
   {
     "id": "calc_u7_q195",
@@ -7810,7 +7810,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ from 0 to 1 of x²·(x³ + 1)⁴ dx",
+    "question": "Evaluate: ∫ from 0 to 1 of $x^2$·($x^3$ + 1)⁴ dx",
     "choices": [
       "A) 31/15",
       "B) 32/15",
@@ -7818,7 +7818,7 @@ var APCALC_MCQ = [
       "D) 1/15"
     ],
     "answer": 0,
-    "explanation": "Let u = x³ + 1, du = 3x² dx, so x² dx = du/3. When x=0, u=1; when x=1, u=2. Integral becomes (1/3)∫₁² u⁴ du = (1/3)(u⁵/5)|₁² = (1/15)(32 - 1) = 31/15. Choice B uses 32 in the numerator, forgetting to subtract the lower bound correctly. Choice C forgets the factor of 1/3. Choice D only evaluates the lower bound subtraction incorrectly."
+    "explanation": "Let u = $x^3$ + 1, du = 3$x^2$ dx, so $x^2$ dx = du/3. When x=0, u=1; when x=1, u=2. Integral becomes (1/3)∫₁² $u^4$ du = (1/3)($u^5$/5)|₁² = (1/15)(32 - 1) = 31/15. Choice B uses 32 in the numerator, forgetting to subtract the lower bound correctly. Choice C forgets the factor of 1/3. Choice D only evaluates the lower bound subtraction incorrectly."
   },
   {
     "id": "calc_u7_q196",
@@ -7830,15 +7830,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ (x² + 3)/(x - 2) dx",
+    "question": "Find the indefinite integral: ∫ ($x^2$ + 3)/(x - 2) dx",
     "choices": [
-      "A) x²/2 + 2x + 7ln|x - 2| + C",
-      "B) x²/2 + 2x + 3ln|x - 2| + C",
-      "C) x²/2 - 2x + 7ln|x - 2| + C",
-      "D) x² + 2x + 7ln|x - 2| + C"
+      "A) $x^2$/2 + 2x + 7ln|x - 2| + C",
+      "B) $x^2$/2 + 2x + 3ln|x - 2| + C",
+      "C) $x^2$/2 - 2x + 7ln|x - 2| + C",
+      "D) $x^2$ + 2x + 7ln|x - 2| + C"
     ],
     "answer": 0,
-    "explanation": "Long division: (x² + 3)/(x - 2) = x + 2 + 7/(x - 2). Verify: (x + 2)(x - 2) + 7 = x² - 4 + 7 = x² + 3 ✓. Integrating: x²/2 + 2x + 7ln|x - 2| + C. Choice B uses remainder 3 instead of 7. Choice C has wrong sign on the 2x. Choice D forgets the 1/2 on x²."
+    "explanation": "Long division: ($x^2$ + 3)/(x - 2) = x + 2 + 7/(x - 2). Verify: (x + 2)(x - 2) + 7 = $x^2$ - 4 + 7 = $x^2$ + 3 ✓. Integrating: $x^2$/2 + 2x + 7ln|x - 2| + C. Choice B uses remainder 3 instead of 7. Choice C has wrong sign on the 2x. Choice D forgets the 1/2 on $x^2$."
   },
   {
     "id": "calc_u7_q197",
@@ -7850,15 +7850,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ x·√(x² + 5) dx",
+    "question": "Find the indefinite integral: ∫ x·√($x^2$ + 5) dx",
     "choices": [
-      "A) (1/3)(x² + 5)^(3/2) + C",
-      "B) (2/3)(x² + 5)^(3/2) + C",
-      "C) (1/2)(x² + 5)^(3/2) + C",
-      "D) (x²/2)·√(x² + 5) + C"
+      "A) (1/3)($x^2$ + 5)^(3/2) + C",
+      "B) (2/3)($x^2$ + 5)^(3/2) + C",
+      "C) (1/2)($x^2$ + 5)^(3/2) + C",
+      "D) ($x^2$/2)·√($x^2$ + 5) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = x² + 5, du = 2x dx, so x dx = du/2. Integral becomes (1/2)∫ u^(1/2) du = (1/2)(2/3)u^(3/2) + C = (1/3)(x² + 5)^(3/2) + C. Choice B forgets the 1/2 from the substitution. Choice C uses 1/2 instead of computing (1/2)(2/3) = 1/3. Choice D incorrectly tries to integrate the product term by term."
+    "explanation": "Let u = $x^2$ + 5, du = 2x dx, so x dx = du/2. Integral becomes (1/2)∫ u^(1/2) du = (1/2)(2/3)u^(3/2) + C = (1/3)($x^2$ + 5)^(3/2) + C. Choice B forgets the 1/2 from the substitution. Choice C uses 1/2 instead of computing (1/2)(2/3) = 1/3. Choice D incorrectly tries to integrate the product term by term."
   },
   {
     "id": "calc_u7_q198",
@@ -7870,15 +7870,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ x² · e^(x³) dx",
+    "question": "Find the indefinite integral: ∫ $x^2$ · e^($x^3$) dx",
     "choices": [
-      "A) (1/3)e^(x³) + C",
-      "B) e^(x³) + C",
-      "C) 3e^(x³) + C",
-      "D) (1/3)x³ · e^(x³) + C"
+      "A) (1/3)e^($x^3$) + C",
+      "B) e^($x^3$) + C",
+      "C) 3e^($x^3$) + C",
+      "D) (1/3)$x^3$ · e^($x^3$) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = x³, so du = 3x² dx, meaning x² dx = du/3. The integral becomes (1/3)∫ e^u du = (1/3)e^u + C = (1/3)e^(x³) + C. Choice B forgets the 1/3 factor from the chain rule. Choice C incorrectly multiplies by 3 instead of dividing. Choice D incorrectly keeps x³ as a factor as if applying a product rule pattern."
+    "explanation": "Let u = $x^3$, so du = 3$x^2$ dx, meaning $x^2$ dx = du/3. The integral becomes (1/3)∫ e^u du = (1/3)e^u + C = (1/3)e^($x^3$) + C. Choice B forgets the 1/3 factor from the chain rule. Choice C incorrectly multiplies by 3 instead of dividing. Choice D incorrectly keeps $x^3$ as a factor as if applying a product rule pattern."
   },
   {
     "id": "calc_u7_q199",
@@ -7890,7 +7890,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ from 0 to 2 of x · √(x² + 5) dx",
+    "question": "Evaluate: ∫ from 0 to 2 of x · √($x^2$ + 5) dx",
     "choices": [
       "A) (1/3)(27 - 5√5)",
       "B) (1/3)(9 - √5)",
@@ -7898,7 +7898,7 @@ var APCALC_MCQ = [
       "D) (1/2)(27 - 5√5)"
     ],
     "answer": 0,
-    "explanation": "Let u = x² + 5, so du = 2x dx, giving x dx = du/2. When x = 0, u = 5; when x = 2, u = 9. The integral becomes (1/2)∫ from 5 to 9 of √u du = (1/2) · (2/3)u^(3/2) evaluated from 5 to 9 = (1/3)[9^(3/2) - 5^(3/2)] = (1/3)(27 - 5√5). Choice B incorrectly computes 9^(3/2) = 9 and 5^(3/2) = √5. Choice C forgets to include the 1/2 from the substitution. Choice D uses 1/2 instead of (1/2)(2/3) = 1/3."
+    "explanation": "Let u = $x^2$ + 5, so du = 2x dx, giving x dx = du/2. When x = 0, u = 5; when x = 2, u = 9. The integral becomes (1/2)∫ from 5 to 9 of √u du = (1/2) · (2/3)u^(3/2) evaluated from 5 to 9 = (1/3)[9^(3/2) - 5^(3/2)] = (1/3)(27 - 5√5). Choice B incorrectly computes 9^(3/2) = 9 and 5^(3/2) = √5. Choice C forgets to include the 1/2 from the substitution. Choice D uses 1/2 instead of (1/2)(2/3) = 1/3."
   },
   {
     "id": "calc_u7_q200",
@@ -7910,15 +7910,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ sin³(x) · cos(x) dx",
+    "question": "Find the indefinite integral: ∫ si$n^3$(x) · cos(x) dx",
     "choices": [
-      "A) (1/4)sin⁴(x) + C",
-      "B) (1/4)cos⁴(x) + C",
-      "C) -(1/4)sin⁴(x) + C",
-      "D) sin⁴(x) + C"
+      "A) (1/4)si$n^4$(x) + C",
+      "B) (1/4)co$s^4$(x) + C",
+      "C) -(1/4)si$n^4$(x) + C",
+      "D) si$n^4$(x) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = sin(x), so du = cos(x) dx. The integral becomes ∫ u³ du = (1/4)u⁴ + C = (1/4)sin⁴(x) + C. Choice B incorrectly substitutes u = cos(x) but does not account for the negative sign in du. Choice C adds a spurious negative sign, a common error when confusing sin and cos derivatives. Choice D forgets the 1/4 from integrating u³."
+    "explanation": "Let u = sin(x), so du = cos(x) dx. The integral becomes ∫ $u^3$ du = (1/4)$u^4$ + C = (1/4)si$n^4$(x) + C. Choice B incorrectly substitutes u = cos(x) but does not account for the negative sign in du. Choice C adds a spurious negative sign, a common error when confusing sin and cos derivatives. Choice D forgets the 1/4 from integrating $u^3$."
   },
   {
     "id": "calc_u7_q201",
@@ -7930,15 +7930,15 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ (x² + 3x + 5)/(x + 1) dx",
+    "question": "Find the indefinite integral: ∫ ($x^2$ + 3x + 5)/(x + 1) dx",
     "choices": [
-      "A) (1/2)x² + 2x + 3 ln|x + 1| + C",
-      "B) (1/2)x² + 3x + 5 ln|x + 1| + C",
-      "C) (1/2)x² + 2x + 3/(x + 1) + C",
-      "D) x² + 2x + 3 ln|x + 1| + C"
+      "A) (1/2)$x^2$ + 2x + 3 ln|x + 1| + C",
+      "B) (1/2)$x^2$ + 3x + 5 ln|x + 1| + C",
+      "C) (1/2)$x^2$ + 2x + 3/(x + 1) + C",
+      "D) $x^2$ + 2x + 3 ln|x + 1| + C"
     ],
     "answer": 0,
-    "explanation": "Perform polynomial long division: (x² + 3x + 5) ÷ (x + 1) = x + 2 with remainder 3. So the integrand becomes x + 2 + 3/(x + 1). Integrating: (1/2)x² + 2x + 3 ln|x + 1| + C. Choice B does not perform long division and incorrectly treats numerator terms separately. Choice C integrates 3/(x+1) as 3/(x+1) instead of 3 ln|x+1|. Choice D integrates x as x² instead of (1/2)x²."
+    "explanation": "Perform polynomial long division: ($x^2$ + 3x + 5) ÷ (x + 1) = x + 2 with remainder 3. So the integrand becomes x + 2 + 3/(x + 1). Integrating: (1/2)$x^2$ + 2x + 3 ln|x + 1| + C. Choice B does not perform long division and incorrectly treats numerator terms separately. Choice C integrates 3/(x+1) as 3/(x+1) instead of 3 ln|x+1|. Choice D integrates x as $x^2$ instead of (1/2)$x^2$."
   },
   {
     "id": "calc_u7_q202",
@@ -7950,7 +7950,7 @@ var APCALC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ 1/(x² + 6x + 13) dx",
+    "question": "Find the indefinite integral: ∫ 1/($x^2$ + 6x + 13) dx",
     "choices": [
       "A) (1/2) arctan((x + 3)/2) + C",
       "B) arctan((x + 3)/2) + C",
@@ -7958,7 +7958,7 @@ var APCALC_MCQ = [
       "D) (1/13) arctan(x/√13) + C"
     ],
     "answer": 0,
-    "explanation": "Complete the square: x² + 6x + 13 = (x + 3)² + 4. Using the formula ∫ 1/(u² + a²) du = (1/a) arctan(u/a) + C with u = x + 3 and a = 2, we get (1/2) arctan((x + 3)/2) + C. Choice B omits the 1/a = 1/2 factor. Choice C incorrectly uses a² = 4 as a instead of a = 2. Choice D does not complete the square and treats the denominator as x² + 13."
+    "explanation": "Complete the square: $x^2$ + 6x + 13 = (x + 3)² + 4. Using the formula ∫ 1/($u^2$ + $a^2$) du = (1/a) arctan(u/a) + C with u = x + 3 and a = 2, we get (1/2) arctan((x + 3)/2) + C. Choice B omits the 1/a = 1/2 factor. Choice C incorrectly uses $a^2$ = 4 as a instead of a = 2. Choice D does not complete the square and treats the denominator as $x^2$ + 13."
   },
   {
     "id": "calc_u7_q203",
@@ -7978,7 +7978,7 @@ var APCALC_MCQ = [
       "D) -1/(2(1 + sin(x))³) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = 1 + sin(x), so du = cos(x) dx. The integral becomes ∫ u⁻³ du = u⁻²/(-2) + C = -1/(2u²) + C = -1/(2(1 + sin(x))²) + C. Choice B has the wrong sign, forgetting that integrating u⁻³ gives a negative exponent coefficient. Choice C uses -3 in the denominator, confusing the original exponent with the result of integration. Choice D keeps the exponent as 3 instead of reducing it to 2 after integration."
+    "explanation": "Let u = 1 + sin(x), so du = cos(x) dx. The integral becomes ∫ u⁻³ du = u⁻²/(-2) + C = -1/(2$u^2$) + C = -1/(2(1 + sin(x))²) + C. Choice B has the wrong sign, forgetting that integrating u⁻³ gives a negative exponent coefficient. Choice C uses -3 in the denominator, confusing the original exponent with the result of integration. Choice D keeps the exponent as 3 instead of reducing it to 2 after integration."
   },
   {
     "id": "calc_u7_q204",
@@ -7990,15 +7990,15 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ x²·e^(x³) dx",
+    "question": "Find the indefinite integral: ∫ $x^2$·e^($x^3$) dx",
     "choices": [
-      "A) (1/3)e^(x³) + C",
-      "B) e^(x³) + C",
-      "C) 3e^(x³) + C",
-      "D) (1/3)x³·e^(x³) + C"
+      "A) (1/3)e^($x^3$) + C",
+      "B) e^($x^3$) + C",
+      "C) 3e^($x^3$) + C",
+      "D) (1/3)$x^3$·e^($x^3$) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = x³, then du = 3x² dx, so x² dx = du/3. The integral becomes (1/3)∫e^u du = (1/3)e^u + C = (1/3)e^(x³) + C. Choice B forgets the 1/3 factor. Choice C multiplies by 3 instead of dividing. Choice D incorrectly keeps x³ in the answer as if integrating by parts."
+    "explanation": "Let u = $x^3$, then du = 3$x^2$ dx, so $x^2$ dx = du/3. The integral becomes (1/3)∫e^u du = (1/3)e^u + C = (1/3)e^($x^3$) + C. Choice B forgets the 1/3 factor. Choice C multiplies by 3 instead of dividing. Choice D incorrectly keeps $x^3$ in the answer as if integrating by parts."
   },
   {
     "id": "calc_u7_q205",
@@ -8010,7 +8010,7 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ from 0 to 2 of x·√(4 − x²) dx",
+    "question": "Evaluate: ∫ from 0 to 2 of x·√(4 − $x^2$) dx",
     "choices": [
       "A) 8/3",
       "B) 4/3",
@@ -8018,7 +8018,7 @@ var APCALC_MCQ = [
       "D) 16/3"
     ],
     "answer": 0,
-    "explanation": "Let u = 4 − x². Then du = −2x dx, so x dx = −du/2. When x=0, u=4; when x=2, u=0. The integral becomes −(1/2)∫ from 4 to 0 of √u du = (1/2)∫ from 0 to 4 of u^(1/2) du = (1/2)·(2/3)u^(3/2) evaluated from 0 to 4 = (1/3)(8) = 8/3. Choice B results from forgetting the factor correctly. Choice C comes from confusing this with the area of a semicircle. Choice D doubles the correct answer."
+    "explanation": "Let u = 4 − $x^2$. Then du = −2x dx, so x dx = −du/2. When x=0, u=4; when x=2, u=0. The integral becomes −(1/2)∫ from 4 to 0 of √u du = (1/2)∫ from 0 to 4 of u^(1/2) du = (1/2)·(2/3)u^(3/2) evaluated from 0 to 4 = (1/3)(8) = 8/3. Choice B results from forgetting the factor correctly. Choice C comes from confusing this with the area of a semicircle. Choice D doubles the correct answer."
   },
   {
     "id": "calc_u7_q206",
@@ -8035,10 +8035,10 @@ var APCALC_MCQ = [
       "A) −(1/2)[ln(cos(x))]² + C",
       "B) (1/2)[ln(cos(x))]² + C",
       "C) −[ln(cos(x))]² + C",
-      "D) −(1/2)ln(cos²(x)) + C"
+      "D) −(1/2)ln(co$s^2$(x)) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = ln(cos(x)). Then du = (−sin(x)/cos(x)) dx = −tan(x) dx. So tan(x) dx = −du. The integral becomes −∫u du = −u²/2 + C = −(1/2)[ln(cos(x))]² + C. Choice B has the wrong sign from mishandling the negative. Choice C forgets the 1/2 from integrating u. Choice D incorrectly simplifies the squared logarithm as ln(cos²x)."
+    "explanation": "Let u = ln(cos(x)). Then du = (−sin(x)/cos(x)) dx = −tan(x) dx. So tan(x) dx = −du. The integral becomes −∫u du = −$u^2$/2 + C = −(1/2)[ln(cos(x))]² + C. Choice B has the wrong sign from mishandling the negative. Choice C forgets the 1/2 from integrating u. Choice D incorrectly simplifies the squared logarithm as ln(co$s^2$x)."
   },
   {
     "id": "calc_u7_q207",
@@ -8050,7 +8050,7 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ 1/(x² + 6x + 13) dx",
+    "question": "Evaluate: ∫ 1/($x^2$ + 6x + 13) dx",
     "choices": [
       "A) (1/2)arctan((x + 3)/2) + C",
       "B) arctan((x + 3)/2) + C",
@@ -8058,7 +8058,7 @@ var APCALC_MCQ = [
       "D) (1/13)arctan(x + 3) + C"
     ],
     "answer": 0,
-    "explanation": "Complete the square: x² + 6x + 13 = (x + 3)² + 4. The integral becomes ∫1/((x+3)² + 4) dx. Using the formula ∫1/(u² + a²) du = (1/a)arctan(u/a) + C with u = x+3 and a = 2, we get (1/2)arctan((x+3)/2) + C. Choice B forgets the 1/a factor. Choice C incorrectly uses the original coefficients. Choice D uses a = 1 instead of a = 2."
+    "explanation": "Complete the square: $x^2$ + 6x + 13 = (x + 3)² + 4. The integral becomes ∫1/((x+3)² + 4) dx. Using the formula ∫1/($u^2$ + $a^2$) du = (1/a)arctan(u/a) + C with u = x+3 and a = 2, we get (1/2)arctan((x+3)/2) + C. Choice B forgets the 1/a factor. Choice C incorrectly uses the original coefficients. Choice D uses a = 1 instead of a = 2."
   },
   {
     "id": "calc_u7_q208",
@@ -8070,15 +8070,15 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ sin³(x)·cos²(x) dx",
+    "question": "Find the indefinite integral: ∫ si$n^3$(x)·co$s^2$(x) dx",
     "choices": [
-      "A) −cos³(x)/3 + cos⁵(x)/5 + C",
-      "B) cos³(x)/3 − cos⁵(x)/5 + C",
-      "C) −sin³(x)·cos³(x)/3 + C",
-      "D) −cos³(x)/3 − cos⁵(x)/5 + C"
+      "A) −co$s^3$(x)/3 + co$s^5$(x)/5 + C",
+      "B) co$s^3$(x)/3 − co$s^5$(x)/5 + C",
+      "C) −si$n^3$(x)·co$s^3$(x)/3 + C",
+      "D) −co$s^3$(x)/3 − co$s^5$(x)/5 + C"
     ],
     "answer": 0,
-    "explanation": "Write sin³(x) = sin(x)(1 − cos²(x)). Let u = cos(x), du = −sin(x) dx. The integral becomes −∫(1 − u²)u² du = −∫(u² − u⁴) du = −u³/3 + u⁵/5 + C = −cos³(x)/3 + cos⁵(x)/5 + C. Choice B has opposite signs from dropping the negative in the substitution. Choice C incorrectly combines terms. Choice D has both terms negative, which is wrong."
+    "explanation": "Write si$n^3$(x) = sin(x)(1 − co$s^2$(x)). Let u = cos(x), du = −sin(x) dx. The integral becomes −∫(1 − $u^2$)$u^2$ du = −∫($u^2$ − $u^4$) du = −$u^3$/3 + $u^5$/5 + C = −co$s^3$(x)/3 + co$s^5$(x)/5 + C. Choice B has opposite signs from dropping the negative in the substitution. Choice C incorrectly combines terms. Choice D has both terms negative, which is wrong."
   },
   {
     "id": "calc_u7_q209",
@@ -8090,7 +8090,7 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ from 0 to π/4 of sec²(x)·tan³(x) dx",
+    "question": "Evaluate: ∫ from 0 to π/4 of se$c^2$(x)·ta$n^3$(x) dx",
     "choices": [
       "A) 1/4",
       "B) 1/2",
@@ -8098,7 +8098,7 @@ var APCALC_MCQ = [
       "D) 3/4"
     ],
     "answer": 0,
-    "explanation": "Let u = tan(x), du = sec²(x) dx. When x = 0, u = 0; when x = π/4, u = 1. The integral becomes ∫ from 0 to 1 of u³ du = u⁴/4 evaluated from 0 to 1 = 1/4. Choice B results from computing u²/2 instead of u⁴/4. Choice C comes from using u³/3 as if integrating u². Choice D is a common miscalculation."
+    "explanation": "Let u = tan(x), du = se$c^2$(x) dx. When x = 0, u = 0; when x = π/4, u = 1. The integral becomes ∫ from 0 to 1 of $u^3$ du = $u^4$/4 evaluated from 0 to 1 = 1/4. Choice B results from computing $u^2$/2 instead of $u^4$/4. Choice C comes from using $u^3$/3 as if integrating $u^2$. Choice D is a common miscalculation."
   },
   {
     "id": "calc_u7_q210",
@@ -8130,7 +8130,7 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ 1/√(−x² + 4x + 5) dx",
+    "question": "Evaluate: ∫ 1/√(−$x^2$ + 4x + 5) dx",
     "choices": [
       "A) arcsin((x − 2)/3) + C",
       "B) arcsin((x + 2)/3) + C",
@@ -8138,7 +8138,7 @@ var APCALC_MCQ = [
       "D) arcsin((x − 2)/√5) + C"
     ],
     "answer": 0,
-    "explanation": "Rewrite: −x² + 4x + 5 = −(x² − 4x) + 5 = −(x² − 4x + 4) + 9 = 9 − (x − 2)². The integral becomes ∫1/√(9 − (x−2)²) dx. Using the formula ∫1/√(a² − u²) du = arcsin(u/a) + C with u = x−2 and a = 3, we get arcsin((x−2)/3) + C. Choice B uses x+2 instead of x−2. Choice C uses arctan instead of arcsin. Choice D uses √5 instead of 3."
+    "explanation": "Rewrite: −$x^2$ + 4x + 5 = −($x^2$ − 4x) + 5 = −($x^2$ − 4x + 4) + 9 = 9 − (x − 2)². The integral becomes ∫1/√(9 − (x−2)²) dx. Using the formula ∫1/√($a^2$ − $u^2$) du = arcsin(u/a) + C with u = x−2 and a = 3, we get arcsin((x−2)/3) + C. Choice B uses x+2 instead of x−2. Choice C uses arctan instead of arcsin. Choice D uses √5 instead of 3."
   },
   {
     "id": "calc_u7_q212",
@@ -8170,15 +8170,15 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ x/(√(1 − x⁴)) dx",
+    "question": "Find the indefinite integral: ∫ x/(√(1 − $x^4$)) dx",
     "choices": [
-      "A) (1/2)arcsin(x²) + C",
-      "B) arcsin(x²) + C",
-      "C) (1/2)arctan(x²) + C",
-      "D) −(1/2)arcsin(x²) + C"
+      "A) (1/2)arcsin($x^2$) + C",
+      "B) arcsin($x^2$) + C",
+      "C) (1/2)arctan($x^2$) + C",
+      "D) −(1/2)arcsin($x^2$) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = x², du = 2x dx, so x dx = du/2. The integral becomes (1/2)∫1/√(1 − u²) du = (1/2)arcsin(u) + C = (1/2)arcsin(x²) + C. Choice B forgets the 1/2 factor from the substitution. Choice C uses arctan instead of arcsin. Choice D has the wrong sign."
+    "explanation": "Let u = $x^2$, du = 2x dx, so x dx = du/2. The integral becomes (1/2)∫1/√(1 − $u^2$) du = (1/2)arcsin(u) + C = (1/2)arcsin($x^2$) + C. Choice B forgets the 1/2 factor from the substitution. Choice C uses arctan instead of arcsin. Choice D has the wrong sign."
   },
   {
     "id": "calc_u7_q214",
@@ -8190,15 +8190,15 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ (x⁴ + 1)/(x² + 1) dx",
+    "question": "Find the indefinite integral: ∫ ($x^4$ + 1)/($x^2$ + 1) dx",
     "choices": [
-      "A) x³/3 − x + 2·arctan(x) + C",
-      "B) x³/3 − x + arctan(x) + C",
-      "C) x³/3 + x + 2·arctan(x) + C",
-      "D) x³/3 − x + 2·ln(x² + 1) + C"
+      "A) $x^3$/3 − x + 2·arctan(x) + C",
+      "B) $x^3$/3 − x + arctan(x) + C",
+      "C) $x^3$/3 + x + 2·arctan(x) + C",
+      "D) $x^3$/3 − x + 2·ln($x^2$ + 1) + C"
     ],
     "answer": 0,
-    "explanation": "Divide x⁴ + 1 by x² + 1. x⁴ + 1 = (x² + 1)(x² − 1) + 2. So the integrand is x² − 1 + 2/(x² + 1). Integrating: x³/3 − x + 2·arctan(x) + C. Choice B uses 1 instead of 2 for the arctan coefficient. Choice C has +x instead of −x. Choice D uses ln instead of arctan."
+    "explanation": "Divide $x^4$ + 1 by $x^2$ + 1. $x^4$ + 1 = ($x^2$ + 1)($x^2$ − 1) + 2. So the integrand is $x^2$ − 1 + 2/($x^2$ + 1). Integrating: $x^3$/3 − x + 2·arctan(x) + C. Choice B uses 1 instead of 2 for the arctan coefficient. Choice C has +x instead of −x. Choice D uses ln instead of arctan."
   },
   {
     "id": "calc_u7_q215",
@@ -8210,7 +8210,7 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ 1/(x² − 2x + 5) dx",
+    "question": "Evaluate: ∫ 1/($x^2$ − 2x + 5) dx",
     "choices": [
       "A) (1/2)arctan((x − 1)/2) + C",
       "B) arctan((x − 1)/2) + C",
@@ -8218,7 +8218,7 @@ var APCALC_MCQ = [
       "D) (1/5)arctan((x − 1)/2) + C"
     ],
     "answer": 0,
-    "explanation": "Complete the square: x² − 2x + 5 = (x − 1)² + 4. Using ∫1/(u² + a²) du = (1/a)arctan(u/a) + C with u = x−1, a = 2: (1/2)arctan((x−1)/2) + C. Choice B forgets the 1/a factor. Choice C uses incorrect values for the shift and denominator. Choice D incorrectly uses 1/5."
+    "explanation": "Complete the square: $x^2$ − 2x + 5 = (x − 1)² + 4. Using ∫1/($u^2$ + $a^2$) du = (1/a)arctan(u/a) + C with u = x−1, a = 2: (1/2)arctan((x−1)/2) + C. Choice B forgets the 1/a factor. Choice C uses incorrect values for the shift and denominator. Choice D incorrectly uses 1/5."
   },
   {
     "id": "calc_u7_q216",
@@ -8230,15 +8230,15 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Find the indefinite integral: ∫ sin²(x)·cos³(x) dx",
+    "question": "Find the indefinite integral: ∫ si$n^2$(x)·co$s^3$(x) dx",
     "choices": [
-      "A) sin³(x)/3 − sin⁵(x)/5 + C",
-      "B) sin³(x)/3 + sin⁵(x)/5 + C",
-      "C) −sin³(x)/3 + sin⁵(x)/5 + C",
-      "D) cos³(x)·sin³(x)/9 + C"
+      "A) si$n^3$(x)/3 − si$n^5$(x)/5 + C",
+      "B) si$n^3$(x)/3 + si$n^5$(x)/5 + C",
+      "C) −si$n^3$(x)/3 + si$n^5$(x)/5 + C",
+      "D) co$s^3$(x)·si$n^3$(x)/9 + C"
     ],
     "answer": 0,
-    "explanation": "Since cos has an odd power, write cos³(x) = cos(x)(1 − sin²(x)). Let u = sin(x), du = cos(x) dx. The integral becomes ∫u²(1 − u²) du = ∫(u² − u⁴) du = u³/3 − u⁵/5 + C = sin³(x)/3 − sin⁵(x)/5 + C. Choice B has the wrong sign on the second term. Choice C has signs reversed. Choice D incorrectly combines terms."
+    "explanation": "Since cos has an odd power, write co$s^3$(x) = cos(x)(1 − si$n^2$(x)). Let u = sin(x), du = cos(x) dx. The integral becomes ∫$u^2$(1 − $u^2$) du = ∫($u^2$ − $u^4$) du = $u^3$/3 − $u^5$/5 + C = si$n^3$(x)/3 − si$n^5$(x)/5 + C. Choice B has the wrong sign on the second term. Choice C has signs reversed. Choice D incorrectly combines terms."
   },
   {
     "id": "calc_u7_q217",
@@ -8250,15 +8250,15 @@ var APCALC_MCQ = [
     "calculator": true,
     "isLatex": false,
     "format": "text",
-    "question": "Evaluate: ∫ from 0 to 1 of x²·e^(x³+1) dx",
+    "question": "Evaluate: ∫ from 0 to 1 of $x^2$·e^($x^3$+1) dx",
     "choices": [
-      "A) (e² − e)/3",
-      "B) (e² − e)",
-      "C) e²/3",
-      "D) (e² − 1)/3"
+      "A) ($e^2$ − e)/3",
+      "B) ($e^2$ − e)",
+      "C) $e^2$/3",
+      "D) ($e^2$ − 1)/3"
     ],
     "answer": 0,
-    "explanation": "Let u = x³ + 1, du = 3x² dx, so x² dx = du/3. When x = 0, u = 1; when x = 1, u = 2. The integral becomes (1/3)∫ from 1 to 2 of e^u du = (1/3)[e^u] from 1 to 2 = (1/3)(e² − e). Choice B forgets the 1/3 factor. Choice C omits the lower bound contribution. Choice D uses u = 0 as the lower limit instead of u = 1, forgetting that the +1 shifts the bounds."
+    "explanation": "Let u = $x^3$ + 1, du = 3$x^2$ dx, so $x^2$ dx = du/3. When x = 0, u = 1; when x = 1, u = 2. The integral becomes (1/3)∫ from 1 to 2 of e^u du = (1/3)[e^u] from 1 to 2 = (1/3)($e^2$ − e). Choice B forgets the 1/3 factor. Choice C omits the lower bound contribution. Choice D uses u = 0 as the lower limit instead of u = 1, forgetting that the +1 shifts the bounds."
   },
   {
     "id": "calc_u8_q218",
@@ -8498,7 +8498,7 @@ var APCALC_MCQ = [
       "D) Infinite discontinuity"
     ],
     "answer": 1,
-    "explanation": "Simplifying (x^2 - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2 for x not equal to 2, so lim(x->2) g(x) = 4. Since g(2) = 5 and the limit equals 4, the limit exists but does not equal the function value, which is the definition of a removable discontinuity. Choice A is wrong because continuity requires g(2) = lim(x->2) g(x), but 5 ≠ 4. Choice C is wrong because both one-sided limits equal 4 (they agree), so there is no jump. Choice D is wrong because the limit is finite, not infinite."
+    "explanation": "Simplifying (x^2 - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2 for x not equal to 2, so lim(x->2) g(x) = 4. Since g(2) = 5 and the limit equals 4, the limit exists but does not equal the function value, which is the definition of a removable discontinuity. Choice A is wrong because continuity requires g(2) = lim(x->2) g(x), but 5 $\\neq$ 4. Choice C is wrong because both one-sided limits equal 4 (they agree), so there is no jump. Choice D is wrong because the limit is finite, not infinite."
   },
   {
     "id": "calc_u1_q233",
@@ -9292,9 +9292,9 @@ var APCALC_MCQ = [
     "format": "latex",
     "question": "Find \\int 2x \\cos(x^2)\\, dx.",
     "choices": [
-      "A) \\sin(x^2) + C",
+      "A) $\\sin(x^2) + C$",
       "B) -\\sin(x^2) + C",
-      "C) \\cos(x^2) + C",
+      "C) $\\cos(x^2) + C$",
       "D) 2\\sin(x^2) + C"
     ],
     "answer": 0,
@@ -9598,7 +9598,7 @@ var APCALC_MCQ = [
       "D) Removable discontinuity at x = -1 and vertical asymptote at x = 1"
     ],
     "answer": 0,
-    "explanation": "Factor the numerator: x^2 - 4x + 3 = (x - 1)(x - 3). Factor the denominator: x^2 - 1 = (x - 1)(x + 1). The common factor (x - 1) cancels, leaving f(x) = (x - 3)/(x + 1) for x ≠ 1. At x = 1, the limit exists (equals -2/2 = -1) but f(1) is undefined, so there is a removable discontinuity. At x = -1, the simplified function has a nonzero numerator (-4) over zero, producing a vertical asymptote. Choice B is wrong because it treats both as vertical asymptotes, ignoring the cancellation. Choice C is wrong because x = -1 does not have a finite limit. Choice D reverses which point is removable and which is an asymptote."
+    "explanation": "Factor the numerator: x^2 - 4x + 3 = (x - 1)(x - 3). Factor the denominator: x^2 - 1 = (x - 1)(x + 1). The common factor (x - 1) cancels, leaving f(x) = (x - 3)/(x + 1) for x $\\neq$ 1. At x = 1, the limit exists (equals -2/2 = -1) but f(1) is undefined, so there is a removable discontinuity. At x = -1, the simplified function has a nonzero numerator (-4) over zero, producing a vertical asymptote. Choice B is wrong because it treats both as vertical asymptotes, ignoring the cancellation. Choice C is wrong because x = -1 does not have a finite limit. Choice D reverses which point is removable and which is an asymptote."
   },
   {
     "id": "calc_u1_q304",
