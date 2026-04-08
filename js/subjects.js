@@ -269,9 +269,10 @@ const SUBJECTS = [
     dataFiles: ['PHYSICS_MCQ', 'PHYSICS_FRQ'],
     testFiles: ['P1_PHYS1_TEST'],
     questionTypes: [
-      { value: 'all', label: 'All' },
-      { value: 'MCQ', label: 'MCQ' },
-      { value: 'FRQ', label: 'FRQ' }
+      { value: 'all',       label: 'All' },
+      { value: 'MCQ',       label: 'MCQ' },
+      { value: 'Short FRQ', label: 'Short FRQ' },
+      { value: 'Long FRQ',  label: 'Long FRQ' }
     ],
     units: [
       { num: 1, title: 'Kinematics',                 weight: '12–18%', topics: [
@@ -335,9 +336,10 @@ const SUBJECTS = [
     dataFiles: ['APPHYSCEM_FRQ', 'PHYSC_MCQ'],
     testFiles: ['P1_PHYSCEM_TEST'],
     questionTypes: [
-      { value: 'all', label: 'All' },
-      { value: 'MCQ', label: 'MCQ' },
-      { value: 'FRQ', label: 'FRQ' }
+      { value: 'all',       label: 'All' },
+      { value: 'MCQ',       label: 'MCQ' },
+      { value: 'Short FRQ', label: 'Short FRQ' },
+      { value: 'Long FRQ',  label: 'Long FRQ' }
     ],
     units: [
       { num: 1, title: 'Electrostatics',                          weight: '', topics: [] },
@@ -456,8 +458,7 @@ const SUBJECTS = [
     questionTypes: [
       { value: 'all',       label: 'All' },
       { value: 'MCQ',       label: 'MCQ' },
-      { value: 'Short FRQ', label: 'Short FRQ' },
-      { value: 'Long FRQ',  label: 'Long FRQ' }
+      { value: 'Short FRQ', label: 'Short FRQ' }
     ],
     units: [
       { num: 1, title: 'Exploring One-Variable Data', weight: '15–23%', topics: [
