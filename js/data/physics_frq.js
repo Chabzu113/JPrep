@@ -109,7 +109,7 @@ window.PHYSICS_FRQ = [
           "speeds up uniformly",
           "10 m/s² downward"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravity",
@@ -615,7 +615,7 @@ window.PHYSICS_FRQ = [
           "net horizontal force is zero",
           "Newton's first law horizontal"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravity",
@@ -1470,7 +1470,7 @@ window.PHYSICS_FRQ = [
           "surface tilt reduces normal force",
           "N not equal to full weight"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "inclined surface",
@@ -1877,7 +1877,7 @@ window.PHYSICS_FRQ = [
           "perpendicular to velocity",
           "frictional force"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "static friction",
@@ -2175,7 +2175,7 @@ window.PHYSICS_FRQ = [
           "orbital period scales with radius",
           "proportionality constant same for same star"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "orbital radius 4r",
@@ -2256,7 +2256,7 @@ window.PHYSICS_FRQ = [
           "weaker gravitational pull at greater distance",
           "both speed and force decrease with radius"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "increased orbital radius",
@@ -2348,7 +2348,7 @@ window.PHYSICS_FRQ = [
           "radial force",
           "uniform circular motion"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational force",
@@ -2676,7 +2676,7 @@ window.PHYSICS_FRQ = [
           "speed inversely related to radius",
           "gravitational parameter GM constant"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "larger orbital radius",
@@ -2754,7 +2754,7 @@ window.PHYSICS_FRQ = [
           "satellite path curves outward",
           "speed increase causes orbital change"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "speed increases at radius R",
@@ -2879,7 +2879,7 @@ window.PHYSICS_FRQ = [
           "gravitational PE contributes to KE",
           "KE greater than spring PE alone"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational potential energy decreases",
@@ -2980,7 +2980,7 @@ window.PHYSICS_FRQ = [
           "block decelerates",
           "spring force antiparallel to velocity"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "spring force opposes block motion",
@@ -3325,7 +3325,7 @@ window.PHYSICS_FRQ = [
           "maximum height ramp",
           "block momentarily at rest"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "block has kinetic energy at base of ramp",
@@ -3473,7 +3473,7 @@ window.PHYSICS_FRQ = [
           "no energy lost",
           "solve for v"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "spring releases",
@@ -3762,7 +3762,7 @@ window.PHYSICS_FRQ = [
           "rightward positive direction",
           "post-collision velocity"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "conservation of momentum",
@@ -3843,7 +3843,7 @@ window.PHYSICS_FRQ = [
           "objects combine into one mass",
           "energy goes into deforming the carts"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "carts stick together",
@@ -3921,7 +3921,7 @@ window.PHYSICS_FRQ = [
           "isolated system",
           "total momentum unchanged"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "perfectly inelastic collision",
@@ -4134,7 +4134,7 @@ window.PHYSICS_FRQ = [
           "vf equals vi plus J over m",
           "Cart A slows down"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "impulse of −6.0 N·s on Cart A",
@@ -4379,7 +4379,7 @@ window.PHYSICS_FRQ = [
           "bullet embeds in block",
           "linear momentum conservation"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "bullet embeds in block",
@@ -4769,7 +4769,7 @@ window.PHYSICS_FRQ = [
           "linear relationship between speed and amplitude",
           "new total energy equals 4.0 J"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "amplitude doubled to 0.20 m",
@@ -5614,7 +5614,7 @@ window.PHYSICS_FRQ = [
           "rotational equilibrium",
           "dL/dt = 0"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "net external torque is zero",
@@ -5659,7 +5659,7 @@ window.PHYSICS_FRQ = [
           "spin rate",
           "angular speed"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "moment of inertia decreases",
@@ -5786,7 +5786,7 @@ window.PHYSICS_FRQ = [
           "arms pulled inward",
           "4.8 times 2.0"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "moment of inertia decreases",
@@ -5971,7 +5971,7 @@ window.PHYSICS_FRQ = [
           "frictionless axis",
           "I_new = 80 kg·m²"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "student moves to center",
@@ -6040,7 +6040,7 @@ window.PHYSICS_FRQ = [
           "tangential velocity",
           "angular momentum before equals after"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "clay strikes and sticks to rim",
@@ -6292,7 +6292,7 @@ window.PHYSICS_FRQ = [
           "v = √(gh) hollow vs v = √(4gh/3) solid",
           "fraction of KE rotational is greater"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "larger moment of inertia for hollow cylinder",
