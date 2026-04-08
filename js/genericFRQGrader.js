@@ -55,6 +55,13 @@
     var s = text.toLowerCase().replace(/\s+/g, '');
     s = s.replace(/\*\*/g, '^');
     s = s.replace(/×/g, '*');
+    // Unicode superscripts → ASCII caret notation (bridges keyword↔student-input gap)
+    s = s.replace(/²/g, '^2');
+    s = s.replace(/³/g, '^3');
+    // Unicode minus → ASCII hyphen (U+2212 vs U+002D)
+    s = s.replace(/−/g, '-');
+    // Middle-dot multiplication → asterisk
+    s = s.replace(/·/g, '*');
     // Expand scientific notation: 2.4e6 → 2400000
     s = s.replace(/(\d+\.?\d*)e(\d+)/gi, function(_, base, exp) {
       return String(parseFloat(base) * Math.pow(10, parseInt(exp)));
