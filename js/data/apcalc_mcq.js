@@ -9281,26 +9281,6 @@ var APCALC_MCQ = [
     "explanation": "The net rate of change of water in the tank is R(t) - 2 = 4t - t^2 - 2 = -(t^2 - 4t + 2). The amount of water is maximized when the net rate equals zero: t^2 - 4t + 2 = 0. By the quadratic formula, t = (4 +/- sqrt(16 - 8))/2 = 2 +/- sqrt(2). Since t = 2 - sqrt(2) approximately 0.586 makes the net rate change from negative to positive (net rate is negative just before), and t = 2 + sqrt(2) approximately 3.414 makes the net rate change from positive to negative, the maximum occurs at t = 2 + sqrt(2). Choice A is wrong because students may set R(t) = 0 or find the vertex of the inflow rate rather than the net rate. Choice C is wrong because students may assume the endpoint is the maximum. Choice D gives the other root where the net rate changes from negative to positive, which is actually a minimum of the water level."
   },
   {
-    "id": "calc_u7_q283",
-    "subject": "apcalc",
-    "unit": 7,
-    "topic": "u-substitution indefinite",
-    "topicLabel": "u-substitution indefinite",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": true,
-    "format": "latex",
-    "question": "Find \\int 2x \\cos(x^2)\\, dx.",
-    "choices": [
-      "A) $\\sin(x^2) + C$",
-      "B) -\\sin(x^2) + C",
-      "C) $\\cos(x^2) + C$",
-      "D) 2\\sin(x^2) + C"
-    ],
-    "answer": 0,
-    "explanation": "Let u = x^2, so du = 2x dx. The integral becomes ∫cos(u) du = sin(u) + C = sin(x^2) + C. Choice B is wrong because students sometimes incorrectly apply a negative sign as they would with the derivative of cos. Choice C is wrong because students may confuse integration of cos with leaving it unchanged. Choice D is wrong because students may mistakenly keep the factor of 2 instead of recognizing it is absorbed into du."
-  },
-  {
     "id": "calc_u7_q284",
     "subject": "apcalc",
     "unit": 7,

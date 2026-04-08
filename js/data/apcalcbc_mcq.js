@@ -440,26 +440,6 @@ window.APCALCBC_MCQ = [
     "explanation": "Divide numerator and denominator by x (the highest power in the denominator): numerator becomes 4x + 1, denominator becomes 2 + 1/x. As x$\\to$-$\\infty$, 1/x$\\to$0 so this approaches (4x+1)/2. Since x$\\to$-$\\infty$, the expression (4x+1)/2 $\\to$ -$\\infty$. Alternatively, the degree of the numerator (2) exceeds the degree of the denominator (1), so the limit is ±$\\infty$. Since x$\\to$-$\\infty$ and the leading behavior is 4$x^2$/2x = 2x $\\to$ -$\\infty$ as x$\\to$-$\\infty$, the limit is -$\\infty$. Choice A comes from incorrectly applying the equal-degree ratio rule. Choice C gets the sign wrong. Choice D takes the ratio of leading coefficients incorrectly."
   },
   {
-    "id": "calcbc_u1_q025",
-    "subject": "apcalcbc",
-    "unit": 1,
-    "topic": "continuity",
-    "topicLabel": "Continuity and Types of Discontinuity",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Let f(x) = \\begin{cases} \\frac{x^2 - 9}{x - 3} & x \\neq 3 \\\\ k & x = 3 \\end{cases}. For what value of k is f continuous at x = 3, and what type of discontinuity exists when k \\neq 6?",
-    "choices": [
-      "A) k = 6; removable discontinuity when k \\neq 6",
-      "B) k = 3; jump discontinuity when k \\neq 3",
-      "C) k = 6; jump discontinuity when k \\neq 6",
-      "D) k = 9; removable discontinuity when k \\neq 9"
-    ],
-    "answer": 0,
-    "explanation": "For x $\\neq$ 3, (x^2-9)/(x-3) = (x+3)(x-3)/(x-3) = x+3. So lim_{x$\\to$3} f(x) = 6. For continuity, f(3) = k must equal 6. When k $\\neq$ 6, the limit exists (equals 6) but f(3) $\\neq$ 6, which is the definition of a removable discontinuity. Choice B is wrong because k=3 doesn't match the limit and the discontinuity type is misidentified. Choice C arises if a student correctly rationalizes to get 1/(√(x^2+4)+2) but then evaluates only the radical part, writing 1/√4 = 1/2 and ignoring the +2 in the denominator. Choice C correctly identifies k=6 but misidentifies the discontinuity type - jump discontinuities occur when one-sided limits are unequal, not when the limit exists but the function value differs. Choice D substitutes x=3 directly into the original numerator without factoring, giving 9−9=0 over 0, a common algebraic error."
-  },
-  {
     "id": "calcbc_u1_q026",
     "subject": "apcalcbc",
     "unit": 1,
@@ -3462,26 +3442,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Applying integration by parts twice: first let u = $x^2$, dv = e^x dx, giving $x^2$e^x − ∫2xe^x dx. Then apply IBP again with u = 2x, dv = e^x dx: 2xe^x − ∫2e^x dx = 2xe^x − 2e^x. Combining: e^x($x^2$ − 2x + 2) + C. Choice B results from sign errors when subtracting the second IBP result. Choice C has an arithmetic error in the constant term. Choice D is a common trap where students incorrectly treat e^x like a power and apply the power rule to $x^2$, keeping e^x as a factor without integrating by parts at all."
-  },
-  {
-    "id": "calcbc_u6_q179",
-    "subject": "apcalcbc",
-    "unit": 6,
-    "topic": "FTC part 1",
-    "topicLabel": "Fundamental Theorem of Calculus Part 1",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Let \\(g(x) = \\int_{\\sin x}^{x^3} e^{t^2}\\, dt\\). Find \\(g'(x)\\).",
-    "choices": [
-      "A) \\(3x^2 e^{x^6} - \\cos x\\, e^{\\sin^2 x}\\)",
-      "B) \\(3x^2 e^{x^6} + \\cos x\\, e^{\\sin^2 x}\\)",
-      "C) \\(e^{x^6} - e^{\\sin^2 x}\\)",
-      "D) \\(3x^2 e^{x^6} - e^{\\sin^2 x}\\)"
-    ],
-    "answer": 0,
-    "explanation": "By FTC Part 1 with variable bounds, g'(x) = e^{(x^3)^2} · (x^3)' − e^{(\\sin x)^2} · (\\sin x)' = 3x^2 e^{x^6} − \\cos x\\, e^{\\sin^2 x}. Choice B arises from a sign error: the student forgets that the lower bound contributes a subtracted term, incorrectly adding the lower-bound contribution instead of subtracting it, yielding +\\cos x\\, e^{\\sin^2 x} instead of −\\cos x\\, e^{\\sin^2 x}. Choice C arises from forgetting to apply the chain rule to either bound entirely - the student plugs in the bounds but does not multiply by the derivatives of x^3 or \\sin x, giving e^{x^6} − e^{\\sin^2 x}. Choice D arises from correctly applying the chain rule to the upper bound (multiplying by 3x^2) but forgetting to multiply the lower bound term by the derivative of \\sin x (i.e., \\cos x), leaving e^{\\sin^2 x} without the \\cos x factor."
   },
   {
     "id": "calcbc_u6_q180",
@@ -8004,26 +7964,6 @@ window.APCALCBC_MCQ = [
     "explanation": "To find dy/dx for a polar curve, use the parametric approach with x = r cosθ and y = r sinθ, where r = f(θ). Differentiating with respect to θ using the product rule: dx/dθ = r' cosθ − r sinθ and dy/dθ = r' sinθ + r cosθ. Then dy/dx = (dy/dθ)/(dx/dθ) = (r' sinθ + r cosθ)/(r' cosθ − r sinθ). This matches choice A. Choice B inverts the correct formula, swapping numerator and denominator — a common error when students forget that dy/dx = (dy/dθ)/(dx/dθ) and accidentally reverse the ratio. Choice C confuses the signs inside each component: the numerator should have +r cosθ not +r sinθ, and the denominator should have −r sinθ not −r cosθ — this results from misapplying the product rule to x and y. Choice D mixes up the signs in both numerator and denominator, reflecting an error where students incorrectly differentiate sin θ and cos θ or assign the wrong sign when applying the product rule."
   },
   {
-    "id": "calcbc_u9_q427",
-    "subject": "apcalcbc",
-    "unit": 9,
-    "topic": "Arc Length of a Curve (Parametric)",
-    "topicLabel": "Arc Length of a Curve (Parametric)",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Which of the following gives the arc length of a parametric curve x = f(t), y = g(t) from t = a to t = b?",
-    "choices": [
-      "A) $\\int_{a}^{b} \\sqrt{\\left(\\frac{dx}{dt}\\right)^2 + \\left(\\frac{dy}{dt}\\right)^2}\\, dt$",
-      "B) $\\int_{a}^{b} \\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2}\\, dx$",
-      "C) $\\int_{a}^{b} \\left(\\frac{dx}{dt} + \\frac{dy}{dt}\\right) dt$",
-      "D) $\\int_{a}^{b} \\sqrt{\\left(\\frac{dx}{dt}\\right)^2 - \\left(\\frac{dy}{dt}\\right)^2}\\, dt$"
-    ],
-    "answer": 0,
-    "explanation": "Choice A is correct. The arc length of a parametric curve x = f(t), y = g(t) from t = a to t = b is given by \\int_{a}^{b} \\sqrt{(dx/dt)^2 + (dy/dt)^2}\\, dt. This formula comes from summing infinitesimal arc length elements ds = \\sqrt{(dx)^2 + (dy)^2} and expressing both dx and dy in terms of dt. Choice B is the arc length formula for a Cartesian curve y = f(x) integrated with respect to x, not the parametric form integrated with respect to t; it applies only when y is expressed explicitly as a function of x, not in parametric form. Choice C incorrectly adds the derivatives rather than taking the square root of the sum of their squares, which does not represent arc length. Choice D incorrectly uses subtraction inside the square root instead of addition, which is not the arc length formula for any standard curve."
-  },
-  {
     "id": "calcbc_u9_q428",
     "subject": "apcalcbc",
     "unit": 9,
@@ -8522,26 +8462,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The Lagrange error bound states that the error satisfies $|R_n(x)| \\leq \\dfrac{M|x-c|^{n+1}}{(n+1)!}$, where $M$ is an upper bound for $|f^{(n+1)}(t)|$ on the interval between the center $c$ and the point $x$. Here $n = 2$, $c = 0$, and $x = 0.5$, so we need $n+1 = 3$ and $f^{(3)}(t) = e^t$. On the interval $[0, 0.5]$, $e^t$ is increasing and achieves its maximum at $t = 0.5$, so the tightest valid bound is $M = e^{0.5}$. Substituting: $|R_2(0.5)| \\leq \\dfrac{e^{0.5} \\cdot (0.5)^3}{3!} = \\dfrac{e^{0.5} \\cdot \\frac{1}{8}}{6} = \\dfrac{e^{0.5}}{48}$. This is Choice A. Choice B, $\\dfrac{e^{0.5}}{16}$, results from computing $(0.5)^3 = \\frac{1}{8}$ correctly but using $2!= 2$ in the denominator instead of $3! = 6$, confusing the degree of the polynomial with the factorial required. Choice C, $\\dfrac{e^{0.5}}{6}$, results from correctly writing $\\dfrac{e^{0.5}}{3!}$ but omitting the $(0.5)^3 = \\frac{1}{8}$ factor entirely — a common error where students forget to raise $|x - c|$ to the power $n+1$. Choice D, $\\dfrac{1}{48}$, uses the correct formula structure but replaces $M = e^{0.5}$ with $M = 1$, which is not a valid upper bound for $e^t$ on $[0, 0.5]$ since $e^t > 1$ for all $t > 0$."
-  },
-  {
-    "id": "calcbc_u10_q454",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "Taylor Series and Maclaurin Series",
-    "topicLabel": "Taylor Series and Maclaurin Series",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is the second-degree Maclaurin polynomial for f(x) = e^{2x}?",
-    "choices": [
-      "A) 1 + 2x + 2x^2",
-      "B) 1 + 2x + 4x^2",
-      "C) 1 + x + x^2",
-      "D) 1 + 2x + \\frac{x^2}{2}"
-    ],
-    "answer": 0,
-    "explanation": "The Maclaurin polynomial uses the formula P_2(x) = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2. For f(x) = e^{2x}: f(0) = e^0 = 1; f'(x) = 2e^{2x}, so f'(0) = 2; f''(x) = 4e^{2x}, so f''(0) = 4. Thus P_2(x) = 1 + 2x + \\frac{4}{2}x^2 = 1 + 2x + 2x^2, confirming Choice A is correct. Choice B results from forgetting to divide f''(0) = 4 by 2!, giving 4x^2 instead of 2x^2 — a common error of omitting the factorial denominator. Choice C results from treating f(x) = e^{2x} as if it were f(x) = e^x, ignoring the chain rule entirely and using derivatives of value 1 at x = 0. Choice D results from using f''(0) = 1 (as if differentiating e^x rather than e^{2x}), giving coefficient 1/2! = 1/2 instead of the correct 4/2! = 2."
   },
   {
     "id": "calcbc_u10_q455",
