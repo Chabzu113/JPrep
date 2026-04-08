@@ -192,7 +192,7 @@ window.PHYSICS_FRQ = [
           "rate of change of velocity",
           "m/s²"
         ],
-        "fundamentalPrinciple": "The acceleration of an object is defined as the rate of change of velocity with respect to time: a = Δv/Δt. For a velocity-time graph, this equals the slope of the line.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "velocity changes from +20 m/s to −8 m/s",
@@ -233,7 +233,7 @@ window.PHYSICS_FRQ = [
           "net displacement",
           "½(v_i + v_f)(Δt)"
         ],
-        "fundamentalPrinciple": "For a velocity-time graph, displacement is equal to the area between the curve and the time axis. Positive area (above axis) indicates displacement in the positive direction; negative area (below axis) indicates displacement in the negative direction.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "constant velocity of +20 m/s for 4 s",
@@ -274,7 +274,7 @@ window.PHYSICS_FRQ = [
           "direction of motion reverses",
           "v = 0 crossing"
         ],
-        "fundamentalPrinciple": "Displacement increases when an object moves in the positive direction (positive velocity) and decreases when the object moves in the negative direction (negative velocity). The instant velocity equals zero marks the turning point where the object momentarily stops before reversing direction.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "velocity equals zero",
@@ -347,7 +347,7 @@ window.PHYSICS_FRQ = [
           "galilean velocity addition",
           "superposition of velocities"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "walkway velocity 2.0 m/s east",
@@ -417,7 +417,7 @@ window.PHYSICS_FRQ = [
           "linear position increase",
           "observer-dependent motion"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "walkway eastward speed 2.0 m/s exceeds westward walking speed 1.5 m/s",
@@ -504,7 +504,7 @@ window.PHYSICS_FRQ = [
           "trigonometric components",
           "velocity vector"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "initial velocity at 30° above horizontal",
@@ -541,7 +541,7 @@ window.PHYSICS_FRQ = [
           "symmetric trajectory",
           "projectile returns to launch height"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "vertical displacement returns to zero",
@@ -578,7 +578,7 @@ window.PHYSICS_FRQ = [
           "uniform horizontal motion",
           "no horizontal acceleration"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "constant horizontal velocity",
@@ -654,7 +654,7 @@ window.PHYSICS_FRQ = [
           "v₀ᵧ = 20sin60° ≈ 17.3 m/s",
           "t = 2v₀ᵧ/g larger at 60°"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "increased launch angle to 60°",
@@ -744,7 +744,7 @@ window.PHYSICS_FRQ = [
           "launch and return same height",
           "v_y0 divided by g"
         ],
-        "fundamentalPrinciple": "For a projectile launched vertically and returning to the same height, net vertical displacement is zero. Applying Δy = v_y0·t − ½g·t² = 0 and solving for t gives t = 2v_y0/g, the total time of flight.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "vertical displacement equals zero",
@@ -782,7 +782,7 @@ window.PHYSICS_FRQ = [
           "horizontal displacement ball equals cart",
           "inertia preserves horizontal motion"
         ],
-        "fundamentalPrinciple": "In the absence of horizontal forces, the ball retains the horizontal velocity it had at launch (equal to the cart's velocity). Because both the ball and cart travel at +4.0 m/s horizontally for the same time interval, their horizontal displacements are identical and the ball lands back on the launcher.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "same horizontal velocity",
@@ -824,7 +824,7 @@ window.PHYSICS_FRQ = [
           "horizontal velocity subtracted out in cart frame",
           "galilean relativity"
         ],
-        "fundamentalPrinciple": "The shape of a trajectory depends on the observer's reference frame. In the cart's frame the ball has no horizontal velocity component, so it travels in a straight vertical line. In the ground frame the ball has a constant horizontal velocity component and an accelerating vertical component, producing a parabolic arc - the hallmark of two-dimensional projectile motion.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "constant horizontal velocity in ground frame",
@@ -863,7 +863,7 @@ window.PHYSICS_FRQ = [
           "launcher position at landing",
           "subtract positions to find distance"
         ],
-        "fundamentalPrinciple": "Constant-velocity kinematics (x = x₀ + v·t) applies independently to each object. The observer and the ball/cart are each undergoing constant-velocity horizontal motion, so their positions at t = 4.0 s can be found separately, and the separation is the absolute difference of those positions.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "observer moving at −2.0 m/s for 4.0 s",
@@ -905,7 +905,7 @@ window.PHYSICS_FRQ = [
           "no horizontal force so slope is uniform",
           "relative velocity formula"
         ],
-        "fundamentalPrinciple": "Relative velocity is found by vector subtraction: v_ball/observer = v_ball(ground) − v_observer(ground). At the peak, the ball's vertical velocity is zero (all kinetic energy in vertical direction momentarily zero), leaving only the horizontal component. Because horizontal velocity is constant throughout flight, the x-vs-t graph is a straight line whose slope directly equals the ball's horizontal velocity.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "constant horizontal velocity",
@@ -1172,7 +1172,7 @@ window.PHYSICS_FRQ = [
           "vector sum of forces along slope",
           "friction and gravity component same direction"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational component along incline mg sinθ",
@@ -1312,7 +1312,7 @@ window.PHYSICS_FRQ = [
           "free-body diagram Block A",
           "free-body diagram Block B"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "net force on system",
@@ -1515,7 +1515,7 @@ window.PHYSICS_FRQ = [
           "net downward force",
           "T opposes Mg"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": null
       },
       {
@@ -1541,7 +1541,7 @@ window.PHYSICS_FRQ = [
           "shared acceleration constraint",
           "inextensible string"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": null
       },
       {
@@ -1764,7 +1764,7 @@ window.PHYSICS_FRQ = [
           "sum of forces on system",
           "sin 30 component along incline"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "net force on system",
@@ -2023,7 +2023,7 @@ window.PHYSICS_FRQ = [
           "net inward force",
           "gravitational centripetal"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational force",
@@ -2215,7 +2215,7 @@ window.PHYSICS_FRQ = [
           "one-third sqrt(GM/r)",
           "force balance circular orbit"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational force",
@@ -2389,7 +2389,7 @@ window.PHYSICS_FRQ = [
           "gravitational pull",
           "Newton's universal law"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "orbital radius r",
@@ -2431,7 +2431,7 @@ window.PHYSICS_FRQ = [
           "6200 to 6450 m/s",
           "tangential speed"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational force equals centripetal force",
@@ -2601,7 +2601,7 @@ window.PHYSICS_FRQ = [
           "radial force",
           "gravitational attraction"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational force",
@@ -2639,7 +2639,7 @@ window.PHYSICS_FRQ = [
           "orbital velocity formula",
           "square root of GM over r"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational force equals centripetal force",
@@ -2831,7 +2831,7 @@ window.PHYSICS_FRQ = [
           "net force zero",
           "static equilibrium"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": null
       },
       {
@@ -2957,7 +2957,7 @@ window.PHYSICS_FRQ = [
           "solve for compression distance",
           "block momentarily at rest"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": null
       },
       {
@@ -3120,7 +3120,7 @@ window.PHYSICS_FRQ = [
           "frictionless track energy conversion",
           "spring energy converts to kinetic and gravitational"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "spring potential energy released",
@@ -3160,7 +3160,7 @@ window.PHYSICS_FRQ = [
           "net stored energy decreases",
           "x squared term dominates"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "halved compression distance",
@@ -4093,7 +4093,7 @@ window.PHYSICS_FRQ = [
           "impulse vector",
           "60 N force"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "average force of 60 N directed left",
@@ -4216,7 +4216,7 @@ window.PHYSICS_FRQ = [
           "energy conservation in collision",
           "no kinetic energy converted to internal energy"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "kinetic energy before equals kinetic energy after",
@@ -4258,7 +4258,7 @@ window.PHYSICS_FRQ = [
           "objects move as one",
           "single combined mass"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "carts stick together",
@@ -4344,7 +4344,7 @@ window.PHYSICS_FRQ = [
           "gravitational PE gain equals KE loss",
           "swing phase energy conservation"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "bullet-block system rises to height h",
@@ -4452,7 +4452,7 @@ window.PHYSICS_FRQ = [
           "net impulse on block equals final momentum of block",
           "block initially at rest so delta p equals M v_f"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "bullet exerts force on block during collision",
@@ -4487,7 +4487,7 @@ window.PHYSICS_FRQ = [
           "Newton's second law for a system F_net = M_total times a_cm",
           "center of mass does not accelerate when no net external force acts"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "system initially at rest so total momentum is zero",
@@ -4566,7 +4566,7 @@ window.PHYSICS_FRQ = [
           "0.50 kg",
           "200 N/m"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": null
       },
       {
@@ -4592,7 +4592,7 @@ window.PHYSICS_FRQ = [
           "spring potential energy",
           "conservation of mechanical energy"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": null
       },
       {
@@ -4698,7 +4698,7 @@ window.PHYSICS_FRQ = [
           "released from rest",
           "initial displacement equals amplitude"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "block released from rest at amplitude",
@@ -4733,7 +4733,7 @@ window.PHYSICS_FRQ = [
           "zero spring potential energy at equilibrium",
           "energy conversion"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "all energy is kinetic at equilibrium",
@@ -4847,7 +4847,7 @@ window.PHYSICS_FRQ = [
           "v_max",
           "spring energy fully converted"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "spring potential energy",
@@ -4889,7 +4889,7 @@ window.PHYSICS_FRQ = [
           "post-collision speed 1.0 m/s",
           "combined mass 1.0 kg"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "inelastic collision at equilibrium",
@@ -5085,7 +5085,7 @@ window.PHYSICS_FRQ = [
           "all energy kinetic at x equals zero",
           "v_max = 0.10 times 20"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "block passes through equilibrium position",
@@ -5362,7 +5362,7 @@ window.PHYSICS_FRQ = [
           "energy stored in spring",
           "speed maximum when displacement zero"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "maximum displacement equals amplitude",
@@ -5538,7 +5538,7 @@ window.PHYSICS_FRQ = [
           "total torque about pivot",
           "angular equilibrium"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "rotational equilibrium",
@@ -6256,7 +6256,7 @@ window.PHYSICS_FRQ = [
           "gravitational potential energy converted",
           "no slipping energy loss"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational potential energy at height h",

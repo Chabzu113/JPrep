@@ -55,7 +55,7 @@ window.APPHYSCEM_FRQ = [
           "derivative of 3t³ is 9t²",
           "derivative of 6t² is 12t"
         ],
-        "fundamentalPrinciple": "Velocity is defined as the first derivative of position with respect to time: v(t) = dx/dt.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "differentiate x(t) with respect to t",
@@ -94,7 +94,7 @@ window.APPHYSCEM_FRQ = [
           "two solutions",
           "particle momentarily stopped"
         ],
-        "fundamentalPrinciple": "A particle is instantaneously at rest when its velocity equals zero: v(t) = 0.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "v(t) = 0",
@@ -135,7 +135,7 @@ window.APPHYSCEM_FRQ = [
           "substitute t = 1",
           "evaluate at t equals 1"
         ],
-        "fundamentalPrinciple": "Acceleration is defined as the first derivative of velocity with respect to time, equivalently the second derivative of position: a(t) = dv/dt = d²x/dt².",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "differentiate v(t) = 9t² − 12t with respect to t",
@@ -211,7 +211,7 @@ window.APPHYSCEM_FRQ = [
           "kinematic integration",
           "v equals integral of a dt"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "integrating a(t) = 6t − 4 with respect to time",
@@ -297,7 +297,7 @@ window.APPHYSCEM_FRQ = [
           "net force in direction of velocity",
           "velocity not changing sign"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "v(1) = 1 m/s > 0 and a(1) = 2 m/s² > 0",
@@ -378,7 +378,7 @@ window.APPHYSCEM_FRQ = [
           "second derivative of position",
           "polynomial differentiation"
         ],
-        "fundamentalPrinciple": "Velocity is the first time derivative of position and acceleration is the second time derivative of position; v(t) = dr/dt, a(t) = dv/dt = d²r/dt².",
+        "fundamentalPrinciple": false,
         "proximity": null
       },
       {
@@ -404,7 +404,7 @@ window.APPHYSCEM_FRQ = [
           "a = (12, −6) m/s²",
           "speed neither increasing nor decreasing"
         ],
-        "fundamentalPrinciple": "The rate of change of speed equals the scalar projection of acceleration onto velocity: d|v|/dt = (v · a)/|v|. When v · a > 0 speed increases, when v · a < 0 speed decreases, and when v · a = 0 (or v = 0) speed is instantaneously not changing.",
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "dot product v · a equals zero",
@@ -450,7 +450,7 @@ window.APPHYSCEM_FRQ = [
           "√(Δx² + Δy²)",
           "∫₀² vy dt"
         ],
-        "fundamentalPrinciple": "Displacement is the definite integral of velocity over a time interval: Δr = ∫v dt. The magnitude of the 2D displacement vector is |Δr| = √(Δx² + Δy²).",
+        "fundamentalPrinciple": false,
         "proximity": null
       }
     ],
@@ -522,7 +522,7 @@ window.APPHYSCEM_FRQ = [
           "power rule",
           "definite integral from 0 to 1"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "v_cart(t) = 4.0 - 3.0t²",
@@ -559,7 +559,7 @@ window.APPHYSCEM_FRQ = [
           "v_x,muzzle = 8.0 m/s",
           "superposition of velocities"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "cart velocity at t=1.0 s",
@@ -597,7 +597,7 @@ window.APPHYSCEM_FRQ = [
           "6t - 5t² = 0",
           "non-zero time solution"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "initial vertical velocity v_y0 = 6.0 m/s",
@@ -634,7 +634,7 @@ window.APPHYSCEM_FRQ = [
           "horizontal range identical",
           "Galilean relativity"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "ground-frame initial velocity components",
@@ -672,7 +672,7 @@ window.APPHYSCEM_FRQ = [
           "v positive throughout interval",
           "cart momentarily at rest"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "v_cart(t) = 4.0 - 3.0t² set equal to zero",
@@ -758,7 +758,7 @@ window.APPHYSCEM_FRQ = [
           "apply initial conditions",
           "evaluate constant C"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "integrating aₓ(t) = 6t − 4",
@@ -796,7 +796,7 @@ window.APPHYSCEM_FRQ = [
           "y₀ = 80 m",
           "ground level y = 0"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "y(t) = 80 − 5t² = 0",
@@ -834,7 +834,7 @@ window.APPHYSCEM_FRQ = [
           "6t − 4 = 0",
           "concave up velocity curve"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "aₓ(t) = 0",
@@ -872,7 +872,7 @@ window.APPHYSCEM_FRQ = [
           "cubic equation root",
           "numerical solution method"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "x_rel(t) = 0",
@@ -910,7 +910,7 @@ window.APPHYSCEM_FRQ = [
           "velocity is rate of change of position",
           "area under velocity-time curve equals displacement"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "integral of velocity over time interval",
@@ -1010,7 +1010,7 @@ window.APPHYSCEM_FRQ = [
           "incline component of gravity",
           "differential equation of motion"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": null
       },
       {
@@ -1033,7 +1033,7 @@ window.APPHYSCEM_FRQ = [
           "gravitational component less than friction",
           "kinetic friction decelerates block"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "tanθ < μk",
@@ -1113,7 +1113,7 @@ window.APPHYSCEM_FRQ = [
           "no vertical acceleration constant speed",
           "centripetal force provided by horizontal components"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "horizontal components of normal force and static friction acting inward"
@@ -1152,7 +1152,7 @@ window.APPHYSCEM_FRQ = [
           "friction directed up the incline resisting sliding",
           "component decomposition along x and y axes"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "static friction force fs = μsN acting up the bank"
@@ -1191,7 +1191,7 @@ window.APPHYSCEM_FRQ = [
           "vertical support and centripetal force from N alone",
           "no tendency to slide up or down the bank at ideal angle"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "banking angle equal to ideal angle θ_ideal where tanθ = v²/(Rg)"
@@ -1265,7 +1265,7 @@ window.APPHYSCEM_FRQ = [
           "inertial frame contrast",
           "net radial force zero"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "rotating reference frame",
@@ -1305,7 +1305,7 @@ window.APPHYSCEM_FRQ = [
           "θ̇ = ω",
           "uniform circular motion verification"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "string tension T",
@@ -1346,7 +1346,7 @@ window.APPHYSCEM_FRQ = [
           "tangential deceleration",
           "insufficient centripetal force"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "velocity-dependent drag force bv",
@@ -1435,7 +1435,7 @@ window.APPHYSCEM_FRQ = [
           "no fictitious forces",
           "net friction vector sum"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "block undergoes circular motion with angular acceleration",
@@ -1474,7 +1474,7 @@ window.APPHYSCEM_FRQ = [
           "impending slip",
           "quartic equation in ωc"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "net friction magnitude equals maximum static friction μs mg",
@@ -1513,7 +1513,7 @@ window.APPHYSCEM_FRQ = [
           "velocity-dependent drag",
           "kinetic friction opposing relative motion"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "kinetic friction μk mg and velocity-dependent drag bv oppose relative motion",
@@ -1551,7 +1551,7 @@ window.APPHYSCEM_FRQ = [
           "frame non-inertial due to rotation",
           "block appears to accelerate outward"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "centrifugal force mω²r directed outward in rotating frame",
@@ -1589,7 +1589,7 @@ window.APPHYSCEM_FRQ = [
           "asymptotic approach to terminal speed",
           "relative acceleration ceases"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "drag force bv increases proportionally with relative speed",
@@ -1681,7 +1681,7 @@ window.APPHYSCEM_FRQ = [
           "centripetal acceleration",
           "mω²r centripetal"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "tension component upward",
@@ -1722,7 +1722,7 @@ window.APPHYSCEM_FRQ = [
           "r = L sinθ substitution",
           "angular velocity expression"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "horizontal net force equals centripetal requirement",
@@ -1803,7 +1803,7 @@ window.APPHYSCEM_FRQ = [
           "first-order linear ODE",
           "linear drag opposes velocity"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "linear drag force bv in tangential direction",
@@ -1842,7 +1842,7 @@ window.APPHYSCEM_FRQ = [
           "consistent with work-energy theorem",
           "net work equals change in kinetic energy"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "drag dissipation over infinite time",
@@ -1918,7 +1918,7 @@ window.APPHYSCEM_FRQ = [
           "evaluate at upper limit",
           "evaluate at lower limit"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "variable force F(x) = 6x² − 4x",
@@ -1957,7 +1957,7 @@ window.APPHYSCEM_FRQ = [
           "solve for final speed",
           "kinetic energy from rest"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "net work W = 36 J",
@@ -1997,7 +1997,7 @@ window.APPHYSCEM_FRQ = [
           "superposition of forces",
           "no net work done"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "net force equals zero",
@@ -2077,7 +2077,7 @@ window.APPHYSCEM_FRQ = [
           "evaluate from 0 to 3",
           "54 − 18"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "variable force F(x) = 6x² − 4x",
@@ -2118,7 +2118,7 @@ window.APPHYSCEM_FRQ = [
           "W_net = 36 J substituted",
           "square root of 36"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "net work",
@@ -2159,7 +2159,7 @@ window.APPHYSCEM_FRQ = [
           "instantaneous rate of work",
           "v = 6.0 m/s used in power"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "force F(3) = 42 N",
@@ -2236,7 +2236,7 @@ window.APPHYSCEM_FRQ = [
           "−4αx³ + 2βx = 0",
           "x(−4αx² + 2β) = 0"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "d²U/dx² < 0 at x = 0",
@@ -2276,7 +2276,7 @@ window.APPHYSCEM_FRQ = [
           "evaluate definite integral bounds",
           "−3x⁴ + 12x² evaluated at x = 2"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "net work W = 0 J",
@@ -2316,7 +2316,7 @@ window.APPHYSCEM_FRQ = [
           "F evaluated at x = 2.0 m",
           "−12(2)³ + 24(2) = −48 N"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "kinetic energy equals zero at x = 2.0 m",
@@ -2424,7 +2424,7 @@ window.APPHYSCEM_FRQ = [
           "initial kinetic energy zero",
           "solve for velocity"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "net work W = 27 J done on block",
@@ -2483,7 +2483,7 @@ window.APPHYSCEM_FRQ = [
           "negative derivative of U equals F",
           "force derivable from potential"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "scalar potential function U(x) exists",
@@ -2523,7 +2523,7 @@ window.APPHYSCEM_FRQ = [
           "resistive force does negative work",
           "net work over stopping distance"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "resistive force f = 5 N opposes motion",
@@ -2596,7 +2596,7 @@ window.APPHYSCEM_FRQ = [
           "evaluate from 0 to 3",
           "impulse as integral"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "force function F(t) = −4t",
@@ -2631,7 +2631,7 @@ window.APPHYSCEM_FRQ = [
           "initial momentum",
           "solve for vf"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "impulse J = −18 N·s",
@@ -2667,7 +2667,7 @@ window.APPHYSCEM_FRQ = [
           "F(t) integrated over time interval",
           "general form of impulse"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "time-varying force F(t)",
@@ -2743,7 +2743,7 @@ window.APPHYSCEM_FRQ = [
           "isolated system",
           "dp_system = 0"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "expelled fuel mass dm in time dt",
@@ -2810,7 +2810,7 @@ window.APPHYSCEM_FRQ = [
           "system boundary",
           "momentum carried away by expelled gas"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "expelled exhaust mass leaving the system",
@@ -2899,7 +2899,7 @@ window.APPHYSCEM_FRQ = [
           "momentum of expelled gas",
           "reaction force"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "exhaust expelled at speed u relative to sled",
@@ -2937,7 +2937,7 @@ window.APPHYSCEM_FRQ = [
           "post-burn sled speed",
           "0.2877 logarithm value"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "fuel mass expelled from M₀ = 80 kg to M_f = 60 kg",
@@ -2974,7 +2974,7 @@ window.APPHYSCEM_FRQ = [
           "total mass 80 kg post-collision",
           "momentum conserved during collision"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "60 kg sled at 34.5 m/s strikes stationary 20 kg block",
@@ -3012,7 +3012,7 @@ window.APPHYSCEM_FRQ = [
           "coefficient of restitution zero",
           "total mechanical energy decreases"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "objects permanently stick together",
@@ -3123,7 +3123,7 @@ window.APPHYSCEM_FRQ = [
           "starts from rest initial condition",
           "M(t) = 800 - 4t"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "constant mass ejection rate alpha",
@@ -3161,7 +3161,7 @@ window.APPHYSCEM_FRQ = [
           "internal impulse equal and opposite",
           "brief interaction delta-t approaches zero"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "internal impulse from spring mechanism",
@@ -3236,7 +3236,7 @@ window.APPHYSCEM_FRQ = [
           "M(t') = 550 - 4t'",
           "t-prime measured from separation event"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "continued fuel ejection at rate alpha after separation",
@@ -3350,7 +3350,7 @@ window.APPHYSCEM_FRQ = [
           "total mechanical energy",
           "kinetic energy sum"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational potential energy Mgh",
@@ -3391,7 +3391,7 @@ window.APPHYSCEM_FRQ = [
           "non-slip condition",
           "instantaneous rest at contact"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "static friction",
@@ -3432,7 +3432,7 @@ window.APPHYSCEM_FRQ = [
           "rolling constraint ω = v/R unchanged",
           "v_shell = sqrt(10gh/5) less than sqrt(10gh/7) is incorrect - v_shell = sqrt(6gh/5)"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "larger rotational inertia I_shell = (2/3)MR²",
@@ -3509,7 +3509,7 @@ window.APPHYSCEM_FRQ = [
           "energy partitioned between translation and rotation",
           "started from rest"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "rolling without slipping",
@@ -3548,7 +3548,7 @@ window.APPHYSCEM_FRQ = [
           "friction acts at contact point",
           "acceleration reduced below g sinθ"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "static friction force at contact point",
@@ -3663,7 +3663,7 @@ window.APPHYSCEM_FRQ = [
           "Newton's second law rotational form",
           "dL/dt equals net external torque"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational torque τ = Mgd about pivot",
@@ -3702,7 +3702,7 @@ window.APPHYSCEM_FRQ = [
           "gyroscopic precession geometry",
           "magnitude of dL/dt equals |L| times angular speed of precession"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "angular momentum vector of fixed magnitude |L| rotating in horizontal plane",
@@ -3741,7 +3741,7 @@ window.APPHYSCEM_FRQ = [
           "zero net change in kinetic energy per cycle",
           "work done by torque zero when torque perpendicular to displacement"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational torque always perpendicular to instantaneous velocity of axle tip",
@@ -3829,7 +3829,7 @@ window.APPHYSCEM_FRQ = [
           "differential equation of motion",
           "rotational dynamics incline"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational torque MgR sinθ about contact point",
@@ -3907,7 +3907,7 @@ window.APPHYSCEM_FRQ = [
           "energy partitioned between translation and rotation",
           "no energy loss rolling without slipping"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "larger total rotational inertia of composite object",
@@ -3984,7 +3984,7 @@ window.APPHYSCEM_FRQ = [
           "L_s·Ω = Mgd",
           "angular momentum vector sweeps out cone"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational torque Mgd perpendicular to horizontal spin angular momentum L_s",
@@ -4099,7 +4099,7 @@ window.APPHYSCEM_FRQ = [
           "hanging block weight torque",
           "τ = (M/2)gR"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": null
       },
       {
@@ -4123,7 +4123,7 @@ window.APPHYSCEM_FRQ = [
           "L(t) = (MgR/2)t",
           "angular momentum accumulates over time"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "nonzero external torque",
@@ -4162,7 +4162,7 @@ window.APPHYSCEM_FRQ = [
           "rolling disk speed less than frictionless slide",
           "height H fully converted"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "rolling without slipping constraint links v and ω",
@@ -4200,7 +4200,7 @@ window.APPHYSCEM_FRQ = [
           "I_cm·ω spin calculation",
           "cross product r × F for torque direction"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "gravitational torque acting on spinning disk at end of gimbal arm",
@@ -4290,7 +4290,7 @@ window.APPHYSCEM_FRQ = [
           "polynomial integration",
           "net work"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "F(x) = 12x − 3x²",
@@ -4331,7 +4331,7 @@ window.APPHYSCEM_FRQ = [
           "solve for speed",
           "work-energy principle"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "net work done",
@@ -4372,7 +4372,7 @@ window.APPHYSCEM_FRQ = [
           "reference point",
           "U(x) derivation"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "F = −dU/dx",
@@ -4413,7 +4413,7 @@ window.APPHYSCEM_FRQ = [
           "scalar potential function",
           "gradient of potential"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "force depends only on position x",
@@ -4454,7 +4454,7 @@ window.APPHYSCEM_FRQ = [
           "dot product force velocity",
           "rate of work done"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "F₂ = 8.0 N",
@@ -4532,7 +4532,7 @@ window.APPHYSCEM_FRQ = [
           "v_ex times dm/dt",
           "2400 times 6"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "exhaust expelled at v_ex relative to rocket",
@@ -4575,7 +4575,7 @@ window.APPHYSCEM_FRQ = [
           "m(50) = 500 kg",
           "initial mass over final mass"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "separation of variables in rocket equation",
@@ -4617,7 +4617,7 @@ window.APPHYSCEM_FRQ = [
           "rocket plus exhaust system",
           "backward momentum of exhaust"
         ],
-        "fundamentalPrinciple": true,
+        "fundamentalPrinciple": false,
         "proximity": {
           "cause": [
             "no external forces act on system",
