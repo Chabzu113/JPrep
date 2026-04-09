@@ -8,6 +8,7 @@ var APUSH_FRQ = [
       1
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -36,6 +37,7 @@ var APUSH_FRQ = [
       1
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -64,6 +66,7 @@ var APUSH_FRQ = [
       1
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Evaluate the extent to which the demographic collapse of Indigenous populations in the Americas between 1492 and 1600 was primarily the result of Spanish colonial policies rather than the biological consequences of the Columbian Exchange.",
     "stimulus": null,
@@ -79,6 +82,7 @@ var APUSH_FRQ = [
       1
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 7,
     "prompt": "Using the six documents and your knowledge of the period, evaluate the extent to which Spanish colonization was primarily driven by economic motives rather than religious or civilizing goals in the Americas between 1492 and 1620.",
     "stimulus": [
@@ -137,6 +141,7 @@ var APUSH_FRQ = [
       2
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -165,6 +170,7 @@ var APUSH_FRQ = [
       2
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -193,6 +199,7 @@ var APUSH_FRQ = [
       2
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Evaluate the extent to which Bacon's Rebellion (1676) transformed the labor and social order of the Chesapeake colonies. In your response, weigh the relative significance of economic, political, and racial factors in driving the transition from indentured servitude to chattel slavery, and consider what continuities in colonial power structures persisted despite this transformation.",
     "stimulus": null,
@@ -208,6 +215,7 @@ var APUSH_FRQ = [
       3
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -236,6 +244,7 @@ var APUSH_FRQ = [
       3
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -264,6 +273,7 @@ var APUSH_FRQ = [
       3
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Evaluate the extent to which the American colonists' decision to declare independence from Britain between 1763 and 1776 was driven more by a fundamental shift in political ideology than by economic grievances stemming from British imperial policy.",
     "stimulus": null,
@@ -279,6 +289,7 @@ var APUSH_FRQ = [
       3
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 7,
     "prompt": "Using the following six documents and your knowledge of the period, evaluate the extent to which the American Revolution represented a genuine ideological commitment to liberty and self-governance rather than a defense of elite colonial economic and political interests.",
     "stimulus": [
@@ -337,6 +348,7 @@ var APUSH_FRQ = [
       4
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -365,6 +377,7 @@ var APUSH_FRQ = [
       4
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -393,6 +406,7 @@ var APUSH_FRQ = [
       4
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Evaluate the extent to which political, economic, and social developments between 1800 and 1840 expanded democratic participation for some groups while simultaneously limiting or excluding others.",
     "stimulus": null,
@@ -408,6 +422,7 @@ var APUSH_FRQ = [
       4
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 7,
     "prompt": "Using the following six documents and your knowledge of the period, evaluate the extent to which the reform movements of the early nineteenth century represented a fundamental challenge to the existing social and political order of the United States.",
     "stimulus": [
@@ -466,6 +481,7 @@ var APUSH_FRQ = [
       5
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -494,6 +510,7 @@ var APUSH_FRQ = [
       5
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -522,6 +539,7 @@ var APUSH_FRQ = [
       5
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Evaluate the extent to which the escalating sectional crisis over slavery between 1845 and 1860 represented a fundamental breakdown of the American political system. In your response, consider the relative importance of political, legal, and ideological factors in driving the nation toward disunion.",
     "stimulus": null,
@@ -537,6 +555,7 @@ var APUSH_FRQ = [
       5
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 7,
     "prompt": "Using the following six documents and your knowledge of the period, evaluate the extent to which the question of slavery's expansion into new territories, rather than disagreements over constitutional authority or economic interests, was the primary cause of sectional conflict and the eventual dissolution of the Union between 1846 and 1865.",
     "stimulus": [
@@ -595,6 +614,7 @@ var APUSH_FRQ = [
       6
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -623,6 +643,7 @@ var APUSH_FRQ = [
       6
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -651,6 +672,7 @@ var APUSH_FRQ = [
       6
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Evaluate the extent to which the rise of large-scale industrial consolidation between 1865 and 1900 transformed American economic and political life, considering both the forces that accelerated corporate power and the competing movements that sought to limit or redirect it.",
     "stimulus": null,
@@ -666,6 +688,7 @@ var APUSH_FRQ = [
       6
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 7,
     "prompt": "Using the six documents and your knowledge of the period, evaluate the extent to which the rise of industrial capitalism in the Gilded Age benefited American society more than it harmed it.",
     "stimulus": [
@@ -730,6 +753,7 @@ var APUSH_FRQ = [
       7
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -758,6 +782,7 @@ var APUSH_FRQ = [
       7
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -786,6 +811,7 @@ var APUSH_FRQ = [
       7
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Evaluate the extent to which the federal government's response to economic and social crises changed between the Progressive Era (1900-1920) and the New Deal era (1933-1939). In your response, consider both the expansion of federal power and the persistent limits placed on that power by political, economic, and social forces.",
     "stimulus": null,
@@ -801,6 +827,7 @@ var APUSH_FRQ = [
       7
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 7,
     "prompt": "Using all six documents and your knowledge of the period, evaluate the extent to which the New Deal represented a fundamental transformation of the relationship between the federal government and American citizens, rather than merely a temporary response to the economic crisis of the Great Depression.",
     "stimulus": [
@@ -859,6 +886,7 @@ var APUSH_FRQ = [
       8
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -887,6 +915,7 @@ var APUSH_FRQ = [
       8
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -915,6 +944,7 @@ var APUSH_FRQ = [
       8
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Evaluate the extent to which domestic political pressures were the primary drivers of United States foreign policy decisions during the period from 1947 to 1975, as compared to ideological commitments or international strategic calculations.",
     "stimulus": null,
@@ -930,6 +960,7 @@ var APUSH_FRQ = [
       8
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 7,
     "prompt": "Using all six documents and your knowledge of the period, evaluate the extent to which the liberal reform agenda of the postwar era successfully addressed the fundamental inequalities of American society between 1945 and 1975.",
     "stimulus": [
@@ -988,6 +1019,7 @@ var APUSH_FRQ = [
       9
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -1016,6 +1048,7 @@ var APUSH_FRQ = [
       9
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Answer (a), (b), and (c). Each response should be approximately 3-5 sentences.",
     "stimulus": null,
@@ -1044,6 +1077,7 @@ var APUSH_FRQ = [
       9
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Evaluate the extent to which the United States' role as a global superpower shaped domestic political priorities between 1981 and 2012. In your response, assess whether foreign policy commitments - such as Cold War strategy, the War on Terror, or military spending - drove meaningful shifts in domestic economic policy, social programs, or political coalitions, or whether internal forces were more significant in determining the direction of American society during this period.",
     "stimulus": null,
@@ -1059,6 +1093,7 @@ var APUSH_FRQ = [
       9
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 7,
     "prompt": "Using the following six documents and your knowledge of the period, evaluate the extent to which the Reagan Revolution fundamentally transformed the role of the federal government and shaped American political, economic, and social life through the early twenty-first century.",
     "stimulus": [
@@ -1117,6 +1152,7 @@ var APUSH_FRQ = [
       2
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 7,
     "prompt": "Using all seven documents and your knowledge of the period, evaluate the extent to which the shift from indentured servitude to racial slavery in the English colonies was primarily driven by colonial elites' desire for social control rather than by economic necessity.",
     "stimulus": [
