@@ -8,6 +8,7 @@ var APGOV_FRQ = [
       1
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Congress is debating the Marijuana Opportunity Act, a bill that would fully legalize recreational marijuana at the federal level, removing it from the Controlled Substances Act. Supporters argue that federal legalization would create a uniform national market, generate tax revenue, and reduce federal criminal prosecutions. Opponents, however, raise constitutional concerns. Several states that have already legalized marijuana under their own laws worry that full federal regulation could preempt their existing state licensing frameworks. Meanwhile, states that have kept marijuana illegal argue that Congress is overstepping by attempting to dictate drug policy that has traditionally been managed at the state level. The bill includes a provision granting the federal government authority to set national production and distribution standards, while also allowing states to impose additional regulations beyond the federal baseline. Legal scholars debate whether Congress is operating within its enumerated powers under the Commerce Clause or whether drug regulation of this kind encroaches on powers reserved to the states under the Tenth Amendment.",
     "stimulus": null,
@@ -90,6 +91,7 @@ var APGOV_FRQ = [
       1
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "In response to a series of high-profile domestic terrorism investigations, Congress passes the Secure Communications Compliance Act (SCCA), which requires all smartphone manufacturers to install government-accessible backdoors in their encryption software. The legislation is justified under the Commerce Clause as a regulation of interstate commerce in digital goods. Several states immediately pass counter-legislation declaring the SCCA unenforceable within their borders, citing their reserved powers to regulate intrastate communications and protect the privacy rights of their residents under their own state constitutions. Civil liberties organizations challenge the federal law in court, arguing that compelled device access violates the Fourth Amendment's protection against unreasonable searches. The federal government counters that national security demands a uniform, federal solution and that the Supremacy Clause renders state counter-legislation void. Meanwhile, a coalition of governors argues that even if the SCCA is constitutional, Congress has effectively commandeered state regulatory infrastructure to enforce a federal policy goal - a practice the Supreme Court has previously scrutinized in cases involving the Tenth Amendment.",
     "stimulus": null,
@@ -176,6 +178,7 @@ var APGOV_FRQ = [
       1
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 4,
     "prompt": "Use the data described below to answer parts (a) through (d).",
     "stimulus": "A 2023 Pew Research Center survey examined American attitudes toward which level of government should have more power to make decisions on key policy areas. Results showed that 61% of respondents believed state governments should have primary authority over education policy, while only 29% preferred federal authority. On environmental regulations, 54% favored federal authority compared to 36% favoring state authority. For healthcare policy, 48% preferred federal authority and 44% preferred state authority. Overall, when asked broadly which level of government they trusted more, 52% said state governments, 31% said the federal government, and 17% expressed equal trust in both. In 2010, trust in the federal government on this same broad question stood at 49%, compared to 41% trusting state governments more.",
@@ -294,6 +297,7 @@ var APGOV_FRQ = [
       1
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Use your knowledge of McCulloch v. Maryland and Printz v. United States to answer parts (a) through (c).",
     "stimulus": null,
@@ -383,6 +387,7 @@ var APGOV_FRQ = [
       1
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "The constitutional design of American federalism creates an ongoing tension between the expansion of federal authority and the preservation of state sovereignty. Develop an argument that explains whether the structural features of the Constitution - including the enumerated powers, the Supremacy Clause, the Tenth Amendment, and the system of checks and balances - more effectively protect state reserved powers or more effectively enable the growth of federal power over the states. Use at least two pieces of specific evidence from different categories (foundational documents, required Supreme Court cases, or political institutions) to support your argument, address a counterargument, and explain how your argument relates to a relevant political science concept.",
     "stimulus": null,
@@ -483,6 +488,7 @@ var APGOV_FRQ = [
       2
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "In 2023, the President issued an executive order directing the Environmental Protection Agency (EPA) to significantly tighten emissions standards for coal-fired power plants, bypassing what supporters argued would be a lengthy and uncertain legislative process in a divided Congress. The EPA, staffed by career bureaucrats and agency experts, was tasked with writing and enforcing the new regulations. Shortly after the order was issued, a coalition of energy industry lobbying groups - which had long maintained close relationships with both EPA rulemaking offices and key members of the Senate Environment and Public Works Committee - launched an intensive lobbying campaign. The groups argued that the new standards were economically damaging and urged sympathetic senators to hold oversight hearings and cut the EPA's implementation budget. Environmental advocacy organizations countered that the executive order was a necessary exercise of presidential authority given congressional gridlock. Several senators on the committee, who had received substantial campaign contributions from energy PACs, scheduled hearings to scrutinize the EPA's rulemaking process.",
     "stimulus": null,
@@ -569,6 +575,7 @@ var APGOV_FRQ = [
       2
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "The President issues an executive order directing the Environmental Protection Agency (EPA) to implement stringent new methane emission regulations on the oil and gas industry without seeking congressional authorization. The order instructs the EPA to create a permitting system that effectively limits new drilling on federal lands. Shortly after, a coalition of energy companies and their congressional allies - many of whom sit on committees that oversee EPA funding and jurisdiction - begin working with industry lobbyists to pressure Congress to pass legislation nullifying the order and cutting the EPA's budget. Simultaneously, a federal district court upholds the executive order, ruling that the President acted within statutory authority delegated by Congress. The energy industry appeals, and the case is now before the U.S. Court of Appeals, with advocacy groups on both sides filing amicus briefs. Critics argue the order bypasses the lawmaking process entirely, while defenders contend it falls within the President's constitutional and statutory powers to direct executive agencies.",
     "stimulus": null,
@@ -662,6 +669,7 @@ var APGOV_FRQ = [
       2
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 4,
     "prompt": "Use the data described below to answer parts (a) through (d).",
     "stimulus": "The following data describes federal lobbying expenditures and corresponding agency budget outcomes over a five-year period (2018-2022). Defense industry interest groups spent $126 million lobbying Congress in 2018, and the Department of Defense received a discretionary budget increase of 4.2% that year. By 2022, defense lobbying expenditures had risen to $154 million, and the DOD budget increased by 5.8%. In contrast, environmental interest groups spent $18 million lobbying Congress in 2018, and the EPA received a budget decrease of 3.1% that year. By 2022, environmental lobbying expenditures had grown modestly to $22 million, while the EPA budget remained flat at 0.1% growth. Across all sectors tracked, industries spending over $100 million annually in lobbying saw an average budget increase of 4.9% for their corresponding federal agencies, while industries spending under $30 million saw an average agency budget change of -0.8%.",
@@ -772,6 +780,7 @@ var APGOV_FRQ = [
       2
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Use your knowledge of McCulloch v. Maryland (1819) and Gonzales v. Raich (2005) to answer parts (a) through (c).",
     "stimulus": null,
@@ -859,6 +868,7 @@ var APGOV_FRQ = [
       2
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Develop an argument that explains whether the judicial branch or the legislative branch poses a greater long-term check on the expansion of federal executive and bureaucratic power. In your essay, you must state a defensible claim, support it with at least two pieces of specific evidence drawn from different categories (foundational documents, required Supreme Court cases, or political institutions), address a counterargument and explain why your argument still holds, and connect your argument to a relevant political science concept.",
     "stimulus": null,
@@ -965,6 +975,7 @@ var APGOV_FRQ = [
       3
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "A midwestern state legislature passes the Student Safety and Order Act, which authorizes public school administrators to conduct warrantless searches of any student's backpack or locker whenever a school official has a general concern about drug use on campus - even without suspicion directed at a specific student. A group of students and parents file a federal lawsuit arguing the law violates the Fourth Amendment. The state argues that because the law was passed by a democratically elected legislature and applies only to schools - institutions the state funds and operates - the federal Bill of Rights does not constrain state action in this context. The federal district court must now determine whether the Fourth Amendment's protections against unreasonable searches apply to students in state public schools.",
     "stimulus": null,
@@ -1051,6 +1062,7 @@ var APGOV_FRQ = [
       3
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "A state legislature passes the Digital Privacy Restoration Act (DPRA), which allows state law enforcement officers to conduct warrantless searches of suspects' smartphones if the officer has a 'reasonable suspicion' - a lower standard than the federal 'probable cause' requirement established under the Fourth Amendment - that the device contains evidence of a felony. A suspect arrested under the DPRA challenges the law in federal court, arguing that the Fourteenth Amendment obligates states to adhere to the same probable cause and warrant requirements that apply to the federal government. The state counters that the Bill of Rights was originally written to constrain only the federal government, and that states retain sovereign authority to set their own evidentiary and search standards so long as they do not violate their own state constitutions. The federal district court sides with the suspect, ruling that the Fourth Amendment's protections have been incorporated against the states and that the DPRA's 'reasonable suspicion' standard is constitutionally insufficient for a full search of a digital device. The state appeals, reigniting a broader debate about the scope of incorporated rights, the autonomy of state criminal procedure, and the balance between individual civil liberties and effective law enforcement.",
     "stimulus": null,
@@ -1134,6 +1146,7 @@ var APGOV_FRQ = [
       3
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 4,
     "prompt": "Use the data described below to answer parts (a) through (d).",
     "stimulus": "A 2021 Pew Research Center survey asked Americans whether they believed racial integration in public schools had improved educational equality since the Supreme Court's 1954 ruling in Brown v. Board of Education. Results showed that 78% of Black respondents said integration had not gone far enough, compared to 42% of white respondents and 61% of Hispanic respondents. Among respondents aged 18-29, 67% said integration had not gone far enough, while only 44% of respondents aged 65 and older agreed. Overall, 55% of all respondents said integration had not gone far enough, down from 63% who held that view in a comparable 2011 survey.",
@@ -1244,6 +1257,7 @@ var APGOV_FRQ = [
       3
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Use your knowledge of Gideon v. Wainwright (1963) and Mapp v. Ohio (1961) to answer parts (a) through (c).",
     "stimulus": null,
@@ -1334,6 +1348,7 @@ var APGOV_FRQ = [
       3
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Develop an argument that explains whether the Supreme Court's selective incorporation of the Bill of Rights through the Fourteenth Amendment has, on balance, strengthened or weakened the constitutional protection of individual liberties in the United States. Use at least two pieces of specific evidence from different categories (foundational documents, required Supreme Court cases, or political institutions) to support your argument, address a counterargument, and connect your argument to a relevant political science concept.",
     "stimulus": null,
@@ -1426,6 +1441,7 @@ var APGOV_FRQ = [
       4
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "In the months leading up to a competitive 2024 Senate race in a battleground state, a newly formed Super PAC called 'Heartland Values Now' raises $45 million from a small number of wealthy donors and a major trade association. The Super PAC runs an aggressive television and digital advertising campaign targeting the Democratic incumbent, airing over 10,000 ads in a six-week window. The ads frame the incumbent as out of touch with working families on issues like inflation and immigration. Independent polling conducted before and after the ad blitz shows the incumbent's favorability rating dropped 11 points among likely voters, with the sharpest decline among voters who reported consuming local television news most frequently. The incumbent's campaign, funded primarily through small-dollar donations, cannot match the Super PAC's spending. Reform advocates argue the ad campaign distorts public opinion through disproportionate spending, while the Super PAC's backers argue they are simply exercising constitutionally protected political speech.",
     "stimulus": null,
@@ -1509,6 +1525,7 @@ var APGOV_FRQ = [
       4
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "In the months leading up to a competitive U.S. Senate race in a swing state, a nonprofit 501(c)(4) organization called 'Protect American Futures' begins airing millions of dollars in television and digital advertisements attacking the Democratic incumbent on issues ranging from immigration to inflation. The organization is not required to disclose its donors under current IRS rules, making it what campaign finance watchdogs call a 'dark money' group. The ads are coordinated in tone and timing with a Super PAC that separately raises unlimited funds from corporations and wealthy individuals following the Supreme Court's ruling in Citizens United v. FEC (2010). Meanwhile, the incumbent's internal polling shows that among voters who have seen the ads more than three times, her approval rating has dropped 11 points, while voters who rely primarily on local television news - which runs the ads frequently - show the sharpest ideological shift against her. Her campaign manager notes that younger voters, who consume most of their political content via social media algorithms, have not moved nearly as much. Local political scientists attribute the divergence partly to how and where voters were first socialized into political awareness: older voters who grew up trusting broadcast media are more susceptible to the ad's framing, while younger voters apply more skepticism shaped by peer networks and online counter-narratives.",
     "stimulus": null,
@@ -1600,6 +1617,7 @@ var APGOV_FRQ = [
       4
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 4,
     "prompt": "Use the data described below to answer parts (a) through (d).",
     "stimulus": "A 2020 Federal Election Commission report tracks outside spending in presidential election cycles. In 2008, total outside spending was approximately $338 million. Following the Supreme Court's 2010 Citizens United v. FEC ruling, outside spending rose to $1.03 billion in 2012, $1.4 billion in 2016, and $2.9 billion in 2020. Super PACs accounted for 68% of all outside spending in 2020, compared to 41% in 2012. Corporate and nonprofit 'dark money' groups, which are not required to disclose donors, contributed $750 million in 2020, up from $310 million in 2016.",
@@ -1710,6 +1728,7 @@ var APGOV_FRQ = [
       4
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Use your knowledge of Citizens United v. FEC and SpeechNow.org v. FEC to answer parts (a) through (c).",
     "stimulus": null,
@@ -1797,6 +1816,7 @@ var APGOV_FRQ = [
       4
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Develop an argument that explains whether the deregulation of campaign finance - particularly the rise of Super PACs and unlimited independent expenditures following Citizens United v. FEC (2010) - has strengthened or weakened the ability of linkage institutions to accurately represent the political preferences of ordinary citizens.",
     "stimulus": null,
@@ -1894,6 +1914,7 @@ var APGOV_FRQ = [
       5
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Following the 2020 census, the state legislature of a competitive Midwestern state redrew its congressional district maps. Critics alleged that the majority party carved the state's largest city into four separate districts, each anchored by a heavily rural, partisan-leaning county on the city's outskirts. As a result, the urban core's voters - who had previously elected a congressman backed by a minor progressive party in a rare plurality win - found their votes dispersed across four districts where they would constitute a minority in each. The minor party's candidate, anticipating near-certain defeat under the new map, withdrew from the upcoming election. Simultaneously, political scientists studying the state noted a sharp projected decline in urban voter turnout for the next cycle, citing research linking perceived vote efficacy to participation rates. The state legislature defended the map as a lawful exercise of its redistricting authority and argued that the new districts better reflected 'communities of interest' in the rural portions of each district.",
     "stimulus": null,
@@ -1980,6 +2001,7 @@ var APGOV_FRQ = [
       5
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Following the 2030 census, the state legislature of a competitive Midwestern state passes a redistricting plan that consolidates the majority of urban and suburban voters - who tend to split their votes among the Democratic Party, the Republican Party, and a growing regional third party called the Heartland Alliance - into just three heavily packed congressional districts. Rural districts, drawn to favor the dominant party in the legislature, are expanded in number from four to seven. The Heartland Alliance, which had won 18% of the statewide popular vote in the previous election but zero congressional seats, argues that the new map further entrenches a two-party duopoly. Political scientists note that the party's support is geographically diffuse, making it especially vulnerable to the new boundaries. Meanwhile, both major parties defend the map, with incumbents in the redrawn safe districts already announcing re-election campaigns and citing their strong name recognition and established donor networks as reasons they expect to win comfortably. Reform advocates propose a ballot initiative that would create an independent redistricting commission, but face an uphill battle because voter turnout in off-year ballot initiative elections in the state historically hovers around 28%, and low-propensity voters - who polls show are more sympathetic to third-party options - are least likely to participate.",
     "stimulus": null,
@@ -2061,6 +2083,7 @@ var APGOV_FRQ = [
       5
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 4,
     "prompt": "Use the data described below to answer parts (a) through (d).",
     "stimulus": "The following data describes U.S. House of Representatives re-election rates and campaign fundraising from 2010 to 2022. In 2010, House incumbents won re-election at a rate of 85%. By 2014, that rate rose to 95%, and it remained at 94% in 2018 and 93% in 2022. In terms of fundraising, incumbent House candidates raised an average of $1.8 million per campaign cycle in 2022, compared to $420,000 raised on average by their challengers. Additionally, a 2022 survey found that 67% of voters could name their current House representative, compared to only 28% who could name the challenger running against the incumbent in their district.",
@@ -2183,6 +2206,7 @@ var APGOV_FRQ = [
       5
     ],
     "difficulty": "medium",
+    "autoGraded": true,
     "points": 3,
     "prompt": "Use your knowledge of Citizens United v. FEC and Buckley v. Valeo to answer parts (a) through (c).",
     "stimulus": null,
@@ -2272,6 +2296,7 @@ var APGOV_FRQ = [
       5
     ],
     "difficulty": "hard",
+    "autoGraded": true,
     "points": 6,
     "prompt": "Develop an argument that explains whether the structural features of the American electoral system are more responsible for the weakness of third parties than voter preferences or cultural factors. In your essay, you must state a defensible claim, support your argument with at least two pieces of specific evidence drawn from different categories (foundational documents, required Supreme Court cases, or political institutions), address a counterargument to your position and explain why your argument still holds, and connect your argument to a relevant political science concept.",
     "stimulus": null,
