@@ -16,6 +16,7 @@ let frqTimeRemaining = 5400;
 let autoSaveInterval = null;
 let mcqQuestions = [];
 let frqQuestions = [];
+let pendingConfirmAction = null;
 
 // ─── Event delegation (CSP-safe — no inline onclick) ─────────────────────────
 document.addEventListener('click', function(e) {
@@ -368,8 +369,8 @@ function wireButtons() {
       if (currentSection === 'mcq') confirmSubmit('mcq');
       else if (currentSection === 'frq') confirmSubmit('frq');
     }
-    if (e.target.id === 'confirmSubmit') { hideModal(); currentSection === 'mcq' ? finishMCQ() : finishFRQ(); }
-    if (e.target.id === 'cancelSubmit') { hideModal(); document.getElementById('confirmSubmit').onclick = () => { hideModal(); currentSection === 'mcq' ? finishMCQ() : finishFRQ(); }; }
+    if (e.target.id === 'confirmSubmit') { hideModal(); if (pendingConfirmAction) { pendingConfirmAction(); pendingConfirmAction = null; } }
+    if (e.target.id === 'cancelSubmit') { hideModal(); pendingConfirmAction = null; }
     if (e.target.id === 'prevMCQ') goPrevMCQ();
     if (e.target.id === 'nextMCQ') goNextMCQ();
     if (e.target.id === 'prevFRQ') goPrevFRQ();
@@ -721,10 +722,13 @@ function renderFRQQuestion(index) {
         <div class="frq-part-instruction">${renderFRQPromptText(instruction)}</div>
         ${p.image ? `<div class="question-image-wrap frq-part-image"><img class="physics-diagram-img" data-physics-diagram src="${App.escapeHtml(p.image)}" alt="Diagram" loading="lazy"><span class="physics-diagram-hint">Click to expand</span></div>` : ''}
         <textarea class="frq-textarea" placeholder="${placeholder}"
-          onchange="saveFRQInput('${frq.id}','${p.label}',this.value)"
-          oninput="saveFRQInput('${frq.id}','${p.label}',this.value)">${App.escapeHtml(saved[p.label] || '')}</textarea>
+          data-frq-id="${frq.id}" data-part-label="${p.label}">${App.escapeHtml(saved[p.label] || '')}</textarea>
       </div>`;
     }).join('')}`;
+
+  content.querySelectorAll('.frq-textarea').forEach(ta => {
+    ta.addEventListener('input', () => saveFRQInput(ta.dataset.frqId, ta.dataset.partLabel, ta.value));
+  });
 
   // Render any LaTeX that was embedded as data-latex spans
   renderMath(content);
@@ -849,8 +853,7 @@ function confirmSubmit(section) {
     const unansweredPartA = 30 - answeredPartA;
     const msg = `You answered ${answeredPartA}/30 Part A questions.${unansweredPartA > 0 ? ` <strong>${unansweredPartA} unanswered.</strong>` : ''} You cannot return to Part A after submitting.`;
     showModal('Submit Part A?', msg);
-    // Override confirmSubmit button to call finishPartA instead of finishMCQ
-    document.getElementById('confirmSubmit').onclick = () => { hideModal(); finishPartA(); };
+    pendingConfirmAction = finishPartA;
     return;
   }
   const unanswered = section === 'mcq'
@@ -860,6 +863,7 @@ function confirmSubmit(section) {
     ? `You answered ${mcqQuestions.length - unanswered}/${mcqQuestions.length} questions.${unanswered > 0 ? ` <strong>${unanswered} unanswered.</strong>` : ''}`
     : 'This will end the test. You can review and self-grade FRQs after.';
   showModal(section === 'mcq' ? 'Submit Section I?' : 'Submit Test?', msg);
+  pendingConfirmAction = section === 'mcq' ? finishMCQ : finishFRQ;
 }
 
 function showModal(title, body) {
