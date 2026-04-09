@@ -849,9 +849,11 @@ function saveActiveTest() {
 // ─── Confirm Modal ────────────────────────────────────────────────────────────
 function confirmSubmit(section) {
   if (section === 'mcq-partA') {
-    const answeredPartA = mcqQuestions.slice(0, 30).filter(q => mcqAnswers[q.id] !== undefined).length;
-    const unansweredPartA = 30 - answeredPartA;
-    const msg = `You answered ${answeredPartA}/30 Part A questions.${unansweredPartA > 0 ? ` <strong>${unansweredPartA} unanswered.</strong>` : ''} You cannot return to Part A after submitting.`;
+    const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+    const partACount = (subj && subj.mcqParts) ? subj.mcqParts[0].count : 30;
+    const answeredPartA = mcqQuestions.slice(0, partACount).filter(q => mcqAnswers[q.id] !== undefined).length;
+    const unansweredPartA = partACount - answeredPartA;
+    const msg = `You answered ${answeredPartA}/${partACount} Part A questions.${unansweredPartA > 0 ? ` <strong>${unansweredPartA} unanswered.</strong>` : ''} You cannot return to Part A after submitting.`;
     showModal('Submit Part A?', msg);
     pendingConfirmAction = finishPartA;
     return;
