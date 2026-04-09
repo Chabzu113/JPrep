@@ -2,7 +2,7 @@
 // Handles: localStorage persistence, dark mode, shared state, helper functions
 
 const APP_VERSION = '1.8.1';   // keep in sync with GitHub release tags
-const GITHUB_REPO  = 'Chabzu113/APCSAPractice';
+const GITHUB_REPO  = 'Chabzu113/JPrep';
 const STORAGE_KEY  = 'apcsa_state';
 
 // ─── Update Check ──────────────────────────────────────────────────────────
@@ -20,7 +20,7 @@ async function checkForUpdate() {
 
     // Find the direct download URL for the platform-specific asset
     const isWin = window.electronAPI && window.electronAPI.platform === 'win32';
-    const assetName = isWin ? 'APTestPrep-Win.exe' : 'APTestPrep-Mac.zip';
+    const assetName = isWin ? 'APTestPrep-Win.exe' : 'JPrep-Mac.zip';
     const asset = (data.assets || []).find(a => a.name === assetName);
     const assetUrl = asset ? asset.browser_download_url : null;
 
