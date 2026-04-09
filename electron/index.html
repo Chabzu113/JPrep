@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JPrep — Master Your AP Exams</title>
   <!-- Early redirect for first-time users (before loading heavy data files) -->
-  <script>try{var s=JSON.parse(localStorage.getItem('apcsa_state')||'{}');if(!s.subjectsConfigured)window.location.replace('subject-select.html')}catch(e){}</script>
+  <script src="js/redirectGuard.js"></script>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/planner.css">
@@ -159,7 +159,7 @@
 
   <script src="js/subjects.js"></script>
   <script src="js/data/apcsa_mcq.js"></script>
-  <script src="js/data/frq.js"></script>
+  <script src="js/data/apcsa_frq.js"></script>
   <script src="js/data/tests.js"></script>
   <script src="js/data/apbio_mcq.js"></script>
   <script src="js/data/apbio_test_mcq.js"></script>
