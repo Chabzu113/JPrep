@@ -145,7 +145,7 @@ function getQuestionTypeLabel(q, subjId) {
     return 'FRQ';
   }
   // MCQ
-  if (subjId === 'apcalcab') {
+  if (subjId === 'apcalcab' || subjId === 'apcalcbc') {
     return q.calculator ? 'Calc MCQ' : 'Non-Calc MCQ';
   }
   return 'MCQ';
@@ -157,7 +157,7 @@ function loadQuestionsForActiveSubject() {
     // Fallback: legacy globals for AP CS A
     return [
       ...(typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ.map(q => ({ ...q, type: q.type || 'MCQ' })) : []),
-      ...(typeof FRQ_BANK !== 'undefined' ? FRQ_BANK.map(f => ({ ...f, type: 'FRQ', unit: f.units ? f.units[0] : 1 })) : [])
+      ...(typeof APCSA_FRQ !== 'undefined' ? APCSA_FRQ.map(f => ({ ...f, type: 'FRQ', unit: f.units ? f.units[0] : 1 })) : [])
     ];
   }
 
@@ -429,8 +429,10 @@ function renderPreview() {
       container.innerHTML = `<div class="card" style="text-align:center;padding:48px;color:var(--text-muted)">
         <div style="font-size:2rem;margin-bottom:12px">🔍</div>
         <p>No questions match your filters.</p>
-        <button class="btn btn-secondary" onclick="clearFilters()" style="margin-top:12px">Clear Filters</button>
+        <button class="btn btn-secondary" data-action="clear-filters" style="margin-top:12px">Clear Filters</button>
       </div>`;
+      const clearBtn = document.querySelector('[data-action="clear-filters"]');
+      if (clearBtn) clearBtn.addEventListener('click', clearFilters);
     }
     return;
   }
@@ -772,6 +774,9 @@ function renderSessionQuestion() {
             const questionPromptHtml = (p.synthetic && p.question)
               ? `<div style="padding:8px 12px 10px;font-size:0.84rem;color:var(--text-secondary);border-bottom:1px solid var(--border-color)">${p.question}</div>`
               : '';
+            const mathToolbarHtml = (window.MathKeyboard && MathKeyboard.shouldShow(q))
+              ? MathKeyboard.renderToolbar('frqPartEditor_' + p.label)
+              : '';
             return `
             <div class="frq-editor-section" style="margin-bottom:14px;border:1px solid var(--border-color);border-radius:8px;overflow:hidden">
               <div class="frq-editor-header" style="display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:var(--card-header-bg,var(--bg-secondary));border-bottom:1px solid var(--border-color)">
@@ -781,6 +786,7 @@ function renderSessionQuestion() {
                 ${ptsLabel ? `<span style="font-size:0.78rem;color:var(--text-muted);font-weight:600">${ptsLabel}</span>` : ''}
               </div>
               ${questionPromptHtml}
+              ${mathToolbarHtml}
               <textarea id="frqPartEditor_${p.label}" class="frq-code-editor"
                 style="min-height:${minH};border:none;border-radius:0;resize:vertical"
                 placeholder="Write your response for Part (${p.label.toUpperCase()})..."></textarea>
@@ -857,6 +863,9 @@ function renderSessionQuestion() {
       ${starterHtml}
       <div class="session-answer-area">${bodyHtml}</div>
     </div>`;
+
+  // Wire math keyboard toolbar buttons (before renderMath so DOM is ready)
+  if (window.MathKeyboard) MathKeyboard.wireToolbar(wrap);
 
   // Render any LaTeX embedded as data-latex spans (AP Calc AB, etc.)
   console.log('[renderSessionQuestion] KaTeX available:', typeof katex !== 'undefined', '| renderMath available:', typeof renderMath !== 'undefined');

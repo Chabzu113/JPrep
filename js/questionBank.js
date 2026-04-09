@@ -429,8 +429,10 @@ function renderPreview() {
       container.innerHTML = `<div class="card" style="text-align:center;padding:48px;color:var(--text-muted)">
         <div style="font-size:2rem;margin-bottom:12px">🔍</div>
         <p>No questions match your filters.</p>
-        <button class="btn btn-secondary" onclick="clearFilters()" style="margin-top:12px">Clear Filters</button>
+        <button class="btn btn-secondary" data-action="clear-filters" style="margin-top:12px">Clear Filters</button>
       </div>`;
+      const clearBtn = document.querySelector('[data-action="clear-filters"]');
+      if (clearBtn) clearBtn.addEventListener('click', clearFilters);
     }
     return;
   }
