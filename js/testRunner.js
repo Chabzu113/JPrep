@@ -110,10 +110,16 @@ function renderHubScreen() {
   const allSubjects = (window.SubjectRegistry && window.SubjectRegistry.SUBJECTS) || [];
   const state = App.getState();
 
-  let inProgress = null;
+  const inProgressMap = {};
   try {
-    const key = App.subjectStorageKey ? App.subjectStorageKey('active_test') : 'apcsa_active_test';
-    inProgress = JSON.parse(localStorage.getItem(key) || localStorage.getItem('apcsa_active_test'));
+    (state.selectedSubjects || []).forEach(sid => {
+      const key = sid + '_active_test';
+      const raw = localStorage.getItem(key);
+      if (raw) {
+        const data = JSON.parse(raw);
+        if (data && data.testId) inProgressMap[data.testId] = data;
+      }
+    });
   } catch(e) { console.warn('localStorage read error:', e); }
 
   const selectedIds = new Set(state.selectedSubjects || []);
@@ -153,7 +159,7 @@ function renderHubScreen() {
       const frqCnt = (test.frqIds || test.frqs || []).length;
       const results = subjHist.filter(r => r.testId === test.id).sort((a,b) => b.date - a.date);
       const latest = results[0];
-      const isProg = inProgress && inProgress.testId === test.id;
+      const isProg = !!inProgressMap[test.id];
 
       let badgeHtml = '', barHtml = '', actionsHtml = '';
 
@@ -174,7 +180,7 @@ function renderHubScreen() {
           <a href="review.html" data-action="setActiveSubject" data-subject-id="${subject.id}" style="flex:1;text-align:center" class="btn btn-primary btn-sm">Results →</a>
         </div>`;
       } else if (isProg) {
-        const answeredCnt = inProgress.mcqAnswers ? Object.keys(inProgress.mcqAnswers).length : 0;
+        const answeredCnt = inProgressMap[test.id].mcqAnswers ? Object.keys(inProgressMap[test.id].mcqAnswers).length : 0;
         const pct = mcqCnt > 0 ? Math.round((answeredCnt / mcqCnt) * 100) : 0;
         badgeHtml = `<span style="background:rgba(245,158,11,0.12);color:#F59E0B;padding:2px 9px;border-radius:99px;font-size:0.7rem;font-weight:700;white-space:nowrap">⏱ In Progress</span>`;
         barHtml = `<div style="margin-top:12px">
