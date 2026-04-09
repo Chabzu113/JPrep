@@ -530,16 +530,9 @@ function renderAllExamsTable() {
 }
 
 function updateAllExamsTable(activeId) {
-  // Just re-render with new active id context
+  // Just re-render with new active id context; renderAllExamsTable() wires listeners.
   _activeTabId = activeId;
   renderAllExamsTable();
-  // Re-wire after re-render
-  const table = document.getElementById('allExamsTable');
-  if (table) {
-    table.querySelectorAll('.switch-subject-btn:not([disabled])').forEach(btn => {
-      btn.addEventListener('click', () => setActiveTab(btn.dataset.id));
-    });
-  }
 }
 
 // ─── Live Countdown Tick ──────────────────────────────────────────────────────
