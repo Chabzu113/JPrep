@@ -138,7 +138,7 @@ function renderFRQReview() {
     }
   }
   // Also try known global FRQ arrays as a final fallback
-  ['APUSH_FRQ', 'FRQ_BANK', 'APBIO_FRQ', 'APMICRO_FRQ', 'APSTATS_FRQ'].forEach(name => {
+  ['APUSH_FRQ', 'APCSA_FRQ', 'APBIO_FRQ', 'APMICRO_FRQ', 'APSTATS_FRQ'].forEach(name => {
     if (typeof window[name] !== 'undefined') allPools.push(window[name]);
   });
 

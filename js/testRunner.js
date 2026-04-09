@@ -69,7 +69,7 @@ function loadAllQuestionsForActiveSubject() {
   // Fallback: legacy globals for AP CS A
   return [
     ...(typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ : []),
-    ...(typeof FRQ_BANK !== 'undefined' ? FRQ_BANK : [])
+    ...(typeof APCSA_FRQ !== 'undefined' ? APCSA_FRQ : [])
   ];
 }
 

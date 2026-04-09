@@ -247,7 +247,7 @@ function getOverallStats() {
 function getAllQuestions() {
   const mcq1 = typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ : [];
   const mcq2 = [];
-  const frqs = typeof FRQ_BANK !== 'undefined' ? FRQ_BANK : [];
+  const frqs = typeof APCSA_FRQ !== 'undefined' ? APCSA_FRQ : [];
   return [...mcq1, ...mcq2, ...frqs];
 }
 
