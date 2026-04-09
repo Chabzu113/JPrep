@@ -257,8 +257,8 @@ function selectTest(testId, subjectId) {
         mcqTimeRemaining = data.mcqTimeRemaining ?? 5400;
         frqTimeRemaining = data.frqTimeRemaining ?? 5400;
         setTestMode(true);
-        if (data.section === 'mcq') { startSection('mcq'); return; }
-        if (data.section === 'frq') { startSection('frq'); return; }
+        if (data.section === 'mcq') { startSection('mcq'); renderMCQQuestion(data.currentQuestion || 0); return; }
+        if (data.section === 'frq') { startSection('frq'); renderFRQQuestion(data.currentQuestion || 0); return; }
       } else {
         localStorage.removeItem(activeKey);
         localStorage.removeItem('apcsa_active_test');
@@ -836,7 +836,8 @@ function saveActiveTest() {
   try {
     localStorage.setItem(App.subjectStorageKey('active_test'), JSON.stringify({
       testId: currentTest?.id, section: currentSection,
-      mcqAnswers, frqAnswers, flagged: [...flagged], mcqTimeRemaining, frqTimeRemaining
+      mcqAnswers, frqAnswers, flagged: [...flagged], mcqTimeRemaining, frqTimeRemaining,
+      currentQuestion
     }));
   } catch(e) { console.warn('auto-save error:', e); }
 }

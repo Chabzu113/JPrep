@@ -10,7 +10,9 @@ let mcqAnswers = {};
 let frqAnswers = {};
 let flagged = new Set();
 let timer = null;
-let timeRemaining = 5400;
+let mcqTimeRemaining = 5400;
+let currentMCQPart = 0; // 0 = Part A, 1 = Part B (only used for subjects with mcqParts)
+let frqTimeRemaining = 5400;
 let autoSaveInterval = null;
 let mcqQuestions = [];
 let frqQuestions = [];
@@ -67,7 +69,7 @@ function loadAllQuestionsForActiveSubject() {
   // Fallback: legacy globals for AP CS A
   return [
     ...(typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ : []),
-    ...(typeof FRQ_BANK !== 'undefined' ? FRQ_BANK : [])
+    ...(typeof APCSA_FRQ !== 'undefined' ? APCSA_FRQ : [])
   ];
 }
 
@@ -84,7 +86,7 @@ function goBackToHub() {
     if (!confirm('Leave this test? Your progress is auto-saved.')) return;
     stopTimer(); clearInterval(autoSaveInterval);
   }
-  currentTest = null; currentSection = 'intro';
+  currentTest = null; currentSection = 'intro'; currentMCQPart = 0;
   mcqAnswers = {}; frqAnswers = {}; flagged = new Set();
   renderHubScreen();
 }
@@ -146,8 +148,8 @@ function renderHubScreen() {
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px">`;
 
     for (const test of tests) {
-      const mcqCnt = (test.mcqIds || []).length;
-      const frqCnt = (test.frqIds || []).length;
+      const mcqCnt = (test.mcqIds || test.questions || []).length;
+      const frqCnt = (test.frqIds || test.frqs || []).length;
       const results = subjHist.filter(r => r.testId === test.id).sort((a,b) => b.date - a.date);
       const latest = results[0];
       const isProg = inProgress && inProgress.testId === test.id;
@@ -219,12 +221,29 @@ function selectTest(testId, subjectId) {
   currentTest = tests.find(t => t.id === testId);
   if (!currentTest) { renderHubScreen(); return; }
 
+  // If test has embedded questions, use them directly (new JSON format)
+  if (currentTest.questions && Array.isArray(currentTest.questions)) {
+    mcqQuestions = currentTest.questions;
+    // Normalize rubric field: map criterion → description for manual grading UI
+    frqQuestions = (currentTest.frqs || []).map(f => {
+      if (f.rubric) {
+        f.rubric = f.rubric.map(r => ({
+          ...r,
+          description: r.description || r.criterion || '',
+        }));
+      }
+      // Tag APUSH FRQs so the grader routes correctly
+      if (currentTest.subject === 'apush') f.subject = 'apush';
+      return f;
+    });
+  } else {
   const allQ = loadAllQuestionsForActiveSubject();
   const allMCQ = allQ.filter(q => q.choices || !Array.isArray(q.units));
   const frqPool = allQ.filter(q => Array.isArray(q.units) || q.parts);
 
   mcqQuestions = (currentTest.mcqIds || []).map(id => allMCQ.find(q => q.id === id)).filter(Boolean);
   frqQuestions = (currentTest.frqIds || []).map(id => frqPool.find(f => f.id === id)).filter(Boolean);
+  } // end ID-based lookup
 
   try {
     const activeKey = App.subjectStorageKey('active_test');
@@ -235,10 +254,11 @@ function selectTest(testId, subjectId) {
         mcqAnswers = data.mcqAnswers || {};
         frqAnswers = data.frqAnswers || {};
         flagged = new Set(data.flagged || []);
-        timeRemaining = data.timeRemaining || 5400;
+        mcqTimeRemaining = data.mcqTimeRemaining ?? 5400;
+        frqTimeRemaining = data.frqTimeRemaining ?? 5400;
         setTestMode(true);
-        if (data.section === 'mcq') { startSection('mcq'); return; }
-        if (data.section === 'frq') { startSection('frq'); return; }
+        if (data.section === 'mcq') { startSection('mcq'); renderMCQQuestion(data.currentQuestion || 0); return; }
+        if (data.section === 'frq') { startSection('frq'); renderFRQQuestion(data.currentQuestion || 0); return; }
       } else {
         localStorage.removeItem(activeKey);
         localStorage.removeItem('apcsa_active_test');
@@ -246,6 +266,11 @@ function selectTest(testId, subjectId) {
     }
   } catch(e) { console.warn('localStorage read error:', e); }
 
+  const refBtn = document.getElementById('refSheetBtn');
+  if (refBtn) {
+    const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(subjectId) : null;
+    refBtn.classList.toggle('hidden', !(subj && subj.referenceSheet));
+  }
   setTestMode(true);
   renderIntroScreen();
   showScreen('introScreen');
@@ -275,19 +300,41 @@ function showScreen(screenId) {
 function renderIntroScreen() {
   const el = document.getElementById('introScreen');
   if (!el || !currentTest) return;
+  const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+  const frqMin = subj && subj.frqTime ? Math.round(subj.frqTime / 60) : 90;
+  let mcqRowsHtml;
+  if (subj && subj.mcqParts) {
+    const pA = subj.mcqParts[0];
+    const pB = subj.mcqParts[1];
+    mcqRowsHtml = `
+        <div style="padding:14px 0;border-bottom:1px solid var(--border-color)">
+          <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+            <span><strong>Section I</strong> — Multiple Choice</span>
+            <span style="color:var(--text-muted)">${mcqQuestions.length} questions · ${Math.round((pA.time + pB.time) / 60)} min</span>
+          </div>
+          <div style="font-size:0.85rem;color:var(--text-muted);padding-left:8px;line-height:1.8">
+            Part A: ${pA.count} questions · ${Math.round(pA.time / 60)} min · No calculator<br>
+            Part B: ${pB.count} questions · ${Math.round(pB.time / 60)} min · Calculator permitted
+          </div>
+        </div>`;
+  } else {
+    const mcqMin = subj && subj.mcqTime ? Math.round(subj.mcqTime / 60) : 90;
+    mcqRowsHtml = `
+        <div style="display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--border-color)">
+          <span><strong>Section I</strong> — Multiple Choice</span>
+          <span style="color:var(--text-muted)">${mcqQuestions.length} questions · ${mcqMin} min</span>
+        </div>`;
+  }
   el.innerHTML = `
     <div style="max-width:600px;margin:60px auto;padding:0 20px;text-align:center">
       <div style="font-size:2.5rem;margin-bottom:16px">📝</div>
       <h1 style="font-size:2rem;font-weight:800;margin-bottom:8px">${currentTest.title}</h1>
       <p style="color:var(--text-muted);margin-bottom:32px">${currentTest.description}</p>
       <div class="card" style="text-align:left;margin-bottom:28px">
-        <div style="display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--border-color)">
-          <span><strong>Section I</strong> — Multiple Choice</span>
-          <span style="color:var(--text-muted)">${mcqQuestions.length} questions · 90 min</span>
-        </div>
+        ${mcqRowsHtml}
         <div style="display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--border-color)">
           <span><strong>Section II</strong> — Free Response</span>
-          <span style="color:var(--text-muted)">${frqQuestions.length} questions · 90 min</span>
+          <span style="color:var(--text-muted)">${frqQuestions.length} questions · ${frqMin} min</span>
         </div>
         <div style="padding:14px 0;color:var(--text-muted);font-size:0.9rem;line-height:1.8">
           No feedback during the test · Flag questions to revisit · FRQs self-graded after · Progress auto-saved
@@ -306,6 +353,11 @@ function wireButtons() {
   if (desmosBtn) desmosBtn.addEventListener('click', toggleDesmos);
   const desmosClose = document.getElementById('desmos-close');
   if (desmosClose) desmosClose.addEventListener('click', toggleDesmos);
+  const refSheetBtn = document.getElementById('refSheetBtn');
+  if (refSheetBtn) refSheetBtn.addEventListener('click', () => {
+    const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+    if (subj && subj.referenceSheet) window.open(subj.referenceSheet, '_blank');
+  });
 
   // Event delegation for dynamically-rendered buttons
   document.addEventListener('click', e => {
@@ -317,7 +369,7 @@ function wireButtons() {
       else if (currentSection === 'frq') confirmSubmit('frq');
     }
     if (e.target.id === 'confirmSubmit') { hideModal(); currentSection === 'mcq' ? finishMCQ() : finishFRQ(); }
-    if (e.target.id === 'cancelSubmit') hideModal();
+    if (e.target.id === 'cancelSubmit') { hideModal(); document.getElementById('confirmSubmit').onclick = () => { hideModal(); currentSection === 'mcq' ? finishMCQ() : finishFRQ(); }; }
     if (e.target.id === 'prevMCQ') goPrevMCQ();
     if (e.target.id === 'nextMCQ') goNextMCQ();
     if (e.target.id === 'prevFRQ') goPrevFRQ();
@@ -334,6 +386,15 @@ function startSection(section) {
   stopTimer();
 
   if (section === 'mcq') {
+    const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+    mcqTimeRemaining = (subj && subj.mcqParts) ? subj.mcqParts[0].time : ((subj && subj.mcqTime) || 5400);
+    currentMCQPart = 0;
+    const desmosBtn = document.getElementById('desmosBtn');
+    if (desmosBtn && subj && subj.mcqParts) {
+      desmosBtn.style.display = subj.mcqParts[0].calculator ? '' : 'none';
+    } else if (desmosBtn) {
+      desmosBtn.style.display = '';
+    }
     showScreen('mcqScreen');
     updateTimerDisplay();
     startTimer();
@@ -344,7 +405,8 @@ function startSection(section) {
     showScreen('breakScreen');
     renderBreakScreen();
   } else if (section === 'frq') {
-    timeRemaining = 5400;
+    const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+    frqTimeRemaining = (subj && subj.frqTime) || 5400;
     showScreen('frqScreen');
     updateTimerDisplay();
     startTimer();
@@ -358,9 +420,10 @@ function startSection(section) {
 function startTimer() {
   stopTimer();
   timer = setInterval(() => {
-    timeRemaining = Math.max(0, timeRemaining - 1);
+    if (currentSection === 'mcq') mcqTimeRemaining = Math.max(0, mcqTimeRemaining - 1);
+    else frqTimeRemaining = Math.max(0, frqTimeRemaining - 1);
     updateTimerDisplay();
-    if (timeRemaining === 0) { stopTimer(); currentSection === 'mcq' ? finishMCQ() : finishFRQ(); }
+    if ((currentSection === 'mcq' ? mcqTimeRemaining : frqTimeRemaining) === 0) { stopTimer(); currentSection === 'mcq' ? finishMCQ() : finishFRQ(); }
   }, 1000);
 }
 
@@ -369,13 +432,14 @@ function stopTimer() { if (timer) { clearInterval(timer); timer = null; } }
 function updateTimerDisplay() {
   const el = document.getElementById('timerDisplay');
   if (!el) return;
-  const h = Math.floor(timeRemaining / 3600);
-  const m = Math.floor((timeRemaining % 3600) / 60);
-  const s = timeRemaining % 60;
+  const t = currentSection === 'frq' ? frqTimeRemaining : mcqTimeRemaining;
+  const h = Math.floor(t / 3600);
+  const m = Math.floor((t % 3600) / 60);
+  const s = t % 60;
   el.textContent = `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
   el.className = 'timer';
-  if (timeRemaining <= 600) el.classList.add('warning');
-  if (timeRemaining <= 60) el.classList.add('danger');
+  if (t <= 600) el.classList.add('warning');
+  if (t <= 60) el.classList.add('danger');
 }
 
 // ─── MCQ ──────────────────────────────────────────────────────────────────────
@@ -390,7 +454,16 @@ function renderMCQQuestion(index) {
   if (fillEl) fillEl.style.width = pct + '%';
 
   const numEl = document.getElementById('mcqQuestionNum');
-  if (numEl) numEl.textContent = `Question ${index + 1} of ${mcqQuestions.length}`;
+  const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+  if (numEl) {
+    if (subj && subj.mcqParts) {
+      const part = subj.mcqParts[currentMCQPart];
+      const partStart = currentMCQPart === 0 ? 0 : subj.mcqParts[0].count;
+      numEl.textContent = `${part.label} — Question ${index - partStart + 1} of ${part.count}`;
+    } else {
+      numEl.textContent = `Question ${index + 1} of ${mcqQuestions.length}`;
+    }
+  }
 
   const flagBtn = document.getElementById('flagBtn');
   if (flagBtn) {
@@ -452,7 +525,16 @@ function renderMCQQuestion(index) {
   const prevBtn = document.getElementById('prevMCQ');
   const nextBtn = document.getElementById('nextMCQ');
   if (prevBtn) prevBtn.disabled = index === 0;
-  if (nextBtn) nextBtn.textContent = index === mcqQuestions.length - 1 ? 'Submit Section' : 'Next →';
+  if (nextBtn) {
+    const subjNext = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+    if (subjNext && subjNext.mcqParts && currentMCQPart === 0 && index === subjNext.mcqParts[0].count - 1) {
+      nextBtn.textContent = 'Submit Part A →';
+    } else if (index === mcqQuestions.length - 1) {
+      nextBtn.textContent = 'Submit Section';
+    } else {
+      nextBtn.textContent = 'Next →';
+    }
+  }
   renderQuestionNav();
 }
 
@@ -474,8 +556,14 @@ function renderQuestionNav() {
 }
 
 function goNextMCQ() {
-  if (currentQuestion < mcqQuestions.length - 1) renderMCQQuestion(currentQuestion + 1);
-  else confirmSubmit('mcq');
+  const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+  if (subj && subj.mcqParts && currentMCQPart === 0 && currentQuestion === subj.mcqParts[0].count - 1) {
+    confirmSubmit('mcq-partA');
+  } else if (currentQuestion < mcqQuestions.length - 1) {
+    renderMCQQuestion(currentQuestion + 1);
+  } else {
+    confirmSubmit('mcq');
+  }
 }
 function goPrevMCQ() { if (currentQuestion > 0) renderMCQQuestion(currentQuestion - 1); }
 
@@ -484,6 +572,43 @@ function finishMCQ() {
   localStorage.removeItem(App.subjectStorageKey('active_test'));
   localStorage.removeItem('apcsa_active_test');
   renderBreakScreen(); showScreen('breakScreen');
+}
+
+function finishPartA() {
+  stopTimer();
+  currentMCQPart = 1;
+  const subj = window.SubjectRegistry ? window.SubjectRegistry.getSubjectById(App.getActiveSubject()) : null;
+  const partB = subj && subj.mcqParts ? subj.mcqParts[1] : null;
+  mcqTimeRemaining = partB ? partB.time : 2700;
+
+  // Show/hide Desmos based on Part B calculator flag
+  const desmosBtn = document.getElementById('desmosBtn');
+  if (desmosBtn) desmosBtn.style.display = (partB && partB.calculator) ? '' : 'none';
+
+  // Show Part A complete mini-break screen inside the break screen
+  const el = document.getElementById('breakScreen');
+  if (el) {
+    const answeredA = mcqQuestions.slice(0, subj.mcqParts[0].count).filter(q => mcqAnswers[q.id] !== undefined).length;
+    el.innerHTML = `
+      <div style="max-width:520px;margin:80px auto;text-align:center;padding:0 20px">
+        <div style="font-size:2.5rem;margin-bottom:16px">✏️</div>
+        <h2 style="font-size:1.8rem;font-weight:800;margin-bottom:8px">Part A Complete!</h2>
+        <p style="color:var(--text-muted);margin-bottom:8px">You answered ${answeredA} of ${subj.mcqParts[0].count} questions.</p>
+        <p style="color:var(--text-muted);margin-bottom:8px">You may now use your calculator.</p>
+        <p style="color:var(--text-muted);margin-bottom:32px">Part B: ${partB ? partB.count : 15} questions · ${partB ? Math.floor(partB.time / 60) : 45} minutes</p>
+        <button class="btn btn-primary btn-lg" id="startPartBBtn">Start Part B →</button>
+      </div>`;
+  }
+  showScreen('breakScreen');
+
+  // Wire the Part B start button
+  document.getElementById('startPartBBtn').addEventListener('click', () => {
+    showScreen('mcqScreen');
+    updateTimerDisplay();
+    startTimer();
+    renderMCQQuestion(subj.mcqParts[0].count); // start at question 31
+    renderQuestionNav();
+  });
 }
 
 // ─── Break ────────────────────────────────────────────────────────────────────
@@ -640,10 +765,16 @@ function finishFRQ() {
   const mcqCorrect = mcqQuestions.filter(q => mcqAnswers[q.id] === q.answer).length;
   const result = {
     testId: currentTest.id, testTitle: currentTest.title, date: Date.now(),
-    mcqIds: currentTest.mcqIds, frqIds: currentTest.frqIds,
+    mcqIds: currentTest.mcqIds, frqIds: currentTest.frqIds || [],
+    frqObjects: frqQuestions.length > 0 ? frqQuestions.map(f => ({
+      ...f,
+      subject: f.subject || currentTest.subject || App.getActiveSubject()
+    })) : [],
     mcqAnswers, frqAnswers, flagged: [...flagged],
     mcqCorrect, mcqTotal: mcqQuestions.length,
-    frqSelfGrades: {}, frqTotal: 0, frqMax: 28,
+    frqSelfGrades: {}, frqTotal: 0, frqMax: (typeof Scoring !== 'undefined' && Scoring.AP_SCORE_TABLES)
+      ? (Scoring.AP_SCORE_TABLES[App.getActiveSubject()] || Scoring.AP_SCORE_TABLES._default).frqMax
+      : 28,
     estimatedScore: App.estimateAPScore(mcqCorrect, 0)
   };
   App.saveTestResult(result);
@@ -653,12 +784,10 @@ function finishFRQ() {
   // AP score + percentile estimate based on MCQ only (FRQ not graded yet)
   const mcqPct = mcqQuestions.length > 0 ? mcqCorrect / mcqQuestions.length : 0;
   const mcqPctDisplay = Math.round(mcqPct * 100);
-  let estScore;
-  if (mcqPct >= 0.75) estScore = 5;
-  else if (mcqPct >= 0.60) estScore = 4;
-  else if (mcqPct >= 0.45) estScore = 3;
-  else if (mcqPct >= 0.30) estScore = 2;
-  else estScore = 1;
+  const subjectId = App.getActiveSubject();
+  const estScore = (typeof Scoring !== 'undefined' && Scoring.estimateAPScoreForSubject)
+    ? Scoring.estimateAPScoreForSubject(mcqCorrect, mcqQuestions.length, 0, subjectId)
+    : (mcqPct >= 0.75 ? 5 : mcqPct >= 0.60 ? 4 : mcqPct >= 0.45 ? 3 : mcqPct >= 0.30 ? 2 : 1);
 
   const PERCENTILES = {
     apcsa: { 5:'~top 25%', 4:'~top 50%', 3:'~top 70%', 2:'~top 85%', 1:'bottom 15%' },
@@ -707,13 +836,23 @@ function saveActiveTest() {
   try {
     localStorage.setItem(App.subjectStorageKey('active_test'), JSON.stringify({
       testId: currentTest?.id, section: currentSection,
-      mcqAnswers, frqAnswers, flagged: [...flagged], timeRemaining
+      mcqAnswers, frqAnswers, flagged: [...flagged], mcqTimeRemaining, frqTimeRemaining,
+      currentQuestion
     }));
   } catch(e) { console.warn('auto-save error:', e); }
 }
 
 // ─── Confirm Modal ────────────────────────────────────────────────────────────
 function confirmSubmit(section) {
+  if (section === 'mcq-partA') {
+    const answeredPartA = mcqQuestions.slice(0, 30).filter(q => mcqAnswers[q.id] !== undefined).length;
+    const unansweredPartA = 30 - answeredPartA;
+    const msg = `You answered ${answeredPartA}/30 Part A questions.${unansweredPartA > 0 ? ` <strong>${unansweredPartA} unanswered.</strong>` : ''} You cannot return to Part A after submitting.`;
+    showModal('Submit Part A?', msg);
+    // Override confirmSubmit button to call finishPartA instead of finishMCQ
+    document.getElementById('confirmSubmit').onclick = () => { hideModal(); finishPartA(); };
+    return;
+  }
   const unanswered = section === 'mcq'
     ? mcqQuestions.length - Object.keys(mcqAnswers).filter(id => mcqAnswers[id] !== undefined).length
     : 0;
