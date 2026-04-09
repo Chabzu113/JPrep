@@ -243,12 +243,28 @@ function getOverallStats() {
   return getSubjectOverallStats(subjId);
 }
 
-// Helper to get all questions merged
+// Helper to get all questions merged for the active subject
 function getAllQuestions() {
-  const mcq1 = typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ : [];
-  const mcq2 = [];
-  const frqs = typeof FRQ_BANK !== 'undefined' ? FRQ_BANK : [];
-  return [...mcq1, ...mcq2, ...frqs];
+  if (typeof SubjectRegistry !== 'undefined') {
+    const subject = SubjectRegistry.getSubjectById(getActiveSubject());
+    if (subject && subject.dataFiles) {
+      const allQ = [];
+      subject.dataFiles.forEach(function(varName) {
+        const arr = window[varName];
+        if (Array.isArray(arr)) allQ.push(...arr);
+      });
+      (subject.testDataFiles || []).forEach(function(varName) {
+        const arr = window[varName];
+        if (Array.isArray(arr)) allQ.push(...arr);
+      });
+      if (allQ.length > 0) return allQ;
+    }
+  }
+  // Fallback: legacy globals for AP CS A
+  return [
+    ...(typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ : []),
+    ...(typeof APCSA_FRQ !== 'undefined' ? APCSA_FRQ : [])
+  ];
 }
 
 // ─── Test History (scoped to active subject) ─────────────────────────────────
