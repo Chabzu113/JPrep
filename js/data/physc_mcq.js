@@ -1703,7 +1703,7 @@ window.PHYSC_MCQ = [
       "D) 12 m/s"
     ],
     "answer": 1,
-    "explanation": "The magnitude of velocity is found using the Pythagorean theorem: |v| = √(vx² + vy²) = √(3² + 4²) = √25 = 5 m/s. Choice A is the difference of components. Choice C is the sum of components. Choice D is the product of components."
+    "explanation": "The magnitude of velocity is found using the Pythagorean theorem: |v| = √(v$x^2$ + v$y^2$) = √($3^2$ + $4^2$) = √25 = 5 m/s. Choice A is the difference of components. Choice C is the sum of components. Choice D is the product of components."
   },
   {
     "id": "physc_u1_q014",
@@ -1755,15 +1755,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "If position is given by x(t) = 5t², what is the velocity as a function of time?",
+    "question": "If position is given by x(t) = 5$t^2$, what is the velocity as a function of time?",
     "choices": [
       "A) v(t) = 5t",
       "B) v(t) = 10t",
-      "C) v(t) = 5t²",
-      "D) v(t) = (5t³)/3"
+      "C) v(t) = 5$t^2$",
+      "D) v(t) = (5$t^3$)/3"
     ],
     "answer": 1,
-    "explanation": "Velocity is the derivative of position: v = dx/dt = d(5t²)/dt = 10t. Choice A forgets to apply the power rule correctly. Choice C doesn't take the derivative at all. Choice D incorrectly integrates instead of differentiating."
+    "explanation": "Velocity is the derivative of position: v = dx/dt = d(5$t^2$)/dt = 10t. Choice A forgets to apply the power rule correctly. Choice C doesn't take the derivative at all. Choice D incorrectly integrates instead of differentiating."
   },
   {
     "id": "physc_u1_q017",
@@ -1795,7 +1795,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "If acceleration is constant at 4 m/s², what is the change in velocity over 3 seconds?",
+    "question": "If acceleration is constant at 4 $m/s^2$, what is the change in velocity over 3 seconds?",
     "choices": [
       "A) 4 m/s",
       "B) 7 m/s",
@@ -1803,7 +1803,7 @@ window.PHYSC_MCQ = [
       "D) 24 m/s"
     ],
     "answer": 2,
-    "explanation": "Change in velocity equals the integral of acceleration over time. For constant acceleration: Δv = a×Δt = 4 m/s² × 3 s = 12 m/s. Choice A uses only the acceleration value. Choice B adds acceleration and time. Choice D incorrectly uses a kinematic equation for displacement."
+    "explanation": "Change in velocity equals the integral of acceleration over time. For constant acceleration: $\\Delta v$ = a×$\\Delta t$ = 4 $m/s^2$ × 3 s = 12 m/s. Choice A uses only the acceleration value. Choice B adds acceleration and time. Choice D incorrectly uses a kinematic equation for displacement."
   },
   {
     "id": "physc_u1_q019",
@@ -1815,7 +1815,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "An object starts from rest and accelerates at 2 m/s² for 4 seconds. What is its final velocity?",
+    "question": "An object starts from rest and accelerates at 2 $m/s^2$ for 4 seconds. What is its final velocity?",
     "choices": [
       "A) 2 m/s",
       "B) 6 m/s",
@@ -1823,7 +1823,7 @@ window.PHYSC_MCQ = [
       "D) 16 m/s"
     ],
     "answer": 2,
-    "explanation": "Using v = v₀ + at, where v₀ = 0: v = 0 + (2 m/s²)(4 s) = 8 m/s. Choice A uses only acceleration. Choice B adds acceleration and time. Choice D uses the displacement formula incorrectly."
+    "explanation": "Using v = v₀ + at, where v₀ = 0: v = 0 + (2 $m/s^2$)(4 s) = 8 m/s. Choice A uses only acceleration. Choice B adds acceleration and time. Choice D uses the displacement formula incorrectly."
   },
   {
     "id": "physc_u1_q020",
@@ -1877,13 +1877,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "If velocity is given by v(t) = 6t - 3, what is the acceleration at t = 2 seconds?",
     "choices": [
-      "A) 3 m/s²",
-      "B) 6 m/s²",
-      "C) 9 m/s²",
-      "D) 12 m/s²"
+      "A) 3 $m/s^2$",
+      "B) 6 $m/s^2$",
+      "C) 9 $m/s^2$",
+      "D) 12 $m/s^2$"
     ],
     "answer": 1,
-    "explanation": "Acceleration is the derivative of velocity: a = dv/dt = d(6t - 3)/dt = 6 m/s². Acceleration is constant and independent of time. Choice A uses only the constant term. Choice C evaluates velocity at t = 2. Choice D evaluates velocity at t = 2 and doubles it."
+    "explanation": "Acceleration is the derivative of velocity: a = dv/dt = d(6t - 3)/dt = 6 $m/s^2$. Acceleration is constant and independent of time. Choice A uses only the constant term. Choice C evaluates velocity at t = 2. Choice D evaluates velocity at t = 2 and doubles it."
   },
   {
     "id": "physc_u1_q023",
@@ -1903,7 +1903,7 @@ window.PHYSC_MCQ = [
       "D) 64 m"
     ],
     "answer": 1,
-    "explanation": "Displacement is the integral of velocity: ∫₀² 8t dt = 4t²|₀² = 4(4) - 4(0) = 16 m. Choice A evaluates velocity at t = 2 without integrating. Choice C doubles the correct answer. Choice D squares the correct answer."
+    "explanation": "Displacement is the integral of velocity: ∫₀² 8t dt = 4$t^2$|₀² = 4(4) - 4(0) = 16 m. Choice A evaluates velocity at t = 2 without integrating. Choice C doubles the correct answer. Choice D squares the correct answer."
   },
   {
     "id": "physc_u1_q024",
@@ -1923,7 +1923,7 @@ window.PHYSC_MCQ = [
       "D) 162 m/s"
     ],
     "answer": 1,
-    "explanation": "Velocity is the integral of acceleration: v(t) = ∫ 6t dt = 3t² + C. Since v₀ = 0, C = 0. At t = 3: v(3) = 3(3)² = 27 m/s. Choice A multiplies acceleration by time directly. Choice C doubles the correct answer. Choice D cubes the time incorrectly."
+    "explanation": "Velocity is the integral of acceleration: v(t) = ∫ 6t dt = 3$t^2$ + C. Since v₀ = 0, C = 0. At t = 3: v(3) = 3(3)² = 27 m/s. Choice A multiplies acceleration by time directly. Choice C doubles the correct answer. Choice D cubes the time incorrectly."
   },
   {
     "id": "physc_u1_q025",
@@ -1935,7 +1935,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A car accelerates from rest at 2.0 m/s² for 4.0 seconds, then travels at constant velocity for 3.0 seconds, then decelerates at -3.0 m/s² until it stops. What is the total distance traveled?",
+    "question": "A car accelerates from rest at 2.0 $m/s^2$ for 4.0 seconds, then travels at constant velocity for 3.0 seconds, then decelerates at -3.0 $m/s^2$ until it stops. What is the total distance traveled?",
     "choices": [
       "A) 32 m",
       "B) 45 m",
@@ -1943,7 +1943,7 @@ window.PHYSC_MCQ = [
       "D) 64 m"
     ],
     "answer": 2,
-    "explanation": "Phase 1: d₁ = ½at² = ½(2)(16) = 16 m, final velocity = 8 m/s. Phase 2: d₂ = vt = 8(3) = 24 m. Phase 3: time to stop = 8/3 s, d₃ = vt + ½at² = 8(8/3) + ½(-3)(64/9) = 64/3 - 32/3 = 32/3 ≈ 10.7 m. Total ≈ 56 m. Choice A uses only first phase. Choice B omits deceleration distance. Choice D incorrectly calculates deceleration phase."
+    "explanation": "Phase 1: d₁ = $\\frac{1}{2}$a$t^2$ = $\\frac{1}{2}$(2)(16) = 16 m, final velocity = 8 m/s. Phase 2: d₂ = vt = 8(3) = 24 m. Phase 3: time to stop = 8/3 s, d₃ = vt + $\\frac{1}{2}$a$t^2$ = 8(8/3) + $\\frac{1}{2}$(-3)(64/9) = 64/3 - 32/3 = 32/3 $\\approx$ 10.7 m. Total $\\approx$ 56 m. Choice A uses only first phase. Choice B omits deceleration distance. Choice D incorrectly calculates deceleration phase."
   },
   {
     "id": "physc_u1_q026",
@@ -1983,7 +1983,7 @@ window.PHYSC_MCQ = [
       "D) 14 m/s"
     ],
     "answer": 2,
-    "explanation": "The boat's velocity relative to ground is the vector sum of its velocity relative to water (8 m/s across river) and water's velocity relative to ground (6 m/s downstream). These are perpendicular, so |v| = √(8² + 6²) = √(64 + 36) = √100 = 10 m/s. Choice A subtracts speeds. Choice B ignores river current. Choice D adds speeds directly."
+    "explanation": "The boat's velocity relative to ground is the vector sum of its velocity relative to water (8 m/s across river) and water's velocity relative to ground (6 m/s downstream). These are perpendicular, so |v| = √($8^2$ + $6^2$) = √(64 + 36) = √100 = 10 m/s. Choice A subtracts speeds. Choice B ignores river current. Choice D adds speeds directly."
   },
   {
     "id": "physc_u1_q028",
@@ -1997,13 +1997,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "If acceleration is given by a(t) = 12t - 6 and the object starts from rest at the origin, what is the position function x(t)?",
     "choices": [
-      "A) x(t) = 2t³ - 3t²",
-      "B) x(t) = 6t² - 6t",
-      "C) x(t) = 4t³ - 3t²",
-      "D) x(t) = 12t² - 6t"
+      "A) x(t) = 2$t^3$ - 3$t^2$",
+      "B) x(t) = 6$t^2$ - 6t",
+      "C) x(t) = 4$t^3$ - 3$t^2$",
+      "D) x(t) = 12$t^2$ - 6t"
     ],
     "answer": 0,
-    "explanation": "Starting with a(t) = 12t - 6, integrate to find velocity: v(t) = ∫a(t)dt = 6t² - 6t + C₁. Since object starts from rest, v(0) = 0, so C₁ = 0. Thus v(t) = 6t² - 6t. Integrate again for position: x(t) = ∫v(t)dt = 2t³ - 3t² + C₂. Since object starts at origin, x(0) = 0, so C₂ = 0. Therefore x(t) = 2t³ - 3t². Choice B is the velocity function. Choice C has wrong coefficient. Choice D is incorrect integration."
+    "explanation": "Starting with a(t) = 12t - 6, integrate to find velocity: v(t) = ∫a(t)dt = 6$t^2$ - 6t + C₁. Since object starts from rest, v(0) = 0, so C₁ = 0. Thus v(t) = 6$t^2$ - 6t. Integrate again for position: x(t) = ∫v(t)dt = 2$t^3$ - 3$t^2$ + C₂. Since object starts at origin, x(0) = 0, so C₂ = 0. Therefore x(t) = 2$t^3$ - 3$t^2$. Choice B is the velocity function. Choice C has wrong coefficient. Choice D is incorrect integration."
   },
   {
     "id": "physc_u1_q029",
@@ -2015,7 +2015,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle moves with velocity v(t) = 4t - t². What is the displacement from t = 0 to t = 5 seconds?",
+    "question": "A particle moves with velocity v(t) = 4t - $t^2$. What is the displacement from t = 0 to t = 5 seconds?",
     "choices": [
       "A) 15/3 m",
       "B) 25/3 m",
@@ -2023,7 +2023,7 @@ window.PHYSC_MCQ = [
       "D) -5/3 m"
     ],
     "answer": 1,
-    "explanation": "Displacement = ∫₀⁵ v(t)dt = ∫₀⁵ (4t - t²)dt = [2t² - t³/3]₀⁵ = (2(25) - 125/3) - 0 = 50 - 125/3 = 150/3 - 125/3 = 25/3 m. Choice A uses wrong limits or calculation. Choice C ignores the t² term's contribution. Choice D might result from sign errors in calculation."
+    "explanation": "Displacement = ∫₀⁵ v(t)dt = ∫₀⁵ (4t - $t^2$)dt = [2$t^2$ - $t^3$/3]₀⁵ = (2(25) - 125/3) - 0 = 50 - 125/3 = 150/3 - 125/3 = 25/3 m. Choice A uses wrong limits or calculation. Choice C ignores the $t^2$ term's contribution. Choice D might result from sign errors in calculation."
   },
   {
     "id": "physc_u1_q030",
@@ -2037,13 +2037,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A particle moves in a circle of radius 5 m with constant speed 10 m/s. What is the magnitude of its centripetal acceleration?",
     "choices": [
-      "A) 2 m/s²",
-      "B) 10 m/s²",
-      "C) 20 m/s²",
-      "D) 50 m/s²"
+      "A) 2 $m/s^2$",
+      "B) 10 $m/s^2$",
+      "C) 20 $m/s^2$",
+      "D) 50 $m/s^2$"
     ],
     "answer": 2,
-    "explanation": "Centripetal acceleration magnitude is a_c = v²/r = (10)²/5 = 100/5 = 20 m/s². Choice A uses v/r instead of v²/r. Choice B uses the speed value directly. Choice D uses vr instead of v²/r."
+    "explanation": "Centripetal acceleration magnitude is a_c = $v^2$/r = (10)²/5 = 100/5 = 20 $m/s^2$. Choice A uses v/r instead of $v^2$/r. Choice B uses the speed value directly. Choice D uses vr instead of $v^2$/r."
   },
   {
     "id": "physc_u1_q031",
@@ -2075,7 +2075,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "An object's velocity is v(t) = 3t² - 8t + 4. At what time does the object have minimum speed?",
+    "question": "An object's velocity is v(t) = 3$t^2$ - 8t + 4. At what time does the object have minimum speed?",
     "choices": [
       "A) t = 0.67 s",
       "B) t = 1.33 s",
@@ -2083,7 +2083,7 @@ window.PHYSC_MCQ = [
       "D) t = 4.0 s"
     ],
     "answer": 1,
-    "explanation": "Speed is |v(t)|. Minimum speed occurs when v(t) = 0 (if it crosses zero) or at a local minimum of |v(t)|. First find when v(t) = 0: 3t² - 8t + 4 = 0. Using quadratic formula: t = (8 ± √(64-48))/6 = (8 ± 4)/6, giving t = 2 s or t = 2/3 s. The vertex of the parabola v(t) occurs at t = -b/2a = 8/6 = 4/3 ≈ 1.33 s. Since the parabola opens upward (a > 0), this is where v(t) is most negative, giving minimum speed. Choice A uses t = 2/3. Choice C uses one zero. Choice D is arbitrary."
+    "explanation": "Speed is |v(t)|. Minimum speed occurs when v(t) = 0 (if it crosses zero) or at a local minimum of |v(t)|. First find when v(t) = 0: 3$t^2$ - 8t + 4 = 0. Using quadratic formula: t = (8 ± √(64-48))/6 = (8 ± 4)/6, giving t = 2 s or t = 2/3 s. The vertex of the parabola v(t) occurs at t = -b/2a = 8/6 = 4/3 $\\approx$ 1.33 s. Since the parabola opens upward (a > 0), this is where v(t) is most negative, giving minimum speed. Choice A uses t = 2/3. Choice C uses one zero. Choice D is arbitrary."
   },
   {
     "id": "physc_u1_q033",
@@ -2095,15 +2095,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle's position is x(t) = t³ - 3t² + 2t. At t = 2 s, what is the acceleration?",
+    "question": "A particle's position is x(t) = $t^3$ - 3$t^2$ + 2t. At t = 2 s, what is the acceleration?",
     "choices": [
-      "A) -2 m/s²",
-      "B) 0 m/s²",
-      "C) 2 m/s²",
-      "D) 6 m/s²"
+      "A) -2 $m/s^2$",
+      "B) 0 $m/s^2$",
+      "C) 2 $m/s^2$",
+      "D) 6 $m/s^2$"
     ],
     "answer": 3,
-    "explanation": "Acceleration is the second derivative of position. v(t) = dx/dt = 3t² - 6t + 2. a(t) = dv/dt = 6t - 6. At t = 2 s: a(2) = 6(2) - 6 = 12 - 6 = 6 m/s². Choice A gives velocity at t = 2. Choice B might be from evaluating at wrong time. Choice C uses half the correct value."
+    "explanation": "Acceleration is the second derivative of position. v(t) = dx/dt = 3$t^2$ - 6t + 2. a(t) = dv/dt = 6t - 6. At t = 2 s: a(2) = 6(2) - 6 = 12 - 6 = 6 $m/s^2$. Choice A gives velocity at t = 2. Choice B might be from evaluating at wrong time. Choice C uses half the correct value."
   },
   {
     "id": "physc_u1_q034",
@@ -2117,13 +2117,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "An object undergoes constant acceleration and travels 100 m in the first 5 s and 150 m in the next 5 s. What is its acceleration?",
     "choices": [
-      "A) 2 m/s²",
-      "B) 5 m/s²",
-      "C) 10 m/s²",
-      "D) 20 m/s²"
+      "A) 2 $m/s^2$",
+      "B) 5 $m/s^2$",
+      "C) 10 $m/s^2$",
+      "D) 20 $m/s^2$"
     ],
     "answer": 0,
-    "explanation": "Let initial velocity be v₀ and acceleration be a. First 5 s: 100 = v₀(5) + ½a(25) = 5v₀ + 12.5a. At t = 5 s, velocity is v = v₀ + 5a. Next 5 s: 150 = v(5) + ½a(25) = (v₀ + 5a)(5) + 12.5a = 5v₀ + 25a + 12.5a = 5v₀ + 37.5a. From first equation: v₀ = 20 - 2.5a. Substituting: 150 = 5(20 - 2.5a) + 37.5a = 100 - 12.5a + 37.5a = 100 + 25a. So 50 = 25a, giving a = 2 m/s². Choice B would result from calculation errors. Choices C and D are too large."
+    "explanation": "Let initial velocity be v₀ and acceleration be a. First 5 s: 100 = v₀(5) + $\\frac{1}{2}$a(25) = 5v₀ + 12.5a. At t = 5 s, velocity is v = v₀ + 5a. Next 5 s: 150 = v(5) + $\\frac{1}{2}$a(25) = (v₀ + 5a)(5) + 12.5a = 5v₀ + 25a + 12.5a = 5v₀ + 37.5a. From first equation: v₀ = 20 - 2.5a. Substituting: 150 = 5(20 - 2.5a) + 37.5a = 100 - 12.5a + 37.5a = 100 + 25a. So 50 = 25a, giving a = 2 $m/s^2$. Choice B would result from calculation errors. Choices C and D are too large."
   },
   {
     "id": "physc_u1_q035",
@@ -2143,7 +2143,7 @@ window.PHYSC_MCQ = [
       "D) 250 km/h"
     ],
     "answer": 2,
-    "explanation": "The plane's velocity relative to ground is the vector sum of its velocity relative to air (200 km/h north) and wind velocity (50 km/h east). These are perpendicular: |v| = √(200² + 50²) = √(40000 + 2500) = √42500 ≈ 206 km/h. Choice A subtracts speeds. Choice B ignores wind. Choice D adds speeds directly."
+    "explanation": "The plane's velocity relative to ground is the vector sum of its velocity relative to air (200 km/h north) and wind velocity (50 km/h east). These are perpendicular: |v| = √(20$0^2$ + 5$0^2$) = √(40000 + 2500) = √42500 $\\approx$ 206 km/h. Choice A subtracts speeds. Choice B ignores wind. Choice D adds speeds directly."
   },
   {
     "id": "physc_u1_q036",
@@ -2175,7 +2175,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle moves along the x-axis with position given by x(t) = 2t³ - 9t² + 12t + 5 meters. At what time(s) is the particle momentarily at rest?",
+    "question": "A particle moves along the x-axis with position given by x(t) = 2$t^3$ - 9$t^2$ + 12t + 5 meters. At what time(s) is the particle momentarily at rest?",
     "choices": [
       "A) t = 1 s only",
       "B) t = 2 s only",
@@ -2183,7 +2183,7 @@ window.PHYSC_MCQ = [
       "D) t = 3 s only"
     ],
     "answer": 2,
-    "explanation": "The particle is at rest when velocity v = dx/dt = 0. Taking the derivative: v(t) = 6t² - 18t + 12. Setting equal to zero: 6t² - 18t + 12 = 0, which simplifies to t² - 3t + 2 = 0. Factoring gives (t-1)(t-2) = 0, so t = 1 s and t = 2 s. Choice A and B only give one solution each, while choice D uses t = 3 s which doesn't satisfy the velocity equation."
+    "explanation": "The particle is at rest when velocity v = dx/dt = 0. Taking the derivative: v(t) = 6$t^2$ - 18t + 12. Setting equal to zero: 6$t^2$ - 18t + 12 = 0, which simplifies to $t^2$ - 3t + 2 = 0. Factoring gives (t-1)(t-2) = 0, so t = 1 s and t = 2 s. Choice A and B only give one solution each, while choice D uses t = 3 s which doesn't satisfy the velocity equation."
   },
   {
     "id": "physc_u1_q038",
@@ -2235,7 +2235,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "An object is thrown vertically upward with initial velocity 20 m/s from a height of 5 m. Using g = 10 m/s², at what time does the object reach its maximum height?",
+    "question": "An object is thrown vertically upward with initial velocity 20 m/s from a height of 5 m. Using g = 10 $m/s^2$, at what time does the object reach its maximum height?",
     "choices": [
       "A) 1.0 s",
       "B) 1.5 s",
@@ -2243,7 +2243,7 @@ window.PHYSC_MCQ = [
       "D) 2.5 s"
     ],
     "answer": 2,
-    "explanation": "At maximum height, velocity equals zero. Using v = v₀ - gt with v = 0, v₀ = 20 m/s, and g = 10 m/s²: 0 = 20 - 10t, so t = 2.0 s. The initial height of 5 m doesn't affect the time to reach maximum height, only the maximum height itself. Choice A uses t = v₀/(2g), choice B assumes some incorrect fraction, and choice D uses t = v₀/(0.8g) which has no physical basis."
+    "explanation": "At maximum height, velocity equals zero. Using v = v₀ - gt with v = 0, v₀ = 20 m/s, and g = 10 $m/s^2$: 0 = 20 - 10t, so t = 2.0 s. The initial height of 5 m doesn't affect the time to reach maximum height, only the maximum height itself. Choice A uses t = v₀/(2g), choice B assumes some incorrect fraction, and choice D uses t = v₀/(0.8g) which has no physical basis."
   },
   {
     "id": "physc_u1_q041",
@@ -2255,7 +2255,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A projectile is launched horizontally from a cliff 45 m high. If it lands 60 m from the base of the cliff, what was its initial horizontal velocity? (Use g = 10 m/s²)",
+    "question": "A projectile is launched horizontally from a cliff 45 m high. If it lands 60 m from the base of the cliff, what was its initial horizontal velocity? (Use g = 10 $m/s^2$)",
     "choices": [
       "A) 15 m/s",
       "B) 20 m/s",
@@ -2263,7 +2263,7 @@ window.PHYSC_MCQ = [
       "D) 30 m/s"
     ],
     "answer": 1,
-    "explanation": "For horizontal launch, find flight time using vertical motion: h = ½gt², so 45 = ½(10)t², giving t² = 9, so t = 3 s. Then use horizontal motion: x = v₀t, so 60 = v₀(3), giving v₀ = 20 m/s. Choice A uses incorrect time calculation (t = 4 s), choice C uses t = 2.4 s, and choice D uses t = 2 s. These represent common errors in calculating flight time from the height equation."
+    "explanation": "For horizontal launch, find flight time using vertical motion: h = $\\frac{1}{2}$g$t^2$, so 45 = $\\frac{1}{2}$(10)$t^2$, giving $t^2$ = 9, so t = 3 s. Then use horizontal motion: x = v₀t, so 60 = v₀(3), giving v₀ = 20 m/s. Choice A uses incorrect time calculation (t = 4 s), choice C uses t = 2.4 s, and choice D uses t = 2 s. These represent common errors in calculating flight time from the height equation."
   },
   {
     "id": "physc_u1_q042",
@@ -2275,7 +2275,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle moves in a circle of radius R with position vector r⃗(t) = R cos(ωt)î + R sin(ωt)ĵ. What is the angle between the velocity and acceleration vectors?",
+    "question": "A particle moves in a circle of radius R with position vector r⃗(t) = R cos($\\omega$t)î + R sin($\\omega$t)ĵ. What is the angle between the velocity and acceleration vectors?",
     "choices": [
       "A) 0°",
       "B) 45°",
@@ -2283,7 +2283,7 @@ window.PHYSC_MCQ = [
       "D) 180°"
     ],
     "answer": 2,
-    "explanation": "v⃗(t) = -Rω sin(ωt)î + Rω cos(ωt)ĵ and a⃗(t) = -Rω² cos(ωt)î - Rω² sin(ωt)ĵ. The dot product v⃗ · a⃗ = (-Rω sin(ωt))(-Rω² cos(ωt)) + (Rω cos(ωt))(-Rω² sin(ωt)) = R²ω³ sin(ωt)cos(ωt) - R²ω³ cos(ωt)sin(ωt) = 0. Since the dot product is zero, the vectors are perpendicular (90°). Students often think acceleration points opposite to velocity."
+    "explanation": "v⃗(t) = -Rω sin($\\omega$t)î + Rω cos($\\omega$t)ĵ and a⃗(t) = -Rω² cos($\\omega$t)î - Rω² sin($\\omega$t)ĵ. The dot product v⃗ · a⃗ = (-Rω sin($\\omega$t))(-Rω² cos($\\omega$t)) + (Rω cos($\\omega$t))(-Rω² sin($\\omega$t)) = $R^2$ω³ sin($\\omega$t)cos($\\omega$t) - $R^2$ω³ cos($\\omega$t)sin($\\omega$t) = 0. Since the dot product is zero, the vectors are perpendicular (90°). Students often think acceleration points opposite to velocity."
   },
   {
     "id": "physc_u1_q043",
@@ -2298,12 +2298,12 @@ window.PHYSC_MCQ = [
     "question": "A projectile is launched at angle θ above horizontal from height h with speed v₀. At what angle φ below horizontal does it strike the ground?",
     "choices": [
       "A) θ",
-      "B) arctan(v₀sin(θ) + √(v₀²sin²(θ) + 2gh))/(v₀cos(θ))",
-      "C) arctan(√(v₀²sin²(θ) + 2gh)/(v₀cos(θ))",
-      "D) arctan((v₀sin(θ) - √(v₀²sin²(θ) + 2gh))/(v₀cos(θ))"
+      "B) arctan(v₀sin(θ) + √(v₀²si$n^2$(θ) + 2gh))/(v₀cos(θ))",
+      "C) arctan(√(v₀²si$n^2$(θ) + 2gh)/(v₀cos(θ))",
+      "D) arctan((v₀sin(θ) - √(v₀²si$n^2$(θ) + 2gh))/(v₀cos(θ))"
     ],
     "answer": 1,
-    "explanation": "At impact, vₓ = v₀cos(θ) (unchanged) and vᵧ = -(v₀sin(θ) + √(v₀²sin²(θ) + 2gh)) (using energy or kinematics). The angle below horizontal is φ = arctan(|vᵧ|/vₓ) = arctan((v₀sin(θ) + √(v₀²sin²(θ) + 2gh))/(v₀cos(θ))). Students often forget the additional speed gained from falling through height h or use wrong sign conventions."
+    "explanation": "At impact, vₓ = v₀cos(θ) (unchanged) and vᵧ = -(v₀sin(θ) + √(v₀²si$n^2$(θ) + 2gh)) (using energy or kinematics). The angle below horizontal is φ = arctan(|vᵧ|/vₓ) = arctan((v₀sin(θ) + √(v₀²si$n^2$(θ) + 2gh))/(v₀cos(θ))). Students often forget the additional speed gained from falling through height h or use wrong sign conventions."
   },
   {
     "id": "physc_u1_q044",
@@ -2323,7 +2323,7 @@ window.PHYSC_MCQ = [
       "D) Never returns"
     ],
     "answer": 3,
-    "explanation": "Initial position x(0) = e⁰cos(0) = 1. For the particle to return: e^(-t/2)cos(2t) = 1. Since e^(-t/2) < 1 for all t > 0, and cos(2t) ≤ 1, we can never have e^(-t/2)cos(2t) = 1 for t > 0. The exponential decay prevents the particle from ever reaching its initial position again. Students often ignore the exponential factor and only consider when cos(2t) = 1."
+    "explanation": "Initial position x(0) = e⁰cos(0) = 1. For the particle to return: e^(-t/2)cos(2t) = 1. Since e^(-t/2) < 1 for all t > 0, and cos(2t) $\\leq$ 1, we can never have e^(-t/2)cos(2t) = 1 for t > 0. The exponential decay prevents the particle from ever reaching its initial position again. Students often ignore the exponential factor and only consider when cos(2t) = 1."
   },
   {
     "id": "physc_u2_q045",
@@ -2438,9 +2438,9 @@ window.PHYSC_MCQ = [
     "question": "The maximum static friction force is given by which equation?",
     "choices": [
       "A) fs,max = μsN",
-      "B) fs,max = μkN",
+      "B) fs,max = $\\mu$kN",
       "C) fs,max = μsW",
-      "D) fs,max = μkmg"
+      "D) fs,max = $\\mu$kmg"
     ],
     "answer": 0,
     "explanation": "Maximum static friction equals the coefficient of static friction times the normal force: fs,max = μsN. Choice B uses kinetic friction coefficient. Choices C and D incorrectly use weight instead of normal force, which aren't always equal."
@@ -2483,7 +2483,7 @@ window.PHYSC_MCQ = [
       "D) Drag force becomes zero"
     ],
     "answer": 0,
-    "explanation": "Drag force increases with speed (proportional to v or v² depending on the regime). This is why objects reach terminal velocity when drag balances weight. Choices B and D contradict everyday experience. Choice C ignores the speed dependence of drag."
+    "explanation": "Drag force increases with speed (proportional to v or $v^2$ depending on the regime). This is why objects reach terminal velocity when drag balances weight. Choices B and D contradict everyday experience. Choice C ignores the speed dependence of drag."
   },
   {
     "id": "physc_u2_q053",
@@ -2517,13 +2517,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "The centripetal acceleration for uniform circular motion is given by which expression?",
     "choices": [
-      "A) v²/r",
+      "A) $v^2$/r",
       "B) vr",
-      "C) v/r²",
-      "D) r/v²"
+      "C) $v/r^2$",
+      "D) $r/v^2$"
     ],
     "answer": 0,
-    "explanation": "Centripetal acceleration ac = v²/r, derived from kinematics of circular motion. Choice B has wrong dimensions (acceleration needs length/time², not length×time/time). Choices C and D also have incorrect dimensions."
+    "explanation": "Centripetal acceleration ac = $v^2$/r, derived from kinematics of circular motion. Choice B has wrong dimensions (acceleration needs $length/time^2$, not length×time/time). Choices C and D also have incorrect dimensions."
   },
   {
     "id": "physc_u2_q055",
@@ -2578,12 +2578,12 @@ window.PHYSC_MCQ = [
     "question": "A 5.0 kg block rests on a horizontal surface. A horizontal force of 15 N is applied to the block, but it remains stationary. What can be concluded about the coefficient of static friction between the block and surface?",
     "choices": [
       "A) μs = 0.31",
-      "B) μs ≥ 0.31",
-      "C) μs ≤ 0.31",
+      "B) μs $\\geq$ 0.31",
+      "C) μs $\\leq$ 0.31",
       "D) μs > 0.31"
     ],
     "answer": 1,
-    "explanation": "Since the block remains stationary, static friction balances the applied force: fs = 15 N. The maximum static friction is μs × mg = μs × 49 N. Since fs ≤ fs,max, we have 15 ≤ μs × 49, so μs ≥ 0.31. Choice A assumes equality at maximum friction, which isn't necessarily true. Choice C reverses the inequality. Choice D excludes the possibility of equality."
+    "explanation": "Since the block remains stationary, static friction balances the applied force: fs = 15 N. The maximum static friction is μs × mg = μs × 49 N. Since fs $\\leq$ fs,max, we have 15 $\\leq$ μs × 49, so μs $\\geq$ 0.31. Choice A assumes equality at maximum friction, which isn't necessarily true. Choice C reverses the inequality. Choice D excludes the possibility of equality."
   },
   {
     "id": "physc_u2_q058",
@@ -2615,7 +2615,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A spherical object falls through air with drag force proportional to v². At terminal velocity, which statement is correct?",
+    "question": "A spherical object falls through air with drag force proportional to $v^2$. At terminal velocity, which statement is correct?",
     "choices": [
       "A) The acceleration is constant and equal to g",
       "B) The net force is zero",
@@ -2635,15 +2635,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A pendulum hangs in an elevator accelerating upward at 2 m/s². In the elevator's reference frame, what is the effective gravitational acceleration?",
+    "question": "A pendulum hangs in an elevator accelerating upward at 2 $m/s^2$. In the elevator's reference frame, what is the effective gravitational acceleration?",
     "choices": [
-      "A) 8 m/s²",
-      "B) 10 m/s²",
-      "C) 12 m/s²",
-      "D) 2 m/s²"
+      "A) 8 $m/s^2$",
+      "B) 10 $m/s^2$",
+      "C) 12 $m/s^2$",
+      "D) 2 $m/s^2$"
     ],
     "answer": 2,
-    "explanation": "In the non-inertial elevator frame, a fictitious force ma acts downward on all objects, where a is the elevator's acceleration. The effective gravity becomes g + a = 10 + 2 = 12 m/s². Choice A subtracts instead of adds. Choice B uses only regular gravity, ignoring the non-inertial effects. Choice D uses only the elevator's acceleration."
+    "explanation": "In the non-inertial elevator frame, a fictitious force ma acts downward on all objects, where a is the elevator's acceleration. The effective gravity becomes g + a = 10 + 2 = 12 $m/s^2$. Choice A subtracts instead of adds. Choice B uses only regular gravity, ignoring the non-inertial effects. Choice D uses only the elevator's acceleration."
   },
   {
     "id": "physc_u2_q061",
@@ -2663,7 +2663,7 @@ window.PHYSC_MCQ = [
       "D) It becomes μs tan θ"
     ],
     "answer": 2,
-    "explanation": "At the verge of sliding, μs = tan θ. Once sliding begins at constant velocity, μk = tan θ for the new angle. The coefficient of kinetic friction is a material property that doesn't change with angle - what changes is whether that coefficient is sufficient. Choice A and B incorrectly suggest μk changes with angle. Choice D shows a misunderstanding of the relationship."
+    "explanation": "At the verge of sliding, μs = tan θ. Once sliding begins at constant velocity, $\\mu$k = tan θ for the new angle. The coefficient of kinetic friction is a material property that doesn't change with angle - what changes is whether that coefficient is sufficient. Choice A and B incorrectly suggest $\\mu$k changes with angle. Choice D shows a misunderstanding of the relationship."
   },
   {
     "id": "physc_u2_q062",
@@ -2679,7 +2679,7 @@ window.PHYSC_MCQ = [
     "choices": [
       "A) v increases linearly with time",
       "B) v increases exponentially toward terminal velocity",
-      "C) v increases as t²",
+      "C) v increases as $t^2$",
       "D) v approaches terminal velocity asymptotically"
     ],
     "answer": 3,
@@ -2703,7 +2703,7 @@ window.PHYSC_MCQ = [
       "D) 4 kg"
     ],
     "answer": 1,
-    "explanation": "At top: T + mg = mv²/r, so 10 + 10m = mv². At bottom: T - mg = mv²/r, so 50 - 10m = mv². Since mv² is the same: 10 + 10m = 50 - 10m, giving 20m = 40, so m = 2 kg. Choice A forgets to account for weight at both positions. Choice C uses incorrect force analysis. Choice D represents an arithmetic error."
+    "explanation": "At top: T + mg = m$v^2$/r, so 10 + 10m = m$v^2$. At bottom: T - mg = m$v^2$/r, so 50 - 10m = m$v^2$. Since m$v^2$ is the same: 10 + 10m = 50 - 10m, giving 20m = 40, so m = 2 kg. Choice A forgets to account for weight at both positions. Choice C uses incorrect force analysis. Choice D represents an arithmetic error."
   },
   {
     "id": "physc_u2_q064",
@@ -2715,7 +2715,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A ball is placed on the floor of a car that is turning left with centripetal acceleration 3 m/s². In the car's reference frame, which direction does the ball roll?",
+    "question": "A ball is placed on the floor of a car that is turning left with centripetal acceleration 3 $m/s^2$. In the car's reference frame, which direction does the ball roll?",
     "choices": [
       "A) Toward the left (center of turn)",
       "B) Toward the right (away from center)",
@@ -2743,7 +2743,7 @@ window.PHYSC_MCQ = [
       "D) 8 N"
     ],
     "answer": 1,
-    "explanation": "System acceleration: a = 12 N / 6 kg = 2 m/s². The 3 kg block needs F = ma = 6 N to accelerate at 2 m/s². This force comes from the 2 kg block. Choice A assumes the full applied force is transmitted. Choice C would accelerate only the 3 kg block incorrectly. Choice D represents a calculation error."
+    "explanation": "System acceleration: a = 12 N / 6 kg = 2 $m/s^2$. The 3 kg block needs F = ma = 6 N to accelerate at 2 $m/s^2$. This force comes from the 2 kg block. Choice A assumes the full applied force is transmitted. Choice C would accelerate only the 3 kg block incorrectly. Choice D represents a calculation error."
   },
   {
     "id": "physc_u2_q066",
@@ -2763,7 +2763,7 @@ window.PHYSC_MCQ = [
       "D) It increases by √2"
     ],
     "answer": 2,
-    "explanation": "At constant velocity, mg sin θ = μk mg cos θ, so μk = tan θ. This relationship is independent of mass. Doubling the mass doubles both the gravitational component and the normal force (hence friction) equally, so the velocity remains constant. Choices A, B, and D all incorrectly assume mass affects the force balance."
+    "explanation": "At constant velocity, mg sin θ = $\\mu$k mg cos θ, so $\\mu$k = tan θ. This relationship is independent of mass. Doubling the mass doubles both the gravitational component and the normal force (hence friction) equally, so the velocity remains constant. Choices A, B, and D all incorrectly assume mass affects the force balance."
   },
   {
     "id": "physc_u2_q067",
@@ -2775,7 +2775,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Two identical spheres are dropped simultaneously, one in air and one in water. The drag force in both media is proportional to v². Which reaches terminal velocity first?",
+    "question": "Two identical spheres are dropped simultaneously, one in air and one in water. The drag force in both media is proportional to $v^2$. Which reaches terminal velocity first?",
     "choices": [
       "A) The sphere in air",
       "B) The sphere in water",
@@ -2815,7 +2815,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "In a car accelerating forward at 2 m/s², a pendulum hangs from the ceiling. In the car's reference frame, what angle does the pendulum make with the vertical?",
+    "question": "In a car accelerating forward at 2 $m/s^2$, a pendulum hangs from the ceiling. In the car's reference frame, what angle does the pendulum make with the vertical?",
     "choices": [
       "A) tan⁻¹(0.2)",
       "B) tan⁻¹(0.1)",
@@ -2837,13 +2837,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A rocket expels 0.1 kg of gas per second at 2000 m/s relative to the rocket. If the rocket's mass is 1000 kg, what is its initial acceleration?",
     "choices": [
-      "A) 0.1 m/s²",
-      "B) 0.2 m/s²",
-      "C) 2.0 m/s²",
-      "D) 20 m/s²"
+      "A) 0.1 $m/s^2$",
+      "B) 0.2 $m/s^2$",
+      "C) 2.0 $m/s^2$",
+      "D) 20 $m/s^2$"
     ],
     "answer": 1,
-    "explanation": "The thrust force is F = (dm/dt) × vrel = 0.1 × 2000 = 200 N. The rocket's acceleration is a = F/m = 200/1000 = 0.2 m/s². Choice A uses the mass rate instead of force. Choice C ignores the rocket's mass. Choice D uses an incorrect relationship between the given quantities."
+    "explanation": "The thrust force is F = (dm/dt) × vrel = 0.1 × 2000 = 200 N. The rocket's acceleration is a = F/m = 200/1000 = 0.2 $m/s^2$. Choice A uses the mass rate instead of force. Choice C ignores the rocket's mass. Choice D uses an incorrect relationship between the given quantities."
   },
   {
     "id": "physc_u2_q071",
@@ -2863,7 +2863,7 @@ window.PHYSC_MCQ = [
       "D) It is reduced to one-fourth"
     ],
     "answer": 3,
-    "explanation": "For circular orbits, ac = GM/r². When radius doubles, centripetal acceleration becomes GM/(2r)² = GM/4r² = ac/4. The acceleration is reduced to one-fourth. Choice A and B suggest direct or squared proportionality. Choice C represents the incorrect inverse relationship rather than inverse square."
+    "explanation": "For circular orbits, ac = $GM/r^2$. When radius doubles, centripetal acceleration becomes GM/(2r)² = GM/4$r^2$ = ac/4. The acceleration is reduced to one-fourth. Choice A and B suggest direct or squared proportionality. Choice C represents the incorrect inverse relationship rather than inverse square."
   },
   {
     "id": "physc_u2_q072",
@@ -2877,13 +2877,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A 5 kg block is pulled horizontally across a rough surface by a 30 N force at 37° above horizontal. If the coefficient of kinetic friction is 0.3, what is the acceleration of the block?",
     "choices": [
-      "A) 2.4 m/s²",
-      "B) 3.6 m/s²",
-      "C) 4.2 m/s²",
-      "D) 6.0 m/s²"
+      "A) 2.4 $m/s^2$",
+      "B) 3.6 $m/s^2$",
+      "C) 4.2 $m/s^2$",
+      "D) 6.0 $m/s^2$"
     ],
     "answer": 0,
-    "explanation": "The horizontal component is 30cos(37°) = 24 N. The vertical component reduces normal force: N = mg - 30sin(37°) = 50 - 18 = 32 N. Friction is μN = 0.3(32) = 9.6 N. Net force is 24 - 9.6 = 14.4 N, so a = 14.4/5 = 2.4 m/s². Students often forget the vertical component reduces normal force (choice B) or neglect friction entirely (choice D)."
+    "explanation": "The horizontal component is 30cos(37°) = 24 N. The vertical component reduces normal force: N = mg - 30sin(37°) = 50 - 18 = 32 N. Friction is μN = 0.3(32) = 9.6 N. Net force is 24 - 9.6 = 14.4 N, so a = 14.4/5 = 2.4 $m/s^2$. Students often forget the vertical component reduces normal force (choice B) or neglect friction entirely (choice D)."
   },
   {
     "id": "physc_u2_q073",
@@ -2915,7 +2915,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A sphere falls through air with drag force Fd = bv². At terminal velocity, the sphere falls at 20 m/s. If the sphere's mass is doubled while keeping the same shape and drag coefficient, what is the new terminal velocity?",
+    "question": "A sphere falls through air with drag force Fd = b$v^2$. At terminal velocity, the sphere falls at 20 m/s. If the sphere's mass is doubled while keeping the same shape and drag coefficient, what is the new terminal velocity?",
     "choices": [
       "A) 14 m/s",
       "B) 20 m/s",
@@ -2923,7 +2923,7 @@ window.PHYSC_MCQ = [
       "D) 40 m/s"
     ],
     "answer": 2,
-    "explanation": "At terminal velocity, mg = bv². When mass doubles: 2mg = bv'². Dividing equations: 2 = v'²/v², so v' = v√2 = 20√2 ≈ 28 m/s. Students often think velocity doubles with mass (choice D), stays the same (choice B), or incorrectly apply linear relationship (choice A using √2 in denominator)."
+    "explanation": "At terminal velocity, mg = b$v^2$. When mass doubles: 2mg = bv'². Dividing equations: 2 = v'²/$v^2$, so v' = v√2 = 20√2 $\\approx$ 28 m/s. Students often think velocity doubles with mass (choice D), stays the same (choice B), or incorrectly apply linear relationship (choice A using √2 in denominator)."
   },
   {
     "id": "physc_u2_q075",
@@ -2943,7 +2943,7 @@ window.PHYSC_MCQ = [
       "D) 40 m/s"
     ],
     "answer": 1,
-    "explanation": "The centripetal force is provided by friction: μsmg = mv²/r. Solving for v: v = √(μsgr) = √(0.8 × 10 × 100) = √800 ≈ 28 m/s. Students often forget the square root (choice C), use incorrect formula μsg = v²/r giving choice A, or make arithmetic errors leading to choice D."
+    "explanation": "The centripetal force is provided by friction: μsmg = m$v^2$/r. Solving for v: v = √(μsgr) = √(0.8 $\\times$ 10 $\\times$ 100) = √800 $\\approx$ 28 m/s. Students often forget the square root (choice C), use incorrect formula μsg = $v^2$/r giving choice A, or make arithmetic errors leading to choice D."
   },
   {
     "id": "physc_u2_q076",
@@ -2963,7 +2963,7 @@ window.PHYSC_MCQ = [
       "D) 12 m/s"
     ],
     "answer": 1,
-    "explanation": "At the bottom, T - mg = mv²/r, so 60 - 20 = 2v²/1.5, giving 40 = 4v²/3, so v² = 30 and v = √30 ≈ 5.5 ≈ 6 m/s. Students often use T = mv²/r ignoring weight (choice C), make sign errors, or confuse the geometry leading to other values."
+    "explanation": "At the bottom, T - mg = m$v^2$/r, so 60 - 20 = 2$v^2$/1.5, giving 40 = 4$v^2$/3, so $v^2$ = 30 and v = √30 $\\approx$ 5.5 $\\approx$ 6 m/s. Students often use T = m$v^2$/r ignoring weight (choice C), make sign errors, or confuse the geometry leading to other values."
   },
   {
     "id": "physc_u2_q077",
@@ -2975,7 +2975,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "In an elevator accelerating upward at 2 m/s², a 5 kg block sits on the floor. What is the apparent weight (normal force) of the block as measured by someone in the elevator?",
+    "question": "In an elevator accelerating upward at 2 $m/s^2$, a 5 kg block sits on the floor. What is the apparent weight (normal force) of the block as measured by someone in the elevator?",
     "choices": [
       "A) 40 N",
       "B) 50 N",
@@ -3003,7 +3003,7 @@ window.PHYSC_MCQ = [
       "D) 1.0"
     ],
     "answer": 1,
-    "explanation": "At constant velocity, net force is zero, so applied force equals kinetic friction: 40 N = μkmg = μk(10)(10) = 100μk. Therefore μk = 40/100 = 0.4. Students might use wrong mass values, forget that constant velocity means zero acceleration, or make arithmetic errors leading to other coefficients."
+    "explanation": "At constant velocity, net force is zero, so applied force equals kinetic friction: 40 N = $\\mu$kmg = $\\mu$k(10)(10) = 100$\\mu$k. Therefore $\\mu$k = 40/100 = 0.4. Students might use wrong mass values, forget that constant velocity means zero acceleration, or make arithmetic errors leading to other coefficients."
   },
   {
     "id": "physc_u2_q079",
@@ -3023,7 +3023,7 @@ window.PHYSC_MCQ = [
       "D) √(2gR)"
     ],
     "answer": 0,
-    "explanation": "At the top of the hill, centripetal force is provided by weight minus normal force: mg - N = mv²/R. If N = mg/2, then mg - mg/2 = mv²/R, so mg/2 = mv²/R, giving v = √(gR/2). Students often forget that normal force and weight work together to provide centripetal force, or incorrectly add them instead of subtracting."
+    "explanation": "At the top of the hill, centripetal force is provided by weight minus normal force: mg - N = m$v^2$/R. If N = mg/2, then mg - mg/2 = m$v^2$/R, so mg/2 = m$v^2$/R, giving v = √(gR/2). Students often forget that normal force and weight work together to provide centripetal force, or incorrectly add them instead of subtracting."
   },
   {
     "id": "physc_u2_q080",
@@ -3040,7 +3040,7 @@ window.PHYSC_MCQ = [
       "A) θ = arctan(a/g)",
       "B) θ = arctan(g/a)",
       "C) θ = arcsin(a/g)",
-      "D) θ = arcsin(a/√(a² + g²))"
+      "D) θ = arcsin(a/√($a^2$ + $g^2$))"
     ],
     "answer": 0,
     "explanation": "In the car's (non-inertial) reference frame, there's a fictitious force ma acting backward on the pendulum bob. For equilibrium, the horizontal component of tension balances ma, and the vertical component balances mg. This gives tan(θ) = ma/mg = a/g. Students often confuse which acceleration goes in the numerator or use sine instead of tangent."
@@ -3095,15 +3095,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A block slides down a rough incline of angle θ with initial speed v0. The coefficient of kinetic friction is μk. After traveling distance s along the incline, what is the block's speed?",
+    "question": "A block slides down a rough incline of angle θ with initial speed v0. The coefficient of kinetic friction is $\\mu$k. After traveling distance s along the incline, what is the block's speed?",
     "choices": [
-      "A) √(v0² + 2gs(sin θ - μk cos θ))",
-      "B) √(v0² + 2gs(sin θ + μk cos θ))",
-      "C) √(v0² - 2gs(sin θ + μk cos θ))",
-      "D) √(v0² - 2gs(sin θ - μk cos θ))"
+      "A) √(v$0^2$ + 2gs(sin θ - $\\mu$k cos θ))",
+      "B) √(v$0^2$ + 2gs(sin θ + $\\mu$k cos θ))",
+      "C) √(v$0^2$ - 2gs(sin θ + $\\mu$k cos θ))",
+      "D) √(v$0^2$ - 2gs(sin θ - $\\mu$k cos θ))"
     ],
     "answer": 0,
-    "explanation": "The net force down the incline is mg sin θ - μk mg cos θ, giving acceleration a = g(sin θ - μk cos θ). Since this is positive (assuming block accelerates down), using v² = v0² + 2as gives the answer. Students often confuse the sign of friction or acceleration direction, or forget that kinematic equations require careful attention to signs."
+    "explanation": "The net force down the incline is mg sin θ - $\\mu$k mg cos θ, giving acceleration a = g(sin θ - $\\mu$k cos θ). Since this is positive (assuming block accelerates down), using $v^2$ = v$0^2$ + 2as gives the answer. Students often confuse the sign of friction or acceleration direction, or forget that kinematic equations require careful attention to signs."
   },
   {
     "id": "physc_u2_q084",
@@ -3143,7 +3143,7 @@ window.PHYSC_MCQ = [
       "D) (2/5) tan θ"
     ],
     "answer": 2,
-    "explanation": "For rolling without slipping, a = αR and friction provides the torque. For a solid disk, I = ½mR². The acceleration down the incline is a = (2/3)g sin θ, requiring friction f = ma/3 = mg sin θ/3. Since f ≤ μsmg cos θ, we get μs ≥ (1/3) tan θ. Students often use the sliding case (tan θ) or incorrect moment of inertia values."
+    "explanation": "For rolling without slipping, a = αR and friction provides the torque. For a solid disk, I = $\\frac{1}{2}$m$R^2$. The acceleration down the incline is a = (2/3)g sin θ, requiring friction f = ma/3 = mg sin θ/3. Since f $\\leq$ μsmg cos θ, we get μs $\\geq$ (1/3) tan θ. Students often use the sliding case (tan θ) or incorrect moment of inertia values."
   },
   {
     "id": "physc_u2_q086",
@@ -3198,7 +3198,7 @@ window.PHYSC_MCQ = [
     "question": "A chain of length L and mass M is initially at rest on a table with length h hanging over the edge. The table is frictionless. What is the acceleration of the chain when it starts to move?",
     "choices": [
       "A) gh/L",
-      "B) gh²/L²",
+      "B) g$h^2$/$L^2$",
       "C) gM h/(ML)",
       "D) g(L-h)/L"
     ],
@@ -3215,15 +3215,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A car travels around a banked circular track of radius R. The banking angle is θ and coefficient of friction is μ. What is the maximum speed for which the car will not slip up the bank?",
+    "question": "A car travels around a banked circular track of radius R. The banking angle is θ and coefficient of friction is $\\mu$. What is the maximum speed for which the car will not slip up the bank?",
     "choices": [
-      "A) √(gR(sin θ + μ cos θ)/(cos θ - μ sin θ))",
-      "B) √(gR(cos θ + μ sin θ)/(sin θ - μ cos θ))",
-      "C) √(gR(sin θ - μ cos θ)/(cos θ + μ sin θ))",
-      "D) √(gR tan θ/(1 - μ))"
+      "A) √(gR(sin θ + $\\mu$ cos θ)/(cos θ - $\\mu$ sin θ))",
+      "B) √(gR(cos θ + $\\mu$ sin θ)/(sin θ - $\\mu$ cos θ))",
+      "C) √(gR(sin θ - $\\mu$ cos θ)/(cos θ + $\\mu$ sin θ))",
+      "D) √(gR tan θ/(1 - $\\mu$))"
     ],
     "answer": 0,
-    "explanation": "At maximum speed, friction acts down the bank. Force equations: N cos θ + f sin θ = mg (vertical), N sin θ - f cos θ = mv²/R (horizontal). With f = μN and solving simultaneously gives the result. Students often get confused about friction direction at maximum vs minimum speed, or make algebraic errors in the simultaneous equations."
+    "explanation": "At maximum speed, friction acts down the bank. Force equations: N cos θ + f sin θ = mg (vertical), N sin θ - f cos θ = m$v^2$/R (horizontal). With f = μN and solving simultaneously gives the result. Students often get confused about friction direction at maximum vs minimum speed, or make algebraic errors in the simultaneous equations."
   },
   {
     "id": "physc_u3_q090",
@@ -3363,7 +3363,7 @@ window.PHYSC_MCQ = [
       "D) 3 J"
     ],
     "answer": 0,
-    "explanation": "Work = ∫F(x)dx = ∫2x dx from 0 to 3 = [x²] from 0 to 3 = 9 - 0 = 9 J. Choice B incorrectly uses F(3) × distance = 6 × 1, missing the integration. Choice C incorrectly doubles the correct answer. Choice D uses only the final position value without proper integration."
+    "explanation": "Work = ∫F(x)dx = ∫2x dx from 0 to 3 = [$x^2$] from 0 to 3 = 9 - 0 = 9 J. Choice B incorrectly uses F(3) × distance = 6 × 1, missing the integration. Choice C incorrectly doubles the correct answer. Choice D uses only the final position value without proper integration."
   },
   {
     "id": "physc_u3_q097",
@@ -3397,13 +3397,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "The elastic potential energy stored in a spring with spring constant k stretched by distance x is:",
     "choices": [
-      "A) (1/2)kx²",
+      "A) (1/2)k$x^2$",
       "B) kx",
-      "C) kx²",
+      "C) k$x^2$",
       "D) (1/2)kx"
     ],
     "answer": 0,
-    "explanation": "Elastic potential energy is U = (1/2)kx², derived from integrating the spring force F = -kx. This is the area under the force vs. displacement curve. Choice B gives the force magnitude, not energy. Choice C is missing the factor of 1/2 from integration. Choice D has the wrong power of x."
+    "explanation": "Elastic potential energy is U = (1/2)k$x^2$, derived from integrating the spring force F = -kx. This is the area under the force vs. displacement curve. Choice B gives the force magnitude, not energy. Choice C is missing the factor of 1/2 from integration. Choice D has the wrong power of x."
   },
   {
     "id": "physc_u3_q099",
@@ -3483,7 +3483,7 @@ window.PHYSC_MCQ = [
       "D) 24 J"
     ],
     "answer": 0,
-    "explanation": "First find acceleration: a = F/m = 8/2 = 4 m/s². Distance traveled: s = ½at² = ½(4)(9) = 18 m. Work done: W = Fs = 8(18) = 144 J. By work-energy theorem, W = ΔKE = KE_final - 0 = 144 J. Students might incorrectly use W = Ft = 24 J or double the correct answer."
+    "explanation": "First find acceleration: a = F/m = 8/2 = 4 $m/s^2$. Distance traveled: s = $\\frac{1}{2}$a$t^2$ = $\\frac{1}{2}$(4)(9) = 18 m. Work done: W = Fs = 8(18) = 144 J. By work-energy theorem, W = ΔKE = KE_final - 0 = 144 J. Students might incorrectly use W = Ft = 24 J or double the correct answer."
   },
   {
     "id": "physc_u3_q103",
@@ -3515,7 +3515,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle has potential energy U(x) = ½kx² + bx, where k and b are constants. At what position is the particle in equilibrium?",
+    "question": "A particle has potential energy U(x) = $\\frac{1}{2}$k$x^2$ + bx, where k and b are constants. At what position is the particle in equilibrium?",
     "choices": [
       "A) x = -b/k",
       "B) x = b/k",
@@ -3540,7 +3540,7 @@ window.PHYSC_MCQ = [
       "A) F = -kx î (spring force)",
       "B) F = -mg ĵ (gravitational force)",
       "C) F = -μN v̂ (kinetic friction)",
-      "D) F = kq₁q₂/r² r̂ (electrostatic force)"
+      "D) F = kq₁q₂/$r^2$ r̂ (electrostatic force)"
     ],
     "answer": 2,
     "explanation": "Friction is not conservative because it always opposes motion and depends on the path taken - longer paths result in more energy dissipated. Spring, gravitational, and electrostatic forces are conservative because they depend only on position and the work done is path-independent. Students might think any force proportional to distance or depending on velocity could be conservative."
@@ -3563,7 +3563,7 @@ window.PHYSC_MCQ = [
       "D) 4.4 m/s"
     ],
     "answer": 1,
-    "explanation": "The height difference is h = L(1 - cos30°) = 1(1 - √3/2) = 1 - 0.866 = 0.134 m. By conservation of energy: mgh = ½mv², so v = √(2gh) = √(2×10×0.134) = √2.68 ≈ 1.6 m/s. Students might use the angle directly instead of the height difference or make trigonometric errors."
+    "explanation": "The height difference is h = L(1 - cos30°) = 1(1 - √3/2) = 1 - 0.866 = 0.134 m. By conservation of energy: mgh = $\\frac{1}{2}$m$v^2$, so v = √(2gh) = √(2$\\times$10×0.134) = √2.68 $\\approx$ 1.6 m/s. Students might use the angle directly instead of the height difference or make trigonometric errors."
   },
   {
     "id": "physc_u3_q107",
@@ -3595,7 +3595,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A force F = 4x³ î acts on a particle. How much work is done as the particle moves from x = 0 to x = 2 m?",
+    "question": "A force F = 4$x^3$ î acts on a particle. How much work is done as the particle moves from x = 0 to x = 2 m?",
     "choices": [
       "A) 8 J",
       "B) 16 J",
@@ -3603,7 +3603,7 @@ window.PHYSC_MCQ = [
       "D) 64 J"
     ],
     "answer": 1,
-    "explanation": "Work = ∫F·dx = ∫4x³dx from 0 to 2 = [x⁴] from 0 to 2 = 2⁴ - 0⁴ = 16 J. Students might incorrectly integrate (getting 4x⁴/4 = x⁴ is correct) or make arithmetic errors in the evaluation."
+    "explanation": "Work = ∫F·dx = ∫4$x^3$dx from 0 to 2 = [x⁴] from 0 to 2 = 2⁴ - 0⁴ = 16 J. Students might incorrectly integrate (getting 4x⁴/4 = x⁴ is correct) or make arithmetic errors in the evaluation."
   },
   {
     "id": "physc_u3_q109",
@@ -3623,7 +3623,7 @@ window.PHYSC_MCQ = [
       "D) 24 J"
     ],
     "answer": 0,
-    "explanation": "By the work-energy theorem, W = ΔKE = ½m(v₂² - v₁²) = ½(3)(8² - 4²) = ½(3)(64 - 16) = ½(3)(48) = 72 J. Students might forget to square the velocities or calculate the difference incorrectly."
+    "explanation": "By the work-energy theorem, W = ΔKE = $\\frac{1}{2}$m(v₂² - v₁²) = $\\frac{1}{2}$(3)($8^2$ - $4^2$) = $\\frac{1}{2}$(3)(64 - 16) = $\\frac{1}{2}$(3)(48) = 72 J. Students might forget to square the velocities or calculate the difference incorrectly."
   },
   {
     "id": "physc_u3_q110",
@@ -3635,11 +3635,11 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "If U(x) = ax⁴ + bx² + c represents the potential energy of a particle, what is the force when the potential energy is minimum?",
+    "question": "If U(x) = ax⁴ + b$x^2$ + c represents the potential energy of a particle, what is the force when the potential energy is minimum?",
     "choices": [
       "A) Zero",
-      "B) -4ax³ - 2bx",
-      "C) 4ax³ + 2bx",
+      "B) -4a$x^3$ - 2bx",
+      "C) 4a$x^3$ + 2bx",
       "D) Cannot be determined"
     ],
     "answer": 0,
@@ -3683,7 +3683,7 @@ window.PHYSC_MCQ = [
       "D) 9 m/s"
     ],
     "answer": 1,
-    "explanation": "By conservation of energy, elastic PE converts to KE: ½kx² = ½mv². Solving for v: v = √(kx²/m) = √(200×0.3²/1) = √(200×0.09) = √18 ≈ 4.24 m/s. Students might forget to square the compression distance or make calculation errors."
+    "explanation": "By conservation of energy, elastic PE converts to KE: $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$m$v^2$. Solving for v: v = √(k$x^2$/m) = √(200×0.$3^2$/1) = √(200×0.09) = √18 $\\approx$ 4.24 m/s. Students might forget to square the compression distance or make calculation errors."
   },
   {
     "id": "physc_u3_q113",
@@ -3723,7 +3723,7 @@ window.PHYSC_MCQ = [
       "D) 40 J"
     ],
     "answer": 0,
-    "explanation": "Work = ∫F(x)dx = ∫(10 - 2x)dx from 0 to 4 = [10x - x²] from 0 to 4 = (40 - 16) - (0 - 0) = 24 J. Students might make integration errors or forget that the mass doesn't directly affect the work calculation in this context."
+    "explanation": "Work = ∫F(x)dx = ∫(10 - 2x)dx from 0 to 4 = [10x - $x^2$] from 0 to 4 = (40 - 16) - (0 - 0) = 24 J. Students might make integration errors or forget that the mass doesn't directly affect the work calculation in this context."
   },
   {
     "id": "physc_u3_q115",
@@ -3743,7 +3743,7 @@ window.PHYSC_MCQ = [
       "D) 156,250 J"
     ],
     "answer": 0,
-    "explanation": "Initial PE = mgh = 500×10×20 = 100,000 J. Final KE = ½mv² = ½×500×15² = 56,250 J. Energy lost to friction = 100,000 - 56,250 = 43,750 J. Students might subtract in the wrong order or make calculation errors with the kinetic energy."
+    "explanation": "Initial PE = mgh = 500$\\times$10×20 = 100,000 J. Final KE = $\\frac{1}{2}$m$v^2$ = $\\frac{1}{2}$×500×1$5^2$ = 56,250 J. Energy lost to friction = 100,000 - 56,250 = 43,750 J. Students might subtract in the wrong order or make calculation errors with the kinetic energy."
   },
   {
     "id": "physc_u3_q116",
@@ -3755,7 +3755,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle moves along the x-axis from x = 1 m to x = 4 m under the influence of a force F(x) = 3x² N. What is the work done by this force?",
+    "question": "A particle moves along the x-axis from x = 1 m to x = 4 m under the influence of a force F(x) = 3$x^2$ N. What is the work done by this force?",
     "choices": [
       "A) 21 J",
       "B) 63 J",
@@ -3763,7 +3763,7 @@ window.PHYSC_MCQ = [
       "D) 189 J"
     ],
     "answer": 1,
-    "explanation": "Work is the integral of F·dx from 1 to 4. W = ∫(3x²)dx from 1 to 4 = [x³] from 1 to 4 = 64 - 1 = 63 J. Choice A uses incorrect integration (forgetting the coefficient). Choice C uses average force times distance. Choice D multiplies the integrand by the limits."
+    "explanation": "Work is the integral of F·dx from 1 to 4. W = ∫(3$x^2$)dx from 1 to 4 = [$x^3$] from 1 to 4 = 64 - 1 = 63 J. Choice A uses incorrect integration (forgetting the coefficient). Choice C uses average force times distance. Choice D multiplies the integrand by the limits."
   },
   {
     "id": "physc_u3_q117",
@@ -3783,7 +3783,7 @@ window.PHYSC_MCQ = [
       "D) 8.9 m/s"
     ],
     "answer": 2,
-    "explanation": "Using work-energy theorem: W_net = ΔKE. Work by gravity = mgh = 2×10×4 = 80 J. Work by friction = -15 J. Net work = 65 J. Since initial KE = 0, final KE = 65 J, so ½mv² = 65, giving v = 6.2 m/s. Choice A ignores friction. Choice B uses total displacement instead of vertical. Choice D uses horizontal displacement for gravity."
+    "explanation": "Using work-energy theorem: W_net = ΔKE. Work by gravity = mgh = 2$\\times$10×4 = 80 J. Work by friction = -15 J. Net work = 65 J. Since initial KE = 0, final KE = 65 J, so $\\frac{1}{2}$m$v^2$ = 65, giving v = 6.2 m/s. Choice A ignores friction. Choice B uses total displacement instead of vertical. Choice D uses horizontal displacement for gravity."
   },
   {
     "id": "physc_u3_q118",
@@ -3795,15 +3795,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A force field is given by F = (2xy + 3)î + (x² - 4y)ĵ. Is this force conservative?",
+    "question": "A force field is given by F = (2xy + 3)î + ($x^2$ - 4y)ĵ. Is this force conservative?",
     "choices": [
       "A) Yes, because ∂Fx/∂y = ∂Fy/∂x = 2x",
-      "B) No, because ∂Fx/∂y ≠ ∂Fy/∂x",
+      "B) No, because ∂Fx/∂y $\\neq$ ∂Fy/∂x",
       "C) Yes, because the force depends on position only",
       "D) No, because the force has both x and y components"
     ],
     "answer": 0,
-    "explanation": "A 2D force is conservative if ∂Fx/∂y = ∂Fy/∂x. Here, ∂Fx/∂y = ∂(2xy + 3)/∂y = 2x and ∂Fy/∂x = ∂(x² - 4y)/∂x = 2x. Since they're equal, the force is conservative. Choice B incorrectly calculates the partial derivatives. Choice C gives a necessary but not sufficient condition. Choice D shows a fundamental misunderstanding of conservative forces."
+    "explanation": "A 2D force is conservative if ∂Fx/∂y = ∂Fy/∂x. Here, ∂Fx/∂y = ∂(2xy + 3)/∂y = 2x and ∂Fy/∂x = ∂($x^2$ - 4y)/∂x = 2x. Since they're equal, the force is conservative. Choice B incorrectly calculates the partial derivatives. Choice C gives a necessary but not sufficient condition. Choice D shows a fundamental misunderstanding of conservative forces."
   },
   {
     "id": "physc_u3_q119",
@@ -3835,7 +3835,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle has potential energy U(x) = x⁴ - 4x² + 3. At which position(s) is the particle in stable equilibrium?",
+    "question": "A particle has potential energy U(x) = x⁴ - 4$x^2$ + 3. At which position(s) is the particle in stable equilibrium?",
     "choices": [
       "A) x = 0 only",
       "B) x = ±√2 only",
@@ -3843,7 +3843,7 @@ window.PHYSC_MCQ = [
       "D) x = 0 and x = ±√2"
     ],
     "answer": 1,
-    "explanation": "Equilibrium occurs where F = -dU/dx = 0. dU/dx = 4x³ - 8x = 4x(x² - 2). This equals zero at x = 0 and x = ±√2. For stability, we need d²U/dx² > 0. d²U/dx² = 12x² - 8. At x = 0: d²U/dx² = -8 < 0 (unstable). At x = ±√2: d²U/dx² = 12(2) - 8 = 16 > 0 (stable). Only x = ±√2 are stable. Choice A identifies unstable equilibrium. Choice C uses wrong derivative. Choice D includes unstable equilibrium."
+    "explanation": "Equilibrium occurs where F = -dU/dx = 0. dU/dx = 4$x^3$ - 8x = 4x($x^2$ - 2). This equals zero at x = 0 and x = ±√2. For stability, we need $d^2$$U/dx^2$ > 0. $d^2$$U/dx^2$ = 12$x^2$ - 8. At x = 0: $d^2$$U/dx^2$ = -8 < 0 (unstable). At x = ±√2: $d^2$$U/dx^2$ = 12(2) - 8 = 16 > 0 (stable). Only x = ±√2 are stable. Choice A identifies unstable equilibrium. Choice C uses wrong derivative. Choice D includes unstable equilibrium."
   },
   {
     "id": "physc_u4_q122",
@@ -3859,11 +3859,11 @@ window.PHYSC_MCQ = [
     "choices": [
       "A) N·s",
       "B) N/s",
-      "C) kg·m/s²",
+      "C) kg·$m/s^2$",
       "D) J·s"
     ],
     "answer": 0,
-    "explanation": "Impulse is force times time (J = F·Δt), so the unit is N·s. This is equivalent to kg·m/s (momentum units) by the impulse-momentum theorem. Choice B confuses division with multiplication, C is force units, and D incorrectly includes energy units."
+    "explanation": "Impulse is force times time (J = F·$\\Delta t$), so the unit is N·s. This is equivalent to kg·m/s (momentum units) by the impulse-momentum theorem. Choice B confuses division with multiplication, C is force units, and D incorrectly includes energy units."
   },
   {
     "id": "physc_u4_q123",
@@ -3883,7 +3883,7 @@ window.PHYSC_MCQ = [
       "D) average momentum"
     ],
     "answer": 0,
-    "explanation": "The impulse-momentum theorem states J = Δp = pf - pi (change in momentum). Students often confuse this with just final momentum (B) or initial momentum (C), or think it relates to average momentum (D)."
+    "explanation": "The impulse-momentum theorem states J = $\\Delta p$ = pf - pi (change in momentum). Students often confuse this with just final momentum (B) or initial momentum (C), or think it relates to average momentum (D)."
   },
   {
     "id": "physc_u4_q124",
@@ -4143,7 +4143,7 @@ window.PHYSC_MCQ = [
       "D) 320 N"
     ],
     "answer": 2,
-    "explanation": "The impulse-momentum theorem states J = Δp = FΔt. Initial momentum is +16 kg⋅m/s, final momentum is -12 kg⋅m/s, so Δp = -28 kg⋅m/s. Therefore |F| = |Δp|/Δt = 28/0.10 = 280 N. Choice A incorrectly uses only the final velocity, B uses only the change in speed without considering the full momentum change, and D incorrectly adds the momenta instead of finding the change."
+    "explanation": "The impulse-momentum theorem states J = $\\Delta p$ = F$\\Delta t$. Initial momentum is +16 kg⋅m/s, final momentum is -12 kg⋅m/s, so $\\Delta p$ = -28 kg⋅m/s. Therefore |F| = |$\\Delta p$|/$\\Delta t$ = 28/0.10 = 280 N. Choice A incorrectly uses only the final velocity, B uses only the change in speed without considering the full momentum change, and D incorrectly adds the momenta instead of finding the change."
   },
   {
     "id": "physc_u4_q137",
@@ -4243,7 +4243,7 @@ window.PHYSC_MCQ = [
       "D) 100%"
     ],
     "answer": 1,
-    "explanation": "Initial KE = ½mv² = ½m(8.0)² = 32m. After collision, both move at 4.0 m/s (by momentum conservation), so final KE = ½(2m)(4.0)² = 16m. Energy lost = (32m - 16m)/32m = 50%. This is always true for perfectly inelastic collisions between equal masses where one is initially at rest. Other choices represent common calculation errors or misconceptions about energy loss in collisions."
+    "explanation": "Initial KE = $\\frac{1}{2}$m$v^2$ = $\\frac{1}{2}$m(8.0)² = 32m. After collision, both move at 4.0 m/s (by momentum conservation), so final KE = $\\frac{1}{2}$(2m)(4.0)² = 16m. Energy lost = (32m - 16m)/32m = 50%. This is always true for perfectly inelastic collisions between equal masses where one is initially at rest. Other choices represent common calculation errors or misconceptions about energy loss in collisions."
   },
   {
     "id": "physc_u4_q142",
@@ -4283,7 +4283,7 @@ window.PHYSC_MCQ = [
       "D) Moves 0.4 m in x-direction, 0.4 m in y-direction"
     ],
     "answer": 0,
-    "explanation": "The 4.0 kg mass moves Δx = 2.0 m, Δy = 2.0 m. Since total mass is 10.0 kg, the center of mass moves (4.0/10.0) × 2.0 = 0.8 m in x and (4.0/10.0) × 2.0 = 0.8 m in y. Choice B ignores mass weighting, C incorrectly calculates the mass fraction, and D uses the wrong mass ratio."
+    "explanation": "The 4.0 kg mass moves $\\Delta x$ = 2.0 m, $\\Delta y$ = 2.0 m. Since total mass is 10.0 kg, the center of mass moves (4.0/10.0) × 2.0 = 0.8 m in x and (4.0/10.0) × 2.0 = 0.8 m in y. Choice B ignores mass weighting, C incorrectly calculates the mass fraction, and D uses the wrong mass ratio."
   },
   {
     "id": "physc_u4_q144",
@@ -4303,7 +4303,7 @@ window.PHYSC_MCQ = [
       "D) 500 m/s"
     ],
     "answer": 2,
-    "explanation": "Using the rocket equation: Δv = vrel × ln(mi/mf) = 2000 × ln(5000/4000) = 2000 × ln(1.25) = 2000 × 0.223 = 446 m/s. Choice A uses only the ln term without the exhaust velocity factor, B uses the mass ratio incorrectly, and D assumes linear relationship between mass loss and velocity change."
+    "explanation": "Using the rocket equation: $\\Delta v$ = vrel × ln(mi/mf) = 2000 × ln(5000/4000) = 2000 × ln(1.25) = 2000 × 0.223 = 446 m/s. Choice A uses only the ln term without the exhaust velocity factor, B uses the mass ratio incorrectly, and D assumes linear relationship between mass loss and velocity change."
   },
   {
     "id": "physc_u4_q145",
@@ -4323,7 +4323,7 @@ window.PHYSC_MCQ = [
       "D) 1200 N⋅s"
     ],
     "answer": 1,
-    "explanation": "Impulse = ∫F dt = ∫₀³(400 - 100t)dt = [400t - 50t²]₀³ = 400(3) - 50(9) = 1200 - 450 = 750 N⋅s. Choice A only considers the final force times time, C uses average force incorrectly, and D ignores the decreasing component of force."
+    "explanation": "Impulse = ∫F dt = ∫₀³(400 - 100t)dt = [400t - 50$t^2$]₀³ = 400(3) - 50(9) = 1200 - 450 = 750 N⋅s. Choice A only considers the final force times time, C uses average force incorrectly, and D ignores the decreasing component of force."
   },
   {
     "id": "physc_u4_q146",
@@ -4403,7 +4403,7 @@ window.PHYSC_MCQ = [
       "D) 21 J"
     ],
     "answer": 2,
-    "explanation": "Initial KE = ½(0.5)(8²) + ½(1.5)(2²) = 16 + 3 = 19 J. Using momentum conservation: 0.5(8) - 1.5(2) = 2.0vf, so vf = 1.0/2.0 = 0.5 m/s. Final KE = ½(2.0)(0.5²) = 0.25 J. Energy lost = 19 - 0.25 = 18.75 J ≈ 18 J. Other choices represent errors in calculating initial or final kinetic energies or in applying momentum conservation."
+    "explanation": "Initial KE = $\\frac{1}{2}$(0.5)($8^2$) + $\\frac{1}{2}$(1.5)($2^2$) = 16 + 3 = 19 J. Using momentum conservation: 0.5(8) - 1.5(2) = 2.0vf, so vf = 1.0/2.0 = 0.5 m/s. Final KE = $\\frac{1}{2}$(2.0)(0.$5^2$) = 0.25 J. Energy lost = 19 - 0.25 = 18.75 J $\\approx$ 18 J. Other choices represent errors in calculating initial or final kinetic energies or in applying momentum conservation."
   },
   {
     "id": "physc_u4_q150",
@@ -4443,7 +4443,7 @@ window.PHYSC_MCQ = [
       "D) 560 N"
     ],
     "answer": 3,
-    "explanation": "The impulse-momentum theorem states J = Δp = FΔt. Initial momentum is +16 kg⋅m/s, final momentum is -12 kg⋅m/s (opposite direction), so Δp = -12 - 16 = -28 kg⋅m/s. The magnitude of average force is |Δp|/Δt = 28/0.050 = 560 N. Choice A incorrectly uses only the initial momentum. Choice B uses only the change in speed without considering direction. Choice C adds the speeds instead of considering the momentum change."
+    "explanation": "The impulse-momentum theorem states J = $\\Delta p$ = F$\\Delta t$. Initial momentum is +16 kg⋅m/s, final momentum is -12 kg⋅m/s (opposite direction), so $\\Delta p$ = -12 - 16 = -28 kg⋅m/s. The magnitude of average force is |$\\Delta p$|/$\\Delta t$ = 28/0.050 = 560 N. Choice A incorrectly uses only the initial momentum. Choice B uses only the change in speed without considering direction. Choice C adds the speeds instead of considering the momentum change."
   },
   {
     "id": "physc_u4_q152",
@@ -4463,7 +4463,7 @@ window.PHYSC_MCQ = [
       "D) 1.2 m/s in the opposite direction"
     ],
     "answer": 1,
-    "explanation": "Using conservation of momentum: initial momentum = 0 (all at rest). Final momentum: (5.0)(12) + (95)(v) = 0, where v is the velocity of cart+person system. Solving: 60 + 95v = 0, so v = -60/95 = -0.63 ≈ -0.60 m/s. Choice A uses 105 kg instead of 95 kg. Choice C incorrectly uses only the person's mass. Choice D uses the ball's speed divided by mass."
+    "explanation": "Using conservation of momentum: initial momentum = 0 (all at rest). Final momentum: (5.0)(12) + (95)(v) = 0, where v is the velocity of cart+person system. Solving: 60 + 95v = 0, so v = -60/95 = -0.63 $\\approx$ -0.60 m/s. Choice A uses 105 kg instead of 95 kg. Choice C incorrectly uses only the person's mass. Choice D uses the ball's speed divided by mass."
   },
   {
     "id": "physc_u4_q153",
@@ -4543,7 +4543,7 @@ window.PHYSC_MCQ = [
       "D) It doubles"
     ],
     "answer": 1,
-    "explanation": "In elastic collisions, kinetic energy is conserved by definition. Initial KE = ½(2.0)(6.0)² = 36 J. After collision with equal masses, the moving ball stops and the stationary ball moves at 6.0 m/s, so final KE = ½(2.0)(6.0)² = 36 J. Choice A confuses this with inelastic collisions. Choice C and D incorrectly assume energy can be created in collisions."
+    "explanation": "In elastic collisions, kinetic energy is conserved by definition. Initial KE = $\\frac{1}{2}$(2.0)(6.0)² = 36 J. After collision with equal masses, the moving ball stops and the stationary ball moves at 6.0 m/s, so final KE = $\\frac{1}{2}$(2.0)(6.0)² = 36 J. Choice A confuses this with inelastic collisions. Choice C and D incorrectly assume energy can be created in collisions."
   },
   {
     "id": "physc_u4_q157",
@@ -4638,12 +4638,12 @@ window.PHYSC_MCQ = [
     "question": "A chain of mass M and length L hangs vertically with its bottom end just touching a scale. If the chain is released, what is the reading on the scale when a length x of the chain has fallen onto it?",
     "choices": [
       "A) (M/L)gx",
-      "B) (M/L)gx + (M/L)v²",
+      "B) (M/L)gx + (M/L)$v^2$",
       "C) 2(M/L)gx",
       "D) 3(M/L)gx"
     ],
     "answer": 3,
-    "explanation": "The scale reading has two components: (1) weight of chain already on scale = (M/L)gx, and (2) force from momentum change as chain hits scale. The velocity of chain hitting is v = √(2gx), and mass rate is dm/dt = (M/L)(dx/dt) = (M/L)v. The momentum change force is v(dm/dt) = (M/L)v² = (M/L)(2gx) = 2(M/L)gx. Total force = (M/L)gx + 2(M/L)gx = 3(M/L)gx."
+    "explanation": "The scale reading has two components: (1) weight of chain already on scale = (M/L)gx, and (2) force from momentum change as chain hits scale. The velocity of chain hitting is v = √(2gx), and mass rate is dm/dt = (M/L)(dx/dt) = (M/L)v. The momentum change force is v(dm/dt) = (M/L)$v^2$ = (M/L)(2gx) = 2(M/L)gx. Total force = (M/L)gx + 2(M/L)gx = 3(M/L)gx."
   },
   {
     "id": "physc_u4_q162",
@@ -4655,7 +4655,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle of mass m moving with velocity v₀ is subjected to a retarding force F = -kv², where k is a constant. What is the impulse delivered by this force as the particle slows from v₀ to v₀/2?",
+    "question": "A particle of mass m moving with velocity v₀ is subjected to a retarding force F = -k$v^2$, where k is a constant. What is the impulse delivered by this force as the particle slows from v₀ to v₀/2?",
     "choices": [
       "A) mv₀/2",
       "B) mv₀/3",
@@ -4663,7 +4663,7 @@ window.PHYSC_MCQ = [
       "D) 2mv₀/3"
     ],
     "answer": 0,
-    "explanation": "Impulse equals change in momentum: J = Δp = m(v₀/2) - mv₀ = -mv₀/2. The magnitude of impulse is mv₀/2. Note that we don't need to integrate the force over time; we can use the impulse-momentum theorem directly. Choice B and D come from incorrect integration attempts, while C ignores the factor of 1/2."
+    "explanation": "Impulse equals change in momentum: J = $\\Delta p$ = m(v₀/2) - mv₀ = -mv₀/2. The magnitude of impulse is mv₀/2. Note that we don't need to integrate the force over time; we can use the impulse-momentum theorem directly. Choice B and D come from incorrect integration attempts, while C ignores the factor of 1/2."
   },
   {
     "id": "physc_u4_q163",
@@ -4677,10 +4677,10 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A system consists of two particles connected by a massless rod. Particle A (mass 2m) is at position (0,0) and particle B (mass 3m) is at position (4,3). If particle A suddenly gains velocity (2,1) m/s while B gains velocity (-1,2) m/s, what is the acceleration of the center of mass?",
     "choices": [
-      "A) (0,0) m/s²",
-      "B) (0.4,1.6) m/s²",
-      "C) (1,1.5) m/s²",
-      "D) (2,3) m/s²"
+      "A) (0,0) $m/s^2$",
+      "B) (0.4,1.6) $m/s^2$",
+      "C) (1,1.5) $m/s^2$",
+      "D) (2,3) $m/s^2$"
     ],
     "answer": 0,
     "explanation": "The acceleration of the center of mass depends only on external forces. Since the particles are connected by a massless rod and no external forces are mentioned, the internal forces (which cause the velocity changes) cannot accelerate the center of mass. The center of mass moves with constant velocity after the internal interaction. Therefore, aCM = 0. The other choices incorrectly assume the velocity changes directly cause center of mass acceleration."
@@ -4703,7 +4703,7 @@ window.PHYSC_MCQ = [
       "D) Mass: M₀-Rt, Speed: vₑRt/(M₀-Rt)"
     ],
     "answer": 0,
-    "explanation": "For constant fuel burn rate R, the mass decreases linearly: m(t) = M₀ - Rt. The rocket equation gives: Δv = vₑln(M₀/Mf) = vₑln(M₀/(M₀-Rt)). Choice B incorrectly uses non-relativistic momentum addition, C uses exponential mass decrease which applies to radioactive decay not constant burn rate, and D has incorrect velocity formula."
+    "explanation": "For constant fuel burn rate R, the mass decreases linearly: m(t) = M₀ - Rt. The rocket equation gives: $\\Delta v$ = vₑln(M₀/Mf) = vₑln(M₀/(M₀-Rt)). Choice B incorrectly uses non-relativistic momentum addition, C uses exponential mass decrease which applies to radioactive decay not constant burn rate, and D has incorrect velocity formula."
   },
   {
     "id": "physc_u5_q165",
@@ -4719,11 +4719,11 @@ window.PHYSC_MCQ = [
     "choices": [
       "A) N⋅m",
       "B) N/m",
-      "C) kg⋅m²",
+      "C) kg⋅$m^2$",
       "D) J/s"
     ],
     "answer": 0,
-    "explanation": "Torque has units of N⋅m (newton-meters). Students often confuse this with N/m (force per unit length), kg⋅m² (moment of inertia units), or J/s (power units)."
+    "explanation": "Torque has units of N⋅m (newton-meters). Students often confuse this with N/m (force per unit length), kg⋅$m^2$ (moment of inertia units), or J/s (power units)."
   },
   {
     "id": "physc_u5_q166",
@@ -4757,13 +4757,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "What is the rotational inertia of a point mass m at distance r from the axis of rotation?",
     "choices": [
-      "A) mr²",
+      "A) m$r^2$",
       "B) mr",
-      "C) m/r²",
+      "C) $m/r^2$",
       "D) m/r"
     ],
     "answer": 0,
-    "explanation": "For a point mass, I = mr². Students might forget the squared term (mr), or incorrectly invert the relationship (m/r² or m/r), thinking closer masses have higher inertia."
+    "explanation": "For a point mass, I = m$r^2$. Students might forget the squared term (mr), or incorrectly invert the relationship ($m/r^2$ or m/r), thinking closer masses have higher inertia."
   },
   {
     "id": "physc_u5_q168",
@@ -4775,7 +4775,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "The parallel axis theorem states that I = Icm + md². What does d represent?",
+    "question": "The parallel axis theorem states that I = Icm + m$d^2$. What does d represent?",
     "choices": [
       "A) Distance between parallel axes",
       "B) Diameter of the object",
@@ -4803,7 +4803,7 @@ window.PHYSC_MCQ = [
       "D) It becomes zero"
     ],
     "answer": 0,
-    "explanation": "By the parallel axis theorem, I = Icm + md², so moving the axis away from the center of mass always increases rotational inertia. Students might think it decreases or stays constant."
+    "explanation": "By the parallel axis theorem, I = Icm + m$d^2$, so moving the axis away from the center of mass always increases rotational inertia. Students might think it decreases or stays constant."
   },
   {
     "id": "physc_u5_q170",
@@ -4835,15 +4835,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A disk with rotational inertia 2.0 kg⋅m² experiences a net torque of 8.0 N⋅m. What is its angular acceleration?",
+    "question": "A disk with rotational inertia 2.0 kg⋅$m^2$ experiences a net torque of 8.0 N⋅m. What is its angular acceleration?",
     "choices": [
-      "A) 4.0 rad/s²",
-      "B) 16 rad/s²",
-      "C) 0.25 rad/s²",
-      "D) 10 rad/s²"
+      "A) 4.0 $rad/s^2$",
+      "B) 16 $rad/s^2$",
+      "C) 0.25 $rad/s^2$",
+      "D) 10 $rad/s^2$"
     ],
     "answer": 0,
-    "explanation": "Using τ = Iα, we get α = τ/I = 8.0/2.0 = 4.0 rad/s². Students might multiply instead of divide (16), invert incorrectly (0.25), or add the values (10)."
+    "explanation": "Using τ = Iα, we get α = τ/I = 8.0/2.0 = 4.0 $rad/s^2$. Students might multiply instead of divide (16), invert incorrectly (0.25), or add the values (10)."
   },
   {
     "id": "physc_u5_q172",
@@ -4859,11 +4859,11 @@ window.PHYSC_MCQ = [
     "choices": [
       "A) v = ωr",
       "B) v = ω/r",
-      "C) v = ωr²",
+      "C) v = ω$r^2$",
       "D) v = ω + r"
     ],
     "answer": 0,
-    "explanation": "For rolling without slipping, v = ωr where r is the radius. Students might use v = ω/r (incorrect inversion), v = ωr² (adding extra radius), or v = ω + r (incorrect addition)."
+    "explanation": "For rolling without slipping, v = ωr where r is the radius. Students might use v = ω/r (incorrect inversion), v = ω$r^2$ (adding extra radius), or v = ω + r (incorrect addition)."
   },
   {
     "id": "physc_u5_q173",
@@ -4997,13 +4997,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A solid disk of mass 2 kg and radius 0.5 m is subject to a net torque of 3 N⋅m. What is its angular acceleration?",
     "choices": [
-      "A) 6 rad/s²",
-      "B) 12 rad/s²",
-      "C) 3 rad/s²",
-      "D) 1.5 rad/s²"
+      "A) 6 $rad/s^2$",
+      "B) 12 $rad/s^2$",
+      "C) 3 $rad/s^2$",
+      "D) 1.5 $rad/s^2$"
     ],
     "answer": 1,
-    "explanation": "For a solid disk, I = (1/2)MR² = (1/2)(2)(0.5)² = 0.25 kg⋅m². Using τ = Iα: α = τ/I = 3/0.25 = 12 rad/s². Choice A uses the wrong moment of inertia formula. Choice C assumes I = MR². Choice D uses I = MR² but with an extra factor of 2 error."
+    "explanation": "For a solid disk, I = (1/2)M$R^2$ = (1/2)(2)(0.5)² = 0.25 kg⋅$m^2$. Using τ = Iα: α = τ/I = 3/0.25 = 12 $rad/s^2$. Choice A uses the wrong moment of inertia formula. Choice C assumes I = M$R^2$. Choice D uses I = M$R^2$ but with an extra factor of 2 error."
   },
   {
     "id": "physc_u5_q180",
@@ -5063,7 +5063,7 @@ window.PHYSC_MCQ = [
       "D) 4:1"
     ],
     "answer": 1,
-    "explanation": "For a thin hoop: I = MR². For a solid disk: I = (1/2)MR². The ratio is MR² : (1/2)MR² = 2:1. Choice A would be if both had the same rotational inertia formula. Choice C inverts the correct ratio. Choice D represents a common error confusing different geometric shapes."
+    "explanation": "For a thin hoop: I = M$R^2$. For a solid disk: I = (1/2)M$R^2$. The ratio is M$R^2$ : (1/2)M$R^2$ = 2:1. Choice A would be if both had the same rotational inertia formula. Choice C inverts the correct ratio. Choice D represents a common error confusing different geometric shapes."
   },
   {
     "id": "physc_u5_q183",
@@ -5077,13 +5077,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A uniform disk of mass M and radius R rotates about an axis parallel to its central axis at distance d from the center. If d = R, what is the rotational inertia?",
     "choices": [
-      "A) MR²",
-      "B) (3/2)MR²",
-      "C) 2MR²",
-      "D) (5/2)MR²"
+      "A) M$R^2$",
+      "B) (3/2)M$R^2$",
+      "C) 2M$R^2$",
+      "D) (5/2)M$R^2$"
     ],
     "answer": 1,
-    "explanation": "Using parallel axis theorem: I = I_cm + Md². For a disk, I_cm = (1/2)MR². With d = R: I = (1/2)MR² + M(R)² = (1/2)MR² + MR² = (3/2)MR². Choice A forgets the central axis term. Choice C forgets the central axis contribution. Choice D adds incorrectly."
+    "explanation": "Using parallel axis theorem: I = I_cm + M$d^2$. For a disk, I_cm = (1/2)M$R^2$. With d = R: I = (1/2)M$R^2$ + M(R)² = (1/2)M$R^2$ + M$R^2$ = (3/2)M$R^2$. Choice A forgets the central axis term. Choice C forgets the central axis contribution. Choice D adds incorrectly."
   },
   {
     "id": "physc_u5_q184",
@@ -5103,7 +5103,7 @@ window.PHYSC_MCQ = [
       "D) 2F/(ML)"
     ],
     "answer": 0,
-    "explanation": "For a rod rotating about one end: I = (1/3)ML². The torque from force F at midpoint (distance L/2): τ = F(L/2). Using τ = Iα: α = τ/I = F(L/2)/[(1/3)ML²] = (3F/2ML). Choice B uses wrong moment of inertia. Choice C has calculation error. Choice D forgets the 1/3 factor in the rod's rotational inertia."
+    "explanation": "For a rod rotating about one end: I = (1/3)M$L^2$. The torque from force F at midpoint (distance L/2): τ = F(L/2). Using τ = Iα: α = τ/I = F(L/2)/[(1/3)M$L^2$] = (3F/2ML). Choice B uses wrong moment of inertia. Choice C has calculation error. Choice D forgets the 1/3 factor in the rod's rotational inertia."
   },
   {
     "id": "physc_u5_q185",
@@ -5123,7 +5123,7 @@ window.PHYSC_MCQ = [
       "D) 1/4"
     ],
     "answer": 1,
-    "explanation": "For rolling without slipping: v = ωR, so ω = v/R. Rotational KE = (1/2)Iω² = (1/2)[(1/2)MR²](v/R)² = (1/4)Mv². Translational KE = (1/2)Mv². Total KE = (1/4)Mv² + (1/2)Mv² = (3/4)Mv². Fraction rotational = (1/4)Mv²/(3/4)Mv² = 1/3. Choice A assumes equal rotational and translational energy. Choice C gives the translational fraction. Choice D uses wrong rotational inertia."
+    "explanation": "For rolling without slipping: v = ωR, so ω = v/R. Rotational KE = (1/2)Iω² = (1/2)[(1/2)M$R^2$](v/R)² = (1/4)M$v^2$. Translational KE = (1/2)M$v^2$. Total KE = (1/4)M$v^2$ + (1/2)M$v^2$ = (3/4)M$v^2$. Fraction rotational = (1/4)M$v^2$/(3/4)M$v^2$ = 1/3. Choice A assumes equal rotational and translational energy. Choice C gives the translational fraction. Choice D uses wrong rotational inertia."
   },
   {
     "id": "physc_u5_q186",
@@ -5140,7 +5140,7 @@ window.PHYSC_MCQ = [
       "A) mv",
       "B) mvr",
       "C) mv/r",
-      "D) mr²v"
+      "D) m$r^2$v"
     ],
     "answer": 1,
     "explanation": "Angular momentum L = r × p = rmv sin θ. For circular motion, the velocity is perpendicular to the radius vector, so sin θ = 1, giving L = rmv = mvr. Choice A is just linear momentum. Choice C has incorrect units. Choice D incorrectly includes an extra factor of r."
@@ -5177,13 +5177,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "Two point masses m are connected by a massless rod of length 2L. What is the rotational inertia about an axis through the center of the rod, perpendicular to it?",
     "choices": [
-      "A) mL²",
-      "B) 2mL²",
-      "C) 4mL²",
-      "D) mL²/2"
+      "A) m$L^2$",
+      "B) 2m$L^2$",
+      "C) 4m$L^2$",
+      "D) m$L^2$/2"
     ],
     "answer": 1,
-    "explanation": "Each point mass is at distance L from the center. Using I = Σmr², we get I = m(L)² + m(L)² = 2mL². Choice A accounts for only one mass. Choice C uses the total length 2L as the radius. Choice D incorrectly applies a factor of 1/2."
+    "explanation": "Each point mass is at distance L from the center. Using I = Σm$r^2$, we get I = m(L)² + m(L)² = 2m$L^2$. Choice A accounts for only one mass. Choice C uses the total length 2L as the radius. Choice D incorrectly applies a factor of 1/2."
   },
   {
     "id": "physc_u5_q189",
@@ -5197,13 +5197,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A thin rod of mass M and length L rotates about an axis perpendicular to the rod at one end. Using the parallel axis theorem, what is its rotational inertia?",
     "choices": [
-      "A) ML²/12",
-      "B) ML²/3",
-      "C) ML²/4",
-      "D) ML²/6"
+      "A) M$L^2$/12",
+      "B) M$L^2$/3",
+      "C) M$L^2$/4",
+      "D) M$L^2$/6"
     ],
     "answer": 1,
-    "explanation": "The rod's rotational inertia about its center is ML²/12. The distance from center to end is L/2. Using parallel axis theorem: I = ML²/12 + M(L/2)² = ML²/12 + ML²/4 = ML²/12 + 3ML²/12 = 4ML²/12 = ML²/3. Choice A is the center value only. Choice C and D represent calculation errors in applying the theorem."
+    "explanation": "The rod's rotational inertia about its center is M$L^2$/12. The distance from center to end is L/2. Using parallel axis theorem: I = M$L^2$/12 + M(L/2)² = M$L^2$/12 + M$L^2$/4 = M$L^2$/12 + 3M$L^2$/12 = 4M$L^2$/12 = M$L^2$/3. Choice A is the center value only. Choice C and D represent calculation errors in applying the theorem."
   },
   {
     "id": "physc_u5_q190",
@@ -5223,7 +5223,7 @@ window.PHYSC_MCQ = [
       "D) 2/3"
     ],
     "answer": 0,
-    "explanation": "For a sphere: I = (2/5)MR², so α_sphere = τ/[(2/5)MR²] = 5τ/(2MR²). For a disk: I = (1/2)MR², so α_disk = τ/[(1/2)MR²] = 2τ/MR². The ratio is [5τ/(2MR²)]/[2τ/MR²] = 5/4. Choice B inverts the ratio. Choice C assumes same rotational inertias. Choice D uses incorrect formulas."
+    "explanation": "For a sphere: I = (2/5)M$R^2$, so α_sphere = τ/[(2/5)M$R^2$] = 5τ/(2M$R^2$). For a disk: I = (1/2)M$R^2$, so α_disk = τ/[(1/2)M$R^2$] = 2τ/M$R^2$. The ratio is [5τ/(2M$R^2$)]/[2τ/M$R^2$] = 5/4. Choice B inverts the ratio. Choice C assumes same rotational inertias. Choice D uses incorrect formulas."
   },
   {
     "id": "physc_u5_q191",
@@ -5277,13 +5277,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "Two identical solid cylinders of mass M and radius R are connected by a massless rod of length 2R between their centers. What is the rotational inertia of the system about an axis through the midpoint of the rod, perpendicular to it?",
     "choices": [
-      "A) MR²",
-      "B) MR² + 2MR²",
-      "C) 2MR²",
-      "D) MR²/2 + 2MR²"
+      "A) M$R^2$",
+      "B) M$R^2$ + 2M$R^2$",
+      "C) 2M$R^2$",
+      "D) M$R^2$/2 + 2M$R^2$"
     ],
     "answer": 1,
-    "explanation": "Each cylinder has I = MR²/2 about its center, but is distance R from the rotation axis. Using parallel axis theorem: I_total = 2[MR²/2 + MR²] = MR² + 2MR². Choice A forgets parallel axis theorem, choice C uses wrong formula, choice D has calculation error."
+    "explanation": "Each cylinder has I = M$R^2$/2 about its center, but is distance R from the rotation axis. Using parallel axis theorem: I_total = 2[M$R^2$/2 + M$R^2$] = M$R^2$ + 2M$R^2$. Choice A forgets parallel axis theorem, choice C uses wrong formula, choice D has calculation error."
   },
   {
     "id": "physc_u5_q194",
@@ -5295,15 +5295,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A uniform disk of mass M and radius R has rotational inertia MR²/2 about its center. What is its rotational inertia about an axis parallel to the central axis but passing through a point on the rim?",
+    "question": "A uniform disk of mass M and radius R has rotational inertia M$R^2$/2 about its center. What is its rotational inertia about an axis parallel to the central axis but passing through a point on the rim?",
     "choices": [
-      "A) MR²/2",
-      "B) MR²",
-      "C) 3MR²/2",
-      "D) 2MR²"
+      "A) M$R^2$/2",
+      "B) M$R^2$",
+      "C) 3M$R^2$/2",
+      "D) 2M$R^2$"
     ],
     "answer": 2,
-    "explanation": "Using parallel axis theorem: I = I_cm + Md² = MR²/2 + MR² = 3MR²/2, where d = R is the distance from center to rim. Choice A ignores the theorem, choice B uses d² = R incorrectly, choice D doubles the center value incorrectly."
+    "explanation": "Using parallel axis theorem: I = I_cm + M$d^2$ = M$R^2$/2 + M$R^2$ = 3M$R^2$/2, where d = R is the distance from center to rim. Choice A ignores the theorem, choice B uses $d^2$ = R incorrectly, choice D doubles the center value incorrectly."
   },
   {
     "id": "physc_u5_q195",
@@ -5323,7 +5323,7 @@ window.PHYSC_MCQ = [
       "D) 2mg/MR"
     ],
     "answer": 1,
-    "explanation": "For the hanging mass: mg - T = ma. For the disk: TR = Iα = (MR²/2)α. With a = αR, solving gives α = 2mg/[(M+2m)R]. Choice A ignores the hanging mass inertia, choice C has algebra error, choice D ignores hanging mass acceleration."
+    "explanation": "For the hanging mass: mg - T = ma. For the disk: TR = Iα = (M$R^2$/2)α. With a = αR, solving gives α = 2mg/[(M+2m)R]. Choice A ignores the hanging mass inertia, choice C has algebra error, choice D ignores hanging mass acceleration."
   },
   {
     "id": "physc_u5_q196",
@@ -5343,7 +5343,7 @@ window.PHYSC_MCQ = [
       "D) 1/2"
     ],
     "answer": 2,
-    "explanation": "For a solid sphere, I = 2MR²/5. Total KE = (1/2)Mv² + (1/2)Iω² = (1/2)Mv² + (1/2)(2MR²/5)(v/R)² = (7/10)Mv². Rotational fraction = (1/5)Mv²/(7/10)Mv² = 2/7. Choices A, B, D use wrong rotational inertia values or calculation errors."
+    "explanation": "For a solid sphere, I = 2M$R^2$/5. Total KE = (1/2)M$v^2$ + (1/2)Iω² = (1/2)M$v^2$ + (1/2)(2M$R^2$/5)(v/R)² = (7/10)M$v^2$. Rotational fraction = (1/5)M$v^2$/(7/10)M$v^2$ = 2/7. Choices A, B, D use wrong rotational inertia values or calculation errors."
   },
   {
     "id": "physc_u5_q197",
@@ -5403,7 +5403,7 @@ window.PHYSC_MCQ = [
       "D) 22.5 N⋅m"
     ],
     "answer": 1,
-    "explanation": "Torque = rF sin θ = (0.3 m)(50 N)(sin 60°) = (0.3)(50)(√3/2) ≈ 13.0 N⋅m. Choice A uses sin 30°, choice C uses sin 90°, choice D incorrectly uses cos 60° instead of sin 60°."
+    "explanation": "Torque = rF sin θ = (0.3 m)(50 N)(sin 60°) = (0.3)(50)(√3/2) $\\approx$ 13.0 N⋅m. Choice A uses sin 30°, choice C uses sin 90°, choice D incorrectly uses cos 60° instead of sin 60°."
   },
   {
     "id": "physc_u5_q200",
@@ -5443,7 +5443,7 @@ window.PHYSC_MCQ = [
       "D) mg/MR"
     ],
     "answer": 0,
-    "explanation": "For the hanging mass: mg - T = ma. For the disk: TR = Iα where I = MR²/2 and a = αR. Substituting: mg - Iα/R = mαR, so mg = α(I/R + mR) = α(MR/2 + mR). Therefore α = 2mg/(MR + 2mR)."
+    "explanation": "For the hanging mass: mg - T = ma. For the disk: TR = Iα where I = M$R^2$/2 and a = αR. Substituting: mg - Iα/R = mαR, so mg = α(I/R + mR) = α(MR/2 + mR). Therefore α = 2mg/(MR + 2mR)."
   },
   {
     "id": "physc_u5_q202",
@@ -5463,7 +5463,7 @@ window.PHYSC_MCQ = [
       "D) 5/7"
     ],
     "answer": 0,
-    "explanation": "For rolling without slipping, v = ωR. Total KE = ½mv² + ½Iω². For solid sphere, I = 2mR²/5, so KE_rot = ½(2mR²/5)ω² = (1/5)mv². Total KE = ½mv² + (1/5)mv² = (7/10)mv². Fraction rotational = (1/5)mv² ÷ (7/10)mv² = 2/7."
+    "explanation": "For rolling without slipping, v = ωR. Total KE = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$Iω². For solid sphere, I = 2m$R^2$/5, so KE_rot = $\\frac{1}{2}$(2m$R^2$/5)ω² = (1/5)m$v^2$. Total KE = $\\frac{1}{2}$m$v^2$ + (1/5)m$v^2$ = (7/10)m$v^2$. Fraction rotational = (1/5)m$v^2$ ÷ (7/10)m$v^2$ = 2/7."
   },
   {
     "id": "physc_u5_q203",
@@ -5483,7 +5483,7 @@ window.PHYSC_MCQ = [
       "D) 9"
     ],
     "answer": 2,
-    "explanation": "Angular momentum is conserved: I₁ω₁ = I₂ω₂, so ω₂ = I₁ω₁/I₂ = 3ω₁. Initial KE = ½I₁ω₁², final KE = ½I₂ω₂² = ½(I₁/3)(3ω₁)² = ½(I₁/3)(9ω₁²) = (3/2)I₁ω₁². Ratio = 3."
+    "explanation": "Angular momentum is conserved: I₁ω₁ = I₂ω₂, so ω₂ = I₁ω₁/I₂ = 3ω₁. Initial KE = $\\frac{1}{2}$I₁ω₁², final KE = $\\frac{1}{2}$I₂ω₂² = $\\frac{1}{2}$(I₁/3)(3ω₁)² = $\\frac{1}{2}$(I₁/3)(9ω₁²) = (3/2)I₁ω₁². Ratio = 3."
   },
   {
     "id": "physc_u5_q204",
@@ -5537,13 +5537,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A uniform disk of mass M and radius R rotates about an axis parallel to its central axis but displaced by distance R/2. If the rotational inertia about the center is I₀, what is the rotational inertia about the displaced axis?",
     "choices": [
-      "A) I₀ + MR²/4",
-      "B) I₀ + MR²/2",
-      "C) I₀ + MR²",
+      "A) I₀ + M$R^2$/4",
+      "B) I₀ + M$R^2$/2",
+      "C) I₀ + M$R^2$",
       "D) 5I₀/4"
     ],
     "answer": 0,
-    "explanation": "Parallel axis theorem: I = I₀ + Md² where d is displacement. Here I₀ = MR²/2 and d = R/2. So I = MR²/2 + M(R/2)² = MR²/2 + MR²/4 = 3MR²/4. Since I₀ = MR²/2, we get I = I₀ + MR²/4."
+    "explanation": "Parallel axis theorem: I = I₀ + M$d^2$ where d is displacement. Here I₀ = M$R^2$/2 and d = R/2. So I = M$R^2$/2 + M(R/2)² = M$R^2$/2 + M$R^2$/4 = 3M$R^2$/4. Since I₀ = M$R^2$/2, we get I = I₀ + M$R^2$/4."
   },
   {
     "id": "physc_u5_q207",
@@ -5557,13 +5557,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A compound pulley system has a large disk of radius R and inertia I₁ connected to a smaller disk of radius r and inertia I₂. A mass m hangs from the smaller disk. What is the system's angular acceleration?",
     "choices": [
-      "A) mgr/(I₁ + I₂ + mr²)",
+      "A) mgr/(I₁ + I₂ + m$r^2$)",
       "B) mg/(I₁ + I₂ + mr)",
-      "C) mgR/(I₁ + I₂ + mR²)",
+      "C) mgR/(I₁ + I₂ + m$R^2$)",
       "D) mg(R-r)/(I₁ + I₂)"
     ],
     "answer": 0,
-    "explanation": "Both disks have same angular acceleration α. For hanging mass: mg - T = ma where a = αr. For disk system: Tr = (I₁ + I₂)α. Substituting T: (mg - mαr)r = (I₁ + I₂)α, so mgr = α(I₁ + I₂ + mr²). Therefore α = mgr/(I₁ + I₂ + mr²)."
+    "explanation": "Both disks have same angular acceleration α. For hanging mass: mg - T = ma where a = αr. For disk system: Tr = (I₁ + I₂)α. Substituting T: (mg - mαr)r = (I₁ + I₂)α, so mgr = α(I₁ + I₂ + m$r^2$). Therefore α = mgr/(I₁ + I₂ + m$r^2$)."
   },
   {
     "id": "physc_u5_q208",
@@ -5577,13 +5577,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A yo-yo of inner radius r, outer radius R, and rotational inertia I unwinds as it falls. What is the acceleration of its center of mass?",
     "choices": [
-      "A) g/(1 + I/mr²)",
-      "B) g/(1 + I/mR²)",
-      "C) gr²/(r² + I/m)",
-      "D) gR²/(R² + I/m)"
+      "A) g/(1 + $I/mr^2$)",
+      "B) g/(1 + $I/mR^2$)",
+      "C) g$r^2$/($r^2$ + I/m)",
+      "D) g$R^2$/($R^2$ + I/m)"
     ],
     "answer": 0,
-    "explanation": "For yo-yo: mg - T = ma (downward positive) and Tr = Iα where a = αr (rolling constraint). From second equation: T = Iα/r = Ia/r². Substituting: mg - Ia/r² = ma, so mg = a(m + I/r²) = ma(1 + I/mr²). Therefore a = g/(1 + I/mr²)."
+    "explanation": "For yo-yo: mg - T = ma (downward positive) and Tr = Iα where a = αr (rolling constraint). From second equation: T = Iα/r = $Ia/r^2$. Substituting: mg - $Ia/r^2$ = ma, so mg = a(m + $I/r^2$) = ma(1 + $I/mr^2$). Therefore a = g/(1 + $I/mr^2$)."
   },
   {
     "id": "physc_u5_q209",
@@ -5603,7 +5603,7 @@ window.PHYSC_MCQ = [
       "D) 1"
     ],
     "answer": 0,
-    "explanation": "Initial angular momentum: L₁ = Iω + I(-ω) = 0. By conservation, final angular momentum = 0, so final angular velocity = 0. Initial KE = ½Iω² + ½Iω² = Iω². Final KE = 0. Fraction remaining = 0/Iω² = 0."
+    "explanation": "Initial angular momentum: L₁ = Iω + I(-ω) = 0. By conservation, final angular momentum = 0, so final angular velocity = 0. Initial KE = $\\frac{1}{2}$Iω² + $\\frac{1}{2}$Iω² = Iω². Final KE = 0. Fraction remaining = 0/Iω² = 0."
   },
   {
     "id": "physc_u5_q210",
@@ -5643,7 +5643,7 @@ window.PHYSC_MCQ = [
       "D) Sphere, because it has larger rotational inertia"
     ],
     "answer": 1,
-    "explanation": "For rolling down incline: a = g sin θ/(1 + I/mR²). Sphere: I = 2mR²/5, so a = g sin θ/(1 + 2/5) = 5g sin θ/7. Cylinder: I = mR²/2, so a = g sin θ/(1 + 1/2) = 2g sin θ/3. Since 5/7 > 2/3, sphere has greater acceleration and wins."
+    "explanation": "For rolling down incline: a = g sin θ/(1 + $I/mR^2$). Sphere: I = 2m$R^2$/5, so a = g sin θ/(1 + 2/5) = 5g sin θ/7. Cylinder: I = m$R^2$/2, so a = g sin θ/(1 + 1/2) = 2g sin θ/3. Since 5/7 > 2/3, sphere has greater acceleration and wins."
   },
   {
     "id": "physc_u5_q212",
@@ -5663,7 +5663,7 @@ window.PHYSC_MCQ = [
       "D) 2K₀"
     ],
     "answer": 0,
-    "explanation": "Initial: L₀ = mvr, K₀ = ½mv². When radius doubles with L conserved: mv'(2r) = mvr, so v' = v/2. New kinetic energy K = ½m(v')² = ½m(v/2)² = ½mv²/4 = K₀/4."
+    "explanation": "Initial: L₀ = mvr, K₀ = $\\frac{1}{2}$m$v^2$. When radius doubles with L conserved: mv'(2r) = mvr, so v' = v/2. New kinetic energy K = $\\frac{1}{2}$m(v')² = $\\frac{1}{2}$m(v/2)² = $\\frac{1}{2}$m$v^2$/4 = K₀/4."
   },
   {
     "id": "physc_u6_q213",
@@ -5675,15 +5675,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "If the position of an object in simple harmonic motion is given by x(t) = A cos(ωt), what is the velocity v(t)?",
+    "question": "If the position of an object in simple harmonic motion is given by x(t) = A cos($\\omega$t), what is the velocity v(t)?",
     "choices": [
-      "A) v(t) = -Aω sin(ωt)",
-      "B) v(t) = A sin(ωt)",
-      "C) v(t) = Aω cos(ωt)",
-      "D) v(t) = -A cos(ωt)"
+      "A) v(t) = -Aω sin($\\omega$t)",
+      "B) v(t) = A sin($\\omega$t)",
+      "C) v(t) = Aω cos($\\omega$t)",
+      "D) v(t) = -A cos($\\omega$t)"
     ],
     "answer": 0,
-    "explanation": "The velocity is the derivative of position: v = dx/dt = d/dt[A cos(ωt)] = -Aω sin(ωt). Choice B misses the negative sign and ω factor. Choice C has wrong trigonometric function. Choice D is missing the ω factor."
+    "explanation": "The velocity is the derivative of position: v = dx/dt = d/dt[A cos($\\omega$t)] = -Aω sin($\\omega$t). Choice B misses the negative sign and ω factor. Choice C has wrong trigonometric function. Choice D is missing the ω factor."
   },
   {
     "id": "physc_u6_q214",
@@ -5703,7 +5703,7 @@ window.PHYSC_MCQ = [
       "D) ω = m/k"
     ],
     "answer": 0,
-    "explanation": "For a spring-mass system, ω = √(k/m). This comes from F = -kx = ma = m(d²x/dt²). Choice B inverts the ratio under the square root. Choices C and D are missing the square root, which is a common algebraic error."
+    "explanation": "For a spring-mass system, ω = √(k/m). This comes from F = -kx = ma = m($d^2$$x/dt^2$). Choice B inverts the ratio under the square root. Choices C and D are missing the square root, which is a common algebraic error."
   },
   {
     "id": "physc_u6_q215",
@@ -5755,15 +5755,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "If x(t) = A cos(ωt + φ), what is the acceleration a(t)?",
+    "question": "If x(t) = A cos($\\omega$t + φ), what is the acceleration a(t)?",
     "choices": [
-      "A) a(t) = -Aω² cos(ωt + φ)",
-      "B) a(t) = Aω² cos(ωt + φ)",
-      "C) a(t) = -Aω sin(ωt + φ)",
-      "D) a(t) = Aω² sin(ωt + φ)"
+      "A) a(t) = -Aω² cos($\\omega$t + φ)",
+      "B) a(t) = Aω² cos($\\omega$t + φ)",
+      "C) a(t) = -Aω sin($\\omega$t + φ)",
+      "D) a(t) = Aω² sin($\\omega$t + φ)"
     ],
     "answer": 0,
-    "explanation": "Acceleration is the second derivative of position: a = d²x/dt² = -Aω² cos(ωt + φ) = -ω²x. Choice B is missing the negative sign. Choice C is the velocity with wrong coefficient. Choice D has wrong sign and trigonometric function."
+    "explanation": "Acceleration is the second derivative of position: a = $d^2$$x/dt^2$ = -Aω² cos($\\omega$t + φ) = -ω²x. Choice B is missing the negative sign. Choice C is the velocity with wrong coefficient. Choice D has wrong sign and trigonometric function."
   },
   {
     "id": "physc_u6_q218",
@@ -5777,13 +5777,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "What is the total mechanical energy of a spring-mass system with amplitude A and spring constant k?",
     "choices": [
-      "A) E = (1/2)kA²",
-      "B) E = kA²",
+      "A) E = (1/2)k$A^2$",
+      "B) E = k$A^2$",
       "C) E = (1/2)kA",
       "D) E = kA"
     ],
     "answer": 0,
-    "explanation": "Total mechanical energy equals maximum potential energy, which occurs at maximum displacement: E = (1/2)kA². Choice B is missing the factor of 1/2. Choices C and D are missing the squared term in the potential energy formula."
+    "explanation": "Total mechanical energy equals maximum potential energy, which occurs at maximum displacement: E = (1/2)k$A^2$. Choice B is missing the factor of 1/2. Choices C and D are missing the squared term in the potential energy formula."
   },
   {
     "id": "physc_u6_q219",
@@ -5903,7 +5903,7 @@ window.PHYSC_MCQ = [
       "D) The frequency remains the same"
     ],
     "answer": 1,
-    "explanation": "When one mass is fixed, f₁ = (1/2π)√(k/m). When both masses move, we use reduced mass μ = m₁m₂/(m₁+m₂) = m²/2m = m/2. So f₂ = (1/2π)√(k/μ) = (1/2π)√(2k/m) = √2 × f₁. Students often think frequency doubles (choice A) or stays same (choice D). Choice C reverses the relationship."
+    "explanation": "When one mass is fixed, f₁ = (1/2π)√(k/m). When both masses move, we use reduced mass $\\mu$ = m₁m₂/(m₁+m₂) = $m^2$/2m = m/2. So f₂ = (1/2π)√(k/$\\mu$) = (1/2π)√(2k/m) = √2 × f₁. Students often think frequency doubles (choice A) or stays same (choice D). Choice C reverses the relationship."
   },
   {
     "id": "physc_u6_q225",
@@ -5923,7 +5923,7 @@ window.PHYSC_MCQ = [
       "D) 4"
     ],
     "answer": 1,
-    "explanation": "For a simple pendulum, T = 2π√(L/g). On the new planet with acceleration 4g: T_new = 2π√(L/4g) = (1/2) × 2π√(L/g) = T_original/2. So the ratio is 1/2. Students often confuse direct vs inverse relationships, leading to choice C. Choices A and D represent thinking T ∝ g or T ∝ g²."
+    "explanation": "For a simple pendulum, T = 2π√(L/g). On the new planet with acceleration 4g: T_new = 2π√(L/4g) = (1/2) × 2π√(L/g) = T_original/2. So the ratio is 1/2. Students often confuse direct vs inverse relationships, leading to choice C. Choices A and D represent thinking T ∝ g or T ∝ $g^2$."
   },
   {
     "id": "physc_u6_q226",
@@ -5943,7 +5943,7 @@ window.PHYSC_MCQ = [
       "D) 2A/3"
     ],
     "answer": 0,
-    "explanation": "Total energy E = (1/2)kA². At position x: KE = (1/2)k(A²-x²), PE = (1/2)kx². Setting KE = 2PE: (1/2)k(A²-x²) = 2×(1/2)kx² = kx². Solving: A²-x² = 2x², so A² = 3x², giving x = A/√3. Choice B comes from setting KE = PE. Choice C assumes linear relationship. Choice D comes from algebraic errors."
+    "explanation": "Total energy E = (1/2)k$A^2$. At position x: KE = (1/2)k($A^2$-$x^2$), PE = (1/2)k$x^2$. Setting KE = 2PE: (1/2)k($A^2$-$x^2$) = 2×(1/2)k$x^2$ = k$x^2$. Solving: $A^2$-$x^2$ = 2$x^2$, so $A^2$ = 3$x^2$, giving x = A/√3. Choice B comes from setting KE = PE. Choice C assumes linear relationship. Choice D comes from algebraic errors."
   },
   {
     "id": "physc_u6_q227",
@@ -5975,15 +5975,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "If x(t) = A sin(ωt) represents the position of an oscillating particle, what is the correct expression for the particle's acceleration as a function of position?",
+    "question": "If x(t) = A sin($\\omega$t) represents the position of an oscillating particle, what is the correct expression for the particle's acceleration as a function of position?",
     "choices": [
       "A) a = -ω²x",
       "B) a = -ωx",
       "C) a = ω²A",
-      "D) a = -ωA cos(ωt)"
+      "D) a = -ωA cos($\\omega$t)"
     ],
     "answer": 0,
-    "explanation": "Taking derivatives: v = dx/dt = Aω cos(ωt), and a = dv/dt = -Aω² sin(ωt) = -ω²x. This is the defining relationship for SHM. Choice B omits the ω factor. Choice C gives constant acceleration. Choice D expresses acceleration in terms of time rather than position."
+    "explanation": "Taking derivatives: v = dx/dt = Aω cos($\\omega$t), and a = dv/dt = -Aω² sin($\\omega$t) = -ω²x. This is the defining relationship for SHM. Choice B omits the ω factor. Choice C gives constant acceleration. Choice D expresses acceleration in terms of time rather than position."
   },
   {
     "id": "physc_u6_q229",
@@ -6023,7 +6023,7 @@ window.PHYSC_MCQ = [
       "D) 2π√(L/2g)"
     ],
     "answer": 1,
-    "explanation": "For a physical pendulum: T = 2π√(I/mgd) where I is moment of inertia about pivot, m is mass, d is distance to center of mass. For a rod: I = (1/3)mL², d = L/2. So T = 2π√((mL²/3)/(mg×L/2)) = 2π√(2L/3g). Choice A is for a simple pendulum of length L. Choices C and D have incorrect numerical factors."
+    "explanation": "For a physical pendulum: T = 2π√(I/mgd) where I is moment of inertia about pivot, m is mass, d is distance to center of mass. For a rod: I = (1/3)m$L^2$, d = L/2. So T = 2π√((m$L^2$/3)/(mg×L/2)) = 2π√(2L/3g). Choice A is for a simple pendulum of length L. Choices C and D have incorrect numerical factors."
   },
   {
     "id": "physc_u6_q231",
@@ -6043,7 +6043,7 @@ window.PHYSC_MCQ = [
       "D) 4E₀"
     ],
     "answer": 2,
-    "explanation": "Total energy in SHM is E = (1/2)kA². If amplitude doubles: E_new = (1/2)k(2A)² = 4×(1/2)kA² = 4E₀. The work done equals the change in energy: W = E_new - E₀ = 4E₀ - E₀ = 3E₀. Choice A assumes linear relationship. Choice B assumes doubling. Choice D gives the final energy rather than work done."
+    "explanation": "Total energy in SHM is E = (1/2)k$A^2$. If amplitude doubles: E_new = (1/2)k(2A)² = 4×(1/2)k$A^2$ = 4E₀. The work done equals the change in energy: W = E_new - E₀ = 4E₀ - E₀ = 3E₀. Choice A assumes linear relationship. Choice B assumes doubling. Choice D gives the final energy rather than work done."
   },
   {
     "id": "physc_u6_q232",
@@ -6123,7 +6123,7 @@ window.PHYSC_MCQ = [
       "D) 3√3 m/s"
     ],
     "answer": 0,
-    "explanation": "Using energy conservation: v² = ω²(A² - x²) where ω = 4 rad/s, A = 3 m, x = 1.5 m. So v² = 16(9 - 2.25) = 16(6.75) = 108, giving v = √108 = 6√3 m/s. Choice B uses v = ωA (maximum speed). Choice C omits the √3 factor. Choice D uses wrong amplitude in the calculation."
+    "explanation": "Using energy conservation: $v^2$ = ω²($A^2$ - $x^2$) where ω = 4 rad/s, A = 3 m, x = 1.5 m. So $v^2$ = 16(9 - 2.25) = 16(6.75) = 108, giving v = √108 = 6√3 m/s. Choice B uses v = ωA (maximum speed). Choice C omits the √3 factor. Choice D uses wrong amplitude in the calculation."
   },
   {
     "id": "physc_u6_q236",
@@ -6195,7 +6195,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A mass-spring system with natural frequency ω₀ is driven by a force F₀cos(ωt). In the low-frequency limit (ω << ω₀), what is the approximate amplitude of steady-state oscillation?",
+    "question": "A mass-spring system with natural frequency ω₀ is driven by a force F₀cos($\\omega$t). In the low-frequency limit (ω << ω₀), what is the approximate amplitude of steady-state oscillation?",
     "choices": [
       "A) F₀/k",
       "B) F₀/(mω²)",
@@ -6203,7 +6203,7 @@ window.PHYSC_MCQ = [
       "D) F₀ω²/(k)"
     ],
     "answer": 0,
-    "explanation": "For ω << ω₀, the denominator ω₀² - ω² ≈ ω₀². The amplitude formula A = F₀/(m(ω₀² - ω²)) becomes A ≈ F₀/(mω₀²) = F₀/k since k = mω₀². This represents quasi-static response. Choice B would apply at high frequencies. Choice C doesn't simplify using k = mω₀². Choice D has incorrect dependence on ω."
+    "explanation": "For ω << ω₀, the denominator ω₀² - ω² $\\approx$ ω₀². The amplitude formula A = F₀/(m(ω₀² - ω²)) becomes A $\\approx$ F₀/(mω₀²) = F₀/k since k = mω₀². This represents quasi-static response. Choice B would apply at high frequencies. Choice C doesn't simplify using k = mω₀². Choice D has incorrect dependence on ω."
   },
   {
     "id": "physc_u6_q240",
@@ -6263,7 +6263,7 @@ window.PHYSC_MCQ = [
       "D) A/√2"
     ],
     "answer": 2,
-    "explanation": "Total energy E = (1/2)kA². At position x: KE = (1/2)k(A² - x²) and PE = (1/2)kx². Setting KE = 3PE: (1/2)k(A² - x²) = 3(1/2)kx². Solving: A² - x² = 3x², so A² = 4x², giving x = A/2. Students often choose A/√2 by confusing this with the equal energy condition, or A/4 by incorrectly setting up the energy ratio."
+    "explanation": "Total energy E = (1/2)k$A^2$. At position x: KE = (1/2)k($A^2$ - $x^2$) and PE = (1/2)k$x^2$. Setting KE = 3PE: (1/2)k($A^2$ - $x^2$) = 3(1/2)k$x^2$. Solving: $A^2$ - $x^2$ = 3$x^2$, so $A^2$ = 4$x^2$, giving x = A/2. Students often choose A/√2 by confusing this with the equal energy condition, or A/4 by incorrectly setting up the energy ratio."
   },
   {
     "id": "physc_u6_q243",
@@ -6278,12 +6278,12 @@ window.PHYSC_MCQ = [
     "question": "In an underdamped oscillator, the amplitude decreases exponentially with time constant τ. After time 2τ, what fraction of the original amplitude remains?",
     "choices": [
       "A) 1/4",
-      "B) 1/e²",
+      "B) 1/$e^2$",
       "C) 1/2e",
       "D) 1/√e"
     ],
     "answer": 1,
-    "explanation": "For underdamped oscillations, amplitude A(t) = A₀e^(-t/τ). After time 2τ: A(2τ) = A₀e^(-2τ/τ) = A₀e^(-2) = A₀/e². Students often choose 1/4 by thinking the amplitude halves every τ, or 1/2e by incorrectly applying the exponential decay formula."
+    "explanation": "For underdamped oscillations, amplitude A(t) = A₀e^(-t/τ). After time 2τ: A(2τ) = A₀e^(-2τ/τ) = A₀e^(-2) = A₀/$e^2$. Students often choose 1/4 by thinking the amplitude halves every τ, or 1/2e by incorrectly applying the exponential decay formula."
   },
   {
     "id": "physc_u6_q244",
@@ -6383,7 +6383,7 @@ window.PHYSC_MCQ = [
       "D) 144% higher"
     ],
     "answer": 0,
-    "explanation": "The fundamental frequency of a string is f = (1/2L)√(T/μ). When tension increases by 44%, T_new = 1.44T. The new frequency f_new = f√(1.44) = f(1.2) = 1.2f, which is 20% higher. Students often choose B by thinking frequency changes proportionally with tension, or C by incorrectly calculating √1.44."
+    "explanation": "The fundamental frequency of a string is f = (1/2L)√(T/$\\mu$). When tension increases by 44%, T_new = 1.44T. The new frequency f_new = f√(1.44) = f(1.2) = 1.2f, which is 20% higher. Students often choose B by thinking frequency changes proportionally with tension, or C by incorrectly calculating √1.44."
   },
   {
     "id": "physc_u6_q249",
@@ -6395,15 +6395,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "In a driven RLC circuit, the impedance Z = √[R² + (ωL - 1/ωC)²]. At what frequency does the power dissipated reach its maximum?",
+    "question": "In a driven RLC circuit, the impedance Z = √[$R^2$ + (ωL - 1/ωC)²]. At what frequency does the power dissipated reach its maximum?",
     "choices": [
       "A) ω = 1/√(LC)",
-      "B) ω = √(1/LC - R²/2L²)",
+      "B) ω = √(1/LC - $R^2$/2$L^2$)",
       "C) ω = R/L",
       "D) ω = 1/RC"
     ],
     "answer": 0,
-    "explanation": "Power P = I²R = (V₀/Z)²R where Z = √[R² + (ωL - 1/ωC)²]. Power is maximum when Z is minimum, which occurs when ωL - 1/ωC = 0, giving ω = 1/√(LC). This is the resonance frequency. Unlike mechanical systems, electrical resonance for power occurs at the natural frequency regardless of resistance. Students often try to include R in the resonance condition."
+    "explanation": "Power P = $I^2$R = (V₀/Z)²R where Z = √[$R^2$ + (ωL - 1/ωC)²]. Power is maximum when Z is minimum, which occurs when ωL - 1/ωC = 0, giving ω = 1/√(LC). This is the resonance frequency. Unlike mechanical systems, electrical resonance for power occurs at the natural frequency regardless of resistance. Students often try to include R in the resonance condition."
   },
   {
     "id": "physc_u6_q250",
@@ -6415,15 +6415,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "If x(t) = A cos(ωt) describes SHM, what is the time-averaged value of the kinetic energy over one complete period?",
+    "question": "If x(t) = A cos($\\omega$t) describes SHM, what is the time-averaged value of the kinetic energy over one complete period?",
     "choices": [
-      "A) (1/4)mω²A²",
-      "B) (1/2)mω²A²",
-      "C) (1/8)mω²A²",
-      "D) mω²A²"
+      "A) (1/4)mω²$A^2$",
+      "B) (1/2)mω²$A^2$",
+      "C) (1/8)mω²$A^2$",
+      "D) mω²$A^2$"
     ],
     "answer": 0,
-    "explanation": "KE = (1/2)mv² = (1/2)m(dx/dt)² = (1/2)m(-Aω sin(ωt))² = (1/2)mω²A² sin²(ωt). The time average of sin²(ωt) over one period is 1/2. Therefore, <KE> = (1/2)mω²A² × (1/2) = (1/4)mω²A². This equals half the total energy, as expected. Students often forget the time-averaging step or use incorrect trigonometric averages."
+    "explanation": "KE = (1/2)m$v^2$ = (1/2)m(dx/dt)² = (1/2)m(-Aω sin($\\omega$t))² = (1/2)mω²$A^2$ si$n^2$($\\omega$t). The time average of si$n^2$($\\omega$t) over one period is 1/2. Therefore, <KE> = (1/2)mω²$A^2$ × (1/2) = (1/4)mω²$A^2$. This equals half the total energy, as expected. Students often forget the time-averaging step or use incorrect trigonometric averages."
   },
   {
     "id": "physc_u6_q251",
@@ -6435,7 +6435,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A damped harmonic oscillator is driven by F(t) = F₀cos(ωt). In steady state, the phase lag δ between driving force and displacement satisfies tan δ = bω/(k - mω²). What is the phase lag when ω = ω₀ = √(k/m)?",
+    "question": "A damped harmonic oscillator is driven by F(t) = F₀cos($\\omega$t). In steady state, the phase lag δ between driving force and displacement satisfies tan δ = bω/(k - mω²). What is the phase lag when ω = ω₀ = √(k/m)?",
     "choices": [
       "A) 0",
       "B) π/4",
@@ -6443,7 +6443,7 @@ window.PHYSC_MCQ = [
       "D) π"
     ],
     "answer": 2,
-    "explanation": "At resonance ω = ω₀ = √(k/m), we have k = mω₀² = mω². Therefore k - mω² = 0, making the denominator zero. This means tan δ = bω/0 → ∞, so δ = π/2. At resonance, the displacement lags the driving force by exactly 90°. Students often think there's no phase lag at resonance or confuse this with the undamped case."
+    "explanation": "At resonance ω = ω₀ = √(k/m), we have k = mω₀² = mω². Therefore k - mω² = 0, making the denominator zero. This means tan δ = bω/0 → $\\infty$, so δ = π/2. At resonance, the displacement lags the driving force by exactly 90°. Students often think there's no phase lag at resonance or confuse this with the undamped case."
   },
   {
     "id": "physc_u6_q252",
@@ -6455,7 +6455,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle undergoes SHM with x(t) = A cos(ωt + φ). If at t = 0, the particle is at x₀ = A/2 with velocity v₀ > 0, what is the phase constant φ?",
+    "question": "A particle undergoes SHM with x(t) = A cos($\\omega$t + φ). If at t = 0, the particle is at x₀ = A/2 with velocity v₀ > 0, what is the phase constant φ?",
     "choices": [
       "A) π/3",
       "B) -π/3",
@@ -6463,7 +6463,7 @@ window.PHYSC_MCQ = [
       "D) -2π/3"
     ],
     "answer": 1,
-    "explanation": "At t = 0: x(0) = A cos(φ) = A/2, so cos(φ) = 1/2. This gives φ = ±π/3. The velocity is v(t) = -Aω sin(ωt + φ), so v(0) = -Aω sin(φ). Since v₀ > 0 and A, ω > 0, we need sin(φ) < 0. Since cos(φ) = 1/2 > 0, φ is in the fourth quadrant, so φ = -π/3. Students often choose π/3 by forgetting to check the velocity condition sign."
+    "explanation": "At t = 0: x(0) = A cos(φ) = A/2, so cos(φ) = 1/2. This gives φ = ±π/3. The velocity is v(t) = -Aω sin($\\omega$t + φ), so v(0) = -Aω sin(φ). Since v₀ > 0 and A, ω > 0, we need sin(φ) < 0. Since cos(φ) = 1/2 > 0, φ is in the fourth quadrant, so φ = -π/3. Students often choose π/3 by forgetting to check the velocity condition sign."
   },
   {
     "id": "physc_u6_q253",
@@ -6480,7 +6480,7 @@ window.PHYSC_MCQ = [
       "A) A",
       "B) A + d",
       "C) A - d",
-      "D) √(A² + d²)"
+      "D) √($A^2$ + $d^2$)"
     ],
     "answer": 0,
     "explanation": "The equilibrium position is where the spring force balances gravity: kd = mg. When displaced by additional amount A from equilibrium and released, the system oscillates about this equilibrium position with amplitude A. The initial compression d just shifts the equilibrium point but doesn't affect the amplitude of oscillation about that equilibrium. Students often think the amplitude is A + d, confusing displacement from natural length with displacement from equilibrium."
@@ -6503,7 +6503,7 @@ window.PHYSC_MCQ = [
       "D) 0.136"
     ],
     "answer": 2,
-    "explanation": "First convert θ₀ = 60° = π/3 radians ≈ 1.047 radians. The fractional increase is (T - T₀)/T₀ = (1/16)θ₀² = (1/16)(π/3)² = (1/16)(π²/9) ≈ (1/16)(9.87/9) ≈ 0.068. Students often forget to convert degrees to radians or miscalculate (π/3)²."
+    "explanation": "First convert θ₀ = 60° = π/3 radians $\\approx$ 1.047 radians. The fractional increase is (T - T₀)/T₀ = (1/16)θ₀² = (1/16)(π/3)² = (1/16)(π²/9) $\\approx$ (1/16)(9.87/9) $\\approx$ 0.068. Students often forget to convert degrees to radians or miscalculate (π/3)²."
   },
   {
     "id": "physc_u6_q255",
@@ -6523,7 +6523,7 @@ window.PHYSC_MCQ = [
       "D) 3/4"
     ],
     "answer": 1,
-    "explanation": "If KE = (3/4)E, then PE = E - KE = (1/4)E. Since PE = (1/2)kx² and total energy E = (1/2)kA², we have (1/2)kx² = (1/4)(1/2)kA², which gives x² = A²/4, so x = A/2. The displacement is half the amplitude. Students often confuse the energy fraction with the displacement fraction directly."
+    "explanation": "If KE = (3/4)E, then PE = E - KE = (1/4)E. Since PE = (1/2)k$x^2$ and total energy E = (1/2)k$A^2$, we have (1/2)k$x^2$ = (1/4)(1/2)k$A^2$, which gives $x^2$ = $A^2$/4, so x = A/2. The displacement is half the amplitude. Students often confuse the energy fraction with the displacement fraction directly."
   },
   {
     "id": "physc_u7_q256",
@@ -6543,7 +6543,7 @@ window.PHYSC_MCQ = [
       "D) The product of their masses"
     ],
     "answer": 0,
-    "explanation": "Newton's law states F = Gm₁m₂/r², so force is inversely proportional to r². Students often forget the square (choice B), or confuse with the direct proportionality to mass product (choice D) or incorrectly think it's mass sum (choice C)."
+    "explanation": "Newton's law states F = Gm₁m₂/$r^2$, so force is inversely proportional to $r^2$. Students often forget the square (choice B), or confuse with the direct proportionality to mass product (choice D) or incorrectly think it's mass sum (choice C)."
   },
   {
     "id": "physc_u7_q257",
@@ -6583,7 +6583,7 @@ window.PHYSC_MCQ = [
       "D) At one meter separation"
     ],
     "answer": 2,
-    "explanation": "The negative sign in U = -Gm₁m₂/r means U = 0 when r → ∞. Students often think zero is at Earth's surface (choice A) from introductory physics, at the center (choice B), or pick an arbitrary distance (choice D)."
+    "explanation": "The negative sign in U = -Gm₁m₂/r means U = 0 when r → $\\infty$. Students often think zero is at Earth's surface (choice A) from introductory physics, at the center (choice B), or pick an arbitrary distance (choice D)."
   },
   {
     "id": "physc_u7_q259",
@@ -6635,7 +6635,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "In Kepler's third law, T² ∝ r³, what does T represent?",
+    "question": "In Kepler's third law, $T^2$ ∝ $r^3$, what does T represent?",
     "choices": [
       "A) The orbital velocity",
       "B) The orbital period",
@@ -6697,13 +6697,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "The SI units for gravitational field strength are:",
     "choices": [
-      "A) N·m²/kg²",
-      "B) m/s²",
+      "A) N·$m^2$/k$g^2$",
+      "B) $m/s^2$",
       "C) N·m/kg",
-      "D) kg·m/s²"
+      "D) kg·$m/s^2$"
     ],
     "answer": 1,
-    "explanation": "Gravitational field g = F/m has units of N/kg = m/s² (since N = kg·m/s²). Choice A is the gravitational constant G, choice C would be energy per mass, and choice D is force units."
+    "explanation": "Gravitational field g = F/m has units of N/kg = $m/s^2$ (since N = kg·$m/s^2$). Choice A is the gravitational constant G, choice C would be energy per mass, and choice D is force units."
   },
   {
     "id": "physc_u7_q265",
@@ -6743,7 +6743,7 @@ window.PHYSC_MCQ = [
       "D) 3"
     ],
     "answer": 2,
-    "explanation": "Since F ∝ 1/r², when r increases by factor of 3, F decreases by factor of 3² = 9, so F becomes F/9. Students often forget to square the distance factor, giving 1/3 (choice A), or make other algebraic errors."
+    "explanation": "Since F ∝ 1/$r^2$, when r increases by factor of 3, F decreases by factor of $3^2$ = 9, so F becomes F/9. Students often forget to square the distance factor, giving 1/3 (choice A), or make other algebraic errors."
   },
   {
     "id": "physc_u7_q267",
@@ -6763,7 +6763,7 @@ window.PHYSC_MCQ = [
       "D) Decreases by a factor of 18"
     ],
     "answer": 1,
-    "explanation": "Using F = GMm/r², the new force is F' = G(2M)m/(3r)² = 2GMm/9r² = (2/9)F. So the force decreases by a factor of 9/2 = 4.5. Choice A confuses the ratio direction, C gives the multiplication factor instead of reduction factor, and D incorrectly calculates 2×9."
+    "explanation": "Using F = $GMm/r^2$, the new force is F' = G(2M)m/(3r)² = 2GMm/9$r^2$ = (2/9)F. So the force decreases by a factor of 9/2 = 4.5. Choice A confuses the ratio direction, C gives the multiplication factor instead of reduction factor, and D incorrectly calculates 2×9."
   },
   {
     "id": "physc_u7_q268",
@@ -6783,7 +6783,7 @@ window.PHYSC_MCQ = [
       "D) 2R"
     ],
     "answer": 2,
-    "explanation": "Gravitational field g = GM/r². At surface: g₀ = GM/R². For g = g₀/2: GM/r² = (1/2)(GM/R²), so r² = 2R², giving r = R√2. Choice A would give 4 times the surface field, B would give 2 times the field, and D would give 1/4 the field."
+    "explanation": "Gravitational field g = $GM/r^2$. At surface: g₀ = $GM/R^2$. For g = g₀/2: $GM/r^2$ = (1/2)($GM/R^2$), so $r^2$ = 2$R^2$, giving r = R√2. Choice A would give 4 times the surface field, B would give 2 times the field, and D would give 1/4 the field."
   },
   {
     "id": "physc_u7_q269",
@@ -6803,7 +6803,7 @@ window.PHYSC_MCQ = [
       "D) Decreases by GMm/2R"
     ],
     "answer": 0,
-    "explanation": "U = -GMm/r. Initial: U₁ = -GMm/2R. Final: U₂ = -GMm/4R. Change: ΔU = U₂ - U₁ = -GMm/4R - (-GMm/2R) = GMm/4R (increase). Choice B has wrong sign, C doubles the answer, and D has wrong sign and wrong magnitude."
+    "explanation": "U = -GMm/r. Initial: U₁ = -GMm/2R. Final: U₂ = -GMm/4R. Change: $\\Delta U$ = U₂ - U₁ = -GMm/4R - (-GMm/2R) = GMm/4R (increase). Choice B has wrong sign, C doubles the answer, and D has wrong sign and wrong magnitude."
   },
   {
     "id": "physc_u7_q270",
@@ -6963,7 +6963,7 @@ window.PHYSC_MCQ = [
       "D) Increases by factor of 2"
     ],
     "answer": 1,
-    "explanation": "Centripetal force is provided by gravity: F = GMm/r². When radius doubles, force becomes GMm/(2r)² = GMm/4r² = F/4. The force decreases by a factor of 4. Choice A confuses with linear relationship, C assumes cubic relationship, and D has wrong direction."
+    "explanation": "Centripetal force is provided by gravity: F = $GMm/r^2$. When radius doubles, force becomes GMm/(2r)² = GMm/4$r^2$ = F/4. The force decreases by a factor of 4. Choice A confuses with linear relationship, C assumes cubic relationship, and D has wrong direction."
   },
   {
     "id": "physc_u7_q278",
@@ -6983,7 +6983,7 @@ window.PHYSC_MCQ = [
       "D) 16"
     ],
     "answer": 2,
-    "explanation": "From Kepler's third law: T² ∝ R³. So (T₄ᴿ/Tᴿ)² = (4R/R)³ = 4³ = 64. Therefore T₄ᴿ/Tᴿ = √64 = 8. Choice A assumes linear relationship, B assumes quadratic, and D assumes the period ratio equals the cube of radius ratio."
+    "explanation": "From Kepler's third law: $T^2$ ∝ $R^3$. So (T₄ᴿ/Tᴿ)² = (4R/R)³ = $4^3$ = 64. Therefore T₄ᴿ/Tᴿ = √64 = 8. Choice A assumes linear relationship, B assumes quadratic, and D assumes the period ratio equals the cube of radius ratio."
   },
   {
     "id": "physc_u7_q279",
@@ -7023,7 +7023,7 @@ window.PHYSC_MCQ = [
       "D) Decrease by factor of √2"
     ],
     "answer": 2,
-    "explanation": "From T² = 4π²r³/GM, for constant T: r³ ∝ M. If M doubles, then r³ doubles, so r increases by factor of 2^(1/3). Choice A ignores the mass dependence, B uses incorrect square root relationship, and D has the wrong direction."
+    "explanation": "From $T^2$ = 4π²$r^3$/GM, for constant T: $r^3$ ∝ M. If M doubles, then $r^3$ doubles, so r increases by factor of 2^(1/3). Choice A ignores the mass dependence, B uses incorrect square root relationship, and D has the wrong direction."
   },
   {
     "id": "physc_u7_q281",
@@ -7043,7 +7043,7 @@ window.PHYSC_MCQ = [
       "D) The same as at surface"
     ],
     "answer": 0,
-    "explanation": "At altitude R above surface, total distance from Earth's center is 2R. Since g ∝ 1/r², the acceleration becomes g' = g(R/2R)² = g/4. Choice B would be for altitude R/2, C assumes incorrect square root relationship, and D ignores distance dependence."
+    "explanation": "At altitude R above surface, total distance from Earth's center is 2R. Since g ∝ 1/$r^2$, the acceleration becomes g' = g(R/2R)² = g/4. Choice B would be for altitude R/2, C assumes incorrect square root relationship, and D ignores distance dependence."
   },
   {
     "id": "physc_u7_q282",
@@ -7083,7 +7083,7 @@ window.PHYSC_MCQ = [
       "D) M^(-3/2)"
     ],
     "answer": 1,
-    "explanation": "Each star orbits the center of mass with centripetal force provided by gravity from the other star. The gravitational force between stars separated by 2R provides centripetal force for orbit radius R. Analysis gives T² ∝ R³/M, so T ∝ M^(-1/2). Choice A inverts the relationship, C and D use incorrect powers."
+    "explanation": "Each star orbits the center of mass with centripetal force provided by gravity from the other star. The gravitational force between stars separated by 2R provides centripetal force for orbit radius R. Analysis gives $T^2$ ∝ $R^3$/M, so T ∝ M^(-1/2). Choice A inverts the relationship, C and D use incorrect powers."
   },
   {
     "id": "physc_u7_q284",
@@ -7103,7 +7103,7 @@ window.PHYSC_MCQ = [
       "D) 18"
     ],
     "answer": 0,
-    "explanation": "Using g = GM/r², the ratio is (2M_E)/(3R_E)² divided by M_E/R_E² = 2/9. Students often forget to square the radius (getting 2/3) or incorrectly multiply instead of divide (getting 6 or 18)."
+    "explanation": "Using g = $GM/r^2$, the ratio is (2M_E)/(3R_E)² divided by M_E/R_$E^2$ = 2/9. Students often forget to square the radius (getting 2/3) or incorrectly multiply instead of divide (getting 6 or 18)."
   },
   {
     "id": "physc_u7_q285",
@@ -7163,7 +7163,7 @@ window.PHYSC_MCQ = [
       "D) T√2"
     ],
     "answer": 1,
-    "explanation": "From Kepler's third law, T² ∝ r³. If r becomes r/2, then T² becomes (r/2)³/r³ = 1/8 of original, so T becomes T/√8 = T/(2√2). Students often use T² ∝ r (getting T/2) or forget the square root."
+    "explanation": "From Kepler's third law, $T^2$ ∝ $r^3$. If r becomes r/2, then $T^2$ becomes (r/2)³/$r^3$ = 1/8 of original, so T becomes T/√8 = T/(2√2). Students often use $T^2$ ∝ r (getting T/2) or forget the square root."
   },
   {
     "id": "physc_u7_q288",
@@ -7183,7 +7183,7 @@ window.PHYSC_MCQ = [
       "D) 2R/3"
     ],
     "answer": 1,
-    "explanation": "Using energy conservation: ½m(v_e/2)² - GMm/R = -GMm/(R+h). Since v_e² = 2GM/R, we get GM/4R - GM/R = -GM/(R+h). Solving gives h = R/3. Students often forget to account for potential energy change or make algebraic errors."
+    "explanation": "Using energy conservation: $\\frac{1}{2}$m(v_e/2)² - GMm/R = -GMm/(R+h). Since v_$e^2$ = 2GM/R, we get GM/4R - GM/R = -GM/(R+h). Solving gives h = R/3. Students often forget to account for potential energy change or make algebraic errors."
   },
   {
     "id": "physc_u7_q289",
@@ -7243,7 +7243,7 @@ window.PHYSC_MCQ = [
       "D) The period would remain the same"
     ],
     "answer": 0,
-    "explanation": "From Kepler's third law, T² ∝ r³/M. If mass doubles while radius stays constant, T² ∝ 1/(2M), so T ∝ 1/√2, meaning the period decreases by √2. Students often confuse whether period increases or decreases with mass changes, or incorrectly apply direct proportionality."
+    "explanation": "From Kepler's third law, $T^2$ ∝ $r^3$/M. If mass doubles while radius stays constant, $T^2$ ∝ 1/(2M), so T ∝ 1/√2, meaning the period decreases by √2. Students often confuse whether period increases or decreases with mass changes, or incorrectly apply direct proportionality."
   },
   {
     "id": "physc_u7_q292",
@@ -7263,7 +7263,7 @@ window.PHYSC_MCQ = [
       "D) -2W₁"
     ],
     "answer": 0,
-    "explanation": "Work by gravity from ∞ to P: W₁ = GMm/r. Work from P to Q: W₂ = GMm/(r/2) - GMm/r = 2GMm/r - GMm/r = GMm/r = W₁. Students often confuse signs or think the work should be different because the distance traveled is different, but gravitational work depends only on the change in potential energy."
+    "explanation": "Work by gravity from $\\infty$ to P: W₁ = GMm/r. Work from P to Q: W₂ = GMm/(r/2) - GMm/r = 2GMm/r - GMm/r = GMm/r = W₁. Students often confuse signs or think the work should be different because the distance traveled is different, but gravitational work depends only on the change in potential energy."
   },
   {
     "id": "physc_u7_q293",
@@ -7363,7 +7363,7 @@ window.PHYSC_MCQ = [
       "D) 3√2 hours"
     ],
     "answer": 0,
-    "explanation": "From Kepler's third law, T² ∝ R³. If R₂ = R₁/2, then T₂² = T₁² × (1/2)³ = T₁²/8. So T₂ = T₁/√8 = T₁/(2√2) = 24/(2√2) = 6√2 hours. Students often use T ∝ R or T ∝ R² instead of the correct T² ∝ R³ relationship."
+    "explanation": "From Kepler's third law, $T^2$ ∝ $R^3$. If R₂ = R₁/2, then T₂² = T₁² × (1/2)³ = T₁²/8. So T₂ = T₁/√8 = T₁/(2√2) = 24/(2√2) = 6√2 hours. Students often use T ∝ R or T ∝ $R^2$ instead of the correct $T^2$ ∝ $R^3$ relationship."
   },
   {
     "id": "physc_u7_q298",
@@ -7383,7 +7383,7 @@ window.PHYSC_MCQ = [
       "D) 8/9"
     ],
     "answer": 0,
-    "explanation": "At the zero field point, GM/x² = G(M/81)/(d-x)², where d is Earth-Moon distance and x is distance from Earth. This gives 1/x² = 1/[81(d-x)²], so 9(d-x) = x, giving x = 9d/10. Students often set up the equation incorrectly or make algebraic errors in solving the quadratic."
+    "explanation": "At the zero field point, $GM/x^2$ = G(M/81)/(d-x)², where d is Earth-Moon distance and x is distance from Earth. This gives 1/$x^2$ = 1/[81(d-x)²], so 9(d-x) = x, giving x = 9d/10. Students often set up the equation incorrectly or make algebraic errors in solving the quadratic."
   },
   {
     "id": "physc_u7_q300",
@@ -7403,7 +7403,7 @@ window.PHYSC_MCQ = [
       "D) 5R/4"
     ],
     "answer": 1,
-    "explanation": "Using energy conservation: ½m(0.8v_e)² - GMm/R = -GMm/(R+h). Since v_e² = 2GM/R, we get 0.32GM/R - GM/R = -GM/(R+h). Solving gives R+h = 25R/9, so h = 16R/9. Students often make algebraic errors or forget that height is measured from the surface, not center."
+    "explanation": "Using energy conservation: $\\frac{1}{2}$m(0.8v_e)² - GMm/R = -GMm/(R+h). Since v_$e^2$ = 2GM/R, we get 0.32GM/R - GM/R = -GM/(R+h). Solving gives R+h = 25R/9, so h = 16R/9. Students often make algebraic errors or forget that height is measured from the surface, not center."
   },
   {
     "id": "physc_u7_q301",
@@ -7417,13 +7417,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "Three identical masses m are placed at the vertices of an equilateral triangle of side length a. What is the total gravitational potential energy of this system?",
     "choices": [
-      "A) -3Gm²/a",
-      "B) -Gm²/a",
-      "C) -2Gm²/a",
-      "D) -9Gm²/2a"
+      "A) -3G$m^2$/a",
+      "B) -G$m^2$/a",
+      "C) -2G$m^2$/a",
+      "D) -9G$m^2$/2a"
     ],
     "answer": 0,
-    "explanation": "There are three pairs of masses, each separated by distance a. Each pair contributes -Gm²/a to the potential energy. Total U = 3 × (-Gm²/a) = -3Gm²/a. Students often count pairs incorrectly (thinking there are 6 interactions instead of 3) or forget that potential energy between pairs is negative."
+    "explanation": "There are three pairs of masses, each separated by distance a. Each pair contributes -G$m^2$/a to the potential energy. Total U = 3 × (-G$m^2$/a) = -3G$m^2$/a. Students often count pairs incorrectly (thinking there are 6 interactions instead of 3) or forget that potential energy between pairs is negative."
   },
   {
     "id": "physc_u7_q302",
@@ -7463,7 +7463,7 @@ window.PHYSC_MCQ = [
       "D) v₁/(R + h₁)² = v₂/(R + h₂)²"
     ],
     "answer": 0,
-    "explanation": "Conservation of angular momentum requires L = mvr = constant, so v₁(R + h₁) = v₂(R + h₂), where R is Earth's radius. Students often confuse this with energy conservation (which involves v²) or with the gravitational force relationship (which involves 1/r²)."
+    "explanation": "Conservation of angular momentum requires L = mvr = constant, so v₁(R + h₁) = v₂(R + h₂), where R is Earth's radius. Students often confuse this with energy conservation (which involves $v^2$) or with the gravitational force relationship (which involves 1/$r^2$)."
   },
   {
     "id": "physc_u7_q304",
@@ -7498,12 +7498,12 @@ window.PHYSC_MCQ = [
     "question": "A uniform rod of mass M and length L creates a gravitational field at point P located at distance d from one end of the rod along the rod's axis. What is the magnitude of the gravitational field at P?",
     "choices": [
       "A) GM/[d(d+L)]",
-      "B) GM/d²",
-      "C) GML/[d²(d+L)]",
+      "B) $GM/d^2$",
+      "C) GML/[$d^2$(d+L)]",
       "D) GM/(d+L/2)²"
     ],
     "answer": 0,
-    "explanation": "For a uniform rod, we integrate dg = G(dm)/x² where dm = (M/L)dx and x varies from d to d+L. The integral gives g = GM/L × [1/d - 1/(d+L)] = GM/[d(d+L)]. Students often try to treat the rod as a point mass at its center or make errors in the integration limits."
+    "explanation": "For a uniform rod, we integrate dg = G(dm)/$x^2$ where dm = (M/L)dx and x varies from d to d+L. The integral gives g = GM/L × [1/d - 1/(d+L)] = GM/[d(d+L)]. Students often try to treat the rod as a point mass at its center or make errors in the integration limits."
   },
   {
     "id": "physc_u7_q306",
@@ -7523,7 +7523,7 @@ window.PHYSC_MCQ = [
       "D) (√2 - 1)√(GM/2R)"
     ],
     "answer": 3,
-    "explanation": "At altitude R, the orbital speed is v₀ = √(GM/2R) and escape speed is v_e = √(GM/R). The required speed increase is Δv = v_e - v₀ = √(GM/R) - √(GM/2R) = √(GM/2R)(√2 - 1). Students often calculate escape velocity from Earth's surface instead of from the orbital altitude, or forget to subtract the current orbital speed."
+    "explanation": "At altitude R, the orbital speed is v₀ = √(GM/2R) and escape speed is v_e = √(GM/R). The required speed increase is $\\Delta v$ = v_e - v₀ = √(GM/R) - √(GM/2R) = √(GM/2R)(√2 - 1). Students often calculate escape velocity from Earth's surface instead of from the orbital altitude, or forget to subtract the current orbital speed."
   },
   {
     "id": "physc_u8_q307",
@@ -7543,7 +7543,7 @@ window.PHYSC_MCQ = [
       "D) Four times as strong"
     ],
     "answer": 0,
-    "explanation": "Coulomb's law states F = kq₁q₂/r². When distance r is doubled, the denominator becomes (2r)² = 4r², making the force 1/4 as strong. Students often confuse this with linear relationships (choice B) or incorrectly think force increases with distance (choices C and D)."
+    "explanation": "Coulomb's law states F = kq₁q₂/$r^2$. When distance r is doubled, the denominator becomes (2r)² = 4$r^2$, making the force 1/4 as strong. Students often confuse this with linear relationships (choice B) or incorrectly think force increases with distance (choices C and D)."
   },
   {
     "id": "physc_u8_q308",
@@ -7783,7 +7783,7 @@ window.PHYSC_MCQ = [
       "D) 3d/4"
     ],
     "answer": 2,
-    "explanation": "At equilibrium point, fields from both charges must be equal in magnitude. Let x be distance from +2Q. Then: k(2Q)/x² = kQ/(d-x)². Solving: 2(d-x)² = x², which gives x = 2d/3. Students often forget the field magnitudes must be equal, not the charges themselves."
+    "explanation": "At equilibrium point, fields from both charges must be equal in magnitude. Let x be distance from +2Q. Then: k(2Q)/$x^2$ = kQ/(d-x)². Solving: 2(d-x)² = $x^2$, which gives x = 2d/3. Students often forget the field magnitudes must be equal, not the charges themselves."
   },
   {
     "id": "physc_u8_q320",
@@ -7837,13 +7837,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A uniform electric field E = 100 N/C passes through a square loop of side length 0.2 m. The loop is oriented so that its normal makes a 60° angle with the field. What is the electric flux through the loop?",
     "choices": [
-      "A) 2.0 N⋅m²/C",
-      "B) 3.5 N⋅m²/C",
-      "C) 4.0 N⋅m²/C",
-      "D) 8.0 N⋅m²/C"
+      "A) 2.0 N⋅$m^2$/C",
+      "B) 3.5 N⋅$m^2$/C",
+      "C) 4.0 N⋅$m^2$/C",
+      "D) 8.0 N⋅$m^2$/C"
     ],
     "answer": 0,
-    "explanation": "Electric flux Φ = E⋅A⋅cos(θ) = 100 × (0.2)² × cos(60°) = 100 × 0.04 × 0.5 = 2.0 N⋅m²/C. Students often use sin(60°) instead of cos(60°), confusing the angle between field and normal with the angle between field and surface."
+    "explanation": "Electric flux Φ = E⋅A⋅cos(θ) = 100 × (0.2)² × cos(60°) = 100 × 0.04 × 0.5 = 2.0 N⋅$m^2$/C. Students often use sin(60°) instead of cos(60°), confusing the angle between field and normal with the angle between field and surface."
   },
   {
     "id": "physc_u8_q323",
@@ -7877,8 +7877,8 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A hollow spherical conductor has a point charge +Q placed at its center. What is the electric field at a point inside the conductor material?",
     "choices": [
-      "A) kQ/r²",
-      "B) kQ/R²",
+      "A) $kQ/r^2$",
+      "B) $kQ/R^2$",
       "C) Zero",
       "D) Depends on the conductor thickness"
     ],
@@ -7917,13 +7917,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A dipole with charges +q and -q separated by distance d is oriented along the x-axis. What is the electric field at a point on the y-axis at distance y from the center, where y >> d?",
     "choices": [
-      "A) kqd/y³",
-      "B) 2kqd/y³",
-      "C) kqd/y²",
+      "A) $kqd/y^3$",
+      "B) 2$kqd/y^3$",
+      "C) $kqd/y^2$",
       "D) Zero"
     ],
     "answer": 0,
-    "explanation": "For a dipole at large distances perpendicular to the axis, E = kp/r³ where p = qd is the dipole moment. The factor of 2 appears along the dipole axis, not perpendicular to it. Students often confuse the perpendicular and axial field expressions or forget the 1/r³ dependence."
+    "explanation": "For a dipole at large distances perpendicular to the axis, E = $kp/r^3$ where p = qd is the dipole moment. The factor of 2 appears along the dipole axis, not perpendicular to it. Students often confuse the perpendicular and axial field expressions or forget the 1/$r^3$ dependence."
   },
   {
     "id": "physc_u8_q327",
@@ -7977,13 +7977,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A uniformly charged sphere of radius R has total charge Q. What is the electric field at distance R/2 from the center?",
     "choices": [
-      "A) kQ/R²",
-      "B) kQ/2R²",
-      "C) kQ/4R²",
+      "A) $kQ/R^2$",
+      "B) kQ/2$R^2$",
+      "C) kQ/4$R^2$",
       "D) Zero"
     ],
     "answer": 1,
-    "explanation": "Inside a uniformly charged sphere, E = kQr/R³. At r = R/2: E = kQ(R/2)/R³ = kQ/2R². Students often use the external field formula kQ/r² or think the field is zero inside like in a conductor."
+    "explanation": "Inside a uniformly charged sphere, E = $kQr/R^3$. At r = R/2: E = kQ(R/2)/$R^3$ = kQ/2$R^2$. Students often use the external field formula $kQ/r^2$ or think the field is zero inside like in a conductor."
   },
   {
     "id": "physc_u8_q330",
@@ -8038,12 +8038,12 @@ window.PHYSC_MCQ = [
     "question": "A hemispherical surface of radius R is placed in a uniform electric field E parallel to its base. What is the electric flux through the curved surface only?",
     "choices": [
       "A) 0",
-      "B) πR²E",
-      "C) 2πR²E",
-      "D) 4πR²E"
+      "B) π$R^2$E",
+      "C) 2π$R^2$E",
+      "D) 4π$R^2$E"
     ],
     "answer": 1,
-    "explanation": "Total flux through the complete hemisphere is zero (no enclosed charge). Flux through the flat base is -πR²E (field antiparallel to normal). Therefore, flux through curved surface must be +πR²E to make the total zero. Students often think it's zero or calculate incorrectly."
+    "explanation": "Total flux through the complete hemisphere is zero (no enclosed charge). Flux through the flat base is -π$R^2$E (field antiparallel to normal). Therefore, flux through curved surface must be +π$R^2$E to make the total zero. Students often think it's zero or calculate incorrectly."
   },
   {
     "id": "physc_u8_q333",
@@ -8097,13 +8097,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A charge +Q is fixed at the origin. A charge +2Q is moved from point (2d, 0) to point (d, 0). How much work is done by an external agent?",
     "choices": [
-      "A) kQ²/d",
-      "B) kQ²/2d",
-      "C) 2kQ²/d",
-      "D) 4kQ²/d"
+      "A) k$Q^2$/d",
+      "B) k$Q^2$/2d",
+      "C) 2k$Q^2$/d",
+      "D) 4k$Q^2$/d"
     ],
     "answer": 0,
-    "explanation": "Work by external agent = ΔU = kQ(2Q)/d - kQ(2Q)/2d = 2kQ²/d - kQ²/d = kQ²/d. The work is positive because the charges repel and we're moving them closer. Students often forget the factor of 2 from the second charge or calculate the work done by the electric field instead."
+    "explanation": "Work by external agent = $\\Delta U$ = kQ(2Q)/d - kQ(2Q)/2d = 2k$Q^2$/d - k$Q^2$/d = k$Q^2$/d. The work is positive because the charges repel and we're moving them closer. Students often forget the factor of 2 from the second charge or calculate the work done by the electric field instead."
   },
   {
     "id": "physc_u8_q336",
@@ -8115,7 +8115,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle with charge -2μC moves in a region where the electric potential varies as V(x) = 5x² volts. What is the magnitude of the electric field at x = 3 m?",
+    "question": "A particle with charge -2μC moves in a region where the electric potential varies as V(x) = 5$x^2$ volts. What is the magnitude of the electric field at x = 3 m?",
     "choices": [
       "A) 15 N/C",
       "B) 30 N/C",
@@ -8123,7 +8123,7 @@ window.PHYSC_MCQ = [
       "D) 90 N/C"
     ],
     "answer": 1,
-    "explanation": "Electric field E = -dV/dx = -d(5x²)/dx = -10x. At x = 3 m: E = -10(3) = -30 N/C, so |E| = 30 N/C. The magnitude of the field doesn't depend on the test charge value. Students often include the charge in the calculation or make errors in differentiation."
+    "explanation": "Electric field E = -dV/dx = -d(5$x^2$)/dx = -10x. At x = 3 m: E = -10(3) = -30 N/C, so |E| = 30 N/C. The magnitude of the field doesn't depend on the test charge value. Students often include the charge in the calculation or make errors in differentiation."
   },
   {
     "id": "physc_u8_q337",
@@ -8143,7 +8143,7 @@ window.PHYSC_MCQ = [
       "D) At the midpoint between the charges"
     ],
     "answer": 2,
-    "explanation": "For zero net force, the forces from both charges must balance. Let x be the distance from +2Q. Then k(2Q)(q)/x² = k(Q)(q)/(d-x)². Solving: 2(d-x)² = x², which gives x = 2d/3. Choice A uses inverse ratio of charges. Choice B places it d/3 from smaller charge. Choice D ignores charge magnitudes."
+    "explanation": "For zero net force, the forces from both charges must balance. Let x be the distance from +2Q. Then k(2Q)(q)/$x^2$ = k(Q)(q)/(d-x)². Solving: 2(d-x)² = $x^2$, which gives x = 2d/3. Choice A uses inverse ratio of charges. Choice B places it d/3 from smaller charge. Choice D ignores charge magnitudes."
   },
   {
     "id": "physc_u8_q338",
@@ -8177,13 +8177,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A uniform electric field E = 100 N/C passes through a square surface of side length 0.5 m. The field makes a 60° angle with the normal to the surface. What is the electric flux through the surface?",
     "choices": [
-      "A) 12.5 N⋅m²/C",
-      "B) 21.7 N⋅m²/C",
-      "C) 25 N⋅m²/C",
-      "D) 50 N⋅m²/C"
+      "A) 12.5 N⋅$m^2$/C",
+      "B) 21.7 N⋅$m^2$/C",
+      "C) 25 N⋅$m^2$/C",
+      "D) 50 N⋅$m^2$/C"
     ],
     "answer": 0,
-    "explanation": "Electric flux Φ = E⋅A⋅cos(θ) = 100 × (0.5)² × cos(60°) = 100 × 0.25 × 0.5 = 12.5 N⋅m²/C. Choice B uses sin(60°) instead of cos(60°). Choice C uses cos(60°) ≈ 1. Choice D ignores the angle entirely."
+    "explanation": "Electric flux Φ = E⋅A⋅cos(θ) = 100 × (0.5)² × cos(60°) = 100 × 0.25 × 0.5 = 12.5 N⋅$m^2$/C. Choice B uses sin(60°) instead of cos(60°). Choice C uses cos(60°) $\\approx$ 1. Choice D ignores the angle entirely."
   },
   {
     "id": "physc_u8_q340",
@@ -8258,12 +8258,12 @@ window.PHYSC_MCQ = [
     "question": "A long cylindrical conductor of radius R carries a total charge Q uniformly distributed on its surface. Using Gauss's law, what is the electric field at distance r from the axis where r > R?",
     "choices": [
       "A) Q/(2πε₀rL) where L is the length",
-      "B) Q/(4πε₀r²)",
-      "C) Q/(2πε₀r²L) where L is the length",
+      "B) Q/(4πε₀$r^2$)",
+      "C) Q/(2πε₀$r^2$L) where L is the length",
       "D) Zero, because the charge is on a conductor"
     ],
     "answer": 0,
-    "explanation": "For a long cylindrical conductor, use a cylindrical Gaussian surface. The field has only radial component and is constant at distance r. Gauss's law gives E(2πrL) = Q/ε₀, so E = Q/(2πε₀rL). Choice B treats it as a point charge. Choice C has incorrect r² dependence. Choice D incorrectly assumes field is zero outside conductor."
+    "explanation": "For a long cylindrical conductor, use a cylindrical Gaussian surface. The field has only radial component and is constant at distance r. Gauss's law gives E(2πrL) = Q/ε₀, so E = Q/(2πε₀rL). Choice B treats it as a point charge. Choice C has incorrect $r^2$ dependence. Choice D incorrectly assumes field is zero outside conductor."
   },
   {
     "id": "physc_u8_q344",
@@ -8383,7 +8383,7 @@ window.PHYSC_MCQ = [
       "D) R/2"
     ],
     "answer": 1,
-    "explanation": "Field along axis: E = kQx/(x² + R²)^(3/2). To find maximum, take derivative and set to zero: dE/dx = 0 gives x = R/√2. Students often guess x = R (incorrect) or don't properly handle the calculus. The maximum occurs closer to the ring than R because of the balance between 1/r² dependence and cos θ projection factor."
+    "explanation": "Field along axis: E = kQx/($x^2$ + $R^2$)^(3/2). To find maximum, take derivative and set to zero: dE/dx = 0 gives x = R/√2. Students often guess x = R (incorrect) or don't properly handle the calculus. The maximum occurs closer to the ring than R because of the balance between 1/$r^2$ dependence and cos θ projection factor."
   },
   {
     "id": "physc_u8_q350",
@@ -8397,13 +8397,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A thick spherical shell has inner radius a, outer radius b, and uniform charge density ρ. Using Gauss's law, what is the electric field at radius r where a < r < b?",
     "choices": [
-      "A) ρ(r³ - a³)/(3ε₀r²)",
-      "B) ρ(r² - a²)/(2ε₀r)",
+      "A) ρ($r^3$ - $a^3$)/(3ε₀$r^2$)",
+      "B) ρ($r^2$ - $a^2$)/(2ε₀r)",
       "C) ρr/(3ε₀)",
-      "D) ρ(b³ - a³)/(3ε₀r²)"
+      "D) ρ($b^3$ - $a^3$)/(3ε₀$r^2$)"
     ],
     "answer": 0,
-    "explanation": "Enclosed charge within radius r: Q = ρ × (4π/3)(r³ - a³). By Gauss's law: E(4πr²) = Q/ε₀, so E = ρ(r³ - a³)/(3ε₀r²). Students often forget to subtract the inner cavity volume a³, use wrong volume formula, or confuse this with the uniform sphere case where charge grows as r³ from center."
+    "explanation": "Enclosed charge within radius r: Q = ρ × (4π/3)($r^3$ - $a^3$). By Gauss's law: E(4π$r^2$) = Q/ε₀, so E = ρ($r^3$ - $a^3$)/(3ε₀$r^2$). Students often forget to subtract the inner cavity volume $a^3$, use wrong volume formula, or confuse this with the uniform sphere case where charge grows as $r^3$ from center."
   },
   {
     "id": "physc_u8_q351",
@@ -8523,7 +8523,7 @@ window.PHYSC_MCQ = [
       "D) σA/(4ε₀) where A is the total surface area"
     ],
     "answer": 0,
-    "explanation": "Total flux through complete sphere would be σA/ε₀ where A = πR² is base area. By symmetry, half goes through curved surface and half through the flat base, so flux through curved surface = σA/(2ε₀). Students often think all flux goes through curved surface or calculate using total surface area instead of base area."
+    "explanation": "Total flux through complete sphere would be σA/ε₀ where A = π$R^2$ is base area. By symmetry, half goes through curved surface and half through the flat base, so flux through curved surface = σA/(2ε₀). Students often think all flux goes through curved surface or calculate using total surface area instead of base area."
   },
   {
     "id": "physc_u8_q357",
@@ -8540,7 +8540,7 @@ window.PHYSC_MCQ = [
       "A) ρ₀R/(4ε₀)",
       "B) ρ₀R/(3ε₀)",
       "C) Zero",
-      "D) ρ₀R²/(6ε₀)"
+      "D) ρ₀$R^2$/(6ε₀)"
     ],
     "answer": 2,
     "explanation": "By symmetry, the electric field at the center of any spherically symmetric charge distribution is zero. Every charge element has a corresponding element on the opposite side that produces an equal and opposite field contribution at the center. Students often try to calculate using Gauss's law incorrectly or think non-uniform density breaks the symmetry argument."
@@ -8723,7 +8723,7 @@ window.PHYSC_MCQ = [
       "D) Equal to qV"
     ],
     "answer": 0,
-    "explanation": "Work = q(ΔV). On an equipotential surface, ΔV = 0, so work = 0. This is fundamental definition of equipotential. Choices B and C suggest non-zero work. Choice D gives work for moving between different potentials."
+    "explanation": "Work = q($\\Delta V$). On an equipotential surface, $\\Delta V$ = 0, so work = 0. This is fundamental definition of equipotential. Choices B and C suggest non-zero work. Choice D gives work for moving between different potentials."
   },
   {
     "id": "physc_u9_q367",
@@ -8783,7 +8783,7 @@ window.PHYSC_MCQ = [
       "D) Increases by a factor of 8"
     ],
     "answer": 0,
-    "explanation": "Since U = ½CV², doubling V makes energy U' = ½C(2V)² = 4(½CV²) = 4U. Choice B assumes linear relationship. Choice C ignores voltage dependence. Choice D uses cubic relationship incorrectly."
+    "explanation": "Since U = $\\frac{1}{2}$C$V^2$, doubling V makes energy U' = $\\frac{1}{2}$C(2V)² = 4($\\frac{1}{2}$C$V^2$) = 4U. Choice B assumes linear relationship. Choice C ignores voltage dependence. Choice D uses cubic relationship incorrectly."
   },
   {
     "id": "physc_u9_q370",
@@ -8817,13 +8817,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A point charge of +3.0 μC is moved from point A to point B in an electric field. If the electric potential at A is 120 V and at B is 80 V, what is the change in electric potential energy of the charge?",
     "choices": [
-      "A) -120 μJ",
-      "B) +120 μJ",
-      "C) -40 μJ",
-      "D) +40 μJ"
+      "A) -120 $\\mu$J",
+      "B) +120 $\\mu$J",
+      "C) -40 $\\mu$J",
+      "D) +40 $\\mu$J"
     ],
     "answer": 0,
-    "explanation": "The change in potential energy is ΔU = qΔV = q(VB - VA) = (3.0 × 10⁻⁶ C)(80 V - 120 V) = (3.0 × 10⁻⁶ C)(-40 V) = -120 μJ. Students often forget the sign or confuse potential with potential energy."
+    "explanation": "The change in potential energy is $\\Delta U$ = q$\\Delta V$ = q(VB - VA) = (3.0 $\\times$ 10⁻⁶ C)(80 V - 120 V) = (3.0 $\\times$ 10⁻⁶ C)(-40 V) = -120 $\\mu$J. Students often forget the sign or confuse potential with potential energy."
   },
   {
     "id": "physc_u9_q372",
@@ -8843,7 +8843,7 @@ window.PHYSC_MCQ = [
       "D) -200 V"
     ],
     "answer": 1,
-    "explanation": "For uniform field, ΔV = -E·Δx = -(500 N/C)(0.30 - 0.10) m = -100 V. The negative sign comes from V = -∫E·dr. Students often forget the negative sign or use wrong direction."
+    "explanation": "For uniform field, $\\Delta V$ = -E·$\\Delta x$ = -(500 N/C)(0.30 - 0.10) m = -100 V. The negative sign comes from V = -∫E·dr. Students often forget the negative sign or use wrong direction."
   },
   {
     "id": "physc_u9_q373",
@@ -8855,7 +8855,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "If the electric potential varies as V(x) = 200x² - 100x + 50 (where V is in volts and x in meters), what is the magnitude of the electric field at x = 2.0 m?",
+    "question": "If the electric potential varies as V(x) = 200$x^2$ - 100x + 50 (where V is in volts and x in meters), what is the magnitude of the electric field at x = 2.0 m?",
     "choices": [
       "A) 700 N/C",
       "B) 750 N/C",
@@ -8937,13 +8937,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A 10 μF capacitor is charged to 12 V. How much energy is stored in the capacitor?",
     "choices": [
-      "A) 60 μJ",
-      "B) 120 μJ",
-      "C) 720 μJ",
-      "D) 1440 μJ"
+      "A) 60 $\\mu$J",
+      "B) 120 $\\mu$J",
+      "C) 720 $\\mu$J",
+      "D) 1440 $\\mu$J"
     ],
     "answer": 2,
-    "explanation": "Energy stored is U = ½CV² = ½(10 × 10⁻⁶ F)(12 V)² = ½(10 × 10⁻⁶)(144) = 720 μJ. Students often forget the ½ factor or use wrong formula."
+    "explanation": "Energy stored is U = $\\frac{1}{2}$C$V^2$ = $\\frac{1}{2}$(10 $\\times$ 10⁻⁶ F)(12 V)² = $\\frac{1}{2}$(10 $\\times$ 10⁻⁶)(144) = 720 $\\mu$J. Students often forget the $\\frac{1}{2}$ factor or use wrong formula."
   },
   {
     "id": "physc_u9_q378",
@@ -8963,7 +8963,7 @@ window.PHYSC_MCQ = [
       "D) It increases by a factor of 9"
     ],
     "answer": 1,
-    "explanation": "With battery connected, V is constant. C increases by factor κ, so U = ½CV² increases by factor κ = 3. Students often confuse constant charge vs. constant voltage scenarios."
+    "explanation": "With battery connected, V is constant. C increases by factor κ, so U = $\\frac{1}{2}$C$V^2$ increases by factor κ = 3. Students often confuse constant charge vs. constant voltage scenarios."
   },
   {
     "id": "physc_u9_q379",
@@ -8995,7 +8995,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "In a radial electric field E = kr̂/r² (where k is a constant), what is the potential difference between points at r = 2.0 m and r = 4.0 m from the center?",
+    "question": "In a radial electric field E = kr̂/$r^2$ (where k is a constant), what is the potential difference between points at r = 2.0 m and r = 4.0 m from the center?",
     "choices": [
       "A) k/4",
       "B) k/2",
@@ -9003,7 +9003,7 @@ window.PHYSC_MCQ = [
       "D) -k/2"
     ],
     "answer": 2,
-    "explanation": "V = -∫E·dr = -∫(k/r²)dr = k/r + constant. ΔV = V(4.0) - V(2.0) = k/4.0 - k/2.0 = -k/4. Students often miss the negative sign or integrate incorrectly."
+    "explanation": "V = -∫E·dr = -∫($k/r^2$)dr = k/r + constant. $\\Delta V$ = V(4.0) - V(2.0) = k/4.0 - k/2.0 = -k/4. Students often miss the negative sign or integrate incorrectly."
   },
   {
     "id": "physc_u9_q381",
@@ -9023,7 +9023,7 @@ window.PHYSC_MCQ = [
       "D) 4V"
     ],
     "answer": 0,
-    "explanation": "For point charge, V = kq/r, so V is inversely proportional to r. When radius doubles, potential is halved. Students often confuse this with field (1/r²) or think potential doubles with radius."
+    "explanation": "For point charge, V = kq/r, so V is inversely proportional to r. When radius doubles, potential is halved. Students often confuse this with field (1/$r^2$) or think potential doubles with radius."
   },
   {
     "id": "physc_u9_q382",
@@ -9035,7 +9035,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "The electric potential in a region varies as V = 3x² + 2y² + z² (in volts, with distances in meters). What is the y-component of the electric field at point (1, 2, 3)?",
+    "question": "The electric potential in a region varies as V = 3$x^2$ + 2$y^2$ + $z^2$ (in volts, with distances in meters). What is the y-component of the electric field at point (1, 2, 3)?",
     "choices": [
       "A) -4 N/C",
       "B) +4 N/C",
@@ -9043,7 +9043,7 @@ window.PHYSC_MCQ = [
       "D) +8 N/C"
     ],
     "answer": 2,
-    "explanation": "Ey = -∂V/∂y = -∂(3x² + 2y² + z²)/∂y = -4y. At y = 2, Ey = -4(2) = -8 N/C. Students often forget the negative sign or take derivative incorrectly."
+    "explanation": "Ey = -∂V/∂y = -∂(3$x^2$ + 2$y^2$ + $z^2$)/∂y = -4y. At y = 2, Ey = -4(2) = -8 N/C. Students often forget the negative sign or take derivative incorrectly."
   },
   {
     "id": "physc_u9_q383",
@@ -9063,7 +9063,7 @@ window.PHYSC_MCQ = [
       "D) It is quadrupled"
     ],
     "answer": 1,
-    "explanation": "With disconnected battery, Q is constant. When d doubles, C halves. Since U = Q²/(2C), when C halves, U doubles. Students often use U = ½CV² instead of appropriate formula for constant charge."
+    "explanation": "With disconnected battery, Q is constant. When d doubles, C halves. Since U = $Q^2$/(2C), when C halves, U doubles. Students often use U = $\\frac{1}{2}$C$V^2$ instead of appropriate formula for constant charge."
   },
   {
     "id": "physc_u9_q384",
@@ -9143,7 +9143,7 @@ window.PHYSC_MCQ = [
       "D) +30 V"
     ],
     "answer": 0,
-    "explanation": "Field only exists between x = 0 and x = 0.10 m. ΔV = -∫E·dx = -(200)(0.10 - 0) = -20 V. The field doesn't contribute outside its region. Students often integrate over wrong limits or forget field regions."
+    "explanation": "Field only exists between x = 0 and x = 0.10 m. $\\Delta V$ = -∫E·dx = -(200)(0.10 - 0) = -20 V. The field doesn't contribute outside its region. Students often integrate over wrong limits or forget field regions."
   },
   {
     "id": "physc_u9_q388",
@@ -9177,13 +9177,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "Two identical capacitors, each with capacitance C, are connected in series across a voltage V. What is the total energy stored in the system?",
     "choices": [
-      "A) CV²/4",
-      "B) CV²/2",
-      "C) CV²",
-      "D) 2CV²"
+      "A) C$V^2$/4",
+      "B) C$V^2$/2",
+      "C) C$V^2$",
+      "D) 2C$V^2$"
     ],
     "answer": 0,
-    "explanation": "Series equivalent capacitance is C/2. Total energy is U = ½(Ceq)V² = ½(C/2)V² = CV²/4. Students often use individual capacitor formula or parallel combination formula incorrectly."
+    "explanation": "Series equivalent capacitance is C/2. Total energy is U = $\\frac{1}{2}$(Ceq)$V^2$ = $\\frac{1}{2}$(C/2)$V^2$ = C$V^2$/4. Students often use individual capacitor formula or parallel combination formula incorrectly."
   },
   {
     "id": "physc_u9_q390",
@@ -9197,13 +9197,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A point charge +Q is moved from point A to point B in the electric field of a fixed point charge +q. The potential at A is 20 V and at B is 50 V. If the charge +Q has magnitude 2.0 μC, what is the change in potential energy of the system?",
     "choices": [
-      "A) +60 μJ",
-      "B) -60 μJ",
-      "C) +30 μJ",
-      "D) +140 μJ"
+      "A) +60 $\\mu$J",
+      "B) -60 $\\mu$J",
+      "C) +30 $\\mu$J",
+      "D) +140 $\\mu$J"
     ],
     "answer": 0,
-    "explanation": "The change in potential energy is ΔU = qΔV = (2.0 × 10⁻⁶ C)(50 V - 20 V) = 60 × 10⁻⁶ J = +60 μJ. The positive sign indicates energy was stored in the system. Choice B incorrectly uses negative sign. Choice C uses wrong potential difference. Choice D adds the potentials instead of finding the difference."
+    "explanation": "The change in potential energy is $\\Delta U$ = q$\\Delta V$ = (2.0 $\\times$ 10⁻⁶ C)(50 V - 20 V) = 60 $\\times$ 10⁻⁶ J = +60 $\\mu$J. The positive sign indicates energy was stored in the system. Choice B incorrectly uses negative sign. Choice C uses wrong potential difference. Choice D adds the potentials instead of finding the difference."
   },
   {
     "id": "physc_u9_q391",
@@ -9223,7 +9223,7 @@ window.PHYSC_MCQ = [
       "D) +2800 V"
     ],
     "answer": 0,
-    "explanation": "The potential difference is ΔV = V(5.0) - V(2.0) = -∫E·dr from 2.0 to 5.0 = -E(5.0 - 2.0) = -400 × 3.0 = -1200 V. The negative sign is correct because we move in the direction of the field, so potential decreases. Choice B has wrong sign. Choices C and D incorrectly add the position values to the calculation."
+    "explanation": "The potential difference is $\\Delta V$ = V(5.0) - V(2.0) = -∫E·dr from 2.0 to 5.0 = -E(5.0 - 2.0) = -400 × 3.0 = -1200 V. The negative sign is correct because we move in the direction of the field, so potential decreases. Choice B has wrong sign. Choices C and D incorrectly add the position values to the calculation."
   },
   {
     "id": "physc_u9_q392",
@@ -9235,7 +9235,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "The electric potential in a region varies as V(x) = 3x² - 12x + 20, where V is in volts and x is in meters. What is the magnitude of the electric field at x = 2.0 m?",
+    "question": "The electric potential in a region varies as V(x) = 3$x^2$ - 12x + 20, where V is in volts and x is in meters. What is the magnitude of the electric field at x = 2.0 m?",
     "choices": [
       "A) 0 N/C",
       "B) 6 N/C",
@@ -9263,7 +9263,7 @@ window.PHYSC_MCQ = [
       "D) The amount of work depends on the speed of movement"
     ],
     "answer": 1,
-    "explanation": "Moving perpendicular to electric field lines means moving along an equipotential surface where the potential is constant. Since W = qΔV and ΔV = 0, no work is done. Choice A would apply if moving toward the negative plate. Choice C would apply if moving toward the positive plate. Choice D is incorrect because work done by conservative forces depends only on displacement, not speed."
+    "explanation": "Moving perpendicular to electric field lines means moving along an equipotential surface where the potential is constant. Since W = q$\\Delta V$ and $\\Delta V$ = 0, no work is done. Choice A would apply if moving toward the negative plate. Choice C would apply if moving toward the positive plate. Choice D is incorrect because work done by conservative forces depends only on displacement, not speed."
   },
   {
     "id": "physc_u9_q394",
@@ -9283,7 +9283,7 @@ window.PHYSC_MCQ = [
       "D) Parallel stores four times as much energy as series"
     ],
     "answer": 3,
-    "explanation": "For series: Ctotal = C/2, so Useries = ½(C/2)V² = CV²/4. For parallel: Ctotal = 2C, so Uparallel = ½(2C)V² = CV². Therefore parallel stores 4 times as much energy as series. Choice A reverses the relationship. Choice B gives the factor of 2 instead of 4. Choice C incorrectly has series storing more energy."
+    "explanation": "For series: Ctotal = C/2, so Useries = $\\frac{1}{2}$(C/2)$V^2$ = C$V^2$/4. For parallel: Ctotal = 2C, so Uparallel = $\\frac{1}{2}$(2C)$V^2$ = C$V^2$. Therefore parallel stores 4 times as much energy as series. Choice A reverses the relationship. Choice B gives the factor of 2 instead of 4. Choice C incorrectly has series storing more energy."
   },
   {
     "id": "physc_u9_q395",
@@ -9303,7 +9303,7 @@ window.PHYSC_MCQ = [
       "D) Energy is quadrupled"
     ],
     "answer": 2,
-    "explanation": "When disconnected, charge Q remains constant. Since C = ε₀A/d, doubling d halves the capacitance. Using U = Q²/(2C), when C is halved, energy doubles. Choice A incorrectly uses U = ½CV² thinking voltage is constant. Choice B ignores the change in capacitance. Choice D incorrectly squares the capacitance change."
+    "explanation": "When disconnected, charge Q remains constant. Since C = ε₀A/d, doubling d halves the capacitance. Using U = $Q^2$/(2C), when C is halved, energy doubles. Choice A incorrectly uses U = $\\frac{1}{2}$C$V^2$ thinking voltage is constant. Choice B ignores the change in capacitance. Choice D incorrectly squares the capacitance change."
   },
   {
     "id": "physc_u9_q396",
@@ -9323,7 +9323,7 @@ window.PHYSC_MCQ = [
       "D) Energy decreases by factor of 2"
     ],
     "answer": 1,
-    "explanation": "With battery connected, voltage V remains constant. Initially C₁ = κC₀ = 4C₀, so U₁ = ½(4C₀)V² = 2C₀V². After removing dielectric, C₂ = C₀, so U₂ = ½C₀V². Therefore energy decreases by factor of 4. Choice A reverses the change direction. Choices C and D use the wrong factor, possibly confusing with the square root of the dielectric constant."
+    "explanation": "With battery connected, voltage V remains constant. Initially C₁ = κC₀ = 4C₀, so U₁ = $\\frac{1}{2}$(4C₀)$V^2$ = 2C₀$V^2$. After removing dielectric, C₂ = C₀, so U₂ = $\\frac{1}{2}$C₀$V^2$. Therefore energy decreases by factor of 4. Choice A reverses the change direction. Choices C and D use the wrong factor, possibly confusing with the square root of the dielectric constant."
   },
   {
     "id": "physc_u9_q397",
@@ -9363,7 +9363,7 @@ window.PHYSC_MCQ = [
       "D) 9"
     ],
     "answer": 1,
-    "explanation": "With constant charge (disconnected), U = Q²/(2C). When dielectric is inserted, C becomes κC = 3C, so the new energy is U' = Q²/(2·3C) = U/3. Therefore, 1/3 of the original energy remains. Choice A incorrectly squares the dielectric constant in the denominator. Choices C and D incorrectly assume energy increases, which would violate energy conservation since no external work increases the stored energy."
+    "explanation": "With constant charge (disconnected), U = $Q^2$/(2C). When dielectric is inserted, C becomes κC = 3C, so the new energy is U' = $Q^2$/(2·3C) = U/3. Therefore, 1/3 of the original energy remains. Choice A incorrectly squares the dielectric constant in the denominator. Choices C and D incorrectly assume energy increases, which would violate energy conservation since no external work increases the stored energy."
   },
   {
     "id": "physc_u9_q399",
@@ -9403,7 +9403,7 @@ window.PHYSC_MCQ = [
       "D) 1/3"
     ],
     "answer": 1,
-    "explanation": "Initial energy: Ui = ½CV₀². When connected in parallel, charge is conserved: Q = CV₀. Final voltage across both: Vf = Q/(2C) = V₀/2. Final energy: Uf = ½(2C)(V₀/2)² = ¼CV₀². Energy dissipated: ΔU = Ui - Uf = ½CV₀² - ¼CV₀² = ¼CV₀². Fraction dissipated: ΔU/Ui = (¼CV₀²)/(½CV₀²) = 1/2. Choice A gives the fraction remaining. Choices C and D result from incorrect energy calculations."
+    "explanation": "Initial energy: Ui = $\\frac{1}{2}$CV₀². When connected in parallel, charge is conserved: Q = CV₀. Final voltage across both: Vf = Q/(2C) = V₀/2. Final energy: Uf = $\\frac{1}{2}$(2C)(V₀/2)² = ¼CV₀². Energy dissipated: $\\Delta U$ = Ui - Uf = $\\frac{1}{2}$CV₀² - ¼CV₀² = ¼CV₀². Fraction dissipated: $\\Delta U$/Ui = (¼CV₀²)/($\\frac{1}{2}$CV₀²) = 1/2. Choice A gives the fraction remaining. Choices C and D result from incorrect energy calculations."
   },
   {
     "id": "physc_u9_q401",
@@ -9423,7 +9423,7 @@ window.PHYSC_MCQ = [
       "D) 1/2"
     ],
     "answer": 0,
-    "explanation": "With battery connected, voltage remains constant at V. Initial: C₁ = ε₀A/d, U₁ = ½C₁V². After dielectric insertion: C₂ = κC₁ = 4C₁, U₂ = ½C₂V² = ½(4C₁)V² = 4(½C₁V²) = 4U₁. Energy increases by factor of 4 because battery does work to maintain constant voltage while capacitance increases. Choice B would be correct if battery were disconnected (constant charge). Choices C and D result from confusion about energy vs. field relationships."
+    "explanation": "With battery connected, voltage remains constant at V. Initial: C₁ = ε₀A/d, U₁ = $\\frac{1}{2}$C₁$V^2$. After dielectric insertion: C₂ = κC₁ = 4C₁, U₂ = $\\frac{1}{2}$C₂$V^2$ = $\\frac{1}{2}$(4C₁)$V^2$ = 4($\\frac{1}{2}$C₁$V^2$) = 4U₁. Energy increases by factor of 4 because battery does work to maintain constant voltage while capacitance increases. Choice B would be correct if battery were disconnected (constant charge). Choices C and D result from confusion about energy vs. field relationships."
   },
   {
     "id": "physc_u9_q402",
@@ -9435,15 +9435,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "The potential varies as V(r) = A/r² in spherical coordinates, where A is a constant. What is the electric field in the radial direction?",
+    "question": "The potential varies as V(r) = $A/r^2$ in spherical coordinates, where A is a constant. What is the electric field in the radial direction?",
     "choices": [
-      "A) -2A/r³",
-      "B) 2A/r³",
-      "C) -A/r³",
-      "D) A/r³"
+      "A) -2$A/r^3$",
+      "B) 2$A/r^3$",
+      "C) -$A/r^3$",
+      "D) $A/r^3$"
     ],
     "answer": 1,
-    "explanation": "In spherical coordinates, Er = -∂V/∂r. Given V = A/r², we have ∂V/∂r = A(-2)r⁻³ = -2A/r³. Therefore, Er = -(-2A/r³) = 2A/r³. Choice A forgets the negative sign from the gradient operation. Choices C and D have incorrect factors of 2."
+    "explanation": "In spherical coordinates, Er = -∂V/∂r. Given V = $A/r^2$, we have ∂V/∂r = A(-2)r⁻³ = -2$A/r^3$. Therefore, Er = -(-2$A/r^3$) = 2$A/r^3$. Choice A forgets the negative sign from the gradient operation. Choices C and D have incorrect factors of 2."
   },
   {
     "id": "physc_u9_q403",
@@ -9463,7 +9463,7 @@ window.PHYSC_MCQ = [
       "D) A hyperboloid"
     ],
     "answer": 1,
-    "explanation": "For a dipole, V = kp cos θ/(4πε₀r²) where θ is angle from dipole axis. Setting V = 0 gives cos θ = 0, so θ = 90°. This describes a plane perpendicular to the dipole axis passing through the center. Choice A would be true for a monopole. Choices C and D are more complex surfaces that don't arise from the dipole potential."
+    "explanation": "For a dipole, V = kp cos θ/(4πε₀$r^2$) where θ is angle from dipole axis. Setting V = 0 gives cos θ = 0, so θ = 90°. This describes a plane perpendicular to the dipole axis passing through the center. Choice A would be true for a monopole. Choices C and D are more complex surfaces that don't arise from the dipole potential."
   },
   {
     "id": "physc_u9_q404",
@@ -9483,7 +9483,7 @@ window.PHYSC_MCQ = [
       "D) Decreases by factor of 3/2"
     ],
     "answer": 1,
-    "explanation": "With battery disconnected, charge Q remains constant. Initial: C₁ = ε₀A/d, U₁ = Q²/(2C₁). Final: C₂ = κε₀A/(2d) = 3ε₀A/(2d) = 3C₁/2, U₂ = Q²/(2C₂) = Q²/(2 × 3C₁/2) = Q²/(3C₁) = U₁/3. Wait, that's not matching the choices exactly. Let me recalculate: C₂ = κε₀A/(2d) = 3ε₀A/(2d). Compared to C₁ = ε₀A/d, we have C₂ = 3C₁/2. So U₂ = Q²/(2C₂) = Q²/(2 × 3C₁/2) = Q²/(3C₁) = (1/3) × Q²/C₁. But U₁ = Q²/(2C₁), so U₂ = (1/3) × 2U₁ = 2U₁/3. Hmm, this means U₂/U₁ = 2/3, so energy decreases by factor of 3/2. Actually, let me be more careful: U₂ = Q²/(2C₂) and U₁ = Q²/(2C₁), so U₂/U₁ = C₁/C₂ = C₁/(3C₁/2) = 2/3. So energy becomes 2/3 of original, which means it decreases. The factor is 3/2 (since 1/(2/3) = 3/2). But this gives choice D, not B. Let me reconsider C₂: if separation doubles and dielectric is added: C₂ = κε₀A/(2d) = 3ε₀A/(2d) = (3/2)(ε₀A/d) = (3/2)C₁. Then U₂/U₁ = C₁/C₂ = C₁/((3/2)C₁) = 2/3. So energy decreases to 2/3, meaning it decreases by a factor of 3/2."
+    "explanation": "With battery disconnected, charge Q remains constant. Initial: C₁ = ε₀A/d, U₁ = $Q^2$/(2C₁). Final: C₂ = κε₀A/(2d) = 3ε₀A/(2d) = 3C₁/2, U₂ = $Q^2$/(2C₂) = $Q^2$/(2 × 3C₁/2) = $Q^2$/(3C₁) = U₁/3. Wait, that's not matching the choices exactly. Let me recalculate: C₂ = κε₀A/(2d) = 3ε₀A/(2d). Compared to C₁ = ε₀A/d, we have C₂ = 3C₁/2. So U₂ = $Q^2$/(2C₂) = $Q^2$/(2 × 3C₁/2) = $Q^2$/(3C₁) = (1/3) × $Q^2$/C₁. But U₁ = $Q^2$/(2C₁), so U₂ = (1/3) × 2U₁ = 2U₁/3. Hmm, this means U₂/U₁ = 2/3, so energy decreases by factor of 3/2. Actually, let me be more careful: U₂ = $Q^2$/(2C₂) and U₁ = $Q^2$/(2C₁), so U₂/U₁ = C₁/C₂ = C₁/(3C₁/2) = 2/3. So energy becomes 2/3 of original, which means it decreases. The factor is 3/2 (since 1/(2/3) = 3/2). But this gives choice D, not B. Let me reconsider C₂: if separation doubles and dielectric is added: C₂ = κε₀A/(2d) = 3ε₀A/(2d) = (3/2)(ε₀A/d) = (3/2)C₁. Then U₂/U₁ = C₁/C₂ = C₁/((3/2)C₁) = 2/3. So energy decreases to 2/3, meaning it decreases by a factor of 3/2."
   },
   {
     "id": "physc_u9_q405",
@@ -9523,7 +9523,7 @@ window.PHYSC_MCQ = [
       "D) kQq/(2R)"
     ],
     "answer": 0,
-    "explanation": "Initial potential at center due to ring: V₀ = kQ/R (all charge elements at distance R). Final potential at infinity: V∞ = 0. Change in potential energy of charge q: ΔU = q(V∞ - V₀) = q(0 - kQ/R) = -kQq/R. Choice B has wrong sign. Choices C and D incorrectly include factor of 1/2."
+    "explanation": "Initial potential at center due to ring: V₀ = kQ/R (all charge elements at distance R). Final potential at infinity: V$\\infty$ = 0. Change in potential energy of charge q: $\\Delta U$ = q(V$\\infty$ - V₀) = q(0 - kQ/R) = -kQq/R. Choice B has wrong sign. Choices C and D incorrectly include factor of 1/2."
   },
   {
     "id": "physc_u9_q407",
@@ -9617,13 +9617,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "The power dissipated by a resistor can be calculated using P = VI. What is an equivalent expression?",
     "choices": [
-      "A) P = I²R",
+      "A) P = $I^2$R",
       "B) P = IR",
       "C) P = V/R",
       "D) P = VR"
     ],
     "answer": 0,
-    "explanation": "Using Ohm's law V = IR, we can substitute to get P = VI = (IR)I = I²R. The other options are common mistakes in algebraic manipulation."
+    "explanation": "Using Ohm's law V = IR, we can substitute to get P = VI = (IR)I = $I^2$R. The other options are common mistakes in algebraic manipulation."
   },
   {
     "id": "physc_u10_q412",
@@ -9863,7 +9863,7 @@ window.PHYSC_MCQ = [
       "D) 4R"
     ],
     "answer": 0,
-    "explanation": "Resistance R = ρL/A. When length doubles and radius doubles, area becomes 4 times larger (A = πr²). New resistance = ρ(2L)/(4A) = R/2. Students often forget area depends on r² (choosing B) or think resistance doubles with length without considering area (choosing C)."
+    "explanation": "Resistance R = ρL/A. When length doubles and radius doubles, area becomes 4 times larger (A = π$r^2$). New resistance = ρ(2L)/(4A) = R/2. Students often forget area depends on $r^2$ (choosing B) or think resistance doubles with length without considering area (choosing C)."
   },
   {
     "id": "physc_u10_q424",
@@ -9883,7 +9883,7 @@ window.PHYSC_MCQ = [
       "D) Both configurations dissipate equal power"
     ],
     "answer": 1,
-    "explanation": "For series: total resistance is 2R, so P = V²/(2R). For parallel: total resistance is R/2, so P = V²/(R/2) = 2V²/R. The ratio is 4:1 in favor of parallel. Students often think series has higher power because individual resistors have higher voltage (choice A) or think current determines power directly (choice C)."
+    "explanation": "For series: total resistance is 2R, so P = $V^2$/(2R). For parallel: total resistance is R/2, so P = $V^2$/(R/2) = 2$V^2$/R. The ratio is 4:1 in favor of parallel. Students often think series has higher power because individual resistors have higher voltage (choice A) or think current determines power directly (choice C)."
   },
   {
     "id": "physc_u10_q425",
@@ -9943,7 +9943,7 @@ window.PHYSC_MCQ = [
       "D) All dissipate equal power"
     ],
     "answer": 2,
-    "explanation": "In parallel circuits, all resistors have the same voltage (12V). Power P = V²/R, so smaller resistance dissipates more power. P₄ = 144/4 = 36W, P₆ = 144/6 = 24W, P₁₂ = 144/12 = 12W. The 4Ω resistor dissipates most power. Students often think larger resistance dissipates more power (choice B) or that power is equal in parallel (choice D)."
+    "explanation": "In parallel circuits, all resistors have the same voltage (12V). Power P = $V^2$/R, so smaller resistance dissipates more power. P₄ = 144/4 = 36W, P₆ = 144/6 = 24W, P₁₂ = 144/12 = 12W. The 4Ω resistor dissipates most power. Students often think larger resistance dissipates more power (choice B) or that power is equal in parallel (choice D)."
   },
   {
     "id": "physc_u10_q428",
@@ -10015,7 +10015,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "If 3.2 × 10¹⁹ electrons pass through a cross-section of a conductor in 4.0 seconds, what is the current?",
+    "question": "If 3.2 $\\times$ 10¹⁹ electrons pass through a cross-section of a conductor in 4.0 seconds, what is the current?",
     "choices": [
       "A) 0.8 A",
       "B) 1.28 A",
@@ -10023,7 +10023,7 @@ window.PHYSC_MCQ = [
       "D) 12.8 A"
     ],
     "answer": 1,
-    "explanation": "Current I = Q/t = (N × e)/t = (3.2 × 10¹⁹ × 1.6 × 10⁻¹⁹ C)/(4.0 s) = 5.12 C/4.0 s = 1.28 A. Students often forget to multiply by electron charge (choice A), make calculation errors (choices C, D), or use wrong powers of 10."
+    "explanation": "Current I = Q/t = (N × e)/t = (3.2 $\\times$ 10¹⁹ × 1.6 $\\times$ 10⁻¹⁹ C)/(4.0 s) = 5.12 C/4.0 s = 1.28 A. Students often forget to multiply by electron charge (choice A), make calculation errors (choices C, D), or use wrong powers of 10."
   },
   {
     "id": "physc_u10_q432",
@@ -10063,7 +10063,7 @@ window.PHYSC_MCQ = [
       "D) 120 W"
     ],
     "answer": 0,
-    "explanation": "Bulb resistance R = V²/P = (120V)²/60W = 240Ω. At 60V: P = V²/R = (60V)²/240Ω = 15W. Power varies as voltage squared when resistance is constant. Students often think power scales linearly with voltage (choice B), remains constant (choice C), or doubles somehow (choice D)."
+    "explanation": "Bulb resistance R = $V^2$/P = (120V)²/60W = 240Ω. At 60V: P = $V^2$/R = (60V)²/240Ω = 15W. Power varies as voltage squared when resistance is constant. Students often think power scales linearly with voltage (choice B), remains constant (choice C), or doubles somehow (choice D)."
   },
   {
     "id": "physc_u10_q434",
@@ -10083,7 +10083,7 @@ window.PHYSC_MCQ = [
       "D) 20 W"
     ],
     "answer": 1,
-    "explanation": "Power dissipated in internal resistance P = I²r = (2A)²(1Ω) = 4W. Students might calculate terminal voltage times current (choice D), confuse with external power (choice C), or make calculation errors (choice A)."
+    "explanation": "Power dissipated in internal resistance P = $I^2$r = (2A)²(1Ω) = 4W. Students might calculate terminal voltage times current (choice D), confuse with external power (choice C), or make calculation errors (choice A)."
   },
   {
     "id": "physc_u10_q435",
@@ -10103,7 +10103,7 @@ window.PHYSC_MCQ = [
       "D) Remains 0.5A"
     ],
     "answer": 0,
-    "explanation": "Initially: I₁ = V/(4R) = 0.5A, so V = 2R. After removing one resistor: I₂ = V/(3R) = 2R/(3R) = 2/3 ≈ 0.67A. Students often think current decreases when resistance is removed (choice C), think it increases by 1/4 (choice B), or think removing components doesn't affect current (choice D)."
+    "explanation": "Initially: I₁ = V/(4R) = 0.5A, so V = 2R. After removing one resistor: I₂ = V/(3R) = 2R/(3R) = 2/3 $\\approx$ 0.67A. Students often think current decreases when resistance is removed (choice C), think it increases by 1/4 (choice B), or think removing components doesn't affect current (choice D)."
   },
   {
     "id": "physc_u10_q436",
@@ -10163,7 +10163,7 @@ window.PHYSC_MCQ = [
       "D) At time t = 2RC"
     ],
     "answer": 1,
-    "explanation": "Current during charging: I(t) = I₀e^(-t/RC). For I(t) = I₀/2: e^(-t/RC) = 1/2, so -t/RC = ln(1/2) = -ln(2) ≈ -0.693, giving t ≈ 0.69RC. Students often confuse with time constant RC (choice A), think it's simply half the time constant (choice C), or use wrong exponential relationships (choice D)."
+    "explanation": "Current during charging: I(t) = I₀e^(-t/RC). For I(t) = I₀/2: e^(-t/RC) = 1/2, so -t/RC = ln(1/2) = -ln(2) $\\approx$ -0.693, giving t $\\approx$ 0.69RC. Students often confuse with time constant RC (choice A), think it's simply half the time constant (choice C), or use wrong exponential relationships (choice D)."
   },
   {
     "id": "physc_u10_q439",
@@ -10243,7 +10243,7 @@ window.PHYSC_MCQ = [
       "D) R = ε/2"
     ],
     "answer": 1,
-    "explanation": "Power in external resistor P = I²R = [ε/(R+r)]²R. Taking derivative and setting to zero gives maximum at R = r (impedance matching). Students often choose A) thinking more current means more power, missing that P = I²R goes to zero as R→0. Choice C) comes from confusing maximum power transfer with maximum efficiency conditions."
+    "explanation": "Power in external resistor P = $I^2$R = [ε/(R+r)]²R. Taking derivative and setting to zero gives maximum at R = r (impedance matching). Students often choose A) thinking more current means more power, missing that P = $I^2$R goes to zero as R→0. Choice C) comes from confusing maximum power transfer with maximum efficiency conditions."
   },
   {
     "id": "physc_u10_q443",
@@ -10303,7 +10303,7 @@ window.PHYSC_MCQ = [
       "D) All dissipate equal power"
     ],
     "answer": 0,
-    "explanation": "In parallel circuits, voltage is same across all resistors, so P = V²/R. Lower resistance means higher power. P₃ = 18²/3 = 108 W, P₆ = 18²/6 = 54 W, P₉ = 18²/9 = 36 W. Students often choose C) thinking higher resistance means more power (confusing series and parallel behavior) or D) thinking equal voltage means equal power."
+    "explanation": "In parallel circuits, voltage is same across all resistors, so P = $V^2$/R. Lower resistance means higher power. P₃ = 1$8^2$/3 = 108 W, P₆ = 1$8^2$/6 = 54 W, P₉ = 1$8^2$/9 = 36 W. Students often choose C) thinking higher resistance means more power (confusing series and parallel behavior) or D) thinking equal voltage means equal power."
   },
   {
     "id": "physc_u10_q446",
@@ -10323,7 +10323,7 @@ window.PHYSC_MCQ = [
       "D) As t approaches infinity"
     ],
     "answer": 0,
-    "explanation": "Power in resistor P = I²R. During charging, I = (ε/R)e^(-t/RC), so I is maximum at t = 0, making power maximum at t = 0. Students often choose B) t = RC thinking this is when 'everything happens' in RC circuits (63% charge time), or D) thinking steady state means maximum power, missing that steady state current is zero in capacitor circuits."
+    "explanation": "Power in resistor P = $I^2$R. During charging, I = (ε/R)e^(-t/RC), so I is maximum at t = 0, making power maximum at t = 0. Students often choose B) t = RC thinking this is when 'everything happens' in RC circuits (63% charge time), or D) thinking steady state means maximum power, missing that steady state current is zero in capacitor circuits."
   },
   {
     "id": "physc_u10_q447",
@@ -10363,7 +10363,7 @@ window.PHYSC_MCQ = [
       "D) R = ε/2r"
     ],
     "answer": 1,
-    "explanation": "The power in external resistor is P = I²R = (ε/(R+r))²R = ε²R/(R+r)². Taking dP/dR = 0 gives maximum at R = r. This is the maximum power transfer theorem. Students often think maximum power occurs at minimum resistance (R = 0) or confuse this with maximum current condition."
+    "explanation": "The power in external resistor is P = $I^2$R = (ε/(R+r))²R = ε²R/(R+r)². Taking dP/dR = 0 gives maximum at R = r. This is the maximum power transfer theorem. Students often think maximum power occurs at minimum resistance (R = 0) or confuse this with maximum current condition."
   },
   {
     "id": "physc_u10_q449",
@@ -10383,7 +10383,7 @@ window.PHYSC_MCQ = [
       "D) All dissipate equal power"
     ],
     "answer": 0,
-    "explanation": "In parallel, all resistors have the same voltage (12V). Power P = V²/R, so P₁ = 144/2 = 72W, P₂ = 144/4 = 36W, P₃ = 144/6 = 24W. The smallest resistor dissipates the most power in parallel. Students often think the largest resistor dissipates most power, confusing series and parallel behavior."
+    "explanation": "In parallel, all resistors have the same voltage (12V). Power P = $V^2$/R, so P₁ = 144/2 = 72W, P₂ = 144/4 = 36W, P₃ = 144/6 = 24W. The smallest resistor dissipates the most power in parallel. Students often think the largest resistor dissipates most power, confusing series and parallel behavior."
   },
   {
     "id": "physc_u10_q450",
@@ -10583,7 +10583,7 @@ window.PHYSC_MCQ = [
       "D) The square of the current and inversely proportional to the square of the distance"
     ],
     "answer": 0,
-    "explanation": "The Biot-Savart law shows dB ∝ I/r². Students often confuse this with Coulomb's law relationships or think it follows a 1/r dependence like some other field laws."
+    "explanation": "The Biot-Savart law shows dB ∝ $I/r^2$. Students often confuse this with Coulomb's law relationships or think it follows a 1/r dependence like some other field laws."
   },
   {
     "id": "physc_u11_q461",
@@ -10603,7 +10603,7 @@ window.PHYSC_MCQ = [
       "D) The area enclosed by the path"
     ],
     "answer": 0,
-    "explanation": "Ampere's law: ∮B·dl = μ₀Ienc relates the circulation of B to only the current enclosed by the integration path. Students often think it depends on all current in the circuit or confuse it with Faraday's law involving flux."
+    "explanation": "Ampere's law: ∮B·dl = $\\mu$₀Ienc relates the circulation of B to only the current enclosed by the integration path. Students often think it depends on all current in the circuit or confuse it with Faraday's law involving flux."
   },
   {
     "id": "physc_u11_q462",
@@ -10703,7 +10703,7 @@ window.PHYSC_MCQ = [
       "D) The cross-sectional area of the solenoid"
     ],
     "answer": 0,
-    "explanation": "For a solenoid, B = μ₀nI where n is turns per unit length and I is current. Students often think it depends on total turns rather than turn density, or forget one of the factors entirely."
+    "explanation": "For a solenoid, B = $\\mu$₀nI where n is turns per unit length and I is current. Students often think it depends on total turns rather than turn density, or forget one of the factors entirely."
   },
   {
     "id": "physc_u11_q467",
@@ -10715,15 +10715,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A proton moving at 2.0 × 10⁶ m/s enters a uniform magnetic field of 0.50 T at an angle of 30° to the field lines. What is the magnitude of the magnetic force on the proton?",
+    "question": "A proton moving at 2.0 $\\times$ 10⁶ m/s enters a uniform magnetic field of 0.50 T at an angle of 30° to the field lines. What is the magnitude of the magnetic force on the proton?",
     "choices": [
-      "A) 8.0 × 10⁻¹⁴ N",
-      "B) 1.6 × 10⁻¹³ N",
-      "C) 1.4 × 10⁻¹³ N",
-      "D) 2.8 × 10⁻¹³ N"
+      "A) 8.0 $\\times$ 10⁻¹⁴ N",
+      "B) 1.6 $\\times$ 10⁻¹³ N",
+      "C) 1.4 $\\times$ 10⁻¹³ N",
+      "D) 2.8 $\\times$ 10⁻¹³ N"
     ],
     "answer": 0,
-    "explanation": "F = qvB sin θ = (1.6 × 10⁻¹⁹)(2.0 × 10⁶)(0.50)(sin 30°) = 8.0 × 10⁻¹⁴ N. Choice B uses sin 90°, choice C uses cos 30°, choice D doubles the correct answer."
+    "explanation": "F = qvB sin θ = (1.6 $\\times$ 10⁻¹⁹)(2.0 $\\times$ 10⁶)(0.50)(sin 30°) = 8.0 $\\times$ 10⁻¹⁴ N. Choice B uses sin 90°, choice C uses cos 30°, choice D doubles the correct answer."
   },
   {
     "id": "physc_u11_q468",
@@ -10743,7 +10743,7 @@ window.PHYSC_MCQ = [
       "D) Remains the same"
     ],
     "answer": 0,
-    "explanation": "The Biot-Savart law shows dB ∝ 1/r², so doubling the distance reduces the field by a factor of 4. Choice B confuses with 1/r dependence, choices C and D show misunderstanding of inverse relationships."
+    "explanation": "The Biot-Savart law shows dB ∝ 1/$r^2$, so doubling the distance reduces the field by a factor of 4. Choice B confuses with 1/r dependence, choices C and D show misunderstanding of inverse relationships."
   },
   {
     "id": "physc_u11_q469",
@@ -10757,13 +10757,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A long straight wire carries 8.0 A of current. Using Ampere's law, what is the magnetic field at a distance of 0.040 m from the wire?",
     "choices": [
-      "A) 4.0 × 10⁻⁵ T",
-      "B) 8.0 × 10⁻⁵ T",
-      "C) 1.6 × 10⁻⁴ T",
-      "D) 3.2 × 10⁻⁴ T"
+      "A) 4.0 $\\times$ 10⁻⁵ T",
+      "B) 8.0 $\\times$ 10⁻⁵ T",
+      "C) 1.6 $\\times$ 10⁻⁴ T",
+      "D) 3.2 $\\times$ 10⁻⁴ T"
     ],
     "answer": 0,
-    "explanation": "Using Ampere's law: B = μ₀I/(2πr) = (4π × 10⁻⁷)(8.0)/(2π × 0.040) = 4.0 × 10⁻⁵ T. Choice B omits the factor of 2, choice C uses diameter instead of radius, choice D doubles choice C."
+    "explanation": "Using Ampere's law: B = $\\mu$₀I/(2πr) = (4π $\\times$ 10⁻⁷)(8.0)/(2π × 0.040) = 4.0 $\\times$ 10⁻⁵ T. Choice B omits the factor of 2, choice C uses diameter instead of radius, choice D doubles choice C."
   },
   {
     "id": "physc_u11_q470",
@@ -10797,13 +10797,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A solenoid has 500 turns over a length of 0.25 m and carries a current of 2.0 A. What is the magnetic field inside the solenoid?",
     "choices": [
-      "A) 5.0 × 10⁻³ T",
-      "B) 1.0 × 10⁻² T",
-      "C) 2.5 × 10⁻² T",
-      "D) 5.0 × 10⁻² T"
+      "A) 5.0 $\\times$ 10⁻³ T",
+      "B) 1.0 $\\times$ 10⁻² T",
+      "C) 2.5 $\\times$ 10⁻² T",
+      "D) 5.0 $\\times$ 10⁻² T"
     ],
     "answer": 0,
-    "explanation": "B = μ₀nI where n = N/L = 500/0.25 = 2000 turns/m. B = (4π × 10⁻⁷)(2000)(2.0) = 5.0 × 10⁻³ T. Choice B doubles this, choice C uses wrong length calculation, choice D uses total turns instead of turns per unit length."
+    "explanation": "B = $\\mu$₀nI where n = N/L = 500/0.25 = 2000 turns/m. B = (4π $\\times$ 10⁻⁷)(2000)(2.0) = 5.0 $\\times$ 10⁻³ T. Choice B doubles this, choice C uses wrong length calculation, choice D uses total turns instead of turns per unit length."
   },
   {
     "id": "physc_u11_q472",
@@ -10815,15 +10815,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "An electron moves in a circular path of radius 0.020 m in a uniform magnetic field of 1.5 × 10⁻³ T. What is the speed of the electron?",
+    "question": "An electron moves in a circular path of radius 0.020 m in a uniform magnetic field of 1.5 $\\times$ 10⁻³ T. What is the speed of the electron?",
     "choices": [
-      "A) 5.3 × 10⁶ m/s",
-      "B) 1.1 × 10⁷ m/s",
-      "C) 2.6 × 10⁶ m/s",
-      "D) 1.8 × 10⁷ m/s"
+      "A) 5.3 $\\times$ 10⁶ m/s",
+      "B) 1.1 $\\times$ 10⁷ m/s",
+      "C) 2.6 $\\times$ 10⁶ m/s",
+      "D) 1.8 $\\times$ 10⁷ m/s"
     ],
     "answer": 0,
-    "explanation": "For circular motion: qvB = mv²/r, so v = qBr/m = (1.6 × 10⁻¹⁹)(1.5 × 10⁻³)(0.020)/(9.1 × 10⁻³¹) = 5.3 × 10⁶ m/s. Choice B doubles the result, choice C halves it, choice D uses incorrect mass."
+    "explanation": "For circular motion: qvB = m$v^2$/r, so v = qBr/m = (1.6 $\\times$ 10⁻¹⁹)(1.5 $\\times$ 10⁻³)(0.020)/(9.1 $\\times$ 10⁻³¹) = 5.3 $\\times$ 10⁶ m/s. Choice B doubles the result, choice C halves it, choice D uses incorrect mass."
   },
   {
     "id": "physc_u11_q473",
@@ -10843,7 +10843,7 @@ window.PHYSC_MCQ = [
       "D) 4.6 N⋅m"
     ],
     "answer": 2,
-    "explanation": "τ = NIAB sin θ = (10)(3.0)(π × 0.15²)(0.80)(sin 60°) = 2.7 N⋅m. Choice A uses sin 30°, choice B omits the π in area calculation, choice D uses cos 60° instead of sin 60°."
+    "explanation": "τ = NIAB sin θ = (10)(3.0)(π × 0.1$5^2$)(0.80)(sin 60°) = 2.7 N⋅m. Choice A uses sin 30°, choice B omits the π in area calculation, choice D uses cos 60° instead of sin 60°."
   },
   {
     "id": "physc_u11_q474",
@@ -10857,13 +10857,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A straight wire segment of length 0.50 m carries 6.0 A of current. Using the Biot-Savart law, the magnetic field at a point 0.30 m away from the center of the wire, perpendicular to it, is approximately:",
     "choices": [
-      "A) 2.0 × 10⁻⁶ T",
-      "B) 6.7 × 10⁻⁶ T",
-      "C) 1.0 × 10⁻⁵ T",
-      "D) 4.0 × 10⁻⁶ T"
+      "A) 2.0 $\\times$ 10⁻⁶ T",
+      "B) 6.7 $\\times$ 10⁻⁶ T",
+      "C) 1.0 $\\times$ 10⁻⁵ T",
+      "D) 4.0 $\\times$ 10⁻⁶ T"
     ],
     "answer": 1,
-    "explanation": "For a finite straight wire: B = (μ₀I/4πr) × [L/√(r² + (L/2)²)] = (10⁻⁷ × 6.0/0.30) × [0.50/√(0.09 + 0.0625)] ≈ 6.7 × 10⁻⁶ T. Other choices use approximations for infinite wire or incorrect geometry."
+    "explanation": "For a finite straight wire: B = ($\\mu$₀I/4πr) × [L/√($r^2$ + (L/2)²)] = (10⁻⁷ × 6.0/0.30) × [0.50/√(0.09 + 0.0625)] $\\approx$ 6.7 $\\times$ 10⁻⁶ T. Other choices use approximations for infinite wire or incorrect geometry."
   },
   {
     "id": "physc_u11_q475",
@@ -10877,13 +10877,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "An Amperian loop encloses three wires carrying currents of +5.0 A, -3.0 A, and +2.0 A respectively. What is the value of ∮B⋅dl around this loop?",
     "choices": [
-      "A) 5.0 × 10⁻⁶ T⋅m",
-      "B) 1.3 × 10⁻⁵ T⋅m",
-      "C) 2.5 × 10⁻⁶ T⋅m",
+      "A) 5.0 $\\times$ 10⁻⁶ T⋅m",
+      "B) 1.3 $\\times$ 10⁻⁵ T⋅m",
+      "C) 2.5 $\\times$ 10⁻⁶ T⋅m",
       "D) 0 T⋅m"
     ],
     "answer": 0,
-    "explanation": "∮B⋅dl = μ₀Ienc = μ₀(5.0 - 3.0 + 2.0) = 4π × 10⁻⁷ × 4.0 = 5.0 × 10⁻⁶ T⋅m. Choice B uses total current magnitude, choice C uses only net positive current, choice D assumes currents cancel completely."
+    "explanation": "∮B⋅dl = $\\mu$₀Ienc = $\\mu$₀(5.0 - 3.0 + 2.0) = 4π $\\times$ 10⁻⁷ × 4.0 = 5.0 $\\times$ 10⁻⁶ T⋅m. Choice B uses total current magnitude, choice C uses only net positive current, choice D assumes currents cancel completely."
   },
   {
     "id": "physc_u11_q476",
@@ -10903,7 +10903,7 @@ window.PHYSC_MCQ = [
       "D) Quadruples"
     ],
     "answer": 0,
-    "explanation": "B = μ₀nI, so if n → n/2 and I → 2I, then B → μ₀(n/2)(2I) = μ₀nI, unchanged. Choice B considers only current doubling, choice C considers only turn density halving, choice D multiplies both effects incorrectly."
+    "explanation": "B = $\\mu$₀nI, so if n → n/2 and I → 2I, then B → $\\mu$₀(n/2)(2I) = $\\mu$₀nI, unchanged. Choice B considers only current doubling, choice C considers only turn density halving, choice D multiplies both effects incorrectly."
   },
   {
     "id": "physc_u11_q477",
@@ -10935,15 +10935,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A horizontal wire carries 8.0 A eastward through Earth's magnetic field (5.0 × 10⁻⁵ T northward). The magnetic force per meter on the wire is:",
+    "question": "A horizontal wire carries 8.0 A eastward through Earth's magnetic field (5.0 $\\times$ 10⁻⁵ T northward). The magnetic force per meter on the wire is:",
     "choices": [
-      "A) 4.0 × 10⁻⁴ N/m upward",
-      "B) 4.0 × 10⁻⁴ N/m downward",
-      "C) 4.0 × 10⁻⁴ N/m northward",
-      "D) 4.0 × 10⁻⁴ N/m southward"
+      "A) 4.0 $\\times$ 10⁻⁴ N/m upward",
+      "B) 4.0 $\\times$ 10⁻⁴ N/m downward",
+      "C) 4.0 $\\times$ 10⁻⁴ N/m northward",
+      "D) 4.0 $\\times$ 10⁻⁴ N/m southward"
     ],
     "answer": 1,
-    "explanation": "Using F = IL × B and right-hand rule: current east, field north gives force downward. |F|/L = IB = (8.0)(5.0 × 10⁻⁵) = 4.0 × 10⁻⁴ N/m. Choice A has wrong direction, choices C and D confuse force direction with field or current direction."
+    "explanation": "Using F = IL × B and right-hand rule: current east, field north gives force downward. |F|/L = IB = (8.0)(5.0 $\\times$ 10⁻⁵) = 4.0 $\\times$ 10⁻⁴ N/m. Choice A has wrong direction, choices C and D confuse force direction with field or current direction."
   },
   {
     "id": "physc_u11_q479",
@@ -10983,7 +10983,7 @@ window.PHYSC_MCQ = [
       "D) 1:4"
     ],
     "answer": 0,
-    "explanation": "Biot-Savart law: dB ∝ 1/r². If one element is at distance r and the other at 2r, the field ratio is (1/r²):(1/(2r)²) = 1:(1/4) = 4:1. Choice B uses 1/r dependence, choices C and D invert the correct ratio."
+    "explanation": "Biot-Savart law: dB ∝ 1/$r^2$. If one element is at distance r and the other at 2r, the field ratio is (1/$r^2$):(1/(2r)²) = 1:(1/4) = 4:1. Choice B uses 1/r dependence, choices C and D invert the correct ratio."
   },
   {
     "id": "physc_u11_q481",
@@ -10997,13 +10997,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A toroidal coil has 200 turns and carries 4.0 A. The magnetic field at a radius of 0.10 m inside the toroid is:",
     "choices": [
-      "A) 1.6 × 10⁻³ T",
-      "B) 3.2 × 10⁻³ T",
-      "C) 8.0 × 10⁻⁴ T",
+      "A) 1.6 $\\times$ 10⁻³ T",
+      "B) 3.2 $\\times$ 10⁻³ T",
+      "C) 8.0 $\\times$ 10⁻⁴ T",
       "D) 0 T"
     ],
     "answer": 0,
-    "explanation": "For a toroidal coil: B = μ₀NI/(2πr) = (4π × 10⁻⁷ × 200 × 4.0)/(2π × 0.10) = 1.6 × 10⁻³ T. Choice B omits the factor of 2, choice C uses incorrect formula for straight solenoid, choice D incorrectly assumes field cancellation."
+    "explanation": "For a toroidal coil: B = $\\mu$₀NI/(2πr) = (4π $\\times$ 10⁻⁷ × 200 × 4.0)/(2π × 0.10) = 1.6 $\\times$ 10⁻³ T. Choice B omits the factor of 2, choice C uses incorrect formula for straight solenoid, choice D incorrectly assumes field cancellation."
   },
   {
     "id": "physc_u11_q482",
@@ -11023,7 +11023,7 @@ window.PHYSC_MCQ = [
       "D) Remains the same"
     ],
     "answer": 0,
-    "explanation": "At the center of a circular loop: B = μ₀I/(2R). When R doubles, B becomes μ₀I/(4R), which is half the original value. Choice B inverts the relationship, choice C uses R² dependence incorrectly, choice D ignores the radius dependence."
+    "explanation": "At the center of a circular loop: B = $\\mu$₀I/(2R). When R doubles, B becomes $\\mu$₀I/(4R), which is half the original value. Choice B inverts the relationship, choice C uses $R^2$ dependence incorrectly, choice D ignores the radius dependence."
   },
   {
     "id": "physc_u11_q483",
@@ -11043,7 +11043,7 @@ window.PHYSC_MCQ = [
       "D) Decreases by a factor of √2"
     ],
     "answer": 1,
-    "explanation": "The radius of circular motion is r = mv/(qB). When kinetic energy doubles, KE = ½mv² doubles, so v increases by √2. Since r ∝ v, the radius increases by √2. Choice A assumes direct proportionality to energy. Choice C incorrectly thinks energy doesn't affect radius. Choice D confuses with inverse relationship."
+    "explanation": "The radius of circular motion is r = mv/(qB). When kinetic energy doubles, KE = $\\frac{1}{2}$m$v^2$ doubles, so v increases by √2. Since r ∝ v, the radius increases by √2. Choice A assumes direct proportionality to energy. Choice C incorrectly thinks energy doesn't affect radius. Choice D confuses with inverse relationship."
   },
   {
     "id": "physc_u11_q484",
@@ -11075,7 +11075,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A rectangular current loop with magnetic dipole moment μ is placed in a uniform magnetic field B. The loop experiences maximum torque when the angle between μ and B is:",
+    "question": "A rectangular current loop with magnetic dipole moment $\\mu$ is placed in a uniform magnetic field B. The loop experiences maximum torque when the angle between $\\mu$ and B is:",
     "choices": [
       "A) 0°",
       "B) 30°",
@@ -11083,7 +11083,7 @@ window.PHYSC_MCQ = [
       "D) 180°"
     ],
     "answer": 2,
-    "explanation": "Torque on a magnetic dipole is τ = μ × B = μB sin(θ), where θ is the angle between μ and B. Maximum torque occurs when sin(θ) = 1, which happens at θ = 90°. Choice A and D give zero torque (sin(0°) = sin(180°) = 0). Choice B gives intermediate torque value."
+    "explanation": "Torque on a magnetic dipole is τ = $\\mu$ × B = $\\mu$B sin(θ), where θ is the angle between $\\mu$ and B. Maximum torque occurs when sin(θ) = 1, which happens at θ = 90°. Choice A and D give zero torque (sin(0°) = sin(180°) = 0). Choice B gives intermediate torque value."
   },
   {
     "id": "physc_u11_q486",
@@ -11103,7 +11103,7 @@ window.PHYSC_MCQ = [
       "D) Remains the same"
     ],
     "answer": 1,
-    "explanation": "The Biot-Savart law states dB ∝ 1/r², so when distance doubles, the magnetic field decreases by a factor of 2² = 4. Choice A confuses with inverse linear relationship. Choice C incorrectly applies inverse cube relationship. Choice D ignores distance dependence entirely."
+    "explanation": "The Biot-Savart law states dB ∝ 1/$r^2$, so when distance doubles, the magnetic field decreases by a factor of $2^2$ = 4. Choice A confuses with inverse linear relationship. Choice C incorrectly applies inverse cube relationship. Choice D ignores distance dependence entirely."
   },
   {
     "id": "physc_u11_q487",
@@ -11117,13 +11117,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A long straight wire carries current I. Using Ampere's law with a circular path of radius r centered on the wire, what is the magnetic field at distance r from the wire?",
     "choices": [
-      "A) μ₀I/(4πr)",
-      "B) μ₀I/(2πr)",
-      "C) μ₀Ir/(2π)",
-      "D) μ₀I/(πr²)"
+      "A) $\\mu$₀I/(4πr)",
+      "B) $\\mu$₀I/(2πr)",
+      "C) $\\mu$₀Ir/(2π)",
+      "D) $\\mu$₀I/(π$r^2$)"
     ],
     "answer": 1,
-    "explanation": "Applying Ampere's law: ∮B·dl = μ₀I_enclosed. For circular symmetry, B(2πr) = μ₀I, so B = μ₀I/(2πr). Choice A has incorrect factor of 4π (confusion with point charges). Choice C has r in numerator instead of denominator. Choice D has r² dependence like electric field."
+    "explanation": "Applying Ampere's law: ∮B·dl = $\\mu$₀I_enclosed. For circular symmetry, B(2πr) = $\\mu$₀I, so B = $\\mu$₀I/(2πr). Choice A has incorrect factor of 4π (confusion with point charges). Choice C has r in numerator instead of denominator. Choice D has $r^2$ dependence like electric field."
   },
   {
     "id": "physc_u11_q488",
@@ -11163,7 +11163,7 @@ window.PHYSC_MCQ = [
       "D) Remains the same"
     ],
     "answer": 2,
-    "explanation": "The magnetic field inside a solenoid is B = μ₀nI. When both n and I are doubled, B becomes μ₀(2n)(2I) = 4μ₀nI, which is four times the original field. Choice A considers only one doubling. Choice B has no physical basis. Choice D incorrectly assumes the changes cancel out."
+    "explanation": "The magnetic field inside a solenoid is B = $\\mu$₀nI. When both n and I are doubled, B becomes $\\mu$₀(2n)(2I) = 4$\\mu$₀nI, which is four times the original field. Choice A considers only one doubling. Choice B has no physical basis. Choice D incorrectly assumes the changes cancel out."
   },
   {
     "id": "physc_u11_q490",
@@ -11197,13 +11197,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "Two identical parallel wires separated by distance d carry equal currents I in opposite directions. The force per unit length on each wire is:",
     "choices": [
-      "A) Attractive with magnitude μ₀I²/(2πd)",
-      "B) Repulsive with magnitude μ₀I²/(2πd)",
-      "C) Attractive with magnitude μ₀I²/(4πd)",
+      "A) Attractive with magnitude $\\mu$₀$I^2$/(2πd)",
+      "B) Repulsive with magnitude $\\mu$₀$I^2$/(2πd)",
+      "C) Attractive with magnitude $\\mu$₀$I^2$/(4πd)",
       "D) Zero because currents are equal"
     ],
     "answer": 1,
-    "explanation": "The magnetic field from one wire at distance d is B = μ₀I/(2πd). The force per unit length on the second wire is F/L = BI = μ₀I²/(2πd). Opposite currents repel by Lenz's law. Choice A has correct magnitude but wrong direction. Choice C has incorrect factor. Choice D ignores the interaction between opposite currents."
+    "explanation": "The magnetic field from one wire at distance d is B = $\\mu$₀I/(2πd). The force per unit length on the second wire is F/L = BI = $\\mu$₀$I^2$/(2πd). Opposite currents repel by Lenz's law. Choice A has correct magnitude but wrong direction. Choice C has incorrect factor. Choice D ignores the interaction between opposite currents."
   },
   {
     "id": "physc_u11_q492",
@@ -11237,13 +11237,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "Three long parallel wires each carry current I in the same direction. They are arranged at the vertices of an equilateral triangle. Using Ampere's law around a path enclosing all three wires, the line integral ∮B·dl equals:",
     "choices": [
-      "A) μ₀I",
-      "B) 2μ₀I",
-      "C) 3μ₀I",
+      "A) $\\mu$₀I",
+      "B) 2$\\mu$₀I",
+      "C) 3$\\mu$₀I",
       "D) Zero"
     ],
     "answer": 2,
-    "explanation": "Ampere's law states ∮B·dl = μ₀I_enclosed. The enclosed current is the algebraic sum of currents: I + I + I = 3I (all in same direction). Therefore ∮B·dl = 3μ₀I. Choice A counts only one wire. Choice B miscounts as two wires. Choice D incorrectly assumes currents cancel."
+    "explanation": "Ampere's law states ∮B·dl = $\\mu$₀I_enclosed. The enclosed current is the algebraic sum of currents: I + I + I = 3I (all in same direction). Therefore ∮B·dl = 3$\\mu$₀I. Choice A counts only one wire. Choice B miscounts as two wires. Choice D incorrectly assumes currents cancel."
   },
   {
     "id": "physc_u11_q494",
@@ -11263,7 +11263,7 @@ window.PHYSC_MCQ = [
       "D) Along the bisector toward the other two wires"
     ],
     "answer": 0,
-    "explanation": "The force between parallel wires is F = μ₀I₁I₂L/(2πd). Wire 1 (3A) creates attractive force of magnitude μ₀(3)(4)L/(2πd) on wire 3. Wire 2 (2A) creates repulsive force of magnitude μ₀(2)(4)L/(2πd) on wire 3. Since currents are opposite, one attracts and one repels. The attractive force is larger, so net force is toward wire 1. Students often forget that opposite currents repel while like currents attract."
+    "explanation": "The force between parallel wires is F = $\\mu$₀I₁I₂L/(2πd). Wire 1 (3A) creates attractive force of magnitude $\\mu$₀(3)(4)L/(2πd) on wire 3. Wire 2 (2A) creates repulsive force of magnitude $\\mu$₀(2)(4)L/(2πd) on wire 3. Since currents are opposite, one attracts and one repels. The attractive force is larger, so net force is toward wire 1. Students often forget that opposite currents repel while like currents attract."
   },
   {
     "id": "physc_u11_q495",
@@ -11297,13 +11297,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A finite solenoid of length L and radius R has n turns per unit length carrying current I. What is the magnetic field at the center when L >> R?",
     "choices": [
-      "A) B = μ₀nI",
-      "B) B = μ₀nI/2",
-      "C) B = μ₀nIL/√(L²+R²)",
-      "D) B = μ₀nI√(L²+4R²)/(2L)"
+      "A) B = $\\mu$₀nI",
+      "B) B = $\\mu$₀nI/2",
+      "C) B = $\\mu$₀nIL/√($L^2$+$R^2$)",
+      "D) B = $\\mu$₀nI√($L^2$+4$R^2$)/(2L)"
     ],
     "answer": 0,
-    "explanation": "For a finite solenoid, B = (μ₀nI/2)[cos(θ₁) - cos(θ₂)] where θ₁ and θ₂ are angles from the center to the ends. When L >> R, the angles approach 0° and 180°, so cos(θ₁) ≈ 1 and cos(θ₂) ≈ -1, giving B = μ₀nI. Choice B is for semi-infinite solenoid, C has wrong geometric factor, D is completely incorrect."
+    "explanation": "For a finite solenoid, B = ($\\mu$₀nI/2)[cos(θ₁) - cos(θ₂)] where θ₁ and θ₂ are angles from the center to the ends. When L >> R, the angles approach 0° and 180°, so cos(θ₁) $\\approx$ 1 and cos(θ₂) $\\approx$ -1, giving B = $\\mu$₀nI. Choice B is for semi-infinite solenoid, C has wrong geometric factor, D is completely incorrect."
   },
   {
     "id": "physc_u11_q497",
@@ -11317,13 +11317,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A solenoid with n turns per unit length and radius R carries current I. A second solenoid with 2n turns per unit length and radius R/2 is placed coaxially inside the first. If currents flow in opposite directions, what is the field in the inner region?",
     "choices": [
-      "A) B = μ₀nI",
-      "B) B = -μ₀nI",
-      "C) B = 3μ₀nI",
-      "D) B = -3μ₀nI"
+      "A) B = $\\mu$₀nI",
+      "B) B = -$\\mu$₀nI",
+      "C) B = 3$\\mu$₀nI",
+      "D) B = -3$\\mu$₀nI"
     ],
     "answer": 1,
-    "explanation": "Inside both solenoids, the fields superpose. The outer solenoid creates field B₁ = μ₀nI. The inner solenoid creates field B₂ = μ₀(2n)I = 2μ₀nI. Since currents are in opposite directions, the fields oppose: B_net = B₁ - B₂ = μ₀nI - 2μ₀nI = -μ₀nI. Choice A ignores the inner solenoid, C and D have sign or magnitude errors."
+    "explanation": "Inside both solenoids, the fields superpose. The outer solenoid creates field B₁ = $\\mu$₀nI. The inner solenoid creates field B₂ = $\\mu$₀(2n)I = 2$\\mu$₀nI. Since currents are in opposite directions, the fields oppose: B_net = B₁ - B₂ = $\\mu$₀nI - 2$\\mu$₀nI = -$\\mu$₀nI. Choice A ignores the inner solenoid, C and D have sign or magnitude errors."
   },
   {
     "id": "physc_u11_q498",
@@ -11357,13 +11357,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "Two identical circular current loops of radius R carrying current I are perpendicular to each other and share a common diameter. What is the magnetic field at the center?",
     "choices": [
-      "A) B = μ₀I√2/(2R)",
-      "B) B = μ₀I/(2R)",
-      "C) B = μ₀I/(R)",
-      "D) B = μ₀I√2/R"
+      "A) B = $\\mu$₀I√2/(2R)",
+      "B) B = $\\mu$₀I/(2R)",
+      "C) B = $\\mu$₀I/(R)",
+      "D) B = $\\mu$₀I√2/R"
     ],
     "answer": 0,
-    "explanation": "Each loop creates field B₁ = μ₀I/(2R) at the center along its axis. Since loops are perpendicular, their field vectors are perpendicular. The total field is B = √(B₁² + B₁²) = B₁√2 = μ₀I√2/(2R). Choice B gives field from one loop only, C is double the single loop value, D has wrong factor and missing denominator 2."
+    "explanation": "Each loop creates field B₁ = $\\mu$₀I/(2R) at the center along its axis. Since loops are perpendicular, their field vectors are perpendicular. The total field is B = √(B₁² + B₁²) = B₁√2 = $\\mu$₀I√2/(2R). Choice B gives field from one loop only, C is double the single loop value, D has wrong factor and missing denominator 2."
   },
   {
     "id": "physc_u11_q500",
@@ -11377,13 +11377,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "An infinite current sheet carries surface current density K = K₀ĵ. A second parallel sheet at distance d carries K = -K₀ĵ. What is the magnetic field between the sheets?",
     "choices": [
-      "A) B = μ₀K₀î",
-      "B) B = μ₀K₀k̂",
-      "C) B = 2μ₀K₀k̂",
+      "A) B = $\\mu$₀K₀î",
+      "B) B = $\\mu$₀K₀k̂",
+      "C) B = 2$\\mu$₀K₀k̂",
       "D) B = 0"
     ],
     "answer": 1,
-    "explanation": "Each current sheet creates field B = μ₀K/2. For sheet with K₀ĵ, using right-hand rule, B₁ = (μ₀K₀/2)k̂ on one side and -(μ₀K₀/2)k̂ on the other. For sheet with -K₀ĵ, B₂ = -(μ₀K₀/2)k̂ on one side and (μ₀K₀/2)k̂ on the other. Between sheets, both contribute in same direction: B = μ₀K₀k̂. Choice A has wrong direction, C double-counts, D assumes cancellation."
+    "explanation": "Each current sheet creates field B = $\\mu$₀K/2. For sheet with K₀ĵ, using right-hand rule, B₁ = ($\\mu$₀K₀/2)k̂ on one side and -($\\mu$₀K₀/2)k̂ on the other. For sheet with -K₀ĵ, B₂ = -($\\mu$₀K₀/2)k̂ on one side and ($\\mu$₀K₀/2)k̂ on the other. Between sheets, both contribute in same direction: B = $\\mu$₀K₀k̂. Choice A has wrong direction, C double-counts, D assumes cancellation."
   },
   {
     "id": "physc_u11_q501",
@@ -11397,13 +11397,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A long solenoid with n turns per unit length carries current I. A circular loop of wire with radius R and resistance r is placed coaxially inside the solenoid, with the loop's plane perpendicular to the solenoid's axis. If the current in the solenoid decreases at a constant rate dI/dt = -k (where k > 0), what is the magnitude of the induced current in the loop?",
     "choices": [
-      "A) μ₀nkπR²/r",
-      "B) μ₀nkR/r",
-      "C) μ₀nkπR/r",
-      "D) μ₀nk/r"
+      "A) $\\mu$₀nkπ$R^2$/r",
+      "B) $\\mu$₀nkR/r",
+      "C) $\\mu$₀nkπR/r",
+      "D) $\\mu$₀nk/r"
     ],
     "answer": 0,
-    "explanation": "The magnetic field inside a long solenoid is B = μ₀nI. The magnetic flux through the circular loop is Φ = BA = μ₀nI(πR²). By Faraday's law, the induced EMF is |ε| = |dΦ/dt| = μ₀nπR²|dI/dt| = μ₀nπR²k. The induced current is then I_induced = ε/r = μ₀nkπR²/r. Choice B incorrectly omits the π factor and uses R instead of R². Choice C incorrectly uses R instead of R². Choice D incorrectly omits both the π and R² factors, representing the misconception that the area doesn't matter for flux."
+    "explanation": "The magnetic field inside a long solenoid is B = $\\mu$₀nI. The magnetic flux through the circular loop is Φ = BA = $\\mu$₀nI(π$R^2$). By Faraday's law, the induced EMF is |ε| = |dΦ/dt| = $\\mu$₀nπ$R^2$|dI/dt| = $\\mu$₀nπ$R^2$k. The induced current is then I_induced = ε/r = $\\mu$₀nkπ$R^2$/r. Choice B incorrectly omits the π factor and uses R instead of $R^2$. Choice C incorrectly uses R instead of $R^2$. Choice D incorrectly omits both the π and $R^2$ factors, representing the misconception that the area doesn't matter for flux."
   },
   {
     "id": "physc_u12_q502",
@@ -11537,13 +11537,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "The energy stored in an inductor is given by:",
     "choices": [
-      "A) U = (1/2)LI²",
+      "A) U = (1/2)L$I^2$",
       "B) U = LI",
-      "C) U = (1/2)CV²",
-      "D) U = LI²"
+      "C) U = (1/2)C$V^2$",
+      "D) U = L$I^2$"
     ],
     "answer": 0,
-    "explanation": "Energy in inductor is U = (1/2)LI², analogous to kinetic energy formula. Choice C is for capacitors. Choices B and D lack the correct 1/2 factor or have wrong dependence on current."
+    "explanation": "Energy in inductor is U = (1/2)L$I^2$, analogous to kinetic energy formula. Choice C is for capacitors. Choices B and D lack the correct 1/2 factor or have wrong dependence on current."
   },
   {
     "id": "physc_u12_q509",
@@ -11600,7 +11600,7 @@ window.PHYSC_MCQ = [
       "A) EMF = BLv",
       "B) EMF = BL/v",
       "C) EMF = Bv/L",
-      "D) EMF = BL²v"
+      "D) EMF = B$L^2$v"
     ],
     "answer": 0,
     "explanation": "Motional EMF = BLv for perpendicular motion. This comes from the magnetic force on charges in the moving conductor. Other choices have incorrect mathematical relationships between the variables."
@@ -11637,13 +11637,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A circular loop of radius 0.10 m is placed in a uniform magnetic field of 0.50 T. The field makes an angle of 60° with the normal to the loop. What is the magnetic flux through the loop?",
     "choices": [
-      "A) 7.9 × 10⁻³ Wb",
-      "B) 1.4 × 10⁻² Wb",
-      "C) 1.6 × 10⁻² Wb",
-      "D) 2.7 × 10⁻² Wb"
+      "A) 7.9 $\\times$ 10⁻³ Wb",
+      "B) 1.4 $\\times$ 10⁻² Wb",
+      "C) 1.6 $\\times$ 10⁻² Wb",
+      "D) 2.7 $\\times$ 10⁻² Wb"
     ],
     "answer": 0,
-    "explanation": "Magnetic flux Φ = BA cos θ = (0.50)(π)(0.10)² cos(60°) = (0.50)(π)(0.01)(0.5) = 7.9 × 10⁻³ Wb. Choice B uses cos(30°) instead of cos(60°). Choice C forgets the cosine factor. Choice D uses the full area without the cosine factor."
+    "explanation": "Magnetic flux Φ = BA cos θ = (0.50)(π)(0.10)² cos(60°) = (0.50)(π)(0.01)(0.5) = 7.9 $\\times$ 10⁻³ Wb. Choice B uses cos(30°) instead of cos(60°). Choice C forgets the cosine factor. Choice D uses the full area without the cosine factor."
   },
   {
     "id": "physc_u12_q514",
@@ -11655,7 +11655,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A magnetic field perpendicular to a 100-turn coil increases uniformly from 0.20 T to 0.80 T in 0.50 s. If the coil has an area of 0.040 m², what is the magnitude of the induced EMF?",
+    "question": "A magnetic field perpendicular to a 100-turn coil increases uniformly from 0.20 T to 0.80 T in 0.50 s. If the coil has an area of 0.040 $m^2$, what is the magnitude of the induced EMF?",
     "choices": [
       "A) 4.8 V",
       "B) 8.0 V",
@@ -11715,15 +11715,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A solenoid has 500 turns, length 0.20 m, and cross-sectional area 4.0 × 10⁻⁴ m². What is its self-inductance? (μ₀ = 4π × 10⁻⁷ H/m)",
+    "question": "A solenoid has 500 turns, length 0.20 m, and cross-sectional area 4.0 $\\times$ 10⁻⁴ $m^2$. What is its self-inductance? ($\\mu$₀ = 4π $\\times$ 10⁻⁷ H/m)",
     "choices": [
-      "A) 6.3 × 10⁻⁴ H",
-      "B) 1.3 × 10⁻³ H",
-      "C) 2.5 × 10⁻³ H",
-      "D) 5.0 × 10⁻³ H"
+      "A) 6.3 $\\times$ 10⁻⁴ H",
+      "B) 1.3 $\\times$ 10⁻³ H",
+      "C) 2.5 $\\times$ 10⁻³ H",
+      "D) 5.0 $\\times$ 10⁻³ H"
     ],
     "answer": 0,
-    "explanation": "For a solenoid: L = μ₀n²Al = μ₀(N²/l)A = (4π × 10⁻⁷)(500²/0.20)(4.0 × 10⁻⁴) = (4π × 10⁻⁷)(1.25 × 10⁶)(4.0 × 10⁻⁴) = 6.3 × 10⁻⁴ H. Choice B uses N instead of N². Choice C uses l instead of 1/l. Choice D uses N instead of N² and l instead of 1/l."
+    "explanation": "For a solenoid: L = $\\mu$₀$n^2$Al = $\\mu$₀($N^2$/l)A = (4π $\\times$ 10⁻⁷)(50$0^2$/0.20)(4.0 $\\times$ 10⁻⁴) = (4π $\\times$ 10⁻⁷)(1.25 $\\times$ 10⁶)(4.0 $\\times$ 10⁻⁴) = 6.3 $\\times$ 10⁻⁴ H. Choice B uses N instead of $N^2$. Choice C uses l instead of 1/l. Choice D uses N instead of $N^2$ and l instead of 1/l."
   },
   {
     "id": "physc_u12_q518",
@@ -11763,7 +11763,7 @@ window.PHYSC_MCQ = [
       "D) 36 J"
     ],
     "answer": 0,
-    "explanation": "The energy stored in an inductor is U = ½LI² = ½(2.0)(3.0)² = ½(2.0)(9.0) = 9.0 J. Choice B uses U = LI without the ½ factor. Choice C uses U = LI². Choice D uses U = 2LI²."
+    "explanation": "The energy stored in an inductor is U = $\\frac{1}{2}$L$I^2$ = $\\frac{1}{2}$(2.0)(3.0)² = $\\frac{1}{2}$(2.0)(9.0) = 9.0 J. Choice B uses U = LI without the $\\frac{1}{2}$ factor. Choice C uses U = L$I^2$. Choice D uses U = 2L$I^2$."
   },
   {
     "id": "physc_u12_q520",
@@ -11777,13 +11777,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A square loop with side length 0.15 m rotates about an axis through its center, perpendicular to a uniform 0.80 T magnetic field. When the loop makes a 45° angle with the field, what is the magnetic flux through it?",
     "choices": [
-      "A) 1.3 × 10⁻² Wb",
-      "B) 1.6 × 10⁻² Wb",
-      "C) 1.8 × 10⁻² Wb",
-      "D) 2.3 × 10⁻² Wb"
+      "A) 1.3 $\\times$ 10⁻² Wb",
+      "B) 1.6 $\\times$ 10⁻² Wb",
+      "C) 1.8 $\\times$ 10⁻² Wb",
+      "D) 2.3 $\\times$ 10⁻² Wb"
     ],
     "answer": 0,
-    "explanation": "Flux Φ = BA cos θ = (0.80)(0.15)²cos(45°) = (0.80)(0.0225)(0.707) = 1.3 × 10⁻² Wb. Choice B uses cos(30°). Choice C forgets the cosine factor. Choice D uses sin(45°) instead of cos(45°)."
+    "explanation": "Flux Φ = BA cos θ = (0.80)(0.15)²cos(45°) = (0.80)(0.0225)(0.707) = 1.3 $\\times$ 10⁻² Wb. Choice B uses cos(30°). Choice C forgets the cosine factor. Choice D uses sin(45°) instead of cos(45°)."
   },
   {
     "id": "physc_u12_q521",
@@ -11883,7 +11883,7 @@ window.PHYSC_MCQ = [
       "D) 32 J"
     ],
     "answer": 0,
-    "explanation": "Energy stored: U = ½LI² = ½(0.50)(4.0)² = ½(0.50)(16) = 4.0 J. The time information is irrelevant for final energy. Choice B forgets the ½ factor. Choice C uses U = LI². Choice D uses U = 2LI²."
+    "explanation": "Energy stored: U = $\\frac{1}{2}$L$I^2$ = $\\frac{1}{2}$(0.50)(4.0)² = $\\frac{1}{2}$(0.50)(16) = 4.0 J. The time information is irrelevant for final energy. Choice B forgets the $\\frac{1}{2}$ factor. Choice C uses U = L$I^2$. Choice D uses U = 2L$I^2$."
   },
   {
     "id": "physc_u12_q526",
@@ -11895,7 +11895,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A coil with 200 turns and area 0.015 m² per turn is placed in a uniform magnetic field. If the total flux linkage through the coil is 0.60 Wb, what is the magnetic field strength?",
+    "question": "A coil with 200 turns and area 0.015 $m^2$ per turn is placed in a uniform magnetic field. If the total flux linkage through the coil is 0.60 Wb, what is the magnetic field strength?",
     "choices": [
       "A) 2.0 T",
       "B) 4.0 T",
@@ -11995,7 +11995,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "In an RL circuit with a 24 V source, R = 8.0 Ω, and L = 0.60 H, what is the current 0.075 s after the switch is closed? (e^(-1) ≈ 0.37)",
+    "question": "In an RL circuit with a 24 V source, R = 8.0 Ω, and L = 0.60 H, what is the current 0.075 s after the switch is closed? (e^(-1) $\\approx$ 0.37)",
     "choices": [
       "A) 1.9 A",
       "B) 2.2 A",
@@ -12015,7 +12015,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A solenoid with 500 turns and cross-sectional area 0.01 m² experiences a magnetic field that changes at a rate of 2.0 T/s. What is the magnitude of the induced EMF in the solenoid?",
+    "question": "A solenoid with 500 turns and cross-sectional area 0.01 $m^2$ experiences a magnetic field that changes at a rate of 2.0 T/s. What is the magnitude of the induced EMF in the solenoid?",
     "choices": [
       "A) 5.0 V",
       "B) 10 V",
@@ -12075,15 +12075,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A solenoid has 1000 turns, length 0.2 m, and cross-sectional area 0.001 m². What is its self-inductance? (μ₀ = 4π × 10⁻⁷ H/m)",
+    "question": "A solenoid has 1000 turns, length 0.2 m, and cross-sectional area 0.001 $m^2$. What is its self-inductance? ($\\mu$₀ = 4π $\\times$ 10⁻⁷ H/m)",
     "choices": [
-      "A) 3.14 × 10⁻³ H",
-      "B) 6.28 × 10⁻³ H",
-      "C) 1.57 × 10⁻² H",
-      "D) 3.14 × 10⁻² H"
+      "A) 3.14 $\\times$ 10⁻³ H",
+      "B) 6.28 $\\times$ 10⁻³ H",
+      "C) 1.57 $\\times$ 10⁻² H",
+      "D) 3.14 $\\times$ 10⁻² H"
     ],
     "answer": 0,
-    "explanation": "Self-inductance of a solenoid is L = μ₀N²A/l = (4π × 10⁻⁷)(1000)²(0.001)/(0.2) = 3.14 × 10⁻³ H. Students often make errors in the formula or forget to square the number of turns."
+    "explanation": "Self-inductance of a solenoid is L = $\\mu$₀$N^2$A/l = (4π $\\times$ 10⁻⁷)(1000)²(0.001)/(0.2) = 3.14 $\\times$ 10⁻³ H. Students often make errors in the formula or forget to square the number of turns."
   },
   {
     "id": "physc_u12_q536",
@@ -12123,7 +12123,7 @@ window.PHYSC_MCQ = [
       "D) 18 J"
     ],
     "answer": 2,
-    "explanation": "Energy stored in an inductor is U = ½LI² = ½(2.0)(3.0)² = ½(2.0)(9.0) = 9.0 J. Students often forget the ½ factor (choice D), use LI instead of LI² (choice B), or make other algebraic errors."
+    "explanation": "Energy stored in an inductor is U = $\\frac{1}{2}$L$I^2$ = $\\frac{1}{2}$(2.0)(3.0)² = $\\frac{1}{2}$(2.0)(9.0) = 9.0 J. Students often forget the $\\frac{1}{2}$ factor (choice D), use LI instead of L$I^2$ (choice B), or make other algebraic errors."
   },
   {
     "id": "physc_u12_q538",
@@ -12135,7 +12135,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A square loop with side length 0.1 m is placed in a magnetic field B = 0.05t² T (where t is in seconds). At t = 2 s, what is the magnitude of the induced EMF?",
+    "question": "A square loop with side length 0.1 m is placed in a magnetic field B = 0.05$t^2$ T (where t is in seconds). At t = 2 s, what is the magnitude of the induced EMF?",
     "choices": [
       "A) 0.001 V",
       "B) 0.002 V",
@@ -12143,7 +12143,7 @@ window.PHYSC_MCQ = [
       "D) 0.02 V"
     ],
     "answer": 1,
-    "explanation": "First find dB/dt = d(0.05t²)/dt = 0.1t. At t = 2s, dB/dt = 0.2 T/s. EMF = A(dB/dt) = (0.1)²(0.2) = 0.002 V. Students often forget to take the derivative or make errors in calculating the area."
+    "explanation": "First find dB/dt = d(0.05$t^2$)/dt = 0.1t. At t = 2s, dB/dt = 0.2 T/s. EMF = A(dB/dt) = (0.1)²(0.2) = 0.002 V. Students often forget to take the derivative or make errors in calculating the area."
   },
   {
     "id": "physc_u12_q539",
@@ -12255,7 +12255,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "A car starts from rest and accelerates uniformly at 3 m/s² for 4 seconds, then travels at constant velocity for 6 seconds. What is the total displacement of the car during this 10-second interval?",
+    "question": "A car starts from rest and accelerates uniformly at 3 $m/s^2$ for 4 seconds, then travels at constant velocity for 6 seconds. What is the total displacement of the car during this 10-second interval?",
     "choices": [
       "A) 24 m",
       "B) 96 m",
@@ -12263,7 +12263,7 @@ window.PHYSC_MCQ = [
       "D) 48 m"
     ],
     "answer": 1,
-    "explanation": "During the first 4 s: d₁ = ½(3)(4²) = 24 m, and the final speed is v = 3(4) = 12 m/s. During the next 6 s at constant 12 m/s: d₂ = 12(6) = 72 m. Total = 24 + 72 = 96 m. Choice A (24 m) only accounts for the acceleration phase. Choice C (72 m) only accounts for the constant velocity phase. Choice D (48 m) misapplies the average velocity to the entire interval."
+    "explanation": "During the first 4 s: d₁ = $\\frac{1}{2}$(3)($4^2$) = 24 m, and the final speed is v = 3(4) = 12 m/s. During the next 6 s at constant 12 m/s: d₂ = 12(6) = 72 m. Total = 24 + 72 = 96 m. Choice A (24 m) only accounts for the acceleration phase. Choice C (72 m) only accounts for the constant velocity phase. Choice D (48 m) misapplies the average velocity to the entire interval."
   },
   {
     "id": "physc_u1_q545",
@@ -12275,7 +12275,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "A ball is launched from ground level at an angle of 60° above the horizontal with an initial speed of 20 m/s. Using g = 10 m/s², what is the maximum height reached by the ball?",
+    "question": "A ball is launched from ground level at an angle of 60° above the horizontal with an initial speed of 20 m/s. Using g = 10 $m/s^2$, what is the maximum height reached by the ball?",
     "choices": [
       "A) 5 m",
       "B) 10 m",
@@ -12283,7 +12283,7 @@ window.PHYSC_MCQ = [
       "D) 20 m"
     ],
     "answer": 2,
-    "explanation": "The vertical component of initial velocity is v₀y = 20 sin60° = 20(√3/2) = 10√3 m/s. At maximum height, v_y = 0. Using v² = v₀y² - 2gh: 0 = (10√3)² - 2(10)h → h = 300/20 = 15 m. Choice A (5 m) results from using v₀y = 10 m/s (confusing sin60° with sin30°) and a calculation error. Choice B (10 m) comes from using v₀y = 10 m/s (using sin30° instead of sin60°). Choice D (20 m) comes from using the full initial speed (20 m/s) instead of only the vertical component."
+    "explanation": "The vertical component of initial velocity is v₀y = 20 sin60° = 20(√3/2) = 10√3 m/s. At maximum height, v_y = 0. Using $v^2$ = v₀$y^2$ - 2gh: 0 = (10√3)² - 2(10)h → h = 300/20 = 15 m. Choice A (5 m) results from using v₀y = 10 m/s (confusing sin60° with sin30°) and a calculation error. Choice B (10 m) comes from using v₀y = 10 m/s (using sin30° instead of sin60°). Choice D (20 m) comes from using the full initial speed (20 m/s) instead of only the vertical component."
   },
   {
     "id": "physc_u1_q546",
@@ -12303,7 +12303,7 @@ window.PHYSC_MCQ = [
       "D) 20 s"
     ],
     "answer": 1,
-    "explanation": "To travel straight across, the boat must aim upstream so that its upstream component cancels the current. The component across the river is √(5² - 3²) = √(25 - 9) = √16 = 4 m/s. Time = 60/4 = 15 s. Choice A (12 s) uses 60/5, ignoring the current entirely. Choice C (10 s) may come from dividing by (5+3)/2 or other errors. Choice D (20 s) uses 60/3, confusing river speed with crossing speed."
+    "explanation": "To travel straight across, the boat must aim upstream so that its upstream component cancels the current. The component across the river is √($5^2$ - $3^2$) = √(25 - 9) = √16 = 4 m/s. Time = 60/4 = 15 s. Choice A (12 s) uses 60/5, ignoring the current entirely. Choice C (10 s) may come from dividing by (5+3)/2 or other errors. Choice D (20 s) uses 60/3, confusing river speed with crossing speed."
   },
   {
     "id": "physc_u1_q547",
@@ -12323,7 +12323,7 @@ window.PHYSC_MCQ = [
       "D) t = 1.5 s"
     ],
     "answer": 1,
-    "explanation": "Velocity v = dx/dt = 12t² - 12t + 2. Acceleration a = dv/dt = 24t - 12. Setting a = 0: 24t - 12 = 0 → t = 0.5 s. Choice A (0.25 s) might come from solving for when jerk equals something or arithmetic errors. Choice C (1.0 s) comes from setting velocity equal to zero considerations or dividing 12/12. Choice D (1.5 s) may come from solving 12t - 12 = 6 or similar algebra mistakes."
+    "explanation": "Velocity v = dx/dt = 12$t^2$ - 12t + 2. Acceleration a = dv/dt = 24t - 12. Setting a = 0: 24t - 12 = 0 → t = 0.5 s. Choice A (0.25 s) might come from solving for when jerk equals something or arithmetic errors. Choice C (1.0 s) comes from setting velocity equal to zero considerations or dividing 12/12. Choice D (1.5 s) may come from solving 12t - 12 = 6 or similar algebra mistakes."
   },
   {
     "id": "physc_u1_q548",
@@ -12335,7 +12335,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": true,
     "format": "text",
-    "question": "A particle starts from rest at the origin. Its acceleration as a function of time is $a(t) = 6t$ m/s². What is the displacement of the particle at t = 2 s?",
+    "question": "A particle starts from rest at the origin. Its acceleration as a function of time is $a(t) = 6t$ $m/s^2$. What is the displacement of the particle at t = 2 s?",
     "choices": [
       "A) 4 m",
       "B) 8 m",
@@ -12343,7 +12343,7 @@ window.PHYSC_MCQ = [
       "D) 24 m"
     ],
     "answer": 1,
-    "explanation": "Integrate acceleration to get velocity: v(t) = ∫6t dt = 3t² + C. Since the particle starts from rest, C = 0, so v = 3t². Integrate velocity to get position: x(t) = ∫3t² dt = t³ + C. Since it starts at the origin, C = 0, so x = t³. At t = 2: x = 8 m. Choice A (4 m) comes from only integrating once and evaluating 3t² at t=2 incorrectly. Choice C (12 m) comes from evaluating 3t² at t = 2 (finding velocity, not displacement). Choice D (24 m) comes from evaluating 6t at t=2 then multiplying by some factor or using ½a·t²."
+    "explanation": "Integrate acceleration to get velocity: v(t) = ∫6t dt = 3$t^2$ + C. Since the particle starts from rest, C = 0, so v = 3$t^2$. Integrate velocity to get position: x(t) = ∫3$t^2$ dt = $t^3$ + C. Since it starts at the origin, C = 0, so x = $t^3$. At t = 2: x = 8 m. Choice A (4 m) comes from only integrating once and evaluating 3$t^2$ at t=2 incorrectly. Choice C (12 m) comes from evaluating 3$t^2$ at t = 2 (finding velocity, not displacement). Choice D (24 m) comes from evaluating 6t at t=2 then multiplying by some factor or using $\\frac{1}{2}$a·$t^2$."
   },
   {
     "id": "physc_u1_q549",
@@ -12363,7 +12363,7 @@ window.PHYSC_MCQ = [
       "D) 15.5 m"
     ],
     "answer": 2,
-    "explanation": "The particle stops when v = 0: 5 - 2t = 0 → t = 2.5 s. Position: x(t) = ∫(5 - 2t)dt = 5t - t² + C. At t = 0, x = 3, so C = 3. At t = 2.5: x = 5(2.5) - (2.5)² + 3 = 12.5 - 6.25 + 3 = 9.25 m. Choice A (3 m) forgets to compute the displacement. Choice B (6.25 m) computes 12.5 - 6.25 but forgets the initial position. Choice D (15.5 m) may result from adding all terms instead of subtracting."
+    "explanation": "The particle stops when v = 0: 5 - 2t = 0 → t = 2.5 s. Position: x(t) = ∫(5 - 2t)dt = 5t - $t^2$ + C. At t = 0, x = 3, so C = 3. At t = 2.5: x = 5(2.5) - (2.5)² + 3 = 12.5 - 6.25 + 3 = 9.25 m. Choice A (3 m) forgets to compute the displacement. Choice B (6.25 m) computes 12.5 - 6.25 but forgets the initial position. Choice D (15.5 m) may result from adding all terms instead of subtracting."
   },
   {
     "id": "physc_u1_q550",
@@ -12403,7 +12403,7 @@ window.PHYSC_MCQ = [
       "D) 25√2 m/s northwest"
     ],
     "answer": 3,
-    "explanation": "The velocity of A relative to B is v_A - v_B. v_A = 25ĵ (north), v_B = 25î (east). v_A - v_B = -25î + 25ĵ, which points in the northwest direction with magnitude √(25² + 25²) = 25√2 m/s. Choice A ignores Car B's motion. Choice B has the correct direction but wrong magnitude. Choice C has the correct magnitude but wrong direction (northeast instead of northwest)."
+    "explanation": "The velocity of A relative to B is v_A - v_B. v_A = 25ĵ (north), v_B = 25î (east). v_A - v_B = -25î + 25ĵ, which points in the northwest direction with magnitude √(2$5^2$ + 2$5^2$) = 25√2 m/s. Choice A ignores Car B's motion. Choice B has the correct direction but wrong magnitude. Choice C has the correct magnitude but wrong direction (northeast instead of northwest)."
   },
   {
     "id": "physc_u1_q552",
@@ -12417,13 +12417,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "The position of a particle is given by $x(t) = 5\\sin(2t)$ meters. What is the maximum magnitude of the particle's acceleration?",
     "choices": [
-      "A) 5 m/s²",
-      "B) 10 m/s²",
-      "C) 20 m/s²",
-      "D) 40 m/s²"
+      "A) 5 $m/s^2$",
+      "B) 10 $m/s^2$",
+      "C) 20 $m/s^2$",
+      "D) 40 $m/s^2$"
     ],
     "answer": 2,
-    "explanation": "Velocity: v = dx/dt = 10cos(2t). Acceleration: a = dv/dt = -20sin(2t). The maximum magnitude of acceleration is 20 m/s² (when sin(2t) = ±1). Choice A (5) is the amplitude of position. Choice B (10) is the maximum speed (amplitude of velocity), a common confusion. Choice D (40) incorrectly squares the angular frequency factor or doubles the correct answer."
+    "explanation": "Velocity: v = dx/dt = 10cos(2t). Acceleration: a = dv/dt = -20sin(2t). The maximum magnitude of acceleration is 20 $m/s^2$ (when sin(2t) = ±1). Choice A (5) is the amplitude of position. Choice B (10) is the maximum speed (amplitude of velocity), a common confusion. Choice D (40) incorrectly squares the angular frequency factor or doubles the correct answer."
   },
   {
     "id": "physc_u1_q553",
@@ -12443,7 +12443,7 @@ window.PHYSC_MCQ = [
       "D) -36 m"
     ],
     "answer": 0,
-    "explanation": "Displacement = ∫₀⁶ (4t - t²) dt = [2t² - t³/3]₀⁶ = 2(36) - 216/3 = 72 - 72 = 0 m. The particle moves forward when v > 0 (from t = 0 to t = 4) and backward when v < 0 (from t = 4 to t = 6), and the net displacement is zero. Choice B (-18 m) might come from only integrating from t = 4 to t = 6. Choice C (18 m) might come from taking the absolute value of the negative portion. Choice D (-36 m) is a calculation error possibly from incorrect integration."
+    "explanation": "Displacement = ∫₀⁶ (4t - $t^2$) dt = [2$t^2$ - $t^3$/3]₀⁶ = 2(36) - 216/3 = 72 - 72 = 0 m. The particle moves forward when v > 0 (from t = 0 to t = 4) and backward when v < 0 (from t = 4 to t = 6), and the net displacement is zero. Choice B (-18 m) might come from only integrating from t = 4 to t = 6. Choice C (18 m) might come from taking the absolute value of the negative portion. Choice D (-36 m) is a calculation error possibly from incorrect integration."
   },
   {
     "id": "physc_u1_q554",
@@ -12515,7 +12515,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle moves in the xy-plane with position r(t) = (A cos(omega*t)) i + (B sin(omega*t)) j, where A ≠ B. Which statement about the speed of the particle is correct?",
+    "question": "A particle moves in the xy-plane with position r(t) = (A cos(omega*t)) i + (B sin(omega*t)) j, where A $\\neq$ B. Which statement about the speed of the particle is correct?",
     "choices": [
       "A) The speed is constant and equal to omega*A",
       "B) The speed is constant and equal to omega*sqrt(A^2 + B^2)/sqrt(2)",
@@ -12703,7 +12703,7 @@ window.PHYSC_MCQ = [
       "D) 18 N"
     ],
     "answer": 0,
-    "explanation": "The system accelerates at a = 18 N / (4 + 2) kg = 3 m/s². The contact force on the 2 kg block must provide its acceleration: F = 2 kg × 3 m/s² = 6 N. By Newton's third law, the 2 kg block pushes back on the 4 kg block with 6 N. Common errors: choosing 12 N (using the 4 kg mass instead), choosing 9 N (splitting the applied force by number of blocks), or choosing 18 N (assuming the full applied force transmits)."
+    "explanation": "The system accelerates at a = 18 N / (4 + 2) kg = 3 $m/s^2$. The contact force on the 2 kg block must provide its acceleration: F = 2 kg × 3 $m/s^2$ = 6 N. By Newton's third law, the 2 kg block pushes back on the 4 kg block with 6 N. Common errors: choosing 12 N (using the 4 kg mass instead), choosing 9 N (splitting the applied force by number of blocks), or choosing 18 N (assuming the full applied force transmits)."
   },
   {
     "id": "physc_u2_q567",
@@ -12735,15 +12735,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "format": "text",
     "isLatex": false,
-    "question": "A block of mass m sits on a rough incline at angle θ. The coefficient of static friction is μs and the coefficient of kinetic friction is μk, with μk < μs. The block is on the verge of sliding. If θ is increased very slightly, the acceleration of the block down the incline is:",
+    "question": "A block of mass m sits on a rough incline at angle θ. The coefficient of static friction is μs and the coefficient of kinetic friction is $\\mu$k, with $\\mu$k < μs. The block is on the verge of sliding. If θ is increased very slightly, the acceleration of the block down the incline is:",
     "choices": [
       "A) g sinθ",
-      "B) g sinθ − μk g cosθ",
-      "C) g sinθ − μs g cosθ",
-      "D) g(sinθ − cosθ)(μs − μk)"
+      "B) g sinθ - $\\mu$k g cosθ",
+      "C) g sinθ - μs g cosθ",
+      "D) g(sinθ - cosθ)(μs - $\\mu$k)"
     ],
     "answer": 1,
-    "explanation": "Once the block begins to slide, kinetic friction applies. Along the incline: ma = mg sinθ − μk mg cosθ, giving a = g sinθ − μk g cosθ. A common mistake is using μs (choice C), but static friction only applies up to the moment of slipping. Choice A neglects friction entirely. Choice D is a fabricated expression mixing both coefficients incorrectly."
+    "explanation": "Once the block begins to slide, kinetic friction applies. Along the incline: ma = mg sinθ - $\\mu$k mg cosθ, giving a = g sinθ - $\\mu$k g cosθ. A common mistake is using μs (choice C), but static friction only applies up to the moment of slipping. Choice A neglects friction entirely. Choice D is a fabricated expression mixing both coefficients incorrectly."
   },
   {
     "id": "physc_u2_q569",
@@ -12755,7 +12755,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "format": "text",
     "isLatex": false,
-    "question": "A sphere falling through air experiences a drag force proportional to v². If the mass of the sphere is doubled while keeping its size and drag coefficient the same, by what factor does the terminal velocity change?",
+    "question": "A sphere falling through air experiences a drag force proportional to $v^2$. If the mass of the sphere is doubled while keeping its size and drag coefficient the same, by what factor does the terminal velocity change?",
     "choices": [
       "A) It doubles",
       "B) It increases by a factor of √2",
@@ -12763,7 +12763,7 @@ window.PHYSC_MCQ = [
       "D) It remains the same"
     ],
     "answer": 1,
-    "explanation": "At terminal velocity, mg = bv_t², so v_t = √(mg/b). Doubling m gives v_t' = √(2mg/b) = √2 · v_t. The terminal velocity increases by √2. A common error is saying it doubles (confusing linear and quadratic drag), or saying it quadruples (squaring instead of taking the square root). Choice D would only be correct if drag depended on v² and mass didn't matter, which is incorrect."
+    "explanation": "At terminal velocity, mg = bv_$t^2$, so v_t = √(mg/b). Doubling m gives v_t' = √(2mg/b) = √2 · v_t. The terminal velocity increases by √2. A common error is saying it doubles (confusing linear and quadratic drag), or saying it quadruples (squaring instead of taking the square root). Choice D would only be correct if drag depended on $v^2$ and mass didn't matter, which is incorrect."
   },
   {
     "id": "physc_u2_q570",
@@ -12823,7 +12823,7 @@ window.PHYSC_MCQ = [
       "D) 8 m/s"
     ],
     "answer": 1,
-    "explanation": "From Newton's second law, a = F/m = 6t/2 = 3t. Integrating: v = ∫0 to 4 of 3t dt = (3/2)t² evaluated from 0 to 4 = (3/2)(16) = 24 m/s. Choice A (12 m/s) results from using a = 6t/2 but forgetting the factor of 1/2 in integration (treating it as 3×4). Choice C (48 m/s) comes from forgetting to divide by mass. Choice D (8 m/s) comes from using the average force incorrectly."
+    "explanation": "From Newton's second law, a = F/m = 6t/2 = 3t. Integrating: v = ∫0 to 4 of 3t dt = (3/2)$t^2$ evaluated from 0 to 4 = (3/2)(16) = 24 m/s. Choice A (12 m/s) results from using a = 6t/2 but forgetting the factor of 1/2 in integration (treating it as 3×4). Choice C (48 m/s) comes from forgetting to divide by mass. Choice D (8 m/s) comes from using the average force incorrectly."
   },
   {
     "id": "physc_u2_q573",
@@ -13063,7 +13063,7 @@ window.PHYSC_MCQ = [
       "D) 0.55"
     ],
     "answer": 1,
-    "explanation": "Initial momentum: 4(10) + 6(2) = 52 kg·m/s. Final speed: 52/10 = 5.2 m/s. Initial KE = 0.5(4)(100) + 0.5(6)(4) = 200 + 12 = 212 J. Final KE = 0.5(10)(5.2)^2 = 0.5(10)(27.04) = 135.2 J. Fraction lost = (212 - 135.2)/212 = 76.8/212 ≈ 0.36, closest to 0.37. Choice A (0.25) is a common guess assuming a simple ratio. Choice C (0.50) assumes half the energy is always lost. Choice D overstimates the loss."
+    "explanation": "Initial momentum: 4(10) + 6(2) = 52 kg·m/s. Final speed: 52/10 = 5.2 m/s. Initial KE = 0.5(4)(100) + 0.5(6)(4) = 200 + 12 = 212 J. Final KE = 0.5(10)(5.2)^2 = 0.5(10)(27.04) = 135.2 J. Fraction lost = (212 - 135.2)/212 = 76.8/212 $\\approx$ 0.36, closest to 0.37. Choice A (0.25) is a common guess assuming a simple ratio. Choice C (0.50) assumes half the energy is always lost. Choice D overstimates the loss."
   },
   {
     "id": "physc_u4_q587",
@@ -13255,15 +13255,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "format": "text",
     "isLatex": false,
-    "question": "A thin uniform rod of mass M and length L has a moment of inertia (1/12)ML² about its center. The rod is pivoted at a point L/6 from one end. What is the moment of inertia about this pivot?",
+    "question": "A thin uniform rod of mass M and length L has a moment of inertia (1/12)M$L^2$ about its center. The rod is pivoted at a point L/6 from one end. What is the moment of inertia about this pivot?",
     "choices": [
-      "A) (1/12)ML²",
-      "B) (7/36)ML²",
-      "C) (1/4)ML²",
-      "D) (1/9)ML²"
+      "A) (1/12)M$L^2$",
+      "B) (7/36)M$L^2$",
+      "C) (1/4)M$L^2$",
+      "D) (1/9)M$L^2$"
     ],
     "answer": 1,
-    "explanation": "The center of mass is at L/2 from either end. The pivot is at L/6 from one end, so the distance from the center to the pivot is L/2 - L/6 = L/3. By the parallel axis theorem, I = I_cm + Md² = (1/12)ML² + M(L/3)² = (1/12)ML² + (1/9)ML² = (3/36 + 4/36)ML² = (7/36)ML². Choice A ignores the parallel axis shift entirely. Choice D uses only the Md² term and forgets I_cm. Choice C results from incorrectly computing the distance as L/4."
+    "explanation": "The center of mass is at L/2 from either end. The pivot is at L/6 from one end, so the distance from the center to the pivot is L/2 - L/6 = L/3. By the parallel axis theorem, I = I_cm + M$d^2$ = (1/12)M$L^2$ + M(L/3)² = (1/12)M$L^2$ + (1/9)M$L^2$ = (3/36 + 4/36)M$L^2$ = (7/36)M$L^2$. Choice A ignores the parallel axis shift entirely. Choice D uses only the M$d^2$ term and forgets I_cm. Choice C results from incorrectly computing the distance as L/4."
   },
   {
     "id": "physc_u5_q598",
@@ -13283,7 +13283,7 @@ window.PHYSC_MCQ = [
       "D) sqrt(5/7)"
     ],
     "answer": 2,
-    "explanation": "For rolling without slipping, energy conservation gives Mgh = (1/2)Mv² + (1/2)Iv²/R². For a solid sphere I = (2/5)MR², so v² = 10gh/7. For a hollow sphere I = (2/3)MR², so v² = 6gh/5. The ratio v_solid/v_hollow = sqrt((10gh/7)/(6gh/5)) = sqrt(50/42) = sqrt(25/21). Choice A assumes both have the same speed, ignoring different rotational inertias. Choice B inverts the ratio. Choice D is the ratio sqrt((2/5)/(2/3)) = sqrt(3/5), which incorrectly compares moments of inertia directly rather than final speeds."
+    "explanation": "For rolling without slipping, energy conservation gives Mgh = (1/2)M$v^2$ + (1/2)I$v^2$/$R^2$. For a solid sphere I = (2/5)M$R^2$, so $v^2$ = 10gh/7. For a hollow sphere I = (2/3)M$R^2$, so $v^2$ = 6gh/5. The ratio v_solid/v_hollow = sqrt((10gh/7)/(6gh/5)) = sqrt(50/42) = sqrt(25/21). Choice A assumes both have the same speed, ignoring different rotational inertias. Choice B inverts the ratio. Choice D is the ratio sqrt((2/5)/(2/3)) = sqrt(3/5), which incorrectly compares moments of inertia directly rather than final speeds."
   },
   {
     "id": "physc_u6_q599",
@@ -14037,13 +14037,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "A circular loop of radius R is placed in a region where the magnetic field is uniform and perpendicular to the plane of the loop. The magnitude of the field increases linearly from B0 to 3B0 over a time interval T. What is the magnitude of the induced EMF in the loop?",
     "choices": [
-      "A) 2B0πR²/T",
-      "B) 3B0πR²/T",
-      "C) B0πR²/T",
-      "D) 4B0πR²/T"
+      "A) 2B0π$R^2$/T",
+      "B) 3B0π$R^2$/T",
+      "C) B0π$R^2$/T",
+      "D) 4B0π$R^2$/T"
     ],
     "answer": 0,
-    "explanation": "By Faraday's law, the induced EMF equals the rate of change of magnetic flux. The flux changes from B0πR² to 3B0πR², so ΔΦ = 2B0πR². Dividing by T gives EMF = 2B0πR²/T. Choice B (3B0πR²/T) is wrong because it uses the final field value rather than the change. Choice C uses only B0 instead of the change 2B0. Choice D incorrectly doubles the correct answer."
+    "explanation": "By Faraday's law, the induced EMF equals the rate of change of magnetic flux. The flux changes from B0π$R^2$ to 3B0π$R^2$, so ΔΦ = 2B0π$R^2$. Dividing by T gives EMF = 2B0π$R^2$/T. Choice B (3B0π$R^2$/T) is wrong because it uses the final field value rather than the change. Choice C uses only B0 instead of the change 2B0. Choice D incorrectly doubles the correct answer."
   },
   {
     "id": "physc_u12_q642",
@@ -14055,7 +14055,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A conducting ring lies in the xy-plane. A bar magnet with its north pole pointing downward (in the −z direction) is dropped from above toward the ring. As the magnet approaches the ring from above, in which direction does the induced current flow when viewed from above, and what is the nature of the force on the magnet due to the ring?",
+    "question": "A conducting ring lies in the xy-plane. A bar magnet with its north pole pointing downward (in the -z direction) is dropped from above toward the ring. As the magnet approaches the ring from above, in which direction does the induced current flow when viewed from above, and what is the nature of the force on the magnet due to the ring?",
     "choices": [
       "A) Counterclockwise; repulsive",
       "B) Clockwise; repulsive",
@@ -14083,7 +14083,7 @@ window.PHYSC_MCQ = [
       "D) (R/L) ln 2"
     ],
     "answer": 0,
-    "explanation": "The current in an RL circuit is i(t) = (ε/R)(1 − e^(−Rt/L)). The maximum current is ε/R. Setting i = 0.5(ε/R): 0.5 = 1 − e^(−Rt/L), so e^(−Rt/L) = 0.5, giving t = (L/R) ln 2. Choice B gives a negative time, which is nonphysical. Choice C (L/(2R)) is a common error from confusing half the time constant with the time to reach half the current. Choice D inverts L/R to R/L, giving incorrect units."
+    "explanation": "The current in an RL circuit is i(t) = (ε/R)(1 - e^(-Rt/L)). The maximum current is ε/R. Setting i = 0.5(ε/R): 0.5 = 1 - e^(-Rt/L), so e^(-Rt/L) = 0.5, giving t = (L/R) ln 2. Choice B gives a negative time, which is nonphysical. Choice C (L/(2R)) is a common error from confusing half the time constant with the time to reach half the current. Choice D inverts L/R to R/L, giving incorrect units."
   },
   {
     "id": "physc_u12_q644",
@@ -14103,7 +14103,7 @@ window.PHYSC_MCQ = [
       "D) 16"
     ],
     "answer": 0,
-    "explanation": "The energy stored in an inductor is U = (1/2)LI². When the current doubles, U_new = (1/2)L(2I)² = (1/2)L(4I²) = 4 × (1/2)LI². The energy increases by a factor of 4. Choice B (factor of 2) results from incorrectly assuming energy is proportional to I rather than I². Choice C (factor of 8) confuses this with a cubic relationship. Choice D (factor of 16) incorrectly squares the factor of 4."
+    "explanation": "The energy stored in an inductor is U = (1/2)L$I^2$. When the current doubles, U_new = (1/2)L(2I)² = (1/2)L(4$I^2$) = 4 × (1/2)L$I^2$. The energy increases by a factor of 4. Choice B (factor of 2) results from incorrectly assuming energy is proportional to I rather than $I^2$. Choice C (factor of 8) confuses this with a cubic relationship. Choice D (factor of 16) incorrectly squares the factor of 4."
   },
   {
     "id": "physc_u12_q645",
@@ -14695,7 +14695,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A force F(t) = F0 * e^(-t/τ) acts on a 2 kg object initially at rest for t = 0 to t = ∞. What is the final speed of the object?",
+    "question": "A force F(t) = F0 * e^(-t/τ) acts on a 2 kg object initially at rest for t = 0 to t = $\\infty$. What is the final speed of the object?",
     "choices": [
       "A) F0 * τ / 2",
       "B) F0 / (2τ)",
@@ -14703,7 +14703,7 @@ window.PHYSC_MCQ = [
       "D) 2 * F0 * τ"
     ],
     "answer": 0,
-    "explanation": "Impulse J = ∫₀^∞ F0 e^(-t/τ) dt = F0 τ. By the impulse-momentum theorem, J = mv, so v = F0 τ / m = F0 τ / 2. Choice B incorrectly inverts the τ dependence. Choice C forgets to divide by mass. Choice D multiplies by mass instead of dividing."
+    "explanation": "Impulse J = ∫₀^$\\infty$ F0 e^(-t/τ) dt = F0 τ. By the impulse-momentum theorem, J = mv, so v = F0 τ / m = F0 τ / 2. Choice B incorrectly inverts the τ dependence. Choice C forgets to divide by mass. Choice D multiplies by mass instead of dividing."
   },
   {
     "id": "physc_u4_q677",
@@ -14717,13 +14717,13 @@ window.PHYSC_MCQ = [
     "format": "text",
     "question": "Two blocks of mass m and 3m are connected by a compressed spring on a frictionless surface. An external force F(t) = bt (where b is a constant) acts on the block of mass m in the direction away from the other block. The system starts from rest. At time T, what is the velocity of the center of mass of the system?",
     "choices": [
-      "A) bT² / (8m)",
-      "B) bT² / (4m)",
+      "A) b$T^2$ / (8m)",
+      "B) b$T^2$ / (4m)",
       "C) bT / (4m)",
-      "D) bT² / (2m)"
+      "D) b$T^2$ / (2m)"
     ],
     "answer": 0,
-    "explanation": "The total external impulse on the system is ∫₀ᵀ bt dt = bT²/2. The total mass is 4m. The center of mass velocity is impulse/total mass = bT²/(2·4m) = bT²/(8m). Choice B uses total mass 2m. Choice C forgets to integrate (uses F(T) directly). Choice D uses only mass m instead of total mass."
+    "explanation": "The total external impulse on the system is ∫₀ᵀ bt dt = b$T^2$/2. The total mass is 4m. The center of mass velocity is impulse/total mass = b$T^2$/(2·4m) = b$T^2$/(8m). Choice B uses total mass 2m. Choice C forgets to integrate (uses F(T) directly). Choice D uses only mass m instead of total mass."
   },
   {
     "id": "physc_u4_q678",
@@ -14740,7 +14740,7 @@ window.PHYSC_MCQ = [
       "A) M/m = 1",
       "B) M/m = 2",
       "C) M/m = 1/2",
-      "D) M/m → ∞"
+      "D) M/m → $\\infty$"
     ],
     "answer": 0,
     "explanation": "The fraction of KE transferred is f = 4(M/m)/[1 + M/m]². Let r = M/m, so f = 4r/(1+r)². Taking df/dr = 4[(1+r)² - 2r(1+r)]/(1+r)⁴ = 4(1-r)/(1+r)³. Setting this to zero gives r = 1, i.e., M/m = 1. This is a well-known result: maximum energy transfer occurs for equal masses. Choice B and C are common guesses. Choice D would give zero transferred speed to an infinitely massive target."
@@ -14755,7 +14755,7 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A block of mass m slides down a frictionless curved ramp whose height as a function of horizontal distance x is h(x) = H(1 - x²/L²) for 0 ≤ x ≤ L. At the bottom (x = L, h = 0), it undergoes a perfectly inelastic collision with an identical stationary block. What fraction of the original gravitational potential energy is lost in the collision?",
+    "question": "A block of mass m slides down a frictionless curved ramp whose height as a function of horizontal distance x is h(x) = H(1 - $x^2$/$L^2$) for 0 $\\leq$ x $\\leq$ L. At the bottom (x = L, h = 0), it undergoes a perfectly inelastic collision with an identical stationary block. What fraction of the original gravitational potential energy is lost in the collision?",
     "choices": [
       "A) 1/2",
       "B) 1/4",
@@ -14763,7 +14763,7 @@ window.PHYSC_MCQ = [
       "D) 1/3"
     ],
     "answer": 0,
-    "explanation": "At the bottom, all PE converts to KE: (1/2)mv² = mgH, so v = √(2gH). After perfectly inelastic collision, momentum conservation gives (2m)v' = mv, so v' = v/2. KE after = (1/2)(2m)(v/2)² = mv²/4 = mgH/2. Energy lost = mgH - mgH/2 = mgH/2. Fraction lost = 1/2. The ramp shape is a distractor — regardless of the path, only the height matters on a frictionless surface. Choice B confuses fraction lost with fraction remaining squared. Choice C and D are common errors from misapplying the collision formulas."
+    "explanation": "At the bottom, all PE converts to KE: (1/2)m$v^2$ = mgH, so v = √(2gH). After perfectly inelastic collision, momentum conservation gives (2m)v' = mv, so v' = v/2. KE after = (1/2)(2m)(v/2)² = m$v^2$/4 = mgH/2. Energy lost = mgH - mgH/2 = mgH/2. Fraction lost = 1/2. The ramp shape is a distractor — regardless of the path, only the height matters on a frictionless surface. Choice B confuses fraction lost with fraction remaining squared. Choice C and D are common errors from misapplying the collision formulas."
   },
   {
     "id": "physc_u4_q680",
@@ -14783,7 +14783,7 @@ window.PHYSC_MCQ = [
       "D) L/3"
     ],
     "answer": 0,
-    "explanation": "Total mass M = ∫₀ᴸ λ0(x/L)² dx = λ0/L² · L³/3 = λ0L/3. Center of mass: x_cm = (1/M)∫₀ᴸ x·λ0(x/L)² dx = (1/M)(λ0/L²)·L⁴/4 = (1/M)(λ0L²/4). So x_cm = (λ0L²/4)/(λ0L/3) = 3L/4. Choice B (2L/3) is the result for linear density λ ∝ x. Choice C assumes uniform distribution. Choice D reverses the weighting."
+    "explanation": "Total mass M = ∫₀ᴸ λ0(x/L)² dx = λ0/$L^2$ · $L^3$/3 = λ0L/3. Center of mass: x_cm = (1/M)∫₀ᴸ x·λ0(x/L)² dx = (1/M)(λ0/$L^2$)·L⁴/4 = (1/M)(λ0$L^2$/4). So x_cm = (λ0$L^2$/4)/(λ0L/3) = 3L/4. Choice B (2L/3) is the result for linear density λ ∝ x. Choice C assumes uniform distribution. Choice D reverses the weighting."
   },
   {
     "id": "physc_u4_q681",
@@ -14803,7 +14803,7 @@ window.PHYSC_MCQ = [
       "D) ve ln(2)"
     ],
     "answer": 0,
-    "explanation": "The Tsiolkovsky rocket equation gives Δv = ve ln(M0/Mf). Here Mf = M0/e, so Δv = ve ln(e) = ve. The burn rate α is a distractor — only the mass ratio matters for final speed. Choice B incorrectly divides by e. Choice C would require mass ratio e². Choice D confuses e with 2."
+    "explanation": "The Tsiolkovsky rocket equation gives $\\Delta v$ = ve ln(M0/Mf). Here Mf = M0/e, so $\\Delta v$ = ve ln(e) = ve. The burn rate α is a distractor — only the mass ratio matters for final speed. Choice B incorrectly divides by e. Choice C would require mass ratio $e^2$. Choice D confuses e with 2."
   },
   {
     "id": "physc_u4_q682",
@@ -14815,15 +14815,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "A particle of mass m experiences a velocity-dependent force F = -bv² where b is a positive constant. At t = 0, the particle has speed v0. What is the impulse delivered to the particle from t = 0 to t → ∞?",
+    "question": "A particle of mass m experiences a velocity-dependent force F = -b$v^2$ where b is a positive constant. At t = 0, the particle has speed v0. What is the impulse delivered to the particle from t = 0 to t → $\\infty$?",
     "choices": [
       "A) -mv0",
       "B) -bv0",
       "C) -mv0/2",
-      "D) -∞"
+      "D) -$\\infty$"
     ],
     "answer": 0,
-    "explanation": "The impulse equals the change in momentum. We solve m dv/dt = -bv². Separating variables: m dv/v² = -b dt. Integrating: -m/v = -bt + C. At t=0, v = v0, so C = -m/v0. Thus v(t) = mv0/(m + bv0 t). As t → ∞, v → 0. Total impulse = m(v_final) - m(v0) = 0 - mv0 = -mv0. Choice C incorrectly averages. Choice B uses b instead of m. Choice D assumes the integral diverges, but the velocity goes to zero in finite momentum change."
+    "explanation": "The impulse equals the change in momentum. We solve m dv/dt = -b$v^2$. Separating variables: m $dv/v^2$ = -b dt. Integrating: -m/v = -bt + C. At t=0, v = v0, so C = -m/v0. Thus v(t) = mv0/(m + bv0 t). As t → $\\infty$, v → 0. Total impulse = m(v_final) - m(v0) = 0 - mv0 = -mv0. Choice C incorrectly averages. Choice B uses b instead of m. Choice D assumes the integral diverges, but the velocity goes to zero in finite momentum change."
   },
   {
     "id": "physc_u4_q683",
@@ -14843,7 +14843,7 @@ window.PHYSC_MCQ = [
       "D) 4Q/25"
     ],
     "answer": 0,
-    "explanation": "By conservation of momentum: mv1 = 4mv2, so v1 = 4v2. KE_total = (1/2)m(4v2)² + (1/2)(4m)v2² = 8mv2² + 2mv2² = 10mv2² = Q, so mv2² = Q/10. KE of lighter piece = (1/2)m(4v2)² = 8mv2² = 8(Q/10) = 4Q/5. Choice B gives the heavier piece's KE. Choice C assumes equal split. Choice D squares the mass ratio incorrectly."
+    "explanation": "By conservation of momentum: mv1 = 4mv2, so v1 = 4v2. KE_total = (1/2)m(4v2)² + (1/2)(4m)v$2^2$ = 8mv$2^2$ + 2mv$2^2$ = 10mv$2^2$ = Q, so mv$2^2$ = Q/10. KE of lighter piece = (1/2)m(4v2)² = 8mv$2^2$ = 8(Q/10) = 4Q/5. Choice B gives the heavier piece's KE. Choice C assumes equal split. Choice D squares the mass ratio incorrectly."
   },
   {
     "id": "physc_u4_q684",
@@ -14875,15 +14875,15 @@ window.PHYSC_MCQ = [
     "calculator": false,
     "isLatex": false,
     "format": "text",
-    "question": "Two particles, mass m and 2m, move along the x-axis with positions x1(t) = At² and x2(t) = B sin(ωt) respectively, where A, B, and ω are constants. What is the acceleration of the center of mass at time t?",
+    "question": "Two particles, mass m and 2m, move along the x-axis with positions x1(t) = A$t^2$ and x2(t) = B sin($\\omega$t) respectively, where A, B, and ω are constants. What is the acceleration of the center of mass at time t?",
     "choices": [
-      "A) (2A - 2Bω² sin(ωt)) / 3",
-      "B) (2A + 2Bω² sin(ωt)) / 3",
-      "C) (A - Bω² sin(ωt)) / 3",
-      "D) (2A - 2Bω sin(ωt)) / 3"
+      "A) (2A - 2Bω² sin($\\omega$t)) / 3",
+      "B) (2A + 2Bω² sin($\\omega$t)) / 3",
+      "C) (A - Bω² sin($\\omega$t)) / 3",
+      "D) (2A - 2Bω sin($\\omega$t)) / 3"
     ],
     "answer": 0,
-    "explanation": "x_cm = (m·At² + 2m·B sin(ωt))/(3m) = (At² + 2B sin(ωt))/3. First derivative: v_cm = (2At + 2Bω cos(ωt))/3. Second derivative: a_cm = (2A - 2Bω² sin(ωt))/3. Choice B has the wrong sign on the sine term (error in second derivative of sin). Choice C forgets the factor of 2 from mass weighting. Choice D takes only one derivative of sin instead of two."
+    "explanation": "x_cm = (m·A$t^2$ + 2m·B sin($\\omega$t))/(3m) = (A$t^2$ + 2B sin($\\omega$t))/3. First derivative: v_cm = (2At + 2Bω cos($\\omega$t))/3. Second derivative: a_cm = (2A - 2Bω² sin($\\omega$t))/3. Choice B has the wrong sign on the sine term (error in second derivative of sin). Choice C forgets the factor of 2 from mass weighting. Choice D takes only one derivative of sin instead of two."
   },
   {
     "id": "physc_u4_q686",
@@ -14900,10 +14900,10 @@ window.PHYSC_MCQ = [
       "A) 3Mgy/L",
       "B) 2Mgy/L",
       "C) Mgy/L",
-      "D) Mg(y/L + y²/L²)"
+      "D) Mg(y/L + $y^2$/$L^2$)"
     ],
     "answer": 0,
-    "explanation": "The scale force has two contributions. (1) Weight of chain on scale: (M/L)y·g = Mgy/L. (2) Impulse force from chain arriving: the falling part at height y has velocity v = √(2gy). The rate of mass arriving is (M/L)v. The force from momentum transfer is (dm/dt)v = (M/L)v² = (M/L)(2gy) = 2Mgy/L. Total = Mgy/L + 2Mgy/L = 3Mgy/L. Choice B omits the weight contribution. Choice C gives only the weight. Choice D incorrectly adds a quadratic term."
+    "explanation": "The scale force has two contributions. (1) Weight of chain on scale: (M/L)y·g = Mgy/L. (2) Impulse force from chain arriving: the falling part at height y has velocity v = √(2gy). The rate of mass arriving is (M/L)v. The force from momentum transfer is (dm/dt)v = (M/L)$v^2$ = (M/L)(2gy) = 2Mgy/L. Total = Mgy/L + 2Mgy/L = 3Mgy/L. Choice B omits the weight contribution. Choice C gives only the weight. Choice D incorrectly adds a quadratic term."
   },
   {
     "id": "physc_u5_q687",
@@ -15083,7 +15083,7 @@ window.PHYSC_MCQ = [
       "D) 100 rad/s"
     ],
     "answer": 1,
-    "explanation": "The quality factor Q = omega_0/(2*gamma) = 100/4 = 25. The full width at half-maximum power (FWHM) is Delta_omega = omega_0/Q = 100/25 = 4 rad/s. Alternatively, for light damping, FWHM ≈ 2*gamma = 4 rad/s. Choice A (2 rad/s) is gamma, the half-width, a common error confusing half-width with full width. Choice C doubles the correct answer. Choice D equals the natural frequency, which would correspond to Q = 1."
+    "explanation": "The quality factor Q = omega_0/(2*gamma) = 100/4 = 25. The full width at half-maximum power (FWHM) is Delta_omega = omega_0/Q = 100/25 = 4 rad/s. Alternatively, for light damping, FWHM $\\approx$ 2*gamma = 4 rad/s. Choice A (2 rad/s) is gamma, the half-width, a common error confusing half-width with full width. Choice C doubles the correct answer. Choice D equals the natural frequency, which would correspond to Q = 1."
   },
   {
     "id": "physc_u6_q696",
@@ -15143,7 +15143,7 @@ window.PHYSC_MCQ = [
       "D) Both A and B are correct and equivalent"
     ],
     "answer": 3,
-    "explanation": "dE/dt = d/dt[(1/2)kA^2 exp(-2*gamma*t)] = -2*gamma*(1/2)*kA^2*exp(-2*gamma*t) = -gamma*kA^2*exp(-2*gamma*t). This equals -2*gamma*E(t) since E(t) = (1/2)kA^2*exp(-2*gamma*t). So both expressions A and B are equivalent. For choice C: b*omega_d^2*A^2 ≠ gamma*k*A^2 in general (b = 2m*gamma and k = m*omega_0^2, so b*omega_d^2 = 2m*gamma*omega_d^2 while gamma*k = gamma*m*omega_0^2, and omega_d ≠ omega_0 in general). Therefore D is correct."
+    "explanation": "dE/dt = d/dt[(1/2)kA^2 exp(-2*gamma*t)] = -2*gamma*(1/2)*kA^2*exp(-2*gamma*t) = -gamma*kA^2*exp(-2*gamma*t). This equals -2*gamma*E(t) since E(t) = (1/2)kA^2*exp(-2*gamma*t). So both expressions A and B are equivalent. For choice C: b*omega_d^2*A^2 $\\neq$ gamma*k*A^2 in general (b = 2m*gamma and k = m*omega_0^2, so b*omega_d^2 = 2m*gamma*omega_d^2 while gamma*k = gamma*m*omega_0^2, and omega_d $\\neq$ omega_0 in general). Therefore D is correct."
   },
   {
     "id": "physc_u6_q699",
@@ -15163,7 +15163,7 @@ window.PHYSC_MCQ = [
       "D) About 6.9%"
     ],
     "answer": 1,
-    "explanation": "The fractional increase is approximately (1/16)*theta_max^2 = (1/16)*(pi/6)^2 = (1/16)*(pi^2/36) = pi^2/576 ≈ 9.87/576 ≈ 0.0171, or about 1.7%. Choice A (0.5%) would correspond to a much smaller amplitude. Choice C (3.4%) doubles the correct answer, perhaps from using (1/8) instead of (1/16). Choice D (6.9%) may come from using theta_max instead of theta_max^2 or other algebraic errors."
+    "explanation": "The fractional increase is approximately (1/16)*theta_max^2 = (1/16)*(pi/6)^2 = (1/16)*(pi^2/36) = pi^2/576 $\\approx$ 9.87/576 $\\approx$ 0.0171, or about 1.7%. Choice A (0.5%) would correspond to a much smaller amplitude. Choice C (3.4%) doubles the correct answer, perhaps from using (1/8) instead of (1/16). Choice D (6.9%) may come from using theta_max instead of theta_max^2 or other algebraic errors."
   },
   {
     "id": "physc_u7_q700",
@@ -15243,7 +15243,7 @@ window.PHYSC_MCQ = [
       "D) 0.6 s"
     ],
     "answer": 0,
-    "explanation": "The time constant is τ = RC = (4000)(50 × 10⁻⁶) = 0.2 s. The voltage across the resistor during charging is V_R(t) = EMF × e^(-t/τ) = 12e^(-t/0.2). Setting V_R = 4 V: 4 = 12e^(-t/0.2), so e^(-t/0.2) = 1/3, giving -t/0.2 = -ln(3), thus t = 0.2 ln(3) s. Choice B (0.2 ln(2)) is wrong — it results from mistakenly setting the voltage equal to half the EMF (6 V) or confusing the equation. Choice C incorrectly divides by ln(3) instead of multiplying. Choice D (0.6 s = 3τ) is a common estimate students use for 'nearly fully charged' but does not correspond to V_R = 4 V."
+    "explanation": "The time constant is τ = RC = (4000)(50 $\\times$ 10⁻⁶) = 0.2 s. The voltage across the resistor during charging is V_R(t) = EMF × e^(-t/τ) = 12e^(-t/0.2). Setting V_R = 4 V: 4 = 12e^(-t/0.2), so e^(-t/0.2) = 1/3, giving -t/0.2 = -ln(3), thus t = 0.2 ln(3) s. Choice B (0.2 ln(2)) is wrong — it results from mistakenly setting the voltage equal to half the EMF (6 V) or confusing the equation. Choice C incorrectly divides by ln(3) instead of multiplying. Choice D (0.6 s = 3τ) is a common estimate students use for 'nearly fully charged' but does not correspond to V_R = 4 V."
   },
   {
     "id": "physc_u10_q705",
@@ -15743,7 +15743,7 @@ window.PHYSC_MCQ = [
       "D) 27 m/s"
     ],
     "answer": 1,
-    "explanation": "The work done by F from x=0 to x=3 is W = integral from 0 to 3 of 6x^2 dx = 6(x^3/3) evaluated from 0 to 3 = 2(27) = 54 J. By the work-energy theorem, W = (1/2)mv^2, so 54 = (1/2)(2)v^2, giving v^2 = 54 and v = sqrt(54) = sqrt(9*6) = 3*sqrt(6) ≈ 7.35 m/s. Choice A (9 m/s) comes from forgetting to apply work-energy theorem correctly or errors in integration. Choice C (3*sqrt(3)) comes from forgetting to multiply by 2 in the integral (using x^3/3 without the factor of 6, getting W=27 then v=sqrt(27)). Choice D (27 m/s) results from setting W = mv instead of (1/2)mv^2. The correct answer is B: 3*sqrt(6) m/s."
+    "explanation": "The work done by F from x=0 to x=3 is W = integral from 0 to 3 of 6x^2 dx = 6(x^3/3) evaluated from 0 to 3 = 2(27) = 54 J. By the work-energy theorem, W = (1/2)mv^2, so 54 = (1/2)(2)v^2, giving v^2 = 54 and v = sqrt(54) = sqrt(9*6) = 3*sqrt(6) $\\approx$ 7.35 m/s. Choice A (9 m/s) comes from forgetting to apply work-energy theorem correctly or errors in integration. Choice C (3*sqrt(3)) comes from forgetting to multiply by 2 in the integral (using x^3/3 without the factor of 6, getting W=27 then v=sqrt(27)). Choice D (27 m/s) results from setting W = mv instead of (1/2)mv^2. The correct answer is B: 3*sqrt(6) m/s."
   },
   {
     "id": "physc_u6_q737",
@@ -16283,7 +16283,7 @@ window.PHYSC_MCQ = [
       "D) (1/2)(1 - e^(-1))"
     ],
     "answer": 0,
-    "explanation": "During discharge, q(t) = CV0 e^(-t/RC), so i(t) = dq/dt = -(V0/R) e^(-t/RC). The instantaneous power dissipated is P = i^2 R = (V0^2/R) e^(-2t/RC). Integrating from 0 to RC: E_dissipated = integral from 0 to RC of (V0^2/R) e^(-2t/RC) dt = (V0^2/R)(-RC/2)[e^(-2t/RC)] from 0 to RC = (CV0^2/2)(1 - e^(-2)). The initial energy is (1/2)CV0^2. The fraction dissipated is (1 - e^(-2)) ≈ 0.865. Choice B (1 - e^(-1)) is wrong because it results from incorrectly using e^(-t/RC) instead of e^(-2t/RC) in the power integral — a common error of forgetting to square the exponential. Choice C incorrectly halves the correct answer, and Choice D combines both errors."
+    "explanation": "During discharge, q(t) = CV0 e^(-t/RC), so i(t) = dq/dt = -(V0/R) e^(-t/RC). The instantaneous power dissipated is P = i^2 R = (V0^2/R) e^(-2t/RC). Integrating from 0 to RC: E_dissipated = integral from 0 to RC of (V0^2/R) e^(-2t/RC) dt = (V0^2/R)(-RC/2)[e^(-2t/RC)] from 0 to RC = (CV0^2/2)(1 - e^(-2)). The initial energy is (1/2)CV0^2. The fraction dissipated is (1 - e^(-2)) $\\approx$ 0.865. Choice B (1 - e^(-1)) is wrong because it results from incorrectly using e^(-t/RC) instead of e^(-2t/RC) in the power integral — a common error of forgetting to square the exponential. Choice C incorrectly halves the correct answer, and Choice D combines both errors."
   },
   {
     "id": "physc_u3_q768",

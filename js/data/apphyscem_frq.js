@@ -11,33 +11,33 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "easy",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A particle moves along the x-axis. Its position as a function of time is given by x(t) = 3t³ − 6t² + 2, where x is in meters and t is in seconds. The particle starts at t = 0.",
+    "prompt": "A particle moves along the x-axis. Its position as a function of time is given by x(t) = 3$t^3$ - 6$t^2$ + 2, where x is in meters and t is in seconds. The particle starts at t = 0.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Derive an expression for the velocity of the particle as a function of time by differentiating x(t). Show your work.",
-        "rubric": "Student earns 1 point for correctly differentiating x(t) = 3t³ − 6t² + 2 to obtain v(t) = dx/dt = 9t² − 12t."
+        "rubric": "Student earns 1 point for correctly differentiating x(t) = 3$t^3$ - 6$t^2$ + 2 to obtain v(t) = dx/dt = 9$t^2$ - 12t."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using your expression from part (a), determine the time(s) at which the particle is instantaneously at rest. Show your work.",
-        "rubric": "Student earns 1 point for setting v(t) = 9t² − 12t = 0, factoring to get t(9t − 12) = 0, and correctly identifying t = 0 s and t = 4/3 s (≈ 1.33 s) as the times when the particle is at rest."
+        "rubric": "Student earns 1 point for setting v(t) = 9$t^2$ - 12t = 0, factoring to get t(9t - 12) = 0, and correctly identifying t = 0 s and t = 4/3 s ($\\approx$ 1.33 s) as the times when the particle is at rest."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "Derive an expression for the acceleration of the particle as a function of time by differentiating v(t), and evaluate the acceleration at t = 1 s.",
-        "rubric": "Student earns 1 point for correctly differentiating v(t) = 9t² − 12t to obtain a(t) = dv/dt = 18t − 12, and evaluating a(1) = 18(1) − 12 = 6 m/s²."
+        "rubric": "Student earns 1 point for correctly differentiating v(t) = 9$t^2$ - 12t to obtain a(t) = dv/dt = 18t - 12, and evaluating a(1) = 18(1) - 12 = 6 $m/s^2$."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Student correctly takes the first derivative of x(t) = 3t³ − 6t² + 2 with respect to time to obtain v(t) = 9t² − 12t using the power rule.",
+        "description": "Student correctly takes the first derivative of x(t) = 3$t^3$ - 6$t^2$ + 2 with respect to time to obtain v(t) = 9$t^2$ - 12t using the power rule.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -76,7 +76,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student sets v(t) = 0, correctly factors or uses the quadratic formula on 9t² − 12t = 0, and identifies both t = 0 s and t = 4/3 s (approximately 1.33 s) as times when the particle is instantaneously at rest.",
+        "description": "Student sets v(t) = 0, correctly factors or uses the quadratic formula on 9$t^2$ - 12t = 0, and identifies both t = 0 s and t = 4/3 s (approximately 1.33 s) as times when the particle is instantaneously at rest.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -117,7 +117,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student correctly differentiates v(t) = 9t² − 12t to obtain a(t) = dv/dt = 18t − 12, and correctly evaluates a(1) = 18(1) − 12 = 6 m/s².",
+        "description": "Student correctly differentiates v(t) = 9$t^2$ - 12t to obtain a(t) = dv/dt = 18t - 12, and correctly evaluates a(1) = 18(1) - 12 = 6 $m/s^2$.",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -167,33 +167,33 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A particle moves along the x-axis. Its acceleration is given as a function of time by a(t) = 6t − 4, where a is in m/s² and t is in seconds. At t = 0, the particle's velocity is v₀ = 2 m/s and its position is x₀ = 0 m. Use calculus-based methods to answer the following questions.",
+    "prompt": "A particle moves along the x-axis. Its acceleration is given as a function of time by a(t) = 6t - 4, where a is in $m/s^2$ and t is in seconds. At t = 0, the particle's velocity is v₀ = 2 m/s and its position is x₀ = 0 m. Use calculus-based methods to answer the following questions.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Derive an expression for the velocity v(t) of the particle as a function of time by integrating the acceleration function. Use the initial condition v(0) = 2 m/s to determine the constant of integration.",
-        "rubric": "Student earns the point by correctly integrating a(t) = 6t − 4 with respect to time to obtain v(t) = 3t² − 4t + 2, and explicitly applying the initial condition v(0) = 2 to find C = 2."
+        "rubric": "Student earns the point by correctly integrating a(t) = 6t - 4 with respect to time to obtain v(t) = 3$t^2$ - 4t + 2, and explicitly applying the initial condition v(0) = 2 to find C = 2."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using your expression for v(t), find all times t > 0 at which the particle is instantaneously at rest (v = 0). Show your calculus-based work.",
-        "rubric": "Student earns the point by setting v(t) = 3t² − 4t + 2 = 0 and correctly applying the quadratic formula or factoring, arriving at the discriminant b² − 4ac = 16 − 24 = −8 < 0, and concluding that no real solutions exist - the particle is never at rest for t > 0."
+        "rubric": "Student earns the point by setting v(t) = 3$t^2$ - 4t + 2 = 0 and correctly applying the quadratic formula or factoring, arriving at the discriminant $b^2$ - 4ac = 16 - 24 = -8 < 0, and concluding that no real solutions exist - the particle is never at rest for t > 0."
       },
       {
         "label": "c",
         "command": "Explain",
         "question": "Using the derivative dv/dt, justify whether the speed of the particle is increasing or decreasing at t = 1 s. Your response must explicitly reference the signs of both v(t) and a(t) at t = 1 s.",
-        "rubric": "Student earns the point by evaluating v(1) = 3(1)² − 4(1) + 2 = 1 m/s > 0 and a(1) = 6(1) − 4 = 2 m/s² > 0, then correctly reasoning that because velocity and acceleration have the same sign, the speed (magnitude of velocity) is increasing at t = 1 s."
+        "rubric": "Student earns the point by evaluating v(1) = 3(1)² - 4(1) + 2 = 1 m/s > 0 and a(1) = 6(1) - 4 = 2 $m/s^2$ > 0, then correctly reasoning that because velocity and acceleration have the same sign, the speed (magnitude of velocity) is increasing at t = 1 s."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly integrates a(t) = 6t − 4 to obtain v(t) = 3t² − 4t + C, then applies initial condition v(0) = 2 m/s to find C = 2, yielding v(t) = 3t² − 4t + 2.",
+        "description": "Correctly integrates a(t) = 6t - 4 to obtain v(t) = 3$t^2$ - 4t + C, then applies initial condition v(0) = 2 m/s to find C = 2, yielding v(t) = 3$t^2$ - 4t + 2.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -234,7 +234,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Sets v(t) = 0, correctly evaluates the discriminant of 3t² − 4t + 2 = 0 as b² − 4ac = 16 − 24 = −8 < 0, and concludes the particle is never instantaneously at rest for t > 0.",
+        "description": "Sets v(t) = 0, correctly evaluates the discriminant of 3$t^2$ - 4t + 2 = 0 as $b^2$ - 4ac = 16 - 24 = -8 < 0, and concludes the particle is never instantaneously at rest for t > 0.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -277,7 +277,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Evaluates v(1) = 1 m/s > 0 and a(1) = dv/dt|_(t=1) = 2 m/s² > 0, then correctly justifies that same-sign velocity and acceleration means speed is increasing at t = 1 s.",
+        "description": "Evaluates v(1) = 1 m/s > 0 and a(1) = dv/dt|_(t=1) = 2 $m/s^2$ > 0, then correctly justifies that same-sign velocity and acceleration means speed is increasing at t = 1 s.",
         "partLabel": "c",
         "skill": "justify",
         "keywords": [
@@ -332,33 +332,33 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A particle moves in the xy-plane. Its position as a function of time is given by the vector components:\n\nx(t) = 4t³ − 6t²\ny(t) = 3t² − 2t³\n\nwhere x and y are in meters and t is in seconds. The particle starts at the origin at t = 0.\n\n(a) Derive expressions for the x- and y-components of the particle's velocity and acceleration as functions of time using differentiation.\n\n(b) At t = 1 s, determine whether the speed of the particle is increasing or decreasing. Justify your answer using the dot product of the velocity and acceleration vectors.\n\n(c) Starting from the velocity components found in part (a), use integration to find the displacement of the particle from t = 0 to t = 2 s, and compute the magnitude of this displacement.",
+    "prompt": "A particle moves in the xy-plane. Its position as a function of time is given by the vector components:\n\nx(t) = 4$t^3$ - 6$t^2$\ny(t) = 3$t^2$ - 2$t^3$\n\nwhere x and y are in meters and t is in seconds. The particle starts at the origin at t = 0.\n\n(a) Derive expressions for the x- and y-components of the particle's velocity and acceleration as functions of time using differentiation.\n\n(b) At t = 1 s, determine whether the speed of the particle is increasing or decreasing. Justify your answer using the dot product of the velocity and acceleration vectors.\n\n(c) Starting from the velocity components found in part (a), use integration to find the displacement of the particle from t = 0 to t = 2 s, and compute the magnitude of this displacement.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Derive expressions for the x- and y-components of velocity and acceleration as functions of time by differentiating x(t) and y(t).",
-        "rubric": "Earns 1 point for correctly differentiating both position components to obtain vx(t) = 12t² − 12t, vy(t) = 6t − 6t², ax(t) = 24t − 12, and ay(t) = 6 − 12t using the power rule for derivatives."
+        "rubric": "Earns 1 point for correctly differentiating both position components to obtain vx(t) = 12$t^2$ - 12t, vy(t) = 6t - 6$t^2$, ax(t) = 24t - 12, and ay(t) = 6 - 12t using the power rule for derivatives."
       },
       {
         "label": "b",
         "command": "Justify",
         "question": "At t = 1 s, determine whether the speed of the particle is increasing or decreasing. Justify your answer by computing the dot product v · a.",
-        "rubric": "Earns 1 point for evaluating v and a at t = 1 s (v = (0, 0) m/s and a = (12, −6) m/s²), correctly computing the dot product v · a = 0, and concluding that speed is neither increasing nor decreasing (instantaneously constant or the particle is at a momentary rest), with justification that the sign of v · a determines whether speed increases or decreases."
+        "rubric": "Earns 1 point for evaluating v and a at t = 1 s (v = (0, 0) m/s and a = (12, -6) $m/s^2$), correctly computing the dot product v · a = 0, and concluding that speed is neither increasing nor decreasing (instantaneously constant or the particle is at a momentary rest), with justification that the sign of v · a determines whether speed increases or decreases."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "Integrate the velocity components from t = 0 to t = 2 s to find the displacement vector, then calculate the magnitude of the displacement.",
-        "rubric": "Earns 1 point for correctly integrating vx(t) = 12t² − 12t and vy(t) = 6t − 6t² from 0 to 2 to obtain Δx = [4t³ − 6t²] from 0 to 2 = 32 − 24 = 8 m and Δy = [3t² − 2t³] from 0 to 2 = 12 − 16 = −4 m, then computing the magnitude |Δr| = √(8² + (−4)²) = √(64 + 16) = √80 = 4√5 ≈ 8.94 m."
+        "rubric": "Earns 1 point for correctly integrating vx(t) = 12$t^2$ - 12t and vy(t) = 6t - 6$t^2$ from 0 to 2 to obtain $\\Delta x$ = [4$t^3$ - 6$t^2$] from 0 to 2 = 32 - 24 = 8 m and $\\Delta y$ = [3$t^2$ - 2$t^3$] from 0 to 2 = 12 - 16 = -4 m, then computing the magnitude |$\\Delta r$| = √($8^2$ + (-4)²) = √(64 + 16) = √80 = 4√5 $\\approx$ 8.94 m."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly differentiates both x(t) and y(t) to obtain all four component functions: vx(t) = 12t² − 12t, vy(t) = 6t − 6t², ax(t) = 24t − 12, ay(t) = 6 − 12t using power rule differentiation.",
+        "description": "Correctly differentiates both x(t) and y(t) to obtain all four component functions: vx(t) = 12$t^2$ - 12t, vy(t) = 6t - 6$t^2$, ax(t) = 24t - 12, ay(t) = 6 - 12t using power rule differentiation.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -430,7 +430,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly integrates vx and vy from 0 to 2 s to find Δx = 8 m and Δy = −4 m, then computes |Δr| = √80 = 4√5 ≈ 8.94 m.",
+        "description": "Correctly integrates vx and vy from 0 to 2 s to find $\\Delta x$ = 8 m and $\\Delta y$ = -4 m, then computes |$\\Delta r$| = √80 = 4√5 $\\approx$ 8.94 m.",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -467,26 +467,26 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A small projectile launcher sits on a cart that moves along a straight horizontal track. At time t = 0, the cart has velocity v₀ = 4.0 m/s in the +x direction. The cart then decelerates due to friction; its velocity as a function of time is described by the expression v_cart(t) = 4.0 − 3.0t² (in m/s, with t in seconds). At exactly t = 1.0 s, the launcher fires a ball with a muzzle speed of 10.0 m/s directed at an angle of 37° above the horizontal, measured relative to the ground. The ball is launched from a height of 0 m above the ground (ground level). Take g = 10.0 m/s² downward and ignore air resistance. Use sin 37° = 0.60 and cos 37° = 0.80.",
+    "prompt": "A small projectile launcher sits on a cart that moves along a straight horizontal track. At time t = 0, the cart has velocity v₀ = 4.0 m/s in the +x direction. The cart then decelerates due to friction; its velocity as a function of time is described by the expression v_cart(t) = 4.0 - 3.0$t^2$ (in m/s, with t in seconds). At exactly t = 1.0 s, the launcher fires a ball with a muzzle speed of 10.0 m/s directed at an angle of 37° above the horizontal, measured relative to the ground. The ball is launched from a height of 0 m above the ground (ground level). Take g = 10.0 $m/s^2$ downward and ignore air resistance. Use sin 37° = 0.60 and cos 37° = 0.80.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Using calculus, determine the acceleration of the cart as a function of time, a_cart(t), and find the position of the cart at t = 1.0 s, given that the cart starts at x = 0 at t = 0.",
-        "rubric": "Differentiate v_cart(t) = 4.0 − 3.0t² with respect to time to obtain a_cart(t) = −6.0t m/s². Then integrate v_cart(t) from 0 to 1.0 s to get position: x(t) = 4.0t − t³; at t = 1.0 s, x = 4.0(1.0) − (1.0)³ = 3.0 m."
+        "rubric": "Differentiate v_cart(t) = 4.0 - 3.0$t^2$ with respect to time to obtain a_cart(t) = -6.0t $m/s^2$. Then integrate v_cart(t) from 0 to 1.0 s to get position: x(t) = 4.0t - $t^3$; at t = 1.0 s, x = 4.0(1.0) - (1.0)³ = 3.0 m."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Determine the velocity of the cart at the instant the ball is fired (t = 1.0 s), and then find the initial velocity components of the ball relative to the ground at the moment of launch.",
-        "rubric": "v_cart at t = 1.0 s: v_cart = 4.0 − 3.0(1.0)² = 1.0 m/s. The ball's velocity relative to ground = muzzle velocity relative to cart plus cart velocity. The muzzle velocity components relative to cart: v_x,muzzle = 10.0 cos37° = 8.0 m/s, v_y,muzzle = 10.0 sin37° = 6.0 m/s. Relative to ground: v_x0 = 8.0 + 1.0 = 9.0 m/s, v_y0 = 6.0 m/s."
+        "rubric": "v_cart at t = 1.0 s: v_cart = 4.0 - 3.0(1.0)² = 1.0 m/s. The ball's velocity relative to ground = muzzle velocity relative to cart plus cart velocity. The muzzle velocity components relative to cart: v_x,muzzle = 10.0 cos37° = 8.0 m/s, v_y,muzzle = 10.0 sin37° = 6.0 m/s. Relative to ground: v_x0 = 8.0 + 1.0 = 9.0 m/s, v_y0 = 6.0 m/s."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "Using the initial velocity components of the ball relative to the ground found in part (b), determine the time the ball is in the air and the horizontal range of the ball (measured from its launch point) when it returns to ground level.",
-        "rubric": "Vertical motion: y(t) = v_y0·t − ½g·t² = 0 at landing. 6.0t − 5.0t² = 0 → t(6.0 − 5.0t) = 0 → t = 1.2 s (non-zero solution). Horizontal range: Δx = v_x0·t = 9.0 × 1.2 = 10.8 m."
+        "rubric": "Vertical motion: y(t) = v_y0·t - $\\frac{1}{2}$g·$t^2$ = 0 at landing. 6.0t - 5.0$t^2$ = 0 → t(6.0 - 5.0t) = 0 → t = 1.2 s (non-zero solution). Horizontal range: $\\Delta x$ = v_x0·t = 9.0 × 1.2 = 10.8 m."
       },
       {
         "label": "d",
@@ -498,14 +498,14 @@ window.APPHYSCEM_FRQ = [
         "label": "e",
         "command": "Calculate",
         "question": "After the ball is launched at t = 1.0 s, the cart continues to decelerate. Using calculus, find the total distance the cart travels from t = 1.0 s until it momentarily stops, and determine the time at which it stops.",
-        "rubric": "Set v_cart(t) = 0: 4.0 − 3.0t² = 0 → t² = 4/3 → t = 2/√3 ≈ 1.155 s. Distance from t = 1.0 s to t = 2/√3 s: integrate v_cart from 1.0 to 2/√3: ∫[4.0 − 3.0t²]dt = [4.0t − t³] evaluated from 1.0 to 2/√3. At t = 2/√3: 4(2/√3) − (2/√3)³ = 8/√3 − 8/(3√3) = 24/(3√3) − 8/(3√3) = 16/(3√3) ≈ 3.079 m. At t = 1.0: 4.0 − 1.0 = 3.0 m. Distance = 3.079 − 3.0 ≈ 0.079 m (approximately 16/(3√3) − 3 m)."
+        "rubric": "Set v_cart(t) = 0: 4.0 - 3.0$t^2$ = 0 → $t^2$ = 4/3 → t = 2/√3 $\\approx$ 1.155 s. Distance from t = 1.0 s to t = 2/√3 s: integrate v_cart from 1.0 to 2/√3: ∫[4.0 - 3.0$t^2$]dt = [4.0t - $t^3$] evaluated from 1.0 to 2/√3. At t = 2/√3: 4(2/√3) - (2/√3)³ = 8/√3 - 8/(3√3) = 24/(3√3) - 8/(3√3) = 16/(3√3) $\\approx$ 3.079 m. At t = 1.0: 4.0 - 1.0 = 3.0 m. Distance = 3.079 - 3.0 $\\approx$ 0.079 m (approximately 16/(3√3) - 3 m)."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly differentiates v_cart(t) = 4.0 − 3.0t² to obtain a_cart(t) = −6.0t m/s², and correctly integrates v_cart(t) from 0 to 1.0 s to find x(1.0) = 3.0 m.",
+        "description": "Correctly differentiates v_cart(t) = 4.0 - 3.0$t^2$ to obtain a_cart(t) = -6.0t $m/s^2$, and correctly integrates v_cart(t) from 0 to 1.0 s to find x(1.0) = 3.0 m.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -655,7 +655,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Correctly sets v_cart(t) = 0 to find stop time t = 2/√3 ≈ 1.155 s, then evaluates the definite integral ∫₁^(2/√3) v_cart dt to find the distance traveled ≈ 0.079 m (16/(3√3) − 3 m).",
+        "description": "Correctly sets v_cart(t) = 0 to find stop time t = 2/√3 $\\approx$ 1.155 s, then evaluates the definite integral ∫₁^(2/√3) v_cart dt to find the distance traveled $\\approx$ 0.079 m (16/(3√3) - 3 m).",
         "partLabel": "e",
         "skill": "calculate",
         "keywords": [
@@ -703,45 +703,45 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A small drone is launched from a rooftop at height H = 80 m above the ground. At time t = 0, the drone has an initial horizontal velocity v₀ₓ = 12 m/s and zero vertical velocity. After launch, a horizontal thruster produces a time-varying horizontal acceleration given by aₓ(t) = 6t − 4 (in m/s²), while the only vertical acceleration is due to gravity, aᵧ = −g = −10 m/s² (downward positive taken as negative). A ground-level observer stands at a horizontal distance d = 50 m from the base of the building directly below the launch point and moves toward the building at a constant speed u = 2 m/s starting at t = 0. Use g = 10 m/s² throughout.",
+    "prompt": "A small drone is launched from a rooftop at height H = 80 m above the ground. At time t = 0, the drone has an initial horizontal velocity v₀ₓ = 12 m/s and zero vertical velocity. After launch, a horizontal thruster produces a time-varying horizontal acceleration given by aₓ(t) = 6t - 4 (in $m/s^2$), while the only vertical acceleration is due to gravity, aᵧ = -g = -10 $m/s^2$ (downward positive taken as negative). A ground-level observer stands at a horizontal distance d = 50 m from the base of the building directly below the launch point and moves toward the building at a constant speed u = 2 m/s starting at t = 0. Use g = 10 $m/s^2$ throughout.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
-        "question": "Using integration of the horizontal acceleration function aₓ(t) = 6t − 4, derive expressions for the horizontal velocity vₓ(t) and horizontal position x(t) of the drone as functions of time. Apply the appropriate initial conditions.",
-        "rubric": "Student must integrate aₓ(t) = 6t − 4 to obtain vₓ(t) = 3t² − 4t + 12 (applying v₀ₓ = 12 m/s), then integrate again to obtain x(t) = t³ − 2t² + 12t. Both integrations must be shown with constants of integration evaluated using initial conditions x(0) = 0 and vₓ(0) = 12 m/s."
+        "question": "Using integration of the horizontal acceleration function aₓ(t) = 6t - 4, derive expressions for the horizontal velocity vₓ(t) and horizontal position x(t) of the drone as functions of time. Apply the appropriate initial conditions.",
+        "rubric": "Student must integrate aₓ(t) = 6t - 4 to obtain vₓ(t) = 3$t^2$ - 4t + 12 (applying v₀ₓ = 12 m/s), then integrate again to obtain x(t) = $t^3$ - 2$t^2$ + 12t. Both integrations must be shown with constants of integration evaluated using initial conditions x(0) = 0 and vₓ(0) = 12 m/s."
       },
       {
         "label": "b",
         "command": "Calculate",
-        "question": "Determine the time t_land at which the drone strikes the ground. Then calculate the horizontal position x(t_land) of the drone at the moment of impact. (Hint: Use the vertical kinematic equation with aᵧ = −10 m/s² and y₀ = 80 m.)",
-        "rubric": "Student sets y(t) = 80 − ½(10)t² = 0, solving to get t_land = 4 s. Then substitutes into x(t) = t³ − 2t² + 12t: x(4) = 64 − 32 + 48 = 80 m."
+        "question": "Determine the time t_land at which the drone strikes the ground. Then calculate the horizontal position x(t_land) of the drone at the moment of impact. (Hint: Use the vertical kinematic equation with aᵧ = -10 $m/s^2$ and y₀ = 80 m.)",
+        "rubric": "Student sets y(t) = 80 - $\\frac{1}{2}$(10)$t^2$ = 0, solving to get t_land = 4 s. Then substitutes into x(t) = $t^3$ - 2$t^2$ + 12t: x(4) = 64 - 32 + 48 = 80 m."
       },
       {
         "label": "c",
         "command": "Explain",
         "question": "The horizontal acceleration has a zero crossing at some time t*. Find t* by setting aₓ(t*) = 0, and explain using the derivative of velocity (dv/dt) what physical significance this moment has for the drone's horizontal motion.",
-        "rubric": "Student sets 6t − 4 = 0 to get t* = 2/3 s. Explanation must state that dv/dt = aₓ = 0 at t* means horizontal velocity has a local minimum (the horizontal speed is momentarily not changing / instantaneous rate of change of horizontal velocity is zero), and since the second derivative of vₓ with respect to t is positive (d²vₓ/dt² = 6 > 0), this is a minimum of horizontal velocity, meaning vₓ is at its lowest value before increasing again."
+        "rubric": "Student sets 6t - 4 = 0 to get t* = 2/3 s. Explanation must state that dv/dt = aₓ = 0 at t* means horizontal velocity has a local minimum (the horizontal speed is momentarily not changing / instantaneous rate of change of horizontal velocity is zero), and since the second derivative of vₓ with respect to t is positive ($d^2$vₓ/d$t^2$ = 6 > 0), this is a minimum of horizontal velocity, meaning vₓ is at its lowest value before increasing again."
       },
       {
         "label": "d",
         "command": "Calculate",
-        "question": "The observer on the ground starts at x_obs = 50 m (measured from the base of the building) and moves toward the building at u = 2 m/s, so x_obs(t) = 50 − 2t. Using relative motion, determine the position of the drone relative to the observer, x_rel(t) = x_drone(t) − x_obs(t), and find the time(s) at which the drone is directly above the observer.",
-        "rubric": "Student writes x_rel(t) = (t³ − 2t² + 12t) − (50 − 2t) = t³ − 2t² + 14t − 50. Sets x_rel = 0: t³ − 2t² + 14t − 50 = 0. Testing t = 2: 8 − 8 + 28 − 50 = −22 ≠ 0. Testing t ≈ 2.5 or using numerical/factoring methods - the real root is approximately t ≈ 2.83 s (acceptable range 2.8-2.9 s). Credit earned for correct expression of x_rel(t) = t³ − 2t² + 14t − 50 AND setting it equal to zero with a valid solution method yielding t ≈ 2.83 s."
+        "question": "The observer on the ground starts at x_obs = 50 m (measured from the base of the building) and moves toward the building at u = 2 m/s, so x_obs(t) = 50 - 2t. Using relative motion, determine the position of the drone relative to the observer, x_rel(t) = x_drone(t) - x_obs(t), and find the time(s) at which the drone is directly above the observer.",
+        "rubric": "Student writes x_rel(t) = ($t^3$ - 2$t^2$ + 12t) - (50 - 2t) = $t^3$ - 2$t^2$ + 14t - 50. Sets x_rel = 0: $t^3$ - 2$t^2$ + 14t - 50 = 0. Testing t = 2: 8 - 8 + 28 - 50 = -22 $\\neq$ 0. Testing t $\\approx$ 2.5 or using numerical/factoring methods - the real root is approximately t $\\approx$ 2.83 s (acceptable range 2.8-2.9 s). Credit earned for correct expression of x_rel(t) = $t^3$ - 2$t^2$ + 14t - 50 AND setting it equal to zero with a valid solution method yielding t $\\approx$ 2.83 s."
       },
       {
         "label": "e",
         "command": "Justify",
         "question": "A student claims that the total horizontal displacement of the drone can be found by computing ∫₀^(t_land) vₓ(t) dt rather than evaluating x(t_land) directly, and that both methods must give the same result. Justify whether the student is correct, referencing the fundamental theorem of calculus and the relationship between velocity and displacement.",
-        "rubric": "Student must correctly state that by the fundamental theorem of calculus, ∫₀^T vₓ(t) dt = x(T) − x(0), and since x(0) = 0 the integral equals x(T) = x(t_land). Evaluating ∫₀⁴ (3t² − 4t + 12) dt = [t³ − 2t² + 12t]₀⁴ = 64 − 32 + 48 = 80 m confirms the same result. Student must explicitly cite the antiderivative relationship dx/dt = vₓ or the fundamental theorem of calculus connecting the integral of velocity to displacement."
+        "rubric": "Student must correctly state that by the fundamental theorem of calculus, ∫₀^T vₓ(t) dt = x(T) - x(0), and since x(0) = 0 the integral equals x(T) = x(t_land). Evaluating ∫₀⁴ (3$t^2$ - 4t + 12) dt = [$t^3$ - 2$t^2$ + 12t]₀⁴ = 64 - 32 + 48 = 80 m confirms the same result. Student must explicitly cite the antiderivative relationship dx/dt = vₓ or the fundamental theorem of calculus connecting the integral of velocity to displacement."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly integrates aₓ(t) = 6t − 4 twice with proper initial conditions to obtain vₓ(t) = 3t² − 4t + 12 and x(t) = t³ − 2t² + 12t.",
+        "description": "Correctly integrates aₓ(t) = 6t - 4 twice with proper initial conditions to obtain vₓ(t) = 3$t^2$ - 4t + 12 and x(t) = $t^3$ - 2$t^2$ + 12t.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -855,7 +855,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correctly writes x_rel(t) = t³ − 2t² + 14t − 50 using relative motion and finds the real root t ≈ 2.83 s.",
+        "description": "Correctly writes x_rel(t) = $t^3$ - 2$t^2$ + 14t - 50 using relative motion and finds the real root t $\\approx$ 2.83 s.",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -893,7 +893,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Justifies that ∫₀⁴ vₓ(t) dt = x(4) − x(0) = 80 m by explicitly invoking the fundamental theorem of calculus and the antiderivative relationship dx/dt = vₓ.",
+        "description": "Justifies that ∫₀⁴ vₓ(t) dt = x(4) - x(0) = 80 m by explicitly invoking the fundamental theorem of calculus and the antiderivative relationship dx/dt = vₓ.",
         "partLabel": "e",
         "skill": "justify",
         "keywords": [
@@ -942,7 +942,7 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A block of mass m = 4.0 kg is placed on a fixed inclined plane that makes an angle θ = 30° with the horizontal. The coefficient of kinetic friction between the block and the surface is μk = 0.20. The block is given a brief push and then released, sliding down the incline. Take g = 10 m/s².\n\nAnswer each part for the block as it slides down the incline after the push.",
+    "prompt": "A block of mass m = 4.0 kg is placed on a fixed inclined plane that makes an angle θ = 30° with the horizontal. The coefficient of kinetic friction between the block and the surface is $\\mu$k = 0.20. The block is given a brief push and then released, sliding down the incline. Take g = 10 $m/s^2$.\n\nAnswer each part for the block as it slides down the incline after the push.",
     "starterCode": null,
     "parts": [
       {
@@ -955,13 +955,13 @@ window.APPHYSCEM_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Using Newton's second law in component form, write the differential equation of motion (in the form m dv/dt = ) for the block along the incline direction, and solve for the magnitude of the block's acceleration a as it slides down.",
-        "rubric": "Student earns the point by correctly applying Newton's second law along the incline: m(dv/dt) = mg sinθ − μk mg cosθ, then solving to get a = g(sinθ − μk cosθ) = 10(sin30° − 0.20·cos30°) = 10(0.500 − 0.173) ≈ 3.27 m/s² ≈ 3.3 m/s²."
+        "rubric": "Student earns the point by correctly applying Newton's second law along the incline: m(dv/dt) = mg sinθ - $\\mu$k mg cosθ, then solving to get a = g(sinθ - $\\mu$k cosθ) = 10(sin30° - 0.20·cos30°) = 10(0.500 - 0.173) $\\approx$ 3.27 $m/s^2$ $\\approx$ 3.3 $m/s^2$."
       },
       {
         "label": "c",
         "command": "Justify",
         "question": "A student claims that if the angle θ were decreased sufficiently, the block would not slide even if given the same push, eventually coming to rest on the incline. Justify whether this claim is correct using the expression for acceleration derived in part (b) and the condition for the net force along the incline.",
-        "rubric": "Student earns the point by recognizing that when mg sinθ < fk = μk mg cosθ, i.e., tanθ < μk, the net force along the incline is directed up the incline (opposing any downward motion), so the block decelerates and comes to rest; since static friction can then hold it, the claim is correct."
+        "rubric": "Student earns the point by recognizing that when mg sinθ < fk = $\\mu$k mg cosθ, i.e., tanθ < $\\mu$k, the net force along the incline is directed up the incline (opposing any downward motion), so the block decelerates and comes to rest; since static friction can then hold it, the claim is correct."
       }
     ],
     "rubric": [
@@ -992,7 +992,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student applies Newton's second law in component form along the incline, writes m(dv/dt) = mg sinθ − μk mg cosθ, and correctly solves for acceleration a = g(sinθ − μk cosθ) ≈ 3.3 m/s².",
+        "description": "Student applies Newton's second law in component form along the incline, writes m(dv/dt) = mg sinθ - $\\mu$k mg cosθ, and correctly solves for acceleration a = g(sinθ - $\\mu$k cosθ) $\\approx$ 3.3 $m/s^2$.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -1016,7 +1016,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student justifies the claim by showing that when tanθ < μk (i.e., mg sinθ < μk mg cosθ), the net force along the incline opposes downward motion, causing deceleration to rest, and static friction maintains equilibrium.",
+        "description": "Student justifies the claim by showing that when tanθ < $\\mu$k (i.e., mg sinθ < $\\mu$k mg cosθ), the net force along the incline opposes downward motion, causing deceleration to rest, and static friction maintains equilibrium.",
         "partLabel": "c",
         "skill": "justify",
         "keywords": [
@@ -1074,26 +1074,26 @@ window.APPHYSCEM_FRQ = [
         "label": "a",
         "command": "Describe",
         "question": "Draw and label a free body diagram of the car as seen from behind (looking along the direction of travel). Identify all forces acting on the car, indicating their directions, and explain why the net vertical acceleration is zero while the net horizontal acceleration is directed toward the center of the curve.",
-        "rubric": "Earns 1 point for correctly identifying the normal force N perpendicular to the banked surface (directed up and inward), the weight mg directed straight downward, and the static friction force fs directed up the bank (inward and upward) for a car traveling at or below the ideal speed. The student must state that vertical equilibrium (ay = 0) requires the vertical components of N and fs to balance mg, while the horizontal components of N and fs provide the centripetal acceleration ac = v²/R directed toward the center, consistent with Newton's second law in the radial direction: ΣFx = mv²/R."
+        "rubric": "Earns 1 point for correctly identifying the normal force N perpendicular to the banked surface (directed up and inward), the weight mg directed straight downward, and the static friction force fs directed up the bank (inward and upward) for a car traveling at or below the ideal speed. The student must state that vertical equilibrium (ay = 0) requires the vertical components of N and fs to balance mg, while the horizontal components of N and fs provide the centripetal acceleration ac = $v^2$/R directed toward the center, consistent with Newton's second law in the radial direction: ΣFx = m$v^2$/R."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using Newton's second law applied to both the vertical and horizontal (radial) directions, derive an expression for the normal force N acting on the car in terms of m, g, θ, v, R, and μs. Assume the car is on the verge of sliding down the bank (friction acts up the incline).",
-        "rubric": "Earns 1 point for correctly applying Newton's second law in both directions and solving for N. Vertical equation: N cosθ + fs sinθ − mg = 0, where fs = μsN. Substituting: N cosθ + μsN sinθ = mg, so N(cosθ + μs sinθ) = mg, giving N = mg / (cosθ + μs sinθ). The radial equation ΣF = mv²/R must be referenced: N sinθ − fs cosθ = mv²/R, consistent with the setup. Full credit requires correct algebraic manipulation isolating N."
+        "rubric": "Earns 1 point for correctly applying Newton's second law in both directions and solving for N. Vertical equation: N cosθ + fs sinθ - mg = 0, where fs = μsN. Substituting: N cosθ + μsN sinθ = mg, so N(cosθ + μs sinθ) = mg, giving N = mg / (cosθ + μs sinθ). The radial equation ΣF = m$v^2$/R must be referenced: N sinθ - fs cosθ = m$v^2$/R, consistent with the setup. Full credit requires correct algebraic manipulation isolating N."
       },
       {
         "label": "c",
         "command": "Justify",
-        "question": "For the frictionless (ideal) banking case, show that the ideal banking angle θ_ideal satisfies tan(θ_ideal) = v²/(Rg), and explain using Newton's second law why this angle produces zero friction force. Then determine the units of v²/(Rg) to confirm it is dimensionless.",
-        "rubric": "Earns 1 point for correctly deriving tan(θ_ideal) = v²/(Rg) from the frictionless equations: vertical equilibrium N cosθ = mg and radial Newton's second law N sinθ = mv²/R; dividing these equations yields sinθ/cosθ = tanθ = v²/(Rg). Student must state that at this specific angle the normal force alone supplies both the vertical support and the centripetal force mv²/R, requiring zero static friction force (fs = 0). Unit check: [v²/(Rg)] = (m²/s²)/((m)(m/s²)) = dimensionless, confirming tanθ is unitless."
+        "question": "For the frictionless (ideal) banking case, show that the ideal banking angle θ_ideal satisfies tan(θ_ideal) = $v^2$/(Rg), and explain using Newton's second law why this angle produces zero friction force. Then determine the units of $v^2$/(Rg) to confirm it is dimensionless.",
+        "rubric": "Earns 1 point for correctly deriving tan(θ_ideal) = $v^2$/(Rg) from the frictionless equations: vertical equilibrium N cosθ = mg and radial Newton's second law N sinθ = m$v^2$/R; dividing these equations yields sinθ/cosθ = tanθ = $v^2$/(Rg). Student must state that at this specific angle the normal force alone supplies both the vertical support and the centripetal force m$v^2$/R, requiring zero static friction force (fs = 0). Unit check: [$v^2$/(Rg)] = ($m^2$/$s^2$)/((m)($m/s^2$)) = dimensionless, confirming tanθ is unitless."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correct free body diagram with normal force perpendicular to banked surface, weight mg downward, static friction up the bank; correct explanation that vertical components sum to zero (ay = 0) and horizontal components provide centripetal acceleration v²/R toward center via Newton's second law.",
+        "description": "Correct free body diagram with normal force perpendicular to banked surface, weight mg downward, static friction up the bank; correct explanation that vertical components sum to zero (ay = 0) and horizontal components provide centripetal acceleration $v^2$/R toward center via Newton's second law.",
         "partLabel": "a",
         "skill": "describe",
         "keywords": [
@@ -1132,7 +1132,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correct derivation of N = mg / (cosθ + μs sinθ) by applying Newton's second law vertically (N cosθ + μsN sinθ = mg) and referencing the radial equation (N sinθ − μsN cosθ = mv²/R); correct algebraic isolation of N.",
+        "description": "Correct derivation of N = mg / (cosθ + μs sinθ) by applying Newton's second law vertically (N cosθ + μsN sinθ = mg) and referencing the radial equation (N sinθ - μsN cosθ = m$v^2$/R); correct algebraic isolation of N.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -1171,7 +1171,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correct derivation of tan(θ_ideal) = v²/(Rg) by dividing the frictionless radial equation N sinθ = mv²/R by the vertical equation N cosθ = mg; correct justification that fs = 0 because normal force alone supplies centripetal force and vertical support; correct unit analysis confirming v²/(Rg) is dimensionless.",
+        "description": "Correct derivation of tan(θ_ideal) = $v^2$/(Rg) by dividing the frictionless radial equation N sinθ = m$v^2$/R by the vertical equation N cosθ = mg; correct justification that fs = 0 because normal force alone supplies centripetal force and vertical support; correct unit analysis confirming $v^2$/(Rg) is dimensionless.",
         "partLabel": "c",
         "skill": "justify",
         "keywords": [
@@ -1221,7 +1221,7 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A small sphere of mass m is attached to a massless string of length L and moves in a horizontal circle of radius r on a frictionless surface inside a large rotating platform. The platform rotates at constant angular velocity ω about a vertical axis. An observer standing on the rotating platform observes the sphere to be stationary. A second observer in an inertial (lab) frame watches the sphere undergo uniform circular motion. The sphere also experiences a small velocity-dependent drag force of magnitude F_d = bv, where b is a positive drag coefficient and v is the speed of the sphere as measured in the inertial frame. For parts (a) and (b), treat the drag force as negligible (b ≈ 0). For part (c), restore the drag force.",
+    "prompt": "A small sphere of mass m is attached to a massless string of length L and moves in a horizontal circle of radius r on a frictionless surface inside a large rotating platform. The platform rotates at constant angular velocity ω about a vertical axis. An observer standing on the rotating platform observes the sphere to be stationary. A second observer in an inertial (lab) frame watches the sphere undergo uniform circular motion. The sphere also experiences a small velocity-dependent drag force of magnitude F_d = bv, where b is a positive drag coefficient and v is the speed of the sphere as measured in the inertial frame. For parts (a) and (b), treat the drag force as negligible (b $\\approx$ 0). For part (c), restore the drag force.",
     "starterCode": null,
     "parts": [
       {
@@ -1234,13 +1234,13 @@ window.APPHYSCEM_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Using the inertial (lab) frame analysis and Newton's second law in its differential form, derive an expression for the tension T in the string as a function of m, ω, and r. Then write the equation of motion as a second-order differential equation in polar coordinates for the radial coordinate r(t), and verify that r = constant is a valid solution when T = mω²r.",
-        "rubric": "Earns 1 point for correctly applying Newton's second law in the radial direction (ΣF_r = m·a_r = −mω²r, so T = mω²r), writing the radial equation of motion m(r̈ − rθ̇²) = −T, substituting T = mω²r and θ̇ = ω to obtain r̈ = 0, and concluding r = constant satisfies the differential equation."
+        "rubric": "Earns 1 point for correctly applying Newton's second law in the radial direction (ΣF_r = m·a_r = -mω²r, so T = mω²r), writing the radial equation of motion m(r̈ - rθ̇²) = -T, substituting T = mω²r and θ̇ = ω to obtain r̈ = 0, and concluding r = constant satisfies the differential equation."
       },
       {
         "label": "c",
         "command": "Justify",
         "question": "Now restore the drag force F_d = bv acting opposite to the sphere's instantaneous velocity in the inertial frame, where v = rω is the tangential speed. Write a differential equation governing the tangential component of the sphere's motion. Without solving it fully, justify using calculus-based reasoning why the sphere cannot maintain uniform circular motion at fixed radius r, and describe qualitatively how r(t) evolves over time.",
-        "rubric": "Earns 1 point for writing the tangential equation of motion m·(dv/dt) = −bv (or equivalently m·r·(dω/dt) = −brω, giving dω/dt = −(b/m)ω), recognizing this implies ω decays exponentially as ω(t) = ω₀e^(−bt/m), and justifying that as ω decreases the centripetal acceleration rω² decreases below T/m causing a net inward force, so r(t) decreases (the sphere spirals inward)."
+        "rubric": "Earns 1 point for writing the tangential equation of motion m·(dv/dt) = -bv (or equivalently m·r·(dω/dt) = -brω, giving dω/dt = -(b/m)ω), recognizing this implies ω decays exponentially as $\\omega$(t) = ω₀e^(-bt/m), and justifying that as ω decreases the centripetal acceleration rω² decreases below T/m causing a net inward force, so r(t) decreases (the sphere spirals inward)."
       }
     ],
     "rubric": [
@@ -1287,7 +1287,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student correctly applies Newton's second law in the radial direction to obtain T = mω²r, writes the radial differential equation of motion m(r̈ − rθ̇²) = −T in polar coordinates, substitutes T = mω²r and θ̇ = ω to obtain r̈ = 0, and explicitly verifies r = constant is a valid solution.",
+        "description": "Student correctly applies Newton's second law in the radial direction to obtain T = mω²r, writes the radial differential equation of motion m(r̈ - rθ̇²) = -T in polar coordinates, substitutes T = mω²r and θ̇ = ω to obtain r̈ = 0, and explicitly verifies r = constant is a valid solution.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -1327,7 +1327,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student writes the tangential differential equation m·(dv/dt) = −bv or equivalently m·(dω/dt) = −bω, recognizes the exponential decay solution ω(t) = ω₀e^(−bt/m) from separation of variables or linear ODE reasoning, argues that decaying ω means centripetal acceleration rω² becomes insufficient to maintain circular orbit, and concludes r(t) decreases as the sphere spirals inward.",
+        "description": "Student writes the tangential differential equation m·(dv/dt) = -bv or equivalently m·(dω/dt) = -bω, recognizes the exponential decay solution $\\omega$(t) = ω₀e^(-bt/m) from separation of variables or linear ODE reasoning, argues that decaying ω means centripetal acceleration rω² becomes insufficient to maintain circular orbit, and concludes r(t) decreases as the sphere spirals inward.",
         "partLabel": "c",
         "skill": "justify",
         "keywords": [
@@ -1379,7 +1379,7 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A small block of mass m = 0.50 kg is placed on a horizontal turntable at a distance r = 0.30 m from the rotation axis. The turntable starts from rest and its angular velocity increases at a constant rate α = 2.0 rad/s² (angular acceleration). The coefficient of static friction between the block and the turntable surface is μs = 0.60, and the coefficient of kinetic friction is μk = 0.40. The turntable surface is horizontal and g = 9.8 m/s². As the turntable spins up, the block must be kept in place by static friction. At some critical angular velocity ωc, the block begins to slip. After slipping begins, the block experiences a velocity-dependent drag force in addition to kinetic friction, given by F_drag = bv, where b = 0.10 N·s/m and v is the speed of the block relative to the turntable surface. Use calculus-based reasoning throughout your responses.",
+    "prompt": "A small block of mass m = 0.50 kg is placed on a horizontal turntable at a distance r = 0.30 m from the rotation axis. The turntable starts from rest and its angular velocity increases at a constant rate α = 2.0 $rad/s^2$ (angular acceleration). The coefficient of static friction between the block and the turntable surface is μs = 0.60, and the coefficient of kinetic friction is $\\mu$k = 0.40. The turntable surface is horizontal and g = 9.8 $m/s^2$. As the turntable spins up, the block must be kept in place by static friction. At some critical angular velocity ωc, the block begins to slip. After slipping begins, the block experiences a velocity-dependent drag force in addition to kinetic friction, given by F_drag = bv, where b = 0.10 N·s/m and v is the speed of the block relative to the turntable surface. Use calculus-based reasoning throughout your responses.",
     "starterCode": null,
     "parts": [
       {
@@ -1392,25 +1392,25 @@ window.APPHYSCEM_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Derive an expression for the critical angular velocity ωc at which the block first begins to slip. Express your answer in terms of m, r, α, μs, and g. Then calculate the numerical value of ωc.",
-        "rubric": "The magnitude of the net static friction force has centripetal component mω²r and tangential component mαr. Slipping begins when the total required friction equals μs·mg: sqrt((mω²r)² + (mαr)²) = μs·mg. Solving: ωc⁴ + α² = (μs g/r)² → ωc⁴ = (μs g/r)² − α² = (19.6)² − (2.0)² = 384.16 − 4.0 = 380.16, so ωc² = sqrt(380.16) ≈ 19.50, ωc ≈ 4.41 rad/s. Full credit for correct setup of vector magnitude condition and correct algebra leading to ωc ≈ 4.4 rad/s."
+        "rubric": "The magnitude of the net static friction force has centripetal component mω²r and tangential component mαr. Slipping begins when the total required friction equals μs·mg: sqrt((mω²r)² + (mαr)²) = μs·mg. Solving: ωc⁴ + α² = (μs g/r)² → ωc⁴ = (μs g/r)² - α² = (19.6)² - (2.0)² = 384.16 - 4.0 = 380.16, so ω$c^2$ = sqrt(380.16) $\\approx$ 19.50, ωc $\\approx$ 4.41 rad/s. Full credit for correct setup of vector magnitude condition and correct algebra leading to ωc $\\approx$ 4.4 rad/s."
       },
       {
         "label": "c",
         "command": "Explain",
-        "question": "After the block begins to slip, the net tangential force on the block (relative to the turntable surface) is given by Newton's second law: m(dv/dt) = −μk·mg − bv, where v is the speed of the block relative to the turntable surface and the right-hand side represents opposing forces. Set up and solve this first-order linear differential equation to find v(t), the speed of the block relative to the turntable as a function of time after slipping begins. Let v(0) = v₀ at the moment slipping starts.",
-        "rubric": "Student must correctly identify the ODE: m dv/dt = −μk m g − b v. Rearranging: dv/dt = −(μk g) − (b/m)v. This is a first-order linear ODE. Let τ = m/b (time constant). Particular solution: v_particular = −μk m g / b. General solution: v(t) = (v₀ + μk m g/b)e^(−(b/m)t) − μk m g / b. Full credit requires separation of variables or integrating factor method, correct identification of the time constant m/b, and the correct form of v(t) with initial condition applied."
+        "question": "After the block begins to slip, the net tangential force on the block (relative to the turntable surface) is given by Newton's second law: m(dv/dt) = -$\\mu$k·mg - bv, where v is the speed of the block relative to the turntable surface and the right-hand side represents opposing forces. Set up and solve this first-order linear differential equation to find v(t), the speed of the block relative to the turntable as a function of time after slipping begins. Let v(0) = v₀ at the moment slipping starts.",
+        "rubric": "Student must correctly identify the ODE: m dv/dt = -$\\mu$k m g - b v. Rearranging: dv/dt = -($\\mu$k g) - (b/m)v. This is a first-order linear ODE. Let τ = m/b (time constant). Particular solution: v_particular = -$\\mu$k m g / b. General solution: v(t) = (v₀ + $\\mu$k m g/b)e^(-(b/m)t) - $\\mu$k m g / b. Full credit requires separation of variables or integrating factor method, correct identification of the time constant m/b, and the correct form of v(t) with initial condition applied."
       },
       {
         "label": "d",
         "command": "Justify",
         "question": "A student observes the system from the non-inertial reference frame of the rotating turntable at angular velocity ω (after slipping begins). In this frame, the student claims the block appears to accelerate radially outward. Justify whether this is correct by identifying the fictitious (pseudo) force(s) present in the rotating frame, writing the equation of motion in the rotating frame, and explaining the physical origin of each fictitious force term.",
-        "rubric": "In the rotating (non-inertial) reference frame, two fictitious forces appear: the centrifugal force (mω²r directed radially outward) and the Coriolis force (−2m(ω × v_rel) directed perpendicular to the relative velocity). The equation of motion in the rotating frame is: m a_rel = F_real + mω²r r̂ − 2m(ω × v_rel). The centrifugal force mω²r acts outward and exceeds the centripetal friction once slipping starts, causing apparent outward acceleration. The student's claim is correct: the net fictitious outward force (centrifugal) combined with kinetic friction produces an apparent radially outward acceleration in the rotating frame. Full credit requires naming both fictitious forces, stating their directions, and correctly writing or describing the rotating-frame equation of motion."
+        "rubric": "In the rotating (non-inertial) reference frame, two fictitious forces appear: the centrifugal force (mω²r directed radially outward) and the Coriolis force (-2m(ω × v_rel) directed perpendicular to the relative velocity). The equation of motion in the rotating frame is: m a_rel = F_real + mω²r r̂ - 2m(ω × v_rel). The centrifugal force mω²r acts outward and exceeds the centripetal friction once slipping starts, causing apparent outward acceleration. The student's claim is correct: the net fictitious outward force (centrifugal) combined with kinetic friction produces an apparent radially outward acceleration in the rotating frame. Full credit requires naming both fictitious forces, stating their directions, and correctly writing or describing the rotating-frame equation of motion."
       },
       {
         "label": "e",
         "command": "Predict",
-        "question": "Using your result from part (c), predict what happens to the relative speed v(t) as t → ∞. Does the block reach a terminal relative speed? If so, derive an expression for this terminal speed v_terminal in terms of the given quantities, and explain physically why the block stops accelerating relative to the turntable surface at that speed.",
-        "rubric": "As t → ∞, the exponential term e^(−(b/m)t) → 0, so v(t) → −μk m g / b. Since speed is positive, the terminal relative speed magnitude is v_terminal = μk m g / b. Numerically: v_terminal = (0.40)(0.50)(9.8)/0.10 = 19.6 m/s. Physically, terminal speed is reached when the drag force bv exactly balances the kinetic friction force μk m g, so the net tangential force is zero and dv/dt = 0 (Newton's second law gives zero net force). Full credit requires taking the limit, stating v_terminal = μk m g / b, the numerical value, and the physical explanation invoking Newton's second law with zero net force at terminal speed."
+        "question": "Using your result from part (c), predict what happens to the relative speed v(t) as t → $\\infty$. Does the block reach a terminal relative speed? If so, derive an expression for this terminal speed v_terminal in terms of the given quantities, and explain physically why the block stops accelerating relative to the turntable surface at that speed.",
+        "rubric": "As t → $\\infty$, the exponential term e^(-(b/m)t) → 0, so v(t) → -$\\mu$k m g / b. Since speed is positive, the terminal relative speed magnitude is v_terminal = $\\mu$k m g / b. Numerically: v_terminal = (0.40)(0.50)(9.8)/0.10 = 19.6 m/s. Physically, terminal speed is reached when the drag force bv exactly balances the kinetic friction force $\\mu$k m g, so the net tangential force is zero and dv/dt = 0 (Newton's second law gives zero net force). Full credit requires taking the limit, stating v_terminal = $\\mu$k m g / b, the numerical value, and the physical explanation invoking Newton's second law with zero net force at terminal speed."
       }
     ],
     "rubric": [
@@ -1456,7 +1456,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correct derivation of ωc by setting the vector magnitude of net required static friction equal to μs·mg, solving the resulting equation, and arriving at ωc ≈ 4.4 rad/s.",
+        "description": "Correct derivation of ωc by setting the vector magnitude of net required static friction equal to μs·mg, solving the resulting equation, and arriving at ωc $\\approx$ 4.4 rad/s.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -1495,7 +1495,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly sets up first-order linear ODE m dv/dt = −μk mg − bv, solves using separation of variables or integrating factor, identifies time constant τ = m/b, and writes correct solution v(t) = (v₀ + μk mg/b)e^(−(b/m)t) − μk mg/b.",
+        "description": "Correctly sets up first-order linear ODE m dv/dt = -$\\mu$k mg - bv, solves using separation of variables or integrating factor, identifies time constant τ = m/b, and writes correct solution v(t) = (v₀ + $\\mu$k mg/b)e^(-(b/m)t) - $\\mu$k mg/b.",
         "partLabel": "c",
         "skill": "explain",
         "keywords": [
@@ -1534,7 +1534,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correctly identifies centrifugal force (mω²r radially outward) and Coriolis force (−2m ω×v_rel) as fictitious forces in the rotating frame, writes the rotating-frame equation of motion, and explains that the centrifugal force causes apparent outward acceleration, validating the student's observation.",
+        "description": "Correctly identifies centrifugal force (mω²r radially outward) and Coriolis force (-2m ω×v_rel) as fictitious forces in the rotating frame, writes the rotating-frame equation of motion, and explains that the centrifugal force causes apparent outward acceleration, validating the student's observation.",
         "partLabel": "d",
         "skill": "justify",
         "keywords": [
@@ -1572,7 +1572,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Correctly takes the limit as t→∞ to find v_terminal = μk mg/b ≈ 19.6 m/s, and explains physically that at terminal speed the drag force bv_terminal equals kinetic friction μk mg so net force is zero (Newton's second law, dv/dt = 0).",
+        "description": "Correctly takes the limit as t→$\\infty$ to find v_terminal = $\\mu$k mg/b $\\approx$ 19.6 m/s, and explains physically that at terminal speed the drag force bv_terminal equals kinetic friction $\\mu$k mg so net force is zero (Newton's second law, dv/dt = 0).",
         "partLabel": "e",
         "skill": "predict",
         "keywords": [
@@ -1621,38 +1621,38 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A small sphere of mass m = 0.25 kg is attached to a massless string of length L = 0.80 m and swings as a conical pendulum, tracing a horizontal circle at a constant half-angle θ from the vertical. The sphere moves through air that exerts a drag force directed opposite to the velocity of magnitude F_drag = bv, where b = 0.018 N·s/m is a drag coefficient and v is the instantaneous speed of the sphere. The coefficient of static friction between the sphere and any surface it contacts is not relevant here, but the sphere does pass through a thin horizontal ring of radius R fixed to a rotating platform. The platform rotates with constant angular velocity Ω about the vertical axis coinciding with the string's pivot. An observer (Observer A) stands in the inertial lab frame; a second observer (Observer B) is seated on the rotating platform and rotates with it at angular velocity Ω.\n\nFor parts (a)-(c), ignore drag (b = 0). For parts (d) and (e), include drag.\n\nGiven/Known quantities: m = 0.25 kg, L = 0.80 m, g = 9.8 m/s², b = 0.018 N·s/m. The sphere moves in steady circular motion at half-angle θ (measured from vertical). The radius of the circular path is r = L sin θ, and the height drop from pivot is h = L cos θ.",
+    "prompt": "A small sphere of mass m = 0.25 kg is attached to a massless string of length L = 0.80 m and swings as a conical pendulum, tracing a horizontal circle at a constant half-angle θ from the vertical. The sphere moves through air that exerts a drag force directed opposite to the velocity of magnitude F_drag = bv, where b = 0.018 N·s/m is a drag coefficient and v is the instantaneous speed of the sphere. The coefficient of static friction between the sphere and any surface it contacts is not relevant here, but the sphere does pass through a thin horizontal ring of radius R fixed to a rotating platform. The platform rotates with constant angular velocity Ω about the vertical axis coinciding with the string's pivot. An observer (Observer A) stands in the inertial lab frame; a second observer (Observer B) is seated on the rotating platform and rotates with it at angular velocity Ω.\n\nFor parts (a)-(c), ignore drag (b = 0). For parts (d) and (e), include drag.\n\nGiven/Known quantities: m = 0.25 kg, L = 0.80 m, g = 9.8 $m/s^2$, b = 0.018 N·s/m. The sphere moves in steady circular motion at half-angle θ (measured from vertical). The radius of the circular path is r = L sin θ, and the height drop from pivot is h = L cos θ.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Describe",
         "question": "Draw and describe the free body diagram of the sphere as seen by Observer A (inertial frame) while it undergoes steady conical pendulum motion at angle θ. Identify every force acting on the sphere, state its direction, and explain why each force is present. Do not include drag for this part.",
-        "rubric": "Full credit requires: (1) identifying tension T along the string directed toward the pivot (upward and inward), (2) identifying weight mg directed straight downward, (3) stating that the net (resultant) force is directed horizontally toward the center of the circular path (centripetal direction), and (4) explaining that no vertical acceleration exists so the vertical component of tension equals mg, while the horizontal component of tension provides the centripetal force mv²/r = mω²r. No fictitious or pseudo-forces may appear in the inertial-frame FBD."
+        "rubric": "Full credit requires: (1) identifying tension T along the string directed toward the pivot (upward and inward), (2) identifying weight mg directed straight downward, (3) stating that the net (resultant) force is directed horizontally toward the center of the circular path (centripetal direction), and (4) explaining that no vertical acceleration exists so the vertical component of tension equals mg, while the horizontal component of tension provides the centripetal force m$v^2$/r = mω²r. No fictitious or pseudo-forces may appear in the inertial-frame FBD."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using Newton's second law applied to the sphere in the inertial frame, derive an expression for the angular velocity ω of the conical pendulum as a function of g, L, and θ only. Show all calculus-based or algebraic steps starting from the component equations.",
-        "rubric": "Full credit requires writing the two Newton's-second-law component equations: T cosθ − mg = 0 and T sinθ = mω²r = mω²L sinθ, then dividing to eliminate T, yielding g/cosθ = ω²L, and solving to obtain ω = √(g / (L cosθ)). Correct final expression ω = √(g/(L cosθ)) or equivalent period T = 2π√(L cosθ / g) earns the point."
+        "rubric": "Full credit requires writing the two Newton's-second-law component equations: T cosθ - mg = 0 and T sinθ = mω²r = mω²L sinθ, then dividing to eliminate T, yielding g/cosθ = ω²L, and solving to obtain ω = √(g / (L cosθ)). Correct final expression ω = √(g/(L cosθ)) or equivalent period T = 2π√(L cosθ / g) earns the point."
       },
       {
         "label": "c",
         "command": "Explain",
         "question": "Observer B, seated on the rotating platform turning at exactly ω (the conical pendulum's own angular velocity), observes the sphere to be stationary. Explain the forces Observer B must introduce to apply Newton's second law in their non-inertial rotating reference frame, and write the equation of equilibrium that Observer B uses to confirm the sphere is stationary. Address specifically the centrifugal pseudo-force and whether a Coriolis force appears for this observer.",
-        "rubric": "Full credit requires: (1) identifying the centrifugal pseudo-force mω²r directed radially outward in the rotating frame, (2) stating that because the sphere is stationary in Observer B's frame its velocity in that frame is zero, so the Coriolis force 2m(v′ × Ω) = 0 vanishes, and (3) writing the radial equilibrium: T sinθ − mω²r = 0 and vertical equilibrium T cosθ = mg, consistent with the inertial-frame result. Must explicitly state Coriolis force is absent because relative velocity in rotating frame is zero."
+        "rubric": "Full credit requires: (1) identifying the centrifugal pseudo-force mω²r directed radially outward in the rotating frame, (2) stating that because the sphere is stationary in Observer B's frame its velocity in that frame is zero, so the Coriolis force 2m(v′ × Ω) = 0 vanishes, and (3) writing the radial equilibrium: T sinθ - mω²r = 0 and vertical equilibrium T cosθ = mg, consistent with the inertial-frame result. Must explicitly state Coriolis force is absent because relative velocity in rotating frame is zero."
       },
       {
         "label": "d",
         "command": "Calculate",
         "question": "Now include the linear drag force F_drag = bv opposing the velocity. The sphere still moves in a horizontal circle of radius r = L sinθ, but the drag force acts tangentially (opposing motion). Write the differential equation governing the tangential component of motion (i.e., the equation for dv/dt in the tangential direction) and solve it to find v(t), given that at t = 0 the sphere has speed v₀. Use the values m = 0.25 kg and b = 0.018 N·s/m to find the time constant τ.",
-        "rubric": "Full credit requires: (1) writing the tangential Newton's-second-law equation m(dv/dt) = −bv (drag is the only tangential force since tension and gravity have no tangential component for steady circular geometry), (2) separating variables and integrating: ∫dv/v = −(b/m)∫dt to obtain ln(v/v₀) = −(b/m)t, (3) exponential solution v(t) = v₀ e^(−bt/m) = v₀ e^(−t/τ), and (4) computing τ = m/b = 0.25/0.018 ≈ 13.9 s."
+        "rubric": "Full credit requires: (1) writing the tangential Newton's-second-law equation m(dv/dt) = -bv (drag is the only tangential force since tension and gravity have no tangential component for steady circular geometry), (2) separating variables and integrating: ∫dv/v = -(b/m)∫dt to obtain ln(v/v₀) = -(b/m)t, (3) exponential solution v(t) = v₀ e^(-bt/m) = v₀ e^(-t/τ), and (4) computing τ = m/b = 0.25/0.018 $\\approx$ 13.9 s."
       },
       {
         "label": "e",
         "command": "Justify",
-        "question": "Because drag continuously removes energy, the sphere spirals inward and θ decreases over time. Using energy methods and the expression for v(t) from part (d), write an integral expression for the total mechanical energy dissipated by drag from t = 0 to t → ∞, evaluate it, and justify whether this result is consistent with the work-energy theorem. Express your answer in terms of m, b, and v₀.",
-        "rubric": "Full credit requires: (1) writing the power dissipated P(t) = F_drag · v = bv² = b v₀² e^(−2bt/m), (2) setting up the integral W_drag = ∫₀^∞ b v₀² e^(−2bt/m) dt, (3) evaluating: W_drag = b v₀² · [m/(2b)] = mv₀²/2, and (4) justifying this equals the initial kinetic energy (1/2)mv₀² by the work-energy theorem - all initial KE is ultimately dissipated by drag as t→∞, consistent with ΔKE = W_net."
+        "question": "Because drag continuously removes energy, the sphere spirals inward and θ decreases over time. Using energy methods and the expression for v(t) from part (d), write an integral expression for the total mechanical energy dissipated by drag from t = 0 to t → $\\infty$, evaluate it, and justify whether this result is consistent with the work-energy theorem. Express your answer in terms of m, b, and v₀.",
+        "rubric": "Full credit requires: (1) writing the power dissipated P(t) = F_drag · v = b$v^2$ = b v₀² e^(-2bt/m), (2) setting up the integral W_drag = ∫₀^$\\infty$ b v₀² e^(-2bt/m) dt, (3) evaluating: W_drag = b v₀² · [m/(2b)] = mv₀²/2, and (4) justifying this equals the initial kinetic energy (1/2)mv₀² by the work-energy theorem - all initial KE is ultimately dissipated by drag as t→$\\infty$, consistent with ΔKE = W_net."
       }
     ],
     "rubric": [
@@ -1783,7 +1783,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correct differential equation m dv/dt = −bv, separation of variables, integration to obtain v(t) = v₀ e^(−bt/m), and correct time constant τ = m/b ≈ 13.9 s.",
+        "description": "Correct differential equation m dv/dt = -bv, separation of variables, integration to obtain v(t) = v₀ e^(-bt/m), and correct time constant τ = m/b $\\approx$ 13.9 s.",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -1823,7 +1823,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Correct power dissipation P = bv², correct integral W = ∫₀^∞ bv₀²e^(−2bt/m)dt = mv₀²/2, and explicit justification that this equals initial kinetic energy via work-energy theorem.",
+        "description": "Correct power dissipation P = b$v^2$, correct integral W = ∫₀^$\\infty$ bv₀²e^(-2bt/m)dt = mv₀²/2, and explicit justification that this equals initial kinetic energy via work-energy theorem.",
         "partLabel": "e",
         "skill": "justify",
         "keywords": [
@@ -1874,25 +1874,25 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A particle of mass 2.0 kg moves along the x-axis under the influence of a single variable force given by F(x) = 6x² − 4x (in Newtons), where x is in meters. The particle starts from rest at x = 0 and moves to x = 3.0 m.",
+    "prompt": "A particle of mass 2.0 kg moves along the x-axis under the influence of a single variable force given by F(x) = 6$x^2$ - 4x (in Newtons), where x is in meters. The particle starts from rest at x = 0 and moves to x = 3.0 m.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Using the work integral, calculate the total work done by F(x) on the particle as it moves from x = 0 to x = 3.0 m. Show all integration steps.",
-        "rubric": "Student sets up and evaluates W = ∫₀³ (6x² − 4x) dx, obtaining W = [2x³ − 2x²]₀³ = 2(27) − 2(9) = 54 − 18 = 36 J."
+        "rubric": "Student sets up and evaluates W = ∫₀³ (6$x^2$ - 4x) dx, obtaining W = [2$x^3$ - 2$x^2$]₀³ = 2(27) - 2(9) = 54 - 18 = 36 J."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the work-kinetic energy theorem, calculate the speed of the particle at x = 3.0 m.",
-        "rubric": "Student correctly applies W_net = ΔKE = ½mv² − 0, substitutes W = 36 J and m = 2.0 kg, and solves to obtain v = 6.0 m/s."
+        "rubric": "Student correctly applies W_net = ΔKE = $\\frac{1}{2}$m$v^2$ - 0, substitutes W = 36 J and m = 2.0 kg, and solves to obtain v = 6.0 m/s."
       },
       {
         "label": "c",
         "command": "Justify",
-        "question": "A second force G(x) = −(6x² − 4x) is now also applied to the particle simultaneously with F(x). Justify, without performing any integration, what the speed of the particle will be at x = 3.0 m if it again starts from rest at x = 0.",
+        "question": "A second force G(x) = -(6$x^2$ - 4x) is now also applied to the particle simultaneously with F(x). Justify, without performing any integration, what the speed of the particle will be at x = 3.0 m if it again starts from rest at x = 0.",
         "rubric": "Student recognizes that F(x) + G(x) = 0 everywhere, so the net force is zero and the net work W_net = 0. By the work-kinetic energy theorem, ΔKE = 0, meaning the particle remains at rest (v = 0 m/s) throughout the motion."
       }
     ],
@@ -1900,7 +1900,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly sets up and evaluates the work integral W = ∫₀³ (6x² − 4x) dx, applying the power rule to each term, evaluating the antiderivative 2x³ − 2x² at the limits, and arriving at W = 36 J.",
+        "description": "Correctly sets up and evaluates the work integral W = ∫₀³ (6$x^2$ - 4x) dx, applying the power rule to each term, evaluating the antiderivative 2$x^3$ - 2$x^2$ at the limits, and arriving at W = 36 J.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -1940,7 +1940,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly applies the work-kinetic energy theorem W_net = ΔKE = ½mv² − ½mv₀², substitutes W = 36 J and m = 2.0 kg with v₀ = 0, and solves to obtain v = 6.0 m/s.",
+        "description": "Correctly applies the work-kinetic energy theorem W_net = ΔKE = $\\frac{1}{2}$m$v^2$ - $\\frac{1}{2}$mv₀², substitutes W = 36 J and m = 2.0 kg with v₀ = 0, and solves to obtain v = 6.0 m/s.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -2031,33 +2031,33 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A block of mass m = 2.0 kg slides along a frictionless horizontal surface. A horizontal force F(x) = (6x² − 4x) N acts on the block, where x is in meters. The block starts from rest at x = 0.\n\n(a) Calculate the net work done on the block by F(x) as it moves from x = 0 to x = 3.0 m using the work integral.\n\n(b) Using the work-energy theorem, determine the speed of the block at x = 3.0 m.\n\n(c) If the block reaches x = 3.0 m at time t = 2.0 s, calculate the instantaneous power delivered by F(x) at that position.",
+    "prompt": "A block of mass m = 2.0 kg slides along a frictionless horizontal surface. A horizontal force F(x) = (6$x^2$ - 4x) N acts on the block, where x is in meters. The block starts from rest at x = 0.\n\n(a) Calculate the net work done on the block by F(x) as it moves from x = 0 to x = 3.0 m using the work integral.\n\n(b) Using the work-energy theorem, determine the speed of the block at x = 3.0 m.\n\n(c) If the block reaches x = 3.0 m at time t = 2.0 s, calculate the instantaneous power delivered by F(x) at that position.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the net work done on the block by F(x) as it moves from x = 0 to x = 3.0 m using the work integral ∫F·dx.",
-        "rubric": "Student sets up and evaluates W = ∫₀³ (6x² − 4x) dx = [2x³ − 2x²]₀³ = (54 − 18) − 0 = 36 J."
+        "rubric": "Student sets up and evaluates W = ∫₀³ (6$x^2$ - 4x) dx = [2$x^3$ - 2$x^2$]₀³ = (54 - 18) - 0 = 36 J."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the work-energy theorem, determine the speed of the block at x = 3.0 m.",
-        "rubric": "Student applies W_net = ΔKE = ½mv² − 0, substitutes W = 36 J and m = 2.0 kg, solves for v = 6.0 m/s."
+        "rubric": "Student applies W_net = ΔKE = $\\frac{1}{2}$m$v^2$ - 0, substitutes W = 36 J and m = 2.0 kg, solves for v = 6.0 m/s."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "If the block reaches x = 3.0 m at time t = 2.0 s, calculate the instantaneous power delivered by F(x) at that position.",
-        "rubric": "Student evaluates F at x = 3.0 m: F(3) = 6(9) − 4(3) = 54 − 12 = 42 N, then uses P = F·v = 42 × 6.0 = 252 W."
+        "rubric": "Student evaluates F at x = 3.0 m: F(3) = 6(9) - 4(3) = 54 - 12 = 42 N, then uses P = F·v = 42 × 6.0 = 252 W."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly sets up and evaluates the definite work integral W = ∫₀³ (6x² − 4x) dx, applies antiderivative [2x³ − 2x²], and obtains W = 36 J.",
+        "description": "Correctly sets up and evaluates the definite work integral W = ∫₀³ (6$x^2$ - 4x) dx, applies antiderivative [2$x^3$ - 2$x^2$], and obtains W = 36 J.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -2098,7 +2098,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly applies the work-energy theorem W_net = ΔKE = ½mv² − ½mv₀², substitutes W = 36 J, m = 2.0 kg, v₀ = 0, and solves to obtain v = 6.0 m/s.",
+        "description": "Correctly applies the work-energy theorem W_net = ΔKE = $\\frac{1}{2}$m$v^2$ - $\\frac{1}{2}$mv₀², substitutes W = 36 J, m = 2.0 kg, v₀ = 0, and solves to obtain v = 6.0 m/s.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -2139,7 +2139,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Evaluates F(3) = 6(3)² − 4(3) = 42 N, then applies instantaneous power P = F·v = 42 × 6.0 = 252 W.",
+        "description": "Evaluates F(3) = 6(3)² - 4(3) = 42 N, then applies instantaneous power P = F·v = 42 × 6.0 = 252 W.",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -2190,33 +2190,33 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A particle of mass m = 0.50 kg moves along the x-axis under the influence of a single conservative force whose potential energy function is given by U(x) = αx⁴ − βx², where α = 3.0 J/m⁴ and β = 12.0 J/m². The particle starts from rest at x = 0.\n\n(a) Derive an expression for the force F(x) acting on the particle as a function of position by differentiating U(x). Identify all equilibrium positions and classify each as stable or unstable.\n\n(b) Using the work-energy theorem in integral form, calculate the net work done on the particle as it moves from x = 0 to x = 2.0 m. Then state the kinetic energy of the particle at x = 2.0 m.\n\n(c) At x = 2.0 m the particle has the kinetic energy found in part (b). Determine the instantaneous power delivered by force F to the particle at x = 2.0 m. Express your answer in watts.",
+    "prompt": "A particle of mass m = 0.50 kg moves along the x-axis under the influence of a single conservative force whose potential energy function is given by U(x) = αx⁴ - β$x^2$, where α = 3.0 J/m⁴ and β = 12.0 $J/m^2$. The particle starts from rest at x = 0.\n\n(a) Derive an expression for the force F(x) acting on the particle as a function of position by differentiating U(x). Identify all equilibrium positions and classify each as stable or unstable.\n\n(b) Using the work-energy theorem in integral form, calculate the net work done on the particle as it moves from x = 0 to x = 2.0 m. Then state the kinetic energy of the particle at x = 2.0 m.\n\n(c) At x = 2.0 m the particle has the kinetic energy found in part (b). Determine the instantaneous power delivered by force F to the particle at x = 2.0 m. Express your answer in watts.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Derive/Explain",
         "question": "Derive an expression for the force F(x) acting on the particle by differentiating U(x) with respect to x. Identify all equilibrium positions and classify each as stable or unstable.",
-        "rubric": "Earns 1 point for correctly computing F(x) = −dU/dx = −4αx³ + 2βx = −12x³ + 24x, correctly identifying equilibrium positions at x = 0 and x = ±√(β/2α) = ±√2 m (where F = 0), and correctly classifying x = 0 as unstable (d²U/dx² < 0 at x = 0, since d²U/dx² = 12αx² − 2β evaluated at x=0 gives −2β = −24 < 0) and x = ±√2 m as stable (d²U/dx² > 0 there)."
+        "rubric": "Earns 1 point for correctly computing F(x) = -dU/dx = -4α$x^3$ + 2βx = -12$x^3$ + 24x, correctly identifying equilibrium positions at x = 0 and x = ±√(β/2α) = ±√2 m (where F = 0), and correctly classifying x = 0 as unstable ($d^2$$U/dx^2$ < 0 at x = 0, since $d^2$$U/dx^2$ = 12α$x^2$ - 2β evaluated at x=0 gives -2β = -24 < 0) and x = ±√2 m as stable ($d^2$$U/dx^2$ > 0 there)."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the work-energy theorem in integral form W = ∫F dx, calculate the net work done on the particle as it moves from x = 0 to x = 2.0 m. State the resulting kinetic energy at x = 2.0 m.",
-        "rubric": "Earns 1 point for evaluating W = ∫₀² (−12x³ + 24x) dx = [−3x⁴ + 12x²]₀² = (−48 + 48) − 0 = 0 J, or equivalently using ΔU = U(2) − U(0) = (3)(16) − (12)(4) − 0 = 48 − 48 = 0 J so W_conservative = −ΔU = 0 J, and concluding KE at x = 2.0 m equals 0 J (particle started from rest and net work is zero)."
+        "rubric": "Earns 1 point for evaluating W = ∫₀² (-12$x^3$ + 24x) dx = [-3x⁴ + 12$x^2$]₀² = (-48 + 48) - 0 = 0 J, or equivalently using $\\Delta U$ = U(2) - U(0) = (3)(16) - (12)(4) - 0 = 48 - 48 = 0 J so W_conservative = -$\\Delta U$ = 0 J, and concluding KE at x = 2.0 m equals 0 J (particle started from rest and net work is zero)."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "Determine the instantaneous power delivered by force F to the particle at x = 2.0 m, given the kinetic energy found in part (b).",
-        "rubric": "Earns 1 point for recognizing that since KE = 0 at x = 2.0 m, the speed v = 0 there, and applying P = F·v = F(2.0) × 0 = 0 W, correctly concluding instantaneous power P = 0 W at x = 2.0 m despite F(2.0) = −12(8) + 24(2) = −96 + 48 = −48 N being nonzero."
+        "rubric": "Earns 1 point for recognizing that since KE = 0 at x = 2.0 m, the speed v = 0 there, and applying P = F·v = F(2.0) × 0 = 0 W, correctly concluding instantaneous power P = 0 W at x = 2.0 m despite F(2.0) = -12(8) + 24(2) = -96 + 48 = -48 N being nonzero."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly derives F(x) = −dU/dx = −4αx³ + 2βx = −12x³ + 24x; identifies equilibrium points at x = 0, x = +√2 m, x = −√2 m by setting F = 0; classifies x = 0 as unstable using second derivative test (d²U/dx²|₀ < 0) and x = ±√2 m as stable (d²U/dx² > 0).",
+        "description": "Correctly derives F(x) = -dU/dx = -4α$x^3$ + 2βx = -12$x^3$ + 24x; identifies equilibrium points at x = 0, x = +√2 m, x = -√2 m by setting F = 0; classifies x = 0 as unstable using second derivative test ($d^2$$U/dx^2$|₀ < 0) and x = ±√2 m as stable ($d^2$$U/dx^2$ > 0).",
         "partLabel": "a",
         "skill": "derive",
         "keywords": [
@@ -2256,7 +2256,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly evaluates W = ∫₀² F dx = ∫₀² (−12x³ + 24x) dx = [−3x⁴ + 12x²]₀² = 0 J, or uses W = −ΔU = −[U(2)−U(0)] = 0 J; applies work-energy theorem W_net = ΔKE to conclude KE at x = 2.0 m equals 0 J since particle started from rest.",
+        "description": "Correctly evaluates W = ∫₀² F dx = ∫₀² (-12$x^3$ + 24x) dx = [-3x⁴ + 12$x^2$]₀² = 0 J, or uses W = -$\\Delta U$ = -[U(2)-U(0)] = 0 J; applies work-energy theorem W_net = ΔKE to conclude KE at x = 2.0 m equals 0 J since particle started from rest.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -2296,7 +2296,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly applies P = F·v; recognizes that KE = 0 implies speed v = 0 at x = 2.0 m via KE = ½mv²; concludes instantaneous power P = F(2.0)·v = (−48 N)(0 m/s) = 0 W, even though the force is nonzero at that location.",
+        "description": "Correctly applies P = F·v; recognizes that KE = 0 implies speed v = 0 at x = 2.0 m via KE = $\\frac{1}{2}$m$v^2$; concludes instantaneous power P = F(2.0)·v = (-48 N)(0 m/s) = 0 W, even though the force is nonzero at that location.",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -2347,45 +2347,45 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A block of mass m = 2.0 kg starts from rest at position x = 0 on a frictionless horizontal surface. A single horizontal force acts on the block whose magnitude varies with position as F(x) = 3x² − 4x + 6 (in Newtons, with x in meters). The block moves in the positive x-direction.\n\n(a) Calculate the work done by F(x) as the block moves from x = 0 to x = 3 m using the work integral.\n\n(b) Using the work-energy theorem, determine the speed of the block at x = 3 m.\n\n(c) A potential energy function U(x) is defined such that U(0) = 0. Derive an expression for U(x) associated with the force F(x), and evaluate U(3).\n\n(d) Determine whether F(x) is a conservative force. Justify your answer using the relationship between force and potential energy, specifically by showing that F(x) can be expressed as the negative derivative of a scalar potential function.\n\n(e) At x = 3 m, the block has the speed found in part (b). Using conservation of energy, find the position x > 3 m (if any) where the block would momentarily come to rest if an additional constant resistive force f = 5 N (opposing motion) were applied starting at x = 3 m. Then calculate the average power delivered by the net force over the interval from x = 3 m to that stopping point, given that the time elapsed over that interval is t = 1.8 s.",
+    "prompt": "A block of mass m = 2.0 kg starts from rest at position x = 0 on a frictionless horizontal surface. A single horizontal force acts on the block whose magnitude varies with position as F(x) = 3$x^2$ - 4x + 6 (in Newtons, with x in meters). The block moves in the positive x-direction.\n\n(a) Calculate the work done by F(x) as the block moves from x = 0 to x = 3 m using the work integral.\n\n(b) Using the work-energy theorem, determine the speed of the block at x = 3 m.\n\n(c) A potential energy function U(x) is defined such that U(0) = 0. Derive an expression for U(x) associated with the force F(x), and evaluate U(3).\n\n(d) Determine whether F(x) is a conservative force. Justify your answer using the relationship between force and potential energy, specifically by showing that F(x) can be expressed as the negative derivative of a scalar potential function.\n\n(e) At x = 3 m, the block has the speed found in part (b). Using conservation of energy, find the position x > 3 m (if any) where the block would momentarily come to rest if an additional constant resistive force f = 5 N (opposing motion) were applied starting at x = 3 m. Then calculate the average power delivered by the net force over the interval from x = 3 m to that stopping point, given that the time elapsed over that interval is t = 1.8 s.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
-        "question": "Calculate the work done by F(x) = 3x² − 4x + 6 as the block moves from x = 0 to x = 3 m using the work integral W = ∫F(x) dx.",
-        "rubric": "Student sets up and evaluates the definite integral ∫₀³ (3x² − 4x + 6) dx. Antiderivative is x³ − 2x² + 6x. Evaluating from 0 to 3 gives (27 − 18 + 18) − 0 = 27 J."
+        "question": "Calculate the work done by F(x) = 3$x^2$ - 4x + 6 as the block moves from x = 0 to x = 3 m using the work integral W = ∫F(x) dx.",
+        "rubric": "Student sets up and evaluates the definite integral ∫₀³ (3$x^2$ - 4x + 6) dx. Antiderivative is $x^3$ - 2$x^2$ + 6x. Evaluating from 0 to 3 gives (27 - 18 + 18) - 0 = 27 J."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the work-energy theorem, determine the speed of the block at x = 3 m. The block starts from rest.",
-        "rubric": "Student correctly applies the work-energy theorem W_net = ΔKE = ½mv² − 0. Using W = 27 J and m = 2.0 kg: 27 = ½(2.0)v², so v² = 27, v = √27 = 3√3 ≈ 5.20 m/s."
+        "rubric": "Student correctly applies the work-energy theorem W_net = ΔKE = $\\frac{1}{2}$m$v^2$ - 0. Using W = 27 J and m = 2.0 kg: 27 = $\\frac{1}{2}$(2.0)$v^2$, so $v^2$ = 27, v = √27 = 3√3 $\\approx$ 5.20 m/s."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "Derive the potential energy function U(x) associated with F(x), given U(0) = 0, and evaluate U(3).",
-        "rubric": "Student uses U(x) = −∫F(x) dx = −(x³ − 2x² + 6x) + C; applying U(0) = 0 gives C = 0. So U(x) = −x³ + 2x² − 6x. U(3) = −27 + 18 − 18 = −27 J."
+        "rubric": "Student uses U(x) = -∫F(x) dx = -($x^3$ - 2$x^2$ + 6x) + C; applying U(0) = 0 gives C = 0. So U(x) = -$x^3$ + 2$x^2$ - 6x. U(3) = -27 + 18 - 18 = -27 J."
       },
       {
         "label": "d",
         "command": "Justify",
-        "question": "Determine whether F(x) is a conservative force. Justify using the relationship F(x) = −dU/dx.",
-        "rubric": "Student takes −dU/dx where U(x) = −x³ + 2x² − 6x: −dU/dx = −(−3x² + 4x − 6) = 3x² − 4x + 6 = F(x). This confirms F(x) is conservative because it equals the negative gradient of a scalar potential function."
+        "question": "Determine whether F(x) is a conservative force. Justify using the relationship F(x) = -dU/dx.",
+        "rubric": "Student takes -dU/dx where U(x) = -$x^3$ + 2$x^2$ - 6x: -dU/dx = -(-3$x^2$ + 4x - 6) = 3$x^2$ - 4x + 6 = F(x). This confirms F(x) is conservative because it equals the negative gradient of a scalar potential function."
       },
       {
         "label": "e",
         "command": "Calculate",
         "question": "Starting at x = 3 m with the speed from part (b), a constant resistive force f = 5 N opposes motion. Using conservation of energy, find where the block stops. Then calculate the average power delivered by the net force over this interval if the elapsed time is t = 1.8 s.",
-        "rubric": "KE at x=3 is 27 J. Net work by resistive force over distance d: −5d. Energy at stop: 27 − 5d = 0, so d = 5.4 m; block stops at x = 8.4 m. Average power = ΔKE/Δt = (0 − 27)/1.8 = −15 W (magnitude 15 W, net power is −15 W)."
+        "rubric": "KE at x=3 is 27 J. Net work by resistive force over distance d: -5d. Energy at stop: 27 - 5d = 0, so d = 5.4 m; block stops at x = 8.4 m. Average power = ΔKE/$\\Delta t$ = (0 - 27)/1.8 = -15 W (magnitude 15 W, net power is -15 W)."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly sets up and evaluates the work integral ∫₀³ (3x² − 4x + 6) dx to obtain W = 27 J.",
+        "description": "Correctly sets up and evaluates the work integral ∫₀³ (3$x^2$ - 4x + 6) dx to obtain W = 27 J.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -2407,7 +2407,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly applies the work-energy theorem W_net = ΔKE = ½mv² to find v = 3√3 ≈ 5.20 m/s at x = 3 m.",
+        "description": "Correctly applies the work-energy theorem W_net = ΔKE = $\\frac{1}{2}$m$v^2$ to find v = 3√3 $\\approx$ 5.20 m/s at x = 3 m.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -2444,7 +2444,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly derives U(x) = −x³ + 2x² − 6x using U(x) = −∫F(x) dx with boundary condition U(0) = 0, and evaluates U(3) = −27 J.",
+        "description": "Correctly derives U(x) = -$x^3$ + 2$x^2$ - 6x using U(x) = -∫F(x) dx with boundary condition U(0) = 0, and evaluates U(3) = -27 J.",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -2466,7 +2466,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Justifies that F(x) is conservative by showing F(x) = −dU/dx recovers the original force expression, confirming it derives from a scalar potential.",
+        "description": "Justifies that F(x) is conservative by showing F(x) = -dU/dx recovers the original force expression, confirming it derives from a scalar potential.",
         "partLabel": "d",
         "skill": "justify",
         "keywords": [
@@ -2504,7 +2504,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Uses conservation of energy / work-energy theorem with resistive force to find stopping position x = 8.4 m (d = 5.4 m from x = 3), and correctly computes average power = −15 W (or magnitude 15 W).",
+        "description": "Uses conservation of energy / work-energy theorem with resistive force to find stopping position x = 8.4 m (d = 5.4 m from x = 3), and correctly computes average power = -15 W (or magnitude 15 W).",
         "partLabel": "e",
         "skill": "calculate",
         "keywords": [
@@ -2554,33 +2554,33 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "easy",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A cart of mass m = 2.0 kg moves along a frictionless horizontal track with an initial velocity of v₀ = 6.0 m/s in the positive x-direction. A braking force is applied to the cart that varies with time according to F(t) = −4t N, where t is measured in seconds and the force acts in the negative x-direction. The braking force is applied from t = 0 to t = 3.0 s.",
+    "prompt": "A cart of mass m = 2.0 kg moves along a frictionless horizontal track with an initial velocity of v₀ = 6.0 m/s in the positive x-direction. A braking force is applied to the cart that varies with time according to F(t) = -4t N, where t is measured in seconds and the force acts in the negative x-direction. The braking force is applied from t = 0 to t = 3.0 s.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the impulse delivered to the cart by the braking force over the interval t = 0 to t = 3.0 s. Show your integral setup and evaluation.",
-        "rubric": "Student earns the point by correctly setting up and evaluating the definite integral J = ∫₀³ F(t) dt = ∫₀³ (−4t) dt = −2t² evaluated from 0 to 3, yielding J = −18 N·s."
+        "rubric": "Student earns the point by correctly setting up and evaluating the definite integral J = ∫₀³ F(t) dt = ∫₀³ (-4t) dt = -2$t^2$ evaluated from 0 to 3, yielding J = -18 N·s."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the impulse-momentum theorem, determine the velocity of the cart at t = 3.0 s.",
-        "rubric": "Student earns the point by correctly applying J = Δp = m·vf − m·v₀, substituting −18 = 2.0·vf − 2.0·(6.0), and solving to obtain vf = −3.0 m/s (or stating the cart moves in the negative x-direction at 3.0 m/s)."
+        "rubric": "Student earns the point by correctly applying J = $\\Delta p$ = m·vf - m·v₀, substituting -18 = 2.0·vf - 2.0·(6.0), and solving to obtain vf = -3.0 m/s (or stating the cart moves in the negative x-direction at 3.0 m/s)."
       },
       {
         "label": "c",
         "command": "Explain",
         "question": "A student claims that because the net force on the cart is not constant, the impulse-momentum theorem cannot be used to find the change in momentum. Is the student correct? Justify your answer by referencing the calculus-based form of the impulse-momentum theorem.",
-        "rubric": "Student earns the point by correctly stating the student is wrong and citing that the impulse-momentum theorem holds for any time-varying force via J = ∫F dt = Δp, where the integral accounts for the changing force; a constant force is not required."
+        "rubric": "Student earns the point by correctly stating the student is wrong and citing that the impulse-momentum theorem holds for any time-varying force via J = ∫F dt = $\\Delta p$, where the integral accounts for the changing force; a constant force is not required."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly sets up and evaluates the definite integral of F(t) = −4t from 0 to 3 s to obtain J = −18 N·s",
+        "description": "Correctly sets up and evaluates the definite integral of F(t) = -4t from 0 to 3 s to obtain J = -18 N·s",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -2615,7 +2615,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly applies the impulse-momentum theorem J = Δp = m·vf − m·v₀ and solves for vf = −3.0 m/s",
+        "description": "Correctly applies the impulse-momentum theorem J = $\\Delta p$ = m·vf - m·v₀ and solves for vf = -3.0 m/s",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -2650,7 +2650,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly identifies the student as wrong and justifies using the calculus-based form J = ∫F dt = Δp, which applies to any force function, constant or variable",
+        "description": "Correctly identifies the student as wrong and justifies using the calculus-based form J = ∫F dt = $\\Delta p$, which applies to any force function, constant or variable",
         "partLabel": "c",
         "skill": "justify",
         "keywords": [
@@ -2697,20 +2697,20 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A rocket of initial total mass M₀ = 800 kg (including fuel) is launched from rest in deep space, far from any gravitational fields. The rocket engine expels fuel at a constant exhaust speed v_e = 2500 m/s relative to the rocket. The fuel burns at a constant mass flow rate dm/dt = −5 kg/s (mass decreases at 5 kg/s). The rocket burns fuel for a total time T = 60 s, after which the remaining mass is M_f = 800 − (5)(60) = 500 kg.\n\n(a) Starting from Newton's second law applied to the rocket-fuel system, derive the rocket equation: M(dv/dt) = −v_e (dM/dt), where M is the instantaneous rocket mass and v is the rocket's speed.\n\n(b) Using the rocket equation, calculate the final speed of the rocket at t = T = 60 s. Express your answer to three significant figures.\n\n(c) During the burn, explain whether the net external impulse delivered to the rocket-fuel system by the thrust force equals the change in momentum of the rocket alone. Justify your answer by referencing the variable mass system and the role of the expelled fuel's momentum.",
+    "prompt": "A rocket of initial total mass M₀ = 800 kg (including fuel) is launched from rest in deep space, far from any gravitational fields. The rocket engine expels fuel at a constant exhaust speed v_e = 2500 m/s relative to the rocket. The fuel burns at a constant mass flow rate dm/dt = -5 kg/s (mass decreases at 5 kg/s). The rocket burns fuel for a total time T = 60 s, after which the remaining mass is M_f = 800 - (5)(60) = 500 kg.\n\n(a) Starting from Newton's second law applied to the rocket-fuel system, derive the rocket equation: M(dv/dt) = -v_e (dM/dt), where M is the instantaneous rocket mass and v is the rocket's speed.\n\n(b) Using the rocket equation, calculate the final speed of the rocket at t = T = 60 s. Express your answer to three significant figures.\n\n(c) During the burn, explain whether the net external impulse delivered to the rocket-fuel system by the thrust force equals the change in momentum of the rocket alone. Justify your answer by referencing the variable mass system and the role of the expelled fuel's momentum.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Derive",
-        "question": "Starting from Newton's second law applied to the rocket-fuel system, derive the rocket equation: M(dv/dt) = −v_e (dM/dt).",
-        "rubric": "Earns 1 point for correctly applying Newton's second law to the variable mass system: considering the momentum of the rocket plus an infinitesimal mass element dm of exhaust in a time interval dt, writing dp_system/dt = 0 (no external forces), obtaining M dv = −v_e dM, and arriving at the rocket equation M(dv/dt) = −v_e(dM/dt)."
+        "question": "Starting from Newton's second law applied to the rocket-fuel system, derive the rocket equation: M(dv/dt) = -v_e (dM/dt).",
+        "rubric": "Earns 1 point for correctly applying Newton's second law to the variable mass system: considering the momentum of the rocket plus an infinitesimal mass element dm of exhaust in a time interval dt, writing dp_system/dt = 0 (no external forces), obtaining M dv = -v_e dM, and arriving at the rocket equation M(dv/dt) = -v_e(dM/dt)."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the rocket equation, calculate the final speed of the rocket at t = T = 60 s.",
-        "rubric": "Earns 1 point for separating variables to get dv = −v_e (dM/M), integrating both sides (∫dv from 0 to v_f and ∫dM/M from M₀ to M_f), applying the Tsiolkovsky rocket equation v_f = v_e ln(M₀/M_f) = 2500 ln(800/500) ≈ 2500 × 0.470 ≈ 1175 m/s (accept 1170-1180 m/s)."
+        "rubric": "Earns 1 point for separating variables to get dv = -v_e (dM/M), integrating both sides (∫dv from 0 to v_f and ∫dM/M from M₀ to M_f), applying the Tsiolkovsky rocket equation v_f = v_e ln(M₀/M_f) = 2500 ln(800/500) $\\approx$ 2500 × 0.470 $\\approx$ 1175 m/s (accept 1170-1180 m/s)."
       },
       {
         "label": "c",
@@ -2723,7 +2723,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 0,
         "points": 1,
-        "description": "Derives the rocket equation M(dv/dt) = −v_e(dM/dt) by applying Newton's second law or conservation of momentum to the rocket-plus-exhaust system, correctly accounting for the momentum of expelled mass dm in time dt.",
+        "description": "Derives the rocket equation M(dv/dt) = -v_e(dM/dt) by applying Newton's second law or conservation of momentum to the rocket-plus-exhaust system, correctly accounting for the momentum of expelled mass dm in time dt.",
         "partLabel": "a",
         "skill": "derive",
         "keywords": [
@@ -2764,7 +2764,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly separates variables and integrates the rocket equation to obtain the Tsiolkovsky rocket equation v_f = v_e ln(M₀/M_f), then substitutes M₀ = 800 kg, M_f = 500 kg, v_e = 2500 m/s to compute v_f ≈ 1175 m/s.",
+        "description": "Correctly separates variables and integrates the rocket equation to obtain the Tsiolkovsky rocket equation v_f = v_e ln(M₀/M_f), then substitutes M₀ = 800 kg, M_f = 500 kg, v_e = 2500 m/s to compute v_f $\\approx$ 1175 m/s.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -2790,7 +2790,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly explains that the impulse-momentum theorem applies to the entire rocket-fuel system; the rocket's momentum change alone does not equal the total external impulse because expelled exhaust carries away momentum, so Δp_rocket ≠ J_external; the sum Δp_rocket + Δp_exhaust = J_external.",
+        "description": "Correctly explains that the impulse-momentum theorem applies to the entire rocket-fuel system; the rocket's momentum change alone does not equal the total external impulse because expelled exhaust carries away momentum, so $\\Delta p$_rocket $\\neq$ J_external; the sum $\\Delta p$_rocket + $\\Delta p$_exhaust = J_external.",
         "partLabel": "c",
         "skill": "justify",
         "keywords": [
@@ -2842,26 +2842,26 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A rocket sled of initial total mass M₀ = 80 kg (including fuel) rests on a frictionless horizontal track. The rocket engine expels exhaust at a constant speed u = 120 m/s relative to the sled and burns fuel at a constant rate dm/dt = 2.0 kg/s for a total burn time of 10 s. After the fuel is exhausted, the sled (now mass M_f = 60 kg) travels along the frictionless track and undergoes a collision with a stationary target block of mass m_b = 20 kg. In the collision, the sled and block stick together (perfectly inelastic collision). Use g = 10 m/s².\n\nUseful relations: The rocket (Tsiolkovsky) equation gives the thrust force as F_thrust = u |dm/dt|. The velocity gained by a rocket expelling mass is given by Δv = u ln(M₀/M_f). The impulse-momentum theorem states J = ΔP = ∫F dt.",
+    "prompt": "A rocket sled of initial total mass M₀ = 80 kg (including fuel) rests on a frictionless horizontal track. The rocket engine expels exhaust at a constant speed u = 120 m/s relative to the sled and burns fuel at a constant rate dm/dt = 2.0 kg/s for a total burn time of 10 s. After the fuel is exhausted, the sled (now mass M_f = 60 kg) travels along the frictionless track and undergoes a collision with a stationary target block of mass m_b = 20 kg. In the collision, the sled and block stick together (perfectly inelastic collision). Use g = 10 $m/s^2$.\n\nUseful relations: The rocket (Tsiolkovsky) equation gives the thrust force as F_thrust = u |dm/dt|. The velocity gained by a rocket expelling mass is given by $\\Delta v$ = u ln(M₀/M_f). The impulse-momentum theorem states J = $\\Delta P$ = ∫F dt.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Using the variable-mass (rocket) equation of motion, write a differential equation for the sled's velocity v(t) during the burn phase (assuming no external friction). Then calculate the thrust force F_thrust exerted on the sled by the expelled exhaust.",
-        "rubric": "Student writes M(t) dv/dt = u|dm/dt| (the rocket equation), identifies M(t) = M₀ − (dm/dt)t = 80 − 2t kg, and correctly computes F_thrust = u|dm/dt| = 120 × 2.0 = 240 N."
+        "rubric": "Student writes M(t) dv/dt = u|dm/dt| (the rocket equation), identifies M(t) = M₀ - (dm/dt)t = 80 - 2t kg, and correctly computes F_thrust = u|dm/dt| = 120 × 2.0 = 240 N."
       },
       {
         "label": "b",
         "command": "Calculate",
-        "question": "Using the Tsiolkovsky rocket equation Δv = u ln(M₀/M_f), determine the speed of the sled immediately after the burn phase ends (at t = 10 s). Show all steps including substitution of values.",
-        "rubric": "Student correctly substitutes Δv = 120 × ln(80/60) = 120 × ln(4/3) ≈ 120 × 0.2877 ≈ 34.5 m/s, with clear identification of M₀ = 80 kg, M_f = 60 kg, u = 120 m/s."
+        "question": "Using the Tsiolkovsky rocket equation $\\Delta v$ = u ln(M₀/M_f), determine the speed of the sled immediately after the burn phase ends (at t = 10 s). Show all steps including substitution of values.",
+        "rubric": "Student correctly substitutes $\\Delta v$ = 120 × ln(80/60) = 120 × ln(4/3) $\\approx$ 120 × 0.2877 $\\approx$ 34.5 m/s, with clear identification of M₀ = 80 kg, M_f = 60 kg, u = 120 m/s."
       },
       {
         "label": "c",
         "command": "Calculate",
-        "question": "After the burn, the sled (mass 60 kg, speed v_sled ≈ 34.5 m/s) collides and sticks with the stationary block (mass 20 kg). Using conservation of momentum, find the velocity of the combined sled-block system immediately after the collision. Then calculate the kinetic energy lost in the collision.",
-        "rubric": "Student applies conservation of momentum p_i = p_f: (60)(34.5) = (60+20)v_f giving v_f = 2070/80 ≈ 25.9 m/s. KE lost = ½(60)(34.5²) − ½(80)(25.9²) ≈ 35,777 − 26,832 ≈ 8,900 J (accept answers consistent with their v_sled). Student explicitly states momentum is conserved because no external horizontal net force acts during collision."
+        "question": "After the burn, the sled (mass 60 kg, speed v_sled $\\approx$ 34.5 m/s) collides and sticks with the stationary block (mass 20 kg). Using conservation of momentum, find the velocity of the combined sled-block system immediately after the collision. Then calculate the kinetic energy lost in the collision.",
+        "rubric": "Student applies conservation of momentum p_i = p_f: (60)(34.5) = (60+20)v_f giving v_f = 2070/80 $\\approx$ 25.9 m/s. KE lost = $\\frac{1}{2}$(60)(34.$5^2$) - $\\frac{1}{2}$(80)(25.$9^2$) $\\approx$ 35,777 - 26,832 $\\approx$ 8,900 J (accept answers consistent with their v_sled). Student explicitly states momentum is conserved because no external horizontal net force acts during collision."
       },
       {
         "label": "d",
@@ -2872,8 +2872,8 @@ window.APPHYSCEM_FRQ = [
       {
         "label": "e",
         "command": "Calculate",
-        "question": "Find the position of the center of mass of the sled-block system at the moment of collision (just before impact). Define the origin as the sled's initial position. The sled traveled the entire burn distance from rest, and the block was initially located 200 m from the origin. Use the fact that under constant thrust and linearly decreasing mass, the distance traveled during the burn can be approximated as x_sled ≈ 155 m (you may use this given value). Calculate x_cm of the sled-block system just before the collision.",
-        "rubric": "Student applies x_cm = (m₁x₁ + m₂x₂)/(m₁+m₂) = (60×155 + 20×200)/(60+20) = (9300 + 4000)/80 = 13300/80 = 166.25 m ≈ 166 m from the origin. Correct formula, correct substitution of masses and positions, and correct arithmetic earn the point."
+        "question": "Find the position of the center of mass of the sled-block system at the moment of collision (just before impact). Define the origin as the sled's initial position. The sled traveled the entire burn distance from rest, and the block was initially located 200 m from the origin. Use the fact that under constant thrust and linearly decreasing mass, the distance traveled during the burn can be approximated as x_sled $\\approx$ 155 m (you may use this given value). Calculate x_cm of the sled-block system just before the collision.",
+        "rubric": "Student applies x_cm = (m₁x₁ + m₂x₂)/(m₁+m₂) = (60×155 + 20×200)/(60+20) = (9300 + 4000)/80 = 13300/80 = 166.25 m $\\approx$ 166 m from the origin. Correct formula, correct substitution of masses and positions, and correct arithmetic earn the point."
       }
     ],
     "rubric": [
@@ -2919,7 +2919,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly applies Tsiolkovsky rocket equation Δv = u ln(M₀/M_f) with M₀ = 80 kg, M_f = 60 kg, u = 120 m/s to obtain v_f ≈ 34.5 m/s.",
+        "description": "Correctly applies Tsiolkovsky rocket equation $\\Delta v$ = u ln(M₀/M_f) with M₀ = 80 kg, M_f = 60 kg, u = 120 m/s to obtain v_f $\\approx$ 34.5 m/s.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -2956,7 +2956,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly applies conservation of momentum for perfectly inelastic collision to find v_f ≈ 25.9 m/s and calculates kinetic energy lost ≈ 8,900 J (or consistent with their v_sled).",
+        "description": "Correctly applies conservation of momentum for perfectly inelastic collision to find v_f $\\approx$ 25.9 m/s and calculates kinetic energy lost $\\approx$ 8,900 J (or consistent with their v_sled).",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -3033,7 +3033,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Correctly calculates the center of mass position using x_cm = (m₁x₁ + m₂x₂)/(m₁+m₂) = (60×155 + 20×200)/80 = 166.25 m ≈ 166 m.",
+        "description": "Correctly calculates the center of mass position using x_cm = (m₁x₁ + m₂x₂)/(m₁+m₂) = (60×155 + 20×200)/80 = 166.25 m $\\approx$ 166 m.",
         "partLabel": "e",
         "skill": "calculate",
         "keywords": [
@@ -3068,45 +3068,45 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A rocket of initial total mass M₀ = 800 kg (including fuel) moves in deep space (no gravity, no air resistance) along the +x-axis. Its engine ejects mass at a constant rate α = 4 kg/s with exhaust speed u = 2500 m/s relative to the rocket. The rocket burns fuel for a total time T = 100 s, starting from rest.\n\nAt exactly t = 50 s into the burn, when the rocket has some instantaneous mass m(50) and velocity v(50), a small scientific probe of mass m_p = 50 kg is elastically ejected from the nose of the rocket along the x-axis. The probe and the remaining rocket body (mass m_r = m(50) − 50 kg) separate during a very brief interaction (Δt → 0) that imparts equal and opposite internal impulses. After separation, the probe moves with velocity v_probe and the rocket body (with its remaining fuel and still-firing engine) moves with velocity v_rocket_after. The coefficient of restitution for this elastic separation is e = 1, and the relative speed of separation equals the relative speed of approach (which, since they were moving together just before ejection, equals the speed imparted by the internal spring mechanism: Δv_rel = 300 m/s, meaning v_probe − v_rocket_after = 300 m/s in the lab frame, with the probe moving faster).\n\nAfter the separation, the rocket body (mass m_r, still burning) continues under the Tsiolkovsky rocket equation with the same α and u for the remaining 50 s of burn time.\n\nUse the following: ln(2) ≈ 0.693, ln(300/250) ≈ 0.182, ln(350/300) ≈ 0.154.",
+    "prompt": "A rocket of initial total mass M₀ = 800 kg (including fuel) moves in deep space (no gravity, no air resistance) along the +x-axis. Its engine ejects mass at a constant rate α = 4 kg/s with exhaust speed u = 2500 m/s relative to the rocket. The rocket burns fuel for a total time T = 100 s, starting from rest.\n\nAt exactly t = 50 s into the burn, when the rocket has some instantaneous mass m(50) and velocity v(50), a small scientific probe of mass m_p = 50 kg is elastically ejected from the nose of the rocket along the x-axis. The probe and the remaining rocket body (mass m_r = m(50) - 50 kg) separate during a very brief interaction ($\\Delta t$ → 0) that imparts equal and opposite internal impulses. After separation, the probe moves with velocity v_probe and the rocket body (with its remaining fuel and still-firing engine) moves with velocity v_rocket_after. The coefficient of restitution for this elastic separation is e = 1, and the relative speed of separation equals the relative speed of approach (which, since they were moving together just before ejection, equals the speed imparted by the internal spring mechanism: $\\Delta v$_rel = 300 m/s, meaning v_probe - v_rocket_after = 300 m/s in the lab frame, with the probe moving faster).\n\nAfter the separation, the rocket body (mass m_r, still burning) continues under the Tsiolkovsky rocket equation with the same α and u for the remaining 50 s of burn time.\n\nUse the following: ln(2) $\\approx$ 0.693, ln(300/250) $\\approx$ 0.182, ln(350/300) $\\approx$ 0.154.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
-        "question": "Using the variable-mass (Tsiolkovsky) rocket equation, derive an expression for the rocket's velocity as a function of time v(t) for 0 ≤ t ≤ 50 s, and evaluate v(50 s). Show all calculus steps.",
-        "rubric": "Student must start from the rocket equation M(dv/dt) = u·α, recognize M(t) = M₀ − αt = 800 − 4t, separate variables and integrate: ∫dv = uα·∫dt/(M₀−αt) from 0 to t, yielding v(t) = u·ln(M₀/(M₀−αt)). At t = 50 s: m(50) = 800 − 4(50) = 600 kg; v(50) = 2500·ln(800/600) = 2500·ln(4/3) ≈ 2500(0.2877) ≈ 719 m/s."
+        "question": "Using the variable-mass (Tsiolkovsky) rocket equation, derive an expression for the rocket's velocity as a function of time v(t) for 0 $\\leq$ t $\\leq$ 50 s, and evaluate v(50 s). Show all calculus steps.",
+        "rubric": "Student must start from the rocket equation M(dv/dt) = u·α, recognize M(t) = M₀ - αt = 800 - 4t, separate variables and integrate: ∫dv = uα·∫dt/(M₀-αt) from 0 to t, yielding v(t) = u·ln(M₀/(M₀-αt)). At t = 50 s: m(50) = 800 - 4(50) = 600 kg; v(50) = 2500·ln(800/600) = 2500·ln(4/3) $\\approx$ 2500(0.2877) $\\approx$ 719 m/s."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Immediately after the elastic probe ejection at t = 50 s, determine the velocities of the probe (v_probe) and the rocket body (v_rocket_after) in the lab frame. Use conservation of momentum and the given elastic separation condition.",
-        "rubric": "Student must apply conservation of momentum for the brief separation: m(50)·v(50) = m_p·v_probe + m_r·v_rocket_after, where m(50)=600 kg, v(50)≈719 m/s, m_p=50 kg, m_r=550 kg. Second equation from elastic condition: v_probe − v_rocket_after = 300 m/s. Solving: 600(719) = 50·v_probe + 550·v_rocket_after and v_probe = v_rocket_after + 300. Substituting: 431400 = 50(v_rocket_after+300) + 550·v_rocket_after = 600·v_rocket_after + 15000 → v_rocket_after = (431400−15000)/600 = 416400/600 = 694 m/s; v_probe = 994 m/s."
+        "rubric": "Student must apply conservation of momentum for the brief separation: m(50)·v(50) = m_p·v_probe + m_r·v_rocket_after, where m(50)=600 kg, v(50)$\\approx$719 m/s, m_p=50 kg, m_r=550 kg. Second equation from elastic condition: v_probe - v_rocket_after = 300 m/s. Solving: 600(719) = 50·v_probe + 550·v_rocket_after and v_probe = v_rocket_after + 300. Substituting: 431400 = 50(v_rocket_after+300) + 550·v_rocket_after = 600·v_rocket_after + 15000 → v_rocket_after = (431400-15000)/600 = 416400/600 = 694 m/s; v_probe = 994 m/s."
       },
       {
         "label": "c",
         "command": "Justify",
         "question": "The probe ejection is described as elastic (e = 1). Verify whether kinetic energy is conserved during this separation event, and justify whether this is physically consistent with the definition of an elastic collision. Show your calculation of ΔKE.",
-        "rubric": "Student must calculate KE before: ½(600)(719)² ≈ ½(600)(517,061) ≈ 1.551×10⁸ J. KE after: ½(50)(994)² + ½(550)(694)² = ½(50)(988,036) + ½(550)(481,636) = 24,700,900 + 132,449,900 ≈ 1.572×10⁸ J. ΔKE ≈ +2.1×10⁶ J (energy was added by the spring/explosive mechanism). Student must justify that a true elastic collision conserves KE without external energy input; because a spring mechanism adds energy, e=1 defines only the kinematic restitution condition (relative speed), not strict energy conservation - this is an internally driven separation, not a passive elastic collision."
+        "rubric": "Student must calculate KE before: $\\frac{1}{2}$(600)(719)² $\\approx$ $\\frac{1}{2}$(600)(517,061) $\\approx$ 1.551$\\times$10⁸ J. KE after: $\\frac{1}{2}$(50)(994)² + $\\frac{1}{2}$(550)(694)² = $\\frac{1}{2}$(50)(988,036) + $\\frac{1}{2}$(550)(481,636) = 24,700,900 + 132,449,900 $\\approx$ 1.572$\\times$10⁸ J. ΔKE $\\approx$ +2.1$\\times$10⁶ J (energy was added by the spring/explosive mechanism). Student must justify that a true elastic collision conserves KE without external energy input; because a spring mechanism adds energy, e=1 defines only the kinematic restitution condition (relative speed), not strict energy conservation - this is an internally driven separation, not a passive elastic collision."
       },
       {
         "label": "d",
         "command": "Calculate",
-        "question": "After the probe separation, the rocket body (initial mass m_r = 550 kg, initial velocity v_rocket_after ≈ 694 m/s) continues burning for 50 more seconds with the same α = 4 kg/s and u = 2500 m/s. Derive an expression for the rocket body's velocity as a function of time t' (where t' = 0 is the moment of separation) and calculate the rocket body's final velocity at t' = 50 s.",
-        "rubric": "Student must reapply Tsiolkovsky: M(t') = 550 − 4t'; dv = u·α·dt'/(550−4t'); integrating: v(t') = v_rocket_after + u·ln(550/(550−4t')). At t'=50: mass = 550−200 = 350 kg; v_final = 694 + 2500·ln(550/350) = 694 + 2500·ln(11/7) ≈ 694 + 2500(0.452) ≈ 694 + 1130 = 1824 m/s. Accept answers using ln(550/350)=ln(1.571)≈0.452."
+        "question": "After the probe separation, the rocket body (initial mass m_r = 550 kg, initial velocity v_rocket_after $\\approx$ 694 m/s) continues burning for 50 more seconds with the same α = 4 kg/s and u = 2500 m/s. Derive an expression for the rocket body's velocity as a function of time t' (where t' = 0 is the moment of separation) and calculate the rocket body's final velocity at t' = 50 s.",
+        "rubric": "Student must reapply Tsiolkovsky: M(t') = 550 - 4t'; dv = u·α·dt'/(550-4t'); integrating: v(t') = v_rocket_after + u·ln(550/(550-4t')). At t'=50: mass = 550-200 = 350 kg; v_final = 694 + 2500·ln(550/350) = 694 + 2500·ln(11/7) $\\approx$ 694 + 2500(0.452) $\\approx$ 694 + 1130 = 1824 m/s. Accept answers using ln(550/350)=ln(1.571)$\\approx$0.452."
       },
       {
         "label": "e",
         "command": "Calculate",
         "question": "At t' = 50 s (end of burn), find the x-coordinate of the system's center of mass, measured from the rocket's position at the moment of probe separation (x = 0 at t' = 0). Assume the probe travels at constant velocity v_probe = 994 m/s after separation (no engine), and the rocket body's position must be found by integrating its velocity. Express the center-of-mass position in terms of the final masses and positions.",
-        "rubric": "Student must compute positions at t'=50 s. Probe (constant velocity): x_probe = v_probe · t' = 994 × 50 = 49,700 m. Rocket body position: x_rocket = ∫₀⁵⁰ v(t') dt' = ∫₀⁵⁰ [694 + 2500·ln(550/(550−4t'))] dt'. Splitting: 694(50) + 2500·∫₀⁵⁰ ln(550/(550−4t'))dt'. The integral ∫₀⁵⁰ ln(550/(550−4t'))dt' evaluated via substitution s=550−4t' gives approximately 13.28 s, so x_rocket ≈ 34,700 + 2500(13.28) ≈ 34,700 + 33,200 = 67,900 m. x_cm = (m_p·x_probe + m_r·x_rocket)/(m_p + m_r) = (50×49,700 + 350×67,900)/400 = (2,485,000 + 23,765,000)/400 = 26,250,000/400 = 65,625 m. Full credit for correct integral setup and application of center-of-mass formula even if arithmetic differs slightly."
+        "rubric": "Student must compute positions at t'=50 s. Probe (constant velocity): x_probe = v_probe · t' = 994 × 50 = 49,700 m. Rocket body position: x_rocket = ∫₀⁵⁰ v(t') dt' = ∫₀⁵⁰ [694 + 2500·ln(550/(550-4t'))] dt'. Splitting: 694(50) + 2500·∫₀⁵⁰ ln(550/(550-4t'))dt'. The integral ∫₀⁵⁰ ln(550/(550-4t'))dt' evaluated via substitution s=550-4t' gives approximately 13.28 s, so x_rocket $\\approx$ 34,700 + 2500(13.28) $\\approx$ 34,700 + 33,200 = 67,900 m. x_cm = (m_p·x_probe + m_r·x_rocket)/(m_p + m_r) = (50×49,700 + 350×67,900)/400 = (2,485,000 + 23,765,000)/400 = 26,250,000/400 = 65,625 m. Full credit for correct integral setup and application of center-of-mass formula even if arithmetic differs slightly."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly derives and evaluates v(50 s) ≈ 719 m/s using the Tsiolkovsky rocket equation with calculus integration, showing dv = u·α·dt/(M₀−αt) and integrating to obtain v(t) = u·ln(M₀/(M₀−αt)).",
+        "description": "Correctly derives and evaluates v(50 s) $\\approx$ 719 m/s using the Tsiolkovsky rocket equation with calculus integration, showing dv = u·α·dt/(M₀-αt) and integrating to obtain v(t) = u·ln(M₀/(M₀-αt)).",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -3144,7 +3144,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly applies conservation of linear momentum and the elastic restitution condition (v_probe − v_rocket_after = 300 m/s) simultaneously to solve for v_probe ≈ 994 m/s and v_rocket_after ≈ 694 m/s.",
+        "description": "Correctly applies conservation of linear momentum and the elastic restitution condition (v_probe - v_rocket_after = 300 m/s) simultaneously to solve for v_probe $\\approx$ 994 m/s and v_rocket_after $\\approx$ 694 m/s.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -3219,7 +3219,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correctly re-applies the Tsiolkovsky rocket equation with new initial conditions (m_r = 550 kg, v_rocket_after = 694 m/s) and integrates to find v_final ≈ 1824 m/s at t' = 50 s, using v(t') = v_rocket_after + u·ln(550/(550−4t')).",
+        "description": "Correctly re-applies the Tsiolkovsky rocket equation with new initial conditions (m_r = 550 kg, v_rocket_after = 694 m/s) and integrates to find v_final $\\approx$ 1824 m/s at t' = 50 s, using v(t') = v_rocket_after + u·ln(550/(550-4t')).",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -3304,14 +3304,14 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A solid uniform sphere of mass M and radius R is released from rest at the top of a fixed inclined plane of height h and angle θ. The sphere rolls without slipping down the entire length of the incline. The rotational inertia of a solid sphere about its center of mass is I_cm = (2/5)MR². Assume no energy is lost to air resistance or deformation.",
+    "prompt": "A solid uniform sphere of mass M and radius R is released from rest at the top of a fixed inclined plane of height h and angle θ. The sphere rolls without slipping down the entire length of the incline. The rotational inertia of a solid sphere about its center of mass is I_cm = (2/5)M$R^2$. Assume no energy is lost to air resistance or deformation.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Using energy conservation and the rolling-without-slipping constraint v = Rω, derive an expression for the translational speed v of the sphere's center of mass at the bottom of the incline. Express your answer in terms of M, g, h, and R as needed.",
-        "rubric": "Earns 1 point for correctly applying conservation of energy with both translational and rotational kinetic energy terms - Mgh = (1/2)Mv² + (1/2)I_cm·ω², substituting I_cm = (2/5)MR² and ω = v/R, and algebraically solving to obtain v = √(10gh/7)."
+        "rubric": "Earns 1 point for correctly applying conservation of energy with both translational and rotational kinetic energy terms - Mgh = (1/2)M$v^2$ + (1/2)I_cm·ω², substituting I_cm = (2/5)M$R^2$ and ω = v/R, and algebraically solving to obtain v = √(10gh/7)."
       },
       {
         "label": "b",
@@ -3322,15 +3322,15 @@ window.APPHYSCEM_FRQ = [
       {
         "label": "c",
         "command": "Predict",
-        "question": "A hollow thin-walled spherical shell of the same mass M and radius R (rotational inertia I = (2/3)MR²) is released from the same height h on the same incline. Without performing a full calculation, predict whether the hollow shell reaches the bottom with a speed greater than, less than, or equal to v found in part (a). Justify your prediction using calculus-based reasoning about how rotational inertia affects the distribution of energy.",
-        "rubric": "Earns 1 point for correctly predicting that the hollow shell reaches the bottom with a speed less than v = √(10gh/7), and justifying that because I_shell = (2/3)MR² > I_solid = (2/5)MR², a larger fraction of the fixed total mechanical energy Mgh is stored as rotational kinetic energy (1/2)Iω², leaving less energy available as translational kinetic energy (1/2)Mv², yielding a smaller v."
+        "question": "A hollow thin-walled spherical shell of the same mass M and radius R (rotational inertia I = (2/3)M$R^2$) is released from the same height h on the same incline. Without performing a full calculation, predict whether the hollow shell reaches the bottom with a speed greater than, less than, or equal to v found in part (a). Justify your prediction using calculus-based reasoning about how rotational inertia affects the distribution of energy.",
+        "rubric": "Earns 1 point for correctly predicting that the hollow shell reaches the bottom with a speed less than v = √(10gh/7), and justifying that because I_shell = (2/3)M$R^2$ > I_solid = (2/5)M$R^2$, a larger fraction of the fixed total mechanical energy Mgh is stored as rotational kinetic energy (1/2)Iω², leaving less energy available as translational kinetic energy (1/2)M$v^2$, yielding a smaller v."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correct derivation using energy conservation with both translational and rotational KE, applying rolling constraint ω = v/R and I_cm = (2/5)MR², arriving at v = √(10gh/7).",
+        "description": "Correct derivation using energy conservation with both translational and rotational KE, applying rolling constraint ω = v/R and I_cm = (2/5)M$R^2$, arriving at v = √(10gh/7).",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -3464,33 +3464,33 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A solid uniform cylinder of mass M and radius R is released from rest at the top of an inclined plane of height h and angle θ above the horizontal. The cylinder rolls without slipping down the entire length of the incline. The moment of inertia of a solid cylinder about its central axis is I = (1/2)MR². Assume no energy is lost to air resistance.\n\nThe no-slip condition requires that the velocity of the center of mass v_cm and the angular velocity ω satisfy v_cm = Rω at all times. You may use energy methods or Newton's second law in rotational and translational forms.",
+    "prompt": "A solid uniform cylinder of mass M and radius R is released from rest at the top of an inclined plane of height h and angle θ above the horizontal. The cylinder rolls without slipping down the entire length of the incline. The moment of inertia of a solid cylinder about its central axis is I = (1/2)M$R^2$. Assume no energy is lost to air resistance.\n\nThe no-slip condition requires that the velocity of the center of mass v_cm and the angular velocity ω satisfy v_cm = Rω at all times. You may use energy methods or Newton's second law in rotational and translational forms.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Derive",
         "question": "Using energy conservation, derive an expression for the translational speed of the center of mass v_cm of the cylinder at the bottom of the incline in terms of M, g, h, and any other given quantities. Show all calculus-based or algebraic steps clearly.",
-        "rubric": "1 point: Correctly applies conservation of energy, writing Mgh = (1/2)Mv_cm² + (1/2)Iω², substitutes I = (1/2)MR² and the rolling constraint ω = v_cm/R, simplifies to Mgh = (3/4)Mv_cm², and solves to obtain v_cm = sqrt(4gh/3)."
+        "rubric": "1 point: Correctly applies conservation of energy, writing Mgh = (1/2)Mv_c$m^2$ + (1/2)Iω², substitutes I = (1/2)M$R^2$ and the rolling constraint ω = v_cm/R, simplifies to Mgh = (3/4)Mv_c$m^2$, and solves to obtain v_cm = sqrt(4gh/3)."
       },
       {
         "label": "b",
         "command": "Derive",
         "question": "Using Newton's second law in both translational form (ΣF = Ma_cm) and rotational form (Στ = Iα) along with the rolling constraint a_cm = Rα, derive the linear acceleration a_cm of the cylinder's center of mass down the incline. Express your answer in terms of g and θ.",
-        "rubric": "1 point: Correctly writes ΣF = Mg sinθ − f = Ma_cm and Στ = fR = Iα = (1/2)MR²(a_cm/R), solves the system to eliminate the static friction force f, and obtains a_cm = (2/3)g sinθ."
+        "rubric": "1 point: Correctly writes ΣF = Mg sinθ - f = Ma_cm and Στ = fR = Iα = (1/2)M$R^2$(a_cm/R), solves the system to eliminate the static friction force f, and obtains a_cm = (2/3)g sinθ."
       },
       {
         "label": "c",
         "command": "Explain",
-        "question": "If the solid cylinder were replaced by a thin-walled hollow cylinder of the same mass M and radius R (moment of inertia I = MR²) released from the same height h, explain - without recalculating - whether the hollow cylinder arrives at the bottom with a greater, lesser, or equal translational speed compared to the solid cylinder. Justify your reasoning using the energy equation and the role of rotational inertia.",
-        "rubric": "1 point: Correctly identifies that the hollow cylinder has a larger moment of inertia (I = MR² vs I = (1/2)MR²), so a greater fraction of the total mechanical energy Mgh is stored as rotational kinetic energy (1/2)Iω², leaving less energy available as translational kinetic energy (1/2)Mv_cm², resulting in a smaller v_cm at the bottom compared to the solid cylinder."
+        "question": "If the solid cylinder were replaced by a thin-walled hollow cylinder of the same mass M and radius R (moment of inertia I = M$R^2$) released from the same height h, explain - without recalculating - whether the hollow cylinder arrives at the bottom with a greater, lesser, or equal translational speed compared to the solid cylinder. Justify your reasoning using the energy equation and the role of rotational inertia.",
+        "rubric": "1 point: Correctly identifies that the hollow cylinder has a larger moment of inertia (I = M$R^2$ vs I = (1/2)M$R^2$), so a greater fraction of the total mechanical energy Mgh is stored as rotational kinetic energy (1/2)Iω², leaving less energy available as translational kinetic energy (1/2)Mv_c$m^2$, resulting in a smaller v_cm at the bottom compared to the solid cylinder."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Student applies conservation of mechanical energy, correctly substitutes I = (1/2)MR² and the rolling constraint ω = v_cm/R into KE_rot = (1/2)Iω², combines translational and rotational kinetic energy terms, and solves to obtain v_cm = sqrt(4gh/3).",
+        "description": "Student applies conservation of mechanical energy, correctly substitutes I = (1/2)M$R^2$ and the rolling constraint ω = v_cm/R into KE_rot = (1/2)Iω², combines translational and rotational kinetic energy terms, and solves to obtain v_cm = sqrt(4gh/3).",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -3568,7 +3568,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student correctly states that the hollow cylinder arrives with a lesser translational speed, citing that its larger moment of inertia I = MR² causes a greater fraction of the fixed total energy Mgh to be stored as rotational kinetic energy, leaving less energy as translational kinetic energy and thus a smaller v_cm.",
+        "description": "Student correctly states that the hollow cylinder arrives with a lesser translational speed, citing that its larger moment of inertia I = M$R^2$ causes a greater fraction of the fixed total energy Mgh to be stored as rotational kinetic energy, leaving less energy as translational kinetic energy and thus a smaller v_cm.",
         "partLabel": "c",
         "skill": "explain",
         "keywords": [
@@ -3618,33 +3618,33 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A uniform solid disk of mass M = 0.80 kg and radius R = 0.12 m is mounted at the end of a massless horizontal axle of length d = 0.25 m. The other end of the axle is attached to a frictionless pivot fixed to a vertical wall. The disk spins about the axle with angular velocity ω_s = 120 rad/s. The spin axis is horizontal. Gravity acts downward with g = 9.8 m/s².\n\n(a) The gravitational torque about the pivot causes the axle to precess in a horizontal circle. Using the angular momentum of the spinning disk, derive an expression for the precession angular velocity Ω in terms of M, g, d, R, and ω_s by analyzing the rate of change of the angular momentum vector dL/dt.\n\n(b) The disk's spin angular momentum vector L points along the axle (away from the wall). As the axle precesses, the tip of the L vector traces a horizontal circle of radius |L|. Using the calculus definition dL⃗/dt and the geometry of the precessing angular momentum vector, justify why the gravitational torque τ = Mgd must equal |L|·Ω, and calculate the numerical value of Ω in rad/s.\n\n(c) A student claims that the total mechanical energy of the disk-axle system is conserved during steady precession because gravity does no net work over one full precession cycle. Justify or refute this claim using the work-energy theorem in rotational form, specifically addressing the net torque, the displacement of the center of mass, and the constancy of both ω_s and Ω.",
+    "prompt": "A uniform solid disk of mass M = 0.80 kg and radius R = 0.12 m is mounted at the end of a massless horizontal axle of length d = 0.25 m. The other end of the axle is attached to a frictionless pivot fixed to a vertical wall. The disk spins about the axle with angular velocity ω_s = 120 rad/s. The spin axis is horizontal. Gravity acts downward with g = 9.8 $m/s^2$.\n\n(a) The gravitational torque about the pivot causes the axle to precess in a horizontal circle. Using the angular momentum of the spinning disk, derive an expression for the precession angular velocity Ω in terms of M, g, d, R, and ω_s by analyzing the rate of change of the angular momentum vector dL/dt.\n\n(b) The disk's spin angular momentum vector L points along the axle (away from the wall). As the axle precesses, the tip of the L vector traces a horizontal circle of radius |L|. Using the calculus definition dL⃗/dt and the geometry of the precessing angular momentum vector, justify why the gravitational torque τ = Mgd must equal |L|·Ω, and calculate the numerical value of Ω in rad/s.\n\n(c) A student claims that the total mechanical energy of the disk-axle system is conserved during steady precession because gravity does no net work over one full precession cycle. Justify or refute this claim using the work-energy theorem in rotational form, specifically addressing the net torque, the displacement of the center of mass, and the constancy of both ω_s and Ω.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Derive",
         "question": "Using the angular momentum of the spinning disk and the calculus relationship dL/dt = τ_net, derive an expression for the precession angular velocity Ω in terms of M, g, d, R, and ω_s.",
-        "rubric": "Earns 1 point for correctly identifying L = I·ω_s = (1/2)MR²·ω_s, recognizing that gravity produces torque τ = Mgd about the pivot, setting τ = dL/dt = L·Ω, and solving to obtain Ω = Mgd / [(1/2)MR²ω_s] = 2gd/(R²ω_s)."
+        "rubric": "Earns 1 point for correctly identifying L = I·ω_s = (1/2)M$R^2$·ω_s, recognizing that gravity produces torque τ = Mgd about the pivot, setting τ = dL/dt = L·Ω, and solving to obtain Ω = Mgd / [(1/2)M$R^2$ω_s] = 2gd/($R^2$ω_s)."
       },
       {
         "label": "b",
         "command": "Justify and Calculate",
         "question": "Using the calculus definition dL⃗/dt and the geometry of the precessing angular momentum vector, justify why τ = |L|·Ω, and calculate the numerical value of Ω in rad/s.",
-        "rubric": "Earns 1 point for correctly arguing that as L precesses, |dL⃗/dt| = |L|·Ω (analogous to centripetal acceleration geometry, dθ/dt = Ω for a vector of fixed magnitude rotating in a plane), equating this to τ = Mgd, and computing Ω = 2(9.8)(0.25)/[(0.12)²(120)] ≈ 2gd/(R²ω_s) = 4.9/1.728 ≈ 2.84 rad/s."
+        "rubric": "Earns 1 point for correctly arguing that as L precesses, |dL⃗/dt| = |L|·Ω (analogous to centripetal acceleration geometry, dθ/dt = Ω for a vector of fixed magnitude rotating in a plane), equating this to τ = Mgd, and computing Ω = 2(9.8)(0.25)/[(0.12)²(120)] $\\approx$ 2gd/($R^2$ω_s) = 4.9/1.728 $\\approx$ 2.84 rad/s."
       },
       {
         "label": "c",
         "command": "Justify",
         "question": "Justify or refute the student's claim that total mechanical energy is conserved during steady precession, using the work-energy theorem in rotational form and addressing the net torque, center-of-mass displacement, and constancy of ω_s and Ω.",
-        "rubric": "Earns 1 point for correctly justifying the claim: during steady precession the center of mass moves in a horizontal circle at constant height, so gravitational potential energy is constant (W_gravity = ∫τ·dθ = 0 over one cycle because torque is always perpendicular to the displacement of the axle tip); ω_s and Ω both remain constant so rotational kinetic energy (1/2)Iω_s² and precessional KE are unchanged; the net work done by all torques over one cycle is zero, consistent with the work-energy theorem ΔKE_rot = ∫τ_net·dθ = 0."
+        "rubric": "Earns 1 point for correctly justifying the claim: during steady precession the center of mass moves in a horizontal circle at constant height, so gravitational potential energy is constant (W_gravity = ∫τ·dθ = 0 over one cycle because torque is always perpendicular to the displacement of the axle tip); ω_s and Ω both remain constant so rotational kinetic energy (1/2)Iω_$s^2$ and precessional KE are unchanged; the net work done by all torques over one cycle is zero, consistent with the work-energy theorem ΔKE_rot = ∫τ_net·dθ = 0."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Derives Ω = 2gd/(R²ω_s) by applying dL/dt = τ_net with L = (1/2)MR²ω_s and τ = Mgd, then solving for Ω.",
+        "description": "Derives Ω = 2gd/($R^2$ω_s) by applying dL/dt = τ_net with L = (1/2)M$R^2$ω_s and τ = Mgd, then solving for Ω.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -3683,7 +3683,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Justifies |dL⃗/dt| = |L|·Ω using vector calculus geometry (fixed-magnitude vector rotating at rate Ω), equates to τ = Mgd, and calculates Ω ≈ 2.84 rad/s.",
+        "description": "Justifies |dL⃗/dt| = |L|·Ω using vector calculus geometry (fixed-magnitude vector rotating at rate Ω), equates to τ = Mgd, and calculates Ω $\\approx$ 2.84 rad/s.",
         "partLabel": "b",
         "skill": "justify",
         "keywords": [
@@ -3773,32 +3773,32 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A solid uniform cylinder of mass M = 2.0 kg and radius R = 0.10 m is released from rest at the top of a fixed inclined plane of length L = 1.5 m and angle θ = 30° above the horizontal. The cylinder rolls without slipping down the entire incline. The moment of inertia of a solid cylinder about its central axis is I_cm = (1/2)MR². A smaller, thin rod of mass m = 0.50 kg and length 2R is later welded symmetrically across a diameter of the cylinder's circular face (its center coincides with the cylinder's central axis) to form a composite object. Treat g = 10 m/s².\n\n(a) Using Newton's second law for rotation (Στ = Iα), derive a differential equation of motion for the original solid cylinder rolling without slipping down the incline, and solve it to find the linear acceleration a of the cylinder's center of mass.\n\n(b) Using the parallel axis theorem, calculate the rotational inertia I_rod of the thin rod about the central axis of the cylinder after it is welded to the cylinder's face. The moment of inertia of a thin rod about its center (perpendicular axis) is I_rod_cm = (1/12)m(2R)².\n\n(c) The composite object (cylinder + welded rod) is now set rolling without slipping from rest down the same incline. Using energy methods and the rolling-without-slipping constraint v = Rω, calculate the speed v_f of the composite object's center of mass at the bottom of the incline. Express your answer in terms of M, m, R, g, L, and θ, and evaluate numerically.\n\n(d) Calculate the magnitude of the angular momentum L_ang of the original solid cylinder (without the rod) about its contact point with the incline at the instant it reaches the bottom of the incline after rolling from rest. Use the result from part (a) and the parallel axis theorem for angular momentum if needed.\n\n(e) A gyroscope is constructed from the original solid cylinder spinning at high angular velocity ω_s about its central (symmetry) axis, with its axle held horizontally and one end of the axle placed on a frictionless pivot. The axle has length d = 0.30 m and the cylinder's center of mass is at distance d from the pivot. Explain, using the relationship between torque and the rate of change of angular momentum (τ = dL/dt), why the gyroscope precesses rather than falling, and derive an expression for the precession angular velocity Ω in terms of M, g, d, I_cm, and ω_s.",
+    "prompt": "A solid uniform cylinder of mass M = 2.0 kg and radius R = 0.10 m is released from rest at the top of a fixed inclined plane of length L = 1.5 m and angle θ = 30° above the horizontal. The cylinder rolls without slipping down the entire incline. The moment of inertia of a solid cylinder about its central axis is I_cm = (1/2)M$R^2$. A smaller, thin rod of mass m = 0.50 kg and length 2R is later welded symmetrically across a diameter of the cylinder's circular face (its center coincides with the cylinder's central axis) to form a composite object. Treat g = 10 $m/s^2$.\n\n(a) Using Newton's second law for rotation (Στ = Iα), derive a differential equation of motion for the original solid cylinder rolling without slipping down the incline, and solve it to find the linear acceleration a of the cylinder's center of mass.\n\n(b) Using the parallel axis theorem, calculate the rotational inertia I_rod of the thin rod about the central axis of the cylinder after it is welded to the cylinder's face. The moment of inertia of a thin rod about its center (perpendicular axis) is I_rod_cm = (1/12)m(2R)².\n\n(c) The composite object (cylinder + welded rod) is now set rolling without slipping from rest down the same incline. Using energy methods and the rolling-without-slipping constraint v = Rω, calculate the speed v_f of the composite object's center of mass at the bottom of the incline. Express your answer in terms of M, m, R, g, L, and θ, and evaluate numerically.\n\n(d) Calculate the magnitude of the angular momentum L_ang of the original solid cylinder (without the rod) about its contact point with the incline at the instant it reaches the bottom of the incline after rolling from rest. Use the result from part (a) and the parallel axis theorem for angular momentum if needed.\n\n(e) A gyroscope is constructed from the original solid cylinder spinning at high angular velocity ω_s about its central (symmetry) axis, with its axle held horizontally and one end of the axle placed on a frictionless pivot. The axle has length d = 0.30 m and the cylinder's center of mass is at distance d from the pivot. Explain, using the relationship between torque and the rate of change of angular momentum (τ = dL/dt), why the gyroscope precesses rather than falling, and derive an expression for the precession angular velocity Ω in terms of M, g, d, I_cm, and ω_s.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Using Newton's second law for rotation (Στ = Iα), derive a differential equation of motion for the original solid cylinder rolling without slipping down the incline, and solve it to find the linear acceleration a of the cylinder's center of mass.",
-        "rubric": "Student applies Στ = Iα about the contact point (or separately applies ΣF = Ma and Στ = I_cm·α with the no-slip constraint a = Rα). Torque due to gravity about contact point is MgR sinθ; moment of inertia about contact point is (3/2)MR² by parallel axis theorem. This gives MgR sinθ = (3/2)MR²·(a/R), yielding a = (2/3)g sinθ = (2/3)(10)(0.5) = 10/3 ≈ 3.33 m/s²."
+        "rubric": "Student applies Στ = Iα about the contact point (or separately applies ΣF = Ma and Στ = I_cm·α with the no-slip constraint a = Rα). Torque due to gravity about contact point is MgR sinθ; moment of inertia about contact point is (3/2)M$R^2$ by parallel axis theorem. This gives MgR sinθ = (3/2)M$R^2$·(a/R), yielding a = (2/3)g sinθ = (2/3)(10)(0.5) = 10/3 $\\approx$ 3.33 $m/s^2$."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the parallel axis theorem, calculate the rotational inertia I_rod of the thin rod about the central axis of the cylinder after it is welded to the cylinder's face. The moment of inertia of a thin rod about its center (perpendicular axis) is I_rod_cm = (1/12)m(2R)².",
-        "rubric": "Student correctly identifies that the rod's center of mass coincides with the cylinder's axis (distance d_parallel = 0), so the parallel axis theorem gives I_rod = I_rod_cm + m·(0)² = (1/12)m(2R)² = (1/3)mR². Numerically: (1/3)(0.50)(0.01) = 1.67 × 10⁻³ kg·m²."
+        "rubric": "Student correctly identifies that the rod's center of mass coincides with the cylinder's axis (distance d_parallel = 0), so the parallel axis theorem gives I_rod = I_rod_cm + m·(0)² = (1/12)m(2R)² = (1/3)m$R^2$. Numerically: (1/3)(0.50)(0.01) = 1.67 $\\times$ 10⁻³ kg·$m^2$."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "The composite object (cylinder + welded rod) is now set rolling without slipping from rest down the same incline. Using energy methods and the rolling-without-slipping constraint v = Rω, calculate the speed v_f of the composite object's center of mass at the bottom of the incline.",
-        "rubric": "Student applies conservation of energy: MgL sinθ = (1/2)(M+m)v² + (1/2)I_total·ω², where I_total = (1/2)MR² + (1/3)mR², and substitutes ω = v/R to get v_f = sqrt[2MgL sinθ / (M + m + I_total/R²)]. Numerically: I_total/R² = 1/2·M + 1/3·m = 1.0 + 0.167 = 1.167 kg; denominator = (2.0 + 0.5 + 1.167) = 3.667 kg; v_f = sqrt(2·2.0·10·1.5·0.5 / 3.667) = sqrt(30/3.667) ≈ 2.86 m/s."
+        "rubric": "Student applies conservation of energy: MgL sinθ = (1/2)(M+m)$v^2$ + (1/2)I_total·ω², where I_total = (1/2)M$R^2$ + (1/3)m$R^2$, and substitutes ω = v/R to get v_f = sqrt[2MgL sinθ / (M + m + I_$total/R^2$)]. Numerically: I_$total/R^2$ = 1/2·M + 1/3·m = 1.0 + 0.167 = 1.167 kg; denominator = (2.0 + 0.5 + 1.167) = 3.667 kg; v_f = sqrt(2·2.0·10·1.5·0.5 / 3.667) = sqrt(30/3.667) $\\approx$ 2.86 m/s."
       },
       {
         "label": "d",
         "command": "Calculate",
         "question": "Calculate the magnitude of the angular momentum L_ang of the original solid cylinder (without the rod) about its contact point with the incline at the instant it reaches the bottom of the incline after rolling from rest.",
-        "rubric": "Student uses kinematics v_f = sqrt(2aL) with a = (2/3)g sinθ to find v_f = sqrt(2·(10/3)·1.5) = sqrt(10) ≈ 3.16 m/s, then ω = v_f/R = 31.6 rad/s. Angular momentum about contact point: L = I_contact·ω = (3/2)MR²·ω = (3/2)(2.0)(0.01)(31.6) ≈ 0.949 kg·m²/s. Alternatively L = Mv_f·R + I_cm·ω gives same result."
+        "rubric": "Student uses kinematics v_f = sqrt(2aL) with a = (2/3)g sinθ to find v_f = sqrt(2·(10/3)·1.5) = sqrt(10) $\\approx$ 3.16 m/s, then ω = v_f/R = 31.6 rad/s. Angular momentum about contact point: L = I_contact·ω = (3/2)M$R^2$·ω = (3/2)(2.0)(0.01)(31.6) $\\approx$ 0.949 kg·$m^2$/s. Alternatively L = Mv_f·R + I_cm·ω gives same result."
       },
       {
         "label": "e",
@@ -3811,7 +3811,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly applies Newton's second law for rotation (Στ = Iα) with the rolling-without-slipping constraint (a = Rα) to derive the linear acceleration a = (2/3)g sinθ ≈ 3.33 m/s².",
+        "description": "Correctly applies Newton's second law for rotation (Στ = Iα) with the rolling-without-slipping constraint (a = Rα) to derive the linear acceleration a = (2/3)g sinθ $\\approx$ 3.33 $m/s^2$.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -3851,7 +3851,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly applies the parallel axis theorem to find I_rod about the cylinder's central axis, recognizing the rod's center of mass lies on the axis (d = 0), giving I_rod = (1/3)mR² = 1.67 × 10⁻³ kg·m².",
+        "description": "Correctly applies the parallel axis theorem to find I_rod about the cylinder's central axis, recognizing the rod's center of mass lies on the axis (d = 0), giving I_rod = (1/3)m$R^2$ = 1.67 $\\times$ 10⁻³ kg·$m^2$.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -3890,7 +3890,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly uses conservation of energy with the rolling-without-slipping constraint (v = Rω, ω = v/R) and the composite moment of inertia I_total = (1/2)MR² + (1/3)mR² to find v_f ≈ 2.86 m/s.",
+        "description": "Correctly uses conservation of energy with the rolling-without-slipping constraint (v = Rω, ω = v/R) and the composite moment of inertia I_total = (1/2)M$R^2$ + (1/3)m$R^2$ to find v_f $\\approx$ 2.86 m/s.",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -3929,7 +3929,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correctly calculates the final speed using kinematics (v_f² = 2aL), finds ω = v_f/R, then computes angular momentum about the contact point using L = I_contact·ω = (3/2)MR²·ω ≈ 0.949 kg·m²/s.",
+        "description": "Correctly calculates the final speed using kinematics (v_$f^2$ = 2aL), finds ω = v_f/R, then computes angular momentum about the contact point using L = I_contact·ω = (3/2)M$R^2$·ω $\\approx$ 0.949 kg·$m^2$/s.",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -4023,38 +4023,38 @@ window.APPHYSCEM_FRQ = [
         "label": "a",
         "command": "Calculate",
         "question": "Using integration, derive the rotational inertia of the composite disk-rod system about the fixed axle at the far end of the rod. Show the integral setup for each component, apply the parallel axis theorem where appropriate, and express your answer in terms of M and R.",
-        "rubric": "Full credit requires: (1) correct integral for the solid disk's rotational inertia about its own center I_disk = (1/2)MR², shown via I = ∫r² dm with appropriate area mass density σ = M/(πR²); (2) correct application of the parallel axis theorem to shift the disk's inertia to the axle: I_disk_axle = (1/2)MR² + M(2R)² = (9/2)MR²; (3) correct integral for the thin rod about its far end using I = ∫₀^{2R} (M/2R)x² dx = (2/3)MR²; (4) total I_total = (9/2)MR² + (2/3)MR² = (31/6)MR²."
+        "rubric": "Full credit requires: (1) correct integral for the solid disk's rotational inertia about its own center I_disk = (1/2)M$R^2$, shown via I = ∫$r^2$ dm with appropriate area mass density σ = M/(π$R^2$); (2) correct application of the parallel axis theorem to shift the disk's inertia to the axle: I_disk_axle = (1/2)M$R^2$ + M(2R)² = (9/2)M$R^2$; (3) correct integral for the thin rod about its far end using I = ∫₀^{2R} (M/2R)$x^2$ dx = (2/3)M$R^2$; (4) total I_total = (9/2)M$R^2$ + (2/3)M$R^2$ = (31/6)M$R^2$."
       },
       {
         "label": "b",
         "command": "Calculate",
-        "question": "Apply Newton's second law for rotation to the system to find the angular acceleration α of the assembly immediately after release, and then express the angular velocity ω(t) as a function of time by integrating α. Express answers in terms of M, R, g, and t.",
-        "rubric": "Full credit requires: (1) correct net torque from the hanging block τ_net = (M/2)g·R (torque arm is radius R of disk); (2) Newton's second law for rotation τ_net = I_total·α applied correctly, giving α = (M/2·g·R)/((31/6)MR²) = 3g/(31R); (3) integration dω/dt = α → ω(t) = ∫α dt = (3g/(31R))t, with ω(0)=0 initial condition stated."
+        "question": "Apply Newton's second law for rotation to the system to find the angular acceleration α of the assembly immediately after release, and then express the angular velocity $\\omega$(t) as a function of time by integrating α. Express answers in terms of M, R, g, and t.",
+        "rubric": "Full credit requires: (1) correct net torque from the hanging block τ_net = (M/2)g·R (torque arm is radius R of disk); (2) Newton's second law for rotation τ_net = I_total·α applied correctly, giving α = (M/2·g·R)/((31/6)M$R^2$) = 3g/(31R); (3) integration dω/dt = α → $\\omega$(t) = ∫α dt = (3g/(31R))t, with $\\omega$(0)=0 initial condition stated."
       },
       {
         "label": "c",
         "command": "Explain",
         "question": "As the block descends and the system rotates, the angular momentum of the system changes. Identify the external torque responsible and explain, using the rotational form of Newton's second law (dL/dt = τ_ext), why the angular momentum of the disk-rod-block system is NOT conserved. Then write an expression for L(t) as a function of time.",
-        "rubric": "Full credit requires: (1) identification of the gravitational force on the hanging block (weight Mg/2) acting at moment arm R as the non-zero external torque; (2) explicit statement that angular momentum is not conserved because τ_ext ≠ 0, citing dL/dt = τ_ext as the governing law; (3) L(t) = I_total·ω(t) = (31/6)MR²·(3g/(31R))t = (MgRt)/2, or equivalently L(t) = τ_ext·t = (MgR/2)t, with correct derivation."
+        "rubric": "Full credit requires: (1) identification of the gravitational force on the hanging block (weight Mg/2) acting at moment arm R as the non-zero external torque; (2) explicit statement that angular momentum is not conserved because τ_ext $\\neq$ 0, citing dL/dt = τ_ext as the governing law; (3) L(t) = I_total·$\\omega$(t) = (31/6)M$R^2$·(3g/(31R))t = (MgRt)/2, or equivalently L(t) = τ_ext·t = (MgR/2)t, with correct derivation."
       },
       {
         "label": "d",
         "command": "Calculate",
         "question": "For the separate rolling scenario: derive the translational speed v of the disk's center of mass at the bottom of the incline of height H using energy conservation. Explicitly account for both translational and rotational kinetic energy, and use the rolling-without-slipping constraint v = Rω to eliminate ω. Express v in terms of g and H.",
-        "rubric": "Full credit requires: (1) energy conservation equation MgH = (1/2)Mv² + (1/2)I_cm·ω², with I_cm = (1/2)MR² for solid disk stated; (2) rolling without slipping constraint v = Rω used to write ω = v/R, substituting to get MgH = (1/2)Mv² + (1/4)Mv²= (3/4)Mv²; (3) solving correctly to give v = √(4gH/3)."
+        "rubric": "Full credit requires: (1) energy conservation equation MgH = (1/2)M$v^2$ + (1/2)I_cm·ω², with I_cm = (1/2)M$R^2$ for solid disk stated; (2) rolling without slipping constraint v = Rω used to write ω = v/R, substituting to get MgH = (1/2)M$v^2$ + (1/4)M$v^2$= (3/4)M$v^2$; (3) solving correctly to give v = √(4gH/3)."
       },
       {
         "label": "e",
         "command": "Describe",
         "question": "After the disk reaches the bottom of the incline with the spin angular momentum L_s found from part (d), it is mounted on the horizontal gimbal arm of length L and begins to precess. Derive an expression for the precession angular velocity Ω_p in terms of M, g, R, L, and v (from part d), and describe the direction of precession relative to the gravitational torque using the right-hand rule and the vector relationship τ = dL/dt.",
-        "rubric": "Full credit requires: (1) spin angular momentum L_s = I_cm·ω = (1/2)MR²·(v/R) = MRv/2 stated correctly; (2) gravitational torque τ = MgL identified as the torque causing precession, acting horizontally perpendicular to L_s; (3) precession rate derived from Ω_p = τ/L_s = MgL/(MRv/2) = 2gL/(Rv); (4) correct description of precession direction using right-hand rule: torque vector τ = r × F points horizontally, causing L_s to rotate (precess) in the horizontal plane in the direction of τ, consistent with dL/dt = τ_ext."
+        "rubric": "Full credit requires: (1) spin angular momentum L_s = I_cm·ω = (1/2)M$R^2$·(v/R) = MRv/2 stated correctly; (2) gravitational torque τ = MgL identified as the torque causing precession, acting horizontally perpendicular to L_s; (3) precession rate derived from Ω_p = τ/L_s = MgL/(MRv/2) = 2gL/(Rv); (4) correct description of precession direction using right-hand rule: torque vector τ = r × F points horizontally, causing L_s to rotate (precess) in the horizontal plane in the direction of τ, consistent with dL/dt = τ_ext."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly derives the total rotational inertia of the composite system about the axle at the far end of the rod using integration and the parallel axis theorem, arriving at I_total = (31/6)MR².",
+        "description": "Correctly derives the total rotational inertia of the composite system about the axle at the far end of the rod using integration and the parallel axis theorem, arriving at I_total = (31/6)M$R^2$.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -4080,7 +4080,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly applies Newton's second law for rotation (τ_net = Iα) to find α = 3g/(31R) and integrates to obtain ω(t) = (3g/(31R))t.",
+        "description": "Correctly applies Newton's second law for rotation (τ_net = Iα) to find α = 3g/(31R) and integrates to obtain $\\omega$(t) = (3g/(31R))t.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -4232,45 +4232,45 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A block of mass m = 2.0 kg moves along the x-axis on a frictionless horizontal surface. A single horizontal force acts on the block and varies with position according to F(x) = αx − βx², where α = 12 N/m and β = 3 N/m². The block starts from rest at x = 0.\n\n(a) Use the work integral to calculate the work done by F(x) as the block moves from x = 0 to x = 3.0 m.\n\n(b) Using the work-kinetic energy theorem, determine the speed of the block at x = 3.0 m.\n\n(c) Treating F(x) as a conservative force, derive the potential energy function U(x) associated with F(x). Set U(0) = 0.\n\n(d) Justify whether F(x) = αx − βx² qualifies as a conservative force, referencing a calculus-based condition.\n\n(e) At x = 3.0 m, a second constant force F₂ = 8.0 N is also applied in the +x direction while F(x) continues to act. Calculate the instantaneous power delivered by F₂ alone at that instant.",
+    "prompt": "A block of mass m = 2.0 kg moves along the x-axis on a frictionless horizontal surface. A single horizontal force acts on the block and varies with position according to F(x) = αx - β$x^2$, where α = 12 N/m and β = 3 $N/m^2$. The block starts from rest at x = 0.\n\n(a) Use the work integral to calculate the work done by F(x) as the block moves from x = 0 to x = 3.0 m.\n\n(b) Using the work-kinetic energy theorem, determine the speed of the block at x = 3.0 m.\n\n(c) Treating F(x) as a conservative force, derive the potential energy function U(x) associated with F(x). Set U(0) = 0.\n\n(d) Justify whether F(x) = αx - β$x^2$ qualifies as a conservative force, referencing a calculus-based condition.\n\n(e) At x = 3.0 m, a second constant force F₂ = 8.0 N is also applied in the +x direction while F(x) continues to act. Calculate the instantaneous power delivered by F₂ alone at that instant.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
-        "question": "Use the work integral ∫F·dx to calculate the work done by F(x) = αx − βx² as the block moves from x = 0 to x = 3.0 m, with α = 12 N/m and β = 3 N/m².",
-        "rubric": "Student sets up W = ∫₀³ (12x − 3x²) dx, evaluates to [6x² − x³]₀³ = 54 − 27 = 27 J."
+        "question": "Use the work integral ∫F·dx to calculate the work done by F(x) = αx - β$x^2$ as the block moves from x = 0 to x = 3.0 m, with α = 12 N/m and β = 3 $N/m^2$.",
+        "rubric": "Student sets up W = ∫₀³ (12x - 3$x^2$) dx, evaluates to [6$x^2$ - $x^3$]₀³ = 54 - 27 = 27 J."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the work-kinetic energy theorem and the result from part (a), determine the speed of the block at x = 3.0 m. The block starts from rest.",
-        "rubric": "Student applies W_net = ΔKE = ½mv² − 0, solves 27 = ½(2.0)v², obtains v = √27 ≈ 5.2 m/s."
+        "rubric": "Student applies W_net = ΔKE = $\\frac{1}{2}$m$v^2$ - 0, solves 27 = $\\frac{1}{2}$(2.0)$v^2$, obtains v = √27 $\\approx$ 5.2 m/s."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "Treating F(x) as a conservative force, derive the potential energy function U(x) by integrating, using the condition U(0) = 0.",
-        "rubric": "Student writes F = −dU/dx, so U(x) = −∫F dx = −∫(αx − βx²)dx = −(α/2)x² + (β/3)x³ + C; applies U(0)=0 giving C=0; final answer U(x) = −6x² + x³ (in joules, with x in meters)."
+        "rubric": "Student writes F = -dU/dx, so U(x) = -∫F dx = -∫(αx - β$x^2$)dx = -(α/2)$x^2$ + (β/3)$x^3$ + C; applies U(0)=0 giving C=0; final answer U(x) = -6$x^2$ + $x^3$ (in joules, with x in meters)."
       },
       {
         "label": "d",
         "command": "Justify",
-        "question": "Justify whether F(x) = αx − βx² qualifies as a conservative force. Reference a calculus-based condition in your justification.",
+        "question": "Justify whether F(x) = αx - β$x^2$ qualifies as a conservative force. Reference a calculus-based condition in your justification.",
         "rubric": "Student states that a force is conservative if it depends only on position (not velocity or time) and the curl of F is zero (or in 1D, dF/dy = dF/dz = 0 trivially, and work is path-independent); F(x) depends only on x, so it is conservative and a valid potential energy function exists."
       },
       {
         "label": "e",
         "command": "Calculate",
         "question": "At x = 3.0 m, a second constant force F₂ = 8.0 N is applied in the +x direction in addition to F(x). Using the speed found in part (b), calculate the instantaneous power delivered by F₂ alone at x = 3.0 m.",
-        "rubric": "Student uses P = F₂·v = (8.0 N)(√27 m/s) ≈ (8.0)(5.196) ≈ 41.6 W; accept answers in range 41-42 W with correct formula P = Fv."
+        "rubric": "Student uses P = F₂·v = (8.0 N)(√27 m/s) $\\approx$ (8.0)(5.196) $\\approx$ 41.6 W; accept answers in range 41-42 W with correct formula P = Fv."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly sets up and evaluates the work integral W = ∫₀³ (12x − 3x²) dx, obtaining W = 27 J.",
+        "description": "Correctly sets up and evaluates the work integral W = ∫₀³ (12x - 3$x^2$) dx, obtaining W = 27 J.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -4311,7 +4311,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Applies the work-kinetic energy theorem W_net = ΔKE = ½mv² to find v = √27 ≈ 5.2 m/s at x = 3.0 m.",
+        "description": "Applies the work-kinetic energy theorem W_net = ΔKE = $\\frac{1}{2}$m$v^2$ to find v = √27 $\\approx$ 5.2 m/s at x = 3.0 m.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -4352,7 +4352,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Derives U(x) = −6x² + x³ correctly using F = −dU/dx and applying U(0) = 0 as the boundary condition.",
+        "description": "Derives U(x) = -6$x^2$ + $x^3$ correctly using F = -dU/dx and applying U(0) = 0 as the boundary condition.",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -4393,7 +4393,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Justifies that F(x) is conservative because it depends only on position x, the curl is zero (or path-independence holds), and a valid potential energy function exists via F = −dU/dx.",
+        "description": "Justifies that F(x) is conservative because it depends only on position x, the curl is zero (or path-independence holds), and a valid potential energy function exists via F = -dU/dx.",
         "partLabel": "d",
         "skill": "justify",
         "keywords": [
@@ -4434,7 +4434,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Calculates instantaneous power P = F₂·v = (8.0)(√27) ≈ 41.6 W using the speed from part (b).",
+        "description": "Calculates instantaneous power P = F₂·v = (8.0)(√27) $\\approx$ 41.6 W using the speed from part (b).",
         "partLabel": "e",
         "skill": "calculate",
         "keywords": [
@@ -4486,20 +4486,20 @@ window.APPHYSCEM_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A rocket of initial total mass M₀ = 800 kg (including fuel) is launched from rest in deep space, far from any gravitational fields. The rocket expels exhaust gas at a constant speed v_ex = 2400 m/s relative to the rocket. The rocket burns fuel at a constant rate dm/dt = −6 kg/s (so the rocket loses 6 kg of mass per second). The rocket's mass as a function of time is m(t) = M₀ + (dm/dt)t = 800 − 6t kg, valid while fuel remains.\n\nThe rocket equation (Tsiolkovsky equation) states:\n  m(t) · dv/dt = −v_ex · (dm/dt)\n\nwhere v is the rocket's velocity in the inertial frame and dm/dt is the rate of change of rocket mass.",
+    "prompt": "A rocket of initial total mass M₀ = 800 kg (including fuel) is launched from rest in deep space, far from any gravitational fields. The rocket expels exhaust gas at a constant speed v_ex = 2400 m/s relative to the rocket. The rocket burns fuel at a constant rate dm/dt = -6 kg/s (so the rocket loses 6 kg of mass per second). The rocket's mass as a function of time is m(t) = M₀ + (dm/dt)t = 800 - 6t kg, valid while fuel remains.\n\nThe rocket equation (Tsiolkovsky equation) states:\n  m(t) · dv/dt = -v_ex · (dm/dt)\n\nwhere v is the rocket's velocity in the inertial frame and dm/dt is the rate of change of rocket mass.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Derive an expression for the thrust force F_thrust acting on the rocket at any time t during the burn. Then calculate the numerical value of the thrust force.",
-        "rubric": "Student earns the point by correctly identifying thrust as F_thrust = −v_ex · (dm/dt), substituting v_ex = 2400 m/s and dm/dt = −6 kg/s, and obtaining F_thrust = 14,400 N (14.4 kN). Must show the product of exhaust speed and mass flow rate."
+        "rubric": "Student earns the point by correctly identifying thrust as F_thrust = -v_ex · (dm/dt), substituting v_ex = 2400 m/s and dm/dt = -6 kg/s, and obtaining F_thrust = 14,400 N (14.4 kN). Must show the product of exhaust speed and mass flow rate."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the rocket equation, set up and evaluate the definite integral to find the rocket's velocity v(t) as a function of time. Then determine the rocket's speed at t = 50 s.",
-        "rubric": "Student earns the point by separating variables in m(t)·dv/dt = −v_ex·(dm/dt) to get dv = −v_ex·(dm/m), integrating from v=0 to v and from M₀ to m(t) to obtain v(t) = v_ex · ln(M₀/m(t)) = 2400·ln(800/(800−6t)), and evaluating at t = 50 s: m(50)=500 kg, v(50)=2400·ln(800/500)=2400·ln(1.6)≈1131 m/s."
+        "rubric": "Student earns the point by separating variables in m(t)·dv/dt = -v_ex·(dm/dt) to get dv = -v_ex·(dm/m), integrating from v=0 to v and from M₀ to m(t) to obtain v(t) = v_ex · ln(M₀/m(t)) = 2400·ln(800/(800-6t)), and evaluating at t = 50 s: m(50)=500 kg, v(50)=2400·ln(800/500)=2400·ln(1.6)$\\approx$1131 m/s."
       },
       {
         "label": "c",
@@ -4554,7 +4554,7 @@ window.APPHYSCEM_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly separates variables, integrates dv = −v_ex dm/m to get v(t) = v_ex · ln(M₀/m(t)), and evaluates at t = 50 s to obtain approximately 1131 m/s",
+        "description": "Correctly separates variables, integrates dv = -v_ex dm/m to get v(t) = v_ex · ln(M₀/m(t)), and evaluates at t = 50 s to obtain approximately 1131 m/s",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [

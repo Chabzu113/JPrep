@@ -11,7 +11,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "easy",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A student drops a ball from rest off the edge of a tall building. The ball falls freely under gravity with no air resistance. Take downward as the positive direction and use g = 10 m/s².",
+    "prompt": "A student drops a ball from rest off the edge of a tall building. The ball falls freely under gravity with no air resistance. Take downward as the positive direction and use g = 10 $m/s^2$.",
     "starterCode": null,
     "parts": [
       {
@@ -24,20 +24,20 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the distance the ball has fallen after 3 seconds.",
-        "rubric": "1 point for correctly applying d = ½gt² (or x = v₀t + ½at²) to get d = ½(10)(3²) = 45 m."
+        "rubric": "1 point for correctly applying d = $\\frac{1}{2}$g$t^2$ (or x = v₀t + $\\frac{1}{2}$a$t^2$) to get d = $\\frac{1}{2}$(10)($3^2$) = 45 m."
       },
       {
         "label": "c",
         "command": "Describe",
         "question": "Describe how the velocity of the ball changes as it falls, and identify what causes this change.",
-        "rubric": "1 point for stating that the velocity increases (the ball accelerates) at a constant rate of 10 m/s² downward because gravity provides a constant downward acceleration."
+        "rubric": "1 point for stating that the velocity increases (the ball accelerates) at a constant rate of 10 $m/s^2$ downward because gravity provides a constant downward acceleration."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Student correctly uses v = v₀ + at (or v = gt) with v₀ = 0, a = 10 m/s², t = 3 s to obtain v = 30 m/s.",
+        "description": "Student correctly uses v = v₀ + at (or v = gt) with v₀ = 0, a = 10 $m/s^2$, t = 3 s to obtain v = 30 m/s.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -63,7 +63,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student correctly uses d = ½gt² (or x = v₀t + ½at²) with v₀ = 0, a = 10 m/s², t = 3 s to obtain d = 45 m.",
+        "description": "Student correctly uses d = $\\frac{1}{2}$g$t^2$ (or x = v₀t + $\\frac{1}{2}$a$t^2$) with v₀ = 0, a = 10 $m/s^2$, t = 3 s to obtain d = 45 m.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -148,20 +148,20 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A car travels in a straight line along a road. The velocity-time graph below describes the car's motion over a 10-second interval. From t = 0 s to t = 4 s, the car moves at a constant velocity of +20 m/s. From t = 4 s to t = 10 s, the car decelerates uniformly, reaching a final velocity of −8 m/s at t = 10 s. Take the positive direction as the direction of initial motion.\n\n[Velocity-Time Graph Description: The graph has a horizontal line at v = +20 m/s from t = 0 to t = 4 s, followed by a straight line with negative slope from (4 s, +20 m/s) to (10 s, −8 m/s).]",
+    "prompt": "A car travels in a straight line along a road. The velocity-time graph below describes the car's motion over a 10-second interval. From t = 0 s to t = 4 s, the car moves at a constant velocity of +20 m/s. From t = 4 s to t = 10 s, the car decelerates uniformly, reaching a final velocity of -8 m/s at t = 10 s. Take the positive direction as the direction of initial motion.\n\n[Velocity-Time Graph Description: The graph has a horizontal line at v = +20 m/s from t = 0 to t = 4 s, followed by a straight line with negative slope from (4 s, +20 m/s) to (10 s, -8 m/s).]",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the acceleration of the car during the interval from t = 4 s to t = 10 s. Include appropriate sign and units.",
-        "rubric": "Student earns 1 point for correctly applying the definition of average acceleration: a = Δv/Δt = (−8 − 20)/(10 − 4) = −28/6 ≈ −4.67 m/s², with the correct negative sign indicating deceleration in the positive direction."
+        "rubric": "Student earns 1 point for correctly applying the definition of average acceleration: a = $\\Delta v$/$\\Delta t$ = (-8 - 20)/(10 - 4) = -28/6 $\\approx$ -4.67 $m/s^2$, with the correct negative sign indicating deceleration in the positive direction."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the total displacement of the car over the entire 10-second interval.",
-        "rubric": "Student earns 1 point for correctly computing displacement as the total area under the velocity-time graph: displacement from 0-4 s = (20)(4) = 80 m; displacement from 4-10 s = area of trapezoid = ½(20 + (−8))(6) = ½(12)(6) = 36 m; total displacement = 80 + 36 = 116 m."
+        "rubric": "Student earns 1 point for correctly computing displacement as the total area under the velocity-time graph: displacement from 0-4 s = (20)(4) = 80 m; displacement from 4-10 s = area of trapezoid = $\\frac{1}{2}$(20 + (-8))(6) = $\\frac{1}{2}$(12)(6) = 36 m; total displacement = 80 + 36 = 116 m."
       },
       {
         "label": "c",
@@ -174,7 +174,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly calculates acceleration using a = Δv/Δt over the 4 s to 10 s interval, obtaining approximately −4.67 m/s² (or −14/3 m/s²) with the correct negative sign.",
+        "description": "Correctly calculates acceleration using a = $\\Delta v$/$\\Delta t$ over the 4 s to 10 s interval, obtaining approximately -4.67 $m/s^2$ (or -14/3 $m/s^2$) with the correct negative sign.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -313,7 +313,7 @@ window.PHYSICS_FRQ = [
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the traveler's velocity relative to the ground, including magnitude and direction.",
-        "rubric": "Student earns 1 point for correctly applying relative velocity vector addition: v_traveler/ground = v_traveler/walkway + v_walkway/ground = (−1.5 m/s) + (+2.0 m/s) = +0.5 m/s (east). Must include correct magnitude of 0.5 m/s and eastward direction."
+        "rubric": "Student earns 1 point for correctly applying relative velocity vector addition: v_traveler/ground = v_traveler/walkway + v_walkway/ground = (-1.5 m/s) + (+2.0 m/s) = +0.5 m/s (east). Must include correct magnitude of 0.5 m/s and eastward direction."
       },
       {
         "label": "b",
@@ -449,45 +449,45 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A soccer player kicks a ball from the ground at an angle of 30° above the horizontal with an initial speed of 20 m/s. Assume air resistance is negligible and use g = 10 m/s². The ball lands back on the ground at the same elevation from which it was kicked. Use the following component equations as needed: v₀ₓ = v₀cos θ, v₀ᵧ = v₀sin θ, x = v₀ₓt, y = v₀ᵧt − ½gt², vᵧ = v₀ᵧ − gt.",
+    "prompt": "A soccer player kicks a ball from the ground at an angle of 30° above the horizontal with an initial speed of 20 m/s. Assume air resistance is negligible and use g = 10 $m/s^2$. The ball lands back on the ground at the same elevation from which it was kicked. Use the following component equations as needed: v₀ₓ = v₀cos θ, v₀ᵧ = v₀sin θ, x = v₀ₓt, y = v₀ᵧt - $\\frac{1}{2}$g$t^2$, vᵧ = v₀ᵧ - gt.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the horizontal and vertical components of the ball's initial velocity.",
-        "rubric": "Award 1 point for correctly calculating both components: v₀ₓ = 20cos30° ≈ 17.3 m/s and v₀ᵧ = 20sin30° = 10 m/s."
+        "rubric": "Award 1 point for correctly calculating both components: v₀ₓ = 20cos30° $\\approx$ 17.3 m/s and v₀ᵧ = 20sin30° = 10 m/s."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the total time the ball is in the air.",
-        "rubric": "Award 1 point for correctly using the vertical kinematic equation to find total flight time. Setting y = 0: 0 = v₀ᵧt − ½gt², solving gives t = 2v₀ᵧ/g = 2(10)/10 = 2 s."
+        "rubric": "Award 1 point for correctly using the vertical kinematic equation to find total flight time. Setting y = 0: 0 = v₀ᵧt - $\\frac{1}{2}$g$t^2$, solving gives t = 2v₀ᵧ/g = 2(10)/10 = 2 s."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "Calculate the horizontal range (total horizontal distance traveled) of the ball.",
-        "rubric": "Award 1 point for correctly using x = v₀ₓ · t = 17.3 m/s × 2 s ≈ 34.6 m (accept 34-35 m)."
+        "rubric": "Award 1 point for correctly using x = v₀ₓ · t = 17.3 m/s × 2 s $\\approx$ 34.6 m (accept 34-35 m)."
       },
       {
         "label": "d",
         "command": "Describe",
         "question": "Describe how the horizontal velocity component and the vertical velocity component each change (or do not change) throughout the ball's flight, and explain why each behaves as it does.",
-        "rubric": "Award 1 point for correctly stating that the horizontal velocity remains constant (no horizontal acceleration, no air resistance) and the vertical velocity changes at a constant rate of −10 m/s² due to gravitational acceleration directed downward."
+        "rubric": "Award 1 point for correctly stating that the horizontal velocity remains constant (no horizontal acceleration, no air resistance) and the vertical velocity changes at a constant rate of -10 $m/s^2$ due to gravitational acceleration directed downward."
       },
       {
         "label": "e",
         "command": "Predict",
         "question": "Predict what would happen to the total time of flight and the horizontal range if the launch angle were increased to 60° while keeping the initial speed at 20 m/s. Justify your prediction using kinematic reasoning.",
-        "rubric": "Award 1 point for correctly predicting that the time of flight increases (v₀ᵧ = 20sin60° ≈ 17.3 m/s > 10 m/s, so t = 2v₀ᵧ/g increases) and that the horizontal range remains the same as at 30° (≈34.6 m) because sin(2×60°) = sin120° = sin60° = sin(2×30°). Accept answers that correctly note the range is the same as at 30° with a valid symmetry or R = v₀²sin2θ/g argument, and that flight time is longer."
+        "rubric": "Award 1 point for correctly predicting that the time of flight increases (v₀ᵧ = 20sin60° $\\approx$ 17.3 m/s > 10 m/s, so t = 2v₀ᵧ/g increases) and that the horizontal range remains the same as at 30° ($\\approx$34.6 m) because sin(2×60°) = sin120° = sin60° = sin(2×30°). Accept answers that correctly note the range is the same as at 30° with a valid symmetry or R = v₀²sin2θ/g argument, and that flight time is longer."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly calculates both the horizontal component v₀ₓ = v₀cosθ ≈ 17.3 m/s and vertical component v₀ᵧ = v₀sinθ = 10 m/s using trigonometric decomposition of the initial velocity vector.",
+        "description": "Correctly calculates both the horizontal component v₀ₓ = v₀cosθ $\\approx$ 17.3 m/s and vertical component v₀ᵧ = v₀sinθ = 10 m/s using trigonometric decomposition of the initial velocity vector.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -524,7 +524,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly calculates total flight time by setting vertical displacement y = 0 and solving the kinematic equation 0 = v₀ᵧt − ½gt², yielding t = 2v₀ᵧ/g = 2 s.",
+        "description": "Correctly calculates total flight time by setting vertical displacement y = 0 and solving the kinematic equation 0 = v₀ᵧt - $\\frac{1}{2}$g$t^2$, yielding t = 2v₀ᵧ/g = 2 s.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -561,7 +561,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly calculates horizontal range using x = v₀ₓ · t = 17.3 m/s × 2 s ≈ 34.6 m (accept 34-35 m).",
+        "description": "Correctly calculates horizontal range using x = v₀ₓ · t = 17.3 m/s × 2 s $\\approx$ 34.6 m (accept 34-35 m).",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -598,7 +598,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correctly describes that horizontal velocity is constant throughout flight (zero horizontal acceleration, no air resistance) and vertical velocity changes at a constant rate of −10 m/s² (gravitational acceleration downward).",
+        "description": "Correctly describes that horizontal velocity is constant throughout flight (zero horizontal acceleration, no air resistance) and vertical velocity changes at a constant rate of -10 $m/s^2$ (gravitational acceleration downward).",
         "partLabel": "d",
         "skill": "describe",
         "keywords": [
@@ -637,7 +637,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Correctly predicts that the time of flight increases at 60° because v₀ᵧ is larger, and that the horizontal range remains the same as at 30° (≈34.6 m) because sin(2×60°) = sin(2×30°), using R = v₀²sin2θ/g or complementary angle symmetry argument, with valid kinematic justification.",
+        "description": "Correctly predicts that the time of flight increases at 60° because v₀ᵧ is larger, and that the horizontal range remains the same as at 30° ($\\approx$34.6 m) because sin(2×60°) = sin(2×30°), using R = v₀²sin2θ/g or complementary angle symmetry argument, with valid kinematic justification.",
         "partLabel": "e",
         "skill": "predict",
         "keywords": [
@@ -687,20 +687,20 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A small cart moves along a horizontal track at a constant velocity of +4.0 m/s relative to the ground. At t = 0, when the cart is at position x = 0, a launcher mounted on the cart fires a ball straight upward (relative to the cart) with an initial speed of 19.6 m/s. Simultaneously, an observer standing on the ground at x = +12.0 m begins walking in the −x direction at a constant speed of 2.0 m/s. Ignore air resistance and use g = 9.8 m/s².\n\nThe following information summarizes the scenario:\n- Cart velocity (ground frame): v_cart = +4.0 m/s\n- Ball's initial vertical speed (cart frame): v_y0 = +19.6 m/s\n- Ball's initial horizontal speed (ground frame): v_x0 = +4.0 m/s (same as cart)\n- Observer's initial position: x_obs = +12.0 m\n- Observer's velocity (ground frame): v_obs = −2.0 m/s\n- g = 9.8 m/s²",
+    "prompt": "A small cart moves along a horizontal track at a constant velocity of +4.0 m/s relative to the ground. At t = 0, when the cart is at position x = 0, a launcher mounted on the cart fires a ball straight upward (relative to the cart) with an initial speed of 19.6 m/s. Simultaneously, an observer standing on the ground at x = +12.0 m begins walking in the -x direction at a constant speed of 2.0 m/s. Ignore air resistance and use g = 9.8 $m/s^2$.\n\nThe following information summarizes the scenario:\n- Cart velocity (ground frame): v_cart = +4.0 m/s\n- Ball's initial vertical speed (cart frame): v_y0 = +19.6 m/s\n- Ball's initial horizontal speed (ground frame): v_x0 = +4.0 m/s (same as cart)\n- Observer's initial position: x_obs = +12.0 m\n- Observer's velocity (ground frame): v_obs = -2.0 m/s\n- g = 9.8 $m/s^2$",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the total time the ball is in the air from launch until it returns to the height of the launcher. Show your work.",
-        "rubric": "Student earns the point by correctly applying the kinematic equation for vertical displacement equal to zero (Δy = 0) using v_y0 = +19.6 m/s and g = 9.8 m/s², yielding t = 2v_y0/g = 2(19.6)/9.8 = 4.0 s."
+        "rubric": "Student earns the point by correctly applying the kinematic equation for vertical displacement equal to zero ($\\Delta y$ = 0) using v_y0 = +19.6 m/s and g = 9.8 $m/s^2$, yielding t = 2v_y0/g = 2(19.6)/9.8 = 4.0 s."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the horizontal displacement of the ball (as measured in the ground frame) during its entire flight. Then determine the horizontal displacement of the cart during the same time interval. Explain whether the ball lands back on the launcher.",
-        "rubric": "Student earns the point by calculating the ball's horizontal displacement as Δx_ball = v_x0 × t = 4.0 × 4.0 = 16.0 m, the cart's horizontal displacement as Δx_cart = v_cart × t = 4.0 × 4.0 = 16.0 m, and correctly concluding the ball lands back on the launcher because they share the same horizontal velocity and thus the same horizontal displacement."
+        "rubric": "Student earns the point by calculating the ball's horizontal displacement as $\\Delta x$_ball = v_x0 × t = 4.0 × 4.0 = 16.0 m, the cart's horizontal displacement as $\\Delta x$_cart = v_cart × t = 4.0 × 4.0 = 16.0 m, and correctly concluding the ball lands back on the launcher because they share the same horizontal velocity and thus the same horizontal displacement."
       },
       {
         "label": "c",
@@ -712,20 +712,20 @@ window.PHYSICS_FRQ = [
         "label": "d",
         "command": "Calculate",
         "question": "Determine the position of the walking observer (relative to the ground) at the exact moment the ball returns to the launcher. Then calculate the position of the ball (relative to the ground) at that same moment, and determine the distance between the observer and the ball at that instant.",
-        "rubric": "Student earns the point by correctly computing: observer position = x_obs + v_obs × t = 12.0 + (−2.0)(4.0) = 12.0 − 8.0 = +4.0 m; ball (launcher) position = 0 + 4.0 × 4.0 = +16.0 m; distance between observer and ball = 16.0 − 4.0 = 12.0 m."
+        "rubric": "Student earns the point by correctly computing: observer position = x_obs + v_obs × t = 12.0 + (-2.0)(4.0) = 12.0 - 8.0 = +4.0 m; ball (launcher) position = 0 + 4.0 × 4.0 = +16.0 m; distance between observer and ball = 16.0 - 4.0 = 12.0 m."
       },
       {
         "label": "e",
         "command": "Explain",
         "question": "At the moment the ball is at the peak of its trajectory, determine the velocity of the ball relative to the walking observer. Then explain what a position-vs-time graph of the ball's horizontal position (ground frame) would look like over the entire flight, and describe what feature of that graph represents the ball's horizontal velocity.",
-        "rubric": "Student earns the point by correctly calculating the ball's velocity relative to the observer: the ball's horizontal velocity in the ground frame is +4.0 m/s and the observer's velocity is −2.0 m/s, so the relative velocity is +4.0 − (−2.0) = +6.0 m/s horizontally, and the ball's vertical velocity at the peak is 0 m/s (v_y = v_y0 − gt = 19.6 − 9.8×2.0 = 0), giving a total relative velocity of +6.0 m/s in the horizontal direction; AND correctly describing the x-vs-t graph as a straight line with positive constant slope (not curved) because horizontal velocity is constant throughout the flight, with the slope of the line equal to the ball's horizontal velocity (+4.0 m/s)."
+        "rubric": "Student earns the point by correctly calculating the ball's velocity relative to the observer: the ball's horizontal velocity in the ground frame is +4.0 m/s and the observer's velocity is -2.0 m/s, so the relative velocity is +4.0 - (-2.0) = +6.0 m/s horizontally, and the ball's vertical velocity at the peak is 0 m/s (v_y = v_y0 - gt = 19.6 - 9.8×2.0 = 0), giving a total relative velocity of +6.0 m/s in the horizontal direction; AND correctly describing the x-vs-t graph as a straight line with positive constant slope (not curved) because horizontal velocity is constant throughout the flight, with the slope of the line equal to the ball's horizontal velocity (+4.0 m/s)."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly applies Δy = 0 kinematic equation to find total flight time of 4.0 s using v_y0 = 19.6 m/s and g = 9.8 m/s²",
+        "description": "Correctly applies $\\Delta y$ = 0 kinematic equation to find total flight time of 4.0 s using v_y0 = 19.6 m/s and g = 9.8 $m/s^2$",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -1106,7 +1106,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A block of mass m = 5.0 kg is placed on a rough inclined plane that makes an angle of θ = 30° with the horizontal. The coefficient of kinetic friction between the block and the surface is μk = 0.20. The block is given a brief push and slides up the incline, then decelerates and comes to a stop. Consider the block while it is sliding UP the incline (before it stops). Use g = 10 m/s².",
+    "prompt": "A block of mass m = 5.0 kg is placed on a rough inclined plane that makes an angle of θ = 30° with the horizontal. The coefficient of kinetic friction between the block and the surface is $\\mu$k = 0.20. The block is given a brief push and slides up the incline, then decelerates and comes to a stop. Consider the block while it is sliding UP the incline (before it stops). Use g = 10 $m/s^2$.",
     "starterCode": null,
     "parts": [
       {
@@ -1119,7 +1119,7 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the magnitude of the net force acting on the block as it slides up the incline.",
-        "rubric": "Student correctly calculates the normal force N = mg cosθ = (5.0)(10)(cos30°) ≈ 43.3 N, the gravitational component along the incline mg sinθ = (5.0)(10)(sin30°) = 25 N (down the slope), the kinetic friction force fk = μkN = (0.20)(43.3) ≈ 8.66 N (down the slope), and the net force = mg sinθ + fk = 25 + 8.66 ≈ 33.7 N directed down the incline. Accept answers in the range 33-34 N."
+        "rubric": "Student correctly calculates the normal force N = mg cosθ = (5.0)(10)(cos30°) $\\approx$ 43.3 N, the gravitational component along the incline mg sinθ = (5.0)(10)(sin30°) = 25 N (down the slope), the kinetic friction force fk = $\\mu$kN = (0.20)(43.3) $\\approx$ 8.66 N (down the slope), and the net force = mg sinθ + fk = 25 + 8.66 $\\approx$ 33.7 N directed down the incline. Accept answers in the range 33-34 N."
       },
       {
         "label": "c",
@@ -1155,7 +1155,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student correctly calculates the net force by finding N = mg cosθ, fk = μkN, adding mg sinθ and fk (both down the slope), arriving at a net force of approximately 33-34 N directed down the incline.",
+        "description": "Student correctly calculates the net force by finding N = mg cosθ, fk = $\\mu$kN, adding mg sinθ and fk (both down the slope), arriving at a net force of approximately 33-34 N directed down the incline.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -1242,7 +1242,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 3,
-    "prompt": "Two blocks are connected by a light, inextensible string. Block A (mass m_A = 4.0 kg) sits on a rough inclined plane tilted at θ = 30° above the horizontal. The coefficient of kinetic friction between Block A and the incline is μ_k = 0.20. Block B (mass m_B = 2.0 kg) hangs vertically from the string that passes over a massless, frictionless pulley at the top of the incline. The system is released from rest and Block B accelerates downward. Use g = 10 m/s².",
+    "prompt": "Two blocks are connected by a light, inextensible string. Block A (mass m_A = 4.0 kg) sits on a rough inclined plane tilted at θ = 30° above the horizontal. The coefficient of kinetic friction between Block A and the incline is $\\mu$_k = 0.20. Block B (mass m_B = 2.0 kg) hangs vertically from the string that passes over a massless, frictionless pulley at the top of the incline. The system is released from rest and Block B accelerates downward. Use g = 10 $m/s^2$.",
     "starterCode": null,
     "parts": [
       {
@@ -1255,13 +1255,13 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the acceleration of the system after it is released. Show all work including free-body analysis for both blocks.",
-        "rubric": "Student earns 1 point for correctly applying Newton's second law to both blocks and solving for acceleration. For Block B: m_B·g − T = m_B·a → 2.0(10) − T = 2.0a. For Block A along the incline (taking up-incline as positive for A): T − m_A·g·sin30° − μ_k·m_A·g·cos30° = m_A·a → T − 4(10)(0.5) − 0.20(4)(10)(0.866) = 4a → T − 20 − 6.93 = 4a. Adding equations: 20 − 20 − 6.93 = 6a → a = −6.93/6 ≈ −1.15 m/s²; since this is negative the assumed direction is wrong. The net driving force = m_B·g − m_A·g·sin30° − μ_k·m_A·g·cos30° = 20 − 20 − 6.93 = −6.93 N, indicating the system does not move as described. Note: the prompt states Block B accelerates downward, but the numeric values yield a negative net force in that assumed direction; full credit is awarded to students who correctly set up Newton's second law for both blocks with a consistent sign convention, substitute all values correctly, and report either a ≈ 1.15 m/s² (magnitude) with a correct direction statement or conclude the system does not accelerate as described."
+        "rubric": "Student earns 1 point for correctly applying Newton's second law to both blocks and solving for acceleration. For Block B: m_B·g - T = m_B·a → 2.0(10) - T = 2.0a. For Block A along the incline (taking up-incline as positive for A): T - m_A·g·sin30° - $\\mu$_k·m_A·g·cos30° = m_A·a → T - 4(10)(0.5) - 0.20(4)(10)(0.866) = 4a → T - 20 - 6.93 = 4a. Adding equations: 20 - 20 - 6.93 = 6a → a = -6.93/6 $\\approx$ -1.15 $m/s^2$; since this is negative the assumed direction is wrong. The net driving force = m_B·g - m_A·g·sin30° - $\\mu$_k·m_A·g·cos30° = 20 - 20 - 6.93 = -6.93 N, indicating the system does not move as described. Note: the prompt states Block B accelerates downward, but the numeric values yield a negative net force in that assumed direction; full credit is awarded to students who correctly set up Newton's second law for both blocks with a consistent sign convention, substitute all values correctly, and report either a $\\approx$ 1.15 $m/s^2$ (magnitude) with a correct direction statement or conclude the system does not accelerate as described."
       },
       {
         "label": "c",
         "command": "Justify",
         "question": "A student claims that the tension in the string is equal to the weight of Block B (T = m_B·g = 20 N) because Block B is 'just hanging there pulling the string.' Justify why this claim is incorrect, referencing Newton's second law.",
-        "rubric": "Student earns 1 point for correctly arguing that T ≠ m_B·g because Block B is accelerating (not in equilibrium), so the net force on Block B is nonzero. By Newton's second law applied to Block B, m_B·g − T = m_B·a, which means T = m_B·(g − a) < m_B·g when a > 0. The tension equals the weight only when acceleration is zero (static equilibrium). Student must explicitly invoke Newton's second law (ΣF = ma) and connect nonzero acceleration to T being less than m_B·g."
+        "rubric": "Student earns 1 point for correctly arguing that T $\\neq$ m_B·g because Block B is accelerating (not in equilibrium), so the net force on Block B is nonzero. By Newton's second law applied to Block B, m_B·g - T = m_B·a, which means T = m_B·(g - a) < m_B·g when a > 0. The tension equals the weight only when acceleration is zero (static equilibrium). Student must explicitly invoke Newton's second law (ΣF = ma) and connect nonzero acceleration to T being less than m_B·g."
       }
     ],
     "rubric": [
@@ -1292,7 +1292,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly applies Newton's second law to both Block A (along incline) and Block B (vertical), sets up coupled equations with consistent sign convention, substitutes μ_k, sin30°, cos30°, and solves for acceleration (arriving at approximately 1.15 m/s² magnitude or correctly concluding the system remains stationary given the net driving force is negative).",
+        "description": "Correctly applies Newton's second law to both Block A (along incline) and Block B (vertical), sets up coupled equations with consistent sign convention, substitutes $\\mu$_k, sin30°, cos30°, and solves for acceleration (arriving at approximately 1.15 $m/s^2$ magnitude or correctly concluding the system remains stationary given the net driving force is negative).",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -1335,7 +1335,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly rejects the claim by invoking Newton's second law for Block B: since Block B accelerates, net force is nonzero, so T = m_B·(g − a) ≠ m_B·g. Tension equals weight only in equilibrium (zero acceleration). Student must cite Newton's second law and connect acceleration to reduced tension.",
+        "description": "Correctly rejects the claim by invoking Newton's second law for Block B: since Block B accelerates, net force is nonzero, so T = m_B·(g - a) $\\neq$ m_B·g. Tension equals weight only in equilibrium (zero acceleration). Student must cite Newton's second law and connect acceleration to reduced tension.",
         "partLabel": "c",
         "skill": "justify",
         "keywords": [
@@ -1386,7 +1386,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A block of mass m = 5.0 kg sits on a rough inclined plane that makes an angle of θ = 30° with the horizontal. A light string is attached to the block and runs parallel to the incline, over a frictionless pulley at the top of the incline, and connects to a hanging block of mass M = 4.0 kg that is suspended vertically. The coefficient of kinetic friction between the 5.0 kg block and the incline is μk = 0.20. The system is observed to accelerate: the hanging block moves downward and the block on the incline moves up the slope. Use g = 10 m/s².",
+    "prompt": "A block of mass m = 5.0 kg sits on a rough inclined plane that makes an angle of θ = 30° with the horizontal. A light string is attached to the block and runs parallel to the incline, over a frictionless pulley at the top of the incline, and connects to a hanging block of mass M = 4.0 kg that is suspended vertically. The coefficient of kinetic friction between the 5.0 kg block and the incline is $\\mu$k = 0.20. The system is observed to accelerate: the hanging block moves downward and the block on the incline moves up the slope. Use g = 10 $m/s^2$.",
     "starterCode": null,
     "parts": [
       {
@@ -1399,25 +1399,25 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Explain",
         "question": "A student claims that the normal force on the block on the incline equals mg (the full weight of the block). Explain why the student is incorrect and write the correct expression for the normal force.",
-        "rubric": "Student must state that the normal force equals the component of gravity perpendicular to the incline surface, not the full weight. The correct expression is N = mg cos θ = (5.0)(10) cos 30° ≈ 43.3 N. Credit earned for identifying that only the perpendicular component of gravity is balanced by the normal force because the surface is tilted."
+        "rubric": "Student must state that the normal force equals the component of gravity perpendicular to the incline surface, not the full weight. The correct expression is N = mg cos θ = (5.0)(10) cos 30° $\\approx$ 43.3 N. Credit earned for identifying that only the perpendicular component of gravity is balanced by the normal force because the surface is tilted."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "Calculate the magnitude of the net force on the hanging block (mass M = 4.0 kg) in terms of tension T and known quantities. Then write the equation of motion (Newton's second law) for the hanging block, taking downward as positive.",
-        "rubric": "Student must apply Newton's second law to the hanging block: Mg − T = Ma. Substituting values: (4.0)(10) − T = 4.0a, giving 40 − T = 4.0a. Full credit for correctly identifying the two forces (Mg downward, T upward) and writing the correct net force equation consistent with the chosen sign convention."
+        "rubric": "Student must apply Newton's second law to the hanging block: Mg - T = Ma. Substituting values: (4.0)(10) - T = 4.0a, giving 40 - T = 4.0a. Full credit for correctly identifying the two forces (Mg downward, T upward) and writing the correct net force equation consistent with the chosen sign convention."
       },
       {
         "label": "d",
         "command": "Calculate",
         "question": "Using Newton's second law for both blocks and the constraint that they share the same magnitude of acceleration, calculate the acceleration of the system.",
-        "rubric": "Student must write two equations: for the incline block (up-slope positive): T − mg sin θ − μk mg cos θ = ma → T − (5.0)(10)(0.5) − (0.20)(5.0)(10)(cos 30°) = 5.0a → T − 25 − 8.66 = 5.0a → T − 33.66 = 5.0a. Combined with 40 − T = 4.0a, adding equations: 40 − 33.66 = 9.0a → 6.34 = 9.0a → a ≈ 0.70 m/s². Full credit for correct simultaneous equation setup and answer in the range 0.68-0.72 m/s²."
+        "rubric": "Student must write two equations: for the incline block (up-slope positive): T - mg sin θ - $\\mu$k mg cos θ = ma → T - (5.0)(10)(0.5) - (0.20)(5.0)(10)(cos 30°) = 5.0a → T - 25 - 8.66 = 5.0a → T - 33.66 = 5.0a. Combined with 40 - T = 4.0a, adding equations: 40 - 33.66 = 9.0a → 6.34 = 9.0a → a $\\approx$ 0.70 $m/s^2$. Full credit for correct simultaneous equation setup and answer in the range 0.68-0.72 $m/s^2$."
       },
       {
         "label": "e",
         "command": "Justify",
         "question": "Suppose the string is suddenly cut while the system is in motion. Predict what happens to the block on the incline immediately after the string is cut, and justify your answer using Newton's first or second law. Assume the block was moving up the incline when the string was cut.",
-        "rubric": "Student must predict that the block decelerates and eventually stops (or immediately begins to decelerate), then may slide back down if gravity component exceeds static friction. Justification must cite Newton's second law: with tension removed, the net force on the block is now down the incline (gravity component mg sin θ plus kinetic friction mg μk cos θ, both directed down the slope while block still moves up), so the block decelerates. Full credit for correctly identifying the direction of net force and applying F_net = ma to conclude deceleration."
+        "rubric": "Student must predict that the block decelerates and eventually stops (or immediately begins to decelerate), then may slide back down if gravity component exceeds static friction. Justification must cite Newton's second law: with tension removed, the net force on the block is now down the incline (gravity component mg sin θ plus kinetic friction mg $\\mu$k cos θ, both directed down the slope while block still moves up), so the block decelerates. Full credit for correctly identifying the direction of net force and applying F_net = ma to conclude deceleration."
       }
     ],
     "rubric": [
@@ -1495,7 +1495,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student correctly applies Newton's second law to the hanging block, identifying Mg downward and T upward, and writes Mg − T = Ma (or equivalently 40 − T = 4.0a).",
+        "description": "Student correctly applies Newton's second law to the hanging block, identifying Mg downward and T upward, and writes Mg - T = Ma (or equivalently 40 - T = 4.0a).",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -1521,7 +1521,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Student correctly sets up Newton's second law for the incline block including friction and gravity components, combines with hanging block equation, and solves for acceleration a ≈ 0.70 m/s².",
+        "description": "Student correctly sets up Newton's second law for the incline block including friction and gravity components, combines with hanging block equation, and solves for acceleration a $\\approx$ 0.70 $m/s^2$.",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -1603,7 +1603,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A modified Atwood machine consists of two blocks connected by a light, inextensible string that passes over a massless, frictionless pulley mounted at the top of a rough inclined plane. Block A, with mass m_A = 4.0 kg, rests on the inclined surface, which makes an angle θ = 30° with the horizontal. The coefficient of kinetic friction between Block A and the incline is μ_k = 0.20. Block B, with mass m_B = 3.0 kg, hangs vertically from the string on the other side of the pulley. The system is released from rest and Block B descends while Block A slides up the incline. Use g = 10 m/s².",
+    "prompt": "A modified Atwood machine consists of two blocks connected by a light, inextensible string that passes over a massless, frictionless pulley mounted at the top of a rough inclined plane. Block A, with mass m_A = 4.0 kg, rests on the inclined surface, which makes an angle θ = 30° with the horizontal. The coefficient of kinetic friction between Block A and the incline is $\\mu$_k = 0.20. Block B, with mass m_B = 3.0 kg, hangs vertically from the string on the other side of the pulley. The system is released from rest and Block B descends while Block A slides up the incline. Use g = 10 $m/s^2$.",
     "starterCode": null,
     "parts": [
       {
@@ -1622,13 +1622,13 @@ window.PHYSICS_FRQ = [
         "label": "c",
         "command": "Calculate",
         "question": "Determine the normal force exerted by the inclined surface on Block A.",
-        "rubric": "Student must resolve forces perpendicular to the incline. Setting up the perpendicular equilibrium: N - m_A·g·cos θ = 0, so N = m_A·g·cos θ = (4.0 kg)(10 m/s²)(cos 30°) = (4.0)(10)(0.866) = 34.6 N ≈ 34.6 N (accept 34-35 N). Student must show use of the cosine component of gravity perpendicular to the incline."
+        "rubric": "Student must resolve forces perpendicular to the incline. Setting up the perpendicular equilibrium: N - m_A·g·cos θ = 0, so N = m_A·g·cos θ = (4.0 kg)(10 $m/s^2$)(cos 30°) = (4.0)(10)(0.866) = 34.6 N $\\approx$ 34.6 N (accept 34-35 N). Student must show use of the cosine component of gravity perpendicular to the incline."
       },
       {
         "label": "d",
         "command": "Calculate",
         "question": "Using Newton's second law, determine the acceleration of the system after it is released from rest.",
-        "rubric": "Student must write correct Newton's second law equations for both blocks and solve simultaneously. For Block B (taking downward as positive): m_B·g - T = m_B·a. For Block A (taking up the incline as positive): T - m_A·g·sin θ - μ_k·N = m_A·a. Substituting N = 34.6 N and adding equations: m_B·g - m_A·g·sin θ - μ_k·m_A·g·cos θ = (m_A + m_B)·a. Numerically: (3.0)(10) - (4.0)(10)(0.5) - (0.20)(34.6) = (7.0)·a → 30 - 20 - 6.93 = 7.0·a → 3.07 = 7.0·a → a ≈ 0.44 m/s² (accept 0.43-0.45 m/s²)."
+        "rubric": "Student must write correct Newton's second law equations for both blocks and solve simultaneously. For Block B (taking downward as positive): m_B·g - T = m_B·a. For Block A (taking up the incline as positive): T - m_A·g·sin θ - $\\mu$_k·N = m_A·a. Substituting N = 34.6 N and adding equations: m_B·g - m_A·g·sin θ - $\\mu$_k·m_A·g·cos θ = (m_A + m_B)·a. Numerically: (3.0)(10) - (4.0)(10)(0.5) - (0.20)(34.6) = (7.0)·a → 30 - 20 - 6.93 = 7.0·a → 3.07 = 7.0·a → a $\\approx$ 0.44 $m/s^2$ (accept 0.43-0.45 $m/s^2$)."
       },
       {
         "label": "e",
@@ -1720,7 +1720,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student correctly calculates the normal force as N = m_A·g·cos θ = (4.0)(10)(cos 30°) ≈ 34.6 N, showing the perpendicular force balance and correct use of the cosine component of gravity.",
+        "description": "Student correctly calculates the normal force as N = m_A·g·cos θ = (4.0)(10)(cos 30°) $\\approx$ 34.6 N, showing the perpendicular force balance and correct use of the cosine component of gravity.",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -1744,7 +1744,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Student correctly writes Newton's second law for both blocks, combines them to eliminate tension, substitutes numerical values, and arrives at a ≈ 0.44 m/s² (accepting 0.43-0.45 m/s²). Must show F_net = (m_A + m_B)·a structure with gravity, weight component along incline, and friction accounted for.",
+        "description": "Student correctly writes Newton's second law for both blocks, combines them to eliminate tension, substitutes numerical values, and arrives at a $\\approx$ 0.44 $m/s^2$ (accepting 0.43-0.45 $m/s^2$). Must show F_net = (m_A + m_B)·a structure with gravity, weight component along incline, and friction accounted for.",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -1848,13 +1848,13 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the magnitude of the centripetal force acting on the car.",
-        "rubric": "Student correctly applies F_c = mv²/r with m = 1200 kg, v = 15 m/s, r = 45 m to obtain F_c = 6000 N."
+        "rubric": "Student correctly applies F_c = m$v^2$/r with m = 1200 kg, v = 15 m/s, r = 45 m to obtain F_c = 6000 N."
       },
       {
         "label": "c",
         "command": "Explain",
         "question": "If the car were to travel around the same curve at a higher speed, explain what would happen to the required centripetal force and why.",
-        "rubric": "Student states that the required centripetal force increases and explains that centripetal force is proportional to v² (F_c = mv²/r), so as speed increases the required force increases."
+        "rubric": "Student states that the required centripetal force increases and explains that centripetal force is proportional to $v^2$ (F_c = m$v^2$/r), so as speed increases the required force increases."
       }
     ],
     "rubric": [
@@ -1903,7 +1903,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student correctly uses F_c = mv²/r with given values and arrives at 6000 N.",
+        "description": "Student correctly uses F_c = m$v^2$/r with given values and arrives at 6000 N.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -1926,7 +1926,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student states that the required centripetal force increases and correctly cites the proportionality F_c ∝ v² (from F_c = mv²/r) as the justification.",
+        "description": "Student states that the required centripetal force increases and correctly cites the proportionality F_c ∝ $v^2$ (from F_c = m$v^2$/r) as the justification.",
         "partLabel": "c",
         "skill": "explain",
         "keywords": [
@@ -1987,7 +1987,7 @@ window.PHYSICS_FRQ = [
         "label": "a",
         "command": "Derive",
         "question": "Derive an expression for the orbital speed v of the first satellite (mass m, orbital radius r) in terms of G, M, and r.",
-        "rubric": "Student earns the point by correctly setting gravitational force equal to centripetal force (GMm/r² = mv²/r) and solving to obtain v = √(GM/r)."
+        "rubric": "Student earns the point by correctly setting gravitational force equal to centripetal force ($GMm/r^2$ = m$v^2$/r) and solving to obtain v = √(GM/r)."
       },
       {
         "label": "b",
@@ -1999,7 +1999,7 @@ window.PHYSICS_FRQ = [
         "label": "c",
         "command": "Calculate",
         "question": "Determine the ratio of the orbital period of the second satellite T₂ to the orbital period of the first satellite T₁. Express your answer as a numerical ratio.",
-        "rubric": "Student earns the point by correctly applying Kepler's third law (T² ∝ r³) or deriving T = 2πr/v to obtain T₂/T₁ = 8, showing work consistent with the ratio of radii (4r/r)^(3/2) = 8."
+        "rubric": "Student earns the point by correctly applying Kepler's third law ($T^2$ ∝ $r^3$) or deriving T = 2πr/v to obtain T₂/T₁ = 8, showing work consistent with the ratio of radii (4r/r)^(3/2) = 8."
       }
     ],
     "rubric": [
@@ -2081,7 +2081,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly obtains T₂/T₁ = 8 using Kepler's third law T² ∝ r³ or equivalent derivation",
+        "description": "Correctly obtains T₂/T₁ = 8 using Kepler's third law $T^2$ ∝ $r^3$ or equivalent derivation",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -2136,26 +2136,26 @@ window.PHYSICS_FRQ = [
         "label": "a",
         "command": "Calculate",
         "question": "Using Kepler's Third Law, determine the orbital period of Planet Y in terms of T.",
-        "rubric": "Student earns 1 point for correctly applying Kepler's Third Law (T² ∝ r³ or T²/r³ = constant) to find T_Y = 8T. Must show the ratio setup T_Y²/(4r)³ = T²/r³ and arrive at T_Y = 8T."
+        "rubric": "Student earns 1 point for correctly applying Kepler's Third Law ($T^2$ ∝ $r^3$ or $T^2$/$r^3$ = constant) to find T_Y = 8T. Must show the ratio setup T_$Y^2$/(4r)³ = $T^2$/$r^3$ and arrive at T_Y = 8T."
       },
       {
         "label": "b",
         "command": "Derive",
         "question": "Derive an expression for the orbital speed of the satellite at radius 9r in terms of G, M, and r. Show your reasoning starting from Newton's Law of Gravitation and Newton's Second Law.",
-        "rubric": "Student earns 1 point for correctly setting gravitational force equal to centripetal force (GMm/(9r)² = mv²/(9r)) and solving to obtain v = sqrt(GM/(9r)) or v = (1/3)sqrt(GM/r). Must show the force-balance setup explicitly."
+        "rubric": "Student earns 1 point for correctly setting gravitational force equal to centripetal force (GMm/(9r)² = m$v^2$/(9r)) and solving to obtain v = sqrt(GM/(9r)) or v = (1/3)sqrt(GM/r). Must show the force-balance setup explicitly."
       },
       {
         "label": "c",
         "command": "Explain",
         "question": "The satellite's thruster briefly fires, increasing its orbital radius from 9r to 16r. Explain what happens to the satellite's orbital speed and gravitational force on the satellite as the orbital radius increases, and justify your answer using physics principles.",
-        "rubric": "Student earns 1 point for correctly stating that both orbital speed decreases and gravitational force decreases as orbital radius increases, with justification: v ∝ 1/sqrt(r) so larger r means smaller v, and F_g = GMm/r² so larger r means smaller gravitational force. Must address both speed and force with correct reasoning tied to the inverse relationships."
+        "rubric": "Student earns 1 point for correctly stating that both orbital speed decreases and gravitational force decreases as orbital radius increases, with justification: v ∝ 1/sqrt(r) so larger r means smaller v, and F_g = $GMm/r^2$ so larger r means smaller gravitational force. Must address both speed and force with correct reasoning tied to the inverse relationships."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly applies Kepler's Third Law ratio to find T_Y = 8T, showing T²/r³ = constant and the algebraic steps leading to the answer.",
+        "description": "Correctly applies Kepler's Third Law ratio to find T_Y = 8T, showing $T^2$/$r^3$ = constant and the algebraic steps leading to the answer.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -2236,7 +2236,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly states that orbital speed decreases (v ∝ 1/sqrt(r)) AND gravitational force decreases (F ∝ 1/r²) as orbital radius increases from 9r to 16r, with correct physical justification for both.",
+        "description": "Correctly states that orbital speed decreases (v ∝ 1/sqrt(r)) AND gravitational force decreases (F ∝ 1/$r^2$) as orbital radius increases from 9r to 16r, with correct physical justification for both.",
         "partLabel": "c",
         "skill": "explain",
         "keywords": [
@@ -2290,7 +2290,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A satellite of mass m = 500 kg orbits Earth in a circular orbit at an altitude h = 3.6 × 10⁶ m above Earth's surface. Earth's mass is M = 5.97 × 10²⁴ kg, Earth's radius is R_E = 6.37 × 10⁶ m, and the universal gravitational constant is G = 6.67 × 10⁻¹¹ N·m²/kg². A second satellite of mass 2m orbits Earth at the same altitude in the same circular orbit. Use this information to answer all parts below.",
+    "prompt": "A satellite of mass m = 500 kg orbits Earth in a circular orbit at an altitude h = 3.6 $\\times$ 10⁶ m above Earth's surface. Earth's mass is M = 5.97 × 1$0^2$⁴ kg, Earth's radius is R_E = 6.37 $\\times$ 10⁶ m, and the universal gravitational constant is G = 6.67 $\\times$ 10⁻¹¹ N·$m^2$/k$g^2$. A second satellite of mass 2m orbits Earth at the same altitude in the same circular orbit. Use this information to answer all parts below.",
     "starterCode": null,
     "parts": [
       {
@@ -2303,25 +2303,25 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the orbital radius r of the satellite measured from Earth's center, and then calculate the magnitude of the gravitational force acting on the 500 kg satellite at this orbital radius.",
-        "rubric": "Student earns the point by correctly computing r = R_E + h = 6.37×10⁶ + 3.6×10⁶ = 9.97×10⁶ m, then applying Newton's law of gravitation F = GMm/r² to get F = (6.67×10⁻¹¹)(5.97×10²⁴)(500)/(9.97×10⁶)² ≈ 2000 N (acceptable range 1950-2050 N)."
+        "rubric": "Student earns the point by correctly computing r = R_E + h = 6.37$\\times$10⁶ + 3.6$\\times$10⁶ = 9.97$\\times$10⁶ m, then applying Newton's law of gravitation F = $GMm/r^2$ to get F = (6.67$\\times$10⁻¹¹)(5.97×1$0^2$⁴)(500)/(9.97$\\times$10⁶)² $\\approx$ 2000 N (acceptable range 1950-2050 N)."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "Calculate the orbital speed of the 500 kg satellite in its circular orbit.",
-        "rubric": "Student earns the point by setting gravitational force equal to centripetal force (GMm/r² = mv²/r) and solving for v = √(GM/r), yielding v = √((6.67×10⁻¹¹ × 5.97×10²⁴)/(9.97×10⁶)) ≈ 6320 m/s (acceptable range 6200-6450 m/s)."
+        "rubric": "Student earns the point by setting gravitational force equal to centripetal force ($GMm/r^2$ = m$v^2$/r) and solving for v = √(GM/r), yielding v = √((6.67$\\times$10⁻¹¹ × 5.97×1$0^2$⁴)/(9.97$\\times$10⁶)) $\\approx$ 6320 m/s (acceptable range 6200-6450 m/s)."
       },
       {
         "label": "d",
         "command": "Justify",
         "question": "The second satellite has a mass of 2m = 1000 kg and orbits at the same altitude. Justify whether the orbital speed of the second satellite is greater than, less than, or equal to the orbital speed of the 500 kg satellite.",
-        "rubric": "Student earns the point by arguing that orbital speed v = √(GM/r) depends only on Earth's mass M and orbital radius r, not on the satellite's mass, so the 1000 kg satellite orbits at the same speed as the 500 kg satellite. Reference to cancellation of satellite mass m from both sides of GMm/r² = mv²/r earns credit."
+        "rubric": "Student earns the point by arguing that orbital speed v = √(GM/r) depends only on Earth's mass M and orbital radius r, not on the satellite's mass, so the 1000 kg satellite orbits at the same speed as the 500 kg satellite. Reference to cancellation of satellite mass m from both sides of $GMm/r^2$ = m$v^2$/r earns credit."
       },
       {
         "label": "e",
         "command": "Predict",
         "question": "A third satellite is placed in a circular orbit at a higher altitude than the original satellite. Using Kepler's Third Law, predict how the orbital period of the third satellite compares to the orbital period of the original satellite. Explain your reasoning.",
-        "rubric": "Student earns the point by citing Kepler's Third Law (T² ∝ r³ or T²/r³ = constant) and correctly concluding that a larger orbital radius results in a longer orbital period, so the third satellite has a greater period than the original satellite."
+        "rubric": "Student earns the point by citing Kepler's Third Law ($T^2$ ∝ $r^3$ or $T^2$/$r^3$ = constant) and correctly concluding that a larger orbital radius results in a longer orbital period, so the third satellite has a greater period than the original satellite."
       }
     ],
     "rubric": [
@@ -2369,7 +2369,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student correctly calculates orbital radius r = R_E + h = 9.97×10⁶ m and applies F = GMm/r² to find gravitational force ≈ 2000 N (within acceptable range 1950-2050 N).",
+        "description": "Student correctly calculates orbital radius r = R_E + h = 9.97$\\times$10⁶ m and applies F = $GMm/r^2$ to find gravitational force $\\approx$ 2000 N (within acceptable range 1950-2050 N).",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -2411,7 +2411,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student sets gravitational force equal to centripetal force and derives v = √(GM/r), obtaining orbital speed ≈ 6320 m/s (within acceptable range 6200-6450 m/s).",
+        "description": "Student sets gravitational force equal to centripetal force and derives v = √(GM/r), obtaining orbital speed $\\approx$ 6320 m/s (within acceptable range 6200-6450 m/s).",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -2493,7 +2493,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Student correctly invokes Kepler's Third Law (T² ∝ r³) to conclude that the larger orbital radius of the third satellite results in a longer orbital period compared to the original satellite.",
+        "description": "Student correctly invokes Kepler's Third Law ($T^2$ ∝ $r^3$) to conclude that the larger orbital radius of the third satellite results in a longer orbital period compared to the original satellite.",
         "partLabel": "e",
         "skill": "predict",
         "keywords": [
@@ -2546,20 +2546,20 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A small planet of mass m = 4.0 × 10²⁴ kg orbits a star of mass M = 2.0 × 10³⁰ kg in a nearly circular orbit of radius r = 1.5 × 10¹¹ m. A space agency launches an artificial satellite of mass m_s = 500 kg into a circular orbit around the same star at a different orbital radius R = 3.0 × 10¹¹ m (twice the planet's orbital radius). Use G = 6.67 × 10⁻¹¹ N·m²/kg².\n\nConsider the following questions about this system, which span the orbital mechanics of both the planet and the satellite.",
+    "prompt": "A small planet of mass m = 4.0 × 1$0^2$⁴ kg orbits a star of mass M = 2.0 × 1$0^3$⁰ kg in a nearly circular orbit of radius r = 1.5 $\\times$ 10¹¹ m. A space agency launches an artificial satellite of mass m_s = 500 kg into a circular orbit around the same star at a different orbital radius R = 3.0 $\\times$ 10¹¹ m (twice the planet's orbital radius). Use G = 6.67 $\\times$ 10⁻¹¹ N·$m^2$/k$g^2$.\n\nConsider the following questions about this system, which span the orbital mechanics of both the planet and the satellite.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the gravitational force exerted by the star on the planet. Then identify what role this force plays in maintaining the planet's circular orbit.",
-        "rubric": "Student calculates F = GMm/r² = (6.67×10⁻¹¹)(2.0×10³⁰)(4.0×10²⁴)/(1.5×10¹¹)² ≈ 2.37×10²³ N and states that this gravitational force acts as the centripetal force directed toward the star."
+        "rubric": "Student calculates F = $GMm/r^2$ = (6.67$\\times$10⁻¹¹)(2.0×1$0^3$⁰)(4.0×1$0^2$⁴)/(1.5$\\times$10¹¹)² $\\approx$ 2.37×1$0^2$³ N and states that this gravitational force acts as the centripetal force directed toward the star."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the orbital speed of the planet around the star.",
-        "rubric": "Student sets gravitational force equal to centripetal force (GMm/r² = mv²/r) and solves for v = √(GM/r) = √((6.67×10⁻¹¹)(2.0×10³⁰)/(1.5×10¹¹)) ≈ 2.98×10⁴ m/s, approximately 3.0×10⁴ m/s."
+        "rubric": "Student sets gravitational force equal to centripetal force ($GMm/r^2$ = m$v^2$/r) and solves for v = √(GM/r) = √((6.67$\\times$10⁻¹¹)(2.0×1$0^3$⁰)/(1.5$\\times$10¹¹)) $\\approx$ 2.98$\\times$10⁴ m/s, approximately 3.0$\\times$10⁴ m/s."
       },
       {
         "label": "c",
@@ -2571,20 +2571,20 @@ window.PHYSICS_FRQ = [
         "label": "d",
         "command": "Justify",
         "question": "A student claims that the satellite at R = 2r should have an orbital period exactly twice that of the planet, since its orbital radius is twice as large. Using Kepler's Third Law, justify whether the student's claim is correct or incorrect.",
-        "rubric": "Student invokes Kepler's Third Law (T² ∝ r³ or T² = 4π²r³/GM) to show T ∝ r^(3/2). Since R = 2r, T_satellite = T_planet × (2)^(3/2) = T_planet × 2√2 ≈ 2.83 × T_planet, not 2 × T_planet. The student correctly identifies the claim as incorrect."
+        "rubric": "Student invokes Kepler's Third Law ($T^2$ ∝ $r^3$ or $T^2$ = 4π²$r^3$/GM) to show T ∝ r^(3/2). Since R = 2r, T_satellite = T_planet × (2)^(3/2) = T_planet × 2√2 $\\approx$ 2.83 × T_planet, not 2 × T_planet. The student correctly identifies the claim as incorrect."
       },
       {
         "label": "e",
         "command": "Explain",
         "question": "If the satellite's engines briefly fire, increasing its speed while at radius R, describe what happens to the direction of the net force on the satellite immediately after the speed increase (while it is still at radius R) and explain whether the satellite remains in a circular orbit. Address how the centripetal acceleration is affected.",
-        "rubric": "Student explains that immediately after the speed increase the gravitational force still points toward the star (centripetal direction) but is now insufficient to maintain circular motion at radius R because the required centripetal force (mv²/R) has increased while the gravitational force (GMm_s/R²) remains unchanged. The satellite therefore moves into a larger elliptical orbit, no longer circular. The net inward force is less than needed for circular motion, so the satellite moves outward, and centripetal acceleration (a_c = v²/R) is now mismatched with the gravitational acceleration at that radius."
+        "rubric": "Student explains that immediately after the speed increase the gravitational force still points toward the star (centripetal direction) but is now insufficient to maintain circular motion at radius R because the required centripetal force (m$v^2$/R) has increased while the gravitational force (GMm_$s/R^2$) remains unchanged. The satellite therefore moves into a larger elliptical orbit, no longer circular. The net inward force is less than needed for circular motion, so the satellite moves outward, and centripetal acceleration (a_c = $v^2$/R) is now mismatched with the gravitational acceleration at that radius."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Student correctly applies Newton's law of gravitation F = GMm/r² and arrives at approximately 2.37×10²³ N, and identifies this force as the centripetal force directed toward the star.",
+        "description": "Student correctly applies Newton's law of gravitation F = $GMm/r^2$ and arrives at approximately 2.37×1$0^2$³ N, and identifies this force as the centripetal force directed toward the star.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -2622,7 +2622,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student sets gravitational force equal to centripetal force and correctly solves for orbital speed v = √(GM/r) ≈ 2.98×10⁴ m/s.",
+        "description": "Student sets gravitational force equal to centripetal force and correctly solves for orbital speed v = √(GM/r) $\\approx$ 2.98$\\times$10⁴ m/s.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -2697,7 +2697,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Student correctly invokes Kepler's Third Law (T² ∝ r³) to show T_satellite = 2√2 × T_planet ≈ 2.83 T_planet, refuting the student's claim of factor of 2.",
+        "description": "Student correctly invokes Kepler's Third Law ($T^2$ ∝ $r^3$) to show T_satellite = 2√2 × T_planet $\\approx$ 2.83 T_planet, refuting the student's claim of factor of 2.",
         "partLabel": "d",
         "skill": "justify",
         "keywords": [
@@ -2735,7 +2735,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Student explains that after speed increase gravitational force is insufficient for circular orbit at R, net force is still centripetal/inward but less than required mv²/R, satellite enters elliptical orbit, and centripetal acceleration is mismatched with gravitational acceleration at that radius.",
+        "description": "Student explains that after speed increase gravitational force is insufficient for circular orbit at R, net force is still centripetal/inward but less than required m$v^2$/R, satellite enters elliptical orbit, and centripetal acceleration is mismatched with gravitational acceleration at that radius.",
         "partLabel": "e",
         "skill": "explain",
         "keywords": [
@@ -2787,7 +2787,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A student hangs various masses from a vertical spring and measures the resulting stretch of the spring from its natural length. When a 0.200 kg mass is attached, the spring stretches 0.0500 m from its equilibrium position. The student then stretches the spring an additional 0.120 m from its new equilibrium position and holds the mass stationary before releasing it. Use g = 10 m/s².",
+    "prompt": "A student hangs various masses from a vertical spring and measures the resulting stretch of the spring from its natural length. When a 0.200 kg mass is attached, the spring stretches 0.0500 m from its equilibrium position. The student then stretches the spring an additional 0.120 m from its new equilibrium position and holds the mass stationary before releasing it. Use g = 10 $m/s^2$.",
     "starterCode": null,
     "parts": [
       {
@@ -2800,7 +2800,7 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the elastic potential energy stored in the spring when it is stretched the additional 0.120 m from equilibrium (the position at which the student holds the mass before releasing it). Use the spring constant found in part (a).",
-        "rubric": "Student earns 1 point for correctly using the spring potential energy formula Us = (1/2)kx², substituting k = 40 N/m and x = 0.120 m, and arriving at Us = 0.288 J."
+        "rubric": "Student earns 1 point for correctly using the spring potential energy formula Us = (1/2)k$x^2$, substituting k = 40 N/m and x = 0.120 m, and arriving at Us = 0.288 J."
       },
       {
         "label": "c",
@@ -2837,7 +2837,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly calculates spring potential energy using Us = (1/2)kx² with k = 40 N/m and x = 0.120 m, arriving at Us = 0.288 J.",
+        "description": "Correctly calculates spring potential energy using Us = (1/2)k$x^2$ with k = 40 N/m and x = 0.120 m, arriving at Us = 0.288 J.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -2920,7 +2920,7 @@ window.PHYSICS_FRQ = [
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the maximum compression of the spring when the block is momentarily at rest.",
-        "rubric": "Student earns 1 point for correctly applying conservation of energy (KE = spring PE), setting (1/2)mv² = (1/2)kx², and solving to get x = 0.20 m."
+        "rubric": "Student earns 1 point for correctly applying conservation of energy (KE = spring PE), setting (1/2)m$v^2$ = (1/2)k$x^2$, and solving to get x = 0.20 m."
       },
       {
         "label": "b",
@@ -2939,7 +2939,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 0,
         "points": 1,
-        "description": "Student sets kinetic energy equal to spring potential energy and solves for maximum compression x = 0.20 m using (1/2)mv² = (1/2)kx².",
+        "description": "Student sets kinetic energy equal to spring potential energy and solves for maximum compression x = 0.20 m using (1/2)m$v^2$ = (1/2)k$x^2$.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -3052,20 +3052,20 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A spring with spring constant k = 800 N/m is compressed by x = 0.15 m against a 2.0 kg block at the base of a frictionless curved track. The spring is released, launching the block up the track. The track curves so that the block's launch point is at ground level (h = 0), and the top of the track is at a height h = 0.40 m above the launch point. Assume g = 10 m/s².\n\n(a) Calculate the elastic potential energy stored in the spring just before it is released.\n\n(b) Using the work-energy theorem and conservation of energy, determine the speed of the block at the top of the track.\n\n(c) A student claims that if the spring constant were doubled to k = 1600 N/m but compressed only half as far (x = 0.075 m), the block would reach the same speed at the top of the track. Is the student correct? Justify your answer by comparing the initial elastic potential energy in both cases.",
+    "prompt": "A spring with spring constant k = 800 N/m is compressed by x = 0.15 m against a 2.0 kg block at the base of a frictionless curved track. The spring is released, launching the block up the track. The track curves so that the block's launch point is at ground level (h = 0), and the top of the track is at a height h = 0.40 m above the launch point. Assume g = 10 $m/s^2$.\n\n(a) Calculate the elastic potential energy stored in the spring just before it is released.\n\n(b) Using the work-energy theorem and conservation of energy, determine the speed of the block at the top of the track.\n\n(c) A student claims that if the spring constant were doubled to k = 1600 N/m but compressed only half as far (x = 0.075 m), the block would reach the same speed at the top of the track. Is the student correct? Justify your answer by comparing the initial elastic potential energy in both cases.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the elastic potential energy stored in the spring just before it is released.",
-        "rubric": "Earns 1 point for correctly applying Us = (1/2)kx² with k = 800 N/m and x = 0.15 m to get Us = 9 J."
+        "rubric": "Earns 1 point for correctly applying Us = (1/2)k$x^2$ with k = 800 N/m and x = 0.15 m to get Us = 9 J."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the work-energy theorem and conservation of energy, determine the speed of the block at the top of the track.",
-        "rubric": "Earns 1 point for correctly setting spring potential energy equal to the sum of kinetic energy and gravitational potential energy at the top ((1/2)kx² = (1/2)mv² + mgh), solving for v, and arriving at v = 1.0 m/s."
+        "rubric": "Earns 1 point for correctly setting spring potential energy equal to the sum of kinetic energy and gravitational potential energy at the top ((1/2)k$x^2$ = (1/2)m$v^2$ + mgh), solving for v, and arriving at v = 1.0 m/s."
       },
       {
         "label": "c",
@@ -3078,7 +3078,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 0,
         "points": 1,
-        "description": "Student correctly applies the spring potential energy formula Us = (1/2)kx² with k = 800 N/m and x = 0.15 m to obtain Us = 9 J.",
+        "description": "Student correctly applies the spring potential energy formula Us = (1/2)k$x^2$ with k = 800 N/m and x = 0.15 m to obtain Us = 9 J.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -3102,7 +3102,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student sets total mechanical energy at launch equal to total mechanical energy at the top of the track ((1/2)kx² = (1/2)mv² + mgh), correctly substitutes values, and solves for v = 1.0 m/s.",
+        "description": "Student sets total mechanical energy at launch equal to total mechanical energy at the top of the track ((1/2)k$x^2$ = (1/2)m$v^2$ + mgh), correctly substitutes values, and solves for v = 1.0 m/s.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -3193,20 +3193,20 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A block of mass m = 2.0 kg is pressed against a horizontal spring (spring constant k = 800 N/m) on a frictionless horizontal surface, compressing it by x = 0.15 m from its natural length. The block is released from rest. After leaving the spring, the block travels along the frictionless horizontal surface and then up a frictionless inclined ramp. Use g = 10 m/s².\n\nPart (a): Calculate the elastic potential energy stored in the spring when it is compressed by 0.15 m.\n\nPart (b): Calculate the speed of the block at the instant it leaves the spring (i.e., when the spring returns to its natural length).\n\nPart (c): Explain, using the work-energy theorem, why the block's kinetic energy at the base of the ramp equals the elastic potential energy originally stored in the spring.\n\nPart (d): Calculate the maximum height the block reaches on the ramp before momentarily coming to rest.\n\nPart (e): A second identical block is pushed against the same spring but compressed only 0.075 m (half the original compression). Predict how the maximum height reached by this second block compares to the original maximum height, and justify your answer using the relevant energy equations.",
+    "prompt": "A block of mass m = 2.0 kg is pressed against a horizontal spring (spring constant k = 800 N/m) on a frictionless horizontal surface, compressing it by x = 0.15 m from its natural length. The block is released from rest. After leaving the spring, the block travels along the frictionless horizontal surface and then up a frictionless inclined ramp. Use g = 10 $m/s^2$.\n\nPart (a): Calculate the elastic potential energy stored in the spring when it is compressed by 0.15 m.\n\nPart (b): Calculate the speed of the block at the instant it leaves the spring (i.e., when the spring returns to its natural length).\n\nPart (c): Explain, using the work-energy theorem, why the block's kinetic energy at the base of the ramp equals the elastic potential energy originally stored in the spring.\n\nPart (d): Calculate the maximum height the block reaches on the ramp before momentarily coming to rest.\n\nPart (e): A second identical block is pushed against the same spring but compressed only 0.075 m (half the original compression). Predict how the maximum height reached by this second block compares to the original maximum height, and justify your answer using the relevant energy equations.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the elastic potential energy stored in the spring when it is compressed by x = 0.15 m.",
-        "rubric": "Student correctly applies Us = (1/2)kx², substituting k = 800 N/m and x = 0.15 m to obtain Us = (1/2)(800)(0.15)² = 9.0 J."
+        "rubric": "Student correctly applies Us = (1/2)k$x^2$, substituting k = 800 N/m and x = 0.15 m to obtain Us = (1/2)(800)(0.15)² = 9.0 J."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the speed of the block at the instant it leaves the spring, when the spring has returned to its natural length.",
-        "rubric": "Student sets elastic potential energy equal to kinetic energy: (1/2)kx² = (1/2)mv², then solves for v = sqrt(kx²/m) = sqrt(800 × 0.0225 / 2.0) = sqrt(9.0) = 3.0 m/s."
+        "rubric": "Student sets elastic potential energy equal to kinetic energy: (1/2)k$x^2$ = (1/2)m$v^2$, then solves for v = sqrt(k$x^2$/m) = sqrt(800 × 0.0225 / 2.0) = sqrt(9.0) = 3.0 m/s."
       },
       {
         "label": "c",
@@ -3218,20 +3218,20 @@ window.PHYSICS_FRQ = [
         "label": "d",
         "command": "Calculate",
         "question": "Calculate the maximum height h the block reaches on the frictionless ramp before momentarily coming to rest.",
-        "rubric": "Student applies conservation of mechanical energy: (1/2)mv² = mgh, solving for h = v²/(2g) = (9.0)/(2 × 10) = 0.45 m. Alternatively, h = kx²/(2mg) = (800 × 0.0225)/(2 × 2.0 × 10) = 18/(40) = 0.45 m."
+        "rubric": "Student applies conservation of mechanical energy: (1/2)m$v^2$ = mgh, solving for h = $v^2$/(2g) = (9.0)/(2 $\\times$ 10) = 0.45 m. Alternatively, h = k$x^2$/(2mg) = (800 × 0.0225)/(2 × 2.0 $\\times$ 10) = 18/(40) = 0.45 m."
       },
       {
         "label": "e",
         "command": "Predict",
         "question": "Predict how the maximum height reached by the second block (compressed x = 0.075 m) compares to the original maximum height, and justify your answer.",
-        "rubric": "Student correctly identifies that Us = (1/2)kx² is proportional to x², so halving the compression reduces the energy by a factor of 4. Therefore the new maximum height is h' = h/4 = 0.45/4 = 0.1125 m, one-quarter the original height."
+        "rubric": "Student correctly identifies that Us = (1/2)k$x^2$ is proportional to $x^2$, so halving the compression reduces the energy by a factor of 4. Therefore the new maximum height is h' = h/4 = 0.45/4 = 0.1125 m, one-quarter the original height."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly calculates elastic potential energy using Us = (1/2)kx² with k = 800 N/m and x = 0.15 m, arriving at 9.0 J.",
+        "description": "Correctly calculates elastic potential energy using Us = (1/2)k$x^2$ with k = 800 N/m and x = 0.15 m, arriving at 9.0 J.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -3252,7 +3252,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly sets spring potential energy equal to kinetic energy and solves for v = 3.0 m/s using KE = (1/2)mv².",
+        "description": "Correctly sets spring potential energy equal to kinetic energy and solves for v = 3.0 m/s using KE = (1/2)m$v^2$.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -3310,7 +3310,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correctly applies conservation of mechanical energy from the base to the top of the ramp, setting (1/2)mv² = mgh and solving for h = 0.45 m.",
+        "description": "Correctly applies conservation of mechanical energy from the base to the top of the ramp, setting (1/2)m$v^2$ = mgh and solving for h = 0.45 m.",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -3347,7 +3347,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Correctly identifies that Us is proportional to x² (quadratic relationship), so halving the compression reduces stored energy by a factor of 4, yielding a maximum height one-quarter the original (h' = 0.45/4 = 0.1125 m).",
+        "description": "Correctly identifies that Us is proportional to $x^2$ (quadratic relationship), so halving the compression reduces stored energy by a factor of 4, yielding a maximum height one-quarter the original (h' = 0.45/4 = 0.1125 m).",
         "partLabel": "e",
         "skill": "justify",
         "keywords": [
@@ -3395,32 +3395,32 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A block of mass m = 2.0 kg is pressed against a horizontal spring (spring constant k = 800 N/m) on a frictionless horizontal surface, compressing the spring by x = 0.25 m from its natural length. The block is released from rest. After leaving the spring, the block travels along the frictionless horizontal surface and then up a rough inclined ramp (angle θ = 30° above horizontal, coefficient of kinetic friction μk = 0.20) a distance d = 1.8 m along the ramp before coming momentarily to rest. Use g = 10 m/s².\n\nAdditional context for part (e): A small motor is used to push an identical block (mass 2.0 kg) from rest to the same speed the first block had just after leaving the spring (calculated in part b) in a time interval of 4.0 s along a frictionless horizontal surface.",
+    "prompt": "A block of mass m = 2.0 kg is pressed against a horizontal spring (spring constant k = 800 N/m) on a frictionless horizontal surface, compressing the spring by x = 0.25 m from its natural length. The block is released from rest. After leaving the spring, the block travels along the frictionless horizontal surface and then up a rough inclined ramp (angle θ = 30° above horizontal, coefficient of kinetic friction $\\mu$k = 0.20) a distance d = 1.8 m along the ramp before coming momentarily to rest. Use g = 10 $m/s^2$.\n\nAdditional context for part (e): A small motor is used to push an identical block (mass 2.0 kg) from rest to the same speed the first block had just after leaving the spring (calculated in part b) in a time interval of 4.0 s along a frictionless horizontal surface.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the elastic potential energy stored in the spring when it is compressed by x = 0.25 m.",
-        "rubric": "Student earns the point by correctly applying Us = (1/2)kx² = (1/2)(800)(0.25)² = 25 J."
+        "rubric": "Student earns the point by correctly applying Us = (1/2)k$x^2$ = (1/2)(800)(0.25)² = 25 J."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the speed of the block at the moment it leaves the spring (i.e., when the spring returns to its natural length). The surface is frictionless.",
-        "rubric": "Student earns the point by setting spring potential energy equal to kinetic energy: (1/2)kx² = (1/2)mv², solving for v = √(kx²/m) = √(800 × 0.0625 / 2.0) = √25 = 5.0 m/s."
+        "rubric": "Student earns the point by setting spring potential energy equal to kinetic energy: (1/2)k$x^2$ = (1/2)m$v^2$, solving for v = √(k$x^2$/m) = √(800 × 0.0625 / 2.0) = √25 = 5.0 m/s."
       },
       {
         "label": "c",
         "command": "Explain",
         "question": "Using the work-energy theorem, explain why the block's kinetic energy at the top of the ramp is zero, and identify all forms of work done on the block as it travels the distance d = 1.8 m up the ramp.",
-        "rubric": "Student earns the point by stating the work-energy theorem (Wnet = ΔKE), identifying that work done by gravity (negative, W_gravity = -mgd sinθ) and work done by friction (negative, W_friction = -μk mg cosθ · d) together reduce kinetic energy to zero, and that no other forces do work. The net work equals the change in kinetic energy from the base to the top of the ramp."
+        "rubric": "Student earns the point by stating the work-energy theorem (Wnet = ΔKE), identifying that work done by gravity (negative, W_gravity = -mgd sinθ) and work done by friction (negative, W_friction = -$\\mu$k mg cosθ · d) together reduce kinetic energy to zero, and that no other forces do work. The net work equals the change in kinetic energy from the base to the top of the ramp."
       },
       {
         "label": "d",
         "command": "Calculate",
         "question": "Using conservation of energy, calculate the speed of the block at the base of the ramp (just before it begins climbing). Then verify whether this speed is consistent with the block traveling exactly d = 1.8 m up the ramp before stopping. Show all work.",
-        "rubric": "Student earns the point by applying conservation of energy from the base to the top of the ramp: (1/2)mv² = mgd sinθ + μk mg cosθ · d. Substituting: (1/2)(2.0)v² = (2.0)(10)(1.8)(0.5) + (0.20)(2.0)(10)(cos30°)(1.8) = 18 + 6.24 = 24.24 J, giving v = √(24.24) ≈ 4.92 m/s. Student notes this is consistent with (approximately equal to) v = 5.0 m/s from part (b) within rounding, confirming the block travels d = 1.8 m up the ramp. (Full credit awarded for correct setup and recognition of consistency, accepting minor rounding differences.)"
+        "rubric": "Student earns the point by applying conservation of energy from the base to the top of the ramp: (1/2)m$v^2$ = mgd sinθ + $\\mu$k mg cosθ · d. Substituting: (1/2)(2.0)$v^2$ = (2.0)(10)(1.8)(0.5) + (0.20)(2.0)(10)(cos30°)(1.8) = 18 + 6.24 = 24.24 J, giving v = √(24.24) $\\approx$ 4.92 m/s. Student notes this is consistent with (approximately equal to) v = 5.0 m/s from part (b) within rounding, confirming the block travels d = 1.8 m up the ramp. (Full credit awarded for correct setup and recognition of consistency, accepting minor rounding differences.)"
       },
       {
         "label": "e",
@@ -3433,7 +3433,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly calculates spring potential energy using Us = (1/2)kx² with k = 800 N/m and x = 0.25 m to obtain 25 J.",
+        "description": "Correctly calculates spring potential energy using Us = (1/2)k$x^2$ with k = 800 N/m and x = 0.25 m to obtain 25 J.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -3531,7 +3531,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correctly sets up and solves conservation of energy equation including gravitational PE gained and energy lost to friction to find v ≈ 4.9-5.0 m/s at the base of the ramp, and explicitly states this is consistent with the speed from part (b).",
+        "description": "Correctly sets up and solves conservation of energy equation including gravitational PE gained and energy lost to friction to find v $\\approx$ 4.9-5.0 m/s at the base of the ramp, and explicitly states this is consistent with the speed from part (b).",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -3609,26 +3609,26 @@ window.PHYSICS_FRQ = [
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the magnitude of the impulse delivered to the ball by the player's foot.",
-        "rubric": "Student earns 1 point for correctly calculating the impulse as J = Δp = mΔv = (0.45 kg)(18 m/s) = 8.1 N·s."
+        "rubric": "Student earns 1 point for correctly calculating the impulse as J = $\\Delta p$ = m$\\Delta v$ = (0.45 kg)(18 m/s) = 8.1 N·s."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the magnitude of the average force exerted by the player's foot on the ball during the kick.",
-        "rubric": "Student earns 1 point for correctly applying J = FΔt, giving F = J/Δt = 8.1 N·s / 0.050 s = 162 N."
+        "rubric": "Student earns 1 point for correctly applying J = F$\\Delta t$, giving F = J/$\\Delta t$ = 8.1 N·s / 0.050 s = 162 N."
       },
       {
         "label": "c",
         "command": "Explain",
         "question": "Explain why the ball's change in momentum equals the impulse applied to it, referencing the relationship between force, time, and momentum.",
-        "rubric": "Student earns 1 point for correctly stating the impulse-momentum theorem: the net impulse (net force multiplied by the time interval) equals the change in momentum of the ball (J = Δp = FnetΔt)."
+        "rubric": "Student earns 1 point for correctly stating the impulse-momentum theorem: the net impulse (net force multiplied by the time interval) equals the change in momentum of the ball (J = $\\Delta p$ = Fnet$\\Delta t$)."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly calculates the impulse as the product of mass and change in velocity: J = mΔv = (0.45)(18) = 8.1 N·s",
+        "description": "Correctly calculates the impulse as the product of mass and change in velocity: J = m$\\Delta v$ = (0.45)(18) = 8.1 N·s",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -3649,7 +3649,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly calculates average force using J = FΔt, yielding F = 162 N",
+        "description": "Correctly calculates average force using J = F$\\Delta t$, yielding F = 162 N",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -3669,7 +3669,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Correctly cites the impulse-momentum theorem stating that impulse equals change in momentum (J = Δp = FnetΔt)",
+        "description": "Correctly cites the impulse-momentum theorem stating that impulse equals change in momentum (J = $\\Delta p$ = Fnet$\\Delta t$)",
         "partLabel": "c",
         "skill": "explain",
         "keywords": [
@@ -4035,20 +4035,20 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A 3.0 kg cart (Cart A) moves to the right at 4.0 m/s on a frictionless horizontal track and collides with a 1.0 kg cart (Cart B) that is initially at rest. A force sensor records that during the collision Cart A experiences an average force of 60 N directed to the left for a time interval of 0.10 s. After the collision, Cart B moves to the right at 6.0 m/s.\n\nUse the following values throughout:\n  - Mass of Cart A: mA = 3.0 kg\n  - Initial velocity of Cart A: vA,i = +4.0 m/s (rightward positive)\n  - Mass of Cart B: mB = 1.0 kg\n  - Initial velocity of Cart B: vB,i = 0 m/s\n  - Average force on Cart A during collision: F = 60 N (directed left)\n  - Duration of collision: Δt = 0.10 s\n  - Final velocity of Cart B: vB,f = +6.0 m/s",
+    "prompt": "A 3.0 kg cart (Cart A) moves to the right at 4.0 m/s on a frictionless horizontal track and collides with a 1.0 kg cart (Cart B) that is initially at rest. A force sensor records that during the collision Cart A experiences an average force of 60 N directed to the left for a time interval of 0.10 s. After the collision, Cart B moves to the right at 6.0 m/s.\n\nUse the following values throughout:\n  - Mass of Cart A: mA = 3.0 kg\n  - Initial velocity of Cart A: vA,i = +4.0 m/s (rightward positive)\n  - Mass of Cart B: mB = 1.0 kg\n  - Initial velocity of Cart B: vB,i = 0 m/s\n  - Average force on Cart A during collision: F = 60 N (directed left)\n  - Duration of collision: $\\Delta t$ = 0.10 s\n  - Final velocity of Cart B: vB,f = +6.0 m/s",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the impulse delivered to Cart A during the collision. State the magnitude and direction of the impulse.",
-        "rubric": "Full credit requires calculating impulse on Cart A as J = FΔt = (60 N)(0.10 s) = 6.0 N·s directed to the left (i.e., −6.0 N·s), with correct magnitude, correct unit (N·s or kg·m/s), and correct direction stated."
+        "rubric": "Full credit requires calculating impulse on Cart A as J = F$\\Delta t$ = (60 N)(0.10 s) = 6.0 N·s directed to the left (i.e., -6.0 N·s), with correct magnitude, correct unit (N·s or kg·m/s), and correct direction stated."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Using the impulse-momentum theorem, determine the final velocity of Cart A after the collision.",
-        "rubric": "Full credit requires applying J = Δp = mA(vA,f − vA,i), substituting −6.0 N·s = (3.0 kg)(vA,f − 4.0 m/s), and solving to obtain vA,f = +2.0 m/s to the right."
+        "rubric": "Full credit requires applying J = $\\Delta p$ = mA(vA,f - vA,i), substituting -6.0 N·s = (3.0 kg)(vA,f - 4.0 m/s), and solving to obtain vA,f = +2.0 m/s to the right."
       },
       {
         "label": "c",
@@ -4073,7 +4073,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 0,
         "points": 1,
-        "description": "Student correctly calculates the impulse on Cart A as J = FΔt = 6.0 N·s directed to the left (−6.0 N·s), with correct magnitude, direction, and units.",
+        "description": "Student correctly calculates the impulse on Cart A as J = F$\\Delta t$ = 6.0 N·s directed to the left (-6.0 N·s), with correct magnitude, direction, and units.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -4114,7 +4114,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student correctly applies the impulse-momentum theorem J = mΔv to find vA,f = +2.0 m/s to the right.",
+        "description": "Student correctly applies the impulse-momentum theorem J = m$\\Delta v$ to find vA,f = +2.0 m/s to the right.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -4291,14 +4291,14 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A ballistic pendulum is used to measure the speed of a bullet. A bullet of mass m = 0.010 kg is fired horizontally and embeds itself in a stationary wooden block of mass M = 0.990 kg suspended by a light string of length L = 0.80 m. After the collision, the bullet-block system swings upward and rises to a maximum height h = 0.20 m above its initial position. Assume g = 10 m/s² throughout this problem. The bullet enters the block from the left and the two objects move together immediately after impact. You may treat the block as a point mass located at the end of the string.\n\nAdditional scenario for part (e): A second experiment is conducted on a frictionless horizontal surface. Two carts are placed at rest. Cart A (mass 2m) is positioned at x = 0 m, and Cart B (mass 3m) is positioned at x = 0.60 m. A compressed spring between them is released, sending Cart A to the left at 3.0 m/s and Cart B to the right.",
+    "prompt": "A ballistic pendulum is used to measure the speed of a bullet. A bullet of mass m = 0.010 kg is fired horizontally and embeds itself in a stationary wooden block of mass M = 0.990 kg suspended by a light string of length L = 0.80 m. After the collision, the bullet-block system swings upward and rises to a maximum height h = 0.20 m above its initial position. Assume g = 10 $m/s^2$ throughout this problem. The bullet enters the block from the left and the two objects move together immediately after impact. You may treat the block as a point mass located at the end of the string.\n\nAdditional scenario for part (e): A second experiment is conducted on a frictionless horizontal surface. Two carts are placed at rest. Cart A (mass 2m) is positioned at x = 0 m, and Cart B (mass 3m) is positioned at x = 0.60 m. A compressed spring between them is released, sending Cart A to the left at 3.0 m/s and Cart B to the right.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the speed of the bullet-block system immediately after the collision.",
-        "rubric": "Student uses conservation of energy for the post-collision swing: (1/2)(M+m)v² = (M+m)gh, solving for v = sqrt(2gh) = sqrt(2 × 10 × 0.20) = 2.0 m/s. Full credit requires correct substitution and answer of 2.0 m/s."
+        "rubric": "Student uses conservation of energy for the post-collision swing: (1/2)(M+m)$v^2$ = (M+m)gh, solving for v = sqrt(2gh) = sqrt(2 $\\times$ 10 × 0.20) = 2.0 m/s. Full credit requires correct substitution and answer of 2.0 m/s."
       },
       {
         "label": "b",
@@ -4310,19 +4310,19 @@ window.PHYSICS_FRQ = [
         "label": "c",
         "command": "Explain",
         "question": "A student claims that kinetic energy is conserved during the bullet-block collision because the system eventually returns to the same height if the pendulum swings back. Explain why this claim is incorrect, and describe what happens to the energy that is lost during the collision.",
-        "rubric": "Student must explain that the collision is perfectly inelastic (objects stick together), which by definition involves a loss of kinetic energy regardless of subsequent motion. Energy lost during collision is converted to internal energy (thermal energy, sound, deformation). The pendulum swinging back does not restore the pre-collision KE because energy was permanently lost during impact. Student should quantify or reference the significant KE loss (initial KE ≈ 200 J vs. post-collision KE = 2 J)."
+        "rubric": "Student must explain that the collision is perfectly inelastic (objects stick together), which by definition involves a loss of kinetic energy regardless of subsequent motion. Energy lost during collision is converted to internal energy (thermal energy, sound, deformation). The pendulum swinging back does not restore the pre-collision KE because energy was permanently lost during impact. Student should quantify or reference the significant KE loss (initial KE $\\approx$ 200 J vs. post-collision KE = 2 J)."
       },
       {
         "label": "d",
         "command": "Calculate",
         "question": "Calculate the magnitude of the impulse delivered by the bullet to the block during the collision.",
-        "rubric": "Student applies impulse-momentum theorem to the block alone: J = ΔpBlock = M·v_f - M·0 = (0.990 kg)(2.0 m/s) = 1.98 N·s ≈ 2.0 N·s. Alternatively, student may calculate the change in momentum of the bullet (−1.98 N·s) and cite Newton's third law to find equal and opposite impulse on block. Full credit for 1.98 N·s or 2.0 N·s with correct reasoning."
+        "rubric": "Student applies impulse-momentum theorem to the block alone: J = ΔpBlock = M·v_f - M·0 = (0.990 kg)(2.0 m/s) = 1.98 N·s $\\approx$ 2.0 N·s. Alternatively, student may calculate the change in momentum of the bullet (-1.98 N·s) and cite Newton's third law to find equal and opposite impulse on block. Full credit for 1.98 N·s or 2.0 N·s with correct reasoning."
       },
       {
         "label": "e",
         "command": "Calculate",
         "question": "For the two-cart scenario described in the prompt, calculate the position of the center of mass of the two-cart system before the spring is released, and then determine the velocity of the center of mass after the spring releases. Explain what this result implies about the net external force on the system.",
-        "rubric": "Center of mass position: x_cm = (2m·0 + 3m·0.60) / (2m + 3m) = (1.80m) / (5m) = 0.36 m. Velocity of CM after release: v_cm = (2m·(−3.0) + 3m·v_B) / 5m; by conservation of momentum total momentum = 0 (system at rest initially), so v_cm = 0 m/s. A center of mass velocity of zero implies zero net external force on the system (no external horizontal forces), consistent with Newton's second law for a system."
+        "rubric": "Center of mass position: x_cm = (2m·0 + 3m·0.60) / (2m + 3m) = (1.80m) / (5m) = 0.36 m. Velocity of CM after release: v_cm = (2m·(-3.0) + 3m·v_B) / 5m; by conservation of momentum total momentum = 0 (system at rest initially), so v_cm = 0 m/s. A center of mass velocity of zero implies zero net external force on the system (no external horizontal forces), consistent with Newton's second law for a system."
       }
     ],
     "rubric": [
@@ -4436,7 +4436,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correctly calculates the impulse delivered by the bullet to the block as approximately 1.98 N·s (or 2.0 N·s) using the impulse-momentum theorem applied to the block, J = M·Δv = M·v_f.",
+        "description": "Correctly calculates the impulse delivered by the bullet to the block as approximately 1.98 N·s (or 2.0 N·s) using the impulse-momentum theorem applied to the block, J = M·$\\Delta v$ = M·v_f.",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -4520,20 +4520,20 @@ window.PHYSICS_FRQ = [
     "difficulty": "easy",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A block of mass m = 0.50 kg is attached to a horizontal spring with spring constant k = 200 N/m on a frictionless surface. The block is displaced 0.10 m from its equilibrium position and released from rest. Use g = 10 m/s².",
+    "prompt": "A block of mass m = 0.50 kg is attached to a horizontal spring with spring constant k = 200 N/m on a frictionless surface. The block is displaced 0.10 m from its equilibrium position and released from rest. Use g = 10 $m/s^2$.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the period T of the block's oscillation.",
-        "rubric": "Student correctly applies T = 2π√(m/k), substitutes m = 0.50 kg and k = 200 N/m, and arrives at T = 2π√(0.0025) ≈ 0.314 s (approximately 0.31 s)."
+        "rubric": "Student correctly applies T = 2π√(m/k), substitutes m = 0.50 kg and k = 200 N/m, and arrives at T = 2π√(0.0025) $\\approx$ 0.314 s (approximately 0.31 s)."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the maximum speed of the block during its oscillation.",
-        "rubric": "Student uses energy conservation: ½kA² = ½mv²_max, giving v_max = A√(k/m) = 0.10 × √(200/0.50) = 0.10 × 20 = 2.0 m/s."
+        "rubric": "Student uses energy conservation: $\\frac{1}{2}$k$A^2$ = $\\frac{1}{2}$m$v^2$_max, giving v_max = A√(k/m) = 0.10 × √(200/0.50) = 0.10 × 20 = 2.0 m/s."
       },
       {
         "label": "c",
@@ -4546,7 +4546,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly calculates the period using T = 2π√(m/k) with m = 0.50 kg and k = 200 N/m, yielding T ≈ 0.31 s",
+        "description": "Correctly calculates the period using T = 2π√(m/k) with m = 0.50 kg and k = 200 N/m, yielding T $\\approx$ 0.31 s",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -4664,26 +4664,26 @@ window.PHYSICS_FRQ = [
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the total mechanical energy of the spring-mass system.",
-        "rubric": "Student correctly applies the elastic potential energy formula E = (1/2)kA² using k = 200 N/m and A = 0.10 m, arriving at E = 1.0 J."
+        "rubric": "Student correctly applies the elastic potential energy formula E = (1/2)k$A^2$ using k = 200 N/m and A = 0.10 m, arriving at E = 1.0 J."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the maximum speed of the block during its oscillation.",
-        "rubric": "Student sets total energy equal to kinetic energy at equilibrium using (1/2)mv² = (1/2)kA², solving for v_max = A√(k/m), and arrives at v_max = 2.0 m/s."
+        "rubric": "Student sets total energy equal to kinetic energy at equilibrium using (1/2)m$v^2$ = (1/2)k$A^2$, solving for v_max = A√(k/m), and arrives at v_max = 2.0 m/s."
       },
       {
         "label": "c",
         "command": "Explain",
         "question": "If the amplitude of oscillation is doubled to 0.20 m while the spring constant and mass remain the same, explain what happens to the total mechanical energy of the system and how this affects the maximum speed of the block.",
-        "rubric": "Student states that total mechanical energy is proportional to the square of the amplitude (E = (1/2)kA²), so doubling the amplitude quadruples the total energy. Student then explains that since (1/2)mv_max² = (1/2)kA², the maximum speed is proportional to amplitude, so maximum speed doubles to 4.0 m/s."
+        "rubric": "Student states that total mechanical energy is proportional to the square of the amplitude (E = (1/2)k$A^2$), so doubling the amplitude quadruples the total energy. Student then explains that since (1/2)mv_ma$x^2$ = (1/2)k$A^2$, the maximum speed is proportional to amplitude, so maximum speed doubles to 4.0 m/s."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Student correctly calculates total mechanical energy using E = (1/2)kA² with k = 200 N/m and A = 0.10 m, yielding E = 1.0 J.",
+        "description": "Student correctly calculates total mechanical energy using E = (1/2)k$A^2$ with k = 200 N/m and A = 0.10 m, yielding E = 1.0 J.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -4718,7 +4718,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student correctly sets total energy equal to maximum kinetic energy at equilibrium, applies (1/2)mv_max² = (1/2)kA² or v_max = A√(k/m), and arrives at v_max = 2.0 m/s.",
+        "description": "Student correctly sets total energy equal to maximum kinetic energy at equilibrium, applies (1/2)mv_ma$x^2$ = (1/2)k$A^2$ or v_max = A√(k/m), and arrives at v_max = 2.0 m/s.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -4753,7 +4753,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student correctly explains that energy is proportional to A² so doubling amplitude quadruples total energy, and that maximum speed is proportional to amplitude so maximum speed doubles to 4.0 m/s.",
+        "description": "Student correctly explains that energy is proportional to $A^2$ so doubling amplitude quadruples total energy, and that maximum speed is proportional to amplitude so maximum speed doubles to 4.0 m/s.",
         "partLabel": "c",
         "skill": "explain",
         "keywords": [
@@ -4814,7 +4814,7 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Immediately after the clay sticks to the block at the equilibrium position, the combined system continues to oscillate. Calculate the new amplitude of oscillation after the clay is added.",
-        "rubric": "Student earns the point by recognizing that the new amplitude is found from the kinetic energy at equilibrium after collision. Momentum conservation gives v' = m·v/(m + m_clay) = 0.50×2.0/1.00 = 1.0 m/s. Then (1/2)k·A'^2 = (1/2)(m+m_clay)v'^2 → A' = v'√((m+m_clay)/k) = 1.0×√(1.00/200) = 1.0/√200 ≈ 0.071 m."
+        "rubric": "Student earns the point by recognizing that the new amplitude is found from the kinetic energy at equilibrium after collision. Momentum conservation gives v' = m·v/(m + m_clay) = 0.50×2.0/1.00 = 1.0 m/s. Then (1/2)k·A'^2 = (1/2)(m+m_clay)v'^2 → A' = v'√((m+m_clay)/k) = 1.0×√(1.00/200) = 1.0/√200 $\\approx$ 0.071 m."
       },
       {
         "label": "c",
@@ -4963,7 +4963,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A block of mass m = 0.50 kg is attached to a horizontal spring with spring constant k = 200 N/m on a frictionless surface. The block is pulled 0.10 m from the equilibrium position and released from rest. The system undergoes simple harmonic motion.\n\nUse the following values where needed:\n- Mass of block: m = 0.50 kg\n- Spring constant: k = 200 N/m\n- Amplitude: A = 0.10 m\n- g = 10 m/s²",
+    "prompt": "A block of mass m = 0.50 kg is attached to a horizontal spring with spring constant k = 200 N/m on a frictionless surface. The block is pulled 0.10 m from the equilibrium position and released from rest. The system undergoes simple harmonic motion.\n\nUse the following values where needed:\n- Mass of block: m = 0.50 kg\n- Spring constant: k = 200 N/m\n- Amplitude: A = 0.10 m\n- g = 10 $m/s^2$",
     "starterCode": null,
     "parts": [
       {
@@ -4976,13 +4976,13 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the period of oscillation of the spring-mass system.",
-        "rubric": "Student must use T = 2π√(m/k), substitute m = 0.50 kg and k = 200 N/m, and arrive at T = 2π√(0.0025) = 2π(0.05) ≈ 0.314 s (accept answers between 0.31 s and 0.32 s)."
+        "rubric": "Student must use T = 2π√(m/k), substitute m = 0.50 kg and k = 200 N/m, and arrive at T = 2π√(0.0025) = 2π(0.05) $\\approx$ 0.314 s (accept answers between 0.31 s and 0.32 s)."
       },
       {
         "label": "c",
         "command": "Calculate",
         "question": "Calculate the maximum speed of the block during its oscillation.",
-        "rubric": "Student must use energy conservation: (1/2)kA² = (1/2)mv_max², leading to v_max = A√(k/m) = 0.10√(200/0.50) = 0.10 × 20 = 2.0 m/s. Alternatively, v_max = Aω where ω = √(k/m) = 20 rad/s."
+        "rubric": "Student must use energy conservation: (1/2)k$A^2$ = (1/2)mv_ma$x^2$, leading to v_max = A√(k/m) = 0.10√(200/0.50) = 0.10 × 20 = 2.0 m/s. Alternatively, v_max = Aω where ω = √(k/m) = 20 rad/s."
       },
       {
         "label": "d",
@@ -4994,7 +4994,7 @@ window.PHYSICS_FRQ = [
         "label": "e",
         "command": "Predict",
         "question": "If the amplitude of the oscillation is doubled to A = 0.20 m while the mass and spring constant remain the same, predict what happens to the period of oscillation and to the maximum speed of the block. Justify each prediction.",
-        "rubric": "Student must correctly predict that the period does NOT change (T depends only on m and k, not amplitude), and that the maximum speed DOUBLES to 4.0 m/s (v_max = Aω, so doubling A doubles v_max). Must justify the period claim by referencing T = 2π√(m/k) and the speed claim by referencing v_max = Aω or energy conservation with (1/2)kA²."
+        "rubric": "Student must correctly predict that the period does NOT change (T depends only on m and k, not amplitude), and that the maximum speed DOUBLES to 4.0 m/s (v_max = Aω, so doubling A doubles v_max). Must justify the period claim by referencing T = 2π√(m/k) and the speed claim by referencing v_max = Aω or energy conservation with (1/2)k$A^2$."
       }
     ],
     "rubric": [
@@ -5043,7 +5043,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student correctly uses T = 2π√(m/k) with m = 0.50 kg and k = 200 N/m to calculate T ≈ 0.314 s (accept 0.31-0.32 s).",
+        "description": "Student correctly uses T = 2π√(m/k) with m = 0.50 kg and k = 200 N/m to calculate T $\\approx$ 0.314 s (accept 0.31-0.32 s).",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -5067,7 +5067,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student correctly calculates maximum speed v_max = 2.0 m/s using energy conservation (1/2)kA² = (1/2)mv_max² or v_max = Aω with ω = √(k/m) = 20 rad/s.",
+        "description": "Student correctly calculates maximum speed v_max = 2.0 m/s using energy conservation (1/2)k$A^2$ = (1/2)mv_ma$x^2$ or v_max = Aω with ω = √(k/m) = 20 rad/s.",
         "partLabel": "c",
         "skill": "calculate",
         "keywords": [
@@ -5200,20 +5200,20 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A student sets up two separate oscillating systems in a laboratory.\n\nSystem 1: A block of mass m = 0.50 kg is attached to a horizontal spring with spring constant k = 200 N/m on a frictionless surface. The block is pulled 0.10 m from equilibrium and released from rest.\n\nSystem 2: A simple pendulum consists of a small bob of mass m = 0.50 kg attached to a string of length L = 0.40 m. The bob is displaced 5° from vertical and released from rest. Assume small-angle approximation is valid and g = 10 m/s².\n\nThe student notices that both systems exhibit simple harmonic motion. The student then modifies System 1 by replacing the spring with one of spring constant 4k = 800 N/m while keeping the same mass and amplitude.",
+    "prompt": "A student sets up two separate oscillating systems in a laboratory.\n\nSystem 1: A block of mass m = 0.50 kg is attached to a horizontal spring with spring constant k = 200 N/m on a frictionless surface. The block is pulled 0.10 m from equilibrium and released from rest.\n\nSystem 2: A simple pendulum consists of a small bob of mass m = 0.50 kg attached to a string of length L = 0.40 m. The bob is displaced 5° from vertical and released from rest. Assume small-angle approximation is valid and g = 10 $m/s^2$.\n\nThe student notices that both systems exhibit simple harmonic motion. The student then modifies System 1 by replacing the spring with one of spring constant 4k = 800 N/m while keeping the same mass and amplitude.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Explain",
         "question": "For System 1 (spring-mass), explain why the net force on the block constitutes a restoring force and how this leads to simple harmonic motion. Your explanation must reference the direction of the force relative to displacement.",
-        "rubric": "Student must explain that the spring force is always directed opposite to the displacement from equilibrium (F = −kx), meaning as the block moves in one direction the force acts in the opposite direction, pulling/pushing it back toward equilibrium. Student must connect this restoring force to the condition for SHM: net force proportional to and opposite displacement."
+        "rubric": "Student must explain that the spring force is always directed opposite to the displacement from equilibrium (F = -kx), meaning as the block moves in one direction the force acts in the opposite direction, pulling/pushing it back toward equilibrium. Student must connect this restoring force to the condition for SHM: net force proportional to and opposite displacement."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the period of oscillation for System 1 (original spring, k = 200 N/m, m = 0.50 kg). Then calculate the period of oscillation for the modified System 1 (k = 800 N/m, same mass and amplitude). Show all work.",
-        "rubric": "Student must use T = 2π√(m/k) for both cases. Original: T₁ = 2π√(0.50/200) = 2π√(0.0025) = 2π(0.05) ≈ 0.314 s. Modified: T₂ = 2π√(0.50/800) = 2π√(0.000625) = 2π(0.025) ≈ 0.157 s. Period is halved when spring constant is quadrupled. Both numerical answers with correct units required."
+        "rubric": "Student must use T = 2π√(m/k) for both cases. Original: T₁ = 2π√(0.50/200) = 2π√(0.0025) = 2π(0.05) $\\approx$ 0.314 s. Modified: T₂ = 2π√(0.50/800) = 2π√(0.000625) = 2π(0.025) $\\approx$ 0.157 s. Period is halved when spring constant is quadrupled. Both numerical answers with correct units required."
       },
       {
         "label": "c",
@@ -5225,20 +5225,20 @@ window.PHYSICS_FRQ = [
         "label": "d",
         "command": "Calculate",
         "question": "For System 1 with the original spring (k = 200 N/m, m = 0.50 kg, amplitude A = 0.10 m), calculate the total mechanical energy of the system and the maximum speed of the block. Show all work.",
-        "rubric": "Total mechanical energy: E = ½kA² = ½(200)(0.10)² = 1.0 J. Maximum speed occurs at equilibrium where all energy is kinetic: ½mv²_max = ½kA², so v_max = A√(k/m) = 0.10√(200/0.50) = 0.10√400 = 0.10(20) = 2.0 m/s. Student must show energy conservation argument and both correct numerical answers with units."
+        "rubric": "Total mechanical energy: E = $\\frac{1}{2}$k$A^2$ = $\\frac{1}{2}$(200)(0.10)² = 1.0 J. Maximum speed occurs at equilibrium where all energy is kinetic: $\\frac{1}{2}$m$v^2$_max = $\\frac{1}{2}$k$A^2$, so v_max = A√(k/m) = 0.10√(200/0.50) = 0.10√400 = 0.10(20) = 2.0 m/s. Student must show energy conservation argument and both correct numerical answers with units."
       },
       {
         "label": "e",
         "command": "Describe",
-        "question": "Compare the periods of System 1 (original spring, T calculated in part b) and System 2 (pendulum, L = 0.40 m, g = 10 m/s²). Calculate the period of System 2 and describe what physical quantity would need to change in System 2, and in what way, to make its period equal to the period of the modified System 1 (from part b). Justify your answer.",
-        "rubric": "Period of pendulum: T = 2π√(L/g) = 2π√(0.40/10) = 2π√(0.04) = 2π(0.2) ≈ 1.26 s. Modified System 1 period ≈ 0.157 s. To match T = 0.157 s: 0.157 = 2π√(L/10), solving gives L = 10(0.157/2π)² = 10(0.025)² = 0.00625 m ≈ 6.25 × 10⁻³ m. The string length must be dramatically decreased (shortened) to about 6.25 mm. Student must show calculation and state length must decrease."
+        "question": "Compare the periods of System 1 (original spring, T calculated in part b) and System 2 (pendulum, L = 0.40 m, g = 10 $m/s^2$). Calculate the period of System 2 and describe what physical quantity would need to change in System 2, and in what way, to make its period equal to the period of the modified System 1 (from part b). Justify your answer.",
+        "rubric": "Period of pendulum: T = 2π√(L/g) = 2π√(0.40/10) = 2π√(0.04) = 2π(0.2) $\\approx$ 1.26 s. Modified System 1 period $\\approx$ 0.157 s. To match T = 0.157 s: 0.157 = 2π√(L/10), solving gives L = 10(0.157/2π)² = 10(0.025)² = 0.00625 m $\\approx$ 6.25 $\\times$ 10⁻³ m. The string length must be dramatically decreased (shortened) to about 6.25 mm. Student must show calculation and state length must decrease."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Student correctly explains that the spring exerts a force directed opposite to displacement (F = −kx), identifies this as a restoring force, and connects the proportionality between force magnitude and displacement to the condition for simple harmonic motion.",
+        "description": "Student correctly explains that the spring exerts a force directed opposite to displacement (F = -kx), identifies this as a restoring force, and connects the proportionality between force magnitude and displacement to the condition for simple harmonic motion.",
         "partLabel": "a",
         "skill": "explain",
         "keywords": [
@@ -5278,7 +5278,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Student correctly applies T = 2π√(m/k) to both the original and modified spring systems, arriving at T₁ ≈ 0.314 s and T₂ ≈ 0.157 s (or equivalent expressions showing period is halved), with correct units.",
+        "description": "Student correctly applies T = 2π√(m/k) to both the original and modified spring systems, arriving at T₁ $\\approx$ 0.314 s and T₂ $\\approx$ 0.157 s (or equivalent expressions showing period is halved), with correct units.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -5343,7 +5343,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Student correctly calculates total mechanical energy E = ½kA² = 1.0 J and maximum speed v_max = A√(k/m) = 2.0 m/s using energy conservation, with correct units and work shown.",
+        "description": "Student correctly calculates total mechanical energy E = $\\frac{1}{2}$k$A^2$ = 1.0 J and maximum speed v_max = A√(k/m) = 2.0 m/s using energy conservation, with correct units and work shown.",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -5383,7 +5383,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 4,
         "points": 1,
-        "description": "Student correctly calculates pendulum period T ≈ 1.26 s using T = 2π√(L/g), then correctly determines that the string length must be decreased to approximately 6.25 × 10⁻³ m to match the modified System 1 period of 0.157 s, with supporting calculation shown.",
+        "description": "Student correctly calculates pendulum period T $\\approx$ 1.26 s using T = 2π√(L/g), then correctly determines that the string length must be decreased to approximately 6.25 $\\times$ 10⁻³ m to match the modified System 1 period of 0.157 s, with supporting calculation shown.",
         "partLabel": "e",
         "skill": "describe",
         "keywords": [
@@ -5434,7 +5434,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A uniform beam of mass 4.0 kg and length 2.0 m is mounted on a frictionless pivot at its left end. A downward force F is applied at the right end of the beam. A second downward force of 20 N is applied at the midpoint of the beam (1.0 m from the pivot). The beam is held in horizontal rotational equilibrium. Use g = 10 m/s².",
+    "prompt": "A uniform beam of mass 4.0 kg and length 2.0 m is mounted on a frictionless pivot at its left end. A downward force F is applied at the right end of the beam. A second downward force of 20 N is applied at the midpoint of the beam (1.0 m from the pivot). The beam is held in horizontal rotational equilibrium. Use g = 10 $m/s^2$.",
     "starterCode": null,
     "parts": [
       {
@@ -5447,7 +5447,7 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Calculate",
         "question": "Calculate the torque due to the weight of the beam about the pivot at the left end.",
-        "rubric": "1 point: Student correctly identifies that the weight of the beam (4.0 kg × 10 m/s² = 40 N) acts at the center of mass (1.0 m from pivot), giving torque = 40 N × 1.0 m = 40 N·m (clockwise)."
+        "rubric": "1 point: Student correctly identifies that the weight of the beam (4.0 kg $\\times$ 10 $m/s^2$ = 40 N) acts at the center of mass (1.0 m from pivot), giving torque = 40 N × 1.0 m = 40 N·m (clockwise)."
       },
       {
         "label": "c",
@@ -5568,7 +5568,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "medium",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A figure skater is spinning freely on ice with her arms extended outward. In this position, her moment of inertia is I₁ = 4.0 kg·m² and her angular velocity is ω₁ = 2.0 rad/s. She then pulls her arms tightly against her body, reducing her moment of inertia to I₂ = 1.0 kg·m².",
+    "prompt": "A figure skater is spinning freely on ice with her arms extended outward. In this position, her moment of inertia is I₁ = 4.0 kg·$m^2$ and her angular velocity is ω₁ = 2.0 rad/s. She then pulls her arms tightly against her body, reducing her moment of inertia to I₂ = 1.0 kg·$m^2$.",
     "starterCode": null,
     "parts": [
       {
@@ -5740,7 +5740,7 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 3,
-    "prompt": "A figure skater is spinning freely on frictionless ice with her arms fully extended outward. In this configuration, her moment of inertia is I₁ = 4.8 kg·m² and her initial angular velocity is ω₁ = 2.0 rad/s. She then pulls her arms tightly against her body, reducing her moment of inertia to I₂ = 1.2 kg·m².\n\n(a) Calculate her new angular velocity ω₂ after pulling in her arms.\n\n(b) The skater's rotational kinetic energy increases when she pulls in her arms, even though no external torque acts on her. Explain why this is physically consistent with conservation of angular momentum, and identify the energy source responsible for the increase in rotational kinetic energy.\n\n(c) A second skater of greater mass performs the same maneuver, starting with the same initial angular momentum as the first skater but a larger initial moment of inertia I₁'. Both skaters reduce their moment of inertia by the same factor of 4. Predict whether the second skater's final rotational kinetic energy will be greater than, less than, or equal to that of the first skater after the maneuver. Justify your answer.",
+    "prompt": "A figure skater is spinning freely on frictionless ice with her arms fully extended outward. In this configuration, her moment of inertia is I₁ = 4.8 kg·$m^2$ and her initial angular velocity is ω₁ = 2.0 rad/s. She then pulls her arms tightly against her body, reducing her moment of inertia to I₂ = 1.2 kg·$m^2$.\n\n(a) Calculate her new angular velocity ω₂ after pulling in her arms.\n\n(b) The skater's rotational kinetic energy increases when she pulls in her arms, even though no external torque acts on her. Explain why this is physically consistent with conservation of angular momentum, and identify the energy source responsible for the increase in rotational kinetic energy.\n\n(c) A second skater of greater mass performs the same maneuver, starting with the same initial angular momentum as the first skater but a larger initial moment of inertia I₁'. Both skaters reduce their moment of inertia by the same factor of 4. Predict whether the second skater's final rotational kinetic energy will be greater than, less than, or equal to that of the first skater after the maneuver. Justify your answer.",
     "starterCode": null,
     "parts": [
       {
@@ -5753,13 +5753,13 @@ window.PHYSICS_FRQ = [
         "label": "b",
         "command": "Explain",
         "question": "The skater's rotational kinetic energy increases when she pulls in her arms, even though no external torque acts on her. Explain why this is physically consistent with conservation of angular momentum, and identify the energy source responsible for the increase in rotational kinetic energy.",
-        "rubric": "Student must state that angular momentum is conserved because no net external torque acts on the skater (τ_net = 0 → L = constant). The increase in rotational kinetic energy (KE_rot = L²/2I) is consistent because KE depends on both L and I; as I decreases with L constant, KE increases. The energy source is the internal (chemical/metabolic) energy the skater expends doing work against centrifugal tendency as she pulls her arms inward."
+        "rubric": "Student must state that angular momentum is conserved because no net external torque acts on the skater (τ_net = 0 → L = constant). The increase in rotational kinetic energy (KE_rot = $L^2$/2I) is consistent because KE depends on both L and I; as I decreases with L constant, KE increases. The energy source is the internal (chemical/metabolic) energy the skater expends doing work against centrifugal tendency as she pulls her arms inward."
       },
       {
         "label": "c",
         "command": "Predict and Justify",
         "question": "Predict whether the second skater's final rotational kinetic energy will be greater than, less than, or equal to that of the first skater after the maneuver. Justify your answer.",
-        "rubric": "The second skater's final rotational kinetic energy equals that of the first skater. Since both begin with the same angular momentum L and both reduce their moment of inertia by the same factor of 4, their final moments of inertia I₂ = I₁/4 differ in magnitude but KE_rot_final = L²/(2I₂) = L²/(2·I₁/4) = 2L²/I₁. Because L is the same for both skaters and the reduction factor is the same, the formula yields identical final KE regardless of the absolute value of I₁. Therefore the final rotational kinetic energies are equal."
+        "rubric": "The second skater's final rotational kinetic energy equals that of the first skater. Since both begin with the same angular momentum L and both reduce their moment of inertia by the same factor of 4, their final moments of inertia I₂ = I₁/4 differ in magnitude but KE_rot_final = $L^2$/(2I₂) = $L^2$/(2·I₁/4) = 2$L^2$/I₁. Because L is the same for both skaters and the reduction factor is the same, the formula yields identical final KE regardless of the absolute value of I₁. Therefore the final rotational kinetic energies are equal."
       }
     ],
     "rubric": [
@@ -5846,7 +5846,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 2,
         "points": 1,
-        "description": "Student correctly predicts the final rotational kinetic energies are equal and justifies using KE_rot = L²/(2I), showing that identical initial angular momentum and identical reduction factor yield the same final KE regardless of absolute moment of inertia.",
+        "description": "Student correctly predicts the final rotational kinetic energies are equal and justifies using KE_rot = $L^2$/(2I), showing that identical initial angular momentum and identical reduction factor yield the same final KE regardless of absolute moment of inertia.",
         "partLabel": "c",
         "skill": "justify",
         "keywords": [
@@ -5897,20 +5897,20 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A student of mass 60 kg stands at the edge of a lightweight rotating platform (modeled as a solid disk) of mass 40 kg and radius R = 2.0 m. The platform is free to rotate about a frictionless vertical axis through its center. Initially, the student and platform are rotating together at an angular velocity ω₀ = 1.2 rad/s. The moment of inertia of a solid disk is I_disk = (1/2)MR², and the student may be modeled as a point mass.\n\nPart (a): Calculate the total initial moment of inertia of the student-platform system.\n\nPart (b): The student walks slowly from the edge to the center of the platform. Using a relevant conservation law, determine the new angular velocity of the system after the student reaches the center.\n\nPart (c): Explain why the angular velocity changed when the student moved toward the center. Your explanation must reference the physical quantity that is conserved and how the distribution of mass affects it.\n\nPart (d): While the student stands at the center, a small blob of clay of mass m_c = 5 kg moving tangentially at v = 4.0 m/s strikes and sticks to the rim of the platform at radius R = 2.0 m. Calculate the angular velocity of the system immediately after the clay sticks.\n\nPart (e): Compare the total rotational kinetic energy of the system just before the clay collision to the total rotational kinetic energy just after. Justify whether kinetic energy is conserved in this collision.",
+    "prompt": "A student of mass 60 kg stands at the edge of a lightweight rotating platform (modeled as a solid disk) of mass 40 kg and radius R = 2.0 m. The platform is free to rotate about a frictionless vertical axis through its center. Initially, the student and platform are rotating together at an angular velocity ω₀ = 1.2 rad/s. The moment of inertia of a solid disk is I_disk = (1/2)M$R^2$, and the student may be modeled as a point mass.\n\nPart (a): Calculate the total initial moment of inertia of the student-platform system.\n\nPart (b): The student walks slowly from the edge to the center of the platform. Using a relevant conservation law, determine the new angular velocity of the system after the student reaches the center.\n\nPart (c): Explain why the angular velocity changed when the student moved toward the center. Your explanation must reference the physical quantity that is conserved and how the distribution of mass affects it.\n\nPart (d): While the student stands at the center, a small blob of clay of mass m_c = 5 kg moving tangentially at v = 4.0 m/s strikes and sticks to the rim of the platform at radius R = 2.0 m. Calculate the angular velocity of the system immediately after the clay sticks.\n\nPart (e): Compare the total rotational kinetic energy of the system just before the clay collision to the total rotational kinetic energy just after. Justify whether kinetic energy is conserved in this collision.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the total initial moment of inertia of the student-platform system when the student stands at the edge (r = R = 2.0 m).",
-        "rubric": "Student correctly applies I_disk = (1/2)MR² for the platform and I_student = mR² for the point mass at the edge, then sums them: I_total = (1/2)(40)(2.0)² + (60)(2.0)² = 80 + 240 = 320 kg·m². Earns 1 point for correct setup and answer of 320 kg·m²."
+        "rubric": "Student correctly applies I_disk = (1/2)M$R^2$ for the platform and I_student = m$R^2$ for the point mass at the edge, then sums them: I_total = (1/2)(40)(2.0)² + (60)(2.0)² = 80 + 240 = 320 kg·$m^2$. Earns 1 point for correct setup and answer of 320 kg·$m^2$."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "After the student walks to the center, calculate the new angular velocity of the system. Use a relevant conservation law.",
-        "rubric": "Student invokes conservation of angular momentum (L = Iω = constant), calculates new moment of inertia with student at center: I_new = 80 kg·m² (student contributes 0), then solves ω_new = L/I_new = (320 × 1.2)/80 = 4.8 rad/s. Earns 1 point for correct answer of 4.8 rad/s with conservation of angular momentum cited."
+        "rubric": "Student invokes conservation of angular momentum (L = Iω = constant), calculates new moment of inertia with student at center: I_new = 80 kg·$m^2$ (student contributes 0), then solves ω_new = L/I_new = (320 × 1.2)/80 = 4.8 rad/s. Earns 1 point for correct answer of 4.8 rad/s with conservation of angular momentum cited."
       },
       {
         "label": "c",
@@ -5922,20 +5922,20 @@ window.PHYSICS_FRQ = [
         "label": "d",
         "command": "Calculate",
         "question": "While the student stands at the center and the platform spins at ω = 4.8 rad/s, a clay blob of mass 5 kg moving tangentially at 4.0 m/s strikes and sticks to the rim at R = 2.0 m. Calculate the angular velocity of the system immediately after the collision.",
-        "rubric": "Student applies conservation of angular momentum for the collision: L_before = I_system × ω + m_c × v × R = 80(4.8) + 5(4.0)(2.0) = 384 + 40 = 424 kg·m²/s. I_after = 80 + 5(2.0)² = 80 + 20 = 100 kg·m². ω_after = 424/100 = 4.24 rad/s. Earns 1 point for correct answer of approximately 4.24 rad/s."
+        "rubric": "Student applies conservation of angular momentum for the collision: L_before = I_system × ω + m_c × v × R = 80(4.8) + 5(4.0)(2.0) = 384 + 40 = 424 kg·$m^2$/s. I_after = 80 + 5(2.0)² = 80 + 20 = 100 kg·$m^2$. ω_after = 424/100 = 4.24 rad/s. Earns 1 point for correct answer of approximately 4.24 rad/s."
       },
       {
         "label": "e",
         "command": "Justify",
         "question": "Compare the total rotational kinetic energy just before the clay collision to the total rotational kinetic energy just after. Is kinetic energy conserved? Justify your answer.",
-        "rubric": "Student calculates KE_before = (1/2)(80)(4.8)² + (1/2)(5)(4.0)² = 921.6 + 40 = 961.6 J (or equivalent using translational KE of clay). KE_after = (1/2)(100)(4.24)² ≈ 898 J. Concludes kinetic energy is NOT conserved; it decreased because the clay collision is perfectly inelastic - energy is lost to deformation/heat. Earns 1 point for correctly identifying kinetic energy is not conserved and citing the inelastic nature of the collision as the reason."
+        "rubric": "Student calculates KE_before = (1/2)(80)(4.8)² + (1/2)(5)(4.0)² = 921.6 + 40 = 961.6 J (or equivalent using translational KE of clay). KE_after = (1/2)(100)(4.24)² $\\approx$ 898 J. Concludes kinetic energy is NOT conserved; it decreased because the clay collision is perfectly inelastic - energy is lost to deformation/heat. Earns 1 point for correctly identifying kinetic energy is not conserved and citing the inelastic nature of the collision as the reason."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly calculates total initial moment of inertia as 320 kg·m² by summing I_disk for the platform and mR² for the student as a point mass at the rim.",
+        "description": "Correctly calculates total initial moment of inertia as 320 kg·$m^2$ by summing I_disk for the platform and m$R^2$ for the student as a point mass at the rim.",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -5956,7 +5956,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Correctly applies conservation of angular momentum to find the new angular velocity of 4.8 rad/s when the student moves to the center, using I_new = 80 kg·m².",
+        "description": "Correctly applies conservation of angular momentum to find the new angular velocity of 4.8 rad/s when the student moves to the center, using I_new = 80 kg·$m^2$.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -6025,7 +6025,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correctly applies conservation of angular momentum for the inelastic clay collision, computing L_before = 424 kg·m²/s and I_after = 100 kg·m², yielding ω_after ≈ 4.24 rad/s.",
+        "description": "Correctly applies conservation of angular momentum for the inelastic clay collision, computing L_before = 424 kg·$m^2$/s and I_after = 100 kg·$m^2$, yielding ω_after $\\approx$ 4.24 rad/s.",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
@@ -6105,20 +6105,20 @@ window.PHYSICS_FRQ = [
     "difficulty": "hard",
     "autoGraded": true,
     "points": 5,
-    "prompt": "A student stands at the center of a frictionless rotating platform holding two identical dumbbells, each of mass m = 2.0 kg, at arm's length r₁ = 0.80 m from the rotation axis. The student's body (including the platform) has a moment of inertia I_body = 3.2 kg·m² and the student is initially spinning at angular velocity ω₁ = 4.0 rad/s. The student then pulls both dumbbells inward to a new distance r₂ = 0.20 m from the rotation axis.\n\nIn a separate experiment, a solid cylinder of mass M = 4.0 kg and radius R = 0.10 m is released from rest at the top of an inclined plane of height h = 0.80 m and rolls without slipping to the bottom. The moment of inertia of a solid cylinder about its central axis is I = (1/2)MR².\n\nUse g = 10 m/s² where needed.",
+    "prompt": "A student stands at the center of a frictionless rotating platform holding two identical dumbbells, each of mass m = 2.0 kg, at arm's length r₁ = 0.80 m from the rotation axis. The student's body (including the platform) has a moment of inertia I_body = 3.2 kg·$m^2$ and the student is initially spinning at angular velocity ω₁ = 4.0 rad/s. The student then pulls both dumbbells inward to a new distance r₂ = 0.20 m from the rotation axis.\n\nIn a separate experiment, a solid cylinder of mass M = 4.0 kg and radius R = 0.10 m is released from rest at the top of an inclined plane of height h = 0.80 m and rolls without slipping to the bottom. The moment of inertia of a solid cylinder about its central axis is I = (1/2)M$R^2$.\n\nUse g = 10 $m/s^2$ where needed.",
     "starterCode": null,
     "parts": [
       {
         "label": "a",
         "command": "Calculate",
         "question": "Calculate the total initial moment of inertia I₁ of the system (student + dumbbells) when the dumbbells are held at r₁ = 0.80 m from the rotation axis.",
-        "rubric": "Student earns 1 point for correctly calculating I₁ = I_body + 2mr₁² = 3.2 + 2(2.0)(0.80)² = 3.2 + 2.56 = 5.76 kg·m². Must show the point-mass formula I = mr² applied to each dumbbell and add I_body."
+        "rubric": "Student earns 1 point for correctly calculating I₁ = I_body + 2mr₁² = 3.2 + 2(2.0)(0.80)² = 3.2 + 2.56 = 5.76 kg·$m^2$. Must show the point-mass formula I = m$r^2$ applied to each dumbbell and add I_body."
       },
       {
         "label": "b",
         "command": "Calculate",
         "question": "After the student pulls the dumbbells inward to r₂ = 0.20 m, calculate the new angular velocity ω₂ of the system. State the principle you are using.",
-        "rubric": "Student earns 1 point for invoking conservation of angular momentum (no external torque on frictionless platform) and correctly solving: I₁ω₁ = I₂ω₂, where I₂ = 3.2 + 2(2.0)(0.20)² = 3.2 + 0.16 = 3.36 kg·m², giving ω₂ = (5.76 × 4.0)/3.36 ≈ 6.86 rad/s. Must cite conservation of angular momentum explicitly."
+        "rubric": "Student earns 1 point for invoking conservation of angular momentum (no external torque on frictionless platform) and correctly solving: I₁ω₁ = I₂ω₂, where I₂ = 3.2 + 2(2.0)(0.20)² = 3.2 + 0.16 = 3.36 kg·$m^2$, giving ω₂ = (5.76 × 4.0)/3.36 $\\approx$ 6.86 rad/s. Must cite conservation of angular momentum explicitly."
       },
       {
         "label": "c",
@@ -6130,20 +6130,20 @@ window.PHYSICS_FRQ = [
         "label": "d",
         "command": "Calculate",
         "question": "For the solid cylinder rolling without slipping down the incline of height h = 0.80 m, calculate the translational speed v of the center of mass at the bottom of the incline.",
-        "rubric": "Student earns 1 point for correctly applying conservation of energy with both translational and rotational kinetic energy: Mgh = (1/2)Mv² + (1/2)Iω², substituting I = (1/2)MR² and the rolling condition ω = v/R to get Mgh = (1/2)Mv² + (1/4)Mv², so Mgh = (3/4)Mv², giving v = √(4gh/3) = √(4×10×0.80/3) = √(10.67) ≈ 3.27 m/s. Must use rolling without slipping condition and include rotational KE."
+        "rubric": "Student earns 1 point for correctly applying conservation of energy with both translational and rotational kinetic energy: Mgh = (1/2)M$v^2$ + (1/2)Iω², substituting I = (1/2)M$R^2$ and the rolling condition ω = v/R to get Mgh = (1/2)M$v^2$ + (1/4)M$v^2$, so Mgh = (3/4)M$v^2$, giving v = √(4gh/3) = √(4$\\times$10×0.80/3) = √(10.67) $\\approx$ 3.27 m/s. Must use rolling without slipping condition and include rotational KE."
       },
       {
         "label": "e",
         "command": "Justify",
         "question": "A hollow thin-walled cylinder of the same mass M and radius R is released from rest at the same height h and also rolls without slipping. Predict whether its translational speed at the bottom is greater than, less than, or equal to that of the solid cylinder, and justify your answer in terms of rotational inertia and energy distribution.",
-        "rubric": "Student earns 1 point for correctly predicting the hollow cylinder reaches a lower translational speed and justifying that the hollow cylinder has a larger moment of inertia (I = MR² vs I = (1/2)MR²), so a greater fraction of the total kinetic energy is stored as rotational kinetic energy, leaving less energy available as translational kinetic energy, resulting in a smaller center-of-mass speed at the bottom. Must explicitly reference greater rotational inertia and the energy partition between translational and rotational KE."
+        "rubric": "Student earns 1 point for correctly predicting the hollow cylinder reaches a lower translational speed and justifying that the hollow cylinder has a larger moment of inertia (I = M$R^2$ vs I = (1/2)M$R^2$), so a greater fraction of the total kinetic energy is stored as rotational kinetic energy, leaving less energy available as translational kinetic energy, resulting in a smaller center-of-mass speed at the bottom. Must explicitly reference greater rotational inertia and the energy partition between translational and rotational KE."
       }
     ],
     "rubric": [
       {
         "index": 0,
         "points": 1,
-        "description": "Correctly calculates the total initial moment of inertia I₁ = 5.76 kg·m² using I = I_body + 2mr₁².",
+        "description": "Correctly calculates the total initial moment of inertia I₁ = 5.76 kg·$m^2$ using I = I_body + 2mr₁².",
         "partLabel": "a",
         "skill": "calculate",
         "keywords": [
@@ -6164,7 +6164,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 1,
         "points": 1,
-        "description": "Invokes conservation of angular momentum and correctly calculates ω₂ ≈ 6.86 rad/s using I₁ω₁ = I₂ω₂.",
+        "description": "Invokes conservation of angular momentum and correctly calculates ω₂ $\\approx$ 6.86 rad/s using I₁ω₁ = I₂ω₂.",
         "partLabel": "b",
         "skill": "calculate",
         "keywords": [
@@ -6239,7 +6239,7 @@ window.PHYSICS_FRQ = [
       {
         "index": 3,
         "points": 1,
-        "description": "Correctly applies energy conservation including both translational and rotational KE with the rolling constraint to obtain v ≈ 3.27 m/s.",
+        "description": "Correctly applies energy conservation including both translational and rotational KE with the rolling constraint to obtain v $\\approx$ 3.27 m/s.",
         "partLabel": "d",
         "skill": "calculate",
         "keywords": [
