@@ -26,7 +26,7 @@ A free, offline-first AP exam prep platform available as a macOS desktop app and
 ## Features
 
 ### Question Bank
-- **1,000+ practice questions** across all 12 AP subjects
+- **5,000+ practice questions** across all 12 AP subjects
 - **Unit tab bar** — filter to a specific unit in one click
 - **Advanced filters** — unit, topic, difficulty (easy/medium/hard), status (unseen/correct/incorrect), question type (MCQ/FRQ)
 - **Smart Order (Adaptive Engine)** — surfaces the questions you need most based on your history, time since last seen, and per-unit accuracy
