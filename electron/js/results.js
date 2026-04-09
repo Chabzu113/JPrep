@@ -19,7 +19,7 @@ function loadAllQuestionsForActiveSubject() {
   // Fallback: legacy globals for AP CS A
   return [
     ...(typeof APCSA_MCQ !== 'undefined' ? APCSA_MCQ : []),
-    ...(typeof FRQ_BANK !== 'undefined' ? FRQ_BANK : [])
+    ...(typeof APCSA_FRQ !== 'undefined' ? APCSA_FRQ : [])
   ];
 }
 
@@ -60,7 +60,7 @@ function renderOverallStats() {
   if (!el) return;
   const stats = App.getOverallStats();
   const lastTest = App.getLastTestScore();
-  const apDisplay = lastTest ? `AP ${lastTest.estimatedScore}` : '—';
+  const apDisplay = (lastTest && lastTest.estimatedScore != null) ? `AP ${lastTest.estimatedScore}` : '—';
   el.innerHTML = `
     <div class="stat-card card"><div class="stat-num">${stats.totalAnswered}</div><div class="stat-lbl">Questions Answered</div></div>
     <div class="stat-card card"><div class="stat-num">${stats.accuracy}%</div><div class="stat-lbl">Accuracy</div></div>
