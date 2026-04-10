@@ -254,7 +254,7 @@ function selectTest(testId, subjectId) {
 
   try {
     const activeKey = App.subjectStorageKey('active_test');
-    const saved = localStorage.getItem(activeKey) || localStorage.getItem('apcsa_active_test');
+    const saved = localStorage.getItem(activeKey);
     if (saved) {
       const data = JSON.parse(saved);
       if (data.testId === testId && confirm('Resume your in-progress test?')) {
@@ -268,7 +268,6 @@ function selectTest(testId, subjectId) {
         if (data.section === 'frq') { startSection('frq'); renderFRQQuestion(data.currentQuestion || 0); return; }
       } else {
         localStorage.removeItem(activeKey);
-        localStorage.removeItem('apcsa_active_test');
       }
     }
   } catch(e) { console.warn('localStorage read error:', e); }
@@ -577,7 +576,6 @@ function goPrevMCQ() { if (currentQuestion > 0) renderMCQQuestion(currentQuestio
 function finishMCQ() {
   stopTimer(); clearInterval(autoSaveInterval);
   localStorage.removeItem(App.subjectStorageKey('active_test'));
-  localStorage.removeItem('apcsa_active_test');
   renderBreakScreen(); showScreen('breakScreen');
 }
 
@@ -789,7 +787,6 @@ function finishFRQ() {
   };
   App.saveTestResult(result);
   localStorage.removeItem(App.subjectStorageKey('active_test'));
-  localStorage.removeItem('apcsa_active_test');
 
   // AP score + percentile estimate based on MCQ only (FRQ not graded yet)
   const mcqPct = mcqQuestions.length > 0 ? mcqCorrect / mcqQuestions.length : 0;

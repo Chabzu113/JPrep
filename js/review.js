@@ -7,10 +7,10 @@ let _currentFilter = 'all';
 let _frqGrades = {};
 
 function initReview() {
-  // Load last test result (subject-scoped, with legacy fallback)
+  // Load last test result (subject-scoped)
   try {
-    const key = App.subjectStorageKey ? App.subjectStorageKey('last_result') : 'apcsa_last_result';
-    const raw = localStorage.getItem(key) || localStorage.getItem('apcsa_last_result');
+    const key = App.subjectStorageKey('last_result');
+    const raw = localStorage.getItem(key);
     if (raw) _testResult = JSON.parse(raw);
   } catch(e) { console.warn('review: failed to load test result:', e); }
 

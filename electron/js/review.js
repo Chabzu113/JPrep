@@ -7,10 +7,10 @@ let _currentFilter = 'all';
 let _frqGrades = {};
 
 function initReview() {
-  // Load last test result (subject-scoped, with legacy fallback)
+  // Load last test result (subject-scoped)
   try {
-    const key = App.subjectStorageKey ? App.subjectStorageKey('last_result') : 'apcsa_last_result';
-    const raw = localStorage.getItem(key) || localStorage.getItem('apcsa_last_result');
+    const key = App.subjectStorageKey('last_result');
+    const raw = localStorage.getItem(key);
     if (raw) _testResult = JSON.parse(raw);
   } catch(e) { console.warn('review: failed to load test result:', e); }
 
@@ -21,8 +21,17 @@ function initReview() {
   }
 
   _allQuestions = App.getAllQuestions();
-  const tests = typeof PRACTICE_TESTS !== 'undefined' ? PRACTICE_TESTS : [];
-  _testDef = tests.find(t => t.id === _testResult.testId) || null;
+  const allTests = [];
+  if (typeof SubjectRegistry !== 'undefined' && typeof App !== 'undefined') {
+    const subjId = App.getActiveSubject();
+    const subj = SubjectRegistry.getSubjectById(subjId);
+    (subj && subj.testFiles || []).forEach(varName => {
+      const arr = window[varName];
+      if (Array.isArray(arr)) allTests.push(...arr);
+    });
+  }
+  if (typeof PRACTICE_TESTS !== 'undefined') allTests.push(...PRACTICE_TESTS);
+  _testDef = allTests.find(t => t.id === _testResult.testId) || null;
 
   // Initial FRQ grades from result
   _frqGrades = { ...(_testResult.frqSelfGrades || {}) };
@@ -62,7 +71,9 @@ function renderSummary() {
 function renderMCQReview() {
   const container = document.getElementById('mcqReviewList');
   if (!container) return;
-  const mcqIds = _testResult.mcqIds || (_testDef ? _testDef.mcqIds : []);
+  const mcqIds = _testResult.mcqIds && _testResult.mcqIds.length > 0
+    ? _testResult.mcqIds
+    : Object.keys(_testResult.mcqAnswers || {});
   const mcqAnswers = _testResult.mcqAnswers || {};
   const flagged = new Set(_testResult.flagged || []);
   const questions = mcqIds.map(id => _allQuestions.find(q => q.id === id)).filter(Boolean);
@@ -127,7 +138,7 @@ function renderFRQReview() {
     }
   }
   // Also try known global FRQ arrays as a final fallback
-  ['APUSH_FRQ', 'FRQ_BANK', 'APBIO_FRQ', 'APMICRO_FRQ', 'APSTATS_FRQ'].forEach(name => {
+  ['APUSH_FRQ', 'APCSA_FRQ', 'APBIO_FRQ', 'APMICRO_FRQ', 'APSTATS_FRQ'].forEach(name => {
     if (typeof window[name] !== 'undefined') allPools.push(window[name]);
   });
 
@@ -139,7 +150,9 @@ function renderFRQReview() {
     return null;
   };
 
-  const frqs = frqIds.map(findFRQ).filter(Boolean);
+  const frqs = (_testResult.frqObjects && _testResult.frqObjects.length > 0)
+    ? _testResult.frqObjects
+    : frqIds.map(findFRQ).filter(Boolean);
 
   Scoring.renderFrqGrading('frqReviewList', frqs, frqAnswers, (grades) => {
     _frqGrades = grades;
