@@ -2,7 +2,7 @@
 window.APPHYSCEM_FRQ = [
   {
     "id": "physc_u1_frq001",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Velocity from a Position Function Using Derivatives",
     "units": [
@@ -158,7 +158,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u1_frq002",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Velocity from Acceleration Integration in 1D",
     "units": [
@@ -323,7 +323,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u1_frq003",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Calculus-Based 2D Motion with Non-Constant Acceleration",
     "units": [
@@ -458,7 +458,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u1_frq004",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "long",
     "title": "Variable Acceleration and Projectile Launch from a Moving Platform",
     "units": [
@@ -694,7 +694,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u1_frq005",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "long",
     "title": "Variable-Acceleration Projectile with Calculus-Based Kinematics",
     "units": [
@@ -933,7 +933,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u2_frq006",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Block on a Rough Inclined Plane - Free Body Diagram and Newton's Second Law",
     "units": [
@@ -1058,7 +1058,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u2_frq007",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Circular Motion on a Banked Curve with Friction",
     "units": [
@@ -1212,7 +1212,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u2_frq008",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Conical Pendulum with Velocity-Dependent Drag in a Rotating Frame",
     "units": [
@@ -1370,7 +1370,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u2_frq009",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "long",
     "title": "Block on a Rotating Turntable with Friction and Non-Inertial Analysis",
     "units": [
@@ -1612,7 +1612,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u2_frq010",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "long",
     "title": "Conical Pendulum with Velocity-Dependent Drag in a Rotating Reference Frame",
     "units": [
@@ -1865,7 +1865,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u3_frq011",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Work Integral for a Variable Force",
     "units": [
@@ -2022,7 +2022,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u3_frq012",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Variable Force, Work-Energy Theorem, and Power on a Sliding Block",
     "units": [
@@ -2181,7 +2181,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u3_frq013",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Variable Force, Potential Energy, and Conservation of Energy on a Curved Track",
     "units": [
@@ -2338,7 +2338,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u3_frq014",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "long",
     "title": "Variable Force, Energy, and Power on a Sliding Block",
     "units": [
@@ -2545,7 +2545,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u4_frq015",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Impulse and Change in Momentum of a Braking Cart",
     "units": [
@@ -2688,7 +2688,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u4_frq016",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Variable Mass Rocket Propulsion and Momentum",
     "units": [
@@ -2833,7 +2833,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u4_frq018",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "long",
     "title": "Rocket Sled: Variable Mass, Impulse, and Collision Analysis",
     "units": [
@@ -3059,7 +3059,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u4_frq019",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "long",
     "title": "Variable-Mass Rocket with Mid-Flight Elastic Probe Ejection",
     "units": [
@@ -3295,7 +3295,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u5_frq020",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Rolling Without Slipping Down an Incline",
     "units": [
@@ -3455,7 +3455,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u5_frq021",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Rolling Without Slipping on an Inclined Plane",
     "units": [
@@ -3609,7 +3609,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u5_frq022",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Angular Momentum and Gyroscopic Precession of a Spinning Disk",
     "units": [
@@ -3764,7 +3764,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u5_frq023",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "long",
     "title": "Rolling Cylinder on an Inclined Plane: Rotational Dynamics and Angular Momentum",
     "units": [
@@ -4007,7 +4007,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u5_frq024",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "long",
     "title": "Composite Disk-Rod System: Rotational Dynamics, Rolling, and Angular Momentum",
     "units": [
@@ -4223,7 +4223,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u3_frq025",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "long",
     "title": "Variable Force, Energy, and Power on a Sliding Block",
     "units": [
@@ -4477,7 +4477,7 @@ window.APPHYSCEM_FRQ = [
   },
   {
     "id": "physc_u4_frq026",
-    "subject": "apphysc",
+    "subject": "apphyscem",
     "frqType": "short",
     "title": "Variable Mass Rocket Propulsion and Momentum",
     "units": [
