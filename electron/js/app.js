@@ -20,7 +20,7 @@ async function checkForUpdate() {
 
     // Find the direct download URL for the platform-specific asset
     const isWin = window.electronAPI && window.electronAPI.platform === 'win32';
-    const assetName = isWin ? 'APTestPrep-Win.exe' : 'JPrep-Mac.zip';
+    const assetName = isWin ? 'JPrep-Win.exe' : 'JPrep-Mac.zip';
     const asset = (data.assets || []).find(a => a.name === assetName);
     const assetUrl = asset ? asset.browser_download_url : null;
 
