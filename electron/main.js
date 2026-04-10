@@ -65,7 +65,7 @@ ipcMain.on('install-update', async (event, assetUrl) => {
   }
 
   const tmpDir = os.tmpdir();
-  const checksumPath = path.join(tmpDir, 'APTestPrep_checksums.txt');
+  const checksumPath = path.join(tmpDir, 'JPrep_checksums.txt');
 
   // ── Shared helper: download & verify SHA-256 checksum ─────────────────
   async function downloadAndVerify(downloadPath, assetName) {
@@ -111,9 +111,9 @@ ipcMain.on('install-update', async (event, assetUrl) => {
 
   // ── Windows: download NSIS installer, verify, run silently ────────────
   if (!isMac) {
-    const installerPath = path.join(tmpDir, 'APTestPrep_update.exe');
+    const installerPath = path.join(tmpDir, 'JPrep_update.exe');
     try {
-      const ok = await downloadAndVerify(installerPath, 'APTestPrep-Win.exe');
+      const ok = await downloadAndVerify(installerPath, 'JPrep-Win.exe');
       if (!ok) return;
 
       // Launch the NSIS installer silently (/S) — it will close the running
@@ -139,7 +139,7 @@ ipcMain.on('install-update', async (event, assetUrl) => {
   const extractDir = path.join(tmpDir, 'APTestPrep_update');
 
   try {
-    const ok = await downloadAndVerify(zipPath, 'APTestPrep-Mac.zip');
+    const ok = await downloadAndVerify(zipPath, 'JPrep-Mac.zip');
     if (!ok) return;
 
     // 3. Extract

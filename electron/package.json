@@ -16,7 +16,7 @@
     "electron-builder": "^25.0.0"
   },
   "build": {
-    "appId": "com.abhijay.apcsa-practice",
+    "appId": "com.abhijay.jprep",
     "productName": "JPrep",
     "icon": "icon.png",
     "mac": {
@@ -51,7 +51,7 @@
     "win": {
       "target": "nsis",
       "icon": "icon.png",
-      "artifactName": "APTestPrep-Win.exe"
+      "artifactName": "JPrep-Win.exe"
     },
     "nsis": {
       "oneClick": true,
