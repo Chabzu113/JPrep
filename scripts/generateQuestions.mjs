@@ -254,6 +254,123 @@ function buildGeneratePrompt(subjectKey, unit, topics, difficulty, count, startI
     apenviro: 'AP Environmental Science'
   }[subjectKey];
 
+  const ECON_HARD_GUARDRAILS = {
+    apmicro: {
+      1: `- Do not write more than one comparative advantage calculation question per batch.
+- Do not anchor hard questions to the circular flow model — too shallow for hard.
+- Do not write PPC questions where the answer depends on whether the economy is currently inside or on the frontier — keep operating point and frontier shift as separate, clearly stated concepts.`,
+      2: `THIS IS A WHITELIST UNIT — only write questions from the approved types below. Do not write any question type not on this list.
+
+APPROVED TYPES:
+1. DOUBLE-SHIFT INDETERMINATE: Two shifters move simultaneously (e.g. input cost rises AND consumer income rises). Ask which outcome — price or quantity — is indeterminate. The correct answer must be the variable whose direction genuinely cannot be determined without knowing relative magnitudes. The other variable must be determinately identified in the stem or a distractor.
+
+2. TAX INCIDENCE WITH GIVEN NUMBERS: Provide explicit PED and PES values as numbers (e.g. PED = 0.4, PES = 1.2). Ask which party bears more of the tax burden and why. All reasoning must be fully deterministic from the numbers given. Use the rule: more inelastic side bears more burden.
+
+3. CROSS-PRICE OR INCOME ELASTICITY CALCULATION: Give explicit percentage changes (e.g. price of X rises 10%, quantity demanded of Y falls 15%). Ask the student to calculate XED or YED and classify the relationship. Fully deterministic.
+
+4. PRICE FLOOR QUANTITY OUTCOMES: Ask about quantity supplied, quantity demanded, and surplus size under a binding price floor. Do NOT ask about welfare or surplus changes — quantity outcomes only. Fully unambiguous.
+
+5. ELASTICITY AND TOTAL REVENUE: Give a PED value (elastic or inelastic, or a number) and a price change direction. Ask what happens to total revenue. Fully deterministic.
+
+DO NOT WRITE: Consumer surplus under price ceilings, producer surplus under price floors, DWL decomposition, tax welfare effects without explicit numbers, any question where the correct answer depends on unstated elasticity magnitudes, or any question involving long-run supply chain reasoning that introduces new markets.`,
+      3: `- Profit/loss questions must explicitly state where P sits relative to ATC and AVC. Never leave the profit/loss position implied — state it in the stem.
+- Do not conflate profit-maximizing output (MR = MC) with break-even output (P = min ATC) — these are different points on the cost curve diagram.
+- Long-run self-correction questions are safe and strongly preferred.`,
+      4: `- Price discrimination questions must specify the degree (1st, 2nd, or 3rd). Do not write questions about "price discrimination and welfare" without specifying which degree — welfare effects differ significantly across degrees.
+- Natural monopoly regulation questions must specify the pricing rule being applied (MC pricing vs. fair return / ATC pricing). Never leave this ambiguous.
+- Game theory and Nash equilibrium questions are safe and strongly preferred — use payoff matrices with explicit numbers as the primary vehicle for hard questions here.`,
+      5: `THIS IS A WHITELIST UNIT — only write questions from the approved types below. Do not write any question type not on this list.
+
+APPROVED TYPES:
+1. MRP CHAIN: A change in the product market (price rises/falls, productivity shifts) flows through to the factor market. Ask about the effect on wage and/or employment. Chain: product price rises → MRP = P × MP shifts right → firm hires more labor → wage rises along labor supply curve. Fully deterministic.
+
+2. MONOPSONY GRAPH REASONING: Describe a monopsony diagram. Ask how wage and employment under monopsony compare to the competitive outcome. Correct answer: wage is below MRP, employment is below competitive level. OR: Ask where the monopsony sets employment (where MRC = MRP) and what wage it pays (reading off the labor supply curve at that employment level).
+
+3. MINIMUM WAGE UNDER MONOPSONY WITH SPECIFIED RANGE: Describe a monopsony. State explicitly that the minimum wage is set BETWEEN the monopsony wage and the competitive wage. Ask what happens to wage and employment. Correct answer: both rise. If minimum wage is set ABOVE competitive wage, employment falls — the question must specify which range the minimum wage falls in. Never leave this ambiguous.
+
+4. MRC VS SUPPLY CURVE: Ask why MRC lies above the labor supply curve for a monopsony. Correct answer: to hire one more worker, the firm must raise the wage for all workers, so the marginal cost of that worker exceeds just their wage.
+
+DO NOT WRITE: Bilateral monopoly questions of any kind — wage and employment are both indeterminate at the AP level. Do not write questions where the minimum wage position relative to the competitive wage is unstated.`,
+      6: `- Coase theorem questions must always specify: (a) transaction costs are zero, and (b) property rights are clearly defined. Only then is the Coase outcome determinate. Never write a Coase question without stating both conditions explicitly in the stem.
+- Pigouvian tax/subsidy questions are safe and strongly preferred.
+- Lorenz curve and Gini coefficient questions are safe.
+- Public goods questions are safe — focus on excludability and rivalry distinctions.`,
+    },
+    apmacro: {
+      1: `- Same as Micro Unit 1. No circular flow hard questions — too shallow.
+- No more than one comparative advantage calculation question per batch.`,
+      2: `THIS IS A WHITELIST UNIT — only write questions from the approved types below. Do not write any question type not on this list.
+
+APPROVED TYPES:
+1. REAL VS NOMINAL CALCULATION: Give explicit nominal GDP and GDP deflator values (or CPI values). Ask the student to calculate real GDP or the inflation rate. Fully deterministic. Include a distractor that uses the wrong formula direction (e.g. multiplying instead of dividing by the deflator).
+
+2. UNEMPLOYMENT RATE CALCULATION: Give explicit labor force and unemployed counts. Ask for unemployment rate. Fully deterministic. Include distractors that use the wrong denominator (total population instead of labor force) or wrong numerator.
+
+3. UNEMPLOYMENT TYPE IDENTIFICATION: Describe a specific scenario (e.g. a worker laid off because their skill is obsolete due to technology). Ask which type of unemployment this represents. Correct answer must be unambiguous from the scenario. Include distractors that describe scenarios for different unemployment types.
+
+4. POLICY → UNEMPLOYMENT TYPE: Ask which type of unemployment expansionary fiscal or monetary policy directly reduces. Correct answer: cyclical only. Distractors must include structural and frictional (policy does NOT directly fix these).
+
+5. GDP COMPONENTS CHAIN: Describe an economic event and ask which GDP component (C, I, G, NX) changes and in which direction. Fully deterministic.
+
+DO NOT WRITE: Questions asking which measure (CPI vs GDP deflator) is more accurate or better — this is evaluative and not CB-testable. Do not write questions claiming expansionary policy reduces structural or frictional unemployment.`,
+      3: `- Balanced budget multiplier questions must show the explicit arithmetic in the explanation: spending multiplier minus tax multiplier = 1/(1-MPC) - MPC/(1-MPC) = 1. Do not just assert the result.
+- AD-AS graph chain questions are strongly preferred — describe a shock, ask about SR equilibrium, then LR self-correction outcome. These are fully deterministic.
+- Crowding out chain questions are safe and strongly preferred.
+- Multiplier calculation questions must give explicit MPC values.`,
+      4: `- Never conflate the federal funds rate and the discount rate. Be precise: open market operations → federal funds rate (indirect). Fed sets discount rate directly. A question stem or explanation that uses these interchangeably will be flagged.
+- Money market and loanable funds graph chain questions are strongly preferred.
+- Money multiplier calculation questions are safe — give explicit reserve ratio.`,
+      5: `- No present value calculation questions — beyond AP scope.
+- If present value appears, keep it conceptual only: higher real interest rate → lower PV of future returns → investment demand falls.
+- Crowding out chain questions are strongly preferred: government borrows more → demand for loanable funds shifts right → real interest rate rises → private investment falls → AD shifts left by less than fiscal stimulus.
+- Fisher equation questions are safe: give nominal rate and inflation, ask for real.`,
+      6: `THIS IS A WHITELIST UNIT — only write questions from the approved types below. Do not write any question type not on this list.
+
+APPROVED TYPES:
+1. INTEREST RATE → FX CHAIN: A domestic policy changes the real interest rate. Trace the full chain: real interest rate rises → foreign investors demand more domestic financial assets → demand for domestic currency rises in FX market → domestic currency appreciates → exports more expensive for foreigners → net exports fall → AD shifts left. Question must ask about a variable at least 2 steps downstream. The stem must reference capital flows explicitly so the model is forced to include that step. Do not skip the capital flows step.
+
+2. FX GRAPH SHIFT: Describe a specific event (e.g. domestic inflation rises, making exports less competitive). Ask which curve shifts in the foreign exchange market, in which direction, and what happens to the exchange rate. Fully deterministic from the described event.
+
+3. TRADE BALANCE CHAIN: Describe a change in exchange rate (appreciation or depreciation). Ask what happens to exports, imports, and the current account balance. Appreciation → exports fall, imports rise, current account worsens. Depreciation → exports rise, imports fall, current account improves. Fully deterministic.
+
+4. BOP ACCOUNTING: State that the current account is in surplus/deficit. Ask what must be true of the capital account. Correct answer: capital account is in the opposite position (they sum to zero). Include a distractor that gets the direction right but the account name wrong, and one that claims both can be in surplus.
+
+DO NOT WRITE: Questions where the interest rate → exchange rate chain skips the capital flows step. Do not write questions about current account and capital account where the relationship (sum to zero) is left for the student to derive without being anchored in the stem — this produces ambiguous distractors. Do not write questions claiming both BOP accounts can simultaneously be in surplus or deficit.`,
+    },
+  };
+
+  const econGuardrailBlock = ((subjectKey === 'apmicro' || subjectKey === 'apmacro') && difficulty === 'hard')
+    ? (ECON_HARD_GUARDRAILS[subjectKey]?.[unit]
+        ? `\n\nUNIT-SPECIFIC GUARDRAILS — avoid these known error patterns for this unit:\n${ECON_HARD_GUARDRAILS[subjectKey][unit]}`
+        : '')
+    : '';
+
+  const econHardBlock = ((subjectKey === 'apmicro' || subjectKey === 'apmacro') && difficulty === 'hard') ? `
+
+HARD ECON REQUIREMENTS — these override the generic hard rule above:
+Every hard question MUST do at least one of the following:
+
+OPTION A — GRAPH REASONING (at least 40% of hard questions should be this type):
+Base the question on a named AP Econ graph. Describe the initial state, describe a change, and ask the student to identify the effect on a specific variable read off the graph. Named graphs for AP Macro: AD-AS model, Short-Run Phillips Curve, Long-Run Phillips Curve, Money Market, Loanable Funds Market, Foreign Exchange Market. Named graphs for AP Micro: Supply and Demand, PPC, MC/ATC/AVC cost curves, Perfect competition firm diagram, Monopoly diagram, MRP/factor market diagram, Externality diagram with MSC/MSB.
+Question stem format: "In the [graph name], if [condition], which of the following correctly describes [specific variable]?"
+
+OPTION B — MULTI-MARKET CHAIN:
+An event in one market causes a sequence of effects across two or more connected markets. The question asks about a variable at the END of the chain, not the immediate first-order effect.
+Example chain: Fed sells bonds → money supply decreases → nominal interest rate rises in money market → investment falls → AD shifts left in AD-AS → price level and real GDP change.
+The correct answer requires the student to trace at least 2 steps. Distractors should describe correct outcomes for earlier steps in the chain (plausible if you stopped reasoning one step too early).
+
+OPTION C — SR vs LR WITH SELF-CORRECTION:
+A shock or policy has a clear short-run effect. The question asks what happens AFTER the self-correcting mechanism plays out in the long run. The student must know what adjusts (wages for macro, entry/exit for micro) and in which direction.
+
+OPTION D — MULTIPLIER OR ELASTICITY CALCULATION WITH A TRAP:
+Give the student a specific number (MPC, price elasticity value, reserve ratio) and ask them to calculate or compare outcomes. Include a distractor that uses the wrong multiplier formula (e.g. tax multiplier instead of spending multiplier, or forgetting the negative sign on tax multiplier).
+
+DISTRACTOR RULES FOR HARD ECON:
+- Every wrong answer must describe something economically real and correct — just for a different scenario, a different step in the chain, or the short run instead of long run.
+- Do not use obviously wrong statements. A student who half-studied should be able to make a reasonable case for at least 2 of the 4 wrong answers.
+- Keep all 5 choices roughly the same length and specificity. Do not make the correct answer the longest or most detailed.
+- Never generate more than 5 answer choices. AP Econ uses exactly 5 choices (A through E). If you find yourself writing a sixth option, delete it before responding. The choices array in the JSON must have exactly 5 elements.` : '';
+
   return `Generate exactly ${count} ${subjectName} multiple choice questions.
 
 Unit: ${unit} | Difficulty: ${difficulty}
@@ -266,7 +383,7 @@ RULES:
 - Distractors MUST represent real student misconceptions — plausible, not absurd
 - No anachronisms, no joke answers, no absurd options
 - Each question should cover a different topic
-${fiveChoices ? '- Use exactly 5 choices (AP Econ/Stats format)' : '- Use exactly 4 choices'}
+${fiveChoices ? '- Use exactly 5 choices (AP Econ/Stats format)' : '- Use exactly 4 choices'}${econHardBlock}${econGuardrailBlock}
 
 Return ONLY a valid JSON array, zero markdown:
 [{
@@ -316,7 +433,7 @@ Return ONLY valid JSON, zero markdown:
 
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
 
-async function generateForSubject(subjectKey, targetOverride) {
+async function generateForSubject(subjectKey, targetOverride, difficultyFilter = null, unitFilter = null) {
   const config = SUBJECTS[subjectKey];
   if (!config) {
     console.error(`Unknown subject: ${subjectKey}\nAvailable: ${Object.keys(SUBJECTS).join(', ')}`);
@@ -346,18 +463,21 @@ async function generateForSubject(subjectKey, targetOverride) {
 
   for (const [unitNum, unitConfig] of Object.entries(config.units)) {
     const unit = parseInt(unitNum);
+    if (unitFilter !== null && unit !== unitFilter) continue;
+
     const currentInUnit = existing.filter(q => q.unit === unit);
     const currentEasy = currentInUnit.filter(q => q.difficulty === 'easy').length;
     const currentMed  = currentInUnit.filter(q => q.difficulty === 'medium').length;
     const currentHard = currentInUnit.filter(q => q.difficulty === 'hard').length;
 
+    const hardDirectMode = difficultyFilter === 'hard' && targetOverride !== null;
     const target    = targetOverride || unitConfig.target || 70;
     const targetE   = Math.ceil(target * 0.20);
     const targetM   = Math.ceil(target * 0.50);
     const targetH   = Math.ceil(target * 0.30);
-    const needEasy  = Math.max(0, targetE - currentEasy);
-    const needMed   = Math.max(0, targetM - currentMed);
-    const needHard  = Math.max(0, targetH - currentHard);
+    const needEasy  = hardDirectMode ? 0 : Math.max(0, targetE - currentEasy);
+    const needMed   = hardDirectMode ? 0 : Math.max(0, targetM - currentMed);
+    const needHard  = hardDirectMode ? targetOverride : Math.max(0, targetH - currentHard);
 
     console.log(`Unit ${unit}: have ${currentInUnit.length} | need +${needEasy}E +${needMed}M +${needHard}H`);
 
@@ -365,7 +485,7 @@ async function generateForSubject(subjectKey, targetOverride) {
       { difficulty: 'easy',   count: needEasy },
       { difficulty: 'medium', count: needMed  },
       { difficulty: 'hard',   count: needHard },
-    ].filter(b => b.count > 0);
+    ].filter(b => b.count > 0 && (!difficultyFilter || b.difficulty === difficultyFilter));
 
     for (const { difficulty, count } of batches) {
       let remaining = count;
@@ -559,10 +679,14 @@ const args = process.argv.slice(2);
 const flag = args.indexOf('--subject');
 const targetFlag = args.indexOf('--target');
 const targetOverride = targetFlag !== -1 && args[targetFlag + 1] ? parseInt(args[targetFlag + 1], 10) : null;
+const difficultyFlagIdx = args.indexOf('--difficulty');
+const difficultyFilter = difficultyFlagIdx !== -1 && args[difficultyFlagIdx + 1] ? args[difficultyFlagIdx + 1].toLowerCase() : null;
+const unitFlagIdx = args.indexOf('--unit');
+const unitFilter = unitFlagIdx !== -1 && args[unitFlagIdx + 1] ? parseInt(args[unitFlagIdx + 1], 10) : null;
 
 if (flag === -1 || !args[flag + 1]) {
   console.log(`
-Usage: node scripts/generateQuestions.mjs --subject <subject>
+Usage: node scripts/generateQuestions.mjs --subject <subject> [--difficulty <easy|medium|hard>] [--unit <number>] [--target <number>]
 
 Subjects:
   apcsa     AP Computer Science A
@@ -574,11 +698,17 @@ Subjects:
   apush     AP US History
   apphys1   AP Physics 1
   apphysc   AP Physics C
+
+Flags:
+  --difficulty  Only generate questions for this difficulty (easy|medium|hard)
+                With --difficulty hard, --target sets the direct hard count per unit
+  --unit        Only process this unit number
+  --target      Override the per-unit total target (or direct hard count when --difficulty hard)
   `);
   process.exit(0);
 }
 
-generateForSubject(args[flag + 1].toLowerCase(), targetOverride).catch(err => {
+generateForSubject(args[flag + 1].toLowerCase(), targetOverride, difficultyFilter, unitFilter).catch(err => {
   console.error('Fatal:', err);
   process.exit(1);
 });

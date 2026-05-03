@@ -4877,7 +4877,7 @@ var APUSH_MCQ = [
       "It ended slavery in the border states."
     ],
     "answer": 2,
-    "explanation": "The bill would have required 50% of voters to take an 'ironclad' oath of loyalty."
+    "explanation": "The Wade-Davis Bill imposed two separate conditions for Southern readmission: first, 50% of a state's 1860 voters had to take a loyalty oath before reorganization could even begin (the reorganization threshold); second, only those who could swear they had never voluntarily supported the Confederacy — the 'ironclad oath' — were eligible to vote or hold office in the new state government. These were distinct requirements, not the same condition. Lincoln pocket-vetoed the bill, preferring his more lenient 10% plan."
   },
   {
     "id": "apush_u5_q56",
@@ -5717,7 +5717,7 @@ var APUSH_MCQ = [
       "The total surrender of the Sioux."
     ],
     "answer": 2,
-    "explanation": "Often called 'Custer's Last Stand,' it was a temporary victory that only intensified the US effort to crush tribal resistance."
+    "explanation": "Often called 'Custer's Last Stand,' the battle resulted in approximately 268 total U.S. Army soldiers killed — including the roughly 210 men of Custer's immediate battalion as well as casualties from Reno's and Benteen's commands. It was a temporary victory that only intensified the U.S. effort to crush tribal resistance."
   },
   {
     "id": "apush_u6_q38",
@@ -5977,7 +5977,7 @@ var APUSH_MCQ = [
       "A strike was successfully won by workers."
     ],
     "answer": 0,
-    "explanation": "President Hayes's use of troops set a precedent for government intervention in labor disputes on the side of business."
+    "explanation": "While federal forces had been used in labor contexts before, the 1877 Great Railroad Strike saw President Hayes deploy troops on an unprecedented national scale — mobilizing across multiple states simultaneously to suppress the walkout and restore rail service. This scale of coordinated federal military intervention set a powerful precedent for large-scale government action in labor disputes on the side of business interests."
   },
   {
     "id": "apush_u6_q51",
@@ -11456,8 +11456,8 @@ var APUSH_MCQ = [
       "C) appeal to European monarchs for military support by showing respect for the principle of divine right",
       "D) establish precedent for a strong executive in their future government by emphasizing the importance of royal power"
     ],
-    "answer": 3,
-    "explanation": "By directing grievances at the King and emphasizing executive overreach, the Declaration helped establish a framework that would later inform debates about executive power in the new American government. Choice A mischaracterizes colonial political theory, as colonists were not seeking to preserve monarchical institutions. Choice B, while plausible, does not capture the forward-looking constitutional implications of targeting the King specifically. Choice C ignores that most European monarchs were hostile to the American rebellion and that appealing to divine right would have undermined colonial arguments about natural rights."
+    "answer": 1,
+    "explanation": "The colonists directed their grievances at King George III rather than Parliament to maintain the legal fiction that they remained loyal British subjects wronged by royal tyranny. Under English constitutional theory, Parliament was their legitimate lawmaking body — but colonists had developed the argument that Parliament had no authority over them without representation. By blaming the King instead, they framed independence as a defensive response to royal despotism rather than outright rebellion against legitimate authority, a strategically crucial distinction for both domestic morale and international credibility. Choice A is wrong because colonists were moving toward republican self-governance, not defending monarchy. Choice C overstates divine right appeals, which would have directly contradicted their natural rights arguments. Choice D misreads the Declaration as a forward-looking blueprint for executive power rather than a political justification for separation."
   },
   {
     "id": "apush_u4_q175",
@@ -11917,7 +11917,7 @@ var APUSH_MCQ = [
       "D) It focused Union military efforts on areas where slave labor supported Confederate armies"
     ],
     "answer": 0,
-    "explanation": "The geographical limitation allowed Lincoln to use his war powers as commander-in-chief to seize enemy property, avoiding constitutional issues about peacetime emancipation. Border state loyalty was important but secondary to legal justification. By late 1862, encouraging Confederate return was unlikely, and military considerations, while relevant, weren't the primary strategic purpose of the limitation."
+    "explanation": "Lincoln's most pressing political concern was retaining the loyalty of the border states — Kentucky, Missouri, Maryland, and Delaware — which remained in the Union but had significant slaveholder populations. Losing even one to the Confederacy could have been strategically devastating. By limiting emancipation to rebelling states, Lincoln ensured border state slaveholders did not view the proclamation as a direct threat, preserving their loyalty. The war powers rationale — treating emancipation as seizure of enemy property under his authority as commander-in-chief — provided the constitutional mechanism that made this politically driven boundary legally defensible. In other words, the war powers argument explains the legal form of the limitation, but preventing border state secession was the driving political calculation behind it. Choice C was unrealistic by late 1862 as Confederate resolve had hardened. Choice D, while slave labor did support Confederate logistics, was not the primary driver of the geographic restriction."
   },
   {
     "id": "apush_u5_q198",
@@ -11997,7 +11997,7 @@ var APUSH_MCQ = [
       "D) Arguments that only former slaves, not all African Americans, deserved voting rights"
     ],
     "answer": 0,
-    "explanation": "The amendment's specific language avoided broader voting rights issues that might affect white voters or complicate ratification. Including property or education qualifications would have challenged many existing voting restrictions. Women's suffrage and education arguments were concerns, but the primary strategic worry was not invalidating other qualifications that affected whites."
+    "explanation": "The Fifteenth Amendment's enumeration of 'race, color, or previous condition of servitude' deliberately omitted 'sex,' and this omission was the most explicitly documented political controversy surrounding the amendment. Elizabeth Cady Stanton, Susan B. Anthony, and other suffragists who had allied with abolitionists throughout the war bitterly opposed the amendment's narrow language, viewing it as a betrayal after decades of shared activism — it fractured the suffrage movement for a generation. The specific wording also avoided language that would challenge property or literacy qualifications affecting white voters, which is the AP focus of choice A — Republican framers were careful not to accidentally invalidate existing restrictions on white voting while extending the franchise to Black men. Both concerns shaped the language, but the women's suffrage exclusion was the loudest and most historically documented controversy of the ratification debate."
   },
   {
     "id": "apush_u5_q202",
@@ -13076,8 +13076,8 @@ var APUSH_MCQ = [
       "C) eliminating federal regulations that were constraining business growth",
       "D) providing loans exclusively to failed banks to restore financial stability"
     ],
-    "answer": 2,
-    "explanation": "The stimulus package followed Keynesian economic theory by using government spending to boost aggregate demand during the recession, funding infrastructure projects, education, and providing direct aid to individuals and states. Choice A describes supply-side policy. Choice C describes deregulation not stimulus. Choice D mischaracterizes the broader scope of the legislation."
+    "answer": 1,
+    "explanation": "The stimulus package followed Keynesian economic theory by using government spending to boost aggregate demand during the recession, funding infrastructure projects, education, and providing direct aid to individuals and states. Choice A describes supply-side (trickle-down) policy, which ARRA explicitly did not follow. Choice C describes deregulation, the opposite of a stimulus approach. Choice D mischaracterizes the legislation — aid went far beyond banks and included broad public investment."
   },
   {
     "id": "apush_u9_q256",

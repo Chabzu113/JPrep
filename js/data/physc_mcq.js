@@ -578,23 +578,6 @@ window.PHYSC_MCQ = [
     "explanation": "By conservation of angular momentum: $I_{disk}\\omega_0 = (I_{disk} + I_{ring})\\omega_f$. $I_{disk} = \\frac{1}{2}MR^2$, $I_{ring} = mR^2$. So $\\frac{1}{2}MR^2\\omega_0 = (\\frac{1}{2}MR^2 + mR^2)\\omega_f$, giving $\\omega_f = \\frac{M}{M + 2m}\\omega_0$."
   },
   {
-    "id": "physc_u10_q4",
-    "subject": "apphyscem",
-    "unit": 10,
-    "topic": "10.2 Moment of Inertia (Calculus)",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "What is the moment of inertia of a uniform disk of mass $M$ and radius $R$ about an axis tangent to its rim (in the plane of the disk)?",
-    "choices": [
-      "$\\frac{1}{2}MR^2$",
-      "$MR^2$",
-      "$\\frac{3}{2}MR^2$",
-      "$\\frac{5}{4}MR^2$"
-    ],
-    "answer": 2,
-    "explanation": "Using the parallel axis theorem: $I = I_{cm} + Md^2$. For a disk, $I_{cm} = \\frac{1}{2}MR^2$ about the central axis perpendicular to the plane. An axis tangent to the rim and perpendicular to the plane is a distance $d = R$ from the center, so $I = \\frac{1}{2}MR^2 + MR^2 = \\frac{3}{2}MR^2$."
-  },
-  {
     "id": "physc_u10_q5",
     "subject": "apphyscem",
     "unit": 10,
@@ -1001,23 +984,6 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Energy $U = \\frac{1}{2}CV^2$. Since $V(t) = V_0 e^{-t/RC}$, $U(t) = \\frac{1}{2}C V_0^2 e^{-2t/RC}$. Set $U = U_0/4$: $e^{-2t/RC} = 1/4$, so $-2t/RC = \\ln(1/4) = -2\\ln 2$, giving $t = RC\\ln 2$."
-  },
-  {
-    "id": "physc_u3_q3",
-    "subject": "apphyscem",
-    "unit": 3,
-    "topic": "3.2 Kirchhoff's Rules",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "In a circuit with two batteries ($\\mathcal{E}_1 = 12\\,\\text{V}$, $\\mathcal{E}_2 = 6\\,\\text{V}$) and three resistors ($R_1 = 2\\,\\Omega$, $R_2 = 4\\,\\Omega$, $R_3 = 6\\,\\Omega$), applying Kirchhoff's voltage law around a loop containing $\\mathcal{E}_1$, $R_1$, and $R_2$ gives:",
-    "choices": [
-      "$\\mathcal{E}_1 - I_1 R_1 - I_2 R_2 = 0$",
-      "$\\mathcal{E}_1 + I_1 R_1 + I_2 R_2 = 0$",
-      "$\\mathcal{E}_1 - I_1 R_1 + I_2 R_2 = 0$",
-      "$-\\mathcal{E}_1 - I_1 R_1 + I_2 R_2 = 0$"
-    ],
-    "answer": 0,
-    "explanation": "By Kirchhoff's voltage law (KVL), the sum of voltage changes around any closed loop is zero. Traversing the loop in the direction of current: we gain $\\mathcal{E}_1$ across the battery and drop $I_1 R_1$ and $I_2 R_2$ across the resistors: $\\mathcal{E}_1 - I_1 R_1 - I_2 R_2 = 0$."
   },
   {
     "id": "physc_u3_q4",
@@ -3124,26 +3090,6 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The tension at distance x from the bottom must support the weight of rope below that point. The mass per unit length is m/L, so the mass below point x is (m/L)x. Therefore tension T = g(m/L)x = mgx/L. Students often use (L-x) thinking about distance from top, or forget the mass distribution."
-  },
-  {
-    "id": "physc_u2_q085",
-    "subject": "apphysc",
-    "unit": 2,
-    "topic": "friction",
-    "topicLabel": "friction",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A wheel of radius R rolls without slipping down an incline of angle θ. If the coefficient of static friction is μs, what is the minimum value of μs needed to prevent slipping?",
-    "choices": [
-      "A) tan θ",
-      "B) (2/7) tan θ",
-      "C) (1/3) tan θ",
-      "D) (2/5) tan θ"
-    ],
-    "answer": 2,
-    "explanation": "For rolling without slipping, a = αR and friction provides the torque. For a solid disk, I = $\\frac{1}{2}$m$R^2$. The acceleration down the incline is a = (2/3)g sin θ, requiring friction f = ma/3 = mg sin θ/3. Since f $\\leq$ μsmg cos θ, we get μs $\\geq$ (1/3) tan θ. Students often use the sliding case (tan θ) or incorrect moment of inertia values."
   },
   {
     "id": "physc_u2_q086",
@@ -5306,26 +5252,6 @@ window.PHYSC_MCQ = [
     "explanation": "Using parallel axis theorem: I = I_cm + M$d^2$ = M$R^2$/2 + M$R^2$ = 3M$R^2$/2, where d = R is the distance from center to rim. Choice A ignores the theorem, choice B uses $d^2$ = R incorrectly, choice D doubles the center value incorrectly."
   },
   {
-    "id": "physc_u5_q195",
-    "subject": "apphysc",
-    "unit": 5,
-    "topic": "Newton's second law rotation",
-    "topicLabel": "Newton's Second Law for Rotation",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A solid disk of mass M and radius R is mounted on a frictionless axle. A string wrapped around the disk supports a hanging mass m. When the system is released, what is the angular acceleration of the disk?",
-    "choices": [
-      "A) mg/MR",
-      "B) 2mg/(M+2m)R",
-      "C) mg/(M/2+m)R",
-      "D) 2mg/MR"
-    ],
-    "answer": 1,
-    "explanation": "For the hanging mass: mg - T = ma. For the disk: TR = Iα = (M$R^2$/2)α. With a = αR, solving gives α = 2mg/[(M+2m)R]. Choice A ignores the hanging mass inertia, choice C has algebra error, choice D ignores hanging mass acceleration."
-  },
-  {
     "id": "physc_u5_q196",
     "subject": "apphysc",
     "unit": 5,
@@ -6326,26 +6252,6 @@ window.PHYSC_MCQ = [
     "explanation": "Maximum power transfer occurs when the impedance is minimized, which happens exactly at the natural frequency ω₀, regardless of damping. This is different from maximum amplitude, which occurs slightly below ω₀ for damped systems. Students often confuse power resonance with amplitude resonance, choosing option B."
   },
   {
-    "id": "physc_u6_q246",
-    "subject": "apphysc",
-    "unit": 6,
-    "topic": "spring-mass",
-    "topicLabel": "Spring-Mass Systems",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A vertical spring-mass system oscillates about its equilibrium position. If the mass is doubled while keeping the spring the same, how does the equilibrium position change?",
-    "choices": [
-      "A) Moves down by the original compression amount",
-      "B) Moves down by twice the original compression amount",
-      "C) Moves down by half the original compression amount",
-      "D) Remains at the same position"
-    ],
-    "answer": 0,
-    "explanation": "At equilibrium, kx₁ = mg for the original mass. When mass is doubled, kx₂ = 2mg. Therefore x₂ = 2mg/k = 2x₁. The new equilibrium is x₂ - x₁ = x₁ lower, so it moves down by the original compression amount. Students often think it doubles (B) by directly relating mass doubling to position doubling, forgetting the relative change."
-  },
-  {
     "id": "physc_u6_q247",
     "subject": "apphysc",
     "unit": 6,
@@ -6746,26 +6652,6 @@ window.PHYSC_MCQ = [
     "explanation": "Since F ∝ 1/$r^2$, when r increases by factor of 3, F decreases by factor of $3^2$ = 9, so F becomes F/9. Students often forget to square the distance factor, giving 1/3 (choice A), or make other algebraic errors."
   },
   {
-    "id": "physc_u7_q267",
-    "subject": "apphysc",
-    "unit": 7,
-    "topic": "Newton's law of universal gravitation",
-    "topicLabel": "Newton's law of universal gravitation",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Two spherical masses M and m are separated by distance r. If the mass M is doubled and the distance is tripled, how does the gravitational force change?",
-    "choices": [
-      "A) Decreases by a factor of 9/2",
-      "B) Decreases by a factor of 4.5",
-      "C) Increases by a factor of 2/9",
-      "D) Decreases by a factor of 18"
-    ],
-    "answer": 1,
-    "explanation": "Using F = $GMm/r^2$, the new force is F' = G(2M)m/(3r)² = 2GMm/9$r^2$ = (2/9)F. So the force decreases by a factor of 9/2 = 4.5. Choice A confuses the ratio direction, C gives the multiplication factor instead of reduction factor, and D incorrectly calculates 2×9."
-  },
-  {
     "id": "physc_u7_q268",
     "subject": "apphysc",
     "unit": 7,
@@ -7104,26 +6990,6 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Using g = $GM/r^2$, the ratio is (2M_E)/(3R_E)² divided by M_E/R_$E^2$ = 2/9. Students often forget to square the radius (getting 2/3) or incorrectly multiply instead of divide (getting 6 or 18)."
-  },
-  {
-    "id": "physc_u7_q285",
-    "subject": "apphysc",
-    "unit": 7,
-    "topic": "gravitational field",
-    "topicLabel": "gravitational field",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Two identical masses M are placed at opposite corners of a square with side length a. At which point will a test mass experience zero net gravitational field?",
-    "choices": [
-      "A) The center of the square",
-      "B) The midpoint of the line connecting the two masses",
-      "C) Any point on the perpendicular bisector of the line connecting the masses",
-      "D) No such point exists"
-    ],
-    "answer": 2,
-    "explanation": "The gravitational field is zero at any point equidistant from both masses, which is the perpendicular bisector. The center of the square is one such point but not the only one. The midpoint between masses has maximum field magnitude, not zero."
   },
   {
     "id": "physc_u7_q286",
@@ -10426,26 +10292,6 @@ window.PHYSC_MCQ = [
     "explanation": "Kirchhoff's current law states that current in equals current out at any junction (conservation of charge). If current in = 1.5 × current out, KCL is violated. KVL could still be satisfied around loops. Students might think this violates both laws or is somehow physically possible."
   },
   {
-    "id": "physc_u10_q453",
-    "subject": "apphysc",
-    "unit": 10,
-    "topic": "RC circuits steady state",
-    "topicLabel": "RC circuits steady state",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "In a complex circuit with multiple resistors and a capacitor, after reaching steady state, the capacitor can be replaced with what equivalent circuit element for analysis purposes?",
-    "choices": [
-      "A) A short circuit (wire)",
-      "B) An open circuit (break)",
-      "C) A resistor with infinite resistance",
-      "D) A voltage source equal to the capacitor voltage"
-    ],
-    "answer": 1,
-    "explanation": "In steady state, no current flows through the capacitor (dQ/dt = 0), so it acts as an open circuit. While options B and C seem similar, 'open circuit' is the standard terminology. Students might think the capacitor acts as a short circuit or voltage source in steady state."
-  },
-  {
     "id": "physc_u10_q454",
     "subject": "apphysc",
     "unit": 10,
@@ -11166,26 +11012,6 @@ window.PHYSC_MCQ = [
     "explanation": "The magnetic field inside a solenoid is B = $\\mu$₀nI. When both n and I are doubled, B becomes $\\mu$₀(2n)(2I) = 4$\\mu$₀nI, which is four times the original field. Choice A considers only one doubling. Choice B has no physical basis. Choice D incorrectly assumes the changes cancel out."
   },
   {
-    "id": "physc_u11_q490",
-    "subject": "apphysc",
-    "unit": 11,
-    "topic": "magnetic force on charge",
-    "topicLabel": "Magnetic Force on Charge",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "An electron moving with velocity v enters a region where both electric field E and magnetic field B are present, with E parallel to B. The electron's motion will be:",
-    "choices": [
-      "A) Circular in a plane perpendicular to B",
-      "B) Helical around the direction of B",
-      "C) Straight line parallel to E and B",
-      "D) Parabolic in the plane containing E and B"
-    ],
-    "answer": 1,
-    "explanation": "When E || B, the electric force affects motion parallel to the fields while the magnetic force (perpendicular to v and B) causes circular motion in the perpendicular plane. The combination produces helical motion. Choice A ignores the electric field effect. Choice C ignores the magnetic force component. Choice D describes motion in crossed fields."
-  },
-  {
     "id": "physc_u11_q491",
     "subject": "apphysc",
     "unit": 11,
@@ -11244,26 +11070,6 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Ampere's law states ∮B·dl = $\\mu$₀I_enclosed. The enclosed current is the algebraic sum of currents: I + I + I = 3I (all in same direction). Therefore ∮B·dl = 3$\\mu$₀I. Choice A counts only one wire. Choice B miscounts as two wires. Choice D incorrectly assumes currents cancel."
-  },
-  {
-    "id": "physc_u11_q494",
-    "subject": "apphysc",
-    "unit": 11,
-    "topic": "magnetic force on wire",
-    "topicLabel": "Magnetic Force on Wire",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Two parallel wires carry currents I₁ = 3A and I₂ = 2A in opposite directions, separated by distance d. A third wire carrying current I₃ = 4A is placed at distance d from each of the first two wires, forming an equilateral triangle. What is the direction of the net magnetic force on the third wire?",
-    "choices": [
-      "A) Toward the wire carrying 3A",
-      "B) Toward the wire carrying 2A",
-      "C) Along the bisector away from the other two wires",
-      "D) Along the bisector toward the other two wires"
-    ],
-    "answer": 0,
-    "explanation": "The force between parallel wires is F = $\\mu$₀I₁I₂L/(2πd). Wire 1 (3A) creates attractive force of magnitude $\\mu$₀(3)(4)L/(2πd) on wire 3. Wire 2 (2A) creates repulsive force of magnitude $\\mu$₀(2)(4)L/(2πd) on wire 3. Since currents are opposite, one attracts and one repels. The attractive force is larger, so net force is toward wire 1. Students often forget that opposite currents repel while like currents attract."
   },
   {
     "id": "physc_u11_q495",
@@ -12144,26 +11950,6 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "First find dB/dt = d(0.05$t^2$)/dt = 0.1t. At t = 2s, dB/dt = 0.2 T/s. EMF = A(dB/dt) = (0.1)²(0.2) = 0.002 V. Students often forget to take the derivative or make errors in calculating the area."
-  },
-  {
-    "id": "physc_u12_q539",
-    "subject": "apphysc",
-    "unit": 12,
-    "topic": "magnetic flux",
-    "topicLabel": "Magnetic flux",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A rectangular coil with 50 turns has dimensions 0.1 m × 0.2 m and is placed in a uniform magnetic field of 0.3 T at an angle of 60° to the field lines. What is the total magnetic flux through the coil?",
-    "choices": [
-      "A) 0.15 Wb",
-      "B) 0.26 Wb",
-      "C) 0.30 Wb",
-      "D) 0.52 Wb"
-    ],
-    "answer": 0,
-    "explanation": "Flux through one turn: Φ₁ = BA cos(60°) = (0.3)(0.1 × 0.2)(0.5) = 0.003 Wb. Total flux = NΦ₁ = 50 × 0.003 = 0.15 Wb. Students often use cos(30°) instead of cos(60°) or forget to multiply by the number of turns."
   },
   {
     "id": "physc_u12_q540",
@@ -14946,26 +14732,6 @@ window.PHYSC_MCQ = [
     "explanation": "For rolling without slipping, applying Newton's second law for translation (Mg sin(theta) - f = Ma) and rotation (fR = I*alpha, with alpha = a/R), we get f = (2/5)Ma. Substituting: Mg sin(theta) - (2/5)Ma = Ma, so Mg sin(theta) = (7/5)Ma, giving a = (5/7)g sin(theta). Choice A is the acceleration if there were no friction (pure sliding), a common error where students ignore the rotational energy or torque. Choice C incorrectly uses only the rotational fraction rather than solving the coupled equations properly. Choice D results from an algebraic inversion error in the denominator."
   },
   {
-    "id": "physc_u5_q689",
-    "subject": "apphysc",
-    "unit": 5,
-    "topic": "rolling without slipping",
-    "topicLabel": "Rolling Without Slipping with Calculus",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A uniform solid sphere of mass M and radius R rolls without slipping down an incline of angle theta. Using the parallel axis theorem and Newton's second law for rotation, what is the acceleration of the center of mass of the sphere? Derive this by setting up the torque equation about the contact point with the surface.",
-    "choices": [
-      "A) (5/7) g sin(theta)",
-      "B) (2/3) g sin(theta)",
-      "C) g sin(theta)",
-      "D) (5/7) g cos(theta)"
-    ],
-    "answer": 0,
-    "explanation": "Taking torques about the contact point eliminates the friction force. The moment of inertia about the contact point is found via the parallel axis theorem: I_contact = (2/5)MR^2 + MR^2 = (7/5)MR^2. The only torque about the contact point is from gravity: tau = MgR sin(theta). Applying tau = I_contact * alpha and using a = R*alpha for rolling without slipping: MgR sin(theta) = (7/5)MR^2 * (a/R), giving a = (5/7)g sin(theta). Choice B (2/3 g sin theta) is the common error from using a hollow sphere's moment of inertia. Choice C neglects rotational inertia entirely (treats it as a sliding block). Choice D incorrectly uses cos(theta) instead of sin(theta)."
-  },
-  {
     "id": "physc_u5_q690",
     "subject": "apphysc",
     "unit": 5,
@@ -16224,26 +15990,6 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "When disconnected, charge Q = CV0 is constant. Initial energy Ui = Q^2/(2C). When separation triples, capacitance becomes C/3. Final energy Uf = Q^2/(2C/3) = 3Q^2/(2C) = 3CV0^2/2. Change in energy = Uf - Ui = 3CV0^2/2 - CV0^2/2 = CV0^2. A common misconception is to hold voltage constant instead of charge (which would give a decrease in energy, as in choice A). Another error is computing the ratio incorrectly (choice D). The work done pulling the plates apart accounts for the energy increase."
-  },
-  {
-    "id": "physc_u9_q765",
-    "subject": "apphysc",
-    "unit": 9,
-    "topic": "potential from field",
-    "topicLabel": "Potential from Field",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A non-uniform electric field in a region is given by E(x) = E0*(x/a)^2 in the +x direction, where E0 and a are positive constants. Taking V = 0 at x = 0, what is the electric potential V(x) as a function of x?",
-    "choices": [
-      "A) V(x) = -E0*x^3/(3a^2)",
-      "B) V(x) = E0*x^3/(3a^2)",
-      "C) V(x) = -E0*x^2/(2a^2)",
-      "D) V(x) = -2E0*x^3/(3a^2)"
-    ],
-    "answer": 0,
-    "explanation": "The potential is found from V(x) - V(0) = -integral from 0 to x of E(x')dx'. V(x) = -integral from 0 to x of E0*(x'/a)^2 dx' = -(E0/a^2) * integral from 0 to x of x'^2 dx' = -(E0/a^2)*(x^3/3) = -E0*x^3/(3a^2). Choice B is the common sign error from forgetting the negative in V = -integral(E·dl). Choice C results from incorrectly integrating x^2 as x^2/2 instead of x^3/3 (a power rule error). Choice D has an erroneous factor of 2, possibly from a chain rule confusion."
   },
   {
     "id": "physc_u9_q766",

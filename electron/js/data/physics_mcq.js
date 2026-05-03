@@ -136,23 +136,6 @@ window.PHYSICS_MCQ = [
     "explanation": "Using $v^2 = v_0^2 + 2a\\\\Delta x$: $$10^2 = 30^2 + 2a(80)$$ $$100 = 900 + 160a$$ $$a = \\\\frac{-800}{160} = -5\\\\,\\\\text{m/s}^2$$ The magnitude is $5\\\\,\\\\text{m/s}^2$."
   },
   {
-    "id": "aphy1_u1_q9",
-    "subject": "apphys1",
-    "unit": 1,
-    "topic": "1.2 Representing Motion",
-    "difficulty": "hard",
-    "type": "MCQ",
-    "question": "A stone is thrown vertically upward with an initial speed of $15\\\\,\\\\text{m/s}$ from the edge of a cliff that is $30\\\\,\\\\text{m}$ above the ground. Using $g = 10\\\\,\\\\text{m/s}^2$, how long does it take for the stone to reach the ground?",
-    "choices": [
-      "$1.5\\\\,\\\\text{s}$",
-      "$3\\\\,\\\\text{s}$",
-      "$4.5\\\\,\\\\text{s}$",
-      "$6\\\\,\\\\text{s}$"
-    ],
-    "answer": 2,
-    "explanation": "Taking upward as positive with origin at the cliff edge: $y = v_0 t - \\\\frac{1}{2}gt^2$. The stone hits the ground when $y = -30$: $$-30 = 15t - 5t^2$$ $$5t^2 - 15t - 30 = 0 \\\\implies t^2 - 3t - 6 = 0$$ Using the quadratic formula: $t = \\\\frac{3 + \\\\sqrt{9+24}}{2} \\\\approx 4.5\\\\,\\\\text{s}$ (taking the positive root)."
-  },
-  {
     "id": "aphy1_u1_q10",
     "subject": "apphys1",
     "unit": 1,
@@ -320,11 +303,11 @@ window.PHYSICS_MCQ = [
     "choices": [
       "$1\\\\,\\\\text{m/s}^2$",
       "$3\\\\,\\\\text{m/s}^2$",
-      "$4\\\\,\\\\text{m/s}^2$",
+      "$4.5\\\\,\\\\text{m/s}^2$",
       "$9\\\\,\\\\text{m/s}^2$"
     ],
-    "answer": 1,
-    "explanation": "Using $x = \\\\frac{1}{2}at^2$: $a = \\\\frac{2x}{t^2} = \\\\frac{2(36)}{16} = \\\\frac{72}{16} = 4.5\\\\,\\\\text{m/s}^2$. Closest answer is $3\\\\,\\\\text{m/s}^2$ — checking: with $a=4.5$, $x = \\\\frac{1}{2}(4.5)(16) = 36\\\\,\\\\text{m}$. The answer is $4.5\\\\,\\\\text{m/s}^2$, but among the options the correct calculation gives $\\\\frac{2 \\\\times 36}{4^2} = 4.5$, so answer index 1 ($3\\\\,\\\\text{m/s}^2$) is the closest available. (Note: actual answer is $4.5\\\\,\\\\text{m/s}^2$, but this question uses the closest available choice.)"
+    "answer": 2,
+    "explanation": "Using $x = \\\\frac{1}{2}at^2$ and solving for $a$: $a = \\\\frac{2x}{t^2} = \\\\frac{2(36)}{4^2} = \\\\frac{72}{16} = 4.5\\\\,\\\\text{m/s}^2$. Choice A ($1\\\\,\\\\text{m/s}^2$) is far too small. Choice B ($3\\\\,\\\\text{m/s}^2$) would give $x = \\\\frac{1}{2}(3)(16) = 24\\\\,\\\\text{m}$, not 36 m. Choice D ($9\\\\,\\\\text{m/s}^2$) would give $x = \\\\frac{1}{2}(9)(16) = 72\\\\,\\\\text{m}$, too large."
   },
   {
     "id": "U1-MCQ-10",
@@ -2301,13 +2284,13 @@ window.PHYSICS_MCQ = [
     "type": "MCQ",
     "question": "A uniform beam of length $4\\\\,\\\\text{m}$ and mass $10\\\\,\\\\text{kg}$ is supported at one end. A $20\\\\,\\\\text{kg}$ mass hangs from the other end. Where should a single support be placed to achieve rotational equilibrium? (Use $g = 10\\\\,\\\\text{m/s}^2$)",
     "choices": [
-      "$1\\\\,\\\\text{m}$ from the hanging mass",
+      "$0.67\\\\,\\\\text{m}$ from the hanging mass",
       "$1.33\\\\,\\\\text{m}$ from the hanging mass",
       "$2\\\\,\\\\text{m}$ from the hanging mass",
       "$2.67\\\\,\\\\text{m}$ from the hanging mass"
     ],
-    "answer": 1,
-    "explanation": "Taking torques about the support point: the beam's center of mass is at the midpoint. Setting net torque $= 0$: $20g(x) = 10g(2-x) + 20g$ where $x$ is distance from the mass end. Solving gives $x \\\\approx 1.33\\\\,\\\\text{m}$, which is the center of mass position at $\\\\frac{(20)(0)+(10)(2)}{30} = 0.67\\\\,\\\\text{m}$ from the mass end, i.e., $1.33\\\\,\\\\text{m}$ from center."
+    "answer": 0,
+    "explanation": "For a single support to hold a system in rotational equilibrium, it must be placed at the system's combined center of mass. Taking the hanging-mass end as the origin: the 20 kg hanging mass is at $x = 0$ and the beam's center of mass is at its midpoint $x = 2\\\\,\\\\text{m}$. Combined COM $= \\\\frac{(20)(0)+(10)(2)}{20+10} = \\\\frac{20}{30} \\\\approx 0.67\\\\,\\\\text{m}$ from the hanging mass end. Choice B (1.33 m) is wrong — it would be the answer only if the beam's entire mass were concentrated at the far end rather than at its midpoint."
   },
   {
     "id": "U7-MCQ-03",
@@ -2359,23 +2342,6 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Torque is $\\\\tau = rF\\\\sin\\\\theta$. A $30^\\\\circ$ angle to the surface means $60^\\\\circ$ from the normal, so $\\\\sin 60^\\\\circ \\\\approx 0.87$. Applying perpendicular ($\\\\theta = 90^\\\\circ$, $\\\\sin 90^\\\\circ = 1$) gives maximum torque, which is larger."
-  },
-  {
-    "id": "U7-MCQ-06",
-    "subject": "apphys1",
-    "unit": 7,
-    "topic": "Rotational Kinetic Energy",
-    "difficulty": "hard",
-    "type": "MCQ",
-    "question": "A solid sphere of mass $2\\\\,\\\\text{kg}$ and radius $0.1\\\\,\\\\text{m}$ rotates at $10\\\\,\\\\text{rad/s}$. The moment of inertia of a solid sphere is $I = \\\\frac{2}{5}MR^2$. What is its rotational kinetic energy?",
-    "choices": [
-      "$0.02\\\\,\\\\text{J}$",
-      "$0.04\\\\,\\\\text{J}$",
-      "$0.1\\\\,\\\\text{J}$",
-      "$0.2\\\\,\\\\text{J}$"
-    ],
-    "answer": 3,
-    "explanation": "$I = \\\\frac{2}{5}MR^2 = \\\\frac{2}{5}(2)(0.1)^2 = 0.008\\\\,\\\\text{kg\\\\cdot m}^2$. $$KE_{rot} = \\\\frac{1}{2}I\\\\omega^2 = \\\\frac{1}{2}(0.008)(10)^2 = 0.4\\\\,\\\\text{J}$$ Among the given choices, $0.2\\\\,\\\\text{J}$ is the closest; the discrepancy arises from rounding in the problem setup."
   },
   {
     "id": "U7-MCQ-07",
@@ -4555,8 +4521,8 @@ window.PHYSICS_MCQ = [
       "C) 48.0 N",
       "D) 58.8 N"
     ],
-    "answer": 2,
-    "explanation": "For an Atwood machine, acceleration a = (m₂ - m₁)g/(m₁ + m₂) = (6 - 4)(9.8)/(4 + 6) = 19.6/10 = 1.96 $m/s^2$. For the lighter mass: T - m₁g = m₁a, so T = m₁(g + a) = 4(9.8 + 1.96) = 4(11.76) = 47.04 N $\\approx$ 47 N. Choice A uses just m₁g = 4(9.8) = 39.2 N, ignoring acceleration. Choice C rounds incorrectly to 48 N. Choice D uses m₂g = 6(9.8) = 58.8 N incorrectly."
+    "answer": 1,
+    "explanation": "Acceleration: a = (m₂ − m₁)g/(m₁ + m₂) = (6 − 4)(9.8)/(4 + 6) = 19.6/10 = 1.96 m/s². Applying Newton's second law to m₁: T − m₁g = m₁a, so T = m₁(g + a) = 4(9.8 + 1.96) = 4(11.76) = 47.04 N ≈ 47.0 N. Choice A (39.2 N) uses only m₁g, ignoring the acceleration. Choice C (48.0 N) is a rounding error. Choice D (58.8 N) incorrectly uses m₂g."
   },
   {
     "id": "phys1_u2_q071",
@@ -5775,8 +5741,8 @@ window.PHYSICS_MCQ = [
       "C) 216 J",
       "D) 144 J"
     ],
-    "answer": 0,
-    "explanation": "Net force = 12 N - 4 N = 8 N. Using F = ma: a = 8 N / 2 kg = 4 $m/s^2$. After 3 s: v = at = 4 × 3 = 12 m/s. KE = $\\frac{1}{2}$m$v^2$ = $\\frac{1}{2}$(2)(1$2^2$) = 144 J. Distance = $\\frac{1}{2}$a$t^2$ = $\\frac{1}{2}$(4)(9) = 18 m. Work by net force = 8 N × 18 m = 144 J. Wait, let me recalculate: KE = $\\frac{1}{2}$(2)(144) = 144 J. Actually, this should be 288 J since KE = $\\frac{1}{2}$(2)(1$2^2$) = $\\frac{1}{2}$(2)(144) = 144 J. The work-energy theorem gives W_net = 8N × 18m = 144 J, but this doesn't match my calculation. Let me reconsider: KE = $\\frac{1}{2}$m$v^2$ = $\\frac{1}{2}$(2)(1$2^2$) = 144 J, but using work-energy theorem: W_net = F_net × d = 8 N × 18 m = 144 J. Actually, 18 m × 8 N = 144 J, but distance should be calculated as $\\frac{1}{2}$a$t^2$ = $\\frac{1}{2}$(4)(9) = 18 m. So net work = 8 × 18 = 144 J. But this gives the wrong kinetic energy calculation above. Let me restart: net force = 8 N, so a = 4 $m/s^2$. After 3 s, v = 12 m/s and d = 18 m. By work-energy theorem, ΔKE = W_net = 8 N × 18 m = 144 J. Since initial KE = 0, final KE = 144 J. No wait, that's choice D. Let me recalculate the distance: d = $\\frac{1}{2}$a$t^2$ = $\\frac{1}{2}$(4)($3^2$) = 18 m. Net work = 8 N × 18 m = 144 J. Hmm, let me double-check the kinetic energy directly: KE = $\\frac{1}{2}$(2 kg)(12 m/s)² = 144 J. So both methods give 144 J, meaning the answer should be D, not A. Let me recalculate: After 3s with a = 4 $m/s^2$, velocity = 12 m/s and distance = $\\frac{1}{2}$(4)(9) = 18 m. The work done by net force (8N) over 18m = 144 J = final KE. But I initially wrote 288 J as correct. Let me reconsider the problem setup... Actually, let me recalculate distance properly: d = $\\frac{1}{2}$a$t^2$ = $\\frac{1}{2}$(4)($3^2$) = $\\frac{1}{2}$(4)(9) = 18 m. Net work = 8 N × 18 m = 144 J. Final KE = 144 J. But looking at my answer choices, I put A as correct with 288 J. This seems to be an error. Let me recalculate once more: Net force = 8 N, acceleration = 4 $m/s^2$, time = 3 s, so final velocity = 12 m/s and distance = 18 m. KE = $\\frac{1}{2}$m$v^2$ = $\\frac{1}{2}$(2)(144) = 144 J. The answer should be D, not A. However, since I already set A as the answer, let me adjust the problem to make 288 J correct. If the distance were 36 m instead of 18 m, then net work would be 8 × 36 = 288 J. This would happen if time were longer or acceleration higher. Let me revise: if the final velocity were 24 m/s instead of 12 m/s, then KE would be $\\frac{1}{2}$(2)(2$4^2$) = 576 J. That's too high. If I keep everything the same but made an error, let me recalculate step by step: F_net = 12-4 = 8 N, a = 8/2 = 4 $m/s^2$, v = 4×3 = 12 m/s, d = $\\frac{1}{2}$×4×9 = 18 m, KE = $\\frac{1}{2}$×2×144 = 144 J. The answer should indeed be D. Since I cannot change the designated answer, I'll provide the explanation that leads to D being correct."
+    "answer": 3,
+    "explanation": "Net force = 12 N − 4 N = 8 N. By Newton's second law: a = 8/2 = 4 m/s². After 3 s from rest: v = 4 × 3 = 12 m/s. Final KE = ½mv² = ½(2)(12²) = ½(2)(144) = 144 J. This is confirmed by the work-energy theorem: d = ½at² = ½(4)(9) = 18 m, so W_net = 8 × 18 = 144 J. Choice A (288 J) doubles the answer in error. Choice B (432 J) uses the applied force alone (12 × 18 = 216 J, or some other error). Choice C (216 J) is incorrect."
   },
   {
     "id": "phys1_u4_q132",
@@ -5895,8 +5861,8 @@ window.PHYSICS_MCQ = [
       "C) 320 kJ",
       "D) 300 kJ"
     ],
-    "answer": 1,
-    "explanation": "Energy supplied by engine = P × t = 40,000 W × 8 s = 320,000 J = 320 kJ. Kinetic energy gained = $\\frac{1}{2}$m$v^2$ = $\\frac{1}{2}$(1500)(2$0^2$) = 300,000 J = 300 kJ. Energy lost to friction = Energy supplied - KE gained = 320 - 300 = 20 kJ. Wait, this gives choice A, but I marked B as correct. Let me recalculate: KE = $\\frac{1}{2}$(1500)(400) = 300 kJ. Energy from engine = 320 kJ. Lost energy = 320 - 300 = 20 kJ. The answer should be A. Since I designated B as correct, there may be an error in my setup. Let me adjust: if KE gained were 100 kJ instead of 300 kJ, then lost energy would be 220 kJ. This would happen if final speed were lower or mass different."
+    "answer": 0,
+    "explanation": "Energy supplied by engine = P × t = 40,000 W × 8 s = 320,000 J = 320 kJ. Kinetic energy gained = ½mv² = ½(1500)(20²) = ½(1500)(400) = 300,000 J = 300 kJ. Energy lost to friction and air resistance = 320 kJ − 300 kJ = 20 kJ. Choice B (220 kJ) is incorrect. Choice C (320 kJ) is the total engine energy, not the lost portion. Choice D (300 kJ) is the kinetic energy gained, not the energy lost."
   },
   {
     "id": "phys1_u4_q138",
@@ -5935,8 +5901,8 @@ window.PHYSICS_MCQ = [
       "C) 8 J",
       "D) 2 J"
     ],
-    "answer": 0,
-    "explanation": "Initial PE = $\\frac{1}{2}$kx₁² = $\\frac{1}{2}$(400)(0.$2^2$) = 8 J. Final PE = $\\frac{1}{2}$kx₂² = $\\frac{1}{2}$(400)(0.$3^2$) = 18 J. Additional energy needed = 18 - 8 = 10 J. Wait, this gives choice B, but I marked A as correct. Let me recalculate: PE₁ = $\\frac{1}{2}$(400)(0.04) = 8 J. PE₂ = $\\frac{1}{2}$(400)(0.09) = 18 J. Additional energy = 18 - 8 = 10 J. The answer should be B. Since A is marked correct, let me recalculate what would give 18 J additional: this would happen if final PE were 26 J, meaning final compression were about 0.36 m. Let me adjust the problem understanding: if asking for total final energy, then PE₂ = 18 J could be the answer."
+    "answer": 1,
+    "explanation": "Additional energy = ΔPE = ½kx₂² − ½kx₁² = ½(400)(0.3²) − ½(400)(0.2²) = 18 J − 8 J = 10 J. Choice A (18 J) is the total final PE, not the additional energy needed. Choice C (8 J) is the initial PE. Choice D (2 J) may come from incorrectly using ½k(Δx)² = ½(400)(0.1²) = 2 J, which ignores that spring PE is non-linear."
   },
   {
     "id": "phys1_u4_q140",
@@ -5955,8 +5921,8 @@ window.PHYSICS_MCQ = [
       "C) 25 J",
       "D) 16 J"
     ],
-    "answer": 0,
-    "explanation": "Initial PE = $\\frac{1}{2}$kx₁² = $\\frac{1}{2}$(200)(0.$3^2$) = 9 J. Final PE = $\\frac{1}{2}$kx₂² = $\\frac{1}{2}$(200)(0.$5^2$) = 25 J. Additional energy needed = 25 - 9 = 16 J. This gives choice D, but A is marked correct. Let me try different spring constant: if k = 400 N/m, then initial PE = $\\frac{1}{2}$(400)(0.09) = 18 J and final PE = $\\frac{1}{2}$(400)(0.25) = 50 J, giving additional energy of 32 J. If k = 200 N/m and initial compression = 0.3 m, final = 0.5 m: additional energy = $\\frac{1}{2}$(200)(0.25 - 0.09) = 100(0.16) = 16 J. For answer to be 18 J: $\\frac{1}{2}$(200)(0.25 - $x^2$) = 18, so 0.25 - $x^2$ = 0.18, giving $x^2$ = 0.07, x = 0.26 m initially. Let me recalculate with these values: PE₁ = $\\frac{1}{2}$(200)(0.0676) $\\approx$ 6.76 J, PE₂ = 25 J, difference $\\approx$ 18 J."
+    "answer": 3,
+    "explanation": "Additional energy = ΔPE = ½kx₂² − ½kx₁² = ½(200)(0.5²) − ½(200)(0.3²) = 25 J − 9 J = 16 J. Choice A (18 J) is incorrect. Choice B (10 J) may come from ½k(Δx)² = ½(200)(0.2²) = 4 J (also wrong) or from confusing with a similar question. Choice C (25 J) is the total final PE, not the additional energy required."
   },
   {
     "id": "phys1_u4_q141",
@@ -6835,8 +6801,8 @@ window.PHYSICS_MCQ = [
       "C) 6 m/s",
       "D) 12 m/s"
     ],
-    "answer": 1,
-    "explanation": "For elastic collision between equal masses where one is at rest, the moving object stops and the stationary object takes on all the velocity. So the first ball has 0 m/s after collision. Choice B assumes velocities are shared. Choice C assumes no collision occurred. Choice D assumes momentum doubles."
+    "answer": 0,
+    "explanation": "In a perfectly elastic collision between two equal-mass objects where one is initially at rest, conservation of both momentum and kinetic energy requires the moving object to stop completely and the stationary object to move forward at the original speed. The first ball's velocity after collision is 0 m/s. Choice B (3 m/s) would result from a perfectly inelastic collision where they stick together (each gets half the speed). Choice C (6 m/s) would mean the collision had no effect. Choice D (12 m/s) violates conservation of momentum."
   },
   {
     "id": "phys1_u5_q185",
@@ -7979,26 +7945,6 @@ window.PHYSICS_MCQ = [
     "explanation": "For springs in series, the effective spring constant is k_eff = k/2 (where k is the constant of each spring). The period is T = 2π√(m/k_eff) = 2π√(m/(k/2)) = 2π√(2m/k) = √2 × 2π√(m/k). The period increases by √2. Students often think springs in series add like resistors in parallel, or confuse series with parallel spring arrangements."
   },
   {
-    "id": "phys1_u6_q242",
-    "subject": "apphys1",
-    "unit": 6,
-    "topic": "spring-mass system",
-    "topicLabel": "spring-mass system",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A mass oscillates on a vertical spring. At the point where the mass is moving upward with maximum speed, what is true about the forces?",
-    "choices": [
-      "A) The net force is maximum and upward",
-      "B) The net force is maximum and downward",
-      "C) The net force is zero",
-      "D) The spring force equals the gravitational force"
-    ],
-    "answer": 3,
-    "explanation": "Maximum speed occurs at the equilibrium position where the spring force balances gravity (mg = kx₀). At this point, net force is zero, so spring force equals gravitational force. Students often think maximum speed corresponds to maximum force (confusing with maximum acceleration points) or that net force is upward since velocity is upward."
-  },
-  {
     "id": "phys1_u6_q243",
     "subject": "apphys1",
     "unit": 6,
@@ -8095,8 +8041,8 @@ window.PHYSICS_MCQ = [
       "C) Length must be increased by factor of √6",
       "D) Length must be decreased by factor of √6"
     ],
-    "answer": 3,
-    "explanation": "At highest point, mass is above equilibrium, so restoring force points downward toward equilibrium. The net restoring force is the additional spring compression beyond equilibrium minus the gravitational force that already balanced at equilibrium. Answer should be C) spring force minus gravitational force."
+    "answer": 1,
+    "explanation": "The period of a simple pendulum is T = 2π√(L/g). For the same period on the Moon (g_moon = g_earth/6), we need L_moon/g_moon = L_earth/g_earth, so L_moon = L_earth × (g_moon/g_earth) = L_earth/6. The length must be decreased by a factor of 6. Choice A is wrong: increasing L by 6 would increase T by √6. Choice C is wrong: increasing by √6 would require g to increase by 6. Choice D (decrease by √6) gives T_moon = 2π√(L/√6 ÷ g/6) = 2π√(6L/(g√6)) = T_earth × 6^(1/4) ≠ T_earth."
   },
   {
     "id": "phys1_u6_q248",
@@ -8395,8 +8341,8 @@ window.PHYSICS_MCQ = [
       "C) 3.0 N⋅m",
       "D) 6.0 N⋅m"
     ],
-    "answer": 0,
-    "explanation": "Torque = rF sin(θ) where θ is measured from the radius vector. Since the force is 30° from perpendicular, the angle from the radius is 90° - 30° = 60°. τ = (0.25)(12)sin(60°) = 3 × 0.5 = 1.5 N⋅m. Choice B uses sin(30°) incorrectly, C uses the full force without angle, D uses twice the full force."
+    "answer": 1,
+    "explanation": "Torque = rF sin(θ), where θ is the angle between the force and the lever arm. The force is 30° from the perpendicular to the handle, so the angle between the force and the handle itself is 90° − 30° = 60°. τ = (0.25)(12)sin(60°) = 3 × 0.866 ≈ 2.6 N·m. Choice A (1.5 N·m) is the result of incorrectly using sin(30°) = 0.5 instead of sin(60°) = 0.866. Choice C (3.0 N·m) applies the full force with no angular reduction. Choice D (6.0 N·m) uses twice the correct torque."
   },
   {
     "id": "phys1_u7_q263",
@@ -9455,8 +9401,8 @@ window.PHYSICS_MCQ = [
       "C) At the midpoint of the side connecting the two charges",
       "D) It's impossible with this configuration"
     ],
-    "answer": 3,
-    "explanation": "With two identical positive charges, there's no point where a third positive charge experiences zero net force. Any position will result in net repulsion. Students often think the center works, but forces there don't cancel due to geometry and identical charges."
+    "answer": 0,
+    "explanation": "Two identical positive charges at opposite corners of a square are equidistant from the center. A test charge placed at the center experiences repulsive forces from both charges that are equal in magnitude and exactly opposite in direction. By symmetry, these forces cancel completely, giving zero net force. Choice B (empty corner) is wrong: the test charge would be closer to one charge and the forces would not cancel. Choice C (midpoint of side) is wrong: the geometry does not produce cancellation there. Choice D is incorrect — the center is a valid equilibrium point for this symmetric configuration."
   },
   {
     "id": "phys1_u8_q316",
@@ -9555,8 +9501,8 @@ window.PHYSICS_MCQ = [
       "C) x = 3d",
       "D) x = 4d/3"
     ],
-    "answer": 2,
-    "explanation": "For the net electric field to be zero between the two positive charges, the fields from each charge must be equal in magnitude and opposite in direction. Setting k(2q)/$r^2$ = k(8q)/(4d - r)², where r is the distance from the +2q charge, gives (4d - r)² = 4$r^2$, so 4d - r = 2r, yielding r = 4d/3 from the +2q charge... wait, that places the zero point at x = 4d/3. However, checking with the larger charge: the field from +8q is stronger, so the zero point is closer to the smaller charge +2q. Solving: (4d - r)² = 4$r^2$ → 4d - r = 2r → r = 4d/3 $\\approx$ 1.33d from x = 0, which is approximately x = 4d/3. Students may incorrectly choose x = 2d (the midpoint) without accounting for the different charge magnitudes, or choose x = 3d by reversing which charge is larger."
+    "answer": 3,
+    "explanation": "Setting the fields equal: k(2q)/r² = k(8q)/(4d − r)², where r is the distance from the +2q charge. This gives (4d − r)² = 4r², so 4d − r = 2r, yielding r = 4d/3. The zero-field point is at x = 4d/3 from the +2q charge. This is closer to the weaker +2q charge, as expected — the zero point must be nearer to the weaker source so that the smaller charge's field can match the stronger one. Choice A (x = d) is too close to +2q. Choice B (x = 2d) is the midpoint — only correct if the charges were equal. Choice C (x = 3d) incorrectly places the point closer to the stronger charge."
   },
   {
     "id": "phys1_u8_q321",
@@ -9595,8 +9541,8 @@ window.PHYSICS_MCQ = [
       "C) The field lines point in opposite directions",
       "D) The field lines are four times denser near the +4μC charge"
     ],
-    "answer": 1,
-    "explanation": "The curvature of electric field lines in the region between two positive charges is influenced by the relative magnitudes of the charges. Near the +4μC charge, the stronger force it exerts dominates the local field geometry, causing the field lines to curve more sharply as they are pushed away by the stronger repulsive influence. The force balance between the two charges is unequal - the +4μC charge exerts four times the force on a test charge at the same distance compared to the +1μC charge - which results in greater curvature of field lines near the stronger charge. Field lines don't have inherent length (A), both positive charges have outward-pointing lines so they do not point in opposite directions (C), and while field line density does relate to field strength, the defining characteristic being tested here is curvature due to the force balance (D)."
+    "answer": 3,
+    "explanation": "The density of electric field lines — the number of lines per unit area perpendicular to the field — represents field strength. Since the +4μC charge is four times stronger than the +1μC charge, the field near it is four times stronger and field lines are four times denser at the same distance. Choice A is wrong: field lines have no inherent length. Choice B is wrong: 'greater curvature' is not a standard or valid property used to describe field line diagrams; curvature of the lines is a geometric feature of the configuration, not a measure of field strength. Choice C is wrong: both charges are positive, so field lines point radially outward from both — they do not point in opposite directions."
   },
   {
     "id": "phys1_u8_q323",
@@ -9615,8 +9561,8 @@ window.PHYSICS_MCQ = [
       "C) The field does negative work, and V_B > V_A",
       "D) The field does negative work, and V_B < V_A"
     ],
-    "answer": 2,
-    "explanation": "When electric potential energy decreases, the work done by the electric field is negative (W = -ΔPE, and since ΔPE is negative, W is actually positive - wait: W = -ΔPE = -(negative) = positive). However, for a positive charge, PE = qV, so if PE decreases, V must also decrease, meaning V_B < V_A. The correct answer is B) - the field does positive work and V_B < V_A. Note: Choice C incorrectly states the field does negative work; negative work would correspond to increasing potential energy, not decreasing. Students should carefully track the sign relationships between work, potential energy change, and potential difference to avoid confusion."
+    "answer": 1,
+    "explanation": "When electric PE decreases (ΔPE < 0), the work done by the electric field is W = −ΔPE = −(negative) > 0, so the field does positive work. For a positive charge q > 0: PE = qV, so if PE decreases, V must also decrease, meaning V_B < V_A. The positive charge moves from higher to lower potential. Choice A is wrong: V_B > V_A would require the charge to have gained PE, not lost it. Choice C is wrong: negative work corresponds to increasing PE, not decreasing PE. Choice D has both signs inverted."
   },
   {
     "id": "phys1_u8_q324",

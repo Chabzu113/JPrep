@@ -1,8 +1,8 @@
 const fs = require('fs');
-eval(fs.readFileSync('js/data/frq.js', 'utf8'));
-console.log('Parsed OK:', FRQ_BANK.length, 'questions');
+eval(fs.readFileSync('js/data/apcsa_frq.js', 'utf8'));
+console.log('Parsed OK:', APCSA_FRQ.length, 'questions');
 let items = 0, kwCount = 0, errors = 0;
-FRQ_BANK.forEach(function(q) {
+APCSA_FRQ.forEach(function(q) {
   if (q.autoGraded !== true) { console.log('  missing autoGraded:', q.id); errors++; }
   q.rubric.forEach(function(r) {
     items++;

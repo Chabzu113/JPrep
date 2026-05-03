@@ -1,0 +1,85 @@
+{
+  "generated": "2026-04-02T01:16:55.996Z",
+  "flags": [
+    {
+      "id": "pt_calcab_p1_u1_003",
+      "issue": "The question is mathematically broken. The explanation itself demonstrates through repeated failed algebra that no value of k in the answer choices produces a consistent, well-posed problem. With the constant term -6 in the numerator, the value k=5 is required for the limit to exist (so the numerator has a factor of (x-1)), but that yields a limit of 7, not 5, contradicting g(1)=5. The listed correct answer k=4 does NOT make the numerator zero at x=1, so the limit does not exist (0/0 with non-zero numerator is undefined, not indeterminate), making the function discontinuous at x=1 for any k≠5. There is no valid answer among the choices, and the explanation openly acknowledges the contradiction without resolving it. This question has no correct answer as written.",
+      "fix": "Change the constant term in the numerator and the defined value g(1) so the problem is self-consistent. For example: g(x) = (x² + kx - 6)/(x - 1) for x ≠ 1, g(1) = 7. For continuity, set 1 + k - 6 = 0 giving k = 5, then factor: (x-1)(x+6)/(x-1) = x+6, limit at x=1 is 7 = g(1). Update the correct answer to k=5 and replace the current distractor k=5 with a different value. Alternatively keep g(1)=5 and change the numerator to x² + kx - 4, then k=3 gives (x-1)(x+4)/(x-1), limit = 5 = g(1), and update answer choices and explanation accordingly."
+    },
+    {
+      "id": "pt_calcab_p1_u1_004",
+      "issue": "There are two correct answers, violating the requirement of exactly one clear correct answer. Choice B is valid: h(1)=-3 and h(2)=1 bracket 0, so IVT guarantees a zero in (1,2). Choice C is also valid: h(3)=-1 and h(5)=2 bracket 0 (with h continuous on [3,5]), so IVT also guarantees a zero in (3,5). The explanation acknowledges this ambiguity but does not resolve it structurally. Additionally, Choice A is also guaranteed by IVT since 3 lies between h(3)=-1 and h(4)=4, making three of four choices defensibly correct, which is unacceptable for a single-answer MCQ.",
+      "fix": "Redesign the question to ensure only one answer is IVT-guaranteed. One approach: adjust the table values so that 0 is bracketed in exactly one subinterval and the target values in the other choices are NOT bracketed in any subinterval. For example use h(1)=2, h(2)=5, h(3)=-1, h(4)=3, h(5)=1 and craft choices so only one value in one interval is guaranteed. Alternatively, reframe the question as 'Which of the following is NOT necessarily guaranteed by IVT?' to leverage the ambiguity productively."
+    },
+    {
+      "id": "pt_calcab_p1_u2_007",
+      "issue": "The distractor explanation for choice D is mathematically incoherent and implausible. The explanation claims students 'count x = ±3 (where f = 0)' as critical points, but f(3) = 81 − 54 + 9 = 36 ≠ 0 and f(−3) = 36 ≠ 0, so this justification is factually wrong. Additionally, choice D ('Four') has no plausible derivation pathway that a real student would follow, making it a weak distractor. The question is already flagged in the source data, confirming the issue.",
+      "fix": "Replace choice D with a more plausible distractor and fix its explanation. For example, D could be 'Four' justified by a student who also counts the endpoints x = −3 and x = 3 as solutions after solving 4x(x²−3)=0 without checking the open interval condition — except all three roots are strictly inside (−3,3), so that story also fails. Better fix: change the interval to (−√3, √3) and set answer to one (only x=0), or change the interval to (0, 3) so only x=√3 qualifies and the answer is one, giving more meaningful boundary-checking distractor value. Alternatively, keep (−3,3) but replace D with 'Zero' justified by a student who incorrectly factors f′(x) as 4x³−12x=4x²(x−3) and finds no roots in (−3,3), which is arithmetically believable."
+    },
+    {
+      "id": "pt_calcab_p1_u3_011",
+      "issue": "The answer index is 1 (0-indexed), pointing to choice B '6x · cos(3x² + 1)', which is mathematically correct. However, the answer field uses 0-based indexing inconsistently with question pt_calcab_p1_u3_013 and pt_calcab_p1_u3_014 where answer:0 and answer:1 clearly map to choice A and B respectively. This is consistent, so B is correct. No mathematical error. Minor audit note: the explanation for choice C ('cos(6x)') is weak — a student might get cos(6x) by thinking d/dx[sin(3x²+1)] = cos(d/dx[3x²+1]) = cos(6x), which is a plausible and common error. The distractor and its explanation are acceptable but the explanation could be more precise about the specific misconception.",
+      "fix": "Clarify the explanation for Choice C to explicitly state the misconception: 'Choice C results from incorrectly applying the chain rule by taking the cosine of the derivative of the inner function, i.e., mistakenly computing cos(6x) instead of cos(3x²+1) · 6x.'"
+    },
+    {
+      "id": "pt_calcab_p1_u3_012",
+      "issue": "The question is mathematically broken as written. g'(x) = f'(x²) · 2x, so g'(2) = f'(4) · 4. The table only provides f'(2) = -3, not f'(4). The intended answer of -12 requires using f'(4) = -3, but the problem only states f'(2) = -3. No legitimate mathematical path yields -12 from the given information. The question conflates x=2 with x²=2. The explanation in the JSON openly acknowledges this flaw. The answer is ambiguous and the problem is unsolvable as stated without an unjustified assumption.",
+      "fix": "Change g(x) = f(x²) to g(x) = f(2x) so that g'(x) = 2f'(2x) and g'(2) = 2f'(4), which still has the same issue. Best fix: redefine g(x) = [f(x)]² so g'(x) = 2f(x)·f'(x) and g'(2) = 2·f(2)·f'(2) = 2·5·(−3) = −30, or change the evaluation point to x=√2 so x²=2, or provide f'(4) in the problem setup. Simplest AP-standard fix: change g(x) = f(x²) and ask for g'(1) instead of g'(2), since at x=1, x²=1 and g'(1)=f'(1)·2; then supply f'(1) in the given data. Alternatively, supply both f(2)=5, f'(2)=−3 and redesign so the chain rule inner function evaluates to 2 at the asked point, e.g., g(x)=f(√x) and ask for g'(4): g'(4)=f'(2)·(1/(2√4))=−3·(1/4)=−3/4, adjusting choices accordingly."
+    },
+    {
+      "id": "pt_calcab_p1_u4_018",
+      "issue": "The stated correct answer (Choice A, 2.95) is a rounded approximation of the exact value 3 - 1/30 ≈ 2.9667. Rounding 2.9667 to two decimal places gives 2.97, not 2.95. Choice A (2.95) is actually farther from the true linear approximation value than Choice D (2.975). The explanation claims 2.9667 rounds to 2.95, which is mathematically incorrect. Additionally, Choice D (2.975) would correspond to using f'(4) = 1/8, i.e., L(3.8) = 3 - 0.2/8 = 3 - 0.025 = 2.975, which is actually closer to the correct value than 2.95, creating ambiguity about which answer is 'best.' The correct linear approximation is approximately 2.9667, which rounds to 2.97 — a value not present among the choices. The answer index and/or the answer choices need revision.",
+      "fix": "Replace Choice A with '2.9667' or '≈ 2.967', or restructure the choices so the correct linear approximation value (3 - 1/30 ≈ 2.967) is clearly represented as one distinct option. For example: A) 2.967, B) 3.033, C) 2.950, D) 2.975, and set answer to 0 (Choice A). Alternatively, adjust the problem so the linear approximation yields a cleaner decimal, e.g., change 3.8 to 3.94 so L = 3 - 0.06/6 = 3 - 0.01 = 2.99, or change the function to produce a nicer answer."
+    },
+    {
+      "id": "pt_calcab_p1_u5_024",
+      "issue": "The correct answer is not among the choices. The interval where f is both increasing AND concave down is (-5/3, 1), which is not listed. Choice A (-3,-1) is increasing throughout but concave UP on (-3,-5/3) and only concave down on (-5/3,-1). No single listed choice satisfies both conditions everywhere within the interval. The explanation acknowledges this contradiction but still marks A as correct, which is mathematically unjustifiable for an AP-style question requiring a clean, unambiguous answer.",
+      "fix": "Replace choice A with (-5/3, 1) and mark it as the correct answer, or redesign the choices so that exactly one interval is a subset of both the increasing region (x > -3) and the concave-down region (-5/3 < x < 1). For example: A) (-5/3, 1)  B) (-3, -5/3)  C) (1, ∞)  D) (-∞, -3), with A as the correct answer."
+    },
+    {
+      "id": "pt_calcab_p1_u5_026",
+      "issue": "The constraint setup is inconsistent with the problem description. The problem says two interior fences are parallel to ONE of the sides, but the explanation sets up 4x + 2y = 120 (4 segments of x, 2 of y), which means the interior fences are parallel to the y-side, making x the dimension perpendicular to the dividers. This ambiguity in variable labeling is not clarified in the question stem, unlike question pt_calcab_p1_u5_028 which explicitly defines x and y. Additionally, this question is nearly identical in structure to pt_calcab_p1_u5_028 (same optimization setup, just half the fencing), which creates redundancy across the practice test.",
+      "fix": "Add a variable definition to the question stem (e.g., 'Let x be the length of each interior fence and y be the length of the side parallel to the dividers') to eliminate ambiguity. Also consider replacing this question with a different optimization problem (e.g., minimizing surface area of a cylinder, or a related rates/optimization problem from a different context) to avoid near-duplication with question pt_calcab_p1_u5_028."
+    },
+    {
+      "id": "pt_calcab_p1_u5_028",
+      "issue": "The answer key says the correct answer is B (x=40, y=60, area=2400), but the explanation works through the math and correctly arrives at x=30, y=60, area=1800, which is choice A. The 'answer' field (index 1, i.e., choice B) directly contradicts the mathematical work in the explanation. The question is also nearly identical in structure to pt_calcab_p1_u5_026, creating redundancy. The item is already self-flagged but the answer field has not been corrected.",
+      "fix": "Change the 'answer' field from 1 to 0 (choice A: x=30m, y=60m, maximum area=1800m²). Also trim the explanation to remove the self-correction rambling and present a clean, confident derivation. Strongly consider replacing one of the two nearly identical fence-optimization questions (026 or 028) with a different optimization problem to avoid redundancy."
+    },
+    {
+      "id": "pt_calcab_p1_u6_030",
+      "issue": "The answer field says index 0 (choice A, value 4), but the explanation correctly computes the left Riemann sum as 8, which is choice B (index 1). The answer index is wrong. The question itself is self-aware of the error mid-explanation ('Wait - recalculating'), which is unprofessional and should not appear in a student-facing item.",
+      "fix": "Set answer index to 1 (choice B, value 8). Remove the self-correction narrative from the explanation and rewrite it cleanly: state that left endpoints are t=0,1,2,3, compute v(0)=6, v(1)=2, v(2)=0, v(3)=0, and sum = 1*(6+2+0+0)=8."
+    },
+    {
+      "id": "pt_calcab_p1_u6_034",
+      "issue": "There are two correct answers. Option C (split integral with negated integrand on [0,2]) and Option D (integral of absolute value) are mathematically equivalent and both correctly represent total distance. A well-formed AP MCQ must have exactly one correct answer. The explanation even acknowledges this ambiguity explicitly.",
+      "fix": "Remove option C entirely and replace it with a genuine distractor. A good replacement would be something like '∫₀² (3t²−6t) dt + ∫₂³ (3t²−6t) dt' (which looks like the split-interval approach but does not negate the velocity on [0,2], making it equal to option A and therefore wrong). This preserves plausibility while eliminating the duplicate correct answer."
+    },
+    {
+      "id": "pt_calcab_p1_u6_035",
+      "issue": "Options A and C are numerically identical (both equal 23) and both represent the left Riemann sum, differing only in whether the Δx=1 factor is written explicitly. This means there are two correct answers. Additionally, the explanation contradicts itself by calling A 'less rigorous' while still accepting it as equivalent, and it describes D as the trapezoidal rule but the trapezoidal formula shown gives 23 as well, making it a third numerically equal answer and a poor distractor.",
+      "fix": "Replace option A with a genuine distractor such as '(4+7+3+9)(4)=92' (correct values but wrong width) or '(1/2)(4+7+3+9)=11.5' (halved width error). Fix option D to be a proper trapezoidal approximation: '(1/2)(4 + 2·7 + 2·3 + 2·9 + 2)=25', which is numerically distinct from 23 and is a plausible distractor for students who confuse Riemann sums with the trapezoid rule."
+    },
+    {
+      "id": "pt_calcab_p1_u7_038",
+      "issue": "The 'answer' field is set to index 1 (choice B, 3e²) but the correct answer is index 0 (choice A, 3e). The explanation itself acknowledges this error mid-sentence and even contains a self-correction note, but the answer field was never updated. This is a direct factual error in the answer key.",
+      "fix": "Change 'answer' from 1 to 0 (pointing to choice A, 3e). Remove the self-correction parenthetical from the explanation and rewrite cleanly: 'Separating variables: dy/y = 2x dx. Integrating: ln|y| = x² + C, so y = Ce^(x²). Applying y(0) = 3 gives C = 3, so y = 3e^(x²). At x = 1: y = 3e^(1) = 3e.'"
+    },
+    {
+      "id": "pt_calcab_p1_u7_040",
+      "issue": "The 'answer' field is set to index 1 (choice B, 1/(2 − ln 2)) but the correct answer derived in the explanation is y = 1/(1 − ln x), giving f(2) = 1/(1 − ln 2), which does not match any listed answer choice. None of the four choices equal 1/(1 − ln 2). The question therefore has no correct answer among the options, violating the requirement of exactly one clear correct answer. Additionally, the explanation contradicts the answer field it is supposed to support.",
+      "fix": "Replace choice B with '1/(1 − ln 2)' and set 'answer' to 1, OR restructure the answer choices so that exactly one matches 1/(1 − ln 2). For example: A) f is increasing and f(2) = 2, B) f is increasing and f(2) = 1/(1 − ln 2), C) f is increasing and f(2) = 2/(2 − ln 2), D) f is decreasing and f(2) = 1/2. Then set 'answer' to 1 and update the distractor explanations accordingly."
+    },
+    {
+      "id": "pt_calcab_p1_u8_042",
+      "issue": "Two correct answers exist. Choices B and C are mathematically identical — π∫[0 to 2][(2x)²−(x²)²]dx split into two integrals equals the same value as the single integral in B. The explanation even acknowledges this ('Choices B and C are actually equivalent') yet marks only B as correct. This violates the requirement of exactly one clear correct answer. Additionally, Choice D is the shell method revolving about the y-axis, not the x-axis, which is correctly identified as wrong, but the stem asks specifically about revolving about the x-axis, making D unambiguously wrong for the right reason. The core fatal flaw is B and C being equivalent.",
+      "fix": "Replace Choice C with a genuinely distinct wrong answer, such as π∫[0 to 2][(x²)²−(2x)²]dx (reversed radii, a plausible sign error) or π∫[0 to 2][(2x−x²)²]dx (which is already Choice A). A clean replacement for C would be: π∫[0 to 2][(2x)²+(x²)²]dx, representing the error of adding rather than subtracting the squared radii."
+    },
+    {
+      "id": "pt_calcab_p1_u8_044",
+      "issue": "The question is unnecessarily convoluted and contains a misleading premise. It introduces a left Riemann sum approximation and mentions using it to 'estimate the area of the region between f(x) and its average value,' but then the solution ignores the Riemann sum entirely and uses only the given exact integral value of 18. The mention of the Riemann sum and the 'area between f and its average value' sub-task serves no mathematical purpose in arriving at the answer, making the question poorly constructed and potentially confusing. The distractor analysis in the explanation is also internally inconsistent: it states the left Riemann sum equals 3+5+4+6=18 and (1/4)(18)=4.5, then mid-sentence abandons that thread. The question tests a straightforward average value computation but obscures it with irrelevant scaffolding that does not align with real AP exam style.",
+      "fix": "Simplify the question to directly test average value of a function given a table and an exact integral. Remove the Riemann sum and 'area between f and its average value' language entirely. Revised stem: 'The table below gives values of a continuous function f(x) on [0,4]. If the exact value of ∫[0 to 4] f(x) dx is 18, what is the average value of f on [0,4]?' This is clean, unambiguous, and AP-aligned. Alternatively, keep the Riemann sum as the only source of the integral approximation (remove the given exact value) and ask the student to approximate the average value using the left Riemann sum, making the Riemann sum actually load-bearing."
+    }
+  ]
+}

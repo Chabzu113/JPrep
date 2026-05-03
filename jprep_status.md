@@ -1,4 +1,4 @@
-# Prep Status — April 1, 2026
+# Prep Status — April 4, 2026
 
 **App:** JPrep (renamed from APCSAPractice throughout UI)
 **GitHub:** github.com/Chabzu113 (APCSAPractice repo)
@@ -19,9 +19,9 @@
 | APUSH | 669 | 9 units |
 | AP Physics 1 | 564 | 7 units |
 | AP Physics C | 832 | 5 units |
-| AP Gov | 315 | 5 units, added today |
-| AP Calc BC | 442 | 10 units, added today |
-| AP Enviro | 615 | 9 units, added today |
+| AP Gov | 315 | 5 units |
+| AP Calc BC | 442 | 10 units |
+| AP Enviro | 615 | 9 units |
 
 All banks deduped via `scripts/dedupeMCQ.mjs` — zero duplicates confirmed.
 
@@ -36,6 +36,39 @@ All banks deduped via `scripts/dedupeMCQ.mjs` — zero duplicates confirmed.
 - max_tokens: 8192
 - Target: 70 questions/unit (20% easy, 50% medium, 30% hard)
 - Parse fixes: em dash stripping, string-aware bracket matcher, choice label normalization, per-question retry on parse error with full debug dump to `scripts/parse_error_debug.txt`
+
+---
+
+## FRQ Bank — 428 total across 11 subjects
+
+| Subject | FRQs | Notes |
+|---------|------|-------|
+| AP CS A | 25 | original |
+| AP Bio | 54 | original + new |
+| AP Calc AB | 50 | original |
+| AP Stats | 25 | original |
+| AP Micro | 25 | original |
+| AP Macro | 25 | original |
+| APUSH | 25 | original |
+| AP Physics 1 | 25 | original |
+| AP Physics C | 25 | original |
+| AP Enviro | 54 | new |
+| AP Calc BC | 50 | new |
+| AP Gov | 25 | new (CA, QA, SCOTUS, ARG types) |
+
+**Total:** 428 FRQs across 11 subjects (299 original + 54 Enviro + 50 Calc BC + 25 Gov)
+
+---
+
+## Practice Tests — 12 full-length tests, all clean
+
+- 12 full-length practice tests generated, one per subject
+- Flag issues resolved: all 625/625 questions clean (no flagged questions)
+- Tests wired into app via JS wrapper files (`electron/js/data/tests/`)
+- Registered in subject registry via `testFiles` property in `subjects.js`
+- Script: `scripts/generatePracticeTests.mjs`
+- Fix script: `scripts/applyTestFixes.mjs`
+- Flagged question injection: `scripts/addFlaggedQuestions.mjs`
 
 ---
 
@@ -72,8 +105,8 @@ All banks deduped via `scripts/dedupeMCQ.mjs` — zero duplicates confirmed.
 - Streaming markdown responses
 - Model: `claude-sonnet-4-6`
 - Context-aware settings modal (onboarding vs. update UI)
-- **Status:** Complete
-- **TODO:** API key format validation (`sk-ant-` prefix check), sanitization, graceful corruption handling
+- API key format validation (`sk-ant-` prefix check), sanitization, graceful corruption handling
+- **Status:** Complete and hardened
 
 ### APUSH FRQ Grader (`js/apushGrader.js`)
 - Full rubric engine for DBQ, LEQ, SAQ
@@ -88,7 +121,29 @@ All banks deduped via `scripts/dedupeMCQ.mjs` — zero duplicates confirmed.
 - Study phase detection
 - Weekly game plan recommendations
 - Exam dates updated to correct 2026 CB schedule
-- **Status:** Functional, planner improvements TBD
+- **Status:** Complete
+
+### Scoring (`js/scoring.js`)
+- Per-subject AP score tables for all 12 subjects
+- `estimateAPScoreForSubject(subject, rawScore)` function
+- Converts raw MCQ + FRQ scores to projected 1–5 AP score
+- **Status:** Complete
+
+### Per-Section Timers (`js/subjects.js`)
+- `mcqTime` and `frqTime` fields on every subject entry
+- CB-accurate time limits per subject and section
+- Timer state tracked via `mcqTimeRemaining` / `frqTimeRemaining` in localStorage
+- **Status:** Complete
+
+---
+
+## Releases
+
+| Version | Description |
+|---------|-------------|
+| v2.0.0 | Full multi-subject launch — all 12 subjects live with MCQ + FRQ banks |
+| v2.0.1 | Practice tests — 12 full-length tests generated, flag-fixed, wired into app |
+| v2.0.2 | Per-section timers — CB-accurate mcqTime/frqTime per subject |
 
 ---
 
@@ -115,23 +170,33 @@ All banks deduped via `scripts/dedupeMCQ.mjs` — zero duplicates confirmed.
 
 ---
 
+## Key Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/generateQuestions.mjs` | Generate MCQ batches |
+| `scripts/generateFRQ.mjs` | Generate FRQ banks |
+| `scripts/generatePracticeTests.mjs` | Generate full-length practice tests |
+| `scripts/applyFlagFixes.mjs` | Fix flagged MCQ questions |
+| `scripts/applyTestFixes.mjs` | Fix flagged practice test questions |
+| `scripts/addFlaggedQuestions.mjs` | Inject flagged questions into test banks |
+| `scripts/dedupeMCQ.mjs` | Deduplicate MCQ banks |
+| `scripts/auditDuplicates.mjs` | Audit for cross-bank duplicates |
+| `scripts/countQuestions.mjs` | Count questions per subject/unit |
+
+---
+
 ## Remaining Tasks
 
-### 1. ~~FRQ Generation for new subjects~~ — COMPLETE
-### 2. ~~Flip `hasContent: true` for apgov, apcalcbc, apenviro~~ — COMPLETE
+All major tasks complete. No outstanding work items.
 
-### 3. AI Answer Explainer hardening (new chat)
-- API key format validation (`sk-ant-` prefix)
-- Sanitization and graceful corruption handling
-
-### 4. Planner tab improvements (new chat)
-
-### 5. Audit Agent + CB Content Watcher (new chat)
-- Audit Agent: Lambda + Bedrock + S3
-- CB Content Watcher: EventBridge + Lambda + SNS
-
-### 6. Build and ship (new chat)
-- Electron packaging and release
+### ~~1. FRQ Generation for new subjects~~ — COMPLETE
+### ~~2. Flip `hasContent: true` for apgov, apcalcbc, apenviro~~ — COMPLETE
+### ~~3. AI Answer Explainer hardening~~ — COMPLETE
+### ~~4. Planner tab improvements~~ — COMPLETE
+### ~~5. Audit Agent + CB Content Watcher~~ — NOT NEEDED
+### ~~6. Practice Tests~~ — COMPLETE (v2.0.1)
+### ~~7. Per-section timers~~ — COMPLETE (v2.0.2)
 
 ---
 

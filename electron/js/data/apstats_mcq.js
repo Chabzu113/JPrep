@@ -6186,7 +6186,7 @@ var APSTATS_MCQ = [
       "E) E(X+Y) = 8, Var(X+Y) = 169"
     ],
     "answer": 1,
-    "explanation": "For any two random variables: E(X+Y) = E(X) + E(Y) = 5 + 3 = 8. Because X and Y are independent, Var(X+Y) = Var(X) + Var(Y) = 4 + 9 = 13. Choice A adds standard deviations instead of variances: SD(X)+SD(Y) = 2+3 = 5, then perhaps halves — not a clean error; more likely it averages the variances: (4+9)/2 ≈ 6.5, rounded. Choice C takes the product of variances (4×9=36). Choice D multiplies the means instead of adding them (5×3=15). Choice E squares the sum of standard deviations: (2+3)² = 25 — note the original explanation's value of 169 is itself an error (it would be (SD(X)+SD(Y))² = 25, not 169); however the distractor label still serves as a recognizable wrong-method trap."
+    "explanation": "For any two random variables: E(X+Y) = E(X) + E(Y) = 5 + 3 = 8. Because X and Y are independent, Var(X+Y) = Var(X) + Var(Y) = 4 + 9 = 13. Choice A adds standard deviations instead of variances: SD(X)+SD(Y) = 2+3 = 5, then perhaps halves — not a clean error; more likely it averages the variances: (4+9)/2 ≈ 6.5, rounded. Choice C takes the product of variances (4×9=36). Choice D multiplies the means instead of adding them (5×3=15). Choice E incorrectly squares the sum of standard deviations: (SD(X)+SD(Y))² = (2+3)² = 25, not 169 — this distractor arises from adding standard deviations before squaring rather than adding variances directly."
   },
   {
     "id": "stats_u4_q087",
@@ -8873,8 +8873,8 @@ var APSTATS_MCQ = [
       "D) 12 is an outlier but 85 is not.",
       "E) There is not enough information to determine whether outliers exist."
     ],
-    "answer": 1,
-    "explanation": "IQR = Q3 - Q1 = 47 - 25 = 22. The lower fence is Q1 - 1.5(IQR) = 25 - 33 = -8, and the upper fence is Q3 + 1.5(IQR) = 47 + 33 = 80. Per the standard AP Stats convention, a value is an outlier only if it falls strictly beyond (not equal to) a fence. Since 12 > -8, the minimum is not an outlier. Since 85 > 80, the maximum is an outlier. Therefore, only 85 is an outlier, making choice A the correct answer. Choice B is wrong because 12 lies well within the lower fence of -8. Choice C is wrong because 85 clearly exceeds the upper fence of 80. Choice D reverses the result - 12 is not an outlier and 85 is. Choice E is wrong because the five-number summary provides all the information needed to apply the 1.5 × IQR rule."
+    "answer": 0,
+    "explanation": "IQR = Q3 - Q1 = 47 - 25 = 22. The lower fence is Q1 - 1.5(IQR) = 25 - 33 = -8, and the upper fence is Q3 + 1.5(IQR) = 47 + 33 = 80. Per the standard AP Stats convention, a value is an outlier only if it falls strictly beyond (not equal to) a fence. Since 12 > -8, the minimum is not an outlier. Since 85 > 80, the maximum is an outlier. Therefore, only 85 is an outlier, making choice A the correct answer. Choice B is wrong because 12 lies well within the lower fence of -8. Choice C is wrong because 85 clearly exceeds the upper fence of 80. Choice D reverses the result — 12 is not an outlier and 85 is. Choice E is wrong because the five-number summary provides all the information needed to apply the 1.5 × IQR rule."
   },
   {
     "id": "stats_u1_q221",
@@ -9736,27 +9736,6 @@ var APSTATS_MCQ = [
     ],
     "answer": 2,
     "explanation": "A binomial setting requires a fixed probability of success on each trial. Choice C states that the probability changes from trial to trial, which violates the binomial conditions. All other choices (A, B, D, E) are correct conditions for a binomial distribution."
-  },
-  {
-    "id": "stats_u4_q262",
-    "subject": "apstats",
-    "unit": 4,
-    "topic": "geometric distribution",
-    "topicLabel": "Geometric Distribution",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A discrete random variable X can take only the values 1, 2, 3, and 4 with the following probability distribution: P(X=1) = 0.2, P(X=2) = 0.3, P(X=3) = 0.1, P(X=4) = k. What is the value of k?",
-    "choices": [
-      "A) 0.25",
-      "B) 2",
-      "C) 4",
-      "D) 5",
-      "E) 25"
-    ],
-    "answer": 2,
-    "explanation": "For a geometric distribution, E(X) = 1/p = 1/0.25 = 4. A) 0.25 is just p itself. B) 2 may come from thinking the expected value is 1/(2p) or confusing with another formula. D) 5 may come from a miscalculation. E) 25 incorrectly computes 1/p^2 or confuses the formula."
   },
   {
     "id": "stats_u4_q263",
@@ -10931,8 +10910,8 @@ var APSTATS_MCQ = [
       "D) Because the researchers want to test whether the two variables are associated",
       "E) Because the total sample size of 450 is large enough for the chi-square approximation"
     ],
-    "answer": 0,
-    "explanation": "The key distinction between a chi-square test for homogeneity and a chi-square test for independence is the sampling method. A test for homogeneity is used when independent samples are drawn from separate populations (here, three schools) and the researcher compares the distribution of a categorical variable across those populations. Choice A correctly identifies that both variables are categorical with more than two levels, and red contributes the most to the chi-square statistic with a contribution of 3.75. Choice B describes a condition for validity, not a reason for choosing homogeneity over independence. Choice C describes the sampling design of a homogeneity test, but red contributes the most to the chi-square statistic with a contribution of 3.75. Choice D describes the goal of an independence test, not a homogeneity test. Choice E describes a general condition for chi-square tests, not a distinguishing feature of the homogeneity test."
+    "answer": 2,
+    "explanation": "The distinguishing feature of a chi-square test for homogeneity is the sampling design: independent random samples are drawn separately from each population being compared. Here, 150 students were independently sampled from each of three schools, so homogeneity is the appropriate test. Choice A is wrong because having two categorical variables with multiple levels is a feature shared by both homogeneity and independence tests — it does not distinguish between them. Choice B describes a validity condition (expected counts ≥ 5), not a reason for choosing one test type over the other. Choice D describes the goal of a test of independence, not homogeneity. Choice E describes a general condition for the chi-square approximation, not a distinguishing feature of the homogeneity test."
   },
   {
     "id": "stats_u8_q321",
@@ -11142,7 +11121,7 @@ var APSTATS_MCQ = [
       "E) There is convincing evidence that exactly one education group has a different distribution of exercise frequency than the others."
     ],
     "answer": 0,
-    "explanation": "Since a single sample was classified by two categorical variables, this is a chi-square test of independence. A p-value of 0.004 is less than any conventional significance level, so we reject the null hypothesis of independence and conclude there is an association. Choice B is wrong because chi-square tests cannot establish causation - this is an observational study. Choice C states the opposite conclusion (it describes failing to reject a homogeneity null). Choice D is incorrect because it uses a fabricated test statistic of 11.8 rather than the actual value of 15.3; the critical value of 12.592 corresponds to df=6 (a 3×3 table yields df=(3-1)(3-1)=4, though 12.592 is the critical value for df=6), and in any case the actual test statistic of 15.3 exceeds any standard critical value at α=0.05, so the null should be rejected. Choice E overstates what the test reveals - chi-square tests detect overall departures from independence but do not pinpoint which specific group differs."
+    "explanation": "Since a single sample was classified by two categorical variables, this is a chi-square test of independence. A p-value of 0.004 is less than any conventional significance level, so we reject the null hypothesis of independence and conclude there is an association. Choice B is wrong because chi-square tests cannot establish causation - this is an observational study. Choice C states the opposite conclusion (it describes failing to reject a homogeneity null). Choice D is incorrect because it uses a fabricated test statistic of 11.8 rather than the actual value of 15.3; for a 3×3 table, df=(3-1)(3-1)=4, and the correct critical value at α=0.05 is 9.488, not 12.592 (12.592 is the critical value for df=6). Moreover, the actual test statistic of 15.3 far exceeds 9.488, so the null hypothesis should be rejected. Choice E overstates what the test reveals - chi-square tests detect overall departures from independence but do not pinpoint which specific group differs."
   },
   {
     "id": "stats_u8_q331",
@@ -11586,27 +11565,6 @@ var APSTATS_MCQ = [
     "explanation": "The biologist suspects a negative association (higher temperature leads to lower oxygen), so the alternative should be one-sided with beta < 0. The hypotheses should reference the population parameter beta, not the sample statistic b. Choice A incorrectly uses the sample slope b. Choice B is a two-sided test that does not reflect the specific direction of her suspicion. Choice D tests in the wrong direction. Choice E reverses the null and alternative hypotheses."
   },
   {
-    "id": "stats_u9_q352",
-    "subject": "apstats",
-    "unit": 9,
-    "topic": "t-statistic for slope",
-    "topicLabel": "Relationship Between t-Statistic and Confidence Interval",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A 95% confidence interval for the slope of a regression line based on 12 observations is (-0.4, 3.2). Based on this interval, what conclusion would be reached for a two-sided test of H_0: beta = 0 at the alpha = 0.05 level?",
-    "choices": [
-      "A) Reject H_0 because the interval is mostly positive",
-      "B) Reject H_0 because the interval does not contain the slope estimate",
-      "C) We are 95% confident that the true mean increase in plant growth for each additional hour of sunlight is between 0.35 and 1.15 cm.",
-      "D) Reject H_0 because the interval is wide",
-      "E) Fail to reject H_0 because 12 observations is too few"
-    ],
-    "answer": 2,
-    "explanation": "A two-sided significance test at alpha = 0.05 and a 95% confidence interval lead to the same conclusion. Since 0 is contained in the interval (-0.4, 3.2), we fail to reject H_0 at the 0.05 level. There is not sufficient evidence that the slope differs from zero. Choice A incorrectly focuses on the proportion of positive values. Choice B is nonsensical since the interval always contains the slope estimate. Choice D confuses interval width with statistical significance. Choice E incorrectly claims the sample size is insufficient regardless of the data."
-  },
-  {
     "id": "stats_u9_q353",
     "subject": "apstats",
     "unit": 9,
@@ -11911,8 +11869,8 @@ var APSTATS_MCQ = [
       "D) Use a higher confidence level when constructing the confidence interval for the slope",
       "E) Transform the response variable y using a logarithmic transformation"
     ],
-    "answer": 2,
-    "explanation": "SE_b = s / sqrt(sum of (x_i - x_bar)^2). To reduce SE_b, we need to increase the denominator (spread of x-values) or decrease the numerator (residual variability). Increasing the sample size with more spread-out x-values increases sum of (x_i - x_bar)^2 substantially, directly reducing SE_b. Choice A increases n but sampling near x_bar keeps sum of (x_i - x_bar)^2 small, providing minimal reduction. Choice B increases spread of x but reducing n works against the goal, and fewer observations also affect s. Choice C is clearly incorrect because if all x-values are identical, sum of (x_i - x_bar)^2 = 0, making SE_b undefined and regression impossible. Choice D changes the width of the confidence interval through the critical value but does not change SE_b itself. Choice E might reduce s if the transformation improves the model fit, but this is indirect, not guaranteed, and changes the interpretation of the model entirely."
+    "answer": 1,
+    "explanation": "SE_b = s / sqrt(Σ(xi − x̄)²). To reduce SE_b, we need to increase the denominator by maximizing the spread of x-values. Choice B decreases sample size but selects x-values that are much more spread out, which can substantially increase Σ(xi − x̄)² and directly reduce SE_b — making it the best option among these choices. Choice A increases n but concentrates x-values near their mean, keeping Σ(xi − x̄)² small and providing minimal reduction in SE_b. Choice C is impossible: if all x-values are identical, Σ(xi − x̄)² = 0, making SE_b undefined and linear regression impossible. Choice D changes the critical value used when constructing the confidence interval but has no effect on SE_b itself. Choice E might reduce s if the transformation improves model fit, but this is indirect, not guaranteed, and changes the interpretation of the model entirely."
   },
   {
     "id": "stats_u9_q369",

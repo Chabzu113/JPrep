@@ -14,7 +14,7 @@ const SUBJECTS = [
     hasContent: true,
     mcqTime: 5400,
     frqTime: 5400,
-    dataFiles: ['APCSA_MCQ', 'FRQ_BANK'],
+    dataFiles: ['APCSA_MCQ', 'APCSA_FRQ'],
     testFiles: ['PRACTICE_TESTS', 'P1_CSA_TEST'],
     questionTypes: [
       { value: 'all', label: 'All' },

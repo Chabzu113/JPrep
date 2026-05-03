@@ -40,26 +40,6 @@ window.APENVIRO_MCQ = [
     "explanation": "Producers (plants and other photosynthetic organisms) occupy the first trophic level because they capture energy directly from the sun and form the base of the food chain. Herbivores occupy the second trophic level as primary consumers. Carnivores occupy higher trophic levels as secondary or tertiary consumers. Decomposers break down dead organic matter but are not considered part of the numbered trophic levels in the traditional food chain model."
   },
   {
-    "id": "enviro_u1_q008",
-    "subject": "apenviro",
-    "unit": 1,
-    "topic": "trophic levels",
-    "topicLabel": "Trophic Levels",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Which trophic level contains organisms that obtain energy by consuming plants?",
-    "choices": [
-      "A) Primary producers",
-      "B) Primary consumers",
-      "C) Secondary consumers",
-      "D) Tertiary consumers"
-    ],
-    "answer": 1,
-    "explanation": "Primary consumers are herbivores that feed directly on plants (primary producers), placing them at the second trophic level. Primary producers (A) are the plants themselves, which make their own energy through photosynthesis. Secondary consumers (C) eat primary consumers, not plants directly. Tertiary consumers (D) are at an even higher trophic level, feeding on secondary consumers."
-  },
-  {
     "id": "enviro_u1_q003",
     "subject": "apenviro",
     "unit": 1,
@@ -158,26 +138,6 @@ window.APENVIRO_MCQ = [
     ],
     "answer": 1,
     "explanation": "With fewer frogs, grasshoppers lose a major predator and their population increases (bottom-up release). Simultaneously, snakes lose their primary food source and their population declines. This is a classic trophic cascade effect. Option A is wrong because fewer frogs means fewer snakes, which means less food for hawks. Option C is partially true (grasshoppers will eat more grass) but does not represent the primary population-level outcome asked. Option D is incorrect because snakes are not adapted to efficiently prey on grasshoppers and this behavioral shift is not a reliable short-term ecological response."
-  },
-  {
-    "id": "enviro_u1_q008",
-    "subject": "apenviro",
-    "unit": 1,
-    "topic": "trophic levels",
-    "topicLabel": "Trophic Levels",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A grassland ecosystem contains 10,000 kcal of energy in its producers. Assuming a 10% energy transfer efficiency between each trophic level, how much energy is available to a tertiary consumer?",
-    "choices": [
-      "A) 1,000 kcal",
-      "B) 100 kcal",
-      "C) 10 kcal",
-      "D) 1 kcal"
-    ],
-    "answer": 2,
-    "explanation": "Using the 10% rule: Producers = 10,000 kcal → Primary consumers = 1,000 kcal → Secondary consumers = 100 kcal → Tertiary consumers = 10 kcal. A tertiary consumer is three trophic levels above producers, so energy is transferred three times. Option A represents energy at the primary consumer level (one transfer). Option B represents the secondary consumer level (two transfers). Option D would require a fourth energy transfer (quaternary consumer level)."
   },
   {
     "id": "enviro_u1_q009",
@@ -937,7 +897,7 @@ window.APENVIRO_MCQ = [
       "D) Both forests fix carbon at similar efficiencies because the difference between GPP and NPP in both ecosystems simply reflects seasonal variation in photosynthetic rates and is not indicative of actual carbon allocation differences."
     ],
     "answer": 1,
-    "explanation": "Option B is correct. The tropical rainforest has an NPP:GPP ratio of 6,000/12,000 = 0.50 (50%), while the temperate forest has an NPP:GPP ratio of 3,200/8,000 = 0.40 (40%). This means the tropical forest allocates a higher proportion of fixed carbon to net biomass gain rather than autotrophic respiration, AND it has higher absolute NPP, making it a stronger carbon sink by both measures. Option A is a trap: it misinterprets the ratio - a lower NPP:GPP ratio actually means MORE carbon is lost to respiration (60% in the temperate forest vs. 50% in the tropical), not less. Students often confuse which direction of the ratio indicates efficiency. Option C correctly identifies that the temperate forest has higher autotrophic respiration as a proportion of GPP, but incorrectly links this definitively to successional stage - mature forests do have high maintenance respiration, but this conclusion overreaches the data provided. Option D is incorrect because GPP minus NPP equals autotrophic respiration (Ra), which is a real physiological process reflecting metabolic costs, not seasonal variation; the two ecosystems clearly show different Ra proportions."
+    "explanation": "Option B is correct. The tropical rainforest has an NPP:GPP ratio of 6,000/12,000 = 0.50 (50%), while the temperate forest has an NPP:GPP ratio of 3,200/8,000 = 0.40 (40%). This means the tropical forest allocates a higher proportion of fixed carbon to net biomass gain rather than autotrophic respiration, AND it has higher absolute NPP, making it a stronger carbon sink by both measures. Option A correctly states the underlying math — the temperate forest's NPP is 40% of its GPP, meaning 60% is lost to autotrophic respiration — but draws the opposite conclusion from it. A lower NPP:GPP ratio indicates that more carbon is being respired away, not less; the temperate forest loses 60% of its fixed carbon to respiration while the tropical rainforest retains 50%, so the temperate forest is actually the less efficient carbon sink of the two. Option C correctly identifies that the temperate forest has higher autotrophic respiration as a proportion of GPP, but incorrectly links this definitively to successional stage — mature forests do have high maintenance respiration, but this conclusion overreaches the data provided. Option D is incorrect because GPP minus NPP equals autotrophic respiration (Ra), which is a real physiological process reflecting metabolic costs, not seasonal variation; the two ecosystems clearly show different Ra proportions."
   },
   {
     "id": "enviro_u2_q047",
@@ -958,66 +918,6 @@ window.APENVIRO_MCQ = [
     ],
     "answer": 1,
     "explanation": "A keystone species has a disproportionately large impact on ecosystem structure and function relative to its population size or biomass. Option A describes a dominant species, not a keystone species - keystone species are often not the most numerous. Option C describes an apex predator, which may or may not be a keystone species. Option D describes an endemic species, which is a separate ecological concept entirely."
-  },
-  {
-    "id": "enviro_u2_q048",
-    "subject": "apenviro",
-    "unit": 2,
-    "topic": "keystone species",
-    "topicLabel": "Keystone Species",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A keystone species is best described as a species that",
-    "choices": [
-      "A) is the most abundant species in an ecosystem",
-      "B) has a disproportionately large effect on its ecosystem relative to its biomass",
-      "C) can only survive in one specific type of habitat",
-      "D) produces the most energy at the base of the food chain"
-    ],
-    "answer": 1,
-    "explanation": "A keystone species is defined by its outsized influence on ecosystem structure relative to how common or large it is - classic examples include sea otters and wolves. Option A is incorrect because keystone species are often not the most numerous; abundance does not determine keystone status. Option C describes a specialist species, not a keystone species. Option D describes a primary producer or foundation species, not a keystone species."
-  },
-  {
-    "id": "enviro_u2_q056",
-    "subject": "apenviro",
-    "unit": 2,
-    "topic": "keystone species",
-    "topicLabel": "Keystone Species",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Which of the following best describes a keystone species?",
-    "choices": [
-      "A) A species that is the most abundant in its ecosystem",
-      "B) A species that has a disproportionately large effect on its ecosystem relative to its biomass",
-      "C) A species that occupies the highest trophic level in a food web",
-      "D) A species that was the first to colonize a new habitat"
-    ],
-    "answer": 1,
-    "explanation": "A keystone species is defined by its disproportionately large impact on ecosystem structure and function relative to how abundant or large its biomass is - for example, sea otters controlling sea urchin populations. Option A is incorrect because abundance does not determine keystone status; a dominant species is different from a keystone species. Option C confuses keystone species with apex predators, which are not always keystones. Option D describes a pioneer species involved in primary succession, not a keystone species."
-  },
-  {
-    "id": "enviro_u2_q048",
-    "subject": "apenviro",
-    "unit": 2,
-    "topic": "keystone species",
-    "topicLabel": "Keystone Species",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A keystone species is best described as a species that:",
-    "choices": [
-      "A) Has a disproportionately large effect on its ecosystem relative to its abundance",
-      "B) Is the most numerous species in an ecosystem",
-      "C) Occupies the highest trophic level in a food web",
-      "D) Is found only in one specific geographic location"
-    ],
-    "answer": 0,
-    "explanation": "A keystone species has a disproportionately large impact on its ecosystem relative to how abundant it is - removing it causes dramatic changes to ecosystem structure. Option B describes a dominant species, not a keystone species. Option C describes an apex predator, which may or may not be a keystone species. Option D describes an endemic species, which is a different concept entirely."
   },
   {
     "id": "enviro_u2_q049",
@@ -1158,26 +1058,6 @@ window.APENVIRO_MCQ = [
     ],
     "answer": 1,
     "explanation": "A keystone species is one whose removal causes dramatic ecosystem change disproportionate to its abundance or biomass. Sea otters control urchin populations, indirectly maintaining kelp forests. Option A is incorrect because sea otters and sea urchins are in a predator-prey relationship, not direct competition. Option C misapplies primary succession, which requires bare substrate with no soil; kelp forest decline is ecosystem degradation, not succession from bare rock. Option D misidentifies the mechanism - the intermediate disturbance hypothesis applies to physical disturbances, not predator-prey dynamics."
-  },
-  {
-    "id": "enviro_u2_q056",
-    "subject": "apenviro",
-    "unit": 2,
-    "topic": "species richness",
-    "topicLabel": "Species Richness",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Two forest plots of equal size are surveyed. Plot A has 10 species with 90% of individuals belonging to one species. Plot B has 10 species with individuals distributed evenly among all species. Which statement correctly compares these two plots?",
-    "choices": [
-      "A) Plot A has greater biodiversity because its dominant species indicates a healthy, stable ecosystem.",
-      "B) Both plots have equal biodiversity because they contain the same number of species.",
-      "C) Plot B has greater biodiversity because it has higher species evenness in addition to equal species richness.",
-      "D) Plot B has lower biodiversity because the even distribution means no species has a competitive advantage."
-    ],
-    "answer": 2,
-    "explanation": "Biodiversity includes both species richness (number of species) and species evenness (how evenly individuals are distributed). Both plots have equal richness (10 species), but Plot B has higher evenness, meaning its overall biodiversity index is greater. Option A incorrectly interprets dominance as a sign of health; high dominance by one species often reduces ecosystem resilience. Option B confuses richness with total biodiversity, ignoring evenness. Option D misapplies the concept of competitive advantage - evenness is a positive biodiversity metric, not a weakness."
   },
   {
     "id": "enviro_u2_q057",
@@ -2760,26 +2640,6 @@ window.APENVIRO_MCQ = [
     "explanation": "A wide base in an age structure diagram indicates a large proportion of young individuals. As this cohort ages and reproduces, the population will grow substantially - this is characteristic of a rapidly growing developing nation. Option B describes a column-shaped (stable) diagram where each age group is roughly equal. Option C describes an inverted pyramid or top-heavy diagram, indicating an aging population typical of low birth rate developed nations. Option D misinterprets the diagram - a wide base reflects many young people being born, not high youth mortality, which would actually produce a narrowing base over time."
   },
   {
-    "id": "enviro_u3_q137",
-    "subject": "apenviro",
-    "unit": 3,
-    "topic": "logistic growth",
-    "topicLabel": "Logistic Growth and Carrying Capacity",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A deer population in a forested reserve is currently at 80% of the habitat's carrying capacity. Which of the following best describes what will happen to the per capita growth rate and the total population size over the next several generations, assuming no major environmental changes?",
-    "choices": [
-      "A) Per capita growth rate will decline and total population size will continue to increase but at a slowing rate until it stabilizes near carrying capacity.",
-      "B) Per capita growth rate will remain constant because the population is still below carrying capacity, and total population size will increase exponentially.",
-      "C) Per capita growth rate will increase because greater population density stimulates reproduction, and total population size will overshoot carrying capacity permanently.",
-      "D) Per capita growth rate will decline and total population size will immediately decrease back toward 50% of carrying capacity, which is the point of maximum growth."
-    ],
-    "answer": 0,
-    "explanation": "In logistic growth, as a population approaches carrying capacity (K), the per capita growth rate declines due to increased intraspecific competition for limited resources. The total population still grows but at a slower rate until it stabilizes near K. Option B is wrong because exponential growth assumes unlimited resources and a constant per capita rate - that does not apply when the population is at 80% of K. Option C confuses density-dependent stimulation with density-dependent limitation; high density reduces, not increases, per capita growth. Option D is a common trap: while the maximum rate of population increase (not per capita rate) occurs at N = K/2, populations do not automatically retreat to that point - they continue rising toward K."
-  },
-  {
     "id": "enviro_u3_q138",
     "subject": "apenviro",
     "unit": 3,
@@ -4020,46 +3880,6 @@ window.APENVIRO_MCQ = [
     "explanation": "The correct answer is A. Normally, trade winds push warm surface water westward, allowing cold, nutrient-rich water to upwell along Peru's coast. During El Niño, trade winds weaken, warm water spreads eastward across the Pacific, and the Peruvian coast is covered by a deep layer of warm surface water. This warm layer increases thermal stratification - a sharp temperature gradient (thermocline) that acts as a physical barrier preventing cold, nutrient-rich deep water from rising into the euphotic (sunlit) zone. Without nutrients, phytoplankton populations collapse, and the entire marine food web suffers. Choice B is wrong because trade winds do not reverse during El Niño (that would be an extreme mischaracterization); they weaken, not reverse, and cold water is not actively driven away. Choice C is wrong because dilution of salinity by precipitation is not a recognized mechanism for reducing phytoplankton productivity during El Niño. Choice D is wrong because wave energy and sediment burial are not the mechanisms linking trade wind changes to reduced upwelling productivity."
   },
   {
-    "id": "enviro_u4_q200",
-    "subject": "apenviro",
-    "unit": 4,
-    "topic": "Coriolis effect",
-    "topicLabel": "Coriolis Effect & Ocean Currents",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Western boundary currents (such as the Gulf Stream) are significantly faster, narrower, and deeper than their eastern boundary counterparts. Which of the following best explains this asymmetry, known as western intensification?",
-    "choices": [
-      "A) The Coriolis effect is stronger at higher latitudes, and because western boundary currents flow poleward on the western side of ocean basins, they experience progressively stronger deflection that compresses and accelerates the current",
-      "B) The variation in the Coriolis effect with latitude (the beta effect) causes a buildup of water on the western side of ocean gyres, intensifying currents along the western boundary to maintain geostrophic balance",
-      "C) Prevailing westerly winds along western ocean boundaries directly push surface water poleward, concentrating kinetic energy into a narrow, fast current",
-      "D) Western boundary currents are intensified because continental landmasses on the western side of ocean basins act as physical barriers that funnel and accelerate water into a narrow channel"
-    ],
-    "answer": 1,
-    "explanation": "The correct answer is B. Western intensification is driven by the beta effect - the variation of the Coriolis parameter with latitude. As wind-driven gyres circulate, the change in the Coriolis force with latitude causes a net piling up of water on the western side of the ocean basin. This creates a steeper pressure gradient on the western boundary, which must be balanced by a faster, narrower, deeper geostrophic current (western intensification). Choice A is partially true in that the Coriolis effect increases with latitude, but this alone does not explain western intensification - the key is the latitudinal gradient of the Coriolis force (beta effect), not just its magnitude at any given latitude. This is a classic AP trap. Choice C is wrong because westerly winds blow on the poleward side of gyres (not along western boundaries specifically), and this mechanism does not explain why western boundaries are intensified relative to eastern ones. Choice D is wrong because continental geometry alone cannot explain the asymmetry - eastern boundary currents also have landmasses yet are slow and broad. The physics of the Coriolis gradient, not topography, drives western intensification."
-  },
-  {
-    "id": "enviro_u4_q201",
-    "subject": "apenviro",
-    "unit": 4,
-    "topic": "soil formation",
-    "topicLabel": "Soil Formation and Horizons",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A geologist examines a soil profile in a humid temperate forest and finds that the E horizon is unusually thick and the B horizon contains concentrated iron oxides and clay minerals. Which combination of processes best explains this profile?",
-    "choices": [
-      "A) Intense eluviation leaching silica and organics downward from the E horizon, with illuviation depositing iron and clay in the B horizon",
-      "B) Frost heaving in the E horizon causing physical disruption, while biological activity in the B horizon concentrates minerals through root uptake",
-      "C) Chemical weathering in the B horizon dissolving iron oxides upward into the E horizon, thinning the B horizon over time",
-      "D) Rapid mechanical weathering producing parent material that accumulates in the E horizon, slowing clay formation in the B horizon"
-    ],
-    "answer": 0,
-    "explanation": "The correct answer is A. A thick E horizon results from intense eluviation, the process by which water leaches silica, organic matter, and minerals downward, leaving behind a pale, depleted layer. The accumulated iron oxides and clay in the B horizon are the result of illuviation, where those leached materials are deposited. This is a classic podzolization process common in humid temperate forests. Choice B incorrectly attributes the E horizon's thickness to frost heaving, which is a physical process that disturbs soil but does not cause selective mineral depletion. Choice C reverses the actual direction of mineral movement - minerals move downward with percolating water, not upward. Choice D confuses mechanical weathering with soil horizon development; mechanical weathering breaks rock into parent material but does not selectively accumulate in the E horizon or explain clay concentration in the B horizon."
-  },
-  {
     "id": "enviro_u4_q202",
     "subject": "apenviro",
     "unit": 4,
@@ -4118,26 +3938,6 @@ window.APENVIRO_MCQ = [
     ],
     "answer": 1,
     "explanation": "During El Niño, the Walker Circulation weakens, causing trade winds to slow or reverse. Warm water that is normally piled up in the western Pacific migrates eastward toward South America. This deepens the thermocline in the eastern Pacific, which suppresses upwelling - the process that normally brings cold, nutrient-rich deep water to the surface. Without upwelling, phytoplankton and fish populations collapse, devastating fisheries like those off Peru. Meanwhile, Australia, Indonesia, and Southeast Asia lose their moisture source and experience severe drought. Option A is the opposite - it describes La Niña conditions. Option C is a misconception; upwelling does not increase during El Niño even with pressure changes, because the thermocline deepening prevents cold water from reaching the surface. Option D incorrectly states the thermocline shallows during El Niño - it actually deepens in the eastern Pacific, which is the key mechanism suppressing upwelling."
-  },
-  {
-    "id": "enviro_u4_q205",
-    "subject": "apenviro",
-    "unit": 4,
-    "topic": "soil formation",
-    "topicLabel": "Soil Formation & Horizons",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A soil scientist examines a soil profile in a humid temperate forest and finds that the E horizon is unusually thick and the B horizon is enriched with iron oxides and clay minerals. Which combination of processes best explains these observations?",
-    "choices": [
-      "A) Eluviation has leached minerals downward from the E horizon, and illuviation has deposited those materials in the B horizon.",
-      "B) Mechanical weathering has fragmented parent material in the E horizon, and biological activity has concentrated iron in the B horizon.",
-      "C) Humus accumulation in the E horizon has displaced minerals upward, and frost heaving has concentrated iron oxides in the B horizon.",
-      "D) Oxidation in the E horizon has dissolved iron, and compaction in the B horizon has trapped clay particles migrating from the O horizon."
-    ],
-    "answer": 0,
-    "explanation": "The correct answer is A. A thick E horizon results from eluviation - the washing out (leaching) of soluble minerals, organic matter, and fine particles downward by percolating water. Those leached materials, including iron oxides and clay, are then deposited by illuviation in the B (subsoil) horizon, causing its enrichment. Choice B is wrong because mechanical weathering does not selectively thicken the E horizon, and biological activity does not concentrate iron in the B horizon in this way. Choice C is a trap - humus accumulates in the O and A horizons, not the E horizon, and frost heaving does not concentrate iron oxides in the B horizon. Choice D confuses oxidation zones and misattributes clay movement from the O horizon, which is an organic layer, not a source of clay migration."
   },
   {
     "id": "enviro_u4_q206",
@@ -6600,26 +6400,6 @@ window.APENVIRO_MCQ = [
     "explanation": "Ground-level ozone is a secondary pollutant because it is not emitted directly into the atmosphere; it forms when nitrogen oxides and volatile organic compounds react in the presence of sunlight. Carbon monoxide, sulfur dioxide, and particulate matter from smokestacks are all primary pollutants because they are emitted directly from a source."
   },
   {
-    "id": "enviro_u7_q330",
-    "subject": "apenviro",
-    "unit": 7,
-    "topic": "thermal inversion",
-    "topicLabel": "Thermal Inversion",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "During a thermal inversion, air pollution near the ground worsens because",
-    "choices": [
-      "A) a warm air layer traps cooler air and pollutants near the surface",
-      "B) cool air rises rapidly, carrying pollutants high into the atmosphere",
-      "C) increased wind speeds mix pollutants throughout the troposphere",
-      "D) sunlight breaks down pollutants more slowly at night"
-    ],
-    "answer": 0,
-    "explanation": "In a thermal inversion, a layer of warm air sits above cooler air near the surface. Normally, warm air near the ground rises and disperses pollutants upward, but the warm layer acts as a cap that traps the cool air and its pollutants close to the ground. The other choices incorrectly describe normal atmospheric mixing or unrelated processes."
-  },
-  {
     "id": "enviro_u7_q331",
     "subject": "apenviro",
     "unit": 7,
@@ -7018,26 +6798,6 @@ window.APENVIRO_MCQ = [
     ],
     "answer": 1,
     "explanation": "Ground-level ozone is a secondary pollutant requiring sunlight for its formation. Morning rush-hour traffic releases NOx and VOCs, which accumulate in the atmosphere. As the sun rises and UV radiation intensifies through the morning and peaks in the early-to-mid afternoon, the photochemical reactions between these precursors accelerate, producing peak ozone concentrations in the afternoon. By evening, solar radiation weakens and ozone reacts with other compounds, causing concentrations to fall overnight. Choice A is incorrect because ozone is not emitted directly from vehicles - NOx and VOCs are, and they are precursors, not ozone itself. Choice C is a misconception; ozone does not condense at typical atmospheric temperatures - it remains a gas even at cold temperatures found near Earth's surface. Choice D is incorrect; manufacturing facilities do not emit ozone directly as a byproduct in significant quantities."
-  },
-  {
-    "id": "enviro_u7_q351",
-    "subject": "apenviro",
-    "unit": 7,
-    "topic": "primary vs secondary pollutants",
-    "topicLabel": "Primary vs Secondary Pollutants",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A city monitors air quality and detects elevated levels of nitrogen dioxide (NO2) that formed when nitric oxide (NO) reacted with oxygen in the atmosphere. Which of the following best describes NO2 in this scenario, and what is its classification?",
-    "choices": [
-      "A) NO2 is a secondary pollutant because it formed through atmospheric chemical reactions after NO was emitted.",
-      "B) NO2 is a primary pollutant because it is a nitrogen-based compound released directly from combustion engines.",
-      "C) NO2 is a secondary pollutant because it was emitted directly from vehicle exhaust without any transformation.",
-      "D) NO2 is a primary pollutant because it reacts with other compounds to form smog."
-    ],
-    "answer": 0,
-    "explanation": "NO2 is a secondary pollutant because it was not emitted directly from a source but formed in the atmosphere when primary pollutant NO reacted with oxygen. Choice B is wrong because NO2 in this scenario was formed via reaction, not emitted directly. Choice C incorrectly defines secondary pollutant as direct emission. Choice D confuses the role of NO2 in smog formation with its classification-participating in further reactions does not make something a primary pollutant."
   },
   {
     "id": "enviro_u7_q352",
@@ -9460,26 +9220,6 @@ window.APENVIRO_MCQ = [
     "explanation": "Albedo is the proportion of solar energy reflected by a surface. Sea ice is white and highly reflective (high albedo ~0.8-0.9), while open ocean water is dark and absorbs more energy (low albedo ~0.06). When ice melts and exposes ocean water, less sunlight is reflected and more is absorbed, contributing to further warming. This is also an example of a positive feedback loop. Students often confuse which surface has higher or lower albedo."
   },
   {
-    "id": "enviro_u9_q475",
-    "subject": "apenviro",
-    "unit": 9,
-    "topic": "invasive species",
-    "topicLabel": "Invasive Species",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Zebra mussels were introduced into the Great Lakes in the ballast water of cargo ships. They have since outcompeted native mussel species and drastically reduced phytoplankton populations. Which of the following best explains why zebra mussels are so successful in this new environment?",
-    "choices": [
-      "A) Zebra mussels reproduce more slowly than native species, allowing them to conserve resources",
-      "B) Zebra mussels have no natural predators or competitors in the Great Lakes to control their population",
-      "C) Zebra mussels require less oxygen than native species, giving them an advantage in hypoxic zones",
-      "D) Zebra mussels produce toxins that directly kill native mussel species"
-    ],
-    "answer": 1,
-    "explanation": "Invasive species like the zebra mussel thrive largely because they are introduced into ecosystems where native predators, parasites, and competitors that kept them in check in their native range do not exist. Without these natural population controls, zebra mussels reproduce rapidly and outcompete native species for food and habitat. Option A is incorrect - invasive species typically have high reproductive rates. Options C and D describe mechanisms not characteristic of zebra mussels and are common misconceptions students might find plausible."
-  },
-  {
     "id": "enviro_u9_q476",
     "subject": "apenviro",
     "unit": 9,
@@ -9800,26 +9540,6 @@ window.APENVIRO_MCQ = [
     "explanation": "Evaporation (C) is the process by which liquid water at the surface of lakes, oceans, and other bodies of water absorbs enough energy from the sun to convert into water vapor and enter the atmosphere. Transpiration (A) is a common misconception here because it also releases water vapor into the atmosphere, but it refers specifically to water released through the stomata of plant leaves, not from open water surfaces. Condensation (B) is the opposite process — it converts water vapor back into liquid water, forming clouds or dew. Infiltration (D) is the movement of water downward into soil and groundwater, which removes water from the surface rather than sending it into the atmosphere."
   },
   {
-    "id": "enviro_u1_q492",
-    "subject": "apenviro",
-    "unit": 1,
-    "topic": "Trophic Cascades and Food Webs",
-    "topicLabel": "Trophic Cascades and Food Webs",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "In a marine food web, large fish eat small fish, small fish eat zooplankton, zooplankton eat phytoplankton, and seabirds eat both small and large fish. If large fish are heavily overharvested, which of the following best describes the expected short-term changes to two other populations in this food web?",
-    "choices": [
-      "A) Small fish decrease; zooplankton increase",
-      "B) Small fish increase; seabirds decrease",
-      "C) Small fish increase; zooplankton decrease",
-      "D) Seabirds increase; zooplankton increase"
-    ],
-    "answer": 1,
-    "explanation": "When large fish are overharvested, small fish lose a major predator and their population increases (classic trophic cascade). Seabirds, which depend on both small and large fish as prey, lose a significant portion of their prey base with the removal of large fish. Although small fish increase, the net short-term effect is a reduction in total available prey biomass for seabirds, leading to a seabird population decline. Small fish and seabirds therefore move in opposite directions, making B the correct answer. Option A is incorrect because small fish would increase, not decrease, when their predator (large fish) is removed. Option C is a plausible distractor: while small fish do increase, increased small fish predation on zooplankton would cause zooplankton to decrease — this part is ecologically accurate — however, the question asks for the pair moving in opposite directions, and B is the more directly supported and complete answer based on the described food web. Option D is incorrect because seabirds lose large fish as prey and would not increase in the short term, and while zooplankton might eventually be affected through the cascade, the immediate effect of more small fish is decreased zooplankton, not increased."
-  },
-  {
     "id": "enviro_u1_q493",
     "subject": "apenviro",
     "unit": 1,
@@ -9878,26 +9598,6 @@ window.APENVIRO_MCQ = [
     ],
     "answer": 1,
     "explanation": "Option B is correct. When bare lava rock covers a landscape and destroys all soil and organic matter, the process of recolonization is called primary succession — it begins on a substrate with no soil and no remnant biological community. Pioneer species such as lichens and mosses are the first colonizers; they can survive on bare rock, tolerate harsh conditions, and help break down rock into soil over time. Some lichens harbor cyanobacteria capable of nitrogen fixation, making them important early contributors to soil nutrient development. Option A is incorrect because secondary succession occurs when a disturbance removes organisms but leaves soil intact — bare lava with no remaining soil does not qualify. Option C is incorrect because large trees are late-successional species that require established soil and cannot pioneer bare rock environments. Option D is incorrect for two reasons: bare lava rock left by a volcanic eruption has no remaining soil, ruling out secondary succession, and while lichens and mosses are indeed pioneer species, the classification as secondary succession is wrong in this context."
-  },
-  {
-    "id": "enviro_u1_q496",
-    "subject": "apenviro",
-    "unit": 1,
-    "topic": "Biogeochemical Cycles",
-    "topicLabel": "Biogeochemical Cycles",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "As global temperatures rise, which of the following represents a positive feedback mechanism that would most rapidly increase atmospheric CO2 concentrations in the short term?",
-    "choices": [
-      "A) Increased plant photosynthesis in warmer regions drawing down more atmospheric CO2.",
-      "B) Thawing of permafrost releasing stored organic carbon as CO2 through microbial decomposition.",
-      "C) An increase in ocean surface temperatures causing more CO2 to outgas from seawater into the atmosphere.",
-      "D) Melting of polar ice caps reducing the albedo of Earth's surface and absorbing more solar radiation."
-    ],
-    "answer": 1,
-    "explanation": "Option B is correct because permafrost contains vast quantities of ancient organic matter that has been frozen for thousands of years. As temperatures rise and permafrost thaws, microbial decomposition of this organic matter accelerates rapidly, releasing large amounts of CO2 (and methane) into the atmosphere in a relatively short timeframe. This constitutes a strong positive feedback loop: warming causes thawing, which releases greenhouse gases, which causes further warming. Option A is incorrect because while warmer temperatures can boost photosynthesis in some regions, this is a negative feedback (drawing CO2 down), not a positive one, and is offset by increased respiration and regional vegetation die-offs. Option C is incorrect because while ocean outgassing of CO2 is a real and scientifically valid phenomenon — warmer water holds less dissolved gas, so CO2 does outgas as oceans warm — this process operates on much longer timescales and contributes a smaller short-term pulse compared to the rapid decomposition of permafrost organic matter. It is a secondary, slower-acting mechanism in the context of near-term atmospheric CO2 spikes. Option D is incorrect because albedo reduction from melting ice is a positive feedback related to heat absorption, but it does not directly increase atmospheric CO2 concentrations."
   },
   {
     "id": "enviro_u1_q497",
@@ -12258,45 +11958,5 @@ window.APENVIRO_MCQ = [
     ],
     "answer": 1,
     "explanation": "The correct answer is B. Ocean acidification occurs when CO2 dissolves in seawater to form carbonic acid, which dissociates and lowers pH while reducing carbonate ion (CO3 2-) concentrations. Corals and other calcifying organisms require carbonate ions to build calcium carbonate (aragonite) skeletons; reduced availability impairs calcification, weakens reef structure, and reduces biodiversity. Option A is incorrect because lower pH does not increase dissolved oxygen solubility — in fact, warmer waters associated with climate change reduce oxygen solubility, and pH reduction does not directly cause hypoxic stress via this mechanism. Option C is incorrect because although the first part accurately describes impaired calcification, the claim that structural degradation increases light penetration in a way that stimulates seagrass growth and compensates for biodiversity loss is ecologically inaccurate and misleading — reef degradation does not produce a compensatory seagrass benefit that offsets biodiversity loss, and this chain of consequences misrepresents reef ecology. Option D is incorrect because while carbonic acid concentrations do rise with acidification, the mechanism of interfering with coral respiratory enzymes is not the established primary harm; the accepted mechanism is carbonate ion depletion impairing calcification, not direct enzymatic toxicity from carbonic acid. The second part of D, while plausible-sounding, describes a secondary nutrient-cycling consequence that is not the primary or well-supported ecological outcome."
-  },
-  {
-    "id": "enviro_u9_q615",
-    "subject": "apenviro",
-    "unit": 9,
-    "topic": "Ocean Acidification",
-    "topicLabel": "Ocean Acidification",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A student claims that a decrease in ocean pH from 8.2 to 8.1 since the Industrial Revolution is too small to have meaningful biological effects. Which of the following best refutes this argument AND identifies a well-documented secondary consequence of this change?",
-    "choices": [
-      "A) Because pH is a logarithmic scale, a 0.1 unit decrease represents approximately a 26% increase in hydrogen ion concentration, which reduces carbonate ion availability and impairs the ability of organisms such as corals and mollusks to form calcium carbonate shells.",
-      "B) Because pH is a logarithmic scale, a 0.1 unit decrease represents a 10-fold increase in hydrogen ion concentration, which is sufficient to directly dissolve existing coral reef structures within decades.",
-      "C) Although the 0.1 unit change appears small, it represents roughly a 20-30% increase in hydrogen ion concentration, which primarily affects ocean acidification by accelerating the evaporation of dissolved CO2 back into the atmosphere, reducing the ocean's role as a carbon sink.",
-      "D) Because pH is a logarithmic scale, a 0.1 unit decrease represents approximately a 26% increase in hydrogen ion concentration, which impairs sensory and behavioral function in fish by disrupting CO2 gradients across gill membranes, reducing their ability to detect predators."
-    ],
-    "answer": 0,
-    "explanation": "Option A is correct. The pH scale is logarithmic (base 10), so a 0.1 unit decrease corresponds to 10^0.1 ≈ 1.26, meaning approximately a 26% increase in hydrogen ion concentration — not a trivial change despite the small numerical difference. This increased acidity shifts the carbonate equilibrium, reducing carbonate ion (CO3^2-) availability. Since marine calcifiers like corals, oysters, and pteropods rely on carbonate ions to build calcium carbonate (CaCO3) structures, this is a well-established and ecologically significant secondary consequence. Option B is incorrect on two counts: a 0.1 pH unit change is NOT a 10-fold increase (that would require a full 1.0 unit change), and existing coral structures do not dissolve on that simple timeline — the primary documented harm is reduced calcification rates, not rapid dissolution. Option C correctly states the ~26% increase in hydrogen ion concentration, but the secondary consequence is fabricated and scientifically backward: increased acidity does not accelerate CO2 evaporation — in fact, ocean acidification is caused by CO2 absorption, and a more acidic ocean actually has a reduced capacity to absorb additional CO2, not through evaporation but through shifts in carbonate chemistry equilibrium. This makes C a strong distractor requiring careful reading to eliminate. Option D correctly states the ~26% increase in hydrogen ion concentration, and the secondary consequence (disrupted CO2 gradients across fish gill membranes impairing sensory/behavioral function) is a real and documented effect of acidification. However, A is the superior answer because the carbonate chemistry impact on calcifying organisms is more directly and definitively linked to the change in carbonate ion availability driven by the specific pH shift described, and represents the most tested and central consequence in AP Environmental Science curriculum. D's mechanism, while real, is more physiologically indirect and less tied to the carbonate equilibrium chemistry that is the primary driver of harm at this pH range."
-  },
-  {
-    "id": "enviro_u9_q616",
-    "subject": "apenviro",
-    "unit": 9,
-    "topic": "Cap-and-Trade and Market-Based Emissions Policies",
-    "topicLabel": "Cap-and-Trade and Market-Based Emissions Policies",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A regional cap-and-trade program covers both heavy industry and the transportation sector. The total cap is set at 500 million tons of CO2 per year. In Year 1 and Year 2, heavy industry uses nearly all of its allocated permits. In Year 3, heavy industry adopts a breakthrough carbon capture technology that sharply reduces its emissions, leaving it with a large surplus of permits. The program allows permit banking. Which of the following best describes the most likely market outcome in Year 3?",
-    "choices": [
-      "A) Heavy industry will sell its surplus permits to the transportation sector; the increased permit supply drives down permit prices, and the transportation sector expands operations while total emissions remain at or below the 500 million ton cap.",
-      "B) Heavy industry will sell some permits but bank the rest for future compliance flexibility; this banking behavior means the transportation sector acquires only partial relief, and total emissions in Year 3 remain at but do not exceed the 500 million ton cap.",
-      "C) Because heavy industry no longer needs its permits, the permit price will rise sharply as transportation companies compete for a now-scarcer supply of available permits.",
-      "D) The cap-and-trade program will automatically reduce the cap below 500 million tons in Year 3 to reflect heavy industry's lower emissions, preventing any permit trading from occurring."
-    ],
-    "answer": 0,
-    "explanation": "Answer A is correct. When heavy industry's marginal abatement cost drops below the current permit price due to the new technology, profit-maximizing firms are incentivized to sell their surplus permits rather than hold them. This increases the supply of permits available on the market, which drives permit prices down. The transportation sector, facing lower permit prices, can acquire permits more affordably and expand or maintain operations. Crucially, total emissions are still constrained by the 500 million ton cap — the cap-and-trade system ensures that the sum of all permits held and used cannot exceed the cap, so environmental integrity is preserved even as the market becomes more efficient. Answer B is incorrect because while banking is a legal and common strategy, it does not negate the profit motive: when permit prices exceed a firm's marginal abatement cost, the rational economic choice is to sell, not bank. Banking is most attractive when a firm expects future permit prices to rise or anticipates needing permits later — but the question describes a breakthrough technology that permanently lowers emissions, making selling the dominant strategy. B is plausible but does not reflect the most likely outcome given the profit incentive described. Answer C is incorrect because it reverses the supply-and-demand logic: heavy industry's surplus increases the supply of permits available for sale, which would decrease permit prices, not increase them. A price spike would occur if supply fell or demand surged, neither of which is described here. Answer D is incorrect because cap-and-trade programs do not automatically adjust the cap in response to individual firm behavior. The cap is set by regulators through a separate policy process and is not triggered by technological changes at the firm level. Automatic cap reductions would undermine the market-based structure of the program."
   }
 ];

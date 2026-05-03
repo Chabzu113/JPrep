@@ -228,25 +228,6 @@ var APSTATS_MCQ = [
     "explanation": "Spread is affected by multiplication and division.\n\n💡 Multiply/Divide affects BOTH center and spread."
   },
   {
-    "id": "stats_u1_013",
-    "subject": "apstats",
-    "unit": 1,
-    "topic": "Percentiles",
-    "topicLabel": "Percentiles",
-    "difficulty": "medium",
-    "source": "Generated",
-    "question": "You are in the 72nd percentile for height. What does this mean?",
-    "choices": [
-      "Taller than 72%",
-      "72% are taller",
-      "72 inches tall",
-      "Shorter than 28%",
-      "Both A and D"
-    ],
-    "answer": 4,
-    "explanation": "Percentile is the percent at or below a value.\n\n💡 72% below you means 28% above you."
-  },
-  {
     "id": "stats_u1_014",
     "subject": "apstats",
     "unit": 1,
@@ -264,25 +245,6 @@ var APSTATS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Mean: (50*2)+5 = 105. SD: 10*2 = 20.\n\n💡 SD is not affected by the '+5'."
-  },
-  {
-    "id": "stats_u1_015",
-    "subject": "apstats",
-    "unit": 1,
-    "topic": "Symmetry and Skew",
-    "topicLabel": "Symmetry and Skew",
-    "difficulty": "medium",
-    "source": "Generated",
-    "question": "A distribution is perfectly symmetric. Which is most likely true?",
-    "choices": [
-      "Range = IQR",
-      "Mean = Median",
-      "No outliers",
-      "SD = 0",
-      "Bell-shaped"
-    ],
-    "answer": 1,
-    "explanation": "In symmetric distributions, the center is the same for both mean and median.\n\n💡 Uniform distributions are symmetric but not bell-shaped."
   },
   {
     "id": "stats_u1_016",
@@ -1539,25 +1501,6 @@ var APSTATS_MCQ = [
     "explanation": "We can't tell if the weight loss was the pill or the exercise.\n\n💡 Confounding variables 'confuse' the results."
   },
   {
-    "id": "stats_u3_023",
-    "subject": "apstats",
-    "unit": 3,
-    "topic": "Binomial Probability",
-    "topicLabel": "Binomial Probability",
-    "difficulty": "hard",
-    "source": "Generated",
-    "question": "80% germination rate. Plant 10 seeds, probability exactly 9 germinate?",
-    "choices": [
-      "0.800",
-      "0.107",
-      "0.268",
-      "0.375",
-      "0.080"
-    ],
-    "answer": 2,
-    "explanation": "P(X=9) for binomial n=10, p=0.8.\n\n💡 TI-84: binompdf(10, 0.8, 9) ≈ 0.268."
-  },
-  {
     "id": "stats_u3_024",
     "subject": "apstats",
     "unit": 3,
@@ -1805,25 +1748,6 @@ var APSTATS_MCQ = [
     "explanation": "If temp changes for only one group, we won't know if temp or treatment caused the effect.\n\n💡 This is the 'Control' pillar of design."
   },
   {
-    "id": "stats_u3_037",
-    "subject": "apstats",
-    "unit": 3,
-    "topic": "Stratified vs Cluster Detail",
-    "topicLabel": "Stratified vs Cluster Detail",
-    "difficulty": "hard",
-    "source": "Generated",
-    "question": "Surveying some people from every classroom in a school is:",
-    "choices": [
-      "Stratified",
-      "Cluster",
-      "Convenience",
-      "SRS",
-      "Census"
-    ],
-    "answer": 0,
-    "explanation": "Every classroom (stratum) is guaranteed to be represented.\n\n💡 Stratified = Homogeneous groups; pick a few from each."
-  },
-  {
     "id": "stats_u3_038",
     "subject": "apstats",
     "unit": 3,
@@ -1841,25 +1765,6 @@ var APSTATS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Larger samples are more precise but don't fix a fundamentally biased method.\n\n💡 Large samples can't fix bad design (bias)."
-  },
-  {
-    "id": "stats_u3_039",
-    "subject": "apstats",
-    "unit": 3,
-    "topic": "Blinding Purpose",
-    "topicLabel": "Blinding Purpose",
-    "difficulty": "hard",
-    "source": "Generated",
-    "question": "Why use double-blinding?",
-    "choices": [
-      "Balanced size",
-      "Eliminate placebo",
-      "Prevent researcher influence",
-      "Help randomization",
-      "Make it observational"
-    ],
-    "answer": 2,
-    "explanation": "Observers might subconsciously see what they want to see if not blinded.\n\n💡 Observer bias is real!"
   },
   {
     "id": "stats_u3_040",
@@ -2869,25 +2774,6 @@ var APSTATS_MCQ = [
     "explanation": "The mean of the difference is the difference of the means. 0.7 - 0.5 = 0.2.\n\n💡 Means of differences are easy; SDs of differences are hard."
   },
   {
-    "id": "stats_u5_018",
-    "subject": "apstats",
-    "unit": 5,
-    "topic": "Estimator Comparison",
-    "topicLabel": "Estimator Comparison",
-    "difficulty": "hard",
-    "source": "Generated",
-    "question": "Between Statistic A (Mean: 50, SD: 5) and Statistic B (Mean: 52, SD: 2), which is better to estimate a population parameter of 50?",
-    "choices": [
-      "A, because it is unbiased.",
-      "B, because it has lower variability.",
-      "A, because it is unbiased and the variability is acceptable.",
-      "B, because being close with low variability is better than being centered with high variability.",
-      "Both are equally good."
-    ],
-    "answer": 0,
-    "explanation": "In AP Stats, we generally prefer an unbiased estimator because over many samples, it will correctly estimate the truth, whereas Statistic B is systematically wrong (biased).\n\n💡 Look for 'unbiased' first when choosing an estimator."
-  },
-  {
     "id": "stats_u5_019",
     "subject": "apstats",
     "unit": 5,
@@ -2905,25 +2791,6 @@ var APSTATS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Larger 'n' makes the sampling distribution narrower (smaller SD). This 'squeezes' more of the probability area toward the center (mu).\n\n💡 Larger samples are 'tighter' around the true mean."
-  },
-  {
-    "id": "stats_u5_020",
-    "subject": "apstats",
-    "unit": 5,
-    "topic": "Small Sample Mean Distributions",
-    "topicLabel": "Small Sample Mean Distributions",
-    "difficulty": "hard",
-    "source": "Generated",
-    "question": "A population is strongly skewed to the left. A researcher takes many samples of size n = 5 and plots the means. What is the shape of this distribution of means?",
-    "choices": [
-      "Approximately Normal",
-      "Symmetric",
-      "Skewed to the left",
-      "Skewed to the right",
-      "Uniform"
-    ],
-    "answer": 2,
-    "explanation": "Since n=5 is small (less than 30), the Central Limit Theorem hasn't fully 'kicked in' to normalize the shape. The sampling distribution will still inherit some of the population's skew.\n\n💡 If n < 30 and the population is skewed, the sampling distribution is still skewed."
   },
   {
     "id": "stats_u6_001",
@@ -3380,25 +3247,6 @@ var APSTATS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Since the interval includes 0, it is plausible that there is zero difference between the two proportions.\n\n💡 Interval crossing 0 = Fail to Reject H0: p1 = p2."
-  },
-  {
-    "id": "stats_u6_025",
-    "subject": "apstats",
-    "unit": 6,
-    "topic": "Power and Truth",
-    "topicLabel": "Power and Truth",
-    "difficulty": "hard",
-    "source": "Generated",
-    "question": "If the null hypothesis is actually true, what is the Power of the test?",
-    "choices": [
-      "alpha",
-      "1 - alpha",
-      "0",
-      "1",
-      "Power is not defined if the null is true."
-    ],
-    "answer": 4,
-    "explanation": "Power is specifically the probability of rejecting the null *given that the alternative is true*. If the null is true, the probability of rejecting is simply alpha (Type I error).\n\n💡 Power only exists in the 'Alternative World'."
   },
   {
     "id": "stats_u6_026",
@@ -6186,28 +6034,7 @@ var APSTATS_MCQ = [
       "E) E(X+Y) = 8, Var(X+Y) = 169"
     ],
     "answer": 1,
-    "explanation": "For any two random variables: E(X+Y) = E(X) + E(Y) = 5 + 3 = 8. Because X and Y are independent, Var(X+Y) = Var(X) + Var(Y) = 4 + 9 = 13. Choice A adds standard deviations instead of variances: SD(X)+SD(Y) = 2+3 = 5, then perhaps halves — not a clean error; more likely it averages the variances: (4+9)/2 ≈ 6.5, rounded. Choice C takes the product of variances (4×9=36). Choice D multiplies the means instead of adding them (5×3=15). Choice E squares the sum of standard deviations: (2+3)² = 25 — note the original explanation's value of 169 is itself an error (it would be (SD(X)+SD(Y))² = 25, not 169); however the distractor label still serves as a recognizable wrong-method trap."
-  },
-  {
-    "id": "stats_u4_q087",
-    "subject": "apstats",
-    "unit": 4,
-    "topic": "sample space",
-    "topicLabel": "Sample Space",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A bag contains 3 red, 2 blue, and 1 green marble. Two marbles are drawn without replacement. A student claims the sample space has 9 equally likely outcomes because each draw has 3 possible colors. Which statement best explains the flaw in this reasoning?",
-    "choices": [
-      "A) The sample space ignores that outcomes are not equally likely when sampling without replacement, and the actual sample space should list individual marble pairs, not color pairs.",
-      "B) The sample space should only include outcomes where both marbles are the same color, reducing the total count.",
-      "C) The student should multiply 3 colors by 2 draws to get 6 outcomes, not 9.",
-      "D) The sample space is correct because color is the relevant characteristic and there are 3 colors on each draw.",
-      "E) The sample space should use combinations, giving C(6,2) = 15, but all 15 outcomes are equally likely."
-    ],
-    "answer": 0,
-    "explanation": "The flaw is that using color categories creates unequal probabilities — for example, drawing 'red then blue' is more likely than 'green then blue' because there are more red marbles. A valid equally-likely sample space must distinguish individual marbles (e.g., R1, R2, R3, B1, B2, G1), giving ordered pairs without replacement. Choice B is wrong because same-color outcomes are a subset. Choice C applies a wrong operation. Choice D incorrectly asserts the outcomes are equally likely. Choice E correctly identifies 15 as the count of unordered pairs from 6 distinct marbles, but those 15 outcomes ARE equally likely — however this choice mislabels them as 'combinations' without recognizing the original error in using colors rather than individuals."
+    "explanation": "For any two random variables: E(X+Y) = E(X) + E(Y) = 5 + 3 = 8. Because X and Y are independent, Var(X+Y) = Var(X) + Var(Y) = 4 + 9 = 13. Choice A adds standard deviations instead of variances: SD(X)+SD(Y) = 2+3 = 5, then perhaps halves — not a clean error; more likely it averages the variances: (4+9)/2 ≈ 6.5, rounded. Choice C takes the product of variances (4×9=36). Choice D multiplies the means instead of adding them (5×3=15). Choice E incorrectly squares the sum of standard deviations: (SD(X)+SD(Y))² = (2+3)² = 25, not 169 — this distractor arises from adding standard deviations before squaring rather than adding variances directly."
   },
   {
     "id": "stats_u4_q088",
@@ -8873,8 +8700,8 @@ var APSTATS_MCQ = [
       "D) 12 is an outlier but 85 is not.",
       "E) There is not enough information to determine whether outliers exist."
     ],
-    "answer": 1,
-    "explanation": "IQR = Q3 - Q1 = 47 - 25 = 22. The lower fence is Q1 - 1.5(IQR) = 25 - 33 = -8, and the upper fence is Q3 + 1.5(IQR) = 47 + 33 = 80. Per the standard AP Stats convention, a value is an outlier only if it falls strictly beyond (not equal to) a fence. Since 12 > -8, the minimum is not an outlier. Since 85 > 80, the maximum is an outlier. Therefore, only 85 is an outlier, making choice A the correct answer. Choice B is wrong because 12 lies well within the lower fence of -8. Choice C is wrong because 85 clearly exceeds the upper fence of 80. Choice D reverses the result - 12 is not an outlier and 85 is. Choice E is wrong because the five-number summary provides all the information needed to apply the 1.5 × IQR rule."
+    "answer": 0,
+    "explanation": "IQR = Q3 - Q1 = 47 - 25 = 22. The lower fence is Q1 - 1.5(IQR) = 25 - 33 = -8, and the upper fence is Q3 + 1.5(IQR) = 47 + 33 = 80. Per the standard AP Stats convention, a value is an outlier only if it falls strictly beyond (not equal to) a fence. Since 12 > -8, the minimum is not an outlier. Since 85 > 80, the maximum is an outlier. Therefore, only 85 is an outlier, making choice A the correct answer. Choice B is wrong because 12 lies well within the lower fence of -8. Choice C is wrong because 85 clearly exceeds the upper fence of 80. Choice D reverses the result — 12 is not an outlier and 85 is. Choice E is wrong because the five-number summary provides all the information needed to apply the 1.5 × IQR rule."
   },
   {
     "id": "stats_u1_q221",
@@ -9402,48 +9229,6 @@ var APSTATS_MCQ = [
     "explanation": "The slope of -2.7 means that for each additional absence, the predicted final exam score decreases by 2.7 points. Choice B is incomplete and nonsensical. Choice C confuses the slope with the intercept. Choice D reverses the roles of x and y. Choice E incorrectly states percentage rather than points. The phrase 'on average' or 'predicted' is important for proper interpretation."
   },
   {
-    "id": "stats_u2_q246",
-    "subject": "apstats",
-    "unit": 2,
-    "topic": "residual plots",
-    "topicLabel": "Residual Plots",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "After fitting a linear regression model to a data set, a statistician examines the residual plot and notices a clear U-shaped pattern with residuals negative for small and large x-values but positive for middle x-values. What does this pattern suggest?",
-    "choices": [
-      "A) The linear model is appropriate and the residuals confirm a good fit.",
-      "B) The data have a nonlinear relationship that the linear model fails to capture.",
-      "C) There is an influential point that is distorting the regression line.",
-      "D) The variability of the response variable is not constant across x-values.",
-      "E) The correlation between x and y is close to zero."
-    ],
-    "answer": 1,
-    "explanation": "A U-shaped pattern in a residual plot indicates that a linear model is not appropriate and that the true relationship between the variables is nonlinear. When residuals are negative at small and large x-values but positive in the middle, the data follow a curved trend that the straight regression line systematically misses. Choice A is incorrect because a well-fitting linear model produces residuals that are randomly scattered with no discernible pattern. Choice C is incorrect because a single influential point shifts or tilts the regression line but does not produce a consistent U-shaped pattern across all x-values. Choice D describes heteroscedasticity, which appears as a fan or funnel shape in the residual plot, not a U-shape. Choice E is incorrect because a curved relationship can still produce a moderate or even strong correlation value."
-  },
-  {
-    "id": "stats_u2_q247",
-    "subject": "apstats",
-    "unit": 2,
-    "topic": "coefficient of determination",
-    "topicLabel": "Coefficient of Determination",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A regression analysis of the relationship between hours of exercise per week and resting heart rate yields r-squared = 0.64. Which of the following is the best interpretation of this value?",
-    "choices": [
-      "A) 64% of the variation in resting heart rate is explained by the linear relationship with hours of exercise per week.",
-      "B) 64% of the data points fall on the regression line.",
-      "C) The correlation between hours of exercise and resting heart rate is 0.64.",
-      "D) 64% of the time, the regression line correctly predicts resting heart rate.",
-      "E) There is a 64% chance that the linear model is correct."
-    ],
-    "answer": 0,
-    "explanation": "The coefficient of determination (r-squared) represents the proportion of variation in the response variable that is explained by the linear relationship with the explanatory variable. Choice B is wrong because r-squared does not measure the percentage of points on the line. Choice C confuses r-squared with r (the correlation would be approximately 0.8 or -0.8). Choice D misinterprets r-squared as a prediction accuracy rate. Choice E gives a probability interpretation that is not valid for r-squared."
-  },
-  {
     "id": "stats_u2_q248",
     "subject": "apstats",
     "unit": 2,
@@ -9736,27 +9521,6 @@ var APSTATS_MCQ = [
     ],
     "answer": 2,
     "explanation": "A binomial setting requires a fixed probability of success on each trial. Choice C states that the probability changes from trial to trial, which violates the binomial conditions. All other choices (A, B, D, E) are correct conditions for a binomial distribution."
-  },
-  {
-    "id": "stats_u4_q262",
-    "subject": "apstats",
-    "unit": 4,
-    "topic": "geometric distribution",
-    "topicLabel": "Geometric Distribution",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A discrete random variable X can take only the values 1, 2, 3, and 4 with the following probability distribution: P(X=1) = 0.2, P(X=2) = 0.3, P(X=3) = 0.1, P(X=4) = k. What is the value of k?",
-    "choices": [
-      "A) 0.25",
-      "B) 2",
-      "C) 4",
-      "D) 5",
-      "E) 25"
-    ],
-    "answer": 2,
-    "explanation": "For a geometric distribution, E(X) = 1/p = 1/0.25 = 4. A) 0.25 is just p itself. B) 2 may come from thinking the expected value is 1/(2p) or confusing with another formula. D) 5 may come from a miscalculation. E) 25 incorrectly computes 1/p^2 or confuses the formula."
   },
   {
     "id": "stats_u4_q263",
@@ -10931,8 +10695,8 @@ var APSTATS_MCQ = [
       "D) Because the researchers want to test whether the two variables are associated",
       "E) Because the total sample size of 450 is large enough for the chi-square approximation"
     ],
-    "answer": 0,
-    "explanation": "The key distinction between a chi-square test for homogeneity and a chi-square test for independence is the sampling method. A test for homogeneity is used when independent samples are drawn from separate populations (here, three schools) and the researcher compares the distribution of a categorical variable across those populations. Choice A correctly identifies that both variables are categorical with more than two levels, and red contributes the most to the chi-square statistic with a contribution of 3.75. Choice B describes a condition for validity, not a reason for choosing homogeneity over independence. Choice C describes the sampling design of a homogeneity test, but red contributes the most to the chi-square statistic with a contribution of 3.75. Choice D describes the goal of an independence test, not a homogeneity test. Choice E describes a general condition for chi-square tests, not a distinguishing feature of the homogeneity test."
+    "answer": 2,
+    "explanation": "The distinguishing feature of a chi-square test for homogeneity is the sampling design: independent random samples are drawn separately from each population being compared. Here, 150 students were independently sampled from each of three schools, so homogeneity is the appropriate test. Choice A is wrong because having two categorical variables with multiple levels is a feature shared by both homogeneity and independence tests — it does not distinguish between them. Choice B describes a validity condition (expected counts ≥ 5), not a reason for choosing one test type over the other. Choice D describes the goal of a test of independence, not homogeneity. Choice E describes a general condition for the chi-square approximation, not a distinguishing feature of the homogeneity test."
   },
   {
     "id": "stats_u8_q321",
@@ -11142,7 +10906,7 @@ var APSTATS_MCQ = [
       "E) There is convincing evidence that exactly one education group has a different distribution of exercise frequency than the others."
     ],
     "answer": 0,
-    "explanation": "Since a single sample was classified by two categorical variables, this is a chi-square test of independence. A p-value of 0.004 is less than any conventional significance level, so we reject the null hypothesis of independence and conclude there is an association. Choice B is wrong because chi-square tests cannot establish causation - this is an observational study. Choice C states the opposite conclusion (it describes failing to reject a homogeneity null). Choice D is incorrect because it uses a fabricated test statistic of 11.8 rather than the actual value of 15.3; the critical value of 12.592 corresponds to df=6 (a 3×3 table yields df=(3-1)(3-1)=4, though 12.592 is the critical value for df=6), and in any case the actual test statistic of 15.3 exceeds any standard critical value at α=0.05, so the null should be rejected. Choice E overstates what the test reveals - chi-square tests detect overall departures from independence but do not pinpoint which specific group differs."
+    "explanation": "Since a single sample was classified by two categorical variables, this is a chi-square test of independence. A p-value of 0.004 is less than any conventional significance level, so we reject the null hypothesis of independence and conclude there is an association. Choice B is wrong because chi-square tests cannot establish causation - this is an observational study. Choice C states the opposite conclusion (it describes failing to reject a homogeneity null). Choice D is incorrect because it uses a fabricated test statistic of 11.8 rather than the actual value of 15.3; for a 3×3 table, df=(3-1)(3-1)=4, and the correct critical value at α=0.05 is 9.488, not 12.592 (12.592 is the critical value for df=6). Moreover, the actual test statistic of 15.3 far exceeds 9.488, so the null hypothesis should be rejected. Choice E overstates what the test reveals - chi-square tests detect overall departures from independence but do not pinpoint which specific group differs."
   },
   {
     "id": "stats_u8_q331",
@@ -11586,27 +11350,6 @@ var APSTATS_MCQ = [
     "explanation": "The biologist suspects a negative association (higher temperature leads to lower oxygen), so the alternative should be one-sided with beta < 0. The hypotheses should reference the population parameter beta, not the sample statistic b. Choice A incorrectly uses the sample slope b. Choice B is a two-sided test that does not reflect the specific direction of her suspicion. Choice D tests in the wrong direction. Choice E reverses the null and alternative hypotheses."
   },
   {
-    "id": "stats_u9_q352",
-    "subject": "apstats",
-    "unit": 9,
-    "topic": "t-statistic for slope",
-    "topicLabel": "Relationship Between t-Statistic and Confidence Interval",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A 95% confidence interval for the slope of a regression line based on 12 observations is (-0.4, 3.2). Based on this interval, what conclusion would be reached for a two-sided test of H_0: beta = 0 at the alpha = 0.05 level?",
-    "choices": [
-      "A) Reject H_0 because the interval is mostly positive",
-      "B) Reject H_0 because the interval does not contain the slope estimate",
-      "C) We are 95% confident that the true mean increase in plant growth for each additional hour of sunlight is between 0.35 and 1.15 cm.",
-      "D) Reject H_0 because the interval is wide",
-      "E) Fail to reject H_0 because 12 observations is too few"
-    ],
-    "answer": 2,
-    "explanation": "A two-sided significance test at alpha = 0.05 and a 95% confidence interval lead to the same conclusion. Since 0 is contained in the interval (-0.4, 3.2), we fail to reject H_0 at the 0.05 level. There is not sufficient evidence that the slope differs from zero. Choice A incorrectly focuses on the proportion of positive values. Choice B is nonsensical since the interval always contains the slope estimate. Choice D confuses interval width with statistical significance. Choice E incorrectly claims the sample size is insufficient regardless of the data."
-  },
-  {
     "id": "stats_u9_q353",
     "subject": "apstats",
     "unit": 9,
@@ -11911,8 +11654,8 @@ var APSTATS_MCQ = [
       "D) Use a higher confidence level when constructing the confidence interval for the slope",
       "E) Transform the response variable y using a logarithmic transformation"
     ],
-    "answer": 2,
-    "explanation": "SE_b = s / sqrt(sum of (x_i - x_bar)^2). To reduce SE_b, we need to increase the denominator (spread of x-values) or decrease the numerator (residual variability). Increasing the sample size with more spread-out x-values increases sum of (x_i - x_bar)^2 substantially, directly reducing SE_b. Choice A increases n but sampling near x_bar keeps sum of (x_i - x_bar)^2 small, providing minimal reduction. Choice B increases spread of x but reducing n works against the goal, and fewer observations also affect s. Choice C is clearly incorrect because if all x-values are identical, sum of (x_i - x_bar)^2 = 0, making SE_b undefined and regression impossible. Choice D changes the width of the confidence interval through the critical value but does not change SE_b itself. Choice E might reduce s if the transformation improves the model fit, but this is indirect, not guaranteed, and changes the interpretation of the model entirely."
+    "answer": 1,
+    "explanation": "SE_b = s / sqrt(Σ(xi − x̄)²). To reduce SE_b, we need to increase the denominator by maximizing the spread of x-values. Choice B decreases sample size but selects x-values that are much more spread out, which can substantially increase Σ(xi − x̄)² and directly reduce SE_b — making it the best option among these choices. Choice A increases n but concentrates x-values near their mean, keeping Σ(xi − x̄)² small and providing minimal reduction in SE_b. Choice C is impossible: if all x-values are identical, Σ(xi − x̄)² = 0, making SE_b undefined and linear regression impossible. Choice D changes the critical value used when constructing the confidence interval but has no effect on SE_b itself. Choice E might reduce s if the transformation improves model fit, but this is indirect, not guaranteed, and changes the interpretation of the model entirely."
   },
   {
     "id": "stats_u9_q369",
@@ -11976,27 +11719,6 @@ var APSTATS_MCQ = [
     ],
     "answer": 0,
     "explanation": "The t-statistic is calculated as t = b / SE(b) = 3.6 / 1.2 = 3.0. For inference on the slope of a regression line, the degrees of freedom are n - 2 = 20 - 2 = 18. Choice B uses n - 1 = 19 df, which is the degrees of freedom for a one-sample t-test, a common error. Choice C uses n = 20 df. Choice D incorrectly computes 1.2 / 3.6 (inverting the ratio). Choice E uses the slope itself (3.6) as the t-statistic rather than dividing by the standard error."
-  },
-  {
-    "id": "stats_u9_q372",
-    "subject": "apstats",
-    "unit": 9,
-    "topic": "SE of slope",
-    "topicLabel": "SE of slope",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "In a simple linear regression analysis, a statistician wants to reduce the standard error of the estimated slope. Holding all else constant, which of the following changes would most directly reduce SE(b)?",
-    "choices": [
-      "A) We are 95% confident that for each additional year of education, the true mean annual income increases by between $1,710 and $7,890.",
-      "B) Increase the sample mean of y",
-      "C) Decrease the sample size",
-      "D) Increase the correlation between the residuals and the predicted values",
-      "E) Decrease the spread of the x-values in the sample"
-    ],
-    "answer": 0,
-    "explanation": "The standard error of the slope is SE(b) = s / sqrt(sum of (xi - xbar)^2), where s is the residual standard error. Increasing the spread (variability) of the x-values increases the denominator, which decreases SE(b). Choice B is incorrect because shifting the mean of y does not affect the standard error of the slope. Choice C would increase SE(b) because fewer observations provide less information. Choice D describes a violation of regression assumptions (residuals should be uncorrelated with predicted values), not a strategy to reduce SE(b). Choice E would increase SE(b) because it reduces the denominator, which is the opposite of what is needed - this is a common misconception where students confuse reducing variability in x with improving precision."
   },
   {
     "id": "stats_u9_q373",

@@ -958,3 +958,81 @@
   background: var(--bg-secondary);
   color: var(--text-muted);
 }
+
+/* ─── Math Keyboard Toolbar ─────────────────────────────────────────────────── */
+.math-keyboard-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.math-keyboard-toolbar::-webkit-scrollbar {
+  display: none;
+}
+.math-keyboard-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  user-select: none;
+}
+.math-keyboard-btn-row {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+.math-keyboard-btn {
+  height: 28px;
+  padding: 0 9px;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card, var(--bg-primary));
+  color: var(--text-primary);
+  font-size: 0.82rem;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.12s, border-color 0.12s;
+  flex-shrink: 0;
+}
+.math-keyboard-btn:hover {
+  background: var(--accent-color, #3b82f6);
+  border-color: var(--accent-color, #3b82f6);
+  color: #fff;
+}
+
+/* ─── MCQ Review Cards (review.html) ─── */
+/* .review-card is a JS hook on .question-card.card; visual base comes from those classes */
+.review-card[data-status="correct"]   { border-left: 3px solid #22c55e; }
+.review-card[data-status="incorrect"] { border-left: 3px solid #ef4444; }
+[data-theme="dark"] .review-card[data-status="correct"]   { border-left-color: #86efac; }
+[data-theme="dark"] .review-card[data-status="incorrect"] { border-left-color: #fca5a5; }
+
+/* ─── Question Bank: Filter Accordion Checkboxes ─── */
+/* Complement the attribute selectors in styles.css; ensures JS class queries find styled elements */
+.unit-checkbox  { accent-color: var(--accent-blue); width: 15px; height: 15px; cursor: pointer; flex-shrink: 0; }
+.topic-checkbox { accent-color: var(--accent-blue); width: 13px; height: 13px; cursor: pointer; flex-shrink: 0; }
+
+/* ─── Question Bank: Preview List Row ─── */
+.preview-row { display: flex; align-items: center; gap: 12px; cursor: default; }
+
+/* ─── Question Bank: AI Explanation Box ─── */
+.ai-explanation-box {
+  margin-top: 16px;
+  padding: 14px 16px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--accent-blue);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+.ai-explanation-box:empty { display: none; }

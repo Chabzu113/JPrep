@@ -10,12 +10,12 @@
 const fs = require('fs');
 const path = require('path');
 
-const FILE = path.join(__dirname, '..', 'js', 'data', 'frq.js');
+const FILE = path.join(__dirname, '..', 'js', 'data', 'apcsa_frq.js');
 const src = fs.readFileSync(FILE, 'utf8');
 
 // ── Parse FRQ_BANK ───────────────────────────────────────────────────────────
-const match = src.match(/^var FRQ_BANK\s*=\s*(\[[\s\S]*\])\s*;?\s*$/m);
-if (!match) { console.error('Could not parse FRQ_BANK array'); process.exit(1); }
+const match = src.match(/^var APCSA_FRQ\s*=\s*(\[[\s\S]*\])\s*;?\s*$/m);
+if (!match) { console.error('Could not parse APCSA_FRQ array'); process.exit(1); }
 let bank;
 try { bank = eval('(' + match[1] + ')'); }
 catch(e) { console.error('Eval failed:', e.message); process.exit(1); }
@@ -599,7 +599,7 @@ function serializeQuestion(q, indent) {
   return indent + '{\n' + lines.join(',\n') + '\n' + indent + '}';
 }
 
-let output = 'var FRQ_BANK = [\n';
+let output = 'var APCSA_FRQ = [\n';
 let first = true, lastYear = null;
 for (const q of bank) {
   if (q.year !== lastYear) {

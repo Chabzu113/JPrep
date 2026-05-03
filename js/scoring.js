@@ -740,6 +740,7 @@ window.Scoring = {
   renderDifficultyBreakdown, renderWeakTopics, renderTestHistory,
   renderFrqGrading, renderAnalysisPanel, renderAutoFRQPanel,
   estimateAPScoreForSubject,
+  AP_SCORE_TABLES,
   // Backward-compat alias
   renderPhysicsPanel: renderAutoFRQPanel,
   UNIT_TITLES

@@ -26,6 +26,7 @@ const SUBJECTS = {
   apphysc:  { globalVar: 'PHYSC_MCQ',    outputFile: 'js/data/physc_mcq.js'    },
   apgov:    { globalVar: 'APGOV_MCQ',    outputFile: 'js/data/apgov_mcq.js'    },
   apcalcbc: { globalVar: 'APCALCBC_MCQ', outputFile: 'js/data/apcalcbc_mcq.js' },
+  apenviro: { globalVar: 'APENVIRO_MCQ', outputFile: 'js/data/apenviro_mcq.js' },
 };
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
@@ -174,9 +175,88 @@ async function processSubject(subjectKey) {
   console.log(`  Fixed: ${fixedCount} | Errors: ${errorCount} | Skipped (null fix): ${flags.length - actionable.length}`);
 }
 
+// ─── CONTENT AUDIT FIX MODE ──────────────────────────────────────────────────
+
+const CONTENT_DELETE_ISSUES = new Set(['ambiguous', 'implausible_choices', 'out_of_scope']);
+
+function processSubjectContent(subjectKey) {
+  const config = SUBJECTS[subjectKey];
+  const flagPath = `scripts/${subjectKey}_content_flags.json`;
+
+  if (!fs.existsSync(flagPath)) {
+    console.log(`[${subjectKey}] No content flag file found — skipping.`);
+    return;
+  }
+
+  const flagData = JSON.parse(fs.readFileSync(flagPath, 'utf8'));
+  const flags = flagData.flags || [];
+
+  if (flags.length === 0) {
+    console.log(`[${subjectKey}] No flags — skipping.`);
+    return;
+  }
+
+  console.log(`\n[${subjectKey}] ${flags.length} content flags.`);
+
+  const filePath = config.outputFile;
+  if (!fs.existsSync(filePath)) {
+    console.log(`[${subjectKey}] Data file not found: ${filePath} — skipping.`);
+    return;
+  }
+
+  const content = fs.readFileSync(filePath, 'utf8');
+  const questions = extractArray(content);
+  if (!questions) {
+    console.log(`[${subjectKey}] Could not parse data file — skipping.`);
+    return;
+  }
+
+  let deletedCount = 0;
+  let skippedWrongAnswer = 0;
+  let notFoundCount = 0;
+  const idsToDelete = new Set();
+
+  for (const flag of flags) {
+    if (flag.issue === 'wrong_answer') {
+      console.log(`  SKIP  ${flag.id} — wrong_answer requires manual fix`);
+      skippedWrongAnswer++;
+      continue;
+    }
+
+    if (CONTENT_DELETE_ISSUES.has(flag.issue)) {
+      const idx = questions.findIndex(q => q.id === flag.id);
+      if (idx === -1) {
+        console.log(`  NOT FOUND  ${flag.id}`);
+        notFoundCount++;
+      } else {
+        idsToDelete.add(flag.id);
+        console.log(`  DELETE  ${flag.id} (${flag.issue})`);
+      }
+    }
+  }
+
+  if (idsToDelete.size === 0) {
+    console.log(`  No questions to delete — not writing file.`);
+    console.log(`  Deleted: 0 | Skipped (wrong_answer): ${skippedWrongAnswer} | Not found: ${notFoundCount}`);
+    return;
+  }
+
+  const cleaned = questions.filter(q => !idsToDelete.has(q.id));
+  deletedCount = idsToDelete.size;
+
+  const usesWindow = content.includes('window.');
+  const varName = config.globalVar;
+  const declaration = usesWindow ? `window.${varName}` : `var ${varName}`;
+  fs.writeFileSync(filePath, `${declaration} = ${JSON.stringify(cleaned, null, 2)};`, 'utf8');
+
+  console.log(`  Written ${cleaned.length} questions to ${filePath}`);
+  console.log(`  Deleted: ${deletedCount} | Skipped (wrong_answer): ${skippedWrongAnswer} | Not found: ${notFoundCount}`);
+}
+
 // ─── ENTRY ───────────────────────────────────────────────────────────────────
 
 const args = process.argv.slice(2);
+const contentMode = args.includes('--content');
 const subjectFlag = args.indexOf('--subject');
 const subjectsToRun = subjectFlag !== -1 && args[subjectFlag + 1]
   ? [args[subjectFlag + 1].toLowerCase()]
@@ -188,7 +268,11 @@ const subjectsToRun = subjectFlag !== -1 && args[subjectFlag + 1]
       console.error(`Unknown subject: ${subject}. Available: ${Object.keys(SUBJECTS).join(', ')}`);
       continue;
     }
-    await processSubject(subject);
+    if (contentMode) {
+      processSubjectContent(subject);
+    } else {
+      await processSubject(subject);
+    }
   }
   console.log('\nDone.');
 })().catch(err => {

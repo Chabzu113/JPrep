@@ -2477,13 +2477,13 @@ window.APBIO_MCQ = [
     "source": "CB 2013",
     "question": "In a population, the ability to taste PTC (phenylthiocarbamide) is dominant. If 45% of the population are nontasters (homozygous recessive), and the population is in Hardy-Weinberg equilibrium, what percent of the population is homozygous dominant for tasting?",
     "choices": [
-      "0.09 (9%)",
+      "0.108 (~10.8%)",
       "0.30 (30%)",
       "0.45 (45%)",
       "0.55 (55%)"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "If 45% are nontasters (homozygous recessive), then q² = 0.45, so q = √0.45 ≈ 0.671, and p = 1 − 0.671 ≈ 0.329. The frequency of homozygous dominant tasters is p² = (0.329)² ≈ 0.108, or about 10.8%. A common mistake is to calculate p = 1 − 0.45 = 0.55 and then p² = 0.30 — this confuses genotype frequencies with allele frequencies. You must take the square root of q² first to get q, then subtract from 1 to get p."
   },
   {
     "id": "apbio_mcq_139",
@@ -3451,11 +3451,11 @@ window.APBIO_MCQ = [
     "choices": [
       "Prezygotic isolation",
       "Mechanical isolation",
-      "Reduced hybrid fertility",
+      "Reduced hybrid viability",
       "Habitat isolation"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "The hybrid flies are healthy adults with normal lifespans, which rules out prezygotic isolation (which would prevent mating or fertilization) and mechanical isolation (a form of prezygotic isolation involving incompatible reproductive structures). The problem is that their eggs hatch less often — meaning offspring fail to develop normally. This is postzygotic isolation in the form of reduced hybrid viability: the hybrids survive to adulthood, but their offspring have reduced developmental success. Reduced hybrid fertility would mean the hybrids themselves cannot produce viable gametes or reproduce, which is not described here."
   },
   {
     "id": "apbio_mcq_193",
@@ -3526,8 +3526,8 @@ window.APBIO_MCQ = [
       "The common ancestor of reptiles, birds, and mammals produced amniotic eggs.",
       "Mammals are the most ancestral vertebrates on the tree."
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 1,
+    "explanation": "When a phylogenetic tree shows mammals branching off from a node before birds diverge, the remaining lineage after the mammal split gives rise to both reptiles and birds. Reptiles and birds therefore share a more recent common ancestor with each other than either does with mammals — meaning reptiles are more closely related to birds than to mammals. Choice A is wrong because birds are shown diverging after mammals, not from mammals. Choice C, while broadly true of amniotes as a group, is not the specific conclusion the branching pattern supports. Choice D is incorrect — branching off earlier reflects an earlier divergence time, not primitiveness or ancestral status."
   },
   {
     "id": "apbio_mcq_197",
@@ -4920,7 +4920,7 @@ window.APBIO_MCQ = [
       "D) The low pH converts all molecules to their ionized forms"
     ],
     "answer": 1,
-    "explanation": "In aqueous environments like the digestive system, hydrolysis reactions are thermodynamically favorable because they consume abundant water and typically release energy. Choice A overemphasizes temperature's role, C incorrectly describes enzyme function (they don't change products), and D misrepresents the role of pH."
+    "explanation": "Hydrolysis reactions are thermodynamically favorable because they break high-energy covalent bonds in macromolecules and release free energy — the products are at a lower energy state than the reactants. The high concentration of water in aqueous environments also shifts the equilibrium toward hydrolysis, but this is a separate contributing factor rather than the primary thermodynamic reason. Choice A overemphasizes temperature's role — the stomach is not especially hot, and temperature affects reaction rate, not thermodynamic favorability. Choice C incorrectly describes enzyme function (enzymes lower activation energy and speed reactions, but do not change the products). Choice D misrepresents the role of pH."
   },
   {
     "id": "bio_u1_q022",
@@ -5115,12 +5115,12 @@ window.APBIO_MCQ = [
     "question": "A scientist observes that when ethanol (C2H5OH) is mixed with water, it dissolves readily, but when vegetable oil is added to the same mixture, it forms a separate layer. Which property of water best explains this differential solubility?",
     "choices": [
       "A) Water's high specific heat capacity allows it to maintain temperature while dissolving polar substances",
-      "B) Water's surface tension, caused by hydrogen bonds between water molecules at the surface pulling inward toward the bulk liquid, since surface molecules have no water neighbors above them.",
+      "B) Water's polarity allows it to form hydrogen bonds with polar molecules like ethanol but not with nonpolar molecules like oil",
       "C) Water's high surface tension prevents nonpolar molecules from breaking through the surface",
       "D) Water's density changes allow polar molecules to sink while nonpolar molecules float"
     ],
     "answer": 1,
-    "explanation": "Water forms hydrogen bonds with ethanol (polar) due to ethanol's -OH group, but cannot form hydrogen bonds with nonpolar vegetable oil molecules. Surface water molecules experience a net downward pull toward the bulk liquid because they have no water neighbors above them, creating surface tension. Insect legs that rest on water are not specifically hydrophobic; rather, their weight is distributed across the surface in a way that does not overcome the downward pull on surface molecules. Choice A incorrectly connects specific heat to solubility. Choice C misapplies surface tension concept. Choice D incorrectly attributes the separation to density rather than polarity."
+    "explanation": "Water is a polar molecule and dissolves other polar and ionic substances by forming hydrogen bonds or electrostatic interactions with them. Ethanol has a hydroxyl (-OH) group that can form hydrogen bonds with water, so it dissolves readily. Vegetable oil is nonpolar and cannot form hydrogen bonds with water, so it is excluded and separates into its own layer — the hydrophobic effect. Choice A incorrectly connects specific heat capacity to solubility; specific heat describes how much energy is needed to raise temperature, not why substances dissolve. Choice C misapplies surface tension, which explains phenomena at the air-water interface, not differential solubility of mixed liquids. Choice D incorrectly attributes the separation to density differences rather than polarity."
   },
   {
     "id": "bio_u1_q032",
@@ -5320,7 +5320,7 @@ window.APBIO_MCQ = [
       "D) Purely lipid barriers"
     ],
     "answer": 1,
-    "explanation": "The fluid mosaic model describes membranes as fluid phospholipid bilayers with embedded proteins that can move laterally. Membranes are not rigid, crystalline, or purely lipid - they contain proteins as integral components. Choice C is incorrect because water moves from HIGHER water potential to LOWER water potential, not the reverse; solid crystalline structures would prevent the dynamic, flexible behavior that characterizes real cell membranes."
+    "explanation": "The fluid mosaic model describes membranes as fluid phospholipid bilayers with embedded proteins that can move laterally. Membranes are not rigid, crystalline, or purely lipid — they contain proteins as integral components. Choice C is incorrect because solid crystalline structures would prevent the dynamic, flexible behavior that characterizes real cell membranes."
   },
   {
     "id": "bio_u2_q042",
@@ -8160,7 +8160,7 @@ window.APBIO_MCQ = [
       "D) Both genes are located on the X chromosome"
     ],
     "answer": 2,
-    "explanation": "A 9:4:3 ratio suggests epistasis where two of the normal four phenotypic classes are combined into one class (3+1=4), indicating one gene's product masks another's expression. Choice A would show different ratios entirely. Choice B would give 3:6:3:1:2:1 ratios. Choice D would show sex-linked patterns, not modified F2 ratios."
+    "explanation": "A 9:4:3 ratio suggests recessive epistasis, where homozygous recessive genotypes at one locus mask the expression of the second gene — collapsing two of the standard four phenotypic classes into one (the 3 and 1 classes merge into 4). This is a classic epistatic modification of the 9:3:3:1 ratio. Choice A (gene linkage with 25% recombination) would produce ratios close to 9:3:3:1 with slight distortion, not a 9:4:3 pattern. Choice B (incomplete dominance at one locus) would create more phenotypic classes, not fewer, since heterozygotes would show a blended phenotype — it would not produce a 9:4:3 ratio. Choice D (both genes X-linked) would produce sex-linked inheritance ratios, not the autosomal F2 pattern seen here."
   },
   {
     "id": "bio_u5_q184",

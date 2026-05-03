@@ -136,8 +136,8 @@ window.APCSA_MCQ = [
       "C) 40",
       "D) 20"
     ],
-    "answer": 2,
-    "explanation": "Starting with x = 10: x += 5 makes x = 15 (equivalent to x = x + 5), then x *= 2 makes x = 30 (equivalent to x = x * 2), giving a final value of 30. Wait - re-examining: x = 10, after x += 5, x = 15, after x *= 2, x = 30. The correct answer is 30 (choice A). Note: The fix instructions incorrectly claimed right-associativity changes execution order; sequential statements run top-to-bottom in Java. The answer remains 30."
+    "answer": 0,
+    "explanation": "Starting with x = 10: x += 5 is equivalent to x = x + 5, so x becomes 15. Then x *= 2 is equivalent to x = x * 2, so x becomes 30. The final value of x is 30. Choice B (25) stops after the addition. Choice C (40) incorrectly doubles from 20 instead of 15. Choice D (20) doubles the original value instead of 15."
   },
   {
     "id": "csa_u1_q008",
@@ -1596,8 +1596,8 @@ window.APCSA_MCQ = [
       "C) Runtime error - NullPointerException",
       "D) Compile error"
     ],
-    "answer": 0,
-    "explanation": "When str is null, the condition str != null evaluates to false. Due to short-circuit evaluation with &&, str.length() is never evaluated, preventing a NullPointerException. Since the condition is false, the else block is skipped and the if block executes, printing 'Valid string'. Wait - actually, since the entire if condition is false, the else block executes printing 'Invalid string'. The correct answer here has been updated: the answer is A) Prints 'Valid string' only if str is non-null and non-empty. Since str is null, the if condition is false and 'Invalid string' is printed - but the answer index is set to 0. Please verify the intended correct answer against the choices."
+    "answer": 1,
+    "explanation": "When str is null, the condition str != null evaluates to false. Due to short-circuit evaluation with &&, str.length() is never called, which prevents a NullPointerException. Because the entire if-condition is false, the else block executes and prints \"Invalid string\". Choice A is wrong because str is null so the if-condition can never be true. Choice C is wrong because short-circuit evaluation prevents str.length() from ever being called. Choice D is wrong because this code compiles without error."
   },
   {
     "id": "csa_u2_q024",
@@ -1656,8 +1656,8 @@ window.APCSA_MCQ = [
       "C) s.substring(2, 5)",
       "D) s.substring(4, 6)"
     ],
-    "answer": 2,
-    "explanation": "In 'Computer', the indices are: C(0)o(1)m(2)p(3)u(4)t(5)e(6)r(7). To get 'put', we need indices 2, 3, 4. substring(2, 5) takes from index 2 up to but not including index 5, giving 'put'. Students often forget that the end index is exclusive."
+    "answer": 0,
+    "explanation": "In \"Computer\", the character indices are: C(0) o(1) m(2) p(3) u(4) t(5) e(6) r(7). The substring \"put\" consists of characters at indices 3, 4, and 5. substring(beginIndex, endIndex) returns characters from beginIndex up to but not including endIndex, so substring(3, 6) returns characters at indices 3, 4, 5 — which is \"put\". Choice B (3,5) returns only \"pu\" (indices 3–4). Choice C (2,5) returns \"mpu\" (indices 2–4). Choice D (4,6) returns \"ut\" (indices 4–5)."
   },
   {
     "id": "csa_u2_q027",
@@ -3881,8 +3881,8 @@ window.APCSA_MCQ = [
       "C) SmallBig",
       "D) Even"
     ],
-    "answer": 1,
-    "explanation": "When num = 15: (num > 10) is true, so we check (num % 2 == 0). Since 15 % 2 != 0, nothing prints from the nested if. The else belongs to the outer if, not the inner if, so \"Small\" doesn't print. The separate if (num > 5) is true, so \"Big\" prints. Output is \"Big\"."
+    "answer": 2,
+    "explanation": "In Java, an else clause always binds to the nearest preceding unmatched if — this is the dangling-else rule. Here, the else belongs to the inner if (num % 2 == 0), not the outer if (num > 10). With num = 15: (num > 10) is true, so the inner if is evaluated. (15 % 2 == 0) is false, so the inner if's else executes and prints \"Small\". Then the separate if (num > 5) is true, printing \"Big\". Output is \"SmallBig\". Choice B (\"Big\") is wrong because it incorrectly assigns the else to the outer if; it would only be right if else bound to the outer if, which it does not."
   },
   {
     "id": "csa_u3_q086",
@@ -3942,7 +3942,7 @@ window.APCSA_MCQ = [
       "D) 3"
     ],
     "answer": 2,
-    "explanation": "With i = 0: First if (i < 3) is true, then nested if (i == 0) is true, so \"Hello\" prints once. The else belongs to the outer if, not the inner if. The separate if (i >= 0) is true, so \"Hello\" prints again. Total: 2 times."
+    "explanation": "In Java, an else always binds to the nearest preceding unmatched if — the dangling-else rule. Here the else belongs to the inner if (i == 0), not the outer if (i < 3). With i = 0: (i < 3) is true, so the inner if is evaluated. (i == 0) is true, so \"Hello\" prints and the inner else is skipped. Then the separate if (i >= 0) is true, printing \"Hello\" again. Total: 2 times."
   },
   {
     "id": "csa_u3_q089",
@@ -6420,8 +6420,8 @@ window.APCSA_MCQ = [
       "8",
       "16"
     ],
-    "answer": 0,
-    "explanation": "Binary search: max comparisons = ceil(log₂(n)) = ceil(log₂(16)) = 4 (since 2^4 = 16). Each comparison halves the search space."
+    "answer": 1,
+    "explanation": "Binary search on n elements requires at most floor(log₂(n)) + 1 comparisons. For n = 16: floor(log₂(16)) + 1 = 4 + 1 = 5. Each comparison eliminates half the remaining elements, so after 4 halvings you have 1 element left, requiring one final comparison — giving 5 total. Choice 4 (floor(log₂(16)) alone) undercounts by one because it omits the final comparison against the single remaining element."
   },
   {
     "id": "mcq_177",

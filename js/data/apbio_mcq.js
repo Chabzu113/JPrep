@@ -540,24 +540,6 @@ window.APBIO_MCQ = [
     "explanation": ""
   },
   {
-    "id": "apbio_mcq_031",
-    "subject": "apbio",
-    "unit": 2,
-    "topic": "2.4",
-    "topicLabel": "Signal Transduction",
-    "difficulty": "medium",
-    "source": "CB 2013",
-    "question": "A dog follows the scent of a jackrabbit. Which of the following accurately describes how the dog's brain integrates information for smell?",
-    "choices": [
-      "Chemoreceptors in the brain send impulses for smell in the nasal cavity.",
-      "Chemoreceptor cells in the nasal cavity send impulses to the appropriate area of the brain.",
-      "Chemoreceptors on epithelial cells of the tongue send hormones to the brain.",
-      "Receptors in the nose send action potentials to the motor regions of the brain."
-    ],
-    "answer": 1,
-    "explanation": ""
-  },
-  {
     "id": "apbio_mcq_032",
     "subject": "apbio",
     "unit": 2,
@@ -627,24 +609,6 @@ window.APBIO_MCQ = [
       "Ribosome (free in cytoplasm) → lysosome → Golgi apparatus → cell exterior"
     ],
     "answer": 1,
-    "explanation": ""
-  },
-  {
-    "id": "apbio_mcq_036",
-    "subject": "apbio",
-    "unit": 2,
-    "topic": "2.5",
-    "topicLabel": "Cell Theory",
-    "difficulty": "medium",
-    "source": "Generated",
-    "question": "Which of the following observations provides the best evidence that mitochondria were once free-living prokaryotes?",
-    "choices": [
-      "Mitochondria contain their own circular DNA and ribosomes similar to those of bacteria.",
-      "Mitochondria are surrounded by a single membrane.",
-      "Mitochondria replicate by mitosis at the same time as the cell.",
-      "Mitochondrial proteins are encoded by nuclear DNA."
-    ],
-    "answer": 0,
     "explanation": ""
   },
   {
@@ -2477,13 +2441,13 @@ window.APBIO_MCQ = [
     "source": "CB 2013",
     "question": "In a population, the ability to taste PTC (phenylthiocarbamide) is dominant. If 45% of the population are nontasters (homozygous recessive), and the population is in Hardy-Weinberg equilibrium, what percent of the population is homozygous dominant for tasting?",
     "choices": [
-      "0.09 (9%)",
+      "0.108 (~10.8%)",
       "0.30 (30%)",
       "0.45 (45%)",
       "0.55 (55%)"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "If 45% are nontasters (homozygous recessive), then q² = 0.45, so q = √0.45 ≈ 0.671, and p = 1 − 0.671 ≈ 0.329. The frequency of homozygous dominant tasters is p² = (0.329)² ≈ 0.108, or about 10.8%. A common mistake is to calculate p = 1 − 0.45 = 0.55 and then p² = 0.30 — this confuses genotype frequencies with allele frequencies. You must take the square root of q² first to get q, then subtract from 1 to get p."
   },
   {
     "id": "apbio_mcq_139",
@@ -2679,24 +2643,6 @@ window.APBIO_MCQ = [
       "XXX — two X chromosomes are inactivated; individuals always have one fewer Barr body than X chromosomes",
       "XY — males always have 2 Barr bodies as compensation for having only one X",
       "XXXX — all X chromosomes form Barr bodies"
-    ],
-    "answer": 1,
-    "explanation": ""
-  },
-  {
-    "id": "apbio_mcq_150",
-    "subject": "apbio",
-    "unit": 5,
-    "topic": "5.1",
-    "topicLabel": "Meiosis",
-    "difficulty": "hard",
-    "source": "Generated",
-    "question": "During prophase I of meiosis, homologous chromosomes pair up and may exchange segments in crossing over. A mutation eliminates crossing over entirely. Which of the following best predicts the consequence for genetic diversity?",
-    "choices": [
-      "Genetic diversity will increase because chromosomes can no longer exchange segments that might cause harmful mutations",
-      "Genetic diversity in gametes will decrease because new combinations of alleles on the same chromosome cannot be generated; all gametes will contain only parental chromosome combinations",
-      "Genetic diversity will be unaffected because independent assortment alone generates sufficient variation",
-      "The mutation will be lethal because crossing over is required for homologous chromosomes to separate in meiosis I"
     ],
     "answer": 1,
     "explanation": ""
@@ -3451,11 +3397,11 @@ window.APBIO_MCQ = [
     "choices": [
       "Prezygotic isolation",
       "Mechanical isolation",
-      "Reduced hybrid fertility",
+      "Reduced hybrid viability",
       "Habitat isolation"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "The hybrid flies are healthy adults with normal lifespans, which rules out prezygotic isolation (which would prevent mating or fertilization) and mechanical isolation (a form of prezygotic isolation involving incompatible reproductive structures). The problem is that their eggs hatch less often — meaning offspring fail to develop normally. This is postzygotic isolation in the form of reduced hybrid viability: the hybrids survive to adulthood, but their offspring have reduced developmental success. Reduced hybrid fertility would mean the hybrids themselves cannot produce viable gametes or reproduce, which is not described here."
   },
   {
     "id": "apbio_mcq_193",
@@ -3526,8 +3472,8 @@ window.APBIO_MCQ = [
       "The common ancestor of reptiles, birds, and mammals produced amniotic eggs.",
       "Mammals are the most ancestral vertebrates on the tree."
     ],
-    "answer": 2,
-    "explanation": ""
+    "answer": 1,
+    "explanation": "When a phylogenetic tree shows mammals branching off from a node before birds diverge, the remaining lineage after the mammal split gives rise to both reptiles and birds. Reptiles and birds therefore share a more recent common ancestor with each other than either does with mammals — meaning reptiles are more closely related to birds than to mammals. Choice A is wrong because birds are shown diverging after mammals, not from mammals. Choice C, while broadly true of amniotes as a group, is not the specific conclusion the branching pattern supports. Choice D is incorrect — branching off earlier reflects an earlier divergence time, not primitiveness or ancestral status."
   },
   {
     "id": "apbio_mcq_197",
@@ -4920,7 +4866,7 @@ window.APBIO_MCQ = [
       "D) The low pH converts all molecules to their ionized forms"
     ],
     "answer": 1,
-    "explanation": "In aqueous environments like the digestive system, hydrolysis reactions are thermodynamically favorable because they consume abundant water and typically release energy. Choice A overemphasizes temperature's role, C incorrectly describes enzyme function (they don't change products), and D misrepresents the role of pH."
+    "explanation": "Hydrolysis reactions are thermodynamically favorable because they break high-energy covalent bonds in macromolecules and release free energy — the products are at a lower energy state than the reactants. The high concentration of water in aqueous environments also shifts the equilibrium toward hydrolysis, but this is a separate contributing factor rather than the primary thermodynamic reason. Choice A overemphasizes temperature's role — the stomach is not especially hot, and temperature affects reaction rate, not thermodynamic favorability. Choice C incorrectly describes enzyme function (enzymes lower activation energy and speed reactions, but do not change the products). Choice D misrepresents the role of pH."
   },
   {
     "id": "bio_u1_q022",
@@ -5001,26 +4947,6 @@ window.APBIO_MCQ = [
     ],
     "answer": 1,
     "explanation": "C4H10 can exist as butane (straight chain) or isobutane (branched), which are structural isomers with different physical properties like boiling points. Choice A requires a chiral center (not present in C4H10), C requires double bonds (C4H10 is saturated), and D requires different functional groups (both are alkanes)."
-  },
-  {
-    "id": "bio_u1_q026",
-    "subject": "apbio",
-    "unit": 1,
-    "topic": "macromolecules",
-    "topicLabel": "Macromolecules Overview",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A cell biologist treats cells with different enzymes: protease (breaks down proteins), lipase (breaks down lipids), and nuclease (breaks down nucleic acids). After protease treatment, the cell membrane remains intact but many cellular processes stop. What does this suggest about cellular organization?",
-    "choices": [
-      "A) The cell membrane is composed primarily of lipids and carbohydrates",
-      "B) Proteins are essential for membrane function but not membrane structure",
-      "C) Nucleic acids are the primary structural components of membranes",
-      "D) Carbohydrates provide all the enzymatic activity in cells"
-    ],
-    "answer": 1,
-    "explanation": "The intact membrane after protease treatment suggests it's structurally maintained by lipids, while stopped processes indicate proteins (enzymes, transporters) are essential for membrane function. Choice A ignores protein functional roles, C incorrectly identifies nucleic acids as structural membrane components, and D wrongly assigns enzymatic activity to carbohydrates."
   },
   {
     "id": "bio_u1_q027",
@@ -5115,12 +5041,12 @@ window.APBIO_MCQ = [
     "question": "A scientist observes that when ethanol (C2H5OH) is mixed with water, it dissolves readily, but when vegetable oil is added to the same mixture, it forms a separate layer. Which property of water best explains this differential solubility?",
     "choices": [
       "A) Water's high specific heat capacity allows it to maintain temperature while dissolving polar substances",
-      "B) Water's surface tension, caused by hydrogen bonds between water molecules at the surface pulling inward toward the bulk liquid, since surface molecules have no water neighbors above them.",
+      "B) Water's polarity allows it to form hydrogen bonds with polar molecules like ethanol but not with nonpolar molecules like oil",
       "C) Water's high surface tension prevents nonpolar molecules from breaking through the surface",
       "D) Water's density changes allow polar molecules to sink while nonpolar molecules float"
     ],
     "answer": 1,
-    "explanation": "Water forms hydrogen bonds with ethanol (polar) due to ethanol's -OH group, but cannot form hydrogen bonds with nonpolar vegetable oil molecules. Surface water molecules experience a net downward pull toward the bulk liquid because they have no water neighbors above them, creating surface tension. Insect legs that rest on water are not specifically hydrophobic; rather, their weight is distributed across the surface in a way that does not overcome the downward pull on surface molecules. Choice A incorrectly connects specific heat to solubility. Choice C misapplies surface tension concept. Choice D incorrectly attributes the separation to density rather than polarity."
+    "explanation": "Water is a polar molecule and dissolves other polar and ionic substances by forming hydrogen bonds or electrostatic interactions with them. Ethanol has a hydroxyl (-OH) group that can form hydrogen bonds with water, so it dissolves readily. Vegetable oil is nonpolar and cannot form hydrogen bonds with water, so it is excluded and separates into its own layer — the hydrophobic effect. Choice A incorrectly connects specific heat capacity to solubility; specific heat describes how much energy is needed to raise temperature, not why substances dissolve. Choice C misapplies surface tension, which explains phenomena at the air-water interface, not differential solubility of mixed liquids. Choice D incorrectly attributes the separation to density differences rather than polarity."
   },
   {
     "id": "bio_u1_q032",
@@ -5181,26 +5107,6 @@ window.APBIO_MCQ = [
     ],
     "answer": 1,
     "explanation": "The correct answer is B. At pH 5.8 (below the pKa of 6.0), histidine residues will be predominantly protonated and positively charged. Since the enzyme evolved to function at pH 7.4 where histidines would be mostly neutral, this change in charge distribution disrupts the active site's electrostatic environment and substrate binding. Choice A is incorrect because at low pH, histidines gain protons rather than lose them - protonation, not deprotonation, occurs below the pKa. Choice C is incorrect because peptide bonds are chemically stable at pH 5.8 and are not broken under mildly acidic conditions. Choice D, while chemically plausible regarding carboxyl group protonation, does not address the specific role of histidine residues highlighted in the question and is therefore not the best explanation for the observed pH sensitivity."
-  },
-  {
-    "id": "bio_u1_q035",
-    "subject": "apbio",
-    "unit": 1,
-    "topic": "carbon chemistry",
-    "topicLabel": "carbon chemistry",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A novel organic compound is discovered that can form four covalent bonds but creates molecules with significantly different properties than carbon-based compounds. Chemical analysis reveals this element is in the same group as carbon but has a larger atomic radius. What property would most likely make this element less suitable than carbon for forming the backbone of complex biological molecules?",
-    "choices": [
-      "A) Longer bond lengths leading to increased molecular flexibility and reduced structural stability",
-      "B) Higher electronegativity causing unequal electron sharing and polar bonds",
-      "C) Inability to form double bonds due to increased electron-electron repulsion",
-      "D) Lower bond dissociation energy making the bonds too reactive for biological systems"
-    ],
-    "answer": 0,
-    "explanation": "The correct answer is A. The element described is likely silicon, which is below carbon in group 14. Silicon's larger atomic radius creates longer Si-Si bonds compared to C-C bonds, resulting in less stable and more flexible molecular structures that are unsuitable for the precise geometries required in biological molecules. Choice B is incorrect because elements in the same group have similar electronegativity. Choice C is wrong because silicon can form double bonds, though they're less stable than carbon's. Choice D incorrectly suggests lower bond energy - while Si-Si bonds are longer and somewhat weaker, the primary issue is structural instability due to bond length, not excessive reactivity."
   },
   {
     "id": "bio_u1_q036",
@@ -5320,7 +5226,7 @@ window.APBIO_MCQ = [
       "D) Purely lipid barriers"
     ],
     "answer": 1,
-    "explanation": "The fluid mosaic model describes membranes as fluid phospholipid bilayers with embedded proteins that can move laterally. Membranes are not rigid, crystalline, or purely lipid - they contain proteins as integral components. Choice C is incorrect because water moves from HIGHER water potential to LOWER water potential, not the reverse; solid crystalline structures would prevent the dynamic, flexible behavior that characterizes real cell membranes."
+    "explanation": "The fluid mosaic model describes membranes as fluid phospholipid bilayers with embedded proteins that can move laterally. Membranes are not rigid, crystalline, or purely lipid — they contain proteins as integral components. Choice C is incorrect because solid crystalline structures would prevent the dynamic, flexible behavior that characterizes real cell membranes."
   },
   {
     "id": "bio_u2_q042",
@@ -5621,26 +5527,6 @@ window.APBIO_MCQ = [
     ],
     "answer": 2,
     "explanation": "Without the pump, Na+ would accumulate inside the cell, increasing internal osmotic pressure and causing water influx and swelling. Choice A is incorrect as ATP production doesn't directly depend on this pump, B understates the osmotic consequences, and D incorrectly links K+ to protein synthesis."
-  },
-  {
-    "id": "bio_u2_q057",
-    "subject": "apbio",
-    "unit": 2,
-    "topic": "endocytosis",
-    "topicLabel": "endocytosis",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A cell engulfs a bacterium through phagocytosis. After engulfment, the phagosome fuses with lysosomes. What would most likely happen if the lysosomes in this cell lacked functional enzymes?",
-    "choices": [
-      "A) The bacterium would be released back into the extracellular space",
-      "B) The cell will become turgid because the hypertonic external solution draws water into the cell, and the rigid cell wall resists expansion, building pressure.",
-      "C) The phagosome would fuse with the nucleus instead",
-      "D) The cell will shrink irreversibly because plant cells lack contractile vacuoles and cannot pump water back in under hypertonic conditions."
-    ],
-    "answer": 1,
-    "explanation": "Lysosomal enzymes are essential for digesting phagocytosed material. Without functional enzymes, the bacterium would remain undigested and could harm the cell. Choice A describes exocytosis which doesn't occur with phagosomes, C is anatomically incorrect, and D misattributes digestive function to the ER."
   },
   {
     "id": "bio_u2_q058",
@@ -6481,26 +6367,6 @@ window.APBIO_MCQ = [
     ],
     "answer": 1,
     "explanation": "C4 plants have an advantage in hot, dry, bright conditions where C3 plants would suffer from photorespiration. High temperatures favor the oxygenase activity of RuBisCO, and water stress forces stomatal closure, reducing CO2 availability - both problems that C4 plants' CO2-concentrating mechanism helps overcome. Choice A describes conditions favoring C3 plants. Choice C describes conditions where the C4 advantage is minimal. Choice D also favors C3 plants."
-  },
-  {
-    "id": "bio_u3_q100",
-    "subject": "apbio",
-    "unit": 3,
-    "topic": "enzymes",
-    "topicLabel": "enzymes",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "An enzyme that works optimally at pH 7.4 is placed in a solution with pH 4.0. After 30 minutes, the pH is adjusted back to 7.4. What is the most likely outcome?",
-    "choices": [
-      "A) The enzyme will immediately return to full activity",
-      "B) The enzyme will have permanently lost most of its activity",
-      "C) The enzyme will work faster than before due to the pH shock",
-      "D) The enzyme will only work at pH 4.0 from now on"
-    ],
-    "answer": 1,
-    "explanation": "The extreme pH change likely caused denaturation of the enzyme's protein structure. While some enzymes can refold, most enzymes exposed to pH levels far from their optimum suffer permanent structural damage that cannot be reversed by simply returning to optimal conditions. Choice A assumes reversible inhibition, C suggests impossible enhancement, and D misunderstands enzyme adaptation."
   },
   {
     "id": "bio_u3_q101",
@@ -8103,26 +7969,6 @@ window.APBIO_MCQ = [
     "explanation": "For each trait, probability of homozygous recessive (aa, bb, or cc) is 1/4, and probability of not homozygous recessive is 3/4. We need exactly 2 traits homozygous recessive: C(3,2) × (1/4)² × (3/4)¹ = 3 × 1/16 × 3/4 = 9/64. Choice A uses wrong combination formula. Choice C forgets the combinatorial aspect. Choice D calculates probability of at least one homozygous recessive."
   },
   {
-    "id": "bio_u5_q181",
-    "subject": "apbio",
-    "unit": 5,
-    "topic": "Mendelian genetics",
-    "topicLabel": "Mendelian genetics",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A pedigree shows that two unaffected parents have an affected child, and the trait appears to skip generations. However, males are affected more frequently than females. Which inheritance pattern best explains this observation, and what additional information would confirm it?",
-    "choices": [
-      "A) Autosomal recessive; confirm by showing 25% of offspring are affected",
-      "B) X-linked recessive; confirm by showing affected males cannot pass trait to sons",
-      "C) Autosomal dominant with incomplete penetrance; confirm by molecular analysis",
-      "D) X-linked recessive; confirm by showing carrier mothers have 50% affected sons"
-    ],
-    "answer": 1,
-    "explanation": "The key evidence is male predominance plus skipping generations, indicating X-linked recessive. The definitive test is that affected fathers cannot pass X-linked traits to sons (they give sons the Y chromosome). Choice A ignores male bias. Choice C is possible but less likely given the clear male bias. Choice D describes the mother's contribution but doesn't provide the most definitive confirmation."
-  },
-  {
     "id": "bio_u5_q182",
     "subject": "apbio",
     "unit": 5,
@@ -8160,7 +8006,7 @@ window.APBIO_MCQ = [
       "D) Both genes are located on the X chromosome"
     ],
     "answer": 2,
-    "explanation": "A 9:4:3 ratio suggests epistasis where two of the normal four phenotypic classes are combined into one class (3+1=4), indicating one gene's product masks another's expression. Choice A would show different ratios entirely. Choice B would give 3:6:3:1:2:1 ratios. Choice D would show sex-linked patterns, not modified F2 ratios."
+    "explanation": "A 9:4:3 ratio suggests recessive epistasis, where homozygous recessive genotypes at one locus mask the expression of the second gene — collapsing two of the standard four phenotypic classes into one (the 3 and 1 classes merge into 4). This is a classic epistatic modification of the 9:3:3:1 ratio. Choice A (gene linkage with 25% recombination) would produce ratios close to 9:3:3:1 with slight distortion, not a 9:4:3 pattern. Choice B (incomplete dominance at one locus) would create more phenotypic classes, not fewer, since heterozygotes would show a blended phenotype — it would not produce a 9:4:3 ratio. Choice D (both genes X-linked) would produce sex-linked inheritance ratios, not the autosomal F2 pattern seen here."
   },
   {
     "id": "bio_u5_q184",
@@ -8241,26 +8087,6 @@ window.APBIO_MCQ = [
     ],
     "answer": 1,
     "explanation": "DNA polymerase can only add nucleotides in the 5' to 3' direction by adding to the 3'-OH group of the growing strand. Students commonly think it works in both directions (C) or confuse the directionality (A)."
-  },
-  {
-    "id": "bio_u6_q188",
-    "subject": "apbio",
-    "unit": 6,
-    "topic": "transcription",
-    "topicLabel": "transcription",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "During transcription, RNA polymerase synthesizes RNA using which strand as a template?",
-    "choices": [
-      "A) The coding strand",
-      "B) The template strand",
-      "C) Both strands simultaneously",
-      "D) Either strand depending on the gene"
-    ],
-    "answer": 1,
-    "explanation": "RNA polymerase uses the template strand (antisense strand) to synthesize RNA. Students often confuse this with the coding strand (A), which has the same sequence as the RNA (except T instead of U)."
   },
   {
     "id": "bio_u6_q189",

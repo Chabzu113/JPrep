@@ -4857,7 +4857,7 @@ window.APGOV_MCQ = [
       "D) Plessy was decided on due process grounds, while Brown was the first case to apply the equal protection clause to racial discrimination."
     ],
     "answer": 1,
-    "explanation": "Brown directly reversed Plessy's 'separate but equal' doctrine by ruling that segregated schools were inherently unequal under the Fourteenth Amendment's equal protection clause, because segregation itself caused psychological harm to Black children. Choice A is wrong because neither decision was grounded in the commerce clause or First Amendment. Choice C is a partial truth but overstates what Brown ruled - it focused on public education, not all areas of public life. Choice D is incorrect because the Miranda warning requirement is triggered at the outset of custodial interrogation regardless of whether the suspect invokes any right. Since no warnings were given at all in this scenario, the threshold requirement was never met; the question of invocation only becomes relevant after warnings have been administered."
+    "explanation": "Brown directly reversed Plessy's 'separate but equal' doctrine by ruling that segregated schools were inherently unequal under the Fourteenth Amendment's equal protection clause, because segregation itself caused psychological harm to Black children. Choice A is wrong because neither decision was grounded in the commerce clause or First Amendment — both cases centered on the Fourteenth Amendment's equal protection clause. Choice C is a partial truth but overstates what Brown ruled — it focused specifically on public education, not all areas of public life. Choice D is incorrect because Plessy v. Ferguson itself applied the equal protection clause to racial discrimination, upholding segregation by ruling that 'separate but equal' facilities satisfied equal protection; Brown did not introduce the equal protection clause to race cases but instead overturned Plessy's flawed interpretation of it."
   },
   {
     "id": "gov_u3_q252",
@@ -5158,26 +5158,6 @@ window.APGOV_MCQ = [
     ],
     "answer": 0,
     "explanation": "The correct answer is A. The Supreme Court has incorporated most Bill of Rights protections against the states through the due process clause of the Fourteenth Amendment, a doctrine known as selective incorporation. Gideon followed this approach, holding that the right to counsel is fundamental to a fair trial and therefore protected against state infringement via due process. B is a common trap: while the privileges or immunities clause seems like the logical vehicle, the Court effectively gutted it in the Slaughterhouse Cases (1873) and has relied on due process, not privileges or immunities, for incorporation. C is plausible but wrong - although equal protection concerns were present, the Court's reasoning in Gideon was rooted in due process and the fundamental fairness of a trial, not equal protection analysis. D is entirely incorrect; the full faith and credit clause governs how states recognize each other's laws and judicial proceedings, not the application of federal constitutional rights to states."
-  },
-  {
-    "id": "gov_u3_q267",
-    "subject": "apgov",
-    "unit": 3,
-    "topic": "establishment clause",
-    "topicLabel": "Establishment Clause & Engel v. Vitale",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Based on Supreme Court precedent as established through Engel v. Vitale (1962) and its progeny, a public school district requires teachers to begin each day with a moment of silence during which the teacher must say aloud, 'This is a time to reflect or pray.' A student challenges this practice. Which of the following best explains why a court would most likely strike down this practice under the Establishment Clause?",
-    "choices": [
-      "A) The practice is unconstitutional because any acknowledgment of religion in a public school, including a moment of silence, is categorically prohibited by the First Amendment.",
-      "B) The practice is unconstitutional because, under the standard established in Brandenburg v. Ohio (1969) - which refined the historical 'clear and present danger' test originating in Schenck v. United States - speech may only be restricted when it is directed to and likely to produce imminent lawless action, and emotional distress alone does not satisfy this test; similarly, government-directed religious observance in public schools violates the Establishment Clause even if participation is not formally required and the prayer is nondenominational.",
-      "C) The practice is constitutional because the moment of silence itself is secular, and the teacher's optional suggestion to pray does not constitute government endorsement of religion.",
-      "D) The practice is unconstitutional only if it can be shown that the scripted language was intended to favor one particular religious tradition; a religiously neutral or broadly inclusive invocation would satisfy the Establishment Clause in a public school setting."
-    ],
-    "answer": 1,
-    "explanation": "The correct answer is B. In Engel v. Vitale, the Supreme Court held that government-sponsored prayer in public schools violates the Establishment Clause of the First Amendment, even when the prayer is nondenominational and participation is voluntary. The key principle is that the government may not compose or direct religious exercises in public schools. Here, the teacher's scripted invitation to pray is state-directed religious activity, which crosses the constitutional line established by Engel and reaffirmed in subsequent cases. Under the modern governing standard for incitement analysis established in Brandenburg v. Ohio (1969) - which refined the earlier 'clear and present danger' test from Schenck v. United States - speech may only be restricted when it is directed to and likely to produce imminent lawless action. Emotional distress alone does not satisfy this test and is not a recognized compelling interest that places speech in an unprotected category, making choice A wrong on multiple grounds: not all acknowledgment of religion in public schools is prohibited, and emotional distress does not create a categorical exception to First Amendment protection. Teaching about religion in an academic context, for example, is permissible. C is wrong because calling the practice 'optional' does not cure the Establishment Clause violation; Engel specifically rejected the voluntariness defense. D is wrong because the Establishment Clause, as interpreted through Engel and its progeny, prohibits government-sponsored religious exercises in public schools altogether - the constitutional violation stems from the state directing a religious observance, not merely from favoring one tradition over another, so broadening the invocation's religious scope does not remedy the underlying constitutional problem."
   },
   {
     "id": "gov_u3_q268",
@@ -5938,26 +5918,6 @@ window.APGOV_MCQ = [
     ],
     "answer": 0,
     "explanation": "Citizens United held that political spending is a form of protected speech under the First Amendment and that corporations and unions have the same First Amendment rights as individuals, making limits on independent expenditures unconstitutional. Option B is wrong because the 14th Amendment was not the basis of the ruling and the case concerned spending, not equal protection. Option C is a direct misconception - BCRA (McCain-Feingold) actually restricted corporate electioneering communications, and Citizens United partially struck down those provisions; it did not grant unlimited direct contributions. Option D is a critical trap: Citizens United only struck down limits on independent expenditures, not direct contributions to candidates, which remain regulated under federal law."
-  },
-  {
-    "id": "gov_u5_q309",
-    "subject": "apgov",
-    "unit": 5,
-    "topic": "Media Framing and Agenda Setting",
-    "topicLabel": "Media Framing and Agenda Setting",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "During a congressional debate over immigration policy, major news networks devote extensive coverage to stories emphasizing national security threats at the border, while giving minimal airtime to economic arguments about immigrant labor contributions. Which media effects concepts best explain the likely influence on public opinion?",
-    "choices": [
-      "A) Agenda setting causes the public to view immigration as important, while framing shapes their evaluation of it primarily through a security lens.",
-      "B) The winner-take-all allocation of electors in most states, which functions like a single-member district system ensuring a candidate must finish first in a state to receive any of its electors, even with a substantial national popular vote share, and Duverger's Law, which holds that such plurality systems tend to produce two-party dominance, together explain why third-party candidates receive zero Electoral College votes despite meaningful popular support.",
-      "C) The media's gatekeeping function ensures only accurate information reaches citizens, reducing the influence of framing on public attitudes.",
-      "D) Rational ignorance prevents most citizens from being influenced by media coverage, limiting both agenda setting and framing effects."
-    ],
-    "answer": 0,
-    "explanation": "Agenda setting refers to the media's power to determine which issues the public considers important - extensive coverage of immigration signals it is a priority issue. Framing refers to how the media presents an issue, influencing which aspects audiences use to evaluate it - emphasizing security threats frames immigration as a danger rather than an economic asset, shaping how people think about the policy. Option B reverses the definitions: agenda setting determines salience (what is important), not the moral values applied; framing shapes evaluative context, not importance rankings. Option C misrepresents gatekeeping as a neutralizing or accuracy-ensuring function; gatekeeping is the editorial selection process and does not eliminate framing effects. Option D overstates rational ignorance - while some voters are disengaged, research consistently shows media framing and agenda setting do influence broad public opinion, particularly on salient issues."
   },
   {
     "id": "gov_u2_q310",
