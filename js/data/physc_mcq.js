@@ -17197,5 +17197,383 @@ window.PHYSC_MCQ = [
     "answer": 0,
     "explanation": "The net force is F = m·a = m·(dv/dt). dv/dt = 4 - 2t. At t = 1 s: a = 4 - 2 = 2 m/s^2, so F = 2(2) = 4 N. The velocity at t = 1 s: v = 4(1) - 1 = 3 m/s. Power P = F·v = 4(3) = 12 W. Answer A is correct. Distractor B (6 W) comes from using P = F·v but computing F = ma with m = 1 kg instead of 2 kg, giving P = 2(3) = 6 W. Distractor C (18 W) results from incorrectly computing P = dK/dt = d(mv^2/2)/dt directly but making an algebraic error, or using v^2 times mass at that instant. Distractor D (8 W) comes from computing P = m·v·a but using v = 2 m/s (forgetting the t^2 term) or other arithmetic errors.",
     "type": "MCQ"
+  },
+  {
+    "id": "physc_u9_q801",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "electric potential",
+    "topicLabel": "electric potential",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "A point charge $q = +4\\,\\mu\\text{C}$ is located at the origin. What is the electric potential at a point $r = 2\\,\\text{m}$ away? Use $k = 9 \\times 10^9\\,\\text{N·m}^2/\\text{C}^2$.",
+    "choices": [
+      "$9{,}000\\,\\text{V}$",
+      "$36{,}000\\,\\text{V}$",
+      "$18{,}000\\,\\text{V}$",
+      "$4{,}500\\,\\text{V}$"
+    ],
+    "answer": 2,
+    "explanation": "$V = kq/r = (9 \\times 10^9)(4 \\times 10^{-6})/2 = 18{,}000\\,\\text{V}$. Choice A and D drop a factor of 2 or 4; Choice B forgets to divide by $r$.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q802",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "electric potential",
+    "topicLabel": "electric potential",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Two point charges, $q_1 = +3\\,\\mu\\text{C}$ and $q_2 = -3\\,\\mu\\text{C}$, are placed at $x = -1\\,\\text{m}$ and $x = +1\\,\\text{m}$ respectively. What is the electric potential at the origin?",
+    "choices": [
+      "$0\\,\\text{V}$",
+      "$+27{,}000\\,\\text{V}$",
+      "$-27{,}000\\,\\text{V}$",
+      "$+13{,}500\\,\\text{V}$"
+    ],
+    "answer": 0,
+    "explanation": "Potential is a scalar sum: $V = kq_1/r_1 + kq_2/r_2$. Both points are equidistant ($r = 1\\,\\text{m}$), and the charges are equal and opposite, so $V = k(+3\\,\\mu\\text{C})/1 + k(-3\\,\\mu\\text{C})/1 = 0$. The electric field at the origin is non-zero, but potential is zero — common student error is to confuse the two.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q803",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "electric potential",
+    "topicLabel": "electric potential",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Three identical $+q$ charges sit at the corners of an equilateral triangle of side $a$. What is the electric potential at the centroid (distance $a/\\sqrt{3}$ from each vertex)?",
+    "choices": [
+      "$kq/a$",
+      "$\\sqrt{3}\\,kq/a$",
+      "$3\\sqrt{3}\\,kq/a$",
+      "$3kq/a$"
+    ],
+    "answer": 2,
+    "explanation": "Each charge contributes $kq/(a/\\sqrt{3}) = \\sqrt{3}\\,kq/a$. Three identical charges give $V = 3\\sqrt{3}\\,kq/a$. Choice B forgets to multiply by 3 (number of charges); Choice D uses $r = a$ instead of $a/\\sqrt{3}$.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q804",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "potential energy electric",
+    "topicLabel": "potential energy electric",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What is the electric potential energy of a system of two point charges $q_1 = +2\\,\\mu\\text{C}$ and $q_2 = -5\\,\\mu\\text{C}$ separated by $r = 0.10\\,\\text{m}$?",
+    "choices": [
+      "$+0.90\\,\\text{J}$",
+      "$-0.90\\,\\text{J}$",
+      "$+0.45\\,\\text{J}$",
+      "$-0.45\\,\\text{J}$"
+    ],
+    "answer": 1,
+    "explanation": "$U = kq_1q_2/r = (9 \\times 10^9)(2 \\times 10^{-6})(-5 \\times 10^{-6})/0.10 = -0.90\\,\\text{J}$. The negative sign indicates the system is bound — work must be done against the attractive force to separate the charges to infinity.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q805",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "potential energy electric",
+    "topicLabel": "potential energy electric",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Three identical point charges $+q$ are brought from infinity and placed at the corners of an equilateral triangle of side $a$. What is the total work done by an external agent (= the system's electric potential energy)?",
+    "choices": [
+      "$kq^2/a$",
+      "$2kq^2/a$",
+      "$3kq^2/a$",
+      "$6kq^2/a$"
+    ],
+    "answer": 2,
+    "explanation": "There are $\\binom{3}{2} = 3$ unique pairs, each contributing $U_{\\text{pair}} = kq^2/a$. Total: $U = 3kq^2/a$. Common error is to count six pairs (Choice D) or forget to count interactions (Choice A).",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q806",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "electric potential",
+    "topicLabel": "electric potential",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A charge $q = +2\\,\\mu\\text{C}$ is moved from a point at potential $V_a = +50\\,\\text{V}$ to a point at $V_b = -150\\,\\text{V}$. What is the work done by the electric field on the charge?",
+    "choices": [
+      "$-4 \\times 10^{-4}\\,\\text{J}$",
+      "$+2 \\times 10^{-4}\\,\\text{J}$",
+      "$-2 \\times 10^{-4}\\,\\text{J}$",
+      "$+4 \\times 10^{-4}\\,\\text{J}$"
+    ],
+    "answer": 3,
+    "explanation": "$W_{\\text{field}} = -q\\Delta V = -q(V_b - V_a) = -(2 \\times 10^{-6})(-150 - 50) = -(2 \\times 10^{-6})(-200) = +4 \\times 10^{-4}\\,\\text{J}$. A positive charge naturally moves toward lower potential; the field does positive work. Sign-error gives Choice A.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q807",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "electric potential",
+    "topicLabel": "electric potential",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "An electron (charge $-e$, mass $m_e$) is accelerated from rest through a potential difference of $\\Delta V = +100\\,\\text{V}$ (from low to high potential). Its final speed is approximately:",
+    "choices": [
+      "$1.9 \\times 10^7\\,\\text{m/s}$",
+      "$2.0 \\times 10^5\\,\\text{m/s}$",
+      "$3.0 \\times 10^8\\,\\text{m/s}$",
+      "$5.9 \\times 10^6\\,\\text{m/s}$"
+    ],
+    "answer": 3,
+    "explanation": "Energy conservation: $\\tfrac{1}{2}m_e v^2 = e\\Delta V$, so $v = \\sqrt{2e\\Delta V / m_e} = \\sqrt{2(1.6 \\times 10^{-19})(100)/(9.11 \\times 10^{-31})} \\approx 5.9 \\times 10^6\\,\\text{m/s}$. Choice C is the speed of light, a non-relativistic-region check.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q808",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "field from potential",
+    "topicLabel": "field from potential",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "The electric potential along the $x$-axis is given by $V(x) = 4x^3 - 6x^2 + 2$ (in volts, with $x$ in meters). What is the $x$-component of the electric field at $x = 1\\,\\text{m}$?",
+    "choices": [
+      "$0\\,\\text{V/m}$",
+      "$+12\\,\\text{V/m}$",
+      "$-12\\,\\text{V/m}$",
+      "$-6\\,\\text{V/m}$"
+    ],
+    "answer": 0,
+    "explanation": "$E_x = -dV/dx = -(12x^2 - 12x) = -12x^2 + 12x$. At $x = 1$: $E_x = -12 + 12 = 0$. This is a critical point of $V$, so the field vanishes there. Choice B drops the negative sign; Choice C plugs in incorrectly.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q809",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "field from potential",
+    "topicLabel": "field from potential",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "In a region where $V(x, y) = 3x^2 y - y^3$ (V, with x,y in m), what is the electric field vector at the point $(1, 2)$?",
+    "choices": [
+      "$\\langle -12, 9 \\rangle\\,\\text{V/m}$",
+      "$\\langle 12, -9 \\rangle\\,\\text{V/m}$",
+      "$\\langle -12, -9 \\rangle\\,\\text{V/m}$",
+      "$\\langle -6, 9 \\rangle\\,\\text{V/m}$"
+    ],
+    "answer": 0,
+    "explanation": "$\\vec{E} = -\\nabla V$. $\\partial V/\\partial x = 6xy$, so $E_x = -6xy = -6(1)(2) = -12$. $\\partial V/\\partial y = 3x^2 - 3y^2$, so $E_y = -(3 - 12) = +9$. Therefore $\\vec{E} = \\langle -12, 9 \\rangle\\,\\text{V/m}$. Sign errors give the other choices.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q810",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "field from potential",
+    "topicLabel": "field from potential",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "In a region the electric potential varies as $V(r) = A/r$ where $A$ is a positive constant and $r$ is the radial distance from a fixed point. What is the magnitude of the electric field at distance $r$?",
+    "choices": [
+      "$A/r^2$ (radially inward)",
+      "$A/r^2$ (radially outward)",
+      "$A/r$ (radially outward)",
+      "$2A/r^3$ (radially outward)"
+    ],
+    "answer": 1,
+    "explanation": "$E_r = -dV/dr = -d/dr(A/r) = +A/r^2$. The positive sign means $\\vec{E}$ points radially outward — consistent with a positive point charge having $V = kq/r$ and field $E = kq/r^2$ outward. The minus sign in $-dV/dr$ combines with $-1/r^2$ from differentiation to give a positive result.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q811",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "electric potential",
+    "topicLabel": "electric potential",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A thin ring of radius $R$ carries a uniformly distributed total charge $+Q$. What is the electric potential at a point on the central axis at distance $z$ from the center of the ring?",
+    "choices": [
+      "$kQ/R$",
+      "$kQ/z$",
+      "$kQ/\\sqrt{R^2 + z^2}$",
+      "$kQz/(R^2 + z^2)^{3/2}$"
+    ],
+    "answer": 2,
+    "explanation": "Every element of the ring is the same distance $\\sqrt{R^2 + z^2}$ from the axial point. Since $V$ is a scalar, $V = kQ/\\sqrt{R^2 + z^2}$. Choice D is the on-axis $E$-field of a ring (vector), not $V$. At $z = 0$: $V = kQ/R$ (Choice A is the special case).",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q812",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "electric potential",
+    "topicLabel": "electric potential",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A uniformly charged disk of radius $R$ has surface charge density $\\sigma$. The potential on the central axis at distance $z > 0$ is $V(z) = (\\sigma/2\\varepsilon_0)\\!\\left[\\sqrt{R^2 + z^2} - z\\right]$. What is the magnitude of the electric field on the axis at distance $z$?",
+    "choices": [
+      "$\\dfrac{\\sigma}{2\\varepsilon_0}\\!\\left[1 - \\dfrac{z}{\\sqrt{R^2 + z^2}}\\right]$",
+      "$\\dfrac{\\sigma}{2\\varepsilon_0}\\!\\left[\\dfrac{z}{\\sqrt{R^2 + z^2}} - 1\\right]$",
+      "$\\dfrac{\\sigma z}{2\\varepsilon_0\\sqrt{R^2 + z^2}}$",
+      "$\\dfrac{\\sigma}{2\\varepsilon_0}$"
+    ],
+    "answer": 0,
+    "explanation": "$E_z = -dV/dz = -(\\sigma/2\\varepsilon_0)\\,d/dz[\\sqrt{R^2+z^2} - z] = -(\\sigma/2\\varepsilon_0)[z/\\sqrt{R^2+z^2} - 1] = (\\sigma/2\\varepsilon_0)[1 - z/\\sqrt{R^2+z^2}]$. As $R \\to \\infty$ this approaches $\\sigma/(2\\varepsilon_0)$ (Choice D — the infinite-sheet limit, but only correct in that limit).",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q813",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "potential from field",
+    "topicLabel": "potential from field",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A uniform electric field $\\vec{E} = 200\\,\\hat{x}\\,\\text{V/m}$ exists in a region. What is the potential difference $V_A - V_B$ between point $A = (0, 0)$ and point $B = (3\\,\\text{m}, 4\\,\\text{m})$?",
+    "choices": [
+      "$+1000\\,\\text{V}$",
+      "$+600\\,\\text{V}$",
+      "$-600\\,\\text{V}$",
+      "$-1000\\,\\text{V}$"
+    ],
+    "answer": 1,
+    "explanation": "$V_A - V_B = -\\!\\int_B^A \\vec{E} \\cdot d\\vec{\\ell} = \\int_A^B \\vec{E} \\cdot d\\vec{\\ell}$. With uniform $\\vec{E}$, $V_A - V_B = \\vec{E} \\cdot (\\vec{r}_B - \\vec{r}_A) = (200)(3) + 0(4) = +600\\,\\text{V}$. The y-component of displacement contributes nothing because $E_y = 0$. Choice A wrongly uses the path length 5 m; sign errors give C/D.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q814",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "potential from field",
+    "topicLabel": "potential from field",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "In a region the electric field is $\\vec{E}(x) = (6x^2)\\,\\hat{x}\\,\\text{V/m}$ (with x in meters). Taking $V(0) = 0$, what is the potential at $x = 2\\,\\text{m}$?",
+    "choices": [
+      "$+24\\,\\text{V}$",
+      "$-24\\,\\text{V}$",
+      "$+16\\,\\text{V}$",
+      "$-16\\,\\text{V}$"
+    ],
+    "answer": 3,
+    "explanation": "$V(x) - V(0) = -\\int_0^x E_x\\,dx' = -\\int_0^2 6x'^2\\,dx' = -[2x'^3]_0^2 = -16\\,\\text{V}$. So $V(2) = -16\\,\\text{V}$. The field points in $+\\hat{x}$, so potential decreases in that direction — Choice C drops the sign.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q815",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "equipotential surfaces",
+    "topicLabel": "equipotential surfaces",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Which of the following statements about equipotential surfaces is TRUE?",
+    "choices": [
+      "Equipotential surfaces are always parallel to the electric field.",
+      "Work done in moving a charge along an equipotential surface is zero.",
+      "Equipotential surfaces only exist near point charges.",
+      "The electric field magnitude is constant along an equipotential surface."
+    ],
+    "answer": 1,
+    "explanation": "By definition $\\Delta V = 0$ along an equipotential, so $W = -q\\Delta V = 0$. Equipotentials are always perpendicular (not parallel) to $\\vec{E}$ — Choice A is the opposite of the truth. Choice C is wrong (they exist for any field). Choice D is wrong: only $V$ is constant, not $|\\vec{E}|$.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q816",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "equipotential surfaces",
+    "topicLabel": "equipotential surfaces",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A solid metal sphere of radius $R$ carries net charge $+Q$ and sits in electrostatic equilibrium. Which statement about its electric potential is correct?",
+    "choices": [
+      "The potential is highest at the center and decreases with $r$.",
+      "The potential inside the sphere is zero.",
+      "The potential is constant everywhere inside (and on) the sphere, equal to $kQ/R$.",
+      "The potential outside increases linearly with distance from the surface."
+    ],
+    "answer": 2,
+    "explanation": "In a conductor at equilibrium, $\\vec{E} = 0$ inside, so $\\nabla V = 0$ — i.e., $V$ is uniform throughout the conductor and equal to its surface value $kQ/R$. Outside, $V = kQ/r$ (decreases as $1/r$, Choice D wrong). Choice A confuses field with potential intuition; Choice B confuses zero field with zero potential.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q817",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "electric potential",
+    "topicLabel": "electric potential",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A proton and an alpha particle (charge $+2e$, mass $\\approx 4m_p$) are accelerated from rest through the same potential difference $\\Delta V$. The ratio of their final kinetic energies $K_\\alpha / K_p$ is:",
+    "choices": [
+      "$1/2$",
+      "$1$",
+      "$4$",
+      "$2$"
+    ],
+    "answer": 3,
+    "explanation": "$K = q\\Delta V$. Since the alpha has twice the charge, $K_\\alpha = 2e\\Delta V$ while $K_p = e\\Delta V$. The ratio is 2. Mass does not appear because the work done by the field depends only on charge and $\\Delta V$ — the alpha ends up slower than the proton ($v \\propto \\sqrt{q/m}$), but its kinetic energy is twice as large.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
+  },
+  {
+    "id": "physc_u9_q818",
+    "subject": "apphyscem",
+    "unit": 9,
+    "topic": "field from potential",
+    "topicLabel": "field from potential",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "The graph of $V(x)$ versus $x$ along a line shows a region where $V$ decreases steeply from 12 V to 4 V over $\\Delta x = 2\\,\\text{m}$ (approximately linear). What is the electric field $E_x$ in that region?",
+    "choices": [
+      "$+4\\,\\text{V/m}$",
+      "$-4\\,\\text{V/m}$",
+      "$+8\\,\\text{V/m}$",
+      "$-2\\,\\text{V/m}$"
+    ],
+    "answer": 0,
+    "explanation": "$E_x = -dV/dx \\approx -(\\Delta V/\\Delta x) = -((4 - 12)/2) = -(-4) = +4\\,\\text{V/m}$. The positive sign shows the field points in $+\\hat{x}$, the direction of decreasing $V$. Choice B drops the leading minus sign.",
+    "calculator": false,
+    "isLatex": true,
+    "format": "latex"
   }
 ];
