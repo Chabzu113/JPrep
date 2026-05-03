@@ -187,24 +187,6 @@ window.PHYSICS_MCQ = [
     "explanation": "Using the average-velocity shortcut: $x=\\\\frac{1}{2}(v_0+v)t=\\\\frac{1}{2}(0+18)(6)=54\\\\,\\\\text{m}$. Many students pick 108 m by forgetting to divide by 2 (using $vt$ instead of average velocity times time for uniform acceleration)."
   },
   {
-    "id": "U1-MCQ-03",
-    "subject": "apphys1",
-    "unit": 1,
-    "topic": "Position-Time Graph",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A vehicle's motion is shown in the position-time graph. Which of the following statements about the motion of the object is correct?",
-    "choices": [
-      "The object is moving with a constant positive velocity.",
-      "The slope of the graph is decreasing over time.",
-      "The object is moving with a non-uniform (changing) velocity.",
-      "The object is moving, then stopping, then moving again."
-    ],
-    "answer": 2,
-    "explanation": "The slope of the position-time graph gives velocity. If the slope changes over time, the velocity is changing — indicating non-uniform (accelerated) motion.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Position (m)</text><line x1='124' y1='35' x2='124' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='124' y='219' text-anchor='middle' class='svg-label'>2</text><line x1='182' y1='35' x2='182' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='219' text-anchor='middle' class='svg-label'>4</text><line x1='241' y1='35' x2='241' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='241' y='219' text-anchor='middle' class='svg-label'>6</text><line x1='65' y1='171' x2='124' y2='69' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='124' cy='69' r='3' fill='#3b82f6'/><line x1='124' y1='69' x2='182' y2='69' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='182' cy='69' r='3' fill='#3b82f6'/><line x1='182' y1='69' x2='241' y2='171' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='241' cy='171' r='3' fill='#3b82f6'/><circle cx='65' cy='171' r='3' fill='#3b82f6'/></svg>"
-  },
-  {
     "id": "U1-MCQ-04",
     "subject": "apphys1",
     "unit": 1,
@@ -255,23 +237,6 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Range $R = \\\\frac{v_0^2 \\\\sin 2\\\\theta}{g}$. Since $\\\\sin(2\\\\theta) = \\\\sin(180^\\\\circ - 2\\\\theta)$, complementary angles (summing to $90^\\\\circ$) give equal ranges. Both $30^\\\\circ/60^\\\\circ$ and $20^\\\\circ/70^\\\\circ$ are complementary pairs. These are the same complementary angles."
-  },
-  {
-    "id": "U1-MCQ-07",
-    "subject": "apphys1",
-    "unit": 1,
-    "topic": "Two-Object Acceleration",
-    "difficulty": "hard",
-    "type": "MCQ",
-    "question": "Two cars start from rest $A$ and $B$ at the same spot and accelerate with the same acceleration. Car $A$ moves for $t$ seconds, and Car $B$ moves for $2t$ seconds. As the progression, the distance between the two objects:",
-    "choices": [
-      "Decreases linearly with time.",
-      "Increases quadratically with time.",
-      "Increases linearly with time.",
-      "Remains constant"
-    ],
-    "answer": 1,
-    "explanation": "Distance $A$: $x_A = \\\\frac{1}{2}at^2$. Distance $B$: $x_B = \\\\frac{1}{2}a(2t)^2 = 2at^2$. $\\\\Delta x = x_B - x_A = 2at^2 - \\\\frac{1}{2}at^2 = \\\\frac{3}{2}at^2$. Expanding the scenario: distance between them increases quadratically with $t$."
   },
   {
     "id": "U1-MCQ-08",
@@ -519,40 +484,6 @@ window.PHYSICS_MCQ = [
     "explanation": "Terminal velocity occurs when air resistance equals the weight of the object. The net force is then zero, so acceleration ceases and the velocity becomes constant."
   },
   {
-    "id": "U2-MCQ-02",
-    "subject": "apphys1",
-    "unit": 2,
-    "topic": "Kinematic / Newton's Laws",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "Two blocks $B_1$ and $B_2$ are continuously right along the same path uniformly at different speeds with the same acceleration. Which of the following statements is true?",
-    "choices": [
-      "The blocks will always be a constant distance apart.",
-      "$B_2$ can never catch up with $B_1$.",
-      "The blocks are communally right along a frictionless path.",
-      "If the system is released from rest, what, which of the ceiling doing decreasing this (Choose only) $\\\\Delta v_0$."
-    ],
-    "answer": 0,
-    "explanation": "For two objects starting at different speeds but with the same acceleration, they maintain constant relative velocity and therefore travel a constant distance apart (since $\\\\Delta v = v_2 - v_1$ remains constant and $\\\\Delta x = \\\\Delta v \\\\cdot t$ grows). Wait — with the same acceleration, the velocity difference $\\\\Delta v = v_{2,0} - v_{1,0}$ stays the same, and the gap grows linearly with $t$. Actually if they start the same time, the distance grows. The best answer is (A) if they start at same time and same place with same acceleration — they remain together."
-  },
-  {
-    "id": "U2-MCQ-03",
-    "subject": "apphys1",
-    "unit": 2,
-    "topic": "System of Blocks (Newton's Laws)",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "Two blocks $B_1$ ($m_1$) and $B_2$ ($m_2$) are joined on the same part uniformly at $B_{1,0}$ and $B_{2,0}$ (initial velocity). The friction between the blocks is measured as $B_{1,0}$ are measured at $B_{1,0}$ and Project is measured at $B_{2,0}$. Which property spends more time in the actual being/this (that) potential?",
-    "choices": [
-      "Property A",
-      "Property B",
-      "Property C",
-      "It depends on the properties"
-    ],
-    "answer": 3,
-    "explanation": "Timing described by the actual component Initial velocity $(B_{1,0})$ = functionally. Since $(v_0)/(v_1) = (v_0)/(v_0) = 1$, Project B's greater initial velocity and behavior determined the actual being/this (that) potential at the air target."
-  },
-  {
     "id": "U2-MCQ-04",
     "subject": "apphys1",
     "unit": 2,
@@ -585,24 +516,6 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Since the crate does not move, it does not accelerate. Static friction matches the applied force exactly (up to its maximum), so the net force is zero and there is no acceleration."
-  },
-  {
-    "id": "U2-MCQ-06",
-    "subject": "apphys1",
-    "unit": 2,
-    "topic": "Block on Incline",
-    "difficulty": "hard",
-    "type": "MCQ",
-    "question": "A constant horizontal force $F$ is applied to an object on a frictionless inclined surface. If Force is $50\\\\,\\\\text{N}$ applied horizontally to Block A on an inclined surface at $37^\\\\circ$, what is the magnitude of the force needed to accelerate the block to $5\\\\,\\\\text{m/s}^2$?",
-    "choices": [
-      "$F = 4\\\\,\\\\text{N}$",
-      "$F = N$",
-      "$F = 6\\\\,\\\\text{N}$",
-      "$F = 7\\\\,\\\\text{N}$"
-    ],
-    "answer": 0,
-    "explanation": "System acceleration: $a = F/(m_1 + m_2) = 1/(v_0)_y \\\\cdot (v_0)_x$. The contact force $B$ is the force needed to accelerate $m_1$: $F_B = m_1 \\\\cdot a$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='223' y2='120' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='250' y2='220' stroke-width='2' class='svg-axis'/><line x1='250' y1='220' x2='223' y2='120' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><path d='M 78,220 A 28,28 0 0,0 74,206' fill='none' stroke-width='1' class='svg-axis'/><text x='85' y='212' class='svg-label' font-size='11'>θ</text><line x1='66' y1='220' x2='58' y2='228' stroke-width='1' class='svg-axis'/><line x1='84' y1='220' x2='76' y2='228' stroke-width='1' class='svg-axis'/><line x1='102' y1='220' x2='94' y2='228' stroke-width='1' class='svg-axis'/><line x1='120' y1='220' x2='112' y2='228' stroke-width='1' class='svg-axis'/><line x1='138' y1='220' x2='130' y2='228' stroke-width='1' class='svg-axis'/><line x1='156' y1='220' x2='148' y2='228' stroke-width='1' class='svg-axis'/><line x1='174' y1='220' x2='166' y2='228' stroke-width='1' class='svg-axis'/><line x1='192' y1='220' x2='184' y2='228' stroke-width='1' class='svg-axis'/><rect x='113' y='141' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='129' y='162' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='129' y1='157' x2='129.0' y2='212.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='129,222 124.0,212.0 134.0,212.0' fill='#dc2626' stroke='none'/><text x='129' y='236' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='129' y1='157' x2='101.5' y2='109.4' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='96.50000000000001,100.70834875401148 105.8,106.9 97.2,111.9' fill='#3b82f6' stroke='none'/><text x='90' y='89' text-anchor='end' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text><line x1='129' y1='157' x2='177.5' y2='157.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='187.5,157 177.5,162.0 177.5,152.0' fill='#8b5cf6' stroke='none'/><text x='202' y='157' text-anchor='start' fill='#8b5cf6' font-size='12' font-weight='600' class='svg-label'>F</text></svg>"
   },
   {
     "id": "U2-MCQ-07",
@@ -1626,111 +1539,6 @@ window.PHYSICS_MCQ = [
     "explanation": "The book is in equilibrium. Gravity ($F_g$) pulls the book downward and the normal force ($F_N$) from the table pushes upward. Since the book does not accelerate, $F_N = F_g$ and the net force is zero."
   },
   {
-    "id": "U3-MCQ-02",
-    "subject": "apphys1",
-    "unit": 3,
-    "topic": "Work Done by a Force",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A constant force $F$ acts on an object as it moves horizontally. The force is directed at an angle $\\\\theta$ above the horizontal. If the object moves a distance $d$, which expression correctly gives the work done by $F$?",
-    "choices": [
-      "$W = Fd$",
-      "$W = Fd\\\\sin\\\\theta$",
-      "$W = Fd\\\\cos\\\\theta$",
-      "$W = Fd\\\\tan\\\\theta$"
-    ],
-    "answer": 2,
-    "explanation": "Work is defined as $W = \\\\vec{F} \\\\cdot \\\\vec{d} = Fd\\\\cos\\\\theta$, where $\\\\theta$ is the angle between the force vector and the displacement vector."
-  },
-  {
-    "id": "U3-MCQ-03",
-    "subject": "apphys1",
-    "unit": 3,
-    "topic": "Kinetic Energy",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "An object's kinetic energy is $KE$. If its speed doubles while its mass remains the same, what is its new kinetic energy?",
-    "choices": [
-      "$KE$",
-      "$2\\\\,KE$",
-      "$4\\\\,KE$",
-      "$\\\\sqrt{2}\\\\,KE$"
-    ],
-    "answer": 2,
-    "explanation": "Kinetic energy is $KE = \\\\frac{1}{2}mv^2$. If speed doubles to $2v$: $$KE' = \\\\frac{1}{2}m(2v)^2 = \\\\frac{1}{2}m(4v^2) = 4 \\\\cdot \\\\frac{1}{2}mv^2 = 4\\\\,KE$$"
-  },
-  {
-    "id": "U3-MCQ-04",
-    "subject": "apphys1",
-    "unit": 3,
-    "topic": "Work-Energy Theorem",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A net force acts on an object initially at rest, displacing it $5\\\\,\\\\text{m}$. The net force is $12\\\\,\\\\text{N}$. What is the final kinetic energy of the object?",
-    "choices": [
-      "$12\\\\,\\\\text{J}$",
-      "$30\\\\,\\\\text{J}$",
-      "$60\\\\,\\\\text{J}$",
-      "$120\\\\,\\\\text{J}$"
-    ],
-    "answer": 2,
-    "explanation": "By the work-energy theorem, the net work done equals the change in kinetic energy. $W_{net} = F_{net} \\\\cdot d = (12)(5) = 60\\\\,\\\\text{J}$. Since the object started from rest, $KE_f = 60\\\\,\\\\text{J}$."
-  },
-  {
-    "id": "U3-MCQ-05",
-    "subject": "apphys1",
-    "unit": 3,
-    "topic": "Gravitational Potential Energy",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A $2\\\\,\\\\text{kg}$ object is at rest at a height of $5\\\\,\\\\text{m}$ above the ground. How much gravitational potential energy does it have? (Use $g = 10\\\\,\\\\text{m/s}^2$)",
-    "choices": [
-      "$10\\\\,\\\\text{J}$",
-      "$50\\\\,\\\\text{J}$",
-      "$100\\\\,\\\\text{J}$",
-      "$25\\\\,\\\\text{J}$"
-    ],
-    "answer": 2,
-    "explanation": "$PE_g = mgh = (2)(10)(5) = 100\\\\,\\\\text{J}$. Gravitational potential energy is linearly proportional to height, so doubling the height makes the potential energy double.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='218' x2='260' y2='218' stroke-width='2' class='svg-axis'/><line x1='56' y1='218' x2='48' y2='226' stroke-width='2' class='svg-axis'/><line x1='70' y1='218' x2='62' y2='226' stroke-width='2' class='svg-axis'/><line x1='84' y1='218' x2='76' y2='226' stroke-width='2' class='svg-axis'/><line x1='98' y1='218' x2='90' y2='226' stroke-width='2' class='svg-axis'/><line x1='112' y1='218' x2='104' y2='226' stroke-width='2' class='svg-axis'/><line x1='126' y1='218' x2='118' y2='226' stroke-width='2' class='svg-axis'/><line x1='140' y1='218' x2='132' y2='226' stroke-width='2' class='svg-axis'/><line x1='154' y1='218' x2='146' y2='226' stroke-width='2' class='svg-axis'/><line x1='168' y1='218' x2='160' y2='226' stroke-width='2' class='svg-axis'/><line x1='182' y1='218' x2='174' y2='226' stroke-width='2' class='svg-axis'/><line x1='196' y1='218' x2='188' y2='226' stroke-width='2' class='svg-axis'/><line x1='210' y1='218' x2='202' y2='226' stroke-width='2' class='svg-axis'/><line x1='224' y1='218' x2='216' y2='226' stroke-width='2' class='svg-axis'/><line x1='238' y1='218' x2='230' y2='226' stroke-width='2' class='svg-axis'/><line x1='252' y1='218' x2='244' y2='226' stroke-width='2' class='svg-axis'/><line x1='90' y1='88' x2='155' y2='88' stroke-width='2' class='svg-axis'/><rect x='106' y='56' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='122' y='77' text-anchor='middle' font-size='11' class='svg-label'>2 kg</text><line x1='90' y1='88' x2='90' y2='218' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><line x1='80' y1='88' x2='80' y2='218' stroke='#94a3b8' stroke-width='1'/><polygon points='80,88 75,100 85,100' fill='#94a3b8'/><polygon points='80,218 75,206 85,206' fill='#94a3b8'/><text x='68' y='158' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>h = 5 m</text><line x1='122' y1='104' x2='122.0' y2='140.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='122,150 117.0,140.0 127.0,140.0' fill='#dc2626' stroke='none'/><text x='128' y='148' text-anchor='start' fill='#dc2626' font-size='10' class='svg-label'>F_g</text><text x='155' y='236' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>Ground (PE = 0)</text><text x='155' y='28' text-anchor='middle' font-size='10' class='svg-label'>PE = mgh = (2)(10)(5) = 100 J</text></svg>",
-    "deprecated": true
-  },
-  {
-    "id": "U3-MCQ-06",
-    "subject": "apphys1",
-    "unit": 3,
-    "topic": "Conservation of Energy (Frictionless)",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A frictionless roller coaster starts at rest at height $h = 20\\\\,\\\\text{m}$. What is the speed of the cart at the bottom? (Use $g = 10\\\\,\\\\text{m/s}^2$)",
-    "choices": [
-      "$10\\\\,\\\\text{m/s}$",
-      "$14\\\\,\\\\text{m/s}$",
-      "$20\\\\,\\\\text{m/s}$",
-      "$200\\\\,\\\\text{m/s}$"
-    ],
-    "answer": 2,
-    "explanation": "By conservation of energy: $mgh = \\\\frac{1}{2}mv^2$. $$v = \\\\sqrt{2gh} = \\\\sqrt{2(10)(20)} = \\\\sqrt{400} = 20\\\\,\\\\text{m/s}$$",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='222' x2='275' y2='222' stroke-width='2' class='svg-axis'/><line x1='51' y1='222' x2='43' y2='230' stroke-width='2' class='svg-axis'/><line x1='65' y1='222' x2='57' y2='230' stroke-width='2' class='svg-axis'/><line x1='79' y1='222' x2='71' y2='230' stroke-width='2' class='svg-axis'/><line x1='93' y1='222' x2='85' y2='230' stroke-width='2' class='svg-axis'/><line x1='107' y1='222' x2='99' y2='230' stroke-width='2' class='svg-axis'/><line x1='121' y1='222' x2='113' y2='230' stroke-width='2' class='svg-axis'/><line x1='135' y1='222' x2='127' y2='230' stroke-width='2' class='svg-axis'/><line x1='149' y1='222' x2='141' y2='230' stroke-width='2' class='svg-axis'/><line x1='163' y1='222' x2='155' y2='230' stroke-width='2' class='svg-axis'/><line x1='177' y1='222' x2='169' y2='230' stroke-width='2' class='svg-axis'/><line x1='191' y1='222' x2='183' y2='230' stroke-width='2' class='svg-axis'/><line x1='205' y1='222' x2='197' y2='230' stroke-width='2' class='svg-axis'/><line x1='219' y1='222' x2='211' y2='230' stroke-width='2' class='svg-axis'/><line x1='233' y1='222' x2='225' y2='230' stroke-width='2' class='svg-axis'/><line x1='247' y1='222' x2='239' y2='230' stroke-width='2' class='svg-axis'/><line x1='261' y1='222' x2='253' y2='230' stroke-width='2' class='svg-axis'/><path d='M 75,60 Q 120,225 175,218 Q 220,215 265,218' stroke='#3b82f6' stroke-width='2.5' fill='none'/><line x1='75' y1='60' x2='75' y2='222' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='56' y='144' text-anchor='end' font-size='10' font-weight='600' class='svg-label'>h = 20 m</text><circle cx='75' cy='60' r='6' fill='#94a3b8'/><text x='68' y='50' text-anchor='end' font-weight='600' class='svg-label'>A</text><text x='66' y='63' text-anchor='end' fill='#94a3b8' font-size='9' class='svg-label'>v₀ = 0</text><circle cx='215' cy='218' r='6' fill='#94a3b8'/><text x='220' y='213' text-anchor='start' font-weight='600' class='svg-label'>B</text><text x='222' y='225' text-anchor='start' fill='#94a3b8' font-size='9' class='svg-label'>v = ?</text><text x='155' y='238' text-anchor='middle' fill='#94a3b8' font-size='9' class='svg-label'>Ground (h = 0)</text></svg>"
-  },
-  {
-    "id": "U3-MCQ-07",
-    "subject": "apphys1",
-    "unit": 3,
-    "topic": "Spring Potential Energy",
-    "difficulty": "hard",
-    "type": "MCQ",
-    "question": "A spring with spring constant $k = 400\\\\,\\\\text{N/m}$ is compressed $0.1\\\\,\\\\text{m}$ from its natural length. It is then released and launches a $0.5\\\\,\\\\text{kg}$ block on a frictionless surface. What is the speed of the block when it leaves the spring?",
-    "choices": [
-      "$1\\\\,\\\\text{m/s}$",
-      "$2\\\\,\\\\text{m/s}$",
-      "$4\\\\,\\\\text{m/s}$",
-      "$8\\\\,\\\\text{m/s}$"
-    ],
-    "answer": 1,
-    "explanation": "Spring potential energy converts to kinetic energy: $$\\\\frac{1}{2}kx^2 = \\\\frac{1}{2}mv^2$$ $$v = x\\\\sqrt{\\\\frac{k}{m}} = 0.1\\\\sqrt{\\\\frac{400}{0.5}} = 0.1\\\\sqrt{800} = 0.1(28.3) \\\\approx 2\\\\,\\\\text{m/s}$$"
-  },
-  {
     "id": "U3-MCQ-08",
     "subject": "apphys1",
     "unit": 3,
@@ -2404,23 +2212,6 @@ window.PHYSICS_MCQ = [
     "explanation": "Using the rotational form of Newton's second law: $\\\\tau = I\\\\alpha$. $$\\\\alpha = \\\\frac{\\\\tau}{I} = \\\\frac{8}{2} = 4\\\\,\\\\text{rad/s}^2$$"
   },
   {
-    "id": "U7-MCQ-08",
-    "subject": "apphys1",
-    "unit": 6,
-    "topic": "Rolling Without Slipping",
-    "difficulty": "hard",
-    "type": "MCQ",
-    "question": "A cylinder rolls without slipping down a frictionless-incline. Which of the following best describes the energy distribution at the bottom?",
-    "choices": [
-      "All energy is translational kinetic energy",
-      "All energy is rotational kinetic energy",
-      "Energy is split between translational and rotational kinetic energy",
-      "Energy is entirely potential energy"
-    ],
-    "answer": 2,
-    "explanation": "For rolling without slipping, the total kinetic energy is $KE = \\\\frac{1}{2}mv^2 + \\\\frac{1}{2}I\\\\omega^2$, consisting of both translational and rotational parts. For a solid cylinder, the split is $\\\\frac{2}{3}$ translational and $\\\\frac{1}{3}$ rotational."
-  },
-  {
     "id": "U7-MCQ-09",
     "subject": "apphys1",
     "unit": 5,
@@ -2492,24 +2283,6 @@ window.PHYSICS_MCQ = [
     "deprecated": true
   },
   {
-    "id": "U8-MCQ-03",
-    "subject": "apphys1",
-    "unit": 8,
-    "topic": "Ohm's Law / Resistance",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A wire has resistance $R$. If its length is doubled and its cross-sectional area is halved, what is the new resistance?",
-    "choices": [
-      "$R$",
-      "$2R$",
-      "$4R$",
-      "$R/2$"
-    ],
-    "answer": 2,
-    "explanation": "Resistance $R = \\\\rho L / A$. Doubling $L$ doubles $R$; halving $A$ also doubles $R$. Combined: new resistance $= 4R$.",
-    "deprecated": true
-  },
-  {
     "id": "U8-MCQ-04",
     "subject": "apphys1",
     "unit": 8,
@@ -2563,24 +2336,6 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Power dissipated: $P=I^2R=(3)^2(6)=(9)(6)=54\\\\,\\\\text{W}$. Current squared times resistance gives power. Students often pick 18 W by computing $P=IR=3\\\\times6$ without squaring the current, which is the single most common power calculation error.",
-    "deprecated": true
-  },
-  {
-    "id": "U8-MCQ-07",
-    "subject": "apphys1",
-    "unit": 8,
-    "topic": "Electric Field",
-    "difficulty": "hard",
-    "type": "MCQ",
-    "question": "A positive charge $q$ is placed in an electric field $\\\\vec{E}$ pointing to the right. What is the direction of the electric force on the charge?",
-    "choices": [
-      "To the left",
-      "To the right",
-      "Upward",
-      "The force is zero"
-    ],
-    "answer": 1,
-    "explanation": "The electric force on a positive charge is $\\\\vec{F} = q\\\\vec{E}$. Since $q > 0$, the force is in the same direction as the field — to the right.",
     "deprecated": true
   },
   {
@@ -3394,26 +3149,6 @@ window.PHYSICS_MCQ = [
     "explanation": "Constant velocity $\\\\implies \\\\Sigma F = 0$. Along the ramp: $mg\\\\sin\\\\theta - f_k = 0$ and $f_k = \\\\mu_k(mg\\\\cos\\\\theta)$. Dividing: $mg\\\\sin\\\\theta = \\\\mu_k mg\\\\cos\\\\theta \\\\implies \\\\mu_k = \\\\tan\\\\theta$."
   },
   {
-    "id": "phys1_u1_q011",
-    "subject": "apphys1",
-    "unit": 1,
-    "topic": "position displacement",
-    "topicLabel": "Position and Displacement",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A car travels 30 km east, then 20 km west. What is the car's displacement?",
-    "choices": [
-      "A) It has no initial vertical velocity",
-      "B) It has no horizontal acceleration",
-      "C) Both A and B",
-      "D) Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Displacement is the net change in position. Starting at origin, moving 30 km east puts the car at +30 km. Moving 20 km west brings it to +10 km, so displacement is 10 km east. Choice B adds distances instead of finding net displacement. Choice C gets the magnitude right but wrong direction. Choice D gives total distance traveled, not displacement."
-  },
-  {
     "id": "phys1_u1_q012",
     "subject": "apphys1",
     "unit": 1,
@@ -4037,6 +3772,61 @@ window.PHYSICS_MCQ = [
     "explanation": "Acceleration due to gravity is constant throughout projectile motion, always equal to g downward. At the highest point, only the vertical velocity component is zero, but acceleration remains g downward. Choice A confuses zero velocity with zero acceleration. Choice C incorrectly applies components to acceleration. Choice D confuses acceleration with velocity and has wrong units."
   },
   {
+    "id": "U1-MCQ-03",
+    "subject": "apphys1",
+    "unit": 1,
+    "topic": "Position-Time Graph",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A vehicle's motion is shown in the position-time graph. Which of the following statements about the motion of the object is correct?",
+    "choices": [
+      "The object is moving with a constant positive velocity.",
+      "The slope of the graph is decreasing over time.",
+      "The object is moving with a non-uniform (changing) velocity.",
+      "The object is moving, then stopping, then moving again."
+    ],
+    "answer": 2,
+    "explanation": "The slope of the position-time graph gives velocity. If the slope changes over time, the velocity is changing — indicating non-uniform (accelerated) motion.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Position (m)</text><line x1='124' y1='35' x2='124' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='124' y='219' text-anchor='middle' class='svg-label'>2</text><line x1='182' y1='35' x2='182' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='219' text-anchor='middle' class='svg-label'>4</text><line x1='241' y1='35' x2='241' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='241' y='219' text-anchor='middle' class='svg-label'>6</text><line x1='65' y1='171' x2='124' y2='69' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='124' cy='69' r='3' fill='#3b82f6'/><line x1='124' y1='69' x2='182' y2='69' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='182' cy='69' r='3' fill='#3b82f6'/><line x1='182' y1='69' x2='241' y2='171' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='241' cy='171' r='3' fill='#3b82f6'/><circle cx='65' cy='171' r='3' fill='#3b82f6'/></svg>"
+  },
+  {
+    "id": "U1-MCQ-07",
+    "subject": "apphys1",
+    "unit": 1,
+    "topic": "Two-Object Acceleration",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Two cars start from rest $A$ and $B$ at the same spot and accelerate with the same acceleration. Car $A$ moves for $t$ seconds, and Car $B$ moves for $2t$ seconds. As the progression, the distance between the two objects:",
+    "choices": [
+      "Decreases linearly with time.",
+      "Increases quadratically with time.",
+      "Increases linearly with time.",
+      "Remains constant"
+    ],
+    "answer": 1,
+    "explanation": "Distance $A$: $x_A = \\\\frac{1}{2}at^2$. Distance $B$: $x_B = \\\\frac{1}{2}a(2t)^2 = 2at^2$. $\\\\Delta x = x_B - x_A = 2at^2 - \\\\frac{1}{2}at^2 = \\\\frac{3}{2}at^2$. Expanding the scenario: distance between them increases quadratically with $t$."
+  },
+  {
+    "id": "phys1_u1_q011",
+    "subject": "apphys1",
+    "unit": 1,
+    "topic": "position displacement",
+    "topicLabel": "Position and Displacement",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A car travels 30 km east, then 20 km west. What is the car's displacement?",
+    "choices": [
+      "A) It has no initial vertical velocity",
+      "B) It has no horizontal acceleration",
+      "C) Both A and B",
+      "D) Neither A nor B"
+    ],
+    "answer": 0,
+    "explanation": "Displacement is the net change in position. Starting at origin, moving 30 km east puts the car at +30 km. Moving 20 km west brings it to +10 km, so displacement is 10 km east. Choice B adds distances instead of finding net displacement. Choice C gets the magnitude right but wrong direction. Choice D gives total distance traveled, not displacement."
+  },
+  {
     "id": "phys1_u2_q043",
     "subject": "apphys1",
     "unit": 2,
@@ -4640,6 +4430,58 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Newton's third law states that action-reaction pairs are always equal in magnitude and opposite in direction, regardless of motion. The person pushes on the wall with force F, so the wall pushes back on the person with force F. The person slides because there's no friction to balance this reaction force, but this doesn't change the magnitude of the force pair. Choice A incorrectly suggests forces depend on motion. Choice C incorrectly assumes stationary objects exert no forces. Choice D incorrectly limits equal forces to stationary cases."
+  },
+  {
+    "id": "U2-MCQ-02",
+    "subject": "apphys1",
+    "unit": 2,
+    "topic": "Kinematic / Newton's Laws",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Two blocks $B_1$ and $B_2$ are continuously right along the same path uniformly at different speeds with the same acceleration. Which of the following statements is true?",
+    "choices": [
+      "The blocks will always be a constant distance apart.",
+      "$B_2$ can never catch up with $B_1$.",
+      "The blocks are communally right along a frictionless path.",
+      "If the system is released from rest, what, which of the ceiling doing decreasing this (Choose only) $\\\\Delta v_0$."
+    ],
+    "answer": 0,
+    "explanation": "For two objects starting at different speeds but with the same acceleration, they maintain constant relative velocity and therefore travel a constant distance apart (since $\\\\Delta v = v_2 - v_1$ remains constant and $\\\\Delta x = \\\\Delta v \\\\cdot t$ grows). Wait — with the same acceleration, the velocity difference $\\\\Delta v = v_{2,0} - v_{1,0}$ stays the same, and the gap grows linearly with $t$. Actually if they start the same time, the distance grows. The best answer is (A) if they start at same time and same place with same acceleration — they remain together."
+  },
+  {
+    "id": "U2-MCQ-03",
+    "subject": "apphys1",
+    "unit": 2,
+    "topic": "System of Blocks (Newton's Laws)",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Two blocks $B_1$ ($m_1$) and $B_2$ ($m_2$) are joined on the same part uniformly at $B_{1,0}$ and $B_{2,0}$ (initial velocity). The friction between the blocks is measured as $B_{1,0}$ are measured at $B_{1,0}$ and Project is measured at $B_{2,0}$. Which property spends more time in the actual being/this (that) potential?",
+    "choices": [
+      "Property A",
+      "Property B",
+      "Property C",
+      "It depends on the properties"
+    ],
+    "answer": 3,
+    "explanation": "Timing described by the actual component Initial velocity $(B_{1,0})$ = functionally. Since $(v_0)/(v_1) = (v_0)/(v_0) = 1$, Project B's greater initial velocity and behavior determined the actual being/this (that) potential at the air target."
+  },
+  {
+    "id": "U2-MCQ-06",
+    "subject": "apphys1",
+    "unit": 2,
+    "topic": "Block on Incline",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A constant horizontal force $F$ is applied to an object on a frictionless inclined surface. If Force is $50\\\\,\\\\text{N}$ applied horizontally to Block A on an inclined surface at $37^\\\\circ$, what is the magnitude of the force needed to accelerate the block to $5\\\\,\\\\text{m/s}^2$?",
+    "choices": [
+      "$F = 4\\\\,\\\\text{N}$",
+      "$F = N$",
+      "$F = 6\\\\,\\\\text{N}$",
+      "$F = 7\\\\,\\\\text{N}$"
+    ],
+    "answer": 0,
+    "explanation": "System acceleration: $a = F/(m_1 + m_2) = 1/(v_0)_y \\\\cdot (v_0)_x$. The contact force $B$ is the force needed to accelerate $m_1$: $F_B = m_1 \\\\cdot a$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='223' y2='120' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='250' y2='220' stroke-width='2' class='svg-axis'/><line x1='250' y1='220' x2='223' y2='120' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><path d='M 78,220 A 28,28 0 0,0 74,206' fill='none' stroke-width='1' class='svg-axis'/><text x='85' y='212' class='svg-label' font-size='11'>θ</text><line x1='66' y1='220' x2='58' y2='228' stroke-width='1' class='svg-axis'/><line x1='84' y1='220' x2='76' y2='228' stroke-width='1' class='svg-axis'/><line x1='102' y1='220' x2='94' y2='228' stroke-width='1' class='svg-axis'/><line x1='120' y1='220' x2='112' y2='228' stroke-width='1' class='svg-axis'/><line x1='138' y1='220' x2='130' y2='228' stroke-width='1' class='svg-axis'/><line x1='156' y1='220' x2='148' y2='228' stroke-width='1' class='svg-axis'/><line x1='174' y1='220' x2='166' y2='228' stroke-width='1' class='svg-axis'/><line x1='192' y1='220' x2='184' y2='228' stroke-width='1' class='svg-axis'/><rect x='113' y='141' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='129' y='162' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='129' y1='157' x2='129.0' y2='212.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='129,222 124.0,212.0 134.0,212.0' fill='#dc2626' stroke='none'/><text x='129' y='236' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='129' y1='157' x2='101.5' y2='109.4' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='96.50000000000001,100.70834875401148 105.8,106.9 97.2,111.9' fill='#3b82f6' stroke='none'/><text x='90' y='89' text-anchor='end' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text><line x1='129' y1='157' x2='177.5' y2='157.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='187.5,157 177.5,162.0 177.5,152.0' fill='#8b5cf6' stroke='none'/><text x='202' y='157' text-anchor='start' fill='#8b5cf6' font-size='12' font-weight='600' class='svg-label'>F</text></svg>"
   },
   {
     "id": "phys1_u2_q073",
@@ -5590,6 +5432,111 @@ window.PHYSICS_MCQ = [
     "deprecated": true
   },
   {
+    "id": "U3-MCQ-02",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Work Done by a Force",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A constant force $F$ acts on an object as it moves horizontally. The force is directed at an angle $\\\\theta$ above the horizontal. If the object moves a distance $d$, which expression correctly gives the work done by $F$?",
+    "choices": [
+      "$W = Fd$",
+      "$W = Fd\\\\sin\\\\theta$",
+      "$W = Fd\\\\cos\\\\theta$",
+      "$W = Fd\\\\tan\\\\theta$"
+    ],
+    "answer": 2,
+    "explanation": "Work is defined as $W = \\\\vec{F} \\\\cdot \\\\vec{d} = Fd\\\\cos\\\\theta$, where $\\\\theta$ is the angle between the force vector and the displacement vector."
+  },
+  {
+    "id": "U3-MCQ-03",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Kinetic Energy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "An object's kinetic energy is $KE$. If its speed doubles while its mass remains the same, what is its new kinetic energy?",
+    "choices": [
+      "$KE$",
+      "$2\\\\,KE$",
+      "$4\\\\,KE$",
+      "$\\\\sqrt{2}\\\\,KE$"
+    ],
+    "answer": 2,
+    "explanation": "Kinetic energy is $KE = \\\\frac{1}{2}mv^2$. If speed doubles to $2v$: $$KE' = \\\\frac{1}{2}m(2v)^2 = \\\\frac{1}{2}m(4v^2) = 4 \\\\cdot \\\\frac{1}{2}mv^2 = 4\\\\,KE$$"
+  },
+  {
+    "id": "U3-MCQ-04",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Work-Energy Theorem",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A net force acts on an object initially at rest, displacing it $5\\\\,\\\\text{m}$. The net force is $12\\\\,\\\\text{N}$. What is the final kinetic energy of the object?",
+    "choices": [
+      "$12\\\\,\\\\text{J}$",
+      "$30\\\\,\\\\text{J}$",
+      "$60\\\\,\\\\text{J}$",
+      "$120\\\\,\\\\text{J}$"
+    ],
+    "answer": 2,
+    "explanation": "By the work-energy theorem, the net work done equals the change in kinetic energy. $W_{net} = F_{net} \\\\cdot d = (12)(5) = 60\\\\,\\\\text{J}$. Since the object started from rest, $KE_f = 60\\\\,\\\\text{J}$."
+  },
+  {
+    "id": "U3-MCQ-05",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Gravitational Potential Energy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A $2\\\\,\\\\text{kg}$ object is at rest at a height of $5\\\\,\\\\text{m}$ above the ground. How much gravitational potential energy does it have? (Use $g = 10\\\\,\\\\text{m/s}^2$)",
+    "choices": [
+      "$10\\\\,\\\\text{J}$",
+      "$50\\\\,\\\\text{J}$",
+      "$100\\\\,\\\\text{J}$",
+      "$25\\\\,\\\\text{J}$"
+    ],
+    "answer": 2,
+    "explanation": "$PE_g = mgh = (2)(10)(5) = 100\\\\,\\\\text{J}$. Gravitational potential energy is linearly proportional to height, so doubling the height makes the potential energy double.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='218' x2='260' y2='218' stroke-width='2' class='svg-axis'/><line x1='56' y1='218' x2='48' y2='226' stroke-width='2' class='svg-axis'/><line x1='70' y1='218' x2='62' y2='226' stroke-width='2' class='svg-axis'/><line x1='84' y1='218' x2='76' y2='226' stroke-width='2' class='svg-axis'/><line x1='98' y1='218' x2='90' y2='226' stroke-width='2' class='svg-axis'/><line x1='112' y1='218' x2='104' y2='226' stroke-width='2' class='svg-axis'/><line x1='126' y1='218' x2='118' y2='226' stroke-width='2' class='svg-axis'/><line x1='140' y1='218' x2='132' y2='226' stroke-width='2' class='svg-axis'/><line x1='154' y1='218' x2='146' y2='226' stroke-width='2' class='svg-axis'/><line x1='168' y1='218' x2='160' y2='226' stroke-width='2' class='svg-axis'/><line x1='182' y1='218' x2='174' y2='226' stroke-width='2' class='svg-axis'/><line x1='196' y1='218' x2='188' y2='226' stroke-width='2' class='svg-axis'/><line x1='210' y1='218' x2='202' y2='226' stroke-width='2' class='svg-axis'/><line x1='224' y1='218' x2='216' y2='226' stroke-width='2' class='svg-axis'/><line x1='238' y1='218' x2='230' y2='226' stroke-width='2' class='svg-axis'/><line x1='252' y1='218' x2='244' y2='226' stroke-width='2' class='svg-axis'/><line x1='90' y1='88' x2='155' y2='88' stroke-width='2' class='svg-axis'/><rect x='106' y='56' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='122' y='77' text-anchor='middle' font-size='11' class='svg-label'>2 kg</text><line x1='90' y1='88' x2='90' y2='218' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><line x1='80' y1='88' x2='80' y2='218' stroke='#94a3b8' stroke-width='1'/><polygon points='80,88 75,100 85,100' fill='#94a3b8'/><polygon points='80,218 75,206 85,206' fill='#94a3b8'/><text x='68' y='158' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>h = 5 m</text><line x1='122' y1='104' x2='122.0' y2='140.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='122,150 117.0,140.0 127.0,140.0' fill='#dc2626' stroke='none'/><text x='128' y='148' text-anchor='start' fill='#dc2626' font-size='10' class='svg-label'>F_g</text><text x='155' y='236' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>Ground (PE = 0)</text><text x='155' y='28' text-anchor='middle' font-size='10' class='svg-label'>PE = mgh = (2)(10)(5) = 100 J</text></svg>",
+    "deprecated": true
+  },
+  {
+    "id": "U3-MCQ-06",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Conservation of Energy (Frictionless)",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A frictionless roller coaster starts at rest at height $h = 20\\\\,\\\\text{m}$. What is the speed of the cart at the bottom? (Use $g = 10\\\\,\\\\text{m/s}^2$)",
+    "choices": [
+      "$10\\\\,\\\\text{m/s}$",
+      "$14\\\\,\\\\text{m/s}$",
+      "$20\\\\,\\\\text{m/s}$",
+      "$200\\\\,\\\\text{m/s}$"
+    ],
+    "answer": 2,
+    "explanation": "By conservation of energy: $mgh = \\\\frac{1}{2}mv^2$. $$v = \\\\sqrt{2gh} = \\\\sqrt{2(10)(20)} = \\\\sqrt{400} = 20\\\\,\\\\text{m/s}$$",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='222' x2='275' y2='222' stroke-width='2' class='svg-axis'/><line x1='51' y1='222' x2='43' y2='230' stroke-width='2' class='svg-axis'/><line x1='65' y1='222' x2='57' y2='230' stroke-width='2' class='svg-axis'/><line x1='79' y1='222' x2='71' y2='230' stroke-width='2' class='svg-axis'/><line x1='93' y1='222' x2='85' y2='230' stroke-width='2' class='svg-axis'/><line x1='107' y1='222' x2='99' y2='230' stroke-width='2' class='svg-axis'/><line x1='121' y1='222' x2='113' y2='230' stroke-width='2' class='svg-axis'/><line x1='135' y1='222' x2='127' y2='230' stroke-width='2' class='svg-axis'/><line x1='149' y1='222' x2='141' y2='230' stroke-width='2' class='svg-axis'/><line x1='163' y1='222' x2='155' y2='230' stroke-width='2' class='svg-axis'/><line x1='177' y1='222' x2='169' y2='230' stroke-width='2' class='svg-axis'/><line x1='191' y1='222' x2='183' y2='230' stroke-width='2' class='svg-axis'/><line x1='205' y1='222' x2='197' y2='230' stroke-width='2' class='svg-axis'/><line x1='219' y1='222' x2='211' y2='230' stroke-width='2' class='svg-axis'/><line x1='233' y1='222' x2='225' y2='230' stroke-width='2' class='svg-axis'/><line x1='247' y1='222' x2='239' y2='230' stroke-width='2' class='svg-axis'/><line x1='261' y1='222' x2='253' y2='230' stroke-width='2' class='svg-axis'/><path d='M 75,60 Q 120,225 175,218 Q 220,215 265,218' stroke='#3b82f6' stroke-width='2.5' fill='none'/><line x1='75' y1='60' x2='75' y2='222' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='56' y='144' text-anchor='end' font-size='10' font-weight='600' class='svg-label'>h = 20 m</text><circle cx='75' cy='60' r='6' fill='#94a3b8'/><text x='68' y='50' text-anchor='end' font-weight='600' class='svg-label'>A</text><text x='66' y='63' text-anchor='end' fill='#94a3b8' font-size='9' class='svg-label'>v₀ = 0</text><circle cx='215' cy='218' r='6' fill='#94a3b8'/><text x='220' y='213' text-anchor='start' font-weight='600' class='svg-label'>B</text><text x='222' y='225' text-anchor='start' fill='#94a3b8' font-size='9' class='svg-label'>v = ?</text><text x='155' y='238' text-anchor='middle' fill='#94a3b8' font-size='9' class='svg-label'>Ground (h = 0)</text></svg>"
+  },
+  {
+    "id": "U3-MCQ-07",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Spring Potential Energy",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A spring with spring constant $k = 400\\\\,\\\\text{N/m}$ is compressed $0.1\\\\,\\\\text{m}$ from its natural length. It is then released and launches a $0.5\\\\,\\\\text{kg}$ block on a frictionless surface. What is the speed of the block when it leaves the spring?",
+    "choices": [
+      "$1\\\\,\\\\text{m/s}$",
+      "$2\\\\,\\\\text{m/s}$",
+      "$4\\\\,\\\\text{m/s}$",
+      "$8\\\\,\\\\text{m/s}$"
+    ],
+    "answer": 1,
+    "explanation": "Spring potential energy converts to kinetic energy: $$\\\\frac{1}{2}kx^2 = \\\\frac{1}{2}mv^2$$ $$v = x\\\\sqrt{\\\\frac{k}{m}} = 0.1\\\\sqrt{\\\\frac{400}{0.5}} = 0.1\\\\sqrt{800} = 0.1(28.3) \\\\approx 2\\\\,\\\\text{m/s}$$"
+  },
+  {
     "id": "phys1_u4_q118",
     "subject": "apphys1",
     "unit": 3,
@@ -6390,46 +6337,6 @@ window.PHYSICS_MCQ = [
     "explanation": "At maximum height, all initial kinetic energy converts to potential energy: mgh = initial KE. At height y, KE = mg(h-y) and PE = mgy. Setting KE = 2PE: mg(h-y) = 2mgy, so h-y = 2y, giving h = 3y, therefore y = h/3. Students often set up the wrong ratio (A), forget energy conservation (C), or solve the algebra incorrectly (D)."
   },
   {
-    "id": "phys1_u4_q158",
-    "subject": "apphys1",
-    "unit": 3,
-    "topic": "conservation of energy",
-    "topicLabel": "conservation of energy",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A pendulum bob of mass m is released from rest at an angle θ from vertical. When the string makes an angle θ/2 with the vertical, what is the tension in the string? (String length = L)",
-    "choices": [
-      "A) mg(2 - cos(θ/2))",
-      "B) mg(3cos(θ/2) - 2cos(θ))",
-      "C) mg(2cos(θ/2) - cos(θ))",
-      "D) mg(3 - 2cos(θ))cos(θ/2)"
-    ],
-    "answer": 1,
-    "explanation": "Using conservation of energy, the height difference between the release point and the position at angle θ/2 is h = L(cos(θ/2) - cos(θ)). Setting the loss in potential energy equal to the gain in kinetic energy: mgL(cos(θ/2) - cos(θ)) = $\\frac{1}{2}$m$v^2$, which gives $v^2$ = 2gL(cos(θ/2) - cos(θ)). At angle θ/2, applying Newton's second law along the radial direction (toward the pivot): T - mgcos(θ/2) = m$v^2$/L. Substituting $v^2$: T = mgcos(θ/2) + m(2gL(cos(θ/2) - cos(θ)))/L = mgcos(θ/2) + 2mg(cos(θ/2) - cos(θ)) = mg(3cos(θ/2) - 2cos(θ)). This is answer B. Common errors include forgetting the radial component of gravity (leading to A or C) or misapplying the algebraic simplification (leading to D)."
-  },
-  {
-    "id": "phys1_u4_q159",
-    "subject": "apphys1",
-    "unit": 3,
-    "topic": "power",
-    "topicLabel": "power",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A car engine provides constant power P while accelerating from rest. If the car's mass is m and air resistance is negligible, what is the car's speed as a function of time?",
-    "choices": [
-      "A) v = √(2Pt/m)",
-      "B) v = (Pt/m)^(1/3)",
-      "C) v = (3Pt/2m)^(1/3)",
-      "D) v = Pt/m"
-    ],
-    "answer": 0,
-    "explanation": "With constant power P = Fv, the force F = P/v. Using F = ma = m(dv/dt), we get P/v = m(dv/dt), so P dt = mv dv. Integrating: Pt = $\\frac{1}{2}$m$v^2$, therefore v = √(2Pt/m). Students often confuse this with constant force scenarios (D), or make integration errors (B, C). The key is recognizing that constant power means force decreases as velocity increases."
-  },
-  {
     "id": "phys1_u4_q160",
     "subject": "apphys1",
     "unit": 3,
@@ -6468,26 +6375,6 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "In parallel, the effective spring constant is k_eff = k + k = 2k. The total initial potential energy is $\\frac{1}{2}$k_eff $d^2$ = $\\frac{1}{2}$(2k)$d^2$ = k$d^2$. At maximum speed (equilibrium position), all potential energy converts to kinetic energy: k$d^2$ = $\\frac{1}{2}$mv_ma$x^2$. Solving: v_max = d√(2k/m). Students often forget springs in parallel add (A), confuse with series connection (D), or make calculation errors (C)."
-  },
-  {
-    "id": "phys1_u4_q162",
-    "subject": "apphys1",
-    "unit": 3,
-    "topic": "work",
-    "topicLabel": "work",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A variable force F = 3$x^2$ (in Newtons, where x is in meters) acts on a particle moving along the x-axis from x = 1 m to x = 3 m. What is the work done by this force?",
-    "choices": [
-      "A) 18 J",
-      "B) 24 J",
-      "C) 26 J",
-      "D) 54 J"
-    ],
-    "answer": 2,
-    "explanation": "For variable force, W = ∫F dx = ∫₁³ 3$x^2$ dx = [$x^3$]₁³ = $3^3$ - $1^3$ = 27 - 1 = 26 J. Students often forget the integral approach and try to use average force (A, B), or make integration errors by forgetting the coefficient or limits (D). This requires understanding that work with variable force requires integration, not simple F·d."
   },
   {
     "id": "phys1_u4_q163",
@@ -6548,6 +6435,66 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Useful power output = (dm/dt)gh = (0.5 kg/s)(10 $m/s^2$)(20 m) = 100 W. With 80% efficiency, electrical input power = output/efficiency = 100 W / 0.80 = 125 W. Students often give just the useful power (A), double it incorrectly (C), or make calculation errors with efficiency (D). Understanding efficiency as useful output divided by total input is crucial."
+  },
+  {
+    "id": "phys1_u4_q158",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "conservation of energy",
+    "topicLabel": "conservation of energy",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A pendulum bob of mass m is released from rest at an angle θ from vertical. When the string makes an angle θ/2 with the vertical, what is the tension in the string? (String length = L)",
+    "choices": [
+      "A) mg(2 - cos(θ/2))",
+      "B) mg(3cos(θ/2) - 2cos(θ))",
+      "C) mg(2cos(θ/2) - cos(θ))",
+      "D) mg(3 - 2cos(θ))cos(θ/2)"
+    ],
+    "answer": 1,
+    "explanation": "Using conservation of energy, the height difference between the release point and the position at angle θ/2 is h = L(cos(θ/2) - cos(θ)). Setting the loss in potential energy equal to the gain in kinetic energy: mgL(cos(θ/2) - cos(θ)) = $\\frac{1}{2}$m$v^2$, which gives $v^2$ = 2gL(cos(θ/2) - cos(θ)). At angle θ/2, applying Newton's second law along the radial direction (toward the pivot): T - mgcos(θ/2) = m$v^2$/L. Substituting $v^2$: T = mgcos(θ/2) + m(2gL(cos(θ/2) - cos(θ)))/L = mgcos(θ/2) + 2mg(cos(θ/2) - cos(θ)) = mg(3cos(θ/2) - 2cos(θ)). This is answer B. Common errors include forgetting the radial component of gravity (leading to A or C) or misapplying the algebraic simplification (leading to D)."
+  },
+  {
+    "id": "phys1_u4_q159",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "power",
+    "topicLabel": "power",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A car engine provides constant power P while accelerating from rest. If the car's mass is m and air resistance is negligible, what is the car's speed as a function of time?",
+    "choices": [
+      "A) v = √(2Pt/m)",
+      "B) v = (Pt/m)^(1/3)",
+      "C) v = (3Pt/2m)^(1/3)",
+      "D) v = Pt/m"
+    ],
+    "answer": 0,
+    "explanation": "With constant power P = Fv, the force F = P/v. Using F = ma = m(dv/dt), we get P/v = m(dv/dt), so P dt = mv dv. Integrating: Pt = $\\frac{1}{2}$m$v^2$, therefore v = √(2Pt/m). Students often confuse this with constant force scenarios (D), or make integration errors (B, C). The key is recognizing that constant power means force decreases as velocity increases."
+  },
+  {
+    "id": "phys1_u4_q162",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "work",
+    "topicLabel": "work",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A variable force F = 3$x^2$ (in Newtons, where x is in meters) acts on a particle moving along the x-axis from x = 1 m to x = 3 m. What is the work done by this force?",
+    "choices": [
+      "A) 18 J",
+      "B) 24 J",
+      "C) 26 J",
+      "D) 54 J"
+    ],
+    "answer": 2,
+    "explanation": "For variable force, W = ∫F dx = ∫₁³ 3$x^2$ dx = [$x^3$]₁³ = $3^3$ - $1^3$ = 27 - 1 = 26 J. Students often forget the integral approach and try to use average force (A, B), or make integration errors by forgetting the coefficient or limits (D). This requires understanding that work with variable force requires integration, not simple F·d."
   },
   {
     "id": "phys1_u5_q166",
@@ -7070,26 +7017,6 @@ window.PHYSICS_MCQ = [
     "explanation": "The center of mass is calculated using x_cm = (m₁x₁ + m₂x₂)/(m₁ + m₂) = (3.0 × 0 + 6.0 × 9.0)/(3.0 + 6.0) = 54/9 = 6.0 m. The center of mass is closer to the more massive object. Choice A incorrectly uses only the lighter mass's position. Choice B assumes equal masses (geometric center). Choice D incorrectly weighs the lighter mass more heavily."
   },
   {
-    "id": "phys1_u5_q192",
-    "subject": "apphys1",
-    "unit": 4,
-    "topic": "impulse",
-    "topicLabel": "impulse",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A ball traveling at 6 m/s strikes a wall and bounces back at 4 m/s in the opposite direction. The impulse delivered by the wall on the ball depends on which factors?",
-    "choices": [
-      "A) Only the change in the ball's momentum",
-      "B) Only the contact time between ball and wall",
-      "C) Both the change in momentum and the contact time",
-      "D) The change in momentum, contact time, and the wall's mass"
-    ],
-    "answer": 0,
-    "explanation": "Impulse is defined as the change in momentum (J = $\\Delta p$). In this case, if the ball has mass m, the impulse is m(4) - m(-6) = 10m (taking the rebound direction as positive), which depends only on the change in momentum. While F = $\\Delta p$/$\\Delta t$ relates force to time, the impulse itself equals only the momentum change. Contact time affects the average force during the collision, not the impulse. The wall's mass is irrelevant since we treat it as effectively immovable."
-  },
-  {
     "id": "phys1_u5_q193",
     "subject": "apphys1",
     "unit": 4,
@@ -7289,6 +7216,26 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Since no external forces act on the rocket-fuel system in space, the center of mass must move at constant velocity (Newton's first law for systems). The rocket accelerates forward and fuel moves backward, but their center of mass continues at constant velocity. Students often think the center of mass accelerates with the rocket, forgetting that ejected fuel is part of the system."
+  },
+  {
+    "id": "phys1_u5_q192",
+    "subject": "apphys1",
+    "unit": 4,
+    "topic": "impulse",
+    "topicLabel": "impulse",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A ball traveling at 6 m/s strikes a wall and bounces back at 4 m/s in the opposite direction. The impulse delivered by the wall on the ball depends on which factors?",
+    "choices": [
+      "A) Only the change in the ball's momentum",
+      "B) Only the contact time between ball and wall",
+      "C) Both the change in momentum and the contact time",
+      "D) The change in momentum, contact time, and the wall's mass"
+    ],
+    "answer": 0,
+    "explanation": "Impulse is defined as the change in momentum (J = $\\Delta p$). In this case, if the ball has mass m, the impulse is m(4) - m(-6) = 10m (taking the rebound direction as positive), which depends only on the change in momentum. While F = $\\Delta p$/$\\Delta t$ relates force to time, the impulse itself equals only the momentum change. Contact time affects the average force during the collision, not the impulse. The wall's mass is irrelevant since we treat it as effectively immovable."
   },
   {
     "id": "phys1_u6_q203",
@@ -8174,7 +8121,7 @@ window.PHYSICS_MCQ = [
       "D) Length must be decreased by factor of √6"
     ],
     "answer": 1,
-    "explanation": "The period of a simple pendulum is T = 2π√(L/g). For the same period on the Moon (g_moon = g_earth/6), we need L_moon/g_moon = L_earth/g_earth, so L_moon = L_earth × (g_moon/g_earth) = L_earth/6. The length must be decreased by a factor of 6. Choice A is wrong: increasing L by 6 would increase T by √6. Choice C is wrong: increasing by √6 would require g to increase by 6. Choice D (decrease by √6) gives T_moon = 2π√(L/√6 ÷ g/6) = 2π√(6L/(g√6)) = T_earth × 6^(1/4) ≠ T_earth."
+    "explanation": "The period of a simple pendulum is T = 2π√(L/g). To maintain the same period on the Moon (g_moon = g_earth/6), we need L_moon/g_moon = L_earth/g_earth, so L_moon = L_earth × (g_moon/g_earth) = L_earth/6. The length must be decreased by a factor of 6. Choice A is wrong: increasing L by 6 would increase T by √6. Choice C is wrong: increasing by √6 would require g to increase by 6. Choice D (decrease by √6) gives T_moon = 2π√(L/√6 ÷ g/6) = 2π√(6L/(g√6)) = T_earth × 6^(1/4) ≠ T_earth."
   },
   {
     "id": "phys1_u6_q248",
@@ -8217,26 +8164,6 @@ window.PHYSICS_MCQ = [
     "explanation": "Maximum speed occurs at the equilibrium position: v_max = ωA. Since ω depends only on k and m (not amplitude), when amplitude doubles, maximum speed doubles. Students often think maximum speed quadruples (confusing with energy, which goes as $A^2$) or remains the same (incorrectly thinking ω changes with amplitude)."
   },
   {
-    "id": "phys1_u6_q250",
-    "subject": "apphys1",
-    "unit": 7,
-    "topic": "energy in SHM",
-    "topicLabel": "energy in SHM",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A horizontal spring-mass system has total mechanical energy E. At what displacement from equilibrium is the kinetic energy equal to twice the potential energy?",
-    "choices": [
-      "A) x = A/√3",
-      "B) x = A/√2",
-      "C) x = A√2/3",
-      "D) x = A√3/3"
-    ],
-    "answer": 0,
-    "explanation": "When K = 2U and K + U = E, we have 2U + U = E, so U = E/3. Since E = $\\frac{1}{2}$k$A^2$ and U = $\\frac{1}{2}$k$x^2$, we get $\\frac{1}{2}$k$x^2$ = (1/3)($\\frac{1}{2}$k$A^2$), which gives $x^2$ = $A^2$/3, so x = A/√3. Students often solve incorrectly by setting up wrong energy ratios or making algebraic errors with the square root relationships."
-  },
-  {
     "id": "phys1_u6_q251",
     "subject": "apphys1",
     "unit": 7,
@@ -8275,6 +8202,26 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "In parallel, springs share the load equally. Each spring extends the same amount x, and each contributes force kx. Total restoring force is F = kx + kx = 2kx, giving effective spring constant k_eff = 2k. Students often confuse parallel with series arrangements (where k_eff = k/2) or think the forces don't add directly."
+  },
+  {
+    "id": "phys1_u6_q250",
+    "subject": "apphys1",
+    "unit": 7,
+    "topic": "energy in SHM",
+    "topicLabel": "energy in SHM",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A horizontal spring-mass system has total mechanical energy E. At what displacement from equilibrium is the kinetic energy equal to twice the potential energy?",
+    "choices": [
+      "A) x = A/√3",
+      "B) x = A/√2",
+      "C) x = A√2/3",
+      "D) x = A√3/3"
+    ],
+    "answer": 0,
+    "explanation": "When K = 2U and K + U = E, we have 2U + U = E, so U = E/3. Since E = $\\frac{1}{2}$k$A^2$ and U = $\\frac{1}{2}$k$x^2$, we get $\\frac{1}{2}$k$x^2$ = (1/3)($\\frac{1}{2}$k$A^2$), which gives $x^2$ = $A^2$/3, so x = A/√3. Students often solve incorrectly by setting up wrong energy ratios or making algebraic errors with the square root relationships."
   },
   {
     "id": "phys1_u7_q253",
@@ -8657,26 +8604,6 @@ window.PHYSICS_MCQ = [
     "explanation": "Using τ = Iα to find angular acceleration: α = τ/I = 2.0/0.5 = 4.0 $rad/s^2$. Then using ω = ω₀ + αt with ω₀ = 0: ω = 0 + (4.0)(3.0) = 12 rad/s. Choice B is just the angular acceleration, C uses wrong time calculation, D uses τ/I incorrectly."
   },
   {
-    "id": "phys1_u7_q272",
-    "subject": "apphys1",
-    "unit": 6,
-    "topic": "conservation of angular momentum",
-    "topicLabel": "conservation of angular momentum",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Two ice skaters, initially at rest, push off each other. Skater A (60 kg) moves in a circle of radius 8.0 m with speed 2.0 m/s. Skater B (40 kg) moves in the opposite direction. What is the radius of skater B's circular path if B's speed is 3.0 m/s?",
-    "choices": [
-      "A) 8.0 m",
-      "B) 12 m",
-      "C) 5.3 m",
-      "D) 6.0 m"
-    ],
-    "answer": 0,
-    "explanation": "By conservation of angular momentum, the total angular momentum of the system is zero since both skaters start at rest. Therefore the magnitudes of their angular momenta must be equal: mAvArA = mBvBrB. Substituting: (60 kg)(2.0 m/s)(8.0 m) = (40 kg)(3.0 m/s)(rB). This gives 960 = 120rB, so rB = 8.0 m. The answer is choice A."
-  },
-  {
     "id": "phys1_u7_q273",
     "subject": "apphys1",
     "unit": 6,
@@ -8998,366 +8925,6 @@ window.PHYSICS_MCQ = [
     "explanation": "First person's torque: τ₁ = wF sin(θ). Second person's torque: τ₂ = (w/2)(2F) = wF. For τ₁ > τ₂: wF sin(θ) > wF, so sin(θ) > 1/2, meaning θ > 30°. Choice B ignores that the first person can have larger moment arm effect. Choice C ignores the angular dependence. Choice D only applies when θ = 30°."
   },
   {
-    "id": "phys1_u7_q289",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational inertia",
-    "topicLabel": "rotational inertia",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A thin hoop and a solid disk have the same mass M and radius R. They are both rotating about their central axes with the same angular velocity ω. What is the ratio of their rotational kinetic energies, KEhoop/KEdisk?",
-    "choices": [
-      "A) 2:0:√3",
-      "B) 1",
-      "C) 1/2",
-      "D) 4"
-    ],
-    "answer": 0,
-    "explanation": "Rotational KE = $\\frac{1}{2}$Iω². For a hoop: I = M$R^2$, so KEhoop = $\\frac{1}{2}$M$R^2$ω². For a disk: I = $\\frac{1}{2}$M$R^2$, so KEdisk = ¼M$R^2$ω². The exact ratio is KEhoop/KEdisk = ($\\frac{1}{2}$M$R^2$ω²)/(¼M$R^2$ω²) = 2/1 = 2. Choice B would apply if they had the same rotational inertia. Choice C inverts the correct ratio. Choice D would apply if comparing energies with different angular velocities."
-  },
-  {
-    "id": "phys1_u5_q001",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational kinematics",
-    "difficulty": "easy",
-    "type": "MCQ",
-    "question": "A wheel of radius $R = 0.4\\,\\text{m}$ rotates at $\\omega = 5\\,\\text{rad/s}$. What is the linear speed of a point on the rim?",
-    "choices": [
-      "$0.8\\,\\text{m/s}$",
-      "$2\\,\\text{m/s}$",
-      "$12.5\\,\\text{m/s}$",
-      "$20\\,\\text{m/s}$"
-    ],
-    "answer": 1,
-    "explanation": "The relationship between linear and angular speed is $v = \\omega R$. Thus $v = (5)(0.4) = 2\\,\\text{m/s}$. Dividing instead of multiplying gives the distractor $0.8\\,\\text{m/s}$."
-  },
-  {
-    "id": "phys1_u5_q002",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational kinematics",
-    "difficulty": "easy",
-    "type": "MCQ",
-    "question": "A wheel starts from rest and reaches $\\omega = 20\\,\\text{rad/s}$ in $4\\,\\text{s}$. What is its angular acceleration?",
-    "choices": [
-      "$0.2\\,\\text{rad/s}^2$",
-      "$4\\,\\text{rad/s}^2$",
-      "$5\\,\\text{rad/s}^2$",
-      "$80\\,\\text{rad/s}^2$"
-    ],
-    "answer": 2,
-    "explanation": "$\\alpha = \\dfrac{\\Delta\\omega}{\\Delta t} = \\dfrac{20-0}{4} = 5\\,\\text{rad/s}^2$. Common error: flipping the ratio to get $4/20 = 0.2\\,\\text{rad/s}^2$."
-  },
-  {
-    "id": "phys1_u5_q003",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational kinematics",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A disk starts from rest with constant angular acceleration $\\alpha = 3\\,\\text{rad/s}^2$ for $6\\,\\text{s}$. How many radians does it rotate?",
-    "choices": [
-      "$9\\,\\text{rad}$",
-      "$27\\,\\text{rad}$",
-      "$54\\,\\text{rad}$",
-      "$108\\,\\text{rad}$"
-    ],
-    "answer": 2,
-    "explanation": "Using $\\theta = \\frac{1}{2}\\alpha t^2$ (starting from rest): $\\theta = \\frac{1}{2}(3)(6)^2 = \\frac{1}{2}(3)(36) = 54\\,\\text{rad}$. Forgetting the factor of $\\frac{1}{2}$ gives $108\\,\\text{rad}$."
-  },
-  {
-    "id": "phys1_u5_q004",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational kinematics",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A wheel decelerating uniformly from $\\omega_0 = 8\\,\\text{rad/s}$ to rest undergoes angular acceleration $\\alpha = -2\\,\\text{rad/s}^2$. Through how many radians does it rotate before stopping?",
-    "choices": [
-      "$4\\,\\text{rad}$",
-      "$8\\,\\text{rad}$",
-      "$16\\,\\text{rad}$",
-      "$32\\,\\text{rad}$"
-    ],
-    "answer": 2,
-    "explanation": "Using $\\omega^2 = \\omega_0^2 + 2\\alpha\\theta$: $0 = 64 + 2(-2)\\theta \\Rightarrow \\theta = \\dfrac{64}{4} = 16\\,\\text{rad}$."
-  },
-  {
-    "id": "phys1_u5_q005",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "torque",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A force $F = 20\\,\\text{N}$ is applied at $30°$ to a lever arm of length $r = 0.5\\,\\text{m}$. What is the magnitude of the torque about the pivot?",
-    "choices": [
-      "$2.5\\,\\text{N}\\cdot\\text{m}$",
-      "$5\\,\\text{N}\\cdot\\text{m}$",
-      "$8.7\\,\\text{N}\\cdot\\text{m}$",
-      "$10\\,\\text{N}\\cdot\\text{m}$"
-    ],
-    "answer": 1,
-    "explanation": "$\\tau = rF\\sin\\theta = (0.5)(20)\\sin 30° = (0.5)(20)(0.5) = 5\\,\\text{N\\cdot m}$. If the force were perpendicular ($\\theta = 90°$) the torque would be $10\\,\\text{N\\cdot m}$; the $30°$ angle halves that."
-  },
-  {
-    "id": "phys1_u5_q006",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "torque",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A force $F = 15\\,\\text{N}$ is applied at $60°$ to a lever arm $r = 0.8\\,\\text{m}$. What is the torque?",
-    "choices": [
-      "$6.0\\,\\text{N}\\cdot\\text{m}$",
-      "$7.5\\,\\text{N}\\cdot\\text{m}$",
-      "$10.4\\,\\text{N}\\cdot\\text{m}$",
-      "$12.0\\,\\text{N}\\cdot\\text{m}$"
-    ],
-    "answer": 2,
-    "explanation": "$\\tau = rF\\sin 60° = (0.8)(15)(\\frac{\\sqrt{3}}{2}) = 12 \\times 0.866 \\approx 10.4\\,\\text{N\\cdot m}$. The maximum (perpendicular) torque would be $12\\,\\text{N\\cdot m}$; $\\sin 60° \\approx 0.866$ reduces it to $\\approx 10.4\\,\\text{N\\cdot m}$."
-  },
-  {
-    "id": "phys1_u5_q007",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "torque",
-    "difficulty": "easy",
-    "type": "MCQ",
-    "question": "A force is applied directly through the pivot point of a lever (i.e., the lever arm $r = 0$). The torque produced is:",
-    "choices": [
-      "Maximum",
-      "Minimum but nonzero",
-      "Zero",
-      "Equal to $F/r$"
-    ],
-    "answer": 2,
-    "explanation": "$\\tau = rF\\sin\\theta$; if $r = 0$ the torque is zero regardless of the force magnitude or direction. This is why forces that pass through the pivot produce no rotation."
-  },
-  {
-    "id": "phys1_u5_q008",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "torque",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "Two forces act on a uniform rod pivoted at the left end. Force $F_1 = 10\\,\\text{N}$ acts downward at $1\\,\\text{m}$ from the pivot; force $F_2 = 8\\,\\text{N}$ acts downward at $2\\,\\text{m}$ from the pivot. What is the net torque (clockwise positive) about the pivot?",
-    "choices": [
-      "$2\\,\\text{N}\\cdot\\text{m}$",
-      "$18\\,\\text{N}\\cdot\\text{m}$",
-      "$26\\,\\text{N}\\cdot\\text{m}$",
-      "$36\\,\\text{N}\\cdot\\text{m}$"
-    ],
-    "answer": 2,
-    "explanation": "$\\tau_{\\text{net}} = F_1 r_1 + F_2 r_2 = (10)(1) + (8)(2) = 10 + 16 = 26\\,\\text{N\\cdot m}$ (both clockwise, so they add). The distractor $18\\,\\text{N\\cdot m}$ comes from mistakenly subtracting $F_1 r_1$."
-  },
-  {
-    "id": "phys1_u5_q009",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "torque",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "To maximize the torque produced by a given force $F$ on a lever, the force should be applied:",
-    "choices": [
-      "Parallel to the lever arm at the pivot",
-      "Perpendicular to the lever arm at the farthest point",
-      "At $45°$ to the lever arm at the farthest point",
-      "Parallel to the lever arm at the farthest point"
-    ],
-    "answer": 1,
-    "explanation": "$\\tau = rF\\sin\\theta$ is maximized when $r$ is maximum (farthest point) and $\\sin\\theta = 1$ ($\\theta = 90°$, force perpendicular to the arm). A parallel force ($\\theta = 0°$) produces zero torque."
-  },
-  {
-    "id": "phys1_u5_q010",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational inertia",
-    "difficulty": "easy",
-    "type": "MCQ",
-    "question": "A ring ($I = MR^2$) and a solid disk ($I = \\frac{1}{2}MR^2$) have the same mass $M$ and radius $R$. Which has greater rotational inertia?",
-    "choices": [
-      "The ring",
-      "The disk",
-      "They are equal",
-      "It depends on angular velocity"
-    ],
-    "answer": 0,
-    "explanation": "$I_{\\text{ring}} = MR^2$ while $I_{\\text{disk}} = \\frac{1}{2}MR^2$. The ring's mass is all at the rim (far from the axis), so it has twice the rotational inertia of the disk. Rotational inertia depends on mass distribution, not angular velocity."
-  },
-  {
-    "id": "phys1_u5_q011",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational inertia",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A solid cylinder ($I = \\frac{1}{2}MR^2$) and a hollow cylinder ($I = MR^2$) of the same mass and radius have equal net torques applied. Which has the greater angular acceleration?",
-    "choices": [
-      "The solid cylinder",
-      "The hollow cylinder",
-      "Both the same",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "From $\\tau = I\\alpha$: $\\alpha = \\tau/I$. Smaller $I$ means larger $\\alpha$ for the same $\\tau$. The solid cylinder has $I = \\frac{1}{2}MR^2 < MR^2$, so it accelerates faster. Mass concentrated near the axis is easier to spin up."
-  },
-  {
-    "id": "phys1_u5_q012",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational inertia",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A uniform thin rod has rotational inertia $I = \\frac{1}{12}ML^2$ about its center and $I = \\frac{1}{3}ML^2$ about one end. The same torque $\\tau$ is applied in each case. What is the ratio $\\alpha_{\\text{center}}/\\alpha_{\\text{end}}$?",
-    "choices": [
-      "$\\frac{1}{4}$",
-      "$\\frac{1}{2}$",
-      "$2$",
-      "$4$"
-    ],
-    "answer": 3,
-    "explanation": "$\\alpha = \\tau/I$, so $\\dfrac{\\alpha_{\\text{center}}}{\\alpha_{\\text{end}}} = \\dfrac{I_{\\text{end}}}{I_{\\text{center}}} = \\dfrac{\\frac{1}{3}ML^2}{\\frac{1}{12}ML^2} = 4$. Rotating about the center puts less mass far from the axis, yielding higher angular acceleration."
-  },
-  {
-    "id": "phys1_u5_q013",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "Newton's second law rotation",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A pulley is a solid disk ($M = 2\\,\\text{kg}$, $R = 0.1\\,\\text{m}$, $I = \\frac{1}{2}MR^2$). A net torque of $0.5\\,\\text{N}\\cdot\\text{m}$ is applied. What is the angular acceleration?",
-    "choices": [
-      "$5\\,\\text{rad/s}^2$",
-      "$10\\,\\text{rad/s}^2$",
-      "$50\\,\\text{rad/s}^2$",
-      "$100\\,\\text{rad/s}^2$"
-    ],
-    "answer": 2,
-    "explanation": "$I = \\frac{1}{2}MR^2 = \\frac{1}{2}(2)(0.1)^2 = 0.01\\,\\text{kg\\cdot m}^2$. Then $\\alpha = \\tau/I = 0.5/0.01 = 50\\,\\text{rad/s}^2$. Students who forget to square $R$ get $I = 0.1\\,\\text{kg\\cdot m}^2$ and $\\alpha = 5\\,\\text{rad/s}^2$."
-  },
-  {
-    "id": "phys1_u5_q014",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "Newton's second law rotation",
-    "difficulty": "hard",
-    "type": "MCQ",
-    "question": "A door of mass $M = 15\\,\\text{kg}$ and width $L = 1.0\\,\\text{m}$ is modeled as a rod pivoted at one end ($I = \\frac{1}{3}ML^2$). A force $F = 20\\,\\text{N}$ is applied perpendicular to the door at the far edge. What is the angular acceleration?",
-    "choices": [
-      "$1\\,\\text{rad/s}^2$",
-      "$2\\,\\text{rad/s}^2$",
-      "$4\\,\\text{rad/s}^2$",
-      "$8\\,\\text{rad/s}^2$"
-    ],
-    "answer": 2,
-    "explanation": "$I = \\frac{1}{3}(15)(1.0)^2 = 5\\,\\text{kg\\cdot m}^2$. Torque: $\\tau = FL = (20)(1.0) = 20\\,\\text{N\\cdot m}$. Then $\\alpha = \\tau/I = 20/5 = 4\\,\\text{rad/s}^2$. Applying the force closer to the hinge reduces the torque and angular acceleration."
-  },
-  {
-    "id": "phys1_u5_q015",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "Newton's second law rotation",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A grinding wheel (solid disk, $I = 0.6\\,\\text{kg}\\cdot\\text{m}^2$) spins at $\\omega_0 = 30\\,\\text{rad/s}$. A braking force applies a constant torque of $\\tau = 3\\,\\text{N}\\cdot\\text{m}$ opposing rotation. How long does it take to stop?",
-    "choices": [
-      "$2\\,\\text{s}$",
-      "$4\\,\\text{s}$",
-      "$6\\,\\text{s}$",
-      "$10\\,\\text{s}$"
-    ],
-    "answer": 2,
-    "explanation": "Braking gives $\\alpha = -\\tau/I = -3/0.6 = -5\\,\\text{rad/s}^2$. Using $\\omega = \\omega_0 + \\alpha t$: $0 = 30 - 5t \\Rightarrow t = 6\\,\\text{s}$."
-  },
-  {
-    "id": "phys1_u5_q016",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational equilibrium",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A uniform $4\\,\\text{m}$ beam ($m = 10\\,\\text{kg}$) is supported at both ends. A $30\\,\\text{kg}$ box sits $1\\,\\text{m}$ from the left end. Using $g = 10\\,\\text{m/s}^2$, what is the upward force $F_R$ from the right support?",
-    "choices": [
-      "$100\\,\\text{N}$",
-      "$125\\,\\text{N}$",
-      "$175\\,\\text{N}$",
-      "$200\\,\\text{N}$"
-    ],
-    "answer": 1,
-    "explanation": "Take torques about the left support. $F_R \\times 4 = W_{\\text{box}}(1) + W_{\\text{beam}}(2) = 300(1) + 100(2) = 500\\,\\text{N\\cdot m}$. So $F_R = 500/4 = 125\\,\\text{N}$. The beam's weight acts at its center ($2\\,\\text{m}$)."
-  },
-  {
-    "id": "phys1_u5_q017",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational equilibrium",
-    "difficulty": "hard",
-    "type": "MCQ",
-    "question": "A massless horizontal boom of length $3\\,\\text{m}$ is hinged to a wall and held by a cable attached $1\\,\\text{m}$ from the wall at $30°$ above the boom. A $5\\,\\text{kg}$ sign hangs from the end. Using $g = 10\\,\\text{m/s}^2$, what is the cable tension $T$?",
-    "choices": [
-      "$100\\,\\text{N}$",
-      "$150\\,\\text{N}$",
-      "$300\\,\\text{N}$",
-      "$600\\,\\text{N}$"
-    ],
-    "answer": 2,
-    "explanation": "Take torques about the hinge. The cable's torque (counterclockwise) must balance the sign's torque (clockwise). Cable torque: $T\\sin 30° \\times 1 = T(0.5)$. Sign torque: $5(10)(3) = 150\\,\\text{N\\cdot m}$. So $0.5T = 150 \\Rightarrow T = 300\\,\\text{N}$. The short moment arm and shallow angle both require large tension."
-  },
-  {
-    "id": "phys1_u5_q018",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational equilibrium",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A uniform $6\\,\\text{m}$ beam is pivoted at its center. A $40\\,\\text{kg}$ object hangs $2\\,\\text{m}$ to the left of the pivot. How far to the right of the pivot must a $20\\,\\text{kg}$ object be placed to balance the beam? (Ignore beam weight.)",
-    "choices": [
-      "$2\\,\\text{m}$",
-      "$3\\,\\text{m}$",
-      "$4\\,\\text{m}$",
-      "$6\\,\\text{m}$"
-    ],
-    "answer": 2,
-    "explanation": "For rotational equilibrium: $m_1 g r_1 = m_2 g r_2 \\Rightarrow (40)(2) = (20)r_2 \\Rightarrow r_2 = 80/20 = 4\\,\\text{m}$. The lighter object must be placed farther from the pivot to produce equal torque."
-  },
-  {
-    "id": "phys1_u5_q019",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational kinematics",
-    "difficulty": "easy",
-    "type": "MCQ",
-    "question": "A spinning top decelerates uniformly from $\\omega_0 = 10\\,\\text{rad/s}$ to rest with $|\\alpha| = 2\\,\\text{rad/s}^2$. How long does it take to stop?",
-    "choices": [
-      "$2\\,\\text{s}$",
-      "$4\\,\\text{s}$",
-      "$5\\,\\text{s}$",
-      "$20\\,\\text{s}$"
-    ],
-    "answer": 2,
-    "explanation": "$\\omega = \\omega_0 - \\alpha t \\Rightarrow 0 = 10 - 2t \\Rightarrow t = 5\\,\\text{s}$. The deceleration halves the initial angular speed every $2.5\\,\\text{s}$, reaching zero at $5\\,\\text{s}$."
-  },
-  {
-    "id": "phys1_u5_q020",
-    "subject": "apphys1",
-    "unit": 5,
-    "topic": "rotational kinematics",
-    "difficulty": "medium",
-    "type": "MCQ",
-    "question": "A wheel at $\\omega_0 = 6\\,\\text{rad/s}$ decelerates at $\\alpha = 2\\,\\text{rad/s}^2$. How many radians does it rotate before stopping?",
-    "choices": [
-      "$3\\,\\text{rad}$",
-      "$6\\,\\text{rad}$",
-      "$9\\,\\text{rad}$",
-      "$18\\,\\text{rad}$"
-    ],
-    "answer": 2,
-    "explanation": "$\\omega^2 = \\omega_0^2 - 2\\alpha\\theta \\Rightarrow 0 = 36 - 4\\theta \\Rightarrow \\theta = 9\\,\\text{rad}$. Alternatively, $t = 6/2 = 3\\,\\text{s}$ and $\\theta = \\frac{1}{2}(6)(3) = 9\\,\\text{rad}$."
-  },
-  {
     "id": "phys1_u7_q290",
     "subject": "apphys1",
     "unit": 6,
@@ -9396,6 +8963,43 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Applying conservation of energy from the top to the bottom of the incline, with the rolling without slipping constraint (v = rω):\n\nmgh = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$Iω² = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$I(v/r)² = $\\frac{1}{2}$m$v^2$(1 + $I/mr^2$)\n\nSolving for $v^2$: $v^2$ = 2gh / (1 + $I/mr^2$)\n\nFor the solid sphere (I = (2/5)m$r^2$, so $I/mr^2$ = 2/5):\n$v^2$_solid = 2gh / (1 + 2/5) = 2gh / (7/5) = 10gh/7 $\\approx$ 1.429gh\n\nFor the hollow sphere (I = (2/3)m$r^2$, so $I/mr^2$ = 2/3):\n$v^2$_hollow = 2gh / (1 + 2/3) = 2gh / (5/3) = 6gh/5 = 1.200gh\n\nSince 10gh/7 > 6gh/5, the solid sphere has greater translational speed. Choice B is incorrect because a larger moment of inertia means more energy goes into rotation, leaving less for translation. Choice C is incorrect because different rotational inertias cause different energy distributions between rotation and translation. Choice D is incorrect because both spheres convert the same total energy mgh, but neither has greater total kinetic energy than the other."
+  },
+  {
+    "id": "U7-MCQ-08",
+    "subject": "apphys1",
+    "unit": 6,
+    "topic": "Rolling Without Slipping",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A cylinder rolls without slipping down a frictionless-incline. Which of the following best describes the energy distribution at the bottom?",
+    "choices": [
+      "All energy is translational kinetic energy",
+      "All energy is rotational kinetic energy",
+      "Energy is split between translational and rotational kinetic energy",
+      "Energy is entirely potential energy"
+    ],
+    "answer": 2,
+    "explanation": "For rolling without slipping, the total kinetic energy is $KE = \\\\frac{1}{2}mv^2 + \\\\frac{1}{2}I\\\\omega^2$, consisting of both translational and rotational parts. For a solid cylinder, the split is $\\\\frac{2}{3}$ translational and $\\\\frac{1}{3}$ rotational."
+  },
+  {
+    "id": "phys1_u7_q272",
+    "subject": "apphys1",
+    "unit": 6,
+    "topic": "conservation of angular momentum",
+    "topicLabel": "conservation of angular momentum",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Two ice skaters, initially at rest, push off each other. Skater A (60 kg) moves in a circle of radius 8.0 m with speed 2.0 m/s. Skater B (40 kg) moves in the opposite direction. What is the radius of skater B's circular path if B's speed is 3.0 m/s?",
+    "choices": [
+      "A) 8.0 m",
+      "B) 12 m",
+      "C) 5.3 m",
+      "D) 6.0 m"
+    ],
+    "answer": 0,
+    "explanation": "By conservation of angular momentum, the total angular momentum of the system is zero since both skaters start at rest. Therefore the magnitudes of their angular momenta must be equal: mAvArA = mBvBrB. Substituting: (60 kg)(2.0 m/s)(8.0 m) = (40 kg)(3.0 m/s)(rB). This gives 960 = 120rB, so rB = 8.0 m. The answer is choice A."
   },
   {
     "id": "phys1_u6_q001",
@@ -9991,6 +9595,366 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "From $KE_1 = \\frac{1}{2}I_1\\omega_1^2 = 16$: $\\omega_1^2 = 4$. Angular momentum: $L = I_1\\omega_1 = 8\\times 2 = 16\\,\\text{kg\\cdot m}^2/\\text{s}$. New $\\omega_2 = L/I_2 = 8\\,\\text{rad/s}$. $KE_2 = \\frac{1}{2}(2)(64) = 64\\,\\text{J}$. Rotational KE is not conserved when $I$ changes — the extra energy comes from the skater's muscles doing work."
+  },
+  {
+    "id": "phys1_u7_q289",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational inertia",
+    "topicLabel": "rotational inertia",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A thin hoop and a solid disk have the same mass M and radius R. They are both rotating about their central axes with the same angular velocity ω. What is the ratio of their rotational kinetic energies, KEhoop/KEdisk?",
+    "choices": [
+      "A) 2:0:√3",
+      "B) 1",
+      "C) 1/2",
+      "D) 4"
+    ],
+    "answer": 0,
+    "explanation": "Rotational KE = $\\frac{1}{2}$Iω². For a hoop: I = M$R^2$, so KEhoop = $\\frac{1}{2}$M$R^2$ω². For a disk: I = $\\frac{1}{2}$M$R^2$, so KEdisk = ¼M$R^2$ω². The exact ratio is KEhoop/KEdisk = ($\\frac{1}{2}$M$R^2$ω²)/(¼M$R^2$ω²) = 2/1 = 2. Choice B would apply if they had the same rotational inertia. Choice C inverts the correct ratio. Choice D would apply if comparing energies with different angular velocities."
+  },
+  {
+    "id": "phys1_u5_q001",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational kinematics",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "A wheel of radius $R = 0.4\\,\\text{m}$ rotates at $\\omega = 5\\,\\text{rad/s}$. What is the linear speed of a point on the rim?",
+    "choices": [
+      "$0.8\\,\\text{m/s}$",
+      "$2\\,\\text{m/s}$",
+      "$12.5\\,\\text{m/s}$",
+      "$20\\,\\text{m/s}$"
+    ],
+    "answer": 1,
+    "explanation": "The relationship between linear and angular speed is $v = \\omega R$. Thus $v = (5)(0.4) = 2\\,\\text{m/s}$. Dividing instead of multiplying gives the distractor $0.8\\,\\text{m/s}$."
+  },
+  {
+    "id": "phys1_u5_q002",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational kinematics",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "A wheel starts from rest and reaches $\\omega = 20\\,\\text{rad/s}$ in $4\\,\\text{s}$. What is its angular acceleration?",
+    "choices": [
+      "$0.2\\,\\text{rad/s}^2$",
+      "$4\\,\\text{rad/s}^2$",
+      "$5\\,\\text{rad/s}^2$",
+      "$80\\,\\text{rad/s}^2$"
+    ],
+    "answer": 2,
+    "explanation": "$\\alpha = \\dfrac{\\Delta\\omega}{\\Delta t} = \\dfrac{20-0}{4} = 5\\,\\text{rad/s}^2$. Common error: flipping the ratio to get $4/20 = 0.2\\,\\text{rad/s}^2$."
+  },
+  {
+    "id": "phys1_u5_q003",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational kinematics",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A disk starts from rest with constant angular acceleration $\\alpha = 3\\,\\text{rad/s}^2$ for $6\\,\\text{s}$. How many radians does it rotate?",
+    "choices": [
+      "$9\\,\\text{rad}$",
+      "$27\\,\\text{rad}$",
+      "$54\\,\\text{rad}$",
+      "$108\\,\\text{rad}$"
+    ],
+    "answer": 2,
+    "explanation": "Using $\\theta = \\frac{1}{2}\\alpha t^2$ (starting from rest): $\\theta = \\frac{1}{2}(3)(6)^2 = \\frac{1}{2}(3)(36) = 54\\,\\text{rad}$. Forgetting the factor of $\\frac{1}{2}$ gives $108\\,\\text{rad}$."
+  },
+  {
+    "id": "phys1_u5_q004",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational kinematics",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A wheel decelerating uniformly from $\\omega_0 = 8\\,\\text{rad/s}$ to rest undergoes angular acceleration $\\alpha = -2\\,\\text{rad/s}^2$. Through how many radians does it rotate before stopping?",
+    "choices": [
+      "$4\\,\\text{rad}$",
+      "$8\\,\\text{rad}$",
+      "$16\\,\\text{rad}$",
+      "$32\\,\\text{rad}$"
+    ],
+    "answer": 2,
+    "explanation": "Using $\\omega^2 = \\omega_0^2 + 2\\alpha\\theta$: $0 = 64 + 2(-2)\\theta \\Rightarrow \\theta = \\dfrac{64}{4} = 16\\,\\text{rad}$."
+  },
+  {
+    "id": "phys1_u5_q005",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "torque",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A force $F = 20\\,\\text{N}$ is applied at $30°$ to a lever arm of length $r = 0.5\\,\\text{m}$. What is the magnitude of the torque about the pivot?",
+    "choices": [
+      "$2.5\\,\\text{N}\\cdot\\text{m}$",
+      "$5\\,\\text{N}\\cdot\\text{m}$",
+      "$8.7\\,\\text{N}\\cdot\\text{m}$",
+      "$10\\,\\text{N}\\cdot\\text{m}$"
+    ],
+    "answer": 1,
+    "explanation": "$\\tau = rF\\sin\\theta = (0.5)(20)\\sin 30° = (0.5)(20)(0.5) = 5\\,\\text{N\\cdot m}$. If the force were perpendicular ($\\theta = 90°$) the torque would be $10\\,\\text{N\\cdot m}$; the $30°$ angle halves that."
+  },
+  {
+    "id": "phys1_u5_q006",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "torque",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A force $F = 15\\,\\text{N}$ is applied at $60°$ to a lever arm $r = 0.8\\,\\text{m}$. What is the torque?",
+    "choices": [
+      "$6.0\\,\\text{N}\\cdot\\text{m}$",
+      "$7.5\\,\\text{N}\\cdot\\text{m}$",
+      "$10.4\\,\\text{N}\\cdot\\text{m}$",
+      "$12.0\\,\\text{N}\\cdot\\text{m}$"
+    ],
+    "answer": 2,
+    "explanation": "$\\tau = rF\\sin 60° = (0.8)(15)(\\frac{\\sqrt{3}}{2}) = 12 \\times 0.866 \\approx 10.4\\,\\text{N\\cdot m}$. The maximum (perpendicular) torque would be $12\\,\\text{N\\cdot m}$; $\\sin 60° \\approx 0.866$ reduces it to $\\approx 10.4\\,\\text{N\\cdot m}$."
+  },
+  {
+    "id": "phys1_u5_q007",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "torque",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "A force is applied directly through the pivot point of a lever (i.e., the lever arm $r = 0$). The torque produced is:",
+    "choices": [
+      "Maximum",
+      "Minimum but nonzero",
+      "Zero",
+      "Equal to $F/r$"
+    ],
+    "answer": 2,
+    "explanation": "$\\tau = rF\\sin\\theta$; if $r = 0$ the torque is zero regardless of the force magnitude or direction. This is why forces that pass through the pivot produce no rotation."
+  },
+  {
+    "id": "phys1_u5_q008",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "torque",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Two forces act on a uniform rod pivoted at the left end. Force $F_1 = 10\\,\\text{N}$ acts downward at $1\\,\\text{m}$ from the pivot; force $F_2 = 8\\,\\text{N}$ acts downward at $2\\,\\text{m}$ from the pivot. What is the net torque (clockwise positive) about the pivot?",
+    "choices": [
+      "$2\\,\\text{N}\\cdot\\text{m}$",
+      "$18\\,\\text{N}\\cdot\\text{m}$",
+      "$26\\,\\text{N}\\cdot\\text{m}$",
+      "$36\\,\\text{N}\\cdot\\text{m}$"
+    ],
+    "answer": 2,
+    "explanation": "$\\tau_{\\text{net}} = F_1 r_1 + F_2 r_2 = (10)(1) + (8)(2) = 10 + 16 = 26\\,\\text{N\\cdot m}$ (both clockwise, so they add). The distractor $18\\,\\text{N\\cdot m}$ comes from mistakenly subtracting $F_1 r_1$."
+  },
+  {
+    "id": "phys1_u5_q009",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "torque",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "To maximize the torque produced by a given force $F$ on a lever, the force should be applied:",
+    "choices": [
+      "Parallel to the lever arm at the pivot",
+      "Perpendicular to the lever arm at the farthest point",
+      "At $45°$ to the lever arm at the farthest point",
+      "Parallel to the lever arm at the farthest point"
+    ],
+    "answer": 1,
+    "explanation": "$\\tau = rF\\sin\\theta$ is maximized when $r$ is maximum (farthest point) and $\\sin\\theta = 1$ ($\\theta = 90°$, force perpendicular to the arm). A parallel force ($\\theta = 0°$) produces zero torque."
+  },
+  {
+    "id": "phys1_u5_q010",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational inertia",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "A ring ($I = MR^2$) and a solid disk ($I = \\frac{1}{2}MR^2$) have the same mass $M$ and radius $R$. Which has greater rotational inertia?",
+    "choices": [
+      "The ring",
+      "The disk",
+      "They are equal",
+      "It depends on angular velocity"
+    ],
+    "answer": 0,
+    "explanation": "$I_{\\text{ring}} = MR^2$ while $I_{\\text{disk}} = \\frac{1}{2}MR^2$. The ring's mass is all at the rim (far from the axis), so it has twice the rotational inertia of the disk. Rotational inertia depends on mass distribution, not angular velocity."
+  },
+  {
+    "id": "phys1_u5_q011",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational inertia",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A solid cylinder ($I = \\frac{1}{2}MR^2$) and a hollow cylinder ($I = MR^2$) of the same mass and radius have equal net torques applied. Which has the greater angular acceleration?",
+    "choices": [
+      "The solid cylinder",
+      "The hollow cylinder",
+      "Both the same",
+      "Cannot be determined"
+    ],
+    "answer": 0,
+    "explanation": "From $\\tau = I\\alpha$: $\\alpha = \\tau/I$. Smaller $I$ means larger $\\alpha$ for the same $\\tau$. The solid cylinder has $I = \\frac{1}{2}MR^2 < MR^2$, so it accelerates faster. Mass concentrated near the axis is easier to spin up."
+  },
+  {
+    "id": "phys1_u5_q012",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational inertia",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A uniform thin rod has rotational inertia $I = \\frac{1}{12}ML^2$ about its center and $I = \\frac{1}{3}ML^2$ about one end. The same torque $\\tau$ is applied in each case. What is the ratio $\\alpha_{\\text{center}}/\\alpha_{\\text{end}}$?",
+    "choices": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$2$",
+      "$4$"
+    ],
+    "answer": 3,
+    "explanation": "$\\alpha = \\tau/I$, so $\\dfrac{\\alpha_{\\text{center}}}{\\alpha_{\\text{end}}} = \\dfrac{I_{\\text{end}}}{I_{\\text{center}}} = \\dfrac{\\frac{1}{3}ML^2}{\\frac{1}{12}ML^2} = 4$. Rotating about the center puts less mass far from the axis, yielding higher angular acceleration."
+  },
+  {
+    "id": "phys1_u5_q013",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "Newton's second law rotation",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A pulley is a solid disk ($M = 2\\,\\text{kg}$, $R = 0.1\\,\\text{m}$, $I = \\frac{1}{2}MR^2$). A net torque of $0.5\\,\\text{N}\\cdot\\text{m}$ is applied. What is the angular acceleration?",
+    "choices": [
+      "$5\\,\\text{rad/s}^2$",
+      "$10\\,\\text{rad/s}^2$",
+      "$50\\,\\text{rad/s}^2$",
+      "$100\\,\\text{rad/s}^2$"
+    ],
+    "answer": 2,
+    "explanation": "$I = \\frac{1}{2}MR^2 = \\frac{1}{2}(2)(0.1)^2 = 0.01\\,\\text{kg\\cdot m}^2$. Then $\\alpha = \\tau/I = 0.5/0.01 = 50\\,\\text{rad/s}^2$. Students who forget to square $R$ get $I = 0.1\\,\\text{kg\\cdot m}^2$ and $\\alpha = 5\\,\\text{rad/s}^2$."
+  },
+  {
+    "id": "phys1_u5_q014",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "Newton's second law rotation",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A door of mass $M = 15\\,\\text{kg}$ and width $L = 1.0\\,\\text{m}$ is modeled as a rod pivoted at one end ($I = \\frac{1}{3}ML^2$). A force $F = 20\\,\\text{N}$ is applied perpendicular to the door at the far edge. What is the angular acceleration?",
+    "choices": [
+      "$1\\,\\text{rad/s}^2$",
+      "$2\\,\\text{rad/s}^2$",
+      "$4\\,\\text{rad/s}^2$",
+      "$8\\,\\text{rad/s}^2$"
+    ],
+    "answer": 2,
+    "explanation": "$I = \\frac{1}{3}(15)(1.0)^2 = 5\\,\\text{kg\\cdot m}^2$. Torque: $\\tau = FL = (20)(1.0) = 20\\,\\text{N\\cdot m}$. Then $\\alpha = \\tau/I = 20/5 = 4\\,\\text{rad/s}^2$. Applying the force closer to the hinge reduces the torque and angular acceleration."
+  },
+  {
+    "id": "phys1_u5_q015",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "Newton's second law rotation",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A grinding wheel (solid disk, $I = 0.6\\,\\text{kg}\\cdot\\text{m}^2$) spins at $\\omega_0 = 30\\,\\text{rad/s}$. A braking force applies a constant torque of $\\tau = 3\\,\\text{N}\\cdot\\text{m}$ opposing rotation. How long does it take to stop?",
+    "choices": [
+      "$2\\,\\text{s}$",
+      "$4\\,\\text{s}$",
+      "$6\\,\\text{s}$",
+      "$10\\,\\text{s}$"
+    ],
+    "answer": 2,
+    "explanation": "Braking gives $\\alpha = -\\tau/I = -3/0.6 = -5\\,\\text{rad/s}^2$. Using $\\omega = \\omega_0 + \\alpha t$: $0 = 30 - 5t \\Rightarrow t = 6\\,\\text{s}$."
+  },
+  {
+    "id": "phys1_u5_q016",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational equilibrium",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A uniform $4\\,\\text{m}$ beam ($m = 10\\,\\text{kg}$) is supported at both ends. A $30\\,\\text{kg}$ box sits $1\\,\\text{m}$ from the left end. Using $g = 10\\,\\text{m/s}^2$, what is the upward force $F_R$ from the right support?",
+    "choices": [
+      "$100\\,\\text{N}$",
+      "$125\\,\\text{N}$",
+      "$175\\,\\text{N}$",
+      "$200\\,\\text{N}$"
+    ],
+    "answer": 1,
+    "explanation": "Take torques about the left support. $F_R \\times 4 = W_{\\text{box}}(1) + W_{\\text{beam}}(2) = 300(1) + 100(2) = 500\\,\\text{N\\cdot m}$. So $F_R = 500/4 = 125\\,\\text{N}$. The beam's weight acts at its center ($2\\,\\text{m}$)."
+  },
+  {
+    "id": "phys1_u5_q017",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational equilibrium",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A massless horizontal boom of length $3\\,\\text{m}$ is hinged to a wall and held by a cable attached $1\\,\\text{m}$ from the wall at $30°$ above the boom. A $5\\,\\text{kg}$ sign hangs from the end. Using $g = 10\\,\\text{m/s}^2$, what is the cable tension $T$?",
+    "choices": [
+      "$100\\,\\text{N}$",
+      "$150\\,\\text{N}$",
+      "$300\\,\\text{N}$",
+      "$600\\,\\text{N}$"
+    ],
+    "answer": 2,
+    "explanation": "Take torques about the hinge. The cable's torque (counterclockwise) must balance the sign's torque (clockwise). Cable torque: $T\\sin 30° \\times 1 = T(0.5)$. Sign torque: $5(10)(3) = 150\\,\\text{N\\cdot m}$. So $0.5T = 150 \\Rightarrow T = 300\\,\\text{N}$. The short moment arm and shallow angle both require large tension."
+  },
+  {
+    "id": "phys1_u5_q018",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational equilibrium",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A uniform $6\\,\\text{m}$ beam is pivoted at its center. A $40\\,\\text{kg}$ object hangs $2\\,\\text{m}$ to the left of the pivot. How far to the right of the pivot must a $20\\,\\text{kg}$ object be placed to balance the beam? (Ignore beam weight.)",
+    "choices": [
+      "$2\\,\\text{m}$",
+      "$3\\,\\text{m}$",
+      "$4\\,\\text{m}$",
+      "$6\\,\\text{m}$"
+    ],
+    "answer": 2,
+    "explanation": "For rotational equilibrium: $m_1 g r_1 = m_2 g r_2 \\Rightarrow (40)(2) = (20)r_2 \\Rightarrow r_2 = 80/20 = 4\\,\\text{m}$. The lighter object must be placed farther from the pivot to produce equal torque."
+  },
+  {
+    "id": "phys1_u5_q019",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational kinematics",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "A spinning top decelerates uniformly from $\\omega_0 = 10\\,\\text{rad/s}$ to rest with $|\\alpha| = 2\\,\\text{rad/s}^2$. How long does it take to stop?",
+    "choices": [
+      "$2\\,\\text{s}$",
+      "$4\\,\\text{s}$",
+      "$5\\,\\text{s}$",
+      "$20\\,\\text{s}$"
+    ],
+    "answer": 2,
+    "explanation": "$\\omega = \\omega_0 - \\alpha t \\Rightarrow 0 = 10 - 2t \\Rightarrow t = 5\\,\\text{s}$. The deceleration halves the initial angular speed every $2.5\\,\\text{s}$, reaching zero at $5\\,\\text{s}$."
+  },
+  {
+    "id": "phys1_u5_q020",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "rotational kinematics",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A wheel at $\\omega_0 = 6\\,\\text{rad/s}$ decelerates at $\\alpha = 2\\,\\text{rad/s}^2$. How many radians does it rotate before stopping?",
+    "choices": [
+      "$3\\,\\text{rad}$",
+      "$6\\,\\text{rad}$",
+      "$9\\,\\text{rad}$",
+      "$18\\,\\text{rad}$"
+    ],
+    "answer": 2,
+    "explanation": "$\\omega^2 = \\omega_0^2 - 2\\alpha\\theta \\Rightarrow 0 = 36 - 4\\theta \\Rightarrow \\theta = 9\\,\\text{rad}$. Alternatively, $t = 6/2 = 3\\,\\text{s}$ and $\\theta = \\frac{1}{2}(6)(3) = 9\\,\\text{rad}$."
   },
   {
     "id": "phys1_u8_q292",
@@ -10812,27 +10776,6 @@ window.PHYSICS_MCQ = [
     "deprecated": true
   },
   {
-    "id": "phys1_u8_q331",
-    "subject": "apphys1",
-    "unit": 8,
-    "topic": "Ohm's law",
-    "topicLabel": "Ohm's Law",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A battery with internal resistance r is connected to an external resistor R. To maximize the power delivered to the external resistor, what should be the relationship between R and r?",
-    "choices": [
-      "A) R should be much larger than r",
-      "B) R should be much smaller than r",
-      "C) R should equal r",
-      "D) The ratio doesn't matter for power delivery"
-    ],
-    "answer": 2,
-    "explanation": "Maximum power transfer occurs when load resistance equals source resistance (R = r). This gives P = $V^2$R/(R+r)² maximum when dP/dR = 0, solved to give R = r. Students often think smaller R gives more current and more power (B), or larger R gives more voltage and more power (A).",
-    "deprecated": true
-  },
-  {
     "id": "phys1_u8_q332",
     "subject": "apphys1",
     "unit": 8,
@@ -10854,27 +10797,6 @@ window.PHYSICS_MCQ = [
     "deprecated": true
   },
   {
-    "id": "phys1_u8_q333",
-    "subject": "apphys1",
-    "unit": 8,
-    "topic": "electric field",
-    "topicLabel": "Electric Field",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Inside a current-carrying wire in steady state, which statement about the electric field is correct?",
-    "choices": [
-      "A) The electric field is zero everywhere inside the wire",
-      "B) The electric field is perpendicular to the current direction",
-      "C) The electric field is parallel to the current direction",
-      "D) The electric field points radially outward from the wire's center"
-    ],
-    "answer": 2,
-    "explanation": "For steady current to flow, there must be an electric field parallel to the wire (along current direction) to accelerate the charge carriers against resistance. This field is created by surface charges on the wire. Students often think the field is zero inside conductors (A), confusing electrostatic conditions with current-carrying conditions.",
-    "deprecated": true
-  },
-  {
     "id": "phys1_u8_q334",
     "subject": "apphys1",
     "unit": 8,
@@ -10893,6 +10815,84 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Change in potential energy is ΔPE = q$\\Delta V$. Since they travel the same distance in opposite directions in a uniform field, they experience equal but opposite potential differences. With equal magnitude charges (|qp| = |qe|), they have equal magnitude changes in potential energy. Students often think the sign difference matters for magnitude (A, B) or that mass affects the energy change.",
+    "deprecated": true
+  },
+  {
+    "id": "U8-MCQ-03",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Ohm's Law / Resistance",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A wire has resistance $R$. If its length is doubled and its cross-sectional area is halved, what is the new resistance?",
+    "choices": [
+      "$R$",
+      "$2R$",
+      "$4R$",
+      "$R/2$"
+    ],
+    "answer": 2,
+    "explanation": "Resistance $R = \\\\rho L / A$. Doubling $L$ doubles $R$; halving $A$ also doubles $R$. Combined: new resistance $= 4R$.",
+    "deprecated": true
+  },
+  {
+    "id": "U8-MCQ-07",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Electric Field",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A positive charge $q$ is placed in an electric field $\\\\vec{E}$ pointing to the right. What is the direction of the electric force on the charge?",
+    "choices": [
+      "To the left",
+      "To the right",
+      "Upward",
+      "The force is zero"
+    ],
+    "answer": 1,
+    "explanation": "The electric force on a positive charge is $\\\\vec{F} = q\\\\vec{E}$. Since $q > 0$, the force is in the same direction as the field — to the right.",
+    "deprecated": true
+  },
+  {
+    "id": "phys1_u8_q331",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Ohm's law",
+    "topicLabel": "Ohm's Law",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A battery with internal resistance r is connected to an external resistor R. To maximize the power delivered to the external resistor, what should be the relationship between R and r?",
+    "choices": [
+      "A) R should be much larger than r",
+      "B) R should be much smaller than r",
+      "C) R should equal r",
+      "D) The ratio doesn't matter for power delivery"
+    ],
+    "answer": 2,
+    "explanation": "Maximum power transfer occurs when load resistance equals source resistance (R = r). This gives P = $V^2$R/(R+r)² maximum when dP/dR = 0, solved to give R = r. Students often think smaller R gives more current and more power (B), or larger R gives more voltage and more power (A).",
+    "deprecated": true
+  },
+  {
+    "id": "phys1_u8_q333",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "electric field",
+    "topicLabel": "Electric Field",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Inside a current-carrying wire in steady state, which statement about the electric field is correct?",
+    "choices": [
+      "A) The electric field is zero everywhere inside the wire",
+      "B) The electric field is perpendicular to the current direction",
+      "C) The electric field is parallel to the current direction",
+      "D) The electric field points radially outward from the wire's center"
+    ],
+    "answer": 2,
+    "explanation": "For steady current to flow, there must be an electric field parallel to the wire (along current direction) to accelerate the charge carriers against resistance. This field is created by surface charges on the wire. Students often think the field is zero inside conductors (A), confusing electrostatic conditions with current-carrying conditions.",
     "deprecated": true
   },
   {

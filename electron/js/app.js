@@ -1,7 +1,7 @@
 // AP Practice Platform — Global App State & Utilities
 // Handles: localStorage persistence, dark mode, shared state, helper functions
 
-const APP_VERSION = '2.3.1';   // keep in sync with GitHub release tags
+const APP_VERSION = '2.4.0';   // keep in sync with GitHub release tags
 const GITHUB_REPO  = 'Chabzu113/JPrep';
 const STORAGE_KEY  = 'apcsa_state';
 
