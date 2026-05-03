@@ -567,6 +567,12 @@ function mathSpan(text, display) {
 function renderFRQPromptText(text) {
   if (!text) return '';
 
+  // Pre-process: protect currency dollar signs (e.g. $500, $1,200) from being
+  // parsed as LaTeX math delimiters. Replace $<digits> with a placeholder,
+  // then restore after LaTeX processing.
+  const CURRENCY_PLACEHOLDER = '\x00DOLLAR\x00';
+  text = text.replace(/\$(?=[\d,])/g, CURRENCY_PLACEHOLDER);
+
   // Pre-process: convert markdown-style pipe tables to HTML tables.
   // Detects consecutive lines containing | separators, skips --- divider rows.
   if (text.includes('|')) {
@@ -636,7 +642,7 @@ function renderFRQPromptText(text) {
     lastIndex = match.index + raw.length;
   }
   if (lastIndex < text.length) result += App.escapeHtml(text.slice(lastIndex)).replace(/\n/g, '<br>');
-  return result;
+  return result.split(CURRENCY_PLACEHOLDER).join('$');
 }
 
 // ─── Table builder (shared between testRunner and questionBank) ───────────────
