@@ -377,7 +377,7 @@ var APMICRO_MCQ = [
       "Capitalist economy."
     ],
     "answer": 2,
-    "explanation": "Traditional economies base economic decisions on historical patterns and social customs."
+    "explanation": "Traditional economies allocate resources through inherited customs, not markets or government directives. Choice B (command economy) is wrong because command economies rely on central planning, not historical tradition."
   },
   {
     "id": "micro-u1-m021",
@@ -434,7 +434,7 @@ var APMICRO_MCQ = [
       "Productive efficiency."
     ],
     "answer": 3,
-    "explanation": "PPCs show quantities of output, not the market prices of those goods."
+    "explanation": "A PPC maps combinations of two goods that can be produced—it shows quantities, not dollar prices. Choice D is wrong because prices are determined in markets outside the model and cannot be read off the curve itself."
   },
   {
     "id": "micro-u1-e024",
@@ -700,7 +700,7 @@ var APMICRO_MCQ = [
       "Benefit given up when choosing the next best alternative."
     ],
     "answer": 2,
-    "explanation": "Marginal always refers to the 'additional' or 'incremental' change from one more unit."
+    "explanation": "Marginal always means the change from one additional unit, so marginal benefit is the extra benefit of consuming one more. Choice A is wrong because that describes total benefit, not the incremental benefit of the next unit."
   },
   {
     "id": "micro-u1-h038",
@@ -852,7 +852,7 @@ var APMICRO_MCQ = [
       "Profit is maximized for all firms."
     ],
     "answer": 2,
-    "explanation": "Equilibrium is the 'market-clearing' point where the intentions of buyers and sellers match perfectly."
+    "explanation": "At equilibrium the market 'clears': every buyer who wants to buy at that price finds a seller, leaving no persistent surplus or shortage. Choices A and B are wrong because they describe disequilibrium—shortage and surplus, respectively."
   },
   {
     "id": "micro-u2-h006",
@@ -909,7 +909,7 @@ var APMICRO_MCQ = [
       "Price and quantity supplied are inversely related."
     ],
     "answer": 1,
-    "explanation": "The Law of Supply describes a direct relationship between price and quantity supplied."
+    "explanation": "Higher prices make production more profitable, so producers are willing to supply more—a direct (positive) relationship. Choice E is wrong because it states an inverse relationship, which describes the Law of Demand, not Supply."
   },
   {
     "id": "micro-u2-h009",
@@ -1327,7 +1327,7 @@ var APMICRO_MCQ = [
       "A Giffen good."
     ],
     "answer": 1,
-    "explanation": "Inferior goods have an inverse relationship between income and demand."
+    "explanation": "Inferior goods are defined by an inverse relationship between income and demand: when income falls, consumers buy more of them as a cheaper substitute. Choice A is wrong because normal goods move in the same direction as income—higher income raises demand, lower income reduces it."
   },
   {
     "id": "micro-u2-h031",
@@ -1441,7 +1441,7 @@ var APMICRO_MCQ = [
       "Excise tax."
     ],
     "answer": 1,
-    "explanation": "Rent control is a legal maximum price on housing, which is a price ceiling."
+    "explanation": "Rent control sets a legally binding maximum price on housing, making it a price ceiling. Choice A (price floor) is wrong because a floor sets a minimum price, like a minimum wage, not a maximum."
   },
   {
     "id": "micro-u2-h037",
@@ -1593,7 +1593,7 @@ var APMICRO_MCQ = [
       "160 units."
     ],
     "answer": 1,
-    "explanation": "Shortage = Quantity Demanded - Quantity Supplied = 100 - 60 = 40 units."
+    "explanation": "Shortage = Qd − Qs = 100 − 60 = 40 units. The price ceiling at $3 is below equilibrium ($5), so quantity demanded exceeds quantity supplied. Choice C is wrong because 60 is the quantity supplied, not the size of the shortage."
   },
   {
     "id": "micro-u2-m045",
@@ -1650,7 +1650,7 @@ var APMICRO_MCQ = [
       "Price will increase."
     ],
     "answer": 1,
-    "explanation": "For normal goods, income and demand move in the same direction."
+    "explanation": "For normal goods, income and demand move in the same direction, so falling income shifts the demand curve left (decreases demand). Choice C is wrong because a movement along the demand curve (change in Qd) requires a price change, not an income change."
   },
   {
     "id": "micro-u2-m048",
@@ -1726,7 +1726,7 @@ var APMICRO_MCQ = [
       "Become vertical."
     ],
     "answer": 1,
-    "explanation": "An increase in the number of producers increases the total quantity supplied at every price."
+    "explanation": "More producers add their individual supply curves to the market total, shifting the market supply curve rightward at every price. Choice A is wrong because a leftward shift would require firms to exit the market, not enter it."
   },
   {
     "id": "micro-u2-h052",
@@ -2239,7 +2239,7 @@ var APMICRO_MCQ = [
       "$5."
     ],
     "answer": 1,
-    "explanation": "MC = Change in TC / Change in Q. $65 - 50 = 15$."
+    "explanation": "MC = ΔTC/ΔQ = ($65 − $50) / 1 = $15. Only the change in total cost matters, not the level. Choice C ($13) is the average cost of 6 units ($65/5 rounded), a common error of dividing total cost instead of the change in cost."
   },
   {
     "id": "micro-u3-e014",
@@ -2543,7 +2543,7 @@ var APMICRO_MCQ = [
       "$0."
     ],
     "answer": 1,
-    "explanation": "Profit = (P - ATC) x Q. Here, (20 - 15) x 50 = 5 x 50 = $250."
+    "explanation": "Profit = (P − ATC) × Q = ($20 − $15) × 50 = $250. The per-unit profit margin is $5, spread over 50 units. Choice A ($5) is wrong—that is the per-unit profit margin, not total profit."
   },
   {
     "id": "micro-u3-h030",
@@ -2809,7 +2809,7 @@ var APMICRO_MCQ = [
       "Marginal cost."
     ],
     "answer": 2,
-    "explanation": "The rule is $P < AVC$. Multiplying both sides by $Q$ gives $TR < TVC$."
+    "explanation": "If TR < TVC (equivalently P < AVC), the firm cannot cover its variable costs and loses more by staying open than by shutting down. Choice A (total cost) is wrong because fixed costs are sunk in the short run and irrelevant to the shutdown decision."
   },
   {
     "id": "micro-u3-h044",
@@ -3075,7 +3075,7 @@ var APMICRO_MCQ = [
       "Total Cost."
     ],
     "answer": 2,
-    "explanation": "If $P < AVC$, the firm loses more money by staying open than by closing."
+    "explanation": "If P < AVC, every unit sold deepens the loss beyond fixed costs, so shutting down—losing only fixed costs—is better than producing. Choice A (ATC) is wrong: a firm producing at P < ATC but P ≥ AVC is still covering variable costs and should stay open to minimize losses."
   },
   {
     "id": "micro-u3-m058",
@@ -3208,7 +3208,7 @@ var APMICRO_MCQ = [
       "$800."
     ],
     "answer": 1,
-    "explanation": "AFC = ATC - AVC = $25 - $15 = $10. TFC = AFC * Q = $10 * 20 = $200."
+    "explanation": "AFC = ATC − AVC = $25 − $15 = $10; TFC = AFC × Q = $10 × 20 = $200. Choice A ($10) is wrong—that is AFC per unit, not the total fixed cost across all 20 units of output."
   },
   {
     "id": "micro-u3-h065",
@@ -3626,7 +3626,7 @@ var APMICRO_MCQ = [
       "Have a horizontal marginal revenue curve."
     ],
     "answer": 1,
-    "explanation": "Monopolies restrict output to keep prices high, which creates deadweight loss."
+    "explanation": "A monopoly sets MR = MC, where MR < P, so it produces less output and charges a higher price than a competitive market, creating deadweight loss. Choice D is wrong because restricting output below the allocatively efficient level is the very definition of allocative inefficiency."
   },
   {
     "id": "micro-u4-h012",
@@ -3873,7 +3873,7 @@ var APMICRO_MCQ = [
       "$0."
     ],
     "answer": 1,
-    "explanation": "Profit = (P - ATC) * Q. ($50 - $30) * 100 = $2,000."
+    "explanation": "Profit = (P − ATC) × Q = ($50 − $30) × 100 = $2,000. MC is irrelevant to the profit calculation; only price and average total cost matter. Choice C ($5,000) is wrong—it equals P × Q (total revenue), not profit."
   },
   {
     "id": "micro-u4-e025",
@@ -3968,7 +3968,7 @@ var APMICRO_MCQ = [
       "The elasticity of demand."
     ],
     "answer": 2,
-    "explanation": "Payoffs are the rewards/profits resulting from specific strategy combinations."
+    "explanation": "A payoff matrix cell shows the outcome (profit or utility) each player receives for a particular combination of strategies chosen by all players. Choice A is wrong because prices are a strategy variable, not the payoff itself; students confuse inputs (strategy) with outputs (payoff)."
   },
   {
     "id": "micro-u4-m030",
@@ -4063,7 +4063,7 @@ var APMICRO_MCQ = [
       "Perfect competition."
     ],
     "answer": 1,
-    "explanation": "Market power is the hallmark of any imperfectly competitive firm."
+    "explanation": "Market power is the ability to raise price above marginal cost without losing all customers, because the firm faces a downward-sloping demand curve. Choice A (productive efficiency) is wrong—it refers to producing at minimum ATC, which is unrelated to a firm's pricing power."
   },
   {
     "id": "micro-u4-m035",
@@ -4234,7 +4234,7 @@ var APMICRO_MCQ = [
       "All of the above."
     ],
     "answer": 4,
-    "explanation": "Differentiation can be real (quality) or perceived (advertising/location)."
+    "explanation": "All four methods—physical design, location, service, and branding—are valid forms of differentiation, which may be real (tangible quality or location differences) or perceived (advertising and image). Choices A–D are wrong individually because each is only one of many differentiation strategies."
   },
   {
     "id": "micro-u4-h044",
@@ -4624,7 +4624,7 @@ var APMICRO_MCQ = [
     "topicLabel": "Labor Supply Determinants",
     "difficulty": "easy",
     "source": "Generated",
-    "question": "The state medical board extends the residency requirement for licensed surgeons from 4 years to 7 years. Assuming wages remain unchanged, which of the following best describes the likely effect on the labor market for surgeons?",
+    "question": "The state medical board extends the residency requirement for licensed surgeons from 4 years to 7 years. Which of the following non-price determinants of labor supply has been directly affected by this policy?",
     "choices": [
       "An increase in the wages of the occupation.",
       "An increase in the number of qualified workers.",
@@ -4956,7 +4956,7 @@ var APMICRO_MCQ = [
       "Change in total cost when one more worker is hired."
     ],
     "answer": 2,
-    "explanation": "MRP is the dollar value a worker adds to the firm's bottom line."
+    "explanation": "MRP = MP × MR; it measures the additional revenue the firm earns from hiring one more worker—the worker's dollar contribution to the firm. Choice B is wrong because that describes marginal product (extra output), not the revenue value of that output."
   },
   {
     "id": "micro-u5-h027",
@@ -5127,7 +5127,7 @@ var APMICRO_MCQ = [
       "$Average Product = Average Cost$."
     ],
     "answer": 1,
-    "explanation": "This is the golden rule of factor markets."
+    "explanation": "Profit-maximizing firms hire labor until MRP = MFC because hiring one more worker adds MRP in revenue but costs MFC. If MRP > MFC, hiring more adds profit; if MRP < MFC, hiring less saves cost. Students confuse this with the product market rule MR = MC."
   },
   {
     "id": "micro-u6-e001",
@@ -5279,7 +5279,7 @@ var APMICRO_MCQ = [
       "$2."
     ],
     "answer": 2,
-    "explanation": "MSC = MPC + MEC. $10 + $5 = $15."
+    "explanation": "MSC = MPC + MEC captures all costs: what the producer pays ($10) plus the harm imposed on third parties ($5) = $15. Choice B ($10) is wrong—it omits the external cost entirely, which is the market-failure distortion being corrected."
   },
   {
     "id": "micro-u6-e009",
@@ -5450,7 +5450,7 @@ var APMICRO_MCQ = [
       "The marginal cost of providing it to an additional user is zero."
     ],
     "answer": 1,
-    "explanation": "Excludability is about the ability to charge a price and block non-payers."
+    "explanation": "Excludability means a provider can prevent non-payers from consuming the good, enabling a price to be charged. Choice A describes rivalrousness (one person's use reduces availability to others), which is a separate dimension of goods classification."
   },
   {
     "id": "micro-u6-h018",
@@ -5496,7 +5496,7 @@ var APMICRO_MCQ = [
     "unit": 6,
     "topic": "Club Goods",
     "topicLabel": "Club Goods",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "source": "Generated",
     "question": "A 'Club Good' (like cable TV or a toll road with no traffic) is characterized as:",
     "choices": [
@@ -5648,7 +5648,7 @@ var APMICRO_MCQ = [
     "unit": 6,
     "topic": "Externalities Examples",
     "topicLabel": "Externalities Examples",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "source": "Generated",
     "question": "A government economist is cataloging market externalities and listing examples of each type. Among the following market situations, which is an example of a positive externality in production?",
     "choices": [
