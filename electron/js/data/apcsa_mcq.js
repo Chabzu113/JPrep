@@ -569,25 +569,6 @@ window.APCSA_MCQ = [
     "explanation": "x starts at 10. After x = x + 5, x = 15. After x = x * 2, x = 30."
   },
   {
-    "id": "mcq_012",
-    "unit": 1,
-    "topic": "1.4",
-    "topicLabel": "Assignment Statements and Input",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "Which of the following correctly swaps the values of variables a and b?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "a = b; b = a;",
-      "int temp = a; a = b; b = temp;",
-      "b = a; a = b;",
-      "a = a + b; b = a - b; a = a - b;"
-    ],
-    "answer": 1,
-    "explanation": "A temporary variable is needed to swap two variables. Without it, option A would lose the original value of a. Option D also works mathematically but can overflow with large integers."
-  },
-  {
     "id": "mcq_013",
     "unit": 1,
     "topic": "1.5",
@@ -968,120 +949,6 @@ window.APCSA_MCQ = [
     "explanation": "In Java, uninitialized object references (instance variables) default to null, which means they do not point to any object. This differs from primitives which default to 0, 0.0, or false."
   },
   {
-    "id": "mcq_033",
-    "unit": 1,
-    "topic": "1.13",
-    "topicLabel": "Object Creation and Instantiation",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "Which of the following correctly instantiates a String object?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "String s = String(\"hello\");",
-      "String s = new String(\"hello\");",
-      "string s = \"hello\";",
-      "String s = new string(\"hello\");"
-    ],
-    "answer": 1,
-    "explanation": "The new keyword is used to create an object. 'new String(\"hello\")' calls the String constructor. Note: String literals like \"hello\" also create String objects, but the new keyword syntax is shown here."
-  },
-  {
-    "id": "mcq_034",
-    "unit": 1,
-    "topic": "1.13",
-    "topicLabel": "Object Creation and Instantiation",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is stored in the variable dog after this statement?",
-    "isCode": true,
-    "code": "Animal dog = null;",
-    "choices": [
-      "An Animal object with default values",
-      "A reference to a new Animal object",
-      "The value null, meaning no object reference",
-      "A compilation error occurs"
-    ],
-    "answer": 2,
-    "explanation": "Assigning null to a reference variable means it doesn't point to any object. Attempting to call methods on a null reference would cause a NullPointerException at runtime."
-  },
-  {
-    "id": "mcq_035",
-    "unit": 1,
-    "topic": "1.14",
-    "topicLabel": "Calling Instance Methods",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "What is the output of the following code?",
-    "isCode": true,
-    "code": "String s = \"Hello World\";\nSystem.out.println(s.length());",
-    "choices": [
-      "10",
-      "11",
-      "12",
-      "5"
-    ],
-    "answer": 1,
-    "explanation": "\"Hello World\" has 11 characters (including the space). The length() method returns the number of characters in the string."
-  },
-  {
-    "id": "mcq_036",
-    "unit": 1,
-    "topic": "1.14",
-    "topicLabel": "Calling Instance Methods",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What does the following code print?",
-    "isCode": true,
-    "code": "String s = \"Java\";\nSystem.out.println(s.toUpperCase() + s.toLowerCase());",
-    "choices": [
-      "JavaJava",
-      "JAVAjava",
-      "javajava",
-      "JAVAJava"
-    ],
-    "answer": 1,
-    "explanation": "s.toUpperCase() returns \"JAVA\", s.toLowerCase() returns \"java\". Concatenating them gives \"JAVAjava\"."
-  },
-  {
-    "id": "mcq_037",
-    "unit": 1,
-    "topic": "1.15",
-    "topicLabel": "String Manipulation",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "What does the following code print?",
-    "isCode": true,
-    "code": "String s = \"Programming\";\nSystem.out.println(s.substring(0, 4));",
-    "choices": [
-      "Prog",
-      "rogr",
-      "Progr",
-      "Pro"
-    ],
-    "answer": 0,
-    "explanation": "substring(start, end) returns characters from index start up to but NOT including index end. Indices 0, 1, 2, 3 are 'P','r','o','g', so the result is \"Prog\"."
-  },
-  {
-    "id": "mcq_038",
-    "unit": 1,
-    "topic": "1.15",
-    "topicLabel": "String Manipulation",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is printed by the following code?",
-    "isCode": true,
-    "code": "String a = \"cat\";\nString b = \"cat\";\nSystem.out.println(a == b);\nSystem.out.println(a.equals(b));",
-    "choices": [
-      "true\ntrue",
-      "false\ntrue",
-      "true\nfalse",
-      "false\nfalse"
-    ],
-    "answer": 0,
-    "explanation": "String literals in Java are interned (stored in a pool), so 'a == b' is true because both reference the same object. a.equals(b) compares content and is also true. (Note: with 'new String()', == would be false.)"
-  },
-  {
     "id": "mcq_039",
     "unit": 1,
     "topic": "1.15",
@@ -1099,25 +966,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 1,
     "explanation": "indexOf() returns the index of the first occurrence of the argument. 'c' is at index 2, so \"cd\" starts at index 2."
-  },
-  {
-    "id": "mcq_040",
-    "unit": 1,
-    "topic": "1.15",
-    "topicLabel": "String Manipulation",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output of the following code?",
-    "isCode": true,
-    "code": "String s = \"Hello, World!\";\nString result = s.substring(7).toLowerCase();\nSystem.out.println(result);",
-    "choices": [
-      "world!",
-      "World!",
-      "world",
-      "WORLD!"
-    ],
-    "answer": 0,
-    "explanation": "s.substring(7) extracts from index 7 to end: \"World!\". toLowerCase() converts to \"world!\". So the output is \"world!\"."
   },
   {
     "id": "mcq_074",
@@ -1158,25 +1006,6 @@ window.APCSA_MCQ = [
     "explanation": "Math.max(a, b) returns the larger of the two arguments. Math.max(7, 12) = 12."
   },
   {
-    "id": "mcq_076",
-    "unit": 1,
-    "topic": "1.15",
-    "topicLabel": "String Manipulation",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "String s = \"Hello\";\nSystem.out.println(s.charAt(1));",
-    "choices": [
-      "H",
-      "e",
-      "l",
-      "1"
-    ],
-    "answer": 1,
-    "explanation": "charAt(1) returns the character at index 1 (zero-based). \"Hello\" → index 0='H', index 1='e'. Output: 'e'."
-  },
-  {
     "id": "mcq_079",
     "unit": 1,
     "topic": "1.6",
@@ -1194,63 +1023,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 0,
     "explanation": "x %= 4 is x = x % 4 = 15 % 4 = 3. (15 = 3*4 + 3, remainder is 3)"
-  },
-  {
-    "id": "mcq_082",
-    "unit": 1,
-    "topic": "1.2",
-    "topicLabel": "Variables and Data Types",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the range of values for a Java byte?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "0 to 255",
-      "-128 to 127",
-      "-256 to 255",
-      "-32768 to 32767"
-    ],
-    "answer": 1,
-    "explanation": "A Java byte is 8 bits, using two's complement: ranges from -128 to 127 (2^7 = 128)."
-  },
-  {
-    "id": "mcq_084",
-    "unit": 1,
-    "topic": "1.14",
-    "topicLabel": "Calling Instance Methods",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What does the following code print?",
-    "isCode": true,
-    "code": "String s = \"Hello World\";\nSystem.out.println(s.substring(0, 5).equals(\"Hello\"));",
-    "choices": [
-      "true",
-      "false",
-      "Hello",
-      "Compilation error"
-    ],
-    "answer": 0,
-    "explanation": "s.substring(0, 5) extracts characters at indices 0–4, producing \"Hello\". The equals() method compares content, and \"Hello\".equals(\"Hello\") returns true."
-  },
-  {
-    "id": "mcq_086",
-    "unit": 1,
-    "topic": "1.3",
-    "topicLabel": "Expressions and Output",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "int a = 5;\nSystem.out.println(a++ + \" \" + a);",
-    "choices": [
-      "5 5",
-      "5 6",
-      "6 6",
-      "6 5"
-    ],
-    "answer": 1,
-    "explanation": "a++ is post-increment: it evaluates to a's current value (5) THEN increments a. So: 5 is used for the first a++, then a becomes 6. Output: \"5 6\"."
   },
   {
     "id": "mcq_089",
@@ -1272,25 +1044,6 @@ window.APCSA_MCQ = [
     "explanation": "Math.abs(-5) returns 5. Math.abs(3) returns 3. Math.min(5, 3) returns 3, the smaller of the two values."
   },
   {
-    "id": "mcq_090",
-    "unit": 1,
-    "topic": "1.15",
-    "topicLabel": "String Manipulation",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "String s = \"APCSA\";\nString result = s.substring(0, 2) + s.substring(3);\nSystem.out.println(result);",
-    "choices": [
-      "APSA",
-      "ACSA",
-      "APCS",
-      "APA"
-    ],
-    "answer": 0,
-    "explanation": "s.substring(0, 2) extracts indices 0–1: \"AP\". s.substring(3) extracts from index 3 to the end: \"SA\". Concatenation yields \"AP\" + \"SA\" = \"APSA\". This effectively removes the character at index 2."
-  },
-  {
     "id": "mcq_093",
     "unit": 1,
     "topic": "1.13",
@@ -1308,63 +1061,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 1,
     "explanation": "If a reference variable holds null (points to no object) and you call a method on it, Java throws a NullPointerException at runtime."
-  },
-  {
-    "id": "mcq_095",
-    "unit": 1,
-    "topic": "1.5",
-    "topicLabel": "Casting and Range of Variables",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "int x = 1000000;\nint y = 1000000;\nint result = x * y;\nSystem.out.println(result > 0);",
-    "choices": [
-      "true",
-      "false",
-      "Compilation error",
-      "Depends on JVM"
-    ],
-    "answer": 1,
-    "explanation": "1,000,000 × 1,000,000 = 1,000,000,000,000 (10^12) which overflows int (max ~2.1×10^9). The result wraps to a negative number, so result > 0 is false."
-  },
-  {
-    "id": "mcq_097",
-    "unit": 1,
-    "topic": "1.10",
-    "topicLabel": "Calling Class Methods",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "public static String repeat(String s, int n) {\n    String result = \"\";\n    for (int i = 0; i < n; i++) result += s;\n    return result;\n}\n// In main:\nSystem.out.println(repeat(\"ab\", 3));",
-    "choices": [
-      "ababab",
-      "ab3",
-      "ababababab",
-      "aabbab"
-    ],
-    "answer": 0,
-    "explanation": "The loop concatenates \"ab\" 3 times: \"\" + \"ab\" + \"ab\" + \"ab\" = \"ababab\"."
-  },
-  {
-    "id": "mcq_099",
-    "unit": 1,
-    "topic": "1.4",
-    "topicLabel": "Assignment Statements",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "What is the value of z after this code?",
-    "isCode": true,
-    "code": "int x = 3, y = 4;\nint z = x + y * 2;",
-    "choices": [
-      "14",
-      "11",
-      "10",
-      "7"
-    ],
-    "answer": 1,
-    "explanation": "Multiplication has higher precedence than addition. y * 2 = 8. x + 8 = 11."
   },
   {
     "id": "mcq_101",
@@ -1460,44 +1156,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 1,
     "explanation": "Compile-time errors (like syntax errors) prevent the code from compiling. Runtime errors occur during execution (like NullPointerException, ArrayIndexOutOfBoundsException)."
-  },
-  {
-    "id": "mcq_111",
-    "unit": 1,
-    "topic": "1.2",
-    "topicLabel": "Variables and Data Types",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output of the following code?",
-    "isCode": true,
-    "code": "int x = Integer.MAX_VALUE;\nSystem.out.println(x + 1);",
-    "choices": [
-      "2147483648",
-      "2147483647",
-      "-2147483648",
-      "Compilation error"
-    ],
-    "answer": 2,
-    "explanation": "Integer.MAX_VALUE = 2147483647. Adding 1 causes integer overflow and wraps around to Integer.MIN_VALUE = -2147483648."
-  },
-  {
-    "id": "mcq_114",
-    "unit": 1,
-    "topic": "1.14",
-    "topicLabel": "Calling Instance Methods",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "String s = \"Java Programming\";\nSystem.out.println(s.substring(5, 9).toUpperCase());",
-    "choices": [
-      "PROG",
-      "JAVA",
-      "Prog",
-      "GRAM"
-    ],
-    "answer": 0,
-    "explanation": "s.substring(5, 9) extracts indices 5–8: 'P','r','o','g' → \"Prog\". toUpperCase() converts it to \"PROG\"."
   },
   {
     "id": "csa_u2_q019",
@@ -1598,26 +1256,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 1,
     "explanation": "When str is null, the condition str != null evaluates to false. Due to short-circuit evaluation with &&, str.length() is never called, which prevents a NullPointerException. Because the entire if-condition is false, the else block executes and prints \"Invalid string\". Choice A is wrong because str is null so the if-condition can never be true. Choice C is wrong because short-circuit evaluation prevents str.length() from ever being called. Choice D is wrong because this code compiles without error."
-  },
-  {
-    "id": "csa_u2_q024",
-    "subject": "apcsa",
-    "unit": 2,
-    "topic": "wrapper classes",
-    "topicLabel": "wrapper classes",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "What is the output of the following code?\n\nInteger a = 100;\nInteger b = 100;\nInteger c = 200;\nInteger d = 200;\nSystem.out.println((a == b) + \" \" + (c == d));",
-    "choices": [
-      "A) true true",
-      "B) false false",
-      "C) true false",
-      "D) false true"
-    ],
-    "answer": 2,
-    "explanation": "Java caches Integer objects from -128 to 127. Since 100 is in this range, a and b reference the same cached object (a == b is true). Since 200 is outside this range, c and d are separate objects (c == d is false). Students often don't know about integer caching."
   },
   {
     "id": "csa_u2_q025",
@@ -1795,120 +1433,6 @@ window.APCSA_MCQ = [
     "explanation": "Java does not support chained comparisons like '5 < x < 10'. You must use && to combine two conditions. x >= 5 && x <= 10 correctly checks both bounds inclusively."
   },
   {
-    "id": "mcq_046",
-    "unit": 2,
-    "topic": "2.2",
-    "topicLabel": "Boolean Expressions",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the value of the expression?",
-    "isCode": true,
-    "code": "int a = 4, b = 7, c = 3;\nboolean result = (a < b) && (b > c) || !(a == c);",
-    "choices": [
-      "true",
-      "false",
-      "Compilation error",
-      "Depends on operator precedence"
-    ],
-    "answer": 0,
-    "explanation": "Following Java precedence: ! binds tightest, then &&, then ||. (a<b)=true, (b>c)=true, (a==c)=false so !(a==c)=true. (true && true)=true. true || true = true."
-  },
-  {
-    "id": "mcq_047",
-    "unit": 2,
-    "topic": "2.3",
-    "topicLabel": "if Statements",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "What is the output of the following code?",
-    "isCode": true,
-    "code": "int x = 10;\nif (x > 5) {\n    System.out.println(\"Big\");\n}\nSystem.out.println(\"Done\");",
-    "choices": [
-      "Big\nDone",
-      "Done",
-      "Big",
-      "Nothing"
-    ],
-    "answer": 0,
-    "explanation": "x = 10 > 5 is true, so \"Big\" is printed. Then the code continues past the if block and prints \"Done\"."
-  },
-  {
-    "id": "mcq_048",
-    "unit": 2,
-    "topic": "2.3",
-    "topicLabel": "if Statements",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the output of this code?",
-    "isCode": true,
-    "code": "int score = 85;\nif (score >= 90) {\n    System.out.println(\"A\");\n} else if (score >= 80) {\n    System.out.println(\"B\");\n} else {\n    System.out.println(\"C\");\n}",
-    "choices": [
-      "A",
-      "B",
-      "C",
-      "B\nC"
-    ],
-    "answer": 1,
-    "explanation": "score = 85. First condition (85 >= 90) is false, second condition (85 >= 80) is true, so \"B\" is printed and the else clause is skipped."
-  },
-  {
-    "id": "mcq_049",
-    "unit": 2,
-    "topic": "2.3",
-    "topicLabel": "if Statements",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What does this code print?",
-    "isCode": true,
-    "code": "int n = 0;\nif (n = 5) {\n    System.out.println(\"yes\");\n}",
-    "choices": [
-      "yes",
-      "nothing",
-      "false",
-      "Compilation error"
-    ],
-    "answer": 3,
-    "explanation": "n = 5 is an assignment expression, which evaluates to int 5. Java requires a boolean in an if condition, so using an int causes a compilation error. (Unlike C/C++)"
-  },
-  {
-    "id": "mcq_050",
-    "unit": 2,
-    "topic": "2.4",
-    "topicLabel": "Nested if Statements",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the output of the following code?",
-    "isCode": true,
-    "code": "int x = 5, y = 10;\nif (x > 0) {\n    if (y > 5) {\n        System.out.println(\"Both\");\n    } else {\n        System.out.println(\"Only x\");\n    }\n} else {\n    System.out.println(\"Neither\");\n}",
-    "choices": [
-      "Both",
-      "Only x",
-      "Neither",
-      "Compilation error"
-    ],
-    "answer": 0,
-    "explanation": "x=5 > 0 is true (enter outer if). y=10 > 5 is true (enter inner if). Print \"Both\"."
-  },
-  {
-    "id": "mcq_051",
-    "unit": 2,
-    "topic": "2.4",
-    "topicLabel": "Nested if Statements",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "int a = 3;\nif (a > 1)\n    if (a > 5)\n        System.out.println(\"big\");\n    else\n        System.out.println(\"medium\");",
-    "choices": [
-      "big",
-      "medium",
-      "nothing",
-      "Compilation error"
-    ],
-    "answer": 1,
-    "explanation": "The 'dangling else' rule: the else pairs with the nearest if. a=3 > 1 is true (outer if entered). a=3 > 5 is false, so the else prints \"medium\"."
-  },
-  {
     "id": "mcq_052",
     "unit": 2,
     "topic": "2.5",
@@ -1928,25 +1452,6 @@ window.APCSA_MCQ = [
     "explanation": "De Morgan's Law: !(a && b) = !a || !b. The AND becomes OR and each operand is negated."
   },
   {
-    "id": "mcq_053",
-    "unit": 2,
-    "topic": "2.5",
-    "topicLabel": "Compound Boolean Expressions",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the result of the following expression when x = 5?",
-    "isCode": true,
-    "code": "boolean r = (x > 3) && (x < 10) && !(x == 7);",
-    "choices": [
-      "true",
-      "false",
-      "Depends on order of evaluation",
-      "Compilation error"
-    ],
-    "answer": 0,
-    "explanation": "(5>3)=true, (5<10)=true, (5==7)=false so !(5==7)=true. true && true && true = true."
-  },
-  {
     "id": "mcq_054",
     "unit": 2,
     "topic": "2.6",
@@ -1964,139 +1469,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 3,
     "explanation": "In Java, if a variable is already a boolean, writing 'if (flag)' is preferred over 'if (flag == true)' — the latter is redundant. For Boolean objects (not primitives), equals() is better."
-  },
-  {
-    "id": "mcq_055",
-    "unit": 2,
-    "topic": "2.6",
-    "topicLabel": "Comparing Boolean Expressions",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "boolean x = (3 > 2);\nboolean y = (5 == 5);\nSystem.out.println(x == y);",
-    "choices": [
-      "true",
-      "false",
-      "Compilation error",
-      "null"
-    ],
-    "answer": 0,
-    "explanation": "x = (3>2) = true. y = (5==5) = true. x == y → true == true → true."
-  },
-  {
-    "id": "mcq_056",
-    "unit": 2,
-    "topic": "2.7",
-    "topicLabel": "while Loops",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "How many times does the following loop body execute?",
-    "isCode": true,
-    "code": "int i = 1;\nwhile (i <= 5) {\n    i++;\n}",
-    "choices": [
-      "4",
-      "5",
-      "6",
-      "Infinite"
-    ],
-    "answer": 1,
-    "explanation": "i starts at 1 and increments each iteration. The loop runs for i = 1, 2, 3, 4, 5, so the body executes 5 times. After the 5th iteration i becomes 6, and 6 <= 5 is false."
-  },
-  {
-    "id": "mcq_057",
-    "unit": 2,
-    "topic": "2.7",
-    "topicLabel": "while Loops",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What does the following code print?",
-    "isCode": true,
-    "code": "int n = 1;\nwhile (n < 32) {\n    n *= 2;\n}\nSystem.out.println(n);",
-    "choices": [
-      "16",
-      "32",
-      "64",
-      "31"
-    ],
-    "answer": 1,
-    "explanation": "n: 1→2→4→8→16→32. After n=32, the condition 32 < 32 is false, so loop exits. Prints 32."
-  },
-  {
-    "id": "mcq_058",
-    "unit": 2,
-    "topic": "2.7",
-    "topicLabel": "while Loops",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "int sum = 0, i = 10;\nwhile (i > 0) {\n    sum += i;\n    i -= 3;\n}\nSystem.out.println(sum);",
-    "choices": [
-      "22",
-      "25",
-      "28",
-      "19"
-    ],
-    "answer": 0,
-    "explanation": "i=10: sum+=10→10, i=7. i=7: sum+=7→17, i=4. i=4: sum+=4→21, i=1. i=1: sum+=1→22, i=-2. i=-2: loop ends. Print 22."
-  },
-  {
-    "id": "mcq_059",
-    "unit": 2,
-    "topic": "2.8",
-    "topicLabel": "for Loops",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "What does the following code print?",
-    "isCode": true,
-    "code": "for (int i = 0; i < 5; i++) {\n    System.out.print(i + \" \");\n}",
-    "choices": [
-      "0 1 2 3 4 ",
-      "1 2 3 4 5 ",
-      "0 1 2 3 4 5 ",
-      "1 2 3 4 "
-    ],
-    "answer": 0,
-    "explanation": "Loop runs for i = 0, 1, 2, 3, 4 (stops when i=5). Prints each value followed by a space: \"0 1 2 3 4 \"."
-  },
-  {
-    "id": "mcq_060",
-    "unit": 2,
-    "topic": "2.8",
-    "topicLabel": "for Loops",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the value of total after this loop?",
-    "isCode": true,
-    "code": "int total = 0;\nfor (int i = 1; i <= 10; i += 2) {\n    total += i;\n}",
-    "choices": [
-      "25",
-      "30",
-      "55",
-      "20"
-    ],
-    "answer": 0,
-    "explanation": "i takes odd values: 1, 3, 5, 7, 9. Sum = 1+3+5+7+9 = 25."
-  },
-  {
-    "id": "mcq_061",
-    "unit": 2,
-    "topic": "2.8",
-    "topicLabel": "for Loops",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "for (int i = 5; i >= 1; i--) {\n    if (i % 2 == 0) {\n        System.out.print(i + \" \");\n    }\n}",
-    "choices": [
-      "2 4 ",
-      "4 2 ",
-      "5 3 1 ",
-      "1 3 5 "
-    ],
-    "answer": 1,
-    "explanation": "Loop counts down from 5 to 1. Even numbers: 4 (when i=4) and 2 (when i=2). Since we count down, 4 appears before 2. Output: \"4 2 \"."
   },
   {
     "id": "mcq_062",
@@ -2517,25 +1889,6 @@ window.APCSA_MCQ = [
     "explanation": "i=1: product=1, print 1. i=2: product=2, print 2. i=3: product=6, print 6. i=4: product=24, print 24. Output: \"1 2 6 24 \"."
   },
   {
-    "id": "mcq_094",
-    "unit": 2,
-    "topic": "2.12",
-    "topicLabel": "Informal Run-Time Analysis",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "Which of the following loops has the best (most efficient) run-time for finding one specific item in a sorted list?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "A linear scan checking every element",
-      "A loop that halves the search space each iteration (binary search)",
-      "A nested loop checking all pairs",
-      "All are equivalent"
-    ],
-    "answer": 1,
-    "explanation": "Binary search runs in O(log n) time by halving the search space each step, compared to linear search O(n) and nested loops O(n²)."
-  },
-  {
     "id": "mcq_096",
     "unit": 2,
     "topic": "2.9",
@@ -2705,25 +2058,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 1,
     "explanation": "Short-circuit evaluation: for &&, if the left operand is false, the right operand is NOT evaluated (because false && anything = false). For ||, if the left is true, right is not evaluated."
-  },
-  {
-    "id": "mcq_113",
-    "unit": 2,
-    "topic": "2.12",
-    "topicLabel": "Informal Run-Time Analysis",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "Approximately how many iterations does a binary search take to find an element in a sorted list of 1024 items?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "1024",
-      "512",
-      "10",
-      "100"
-    ],
-    "answer": 2,
-    "explanation": "Binary search is O(log₂ n). log₂(1024) = 10 (since 2^10 = 1024). So at most 10 comparisons are needed."
   },
   {
     "id": "mcq_115",
@@ -2965,26 +2299,6 @@ window.APCSA_MCQ = [
     "explanation": "The dangling else problem is resolved by the rule that an else belongs to the closest preceding if statement that doesn't already have an else. Choice B incorrectly suggests the first if takes precedence. Choice C suggests the outermost if takes precedence. Choice D misunderstands the binding rule."
   },
   {
-    "id": "csa_u3_q040",
-    "subject": "apcsa",
-    "unit": 3,
-    "topic": "switch statements",
-    "topicLabel": "switch statements",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Which case is executed when none of the explicit cases match in a switch statement?",
-    "choices": [
-      "A) default",
-      "B) else",
-      "C) catch",
-      "D) finally"
-    ],
-    "answer": 0,
-    "explanation": "The default case in a switch statement is executed when no other cases match the switch expression. Choice B confuses switch syntax with if-else syntax. Choice C relates to exception handling, not switch statements. Choice D relates to try-catch blocks, not switch statements."
-  },
-  {
     "id": "csa_u3_q041",
     "subject": "apcsa",
     "unit": 3,
@@ -3125,26 +2439,6 @@ window.APCSA_MCQ = [
     "explanation": "Since temperature (75) > 70, we enter the outer if block. Then since humidity (60) > 50, we enter the inner if block and print 'Hot and humid'. The nested structure requires both conditions to be evaluated in sequence."
   },
   {
-    "id": "csa_u3_q048",
-    "subject": "apcsa",
-    "unit": 3,
-    "topic": "switch statements",
-    "topicLabel": "switch statements",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "What is the output of the following switch statement when grade = 'B'?\n\nswitch (grade) {\n    case 'A':\n        System.out.print(\"Excellent \");\n    case 'B':\n        System.out.print(\"Good \");\n    case 'C':\n        System.out.print(\"Average \");\n    default:\n        System.out.print(\"Study harder\");\n}",
-    "choices": [
-      "A) Good Average Study harder",
-      "B) Good",
-      "C) Average Study harder",
-      "D) Study harder"
-    ],
-    "answer": 0,
-    "explanation": "Since there are no break statements, execution falls through from case 'B' to case 'C' and then to default. This prints 'Good Average Study harder'. Many students incorrectly think only the matching case executes."
-  },
-  {
     "id": "csa_u3_q049",
     "subject": "apcsa",
     "unit": 3,
@@ -3263,26 +2557,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 0,
     "explanation": "Working through the nested conditions: x (8) > 5 is true, so we enter the first if. y (12) > 10 is true, so we enter the second if. x + y (20) > 15 is true, so we execute the innermost if and print 'Case 1'."
-  },
-  {
-    "id": "csa_u3_q055",
-    "subject": "apcsa",
-    "unit": 3,
-    "topic": "switch statements",
-    "topicLabel": "switch statements",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "What happens when this switch statement executes with day = 3?\n\nswitch (day) {\n    case 1:\n    case 2:\n    case 3:\n        System.out.println(\"Weekday\");\n        break;\n    case 6:\n    case 7:\n        System.out.println(\"Weekend\");\n        break;\n    default:\n        System.out.println(\"Invalid\");\n}",
-    "choices": [
-      "A) Weekday",
-      "B) Weekend",
-      "C) Invalid",
-      "D) Nothing is printed"
-    ],
-    "answer": 0,
-    "explanation": "The switch matches case 3, and due to fall-through from cases 1 and 2 (which have no break statements), execution continues to the statement under case 3, printing 'Weekday', then encounters the break and exits the switch."
   },
   {
     "id": "csa_u3_q056",
@@ -4043,44 +3317,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 0,
     "explanation": "Due to short circuit evaluation, (y != 0) is false, so (x / y > 2) is never evaluated, avoiding division by zero. Since the first part of the AND is false, the entire AND expression is false. However, due to the OR operator, (x++ > 4) is still evaluated. Since x is 5, x++ > 4 evaluates to true (5 > 4), and x is incremented to 6. The overall result is true. Choice B incorrectly assumes x doesn't increment. Choice C incorrectly assumes the result is false. Choice D incorrectly assumes division by zero occurs despite short circuit evaluation."
-  },
-  {
-    "id": "mcq_116",
-    "unit": 3,
-    "topic": "3.1",
-    "topicLabel": "Abstraction and Program Design",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "In object-oriented programming, abstraction refers to:",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "Writing code with no comments",
-      "Hiding implementation details and exposing only essential features",
-      "Making all variables public",
-      "Copying code from existing classes"
-    ],
-    "answer": 1,
-    "explanation": "Abstraction means hiding complex implementation details and only exposing the necessary interface. Users of a class don't need to know how methods work internally."
-  },
-  {
-    "id": "mcq_117",
-    "unit": 3,
-    "topic": "3.1",
-    "topicLabel": "Abstraction and Program Design",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "Which of the following best illustrates encapsulation?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "A class with all public fields",
-      "A class with private fields and public getter/setter methods",
-      "A method that calls itself",
-      "Two classes that share a common superclass"
-    ],
-    "answer": 1,
-    "explanation": "Encapsulation is the practice of keeping fields private and providing public methods to access/modify them. This protects data integrity and hides implementation."
   },
   {
     "id": "mcq_118",
@@ -5737,26 +4973,6 @@ window.APCSA_MCQ = [
     "explanation": "This performs one pass of bubble sort. i=0: 5>2, swap → {2,5,8,1,9}. i=1: 5<8, no swap. i=2: 8>1, swap → {2,5,1,8,9}. i=3: 8<9, no swap. Final: {2,5,1,8,9}. Students might think it fully sorts (C), stops after first swap (B), or makes different swaps (D)."
   },
   {
-    "id": "csa_u4_q152",
-    "subject": "apcsa",
-    "unit": 4,
-    "topic": "loop invariants",
-    "topicLabel": "loop invariants",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "What is the strongest loop invariant for this binary search implementation?\n\nint low = 0, high = arr.length - 1;\nwhile (low <= high) {\n    int mid = (low + high) / 2;\n    if (arr[mid] == target) return mid;\n    else if (arr[mid] < target) low = mid + 1;\n    else high = mid - 1;\n}",
-    "choices": [
-      "A) If target exists, it is between indices low and high inclusive",
-      "B) The array remains sorted throughout execution",
-      "C) low <= high at the start of each iteration",
-      "D) mid is always the average of low and high"
-    ],
-    "answer": 0,
-    "explanation": "The key invariant is that if target exists in the array, it must be in the range [low, high]. This drives the correctness of binary search. Choice B is true but not about loop progress. Choice C becomes false when loop exits. Choice D is implementation detail, not the essential invariant for correctness."
-  },
-  {
     "id": "csa_u4_q153",
     "subject": "apcsa",
     "unit": 4,
@@ -5795,44 +5011,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 2,
     "explanation": "Iterating backwards (C) prevents index shifting issues when removing elements. Choice A skips elements after removal. Choice B throws ConcurrentModificationException. Choice D creates infinite loop if first element is odd. Backwards iteration is the standard safe approach for removal during iteration."
-  },
-  {
-    "id": "mcq_144",
-    "unit": 4,
-    "topic": "4.1",
-    "topicLabel": "Ethical and Social Issues",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "Which of the following is an ethical concern related to large-scale data collection?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "Data collection makes programs run slower",
-      "Collecting personal data without user consent may violate privacy",
-      "Arrays can only hold primitive data types",
-      "Databases cannot store more than 1 million records"
-    ],
-    "answer": 1,
-    "explanation": "Collecting personal data without informed consent raises significant privacy and ethical concerns. Users should be aware of what data is collected and how it is used."
-  },
-  {
-    "id": "mcq_145",
-    "unit": 4,
-    "topic": "4.1",
-    "topicLabel": "Ethical and Social Issues",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the principle of data minimization?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "Storing data in the smallest file format possible",
-      "Collecting only the data that is necessary for a specific purpose",
-      "Deleting all data after one use",
-      "Using small arrays instead of large ones"
-    ],
-    "answer": 1,
-    "explanation": "Data minimization is an ethical and legal principle that organizations should only collect the personal data that is strictly necessary for their stated purpose."
   },
   {
     "id": "mcq_146",
@@ -5892,25 +5070,6 @@ window.APCSA_MCQ = [
     "explanation": "The correct Java syntax for creating an array is: elementType[] arrayName = new elementType[size]; So 'int[] arr = new int[5];' is correct."
   },
   {
-    "id": "mcq_149",
-    "unit": 4,
-    "topic": "4.3",
-    "topicLabel": "Array Creation and Access",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the output of the following code?",
-    "isCode": true,
-    "code": "int[] arr = {10, 20, 30, 40, 50};\nSystem.out.println(arr[0] + arr[arr.length - 1]);",
-    "choices": [
-      "60",
-      "30",
-      "50",
-      "10"
-    ],
-    "answer": 0,
-    "explanation": "arr[0] = 10. arr[arr.length - 1] = arr[4] = 50. 10 + 50 = 60."
-  },
-  {
     "id": "mcq_150",
     "unit": 4,
     "topic": "4.3",
@@ -5930,44 +5089,6 @@ window.APCSA_MCQ = [
     "explanation": "Java arrays use non-negative integer indices (0 to length-1). Accessing a negative index throws ArrayIndexOutOfBoundsException at runtime."
   },
   {
-    "id": "mcq_151",
-    "unit": 4,
-    "topic": "4.4",
-    "topicLabel": "Array Traversals",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "What does the following code print?",
-    "isCode": true,
-    "code": "int[] nums = {3, 1, 4, 1, 5};\nfor (int i = 0; i < nums.length; i++) {\n    System.out.print(nums[i] + \" \");\n}",
-    "choices": [
-      "3 1 4 1 5 ",
-      "5 1 4 1 3 ",
-      "1 1 3 4 5 ",
-      "3 4 5 "
-    ],
-    "answer": 0,
-    "explanation": "The loop traverses from index 0 to 4, printing each element in order: 3 1 4 1 5."
-  },
-  {
-    "id": "mcq_152",
-    "unit": 4,
-    "topic": "4.4",
-    "topicLabel": "Array Traversals",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What does the following enhanced for loop do?",
-    "isCode": true,
-    "code": "int[] arr = {2, 5, 8, 3, 7};\nint sum = 0;\nfor (int val : arr) {\n    sum += val;\n}\nSystem.out.println(sum);",
-    "choices": [
-      "25",
-      "87532",
-      "2",
-      "7"
-    ],
-    "answer": 0,
-    "explanation": "The enhanced for loop (for-each) iterates over each element in arr. sum = 2+5+8+3+7 = 25."
-  },
-  {
     "id": "mcq_153",
     "unit": 4,
     "topic": "4.4",
@@ -5985,63 +5106,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 2,
     "explanation": "The enhanced for loop (for-each) doesn't provide the index of the current element. When you need the index (e.g., to modify elements, compare adjacent elements, or use the index in calculations), you must use a standard for loop."
-  },
-  {
-    "id": "mcq_154",
-    "unit": 4,
-    "topic": "4.5",
-    "topicLabel": "Implementing Array Algorithms",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What does the following code compute?",
-    "isCode": true,
-    "code": "int[] arr = {3, 7, 2, 9, 5};\nint result = arr[0];\nfor (int i = 1; i < arr.length; i++) {\n    if (arr[i] < result) result = arr[i];\n}\nSystem.out.println(result);",
-    "choices": [
-      "9",
-      "3",
-      "2",
-      "5"
-    ],
-    "answer": 2,
-    "explanation": "This is the minimum-finding algorithm. Starting with arr[0]=3, it updates result whenever a smaller element is found. Minimum is 2."
-  },
-  {
-    "id": "mcq_155",
-    "unit": 4,
-    "topic": "4.5",
-    "topicLabel": "Implementing Array Algorithms",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What does the following code do to the array?",
-    "isCode": true,
-    "code": "int[] arr = {1, 2, 3, 4, 5};\nfor (int i = 0; i < arr.length / 2; i++) {\n    int temp = arr[i];\n    arr[i] = arr[arr.length - 1 - i];\n    arr[arr.length - 1 - i] = temp;\n}\n// arr is now:",
-    "choices": [
-      "{5, 4, 3, 2, 1}",
-      "{1, 2, 3, 4, 5} (unchanged)",
-      "{2, 4, 1, 3, 5}",
-      "{5, 4, 3, 2, 1} but only half reversed"
-    ],
-    "answer": 0,
-    "explanation": "This is the array reversal algorithm. It swaps elements from both ends toward the middle. After execution: {5, 4, 3, 2, 1}."
-  },
-  {
-    "id": "mcq_156",
-    "unit": 4,
-    "topic": "4.6",
-    "topicLabel": "Using Text Files",
-    "difficulty": "easy",
-    "source": "original",
-    "question": "In Java, to read from a text file, you would typically use classes from which package?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "java.lang",
-      "java.util",
-      "java.io",
-      "java.data"
-    ],
-    "answer": 2,
-    "explanation": "File I/O classes in Java are in the java.io package. This includes File, FileReader, BufferedReader, Scanner (for file reading), PrintWriter, etc."
   },
   {
     "id": "mcq_157",
@@ -6082,25 +5146,6 @@ window.APCSA_MCQ = [
     "explanation": "Autoboxing is the automatic conversion of a primitive (like int) to its corresponding wrapper class object (Integer), and unboxing is the reverse. Java handles this transparently."
   },
   {
-    "id": "mcq_159",
-    "unit": 4,
-    "topic": "4.7",
-    "topicLabel": "Wrapper Classes",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "Integer a = 5;\nInteger b = 5;\nInteger c = 200;\nInteger d = 200;\nSystem.out.println(a == b);\nSystem.out.println(c == d);",
-    "choices": [
-      "true\ntrue",
-      "false\nfalse",
-      "true\nfalse",
-      "false\ntrue"
-    ],
-    "answer": 2,
-    "explanation": "Java caches Integer objects for values -128 to 127. a and b both point to the cached Integer(5), so a==b is true. 200 is outside the cache range, so c and d are different objects; c==d is false."
-  },
-  {
     "id": "mcq_160",
     "unit": 4,
     "topic": "4.8",
@@ -6137,25 +5182,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 1,
     "explanation": "The ArrayList add(element) method appends an element to the end of the list."
-  },
-  {
-    "id": "mcq_162",
-    "unit": 4,
-    "topic": "4.8",
-    "topicLabel": "ArrayList Methods",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the output of this code?",
-    "isCode": true,
-    "code": "import java.util.ArrayList;\nArrayList<Integer> list = new ArrayList<>();\nlist.add(10);\nlist.add(20);\nlist.add(30);\nlist.remove(1);\nSystem.out.println(list);",
-    "choices": [
-      "[10, 30]",
-      "[20, 30]",
-      "[10, 20]",
-      "[10, 20, 30]"
-    ],
-    "answer": 0,
-    "explanation": "list.remove(1) removes the element at index 1 (which is 20). The list becomes [10, 30]."
   },
   {
     "id": "mcq_163",
@@ -6196,63 +5222,6 @@ window.APCSA_MCQ = [
     "explanation": "For ArrayList, use words.size() (not .length) for index loops. The enhanced for loop uses ':' not 'in'. 'foreach' is not Java syntax. Option B is correct."
   },
   {
-    "id": "mcq_165",
-    "unit": 4,
-    "topic": "4.9",
-    "topicLabel": "ArrayList Traversals",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is wrong with the following code that tries to remove all even numbers?",
-    "isCode": true,
-    "code": "ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(1,2,3,4,5,6));\nfor (int i = 0; i < nums.size(); i++) {\n    if (nums.get(i) % 2 == 0) {\n        nums.remove(i);\n    }\n}",
-    "choices": [
-      "You cannot remove from an ArrayList in a for loop",
-      "When an element is removed, indices shift left, so consecutive even numbers may be skipped",
-      "nums.get() does not exist",
-      "Nothing — the code is correct"
-    ],
-    "answer": 1,
-    "explanation": "When an element at index i is removed, all subsequent elements shift left. The next element is now at index i, but the loop increments i to i+1, skipping it. Solution: decrement i after removal, or iterate backwards."
-  },
-  {
-    "id": "mcq_166",
-    "unit": 4,
-    "topic": "4.10",
-    "topicLabel": "Implementing ArrayList Algorithms",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What does the following code do?",
-    "isCode": true,
-    "code": "ArrayList<Integer> list = new ArrayList<>(Arrays.asList(3,1,4,1,5,9,2,6));\nArrayList<Integer> result = new ArrayList<>();\nfor (int val : list) {\n    if (val > 4) result.add(val);\n}\nSystem.out.println(result);",
-    "choices": [
-      "[5, 9, 6]",
-      "[3, 1, 4, 1]",
-      "[9, 6]",
-      "[5, 9, 2, 6]"
-    ],
-    "answer": 0,
-    "explanation": "The code filters elements greater than 4. From {3,1,4,1,5,9,2,6}: 5>4, 9>4, 6>4. Result: [5, 9, 6]."
-  },
-  {
-    "id": "mcq_167",
-    "unit": 4,
-    "topic": "4.10",
-    "topicLabel": "Implementing ArrayList Algorithms",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "ArrayList<String> names = new ArrayList<>(Arrays.asList(\"Bob\",\"Alice\",\"Charlie\",\"Alice\",\"Dave\"));\nArrayList<String> unique = new ArrayList<>();\nfor (String name : names) {\n    if (!unique.contains(name)) {\n        unique.add(name);\n    }\n}\nSystem.out.println(unique.size());",
-    "choices": [
-      "5",
-      "4",
-      "3",
-      "2"
-    ],
-    "answer": 1,
-    "explanation": "Removing duplicates: Bob, Alice, Charlie, Dave = 4 unique names. \"Alice\" appears twice but is only added once."
-  },
-  {
     "id": "mcq_168",
     "unit": 4,
     "topic": "4.11",
@@ -6289,82 +5258,6 @@ window.APCSA_MCQ = [
     ],
     "answer": 0,
     "explanation": "new int[rows][cols] — so new int[4][6] creates a 2D array with 4 rows and 6 columns. matrix.length = 4, matrix[0].length = 6."
-  },
-  {
-    "id": "mcq_170",
-    "unit": 4,
-    "topic": "4.11",
-    "topicLabel": "2D Array Creation and Access",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "int[][] grid = {{1,2,3},{4,5,6},{7,8,9}};\nSystem.out.println(grid[1][2]);",
-    "choices": [
-      "6",
-      "5",
-      "8",
-      "3"
-    ],
-    "answer": 0,
-    "explanation": "grid[1] is the second row {4,5,6}. grid[1][2] is the third element of that row = 6."
-  },
-  {
-    "id": "mcq_171",
-    "unit": 4,
-    "topic": "4.12",
-    "topicLabel": "2D Array Traversals",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the sum computed by the following code?",
-    "isCode": true,
-    "code": "int[][] m = {{1,2},{3,4},{5,6}};\nint sum = 0;\nfor (int r = 0; r < m.length; r++) {\n    for (int c = 0; c < m[r].length; c++) {\n        sum += m[r][c];\n    }\n}\nSystem.out.println(sum);",
-    "choices": [
-      "21",
-      "15",
-      "18",
-      "6"
-    ],
-    "answer": 0,
-    "explanation": "Sum all elements: 1+2+3+4+5+6 = 21."
-  },
-  {
-    "id": "mcq_172",
-    "unit": 4,
-    "topic": "4.12",
-    "topicLabel": "2D Array Traversals",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "How many times does the inner loop body execute?",
-    "isCode": true,
-    "code": "int[][] m = new int[3][4];\nfor (int[] row : m) {\n    for (int val : row) {\n        // inner body\n    }\n}",
-    "choices": [
-      "7",
-      "12",
-      "3",
-      "4"
-    ],
-    "answer": 1,
-    "explanation": "3 rows, each with 4 columns. Total = 3 × 4 = 12 executions."
-  },
-  {
-    "id": "mcq_173",
-    "unit": 4,
-    "topic": "4.13",
-    "topicLabel": "Implementing 2D Array Algorithms",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What does the following code compute?",
-    "isCode": true,
-    "code": "int[][] m = {{1,2,3},{4,5,6},{7,8,9}};\nint diag = 0;\nfor (int i = 0; i < m.length; i++) {\n    diag += m[i][i];\n}\nSystem.out.println(diag);",
-    "choices": [
-      "15",
-      "12",
-      "9",
-      "45"
-    ],
-    "answer": 0,
-    "explanation": "This sums the main diagonal: m[0][0]=1, m[1][1]=5, m[2][2]=9. Sum = 1+5+9 = 15."
   },
   {
     "id": "mcq_174",
@@ -6918,63 +5811,6 @@ window.APCSA_MCQ = [
     "explanation": "list.add(index, element) inserts element at the given index, shifting subsequent elements right. add(2, 99) inserts 99 at index 2: [1, 2, 99, 3, 4, 5]."
   },
   {
-    "id": "mcq_203",
-    "unit": 4,
-    "topic": "4.1",
-    "topicLabel": "Ethical and Social Issues",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "A company collects user location data to 'improve services.' What ethical principle might they be violating if they sell this data to third parties without user knowledge?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "The principle of data maximization",
-      "The principle of informed consent and transparency",
-      "The principle of computational efficiency",
-      "The principle of open-source software"
-    ],
-    "answer": 1,
-    "explanation": "Selling user data without their knowledge violates informed consent — users have not agreed to their data being shared with third parties. This is a fundamental privacy and ethical concern."
-  },
-  {
-    "id": "mcq_204",
-    "unit": 4,
-    "topic": "4.17",
-    "topicLabel": "Recursive Searching and Sorting",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is the time complexity of merge sort?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "O(n)",
-      "O(n²)",
-      "O(n log n)",
-      "O(log n)"
-    ],
-    "answer": 2,
-    "explanation": "Merge sort has O(n log n) time complexity in all cases (best, average, and worst). It divides the array log n times and merges in O(n) time at each level."
-  },
-  {
-    "id": "mcq_205",
-    "unit": 4,
-    "topic": "4.6",
-    "topicLabel": "Using Text Files",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "Which exception must be handled or declared when reading from a file using FileReader?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "NullPointerException",
-      "ArrayIndexOutOfBoundsException",
-      "IOException",
-      "ClassNotFoundException"
-    ],
-    "answer": 2,
-    "explanation": "File I/O operations can fail (file not found, permissions issues, etc.), so they throw IOException (a checked exception). You must either catch it with try-catch or declare 'throws IOException'."
-  },
-  {
     "id": "mcq_206",
     "unit": 4,
     "topic": "4.3",
@@ -7184,63 +6020,6 @@ window.APCSA_MCQ = [
     "explanation": "ArrayList.contains(element) returns true if the element is present in the list, false otherwise. It uses .equals() for comparison."
   },
   {
-    "id": "mcq_217",
-    "unit": 4,
-    "topic": "4.3",
-    "topicLabel": "Array Creation and Access",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "String[] words = {\"apple\", \"banana\", \"cherry\"};\nSystem.out.println(words[1].length());",
-    "choices": [
-      "5",
-      "6",
-      "3",
-      "1"
-    ],
-    "answer": 1,
-    "explanation": "words[1] = \"banana\". \"banana\".length() = 6."
-  },
-  {
-    "id": "mcq_218",
-    "unit": 4,
-    "topic": "4.10",
-    "topicLabel": "Implementing ArrayList Algorithms",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What is the output?",
-    "isCode": true,
-    "code": "ArrayList<Integer> list = new ArrayList<>(Arrays.asList(10, 20, 30, 40, 50));\nint total = 0;\nfor (int i = 0; i < list.size(); i += 2) {\n    total += list.get(i);\n}\nSystem.out.println(total);",
-    "choices": [
-      "90",
-      "150",
-      "60",
-      "120"
-    ],
-    "answer": 0,
-    "explanation": "Accesses indices 0,2,4: list.get(0)=10, list.get(2)=30, list.get(4)=50. Total = 10+30+50 = 90."
-  },
-  {
-    "id": "mcq_219",
-    "unit": 4,
-    "topic": "4.7",
-    "topicLabel": "Wrapper Classes",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What does Integer.toString(42) return?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "42",
-      "\"42\"",
-      "42.0",
-      "Integer(42)"
-    ],
-    "answer": 1,
-    "explanation": "Integer.toString(int) converts an int to its String representation. Integer.toString(42) returns the String \"42\"."
-  },
-  {
     "id": "mcq_220",
     "unit": 4,
     "topic": "4.2",
@@ -7279,25 +6058,6 @@ window.APCSA_MCQ = [
     "explanation": "Merge sort runs in O(n log n) in all cases, which is significantly better than selection sort's O(n²) for large data sets."
   },
   {
-    "id": "mcq_222",
-    "unit": 4,
-    "topic": "4.16",
-    "topicLabel": "Recursion",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is printed by this recursive method when called with printPattern(3)?",
-    "isCode": true,
-    "code": "public static void printPattern(int n) {\n    if (n <= 0) return;\n    System.out.print(n + \" \");\n    printPattern(n - 1);\n    System.out.print(n + \" \");\n}",
-    "choices": [
-      "3 2 1 ",
-      "3 2 1 2 3 ",
-      "1 2 3 2 1 ",
-      "3 2 1 1 2 3 "
-    ],
-    "answer": 3,
-    "explanation": "Each call prints n before and after the recursive call. printPattern(3): print 3, call printPattern(2). printPattern(2): print 2, call printPattern(1). printPattern(1): print 1, call printPattern(0) which returns. Then unwind: print 1, return to printPattern(2): print 2, return to printPattern(3): print 3. Output: \"3 2 1 1 2 3 \"."
-  },
-  {
     "id": "mcq_223",
     "unit": 4,
     "topic": "4.4",
@@ -7315,43 +6075,5 @@ window.APCSA_MCQ = [
     ],
     "answer": 1,
     "explanation": "The enhanced for loop syntax is: for (elementType var : arrayOrCollection) { }. For an int array: for (int val : arr) { }."
-  },
-  {
-    "id": "mcq_224",
-    "unit": 4,
-    "topic": "4.12",
-    "topicLabel": "2D Array Traversals",
-    "difficulty": "medium",
-    "source": "original",
-    "question": "What does the following code print?",
-    "isCode": true,
-    "code": "int[][] m = {{1,0,0},{0,1,0},{0,0,1}};\nboolean isDiag = true;\nfor (int r = 0; r < m.length && isDiag; r++) {\n    for (int c = 0; c < m[r].length && isDiag; c++) {\n        if (r == c && m[r][c] != 1) isDiag = false;\n        if (r != c && m[r][c] != 0) isDiag = false;\n    }\n}\nSystem.out.println(isDiag);",
-    "choices": [
-      "true",
-      "false",
-      "Compilation error",
-      "null"
-    ],
-    "answer": 0,
-    "explanation": "This checks if the matrix is an identity matrix (1s on diagonal, 0s elsewhere). {{1,0,0},{0,1,0},{0,0,1}} is the 3×3 identity matrix, so isDiag = true."
-  },
-  {
-    "id": "mcq_225",
-    "unit": 4,
-    "topic": "4.17",
-    "topicLabel": "Recursive Searching and Sorting",
-    "difficulty": "hard",
-    "source": "original",
-    "question": "What is printed when mergeSort is called on {5, 2, 8, 1, 9} and then the sorted array is printed?",
-    "isCode": false,
-    "code": "",
-    "choices": [
-      "{1, 2, 5, 8, 9}",
-      "{9, 8, 5, 2, 1}",
-      "{5, 2, 1, 8, 9}",
-      "{2, 1, 5, 8, 9}"
-    ],
-    "answer": 0,
-    "explanation": "Merge sort produces a fully sorted array in ascending order. {5,2,8,1,9} sorted ascending = {1,2,5,8,9}."
   }
 ];

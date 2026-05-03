@@ -636,24 +636,6 @@ var APCALC_MCQ = [
     "explanation": "By the product rule: d/dx[f(x)g(x)] = f'(x)g(x) + f(x)g'(x) = 7(3) + 2(5) = 21 + 10 =\n31."
   },
   {
-    "id": "u2_mcq_012",
-    "unit": 2,
-    "topic": "Quotient Rule",
-    "difficulty": "medium",
-    "calculator": true,
-    "format": "algebraic",
-    "question": "If f(x) = $\\frac{2x^2 - 1}{5x + 3}$, then f'(x) =",
-    "isLatex": true,
-    "choices": [
-      "$\\frac{4x}{5}$",
-      "$\\frac{10x^2 + 12x + 5}{(5x+3)^2}$",
-      "$\\frac{4x(5x+3) + 5(2x^2-1)}{(5x+3)^2}$",
-      "$\\frac{4x(5x+3) - 5(2x^2-1)}{(5x+3)^2}$"
-    ],
-    "answer": 3,
-    "explanation": "Quotient rule: [lo·d(hi) - hi·d(lo)] / l$o^2$. = [(5x+3)(4x) - (2$x^2$-1)(5)] / (5x+3)²."
-  },
-  {
     "id": "u2_mcq_013",
     "unit": 2,
     "topic": "Quotient Rule - Evaluation",
@@ -1222,24 +1204,6 @@ var APCALC_MCQ = [
     "explanation": "Chain rule: d/dx[(f(x))³] = 3(f(x))²·f'(x)."
   },
   {
-    "id": "u3_mcq_019",
-    "unit": 3,
-    "topic": "Inverse Function - Finding Value",
-    "difficulty": "hard",
-    "calculator": true,
-    "format": "algebraic",
-    "question": "Let f be a differentiable function defined by f(x) = $\\int_0^x (t^2 + 1)$ \\, dt, where x $\\geq$\n0. If g is the inverse of f, what is g'(0)?",
-    "isLatex": true,
-    "choices": [
-      "0",
-      "1",
-      "$\\frac{1}{2}$",
-      "2"
-    ],
-    "answer": 1,
-    "explanation": "f(0) = 0, so g(0) = 0. f'(x) = $x^2$+1 by FTC. g'(0) = 1/f'(g(0)) = 1/f'(0) = 1/(0+1) = 1."
-  },
-  {
     "id": "u3_mcq_020",
     "unit": 3,
     "topic": "Chain Rule with Trig - Evaluation",
@@ -1420,25 +1384,6 @@ var APCALC_MCQ = [
     "explanation": "v(2) = 4 - 10 + 4 = -2 < 0, so moving left. a(t) = v'(t) = 2t - 5. a(2) = -1 < 0. Since\nv and a have the same sign (both negative), the particle is speeding up."
   },
   {
-    "id": "u4_mcq_006",
-    "unit": 4,
-    "topic": "Straight-Line Motion - Graph of Velocity",
-    "difficulty": "medium",
-    "calculator": false,
-    "format": "graph",
-    "question": "Based on the velocity graph, on which interval is the particle moving left AND\nslowing down?",
-    "isLatex": false,
-    "graphDescription": "Graph of v(t) showing: v is positive and decreasing on (0,2), v(2) = 0, v is\nnegative and decreasing on (2, 4), v(4) = -4, v increases from (4,6), v(6) = 0, v is positive and\nincreasing on (6,8).",
-    "choices": [
-      "(0, 2)",
-      "(2, 4)",
-      "(4, 6)",
-      "(6, 8)"
-    ],
-    "answer": 2,
-    "explanation": "Moving left means v < 0. Slowing down means |v| is decreasing, i.e., v and a\nhave opposite signs. On (4,6): v < 0 and v is increasing (a > 0), so velocity is becoming less\nnegative — the particle is slowing down while moving left."
-  },
-  {
     "id": "u4_mcq_007",
     "unit": 4,
     "topic": "Straight-Line Motion - Acceleration",
@@ -1473,42 +1418,6 @@ var APCALC_MCQ = [
     ],
     "answer": 1,
     "explanation": "W'(t) = -8t. At t = 3: W'(3) = -24. The rate of change is -24 gal/min, meaning\nwater is leaving at 24 gallons per minute."
-  },
-  {
-    "id": "u4_mcq_009",
-    "unit": 4,
-    "topic": "Rates of Change - Table",
-    "difficulty": "medium",
-    "calculator": false,
-    "format": "table",
-    "question": "The table gives the rate R(t) at which water flows into a tank. Which of the\nfollowing best approximates R'(2)?",
-    "isLatex": false,
-    "tableData": {
-      "headers": [
-        "t (hours)",
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "rows": [
-        [
-          "R(t) (gallons/hr)",
-          "20",
-          "17",
-          "12",
-          "6"
-        ]
-      ]
-    },
-    "choices": [
-      "-5.5",
-      "-6",
-      "-5",
-      "-3"
-    ],
-    "answer": 0,
-    "explanation": "Approximate R'(2) using a centered difference quotient: [R(3) - R(1)] / (3-1) =\n(6-17)/2 = -11/2 = -5.5."
   },
   {
     "id": "u4_mcq_010",
@@ -2392,24 +2301,6 @@ var APCALC_MCQ = [
     "explanation": "f'(x) = (4/3)x^(1/3) - (4/3)x^(-2/3) = (4/3)x^(-2/3)(x-1). f' = 0 at x = 1. f' < 0 for x <\n1, f' > 0 for x > 1. By FDT, x = 1 is a local minimum."
   },
   {
-    "id": "u5_mcq_030",
-    "unit": 5,
-    "topic": "Optimization - Closest Point",
-    "difficulty": "hard",
-    "calculator": true,
-    "format": "algebraic",
-    "question": "What point on the curve y = $x^2$ is closest to the point (0, 3)?",
-    "isLatex": false,
-    "choices": [
-      "(0, 0)",
-      "(1, 1)",
-      "(±1.581, 2.500)",
-      "(±1, 1)"
-    ],
-    "answer": 2,
-    "explanation": "Distanc$e^2$ = $x^2$ + ($x^2$-3)². Let D = $x^2$ + ($x^2$-3)². D' = 2x + 2($x^2$-3)(2x) = 2x[1 +\n2($x^2$-3)] = 2x(2$x^2$-5). Critical points: x=0 and x=±√(5/2). D(0)=9, D(√(5/2))= 5/2 + (5/2-3)² =\n5/2+1/4 = 11/4 < 9. Closest points are (±√(5/2), 5/2) ≈ (±1.58, 2.5). Revise answer choices\naccordingly."
-  },
-  {
     "id": "u5_mcq_031",
     "unit": 5,
     "topic": "MVT - Existence of Zero Derivative",
@@ -2464,25 +2355,6 @@ var APCALC_MCQ = [
     "explanation": "g'(x) = 4$x^3$-9$x^2$-1 = 12. Solve 4$x^3$-9$x^2$-13 = 0 using a calculator. Solutions are\napproximately x ≈ 2.320 and x ≈ -0.574."
   },
   {
-    "id": "u5_mcq_034",
-    "unit": 5,
-    "topic": "Connecting f, f', f'' - Comprehensive",
-    "difficulty": "hard",
-    "calculator": true,
-    "format": "graph",
-    "question": "If the three graphs shown represent f, f', and f'' (in some order), which of the\nfollowing correctly identifies them?",
-    "isLatex": false,
-    "graphDescription": "Graph shows three curves labeled I, II, and III. Curve I is smooth and has\na local max at x=2. Curve II crosses zero at x=2 and changes from positive to negative. Curve\nIII is negative and increasing near x=2.",
-    "choices": [
-      "I = f, II = f', III = f''",
-      "II = f, I = f', III = f''",
-      "III = f, II = f', I = f''",
-      "I = f'', II = f', III = f"
-    ],
-    "answer": 0,
-    "explanation": "At x=2: Curve I has a local max $\\to$ f'=0 there. Curve II crosses zero at x=2 (and\nchanges sign from + to -) $\\to$ this is f'. Curve III is negative at x=2 $\\to$ this is f'' (since f''<0 at a\nlocal max). So I=f, II=f', III=f''."
-  },
-  {
     "id": "u6_mcq_001",
     "unit": 6,
     "topic": "Accumulation of Change - Interpreting",
@@ -2519,118 +2391,6 @@ var APCALC_MCQ = [
     "explanation": "Displacement = ∫₁³ (3$t^2$ - 2) dt = [$t^3$ - 2t]₁³ = (27 - 6) - (1 - 2) = 21 - (-1) = 22."
   },
   {
-    "id": "u6_mcq_003",
-    "unit": 6,
-    "topic": "Riemann Sums - Left and Right",
-    "difficulty": "easy",
-    "calculator": false,
-    "format": "table",
-    "question": "Using the table, what is the left Riemann sum approximation for ∫₀⁴ f(x) dx with 4\nsubintervals of equal width?",
-    "isLatex": false,
-    "tableData": {
-      "headers": [
-        "x",
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "rows": [
-        [
-          "f(x)",
-          "2",
-          "5",
-          "3",
-          "7",
-          "4"
-        ]
-      ]
-    },
-    "choices": [
-      "15",
-      "17",
-      "19",
-      "21"
-    ],
-    "answer": 1,
-    "explanation": "Left Riemann sum uses left endpoints: Δx=1. Sum = 1·f(0) + 1·f(1) + 1·f(2) +\n1·f(3) = 2+5+3+7 = 17."
-  },
-  {
-    "id": "u6_mcq_004",
-    "unit": 6,
-    "topic": "Riemann Sums - Right",
-    "difficulty": "easy",
-    "calculator": false,
-    "format": "table",
-    "question": "Using the same table as before, what is the right Riemann sum for ∫₀⁴ f(x) dx with 4\nequal subintervals?",
-    "isLatex": false,
-    "tableData": {
-      "headers": [
-        "x",
-        "0",
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "rows": [
-        [
-          "f(x)",
-          "2",
-          "5",
-          "3",
-          "7",
-          "4"
-        ]
-      ]
-    },
-    "choices": [
-      "15",
-      "17",
-      "19",
-      "21"
-    ],
-    "answer": 2,
-    "explanation": "Right Riemann sum uses right endpoints: 1·f(1) + 1·f(2) + 1·f(3) + 1·f(4) =\n5+3+7+4 = 19."
-  },
-  {
-    "id": "u6_mcq_005",
-    "unit": 6,
-    "topic": "Riemann Sums - Trapezoidal",
-    "difficulty": "medium",
-    "calculator": true,
-    "format": "table",
-    "question": "Using a trapezoidal sum with 3 subintervals, approximate ∫₀⁶ f(x) dx.",
-    "isLatex": false,
-    "tableData": {
-      "headers": [
-        "x",
-        "0",
-        "2",
-        "4",
-        "6"
-      ],
-      "rows": [
-        [
-          "f(x)",
-          "1",
-          "5",
-          "3",
-          "9"
-        ]
-      ]
-    },
-    "choices": [
-      "26",
-      "28",
-      "30",
-      "32"
-    ],
-    "answer": 0,
-    "explanation": "Trapezoidal rule: (Δx/2)[f(x₀) + 2f(x₁) + 2f(x₂) + f(x₃)]. With Δx = 2: (2/2)[1 + 2(5) + 2(3) + 9] = 1 + 10 + 6 + 9 = 26."
-  },
-  {
     "id": "u6_mcq_006",
     "unit": 6,
     "topic": "Riemann Sums - Over vs Underestimate",
@@ -2665,42 +2425,6 @@ var APCALC_MCQ = [
     ],
     "answer": 0,
     "explanation": "When f is concave down, the trapezoid sum lies below the curve\n(underestimates) and the midpoint sum lies above (overestimates). So T < I < M."
-  },
-  {
-    "id": "u6_mcq_008",
-    "unit": 6,
-    "topic": "Riemann Sums - Unequal Subintervals",
-    "difficulty": "hard",
-    "calculator": true,
-    "format": "table",
-    "question": "Using a right Riemann sum with the subintervals indicated by the table,\napproximate ∫₀¹⁰ v(t) dt.",
-    "isLatex": false,
-    "tableData": {
-      "headers": [
-        "t",
-        "0",
-        "3",
-        "7",
-        "10"
-      ],
-      "rows": [
-        [
-          "v(t)",
-          "2",
-          "8",
-          "5",
-          "6"
-        ]
-      ]
-    },
-    "choices": [
-      "58",
-      "62",
-      "64",
-      "68"
-    ],
-    "answer": 1,
-    "explanation": "Right Riemann sum with unequal subintervals: (3-0)·v(3) + (7-3)·v(7) + (10-7)·v(10) = 3(8) + 4(5) + 3(6) = 24 + 20 + 18 = 62."
   },
   {
     "id": "u6_mcq_009",
@@ -3192,25 +2916,6 @@ var APCALC_MCQ = [
     "explanation": "Let u = sin x, du = cos x dx. ∫u⁻³ du = u⁻²/(-2) + C = -1/(2si$n^2$x) + C."
   },
   {
-    "id": "u6_mcq_036",
-    "unit": 6,
-    "topic": "FTC - Comparing g, g', g''",
-    "difficulty": "hard",
-    "calculator": true,
-    "format": "graph",
-    "question": "At x = 5, which of the following correctly orders g(5), g'(5), and g''(5)?",
-    "isLatex": false,
-    "graphDescription": "f(5) = 2, f is increasing at x=5 so f'(5) = 0.5, f is concave down at x=5. g(x) = ∫₂ˣ f(t) dt. Given the graph, g(5) = 4.",
-    "choices": [
-      "g''(5) < g'(5) < g(5)",
-      "g''(5) < g(5) < g'(5)",
-      "g(5) < g''(5) < g'(5)",
-      "g'(5) < g''(5) < g(5)"
-    ],
-    "answer": 1,
-    "explanation": "g(5) = ∫₂⁵ f(t) dt = net area from 2 to 5 (positive, let's say ~4). g'(5) = f(5) = 2.\ng''(5) = f'(5) < 0 since f is concave down means f' is decreasing, and at x=5 if f is increasing but\nconcave down, f'(5) > 0 but less than 2. Ordering depends on specific values — this is a\nconceptual question requiring the given graph values to compare."
-  },
-  {
     "id": "u6_mcq_037",
     "unit": 6,
     "topic": "Long Division - Improper Rational",
@@ -3319,24 +3024,6 @@ var APCALC_MCQ = [
     "explanation": "For y = e^{2x}: dy/dx = 2e^{2x} = 2y. ✓ The others fail: for y=2x, dy/dx=2 $\\neq$\n2(2x). For y=$x^2$, dy/dx=2x $\\neq$ 2$x^2$. For y=ln(2x), dy/dx=1/x $\\neq$ 2ln(2x)."
   },
   {
-    "id": "u7_mcq_005",
-    "unit": 7,
-    "topic": "Verifying Solutions to Differential Equations",
-    "difficulty": "medium",
-    "calculator": true,
-    "format": "algebraic",
-    "question": "Which of the following functions satisfies the differential equation \\(\\frac{dy}{dx} =\ny - x\\)?",
-    "isLatex": true,
-    "choices": [
-      "y = x + 1",
-      "y = e^x",
-      "y = x^2",
-      "y = x + 1 + Ce$^x \\text{ for any constant } C$"
-    ],
-    "answer": 0,
-    "explanation": "Test y = x + 1: dy/dx = 1. And y - x = (x+1) - x = 1. So dy/dx = 1 = y - x. ✓ Note:\noption (D) is the general solution, but (A) is the specific verifiable choice among the options\nlisted."
-  },
-  {
     "id": "u7_mcq_006",
     "unit": 7,
     "topic": "Sketching and Interpreting Slope Fields",
@@ -3353,24 +3040,6 @@ var APCALC_MCQ = [
     ],
     "answer": 0,
     "explanation": "At (0,0): dy/dx = 0 + 0 = 0. At (1,−1): dy/dx = 1 + (−1) = 0. So both slopes are 0."
-  },
-  {
-    "id": "u7_mcq_007",
-    "unit": 7,
-    "topic": "Sketching and Interpreting Slope Fields",
-    "difficulty": "medium",
-    "calculator": false,
-    "format": "graph",
-    "question": "Which differential equation is best represented by a slope field where all slopes along the y-axis are zero AND slopes along the x-axis equal the x-coordinate?",
-    "isLatex": true,
-    "choices": [
-      "$\\frac{dy}{dx} = y$",
-      "$\\frac{dy}{dx} = x$",
-      "$\\frac{dy}{dx} = x + 1$",
-      "$\\frac{dy}{dx} = xy$"
-    ],
-    "answer": 1,
-    "explanation": "For the slope to be 0 whenever x = 0, the derivative expression must equal zero\nwhen x = 0. Only dy/dx = x satisfies this — when x = 0, dy/dx = 0 for all y values."
   },
   {
     "id": "u7_mcq_008",
@@ -5701,26 +5370,6 @@ var APCALC_MCQ = [
     "explanation": "A = pi*r^2, so dA/dt = 2pi*r*(dr/dt). With dA/dt = 6 and r = 3: 6 = 6pi*(dr/dt), so dr/dt = 1/pi. Circumference C = 2pi*r, so dC/dt = 2pi*(dr/dt) = 2pi*(1/pi) = 2. Choice D is dr/dt, not dC/dt. Choice C forgets to multiply dr/dt by 2pi. Choice B is a common arithmetic slip."
   },
   {
-    "id": "calc_u4_q089",
-    "subject": "apcalc",
-    "unit": 4,
-    "topic": "linearization",
-    "topicLabel": "Linearization",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Use the linearization of f(x) = sqrt(x) at a = 25 to approximate sqrt(26).",
-    "choices": [
-      "A) 5.1",
-      "B) 5.2",
-      "C) 5.05",
-      "D) 5.01"
-    ],
-    "answer": 0,
-    "explanation": "L(x) = f(a) + f'(a)(x - a). f(25) = 5, f'(x) = 1/(2sqrt(x)), f'(25) = 1/10. L(26) = 5 + (1/10)(1) = 5.1. Choice B doubles the correction. Choice C uses f'(25) = 1/20 (an error). Choice D uses f'(25) = 1/100."
-  },
-  {
     "id": "calc_u4_q090",
     "subject": "apcalc",
     "unit": 4,
@@ -7861,26 +7510,6 @@ var APCALC_MCQ = [
     "explanation": "Let u = $x^2$ + 5, du = 2x dx, so x dx = du/2. Integral becomes (1/2)∫ u^(1/2) du = (1/2)(2/3)u^(3/2) + C = (1/3)($x^2$ + 5)^(3/2) + C. Choice B forgets the 1/2 from the substitution. Choice C uses 1/2 instead of computing (1/2)(2/3) = 1/3. Choice D incorrectly tries to integrate the product term by term."
   },
   {
-    "id": "calc_u7_q198",
-    "subject": "apcalc",
-    "unit": 7,
-    "topic": "u-substitution indefinite",
-    "topicLabel": "u-substitution indefinite",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Find the indefinite integral: ∫ $x^2$ · e^($x^3$) dx",
-    "choices": [
-      "A) (1/3)e^($x^3$) + C",
-      "B) e^($x^3$) + C",
-      "C) 3e^($x^3$) + C",
-      "D) (1/3)$x^3$ · e^($x^3$) + C"
-    ],
-    "answer": 0,
-    "explanation": "Let u = $x^3$, so du = 3$x^2$ dx, meaning $x^2$ dx = du/3. The integral becomes (1/3)∫ e^u du = (1/3)e^u + C = (1/3)e^($x^3$) + C. Choice B forgets the 1/3 factor from the chain rule. Choice C incorrectly multiplies by 3 instead of dividing. Choice D incorrectly keeps $x^3$ as a factor as if applying a product rule pattern."
-  },
-  {
     "id": "calc_u7_q199",
     "subject": "apcalc",
     "unit": 7,
@@ -7941,26 +7570,6 @@ var APCALC_MCQ = [
     "explanation": "Perform polynomial long division: ($x^2$ + 3x + 5) ÷ (x + 1) = x + 2 with remainder 3. So the integrand becomes x + 2 + 3/(x + 1). Integrating: (1/2)$x^2$ + 2x + 3 ln|x + 1| + C. Choice B does not perform long division and incorrectly treats numerator terms separately. Choice C integrates 3/(x+1) as 3/(x+1) instead of 3 ln|x+1|. Choice D integrates x as $x^2$ instead of (1/2)$x^2$."
   },
   {
-    "id": "calc_u7_q202",
-    "subject": "apcalc",
-    "unit": 7,
-    "topic": "completing the square",
-    "topicLabel": "completing the square",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "Find the indefinite integral: ∫ 1/($x^2$ + 6x + 13) dx",
-    "choices": [
-      "A) (1/2) arctan((x + 3)/2) + C",
-      "B) arctan((x + 3)/2) + C",
-      "C) (1/2) arctan((x + 3)/4) + C",
-      "D) (1/13) arctan(x/√13) + C"
-    ],
-    "answer": 0,
-    "explanation": "Complete the square: $x^2$ + 6x + 13 = (x + 3)² + 4. Using the formula ∫ 1/($u^2$ + $a^2$) du = (1/a) arctan(u/a) + C with u = x + 3 and a = 2, we get (1/2) arctan((x + 3)/2) + C. Choice B omits the 1/a = 1/2 factor. Choice C incorrectly uses $a^2$ = 4 as a instead of a = 2. Choice D does not complete the square and treats the denominator as $x^2$ + 13."
-  },
-  {
     "id": "calc_u7_q203",
     "subject": "apcalc",
     "unit": 7,
@@ -7979,26 +7588,6 @@ var APCALC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Let u = 1 + sin(x), so du = cos(x) dx. The integral becomes ∫ u⁻³ du = u⁻²/(-2) + C = -1/(2$u^2$) + C = -1/(2(1 + sin(x))²) + C. Choice B has the wrong sign, forgetting that integrating u⁻³ gives a negative exponent coefficient. Choice C uses -3 in the denominator, confusing the original exponent with the result of integration. Choice D keeps the exponent as 3 instead of reducing it to 2 after integration."
-  },
-  {
-    "id": "calc_u7_q204",
-    "subject": "apcalc",
-    "unit": 7,
-    "topic": "u-substitution indefinite",
-    "topicLabel": "u-substitution indefinite",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": false,
-    "format": "text",
-    "question": "Find the indefinite integral: ∫ $x^2$·e^($x^3$) dx",
-    "choices": [
-      "A) (1/3)e^($x^3$) + C",
-      "B) e^($x^3$) + C",
-      "C) 3e^($x^3$) + C",
-      "D) (1/3)$x^3$·e^($x^3$) + C"
-    ],
-    "answer": 0,
-    "explanation": "Let u = $x^3$, then du = 3$x^2$ dx, so $x^2$ dx = du/3. The integral becomes (1/3)∫e^u du = (1/3)e^u + C = (1/3)e^($x^3$) + C. Choice B forgets the 1/3 factor. Choice C multiplies by 3 instead of dividing. Choice D incorrectly keeps $x^3$ in the answer as if integrating by parts."
   },
   {
     "id": "calc_u7_q205",
@@ -8039,26 +7628,6 @@ var APCALC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Let u = ln(cos(x)). Then du = (−sin(x)/cos(x)) dx = −tan(x) dx. So tan(x) dx = −du. The integral becomes −∫u du = −$u^2$/2 + C = −(1/2)[ln(cos(x))]² + C. Choice B has the wrong sign from mishandling the negative. Choice C forgets the 1/2 from integrating u. Choice D incorrectly simplifies the squared logarithm as ln(co$s^2$x)."
-  },
-  {
-    "id": "calc_u7_q207",
-    "subject": "apcalc",
-    "unit": 7,
-    "topic": "completing the square",
-    "topicLabel": "completing the square",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": false,
-    "format": "text",
-    "question": "Evaluate: ∫ 1/($x^2$ + 6x + 13) dx",
-    "choices": [
-      "A) (1/2)arctan((x + 3)/2) + C",
-      "B) arctan((x + 3)/2) + C",
-      "C) (1/2)arctan((x + 6)/13) + C",
-      "D) (1/13)arctan(x + 3) + C"
-    ],
-    "answer": 0,
-    "explanation": "Complete the square: $x^2$ + 6x + 13 = (x + 3)² + 4. The integral becomes ∫1/((x+3)² + 4) dx. Using the formula ∫1/($u^2$ + $a^2$) du = (1/a)arctan(u/a) + C with u = x+3 and a = 2, we get (1/2)arctan((x+3)/2) + C. Choice B forgets the 1/a factor. Choice C incorrectly uses the original coefficients. Choice D uses a = 1 instead of a = 2."
   },
   {
     "id": "calc_u7_q208",
@@ -9501,26 +9070,6 @@ var APCALC_MCQ = [
     "explanation": "Revolving about the y-axis, we use the disc method with x as a function of y: x = y^(1/3). V = pi * integral from 0 to 8 of [y^(1/3)]^2 dy = pi * integral from 0 to 8 of y^(2/3) dy = pi * [y^(5/3)/(5/3)] from 0 to 8 = pi * (3/5) * 8^(5/3) = pi * (3/5) * 32 = 96pi/5. Choice B (48pi/5) comes from a factor-of-2 error. Choice C (32pi) forgets the 3/5 coefficient. Choice D (128pi/7) uses the wrong exponent in integration, treating it as y^(6/7) or similar."
   },
   {
-    "id": "calc_u8_q298",
-    "subject": "apcalc",
-    "unit": 8,
-    "topic": "volumes washer method",
-    "topicLabel": "Volumes Washer Method",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": false,
-    "format": "text",
-    "question": "The region bounded by y = x^2 and y = 2x is revolved about the line y = -1. Which integral gives the volume of the resulting solid?",
-    "choices": [
-      "A) pi * integral from 0 to 2 of [(2x + 1)^2 - (x^2 + 1)^2] dx",
-      "B) pi * integral from 0 to 2 of [(2x)^2 - (x^2)^2] dx",
-      "C) pi * integral from 0 to 2 of [(2x - 1)^2 - (x^2 - 1)^2] dx",
-      "D) pi * integral from 0 to 2 of [(x^2 + 1)^2 - (2x + 1)^2] dx"
-    ],
-    "answer": 0,
-    "explanation": "The curves intersect at x = 0 and x = 2. When revolving about y = -1, the outer radius is the distance from y = -1 to the farther curve y = 2x, which is (2x - (-1)) = 2x + 1. The inner radius is the distance from y = -1 to the closer curve y = x^2, which is (x^2 - (-1)) = x^2 + 1. The volume is pi * integral of [(2x+1)^2 - (x^2+1)^2] dx. Choice B is wrong because it ignores the shift by revolving about y = 0 instead. Choice C subtracts 1 instead of adding 1, a common sign error when shifting axes. Choice D reverses outer and inner radii."
-  },
-  {
     "id": "calc_u8_q299",
     "subject": "apcalc",
     "unit": 8,
@@ -10019,26 +9568,6 @@ var APCALC_MCQ = [
     ],
     "answer": 3,
     "explanation": "g(x) = (1/(2x)) * integral from 0 to 2x of sin(t^2) dt. Using the quotient rule with numerator F(x) = integral from 0 to 2x of sin(t^2) dt and denominator 2x: g'(x) = [F'(x)(2x) - F(x)(2)] / (4x^2). By FTC Part 1 with the chain rule, F'(x) = sin((2x)^2) * 2 = 2sin(4x^2). So g'(x) = [2sin(4x^2)(2x) - 2F(x)] / (4x^2) = [4x sin(4x^2) - 2F(x)] / (4x^2) = (1/(2x))[2sin(4x^2)] - (1/(4x^2)) * integral from 0 to 2x of sin(t^2) dt, which is choice D. Choice A incorrectly uses 1/(2x) instead of 1/(4x^2) on the second term (wrong quotient rule). Choice B forgets the quotient rule entirely and only applies FTC. Choice C incorrectly applies the product rule without proper scaling, omitting the 1/(2x) factor on the derivative term and dropping the denominator structure entirely."
-  },
-  {
-    "id": "calc_u7_q331",
-    "subject": "apcalc",
-    "unit": 7,
-    "topic": "long division",
-    "topicLabel": "long division",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": false,
-    "format": "text",
-    "question": "Find the integral of (x^3 + 2x^2 - 5) / (x^2 + 1) dx.",
-    "choices": [
-      "A) (1/2)x^2 + 2x - (1/2)ln|x^2+1| - 2arctan(x) - 5arctan(x) + C",
-      "B) (1/2)x^2 + 2x - (1/2)ln(x^2+1) - 7arctan(x) + C",
-      "C) (1/2)x^2 + 2x + (1/2)ln(x^2+1) - 5arctan(x) + C",
-      "D) (1/2)x^2 + 2x - (1/2)ln(x^2+1) - 5arctan(x) + C"
-    ],
-    "answer": 0,
-    "explanation": "Perform polynomial long division: x^3 + 2x^2 - 5 divided by x^2 + 1. First, x^3/(x^2+1) gives quotient x with remainder -x. Then (2x^2 - x - 5)/(x^2+1): 2x^2/(x^2+1) gives quotient 2 with remainder -x - 7. So the integrand becomes x + 2 + (-x - 7)/(x^2+1) = x + 2 - x/(x^2+1) - 7/(x^2+1). Integrating: (1/2)x^2 + 2x - (1/2)ln(x^2+1) - 7arctan(x) + C. Choice B is correct. Choice D has -5arctan(x) instead of -7arctan(x), which comes from using the original constant -5 without properly completing the long division remainder. Choice C has a sign error on the ln term. Choice A separates the arctan terms incorrectly and double-counts."
   },
   {
     "id": "calc_u7_q332",

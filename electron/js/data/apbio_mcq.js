@@ -540,24 +540,6 @@ window.APBIO_MCQ = [
     "explanation": ""
   },
   {
-    "id": "apbio_mcq_031",
-    "subject": "apbio",
-    "unit": 2,
-    "topic": "2.4",
-    "topicLabel": "Signal Transduction",
-    "difficulty": "medium",
-    "source": "CB 2013",
-    "question": "A dog follows the scent of a jackrabbit. Which of the following accurately describes how the dog's brain integrates information for smell?",
-    "choices": [
-      "Chemoreceptors in the brain send impulses for smell in the nasal cavity.",
-      "Chemoreceptor cells in the nasal cavity send impulses to the appropriate area of the brain.",
-      "Chemoreceptors on epithelial cells of the tongue send hormones to the brain.",
-      "Receptors in the nose send action potentials to the motor regions of the brain."
-    ],
-    "answer": 1,
-    "explanation": ""
-  },
-  {
     "id": "apbio_mcq_032",
     "subject": "apbio",
     "unit": 2,
@@ -627,24 +609,6 @@ window.APBIO_MCQ = [
       "Ribosome (free in cytoplasm) → lysosome → Golgi apparatus → cell exterior"
     ],
     "answer": 1,
-    "explanation": ""
-  },
-  {
-    "id": "apbio_mcq_036",
-    "subject": "apbio",
-    "unit": 2,
-    "topic": "2.5",
-    "topicLabel": "Cell Theory",
-    "difficulty": "medium",
-    "source": "Generated",
-    "question": "Which of the following observations provides the best evidence that mitochondria were once free-living prokaryotes?",
-    "choices": [
-      "Mitochondria contain their own circular DNA and ribosomes similar to those of bacteria.",
-      "Mitochondria are surrounded by a single membrane.",
-      "Mitochondria replicate by mitosis at the same time as the cell.",
-      "Mitochondrial proteins are encoded by nuclear DNA."
-    ],
-    "answer": 0,
     "explanation": ""
   },
   {
@@ -2679,24 +2643,6 @@ window.APBIO_MCQ = [
       "XXX — two X chromosomes are inactivated; individuals always have one fewer Barr body than X chromosomes",
       "XY — males always have 2 Barr bodies as compensation for having only one X",
       "XXXX — all X chromosomes form Barr bodies"
-    ],
-    "answer": 1,
-    "explanation": ""
-  },
-  {
-    "id": "apbio_mcq_150",
-    "subject": "apbio",
-    "unit": 5,
-    "topic": "5.1",
-    "topicLabel": "Meiosis",
-    "difficulty": "hard",
-    "source": "Generated",
-    "question": "During prophase I of meiosis, homologous chromosomes pair up and may exchange segments in crossing over. A mutation eliminates crossing over entirely. Which of the following best predicts the consequence for genetic diversity?",
-    "choices": [
-      "Genetic diversity will increase because chromosomes can no longer exchange segments that might cause harmful mutations",
-      "Genetic diversity in gametes will decrease because new combinations of alleles on the same chromosome cannot be generated; all gametes will contain only parental chromosome combinations",
-      "Genetic diversity will be unaffected because independent assortment alone generates sufficient variation",
-      "The mutation will be lethal because crossing over is required for homologous chromosomes to separate in meiosis I"
     ],
     "answer": 1,
     "explanation": ""
@@ -5003,26 +4949,6 @@ window.APBIO_MCQ = [
     "explanation": "C4H10 can exist as butane (straight chain) or isobutane (branched), which are structural isomers with different physical properties like boiling points. Choice A requires a chiral center (not present in C4H10), C requires double bonds (C4H10 is saturated), and D requires different functional groups (both are alkanes)."
   },
   {
-    "id": "bio_u1_q026",
-    "subject": "apbio",
-    "unit": 1,
-    "topic": "macromolecules",
-    "topicLabel": "Macromolecules Overview",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A cell biologist treats cells with different enzymes: protease (breaks down proteins), lipase (breaks down lipids), and nuclease (breaks down nucleic acids). After protease treatment, the cell membrane remains intact but many cellular processes stop. What does this suggest about cellular organization?",
-    "choices": [
-      "A) The cell membrane is composed primarily of lipids and carbohydrates",
-      "B) Proteins are essential for membrane function but not membrane structure",
-      "C) Nucleic acids are the primary structural components of membranes",
-      "D) Carbohydrates provide all the enzymatic activity in cells"
-    ],
-    "answer": 1,
-    "explanation": "The intact membrane after protease treatment suggests it's structurally maintained by lipids, while stopped processes indicate proteins (enzymes, transporters) are essential for membrane function. Choice A ignores protein functional roles, C incorrectly identifies nucleic acids as structural membrane components, and D wrongly assigns enzymatic activity to carbohydrates."
-  },
-  {
     "id": "bio_u1_q027",
     "subject": "apbio",
     "unit": 1,
@@ -5181,26 +5107,6 @@ window.APBIO_MCQ = [
     ],
     "answer": 1,
     "explanation": "The correct answer is B. At pH 5.8 (below the pKa of 6.0), histidine residues will be predominantly protonated and positively charged. Since the enzyme evolved to function at pH 7.4 where histidines would be mostly neutral, this change in charge distribution disrupts the active site's electrostatic environment and substrate binding. Choice A is incorrect because at low pH, histidines gain protons rather than lose them - protonation, not deprotonation, occurs below the pKa. Choice C is incorrect because peptide bonds are chemically stable at pH 5.8 and are not broken under mildly acidic conditions. Choice D, while chemically plausible regarding carboxyl group protonation, does not address the specific role of histidine residues highlighted in the question and is therefore not the best explanation for the observed pH sensitivity."
-  },
-  {
-    "id": "bio_u1_q035",
-    "subject": "apbio",
-    "unit": 1,
-    "topic": "carbon chemistry",
-    "topicLabel": "carbon chemistry",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A novel organic compound is discovered that can form four covalent bonds but creates molecules with significantly different properties than carbon-based compounds. Chemical analysis reveals this element is in the same group as carbon but has a larger atomic radius. What property would most likely make this element less suitable than carbon for forming the backbone of complex biological molecules?",
-    "choices": [
-      "A) Longer bond lengths leading to increased molecular flexibility and reduced structural stability",
-      "B) Higher electronegativity causing unequal electron sharing and polar bonds",
-      "C) Inability to form double bonds due to increased electron-electron repulsion",
-      "D) Lower bond dissociation energy making the bonds too reactive for biological systems"
-    ],
-    "answer": 0,
-    "explanation": "The correct answer is A. The element described is likely silicon, which is below carbon in group 14. Silicon's larger atomic radius creates longer Si-Si bonds compared to C-C bonds, resulting in less stable and more flexible molecular structures that are unsuitable for the precise geometries required in biological molecules. Choice B is incorrect because elements in the same group have similar electronegativity. Choice C is wrong because silicon can form double bonds, though they're less stable than carbon's. Choice D incorrectly suggests lower bond energy - while Si-Si bonds are longer and somewhat weaker, the primary issue is structural instability due to bond length, not excessive reactivity."
   },
   {
     "id": "bio_u1_q036",
@@ -5621,26 +5527,6 @@ window.APBIO_MCQ = [
     ],
     "answer": 2,
     "explanation": "Without the pump, Na+ would accumulate inside the cell, increasing internal osmotic pressure and causing water influx and swelling. Choice A is incorrect as ATP production doesn't directly depend on this pump, B understates the osmotic consequences, and D incorrectly links K+ to protein synthesis."
-  },
-  {
-    "id": "bio_u2_q057",
-    "subject": "apbio",
-    "unit": 2,
-    "topic": "endocytosis",
-    "topicLabel": "endocytosis",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A cell engulfs a bacterium through phagocytosis. After engulfment, the phagosome fuses with lysosomes. What would most likely happen if the lysosomes in this cell lacked functional enzymes?",
-    "choices": [
-      "A) The bacterium would be released back into the extracellular space",
-      "B) The cell will become turgid because the hypertonic external solution draws water into the cell, and the rigid cell wall resists expansion, building pressure.",
-      "C) The phagosome would fuse with the nucleus instead",
-      "D) The cell will shrink irreversibly because plant cells lack contractile vacuoles and cannot pump water back in under hypertonic conditions."
-    ],
-    "answer": 1,
-    "explanation": "Lysosomal enzymes are essential for digesting phagocytosed material. Without functional enzymes, the bacterium would remain undigested and could harm the cell. Choice A describes exocytosis which doesn't occur with phagosomes, C is anatomically incorrect, and D misattributes digestive function to the ER."
   },
   {
     "id": "bio_u2_q058",
@@ -6481,26 +6367,6 @@ window.APBIO_MCQ = [
     ],
     "answer": 1,
     "explanation": "C4 plants have an advantage in hot, dry, bright conditions where C3 plants would suffer from photorespiration. High temperatures favor the oxygenase activity of RuBisCO, and water stress forces stomatal closure, reducing CO2 availability - both problems that C4 plants' CO2-concentrating mechanism helps overcome. Choice A describes conditions favoring C3 plants. Choice C describes conditions where the C4 advantage is minimal. Choice D also favors C3 plants."
-  },
-  {
-    "id": "bio_u3_q100",
-    "subject": "apbio",
-    "unit": 3,
-    "topic": "enzymes",
-    "topicLabel": "enzymes",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "An enzyme that works optimally at pH 7.4 is placed in a solution with pH 4.0. After 30 minutes, the pH is adjusted back to 7.4. What is the most likely outcome?",
-    "choices": [
-      "A) The enzyme will immediately return to full activity",
-      "B) The enzyme will have permanently lost most of its activity",
-      "C) The enzyme will work faster than before due to the pH shock",
-      "D) The enzyme will only work at pH 4.0 from now on"
-    ],
-    "answer": 1,
-    "explanation": "The extreme pH change likely caused denaturation of the enzyme's protein structure. While some enzymes can refold, most enzymes exposed to pH levels far from their optimum suffer permanent structural damage that cannot be reversed by simply returning to optimal conditions. Choice A assumes reversible inhibition, C suggests impossible enhancement, and D misunderstands enzyme adaptation."
   },
   {
     "id": "bio_u3_q101",
@@ -8103,26 +7969,6 @@ window.APBIO_MCQ = [
     "explanation": "For each trait, probability of homozygous recessive (aa, bb, or cc) is 1/4, and probability of not homozygous recessive is 3/4. We need exactly 2 traits homozygous recessive: C(3,2) × (1/4)² × (3/4)¹ = 3 × 1/16 × 3/4 = 9/64. Choice A uses wrong combination formula. Choice C forgets the combinatorial aspect. Choice D calculates probability of at least one homozygous recessive."
   },
   {
-    "id": "bio_u5_q181",
-    "subject": "apbio",
-    "unit": 5,
-    "topic": "Mendelian genetics",
-    "topicLabel": "Mendelian genetics",
-    "difficulty": "hard",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A pedigree shows that two unaffected parents have an affected child, and the trait appears to skip generations. However, males are affected more frequently than females. Which inheritance pattern best explains this observation, and what additional information would confirm it?",
-    "choices": [
-      "A) Autosomal recessive; confirm by showing 25% of offspring are affected",
-      "B) X-linked recessive; confirm by showing affected males cannot pass trait to sons",
-      "C) Autosomal dominant with incomplete penetrance; confirm by molecular analysis",
-      "D) X-linked recessive; confirm by showing carrier mothers have 50% affected sons"
-    ],
-    "answer": 1,
-    "explanation": "The key evidence is male predominance plus skipping generations, indicating X-linked recessive. The definitive test is that affected fathers cannot pass X-linked traits to sons (they give sons the Y chromosome). Choice A ignores male bias. Choice C is possible but less likely given the clear male bias. Choice D describes the mother's contribution but doesn't provide the most definitive confirmation."
-  },
-  {
     "id": "bio_u5_q182",
     "subject": "apbio",
     "unit": 5,
@@ -8241,26 +8087,6 @@ window.APBIO_MCQ = [
     ],
     "answer": 1,
     "explanation": "DNA polymerase can only add nucleotides in the 5' to 3' direction by adding to the 3'-OH group of the growing strand. Students commonly think it works in both directions (C) or confuse the directionality (A)."
-  },
-  {
-    "id": "bio_u6_q188",
-    "subject": "apbio",
-    "unit": 6,
-    "topic": "transcription",
-    "topicLabel": "transcription",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "During transcription, RNA polymerase synthesizes RNA using which strand as a template?",
-    "choices": [
-      "A) The coding strand",
-      "B) The template strand",
-      "C) Both strands simultaneously",
-      "D) Either strand depending on the gene"
-    ],
-    "answer": 1,
-    "explanation": "RNA polymerase uses the template strand (antisense strand) to synthesize RNA. Students often confuse this with the coding strand (A), which has the same sequence as the RNA (except T instead of U)."
   },
   {
     "id": "bio_u6_q189",

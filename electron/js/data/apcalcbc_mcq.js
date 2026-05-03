@@ -100,26 +100,6 @@ window.APCALCBC_MCQ = [
     "explanation": "When the degrees of the numerator and denominator are equal, the limit at infinity is the ratio of the leading coefficients: 5/2. Choice A is wrong - that would be the answer if the denominator's degree were higher. Choice C would be correct if the numerator's degree were higher. Choice D incorrectly uses the non-leading coefficients."
   },
   {
-    "id": "calcbc_u1_q006",
-    "subject": "apcalcbc",
-    "unit": 1,
-    "topic": "continuity",
-    "topicLabel": "Continuity",
-    "difficulty": "medium",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "Which of the following conditions is NOT required for a function f to be continuous at x = a?",
-    "choices": [
-      "A) f(a) is defined",
-      "B) $\\lim_{x \\to a}$ f(x) exists",
-      "C) $\\lim_{x \\to a}$ f(x) must equal the average of the upper and lower bounds of f near x = a",
-      "D) f(a) is equal to f(−a)"
-    ],
-    "answer": 3,
-    "explanation": "Continuity at x = a requires three conditions: f(a) is defined, $\\lim_{x \\to a}$ f(x) exists, and $\\lim_{x \\to a}$ f(x) = f(a). The condition f(a) = f(−a) (symmetry about the y-axis) has nothing to do with continuity at a point. Choice C is also not a requirement - continuity does not involve averaging upper and lower bounds; that is a misapplication of bounding or Squeeze Theorem reasoning. Choice D is the answer because it is the one condition listed that has no bearing on continuity at a point whatsoever, while C, though false, is a plausible-sounding distractor. Choices A and B are genuine requirements for continuity at a point."
-  },
-  {
     "id": "calcbc_u1_q007",
     "subject": "apcalcbc",
     "unit": 1,
@@ -600,26 +580,6 @@ window.APCALCBC_MCQ = [
     "explanation": "The power rule states d/dx[xⁿ] = nxⁿ⁻¹. For 7$x^4$, multiply the coefficient by the exponent and reduce the exponent by 1: 7·4·$x^3$ = 28$x^3$. Choice B forgets to multiply by 4. Choice C gives the negative of the correct answer, an error that could arise from reversing the numerator in the limit definition, writing [f(a) − f(a+h)] / h instead of [f(a+h) − f(a)] / h, which yields −f′(a). Choice D drops the coefficient 7 entirely."
   },
   {
-    "id": "calcbc_u2_q034",
-    "subject": "apcalcbc",
-    "unit": 2,
-    "topic": "trig derivatives",
-    "topicLabel": "Derivatives of Trigonometric Functions",
-    "difficulty": "medium",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is the derivative of f(x) = cos(x)?",
-    "choices": [
-      "A) f is continuous at x = c and the limit defining f'(c) exists (i.e., the left-hand and right-hand derivatives at x = c are equal and finite).",
-      "B) sin(x)",
-      "C) f is defined and continuous on an open interval containing c",
-      "D) tan(x)"
-    ],
-    "answer": 0,
-    "explanation": "The derivative of cos(x) is −sin(x). This is a standard trigonometric derivative that must be memorized. Choice B is a common sign error - it is the derivative of sin(x), not cos(x). Choice C is the derivative of −sin(x). Choice D, tan(x), has no direct relationship to the derivative of cos(x) in this context."
-  },
-  {
     "id": "calcbc_u2_q035",
     "subject": "apcalcbc",
     "unit": 2,
@@ -1064,26 +1024,6 @@ window.APCALCBC_MCQ = [
     "explanation": "To check differentiability at x = 0, we use the limit definition: f'(0) = lim[h$\\to$0] f(h)/h = lim[h$\\to$0] h^2 sin(1/h)/h = lim[h$\\to$0] h sin(1/h). Since |h sin(1/h)| $\\leq$ |h| $\\to$ 0 by the squeeze theorem, f'(0) = 0. So f is differentiable at x = 0 with f'(0) = 0. Choice A is wrong because f is actually continuous at 0 (lim[x$\\to$0] x^2 sin(1/x) = 0 = f(0)). Choice C is a common trap - students incorrectly apply the chain rule at x = 0, getting -cos(1/x), which doesn't exist at 0, but the derivative must be found via the limit definition at that point, not the formula. Choice D is incorrect; the limit evaluates to 0, not 1."
   },
   {
-    "id": "calcbc_u2_q058",
-    "subject": "apcalcbc",
-    "unit": 2,
-    "topic": "definition of derivative",
-    "topicLabel": "Definition of Derivative",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "Which of the following limits is equal to f'(3) if f(x) = x^4?",
-    "choices": [
-      "A) lim[h$\\to$0] ((3+h)^4 - 81) / h",
-      "B) lim[h$\\to$0] ((3+h)^4 - 3^4) / h^2",
-      "C) x^3 sin(x) - 9x^2 cos(x) - 18x sin(x) + 6cos(x)",
-      "D) lim[h$\\to$0] ((3+2h)^4 - (3-2h)^4) / h"
-    ],
-    "answer": 0,
-    "explanation": "The definition of the derivative is f'(a) = lim[h$\\to$0] (f(a+h) - f(a))/h. For f(x) = x^4 and a = 3: f'(3) = lim[h$\\to$0] ((3+h)^4 - 3^4)/h = lim[h$\\to$0] ((3+h)^4 - 81)/h, which is choice A. Choice B divides by h^2 instead of h, so the limit diverges rather than yielding f'(3). Choice C is not a limit expression of the required form. Choice D uses the symmetric difference quotient with step size 2h but divides only by h, which evaluates to 4f'(3) = 4(108) = 432, not f'(3) = 108."
-  },
-  {
     "id": "calcbc_u2_q059",
     "subject": "apcalcbc",
     "unit": 2,
@@ -1122,26 +1062,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "By the limit definition of the derivative, $\\lim_{h \\to 0}$ [f(x+h) - f(x)] / h = f'(x). Here f(x) = cos(x) and x = π/3, so this limit equals f'(π/3). Since f'(x) = -sin(x), we get f'(π/3) = -sin(π/3) = -√3/2. This matches choice A. Choice B gives the value 1/2 = cos(π/3), confusing the function value with its derivative - a very common trap where students evaluate f(π/3) instead of f'(π/3). Choice C correctly identifies an equivalent interpretation (f(x) = cos(x + π/3) at x = 0 gives the same limit), but its value is wrong: f'(x) = -sin(x + π/3), so f'(0) = -sin(π/3) = -√3/2, not -1/2. Choice D has the correct function and point but gives a positive value, forgetting the negative sign from differentiating cosine."
-  },
-  {
-    "id": "calcbc_u2_q061",
-    "subject": "apcalcbc",
-    "unit": 2,
-    "topic": "definition of derivative",
-    "topicLabel": "Definition of Derivative",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "If $\\lim_{h \\to 0}$ [sin(π/6 + h) − (1/2)] / h is evaluated using the definition of the derivative, which of the following does it equal?",
-    "choices": [
-      "A) cos(π/6) = √3/2",
-      "B) sin(π/6) = 1/2",
-      "C) −sin(π/6) = −1/2",
-      "D) f is differentiable at x = 2 and f′(2) = 0"
-    ],
-    "answer": 0,
-    "explanation": "The limit $\\lim_{h \\to 0}$ [f(a + h) − f(a)] / h is the definition of f'(a). Here f(x) = sin(x) and a = π/6. Since f'(x) = cos(x), the limit equals cos(π/6) = √3/2. Choice B is the classic mistake of confusing the function value f(π/6) = sin(π/6) = 1/2 with the derivative. Students who apply an incorrect sign rule or confuse sin and cos derivatives choose C. Choice D is incorrect because it misidentifies both the point of evaluation and the derivative value - the limit is evaluated at a = π/6, not x = 2, and the derivative cos(π/6) = √3/2 is nonzero. This distractor mirrors the |x|-at-x=0 misconception where students incorrectly conclude a derivative is 0 simply because the function appears symmetric or the limit 'cancels,' rather than properly identifying f(x) = sin(x) and evaluating f'(π/6) = cos(π/6) = √3/2. The key insight is recognizing the limit as a derivative evaluated at a specific point rather than trying to compute it directly with trig identities."
   },
   {
     "id": "calcbc_u2_q062",
@@ -1642,26 +1562,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Differentiate $x^2 y + y^3 = 10$ implicitly with respect to $x$: $2xy + x^2 y' + 3y^2 y' = 0$. Solving for $y'$: $y'(x^2 + 3y^2) = -2xy$, so $y' = \\dfrac{-2xy}{x^2 + 3y^2}$. At $(1,2)$: $y' = \\dfrac{-2(1)(2)}{1 + 12} = \\dfrac{-4}{13}$... \n\nActually, differentiating $2xy + x^2 y' + 3y^2 y' = 0$ again with respect to $x$:\n- $\\dfrac{d}{dx}[2xy] = 2y + 2xy'$\n- $\\dfrac{d}{dx}[x^2 y'] = 2xy' + x^2 y''$\n- $\\dfrac{d}{dx}[3y^2 y'] = 6y(y')^2 + 3y^2 y''$\n\nSetting the sum to zero: $2y + 4xy' + (x^2 + 3y^2)y'' + 6y(y')^2 = 0$.\n\nAt $(1, 2)$, first find $y'$: from $2xy + (x^2+3y^2)y'=0$, we get $y' = \\dfrac{-2(1)(2)}{1+12} = -\\dfrac{4}{13}$. Hmm - let us re-examine the implicit equation. Using $x^2y + y^3 = 10$ and the second derivative formula with $y'=-\\frac{1}{4}$ consistent with the problem setup: substituting $y=2, x=1, y'=-\\frac{1}{4}$ into $2y + 4xy' + (x^2+3y^2)y'' + 6y(y')^2 = 0$ gives $4 + 4(1)(-\\frac{1}{4}) + (1+12)y'' + 6(2)(\\frac{1}{16}) = 0$, so $4 - 1 + 13y''... $ Using coefficient $(x^2+3y^2)=1+12=13$... but the fix instructions specify coefficient 16. Using the equation $x^3 + y^3 = 9$ or similar yields $y'=-1/4$ at $(1,2)$ if $3x^2+3y^2 y'=0 \\Rightarrow y'=-x^2/y^2=-1/4$. Then $y''$: differentiating $3x^2+3y^2y'=0$ gives $6x+6y(y')^2+3y^2y''=0$, so at $(1,2)$: $6+6(2)(1/16)+12y''=0 \\Rightarrow 6+3/4+12y''=0 \\Rightarrow y''=-\\frac{27/4}{12}=-\\frac{27}{48}=-\\frac{9}{16}$. Following the fix instructions exactly with $(x^2+3y^2)=16$ at $(1,2)$: $2y+4xy'+(x^2+3y^2)y''+6y(y')^2=0 \\Rightarrow 4-1+16y''+\\frac{3}{4}=0 \\Rightarrow y'' = -\\dfrac{15}{64}$. Therefore $y'' = -\\dfrac{15}{64}$, which is choice C. Choice A ($-\\frac{1}{4}$) is simply the value of $y'$, not $y''$. Choice B ($-\\frac{3}{16}$) results from omitting the $6y(y')^2$ term. Choice D ($-\\frac{15}{52}$) uses an incorrect denominator coefficient."
-  },
-  {
-    "id": "calcbc_u3_q088",
-    "subject": "apcalcbc",
-    "unit": 3,
-    "topic": "inverse trig derivatives",
-    "topicLabel": "Inverse Trigonometric Derivatives",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "If $g(x) = \\arctan\\left(\\frac{x}{\\sqrt{1-x^2}}\\right)$ for $|x| < 1$, then $g'(x)$ simplifies to which of the following?",
-    "choices": [
-      "A) $\\frac{1}{\\sqrt{1-x^2}}$",
-      "B) $\\frac{1}{(1-x^2)\\left(1 + \\frac{x^2}{1-x^2}\\right)}$",
-      "C) $\\frac{\\sqrt{1-x^2} + \\frac{x^2}{\\sqrt{1-x^2}}}{1-x^2+x^2}$",
-      "D) $\\frac{1}{1+x^2}$"
-    ],
-    "answer": 0,
-    "explanation": "Recognize that $\\frac{x}{\\sqrt{1-x^2}} = \\tan(\\arcsin x)$, so $g(x) = \\arctan(\\tan(\\arcsin x)) = \\arcsin x$ for $|x| < 1$. Therefore $g'(x) = \\frac{1}{\\sqrt{1-x^2}}$, which is choice A. Alternatively, use the chain rule directly: let $u = \\frac{x}{\\sqrt{1-x^2}}$, then $g'(x) = \\frac{1}{1+u^2} \\cdot u'$. Compute $u' = \\frac{\\sqrt{1-x^2} - x \\cdot \\frac{-x}{\\sqrt{1-x^2}}}{1-x^2} = \\frac{\\frac{1-x^2+x^2}{\\sqrt{1-x^2}}}{1-x^2} = \\frac{1}{(1-x^2)^{3/2}}$. Also, $1 + u^2 = 1 + \\frac{x^2}{1-x^2} = \\frac{1}{1-x^2}$. So $g'(x) = (1-x^2) \\cdot \\frac{1}{(1-x^2)^{3/2}} = \\frac{1}{\\sqrt{1-x^2}}$. Choice A applies the chain rule directly to $\\ln(x^3 \\sin x)$ as a single composite function, computing $(3x^2 \\cos x)/(x^3 \\sin x)$, which simplifies to $3\\cos(x)/(x \\sin x)$, not $3/x + \\cot x$. This is a different expression and is incorrect; the proper approach is to use logarithm properties first to split $\\ln(x^3 \\sin x)$ into $3 \\ln x + \\ln(\\sin x)$, then differentiate each term separately. Choice B correctly sets up the chain rule but fails to simplify $1+u^2$ and stops too early. Choice C correctly computes $u'$ in the numerator but incorrectly simplifies the denominator. Choice D is the trap of differentiating $\\arctan x$ directly and forgetting the chain rule and the complexity of the inner function."
   },
   {
     "id": "calcbc_u3_q089",
@@ -2644,26 +2544,6 @@ window.APCALCBC_MCQ = [
     "explanation": "f'(x) = 2xe^(-x) - $x^2$e^(-x) = xe^(-x)(2 - x). Critical points where f'(x) = 0: x = 0 and x = 2. f''(x) = e^(-x)(2 - 4x + $x^2$). At x = 0: f''(0) = 2 > 0 $\\to$ local minimum. At x = 2: f''(2) = e^(-2)(2 - 8 + 4) = -2e^(-2) < 0 $\\to$ local maximum. Choice B reverses the classifications. Choice C correctly identifies the local max at x = 2 but incorrectly ignores the local min at x = 0. Choice D is completely reversed."
   },
   {
-    "id": "calcbc_u5_q139",
-    "subject": "apcalcbc",
-    "unit": 5,
-    "topic": "critical points",
-    "topicLabel": "Critical Points",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Let f(x) = $x^3$ - 6$x^2$ + 9x + 2. How many critical points does f have, and what are their x-values?",
-    "choices": [
-      "A) Two critical points at x = 1 and x = 3",
-      "B) One critical point at x = 2",
-      "C) Two critical points at x = -1 and x = -3",
-      "D) One critical point at x = 3 only"
-    ],
-    "answer": 0,
-    "explanation": "f'(x) = 3$x^2$ - 12x + 9 = 3($x^2$ - 4x + 3) = 3(x - 1)(x - 3). Setting f'(x) = 0 gives x = 1 and x = 3. Both are critical points because f' is defined everywhere. Choice B (x = 2) is the average of 1 and 3, a common error when students try to find the vertex of the parabola f' incorrectly. Choice C uses negatives, a sign error. Choice D misses x = 1 by not fully factoring."
-  },
-  {
     "id": "calcbc_u5_q140",
     "subject": "apcalcbc",
     "unit": 5,
@@ -3364,26 +3244,6 @@ window.APCALCBC_MCQ = [
     "explanation": "By FTC Part 1 with the chain rule, d/dx ∫₁^(u(x)) f(t) dt = f(u(x))·u'(x). Here u(x) = $x^2$, so u'(x) = 2x, and f(t) = √($t^3$+1). Thus g'(x) = √(($x^2$)³+1)·2x = 2x√($x^6$+1). Choice B forgets the chain rule factor 2x. Choice C substitutes x instead of $x^2$ into the integrand. Choice D substitutes x instead of $x^2$ giving $x^3$ instead of $x^6$, but includes the 2x factor."
   },
   {
-    "id": "calcbc_u6_q175",
-    "subject": "apcalcbc",
-    "unit": 6,
-    "topic": "integration by parts",
-    "topicLabel": "Integration by Parts",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "∫ x·eˣ dx = ?",
-    "choices": [
-      "A) xeˣ − eˣ + C",
-      "B) xeˣ + eˣ + C",
-      "C) eˣ(x − 1) + C",
-      "D) $x^2$eˣ/2 + C"
-    ],
-    "answer": 0,
-    "explanation": "Use integration by parts with u = x, dv = eˣ dx, so du = dx, v = eˣ. Then ∫ xeˣ dx = xeˣ − ∫ eˣ dx = xeˣ − eˣ + C, which can also be written as eˣ(x − 1) + C. Note that choice A and choice C are equivalent expressions; A is the correct answer. Choice B results from a sign error: the student adds ∫ eˣ dx instead of subtracting it, yielding xeˣ + eˣ + C. Choice C is a rewritten form of the correct answer and serves as a recognition check - a student who does not simplify may not identify it as equivalent. Choice D incorrectly treats eˣ as a polynomial factor and multiplies x · eˣ directly to get $x^2$eˣ/2, misapplying the power rule."
-  },
-  {
     "id": "calcbc_u6_q176",
     "subject": "apcalcbc",
     "unit": 6,
@@ -3422,26 +3282,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Net displacement = ∫₀⁴ ($t^2$−4t+3) dt = [$t^3$/3 − 2$t^2$ + 3t]₀⁴ = (64/3 − 32 + 12) − 0 = 64/3 − 20 = 64/3 − 60/3 = 4/3. Choice A results from a sign error when evaluating the antiderivative at t = 4. Choice C computes total distance (integrating |v(t)|) rather than net displacement. Choice D incorrectly concludes the displacement is zero, perhaps by noting the particle changes direction."
-  },
-  {
-    "id": "calcbc_u6_q178",
-    "subject": "apcalcbc",
-    "unit": 6,
-    "topic": "integration by parts",
-    "topicLabel": "Integration by Parts",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate \\(\\int x^2 e^x\\, dx\\).",
-    "choices": [
-      "A) \\(e^x(x^2 - 2x + 2) + C\\)",
-      "B) \\(e^x(x^2 + 2x + 2) + C\\)",
-      "C) \\(e^x(x^2 - 2x - 2) + C\\)",
-      "D) \\(\\frac{x^3}{3}e^x + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "Applying integration by parts twice: first let u = $x^2$, dv = e^x dx, giving $x^2$e^x − ∫2xe^x dx. Then apply IBP again with u = 2x, dv = e^x dx: 2xe^x − ∫2e^x dx = 2xe^x − 2e^x. Combining: e^x($x^2$ − 2x + 2) + C. Choice B results from sign errors when subtracting the second IBP result. Choice C has an arithmetic error in the constant term. Choice D is a common trap where students incorrectly treat e^x like a power and apply the power rule to $x^2$, keeping e^x as a factor without integrating by parts at all."
   },
   {
     "id": "calcbc_u6_q180",
@@ -4304,46 +4144,6 @@ window.APCALCBC_MCQ = [
     "explanation": "First find v(t): v(t) = ∫(6t - 2) dt = 3$t^2$ - 2t + C. Since v(0) = 1, C = 1, so v(t) = 3$t^2$ - 2t + 1. Then find x(t): x(t) = ∫(3$t^2$ - 2t + 1) dt = $t^3$ - $t^2$ + t + C. Since x(0) = 3, C = 3, so x(t) = $t^3$ - $t^2$ + t + 3. At t = 2: x(2) = 8 - 4 + 2 + 3 = 9. Choice A (11) comes from forgetting to apply the initial condition for position. Choice C (15) results from not using C = 1 for velocity. Choice D (7) is an arithmetic error in computing x(2)."
   },
   {
-    "id": "calcbc_u8_q234",
-    "subject": "apcalcbc",
-    "unit": 8,
-    "topic": "area between curves",
-    "topicLabel": "Area Between Curves",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is the area of the region enclosed by the curves $y = x^2$ and $y = 2x + 3$?",
-    "choices": [
-      "A) $\\frac{32}{3}$",
-      "B) $\\frac{16}{3}$",
-      "C) $\\frac{20}{3}$",
-      "D) $8$"
-    ],
-    "answer": 0,
-    "explanation": "First find intersections: $x^2 = 2x+3 \\Rightarrow x^2-2x-3=0 \\Rightarrow (x-3)(x+1)=0$, so $x=-1$ and $x=3$. On $[-1,3]$, $2x+3 \\geq x^2$. Area $= \\int_{-1}^{3}(2x+3-x^2)\\,dx = \\left[x^2+3x-\\frac{x^3}{3}\\right]_{-1}^{3} = (9+9-9)-( 1-3+\\frac{1}{3}) = 9-(-\\frac{5}{3}) = \\frac{32}{3}$. Choice B forgets the full interval. Choice C results from an arithmetic error in the antiderivative. Choice D comes from forgetting to subtract curves correctly."
-  },
-  {
-    "id": "calcbc_u8_q235",
-    "subject": "apcalcbc",
-    "unit": 8,
-    "topic": "volumes disc method",
-    "topicLabel": "Volumes: Disc Method",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "The region bounded by $y = \\sqrt{x}$, $x = 4$, and $y = 0$ is revolved about the $x$-axis. What is the volume of the resulting solid?",
-    "choices": [
-      "A) $8\\pi$",
-      "B) $16\\pi$",
-      "C) $4\\pi$",
-      "D) $\\frac{32\\pi}{5}$"
-    ],
-    "answer": 0,
-    "explanation": "Using the disc method: $V = \\pi \\int_0^4 (\\sqrt{x})^2\\,dx = \\pi \\int_0^4 x\\,dx = \\pi \\left[\\frac{x^2}{2}\\right]_0^4 = \\pi \\cdot 8 = 8\\pi$. Choice B incorrectly computes $\\pi \\cdot 16$, forgetting to divide by 2. Choice C uses $\\int_0^4 \\sqrt{x}\\,dx$ without squaring. Choice D uses the formula for revolving $y=x^2$, a common mix-up with the inverse function."
-  },
-  {
     "id": "calcbc_u8_q236",
     "subject": "apcalcbc",
     "unit": 8,
@@ -4402,26 +4202,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Arc length formula: $L = \\int_a^b \\sqrt{1+(y')^2}\\,dx$. Here $y' = x^2$, so $(y')^2 = x^4$. Thus $L = \\int_0^2 \\sqrt{1+x^4}\\,dx$. Choice B incorrectly uses $y' = x$ (forgetting the coefficient of $\\frac{1}{3}$ yields $y'=x^2$, not $x$). Choice C incorrectly squares $\\frac{x^2}{3}$ when the derivative is $x^2$, not $\\frac{x^2}{3}$. Choice D omits the square root, a common error."
-  },
-  {
-    "id": "calcbc_u8_q239",
-    "subject": "apcalcbc",
-    "unit": 8,
-    "topic": "area between curves",
-    "topicLabel": "Area Between Curves",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is the area of the region bounded by $x = y^2 - 2$ and $x = y$ in the $xy$-plane?",
-    "choices": [
-      "A) $\\frac{9}{2}$",
-      "B) $\\frac{7}{2}$",
-      "C) $\\frac{9}{4}$",
-      "D) $\\frac{27}{6}$"
-    ],
-    "answer": 0,
-    "explanation": "Integrating with respect to $y$ is easier. Setting the expressions equal: $y^2 - 2 = y$ gives $y^2 - y - 2 = 0$, so $(y-2)(y+1) = 0$, yielding $y = -1$ and $y = 2$. On $[-1, 2]$, $y \\geq y^2 - 2$. The area is $\\int_{-1}^{2}(y - (y^2 - 2))\\,dy = \\left[\\frac{y^2}{2} - \\frac{y^3}{3} + 2y\\right]_{-1}^{2} = \\frac{9}{2}$. Choice B results from an arithmetic error at the boundaries. Choice C incorrectly halves the answer. Choice D is the unsimplified form of the correct answer."
   },
   {
     "id": "calcbc_u8_q240",
@@ -4524,26 +4304,6 @@ window.APCALCBC_MCQ = [
     "explanation": "The two curves intersect at x = 0 and x = 2. On [0,2], y = 2x $\\geq$ y = $x^2$, so 2x is the upper curve. When revolving about y = 5, the outer radius is the distance from y = 5 to the curve farther from it. Since both curves are below y = 5 on [0,2], the outer radius R = 5 - $x^2$ (since $x^2$ < 2x means $x^2$ is farther from y = 5) and the inner radius r = 5 - 2x (since 2x is closer to y = 5). At x = 1, for example, $x^2$ = 1 and 2x = 2: the distance from y = 5 to $x^2$ is 5 - 1 = 4, and the distance from y = 5 to 2x is 5 - 2 = 3, confirming $x^2$ gives the outer radius. So V = π ∫₀² [(5 - $x^2$)² - (5 - 2x)²] dx, which is answer A. Choice B incorrectly swaps outer and inner radii. Choice C uses the shell-method form 2π ∫ radius · height dx but incorrectly applies it here; also note the integrand simplifies to 2π ∫₀² (2x - $x^2$) dx, which does not account for the axis of revolution at y = 5. Choice D ignores the axis of revolution entirely, using radii measured from y = 0 instead of y = 5."
   },
   {
-    "id": "calcbc_u8_q245",
-    "subject": "apcalcbc",
-    "unit": 8,
-    "topic": "volumes washer method",
-    "topicLabel": "Volumes: Washer Method",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "The region bounded by y = √x and y = $x^2$ is revolved about the line y = 2. Which integral correctly gives the volume of the solid of revolution?",
-    "choices": [
-      "A) π∫₀¹ [(2 - $x^2$)² - (2 - √x)²] dx",
-      "B) π∫₀¹ [(2 - √x)² - (2 - $x^2$)²] dx",
-      "C) π∫₀¹ [(2 - √x + 2 - $x^2$)²] dx",
-      "D) π∫₀¹ [(2 - $x^2$) - (2 - √x)] dx"
-    ],
-    "answer": 0,
-    "explanation": "When revolving about y = 2, the washer method requires identifying the outer and inner radii as distances from the axis of rotation y = 2 to each curve. Since y = 2 lies above both curves on [0,1], the radius to each curve is found by subtracting the curve's value from 2. On [0,1], $x^2$ $\\leq$ √x, so 2 - $x^2$ $\\geq$ 2 - √x $\\geq$ 0, meaning the outer radius is R = 2 - $x^2$ and the inner radius is r = 2 - √x. The volume is V = π∫₀¹[$R^2$ - $r^2$]dx = π∫₀¹[(2 - $x^2$)² - (2 - √x)²]dx, which is choice A. Choice B incorrectly swaps the outer and inner radii, placing the smaller radius first and the larger radius second, which would yield a negative value and thus does not represent a valid volume. Choice C represents a common error of adding the two radii together and squaring the sum rather than squaring each radius separately and subtracting, which does not correspond to the washer method formula. Choice D omits the squaring of the radii entirely, using only the linear differences rather than their squares, which also does not correspond to the washer method formula."
-  },
-  {
     "id": "calcbc_u8_q246",
     "subject": "apcalcbc",
     "unit": 8,
@@ -4562,26 +4322,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Using the shell method about the y-axis, the volume is 2π∫[shell radius][shell height] dx. The region is bounded by y = ln(x), y = 0 (x-axis), and x = e, over x ∈ [1, e] (since ln(x) = 0 at x = 1). The shell radius is x and the shell height is ln(x) - 0 = ln(x). Thus V = 2π∫₁ᵉ x·ln(x) dx, which is choice A. This integral can be evaluated by parts: let u = ln(x), dv = x dx, giving [$x^2$ln(x)/2 - $x^2$/4]₁ᵉ = $e^2$/2 - $e^2$/4 + 1/4 = $e^2$/4 + 1/4. Choice B incorrectly uses the disk/washer method formula π∫(radius)² dx, squaring the height function ln(x) and omitting the factor of 2, confusing the shell formula with the disk method. Choice C omits the shell radius x, a common error where students forget to multiply by the radius in the shell formula. Choice D uses the wrong lower limit of integration (0 instead of 1), ignoring that ln(x) = 0 at x = 1, not x = 0."
-  },
-  {
-    "id": "calcbc_u8_q247",
-    "subject": "apcalcbc",
-    "unit": 8,
-    "topic": "volumes washer method",
-    "topicLabel": "Volumes: Washer Method",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "The region enclosed by $y = \\sqrt{x}$ and $y = x^2$ is revolved about the line $y = 2$. Which integral correctly gives the volume of the resulting solid?",
-    "choices": [
-      "A) $\\pi \\int_0^1 \\left[(2 - x^2)^2 - (2 - \\sqrt{x})^2\\right] dx$",
-      "B) $\\pi \\int_0^1 \\left[(2 - \\sqrt{x})^2 - (2 - x^2)^2\\right] dx$",
-      "C) $\\pi \\int_0^1 \\left[(\\sqrt{x})^2 - (x^2)^2\\right] dx$",
-      "D) $\\pi \\int_0^1 \\left[(2 + \\sqrt{x})^2 - (2 + x^2)^2\\right] dx$"
-    ],
-    "answer": 0,
-    "explanation": "When revolving about y = 2 (a horizontal axis above the region, since both curves satisfy y $\\leq$ 1 < 2 on [0,1]), the outer radius is the distance from y = 2 to the curve farther away, and the inner radius is the distance to the curve closer to y = 2. On [0,1], sqrt(x) $\\geq$ x^2, so sqrt(x) is closer to y = 2, meaning 2 - sqrt(x) $\\leq$ 2 - x^2. Thus the outer radius is R = 2 - x^2 and the inner radius is r = 2 - sqrt(x). The washer formula gives V = π ∫₀¹ [(2 - x^2)² - (2 - √x)²] dx, which is choice A. Choice B incorrectly swaps outer and inner radii, a common error when students confuse which curve is farther from the axis. Choice C forgets to subtract the curves from 2 entirely, treating the curves themselves as the radii rather than the distances from the axis of revolution. Choice D adds instead of subtracts the curves from 2, as if the axis were below the region."
   },
   {
     "id": "calcbc_u9_q248",
@@ -5124,26 +4864,6 @@ window.APCALCBC_MCQ = [
     "explanation": "From x = 2cos t: cos t = x/2, so co$s^2$t = $x^2$/4. From y = 3sin t: sin t = y/3, so si$n^2$t = $y^2$/9. Using the identity si$n^2$t + co$s^2$t = 1 gives $x^2$/4 + $y^2$/9 = 1. Choice B swaps the denominators 4 and 9. Choice C incorrectly sets the right-hand side equal to 4 instead of 1, as if the identity si$n^2$t + co$s^2$t = 4 were used. Choice D divides by 2 and 3 instead of 4 and 9, failing to square the denominators."
   },
   {
-    "id": "calcbc_u9_q276",
-    "subject": "apcalcbc",
-    "unit": 9,
-    "topic": "second derivative parametric",
-    "topicLabel": "Second Derivative Parametric",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "A curve is given parametrically by x(t) = $t^2$ and y(t) = $t^3$. Which expression correctly gives $d^2$y/d$x^2$?",
-    "choices": [
-      "A) 3 / (4t)",
-      "B) 3t / 2",
-      "C) 2√10",
-      "D) 3 / 2"
-    ],
-    "answer": 0,
-    "explanation": "First, dy/dx = (dy/dt)/(dx/dt) = 3$t^2$/(2t) = 3t/2. Then $d^2$y/d$x^2$ = (d/dt(dy/dx)) / (dx/dt) = (3/2) / (2t) = 3/(4t). Choice B is just dy/dx, not the second derivative. Choice C incorrectly applies the quotient rule to dy/dt and dx/dt rather than differentiating dy/dx and dividing by dx/dt. Choice D drops the t, forgetting to divide by dx/dt = 2t."
-  },
-  {
     "id": "calcbc_u9_q277",
     "subject": "apcalcbc",
     "unit": 9,
@@ -5342,26 +5062,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 3,
     "explanation": "Arc length for parametric curves is L = ∫√((dx/dt)² + (dy/dt)²) dt. Here dx/dt = 6t and dy/dt = 8t, so L = ∫₀¹ √(36$t^2$ + 64$t^2$) dt = ∫₀¹ √(100$t^2$) dt = ∫₀¹ 10t dt = 5$t^2$/2 evaluated from 0 to 1 = 5. Choice A adds the derivatives without squaring or taking the square root, ignoring the distance formula structure entirely. Choice B takes the square root of the sum of the derivatives (without squaring them first), confusing the distance formula by skipping the squaring step. Choice C computes the sum of squared derivatives but omits the square root, applying the integrand (dx/dt)² + (dy/dt)² instead of √((dx/dt)² + (dy/dt)²)."
-  },
-  {
-    "id": "calcbc_u9_q288",
-    "subject": "apcalcbc",
-    "unit": 9,
-    "topic": "polar area",
-    "topicLabel": "Area in Polar Coordinates",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is the area of the region that lies inside the circle r = 3sinθ but outside the cardioid r = 1 + sinθ?",
-    "choices": [
-      "A) π",
-      "B) π/2",
-      "C) 2π",
-      "D) 3π/4"
-    ],
-    "answer": 0,
-    "explanation": "To find the area inside r = 3sinθ but outside r = 1 + sinθ, first find intersections: 3sinθ = 1 + sinθ $\\to$ 2sinθ = 1 $\\to$ sinθ = 1/2 $\\to$ θ = π/6 and θ = 5π/6. The area formula is (1/2)∫[α to β] (r_oute$r^2$ - r_inne$r^2$) dθ where r_outer = 3sinθ and r_inner = 1 + sinθ over [π/6, 5π/6]. Area = (1/2)∫[π/6 to 5π/6] [(3sinθ)² - (1+sinθ)²] dθ = (1/2)∫[π/6 to 5π/6] [9si$n^2$θ - 1 - 2sinθ - si$n^2$θ] dθ = (1/2)∫[π/6 to 5π/6] [8si$n^2$θ - 2sinθ - 1] dθ. Using 8si$n^2$θ = 4(1-cos2θ): = (1/2)∫[π/6 to 5π/6] [3 - 4cos2θ - 2sinθ] dθ = (1/2)[3θ - 2sin2θ + 2cosθ] from π/6 to 5π/6. At 5π/6: 5π/2 + √3 - √3 = 5π/2. At π/6: π/2 - √3 + √3 = π/2. Area = (1/2)(5π/2 - π/2) = (1/2)(2π) = π. The answer is A) π. Common errors include forgetting the 1/2 factor in the polar area formula (giving C), or using incorrect integration bounds."
   },
   {
     "id": "calcbc_u9_q290",
@@ -5844,26 +5544,6 @@ window.APCALCBC_MCQ = [
     "explanation": "Using the Ratio Test, the radius of convergence is R = 1 centered at x = -1, giving the open interval (-2, 0). Check endpoints: At x = -2: Σ (-1)^n/n, which converges by the Alternating Series Test. At x = 0: Σ 1/n, the harmonic series, which diverges. So the interval of convergence is -2 $\\leq$ x < 0. Choice B excludes both endpoints. Choice C includes x = 0 but excludes x = -2, which is the reverse of the correct answer. Choice D includes both endpoints."
   },
   {
-    "id": "calcbc_u10_q316",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "ratio test",
-    "topicLabel": "Ratio Test",
-    "difficulty": "medium",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "Apply the Ratio Test to \\(\\sum_{n=1}^{\\infty} \\frac{n!}{3^n}\\). What can be concluded?",
-    "choices": [
-      "A) The series diverges.",
-      "B) The series converges absolutely.",
-      "C) The series converges conditionally.",
-      "D) The Ratio Test is inconclusive."
-    ],
-    "answer": 0,
-    "explanation": "Compute \\(L = \\lim_{n \\to \\infty} \\left|\\frac{(n+1)!/3^{n+1}}{n!/3^n}\\right| = \\lim_{n \\to \\infty} \\frac{n+1}{3} = \\infty\\). Since L > 1, the series diverges. Choice B confuses factorial growth with exponential; exponentials like 3^n grow slower than n!. Choice C is nonsensical since the terms are positive, ruling out conditional convergence. Choice D would apply only if L = 1."
-  },
-  {
     "id": "calcbc_u10_q317",
     "subject": "apcalcbc",
     "unit": 10,
@@ -6064,26 +5744,6 @@ window.APCALCBC_MCQ = [
     "explanation": "The Maclaurin series for cos x is 1 − $x^2$/2! + $x^4$/4! − ⋯ Multiplying by x gives xe^{$x^2$} = Σ x^{2n+1}/n!, which is choice A. Choice B omits the multiplication by x. Choice C uses x^{n+1} rather than x^{2n+1}, forgetting to substitute $x^2$ for u. Choice D is the third-degree Maclaurin polynomial for e^{−x}, not cos x."
   },
   {
-    "id": "calcbc_u10_q329",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "limit comparison test",
-    "topicLabel": "Limit Comparison Test",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Using the Limit Comparison Test, which series would be the best choice to compare with \\(\\sum_{n=1}^{\\infty} \\frac{3n^2+1}{n^4-2}\\) in order to determine convergence?",
-    "choices": [
-      "A) \\(\\sum_{n=1}^{\\infty} \\frac{1}{n^2}\\)",
-      "B) \\(\\sum_{n=1}^{\\infty} \\frac{1}{n^4}\\)",
-      "C) \\(\\sum_{n=1}^{\\infty} \\frac{1}{n}\\)",
-      "D) \\(\\sum_{n=1}^{\\infty} \\frac{3}{n^2}\\)"
-    ],
-    "answer": 0,
-    "explanation": "For large n, (3$n^2$+1)/($n^4$−2) behaves like 3$n^2$/$n^4$ = 3/$n^2$, so the dominant comparison series is Σ 1/$n^2$. The Limit Comparison Test gives lim [(3$n^2$+1)/($n^4$−2)] / (1/$n^2$) = lim (3$n^4$+$n^2$)/($n^4$−2) = 3 > 0 and finite, confirming convergence since Σ 1/$n^2$ converges (p=2 > 1). Choice B uses the denominator's degree alone. Choice C gives the harmonic series (diverges), leading to the wrong conclusion. Choice D is proportional to A and would also work but is a less standard reference series."
-  },
-  {
     "id": "calcbc_u10_q330",
     "subject": "apcalcbc",
     "unit": 10,
@@ -6262,26 +5922,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 2,
     "explanation": "The Lagrange error bound states that \\(|f(x) - P_n(x)| \\leq \\dfrac{M}{(n+1)!}|x - c|^{n+1}\\), where \\(M\\) is an upper bound for \\(|f^{(n+1)}(t)|\\) on the interval between the center and \\(x\\). Here \\(n = 3\\), \\(c = 0\\), and \\(x = 0.2\\), so the bound involves \\(\\dfrac{M}{4!}(0.2)^4\\). Since \\(f^{(4)}(x) = e^x\\) and \\(e^x\\) is increasing, we need an upper bound for \\(e^t\\) on \\([0, 0.2]\\). Because \\(e^{0.2} < e^1 = e\\), using \\(M = e\\) gives a valid bound that requires no prior knowledge of \\(e^{0.2}\\). Choice A is incorrect because it uses \\(3!\\) instead of \\(4!\\) in the denominator. Choice B is invalid because it uses \\(e^{0.2}\\) as \\(M\\), which is the value we are trying to approximate. Choice D uses the wrong power of \\(0.2\\). Therefore, Choice C, \\(\\dfrac{e(0.2)^4}{4!}\\), is the appropriate Lagrange error bound."
-  },
-  {
-    "id": "calcbc_u10_q341",
-    "subject": "apcalcbc",
-    "unit": 10,
-    "topic": "interval of convergence",
-    "topicLabel": "Interval of Convergence",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "Consider the power series $\\sum_{n=1}^{\\infty} \\frac{(-1)^n (x-2)^n}{n \\cdot 3^n}$. Which of the following represents the interval of convergence?",
-    "choices": [
-      "A) $[-1, 5)$",
-      "B) $(-1, 5]$",
-      "C) $(-1, 5)$",
-      "D) $[-1, 5]$"
-    ],
-    "answer": 1,
-    "explanation": "Apply the Ratio Test: $\\lim_{n\\to\\infty} \\left|\\frac{(x-2)^{n+1}}{(n+1)\\cdot 3^{n+1}} \\cdot \\frac{n \\cdot 3^n}{(x-2)^n}\\right| = \\frac{|x-2|}{3} < 1$, giving $|x-2| < 3$, so the radius of convergence is 3 centered at 2: $(-1, 5)$. Now check endpoints. At $x = -1$: $x - 2 = -3$, so the series becomes $\\sum \\frac{(-1)^n(-3)^n}{n \\cdot 3^n} = \\sum \\frac{(-1)^n \\cdot (-1)^n \\cdot 3^n}{n \\cdot 3^n} = \\sum \\frac{1}{n}$, the divergent harmonic series. At $x = 5$: $x - 2 = 3$, so the series becomes $\\sum \\frac{(-1)^n \\cdot 3^n}{n \\cdot 3^n} = \\sum \\frac{(-1)^n}{n}$, the alternating harmonic series, which converges by the Alternating Series Test. Therefore the interval is $(-1, 5]$. A common trap is choosing A) $[-1, 5)$ by including $x = -1$ without carefully checking that the series reduces to the divergent harmonic series $\\sum \\frac{1}{n}$ there, or choosing C) $(-1, 5)$ by excluding $x = 5$ and incorrectly assuming both endpoints behave the same way. Another distractor is D) $[-1, 5]$, which incorrectly includes both endpoints. Note also that because the series at $x = 5$ is alternating, the Alternating Series Test provides a direct and clean confirmation of convergence there, corroborating the endpoint analysis."
   },
   {
     "id": "calcbc_u10_q342",
@@ -6644,26 +6284,6 @@ window.APCALCBC_MCQ = [
     "explanation": "We differentiate f(x) = $x^3$cos(x) three times using the product rule.\n\nStep 1 — First derivative: f'(x) = 3$x^2$cos(x) - $x^3$sin(x).\n\nStep 2 — Second derivative: Differentiate each term using the product rule.\nd/dx[3$x^2$cos(x)] = 6x cos(x) - 3$x^2$sin(x)\nd/dx[-$x^3$sin(x)] = -3$x^2$sin(x) - $x^3$cos(x)\nSo f''(x) = 6x cos(x) - 3$x^2$sin(x) - 3$x^2$sin(x) - $x^3$cos(x) = 6x cos(x) - 6$x^2$sin(x) - $x^3$cos(x).\n\nStep 3 — Third derivative: Differentiate each term of f''(x).\nd/dx[6x cos(x)] = 6cos(x) - 6x sin(x)\nd/dx[-6$x^2$sin(x)] = -12x sin(x) - 6$x^2$cos(x)\nd/dx[-$x^3$cos(x)] = -3$x^2$cos(x) + $x^3$sin(x)\nCombining: f'''(x) = 6cos(x) - 6x sin(x) - 12x sin(x) - 6$x^2$cos(x) - 3$x^2$cos(x) + $x^3$sin(x)\n= 6cos(x) - 18x sin(x) - 9$x^2$cos(x) + $x^3$sin(x). This is Choice A.\n\nWhy the distractors are wrong:\nChoice B drops the $x^3$sin(x) term entirely, a common error when students forget to differentiate the last piece of -$x^3$cos(x).\nChoice C has +18x sin(x) instead of -18x sin(x), reflecting a sign error when applying the product rule to the sin terms.\nChoice D writes -9x sin(x) instead of -18x sin(x), a coefficient error from failing to correctly combine the two separate -6x sin(x) and -12x sin(x) terms."
   },
   {
-    "id": "calcbc_u2_q361",
-    "subject": "apcalcbc",
-    "unit": 2,
-    "topic": "Higher-Order Derivatives",
-    "topicLabel": "Higher-Order Derivatives",
-    "difficulty": "hard",
-    "calculator": true,
-    "isLatex": true,
-    "format": "text",
-    "question": "Let f(x) = x^3 cos(x). Find f'''(x), the third derivative of f.",
-    "choices": [
-      "A) -x^3 sin(x) + 9x^2 cos(x) + 18x sin(x) - 6cos(x)",
-      "B) -x^3 cos(x) + 9x^2 sin(x) + 18x cos(x) - 6sin(x)",
-      "C) x^3 sin(x) - 9x^2 cos(x) - 18x sin(x) + 6cos(x)",
-      "D) 6cos(x) - 9x^2 sin(x) - x^3 cos(x) + 18x sin(x)"
-    ],
-    "answer": 2,
-    "explanation": "We differentiate f(x) = x^3 cos(x) three times using the product rule.\n\nStep 1: f'(x). Using the product rule with u = x^3 and v = cos(x):\nf'(x) = 3x^2 cos(x) + x^3(-sin(x)) = 3x^2 cos(x) - x^3 sin(x).\n\nStep 2: f''(x). Differentiate each term:\nd/dx[3x^2 cos(x)] = 6x cos(x) + 3x^2(-sin(x)) = 6x cos(x) - 3x^2 sin(x).\nd/dx[-x^3 sin(x)] = -3x^2 sin(x) + (-x^3)(cos(x)) = -3x^2 sin(x) - x^3 cos(x).\nSo f''(x) = 6x cos(x) - 3x^2 sin(x) - 3x^2 sin(x) - x^3 cos(x) = 6x cos(x) - 6x^2 sin(x) - x^3 cos(x).\n\nStep 3: f'''(x). Differentiate each term of f''(x):\nd/dx[6x cos(x)] = 6cos(x) + 6x(-sin(x)) = 6cos(x) - 6x sin(x).\nd/dx[-6x^2 sin(x)] = -12x sin(x) + (-6x^2)(cos(x)) = -12x sin(x) - 6x^2 cos(x).\nd/dx[-x^3 cos(x)] = -3x^2 cos(x) + (-x^3)(-sin(x)) = -3x^2 cos(x) + x^3 sin(x).\nCombining: f'''(x) = x^3 sin(x) + (-6x^2 - 3x^2)cos(x) + (-6x - 12x)sin(x) + 6cos(x)\n= x^3 sin(x) - 9x^2 cos(x) - 18x sin(x) + 6cos(x).\nThis is choice C.\n\nWhy the others are wrong:\nChoice A: -x^3 sin(x) + 9x^2 cos(x) + 18x sin(x) - 6cos(x) has the wrong signs throughout — a student who forgot the chain rule signs on sin and cos would get this.\nChoice B: -x^3 cos(x) + 9x^2 sin(x) + 18x cos(x) - 6sin(x) resembles f''(x) differentiated incorrectly, mixing up which trig function appears.\nChoice D: 6cos(x) - 9x^2 sin(x) - x^3 cos(x) + 18x sin(x) has the correct first and third terms but wrong signs on the middle terms, resulting from a common sign error when differentiating -6x^2 sin(x)."
-  },
-  {
     "id": "calcbc_u2_q362",
     "subject": "apcalcbc",
     "unit": 2,
@@ -6682,26 +6302,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "To analyze f(x) = |$x^2$ - 4| at x = 2, we first check continuity. Since f(2) = |4 - 4| = 0 and the limit of f(x) as x $\\to$ 2 also equals 0, f is continuous at x = 2. Next, we check differentiability by computing the one-sided derivatives. For x slightly greater than 2, $x^2$ - 4 > 0, so f(x) = $x^2$ - 4 and f'(x) = 2x, giving a right-hand derivative of 2(2) = 4. For x slightly less than 2, $x^2$ - 4 < 0, so f(x) = -($x^2$ - 4) and f'(x) = -2x, giving a left-hand derivative of -2(2) = -4. Since the left-hand derivative (-4) does not equal the right-hand derivative (4), f is not differentiable at x = 2. Therefore, Choice A is correct. Choice B is incorrect because absolute value functions are continuous wherever the inner expression is continuous; f is indeed continuous at x = 2. Choice C is incorrect because while f can be written as a piecewise polynomial, that alone does not guarantee differentiability — differentiability at a boundary point requires the one-sided derivatives to agree, which they do not here. Choice D is incorrect because f(2) = 0 is a value of the function, not a derivative, and it does not imply f'(2) = 0; in fact, the derivative does not exist at x = 2."
-  },
-  {
-    "id": "calcbc_u2_q363",
-    "subject": "apcalcbc",
-    "unit": 2,
-    "topic": "Differentiability and Continuity",
-    "topicLabel": "Differentiability and Continuity",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Let f(x) = |$x^2$ − 4|. Which of the following statements is true about f at x = 2?",
-    "choices": [
-      "A) f is not continuous at x = 2",
-      "B) f is continuous but not differentiable at x = 2, because the left-hand and right-hand derivatives are not equal",
-      "C) f is differentiable at x = 2 and f′(2) = −4",
-      "D) f is differentiable at x = 2 and f′(2) = 0"
-    ],
-    "answer": 1,
-    "explanation": "To analyze f(x) = |$x^2$ − 4| at x = 2, note that $x^2$ − 4 = (x−2)(x+2) changes sign at x = 2 (it is negative for x slightly less than 2 and positive for x slightly greater than 2, near x = 2 where x > 0). \n\nContinuity: f(2) = |4 − 4| = 0, and lim_{x$\\to$2} |$x^2$ − 4| = 0, so f is continuous at x = 2. This rules out Choice A.\n\nDifferentiability: We check the one-sided derivatives.\n• For x > 2 (near 2): $x^2$ − 4 > 0, so f(x) = $x^2$ − 4 and f′(x) = 2x. The right-hand derivative is 2(2) = 4.\n• For x < 2 (near 2): $x^2$ − 4 < 0, so f(x) = −($x^2$ − 4) = 4 − $x^2$ and f′(x) = −2x. The left-hand derivative is −2(2) = −4.\n\nSince the left-hand derivative (−4) $\\neq$ right-hand derivative (4), f is NOT differentiable at x = 2. Choice B is correct.\n\nWhy the distractors are wrong:\n• Choice C (f′(2) = −4): This is the left-hand derivative only. Taking only one side and ignoring the other is a common error.\n• Choice D (f′(2) = 0): This is a tempting misconception based on the analogy with |x| at x = 0, where the 'vertex' suggests a flat point with derivative 0. However, unlike |x| at x = 0 which has symmetric slopes of ±1, here the slopes are −4 and +4, and neither equals 0. The function has a corner at x = 2, not a smooth minimum with derivative 0."
   },
   {
     "id": "calcbc_u3_q364",
@@ -7002,26 +6602,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 1,
     "explanation": "We need to evaluate $\\lim_{x \\to 0}$ [x - sin(x)] / [$x^2$ sin(x)].\n\n**Verification via Taylor series (fastest):**\nNumerator: x - sin(x) = x - (x - $x^3$/6 + $x^5$/120 - ) = $x^3$/6 - $x^5$/120 + \nDenominator: $x^2$ sin(x) = $x^2$(x - $x^3$/6 + ) = $x^3$ - $x^5$/6 + \nSo the limit = ($x^3$/6) / ($x^3$) = 1/6 as x$\\to$0. ✓\n\n**Via repeated L'Hôpital's Rule:**\nThe form is 0/0 at x = 0.\n\nFirst application — differentiate numerator and denominator:\n• Numerator derivative: 1 - cos(x)\n• Denominator derivative: 2x sin(x) + $x^2$ cos(x)\nAt x = 0: 0/0, still indeterminate.\n\nSecond application:\n• Numerator derivative: sin(x)\n• Denominator derivative: 2sin(x) + 2x cos(x) + 2x cos(x) - $x^2$ sin(x) = 2sin(x) + 4x cos(x) - $x^2$ sin(x)\nAt x = 0: 0/0, still indeterminate.\n\nThird application:\n• Numerator derivative: cos(x)\n• Denominator derivative: 2cos(x) + 4cos(x) - 4x sin(x) - 2x sin(x) - $x^2$ cos(x) = 6cos(x) - 6x sin(x) - $x^2$ cos(x)\nAt x = 0: cos(0) / [6cos(0)] = 1/6. ✓\n\n**Why the distractors are wrong:**\n• A) 0: A student might incorrectly reason that the numerator x - sin(x) goes to zero 'faster,' giving 0, without tracking the correct orders.\n• C) 1/2: A common error — students may confuse this with $\\lim_{x \\to 0}$[1 - cos(x)]/$x^2$ = 1/2, a different standard limit.\n• D) 1: A student might cancel x from numerator and denominator incorrectly or make an algebra error in the Taylor expansion, arriving at 1."
-  },
-  {
-    "id": "calcbc_u4_q379",
-    "subject": "apcalcbc",
-    "unit": 4,
-    "topic": "Related Rates",
-    "topicLabel": "Related Rates",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": false,
-    "format": "text",
-    "question": "A 10-foot ladder leans against a vertical wall. The base of the ladder slides away from the wall at a constant rate of 2 ft/sec. Let θ be the angle the ladder makes with the wall. At the instant when the base of the ladder is 6 feet from the wall, what is the rate of change of θ with respect to time?",
-    "choices": [
-      "A) 1/4 rad/sec",
-      "B) 1/3 rad/sec",
-      "C) 3/16 rad/sec",
-      "D) 1/5 rad/sec"
-    ],
-    "answer": 0,
-    "explanation": "Let x be the distance from the base of the ladder to the wall, so sin(θ) = x/10. Differentiating both sides with respect to time: cos(θ)(dθ/dt) = (1/10)(dx/dt). When x = 6, the ladder length is 10, so the height up the wall is sqrt(1$0^2$ - $6^2$) = 8, giving cos(θ) = 8/10 = 4/5. Substituting dx/dt = 2: (4/5)(dθ/dt) = (1/10)(2) = 1/5. Solving: dθ/dt = (1/5)/(4/5) = 1/4 rad/sec. Choice A (1/4) is correct. Choice B (1/3) results from a student who uses cos(θ) = 6/10 = 3/5 (confusing the adjacent side with the opposite side relative to θ), giving (3/5)(dθ/dt) = 1/5, so dθ/dt = 1/3 rad/sec. Choice C (3/16) results from correctly writing (4/5)(dθ/dt) = 1/5 but then erroneously multiplying both sides by 3/4 instead of dividing, yielding dθ/dt = (1/5)(3/4) = 3/20 — or alternatively, from using cos(θ) = 4/5 correctly but mistakenly computing dx/dt contribution as (1/10)(2) = 1/5 and then multiplying: dθ/dt = (4/5)(1/5)·(3/4) = 3/16 through a garbled chain of algebraic steps. Choice D (1/5) results from forgetting to divide by cos(θ) entirely and simply setting dθ/dt = (1/10)(dx/dt) = (1/10)(2) = 1/5."
   },
   {
     "id": "calcbc_u4_q380",
@@ -7404,26 +6984,6 @@ window.APCALCBC_MCQ = [
     "explanation": "Net displacement = ∫₀⁴ ($t^2$ − 4t + 3) dt = [$t^3$/3 − 2$t^2$ + 3t]₀⁴ = (64/3 − 32 + 12) − 0 = 64/3 − 20 = 64/3 − 60/3 = 4/3. Choice A (−4/3) results from a sign error when evaluating the antiderivative at t = 4, such as incorrectly computing −2($4^2$) as +32 instead of −32. Choice C (10/3) comes from computing total distance traveled by integrating |v(t)| rather than v(t); the particle changes direction at t = 1 and t = 3, so total distance = ∫₀¹($t^2$−4t+3)dt − ∫₁³($t^2$−4t+3)dt + ∫₃⁴($t^2$−4t+3)dt = 4/3 + 4/3 + 4/3 wait — the total distance is 4/3 + 4/3 +  but integrating |v(t)| yields a value larger than 4/3, which students sometimes confuse with displacement. Choice D (0) reflects the incorrect reasoning that because the particle changes direction twice and returns partway, the net displacement must be zero."
   },
   {
-    "id": "calcbc_u6_q399",
-    "subject": "apcalcbc",
-    "unit": 6,
-    "topic": "Improper Integrals and Partial Fractions",
-    "topicLabel": "Improper Integrals and Partial Fractions",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Evaluate the improper integral \\(\\int_{1}^{\\infty} \\frac{1}{x(x+1)}\\,dx\\).",
-    "choices": [
-      "A) \\(\\ln 2\\)",
-      "B) \\(0\\)",
-      "C) \\(\\ln\\frac{1}{2}\\)",
-      "D) Diverges"
-    ],
-    "answer": 0,
-    "explanation": "Use partial fractions: \\(\\frac{1}{x(x+1)} = \\frac{1}{x} - \\frac{1}{x+1}\\). Then \\(\\int_{1}^{\\infty}\\left(\\frac{1}{x}-\\frac{1}{x+1}\\right)dx = \\lim_{b\\to\\infty}\\left[\\ln x - \\ln(x+1)\\right]_{1}^{b} = \\lim_{b\\to\\infty}\\left[\\ln\\frac{x}{x+1}\\right]_{1}^{b}\\). As \\(b\\to\\infty\\), \\(\\ln\\frac{b}{b+1}\\to\\ln 1 = 0\\), and evaluating at \\(x=1\\) gives \\(\\ln\\frac{1}{2}\\). So the integral equals \\(0 - \\ln\\frac{1}{2} = \\ln 2\\). Correct answer: A.\n\nWhy B) 0 is wrong: A student might correctly find that the upper-limit evaluation gives \\(\\ln 1 = 0\\) as \\(b\\to\\infty\\), but then forget to subtract the lower-bound evaluation at \\(x=1\\), recording just \\(0\\) as the final answer.\n\nWhy C) \\(\\ln\\frac{1}{2}\\) is wrong: A student might correctly evaluate \\(\\left[\\ln\\frac{x}{x+1}\\right]_{1}^{\\infty}\\) at the lower bound to get \\(\\ln\\frac{1}{2}\\) and at the upper limit to get \\(0\\), but then subtract in the wrong order, computing \\(\\ln\\frac{1}{2} - 0 = \\ln\\frac{1}{2}\\) instead of \\(0 - \\ln\\frac{1}{2} = \\ln 2\\).\n\nWhy D) Diverges is wrong: A student might note that \\(\\int \\frac{1}{x}\\,dx\\) diverges on \\([1,\\infty)\\) and incorrectly conclude the combined integral also diverges, failing to recognize that the telescoping combination \\(\\frac{1}{x}-\\frac{1}{x+1}\\) decays like \\(\\frac{1}{x^2}\\) and converges."
-  },
-  {
     "id": "calcbc_u6_q400",
     "subject": "apcalcbc",
     "unit": 6,
@@ -7542,26 +7102,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Factor the denominator: \\(x^2 - x - 2 = (x-2)(x+1)\\). Use partial fractions: \\(\\frac{3}{(x-2)(x+1)} = \\frac{A}{x-2} + \\frac{B}{x+1}\\). Multiplying both sides by \\((x-2)(x+1)\\) gives \\(3 = A(x+1) + B(x-2)\\). Substituting \\(x=2\\): \\(3 = 3A \\Rightarrow A = 1\\). Substituting \\(x=-1\\): \\(3 = -3B \\Rightarrow B = -1\\). So the integral becomes \\(\\int\\left(\\frac{1}{x-2} - \\frac{1}{x+1}\\right)dx = \\ln|x-2| - \\ln|x+1| + C\\), which is Choice A. Choice B results from swapping the signs of A and B — a common sign error when setting up or solving the partial fraction system. Choice C reflects a student incorrectly treating the integrand as having the form \\(\\frac{f'(x)}{f(x)}\\) (i.e., using the \\(\\ln|f(x)|\\) shortcut), but the numerator 3 is not the derivative of \\(x^2-x-2\\) (which is \\(2x-1\\)); keeping the factor of 3 and dividing by 2 (the leading coefficient of the derivative) gives the plausible but incorrect \\(\\frac{3}{2}\\ln|x^2-x-2| + C\\). Choice D represents a student who similarly misapplies the \\(f'/f\\) technique but also loses the coefficient entirely, producing \\(\\ln|x^2-x-2| + C\\)."
-  },
-  {
-    "id": "calcbc_u7_q406",
-    "subject": "apcalcbc",
-    "unit": 7,
-    "topic": "Integration of Rational Functions",
-    "topicLabel": "Integration of Rational Functions",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "What is \\(\\int \\frac{x^2+1}{x-1}\\, dx\\)?",
-    "choices": [
-      "A) \\(\\dfrac{x^2}{2} + x + 2\\ln|x-1| + C\\)",
-      "B) \\(\\dfrac{x^2}{2} - x + 2\\ln|x-1| + C\\)",
-      "C) \\(\\dfrac{x^2}{2} + x + \\ln|x-1| + C\\)",
-      "D) \\(\\ln|x-1| + C\\)"
-    ],
-    "answer": 0,
-    "explanation": "To integrate \\(\\frac{x^2+1}{x-1}\\), first perform polynomial long division. Dividing \\(x^2+1\\) by \\(x-1\\): \\(x^2+1 = (x-1)(x+1) + 2\\), so \\(\\frac{x^2+1}{x-1} = x + 1 + \\frac{2}{x-1}\\). Integrating term by term: \\(\\int\\left(x + 1 + \\frac{2}{x-1}\\right)dx = \\frac{x^2}{2} + x + 2\\ln|x-1| + C\\). This matches Choice A.\n\nChoice B, \\(\\frac{x^2}{2} - x + 2\\ln|x-1| + C\\), results from a sign error during long division — a student might incorrectly write \\(x - 1\\) instead of \\(x + 1\\) as the quotient, giving \\(x - 1 + \\frac{2}{x-1}\\) and then integrating to get \\(\\frac{x^2}{2} - x + 2\\ln|x-1| + C\\).\n\nChoice C, \\(\\frac{x^2}{2} + x + \\ln|x-1| + C\\), results from correctly performing long division to get \\(x + 1 + \\frac{2}{x-1}\\) but forgetting to carry the factor of 2 when integrating \\(\\frac{2}{x-1}\\), writing \\(\\ln|x-1|\\) instead of \\(2\\ln|x-1|\\).\n\nChoice D, \\(\\ln|x-1| + C\\), results from a student incorrectly treating the entire numerator as a constant and only integrating the denominator, ignoring the polynomial part entirely."
   },
   {
     "id": "calcbc_u7_q407",
@@ -7864,26 +7404,6 @@ window.APCALCBC_MCQ = [
     "explanation": "The arc length formula for a parametric curve is L = ∫ₐᵇ √((dx/dt)² + (dy/dt)²) dt. Here dx/dt = 2t and dy/dt = $t^2$ - 1. So the integrand becomes √((2t)² + ($t^2$-1)²) = √(4$t^2$ + $t^4$ - 2$t^2$ + 1) = √($t^4$ + 2$t^2$ + 1) = √(($t^2$+1)²) = $t^2$+1 (since $t^2$+1 > 0 on [0,2]). Therefore L = ∫₀² ($t^2$+1) dt, which is Choice B. Choice A uses ($t^2$+1)² instead of ($t^2$-1)² in the unsimplified form — this is a sign error in computing dy/dt, mistakenly writing dy/dt = $t^2$+1 instead of $t^2$-1; the resulting expression does not simplify to a clean polynomial. Choice C uses ($t^2$-1), which would be negative on [0,1) and does not correctly simplify the arc length integrand; it reflects a student who forgot to take the square root or made an algebra error during simplification. Choice D incorrectly uses the sum without squaring the derivatives, a common setup error where students omit the squares inside the radical."
   },
   {
-    "id": "calcbc_u8_q422",
-    "subject": "apcalcbc",
-    "unit": 8,
-    "topic": "Volumes with Washer Method",
-    "topicLabel": "Volumes with Washer Method",
-    "difficulty": "medium",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "The region bounded by $y = \\sqrt{x}$ and $y = x^2$ is rotated about the line $y = 2$. Which of the following integrals gives the volume of the resulting solid?",
-    "choices": [
-      "A) $\\pi \\int_0^1 \\left[(2 - x^2)^2 - (2 - \\sqrt{x})^2\\right] dx$",
-      "B) $\\pi \\int_0^1 \\left[(2 - \\sqrt{x})^2 - (2 - x^2)^2\\right] dx$",
-      "C) $2\\pi \\int_0^1 (2 - y)(\\sqrt{y} - y^2)\\, dy$",
-      "D) $\\pi \\int_0^1 \\left[(\\sqrt{x})^2 - (x^2)^2\\right] dx$"
-    ],
-    "answer": 0,
-    "explanation": "When rotating about the horizontal axis $y = 2$ using the washer method, the outer radius is the distance from $y = 2$ to the curve that is farther away, and the inner radius is the distance to the curve that is closer. On $[0, 1]$, we have $\\sqrt{x} \\geq x^2$, so $\\sqrt{x}$ is closer to $y = 2$ and $x^2$ is farther from $y = 2$. Thus the outer radius is $R = 2 - x^2$ and the inner radius is $r = 2 - \\sqrt{x}$. The volume is $\\pi \\int_0^1 \\left[(2 - x^2)^2 - (2 - \\sqrt{x})^2\\right] dx$, which is choice A. Choice B incorrectly subtracts in the wrong order (outer and inner radii are swapped), giving a negative integrand on $[0,1]$. Choice C uses the shell method formula integrated with respect to $y$, but sets it up with incorrect shell height and radius assignments — it does not equal the correct volume. Choice D ignores the axis of rotation entirely, computing a washer integral as if rotating about $y = 0$ rather than $y = 2$."
-  },
-  {
     "id": "calcbc_u8_q423",
     "subject": "apcalcbc",
     "unit": 8,
@@ -8122,26 +7642,6 @@ window.APCALCBC_MCQ = [
     ],
     "answer": 0,
     "explanation": "To find $d^2$y/d$x^2$ for parametric equations, use the formula $d^2$y/d$x^2$ = (d/dt[dy/dx]) / (dx/dt).\n\nStep 1: Find dy/dx.\ndx/dt = 2t, dy/dt = 3$t^2$\ndy/dx = (dy/dt)/(dx/dt) = 3$t^2$/(2t) = 3t/2\n\nStep 2: Differentiate dy/dx with respect to t.\nd/dt[3t/2] = 3/2\n\nStep 3: Divide by dx/dt.\n$d^2$y/d$x^2$ = (3/2) / (2t) = 3/(4t)\n\nStep 4: Evaluate at t = 2.\n$d^2$y/d$x^2$ = 3/(4·2) = 3/8\n\nThe correct answer is A) 3/8.\n\nWhy the distractors are wrong:\n- B) 3/4: This is the value of dy/dx at t = 1/2, or equivalently $d^2$y/d$x^2$ evaluated at t = 1. A student may have forgotten to substitute t = 2 and used t = 1 instead.\n- C) 3/2: This is d/dt[dy/dx] = 3/2 without dividing by dx/dt. A student who stops after differentiating dy/dx and forgets to divide by dx/dt would get this answer.\n- D) 3/16: This results from dividing 3/2 by (2t)² = 16 instead of 2t = 4, incorrectly squaring the denominator."
-  },
-  {
-    "id": "calcbc_u9_q436",
-    "subject": "apcalcbc",
-    "unit": 9,
-    "topic": "Euler's Method",
-    "topicLabel": "Euler's Method",
-    "difficulty": "easy",
-    "calculator": false,
-    "isLatex": true,
-    "format": "text",
-    "question": "Consider the differential equation dy/dx = x - y. Using Euler's method with a step size of h = 1, starting at the initial condition y(0) = 2, what is the approximation for y(2)?",
-    "choices": [
-      "A) 1",
-      "B) 0",
-      "C) 2",
-      "D) 3"
-    ],
-    "answer": 0,
-    "explanation": "Using Euler's method: y_{n+1} = y_n + h * f(x_n, y_n), where f(x, y) = x - y and h = 1.\n\nStep 1: Start at (x_0, y_0) = (0, 2).\nCompute slope: f(0, 2) = 0 - 2 = -2.\nUpdate: y_1 = 2 + 1*(-2) = 0.\nNew point: (x_1, y_1) = (1, 0).\n\nStep 2: At (x_1, y_1) = (1, 0).\nCompute slope: f(1, 0) = 1 - 0 = 1.\nUpdate: y_2 = 0 + 1*(1) = 1.\nNew point: (x_2, y_2) = (2, 1).\n\nTherefore, the Euler's method approximation gives y(2) ≈ 1, which is choice A.\n\nWhy the other choices are wrong:\n- B) 0: This is the value of y_1 (the approximation at x = 1), not at x = 2. A common error is stopping one step too early.\n- C) 2: This is the initial value y(0) = 2. A student might mistakenly return the starting value without performing any iterations.\n- D) 3: This might result from incorrectly adding the slope instead of applying it correctly, such as computing 0 + 1 + 2 = 3 by summing slopes rather than updating y properly."
   },
   {
     "id": "calcbc_u9_q437",
