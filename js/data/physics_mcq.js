@@ -14,7 +14,7 @@ window.PHYSICS_MCQ = [
       "$20\\\\,\\\\text{m/s}$"
     ],
     "answer": 1,
-    "explanation": "Using $v = v_0 + at$ with $v_0 = 0$: $$v = 0 + (2)(5) = 10\\\\,\\\\text{m/s}$$"
+    "explanation": "Using $v = v_0 + at$ with $v_0=0$: $v=(2)(5)=10\\\\,\\\\text{m/s}$. The key is that acceleration times time gives velocity change. A common error is computing $\\\\frac{1}{2}at^2=25\\\\,\\\\text{m}$, which gives displacement, not velocity."
   },
   {
     "id": "aphy1_u1_q2",
@@ -31,7 +31,7 @@ window.PHYSICS_MCQ = [
       "$80\\\\,\\\\text{m}$"
     ],
     "answer": 1,
-    "explanation": "For constant velocity: $x = vt = (4)(10) = 40\\\\,\\\\text{m}$."
+    "explanation": "For constant velocity, displacement equals $x=vt=(4)(10)=40\\\\,\\\\text{m}$. Constant velocity means zero acceleration, so only $x=vt$ applies. A common error is using $x=\\\\frac{1}{2}vt=20\\\\,\\\\text{m}$, which applies only to uniformly accelerating objects starting from rest."
   },
   {
     "id": "aphy1_u1_q3",
@@ -184,7 +184,7 @@ window.PHYSICS_MCQ = [
       "$3\\\\,\\\\text{m}$"
     ],
     "answer": 0,
-    "explanation": "Using $x = \\\\frac{1}{2}(v_0 + v)t = \\\\frac{1}{2}(0 + 18)(6) = 54\\\\,\\\\text{m}$."
+    "explanation": "Using the average-velocity shortcut: $x=\\\\frac{1}{2}(v_0+v)t=\\\\frac{1}{2}(0+18)(6)=54\\\\,\\\\text{m}$. Many students pick 108 m by forgetting to divide by 2 (using $vt$ instead of average velocity times time for uniform acceleration)."
   },
   {
     "id": "U1-MCQ-04",
@@ -201,7 +201,7 @@ window.PHYSICS_MCQ = [
       "It falls 27 times as far."
     ],
     "answer": 2,
-    "explanation": "Distance fallen from rest: $x \\\\propto t^2$. Ratio $= (3)^2/(1)^2 = 9$. So it falls 9 times as far."
+    "explanation": "Freefall distance from rest is $x=\\\\frac{1}{2}gt^2$, so distance is proportional to $t^2$. The ratio of distances for $t=3\\\\,\\\\text{s}$ vs $t=1\\\\,\\\\text{s}$ is $(3)^2/(1)^2=9$. Students often choose 3 (ratio of times), forgetting the quadratic dependence on time."
   },
   {
     "id": "U1-MCQ-05",
@@ -289,7 +289,7 @@ window.PHYSICS_MCQ = [
       "Cannot be determined without knowing $h$"
     ],
     "answer": 0,
-    "explanation": "Time to fall: $t = \\\\sqrt{\\\\frac{2h}{g}}$. Larger $g$ gives shorter fall time. So $t_1 < t_2$."
+    "explanation": "Fall time from rest is $t=\\\\sqrt{2h/g}$. A larger $g$ produces a shorter fall time, so planet 1 (with $g_1=10$) has $t_1<t_2$ (planet 2 has $g_2=4$). Confusing larger $g$ with longer time is the most common error."
   },
   {
     "id": "aphy1_u2_q1",
@@ -306,7 +306,7 @@ window.PHYSICS_MCQ = [
       "$30\\\\,\\\\text{m/s}^2$"
     ],
     "answer": 1,
-    "explanation": "Using Newton's Second Law: $a = \\\\frac{F_{net}}{m} = \\\\frac{24}{6} = 4\\\\,\\\\text{m/s}^2$."
+    "explanation": "Newton's Second Law: $a=F_{net}/m=24/6=4\\\\,\\\\text{m/s}^2$. The key is that acceleration is directly proportional to net force and inversely proportional to mass. A common mistake is dividing mass by force ($6/24$) or multiplying them."
   },
   {
     "id": "aphy1_u2_q2",
@@ -393,7 +393,7 @@ window.PHYSICS_MCQ = [
       "$20000\\\\,\\\\text{N}$"
     ],
     "answer": 2,
-    "explanation": "Applying Newton's Second Law: $T - mg = ma$. $$T = m(g + a) = 1000(10 + 2) = 12000\\\\,\\\\text{N}$$",
+    "explanation": "For an elevator accelerating upward, both gravity and inertia must be overcome: $T=m(g+a)=1000(10+2)=12000\\\\,\\\\text{N}$. Students often choose 10000 N (just $mg$), forgetting that upward acceleration requires extra tension above the weight.",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='100' y1='38' x2='210' y2='38' stroke-width='2' class='svg-axis'/><line x1='108' y1='38' x2='100' y2='30' stroke-width='2' class='svg-axis'/><line x1='122' y1='38' x2='114' y2='30' stroke-width='2' class='svg-axis'/><line x1='136' y1='38' x2='128' y2='30' stroke-width='2' class='svg-axis'/><line x1='150' y1='38' x2='142' y2='30' stroke-width='2' class='svg-axis'/><line x1='164' y1='38' x2='156' y2='30' stroke-width='2' class='svg-axis'/><line x1='178' y1='38' x2='170' y2='30' stroke-width='2' class='svg-axis'/><line x1='192' y1='38' x2='184' y2='30' stroke-width='2' class='svg-axis'/><line x1='155' y1='38' x2='155' y2='96' stroke-width='2' class='svg-axis'/><rect x='130' y='107' width='50' height='36' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='130' text-anchor='middle' font-size='11' class='svg-label'>1000 kg</text><line x1='155' y1='125' x2='155.0' y2='57.0' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='155,47 160.0,57.0 150.0,57.0' fill='#16a34a' stroke='none'/><text x='155' y='33' text-anchor='middle' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T</text><line x1='155' y1='125' x2='155.0' y2='180.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,190 150.0,180.0 160.0,180.0' fill='#dc2626' stroke='none'/><text x='155' y='204' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='155' y1='222' x2='155.0' y2='208.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='155,198 160.0,208.0 150.0,208.0' fill='#8b5cf6' stroke='none'/><text x='162' y='214' text-anchor='start' fill='#8b5cf6' font-size='12' font-weight='600' class='svg-label'>a</text></svg>"
   },
   {
@@ -446,7 +446,7 @@ window.PHYSICS_MCQ = [
       "$26\\\\,\\\\text{N}$"
     ],
     "answer": 1,
-    "explanation": "When accelerating downward: $T = m(g - a) = 2(10 - 3) = 14\\\\,\\\\text{N}$.",
+    "explanation": "When the elevator accelerates downward, the net downward force is reduced: $T=m(g-a)=2(10-3)=14\\\\,\\\\text{N}$. Students often add accelerations ($g+a$) giving 26 N, but downward acceleration reduces apparent weight by partially providing the gravitational acceleration.",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='100' y1='38' x2='210' y2='38' stroke-width='2' class='svg-axis'/><line x1='108' y1='38' x2='100' y2='30' stroke-width='2' class='svg-axis'/><line x1='122' y1='38' x2='114' y2='30' stroke-width='2' class='svg-axis'/><line x1='136' y1='38' x2='128' y2='30' stroke-width='2' class='svg-axis'/><line x1='150' y1='38' x2='142' y2='30' stroke-width='2' class='svg-axis'/><line x1='164' y1='38' x2='156' y2='30' stroke-width='2' class='svg-axis'/><line x1='178' y1='38' x2='170' y2='30' stroke-width='2' class='svg-axis'/><line x1='192' y1='38' x2='184' y2='30' stroke-width='2' class='svg-axis'/><line x1='155' y1='38' x2='155' y2='96' stroke-width='2' class='svg-axis'/><rect x='132' y='106' width='46' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='127' text-anchor='middle' font-size='11' class='svg-label'>2 kg</text><line x1='155' y1='122' x2='155.0' y2='86.5' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='155,76.5 160.0,86.5 150.0,86.5' fill='#16a34a' stroke='none'/><text x='155' y='63' text-anchor='middle' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T</text><line x1='155' y1='122' x2='155.0' y2='177.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,187 150.0,177.0 160.0,177.0' fill='#dc2626' stroke='none'/><text x='155' y='201' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text></svg>"
   },
   {
@@ -549,7 +549,7 @@ window.PHYSICS_MCQ = [
       "$100\\\\,\\\\text{N}$"
     ],
     "answer": 0,
-    "explanation": "Net force $= (M_2 - M_1)g = (7 - 3)(10) = 40\\\\,\\\\text{N}$.",
+    "explanation": "In an Atwood machine, the net unbalanced force equals the weight difference: $F_{net}=(M_2-M_1)g=(7-3)(10)=40\\\\,\\\\text{N}$. The common error is using the total weight (100 N); only the weight difference drives the system since equal portions cancel.",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='150' y1='22' x2='160' y2='22' stroke-width='3' class='svg-axis'/><line x1='137' y1='22' x2='131' y2='14' stroke-width='1' class='svg-axis'/><line x1='146' y1='22' x2='140' y2='14' stroke-width='1' class='svg-axis'/><line x1='155' y1='22' x2='149' y2='14' stroke-width='1' class='svg-axis'/><line x1='164' y1='22' x2='158' y2='14' stroke-width='1' class='svg-axis'/><line x1='173' y1='22' x2='167' y2='14' stroke-width='1' class='svg-axis'/><line x1='137' y1='22' x2='173' y2='22' stroke-width='2' class='svg-axis'/><line x1='155' y1='22' x2='155' y2='33' stroke-width='2' class='svg-axis'/><circle cx='155' cy='55' r='22' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='55' r='5' fill='#94a3b8'/><line x1='137' y1='59' x2='137' y2='126' stroke-width='2' class='svg-axis'/><line x1='173' y1='59' x2='173' y2='161' stroke-width='2' class='svg-axis'/><text x='129' y='93' text-anchor='end' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T</text><text x='181' y='110' text-anchor='start' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T</text><rect x='120' y='126' width='34' height='28' fill='none' stroke-width='2' class='svg-axis'/><text x='137' y='145' text-anchor='middle' font-size='11' class='svg-label'>M₁ 3 kg</text><rect x='156' y='161' width='34' height='28' fill='none' stroke-width='2' class='svg-axis'/><text x='173' y='180' text-anchor='middle' font-size='11' class='svg-label'>M₂ 7 kg</text><line x1='173' y1='194' x2='173.0' y2='207.0' stroke='#8b5cf6' stroke-width='2' fill='none'/><polygon points='173,217 168.0,207.0 178.0,207.0' fill='#8b5cf6' stroke='none'/><text x='179' y='211' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a</text><line x1='137' y1='121' x2='137.0' y2='108.0' stroke='#8b5cf6' stroke-width='2' fill='none'/><polygon points='137,98 142.0,108.0 132.0,108.0' fill='#8b5cf6' stroke='none'/><text x='143' y='112' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a</text></svg>"
   },
   {
@@ -603,7 +603,7 @@ window.PHYSICS_MCQ = [
       "$200\\\\,\\\\text{J}$"
     ],
     "answer": 2,
-    "explanation": "Work done by a force parallel to displacement: $W = Fd = (20)(5) = 100\\\\,\\\\text{J}$."
+    "explanation": "Work done by a force parallel to displacement: $W=Fd=(20)(5)=100\\\\,\\\\text{J}$. Work requires force AND displacement in the same direction. A common mistake is dividing ($F/d=4\\\\,\\\\text{J}$); work is the product, not quotient, of force and displacement."
   },
   {
     "id": "aphy1_u3_q2",
@@ -620,7 +620,7 @@ window.PHYSICS_MCQ = [
       "$400\\\\,\\\\text{J}$"
     ],
     "answer": 1,
-    "explanation": "$W = Fd\\\\cos\\\\theta = (50)(8)\\\\cos 60^\\\\circ = 400(0.5) = 200\\\\,\\\\text{J}$.",
+    "explanation": "Only the horizontal component of force does work along horizontal displacement: $W=Fd\\\\cos\\\\theta=(50)(8)\\\\cos60°=200\\\\,\\\\text{J}$. Students often use $Fd=400\\\\,\\\\text{J}$ (ignoring the angle) or use $\\\\sin$ instead of $\\\\cos$ for the parallel component.",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='60' y1='148' x2='250' y2='148' stroke-width='2' class='svg-axis'/><line x1='66' y1='148' x2='58' y2='156' stroke-width='1' class='svg-axis'/><line x1='80' y1='148' x2='72' y2='156' stroke-width='1' class='svg-axis'/><line x1='94' y1='148' x2='86' y2='156' stroke-width='1' class='svg-axis'/><line x1='108' y1='148' x2='100' y2='156' stroke-width='1' class='svg-axis'/><line x1='122' y1='148' x2='114' y2='156' stroke-width='1' class='svg-axis'/><line x1='136' y1='148' x2='128' y2='156' stroke-width='1' class='svg-axis'/><line x1='150' y1='148' x2='142' y2='156' stroke-width='1' class='svg-axis'/><line x1='164' y1='148' x2='156' y2='156' stroke-width='1' class='svg-axis'/><line x1='178' y1='148' x2='170' y2='156' stroke-width='1' class='svg-axis'/><line x1='192' y1='148' x2='184' y2='156' stroke-width='1' class='svg-axis'/><line x1='206' y1='148' x2='198' y2='156' stroke-width='1' class='svg-axis'/><line x1='220' y1='148' x2='212' y2='156' stroke-width='1' class='svg-axis'/><line x1='234' y1='148' x2='226' y2='156' stroke-width='1' class='svg-axis'/><rect x='139' y='102' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><line x1='155' y1='118' x2='155.0' y2='173.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,183 150.0,173.0 160.0,173.0' fill='#dc2626' stroke='none'/><text x='155' y='197' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='155' y1='118' x2='155.0' y2='63.0' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='155,53 160.0,63.0 150.0,63.0' fill='#3b82f6' stroke='none'/><text x='155' y='39' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text><line x1='155' y1='118' x2='176.0' y2='81.6' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='181,72.9666790032092 180.3,84.1 171.7,79.1' fill='#8b5cf6' stroke='none'/><text x='188' y='61' text-anchor='start' fill='#8b5cf6' font-size='12' font-weight='600' class='svg-label'>F</text><line x1='155' y1='118' x2='135.0' y2='118.0' stroke='#f97316' stroke-width='2.5' fill='none'/><polygon points='125,118 135.0,113.0 135.0,123.0' fill='#f97316' stroke='none'/><text x='111' y='118' text-anchor='end' fill='#f97316' font-size='12' font-weight='600' class='svg-label'>f</text></svg>"
   },
   {
@@ -638,7 +638,7 @@ window.PHYSICS_MCQ = [
       "$36\\\\,\\\\text{J}$"
     ],
     "answer": 2,
-    "explanation": "$KE = \\\\frac{1}{2}mv^2 = \\\\frac{1}{2}(4)(3)^2 = \\\\frac{1}{2}(4)(9) = 18\\\\,\\\\text{J}$."
+    "explanation": "Kinetic energy is $KE=\\\\frac{1}{2}mv^2=\\\\frac{1}{2}(4)(9)=18\\\\,\\\\text{J}$. The $v^2$ term is crucial — doubling speed quadruples KE. Students often forget the factor of $\\\\frac{1}{2}$ (getting 36 J) or fail to square the velocity (getting 12 J)."
   },
   {
     "id": "aphy1_u3_q4",
@@ -672,7 +672,7 @@ window.PHYSICS_MCQ = [
       "$1800\\\\,\\\\text{W}$"
     ],
     "answer": 1,
-    "explanation": "$P = \\\\frac{W}{t} = \\\\frac{600}{3} = 200\\\\,\\\\text{W}$."
+    "explanation": "Power is the rate of doing work: $P=W/t=600/3=200\\\\,\\\\text{W}$. Power measures energy transferred per unit time. A common error is multiplying ($W\\\\times t=1800\\\\,\\\\text{J}$), which gives energy, not power."
   },
   {
     "id": "aphy1_u3_q6",
@@ -740,7 +740,7 @@ window.PHYSICS_MCQ = [
       "$10000\\\\,\\\\text{W}$"
     ],
     "answer": 3,
-    "explanation": "$P = Fv = (500)(20) = 10000\\\\,\\\\text{W}$."
+    "explanation": "Power equals force times velocity: $P=Fv=(500)(20)=10000\\\\,\\\\text{W}$. At constant speed, the engine force equals resistance forces. Students often divide ($F/v=25\\\\,\\\\text{W}$) instead of multiplying force and velocity to find power."
   },
   {
     "id": "aphy1_u3_q10",
@@ -859,7 +859,7 @@ window.PHYSICS_MCQ = [
       "$1.33\\\\,\\\\text{kg}\\\\cdot\\\\text{m/s}$"
     ],
     "answer": 1,
-    "explanation": "$p = mv = (3)(4) = 12\\\\,\\\\text{kg}\\\\cdot\\\\text{m/s}$."
+    "explanation": "Momentum is $p=mv=(3)(4)=12\\\\,\\\\text{kg}\\\\cdot\\\\text{m/s}$. Momentum is a vector quantity — it has direction. A common mistake is adding mass and velocity ($3+4=7$) or dividing ($m/v=0.75$), neither of which gives momentum."
   },
   {
     "id": "aphy1_u5_q2",
@@ -995,7 +995,7 @@ window.PHYSICS_MCQ = [
       "$4\\\\,\\\\text{Hz}$"
     ],
     "answer": 1,
-    "explanation": "$f = \\\\frac{1}{T} = \\\\frac{1}{4} = 0.25\\\\,\\\\text{Hz}$."
+    "explanation": "Frequency and period are reciprocals: $f=1/T=1/4=0.25\\\\,\\\\text{Hz}$. The amplitude (0.2 m) is irrelevant to frequency in SHM — period depends only on mass and spring constant, not amplitude. Students sometimes divide amplitude by period instead."
   },
   {
     "id": "aphy1_u6_q2",
@@ -1047,7 +1047,7 @@ window.PHYSICS_MCQ = [
       "$2\\\\pi\\\\,\\\\text{s}$"
     ],
     "answer": 1,
-    "explanation": "$T = 2\\\\pi\\\\sqrt{\\\\frac{L}{g}} = 2\\\\pi\\\\sqrt{\\\\frac{1}{10}} = 2\\\\pi(0.316) \\\\approx 2\\\\,\\\\text{s}$."
+    "explanation": "Pendulum period: $T=2\\\\pi\\\\sqrt{L/g}=2\\\\pi\\\\sqrt{1/10}=2\\\\pi(0.316)\\\\approx2\\\\,\\\\text{s}$. Note $2\\\\pi/\\\\sqrt{10}\\\\approx2$, not exactly 2. Students often confuse this with a spring-mass system or forget the $2\\\\pi$ factor."
   },
   {
     "id": "aphy1_u6_q5",
@@ -1081,7 +1081,7 @@ window.PHYSICS_MCQ = [
       "$33.3\\\\,\\\\text{N}\\\\cdot\\\\text{m}$"
     ],
     "answer": 1,
-    "explanation": "$\\\\tau = rF\\\\sin\\\\theta = (0.3)(10)\\\\sin 90^\\\\circ = 3\\\\,\\\\text{N}\\\\cdot\\\\text{m}$."
+    "explanation": "Torque is $\\\\tau=rF\\\\sin\\\\theta$; perpendicular force means $\\\\theta=90°$: $\\\\tau=(0.3)(10)(1)=3\\\\,\\\\text{N\\\\cdot m}$. Torque is maximized when force is perpendicular to the lever arm. Students sometimes divide ($F/r$) or confuse the moment arm direction."
   },
   {
     "id": "aphy1_u7_q2",
@@ -1184,7 +1184,7 @@ window.PHYSICS_MCQ = [
       "$48\\\\,\\\\text{A}$"
     ],
     "answer": 1,
-    "explanation": "Using Ohm's Law: $I = \\\\frac{V}{R} = \\\\frac{12}{4} = 3\\\\,\\\\text{A}$.",
+    "explanation": "Ohm's Law: $I=V/R=12/4=3\\\\,\\\\text{A}$. Current equals voltage divided by resistance. A common error is multiplying ($V\\\\times R=48\\\\,\\\\text{A}$) or inverting ($R/V=0.33\\\\,\\\\text{A}$) rather than applying $I=V/R$.",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='75' y1='55' x2='250' y2='55' stroke-width='2' class='svg-axis'/><line x1='250' y1='55' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='205' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='55' x2='75' y2='90' stroke-width='2' class='svg-axis'/><line x1='75' y1='170' x2='75' y2='205' stroke-width='2' class='svg-axis'/><line x1='65' y1='122' x2='85' y2='122' stroke-width='3' class='svg-axis'/><line x1='69' y1='134' x2='81' y2='134' stroke-width='2' class='svg-axis'/><text x='89' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='89' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='61' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>12 V</text><rect x='141' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='163' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R</text><text x='163' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>4 Ω</text></svg>"
   },
   {
@@ -1220,7 +1220,7 @@ window.PHYSICS_MCQ = [
       "$100\\\\,\\\\text{W}$"
     ],
     "answer": 2,
-    "explanation": "$P = I^2 R = (2)^2(10) = 40\\\\,\\\\text{W}$."
+    "explanation": "Power dissipated in a resistor: $P=I^2R=(2)^2(10)=40\\\\,\\\\text{W}$. This form uses current and resistance directly. Students often choose $P=IV=V^2/R$ variants but make errors without the voltage. The common mistake is computing $P=IR=(2)(10)=20\\\\,\\\\text{W}$ (forgetting to square current)."
   },
   {
     "id": "aphy1_u8_q5",
@@ -1343,7 +1343,7 @@ window.PHYSICS_MCQ = [
       "$10\\\\,\\\\text{m/s}$"
     ],
     "answer": 3,
-    "explanation": "$v = f\\\\lambda = (5)(2) = 10\\\\,\\\\text{m/s}$."
+    "explanation": "Wave speed equals frequency times wavelength: $v=f\\\\lambda=(5)(2)=10\\\\,\\\\text{m/s}$. This relationship holds for all mechanical waves. A common mistake is adding ($f+\\\\lambda=7$) or confusing which quantity is which; wave speed is the product of frequency and wavelength."
   },
   {
     "id": "aphy1_u9_q2",
@@ -1703,7 +1703,7 @@ window.PHYSICS_MCQ = [
       "$6.67\\\\,\\\\text{m/s}^2$"
     ],
     "answer": 1,
-    "explanation": "$a_{cm} = \\\\frac{F_{net,ext}}{M_{total}} = \\\\frac{20}{3+7} = \\\\frac{20}{10} = 2\\\\,\\\\text{m/s}^2$."
+    "explanation": "Newton's Second Law applied to the entire system: $a_{cm}=F_{net,ext}/M_{total}=20/(3+7)=2\\\\,\\\\text{m/s}^2$. Internal forces between the objects cancel; only the net external force accelerates the center of mass. Using just one mass (e.g., 3 kg giving $6.67\\\\,\\\\text{m/s}^2$) is a common error."
   },
   {
     "id": "U4-MCQ-09",
@@ -1789,7 +1789,7 @@ window.PHYSICS_MCQ = [
       "$3\\\\,\\\\text{m/s}$"
     ],
     "answer": 1,
-    "explanation": "$v_f = \\\\frac{m_1 v_1}{m_1 + m_2} = \\\\frac{(4)(6)}{4+2} = \\\\frac{24}{6} = 4\\\\,\\\\text{m/s}$."
+    "explanation": "Conservation of momentum in a perfectly inelastic collision: $v_f=m_1v_1/(m_1+m_2)=(4)(6)/(4+2)=4\\\\,\\\\text{m/s}$. Kinetic energy is NOT conserved in inelastic collisions. Students often expect the final speed to equal the initial speed (6 m/s), ignoring that the added mass slows the combined object."
   },
   {
     "id": "U5-MCQ-04",
@@ -1982,7 +1982,7 @@ window.PHYSICS_MCQ = [
       "$\\\\pi / \\\\sqrt{10}\\\\,\\\\text{s}$"
     ],
     "answer": 0,
-    "explanation": "$T = 2\\\\pi\\\\sqrt{L/g} = 2\\\\pi\\\\sqrt{2.5/10} = 2\\\\pi\\\\sqrt{0.25} = 2\\\\pi(0.5) = \\\\pi\\\\,\\\\text{s}$.",
+    "explanation": "Substituting: $T=2\\\\pi\\\\sqrt{2.5/10}=2\\\\pi\\\\sqrt{0.25}=2\\\\pi(0.5)=\\\\pi\\\\,\\\\text{s}$. Pendulum period depends on length and gravity, not mass or amplitude. A common error is using $T=2\\\\pi\\\\sqrt{m/k}$ (for springs) instead of the pendulum formula $T=2\\\\pi\\\\sqrt{L/g}$.",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='100' y1='37' x2='210' y2='37' stroke-width='2' class='svg-axis'/><line x1='106' y1='37' x2='98' y2='45' stroke-width='2' class='svg-axis'/><line x1='120' y1='37' x2='112' y2='45' stroke-width='2' class='svg-axis'/><line x1='134' y1='37' x2='126' y2='45' stroke-width='2' class='svg-axis'/><line x1='148' y1='37' x2='140' y2='45' stroke-width='2' class='svg-axis'/><line x1='162' y1='37' x2='154' y2='45' stroke-width='2' class='svg-axis'/><line x1='176' y1='37' x2='168' y2='45' stroke-width='2' class='svg-axis'/><line x1='190' y1='37' x2='182' y2='45' stroke-width='2' class='svg-axis'/><line x1='204' y1='37' x2='196' y2='45' stroke-width='2' class='svg-axis'/><line x1='100' y1='37' x2='210' y2='37' stroke-width='2' class='svg-axis'/><circle cx='155' cy='42' r='6' fill='#94a3b8'/><line x1='155' y1='42' x2='207' y2='172' stroke-width='2' class='svg-axis'/><text x='189' y='107' text-anchor='start' font-size='11' font-weight='600' class='svg-label'>L = 2.5 m</text><circle cx='207' cy='172' r='14' fill='none' stroke-width='2' class='svg-axis'/><path d='M 155,182 A 140,140 0 0,1 207,172' stroke='#94a3b8' stroke-width='1' stroke-dasharray='5 3' fill='none'/><line x1='155' y1='42' x2='155' y2='182' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='165' y='70' text-anchor='start' font-size='12' class='svg-label'>θ</text><text x='155' y='238' text-anchor='middle' font-size='11' class='svg-label'>T = 2π√(L/g)</text></svg>"
   },
   {
@@ -2000,7 +2000,7 @@ window.PHYSICS_MCQ = [
       "$8\\\\,\\\\text{m/s}$"
     ],
     "answer": 1,
-    "explanation": "Maximum speed occurs at equilibrium: $v_{max} = A\\\\omega = (0.5)(4) = 2\\\\,\\\\text{m/s}$."
+    "explanation": "Maximum speed in SHM occurs at the equilibrium position: $v_{max}=A\\\\omega=(0.5)(4)=2\\\\,\\\\text{m/s}$. At equilibrium all energy is kinetic. Students often pick $A=0.5\\\\,\\\\text{m/s}$ (forgetting $\\\\omega$) or $A^2\\\\omega^2=4\\\\,\\\\text{m/s}$ (not taking the square root correctly)."
   },
   {
     "id": "U6-MCQ-06",
@@ -2103,7 +2103,7 @@ window.PHYSICS_MCQ = [
       "$50\\\\,\\\\text{N\\\\cdot m}$"
     ],
     "answer": 1,
-    "explanation": "$\\\\tau = rF\\\\sin\\\\theta = (0.6)(30)\\\\sin 90^\\\\circ = 18\\\\,\\\\text{N\\\\cdot m}$."
+    "explanation": "With force perpendicular to the lever arm ($\\\\sin90°=1$): $\\\\tau=rF=(0.6)(30)=18\\\\,\\\\text{N\\\\cdot m}$. Torque equals force times the perpendicular distance to the pivot. Common error: students pick 30 N·m (forgetting to multiply by $r$) or 5 N·m (dividing instead of multiplying)."
   },
   {
     "id": "U7-MCQ-02",
@@ -2206,7 +2206,7 @@ window.PHYSICS_MCQ = [
       "$60\\\\,\\\\text{N\\\\cdot m}$"
     ],
     "answer": 0,
-    "explanation": "$\\\\tau = rF\\\\sin\\\\theta = (0.8)(60)\\\\sin 30^\\\\circ = 48(0.5) = 24\\\\,\\\\text{N\\\\cdot m}$.",
+    "explanation": "Torque at an angle: $\\\\tau=rF\\\\sin\\\\theta=(0.8)(60)\\\\sin30°=(48)(0.5)=24\\\\,\\\\text{N\\\\cdot m}$. Only the force component perpendicular to the lever arm creates torque. Students often use $\\\\cos30°$ instead of $\\\\sin30°$ or ignore the angle entirely (choosing 48 N·m).",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='68' cy='160' r='10' fill='none' stroke-width='2.5' class='svg-axis'/><circle cx='68' cy='160' r='4' fill='#94a3b8'/><line x1='68' y1='160' x2='228' y2='160' stroke-width='2' class='svg-axis'/><text x='148' y='174' text-anchor='middle' font-size='10' font-weight='600' class='svg-label'>r = 0.8 m</text><line x1='228' y1='160' x2='275.3' y2='133.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='284,128 277.8,137.3 272.8,128.6' fill='#8b5cf6' stroke='none'/><text x='288' y='124' text-anchor='start' fill='#8b5cf6' font-size='10' font-weight='600' class='svg-label'>F = 60 N</text><path d='M 256,160 A 28,28 0 0,0 252,146' fill='none' stroke-width='1' class='svg-axis'/><text x='260' y='148' text-anchor='start' font-size='10' class='svg-label'>30°</text><line x1='228' y1='160' x2='228' y2='80' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='232' y='120' text-anchor='start' fill='#94a3b8' font-size='10' class='svg-label'>d⊥</text><text x='155' y='228' text-anchor='middle' font-size='11' class='svg-label'>τ = r × F × sin(θ)</text></svg>"
   },
   {
@@ -2224,7 +2224,7 @@ window.PHYSICS_MCQ = [
       "$300\\\\,\\\\text{rad/s}^2$"
     ],
     "answer": 2,
-    "explanation": "$\\\\alpha = \\\\frac{\\\\Delta\\\\omega}{\\\\Delta t} = \\\\frac{60 - 0}{5} = 12\\\\,\\\\text{rad/s}^2$."
+    "explanation": "Using the rotational kinematic analog of $a=\\\\Delta v/\\\\Delta t$: $\\\\alpha=\\\\Delta\\\\omega/\\\\Delta t=(60-0)/5=12\\\\,\\\\text{rad/s}^2$. Angular acceleration mirrors linear acceleration. The common error is choosing 10 rad/s² (misremembering or rounding) or 6 rad/s² (dividing 60 by 10)."
   },
   {
     "id": "U8-MCQ-01",
@@ -2311,7 +2311,7 @@ window.PHYSICS_MCQ = [
       "$108\\\\,\\\\text{W}$"
     ],
     "answer": 2,
-    "explanation": "$P = I^2 R = (3)^2(6) = (9)(6) = 54\\\\,\\\\text{W}$."
+    "explanation": "Power dissipated: $P=I^2R=(3)^2(6)=(9)(6)=54\\\\,\\\\text{W}$. Current squared times resistance gives power. Students often pick 18 W by computing $P=IR=3\\\\times6$ without squaring the current, which is the single most common power calculation error."
   },
   {
     "id": "U8-MCQ-08",
@@ -2363,7 +2363,7 @@ window.PHYSICS_MCQ = [
       "$120\\\\,\\\\text{C}$"
     ],
     "answer": 3,
-    "explanation": "Charge $= I \\\\times t = (4)(30) = 120\\\\,\\\\text{C}$."
+    "explanation": "Current is charge per unit time: $Q=It=(4)(30)=120\\\\,\\\\text{C}$. Current is the rate of charge flow. Students sometimes confuse current with charge (answering 4 C) or time with charge (answering 30 C), rather than multiplying them together."
   },
   {
     "id": "U9-MCQ-01",
@@ -2380,7 +2380,7 @@ window.PHYSICS_MCQ = [
       "$62.5\\\\,\\\\text{m/s}$"
     ],
     "answer": 1,
-    "explanation": "$v = f\\\\lambda = (25)(0.4) = 10\\\\,\\\\text{m/s}$."
+    "explanation": "The wave equation $v=f\\\\lambda=(25)(0.4)=10\\\\,\\\\text{m/s}$ relates all three wave properties. Wave speed is set by the medium, not the source. A common error is dividing frequency by wavelength ($25/0.4=62.5\\\\,\\\\text{m/s}$) instead of multiplying."
   },
   {
     "id": "U9-MCQ-02",
@@ -2502,7 +2502,7 @@ window.PHYSICS_MCQ = [
       "$886\\\\,\\\\text{Hz}$"
     ],
     "answer": 1,
-    "explanation": "Beat frequency $= |f_1 - f_2| = |446 - 440| = 6\\\\,\\\\text{Hz}$."
+    "explanation": "Beat frequency equals the absolute difference in frequencies: $f_{beat}=|f_1-f_2|=|446-440|=6\\\\,\\\\text{Hz}$. Beats arise from periodic constructive and destructive interference. Students sometimes halve the difference (getting 3 Hz) or confuse beat frequency with the average frequency (443 Hz)."
   },
   {
     "id": "U9-MCQ-09",
@@ -2686,7 +2686,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys_img_q9",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "7.1 Simple Harmonic Motion",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2704,7 +2704,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys_img_q10",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "7.2 Pendulums",
     "difficulty": "easy",
     "type": "MCQ",
