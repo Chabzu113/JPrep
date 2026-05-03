@@ -11818,5 +11818,948 @@ window.PHYSICS_MCQ = [
     "answer": 2,
     "explanation": "Current I = 12V/(2Ω + 4Ω) = 2A. Power to external resistor: P_ext = $I^2$R = (2)²(4) = 16W. Total battery power output: P_total = $I^2$(R + r) = (2)²(6) = 24W. Fraction = 16W/24W = 2/3. Students often use P = $I^2$r for total power (A) or confuse with voltage ratios (B).",
     "deprecated": true
+  },
+  {
+    "id": "phys1_u8_q001",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "The SI unit of pressure is:",
+    "choices": [
+      "Newton (N)",
+      "Pascal (Pa)",
+      "Joule (J)",
+      "Watt (W)"
+    ],
+    "answer": 1,
+    "explanation": "Pressure = Force/Area. 1 Pa = 1 N/m². Newtons measure force; Joules measure energy; Watts measure power."
+  },
+  {
+    "id": "phys1_u8_q002",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "A force of $F = 100\\,\\text{N}$ is applied uniformly over an area of $A = 0.5\\,\\text{m}^2$. What is the pressure?",
+    "choices": [
+      "$50\\,\\text{Pa}$",
+      "$100\\,\\text{Pa}$",
+      "$200\\,\\text{Pa}$",
+      "$500\\,\\text{Pa}$"
+    ],
+    "answer": 2,
+    "explanation": "$P = F/A = 100/0.5 = 200\\,\\text{Pa}$. Pressure is force per unit area — the same force over a smaller area gives higher pressure (e.g., a nail tip vs. a flat palm)."
+  },
+  {
+    "id": "phys1_u8_q003",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid density",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "An object has mass $m = 500\\,\\text{g}$ and volume $V = 250\\,\\text{cm}^3$. What is its density?",
+    "choices": [
+      "$0.5\\,\\text{g/cm}^3$",
+      "$1.0\\,\\text{g/cm}^3$",
+      "$2.0\\,\\text{g/cm}^3$",
+      "$4.0\\,\\text{g/cm}^3$"
+    ],
+    "answer": 2,
+    "explanation": "$\\rho = m/V = 500/250 = 2.0\\,\\text{g/cm}^3$. This is equivalent to $2000\\,\\text{kg/m}^3$, roughly twice the density of water."
+  },
+  {
+    "id": "phys1_u8_q004",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid density",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Which correctly ranks these materials by density (lowest to highest)? Water $\\approx 1000\\,\\text{kg/m}^3$.",
+    "choices": [
+      "Air, Water, Lead",
+      "Water, Air, Lead",
+      "Lead, Water, Air",
+      "Air, Lead, Water"
+    ],
+    "answer": 0,
+    "explanation": "Air $\\approx 1.2\\,\\text{kg/m}^3$, Water $= 1000\\,\\text{kg/m}^3$, Lead $\\approx 11{,}300\\,\\text{kg/m}^3$. Objects denser than water sink; objects less dense float."
+  },
+  {
+    "id": "phys1_u8_q005",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A $60\\,\\text{kg}$ person stands on one foot. The contact area is $150\\,\\text{cm}^2 = 0.015\\,\\text{m}^2$. Using $g = 10\\,\\text{m/s}^2$, what is the pressure on the floor?",
+    "choices": [
+      "$4{,}000\\,\\text{Pa}$",
+      "$10{,}000\\,\\text{Pa}$",
+      "$40{,}000\\,\\text{Pa}$",
+      "$90{,}000\\,\\text{Pa}$"
+    ],
+    "answer": 2,
+    "explanation": "$P = mg/A = (60)(10)/0.015 = 600/0.015 = 40{,}000\\,\\text{Pa}$. The same weight distributed over two feet halves the pressure to $20{,}000\\,\\text{Pa}$."
+  },
+  {
+    "id": "phys1_u8_q006",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid density",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A rectangular tank ($0.4\\,\\text{m} \\times 0.5\\,\\text{m} \\times 0.2\\,\\text{m}$) is filled with a fluid of density $\\rho = 800\\,\\text{kg/m}^3$. What is the mass of the fluid?",
+    "choices": [
+      "$16\\,\\text{kg}$",
+      "$32\\,\\text{kg}$",
+      "$40\\,\\text{kg}$",
+      "$64\\,\\text{kg}$"
+    ],
+    "answer": 1,
+    "explanation": "$V = 0.4 \\times 0.5 \\times 0.2 = 0.04\\,\\text{m}^3$. $m = \\rho V = 800 \\times 0.04 = 32\\,\\text{kg}$."
+  },
+  {
+    "id": "phys1_u8_q007",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "As you go deeper below the surface of a static fluid, the pressure:",
+    "choices": [
+      "Decreases",
+      "Stays constant",
+      "Increases linearly with depth",
+      "Increases as the square of depth"
+    ],
+    "answer": 2,
+    "explanation": "$P = P_0 + \\rho g h$ — pressure increases linearly with depth $h$. Each additional meter of water adds $\\rho g \\approx 9{,}800\\,\\text{Pa}$ of pressure."
+  },
+  {
+    "id": "phys1_u8_q008",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Three connected containers of different shapes are filled with water to the same height. The pressure at the bottom of each container is:",
+    "choices": [
+      "Greatest in the widest container",
+      "Greatest in the narrowest container",
+      "Equal in all three",
+      "Proportional to the volume of water"
+    ],
+    "answer": 2,
+    "explanation": "Pressure at a given depth depends only on $P = \\rho g h$ — not on the shape or volume of the container. This is the hydrostatic paradox: a narrow tall tube and a wide short pool at the same depth have the same pressure."
+  },
+  {
+    "id": "phys1_u8_q009",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What is the gauge pressure (pressure above atmospheric) at a depth of $h = 5\\,\\text{m}$ in fresh water? ($\\rho = 1000\\,\\text{kg/m}^3$, $g = 10\\,\\text{m/s}^2$)",
+    "choices": [
+      "$500\\,\\text{Pa}$",
+      "$5{,}000\\,\\text{Pa}$",
+      "$50{,}000\\,\\text{Pa}$",
+      "$500{,}000\\,\\text{Pa}$"
+    ],
+    "answer": 2,
+    "explanation": "$P_{\\text{gauge}} = \\rho g h = (1000)(10)(5) = 50{,}000\\,\\text{Pa}$. Gauge pressure ignores atmospheric pressure and measures only the contribution from the fluid column above."
+  },
+  {
+    "id": "phys1_u8_q010",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "At a depth of $10\\,\\text{m}$ in seawater ($\\rho = 1025\\,\\text{kg/m}^3$, $g = 10\\,\\text{m/s}^2$, $P_0 = 101{,}000\\,\\text{Pa}$), what is the absolute pressure?",
+    "choices": [
+      "$101{,}000\\,\\text{Pa}$",
+      "$102{,}500\\,\\text{Pa}$",
+      "$201{,}000\\,\\text{Pa}$",
+      "$203{,}500\\,\\text{Pa}$"
+    ],
+    "answer": 3,
+    "explanation": "$P = P_0 + \\rho g h = 101{,}000 + (1025)(10)(10) = 101{,}000 + 102{,}500 = 203{,}500\\,\\text{Pa}$. Absolute pressure includes atmospheric pressure."
+  },
+  {
+    "id": "phys1_u8_q011",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A dam holds fresh water to a depth of $h = 20\\,\\text{m}$. What is the gauge pressure at the base of the dam? ($\\rho = 1000\\,\\text{kg/m}^3$, $g = 10\\,\\text{m/s}^2$)",
+    "choices": [
+      "$20{,}000\\,\\text{Pa}$",
+      "$200{,}000\\,\\text{Pa}$",
+      "$2{,}000{,}000\\,\\text{Pa}$",
+      "$20{,}000{,}000\\,\\text{Pa}$"
+    ],
+    "answer": 1,
+    "explanation": "$P_{\\text{gauge}} = \\rho g h = (1000)(10)(20) = 200{,}000\\,\\text{Pa} = 200\\,\\text{kPa}$. This is about twice atmospheric pressure."
+  },
+  {
+    "id": "phys1_u8_q012",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Two points at the same depth in a connected static fluid have:",
+    "choices": [
+      "The same velocity",
+      "The same temperature",
+      "The same pressure",
+      "The same density only if the fluid is uniform"
+    ],
+    "answer": 2,
+    "explanation": "In a static connected fluid, pressure at the same depth is equal — this is the foundation of Pascal's principle and explains why hydraulic systems work. Velocity is zero everywhere in a static fluid."
+  },
+  {
+    "id": "phys1_u8_q013",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A mercury manometer shows the fluid level displaced by $h = 15\\,\\text{cm} = 0.15\\,\\text{m}$. What is the gauge pressure of the trapped gas? ($\\rho_{\\text{Hg}} = 13{,}600\\,\\text{kg/m}^3$, $g = 10\\,\\text{m/s}^2$)",
+    "choices": [
+      "$2{,}040\\,\\text{Pa}$",
+      "$20{,}400\\,\\text{Pa}$",
+      "$204{,}000\\,\\text{Pa}$",
+      "$2{,}040{,}000\\,\\text{Pa}$"
+    ],
+    "answer": 1,
+    "explanation": "$P_{\\text{gauge}} = \\rho g h = (13{,}600)(10)(0.15) = 20{,}400\\,\\text{Pa}$. Mercury is used in manometers because its high density means a small height difference corresponds to a large pressure."
+  },
+  {
+    "id": "phys1_u8_q014",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A sealed container holds oil ($\\rho_{\\text{oil}} = 800\\,\\text{kg/m}^3$) to a depth of $3\\,\\text{m}$, sitting atop water ($\\rho_{\\text{w}} = 1000\\,\\text{kg/m}^3$) to a depth of $5\\,\\text{m}$. What is the gauge pressure at the very bottom? ($g = 10\\,\\text{m/s}^2$)",
+    "choices": [
+      "$24{,}000\\,\\text{Pa}$",
+      "$50{,}000\\,\\text{Pa}$",
+      "$74{,}000\\,\\text{Pa}$",
+      "$104{,}000\\,\\text{Pa}$"
+    ],
+    "answer": 2,
+    "explanation": "$P_{\\text{gauge}} = \\rho_{\\text{oil}} g h_{\\text{oil}} + \\rho_{\\text{w}} g h_{\\text{w}} = (800)(10)(3) + (1000)(10)(5) = 24{,}000 + 50{,}000 = 74{,}000\\,\\text{Pa}$. Pressures from different fluid layers add."
+  },
+  {
+    "id": "phys1_u8_q015",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A closed-top tank of water has a pressure gauge at depth $h = 4\\,\\text{m}$ that reads $180{,}000\\,\\text{Pa}$. What is the pressure at the top surface of the water? ($\\rho = 1000\\,\\text{kg/m}^3$, $g = 10\\,\\text{m/s}^2$)",
+    "choices": [
+      "$40{,}000\\,\\text{Pa}$",
+      "$100{,}000\\,\\text{Pa}$",
+      "$140{,}000\\,\\text{Pa}$",
+      "$180{,}000\\,\\text{Pa}$"
+    ],
+    "answer": 2,
+    "explanation": "$P_{\\text{top}} = P_{\\text{gauge}} - \\rho g h = 180{,}000 - (1000)(10)(4) = 180{,}000 - 40{,}000 = 140{,}000\\,\\text{Pa}$. The top surface is pressurized above atmospheric."
+  },
+  {
+    "id": "phys1_u8_q016",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "fluid pressure",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Which statement about pressure in a static fluid is correct?",
+    "choices": [
+      "Pressure acts only downward",
+      "Pressure at a point acts equally in all directions",
+      "Pressure is greatest near the walls",
+      "Pressure is independent of the fluid's density"
+    ],
+    "answer": 1,
+    "explanation": "Fluid pressure at a point is isotropic — it acts equally in all directions. This is why a submerged object experiences force from all sides, and why pressure can push upward (producing buoyancy)."
+  },
+  {
+    "id": "phys1_u8_q017",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Archimedes' principle states that the buoyant force on a submerged object equals:",
+    "choices": [
+      "The weight of the object",
+      "The weight of fluid displaced by the object",
+      "The pressure at the object's depth times its surface area",
+      "The difference in density between fluid and object"
+    ],
+    "answer": 1,
+    "explanation": "$F_b = \\rho_{\\text{fluid}} V_{\\text{displaced}} g$ — the weight of the displaced fluid. This is Archimedes' principle. The object's own weight and density do not directly determine the buoyant force.",
+    "graphSvg": "<svg viewBox='0 0 300 240' xmlns='http://www.w3.org/2000/svg' style='max-width:300px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='40' width='220' height='170' fill='#dbeafe' stroke='#334155' stroke-width='2'/><text x='150' y='30' text-anchor='middle' font-size='11' fill='#334155'>Water  ρ_fluid</text><rect x='105' y='110' width='90' height='60' fill='#94a3b8' stroke='#334155' stroke-width='2'/><text x='150' y='145' text-anchor='middle' font-size='11' fill='#1e293b'>object</text><line x1='150' y1='110' x2='150' y2='65' stroke='#3b82f6' stroke-width='2.5'/><polygon points='150,52 144,68 156,68' fill='#3b82f6'/><text x='162' y='88' font-size='11' fill='#3b82f6'>F_b = ρ_f V g</text><line x1='150' y1='170' x2='150' y2='205' stroke='#dc2626' stroke-width='2.5'/><polygon points='150,218 144,203 156,203' fill='#dc2626'/><text x='162' y='200' font-size='11' fill='#dc2626'>W = mg</text></svg>"
+  },
+  {
+    "id": "phys1_u8_q018",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "An object fully submerged in fresh water displaces $V = 0.002\\,\\text{m}^3$. What is the buoyant force? ($\\rho_w = 1000\\,\\text{kg/m}^3$, $g = 10\\,\\text{m/s}^2$)",
+    "choices": [
+      "$2\\,\\text{N}$",
+      "$10\\,\\text{N}$",
+      "$20\\,\\text{N}$",
+      "$200\\,\\text{N}$"
+    ],
+    "answer": 2,
+    "explanation": "$F_b = \\rho_w V g = (1000)(0.002)(10) = 20\\,\\text{N}$. This equals the weight of $2\\,\\text{kg}$ of water, which is the mass of fluid displaced."
+  },
+  {
+    "id": "phys1_u8_q019",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A steel cube weighs $W = 50\\,\\text{N}$ in air. When fully submerged in water it displaces $V = 0.0006\\,\\text{m}^3$. What does it weigh in water (apparent weight)? ($\\rho_w = 1000$, $g = 10$)",
+    "choices": [
+      "$6\\,\\text{N}$",
+      "$44\\,\\text{N}$",
+      "$50\\,\\text{N}$",
+      "$56\\,\\text{N}$"
+    ],
+    "answer": 1,
+    "explanation": "$F_b = \\rho_w V g = (1000)(0.0006)(10) = 6\\,\\text{N}$. Apparent weight $= W - F_b = 50 - 6 = 44\\,\\text{N}$. Submerged objects appear lighter by the buoyant force.",
+    "graphSvg": "<svg viewBox='0 0 300 240' xmlns='http://www.w3.org/2000/svg' style='max-width:300px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='40' width='220' height='170' fill='#dbeafe' stroke='#334155' stroke-width='2'/><text x='150' y='30' text-anchor='middle' font-size='11' fill='#334155'>Water  ρ_fluid</text><rect x='105' y='110' width='90' height='60' fill='#94a3b8' stroke='#334155' stroke-width='2'/><text x='150' y='145' text-anchor='middle' font-size='11' fill='#1e293b'>object</text><line x1='150' y1='110' x2='150' y2='65' stroke='#3b82f6' stroke-width='2.5'/><polygon points='150,52 144,68 156,68' fill='#3b82f6'/><text x='162' y='88' font-size='11' fill='#3b82f6'>F_b = ρ_f V g</text><line x1='150' y1='170' x2='150' y2='205' stroke='#dc2626' stroke-width='2.5'/><polygon points='150,218 144,203 156,203' fill='#dc2626'/><text x='162' y='200' font-size='11' fill='#dc2626'>W = mg</text></svg>"
+  },
+  {
+    "id": "phys1_u8_q020",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "An object weighs $80\\,\\text{N}$ in air and $50\\,\\text{N}$ when submerged in fresh water. What is the object's volume? ($\\rho_w = 1000\\,\\text{kg/m}^3$, $g = 10\\,\\text{m/s}^2$)",
+    "choices": [
+      "$0.0005\\,\\text{m}^3$",
+      "$0.003\\,\\text{m}^3$",
+      "$0.005\\,\\text{m}^3$",
+      "$0.008\\,\\text{m}^3$"
+    ],
+    "answer": 1,
+    "explanation": "$F_b = 80 - 50 = 30\\,\\text{N}$. Using $F_b = \\rho_w V g$: $V = F_b/(\\rho_w g) = 30/(1000 \\times 10) = 0.003\\,\\text{m}^3$."
+  },
+  {
+    "id": "phys1_u8_q021",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A fully submerged rigid object is moved from a depth of $2\\,\\text{m}$ to a depth of $8\\,\\text{m}$. How does the buoyant force change?",
+    "choices": [
+      "It doubles",
+      "It quadruples",
+      "It stays the same",
+      "It decreases because pressure increases"
+    ],
+    "answer": 2,
+    "explanation": "$F_b = \\rho_{\\text{fluid}} V_{\\text{displaced}} g$. For a rigid solid object, $V_{\\text{displaced}}$ does not change with depth. Therefore $F_b$ stays the same regardless of depth."
+  },
+  {
+    "id": "phys1_u8_q022",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A steel ball ($\\rho_{\\text{steel}} = 7{,}800\\,\\text{kg/m}^3$) and an aluminum ball ($\\rho_{\\text{Al}} = 2{,}700\\,\\text{kg/m}^3$) have the same volume $V = 0.001\\,\\text{m}^3$ and are both fully submerged in water. Which has the greater buoyant force?",
+    "choices": [
+      "The steel ball",
+      "The aluminum ball",
+      "Both have the same buoyant force",
+      "The one with greater weight"
+    ],
+    "answer": 2,
+    "explanation": "$F_b = \\rho_w V g$ depends on the displaced fluid volume, not on the object's density or composition. Both balls displace the same volume, so both experience the same buoyant force."
+  },
+  {
+    "id": "phys1_u8_q023",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A block of density $\\rho_{\\text{obj}} = 500\\,\\text{kg/m}^3$ is fully submerged in water ($\\rho_w = 1000\\,\\text{kg/m}^3$). What is the direction of the net force on the block?",
+    "choices": [
+      "Downward — it sinks",
+      "Upward — it rises",
+      "Zero — it is in equilibrium",
+      "Cannot be determined"
+    ],
+    "answer": 1,
+    "explanation": "$F_b = \\rho_w V g$ and $W = \\rho_{\\text{obj}} V g$. Since $\\rho_{\\text{obj}} < \\rho_w$, $F_b > W$ and the net force is upward. The block will rise until it floats."
+  },
+  {
+    "id": "phys1_u8_q024",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A helium balloon has volume $V = 0.5\\,\\text{m}^3$ and an average density (gas + envelope) of $\\rho_{\\text{avg}} = 0.2\\,\\text{kg/m}^3$. In air ($\\rho_{\\text{air}} = 1.2\\,\\text{kg/m}^3$, $g = 10\\,\\text{m/s}^2$), what is the net upward force?",
+    "choices": [
+      "$1\\,\\text{N}$",
+      "$3\\,\\text{N}$",
+      "$5\\,\\text{N}$",
+      "$6\\,\\text{N}$"
+    ],
+    "answer": 2,
+    "explanation": "$F_b = \\rho_{\\text{air}} V g = (1.2)(0.5)(10) = 6\\,\\text{N}$. Weight $= \\rho_{\\text{avg}} V g = (0.2)(0.5)(10) = 1\\,\\text{N}$. Net upward force $= 6 - 1 = 5\\,\\text{N}$."
+  },
+  {
+    "id": "phys1_u8_q025",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A $2\\,\\text{kg}$ object ($V = 0.004\\,\\text{m}^3$) is suspended by a string while fully submerged in fresh water. What is the tension in the string? ($\\rho_w = 1000$, $g = 10$)",
+    "choices": [
+      "$0\\,\\text{N}$",
+      "$20\\,\\text{N}$",
+      "$40\\,\\text{N}$",
+      "$60\\,\\text{N}$"
+    ],
+    "answer": 1,
+    "explanation": "$F_b = \\rho_w V g = (1000)(0.004)(10) = 40\\,\\text{N}$ (upward). Weight $W = (2)(10) = 20\\,\\text{N}$ (downward). Since $F_b > W$, the object floats upward; the string (attached below) pulls it down. Equilibrium: $F_b = W + T \\Rightarrow T = 40 - 20 = 20\\,\\text{N}$."
+  },
+  {
+    "id": "phys1_u8_q026",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "An object has mass $m = 3\\,\\text{kg}$ and volume $V = 0.001\\,\\text{m}^3$. It is placed in a fluid of unknown density $\\rho_f$. The object sinks. Which condition must be true?",
+    "choices": [
+      "$\\rho_f > 3{,}000\\,\\text{kg/m}^3$",
+      "$\\rho_f < 3{,}000\\,\\text{kg/m}^3$",
+      "$\\rho_f > 1{,}000\\,\\text{kg/m}^3$",
+      "$\\rho_f < 1{,}000\\,\\text{kg/m}^3$"
+    ],
+    "answer": 1,
+    "explanation": "Object density $= m/V = 3/0.001 = 3{,}000\\,\\text{kg/m}^3$. An object sinks when $\\rho_{\\text{obj}} > \\rho_f$, so the fluid must have density $< 3{,}000\\,\\text{kg/m}^3$."
+  },
+  {
+    "id": "phys1_u8_q027",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A cube of side $L$ floats in a liquid of density $\\rho_L$ with exactly half its volume submerged. What is the density of the cube?",
+    "choices": [
+      "$\\rho_L / 4$",
+      "$\\rho_L / 2$",
+      "$\\rho_L$",
+      "$2\\rho_L$"
+    ],
+    "answer": 1,
+    "explanation": "For floating equilibrium: $F_b = W \\Rightarrow \\rho_L (V/2) g = \\rho_{\\text{cube}} V g \\Rightarrow \\rho_{\\text{cube}} = \\rho_L/2$. In general, the fraction submerged equals $\\rho_{\\text{obj}}/\\rho_{\\text{fluid}}$.",
+    "graphSvg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg' style='max-width:300px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='120' width='220' height='80' fill='#dbeafe' stroke='#334155' stroke-width='2'/><rect x='40' y='40' width='220' height='80' fill='#f0f9ff' stroke='#334155' stroke-width='2'/><text x='270' y='124' font-size='10' fill='#334155'>waterline</text><rect x='105' y='80' width='90' height='80' fill='#94a3b8' stroke='#334155' stroke-width='2'/><rect x='105' y='120' width='90' height='40' fill='#7dd3fc' stroke='#334155' stroke-width='0'/><text x='150' y='115' text-anchor='middle' font-size='10' fill='#334155'>above</text><text x='150' y='148' text-anchor='middle' font-size='10' fill='#1e293b'>submerged</text><line x1='75' y1='160' x2='75' y2='125' stroke='#3b82f6' stroke-width='2.5'/><polygon points='75,112 69,128 81,128' fill='#3b82f6'/><text x='20' y='148' font-size='10' fill='#3b82f6'>F_b</text><line x1='225' y1='100' x2='225' y2='135' stroke='#dc2626' stroke-width='2.5'/><polygon points='225,148 219,133 231,133' fill='#dc2626'/><text x='232' y='122' font-size='10' fill='#dc2626'>W</text><text x='150' y='215' text-anchor='middle' font-size='10' fill='#64748b'>Equilibrium: F_b = W</text></svg>"
+  },
+  {
+    "id": "phys1_u8_q028",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "An ice cube floats in a glass of water. When the ice melts completely, the water level:",
+    "choices": [
+      "Rises",
+      "Falls",
+      "Stays the same",
+      "Depends on the size of the ice cube"
+    ],
+    "answer": 2,
+    "explanation": "The floating ice displaces water equal to its own weight. When it melts, the resulting water has exactly the same mass, so it occupies the same volume that was previously displaced. The water level does not change."
+  },
+  {
+    "id": "phys1_u8_q029",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "An object placed in a fluid sinks to the bottom. This means:",
+    "choices": [
+      "$\\rho_{\\text{obj}} < \\rho_{\\text{fluid}}$",
+      "$\\rho_{\\text{obj}} = \\rho_{\\text{fluid}}$",
+      "$\\rho_{\\text{obj}} > \\rho_{\\text{fluid}}$",
+      "The object has no buoyant force acting on it"
+    ],
+    "answer": 2,
+    "explanation": "When $\\rho_{\\text{obj}} > \\rho_{\\text{fluid}}$, weight exceeds maximum buoyant force (which occurs at full submersion), so the object sinks. Even a sinking object still has a buoyant force — it is just less than its weight."
+  },
+  {
+    "id": "phys1_u8_q030",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A wooden block ($\\rho = 600\\,\\text{kg/m}^3$) floats in fresh water ($\\rho_w = 1000\\,\\text{kg/m}^3$). What fraction of the block is above the water surface?",
+    "choices": [
+      "$40\\%$",
+      "$60\\%$",
+      "$80\\%$",
+      "It is fully submerged"
+    ],
+    "answer": 0,
+    "explanation": "Fraction submerged $= \\rho_{\\text{obj}}/\\rho_{\\text{fluid}} = 600/1000 = 0.60 = 60\\%$. The remaining $40\\%$ is above the surface. A denser fluid like seawater means less of the block submerges.",
+    "graphSvg": "<svg viewBox='0 0 300 220' xmlns='http://www.w3.org/2000/svg' style='max-width:300px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='120' width='220' height='80' fill='#dbeafe' stroke='#334155' stroke-width='2'/><rect x='40' y='40' width='220' height='80' fill='#f0f9ff' stroke='#334155' stroke-width='2'/><text x='270' y='124' font-size='10' fill='#334155'>waterline</text><rect x='105' y='80' width='90' height='80' fill='#94a3b8' stroke='#334155' stroke-width='2'/><rect x='105' y='120' width='90' height='40' fill='#7dd3fc' stroke='#334155' stroke-width='0'/><text x='150' y='115' text-anchor='middle' font-size='10' fill='#334155'>above</text><text x='150' y='148' text-anchor='middle' font-size='10' fill='#1e293b'>submerged</text><line x1='75' y1='160' x2='75' y2='125' stroke='#3b82f6' stroke-width='2.5'/><polygon points='75,112 69,128 81,128' fill='#3b82f6'/><text x='20' y='148' font-size='10' fill='#3b82f6'>F_b</text><line x1='225' y1='100' x2='225' y2='135' stroke='#dc2626' stroke-width='2.5'/><polygon points='225,148 219,133 231,133' fill='#dc2626'/><text x='232' y='122' font-size='10' fill='#dc2626'>W</text><text x='150' y='215' text-anchor='middle' font-size='10' fill='#64748b'>Equilibrium: F_b = W</text></svg>"
+  },
+  {
+    "id": "phys1_u8_q031",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "The same wooden block ($\\rho = 600\\,\\text{kg/m}^3$) is placed in seawater ($\\rho_{\\text{sw}} = 1025\\,\\text{kg/m}^3$). Compared to floating in fresh water, the block now floats:",
+    "choices": [
+      "Higher — less of it is submerged",
+      "Lower — more of it is submerged",
+      "At the same level",
+      "It sinks in seawater"
+    ],
+    "answer": 0,
+    "explanation": "Fraction submerged in seawater $= 600/1025 \\approx 58.5\\%$, vs $60\\%$ in fresh water. The denser seawater provides more buoyant force per unit volume, so the block needs less volume submerged to support its weight — it rides higher."
+  },
+  {
+    "id": "phys1_u8_q032",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "A boat floats lower in the water after loading cargo. This is because:",
+    "choices": [
+      "Cargo increases the boat's volume",
+      "Greater weight requires more displaced fluid to achieve equilibrium",
+      "Cargo increases buoyant force",
+      "The water level around the boat drops"
+    ],
+    "answer": 1,
+    "explanation": "The boat sinks until the buoyant force (weight of displaced water) equals the total weight (boat + cargo). More weight means more displaced water is needed, so the boat sits deeper."
+  },
+  {
+    "id": "phys1_u8_q033",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A block of density $\\rho_{\\text{obj}} = 800\\,\\text{kg/m}^3$ floats at the interface between oil ($\\rho_{\\text{oil}} = 700\\,\\text{kg/m}^3$, on top) and water ($\\rho_w = 1000\\,\\text{kg/m}^3$, on bottom). Approximately what fraction of the block is submerged in water?",
+    "choices": [
+      "$\\approx 33\\%$",
+      "$\\approx 50\\%$",
+      "$\\approx 67\\%$",
+      "$\\approx 80\\%$"
+    ],
+    "answer": 0,
+    "explanation": "Let fraction in water $= f$, in oil $= (1-f)$. Equilibrium: $\\rho_w f + \\rho_{\\text{oil}}(1-f) = \\rho_{\\text{obj}}$. $1000f + 700(1-f) = 800 \\Rightarrow 300f = 100 \\Rightarrow f \\approx 0.33 = 33\\%$."
+  },
+  {
+    "id": "phys1_u8_q034",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "buoyancy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "An object barely floats (just fully submerged, net force $= 0$) in liquid A. It is then placed in liquid B, which is less dense than liquid A. What happens?",
+    "choices": [
+      "It floats higher in liquid B",
+      "It sinks in liquid B",
+      "It floats at the same level",
+      "It floats with more volume above the surface"
+    ],
+    "answer": 1,
+    "explanation": "Barely floating means $\\rho_{\\text{obj}} = \\rho_A$. Since $\\rho_B < \\rho_A$, the fluid is now less dense than the object, so $F_b < W$ at any depth and the object sinks."
+  },
+  {
+    "id": "phys1_u8_q035",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Pascal's principle",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Pascal's principle states:",
+    "choices": [
+      "Pressure in a fluid increases with depth",
+      "A change in pressure applied to an enclosed fluid is transmitted equally throughout",
+      "Buoyant force equals weight of displaced fluid",
+      "Faster-moving fluid has lower pressure"
+    ],
+    "answer": 1,
+    "explanation": "Pascal's principle: pressure applied at one point in a confined fluid is transmitted undiminished to all other points. This is the basis of hydraulic machines. (Choice A is hydrostatics; C is Archimedes; D is Bernoulli.)"
+  },
+  {
+    "id": "phys1_u8_q036",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Pascal's principle",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A hydraulic lift has input piston area $A_1 = 0.01\\,\\text{m}^2$ and output piston area $A_2 = 0.5\\,\\text{m}^2$. An input force $F_1 = 100\\,\\text{N}$ is applied. What output force $F_2$ is produced?",
+    "choices": [
+      "$2\\,\\text{N}$",
+      "$500\\,\\text{N}$",
+      "$5{,}000\\,\\text{N}$",
+      "$50{,}000\\,\\text{N}$"
+    ],
+    "answer": 2,
+    "explanation": "By Pascal's principle, pressure is equal: $P = F_1/A_1 = F_2/A_2$. $F_2 = F_1(A_2/A_1) = 100 \\times (0.5/0.01) = 100 \\times 50 = 5{,}000\\,\\text{N}$.",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='60' width='60' height='110' fill='#f0f9ff' stroke='#334155' stroke-width='2'/><rect x='180' y='60' width='110' height='110' fill='#f0f9ff' stroke='#334155' stroke-width='2'/><rect x='90' y='145' width='90' height='25' fill='#f0f9ff' stroke='#334155' stroke-width='2'/><rect x='31' y='130' width='58' height='39' fill='#bfdbfe'/><rect x='91' y='145' width='88' height='24' fill='#bfdbfe'/><rect x='181' y='130' width='108' height='39' fill='#bfdbfe'/><rect x='30' y='110' width='60' height='14' fill='#94a3b8' stroke='#334155' stroke-width='1.5'/><rect x='180' y='110' width='110' height='14' fill='#94a3b8' stroke='#334155' stroke-width='1.5'/><line x1='60' y1='60' x2='60' y2='108' stroke='#dc2626' stroke-width='2.5'/><polygon points='60,110 54,96 66,96' fill='#dc2626'/><text x='60' y='50' text-anchor='middle' font-size='11' fill='#dc2626'>F₁</text><line x1='235' y1='108' x2='235' y2='60' stroke='#3b82f6' stroke-width='2.5'/><polygon points='235,48 229,64 241,64' fill='#3b82f6'/><text x='235' y='40' text-anchor='middle' font-size='11' fill='#3b82f6'>F₂</text><text x='60' y='175' text-anchor='middle' font-size='11' fill='#334155'>A₁ (small)</text><text x='235' y='175' text-anchor='middle' font-size='11' fill='#334155'>A₂ (large)</text><text x='160' y='205' text-anchor='middle' font-size='10' fill='#64748b'>P = F₁/A₁ = F₂/A₂</text></svg>"
+  },
+  {
+    "id": "phys1_u8_q037",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Pascal's principle",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "In a hydraulic system, the input piston ($A_1 = 0.05\\,\\text{m}^2$) moves down by $d_1 = 0.4\\,\\text{m}$. The output piston area is $A_2 = 0.2\\,\\text{m}^2$. How far does the output piston move up?",
+    "choices": [
+      "$0.02\\,\\text{m}$",
+      "$0.04\\,\\text{m}$",
+      "$0.1\\,\\text{m}$",
+      "$1.6\\,\\text{m}$"
+    ],
+    "answer": 2,
+    "explanation": "Fluid volume is conserved: $A_1 d_1 = A_2 d_2 \\Rightarrow d_2 = A_1 d_1 / A_2 = (0.05)(0.4)/(0.2) = 0.1\\,\\text{m}$. The output moves less than the input — force is multiplied but displacement is divided."
+  },
+  {
+    "id": "phys1_u8_q038",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Pascal's principle",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A hydraulic press multiplies force by a factor of $25$. An input force of $200\\,\\text{N}$ is applied over a distance of $0.5\\,\\text{m}$. How much work does the output piston do?",
+    "choices": [
+      "$8\\,\\text{J}$",
+      "$100\\,\\text{J}$",
+      "$200\\,\\text{J}$",
+      "$2{,}500\\,\\text{J}$"
+    ],
+    "answer": 1,
+    "explanation": "Ideal hydraulic systems conserve energy: $W_{\\text{out}} = W_{\\text{in}} = F_1 d_1 = (200)(0.5) = 100\\,\\text{J}$. The output force is $25 \\times 200 = 5{,}000\\,\\text{N}$ but the output moves only $0.02\\,\\text{m}$, giving the same $100\\,\\text{J}$. Hydraulics trade force for distance."
+  },
+  {
+    "id": "phys1_u8_q039",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Pascal's principle",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A hydraulic system has $A_1 = 2\\,\\text{cm}^2$ and $A_2 = 20\\,\\text{cm}^2$. An input force of $F_1 = 50\\,\\text{N}$ is applied. What is the output force?",
+    "choices": [
+      "$5\\,\\text{N}$",
+      "$50\\,\\text{N}$",
+      "$500\\,\\text{N}$",
+      "$5{,}000\\,\\text{N}$"
+    ],
+    "answer": 2,
+    "explanation": "$F_2 = F_1 \\times (A_2/A_1) = 50 \\times (20/2) = 50 \\times 10 = 500\\,\\text{N}$. The area ratio directly gives the force multiplication factor.",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='60' width='60' height='110' fill='#f0f9ff' stroke='#334155' stroke-width='2'/><rect x='180' y='60' width='110' height='110' fill='#f0f9ff' stroke='#334155' stroke-width='2'/><rect x='90' y='145' width='90' height='25' fill='#f0f9ff' stroke='#334155' stroke-width='2'/><rect x='31' y='130' width='58' height='39' fill='#bfdbfe'/><rect x='91' y='145' width='88' height='24' fill='#bfdbfe'/><rect x='181' y='130' width='108' height='39' fill='#bfdbfe'/><rect x='30' y='110' width='60' height='14' fill='#94a3b8' stroke='#334155' stroke-width='1.5'/><rect x='180' y='110' width='110' height='14' fill='#94a3b8' stroke='#334155' stroke-width='1.5'/><line x1='60' y1='60' x2='60' y2='108' stroke='#dc2626' stroke-width='2.5'/><polygon points='60,110 54,96 66,96' fill='#dc2626'/><text x='60' y='50' text-anchor='middle' font-size='11' fill='#dc2626'>F₁</text><line x1='235' y1='108' x2='235' y2='60' stroke='#3b82f6' stroke-width='2.5'/><polygon points='235,48 229,64 241,64' fill='#3b82f6'/><text x='235' y='40' text-anchor='middle' font-size='11' fill='#3b82f6'>F₂</text><text x='60' y='175' text-anchor='middle' font-size='11' fill='#334155'>A₁ (small)</text><text x='235' y='175' text-anchor='middle' font-size='11' fill='#334155'>A₂ (large)</text><text x='160' y='205' text-anchor='middle' font-size='10' fill='#64748b'>P = F₁/A₁ = F₂/A₂</text></svg>"
+  },
+  {
+    "id": "phys1_u8_q040",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Pascal's principle",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Why can a person exert a small force on a hydraulic car jack and lift a heavy vehicle?",
+    "choices": [
+      "The hydraulic fluid adds extra energy",
+      "Pressure is transmitted equally, and the large output area converts small pressure to large force",
+      "The vehicle's weight is reduced by the fluid's buoyancy",
+      "The small piston moves faster, creating more kinetic energy"
+    ],
+    "answer": 1,
+    "explanation": "$F = PA$. The same pressure $P$ acts on a much larger output area, producing a proportionally larger force. Energy is conserved — you push the small piston a greater distance to raise the car a small amount."
+  },
+  {
+    "id": "phys1_u8_q041",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Pascal's principle",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Two hydraulic pistons are connected. Piston 1: $A_1 = 10\\,\\text{cm}^2$, force $F_1 = 200\\,\\text{N}$. Piston 2: $A_2 = 40\\,\\text{cm}^2$. If piston 1 is pushed down $8\\,\\text{cm}$, how high does piston 2 rise?",
+    "choices": [
+      "$0.5\\,\\text{cm}$",
+      "$2\\,\\text{cm}$",
+      "$8\\,\\text{cm}$",
+      "$32\\,\\text{cm}$"
+    ],
+    "answer": 1,
+    "explanation": "Volume conservation: $A_1 d_1 = A_2 d_2 \\Rightarrow d_2 = (A_1/A_2) d_1 = (10/40)(8) = 2\\,\\text{cm}$. Output force: $F_2 = F_1(A_2/A_1) = 200 \\times 4 = 800\\,\\text{N}$."
+  },
+  {
+    "id": "phys1_u8_q042",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "continuity equation",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "The continuity equation $A_1 v_1 = A_2 v_2$ is based on:",
+    "choices": [
+      "Conservation of energy",
+      "Conservation of momentum",
+      "Conservation of mass (incompressible flow)",
+      "Bernoulli's principle"
+    ],
+    "answer": 2,
+    "explanation": "For incompressible steady flow, the volume flow rate $Q = Av$ must be constant — no fluid is created or destroyed. This is conservation of mass for fluids.",
+    "graphSvg": "<svg viewBox='0 0 340 180' xmlns='http://www.w3.org/2000/svg' style='max-width:340px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='10' y='50' width='120' height='80' fill='#dbeafe' stroke='#334155' stroke-width='2'/><polygon points='130,50 130,130 200,90 200,90' fill='#dbeafe' stroke='#334155' stroke-width='2'/><polygon points='130,130 200,110 200,90 130,50' fill='#dbeafe' stroke='#334155' stroke-width='0'/><line x1='130' y1='50' x2='200' y2='70' stroke='#334155' stroke-width='2'/><line x1='130' y1='130' x2='200' y2='110' stroke='#334155' stroke-width='2'/><rect x='200' y='70' width='130' height='40' fill='#dbeafe' stroke='#334155' stroke-width='2'/><line x1='30' y1='90' x2='85' y2='90' stroke='#16a34a' stroke-width='2.5'/><polygon points='90,90 75,84 75,96' fill='#16a34a'/><text x='55' y='80' text-anchor='middle' font-size='11' fill='#16a34a'>v₁ (slow)</text><line x1='215' y1='90' x2='295' y2='90' stroke='#16a34a' stroke-width='2.5'/><polygon points='302,90 287,84 287,96' fill='#16a34a'/><text x='255' y='80' text-anchor='middle' font-size='11' fill='#16a34a'>v₂ (fast)</text><text x='65' y='145' text-anchor='middle' font-size='11' fill='#334155'>A₁ (large)</text><text x='265' y='125' text-anchor='middle' font-size='11' fill='#334155'>A₂ (small)</text><text x='170' y='168' text-anchor='middle' font-size='11' fill='#64748b'>A₁v₁ = A₂v₂  →  A↓ means v↑</text></svg>"
+  },
+  {
+    "id": "phys1_u8_q043",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "continuity equation",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Water flows through a pipe of cross-sectional area $A = 0.02\\,\\text{m}^2$ at speed $v = 3\\,\\text{m/s}$. What is the volume flow rate?",
+    "choices": [
+      "$0.006\\,\\text{m}^3/\\text{s}$",
+      "$0.06\\,\\text{m}^3/\\text{s}$",
+      "$0.6\\,\\text{m}^3/\\text{s}$",
+      "$6\\,\\text{m}^3/\\text{s}$"
+    ],
+    "answer": 1,
+    "explanation": "$Q = Av = (0.02)(3) = 0.06\\,\\text{m}^3/\\text{s}$. Flow rate has units of volume per time (m³/s or liters/s)."
+  },
+  {
+    "id": "phys1_u8_q044",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "continuity equation",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A pipe narrows from $A_1 = 0.04\\,\\text{m}^2$ to $A_2 = 0.01\\,\\text{m}^2$. Water enters at $v_1 = 2\\,\\text{m/s}$. What is the speed in the narrow section?",
+    "choices": [
+      "$0.5\\,\\text{m/s}$",
+      "$2\\,\\text{m/s}$",
+      "$4\\,\\text{m/s}$",
+      "$8\\,\\text{m/s}$"
+    ],
+    "answer": 3,
+    "explanation": "$v_2 = A_1 v_1 / A_2 = (0.04 \\times 2)/0.01 = 8\\,\\text{m/s}$. The area decreased by a factor of 4, so the speed increases by a factor of 4.",
+    "graphSvg": "<svg viewBox='0 0 340 180' xmlns='http://www.w3.org/2000/svg' style='max-width:340px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='10' y='50' width='120' height='80' fill='#dbeafe' stroke='#334155' stroke-width='2'/><polygon points='130,50 130,130 200,90 200,90' fill='#dbeafe' stroke='#334155' stroke-width='2'/><polygon points='130,130 200,110 200,90 130,50' fill='#dbeafe' stroke='#334155' stroke-width='0'/><line x1='130' y1='50' x2='200' y2='70' stroke='#334155' stroke-width='2'/><line x1='130' y1='130' x2='200' y2='110' stroke='#334155' stroke-width='2'/><rect x='200' y='70' width='130' height='40' fill='#dbeafe' stroke='#334155' stroke-width='2'/><line x1='30' y1='90' x2='85' y2='90' stroke='#16a34a' stroke-width='2.5'/><polygon points='90,90 75,84 75,96' fill='#16a34a'/><text x='55' y='80' text-anchor='middle' font-size='11' fill='#16a34a'>v₁ (slow)</text><line x1='215' y1='90' x2='295' y2='90' stroke='#16a34a' stroke-width='2.5'/><polygon points='302,90 287,84 287,96' fill='#16a34a'/><text x='255' y='80' text-anchor='middle' font-size='11' fill='#16a34a'>v₂ (fast)</text><text x='65' y='145' text-anchor='middle' font-size='11' fill='#334155'>A₁ (large)</text><text x='265' y='125' text-anchor='middle' font-size='11' fill='#334155'>A₂ (small)</text><text x='170' y='168' text-anchor='middle' font-size='11' fill='#64748b'>A₁v₁ = A₂v₂  →  A↓ means v↑</text></svg>"
+  },
+  {
+    "id": "phys1_u8_q045",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "continuity equation",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Water flows from a pipe of diameter $d_1 = 4\\,\\text{cm}$ to a pipe of diameter $d_2 = 2\\,\\text{cm}$. What is the ratio $v_2/v_1$?",
+    "choices": [
+      "$2$",
+      "$4$",
+      "$8$",
+      "$16$"
+    ],
+    "answer": 1,
+    "explanation": "$A \\propto d^2$, so $A_1/A_2 = (4/2)^2 = 4$. By continuity: $v_2/v_1 = A_1/A_2 = 4$. Halving the diameter quadruples the speed — area scales as $d^2$."
+  },
+  {
+    "id": "phys1_u8_q046",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "continuity equation",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Blood flows at $v = 0.5\\,\\text{m/s}$ through the aorta (radius $r = 1\\,\\text{cm}$). It splits into two arteries each with radius $r = 0.5\\,\\text{cm}$. What is the speed in each artery?",
+    "choices": [
+      "$0.25\\,\\text{m/s}$",
+      "$0.5\\,\\text{m/s}$",
+      "$1\\,\\text{m/s}$",
+      "$2\\,\\text{m/s}$"
+    ],
+    "answer": 2,
+    "explanation": "$Q_{\\text{aorta}} = \\pi(0.01)^2 \\times 0.5 = 5\\pi \\times 10^{-5}\\,\\text{m}^3/\\text{s}$. Each artery gets half: $Q_{\\text{artery}} = 2.5\\pi \\times 10^{-5}$. Speed $= Q/A = (2.5\\pi \\times 10^{-5})/(\\pi \\times 0.0025) = 1\\,\\text{m/s}$."
+  },
+  {
+    "id": "phys1_u8_q047",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "continuity equation",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "In a wide river that narrows to a gorge, water flows:",
+    "choices": [
+      "Slower in the gorge",
+      "Faster in the gorge",
+      "At the same speed",
+      "Depends on the river's depth"
+    ],
+    "answer": 1,
+    "explanation": "By continuity, $A_1 v_1 = A_2 v_2$. A narrower cross-section (smaller $A$) requires higher speed $v$ to maintain the same flow rate. This is why river gorges have fast, turbulent water."
+  },
+  {
+    "id": "phys1_u8_q048",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "continuity equation",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A pipe of area $A_1 = 0.1\\,\\text{m}^2$ carries water at $v_1 = 4\\,\\text{m/s}$. It branches into three equal pipes. Each branch has area $A_b = 0.05\\,\\text{m}^2$. What is the speed in each branch?",
+    "choices": [
+      "$1.33\\,\\text{m/s}$",
+      "$2\\,\\text{m/s}$",
+      "$2.67\\,\\text{m/s}$",
+      "$4\\,\\text{m/s}$"
+    ],
+    "answer": 2,
+    "explanation": "$Q_{\\text{total}} = A_1 v_1 = 0.4\\,\\text{m}^3/\\text{s}$. Each branch carries $Q_{\\text{total}}/3 = 0.4/3\\,\\text{m}^3/\\text{s}$. Speed $= Q_b/A_b = (0.4/3)/0.05 = 8/3 \\approx 2.67\\,\\text{m/s}$."
+  },
+  {
+    "id": "phys1_u8_q049",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Bernoulli's principle",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Bernoulli's principle states that in a steady, incompressible flow:",
+    "choices": [
+      "Faster-moving fluid has higher pressure",
+      "Faster-moving fluid has lower pressure",
+      "Pressure is constant throughout the fluid",
+      "Pressure depends only on depth"
+    ],
+    "answer": 1,
+    "explanation": "Bernoulli's equation: $P + \\frac{1}{2}\\rho v^2 + \\rho g h = \\text{const}$. For horizontal flow, as $v$ increases, $P$ must decrease to keep the sum constant. High-speed flow = low pressure."
+  },
+  {
+    "id": "phys1_u8_q050",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Bernoulli's principle",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Water flows horizontally through a pipe that narrows. In the narrow section, compared to the wide section:",
+    "choices": [
+      "Speed decreases and pressure increases",
+      "Speed increases and pressure increases",
+      "Speed increases and pressure decreases",
+      "Speed decreases and pressure decreases"
+    ],
+    "answer": 2,
+    "explanation": "Continuity requires speed to increase in the narrower section. Bernoulli then requires pressure to decrease (energy is conserved: higher kinetic energy means lower pressure energy). This is the operating principle of a Venturi meter."
+  },
+  {
+    "id": "phys1_u8_q051",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Bernoulli's principle",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Water ($\\rho = 1000\\,\\text{kg/m}^3$) flows horizontally at $v_1 = 2\\,\\text{m/s}$ with $P_1 = 200{,}000\\,\\text{Pa}$ in a wide pipe. It enters a narrow section where $v_2 = 6\\,\\text{m/s}$. What is $P_2$?",
+    "choices": [
+      "$184{,}000\\,\\text{Pa}$",
+      "$196{,}000\\,\\text{Pa}$",
+      "$200{,}000\\,\\text{Pa}$",
+      "$216{,}000\\,\\text{Pa}$"
+    ],
+    "answer": 0,
+    "explanation": "$P_2 = P_1 + \\tfrac{1}{2}\\rho(v_1^2 - v_2^2) = 200{,}000 + \\tfrac{1}{2}(1000)(4 - 36) = 200{,}000 - 16{,}000 = 184{,}000\\,\\text{Pa}$."
+  },
+  {
+    "id": "phys1_u8_q052",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Bernoulli's principle",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Water ($\\rho = 1000\\,\\text{kg/m}^3$) flows at $v = 3\\,\\text{m/s}$ and pressure $P_1 = 150{,}000\\,\\text{Pa}$ at ground level. It rises through a vertical pipe to height $h = 2\\,\\text{m}$ where the pipe has the same diameter. What is the pressure at the top? ($g = 10\\,\\text{m/s}^2$)",
+    "choices": [
+      "$110{,}000\\,\\text{Pa}$",
+      "$130{,}000\\,\\text{Pa}$",
+      "$150{,}000\\,\\text{Pa}$",
+      "$170{,}000\\,\\text{Pa}$"
+    ],
+    "answer": 1,
+    "explanation": "Same diameter means same speed at both points. Bernoulli reduces to: $P_1 + \\rho g h_1 = P_2 + \\rho g h_2$. $P_2 = P_1 - \\rho g \\Delta h = 150{,}000 - (1000)(10)(2) = 130{,}000\\,\\text{Pa}$."
+  },
+  {
+    "id": "phys1_u8_q053",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Bernoulli's principle",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Aircraft wings generate lift primarily because:",
+    "choices": [
+      "The wing pushes air downward (Newton's 3rd law only)",
+      "Air travels faster over the curved upper surface, creating lower pressure above than below",
+      "The wing is tilted, creating a pressure difference",
+      "Wings are made of light materials"
+    ],
+    "answer": 1,
+    "explanation": "The curved upper surface accelerates airflow; by Bernoulli's principle, higher speed creates lower pressure. The pressure difference between the lower (high pressure) and upper (low pressure) surfaces produces the upward lift force. Both Bernoulli and Newton's 3rd law contribute."
+  },
+  {
+    "id": "phys1_u8_q054",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Bernoulli's principle",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A spinning baseball curves because:",
+    "choices": [
+      "Spin reduces air resistance",
+      "One side of the ball moves with the airflow (faster air, lower pressure) and the other against it (slower air, higher pressure)",
+      "Spin increases the ball's weight",
+      "The seams deflect air symmetrically"
+    ],
+    "answer": 1,
+    "explanation": "The Magnus effect: spin makes air on one side of the ball move faster (spin adds to flow velocity) — lower pressure. The other side moves slower — higher pressure. The pressure difference pushes the ball sideways, causing it to curve."
+  },
+  {
+    "id": "phys1_u8_q055",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Bernoulli's principle",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A tank of water has a small hole at depth $h = 5\\,\\text{m}$ below the open water surface. Using Bernoulli's equation, what is the efflux speed of water from the hole? ($g = 10\\,\\text{m/s}^2$)",
+    "choices": [
+      "$5\\,\\text{m/s}$",
+      "$10\\,\\text{m/s}$",
+      "$50\\,\\text{m/s}$",
+      "$100\\,\\text{m/s}$"
+    ],
+    "answer": 1,
+    "explanation": "Apply Bernoulli from the surface (large area, $v \\approx 0$, $P = P_0$) to the hole ($P = P_0$, height $= 0$): $\\rho g h = \\frac{1}{2}\\rho v^2 \\Rightarrow v = \\sqrt{2gh} = \\sqrt{2(10)(5)} = \\sqrt{100} = 10\\,\\text{m/s}$. This is Torricelli's theorem."
   }
 ];
