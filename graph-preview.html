@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JPrep — Graph Preview</title>
+  <style>
+    /* ─── CSS Custom Properties (mirroring styles.css) ─── */
+    :root {
+      --bg-primary: #ffffff;
+      --bg-secondary: #f8fafc;
+      --bg-card: #ffffff;
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #94a3b8;
+      --border-color: #e2e8f0;
+      --accent-blue: #3b82f6;
+      --accent-blue-hover: #2563eb;
+      --accent-green: #22c55e;
+      --accent-yellow: #eab308;
+      --accent-red: #ef4444;
+      --accent-purple: #8b5cf6;
+      --accent-orange: #f97316;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.1), 0 2px 6px rgba(0,0,0,0.06);
+    }
+
+    [data-theme="dark"] {
+      --bg-primary: #1a1f2e;
+      --bg-secondary: #1e2639;
+      --bg-card: #242d3d;
+      --text-primary: #e6edf3;
+      --text-secondary: #8b949e;
+      --text-muted: #4a5568;
+      --border-color: #2e3a52;
+      --accent-blue: #58a6ff;
+      --accent-blue-hover: #79b8ff;
+      --accent-green: #3fb950;
+      --accent-red: #f85149;
+      --accent-yellow: #d29922;
+      --accent-purple: #bc8cff;
+      --accent-orange: #db6d28;
+      --shadow-sm: 0 1px 4px rgba(0,0,0,0.4);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.5);
+    }
+
+    /* ─── Reset & Base ─── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    /* ─── Header ─── */
+    .page-header {
+      background: var(--bg-primary);
+      border-bottom: 1px solid var(--border-color);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: var(--shadow-sm);
+    }
+    .page-header h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .graph-count {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 4px 12px;
+    }
+    .graph-count strong {
+      color: var(--accent-blue);
+    }
+    .toggle-btn {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      color: var(--text-primary);
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .toggle-btn:hover {
+      border-color: var(--accent-blue);
+      color: var(--accent-blue);
+    }
+
+    /* ─── Filter bar ─── */
+    .filter-bar {
+      padding: 12px 24px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border-color);
+    }
+    .filter-chip {
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-primary);
+      color: var(--text-secondary);
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: all 0.15s;
+      user-select: none;
+    }
+    .filter-chip:hover { border-color: var(--accent-blue); color: var(--accent-blue); }
+    .filter-chip.active { background: var(--accent-blue); color: #fff; border-color: var(--accent-blue); }
+
+    /* ─── Main grid ─── */
+    .grid-container {
+      padding: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+    }
+
+    /* ─── Card ─── */
+    .graph-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow 0.15s;
+    }
+    .graph-card:hover {
+      box-shadow: var(--shadow-md);
+    }
+    .card-meta {
+      padding: 12px 14px 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid var(--border-color);
+      flex-wrap: wrap;
+    }
+    .card-id {
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent-blue);
+      background: var(--bg-secondary);
+      padding: 2px 7px;
+      border-radius: 4px;
+      border: 1px solid var(--border-color);
+      white-space: nowrap;
+    }
+    .difficulty-badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+    .difficulty-badge.easy   { background: #dcfce7; color: #166534; }
+    .difficulty-badge.medium { background: #fef9c3; color: #854d0e; }
+    .difficulty-badge.hard   { background: #fee2e2; color: #991b1b; }
+    [data-theme="dark"] .difficulty-badge.easy   { background: #14532d; color: #86efac; }
+    [data-theme="dark"] .difficulty-badge.medium { background: #713f12; color: #fde68a; }
+    [data-theme="dark"] .difficulty-badge.hard   { background: #7f1d1d; color: #fca5a5; }
+
+    .subject-tag {
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 20px;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      white-space: nowrap;
+    }
+
+    .card-question {
+      padding: 10px 14px;
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    /* ─── SVG area — mirrors components.css ── */
+    .question-graph-wrap {
+      text-align: center;
+      padding: 12px 14px 14px;
+      overflow-x: auto;
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border-color);
+    }
+    .question-graph-wrap svg {
+      max-width: 100%;
+      height: auto;
+      display: inline-block;
+    }
+    /* Axes and arrowheads adapt to light/dark mode via CSS variables */
+    .question-graph-wrap svg .svg-axis       { stroke: var(--text-primary); fill: none; }
+    .question-graph-wrap svg .svg-axis-fill  { fill: var(--text-primary); stroke: none; }
+    /* Text labels */
+    .question-graph-wrap svg .svg-label      { fill: var(--text-primary); font-family: 'Inter', system-ui, sans-serif; }
+    /* Dashed reference lines */
+    .question-graph-wrap svg .svg-dashed     { stroke-dasharray: 5 3; fill: none; }
+    /* Light grid lines */
+    .question-graph-wrap svg .svg-grid       { stroke: var(--border-color); fill: none; }
+
+    /* ─── Empty state ─── */
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px 24px;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* ─── Responsive ─── */
+    @media (max-width: 600px) {
+      .grid-container { padding: 14px; gap: 14px; grid-template-columns: 1fr; }
+      .page-header { padding: 12px 14px; }
+      .filter-bar { padding: 10px 14px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="page-header">
+    <h1>JPrep — Graph Preview</h1>
+    <div class="header-right">
+      <span class="graph-count" id="graphCount">Loading…</span>
+      <button class="toggle-btn" id="themeToggle" onclick="toggleTheme()">🌙 Dark</button>
+    </div>
+  </header>
+
+  <div class="filter-bar" id="filterBar">
+    <span class="filter-chip active" data-filter="all" onclick="setFilter(this, 'all')">All</span>
+    <span class="filter-chip" data-filter="apmacro" onclick="setFilter(this, 'apmacro')">AP Macro</span>
+    <span class="filter-chip" data-filter="apmicro" onclick="setFilter(this, 'apmicro')">AP Micro</span>
+  </div>
+
+  <main class="grid-container" id="graphGrid">
+    <!-- cards injected by JS -->
+  </main>
+
+  <!-- Data files -->
+  <script src="js/data/apmacro_mcq.js"></script>
+  <script src="js/data/apmicro_mcq.js"></script>
+
+  <script>
+    // ── Collect all questions with graphSvg from both datasets ──────────────
+    // Both files expose their data on a known global variable.
+    // apmacro_mcq.js  →  window.APMACRO_MCQ   (or APMACRO_QUESTIONS, etc.)
+    // apmicro_mcq.js  →  window.APMICRO_MCQ
+    // We probe the globals to find them.
+
+    function findDataArray(candidates) {
+      for (const name of candidates) {
+        const val = window[name];
+        if (Array.isArray(val) && val.length > 0) return val;
+        // Some files export an object with a questions/mcq key
+        if (val && typeof val === 'object') {
+          for (const k of ['questions', 'mcq', 'data', 'items']) {
+            if (Array.isArray(val[k]) && val[k].length > 0) return val[k];
+          }
+        }
+      }
+      return [];
+    }
+
+    const macroData  = findDataArray(['APMACRO_MCQ', 'APMACRO_QUESTIONS', 'AP_MACRO_MCQ', 'apmacro_mcq']);
+    const microData  = findDataArray(['APMICRO_MCQ', 'APMICRO_QUESTIONS', 'AP_MICRO_MCQ', 'apmicro_mcq']);
+
+    // Tag each question with its subject
+    const taggedMacro = macroData.map(q => ({ ...q, _subject: 'apmacro' }));
+    const taggedMicro = microData.map(q => ({ ...q, _subject: 'apmicro' }));
+
+    const allQuestions = [...taggedMacro, ...taggedMicro];
+    const graphQuestions = allQuestions.filter(q => q.graphSvg && q.graphSvg.trim().length > 0);
+
+    // ── Render ───────────────────────────────────────────────────────────────
+    let currentFilter = 'all';
+
+    function getDifficultyClass(d) {
+      if (!d) return '';
+      const dl = String(d).toLowerCase();
+      if (dl === 'easy' || dl === '1') return 'easy';
+      if (dl === 'hard' || dl === '3') return 'hard';
+      return 'medium';
+    }
+
+    function truncate(str, max) {
+      if (!str) return '';
+      const clean = str.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+      return clean.length > max ? clean.slice(0, max) + '…' : clean;
+    }
+
+    function renderCards(filter) {
+      const grid = document.getElementById('graphGrid');
+      const subset = filter === 'all'
+        ? graphQuestions
+        : graphQuestions.filter(q => q._subject === filter);
+
+      if (subset.length === 0) {
+        grid.innerHTML = `<div class="empty-state">No graphs found for this filter.</div>`;
+        return;
+      }
+
+      grid.innerHTML = subset.map(q => {
+        const id = q.id || q.questionId || '—';
+        const diff = q.difficulty || q.diff || '';
+        const diffClass = getDifficultyClass(diff);
+        const diffLabel = diff ? String(diff).charAt(0).toUpperCase() + String(diff).slice(1).toLowerCase() : '';
+        const subjectLabel = q._subject === 'apmacro' ? 'AP Macro' : 'AP Micro';
+        const questionText = truncate(q.question || q.stem || q.text || '', 120);
+
+        return `
+          <div class="graph-card" data-subject="${q._subject}">
+            <div class="card-meta">
+              <span class="card-id">${id}</span>
+              ${diffLabel ? `<span class="difficulty-badge ${diffClass}">${diffLabel}</span>` : ''}
+              <span class="subject-tag">${subjectLabel}</span>
+            </div>
+            <div class="card-question">${questionText || '<em>No question text</em>'}</div>
+            <div class="question-graph-wrap">${q.graphSvg}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function setFilter(el, filter) {
+      currentFilter = filter;
+      document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+      el.classList.add('active');
+      renderCards(filter);
+    }
+
+    function updateCount() {
+      const macroCount = graphQuestions.filter(q => q._subject === 'apmacro').length;
+      const microCount = graphQuestions.filter(q => q._subject === 'apmicro').length;
+      document.getElementById('graphCount').innerHTML =
+        `<strong>${graphQuestions.length}</strong> graphs · ${macroCount} Macro · ${microCount} Micro`;
+    }
+
+    // ── Theme toggle ─────────────────────────────────────────────────────────
+    let isDark = false;
+    function toggleTheme() {
+      isDark = !isDark;
+      document.documentElement.setAttribute('data-theme', isDark ? 'dark' : '');
+      document.getElementById('themeToggle').textContent = isDark ? '☀️ Light' : '🌙 Dark';
+    }
+
+    // ── Init ─────────────────────────────────────────────────────────────────
+    updateCount();
+    renderCards('all');
+
+    // Debug info in console
+    console.log(`[graph-preview] macro questions: ${macroData.length}, micro questions: ${microData.length}`);
+    console.log(`[graph-preview] questions with graphSvg: ${graphQuestions.length}`);
+  </script>
+</body>
+</html>

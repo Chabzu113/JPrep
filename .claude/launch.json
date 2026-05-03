@@ -12,6 +12,12 @@
       "runtimeExecutable": "/opt/homebrew/bin/node",
       "runtimeArgs": ["-e", "require('http').createServer((req,res)=>{const fs=require('fs'),path=require('path');let f=path.join('/Users/abhijayramaka/Documents/Coding/JPrep_new',req.url==='/'?'index.html':req.url);fs.readFile(f,(e,d)=>{if(e){res.writeHead(404);res.end('Not found');}else{const ext=path.extname(f);const ct={'html':'text/html','js':'application/javascript','css':'text/css','json':'application/json'}[ext.slice(1)]||'text/plain';res.writeHead(200,{'Content-Type':ct});res.end(d);}});}).listen(8080)"],
       "port": 8080
+    },
+    {
+      "name": "Graph Preview (Worktree)",
+      "runtimeExecutable": "/opt/homebrew/bin/node",
+      "runtimeArgs": ["-e", "require('http').createServer((req,res)=>{const fs=require('fs'),path=require('path');let f=path.join('/Users/abhijayramaka/Documents/Coding/JPrep_new/.claude/worktrees/wonderful-gould-22bd89',req.url==='/'?'graph-preview.html':req.url);fs.readFile(f,(e,d)=>{if(e){res.writeHead(404);res.end('Not found');}else{const ext=path.extname(f);const ct={'html':'text/html','js':'application/javascript','css':'text/css','json':'application/json'}[ext.slice(1)]||'text/plain';res.writeHead(200,{'Content-Type':ct});res.end(d);}});}).listen(3001)"],
+      "port": 3001
     }
   ]
 }
