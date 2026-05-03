@@ -1167,7 +1167,8 @@ window.PHYSICS_MCQ = [
       "Perpendicular to the line connecting them"
     ],
     "answer": 1,
-    "explanation": "Like charges repel. Two positive charges exert repulsive forces on each other, directed away from one another."
+    "explanation": "Like charges repel. Two positive charges exert repulsive forces on each other, directed away from one another.",
+    "deprecated": true
   },
   {
     "id": "aphy1_u8_q2",
@@ -1185,7 +1186,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Ohm's Law: $I=V/R=12/4=3\\\\,\\\\text{A}$. Current equals voltage divided by resistance. A common error is multiplying ($V\\\\times R=48\\\\,\\\\text{A}$) or inverting ($R/V=0.33\\\\,\\\\text{A}$) rather than applying $I=V/R$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='75' y1='55' x2='250' y2='55' stroke-width='2' class='svg-axis'/><line x1='250' y1='55' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='205' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='55' x2='75' y2='90' stroke-width='2' class='svg-axis'/><line x1='75' y1='170' x2='75' y2='205' stroke-width='2' class='svg-axis'/><line x1='65' y1='122' x2='85' y2='122' stroke-width='3' class='svg-axis'/><line x1='69' y1='134' x2='81' y2='134' stroke-width='2' class='svg-axis'/><text x='89' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='89' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='61' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>12 V</text><rect x='141' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='163' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R</text><text x='163' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>4 Ω</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='75' y1='55' x2='250' y2='55' stroke-width='2' class='svg-axis'/><line x1='250' y1='55' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='205' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='55' x2='75' y2='90' stroke-width='2' class='svg-axis'/><line x1='75' y1='170' x2='75' y2='205' stroke-width='2' class='svg-axis'/><line x1='65' y1='122' x2='85' y2='122' stroke-width='3' class='svg-axis'/><line x1='69' y1='134' x2='81' y2='134' stroke-width='2' class='svg-axis'/><text x='89' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='89' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='61' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>12 V</text><rect x='141' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='163' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R</text><text x='163' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>4 Ω</text></svg>",
+    "deprecated": true
   },
   {
     "id": "aphy1_u8_q3",
@@ -1203,7 +1205,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "For resistors in parallel: $\\\\frac{1}{R_{eq}} = \\\\frac{1}{R_1} + \\\\frac{1}{R_2} = \\\\frac{1}{6} + \\\\frac{1}{3} = \\\\frac{1}{6} + \\\\frac{2}{6} = \\\\frac{3}{6} = \\\\frac{1}{2}$. So $R_{eq} = 2\\\\,\\\\Omega$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='62' y1='45' x2='130' y2='45' stroke-width='2' class='svg-axis'/><line x1='130' y1='45' x2='255' y2='45' stroke-width='2' class='svg-axis'/><line x1='62' y1='215' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='215' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='255' y1='45' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='62' y1='45' x2='62' y2='90' stroke-width='2' class='svg-axis'/><line x1='62' y1='170' x2='62' y2='215' stroke-width='2' class='svg-axis'/><line x1='52' y1='122' x2='72' y2='122' stroke-width='3' class='svg-axis'/><line x1='56' y1='134' x2='68' y2='134' stroke-width='2' class='svg-axis'/><text x='76' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='76' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='48' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>ε</text><line x1='130' y1='45' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='240' y1='45' x2='240' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='102' x2='142' y2='102' stroke-width='2' class='svg-axis'/><line x1='228' y1='102' x2='240' y2='102' stroke-width='2' class='svg-axis'/><rect x='142' y='95' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='91' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='185' y='121' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>6 Ω</text><line x1='130' y1='159' x2='142' y2='159' stroke-width='2' class='svg-axis'/><line x1='228' y1='159' x2='240' y2='159' stroke-width='2' class='svg-axis'/><rect x='142' y='152' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='148' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='185' y='178' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>3 Ω</text><circle cx='130' cy='45' r='4' fill='#94a3b8'/><circle cx='130' cy='215' r='4' fill='#94a3b8'/><circle cx='240' cy='45' r='4' fill='#94a3b8'/><circle cx='240' cy='215' r='4' fill='#94a3b8'/></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='62' y1='45' x2='130' y2='45' stroke-width='2' class='svg-axis'/><line x1='130' y1='45' x2='255' y2='45' stroke-width='2' class='svg-axis'/><line x1='62' y1='215' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='215' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='255' y1='45' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='62' y1='45' x2='62' y2='90' stroke-width='2' class='svg-axis'/><line x1='62' y1='170' x2='62' y2='215' stroke-width='2' class='svg-axis'/><line x1='52' y1='122' x2='72' y2='122' stroke-width='3' class='svg-axis'/><line x1='56' y1='134' x2='68' y2='134' stroke-width='2' class='svg-axis'/><text x='76' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='76' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='48' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>ε</text><line x1='130' y1='45' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='240' y1='45' x2='240' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='102' x2='142' y2='102' stroke-width='2' class='svg-axis'/><line x1='228' y1='102' x2='240' y2='102' stroke-width='2' class='svg-axis'/><rect x='142' y='95' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='91' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='185' y='121' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>6 Ω</text><line x1='130' y1='159' x2='142' y2='159' stroke-width='2' class='svg-axis'/><line x1='228' y1='159' x2='240' y2='159' stroke-width='2' class='svg-axis'/><rect x='142' y='152' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='148' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='185' y='178' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>3 Ω</text><circle cx='130' cy='45' r='4' fill='#94a3b8'/><circle cx='130' cy='215' r='4' fill='#94a3b8'/><circle cx='240' cy='45' r='4' fill='#94a3b8'/><circle cx='240' cy='215' r='4' fill='#94a3b8'/></svg>",
+    "deprecated": true
   },
   {
     "id": "aphy1_u8_q4",
@@ -1220,7 +1223,8 @@ window.PHYSICS_MCQ = [
       "$100\\\\,\\\\text{W}$"
     ],
     "answer": 2,
-    "explanation": "Power dissipated in a resistor: $P=I^2R=(2)^2(10)=40\\\\,\\\\text{W}$. This form uses current and resistance directly. Students often choose $P=IV=V^2/R$ variants but make errors without the voltage. The common mistake is computing $P=IR=(2)(10)=20\\\\,\\\\text{W}$ (forgetting to square current)."
+    "explanation": "Power dissipated in a resistor: $P=I^2R=(2)^2(10)=40\\\\,\\\\text{W}$. This form uses current and resistance directly. Students often choose $P=IV=V^2/R$ variants but make errors without the voltage. The common mistake is computing $P=IR=(2)(10)=20\\\\,\\\\text{W}$ (forgetting to square current).",
+    "deprecated": true
   },
   {
     "id": "aphy1_u8_q5",
@@ -1238,7 +1242,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "The two parallel resistors have equivalent resistance $R_p = \\\\frac{R}{2}$. In series with the third: $R_{total} = R_p + R = \\\\frac{R}{2} + R = \\\\frac{3R}{2}$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='62' y1='48' x2='170' y2='48' stroke-width='2' class='svg-axis'/><line x1='245' y1='48' x2='258' y2='48' stroke-width='2' class='svg-axis'/><line x1='258' y1='48' x2='258' y2='212' stroke-width='2' class='svg-axis'/><line x1='62' y1='212' x2='258' y2='212' stroke-width='2' class='svg-axis'/><line x1='62' y1='48' x2='62' y2='92' stroke-width='2' class='svg-axis'/><line x1='62' y1='168' x2='62' y2='212' stroke-width='2' class='svg-axis'/><line x1='52' y1='122' x2='72' y2='122' stroke-width='3' class='svg-axis'/><line x1='56' y1='134' x2='68' y2='134' stroke-width='2' class='svg-axis'/><text x='76' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='76' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='48' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>ε</text><rect x='92' y='41' width='48' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='116' y='37' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='116' y='67' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>R</text><line x1='170' y1='48' x2='170' y2='212' stroke-width='2' class='svg-axis'/><line x1='245' y1='48' x2='245' y2='212' stroke-width='2' class='svg-axis'/><line x1='170' y1='103' x2='178' y2='103' stroke-width='2' class='svg-axis'/><line x1='237' y1='103' x2='245' y2='103' stroke-width='2' class='svg-axis'/><rect x='178' y='96' width='59' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='208' y='92' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='208' y='122' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>R</text><line x1='170' y1='158' x2='178' y2='158' stroke-width='2' class='svg-axis'/><line x1='237' y1='158' x2='245' y2='158' stroke-width='2' class='svg-axis'/><rect x='178' y='151' width='59' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='208' y='147' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₃</text><text x='208' y='177' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>R</text><circle cx='170' cy='48' r='4' fill='#94a3b8'/><circle cx='170' cy='212' r='4' fill='#94a3b8'/><circle cx='245' cy='48' r='4' fill='#94a3b8'/><circle cx='245' cy='212' r='4' fill='#94a3b8'/></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='62' y1='48' x2='170' y2='48' stroke-width='2' class='svg-axis'/><line x1='245' y1='48' x2='258' y2='48' stroke-width='2' class='svg-axis'/><line x1='258' y1='48' x2='258' y2='212' stroke-width='2' class='svg-axis'/><line x1='62' y1='212' x2='258' y2='212' stroke-width='2' class='svg-axis'/><line x1='62' y1='48' x2='62' y2='92' stroke-width='2' class='svg-axis'/><line x1='62' y1='168' x2='62' y2='212' stroke-width='2' class='svg-axis'/><line x1='52' y1='122' x2='72' y2='122' stroke-width='3' class='svg-axis'/><line x1='56' y1='134' x2='68' y2='134' stroke-width='2' class='svg-axis'/><text x='76' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='76' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='48' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>ε</text><rect x='92' y='41' width='48' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='116' y='37' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='116' y='67' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>R</text><line x1='170' y1='48' x2='170' y2='212' stroke-width='2' class='svg-axis'/><line x1='245' y1='48' x2='245' y2='212' stroke-width='2' class='svg-axis'/><line x1='170' y1='103' x2='178' y2='103' stroke-width='2' class='svg-axis'/><line x1='237' y1='103' x2='245' y2='103' stroke-width='2' class='svg-axis'/><rect x='178' y='96' width='59' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='208' y='92' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='208' y='122' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>R</text><line x1='170' y1='158' x2='178' y2='158' stroke-width='2' class='svg-axis'/><line x1='237' y1='158' x2='245' y2='158' stroke-width='2' class='svg-axis'/><rect x='178' y='151' width='59' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='208' y='147' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₃</text><text x='208' y='177' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>R</text><circle cx='170' cy='48' r='4' fill='#94a3b8'/><circle cx='170' cy='212' r='4' fill='#94a3b8'/><circle cx='245' cy='48' r='4' fill='#94a3b8'/><circle cx='245' cy='212' r='4' fill='#94a3b8'/></svg>",
+    "deprecated": true
   },
   {
     "id": "aphy1_u8_q6",
@@ -1255,7 +1260,8 @@ window.PHYSICS_MCQ = [
       "$1.8\\\\,\\\\text{N}$"
     ],
     "answer": 2,
-    "explanation": "Using Coulomb's Law: $$F = \\\\frac{kq_1 q_2}{r^2} = \\\\frac{(9\\\\times10^9)(2\\\\times10^{-6})(3\\\\times10^{-6})}{(0.3)^2} = \\\\frac{54\\\\times10^{-3}}{0.09} = 0.6\\\\,\\\\text{N}$$"
+    "explanation": "Using Coulomb's Law: $$F = \\\\frac{kq_1 q_2}{r^2} = \\\\frac{(9\\\\times10^9)(2\\\\times10^{-6})(3\\\\times10^{-6})}{(0.3)^2} = \\\\frac{54\\\\times10^{-3}}{0.09} = 0.6\\\\,\\\\text{N}$$",
+    "deprecated": true
   },
   {
     "id": "aphy1_u8_q7",
@@ -1272,7 +1278,8 @@ window.PHYSICS_MCQ = [
       "$3.2\\\\times10^5\\\\,\\\\text{N/C}$"
     ],
     "answer": 1,
-    "explanation": "Electric field is defined as $E = \\\\frac{F}{q}$. $$E = \\\\frac{0.08}{4\\\\times10^{-6}} = 2\\\\times10^4\\\\,\\\\text{N/C}$$"
+    "explanation": "Electric field is defined as $E = \\\\frac{F}{q}$. $$E = \\\\frac{0.08}{4\\\\times10^{-6}} = 2\\\\times10^4\\\\,\\\\text{N/C}$$",
+    "deprecated": true
   },
   {
     "id": "aphy1_u8_q8",
@@ -1290,7 +1297,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Total resistance: $R_{eq} = 4 + 8 = 12\\\\,\\\\Omega$. Current: $I = \\\\frac{24}{12} = 2\\\\,\\\\text{A}$. Voltage across $R_1$: $V_1 = IR_1 = 2 \\\\times 4 = 8\\\\,\\\\text{V}$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='75' y1='55' x2='250' y2='55' stroke-width='2' class='svg-axis'/><line x1='250' y1='55' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='205' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='55' x2='75' y2='90' stroke-width='2' class='svg-axis'/><line x1='75' y1='170' x2='75' y2='205' stroke-width='2' class='svg-axis'/><line x1='65' y1='122' x2='85' y2='122' stroke-width='3' class='svg-axis'/><line x1='69' y1='134' x2='81' y2='134' stroke-width='2' class='svg-axis'/><text x='89' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='89' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='61' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>24 V</text><rect x='111' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='133' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='133' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>4 Ω</text><rect x='170' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='192' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='192' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>8 Ω</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='75' y1='55' x2='250' y2='55' stroke-width='2' class='svg-axis'/><line x1='250' y1='55' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='205' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='55' x2='75' y2='90' stroke-width='2' class='svg-axis'/><line x1='75' y1='170' x2='75' y2='205' stroke-width='2' class='svg-axis'/><line x1='65' y1='122' x2='85' y2='122' stroke-width='3' class='svg-axis'/><line x1='69' y1='134' x2='81' y2='134' stroke-width='2' class='svg-axis'/><text x='89' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='89' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='61' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>24 V</text><rect x='111' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='133' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='133' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>4 Ω</text><rect x='170' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='192' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='192' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>8 Ω</text></svg>",
+    "deprecated": true
   },
   {
     "id": "aphy1_u8_q9",
@@ -1308,7 +1316,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Each branch has the full battery voltage. $I_1 = \\\\frac{20}{10} = 2\\\\,\\\\text{A}$ and $I_2 = \\\\frac{20}{20} = 1\\\\,\\\\text{A}$. Total: $I = 2 + 1 = 3\\\\,\\\\text{A}$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='62' y1='45' x2='130' y2='45' stroke-width='2' class='svg-axis'/><line x1='130' y1='45' x2='255' y2='45' stroke-width='2' class='svg-axis'/><line x1='62' y1='215' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='215' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='255' y1='45' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='62' y1='45' x2='62' y2='90' stroke-width='2' class='svg-axis'/><line x1='62' y1='170' x2='62' y2='215' stroke-width='2' class='svg-axis'/><line x1='52' y1='122' x2='72' y2='122' stroke-width='3' class='svg-axis'/><line x1='56' y1='134' x2='68' y2='134' stroke-width='2' class='svg-axis'/><text x='76' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='76' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='48' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>20 V</text><line x1='130' y1='45' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='240' y1='45' x2='240' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='102' x2='142' y2='102' stroke-width='2' class='svg-axis'/><line x1='228' y1='102' x2='240' y2='102' stroke-width='2' class='svg-axis'/><rect x='142' y='95' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='91' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='185' y='121' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>10 Ω</text><line x1='130' y1='159' x2='142' y2='159' stroke-width='2' class='svg-axis'/><line x1='228' y1='159' x2='240' y2='159' stroke-width='2' class='svg-axis'/><rect x='142' y='152' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='148' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='185' y='178' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>20 Ω</text><circle cx='130' cy='45' r='4' fill='#94a3b8'/><circle cx='130' cy='215' r='4' fill='#94a3b8'/><circle cx='240' cy='45' r='4' fill='#94a3b8'/><circle cx='240' cy='215' r='4' fill='#94a3b8'/></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='62' y1='45' x2='130' y2='45' stroke-width='2' class='svg-axis'/><line x1='130' y1='45' x2='255' y2='45' stroke-width='2' class='svg-axis'/><line x1='62' y1='215' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='215' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='255' y1='45' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='62' y1='45' x2='62' y2='90' stroke-width='2' class='svg-axis'/><line x1='62' y1='170' x2='62' y2='215' stroke-width='2' class='svg-axis'/><line x1='52' y1='122' x2='72' y2='122' stroke-width='3' class='svg-axis'/><line x1='56' y1='134' x2='68' y2='134' stroke-width='2' class='svg-axis'/><text x='76' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='76' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='48' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>20 V</text><line x1='130' y1='45' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='240' y1='45' x2='240' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='102' x2='142' y2='102' stroke-width='2' class='svg-axis'/><line x1='228' y1='102' x2='240' y2='102' stroke-width='2' class='svg-axis'/><rect x='142' y='95' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='91' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='185' y='121' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>10 Ω</text><line x1='130' y1='159' x2='142' y2='159' stroke-width='2' class='svg-axis'/><line x1='228' y1='159' x2='240' y2='159' stroke-width='2' class='svg-axis'/><rect x='142' y='152' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='148' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='185' y='178' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>20 Ω</text><circle cx='130' cy='45' r='4' fill='#94a3b8'/><circle cx='130' cy='215' r='4' fill='#94a3b8'/><circle cx='240' cy='45' r='4' fill='#94a3b8'/><circle cx='240' cy='215' r='4' fill='#94a3b8'/></svg>",
+    "deprecated": true
   },
   {
     "id": "aphy1_u8_q10",
@@ -1326,7 +1335,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "In series the same current $I$ flows through both. Since $P = I^2 R$, the ratio of powers equals the ratio of resistances: $$\\\\frac{P_1}{P_2} = \\\\frac{R_1}{R_2} = \\\\frac{3}{6} = \\\\frac{1}{2}$$ so $P_1:P_2 = 1:2$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='75' y1='55' x2='250' y2='55' stroke-width='2' class='svg-axis'/><line x1='250' y1='55' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='205' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='55' x2='75' y2='90' stroke-width='2' class='svg-axis'/><line x1='75' y1='170' x2='75' y2='205' stroke-width='2' class='svg-axis'/><line x1='65' y1='122' x2='85' y2='122' stroke-width='3' class='svg-axis'/><line x1='69' y1='134' x2='81' y2='134' stroke-width='2' class='svg-axis'/><text x='89' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='89' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='61' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>9 V</text><rect x='111' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='133' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='133' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>3 Ω</text><rect x='170' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='192' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='192' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>6 Ω</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='75' y1='55' x2='250' y2='55' stroke-width='2' class='svg-axis'/><line x1='250' y1='55' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='205' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='55' x2='75' y2='90' stroke-width='2' class='svg-axis'/><line x1='75' y1='170' x2='75' y2='205' stroke-width='2' class='svg-axis'/><line x1='65' y1='122' x2='85' y2='122' stroke-width='3' class='svg-axis'/><line x1='69' y1='134' x2='81' y2='134' stroke-width='2' class='svg-axis'/><text x='89' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='89' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='61' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>9 V</text><rect x='111' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='133' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='133' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>3 Ω</text><rect x='170' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='192' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='192' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>6 Ω</text></svg>",
+    "deprecated": true
   },
   {
     "id": "aphy1_u9_q1",
@@ -1343,7 +1353,8 @@ window.PHYSICS_MCQ = [
       "$10\\\\,\\\\text{m/s}$"
     ],
     "answer": 3,
-    "explanation": "Wave speed equals frequency times wavelength: $v=f\\\\lambda=(5)(2)=10\\\\,\\\\text{m/s}$. This relationship holds for all mechanical waves. A common mistake is adding ($f+\\\\lambda=7$) or confusing which quantity is which; wave speed is the product of frequency and wavelength."
+    "explanation": "Wave speed equals frequency times wavelength: $v=f\\\\lambda=(5)(2)=10\\\\,\\\\text{m/s}$. This relationship holds for all mechanical waves. A common mistake is adding ($f+\\\\lambda=7$) or confusing which quantity is which; wave speed is the product of frequency and wavelength.",
+    "deprecated": true
   },
   {
     "id": "aphy1_u9_q2",
@@ -1360,7 +1371,8 @@ window.PHYSICS_MCQ = [
       "In the direction of energy transfer only"
     ],
     "answer": 1,
-    "explanation": "In a transverse wave, particles oscillate perpendicular to the direction of wave propagation. This is in contrast to longitudinal waves, where particles oscillate parallel to the wave direction."
+    "explanation": "In a transverse wave, particles oscillate perpendicular to the direction of wave propagation. This is in contrast to longitudinal waves, where particles oscillate parallel to the wave direction.",
+    "deprecated": true
   },
   {
     "id": "aphy1_u9_q3",
@@ -1378,7 +1390,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "For a string fixed at both ends, harmonics are integer multiples of the fundamental: $f_n = nf_1$. The third harmonic: $f_3 = 3(100) = 300\\\\,\\\\text{Hz}$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='55' y1='95' x2='55' y2='165' stroke-width='3' class='svg-axis'/><line x1='55' y1='98' x2='47' y2='106' stroke-width='1' class='svg-axis'/><line x1='55' y1='110' x2='47' y2='118' stroke-width='1' class='svg-axis'/><line x1='55' y1='122' x2='47' y2='130' stroke-width='1' class='svg-axis'/><line x1='55' y1='134' x2='47' y2='142' stroke-width='1' class='svg-axis'/><line x1='55' y1='146' x2='47' y2='154' stroke-width='1' class='svg-axis'/><line x1='255' y1='95' x2='255' y2='165' stroke-width='3' class='svg-axis'/><line x1='255' y1='98' x2='263' y2='106' stroke-width='1' class='svg-axis'/><line x1='255' y1='110' x2='263' y2='118' stroke-width='1' class='svg-axis'/><line x1='255' y1='122' x2='263' y2='130' stroke-width='1' class='svg-axis'/><line x1='255' y1='134' x2='263' y2='142' stroke-width='1' class='svg-axis'/><line x1='255' y1='146' x2='263' y2='154' stroke-width='1' class='svg-axis'/><polyline points='55,130 57,129 58,127 60,126 62,124 63,123 65,121 67,120 68,119 70,117 72,116 73,114 75,113 77,112 78,110 80,109 82,108 83,106 85,105 87,104 88,103 90,101 92,100 93,99 95,98 97,97 98,95 100,94 102,93 103,92 105,91 107,90 108,89 110,88 112,87 113,86 115,86 117,85 118,84 120,83 122,82 123,82 125,81 127,80 128,80 130,79 132,79 133,78 135,78 137,77 138,77 140,77 142,76 143,76 145,76 147,75 148,75 150,75 152,75 153,75 155,75 157,75 158,75 160,75 162,75 163,75 165,76 167,76 168,76 170,77 172,77 173,77 175,78 177,78 178,79 180,79 182,80 183,80 185,81 187,82 188,82 190,83 192,84 193,85 195,86 197,86 198,87 200,88 202,89 203,90 205,91 207,92 208,93 210,94 212,95 213,97 215,98 217,99 218,100 220,101 222,103 223,104 225,105 227,106 228,108 230,109 232,110 233,112 235,113 237,114 238,116 240,117 242,119 243,120 245,121 247,123 248,124 250,126 252,127 253,129 255,130' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='55' cy='130' r='5' fill='#dc2626'/><text x='55' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='255' cy='130' r='5' fill='#dc2626'/><text x='255' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='155' cy='75' r='5' fill='#3b82f6'/><text x='155' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 1 (fundamental)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='55' y1='95' x2='55' y2='165' stroke-width='3' class='svg-axis'/><line x1='55' y1='98' x2='47' y2='106' stroke-width='1' class='svg-axis'/><line x1='55' y1='110' x2='47' y2='118' stroke-width='1' class='svg-axis'/><line x1='55' y1='122' x2='47' y2='130' stroke-width='1' class='svg-axis'/><line x1='55' y1='134' x2='47' y2='142' stroke-width='1' class='svg-axis'/><line x1='55' y1='146' x2='47' y2='154' stroke-width='1' class='svg-axis'/><line x1='255' y1='95' x2='255' y2='165' stroke-width='3' class='svg-axis'/><line x1='255' y1='98' x2='263' y2='106' stroke-width='1' class='svg-axis'/><line x1='255' y1='110' x2='263' y2='118' stroke-width='1' class='svg-axis'/><line x1='255' y1='122' x2='263' y2='130' stroke-width='1' class='svg-axis'/><line x1='255' y1='134' x2='263' y2='142' stroke-width='1' class='svg-axis'/><line x1='255' y1='146' x2='263' y2='154' stroke-width='1' class='svg-axis'/><polyline points='55,130 57,129 58,127 60,126 62,124 63,123 65,121 67,120 68,119 70,117 72,116 73,114 75,113 77,112 78,110 80,109 82,108 83,106 85,105 87,104 88,103 90,101 92,100 93,99 95,98 97,97 98,95 100,94 102,93 103,92 105,91 107,90 108,89 110,88 112,87 113,86 115,86 117,85 118,84 120,83 122,82 123,82 125,81 127,80 128,80 130,79 132,79 133,78 135,78 137,77 138,77 140,77 142,76 143,76 145,76 147,75 148,75 150,75 152,75 153,75 155,75 157,75 158,75 160,75 162,75 163,75 165,76 167,76 168,76 170,77 172,77 173,77 175,78 177,78 178,79 180,79 182,80 183,80 185,81 187,82 188,82 190,83 192,84 193,85 195,86 197,86 198,87 200,88 202,89 203,90 205,91 207,92 208,93 210,94 212,95 213,97 215,98 217,99 218,100 220,101 222,103 223,104 225,105 227,106 228,108 230,109 232,110 233,112 235,113 237,114 238,116 240,117 242,119 243,120 245,121 247,123 248,124 250,126 252,127 253,129 255,130' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='55' cy='130' r='5' fill='#dc2626'/><text x='55' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='255' cy='130' r='5' fill='#dc2626'/><text x='255' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='155' cy='75' r='5' fill='#3b82f6'/><text x='155' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 1 (fundamental)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>",
+    "deprecated": true
   },
   {
     "id": "aphy1_u9_q4",
@@ -1396,7 +1409,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "For an open pipe, the fundamental wavelength is $\\\\lambda_1 = 2L = 2(0.85) = 1.7\\\\,\\\\text{m}$. $$f_1 = \\\\frac{v}{\\\\lambda_1} = \\\\frac{340}{1.7} = 200\\\\,\\\\text{Hz}$$",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='59' y1='92' x2='251' y2='92' stroke-width='2' class='svg-axis'/><line x1='59' y1='168' x2='251' y2='168' stroke-width='2' class='svg-axis'/><text x='55' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><text x='255' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><polyline points='55,75 57,75 58,75 60,75 62,75 63,75 65,76 67,76 68,76 70,77 72,77 73,77 75,78 77,78 78,79 80,79 82,80 83,80 85,81 87,82 88,82 90,83 92,84 93,85 95,86 97,86 98,87 100,88 102,89 103,90 105,91 107,92 108,93 110,94 112,95 113,97 115,98 117,99 118,100 120,101 122,103 123,104 125,105 127,106 128,108 130,109 132,110 133,112 135,113 137,114 138,116 140,117 142,119 143,120 145,121 147,123 148,124 150,126 152,127 153,129 155,130 157,131 158,133 160,134 162,136 163,137 165,139 167,140 168,141 170,143 172,144 173,146 175,147 177,148 178,150 180,151 182,152 183,154 185,155 187,156 188,158 190,159 192,160 193,161 195,162 197,163 198,165 200,166 202,167 203,168 205,169 207,170 208,171 210,172 212,173 213,174 215,174 217,175 218,176 220,177 222,178 223,178 225,179 227,180 228,180 230,181 232,181 233,182 235,182 237,183 238,183 240,183 242,184 243,184 245,184 247,185 248,185 250,185 252,185 253,185 255,185' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='155' cy='130' r='5' fill='#dc2626'/><text x='155' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='55' cy='75' r='5' fill='#3b82f6'/><text x='55' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='255' cy='75' r='5' fill='#3b82f6'/><text x='255' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 1 (fundamental)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='59' y1='92' x2='251' y2='92' stroke-width='2' class='svg-axis'/><line x1='59' y1='168' x2='251' y2='168' stroke-width='2' class='svg-axis'/><text x='55' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><text x='255' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><polyline points='55,75 57,75 58,75 60,75 62,75 63,75 65,76 67,76 68,76 70,77 72,77 73,77 75,78 77,78 78,79 80,79 82,80 83,80 85,81 87,82 88,82 90,83 92,84 93,85 95,86 97,86 98,87 100,88 102,89 103,90 105,91 107,92 108,93 110,94 112,95 113,97 115,98 117,99 118,100 120,101 122,103 123,104 125,105 127,106 128,108 130,109 132,110 133,112 135,113 137,114 138,116 140,117 142,119 143,120 145,121 147,123 148,124 150,126 152,127 153,129 155,130 157,131 158,133 160,134 162,136 163,137 165,139 167,140 168,141 170,143 172,144 173,146 175,147 177,148 178,150 180,151 182,152 183,154 185,155 187,156 188,158 190,159 192,160 193,161 195,162 197,163 198,165 200,166 202,167 203,168 205,169 207,170 208,171 210,172 212,173 213,174 215,174 217,175 218,176 220,177 222,178 223,178 225,179 227,180 228,180 230,181 232,181 233,182 235,182 237,183 238,183 240,183 242,184 243,184 245,184 247,185 248,185 250,185 252,185 253,185 255,185' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='155' cy='130' r='5' fill='#dc2626'/><text x='155' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='55' cy='75' r='5' fill='#3b82f6'/><text x='55' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='255' cy='75' r='5' fill='#3b82f6'/><text x='255' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 1 (fundamental)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>",
+    "deprecated": true
   },
   {
     "id": "aphy1_u9_q5",
@@ -1413,7 +1427,8 @@ window.PHYSICS_MCQ = [
       "A wave with double the frequency"
     ],
     "answer": 1,
-    "explanation": "Two waves of equal frequency and amplitude travelling in opposite directions superpose to form a standing wave, with fixed nodes (zero displacement) and antinodes (maximum displacement)."
+    "explanation": "Two waves of equal frequency and amplitude travelling in opposite directions superpose to form a standing wave, with fixed nodes (zero displacement) and antinodes (maximum displacement).",
+    "deprecated": true
   },
   {
     "id": "aphy1_u9_q6",
@@ -1430,7 +1445,8 @@ window.PHYSICS_MCQ = [
       "$1200\\\\,\\\\text{Hz}$"
     ],
     "answer": 2,
-    "explanation": "For a source approaching a stationary observer: $$f^\\\\prime = f_0 \\\\cdot \\\\frac{v}{v - v_s} = 1000 \\\\cdot \\\\frac{340}{340 - 34} = 1000 \\\\cdot \\\\frac{340}{306} \\\\approx 1111\\\\,\\\\text{Hz}$$"
+    "explanation": "For a source approaching a stationary observer: $$f^\\\\prime = f_0 \\\\cdot \\\\frac{v}{v - v_s} = 1000 \\\\cdot \\\\frac{340}{340 - 34} = 1000 \\\\cdot \\\\frac{340}{306} \\\\approx 1111\\\\,\\\\text{Hz}$$",
+    "deprecated": true
   },
   {
     "id": "aphy1_u9_q7",
@@ -1447,7 +1463,8 @@ window.PHYSICS_MCQ = [
       "$1030\\\\,\\\\text{Hz}$"
     ],
     "answer": 1,
-    "explanation": "Beat frequency is the absolute difference between the two frequencies: $$f_{beat} = |f_1 - f_2| = |518 - 512| = 6\\\\,\\\\text{Hz}$$"
+    "explanation": "Beat frequency is the absolute difference between the two frequencies: $$f_{beat} = |f_1 - f_2| = |518 - 512| = 6\\\\,\\\\text{Hz}$$",
+    "deprecated": true
   },
   {
     "id": "aphy1_u9_q8",
@@ -1465,7 +1482,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "For a pipe closed at one end the fundamental wavelength is $\\\\lambda_1 = 4L = 4(0.85) = 3.4\\\\,\\\\text{m}$. $$f_1 = \\\\frac{v}{\\\\lambda_1} = \\\\frac{340}{3.4} = 100\\\\,\\\\text{Hz}$$",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='55' y1='95' x2='55' y2='165' stroke-width='3' class='svg-axis'/><line x1='55' y1='98' x2='47' y2='106' stroke-width='1' class='svg-axis'/><line x1='55' y1='110' x2='47' y2='118' stroke-width='1' class='svg-axis'/><line x1='55' y1='122' x2='47' y2='130' stroke-width='1' class='svg-axis'/><line x1='55' y1='134' x2='47' y2='142' stroke-width='1' class='svg-axis'/><line x1='55' y1='146' x2='47' y2='154' stroke-width='1' class='svg-axis'/><line x1='55' y1='92' x2='251' y2='92' stroke-width='2' class='svg-axis'/><line x1='55' y1='168' x2='251' y2='168' stroke-width='2' class='svg-axis'/><text x='59' y='182' text-anchor='middle' font-size='10' class='svg-label'>closed</text><text x='255' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><polyline points='55,130 57,129 58,127 60,126 62,124 63,123 65,121 67,120 68,119 70,117 72,116 73,114 75,113 77,112 78,110 80,109 82,108 83,106 85,105 87,104 88,103 90,101 92,100 93,99 95,98 97,97 98,95 100,94 102,93 103,92 105,91 107,90 108,89 110,88 112,87 113,86 115,86 117,85 118,84 120,83 122,82 123,82 125,81 127,80 128,80 130,79 132,79 133,78 135,78 137,77 138,77 140,77 142,76 143,76 145,76 147,75 148,75 150,75 152,75 153,75 155,75 157,75 158,75 160,75 162,75 163,75 165,76 167,76 168,76 170,77 172,77 173,77 175,78 177,78 178,79 180,79 182,80 183,80 185,81 187,82 188,82 190,83 192,84 193,85 195,86 197,86 198,87 200,88 202,89 203,90 205,91 207,92 208,93 210,94 212,95 213,97 215,98 217,99 218,100 220,101 222,103 223,104 225,105 227,106 228,108 230,109 232,110 233,112 235,113 237,114 238,116 240,117 242,119 243,120 245,121 247,123 248,124 250,126 252,127 253,129 255,130' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='55' cy='130' r='5' fill='#dc2626'/><text x='55' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='255' cy='75' r='5' fill='#3b82f6'/><text x='255' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 1 (1st harmonic)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='55' y1='95' x2='55' y2='165' stroke-width='3' class='svg-axis'/><line x1='55' y1='98' x2='47' y2='106' stroke-width='1' class='svg-axis'/><line x1='55' y1='110' x2='47' y2='118' stroke-width='1' class='svg-axis'/><line x1='55' y1='122' x2='47' y2='130' stroke-width='1' class='svg-axis'/><line x1='55' y1='134' x2='47' y2='142' stroke-width='1' class='svg-axis'/><line x1='55' y1='146' x2='47' y2='154' stroke-width='1' class='svg-axis'/><line x1='55' y1='92' x2='251' y2='92' stroke-width='2' class='svg-axis'/><line x1='55' y1='168' x2='251' y2='168' stroke-width='2' class='svg-axis'/><text x='59' y='182' text-anchor='middle' font-size='10' class='svg-label'>closed</text><text x='255' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><polyline points='55,130 57,129 58,127 60,126 62,124 63,123 65,121 67,120 68,119 70,117 72,116 73,114 75,113 77,112 78,110 80,109 82,108 83,106 85,105 87,104 88,103 90,101 92,100 93,99 95,98 97,97 98,95 100,94 102,93 103,92 105,91 107,90 108,89 110,88 112,87 113,86 115,86 117,85 118,84 120,83 122,82 123,82 125,81 127,80 128,80 130,79 132,79 133,78 135,78 137,77 138,77 140,77 142,76 143,76 145,76 147,75 148,75 150,75 152,75 153,75 155,75 157,75 158,75 160,75 162,75 163,75 165,76 167,76 168,76 170,77 172,77 173,77 175,78 177,78 178,79 180,79 182,80 183,80 185,81 187,82 188,82 190,83 192,84 193,85 195,86 197,86 198,87 200,88 202,89 203,90 205,91 207,92 208,93 210,94 212,95 213,97 215,98 217,99 218,100 220,101 222,103 223,104 225,105 227,106 228,108 230,109 232,110 233,112 235,113 237,114 238,116 240,117 242,119 243,120 245,121 247,123 248,124 250,126 252,127 253,129 255,130' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='55' cy='130' r='5' fill='#dc2626'/><text x='55' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='255' cy='75' r='5' fill='#3b82f6'/><text x='255' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 1 (1st harmonic)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>",
+    "deprecated": true
   },
   {
     "id": "aphy1_u9_q9",
@@ -1482,7 +1500,8 @@ window.PHYSICS_MCQ = [
       "Intensity is unchanged"
     ],
     "answer": 2,
-    "explanation": "Wave intensity is proportional to the square of the amplitude: $I \\\\propto A^2$. Doubling the amplitude gives $$I \\\\propto (2A)^2 = 4A^2$$ so intensity quadruples."
+    "explanation": "Wave intensity is proportional to the square of the amplitude: $I \\\\propto A^2$. Doubling the amplitude gives $$I \\\\propto (2A)^2 = 4A^2$$ so intensity quadruples.",
+    "deprecated": true
   },
   {
     "id": "aphy1_u9_q10",
@@ -1499,7 +1518,8 @@ window.PHYSICS_MCQ = [
       "Destructive interference; resultant amplitude doubles"
     ],
     "answer": 1,
-    "explanation": "When two equal-amplitude waves are completely out of phase, the crest of one aligns with the trough of the other at every point, producing perfectly destructive interference and a net amplitude of zero."
+    "explanation": "When two equal-amplitude waves are completely out of phase, the crest of one aligns with the trough of the other at every point, producing perfectly destructive interference and a net amplitude of zero.",
+    "deprecated": true
   },
   {
     "id": "U3-MCQ-01",
@@ -2241,7 +2261,8 @@ window.PHYSICS_MCQ = [
       "$0$ each"
     ],
     "answer": 0,
-    "explanation": "When identical conductors touch, charge distributes equally. Total charge $= +8 + (-2) = +6\\\\,\\\\mu\\\\text{C}$. Each sphere receives $+6/2 = +3\\\\,\\\\mu\\\\text{C}$."
+    "explanation": "When identical conductors touch, charge distributes equally. Total charge $= +8 + (-2) = +6\\\\,\\\\mu\\\\text{C}$. Each sphere receives $+6/2 = +3\\\\,\\\\mu\\\\text{C}$.",
+    "deprecated": true
   },
   {
     "id": "U8-MCQ-02",
@@ -2258,7 +2279,8 @@ window.PHYSICS_MCQ = [
       "It is reduced to one-eighth"
     ],
     "answer": 2,
-    "explanation": "By Coulomb's Law, $F = \\\\frac{kq_1 q_2}{r^2}$. Doubling $r$ gives $F' = \\\\frac{kq_1 q_2}{(2r)^2} = \\\\frac{F}{4}$. The force is reduced to one-quarter."
+    "explanation": "By Coulomb's Law, $F = \\\\frac{kq_1 q_2}{r^2}$. Doubling $r$ gives $F' = \\\\frac{kq_1 q_2}{(2r)^2} = \\\\frac{F}{4}$. The force is reduced to one-quarter.",
+    "deprecated": true
   },
   {
     "id": "U8-MCQ-04",
@@ -2276,7 +2298,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Total resistance in series: $R_{total} = 2+3+5 = 10\\\\,\\\\Omega$. Current: $I = V/R = 20/10 = 2\\\\,\\\\text{A}$. In series, the same current flows through all resistors, so $I_{R_2} = 2\\\\,\\\\text{A}$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='75' y1='55' x2='250' y2='55' stroke-width='2' class='svg-axis'/><line x1='250' y1='55' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='205' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='55' x2='75' y2='90' stroke-width='2' class='svg-axis'/><line x1='75' y1='170' x2='75' y2='205' stroke-width='2' class='svg-axis'/><line x1='65' y1='122' x2='85' y2='122' stroke-width='3' class='svg-axis'/><line x1='69' y1='134' x2='81' y2='134' stroke-width='2' class='svg-axis'/><text x='89' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='89' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='61' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>20 V</text><rect x='97' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='119' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='119' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>2 Ω</text><rect x='141' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='163' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='163' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>3 Ω</text><rect x='184' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='206' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₃</text><text x='206' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>5 Ω</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='75' y1='55' x2='250' y2='55' stroke-width='2' class='svg-axis'/><line x1='250' y1='55' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='205' x2='250' y2='205' stroke-width='2' class='svg-axis'/><line x1='75' y1='55' x2='75' y2='90' stroke-width='2' class='svg-axis'/><line x1='75' y1='170' x2='75' y2='205' stroke-width='2' class='svg-axis'/><line x1='65' y1='122' x2='85' y2='122' stroke-width='3' class='svg-axis'/><line x1='69' y1='134' x2='81' y2='134' stroke-width='2' class='svg-axis'/><text x='89' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='89' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='61' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>20 V</text><rect x='97' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='119' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='119' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>2 Ω</text><rect x='141' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='163' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='163' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>3 Ω</text><rect x='184' y='48' width='44' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='206' y='44' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₃</text><text x='206' y='74' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>5 Ω</text></svg>",
+    "deprecated": true
   },
   {
     "id": "U8-MCQ-05",
@@ -2294,7 +2317,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "$I_1 = 12/4 = 3\\\\,\\\\text{A}$; $I_2 = 12/12 = 1\\\\,\\\\text{A}$. Total: $I = I_1 + I_2 = 3 + 1 = 4\\\\,\\\\text{A}$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='62' y1='45' x2='130' y2='45' stroke-width='2' class='svg-axis'/><line x1='130' y1='45' x2='255' y2='45' stroke-width='2' class='svg-axis'/><line x1='62' y1='215' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='215' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='255' y1='45' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='62' y1='45' x2='62' y2='90' stroke-width='2' class='svg-axis'/><line x1='62' y1='170' x2='62' y2='215' stroke-width='2' class='svg-axis'/><line x1='52' y1='122' x2='72' y2='122' stroke-width='3' class='svg-axis'/><line x1='56' y1='134' x2='68' y2='134' stroke-width='2' class='svg-axis'/><text x='76' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='76' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='48' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>12 V</text><line x1='130' y1='45' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='240' y1='45' x2='240' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='102' x2='142' y2='102' stroke-width='2' class='svg-axis'/><line x1='228' y1='102' x2='240' y2='102' stroke-width='2' class='svg-axis'/><rect x='142' y='95' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='91' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='185' y='121' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>4 Ω</text><line x1='130' y1='159' x2='142' y2='159' stroke-width='2' class='svg-axis'/><line x1='228' y1='159' x2='240' y2='159' stroke-width='2' class='svg-axis'/><rect x='142' y='152' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='148' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='185' y='178' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>12 Ω</text><circle cx='130' cy='45' r='4' fill='#94a3b8'/><circle cx='130' cy='215' r='4' fill='#94a3b8'/><circle cx='240' cy='45' r='4' fill='#94a3b8'/><circle cx='240' cy='215' r='4' fill='#94a3b8'/></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='62' y1='45' x2='130' y2='45' stroke-width='2' class='svg-axis'/><line x1='130' y1='45' x2='255' y2='45' stroke-width='2' class='svg-axis'/><line x1='62' y1='215' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='215' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='255' y1='45' x2='255' y2='215' stroke-width='2' class='svg-axis'/><line x1='62' y1='45' x2='62' y2='90' stroke-width='2' class='svg-axis'/><line x1='62' y1='170' x2='62' y2='215' stroke-width='2' class='svg-axis'/><line x1='52' y1='122' x2='72' y2='122' stroke-width='3' class='svg-axis'/><line x1='56' y1='134' x2='68' y2='134' stroke-width='2' class='svg-axis'/><text x='76' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='76' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='48' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>12 V</text><line x1='130' y1='45' x2='130' y2='215' stroke-width='2' class='svg-axis'/><line x1='240' y1='45' x2='240' y2='215' stroke-width='2' class='svg-axis'/><line x1='130' y1='102' x2='142' y2='102' stroke-width='2' class='svg-axis'/><line x1='228' y1='102' x2='240' y2='102' stroke-width='2' class='svg-axis'/><rect x='142' y='95' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='91' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='185' y='121' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>4 Ω</text><line x1='130' y1='159' x2='142' y2='159' stroke-width='2' class='svg-axis'/><line x1='228' y1='159' x2='240' y2='159' stroke-width='2' class='svg-axis'/><rect x='142' y='152' width='86' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='185' y='148' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='185' y='178' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>12 Ω</text><circle cx='130' cy='45' r='4' fill='#94a3b8'/><circle cx='130' cy='215' r='4' fill='#94a3b8'/><circle cx='240' cy='45' r='4' fill='#94a3b8'/><circle cx='240' cy='215' r='4' fill='#94a3b8'/></svg>",
+    "deprecated": true
   },
   {
     "id": "U8-MCQ-06",
@@ -2311,7 +2335,8 @@ window.PHYSICS_MCQ = [
       "$108\\\\,\\\\text{W}$"
     ],
     "answer": 2,
-    "explanation": "Power dissipated: $P=I^2R=(3)^2(6)=(9)(6)=54\\\\,\\\\text{W}$. Current squared times resistance gives power. Students often pick 18 W by computing $P=IR=3\\\\times6$ without squaring the current, which is the single most common power calculation error."
+    "explanation": "Power dissipated: $P=I^2R=(3)^2(6)=(9)(6)=54\\\\,\\\\text{W}$. Current squared times resistance gives power. Students often pick 18 W by computing $P=IR=3\\\\times6$ without squaring the current, which is the single most common power calculation error.",
+    "deprecated": true
   },
   {
     "id": "U8-MCQ-08",
@@ -2328,7 +2353,8 @@ window.PHYSICS_MCQ = [
       "$7\\\\,\\\\text{A}$"
     ],
     "answer": 2,
-    "explanation": "By Kirchhoff's Junction Rule (conservation of charge), the sum of currents entering a junction equals the sum leaving. $I_{out,2} = 5 - 2 = 3\\\\,\\\\text{A}$."
+    "explanation": "By Kirchhoff's Junction Rule (conservation of charge), the sum of currents entering a junction equals the sum leaving. $I_{out,2} = 5 - 2 = 3\\\\,\\\\text{A}$.",
+    "deprecated": true
   },
   {
     "id": "U8-MCQ-09",
@@ -2346,7 +2372,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Parallel combination: $\\\\frac{1}{R_p} = \\\\frac{1}{4} + \\\\frac{1}{12} = \\\\frac{3+1}{12} = \\\\frac{4}{12}$, so $R_p = 3\\\\,\\\\Omega$. Total: $R_{total} = 3 + 3 = 6\\\\,\\\\Omega$. Current: $I = 12/6 = 2\\\\,\\\\text{A}$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='62' y1='48' x2='170' y2='48' stroke-width='2' class='svg-axis'/><line x1='245' y1='48' x2='258' y2='48' stroke-width='2' class='svg-axis'/><line x1='258' y1='48' x2='258' y2='212' stroke-width='2' class='svg-axis'/><line x1='62' y1='212' x2='258' y2='212' stroke-width='2' class='svg-axis'/><line x1='62' y1='48' x2='62' y2='92' stroke-width='2' class='svg-axis'/><line x1='62' y1='168' x2='62' y2='212' stroke-width='2' class='svg-axis'/><line x1='52' y1='122' x2='72' y2='122' stroke-width='3' class='svg-axis'/><line x1='56' y1='134' x2='68' y2='134' stroke-width='2' class='svg-axis'/><text x='76' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='76' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='48' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>12 V</text><rect x='92' y='41' width='48' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='116' y='37' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₃</text><text x='116' y='67' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>3 Ω</text><line x1='170' y1='48' x2='170' y2='212' stroke-width='2' class='svg-axis'/><line x1='245' y1='48' x2='245' y2='212' stroke-width='2' class='svg-axis'/><line x1='170' y1='103' x2='178' y2='103' stroke-width='2' class='svg-axis'/><line x1='237' y1='103' x2='245' y2='103' stroke-width='2' class='svg-axis'/><rect x='178' y='96' width='59' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='208' y='92' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='208' y='122' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>4 Ω</text><line x1='170' y1='158' x2='178' y2='158' stroke-width='2' class='svg-axis'/><line x1='237' y1='158' x2='245' y2='158' stroke-width='2' class='svg-axis'/><rect x='178' y='151' width='59' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='208' y='147' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='208' y='177' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>12 Ω</text><circle cx='170' cy='48' r='4' fill='#94a3b8'/><circle cx='170' cy='212' r='4' fill='#94a3b8'/><circle cx='245' cy='48' r='4' fill='#94a3b8'/><circle cx='245' cy='212' r='4' fill='#94a3b8'/></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='62' y1='48' x2='170' y2='48' stroke-width='2' class='svg-axis'/><line x1='245' y1='48' x2='258' y2='48' stroke-width='2' class='svg-axis'/><line x1='258' y1='48' x2='258' y2='212' stroke-width='2' class='svg-axis'/><line x1='62' y1='212' x2='258' y2='212' stroke-width='2' class='svg-axis'/><line x1='62' y1='48' x2='62' y2='92' stroke-width='2' class='svg-axis'/><line x1='62' y1='168' x2='62' y2='212' stroke-width='2' class='svg-axis'/><line x1='52' y1='122' x2='72' y2='122' stroke-width='3' class='svg-axis'/><line x1='56' y1='134' x2='68' y2='134' stroke-width='2' class='svg-axis'/><text x='76' y='124' text-anchor='start' font-size='11' class='svg-label'>+</text><text x='76' y='138' text-anchor='start' font-size='11' class='svg-label'>−</text><text x='48' y='132' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>12 V</text><rect x='92' y='41' width='48' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='116' y='37' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₃</text><text x='116' y='67' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>3 Ω</text><line x1='170' y1='48' x2='170' y2='212' stroke-width='2' class='svg-axis'/><line x1='245' y1='48' x2='245' y2='212' stroke-width='2' class='svg-axis'/><line x1='170' y1='103' x2='178' y2='103' stroke-width='2' class='svg-axis'/><line x1='237' y1='103' x2='245' y2='103' stroke-width='2' class='svg-axis'/><rect x='178' y='96' width='59' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='208' y='92' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₁</text><text x='208' y='122' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>4 Ω</text><line x1='170' y1='158' x2='178' y2='158' stroke-width='2' class='svg-axis'/><line x1='237' y1='158' x2='245' y2='158' stroke-width='2' class='svg-axis'/><rect x='178' y='151' width='59' height='14' fill='none' stroke-width='1.5' class='svg-axis'/><text x='208' y='147' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>R₂</text><text x='208' y='177' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>12 Ω</text><circle cx='170' cy='48' r='4' fill='#94a3b8'/><circle cx='170' cy='212' r='4' fill='#94a3b8'/><circle cx='245' cy='48' r='4' fill='#94a3b8'/><circle cx='245' cy='212' r='4' fill='#94a3b8'/></svg>",
+    "deprecated": true
   },
   {
     "id": "U8-MCQ-10",
@@ -2363,7 +2390,8 @@ window.PHYSICS_MCQ = [
       "$120\\\\,\\\\text{C}$"
     ],
     "answer": 3,
-    "explanation": "Current is charge per unit time: $Q=It=(4)(30)=120\\\\,\\\\text{C}$. Current is the rate of charge flow. Students sometimes confuse current with charge (answering 4 C) or time with charge (answering 30 C), rather than multiplying them together."
+    "explanation": "Current is charge per unit time: $Q=It=(4)(30)=120\\\\,\\\\text{C}$. Current is the rate of charge flow. Students sometimes confuse current with charge (answering 4 C) or time with charge (answering 30 C), rather than multiplying them together.",
+    "deprecated": true
   },
   {
     "id": "U9-MCQ-01",
@@ -2380,7 +2408,8 @@ window.PHYSICS_MCQ = [
       "$62.5\\\\,\\\\text{m/s}$"
     ],
     "answer": 1,
-    "explanation": "The wave equation $v=f\\\\lambda=(25)(0.4)=10\\\\,\\\\text{m/s}$ relates all three wave properties. Wave speed is set by the medium, not the source. A common error is dividing frequency by wavelength ($25/0.4=62.5\\\\,\\\\text{m/s}$) instead of multiplying."
+    "explanation": "The wave equation $v=f\\\\lambda=(25)(0.4)=10\\\\,\\\\text{m/s}$ relates all three wave properties. Wave speed is set by the medium, not the source. A common error is dividing frequency by wavelength ($25/0.4=62.5\\\\,\\\\text{m/s}$) instead of multiplying.",
+    "deprecated": true
   },
   {
     "id": "U9-MCQ-02",
@@ -2397,7 +2426,8 @@ window.PHYSICS_MCQ = [
       "Longitudinal waves have a greater speed than transverse waves."
     ],
     "answer": 1,
-    "explanation": "In a longitudinal wave (e.g., sound), the particles of the medium oscillate parallel (back and forth) to the direction of wave propagation. In a transverse wave, oscillations are perpendicular to the wave's direction."
+    "explanation": "In a longitudinal wave (e.g., sound), the particles of the medium oscillate parallel (back and forth) to the direction of wave propagation. In a transverse wave, oscillations are perpendicular to the wave's direction.",
+    "deprecated": true
   },
   {
     "id": "U9-MCQ-03",
@@ -2415,7 +2445,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "For a string fixed at both ends, $\\\\lambda_n = \\\\frac{2L}{n}$. For the third harmonic ($n = 3$): $$\\\\lambda_3 = \\\\frac{2(0.6)}{3} = \\\\frac{1.2}{3} = 0.4\\\\,\\\\text{m}$$",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='55' y1='95' x2='55' y2='165' stroke-width='3' class='svg-axis'/><line x1='55' y1='98' x2='47' y2='106' stroke-width='1' class='svg-axis'/><line x1='55' y1='110' x2='47' y2='118' stroke-width='1' class='svg-axis'/><line x1='55' y1='122' x2='47' y2='130' stroke-width='1' class='svg-axis'/><line x1='55' y1='134' x2='47' y2='142' stroke-width='1' class='svg-axis'/><line x1='55' y1='146' x2='47' y2='154' stroke-width='1' class='svg-axis'/><line x1='255' y1='95' x2='255' y2='165' stroke-width='3' class='svg-axis'/><line x1='255' y1='98' x2='263' y2='106' stroke-width='1' class='svg-axis'/><line x1='255' y1='110' x2='263' y2='118' stroke-width='1' class='svg-axis'/><line x1='255' y1='122' x2='263' y2='130' stroke-width='1' class='svg-axis'/><line x1='255' y1='134' x2='263' y2='142' stroke-width='1' class='svg-axis'/><line x1='255' y1='146' x2='263' y2='154' stroke-width='1' class='svg-axis'/><polyline points='55,130 57,126 58,121 60,117 62,113 63,109 65,105 67,101 68,98 70,94 72,91 73,88 75,86 77,83 78,81 80,79 82,78 83,77 85,76 87,75 88,75 90,75 92,76 93,77 95,78 97,79 98,81 100,83 102,86 103,88 105,91 107,94 108,98 110,101 112,105 113,109 115,113 117,117 118,121 120,126 122,130 123,134 125,139 127,143 128,147 130,151 132,155 133,159 135,162 137,166 138,169 140,172 142,174 143,177 145,179 147,181 148,182 150,183 152,184 153,185 155,185 157,185 158,184 160,183 162,182 163,181 165,179 167,177 168,174 170,172 172,169 173,166 175,162 177,159 178,155 180,151 182,147 183,143 185,139 187,134 188,130 190,126 192,121 193,117 195,113 197,109 198,105 200,101 202,98 203,94 205,91 207,88 208,86 210,83 212,81 213,79 215,78 217,77 218,76 220,75 222,75 223,75 225,76 227,77 228,78 230,79 232,81 233,83 235,86 237,88 238,91 240,94 242,98 243,101 245,105 247,109 248,113 250,117 252,121 253,126 255,130' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='55' cy='130' r='5' fill='#dc2626'/><text x='55' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='122' cy='130' r='5' fill='#dc2626'/><text x='122' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='188' cy='130' r='5' fill='#dc2626'/><text x='188' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='255' cy='130' r='5' fill='#dc2626'/><text x='255' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='88' cy='75' r='5' fill='#3b82f6'/><text x='88' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='155' cy='185' r='5' fill='#3b82f6'/><text x='155' y='175' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='222' cy='75' r='5' fill='#3b82f6'/><text x='222' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 3 (3th harmonic)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='55' y1='95' x2='55' y2='165' stroke-width='3' class='svg-axis'/><line x1='55' y1='98' x2='47' y2='106' stroke-width='1' class='svg-axis'/><line x1='55' y1='110' x2='47' y2='118' stroke-width='1' class='svg-axis'/><line x1='55' y1='122' x2='47' y2='130' stroke-width='1' class='svg-axis'/><line x1='55' y1='134' x2='47' y2='142' stroke-width='1' class='svg-axis'/><line x1='55' y1='146' x2='47' y2='154' stroke-width='1' class='svg-axis'/><line x1='255' y1='95' x2='255' y2='165' stroke-width='3' class='svg-axis'/><line x1='255' y1='98' x2='263' y2='106' stroke-width='1' class='svg-axis'/><line x1='255' y1='110' x2='263' y2='118' stroke-width='1' class='svg-axis'/><line x1='255' y1='122' x2='263' y2='130' stroke-width='1' class='svg-axis'/><line x1='255' y1='134' x2='263' y2='142' stroke-width='1' class='svg-axis'/><line x1='255' y1='146' x2='263' y2='154' stroke-width='1' class='svg-axis'/><polyline points='55,130 57,126 58,121 60,117 62,113 63,109 65,105 67,101 68,98 70,94 72,91 73,88 75,86 77,83 78,81 80,79 82,78 83,77 85,76 87,75 88,75 90,75 92,76 93,77 95,78 97,79 98,81 100,83 102,86 103,88 105,91 107,94 108,98 110,101 112,105 113,109 115,113 117,117 118,121 120,126 122,130 123,134 125,139 127,143 128,147 130,151 132,155 133,159 135,162 137,166 138,169 140,172 142,174 143,177 145,179 147,181 148,182 150,183 152,184 153,185 155,185 157,185 158,184 160,183 162,182 163,181 165,179 167,177 168,174 170,172 172,169 173,166 175,162 177,159 178,155 180,151 182,147 183,143 185,139 187,134 188,130 190,126 192,121 193,117 195,113 197,109 198,105 200,101 202,98 203,94 205,91 207,88 208,86 210,83 212,81 213,79 215,78 217,77 218,76 220,75 222,75 223,75 225,76 227,77 228,78 230,79 232,81 233,83 235,86 237,88 238,91 240,94 242,98 243,101 245,105 247,109 248,113 250,117 252,121 253,126 255,130' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='55' cy='130' r='5' fill='#dc2626'/><text x='55' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='122' cy='130' r='5' fill='#dc2626'/><text x='122' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='188' cy='130' r='5' fill='#dc2626'/><text x='188' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='255' cy='130' r='5' fill='#dc2626'/><text x='255' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='88' cy='75' r='5' fill='#3b82f6'/><text x='88' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='155' cy='185' r='5' fill='#3b82f6'/><text x='155' y='175' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='222' cy='75' r='5' fill='#3b82f6'/><text x='222' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 3 (3th harmonic)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>",
+    "deprecated": true
   },
   {
     "id": "U9-MCQ-04",
@@ -2433,7 +2464,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Source moving away from observer: $$f' = f_0 \\\\cdot \\\\frac{v}{v + v_s} = 800 \\\\cdot \\\\frac{340}{340 + 34} = 800 \\\\cdot \\\\frac{340}{374} \\\\approx 727\\\\,\\\\text{Hz}$$",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><text x='155' y='18' text-anchor='middle' font-size='11' class='svg-label'>Doppler Effect</text><rect x='133' y='116' width='44' height='24' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='128' text-anchor='middle' font-size='14' class='svg-label'>🚓</text><text x='155' y='154' text-anchor='middle' font-size='9' class='svg-label'>car moving →</text><line x1='185' y1='130' x2='205.0' y2='130.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='215,130 205.0,135.0 205.0,125.0' fill='#8b5cf6' stroke='none'/><path d='M 177,130 A 16.8,28 0 0,1 177,130' fill='none' stroke='#94a3b8' stroke-width='1'/><ellipse cx='191' cy='130' rx='15.400000000000002' ry='28' fill='none' stroke='#3b82f6' stroke-width='1' stroke-dasharray='3 2'/><path d='M 177,130 A 26.4,44 0 0,1 177,130' fill='none' stroke='#94a3b8' stroke-width='1'/><ellipse cx='199' cy='130' rx='24.200000000000003' ry='44' fill='none' stroke='#3b82f6' stroke-width='1' stroke-dasharray='3 2'/><path d='M 177,130 A 36,60 0 0,1 177,130' fill='none' stroke='#94a3b8' stroke-width='1'/><ellipse cx='207' cy='130' rx='33' ry='60' fill='none' stroke='#3b82f6' stroke-width='1' stroke-dasharray='3 2'/><ellipse cx='114.3' cy='130' rx='22.1' ry='34' fill='none' stroke='#f97316' stroke-width='1' stroke-dasharray='3 2'/><ellipse cx='103.3' cy='130' rx='35.1' ry='54' fill='none' stroke='#f97316' stroke-width='1' stroke-dasharray='3 2'/><ellipse cx='92.3' cy='130' rx='48.1' ry='74' fill='none' stroke='#f97316' stroke-width='1' stroke-dasharray='3 2'/><text x='52' y='134' text-anchor='middle' font-size='16' class='svg-label'>👂</text><text x='52' y='152' text-anchor='middle' font-size='9' class='svg-label'>observer</text><text x='88' y='75' text-anchor='middle' fill='#f97316' font-size='9' class='svg-label'>expanded\n(lower f)</text><text x='218' y='75' text-anchor='middle' fill='#3b82f6' font-size='9' class='svg-label'>compressed\n(higher f)</text><text x='88' y='88' text-anchor='middle' fill='#f97316' font-size='9' class='svg-label'>(lower f)</text><text x='218' y='88' text-anchor='middle' fill='#3b82f6' font-size='9' class='svg-label'>(higher f)</text><text x='155' y='238' text-anchor='middle' font-size='9' class='svg-label'>f_obs = f_s · v/(v + v_s)  [car moving away]</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><text x='155' y='18' text-anchor='middle' font-size='11' class='svg-label'>Doppler Effect</text><rect x='133' y='116' width='44' height='24' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='128' text-anchor='middle' font-size='14' class='svg-label'>🚓</text><text x='155' y='154' text-anchor='middle' font-size='9' class='svg-label'>car moving →</text><line x1='185' y1='130' x2='205.0' y2='130.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='215,130 205.0,135.0 205.0,125.0' fill='#8b5cf6' stroke='none'/><path d='M 177,130 A 16.8,28 0 0,1 177,130' fill='none' stroke='#94a3b8' stroke-width='1'/><ellipse cx='191' cy='130' rx='15.400000000000002' ry='28' fill='none' stroke='#3b82f6' stroke-width='1' stroke-dasharray='3 2'/><path d='M 177,130 A 26.4,44 0 0,1 177,130' fill='none' stroke='#94a3b8' stroke-width='1'/><ellipse cx='199' cy='130' rx='24.200000000000003' ry='44' fill='none' stroke='#3b82f6' stroke-width='1' stroke-dasharray='3 2'/><path d='M 177,130 A 36,60 0 0,1 177,130' fill='none' stroke='#94a3b8' stroke-width='1'/><ellipse cx='207' cy='130' rx='33' ry='60' fill='none' stroke='#3b82f6' stroke-width='1' stroke-dasharray='3 2'/><ellipse cx='114.3' cy='130' rx='22.1' ry='34' fill='none' stroke='#f97316' stroke-width='1' stroke-dasharray='3 2'/><ellipse cx='103.3' cy='130' rx='35.1' ry='54' fill='none' stroke='#f97316' stroke-width='1' stroke-dasharray='3 2'/><ellipse cx='92.3' cy='130' rx='48.1' ry='74' fill='none' stroke='#f97316' stroke-width='1' stroke-dasharray='3 2'/><text x='52' y='134' text-anchor='middle' font-size='16' class='svg-label'>👂</text><text x='52' y='152' text-anchor='middle' font-size='9' class='svg-label'>observer</text><text x='88' y='75' text-anchor='middle' fill='#f97316' font-size='9' class='svg-label'>expanded\n(lower f)</text><text x='218' y='75' text-anchor='middle' fill='#3b82f6' font-size='9' class='svg-label'>compressed\n(higher f)</text><text x='88' y='88' text-anchor='middle' fill='#f97316' font-size='9' class='svg-label'>(lower f)</text><text x='218' y='88' text-anchor='middle' fill='#3b82f6' font-size='9' class='svg-label'>(higher f)</text><text x='155' y='238' text-anchor='middle' font-size='9' class='svg-label'>f_obs = f_s · v/(v + v_s)  [car moving away]</text></svg>",
+    "deprecated": true
   },
   {
     "id": "U9-MCQ-05",
@@ -2450,7 +2482,8 @@ window.PHYSICS_MCQ = [
       "$0.0025\\\\,\\\\text{m}$"
     ],
     "answer": 2,
-    "explanation": "When two waves are in phase (phase difference $= 0$), they interfere constructively. The resultant amplitude is $A_1 + A_2 = 0.05 + 0.05 = 0.1\\\\,\\\\text{m}$."
+    "explanation": "When two waves are in phase (phase difference $= 0$), they interfere constructively. The resultant amplitude is $A_1 + A_2 = 0.05 + 0.05 = 0.1\\\\,\\\\text{m}$.",
+    "deprecated": true
   },
   {
     "id": "U9-MCQ-06",
@@ -2467,7 +2500,8 @@ window.PHYSICS_MCQ = [
       "$27$"
     ],
     "answer": 2,
-    "explanation": "Intensity is proportional to the square of amplitude: $I \\\\propto A^2$. Tripling the amplitude gives $I' \\\\propto (3A)^2 = 9A^2$. The intensity increases by a factor of $9$."
+    "explanation": "Intensity is proportional to the square of amplitude: $I \\\\propto A^2$. Tripling the amplitude gives $I' \\\\propto (3A)^2 = 9A^2$. The intensity increases by a factor of $9$.",
+    "deprecated": true
   },
   {
     "id": "U9-MCQ-07",
@@ -2485,7 +2519,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "For an open pipe: $f_n = \\\\frac{nv}{2L}$. The fundamental is $f_1 = \\\\frac{340}{2(1.7)} = 100\\\\,\\\\text{Hz}$. The second harmonic: $f_2 = 2f_1 = 200\\\\,\\\\text{Hz}$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='59' y1='92' x2='251' y2='92' stroke-width='2' class='svg-axis'/><line x1='59' y1='168' x2='251' y2='168' stroke-width='2' class='svg-axis'/><text x='55' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><text x='255' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><polyline points='55,75 57,75 58,75 60,76 62,76 63,77 65,78 67,79 68,80 70,81 72,82 73,84 75,86 77,87 78,89 80,91 82,93 83,95 85,98 87,100 88,103 90,105 92,108 93,110 95,113 97,116 98,119 100,121 102,124 103,127 105,130 107,133 108,136 110,139 112,141 113,144 115,147 117,150 118,152 120,155 122,158 123,160 125,162 127,165 128,167 130,169 132,171 133,173 135,174 137,176 138,178 140,179 142,180 143,181 145,182 147,183 148,184 150,184 152,185 153,185 155,185 157,185 158,185 160,184 162,184 163,183 165,182 167,181 168,180 170,179 172,178 173,176 175,174 177,173 178,171 180,169 182,167 183,165 185,162 187,160 188,158 190,155 192,152 193,150 195,147 197,144 198,141 200,139 202,136 203,133 205,130 207,127 208,124 210,121 212,119 213,116 215,113 217,110 218,108 220,105 222,103 223,100 225,98 227,95 228,93 230,91 232,89 233,87 235,86 237,84 238,82 240,81 242,80 243,79 245,78 247,77 248,76 250,76 252,75 253,75 255,75' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='105' cy='130' r='5' fill='#dc2626'/><text x='105' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='205' cy='130' r='5' fill='#dc2626'/><text x='205' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='55' cy='75' r='5' fill='#3b82f6'/><text x='55' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='155' cy='75' r='5' fill='#3b82f6'/><text x='155' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='255' cy='75' r='5' fill='#3b82f6'/><text x='255' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 2 (2nd harmonic)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='59' y1='92' x2='251' y2='92' stroke-width='2' class='svg-axis'/><line x1='59' y1='168' x2='251' y2='168' stroke-width='2' class='svg-axis'/><text x='55' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><text x='255' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><polyline points='55,75 57,75 58,75 60,76 62,76 63,77 65,78 67,79 68,80 70,81 72,82 73,84 75,86 77,87 78,89 80,91 82,93 83,95 85,98 87,100 88,103 90,105 92,108 93,110 95,113 97,116 98,119 100,121 102,124 103,127 105,130 107,133 108,136 110,139 112,141 113,144 115,147 117,150 118,152 120,155 122,158 123,160 125,162 127,165 128,167 130,169 132,171 133,173 135,174 137,176 138,178 140,179 142,180 143,181 145,182 147,183 148,184 150,184 152,185 153,185 155,185 157,185 158,185 160,184 162,184 163,183 165,182 167,181 168,180 170,179 172,178 173,176 175,174 177,173 178,171 180,169 182,167 183,165 185,162 187,160 188,158 190,155 192,152 193,150 195,147 197,144 198,141 200,139 202,136 203,133 205,130 207,127 208,124 210,121 212,119 213,116 215,113 217,110 218,108 220,105 222,103 223,100 225,98 227,95 228,93 230,91 232,89 233,87 235,86 237,84 238,82 240,81 242,80 243,79 245,78 247,77 248,76 250,76 252,75 253,75 255,75' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='105' cy='130' r='5' fill='#dc2626'/><text x='105' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='205' cy='130' r='5' fill='#dc2626'/><text x='205' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='55' cy='75' r='5' fill='#3b82f6'/><text x='55' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='155' cy='75' r='5' fill='#3b82f6'/><text x='155' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='255' cy='75' r='5' fill='#3b82f6'/><text x='255' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 2 (2nd harmonic)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>",
+    "deprecated": true
   },
   {
     "id": "U9-MCQ-08",
@@ -2502,7 +2537,8 @@ window.PHYSICS_MCQ = [
       "$886\\\\,\\\\text{Hz}$"
     ],
     "answer": 1,
-    "explanation": "Beat frequency equals the absolute difference in frequencies: $f_{beat}=|f_1-f_2|=|446-440|=6\\\\,\\\\text{Hz}$. Beats arise from periodic constructive and destructive interference. Students sometimes halve the difference (getting 3 Hz) or confuse beat frequency with the average frequency (443 Hz)."
+    "explanation": "Beat frequency equals the absolute difference in frequencies: $f_{beat}=|f_1-f_2|=|446-440|=6\\\\,\\\\text{Hz}$. Beats arise from periodic constructive and destructive interference. Students sometimes halve the difference (getting 3 Hz) or confuse beat frequency with the average frequency (443 Hz).",
+    "deprecated": true
   },
   {
     "id": "U9-MCQ-09",
@@ -2520,7 +2556,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "A pipe closed at one end supports only odd harmonics: $f_n = n f_1$ for $n = 1, 3, 5, \\\\ldots$. The next resonant mode after the fundamental is the third harmonic: $f_3 = 3(85) = 255\\\\,\\\\text{Hz}$.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='55' y1='95' x2='55' y2='165' stroke-width='3' class='svg-axis'/><line x1='55' y1='98' x2='47' y2='106' stroke-width='1' class='svg-axis'/><line x1='55' y1='110' x2='47' y2='118' stroke-width='1' class='svg-axis'/><line x1='55' y1='122' x2='47' y2='130' stroke-width='1' class='svg-axis'/><line x1='55' y1='134' x2='47' y2='142' stroke-width='1' class='svg-axis'/><line x1='55' y1='146' x2='47' y2='154' stroke-width='1' class='svg-axis'/><line x1='55' y1='92' x2='251' y2='92' stroke-width='2' class='svg-axis'/><line x1='55' y1='168' x2='251' y2='168' stroke-width='2' class='svg-axis'/><text x='59' y='182' text-anchor='middle' font-size='10' class='svg-label'>closed</text><text x='255' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><polyline points='55,130 57,126 58,121 60,117 62,113 63,109 65,105 67,101 68,98 70,94 72,91 73,88 75,86 77,83 78,81 80,79 82,78 83,77 85,76 87,75 88,75 90,75 92,76 93,77 95,78 97,79 98,81 100,83 102,86 103,88 105,91 107,94 108,98 110,101 112,105 113,109 115,113 117,117 118,121 120,126 122,130 123,134 125,139 127,143 128,147 130,151 132,155 133,159 135,162 137,166 138,169 140,172 142,174 143,177 145,179 147,181 148,182 150,183 152,184 153,185 155,185 157,185 158,184 160,183 162,182 163,181 165,179 167,177 168,174 170,172 172,169 173,166 175,162 177,159 178,155 180,151 182,147 183,143 185,139 187,134 188,130 190,126 192,121 193,117 195,113 197,109 198,105 200,101 202,98 203,94 205,91 207,88 208,86 210,83 212,81 213,79 215,78 217,77 218,76 220,75 222,75 223,75 225,76 227,77 228,78 230,79 232,81 233,83 235,86 237,88 238,91 240,94 242,98 243,101 245,105 247,109 248,113 250,117 252,121 253,126 255,130' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='55' cy='130' r='5' fill='#dc2626'/><text x='55' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='188' cy='130' r='5' fill='#dc2626'/><text x='188' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='122' cy='75' r='5' fill='#3b82f6'/><text x='122' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='255' cy='75' r='5' fill='#3b82f6'/><text x='255' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 3 (3rd harmonic)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='55' y1='130' x2='255' y2='130' stroke-width='1' class='svg-axis svg-dashed'/><line x1='55' y1='95' x2='55' y2='165' stroke-width='3' class='svg-axis'/><line x1='55' y1='98' x2='47' y2='106' stroke-width='1' class='svg-axis'/><line x1='55' y1='110' x2='47' y2='118' stroke-width='1' class='svg-axis'/><line x1='55' y1='122' x2='47' y2='130' stroke-width='1' class='svg-axis'/><line x1='55' y1='134' x2='47' y2='142' stroke-width='1' class='svg-axis'/><line x1='55' y1='146' x2='47' y2='154' stroke-width='1' class='svg-axis'/><line x1='55' y1='92' x2='251' y2='92' stroke-width='2' class='svg-axis'/><line x1='55' y1='168' x2='251' y2='168' stroke-width='2' class='svg-axis'/><text x='59' y='182' text-anchor='middle' font-size='10' class='svg-label'>closed</text><text x='255' y='182' text-anchor='middle' font-size='10' class='svg-label'>open</text><polyline points='55,130 57,126 58,121 60,117 62,113 63,109 65,105 67,101 68,98 70,94 72,91 73,88 75,86 77,83 78,81 80,79 82,78 83,77 85,76 87,75 88,75 90,75 92,76 93,77 95,78 97,79 98,81 100,83 102,86 103,88 105,91 107,94 108,98 110,101 112,105 113,109 115,113 117,117 118,121 120,126 122,130 123,134 125,139 127,143 128,147 130,151 132,155 133,159 135,162 137,166 138,169 140,172 142,174 143,177 145,179 147,181 148,182 150,183 152,184 153,185 155,185 157,185 158,184 160,183 162,182 163,181 165,179 167,177 168,174 170,172 172,169 173,166 175,162 177,159 178,155 180,151 182,147 183,143 185,139 187,134 188,130 190,126 192,121 193,117 195,113 197,109 198,105 200,101 202,98 203,94 205,91 207,88 208,86 210,83 212,81 213,79 215,78 217,77 218,76 220,75 222,75 223,75 225,76 227,77 228,78 230,79 232,81 233,83 235,86 237,88 238,91 240,94 242,98 243,101 245,105 247,109 248,113 250,117 252,121 253,126 255,130' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='55' cy='130' r='5' fill='#dc2626'/><text x='55' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='188' cy='130' r='5' fill='#dc2626'/><text x='188' y='152' text-anchor='middle' fill='#dc2626' font-size='10' font-weight='600' class='svg-label'>N</text><circle cx='122' cy='75' r='5' fill='#3b82f6'/><text x='122' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><circle cx='255' cy='75' r='5' fill='#3b82f6'/><text x='255' y='65' text-anchor='middle' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>A</text><text x='155' y='24' text-anchor='middle' font-size='11' class='svg-label'>n = 3 (3rd harmonic)</text><line x1='55' y1='200' x2='255' y2='200' stroke-width='1' class='svg-axis svg-dashed'/><text x='155' y='212' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>L</text></svg>",
+    "deprecated": true
   },
   {
     "id": "U9-MCQ-10",
@@ -2537,7 +2574,8 @@ window.PHYSICS_MCQ = [
       "Both speed and wavelength"
     ],
     "answer": 2,
-    "explanation": "When a wave crosses a boundary between media, the frequency is determined by the source and remains constant. The wave speed and wavelength both change when the medium changes, but $f$ stays the same."
+    "explanation": "When a wave crosses a boundary between media, the frequency is determined by the source and remains constant. The wave speed and wavelength both change when the medium changes, but $f$ stays the same.",
+    "deprecated": true
   },
   {
     "id": "phys_img_q1",
@@ -3734,6 +3772,61 @@ window.PHYSICS_MCQ = [
     "explanation": "Acceleration due to gravity is constant throughout projectile motion, always equal to g downward. At the highest point, only the vertical velocity component is zero, but acceleration remains g downward. Choice A confuses zero velocity with zero acceleration. Choice C incorrectly applies components to acceleration. Choice D confuses acceleration with velocity and has wrong units."
   },
   {
+    "id": "U1-MCQ-03",
+    "subject": "apphys1",
+    "unit": 1,
+    "topic": "Position-Time Graph",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A vehicle's motion is shown in the position-time graph. Which of the following statements about the motion of the object is correct?",
+    "choices": [
+      "The object is moving with a constant positive velocity.",
+      "The slope of the graph is decreasing over time.",
+      "The object is moving with a non-uniform (changing) velocity.",
+      "The object is moving, then stopping, then moving again."
+    ],
+    "answer": 2,
+    "explanation": "The slope of the position-time graph gives velocity. If the slope changes over time, the velocity is changing — indicating non-uniform (accelerated) motion.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Position (m)</text><line x1='124' y1='35' x2='124' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='124' y='219' text-anchor='middle' class='svg-label'>2</text><line x1='182' y1='35' x2='182' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='219' text-anchor='middle' class='svg-label'>4</text><line x1='241' y1='35' x2='241' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='241' y='219' text-anchor='middle' class='svg-label'>6</text><line x1='65' y1='171' x2='124' y2='69' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='124' cy='69' r='3' fill='#3b82f6'/><line x1='124' y1='69' x2='182' y2='69' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='182' cy='69' r='3' fill='#3b82f6'/><line x1='182' y1='69' x2='241' y2='171' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='241' cy='171' r='3' fill='#3b82f6'/><circle cx='65' cy='171' r='3' fill='#3b82f6'/></svg>"
+  },
+  {
+    "id": "U1-MCQ-07",
+    "subject": "apphys1",
+    "unit": 1,
+    "topic": "Two-Object Acceleration",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Two cars start from rest $A$ and $B$ at the same spot and accelerate with the same acceleration. Car $A$ moves for $t$ seconds, and Car $B$ moves for $2t$ seconds. As the progression, the distance between the two objects:",
+    "choices": [
+      "Decreases linearly with time.",
+      "Increases quadratically with time.",
+      "Increases linearly with time.",
+      "Remains constant"
+    ],
+    "answer": 1,
+    "explanation": "Distance $A$: $x_A = \\\\frac{1}{2}at^2$. Distance $B$: $x_B = \\\\frac{1}{2}a(2t)^2 = 2at^2$. $\\\\Delta x = x_B - x_A = 2at^2 - \\\\frac{1}{2}at^2 = \\\\frac{3}{2}at^2$. Expanding the scenario: distance between them increases quadratically with $t$."
+  },
+  {
+    "id": "phys1_u1_q011",
+    "subject": "apphys1",
+    "unit": 1,
+    "topic": "position displacement",
+    "topicLabel": "Position and Displacement",
+    "difficulty": "easy",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A car travels 30 km east, then 20 km west. What is the car's displacement?",
+    "choices": [
+      "A) It has no initial vertical velocity",
+      "B) It has no horizontal acceleration",
+      "C) Both A and B",
+      "D) Neither A nor B"
+    ],
+    "answer": 0,
+    "explanation": "Displacement is the net change in position. Starting at origin, moving 30 km east puts the car at +30 km. Moving 20 km west brings it to +10 km, so displacement is 10 km east. Choice B adds distances instead of finding net displacement. Choice C gets the magnitude right but wrong direction. Choice D gives total distance traveled, not displacement."
+  },
+  {
     "id": "phys1_u2_q043",
     "subject": "apphys1",
     "unit": 2,
@@ -4339,6 +4432,78 @@ window.PHYSICS_MCQ = [
     "explanation": "Newton's third law states that action-reaction pairs are always equal in magnitude and opposite in direction, regardless of motion. The person pushes on the wall with force F, so the wall pushes back on the person with force F. The person slides because there's no friction to balance this reaction force, but this doesn't change the magnitude of the force pair. Choice A incorrectly suggests forces depend on motion. Choice C incorrectly assumes stationary objects exert no forces. Choice D incorrectly limits equal forces to stationary cases."
   },
   {
+    "id": "U2-MCQ-02",
+    "subject": "apphys1",
+    "unit": 2,
+    "topic": "Kinematic / Newton's Laws",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Two blocks $B_1$ and $B_2$ are continuously right along the same path uniformly at different speeds with the same acceleration. Which of the following statements is true?",
+    "choices": [
+      "The blocks will always be a constant distance apart.",
+      "$B_2$ can never catch up with $B_1$.",
+      "The blocks are communally right along a frictionless path.",
+      "If the system is released from rest, what, which of the ceiling doing decreasing this (Choose only) $\\\\Delta v_0$."
+    ],
+    "answer": 0,
+    "explanation": "For two objects starting at different speeds but with the same acceleration, they maintain constant relative velocity and therefore travel a constant distance apart (since $\\\\Delta v = v_2 - v_1$ remains constant and $\\\\Delta x = \\\\Delta v \\\\cdot t$ grows). Wait — with the same acceleration, the velocity difference $\\\\Delta v = v_{2,0} - v_{1,0}$ stays the same, and the gap grows linearly with $t$. Actually if they start the same time, the distance grows. The best answer is (A) if they start at same time and same place with same acceleration — they remain together."
+  },
+  {
+    "id": "U2-MCQ-03",
+    "subject": "apphys1",
+    "unit": 2,
+    "topic": "System of Blocks (Newton's Laws)",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Two blocks $B_1$ ($m_1$) and $B_2$ ($m_2$) are joined on the same part uniformly at $B_{1,0}$ and $B_{2,0}$ (initial velocity). The friction between the blocks is measured as $B_{1,0}$ are measured at $B_{1,0}$ and Project is measured at $B_{2,0}$. Which property spends more time in the actual being/this (that) potential?",
+    "choices": [
+      "Property A",
+      "Property B",
+      "Property C",
+      "It depends on the properties"
+    ],
+    "answer": 3,
+    "explanation": "Timing described by the actual component Initial velocity $(B_{1,0})$ = functionally. Since $(v_0)/(v_1) = (v_0)/(v_0) = 1$, Project B's greater initial velocity and behavior determined the actual being/this (that) potential at the air target."
+  },
+  {
+    "id": "U2-MCQ-06",
+    "subject": "apphys1",
+    "unit": 2,
+    "topic": "Block on Incline",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A constant horizontal force $F$ is applied to an object on a frictionless inclined surface. If Force is $50\\\\,\\\\text{N}$ applied horizontally to Block A on an inclined surface at $37^\\\\circ$, what is the magnitude of the force needed to accelerate the block to $5\\\\,\\\\text{m/s}^2$?",
+    "choices": [
+      "$F = 4\\\\,\\\\text{N}$",
+      "$F = N$",
+      "$F = 6\\\\,\\\\text{N}$",
+      "$F = 7\\\\,\\\\text{N}$"
+    ],
+    "answer": 0,
+    "explanation": "System acceleration: $a = F/(m_1 + m_2) = 1/(v_0)_y \\\\cdot (v_0)_x$. The contact force $B$ is the force needed to accelerate $m_1$: $F_B = m_1 \\\\cdot a$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='223' y2='120' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='250' y2='220' stroke-width='2' class='svg-axis'/><line x1='250' y1='220' x2='223' y2='120' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><path d='M 78,220 A 28,28 0 0,0 74,206' fill='none' stroke-width='1' class='svg-axis'/><text x='85' y='212' class='svg-label' font-size='11'>θ</text><line x1='66' y1='220' x2='58' y2='228' stroke-width='1' class='svg-axis'/><line x1='84' y1='220' x2='76' y2='228' stroke-width='1' class='svg-axis'/><line x1='102' y1='220' x2='94' y2='228' stroke-width='1' class='svg-axis'/><line x1='120' y1='220' x2='112' y2='228' stroke-width='1' class='svg-axis'/><line x1='138' y1='220' x2='130' y2='228' stroke-width='1' class='svg-axis'/><line x1='156' y1='220' x2='148' y2='228' stroke-width='1' class='svg-axis'/><line x1='174' y1='220' x2='166' y2='228' stroke-width='1' class='svg-axis'/><line x1='192' y1='220' x2='184' y2='228' stroke-width='1' class='svg-axis'/><rect x='113' y='141' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='129' y='162' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='129' y1='157' x2='129.0' y2='212.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='129,222 124.0,212.0 134.0,212.0' fill='#dc2626' stroke='none'/><text x='129' y='236' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='129' y1='157' x2='101.5' y2='109.4' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='96.50000000000001,100.70834875401148 105.8,106.9 97.2,111.9' fill='#3b82f6' stroke='none'/><text x='90' y='89' text-anchor='end' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text><line x1='129' y1='157' x2='177.5' y2='157.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='187.5,157 177.5,162.0 177.5,152.0' fill='#8b5cf6' stroke='none'/><text x='202' y='157' text-anchor='start' fill='#8b5cf6' font-size='12' font-weight='600' class='svg-label'>F</text></svg>"
+  },
+  {
+    "id": "phys1_u2_q073",
+    "subject": "apphys1",
+    "unit": 2,
+    "topic": "normal force",
+    "topicLabel": "normal force",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A book rests on a table, which sits on the floor. According to Newton's third law, what is the reaction force to the normal force that the table exerts upward on the book?",
+    "choices": [
+      "A) The gravitational force that Earth exerts downward on the book",
+      "B) The normal force that the floor exerts upward on the table",
+      "C) The normal force that the book exerts downward on the table",
+      "D) The gravitational force that the book exerts upward on Earth"
+    ],
+    "answer": 2,
+    "explanation": "Newton's third law pairs involve the same type of force between the same two objects, but in opposite directions. The table exerts a normal force upward on the book, so the reaction force is the normal force the book exerts downward on the table. Choice A pairs different force types (normal vs gravitational). Choice B involves different objects (floor-table instead of book-table). Choice D involves gravitational forces between book and Earth, not normal forces between book and table."
+  },
+  {
     "id": "phys1_u3_q074",
     "subject": "apphys1",
     "unit": 3,
@@ -4356,7 +4521,8 @@ window.PHYSICS_MCQ = [
       "D) Force"
     ],
     "answer": 0,
-    "explanation": "In uniform circular motion, speed remains constant while direction changes continuously. Velocity changes because direction changes, acceleration is always present (centripetal), and force varies depending on the system."
+    "explanation": "In uniform circular motion, speed remains constant while direction changes continuously. Velocity changes because direction changes, acceleration is always present (centripetal), and force varies depending on the system.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q075",
@@ -4376,7 +4542,8 @@ window.PHYSICS_MCQ = [
       "D) In the direction of motion"
     ],
     "answer": 0,
-    "explanation": "Centripetal acceleration always points toward the center of the circular path. Students often confuse this with tangential direction (velocity direction) or think it opposes motion."
+    "explanation": "Centripetal acceleration always points toward the center of the circular path. Students often confuse this with tangential direction (velocity direction) or think it opposes motion.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q076",
@@ -4396,7 +4563,8 @@ window.PHYSICS_MCQ = [
       "D) Engine force"
     ],
     "answer": 0,
-    "explanation": "Friction between tires and road provides the centripetal force for a car on a flat curve. Weight acts downward, normal force acts upward, and engine force is typically tangential to motion."
+    "explanation": "Friction between tires and road provides the centripetal force for a car on a flat curve. Weight acts downward, normal force acts upward, and engine force is typically tangential to motion.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q077",
@@ -4416,7 +4584,8 @@ window.PHYSICS_MCQ = [
       "D) Four times as strong"
     ],
     "answer": 0,
-    "explanation": "Gravitational force follows an inverse square law (F ∝ 1/$r^2$). When distance doubles, force becomes (1/2)² = 1/4 as strong. Students often forget the square relationship."
+    "explanation": "Gravitational force follows an inverse square law (F ∝ 1/$r^2$). When distance doubles, force becomes (1/2)² = 1/4 as strong. Students often forget the square relationship.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q078",
@@ -4436,7 +4605,8 @@ window.PHYSICS_MCQ = [
       "D) Electric force"
     ],
     "answer": 0,
-    "explanation": "Gravitational force provides the centripetal force needed for orbital motion. Centrifugal force is a fictitious force, while magnetic and electric forces are negligible for planetary motion."
+    "explanation": "Gravitational force provides the centripetal force needed for orbital motion. Centrifugal force is a fictitious force, while magnetic and electric forces are negligible for planetary motion.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q079",
@@ -4456,7 +4626,8 @@ window.PHYSICS_MCQ = [
       "D) First increases then decreases"
     ],
     "answer": 0,
-    "explanation": "For circular orbits, v = √(GM/r), so speed decreases as radius increases. Students often think satellites need to go faster to reach higher orbits, confusing launch requirements with orbital speed."
+    "explanation": "For circular orbits, v = √(GM/r), so speed decreases as radius increases. Students often think satellites need to go faster to reach higher orbits, confusing launch requirements with orbital speed.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q080",
@@ -4476,7 +4647,8 @@ window.PHYSICS_MCQ = [
       "D) Parabolas with the Sun at the vertex"
     ],
     "answer": 0,
-    "explanation": "Kepler's First Law states orbits are ellipses with the Sun at one focus, not the center. Students often think orbits are perfect circles or place the Sun at the center of the ellipse."
+    "explanation": "Kepler's First Law states orbits are ellipses with the Sun at one focus, not the center. Students often think orbits are perfect circles or place the Sun at the center of the ellipse.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q081",
@@ -4496,7 +4668,8 @@ window.PHYSICS_MCQ = [
       "D) First increases then decreases"
     ],
     "answer": 0,
-    "explanation": "Centripetal acceleration a = $v^2$/r, so increasing speed (v) increases acceleration when radius stays constant. Students sometimes think acceleration decreases because the motion looks more stable at higher speeds."
+    "explanation": "Centripetal acceleration a = $v^2$/r, so increasing speed (v) increases acceleration when radius stays constant. Students sometimes think acceleration decreases because the motion looks more stable at higher speeds.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q082",
@@ -4516,7 +4689,8 @@ window.PHYSICS_MCQ = [
       "D) At a constant speed throughout its orbit"
     ],
     "answer": 0,
-    "explanation": "Kepler's Second Law (equal areas in equal times) means planets move fastest at perihelion (closest to Sun). Students often think planets move at constant speed or fastest when farthest away."
+    "explanation": "Kepler's Second Law (equal areas in equal times) means planets move fastest at perihelion (closest to Sun). Students often think planets move at constant speed or fastest when farthest away.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q083",
@@ -4536,7 +4710,8 @@ window.PHYSICS_MCQ = [
       "D) The speed decreases by a factor of √2"
     ],
     "answer": 0,
-    "explanation": "Since ac = $v^2$/r, if ac remains constant and r doubles, then $v^2$/(2r) = original ac. This means $v^2$ must double, so v increases by √2. Students often think speed doubles (confusing with radius) or stays same (not recognizing the relationship)."
+    "explanation": "Since ac = $v^2$/r, if ac remains constant and r doubles, then $v^2$/(2r) = original ac. This means $v^2$ must double, so v increases by √2. Students often think speed doubles (confusing with radius) or stays same (not recognizing the relationship).",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q084",
@@ -4556,7 +4731,8 @@ window.PHYSICS_MCQ = [
       "D) Opposite to the direction of motion"
     ],
     "answer": 0,
-    "explanation": "Centripetal acceleration always points toward the center of the circular path, regardless of the object's position. Students often confuse this with velocity direction (tangent) or think it points downward due to gravity."
+    "explanation": "Centripetal acceleration always points toward the center of the circular path, regardless of the object's position. Students often confuse this with velocity direction (tangent) or think it points downward due to gravity.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q085",
@@ -4576,7 +4752,8 @@ window.PHYSICS_MCQ = [
       "D) 18 N"
     ],
     "answer": 0,
-    "explanation": "Fc = m$v^2$/r = (2 kg)(6 m/s)²/(3 m) = (2)(36)/3 = 24 N. Common errors include forgetting to square the velocity (getting 12 N) or incorrect arithmetic leading to 36 N or 18 N."
+    "explanation": "Fc = m$v^2$/r = (2 kg)(6 m/s)²/(3 m) = (2)(36)/3 = 24 N. Common errors include forgetting to square the velocity (getting 12 N) or incorrect arithmetic leading to 36 N or 18 N.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q086",
@@ -4596,7 +4773,8 @@ window.PHYSICS_MCQ = [
       "D) Air resistance"
     ],
     "answer": 0,
-    "explanation": "On a flat curve, static friction between tires and road provides the centripetal force directed toward the center. Normal force acts vertically upward, weight acts downward, and air resistance opposes motion but doesn't provide centripetal force."
+    "explanation": "On a flat curve, static friction between tires and road provides the centripetal force directed toward the center. Normal force acts vertically upward, weight acts downward, and air resistance opposes motion but doesn't provide centripetal force.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q087",
@@ -4616,7 +4794,8 @@ window.PHYSICS_MCQ = [
       "D) Decreases by a factor of 6"
     ],
     "answer": 0,
-    "explanation": "F = Gm₁m₂/$r^2$. If r becomes 3r, then F becomes Gm₁m₂/(3r)² = Gm₁m₂/9$r^2$ = F/9. Students often forget to square the distance factor, thinking it decreases by 3, or make other arithmetic errors."
+    "explanation": "F = Gm₁m₂/$r^2$. If r becomes 3r, then F becomes Gm₁m₂/(3r)² = Gm₁m₂/9$r^2$ = F/9. Students often forget to square the distance factor, thinking it decreases by 3, or make other arithmetic errors.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q088",
@@ -4636,7 +4815,8 @@ window.PHYSICS_MCQ = [
       "D) Remains the same"
     ],
     "answer": 0,
-    "explanation": "Gravitational force follows F = $GMm/r^2$. Doubling the orbital radius means F becomes GMm/(2r)² = GMm/4$r^2$ = F/4. Students often think it decreases by factor of 2 (not squaring) or confuse with other orbital relationships."
+    "explanation": "Gravitational force follows F = $GMm/r^2$. Doubling the orbital radius means F becomes GMm/(2r)² = GMm/4$r^2$ = F/4. Students often think it decreases by factor of 2 (not squaring) or confuse with other orbital relationships.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q089",
@@ -4656,7 +4836,8 @@ window.PHYSICS_MCQ = [
       "D) Speed first increases then decreases"
     ],
     "answer": 0,
-    "explanation": "For circular orbits, v = √(GM/r). As r increases, v decreases since they're inversely related through the square root. Students often think speed increases (confusing with centripetal acceleration) or remains constant."
+    "explanation": "For circular orbits, v = √(GM/r). As r increases, v decreases since they're inversely related through the square root. Students often think speed increases (confusing with centripetal acceleration) or remains constant.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q090",
@@ -4676,7 +4857,8 @@ window.PHYSICS_MCQ = [
       "D) 16"
     ],
     "answer": 0,
-    "explanation": "Kepler's third law: $T^2$ ∝ $r^3$. If TA = 8TB, then (8TB)² = 64T$B^2$ ∝ r$A^3$ and T$B^2$ ∝ r$B^3$. So r$A^3$/r$B^3$ = 64, meaning rA/rB = ∛64 = 4. Students often use wrong power relationships or arithmetic errors."
+    "explanation": "Kepler's third law: $T^2$ ∝ $r^3$. If TA = 8TB, then (8TB)² = 64T$B^2$ ∝ r$A^3$ and T$B^2$ ∝ r$B^3$. So r$A^3$/r$B^3$ = 64, meaning rA/rB = ∛64 = 4. Students often use wrong power relationships or arithmetic errors.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q091",
@@ -4696,7 +4878,8 @@ window.PHYSICS_MCQ = [
       "D) The halfway point has twice the angular velocity"
     ],
     "answer": 0,
-    "explanation": "All points on a rigid rotating object have the same angular velocity ω. Since ac = ω²r, the rim (r = R) has ac = ω²R while the halfway point (r = R/2) has ac = ω²R/2. Students often confuse angular and linear quantities."
+    "explanation": "All points on a rigid rotating object have the same angular velocity ω. Since ac = ω²r, the rim (r = R) has ac = ω²R while the halfway point (r = R/2) has ac = ω²R/2. Students often confuse angular and linear quantities.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q092",
@@ -4717,7 +4900,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "At the bottom, tension must provide centripetal force AND support the weight: T = mg + m$v^2$/r. At the top: T = m$v^2$/r - mg. At sides: T = m$v^2$/r. Bottom has maximum tension. Students often think it's the same everywhere or maximum at the top.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='155' cy='110' r='75' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='110' r='4' fill='#94a3b8'/><circle cx='155' cy='185' r='6' fill='#94a3b8'/><line x1='155' y1='110' x2='155' y2='185' stroke-width='1.5' stroke-dasharray='5 4' class='svg-axis'/><line x1='155' y1='185' x2='155.0' y2='133.0' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='155,123 160.0,133.0 150.0,133.0' fill='#16a34a' stroke='none'/><text x='161' y='147' text-anchor='start' fill='#16a34a' font-weight='600' class='svg-label'>T</text><line x1='155' y1='185' x2='155.0' y2='223.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,233 150.0,223.0 160.0,223.0' fill='#dc2626' stroke='none'/><text x='161' y='225' text-anchor='start' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><text x='155' y='251' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>T − F_g = mv²/r  →  T is maximum here</text><text x='167' y='189' text-anchor='start' font-size='10' class='svg-label'>Bottom</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='155' cy='110' r='75' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='110' r='4' fill='#94a3b8'/><circle cx='155' cy='185' r='6' fill='#94a3b8'/><line x1='155' y1='110' x2='155' y2='185' stroke-width='1.5' stroke-dasharray='5 4' class='svg-axis'/><line x1='155' y1='185' x2='155.0' y2='133.0' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='155,123 160.0,133.0 150.0,133.0' fill='#16a34a' stroke='none'/><text x='161' y='147' text-anchor='start' fill='#16a34a' font-weight='600' class='svg-label'>T</text><line x1='155' y1='185' x2='155.0' y2='223.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,233 150.0,223.0 160.0,223.0' fill='#dc2626' stroke='none'/><text x='161' y='225' text-anchor='start' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><text x='155' y='251' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>T − F_g = mv²/r  →  T is maximum here</text><text x='167' y='189' text-anchor='start' font-size='10' class='svg-label'>Bottom</text></svg>",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q093",
@@ -4737,7 +4921,8 @@ window.PHYSICS_MCQ = [
       "D) G$M^2$/$d^2$"
     ],
     "answer": 0,
-    "explanation": "The two identical masses exert equal and opposite forces on the middle mass since it's equidistant from both. These forces cancel, giving zero net force. Students might add the forces instead of recognizing they cancel due to symmetry."
+    "explanation": "The two identical masses exert equal and opposite forces on the middle mass since it's equidistant from both. These forces cancel, giving zero net force. Students might add the forces instead of recognizing they cancel due to symmetry.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q094",
@@ -4757,7 +4942,8 @@ window.PHYSICS_MCQ = [
       "D) The astronaut is too far from Earth for gravity to act"
     ],
     "answer": 0,
-    "explanation": "The astronaut is continuously falling toward Earth but also moving forward, creating orbital motion. Both astronaut and spacecraft fall together, creating apparent weightlessness. Common misconceptions include thinking there's no gravity in space or that distance eliminates gravity."
+    "explanation": "The astronaut is continuously falling toward Earth but also moving forward, creating orbital motion. Both astronaut and spacecraft fall together, creating apparent weightlessness. Common misconceptions include thinking there's no gravity in space or that distance eliminates gravity.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q095",
@@ -4777,7 +4963,8 @@ window.PHYSICS_MCQ = [
       "D) Higher orbital speed and shorter orbital period"
     ],
     "answer": 0,
-    "explanation": "For a satellite in a stable circular orbit, gravity provides the centripetal force: $GMm/r^2$ = m$v^2$/r, which gives v = √(GM/r). A larger orbital radius r means lower orbital speed. The period T = 2πr/v = 2π√($r^3$/GM) increases with r, so higher altitude means longer period. Both relationships assume the satellite maintains a circular orbit at that radius - the speed is uniquely determined by the orbital radius. Students often confuse the energy needed to reach a higher orbit with the orbital speed at that orbit, or incorrectly apply the period relationship."
+    "explanation": "For a satellite in a stable circular orbit, gravity provides the centripetal force: $GMm/r^2$ = m$v^2$/r, which gives v = √(GM/r). A larger orbital radius r means lower orbital speed. The period T = 2πr/v = 2π√($r^3$/GM) increases with r, so higher altitude means longer period. Both relationships assume the satellite maintains a circular orbit at that radius - the speed is uniquely determined by the orbital radius. Students often confuse the energy needed to reach a higher orbit with the orbital speed at that orbit, or incorrectly apply the period relationship.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q096",
@@ -4797,7 +4984,8 @@ window.PHYSICS_MCQ = [
       "D) At the midpoint between perihelion and aphelion"
     ],
     "answer": 0,
-    "explanation": "Kepler's second law (equal areas in equal times) requires faster motion when closer to the Sun to sweep equal areas. Students often think speed is constant (confusing with circular motion) or fastest when farthest (intuition about 'escape')."
+    "explanation": "Kepler's second law (equal areas in equal times) requires faster motion when closer to the Sun to sweep equal areas. Students often think speed is constant (confusing with circular motion) or fastest when farthest (intuition about 'escape').",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q097",
@@ -4818,7 +5006,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "On a banked curve at design speed, the normal force is perpendicular to the banked surface. Its horizontal component provides centripetal force while its vertical component balances weight. Students often think friction is always needed or that weight provides centripetal force.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='231' y2='135' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='250' y2='220' stroke-width='2' class='svg-axis'/><line x1='250' y1='220' x2='231' y2='135' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><path d='M 78,220 A 28,28 0 0,0 75,208' fill='none' stroke-width='1' class='svg-axis'/><text x='85' y='212' class='svg-label' font-size='11'>θ</text><line x1='66' y1='220' x2='58' y2='228' stroke-width='1' class='svg-axis'/><line x1='84' y1='220' x2='76' y2='228' stroke-width='1' class='svg-axis'/><line x1='102' y1='220' x2='94' y2='228' stroke-width='1' class='svg-axis'/><line x1='120' y1='220' x2='112' y2='228' stroke-width='1' class='svg-axis'/><line x1='138' y1='220' x2='130' y2='228' stroke-width='1' class='svg-axis'/><line x1='156' y1='220' x2='148' y2='228' stroke-width='1' class='svg-axis'/><line x1='174' y1='220' x2='166' y2='228' stroke-width='1' class='svg-axis'/><line x1='192' y1='220' x2='184' y2='228' stroke-width='1' class='svg-axis'/><rect x='118' y='148' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><line x1='134' y1='164' x2='134.0' y2='219.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='134,229 129.0,219.0 139.0,219.0' fill='#dc2626' stroke='none'/><text x='134' y='243' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='134' y1='164' x2='110.8' y2='114.2' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='106.52981298685455,105.08999384261774 115.3,112.0 106.2,116.3' fill='#3b82f6' stroke='none'/><text x='101' y='92' text-anchor='end' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='231' y2='135' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='250' y2='220' stroke-width='2' class='svg-axis'/><line x1='250' y1='220' x2='231' y2='135' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><path d='M 78,220 A 28,28 0 0,0 75,208' fill='none' stroke-width='1' class='svg-axis'/><text x='85' y='212' class='svg-label' font-size='11'>θ</text><line x1='66' y1='220' x2='58' y2='228' stroke-width='1' class='svg-axis'/><line x1='84' y1='220' x2='76' y2='228' stroke-width='1' class='svg-axis'/><line x1='102' y1='220' x2='94' y2='228' stroke-width='1' class='svg-axis'/><line x1='120' y1='220' x2='112' y2='228' stroke-width='1' class='svg-axis'/><line x1='138' y1='220' x2='130' y2='228' stroke-width='1' class='svg-axis'/><line x1='156' y1='220' x2='148' y2='228' stroke-width='1' class='svg-axis'/><line x1='174' y1='220' x2='166' y2='228' stroke-width='1' class='svg-axis'/><line x1='192' y1='220' x2='184' y2='228' stroke-width='1' class='svg-axis'/><rect x='118' y='148' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><line x1='134' y1='164' x2='134.0' y2='219.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='134,229 129.0,219.0 139.0,219.0' fill='#dc2626' stroke='none'/><text x='134' y='243' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='134' y1='164' x2='110.8' y2='114.2' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='106.52981298685455,105.08999384261774 115.3,112.0 106.2,116.3' fill='#3b82f6' stroke='none'/><text x='101' y='92' text-anchor='end' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text></svg>",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q098",
@@ -4838,7 +5027,8 @@ window.PHYSICS_MCQ = [
       "D) 1/2 times Earth's radius"
     ],
     "answer": 0,
-    "explanation": "Gravitational field g = $GM/r^2$. At surface: g = $GM/R^2$. For half value: $GM/r^2$ = (1/2)($GM/R^2$), so $r^2$ = 2$R^2$, giving r = √2R. Students often think it's simply 2R (not squaring) or make other algebraic errors."
+    "explanation": "Gravitational field g = $GM/r^2$. At surface: g = $GM/R^2$. For half value: $GM/r^2$ = (1/2)($GM/R^2$), so $r^2$ = 2$R^2$, giving r = √2R. Students often think it's simply 2R (not squaring) or make other algebraic errors.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q099",
@@ -4858,7 +5048,8 @@ window.PHYSICS_MCQ = [
       "D) Decreases by a factor of 2"
     ],
     "answer": 0,
-    "explanation": "Centripetal acceleration ac = ω²r. If ω doubles, then ac becomes (2ω)²r = 4ω²r, increasing by factor of 4. Students often think it doubles (linear relationship misconception) or consider other relationships incorrectly."
+    "explanation": "Centripetal acceleration ac = ω²r. If ω doubles, then ac becomes (2ω)²r = 4ω²r, increasing by factor of 4. Students often think it doubles (linear relationship misconception) or consider other relationships incorrectly.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q100",
@@ -4878,7 +5069,8 @@ window.PHYSICS_MCQ = [
       "D) It orbits Earth in the opposite direction"
     ],
     "answer": 0,
-    "explanation": "The wrench has the same orbital velocity as the space station when released, so it continues in the same orbit and appears to float relative to the astronauts. Students often think it falls down (Earth reference frame thinking) or flies away."
+    "explanation": "The wrench has the same orbital velocity as the space station when released, so it continues in the same orbit and appears to float relative to the astronauts. Students often think it falls down (Earth reference frame thinking) or flies away.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q101",
@@ -4898,7 +5090,8 @@ window.PHYSICS_MCQ = [
       "D) The speed remains the same"
     ],
     "answer": 0,
-    "explanation": "Using ac = $v^2$/r, if ac stays constant and r doubles, then $v^2$/(2r) = v₀²/r₀, so $v^2$ = 2v₀², meaning v = √2 × v₀. Choice B incorrectly assumes direct proportionality. Choice C inverts the relationship. Choice D ignores that radius affects the required speed for constant centripetal acceleration."
+    "explanation": "Using ac = $v^2$/r, if ac stays constant and r doubles, then $v^2$/(2r) = v₀²/r₀, so $v^2$ = 2v₀², meaning v = √2 × v₀. Choice B incorrectly assumes direct proportionality. Choice C inverts the relationship. Choice D ignores that radius affects the required speed for constant centripetal acceleration.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q102",
@@ -4918,7 +5111,8 @@ window.PHYSICS_MCQ = [
       "D) No friction is still required since the banking handles all forces"
     ],
     "answer": 0,
-    "explanation": "At the design speed v₀, the horizontal component of the normal force provides exactly the needed centripetal force. At 2v₀, the required centripetal force is 4 times larger (since F = m$v^2$/r), but the normal force component remains the same. Additional centripetal force must come from friction pointing radially inward toward the center. This is consistent with AP Physics 1 curriculum, which requires students to analyze forces in circular motion scenarios, identify the net inward force requirement, and understand that friction can supply additional centripetal force when a vehicle exceeds the design speed of a banked curve. Students often incorrectly choose friction pointing outward (choice B) because they confuse the tendency of the car to slide outward with the direction friction must act to prevent that sliding, or they select choice D believing banking always eliminates friction needs."
+    "explanation": "At the design speed v₀, the horizontal component of the normal force provides exactly the needed centripetal force. At 2v₀, the required centripetal force is 4 times larger (since F = m$v^2$/r), but the normal force component remains the same. Additional centripetal force must come from friction pointing radially inward toward the center. This is consistent with AP Physics 1 curriculum, which requires students to analyze forces in circular motion scenarios, identify the net inward force requirement, and understand that friction can supply additional centripetal force when a vehicle exceeds the design speed of a banked curve. Students often incorrectly choose friction pointing outward (choice B) because they confuse the tendency of the car to slide outward with the direction friction must act to prevent that sliding, or they select choice D believing banking always eliminates friction needs.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q103",
@@ -4938,7 +5132,8 @@ window.PHYSICS_MCQ = [
       "D) 1:2"
     ],
     "answer": 1,
-    "explanation": "Since both have the same centripetal acceleration a_c, and F = ma_c, the force ratio equals the mass ratio. Object A has twice the mass of B, so F_A/F_B = 2:1. Students often incorrectly try to use the radius difference or think equal accelerations mean equal forces (choice A), or incorrectly combine mass and radius effects (choices C and D)."
+    "explanation": "Since both have the same centripetal acceleration a_c, and F = ma_c, the force ratio equals the mass ratio. Object A has twice the mass of B, so F_A/F_B = 2:1. Students often incorrectly try to use the radius difference or think equal accelerations mean equal forces (choice A), or incorrectly combine mass and radius effects (choices C and D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q104",
@@ -4959,7 +5154,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "At the bottom, both tension and weight point toward the center (upward), so T - mg = m$v^2$/r, giving T = mg + m$v^2$/r. At the top, weight helps provide centripetal force, so T + mg = m$v^2$/r, giving T = m$v^2$/r - mg. The bottom gives the largest tension. Students often think tension is constant (choice D) or greatest at the top where the ball might 'fall' (choice A).",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='155' cy='110' r='75' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='110' r='4' fill='#94a3b8'/><circle cx='155' cy='185' r='6' fill='#94a3b8'/><line x1='155' y1='110' x2='155' y2='185' stroke-width='1.5' stroke-dasharray='5 4' class='svg-axis'/><line x1='155' y1='185' x2='155.0' y2='133.0' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='155,123 160.0,133.0 150.0,133.0' fill='#16a34a' stroke='none'/><text x='161' y='147' text-anchor='start' fill='#16a34a' font-weight='600' class='svg-label'>T</text><line x1='155' y1='185' x2='155.0' y2='223.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,233 150.0,223.0 160.0,223.0' fill='#dc2626' stroke='none'/><text x='161' y='225' text-anchor='start' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><text x='155' y='251' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>T − F_g = mv²/r  →  T is maximum here</text><text x='167' y='189' text-anchor='start' font-size='10' class='svg-label'>Bottom</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='155' cy='110' r='75' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='110' r='4' fill='#94a3b8'/><circle cx='155' cy='185' r='6' fill='#94a3b8'/><line x1='155' y1='110' x2='155' y2='185' stroke-width='1.5' stroke-dasharray='5 4' class='svg-axis'/><line x1='155' y1='185' x2='155.0' y2='133.0' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='155,123 160.0,133.0 150.0,133.0' fill='#16a34a' stroke='none'/><text x='161' y='147' text-anchor='start' fill='#16a34a' font-weight='600' class='svg-label'>T</text><line x1='155' y1='185' x2='155.0' y2='223.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,233 150.0,223.0 160.0,223.0' fill='#dc2626' stroke='none'/><text x='161' y='225' text-anchor='start' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><text x='155' y='251' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>T − F_g = mv²/r  →  T is maximum here</text><text x='167' y='189' text-anchor='start' font-size='10' class='svg-label'>Bottom</text></svg>",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q105",
@@ -4979,7 +5175,8 @@ window.PHYSICS_MCQ = [
       "D) 36F"
     ],
     "answer": 2,
-    "explanation": "Using F = Gm₁m₂/$r^2$, the new force is G(2m)(m)/(d/3)² = 2G$m^2$/($d^2$/9) = 18G$m^2$/$d^2$ = 18F. The mass doubling contributes a factor of 2, and the distance reduction contributes a factor of 9. Students often miss one effect: only considering mass change (choice A), only considering distance change (choice B), or incorrectly combining both (choice D)."
+    "explanation": "Using F = Gm₁m₂/$r^2$, the new force is G(2m)(m)/(d/3)² = 2G$m^2$/($d^2$/9) = 18G$m^2$/$d^2$ = 18F. The mass doubling contributes a factor of 2, and the distance reduction contributes a factor of 9. Students often miss one effect: only considering mass change (choice A), only considering distance change (choice B), or incorrectly combining both (choice D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q106",
@@ -4999,7 +5196,8 @@ window.PHYSICS_MCQ = [
       "D) 16 times faster"
     ],
     "answer": 1,
-    "explanation": "By conservation of angular momentum, mvr = constant, so v₁r₁ = v₂r₂. If r₂ = 4r₁, then v₁ = 4v₂, meaning the satellite is 4 times faster at perigee. Students often confuse this with energy relationships (choice A), think it's the square of the distance ratio (choice D), or incorrectly apply other orbital relationships (choice C)."
+    "explanation": "By conservation of angular momentum, mvr = constant, so v₁r₁ = v₂r₂. If r₂ = 4r₁, then v₁ = 4v₂, meaning the satellite is 4 times faster at perigee. Students often confuse this with energy relationships (choice A), think it's the square of the distance ratio (choice D), or incorrectly apply other orbital relationships (choice C).",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q107",
@@ -5019,7 +5217,8 @@ window.PHYSICS_MCQ = [
       "D) (R+h)/(R+3h)"
     ],
     "answer": 0,
-    "explanation": "For circular orbits, v = √(GM/r). The ratio is v_A/v_B = √((GM/(R+h))/(GM/(R+3h))) = √((R+3h)/(R+h)). Students often forget the square root (choice C), invert the relationship (choices B and D), or get confused about which satellite is faster and how orbital radius affects speed."
+    "explanation": "For circular orbits, v = √(GM/r). The ratio is v_A/v_B = √((GM/(R+h))/(GM/(R+3h))) = √((R+3h)/(R+h)). Students often forget the square root (choice C), invert the relationship (choices B and D), or get confused about which satellite is faster and how orbital radius affects speed.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q108",
@@ -5039,7 +5238,8 @@ window.PHYSICS_MCQ = [
       "D) 64 times larger"
     ],
     "answer": 1,
-    "explanation": "Kepler's third law states $T^2$ ∝ $r^3$. If T_X = 8T_E, then (8T_E)² = 64T_$E^2$ ∝ r_$X^3$, and T_$E^2$ ∝ r_$E^3$. Therefore 64(r_$E^3$) ∝ r_$X^3$, so r_$X^3$ = 64r_$E^3$, giving r_X = 4r_E. Students often use the period ratio directly (choice C), square it (choice D), or take the square root (choice A) instead of the cube root."
+    "explanation": "Kepler's third law states $T^2$ ∝ $r^3$. If T_X = 8T_E, then (8T_E)² = 64T_$E^2$ ∝ r_$X^3$, and T_$E^2$ ∝ r_$E^3$. Therefore 64(r_$E^3$) ∝ r_$X^3$, so r_$X^3$ = 64r_$E^3$, giving r_X = 4r_E. Students often use the period ratio directly (choice C), square it (choice D), or take the square root (choice A) instead of the cube root.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q109",
@@ -5059,7 +5259,8 @@ window.PHYSICS_MCQ = [
       "D) Reduces to half"
     ],
     "answer": 1,
-    "explanation": "Centripetal acceleration is a_c = 4π²$r/T^2$. When r doubles and T stays constant, a_c doubles. Students often think acceleration stays the same because speed increases proportionally (choice A), or incorrectly apply a_c = $v^2$/r to conclude it stays the same when v also changes (choice A), or think it quadruples by confusing relationships (choice C)."
+    "explanation": "Centripetal acceleration is a_c = 4π²$r/T^2$. When r doubles and T stays constant, a_c doubles. Students often think acceleration stays the same because speed increases proportionally (choice A), or incorrectly apply a_c = $v^2$/r to conclude it stays the same when v also changes (choice A), or think it quadruples by confusing relationships (choice C).",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q110",
@@ -5079,7 +5280,8 @@ window.PHYSICS_MCQ = [
       "D) 40 m/s"
     ],
     "answer": 2,
-    "explanation": "The maximum friction force provides centripetal force: μmg = m$v^2$/r. Solving: v = √(μgr) = √(0.8 $\\times$ 10 $\\times$ 100) = √800 = 28.3 m/s $\\approx$ 28 m/s. Students often forget to take the square root (choice D), use incorrect friction relationships (choice A), or make calculation errors (choice B)."
+    "explanation": "The maximum friction force provides centripetal force: μmg = m$v^2$/r. Solving: v = √(μgr) = √(0.8 $\\times$ 10 $\\times$ 100) = √800 = 28.3 m/s $\\approx$ 28 m/s. Students often forget to take the square root (choice D), use incorrect friction relationships (choice A), or make calculation errors (choice B).",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q111",
@@ -5099,7 +5301,8 @@ window.PHYSICS_MCQ = [
       "D) Period first increases then decreases"
     ],
     "answer": 1,
-    "explanation": "For a conical pendulum, T = 2π√(L cos θ/g), where L is string length. As θ increases, cos θ decreases, making the effective length (L cos θ) smaller and the period shorter. Students often think the period increases because the radius increases (choice A), or think it's independent of angle (choice C)."
+    "explanation": "For a conical pendulum, T = 2π√(L cos θ/g), where L is string length. As θ increases, cos θ decreases, making the effective length (L cos θ) smaller and the period shorter. Students often think the period increases because the radius increases (choice A), or think it's independent of angle (choice C).",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q112",
@@ -5119,7 +5322,8 @@ window.PHYSICS_MCQ = [
       "D) 4R"
     ],
     "answer": 2,
-    "explanation": "Gravitational field g = $GM/r^2$. If g₂ = g₁/4, then GM/r₂² = ($GM/R^2$)/4, so 1/r₂² = 1/(4$R^2$), giving r₂² = 4$R^2$, thus r₂ = 2R. Students often think the distance should be 1/4 as much (choice A), confuse inverse relationships (choice B), or think it should be 4 times farther (choice D)."
+    "explanation": "Gravitational field g = $GM/r^2$. If g₂ = g₁/4, then GM/r₂² = ($GM/R^2$)/4, so 1/r₂² = 1/(4$R^2$), giving r₂² = 4$R^2$, thus r₂ = 2R. Students often think the distance should be 1/4 as much (choice A), confuse inverse relationships (choice B), or think it should be 4 times farther (choice D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q113",
@@ -5139,7 +5343,8 @@ window.PHYSICS_MCQ = [
       "D) Remains the same"
     ],
     "answer": 1,
-    "explanation": "The first burn increases speed to enter the transfer ellipse, but this speed is less than the final circular orbital speed at 4h. A second burn at apogee is needed to circularize the orbit. Students often think one burn gives the final speed (choice A), or that speed decreases when going to higher orbits (choice C), confusing the overall relationship with the immediate effect of the burn."
+    "explanation": "The first burn increases speed to enter the transfer ellipse, but this speed is less than the final circular orbital speed at 4h. A second burn at apogee is needed to circularize the orbit. Students often think one burn gives the final speed (choice A), or that speed decreases when going to higher orbits (choice C), confusing the overall relationship with the immediate effect of the burn.",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q114",
@@ -5159,7 +5364,8 @@ window.PHYSICS_MCQ = [
       "D) 1/32 as fast"
     ],
     "answer": 2,
-    "explanation": "Kepler's second law (equal areas in equal times) gives us conservation of angular momentum: v₁r₁ = v₂r₂. So v₂/v₁ = r₁/r₂ = 1 AU/17 AU = 1/17. Students often confuse this with other inverse square relationships (choice A), think it involves square roots (choice B), or apply energy relationships incorrectly (choice D)."
+    "explanation": "Kepler's second law (equal areas in equal times) gives us conservation of angular momentum: v₁r₁ = v₂r₂. So v₂/v₁ = r₁/r₂ = 1 AU/17 AU = 1/17. Students often confuse this with other inverse square relationships (choice A), think it involves square roots (choice B), or apply energy relationships incorrectly (choice D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q115",
@@ -5179,7 +5385,8 @@ window.PHYSICS_MCQ = [
       "D) The outer point has twice the angular velocity and four times the centripetal acceleration"
     ],
     "answer": 2,
-    "explanation": "On a rigid rotating disk, all points have the same angular velocity ω. Centripetal acceleration a_c = ω²r, so the point at 2r has acceleration ω²(2r) = 4ω²r, which is four times larger. Students often think acceleration only doubles with radius (choice B), or confuse angular and linear quantities (choice D), or think acceleration doesn't depend on radius (choice A)."
+    "explanation": "On a rigid rotating disk, all points have the same angular velocity ω. Centripetal acceleration a_c = ω²r, so the point at 2r has acceleration ω²(2r) = 4ω²r, which is four times larger. Students often think acceleration only doubles with radius (choice B), or confuse angular and linear quantities (choice D), or think acceleration doesn't depend on radius (choice A).",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q116",
@@ -5200,7 +5407,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "At the top with zero tension, gravity alone provides centripetal force: mg = m$v^2$/r, so v_top = √(gr). Using energy conservation from top to bottom: $\\frac{1}{2}$mv_to$p^2$ + mg(2r) = $\\frac{1}{2}$mv_botto$m^2$, giving $\\frac{1}{2}$m(gr) + 2mgr = $\\frac{1}{2}$mv_botto$m^2$, so v_bottom = √(5gr). Students often use only the top condition (choice A), forget the height difference (choice C), or make energy calculation errors (choice B).",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='155' cy='155' r='75' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='155' r='4' fill='#94a3b8'/><circle cx='155' cy='80' r='6' fill='#94a3b8'/><line x1='155' y1='155' x2='155' y2='80' stroke-width='1.5' stroke-dasharray='5 4' class='svg-axis'/><text x='165' y='74' text-anchor='start' fill='#16a34a' font-size='11' class='svg-label'>T = 0</text><line x1='155' y1='80' x2='155.0' y2='130.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,140 150.0,130.0 160.0,130.0' fill='#dc2626' stroke='none'/><text x='161' y='128' text-anchor='start' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><text x='155' y='58' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>mg = mv²/r  →  v_top = √(gr)</text><text x='141' y='84' text-anchor='end' font-size='10' class='svg-label'>Top</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='155' cy='155' r='75' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='155' r='4' fill='#94a3b8'/><circle cx='155' cy='80' r='6' fill='#94a3b8'/><line x1='155' y1='155' x2='155' y2='80' stroke-width='1.5' stroke-dasharray='5 4' class='svg-axis'/><text x='165' y='74' text-anchor='start' fill='#16a34a' font-size='11' class='svg-label'>T = 0</text><line x1='155' y1='80' x2='155.0' y2='130.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,140 150.0,130.0 160.0,130.0' fill='#dc2626' stroke='none'/><text x='161' y='128' text-anchor='start' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><text x='155' y='58' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>mg = mv²/r  →  v_top = √(gr)</text><text x='141' y='84' text-anchor='end' font-size='10' class='svg-label'>Top</text></svg>",
+    "deprecated": true
   },
   {
     "id": "phys1_u3_q117",
@@ -5220,7 +5428,113 @@ window.PHYSICS_MCQ = [
       "D) 4v"
     ],
     "answer": 1,
-    "explanation": "For circular orbits, gravitational force provides centripetal force: $GMm/r^2$ = m$v^2$/r, so v = √(GM/r). When radius increases by factor of 4, speed decreases by factor of √4 = 2, giving v/2. Students often think speed is inversely proportional to radius (choice A), or that larger orbits mean higher speeds from everyday experience (choices C, D)."
+    "explanation": "For circular orbits, gravitational force provides centripetal force: $GMm/r^2$ = m$v^2$/r, so v = √(GM/r). When radius increases by factor of 4, speed decreases by factor of √4 = 2, giving v/2. Students often think speed is inversely proportional to radius (choice A), or that larger orbits mean higher speeds from everyday experience (choices C, D).",
+    "deprecated": true
+  },
+  {
+    "id": "U3-MCQ-02",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Work Done by a Force",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A constant force $F$ acts on an object as it moves horizontally. The force is directed at an angle $\\\\theta$ above the horizontal. If the object moves a distance $d$, which expression correctly gives the work done by $F$?",
+    "choices": [
+      "$W = Fd$",
+      "$W = Fd\\\\sin\\\\theta$",
+      "$W = Fd\\\\cos\\\\theta$",
+      "$W = Fd\\\\tan\\\\theta$"
+    ],
+    "answer": 2,
+    "explanation": "Work is defined as $W = \\\\vec{F} \\\\cdot \\\\vec{d} = Fd\\\\cos\\\\theta$, where $\\\\theta$ is the angle between the force vector and the displacement vector."
+  },
+  {
+    "id": "U3-MCQ-03",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Kinetic Energy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "An object's kinetic energy is $KE$. If its speed doubles while its mass remains the same, what is its new kinetic energy?",
+    "choices": [
+      "$KE$",
+      "$2\\\\,KE$",
+      "$4\\\\,KE$",
+      "$\\\\sqrt{2}\\\\,KE$"
+    ],
+    "answer": 2,
+    "explanation": "Kinetic energy is $KE = \\\\frac{1}{2}mv^2$. If speed doubles to $2v$: $$KE' = \\\\frac{1}{2}m(2v)^2 = \\\\frac{1}{2}m(4v^2) = 4 \\\\cdot \\\\frac{1}{2}mv^2 = 4\\\\,KE$$"
+  },
+  {
+    "id": "U3-MCQ-04",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Work-Energy Theorem",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A net force acts on an object initially at rest, displacing it $5\\\\,\\\\text{m}$. The net force is $12\\\\,\\\\text{N}$. What is the final kinetic energy of the object?",
+    "choices": [
+      "$12\\\\,\\\\text{J}$",
+      "$30\\\\,\\\\text{J}$",
+      "$60\\\\,\\\\text{J}$",
+      "$120\\\\,\\\\text{J}$"
+    ],
+    "answer": 2,
+    "explanation": "By the work-energy theorem, the net work done equals the change in kinetic energy. $W_{net} = F_{net} \\\\cdot d = (12)(5) = 60\\\\,\\\\text{J}$. Since the object started from rest, $KE_f = 60\\\\,\\\\text{J}$."
+  },
+  {
+    "id": "U3-MCQ-05",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Gravitational Potential Energy",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A $2\\\\,\\\\text{kg}$ object is at rest at a height of $5\\\\,\\\\text{m}$ above the ground. How much gravitational potential energy does it have? (Use $g = 10\\\\,\\\\text{m/s}^2$)",
+    "choices": [
+      "$10\\\\,\\\\text{J}$",
+      "$50\\\\,\\\\text{J}$",
+      "$100\\\\,\\\\text{J}$",
+      "$25\\\\,\\\\text{J}$"
+    ],
+    "answer": 2,
+    "explanation": "$PE_g = mgh = (2)(10)(5) = 100\\\\,\\\\text{J}$. Gravitational potential energy is linearly proportional to height, so doubling the height makes the potential energy double.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='218' x2='260' y2='218' stroke-width='2' class='svg-axis'/><line x1='56' y1='218' x2='48' y2='226' stroke-width='2' class='svg-axis'/><line x1='70' y1='218' x2='62' y2='226' stroke-width='2' class='svg-axis'/><line x1='84' y1='218' x2='76' y2='226' stroke-width='2' class='svg-axis'/><line x1='98' y1='218' x2='90' y2='226' stroke-width='2' class='svg-axis'/><line x1='112' y1='218' x2='104' y2='226' stroke-width='2' class='svg-axis'/><line x1='126' y1='218' x2='118' y2='226' stroke-width='2' class='svg-axis'/><line x1='140' y1='218' x2='132' y2='226' stroke-width='2' class='svg-axis'/><line x1='154' y1='218' x2='146' y2='226' stroke-width='2' class='svg-axis'/><line x1='168' y1='218' x2='160' y2='226' stroke-width='2' class='svg-axis'/><line x1='182' y1='218' x2='174' y2='226' stroke-width='2' class='svg-axis'/><line x1='196' y1='218' x2='188' y2='226' stroke-width='2' class='svg-axis'/><line x1='210' y1='218' x2='202' y2='226' stroke-width='2' class='svg-axis'/><line x1='224' y1='218' x2='216' y2='226' stroke-width='2' class='svg-axis'/><line x1='238' y1='218' x2='230' y2='226' stroke-width='2' class='svg-axis'/><line x1='252' y1='218' x2='244' y2='226' stroke-width='2' class='svg-axis'/><line x1='90' y1='88' x2='155' y2='88' stroke-width='2' class='svg-axis'/><rect x='106' y='56' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='122' y='77' text-anchor='middle' font-size='11' class='svg-label'>2 kg</text><line x1='90' y1='88' x2='90' y2='218' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><line x1='80' y1='88' x2='80' y2='218' stroke='#94a3b8' stroke-width='1'/><polygon points='80,88 75,100 85,100' fill='#94a3b8'/><polygon points='80,218 75,206 85,206' fill='#94a3b8'/><text x='68' y='158' text-anchor='end' font-size='11' font-weight='600' class='svg-label'>h = 5 m</text><line x1='122' y1='104' x2='122.0' y2='140.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='122,150 117.0,140.0 127.0,140.0' fill='#dc2626' stroke='none'/><text x='128' y='148' text-anchor='start' fill='#dc2626' font-size='10' class='svg-label'>F_g</text><text x='155' y='236' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>Ground (PE = 0)</text><text x='155' y='28' text-anchor='middle' font-size='10' class='svg-label'>PE = mgh = (2)(10)(5) = 100 J</text></svg>",
+    "deprecated": true
+  },
+  {
+    "id": "U3-MCQ-06",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Conservation of Energy (Frictionless)",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A frictionless roller coaster starts at rest at height $h = 20\\\\,\\\\text{m}$. What is the speed of the cart at the bottom? (Use $g = 10\\\\,\\\\text{m/s}^2$)",
+    "choices": [
+      "$10\\\\,\\\\text{m/s}$",
+      "$14\\\\,\\\\text{m/s}$",
+      "$20\\\\,\\\\text{m/s}$",
+      "$200\\\\,\\\\text{m/s}$"
+    ],
+    "answer": 2,
+    "explanation": "By conservation of energy: $mgh = \\\\frac{1}{2}mv^2$. $$v = \\\\sqrt{2gh} = \\\\sqrt{2(10)(20)} = \\\\sqrt{400} = 20\\\\,\\\\text{m/s}$$",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='222' x2='275' y2='222' stroke-width='2' class='svg-axis'/><line x1='51' y1='222' x2='43' y2='230' stroke-width='2' class='svg-axis'/><line x1='65' y1='222' x2='57' y2='230' stroke-width='2' class='svg-axis'/><line x1='79' y1='222' x2='71' y2='230' stroke-width='2' class='svg-axis'/><line x1='93' y1='222' x2='85' y2='230' stroke-width='2' class='svg-axis'/><line x1='107' y1='222' x2='99' y2='230' stroke-width='2' class='svg-axis'/><line x1='121' y1='222' x2='113' y2='230' stroke-width='2' class='svg-axis'/><line x1='135' y1='222' x2='127' y2='230' stroke-width='2' class='svg-axis'/><line x1='149' y1='222' x2='141' y2='230' stroke-width='2' class='svg-axis'/><line x1='163' y1='222' x2='155' y2='230' stroke-width='2' class='svg-axis'/><line x1='177' y1='222' x2='169' y2='230' stroke-width='2' class='svg-axis'/><line x1='191' y1='222' x2='183' y2='230' stroke-width='2' class='svg-axis'/><line x1='205' y1='222' x2='197' y2='230' stroke-width='2' class='svg-axis'/><line x1='219' y1='222' x2='211' y2='230' stroke-width='2' class='svg-axis'/><line x1='233' y1='222' x2='225' y2='230' stroke-width='2' class='svg-axis'/><line x1='247' y1='222' x2='239' y2='230' stroke-width='2' class='svg-axis'/><line x1='261' y1='222' x2='253' y2='230' stroke-width='2' class='svg-axis'/><path d='M 75,60 Q 120,225 175,218 Q 220,215 265,218' stroke='#3b82f6' stroke-width='2.5' fill='none'/><line x1='75' y1='60' x2='75' y2='222' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='56' y='144' text-anchor='end' font-size='10' font-weight='600' class='svg-label'>h = 20 m</text><circle cx='75' cy='60' r='6' fill='#94a3b8'/><text x='68' y='50' text-anchor='end' font-weight='600' class='svg-label'>A</text><text x='66' y='63' text-anchor='end' fill='#94a3b8' font-size='9' class='svg-label'>v₀ = 0</text><circle cx='215' cy='218' r='6' fill='#94a3b8'/><text x='220' y='213' text-anchor='start' font-weight='600' class='svg-label'>B</text><text x='222' y='225' text-anchor='start' fill='#94a3b8' font-size='9' class='svg-label'>v = ?</text><text x='155' y='238' text-anchor='middle' fill='#94a3b8' font-size='9' class='svg-label'>Ground (h = 0)</text></svg>"
+  },
+  {
+    "id": "U3-MCQ-07",
+    "subject": "apphys1",
+    "unit": 3,
+    "topic": "Spring Potential Energy",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A spring with spring constant $k = 400\\\\,\\\\text{N/m}$ is compressed $0.1\\\\,\\\\text{m}$ from its natural length. It is then released and launches a $0.5\\\\,\\\\text{kg}$ block on a frictionless surface. What is the speed of the block when it leaves the spring?",
+    "choices": [
+      "$1\\\\,\\\\text{m/s}$",
+      "$2\\\\,\\\\text{m/s}$",
+      "$4\\\\,\\\\text{m/s}$",
+      "$8\\\\,\\\\text{m/s}$"
+    ],
+    "answer": 1,
+    "explanation": "Spring potential energy converts to kinetic energy: $$\\\\frac{1}{2}kx^2 = \\\\frac{1}{2}mv^2$$ $$v = x\\\\sqrt{\\\\frac{k}{m}} = 0.1\\\\sqrt{\\\\frac{400}{0.5}} = 0.1\\\\sqrt{800} = 0.1(28.3) \\\\approx 2\\\\,\\\\text{m/s}$$"
   },
   {
     "id": "phys1_u4_q118",
@@ -6123,6 +6437,66 @@ window.PHYSICS_MCQ = [
     "explanation": "Useful power output = (dm/dt)gh = (0.5 kg/s)(10 $m/s^2$)(20 m) = 100 W. With 80% efficiency, electrical input power = output/efficiency = 100 W / 0.80 = 125 W. Students often give just the useful power (A), double it incorrectly (C), or make calculation errors with efficiency (D). Understanding efficiency as useful output divided by total input is crucial."
   },
   {
+    "id": "phys1_u4_q158",
+    "subject": "apphys1",
+    "unit": 4,
+    "topic": "conservation of energy",
+    "topicLabel": "conservation of energy",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A pendulum bob of mass m is released from rest at an angle θ from vertical. When the string makes an angle θ/2 with the vertical, what is the tension in the string? (String length = L)",
+    "choices": [
+      "A) mg(2 - cos(θ/2))",
+      "B) mg(3cos(θ/2) - 2cos(θ))",
+      "C) mg(2cos(θ/2) - cos(θ))",
+      "D) mg(3 - 2cos(θ))cos(θ/2)"
+    ],
+    "answer": 1,
+    "explanation": "Using conservation of energy, the height difference between the release point and the position at angle θ/2 is h = L(cos(θ/2) - cos(θ)). Setting the loss in potential energy equal to the gain in kinetic energy: mgL(cos(θ/2) - cos(θ)) = $\\frac{1}{2}$m$v^2$, which gives $v^2$ = 2gL(cos(θ/2) - cos(θ)). At angle θ/2, applying Newton's second law along the radial direction (toward the pivot): T - mgcos(θ/2) = m$v^2$/L. Substituting $v^2$: T = mgcos(θ/2) + m(2gL(cos(θ/2) - cos(θ)))/L = mgcos(θ/2) + 2mg(cos(θ/2) - cos(θ)) = mg(3cos(θ/2) - 2cos(θ)). This is answer B. Common errors include forgetting the radial component of gravity (leading to A or C) or misapplying the algebraic simplification (leading to D)."
+  },
+  {
+    "id": "phys1_u4_q159",
+    "subject": "apphys1",
+    "unit": 4,
+    "topic": "power",
+    "topicLabel": "power",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A car engine provides constant power P while accelerating from rest. If the car's mass is m and air resistance is negligible, what is the car's speed as a function of time?",
+    "choices": [
+      "A) v = √(2Pt/m)",
+      "B) v = (Pt/m)^(1/3)",
+      "C) v = (3Pt/2m)^(1/3)",
+      "D) v = Pt/m"
+    ],
+    "answer": 0,
+    "explanation": "With constant power P = Fv, the force F = P/v. Using F = ma = m(dv/dt), we get P/v = m(dv/dt), so P dt = mv dv. Integrating: Pt = $\\frac{1}{2}$m$v^2$, therefore v = √(2Pt/m). Students often confuse this with constant force scenarios (D), or make integration errors (B, C). The key is recognizing that constant power means force decreases as velocity increases."
+  },
+  {
+    "id": "phys1_u4_q162",
+    "subject": "apphys1",
+    "unit": 4,
+    "topic": "work",
+    "topicLabel": "work",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A variable force F = 3$x^2$ (in Newtons, where x is in meters) acts on a particle moving along the x-axis from x = 1 m to x = 3 m. What is the work done by this force?",
+    "choices": [
+      "A) 18 J",
+      "B) 24 J",
+      "C) 26 J",
+      "D) 54 J"
+    ],
+    "answer": 2,
+    "explanation": "For variable force, W = ∫F dx = ∫₁³ 3$x^2$ dx = [$x^3$]₁³ = $3^3$ - $1^3$ = 27 - 1 = 26 J. Students often forget the integral approach and try to use average force (A, B), or make integration errors by forgetting the coefficient or limits (D). This requires understanding that work with variable force requires integration, not simple F·d."
+  },
+  {
     "id": "phys1_u5_q166",
     "subject": "apphys1",
     "unit": 5,
@@ -6842,6 +7216,26 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Since no external forces act on the rocket-fuel system in space, the center of mass must move at constant velocity (Newton's first law for systems). The rocket accelerates forward and fuel moves backward, but their center of mass continues at constant velocity. Students often think the center of mass accelerates with the rocket, forgetting that ejected fuel is part of the system."
+  },
+  {
+    "id": "phys1_u5_q192",
+    "subject": "apphys1",
+    "unit": 5,
+    "topic": "impulse",
+    "topicLabel": "impulse",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A ball traveling at 6 m/s strikes a wall and bounces back at 4 m/s in the opposite direction. The impulse delivered by the wall on the ball depends on which factors?",
+    "choices": [
+      "A) Only the change in the ball's momentum",
+      "B) Only the contact time between ball and wall",
+      "C) Both the change in momentum and the contact time",
+      "D) The change in momentum, contact time, and the wall's mass"
+    ],
+    "answer": 0,
+    "explanation": "Impulse is defined as the change in momentum (J = $\\Delta p$). In this case, if the ball has mass m, the impulse is m(4) - m(-6) = 10m (taking the rebound direction as positive), which depends only on the change in momentum. While F = $\\Delta p$/$\\Delta t$ relates force to time, the impulse itself equals only the momentum change. Contact time affects the average force during the collision, not the impulse. The wall's mass is irrelevant since we treat it as effectively immovable."
   },
   {
     "id": "phys1_u6_q203",
@@ -7810,6 +8204,26 @@ window.PHYSICS_MCQ = [
     "explanation": "In parallel, springs share the load equally. Each spring extends the same amount x, and each contributes force kx. Total restoring force is F = kx + kx = 2kx, giving effective spring constant k_eff = 2k. Students often confuse parallel with series arrangements (where k_eff = k/2) or think the forces don't add directly."
   },
   {
+    "id": "phys1_u6_q250",
+    "subject": "apphys1",
+    "unit": 6,
+    "topic": "energy in SHM",
+    "topicLabel": "energy in SHM",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A horizontal spring-mass system has total mechanical energy E. At what displacement from equilibrium is the kinetic energy equal to twice the potential energy?",
+    "choices": [
+      "A) x = A/√3",
+      "B) x = A/√2",
+      "C) x = A√2/3",
+      "D) x = A√3/3"
+    ],
+    "answer": 0,
+    "explanation": "When K = 2U and K + U = E, we have 2U + U = E, so U = E/3. Since E = $\\frac{1}{2}$k$A^2$ and U = $\\frac{1}{2}$k$x^2$, we get $\\frac{1}{2}$k$x^2$ = (1/3)($\\frac{1}{2}$k$A^2$), which gives $x^2$ = $A^2$/3, so x = A/√3. Students often solve incorrectly by setting up wrong energy ratios or making algebraic errors with the square root relationships."
+  },
+  {
     "id": "phys1_u7_q253",
     "subject": "apphys1",
     "unit": 7,
@@ -8551,6 +8965,63 @@ window.PHYSICS_MCQ = [
     "explanation": "Applying conservation of energy from the top to the bottom of the incline, with the rolling without slipping constraint (v = rω):\n\nmgh = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$Iω² = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$I(v/r)² = $\\frac{1}{2}$m$v^2$(1 + $I/mr^2$)\n\nSolving for $v^2$: $v^2$ = 2gh / (1 + $I/mr^2$)\n\nFor the solid sphere (I = (2/5)m$r^2$, so $I/mr^2$ = 2/5):\n$v^2$_solid = 2gh / (1 + 2/5) = 2gh / (7/5) = 10gh/7 $\\approx$ 1.429gh\n\nFor the hollow sphere (I = (2/3)m$r^2$, so $I/mr^2$ = 2/3):\n$v^2$_hollow = 2gh / (1 + 2/3) = 2gh / (5/3) = 6gh/5 = 1.200gh\n\nSince 10gh/7 > 6gh/5, the solid sphere has greater translational speed. Choice B is incorrect because a larger moment of inertia means more energy goes into rotation, leaving less for translation. Choice C is incorrect because different rotational inertias cause different energy distributions between rotation and translation. Choice D is incorrect because both spheres convert the same total energy mgh, but neither has greater total kinetic energy than the other."
   },
   {
+    "id": "U7-MCQ-08",
+    "subject": "apphys1",
+    "unit": 7,
+    "topic": "Rolling Without Slipping",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A cylinder rolls without slipping down a frictionless-incline. Which of the following best describes the energy distribution at the bottom?",
+    "choices": [
+      "All energy is translational kinetic energy",
+      "All energy is rotational kinetic energy",
+      "Energy is split between translational and rotational kinetic energy",
+      "Energy is entirely potential energy"
+    ],
+    "answer": 2,
+    "explanation": "For rolling without slipping, the total kinetic energy is $KE = \\\\frac{1}{2}mv^2 + \\\\frac{1}{2}I\\\\omega^2$, consisting of both translational and rotational parts. For a solid cylinder, the split is $\\\\frac{2}{3}$ translational and $\\\\frac{1}{3}$ rotational."
+  },
+  {
+    "id": "phys1_u7_q272",
+    "subject": "apphys1",
+    "unit": 7,
+    "topic": "conservation of angular momentum",
+    "topicLabel": "conservation of angular momentum",
+    "difficulty": "medium",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Two ice skaters, initially at rest, push off each other. Skater A (60 kg) moves in a circle of radius 8.0 m with speed 2.0 m/s. Skater B (40 kg) moves in the opposite direction. What is the radius of skater B's circular path if B's speed is 3.0 m/s?",
+    "choices": [
+      "A) 8.0 m",
+      "B) 12 m",
+      "C) 5.3 m",
+      "D) 6.0 m"
+    ],
+    "answer": 0,
+    "explanation": "By conservation of angular momentum, the total angular momentum of the system is zero since both skaters start at rest. Therefore the magnitudes of their angular momenta must be equal: mAvArA = mBvBrB. Substituting: (60 kg)(2.0 m/s)(8.0 m) = (40 kg)(3.0 m/s)(rB). This gives 960 = 120rB, so rB = 8.0 m. The answer is choice A."
+  },
+  {
+    "id": "phys1_u7_q289",
+    "subject": "apphys1",
+    "unit": 7,
+    "topic": "rotational inertia",
+    "topicLabel": "rotational inertia",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A thin hoop and a solid disk have the same mass M and radius R. They are both rotating about their central axes with the same angular velocity ω. What is the ratio of their rotational kinetic energies, KEhoop/KEdisk?",
+    "choices": [
+      "A) 2:0:√3",
+      "B) 1",
+      "C) 1/2",
+      "D) 4"
+    ],
+    "answer": 0,
+    "explanation": "Rotational KE = $\\frac{1}{2}$Iω². For a hoop: I = M$R^2$, so KEhoop = $\\frac{1}{2}$M$R^2$ω². For a disk: I = $\\frac{1}{2}$M$R^2$, so KEdisk = ¼M$R^2$ω². The exact ratio is KEhoop/KEdisk = ($\\frac{1}{2}$M$R^2$ω²)/(¼M$R^2$ω²) = 2/1 = 2. Choice B would apply if they had the same rotational inertia. Choice C inverts the correct ratio. Choice D would apply if comparing energies with different angular velocities."
+  },
+  {
     "id": "phys1_u8_q292",
     "subject": "apphys1",
     "unit": 8,
@@ -8568,7 +9039,8 @@ window.PHYSICS_MCQ = [
       "D) Newton"
     ],
     "answer": 2,
-    "explanation": "The SI unit of electric charge is the Coulomb (C), named after Charles-Augustin de Coulomb. One Coulomb is defined as the amount of charge transferred by a current of one Ampere in one second. The Volt is the unit of electric potential, the Ampere is the unit of electric current, and the Newton is the unit of force."
+    "explanation": "The SI unit of electric charge is the Coulomb (C), named after Charles-Augustin de Coulomb. One Coulomb is defined as the amount of charge transferred by a current of one Ampere in one second. The Volt is the unit of electric potential, the Ampere is the unit of electric current, and the Newton is the unit of force.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q293",
@@ -8588,7 +9060,8 @@ window.PHYSICS_MCQ = [
       "D) The distance from the nearest charge"
     ],
     "answer": 1,
-    "explanation": "Electric field is defined as the electric force per unit positive test charge placed at that point (E = F/q). This is the fundamental definition that allows us to determine the field without actually placing a charge there."
+    "explanation": "Electric field is defined as the electric force per unit positive test charge placed at that point (E = F/q). This is the fundamental definition that allows us to determine the field without actually placing a charge there.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q294",
@@ -8608,7 +9081,8 @@ window.PHYSICS_MCQ = [
       "D) Parallel to the charge"
     ],
     "answer": 1,
-    "explanation": "By convention, electric field lines point in the direction that a positive test charge would move. Since like charges repel, a positive test charge would be pushed away from a positive source charge, so field lines point radially outward."
+    "explanation": "By convention, electric field lines point in the direction that a positive test charge would move. Since like charges repel, a positive test charge would be pushed away from a positive source charge, so field lines point radially outward.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q295",
@@ -8628,7 +9102,8 @@ window.PHYSICS_MCQ = [
       "D) Coulomb (C)"
     ],
     "answer": 2,
-    "explanation": "Electric potential is measured in volts (V). Students sometimes confuse this with energy (joules) or force (newtons), but potential is energy per unit charge, which has units of volts."
+    "explanation": "Electric potential is measured in volts (V). Students sometimes confuse this with energy (joules) or force (newtons), but potential is energy per unit charge, which has units of volts.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q296",
@@ -8648,7 +9123,8 @@ window.PHYSICS_MCQ = [
       "D) Resistance"
     ],
     "answer": 1,
-    "explanation": "A capacitor stores electric charge on its plates. While it's related to electric potential energy storage, the fundamental function is charge storage. Students sometimes think it stores current, but current is charge flow, not stored charge."
+    "explanation": "A capacitor stores electric charge on its plates. While it's related to electric potential energy storage, the fundamental function is charge storage. Students sometimes think it stores current, but current is charge flow, not stored charge.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q297",
@@ -8668,7 +9144,8 @@ window.PHYSICS_MCQ = [
       "D) The force on moving charges"
     ],
     "answer": 1,
-    "explanation": "Electric current is defined as the rate of charge flow (I = Q/t). Students often confuse current with the speed of electrons (drift velocity) or think it's the total charge present, but current specifically measures how much charge flows per unit time."
+    "explanation": "Electric current is defined as the rate of charge flow (I = Q/t). Students often confuse current with the speed of electrons (drift velocity) or think it's the total charge present, but current specifically measures how much charge flows per unit time.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q298",
@@ -8688,7 +9165,8 @@ window.PHYSICS_MCQ = [
       "D) Watt (W)"
     ],
     "answer": 2,
-    "explanation": "Electrical resistance is measured in ohms (Ω). Students sometimes confuse this with voltage (volts) or current (amperes), but resistance specifically has its own unit named after Georg Ohm."
+    "explanation": "Electrical resistance is measured in ohms (Ω). Students sometimes confuse this with voltage (volts) or current (amperes), but resistance specifically has its own unit named after Georg Ohm.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q299",
@@ -8708,7 +9186,8 @@ window.PHYSICS_MCQ = [
       "D) Current is quadrupled"
     ],
     "answer": 1,
-    "explanation": "According to Ohm's law (V = IR), if voltage doubles and resistance stays constant, current must double to maintain the relationship. This shows the direct proportionality between voltage and current when resistance is constant."
+    "explanation": "According to Ohm's law (V = IR), if voltage doubles and resistance stays constant, current must double to maintain the relationship. This shows the direct proportionality between voltage and current when resistance is constant.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q300",
@@ -8728,7 +9207,8 @@ window.PHYSICS_MCQ = [
       "D) Strongest near the surface"
     ],
     "answer": 2,
-    "explanation": "In electrostatic equilibrium, the electric field inside a conductor must be zero. If there were a field, charges would move, contradicting the equilibrium condition. Students often think the field is uniform or maximum somewhere inside."
+    "explanation": "In electrostatic equilibrium, the electric field inside a conductor must be zero. If there were a field, charges would move, contradicting the equilibrium condition. Students often think the field is uniform or maximum somewhere inside.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q301",
@@ -8748,7 +9228,8 @@ window.PHYSICS_MCQ = [
       "D) The glass rod gained mass during the charging process"
     ],
     "answer": 1,
-    "explanation": "When the glass rod becomes positively charged, electrons are transferred from the glass to the silk, leaving the glass with a deficit of electrons (positive charge). Protons don't move in typical charging processes, charges aren't created or destroyed, and the mass change is negligible."
+    "explanation": "When the glass rod becomes positively charged, electrons are transferred from the glass to the silk, leaving the glass with a deficit of electrons (positive charge). Protons don't move in typical charging processes, charges aren't created or destroyed, and the mass change is negligible.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q302",
@@ -8768,7 +9249,8 @@ window.PHYSICS_MCQ = [
       "D) 6F"
     ],
     "answer": 0,
-    "explanation": "Using Coulomb's law F = kq₁q₂/$r^2$. If q₁ becomes 2q₁ and r becomes 3r, then F_new = k(2q₁)q₂/(3r)² = 2kq₁q₂/9$r^2$ = 2F/9. Students often forget to square the distance factor or miss the charge doubling."
+    "explanation": "Using Coulomb's law F = kq₁q₂/$r^2$. If q₁ becomes 2q₁ and r becomes 3r, then F_new = k(2q₁)q₂/(3r)² = 2kq₁q₂/9$r^2$ = 2F/9. Students often forget to square the distance factor or miss the charge doubling.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q303",
@@ -8788,7 +9270,8 @@ window.PHYSICS_MCQ = [
       "D) Same magnitude, to the right"
     ],
     "answer": 1,
-    "explanation": "Electric field E = F/q, so F = qE. If the new charge is -2q, then F_new = (-2q)E = -2F, meaning twice the magnitude but opposite direction. The negative charge experiences force opposite to the field direction."
+    "explanation": "Electric field E = F/q, so F = qE. If the new charge is -2q, then F_new = (-2q)E = -2F, meaning twice the magnitude but opposite direction. The negative charge experiences force opposite to the field direction.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q304",
@@ -8808,7 +9291,8 @@ window.PHYSICS_MCQ = [
       "D) 1200 N/C"
     ],
     "answer": 1,
-    "explanation": "Electric fields add vectorially. Since the fields are perpendicular, use Pythagorean theorem: E_net = √(4$0^2$ + 3$0^2$) = √(1600 + 900) = √2500 = 50 N/C. Students often add algebraically (70) or subtract (10)."
+    "explanation": "Electric fields add vectorially. Since the fields are perpendicular, use Pythagorean theorem: E_net = √(4$0^2$ + 3$0^2$) = √(1600 + 900) = √2500 = 50 N/C. Students often add algebraically (70) or subtract (10).",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q305",
@@ -8828,7 +9312,8 @@ window.PHYSICS_MCQ = [
       "D) Field lines point from negative to positive charges"
     ],
     "answer": 1,
-    "explanation": "The density of field lines represents field strength - more lines per unit area means stronger field. Field lines never cross, don't form closed loops (they start on positive charges and end on negative ones), and point from positive to negative charges."
+    "explanation": "The density of field lines represents field strength - more lines per unit area means stronger field. Field lines never cross, don't form closed loops (they start on positive charges and end on negative ones), and point from positive to negative charges.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q306",
@@ -8848,7 +9333,8 @@ window.PHYSICS_MCQ = [
       "D) It depends on the path taken"
     ],
     "answer": 1,
-    "explanation": "Potential energy U = qV. If V decreases by 20 V and q is positive, then $\\Delta U$ = q$\\Delta V$ = q(-20) < 0, so potential energy decreases. The positive charge moves naturally from high to low potential, losing potential energy."
+    "explanation": "Potential energy U = qV. If V decreases by 20 V and q is positive, then $\\Delta U$ = q$\\Delta V$ = q(-20) < 0, so potential energy decreases. The positive charge moves naturally from high to low potential, losing potential energy.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q307",
@@ -8868,7 +9354,8 @@ window.PHYSICS_MCQ = [
       "D) 320 $\\mu$J"
     ],
     "answer": 0,
-    "explanation": "Work done by external force W = q$\\Delta V$ = q(V_final - V_initial) = (2$\\times$10⁻⁶)(100-60) = (2$\\times$10⁻⁶)(40) = 80$\\times$10⁻⁶ J = 80 $\\mu$J. Moving positive charge to higher potential requires positive work input."
+    "explanation": "Work done by external force W = q$\\Delta V$ = q(V_final - V_initial) = (2$\\times$10⁻⁶)(100-60) = (2$\\times$10⁻⁶)(40) = 80$\\times$10⁻⁶ J = 80 $\\mu$J. Moving positive charge to higher potential requires positive work input.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q308",
@@ -8888,7 +9375,8 @@ window.PHYSICS_MCQ = [
       "D) The charge becomes zero"
     ],
     "answer": 1,
-    "explanation": "For parallel plate capacitor, C = ε₀A/d. Doubling d halves the capacitance. Since the battery maintains constant voltage and Q = CV, halving C halves Q. Students often think Q stays constant, but that only applies when disconnected from battery."
+    "explanation": "For parallel plate capacitor, C = ε₀A/d. Doubling d halves the capacitance. Since the battery maintains constant voltage and Q = CV, halving C halves Q. Students often think Q stays constant, but that only applies when disconnected from battery.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q309",
@@ -8908,7 +9396,8 @@ window.PHYSICS_MCQ = [
       "D) 3 V"
     ],
     "answer": 1,
-    "explanation": "In series, capacitors have the same charge but voltage divides. For identical capacitors, voltage divides equally: V₁ = V₂ = V_total/2 = 12V/2 = 6V. Students sometimes confuse series and parallel behavior."
+    "explanation": "In series, capacitors have the same charge but voltage divides. For identical capacitors, voltage divides equally: V₁ = V₂ = V_total/2 = 12V/2 = 6V. Students sometimes confuse series and parallel behavior.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q310",
@@ -8928,7 +9417,8 @@ window.PHYSICS_MCQ = [
       "D) 8.0 A"
     ],
     "answer": 1,
-    "explanation": "Current I = Q/t. Charge Q = (number of electrons) × (elementary charge) = (3.2$\\times$10¹⁹) × (1.6$\\times$10⁻¹⁹) = 5.12 C. Therefore I = 5.12 C / 4 s = 1.28 A. Students often forget to multiply by elementary charge."
+    "explanation": "Current I = Q/t. Charge Q = (number of electrons) × (elementary charge) = (3.2$\\times$10¹⁹) × (1.6$\\times$10⁻¹⁹) = 5.12 C. Therefore I = 5.12 C / 4 s = 1.28 A. Students often forget to multiply by elementary charge.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q311",
@@ -8948,7 +9438,8 @@ window.PHYSICS_MCQ = [
       "D) Electrons remain stationary while the electric field moves"
     ],
     "answer": 1,
-    "explanation": "Electrons drift slowly (drift velocity ~mm/s) opposite to conventional current direction. The electric field propagates at nearly light speed, but individual electrons move much slower. Students often confuse signal speed with drift velocity."
+    "explanation": "Electrons drift slowly (drift velocity ~mm/s) opposite to conventional current direction. The electric field propagates at nearly light speed, but individual electrons move much slower. Students often confuse signal speed with drift velocity.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q312",
@@ -8968,7 +9459,8 @@ window.PHYSICS_MCQ = [
       "D) 4R"
     ],
     "answer": 3,
-    "explanation": "R = ρL/A. When length doubles and volume stays constant, cross-sectional area halves. So R_new = ρ(2L)/(A/2) = 4ρL/A = 4R. Students often miss that both L and A change, or forget the volume constraint."
+    "explanation": "R = ρL/A. When length doubles and volume stays constant, cross-sectional area halves. So R_new = ρ(2L)/(A/2) = 4ρL/A = 4R. Students often miss that both L and A change, or forget the volume constraint.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q313",
@@ -8988,7 +9480,8 @@ window.PHYSICS_MCQ = [
       "D) Parallel connection dissipates four times as much power"
     ],
     "answer": 3,
-    "explanation": "Using P = $V^2$/R: Series R_total = 2R, so P_series = $V^2$/(2R). Parallel R_total = R/2, so P_parallel = $V^2$/(R/2) = 2$V^2$/R. Therefore P_parallel/P_series = (2$V^2$/R)/($V^2$/2R) = 4. Parallel dissipates 4× more power."
+    "explanation": "Using P = $V^2$/R: Series R_total = 2R, so P_series = $V^2$/(2R). Parallel R_total = R/2, so P_parallel = $V^2$/(R/2) = 2$V^2$/R. Therefore P_parallel/P_series = (2$V^2$/R)/($V^2$/2R) = 4. Parallel dissipates 4× more power.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q314",
@@ -9008,7 +9501,8 @@ window.PHYSICS_MCQ = [
       "D) Power is quadrupled"
     ],
     "answer": 0,
-    "explanation": "Using P = $V^2$/R where V is constant (battery voltage unchanged). If R doubles, then P_new = $V^2$/(2R) = P/2. Power is halved. Students might incorrectly use P = $I^2$R and miss that current also changes when resistance changes."
+    "explanation": "Using P = $V^2$/R where V is constant (battery voltage unchanged). If R doubles, then P_new = $V^2$/(2R) = P/2. Power is halved. Students might incorrectly use P = $I^2$R and miss that current also changes when resistance changes.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q315",
@@ -9028,7 +9522,8 @@ window.PHYSICS_MCQ = [
       "D) It's impossible with this configuration"
     ],
     "answer": 0,
-    "explanation": "Two identical positive charges at opposite corners of a square are equidistant from the center. A test charge placed at the center experiences repulsive forces from both charges that are equal in magnitude and exactly opposite in direction. By symmetry, these forces cancel completely, giving zero net force. Choice B (empty corner) is wrong: the test charge would be closer to one charge and the forces would not cancel. Choice C (midpoint of side) is wrong: the geometry does not produce cancellation there. Choice D is incorrect — the center is a valid equilibrium point for this symmetric configuration."
+    "explanation": "Two identical positive charges at opposite corners of a square are equidistant from the center. A test charge placed at the center experiences repulsive forces from both charges that are equal in magnitude and exactly opposite in direction. By symmetry, these forces cancel completely, giving zero net force. Choice B (empty corner) is wrong: the test charge would be closer to one charge and the forces would not cancel. Choice C (midpoint of side) is wrong: the geometry does not produce cancellation there. Choice D is incorrect — the center is a valid equilibrium point for this symmetric configuration.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q316",
@@ -9048,7 +9543,8 @@ window.PHYSICS_MCQ = [
       "D) Cannot be determined without knowing the field strength"
     ],
     "answer": 0,
-    "explanation": "On an equipotential surface, the potential is constant everywhere, so $\\Delta V$ = 0. Work done by electric field W = q$\\Delta V$ = q(0) = 0. This is true regardless of charge magnitude, distance moved, or field strength."
+    "explanation": "On an equipotential surface, the potential is constant everywhere, so $\\Delta V$ = 0. Work done by electric field W = q$\\Delta V$ = q(0) = 0. This is true regardless of charge magnitude, distance moved, or field strength.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q317",
@@ -9068,7 +9564,8 @@ window.PHYSICS_MCQ = [
       "D) 800 $\\mu$J"
     ],
     "answer": 2,
-    "explanation": "Energy stored U = $\\frac{1}{2}$C$V^2$. Initially: 100 $\\mu$J = $\\frac{1}{2}$C(10)² = 50C, so C = 2 μF. At 20 V: U = $\\frac{1}{2}$(2 μF)(20)² = $\\frac{1}{2}$(2)(400) = 400 $\\mu$J. Energy increases with the square of voltage, not linearly."
+    "explanation": "Energy stored U = $\\frac{1}{2}$C$V^2$. Initially: 100 $\\mu$J = $\\frac{1}{2}$C(10)² = 50C, so C = 2 μF. At 20 V: U = $\\frac{1}{2}$(2 μF)(20)² = $\\frac{1}{2}$(2)(400) = 400 $\\mu$J. Energy increases with the square of voltage, not linearly.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q318",
@@ -9088,7 +9585,8 @@ window.PHYSICS_MCQ = [
       "D) 240 C"
     ],
     "answer": 2,
-    "explanation": "Current I = Q/t, so Q = It = (2 A)(30 s) = 60 C. This is a direct application of the definition of current. Students might incorrectly add or multiply the wrong values."
+    "explanation": "Current I = Q/t, so Q = It = (2 A)(30 s) = 60 C. This is a direct application of the definition of current. Students might incorrectly add or multiply the wrong values.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q319",
@@ -9108,7 +9606,8 @@ window.PHYSICS_MCQ = [
       "D) 18 Ω"
     ],
     "answer": 0,
-    "explanation": "For parallel resistors: 1/R_eq = 1/6 + 1/12 + 1/4 = 2/12 + 1/12 + 3/12 = 6/12 = 1/2, so R_eq = 2 Ω. Students often add resistances directly (getting 22 Ω) instead of using the reciprocal formula for parallel combinations."
+    "explanation": "For parallel resistors: 1/R_eq = 1/6 + 1/12 + 1/4 = 2/12 + 1/12 + 3/12 = 6/12 = 1/2, so R_eq = 2 Ω. Students often add resistances directly (getting 22 Ω) instead of using the reciprocal formula for parallel combinations.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q320",
@@ -9128,7 +9627,8 @@ window.PHYSICS_MCQ = [
       "D) x = 4d/3"
     ],
     "answer": 3,
-    "explanation": "Setting the fields equal: k(2q)/r² = k(8q)/(4d − r)², where r is the distance from the +2q charge. This gives (4d − r)² = 4r², so 4d − r = 2r, yielding r = 4d/3. The zero-field point is at x = 4d/3 from the +2q charge. This is closer to the weaker +2q charge, as expected — the zero point must be nearer to the weaker source so that the smaller charge's field can match the stronger one. Choice A (x = d) is too close to +2q. Choice B (x = 2d) is the midpoint — only correct if the charges were equal. Choice C (x = 3d) incorrectly places the point closer to the stronger charge."
+    "explanation": "Setting the fields equal: k(2q)/r² = k(8q)/(4d − r)², where r is the distance from the +2q charge. This gives (4d − r)² = 4r², so 4d − r = 2r, yielding r = 4d/3. The zero-field point is at x = 4d/3 from the +2q charge. This is closer to the weaker +2q charge, as expected — the zero point must be nearer to the weaker source so that the smaller charge's field can match the stronger one. Choice A (x = d) is too close to +2q. Choice B (x = 2d) is the midpoint — only correct if the charges were equal. Choice C (x = 3d) incorrectly places the point closer to the stronger charge.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q321",
@@ -9148,7 +9648,8 @@ window.PHYSICS_MCQ = [
       "D) The charge depends on the sphere's material"
     ],
     "answer": 2,
-    "explanation": "When the negative rod approaches, electrons in the sphere are repelled to the far side, leaving the near side positive. Grounding allows excess electrons to flow to ground, leaving a deficit. When ungrounded then the rod removed, the sphere retains positive charge. Students often think grounding always makes objects neutral (A) or that the sphere acquires the same charge as the rod (B)."
+    "explanation": "When the negative rod approaches, electrons in the sphere are repelled to the far side, leaving the near side positive. Grounding allows excess electrons to flow to ground, leaving a deficit. When ungrounded then the rod removed, the sphere retains positive charge. Students often think grounding always makes objects neutral (A) or that the sphere acquires the same charge as the rod (B).",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q322",
@@ -9168,7 +9669,8 @@ window.PHYSICS_MCQ = [
       "D) The field lines are four times denser near the +4μC charge"
     ],
     "answer": 3,
-    "explanation": "The density of electric field lines — the number of lines per unit area perpendicular to the field — represents field strength. Since the +4μC charge is four times stronger than the +1μC charge, the field near it is four times stronger and field lines are four times denser at the same distance. Choice A is wrong: field lines have no inherent length. Choice B is wrong: 'greater curvature' is not a standard or valid property used to describe field line diagrams; curvature of the lines is a geometric feature of the configuration, not a measure of field strength. Choice C is wrong: both charges are positive, so field lines point radially outward from both — they do not point in opposite directions."
+    "explanation": "The density of electric field lines — the number of lines per unit area perpendicular to the field — represents field strength. Since the +4μC charge is four times stronger than the +1μC charge, the field near it is four times stronger and field lines are four times denser at the same distance. Choice A is wrong: field lines have no inherent length. Choice B is wrong: 'greater curvature' is not a standard or valid property used to describe field line diagrams; curvature of the lines is a geometric feature of the configuration, not a measure of field strength. Choice C is wrong: both charges are positive, so field lines point radially outward from both — they do not point in opposite directions.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q323",
@@ -9188,7 +9690,8 @@ window.PHYSICS_MCQ = [
       "D) The field does negative work, and V_B < V_A"
     ],
     "answer": 1,
-    "explanation": "When electric PE decreases (ΔPE < 0), the work done by the electric field is W = −ΔPE = −(negative) > 0, so the field does positive work. For a positive charge q > 0: PE = qV, so if PE decreases, V must also decrease, meaning V_B < V_A. The positive charge moves from higher to lower potential. Choice A is wrong: V_B > V_A would require the charge to have gained PE, not lost it. Choice C is wrong: negative work corresponds to increasing PE, not decreasing PE. Choice D has both signs inverted."
+    "explanation": "When electric PE decreases (ΔPE < 0), the work done by the electric field is W = −ΔPE = −(negative) > 0, so the field does positive work. For a positive charge q > 0: PE = qV, so if PE decreases, V must also decrease, meaning V_B < V_A. The positive charge moves from higher to lower potential. Choice A is wrong: V_B > V_A would require the charge to have gained PE, not lost it. Choice C is wrong: negative work corresponds to increasing PE, not decreasing PE. Choice D has both signs inverted.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q324",
@@ -9208,7 +9711,8 @@ window.PHYSICS_MCQ = [
       "D) They must be on a conducting surface"
     ],
     "answer": 2,
-    "explanation": "Equal potential means zero potential difference, so W = q$\\Delta V$ = 0 for any charge moved between them. Points can have equal potential with different field strengths (A is wrong), need not be equidistant from charges in complex arrangements (B is wrong), and can exist in space, not just on conductors (D is wrong)."
+    "explanation": "Equal potential means zero potential difference, so W = q$\\Delta V$ = 0 for any charge moved between them. Points can have equal potential with different field strengths (A is wrong), need not be equidistant from charges in complex arrangements (B is wrong), and can exist in space, not just on conductors (D is wrong).",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q325",
@@ -9228,7 +9732,8 @@ window.PHYSICS_MCQ = [
       "D) Charge decreases, voltage constant, energy decreases"
     ],
     "answer": 0,
-    "explanation": "With battery connected, voltage stays constant. Dielectric increases capacitance (C = κC₀), so charge increases (Q = CV). Energy U = $\\frac{1}{2}$C$V^2$ increases because C increases while V is constant. Students often think energy must decrease when a dielectric is added (B), or that charge stays constant when connected to a battery (C)."
+    "explanation": "With battery connected, voltage stays constant. Dielectric increases capacitance (C = κC₀), so charge increases (Q = CV). Energy U = $\\frac{1}{2}$C$V^2$ increases because C increases while V is constant. Students often think energy must decrease when a dielectric is added (B), or that charge stays constant when connected to a battery (C).",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q326",
@@ -9248,7 +9753,8 @@ window.PHYSICS_MCQ = [
       "D) Becomes equal to the battery voltage"
     ],
     "answer": 3,
-    "explanation": "Initially, each capacitor has half the battery voltage. When one shorts (acts like a wire), all the battery voltage appears across the good capacitor. Students often think the voltage stays the same (B) or becomes zero because of the short (A), not realizing the short redirects all voltage to the remaining capacitor."
+    "explanation": "Initially, each capacitor has half the battery voltage. When one shorts (acts like a wire), all the battery voltage appears across the good capacitor. Students often think the voltage stays the same (B) or becomes zero because of the short (A), not realizing the short redirects all voltage to the remaining capacitor.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q327",
@@ -9268,7 +9774,8 @@ window.PHYSICS_MCQ = [
       "D) Current quadruples"
     ],
     "answer": 1,
-    "explanation": "Current I = nAv_d, where n is charge density, A is area, and v_d is drift velocity. If A doubles and v_d halves, then I = nA(v_d/2) × 2 = nAv_d, so current remains constant. Students often think doubling area doubles current (C) or halving velocity halves current (A), missing the inverse relationship that maintains constant current."
+    "explanation": "Current I = nAv_d, where n is charge density, A is area, and v_d is drift velocity. If A doubles and v_d halves, then I = nA(v_d/2) × 2 = nAv_d, so current remains constant. Students often think doubling area doubles current (C) or halving velocity halves current (A), missing the inverse relationship that maintains constant current.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q328",
@@ -9288,7 +9795,8 @@ window.PHYSICS_MCQ = [
       "D) Current depends on the cross-sectional areas of each material"
     ],
     "answer": 2,
-    "explanation": "In series circuits, current is the same everywhere due to conservation of charge - charge cannot accumulate. Despite different resistivities, the same current flows through both materials. Students often think better conductors carry more current (A) or that higher resistance somehow increases current (B)."
+    "explanation": "In series circuits, current is the same everywhere due to conservation of charge - charge cannot accumulate. Despite different resistivities, the same current flows through both materials. Students often think better conductors carry more current (A) or that higher resistance somehow increases current (B).",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q329",
@@ -9308,7 +9816,8 @@ window.PHYSICS_MCQ = [
       "D) 1/4"
     ],
     "answer": 1,
-    "explanation": "Same mass and material means ρLA = ρLB, so if LA = 2LB, then AA = AB/2. Using R = ρL/A: RA = ρ(2LB)/(AB/2) = 4ρLB/AB = 4RB. Students often forget that equal mass with double length means half the cross-sectional area, thinking the ratio is just 2 (A)."
+    "explanation": "Same mass and material means ρLA = ρLB, so if LA = 2LB, then AA = AB/2. Using R = ρL/A: RA = ρ(2LB)/(AB/2) = 4ρLB/AB = 4RB. Students often forget that equal mass with double length means half the cross-sectional area, thinking the ratio is just 2 (A).",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q330",
@@ -9328,7 +9837,8 @@ window.PHYSICS_MCQ = [
       "D) Resistance is quartered"
     ],
     "answer": 1,
-    "explanation": "Constant volume means if length doubles, cross-sectional area halves (V = AL constant). Using R = ρL/A: new resistance = ρ(2L)/(A/2) = 4ρL/A = 4R. Students often think resistance just doubles with length (A), forgetting that area also changes when volume is conserved."
+    "explanation": "Constant volume means if length doubles, cross-sectional area halves (V = AL constant). Using R = ρL/A: new resistance = ρ(2L)/(A/2) = 4ρL/A = 4R. Students often think resistance just doubles with length (A), forgetting that area also changes when volume is conserved.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q332",
@@ -9348,7 +9858,8 @@ window.PHYSICS_MCQ = [
       "D) Power remains constant"
     ],
     "answer": 0,
-    "explanation": "As variable resistance increases, total resistance increases, so total current I = V/(Rfixed + Rvariable) decreases. Power in fixed resistor is P = $I^2$Rfixed, which decreases as $I^2$ decreases. Students might think power increases initially due to less current 'loss' in the variable resistor (C), but the current decrease dominates throughout."
+    "explanation": "As variable resistance increases, total resistance increases, so total current I = V/(Rfixed + Rvariable) decreases. Power in fixed resistor is P = $I^2$Rfixed, which decreases as $I^2$ decreases. Students might think power increases initially due to less current 'loss' in the variable resistor (C), but the current decrease dominates throughout.",
+    "deprecated": true
   },
   {
     "id": "phys1_u8_q334",
@@ -9368,7 +9879,86 @@ window.PHYSICS_MCQ = [
       "D) Cannot be determined without knowing the field strength"
     ],
     "answer": 2,
-    "explanation": "Change in potential energy is ΔPE = q$\\Delta V$. Since they travel the same distance in opposite directions in a uniform field, they experience equal but opposite potential differences. With equal magnitude charges (|qp| = |qe|), they have equal magnitude changes in potential energy. Students often think the sign difference matters for magnitude (A, B) or that mass affects the energy change."
+    "explanation": "Change in potential energy is ΔPE = q$\\Delta V$. Since they travel the same distance in opposite directions in a uniform field, they experience equal but opposite potential differences. With equal magnitude charges (|qp| = |qe|), they have equal magnitude changes in potential energy. Students often think the sign difference matters for magnitude (A, B) or that mass affects the energy change.",
+    "deprecated": true
+  },
+  {
+    "id": "U8-MCQ-03",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Ohm's Law / Resistance",
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A wire has resistance $R$. If its length is doubled and its cross-sectional area is halved, what is the new resistance?",
+    "choices": [
+      "$R$",
+      "$2R$",
+      "$4R$",
+      "$R/2$"
+    ],
+    "answer": 2,
+    "explanation": "Resistance $R = \\\\rho L / A$. Doubling $L$ doubles $R$; halving $A$ also doubles $R$. Combined: new resistance $= 4R$.",
+    "deprecated": true
+  },
+  {
+    "id": "U8-MCQ-07",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Electric Field",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A positive charge $q$ is placed in an electric field $\\\\vec{E}$ pointing to the right. What is the direction of the electric force on the charge?",
+    "choices": [
+      "To the left",
+      "To the right",
+      "Upward",
+      "The force is zero"
+    ],
+    "answer": 1,
+    "explanation": "The electric force on a positive charge is $\\\\vec{F} = q\\\\vec{E}$. Since $q > 0$, the force is in the same direction as the field — to the right.",
+    "deprecated": true
+  },
+  {
+    "id": "phys1_u8_q331",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "Ohm's law",
+    "topicLabel": "Ohm's Law",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "A battery with internal resistance r is connected to an external resistor R. To maximize the power delivered to the external resistor, what should be the relationship between R and r?",
+    "choices": [
+      "A) R should be much larger than r",
+      "B) R should be much smaller than r",
+      "C) R should equal r",
+      "D) The ratio doesn't matter for power delivery"
+    ],
+    "answer": 2,
+    "explanation": "Maximum power transfer occurs when load resistance equals source resistance (R = r). This gives P = $V^2$R/(R+r)² maximum when dP/dR = 0, solved to give R = r. Students often think smaller R gives more current and more power (B), or larger R gives more voltage and more power (A).",
+    "deprecated": true
+  },
+  {
+    "id": "phys1_u8_q333",
+    "subject": "apphys1",
+    "unit": 8,
+    "topic": "electric field",
+    "topicLabel": "Electric Field",
+    "difficulty": "hard",
+    "calculator": false,
+    "isLatex": false,
+    "format": "text",
+    "question": "Inside a current-carrying wire in steady state, which statement about the electric field is correct?",
+    "choices": [
+      "A) The electric field is zero everywhere inside the wire",
+      "B) The electric field is perpendicular to the current direction",
+      "C) The electric field is parallel to the current direction",
+      "D) The electric field points radially outward from the wire's center"
+    ],
+    "answer": 2,
+    "explanation": "For steady current to flow, there must be an electric field parallel to the wire (along current direction) to accelerate the charge carriers against resistance. This field is created by surface charges on the wire. Students often think the field is zero inside conductors (A), confusing electrostatic conditions with current-carrying conditions.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q335",
@@ -9388,7 +9978,8 @@ window.PHYSICS_MCQ = [
       "D) Declining Current"
     ],
     "answer": 0,
-    "explanation": "DC stands for Direct Current, meaning the current flows in one constant direction. Students often confuse it with other 'D' words like Dynamic or Differential, but these are not correct electrical terms for this context."
+    "explanation": "DC stands for Direct Current, meaning the current flows in one constant direction. Students often confuse it with other 'D' words like Dynamic or Differential, but these are not correct electrical terms for this context.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q336",
@@ -9408,7 +9999,8 @@ window.PHYSICS_MCQ = [
       "D) Different for each resistor based on resistance"
     ],
     "answer": 0,
-    "explanation": "In series circuits, current is the same throughout because there is only one path for current to flow. Students often think current divides based on resistance (like in parallel circuits) or follows Ohm's law incorrectly by thinking larger resistance means larger current."
+    "explanation": "In series circuits, current is the same throughout because there is only one path for current to flow. Students often think current divides based on resistance (like in parallel circuits) or follows Ohm's law incorrectly by thinking larger resistance means larger current.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q337",
@@ -9428,7 +10020,8 @@ window.PHYSICS_MCQ = [
       "D) Split equally between the resistors"
     ],
     "answer": 0,
-    "explanation": "In parallel circuits, voltage is the same across each branch because all components are connected directly to the same two points. Students often confuse this with series circuits where voltage divides, or think voltage depends on resistance values."
+    "explanation": "In parallel circuits, voltage is the same across each branch because all components are connected directly to the same two points. Students often confuse this with series circuits where voltage divides, or think voltage depends on resistance values.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q338",
@@ -9448,7 +10041,8 @@ window.PHYSICS_MCQ = [
       "D) Resistance determines current flow"
     ],
     "answer": 0,
-    "explanation": "Kirchhoff's current law (KCL) is based on conservation of charge - current entering a junction must equal current leaving. Students often confuse this with voltage law or think it's related to Ohm's law relationships."
+    "explanation": "Kirchhoff's current law (KCL) is based on conservation of charge - current entering a junction must equal current leaving. Students often confuse this with voltage law or think it's related to Ohm's law relationships.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q339",
@@ -9468,7 +10062,8 @@ window.PHYSICS_MCQ = [
       "D) P = I + V"
     ],
     "answer": 0,
-    "explanation": "Power equals current times voltage (P = IV). This is the fundamental power formula. Students often confuse the relationship and think power involves division or addition of current and voltage instead of multiplication."
+    "explanation": "Power equals current times voltage (P = IV). This is the fundamental power formula. Students often confuse the relationship and think power involves division or addition of current and voltage instead of multiplication.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q340",
@@ -9488,7 +10083,8 @@ window.PHYSICS_MCQ = [
       "D) After the resistor in the circuit"
     ],
     "answer": 0,
-    "explanation": "Voltmeters measure potential difference and must be connected in parallel to measure voltage across a component. Students often think voltmeters go in series like ammeters, or confuse the positioning relative to the component."
+    "explanation": "Voltmeters measure potential difference and must be connected in parallel to measure voltage across a component. Students often think voltmeters go in series like ammeters, or confuse the positioning relative to the component.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q341",
@@ -9508,7 +10104,8 @@ window.PHYSICS_MCQ = [
       "D) Connected to ground"
     ],
     "answer": 0,
-    "explanation": "Ammeters measure current and must be placed in series so all current flows through them. Students often think ammeters connect in parallel like voltmeters, or try to connect them across components or power sources."
+    "explanation": "Ammeters measure current and must be placed in series so all current flows through them. Students often think ammeters connect in parallel like voltmeters, or try to connect them across components or power sources.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q342",
@@ -9528,7 +10125,8 @@ window.PHYSICS_MCQ = [
       "D) They are unaffected"
     ],
     "answer": 0,
-    "explanation": "In series circuits, if one component fails (open circuit), the entire circuit is broken and no current flows anywhere. Students often think the remaining bulbs continue working or change brightness based on parallel circuit behavior."
+    "explanation": "In series circuits, if one component fails (open circuit), the entire circuit is broken and no current flows anywhere. Students often think the remaining bulbs continue working or change brightness based on parallel circuit behavior.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q343",
@@ -9548,7 +10146,8 @@ window.PHYSICS_MCQ = [
       "D) They get dimmer"
     ],
     "answer": 0,
-    "explanation": "In parallel circuits, each branch is independent. If one branch fails, the others continue operating normally because they have separate paths to the power source. Students often apply series circuit logic where one failure affects everything."
+    "explanation": "In parallel circuits, each branch is independent. If one branch fails, the others continue operating normally because they have separate paths to the power source. Students often apply series circuit logic where one failure affects everything.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q344",
@@ -9568,7 +10167,8 @@ window.PHYSICS_MCQ = [
       "D) Resistance adds linearly"
     ],
     "answer": 0,
-    "explanation": "Kirchhoff's voltage law (KVL) is based on conservation of energy - the sum of voltage rises must equal voltage drops around any closed path. Students often confuse this with current law or think it relates to power or resistance relationships."
+    "explanation": "Kirchhoff's voltage law (KVL) is based on conservation of energy - the sum of voltage rises must equal voltage drops around any closed path. Students often confuse this with current law or think it relates to power or resistance relationships.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q345",
@@ -9588,7 +10188,8 @@ window.PHYSICS_MCQ = [
       "D) 8V"
     ],
     "answer": 1,
-    "explanation": "In series, total resistance is 60Ω, current is 12V/60Ω = 0.2A. Voltage across 20Ω is V = IR = 0.2A × 20Ω = 4V. Students often incorrectly divide voltage equally (choice A) or use proportional reasoning incorrectly."
+    "explanation": "In series, total resistance is 60Ω, current is 12V/60Ω = 0.2A. Voltage across 20Ω is V = IR = 0.2A × 20Ω = 4V. Students often incorrectly divide voltage equally (choice A) or use proportional reasoning incorrectly.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q346",
@@ -9608,7 +10209,8 @@ window.PHYSICS_MCQ = [
       "D) 8A"
     ],
     "answer": 2,
-    "explanation": "In parallel, voltage across each resistor equals battery voltage. Current through 6Ω: 24V/6Ω = 4A. Current through 12Ω: 24V/12Ω = 2A. Total current = 4A + 2A = 6A. Students often add resistances first (choice A) or forget to add currents."
+    "explanation": "In parallel, voltage across each resistor equals battery voltage. Current through 6Ω: 24V/6Ω = 4A. Current through 12Ω: 24V/12Ω = 2A. Total current = 4A + 2A = 6A. Students often add resistances first (choice A) or forget to add currents.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q347",
@@ -9628,7 +10230,8 @@ window.PHYSICS_MCQ = [
       "D) 800W"
     ],
     "answer": 1,
-    "explanation": "Power P = $I^2$R = (2A)² $\\times$ 100Ω = 4 $\\times$ 100 = 400W. Students often forget to square the current (choice C), or make other calculation errors (choices A and D)."
+    "explanation": "Power P = $I^2$R = (2A)² $\\times$ 100Ω = 4 $\\times$ 100 = 400W. Students often forget to square the current (choice C), or make other calculation errors (choices A and D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q348",
@@ -9648,7 +10251,8 @@ window.PHYSICS_MCQ = [
       "D) Becomes zero"
     ],
     "answer": 1,
-    "explanation": "Adding resistance in series increases total resistance. Since I = V/R and voltage is constant, increasing R decreases current. Students might think adding components increases current (choice A) or that it depends on the specific value (choice C)."
+    "explanation": "Adding resistance in series increases total resistance. Since I = V/R and voltage is constant, increasing R decreases current. Students might think adding components increases current (choice A) or that it depends on the specific value (choice C).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q349",
@@ -9668,7 +10272,8 @@ window.PHYSICS_MCQ = [
       "D) Becomes infinite"
     ],
     "answer": 1,
-    "explanation": "Adding resistors in parallel always decreases equivalent resistance because you're adding more paths for current. The equivalent resistance is always less than the smallest individual resistance. Students often think more resistors means more total resistance (choice A)."
+    "explanation": "Adding resistors in parallel always decreases equivalent resistance because you're adding more paths for current. The equivalent resistance is always less than the smallest individual resistance. Students often think more resistors means more total resistance (choice A).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q350",
@@ -9688,7 +10293,8 @@ window.PHYSICS_MCQ = [
       "D) Be cut in half"
     ],
     "answer": 1,
-    "explanation": "Power P = $V^2$/R. If voltage doubles, power increases by factor of (2V)²/R = 4$V^2$/R = 4P. Students often think power scales linearly with voltage (choice A) or use incorrect power formulas."
+    "explanation": "Power P = $V^2$/R. If voltage doubles, power increases by factor of (2V)²/R = 4$V^2$/R = 4P. Students often think power scales linearly with voltage (choice A) or use incorrect power formulas.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q351",
@@ -9708,7 +10314,8 @@ window.PHYSICS_MCQ = [
       "D) After the resistor in the circuit"
     ],
     "answer": 1,
-    "explanation": "Voltmeters measure potential difference and must be connected in parallel to measure voltage across a component. Connecting in series would change the circuit and give incorrect readings. Students often confuse voltmeter (parallel) with ammeter (series) connections."
+    "explanation": "Voltmeters measure potential difference and must be connected in parallel to measure voltage across a component. Connecting in series would change the circuit and give incorrect readings. Students often confuse voltmeter (parallel) with ammeter (series) connections.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q352",
@@ -9728,7 +10335,8 @@ window.PHYSICS_MCQ = [
       "D) In series and should limit current flow"
     ],
     "answer": 1,
-    "explanation": "Ammeters measure current and must be connected in series. Low resistance ensures they don't significantly change the circuit current being measured. Students confuse ammeter placement with voltmeter placement or don't understand why low resistance is needed."
+    "explanation": "Ammeters measure current and must be connected in series. Low resistance ensures they don't significantly change the circuit current being measured. Students confuse ammeter placement with voltmeter placement or don't understand why low resistance is needed.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q353",
@@ -9748,7 +10356,8 @@ window.PHYSICS_MCQ = [
       "D) 1:4"
     ],
     "answer": 2,
-    "explanation": "For equal resistors R: Series total resistance = 2R, parallel = R/2. Power = $V^2$/Rtotal. Parallel power/Series power = [$V^2$/(R/2)]/[$V^2$/(2R)] = (2$V^2$/R)/($V^2$/2R) = 4:1. Students often think the ratio is 2:1 based on resistance ratio alone."
+    "explanation": "For equal resistors R: Series total resistance = 2R, parallel = R/2. Power = $V^2$/Rtotal. Parallel power/Series power = [$V^2$/(R/2)]/[$V^2$/(2R)] = (2$V^2$/R)/($V^2$/2R) = 4:1. Students often think the ratio is 2:1 based on resistance ratio alone.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q354",
@@ -9768,7 +10377,8 @@ window.PHYSICS_MCQ = [
       "D) Current remains the same"
     ],
     "answer": 2,
-    "explanation": "In series circuits, current flows through a single path. If any component fails open, the entire circuit is broken and current becomes zero everywhere. Students might think current just decreases (choice B) or continues through other resistors (choice D)."
+    "explanation": "In series circuits, current flows through a single path. If any component fails open, the entire circuit is broken and current becomes zero everywhere. Students might think current just decreases (choice B) or continues through other resistors (choice D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q355",
@@ -9788,7 +10398,8 @@ window.PHYSICS_MCQ = [
       "D) Current in other branches remains unchanged"
     ],
     "answer": 3,
-    "explanation": "In parallel circuits, each branch is independent. The voltage across remaining branches stays the same, so their currents remain unchanged. The total circuit current decreases, but individual branch currents are unaffected. Students often think all currents change together."
+    "explanation": "In parallel circuits, each branch is independent. The voltage across remaining branches stays the same, so their currents remain unchanged. The total circuit current decreases, but individual branch currents are unaffected. Students often think all currents change together.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q356",
@@ -9808,7 +10419,8 @@ window.PHYSICS_MCQ = [
       "D) Use voltage law for DC circuits and current law for AC circuits"
     ],
     "answer": 1,
-    "explanation": "KVL applies to any closed loop (sum of voltage drops equals source voltage), while KCL applies at any junction (current in equals current out). These laws are fundamental and apply regardless of circuit type or known quantities. Students often oversimplify based on circuit topology."
+    "explanation": "KVL applies to any closed loop (sum of voltage drops equals source voltage), while KCL applies at any junction (current in equals current out). These laws are fundamental and apply regardless of circuit type or known quantities. Students often oversimplify based on circuit topology.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q357",
@@ -9828,7 +10440,8 @@ window.PHYSICS_MCQ = [
       "D) Neither will light up"
     ],
     "answer": 0,
-    "explanation": "Power ratings assume normal operating voltage. In series, the same current flows through both. The 60W bulb has higher resistance (R = $V^2$/P), so P = $I^2$R gives more power to the higher resistance 60W bulb. Students often think the 100W bulb is always brighter."
+    "explanation": "Power ratings assume normal operating voltage. In series, the same current flows through both. The 60W bulb has higher resistance (R = $V^2$/P), so P = $I^2$R gives more power to the higher resistance 60W bulb. Students often think the 100W bulb is always brighter.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q358",
@@ -9848,7 +10461,8 @@ window.PHYSICS_MCQ = [
       "D) The resistor would overheat"
     ],
     "answer": 1,
-    "explanation": "Voltmeters have very high internal resistance to avoid affecting circuits when connected in parallel. Connected in series, this high resistance greatly reduces circuit current. The reading would be nearly the source voltage, not zero. Students might think it reads zero or causes damage."
+    "explanation": "Voltmeters have very high internal resistance to avoid affecting circuits when connected in parallel. Connected in series, this high resistance greatly reduces circuit current. The reading would be nearly the source voltage, not zero. Students might think it reads zero or causes damage.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q359",
@@ -9868,7 +10482,8 @@ window.PHYSICS_MCQ = [
       "D) The same voltage and double the current capacity"
     ],
     "answer": 2,
-    "explanation": "Series batteries add voltages but maintain the same current capacity (limited by individual battery capacity). Two 1.5V batteries in series give 3V total but still have the amp-hour rating of one battery. Students often think current capacity also doubles in series."
+    "explanation": "Series batteries add voltages but maintain the same current capacity (limited by individual battery capacity). Two 1.5V batteries in series give 3V total but still have the amp-hour rating of one battery. Students often think current capacity also doubles in series.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q360",
@@ -9888,7 +10503,8 @@ window.PHYSICS_MCQ = [
       "D) All dissipate equal power"
     ],
     "answer": 2,
-    "explanation": "In series circuits, current is the same through all resistors. Using P = $I^2$R, power is proportional to resistance when current is constant. The 10Ω resistor has the highest resistance, so it dissipates the most power. Students might think the lowest resistance dissipates the most."
+    "explanation": "In series circuits, current is the same through all resistors. Using P = $I^2$R, power is proportional to resistance when current is constant. The 10Ω resistor has the highest resistance, so it dissipates the most power. Students might think the lowest resistance dissipates the most.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q361",
@@ -9908,7 +10524,8 @@ window.PHYSICS_MCQ = [
       "D) All dissipate equal power"
     ],
     "answer": 0,
-    "explanation": "In parallel circuits, voltage is the same across all resistors. Using P = $V^2$/R, power is inversely proportional to resistance when voltage is constant. The 6Ω resistor has the lowest resistance, so it dissipates the most power. This is opposite to the series case."
+    "explanation": "In parallel circuits, voltage is the same across all resistors. Using P = $V^2$/R, power is inversely proportional to resistance when voltage is constant. The 6Ω resistor has the lowest resistance, so it dissipates the most power. This is opposite to the series case.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q362",
@@ -9928,7 +10545,8 @@ window.PHYSICS_MCQ = [
       "D) The parallel configuration dissipates four times the power"
     ],
     "answer": 3,
-    "explanation": "For identical resistors R, the series equivalent resistance is 2R while the parallel equivalent resistance is R/2. Using P = $V^2$/R_eq where V is the battery voltage: P_series = $V^2$/(2R) and P_parallel = $V^2$/(R/2) = 2$V^2$/R. Therefore P_parallel/P_series = (2$V^2$/R)/($V^2$/2R) = 4. Choice A reverses the relationship. Choice B incorrectly assumes resistance doesn't affect power. Choice C uses the resistance ratio instead of the power relationship."
+    "explanation": "For identical resistors R, the series equivalent resistance is 2R while the parallel equivalent resistance is R/2. Using P = $V^2$/R_eq where V is the battery voltage: P_series = $V^2$/(2R) and P_parallel = $V^2$/(R/2) = 2$V^2$/R. Therefore P_parallel/P_series = (2$V^2$/R)/($V^2$/2R) = 4. Choice A reverses the relationship. Choice B incorrectly assumes resistance doesn't affect power. Choice C uses the resistance ratio instead of the power relationship.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q363",
@@ -9948,7 +10566,8 @@ window.PHYSICS_MCQ = [
       "D) 100%"
     ],
     "answer": 1,
-    "explanation": "When R = r, the voltage divides equally between internal and external resistance. By voltage division, V_external = (R/(R+r)) × emf = (r/(r+r)) × emf = 0.5 × emf = 50%. Students often think 25% (confusing with power) or 100% (ignoring internal resistance)."
+    "explanation": "When R = r, the voltage divides equally between internal and external resistance. By voltage division, V_external = (R/(R+r)) × emf = (r/(r+r)) × emf = 0.5 × emf = 50%. Students often think 25% (confusing with power) or 100% (ignoring internal resistance).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q364",
@@ -9968,7 +10587,8 @@ window.PHYSICS_MCQ = [
       "D) It quadruples"
     ],
     "answer": 0,
-    "explanation": "In series, if any resistor becomes open, no current flows through the entire circuit. Since P = $I^2$R and I = 0, power in the 2Ω resistor becomes zero. Students often think current still flows (B or C) or confuse with parallel circuits where other branches remain active."
+    "explanation": "In series, if any resistor becomes open, no current flows through the entire circuit. Since P = $I^2$R and I = 0, power in the 2Ω resistor becomes zero. Students often think current still flows (B or C) or confuse with parallel circuits where other branches remain active.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q365",
@@ -9988,7 +10608,8 @@ window.PHYSICS_MCQ = [
       "D) Triples"
     ],
     "answer": 0,
-    "explanation": "Initially: R_eq = R/2, P_initial = $V^2$/(R/2) = 2$V^2$/R. After adding third: R_eq = R/3, P_final = $V^2$/(R/3) = 3$V^2$/R. Change = (3$V^2$/R - 2$V^2$/R)/(2$V^2$/R) = 1/2 = 50% increase. Students often calculate 33% (thinking about resistance change) or think power decreases."
+    "explanation": "Initially: R_eq = R/2, P_initial = $V^2$/(R/2) = 2$V^2$/R. After adding third: R_eq = R/3, P_final = $V^2$/(R/3) = 3$V^2$/R. Change = (3$V^2$/R - 2$V^2$/R)/(2$V^2$/R) = 1/2 = 50% increase. Students often calculate 33% (thinking about resistance change) or think power decreases.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q366",
@@ -10008,7 +10629,8 @@ window.PHYSICS_MCQ = [
       "D) Voltage rises are always positive and drops always negative"
     ],
     "answer": 2,
-    "explanation": "Kirchhoff's voltage law states the algebraic sum of voltage changes around any closed loop equals zero, regardless of sign convention chosen consistently. Students often think the sum equals battery voltage (A), that direction matters between loops (B), or that signs are predetermined (D)."
+    "explanation": "Kirchhoff's voltage law states the algebraic sum of voltage changes around any closed loop equals zero, regardless of sign convention chosen consistently. Students often think the sum equals battery voltage (A), that direction matters between loops (B), or that signs are predetermined (D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q367",
@@ -10028,7 +10650,8 @@ window.PHYSICS_MCQ = [
       "D) Neither glows because they cancel out"
     ],
     "answer": 1,
-    "explanation": "From P = $V^2$/R, the 60W bulb has higher resistance (R₆₀ = 240Ω vs R₁₀₀ = 144Ω). In series, same current flows through both, so P = $I^2$R means higher resistance dissipates more power. The 60W bulb glows brighter. Students often think the 100W bulb is always brighter or that they're equal."
+    "explanation": "From P = $V^2$/R, the 60W bulb has higher resistance (R₆₀ = 240Ω vs R₁₀₀ = 144Ω). In series, same current flows through both, so P = $I^2$R means higher resistance dissipates more power. The 60W bulb glows brighter. Students often think the 100W bulb is always brighter or that they're equal.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q368",
@@ -10048,7 +10671,8 @@ window.PHYSICS_MCQ = [
       "D) Total power increases significantly"
     ],
     "answer": 0,
-    "explanation": "Adding the ammeter (0.01Ω) in series with the 10Ω resistor increases total resistance from 10Ω to 10.01Ω. The original current is I = 12/10 = 1.2A, and the new current is I = 12/10.01 $\\approx$ 1.1988A. The fractional change in current is (10.01 - 10)/10.01 $\\approx$ 0.001, or about 0.1% decrease. Because the ammeter resistance is so small relative to the circuit resistance, the measurement minimally disturbs the circuit - which is the desired property of an ammeter. Choice B is incorrect because adding resistance always decreases current in a series circuit. Choice C is incorrect because the voltage across the 10Ω resistor actually decreases slightly. Choice D is incorrect because total power decreases slightly due to the reduced current."
+    "explanation": "Adding the ammeter (0.01Ω) in series with the 10Ω resistor increases total resistance from 10Ω to 10.01Ω. The original current is I = 12/10 = 1.2A, and the new current is I = 12/10.01 $\\approx$ 1.1988A. The fractional change in current is (10.01 - 10)/10.01 $\\approx$ 0.001, or about 0.1% decrease. Because the ammeter resistance is so small relative to the circuit resistance, the measurement minimally disturbs the circuit - which is the desired property of an ammeter. Choice B is incorrect because adding resistance always decreases current in a series circuit. Choice C is incorrect because the voltage across the 10Ω resistor actually decreases slightly. Choice D is incorrect because total power decreases slightly due to the reduced current.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q369",
@@ -10068,7 +10692,8 @@ window.PHYSICS_MCQ = [
       "D) 6V"
     ],
     "answer": 1,
-    "explanation": "If V₁ = 4V across 3Ω, then I = 4V/3Ω = 4/3 A. Total circuit resistance = 3 + 6 + 1 = 10Ω. Therefore emf = I × R_total = (4/3) $\\times$ 10 = 40/3 = 13.3V. Students often forget internal resistance (A), double-count resistances (C), or use incorrect voltage relationships (D)."
+    "explanation": "If V₁ = 4V across 3Ω, then I = 4V/3Ω = 4/3 A. Total circuit resistance = 3 + 6 + 1 = 10Ω. Therefore emf = I × R_total = (4/3) $\\times$ 10 = 40/3 = 13.3V. Students often forget internal resistance (A), double-count resistances (C), or use incorrect voltage relationships (D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q370",
@@ -10088,7 +10713,8 @@ window.PHYSICS_MCQ = [
       "D) It doubles"
     ],
     "answer": 2,
-    "explanation": "In parallel circuits, voltage across each resistor equals the source voltage. Current through the 6Ω resistor is always I = V/R = 36V/6Ω = 6A, regardless of other parallel branches. Students often think removing a parallel branch affects current in remaining branches (A, B, D)."
+    "explanation": "In parallel circuits, voltage across each resistor equals the source voltage. Current through the 6Ω resistor is always I = V/R = 36V/6Ω = 6A, regardless of other parallel branches. Students often think removing a parallel branch affects current in remaining branches (A, B, D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q371",
@@ -10108,7 +10734,8 @@ window.PHYSICS_MCQ = [
       "D) 0A (no current)"
     ],
     "answer": 1,
-    "explanation": "Kirchhoff's current law: sum of currents into junction equals sum out. If 2A + 5A + 3A = 10A flows in, then 10A must flow out through the fourth wire. Students often add all currents incorrectly (A), confuse the direction (C), or think currents cancel (D)."
+    "explanation": "Kirchhoff's current law: sum of currents into junction equals sum out. If 2A + 5A + 3A = 10A flows in, then 10A must flow out through the fourth wire. Students often add all currents incorrectly (A), confuse the direction (C), or think currents cancel (D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q372",
@@ -10128,7 +10755,8 @@ window.PHYSICS_MCQ = [
       "D) Increases by 50%"
     ],
     "answer": 2,
-    "explanation": "Power P = $V^2$/R. When voltage doubles (24V → 48V), power changes from P₁ = (24)²/8 = 72W to P₂ = (48)²/8 = 288W. The ratio P₂/P₁ = 288/72 = 4, so power quadruples. Students often think power doubles with voltage (A) or use P = VI incorrectly."
+    "explanation": "Power P = $V^2$/R. When voltage doubles (24V → 48V), power changes from P₁ = (24)²/8 = 72W to P₂ = (48)²/8 = 288W. The ratio P₂/P₁ = 288/72 = 4, so power quadruples. Students often think power doubles with voltage (A) or use P = VI incorrectly.",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q373",
@@ -10148,7 +10776,8 @@ window.PHYSICS_MCQ = [
       "D) R approaches infinity"
     ],
     "answer": 1,
-    "explanation": "Maximum power transfer theorem: maximum power is delivered to load when load resistance equals source internal resistance (R = r). At this point, power = ε²/(4r). Students often think minimum resistance gives maximum power (A) or maximum resistance is better (C, D)."
+    "explanation": "Maximum power transfer theorem: maximum power is delivered to load when load resistance equals source internal resistance (R = r). At this point, power = ε²/(4r). Students often think minimum resistance gives maximum power (A) or maximum resistance is better (C, D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q374",
@@ -10168,7 +10797,8 @@ window.PHYSICS_MCQ = [
       "D) 0V"
     ],
     "answer": 1,
-    "explanation": "The two 1000Ω voltmeters in series act as a voltage divider. Each gets half the total voltage: 12V/2 = 6V. Students often think each reads full voltage (A), forget they're measuring their own voltage drop, or think they interfere destructively (D)."
+    "explanation": "The two 1000Ω voltmeters in series act as a voltage divider. Each gets half the total voltage: 12V/2 = 6V. Students often think each reads full voltage (A), forget they're measuring their own voltage drop, or think they interfere destructively (D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q375",
@@ -10188,7 +10818,8 @@ window.PHYSICS_MCQ = [
       "D) The 100Ω resistor burns out"
     ],
     "answer": 1,
-    "explanation": "In parallel with 100Ω, the 0.1Ω ammeter provides a very low resistance path. Most current flows through the ammeter (I $\\approx$ V/0.1Ω), which can be 1000× larger than intended, potentially damaging it. Students often think it reads zero (A) or correctly (C)."
+    "explanation": "In parallel with 100Ω, the 0.1Ω ammeter provides a very low resistance path. Most current flows through the ammeter (I $\\approx$ V/0.1Ω), which can be 1000× larger than intended, potentially damaging it. Students often think it reads zero (A) or correctly (C).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q376",
@@ -10208,7 +10839,8 @@ window.PHYSICS_MCQ = [
       "D) 6A"
     ],
     "answer": 2,
-    "explanation": "The wire shorts out the 4Ω resistor, leaving only the 2Ω resistor in series with the battery. Current becomes I = V/R = 6V/2Ω = 3A. Students often include the shorted resistor in calculations (A), think current stays the same (A), or miscalculate (B, D)."
+    "explanation": "The wire shorts out the 4Ω resistor, leaving only the 2Ω resistor in series with the battery. Current becomes I = V/R = 6V/2Ω = 3A. Students often include the shorted resistor in calculations (A), think current stays the same (A), or miscalculate (B, D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q377",
@@ -10228,7 +10860,8 @@ window.PHYSICS_MCQ = [
       "D) 8W"
     ],
     "answer": 0,
-    "explanation": "In parallel, both resistors have the same voltage. From P = $V^2$/R for the 8Ω: 18 = $V^2$/8, so $V^2$ = 144. For the 12Ω: P = $V^2$/R = 144/12 = 12W. Students often think equal power (B), use incorrect proportions (C), or confuse with series relationships (D)."
+    "explanation": "In parallel, both resistors have the same voltage. From P = $V^2$/R for the 8Ω: 18 = $V^2$/8, so $V^2$ = 144. For the 12Ω: P = $V^2$/R = 144/12 = 12W. Students often think equal power (B), use incorrect proportions (C), or confuse with series relationships (D).",
+    "deprecated": true
   },
   {
     "id": "phys1_u9_q378",
@@ -10248,6 +10881,7 @@ window.PHYSICS_MCQ = [
       "D) 3/4"
     ],
     "answer": 2,
-    "explanation": "Current I = 12V/(2Ω + 4Ω) = 2A. Power to external resistor: P_ext = $I^2$R = (2)²(4) = 16W. Total battery power output: P_total = $I^2$(R + r) = (2)²(6) = 24W. Fraction = 16W/24W = 2/3. Students often use P = $I^2$r for total power (A) or confuse with voltage ratios (B)."
+    "explanation": "Current I = 12V/(2Ω + 4Ω) = 2A. Power to external resistor: P_ext = $I^2$R = (2)²(4) = 16W. Total battery power output: P_total = $I^2$(R + r) = (2)²(6) = 24W. Fraction = 16W/24W = 2/3. Students often use P = $I^2$r for total power (A) or confuse with voltage ratios (B).",
+    "deprecated": true
   }
 ];
