@@ -847,7 +847,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u5_q1",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "5.1 Impulse & Momentum",
     "difficulty": "easy",
     "type": "MCQ",
@@ -864,7 +864,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u5_q2",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "5.1 Impulse & Momentum",
     "difficulty": "medium",
     "type": "MCQ",
@@ -881,7 +881,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u5_q3",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "5.2 Conservation of Momentum",
     "difficulty": "medium",
     "type": "MCQ",
@@ -898,7 +898,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u5_q4",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "5.2 Conservation of Momentum",
     "difficulty": "hard",
     "type": "MCQ",
@@ -915,7 +915,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u5_q5",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "5.1 Impulse & Momentum",
     "difficulty": "medium",
     "type": "MCQ",
@@ -932,7 +932,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u5_q6",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "5.2 Conservation of Momentum",
     "difficulty": "medium",
     "type": "MCQ",
@@ -949,7 +949,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u5_q7",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "5.2 Conservation of Momentum",
     "difficulty": "easy",
     "type": "MCQ",
@@ -966,7 +966,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u5_q8",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "5.1 Impulse & Momentum",
     "difficulty": "medium",
     "type": "MCQ",
@@ -983,7 +983,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u6_q1",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "6.1 Simple Harmonic Motion",
     "difficulty": "easy",
     "type": "MCQ",
@@ -1000,7 +1000,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u6_q2",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "6.1 Simple Harmonic Motion",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1017,7 +1017,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u6_q3",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "6.1 Simple Harmonic Motion",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1035,7 +1035,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u6_q4",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "6.2 Pendulums",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1052,7 +1052,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u6_q5",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "6.1 Simple Harmonic Motion",
     "difficulty": "hard",
     "type": "MCQ",
@@ -1069,7 +1069,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u7_q1",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "7.1 Torque",
     "difficulty": "easy",
     "type": "MCQ",
@@ -1086,7 +1086,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u7_q2",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "7.2 Rotational Kinematics & Dynamics",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1103,7 +1103,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u7_q3",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "7.1 Torque",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1121,7 +1121,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u7_q4",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "7.3 Angular Momentum",
     "difficulty": "hard",
     "type": "MCQ",
@@ -1138,7 +1138,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "aphy1_u7_q5",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "7.2 Rotational Kinematics & Dynamics",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1762,7 +1762,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U5-MCQ-01",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "Impulse-Momentum Theorem",
     "difficulty": "easy",
     "type": "MCQ",
@@ -1779,7 +1779,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U5-MCQ-02",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "Conservation of Momentum (Explosion)",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1797,7 +1797,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U5-MCQ-03",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "Perfectly Inelastic Collision",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1814,7 +1814,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U5-MCQ-04",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "Elastic Collision",
     "difficulty": "hard",
     "type": "MCQ",
@@ -1832,7 +1832,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U5-MCQ-05",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "Impulse & Average Force",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1849,7 +1849,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U5-MCQ-06",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "Conservation of Momentum (2D)",
     "difficulty": "hard",
     "type": "MCQ",
@@ -1867,7 +1867,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U5-MCQ-07",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "Force vs Time Graph (Impulse)",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1885,7 +1885,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U5-MCQ-08",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "Kinetic Energy in Collisions",
     "difficulty": "hard",
     "type": "MCQ",
@@ -1902,7 +1902,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U5-MCQ-09",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "Momentum & Newton's Third Law",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1919,7 +1919,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U5-MCQ-10",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "Perfectly Inelastic Collision (COM Frame)",
     "difficulty": "hard",
     "type": "MCQ",
@@ -1937,7 +1937,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U6-MCQ-01",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "SHM Period (Spring)",
     "difficulty": "easy",
     "type": "MCQ",
@@ -1954,7 +1954,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U6-MCQ-02",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "SHM Energy",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1972,7 +1972,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U6-MCQ-03",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "SHM Restoring Force",
     "difficulty": "medium",
     "type": "MCQ",
@@ -1990,7 +1990,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U6-MCQ-04",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "Pendulum Period",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2008,7 +2008,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U6-MCQ-05",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "SHM Velocity & Position",
     "difficulty": "hard",
     "type": "MCQ",
@@ -2025,7 +2025,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U6-MCQ-06",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "SHM Period Independence",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2042,7 +2042,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U6-MCQ-07",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "SHM Acceleration",
     "difficulty": "hard",
     "type": "MCQ",
@@ -2060,7 +2060,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U6-MCQ-08",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "Pendulum — Effect of Gravity",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2077,7 +2077,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U6-MCQ-09",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "SHM Energy Conservation",
     "difficulty": "hard",
     "type": "MCQ",
@@ -2094,7 +2094,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U6-MCQ-10",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "SHM — Identifying Type",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2111,7 +2111,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U7-MCQ-01",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Torque Calculation",
     "difficulty": "easy",
     "type": "MCQ",
@@ -2128,7 +2128,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U7-MCQ-02",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Rotational Equilibrium",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2146,7 +2146,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U7-MCQ-03",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Moment of Inertia",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2163,7 +2163,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U7-MCQ-04",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "Angular Momentum Conservation",
     "difficulty": "hard",
     "type": "MCQ",
@@ -2180,7 +2180,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U7-MCQ-05",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Torque Direction",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2197,7 +2197,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U7-MCQ-07",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Torque & Angular Acceleration",
     "difficulty": "hard",
     "type": "MCQ",
@@ -2214,7 +2214,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U7-MCQ-09",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Torque at an Angle",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2232,7 +2232,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U7-MCQ-10",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Rotational Kinematics",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2688,7 +2688,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys_img_q7",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "5.2 Conservation of Momentum",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2706,7 +2706,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys_img_q8",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "5.1 Impulse & Momentum",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2724,7 +2724,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys_img_q9",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "7.1 Simple Harmonic Motion",
     "difficulty": "medium",
     "type": "MCQ",
@@ -2742,7 +2742,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys_img_q10",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "7.2 Pendulums",
     "difficulty": "easy",
     "type": "MCQ",
@@ -5539,7 +5539,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q118",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "work",
     "topicLabel": "work",
     "difficulty": "easy",
@@ -5559,7 +5559,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q119",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "kinetic energy",
     "topicLabel": "kinetic energy",
     "difficulty": "easy",
@@ -5579,7 +5579,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q120",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "work-energy theorem",
     "topicLabel": "work-energy theorem",
     "difficulty": "easy",
@@ -5599,7 +5599,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q121",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "potential energy",
     "topicLabel": "potential energy",
     "difficulty": "easy",
@@ -5619,7 +5619,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q122",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "conservation of energy",
     "topicLabel": "conservation of energy",
     "difficulty": "easy",
@@ -5639,7 +5639,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q123",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "power",
     "topicLabel": "power",
     "difficulty": "easy",
@@ -5659,7 +5659,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q124",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "spring potential energy",
     "topicLabel": "spring potential energy",
     "difficulty": "easy",
@@ -5679,7 +5679,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q125",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "Hooke's law",
     "topicLabel": "Hooke's law",
     "difficulty": "easy",
@@ -5699,7 +5699,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q126",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "work",
     "topicLabel": "work",
     "difficulty": "easy",
@@ -5719,7 +5719,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q127",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "kinetic energy",
     "topicLabel": "kinetic energy",
     "difficulty": "easy",
@@ -5739,7 +5739,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q128",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "power",
     "topicLabel": "power",
     "difficulty": "easy",
@@ -5759,7 +5759,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q129",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "work",
     "topicLabel": "work",
     "difficulty": "medium",
@@ -5779,7 +5779,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q130",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "kinetic energy",
     "topicLabel": "kinetic energy",
     "difficulty": "medium",
@@ -5799,7 +5799,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q131",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "work-energy theorem",
     "topicLabel": "work-energy theorem",
     "difficulty": "medium",
@@ -5819,7 +5819,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q132",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "work-energy theorem",
     "topicLabel": "work-energy theorem",
     "difficulty": "medium",
@@ -5839,7 +5839,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q133",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "gravitational potential energy",
     "topicLabel": "potential energy",
     "difficulty": "medium",
@@ -5859,7 +5859,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q134",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "conservation of energy",
     "topicLabel": "conservation of energy",
     "difficulty": "medium",
@@ -5879,7 +5879,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q135",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "conservation of energy",
     "topicLabel": "conservation of energy",
     "difficulty": "medium",
@@ -5899,7 +5899,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q136",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "power",
     "topicLabel": "power",
     "difficulty": "medium",
@@ -5919,7 +5919,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q137",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "power",
     "topicLabel": "power",
     "difficulty": "medium",
@@ -5939,7 +5939,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q138",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "power",
     "topicLabel": "power",
     "difficulty": "medium",
@@ -5959,7 +5959,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q139",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "spring potential energy",
     "topicLabel": "spring potential energy",
     "difficulty": "medium",
@@ -5979,7 +5979,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q140",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "spring potential energy",
     "topicLabel": "spring potential energy",
     "difficulty": "medium",
@@ -5999,7 +5999,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q141",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "Hooke's law",
     "topicLabel": "Hooke's law",
     "difficulty": "medium",
@@ -6019,7 +6019,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q142",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "Hooke's law",
     "topicLabel": "Hooke's law",
     "difficulty": "medium",
@@ -6039,7 +6039,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q143",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "work",
     "topicLabel": "work",
     "difficulty": "medium",
@@ -6059,7 +6059,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q144",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "kinetic energy",
     "topicLabel": "kinetic energy",
     "difficulty": "medium",
@@ -6079,7 +6079,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q145",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "conservation of energy",
     "topicLabel": "conservation of energy",
     "difficulty": "medium",
@@ -6099,7 +6099,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q146",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "work",
     "topicLabel": "work",
     "difficulty": "medium",
@@ -6119,7 +6119,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q147",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "spring potential energy",
     "topicLabel": "spring potential energy",
     "difficulty": "medium",
@@ -6139,7 +6139,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q148",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "power",
     "topicLabel": "power",
     "difficulty": "medium",
@@ -6159,7 +6159,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q149",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "kinetic energy",
     "topicLabel": "kinetic energy",
     "difficulty": "medium",
@@ -6179,7 +6179,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q150",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "gravitational potential energy",
     "topicLabel": "gravitational potential energy",
     "difficulty": "medium",
@@ -6199,7 +6199,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q151",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "conservation of energy",
     "topicLabel": "conservation of energy",
     "difficulty": "medium",
@@ -6219,7 +6219,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q152",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "power",
     "topicLabel": "power",
     "difficulty": "medium",
@@ -6239,7 +6239,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q153",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "spring potential energy",
     "topicLabel": "spring potential energy",
     "difficulty": "medium",
@@ -6259,7 +6259,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q154",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "Hooke's law",
     "topicLabel": "Hooke's law",
     "difficulty": "medium",
@@ -6279,7 +6279,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q155",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "elastic potential energy",
     "topicLabel": "elastic potential energy",
     "difficulty": "medium",
@@ -6299,7 +6299,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q156",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "kinetic energy",
     "topicLabel": "kinetic energy",
     "difficulty": "hard",
@@ -6319,7 +6319,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q157",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "potential energy",
     "topicLabel": "potential energy",
     "difficulty": "hard",
@@ -6339,7 +6339,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q160",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "spring potential energy",
     "topicLabel": "spring potential energy",
     "difficulty": "hard",
@@ -6359,7 +6359,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q161",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "Hooke's law",
     "topicLabel": "Hooke's law",
     "difficulty": "hard",
@@ -6379,7 +6379,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q163",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "work-energy theorem",
     "topicLabel": "work-energy theorem",
     "difficulty": "hard",
@@ -6399,7 +6399,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q164",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "conservation of energy",
     "topicLabel": "conservation of energy",
     "difficulty": "hard",
@@ -6419,7 +6419,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q165",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "power",
     "topicLabel": "power",
     "difficulty": "hard",
@@ -6439,7 +6439,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q158",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "conservation of energy",
     "topicLabel": "conservation of energy",
     "difficulty": "hard",
@@ -6459,7 +6459,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q159",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "power",
     "topicLabel": "power",
     "difficulty": "hard",
@@ -6479,7 +6479,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u4_q162",
     "subject": "apphys1",
-    "unit": 4,
+    "unit": 3,
     "topic": "work",
     "topicLabel": "work",
     "difficulty": "hard",
@@ -6499,7 +6499,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q166",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "momentum",
     "topicLabel": "momentum",
     "difficulty": "easy",
@@ -6519,7 +6519,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q167",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse",
     "topicLabel": "impulse",
     "difficulty": "easy",
@@ -6539,7 +6539,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q168",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse-momentum theorem",
     "topicLabel": "impulse-momentum theorem",
     "difficulty": "easy",
@@ -6559,7 +6559,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q169",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "elastic collision",
     "topicLabel": "elastic collision",
     "difficulty": "easy",
@@ -6579,7 +6579,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q170",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "inelastic collision",
     "topicLabel": "inelastic collision",
     "difficulty": "easy",
@@ -6599,7 +6599,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q171",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "perfectly inelastic collision",
     "topicLabel": "perfectly inelastic collision",
     "difficulty": "easy",
@@ -6619,7 +6619,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q172",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "center of mass",
     "topicLabel": "center of mass",
     "difficulty": "easy",
@@ -6639,7 +6639,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q173",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "momentum",
     "topicLabel": "momentum",
     "difficulty": "easy",
@@ -6659,7 +6659,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q174",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "center of mass",
     "topicLabel": "center of mass",
     "difficulty": "easy",
@@ -6679,7 +6679,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q175",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "momentum",
     "topicLabel": "momentum",
     "difficulty": "medium",
@@ -6699,7 +6699,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q176",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse",
     "topicLabel": "impulse",
     "difficulty": "medium",
@@ -6719,7 +6719,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q177",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse-momentum theorem",
     "topicLabel": "impulse-momentum theorem",
     "difficulty": "medium",
@@ -6739,7 +6739,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q178",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "conservation of momentum",
     "topicLabel": "conservation of momentum",
     "difficulty": "medium",
@@ -6759,7 +6759,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q179",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "elastic collision",
     "topicLabel": "elastic collision",
     "difficulty": "medium",
@@ -6779,7 +6779,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q180",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "center of mass",
     "topicLabel": "center of mass",
     "difficulty": "medium",
@@ -6799,7 +6799,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q181",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "momentum",
     "topicLabel": "momentum",
     "difficulty": "medium",
@@ -6819,7 +6819,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q182",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse",
     "topicLabel": "impulse",
     "difficulty": "medium",
@@ -6839,7 +6839,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q183",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "conservation of momentum",
     "topicLabel": "conservation of momentum",
     "difficulty": "medium",
@@ -6859,7 +6859,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q184",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "elastic collision",
     "topicLabel": "elastic collision",
     "difficulty": "medium",
@@ -6879,7 +6879,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q185",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse-momentum theorem",
     "topicLabel": "impulse-momentum theorem",
     "difficulty": "medium",
@@ -6899,7 +6899,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q186",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "perfectly inelastic collision",
     "topicLabel": "perfectly inelastic collision",
     "difficulty": "medium",
@@ -6919,7 +6919,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q187",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "center of mass",
     "topicLabel": "center of mass",
     "difficulty": "medium",
@@ -6939,7 +6939,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q188",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "momentum",
     "topicLabel": "momentum",
     "difficulty": "medium",
@@ -6959,7 +6959,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q189",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse-momentum theorem",
     "topicLabel": "impulse-momentum theorem",
     "difficulty": "medium",
@@ -6979,7 +6979,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q190",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "elastic collision",
     "topicLabel": "elastic collision",
     "difficulty": "medium",
@@ -6999,7 +6999,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q191",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "center of mass",
     "topicLabel": "center of mass",
     "difficulty": "medium",
@@ -7019,7 +7019,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q193",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse-momentum theorem",
     "topicLabel": "impulse-momentum theorem",
     "difficulty": "hard",
@@ -7039,7 +7039,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q194",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "conservation of momentum",
     "topicLabel": "conservation of momentum",
     "difficulty": "hard",
@@ -7059,7 +7059,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q195",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "elastic collision",
     "topicLabel": "elastic collision",
     "difficulty": "hard",
@@ -7079,7 +7079,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q196",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "center of mass",
     "topicLabel": "center of mass",
     "difficulty": "hard",
@@ -7099,7 +7099,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q197",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "momentum",
     "topicLabel": "momentum",
     "difficulty": "hard",
@@ -7119,7 +7119,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q198",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse",
     "topicLabel": "impulse",
     "difficulty": "hard",
@@ -7139,7 +7139,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q199",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse-momentum theorem",
     "topicLabel": "impulse-momentum theorem",
     "difficulty": "hard",
@@ -7160,7 +7160,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q200",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "conservation of momentum",
     "topicLabel": "conservation of momentum",
     "difficulty": "hard",
@@ -7180,7 +7180,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q201",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "inelastic collision",
     "topicLabel": "inelastic collision",
     "difficulty": "hard",
@@ -7200,7 +7200,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q202",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "center of mass",
     "topicLabel": "center of mass",
     "difficulty": "hard",
@@ -7220,7 +7220,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u5_q192",
     "subject": "apphys1",
-    "unit": 5,
+    "unit": 4,
     "topic": "impulse",
     "topicLabel": "impulse",
     "difficulty": "hard",
@@ -7240,7 +7240,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q203",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "simple harmonic motion",
     "topicLabel": "simple harmonic motion",
     "difficulty": "easy",
@@ -7260,7 +7260,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q204",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "restoring force",
     "topicLabel": "restoring force",
     "difficulty": "easy",
@@ -7280,7 +7280,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q205",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "period and frequency",
     "topicLabel": "period and frequency",
     "difficulty": "easy",
@@ -7300,7 +7300,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q206",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "spring-mass system",
     "topicLabel": "spring-mass system",
     "difficulty": "easy",
@@ -7320,7 +7320,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q207",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "pendulum",
     "topicLabel": "pendulum",
     "difficulty": "easy",
@@ -7340,7 +7340,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q208",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "amplitude",
     "topicLabel": "amplitude",
     "difficulty": "easy",
@@ -7360,7 +7360,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q209",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "energy in SHM",
     "topicLabel": "energy in SHM",
     "difficulty": "easy",
@@ -7381,7 +7381,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q210",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "simple harmonic motion",
     "topicLabel": "simple harmonic motion",
     "difficulty": "easy",
@@ -7402,7 +7402,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q211",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "restoring force",
     "topicLabel": "restoring force",
     "difficulty": "easy",
@@ -7423,7 +7423,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q212",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "spring-mass system",
     "topicLabel": "spring-mass system",
     "difficulty": "easy",
@@ -7443,7 +7443,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q213",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "energy in SHM",
     "topicLabel": "energy in SHM",
     "difficulty": "easy",
@@ -7464,7 +7464,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q214",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "simple harmonic motion",
     "topicLabel": "Simple Harmonic Motion",
     "difficulty": "easy",
@@ -7485,7 +7485,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q215",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "restoring force",
     "topicLabel": "Restoring Force",
     "difficulty": "medium",
@@ -7505,7 +7505,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q216",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "period and frequency",
     "topicLabel": "Period and Frequency",
     "difficulty": "medium",
@@ -7525,7 +7525,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q217",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "spring-mass system",
     "topicLabel": "Spring-Mass System",
     "difficulty": "medium",
@@ -7545,7 +7545,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q218",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "pendulum",
     "topicLabel": "Pendulum",
     "difficulty": "medium",
@@ -7565,7 +7565,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q219",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "amplitude",
     "topicLabel": "Amplitude",
     "difficulty": "medium",
@@ -7585,7 +7585,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q220",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "energy in SHM",
     "topicLabel": "Energy in SHM",
     "difficulty": "medium",
@@ -7605,7 +7605,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q221",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "simple harmonic motion",
     "topicLabel": "Simple Harmonic Motion",
     "difficulty": "medium",
@@ -7625,7 +7625,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q222",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "period and frequency",
     "topicLabel": "Period and Frequency",
     "difficulty": "medium",
@@ -7645,7 +7645,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q223",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "spring-mass system",
     "topicLabel": "Spring-Mass System",
     "difficulty": "medium",
@@ -7665,7 +7665,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q224",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "pendulum",
     "topicLabel": "Pendulum",
     "difficulty": "medium",
@@ -7685,7 +7685,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q225",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "amplitude",
     "topicLabel": "Amplitude",
     "difficulty": "medium",
@@ -7705,7 +7705,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q226",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "energy in SHM",
     "topicLabel": "Energy in SHM",
     "difficulty": "medium",
@@ -7725,7 +7725,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q227",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "simple harmonic motion",
     "topicLabel": "Simple Harmonic Motion",
     "difficulty": "medium",
@@ -7745,7 +7745,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q228",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "restoring force",
     "topicLabel": "Restoring Force",
     "difficulty": "medium",
@@ -7765,7 +7765,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q229",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "period and frequency",
     "topicLabel": "Period and Frequency",
     "difficulty": "medium",
@@ -7785,7 +7785,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q230",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "spring-mass system",
     "topicLabel": "Spring-Mass System",
     "difficulty": "medium",
@@ -7805,7 +7805,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q231",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "pendulum",
     "topicLabel": "Pendulum",
     "difficulty": "medium",
@@ -7825,7 +7825,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q232",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "energy in SHM",
     "topicLabel": "Energy in SHM",
     "difficulty": "medium",
@@ -7845,7 +7845,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q233",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "simple harmonic motion",
     "topicLabel": "simple harmonic motion",
     "difficulty": "medium",
@@ -7866,7 +7866,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q234",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "restoring force",
     "topicLabel": "restoring force",
     "difficulty": "medium",
@@ -7886,7 +7886,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q235",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "period and frequency",
     "topicLabel": "period and frequency",
     "difficulty": "medium",
@@ -7906,7 +7906,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q236",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "spring-mass system",
     "topicLabel": "spring-mass system",
     "difficulty": "medium",
@@ -7926,7 +7926,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q237",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "pendulum",
     "topicLabel": "pendulum",
     "difficulty": "medium",
@@ -7946,7 +7946,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q238",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "energy in SHM",
     "topicLabel": "energy in SHM",
     "difficulty": "medium",
@@ -7966,7 +7966,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q239",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "simple harmonic motion",
     "topicLabel": "simple harmonic motion",
     "difficulty": "hard",
@@ -7986,7 +7986,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q240",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "restoring force",
     "topicLabel": "restoring force",
     "difficulty": "hard",
@@ -8006,7 +8006,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q241",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "period and frequency",
     "topicLabel": "period and frequency",
     "difficulty": "hard",
@@ -8026,7 +8026,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q243",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "pendulum",
     "topicLabel": "pendulum",
     "difficulty": "hard",
@@ -8046,7 +8046,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q244",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "amplitude",
     "topicLabel": "amplitude",
     "difficulty": "hard",
@@ -8066,7 +8066,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q245",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "energy in SHM",
     "topicLabel": "energy in SHM",
     "difficulty": "hard",
@@ -8086,7 +8086,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q246",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "simple harmonic motion",
     "topicLabel": "simple harmonic motion",
     "difficulty": "hard",
@@ -8106,7 +8106,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q247",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "period and frequency",
     "topicLabel": "period and frequency",
     "difficulty": "hard",
@@ -8126,7 +8126,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q248",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "pendulum",
     "topicLabel": "pendulum",
     "difficulty": "hard",
@@ -8146,7 +8146,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q249",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "amplitude",
     "topicLabel": "amplitude",
     "difficulty": "hard",
@@ -8166,7 +8166,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q251",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "simple harmonic motion",
     "topicLabel": "simple harmonic motion",
     "difficulty": "hard",
@@ -8186,7 +8186,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q252",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "restoring force",
     "topicLabel": "restoring force",
     "difficulty": "hard",
@@ -8206,7 +8206,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u6_q250",
     "subject": "apphys1",
-    "unit": 6,
+    "unit": 7,
     "topic": "energy in SHM",
     "topicLabel": "energy in SHM",
     "difficulty": "hard",
@@ -8226,7 +8226,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q253",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "torque",
     "topicLabel": "torque",
     "difficulty": "easy",
@@ -8246,7 +8246,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q254",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "moment arm",
     "topicLabel": "moment arm",
     "difficulty": "easy",
@@ -8266,7 +8266,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q255",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "rotational inertia",
     "topicLabel": "rotational inertia",
     "difficulty": "easy",
@@ -8286,7 +8286,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q256",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Newton's second law rotation",
     "topicLabel": "Newton's second law rotation",
     "difficulty": "easy",
@@ -8306,7 +8306,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q257",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "conservation of angular momentum",
     "topicLabel": "conservation of angular momentum",
     "difficulty": "easy",
@@ -8326,7 +8326,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q258",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "rolling motion",
     "topicLabel": "rolling motion",
     "difficulty": "easy",
@@ -8346,7 +8346,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q259",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "torque",
     "topicLabel": "torque",
     "difficulty": "easy",
@@ -8366,7 +8366,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q260",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "rotational inertia",
     "topicLabel": "rotational inertia",
     "difficulty": "easy",
@@ -8386,7 +8386,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q261",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "conservation of angular momentum",
     "topicLabel": "conservation of angular momentum",
     "difficulty": "easy",
@@ -8406,7 +8406,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q262",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "torque",
     "topicLabel": "torque",
     "difficulty": "medium",
@@ -8426,7 +8426,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q263",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "moment arm",
     "topicLabel": "moment arm",
     "difficulty": "medium",
@@ -8446,7 +8446,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q264",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "rotational inertia",
     "topicLabel": "rotational inertia",
     "difficulty": "medium",
@@ -8466,7 +8466,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q265",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Newton's second law rotation",
     "topicLabel": "Newton's second law rotation",
     "difficulty": "medium",
@@ -8486,7 +8486,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q266",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "angular momentum",
     "topicLabel": "angular momentum",
     "difficulty": "medium",
@@ -8506,7 +8506,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q267",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "conservation of angular momentum",
     "topicLabel": "conservation of angular momentum",
     "difficulty": "medium",
@@ -8526,7 +8526,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q268",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "rolling motion",
     "topicLabel": "rolling motion",
     "difficulty": "medium",
@@ -8546,7 +8546,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q269",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "moment arm",
     "topicLabel": "moment arm",
     "difficulty": "medium",
@@ -8566,7 +8566,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q270",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "rotational inertia",
     "topicLabel": "rotational inertia",
     "difficulty": "medium",
@@ -8586,7 +8586,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q271",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Newton's second law rotation",
     "topicLabel": "Newton's second law rotation",
     "difficulty": "medium",
@@ -8606,7 +8606,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q273",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "rolling motion",
     "topicLabel": "rolling motion",
     "difficulty": "medium",
@@ -8626,7 +8626,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q274",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "torque",
     "topicLabel": "torque",
     "difficulty": "medium",
@@ -8646,7 +8646,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q275",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "rolling motion",
     "topicLabel": "rolling motion",
     "difficulty": "medium",
@@ -8666,7 +8666,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q276",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "torque",
     "topicLabel": "torque",
     "difficulty": "medium",
@@ -8686,7 +8686,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q277",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "moment arm",
     "topicLabel": "moment arm",
     "difficulty": "medium",
@@ -8706,7 +8706,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q278",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "rotational inertia",
     "topicLabel": "rotational inertia",
     "difficulty": "medium",
@@ -8726,7 +8726,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q279",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Newton's second law rotation",
     "topicLabel": "Newton's second law rotation",
     "difficulty": "medium",
@@ -8746,7 +8746,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q280",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "conservation of angular momentum",
     "topicLabel": "conservation of angular momentum",
     "difficulty": "medium",
@@ -8766,7 +8766,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q281",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "torque",
     "topicLabel": "torque",
     "difficulty": "hard",
@@ -8786,7 +8786,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q282",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "moment arm",
     "topicLabel": "moment arm",
     "difficulty": "hard",
@@ -8806,7 +8806,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q283",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "rotational equilibrium",
     "topicLabel": "rotational equilibrium",
     "difficulty": "hard",
@@ -8827,7 +8827,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q284",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "Newton's second law rotation",
     "topicLabel": "Newton's second law rotation",
     "difficulty": "hard",
@@ -8847,7 +8847,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q285",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "angular momentum",
     "topicLabel": "angular momentum",
     "difficulty": "hard",
@@ -8867,7 +8867,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q286",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "conservation of angular momentum",
     "topicLabel": "conservation of angular momentum",
     "difficulty": "hard",
@@ -8887,7 +8887,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q287",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "rolling motion",
     "topicLabel": "rolling motion",
     "difficulty": "hard",
@@ -8907,7 +8907,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q288",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "moment arm",
     "topicLabel": "moment arm",
     "difficulty": "hard",
@@ -8927,7 +8927,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q290",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "conservation of angular momentum",
     "topicLabel": "conservation of angular momentum",
     "difficulty": "hard",
@@ -8947,7 +8947,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q291",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "rolling motion",
     "topicLabel": "rolling motion",
     "difficulty": "hard",
@@ -8967,7 +8967,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "U7-MCQ-08",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "Rolling Without Slipping",
     "difficulty": "hard",
     "type": "MCQ",
@@ -8984,7 +8984,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q272",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 6,
     "topic": "conservation of angular momentum",
     "topicLabel": "conservation of angular momentum",
     "difficulty": "medium",
@@ -9004,7 +9004,7 @@ window.PHYSICS_MCQ = [
   {
     "id": "phys1_u7_q289",
     "subject": "apphys1",
-    "unit": 7,
+    "unit": 5,
     "topic": "rotational inertia",
     "topicLabel": "rotational inertia",
     "difficulty": "hard",
