@@ -210,7 +210,6 @@ window.PHYSICS_MCQ = [
     "topic": "Horizontal Launch",
     "difficulty": "hard",
     "type": "MCQ",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Target_projectile.svg/1200px-Target_projectile.svg.png",
     "question": "A ball is launched horizontally from a height of $20\\\\,\\\\text{m}$ above the ground with an initial speed of $15\\\\,\\\\text{m/s}$. What is the range (horizontal distance) of the launch?",
     "choices": [
       "$20\\\\,\\\\text{m}$",
@@ -219,7 +218,8 @@ window.PHYSICS_MCQ = [
       "$15\\\\,\\\\text{m}$"
     ],
     "answer": 1,
-    "explanation": "Time to fall: $t = \\\\sqrt{\\\\frac{2h}{g}} = \\\\sqrt{\\\\frac{2(20)}{10}} = 2\\\\,\\\\text{s}$. Range: $x = v_x t = 15(2) = 30\\\\,\\\\text{m}$."
+    "explanation": "Time to fall: $t = \\\\sqrt{\\\\frac{2h}{g}} = \\\\sqrt{\\\\frac{2(20)}{10}} = 2\\\\,\\\\text{s}$. Range: $x = v_x t = 15(2) = 30\\\\,\\\\text{m}$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='218' x2='285' y2='218' stroke-width='2' class='svg-axis'/><line x1='56' y1='218' x2='48' y2='226' stroke-width='2' class='svg-axis'/><line x1='70' y1='218' x2='62' y2='226' stroke-width='2' class='svg-axis'/><line x1='84' y1='218' x2='76' y2='226' stroke-width='2' class='svg-axis'/><line x1='98' y1='218' x2='90' y2='226' stroke-width='2' class='svg-axis'/><line x1='112' y1='218' x2='104' y2='226' stroke-width='2' class='svg-axis'/><line x1='126' y1='218' x2='118' y2='226' stroke-width='2' class='svg-axis'/><line x1='140' y1='218' x2='132' y2='226' stroke-width='2' class='svg-axis'/><line x1='154' y1='218' x2='146' y2='226' stroke-width='2' class='svg-axis'/><line x1='168' y1='218' x2='160' y2='226' stroke-width='2' class='svg-axis'/><line x1='182' y1='218' x2='174' y2='226' stroke-width='2' class='svg-axis'/><line x1='196' y1='218' x2='188' y2='226' stroke-width='2' class='svg-axis'/><line x1='210' y1='218' x2='202' y2='226' stroke-width='2' class='svg-axis'/><line x1='224' y1='218' x2='216' y2='226' stroke-width='2' class='svg-axis'/><line x1='238' y1='218' x2='230' y2='226' stroke-width='2' class='svg-axis'/><line x1='252' y1='218' x2='244' y2='226' stroke-width='2' class='svg-axis'/><line x1='266' y1='218' x2='258' y2='226' stroke-width='2' class='svg-axis'/><line x1='280' y1='218' x2='272' y2='226' stroke-width='2' class='svg-axis'/><line x1='50' y1='78' x2='100' y2='78' stroke-width='2' class='svg-axis'/><line x1='50' y1='78' x2='50' y2='218' stroke-width='2' class='svg-axis'/><line x1='100' y1='78' x2='100' y2='218' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='56' y='152' text-anchor='start' font-size='12' font-weight='600' class='svg-label'>h</text><line x1='100' y1='78' x2='145.0' y2='78.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='155,78 145.0,83.0 145.0,73.0' fill='#8b5cf6' stroke='none'/><text x='158' y='74' text-anchor='start' fill='#8b5cf6' font-size='12' font-weight='600' class='svg-label'>v₀</text><path d='M 100,78 Q 285,78 285,218' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='100' cy='78' r='5' fill='#94a3b8'/><circle cx='285' cy='218' r='5' fill='#94a3b8'/><line x1='100' y1='224' x2='285' y2='224' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='192' y='238' text-anchor='middle' font-size='10' class='svg-label'>Range</text></svg>"
   },
   {
     "id": "U1-MCQ-06",
@@ -245,7 +245,6 @@ window.PHYSICS_MCQ = [
     "topic": "Boat/River Vectors",
     "difficulty": "hard",
     "type": "MCQ",
-    "image": "https://www.physics.mun.ca/~jjerrett/relative/boat1.gif",
     "question": "A boat moves at $4\\\\,\\\\text{m/s}$ north and is in a river current moving east at $3\\\\,\\\\text{m/s}$. What is the magnitude of the boat's velocity relative to the shore?",
     "choices": [
       "$3\\\\,\\\\text{m/s}$",
@@ -254,7 +253,8 @@ window.PHYSICS_MCQ = [
       "$7\\\\,\\\\text{m/s}$"
     ],
     "answer": 2,
-    "explanation": "The velocity vectors are perpendicular. We use the Pythagorean theorem: $|v| = \\\\sqrt{(4)^2 + (3)^2} = \\\\sqrt{16 + 9} = \\\\sqrt{25} = 5\\\\,\\\\text{m/s}$."
+    "explanation": "The velocity vectors are perpendicular. We use the Pythagorean theorem: $|v| = \\\\sqrt{(4)^2 + (3)^2} = \\\\sqrt{16 + 9} = \\\\sqrt{25} = 5\\\\,\\\\text{m/s}$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><text x='155' y='25' text-anchor='middle' font-size='11' class='svg-label'>N</text><text x='155' y='245' text-anchor='middle' font-size='11' class='svg-label'>S</text><text x='50' y='135' text-anchor='middle' font-size='11' class='svg-label'>W</text><text x='265' y='135' text-anchor='middle' font-size='11' class='svg-label'>E</text><line x1='155' y1='30' x2='155' y2='240' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><line x1='55' y1='130' x2='260' y2='130' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><line x1='130' y1='190' x2='210.0' y2='190.0' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='220,190 210.0,195.0 210.0,185.0' fill='#3b82f6' stroke='none'/><text x='224' y='194' text-anchor='start' fill='#3b82f6' font-size='10' font-weight='600' class='svg-label'>v_river = 3 m/s</text><line x1='130' y1='190' x2='130.0' y2='80.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='130,70 135.0,80.0 125.0,80.0' fill='#8b5cf6' stroke='none'/><text x='124' y='66' text-anchor='end' fill='#8b5cf6' font-size='10' font-weight='600' class='svg-label'>v_boat = 4 m/s</text><line x1='130' y1='190' x2='214.0' y2='78.0' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='220,70 218.0,81.0 210.0,75.0' fill='#16a34a' stroke='none'/><text x='224' y='68' text-anchor='start' fill='#16a34a' font-size='10' font-weight='600' class='svg-label'>v_net = ?</text><path d='M 142,190 L 142,178 L 130,178' stroke='#94a3b8' stroke-width='1' fill='none'/><circle cx='130' cy='190' r='5' fill='#94a3b8'/></svg>"
   },
   {
     "id": "U1-MCQ-09",
@@ -263,7 +263,6 @@ window.PHYSICS_MCQ = [
     "topic": "Acceleration-Time",
     "difficulty": "medium",
     "type": "MCQ",
-    "image": "https://bam.files.bbci.co.uk/bam/live/content/z3v6n39/large",
     "question": "A truck starts from rest and accelerates. In the first $4\\\\,\\\\text{s}$ it travels $36\\\\,\\\\text{m}$. What is the magnitude of the truck's acceleration during the first $4\\\\,\\\\text{s}$?",
     "choices": [
       "$1\\\\,\\\\text{m/s}^2$",
@@ -272,7 +271,8 @@ window.PHYSICS_MCQ = [
       "$9\\\\,\\\\text{m/s}^2$"
     ],
     "answer": 2,
-    "explanation": "Using $x = \\\\frac{1}{2}at^2$ and solving for $a$: $a = \\\\frac{2x}{t^2} = \\\\frac{2(36)}{4^2} = \\\\frac{72}{16} = 4.5\\\\,\\\\text{m/s}^2$. Choice A ($1\\\\,\\\\text{m/s}^2$) is far too small. Choice B ($3\\\\,\\\\text{m/s}^2$) would give $x = \\\\frac{1}{2}(3)(16) = 24\\\\,\\\\text{m}$, not 36 m. Choice D ($9\\\\,\\\\text{m/s}^2$) would give $x = \\\\frac{1}{2}(9)(16) = 72\\\\,\\\\text{m}$, too large."
+    "explanation": "Using $x = \\\\frac{1}{2}at^2$ and solving for $a$: $a = \\\\frac{2x}{t^2} = \\\\frac{2(36)}{4^2} = \\\\frac{72}{16} = 4.5\\\\,\\\\text{m/s}^2$. Choice A ($1\\\\,\\\\text{m/s}^2$) is far too small. Choice B ($3\\\\,\\\\text{m/s}^2$) would give $x = \\\\frac{1}{2}(3)(16) = 24\\\\,\\\\text{m}$, not 36 m. Choice D ($9\\\\,\\\\text{m/s}^2$) would give $x = \\\\frac{1}{2}(9)(16) = 72\\\\,\\\\text{m}$, too large.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Velocity (m/s)</text><line x1='229' y1='35' x2='229' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='229' y='219' text-anchor='middle' class='svg-label'>4 s</text><line x1='65' y1='205' x2='229' y2='52' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='229' cy='52' r='3' fill='#3b82f6'/><circle cx='65' cy='205' r='3' fill='#3b82f6'/></svg>"
   },
   {
     "id": "U1-MCQ-10",
@@ -536,7 +536,6 @@ window.PHYSICS_MCQ = [
     "topic": "Atwood Machine",
     "difficulty": "hard",
     "type": "MCQ",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Atwood_machine_vectors.svg/800px-Atwood_machine_vectors.svg.png",
     "question": "In an Atwood machine, mass $M_1 = 3\\\\,\\\\text{kg}$ and $M_2 = 7\\\\,\\\\text{kg}$ hang on opposite sides of a frictionless pulley. What is the magnitude of the net force accelerating the system?",
     "choices": [
       "$40\\\\,\\\\text{N}$",
@@ -545,7 +544,8 @@ window.PHYSICS_MCQ = [
       "$100\\\\,\\\\text{N}$"
     ],
     "answer": 0,
-    "explanation": "Net force $= (M_2 - M_1)g = (7 - 3)(10) = 40\\\\,\\\\text{N}$."
+    "explanation": "Net force $= (M_2 - M_1)g = (7 - 3)(10) = 40\\\\,\\\\text{N}$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='150' y1='22' x2='160' y2='22' stroke-width='3' class='svg-axis'/><line x1='137' y1='22' x2='131' y2='14' stroke-width='1' class='svg-axis'/><line x1='146' y1='22' x2='140' y2='14' stroke-width='1' class='svg-axis'/><line x1='155' y1='22' x2='149' y2='14' stroke-width='1' class='svg-axis'/><line x1='164' y1='22' x2='158' y2='14' stroke-width='1' class='svg-axis'/><line x1='173' y1='22' x2='167' y2='14' stroke-width='1' class='svg-axis'/><line x1='137' y1='22' x2='173' y2='22' stroke-width='2' class='svg-axis'/><line x1='155' y1='22' x2='155' y2='33' stroke-width='2' class='svg-axis'/><circle cx='155' cy='55' r='22' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='55' r='5' fill='#94a3b8'/><line x1='137' y1='59' x2='137' y2='126' stroke-width='2' class='svg-axis'/><line x1='173' y1='59' x2='173' y2='161' stroke-width='2' class='svg-axis'/><text x='129' y='93' text-anchor='end' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T</text><text x='181' y='110' text-anchor='start' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T</text><rect x='120' y='126' width='34' height='28' fill='none' stroke-width='2' class='svg-axis'/><text x='137' y='145' text-anchor='middle' font-size='11' class='svg-label'>M₁ 3 kg</text><rect x='156' y='161' width='34' height='28' fill='none' stroke-width='2' class='svg-axis'/><text x='173' y='180' text-anchor='middle' font-size='11' class='svg-label'>M₂ 7 kg</text><line x1='173' y1='194' x2='173.0' y2='207.0' stroke='#8b5cf6' stroke-width='2' fill='none'/><polygon points='173,217 168.0,207.0 178.0,207.0' fill='#8b5cf6' stroke='none'/><text x='179' y='211' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a</text><line x1='137' y1='121' x2='137.0' y2='108.0' stroke='#8b5cf6' stroke-width='2' fill='none'/><polygon points='137,98 142.0,108.0 132.0,108.0' fill='#8b5cf6' stroke='none'/><text x='143' y='112' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a</text></svg>"
   },
   {
     "id": "U2-MCQ-09",
@@ -571,7 +571,6 @@ window.PHYSICS_MCQ = [
     "topic": "Lawnmower Angle",
     "difficulty": "hard",
     "type": "MCQ",
-    "image": "https://i.ytimg.com/vi/fTCD0jByASQ/maxresdefault.jpg",
     "question": "A lawnmower of mass $M$ is pushed by a force at an angle $\\\\theta$ below the horizontal. The force needed to push it at constant speed across a flat lawn depends on which factors?",
     "choices": [
       "The mass of the lawnmower only",
@@ -580,7 +579,8 @@ window.PHYSICS_MCQ = [
       "Greater than the weight of the lawnmower"
     ],
     "answer": 1,
-    "explanation": "For an object pushed at an angle $\\\\theta$ below horizontal at constant speed, the required force depends on $\\\\theta$ (increases the normal force, thus friction) and the coefficient of kinetic friction."
+    "explanation": "For an object pushed at an angle $\\\\theta$ below horizontal at constant speed, the required force depends on $\\\\theta$ (increases the normal force, thus friction) and the coefficient of kinetic friction.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='60' y1='148' x2='250' y2='148' stroke-width='2' class='svg-axis'/><line x1='66' y1='148' x2='58' y2='156' stroke-width='1' class='svg-axis'/><line x1='80' y1='148' x2='72' y2='156' stroke-width='1' class='svg-axis'/><line x1='94' y1='148' x2='86' y2='156' stroke-width='1' class='svg-axis'/><line x1='108' y1='148' x2='100' y2='156' stroke-width='1' class='svg-axis'/><line x1='122' y1='148' x2='114' y2='156' stroke-width='1' class='svg-axis'/><line x1='136' y1='148' x2='128' y2='156' stroke-width='1' class='svg-axis'/><line x1='150' y1='148' x2='142' y2='156' stroke-width='1' class='svg-axis'/><line x1='164' y1='148' x2='156' y2='156' stroke-width='1' class='svg-axis'/><line x1='178' y1='148' x2='170' y2='156' stroke-width='1' class='svg-axis'/><line x1='192' y1='148' x2='184' y2='156' stroke-width='1' class='svg-axis'/><line x1='206' y1='148' x2='198' y2='156' stroke-width='1' class='svg-axis'/><line x1='220' y1='148' x2='212' y2='156' stroke-width='1' class='svg-axis'/><line x1='234' y1='148' x2='226' y2='156' stroke-width='1' class='svg-axis'/><rect x='139' y='102' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='123' text-anchor='middle' font-size='11' class='svg-label'>M</text><line x1='155' y1='118' x2='155.0' y2='166.5' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,176.5 150.0,166.5 160.0,166.5' fill='#dc2626' stroke='none'/><text x='155' y='191' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='155' y1='118' x2='155.0' y2='56.5' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='155,46.5 160.0,56.5 150.0,56.5' fill='#3b82f6' stroke='none'/><text x='155' y='33' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text><line x1='155' y1='118' x2='126.0' y2='118.0' stroke='#f97316' stroke-width='2.5' fill='none'/><polygon points='116,118 126.0,113.0 126.0,123.0' fill='#f97316' stroke='none'/><text x='102' y='118' text-anchor='end' fill='#f97316' font-size='12' font-weight='600' class='svg-label'>f</text><line x1='155' y1='118' x2='202.6' y2='145.5' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='211.2916512459885,150.50000000000003 200.1,149.8 205.1,141.2' fill='#8b5cf6' stroke='none'/><text x='223' y='158' text-anchor='start' fill='#8b5cf6' font-size='12' font-weight='600' class='svg-label'>F</text></svg>"
   },
   {
     "id": "aphy1_u3_q1",
@@ -1745,7 +1745,6 @@ window.PHYSICS_MCQ = [
     "topic": "Conservation of Momentum (Explosion)",
     "difficulty": "medium",
     "type": "MCQ",
-    "image": "https://www.physicsclassroom.com/getattachment/reviews/momentum/Momentum8.png",
     "question": "Two carts on a frictionless track are initially at rest and connected by a compressed spring. Cart A has mass $2m$ and Cart B has mass $m$. When released, Cart B moves at speed $v$ to the right. What is the speed of Cart A?",
     "choices": [
       "$v/2$",
@@ -1754,7 +1753,8 @@ window.PHYSICS_MCQ = [
       "$4v$"
     ],
     "answer": 0,
-    "explanation": "By conservation of momentum from rest: $0 = 2m \\\\cdot v_A + m \\\\cdot v$. So $v_A = -v/2$. Cart A moves at speed $v/2$ to the left."
+    "explanation": "By conservation of momentum from rest: $0 = 2m \\\\cdot v_A + m \\\\cdot v$. So $v_A = -v/2$. Cart A moves at speed $v/2$ to the left.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='40' y1='175' x2='270' y2='175' stroke-width='2' class='svg-axis'/><line x1='46' y1='175' x2='38' y2='183' stroke-width='2' class='svg-axis'/><line x1='60' y1='175' x2='52' y2='183' stroke-width='2' class='svg-axis'/><line x1='74' y1='175' x2='66' y2='183' stroke-width='2' class='svg-axis'/><line x1='88' y1='175' x2='80' y2='183' stroke-width='2' class='svg-axis'/><line x1='102' y1='175' x2='94' y2='183' stroke-width='2' class='svg-axis'/><line x1='116' y1='175' x2='108' y2='183' stroke-width='2' class='svg-axis'/><line x1='130' y1='175' x2='122' y2='183' stroke-width='2' class='svg-axis'/><line x1='144' y1='175' x2='136' y2='183' stroke-width='2' class='svg-axis'/><line x1='158' y1='175' x2='150' y2='183' stroke-width='2' class='svg-axis'/><line x1='172' y1='175' x2='164' y2='183' stroke-width='2' class='svg-axis'/><line x1='186' y1='175' x2='178' y2='183' stroke-width='2' class='svg-axis'/><line x1='200' y1='175' x2='192' y2='183' stroke-width='2' class='svg-axis'/><line x1='214' y1='175' x2='206' y2='183' stroke-width='2' class='svg-axis'/><line x1='228' y1='175' x2='220' y2='183' stroke-width='2' class='svg-axis'/><line x1='242' y1='175' x2='234' y2='183' stroke-width='2' class='svg-axis'/><line x1='256' y1='175' x2='248' y2='183' stroke-width='2' class='svg-axis'/><text x='155' y='22' text-anchor='middle' font-size='11' class='svg-label'>Before (at rest)</text><rect x='55' y='140' width='50' height='30' fill='none' stroke-width='2' class='svg-axis'/><text x='80' y='159' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>2m</text><line x1='108' y1='155' x2='113' y2='147' stroke-width='2' class='svg-axis'/><line x1='113' y1='147' x2='118' y2='155' stroke-width='2' class='svg-axis'/><line x1='118' y1='155' x2='123' y2='147' stroke-width='2' class='svg-axis'/><line x1='123' y1='147' x2='128' y2='155' stroke-width='2' class='svg-axis'/><line x1='128' y1='155' x2='133' y2='147' stroke-width='2' class='svg-axis'/><line x1='133' y1='147' x2='138' y2='155' stroke-width='2' class='svg-axis'/><line x1='138' y1='155' x2='143' y2='147' stroke-width='2' class='svg-axis'/><line x1='143' y1='147' x2='148' y2='155' stroke-width='2' class='svg-axis'/><line x1='148' y1='155' x2='153' y2='147' stroke-width='2' class='svg-axis'/><line x1='153' y1='147' x2='158' y2='155' stroke-width='2' class='svg-axis'/><line x1='105' y1='155' x2='108' y2='155' stroke-width='2' class='svg-axis'/><line x1='158' y1='155' x2='163' y2='155' stroke-width='2' class='svg-axis'/><rect x='163' y='140' width='50' height='30' fill='none' stroke-width='2' class='svg-axis'/><text x='188' y='159' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>m</text><text x='80' y='128' text-anchor='middle' font-size='10' class='svg-label'>v = 0</text><text x='188' y='128' text-anchor='middle' font-size='10' class='svg-label'>v = 0</text><line x1='100' y1='108' x2='102.0' y2='108.0' stroke='#f97316' stroke-width='2' fill='none'/><polygon points='112,108 102.0,113.0 102.0,103.0' fill='#f97316' stroke='none'/><line x1='168' y1='108' x2='166.0' y2='108.0' stroke='#f97316' stroke-width='2' fill='none'/><polygon points='156,108 166.0,103.0 166.0,113.0' fill='#f97316' stroke='none'/><text x='133' y='104' text-anchor='middle' fill='#94a3b8' font-size='9' class='svg-label'>compressed</text><text x='155' y='200' text-anchor='middle' font-size='10' class='svg-label'>After: A ← v_A       v_B → B</text></svg>"
   },
   {
     "id": "U5-MCQ-03",
@@ -1780,7 +1780,6 @@ window.PHYSICS_MCQ = [
     "topic": "Elastic Collision",
     "difficulty": "hard",
     "type": "MCQ",
-    "image": "https://www.physicsclassroom.com/getattachment/reviews/momentum/Momentum4.png",
     "question": "In an elastic collision between two equal masses, one initially at rest, the moving object has initial momentum $p_0$. After the collision, what is the momentum of each object?",
     "choices": [
       "The moving object has $p_0/2$; the stationary object has $p_0/2$.",
@@ -1789,7 +1788,8 @@ window.PHYSICS_MCQ = [
       "Both objects have $0$ momentum."
     ],
     "answer": 2,
-    "explanation": "In a head-on elastic collision between equal masses, the moving object stops and the stationary object takes all the momentum. The originally moving object has $p = 0$ and the originally stationary object has $p = p_0$."
+    "explanation": "In a head-on elastic collision between equal masses, the moving object stops and the stationary object takes all the momentum. The originally moving object has $p = 0$ and the originally stationary object has $p = p_0$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='40' y1='230' x2='270' y2='230' stroke-width='2' class='svg-axis'/><line x1='46' y1='230' x2='38' y2='238' stroke-width='2' class='svg-axis'/><line x1='60' y1='230' x2='52' y2='238' stroke-width='2' class='svg-axis'/><line x1='74' y1='230' x2='66' y2='238' stroke-width='2' class='svg-axis'/><line x1='88' y1='230' x2='80' y2='238' stroke-width='2' class='svg-axis'/><line x1='102' y1='230' x2='94' y2='238' stroke-width='2' class='svg-axis'/><line x1='116' y1='230' x2='108' y2='238' stroke-width='2' class='svg-axis'/><line x1='130' y1='230' x2='122' y2='238' stroke-width='2' class='svg-axis'/><line x1='144' y1='230' x2='136' y2='238' stroke-width='2' class='svg-axis'/><line x1='158' y1='230' x2='150' y2='238' stroke-width='2' class='svg-axis'/><line x1='172' y1='230' x2='164' y2='238' stroke-width='2' class='svg-axis'/><line x1='186' y1='230' x2='178' y2='238' stroke-width='2' class='svg-axis'/><line x1='200' y1='230' x2='192' y2='238' stroke-width='2' class='svg-axis'/><line x1='214' y1='230' x2='206' y2='238' stroke-width='2' class='svg-axis'/><line x1='228' y1='230' x2='220' y2='238' stroke-width='2' class='svg-axis'/><line x1='242' y1='230' x2='234' y2='238' stroke-width='2' class='svg-axis'/><line x1='256' y1='230' x2='248' y2='238' stroke-width='2' class='svg-axis'/><text x='155' y='22' text-anchor='middle' font-size='11' class='svg-label'>Before</text><rect x='55' y='80' width='44' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='77' y='100' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>m</text><line x1='99' y1='96' x2='125.0' y2='96.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='135,96 125.0,101.0 125.0,91.0' fill='#8b5cf6' stroke='none'/><text x='138' y='92' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>v₀</text><rect x='175' y='80' width='44' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='197' y='100' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>m</text><text x='197' y='66' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>at rest</text><line x1='55' y1='132' x2='265' y2='132' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='155' y='152' text-anchor='middle' font-size='11' class='svg-label'>After</text><rect x='55' y='165' width='44' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='77' y='185' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>m</text><text x='77' y='151' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>at rest</text><rect x='175' y='165' width='44' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='197' y='185' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>m</text><line x1='175' y1='181' x2='201.0' y2='181.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='211,181 201.0,186.0 201.0,176.0' fill='#8b5cf6' stroke='none'/><text x='214' y='177' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>v₀</text></svg>"
   },
   {
     "id": "U5-MCQ-05",
@@ -1815,7 +1815,6 @@ window.PHYSICS_MCQ = [
     "topic": "Conservation of Momentum (2D)",
     "difficulty": "hard",
     "type": "MCQ",
-    "image": "https://www.physicsclassroom.com/getattachment/reviews/momentum/Momentum6.png",
     "question": "A $2\\\\,\\\\text{kg}$ object moving east at $3\\\\,\\\\text{m/s}$ collides with a $2\\\\,\\\\text{kg}$ object moving north at $3\\\\,\\\\text{m/s}$. They stick together. What is the magnitude of their combined velocity?",
     "choices": [
       "$1.5\\\\,\\\\text{m/s}$",
@@ -1824,7 +1823,8 @@ window.PHYSICS_MCQ = [
       "$4.24\\\\,\\\\text{m/s}$"
     ],
     "answer": 1,
-    "explanation": "Total momentum: $p_x = 2(3) = 6\\\\,\\\\text{kg·m/s}$ east; $p_y = 2(3) = 6\\\\,\\\\text{kg·m/s}$ north. Total mass $= 4\\\\,\\\\text{kg}$. $$v = \\\\frac{\\\\sqrt{p_x^2 + p_y^2}}{M} = \\\\frac{\\\\sqrt{36+36}}{4} = \\\\frac{\\\\sqrt{72}}{4} \\\\approx \\\\frac{8.49}{4} \\\\approx 2.12\\\\,\\\\text{m/s}$$"
+    "explanation": "Total momentum: $p_x = 2(3) = 6\\\\,\\\\text{kg·m/s}$ east; $p_y = 2(3) = 6\\\\,\\\\text{kg·m/s}$ north. Total mass $= 4\\\\,\\\\text{kg}$. $$v = \\\\frac{\\\\sqrt{p_x^2 + p_y^2}}{M} = \\\\frac{\\\\sqrt{36+36}}{4} = \\\\frac{\\\\sqrt{72}}{4} \\\\approx \\\\frac{8.49}{4} \\\\approx 2.12\\\\,\\\\text{m/s}$$",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><text x='155' y='22' text-anchor='middle' font-size='11' class='svg-label'>Before Collision</text><rect x='60' y='124' width='36' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='78' y='144' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>2 kg</text><line x1='96' y1='140' x2='130.0' y2='140.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='140,140 130.0,145.0 130.0,135.0' fill='#8b5cf6' stroke='none'/><text x='144' y='144' text-anchor='start' fill='#8b5cf6' font-size='10' font-weight='600' class='svg-label'>3 m/s east</text><rect x='182' y='154' width='36' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='200' y='174' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>2 kg</text><line x1='200' y1='154' x2='200.0' y2='120.0' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='200,110 205.0,120.0 195.0,120.0' fill='#16a34a' stroke='none'/><text x='204' y='106' text-anchor='start' fill='#16a34a' font-size='10' font-weight='600' class='svg-label'>3 m/s north</text><circle cx='168' cy='140' r='6' fill='#dc2626'/><text x='172' y='135' text-anchor='start' fill='#94a3b8' font-size='9' class='svg-label'>collision</text><text x='155' y='210' text-anchor='middle' font-size='10' class='svg-label'>After: combined momentum → ?</text></svg>"
   },
   {
     "id": "U5-MCQ-07",
@@ -1833,7 +1833,6 @@ window.PHYSICS_MCQ = [
     "topic": "Force vs Time Graph (Impulse)",
     "difficulty": "medium",
     "type": "MCQ",
-    "image": "https://www.physicsclassroom.com/getattachment/reviews/momentum/Momentum7.png",
     "question": "A force vs. time graph shows a rectangular pulse: $F = 50\\\\,\\\\text{N}$ from $t = 0$ to $t = 0.4\\\\,\\\\text{s}$, and $F = 0$ elsewhere. What is the impulse delivered to the object?",
     "choices": [
       "$5\\\\,\\\\text{N\\\\cdot s}$",
@@ -1842,7 +1841,8 @@ window.PHYSICS_MCQ = [
       "$125\\\\,\\\\text{N\\\\cdot s}$"
     ],
     "answer": 1,
-    "explanation": "Impulse equals the area under the F-vs-t graph: $J = F \\\\times \\\\Delta t = (50)(0.4) = 20\\\\,\\\\text{N\\\\cdot s}$."
+    "explanation": "Impulse equals the area under the F-vs-t graph: $J = F \\\\times \\\\Delta t = (50)(0.4) = 20\\\\,\\\\text{N\\\\cdot s}$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Force (N)</text><line x1='168' y1='35' x2='168' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='168' y='219' text-anchor='middle' class='svg-label'>0.4 s</text><line x1='50' y1='84' x2='270' y2='84' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='88' text-anchor='end' class='svg-label'>50 N</text><line x1='65' y1='84' x2='168' y2='84' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><circle cx='168' cy='84' r='3' fill='#8b5cf6'/><line x1='168' y1='84' x2='168' y2='205' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><circle cx='168' cy='205' r='3' fill='#8b5cf6'/><line x1='168' y1='205' x2='270' y2='205' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><circle cx='270' cy='205' r='3' fill='#8b5cf6'/><circle cx='65' cy='84' r='3' fill='#8b5cf6'/></svg>"
   },
   {
     "id": "U5-MCQ-08",
@@ -1885,7 +1885,6 @@ window.PHYSICS_MCQ = [
     "topic": "Perfectly Inelastic Collision (COM Frame)",
     "difficulty": "hard",
     "type": "MCQ",
-    "image": "https://www.physicsclassroom.com/getattachment/reviews/momentum/Momentum5.png",
     "question": "A $5\\\\,\\\\text{kg}$ block moving at $10\\\\,\\\\text{m/s}$ collides with and sticks to a $5\\\\,\\\\text{kg}$ block at rest. What is the velocity of the two-block system after the collision?",
     "choices": [
       "$2.5\\\\,\\\\text{m/s}$",
@@ -1894,7 +1893,8 @@ window.PHYSICS_MCQ = [
       "$10\\\\,\\\\text{m/s}$"
     ],
     "answer": 1,
-    "explanation": "Conservation of momentum: $m_1 v_1 = (m_1 + m_2)v_f$. $$v_f = \\\\frac{(5)(10)}{5+5} = \\\\frac{50}{10} = 5\\\\,\\\\text{m/s}$$"
+    "explanation": "Conservation of momentum: $m_1 v_1 = (m_1 + m_2)v_f$. $$v_f = \\\\frac{(5)(10)}{5+5} = \\\\frac{50}{10} = 5\\\\,\\\\text{m/s}$$",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='40' y1='230' x2='270' y2='230' stroke-width='2' class='svg-axis'/><line x1='46' y1='230' x2='38' y2='238' stroke-width='2' class='svg-axis'/><line x1='60' y1='230' x2='52' y2='238' stroke-width='2' class='svg-axis'/><line x1='74' y1='230' x2='66' y2='238' stroke-width='2' class='svg-axis'/><line x1='88' y1='230' x2='80' y2='238' stroke-width='2' class='svg-axis'/><line x1='102' y1='230' x2='94' y2='238' stroke-width='2' class='svg-axis'/><line x1='116' y1='230' x2='108' y2='238' stroke-width='2' class='svg-axis'/><line x1='130' y1='230' x2='122' y2='238' stroke-width='2' class='svg-axis'/><line x1='144' y1='230' x2='136' y2='238' stroke-width='2' class='svg-axis'/><line x1='158' y1='230' x2='150' y2='238' stroke-width='2' class='svg-axis'/><line x1='172' y1='230' x2='164' y2='238' stroke-width='2' class='svg-axis'/><line x1='186' y1='230' x2='178' y2='238' stroke-width='2' class='svg-axis'/><line x1='200' y1='230' x2='192' y2='238' stroke-width='2' class='svg-axis'/><line x1='214' y1='230' x2='206' y2='238' stroke-width='2' class='svg-axis'/><line x1='228' y1='230' x2='220' y2='238' stroke-width='2' class='svg-axis'/><line x1='242' y1='230' x2='234' y2='238' stroke-width='2' class='svg-axis'/><line x1='256' y1='230' x2='248' y2='238' stroke-width='2' class='svg-axis'/><text x='155' y='22' text-anchor='middle' font-size='11' class='svg-label'>Before</text><rect x='50' y='80' width='50' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='75' y='100' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>5 kg</text><line x1='100' y1='96' x2='130.0' y2='96.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='140,96 130.0,101.0 130.0,91.0' fill='#8b5cf6' stroke='none'/><text x='143' y='92' text-anchor='start' fill='#8b5cf6' font-size='10' font-weight='600' class='svg-label'>10 m/s</text><rect x='165' y='80' width='50' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='190' y='100' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>5 kg</text><text x='190' y='66' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>at rest</text><line x1='50' y1='132' x2='265' y2='132' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='155' y='152' text-anchor='middle' font-size='11' class='svg-label'>After (stick together)</text><rect x='95' y='165' width='80' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='135' y='185' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>10 kg</text><line x1='175' y1='181' x2='205.0' y2='181.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='215,181 205.0,186.0 205.0,176.0' fill='#8b5cf6' stroke='none'/><text x='218' y='177' text-anchor='start' fill='#8b5cf6' font-size='10' font-weight='600' class='svg-label'>v = ?</text></svg>"
   },
   {
     "id": "U6-MCQ-01",
@@ -1954,7 +1954,6 @@ window.PHYSICS_MCQ = [
     "topic": "Pendulum Period",
     "difficulty": "medium",
     "type": "MCQ",
-    "image": "https://www.physicsclassroom.com/getattachment/reviews/waves/Pendulum1.png",
     "question": "A simple pendulum of length $L = 2.5\\\\,\\\\text{m}$ oscillates with small amplitude. Using $g = 10\\\\,\\\\text{m/s}^2$, what is the period?",
     "choices": [
       "$\\\\pi\\\\,\\\\text{s}$",
@@ -1963,7 +1962,8 @@ window.PHYSICS_MCQ = [
       "$\\\\pi / \\\\sqrt{10}\\\\,\\\\text{s}$"
     ],
     "answer": 0,
-    "explanation": "$T = 2\\\\pi\\\\sqrt{L/g} = 2\\\\pi\\\\sqrt{2.5/10} = 2\\\\pi\\\\sqrt{0.25} = 2\\\\pi(0.5) = \\\\pi\\\\,\\\\text{s}$."
+    "explanation": "$T = 2\\\\pi\\\\sqrt{L/g} = 2\\\\pi\\\\sqrt{2.5/10} = 2\\\\pi\\\\sqrt{0.25} = 2\\\\pi(0.5) = \\\\pi\\\\,\\\\text{s}$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='100' y1='37' x2='210' y2='37' stroke-width='2' class='svg-axis'/><line x1='106' y1='37' x2='98' y2='45' stroke-width='2' class='svg-axis'/><line x1='120' y1='37' x2='112' y2='45' stroke-width='2' class='svg-axis'/><line x1='134' y1='37' x2='126' y2='45' stroke-width='2' class='svg-axis'/><line x1='148' y1='37' x2='140' y2='45' stroke-width='2' class='svg-axis'/><line x1='162' y1='37' x2='154' y2='45' stroke-width='2' class='svg-axis'/><line x1='176' y1='37' x2='168' y2='45' stroke-width='2' class='svg-axis'/><line x1='190' y1='37' x2='182' y2='45' stroke-width='2' class='svg-axis'/><line x1='204' y1='37' x2='196' y2='45' stroke-width='2' class='svg-axis'/><line x1='100' y1='37' x2='210' y2='37' stroke-width='2' class='svg-axis'/><circle cx='155' cy='42' r='6' fill='#94a3b8'/><line x1='155' y1='42' x2='207' y2='172' stroke-width='2' class='svg-axis'/><text x='189' y='107' text-anchor='start' font-size='11' font-weight='600' class='svg-label'>L = 2.5 m</text><circle cx='207' cy='172' r='14' fill='none' stroke-width='2' class='svg-axis'/><path d='M 155,182 A 140,140 0 0,1 207,172' stroke='#94a3b8' stroke-width='1' stroke-dasharray='5 3' fill='none'/><line x1='155' y1='42' x2='155' y2='182' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='165' y='70' text-anchor='start' font-size='12' class='svg-label'>θ</text><text x='155' y='238' text-anchor='middle' font-size='11' class='svg-label'>T = 2π√(L/g)</text></svg>"
   },
   {
     "id": "U6-MCQ-05",
@@ -2176,7 +2176,6 @@ window.PHYSICS_MCQ = [
     "topic": "Torque at an Angle",
     "difficulty": "medium",
     "type": "MCQ",
-    "image": "https://www.physicsclassroom.com/getattachment/reviews/rotation/Torque2.png",
     "question": "A $60\\\\,\\\\text{N}$ force is applied at an angle of $30^\\\\circ$ above the horizontal to a $0.8\\\\,\\\\text{m}$ wrench handle. What is the magnitude of the torque about the bolt?",
     "choices": [
       "$24\\\\,\\\\text{N\\\\cdot m}$",
@@ -2185,7 +2184,8 @@ window.PHYSICS_MCQ = [
       "$60\\\\,\\\\text{N\\\\cdot m}$"
     ],
     "answer": 0,
-    "explanation": "$\\\\tau = rF\\\\sin\\\\theta = (0.8)(60)\\\\sin 30^\\\\circ = 48(0.5) = 24\\\\,\\\\text{N\\\\cdot m}$."
+    "explanation": "$\\\\tau = rF\\\\sin\\\\theta = (0.8)(60)\\\\sin 30^\\\\circ = 48(0.5) = 24\\\\,\\\\text{N\\\\cdot m}$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='68' cy='160' r='10' fill='none' stroke-width='2.5' class='svg-axis'/><circle cx='68' cy='160' r='4' fill='#94a3b8'/><line x1='68' y1='160' x2='228' y2='160' stroke-width='2' class='svg-axis'/><text x='148' y='174' text-anchor='middle' font-size='10' font-weight='600' class='svg-label'>r = 0.8 m</text><line x1='228' y1='160' x2='275.3' y2='133.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='284,128 277.8,137.3 272.8,128.6' fill='#8b5cf6' stroke='none'/><text x='288' y='124' text-anchor='start' fill='#8b5cf6' font-size='10' font-weight='600' class='svg-label'>F = 60 N</text><path d='M 256,160 A 28,28 0 0,0 252,146' fill='none' stroke-width='1' class='svg-axis'/><text x='260' y='148' text-anchor='start' font-size='10' class='svg-label'>30°</text><line x1='228' y1='160' x2='228' y2='80' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='232' y='120' text-anchor='start' fill='#94a3b8' font-size='10' class='svg-label'>d⊥</text><text x='155' y='228' text-anchor='middle' font-size='11' class='svg-label'>τ = r × F × sin(θ)</text></svg>"
   },
   {
     "id": "U7-MCQ-10",
@@ -2398,7 +2398,6 @@ window.PHYSICS_MCQ = [
     "topic": "Doppler Effect",
     "difficulty": "medium",
     "type": "MCQ",
-    "image": "https://www.physicsclassroom.com/getattachment/reviews/waves/Doppler1.png",
     "question": "A police siren emits sound at $800\\\\,\\\\text{Hz}$. The police car moves away from a stationary observer at $34\\\\,\\\\text{m/s}$. Speed of sound $= 340\\\\,\\\\text{m/s}$. What frequency does the observer hear?",
     "choices": [
       "$727\\\\,\\\\text{Hz}$",
@@ -2407,7 +2406,8 @@ window.PHYSICS_MCQ = [
       "$960\\\\,\\\\text{Hz}$"
     ],
     "answer": 0,
-    "explanation": "Source moving away from observer: $$f' = f_0 \\\\cdot \\\\frac{v}{v + v_s} = 800 \\\\cdot \\\\frac{340}{340 + 34} = 800 \\\\cdot \\\\frac{340}{374} \\\\approx 727\\\\,\\\\text{Hz}$$"
+    "explanation": "Source moving away from observer: $$f' = f_0 \\\\cdot \\\\frac{v}{v + v_s} = 800 \\\\cdot \\\\frac{340}{340 + 34} = 800 \\\\cdot \\\\frac{340}{374} \\\\approx 727\\\\,\\\\text{Hz}$$",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><text x='155' y='18' text-anchor='middle' font-size='11' class='svg-label'>Doppler Effect</text><rect x='133' y='116' width='44' height='24' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='128' text-anchor='middle' font-size='14' class='svg-label'>🚓</text><text x='155' y='154' text-anchor='middle' font-size='9' class='svg-label'>car moving →</text><line x1='185' y1='130' x2='205.0' y2='130.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='215,130 205.0,135.0 205.0,125.0' fill='#8b5cf6' stroke='none'/><path d='M 177,130 A 16.8,28 0 0,1 177,130' fill='none' stroke='#94a3b8' stroke-width='1'/><ellipse cx='191' cy='130' rx='15.400000000000002' ry='28' fill='none' stroke='#3b82f6' stroke-width='1' stroke-dasharray='3 2'/><path d='M 177,130 A 26.4,44 0 0,1 177,130' fill='none' stroke='#94a3b8' stroke-width='1'/><ellipse cx='199' cy='130' rx='24.200000000000003' ry='44' fill='none' stroke='#3b82f6' stroke-width='1' stroke-dasharray='3 2'/><path d='M 177,130 A 36,60 0 0,1 177,130' fill='none' stroke='#94a3b8' stroke-width='1'/><ellipse cx='207' cy='130' rx='33' ry='60' fill='none' stroke='#3b82f6' stroke-width='1' stroke-dasharray='3 2'/><ellipse cx='114.3' cy='130' rx='22.1' ry='34' fill='none' stroke='#f97316' stroke-width='1' stroke-dasharray='3 2'/><ellipse cx='103.3' cy='130' rx='35.1' ry='54' fill='none' stroke='#f97316' stroke-width='1' stroke-dasharray='3 2'/><ellipse cx='92.3' cy='130' rx='48.1' ry='74' fill='none' stroke='#f97316' stroke-width='1' stroke-dasharray='3 2'/><text x='52' y='134' text-anchor='middle' font-size='16' class='svg-label'>👂</text><text x='52' y='152' text-anchor='middle' font-size='9' class='svg-label'>observer</text><text x='88' y='75' text-anchor='middle' fill='#f97316' font-size='9' class='svg-label'>expanded\n(lower f)</text><text x='218' y='75' text-anchor='middle' fill='#3b82f6' font-size='9' class='svg-label'>compressed\n(higher f)</text><text x='88' y='88' text-anchor='middle' fill='#f97316' font-size='9' class='svg-label'>(lower f)</text><text x='218' y='88' text-anchor='middle' fill='#3b82f6' font-size='9' class='svg-label'>(higher f)</text><text x='155' y='238' text-anchor='middle' font-size='9' class='svg-label'>f_obs = f_s · v/(v + v_s)  [car moving away]</text></svg>"
   },
   {
     "id": "U9-MCQ-05",
@@ -2519,7 +2519,6 @@ window.PHYSICS_MCQ = [
     "difficulty": "medium",
     "type": "MCQ",
     "question": "A toy car moves along a straight track. Its position-time graph is shown below. During which time interval is the car moving with the greatest speed?",
-    "image": "problems/physics/img1_position_time.svg",
     "choices": [
       "$0\\text{--}2\\,\\text{s}$",
       "$2\\text{--}4\\,\\text{s}$",
@@ -2527,7 +2526,8 @@ window.PHYSICS_MCQ = [
       "$6\\text{--}8\\,\\text{s}$"
     ],
     "answer": 2,
-    "explanation": "Speed is the magnitude of the slope on a position-time graph. The steepest slope occurs during the $4\\text{--}6\\,\\text{s}$ interval, so the car has the greatest speed there."
+    "explanation": "Speed is the magnitude of the slope on a position-time graph. The steepest slope occurs during the $4\\text{--}6\\,\\text{s}$ interval, so the car has the greatest speed there.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Position (m)</text><line x1='124' y1='35' x2='124' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='124' y='219' text-anchor='middle' class='svg-label'>2</text><line x1='182' y1='35' x2='182' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='219' text-anchor='middle' class='svg-label'>4</text><line x1='241' y1='35' x2='241' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='241' y='219' text-anchor='middle' class='svg-label'>6</text><line x1='65' y1='205' x2='124' y2='92' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='124' cy='92' r='3' fill='#3b82f6'/><line x1='124' y1='92' x2='182' y2='63' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='182' cy='63' r='3' fill='#3b82f6'/><line x1='182' y1='63' x2='241' y2='63' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='241' cy='63' r='3' fill='#3b82f6'/><circle cx='65' cy='205' r='3' fill='#3b82f6'/></svg>"
   },
   {
     "id": "phys_img_q2",
@@ -2537,7 +2537,6 @@ window.PHYSICS_MCQ = [
     "difficulty": "medium",
     "type": "MCQ",
     "question": "A student launches a ball vertically upward. The velocity-time graph for the ball's motion is shown below. What is the maximum height reached by the ball?",
-    "image": "problems/physics/img2_velocity_time.svg",
     "choices": [
       "$5\\,\\text{m}$",
       "$10\\,\\text{m}$",
@@ -2545,7 +2544,8 @@ window.PHYSICS_MCQ = [
       "$20\\,\\text{m}$"
     ],
     "answer": 3,
-    "explanation": "The maximum height equals the area under the v-t curve from launch until the velocity reaches zero. The triangle has base $= 2\\,\\text{s}$ and height $= 20\\,\\text{m/s}$, so $$h = \\tfrac{1}{2}(2)(20) = 20\\,\\text{m}$$"
+    "explanation": "The maximum height equals the area under the v-t curve from launch until the velocity reaches zero. The triangle has base $= 2\\,\\text{s}$ and height $= 20\\,\\text{m/s}$, so $$h = \\tfrac{1}{2}(2)(20) = 20\\,\\text{m}$$",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Velocity (m/s)</text><line x1='50' y1='120' x2='270' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><line x1='142' y1='35' x2='142' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='142' y='219' text-anchor='middle' class='svg-label'>1.5 s</text><line x1='50' y1='49' x2='270' y2='49' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='53' text-anchor='end' class='svg-label'>v₀</text><line x1='65' y1='49' x2='142' y2='120' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='142' cy='120' r='3' fill='#3b82f6'/><line x1='142' y1='120' x2='219' y2='191' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='219' cy='191' r='3' fill='#3b82f6'/><circle cx='65' cy='49' r='3' fill='#3b82f6'/></svg>"
   },
   {
     "id": "phys_img_q3",
@@ -2555,7 +2555,6 @@ window.PHYSICS_MCQ = [
     "difficulty": "medium",
     "type": "MCQ",
     "question": "The free-body diagram below shows a block on an inclined plane with friction. If the block is in static equilibrium, which of the following correctly relates the forces?",
-    "image": "problems/physics/img3_fbd_incline.svg",
     "choices": [
       "$f = mg\\sin\\theta$",
       "$F_N = mg$",
@@ -2563,7 +2562,8 @@ window.PHYSICS_MCQ = [
       "$F_N = mg\\sin\\theta$"
     ],
     "answer": 0,
-    "explanation": "For static equilibrium on an incline, the friction force must balance the component of gravity along the surface: $f = mg\\sin\\theta$. The normal force balances the perpendicular component: $F_N = mg\\cos\\theta$."
+    "explanation": "For static equilibrium on an incline, the friction force must balance the component of gravity along the surface: $f = mg\\sin\\theta$. The normal force balances the perpendicular component: $F_N = mg\\cos\\theta$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='223' y2='120' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='250' y2='220' stroke-width='2' class='svg-axis'/><line x1='250' y1='220' x2='223' y2='120' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><path d='M 78,220 A 28,28 0 0,0 74,206' fill='none' stroke-width='1' class='svg-axis'/><text x='85' y='212' class='svg-label' font-size='11'>θ</text><line x1='66' y1='220' x2='58' y2='228' stroke-width='1' class='svg-axis'/><line x1='84' y1='220' x2='76' y2='228' stroke-width='1' class='svg-axis'/><line x1='102' y1='220' x2='94' y2='228' stroke-width='1' class='svg-axis'/><line x1='120' y1='220' x2='112' y2='228' stroke-width='1' class='svg-axis'/><line x1='138' y1='220' x2='130' y2='228' stroke-width='1' class='svg-axis'/><line x1='156' y1='220' x2='148' y2='228' stroke-width='1' class='svg-axis'/><line x1='174' y1='220' x2='166' y2='228' stroke-width='1' class='svg-axis'/><line x1='192' y1='220' x2='184' y2='228' stroke-width='1' class='svg-axis'/><rect x='113' y='141' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><line x1='129' y1='157' x2='129.0' y2='212.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='129,222 124.0,212.0 134.0,212.0' fill='#dc2626' stroke='none'/><text x='129' y='236' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='129' y1='157' x2='104.8' y2='115.0' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='99.75000000000001,106.33751387861034 109.1,112.5 100.4,117.5' fill='#3b82f6' stroke='none'/><text x='93' y='94' text-anchor='end' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text><line x1='129' y1='157' x2='148.5' y2='145.8' stroke='#f97316' stroke-width='2.5' fill='none'/><polygon points='157.14582562299427,140.75 151.0,150.1 146.0,141.4' fill='#f97316' stroke='none'/><text x='169' y='134' text-anchor='start' fill='#f97316' font-size='12' font-weight='600' class='svg-label'>f_s</text></svg>"
   },
   {
     "id": "phys_img_q4",
@@ -2573,7 +2573,6 @@ window.PHYSICS_MCQ = [
     "difficulty": "medium",
     "type": "MCQ",
     "question": "Two blocks are connected by a string over a frictionless pulley as shown below. Block A ($3\\,\\text{kg}$) sits on a frictionless table, and Block B ($2\\,\\text{kg}$) hangs vertically. What is the acceleration of the system?",
-    "image": "problems/physics/img4_atwood.svg",
     "choices": [
       "$2\\,\\text{m/s}^2$",
       "$4\\,\\text{m/s}^2$",
@@ -2581,7 +2580,8 @@ window.PHYSICS_MCQ = [
       "$10\\,\\text{m/s}^2$"
     ],
     "answer": 1,
-    "explanation": "The only unbalanced force driving the system is the weight of Block B: $F = m_B g = 2(10) = 20\\,\\text{N}$. The total mass is $m_A + m_B = 5\\,\\text{kg}$. So $$a = \\frac{F}{m_{total}} = \\frac{20}{5} = 4\\,\\text{m/s}^2$$"
+    "explanation": "The only unbalanced force driving the system is the weight of Block B: $F = m_B g = 2(10) = 20\\,\\text{N}$. The total mass is $m_A + m_B = 5\\,\\text{kg}$. So $$a = \\frac{F}{m_{total}} = \\frac{20}{5} = 4\\,\\text{m/s}^2$$",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='40' y1='130' x2='230' y2='130' stroke-width='2' class='svg-axis'/><line x1='46' y1='130' x2='38' y2='138' stroke-width='2' class='svg-axis'/><line x1='60' y1='130' x2='52' y2='138' stroke-width='2' class='svg-axis'/><line x1='74' y1='130' x2='66' y2='138' stroke-width='2' class='svg-axis'/><line x1='88' y1='130' x2='80' y2='138' stroke-width='2' class='svg-axis'/><line x1='102' y1='130' x2='94' y2='138' stroke-width='2' class='svg-axis'/><line x1='116' y1='130' x2='108' y2='138' stroke-width='2' class='svg-axis'/><line x1='130' y1='130' x2='122' y2='138' stroke-width='2' class='svg-axis'/><line x1='144' y1='130' x2='136' y2='138' stroke-width='2' class='svg-axis'/><line x1='158' y1='130' x2='150' y2='138' stroke-width='2' class='svg-axis'/><line x1='172' y1='130' x2='164' y2='138' stroke-width='2' class='svg-axis'/><line x1='186' y1='130' x2='178' y2='138' stroke-width='2' class='svg-axis'/><line x1='200' y1='130' x2='192' y2='138' stroke-width='2' class='svg-axis'/><line x1='214' y1='130' x2='206' y2='138' stroke-width='2' class='svg-axis'/><line x1='40' y1='80' x2='230' y2='80' stroke-width='2' class='svg-axis'/><line x1='40' y1='80' x2='40' y2='250' stroke-width='2' class='svg-axis'/><line x1='230' y1='80' x2='230' y2='250' stroke-width='2' class='svg-axis'/><rect x='90' y='48' width='50' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='115' y='68' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>A</text><text x='115' y='35' text-anchor='middle' font-size='10' class='svg-label'>3 kg</text><line x1='140' y1='64' x2='228' y2='64' stroke-width='2' class='svg-axis'/><circle cx='230' cy='80' r='16' fill='none' stroke-width='2' class='svg-axis'/><circle cx='230' cy='80' r='4' fill='#94a3b8'/><line x1='230' y1='96' x2='230' y2='160' stroke-width='2' class='svg-axis'/><rect x='210' y='160' width='40' height='30' fill='none' stroke-width='2' class='svg-axis'/><text x='230' y='179' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>B</text><text x='230' y='148' text-anchor='middle' font-size='10' class='svg-label'>2 kg</text><text x='184' y='56' text-anchor='middle' fill='#16a34a' font-size='11' font-weight='600' class='svg-label'>T</text><text x='244' y='130' text-anchor='start' fill='#16a34a' font-size='11' font-weight='600' class='svg-label'>T</text><line x1='230' y1='190' x2='230.0' y2='210.0' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='230,220 225.0,210.0 235.0,210.0' fill='#dc2626' stroke='none'/><text x='234' y='218' text-anchor='start' fill='#dc2626' font-size='10' class='svg-label'>F_g</text><text x='120' y='240' text-anchor='middle' fill='#94a3b8' font-size='9' class='svg-label'>Frictionless table and pulley</text></svg>"
   },
   {
     "id": "phys_img_q5",
@@ -2591,7 +2591,6 @@ window.PHYSICS_MCQ = [
     "difficulty": "medium",
     "type": "MCQ",
     "question": "A roller coaster cart starts from rest at Point A as shown below. If the track is frictionless, what is the speed of the cart at Point B (height $= 10\\,\\text{m}$) if Point A is at height $25\\,\\text{m}$?",
-    "image": "problems/physics/img5_roller_coaster.svg",
     "choices": [
       "$\\approx 10\\,\\text{m/s}$",
       "$\\approx 12.2\\,\\text{m/s}$",
@@ -2599,7 +2598,8 @@ window.PHYSICS_MCQ = [
       "$\\approx 17.3\\,\\text{m/s}$"
     ],
     "answer": 3,
-    "explanation": "Using conservation of energy with $\\Delta h = 25 - 10 = 15\\,\\text{m}$: $$v = \\sqrt{2g\\Delta h} = \\sqrt{2(10)(15)} = \\sqrt{300} \\approx 17.3\\,\\text{m/s}$$"
+    "explanation": "Using conservation of energy with $\\Delta h = 25 - 10 = 15\\,\\text{m}$: $$v = \\sqrt{2g\\Delta h} = \\sqrt{2(10)(15)} = \\sqrt{300} \\approx 17.3\\,\\text{m/s}$$",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='222' x2='275' y2='222' stroke-width='2' class='svg-axis'/><line x1='51' y1='222' x2='43' y2='230' stroke-width='2' class='svg-axis'/><line x1='65' y1='222' x2='57' y2='230' stroke-width='2' class='svg-axis'/><line x1='79' y1='222' x2='71' y2='230' stroke-width='2' class='svg-axis'/><line x1='93' y1='222' x2='85' y2='230' stroke-width='2' class='svg-axis'/><line x1='107' y1='222' x2='99' y2='230' stroke-width='2' class='svg-axis'/><line x1='121' y1='222' x2='113' y2='230' stroke-width='2' class='svg-axis'/><line x1='135' y1='222' x2='127' y2='230' stroke-width='2' class='svg-axis'/><line x1='149' y1='222' x2='141' y2='230' stroke-width='2' class='svg-axis'/><line x1='163' y1='222' x2='155' y2='230' stroke-width='2' class='svg-axis'/><line x1='177' y1='222' x2='169' y2='230' stroke-width='2' class='svg-axis'/><line x1='191' y1='222' x2='183' y2='230' stroke-width='2' class='svg-axis'/><line x1='205' y1='222' x2='197' y2='230' stroke-width='2' class='svg-axis'/><line x1='219' y1='222' x2='211' y2='230' stroke-width='2' class='svg-axis'/><line x1='233' y1='222' x2='225' y2='230' stroke-width='2' class='svg-axis'/><line x1='247' y1='222' x2='239' y2='230' stroke-width='2' class='svg-axis'/><line x1='261' y1='222' x2='253' y2='230' stroke-width='2' class='svg-axis'/><path d='M 75,72 Q 120,220 155,198 Q 200,175 235,152' stroke='#3b82f6' stroke-width='2.5' fill='none'/><line x1='75' y1='72' x2='75' y2='222' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><line x1='235' y1='152' x2='235' y2='222' stroke='#94a3b8' stroke-width='1' fill='none' stroke-dasharray='5 3'/><text x='56' y='148' text-anchor='end' font-size='10' font-weight='600' class='svg-label'>h_A = 25 m</text><text x='250' y='188' text-anchor='start' font-size='10' font-weight='600' class='svg-label'>h_B = 10 m</text><circle cx='75' cy='72' r='6' fill='#94a3b8'/><text x='68' y='62' text-anchor='end' font-weight='600' class='svg-label'>A</text><text x='66' y='74' text-anchor='end' fill='#94a3b8' font-size='9' class='svg-label'>v₀ = 0</text><circle cx='235' cy='152' r='6' fill='#94a3b8'/><text x='242' y='148' text-anchor='start' font-weight='600' class='svg-label'>B</text><text x='244' y='162' text-anchor='start' fill='#94a3b8' font-size='9' class='svg-label'>v = ?</text><text x='155' y='238' text-anchor='middle' fill='#94a3b8' font-size='9' class='svg-label'>Ground (reference level)</text></svg>"
   },
   {
     "id": "phys_img_q6",
@@ -2609,7 +2609,6 @@ window.PHYSICS_MCQ = [
     "difficulty": "medium",
     "type": "MCQ",
     "question": "A force-displacement graph is shown below. What is the total work done on the object as it moves from $x = 0$ to $x = 6\\,\\text{m}$?",
-    "image": "problems/physics/img6_force_displacement.svg",
     "choices": [
       "$20\\,\\text{J}$",
       "$30\\,\\text{J}$",
@@ -2617,7 +2616,8 @@ window.PHYSICS_MCQ = [
       "$50\\,\\text{J}$"
     ],
     "answer": 1,
-    "explanation": "Work is the area under the F-vs-x curve. Triangle ($0$ to $4\\,\\text{m}$): $\\frac{1}{2}(4)(10) = 20\\,\\text{J}$. Rectangle ($4$ to $6\\,\\text{m}$): $(2)(5) = 10\\,\\text{J}$. Total: $20 + 10 = 30\\,\\text{J}$."
+    "explanation": "Work is the area under the F-vs-x curve. Triangle ($0$ to $4\\,\\text{m}$): $\\frac{1}{2}(4)(10) = 20\\,\\text{J}$. Rectangle ($4$ to $6\\,\\text{m}$): $(2)(5) = 10\\,\\text{J}$. Total: $20 + 10 = 30\\,\\text{J}$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Displacement (m)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Force (N)</text><line x1='182' y1='35' x2='182' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='219' text-anchor='middle' class='svg-label'>4 m</text><line x1='241' y1='35' x2='241' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='241' y='219' text-anchor='middle' class='svg-label'>6 m</text><line x1='50' y1='78' x2='270' y2='78' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='82' text-anchor='end' class='svg-label'>6 N</text><line x1='65' y1='78' x2='182' y2='78' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><circle cx='182' cy='78' r='3' fill='#8b5cf6'/><line x1='182' y1='78' x2='241' y2='205' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><circle cx='241' cy='205' r='3' fill='#8b5cf6'/><circle cx='65' cy='78' r='3' fill='#8b5cf6'/></svg>"
   },
   {
     "id": "phys_img_q7",
@@ -2627,7 +2627,6 @@ window.PHYSICS_MCQ = [
     "difficulty": "medium",
     "type": "MCQ",
     "question": "Two carts collide on a frictionless track as shown below. Cart A ($2\\,\\text{kg}$, moving at $3\\,\\text{m/s}$ right) collides with Cart B ($1\\,\\text{kg}$, at rest). After the collision, Cart A moves at $1\\,\\text{m/s}$ to the right. What is Cart B's velocity after the collision?",
-    "image": "problems/physics/img7_two_carts.svg",
     "choices": [
       "$2\\,\\text{m/s right}$",
       "$3\\,\\text{m/s right}$",
@@ -2635,7 +2634,8 @@ window.PHYSICS_MCQ = [
       "$6\\,\\text{m/s right}$"
     ],
     "answer": 2,
-    "explanation": "By conservation of momentum: $m_A v_{Ai} = m_A v_{Af} + m_B v_{Bf}$. $$2(3) = 2(1) + 1(v_{Bf})$$ $$6 = 2 + v_{Bf}$$ $$v_{Bf} = 4\\,\\text{m/s right}$$"
+    "explanation": "By conservation of momentum: $m_A v_{Ai} = m_A v_{Af} + m_B v_{Bf}$. $$2(3) = 2(1) + 1(v_{Bf})$$ $$6 = 2 + v_{Bf}$$ $$v_{Bf} = 4\\,\\text{m/s right}$$",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='40' y1='195' x2='270' y2='195' stroke-width='2' class='svg-axis'/><line x1='46' y1='195' x2='38' y2='203' stroke-width='2' class='svg-axis'/><line x1='60' y1='195' x2='52' y2='203' stroke-width='2' class='svg-axis'/><line x1='74' y1='195' x2='66' y2='203' stroke-width='2' class='svg-axis'/><line x1='88' y1='195' x2='80' y2='203' stroke-width='2' class='svg-axis'/><line x1='102' y1='195' x2='94' y2='203' stroke-width='2' class='svg-axis'/><line x1='116' y1='195' x2='108' y2='203' stroke-width='2' class='svg-axis'/><line x1='130' y1='195' x2='122' y2='203' stroke-width='2' class='svg-axis'/><line x1='144' y1='195' x2='136' y2='203' stroke-width='2' class='svg-axis'/><line x1='158' y1='195' x2='150' y2='203' stroke-width='2' class='svg-axis'/><line x1='172' y1='195' x2='164' y2='203' stroke-width='2' class='svg-axis'/><line x1='186' y1='195' x2='178' y2='203' stroke-width='2' class='svg-axis'/><line x1='200' y1='195' x2='192' y2='203' stroke-width='2' class='svg-axis'/><line x1='214' y1='195' x2='206' y2='203' stroke-width='2' class='svg-axis'/><line x1='228' y1='195' x2='220' y2='203' stroke-width='2' class='svg-axis'/><line x1='242' y1='195' x2='234' y2='203' stroke-width='2' class='svg-axis'/><line x1='256' y1='195' x2='248' y2='203' stroke-width='2' class='svg-axis'/><text x='155' y='22' text-anchor='middle' font-size='11' class='svg-label'>Before Collision</text><rect x='55' y='130' width='55' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='82.5' y='151' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>A</text><text x='82' y='118' text-anchor='middle' font-size='10' class='svg-label'>2 kg</text><line x1='110' y1='147' x2='138.0' y2='147.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='148,147 138.0,152.0 138.0,142.0' fill='#8b5cf6' stroke='none'/><text x='152' y='143' text-anchor='start' fill='#8b5cf6' font-size='10' font-weight='600' class='svg-label'>3 m/s</text><rect x='175' y='130' width='55' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='202.5' y='151' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>B</text><text x='202' y='118' text-anchor='middle' font-size='10' class='svg-label'>1 kg</text><text x='202' y='110' text-anchor='middle' fill='#94a3b8' font-size='9' class='svg-label'>at rest</text><text x='155' y='215' text-anchor='middle' font-size='10' class='svg-label'>After: A → 1 m/s    B → ?</text></svg>"
   },
   {
     "id": "phys_img_q8",
@@ -2645,7 +2645,6 @@ window.PHYSICS_MCQ = [
     "difficulty": "medium",
     "type": "MCQ",
     "question": "The force-time graph below shows the force exerted during a collision. What is the impulse delivered to the object?",
-    "image": "problems/physics/img8_force_time.svg",
     "choices": [
       "$6\\,\\text{N\\cdot s}$",
       "$9\\,\\text{N\\cdot s}$",
@@ -2653,7 +2652,8 @@ window.PHYSICS_MCQ = [
       "$18\\,\\text{N\\cdot s}$"
     ],
     "answer": 1,
-    "explanation": "Impulse is the area under the F-vs-t graph. The triangle has base $= 3\\,\\text{s}$ and height $= 6\\,\\text{N}$: $$J = \\tfrac{1}{2}(3)(6) = 9\\,\\text{N\\cdot s}$$"
+    "explanation": "Impulse is the area under the F-vs-t graph. The triangle has base $= 3\\,\\text{s}$ and height $= 6\\,\\text{N}$: $$J = \\tfrac{1}{2}(3)(6) = 9\\,\\text{N\\cdot s}$$",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Force (N)</text><line x1='142' y1='35' x2='142' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='142' y='219' text-anchor='middle' class='svg-label'>0.3 s</text><line x1='50' y1='59' x2='270' y2='59' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='63' text-anchor='end' class='svg-label'>300 N</text><line x1='65' y1='205' x2='142' y2='59' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><circle cx='142' cy='59' r='3' fill='#8b5cf6'/><line x1='142' y1='59' x2='219' y2='205' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><circle cx='219' cy='205' r='3' fill='#8b5cf6'/><circle cx='65' cy='205' r='3' fill='#8b5cf6'/></svg>"
   },
   {
     "id": "phys_img_q9",
@@ -2663,7 +2663,6 @@ window.PHYSICS_MCQ = [
     "difficulty": "medium",
     "type": "MCQ",
     "question": "A mass-spring system oscillates as shown in the displacement-time graph below. What are the period and amplitude of the oscillation?",
-    "image": "problems/physics/img9_oscillation.svg",
     "choices": [
       "$T = 2\\,\\text{s},\\; A = 0.1\\,\\text{m}$",
       "$T = 2\\,\\text{s},\\; A = 0.2\\,\\text{m}$",
@@ -2671,7 +2670,8 @@ window.PHYSICS_MCQ = [
       "$T = 4\\,\\text{s},\\; A = 0.2\\,\\text{m}$"
     ],
     "answer": 3,
-    "explanation": "The period $T$ is the time for one complete cycle. From the graph, one full cycle takes $4\\,\\text{s}$. The amplitude $A$ is the maximum displacement from equilibrium, which is $0.2\\,\\text{m}$."
+    "explanation": "The period $T$ is the time for one complete cycle. From the graph, one full cycle takes $4\\,\\text{s}$. The amplitude $A$ is the maximum displacement from equilibrium, which is $0.2\\,\\text{m}$.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Displacement (m)</text><line x1='65' y1='120' x2='270' y2='120' stroke-width='1' class='svg-axis svg-dashed'/><polyline points='65,120 67,113 68,106 70,99 72,92 74,86 75,80 77,74 79,69 80,65 82,61 84,58 86,55 87,53 89,52 91,52 92,52 94,53 96,55 97,58 99,61 101,65 103,69 104,74 106,80 108,86 109,92 111,99 113,106 115,113 116,120 118,127 120,134 121,141 123,148 125,154 127,160 128,166 130,171 132,175 133,179 135,182 137,185 138,187 140,188 142,188 144,188 145,187 147,185 149,182 150,179 152,175 154,171 156,166 157,160 159,154 161,148 162,141 164,134 166,127 168,120 169,113 171,106 173,99 174,92 176,86 178,80 179,74 181,69 183,65 185,61 186,58 188,55 190,53 191,52 193,52 195,52 197,53 198,55 200,58 202,61 203,65 205,69 207,74 209,80 210,86 212,92 214,99 215,106 217,113 219,120 220,127 222,134 224,141 226,148 227,154 229,160 231,166 232,171 234,175 236,179 238,182 239,185 241,187 243,188 244,188 246,188 248,187 250,185 251,182 253,179 255,175 256,171 258,166 260,160 261,154 263,148 265,141 267,134 268,127 270,120' stroke='#3b82f6' stroke-width='2.5' fill='none'/><line x1='109' y1='120' x2='109' y2='52' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 2'/><text x='113' y='86' text-anchor='start' fill='#94a3b8' font-size='10' font-weight='600' class='svg-label'>A = 4 m</text><line x1='65' y1='217' x2='168' y2='217' stroke='#94a3b8' stroke-width='1'/><line x1='65' y1='213' x2='65' y2='221' stroke='#94a3b8' stroke-width='1'/><line x1='168' y1='213' x2='168' y2='221' stroke='#94a3b8' stroke-width='1'/><text x='117' y='231' text-anchor='middle' fill='#94a3b8' font-size='10' font-weight='600' class='svg-label'>T = 4 s</text></svg>"
   },
   {
     "id": "phys_img_q10",
@@ -2681,7 +2681,6 @@ window.PHYSICS_MCQ = [
     "difficulty": "easy",
     "type": "MCQ",
     "question": "A pendulum swings as shown below. At which position(s) is the speed of the pendulum bob the greatest?",
-    "image": "problems/physics/img10_pendulum.svg",
     "choices": [
       "Position A only",
       "Position B only",
@@ -2689,7 +2688,8 @@ window.PHYSICS_MCQ = [
       "Positions A and C"
     ],
     "answer": 1,
-    "explanation": "The pendulum bob has maximum speed at the lowest point (Position B), where all of the gravitational potential energy has been converted to kinetic energy. At positions A and C the bob momentarily stops before reversing direction."
+    "explanation": "The pendulum bob has maximum speed at the lowest point (Position B), where all of the gravitational potential energy has been converted to kinetic energy. At positions A and C the bob momentarily stops before reversing direction.",
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='80' y1='40' x2='230' y2='40' stroke-width='2' class='svg-axis'/><line x1='86' y1='40' x2='78' y2='32' stroke-width='2' class='svg-axis'/><line x1='100' y1='40' x2='92' y2='32' stroke-width='2' class='svg-axis'/><line x1='114' y1='40' x2='106' y2='32' stroke-width='2' class='svg-axis'/><line x1='128' y1='40' x2='120' y2='32' stroke-width='2' class='svg-axis'/><line x1='142' y1='40' x2='134' y2='32' stroke-width='2' class='svg-axis'/><line x1='156' y1='40' x2='148' y2='32' stroke-width='2' class='svg-axis'/><line x1='170' y1='40' x2='162' y2='32' stroke-width='2' class='svg-axis'/><line x1='184' y1='40' x2='176' y2='32' stroke-width='2' class='svg-axis'/><line x1='198' y1='40' x2='190' y2='32' stroke-width='2' class='svg-axis'/><line x1='212' y1='40' x2='204' y2='32' stroke-width='2' class='svg-axis'/><line x1='226' y1='40' x2='218' y2='32' stroke-width='2' class='svg-axis'/><circle cx='155' cy='45' r='6' fill='#94a3b8'/><line x1='155' y1='45' x2='87' y2='173' stroke-width='2' class='svg-axis'/><circle cx='87' cy='173' r='13' fill='none' stroke-width='2' class='svg-axis'/><text x='83' y='177' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>1</text><line x1='155' y1='45' x2='155' y2='190' stroke-width='2' class='svg-axis'/><circle cx='155' cy='190' r='13' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='194' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>2</text><line x1='155' y1='45' x2='223' y2='173' stroke-width='2' class='svg-axis'/><circle cx='223' cy='173' r='13' fill='none' stroke-width='2' class='svg-axis'/><text x='227' y='177' text-anchor='middle' font-size='11' font-weight='600' class='svg-label'>3</text><path d='M 87,173 Q 135,200 155,190' stroke='#94a3b8' stroke-width='1' stroke-dasharray='4 3' fill='none'/><path d='M 155,190 Q 175,200 223,173' stroke='#94a3b8' stroke-width='1' stroke-dasharray='4 3' fill='none'/><text x='69' y='157' text-anchor='middle' font-size='10' class='svg-label'>h₁</text><text x='241' y='157' text-anchor='middle' font-size='10' class='svg-label'>h₃</text><text x='155' y='214' text-anchor='middle' font-size='10' class='svg-label'>h = 0</text></svg>"
   },
   {
     "id": "U1-MCQ-36",

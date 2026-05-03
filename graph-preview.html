@@ -259,6 +259,8 @@
     <span class="filter-chip active" data-filter="all" onclick="setFilter(this, 'all')">All</span>
     <span class="filter-chip" data-filter="apmacro" onclick="setFilter(this, 'apmacro')">AP Macro</span>
     <span class="filter-chip" data-filter="apmicro" onclick="setFilter(this, 'apmicro')">AP Micro</span>
+    <span class="filter-chip" data-filter="apphys1" onclick="setFilter(this, 'apphys1')">AP Physics 1</span>
+    <span class="filter-chip" data-filter="phys1samples" onclick="setFilter(this, 'phys1samples')">Physics 1 Builder Samples</span>
   </div>
 
   <main class="grid-container" id="graphGrid">
@@ -268,6 +270,7 @@
   <!-- Data files -->
   <script src="js/data/apmacro_mcq.js"></script>
   <script src="js/data/apmicro_mcq.js"></script>
+  <script src="js/data/physics_mcq.js"></script>
 
   <script>
     // ── Collect all questions with graphSvg from both datasets ──────────────
@@ -292,12 +295,14 @@
 
     const macroData  = findDataArray(['APMACRO_MCQ', 'APMACRO_QUESTIONS', 'AP_MACRO_MCQ', 'apmacro_mcq']);
     const microData  = findDataArray(['APMICRO_MCQ', 'APMICRO_QUESTIONS', 'AP_MICRO_MCQ', 'apmicro_mcq']);
+    const phys1Data  = findDataArray(['PHYSICS_MCQ', 'APPHYS1_MCQ', 'physics_mcq', 'AP_PHYS1_MCQ']);
 
     // Tag each question with its subject
     const taggedMacro = macroData.map(q => ({ ...q, _subject: 'apmacro' }));
     const taggedMicro = microData.map(q => ({ ...q, _subject: 'apmicro' }));
+    const taggedPhys1 = phys1Data.map(q => ({ ...q, _subject: 'apphys1' }));
 
-    const allQuestions = [...taggedMacro, ...taggedMicro];
+    const allQuestions = [...taggedMacro, ...taggedMicro, ...taggedPhys1];
     const graphQuestions = allQuestions.filter(q => q.graphSvg && q.graphSvg.trim().length > 0);
 
     // ── Render ───────────────────────────────────────────────────────────────
@@ -319,6 +324,22 @@
 
     function renderCards(filter) {
       const grid = document.getElementById('graphGrid');
+      if (filter === 'phys1samples') {
+        if (phys1Samples.length === 0) {
+          grid.innerHTML = `<div class="empty-state">Loading physics builder samples…</div>`;
+          return;
+        }
+        grid.innerHTML = phys1Samples.map(s => `
+          <div class="graph-card" data-subject="phys1samples">
+            <div class="card-meta">
+              <span class="card-id" style="max-width:260px;overflow:hidden;text-overflow:ellipsis">${s.name}</span>
+              <span class="subject-tag">AP Physics 1</span>
+            </div>
+            <div class="question-graph-wrap">${s.svg}</div>
+          </div>
+        `).join('');
+        return;
+      }
       const subset = filter === 'all'
         ? graphQuestions
         : graphQuestions.filter(q => q._subject === filter);
@@ -333,7 +354,7 @@
         const diff = q.difficulty || q.diff || '';
         const diffClass = getDifficultyClass(diff);
         const diffLabel = diff ? String(diff).charAt(0).toUpperCase() + String(diff).slice(1).toLowerCase() : '';
-        const subjectLabel = q._subject === 'apmacro' ? 'AP Macro' : 'AP Micro';
+        const subjectLabel = q._subject === 'apmacro' ? 'AP Macro' : q._subject === 'apmicro' ? 'AP Micro' : 'AP Physics 1';
         const questionText = truncate(q.question || q.stem || q.text || '', 120);
 
         return `
@@ -357,11 +378,23 @@
       renderCards(filter);
     }
 
+    // ── Physics builder samples (loaded from JSON) ───────────────────────────
+    let phys1Samples = [];
+    fetch('scripts/phys1-graphs-sample.json')
+      .then(r => r.json())
+      .then(data => {
+        phys1Samples = data;
+        updateCount();
+        if (currentFilter === 'phys1samples') renderCards('phys1samples');
+      })
+      .catch(() => console.warn('[graph-preview] Could not load phys1-graphs-sample.json'));
+
     function updateCount() {
       const macroCount = graphQuestions.filter(q => q._subject === 'apmacro').length;
       const microCount = graphQuestions.filter(q => q._subject === 'apmicro').length;
+      const phys1Count = graphQuestions.filter(q => q._subject === 'apphys1').length;
       document.getElementById('graphCount').innerHTML =
-        `<strong>${graphQuestions.length}</strong> graphs · ${macroCount} Macro · ${microCount} Micro`;
+        `<strong>${graphQuestions.length}</strong> graphs · ${macroCount} Macro · ${microCount} Micro · ${phys1Count} Phys1 · ${phys1Samples.length} samples`;
     }
 
     // ── Theme toggle ─────────────────────────────────────────────────────────
