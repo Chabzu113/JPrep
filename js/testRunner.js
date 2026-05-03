@@ -490,10 +490,12 @@ function renderMCQQuestion(index) {
   // Table (for format:"table" questions — q.format preserves algebraic/table/graph)
   const tableHtml = q.format === 'table' && q.tableData ? buildTableHtml(q.tableData) : '';
 
-  // Graph description (for format:"graph" questions — Desmos handles visualization)
-  const graphHtml = q.format === 'graph' && q.graphDescription
-    ? `<div class="graph-description"><span>📈</span> ${App.escapeHtml(q.graphDescription)}</div>`
-    : '';
+  // Inline SVG graph (q.graphSvg) — falls back to text description for legacy format:"graph" questions
+  const graphHtml = q.graphSvg
+    ? buildGraphHtml(q.graphSvg)
+    : (q.format === 'graph' && q.graphDescription
+        ? `<div class="graph-description"><span>📈</span> ${App.escapeHtml(q.graphDescription)}</div>`
+        : '');
 
   // Code block (for CS A questions)
   const codeHtml = q.isCode && q.code ? App.renderCode(q.code) : '';

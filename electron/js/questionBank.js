@@ -573,6 +573,9 @@ function renderSessionQuestion() {
     questionHtml = `<div class="session-question-text">${renderFRQPromptText(q.question || '')}</div>`;
   }
 
+  // MCQ inline SVG graph
+  const graphHtml = (!isFRQ && q.graphSvg) ? buildGraphHtml(q.graphSvg) : '';
+
   // MCQ table (for format:"table" questions using tableData)
   const tableHtml = (!isFRQ && q.format === 'table' && q.tableData) ? buildTableHtml(q.tableData) : '';
 
@@ -857,6 +860,7 @@ function renderSessionQuestion() {
     <div class="session-question-card">
       ${headerHtml}
       ${questionHtml}
+      ${graphHtml}
       ${tableHtml}
       ${codeHtml}
       ${imageHtml}
