@@ -109,6 +109,8 @@ function renderMCQCard(q, studentAnswer, isFlagged, index) {
       </div>
       <div class="question-text">
         <strong>Q${index+1}.</strong> ${App.escapeHtml(q.question)}
+        ${q.graphSvg ? buildGraphHtml(q.graphSvg) : ''}
+        ${(q.format === 'table' && q.tableData) ? buildTableHtml(q.tableData) : ''}
         ${q.isCode ? App.renderCode(q.code) : ''}
       </div>
       <div class="choices-list">${choicesHtml}</div>

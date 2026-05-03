@@ -1,7 +1,7 @@
 // AP Practice Platform — Global App State & Utilities
 // Handles: localStorage persistence, dark mode, shared state, helper functions
 
-const APP_VERSION = '2.2.0';   // keep in sync with GitHub release tags
+const APP_VERSION = '2.3.1';   // keep in sync with GitHub release tags
 const GITHUB_REPO  = 'Chabzu113/JPrep';
 const STORAGE_KEY  = 'apcsa_state';
 
@@ -648,6 +648,15 @@ function buildTableHtml(tableData) {
     return `<tr>${row.map(cell => `<td>${App.escapeHtml(cell)}</td>`).join('')}</tr>`;
   }).join('');
   return `<table class="question-table">${headerRow}${bodyRows}</table>`;
+}
+
+// ─── Graph builder (shared between testRunner, questionBank, and review) ─────
+// Renders a q.graphSvg string (inline SVG markup) into a styled wrapper div.
+// SVG elements should use CSS classes svg-axis, svg-axis-fill, svg-label,
+// svg-dashed, and svg-grid so they adapt to light/dark mode automatically.
+function buildGraphHtml(graphSvg) {
+  if (!graphSvg) return '';
+  return `<div class="question-graph-wrap">${graphSvg}</div>`;
 }
 
 // ─── Desmos Graphing Calculator ───────────────────────────────────────────────

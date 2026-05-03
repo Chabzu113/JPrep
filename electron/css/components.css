@@ -958,3 +958,24 @@
   background: var(--bg-secondary);
   color: var(--text-muted);
 }
+
+/* ── Question Graph (inline SVG) ─────────────────────────────────────────── */
+.question-graph-wrap {
+  text-align: center;
+  margin: 16px 0 8px;
+  overflow-x: auto;
+}
+.question-graph-wrap svg {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+/* Axes and arrowheads adapt to light/dark mode via currentColor */
+.question-graph-wrap svg .svg-axis       { stroke: var(--text-primary); fill: none; }
+.question-graph-wrap svg .svg-axis-fill  { fill: var(--text-primary); stroke: none; }
+/* Text labels */
+.question-graph-wrap svg .svg-label      { fill: var(--text-primary); font-family: 'Inter', system-ui, sans-serif; }
+/* Dashed reference lines (e.g. P*, Q*) */
+.question-graph-wrap svg .svg-dashed     { stroke-dasharray: 5 3; fill: none; }
+/* Light grid lines */
+.question-graph-wrap svg .svg-grid       { stroke: var(--border-color); fill: none; }
