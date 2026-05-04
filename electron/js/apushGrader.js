@@ -472,7 +472,7 @@ window.APUSHGrader = (function () {
     const validCount = citedDocs.size;
     let earned = 0;
     if (validCount >= 4) earned = 2;      // 2026 CB: 4+ docs = 2pts
-    else if (validCount >= 2) earned = 1; // 2–3 docs = 1pt
+    else if (validCount >= 3) earned = 1; // 2026 CB: 3 docs = 1pt (minimum threshold)
 
     return { earned: earned, citations: Array.from(citedDocs), copyWarnings: copyWarnings, validCount: validCount };
   }
@@ -566,10 +566,17 @@ window.APUSHGrader = (function () {
   //  SAQ grader — per-part grading (3 parts → 3 pts)
   //  Each part: presence of evidence term + at least one causal connector = 1 pt
   // ─────────────────────────────────────────────────────────────────────────
-  function gradeSAQ(answers, config, unitNum) {
+  function gradeSAQ(answers, config, unitNum, frqObj) {
     const partResults = {};
     let totalEarned = 0;
     const allHighlights = [];
+    const stimulusWarnings = [];
+
+    // A4: If this SAQ has a stimulus, check each part references it (feedback only, no score impact)
+    const stimulus = frqObj && frqObj.stimulus;
+    const stimulusText = stimulus
+      ? ((stimulus.title || '') + ' ' + (stimulus.excerpt || '')).toLowerCase()
+      : null;
 
     const parts = Object.keys(answers);
     for (const partLabel of parts) {
@@ -647,14 +654,25 @@ window.APUSHGrader = (function () {
           connFound: connectors
         };
       }
+
+      // A4: Stimulus-reference warning — if question has a source, flag short answers that
+      // show no overlap with the stimulus topic (feedback only, no score deduction)
+      if (stimulusText && answerText.trim().split(/\s+/).length < 30) {
+        const answerWords = answerText.toLowerCase().split(/\s+/);
+        const overlap = answerWords.filter(function (w) { return w.length > 4 && stimulusText.includes(w); }).length;
+        if (overlap < 2) {
+          stimulusWarnings.push(partLabel);
+        }
+      }
     }
 
     return {
-      type:        'saq',
-      parts:       partResults,
-      totalEarned: totalEarned,
-      max:         3,
-      highlights:  allHighlights
+      type:            'saq',
+      parts:           partResults,
+      totalEarned:     totalEarned,
+      max:             3,
+      highlights:      allHighlights,
+      stimulusWarnings: stimulusWarnings // parts that may not reference the provided source
     };
   }
 
@@ -719,10 +737,11 @@ window.APUSHGrader = (function () {
       totalEarned: total,
       max:         6,
       breakdown:   {
-        thesis:   thesis.earned,
-        context:  context.earned,
-        evidence: evidence.earned,
-        analysis: analysis.earned
+        thesis:             thesis.earned,
+        context:            context.earned,
+        evidence:           evidence.earned,
+        historicalReasoning: Math.min(analysis.earned, 1), // 1pt: uses comparison/causation/CCOT
+        complexity:          analysis.earned >= 2 ? 1 : 0  // 1pt: sophisticated argumentation
       },
       highlights: allHighlights,
       details: {
@@ -780,24 +799,20 @@ window.APUSHGrader = (function () {
       allHighlights.push({ text: ex.trigger, type: 'logic' });
     }
 
-    // Auto-complexity bonus: if student cited ALL documents in the set, award 1pt complexity
-    const totalDocsInSet = (frqStimulus && frqStimulus.length) || 0;
-    const autoComplexity = (totalDocsInSet > 0 && citations.validCount >= totalDocsInSet) ? 1 : 0;
-
     const total = thesis.earned + context.earned + outsideEv.earned +
-                  citations.earned + sourcing.earned + autoComplexity;
+                  citations.earned + sourcing.earned;
 
     return {
       type:        'dbq',
       totalEarned: total,
-      max:         7, // Thesis(1)+Context(1)+OutsideEv(1)+DocUse(2)+Sourcing(1)+Complexity(1)
+      max:         7, // Thesis(1)+Context(1)+OutsideEv(1)+DocUse(2)+Sourcing(1)+Complexity(1 manual)
       breakdown:   {
         thesis:          thesis.earned,
         context:         context.earned,
         outsideEvidence: outsideEv.earned,
         docUse:          citations.earned,
         sourcing:        sourcing.earned,
-        complexity:      autoComplexity
+        complexity:      null // always scored manually — not auto-graded
       },
       highlights: allHighlights,
       details: {
@@ -867,8 +882,19 @@ window.APUSHGrader = (function () {
     }
 
     const analysisLinks = details.analysisLinks || [];
-    if (analysisLinks.length === 0 && result.type !== 'saq' && result.type !== 'dbq') {
-      missing.push('Analysis: connect evidence to causation using words like "because," "led to," or "resulted in"');
+    if (result.type === 'leq') {
+      if (bd.historicalReasoning === 0) missing.push('Historical Reasoning: frame your argument using comparison, causation, or continuity/change over time');
+      else found.push('Historical Reasoning: detected');
+      if (bd.complexity === 0) missing.push('Complexity: demonstrate sophisticated understanding (e.g. corroboration, tension, nuance, or broader significance)');
+      else found.push('Complexity: detected');
+    } else if (result.type !== 'saq' && result.type !== 'dbq') {
+      if (analysisLinks.length === 0) missing.push('Analysis: connect evidence to causation using words like "because," "led to," or "resulted in"');
+    }
+
+    // SAQ-specific
+    const stimWarn = result.stimulusWarnings || [];
+    if (stimWarn.length > 0) {
+      missing.push('Stimulus: Part ' + stimWarn.join(', ') + ' — this question includes a source; make sure your response engages with it directly');
     }
 
     // DBQ-specific
@@ -930,7 +956,7 @@ window.APUSHGrader = (function () {
     if (frqType === 'saq') {
       // For SAQ: answer should be an object { a: '...', b: '...', c: '...' }
       const answers = typeof answer === 'object' ? answer : { a: answer };
-      result = gradeSAQ(answers, config, unitNum);
+      result = gradeSAQ(answers, config, unitNum, frqObj);
     } else if (frqType === 'leq') {
       const text = typeof answer === 'object' ? Object.values(answer).join('\n\n') : answer;
       result = gradeLEQ(text, config, unitNum);
