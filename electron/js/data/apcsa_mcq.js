@@ -11,13 +11,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which of the following variable declarations will cause a compilation error?",
     "choices": [
-      "A) int x = 2.0;",
-      "B) double y = 5;",
-      "C) boolean flag = true;",
-      "D) int count = 100;"
+      "boolean flag = true;",
+      "double y = 5;",
+      "int x = 2.0;",
+      "int count = 100;"
     ],
-    "answer": 0,
-    "explanation": "Option A causes a compilation error because you cannot assign a double literal (2.0) to an int variable without explicit casting. Option B works because int values can be implicitly converted to double. Options C and D are correct primitive type assignments."
+    "answer": 2,
+    "explanation": "Option C causes a compilation error because you cannot assign a double literal (2.0) to an int variable without explicit casting. Option B works because int values can be implicitly converted to double. Options C and D are correct primitive type assignments."
   },
   {
     "id": "csa_u1_q002",
@@ -31,13 +31,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of x after the following code executes?\nint x = 15;\nx = x + 3 * 2;",
     "choices": [
-      "A) 21",
-      "B) 36",
-      "C) 18",
-      "D) 33"
+      "18",
+      "36",
+      "21",
+      "33"
     ],
-    "answer": 0,
-    "explanation": "Following order of operations, multiplication happens before addition: 3 * 2 = 6, then 15 + 6 = 21. Option B (36) would result from (15 + 3) * 2. Option C (18) would result from 15 + 3. Option D (33) has no clear logical path."
+    "answer": 2,
+    "explanation": "Following order of operations, multiplication happens before addition: 3 * 2 = 6, then 15 + 6 = 21. Option B (36) would result from (15 + 3) * 2. Option A (18) would result from 15 + 3. Option D (33) has no clear logical path."
   },
   {
     "id": "csa_u1_q003",
@@ -51,13 +51,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of the following expression?\ndouble result = 7.5 + 2 * 3.0;",
     "choices": [
-      "A) 13.5",
-      "B) 19.0",
-      "C) 28.5",
-      "D) 22.5"
+      "28.5",
+      "19.0",
+      "13.5",
+      "22.5"
     ],
-    "answer": 0,
-    "explanation": "Following order of operations: 2 * 3.0 = 6.0, then 7.5 + 6.0 = 13.5. Option B (19.0) might come from adding all numbers. Option C (28.5) might come from 7.5 * 2 + 3.0 * 6. Option D has no clear path."
+    "answer": 2,
+    "explanation": "Following order of operations: 2 * 3.0 = 6.0, then 7.5 + 6.0 = 13.5. Option B (19.0) might come from adding all numbers. Option A (28.5) might come from 7.5 * 2 + 3.0 * 6. Option D has no clear path."
   },
   {
     "id": "csa_u1_q004",
@@ -71,12 +71,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of result after this code executes?\nboolean a = true, b = false;\nboolean result = (a && b) || (!a && !b);",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) 1",
-      "D) 0"
+      "true",
+      "0",
+      "1",
+      "false"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Evaluating step by step: (a && b) = (true && false) = false. Then (!a && !b) = (false && true) = false. Finally, false || false = false. So result is false. Options C and D represent integer values, which are not valid boolean results in Java."
   },
   {
@@ -91,13 +91,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of x after this code executes?\ndouble d = 9.7;\nint x = (int) d;",
     "choices": [
-      "A) 9",
-      "B) 10",
-      "C) 9.7",
-      "D) 9.0"
+      "9.7",
+      "10",
+      "9",
+      "9.0"
     ],
-    "answer": 0,
-    "explanation": "Casting a double to int truncates (cuts off) the decimal portion, it does not round. So (int) 9.7 becomes 9. Option B (10) would be the result of rounding. Option C (9.7) would remain if no casting occurred. Option D (9.0) is still a double value."
+    "answer": 2,
+    "explanation": "Casting a double to int truncates (cuts off) the decimal portion, it does not round. So (int) 9.7 becomes 9. Option B (10) would be the result of rounding. Option A (9.7) would remain if no casting occurred. Option D (9.0) is still a double value."
   },
   {
     "id": "csa_u1_q006",
@@ -111,13 +111,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of the expression 20 - 4 * 2 + 8 / 4?",
     "choices": [
-      "A) 14",
-      "B) 40",
-      "C) 8",
-      "D) 22"
+      "22",
+      "40",
+      "8",
+      "14"
     ],
-    "answer": 0,
-    "explanation": "Following order of operations (multiplication and division before addition and subtraction, left to right): 4 * 2 = 8, 8 / 4 = 2, then 20 - 8 + 2 = 14. Option B (40) might come from (20 - 4) * 2 + 8 / 4. Option C would come from ignoring the 20. Option D would come from 20 - 4 + 8 / 4."
+    "answer": 3,
+    "explanation": "Following order of operations (multiplication and division before addition and subtraction, left to right): 4 * 2 = 8, 8 / 4 = 2, then 20 - 8 + 2 = 14. Option B (40) might come from (20 - 4) * 2 + 8 / 4. Option C would come from ignoring the 20. Option A would come from 20 - 4 + 8 / 4."
   },
   {
     "id": "csa_u1_q007",
@@ -131,13 +131,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of x after this code executes?\nint x = 10;\nx += 5;\nx *= 2;",
     "choices": [
-      "A) 30",
-      "B) 25",
-      "C) 40",
-      "D) 20"
+      "20",
+      "25",
+      "40",
+      "30"
     ],
-    "answer": 0,
-    "explanation": "Starting with x = 10: x += 5 is equivalent to x = x + 5, so x becomes 15. Then x *= 2 is equivalent to x = x * 2, so x becomes 30. The final value of x is 30. Choice B (25) stops after the addition. Choice C (40) incorrectly doubles from 20 instead of 15. Choice D (20) doubles the original value instead of 15."
+    "answer": 3,
+    "explanation": "Starting with x = 10: x += 5 is equivalent to x = x + 5, so x becomes 15. Then x *= 2 is equivalent to x = x * 2, so x becomes 30. The final value of x is 30. Choice B (25) stops after the addition. Choice C (40) incorrectly doubles from 20 instead of 15. Choice A (20) doubles the original value instead of 15."
   },
   {
     "id": "csa_u1_q008",
@@ -151,13 +151,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of the expression 17 / 5 * 3?",
     "choices": [
-      "A) 9",
-      "B) 10",
-      "C) 10.2",
-      "D) 3"
+      "3",
+      "10",
+      "10.2",
+      "9"
     ],
-    "answer": 0,
-    "explanation": "Integer division 17 / 5 = 3 (truncated, not rounded), then 3 * 3 = 9. Option B (10) might come from thinking 17 / 5 = 3.4, then 3.4 * 3 ≈ 10. Option C (10.2) would be the exact result if using double division. Option D would come from just doing 17 / 5."
+    "answer": 3,
+    "explanation": "Integer division 17 / 5 = 3 (truncated, not rounded), then 3 * 3 = 9. Option B (10) might come from thinking 17 / 5 = 3.4, then 3.4 * 3 ≈ 10. Option C (10.2) would be the exact result if using double division. Option A would come from just doing 17 / 5."
   },
   {
     "id": "csa_u1_q009",
@@ -171,10 +171,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of the expression 23 % 7?",
     "choices": [
-      "A) 2",
-      "B) 3",
-      "C) 7",
-      "D) 16"
+      "2",
+      "3",
+      "7",
+      "16"
     ],
     "answer": 0,
     "explanation": "23 ÷ 7 = 3 remainder 2, so 23 % 7 = 2. Option B (3) is the quotient, not the remainder. Option C (7) is the divisor. Option D (16) might come from 23 - 7 = 16, but that's not how modulo works."
@@ -191,10 +191,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of this expression?\n(double) 7 / 2",
     "choices": [
-      "A) 3.5",
-      "B) 3",
-      "C) 3.0",
-      "D) 4"
+      "3.5",
+      "3",
+      "3.0",
+      "4"
     ],
     "answer": 0,
     "explanation": "Casting 7 to double makes it 7.0, so the expression becomes 7.0 / 2, which performs double division resulting in 3.5. Option B (3) would result from integer division 7 / 2. Option C (3.0) might be confused with casting the result. Option D has no logical basis."
@@ -211,10 +211,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of x after this code executes?\nint x = 15;\nx = x % 4 + 6;",
     "choices": [
-      "A) 9",
-      "B) 7",
-      "C) 3",
-      "D) 21"
+      "9",
+      "7",
+      "3",
+      "21"
     ],
     "answer": 0,
     "explanation": "First, 15 % 4 = 3 (since 15 ÷ 4 = 3 remainder 3), then 3 + 6 = 9. Option B (7) might come from thinking 15 % 4 = 1. Option C (3) is just the result of 15 % 4 without adding 6. Option D (21) might come from 15 + 6."
@@ -231,10 +231,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\nint x = 2147483647;\nint y = x + 1;\nSystem.out.println(y);",
     "choices": [
-      "A) 2147483648",
-      "B) -2147483648",
-      "C) Compilation error",
-      "D) Runtime error"
+      "2147483648",
+      "-2147483648",
+      "Compilation error",
+      "Runtime error"
     ],
     "answer": 1,
     "explanation": "The value 2147483647 is the maximum value for an int (Integer.MAX_VALUE). Adding 1 causes integer overflow, wrapping around to the minimum int value of -2147483648. This is not a compilation or runtime error in Java - it silently overflows."
@@ -251,10 +251,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\ndouble x = 0.1 + 0.2;\nboolean result = (x == 0.3);\nSystem.out.println(result);",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) 0.3",
-      "D) Compilation error"
+      "true",
+      "false",
+      "0.3",
+      "Compilation error"
     ],
     "answer": 1,
     "explanation": "Due to floating-point precision errors, 0.1 + 0.2 does not exactly equal 0.3 in binary representation. The result is something like 0.30000000000000004, so the equality comparison returns false. This is a common trap with floating-point arithmetic."
@@ -271,10 +271,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\ndouble d = 65.7;\nint i = (int) d;\nchar c = (char) i;\nSystem.out.println(c);",
     "choices": [
-      "A) 65",
-      "B) A",
-      "C) 65.7",
-      "D) Compilation error"
+      "65",
+      "A",
+      "65.7",
+      "Compilation error"
     ],
     "answer": 1,
     "explanation": "The double 65.7 is cast to int, truncating to 65. Then 65 is cast to char, which corresponds to ASCII value 65, which is the character 'A'. Students often expect the numeric value to print instead of the character."
@@ -291,10 +291,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of the following expression?\n\nint result = 5 + 3 * 2 - 8 / 4 % 3;\nSystem.out.println(result);",
     "choices": [
-      "A) 9",
-      "B) 8",
-      "C) 11",
-      "D) 7"
+      "9",
+      "8",
+      "11",
+      "7"
     ],
     "answer": 0,
     "explanation": "Following order of operations: 5 + (3 * 2) - ((8 / 4) % 3) = 5 + 6 - (2 % 3) = 5 + 6 - 2 = 9. Students often get confused by the precedence of *, /, and % operators, or calculate the modulo incorrectly."
@@ -311,10 +311,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\nint a = 17;\nint b = 5;\ndouble result = a / b * 1.0;\nSystem.out.println(result);",
     "choices": [
-      "A) 3.4",
-      "B) 3.0",
-      "C) 17.0",
-      "D) 0.6"
+      "3.4",
+      "3.0",
+      "17.0",
+      "0.6"
     ],
     "answer": 1,
     "explanation": "Due to operator precedence and left-to-right evaluation, a / b is performed first as integer division (17 / 5 = 3), then 3 * 1.0 = 3.0. Students often expect 3.4 by thinking the 1.0 affects the division, but it doesn't due to order of operations."
@@ -331,10 +331,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of the following expression?\n\nint result = -17 % 5;\nSystem.out.println(result);",
     "choices": [
-      "A) 3",
-      "B) -2",
-      "C) 2",
-      "D) -3"
+      "3",
+      "-2",
+      "2",
+      "-3"
     ],
     "answer": 1,
     "explanation": "In Java, the sign of the result of the modulo operation matches the sign of the dividend (left operand). -17 % 5 = -2 because -17 = 5 * (-3) + (-2). Students often expect positive results or get confused about which operand determines the sign."
@@ -351,10 +351,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\nint x = 5;\nint y = 2;\ndouble result = (double) x / y;\nSystem.out.println(result);",
     "choices": [
-      "A) 2.0",
-      "B) 2.5",
-      "C) 2",
-      "D) Compilation error"
+      "2.0",
+      "2.5",
+      "2",
+      "Compilation error"
     ],
     "answer": 1,
     "explanation": "Casting x to double before the division makes it floating-point division: (double) 5 / 2 = 5.0 / 2 = 2.5. The cast has higher precedence than division, so only x is cast, but since one operand is now double, the entire operation becomes double division."
@@ -371,11 +371,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "A programming language used to write software",
-      "A step-by-step set of instructions to solve a problem",
+      "A type of variable used to store data",
       "A machine that executes binary code",
-      "A type of variable used to store data"
+      "A step-by-step set of instructions to solve a problem"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "An algorithm is a finite, step-by-step set of instructions designed to solve a problem or accomplish a task."
   },
   {
@@ -390,11 +390,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "It executes Java bytecode on the JVM",
-      "It translates Java source code into bytecode",
+      "It manages memory allocation at runtime",
       "It converts binary code back into source code",
-      "It manages memory allocation at runtime"
+      "It translates Java source code into bytecode"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A Java compiler (javac) translates human-readable Java source code (.java files) into bytecode (.class files) that can run on the Java Virtual Machine."
   },
   {
@@ -447,11 +447,11 @@ window.APCSA_MCQ = [
     "code": "double x = 7 / 2;",
     "choices": [
       "3.5",
-      "3.0",
+      "3",
       "4.0",
-      "3"
+      "3.0"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "7 and 2 are both int literals, so 7/2 performs integer division, yielding 3. This int value 3 is then widened to double 3.0 when stored in x."
   },
   {
@@ -485,11 +485,11 @@ window.APCSA_MCQ = [
     "code": "int a = 5;\nint b = 2;\nSystem.out.println(a / b);\nSystem.out.println(a % b);",
     "choices": [
       "2.5 and 1",
-      "2 and 1",
+      "3 and 1",
       "2 and 0",
-      "3 and 1"
+      "2 and 1"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Integer division 5/2 = 2 (truncates toward zero). The modulo 5%2 = 1 (the remainder). Both a and b are ints, so integer arithmetic applies."
   },
   {
@@ -580,11 +580,11 @@ window.APCSA_MCQ = [
     "code": "(int) 3.9",
     "choices": [
       "4",
-      "3",
+      "Error",
       "3.9",
-      "Error"
+      "3"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Casting a double to an int in Java truncates (drops) the decimal portion — it does NOT round. So (int) 3.9 = 3."
   },
   {
@@ -599,11 +599,11 @@ window.APCSA_MCQ = [
     "code": "double d = (double) 7 / 2;\nSystem.out.println(d);",
     "choices": [
       "3.0",
-      "3.5",
+      "Error",
       "3",
-      "Error"
+      "3.5"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Casting 7 to double first gives 7.0. Then 7.0 / 2 = 3.5 using floating-point division."
   },
   {
@@ -618,11 +618,11 @@ window.APCSA_MCQ = [
     "code": "int x = (int)(Math.random() * 6) + 1;\n// Math.random() returns 0.82\n// Assume Math.random() == 0.82\nSystem.out.println(x);",
     "choices": [
       "4",
-      "5",
+      "7",
       "6",
-      "7"
+      "5"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "0.82 * 6 = 4.92. (int)4.92 = 4 (truncates). 4 + 1 = 5. This is the standard pattern for generating a random integer from 1 to 6."
   },
   {
@@ -713,11 +713,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "import java.io.Scanner;",
-      "import java.util.Scanner;",
+      "No import needed — Scanner is in java.lang",
       "import java.lang.Scanner;",
-      "No import needed — Scanner is in java.lang"
+      "import java.util.Scanner;"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Scanner is in the java.util package, so you need 'import java.util.Scanner;'. The java.lang package is automatically imported, but Scanner is not part of it."
   },
   {
@@ -732,11 +732,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "/* This is a comment */",
-      "// This is a comment",
+      "-- This is a comment",
       "# This is a comment",
-      "-- This is a comment"
+      "// This is a comment"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "// starts a single-line comment in Java. /* ... */ is a multi-line comment. # is used in Python/shell, and -- is used in SQL — neither works in Java."
   },
   {
@@ -750,12 +750,12 @@ window.APCSA_MCQ = [
     "isCode": false,
     "code": "",
     "choices": [
-      "To disable a block of code during testing",
       "To generate HTML API documentation for methods and classes",
+      "To disable a block of code during testing",
       "To define multi-line string literals",
       "To mark code that needs to be fixed later"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Javadoc comments (/** ... */) can be processed by the javadoc tool to automatically generate HTML documentation. They typically document classes, methods, and parameters."
   },
   {
@@ -826,12 +826,12 @@ window.APCSA_MCQ = [
     "isCode": true,
     "code": "public static int square(int n) {\n    return n * n;\n}\n// In main:\nSystem.out.println(square(4) + square(2));",
     "choices": [
-      "36",
       "20",
+      "36",
       "24",
       "18"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "square(4) = 16, square(2) = 4. 16 + 4 = 20."
   },
   {
@@ -1169,10 +1169,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\nString str = \"Programming\";\nSystem.out.println(str.substring(3, 7).toUpperCase());",
     "choices": [
-      "A) GRAM",
-      "B) GRAP",
-      "C) PROG",
-      "D) RAMM"
+      "GRAM",
+      "GRAP",
+      "PROG",
+      "RAMM"
     ],
     "answer": 0,
     "explanation": "str.substring(3, 7) extracts characters from index 3 to 6 (7 is exclusive), which gives 'gram'. Then toUpperCase() converts it to 'GRAM'. Students often confuse inclusive/exclusive bounds or miscalculate indices."
@@ -1189,12 +1189,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of Math.pow(Math.sqrt(16), 3)?",
     "choices": [
-      "A) 12.0",
-      "B) 64.0",
-      "C) 48.0",
-      "D) 16.0"
+      "12.0",
+      "16.0",
+      "48.0",
+      "64.0"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Math.sqrt(16) returns 4.0, then Math.pow(4.0, 3) returns 64.0. Students might incorrectly calculate the square root, forget that Math methods return doubles, or make arithmetic errors in the power calculation."
   },
   {
@@ -1209,12 +1209,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Consider the following code:\n\nString s1 = new String(\"hello\");\nString s2 = new String(\"hello\");\nString s3 = \"hello\";\nString s4 = \"hello\";\n\nWhich statement is true?",
     "choices": [
-      "A) s1 == s2 is true",
-      "B) s3 == s4 is true",
-      "C) s1 == s3 is true",
-      "D) All == comparisons are false"
+      "s1 == s2 is true",
+      "All == comparisons are false",
+      "s1 == s3 is true",
+      "s3 == s4 is true"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "s3 and s4 reference the same String literal in the string pool, so s3 == s4 is true. s1 and s2 are separate objects created with new, so s1 == s2 is false. Students often confuse object identity (==) with content equality (.equals())."
   },
   {
@@ -1229,10 +1229,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What happens when this code executes?\n\npublic class Student {\n  private String name;\n  \n  public Student(String n) {\n    name = n.toUpperCase();\n  }\n}\n\nStudent s = new Student(\"alice\");",
     "choices": [
-      "A) Compile error - constructor is private",
-      "B) Runtime error - null pointer exception",
-      "C) The student's name is stored as \"ALICE\"",
-      "D) The student's name is stored as \"alice\""
+      "Compile error - constructor is private",
+      "Runtime error - null pointer exception",
+      "The student's name is stored as \"ALICE\"",
+      "The student's name is stored as \"alice\""
     ],
     "answer": 2,
     "explanation": "The constructor receives 'alice', calls toUpperCase() on it, and stores 'ALICE' in the name field. Students might think constructors need to be private, or not realize that String methods return new strings with modifications applied."
@@ -1249,10 +1249,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What happens when this code executes?\n\nString str = null;\nif (str != null && str.length() > 0) {\n  System.out.println(\"Valid string\");\n} else {\n  System.out.println(\"Invalid string\");\n}",
     "choices": [
-      "A) Prints \"Valid string\"",
-      "B) Prints \"Invalid string\"",
-      "C) Runtime error - NullPointerException",
-      "D) Compile error"
+      "Prints \"Valid string\"",
+      "Prints \"Invalid string\"",
+      "Runtime error - NullPointerException",
+      "Compile error"
     ],
     "answer": 1,
     "explanation": "When str is null, the condition str != null evaluates to false. Due to short-circuit evaluation with &&, str.length() is never called, which prevents a NullPointerException. Because the entire if-condition is false, the else block executes and prints \"Invalid string\". Choice A is wrong because str is null so the if-condition can never be true. Choice C is wrong because short-circuit evaluation prevents str.length() from ever being called. Choice D is wrong because this code compiles without error."
@@ -1269,10 +1269,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\nint x = 5;\nint y = 3;\nSystem.out.println(\"Result: \" + x + y + \" Sum: \" + (x + y));",
     "choices": [
-      "A) Result: 53 Sum: 8",
-      "B) Result: 8 Sum: 8",
-      "C) Result: 53 Sum: 53",
-      "D) Result: 5 3 Sum: 8"
+      "Result: 53 Sum: 8",
+      "Result: 8 Sum: 8",
+      "Result: 53 Sum: 53",
+      "Result: 5 3 Sum: 8"
     ],
     "answer": 0,
     "explanation": "String concatenation is left-to-right. 'Result: ' + x + y becomes 'Result: ' + 5 + 3, which is 'Result: 5' + 3 = 'Result: 53'. The parentheses in (x + y) force arithmetic addition first, giving 8. Students often don't realize concatenation happens left-to-right without parentheses."
@@ -1289,10 +1289,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Given String s = \"Computer\", which expression returns \"put\"?",
     "choices": [
-      "A) s.substring(3, 6)",
-      "B) s.substring(3, 5)",
-      "C) s.substring(2, 5)",
-      "D) s.substring(4, 6)"
+      "s.substring(3, 6)",
+      "s.substring(3, 5)",
+      "s.substring(2, 5)",
+      "s.substring(4, 6)"
     ],
     "answer": 0,
     "explanation": "In \"Computer\", the character indices are: C(0) o(1) m(2) p(3) u(4) t(5) e(6) r(7). The substring \"put\" consists of characters at indices 3, 4, and 5. substring(beginIndex, endIndex) returns characters from beginIndex up to but not including endIndex, so substring(3, 6) returns characters at indices 3, 4, 5 — which is \"put\". Choice B (3,5) returns only \"pu\" (indices 3–4). Choice C (2,5) returns \"mpu\" (indices 2–4). Choice D (4,6) returns \"ut\" (indices 4–5)."
@@ -1309,10 +1309,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of the following code?\n\nString s1 = \"Hello\";\nString s2 = s1.replace('l', 'p');\nString s3 = s1.toUpperCase();\nSystem.out.println(s1 + s2 + s3);",
     "choices": [
-      "A) HelloHepppoHELLO",
-      "B) HepppoHepppoHEPPPO",
-      "C) HelloHeppoHELLO",
-      "D) HeppoHeppoHEPPO"
+      "HelloHepppoHELLO",
+      "HepppoHepppoHEPPPO",
+      "HelloHeppoHELLO",
+      "HeppoHeppoHEPPO"
     ],
     "answer": 2,
     "explanation": "Strings are immutable. s1 remains 'Hello' after the method calls. s2 becomes 'Heppo' (replacing both l's with p's). s3 becomes 'HELLO'. Concatenating gives 'HelloHeppoHELLO'. Note that unlike char concatenation (where using + with chars performs numeric addition using ASCII values), String concatenation with + always joins the string values directly. Students often think string methods modify the original string rather than returning new strings."
@@ -1329,10 +1329,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\nString num = \"42\";\nint value = Integer.parseInt(num) + 8;\nDouble result = Double.valueOf(value);\nSystem.out.println(result);",
     "choices": [
-      "A) 50",
-      "B) 50.0",
-      "C) 428",
-      "D) Compile error"
+      "50",
+      "50.0",
+      "428",
+      "Compile error"
     ],
     "answer": 1,
     "explanation": "Integer.parseInt('42') converts the string to int 42. Adding 8 gives 50. Double.valueOf(50) creates a Double object with value 50.0. When printed, Double objects display as decimal numbers, so output is '50.0'. Students might expect integer output or think there's a type mismatch error."
@@ -1368,11 +1368,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "Executing code based on a true/false condition",
-      "Repeating a block of code multiple times",
       "Calling a method recursively",
+      "Repeating a block of code multiple times",
       "Defining a class with multiple methods"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Iteration means repeating a block of code — typically using loops like for, while, or do-while."
   },
   {
@@ -1386,12 +1386,12 @@ window.APCSA_MCQ = [
     "isCode": false,
     "code": "",
     "choices": [
-      "true",
+      "0",
       "false",
       "1",
-      "0"
+      "true"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "(5 > 3) is true and (2 < 4) is true. true && true = true."
   },
   {
@@ -1406,11 +1406,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "true",
-      "false",
       "null",
+      "false",
       "undefined"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "true || false = true. !true = false."
   },
   {
@@ -1481,13 +1481,13 @@ window.APCSA_MCQ = [
     "isCode": false,
     "code": "",
     "choices": [
-      "int count = 0;\nfor (int i = 1; i <= 100; i++) {\n    if (i % 2 == 0) count++;\n}",
+      "Neither A nor B is correct",
       "int count = 0;\nfor (int i = 0; i <= 100; i += 2) {\n    count++;\n}",
       "Both A and B give 50",
-      "Neither A nor B is correct"
+      "int count = 0;\nfor (int i = 1; i <= 100; i++) {\n    if (i % 2 == 0) count++;\n}"
     ],
-    "answer": 0,
-    "explanation": "Option A iterates 1 through 100 and counts those divisible by 2, correctly yielding 50. Option B starts at 0 and steps by 2 (0, 2, 4, …, 100), which counts 51 values because it includes 0. Since the question specifies integers from 1 to 100, only Option A is correct."
+    "answer": 3,
+    "explanation": "Option D iterates 1 through 100 and counts those divisible by 2, correctly yielding 50. Option B starts at 0 and steps by 2 (0, 2, 4, …, 100), which counts 51 values because it includes 0. Since the question specifies integers from 1 to 100, only Option D is correct."
   },
   {
     "id": "mcq_063",
@@ -1538,12 +1538,12 @@ window.APCSA_MCQ = [
     "isCode": true,
     "code": "String s = \"racecar\";\nboolean isPalin = true;\nfor (int i = 0; i < s.length() / 2; i++) {\n    if (s.charAt(i) != s.charAt(s.length() - 1 - i)) {\n        isPalin = false;\n    }\n}\nSystem.out.println(isPalin);",
     "choices": [
-      "true",
+      "racecar",
       "false",
       "Compilation error",
-      "racecar"
+      "true"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "\"racecar\" is a palindrome. The loop compares characters from both ends. They all match, so isPalin stays true."
   },
   {
@@ -1595,12 +1595,12 @@ window.APCSA_MCQ = [
     "isCode": true,
     "code": "for (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= 3; j++) {\n        if (i == j) {\n            System.out.print(i + \" \");\n        }\n    }\n}",
     "choices": [
-      "1 2 3 ",
+      "Nothing",
       "1 1 2 2 3 3 ",
       "1 4 9 ",
-      "Nothing"
+      "1 2 3 "
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Only when i == j does it print. That happens for (1,1), (2,2), (3,3). Output: \"1 2 3 \"."
   },
   {
@@ -1614,12 +1614,12 @@ window.APCSA_MCQ = [
     "isCode": true,
     "code": "for (int i = 0; i < 4; i++) {\n    for (int j = 0; j < i; j++) {\n        System.out.print(\"* \");\n    }\n    System.out.println();\n}",
     "choices": [
-      "No stars on line 1; * on line 2; ** on line 3; *** on line 4",
+      "4 lines of 4 stars each",
       "* ** *** **** (all on one line)",
       "* on line 1; ** on line 2; *** on line 3; **** on line 4",
-      "4 lines of 4 stars each"
+      "No stars on line 1; * on line 2; ** on line 3; *** on line 4"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "When i=0: inner loop runs 0 times (j<0 false), just newline. When i=1: 1 star. When i=2: 2 stars. When i=3: 3 stars. Creates a triangle starting with an empty line."
   },
   {
@@ -1709,12 +1709,12 @@ window.APCSA_MCQ = [
     "isCode": true,
     "code": "for (int i = 10; i > 0; i -= 2) {\n    System.out.print(i + \" \");\n}",
     "choices": [
-      "5",
+      "4",
       "6",
       "10",
-      "4"
+      "5"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "i = 10, 8, 6, 4, 2 — that's 5 iterations. After i=2, i-=2 makes i=0, and 0 > 0 is false."
   },
   {
@@ -1728,12 +1728,12 @@ window.APCSA_MCQ = [
     "isCode": false,
     "code": "",
     "choices": [
-      "true",
+      "Compilation error",
       "false",
       "null",
-      "Compilation error"
+      "true"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "(false || true) = true. !false = true. true && true = true."
   },
   {
@@ -1747,12 +1747,12 @@ window.APCSA_MCQ = [
     "isCode": true,
     "code": "int sum = 0;\nfor (int i = 1; i <= 4; i++) {\n    sum += i;\n}\nSystem.out.println(sum);",
     "choices": [
-      "10",
-      "4",
       "6",
+      "4",
+      "10",
       "16"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "sum = 1+2+3+4 = 10."
   },
   {
@@ -2090,13 +2090,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What will be printed when the following code is executed?\n\nint x = 5;\nif (x > 3)\n    System.out.println(\"Hello\");\nelse\n    System.out.println(\"Goodbye\");",
     "choices": [
-      "A) Hello",
-      "B) Goodbye",
-      "C) Both Hello and Goodbye",
-      "D) Nothing will be printed"
+      "Nothing will be printed",
+      "Goodbye",
+      "Both Hello and Goodbye",
+      "Hello"
     ],
-    "answer": 0,
-    "explanation": "Since x = 5 and 5 > 3 is true, the if condition is satisfied and \"Hello\" is printed. The else block is skipped. Choice B assumes the condition is false. Choice C misunderstands that only one branch executes. Choice D assumes no output occurs."
+    "answer": 3,
+    "explanation": "Since x = 5 and 5 > 3 is true, the if condition is satisfied and \"Hello\" is printed. The else block is skipped. Choice B assumes the condition is false. Choice C misunderstands that only one branch executes. Choice A assumes no output occurs."
   },
   {
     "id": "csa_u3_q030",
@@ -2110,13 +2110,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of the boolean expression (7 == 7)?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) 7",
-      "D) 0"
+      "0",
+      "false",
+      "7",
+      "true"
     ],
-    "answer": 0,
-    "explanation": "The expression (7 == 7) compares two identical values using the equality operator, which evaluates to true. Choice B would be correct if the values were different. Choice C confuses the result with the operand value. Choice D applies C-style thinking where 0 represents false."
+    "answer": 3,
+    "explanation": "The expression (7 == 7) compares two identical values using the equality operator, which evaluates to true. Choice B would be correct if the values were different. Choice C confuses the result with the operand value. Choice A applies C-style thinking where 0 represents false."
   },
   {
     "id": "csa_u3_q031",
@@ -2130,13 +2130,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of the expression (true && false)?",
     "choices": [
-      "A) false",
-      "B) true",
-      "C) null",
-      "D) undefined"
+      "undefined",
+      "true",
+      "null",
+      "false"
     ],
-    "answer": 0,
-    "explanation": "The && (AND) operator returns true only when both operands are true. Since one operand is false, the result is false. Choice B misunderstands AND logic. Choice C applies incorrect null concepts to boolean operations. Choice D suggests the expression cannot be evaluated."
+    "answer": 3,
+    "explanation": "The && (AND) operator returns true only when both operands are true. Since one operand is false, the result is false. Choice B misunderstands AND logic. Choice C applies incorrect null concepts to boolean operations. Choice A suggests the expression cannot be evaluated."
   },
   {
     "id": "csa_u3_q032",
@@ -2150,13 +2150,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which expression is equivalent to !(a && b) according to De Morgan's law?",
     "choices": [
-      "A) !a || !b",
-      "B) !a && !b",
-      "C) a || b",
-      "D) !(a || b)"
+      "!(a || b)",
+      "!a && !b",
+      "a || b",
+      "!a || !b"
     ],
-    "answer": 0,
-    "explanation": "De Morgan's law states that !(a && b) is equivalent to !a || !b. The negation distributes and the AND becomes OR. Choice B keeps the AND operator incorrectly. Choice C removes negation entirely. Choice D changes the original operator without proper transformation."
+    "answer": 3,
+    "explanation": "De Morgan's law states that !(a && b) is equivalent to !a || !b. The negation distributes and the AND becomes OR. Choice B keeps the AND operator incorrectly. Choice C removes negation entirely. Choice A changes the original operator without proper transformation."
   },
   {
     "id": "csa_u3_q033",
@@ -2170,13 +2170,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What will be printed when the following code executes with x = 10?\n\nif (x > 5) {\n    if (x > 15) {\n        System.out.println(\"Large\");\n    } else {\n        System.out.println(\"Medium\");\n    }\n}",
     "choices": [
-      "A) Medium",
-      "B) Large",
-      "C) Nothing",
-      "D) Both Large and Medium"
+      "Both Large and Medium",
+      "Large",
+      "Nothing",
+      "Medium"
     ],
-    "answer": 0,
-    "explanation": "Since x = 10, the outer condition (x > 5) is true, so we enter the nested if. The inner condition (x > 15) is false, so we execute the else block printing \"Medium\". Choice B assumes the inner condition is true. Choice C assumes the outer condition is false. Choice D misunderstands that only one branch executes."
+    "answer": 3,
+    "explanation": "Since x = 10, the outer condition (x > 5) is true, so we enter the nested if. The inner condition (x > 15) is false, so we execute the else block printing \"Medium\". Choice B assumes the inner condition is true. Choice C assumes the outer condition is false. Choice A misunderstands that only one branch executes."
   },
   {
     "id": "csa_u3_q034",
@@ -2190,13 +2190,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "In a switch statement, what keyword is used to exit a case and prevent fall-through?",
     "choices": [
-      "A) break",
-      "B) exit",
-      "C) return",
-      "D) stop"
+      "stop",
+      "exit",
+      "return",
+      "break"
     ],
-    "answer": 0,
-    "explanation": "The break keyword is used to exit a case in a switch statement and prevent execution from continuing to the next case. Choice B is not a Java keyword for this purpose. Choice C returns from the entire method, not just the case. Choice D is not a Java keyword."
+    "answer": 3,
+    "explanation": "The break keyword is used to exit a case in a switch statement and prevent execution from continuing to the next case. Choice B is not a Java keyword for this purpose. Choice C returns from the entire method, not just the case. Choice A is not a Java keyword."
   },
   {
     "id": "csa_u3_q035",
@@ -2210,12 +2210,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "In the expression (false && someMethod()), will someMethod() be called?",
     "choices": [
-      "A) No",
-      "B) Yes",
-      "C) Only if someMethod() returns true",
-      "D) Only if someMethod() returns false"
+      "Only if someMethod() returns false",
+      "Yes",
+      "Only if someMethod() returns true",
+      "No"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Due to short circuit evaluation with the && operator, when the first operand is false, the second operand is not evaluated since the result is already determined to be false. Choice B ignores short circuit behavior. Choices C and D incorrectly suggest the method is called and its return value matters."
   },
   {
@@ -2230,12 +2230,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of the expression (5 != 3)?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) 5",
-      "D) 3"
+      "3",
+      "false",
+      "5",
+      "true"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The != operator checks for inequality. Since 5 is not equal to 3, the expression evaluates to true. Choice B would be correct if the values were equal. Choices C and D confuse the boolean result with the operand values."
   },
   {
@@ -2250,12 +2250,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of the expression (true || false)?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) 1",
-      "D) 0"
+      "0",
+      "false",
+      "1",
+      "true"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The || (OR) operator returns true when at least one operand is true. Since the first operand is true, the result is true. Choice B misunderstands OR logic. Choices C and D apply numeric representations instead of boolean values."
   },
   {
@@ -2270,13 +2270,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What happens when an if statement's condition evaluates to false and there is no else clause?",
     "choices": [
-      "A) The program continues to the next statement after the if block",
-      "B) The program terminates",
-      "C) An error occurs",
-      "D) The if block executes anyway"
+      "The if block executes anyway",
+      "The program terminates",
+      "An error occurs",
+      "The program continues to the next statement after the if block"
     ],
-    "answer": 0,
-    "explanation": "When an if condition is false and there's no else clause, the program simply skips the if block and continues with the next statement. Choice B incorrectly suggests termination. Choice C suggests an error when none occurs. Choice D misunderstands conditional execution."
+    "answer": 3,
+    "explanation": "When an if condition is false and there's no else clause, the program simply skips the if block and continues with the next statement. Choice B incorrectly suggests termination. Choice C suggests an error when none occurs. Choice A misunderstands conditional execution."
   },
   {
     "id": "csa_u3_q039",
@@ -2290,13 +2290,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "In nested if statements, which else clause does an else belong to when there are no braces?",
     "choices": [
-      "A) The closest preceding if",
-      "B) The first if in the sequence",
-      "C) The outermost if",
-      "D) All if statements equally"
+      "All if statements equally",
+      "The first if in the sequence",
+      "The outermost if",
+      "The closest preceding if"
     ],
-    "answer": 0,
-    "explanation": "The dangling else problem is resolved by the rule that an else belongs to the closest preceding if statement that doesn't already have an else. Choice B incorrectly suggests the first if takes precedence. Choice C suggests the outermost if takes precedence. Choice D misunderstands the binding rule."
+    "answer": 3,
+    "explanation": "The dangling else problem is resolved by the rule that an else belongs to the closest preceding if statement that doesn't already have an else. Choice B incorrectly suggests the first if takes precedence. Choice C suggests the outermost if takes precedence. Choice A misunderstands the binding rule."
   },
   {
     "id": "csa_u3_q041",
@@ -2310,13 +2310,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which expression is equivalent to !(x || y) according to De Morgan's law?",
     "choices": [
-      "A) !x && !y",
-      "B) !x || !y",
-      "C) x && y",
-      "D) !(x && y)"
+      "!(x && y)",
+      "!x || !y",
+      "x && y",
+      "!x && !y"
     ],
-    "answer": 0,
-    "explanation": "De Morgan's law states that !(x || y) is equivalent to !x && !y. The negation distributes and the OR becomes AND. Choice B keeps the OR operator incorrectly. Choice C removes negation entirely. Choice D changes the original operator without proper transformation."
+    "answer": 3,
+    "explanation": "De Morgan's law states that !(x || y) is equivalent to !x && !y. The negation distributes and the OR becomes AND. Choice B keeps the OR operator incorrectly. Choice C removes negation entirely. Choice A changes the original operator without proper transformation."
   },
   {
     "id": "csa_u3_q042",
@@ -2330,12 +2330,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "In the expression (true || someMethod()), will someMethod() be called?",
     "choices": [
-      "A) No",
-      "B) Yes",
-      "C) Only if someMethod() returns true",
-      "D) Only if someMethod() returns false"
+      "Only if someMethod() returns false",
+      "Yes",
+      "Only if someMethod() returns true",
+      "No"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Due to short circuit evaluation with the || operator, when the first operand is true, the second operand is not evaluated since the result is already determined to be true. Choice B ignores short circuit behavior. Choices C and D incorrectly suggest the method is called and its return value determines execution."
   },
   {
@@ -2350,12 +2350,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What will be printed when the following code is executed with score = 85?\n\nif (score >= 90)\n    System.out.println(\"A\");\nelse if (score >= 80)\n    System.out.println(\"B\");\nelse if (score >= 70)\n    System.out.println(\"C\");\nelse\n    System.out.println(\"F\");",
     "choices": [
-      "A) B",
-      "B) A",
-      "C) C",
-      "D) Nothing is printed"
+      "C",
+      "A",
+      "B",
+      "Nothing is printed"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "With score = 85, the first condition (score >= 90) is false, so it checks the second condition (score >= 80) which is true, printing 'B'. Once a condition is met in an if-else chain, subsequent conditions are not evaluated."
   },
   {
@@ -2370,12 +2370,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Given int x = 5 and int y = 3, what is the value of the expression: (x > y) && (x % 2 == 1)?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) Cannot be determined",
-      "D) Compilation error"
+      "Cannot be determined",
+      "false",
+      "true",
+      "Compilation error"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "(x > y) evaluates to (5 > 3) which is true. (x % 2 == 1) evaluates to (5 % 2 == 1) which is (1 == 1) or true. Since both operands of && are true, the entire expression is true."
   },
   {
@@ -2390,12 +2390,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of the following boolean expression when a = 4, b = 7, and c = 2?\n\n(a < b) || (c > b) && (a == c)",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) The expression will cause a runtime error",
-      "D) The expression will not compile"
+      "The expression will cause a runtime error",
+      "false",
+      "true",
+      "The expression will not compile"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Due to operator precedence, && is evaluated before ||. So the expression becomes (a < b) || ((c > b) && (a == c)). (4 < 7) is true, (2 > 7) is false, (4 == 2) is false. So we have true || (false && false) = true || false = true."
   },
   {
@@ -2410,13 +2410,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which of the following expressions is equivalent to !(x > 5 && y < 3)?",
     "choices": [
-      "A) x <= 5 || y >= 3",
-      "B) x < 5 && y > 3",
-      "C) x <= 5 && y >= 3",
-      "D) !(x > 5) && !(y < 3)"
+      "x <= 5 && y >= 3",
+      "x < 5 && y > 3",
+      "x <= 5 || y >= 3",
+      "!(x > 5) && !(y < 3)"
     ],
-    "answer": 0,
-    "explanation": "Using De Morgan's Law, !(A && B) = !A || !B. So !(x > 5 && y < 3) = !(x > 5) || !(y < 3) = (x <= 5) || (y >= 3). Choice B incorrectly uses && instead of ||, Choice C uses && instead of ||, and Choice D doesn't apply the law correctly."
+    "answer": 2,
+    "explanation": "Using De Morgan's Law, !(A && B) = !A || !B. So !(x > 5 && y < 3) = !(x > 5) || !(y < 3) = (x <= 5) || (y >= 3). Choice B incorrectly uses && instead of ||, Choice A uses && instead of ||, and Choice D doesn't apply the law correctly."
   },
   {
     "id": "csa_u3_q047",
@@ -2430,12 +2430,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What will be the output when the following code executes with temperature = 75 and humidity = 60?\n\nif (temperature > 70) {\n    if (humidity > 50) {\n        System.out.println(\"Hot and humid\");\n    } else {\n        System.out.println(\"Hot and dry\");\n    }\n} else {\n    System.out.println(\"Cool\");\n}",
     "choices": [
-      "A) Hot and humid",
-      "B) Hot and dry",
-      "C) Cool",
-      "D) Nothing is printed"
+      "Cool",
+      "Hot and dry",
+      "Hot and humid",
+      "Nothing is printed"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Since temperature (75) > 70, we enter the outer if block. Then since humidity (60) > 50, we enter the inner if block and print 'Hot and humid'. The nested structure requires both conditions to be evaluated in sequence."
   },
   {
@@ -2450,12 +2450,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Given the expression (x != 0) && (y / x > 2), what happens when x = 0 and y = 10?",
     "choices": [
-      "A) The expression evaluates to false without error",
-      "B) A division by zero error occurs",
-      "C) The expression evaluates to true",
-      "D) A compilation error occurs"
+      "The expression evaluates to true",
+      "A division by zero error occurs",
+      "The expression evaluates to false without error",
+      "A compilation error occurs"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Due to short-circuit evaluation with &&, when the first operand (x != 0) is false, the second operand (y / x > 2) is never evaluated. Therefore, no division by zero occurs and the expression safely evaluates to false."
   },
   {
@@ -2470,12 +2470,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Consider the following code segment:\n\nint num = 15;\nif (num > 10)\n    if (num < 20)\n        System.out.println(\"Medium\");\nelse\n    System.out.println(\"Small\");\n\nWhat is printed?",
     "choices": [
-      "A) Medium",
-      "B) Small",
-      "C) Nothing",
-      "D) Both Medium and Small"
+      "Nothing",
+      "Small",
+      "Medium",
+      "Both Medium and Small"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "The else clause belongs to the inner if statement (num < 20), not the outer one. Since num = 15 satisfies both num > 10 and num < 20, 'Medium' is printed. This demonstrates the dangling else problem where else associates with the nearest if."
   },
   {
@@ -2490,12 +2490,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of the expression (5 == 5.0) in Java?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) Compilation error",
-      "D) Runtime error"
+      "Compilation error",
+      "false",
+      "true",
+      "Runtime error"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Java performs automatic type promotion when comparing an int (5) with a double (5.0). The int is promoted to double, making the comparison 5.0 == 5.0, which is true. This is different from object comparison where type mismatches cause compilation errors."
   },
   {
@@ -2510,12 +2510,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Given boolean a = true, b = false, c = true, what is the result of: a && b || c && !b?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) Cannot be determined",
-      "D) Syntax error"
+      "false",
+      "true",
+      "Cannot be determined",
+      "Syntax error"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Evaluating left to right with operator precedence (! then && then ||): a && b = true && false = false; !b = !false = true; c && !b = true && true = true; false || true = true. The expression evaluates to true."
   },
   {
@@ -2530,13 +2530,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which expression is equivalent to !(age >= 18 || hasPermission)?",
     "choices": [
-      "A) age < 18 && !hasPermission",
-      "B) age <= 18 && !hasPermission",
-      "C) age < 18 || !hasPermission",
-      "D) !(age >= 18) || !hasPermission"
+      "age <= 18 && !hasPermission",
+      "age < 18 && !hasPermission",
+      "age < 18 || !hasPermission",
+      "!(age >= 18) || !hasPermission"
     ],
-    "answer": 0,
-    "explanation": "Using De Morgan's Law: !(A || B) = !A && !B. So !(age >= 18 || hasPermission) = !(age >= 18) && !hasPermission = (age < 18) && !hasPermission. Choice B incorrectly uses <= instead of <, Choice C uses || instead of &&, and Choice D doesn't complete the transformation."
+    "answer": 1,
+    "explanation": "Using De Morgan's Law: !(A || A) = !A && !B. So !(age >= 18 || hasPermission) = !(age >= 18) && !hasPermission = (age < 18) && !hasPermission. Choice A incorrectly uses <= instead of <, Choice C uses || instead of &&, and Choice D doesn't complete the transformation."
   },
   {
     "id": "csa_u3_q054",
@@ -2550,12 +2550,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What output is produced by this code when x = 8 and y = 12?\n\nif (x > 5) {\n    if (y > 10) {\n        if (x + y > 15) {\n            System.out.println(\"Case 1\");\n        } else {\n            System.out.println(\"Case 2\");\n        }\n    } else {\n        System.out.println(\"Case 3\");\n    }\n} else {\n    System.out.println(\"Case 4\");\n}",
     "choices": [
-      "A) Case 1",
-      "B) Case 2",
-      "C) Case 3",
-      "D) Case 4"
+      "Case 2",
+      "Case 1",
+      "Case 3",
+      "Case 4"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Working through the nested conditions: x (8) > 5 is true, so we enter the first if. y (12) > 10 is true, so we enter the second if. x + y (20) > 15 is true, so we execute the innermost if and print 'Case 1'."
   },
   {
@@ -2570,10 +2570,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "In the expression (num > 0) || (num / 0 == 5), what happens when num = 10?",
     "choices": [
-      "A) Returns true without error",
-      "B) Throws ArithmeticException",
-      "C) Returns false",
-      "D) Compilation error"
+      "Returns true without error",
+      "Throws ArithmeticException",
+      "Returns false",
+      "Compilation error"
     ],
     "answer": 0,
     "explanation": "With || (OR) short-circuit evaluation, since the first condition (num > 0) is true when num = 10, the second condition (num / 0 == 5) is never evaluated. The expression returns true without attempting the division by zero."
@@ -2590,10 +2590,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Given String str = \"hello\", which boolean expression correctly checks if str is not null and has length greater than 3?",
     "choices": [
-      "A) str != null && str.length() > 3",
-      "B) str.length() > 3 && str != null",
-      "C) str != null || str.length() > 3",
-      "D) !str.equals(null) && str.length() > 3"
+      "str != null && str.length() > 3",
+      "str.length() > 3 && str != null",
+      "str != null || str.length() > 3",
+      "!str.equals(null) && str.length() > 3"
     ],
     "answer": 0,
     "explanation": "The null check must come first to avoid NullPointerException. Choice A correctly uses && and checks null first. Choice B would throw NullPointerException if str is null. Choice C uses || instead of &&. Choice D uses equals() which is not the standard way to check for null."
@@ -2610,10 +2610,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result when x = 5, y = 8, z = 3 for: (x < y && y > z) || (x > z && z < y)?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) Compilation error",
-      "D) Runtime error"
+      "true",
+      "false",
+      "Compilation error",
+      "Runtime error"
     ],
     "answer": 0,
     "explanation": "First part: (5 < 8 && 8 > 3) = (true && true) = true. Since the first part of an || expression is true, short-circuit evaluation makes the entire expression true without evaluating the second part. However, if evaluated: (5 > 3 && 3 < 8) = (true && true) = true, so true || true = true."
@@ -2630,10 +2630,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What prints when age = 16 and hasLicense = true?\n\nif (age >= 16) {\n    if (hasLicense) {\n        System.out.println(\"Can drive\");\n    }\n    if (age >= 18) {\n        System.out.println(\"Adult\");\n    }\n} else {\n    System.out.println(\"Too young\");\n}",
     "choices": [
-      "A) Can drive",
-      "B) Can drive Adult",
-      "C) Adult",
-      "D) Too young"
+      "Can drive",
+      "Can drive Adult",
+      "Adult",
+      "Too young"
     ],
     "answer": 0,
     "explanation": "Since age (16) >= 16, we enter the outer if. Since hasLicense is true, we print 'Can drive'. The second inner if checks if age >= 18, which is false for age = 16, so 'Adult' is not printed. Only 'Can drive' is output."
@@ -2650,10 +2650,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which of the following data types CANNOT be used in a switch statement in Java?",
     "choices": [
-      "A) double",
-      "B) char",
-      "C) String",
-      "D) int"
+      "double",
+      "char",
+      "String",
+      "int"
     ],
     "answer": 0,
     "explanation": "Switch statements in Java can use int, char, String (Java 7+), and their wrapper classes, as well as enums. However, floating-point types like double and float cannot be used in switch statements because they cannot be compared for exact equality reliably."
@@ -2670,10 +2670,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Consider: boolean result = (a++ > 5) && (++b < 10). If a = 5 and b = 8 initially, what are the final values of a and b?",
     "choices": [
-      "A) a = 6, b = 8",
-      "B) a = 6, b = 9",
-      "C) a = 5, b = 8",
-      "D) a = 5, b = 9"
+      "a = 6, b = 8",
+      "a = 6, b = 9",
+      "a = 5, b = 8",
+      "a = 5, b = 9"
     ],
     "answer": 0,
     "explanation": "The first condition (a++ > 5) uses post-increment, so a becomes 6 but the comparison uses the original value 5. Since 5 > 5 is false, short-circuit evaluation prevents the second condition (++b < 10) from being evaluated, so b remains 8. Final values: a = 6, b = 8."
@@ -2690,10 +2690,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is printed by the following code segment?\n\nint x = 15;\nint y = 20;\nif (x > 10)\n    if (y < 25)\n        System.out.println(\"A\");\nelse\n    System.out.println(\"B\");\nSystem.out.println(\"C\");",
     "choices": [
-      "A) A\nC",
-      "B) B\nC",
-      "C) A\nB\nC",
-      "D) C"
+      "A\nC",
+      "B\nC",
+      "A\nB\nC",
+      "C"
     ],
     "answer": 0,
     "explanation": "The outer if condition (x > 10) is true since 15 > 10. The inner if condition (y < 25) is true since 20 < 25, so \"A\" is printed. The else clause belongs to the inner if, not the outer if, so \"B\" is not printed. Finally, \"C\" is printed unconditionally. Choice B incorrectly assumes the else belongs to the outer if. Choice C assumes both conditions execute. Choice D misses that the conditions are true."
@@ -2710,10 +2710,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which of the following compound boolean expressions is equivalent to !(x > 5 && y <= 10)?",
     "choices": [
-      "A) x <= 5 && y > 10",
-      "B) x <= 5 || y > 10",
-      "C) !(x > 5) && !(y <= 10)",
-      "D) x < 5 || y > 10"
+      "x <= 5 && y > 10",
+      "x <= 5 || y > 10",
+      "!(x > 5) && !(y <= 10)",
+      "x < 5 || y > 10"
     ],
     "answer": 1,
     "explanation": "Using De Morgan's law, !(A && B) = !A || !B. So !(x > 5 && y <= 10) = !(x > 5) || !(y <= 10) = (x <= 5) || (y > 10). Choice A incorrectly uses && instead of ||. Choice C fails to correctly apply De Morgan's law by keeping && instead of changing it to ||. Choice D uses x < 5 instead of x <= 5, which would exclude the case when x equals 5, making it not fully equivalent."
@@ -2730,10 +2730,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which expression is logically equivalent to !(a < b || c >= d)?",
     "choices": [
-      "A) a >= b && c < d",
-      "B) a > b && c <= d",
-      "C) !(a < b) && !(c >= d)",
-      "D) a >= b || c < d"
+      "a >= b && c < d",
+      "a > b && c <= d",
+      "!(a < b) && !(c >= d)",
+      "a >= b || c < d"
     ],
     "answer": 0,
     "explanation": "Applying De Morgan's law: !(A || B) = !A && !B. So !(a < b || c >= d) = !(a < b) && !(c >= d) = (a >= b) && (c < d). Choice B incorrectly uses a > b instead of a >= b. Choice C shows the intermediate step but doesn't complete the negation of the individual comparisons. Choice D incorrectly uses || instead of &&."
@@ -2750,10 +2750,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What value is assigned to result after this code executes with score = 85?\n\nString result;\nif (score >= 90)\n    if (score >= 95)\n        result = \"A+\";\n    else\n        result = \"A\";\nelse if (score >= 80)\n    result = \"B\";\nelse\n    result = \"C\";",
     "choices": [
-      "A) A+",
-      "B) A",
-      "C) B",
-      "D) C"
+      "A+",
+      "A",
+      "B",
+      "C"
     ],
     "answer": 2,
     "explanation": "With score = 85: The first condition (score >= 90) is false since 85 < 90, so we skip the nested if-else block entirely. We then check the else if condition (score >= 80), which is true since 85 >= 80, so result = \"B\". Choice A and B incorrectly assume the first condition is true. Choice D would only occur if score < 80."
@@ -2770,10 +2770,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is printed when day = 2?\n\nswitch (day) {\n    case 1:\n        System.out.print(\"Mon \");\n    case 2:\n        System.out.print(\"Tue \");\n    case 3:\n        System.out.print(\"Wed \");\n        break;\n    default:\n        System.out.print(\"Other \");\n}",
     "choices": [
-      "A) Tue",
-      "B) Tue Wed",
-      "C) Tue Wed Other",
-      "D) Mon Tue Wed"
+      "Tue",
+      "Tue Wed",
+      "Tue Wed Other",
+      "Mon Tue Wed"
     ],
     "answer": 1,
     "explanation": "When day = 2, execution starts at case 2, printing \"Tue \". Since there's no break statement after case 2, execution falls through to case 3, printing \"Wed \". The break statement after case 3 prevents further execution, so \"Other\" is not printed. Choice A misses the fall-through behavior. Choice C assumes execution continues past the break. Choice D incorrectly assumes execution starts at case 1."
@@ -2790,10 +2790,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Given the code: if (x != 0 && y / x > 5), what happens when x = 0 and y = 20?",
     "choices": [
-      "A) A division by zero error occurs",
-      "B) The condition evaluates to false and no error occurs",
-      "C) The condition evaluates to true",
-      "D) A compilation error occurs"
+      "A division by zero error occurs",
+      "The condition evaluates to false and no error occurs",
+      "The condition evaluates to true",
+      "A compilation error occurs"
     ],
     "answer": 1,
     "explanation": "Due to short circuit evaluation with &&, when the first condition (x != 0) is false, the second condition (y / x > 5) is never evaluated. Since x = 0, the condition x != 0 is false, so the entire expression is false and y / x is never computed, preventing a division by zero error. Choice A assumes both conditions are always evaluated. Choice C incorrectly determines the result. Choice D is wrong because the code compiles successfully."
@@ -2810,10 +2810,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of the expression (5 > 3) == (2 < 4) && !(1 == 1)?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) The expression causes a compilation error",
-      "D) The expression causes a runtime error"
+      "true",
+      "false",
+      "The expression causes a compilation error",
+      "The expression causes a runtime error"
     ],
     "answer": 1,
     "explanation": "Let's evaluate step by step: (5 > 3) evaluates to true, (2 < 4) evaluates to true, so (5 > 3) == (2 < 4) becomes true == true, which is true. !(1 == 1) becomes !true, which is false. Finally, true && false evaluates to false. Choice A incorrectly evaluates the final && operation. Choices C and D are incorrect because this is valid boolean logic with no compilation or runtime issues."
@@ -2830,10 +2830,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which of the following code segments will produce the same output for all possible integer values of x?\n\nSegment I:\nif (x % 2 == 0)\n    System.out.println(\"even\");\nelse\n    System.out.println(\"odd\");\n\nSegment II:\nif (x % 2 == 1)\n    System.out.println(\"odd\");\nelse\n    System.out.println(\"even\");",
     "choices": [
-      "A) Segments I and II always produce the same output",
-      "B) Segments I and II never produce the same output",
-      "C) Segments I and II produce the same output only for positive integers",
-      "D) Segments I and II produce the same output only for even integers"
+      "Segments I and II always produce the same output",
+      "Segments I and II never produce the same output",
+      "Segments I and II produce the same output only for positive integers",
+      "Segments I and II produce the same output only for even integers"
     ],
     "answer": 2,
     "explanation": "For positive integers, both segments work identically. However, for negative odd integers, x % 2 equals -1, not 1. So in Segment II, the condition (x % 2 == 1) is false for negative odd numbers, causing them to be classified as \"even\" incorrectly. Segment I correctly handles negative numbers because x % 2 == 0 is false for all odd numbers (both positive and negative). Choice A ignores the negative number issue. Choice B is too broad. Choice D is incorrect because the issue is with negative odd numbers, not even numbers."
@@ -2850,10 +2850,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Given boolean a = true, boolean b = false, what is the result of !a || b && !b?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) The expression is always true regardless of a and b values",
-      "D) The expression is always false regardless of a and b values"
+      "true",
+      "false",
+      "The expression is always true regardless of a and b values",
+      "The expression is always false regardless of a and b values"
     ],
     "answer": 1,
     "explanation": "Following operator precedence, ! has highest precedence, then &&, then ||. So the expression becomes: (!a) || (b && (!b)) = false || (false && true) = false || false = false. With the given values: !true || false && !false = false || false && true = false || false = false. Choice A incorrectly evaluates the precedence or the boolean operations. Choice C and D make incorrect generalizations about the expression's behavior with different values."
@@ -2870,10 +2870,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output when num = 15?\n\nif (num > 10) {\n    if (num % 2 == 1)\n        System.out.print(\"Odd \");\n    if (num > 20)\n        System.out.print(\"Large \");\n    System.out.print(\"Done\");\n}",
     "choices": [
-      "A) Odd Done",
-      "B) Odd Large Done",
-      "C) Done",
-      "D) Large Done"
+      "Odd Done",
+      "Odd Large Done",
+      "Done",
+      "Large Done"
     ],
     "answer": 0,
     "explanation": "With num = 15: The outer condition (num > 10) is true. The first inner condition (num % 2 == 1) is true since 15 is odd, so \"Odd \" is printed. The second inner condition (num > 20) is false since 15 < 20, so \"Large \" is not printed. Finally, \"Done\" is printed. Choice B incorrectly assumes 15 > 20. Choice C misses that the conditions are met to print \"Odd \". Choice D incorrectly assumes \"Large \" should be printed."
@@ -2890,10 +2890,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What happens when grade = 'B' in this switch statement?\n\nswitch (grade) {\n    case 'A':\n    case 'B':\n        System.out.println(\"Good job\");\n        break;\n    case 'C':\n        System.out.println(\"Average\");\n    case 'D':\n        System.out.println(\"Below average\");\n        break;\n    default:\n        System.out.println(\"Invalid grade\");\n}",
     "choices": [
-      "A) Good job",
-      "B) Good job\nAverage",
-      "C) Average\nBelow average",
-      "D) Nothing is printed"
+      "Good job",
+      "Good job\nAverage",
+      "Average\nBelow average",
+      "Nothing is printed"
     ],
     "answer": 0,
     "explanation": "When grade = 'B', execution jumps to case 'B'. Since there's no code between case 'A': and case 'B':, it falls through and executes the code after case 'B':, printing \"Good job\". The break statement then ends execution. Choice B would occur if there was no break after \"Good job\". Choice C would happen if grade was 'C'. Choice D is incorrect because the condition is met."
@@ -2910,10 +2910,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "In the expression (a > 0) || (b++ > 5), when is the variable b incremented?",
     "choices": [
-      "A) Always, regardless of the value of a",
-      "B) Only when a > 0 is true",
-      "C) Only when a > 0 is false",
-      "D) Never, because b++ cannot be used in boolean expressions"
+      "Always, regardless of the value of a",
+      "Only when a > 0 is true",
+      "Only when a > 0 is false",
+      "Never, because b++ cannot be used in boolean expressions"
     ],
     "answer": 2,
     "explanation": "Due to short circuit evaluation with ||, if the first condition (a > 0) is true, the entire expression is true and the second condition (b++ > 5) is never evaluated, so b is not incremented. The increment only occurs when (a > 0) is false, forcing evaluation of the second condition. Choice A ignores short circuit evaluation. Choice B has the logic backwards. Choice D is incorrect because increment operators can be used in boolean expressions."
@@ -2930,10 +2930,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which boolean expression is NOT equivalent to !(x == 5 && y != 10)?",
     "choices": [
-      "A) x != 5 || y == 10",
-      "B) !(x == 5) || !(y != 10)",
-      "C) (x != 5) || (y == 10)",
-      "D) x != 5 && y == 10"
+      "x != 5 || y == 10",
+      "!(x == 5) || !(y != 10)",
+      "(x != 5) || (y == 10)",
+      "x != 5 && y == 10"
     ],
     "answer": 3,
     "explanation": "Using De Morgan's law: !(A && B) = !A || !B. So !(x == 5 && y != 10) = !(x == 5) || !(y != 10) = (x != 5) || (y == 10). Choices A, B, and C are all equivalent to this expression. Choice D incorrectly uses && instead of ||, making it much more restrictive - it requires both conditions to be true simultaneously, while the correct expression only requires one condition to be true."
@@ -2950,10 +2950,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\nint x = 5;\nint y = 10;\nif (x > 3)\n    if (y < 15)\n        System.out.print(\"A\");\n    else\n        System.out.print(\"B\");\nelse\n    System.out.print(\"C\");\nif (x < y)\n    System.out.print(\"D\");",
     "choices": [
-      "A) AD",
-      "B) BD",
-      "C) CD",
-      "D) A"
+      "AD",
+      "BD",
+      "CD",
+      "A"
     ],
     "answer": 0,
     "explanation": "The first if (x > 3) is true since 5 > 3. The nested if (y < 15) is true since 10 < 15, so \"A\" is printed. The else belongs to the inner if, not the outer if. Then x < y (5 < 10) is true, so \"D\" is printed. Output is \"AD\"."
@@ -2970,10 +2970,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Given int a = 7, b = 3, c = 0; which boolean expression evaluates to false?",
     "choices": [
-      "A) (a % b == 1) && (c != 0) || (a > b)",
-      "B) (a / b == 2) || (c == 0) && (a < b)",
-      "C) (a % b != 1) || (c == 0) && (a < b)",
-      "D) (a / b == 2) && (c == 0) || (a > b)"
+      "(a % b == 1) && (c != 0) || (a > b)",
+      "(a / b == 2) || (c == 0) && (a < b)",
+      "(a % b != 1) || (c == 0) && (a < b)",
+      "(a / b == 2) && (c == 0) || (a > b)"
     ],
     "answer": 2,
     "explanation": "For choice C: (7%3!=1) is false, (c==0) is true, (a<b) is false. Due to operator precedence, && binds tighter than ||, so this becomes false || (true && false) = false || false = false. Choice A: (true && false) || true = true. Choice B: true || (true && false) = true. Choice D: (true && true) || true = true."
@@ -2990,10 +2990,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which expression is equivalent to !(x > 5 && y <= 10 || z == 0)?",
     "choices": [
-      "A) x <= 5 || y > 10 && z != 0",
-      "B) (x <= 5 || y > 10) && z != 0",
-      "C) x <= 5 && y > 10 || z != 0",
-      "D) (x <= 5 && y > 10) || z != 0"
+      "x <= 5 || y > 10 && z != 0",
+      "(x <= 5 || y > 10) && z != 0",
+      "x <= 5 && y > 10 || z != 0",
+      "(x <= 5 && y > 10) || z != 0"
     ],
     "answer": 1,
     "explanation": "Using De Morgan's law on !(A || B) = !A && !B, where A = (x > 5 && y <= 10) and B = (z == 0). First: !A = !(x > 5 && y <= 10) = (x <= 5 || y > 10). Then !B = z != 0. So the result is (x <= 5 || y > 10) && z != 0."
@@ -3010,10 +3010,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the simplified form of !(!a || !b) && !(c && d)?",
     "choices": [
-      "A) (a && b) && (!c || !d)",
-      "B) (a || b) && (!c && !d)",
-      "C) (a && b) || (!c || !d)",
-      "D) (a || b) || (!c && !d)"
+      "(a && b) && (!c || !d)",
+      "(a || b) && (!c && !d)",
+      "(a && b) || (!c || !d)",
+      "(a || b) || (!c && !d)"
     ],
     "answer": 0,
     "explanation": "Apply De Morgan's law: !(!a || !b) = !(!a) && !(!b) = a && b. Then !(c && d) = !c || !d. The entire expression becomes (a && b) && (!c || !d). Students often confuse the operators when applying De Morgan's law multiple times."
@@ -3030,10 +3030,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is printed when grade = 'B'?\n\nswitch (grade) {\n    case 'A':\n        System.out.print(\"Excellent \");\n    case 'B':\n        System.out.print(\"Good \");\n    case 'C':\n        System.out.print(\"Average \");\n        break;\n    case 'D':\n        System.out.print(\"Below \");\n    default:\n        System.out.print(\"Invalid\");\n}",
     "choices": [
-      "A) Good",
-      "B) Good Average",
-      "C) Good Average Below Invalid",
-      "D) Average"
+      "Good",
+      "Good Average",
+      "Good Average Below Invalid",
+      "Average"
     ],
     "answer": 1,
     "explanation": "When grade = 'B', execution starts at case 'B' and prints \"Good \". Since there's no break statement after case 'B', it falls through to case 'C' and prints \"Average \". The break statement after case 'C' stops execution. The output is \"Good Average\"."
@@ -3050,10 +3050,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Given the code below, what happens when x = 0?\n\nif (x != 0 && 10/x > 2) {\n    System.out.println(\"True\");\n} else {\n    System.out.println(\"False\");\n}",
     "choices": [
-      "A) Prints \"True\"",
-      "B) Prints \"False\"",
-      "C) Runtime error occurs",
-      "D) Compilation error occurs"
+      "Prints \"True\"",
+      "Prints \"False\"",
+      "Runtime error occurs",
+      "Compilation error occurs"
     ],
     "answer": 1,
     "explanation": "Short circuit evaluation means that when the first operand of && is false, the second operand is not evaluated. Since x = 0, the expression (x != 0) is false, so (10/x > 2) is never evaluated, avoiding division by zero. The program prints \"False\"."
@@ -3070,10 +3070,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which if-else structure is equivalent to the following nested if?\n\nif (score >= 90)\n    grade = 'A';\nelse\n    if (score >= 80)\n        grade = 'B';\n    else\n        if (score >= 70)\n            grade = 'C';\n        else\n            grade = 'F';",
     "choices": [
-      "A) if (score >= 90) grade = 'A'; if (score >= 80) grade = 'B'; if (score >= 70) grade = 'C'; else grade = 'F';",
-      "B) if (score >= 90) grade = 'A'; else if (score >= 80) grade = 'B'; else if (score >= 70) grade = 'C'; else grade = 'F';",
-      "C) if (score >= 90) grade = 'A'; if (score >= 80 && score < 90) grade = 'B'; if (score >= 70 && score < 80) grade = 'C'; else grade = 'F';",
-      "D) if (score >= 70) grade = 'C'; else if (score >= 80) grade = 'B'; else if (score >= 90) grade = 'A'; else grade = 'F';"
+      "if (score >= 90) grade = 'A'; if (score >= 80) grade = 'B'; if (score >= 70) grade = 'C'; else grade = 'F';",
+      "if (score >= 90) grade = 'A'; else if (score >= 80) grade = 'B'; else if (score >= 70) grade = 'C'; else grade = 'F';",
+      "if (score >= 90) grade = 'A'; if (score >= 80 && score < 90) grade = 'B'; if (score >= 70 && score < 80) grade = 'C'; else grade = 'F';",
+      "if (score >= 70) grade = 'C'; else if (score >= 80) grade = 'B'; else if (score >= 90) grade = 'A'; else grade = 'F';"
     ],
     "answer": 1,
     "explanation": "The original nested structure creates a chain where only one condition can be executed. Option B uses else-if chain which mirrors this behavior exactly. Option A would execute multiple conditions, Option C is redundant with extra conditions, and Option D has wrong order of conditions."
@@ -3090,10 +3090,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of the expression (5 > 3) == (7 < 9) && !(2 == 2)?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) Compilation error",
-      "D) Runtime error"
+      "true",
+      "false",
+      "Compilation error",
+      "Runtime error"
     ],
     "answer": 1,
     "explanation": "Breaking down: (5 > 3) is true, (7 < 9) is true, so (5 > 3) == (7 < 9) becomes true == true which is true. !(2 == 2) becomes !true which is false. Finally: true && false equals false."
@@ -3110,10 +3110,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Given boolean a = true, b = false, c = true; what is the value of !a || b && c || !b?",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) Depends on operator precedence",
-      "D) Compilation error"
+      "true",
+      "false",
+      "Depends on operator precedence",
+      "Compilation error"
     ],
     "answer": 0,
     "explanation": "With operator precedence, ! has highest precedence, then &&, then ||. Expression becomes: (!a) || (b && c) || (!b) = false || (false && true) || true = false || false || true = true. The expression is true regardless of the middle term due to !b being true."
@@ -3130,10 +3130,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which expression is NOT equivalent to !(x < 5 || y >= 10)?",
     "choices": [
-      "A) x >= 5 && y < 10",
-      "B) !(x < 5) && !(y >= 10)",
-      "C) (x >= 5) && (y < 10)",
-      "D) x >= 5 || y < 10"
+      "x >= 5 && y < 10",
+      "!(x < 5) && !(y >= 10)",
+      "(x >= 5) && (y < 10)",
+      "x >= 5 || y < 10"
     ],
     "answer": 3,
     "explanation": "Applying De Morgan's law to !(x < 5 || y >= 10): the negation of OR becomes AND of negations, so !(x < 5) && !(y >= 10), which simplifies to (x >= 5) && (y < 10). Options A, B, and C are all equivalent. Option D incorrectly uses OR instead of AND."
@@ -3150,10 +3150,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output when num = 15?\n\nif (num > 10)\n    if (num % 2 == 0)\n        System.out.print(\"Even\");\nelse\n    System.out.print(\"Small\");\nif (num > 5)\n    System.out.print(\"Big\");",
     "choices": [
-      "A) EvenBig",
-      "B) Big",
-      "C) SmallBig",
-      "D) Even"
+      "EvenBig",
+      "Big",
+      "SmallBig",
+      "Even"
     ],
     "answer": 2,
     "explanation": "In Java, an else clause always binds to the nearest preceding unmatched if — this is the dangling-else rule. Here, the else belongs to the inner if (num % 2 == 0), not the outer if (num > 10). With num = 15: (num > 10) is true, so the inner if is evaluated. (15 % 2 == 0) is false, so the inner if's else executes and prints \"Small\". Then the separate if (num > 5) is true, printing \"Big\". Output is \"SmallBig\". Choice B (\"Big\") is wrong because it incorrectly assigns the else to the outer if; it would only be right if else bound to the outer if, which it does not."
@@ -3170,10 +3170,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What happens when day = 6?\n\nswitch (day) {\n    case 1: case 2: case 3: case 4: case 5:\n        System.out.print(\"Weekday\");\n        break;\n    case 6: case 7:\n        System.out.print(\"Weekend\");\n        break;\n    default:\n        System.out.print(\"Invalid\");\n}",
     "choices": [
-      "A) Weekday",
-      "B) Weekend",
-      "C) Invalid",
-      "D) WeekendInvalid"
+      "Weekday",
+      "Weekend",
+      "Invalid",
+      "WeekendInvalid"
     ],
     "answer": 1,
     "explanation": "When day = 6, execution jumps to case 6. Since case 6 and case 7 are grouped together without break statements between them, it prints \"Weekend\" and then encounters the break statement, which ends the switch. The output is \"Weekend\"."
@@ -3190,10 +3190,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of result after this code executes?\n\nboolean result;\nint x = 5, y = 0;\nresult = (x < 10) || (++y > 0) && (x / y == 5);",
     "choices": [
-      "A) true, and y = 0",
-      "B) true, and y = 1",
-      "C) false, and y = 0",
-      "D) Runtime error due to division by zero"
+      "true, and y = 0",
+      "true, and y = 1",
+      "false, and y = 0",
+      "Runtime error due to division by zero"
     ],
     "answer": 0,
     "explanation": "Due to short circuit evaluation with ||, since (x < 10) is true, the entire expression is true without evaluating the right side. The expressions (++y > 0) and (x / y == 5) are never executed, so y remains 0 and no division by zero occurs. Result is true and y = 0."
@@ -3210,10 +3210,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many times is \"Hello\" printed?\n\nint i = 0;\nif (i < 3)\n    if (i == 0)\n        System.out.println(\"Hello\");\nelse\n    System.out.println(\"Hello\");\nif (i >= 0)\n    System.out.println(\"Hello\");",
     "choices": [
-      "A) 0",
-      "B) 1",
-      "C) 2",
-      "D) 3"
+      "0",
+      "1",
+      "2",
+      "3"
     ],
     "answer": 2,
     "explanation": "In Java, an else always binds to the nearest preceding unmatched if — the dangling-else rule. Here the else belongs to the inner if (i == 0), not the outer if (i < 3). With i = 0: (i < 3) is true, so the inner if is evaluated. (i == 0) is true, so \"Hello\" prints and the inner else is skipped. Then the separate if (i >= 0) is true, printing \"Hello\" again. Total: 2 times."
@@ -3230,10 +3230,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the result of this expression when x = 3, y = 7, z = 1?\n(x > y || x < z) && (y > z && x != z) || (z == 1)",
     "choices": [
-      "A) true",
-      "B) false",
-      "C) Cannot be determined",
-      "D) Compilation error"
+      "true",
+      "false",
+      "Cannot be determined",
+      "Compilation error"
     ],
     "answer": 0,
     "explanation": "Breaking down with x=3, y=7, z=1: (x > y || x < z) = (false || false) = false. (y > z && x != z) = (true && true) = true. So the first part becomes false && true = false. The final part (z == 1) = true. Overall: false || true = true."
@@ -3250,10 +3250,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which expression is equivalent to !(!(a && b) || !(c || d))?",
     "choices": [
-      "A) (a && b) && (c || d)",
-      "B) (a || b) && (c && d)",
-      "C) !(a && b) && !(c || d)",
-      "D) (a && b) || (c || d)"
+      "(a && b) && (c || d)",
+      "(a || b) && (c && d)",
+      "!(a && b) && !(c || d)",
+      "(a && b) || (c || d)"
     ],
     "answer": 0,
     "explanation": "Apply De Morgan's law to the outer negation: !(X || Y) becomes !X && !Y, where X = !(a && b) and Y = !(c || d). This gives !!(a && b) && !!(c || d). The double negations cancel out, yielding (a && b) && (c || d), which is choice A. To verify with a test case: let a=true, b=true, c=true, d=false. Original: !(!(true && true) || !(true || false)) = !(false || false) = !false = true. Choice A: (true && true) && (true || false) = true && true = true. Choice B: (true || true) && (true && false) = true && false = false. Choice C: !(true && true) && !(true || false) = false && false = false. Choice D: (true && true) || (true || false) = true || true = true - but D is not equivalent in all cases (e.g., a=false, b=false, c=true, d=true: original = !(true || false) = false, D = false || true = true). Only choice A matches the original expression in all cases."
@@ -3270,10 +3270,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output when score = 85?\n\nif (score >= 90) {\n    System.out.print(\"A\");\n} else {\n    if (score >= 80) {\n        System.out.print(\"B\");\n        if (score >= 85)\n            System.out.print(\"+\");\n    } else {\n        System.out.print(\"C\");\n    }\n}",
     "choices": [
-      "A) A",
-      "B) B",
-      "C) B+",
-      "D) C"
+      "A",
+      "B",
+      "B+",
+      "C"
     ],
     "answer": 2,
     "explanation": "With score = 85: (score >= 90) is false, so we go to the else branch. (score >= 80) is true, so \"B\" is printed. Then (score >= 85) is true (85 >= 85), so \"+\" is printed. The output is \"B+\"."
@@ -3290,10 +3290,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is printed when value = 2?\n\nswitch (value) {\n    default:\n        System.out.print(\"Default \");\n        break;\n    case 1:\n        System.out.print(\"One \");\n    case 2:\n        System.out.print(\"Two \");\n    case 3:\n        System.out.print(\"Three \");\n        break;\n}",
     "choices": [
-      "A) Default",
-      "B) Two Three",
-      "C) One Two Three",
-      "D) Default Two Three"
+      "Default",
+      "Two Three",
+      "One Two Three",
+      "Default Two Three"
     ],
     "answer": 1,
     "explanation": "When value = 2, execution jumps directly to case 2, printing \"Two \". Since there's no break after case 2, it falls through to case 3, printing \"Three \". The break after case 3 stops execution. The default case is not executed because there was a matching case. Output is \"Two Three\"."
@@ -3310,10 +3310,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Consider the following code segment:\n\njava\nint x = 5;\nint y = 0;\nboolean result = (y != 0) && (x / y > 2) || (x++ > 4);\nSystem.out.println(x + \" \" + result);\n\n\nWhat is printed when this code executes?",
     "choices": [
-      "A) 6 true",
-      "B) 5 false",
-      "C) 6 false",
-      "D) Runtime error due to division by zero"
+      "6 true",
+      "5 false",
+      "6 false",
+      "Runtime error due to division by zero"
     ],
     "answer": 0,
     "explanation": "Due to short circuit evaluation, (y != 0) is false, so (x / y > 2) is never evaluated, avoiding division by zero. Since the first part of the AND is false, the entire AND expression is false. However, due to the OR operator, (x++ > 4) is still evaluated. Since x is 5, x++ > 4 evaluates to true (5 > 4), and x is incremented to 6. The overall result is true. Choice B incorrectly assumes x doesn't increment. Choice C incorrectly assumes the result is false. Choice D incorrectly assumes division by zero occurs despite short circuit evaluation."
@@ -3330,11 +3330,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "To store only primitive data",
-      "To serve as a blueprint for creating objects with shared state and behavior",
+      "To automatically manage memory allocation",
       "To replace all procedural code",
-      "To automatically manage memory allocation"
+      "To serve as a blueprint for creating objects with shared state and behavior"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A class serves as a blueprint or template that defines the state (fields) and behavior (methods) for objects. Each object is an instance of a class."
   },
   {
@@ -3349,11 +3349,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "Design makes code run faster",
-      "Good design reduces errors, improves readability, and makes maintenance easier",
+      "Design automatically generates documentation",
       "Design is required by the Java compiler",
-      "Design automatically generates documentation"
+      "Good design reduces errors, improves readability, and makes maintenance easier"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Planning a program's structure upfront reduces bugs, improves maintainability, makes collaboration easier, and often results in cleaner, more efficient code."
   },
   {
@@ -3368,11 +3368,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "Using only one class for an entire program",
-      "Dividing a program into separate, independent components that can be developed and tested separately",
+      "Avoiding the use of methods",
       "Writing all code in the main method",
-      "Avoiding the use of methods"
+      "Dividing a program into separate, independent components that can be developed and tested separately"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Modularity means breaking a program into separate, self-contained units (methods, classes, packages). Each module handles a specific responsibility and can be tested independently."
   },
   {
@@ -3387,11 +3387,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "public int age;",
-      "private int age;",
+      "private age int;",
       "int private age;",
-      "private age int;"
+      "private int age;"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "In Java, field declarations follow the format: accessModifier type fieldName; so 'private int age;' is correct."
   },
   {
@@ -3406,11 +3406,11 @@ window.APCSA_MCQ = [
     "code": "public class Dog {\n    private String name;\n    private int age;\n    \n    public Dog(String n, int a) {\n        name = n;\n        age = a;\n    }\n    \n    public String toString() {\n        return name + \" (\" + age + \")\";\n    }\n}\n// In main:\nDog d = new Dog(\"Rex\", 3);\nSystem.out.println(d);",
     "choices": [
       "Dog@hashcode",
-      "Rex (3)",
+      "Compilation error",
       "name (age)",
-      "Compilation error"
+      "Rex (3)"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "When println() is called with an object, it calls the object's toString() method. The overridden toString() returns name + \" (\" + age + \")\" = \"Rex (3)\"."
   },
   {
@@ -3444,11 +3444,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "Constructors must return an int",
-      "Constructors have the same name as the class and have no return type",
+      "Constructors must always take parameters",
       "Constructors are called automatically when an object is destroyed",
-      "Constructors must always take parameters"
+      "Constructors have the same name as the class and have no return type"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A constructor has the same name as the class and has NO return type (not even void). It is called when an object is created with the new keyword."
   },
   {
@@ -3500,12 +3500,12 @@ window.APCSA_MCQ = [
     "isCode": false,
     "code": "",
     "choices": [
-      "public void getScore() { return score; }",
       "public int getScore() { return score; }",
+      "public void getScore() { return score; }",
       "private int getScore() { return score; }",
       "public int score() { score; }"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "An accessor method is public (so it's accessible from outside), returns the field's type (int), is named following the getFieldName convention, and returns the field value."
   },
   {
@@ -3519,12 +3519,12 @@ window.APCSA_MCQ = [
     "isCode": false,
     "code": "",
     "choices": [
-      "A method that reads and returns a private field's value",
       "A method that modifies a private field's value",
+      "A method that reads and returns a private field's value",
       "A method that creates new objects",
       "A method that overrides a superclass method"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A mutator (setter) method modifies the value of a private field. It typically takes a parameter and assigns it to the field. This allows controlled modification of private data."
   },
   {
@@ -3557,12 +3557,12 @@ window.APCSA_MCQ = [
     "isCode": false,
     "code": "",
     "choices": [
-      "A copy of the entire object is made",
       "The reference (address) is passed by value — changes to fields affect the original",
+      "A copy of the entire object is made",
       "The original object cannot be modified",
       "Java automatically makes the parameter final"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Java passes object references by value. The method gets a copy of the reference, which points to the same object. Changes to the object's fields through the reference affect the original object."
   },
   {
@@ -3824,13 +3824,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What will be printed by the following code?\n\nint x = 3;\nwhile (x > 0) {\n    System.out.print(x + \" \");\n    x--;\n}",
     "choices": [
-      "A) 3 2 1",
-      "B) 3 2 1 0",
-      "C) 2 1 0",
-      "D) The loop will run infinitely"
+      "The loop will run infinitely",
+      "3 2 1 0",
+      "2 1 0",
+      "3 2 1"
     ],
-    "answer": 0,
-    "explanation": "The loop starts with x = 3 and continues while x > 0. It prints 3, then decrements to 2, prints 2, decrements to 1, prints 1, then decrements to 0. Since 0 is not greater than 0, the loop stops. Choice B includes 0 which is incorrect since the loop stops when x becomes 0. Choice C misses the initial value 3. Choice D is wrong because x decrements and will eventually reach 0."
+    "answer": 3,
+    "explanation": "The loop starts with x = 3 and continues while x > 0. It prints 3, then decrements to 2, prints 2, decrements to 1, prints 1, then decrements to 0. Since 0 is not greater than 0, the loop stops. Choice B includes 0 which is incorrect since the loop stops when x becomes 0. Choice C misses the initial value 3. Choice A is wrong because x decrements and will eventually reach 0."
   },
   {
     "id": "csa_u4_q095",
@@ -3844,13 +3844,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many times will the following for loop execute?\n\nfor (int i = 0; i < 5; i++) {\n    System.out.println(i);\n}",
     "choices": [
-      "A) 4 times",
-      "B) 5 times",
-      "C) 6 times",
-      "D) 0 times"
+      "4 times",
+      "6 times",
+      "5 times",
+      "0 times"
     ],
-    "answer": 1,
-    "explanation": "The loop starts with i = 0 and continues while i < 5, incrementing i each time. It executes for i = 0, 1, 2, 3, 4, which is 5 times total. Choice A is a common mistake thinking it stops before 5 iterations. Choice C incorrectly includes i = 5. Choice D would only be correct if the initial condition was false."
+    "answer": 2,
+    "explanation": "The loop starts with i = 0 and continues while i < 5, incrementing i each time. It executes for i = 0, 1, 2, 3, 4, which is 5 times total. Choice A is a common mistake thinking it stops before 5 iterations. Choice B incorrectly includes i = 5. Choice D would only be correct if the initial condition was false."
   },
   {
     "id": "csa_u4_q096",
@@ -3864,13 +3864,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many asterisks (*) will be printed by this nested loop?\n\nfor (int i = 0; i < 2; i++) {\n    for (int j = 0; j < 3; j++) {\n        System.out.print(\"*\");\n    }\n}",
     "choices": [
-      "A) 5",
-      "B) 6",
-      "C) 2",
-      "D) 3"
+      "5",
+      "2",
+      "6",
+      "3"
     ],
-    "answer": 1,
-    "explanation": "The outer loop runs 2 times (i = 0, 1) and for each iteration of the outer loop, the inner loop runs 3 times (j = 0, 1, 2). Total asterisks = 2 × 3 = 6. Choice A incorrectly adds 2 + 3. Choice C only counts the outer loop iterations. Choice D only counts the inner loop iterations."
+    "answer": 2,
+    "explanation": "The outer loop runs 2 times (i = 0, 1) and for each iteration of the outer loop, the inner loop runs 3 times (j = 0, 1, 2). Total asterisks = 2 × 3 = 6. Choice A incorrectly adds 2 + 3. Choice B only counts the outer loop iterations. Choice D only counts the inner loop iterations."
   },
   {
     "id": "csa_u4_q097",
@@ -3884,13 +3884,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of sum after this code executes?\n\nint sum = 0;\nfor (int i = 1; i <= 3; i++) {\n    sum += i;\n}",
     "choices": [
-      "A) 3",
-      "B) 6",
-      "C) 7",
-      "D) 9"
+      "3",
+      "7",
+      "6",
+      "9"
     ],
-    "answer": 1,
-    "explanation": "Tracing through the loop: initially sum = 0. When i = 1: sum = 0 + 1 = 1. When i = 2: sum = 1 + 2 = 3. When i = 3: sum = 3 + 3 = 6. Choice A only considers the final value of i. Choice C incorrectly adds an extra 1. Choice D would be 1² + 2² + 3² which is not what this code does."
+    "answer": 2,
+    "explanation": "Tracing through the loop: initially sum = 0. When i = 1: sum = 0 + 1 = 1. When i = 2: sum = 1 + 2 = 3. When i = 3: sum = 3 + 3 = 6. Choice A only considers the final value of i. Choice B incorrectly adds an extra 1. Choice D would be 1² + 2² + 3² which is not what this code does."
   },
   {
     "id": "csa_u4_q098",
@@ -3904,10 +3904,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What does this code print?\n\nString word = \"cat\";\nfor (int i = 0; i < word.length(); i++) {\n    System.out.print(word.charAt(i) + \" \");\n}",
     "choices": [
-      "A) c a t",
-      "B) cat",
-      "C) c a t ",
-      "D) 0 1 2"
+      "c a t",
+      "cat",
+      "c a t ",
+      "0 1 2"
     ],
     "answer": 2,
     "explanation": "The loop iterates through each character in \"cat\" and prints each character followed by a space. This produces 'c ', 'a ', 't ' with spaces after each character including the last one. Choice A omits the final space. Choice B would be the result without spaces. Choice D would print the indices instead of characters."
@@ -3924,12 +3924,12 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many times will \"Hello\" be printed?\n\nint count = 0;\ndo {\n    System.out.println(\"Hello\");\n    count++;\n} while (count < 0);",
     "choices": [
-      "A) 0 times",
-      "B) 1 time",
-      "C) 2 times",
-      "D) Infinite times"
+      "0 times",
+      "2 times",
+      "1 time",
+      "Infinite times"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "A do-while loop always executes at least once because the condition is checked after the loop body runs. Even though count < 0 is false from the start (count = 0), the loop body executes once before the condition is evaluated. Choice A would be correct for a regular while loop but not do-while. Choices C and D are incorrect because the condition becomes false after the first iteration."
   },
   {
@@ -3944,10 +3944,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is printed by this code?\n\nint[] numbers = {10, 20, 30};\nfor (int i = 0; i < numbers.length; i++) {\n    System.out.print(numbers[i] + \" \");\n}",
     "choices": [
-      "A) 0 1 2",
-      "B) 10 20 30",
-      "C) 10 20 30 ",
-      "D) 1 2 3"
+      "0 1 2",
+      "10 20 30",
+      "10 20 30 ",
+      "1 2 3"
     ],
     "answer": 2,
     "explanation": "The loop accesses each element in the array and prints it followed by a space. This outputs '10 ', '20 ', '30 ' including the space after the last element. Choice A prints the indices instead of values. Choice B omits the final space that gets printed. Choice D prints incorrect values."
@@ -3964,13 +3964,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which of the following is the correct syntax for an enhanced for loop to traverse an array called 'data'?",
     "choices": [
-      "A) for (int element : data)",
-      "B) for (int element in data)",
-      "C) for (element : data)",
-      "D) for (int : element data)"
+      "for (int : element data)",
+      "for (int element in data)",
+      "for (element : data)",
+      "for (int element : data)"
     ],
-    "answer": 0,
-    "explanation": "The correct answer is A. The enhanced for loop syntax in Java uses a colon (:) and requires specifying the data type of the loop variable. The correct format is 'for (datatype variable : collection)'. Choice B uses 'in' which is incorrect syntax in Java. Choice C omits the required data type. Choice D has incorrect ordering of the syntax elements."
+    "answer": 3,
+    "explanation": "The correct answer is A. The enhanced for loop syntax in Java uses a colon (:) and requires specifying the data type of the loop variable. The correct format is 'for (datatype variable : collection)'. Choice B uses 'in' which is incorrect syntax in Java. Choice C omits the required data type. Choice A has incorrect ordering of the syntax elements."
   },
   {
     "id": "csa_u4_q102",
@@ -3984,10 +3984,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What method is used to get the number of elements in an ArrayList named 'list' for loop iteration?",
     "choices": [
-      "A) list.length",
-      "B) list.size()",
-      "C) list.count()",
-      "D) list.length()"
+      "list.length",
+      "list.size()",
+      "list.count()",
+      "list.length()"
     ],
     "answer": 1,
     "explanation": "ArrayList uses the size() method to return the number of elements. This is different from arrays which use the length property. Choice A is the syntax for arrays, not ArrayLists. Choice C uses a method that doesn't exist in ArrayList. Choice D incorrectly treats length as a method when it's a property for arrays."
@@ -4004,10 +4004,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What values of i will be printed by this loop?\n\nfor (int i = 2; i <= 4; i++) {\n    System.out.println(i);\n}",
     "choices": [
-      "A) 2, 3",
-      "B) 2, 3, 4",
-      "C) 1, 2, 3, 4",
-      "D) 2, 3, 4, 5"
+      "2, 3",
+      "2, 3, 4",
+      "1, 2, 3, 4",
+      "2, 3, 4, 5"
     ],
     "answer": 1,
     "explanation": "The loop starts with i = 2 and continues while i <= 4, incrementing i each time. It prints 2, then 3, then 4. When i becomes 5, the condition i <= 4 is false, so the loop stops. Choice A stops too early. Choice C includes 1 which is never assigned to i. Choice D includes 5 which would require the loop to execute when i = 5, but it stops before then."
@@ -4024,10 +4024,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What happens with this while loop?\n\nint x = 5;\nwhile (x > 10) {\n    System.out.println(x);\n    x++;\n}",
     "choices": [
-      "A) Prints 5 and stops",
-      "B) Runs infinitely",
-      "C) Prints nothing",
-      "D) Prints 5, 6, 7, 8, 9, 10"
+      "Prints 5 and stops",
+      "Runs infinitely",
+      "Prints nothing",
+      "Prints 5, 6, 7, 8, 9, 10"
     ],
     "answer": 2,
     "explanation": "The condition x > 10 is checked before the loop body executes. Since x starts at 5, which is not greater than 10, the condition is false from the beginning and the loop body never executes. Choice A would be correct if the condition were true initially. Choice B would occur if x decremented instead of incremented. Choice D misunderstands that the loop never starts."
@@ -4044,13 +4044,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What pattern will this nested loop create?\n\nfor (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 2; j++) {\n        System.out.print(\"X\");\n    }\n    System.out.println();\n}",
     "choices": [
-      "A) XX\\nXX\\nXX",
-      "B) XXX\\nXXX",
-      "C) XXXXXX",
-      "D) X\\nX\\nX\\nX\\nX\\nX"
+      "X\\nX\\nX\\nX\\nX\\nX",
+      "XXX\\nXXX",
+      "XXXXXX",
+      "XX\\nXX\\nXX"
     ],
-    "answer": 0,
-    "explanation": "The outer loop runs 3 times, and for each iteration, the inner loop prints 2 X's, followed by a newline from println(). This creates three rows of XX. Choice B shows only 2 rows with 3 X's each. Choice C puts all X's on one line. Choice D puts each X on a separate line."
+    "answer": 3,
+    "explanation": "The outer loop runs 3 times, and for each iteration, the inner loop prints 2 X's, followed by a newline from println(). This creates three rows of XX. Choice B shows only 2 rows with 3 X's each. Choice C puts all X's on one line. Choice A puts each X on a separate line."
   },
   {
     "id": "csa_u4_q106",
@@ -4064,10 +4064,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What does this string traversal code accomplish?\n\nString str = \"hello\";\nfor (int i = str.length() - 1; i >= 0; i--) {\n    System.out.print(str.charAt(i));\n}",
     "choices": [
-      "A) Prints \"hello\"",
-      "B) Prints \"olleh\"",
-      "C) Prints the length of the string",
-      "D) Prints each character on a separate line"
+      "Prints \"hello\"",
+      "Prints \"olleh\"",
+      "Prints the length of the string",
+      "Prints each character on a separate line"
     ],
     "answer": 1,
     "explanation": "This loop starts at the last index (str.length() - 1 = 4) and works backwards to index 0, printing each character. For \"hello\", it prints characters at indices 4, 3, 2, 1, 0, which gives \"olleh\". Choice A would result from traversing forward. Choice C would require printing i or str.length(). Choice D would need println() instead of print()."
@@ -4084,13 +4084,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\nint x = 5;\nwhile (x > 0) {\n    System.out.print(x + \" \");\n    x -= 2;\n}",
     "choices": [
-      "A) 5 3 1",
-      "B) 5 3 1 -1",
-      "C) 5 4 3 2 1",
-      "D) Infinite loop"
+      "Infinite loop",
+      "5 3 1 -1",
+      "5 4 3 2 1",
+      "5 3 1"
     ],
-    "answer": 0,
-    "explanation": "The loop starts with x = 5 and decrements by 2 each iteration. It prints 5 (x becomes 3), then 3 (x becomes 1), then 1 (x becomes -1). Since -1 is not > 0, the loop terminates. Choice B incorrectly includes -1, choice C shows decrementing by 1 instead of 2, and choice D misunderstands that the loop does terminate."
+    "answer": 3,
+    "explanation": "The loop starts with x = 5 and decrements by 2 each iteration. It prints 5 (x becomes 3), then 3 (x becomes 1), then 1 (x becomes -1). Since -1 is not > 0, the loop terminates. Choice B incorrectly includes -1, choice C shows decrementing by 1 instead of 2, and choice A misunderstands that the loop does terminate."
   },
   {
     "id": "csa_u4_q108",
@@ -4104,13 +4104,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which for loop correctly prints the numbers 10, 8, 6, 4, 2?",
     "choices": [
-      "A) for (int i = 10; i >= 2; i -= 2)",
-      "B) for (int i = 10; i > 0; i -= 2)",
-      "C) for (int i = 10; i > 2; i -= 2)",
-      "D) for (int i = 10; i <= 2; i -= 2)"
+      "for (int i = 10; i <= 2; i -= 2)",
+      "for (int i = 10; i > 0; i -= 2)",
+      "for (int i = 10; i > 2; i -= 2)",
+      "for (int i = 10; i >= 2; i -= 2)"
     ],
-    "answer": 0,
-    "explanation": "To print 10, 8, 6, 4, 2, we need to start at 10 and decrement by 2 until we reach 2 (inclusive). Choice A uses i >= 2 which includes 2 as the last value. Choice B (i > 0) would include 0, choice C (i > 2) would stop at 4, and choice D (i <= 2) creates an infinite loop since i starts at 10 and decreases."
+    "answer": 3,
+    "explanation": "To print 10, 8, 6, 4, 2, we need to start at 10 and decrement by 2 until we reach 2 (inclusive). Choice D uses i >= 2 which includes 2 as the last value. Choice B (i > 0) would include 0, choice C (i > 2) would stop at 4, and choice A (i <= 2) creates an infinite loop since i starts at 10 and decreases."
   },
   {
     "id": "csa_u4_q109",
@@ -4124,13 +4124,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following nested loop?\n\nfor (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(\"*\");\n    }\n    System.out.println();\n}",
     "choices": [
-      "A) *\n**\n***",
-      "B) ***\n**\n*",
-      "C) * * *\n* *\n*",
-      "D) *\n* *\n* * *"
+      "*\n* *\n* * *",
+      "***\n**\n*",
+      "* * *\n* *\n*",
+      "*\n**\n***"
     ],
-    "answer": 0,
-    "explanation": "The outer loop runs 3 times (i = 1, 2, 3). For each i, the inner loop runs i times printing '*'. When i=1: prints 1 star, when i=2: prints 2 stars, when i=3: prints 3 stars, each on a new line due to println(). Choice B shows reverse pattern, choice C adds spaces, and choice D incorrectly spaces the stars."
+    "answer": 3,
+    "explanation": "The outer loop runs 3 times (i = 1, 2, 3). For each i, the inner loop runs i times printing '*'. When i=1: prints 1 star, when i=2: prints 2 stars, when i=3: prints 3 stars, each on a new line due to println(). Choice B shows reverse pattern, choice C adds spaces, and choice A incorrectly spaces the stars."
   },
   {
     "id": "csa_u4_q110",
@@ -4144,13 +4144,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "After executing this code, what is the value of sum?\n\nint sum = 0;\nfor (int i = 2; i < 8; i += 2) {\n    sum += i;\n}",
     "choices": [
-      "A) 12",
-      "B) 20",
-      "C) 16",
-      "D) 18"
+      "18",
+      "20",
+      "16",
+      "12"
     ],
-    "answer": 0,
-    "explanation": "Tracing through the loop: i starts at 2 and increments by 2 while i < 8. i=2: sum = 0+2 = 2; i=4: sum = 2+4 = 6; i=6: sum = 6+6 = 12; i=8: condition fails, loop ends. Final sum is 12. Choice B (20) adds all even numbers 2+4+6+8, choice C (16) might add 2+6+8, and choice D (18) represents a miscalculation."
+    "answer": 3,
+    "explanation": "Tracing through the loop: i starts at 2 and increments by 2 while i < 8. i=2: sum = 0+2 = 2; i=4: sum = 2+4 = 6; i=6: sum = 6+6 = 12; i=8: condition fails, loop ends. Final sum is 12. Choice B (20) adds all even numbers 2+4+6+8, choice C (16) might add 2+6+8, and choice A (18) represents a miscalculation."
   },
   {
     "id": "csa_u4_q111",
@@ -4164,13 +4164,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What does this code print?\n\nString word = \"hello\";\nfor (int i = word.length() - 1; i >= 0; i--) {\n    System.out.print(word.charAt(i));\n}",
     "choices": [
-      "A) olleh",
-      "B) hello",
-      "C) helo",
-      "D) IndexOutOfBoundsException"
+      "IndexOutOfBoundsException",
+      "hello",
+      "helo",
+      "olleh"
     ],
-    "answer": 0,
-    "explanation": "This code traverses the string backwards. word.length() is 5, so i starts at 4 and goes down to 0. It prints: word.charAt(4)='o', charAt(3)='l', charAt(2)='l', charAt(1)='e', charAt(0)='h', resulting in 'olleh'. Choice B would be forward traversal, choice C suggests skipping characters, and choice D incorrectly assumes an index error."
+    "answer": 3,
+    "explanation": "This code traverses the string backwards. word.length() is 5, so i starts at 4 and goes down to 0. It prints: word.charAt(4)='o', charAt(3)='l', charAt(2)='l', charAt(1)='e', charAt(0)='h', resulting in 'olleh'. Choice B would be forward traversal, choice C suggests skipping characters, and choice A incorrectly assumes an index error."
   },
   {
     "id": "csa_u4_q112",
@@ -4184,13 +4184,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many times will \"Hello\" be printed?\n\nint count = 5;\ndo {\n    System.out.println(\"Hello\");\n    count++;\n} while (count < 5);",
     "choices": [
-      "A) 1",
-      "B) 0",
-      "C) 5",
-      "D) Infinite loop"
+      "Infinite loop",
+      "0",
+      "5",
+      "1"
     ],
-    "answer": 0,
-    "explanation": "A do-while loop executes at least once before checking the condition. The code prints 'Hello' once (count becomes 6), then checks if 6 < 5, which is false, so it exits. Choice B forgets do-while executes at least once, choice C assumes the loop continues, and choice D misunderstands that count increases making the condition false."
+    "answer": 3,
+    "explanation": "A do-while loop executes at least once before checking the condition. The code prints 'Hello' once (count becomes 6), then checks if 6 < 5, which is false, so it exits. Choice B forgets do-while executes at least once, choice C assumes the loop continues, and choice A misunderstands that count increases making the condition false."
   },
   {
     "id": "csa_u4_q113",
@@ -4204,13 +4204,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of result after this code executes?\n\nint[] arr = {3, 7, 2, 9, 1};\nint result = arr[0];\nfor (int i = 1; i < arr.length; i++) {\n    if (arr[i] > result) {\n        result = arr[i];\n    }\n}",
     "choices": [
-      "A) 9",
-      "B) 3",
-      "C) 22",
-      "D) 1"
+      "1",
+      "3",
+      "22",
+      "9"
     ],
-    "answer": 0,
-    "explanation": "This code finds the maximum value in the array. result starts at arr[0]=3. The loop compares each element: 7>3 (result=7), 2<7 (no change), 9>7 (result=9), 1<9 (no change). Final result is 9. Choice B is the initial value, choice C is the sum of all elements, and choice D is the minimum value."
+    "answer": 3,
+    "explanation": "This code finds the maximum value in the array. result starts at arr[0]=3. The loop compares each element: 7>3 (result=7), 2<7 (no change), 9>7 (result=9), 1<9 (no change). Final result is 9. Choice B is the initial value, choice C is the sum of all elements, and choice A is the minimum value."
   },
   {
     "id": "csa_u4_q114",
@@ -4224,13 +4224,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "In this loop that calculates factorial, what is the loop invariant?\n\nint factorial = 1;\nfor (int i = 1; i <= n; i++) {\n    factorial *= i;\n}",
     "choices": [
-      "A) factorial equals the product of integers from 1 to (i-1)",
-      "B) factorial equals the product of integers from 1 to i",
-      "C) factorial equals the product of integers from 1 to n",
-      "D) i is always less than or equal to n"
+      "i is always less than or equal to n",
+      "factorial equals the product of integers from 1 to i",
+      "factorial equals the product of integers from 1 to n",
+      "factorial equals the product of integers from 1 to (i-1)"
     ],
-    "answer": 0,
-    "explanation": "A loop invariant is a condition that remains true at the start of each iteration. At the beginning of each iteration (before factorial *= i), factorial contains the product of integers from 1 to (i-1). Choice B describes the state after the multiplication, choice C is only true at the end, and choice D is a loop condition, not an invariant about the computation."
+    "answer": 3,
+    "explanation": "A loop invariant is a condition that remains true at the start of each iteration. At the beginning of each iteration (before factorial *= i), factorial contains the product of integers from 1 to (i-1). Choice B describes the state after the multiplication, choice C is only true at the end, and choice A is a loop condition, not an invariant about the computation."
   },
   {
     "id": "csa_u4_q115",
@@ -4244,13 +4244,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the final value of x after this code executes?\n\nint x = 1;\nwhile (x < 100) {\n    x *= 3;\n}",
     "choices": [
-      "A) 243",
-      "B) 99",
-      "C) 81",
-      "D) 300"
+      "300",
+      "99",
+      "81",
+      "243"
     ],
-    "answer": 0,
-    "explanation": "Tracing the loop: x starts at 1. x=1*3=3 (3<100), x=3*3=9 (9<100), x=9*3=27 (27<100), x=27*3=81 (81<100), x=81*3=243 (243≮100, loop exits). Final value is 243. Choice B suggests stopping just before 100, choice C is the previous iteration value, and choice D represents continuing past the condition."
+    "answer": 3,
+    "explanation": "Tracing the loop: x starts at 1. x=1*3=3 (3<100), x=3*3=9 (9<100), x=9*3=27 (27<100), x=27*3=81 (81<100), x=81*3=243 (243≮100, loop exits). Final value is 243. Choice B suggests stopping just before 100, choice C is the previous iteration value, and choice A represents continuing past the condition."
   },
   {
     "id": "csa_u4_q116",
@@ -4264,13 +4264,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many times does this loop execute?\n\nfor (int i = 0; i < 10; i += 3) {\n    System.out.println(i);\n}",
     "choices": [
-      "A) 4",
-      "B) 3",
-      "C) 10",
-      "D) 5"
+      "5",
+      "3",
+      "10",
+      "4"
     ],
-    "answer": 0,
-    "explanation": "The loop executes with i values: 0, 3, 6, 9. When i becomes 12, the condition i < 10 is false, so the loop stops. This gives us exactly 4 iterations. Choice B (3) undercounts by missing one iteration, choice C (10) incorrectly assumes one iteration per integer from 0 to 9, and choice D (5) overcounts the number of valid steps. To count iterations of a loop like this, use the formula: floor((upper - start) / step) when using strict less-than, which gives floor((10 - 0) / 3) = floor(3.33) = 3, plus 1 for the starting value = 4."
+    "answer": 3,
+    "explanation": "The loop executes with i values: 0, 3, 6, 9. When i becomes 12, the condition i < 10 is false, so the loop stops. This gives us exactly 4 iterations. Choice B (3) undercounts by missing one iteration, choice C (10) incorrectly assumes one iteration per integer from 0 to 9, and choice A (5) overcounts the number of valid steps. To count iterations of a loop like this, use the formula: floor((upper - start) / step) when using strict less-than, which gives floor((10 - 0) / 3) = floor(3.33) = 3, plus 1 for the starting value = 4."
   },
   {
     "id": "csa_u4_q117",
@@ -4284,13 +4284,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many times is \"X\" printed?\n\nfor (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 2; j++) {\n        System.out.print(\"X\");\n    }\n}",
     "choices": [
-      "A) 6",
-      "B) 5",
-      "C) 3",
-      "D) 2"
+      "3",
+      "5",
+      "6",
+      "2"
     ],
-    "answer": 0,
-    "explanation": "The outer loop runs 3 times (i = 0, 1, 2) and for each iteration, the inner loop runs 2 times (j = 0, 1). Total executions = 3 × 2 = 6. Choice B might represent 3+2, choice C only counts outer loop iterations, and choice D only counts inner loop iterations."
+    "answer": 2,
+    "explanation": "The outer loop runs 3 times (i = 0, 1, 2) and for each iteration, the inner loop runs 2 times (j = 0, 1). Total executions = 3 × 2 = 6. Choice B might represent 3+2, choice A only counts outer loop iterations, and choice D only counts inner loop iterations."
   },
   {
     "id": "csa_u4_q118",
@@ -4304,13 +4304,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of this code?\n\nint a = 1, b = 1;\nfor (int i = 0; i < 4; i++) {\n    System.out.print(a + \" \");\n    int temp = a + b;\n    a = b;\n    b = temp;\n}",
     "choices": [
-      "A) 1 1 2 3",
-      "B) 1 2 3 5",
-      "C) 1 1 2 3 5",
-      "D) 2 3 5 8"
+      "1 1 2 3 5",
+      "1 2 3 5",
+      "1 1 2 3",
+      "2 3 5 8"
     ],
-    "answer": 0,
-    "explanation": "This generates Fibonacci sequence. Initially a=1, b=1. i=0: print 1, temp=2, a=1, b=2. i=1: print 1, temp=3, a=2, b=3. i=2: print 2, temp=5, a=3, b=5. i=3: print 3, temp=8, a=5, b=8. Output is '1 1 2 3'. Choice B starts from second Fibonacci number, choice C includes an extra iteration, and choice D starts from third number."
+    "answer": 2,
+    "explanation": "This generates Fibonacci sequence. Initially a=1, b=1. i=0: print 1, temp=2, a=1, b=2. i=1: print 1, temp=3, a=2, b=3. i=2: print 2, temp=5, a=3, b=5. i=3: print 3, temp=8, a=5, b=8. Output is '1 1 2 3'. Choice B starts from second Fibonacci number, choice A includes an extra iteration, and choice D starts from third number."
   },
   {
     "id": "csa_u4_q119",
@@ -4324,13 +4324,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What does this method return when called with \"programming\"?\n\npublic int countVowels(String s) {\n    int count = 0;\n    for (int i = 0; i < s.length(); i++) {\n        char c = s.charAt(i);\n        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {\n            count++;\n        }\n    }\n    return count;\n}",
     "choices": [
-      "A) 3",
-      "B) 4",
-      "C) 2",
-      "D) 5"
+      "2",
+      "4",
+      "3",
+      "5"
     ],
-    "answer": 0,
-    "explanation": "The method counts lowercase vowels in 'programming': p-r-o(1)-g-r-a(2)-m-m-i(3)-n-g. There are 3 vowels: o, a, i. Choice B might incorrectly count some consonants as vowels, choice C undercounts by missing one vowel, and choice D overcounts by including non-vowels or counting duplicates."
+    "answer": 2,
+    "explanation": "The method counts lowercase vowels in 'programming': p-r-o(1)-g-r-a(2)-m-m-i(3)-n-g. There are 3 vowels: o, a, i. Choice B might incorrectly count some consonants as vowels, choice A undercounts by missing one vowel, and choice D overcounts by including non-vowels or counting duplicates."
   },
   {
     "id": "csa_u4_q120",
@@ -4344,13 +4344,13 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the difference between these two code segments?\n\nSegment A:\nwhile (x > 0) {\n    x--;\n}\n\nSegment B:\ndo {\n    x--;\n} while (x > 0);",
     "choices": [
-      "A) Segment B executes at least once even if x ≤ 0 initially",
-      "B) Segment A executes one more time than Segment B",
-      "C) Both segments produce identical results for all values of x",
-      "D) Segment A is more efficient than Segment B"
+      "Both segments produce identical results for all values of x",
+      "Segment A executes one more time than Segment B",
+      "Segment B executes at least once even if x ≤ 0 initially",
+      "Segment A is more efficient than Segment B"
     ],
-    "answer": 0,
-    "explanation": "The key difference is that do-while executes the body at least once before checking the condition, while a regular while loop checks the condition first. If x ≤ 0 initially, Segment A won't execute at all, but Segment B will execute once. Choice B is incorrect about execution count, choice C ignores the initial condition difference, and choice D is irrelevant to functionality."
+    "answer": 2,
+    "explanation": "The key difference is that do-while executes the body at least once before checking the condition, while a regular while loop checks the condition first. If x ≤ 0 initially, Segment A won't execute at all, but Segment B will execute once. Choice B is incorrect about execution count, choice A ignores the initial condition difference, and choice D is irrelevant to functionality."
   },
   {
     "id": "csa_u4_q121",
@@ -4364,10 +4364,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "After this code executes, what does the array contain?\n\nint[] nums = {1, 2, 3, 4, 5};\nfor (int i = 0; i < nums.length; i++) {\n    nums[i] = nums[i] * 2;\n}",
     "choices": [
-      "A) {2, 4, 6, 8, 10}",
-      "B) {1, 2, 3, 4, 5}",
-      "C) {2, 2, 2, 2, 2}",
-      "D) {1, 4, 9, 16, 25}"
+      "{2, 4, 6, 8, 10}",
+      "{1, 2, 3, 4, 5}",
+      "{2, 2, 2, 2, 2}",
+      "{1, 4, 9, 16, 25}"
     ],
     "answer": 0,
     "explanation": "The loop multiplies each array element by 2: nums[0]=1*2=2, nums[1]=2*2=4, nums[2]=3*2=6, nums[3]=4*2=8, nums[4]=5*2=10. Choice B suggests no change occurred, choice C suggests all elements became 2, and choice D shows squaring instead of doubling."
@@ -4384,10 +4384,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "For this binary search loop, what is the loop invariant?\n\nint low = 0, high = arr.length - 1;\nwhile (low <= high) {\n    int mid = (low + high) / 2;\n    if (arr[mid] == target) return mid;\n    else if (arr[mid] < target) low = mid + 1;\n    else high = mid - 1;\n}",
     "choices": [
-      "A) If target exists in the array, it is within the range [low, high]",
-      "B) mid always equals (low + high) / 2",
-      "C) arr[mid] is always compared to target",
-      "D) The array is always sorted"
+      "If target exists in the array, it is within the range [low, high]",
+      "mid always equals (low + high) / 2",
+      "arr[mid] is always compared to target",
+      "The array is always sorted"
     ],
     "answer": 0,
     "explanation": "The loop invariant for binary search is that if the target exists in the array, it must be within the current search range [low, high]. This remains true throughout all iterations as we eliminate half the search space while maintaining this property. Choice B describes a calculation, not an invariant condition, choice C describes an action, and choice D is a precondition, not an invariant maintained by the loop."
@@ -4404,10 +4404,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which code segment correctly uses an enhanced for loop to find the sum of all elements in an integer array?\n\nint[] numbers = {10, 20, 30, 40};",
     "choices": [
-      "A) int sum = 0; for (int num : numbers) { sum += num; }",
-      "B) int sum = 0; for (int i : numbers) { sum += numbers[i]; }",
-      "C) int sum = 0; for (numbers : int num) { sum += num; }",
-      "D) int sum = 0; for (int num in numbers) { sum += num; }"
+      "int sum = 0; for (int num : numbers) { sum += num; }",
+      "int sum = 0; for (int i : numbers) { sum += numbers[i]; }",
+      "int sum = 0; for (numbers : int num) { sum += num; }",
+      "int sum = 0; for (int num in numbers) { sum += num; }"
     ],
     "answer": 0,
     "explanation": "Choice A correctly uses enhanced for loop syntax: 'for (datatype variable : collection)'. The variable 'num' represents each element value directly. Choice B incorrectly treats the loop variable as an index, choice C has reversed syntax, and choice D uses 'in' instead of ':' (which is Python syntax, not Java)."
@@ -4424,10 +4424,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of count after the following code executes?\n\nint count = 0;\nint x = 16;\nwhile (x > 1) {\n    x = x / 2;\n    count++;\n}",
     "choices": [
-      "A) 3",
-      "B) 4",
-      "C) 5",
-      "D) 8"
+      "3",
+      "4",
+      "5",
+      "8"
     ],
     "answer": 1,
     "explanation": "The loop executes while x > 1. Starting with x = 16: iteration 1 (x = 8), iteration 2 (x = 4), iteration 3 (x = 2), iteration 4 (x = 1). After 4 iterations, x = 1 and the condition x > 1 is false, so count = 4. Choice A miscounts by one iteration, choice C adds an extra iteration, and choice D confuses the initial value with the count."
@@ -4444,10 +4444,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is printed by the following code?\n\nfor (int i = 1; i <= 5; i++) {\n    if (i % 2 == 0) {\n        continue;\n    }\n    System.out.print(i + \" \");\n}",
     "choices": [
-      "A) 1 3 5",
-      "B) 2 4",
-      "C) 1 2 3 4 5",
-      "D) 1 3 5 2 4"
+      "1 3 5",
+      "2 4",
+      "1 2 3 4 5",
+      "1 3 5 2 4"
     ],
     "answer": 0,
     "explanation": "The loop iterates i from 1 to 5. When i % 2 == 0 (i is even), continue skips the print statement. So only odd numbers (1, 3, 5) are printed. Choice B prints even numbers (incorrect condition interpretation), choice C ignores the continue statement, and choice D shows a misunderstanding of execution order."
@@ -4464,10 +4464,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many times is \"Hello\" printed by the following nested loop structure?\n\nfor (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 4; j++) {\n        System.out.println(\"Hello\");\n    }\n}",
     "choices": [
-      "A) 7",
-      "B) 9",
-      "C) 12",
-      "D) 16"
+      "7",
+      "9",
+      "12",
+      "16"
     ],
     "answer": 2,
     "explanation": "The outer loop runs 3 times (i = 0, 1, 2) and for each iteration of the outer loop, the inner loop runs 4 times (j = 0, 1, 2, 3). Total executions = 3 × 4 = 12. Choice A adds the loop bounds (3 + 4), choice B uses 3² instead of 3 × 4, and choice D uses 4² instead of 3 × 4."
@@ -4484,10 +4484,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the final value of result after this code executes?\n\nint result = 0;\nfor (int i = 2; i <= 8; i += 2) {\n    result += i;\n}",
     "choices": [
-      "A) 16",
-      "B) 20",
-      "C) 24",
-      "D) 30"
+      "16",
+      "20",
+      "24",
+      "30"
     ],
     "answer": 1,
     "explanation": "The loop runs with i = 2, 4, 6, 8. result accumulates: 0 + 2 = 2, then 2 + 4 = 6, then 6 + 6 = 12, then 12 + 8 = 20. Choice A stops at i = 6, choice C includes i = 10 incorrectly, and choice D sums 2 + 4 + 6 + 8 + 10 (going beyond the loop condition)."
@@ -4504,10 +4504,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What does the following method return when called with the string \"programming\"?\n\npublic static int countVowels(String str) {\n    int count = 0;\n    for (int i = 0; i < str.length(); i++) {\n        char ch = str.charAt(i);\n        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {\n            count++;\n        }\n    }\n    return count;\n}",
     "choices": [
-      "A) 2",
-      "B) 3",
-      "C) 4",
-      "D) 5"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
     "answer": 1,
     "explanation": "In \"programming\", the vowels are: 'o' (position 2), 'a' (position 4), and 'i' (position 6). That's 3 vowels total. Choice A misses one vowel, choice C incorrectly counts consonants or includes 'y', and choice D counts too many characters as vowels."
@@ -4524,10 +4524,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of the following code?\n\nint x = 5;\ndo {\n    System.out.print(x + \" \");\n    x--;\n} while (x > 5);",
     "choices": [
-      "A) 5",
-      "B) 5 4 3 2 1",
-      "C) No output",
-      "D) Infinite loop"
+      "5",
+      "5 4 3 2 1",
+      "No output",
+      "Infinite loop"
     ],
     "answer": 0,
     "explanation": "The do-while loop executes the body once before checking the condition. It prints 5, then decrements x to 4. The condition (x > 5) is false since 4 > 5 is false, so the loop terminates. Only \"5\" is printed. Choice B assumes the condition is x > 0, choice C forgets do-while executes at least once, and choice D misunderstands the terminating condition."
@@ -4544,10 +4544,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of sum after the following code executes?\n\nint[] arr = {3, 7, 2, 8, 1};\nint sum = 0;\nfor (int i = 1; i < arr.length - 1; i++) {\n    sum += arr[i];\n}",
     "choices": [
-      "A) 17",
-      "B) 21",
-      "C) 9",
-      "D) 15"
+      "17",
+      "21",
+      "9",
+      "15"
     ],
     "answer": 0,
     "explanation": "The loop runs from i = 1 to i = 3 (length - 1 = 4, so i < 4). It sums arr[1] + arr[2] + arr[3] = 7 + 2 + 8 = 17. Choice B sums all elements, choice C sums only arr[1] + arr[2], and choice D incorrectly includes arr[0] or arr[4]."
@@ -4564,10 +4564,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which statement best describes the loop invariant for this code that finds the maximum element?\n\nint max = arr[0];\nfor (int i = 1; i < arr.length; i++) {\n    if (arr[i] > max) {\n        max = arr[i];\n    }\n}",
     "choices": [
-      "A) max equals the largest element in the entire array",
-      "B) max equals the largest element among arr[0] through arr[i-1]",
-      "C) max equals arr[i]",
-      "D) max is always increasing"
+      "max equals the largest element in the entire array",
+      "max equals the largest element among arr[0] through arr[i-1]",
+      "max equals arr[i]",
+      "max is always increasing"
     ],
     "answer": 1,
     "explanation": "A loop invariant is true before each iteration. At the start of each iteration, max holds the largest value seen so far in arr[0] through arr[i-1]. Choice A describes the postcondition, not the invariant. Choice C is incorrect since max may not equal arr[i]. Choice D is false since max doesn't always increase."
@@ -4584,10 +4584,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which of the following tasks CANNOT be accomplished using an enhanced for loop (for-each loop)?",
     "choices": [
-      "A) Printing all elements in an array",
-      "B) Finding the sum of all elements in an array",
-      "C) Setting all elements in an array to zero",
-      "D) Finding the maximum element in an array"
+      "Printing all elements in an array",
+      "Finding the sum of all elements in an array",
+      "Setting all elements in an array to zero",
+      "Finding the maximum element in an array"
     ],
     "answer": 2,
     "explanation": "Enhanced for loops provide read-only access to array elements. You can read elements to print, sum, or compare them, but you cannot modify the original array elements. Setting elements to zero requires write access with array indices. Choices A, B, and D only require reading elements, which enhanced for loops can do."
@@ -4604,10 +4604,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What pattern does this nested loop create?\n\nfor (int i = 1; i <= 4; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(\"*\");\n    }\n    System.out.println();\n}",
     "choices": [
-      "A) A rectangle of 4x4 stars",
-      "B) A right triangle with increasing rows",
-      "C) A right triangle with decreasing rows",
-      "D) A single row of 4 stars"
+      "A rectangle of 4x4 stars",
+      "A right triangle with increasing rows",
+      "A right triangle with decreasing rows",
+      "A single row of 4 stars"
     ],
     "answer": 1,
     "explanation": "For each row i, the inner loop prints i stars. Row 1 prints 1 star, row 2 prints 2 stars, etc., creating a right triangle with increasing row lengths. Choice A would need j <= 4 always, choice C would need j <= (5-i) or similar, and choice D would need no outer loop."
@@ -4624,10 +4624,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What does this method return when called with \"hello\"?\n\npublic static String reverse(String str) {\n    String result = \"\";\n    for (int i = str.length() - 1; i >= 0; i--) {\n        result += str.charAt(i);\n    }\n    return result;\n}",
     "choices": [
-      "A) \"hello\"",
-      "B) \"olleh\"",
-      "C) \"h\"",
-      "D) \"o\""
+      "\"hello\"",
+      "\"olleh\"",
+      "\"h\"",
+      "\"o\""
     ],
     "answer": 1,
     "explanation": "The loop starts at the last index (4) and goes backwards to 0, concatenating each character to result. For \"hello\": result becomes \"\" + 'o' + 'l' + 'l' + 'e' + 'h' = \"olleh\". Choice A suggests no reversal, choice C suggests only the first character, and choice D suggests only the last character."
@@ -4644,10 +4644,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the final value of n after this code executes?\n\nint n = 100;\nwhile (n >= 10) {\n    n = n / 10;\n}",
     "choices": [
-      "A) 1",
-      "B) 10",
-      "C) 0",
-      "D) 9"
+      "1",
+      "10",
+      "0",
+      "9"
     ],
     "answer": 0,
     "explanation": "Starting with n = 100: first iteration n becomes 10, second iteration n becomes 1. Since 1 >= 10 is false, the loop terminates with n = 1. Choice B stops one iteration early, choice C suggests n becomes 0 somehow, and choice D might come from confusion with modulo operations."
@@ -4664,10 +4664,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What does this code do to the array?\n\nint[] arr = {5, 2, 8, 1, 9};\nfor (int i = 0; i < arr.length / 2; i++) {\n    int temp = arr[i];\n    arr[i] = arr[arr.length - 1 - i];\n    arr[arr.length - 1 - i] = temp;\n}",
     "choices": [
-      "A) Sorts the array in ascending order",
-      "B) Reverses the array",
-      "C) Doubles each element",
-      "D) Finds the maximum element"
+      "Sorts the array in ascending order",
+      "Reverses the array",
+      "Doubles each element",
+      "Finds the maximum element"
     ],
     "answer": 1,
     "explanation": "This code swaps elements from opposite ends: arr[0] with arr[4], arr[1] with arr[3], etc. The loop runs length/2 times to avoid swapping back. This reverses the array to {9, 1, 8, 2, 5}. Choice A describes sorting, choice C describes arithmetic operations, and choice D describes a search operation."
@@ -4684,10 +4684,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of this code?\n\nint[] numbers = {10, 20, 30};\nfor (int num : numbers) {\n    num = num * 2;\n    System.out.print(num + \" \");\n}\nSystem.out.print(\"Array: \" + Arrays.toString(numbers));",
     "choices": [
-      "A) 20 40 60 Array: [20, 40, 60]",
-      "B) 20 40 60 Array: [10, 20, 30]",
-      "C) 10 20 30 Array: [10, 20, 30]",
-      "D) 10 20 30 Array: [20, 40, 60]"
+      "20 40 60 Array: [20, 40, 60]",
+      "20 40 60 Array: [10, 20, 30]",
+      "10 20 30 Array: [10, 20, 30]",
+      "10 20 30 Array: [20, 40, 60]"
     ],
     "answer": 1,
     "explanation": "In the enhanced for loop, num is a copy of each array element. Modifying num doesn't change the original array. The loop prints the doubled values (20 40 60) but the original array remains [10, 20, 30]. Choice A assumes the array is modified, choice C assumes num isn't modified, and choice D has contradictory output."
@@ -4704,10 +4704,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of count after this code executes?\n\nint x = 64;\nint count = 0;\nwhile (x > 0) {\n    if (x % 2 == 1) {\n        count++;\n    }\n    x /= 2;\n}",
     "choices": [
-      "A) 6",
-      "B) 1",
-      "C) 0",
-      "D) 7"
+      "6",
+      "1",
+      "0",
+      "7"
     ],
     "answer": 1,
     "explanation": "This counts the number of 1 bits in 64's binary representation. 64 is 1000000 in binary, which has exactly one 1 bit. Students often miscalculate by thinking it counts iterations (6) or total digits (7), or assume it's 0 because 64 is even."
@@ -4724,10 +4724,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many times is the inner loop body executed?\n\nfor (int i = 0; i < 4; i++) {\n    for (int j = 0; j < i * i; j++) {\n        System.out.print(\"*\");\n    }\n}",
     "choices": [
-      "A) 16",
-      "B) 14",
-      "C) 10",
-      "D) 6"
+      "16",
+      "14",
+      "10",
+      "6"
     ],
     "answer": 1,
     "explanation": "When i=0: inner loop runs 0 times (0²). When i=1: runs 1 time (1²). When i=2: runs 4 times (2²). When i=3: runs 9 times (3²). Total: 0+1+4+9=14. Students often calculate 4² (16), sum of i values (6), or triangular number (10)."
@@ -4744,10 +4744,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the final value of result?\n\nint result = 1;\nfor (int i = 2; i <= 5; i++) {\n    result *= i;\n    if (result > 20) {\n        break;\n    }\n}",
     "choices": [
-      "A) 24",
-      "B) 120",
-      "C) 6",
-      "D) 20"
+      "24",
+      "120",
+      "6",
+      "20"
     ],
     "answer": 0,
     "explanation": "Tracing: i=2, result=1*2=2 (≤20, continue). i=3, result=2*3=6 (≤20, continue). i=4, result=6*4=24 (>20, break). Final result is 24. Students might think it continues to 120 (5!), stops at 6 (before exceeding), or exactly equals 20."
@@ -4764,10 +4764,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What does this method return for mystery(\"programming\")?\n\npublic static String mystery(String str) {\n    String result = \"\";\n    for (int i = str.length() - 1; i >= 0; i -= 2) {\n        result += str.charAt(i);\n    }\n    return result;\n}",
     "choices": [
-      "A) \"gmao\"",
-      "B) \"gnmrgorp\"",
-      "C) \"gmaorp\"",
-      "D) \"gorpora\""
+      "\"gmao\"",
+      "\"gnmrgorp\"",
+      "\"gmaorp\"",
+      "\"gorpora\""
     ],
     "answer": 0,
     "explanation": "The method extracts characters at positions 10,8,6,4,2,0 from \"programming\" (indices 0-10). Characters are: g(10), m(8), a(6), o(4). Result is \"gmao\". Students might reverse entire string (B), include all characters going backwards by 2 (C), or miscount indices (D)."
@@ -4784,10 +4784,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the output of this code?\n\nint x = 10;\ndo {\n    x /= 2;\n    System.out.print(x + \" \");\n} while (x > 2);",
     "choices": [
-      "A) 5 2 1 ",
-      "B) 5 2 ",
-      "C) 10 5 2 ",
-      "D) 5 2 1 0 "
+      "5 2 1 ",
+      "5 2 ",
+      "10 5 2 ",
+      "5 2 1 0 "
     ],
     "answer": 1,
     "explanation": "Do-while executes body first, then checks condition. x=10: x becomes 5, prints \"5 \", 5>2 so continue. x=5: x becomes 2, prints \"2 \", 2>2 is false so stop. Output is \"5 2 \". Students might include the extra 1 (A), include initial value (C), or continue to 0 (D)."
@@ -4804,10 +4804,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which loop invariant correctly describes this code?\n\nint sum = 0;\nfor (int i = 0; i < n; i++) {\n    sum += i * i;\n}",
     "choices": [
-      "A) sum equals the sum of squares from 0 to i-1",
-      "B) sum equals the sum of squares from 0 to i",
-      "C) sum equals the sum of integers from 0 to i-1",
-      "D) sum equals i squared"
+      "sum equals the sum of squares from 0 to i-1",
+      "sum equals the sum of squares from 0 to i",
+      "sum equals the sum of integers from 0 to i-1",
+      "sum equals i squared"
     ],
     "answer": 0,
     "explanation": "A loop invariant must be true at the start of each iteration. Before iteration i, sum contains squares of 0 through i-1. After adding i², it contains squares 0 through i, but the invariant describes the state at loop start. Choice B describes state after iteration, C describes wrong operation, D describes wrong relationship."
@@ -4824,10 +4824,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which statement about enhanced for loops is FALSE?\n\nint[] arr = {1, 2, 3, 4, 5};\nfor (int x : arr) {\n    x = x * 2;\n}",
     "choices": [
-      "A) The array arr is not modified by this loop",
-      "B) The variable x gets a copy of each array element",
-      "C) Enhanced for loops cannot modify the original array elements through the loop variable",
-      "D) The loop variable x can be used to directly update values stored in arr"
+      "The array arr is not modified by this loop",
+      "The variable x gets a copy of each array element",
+      "Enhanced for loops cannot modify the original array elements through the loop variable",
+      "The loop variable x can be used to directly update values stored in arr"
     ],
     "answer": 3,
     "explanation": "D is false because the loop variable x holds a copy of each array element, so assigning to x does not update the original array. A is true because x is a copy, so modifications to x do not affect arr. B is true - x receives copies of the primitive values. C is true - enhanced for loops cannot modify the original array elements through the loop variable for primitive types."
@@ -4844,10 +4844,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What happens when this code executes?\n\nArrayList<Integer> list = new ArrayList<>();\nlist.add(1); list.add(2); list.add(3);\nfor (int i = 0; i < list.size(); i++) {\n    if (list.get(i) % 2 == 1) {\n        list.remove(i);\n    }\n}",
     "choices": [
-      "A) Removes all odd numbers successfully",
-      "B) Throws IndexOutOfBoundsException",
-      "C) Removes only the first odd number",
-      "D) Creates an infinite loop"
+      "Removes all odd numbers successfully",
+      "Throws IndexOutOfBoundsException",
+      "Removes only the first odd number",
+      "Creates an infinite loop"
     ],
     "answer": 2,
     "explanation": "When removing element at index 0 (value 1), element 3 shifts to index 1, but i increments to 1, skipping the check for 3. Only 1 is removed, final list is [2,3]. Students think it removes all odds (A), throws exception (B), or loops infinitely (D). This is the classic \"skip elements when removing\" bug."
@@ -4864,10 +4864,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the final value of n after this code executes?\n\nint n = 1000;\nwhile (n != 1) {\n    if (n % 2 == 0) {\n        n = n / 2;\n    } else {\n        n = 3 * n + 1;\n    }\n}",
     "choices": [
-      "A) 1",
-      "B) 0",
-      "C) The loop runs infinitely",
-      "D) 2"
+      "1",
+      "0",
+      "The loop runs infinitely",
+      "2"
     ],
     "answer": 0,
     "explanation": "This implements the Collatz conjecture sequence. Starting from 1000, it will eventually reach 1 (the loop condition). When n=1, the while condition (n != 1) becomes false, so the loop exits with n=1. Students might think it continues to 0, runs forever, or stops at 2."
@@ -4884,10 +4884,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What pattern does this code produce?\n\nfor (int i = 1; i <= 4; i++) {\n    for (int j = 1; j <= 4 - i; j++) {\n        System.out.print(\" \");\n    }\n    for (int k = 1; k <= 2 * i - 1; k++) {\n        System.out.print(\"*\");\n    }\n    System.out.println();\n}",
     "choices": [
-      "A) A right triangle of stars",
-      "B) A pyramid of stars centered",
-      "C) A rectangle of stars",
-      "D) A diamond shape"
+      "A right triangle of stars",
+      "A pyramid of stars centered",
+      "A rectangle of stars",
+      "A diamond shape"
     ],
     "answer": 1,
     "explanation": "This creates a centered pyramid. Row 1: 3 spaces + 1 star. Row 2: 2 spaces + 3 stars. Row 3: 1 space + 5 stars. Row 4: 0 spaces + 7 stars. The spaces center the stars, and star count follows 2i-1 pattern. Students might see just a right triangle (A), rectangle (C), or expect a full diamond (D)."
@@ -4904,10 +4904,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the value of x when the loop terminates?\n\nint x = 2;\nwhile (x * x < 100) {\n    x++;\n}\nx--;",
     "choices": [
-      "A) 9",
-      "B) 10",
-      "C) 11",
-      "D) 8"
+      "9",
+      "10",
+      "11",
+      "8"
     ],
     "answer": 0,
     "explanation": "Loop continues while x²<100. When x=9, 9²=81<100 (continue). When x=10, 10²=100, condition x²<100 is false (stop). After loop, x=10, then x-- makes x=9. Students often forget the final decrement (B), think loop continues one more time (C), or miscalculate when condition fails (D)."
@@ -4924,10 +4924,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many loop iterations occur when isPalindrome(\"racecar\") is called?\n\npublic static boolean isPalindrome(String s) {\n    for (int i = 0; i < s.length() / 2; i++) {\n        if (s.charAt(i) != s.charAt(s.length() - 1 - i)) {\n            return false;\n        }\n    }\n    return true;\n}",
     "choices": [
-      "A) 3",
-      "B) 4",
-      "C) 7",
-      "D) 6"
+      "3",
+      "4",
+      "7",
+      "6"
     ],
     "answer": 0,
     "explanation": "The loop runs while i < s.length() / 2. Since \"racecar\" has length 7, the condition is i < 7 / 2, which is i < 3 (integer division). So the loop iterates for i = 0, 1, and 2 - exactly 3 iterations. It compares: r vs r (i=0), a vs a (i=1), c vs c (i=2). All characters match, so the loop completes all 3 iterations without returning false, and the method returns true. Students might choose 4 (B) by rounding up 7/2, 7 (C) by using the full string length, or 6 (D) by using length - 1."
@@ -4944,10 +4944,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "How many times does the loop body execute?\n\nint count = 0;\ndo {\n    count++;\n    if (count % 3 == 0) {\n        continue;\n    }\n    System.out.print(count + \" \");\n} while (count < 5);",
     "choices": [
-      "A) 5",
-      "B) 4",
-      "C) 6",
-      "D) 3"
+      "5",
+      "4",
+      "6",
+      "3"
     ],
     "answer": 0,
     "explanation": "Do-while executes body first, then checks condition. Loop body runs for count values 1,2,3,4,5. At count=5, condition count<5 is false, so loop stops. Body executed 5 times total. Students might count print statements (4, since 3 is skipped), think it continues to 6, or count only non-continue iterations (3)."
@@ -4964,10 +4964,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "What is the final state of the array?\n\nint[] nums = {5, 2, 8, 1, 9};\nfor (int i = 0; i < nums.length - 1; i++) {\n    if (nums[i] > nums[i + 1]) {\n        int temp = nums[i];\n        nums[i] = nums[i + 1];\n        nums[i + 1] = temp;\n    }\n}",
     "choices": [
-      "A) {2, 5, 1, 8, 9}",
-      "B) {5, 2, 1, 8, 9}",
-      "C) {1, 2, 5, 8, 9}",
-      "D) {2, 1, 5, 8, 9}"
+      "{2, 5, 1, 8, 9}",
+      "{5, 2, 1, 8, 9}",
+      "{1, 2, 5, 8, 9}",
+      "{2, 1, 5, 8, 9}"
     ],
     "answer": 0,
     "explanation": "This performs one pass of bubble sort. i=0: 5>2, swap → {2,5,8,1,9}. i=1: 5<8, no swap. i=2: 8>1, swap → {2,5,1,8,9}. i=3: 8<9, no swap. Final: {2,5,1,8,9}. Students might think it fully sorts (C), stops after first swap (B), or makes different swaps (D)."
@@ -4984,10 +4984,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which code segment will cause a compilation error?\n\nArrayList<String> list = new ArrayList<>();\nlist.add(\"apple\"); list.add(\"banana\");",
     "choices": [
-      "A) for (String s : list) { s = s.toUpperCase(); }",
-      "B) for (String s : list) { list.add(\"cherry\"); }",
-      "C) for (String s : list) { System.out.println(s.length()); }",
-      "D) for (int i : list) { System.out.println(i); }"
+      "for (String s : list) { s = s.toUpperCase(); }",
+      "for (String s : list) { list.add(\"cherry\"); }",
+      "for (String s : list) { System.out.println(s.length()); }",
+      "for (int i : list) { System.out.println(i); }"
     ],
     "answer": 3,
     "explanation": "Choice D attempts to assign String elements to int variable, causing compilation error due to type mismatch. Choice A compiles (but doesn't modify list). Choice B compiles but may cause ConcurrentModificationException at runtime. Choice C compiles and runs correctly."
@@ -5004,10 +5004,10 @@ window.APCSA_MCQ = [
     "format": "text",
     "question": "Which is the safest way to remove all even numbers from an ArrayList<Integer>?\n\nArrayList<Integer> nums = new ArrayList<>();\n// assume nums is populated with integers",
     "choices": [
-      "A) for (int i = 0; i < nums.size(); i++) { if (nums.get(i) % 2 == 0) nums.remove(i); }",
-      "B) for (Integer n : nums) { if (n % 2 == 0) nums.remove(n); }",
-      "C) for (int i = nums.size() - 1; i >= 0; i--) { if (nums.get(i) % 2 == 0) nums.remove(i); }",
-      "D) while (nums.size() > 0) { if (nums.get(0) % 2 == 0) nums.remove(0); }"
+      "for (int i = 0; i < nums.size(); i++) { if (nums.get(i) % 2 == 0) nums.remove(i); }",
+      "for (Integer n : nums) { if (n % 2 == 0) nums.remove(n); }",
+      "for (int i = nums.size() - 1; i >= 0; i--) { if (nums.get(i) % 2 == 0) nums.remove(i); }",
+      "while (nums.size() > 0) { if (nums.get(0) % 2 == 0) nums.remove(0); }"
     ],
     "answer": 2,
     "explanation": "Iterating backwards (C) prevents index shifting issues when removing elements. Choice A skips elements after removal. Choice B throws ConcurrentModificationException. Choice D creates infinite loop if first element is odd. Backwards iteration is the standard safe approach for removal during iteration."
@@ -5024,11 +5024,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "A single variable that stores one value",
-      "A collection of related data items that can be processed together",
+      "A method that returns multiple values",
       "A type of loop used for data processing",
-      "A method that returns multiple values"
+      "A collection of related data items that can be processed together"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A data set is a collection of related data values (often stored in arrays or other data structures) that can be analyzed, processed, or manipulated together."
   },
   {
@@ -5043,11 +5043,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "10",
-      "9",
+      "0",
       "1",
-      "0"
+      "9"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Arrays in Java are zero-indexed. An array of 10 elements has indices 0 through 9. The last element is at index 9 (= length - 1)."
   },
   {
@@ -5062,11 +5062,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "int arr = new int[5];",
-      "int[] arr = new int[5];",
+      "int[] arr = int[5];",
       "int arr[5];",
-      "int[] arr = int[5];"
+      "int[] arr = new int[5];"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The correct Java syntax for creating an array is: elementType[] arrayName = new elementType[size]; So 'int[] arr = new int[5];' is correct."
   },
   {
@@ -5119,11 +5119,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "Int",
-      "Integer",
+      "Integ",
       "INT",
-      "Integ"
+      "Integer"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Each Java primitive has a corresponding wrapper class: int → Integer, double → Double, boolean → Boolean, char → Character, etc."
   },
   {
@@ -5138,11 +5138,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "Automatically sorts an ArrayList",
-      "Automatically converts between primitives and their wrapper classes",
+      "Automatically calls toString() on primitives",
       "Automatically allocates memory for arrays",
-      "Automatically calls toString() on primitives"
+      "Automatically converts between primitives and their wrapper classes"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Autoboxing is the automatic conversion of a primitive (like int) to its corresponding wrapper class object (Integer), and unboxing is the reverse. Java handles this transparently."
   },
   {
@@ -5157,11 +5157,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "import java.lang.ArrayList;",
-      "import java.util.ArrayList;",
+      "No import needed",
       "import java.io.ArrayList;",
-      "No import needed"
+      "import java.util.ArrayList;"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "ArrayList is in the java.util package: import java.util.ArrayList;"
   },
   {
@@ -5176,11 +5176,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "list.push(element);",
-      "list.add(element);",
+      "list[size] = element;",
       "list.append(element);",
-      "list[size] = element;"
+      "list.add(element);"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The ArrayList add(element) method appends an element to the end of the list."
   },
   {
@@ -5195,11 +5195,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "Inserts 99 at index 2, shifting elements right",
-      "Replaces the element at index 2 with 99",
+      "Sets the list capacity to 99 starting at index 2",
       "Removes all elements and adds 99 at index 2",
-      "Sets the list capacity to 99 starting at index 2"
+      "Replaces the element at index 2 with 99"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "ArrayList.set(index, element) replaces the element at the specified index with the new element. Unlike add(), it doesn't shift elements."
   },
   {
@@ -5214,12 +5214,12 @@ window.APCSA_MCQ = [
     "code": "ArrayList<String> words = new ArrayList<>();\nwords.add(\"hello\");\nwords.add(\"world\");",
     "choices": [
       "for (int i = 0; i < words.length; i++) { System.out.println(words[i]); }",
-      "for (String w : words) { System.out.println(w); }",
+      "foreach (String w : words) { System.out.println(w); }",
       "for (String w in words) { System.out.println(w); }",
-      "foreach (String w : words) { System.out.println(w); }"
+      "for (String w : words) { System.out.println(w); }"
     ],
-    "answer": 1,
-    "explanation": "For ArrayList, use words.size() (not .length) for index loops. The enhanced for loop uses ':' not 'in'. 'foreach' is not Java syntax. Option B is correct."
+    "answer": 3,
+    "explanation": "For ArrayList, use words.size() (not .length) for index loops. The enhanced for loop uses ':' not 'in'. 'foreach' is not Java syntax. Option D is correct."
   },
   {
     "id": "mcq_168",
@@ -5233,11 +5233,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "grid[2, 3]",
-      "grid[2][3]",
+      "grid[3][2]",
       "grid.get(2, 3)",
-      "grid[3][2]"
+      "grid[2][3]"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "2D arrays in Java are accessed with two separate bracket operators: array[row][col]. Row 2, column 3 is grid[2][3] (using 0-based indexing, these are the 3rd row and 4th column)."
   },
   {
@@ -5271,11 +5271,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "Jumps to the middle of the array each step",
-      "Checks each element one at a time from beginning to end",
+      "Only works on arrays of Strings",
       "Requires the array to be sorted first",
-      "Only works on arrays of Strings"
+      "Checks each element one at a time from beginning to end"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Linear search checks each element sequentially until the target is found or the entire array is searched. It works on unsorted arrays and has O(n) time complexity."
   },
   {
@@ -5290,11 +5290,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "The array must have an even number of elements",
-      "The array must be sorted",
+      "The target must be in the first half",
       "The array must contain only integers",
-      "The target must be in the first half"
+      "The array must be sorted"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Binary search requires a sorted array. It works by comparing the target to the middle element and eliminating half the search space each step, achieving O(log n) performance."
   },
   {
@@ -5308,12 +5308,12 @@ window.APCSA_MCQ = [
     "isCode": false,
     "code": "",
     "choices": [
-      "4",
       "5",
+      "4",
       "8",
       "16"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Binary search on n elements requires at most floor(log₂(n)) + 1 comparisons. For n = 16: floor(log₂(16)) + 1 = 4 + 1 = 5. Each comparison eliminates half the remaining elements, so after 4 halvings you have 1 element left, requiring one final comparison — giving 5 total. Choice 4 (floor(log₂(16)) alone) undercounts by one because it omits the final comparison against the single remaining element."
   },
   {
@@ -5327,12 +5327,12 @@ window.APCSA_MCQ = [
     "isCode": false,
     "code": "",
     "choices": [
-      "It compares adjacent elements and swaps them if out of order",
       "It finds the minimum element and places it at the correct position repeatedly",
+      "It compares adjacent elements and swaps them if out of order",
       "It splits the array in half and sorts each half recursively",
       "It inserts each element into its correct position one at a time from the left"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Selection sort finds the minimum element in the unsorted portion and swaps it to its correct position. It makes n-1 passes, each finding the minimum of the remaining unsorted portion."
   },
   {
@@ -5384,12 +5384,12 @@ window.APCSA_MCQ = [
     "isCode": false,
     "code": "",
     "choices": [
-      "The first call to the recursive method",
       "The condition that stops the recursion without making another recursive call",
+      "The first call to the recursive method",
       "The last line of a recursive method",
       "A method that calls itself from inside a loop"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A base case is a condition that can be solved directly without further recursion. Every recursive method must have at least one base case to prevent infinite recursion."
   },
   {
@@ -5403,12 +5403,12 @@ window.APCSA_MCQ = [
     "isCode": true,
     "code": "public static int mystery(int n) {\n    if (n <= 1) return 1;\n    return n * mystery(n - 1);\n}",
     "choices": [
-      "5",
       "120",
+      "5",
       "15",
       "25"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "This computes n! (factorial). mystery(5) = 5 * mystery(4) = 5 * 4 * mystery(3) = 5*4*3*2*1 = 120."
   },
   {
@@ -5422,12 +5422,12 @@ window.APCSA_MCQ = [
     "isCode": true,
     "code": "public static int mystery(int n) {\n    if (n == 0) return 0;\n    return mystery(n - 1) + n;\n}",
     "choices": [
-      "4",
       "10",
+      "4",
       "6",
       "24"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "mystery(4) = mystery(3) + 4. mystery(3) = mystery(2) + 3. mystery(2) = mystery(1) + 2. mystery(1) = mystery(0) + 1 = 1. So: 1+2+3+4 = 10. This computes the sum 1+2+...+n."
   },
   {
@@ -5441,12 +5441,12 @@ window.APCSA_MCQ = [
     "isCode": true,
     "code": "public static int fib(int n) {\n    if (n <= 1) return n;\n    return fib(n - 1) + fib(n - 2);\n}",
     "choices": [
-      "5",
       "8",
+      "5",
       "13",
       "3"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Fibonacci: fib(0)=0, fib(1)=1, fib(2)=1, fib(3)=2, fib(4)=3, fib(5)=5, fib(6)=8."
   },
   {
@@ -5518,11 +5518,11 @@ window.APCSA_MCQ = [
     "code": "int[] arr = {1, 2, 3, 4, 5};\nint count = 0;\nfor (int val : arr) {\n    if (val % 2 != 0) count++;\n}\nSystem.out.println(count);",
     "choices": [
       "2",
-      "3",
       "5",
+      "3",
       "1"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Odd numbers in {1,2,3,4,5}: 1, 3, 5 → count = 3."
   },
   {
@@ -5537,11 +5537,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "Arrays can hold objects; ArrayLists can only hold primitives",
-      "Arrays have fixed size; ArrayLists can grow and shrink dynamically",
       "ArrayLists are faster than arrays for all operations",
+      "Arrays have fixed size; ArrayLists can grow and shrink dynamically",
       "Arrays can hold multiple types; ArrayLists can only hold one type"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Arrays have a fixed size set at creation. ArrayLists can grow and shrink dynamically. Arrays can hold primitives directly; ArrayLists require wrapper types (Integer, not int)."
   },
   {
@@ -5575,11 +5575,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "It returns null after 100 calls",
-      "It compiles but causes a StackOverflowError at runtime",
       "It causes a compilation error",
+      "It compiles but causes a StackOverflowError at runtime",
       "It runs forever without error"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Without a base case, recursion never stops. Each call adds a stack frame until the call stack runs out of memory, causing a StackOverflowError."
   },
   {
@@ -5594,11 +5594,11 @@ window.APCSA_MCQ = [
     "code": "int[] arr = {5, 10, 15, 20, 25};\nfor (int i = arr.length - 1; i >= 0; i--) {\n    System.out.print(arr[i] + \" \");\n}",
     "choices": [
       "5 10 15 20 25 ",
-      "25 20 15 10 5 ",
       "5 25 10 20 15 ",
+      "25 20 15 10 5 ",
       "25 5 20 10 15 "
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The loop traverses from the last index (4) to 0, printing elements in reverse: 25 20 15 10 5."
   },
   {
@@ -5613,11 +5613,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "The total number of elements",
-      "The number of rows",
       "The number of columns",
+      "The number of rows",
       "The number of columns in the first row"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "For a 2D array, .length gives the number of rows. To get the number of columns, use matrix[0].length (assuming rectangular array)."
   },
   {
@@ -5632,11 +5632,11 @@ window.APCSA_MCQ = [
     "code": "",
     "choices": [
       "It selects the minimum element and places it at the front",
-      "It repeatedly compares adjacent elements and swaps them if they are in the wrong order",
       "It inserts each element into its correct position in the sorted portion",
+      "It repeatedly compares adjacent elements and swaps them if they are in the wrong order",
       "It divides the array in half recursively"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Bubble sort compares adjacent pairs and swaps them if out of order. After each pass, the largest unsorted element 'bubbles' to its correct position at the end."
   },
   {

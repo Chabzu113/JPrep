@@ -9,13 +9,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "Which of the following is the fundamental reason why even wealthy nations must make choices?",
     "choices": [
-      "High rates of inflation.",
       "Scarcity of resources.",
+      "High rates of inflation.",
       "Inefficient tax systems.",
       "The presence of monopolies.",
       "A lack of technological advancement."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Scarcity affects everyone. Resources are finite, while human wants are unlimited, forcing societies to prioritize certain goods over others."
   },
   {
@@ -30,11 +30,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "A shift inward of the PPC.",
       "A movement along the current PPC toward consumer goods.",
-      "A faster outward shift of the PPC in the future.",
+      "A decrease in the country's productive efficiency.",
       "An increase in the current unemployment rate.",
-      "A decrease in the country's productive efficiency."
+      "A faster outward shift of the PPC in the future."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Capital goods (tools, factories) are 'investment.' Increasing them today expands the economy's future production capacity, leading to faster economic growth."
   },
   {
@@ -50,11 +50,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "At a point outside the curve.",
       "At a point on the curve.",
-      "At a point inside the curve.",
+      "By a shift outward of the entire curve.",
       "By a shift inward of the entire curve.",
-      "By a shift outward of the entire curve."
+      "At a point inside the curve."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Unemployment means resources are not being fully utilized. This is represented by a point inside the boundary, indicating productive inefficiency."
   },
   {
@@ -69,11 +69,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "The money used to pay the construction workers.",
       "The interest paid on the bonds issued to fund it.",
-      "The other goods and services that could have been produced with the same resources.",
+      "The time it takes to complete the project.",
       "The increased taxes paid by the citizens.",
-      "The time it takes to complete the project."
+      "The other goods and services that could have been produced with the same resources."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Opportunity cost is always about the 'next best alternative' foregone when a choice is made."
   },
   {
@@ -88,11 +88,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Goods and services.",
       "Spending on products.",
-      "Labor, land, and capital.",
+      "Subsidies and transfers.",
       "Taxes and regulations.",
-      "Subsidies and transfers."
+      "Labor, land, and capital."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Households own the factors of production and sell them to firms in the factor (resource) market in exchange for income."
   },
   {
@@ -105,13 +105,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "A local entrepreneur is deciding whether to spend her savings on a weekend vacation or on new equipment for her business. The item she purchases for her business would be classified as which type of good?",
     "choices": [
-      "A pizza delivered to a home.",
       "A commercial oven in a bakery.",
+      "A pizza delivered to a home.",
       "A pair of sneakers for a student.",
       "A movie ticket.",
       "A haircut."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Capital goods are physical tools or machinery used to produce other goods and services."
   },
   {
@@ -124,13 +124,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "A PPC that is a straight line indicates:",
     "choices": [
-      "Increasing opportunity costs.",
       "Constant opportunity costs.",
+      "Increasing opportunity costs.",
       "Zero opportunity costs.",
       "Productive inefficiency.",
       "An economy with only one resource."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A straight-line PPC means resources are perfectly adaptable between the two goods, resulting in a constant trade-off ratio regardless of how much of either good is produced."
   },
   {
@@ -143,13 +143,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "If Country A can produce more of both wine and cheese than Country B using the same amount of resources, Country A has:",
     "choices": [
-      "A comparative advantage in both.",
       "An absolute advantage in both.",
+      "A comparative advantage in both.",
       "A higher opportunity cost for both.",
       "No need to trade with Country B.",
       "A vertical PPC."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Absolute advantage is simply the ability to produce more of a good than another producer using the same inputs."
   },
   {
@@ -164,11 +164,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Individual consumers.",
       "Private business owners.",
-      "Government central planners.",
+      "Foreign investors.",
       "The invisible hand.",
-      "Foreign investors."
+      "Government central planners."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Command economies rely on centralized government authority rather than market signals."
   },
   {
@@ -181,13 +181,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "According to the principle of comparative advantage, countries should specialize in producing goods for which they have:",
     "choices": [
-      "The highest absolute advantage.",
       "The lowest opportunity cost.",
+      "The highest absolute advantage.",
       "The most abundant natural resources.",
       "The highest market price.",
       "The lowest labor wages."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Comparative advantage is the basis for trade; by specializing in what they do relatively better (lowest cost), total global output increases."
   },
   {
@@ -202,12 +202,12 @@ window.APMACRO_MCQ = [
     "choices": [
       "The government should lower taxes to stimulate growth.",
       "Inflation is more harmful than unemployment.",
-      "A decrease in the money supply will lead to higher interest rates.",
+      "The federal debt is too high.",
       "Everyone deserves a fair living wage.",
-      "The federal debt is too high."
+      "A decrease in the money supply will lead to higher interest rates."
     ],
-    "answer": 2,
-    "explanation": "Positive statements are objective and testable facts (if/then). Normative statements (A, B, D, E) involve value judgments ('should', 'too high')."
+    "answer": 4,
+    "explanation": "Positive statements are objective and testable facts (if/then). Normative statements (A, B, D, C) involve value judgments ('should', 'too high')."
   },
   {
     "id": "macro-u1-m015",
@@ -220,12 +220,12 @@ window.APMACRO_MCQ = [
     "question": "If technology improves ONLY for the production of consumer goods, how will the PPC change?",
     "choices": [
       "The entire curve shifts outward parallel to the old one.",
-      "The curve rotates outward along the consumer goods axis only.",
-      "The curve rotates outward along the capital goods axis only.",
       "The curve shifts inward because resources are moved.",
+      "The curve rotates outward along the capital goods axis only.",
+      "The curve rotates outward along the consumer goods axis only.",
       "There is no change to the PPC."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Technology improvements increase the maximum possible production of a good. If it only helps consumer goods, that intercept moves out while the capital goods intercept remains fixed."
   },
   {
@@ -240,11 +240,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "The marginal benefit is positive.",
       "The marginal cost is zero.",
-      "The marginal benefit is greater than the marginal cost.",
+      "The total cost is minimized.",
       "The total benefit is maximized.",
-      "The total cost is minimized."
+      "The marginal benefit is greater than the marginal cost."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "The fundamental principle of marginal analysis states that a rational decision maker will take an action only when the marginal (additional) benefit exceeds the marginal (additional) cost."
   },
   {
@@ -259,11 +259,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Inflation and unemployment.",
       "Capital goods and consumer goods.",
-      "Military spending and domestic spending.",
+      "Public goods and private goods.",
       "Exports and imports.",
-      "Public goods and private goods."
+      "Military spending and domestic spending."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "The guns versus butter model illustrates the fundamental trade-off a government faces between allocating resources toward military spending (guns) and domestic civilian goods (butter)."
   },
   {
@@ -278,11 +278,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "The price of oranges in Florida.",
       "The profit of a local bakery.",
-      "The national unemployment rate.",
+      "The demand for electric cars.",
       "The wages of software engineers.",
-      "The demand for electric cars."
+      "The national unemployment rate."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Macroeconomics looks at the 'aggregate' or whole-economy indicators like unemployment, GDP, and inflation."
   },
   {
@@ -297,11 +297,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Resources are infinite.",
       "Opportunity costs are constant.",
-      "Resources are not perfectly adaptable between the production of different goods.",
+      "The economy is in a recession.",
       "Technological progress is stagnant.",
-      "The economy is in a recession."
+      "Resources are not perfectly adaptable between the production of different goods."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "This is the Law of Increasing Opportunity Costs. As you produce more of one good, you must use resources that were better suited for the other good."
   },
   {
@@ -314,13 +314,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "The nation of Aldoria allows its citizens to start businesses, own land and equipment, and keep the profits they earn. A neighboring country has the government dictate all production decisions. Which of the following best describes the feature that distinguishes Aldoria's economic system?",
     "choices": [
-      "Central planning of all resources.",
-      "Universal price ceilings.",
       "Private property rights.",
+      "Universal price ceilings.",
+      "Central planning of all resources.",
       "Government-mandated production quotas.",
       "The elimination of competition."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Private property and individual incentives are the engines of a market-based economic system."
   },
   {
@@ -333,13 +333,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "In a market system, what is the primary signal that guides the 'what to produce' decision?",
     "choices": [
-      "Government regulations.",
-      "Historical tradition.",
       "Market prices and profits.",
+      "Historical tradition.",
+      "Government regulations.",
       "Technological difficulty.",
       "Political popularity."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Prices act as information signals. High prices and profits attract resources to goods that consumers value most."
   },
   {
@@ -354,11 +354,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Investment spending (I).",
       "Government spending (G).",
-      "Consumption spending (C).",
+      "Transfer payments.",
       "Net exports (Xn).",
-      "Transfer payments."
+      "Consumption spending (C)."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Consumer spending typically makes up about 70% of the U.S. economy, far outweighing the other components of the $GDP = C + I + G + Xn$ formula."
   },
   {
@@ -390,13 +390,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "In a country with a population of 200, there are 100 people in the labor force and 90 of them are currently employed. What is the unemployment rate?",
     "choices": [
-      "5%.",
       "10%.",
+      "5%.",
       "50%.",
       "5.5%.",
       "45%."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Unemployment rate = (Unemployed / Labor Force) x 100. There are 10 unemployed (100 - 90). $10 / 100 = 10%$."
   },
   {
@@ -411,11 +411,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Structural.",
       "Cyclical.",
-      "Frictional.",
+      "Natural.",
       "Seasonal.",
-      "Natural."
+      "Frictional."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Frictional unemployment is temporary and occurs when workers are 'between jobs' or entering the workforce for the first time."
   },
   {
@@ -429,12 +429,12 @@ window.APMACRO_MCQ = [
     "question": "During the expansionary phase of the business cycle, which of the following is most likely to occur?",
     "choices": [
       "Real GDP decreases and the unemployment rate increases.",
-      "Real GDP increases and the unemployment rate decreases.",
-      "The inflation rate decreases to zero.",
       "The economy reaches its trough.",
+      "The inflation rate decreases to zero.",
+      "Real GDP increases and the unemployment rate decreases.",
       "Interest rates are at their lowest point."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Expansion means the economy is growing (GDP up), which leads to more hiring (Unemployment down)."
   },
   {
@@ -449,11 +449,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "$120 billion.",
       "$20 billion.",
-      "-$20 billion.",
+      "$3,500 billion.",
       "$0.71 billion.",
-      "$3,500 billion."
+      "-$20 billion."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Net Exports = Exports - Imports. $50 - 70 = -20$. A negative number indicates a trade deficit."
   },
   {
@@ -468,11 +468,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Frictional unemployment.",
       "Cyclical unemployment.",
-      "Structural unemployment.",
+      "Full employment.",
       "Seasonal unemployment.",
-      "Full employment."
+      "Structural unemployment."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Structural unemployment occurs when a worker's skills are no longer needed due to technological changes or shifts in the structure of the economy."
   },
   {
@@ -486,12 +486,12 @@ window.APMACRO_MCQ = [
     "question": "How does the existence of discouraged workers affect the official unemployment rate?",
     "choices": [
       "It makes the unemployment rate higher than it actually is.",
-      "It makes the unemployment rate lower than it actually is.",
-      "It has no effect on the unemployment rate.",
       "It increases the labor force participation rate.",
+      "It has no effect on the unemployment rate.",
+      "It makes the unemployment rate lower than it actually is.",
       "It causes cyclical unemployment to disappear."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Discouraged workers have stopped looking for work and are no longer counted as part of the labor force. This artificially lowers the official unemployment rate."
   },
   {
@@ -506,11 +506,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "A retiree living on a fixed pension.",
       "A bank that has lent money at a fixed interest rate.",
-      "A person who has borrowed money at a fixed interest rate.",
+      "An employee whose wages are not adjusted for inflation.",
       "A consumer with a large savings account.",
-      "An employee whose wages are not adjusted for inflation."
+      "A person who has borrowed money at a fixed interest rate."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Borrowers benefit from inflation because they pay back their loans with dollars that have less purchasing power than the dollars they originally borrowed."
   },
   {
@@ -524,12 +524,12 @@ window.APMACRO_MCQ = [
     "question": "The value of a Ford car produced in a factory in Germany would be included in:",
     "choices": [
       "United States GDP.",
-      "German GDP.",
-      "United States GNP but not United States GDP.",
       "Both German GDP and United States GDP.",
+      "United States GNP but not United States GDP.",
+      "German GDP.",
       "Neither GDP nor GNP."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "GDP (Gross Domestic Product) measures production within a country's borders, regardless of who owns the company."
   },
   {
@@ -544,11 +544,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "The velocity of money decreases.",
       "People are more likely to save money in banks.",
-      "Money ceases to function as a reliable store of value.",
+      "Real interest rates become extremely high.",
       "The unemployment rate drops to zero permanently.",
-      "Real interest rates become extremely high."
+      "Money ceases to function as a reliable store of value."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "When prices rise out of control, money loses its value so quickly that people lose faith in it as a way to store wealth."
   },
   {
@@ -563,11 +563,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Intermediate.",
       "Used.",
-      "Final.",
+      "Consumer.",
       "Exported.",
-      "Consumer."
+      "Final."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "GDP only counts final goods to avoid double-counting the value of intermediate materials (like the flour in a cake)."
   },
   {
@@ -582,11 +582,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "$100.",
       "$150.",
-      "$200.",
+      "$50.",
       "$300.",
-      "$50."
+      "$200."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "$(1 \times 100) + (2 \times 50) = 100 + 100 = 200$."
   },
   {
@@ -601,11 +601,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Frictional.",
       "Structural.",
-      "Cyclical.",
+      "Voluntary.",
       "Seasonal.",
-      "Voluntary."
+      "Cyclical."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Cyclical unemployment rises when the economy 'cycles' downward into a contraction."
   },
   {
@@ -619,12 +619,12 @@ window.APMACRO_MCQ = [
     "question": "Cost-push inflation is most likely caused by:",
     "choices": [
       "An increase in consumer spending.",
-      "An increase in the price of a key resource like oil.",
-      "A decrease in the money supply.",
       "An increase in government transfer payments.",
+      "A decrease in the money supply.",
+      "An increase in the price of a key resource like oil.",
       "An increase in labor productivity."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Cost-push inflation occurs when the cost of production rises, 'pushing' the price level up (shifting the AS curve left)."
   },
   {
@@ -638,12 +638,12 @@ window.APMACRO_MCQ = [
     "question": "Demand-pull inflation is caused by:",
     "choices": [
       "A decrease in total spending.",
-      "Too much money chasing too few goods.",
-      "A shift left of the Aggregate Supply curve.",
       "Higher corporate taxes.",
+      "A shift left of the Aggregate Supply curve.",
+      "Too much money chasing too few goods.",
       "A surplus of agricultural products."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Demand-pull occurs when Aggregate Demand increases faster than the economy's ability to produce."
   },
   {
@@ -657,12 +657,12 @@ window.APMACRO_MCQ = [
     "question": "An engineer working as a barista because they cannot find an engineering job is considered:",
     "choices": [
       "Unemployed.",
-      "Underemployed.",
-      "A discouraged worker.",
       "Structurally unemployed.",
+      "A discouraged worker.",
+      "Underemployed.",
       "Not in the labor force."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Although the engineer is technically classified as employed in official statistics, working in a position far below one's skill level is considered underemployment. The official unemployment rate does not capture this form of labor market slack."
   },
   {
@@ -675,13 +675,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "In the GDP expenditure formula, $GDP = C + I + G + (X - M)$, what does 'I' represent?",
     "choices": [
-      "Investment in stocks and bonds.",
-      "Household savings.",
       "Gross private domestic investment (tools, factories, new housing).",
+      "Household savings.",
+      "Investment in stocks and bonds.",
       "International trade.",
       "Inflation adjustments."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "In the GDP formula, 'I' refers to gross private domestic investment, which includes business purchases of tools, factories, equipment, and new residential housing. It does not include financial investment such as stocks and bonds."
   },
   {
@@ -713,13 +713,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "The CPI in the base year is always equal to:",
     "choices": [
-      "0.",
-      "1.",
       "100.",
+      "1.",
+      "0.",
       "The current inflation rate.",
       "The GDP deflator."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "By definition, the base year CPI is the cost of the basket divided by itself times 100."
   },
   {
@@ -732,13 +732,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "Why are intermediate goods excluded from GDP?",
     "choices": [
-      "Because they are produced by foreign companies.",
-      "Because they do not have a market value.",
       "To avoid double-counting the value of the final good.",
+      "Because they do not have a market value.",
+      "Because they are produced by foreign companies.",
       "Because they are not sold to consumers.",
       "Because they are always part of government spending."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "The price of the final product already includes the value of all the materials (intermediates) used to make it."
   },
   {
@@ -751,13 +751,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "In the 1970s, a major oil embargo caused energy prices to spike sharply. The U.S. economy responded with rising prices at the same time that output fell and workers were laid off. This unusual combination of conditions is best described as:",
     "choices": [
-      "High inflation and high economic growth.",
-      "Low inflation and low unemployment.",
       "High inflation and high unemployment.",
+      "Low inflation and low unemployment.",
+      "High inflation and high economic growth.",
       "Low inflation and high economic growth.",
       "Deflation and full employment."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Stagflation combines economic stagnation (high unemployment) with inflation (rising prices), typically caused by a negative supply shock such as a spike in oil prices."
   },
   {
@@ -789,13 +789,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "Transfer payments, like unemployment insurance or Social Security, are:",
     "choices": [
-      "Included in GDP under government spending (G).",
-      "Included in GDP under consumption (C).",
       "Excluded from GDP.",
+      "Included in GDP under consumption (C).",
+      "Included in GDP under government spending (G).",
       "Subtracted from GDP.",
       "Included in Net Exports."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Transfer payments are not made in exchange for a new good or service; they are simply a redistribution of income."
   },
   {
@@ -808,13 +808,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "If the actual unemployment rate is 8% and the natural rate of unemployment is 5%, then the cyclical unemployment rate is:",
     "choices": [
-      "13%.",
-      "5%.",
       "3%.",
+      "5%.",
+      "13%.",
       "8%.",
       "0%."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Actual Unemployment = Natural Rate + Cyclical Rate. $8% = 5% + 3%$."
   },
   {
@@ -827,13 +827,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "Personal disposable income is the amount of income households have to spend or save after paying:",
     "choices": [
-      "Rent.",
-      "Food and necessities.",
       "Personal taxes.",
+      "Food and necessities.",
+      "Rent.",
       "Interest on debt.",
       "Corporate dividends."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Disposable Income = Gross Income - Taxes."
   },
   {
@@ -943,11 +943,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "An increase in personal income taxes.",
       "A decrease in government spending on infrastructure.",
-      "An increase in consumer confidence.",
       "A decrease in the money supply.",
+      "An increase in consumer confidence.",
       "An increase in the price level."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Aggregate Demand (AD = C + I + G + Xn) shifts right when any of its components increase. Higher consumer confidence leads to more consumption (C), shifting AD right."
   },
   {
@@ -961,12 +961,12 @@ window.APMACRO_MCQ = [
     "question": "The downward slope of the Aggregate Demand curve is partially explained by the wealth effect, which states that a lower price level:",
     "choices": [
       "Increases the real value of household wealth, leading to more spending.",
-      "Decreases the nominal interest rate, leading to more investment.",
+      "Decreases the demand for labor.",
       "Makes domestic goods cheaper for foreigners, increasing exports.",
       "Increases the production costs for firms.",
-      "Decreases the demand for labor."
+      "Decreases the nominal interest rate, leading to more investment."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The wealth (real balances) effect states that a lower price level increases the real value of household financial assets, making consumers feel wealthier and leading to more spending. This is distinct from the interest rate effect and the foreign purchases effect."
   },
   {
@@ -981,11 +981,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "A decrease in the price of oil.",
       "An increase in labor productivity.",
-      "An increase in nominal wages.",
       "A decrease in business regulations.",
+      "An increase in nominal wages.",
       "An increase in consumer demand."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "SRAS shifts based on production costs. Higher wages make it more expensive for firms to produce, 'pushing' the curve to the left."
   },
   {
@@ -1018,12 +1018,12 @@ window.APMACRO_MCQ = [
     "question": "The interest rate effect explains that a higher price level leads to:",
     "choices": [
       "Lower demand for money and lower interest rates.",
-      "Higher demand for money, higher interest rates, and lower investment.",
+      "A rightward shift of the AD curve.",
       "Higher exports as domestic goods become more expensive.",
       "An increase in the real value of wealth.",
-      "A rightward shift of the AD curve."
+      "Higher demand for money, higher interest rates, and lower investment."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "At a higher price level, people need more cash for transactions (Money Demand increases), which drives up interest rates and discourages borrowing for investment (I)."
   },
   {
@@ -1037,12 +1037,12 @@ window.APMACRO_MCQ = [
     "question": "The Long-Run Aggregate Supply (LRAS) curve is vertical because in the long run:",
     "choices": [
       "Price levels are sticky and do not change.",
-      "Changes in the price level do not affect the economy's potential output.",
+      "Government spending is constant.",
       "The economy is always in a recession.",
       "Wages and prices are flexible and adjust to the price level.",
-      "Government spending is constant."
+      "Changes in the price level do not affect the economy's potential output."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "In the long run, output depends on resources and technology, not the price level. The vertical line represents 'Full Employment' GDP."
   },
   {
@@ -1075,12 +1075,12 @@ window.APMACRO_MCQ = [
     "question": "The upward slope of the SRAS curve is primarily explained by:",
     "choices": [
       "The law of demand.",
-      "Sticky wages and prices in the short run.",
+      "The wealth effect.",
       "The vertical nature of the LRAS curve.",
       "Changes in the money supply.",
-      "The wealth effect."
+      "Sticky wages and prices in the short run."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Firms see higher prices as an opportunity for more profit because their costs (wages) are often 'stuck' by contracts in the short run."
   },
   {
@@ -1113,12 +1113,12 @@ window.APMACRO_MCQ = [
     "question": "If a household's disposable income increases by $1,000 and they spend $900 of it, their MPC is:",
     "choices": [
       "0.1.",
-      "0.9.",
+      "900.",
       "1.1.",
       "10.",
-      "900."
+      "0.9."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "$MPC = \text{Change in Consumption} / \text{Change in Income} = 900 / 1000 = 0.9$."
   },
   {
@@ -1151,12 +1151,12 @@ window.APMACRO_MCQ = [
     "question": "If the real interest rate decreases, how will it affect the AD/AS model?",
     "choices": [
       "AD will shift left.",
-      "AD will shift right.",
+      "The price level will decrease.",
       "SRAS will shift left.",
       "LRAS will shift left.",
-      "The price level will decrease."
+      "AD will shift right."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Lower interest rates make borrowing cheaper for firms and households, increasing Investment (I) and Consumption (C), which shifts AD right."
   },
   {
@@ -1170,12 +1170,12 @@ window.APMACRO_MCQ = [
     "question": "If the price level in the United States increases relative to the price level in the rest of the world, what will happen to U.S. Net Exports and Aggregate Demand?",
     "choices": [
       "Net Exports increase; AD shifts right.",
-      "Net Exports decrease; AD shifts left.",
+      "There is no effect on AD.",
       "Net Exports increase; AD shifts left.",
       "Net Exports decrease; AD shifts right.",
-      "There is no effect on AD."
+      "Net Exports decrease; AD shifts left."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "U.S. goods become more expensive for foreigners (Exports down) and foreign goods become cheaper for Americans (Imports up). Since $Xn$ is a component of $AD$, the curve shifts left."
   },
   {
@@ -1208,12 +1208,12 @@ window.APMACRO_MCQ = [
     "question": "A significant increase in the price of electricity used in manufacturing will cause:",
     "choices": [
       "A rightward shift in Aggregate Demand.",
-      "A leftward shift in Short-Run Aggregate Supply.",
+      "An increase in the natural rate of unemployment.",
       "A rightward shift in Long-Run Aggregate Supply.",
       "A move down along the SRAS curve.",
-      "An increase in the natural rate of unemployment."
+      "A leftward shift in Short-Run Aggregate Supply."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Electricity is a key input cost. Higher input costs reduce the profitability of production at every price level, shifting SRAS left."
   },
   {
@@ -1265,12 +1265,12 @@ window.APMACRO_MCQ = [
     "question": "Which of the following will shift the Long-Run Aggregate Supply (LRAS) curve to the right?",
     "choices": [
       "A decrease in the price level.",
-      "An increase in the labor force participation rate.",
+      "A temporary decrease in business taxes.",
       "A decrease in the money supply.",
       "Expansionary fiscal policy.",
-      "A temporary decrease in business taxes."
+      "An increase in the labor force participation rate."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "LRAS shifts only when the productive capacity of the nation changes (more resources or better technology). More workers increases that capacity."
   },
   {
@@ -1303,12 +1303,12 @@ window.APMACRO_MCQ = [
     "question": "If the government decreases taxes by $20 billion and the MPC is 0.8, what is the maximum possible increase in Real GDP?",
     "choices": [
       "$100 billion.",
-      "$80 billion.",
+      "$25 billion.",
       "$16 billion.",
       "$20 billion.",
-      "$25 billion."
+      "$80 billion."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Tax Multiplier = $-0.8 / 0.2 = -4$. $\text{Change in GDP} = \text{Change in Taxes} \times \text{Multiplier}$. $-20 \times -4 = +80$."
   },
   {
@@ -1341,12 +1341,12 @@ window.APMACRO_MCQ = [
     "question": "In the Keynesian view, during a deep recession, the SRAS curve is:",
     "choices": [
       "Vertical.",
-      "Relatively flat.",
+      "Perfectly inelastic.",
       "Downward sloping.",
       "Identical to the AD curve.",
-      "Perfectly inelastic."
+      "Relatively flat."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Keynesians argue that in a recession, there are many idle resources, so output can increase without causing much inflation, making the curve flat."
   },
   {
@@ -1379,12 +1379,12 @@ window.APMACRO_MCQ = [
     "question": "If government spending is $500 billion and tax revenue is $450 billion, the government is running a:",
     "choices": [
       "Budget surplus.",
-      "Budget deficit.",
+      "Monetary expansion.",
       "Balanced budget.",
       "Trade surplus.",
-      "Monetary expansion."
+      "Budget deficit."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A budget deficit occurs when government spending exceeds tax revenue. In this case, $500 billion - $450 billion = a $50 billion deficit."
   },
   {
@@ -1417,13 +1417,13 @@ window.APMACRO_MCQ = [
     "question": "Refer to the AD/AS graph below. The vertical curve labeled LRAS represents:",
     "graphSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 310 260' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='168' y='244' text-anchor='middle' class='svg-label'>Real GDP</text><text x='16' y='125' text-anchor='middle' class='svg-label' transform='rotate(-90,16,125)'>Price Level</text><line x1='195' y1='25' x2='195' y2='218' stroke='#f97316' stroke-width='2.5'/><text x='198' y='40' fill='#f97316' font-weight='600'>LRAS</text><line x1='60' y1='55' x2='270' y2='210' stroke='#16a34a' stroke-width='2.5'/><text x='258' y='205' fill='#16a34a' font-weight='600'>SRAS</text><line x1='75' y1='200' x2='255' y2='60' stroke='#3b82f6' stroke-width='2.5'/><text x='244' y='58' fill='#3b82f6' font-weight='600'>AD</text><circle cx='168' cy='130' r='5' fill='#94a3b8'/><line x1='50' y1='130' x2='168' y2='130' stroke-width='1.5' stroke-dasharray='5,4' class='svg-axis svg-dashed'/><line x1='168' y1='130' x2='168' y2='220' stroke-width='1.5' stroke-dasharray='5,4' class='svg-axis svg-dashed'/><text x='38' y='134' text-anchor='end' class='svg-label'>P*</text><text x='168' y='234' text-anchor='middle' class='svg-label'>Y*</text></svg>",
     "choices": [
-      "Zero unemployment.",
       "Potential GDP.",
+      "Zero unemployment.",
       "Maximum possible inflation.",
       "The current recessionary gap.",
       "The minimum price level."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "LRAS represents the level of production the economy is capable of when it uses all resources at their natural rates."
   },
   {
@@ -1455,13 +1455,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "According to the interest rate effect, a decrease in the price level leads to:",
     "choices": [
-      "Higher money demand and higher interest rates.",
       "Lower money demand and lower interest rates.",
+      "Higher money demand and higher interest rates.",
       "A shift left of the AD curve.",
       "A shift right of the SRAS curve.",
       "No change in investment."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Lower prices mean people need less cash. They save more, which lowers interest rates, increasing investment."
   },
   {
@@ -1474,13 +1474,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "An economist is drawing the supply side of an AD/AS model for the entire economy. The curve she draws represents the total amount of goods and services that:",
     "choices": [
-      "Consumers want to buy at a given price.",
       "Firms are willing and able to produce at a given price level.",
+      "Consumers want to buy at a given price.",
       "The government orders firms to produce.",
       "Is exported to other countries.",
       "Is held in inventory by retailers."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Aggregate supply represents the total quantity of goods and services that all firms in the economy are willing and able to produce at each price level."
   },
   {
@@ -1493,13 +1493,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "The foreign purchase effect suggests that a higher domestic price level will:",
     "choices": [
-      "Increase exports and decrease imports.",
       "Decrease exports and increase imports.",
+      "Increase exports and decrease imports.",
       "Have no effect on net exports.",
       "Cause the AD curve to shift to the right.",
       "Cause the SRAS curve to shift to the left."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A higher domestic price level makes domestic goods more expensive for foreign buyers, reducing exports, while foreign goods become relatively cheaper for domestic consumers, increasing imports. Both effects reduce net exports."
   },
   {
@@ -1512,13 +1512,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "The formula for the simple spending multiplier is:",
     "choices": [
-      "1 / MPC",
       "1 / MPS",
+      "1 / MPC",
       "MPC / MPS",
       "1 / (1 + MPC)",
       "MPS / MPC"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "It can also be written as $1 / (1 - MPC)$."
   },
   {
@@ -1550,13 +1550,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "An increase in the income levels of a nation's major trading partners will cause:",
     "choices": [
-      "A decrease in that nation's exports.",
       "An increase in that nation's exports and AD.",
+      "A decrease in that nation's exports.",
       "A shift left in that nation's SRAS curve.",
       "No change in the trade balance.",
       "An increase in imports only."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "When a nation's trading partners experience income growth, their consumers have more purchasing power and buy more imports, which are that nation's exports. Higher exports increase net exports (Xn) and shift AD to the right."
   },
   {
@@ -1569,13 +1569,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "The government of Nordavia collected $900 billion in tax revenue last year while spending only $820 billion on all programs and services. Based on these figures, Nordavia's budget is in a situation where:",
     "choices": [
-      "Taxes equal spending.",
       "Taxes exceed spending.",
+      "Taxes equal spending.",
       "Spending exceeds taxes.",
       "Exports exceed imports.",
       "The money supply increases."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A budget surplus occurs when the government's tax revenue exceeds its spending for a given fiscal year."
   },
   {
@@ -1588,13 +1588,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "A household's disposable income rises from $3,000 to $3,500 per month, and they increase their monthly savings from $200 to $300. Their Marginal Propensity to Save (MPS) is calculated as the change in _______ divided by the change in _______.",
     "choices": [
-      "Saving; Consumption",
       "Saving; Disposable Income",
+      "Saving; Consumption",
       "Consumption; Saving",
       "Income; Saving",
       "Taxes; Income"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The Marginal Propensity to Save (MPS) measures the fraction of each additional dollar of disposable income that is saved rather than spent. It is calculated as the change in saving divided by the change in disposable income."
   },
   {
@@ -1607,13 +1607,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "When oil prices rise sharply, a trucking firm immediately faces higher fuel costs but cannot renegotiate its three-year labor contracts right away. This inability of input costs to adjust quickly places this firm in the macroeconomic 'short run,' which is defined as a period in which:",
     "choices": [
-      "All prices are flexible.",
       "Some input prices, like wages, are slow to adjust.",
+      "All prices are flexible.",
       "The government cannot change its spending.",
       "The economy is always at full employment.",
       "Only one year has passed."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "In macroeconomics, the short run is defined as the period during which some input prices, particularly wages, are slow to adjust to changes in the overall price level. This 'stickiness' is what gives the SRAS curve its upward slope."
   },
   {
@@ -1779,12 +1779,12 @@ window.APMACRO_MCQ = [
     "question": "Which of the following would happen if a consumer moves $1,000 from their checking account to a savings account?",
     "choices": [
       "M1 increases and M2 decreases.",
-      "M1 decreases and M2 remains unchanged.",
+      "M1 remains unchanged and M2 remains unchanged.",
       "M1 remains unchanged and M2 increases.",
       "Both M1 and M2 decrease.",
-      "M1 remains unchanged and M2 remains unchanged."
+      "M1 decreases and M2 remains unchanged."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Checking accounts are in M1 (most liquid). Savings accounts are in M2 but not M1. Since M2 includes everything in M1, moving money between them changes M1 but the total M2 stays the same."
   },
   {
@@ -1798,12 +1798,12 @@ window.APMACRO_MCQ = [
     "question": "A bank has $100,000 in demand deposits and a required reserve ratio of 10%. If the bank currently holds $25,000 in total reserves, what is the maximum amount of new loans it can create?",
     "choices": [
       "$10,000",
-      "$15,000",
+      "$90,000",
       "$25,000",
       "$75,000",
-      "$90,000"
+      "$15,000"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Required Reserves = 10% of $100,000 = $10,000. Excess Reserves = Total ($25k) - Required ($10k) = $15k. Banks can only lend out their excess reserves."
   },
   {
@@ -1817,12 +1817,12 @@ window.APMACRO_MCQ = [
     "question": "Which of the following is the primary tool used by the Federal Reserve to change the money supply?",
     "choices": [
       "Changing the personal income tax rate.",
-      "Open market operations.",
+      "Issuing new currency to the public.",
       "Regulating the stock market.",
       "Changing government transfer payments.",
-      "Issuing new currency to the public."
+      "Open market operations."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Open market operations (buying and selling bonds) are the most frequently used tool of the Fed."
   },
   {
@@ -1874,12 +1874,12 @@ window.APMACRO_MCQ = [
     "question": "At the end of each trading day, some banks find themselves with surplus reserves while others have a shortfall. To meet their reserve requirements, banks with shortfalls borrow from banks with surpluses. The Federal Funds Rate is the interest rate that:",
     "choices": [
       "The Fed charges consumers for mortgages.",
-      "Banks charge each other for overnight loans of reserves.",
+      "The Fed pays on bank reserves.",
       "The government pays on its national debt.",
       "Corporations pay on their short-term bonds.",
-      "The Fed pays on bank reserves."
+      "Banks charge each other for overnight loans of reserves."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "This is the target rate the Fed influences through open market operations."
   },
   {
@@ -1931,12 +1931,12 @@ window.APMACRO_MCQ = [
     "question": "An increase in the government's budget deficit will shift the:",
     "choices": [
       "Supply of loanable funds to the right.",
-      "Demand for loanable funds to the right.",
+      "Money demand curve to the right.",
       "Demand for loanable funds to the left.",
       "Supply of money to the left.",
-      "Money demand curve to the right."
+      "Demand for loanable funds to the right."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "When the government runs a deficit, it must borrow. This increases the demand for loans in the loanable funds market, raising real interest rates."
   },
   {
@@ -1969,12 +1969,12 @@ window.APMACRO_MCQ = [
     "question": "If the Federal Reserve increases the reserve requirement, what will be the effect on the money multiplier and the money supply?",
     "choices": [
       "Multiplier: Increase; Money Supply: Increase",
-      "Multiplier: Decrease; Money Supply: Decrease",
+      "Multiplier: No change; Money Supply: Decrease",
       "Multiplier: Increase; Money Supply: Decrease",
       "Multiplier: Decrease; Money Supply: Increase",
-      "Multiplier: No change; Money Supply: Decrease"
+      "Multiplier: Decrease; Money Supply: Decrease"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A higher $rr$ means banks must keep more and lend less. The multiplier ($1/rr$) gets smaller, and the total money supply shrinks."
   },
   {
@@ -1988,12 +1988,12 @@ window.APMACRO_MCQ = [
     "question": "Why is the Federal Reserve considered 'independent' within the government?",
     "choices": [
       "It does not have to follow any federal laws.",
-      "Its decisions do not require approval from the President or Congress.",
+      "It is owned by the 50 state governments.",
       "It is funded entirely by private donations.",
       "It only operates during a recession.",
-      "It is owned by the 50 state governments."
+      "Its decisions do not require approval from the President or Congress."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Independence helps the Fed make long-term economic decisions without worrying about short-term political pressure."
   },
   {
@@ -2026,12 +2026,12 @@ window.APMACRO_MCQ = [
     "question": "The Federal Reserve is debating whether to raise or lower the fraction of deposits that commercial banks must hold rather than lend out. By adjusting this fraction, what is the Fed primarily seeking to control?",
     "choices": [
       "Prevent banks from making any profits.",
-      "Give the Fed control over the lending ability of banks.",
+      "Eliminate the need for the discount rate.",
       "Ensure the government has enough money to spend.",
       "Protect the gold reserves of the nation.",
-      "Eliminate the need for the discount rate."
+      "Give the Fed control over the lending ability of banks."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "By changing the requirement, the Fed can speed up or slow down how much money banks 'create' through lending."
   },
   {
@@ -2045,12 +2045,12 @@ window.APMACRO_MCQ = [
     "question": "The Money Supply (MS) curve is usually drawn as a vertical line because:",
     "choices": [
       "People want to hold a fixed amount of cash regardless of interest rates.",
-      "The quantity of money is determined by the central bank independently of interest rates.",
+      "It reflects the horizontal nature of money demand.",
       "Interest rates have no effect on the economy.",
       "The Fed is required to keep the money supply constant by law.",
-      "It reflects the horizontal nature of money demand."
+      "The quantity of money is determined by the central bank independently of interest rates."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The Fed sets the supply, so it's a fixed quantity (vertical) until the Fed decides to change it."
   },
   {
@@ -2082,12 +2082,12 @@ window.APMACRO_MCQ = [
     "question": "If the Fed wants to increase the money supply, it should:",
     "choices": [
       "Sell bonds.",
-      "Buy bonds.",
+      "Sell gold.",
       "Increase taxes.",
       "Increase the discount rate.",
-      "Sell gold."
+      "Buy bonds."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "When the Fed buys bonds, it pays for them by crediting bank reserves, injecting new money into the banking system and increasing the money supply.",
     "unit": 4
   },
@@ -2101,12 +2101,12 @@ window.APMACRO_MCQ = [
     "question": "According to the Quantity Theory of Money ($MV = PY$), if the velocity of money (V) is constant, an increase in the money supply (M) must lead to:",
     "choices": [
       "A decrease in the price level (P).",
-      "An increase in nominal GDP ($PY$).",
+      "A decrease in velocity.",
       "A decrease in real GDP (Y).",
       "No change in the economy.",
-      "A decrease in velocity."
+      "An increase in nominal GDP ($PY$)."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "If the left side ($M \times V$) goes up, the right side ($P \times Y$, which is Nominal GDP) must go up to maintain the equality.",
     "unit": 4
   },
@@ -2120,13 +2120,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "Which of the following would increase the transaction demand for money?",
     "choices": [
-      "A decrease in the interest rate.",
       "An increase in the nominal GDP.",
+      "A decrease in the interest rate.",
       "A decrease in the price level.",
       "A decrease in consumer confidence.",
       "Improvements in banking technology."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "If Nominal GDP is higher (either more output or higher prices), people need more cash in their pockets to buy things."
   },
   {
@@ -2158,13 +2158,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "The opportunity cost of holding money as cash rather than in interest-bearing assets is:",
     "choices": [
-      "The price level.",
       "The nominal interest rate.",
+      "The price level.",
       "The real interest rate.",
       "The inflation rate.",
       "Zero."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "By holding cash, you are giving up the interest you *could* have earned. Therefore, the nominal interest rate is the cost of liquidity."
   },
   {
@@ -2177,13 +2177,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "If a bank has no excess reserves and the reserve requirement is 20%, a new deposit of $1,000 will allow this bank to make a maximum new loan of:",
     "choices": [
-      "$200",
       "$800",
+      "$200",
       "$1,000",
       "$5,000",
       "$4,000"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "They must keep $200 (20%) and can lend the remaining $800."
   },
   {
@@ -2234,13 +2234,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "A decrease in the price level will cause which of the following in the money market?",
     "choices": [
-      "The Money Supply to shift left.",
       "The Money Demand to shift left.",
+      "The Money Supply to shift left.",
       "The Money Demand to shift right.",
       "The interest rate to increase.",
       "A movement along the Money Demand curve."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "If things cost less, you don't need to hold as much cash in your pocket to go shopping. MD shifts left."
   },
   {
@@ -2253,13 +2253,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "A commercial bank receives $500,000 in new customer deposits. After reviewing Federal Reserve regulations, the bank's compliance officer sets aside a specific portion that cannot be loaned out. This portion represents the bank's:",
     "choices": [
-      "Have available to lend out to customers.",
       "Must keep on hand to meet Fed regulations.",
+      "Have available to lend out to customers.",
       "Borrow from other banks at the federal funds rate.",
       "Pay out in dividends to stockholders.",
       "Keep in their vaults as gold."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "It is the portion of deposits the bank is legally forbidden from lending."
   },
   {
@@ -2272,13 +2272,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "If the real interest rate is 5% and the expected real return on a new project is 4%, a rational firm will:",
     "choices": [
-      "Proceed with the project.",
       "Not proceed with the project.",
+      "Proceed with the project.",
       "Borrow money to fund the project.",
       "Lobby the Fed to increase interest rates.",
       "Increase its prices to cover the gap."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A rational firm will only invest in a project if the expected return exceeds the cost of borrowing. Since the real interest rate (5%) exceeds the project's expected return (4%), the firm will not proceed."
   },
   {
@@ -2291,13 +2291,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "The main disadvantage of a barter system is that it requires:",
     "choices": [
-      "A large supply of gold.",
       "A double coincidence of wants.",
+      "A large supply of gold.",
       "A central bank to set prices.",
       "A high inflation rate.",
       "The use of fiat currency."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A barter system requires a double coincidence of wants, meaning each party must have what the other desires. Money eliminates this problem by serving as a universally accepted medium of exchange."
   },
   {
@@ -2310,13 +2310,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "If interest rates in the economy fall, what will happen to the market value of existing bonds?",
     "choices": [
-      "The value will fall.",
       "The value will rise.",
+      "The value will fall.",
       "The value will remain the same.",
       "The coupon rate will increase.",
       "The face value will decrease."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "When rates fall, existing bonds with higher fixed rates become more valuable and sell for more."
   },
   {
@@ -2329,13 +2329,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "The Federal Deposit Insurance Corporation (FDIC) was created to:",
     "choices": [
-      "Set interest rates for mortgages.",
       "Prevent bank runs by guaranteeing deposits.",
+      "Set interest rates for mortgages.",
       "Print new paper currency.",
       "Regulate the stock market.",
       "Audit the Federal Reserve."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The FDIC insures bank deposits, giving depositors confidence that their money is safe even if a bank becomes insolvent. This reduces the incentive for depositors to withdraw funds during financial uncertainty, preventing bank runs."
   },
   {
@@ -2348,13 +2348,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "In most cases, the discount rate is set _______ the federal funds rate.",
     "choices": [
-      "Below",
       "Higher than",
+      "Below",
       "Equal to",
       "At zero compared to",
       "Independently of"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The Fed wants banks to borrow from each other first. The discount rate is higher to discourage banks from relying on the Fed for loans."
   },
   {
@@ -2387,12 +2387,12 @@ window.APMACRO_MCQ = [
     "question": "An increase in real income will shift the money demand curve to the _______ because people will ______.",
     "choices": [
       "Left; spend less.",
-      "Right; want to hold more cash for more transactions.",
-      "Left; buy more bonds.",
       "Right; save more in the bank.",
+      "Left; buy more bonds.",
+      "Right; want to hold more cash for more transactions.",
       "Right; pay more in taxes."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Higher real income leads to more economic transactions. People need to hold more cash to facilitate these additional transactions, increasing the demand for money."
   },
   {
@@ -2406,12 +2406,12 @@ window.APMACRO_MCQ = [
     "question": "If the Fed buys bonds, the _______ for loans will _______, leading to lower interest rates.",
     "choices": [
       "Demand; increase",
-      "Supply; increase",
-      "Demand; decrease",
       "Supply; decrease",
+      "Demand; decrease",
+      "Supply; increase",
       "Price; increase"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Buying bonds gives banks more reserves, increasing the supply of loans available."
   },
   {
@@ -2559,11 +2559,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Real GDP and the price level.",
       "The interest rate and investment.",
-      "Inflation and unemployment.",
       "Government spending and tax revenue.",
+      "Inflation and unemployment.",
       "Consumption and saving."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "The SRPC illustrates the inverse relationship between the inflation rate and the unemployment rate in the short run."
   },
   {
@@ -2577,12 +2577,12 @@ window.APMACRO_MCQ = [
     "question": "The Long-Run Phillips Curve (LRPC) is vertical at:",
     "choices": [
       "Zero percent inflation.",
-      "The natural rate of unemployment (NRU).",
+      "The point where cyclical unemployment is maximized.",
       "The point where the interest rate is zero.",
       "The maximum possible level of Real GDP.",
-      "The point where cyclical unemployment is maximized."
+      "The natural rate of unemployment (NRU)."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "In the long run, there is no trade-off between inflation and unemployment. The economy returns to its natural rate of unemployment regardless of the inflation rate."
   },
   {
@@ -2596,12 +2596,12 @@ window.APMACRO_MCQ = [
     "question": "If a government consistently runs budget deficits, the national debt will:",
     "choices": [
       "Decrease as the economy grows.",
-      "Increase by the amount of the yearly deficit.",
+      "Have no effect on future generations.",
       "Be eliminated by the 'crowding out' effect.",
       "Only increase if the Fed buys bonds.",
-      "Have no effect on future generations."
+      "Increase by the amount of the yearly deficit."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The national debt is the accumulation of all past annual deficits minus any surpluses."
   },
   {
@@ -2616,11 +2616,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "Nominal GDP.",
       "The Consumer Price Index (CPI).",
-      "Real GDP per capita.",
       "The money supply (M2).",
+      "Real GDP per capita.",
       "The labor force participation rate."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Real GDP per capita adjusts for both inflation and population size, making it the best indicator of a country's rising standard of living."
   },
   {
@@ -2634,12 +2634,12 @@ window.APMACRO_MCQ = [
     "question": "According to the Quantity Theory of Money, in the long run, an increase in the money supply will lead primarily to:",
     "choices": [
       "An increase in Real GDP.",
-      "An increase in the price level (inflation).",
+      "A shift left of the LRAS curve.",
       "A decrease in the velocity of money.",
       "A decrease in nominal interest rates to zero.",
-      "A shift left of the LRAS curve."
+      "An increase in the price level (inflation)."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The formula $MV = PY$ assumes $V$ and $Y$ are stable in the long run. Therefore, changes in $M$ (Money Supply) lead directly to changes in $P$ (Price Level)."
   },
   {
@@ -2653,12 +2653,12 @@ window.APMACRO_MCQ = [
     "question": "The difference between a budget deficit and the national debt is that the deficit is a _______ variable, while the debt is a _______ variable.",
     "choices": [
       "Stock; Flow",
-      "Flow; Stock",
+      "Tax; Spending",
       "Nominal; Real",
       "Government; Private",
-      "Tax; Spending"
+      "Flow; Stock"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A deficit is measured over a specific time (usually a year), making it a 'flow.' The debt is an accumulated total at a specific point in time, making it a 'stock.'"
   },
   {
@@ -2673,11 +2673,11 @@ window.APMACRO_MCQ = [
     "choices": [
       "A decrease in the price level.",
       "An increase in government transfer payments.",
-      "An increase in net investment.",
       "A decrease in the money supply.",
+      "An increase in net investment.",
       "A movement along the PPC."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Net investment adds to the capital stock. More capital means the economy can produce more in the long run, shifting LRAS right."
   },
   {
@@ -2692,12 +2692,12 @@ window.APMACRO_MCQ = [
     "graphSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 250' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='270' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='270,220 258,215 258,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='155' y='244' text-anchor='middle' class='svg-label'>Capital Goods</text><text x='16' y='125' text-anchor='middle' class='svg-label' transform='rotate(-90,16,125)'>Consumer Goods</text><path d='M 50,35 Q 210,35 210,210' fill='none' stroke='#1e40af' stroke-width='2.5'/><text x='175' y='115' fill='#1e40af' font-weight='600'>PPC&#8321;</text><path d='M 50,35 Q 255,35 255,210' fill='none' stroke='#16a34a' stroke-width='2.5' stroke-dasharray='7,4'/><text x='228' y='120' fill='#16a34a' font-weight='600'>PPC&#8322;</text><polygon points='222,118 210,112 212,124' fill='#dc2626'/><line x1='212' y1='118' x2='222' y2='118' stroke='#dc2626' stroke-width='2'/></svg>",
     "choices": [
       "A movement from a point inside the PPC to a point on the PPC.",
-      "An outward shift of the PPC.",
+      "A steeper slope of the PPC.",
       "A movement along the PPC toward capital goods.",
       "An inward shift of the PPC.",
-      "A steeper slope of the PPC."
+      "An outward shift of the PPC."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A movement from inside the PPC to the curve (A) represents reducing unemployment, not growth. True economic growth means an increase in productive capacity, which is shown by an outward shift of the entire PPC."
   },
   {
@@ -2730,12 +2730,12 @@ window.APMACRO_MCQ = [
     "question": "The government of Verdania launches a national apprenticeship program, funding technical training and college education to raise worker productivity across all industries. This type of spending is an example of investing in:",
     "choices": [
       "Physical capital.",
-      "Human capital.",
+      "Natural resources.",
       "Financial capital.",
       "Technology.",
-      "Natural resources."
+      "Human capital."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Human capital is the knowledge and skills workers possess."
   },
   {
@@ -2749,12 +2749,12 @@ window.APMACRO_MCQ = [
     "question": "If the actual inflation rate is higher than the expected inflation rate, which of the following will occur in the short run?",
     "choices": [
       "The unemployment rate will be higher than the natural rate.",
-      "The unemployment rate will be lower than the natural rate.",
+      "The economy will move into a trough.",
       "The SRPC will shift to the left.",
       "Real GDP will decrease.",
-      "The economy will move into a trough."
+      "The unemployment rate will be lower than the natural rate."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "When inflation is higher than expected, firms see higher profits (since their costs/wages haven't adjusted yet) and hire more, driving unemployment below the natural rate."
   },
   {
@@ -2768,12 +2768,12 @@ window.APMACRO_MCQ = [
     "question": "Over the past century, a single American farm worker has gone from producing enough food for 10 people to producing enough for over 100, despite working roughly the same number of hours. The single most important factor driving this dramatic long-run increase in output per worker is:",
     "choices": [
       "A higher minimum wage.",
-      "Technological advancement.",
+      "A larger trade deficit.",
       "Increased government transfers.",
       "More money in circulation.",
-      "A larger trade deficit."
+      "Technological advancement."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Better technology allows workers to produce more output with the same amount of effort."
   },
   {
@@ -2787,12 +2787,12 @@ window.APMACRO_MCQ = [
     "question": "During a recession, automatic stabilizers like unemployment insurance will cause the budget deficit to:",
     "choices": [
       "Decrease automatically.",
-      "Increase automatically.",
+      "Shift the LRAS curve left.",
       "Remain unchanged.",
       "Be eliminated by the Fed.",
-      "Shift the LRAS curve left."
+      "Increase automatically."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "In a recession, more people qualify for benefits (spending rises) and fewer people are working/paying taxes (revenue falls), which naturally increases the deficit."
   },
   {
@@ -2825,12 +2825,12 @@ window.APMACRO_MCQ = [
     "question": "An increase in government transfer payments, while stimulating consumption, does NOT directly lead to economic growth because:",
     "choices": [
       "It decreases the money supply.",
-      "It does not increase the economy's productive capacity.",
+      "It lowers the natural rate of unemployment.",
       "It is always inflationary.",
       "It leads to a trade surplus.",
-      "It lowers the natural rate of unemployment."
+      "It does not increase the economy's productive capacity."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Growth requires more resources or technology. Transfer payments redistribute income but don't add new 'tools' to the economy."
   },
   {
@@ -2843,13 +2843,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "Lower real interest rates generally encourage economic growth by increasing:",
     "choices": [
-      "The budget deficit.",
       "Investment in physical capital.",
+      "The budget deficit.",
       "The inflation rate.",
       "The demand for money.",
       "Taxes on corporations."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Cheap borrowing leads to more factories and machines, which builds capital stock."
   },
   {
@@ -2900,13 +2900,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "To encourage factories to modernize their equipment and boost long-run output, Congress passes a law allowing firms to reduce their tax bill for every dollar they spend on new machinery. This type of legislation is best described as an investment tax credit, which is a policy that:",
     "choices": [
-      "Increases taxes on business profits.",
       "Provides tax breaks to firms that buy new capital equipment.",
+      "Increases taxes on business profits.",
       "Increases the budget surplus.",
       "Slows down the economy to control inflation.",
       "Reduces the supply of loanable funds."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "This is a supply-side tool designed to increase investment and long-run growth."
   },
   {
@@ -2938,13 +2938,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "A central bank's tighter monetary policy causes the annual inflation rate to fall from 8% to 3% over two years — prices are still rising, just more slowly. An economist describing this improvement in price stability would call it:",
     "choices": [
-      "A decrease in the general price level.",
       "A reduction in the rate of inflation.",
+      "A decrease in the general price level.",
       "An increase in the unemployment rate.",
       "A shift left of the LRAS curve.",
       "A period of zero interest rates."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Disinflation is a decrease in the rate of inflation, not a decrease in the price level. Prices are still rising, just at a slower pace (e.g., from 5% to 2%). This is distinct from deflation, which is an actual decline in the general price level."
   },
   {
@@ -2995,13 +2995,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "The legislature of Caldonia is debating whether to fund a new fleet of fighter jets, a university scholarship program, or a bank stabilization fund. An economist advises that one of these options represents public investment in human capital. Which option is she referring to?",
     "choices": [
-      "New fighter jets.",
       "Education and job training.",
+      "New fighter jets.",
       "Bank bailouts.",
       "Interest on the debt.",
       "Stock market subsidies."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Improving the 'human' element of production."
   },
   {
@@ -3014,13 +3014,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "A nation's debt is generally considered sustainable if:",
     "choices": [
-      "The debt is zero.",
       "The debt-to-GDP ratio is stable or falling over time.",
+      "The debt is zero.",
       "The government never runs a deficit.",
       "The Fed prints money to pay for it.",
       "The interest rate is higher than the growth rate."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "If the economy grows faster than the debt, the burden of the debt actually shrinks relative to the country's ability to pay."
   },
   {
@@ -3033,13 +3033,13 @@ window.APMACRO_MCQ = [
     "source": "Generated",
     "question": "Which of the following is NOT a supply-side policy?",
     "choices": [
-      "Deregulating industries.",
       "Increasing government transfer payments.",
+      "Deregulating industries.",
       "Cutting corporate taxes.",
       "Investing in R&D.",
       "Providing education vouchers."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Transfers are a demand-side tool (they increase $C$)."
   },
   {
@@ -3053,12 +3053,12 @@ window.APMACRO_MCQ = [
     "question": "The theory of 'Rational Expectations' suggests that:",
     "choices": [
       "People are stupid and never learn from the past.",
-      "People use all available information to predict the future, making anticipated policy ineffective.",
-      "Government policy always works as intended.",
       "Inflation is always zero.",
+      "Government policy always works as intended.",
+      "People use all available information to predict the future, making anticipated policy ineffective.",
       "The SRPC is vertical."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "If people see a stimulus coming, they raise prices/wages immediately, 'canceling out' the effect of the stimulus on Real GDP."
   },
   {
@@ -3129,12 +3129,12 @@ window.APMACRO_MCQ = [
     "question": "If the expected inflation rate is 4% and the actual inflation rate is 6%, who is 'worse off'?",
     "choices": [
       "Borrowers with fixed-rate loans.",
-      "Lenders with fixed-rate loans.",
-      "The government (a borrower).",
       "Stock market investors.",
+      "The government (a borrower).",
+      "Lenders with fixed-rate loans.",
       "Waiters who receive tips in cash."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Lenders get paid back in dollars that lost value faster than they planned."
   },
   {
@@ -3148,12 +3148,12 @@ window.APMACRO_MCQ = [
     "question": "The Phillips curve is named after the economist who first observed the trade-off in:",
     "choices": [
       "The United States.",
-      "The United Kingdom.",
-      "Germany.",
       "Japan.",
+      "Germany.",
+      "The United Kingdom.",
       "Canada."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A.W. Phillips published his famous paper based on British data."
   },
   {
@@ -3281,12 +3281,12 @@ window.APMACRO_MCQ = [
     "question": "In the balance of payments, if the current account is in a deficit of $50 billion, the financial account must be in a:",
     "choices": [
       "Deficit of $50 billion.",
-      "Surplus of $50 billion.",
+      "Balanced state.",
       "Surplus of $100 billion.",
       "Deficit of $0.",
-      "Balanced state."
+      "Surplus of $50 billion."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "By definition, the sum of the Current and Financial accounts must equal zero (ignoring statistical discrepancies)."
   },
   {
@@ -3338,12 +3338,12 @@ window.APMACRO_MCQ = [
     "question": "Which of the following is an example of Foreign Direct Investment?",
     "choices": [
       "A Japanese citizen buying 10 shares of a U.S. tech company.",
-      "A German car manufacturer building a new assembly plant in South Carolina.",
+      "An American bank lending money to a Mexican farmer.",
       "The U.S. government giving foreign aid to a developing nation.",
       "A Brazilian tourist spending money in Miami.",
-      "An American bank lending money to a Mexican farmer."
+      "A German car manufacturer building a new assembly plant in South Carolina."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "FDI involves the direct ownership or construction of physical facilities in a foreign country."
   },
   {
@@ -3357,12 +3357,12 @@ window.APMACRO_MCQ = [
     "question": "An increase in 'Capital Inflow' to a country is most likely caused by:",
     "choices": [
       "A decrease in the country's real interest rates.",
-      "An increase in the country's political stability and interest rates.",
+      "A decrease in the demand for domestic assets.",
       "A trade surplus in the current account.",
       "High domestic inflation.",
-      "A decrease in the demand for domestic assets."
+      "An increase in the country's political stability and interest rates."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Capital flows toward stability and higher returns (interest rates)."
   },
   {
@@ -3395,12 +3395,12 @@ window.APMACRO_MCQ = [
     "question": "The 'Supply of Dollars' in the foreign exchange market comes from:",
     "choices": [
       "Foreigners wanting to buy American goods.",
-      "Americans wanting to buy foreign goods or assets.",
+      "The U.S. Treasury paying off its debt.",
       "The Federal Reserve printing money.",
       "Foreign central banks holding U.S. reserves.",
-      "The U.S. Treasury paying off its debt."
+      "Americans wanting to buy foreign goods or assets."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "To buy anything from abroad, Americans must 'supply' their dollars to the market to get the foreign currency they need."
   },
   {
@@ -3414,12 +3414,12 @@ window.APMACRO_MCQ = [
     "question": "In the Balance of Payments, a transaction that results in money flowing INTO a country is recorded as a:",
     "choices": [
       "Debit (-).",
-      "Credit (+).",
+      "Liability.",
       "Deficit.",
       "Transfer payment.",
-      "Liability."
+      "Credit (+)."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Credits are positive (+) because they represent money entering the domestic economy."
   },
   {
@@ -3433,12 +3433,12 @@ window.APMACRO_MCQ = [
     "question": "The theory of Purchasing Power Parity (PPP) suggests that in the long run, exchange rates should adjust so that:",
     "choices": [
       "All countries have the same inflation rate.",
-      "A unit of currency can buy the same amount of goods in any country.",
+      "The Dollar is the only global currency.",
       "Interest rates are equalized globally.",
       "Every country has a trade surplus.",
-      "The Dollar is the only global currency."
+      "A unit of currency can buy the same amount of goods in any country."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "PPP is the idea that exchange rates should reflect the relative prices of a basket of goods."
   },
   {
@@ -3452,12 +3452,12 @@ window.APMACRO_MCQ = [
     "question": "The central bank of Monrovia regularly buys and sells its own currency on international markets to ensure it always trades at exactly 3.5 to the U.S. dollar, regardless of shifts in supply and demand. This currency management system is called a:",
     "choices": [
       "Floating exchange rate.",
-      "Fixed (pegged) exchange rate.",
+      "Currency swap.",
       "Flexible exchange rate.",
       "Trade quota.",
-      "Currency swap."
+      "Fixed (pegged) exchange rate."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "This requires the central bank to intervene by buying or selling its own currency reserves."
   },
   {
@@ -3471,12 +3471,12 @@ window.APMACRO_MCQ = [
     "question": "A quota on imports will result in _______ domestic prices and _______ the quantity of imports.",
     "choices": [
       "Lower; decrease",
-      "Higher; decrease",
+      "Stable; eliminate",
       "Lower; increase",
       "Higher; increase",
-      "Stable; eliminate"
+      "Higher; decrease"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Restricting supply through a quota raises the price for domestic consumers."
   },
   {
@@ -3528,12 +3528,12 @@ window.APMACRO_MCQ = [
     "question": "When a U.S. citizen travels to Mexico and spends Pesos, this is a _______ for the U.S. Current Account and a _______ for Mexico's Current Account.",
     "choices": [
       "Credit; Debit",
-      "Debit; Credit",
+      "Transfer; Investment",
       "Credit; Credit",
       "Debit; Debit",
-      "Transfer; Investment"
+      "Debit; Credit"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Tourism is an import for the traveler's country (money out) and an export for the destination country (money in)."
   },
   {
@@ -3547,12 +3547,12 @@ window.APMACRO_MCQ = [
     "question": "Dividends paid to a U.S. citizen who owns shares in a South Korean company are recorded in the:",
     "choices": [
       "U.S. Financial Account.",
-      "U.S. Current Account.",
+      "Federal Reserve's vault.",
       "South Korean Financial Account.",
       "Trade Balance in goods.",
-      "Federal Reserve's vault."
+      "U.S. Current Account."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Investment income is part of the Current Account."
   },
   {
@@ -3566,12 +3566,12 @@ window.APMACRO_MCQ = [
     "question": "The supply of a foreign currency in the FOREX market is determined by:",
     "choices": [
       "Domestic demand for foreign exports.",
-      "Foreigners wanting to buy domestic goods and assets.",
-      "The domestic central bank.",
       "The world price of gold.",
+      "The domestic central bank.",
+      "Foreigners wanting to buy domestic goods and assets.",
       "The unemployment rate."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Foreigners 'supply' their currency when they want to trade it for ours to buy our stuff."
   },
   {
@@ -3585,12 +3585,12 @@ window.APMACRO_MCQ = [
     "question": "If 1 U.S. Dollar = 0.90 Euros, then 1 Euro equals approximately:",
     "choices": [
       "0.90 Dollars.",
-      "1.11 Dollars.",
-      "1.90 Dollars.",
       "0.10 Dollars.",
+      "1.90 Dollars.",
+      "1.11 Dollars.",
       "1.00 Dollar."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "$1 / 0.90 = 1.11$."
   },
   {
@@ -3604,12 +3604,12 @@ window.APMACRO_MCQ = [
     "question": "In a given year, the nation of Torovia sold $180 billion worth of goods and services to foreign buyers and purchased $220 billion worth from abroad. What is Torovia's Net Exports figure, and what is the correct formula used to calculate it?",
     "choices": [
       "Exports + Imports.",
-      "Exports - Imports.",
-      "Current Account + Financial Account.",
       "Domestic Consumption + Investment.",
+      "Current Account + Financial Account.",
+      "Exports - Imports.",
       "GDP - Taxes."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Simple trade balance formula."
   },
   {
@@ -3624,11 +3624,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Even the wealthiest nations on earth cannot fully satisfy all of their citizens' desires for goods, services, and leisure. This universal condition persists because:",
     "choices": [
-      "A) Human wants are unlimited while resources are limited",
-      "B) Some people are poor while others are wealthy",
-      "C) Governments do not distribute resources equally",
-      "D) Technology has not advanced enough to meet all needs",
-      "E) Markets are not perfectly competitive"
+      "Human wants are unlimited while resources are limited",
+      "Some people are poor while others are wealthy",
+      "Governments do not distribute resources equally",
+      "Technology has not advanced enough to meet all needs",
+      "Markets are not perfectly competitive"
     ],
     "answer": 0,
     "explanation": "Scarcity is the fundamental economic problem that human wants are unlimited while resources are limited. This is true regardless of wealth distribution (B), government policies (C), technological advancement (D), or market structure (E)."
@@ -3645,13 +3645,13 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If Maria chooses to study economics instead of watching television, the opportunity cost of studying is:",
     "choices": [
-      "A) The time spent studying economics",
-      "B) The satisfaction from watching television",
-      "C) The knowledge gained from studying economics",
-      "D) Both the time and money spent on economics",
-      "E) Zero, since studying is beneficial"
+      "The time spent studying economics",
+      "Both the time and money spent on economics",
+      "The knowledge gained from studying economics",
+      "The satisfaction from watching television",
+      "Zero, since studying is beneficial"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Opportunity cost is the value of the next best alternative forgone. When Maria studies instead of watching TV, she gives up the satisfaction from watching television. The time spent studying (A) is not the opportunity cost but the resource used. The knowledge gained (C) is a benefit, not a cost."
   },
   {
@@ -3666,13 +3666,13 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A point inside a country's production possibilities curve represents:",
     "choices": [
-      "A) Maximum efficiency in production",
-      "B) Unemployed or underemployed resources",
-      "C) Economic growth",
-      "D) Impossible production levels",
-      "E) Comparative advantage"
+      "Maximum efficiency in production",
+      "Impossible production levels",
+      "Economic growth",
+      "Unemployed or underemployed resources",
+      "Comparative advantage"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Points inside the PPC indicate that resources are not being fully utilized - there is unemployment or underemployment. Maximum efficiency (A) occurs on the curve, economic growth (C) shifts the curve outward, and impossible production (D) is represented by points outside the curve."
   },
   {
@@ -3687,13 +3687,13 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Country Alvos can produce a car in 200 worker-hours or a ton of wheat in 10 worker-hours. Country Borta can produce a car in 150 worker-hours or a ton of wheat in 12 worker-hours. Even though Borta is faster at making cars, Alvos should specialize in cars according to the principle of comparative advantage — because Alvos has comparative advantage when it:",
     "choices": [
-      "A) Can produce more of the good than any other country",
-      "B) Can produce the good at a lower opportunity cost than other countries",
-      "C) Has better technology for producing the good",
-      "D) Has more resources available for production",
-      "E) Can produce the good faster than other countries"
+      "Can produce more of the good than any other country",
+      "Has more resources available for production",
+      "Has better technology for producing the good",
+      "Can produce the good at a lower opportunity cost than other countries",
+      "Can produce the good faster than other countries"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Comparative advantage is based on opportunity cost, not absolute production levels. A country has comparative advantage when it can produce a good at a lower opportunity cost. Options A and E describe absolute advantage, while C and D describe potential sources but not the definition of comparative advantage."
   },
   {
@@ -3708,13 +3708,13 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In a market economy, the three basic economic questions (what, how, for whom) are answered primarily by:",
     "choices": [
-      "A) Government central planning",
-      "B) Traditional customs and practices",
-      "C) Price signals and market forces",
-      "D) International trade agreements",
-      "E) Corporate executives"
+      "Price signals and market forces",
+      "Traditional customs and practices",
+      "Government central planning",
+      "International trade agreements",
+      "Corporate executives"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "In a market economy, price signals and market forces determine what goods are produced, how they are produced, and for whom they are produced. Government planning (A) characterizes command economies, traditions (B) characterize traditional economies, and while trade (D) and executives (E) play roles, they are not the primary mechanism."
   },
   {
@@ -3729,11 +3729,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A country has unlimited wants but limited resources to produce goods and services. This economic problem is best addressed by",
     "choices": [
-      "A) Increasing government spending to stimulate demand",
-      "B) Making choices about how to allocate scarce resources efficiently",
-      "C) Printing more money to increase purchasing power",
-      "D) Reducing the population to decrease total wants",
-      "E) Importing all needed goods from other countries"
+      "Increasing government spending to stimulate demand",
+      "Making choices about how to allocate scarce resources efficiently",
+      "Printing more money to increase purchasing power",
+      "Reducing the population to decrease total wants",
+      "Importing all needed goods from other countries"
     ],
     "answer": 1,
     "explanation": "Scarcity requires making choices about resource allocation since resources are limited but wants are unlimited. Option A addresses demand but not scarcity. Option C creates inflation, not more resources. Options D and E are impractical solutions that don't address the fundamental economic problem."
@@ -3750,11 +3750,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Sarah can either work 4 hours at her part-time job earning $12/hour or study for her economics exam. If she chooses to study, her opportunity cost is",
     "choices": [
-      "A) The improved grade on her economics exam",
-      "B) $48 in foregone wages",
-      "C) The time spent studying",
-      "D) $12 per hour",
-      "E) The value of both working and studying"
+      "The improved grade on her economics exam",
+      "$48 in foregone wages",
+      "The time spent studying",
+      "$12 per hour",
+      "The value of both working and studying"
     ],
     "answer": 1,
     "explanation": "Opportunity cost is the value of the next best alternative forgone. If Sarah studies instead of working, she gives up $48 (4 hours × $12/hour). Option A is the benefit gained, not the cost. Option C is what she's doing, not what she's giving up. Option D is the hourly wage, not total opportunity cost. Option E double-counts."
@@ -3771,11 +3771,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If an economy is operating at a point inside its production possibilities curve, this indicates",
     "choices": [
-      "A) The economy is operating at full employment",
-      "B) Resources are being used inefficiently or are unemployed",
-      "C) The economy has achieved allocative efficiency",
-      "D) Economic growth is occurring",
-      "E) The opportunity cost of production is minimized"
+      "The economy is operating at full employment",
+      "Resources are being used inefficiently or are unemployed",
+      "The economy has achieved allocative efficiency",
+      "Economic growth is occurring",
+      "The opportunity cost of production is minimized"
     ],
     "answer": 1,
     "explanation": "Points inside the PPC represent inefficient use of resources or unemployment, as the economy could produce more of both goods. Option A describes points on the curve. Option C is about optimal resource allocation, not production efficiency. Option D would shift the curve outward. Option E is incorrect because opportunity costs exist regardless of efficiency level."
@@ -3792,11 +3792,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In a mixed economy, the allocation of resources is determined primarily by",
     "choices": [
-      "A) Central government planning alone",
-      "B) Market forces alone",
-      "C) Traditional customs and practices",
-      "D) A combination of market forces and government intervention",
-      "E) International trade agreements"
+      "Central government planning alone",
+      "Market forces alone",
+      "Traditional customs and practices",
+      "A combination of market forces and government intervention",
+      "International trade agreements"
     ],
     "answer": 3,
     "explanation": "Mixed economies combine market mechanisms with government intervention to address market failures and provide public goods. Option A describes command economies, Option B describes pure market economies, Option C describes traditional economies, and Option E is not a primary resource allocation mechanism."
@@ -3813,11 +3813,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In the circular flow model, households provide factors of production to firms in exchange for",
     "choices": [
-      "A) Goods and services",
-      "B) Factor payments such as wages, rent, and profits",
-      "C) Government subsidies",
-      "D) Investment capital",
-      "E) Tax revenues"
+      "Goods and services",
+      "Factor payments such as wages, rent, and profits",
+      "Government subsidies",
+      "Investment capital",
+      "Tax revenues"
     ],
     "answer": 1,
     "explanation": "In factor markets, households supply labor, land, and capital to firms and receive factor payments (wages, rent, interest, profits) in return. Option A describes what happens in product markets. Options C and E involve government flows. Option D flows from households to firms as savings/investment."
@@ -3834,11 +3834,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An increase in the demand for computer programmers will most likely result in",
     "choices": [
-      "A) A decrease in wages for computer programmers",
-      "B) An increase in wages for computer programmers",
-      "C) No change in wages but an increase in employment",
-      "D) A decrease in the supply of computer programming services",
-      "E) Lower prices for computer software"
+      "A decrease in wages for computer programmers",
+      "An increase in wages for computer programmers",
+      "No change in wages but an increase in employment",
+      "A decrease in the supply of computer programming services",
+      "Lower prices for computer software"
     ],
     "answer": 1,
     "explanation": "Increased demand for labor (computer programmers) shifts the demand curve right, leading to higher wages and higher employment. Option A suggests the opposite effect. Option C ignores price effects in factor markets. Option D confuses demand with supply. Option E refers to product markets, not factor markets."
@@ -3855,14 +3855,14 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If consumer income increases and pizza is a normal good, what will happen in the pizza market?",
     "choices": [
-      "A) Demand will decrease, leading to lower prices and quantities",
-      "B) Supply will increase, leading to lower prices and higher quantities",
-      "C) Demand will increase, leading to higher prices and quantities",
-      "D) Supply will decrease, leading to higher prices and lower quantities",
-      "E) Both demand and supply will increase equally, keeping prices constant"
+      "Demand will increase, leading to higher prices and quantities",
+      "Supply will increase, leading to lower prices and higher quantities",
+      "Demand will decrease, leading to lower prices and quantities",
+      "Supply will decrease, leading to higher prices and lower quantities",
+      "Both demand and supply will increase equally, keeping prices constant"
     ],
-    "answer": 2,
-    "explanation": "For normal goods, increased consumer income increases demand, shifting demand right and resulting in higher equilibrium price and quantity. Option A describes inferior goods. Option B confuses demand and supply shifts. Option D describes a supply decrease. Option E assumes equal shifts with no evidence."
+    "answer": 0,
+    "explanation": "For normal goods, increased consumer income increases demand, shifting demand right and resulting in higher equilibrium price and quantity. Option C describes inferior goods. Option B confuses demand and supply shifts. Option D describes a supply decrease. Option E assumes equal shifts with no evidence."
   },
   {
     "id": "macro_u1_q013",
@@ -3876,11 +3876,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which of the following best illustrates the concept of scarcity?",
     "choices": [
-      "A) A wealthy person choosing between two expensive cars",
-      "B) A government deciding how to allocate its limited budget among education, defense, and healthcare",
-      "C) A company experiencing decreased sales during a recession",
-      "D) A student having difficulty understanding economic concepts",
-      "E) A country having a trade deficit with its trading partners"
+      "A wealthy person choosing between two expensive cars",
+      "A government deciding how to allocate its limited budget among education, defense, and healthcare",
+      "A company experiencing decreased sales during a recession",
+      "A student having difficulty understanding economic concepts",
+      "A country having a trade deficit with its trading partners"
     ],
     "answer": 1,
     "explanation": "Scarcity involves limited resources requiring choices about allocation. The government has limited budget (scarce resource) and must choose among competing uses. Option A shows choice but not resource limitation. Option C is about demand changes. Option D is about ability, not resource scarcity. Option E is about trade imbalances."
@@ -3897,11 +3897,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A government spends $1 billion on a new highway instead of improving public schools. The opportunity cost of this decision is",
     "choices": [
-      "A) $1 billion",
-      "B) The new highway that was built",
-      "C) The improved public schools that were not funded",
-      "D) The total benefits from both the highway and school improvements",
-      "E) The administrative costs of managing the highway project"
+      "$1 billion",
+      "The new highway that was built",
+      "The improved public schools that were not funded",
+      "The total benefits from both the highway and school improvements",
+      "The administrative costs of managing the highway project"
     ],
     "answer": 2,
     "explanation": "Opportunity cost is the value of the best alternative forgone. The government gave up improved schools to build the highway. Option A is the monetary cost, not opportunity cost. Option B is what was gained, not lost. Option D double-counts benefits. Option E is an additional cost, not opportunity cost."
@@ -3918,11 +3918,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which of the following would cause a production possibilities curve to shift outward?",
     "choices": [
-      "A) A decrease in unemployment",
-      "B) An improvement in technology",
-      "C) A reallocation of resources from one industry to another",
-      "D) An increase in consumer demand",
-      "E) A decrease in government spending"
+      "A decrease in unemployment",
+      "An improvement in technology",
+      "A reallocation of resources from one industry to another",
+      "An increase in consumer demand",
+      "A decrease in government spending"
     ],
     "answer": 1,
     "explanation": "Outward PPC shifts represent economic growth from increased productive capacity. Technological improvements increase efficiency and productive capability. Option A moves the economy to the curve but doesn't shift it. Option C is movement along the curve. Options D and E affect demand but not production capacity."
@@ -3939,11 +3939,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Two countries will benefit from trade when each country",
     "choices": [
-      "A) Has an absolute advantage in producing at least one good",
-      "B) Has the same opportunity costs for producing both goods",
-      "C) Specializes in producing the good in which it has comparative advantage",
-      "D) Produces only the goods it can make most efficiently",
-      "E) Exports goods that use its most abundant resources"
+      "Has an absolute advantage in producing at least one good",
+      "Has the same opportunity costs for producing both goods",
+      "Specializes in producing the good in which it has comparative advantage",
+      "Produces only the goods it can make most efficiently",
+      "Exports goods that use its most abundant resources"
     ],
     "answer": 2,
     "explanation": "Trade benefits both countries when each specializes in goods where it has comparative advantage (lowest opportunity cost). Option A confuses absolute with comparative advantage. Option B eliminates gains from trade. Option D refers to absolute advantage. Option E describes factor endowments but not necessarily comparative advantage."
@@ -3960,11 +3960,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "The primary advantage of a market economy over a command economy is that market economies",
     "choices": [
-      "A) Guarantee equal income distribution",
-      "B) Eliminate unemployment completely",
-      "C) Provide signals through prices to guide resource allocation",
-      "D) Ensure all citizens receive basic necessities",
-      "E) Prevent environmental degradation"
+      "Guarantee equal income distribution",
+      "Eliminate unemployment completely",
+      "Provide signals through prices to guide resource allocation",
+      "Ensure all citizens receive basic necessities",
+      "Prevent environmental degradation"
     ],
     "answer": 2,
     "explanation": "Market economies use price signals to efficiently allocate resources based on supply and demand. This provides information and incentives that command economies lack. Options A and D describe equity goals, not efficiency advantages. Option B is unrealistic for any system. Option E may actually be better addressed by government intervention."
@@ -3981,11 +3981,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In the circular flow model with government, which represents a leakage from the flow of income?",
     "choices": [
-      "A) Government purchases of goods and services",
-      "B) Household consumption of domestic products",
-      "C) Business investment in new equipment",
-      "D) Household savings deposited in banks",
-      "E) Firms hiring additional workers"
+      "Government purchases of goods and services",
+      "Household consumption of domestic products",
+      "Business investment in new equipment",
+      "Household savings deposited in banks",
+      "Firms hiring additional workers"
     ],
     "answer": 3,
     "explanation": "Leakages remove money from the circular flow. Savings represent income not spent on consumption, flowing out of the immediate spending stream. Options A and C are injections that add to the flow. Options B and E represent normal circular flow between households and firms."
@@ -4002,11 +4002,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the government imposes a minimum wage above the equilibrium wage in a competitive labor market, the most likely result will be",
     "choices": [
-      "A) An increase in employment",
-      "B) A decrease in the demand for labor",
-      "C) An increase in the supply of labor and a decrease in employment",
-      "D) No change in employment levels",
-      "E) An increase in both supply and demand for labor"
+      "An increase in employment",
+      "A decrease in the demand for labor",
+      "An increase in the supply of labor and a decrease in employment",
+      "No change in employment levels",
+      "An increase in both supply and demand for labor"
     ],
     "answer": 2,
     "explanation": "A minimum wage above equilibrium creates a price floor, leading to excess supply of labor (more people want jobs at higher wage) but lower quantity demanded by firms (fewer jobs offered). This results in unemployment. Option A ignores the law of demand. Option B confuses movement along curve with curve shifts. Option D ignores market effects. Option E is contradictory."
@@ -4023,11 +4023,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An increase in the price of beef will most likely cause which of the following in the market for chicken (a substitute good)?",
     "choices": [
-      "A) A decrease in the demand for chicken",
-      "B) An increase in the demand for chicken",
-      "C) A decrease in the supply of chicken",
-      "D) An increase in the supply of chicken",
-      "E) No change in either demand or supply of chicken"
+      "A decrease in the demand for chicken",
+      "An increase in the demand for chicken",
+      "A decrease in the supply of chicken",
+      "An increase in the supply of chicken",
+      "No change in either demand or supply of chicken"
     ],
     "answer": 1,
     "explanation": "When the price of beef (substitute) increases, consumers switch to chicken, increasing demand for chicken. This shifts the demand curve right, leading to higher chicken prices and quantities. Option A suggests complements, not substitutes. Options C and D involve supply changes, not demand responses to substitute price changes. Option E ignores substitute relationships."
@@ -4044,11 +4044,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "The shape of a typical production possibilities curve reflects the concept of",
     "choices": [
-      "A) Constant opportunity cost",
-      "B) Increasing opportunity cost",
-      "C) Decreasing opportunity cost",
-      "D) Zero opportunity cost",
-      "E) Comparative advantage"
+      "Constant opportunity cost",
+      "Increasing opportunity cost",
+      "Decreasing opportunity cost",
+      "Zero opportunity cost",
+      "Comparative advantage"
     ],
     "answer": 1,
     "explanation": "The typical PPC is concave (bowed outward) because of increasing opportunity costs. As more of one good is produced, resources less suited for that good must be used, raising opportunity costs. Option A would create a straight line. Option C would create a convex curve. Option D is impossible with scarcity. Option E is about trade, not PPC shape."
@@ -4065,11 +4065,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In which type of economic system are the three basic economic questions (what, how, for whom) primarily answered by government planners?",
     "choices": [
-      "A) Traditional economy",
-      "B) Market economy",
-      "C) Command economy",
-      "D) Mixed economy",
-      "E) Laissez-faire economy"
+      "Traditional economy",
+      "Market economy",
+      "Command economy",
+      "Mixed economy",
+      "Laissez-faire economy"
     ],
     "answer": 2,
     "explanation": "Command economies have government planners make decisions about what to produce, how to produce it, and for whom to produce it. Option A relies on customs and traditions. Option B uses market forces. Option D combines market and government. Option E is essentially a pure market economy."
@@ -4086,11 +4086,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In a simple circular flow model with only households and firms, an injection into the flow would be",
     "choices": [
-      "A) Household purchases of goods and services",
-      "B) Firms paying wages to workers",
-      "C) Investment spending by firms",
-      "D) Household consumption of services",
-      "E) Payment of rent by firms to households"
+      "Household purchases of goods and services",
+      "Firms paying wages to workers",
+      "Investment spending by firms",
+      "Household consumption of services",
+      "Payment of rent by firms to households"
     ],
     "answer": 2,
     "explanation": "Injections add to the circular flow. Investment spending by firms adds new money to the economy beyond the basic household-firm exchange. Options A, B, D, and E represent the normal circular flow of money between households and firms for goods/services and factors of production."
@@ -4107,11 +4107,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A country's production possibilities curve shows it can produce either 100 cars and 0 trucks, or 0 cars and 50 trucks, or any combination along a straight line between these points. If the country is currently producing 60 cars, how many trucks is it producing?",
     "choices": [
-      "A) 15 trucks",
-      "B) 20 trucks",
-      "C) 25 trucks",
-      "D) 30 trucks",
-      "E) 40 trucks"
+      "15 trucks",
+      "20 trucks",
+      "25 trucks",
+      "30 trucks",
+      "40 trucks"
     ],
     "answer": 1,
     "explanation": "With a straight-line PPC, the trade-off is constant. The country gives up 2 cars for every 1 truck (100 cars ÷ 50 trucks = 2:1 ratio). If producing 60 cars, that's 40 cars less than the maximum of 100. Since each truck costs 2 cars, 40 ÷ 2 = 20 trucks. Students might incorrectly calculate using different ratios or fail to recognize the constant opportunity cost along a linear PPC."
@@ -4128,11 +4128,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which combination of characteristics best describes a mixed economy?",
     "choices": [
-      "A) Government owns all resources and makes all production decisions",
-      "B) Private ownership with government regulation and some public goods provision",
-      "C) Traditional customs determine all economic decisions",
-      "D) Complete laissez-faire with no government intervention",
-      "E) Central planning with some market-determined prices"
+      "Government owns all resources and makes all production decisions",
+      "Private ownership with government regulation and some public goods provision",
+      "Traditional customs determine all economic decisions",
+      "Complete laissez-faire with no government intervention",
+      "Central planning with some market-determined prices"
     ],
     "answer": 1,
     "explanation": "A mixed economy combines elements of market and command systems. It features predominantly private ownership of resources with significant government involvement through regulation, taxation, and provision of public goods and services. Most modern economies are mixed economies. Option A describes a command economy, C describes a traditional economy, D describes a pure market economy, and E describes a transition economy moving from command toward market."
@@ -4149,11 +4149,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which of the following represents the expenditure approach to calculating GDP?",
     "choices": [
-      "A) C + I + G + (X - M)",
-      "B) C + I + G + (M - X)",
-      "C) C + S + G + NX",
-      "D) C + I + T + NX",
-      "E) Y = C + S + T"
+      "C + I + G + (X - M)",
+      "C + I + G + (M - X)",
+      "C + S + G + NX",
+      "C + I + T + NX",
+      "Y = C + S + T"
     ],
     "answer": 0,
     "explanation": "The correct expenditure approach formula is C + I + G + (X - M) or C + I + G + NX, where net exports equals exports minus imports. Choice B incorrectly reverses the net exports calculation. Choice C substitutes savings (S) for investment (I). Choice D substitutes taxes (T) for government spending (G). Choice E represents the income identity showing how income is allocated, not the expenditure approach."
@@ -4170,11 +4170,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A U.S. resident purchases a new Toyota manufactured in Japan. This transaction will directly affect which components of U.S. GDP?",
     "choices": [
-      "A) Consumption increases only",
-      "B) Investment increases only",
-      "C) Consumption increases and net exports decrease",
-      "D) Consumption increases and net exports increase",
-      "E) Net exports decrease only"
+      "Consumption increases only",
+      "Investment increases only",
+      "Consumption increases and net exports decrease",
+      "Consumption increases and net exports increase",
+      "Net exports decrease only"
     ],
     "answer": 2,
     "explanation": "The purchase counts as consumption (+C) since it's a consumer good, but since it's imported, it reduces net exports (-NX). Many students forget that imports have a negative effect on GDP through the net exports component."
@@ -4191,11 +4191,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If nominal GDP increases from $100 billion to $110 billion while real GDP increases from $100 billion to $105 billion, what can we conclude?",
     "choices": [
-      "A) The economy experienced deflation",
-      "B) The price level decreased by 5%",
-      "C) The economy grew by 10% in real terms",
-      "D) Both output and prices increased",
-      "E) Output decreased while prices increased"
+      "The economy experienced deflation",
+      "The price level decreased by 5%",
+      "The economy grew by 10% in real terms",
+      "Both output and prices increased",
+      "Output decreased while prices increased"
     ],
     "answer": 3,
     "explanation": "Since real GDP increased (output grew by 5%) and nominal GDP increased more than real GDP (10% vs 5%), both output and the price level must have increased. Students often confuse which GDP measure reflects what."
@@ -4212,11 +4212,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A software engineer who quits their job to search for a better position at another company is experiencing:",
     "choices": [
-      "A) Cyclical unemployment",
-      "B) Structural unemployment",
-      "C) Frictional unemployment",
-      "D) Seasonal unemployment",
-      "E) Hidden unemployment"
+      "Cyclical unemployment",
+      "Structural unemployment",
+      "Frictional unemployment",
+      "Seasonal unemployment",
+      "Hidden unemployment"
     ],
     "answer": 2,
     "explanation": "This is frictional unemployment - temporary unemployment during job search transitions. Cyclical unemployment results from economic downturns, while structural unemployment involves skills mismatches or industry changes."
@@ -4233,11 +4233,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "The natural rate of unemployment consists of:",
     "choices": [
-      "A) Cyclical and frictional unemployment",
-      "B) Structural and cyclical unemployment",
-      "C) Frictional and structural unemployment",
-      "D) All types of unemployment",
-      "E) Only involuntary unemployment"
+      "Cyclical and frictional unemployment",
+      "Structural and cyclical unemployment",
+      "Frictional and structural unemployment",
+      "All types of unemployment",
+      "Only involuntary unemployment"
     ],
     "answer": 2,
     "explanation": "The natural rate includes frictional unemployment (job search) and structural unemployment (skills/location mismatches) but excludes cyclical unemployment, which varies with the business cycle."
@@ -4254,11 +4254,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "During a recession, which of the following typically occurs?",
     "choices": [
-      "A) Unemployment decreases and inflation increases",
-      "B) Both unemployment and inflation increase",
-      "C) Unemployment increases and inflation decreases",
-      "D) Both unemployment and inflation decrease",
-      "E) Unemployment increases while inflation remains constant"
+      "Unemployment decreases and inflation increases",
+      "Both unemployment and inflation increase",
+      "Unemployment increases and inflation decreases",
+      "Both unemployment and inflation decrease",
+      "Unemployment increases while inflation remains constant"
     ],
     "answer": 2,
     "explanation": "During recessions, unemployment typically rises due to reduced economic activity, while inflation usually falls due to decreased aggregate demand and slack in the economy. This is the typical cyclical pattern."
@@ -4275,11 +4275,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A business purchases new machinery to expand production capacity. This transaction is counted in GDP as:",
     "choices": [
-      "A) Consumption",
-      "B) Government spending",
-      "C) Investment",
-      "D) Net exports",
-      "E) Intermediate goods"
+      "Consumption",
+      "Government spending",
+      "Investment",
+      "Net exports",
+      "Intermediate goods"
     ],
     "answer": 2,
     "explanation": "Business purchases of machinery, equipment, and structures are counted as investment (I) in GDP. This represents business fixed investment, distinct from inventory investment or residential investment."
@@ -4296,11 +4296,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Real GDP is preferred over nominal GDP for measuring economic growth because real GDP:",
     "choices": [
-      "A) Includes the underground economy",
-      "B) Accounts for population changes",
-      "C) Eliminates the effects of price level changes",
-      "D) Includes non-market transactions",
-      "E) Measures only final goods and services"
+      "Includes the underground economy",
+      "Accounts for population changes",
+      "Eliminates the effects of price level changes",
+      "Includes non-market transactions",
+      "Measures only final goods and services"
     ],
     "answer": 2,
     "explanation": "Real GDP adjusts for inflation by using constant prices, allowing measurement of actual changes in output rather than changes due to price level fluctuations. This makes it ideal for comparing economic performance over time."
@@ -4317,11 +4317,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If consumer confidence increases significantly, leading to higher spending, the resulting inflation would be classified as:",
     "choices": [
-      "A) Cost-push inflation",
-      "B) Demand-pull inflation",
-      "C) Structural inflation",
-      "D) Imported inflation",
-      "E) Wage-price spiral inflation"
+      "Cost-push inflation",
+      "Demand-pull inflation",
+      "Structural inflation",
+      "Imported inflation",
+      "Wage-price spiral inflation"
     ],
     "answer": 1,
     "explanation": "Increased consumer confidence leads to higher consumption spending, increasing aggregate demand and causing demand-pull inflation. Cost-push inflation results from supply-side factors like increased production costs."
@@ -4338,11 +4338,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Workers in the coal mining industry lose their jobs due to the economy's shift toward renewable energy sources. This is an example of:",
     "choices": [
-      "A) Frictional unemployment",
-      "B) Cyclical unemployment",
-      "C) Structural unemployment",
-      "D) Seasonal unemployment",
-      "E) Voluntary unemployment"
+      "Frictional unemployment",
+      "Cyclical unemployment",
+      "Structural unemployment",
+      "Seasonal unemployment",
+      "Voluntary unemployment"
     ],
     "answer": 2,
     "explanation": "This represents structural unemployment caused by long-term changes in the economy that make certain skills obsolete. The shift from coal to renewable energy creates a permanent mismatch between worker skills and job requirements."
@@ -4359,11 +4359,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "The main difference between the Consumer Price Index (CPI) and the GDP deflator is that the CPI:",
     "choices": [
-      "A) Includes imported goods while the GDP deflator does not",
-      "B) Uses a fixed basket while the GDP deflator uses a changing basket",
-      "C) Measures wholesale prices while the GDP deflator measures retail prices",
-      "D) Both A and B",
-      "E) Is calculated monthly while the GDP deflator is calculated annually"
+      "Includes imported goods while the GDP deflator does not",
+      "Uses a fixed basket while the GDP deflator uses a changing basket",
+      "Measures wholesale prices while the GDP deflator measures retail prices",
+      "Both A and B",
+      "Is calculated monthly while the GDP deflator is calculated annually"
     ],
     "answer": 3,
     "explanation": "The CPI includes imported goods consumed by households and uses a fixed market basket, while the GDP deflator only includes domestically produced goods and automatically adjusts its 'basket' as GDP composition changes."
@@ -4380,11 +4380,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An economy is most likely experiencing a peak in the business cycle when:",
     "choices": [
-      "A) Unemployment is at its highest level",
-      "B) Real GDP is declining rapidly",
-      "C) Unemployment is at its lowest level and inflation is rising",
-      "D) Both unemployment and inflation are falling",
-      "E) Real GDP growth rate is accelerating"
+      "Unemployment is at its highest level",
+      "Real GDP is declining rapidly",
+      "Unemployment is at its lowest level and inflation is rising",
+      "Both unemployment and inflation are falling",
+      "Real GDP growth rate is accelerating"
     ],
     "answer": 2,
     "explanation": "At a business cycle peak, the economy is at full employment (lowest unemployment) and may be overheating (rising inflation due to resource constraints). This occurs just before the economy enters a recession."
@@ -4401,11 +4401,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the price level increases while all other factors remain constant, what happens to the quantity of real GDP demanded?",
     "choices": [
-      "A) It decreases due to the wealth effect, interest rate effect, and net export effect",
-      "B) It increases because higher prices signal economic growth",
-      "C) It remains unchanged because real GDP is adjusted for inflation",
-      "D) It increases due to the income effect",
-      "E) It decreases only if nominal GDP also decreases"
+      "It decreases due to the wealth effect, interest rate effect, and net export effect",
+      "It increases because higher prices signal economic growth",
+      "It remains unchanged because real GDP is adjusted for inflation",
+      "It increases due to the income effect",
+      "It decreases only if nominal GDP also decreases"
     ],
     "answer": 0,
     "explanation": "When the price level rises, quantity of real GDP demanded falls due to three effects: wealth effect (purchasing power decreases), interest rate effect (higher prices increase money demand, raising interest rates), and net export effect (domestic goods become less competitive). Choice B confuses correlation with causation. Choice C misunderstands that we're looking at movement along the AD curve. Choice D applies microeconomic concepts incorrectly. Choice E confuses nominal and real GDP relationships."
@@ -4422,11 +4422,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A decrease in consumer confidence combined with an increase in business investment spending would most likely cause aggregate demand to:",
     "choices": [
-      "A) Shift left because consumer confidence has a larger impact than business investment",
-      "B) Shift right because investment multiplies through the economy more than consumption",
-      "C) Remain unchanged because the effects cancel each other out",
-      "D) Shift in an indeterminate direction because the relative magnitudes are unknown",
-      "E) Shift left because both factors reduce aggregate demand"
+      "Shift left because consumer confidence has a larger impact than business investment",
+      "Shift right because investment multiplies through the economy more than consumption",
+      "Remain unchanged because the effects cancel each other out",
+      "Shift in an indeterminate direction because the relative magnitudes are unknown",
+      "Shift left because both factors reduce aggregate demand"
     ],
     "answer": 3,
     "explanation": "Decreased consumer confidence shifts AD left (reduced consumption), while increased business investment shifts AD right. The net effect depends on the relative magnitudes of these changes, making the direction indeterminate without more information. Choice A incorrectly assumes consumer confidence always dominates. Choice B incorrectly assumes investment always dominates. Choice C assumes perfect cancellation, which is unlikely. Choice E incorrectly states that increased investment reduces AD."
@@ -4443,11 +4443,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "The short-run aggregate supply curve slopes upward because:",
     "choices": [
-      "A) Higher prices always lead to higher profits for firms",
-      "B) Some input prices are sticky in the short run, so higher output prices increase profit margins",
-      "C) Workers demand higher wages when prices rise",
-      "D) The law of supply applies to the entire economy just as it does to individual markets",
-      "E) Government regulations prevent prices from falling"
+      "Higher prices always lead to higher profits for firms",
+      "Some input prices are sticky in the short run, so higher output prices increase profit margins",
+      "Workers demand higher wages when prices rise",
+      "The law of supply applies to the entire economy just as it does to individual markets",
+      "Government regulations prevent prices from falling"
     ],
     "answer": 1,
     "explanation": "SRAS slopes upward because many input costs (wages, rents, contracts) are sticky in the short run. When output prices rise but input costs remain fixed, profit margins increase, encouraging firms to produce more. Choice A is too absolute and ignores input costs. Choice C describes a factor that would make SRAS flatter, not explain its upward slope. Choice D oversimplifies by applying microeconomic concepts directly to macroeconomics. Choice E is not a primary reason for SRAS slope."
@@ -4464,11 +4464,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An increase in oil prices would cause the short-run aggregate supply curve to:",
     "choices": [
-      "A) Shift right because higher energy costs increase economic activity",
-      "B) Shift left because higher input costs reduce profitability at each price level",
-      "C) Remain unchanged because oil is not used in all industries",
-      "D) Become flatter because firms become more price sensitive",
-      "E) Shift right initially, then left as firms adjust to higher costs"
+      "Shift right because higher energy costs increase economic activity",
+      "Shift left because higher input costs reduce profitability at each price level",
+      "Remain unchanged because oil is not used in all industries",
+      "Become flatter because firms become more price sensitive",
+      "Shift right initially, then left as firms adjust to higher costs"
     ],
     "answer": 1,
     "explanation": "Higher oil prices increase production costs across many industries, reducing the quantity of goods firms are willing to supply at each price level, shifting SRAS left. This is a classic supply shock. Choice A incorrectly suggests higher costs increase supply. Choice C underestimates oil's pervasive role in the economy. Choice D confuses a shift with a change in slope. Choice E describes an implausible sequence of events."
@@ -4485,11 +4485,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If aggregate demand increases while short-run aggregate supply remains constant, the short-run equilibrium will show:",
     "choices": [
-      "A) Higher real GDP and lower price level",
-      "B) Higher real GDP and higher price level",
-      "C) Lower real GDP and higher price level",
-      "D) No change in either real GDP or price level",
-      "E) Higher real GDP but unchanged price level"
+      "Higher real GDP and lower price level",
+      "Higher real GDP and higher price level",
+      "Lower real GDP and higher price level",
+      "No change in either real GDP or price level",
+      "Higher real GDP but unchanged price level"
     ],
     "answer": 1,
     "explanation": "When AD shifts right along an upward-sloping SRAS curve, the new equilibrium occurs at both a higher price level and higher real GDP. This represents economic expansion with inflation. Choice A incorrectly suggests prices fall when demand increases. Choice C describes stagflation, which requires an SRAS shift. Choice D suggests no market response. Choice E ignores that moving along upward-sloping SRAS requires price changes."
@@ -4506,11 +4506,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In long-run equilibrium, if aggregate demand increases, what will be the ultimate effect on real GDP and the price level?",
     "choices": [
-      "A) Real GDP increases permanently, price level increases permanently",
-      "B) Real GDP returns to its natural rate, price level increases permanently",
-      "C) Both real GDP and price level return to their original levels",
-      "D) Real GDP decreases below its natural rate, price level increases",
-      "E) Real GDP increases permanently, price level returns to its original level"
+      "Real GDP increases permanently, price level increases permanently",
+      "Real GDP returns to its natural rate, price level increases permanently",
+      "Both real GDP and price level return to their original levels",
+      "Real GDP decreases below its natural rate, price level increases",
+      "Real GDP increases permanently, price level returns to its original level"
     ],
     "answer": 1,
     "explanation": "In the long run, the economy self-corrects to the natural rate of output. An AD increase initially raises both GDP and prices, but eventually wages and other input costs rise, shifting SRAS left until GDP returns to its natural rate at a higher price level. Choice A ignores long-run adjustment. Choice C ignores that nominal changes can have permanent effects on price levels. Choice D describes an overcorrection that wouldn't persist. Choice E incorrectly suggests permanent real effects from nominal demand changes."
@@ -4527,11 +4527,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An inflationary gap occurs when:",
     "choices": [
-      "A) Actual unemployment is higher than the natural rate of unemployment",
-      "B) Short-run equilibrium GDP is less than long-run equilibrium GDP",
-      "C) Short-run equilibrium GDP exceeds the economy's potential output",
-      "D) The price level is falling",
-      "E) Aggregate demand is insufficient to maintain full employment"
+      "Actual unemployment is higher than the natural rate of unemployment",
+      "Short-run equilibrium GDP is less than long-run equilibrium GDP",
+      "Short-run equilibrium GDP exceeds the economy's potential output",
+      "The price level is falling",
+      "Aggregate demand is insufficient to maintain full employment"
     ],
     "answer": 2,
     "explanation": "An inflationary gap exists when short-run equilibrium GDP exceeds potential (full-employment) GDP, creating upward pressure on prices as the economy operates beyond its sustainable capacity. Choice A describes a recessionary gap. Choice B also describes a recessionary gap. Choice D describes deflation, not necessarily related to output gaps. Choice E describes insufficient demand, which would create a recessionary gap."
@@ -4548,11 +4548,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "During a recessionary gap, which combination of fiscal policies would be most appropriate?",
     "choices": [
-      "A) Increase government spending and increase taxes",
-      "B) Decrease government spending and decrease taxes",
-      "C) Increase government spending and decrease taxes",
-      "D) Decrease government spending and increase taxes",
-      "E) Keep government spending constant and decrease taxes"
+      "Increase government spending and increase taxes",
+      "Decrease government spending and decrease taxes",
+      "Increase government spending and decrease taxes",
+      "Decrease government spending and increase taxes",
+      "Keep government spending constant and decrease taxes"
     ],
     "answer": 2,
     "explanation": "During a recessionary gap, expansionary fiscal policy is needed to increase aggregate demand. This involves increasing government spending (direct injection into AD) and decreasing taxes (increases disposable income and consumption). Choice A mixes expansionary and contractionary policies. Choice B is contractionary policy. Choice D is strongly contractionary. Choice E is less expansionary than C because it doesn't utilize government spending increases."
@@ -4569,11 +4569,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Crowding out occurs when expansionary fiscal policy leads to:",
     "choices": [
-      "A) Higher government spending that replaces private consumption one-for-one",
-      "B) Higher interest rates that reduce private investment spending",
-      "C) Lower taxes that reduce government revenue",
-      "D) Increased imports that worsen the trade balance",
-      "E) Higher inflation that reduces real wages"
+      "Higher government spending that replaces private consumption one-for-one",
+      "Higher interest rates that reduce private investment spending",
+      "Lower taxes that reduce government revenue",
+      "Increased imports that worsen the trade balance",
+      "Higher inflation that reduces real wages"
     ],
     "answer": 1,
     "explanation": "Crowding out occurs when government borrowing to finance deficit spending increases demand for loanable funds, raising interest rates and reducing interest-sensitive private investment. This partially offsets the expansionary effect of fiscal policy. Choice A describes direct displacement, not the indirect effect through financial markets. Choice C describes a budget effect, not crowding out. Choice D describes trade effects. Choice E describes inflation effects, not the specific mechanism of crowding out."
@@ -4590,11 +4590,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A bank's balance sheet shows $100 million in deposits, $80 million in loans, and $20 million in reserves. If the required reserve ratio is 10%, what can be concluded about this bank's lending capacity?",
     "choices": [
-      "A) The bank is fully loaned up and cannot make additional loans",
-      "B) The bank has $10 million in excess reserves available for lending",
-      "C) The bank is below required reserves and must call in loans",
-      "D) The bank has $20 million in excess reserves available for lending",
-      "E) The bank must borrow reserves from other banks"
+      "The bank is fully loaned up and cannot make additional loans",
+      "The bank has $10 million in excess reserves available for lending",
+      "The bank is below required reserves and must call in loans",
+      "The bank has $20 million in excess reserves available for lending",
+      "The bank must borrow reserves from other banks"
     ],
     "answer": 1,
     "explanation": "Required reserves = 10% × $100M = $10M. Actual reserves = $20M. Excess reserves = $20M - $10M = $10M available for lending. Students often confuse total reserves with excess reserves or miscalculate the required amount."
@@ -4611,11 +4611,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If banks hold no excess reserves and the reserve requirement is 20%, a new deposit of $1,000 will eventually lead to how much new money creation in the banking system?",
     "choices": [
-      "A) $1,000",
-      "B) $4,000",
-      "C) $5,000",
-      "D) $200",
-      "E) $800"
+      "$1,000",
+      "$4,000",
+      "$5,000",
+      "$200",
+      "$800"
     ],
     "answer": 2,
     "explanation": "Money multiplier = 1 / reserve ratio = 1 / 0.20 = 5. A new deposit of $1,000 is lent and re-deposited repeatedly; the total new money created in the banking system equals $1,000 × 5 = $5,000. Choice A ($1,000) ignores the multiplier effect. Choice B ($4,000) incorrectly subtracts the original deposit, confusing the total change in the money supply with \"additional\" deposits beyond the first — but the standard AP formula gives the total money supply change as initial deposit × multiplier. Choice D ($200) is just the required reserve on the first deposit. Choice E ($800) is the first round of lending only."
@@ -4632,11 +4632,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the Federal Reserve wants to increase the money multiplier, which action should it take?",
     "choices": [
-      "A) Increase the discount rate",
-      "B) Sell government securities",
-      "C) Decrease the reserve requirement",
-      "D) Increase the federal funds rate",
-      "E) Decrease government spending"
+      "Increase the discount rate",
+      "Sell government securities",
+      "Decrease the reserve requirement",
+      "Increase the federal funds rate",
+      "Decrease government spending"
     ],
     "answer": 2,
     "explanation": "The money multiplier = 1/reserve requirement ratio. Decreasing the reserve requirement increases the multiplier, allowing more money creation per dollar of reserves. Options A, B, and D are contractionary policies. Option E is fiscal policy, not monetary policy affecting the multiplier."
@@ -4653,11 +4653,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "When the Federal Reserve increases reserve requirements during a period of economic expansion, what is the most likely intended effect on bank lending?",
     "choices": [
-      "A) Increase lending to stimulate further growth",
-      "B) Maintain current lending levels",
-      "C) Decrease lending to cool inflationary pressures",
-      "D) Encourage banks to lower interest rates",
-      "E) Increase banks' profitability"
+      "Increase lending to stimulate further growth",
+      "Maintain current lending levels",
+      "Decrease lending to cool inflationary pressures",
+      "Encourage banks to lower interest rates",
+      "Increase banks' profitability"
     ],
     "answer": 2,
     "explanation": "Higher reserve requirements force banks to hold more reserves and reduce their lending capacity, which is contractionary monetary policy used to cool an overheating economy and reduce inflation. Students might think the Fed would stimulate during expansion or not understand the contractionary effect."
@@ -4674,11 +4674,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which Federal Reserve entity has the primary responsibility for conducting open market operations?",
     "choices": [
-      "A) Board of Governors",
-      "B) Federal Open Market Committee (FOMC)",
-      "C) Regional Federal Reserve Banks",
-      "D) Federal Advisory Council",
-      "E) Member commercial banks"
+      "Board of Governors",
+      "Federal Open Market Committee (FOMC)",
+      "Regional Federal Reserve Banks",
+      "Federal Advisory Council",
+      "Member commercial banks"
     ],
     "answer": 1,
     "explanation": "The FOMC sets monetary policy and directs open market operations, though the New York Fed executes them. Students often confuse the Board of Governors (which has other responsibilities) or think regional Fed banks conduct these operations independently."
@@ -4695,11 +4695,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "During a recession, which combination of monetary policy tools would be most appropriate for the Federal Reserve to use?",
     "choices": [
-      "A) Sell bonds, raise discount rate, increase reserve requirements",
-      "B) Buy bonds, lower discount rate, decrease reserve requirements",
-      "C) Buy bonds, raise discount rate, increase reserve requirements",
-      "D) Sell bonds, lower discount rate, decrease reserve requirements",
-      "E) Buy bonds, raise discount rate, decrease reserve requirements"
+      "Sell bonds, raise discount rate, increase reserve requirements",
+      "Buy bonds, lower discount rate, decrease reserve requirements",
+      "Buy bonds, raise discount rate, increase reserve requirements",
+      "Sell bonds, lower discount rate, decrease reserve requirements",
+      "Buy bonds, raise discount rate, decrease reserve requirements"
     ],
     "answer": 1,
     "explanation": "During recession, expansionary monetary policy is needed: buy bonds (increases money supply), lower discount rate (cheaper borrowing), decrease reserve requirements (more lending capacity). All three tools should work in the same direction. Students often mix contractionary and expansionary tools."
@@ -4716,11 +4716,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the Federal Reserve raises the discount rate while keeping other policy tools unchanged, what is the most likely effect on the federal funds rate?",
     "choices": [
-      "A) The federal funds rate will decrease",
-      "B) The federal funds rate will increase",
-      "C) The federal funds rate will remain unchanged",
-      "D) The federal funds rate will become more volatile",
-      "E) The relationship depends on inflation expectations"
+      "The federal funds rate will decrease",
+      "The federal funds rate will increase",
+      "The federal funds rate will remain unchanged",
+      "The federal funds rate will become more volatile",
+      "The relationship depends on inflation expectations"
     ],
     "answer": 1,
     "explanation": "The discount rate typically serves as a ceiling for the federal funds rate. When the Fed raises the discount rate, it signals tighter monetary policy, and the federal funds rate typically rises as well, though usually by less than the discount rate change. Students often think these rates move independently."
@@ -4737,11 +4737,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In the money market, if the Federal Reserve increases the money supply while money demand remains constant, what happens to the equilibrium interest rate and quantity of money?",
     "choices": [
-      "A) Interest rate increases, quantity increases",
-      "B) Interest rate decreases, quantity increases",
-      "C) Interest rate increases, quantity decreases",
-      "D) Interest rate decreases, quantity remains the same",
-      "E) Interest rate remains the same, quantity increases"
+      "Interest rate increases, quantity increases",
+      "Interest rate decreases, quantity increases",
+      "Interest rate increases, quantity decreases",
+      "Interest rate decreases, quantity remains the same",
+      "Interest rate remains the same, quantity increases"
     ],
     "answer": 1,
     "explanation": "Increasing money supply shifts the vertical money supply curve right. With unchanged money demand, the new equilibrium has a lower interest rate and higher quantity of money. Students often forget that both interest rate and quantity change, or think interest rates rise when money supply increases."
@@ -4758,11 +4758,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the Federal Reserve conducts expansionary monetary policy, what is the expected effect in the loanable funds market?",
     "choices": [
-      "A) Supply of loanable funds decreases, real interest rate increases",
-      "B) Supply of loanable funds increases, real interest rate decreases",
-      "C) Demand for loanable funds decreases, real interest rate decreases",
-      "D) Demand for loanable funds increases, real interest rate increases",
-      "E) Both supply and demand increase equally, real interest rate unchanged"
+      "Supply of loanable funds decreases, real interest rate increases",
+      "Supply of loanable funds increases, real interest rate decreases",
+      "Demand for loanable funds decreases, real interest rate decreases",
+      "Demand for loanable funds increases, real interest rate increases",
+      "Both supply and demand increase equally, real interest rate unchanged"
     ],
     "answer": 1,
     "explanation": "Expansionary monetary policy increases bank reserves and lending capacity, shifting the supply of loanable funds right, which decreases the real interest rate. Students often confuse supply and demand shifts or think monetary policy directly affects demand for loanable funds rather than supply."
@@ -4779,11 +4779,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the nominal interest rate is 8% and the expected inflation rate is 3%, what happens to the real interest rate if actual inflation turns out to be 5%?",
     "choices": [
-      "A) The real interest rate becomes 3%",
-      "B) The real interest rate becomes 5%",
-      "C) The real interest rate remains 5%",
-      "D) The real interest rate becomes 8%",
-      "E) The real interest rate becomes 13%"
+      "The real interest rate becomes 3%",
+      "The real interest rate becomes 5%",
+      "The real interest rate remains 5%",
+      "The real interest rate becomes 8%",
+      "The real interest rate becomes 13%"
     ],
     "answer": 0,
     "explanation": "The real interest rate equals nominal rate minus actual inflation: 8% - 5% = 3%. Students often confuse expected vs. actual inflation or think the real rate stays at the originally expected 5%."
@@ -4800,11 +4800,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A bank advertises a certificate of deposit that pays 6% annually. This rate represents the:",
     "choices": [
-      "A) Real interest rate adjusted for inflation",
-      "B) Nominal interest rate before considering inflation",
-      "C) Real interest rate after taxes",
-      "D) Risk-free rate plus inflation premium",
-      "E) Expected real return to the depositor"
+      "Real interest rate adjusted for inflation",
+      "Nominal interest rate before considering inflation",
+      "Real interest rate after taxes",
+      "Risk-free rate plus inflation premium",
+      "Expected real return to the depositor"
     ],
     "answer": 1,
     "explanation": "Banks advertise nominal rates, which are the stated rates before adjusting for inflation. Students often think advertised rates are real rates or confuse nominal rates with inflation-adjusted returns."
@@ -4821,11 +4821,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "According to the Fisher equation, if lenders require a 4% real return and expect inflation to be 2%, at what nominal interest rate should they lend?",
     "choices": [
-      "A) 2%",
-      "B) 4%",
-      "C) 6%",
-      "D) 8%",
-      "E) Cannot be determined without knowing the risk premium"
+      "2%",
+      "4%",
+      "6%",
+      "8%",
+      "Cannot be determined without knowing the risk premium"
     ],
     "answer": 2,
     "explanation": "Fisher equation: nominal rate = real rate + expected inflation = 4% + 2% = 6%. Students often subtract instead of add, or think they need additional information about risk premiums."
@@ -4842,11 +4842,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A company considering a new factory expansion expects a 7% return on the project. If the real interest rate rises from 4% to 6%, what will likely happen to this investment decision?",
     "choices": [
-      "A) The company will definitely proceed with the investment",
-      "B) The company will cancel the investment since the return exceeds the cost",
-      "C) The company will proceed since 7% still exceeds 6%",
-      "D) The company will delay the investment indefinitely",
-      "E) The interest rate change has no effect on investment decisions"
+      "The company will definitely proceed with the investment",
+      "The company will cancel the investment since the return exceeds the cost",
+      "The company will proceed since 7% still exceeds 6%",
+      "The company will delay the investment indefinitely",
+      "The interest rate change has no effect on investment decisions"
     ],
     "answer": 2,
     "explanation": "Investment occurs when expected return exceeds the real interest rate (cost of capital). Since 7% > 6%, the investment remains profitable. Students often think rising rates automatically cancel investments."
@@ -4863,11 +4863,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In the loanable funds market, an increase in household savings will cause:",
     "choices": [
-      "A) The supply of loanable funds to decrease and interest rates to rise",
-      "B) The demand for loanable funds to increase and interest rates to rise",
-      "C) The supply of loanable funds to increase and interest rates to fall",
-      "D) Both supply and demand to increase equally",
-      "E) No change in the market since savings equals investment"
+      "The supply of loanable funds to decrease and interest rates to rise",
+      "The demand for loanable funds to increase and interest rates to rise",
+      "The supply of loanable funds to increase and interest rates to fall",
+      "Both supply and demand to increase equally",
+      "No change in the market since savings equals investment"
     ],
     "answer": 2,
     "explanation": "Higher household savings increases the supply of loanable funds, shifting supply right and lowering equilibrium interest rates. Students often confuse supply and demand shifts or think savings doesn't affect interest rates."
@@ -4884,11 +4884,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "When the government increases deficit spending by issuing bonds, the resulting crowding out effect occurs because:",
     "choices": [
-      "A) Government spending directly replaces private spending",
-      "B) Higher government demand for loanable funds raises interest rates, reducing private investment",
-      "C) Taxes must immediately rise to pay for the spending",
-      "D) Government bonds are safer than private investments",
-      "E) The money supply automatically decreases"
+      "Government spending directly replaces private spending",
+      "Higher government demand for loanable funds raises interest rates, reducing private investment",
+      "Taxes must immediately rise to pay for the spending",
+      "Government bonds are safer than private investments",
+      "The money supply automatically decreases"
     ],
     "answer": 1,
     "explanation": "Crowding out occurs when government borrowing increases demand for loanable funds, raising interest rates and reducing private investment. Students often think it's direct replacement of spending or immediate tax effects."
@@ -4905,11 +4905,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which of the following best describes the primary function of financial markets in an economy?",
     "choices": [
-      "A) To regulate government spending and taxation",
-      "B) To facilitate the flow of funds from savers to borrowers",
-      "C) To control inflation and unemployment",
-      "D) To determine exchange rates between currencies",
-      "E) To set prices for all goods and services"
+      "To regulate government spending and taxation",
+      "To facilitate the flow of funds from savers to borrowers",
+      "To control inflation and unemployment",
+      "To determine exchange rates between currencies",
+      "To set prices for all goods and services"
     ],
     "answer": 1,
     "explanation": "Financial markets primarily channel funds from those with excess savings to those who need capital for investment. Students often confuse this with monetary policy functions or general price-setting mechanisms."
@@ -4926,11 +4926,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the interest rate increases, what happens to the present value of a future payment?",
     "choices": [
-      "A) Present value increases because higher rates mean higher returns",
-      "B) Present value decreases because future payments are discounted more heavily",
-      "C) Present value stays the same since the payment amount is fixed",
-      "D) Present value increases proportionally to the interest rate",
-      "E) Present value becomes negative"
+      "Present value increases because higher rates mean higher returns",
+      "Present value decreases because future payments are discounted more heavily",
+      "Present value stays the same since the payment amount is fixed",
+      "Present value increases proportionally to the interest rate",
+      "Present value becomes negative"
     ],
     "answer": 1,
     "explanation": "Higher interest rates mean future payments are discounted more heavily, reducing their present value. Students often think higher rates increase present value or that fixed payments maintain constant present value."
@@ -4947,11 +4947,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "During a period of deflation, if the nominal interest rate is 2%, the real interest rate will be:",
     "choices": [
-      "A) Less than 2%",
-      "B) Equal to 2%",
-      "C) Greater than 2%",
-      "D) Negative",
-      "E) Zero"
+      "Less than 2%",
+      "Equal to 2%",
+      "Greater than 2%",
+      "Negative",
+      "Zero"
     ],
     "answer": 2,
     "explanation": "During deflation (negative inflation), real rate = nominal rate - (-inflation) = nominal rate + positive number, making real rate higher than nominal rate. Students often forget deflation means negative inflation."
@@ -4968,11 +4968,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "The investment demand curve slopes downward because:",
     "choices": [
-      "A) Higher interest rates make more investment projects profitable",
-      "B) Lower interest rates reduce the opportunity cost of investment",
-      "C) Investment and savings must always be equal",
-      "D) Government spending crowds out private investment",
-      "E) Inflation reduces the real value of investment"
+      "Higher interest rates make more investment projects profitable",
+      "Lower interest rates reduce the opportunity cost of investment",
+      "Investment and savings must always be equal",
+      "Government spending crowds out private investment",
+      "Inflation reduces the real value of investment"
     ],
     "answer": 1,
     "explanation": "Lower interest rates reduce the cost of borrowing for investment, making more projects profitable and increasing investment demand. Students often confuse the relationship between rates and investment profitability."
@@ -4989,11 +4989,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An improvement in business confidence about future profits will most likely:",
     "choices": [
-      "A) Decrease the demand for loanable funds and lower interest rates",
-      "B) Increase the supply of loanable funds and lower interest rates",
-      "C) Increase the demand for loanable funds and raise interest rates",
-      "D) Have no effect on the loanable funds market",
-      "E) Decrease both supply and demand for loanable funds"
+      "Decrease the demand for loanable funds and lower interest rates",
+      "Increase the supply of loanable funds and lower interest rates",
+      "Increase the demand for loanable funds and raise interest rates",
+      "Have no effect on the loanable funds market",
+      "Decrease both supply and demand for loanable funds"
     ],
     "answer": 2,
     "explanation": "Better business confidence increases investment demand, shifting demand for loanable funds right and raising interest rates. Students often confuse demand and supply effects or think confidence doesn't affect borrowing."
@@ -5010,11 +5010,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If expected inflation increases from 3% to 5% while the real interest rate remains constant at 2%, what happens to the nominal interest rate?",
     "choices": [
-      "A) It decreases from 5% to 3%",
-      "B) It increases from 5% to 7%",
-      "C) It remains unchanged at 5%",
-      "D) It becomes negative",
-      "E) It increases from 3% to 5%"
+      "It decreases from 5% to 3%",
+      "It increases from 5% to 7%",
+      "It remains unchanged at 5%",
+      "It becomes negative",
+      "It increases from 3% to 5%"
     ],
     "answer": 1,
     "explanation": "Using Fisher equation: initial nominal rate = 2% + 3% = 5%, new nominal rate = 2% + 5% = 7%. Students often think nominal rates decrease when inflation rises or remain constant."
@@ -5031,11 +5031,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Crowding out is most likely to occur when:",
     "choices": [
-      "A) The government reduces spending and taxes simultaneously",
-      "B) Private savings increase faster than government borrowing",
-      "C) The government finances spending increases through borrowing rather than taxes",
-      "D) Interest rates are very low and stable",
-      "E) The economy is in a recession with high unemployment"
+      "The government reduces spending and taxes simultaneously",
+      "Private savings increase faster than government borrowing",
+      "The government finances spending increases through borrowing rather than taxes",
+      "Interest rates are very low and stable",
+      "The economy is in a recession with high unemployment"
     ],
     "answer": 2,
     "explanation": "Crowding out occurs when government borrowing competes with private borrowers for limited loanable funds, raising rates. Tax financing doesn't create this competition. Students often think any government spending causes crowding out."
@@ -5052,11 +5052,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In well-functioning financial markets, interest rates serve to:",
     "choices": [
-      "A) Guarantee equal returns to all investors",
-      "B) Eliminate all investment risk",
-      "C) Allocate scarce loanable funds to their most productive uses",
-      "D) Ensure government borrowing takes priority over private borrowing",
-      "E) Keep inflation at zero percent"
+      "Guarantee equal returns to all investors",
+      "Eliminate all investment risk",
+      "Allocate scarce loanable funds to their most productive uses",
+      "Ensure government borrowing takes priority over private borrowing",
+      "Keep inflation at zero percent"
     ],
     "answer": 2,
     "explanation": "Interest rates act as a price mechanism, directing funds to investments with the highest expected returns relative to risk. Students often think markets guarantee outcomes rather than facilitate efficient allocation."
@@ -5073,11 +5073,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A company will receive $1,000 one year from now. If the interest rate is 10%, the present value of this payment is:",
     "choices": [
-      "A) $900",
-      "B) $909",
-      "C) $1,000",
-      "D) $1,100",
-      "E) Cannot be determined without knowing inflation"
+      "$900",
+      "$909",
+      "$1,000",
+      "$1,100",
+      "Cannot be determined without knowing inflation"
     ],
     "answer": 1,
     "explanation": "Present value = Future value / (1 + interest rate) = $1,000 / (1.10) = $909.09 ≈ $909. Students often subtract the interest rate directly or think present value equals future value."
@@ -5094,11 +5094,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Central banks typically set target rates for:",
     "choices": [
-      "A) Real interest rates adjusted for expected inflation",
-      "B) Nominal interest rates in short-term money markets",
-      "C) Long-term bond yields exclusively",
-      "D) Real interest rates net of taxes",
-      "E) International exchange rates"
+      "Real interest rates adjusted for expected inflation",
+      "Nominal interest rates in short-term money markets",
+      "Long-term bond yields exclusively",
+      "Real interest rates net of taxes",
+      "International exchange rates"
     ],
     "answer": 1,
     "explanation": "Central banks set nominal short-term rates (like federal funds rate) as their primary policy tool. They cannot directly control real rates since these depend on inflation expectations. Students often think central banks target real rates."
@@ -5115,11 +5115,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the U.S. dollar appreciates against the euro, what does this mean?",
     "choices": [
-      "A) One dollar can buy more euros than before",
-      "B) One dollar can buy fewer euros than before",
-      "C) The euro has become stronger relative to the dollar",
-      "D) U.S. exports to Europe will increase",
-      "E) European exports to the U.S. will decrease"
+      "One dollar can buy more euros than before",
+      "One dollar can buy fewer euros than before",
+      "The euro has become stronger relative to the dollar",
+      "U.S. exports to Europe will increase",
+      "European exports to the U.S. will decrease"
     ],
     "answer": 0,
     "explanation": "Currency appreciation means the currency has become stronger and can purchase more of another currency. When the dollar appreciates against the euro, one dollar buys more euros. Choice B describes depreciation. Choice C is incorrect because if the dollar appreciates, the euro relatively weakens. Choices D and E confuse the effects of appreciation on trade flows."
@@ -5136,11 +5136,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which of the following is included in a country's current account?",
     "choices": [
-      "A) Foreign direct investment",
-      "B) Purchase of foreign government bonds",
-      "C) Trade in goods and services",
-      "D) Bank loans to foreign countries",
-      "E) Purchase of foreign real estate"
+      "Foreign direct investment",
+      "Purchase of foreign government bonds",
+      "Trade in goods and services",
+      "Bank loans to foreign countries",
+      "Purchase of foreign real estate"
     ],
     "answer": 2,
     "explanation": "The current account includes trade in goods and services, income flows, and unilateral transfers. Choice C is correct as it represents the trade balance component. Choices A, B, D, and E all represent financial flows that are recorded in the capital/financial account, not the current account."
@@ -5157,14 +5157,14 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A country has a trade deficit when:",
     "choices": [
-      "A) Its exports exceed its imports",
-      "B) Its imports exceed its exports",
-      "C) Its currency appreciates",
-      "D) Its government spending exceeds tax revenue",
-      "E) Its capital account is negative"
+      "Its exports exceed its imports",
+      "Its government spending exceeds tax revenue",
+      "Its currency appreciates",
+      "Its imports exceed its exports",
+      "Its capital account is negative"
     ],
-    "answer": 1,
-    "explanation": "A trade deficit occurs when a country imports more goods and services than it exports, meaning imports exceed exports. Choice A describes a trade surplus. Choice C relates to currency movements, not trade balance. Choice D describes a budget deficit, not a trade deficit. Choice E refers to capital flows, not trade flows."
+    "answer": 3,
+    "explanation": "A trade deficit occurs when a country imports more goods and services than it exports, meaning imports exceed exports. Choice A describes a trade surplus. Choice C relates to currency movements, not trade balance. Choice B describes a budget deficit, not a trade deficit. Choice E refers to capital flows, not trade flows."
   },
   {
     "id": "macro_u6_q095",
@@ -5178,14 +5178,14 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In the foreign exchange market, the price of one currency in terms of another currency is called the:",
     "choices": [
-      "A) Interest rate",
-      "B) Exchange rate",
-      "C) Inflation rate",
-      "D) Growth rate",
-      "E) Discount rate"
+      "Exchange rate",
+      "Interest rate",
+      "Inflation rate",
+      "Growth rate",
+      "Discount rate"
     ],
-    "answer": 1,
-    "explanation": "The exchange rate is defined as the price of one currency expressed in terms of another currency. This is the fundamental concept of foreign exchange markets. Choice A refers to the cost of borrowing money. Choices C, D, and E refer to other economic indicators but not the price relationship between currencies."
+    "answer": 0,
+    "explanation": "The exchange rate is defined as the price of one currency expressed in terms of another currency. This is the fundamental concept of foreign exchange markets. Choice B refers to the cost of borrowing money. Choices C, D, and E refer to other economic indicators but not the price relationship between currencies."
   },
   {
     "id": "macro_u6_q096",
@@ -5199,11 +5199,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the exchange rate changes from 1.2 euros per dollar to 1.4 euros per dollar, what has happened to the value of the dollar relative to the euro?",
     "choices": [
-      "A) The dollar has appreciated because it now takes more euros to buy one dollar",
-      "B) The dollar has depreciated because the exchange rate increased",
-      "C) The euro has appreciated because the number got larger",
-      "D) Both currencies maintained their relative value",
-      "E) The dollar has appreciated, but only if European interest rates fell"
+      "The dollar has appreciated because it now takes more euros to buy one dollar",
+      "The dollar has depreciated because the exchange rate increased",
+      "The euro has appreciated because the number got larger",
+      "Both currencies maintained their relative value",
+      "The dollar has appreciated, but only if European interest rates fell"
     ],
     "answer": 0,
     "explanation": "When it takes more euros (1.4 vs 1.2) to buy one dollar, the dollar has appreciated relative to the euro. Choice B incorrectly assumes higher numbers mean depreciation. Choice C confuses which currency is strengthening. Choice D is wrong as relative values clearly changed. Choice E adds an irrelevant condition."
@@ -5220,11 +5220,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An appreciation of the U.S. dollar will most likely result in which of the following effects on U.S. trade?",
     "choices": [
-      "A) Increased exports because American goods become cheaper abroad",
-      "B) Decreased imports because foreign goods become more expensive",
-      "C) Increased imports because foreign goods become cheaper for Americans",
-      "D) No change in trade because exchange rates don't affect real goods",
-      "E) Increased exports and decreased imports, improving the trade balance"
+      "Increased exports because American goods become cheaper abroad",
+      "Decreased imports because foreign goods become more expensive",
+      "Increased imports because foreign goods become cheaper for Americans",
+      "No change in trade because exchange rates don't affect real goods",
+      "Increased exports and decreased imports, improving the trade balance"
     ],
     "answer": 2,
     "explanation": "When the dollar appreciates, it becomes stronger, making foreign goods cheaper for Americans to buy, thus increasing imports. Choice A is backwards - appreciation makes U.S. goods more expensive abroad. Choice B is incorrect as foreign goods become cheaper, not more expensive. Choice D ignores the price effects of exchange rate changes. Choice E gets both directions wrong."
@@ -5241,14 +5241,14 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In a country's balance of payments, if the current account shows a deficit of $50 billion, what must be true about the capital and financial account, assuming no statistical discrepancy?",
     "choices": [
-      "A) It must show a deficit of $50 billion",
-      "B) It must show a surplus of $50 billion",
-      "C) It must be exactly zero",
-      "D) It could show either a surplus or deficit depending on government policy",
-      "E) It must show a deficit, but not necessarily $50 billion"
+      "It must show a surplus of $50 billion",
+      "It must show a deficit of $50 billion",
+      "It must be exactly zero",
+      "It could show either a surplus or deficit depending on government policy",
+      "It must show a deficit, but not necessarily $50 billion"
     ],
-    "answer": 1,
-    "explanation": "The balance of payments must sum to zero, so a current account deficit must be offset by a capital and financial account surplus of equal magnitude. Choice A would make the total -$100 billion. Choice C would leave a -$50 billion imbalance. Choice D ignores the accounting identity requirement. Choice E gets the direction wrong."
+    "answer": 0,
+    "explanation": "The balance of payments must sum to zero, so a current account deficit must be offset by a capital and financial account surplus of equal magnitude. Choice B would make the total -$100 billion. Choice C would leave a -$50 billion imbalance. Choice D ignores the accounting identity requirement. Choice E gets the direction wrong."
   },
   {
     "id": "macro_u6_q099",
@@ -5262,11 +5262,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which of the following transactions would be recorded as a credit in the U.S. current account?",
     "choices": [
-      "A) An American tourist spending money in France",
-      "B) A German company paying dividends to American shareholders",
-      "C) An American company building a factory in Mexico",
-      "D) A Japanese investor buying U.S. Treasury bonds",
-      "E) An American importing cars from Japan"
+      "An American tourist spending money in France",
+      "A German company paying dividends to American shareholders",
+      "An American company building a factory in Mexico",
+      "A Japanese investor buying U.S. Treasury bonds",
+      "An American importing cars from Japan"
     ],
     "answer": 1,
     "explanation": "Dividend payments from foreign companies to American shareholders represent income flowing into the U.S., recorded as a current account credit. Choice A is a debit (money flowing out). Choice C is a capital account transaction. Choice D is also a capital account transaction. Choice E is an import, recorded as a current account debit."
@@ -5283,11 +5283,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If foreign investors significantly increase their purchases of domestic government bonds, what is the most likely effect on the capital account and exchange rate?",
     "choices": [
-      "A) Capital account surplus and currency depreciation",
-      "B) Capital account deficit and currency depreciation",
-      "C) Capital account surplus and currency appreciation",
-      "D) Capital account deficit and currency appreciation",
-      "E) No effect on either the capital account or exchange rate"
+      "Capital account surplus and currency depreciation",
+      "Capital account deficit and currency depreciation",
+      "Capital account surplus and currency appreciation",
+      "Capital account deficit and currency appreciation",
+      "No effect on either the capital account or exchange rate"
     ],
     "answer": 2,
     "explanation": "Foreign purchases of domestic bonds create capital inflows (capital account surplus) and increase demand for the domestic currency to make those purchases, causing currency appreciation. Choice A has the wrong exchange rate effect. Choices B and D incorrectly identify this as causing a capital account deficit. Choice E ignores the clear effects of capital flows."
@@ -5304,11 +5304,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A country experiencing a persistent trade deficit is most likely also experiencing which of the following?",
     "choices": [
-      "A) A capital account deficit of equal magnitude",
-      "B) A current account deficit",
-      "C) Automatic currency depreciation",
-      "D) Declining foreign exchange reserves",
-      "E) Increasing domestic interest rates"
+      "A capital account deficit of equal magnitude",
+      "A current account deficit",
+      "Automatic currency depreciation",
+      "Declining foreign exchange reserves",
+      "Increasing domestic interest rates"
     ],
     "answer": 1,
     "explanation": "A trade deficit is the largest component of the current account, so a persistent trade deficit typically means a current account deficit. Choice A is wrong because a current account deficit is typically offset by a capital account surplus. Choice C is incorrect as currency movements depend on capital flows too. Choice D isn't necessarily true if capital inflows finance the deficit. Choice E isn't automatically caused by trade deficits."
@@ -5325,11 +5325,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Country A has a large trade surplus with Country B. If Country A's currency appreciates relative to Country B's currency, what is the most likely short-term effect on their trade relationship?",
     "choices": [
-      "A) Country A's trade surplus will increase because its exports become more valuable",
-      "B) Country A's trade surplus will decrease because its exports become more expensive",
-      "C) Country A's trade surplus will remain unchanged because currencies don't affect trade volumes",
-      "D) Country B will automatically develop a trade surplus",
-      "E) Both countries' trade will increase proportionally"
+      "Country A's trade surplus will increase because its exports become more valuable",
+      "Country A's trade surplus will decrease because its exports become more expensive",
+      "Country A's trade surplus will remain unchanged because currencies don't affect trade volumes",
+      "Country B will automatically develop a trade surplus",
+      "Both countries' trade will increase proportionally"
     ],
     "answer": 1,
     "explanation": "When Country A's currency appreciates, its exports become more expensive for Country B, reducing export volume and shrinking the trade surplus. Choice A confuses value with volume effects. Choice C ignores price effects on trade. Choice D assumes an automatic reversal that may not occur. Choice E incorrectly suggests proportional effects."
@@ -5346,11 +5346,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If a country's domestic currency depreciates by 20%, what is the most likely immediate effect on the country's net exports?",
     "choices": [
-      "A) Net exports will definitely increase by 20%",
-      "B) Net exports will immediately improve due to cheaper exports and more expensive imports",
-      "C) Net exports may initially worsen before improving due to existing contracts and price elasticities",
-      "D) Net exports will remain unchanged because depreciation doesn't affect real quantities",
-      "E) Net exports will worsen permanently because the country appears economically weak"
+      "Net exports will definitely increase by 20%",
+      "Net exports will immediately improve due to cheaper exports and more expensive imports",
+      "Net exports may initially worsen before improving due to existing contracts and price elasticities",
+      "Net exports will remain unchanged because depreciation doesn't affect real quantities",
+      "Net exports will worsen permanently because the country appears economically weak"
     ],
     "answer": 2,
     "explanation": "The J-curve effect suggests that net exports may initially worsen after depreciation due to existing contracts and time needed for quantities to adjust to new prices, before eventually improving. Choice A assumes a direct mathematical relationship. Choice B ignores adjustment lags. Choice D ignores price effects entirely. Choice E assumes permanent negative effects despite improved competitiveness."
@@ -5367,11 +5367,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In the foreign exchange market for euros (relative to dollars), what would cause the supply curve of euros to shift to the right?",
     "choices": [
-      "A) European consumers increasing their demand for American goods",
-      "B) American investors increasing their purchases of European stocks",
-      "C) The European Central Bank raising interest rates",
-      "D) Expectations that the euro will appreciate next month",
-      "E) A decrease in European income levels"
+      "European consumers increasing their demand for American goods",
+      "American investors increasing their purchases of European stocks",
+      "The European Central Bank raising interest rates",
+      "Expectations that the euro will appreciate next month",
+      "A decrease in European income levels"
     ],
     "answer": 0,
     "explanation": "Europeans demanding more American goods need to supply more euros to buy dollars for those purchases, shifting euro supply right. Choice B increases demand for euros, not supply. Choice C would decrease euro supply as higher rates make euros more attractive. Choice D would decrease supply as people hold euros expecting appreciation. Choice E would decrease both supply and demand for euros."
@@ -5388,11 +5388,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the Federal Reserve raises U.S. interest rates while other countries keep their rates unchanged, what is the most likely effect on the dollar's exchange rate?",
     "choices": [
-      "A) The dollar will depreciate because higher interest rates slow economic growth",
-      "B) The dollar will appreciate because higher rates attract foreign capital",
-      "C) The exchange rate will remain unchanged because monetary policy doesn't affect currency values",
-      "D) The dollar will depreciate because higher rates reduce money supply",
-      "E) The effect depends entirely on what other central banks do simultaneously"
+      "The dollar will depreciate because higher interest rates slow economic growth",
+      "The dollar will appreciate because higher rates attract foreign capital",
+      "The exchange rate will remain unchanged because monetary policy doesn't affect currency values",
+      "The dollar will depreciate because higher rates reduce money supply",
+      "The effect depends entirely on what other central banks do simultaneously"
     ],
     "answer": 1,
     "explanation": "Higher U.S. interest rates make dollar-denominated assets more attractive to foreign investors, increasing demand for dollars and causing appreciation. Choice A confuses growth effects with capital flow effects. Choice C ignores the well-established link between interest rates and exchange rates. Choice D misunderstands the capital flow mechanism. Choice E overstates the importance of other banks' simultaneous actions."
@@ -5409,11 +5409,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which of the following would most likely cause a currency to appreciate in the foreign exchange market?",
     "choices": [
-      "A) A decrease in the country's inflation rate relative to other countries",
-      "B) A decrease in foreign investment in the country",
-      "C) An increase in the country's imports",
-      "D) Political instability in the country",
-      "E) A decrease in the country's interest rates"
+      "A decrease in the country's inflation rate relative to other countries",
+      "A decrease in foreign investment in the country",
+      "An increase in the country's imports",
+      "Political instability in the country",
+      "A decrease in the country's interest rates"
     ],
     "answer": 0,
     "explanation": "Lower relative inflation makes a country's goods more competitive and its currency more attractive, leading to appreciation. Choice B would decrease currency demand. Choice C increases supply of the currency to buy imports. Choice D typically causes currency weakness. Choice E makes the currency less attractive to investors."
@@ -5430,11 +5430,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A country experiencing rapid inflation compared to its trading partners will most likely see its currency:",
     "choices": [
-      "A) Appreciate because domestic goods become more valuable",
-      "B) Depreciate because domestic goods become less competitive internationally",
-      "C) Remain stable because inflation is a domestic phenomenon",
-      "D) Appreciate initially, then depreciate as inflation expectations adjust",
-      "E) Depreciate only if the central bank increases money supply"
+      "Appreciate because domestic goods become more valuable",
+      "Depreciate because domestic goods become less competitive internationally",
+      "Remain stable because inflation is a domestic phenomenon",
+      "Appreciate initially, then depreciate as inflation expectations adjust",
+      "Depreciate only if the central bank increases money supply"
     ],
     "answer": 1,
     "explanation": "Higher relative inflation makes a country's exports less competitive and imports more attractive, reducing demand for the currency and causing depreciation. Choice A incorrectly equates higher prices with higher value. Choice C ignores inflation's effect on international competitiveness. Choice D suggests a pattern not supported by economic theory. Choice E focuses only on one cause of inflation."
@@ -5451,11 +5451,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If a country has a current account surplus and experiences large capital outflows, what must happen to maintain balance of payments equilibrium?",
     "choices": [
-      "A) The government must intervene in foreign exchange markets",
-      "B) Interest rates must rise automatically",
-      "C) The capital outflows must be smaller than the current account surplus",
-      "D) Foreign exchange reserves must decrease",
-      "E) The country must impose trade restrictions"
+      "The government must intervene in foreign exchange markets",
+      "Interest rates must rise automatically",
+      "The capital outflows must be smaller than the current account surplus",
+      "Foreign exchange reserves must decrease",
+      "The country must impose trade restrictions"
     ],
     "answer": 2,
     "explanation": "For balance of payments equilibrium, the current account surplus must be larger than capital outflows, with the difference potentially going to reserve accumulation. Choice A isn't required for equilibrium. Choice B isn't automatic. Choice D would occur only if capital outflows exceeded the current account surplus. Choice E isn't necessary for balance."
@@ -5472,11 +5472,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which combination of events would most likely improve a country's current account balance?",
     "choices": [
-      "A) Currency appreciation and increased domestic income",
-      "B) Currency depreciation and decreased domestic income",
-      "C) Increased foreign investment and higher interest rates",
-      "D) Higher inflation and increased government spending",
-      "E) Currency appreciation and decreased foreign income"
+      "Currency appreciation and increased domestic income",
+      "Currency depreciation and decreased domestic income",
+      "Increased foreign investment and higher interest rates",
+      "Higher inflation and increased government spending",
+      "Currency appreciation and decreased foreign income"
     ],
     "answer": 1,
     "explanation": "Currency depreciation makes exports cheaper and imports more expensive, while decreased domestic income reduces import demand - both improve the current account. Choice A worsens it through expensive exports and higher import demand. Choice C affects the capital account more than current account. Choice D would worsen the current account. Choice E has mixed effects but decreased foreign income reduces export demand."
@@ -5493,11 +5493,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An American company building a manufacturing plant in Vietnam would be recorded in the U.S. balance of payments as:",
     "choices": [
-      "A) A credit in the current account",
-      "B) A debit in the current account",
-      "C) A credit in the capital and financial account",
-      "D) A debit in the capital and financial account",
-      "E) No entry because it's a foreign transaction"
+      "A credit in the current account",
+      "A debit in the current account",
+      "A credit in the capital and financial account",
+      "A debit in the capital and financial account",
+      "No entry because it's a foreign transaction"
     ],
     "answer": 3,
     "explanation": "U.S. investment abroad represents capital outflow from the U.S., recorded as a debit in the capital and financial account. Choice A and B are wrong because this isn't a current account transaction. Choice C has the wrong sign - capital leaving the country is a debit. Choice E is incorrect as all international transactions are recorded."
@@ -5514,11 +5514,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Which factor would most likely contribute to reducing a country's trade deficit?",
     "choices": [
-      "A) An increase in domestic consumer confidence",
-      "B) A recession in the country's major export markets",
-      "C) An appreciation of the domestic currency",
-      "D) A recession in the domestic economy",
-      "E) An increase in domestic investment spending"
+      "An increase in domestic consumer confidence",
+      "A recession in the country's major export markets",
+      "An appreciation of the domestic currency",
+      "A recession in the domestic economy",
+      "An increase in domestic investment spending"
     ],
     "answer": 3,
     "explanation": "A domestic recession reduces income and import demand while freeing up goods for export, improving the trade balance. Choice A increases import demand. Choice B reduces export demand. Choice C makes imports cheaper and exports more expensive. Choice E may increase imports of capital goods."
@@ -5535,11 +5535,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A country with a persistent trade surplus might experience which of the following pressures?",
     "choices": [
-      "A) Demands from trading partners to appreciate its currency",
-      "B) Automatic currency depreciation due to excess exports",
-      "C) Decreased foreign exchange reserves",
-      "D) Pressure to increase imports automatically",
-      "E) Immediate elimination of the surplus through market forces"
+      "Demands from trading partners to appreciate its currency",
+      "Automatic currency depreciation due to excess exports",
+      "Decreased foreign exchange reserves",
+      "Pressure to increase imports automatically",
+      "Immediate elimination of the surplus through market forces"
     ],
     "answer": 0,
     "explanation": "Countries with persistent trade surpluses often face political pressure from deficit countries to allow currency appreciation to rebalance trade. Choice B is backwards - surpluses typically lead to appreciation pressure. Choice C is wrong as surpluses tend to increase reserves. Choice D overstates automatic adjustments. Choice E assumes faster adjustment than typically occurs."
@@ -5556,11 +5556,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If a country's trading partners enter a recession while the country maintains steady growth, what is the most likely effect on its net exports?",
     "choices": [
-      "A) Net exports will increase due to continued domestic production",
-      "B) Net exports will decrease due to reduced foreign demand for exports",
-      "C) Net exports will increase due to reduced competition from foreign producers",
-      "D) Net exports will remain unchanged because domestic factors don't affect trade",
-      "E) Net exports will increase because imports will automatically decrease"
+      "Net exports will increase due to continued domestic production",
+      "Net exports will decrease due to reduced foreign demand for exports",
+      "Net exports will increase due to reduced competition from foreign producers",
+      "Net exports will remain unchanged because domestic factors don't affect trade",
+      "Net exports will increase because imports will automatically decrease"
     ],
     "answer": 1,
     "explanation": "Recession in trading partners reduces their income and demand for the country's exports, worsening net exports. Choice A ignores the demand side. Choice C overlooks the primary effect of reduced export demand. Choice D incorrectly suggests trade independence. Choice E wrongly assumes import changes when domestic conditions are stable."
@@ -5577,11 +5577,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In the foreign exchange market, if there are expectations that the euro will depreciate against the dollar next month, what will happen to the current euro-dollar exchange rate?",
     "choices": [
-      "A) The euro will appreciate now as people buy it while it's cheap",
-      "B) The euro will depreciate now as people sell it before the expected decline",
-      "C) The exchange rate will remain unchanged until next month",
-      "D) The dollar will depreciate to offset the expected euro depreciation",
-      "E) Trading volume will decrease but exchange rates won't change"
+      "The euro will appreciate now as people buy it while it's cheap",
+      "The euro will depreciate now as people sell it before the expected decline",
+      "The exchange rate will remain unchanged until next month",
+      "The dollar will depreciate to offset the expected euro depreciation",
+      "Trading volume will decrease but exchange rates won't change"
     ],
     "answer": 1,
     "explanation": "Expectations of future depreciation cause immediate selling pressure as investors try to avoid losses, causing immediate depreciation. Choice A misunderstands investor behavior - they sell assets expected to fall in value. Choice C ignores how expectations affect current behavior. Choice D assumes an offsetting mechanism that doesn't exist. Choice E underestimates how expectations drive both price and volume changes."
@@ -5598,11 +5598,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the U.S. dollar appreciates significantly against the euro, which of the following is the most likely short-run effect on the U.S. current account balance?",
     "choices": [
-      "A) The current account balance will improve because foreign investment will increase",
-      "B) The current account balance will worsen because U.S. exports will become more expensive and imports will become cheaper",
-      "C) The current account balance will improve because U.S. imports will become more expensive",
-      "D) The current account balance will remain unchanged because exchange rates do not affect trade flows",
-      "E) The current account balance will worsen because the dollar's purchasing power will decrease"
+      "The current account balance will improve because foreign investment will increase",
+      "The current account balance will worsen because U.S. exports will become more expensive and imports will become cheaper",
+      "The current account balance will improve because U.S. imports will become more expensive",
+      "The current account balance will remain unchanged because exchange rates do not affect trade flows",
+      "The current account balance will worsen because the dollar's purchasing power will decrease"
     ],
     "answer": 1,
     "explanation": "When the dollar appreciates, U.S. goods become more expensive for foreign buyers (reducing exports) while foreign goods become cheaper for U.S. consumers (increasing imports). This worsens the trade balance component of the current account. Choice A confuses current account with capital account. Choice C incorrectly states imports become more expensive when they actually become cheaper. Choice D ignores the relationship between exchange rates and trade. Choice E incorrectly suggests the dollar's purchasing power decreases when it actually increases with appreciation."
@@ -5619,11 +5619,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A country has a current account deficit of $50 billion. According to balance of payments accounting principles, which of the following must be true?",
     "choices": [
-      "A) The country must have a budget deficit of $50 billion",
-      "B) The country's capital and financial account must show a net inflow of $50 billion",
-      "C) The country's exports must be $50 billion less than its GDP",
-      "D) The country must be experiencing currency depreciation",
-      "E) The country's foreign exchange reserves must decrease by $50 billion"
+      "The country must have a budget deficit of $50 billion",
+      "The country's capital and financial account must show a net inflow of $50 billion",
+      "The country's exports must be $50 billion less than its GDP",
+      "The country must be experiencing currency depreciation",
+      "The country's foreign exchange reserves must decrease by $50 billion"
     ],
     "answer": 1,
     "explanation": "The balance of payments must sum to zero, so a current account deficit of $50 billion must be offset by a capital and financial account surplus (net inflow) of $50 billion. Choice A confuses the government budget with the current account. Choice C misunderstands the relationship between exports and GDP. Choice D incorrectly assumes current account deficits always cause depreciation, ignoring capital flows. Choice E fails to recognize that capital inflows can maintain or increase reserves even with current account deficits."
@@ -5640,11 +5640,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A student decides to spend two hours studying for an economics exam instead of working at a job that pays $15 per hour. If working is the student's next best alternative, what is the opportunity cost of studying?",
     "choices": [
-      "A) $15",
-      "B) $20",
-      "C) $30",
-      "D) $45",
-      "E) $60"
+      "$15",
+      "$20",
+      "$30",
+      "$45",
+      "$60"
     ],
     "answer": 2,
     "explanation": "Opportunity cost is the value of the next best alternative foregone. The student spends 2 hours studying instead of working at $15 per hour. Therefore, the opportunity cost is 2 × $15 = $30. Choice A ($15) represents only one hour of foregone wages, a common error of ignoring the full time spent. Choice B ($20) is a miscalculation. Choice D ($45) and Choice E ($60) overestimate the foregone wages by using incorrect time or wage figures."
@@ -5661,11 +5661,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Country A can produce 30 shoes or 10 hats. Country B can produce 20 shoes or 20 hats. Which of the following statements is correct?",
     "choices": [
-      "A) Country A has a comparative advantage in hats because it can produce more shoes.",
-      "B) Country B has a comparative advantage in hats because it has a lower opportunity cost of producing hats.",
-      "C) Country A has a comparative advantage in both goods because it can produce more total output.",
-      "D) Country B has a comparative advantage in shoes because it has a lower opportunity cost of producing shoes.",
-      "E) Neither country has a comparative advantage because their total production capacities are equal."
+      "Country A has a comparative advantage in hats because it can produce more shoes.",
+      "Country B has a comparative advantage in hats because it has a lower opportunity cost of producing hats.",
+      "Country A has a comparative advantage in both goods because it can produce more total output.",
+      "Country B has a comparative advantage in shoes because it has a lower opportunity cost of producing shoes.",
+      "Neither country has a comparative advantage because their total production capacities are equal."
     ],
     "answer": 1,
     "explanation": "Country A's opportunity cost of 1 hat = 3 shoes (30/10). Country B's opportunity cost of 1 hat = 1 shoe (20/20). Since Country B has a lower opportunity cost of hats, it has the comparative advantage in hats. Choice A incorrectly links comparative advantage to absolute production of a different good. Choice C confuses absolute advantage with comparative advantage - a very common student misconception. Choice D is wrong because Country A has the comparative advantage in shoes (1/3 hat vs. 1 hat). Choice E is wrong because differing opportunity costs guarantee comparative advantage exists."
@@ -5682,11 +5682,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An economy is operating at a point inside its production possibilities curve. Which of the following is the most likely explanation and implication?",
     "choices": [
-      "A) The economy lacks the technology to reach the curve, so it must invest in research.",
-      "B) The economy has unemployed resources and could increase production of both goods without sacrificing either.",
-      "C) The economy is experiencing inflation, which pushes production below potential.",
-      "D) The economy is allocating resources efficiently but faces a scarcity constraint.",
-      "E) The economy must be experiencing an outward shift of the PPC due to economic growth."
+      "The economy lacks the technology to reach the curve, so it must invest in research.",
+      "The economy has unemployed resources and could increase production of both goods without sacrificing either.",
+      "The economy is experiencing inflation, which pushes production below potential.",
+      "The economy is allocating resources efficiently but faces a scarcity constraint.",
+      "The economy must be experiencing an outward shift of the PPC due to economic growth."
     ],
     "answer": 1,
     "explanation": "A point inside the PPC indicates underutilization of resources - typically unemployment or productive inefficiency. The economy could produce more of both goods by employing idle resources. Choice A is wrong because the technology is already reflected in the curve itself; the economy can reach the curve with existing technology. Choice C confuses inflation with underproduction - inflation does not directly place an economy inside its PPC. Choice D is wrong because efficiency corresponds to points on the curve, not inside it. Choice E is wrong because an outward shift moves the entire curve, not the production point inside it."
@@ -5703,11 +5703,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In the circular flow model, which of the following correctly describes a flow from households to firms?",
     "choices": [
-      "A) Households supply finished goods to firms through the product market.",
-      "B) Households provide labor, land, and capital to firms through the factor market.",
-      "C) Households receive wages, rent, and profit from firms through the product market.",
-      "D) Households purchase factors of production from firms through the factor market.",
-      "E) Households send transfer payments to firms through the government sector."
+      "Households supply finished goods to firms through the product market.",
+      "Households provide labor, land, and capital to firms through the factor market.",
+      "Households receive wages, rent, and profit from firms through the product market.",
+      "Households purchase factors of production from firms through the factor market.",
+      "Households send transfer payments to firms through the government sector."
     ],
     "answer": 1,
     "explanation": "In the circular flow, households own the factors of production (labor, land, capital, entrepreneurship) and supply them to firms through the factor market. Choice A is wrong because households are buyers, not sellers, in the product market - firms supply goods. Choice C correctly identifies income flows but places them in the wrong market; wages, rent, and profit flow through the factor market, not the product market. Choice D reverses the direction - households supply factors, not purchase them. Choice E is incorrect because transfer payments flow from the government to households, not from households to firms."
@@ -5724,11 +5724,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A government allows private ownership of businesses and market-determined prices for most goods, but it heavily regulates the healthcare and energy sectors and provides public education. This economy is best described as which of the following?",
     "choices": [
-      "A) A pure market economy because private ownership exists.",
-      "B) A command economy because the government regulates key industries.",
-      "C) A traditional economy because the government follows established patterns of regulation.",
-      "D) A mixed economy because it combines elements of market and command systems.",
-      "E) A market economy transitioning into a command economy due to increasing regulation."
+      "A pure market economy because private ownership exists.",
+      "A command economy because the government regulates key industries.",
+      "A traditional economy because the government follows established patterns of regulation.",
+      "A mixed economy because it combines elements of market and command systems.",
+      "A market economy transitioning into a command economy due to increasing regulation."
     ],
     "answer": 3,
     "explanation": "This economy features both private markets and significant government intervention in specific sectors, which is the hallmark of a mixed economy. Choice A is wrong because a pure market economy would have no government intervention in production or pricing. Choice B is wrong because a command economy features government control over most or all production decisions, not just selected industries. Choice C is wrong because traditional economies are based on customs, habits, and historical roles - not modern regulatory frameworks. Choice E is a common student misconception that any government regulation signals a shift toward a command system, but regulation of specific sectors is a normal feature of mixed economies."
@@ -5745,11 +5745,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "A country reports the following data for 2024: household consumption of $800 billion, business investment of $200 billion, government purchases of $300 billion, exports of $150 billion, and imports of $250 billion. Additionally, the government paid $100 billion in transfer payments. What is the country's GDP?",
     "choices": [
-      "A) $1,100 billion",
-      "B) $1,200 billion",
-      "C) $1,300 billion",
-      "D) $1,400 billion",
-      "E) $1,500 billion"
+      "$1,100 billion",
+      "$1,200 billion",
+      "$1,300 billion",
+      "$1,400 billion",
+      "$1,500 billion"
     ],
     "answer": 1,
     "explanation": "GDP = C + I + G + NX = $800 + $200 + $300 + ($150 - $250) = $800 + $200 + $300 - $100 = $1,200 billion. Transfer payments are NOT included in G because they do not represent the government purchasing goods or services. Students who add transfer payments to G get $1,300 billion (C). Students who forget to subtract imports or ignore NX entirely may arrive at $1,300 or $1,400 billion."
@@ -5766,11 +5766,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In 2023, a country's nominal GDP was $500 billion and its GDP deflator was 125 (base year = 2020). In 2024, nominal GDP rose to $550 billion and the GDP deflator increased to 137.5. Which of the following is true?",
     "choices": [
-      "A) Real GDP increased from 2023 to 2024 and the economy experienced no inflation.",
-      "B) Real GDP remained unchanged at $400 billion, meaning all of the nominal GDP increase was due to inflation.",
-      "C) Real GDP increased from $400 billion to $440 billion, and prices rose.",
-      "D) Real GDP decreased because the GDP deflator rose faster than nominal GDP.",
-      "E) Real GDP increased from $400 billion to $412 billion, and prices rose."
+      "Real GDP increased from 2023 to 2024 and the economy experienced no inflation.",
+      "Real GDP remained unchanged at $400 billion, meaning all of the nominal GDP increase was due to inflation.",
+      "Real GDP increased from $400 billion to $440 billion, and prices rose.",
+      "Real GDP decreased because the GDP deflator rose faster than nominal GDP.",
+      "Real GDP increased from $400 billion to $412 billion, and prices rose."
     ],
     "answer": 1,
     "explanation": "Real GDP = (Nominal GDP / GDP deflator) x 100. For 2023: ($500B / 125) x 100 = $400B. For 2024: ($550B / 137.5) x 100 = $400B. Real GDP stayed at $400 billion, meaning the entire $50 billion increase in nominal GDP was due to rising prices (inflation), not increased output. Choice C is a common error where students might miscalculate the 2024 real GDP. Choice D incorrectly concludes real GDP fell. Choice E reflects a computational error."
@@ -5787,11 +5787,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An economy has a frictional unemployment rate of 2%, structural unemployment rate of 3%, and cyclical unemployment rate of 1.5%. Which of the following statements is correct?",
     "choices": [
-      "A) The natural rate of unemployment is 6.5%, and the economy is at full employment.",
-      "B) The natural rate of unemployment is 5%, and the economy is operating below full employment.",
-      "C) The natural rate of unemployment is 5%, and the economy is operating above full employment.",
-      "D) The natural rate of unemployment is 3.5%, and the economy is in a recession.",
-      "E) The natural rate of unemployment is 6.5%, and the economy is in an expansion."
+      "The natural rate of unemployment is 6.5%, and the economy is at full employment.",
+      "The natural rate of unemployment is 5%, and the economy is operating below full employment.",
+      "The natural rate of unemployment is 5%, and the economy is operating above full employment.",
+      "The natural rate of unemployment is 3.5%, and the economy is in a recession.",
+      "The natural rate of unemployment is 6.5%, and the economy is in an expansion."
     ],
     "answer": 1,
     "explanation": "The natural rate of unemployment (NRU) = frictional + structural = 2% + 3% = 5%. The actual unemployment rate = 2% + 3% + 1.5% = 6.5%. Because cyclical unemployment is positive (1.5%), the economy is producing below its full-employment output - it is in a recessionary gap. Choice A incorrectly includes cyclical unemployment in the NRU. Choice C confuses the direction - positive cyclical unemployment means below, not above, full employment. Choice D excludes frictional unemployment from the NRU."
@@ -5808,11 +5808,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "The consumer price index (CPI) was 200 in Year 1 and 210 in Year 2. During this period, oil supply disruptions significantly raised energy costs across the economy, leading firms to increase prices. Which of the following best describes the inflation rate and its type?",
     "choices": [
-      "A) 10% inflation rate; demand-pull inflation caused by excess aggregate demand",
-      "B) 5% inflation rate; cost-push inflation caused by a negative supply shock",
-      "C) 10% inflation rate; cost-push inflation caused by a negative supply shock",
-      "D) 5% inflation rate; demand-pull inflation caused by increased consumer spending",
-      "E) 5% inflation rate; built-in inflation caused by wage-price spirals"
+      "10% inflation rate; demand-pull inflation caused by excess aggregate demand",
+      "5% inflation rate; cost-push inflation caused by a negative supply shock",
+      "10% inflation rate; cost-push inflation caused by a negative supply shock",
+      "5% inflation rate; demand-pull inflation caused by increased consumer spending",
+      "5% inflation rate; built-in inflation caused by wage-price spirals"
     ],
     "answer": 1,
     "explanation": "The inflation rate = ((210 - 200) / 200) x 100 = 5%. The scenario describes oil supply disruptions raising energy costs, which is a classic negative supply shock leading to cost-push inflation. Choice A and C incorrectly calculate the inflation rate as 10% (dividing the change by 100 instead of 200, a common student error). Choice D identifies the correct rate but misidentifies the type - demand-pull inflation is caused by shifts in aggregate demand, not supply disruptions. Choice E correctly calculates 5% but attributes it to built-in inflation, which involves expectations and wage-price spirals, not a supply shock."
@@ -5829,11 +5829,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "If the marginal propensity to consume (MPC) is 0.8 and the government increases spending by $50 billion, what is the maximum possible change in real GDP, assuming no crowding out or other leakages beyond saving?",
     "choices": [
-      "A) $40 billion",
-      "B) $50 billion",
-      "C) $100 billion",
-      "D) $250 billion",
-      "E) $400 billion"
+      "$40 billion",
+      "$50 billion",
+      "$100 billion",
+      "$250 billion",
+      "$400 billion"
     ],
     "answer": 3,
     "explanation": "The spending multiplier is 1/MPS = 1/(1 - MPC) = 1/0.2 = 5. The maximum change in GDP = multiplier × change in spending = 5 × $50 billion = $250 billion. A) $40 billion incorrectly multiplies $50 billion by the MPC. B) $50 billion assumes no multiplier effect at all. C) $100 billion results from mistakenly using 1/MPC as the multiplier. E) $400 billion may come from incorrectly calculating the multiplier as 1/MPC × MPC or other arithmetic errors."
@@ -5850,11 +5850,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "An economy is currently producing above its full-employment output, and the price level is rising. Which of the following fiscal policy actions would be most appropriate to close the inflationary gap?",
     "choices": [
-      "A) Increase government spending and decrease taxes",
-      "B) Decrease government spending and increase taxes",
-      "C) Increase government spending and increase taxes by the same amount",
-      "D) Decrease taxes and increase transfer payments",
-      "E) Increase the money supply and decrease the reserve requirement"
+      "Increase government spending and decrease taxes",
+      "Decrease government spending and increase taxes",
+      "Increase government spending and increase taxes by the same amount",
+      "Decrease taxes and increase transfer payments",
+      "Increase the money supply and decrease the reserve requirement"
     ],
     "answer": 1,
     "explanation": "An inflationary gap means real GDP exceeds full-employment output, so contractionary fiscal policy is needed to reduce aggregate demand. Decreasing government spending and increasing taxes both reduce AD, closing the gap. A) is expansionary fiscal policy, which would widen the inflationary gap. C) is the balanced budget multiplier scenario, which would still increase GDP (net expansionary), not reduce it. D) is also expansionary, as both actions increase disposable income and consumption. E) describes monetary policy tools (controlled by the central bank), not fiscal policy, which is a common student confusion between fiscal and monetary policy."
@@ -5872,11 +5872,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows the money market before and after the Federal Reserve conducts an open market purchase of government bonds. Which of the following correctly describes the resulting changes shown?",
     "graphSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 310 260' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='168' y='244' text-anchor='middle' class='svg-label'>Quantity of Money</text><text x='16' y='125' text-anchor='middle' class='svg-label' transform='rotate(-90,16,125)'>Nominal Interest Rate</text><line x1='75' y1='50' x2='245' y2='210' stroke='#3b82f6' stroke-width='2.5'/><text x='248' y='207' fill='#3b82f6' font-weight='600'>MD</text><line x1='170' y1='25' x2='170' y2='218' stroke='#16a34a' stroke-width='2.5'/><text x='155' y='22' fill='#16a34a' font-weight='600'>MS&#8321;</text><line x1='220' y1='25' x2='220' y2='218' stroke='#16a34a' stroke-width='2' stroke-dasharray='6,4'/><text x='205' y='22' fill='#16a34a' font-weight='600'>MS&#8322;</text><polygon points='218,60 206,54 206,66' fill='#dc2626'/><line x1='176' y1='60' x2='212' y2='60' stroke='#dc2626' stroke-width='2'/><circle cx='170' cy='120' r='5' fill='#94a3b8'/><line x1='50' y1='120' x2='170' y2='120' stroke-width='1.5' stroke-dasharray='5,4' class='svg-axis svg-dashed'/><text x='38' y='124' text-anchor='end' class='svg-label'>i&#8321;</text><circle cx='220' cy='170' r='5' fill='#94a3b8'/><line x1='50' y1='170' x2='220' y2='170' stroke-width='1.5' stroke-dasharray='5,4' class='svg-axis svg-dashed'/><text x='38' y='174' text-anchor='end' class='svg-label'>i&#8322;</text><text x='156' y='130' fill='#94a3b8' font-size='11'>E&#8321;</text><text x='206' y='180' fill='#94a3b8' font-size='11'>E&#8322;</text></svg>",
     "choices": [
-      "A) The money supply curve shifts left, and the nominal interest rate increases.",
-      "B) The money supply curve shifts right, and the nominal interest rate decreases.",
-      "C) The money demand curve shifts right, and the nominal interest rate increases.",
-      "D) The money demand curve shifts left, and the nominal interest rate decreases.",
-      "E) The money supply curve shifts right, and the nominal interest rate increases."
+      "The money supply curve shifts left, and the nominal interest rate increases.",
+      "The money supply curve shifts right, and the nominal interest rate decreases.",
+      "The money demand curve shifts right, and the nominal interest rate increases.",
+      "The money demand curve shifts left, and the nominal interest rate decreases.",
+      "The money supply curve shifts right, and the nominal interest rate increases."
     ],
     "answer": 1,
     "explanation": "When the Fed conducts an open market purchase, it buys government bonds from banks and the public, injecting reserves into the banking system. This increases the money supply, shifting the money supply curve to the right. With greater supply of money at the existing interest rate, the nominal interest rate falls to restore equilibrium. Choice (A) describes an open market sale, not a purchase. Choices (C) and (D) incorrectly shift the money demand curve, which is not directly affected by open market operations. Choice (E) correctly shifts supply right but incorrectly states the interest rate rises - a common error where students confuse the direction of the rate change when supply increases."
@@ -5893,11 +5893,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Country Z has a current account deficit of $50 billion. Which of the following must be true about Country Z's capital (financial) account, assuming no statistical discrepancy and no official reserve transactions?",
     "choices": [
-      "A) It has a capital account surplus of $50 billion.",
-      "B) It has a capital account deficit of $50 billion.",
-      "C) It has a capital account surplus, but the amount cannot be determined.",
-      "D) It has a capital account balance of zero because the two accounts are independent.",
-      "E) It has a capital account deficit that is less than $50 billion due to currency depreciation."
+      "It has a capital account surplus of $50 billion.",
+      "It has a capital account deficit of $50 billion.",
+      "It has a capital account surplus, but the amount cannot be determined.",
+      "It has a capital account balance of zero because the two accounts are independent.",
+      "It has a capital account deficit that is less than $50 billion due to currency depreciation."
     ],
     "answer": 0,
     "explanation": "The balance of payments must sum to zero. If the current account has a deficit of $50 billion, the capital (financial) account must have a corresponding surplus of $50 billion to offset it, assuming no statistical discrepancy or official reserve changes. Choice B is a common misconception where students confuse surplus and deficit directions. Choice C is wrong because the amount is determinable given the assumptions. Choice D incorrectly treats the accounts as independent when they are linked by the balance of payments identity. Choice E incorrectly introduces currency depreciation as a factor that would change the accounting relationship."
@@ -5914,11 +5914,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "Country A can produce either 200 units of wheat or 100 units of steel using all its resources, while Country B can produce either 180 units of wheat or 90 units of steel using all its resources. Which of the following correctly describes the opportunity cost and trade situation between these two countries?",
     "choices": [
-      "A) Country A has an absolute advantage in both goods and therefore has a comparative advantage in both goods, so trade is mutually beneficial.",
-      "B) Country A has a comparative advantage in wheat because it produces more wheat than Country B, and Country B should specialize in steel.",
-      "C) Neither country has a comparative advantage because the opportunity cost of producing each good is identical in both countries, so trade will not generate gains.",
-      "D) Country A has a comparative advantage in wheat because its opportunity cost of wheat in terms of steel is lower than Country B's, so Country A should specialize in wheat.",
-      "E) Country B has a comparative advantage in steel because it has a lower absolute output of steel, making steel relatively more scarce in Country B."
+      "Country A has an absolute advantage in both goods and therefore has a comparative advantage in both goods, so trade is mutually beneficial.",
+      "Country A has a comparative advantage in wheat because it produces more wheat than Country B, and Country B should specialize in steel.",
+      "Neither country has a comparative advantage because the opportunity cost of producing each good is identical in both countries, so trade will not generate gains.",
+      "Country A has a comparative advantage in wheat because its opportunity cost of wheat in terms of steel is lower than Country B's, so Country A should specialize in wheat.",
+      "Country B has a comparative advantage in steel because it has a lower absolute output of steel, making steel relatively more scarce in Country B."
     ],
     "answer": 2,
     "explanation": "In Country A, the opportunity cost of 1 unit of wheat is 100/200 = 0.5 units of steel, and 1 unit of steel costs 200/100 = 2 units of wheat. In Country B, the opportunity cost of 1 unit of wheat is 90/180 = 0.5 units of steel, and 1 unit of steel costs 180/90 = 2 units of wheat. The opportunity costs are identical in both countries, meaning neither country has a comparative advantage in either good. Trade cannot generate gains when opportunity costs are equal. Choice A is wrong because absolute advantage does not confer comparative advantage - a country cannot have comparative advantage in both goods. Choice B is wrong because comparative advantage is determined by opportunity cost, not absolute output levels. Choice D is wrong because the opportunity cost of wheat is the same (0.5 steel) in both countries, not lower in Country A. Choice E is wrong because comparative advantage is never determined by scarcity of absolute output."
@@ -5935,11 +5935,11 @@ window.APMACRO_MCQ = [
     "format": "text",
     "question": "In the circular flow model, households decide to increase their saving rate significantly, reducing spending on goods and services. Tracing this change through the factor markets, which of the following describes what happens to factor income payments flowing from firms to households in the short run?",
     "choices": [
-      "A) Factor income payments rise because higher household saving increases the supply of loanable funds, lowering interest rates and encouraging firms to hire more factors of production.",
-      "B) Factor income payments remain unchanged because households supply the same quantity of labor and capital regardless of their spending decisions, keeping factor markets in equilibrium.",
-      "C) Factor income payments fall because reduced household spending lowers firms' revenues, reducing firms' demand for factors of production in factor markets and decreasing wages and other factor payments.",
-      "D) Factor income payments rise because firms must compensate households more to incentivize them to reduce consumption and supply more resources to productive use.",
-      "E) Factor income payments fall because households, by saving more, withdraw money from circulation entirely, causing a permanent reduction in the money supply available to pay workers."
+      "Factor income payments rise because higher household saving increases the supply of loanable funds, lowering interest rates and encouraging firms to hire more factors of production.",
+      "Factor income payments remain unchanged because households supply the same quantity of labor and capital regardless of their spending decisions, keeping factor markets in equilibrium.",
+      "Factor income payments fall because reduced household spending lowers firms' revenues, reducing firms' demand for factors of production in factor markets and decreasing wages and other factor payments.",
+      "Factor income payments rise because firms must compensate households more to incentivize them to reduce consumption and supply more resources to productive use.",
+      "Factor income payments fall because households, by saving more, withdraw money from circulation entirely, causing a permanent reduction in the money supply available to pay workers."
     ],
     "answer": 2,
     "explanation": "In the circular flow model, households purchase goods and services in product markets, generating revenue for firms. Firms then use that revenue to pay for factors of production - labor, land, capital, and entrepreneurship - in factor markets, which is the income households receive. When households reduce spending, firms' revenues fall. With lower revenues, firms reduce production and cut back on the factors they demand, decreasing wages, rent, interest, and profit payments flowing back to households. This is the key circular flow linkage: spending in product markets drives factor demand and income in factor markets. Choice A describes a loanable funds market effect that is real but represents a different mechanism operating over a longer time horizon; it does not describe the direct short-run factor market effect. Choice B is wrong because firms' demand for factors depends on their output and revenues - a fall in spending reduces derived demand for factors. Choice D confuses the direction of causation and describes a microeconomic labor-leisure tradeoff logic that does not apply here. Choice E is wrong because saving deposits funds into financial institutions rather than permanently destroying money; it conflates saving with hoarding and misrepresents the money supply mechanism."
@@ -5955,11 +5955,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows a bowed-out production possibilities curve (PPC) with three labeled points. Which point represents a combination of goods that is both attainable and productively efficient?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Capital Goods</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Consumer Goods</text><path d='M 52,38 Q 240,38 240,215' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='185' y='93' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>PPC</text><circle cx='100' cy='58' r='5' fill='#3b82f6'/><text x='108' y='54' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>A</text><circle cx='165' cy='100' r='5' fill='#16a34a'/><text x='173' y='96' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>B</text><circle cx='120' cy='130' r='5' fill='#dc2626'/><text x='128' y='126' fill='#dc2626' font-size='13' font-weight='600' class='svg-label'>C</text></svg>",
     "choices": [
-      "A) Point A only, because it lies outside the PPC.",
-      "B) Point B only, because it lies on the PPC.",
-      "C) Point C only, because it lies inside the PPC.",
-      "D) Both B and C, because both are attainable by the economy.",
-      "E) None of the points; efficiency requires a straight-line PPC."
+      "Point A only, because it lies outside the PPC.",
+      "Point B only, because it lies on the PPC.",
+      "Point C only, because it lies inside the PPC.",
+      "Both B and C, because both are attainable by the economy.",
+      "None of the points; efficiency requires a straight-line PPC."
     ],
     "answer": 2,
     "explanation": "A point ON the PPC (point B) is both attainable (reachable with current resources) and productively efficient (no resources are wasted). Point A lies outside the PPC, making it currently unattainable. Point C lies inside the PPC, meaning the economy is attainable but not efficient — some resources are idle. Efficiency and attainability together require a point on the frontier."
@@ -5975,11 +5975,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows a country's production possibilities curve shifting outward from PPC₁ to PPC₂. Which of the following best explains this shift?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Capital Goods</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Consumer Goods</text><path d='M 52,38 Q 220,38 220,205' stroke='#93c5fd' stroke-width='2.5' fill='none' stroke-dasharray='5 3'/><text x='172' y='90' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>PPC₁</text><path d='M 52,38 Q 255,38 255,210' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='195' y='91' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>PPC₂</text><line x1='190' y1='100' x2='222' y2='100' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='230,100 222,95 222,105' fill='#dc2626' stroke='none'/></svg>",
     "choices": [
-      "A) A decrease in unemployment moved the economy from inside to the frontier.",
-      "B) The economy reallocated resources from consumer goods to capital goods.",
-      "C) Technological progress or an increase in productive resources expanded the economy's maximum output.",
-      "D) An increase in consumer demand raised desired production of both goods.",
-      "E) The economy moved along PPC₁ toward greater capital goods production."
+      "A decrease in unemployment moved the economy from inside to the frontier.",
+      "The economy reallocated resources from consumer goods to capital goods.",
+      "Technological progress or an increase in productive resources expanded the economy's maximum output.",
+      "An increase in consumer demand raised desired production of both goods.",
+      "The economy moved along PPC₁ toward greater capital goods production."
     ],
     "answer": 3,
     "explanation": "An outward shift of the entire PPC represents economic growth — an increase in the economy's maximum productive capacity. This is caused by technological advances, a larger labor force, more capital, or better resource quality. Option A (moving from inside to the curve) reduces unemployment but does not shift the PPC itself. Reallocating resources (B) or changing demand (D) only moves the economy along the existing frontier."
@@ -5995,11 +5995,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows a bowed-out production possibilities curve. The economy begins at point A on the curve. If the economy moves to point B, which of the following best describes what has occurred?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Capital Goods</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Consumer Goods</text><path d='M 52,38 Q 240,38 240,215' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='185' y='93' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>PPC</text><circle cx='148' cy='77' r='5' fill='#16a34a'/><text x='156' y='73' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>A</text><circle cx='122' cy='130' r='5' fill='#dc2626'/><text x='130' y='126' fill='#dc2626' font-size='13' font-weight='600' class='svg-label'>B</text></svg>",
     "choices": [
-      "A) The economy achieved economic growth by increasing its productive capacity.",
-      "B) The economy reallocated resources from consumer goods to capital goods.",
-      "C) Some resources became idle — for example, unemployment increased.",
-      "D) The economy became more productively efficient by reducing waste.",
-      "E) A new technology shifted the PPC inward, reducing productive capacity."
+      "The economy achieved economic growth by increasing its productive capacity.",
+      "The economy reallocated resources from consumer goods to capital goods.",
+      "Some resources became idle — for example, unemployment increased.",
+      "The economy became more productively efficient by reducing waste.",
+      "A new technology shifted the PPC inward, reducing productive capacity."
     ],
     "answer": 3,
     "explanation": "Point B lies inside the PPC, indicating the economy is no longer using all available resources efficiently. Moving from an on-frontier point (A) to an interior point (B) means some resources have become idle — typically rising unemployment or unused capital. This is NOT economic growth (which shifts the curve outward) and NOT a reallocation (which stays on the frontier). Option E incorrectly attributes an interior point to a PPC shift."
@@ -6015,11 +6015,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows a bowed-out production possibilities curve. Moving from point A to point B increases production of capital goods. Which of the following correctly describes the opportunity cost of this movement?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Capital Goods</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Consumer Goods</text><path d='M 52,38 Q 240,38 240,215' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='185' y='93' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>PPC</text><circle cx='97' cy='55' r='5' fill='#16a34a'/><text x='105' y='51' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>A</text><circle cx='200' cy='130' r='5' fill='#3b82f6'/><text x='208' y='126' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>B</text></svg>",
     "choices": [
-      "A) Zero, because both A and B are on the PPC and therefore equally efficient.",
-      "B) Constant, because both points represent full productive efficiency.",
-      "C) The amount of consumer goods that must be given up to produce more capital goods.",
-      "D) Negative, because more capital goods increase future productive capacity.",
-      "E) The total dollar value of capital goods produced at point B."
+      "Zero, because both A and B are on the PPC and therefore equally efficient.",
+      "Constant, because both points represent full productive efficiency.",
+      "The amount of consumer goods that must be given up to produce more capital goods.",
+      "Negative, because more capital goods increase future productive capacity.",
+      "The total dollar value of capital goods produced at point B."
     ],
     "answer": 3,
     "explanation": "Opportunity cost is always measured as what is sacrificed. Moving along the PPC from A to B trades consumer goods (vertical axis) for capital goods (horizontal axis) — the opportunity cost is the consumer goods given up. The bowed-out shape reflects the law of increasing opportunity costs: as more capital goods are produced, each additional unit requires giving up ever-larger quantities of consumer goods. Being on the PPC means efficiency, not zero opportunity cost."
@@ -6035,11 +6035,11 @@ window.APMACRO_MCQ = [
     "question": "The AD/AS graph below shows an economy in short-run equilibrium at the intersection of AD and SRAS. The vertical LRAS curve represents potential GDP (Y*). Based on the graph, which of the following correctly identifies the gap and an appropriate policy response?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Real GDP</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Price Level</text><line x1='65' y1='40' x2='270' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>AD</text><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>SRAS</text><line x1='215' y1='220' x2='215' y2='20' stroke='#f97316' stroke-width='2.5' fill='none'/><text x='219' y='32' fill='#f97316' font-size='13' font-weight='600' class='svg-label'>LRAS</text><line x1='50' y1='120' x2='167' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>P*</text><line x1='167' y1='120' x2='167' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='167' y='234' text-anchor='middle' class='svg-label'>Y*</text><circle cx='167' cy='120' r='5' fill='#94a3b8'/><line x1='171' y1='102' x2='211' y2='102' stroke='#dc2626' stroke-width='1.5' fill='none'/><polygon points='171,102 178,98 178,106' fill='#dc2626' stroke='none'/><polygon points='211,102 204,98 204,106' fill='#dc2626' stroke='none'/><text x='191' y='98' text-anchor='middle' fill='#dc2626' font-size='11' font-weight='600' class='svg-label'>Gap</text></svg>",
     "choices": [
-      "A) An inflationary gap exists; the government should raise taxes to cool the economy.",
-      "B) A recessionary gap exists; expansionary fiscal policy (increase G or cut taxes) would shift AD rightward to close the gap.",
-      "C) The economy is at full employment; no fiscal or monetary policy action is needed.",
-      "D) A recessionary gap exists; contractionary monetary policy would close the gap by raising interest rates.",
-      "E) An inflationary gap exists; the central bank should lower interest rates to reduce investment."
+      "An inflationary gap exists; the government should raise taxes to cool the economy.",
+      "A recessionary gap exists; expansionary fiscal policy (increase G or cut taxes) would shift AD rightward to close the gap.",
+      "The economy is at full employment; no fiscal or monetary policy action is needed.",
+      "A recessionary gap exists; contractionary monetary policy would close the gap by raising interest rates.",
+      "An inflationary gap exists; the central bank should lower interest rates to reduce investment."
     ],
     "answer": 2,
     "explanation": "When short-run equilibrium output (Y_e, where AD meets SRAS) lies to the LEFT of potential GDP (LRAS = Y*), the economy is producing below capacity — a recessionary gap with cyclical unemployment above the natural rate. Expansionary fiscal policy (increase G or cut taxes) shifts AD rightward toward Y*. Contractionary policy (D, E) would deepen the recession. An inflationary gap (A, E) occurs when Y_e > Y*, the opposite of what is shown."
@@ -6055,11 +6055,11 @@ window.APMACRO_MCQ = [
     "question": "The AD/AS graph below shows aggregate demand shifting rightward from AD₁ to AD₂ while short-run aggregate supply remains unchanged. What are the short-run effects on the price level and real GDP?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Real GDP</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Price Level</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>AD₁</text><line x1='95' y1='40' x2='300' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='278' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>AD₂</text><line x1='167' y1='120' x2='189' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='197,120 189,115 189,125' fill='#dc2626' stroke='none'/><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>SRAS</text><line x1='50' y1='120' x2='182' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>P*</text><line x1='182' y1='120' x2='182' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='234' text-anchor='middle' class='svg-label'>Y*</text><circle cx='182' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) Price level falls; real GDP falls.",
-      "B) Price level rises; real GDP rises.",
-      "C) Price level rises; real GDP falls.",
-      "D) Price level is unchanged; only real GDP rises because SRAS is fixed.",
-      "E) Real GDP is unchanged; only the price level rises because of the quantity theory."
+      "Price level falls; real GDP falls.",
+      "Price level rises; real GDP rises.",
+      "Price level rises; real GDP falls.",
+      "Price level is unchanged; only real GDP rises because SRAS is fixed.",
+      "Real GDP is unchanged; only the price level rises because of the quantity theory."
     ],
     "answer": 2,
     "explanation": "A rightward AD shift along an unchanged SRAS moves the equilibrium up and to the right: both price level and real GDP increase in the short run. This is the standard demand-pull result — increased total spending (from higher C, I, G, or Xn) raises output and prices simultaneously. Option C (stagflation) results from a leftward SRAS shift. Options D and E misunderstand that SRAS is upward-sloping, not horizontal."
@@ -6075,11 +6075,11 @@ window.APMACRO_MCQ = [
     "question": "The AD/AS graph below shows aggregate demand shifting leftward from AD₁ to AD₂. Which of the following events most likely caused this shift?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Real GDP</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Price Level</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>AD₁</text><line x1='35' y1='40' x2='240' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='244' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>AD₂</text><line x1='167' y1='120' x2='145' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='137,120 145,115 145,125' fill='#dc2626' stroke='none'/><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>SRAS</text><line x1='50' y1='120' x2='152' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>P*</text><line x1='152' y1='120' x2='152' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='152' y='234' text-anchor='middle' class='svg-label'>Y*</text><circle cx='152' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) A major tax cut increasing household disposable income.",
-      "B) A large increase in government infrastructure spending.",
-      "C) A sharp decline in business investment due to pessimistic profit expectations.",
-      "D) A reduction in the central bank's policy interest rate stimulating borrowing.",
-      "E) A surge in export demand driven by strong economic growth abroad."
+      "A major tax cut increasing household disposable income.",
+      "A large increase in government infrastructure spending.",
+      "A sharp decline in business investment due to pessimistic profit expectations.",
+      "A reduction in the central bank's policy interest rate stimulating borrowing.",
+      "A surge in export demand driven by strong economic growth abroad."
     ],
     "answer": 3,
     "explanation": "A leftward AD shift reflects decreased total spending at every price level. A sharp drop in business investment reduces the I component in GDP = C + I + G + Xn, shifting AD left. Options A, B, D, and E all raise spending (C, G, I, Xn respectively) and would shift AD rightward. Business pessimism — not external shocks or policy stimulus — is the correct cause of a leftward shift here."
@@ -6095,11 +6095,11 @@ window.APMACRO_MCQ = [
     "question": "The AD/AS graph below shows short-run aggregate supply shifting leftward from SRAS₁ to SRAS₂ while AD remains unchanged. Which of the following correctly describes the short-run outcome and the economic condition it represents?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Real GDP</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Price Level</text><line x1='65' y1='40' x2='270' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>AD</text><line x1='65' y1='200' x2='270' y2='40' stroke='#86efac' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#86efac' font-size='13' font-weight='600' class='svg-label'>SRAS₁</text><line x1='35' y1='200' x2='240' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='244' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>SRAS₂</text><line x1='167' y1='120' x2='145' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='137,120 145,115 145,125' fill='#dc2626' stroke='none'/><line x1='50' y1='120' x2='152' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>P*</text><line x1='152' y1='120' x2='152' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='152' y='234' text-anchor='middle' class='svg-label'>Y*</text><circle cx='152' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) Real GDP rises and the price level falls — a favorable supply shock.",
-      "B) Both real GDP and the price level rise — demand-pull inflation from excess spending.",
-      "C) Real GDP falls and the price level rises simultaneously — stagflation caused by a negative supply shock.",
-      "D) Both real GDP and the price level fall — a deflationary recession from collapsing demand.",
-      "E) Only the price level changes; real GDP is unaffected because firms always produce at potential."
+      "Real GDP rises and the price level falls — a favorable supply shock.",
+      "Both real GDP and the price level rise — demand-pull inflation from excess spending.",
+      "Real GDP falls and the price level rises simultaneously — stagflation caused by a negative supply shock.",
+      "Both real GDP and the price level fall — a deflationary recession from collapsing demand.",
+      "Only the price level changes; real GDP is unaffected because firms always produce at potential."
     ],
     "answer": 3,
     "explanation": "A leftward SRAS shift (negative supply shock — e.g., oil price spike, higher wages, natural disaster) raises production costs. The new equilibrium has lower real GDP AND a higher price level: stagflation. This is the only AD/AS scenario where inflation and recession occur simultaneously. It is especially difficult for policymakers: expansionary policy reduces unemployment but worsens inflation; contractionary policy reduces inflation but deepens the recession."
@@ -6115,11 +6115,11 @@ window.APMACRO_MCQ = [
     "question": "The AD/AS graph below shows an economy where the short-run equilibrium output (Y_e) exceeds potential GDP (Y*). Which of the following correctly identifies this situation and an appropriate policy response?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Real GDP</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Price Level</text><line x1='65' y1='40' x2='270' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>AD</text><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>SRAS</text><line x1='130' y1='220' x2='130' y2='20' stroke='#f97316' stroke-width='2.5' fill='none'/><text x='134' y='32' fill='#f97316' font-size='13' font-weight='600' class='svg-label'>LRAS</text><line x1='50' y1='120' x2='167' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>P*</text><line x1='167' y1='120' x2='167' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='167' y='234' text-anchor='middle' class='svg-label'>Y*</text><circle cx='167' cy='120' r='5' fill='#94a3b8'/><line x1='134' y1='102' x2='163' y2='102' stroke='#dc2626' stroke-width='1.5' fill='none'/><polygon points='134,102 141,98 141,106' fill='#dc2626' stroke='none'/><polygon points='163,102 156,98 156,106' fill='#dc2626' stroke='none'/><text x='149' y='98' text-anchor='middle' fill='#dc2626' font-size='11' font-weight='600' class='svg-label'>Gap</text></svg>",
     "choices": [
-      "A) A recessionary gap; increase government spending to restore full employment.",
-      "B) Full employment equilibrium; no policy intervention is needed.",
-      "C) An inflationary gap; contractionary fiscal policy (raise taxes or cut government spending) would reduce AD and close the gap.",
-      "D) A recessionary gap; the central bank should lower interest rates.",
-      "E) An inflationary gap; the central bank should purchase government bonds to expand the money supply."
+      "A recessionary gap; increase government spending to restore full employment.",
+      "Full employment equilibrium; no policy intervention is needed.",
+      "An inflationary gap; contractionary fiscal policy (raise taxes or cut government spending) would reduce AD and close the gap.",
+      "A recessionary gap; the central bank should lower interest rates.",
+      "An inflationary gap; the central bank should purchase government bonds to expand the money supply."
     ],
     "answer": 3,
     "explanation": "When Y_e > Y* (short-run equilibrium to the RIGHT of LRAS), the economy is overheating — producing beyond sustainable capacity, unemployment is below the natural rate, and wages are rising. This is an inflationary gap. Contractionary fiscal policy (higher taxes or lower G) shifts AD leftward, reducing output back toward Y*. Option E (buying bonds) is expansionary monetary policy and would widen, not close, an inflationary gap."
@@ -6135,11 +6135,11 @@ window.APMACRO_MCQ = [
     "question": "The AD/AS graph below shows short-run aggregate supply shifting rightward from SRAS₁ to SRAS₂. Which of the following events is most consistent with this shift?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Real GDP</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Price Level</text><line x1='65' y1='40' x2='270' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>AD</text><line x1='65' y1='200' x2='270' y2='40' stroke='#86efac' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#86efac' font-size='13' font-weight='600' class='svg-label'>SRAS₁</text><line x1='95' y1='200' x2='300' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='278' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>SRAS₂</text><line x1='167' y1='120' x2='189' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='197,120 189,115 189,125' fill='#dc2626' stroke='none'/><line x1='50' y1='120' x2='182' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>P*</text><line x1='182' y1='120' x2='182' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='234' text-anchor='middle' class='svg-label'>Y*</text><circle cx='182' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) A sharp increase in oil prices raising input costs for all producers.",
-      "B) Significant new union contracts raising nominal wages across industries.",
-      "C) A major technological improvement lowering per-unit production costs economy-wide.",
-      "D) A depreciation of the domestic currency increasing the price of imported inputs.",
-      "E) A government-mandated minimum wage increase raising labor costs for firms."
+      "A sharp increase in oil prices raising input costs for all producers.",
+      "Significant new union contracts raising nominal wages across industries.",
+      "A major technological improvement lowering per-unit production costs economy-wide.",
+      "A depreciation of the domestic currency increasing the price of imported inputs.",
+      "A government-mandated minimum wage increase raising labor costs for firms."
     ],
     "answer": 3,
     "explanation": "A rightward SRAS shift means lower per-unit production costs — firms can supply more output at every price level. A major economy-wide productivity improvement achieves exactly this, shifting SRAS right: real GDP rises and the price level falls (a favorable supply shock). Options A, B, D, and E all raise production costs, shifting SRAS leftward and producing stagflation."
@@ -6155,11 +6155,11 @@ window.APMACRO_MCQ = [
     "question": "The AD/AS graph below shows aggregate demand shifting rightward from AD₁ to AD₂ while LRAS marks potential GDP. After the AD shift, which of the following describes the new short-run equilibrium and the long-run self-correction that follows without policy?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Real GDP</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Price Level</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>AD₁</text><line x1='95' y1='40' x2='300' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='278' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>AD₂</text><line x1='167' y1='120' x2='189' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='197,120 189,115 189,125' fill='#dc2626' stroke='none'/><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>SRAS</text><line x1='175' y1='220' x2='175' y2='20' stroke='#f97316' stroke-width='2.5' fill='none'/><text x='179' y='32' fill='#f97316' font-size='13' font-weight='600' class='svg-label'>LRAS</text><line x1='50' y1='120' x2='182' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>P*</text><line x1='182' y1='120' x2='182' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='234' text-anchor='middle' class='svg-label'>Y*</text><circle cx='182' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) A recessionary gap opens; SRAS shifts left over time, further reducing output.",
-      "B) Full employment is maintained; AD shifts have no effect because LRAS is fixed.",
-      "C) An inflationary gap opens; in the long run rising wages shift SRAS leftward, returning output to Y* at a higher price level.",
-      "D) An inflationary gap opens; in the long run AD automatically falls back to AD₁.",
-      "E) A recessionary gap opens; fiscal policy is required to restore full employment."
+      "A recessionary gap opens; SRAS shifts left over time, further reducing output.",
+      "Full employment is maintained; AD shifts have no effect because LRAS is fixed.",
+      "An inflationary gap opens; in the long run rising wages shift SRAS leftward, returning output to Y* at a higher price level.",
+      "An inflationary gap opens; in the long run AD automatically falls back to AD₁.",
+      "A recessionary gap opens; fiscal policy is required to restore full employment."
     ],
     "answer": 3,
     "explanation": "The rightward AD shift pushes the new short-run equilibrium to the right of LRAS, creating an inflationary gap (Y_e > Y*). In the long run, the tight labor market causes wages to rise, increasing per-unit production costs. This shifts SRAS leftward until output returns to Y* — now at an even higher price level. No policy is needed; the economy self-corrects through wage and price adjustment, a core result of the long-run model."
@@ -6175,11 +6175,11 @@ window.APMACRO_MCQ = [
     "question": "The AD/AS graph below shows aggregate demand shifting leftward from AD₁ to AD₂. LRAS represents potential GDP. If no policy action is taken, what is the long-run self-correction mechanism?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Real GDP</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Price Level</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>AD₁</text><line x1='35' y1='40' x2='240' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='244' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>AD₂</text><line x1='167' y1='120' x2='145' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='137,120 145,115 145,125' fill='#dc2626' stroke='none'/><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>SRAS</text><line x1='175' y1='220' x2='175' y2='20' stroke='#f97316' stroke-width='2.5' fill='none'/><text x='179' y='32' fill='#f97316' font-size='13' font-weight='600' class='svg-label'>LRAS</text><line x1='50' y1='120' x2='152' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>P*</text><line x1='152' y1='120' x2='152' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='152' y='234' text-anchor='middle' class='svg-label'>Y*</text><circle cx='152' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) LRAS shifts leftward to match the lower level of aggregate demand permanently.",
-      "B) AD automatically shifts back rightward as consumer confidence recovers quickly.",
-      "C) SRAS shifts rightward over time as wages and input prices fall, restoring output to Y* at a lower price level.",
-      "D) The price level and real GDP remain permanently below their original levels without intervention.",
-      "E) The economy requires central bank action to lower interest rates before any adjustment can occur."
+      "LRAS shifts leftward to match the lower level of aggregate demand permanently.",
+      "AD automatically shifts back rightward as consumer confidence recovers quickly.",
+      "SRAS shifts rightward over time as wages and input prices fall, restoring output to Y* at a lower price level.",
+      "The price level and real GDP remain permanently below their original levels without intervention.",
+      "The economy requires central bank action to lower interest rates before any adjustment can occur."
     ],
     "answer": 3,
     "explanation": "The leftward AD shift creates a recessionary gap (Y_e < Y*). With output below potential, unemployment rises above the natural rate, putting downward pressure on wages. As wages fall, per-unit production costs drop, shifting SRAS rightward until real GDP returns to Y* — at a lower price level. LRAS does not change; it reflects productive capacity, not demand. Long-run self-correction does not require policy — it occurs through the wage and price flexibility built into the model."
@@ -6195,11 +6195,11 @@ window.APMACRO_MCQ = [
     "question": "The money market graph below shows the money supply shifting rightward from MS₁ to MS₂, lowering the nominal interest rate from i₁ to i₂. Which Federal Reserve action directly causes this shift?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Money</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Interest Rate (i)</text><line x1='167' y1='220' x2='167' y2='20' stroke='#86efac' stroke-width='2.5' fill='none'/><text x='171' y='32' fill='#86efac' font-size='13' font-weight='600' class='svg-label'>MS₁</text><line x1='202' y1='220' x2='202' y2='20' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='206' y='32' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>MS₂</text><line x1='175' y1='60' x2='186' y2='60' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='194,60 186,55 186,65' fill='#dc2626' stroke='none'/><line x1='65' y1='40' x2='270' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>MD</text><line x1='50' y1='120' x2='167' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>i*</text><circle cx='167' cy='120' r='5' fill='#94a3b8'/><line x1='50' y1='147' x2='202' y2='147' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='151' text-anchor='end' class='svg-label'>i₂</text><text x='46' y='124' text-anchor='end' class='svg-label'>i₁</text><circle cx='202' cy='147' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) The Fed raises the required reserve ratio, reducing banks' lending capacity.",
-      "B) The Fed sells government bonds to commercial banks, withdrawing reserves.",
-      "C) The Fed purchases government bonds, injecting new reserves into the banking system.",
-      "D) The Fed raises the discount rate, making it more costly for banks to borrow reserves.",
-      "E) The federal government increases spending, automatically expanding the money supply."
+      "The Fed raises the required reserve ratio, reducing banks' lending capacity.",
+      "The Fed sells government bonds to commercial banks, withdrawing reserves.",
+      "The Fed purchases government bonds, injecting new reserves into the banking system.",
+      "The Fed raises the discount rate, making it more costly for banks to borrow reserves.",
+      "The federal government increases spending, automatically expanding the money supply."
     ],
     "answer": 3,
     "explanation": "An open-market purchase (the Fed buys government bonds) credits banks' reserve accounts, expanding the monetary base and shifting MS rightward. The greater money supply lowers the nominal interest rate from i₁ to i₂. Raising the reserve ratio (A), selling bonds (B), or raising the discount rate (D) all reduce or restrict money supply. Government spending (E) does not directly control the money supply — that is the Fed's role."
@@ -6215,11 +6215,11 @@ window.APMACRO_MCQ = [
     "question": "The money market graph below shows the money supply shifting leftward from MS₁ to MS₂, raising the nominal interest rate. What is the most likely effect on the broader economy as this higher interest rate takes hold?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Money</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Interest Rate (i)</text><line x1='167' y1='220' x2='167' y2='20' stroke='#86efac' stroke-width='2.5' fill='none'/><text x='171' y='32' fill='#86efac' font-size='13' font-weight='600' class='svg-label'>MS₁</text><line x1='132' y1='220' x2='132' y2='20' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='136' y='32' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>MS₂</text><line x1='159' y1='60' x2='148' y2='60' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='140,60 148,55 148,65' fill='#dc2626' stroke='none'/><line x1='65' y1='40' x2='270' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>MD</text><line x1='50' y1='120' x2='167' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>i*</text><circle cx='167' cy='120' r='5' fill='#94a3b8'/><line x1='50' y1='92' x2='132' y2='92' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='96' text-anchor='end' class='svg-label'>i₂</text><text x='46' y='124' text-anchor='end' class='svg-label'>i₁</text><circle cx='132' cy='92' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) Investment and consumer borrowing increase as money becomes more valuable.",
-      "B) The price level immediately falls to zero because money is now scarcer.",
-      "C) Investment and consumer borrowing fall as borrowing costs rise, reducing aggregate demand and output.",
-      "D) Real GDP rises because higher interest rates attract foreign capital and increase net exports.",
-      "E) The money multiplier increases automatically, fully offsetting the leftward MS shift."
+      "Investment and consumer borrowing increase as money becomes more valuable.",
+      "The price level immediately falls to zero because money is now scarcer.",
+      "Investment and consumer borrowing fall as borrowing costs rise, reducing aggregate demand and output.",
+      "Real GDP rises because higher interest rates attract foreign capital and increase net exports.",
+      "The money multiplier increases automatically, fully offsetting the leftward MS shift."
     ],
     "answer": 3,
     "explanation": "A leftward MS shift (contractionary monetary policy via open-market bond sales, higher reserve requirement, or higher discount rate) raises the nominal interest rate. Higher borrowing costs reduce business investment and household spending on credit, which decreases aggregate demand, slowing real GDP growth and fighting inflation. Option D partially reflects a capital inflow effect but overstates it — net exports are also hurt by currency appreciation."
@@ -6235,11 +6235,11 @@ window.APMACRO_MCQ = [
     "question": "The money market graph below shows money demand shifting rightward from MD₁ to MD₂ while the money supply is unchanged. Which of the following events most likely caused this increase in money demand?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Money</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Interest Rate (i)</text><line x1='167' y1='220' x2='167' y2='20' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='171' y='32' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>MS</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>MD₁</text><line x1='100' y1='40' x2='305' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='278' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>MD₂</text><line x1='167' y1='120' x2='194' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='202,120 194,115 194,125' fill='#dc2626' stroke='none'/><line x1='50' y1='92' x2='167' y2='92' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='96' text-anchor='end' class='svg-label'>i*</text><circle cx='167' cy='92' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) The Federal Reserve conducted an open-market purchase of government bonds.",
-      "B) Households shifted their wealth from cash into long-term savings bonds.",
-      "C) Nominal GDP increased significantly, raising the volume and value of transactions in the economy.",
-      "D) The central bank lowered the required reserve ratio for commercial banks.",
-      "E) The price level fell, reducing the nominal value of all transactions."
+      "The Federal Reserve conducted an open-market purchase of government bonds.",
+      "Households shifted their wealth from cash into long-term savings bonds.",
+      "Nominal GDP increased significantly, raising the volume and value of transactions in the economy.",
+      "The central bank lowered the required reserve ratio for commercial banks.",
+      "The price level fell, reducing the nominal value of all transactions."
     ],
     "answer": 3,
     "explanation": "Money demand reflects how much money households and firms wish to hold for transactions, precaution, and speculation. When nominal GDP rises, the volume and value of transactions increases — people need to hold more money — shifting MD rightward and raising the interest rate along the fixed vertical MS. Options A and D expand the money supply (not demand). Options B and E would reduce, not increase, money demand."
@@ -6255,11 +6255,11 @@ window.APMACRO_MCQ = [
     "question": "The money market graph below shows money demand shifting leftward from MD₁ to MD₂ while the money supply is unchanged. Which of the following events is most consistent with this shift?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Money</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Interest Rate (i)</text><line x1='167' y1='220' x2='167' y2='20' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='171' y='32' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>MS</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>MD₁</text><line x1='30' y1='40' x2='235' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='239' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>MD₂</text><line x1='167' y1='120' x2='140' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='132,120 140,115 140,125' fill='#dc2626' stroke='none'/><line x1='50' y1='147' x2='167' y2='147' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='151' text-anchor='end' class='svg-label'>i*</text><circle cx='167' cy='147' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) A rapid increase in nominal GDP requiring more money for daily transactions.",
-      "B) Rising inflation causing households to increase precautionary cash holdings.",
-      "C) Widespread adoption of digital payment apps reducing households' need to hold physical money.",
-      "D) A central bank decision to raise the federal funds rate target.",
-      "E) An increase in the price level raising the nominal cost of all transactions."
+      "A rapid increase in nominal GDP requiring more money for daily transactions.",
+      "Rising inflation causing households to increase precautionary cash holdings.",
+      "Widespread adoption of digital payment apps reducing households' need to hold physical money.",
+      "A central bank decision to raise the federal funds rate target.",
+      "An increase in the price level raising the nominal cost of all transactions."
     ],
     "answer": 3,
     "explanation": "Money demand falls when technology or institutional changes reduce the need to hold money. Widespread digital payment adoption (mobile pay, credit cards) allows the same transaction volume with less cash, shifting MD leftward and lowering the equilibrium interest rate. Options A, B, and E increase transaction or precautionary demand for money (rightward shifts). Option D affects money supply/rate policy but does not shift the MD curve itself."
@@ -6275,11 +6275,11 @@ window.APMACRO_MCQ = [
     "question": "The loanable funds market graph below shows the demand for loanable funds shifting rightward from D_LF₁ to D_LF₂, raising the real interest rate. Which of the following most likely explains this shift, and what is its effect on private investment?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Loanable Funds</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Real Interest Rate (r)</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>D_LF₁</text><line x1='95' y1='40' x2='300' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='278' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>D_LF₂</text><line x1='167' y1='120' x2='189' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='197,120 189,115 189,125' fill='#dc2626' stroke='none'/><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>S_LF</text><line x1='50' y1='120' x2='182' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>r*</text><line x1='182' y1='120' x2='182' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='234' text-anchor='middle' class='svg-label'>Q*</text><circle cx='182' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) An increase in household saving shifted supply right, lowering borrowing costs for firms.",
-      "B) A decrease in business confidence reduced loan demand and lowered the real interest rate.",
-      "C) Increased government borrowing to finance a budget deficit raised demand for funds, pushing up the real interest rate and crowding out private investment.",
-      "D) A reduction in the government deficit reduced pressure on interest rates, encouraging more private investment.",
-      "E) An inflow of foreign capital increased the supply of loanable funds, lowering the interest rate."
+      "An increase in household saving shifted supply right, lowering borrowing costs for firms.",
+      "A decrease in business confidence reduced loan demand and lowered the real interest rate.",
+      "Increased government borrowing to finance a budget deficit raised demand for funds, pushing up the real interest rate and crowding out private investment.",
+      "A reduction in the government deficit reduced pressure on interest rates, encouraging more private investment.",
+      "An inflow of foreign capital increased the supply of loanable funds, lowering the interest rate."
     ],
     "answer": 3,
     "explanation": "When the government runs a budget deficit it must borrow in the loanable funds market, shifting D_LF rightward. The higher real interest rate makes borrowing more expensive for private firms, reducing private investment — this is crowding out. The key mechanism: government demand shift raises r, which moves firms leftward along their unchanged investment demand curve, reducing I. Options A and E are supply-side shifts. Options B and D imply demand falling, the opposite of what is shown."
@@ -6295,11 +6295,11 @@ window.APMACRO_MCQ = [
     "question": "The loanable funds market graph below shows the supply of loanable funds shifting rightward from S_LF₁ to S_LF₂, lowering the real interest rate. Which of the following events most directly causes this shift, and what is the likely macroeconomic effect?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Loanable Funds</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Real Interest Rate (r)</text><line x1='65' y1='40' x2='270' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>D_LF</text><line x1='65' y1='200' x2='270' y2='40' stroke='#86efac' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#86efac' font-size='13' font-weight='600' class='svg-label'>S_LF₁</text><line x1='95' y1='200' x2='300' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='278' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>S_LF₂</text><line x1='167' y1='120' x2='189' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='197,120 189,115 189,125' fill='#dc2626' stroke='none'/><line x1='50' y1='120' x2='182' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>r*</text><line x1='182' y1='120' x2='182' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='234' text-anchor='middle' class='svg-label'>Q*</text><circle cx='182' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) The government increased its budget deficit, demanding more funds from the market.",
-      "B) Business optimism led firms to increase planned investment and demand more loans.",
-      "C) Foreign investors purchased more domestic financial assets, increasing the supply of loanable funds and lowering the real interest rate.",
-      "D) Households reduced their saving rate, decreasing the funds available to borrowers.",
-      "E) The central bank raised the required reserve ratio, limiting banks' ability to lend."
+      "The government increased its budget deficit, demanding more funds from the market.",
+      "Business optimism led firms to increase planned investment and demand more loans.",
+      "Foreign investors purchased more domestic financial assets, increasing the supply of loanable funds and lowering the real interest rate.",
+      "Households reduced their saving rate, decreasing the funds available to borrowers.",
+      "The central bank raised the required reserve ratio, limiting banks' ability to lend."
     ],
     "answer": 3,
     "explanation": "Foreign capital inflows increase the domestic supply of loanable funds — foreign investors bring additional funds into the domestic market, shifting S_LF rightward. The lower real interest rate stimulates private investment and economic growth. Options A and B shift demand rightward (raising rates). Options D and E reduce supply (shifting S_LF leftward, raising rates). The foreign capital inflow mechanism is critical for understanding open-economy macroeconomics."
@@ -6315,11 +6315,11 @@ window.APMACRO_MCQ = [
     "question": "The loanable funds market graph below shows the demand for loanable funds shifting leftward from D_LF₁ to D_LF₂. Which of the following is most likely to have caused this shift?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Loanable Funds</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Real Interest Rate (r)</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>D_LF₁</text><line x1='35' y1='40' x2='240' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='244' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>D_LF₂</text><line x1='167' y1='120' x2='145' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='137,120 145,115 145,125' fill='#dc2626' stroke='none'/><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>S_LF</text><line x1='50' y1='120' x2='152' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>r*</text><line x1='152' y1='120' x2='152' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='152' y='234' text-anchor='middle' class='svg-label'>Q*</text><circle cx='152' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) The government significantly increased its budget deficit, borrowing more from financial markets.",
-      "B) Rising business confidence led firms to expand investment and borrow more.",
-      "C) A pessimistic economic outlook caused firms to reduce planned investment spending and borrow less.",
-      "D) Foreign investors increased purchases of domestic financial assets.",
-      "E) An increase in household saving rates expanded the supply of loanable funds."
+      "The government significantly increased its budget deficit, borrowing more from financial markets.",
+      "Rising business confidence led firms to expand investment and borrow more.",
+      "A pessimistic economic outlook caused firms to reduce planned investment spending and borrow less.",
+      "Foreign investors increased purchases of domestic financial assets.",
+      "An increase in household saving rates expanded the supply of loanable funds."
     ],
     "answer": 3,
     "explanation": "When firms become pessimistic about future profits, they cut planned investment and reduce borrowing, shifting D_LF leftward. The lower demand reduces both the equilibrium real interest rate and the quantity of funds borrowed. Options A and B shift demand rightward (raising rates). Options D and E are supply-side changes that do not affect the demand curve. Distinguishing shifts in demand vs. supply in the loanable funds market is a key AP Macro skill."
@@ -6335,11 +6335,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows a short-run Phillips curve (SRPC) with point A marked. If the central bank wants to reduce the inflation rate from the level shown at point A, which of the following best describes the tradeoff involved?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Unemployment Rate</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Inflation Rate</text><line x1='65' y1='40' x2='270' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>SRPC</text><circle cx='105' cy='70' r='5' fill='#94a3b8'/><text x='113' y='66' fill='#94a3b8' font-size='13' font-weight='600' class='svg-label'>A</text></svg>",
     "choices": [
-      "A) No tradeoff exists; contractionary policy reduces inflation without affecting unemployment.",
-      "B) Reducing inflation requires moving leftward along the SRPC, which also lowers unemployment.",
-      "C) Reducing inflation requires contractionary policy that moves the economy rightward along the SRPC, accepting higher unemployment in the short run.",
-      "D) The SRPC is vertical, so inflation can be reduced without any change in unemployment.",
-      "E) Reducing inflation requires shifting the entire SRPC curve leftward through fiscal policy."
+      "No tradeoff exists; contractionary policy reduces inflation without affecting unemployment.",
+      "Reducing inflation requires moving leftward along the SRPC, which also lowers unemployment.",
+      "Reducing inflation requires contractionary policy that moves the economy rightward along the SRPC, accepting higher unemployment in the short run.",
+      "The SRPC is vertical, so inflation can be reduced without any change in unemployment.",
+      "Reducing inflation requires shifting the entire SRPC curve leftward through fiscal policy."
     ],
     "answer": 3,
     "explanation": "The downward-sloping SRPC embodies the short-run tradeoff: lower inflation comes at the cost of higher unemployment. Contractionary monetary policy (raising interest rates) reduces total spending, lowering inflation but pushing unemployment rightward along the SRPC. Option A denies the tradeoff. Option B is wrong about direction — lower inflation means moving right (higher unemployment), not left. A vertical SRPC (D) describes the LRPC, not the SRPC."
@@ -6355,11 +6355,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows both a short-run Phillips curve (SRPC) and a long-run Phillips curve (LRPC). Which of the following correctly explains why the LRPC is vertical?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Unemployment Rate</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Inflation Rate</text><line x1='65' y1='40' x2='270' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>SRPC</text><line x1='175' y1='220' x2='175' y2='20' stroke='#f97316' stroke-width='2.5' fill='none'/><text x='179' y='32' fill='#f97316' font-size='13' font-weight='600' class='svg-label'>LRPC</text></svg>",
     "choices": [
-      "A) In the long run, the central bank can set any desired inflation rate with no side effects.",
-      "B) In the long run, higher inflation causes unemployment to rise proportionally.",
-      "C) In the long run, workers and firms adjust their inflation expectations, returning unemployment to the natural rate regardless of the inflation rate.",
-      "D) The LRPC is vertical because nominal interest rates do not affect real variables in the long run.",
-      "E) Full employment is defined as zero unemployment, which is where the LRPC intersects the x-axis."
+      "In the long run, the central bank can set any desired inflation rate with no side effects.",
+      "In the long run, higher inflation causes unemployment to rise proportionally.",
+      "In the long run, workers and firms adjust their inflation expectations, returning unemployment to the natural rate regardless of the inflation rate.",
+      "The LRPC is vertical because nominal interest rates do not affect real variables in the long run.",
+      "Full employment is defined as zero unemployment, which is where the LRPC intersects the x-axis."
     ],
     "answer": 3,
     "explanation": "The LRPC is vertical at the natural rate of unemployment (NRU) because in the long run, all inflation expectations are fully adjusted. Workers negotiate wages based on the actual inflation rate, restoring the real wage to its equilibrium level. Once expectations catch up, there is no remaining short-run tradeoff — unemployment returns to the NRU regardless of the inflation rate chosen. Persistent attempts to hold unemployment below NRU only produce accelerating inflation."
@@ -6375,11 +6375,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows the short-run Phillips curve shifting rightward from SRPC₁ to SRPC₂. What does this shift represent, and which event most likely caused it?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Unemployment Rate</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Inflation Rate</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='268' y='192' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>SRPC₁</text><line x1='95' y1='40' x2='300' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='268' y='208' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>SRPC₂</text><line x1='167' y1='120' x2='189' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='197,120 189,115 189,125' fill='#dc2626' stroke='none'/><line x1='175' y1='220' x2='175' y2='20' stroke='#f97316' stroke-width='2.5' fill='none'/><text x='179' y='32' fill='#f97316' font-size='13' font-weight='600' class='svg-label'>LRPC</text></svg>",
     "choices": [
-      "A) A movement along the original SRPC to a lower-inflation, higher-unemployment point.",
-      "B) Expansionary monetary policy shifted the SRPC right by increasing aggregate demand.",
-      "C) A negative supply shock (such as an oil price spike) caused higher inflation AND higher unemployment simultaneously, shifting the SRPC rightward.",
-      "D) Improved central bank credibility reduced inflationary expectations, shifting the SRPC leftward.",
-      "E) A reduction in cyclical unemployment moved the economy rightward toward the LRPC."
+      "A movement along the original SRPC to a lower-inflation, higher-unemployment point.",
+      "Expansionary monetary policy shifted the SRPC right by increasing aggregate demand.",
+      "A negative supply shock (such as an oil price spike) caused higher inflation AND higher unemployment simultaneously, shifting the SRPC rightward.",
+      "Improved central bank credibility reduced inflationary expectations, shifting the SRPC leftward.",
+      "A reduction in cyclical unemployment moved the economy rightward toward the LRPC."
     ],
     "answer": 3,
     "explanation": "A rightward SRPC shift means the economy now faces BOTH higher unemployment AND higher inflation at every point compared to the original curve — this is the graphical representation of stagflation. A negative supply shock (oil price spike) reduces output and raises prices simultaneously, generating this unfavorable shift. Option A is a movement along, not a shift of, the SRPC. Option B (expansionary policy) moves the economy along the SRPC. Option D describes a leftward shift (improvement), the opposite."
@@ -6395,11 +6395,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows the foreign exchange market for U.S. dollars. Demand for dollars shifts rightward from D_e₁ to D_e₂, causing the dollar to appreciate. Which of the following events most likely caused this increase in demand for dollars?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Dollars</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Exchange Rate</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>D_e₁</text><line x1='95' y1='40' x2='300' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='278' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>D_e₂</text><line x1='167' y1='120' x2='189' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='197,120 189,115 189,125' fill='#dc2626' stroke='none'/><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>S_e</text><line x1='50' y1='120' x2='182' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>e*</text><line x1='182' y1='120' x2='182' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='234' text-anchor='middle' class='svg-label'>Q*</text><circle cx='182' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) U.S. consumers increased purchases of imported goods, supplying more dollars to the FOREX market.",
-      "B) The Federal Reserve lowered interest rates, making U.S. assets less attractive to foreign investors.",
-      "C) Foreign investors increased purchases of U.S. financial assets in response to higher U.S. interest rates.",
-      "D) U.S. exports fell due to a global recession, reducing foreign demand for dollars.",
-      "E) The U.S. government ran a larger trade deficit, increasing the supply of dollars abroad."
+      "U.S. consumers increased purchases of imported goods, supplying more dollars to the FOREX market.",
+      "The Federal Reserve lowered interest rates, making U.S. assets less attractive to foreign investors.",
+      "Foreign investors increased purchases of U.S. financial assets in response to higher U.S. interest rates.",
+      "U.S. exports fell due to a global recession, reducing foreign demand for dollars.",
+      "The U.S. government ran a larger trade deficit, increasing the supply of dollars abroad."
     ],
     "answer": 3,
     "explanation": "Foreign investors buy U.S. financial assets (bonds, stocks) using dollars. When U.S. interest rates rise relative to foreign rates, U.S. assets offer a better return, attracting foreign capital and increasing demand for dollars (D_e shifts right). The dollar appreciates: the exchange rate rises (more foreign currency per dollar). Options A and E increase the supply of dollars (depreciation). Option B would reduce foreign demand for dollar assets."
@@ -6415,11 +6415,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows the foreign exchange market for U.S. dollars. The supply of dollars shifts rightward from S_e₁ to S_e₂, causing the dollar to depreciate. Which of the following best explains this shift?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Dollars</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Exchange Rate</text><line x1='65' y1='40' x2='270' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>D_e</text><line x1='65' y1='200' x2='270' y2='40' stroke='#86efac' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#86efac' font-size='13' font-weight='600' class='svg-label'>S_e₁</text><line x1='95' y1='200' x2='300' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='278' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>S_e₂</text><line x1='167' y1='120' x2='189' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='197,120 189,115 189,125' fill='#dc2626' stroke='none'/><line x1='50' y1='120' x2='182' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>e*</text><line x1='182' y1='120' x2='182' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='234' text-anchor='middle' class='svg-label'>Q*</text><circle cx='182' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) Foreign investors purchased more U.S. Treasury bonds, demanding more dollars.",
-      "B) U.S. exports increased as foreign economies grew, raising demand for dollars abroad.",
-      "C) U.S. consumers increased purchases of imported goods, supplying more dollars to buy foreign currency.",
-      "D) The Federal Reserve raised interest rates, attracting foreign capital and strengthening the dollar.",
-      "E) The U.S. government reduced its trade deficit, decreasing the supply of dollars in circulation."
+      "Foreign investors purchased more U.S. Treasury bonds, demanding more dollars.",
+      "U.S. exports increased as foreign economies grew, raising demand for dollars abroad.",
+      "U.S. consumers increased purchases of imported goods, supplying more dollars to buy foreign currency.",
+      "The Federal Reserve raised interest rates, attracting foreign capital and strengthening the dollar.",
+      "The U.S. government reduced its trade deficit, decreasing the supply of dollars in circulation."
     ],
     "answer": 3,
     "explanation": "The supply of dollars in FOREX comes from Americans who exchange dollars for foreign currencies to buy imports. When U.S. consumers buy more imports, they supply more dollars to FOREX markets, shifting S_e rightward and depreciating the dollar (the exchange rate falls — foreigners get more dollars per unit of their currency). Options A and B increase demand for dollars (appreciation). Options D and E reduce supply or increase demand, also causing appreciation."
@@ -6435,11 +6435,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows the FOREX market for U.S. dollars, with demand shifting rightward from D_e₁ to D_e₂ and the dollar appreciating. Which of the following correctly describes the likely effect on the U.S. trade balance?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Dollars</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Exchange Rate</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>D_e₁</text><line x1='95' y1='40' x2='300' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='278' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>D_e₂</text><line x1='167' y1='120' x2='189' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='197,120 189,115 189,125' fill='#dc2626' stroke='none'/><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>S_e</text><line x1='50' y1='120' x2='182' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>e*</text><line x1='182' y1='120' x2='182' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='234' text-anchor='middle' class='svg-label'>Q*</text><circle cx='182' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) Exports increase and imports decrease, improving the current account balance.",
-      "B) Both exports and imports increase, leaving the trade balance unchanged.",
-      "C) Exports decrease and imports increase, worsening the U.S. current account (larger trade deficit).",
-      "D) Only the capital account is affected; the current account is independent of exchange rate movements.",
-      "E) The trade balance improves because a stronger dollar raises foreigners' purchasing power for U.S. goods."
+      "Exports increase and imports decrease, improving the current account balance.",
+      "Both exports and imports increase, leaving the trade balance unchanged.",
+      "Exports decrease and imports increase, worsening the U.S. current account (larger trade deficit).",
+      "Only the capital account is affected; the current account is independent of exchange rate movements.",
+      "The trade balance improves because a stronger dollar raises foreigners' purchasing power for U.S. goods."
     ],
     "answer": 3,
     "explanation": "Dollar appreciation makes U.S. exports more expensive for foreign buyers (fewer exports) and makes foreign goods cheaper for U.S. consumers (more imports). Both effects worsen the current account: exports fall and imports rise, increasing the trade deficit. This links the capital account (foreign investment → dollar demand → appreciation) to the current account (appreciation → trade deficit). Option E is backwards — a stronger dollar raises U.S. consumers' purchasing power, not foreigners'."
@@ -6455,11 +6455,11 @@ window.APMACRO_MCQ = [
     "question": "The graph below shows the foreign exchange market for euros. Demand for euros shifts rightward from D_e₁ to D_e₂. Which of the following events most likely caused this increase in demand for euros?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='290' y='238' text-anchor='end' class='svg-label'>Quantity of Euros</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Exchange Rate</text><line x1='65' y1='40' x2='270' y2='200' stroke='#93c5fd' stroke-width='2.5' fill='none'/><text x='274' y='200' fill='#93c5fd' font-size='13' font-weight='600' class='svg-label'>D_e₁</text><line x1='95' y1='40' x2='300' y2='200' stroke='#3b82f6' stroke-width='2.5' fill='none'/><text x='278' y='200' fill='#3b82f6' font-size='13' font-weight='600' class='svg-label'>D_e₂</text><line x1='167' y1='120' x2='189' y2='120' stroke='#dc2626' stroke-width='2' fill='none'/><polygon points='197,120 189,115 189,125' fill='#dc2626' stroke='none'/><line x1='65' y1='200' x2='270' y2='40' stroke='#16a34a' stroke-width='2.5' fill='none'/><text x='274' y='34' fill='#16a34a' font-size='13' font-weight='600' class='svg-label'>S_e</text><line x1='50' y1='120' x2='182' y2='120' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='124' text-anchor='end' class='svg-label'>e*</text><line x1='182' y1='120' x2='182' y2='220' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='182' y='234' text-anchor='middle' class='svg-label'>Q*</text><circle cx='182' cy='120' r='5' fill='#94a3b8'/></svg>",
     "choices": [
-      "A) European interest rates fell, making euro-denominated assets less attractive to U.S. investors.",
-      "B) U.S. exports to Europe increased, reducing U.S. demand for euros.",
-      "C) U.S. consumers and investors increased purchases of European goods and financial assets, demanding more euros.",
-      "D) The European Central Bank expanded the money supply, depreciating the euro.",
-      "E) The Federal Reserve raised U.S. interest rates, increasing U.S. investor demand for dollar assets."
+      "European interest rates fell, making euro-denominated assets less attractive to U.S. investors.",
+      "U.S. exports to Europe increased, reducing U.S. demand for euros.",
+      "U.S. consumers and investors increased purchases of European goods and financial assets, demanding more euros.",
+      "The European Central Bank expanded the money supply, depreciating the euro.",
+      "The Federal Reserve raised U.S. interest rates, increasing U.S. investor demand for dollar assets."
     ],
     "answer": 3,
     "explanation": "Demand for euros from U.S. residents rises when they need more euros to buy European imports or euro-denominated financial assets. Increased U.S. purchases of European goods and assets shifts D_e rightward, causing the euro to appreciate (more dollars per euro). Option A reduces demand for euros. Option D causes euro depreciation (supply increase). Option E directs investment toward the U.S., reducing euro demand."

@@ -12,11 +12,11 @@ var APUSH_MCQ = [
     "question": "Hernán Cortés, Second Letter to Charles V, 1520: 'This great city of Tenochtitlan is built on the salt lake... the main streets are very wide and very straight... they have many squares where markets are held.'\n\nWhich of the following best describes the Spanish perspective of Aztec society as expressed in this excerpt?",
     "choices": [
       "A decentralized group of warring nomadic tribes.",
-      "A highly developed and sophisticated urban civilization.",
+      "A society primarily focused on egalitarian communal living.",
       "A primitive culture lacking economic structure.",
-      "A society primarily focused on egalitarian communal living."
+      "A highly developed and sophisticated urban civilization."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Cortés compares the city to major Spanish urban centers, highlighting its infrastructure and massive markets."
   },
   {
@@ -132,11 +132,11 @@ var APUSH_MCQ = [
     "question": "Description of the Iroquois Confederacy: 'They formed a Great League of Peace... to provide for common defense and settle internal disputes.'\n\nThe Iroquois Confederacy's political structure most likely developed in response to which of the following?",
     "choices": [
       "Growing raids from the Erie and Susquehannock peoples to the south.",
-      "The need to manage competition over resources and land among neighboring tribes.",
+      "Intensifying competition with Algonquian groups for access to Great Lakes fishing grounds.",
       "Mandates from the French government in Quebec.",
-      "Intensifying competition with Algonquian groups for access to Great Lakes fishing grounds."
+      "The need to manage competition over resources and land among neighboring tribes."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The League of Peace was formed to maintain stability and manage resource competition in the Northeast."
   },
   {
@@ -152,11 +152,11 @@ var APUSH_MCQ = [
     "question": "New Laws of the Indies, 1542: 'We order that henceforth no viceroy, governor, judge, or any other officer... shall make any allotment of Indians to himself or any other person... [yet] those held as slaves by persons who cannot show a proper title shall be set free...'\n\nThe system of social hierarchy established in early Spanish colonial society to classify and govern the relationships between Spaniards, Indigenous peoples, and Africans was most directly influenced by which of the following?",
     "choices": [
       "The Enlightenment ideal that all men are created equal.",
-      "A desire to maintain social order and justify Spanish dominance in a racially diverse society.",
+      "A belief that indigenous religious practices were superior to Catholicism.",
       "The implementation of the headright system by the Spanish Crown.",
-      "A belief that indigenous religious practices were superior to Catholicism."
+      "A desire to maintain social order and justify Spanish dominance in a racially diverse society."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The Caste system (Sistema de Castas) was a racial hierarchy used to maintain power for pure-blooded Spaniards (Peninsulares)."
   },
   {
@@ -192,11 +192,11 @@ var APUSH_MCQ = [
     "question": "Excerpt from the Treaty of Tordesillas, 1494: 'A line shall be drawn from pole to pole... everything to the east belongs to Portugal, everything to the west to Spain.'\n\nThe Treaty of Tordesillas was primarily an attempt to...",
     "choices": [
       "Abolish the use of slavery in the New World.",
-      "Prevent conflict between two major Catholic powers over new lands.",
+      "Encourage English and French exploration of the Pacific.",
       "Create a joint military alliance against the Ottoman Empire.",
-      "Encourage English and French exploration of the Pacific."
+      "Prevent conflict between two major Catholic powers over new lands."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The treaty was brokered by the Pope to divide the New World between Spain and Portugal."
   },
   {
@@ -232,11 +232,11 @@ var APUSH_MCQ = [
     "question": "Juan Ginés de Sepúlveda, 'The Second Democrates,' 1547: 'The Spanish have a perfect right to rule these barbarians... who are as inferior to the Spanish as children to adults.'\n\nThe views expressed by Sepúlveda were most commonly used to justify which of the following?",
     "choices": [
       "The establishment of the Massachusetts Bay Colony.",
-      "The expansion of the Encomienda System.",
+      "The signing of peace treaties with the Aztec Empire.",
       "The abolition of the African slave trade.",
-      "The signing of peace treaties with the Aztec Empire."
+      "The expansion of the Encomienda System."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Sepúlveda argued that Native Americans were 'natural slaves,' justifying their forced labor under Spanish rule."
   },
   {
@@ -312,11 +312,11 @@ var APUSH_MCQ = [
     "question": "Description of the 'Requerimiento' (Requirement) read by Spanish Conquistadors to Native Americans in Spanish.\n\nThe use of the 'Requerimiento' best reflects which of the following regarding Spanish colonization?",
     "choices": [
       "The widespread acceptance of native religious rituals by the Spanish.",
-      "A legalistic justification for the subjugation of indigenous people.",
+      "The influence of democratic ideals on colonial administration.",
       "A sincere effort to translate European laws into native languages.",
-      "The influence of democratic ideals on colonial administration."
+      "A legalistic justification for the subjugation of indigenous people."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The document was read (often to people who didn't understand it) to provide a legal pretext for war and enslavement if they didn't submit."
   },
   {
@@ -592,11 +592,11 @@ var APUSH_MCQ = [
     "question": "John Winthrop, 'A Model of Christian Charity,' 1630: 'For we must consider that we shall be as a city upon a hill. The eyes of all people are upon us.'\n\nWhich of the following was a long-term social effect of the ideology described in the excerpt?",
     "choices": [
       "A complete separation of church and state in colonial governance.",
-      "The development of tight-knit, homogeneous communities centered around the church.",
+      "A society characterized by high levels of religious tolerance for all sects.",
       "The rapid expansion of large-scale plantation agriculture.",
-      "A society characterized by high levels of religious tolerance for all sects."
+      "The development of tight-knit, homogeneous communities centered around the church."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The Puritan 'City upon a Hill' ideal led to community-focused towns where religious and civic life were deeply intertwined."
   },
   {
@@ -632,11 +632,11 @@ var APUSH_MCQ = [
     "question": "Graphic showing the 'Triangular Trade' routes between Europe, Africa, and the Americas.\n\nThe 'Middle Passage' refers to which leg of the trade network shown in the graphic?",
     "choices": [
       "The transport of raw materials from the Americas to Europe.",
-      "The transport of enslaved Africans across the Atlantic to the Americas.",
+      "The transport of manufactured goods from Europe to Africa.",
       "The transport of gold from the Spanish colonies to the Philippines.",
-      "The transport of manufactured goods from Europe to Africa."
+      "The transport of enslaved Africans across the Atlantic to the Americas."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The Middle Passage was the brutal forced journey of enslaved people from Africa to the New World."
   },
   {
@@ -673,10 +673,10 @@ var APUSH_MCQ = [
     "choices": [
       "The total exhaustion of all land suitable for tobacco cultivation.",
       "A decree from the King of England banning all white laborers from working in the fields.",
-      "A decrease in the supply of English servants and fears of social unrest following Bacon's Rebellion.",
-      "The high cost of purchasing enslaved Africans compared to English servants."
+      "The high cost of purchasing enslaved Africans compared to English servants.",
+      "A decrease in the supply of English servants and fears of social unrest following Bacon's Rebellion."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "After Bacon’s Rebellion (1676), elites feared the alliance of poor whites and blacks, leading them to favor permanent, racially-defined slavery over temporary servitude."
   },
   {
@@ -732,11 +732,11 @@ var APUSH_MCQ = [
     "question": "The first permanent English settlement in North America was established at...",
     "choices": [
       "Plymouth",
-      "Jamestown",
+      "New Amsterdam",
       "St. Augustine",
-      "New Amsterdam"
+      "Jamestown"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Jamestown was founded in 1607 by the Virginia Company."
   },
   {
@@ -752,11 +752,11 @@ var APUSH_MCQ = [
     "question": "Which of the following best describes the French relationship with Native Americans compared to the English?",
     "choices": [
       "The French prohibited any missionary work among indigenous groups.",
-      "The French established trade alliances and intermarried with natives to facilitate the fur trade.",
+      "The French brought millions of settlers to create permanent farming towns.",
       "The French were more likely to use force to remove natives from their land.",
-      "The French brought millions of settlers to create permanent farming towns."
+      "The French established trade alliances and intermarried with natives to facilitate the fur trade."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The French relied on a 'frontier of inclusion,' working with natives for economic gain rather than displacing them for land like the English."
   },
   {
@@ -992,11 +992,11 @@ var APUSH_MCQ = [
     "question": "The 'Fundamental Orders of Connecticut' is significant in American history because it...",
     "choices": [
       "Abolished the monarchy in the New World.",
-      "Was the first written constitution in the American colonies.",
+      "Gave women the right to vote in local elections.",
       "Established the first national bank.",
-      "Gave women the right to vote in local elections."
+      "Was the first written constitution in the American colonies."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "It set a precedent for written frameworks of government that limited the power of the executive."
   },
   {
@@ -1371,12 +1371,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Map showing British territorial gains after the Treaty of Paris (1763), specifically the acquisition of Canada and Florida.\n\nThe changes depicted in the map contributed most directly to which of the following colonial developments?",
     "choices": [
-      "A decrease in tensions between British settlers and Native Americans.",
-      "The voluntary payment of war debts by colonial legislatures.",
       "The end of Britain's policy of 'Salutary Neglect.'",
+      "The voluntary payment of war debts by colonial legislatures.",
+      "A decrease in tensions between British settlers and Native Americans.",
       "The immediate abolition of the Navigation Acts."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "After the war, Britain faced massive debt and decided to tax the colonies directly, ending the era of 'salutary neglect.'"
   },
   {
@@ -1391,12 +1391,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Proclamation of 1763: 'We do... strictly enjoin and require, that no private Person do presume to make any Purchase from the said Indians of any Lands reserved to the said Indians... beyond the Heads or Sources of any of the Rivers which fall into the Atlantic Ocean from the West and North West.'\n\nThe Proclamation of 1763 was primarily intended to...",
     "choices": [
-      "Protect French fur-trading interests in the Great Lakes region.",
+      "Prevent costly conflicts between colonists and Native Americans on the frontier.",
       "Encourage the growth of industrial manufacturing in the colonies.",
       "Establish a permanent border for the expansion of slavery.",
-      "Prevent costly conflicts between colonists and Native Americans on the frontier."
+      "Protect French fur-trading interests in the Great Lakes region."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Following Pontiac's Rebellion, the British sought to stabilize the frontier by preventing settlement west of the Appalachians."
   },
   {
@@ -1411,12 +1411,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Proclamation of 1763: 'We do... strictly enjoin and require, that no private Person do presume to make any Purchase from the said Indians of any Lands reserved to the said Indians... beyond the Heads or Sources of any of the Rivers which fall into the Atlantic Ocean from the West and North West.'\n\nHow did many American colonists react to the policy described in the excerpt?",
     "choices": [
-      "By immediately declaring independence from the British Crown.",
-      "By forming an alliance with the French to regain lost territory.",
       "By moving westward in defiance of the law, believing they had earned the land in the war.",
+      "By forming an alliance with the French to regain lost territory.",
+      "By immediately declaring independence from the British Crown.",
       "By requesting more British troops for protection."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Colonists felt the Proclamation was an infringement on their rights, as they had fought the French and Indian War specifically to gain access to that land."
   },
   {
@@ -1431,12 +1431,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Engraving by Paul Revere titled 'The Bloody Massacre Perpetrated in King Street, Boston on March 5th, 1770.'\n\nThe primary purpose of Revere's engraving was to...",
     "choices": [
-      "Warn the British Parliament about the dangers of the Stamp Act.",
-      "Encourage a peaceful reconciliation between the King and the colonies.",
       "Promote anti-British sentiment and rally support for the Patriot cause.",
+      "Encourage a peaceful reconciliation between the King and the colonies.",
+      "Warn the British Parliament about the dangers of the Stamp Act.",
       "Provide an objective, historical account of the event."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Revere used the engraving as propaganda to frame the British soldiers as unprovoked aggressors."
   },
   {
@@ -1491,12 +1491,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Which of the following was a major advantage for the American colonies during the Revolutionary War?",
     "choices": [
-      "Unified support for the war from 100% of the colonial population.",
-      "Greater financial resources than the British Empire.",
       "The Franco-American alliance of 1778, which provided critical naval support, troops, and financial resources.",
+      "Greater financial resources than the British Empire.",
+      "Unified support for the war from 100% of the colonial population.",
       "A superior navy that controlled the Atlantic."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "The Franco-American alliance of 1778 proved decisive — French naval power countered British sea dominance, and French troops and financing gave the Continental Army critical support it could not have sustained alone."
   },
   {
@@ -1531,12 +1531,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Abigail Adams, Letter to John Adams, 1776: 'In the new Code of Laws... I desire you would Remember the Ladies, and be more generous and favourable to them than your ancestors.'\n\nThe ideas expressed by Abigail Adams best reflect which of the following post-revolutionary concepts?",
     "choices": [
-      "The immediate granting of universal suffrage.",
+      "The ideology of 'Republican Motherhood.'",
       "The total exclusion of women from the domestic sphere.",
       "The abolition of the patriarchy in the Northeast.",
-      "The ideology of 'Republican Motherhood.'"
+      "The immediate granting of universal suffrage."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "While women did not get the vote, the revolution led to 'Republican Motherhood,' the idea that women were vital in raising virtuous citizens for the new republic."
   },
   {
@@ -2571,12 +2571,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Thomas Jefferson, First Inaugural Address, 1801: 'But every difference of opinion is not a difference of principle. We have called by different names brethren of the same principle. We are all Republicans, we are all Federalists.'\n\nWhich of the following actions taken by Jefferson's administration most directly contradicted his 'strict constructionist' principles?",
     "choices": [
-      "The reduction of the size of the federal navy.",
-      "The appointment of James Madison as Secretary of State.",
       "The purchase of the Louisiana Territory from France.",
+      "The appointment of James Madison as Secretary of State.",
+      "The reduction of the size of the federal navy.",
       "The repeal of the whiskey tax."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "The Constitution does not explicitly grant the President the power to purchase land; Jefferson used 'implied powers' to secure Louisiana, a Federalist-style move."
   },
   {
@@ -2591,12 +2591,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Marbury v. Madison (1803) Opinion: 'It is emphatically the province and duty of the judicial department to say what the law is.'\n\nThe Supreme Court decision excerpted above established which of the following principles?",
     "choices": [
-      "The legality of the National Bank.",
-      "The power of states to nullify federal laws.",
       "The principle of Judicial Review.",
+      "The power of states to nullify federal laws.",
+      "The legality of the National Bank.",
       "The right of the President to ignore Supreme Court rulings."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Chief Justice John Marshall established that the Supreme Court has the final authority to determine the constitutionality of laws."
   },
   {
@@ -2611,12 +2611,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "The Monroe Doctrine, 1823: 'The American continents... are henceforth not to be considered as subjects for future colonization by any European powers.'\n\nThe Monroe Doctrine was primarily a response to...",
     "choices": [
-      "The British impressment of American sailors.",
-      "A desire to form a military alliance with Napoleon.",
       "Fears that European monarchs would help Spain regain its lost Latin American colonies.",
+      "A desire to form a military alliance with Napoleon.",
+      "The British impressment of American sailors.",
       "The threat of Russia expanding into the Oregon Territory."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Following the Napoleonic Wars, the US wanted to prevent a European resurgence in the Western Hemisphere."
   },
   {
@@ -2671,12 +2671,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "The 'Lowell System' in early 19th-century New England was characterized by...",
     "choices": [
-      "The rejection of steam power in favor of manual labor.",
+      "The employment of young, single women from farm families in factories.",
       "A system where workers owned the means of production.",
       "The use of enslaved labor in textile mills.",
-      "The employment of young, single women from farm families in factories."
+      "The rejection of steam power in favor of manual labor."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Lowell mills provided a rare opportunity for women to earn wages, though under strict moral and social supervision."
   },
   {
@@ -2711,12 +2711,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "The 'Trail of Tears' is most closely associated with the forced relocation of which Native nation, among the many affected by Indian Removal?",
     "choices": [
-      "The Sioux",
+      "The Cherokee",
       "The Pueblo",
       "The Iroquois",
-      "The Cherokee"
+      "The Sioux"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Under the Indian Removal Act, the Cherokee were forced to march from Georgia to Oklahoma, resulting in thousands of deaths."
   },
   {
@@ -3892,11 +3892,11 @@ var APUSH_MCQ = [
     "question": "The first shots of the Civil War were fired at...",
     "choices": [
       "Antietam",
-      "Fort Sumter",
+      "Gettysburg",
       "Appomattox",
-      "Gettysburg"
+      "Fort Sumter"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "South Carolina troops fired on the federal fort in April 1861, beginning the armed conflict."
   },
   {
@@ -4092,11 +4092,11 @@ var APUSH_MCQ = [
     "question": "The Treaty of Guadalupe Hidalgo (1848)...",
     "choices": [
       "Established the Nueces River as the permanent and recognized US-Mexico boundary.",
-      "Resulted in the US gaining the Mexican Cession (California, New Mexico, etc.).",
+      "Granted US merchants exclusive trading rights through Mexican Pacific seaports.",
       "Abolished the slave trade in New York.",
-      "Granted US merchants exclusive trading rights through Mexican Pacific seaports."
+      "Resulted in the US gaining the Mexican Cession (California, New Mexico, etc.)."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Mexico ceded roughly half its territory to the US, which immediately reignited the debate over the expansion of slavery."
   },
   {
@@ -4112,11 +4112,11 @@ var APUSH_MCQ = [
     "question": "The 'Free Soil' movement's slogan 'Free Soil, Free Speech, Free Labor, and Free Men' emphasized that slavery was...",
     "choices": [
       "A moral sin that must be ended by religious conversion.",
-      "A threat to the economic opportunities of small White farmers.",
+      "The only way to maintain the American economy.",
       "Prohibited by the 14th Amendment.",
-      "The only way to maintain the American economy."
+      "A threat to the economic opportunities of small White farmers."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Free Soilers weren't necessarily moral abolitionists; they argued that slave labor made it impossible for free White labor to compete and prosper."
   },
   {
@@ -4152,11 +4152,11 @@ var APUSH_MCQ = [
     "question": "John Brown’s raid on Harpers Ferry (1859) was intended to...",
     "choices": [
       "Capture the governor of Virginia.",
-      "Start a massive slave uprising.",
+      "Protest the high tariff on cotton.",
       "Help the Republican Party win the election.",
-      "Protest the high tariff on cotton."
+      "Start a massive slave uprising."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Brown hoped to seize the federal arsenal and arm enslaved people, but he was captured and executed, becoming a martyr in the North and a villain in the South."
   },
   {
@@ -4172,11 +4172,11 @@ var APUSH_MCQ = [
     "question": "The 14th Amendment is most significant for its 'Equal Protection' clause, which...",
     "choices": [
       "Banned the production of alcohol.",
-      "Provided a constitutional basis for civil rights by defining citizenship and requiring 'due process.'",
+      "Gave the President the power to declare war without Congress.",
       "Allowed states to secede from the Union.",
-      "Gave the President the power to declare war without Congress."
+      "Provided a constitutional basis for civil rights by defining citizenship and requiring 'due process.'"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "It overturned the Dred Scott decision by granting citizenship to 'all persons born or naturalized in the United States.'"
   },
   {
@@ -4912,11 +4912,11 @@ var APUSH_MCQ = [
     "question": "The completion of the Transcontinental Railroad in 1869 contributed most directly to which of the following?",
     "choices": [
       "A decrease in the number of European immigrants.",
-      "The integration of the Western economy into the national market.",
       "The immediate end of the Civil War.",
+      "The integration of the Western economy into the national market.",
       "The abolition of the sharecropping system in the South."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The railroad allowed for the rapid movement of raw materials from the West to Eastern factories and finished goods back to Western settlers."
   },
   {
@@ -4932,11 +4932,11 @@ var APUSH_MCQ = [
     "question": "The term 'New South,' coined by Henry Grady, referred to a vision of the region as...",
     "choices": [
       "An independent nation separate from the United States.",
-      "An industrialized economy that mirrored the North while maintaining White supremacy.",
       "A fully integrated society with equal rights for Black and White citizens.",
+      "An industrialized economy that mirrored the North while maintaining White supremacy.",
       "A return to the pre-war plantation economy based on slave labor."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Grady and others argued for Southern industrialization (textiles, steel), though the social reality remained dominated by Jim Crow laws and sharecropping."
   },
   {
@@ -5052,11 +5052,11 @@ var APUSH_MCQ = [
     "question": "The 'New Immigrants' who arrived in the US after 1880 were primarily from...",
     "choices": [
       "Northern and Western Europe (Britain, Germany).",
-      "Southern and Eastern Europe (Italy, Russia, Poland).",
       "Central and South America.",
+      "Southern and Eastern Europe (Italy, Russia, Poland).",
       "East Asia and the Pacific Islands."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "This shift in origin led to increased nativism, as these immigrants were often Catholic or Jewish and did not speak English."
   },
   {
@@ -5092,11 +5092,11 @@ var APUSH_MCQ = [
     "question": "Jacob Riis, 'How the Other Half Lives,' 1890: 'The greed of capital that wrought the 10x12 room... is the same today as then.'\n\nThe work of Jacob Riis was significant because it...",
     "choices": [
       "Argued for the restriction of all immigration.",
-      "Used photography to expose the horrific living conditions in urban tenements.",
       "Defended the political machines of New York City.",
+      "Used photography to expose the horrific living conditions in urban tenements.",
       "Promoted the benefits of the factory system."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Riis’s photojournalism shocked the middle class and sparked early Progressive reforms in urban housing."
   },
   {
@@ -5112,11 +5112,11 @@ var APUSH_MCQ = [
     "question": "The 'Sherman Antitrust Act' (1890) was initially ineffective because...",
     "choices": [
       "It was vetoed by every President in the 1890s.",
-      "It was used by the courts to target labor unions rather than monopolies.",
       "It only applied to agriculture.",
+      "It was used by the courts to target labor unions rather than monopolies.",
       "No companies in the US were large enough to be considered trusts."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Courts often ruled that union strikes were 'restraints of trade,' perverting the original intent of the law."
   },
   {
@@ -5192,11 +5192,11 @@ var APUSH_MCQ = [
     "question": "The Haymarket Square Riot (1886) resulted in...",
     "choices": [
       "The election of a socialist President.",
-      "A decline in the popularity of the Knights of Labor, as they were linked to anarchism and violence.",
       "The total destruction of the steel industry.",
+      "A decline in the popularity of the Knights of Labor, as they were linked to anarchism and violence.",
       "The immediate passage of the 8-hour workday law."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The bombing in Chicago turned public opinion against radical labor movements."
   },
   {
@@ -5251,12 +5251,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "The 'Bessemer Process' was crucial to the Gilded Age because it allowed for...",
     "choices": [
-      "The preservation of food in tin cans.",
       "The mass production of high-quality steel at a low cost.",
+      "The preservation of food in tin cans.",
       "The refining of gasoline for automobiles.",
       "The invention of the telephone."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Steel replaced iron as the primary building material for skyscrapers, bridges, and railroads."
   },
   {
@@ -5271,12 +5271,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Which of the following best describes the 'Populist Party' (People's Party) platform of the 1890s?",
     "choices": [
-      "The total exclusion of all immigrants from Southern Europe.",
       "Government ownership of railroads, a graduated income tax, and the direct election of Senators.",
+      "The total exclusion of all immigrants from Southern Europe.",
       "The return of the United States to British colonial rule.",
       "Pro-business, pro-tariff, and pro-gold standard."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The Populists represented the interests of farmers and laborers against the 'monopolies' of the Gilded Age."
   },
   {
@@ -5291,12 +5291,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "The Supreme Court case Plessy v. Ferguson (1896) established the legal doctrine of...",
     "choices": [
-      "Judicial Review",
       "Separate but Equal",
+      "Judicial Review",
       "Federal Supremacy",
       "Universal Suffrage"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "This decision legalized Jim Crow segregation for over half a century."
   },
   {
@@ -6112,11 +6112,11 @@ var APUSH_MCQ = [
     "question": "The 'Insular Cases' (1901) were significant because the Supreme Court ruled that...",
     "choices": [
       "The Constitution follows the flag; inhabitants of overseas territories have full rights.",
-      "The Constitution does not automatically apply to people in acquired territories.",
       "Slavery was legal in the Philippines.",
+      "The Constitution does not automatically apply to people in acquired territories.",
       "Hawaii must be returned to its original monarchy."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "This allowed the US to govern territories like Puerto Rico and the Philippines without granting the inhabitants the full rights of US citizens."
   },
   {
@@ -6132,11 +6132,11 @@ var APUSH_MCQ = [
     "question": "The term 'Muckrakers' referred to...",
     "choices": [
       "Politicians who supported big business.",
-      "Journalists and writers who exposed corruption and social injustices in the Progressive Era.",
       "Farmers who supported the Gold Standard.",
+      "Journalists and writers who exposed corruption and social injustices in the Progressive Era.",
       "Soldiers who fought in the trenches of WWI."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Writers like Ida Tarbell (Standard Oil) and Upton Sinclair (The Jungle) drove the demand for government reform."
   },
   {
@@ -6231,12 +6231,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "The 19th Amendment, ratified in 1920, granted which of the following?",
     "choices": [
-      "The right to vote for women.",
+      "The right to vote for African American men.",
       "The direct election of Senators.",
       "The prohibition of alcohol.",
-      "The right to vote for African American men."
+      "The right to vote for women."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "This was the culmination of decades of activism by the women's suffrage movement."
   },
   {
@@ -6271,12 +6271,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "The Scopes 'Monkey' Trial of 1925 reflected a cultural conflict between...",
     "choices": [
-      "Modernism/Science and Fundamentalism/Religion.",
+      "Democrats and Republicans.",
       "Capitalists and Socialists.",
       "Imperialists and Anti-Imperialists.",
-      "Democrats and Republicans."
+      "Modernism/Science and Fundamentalism/Religion."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The trial centered on a teacher's right to teach evolution in a public school, highlighting the split between urban modernists and rural traditionalists."
   },
   {
@@ -6451,12 +6451,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "The 'Yalta Conference' (1945) involved leaders from which three nations?",
     "choices": [
-      "US, Britain, and the Soviet Union.",
+      "US, China, and Canada.",
       "Germany, Italy, and Japan.",
       "US, Britain, and France.",
-      "US, China, and Canada."
+      "US, Britain, and the Soviet Union."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The 'Big Three' (Roosevelt, Churchill, Stalin) met to discuss the postwar reorganization of Europe."
   },
   {
@@ -6531,12 +6531,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Huey Long’s 'Share Our Wealth' program was a challenge to FDR because it...",
     "choices": [
-      "Proposed radical redistribution of wealth through massive taxes on the rich.",
+      "Was more conservative than the New Deal.",
       "Argued for a military alliance with Hitler.",
       "Supported the Gold Standard.",
-      "Was more conservative than the New Deal."
+      "Proposed radical redistribution of wealth through massive taxes on the rich."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Long's populism pressured FDR to move further to the 'left' in the Second New Deal."
   },
   {
@@ -6571,12 +6571,12 @@ var APUSH_MCQ = [
     "format": "mcq",
     "question": "Executive Order 9066 resulted in which of the following?",
     "choices": [
-      "The forced internment of Japanese Americans on the West Coast.",
+      "The integration of the US military.",
       "The end of racial segregation in factories.",
       "The start of the Manhattan Project.",
-      "The integration of the US military."
+      "The forced internment of Japanese Americans on the West Coast."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Despite no evidence of disloyalty, thousands were relocated to inland camps based on fear and racism."
   },
   {
@@ -7952,11 +7952,11 @@ var APUSH_MCQ = [
     "question": "The 'Truman Doctrine' was established primarily to...",
     "choices": [
       "Annex territories in Southeast Asia.",
-      "Provide military and economic aid to nations resisting communist takeovers (Containment).",
       "Abolish the United Nations.",
+      "Provide military and economic aid to nations resisting communist takeovers (Containment).",
       "Promote the spread of communism in Western Europe."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Starting with aid to Greece and Turkey, the Truman Doctrine committed the US to 'containing' communism wherever it threatened to spread."
   },
   {
@@ -8072,11 +8072,11 @@ var APUSH_MCQ = [
     "question": "Lyndon B. Johnson's 'Great Society' programs were most similar to which earlier set of reforms?",
     "choices": [
       "The Gospel of Wealth",
-      "The New Deal",
       "The Federalist Papers",
+      "The New Deal",
       "The Black Codes"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Both the New Deal and the Great Society sought to use federal power to provide a social safety net and address poverty."
   },
   {
@@ -8152,11 +8152,11 @@ var APUSH_MCQ = [
     "question": "The 'Watergate Scandal' resulted in which of the following?",
     "choices": [
       "The impeachment of Lyndon B. Johnson.",
-      "The resignation of Richard Nixon.",
+      "A military coup in Washington, D.C.",
       "The end of the Cold War.",
-      "A military coup in Washington, D.C."
+      "The resignation of Richard Nixon."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Nixon resigned in 1974 to avoid certain impeachment and conviction following the cover-up of a break-in at the Democratic National Committee."
   },
   {
@@ -8172,11 +8172,11 @@ var APUSH_MCQ = [
     "question": "The 'Berlin Airlift' was a response to...",
     "choices": [
       "The start of World War II.",
-      "The Soviet blockade of West Berlin.",
+      "A famine in Germany.",
       "The construction of the Berlin Wall.",
-      "A famine in Germany."
+      "The Soviet blockade of West Berlin."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The US and Britain flew supplies into West Berlin for nearly a year to bypass the Soviet blockade."
   },
   {
@@ -9152,11 +9152,11 @@ var APUSH_MCQ = [
     "question": "The 'Moral Majority,' founded by Jerry Falwell in 1979, was a key part of the 'New Right' that supported...",
     "choices": [
       "The expansion of the Great Society.",
-      "Traditional family values and opposition to abortion and the ERA.",
       "The abolition of the military.",
+      "Traditional family values and opposition to abortion and the ERA.",
       "The legalization of all drugs."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Religious conservatives became a powerful voting bloc for the Republican Party starting in the 1980 election."
   },
   {
@@ -9172,11 +9172,11 @@ var APUSH_MCQ = [
     "question": "The Immigration Reform and Control Act of 1986 was unique because it...",
     "choices": [
       "Abolished the Border Patrol.",
-      "Granted amnesty to many undocumented immigrants while also penalizing employers who hired them.",
       "Banned all immigration from Mexico.",
+      "Granted amnesty to many undocumented immigrants while also penalizing employers who hired them.",
       "Gave the President the power to deport any citizen."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "It was a bipartisan attempt to address the growing issue of undocumented immigration."
   },
   {
@@ -9192,11 +9192,11 @@ var APUSH_MCQ = [
     "question": "The rise of the 'Internet' and personal computers in the 1990s led to which of the following?",
     "choices": [
       "The total end of the manufacturing industry in the US.",
-      "The rapid globalization of the economy and an increase in 'white-collar' service jobs.",
       "A decline in the use of the English language.",
+      "The rapid globalization of the economy and an increase in 'white-collar' service jobs.",
       "The abolition of the stock market."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Digital technology revolutionized how information was shared and how business was conducted globally."
   },
   {
@@ -9212,11 +9212,11 @@ var APUSH_MCQ = [
     "question": "The North American Free Trade Agreement (NAFTA), which went into effect in 1994, aimed to...",
     "choices": [
       "Abolish the minimum wage.",
-      "Eliminate trade barriers and tariffs between the US, Canada, and Mexico.",
       "End all trade with China.",
+      "Eliminate trade barriers and tariffs between the US, Canada, and Mexico.",
       "Create a single currency for all of North America."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "While it increased trade, it was controversial for causing the loss of some American manufacturing jobs to Mexico."
   },
   {
@@ -9292,11 +9292,11 @@ var APUSH_MCQ = [
     "question": "The 'Bush Doctrine,' established after 9/11, suggested that the US should...",
     "choices": [
       "Only act in self-defense after being attacked.",
-      "Engage in 'preemptive' strikes against perceived threats to national security.",
       "Rely entirely on the United Nations for all military decisions.",
+      "Engage in 'preemptive' strikes against perceived threats to national security.",
       "Abolish all nuclear weapons."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "This policy was used to justify the 2003 invasion of Iraq based on the belief that Saddam Hussein possessed weapons of mass destruction."
   },
   {
@@ -9392,11 +9392,11 @@ var APUSH_MCQ = [
     "question": "The term 'Rust Belt' refers to regions in the Northeast and Midwest that experienced...",
     "choices": [
       "A sudden increase in gold mining.",
-      "Industrial decline and the loss of manufacturing jobs to the 'Sun Belt' or overseas.",
       "The invention of new types of steel.",
+      "Industrial decline and the loss of manufacturing jobs to the 'Sun Belt' or overseas.",
       "A total lack of rain."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "This shift has had major political consequences, as these states became 'battlegrounds' in elections."
   },
   {
@@ -9412,11 +9412,11 @@ var APUSH_MCQ = [
     "question": "Which of the following was a result of the 'Obergefell v. Hodges' (2015) decision?",
     "choices": [
       "The abolition of the Supreme Court.",
-      "The legalization of same-sex marriage nationwide.",
+      "The end of the Civil Rights Act.",
       "The ban of all religions.",
-      "The end of the Civil Rights Act."
+      "The legalization of same-sex marriage nationwide."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The Court ruled that the 14th Amendment requires states to license and recognize same-sex marriages."
   },
   {
@@ -9552,11 +9552,11 @@ var APUSH_MCQ = [
     "question": "Which of the following companies was a pioneer in the 'E-commerce' revolution of the late 1990s?",
     "choices": [
       "The East India Company",
-      "Amazon",
+      "US Steel",
       "General Motors",
-      "US Steel"
+      "Amazon"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Amazon transformed retail by moving shopping from physical stores to the internet."
   },
   {
@@ -9611,10 +9611,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which Native American society was known for building large earthen mounds in the Mississippi River valley?",
     "choices": [
-      "A) Mississippian culture",
-      "B) Pueblo peoples",
-      "C) Iroquois Confederacy",
-      "D) Great Plains tribes"
+      "Mississippian culture",
+      "Pueblo peoples",
+      "Iroquois Confederacy",
+      "Great Plains tribes"
     ],
     "answer": 0,
     "explanation": "The Mississippian culture (800-1600 CE) was characterized by large earthen mounds, particularly at Cahokia. Pueblo peoples built cliff dwellings in the Southwest, the Iroquois built longhouses in the Northeast, and Great Plains tribes were nomadic hunters."
@@ -9631,12 +9631,12 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which crop introduced from the Americas had the greatest impact on European population growth?",
     "choices": [
-      "A) Tobacco",
-      "B) Potatoes",
-      "C) Cotton",
-      "D) Sugar"
+      "Tobacco",
+      "Sugar",
+      "Cotton",
+      "Potatoes"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Potatoes provided a cheap, nutritious food source that supported European population growth. Tobacco was primarily a cash crop, cotton became important later for textiles, and sugar was valuable but not as crucial for sustaining populations as the potato."
   },
   {
@@ -9651,12 +9651,12 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The encomienda system granted Spanish colonists the right to:",
     "choices": [
-      "A) Own large plantations in the Caribbean",
-      "B) Demand tribute and labor from Native Americans",
-      "C) Trade directly with Spain without taxes",
-      "D) Govern independent territories"
+      "Own large plantations in the Caribbean",
+      "Govern independent territories",
+      "Trade directly with Spain without taxes",
+      "Demand tribute and labor from Native Americans"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The encomienda system granted Spanish colonists the right to demand tribute and labor from Native Americans in exchange for supposed protection and religious instruction. It was not about plantation ownership, tax-free trade, or independent governance."
   },
   {
@@ -9671,12 +9671,12 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which factor most contributed to the Spanish conquest of the Aztec Empire?",
     "choices": [
-      "A) Superior Spanish military tactics",
-      "B) Disease epidemics among Native Americans",
-      "C) Lack of Aztec military resistance",
-      "D) Overwhelming numbers of Spanish soldiers"
+      "Superior Spanish military tactics",
+      "Overwhelming numbers of Spanish soldiers",
+      "Lack of Aztec military resistance",
+      "Disease epidemics among Native Americans"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Disease epidemics, particularly smallpox, devastated Native American populations who had no immunity to Old World diseases. This demographic collapse was more decisive than military tactics, as the Aztecs did resist fiercely and the Spanish were vastly outnumbered."
   },
   {
@@ -9691,13 +9691,13 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The agricultural practices of the Pueblo peoples of the Southwest differed from those of Eastern Woodland peoples primarily because the Pueblo peoples",
     "choices": [
-      "A) relied exclusively on hunting and gathering rather than agriculture",
-      "B) developed sophisticated irrigation systems to adapt to arid conditions",
-      "C) practiced slash-and-burn agriculture like tropical societies",
-      "D) focused solely on maize cultivation without crop diversification"
+      "relied exclusively on hunting and gathering rather than agriculture",
+      "focused solely on maize cultivation without crop diversification",
+      "practiced slash-and-burn agriculture like tropical societies",
+      "developed sophisticated irrigation systems to adapt to arid conditions"
     ],
-    "answer": 1,
-    "explanation": "The Pueblo peoples developed complex irrigation systems including canals and terraces to farm in the arid Southwest, while Eastern Woodland peoples relied on natural rainfall and different techniques. Choice A is wrong because Pueblos were agricultural. Choice C confuses them with other societies. Choice D is incorrect as they grew beans and squash alongside maize."
+    "answer": 3,
+    "explanation": "The Pueblo peoples developed complex irrigation systems including canals and terraces to farm in the arid Southwest, while Eastern Woodland peoples relied on natural rainfall and different techniques. Choice A is wrong because Pueblos were agricultural. Choice C confuses them with other societies. Choice B is incorrect as they grew beans and squash alongside maize."
   },
   {
     "id": "apush_u1_q106",
@@ -9711,12 +9711,12 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which aspect of the Columbian Exchange had the most immediate and devastating impact on Native American populations in the 16th century?",
     "choices": [
-      "A) The introduction of European livestock that competed for land",
-      "B) The spread of epidemic diseases like smallpox and typhus",
-      "C) The displacement caused by European agricultural techniques",
-      "D) The depletion of natural resources through European trade demands"
+      "The introduction of European livestock that competed for land",
+      "The depletion of natural resources through European trade demands",
+      "The displacement caused by European agricultural techniques",
+      "The spread of epidemic diseases like smallpox and typhus"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Epidemic diseases killed an estimated 90% of Native Americans within a century of contact, making this the most immediate and devastating impact. While livestock (A), agricultural displacement (C), and resource depletion (D) were significant long-term problems, disease had the most rapid and catastrophic demographic effect."
   },
   {
@@ -9731,10 +9731,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Spanish colonial policy of congregación was implemented primarily to",
     "choices": [
-      "A) concentrate Native Americans in missions for easier conversion and control",
-      "B) establish joint Spanish-Native American trading partnerships",
-      "C) create separate but equal societies for Spanish and Native peoples",
-      "D) encourage intermarriage between Spanish colonists and Native Americans"
+      "concentrate Native Americans in missions for easier conversion and control",
+      "establish joint Spanish-Native American trading partnerships",
+      "create separate but equal societies for Spanish and Native peoples",
+      "encourage intermarriage between Spanish colonists and Native Americans"
     ],
     "answer": 0,
     "explanation": "Congregación was the Spanish policy of forcibly relocating Native Americans into concentrated settlements, often missions, to facilitate religious conversion and colonial administration. This was not about partnerships (B), equality (C), or encouraging intermarriage (D), but about control and cultural transformation of Native populations."
@@ -9751,12 +9751,12 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Portugal's initial limited involvement in the Americas compared to Spain can best be explained by Portugal's",
     "choices": [
-      "A) lack of navigational technology needed for Atlantic exploration",
-      "B) focus on establishing profitable trade routes to Asia and Africa",
-      "C) religious objections to conquering Native American peoples",
-      "D) inability to finance exploration due to domestic economic problems"
+      "lack of navigational technology needed for Atlantic exploration",
+      "inability to finance exploration due to domestic economic problems",
+      "religious objections to conquering Native American peoples",
+      "focus on establishing profitable trade routes to Asia and Africa"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Portugal was already profitably engaged in Asian spice trade and African gold/slave trade, making the Americas less immediately attractive. Portugal had excellent navigational technology (A), no particular religious objections (C), and adequate finances from existing trade (D). Their focus remained on their lucrative Eastern trade routes until later American opportunities emerged."
   },
   {
@@ -9771,10 +9771,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The concept of 'God, Gold, and Glory' as motivation for Spanish exploration reflects the Spanish belief that",
     "choices": [
-      "A) economic gain was secondary to religious and political objectives",
-      "B) religious conversion, wealth acquisition, and national prestige were mutually reinforcing goals",
-      "C) exploration should be limited to areas with immediate economic potential",
-      "D) only the Catholic Church should oversee colonial expansion"
+      "economic gain was secondary to religious and political objectives",
+      "religious conversion, wealth acquisition, and national prestige were mutually reinforcing goals",
+      "exploration should be limited to areas with immediate economic potential",
+      "only the Catholic Church should oversee colonial expansion"
     ],
     "answer": 1,
     "explanation": "The Spanish saw these three motives as complementary rather than competing - spreading Christianity, gaining wealth, and enhancing Spain's power all served each other. They didn't see economics as secondary (A), weren't limited to immediately profitable areas (C), and didn't give the Church exclusive control (D). The integration of these motives characterized Spanish colonial policy."
@@ -9791,10 +9791,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Spanish encomienda system differed from direct slavery primarily because it",
     "choices": [
-      "A) provided wages to Native American workers for their labor",
-      "B) was justified as a reciprocal relationship involving protection and religious instruction",
-      "C) allowed Native Americans to own property and move freely",
-      "D) was temporary and designed to eventually grant full citizenship to Native Americans"
+      "provided wages to Native American workers for their labor",
+      "was justified as a reciprocal relationship involving protection and religious instruction",
+      "allowed Native Americans to own property and move freely",
+      "was temporary and designed to eventually grant full citizenship to Native Americans"
     ],
     "answer": 1,
     "explanation": "The encomienda was legally justified as Spanish colonists providing protection and Christian education in exchange for Native labor and tribute, creating a theoretical reciprocal relationship. Unlike slavery, it wasn't based on ownership of people but on rights to labor. However, it didn't provide wages (A), didn't allow free movement (C), and wasn't intended to lead to citizenship (D). Notably, while the encomienda system devastated Native populations, this demographic collapse was driven largely by epidemic disease, to which all Native Americans - regardless of their status under the encomienda - equally lacked immunity. Smaller, more isolated Native communities were especially vulnerable to complete demographic collapse, as disease could wipe out an entire population before any recovery was possible."
@@ -9811,10 +9811,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Cortés's conquest of the Aztec Empire was facilitated most significantly by",
     "choices": [
-      "A) the superior military technology of Spanish firearms and cannons",
-      "B) the Aztec belief that Cortés was the returning god Quetzalcoatl",
-      "C) the alliance of Spanish forces with enemies of Aztec rule",
-      "D) the immediate devastating impact of smallpox on Aztec warriors"
+      "the superior military technology of Spanish firearms and cannons",
+      "the Aztec belief that Cortés was the returning god Quetzalcoatl",
+      "the alliance of Spanish forces with enemies of Aztec rule",
+      "the immediate devastating impact of smallpox on Aztec warriors"
     ],
     "answer": 2,
     "explanation": "Cortés succeeded primarily by allying with thousands of indigenous peoples (Tlaxcalans and others) who resented Aztec dominance. While Spanish technology helped (A), the Quetzalcoatl connection was likely exaggerated (B), and disease played a major role but took time to spread (D). The key was turning Aztec political enemies into Spanish allies."
@@ -9831,10 +9831,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Inca Empire's administrative system made it particularly vulnerable to Spanish conquest because",
     "choices": [
-      "A) the empire's decentralized structure prevented coordinated resistance",
-      "B) the highly centralized system collapsed when Spanish forces captured key leaders",
-      "C) the Inca had no military experience fighting against foreign invaders",
-      "D) the empire's communication system was too slow to coordinate defense"
+      "the empire's decentralized structure prevented coordinated resistance",
+      "the highly centralized system collapsed when Spanish forces captured key leaders",
+      "the Inca had no military experience fighting against foreign invaders",
+      "the empire's communication system was too slow to coordinate defense"
     ],
     "answer": 1,
     "explanation": "The Inca Empire was highly centralized around the emperor and key administrative centers, so capturing or killing leadership paralyzed the system. This centralization, while effective for governance, made it vulnerable to decapitation strikes. The empire was actually centralized, not decentralized (A), and had military experience (C) and effective communications (D), but these couldn't overcome leadership collapse."
@@ -9851,10 +9851,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Mississippian culture's decline before European contact was most likely caused by",
     "choices": [
-      "A) warfare with nomadic Plains Indian tribes",
-      "B) environmental changes and resource depletion around major settlements",
-      "C) the adoption of European diseases through pre-Columbian trade",
-      "D) invasion by more technologically advanced Mesoamerican peoples"
+      "warfare with nomadic Plains Indian tribes",
+      "environmental changes and resource depletion around major settlements",
+      "the adoption of European diseases through pre-Columbian trade",
+      "invasion by more technologically advanced Mesoamerican peoples"
     ],
     "answer": 1,
     "explanation": "Archaeological evidence suggests Mississippian decline resulted from environmental stress, climate change, and depletion of resources around major centers like Cahokia. Plains warfare (A) wasn't the primary factor, pre-Columbian European disease contact didn't occur (C), and Mesoamerican invasion didn't happen (D). Environmental and resource pressures best explain the pre-contact decline."
@@ -9871,10 +9871,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The introduction of horses to Native American societies had the most transformative effect on",
     "choices": [
-      "A) Eastern Woodland agricultural practices and settlement patterns",
-      "B) Plains Indian hunting techniques and military capabilities",
-      "C) Southwest Pueblo irrigation and farming methods",
-      "D) Pacific Northwest fishing and whaling activities"
+      "Eastern Woodland agricultural practices and settlement patterns",
+      "Plains Indian hunting techniques and military capabilities",
+      "Southwest Pueblo irrigation and farming methods",
+      "Pacific Northwest fishing and whaling activities"
     ],
     "answer": 1,
     "explanation": "Horses revolutionized Plains Indian culture, transforming buffalo hunting from difficult, dangerous work to efficient mounted hunting, and dramatically changing warfare and mobility. Horses had minimal impact on Eastern Woodland agriculture (A), Southwest irrigation (C), or Pacific Northwest fishing (D). The Great Plains saw the most dramatic cultural transformation from horse adoption."
@@ -9891,10 +9891,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Spanish colonial social hierarchy placed peninsulares at the top primarily because they",
     "choices": [
-      "A) possessed the most wealth and property in colonial society",
-      "B) demonstrated superior military skills in conquering Native peoples",
-      "C) were born in Spain and considered racially and culturally pure",
-      "D) held the highest positions in the Catholic Church hierarchy"
+      "possessed the most wealth and property in colonial society",
+      "demonstrated superior military skills in conquering Native peoples",
+      "were born in Spain and considered racially and culturally pure",
+      "held the highest positions in the Catholic Church hierarchy"
     ],
     "answer": 2,
     "explanation": "Peninsulares topped the social hierarchy because they were Spanish-born and considered racially/culturally superior to American-born criollos or mixed-race people. While they often had wealth (A) and some had military experience (B) or church positions (D), their status derived fundamentally from Spanish birth and perceived racial purity, not from achievements or roles in the colonies."
@@ -9911,10 +9911,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "European nations' competition for American colonies in the 16th century was intensified by the belief that",
     "choices": [
-      "A) the Americas contained unlimited supplies of gold and silver",
-      "B) national wealth and power depended on controlling trade and precious metals",
-      "C) Native American populations could provide unlimited slave labor",
-      "D) American territories were necessary for European population expansion"
+      "the Americas contained unlimited supplies of gold and silver",
+      "national wealth and power depended on controlling trade and precious metals",
+      "Native American populations could provide unlimited slave labor",
+      "American territories were necessary for European population expansion"
     ],
     "answer": 1,
     "explanation": "Mercantilism drove European competition - nations believed wealth was finite and national power required controlling trade routes and accumulating precious metals. Europeans didn't think gold supplies were unlimited (A), didn't initially plan to use Natives as slaves extensively (C), and population pressure wasn't the primary motive (D). Mercantilist theory explaining wealth and power through trade control best explains the competition."
@@ -9931,10 +9931,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The demographic recovery of Native American populations was slowest in areas where",
     "choices": [
-      "A) Spanish missions concentrated populations for religious conversion",
-      "B) European settlement remained sparse and intermittent",
-      "C) Native peoples maintained traditional hunting and gathering practices",
-      "D) Intermarriage between Europeans and Native peoples was common"
+      "Spanish missions concentrated populations for religious conversion",
+      "European settlement remained sparse and intermittent",
+      "Native peoples maintained traditional hunting and gathering practices",
+      "Intermarriage between Europeans and Native peoples was common"
     ],
     "answer": 0,
     "explanation": "Mission systems concentrated Native populations, facilitating disease transmission and cultural disruption while preventing traditional survival strategies. Areas with sparse European settlement (B) actually allowed faster recovery, traditional practices (C) often aided survival, and intermarriage (D) sometimes provided advantages. Concentrated mission populations suffered sustained demographic pressure from disease and cultural destruction."
@@ -9951,10 +9951,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Spanish critics of the encomienda system like Bartolomé de las Casas argued that it",
     "choices": [
-      "A) was economically inefficient compared to direct wage labor",
-      "B) violated Christian principles by treating Native peoples as property",
-      "C) prevented the Spanish from accessing the most valuable natural resources",
-      "D) created dangerous alliances between encomenderos and Native leaders"
+      "was economically inefficient compared to direct wage labor",
+      "violated Christian principles by treating Native peoples as property",
+      "prevented the Spanish from accessing the most valuable natural resources",
+      "created dangerous alliances between encomenderos and Native leaders"
     ],
     "answer": 1,
     "explanation": "Las Casas and other critics argued the encomienda violated Christian teaching about human dignity and the rights of indigenous peoples. His arguments were primarily moral and religious, not economic efficiency concerns (A), resource access issues (C), or fears about political alliances (D). The humanitarian critique focused on Christian ethics and Native peoples' spiritual equality."
@@ -9971,10 +9971,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Aztec tribute system contributed to Spanish conquest success by",
     "choices": [
-      "A) providing the Spanish with detailed maps of trade routes and resources",
-      "B) creating resentment among subject peoples who became Spanish allies",
-      "C) establishing precedent for European-style taxation in the Americas",
-      "D) demonstrating that Native peoples would accept foreign political control"
+      "providing the Spanish with detailed maps of trade routes and resources",
+      "creating resentment among subject peoples who became Spanish allies",
+      "establishing precedent for European-style taxation in the Americas",
+      "demonstrating that Native peoples would accept foreign political control"
     ],
     "answer": 1,
     "explanation": "The Aztec tribute system created widespread resentment among subject peoples, making them willing allies for Spanish conquistadors against Aztec rule. The system didn't provide maps to Spanish (A), wasn't similar to European taxation (C), and didn't prove acceptance of foreign control generally (D) - rather, it proved that oppressed peoples would rebel against their oppressors when given the opportunity."
@@ -9991,10 +9991,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Inca road system (qhapaq ñan) initially aided Spanish conquest because it",
     "choices": [
-      "A) allowed rapid communication between Spanish forces and Europe",
-      "B) provided Spanish forces with efficient routes for movement and supply",
-      "C) demonstrated that Native peoples would maintain infrastructure for conquerors",
-      "D) connected Spanish settlements with existing Native American trade networks"
+      "allowed rapid communication between Spanish forces and Europe",
+      "provided Spanish forces with efficient routes for movement and supply",
+      "demonstrated that Native peoples would maintain infrastructure for conquerors",
+      "connected Spanish settlements with existing Native American trade networks"
     ],
     "answer": 1,
     "explanation": "The extensive Inca road system allowed Spanish forces to move quickly through the empire and maintain supply lines, using infrastructure originally designed for Inca administration and military control. The roads didn't connect to Europe (A), didn't prove Native compliance with conquerors (C), and weren't initially about trade networks (D). The strategic military advantage of mobility was key."
@@ -10011,10 +10011,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Portuguese colonial development in Brazil differed from Spanish colonization primarily through its emphasis on",
     "choices": [
-      "A) establishing large-scale plantation agriculture using enslaved African labor",
-      "B) creating permanent settlements with European families and communities",
-      "C) developing friendly diplomatic relationships with Native American leaders",
-      "D) extracting precious metals through forced Native American labor"
+      "establishing large-scale plantation agriculture using enslaved African labor",
+      "creating permanent settlements with European families and communities",
+      "developing friendly diplomatic relationships with Native American leaders",
+      "extracting precious metals through forced Native American labor"
     ],
     "answer": 0,
     "explanation": "Portuguese Brazil focused on sugar plantation agriculture using enslaved Africans, contrasting with Spanish emphasis on precious metals and encomienda labor. While Spanish also established settlements (B), Portugal's distinctive approach was plantation agriculture. Portugal didn't emphasize diplomacy with Natives more than Spain (C), and didn't focus on precious metals extraction like Spain (D)."
@@ -10031,10 +10031,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Iroquois political organization differed most significantly from other Eastern Woodland peoples in its",
     "choices": [
-      "A) rejection of agriculture in favor of hunting and gathering",
-      "B) development of a confederacy linking multiple distinct nations",
-      "C) adoption of European political and legal concepts",
-      "D) establishment of permanent settlements and towns"
+      "rejection of agriculture in favor of hunting and gathering",
+      "development of a confederacy linking multiple distinct nations",
+      "adoption of European political and legal concepts",
+      "establishment of permanent settlements and towns"
     ],
     "answer": 1,
     "explanation": "The Iroquois Confederacy was distinctive for uniting five (later six) separate nations under a common political system while maintaining individual nation identities. Other Eastern Woodland peoples also practiced agriculture (A), weren't influenced by European concepts initially (C), and also had permanent settlements (D). The confederacy system was the unique political innovation."
@@ -10051,10 +10051,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "American crops like maize and potatoes had their greatest demographic impact in Europe by",
     "choices": [
-      "A) replacing wheat as the primary grain crop across most European regions",
-      "B) providing more reliable nutrition that supported population growth",
-      "C) creating new export opportunities that increased European wealth",
-      "D) reducing European dependence on trade with Asian and African partners"
+      "replacing wheat as the primary grain crop across most European regions",
+      "providing more reliable nutrition that supported population growth",
+      "creating new export opportunities that increased European wealth",
+      "reducing European dependence on trade with Asian and African partners"
     ],
     "answer": 1,
     "explanation": "American crops, especially potatoes, provided more calories per acre and grew in marginal soils, supporting larger European populations and reducing famine. These crops didn't replace wheat as primary grain (A), weren't mainly about exports initially (C), and didn't significantly reduce Asian/African trade dependence (D). The nutritional and agricultural advantages directly supported demographic expansion."
@@ -10071,10 +10071,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which of the following best explains why European diseases had such devastating effects on Native American populations during the early period of contact?",
     "choices": [
-      "A) Native Americans had weaker immune systems due to poor nutrition and living conditions",
-      "B) European diseases were intentionally spread as biological warfare against Native populations",
-      "C) Native American populations had no previous exposure to Old World diseases like smallpox and measles",
-      "D) Native Americans refused European medical treatments due to religious beliefs"
+      "Native Americans had weaker immune systems due to poor nutrition and living conditions",
+      "European diseases were intentionally spread as biological warfare against Native populations",
+      "Native American populations had no previous exposure to Old World diseases like smallpox and measles",
+      "Native Americans refused European medical treatments due to religious beliefs"
     ],
     "answer": 2,
     "explanation": "Native American populations had been isolated from Old World diseases for thousands of years and therefore lacked immunity to diseases like smallpox, measles, and typhus. This lack of previous exposure, not inferior immune systems (A), intentional warfare (B), or refusal of treatment (D), explains the demographic catastrophe that reduced Native populations by an estimated 90% in many areas."
@@ -10091,10 +10091,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The encomienda system established by the Spanish in the Americas can best be understood as an institution that",
     "choices": [
-      "A) granted Spanish colonists ownership of land and the Native Americans living on it",
-      "B) provided Spanish colonists with the right to Native American labor in exchange for protection and Christian instruction",
-      "C) established peaceful trade relationships between Spanish settlers and Native American communities",
-      "D) created a system of intermarriage between Spanish colonists and Native American nobility"
+      "granted Spanish colonists ownership of land and the Native Americans living on it",
+      "provided Spanish colonists with the right to Native American labor in exchange for protection and Christian instruction",
+      "established peaceful trade relationships between Spanish settlers and Native American communities",
+      "created a system of intermarriage between Spanish colonists and Native American nobility"
     ],
     "answer": 1,
     "explanation": "The encomienda system granted Spanish colonists (encomenderos) the right to demand labor and tribute from Native Americans in exchange for supposed protection and Christian conversion. It did not grant ownership of people or land (A), nor was it primarily about trade (C) or intermarriage (D). While often abusive in practice, the system was legally justified as providing protection and religious instruction to Native peoples."
@@ -10111,10 +10111,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The agricultural practices of the Mississippian culture most directly challenged which European assumption about Native American societies?",
     "choices": [
-      "A) That Native Americans lacked permanent settlements",
-      "B) That Native Americans had no understanding of private property",
-      "C) That Native Americans were incapable of large-scale agriculture",
-      "D) That Native Americans had no social hierarchies"
+      "That Native Americans lacked permanent settlements",
+      "That Native Americans had no understanding of private property",
+      "That Native Americans were incapable of large-scale agriculture",
+      "That Native Americans had no social hierarchies"
     ],
     "answer": 0,
     "explanation": "Mississippian culture created large, permanent settlements like Cahokia based on intensive maize agriculture, directly contradicting European beliefs that Native Americans were nomadic. While Europeans also misunderstood Native concepts of property, social organization, and agriculture, the permanence of settlements was the most fundamental challenge to European justifications for land claims."
@@ -10131,10 +10131,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which aspect of the Columbian Exchange most directly contributed to the shift from feudalism to capitalism in Europe?",
     "choices": [
-      "A) The introduction of new crops that increased agricultural productivity",
-      "B) The influx of precious metals that expanded money supply and trade",
-      "C) The establishment of new trade routes that bypassed traditional intermediaries",
-      "D) The availability of new raw materials for emerging industries"
+      "The introduction of new crops that increased agricultural productivity",
+      "The influx of precious metals that expanded money supply and trade",
+      "The establishment of new trade routes that bypassed traditional intermediaries",
+      "The availability of new raw materials for emerging industries"
     ],
     "answer": 1,
     "explanation": "The massive influx of gold and silver from the Americas increased Europe's money supply, facilitating the growth of banking, credit systems, and market-based economies that characterized early capitalism. While new crops, trade routes, and raw materials were important, the expansion of money supply was the most direct catalyst for the transition from land-based feudal economies to money-based capitalist systems."
@@ -10151,10 +10151,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Spanish colonial policy of creating separate republicas de españoles and republicas de indios reflected which underlying tension in colonial administration?",
     "choices": [
-      "A) The conflict between mercantilist economic goals and religious conversion missions",
-      "B) The contradiction between legal equality under Christianity and practical needs for social control",
-      "C) The competition between local colonial administrators and the Spanish Crown",
-      "D) The disagreement between secular authorities and Catholic Church officials"
+      "The conflict between mercantilist economic goals and religious conversion missions",
+      "The contradiction between legal equality under Christianity and practical needs for social control",
+      "The competition between local colonial administrators and the Spanish Crown",
+      "The disagreement between secular authorities and Catholic Church officials"
     ],
     "answer": 1,
     "explanation": "The separate republic system revealed the fundamental contradiction in Spanish colonial ideology: while Christianity theoretically made all converts equal, the colonial system required maintaining social hierarchies to ensure Spanish dominance and extract wealth. This legal segregation allowed Spain to claim Christian equality while maintaining practical control and exploitation."
@@ -10171,10 +10171,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Portugal's decision to focus on coastal trading posts rather than territorial conquest in Africa and Asia, compared to their approach in Brazil, was most directly influenced by",
     "choices": [
-      "A) The greater resistance of African and Asian political structures",
-      "B) The different demographic and disease environments they encountered",
-      "C) The Catholic Church's opposition to conquest outside the Americas",
-      "D) The terms of the Treaty of Tordesillas limiting Portuguese expansion"
+      "The greater resistance of African and Asian political structures",
+      "The different demographic and disease environments they encountered",
+      "The Catholic Church's opposition to conquest outside the Americas",
+      "The terms of the Treaty of Tordesillas limiting Portuguese expansion"
     ],
     "answer": 0,
     "explanation": "Portugal encountered established, powerful kingdoms and empires in Africa and Asia (like the Mughal Empire, Ming China, and various African states) that could effectively resist conquest, making trading posts more practical. In Brazil, they found decentralized indigenous societies more vulnerable to conquest. Disease patterns, Church policy, and Tordesillas were less determinative than the political-military realities they faced."
@@ -10191,10 +10191,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The European emphasis on finding a Northwest Passage in the 16th century most clearly demonstrates which aspect of early modern European expansion?",
     "choices": [
-      "A) The primary importance of religious conversion over economic gain",
-      "B) The continuation of medieval geographic misconceptions despite new discoveries",
-      "C) The competitive nature of European powers seeking advantages over rivals",
-      "D) The technological limitations preventing direct oceanic exploration"
+      "The primary importance of religious conversion over economic gain",
+      "The continuation of medieval geographic misconceptions despite new discoveries",
+      "The competitive nature of European powers seeking advantages over rivals",
+      "The technological limitations preventing direct oceanic exploration"
     ],
     "answer": 2,
     "explanation": "The persistent search for a Northwest Passage, despite mounting evidence of its impracticality, demonstrates how competitive pressures drove European exploration. Each nation hoped to find an exclusive route to Asian markets that would bypass competitors' established routes. While geographic misconceptions existed, the continued pursuit despite contrary evidence shows competition was the primary driver, not ignorance."
@@ -10211,10 +10211,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The demographic collapse of Native American populations had which unintended consequence for European colonial labor systems?",
     "choices": [
-      "A) It forced Europeans to develop more efficient agricultural techniques",
-      "B) It accelerated the transition from tribute-based to plantation-based economies",
-      "C) It led to earlier adoption of indentured servitude over slavery",
-      "D) It caused Europeans to abandon territorial expansion in favor of trading posts"
+      "It forced Europeans to develop more efficient agricultural techniques",
+      "It accelerated the transition from tribute-based to plantation-based economies",
+      "It led to earlier adoption of indentured servitude over slavery",
+      "It caused Europeans to abandon territorial expansion in favor of trading posts"
     ],
     "answer": 1,
     "explanation": "The massive population decline made tribute systems (like encomienda) unsustainable, forcing Spanish colonists to shift toward plantation agriculture with imported African slave labor. This transition was unintended but necessary for maintaining colonial profitability. While other labor systems evolved, the specific shift from tribute extraction to direct production was the most significant structural change caused by demographic collapse."
@@ -10231,10 +10231,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Spanish Crown's eventual restriction of the encomienda system primarily reflected concerns about",
     "choices": [
-      "A) The inefficiency of tribute collection compared to direct taxation",
-      "B) The creation of an independent colonial aristocracy that might challenge royal authority",
-      "C) The moral objections raised by Catholic missionaries about indigenous treatment",
-      "D) The declining profitability due to indigenous population collapse"
+      "The inefficiency of tribute collection compared to direct taxation",
+      "The creation of an independent colonial aristocracy that might challenge royal authority",
+      "The moral objections raised by Catholic missionaries about indigenous treatment",
+      "The declining profitability due to indigenous population collapse"
     ],
     "answer": 1,
     "explanation": "The Spanish Crown's main concern was that encomenderos were becoming too powerful and independent, potentially challenging royal authority as feudal lords had in medieval Spain. While missionary objections and population decline were factors, the Crown's primary motivation was preventing the emergence of a colonial nobility that might threaten centralized control over the colonies and their wealth."
@@ -10251,10 +10251,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which characteristic of Aztec imperial organization most directly facilitated Spanish conquest under Cortés?",
     "choices": [
-      "A) The centralized tribute system that created resentment among subject peoples",
-      "B) The religious emphasis on human sacrifice that alienated potential allies",
-      "C) The lack of written communication systems for coordinating resistance",
-      "D) The absence of metal weapons and armor for military defense"
+      "The centralized tribute system that created resentment among subject peoples",
+      "The religious emphasis on human sacrifice that alienated potential allies",
+      "The lack of written communication systems for coordinating resistance",
+      "The absence of metal weapons and armor for military defense"
     ],
     "answer": 0,
     "explanation": "The Aztec tribute system created widespread resentment among subject peoples, who readily allied with Cortés against their Aztec overlords. This internal division was more crucial than technological or religious factors. While human sacrifice, communication methods, and military technology played roles, the political fragmentation caused by tribute extraction provided Cortés with the indigenous allies essential to his success."
@@ -10271,10 +10271,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Spanish conquest of the Inca Empire was most facilitated by the intersection of which two factors?",
     "choices": [
-      "A) Smallpox epidemics and the recent civil war between Huascar and Atahualpa",
-      "B) Superior Spanish military technology and the absence of Inca metallurgy",
-      "C) Catholic missionary activity and existing Inca religious practices",
-      "D) Spanish administrative experience and the complexity of Inca bureaucracy"
+      "Smallpox epidemics and the recent civil war between Huascar and Atahualpa",
+      "Superior Spanish military technology and the absence of Inca metallurgy",
+      "Catholic missionary activity and existing Inca religious practices",
+      "Spanish administrative experience and the complexity of Inca bureaucracy"
     ],
     "answer": 0,
     "explanation": "The combination of disease-caused population decline and the civil war between the royal brothers created optimal conditions for Spanish conquest. The empire was weakened demographically by smallpox and politically divided by succession conflict. While technology, religion, and administration were factors, the timing of Pizarro's arrival during this double crisis was the decisive advantage."
@@ -10291,10 +10291,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The diversity of Native American responses to European contact can best be explained by",
     "choices": [
-      "A) Differences in the technological sophistication of various indigenous groups",
-      "B) Variations in the timing and nature of initial European contact experiences",
-      "C) The distinct environmental challenges faced by different indigenous societies",
-      "D) The varying degrees of political centralization among indigenous communities"
+      "Differences in the technological sophistication of various indigenous groups",
+      "Variations in the timing and nature of initial European contact experiences",
+      "The distinct environmental challenges faced by different indigenous societies",
+      "The varying degrees of political centralization among indigenous communities"
     ],
     "answer": 1,
     "explanation": "The timing and type of first contact (whether with explorers, traders, missionaries, or conquistadors) fundamentally shaped indigenous responses and capabilities. Groups experiencing early epidemics without European presence developed different strategies than those meeting Europeans directly. While technology, environment, and political organization influenced responses, the specific historical circumstances of initial contact were most determinative."
@@ -10311,10 +10311,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The introduction of European livestock to the Americas had which long-term consequence for indigenous societies?",
     "choices": [
-      "A) It provided new protein sources that increased indigenous population recovery",
-      "B) It facilitated the development of indigenous resistance movements through improved mobility",
-      "C) It accelerated the transformation of indigenous land use patterns and territorial boundaries",
-      "D) It created new trade opportunities that strengthened indigenous economic independence"
+      "It provided new protein sources that increased indigenous population recovery",
+      "It facilitated the development of indigenous resistance movements through improved mobility",
+      "It accelerated the transformation of indigenous land use patterns and territorial boundaries",
+      "It created new trade opportunities that strengthened indigenous economic independence"
     ],
     "answer": 2,
     "explanation": "European livestock fundamentally altered indigenous landscapes and territorial concepts. Cattle and pigs required different land management than indigenous practices, leading to conflicts over land use and contributing to the erosion of traditional territorial systems. While livestock provided some benefits, the dominant long-term effect was the transformation of indigenous relationships with land and space."
@@ -10331,10 +10331,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The development of the casta system in Spanish America primarily served to",
     "choices": [
-      "A) Facilitate religious conversion by providing clear paths to Spanish citizenship",
-      "B) Maintain social hierarchy while accommodating the reality of racial mixing",
-      "C) Encourage intermarriage as a method of cultural assimilation",
-      "D) Provide legal protections for indigenous peoples against Spanish exploitation"
+      "Facilitate religious conversion by providing clear paths to Spanish citizenship",
+      "Maintain social hierarchy while accommodating the reality of racial mixing",
+      "Encourage intermarriage as a method of cultural assimilation",
+      "Provide legal protections for indigenous peoples against Spanish exploitation"
     ],
     "answer": 1,
     "explanation": "The casta system created elaborate racial categories that acknowledged widespread mixing while preserving Spanish dominance through hierarchical classification. Rather than preventing mixing or providing equality, it systematized inequality in a mixed-race society. The system's complexity reveals Spanish efforts to maintain control despite demographic realities that challenged simple racial divisions."
@@ -10351,10 +10351,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which factor best explains why European exploration in the 15th and 16th centuries focused primarily on oceanic rather than overland expansion?",
     "choices": [
-      "A) The superior naval technology available to European powers",
-      "B) The Islamic control of traditional overland trade routes to Asia",
-      "C) The European belief that oceanic exploration was religiously mandated",
-      "D) The recent development of more accurate maps and navigation techniques"
+      "The superior naval technology available to European powers",
+      "The Islamic control of traditional overland trade routes to Asia",
+      "The European belief that oceanic exploration was religiously mandated",
+      "The recent development of more accurate maps and navigation techniques"
     ],
     "answer": 1,
     "explanation": "Ottoman control of Eastern Mediterranean and overland routes to Asia forced Europeans to seek alternative paths to Asian markets, making oceanic exploration an economic necessity rather than just an option. While technology, religion, and navigation improvements enabled oceanic exploration, the blockage of traditional routes was the primary motivation that drove the Age of Exploration's oceanic focus."
@@ -10371,10 +10371,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "What was the primary economic activity in the Chesapeake colonies of Virginia and Maryland during the 17th century?",
     "choices": [
-      "A) Tobacco cultivation",
-      "B) Fur trading",
-      "C) Shipbuilding",
-      "D) Fishing"
+      "Tobacco cultivation",
+      "Fur trading",
+      "Shipbuilding",
+      "Fishing"
     ],
     "answer": 0,
     "explanation": "Tobacco cultivation was the primary economic activity that drove the Chesapeake economy. Fur trading was more important in New France and the Middle colonies, shipbuilding was significant in New England, and fishing was the major industry in New England coastal areas."
@@ -10391,10 +10391,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "According to Puritan beliefs, what determined whether a person would achieve salvation?",
     "choices": [
-      "A) Good works and charitable acts",
-      "B) Predestination by God",
-      "C) Regular church attendance",
-      "D) Following the Ten Commandments"
+      "Good works and charitable acts",
+      "Predestination by God",
+      "Regular church attendance",
+      "Following the Ten Commandments"
     ],
     "answer": 1,
     "explanation": "Puritans believed in predestination - that God had already determined who would be saved before birth. This contrasts with Catholic emphasis on good works, and while Puritans valued moral behavior and church attendance, these were seen as signs of salvation rather than causes of it."
@@ -10411,10 +10411,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "What typically happened to indentured servants after they completed their term of service?",
     "choices": [
-      "A) They were required to serve another term",
-      "B) They received freedom dues and could become free colonists",
-      "C) They were automatically granted land ownership",
-      "D) They became permanent servants with wages"
+      "They were required to serve another term",
+      "They received freedom dues and could become free colonists",
+      "They were automatically granted land ownership",
+      "They became permanent servants with wages"
     ],
     "answer": 1,
     "explanation": "After completing their terms (usually 4-7 years), indentured servants received 'freedom dues' which might include clothes, tools, or small amounts of money, and became free colonists. They were not required to serve again, land ownership was not automatic but possible to achieve, and the permanent servant status did not exist in this system."
@@ -10431,10 +10431,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Bacon's Rebellion in 1676 occurred in which colony?",
     "choices": [
-      "A) Massachusetts",
-      "B) Pennsylvania",
-      "C) Virginia",
-      "D) South Carolina"
+      "Massachusetts",
+      "Pennsylvania",
+      "Virginia",
+      "South Carolina"
     ],
     "answer": 2,
     "explanation": "Bacon's Rebellion took place in Virginia in 1676, led by Nathaniel Bacon against Governor William Berkeley. Students often confuse early colonial conflicts, but this specific rebellion over Indian policy and political representation occurred in the Chesapeake region, not in New England, the Middle colonies, or the Lower South."
@@ -10451,10 +10451,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The high mortality rates in early Virginia and Maryland colonies primarily resulted from which combination of factors?",
     "choices": [
-      "A) Disease, poor water quality, and inadequate food supplies",
-      "B) Constant warfare with Native Americans and lack of medical knowledge",
-      "C) Religious persecution and harsh Puritan leadership",
-      "D) Overwork in textile manufacturing and mining operations"
+      "Disease, poor water quality, and inadequate food supplies",
+      "Constant warfare with Native Americans and lack of medical knowledge",
+      "Religious persecution and harsh Puritan leadership",
+      "Overwork in textile manufacturing and mining operations"
     ],
     "answer": 0,
     "explanation": "High mortality in the Chesapeake resulted from disease (malaria, dysentery), contaminated water sources, and food shortages during early settlement periods. Option B overstates warfare frequency, C confuses regions (Puritans were in New England), and D misidentifies the primary economic activities (tobacco, not manufacturing)."
@@ -10471,10 +10471,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Massachusetts Bay Colony's 'city upon a hill' concept influenced colonial development by promoting which social characteristic?",
     "choices": [
-      "A) Religious tolerance and acceptance of diverse faiths",
-      "B) Economic individualism and free market principles",
-      "C) Community conformity and moral supervision",
-      "D) Democratic participation and universal suffrage"
+      "Religious tolerance and acceptance of diverse faiths",
+      "Economic individualism and free market principles",
+      "Community conformity and moral supervision",
+      "Democratic participation and universal suffrage"
     ],
     "answer": 2,
     "explanation": "The 'city upon a hill' ideology promoted tight-knit communities with strong moral oversight and conformity to Puritan values. Option A is incorrect as Puritans were intolerant of other faiths, B misrepresents their communal economic approach, and D overstates political participation (limited to church members)."
@@ -10491,10 +10491,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Pennsylvania's economic success compared to other colonies can best be attributed to which factor?",
     "choices": [
-      "A) Exclusive focus on tobacco cultivation using slave labor",
-      "B) Religious diversity attracting skilled immigrants and promoting trade",
-      "C) Strict mercantile policies favoring English merchants",
-      "D) Geographic isolation protecting local industries from competition"
+      "Exclusive focus on tobacco cultivation using slave labor",
+      "Religious diversity attracting skilled immigrants and promoting trade",
+      "Strict mercantile policies favoring English merchants",
+      "Geographic isolation protecting local industries from competition"
     ],
     "answer": 1,
     "explanation": "Pennsylvania's Quaker tolerance attracted diverse religious groups, including skilled German and Dutch immigrants, fostering economic growth through varied trades and commerce. Option A describes Virginia/Maryland, C contradicts Pennsylvania's relatively open trade policies, and D is geographically inaccurate."
@@ -10511,10 +10511,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The decline of indentured servitude in the late 17th century Chesapeake region resulted primarily from which development?",
     "choices": [
-      "A) Legal prohibitions against the practice by colonial governments",
-      "B) Improved economic conditions in England reducing willing emigrants",
-      "C) Religious objections raised by Anglican church leaders",
-      "D) Competition from family-based farming reducing labor demand"
+      "Legal prohibitions against the practice by colonial governments",
+      "Improved economic conditions in England reducing willing emigrants",
+      "Religious objections raised by Anglican church leaders",
+      "Competition from family-based farming reducing labor demand"
     ],
     "answer": 1,
     "explanation": "Economic recovery in England after mid-17th century disruptions meant fewer people needed to indenture themselves for passage. This, combined with former servants competing for land, led planters toward slave labor. Option A is incorrect (no legal prohibitions), C misrepresents Anglican positions, and D ignores the continued high labor demand."
@@ -10531,10 +10531,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The transition from indentured servitude to chattel slavery in the Chesapeake colonies was accelerated by which legal development?",
     "choices": [
-      "A) The establishment of hereditary bondage for people of African descent",
-      "B) The prohibition of Christian conversion among enslaved people",
-      "C) The requirement that all plantation workers be purchased rather than contracted",
-      "D) The creation of separate colonial courts for labor disputes"
+      "The establishment of hereditary bondage for people of African descent",
+      "The prohibition of Christian conversion among enslaved people",
+      "The requirement that all plantation workers be purchased rather than contracted",
+      "The creation of separate colonial courts for labor disputes"
     ],
     "answer": 0,
     "explanation": "Laws establishing that children would follow the status of their mothers created hereditary slavery, making enslaved people a more valuable long-term investment than indentured servants. Option B misrepresents conversion policies, C overstates legal requirements, and D doesn't address the slavery transition."
@@ -10551,10 +10551,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Colonial social mobility differed most significantly between regions in which aspect?",
     "choices": [
-      "A) Access to higher education and professional training",
-      "B) Opportunities for westward land acquisition and farming",
-      "C) Participation in transatlantic merchant networks",
-      "D) Integration of immigrant populations into existing communities"
+      "Access to higher education and professional training",
+      "Opportunities for westward land acquisition and farming",
+      "Participation in transatlantic merchant networks",
+      "Integration of immigrant populations into existing communities"
     ],
     "answer": 1,
     "explanation": "Land availability varied dramatically by region - abundant in Pennsylvania and the backcountry but limited in established New England towns, creating different mobility patterns. Options A, C, and D, while varying somewhat by region, didn't create as fundamental differences in social advancement opportunities."
@@ -10571,10 +10571,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Puritan doctrine of predestination created which social tension within New England communities?",
     "choices": [
-      "A) Conflict between economic success and spiritual humility",
-      "B) Disagreement over the timing of Christ's second coming",
-      "C) Disputes about the proper method of infant baptism",
-      "D) Division between supporters and opponents of religious establishment"
+      "Conflict between economic success and spiritual humility",
+      "Disagreement over the timing of Christ's second coming",
+      "Disputes about the proper method of infant baptism",
+      "Division between supporters and opponents of religious establishment"
     ],
     "answer": 0,
     "explanation": "Predestination suggested material success might indicate divine favor, creating anxiety about whether wealth demonstrated election or dangerous pride. Option B relates to different theological debates, C wasn't the primary tension from predestination, and D addresses church-state relations rather than theological doctrine."
@@ -10591,10 +10591,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Navigation Acts reflected mercantilist theory by requiring that colonial trade be conducted in ways that would:",
     "choices": [
-      "A) Promote religious unity throughout the British Empire",
-      "B) Increase England's accumulation of gold and silver currency",
-      "C) Encourage colonial manufacturing and economic independence",
-      "D) Establish standardized weights and measures across all colonies"
+      "Promote religious unity throughout the British Empire",
+      "Increase England's accumulation of gold and silver currency",
+      "Encourage colonial manufacturing and economic independence",
+      "Establish standardized weights and measures across all colonies"
     ],
     "answer": 1,
     "explanation": "Mercantilism aimed to maximize national wealth through favorable trade balances and precious metal accumulation. The Navigation Acts directed colonial trade through England to achieve these goals. Options A, C, and D address different policy objectives not central to mercantilist economic theory."
@@ -10611,10 +10611,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "New England merchants' participation in triangular trade networks primarily involved which economic strategy?",
     "choices": [
-      "A) Converting agricultural surpluses into manufactured goods for export",
-      "B) Using profits from rum and slave trading to purchase sugar and molasses",
-      "C) Specializing in direct bilateral trade relationships with individual Caribbean islands",
-      "D) Focusing exclusively on cod fishing and timber exports to European markets"
+      "Converting agricultural surpluses into manufactured goods for export",
+      "Using profits from rum and slave trading to purchase sugar and molasses",
+      "Specializing in direct bilateral trade relationships with individual Caribbean islands",
+      "Focusing exclusively on cod fishing and timber exports to European markets"
     ],
     "answer": 1,
     "explanation": "New England merchants used profits from selling rum (and sometimes engaging in slave trading) to buy sugar and molasses in the Caribbean, completing profitable triangular routes. Option A misrepresents New England's limited agriculture, C understates the complexity of trade networks, and D ignores Caribbean connections."
@@ -10631,10 +10631,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Bacon's Rebellion demonstrated which underlying tension in late 17th-century Virginia society?",
     "choices": [
-      "A) Religious conflicts between Anglican and Puritan settlers",
-      "B) Economic competition between tobacco planters and wheat farmers",
-      "C) Political disputes between eastern elites and western frontiersmen",
-      "D) Cultural disagreements about the role of slavery in colonial society"
+      "Religious conflicts between Anglican and Puritan settlers",
+      "Economic competition between tobacco planters and wheat farmers",
+      "Political disputes between eastern elites and western frontiersmen",
+      "Cultural disagreements about the role of slavery in colonial society"
     ],
     "answer": 2,
     "explanation": "The rebellion highlighted tensions between the established Tidewater elite and backcountry settlers who felt underrepresented and unprotected from Native American conflicts. Option A misidentifies the religious composition, B overstates crop diversity, and D anachronistically projects later slavery debates."
@@ -10651,10 +10651,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The development of plantation agriculture in Maryland and Virginia was most directly facilitated by which geographic factor?",
     "choices": [
-      "A) Proximity to major overland trade routes connecting to northern cities",
-      "B) Access to navigable rivers extending inland from the Chesapeake Bay",
-      "C) Location of natural harbors suitable for large oceangoing vessels",
-      "D) Availability of mountain valleys protected from severe weather"
+      "Proximity to major overland trade routes connecting to northern cities",
+      "Access to navigable rivers extending inland from the Chesapeake Bay",
+      "Location of natural harbors suitable for large oceangoing vessels",
+      "Availability of mountain valleys protected from severe weather"
     ],
     "answer": 1,
     "explanation": "The numerous rivers flowing into Chesapeake Bay allowed ships to reach individual plantations directly, making tobacco export economically viable without major port cities. Option A overstates overland connections, C describes deep-water ports (less crucial than river access), and D misrepresents the geographic setting."
@@ -10671,10 +10671,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Puritan emphasis on literacy in New England colonies was primarily motivated by the desire to:",
     "choices": [
-      "A) Prepare colonists for participation in democratic government",
-      "B) Enable individuals to read scripture and religious texts independently",
-      "C) Create a workforce capable of engaging in complex commercial activities",
-      "D) Establish cultural superiority over other colonial regions"
+      "Prepare colonists for participation in democratic government",
+      "Enable individuals to read scripture and religious texts independently",
+      "Create a workforce capable of engaging in complex commercial activities",
+      "Establish cultural superiority over other colonial regions"
     ],
     "answer": 1,
     "explanation": "Puritans believed individual Bible reading was essential for salvation and proper Christian living, driving their commitment to education. Option A anachronistically assumes democratic ideals, C understates religious motivations, and D misrepresents their primary educational purposes."
@@ -10691,10 +10691,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The ethnic and religious diversity of New York and New Jersey in the late 17th century primarily resulted from:",
     "choices": [
-      "A) Deliberate recruitment policies designed to increase population rapidly",
-      "B) The inheritance of Dutch colonial policies after English conquest",
-      "C) Geographic location attracting refugees from European religious wars",
-      "D) Economic opportunities in fur trading that appealed to various groups"
+      "Deliberate recruitment policies designed to increase population rapidly",
+      "The inheritance of Dutch colonial policies after English conquest",
+      "Geographic location attracting refugees from European religious wars",
+      "Economic opportunities in fur trading that appealed to various groups"
     ],
     "answer": 1,
     "explanation": "The Dutch had established relatively tolerant policies toward different ethnic and religious groups, and the English largely continued these practices after 1664. Option A overstates planned recruitment, C misrepresents migration patterns, and D focuses too narrowly on fur trading."
@@ -10711,10 +10711,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Indentured servants in the Chesapeake colonies faced which challenge most immediately upon completing their terms of service?",
     "choices": [
-      "A) Legal restrictions preventing them from owning property",
-      "B) Social discrimination limiting their marriage prospects",
-      "C) Competition for available land and economic opportunities",
-      "D) Requirements to continue working for their former masters"
+      "Legal restrictions preventing them from owning property",
+      "Social discrimination limiting their marriage prospects",
+      "Competition for available land and economic opportunities",
+      "Requirements to continue working for their former masters"
     ],
     "answer": 2,
     "explanation": "Freed servants competed with each other and new immigrants for land and jobs, often pushing them toward frontier areas or keeping them in dependent relationships. Option A is incorrect (they could legally own property), B overstates social restrictions, and D misrepresents the legal end of service obligations."
@@ -10731,10 +10731,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The role of women in colonial society was most directly shaped by which factor?",
     "choices": [
-      "A) Legal traditions inherited from English common law",
-      "B) Religious teachings about proper Christian behavior",
-      "C) Economic necessities of colonial household production",
-      "D) Geographic isolation from European cultural influences"
+      "Legal traditions inherited from English common law",
+      "Religious teachings about proper Christian behavior",
+      "Economic necessities of colonial household production",
+      "Geographic isolation from European cultural influences"
     ],
     "answer": 2,
     "explanation": "Colonial women's roles were primarily defined by the economic demands of household production, which required their participation in manufacturing, food processing, and agricultural work. English common law (A) established legal constraints such as coverture, and religious teachings (B) reinforced expectations of female subordination, but these were secondary to the immediate economic realities of colonial life. Geographic isolation (D) overstates the degree to which colonists were cut off from European cultural norms."
@@ -10751,10 +10751,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Half-Way Covenant represented a compromise between which competing concerns within Puritan communities?",
     "choices": [
-      "A) Maintaining religious purity versus ensuring church membership growth",
-      "B) Supporting individual conscience versus enforcing community conformity",
-      "C) Preserving traditional worship versus adopting new musical practices",
-      "D) Balancing economic prosperity versus spiritual devotion"
+      "Maintaining religious purity versus ensuring church membership growth",
+      "Supporting individual conscience versus enforcing community conformity",
+      "Preserving traditional worship versus adopting new musical practices",
+      "Balancing economic prosperity versus spiritual devotion"
     ],
     "answer": 0,
     "explanation": "The Half-Way Covenant allowed baptism for children of non-converted church members, balancing the desire to maintain conversion standards with the practical need to keep second-generation colonists connected to the church. Options B, C, and D address different theological tensions not resolved by this specific compromise."
@@ -10771,10 +10771,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The transformation of Virginia from a struggling settlement to a profitable colony in the 1620s most directly resulted from which combination of factors?",
     "choices": [
-      "A) The establishment of representative government through the House of Burgesses and improved relations with local Native Americans",
-      "B) The successful cultivation of tobacco as a cash crop and the implementation of the headright system to encourage immigration",
-      "C) The discovery of gold deposits in the interior and the development of efficient mining techniques",
-      "D) The establishment of religious tolerance and the creation of a diversified economy based on small-scale farming"
+      "The establishment of representative government through the House of Burgesses and improved relations with local Native Americans",
+      "The successful cultivation of tobacco as a cash crop and the implementation of the headright system to encourage immigration",
+      "The discovery of gold deposits in the interior and the development of efficient mining techniques",
+      "The establishment of religious tolerance and the creation of a diversified economy based on small-scale farming"
     ],
     "answer": 1,
     "explanation": "The correct answer is B. Virginia's economic success came from tobacco cultivation (introduced by John Rolfe) and the headright system that encouraged immigration by granting land. Choice A is incorrect because while the House of Burgesses was established in 1619, relations with Native Americans deteriorated. Choice C is wrong because no significant gold was found in Virginia. Choice D is incorrect because Virginia was Anglican, not religiously tolerant, and became economically dependent on tobacco monoculture."
@@ -10791,10 +10791,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The concept of a 'covenant community' in early New England colonies most significantly differed from other colonial social structures in that it:",
     "choices": [
-      "A) Emphasized individual economic success and social mobility over collective responsibility",
-      "B) Integrated church membership with political participation and community governance",
-      "C) Promoted religious tolerance and welcomed diverse Protestant denominations",
-      "D) Established a rigid class hierarchy based on wealth and land ownership"
+      "Emphasized individual economic success and social mobility over collective responsibility",
+      "Integrated church membership with political participation and community governance",
+      "Promoted religious tolerance and welcomed diverse Protestant denominations",
+      "Established a rigid class hierarchy based on wealth and land ownership"
     ],
     "answer": 1,
     "explanation": "The correct answer is B. The Puritan covenant community uniquely linked church membership to political participation - only 'visible saints' could vote and hold office. Choice A is incorrect because Puritans emphasized collective responsibility over individualism. Choice C is wrong because New England Puritans were intolerant of other religious groups. Choice D is incorrect because while social hierarchy existed, it was based more on religious standing and community service than purely on wealth."
@@ -10811,10 +10811,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The economic and social development of the Middle colonies was most distinctively shaped by:",
     "choices": [
-      "A) Large-scale plantation agriculture using enslaved labor similar to the Chesapeake region",
-      "B) Religious uniformity and theocratic governance patterns borrowed from New England",
-      "C) Ethnic and religious diversity combined with fertile soil and navigable river systems",
-      "D) Extensive fur trading relationships with Native American tribes as the primary economic base"
+      "Large-scale plantation agriculture using enslaved labor similar to the Chesapeake region",
+      "Religious uniformity and theocratic governance patterns borrowed from New England",
+      "Ethnic and religious diversity combined with fertile soil and navigable river systems",
+      "Extensive fur trading relationships with Native American tribes as the primary economic base"
     ],
     "answer": 2,
     "explanation": "The correct answer is C. The Middle colonies were characterized by religious tolerance (Quakers, Dutch Reformed, Germans, etc.), ethnic diversity, fertile soil, and rivers like the Hudson and Delaware that facilitated trade. Choice A is incorrect because the Middle colonies used smaller farms and less slave labor than the Chesapeake. Choice B is wrong because the Middle colonies were religiously diverse, not uniform. Choice D is incorrect because while fur trading existed, agriculture and commerce were the primary economic activities."
@@ -10831,10 +10831,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The gradual decline of indentured servitude in the Chesapeake colonies during the late 17th century can best be attributed to:",
     "choices": [
-      "A) Colonial laws that prohibited the practice due to moral objections from religious leaders",
-      "B) Economic prosperity in England that reduced the pool of willing servants and planters' preference for permanent enslaved labor",
-      "C) Successful revolts by indentured servants that made the system too dangerous to maintain",
-      "D) Competition from free wage labor that proved more economically efficient than bound labor"
+      "Colonial laws that prohibited the practice due to moral objections from religious leaders",
+      "Economic prosperity in England that reduced the pool of willing servants and planters' preference for permanent enslaved labor",
+      "Successful revolts by indentured servants that made the system too dangerous to maintain",
+      "Competition from free wage labor that proved more economically efficient than bound labor"
     ],
     "answer": 1,
     "explanation": "The correct answer is B. Indentured servitude declined because improving economic conditions in England reduced the supply of willing servants, while planters increasingly preferred enslaved Africans who served for life and whose children were also enslaved. Choice A is incorrect because there were no laws prohibiting indentured servitude based on moral grounds. Choice C is wrong because while Bacon's Rebellion involved some servants, it didn't end the system. Choice D is incorrect because free wage labor was not widely available or preferred by planters seeking bound labor."
@@ -10851,10 +10851,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The expansion of the transatlantic slave trade to North American colonies in the late 17th century was most directly facilitated by:",
     "choices": [
-      "A) The Royal African Company's monopoly on slave trading, which ensured steady supply to English colonies",
-      "B) Spanish colonial demand for enslaved labor in silver mines, which created established trading networks",
-      "C) The end of the Royal African Company's monopoly in 1698, allowing colonial merchants to participate directly in the slave trade",
-      "D) Portuguese traders' decision to redirect their slave trade from Brazil to the more profitable North American markets"
+      "The Royal African Company's monopoly on slave trading, which ensured steady supply to English colonies",
+      "Spanish colonial demand for enslaved labor in silver mines, which created established trading networks",
+      "The end of the Royal African Company's monopoly in 1698, allowing colonial merchants to participate directly in the slave trade",
+      "Portuguese traders' decision to redirect their slave trade from Brazil to the more profitable North American markets"
     ],
     "answer": 2,
     "explanation": "The correct answer is C. The end of the Royal African Company's monopoly in 1698 allowed private colonial merchants to enter the slave trade, dramatically increasing the supply of enslaved people to North American colonies and reducing costs. Choice A is incorrect because the monopoly actually limited supply. Choice B is wrong because Spanish demand didn't directly facilitate trade to English colonies. Choice D is incorrect because Portuguese traders continued supplying Brazil; North American expansion came from English colonial merchants entering the trade."
@@ -10871,10 +10871,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The social structure of colonial America by 1700 most accurately reflected:",
     "choices": [
-      "A) A rigid caste system with no possibility for social mobility between established classes",
-      "B) An egalitarian society where economic opportunity was equally available to all inhabitants",
-      "C) A hierarchical society with regional variations where race, religion, and wealth determined social status",
-      "D) A merit-based system where education and individual achievement were the primary determinants of social position"
+      "A rigid caste system with no possibility for social mobility between established classes",
+      "An egalitarian society where economic opportunity was equally available to all inhabitants",
+      "A hierarchical society with regional variations where race, religion, and wealth determined social status",
+      "A merit-based system where education and individual achievement were the primary determinants of social position"
     ],
     "answer": 2,
     "explanation": "The correct answer is C. Colonial society was hierarchical but varied by region - New England emphasized religious standing and community service, the Chesapeake focused on land ownership and tobacco wealth, while race became increasingly important everywhere as slavery expanded. Choice A is incorrect because some mobility existed, especially for white men. Choice B is wrong because opportunities were limited by race, gender, and class. Choice D is incorrect because while education mattered in New England, birth circumstances and race were often more determinative of social position."
@@ -10891,10 +10891,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The mercantilist theory underlying English colonial policy assumed that:",
     "choices": [
-      "A) Free trade between all nations would maximize global prosperity and benefit England's economy",
-      "B) Colonies should develop manufacturing industries to compete with the mother country in global markets",
-      "C) Economic relationships were zero-sum, requiring colonies to provide raw materials and purchase finished goods from England",
-      "D) Colonial economic independence would strengthen the overall British Empire by creating diverse trading partners"
+      "Free trade between all nations would maximize global prosperity and benefit England's economy",
+      "Colonies should develop manufacturing industries to compete with the mother country in global markets",
+      "Economic relationships were zero-sum, requiring colonies to provide raw materials and purchase finished goods from England",
+      "Colonial economic independence would strengthen the overall British Empire by creating diverse trading partners"
     ],
     "answer": 2,
     "explanation": "The correct answer is C. Mercantilism viewed economics as zero-sum competition where colonies should supply raw materials to and buy manufactured goods from the mother country, creating a favorable balance of trade for England. Choice A is incorrect because mercantilists opposed free trade, preferring protective policies. Choice B is wrong because England wanted to prevent colonial manufacturing to maintain dependence. Choice D is incorrect because mercantilists wanted colonial dependence, not independence, to ensure England's economic dominance."
@@ -10911,10 +10911,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The policy of salutary neglect primarily benefited the American colonies by allowing them to develop which characteristic that would later contribute to revolutionary sentiment?",
     "choices": [
-      "A) Strong military alliances with Native American tribes",
-      "B) Economic self-sufficiency and independent trade relationships",
-      "C) Religious unity across all colonial regions",
-      "D) Political representation in the British Parliament"
+      "Strong military alliances with Native American tribes",
+      "Economic self-sufficiency and independent trade relationships",
+      "Religious unity across all colonial regions",
+      "Political representation in the British Parliament"
     ],
     "answer": 1,
     "explanation": "Salutary neglect allowed colonies to develop economic independence through smuggling and trade outside official British channels, creating expectations of autonomy that were threatened when Britain later tightened control. Choice A is wrong because military alliances were limited and varied. Choice C is incorrect as religious diversity, not unity, characterized the colonies. Choice D is wrong because colonists never gained parliamentary representation."
@@ -10931,10 +10931,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which consequence of the French and Indian War most directly led to the first major wave of colonial resistance in the 1760s?",
     "choices": [
-      "A) The removal of French influence from North America eliminated a common enemy",
-      "B) British war debt necessitated new revenue-raising measures in the colonies",
-      "C) Colonial militias gained confidence from their battlefield successes",
-      "D) Native American tribes formed new alliances against British expansion"
+      "The removal of French influence from North America eliminated a common enemy",
+      "British war debt necessitated new revenue-raising measures in the colonies",
+      "Colonial militias gained confidence from their battlefield successes",
+      "Native American tribes formed new alliances against British expansion"
     ],
     "answer": 1,
     "explanation": "Britain's massive war debt from the French and Indian War led directly to new taxes like the Sugar Act and Stamp Act, sparking colonial resistance. Choice A contributed to long-term tensions but wasn't the immediate cause of 1760s resistance. Choice C is incorrect as colonial military performance was mixed and not the primary factor. Choice D describes ongoing frontier tensions but not the main driver of organized colonial resistance to British policy."
@@ -10951,10 +10951,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The colonial strategy of non-importation agreements during the 1760s and 1770s was most effective because it:",
     "choices": [
-      "A) United all social classes behind a common economic sacrifice",
-      "B) Pressured British merchants to lobby Parliament for policy changes",
-      "C) Demonstrated colonial military readiness to British officials",
-      "D) Created alternative trade relationships with France and Spain"
+      "United all social classes behind a common economic sacrifice",
+      "Pressured British merchants to lobby Parliament for policy changes",
+      "Demonstrated colonial military readiness to British officials",
+      "Created alternative trade relationships with France and Spain"
     ],
     "answer": 1,
     "explanation": "Non-importation agreements worked by hurting British merchants economically, who then pressured Parliament to repeal unpopular acts like the Stamp Act and Townshend Acts. Choice A is incorrect as these agreements often divided social classes, with some benefiting more than others. Choice C is wrong because boycotts were economic, not military demonstrations. Choice D is incorrect as the agreements focused on reducing imports, not creating new trade partnerships."
@@ -10971,10 +10971,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Declaration of Independence's list of grievances against King George III served primarily to:",
     "choices": [
-      "A) Establish legal precedent for future constitutional amendments",
-      "B) Justify the colonies' decision to seek reconciliation with Parliament",
-      "C) Demonstrate that the colonists had exhausted all peaceful remedies",
-      "D) Propose specific terms for a negotiated settlement with Britain"
+      "Establish legal precedent for future constitutional amendments",
+      "Justify the colonies' decision to seek reconciliation with Parliament",
+      "Demonstrate that the colonists had exhausted all peaceful remedies",
+      "Propose specific terms for a negotiated settlement with Britain"
     ],
     "answer": 2,
     "explanation": "The grievances were included to show that the colonists had tried peaceful means to address their concerns before resorting to revolution, justifying their drastic action to domestic and international audiences. Choice A is incorrect as the Declaration wasn't creating legal precedent for a future constitution. Choice B is wrong because the Declaration announced separation, not reconciliation. Choice D is incorrect as the document declared independence rather than proposing negotiated terms."
@@ -10991,10 +10991,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Shays' Rebellion most clearly demonstrated which fundamental weakness of the Articles of Confederation government?",
     "choices": [
-      "A) Lack of a national court system to resolve interstate disputes",
-      "B) Inability to regulate trade between individual states",
-      "C) Absence of executive power to enforce laws and maintain order",
-      "D) Failure to establish a common currency for all states"
+      "Lack of a national court system to resolve interstate disputes",
+      "Inability to regulate trade between individual states",
+      "Absence of executive power to enforce laws and maintain order",
+      "Failure to establish a common currency for all states"
     ],
     "answer": 2,
     "explanation": "Shays' Rebellion exposed the federal government's inability to respond to domestic unrest because it lacked executive authority and couldn't raise troops without state consent. Choice A, while a weakness, wasn't directly relevant to handling the rebellion. Choice B was a problem but not the one highlighted by Shays' Rebellion specifically. Choice D was an economic issue but not the primary weakness exposed by armed rebellion against state authority."
@@ -11011,10 +11011,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Anti-Federalist concerns about the proposed Constitution were most directly addressed by the Federalists' promise to:",
     "choices": [
-      "A) Limit the president to a single four-year term",
-      "B) Ensure that senators would be directly elected by popular vote",
-      "C) Add a bill of rights protecting individual liberties",
-      "D) Restrict the federal government's power to tax individuals directly"
+      "Limit the president to a single four-year term",
+      "Ensure that senators would be directly elected by popular vote",
+      "Add a bill of rights protecting individual liberties",
+      "Restrict the federal government's power to tax individuals directly"
     ],
     "answer": 2,
     "explanation": "The Federalists' promise to add a bill of rights directly addressed Anti-Federalist fears about individual liberties being trampled by a strong central government, leading to ratification and the first ten amendments. Choice A is incorrect as presidential term limits weren't a major Anti-Federalist concern and weren't promised. Choice B is wrong because direct election of senators wasn't proposed until much later. Choice D is incorrect as the power to tax was actually something Federalists wanted to strengthen, not restrict."
@@ -11031,10 +11031,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Albany Plan of Union failed primarily because it represented an irreconcilable contradiction between",
     "choices": [
-      "A) colonial desires for westward expansion and British fears of provoking further conflict with Native Americans",
-      "B) the need for unified colonial defense and colonial assemblies' unwillingness to surrender taxation powers to a central authority",
-      "C) Benjamin Franklin's federalist vision and the predominant colonial preference for confederate government",
-      "D) British demands for colonial military contributions and colonial assemblies' constitutional objections to standing armies"
+      "colonial desires for westward expansion and British fears of provoking further conflict with Native Americans",
+      "the need for unified colonial defense and colonial assemblies' unwillingness to surrender taxation powers to a central authority",
+      "Benjamin Franklin's federalist vision and the predominant colonial preference for confederate government",
+      "British demands for colonial military contributions and colonial assemblies' constitutional objections to standing armies"
     ],
     "answer": 1,
     "explanation": "The Albany Plan failed because colonies needed unity against France but wouldn't give up their assemblies' power to tax to Franklin's proposed central government. Choice A focuses on expansion rather than governance structure. Choice C uses anachronistic terms. Choice D misrepresents the Plan's focus on colonial unity rather than British military demands."
@@ -11051,10 +11051,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Declaration of Independence's list of grievances against King George III, rather than Parliament, reflected the colonists' strategic attempt to",
     "choices": [
-      "A) demonstrate their continued loyalty to monarchical government while rejecting democratic institutions",
-      "B) maintain the legal fiction that they remained loyal British subjects wronged by royal tyranny rather than rebels against legitimate authority",
-      "C) appeal to European monarchs for military support by showing respect for the principle of divine right",
-      "D) establish precedent for a strong executive in their future government by emphasizing the importance of royal power"
+      "demonstrate their continued loyalty to monarchical government while rejecting democratic institutions",
+      "maintain the legal fiction that they remained loyal British subjects wronged by royal tyranny rather than rebels against legitimate authority",
+      "appeal to European monarchs for military support by showing respect for the principle of divine right",
+      "establish precedent for a strong executive in their future government by emphasizing the importance of royal power"
     ],
     "answer": 1,
     "explanation": "The colonists directed their grievances at King George III rather than Parliament to maintain the legal fiction that they remained loyal British subjects wronged by royal tyranny. Under English constitutional theory, Parliament was their legitimate lawmaking body — but colonists had developed the argument that Parliament had no authority over them without representation. By blaming the King instead, they framed independence as a defensive response to royal despotism rather than outright rebellion against legitimate authority, a strategically crucial distinction for both domestic morale and international credibility. Choice A is wrong because colonists were moving toward republican self-governance, not defending monarchy. Choice C overstates divine right appeals, which would have directly contradicted their natural rights arguments. Choice D misreads the Declaration as a forward-looking blueprint for executive power rather than a political justification for separation."
@@ -11071,10 +11071,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Hamilton's assumption of state debts was most controversial because it",
     "choices": [
-      "A) violated the Constitution's provisions regarding federal taxation",
-      "B) rewarded states that had been fiscally irresponsible during the Revolution",
-      "C) created an unconstitutional alliance between federal government and wealthy creditors",
-      "D) established a dangerous precedent for federal intervention in state affairs"
+      "violated the Constitution's provisions regarding federal taxation",
+      "rewarded states that had been fiscally irresponsible during the Revolution",
+      "created an unconstitutional alliance between federal government and wealthy creditors",
+      "established a dangerous precedent for federal intervention in state affairs"
     ],
     "answer": 1,
     "explanation": "Hamilton's assumption plan was controversial because states like Virginia had already paid off most of their Revolutionary War debts, while states like Massachusetts had not. Assumption rewarded the fiscally irresponsible states at the expense of responsible ones. Choice A is wrong because taxation powers were constitutional. Choice C reflects opposition rhetoric but wasn't the core issue. Choice D misses the specific fiscal inequity problem."
@@ -11091,10 +11091,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Jefferson's presidency represented a 'Revolution of 1800' primarily because it",
     "choices": [
-      "A) demonstrated that power could transfer peacefully between opposing political parties",
-      "B) reversed most of Hamilton's financial program and reduced federal power",
-      "C) permanently eliminated Federalist candidates from winning any future national elections",
-      "D) established the principle of judicial review through Marbury v. Madison"
+      "demonstrated that power could transfer peacefully between opposing political parties",
+      "reversed most of Hamilton's financial program and reduced federal power",
+      "permanently eliminated Federalist candidates from winning any future national elections",
+      "established the principle of judicial review through Marbury v. Madison"
     ],
     "answer": 0,
     "explanation": "The 'Revolution of 1800' was revolutionary because it proved democratic government could survive a peaceful transfer of power between opposing parties - a development considered unprecedented in modern republican governance at the time. Choice B is wrong because Jefferson largely preserved Hamilton's financial system, including the Bank of the United States. Choice C is incorrect because Federalists continued to contest national elections well into the 1810s and remained influential regionally. Choice D describes a significant constitutional milestone established during Jefferson's presidency, but judicial review was the result of a legal dispute - not the defining characteristic of what contemporaries and historians meant by the 'Revolution of 1800,' which specifically referred to the electoral transition of power itself."
@@ -11111,10 +11111,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Jefferson's constitutional concerns about the Louisiana Purchase were resolved primarily through",
     "choices": [
-      "A) a constitutional amendment explicitly granting territorial acquisition powers",
-      "B) Supreme Court ruling that territorial expansion was an implied executive power",
-      "C) his adoption of a loose construction interpretation of executive treaty-making power",
-      "D) congressional legislation retroactively authorizing the purchase"
+      "a constitutional amendment explicitly granting territorial acquisition powers",
+      "Supreme Court ruling that territorial expansion was an implied executive power",
+      "his adoption of a loose construction interpretation of executive treaty-making power",
+      "congressional legislation retroactively authorizing the purchase"
     ],
     "answer": 2,
     "explanation": "Jefferson, despite his strict constructionist beliefs, resolved his constitutional concerns by embracing loose construction of treaty-making powers to justify the purchase. Choice A is wrong because no amendment was passed. Choice B is incorrect because the Court didn't rule on this. Choice D misrepresents the process - Congress approved funding but didn't retroactively authorize."
@@ -11131,10 +11131,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Hartford Convention of 1814-1815 ultimately damaged the Federalist Party because it",
     "choices": [
-      "A) proposed secession from the Union during wartime",
-      "B) appeared treasonous when the war ended successfully for America",
-      "C) advocated for immediate peace negotiations with Britain",
-      "D) called for the impeachment of President Madison"
+      "proposed secession from the Union during wartime",
+      "appeared treasonous when the war ended successfully for America",
+      "advocated for immediate peace negotiations with Britain",
+      "called for the impeachment of President Madison"
     ],
     "answer": 1,
     "explanation": "The Hartford Convention's timing was disastrous - their grievances seemed treasonous when news of military victories and peace arrived, destroying Federalist credibility. Choice A is wrong because they didn't actually propose secession, just discussed it. Choice C misses why it was damaging. Choice D is incorrect about their specific proposals."
@@ -11151,10 +11151,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The market revolution's impact on American society was most fundamentally expressed through",
     "choices": [
-      "A) the replacement of subsistence farming with commercial agriculture",
-      "B) the decline of traditional craft production in favor of factory manufacturing",
-      "C) the transformation of labor from family-based to wage-based relationships",
-      "D) the development of transportation networks linking distant markets"
+      "the replacement of subsistence farming with commercial agriculture",
+      "the decline of traditional craft production in favor of factory manufacturing",
+      "the transformation of labor from family-based to wage-based relationships",
+      "the development of transportation networks linking distant markets"
     ],
     "answer": 2,
     "explanation": "The market revolution's most fundamental change was transforming labor relationships from family/community-based production to impersonal wage labor contracts. This affected all other changes. Choices A, B, and D were important components but the shift to wage labor was the underlying transformation that enabled and characterized the market economy."
@@ -11171,10 +11171,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Jackson's opposition to the Second Bank of the United States was primarily rooted in his belief that it",
     "choices": [
-      "A) violated constitutional principles of limited federal government",
-      "B) created an unfair advantage for wealthy Eastern commercial interests",
-      "C) interfered with state banks' ability to issue currency freely",
-      "D) concentrated dangerous power in the hands of unelected financiers"
+      "violated constitutional principles of limited federal government",
+      "created an unfair advantage for wealthy Eastern commercial interests",
+      "interfered with state banks' ability to issue currency freely",
+      "concentrated dangerous power in the hands of unelected financiers"
     ],
     "answer": 3,
     "explanation": "Jackson's bank war centered on his belief that the BUS concentrated too much undemocratic power in private hands, threatening republican government. While choice B captures class concerns, choice D better reflects his core democratic philosophy. Choice A misrepresents his view - he opposed concentrated private power, not federal power per se. Choice C wasn't his primary concern."
@@ -11191,10 +11191,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Second Great Awakening differed most significantly from the First Great Awakening in its",
     "choices": [
-      "A) emphasis on emotional religious experience over intellectual theology",
-      "B) democratization of salvation through individual choice rather than predestination",
-      "C) use of camp meetings and revival techniques to spread religious enthusiasm",
-      "D) appeal primarily to frontier and rural populations rather than established communities"
+      "emphasis on emotional religious experience over intellectual theology",
+      "democratization of salvation through individual choice rather than predestination",
+      "use of camp meetings and revival techniques to spread religious enthusiasm",
+      "appeal primarily to frontier and rural populations rather than established communities"
     ],
     "answer": 1,
     "explanation": "The Second Great Awakening's key theological shift was toward Arminian beliefs emphasizing individual choice in salvation, rejecting Calvinist predestination that dominated the First Awakening. Choice A existed in both awakenings. Choice C describes methods, not fundamental differences. Choice D is geographically inaccurate - the Second Awakening was also strong in established areas."
@@ -11211,10 +11211,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Antebellum reform movements shared the common characteristic of",
     "choices": [
-      "A) seeking to use federal government power to enforce moral standards",
-      "B) believing that social problems could be solved through environmental changes",
-      "C) focusing primarily on individual moral regeneration rather than systemic change",
-      "D) drawing their leadership from evangelical Protestant religious traditions"
+      "seeking to use federal government power to enforce moral standards",
+      "believing that social problems could be solved through environmental changes",
+      "focusing primarily on individual moral regeneration rather than systemic change",
+      "drawing their leadership from evangelical Protestant religious traditions"
     ],
     "answer": 1,
     "explanation": "Antebellum reformers shared an optimistic environmental determinism - the belief that changing conditions (education, prisons, asylums, alcohol availability) could perfect society and individuals. Choice A is wrong because most avoided federal power. Choice C reverses their emphasis on systemic change. Choice D overstates evangelical dominance across all reforms."
@@ -11231,10 +11231,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "William Lloyd Garrison's approach to abolitionism was revolutionary primarily because he",
     "choices": [
-      "A) advocated for immediate rather than gradual emancipation",
-      "B) organized the first effective political party to oppose slavery",
-      "C) encouraged armed resistance and slave rebellions",
-      "D) built the first biracial coalition of antislavery activists"
+      "advocated for immediate rather than gradual emancipation",
+      "organized the first effective political party to oppose slavery",
+      "encouraged armed resistance and slave rebellions",
+      "built the first biracial coalition of antislavery activists"
     ],
     "answer": 0,
     "explanation": "Garrison revolutionized abolitionism by demanding immediate emancipation, breaking from the gradualist colonization movement that dominated earlier antislavery efforts. Choice B is wrong - he actually rejected political action. Choice C misrepresents his pacifist philosophy. Choice D overstates his role in biracial organizing compared to his immediatist doctrine."
@@ -11251,10 +11251,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Seneca Falls Convention of 1848 was significant primarily because it",
     "choices": [
-      "A) achieved immediate legal reforms in married women's property rights",
-      "B) established the first national organization dedicated to women's suffrage",
-      "C) articulated a comprehensive critique of women's legal and social subordination",
-      "D) successfully linked women's rights to the broader abolitionist movement"
+      "achieved immediate legal reforms in married women's property rights",
+      "established the first national organization dedicated to women's suffrage",
+      "articulated a comprehensive critique of women's legal and social subordination",
+      "successfully linked women's rights to the broader abolitionist movement"
     ],
     "answer": 2,
     "explanation": "Seneca Falls was groundbreaking for systematically articulating women's grievances across legal, social, and political spheres in the Declaration of Sentiments. Choice A is wrong - it achieved no immediate legal changes. Choice B is incorrect - national organization came later. Choice D misses that the convention's significance was its comprehensive women's rights focus, not abolitionist links."
@@ -11271,10 +11271,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The most significant long-term consequence of Hamilton's financial program was that it",
     "choices": [
-      "A) established the federal government's supremacy over state governments in economic matters",
-      "B) created a permanent alliance between the federal government and commercial interests",
-      "C) provided the constitutional precedent for broad interpretation of federal powers",
-      "D) eliminated sectional tensions between Northern and Southern economic interests"
+      "established the federal government's supremacy over state governments in economic matters",
+      "created a permanent alliance between the federal government and commercial interests",
+      "provided the constitutional precedent for broad interpretation of federal powers",
+      "eliminated sectional tensions between Northern and Southern economic interests"
     ],
     "answer": 1,
     "explanation": "Hamilton's system permanently linked federal policy to commercial and financial interests through debt holders, banks, and manufacturing support. This alliance shaped American economic development. Choice A overstates federal supremacy. Choice C focuses on constitutional interpretation rather than structural economic relationships. Choice D is wrong - it actually increased sectional tensions."
@@ -11291,10 +11291,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Jefferson's embargo policy (1807-1809) failed primarily because it",
     "choices": [
-      "A) lacked constitutional authority to regulate international commerce",
-      "B) underestimated American economic dependence on foreign trade",
-      "C) provoked British naval attacks on American shipping",
-      "D) was undermined by widespread smuggling and non-compliance"
+      "lacked constitutional authority to regulate international commerce",
+      "underestimated American economic dependence on foreign trade",
+      "provoked British naval attacks on American shipping",
+      "was undermined by widespread smuggling and non-compliance"
     ],
     "answer": 1,
     "explanation": "The embargo failed because Jefferson overestimated American economic independence and underestimated how much the U.S. economy depended on foreign trade, causing severe domestic economic hardship. Choice A is wrong - commerce regulation was constitutional. Choice C reverses causation. Choice D describes a symptom, not the fundamental cause of failure."
@@ -11311,10 +11311,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The War of 1812's most important consequence for American development was that it",
     "choices": [
-      "A) definitively established American independence from European interference",
-      "B) stimulated domestic manufacturing by disrupting foreign trade",
-      "C) resolved territorial disputes with Britain in the Northwest Territory",
-      "D) strengthened federal authority through successful wartime mobilization"
+      "definitively established American independence from European interference",
+      "stimulated domestic manufacturing by disrupting foreign trade",
+      "resolved territorial disputes with Britain in the Northwest Territory",
+      "strengthened federal authority through successful wartime mobilization"
     ],
     "answer": 1,
     "explanation": "The war's trade disruptions forced American manufacturing development, launching industrialization. This economic transformation was the war's most significant long-term impact. Choice A overstates the result - European interference continued. Choice C is wrong - territorial issues were largely settled before 1812. Choice D misrepresents the often ineffective federal war effort."
@@ -11331,10 +11331,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The market revolution most significantly altered gender roles by",
     "choices": [
-      "A) providing new employment opportunities for women in factories",
-      "B) separating productive work from the domestic sphere",
-      "C) reducing women's economic contributions to family survival",
-      "D) establishing legal equality between men and women in commercial law"
+      "providing new employment opportunities for women in factories",
+      "separating productive work from the domestic sphere",
+      "reducing women's economic contributions to family survival",
+      "establishing legal equality between men and women in commercial law"
     ],
     "answer": 1,
     "explanation": "The market revolution's key gender impact was separating production from homes, creating distinct 'separate spheres' - public/male and domestic/female. This ideological separation was more fundamental than specific employment changes. Choice A was important but secondary. Choice C is wrong - it changed rather than reduced women's contributions. Choice D is factually incorrect."
@@ -11351,10 +11351,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The spoils system implemented under Jackson reflected his belief that",
     "choices": [
-      "A) government positions should be filled by the most qualified candidates",
-      "B) democratic government required rotation in office to prevent aristocracy",
-      "C) political parties deserved rewards for electoral success",
-      "D) federal employment should be distributed equally among all social classes"
+      "government positions should be filled by the most qualified candidates",
+      "democratic government required rotation in office to prevent aristocracy",
+      "political parties deserved rewards for electoral success",
+      "federal employment should be distributed equally among all social classes"
     ],
     "answer": 1,
     "explanation": "Jackson justified the spoils system through democratic theory - rotation prevented the creation of an entrenched bureaucratic aristocracy and made government more responsive to the people. Choice A contradicts the spoils system entirely. Choice C focuses on party rewards rather than democratic theory. Choice D misrepresents his class-neutral rhetoric."
@@ -11371,10 +11371,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The temperance movement gained broad support in the 1830s primarily because it",
     "choices": [
-      "A) addressed concerns about alcohol's impact on family stability and economic productivity",
-      "B) provided women with their first opportunity to participate in public political activity",
-      "C) was endorsed by major political parties seeking working-class votes",
-      "D) offered a solution to urban poverty and immigrant social problems"
+      "addressed concerns about alcohol's impact on family stability and economic productivity",
+      "provided women with their first opportunity to participate in public political activity",
+      "was endorsed by major political parties seeking working-class votes",
+      "offered a solution to urban poverty and immigrant social problems"
     ],
     "answer": 0,
     "explanation": "Temperance succeeded by linking alcohol to broader anxieties about family breakdown and economic inefficiency in the market economy. This broad appeal transcended gender and class lines. Choice B overstates women's political exclusion before temperance. Choice C is wrong - parties initially avoided the divisive issue. Choice D reflects nativist elements but wasn't the primary appeal."
@@ -11391,10 +11391,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Wilmot Proviso's repeated passage in the House but failure in the Senate during the Mexican-American War most clearly demonstrated which fundamental shift in American politics?",
     "choices": [
-      "A) The emergence of sectional voting patterns that would define antebellum politics",
-      "B) The growing opposition to Manifest Destiny among Northern Whigs who viewed westward expansion as a Southern slaveholders' conspiracy",
-      "C) The inability of Congress to resolve the moral contradictions exposed by simultaneous territorial expansion and the existence of slavery",
-      "D) The fracturing of the Democratic Party over whether newly acquired Mexican territories should be open to free or slave labor"
+      "The emergence of sectional voting patterns that would define antebellum politics",
+      "The growing opposition to Manifest Destiny among Northern Whigs who viewed westward expansion as a Southern slaveholders' conspiracy",
+      "The inability of Congress to resolve the moral contradictions exposed by simultaneous territorial expansion and the existence of slavery",
+      "The fracturing of the Democratic Party over whether newly acquired Mexican territories should be open to free or slave labor"
     ],
     "answer": 0,
     "explanation": "The Wilmot Proviso showed how sectional identity was beginning to override party loyalty, with Northern Democrats and Whigs voting together against Southern Democrats and Whigs. While Northern Whigs did critique Manifest Destiny, opposition to expansion was not the proviso's primary revelation. The proviso exposed sectional fault lines across both parties rather than solely fracturing the Democrats, and though it highlighted slavery's contradictions with expansion, the most significant political shift was the overriding of party loyalty by sectional allegiance."
@@ -11411,10 +11411,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Henry Clay's initial omnibus bill for the Compromise of 1850 failed, but Stephen Douglas succeeded by passing each provision separately. This legislative strategy most clearly revealed what about antebellum political coalitions?",
     "choices": [
-      "A) Most congressmen opposed the entire compromise but could accept individual provisions",
-      "B) Party discipline was stronger than sectional interests in determining votes",
-      "C) Different coalitions existed for each issue, making comprehensive sectional compromise impossible",
-      "D) Southern Democrats and Northern Whigs formed a permanent alliance on slavery issues"
+      "Most congressmen opposed the entire compromise but could accept individual provisions",
+      "Party discipline was stronger than sectional interests in determining votes",
+      "Different coalitions existed for each issue, making comprehensive sectional compromise impossible",
+      "Southern Democrats and Northern Whigs formed a permanent alliance on slavery issues"
     ],
     "answer": 2,
     "explanation": "Douglas's success showed that different members could support different parts of the compromise - some Northerners backed California's admission but opposed the Fugitive Slave Act, while some Southerners supported the Fugitive Slave Act but opposed California's admission. This revealed the complexity of sectional politics beyond simple North-South divisions."
@@ -11431,10 +11431,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Lincoln's 'Freeport Question' asking Douglas whether popular sovereignty could exclude slavery despite the Dred Scott decision was strategically designed to accomplish what political objective?",
     "choices": [
-      "A) Force Douglas to choose between Illinois voters and Southern Democrats, damaging his 1860 presidential prospects",
-      "B) Demonstrate Lincoln's superior knowledge of constitutional law to Illinois voters",
-      "C) Convince Douglas to abandon popular sovereignty and join the Republican Party",
-      "D) Expose Douglas as a secret abolitionist to his Democratic base"
+      "Force Douglas to choose between Illinois voters and Southern Democrats, damaging his 1860 presidential prospects",
+      "Demonstrate Lincoln's superior knowledge of constitutional law to Illinois voters",
+      "Convince Douglas to abandon popular sovereignty and join the Republican Party",
+      "Expose Douglas as a secret abolitionist to his Democratic base"
     ],
     "answer": 0,
     "explanation": "Lincoln's question was a political trap - if Douglas said territories could exclude slavery (the Freeport Doctrine), he'd alienate Southern Democrats needed for 1860; if he said they couldn't, he'd lose Illinois voters. This brilliant strategy helped fracture the Democratic Party while costing Lincoln the Senate seat."
@@ -11451,10 +11451,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The secession of the Deep South states immediately after Lincoln's election, but before his inauguration or the implementation of any Republican policies, most clearly demonstrated which of the following about the sectional crisis?",
     "choices": [
-      "A) Lincoln's election had immediately altered the constitutional balance of power between federal and state governments",
-      "B) Southern secessionists were responding to perceived future threats to slavery rather than any concrete policy actions",
-      "C) The Republican Party's platform had directly triggered an irreconcilable economic conflict between the regions",
-      "D) The constitutional framework for resolving sectional disputes had already collapsed before Lincoln took office"
+      "Lincoln's election had immediately altered the constitutional balance of power between federal and state governments",
+      "Southern secessionists were responding to perceived future threats to slavery rather than any concrete policy actions",
+      "The Republican Party's platform had directly triggered an irreconcilable economic conflict between the regions",
+      "The constitutional framework for resolving sectional disputes had already collapsed before Lincoln took office"
     ],
     "answer": 1,
     "explanation": "Because Deep South states seceded before Lincoln was inaugurated or enacted any policies, their actions most clearly demonstrate that secessionists were motivated by anticipated threats to slavery based on Republican ideology rather than actual policy changes. Lincoln had not yet taken any constitutional action, no economic policies had been implemented, and the constitutional framework for dispute resolution-though strained-had not formally collapsed prior to secession. The timing reveals that the driving force was political fear about slavery's future, not a response to concrete governing decisions."
@@ -11471,10 +11471,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Lincoln's decision to supply Fort Sumter rather than evacuate or reinforce it represented which strategic calculation about the secession crisis?",
     "choices": [
-      "A) Forcing the Confederacy to fire the first shot would place moral responsibility for the war on the South and unite Northern public opinion",
-      "B) Maintaining federal authority in Charleston harbor would prevent further secessions",
-      "C) Demonstrating peaceful intentions would encourage Unionist sentiment in the South",
-      "D) Avoiding military confrontation would allow time for a negotiated settlement"
+      "Forcing the Confederacy to fire the first shot would place moral responsibility for the war on the South and unite Northern public opinion",
+      "Maintaining federal authority in Charleston harbor would prevent further secessions",
+      "Demonstrating peaceful intentions would encourage Unionist sentiment in the South",
+      "Avoiding military confrontation would allow time for a negotiated settlement"
     ],
     "answer": 0,
     "explanation": "Lincoln's careful strategy of supplying (not reinforcing) the fort put the Confederacy in the position of either allowing federal authority or firing first. By notifying South Carolina of his peaceful resupply intentions, Lincoln ensured that if the Confederacy attacked, it would bear responsibility for starting the conflict, thereby uniting Northern opinion behind the war effort. The Upper South had already shown it would secede if war began, peaceful intentions weren't the primary goal, and Lincoln had concluded negotiation had failed."
@@ -11491,10 +11491,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Union's Anaconda Plan and the Confederacy's King Cotton diplomacy both failed in their primary objectives because they underestimated which factor?",
     "choices": [
-      "A) The industrial capacity of their respective opponents",
-      "B) The time required for economic pressure to force political submission",
-      "C) The willingness of European powers to intervene in the conflict",
-      "D) The role of slavery in sustaining the war effort"
+      "The industrial capacity of their respective opponents",
+      "The time required for economic pressure to force political submission",
+      "The willingness of European powers to intervene in the conflict",
+      "The role of slavery in sustaining the war effort"
     ],
     "answer": 1,
     "explanation": "Both strategies assumed economic pressure would work quickly - the Anaconda Plan expected rapid Southern collapse, while King Cotton diplomacy expected immediate European intervention. Both sides' determination to fight prolonged the war beyond these economic timelines. Industrial capacity and slavery were factors, but the time element was the key miscalculation for both strategies."
@@ -11511,10 +11511,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Lincoln's Emancipation Proclamation applied only to slaves in rebelling states, not Union border states, primarily because this limitation served which strategic purpose?",
     "choices": [
-      "A) It avoided constitutional challenges by using war powers rather than legislative authority",
-      "B) It prevented border state secession while maintaining the moral authority of emancipation",
-      "C) It encouraged Confederate states to rejoin the Union before January 1, 1863",
-      "D) It focused Union military efforts on areas where slave labor supported Confederate armies"
+      "It avoided constitutional challenges by using war powers rather than legislative authority",
+      "It prevented border state secession while maintaining the moral authority of emancipation",
+      "It encouraged Confederate states to rejoin the Union before January 1, 1863",
+      "It focused Union military efforts on areas where slave labor supported Confederate armies"
     ],
     "answer": 0,
     "explanation": "Lincoln's most pressing political concern was retaining the loyalty of the border states — Kentucky, Missouri, Maryland, and Delaware — which remained in the Union but had significant slaveholder populations. Losing even one to the Confederacy could have been strategically devastating. By limiting emancipation to rebelling states, Lincoln ensured border state slaveholders did not view the proclamation as a direct threat, preserving their loyalty. The war powers rationale — treating emancipation as seizure of enemy property under his authority as commander-in-chief — provided the constitutional mechanism that made this politically driven boundary legally defensible. In other words, the war powers argument explains the legal form of the limitation, but preventing border state secession was the driving political calculation behind it. Choice C was unrealistic by late 1862 as Confederate resolve had hardened. Choice D, while slave labor did support Confederate logistics, was not the primary driver of the geographic restriction."
@@ -11531,10 +11531,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Battle of Antietam's strategic significance lay not in its immediate military outcome, but in its prevention of which Confederate diplomatic and political objective?",
     "choices": [
-      "A) Gaining formal recognition and military alliance from Britain and France",
-      "B) Encouraging Northern Democrats to oppose Lincoln's re-election in 1864",
-      "C) Demonstrating Confederate ability to win decisive victories on Union soil",
-      "D) Convincing border states Maryland and Kentucky to join the Confederacy"
+      "Gaining formal recognition and military alliance from Britain and France",
+      "Encouraging Northern Democrats to oppose Lincoln's re-election in 1864",
+      "Demonstrating Confederate ability to win decisive victories on Union soil",
+      "Convincing border states Maryland and Kentucky to join the Confederacy"
     ],
     "answer": 0,
     "explanation": "Britain and France were waiting for a Confederate victory on Union soil before recognizing Confederate independence. Antietam prevented this by stopping Lee's invasion. The 1864 election was still two years away, the battle wasn't decisive for either side, and the border states' loyalty was already established by late 1862."
@@ -11551,10 +11551,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The New York City Draft Riots of 1863 revealed which fundamental tension in Union war aims and social structure?",
     "choices": [
-      "A) Conflict between immigrant communities and established American social hierarchies",
-      "B) The contradiction between fighting for emancipation while maintaining economic inequality",
-      "C) Opposition between Democratic Party leadership and Republican war policies",
-      "D) Tension between federal authority and local community control"
+      "Conflict between immigrant communities and established American social hierarchies",
+      "The contradiction between fighting for emancipation while maintaining economic inequality",
+      "Opposition between Democratic Party leadership and Republican war policies",
+      "Tension between federal authority and local community control"
     ],
     "answer": 1,
     "explanation": "The riots showed how poor whites, especially immigrants, resented fighting a war that might free slaves who would compete for jobs, while wealthy men could buy substitutes. This exposed the contradiction between emancipation goals and class-based military service. While immigrant tensions and party politics were involved, the core issue was the class-race intersection in war aims."
@@ -11571,10 +11571,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Fourteenth Amendment's Equal Protection Clause was designed primarily to prevent Southern states from enacting Black Codes, but its broader constitutional significance lay in which transformation of federal-state relations?",
     "choices": [
-      "A) Extending Bill of Rights protections to apply to state governments",
-      "B) Establishing federal supremacy over state authority in all civil rights matters",
-      "C) Creating constitutional basis for federal intervention in state violations of individual rights",
-      "D) Transferring primary responsibility for citizenship rights from states to federal government"
+      "Extending Bill of Rights protections to apply to state governments",
+      "Establishing federal supremacy over state authority in all civil rights matters",
+      "Creating constitutional basis for federal intervention in state violations of individual rights",
+      "Transferring primary responsibility for citizenship rights from states to federal government"
     ],
     "answer": 2,
     "explanation": "The 14th Amendment created constitutional grounds for federal intervention when states violated individual rights, fundamentally changing federalism. The Bill of Rights wasn't applied to states until later Supreme Court decisions, federal supremacy wasn't absolute in all civil rights matters, and states retained significant roles in citizenship rights - but the federal intervention power was the key constitutional innovation."
@@ -11591,10 +11591,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Fifteenth Amendment's prohibition on voting discrimination based on 'race, color, or previous condition of servitude' was strategically worded to avoid which potential constitutional and political problems?",
     "choices": [
-      "A) Challenges to property qualifications and literacy tests that could affect white voters",
-      "B) Demands for women's suffrage that would complicate ratification",
-      "C) State claims that education requirements were necessary for informed voting",
-      "D) Arguments that only former slaves, not all African Americans, deserved voting rights"
+      "Challenges to property qualifications and literacy tests that could affect white voters",
+      "Demands for women's suffrage that would complicate ratification",
+      "State claims that education requirements were necessary for informed voting",
+      "Arguments that only former slaves, not all African Americans, deserved voting rights"
     ],
     "answer": 0,
     "explanation": "The Fifteenth Amendment's enumeration of 'race, color, or previous condition of servitude' deliberately omitted 'sex,' and this omission was the most explicitly documented political controversy surrounding the amendment. Elizabeth Cady Stanton, Susan B. Anthony, and other suffragists who had allied with abolitionists throughout the war bitterly opposed the amendment's narrow language, viewing it as a betrayal after decades of shared activism — it fractured the suffrage movement for a generation. The specific wording also avoided language that would challenge property or literacy qualifications affecting white voters, which is the AP focus of choice A — Republican framers were careful not to accidentally invalidate existing restrictions on white voting while extending the franchise to Black men. Both concerns shaped the language, but the women's suffrage exclusion was the loudest and most historically documented controversy of the ratification debate."
@@ -11611,10 +11611,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The enforcement provisions of the Reconstruction Amendments, particularly the phrase 'Congress shall have power to enforce this article by appropriate legislation,' represented which constitutional innovation?",
     "choices": [
-      "A) The first explicit grant of congressional authority to protect individual civil rights",
-      "B) Federal government's authority to override state sovereignty in internal affairs",
-      "C) Constitutional requirement for congressional action to implement amendments",
-      "D) Supreme Court's reduced role in interpreting constitutional amendments"
+      "The first explicit grant of congressional authority to protect individual civil rights",
+      "Federal government's authority to override state sovereignty in internal affairs",
+      "Constitutional requirement for congressional action to implement amendments",
+      "Supreme Court's reduced role in interpreting constitutional amendments"
     ],
     "answer": 0,
     "explanation": "These enforcement clauses were the first explicit constitutional grants of congressional power to protect individual rights against state violation. While they affected federalism, they didn't create general federal override authority. They enabled but didn't require congressional action, and didn't reduce Supreme Court interpretive authority."
@@ -11631,10 +11631,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Congressional Reconstruction's requirement that Southern states ratify the Fourteenth Amendment before readmission created which constitutional precedent regarding the amendment process?",
     "choices": [
-      "A) States could be compelled to ratify amendments as a condition of statehood",
-      "B) Congress could exclude state legislatures from the amendment ratification process",
-      "C) Federal military authority could be used to ensure amendment ratification",
-      "D) Amendment ratification could be required for restoration of congressional representation"
+      "States could be compelled to ratify amendments as a condition of statehood",
+      "Congress could exclude state legislatures from the amendment ratification process",
+      "Federal military authority could be used to ensure amendment ratification",
+      "Amendment ratification could be required for restoration of congressional representation"
     ],
     "answer": 3,
     "explanation": "The precedent established was linking amendment ratification to congressional representation, not statehood (these states were considered still in the Union). Congress didn't exclude state legislatures from ratifying, and while military authority was used for broader Reconstruction, the specific constitutional precedent was the representation-ratification connection."
@@ -11651,10 +11651,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Southern resistance to Reconstruction through organizations like the Ku Klux Klan was most strategically focused on preventing which specific outcome that would permanently alter Southern political power?",
     "choices": [
-      "A) African American land ownership that would create economic independence",
-      "B) Interracial political coalitions that could control state governments",
-      "C) Federal military occupation that would enforce civil rights laws",
-      "D) Educational opportunities that would develop African American leadership"
+      "African American land ownership that would create economic independence",
+      "Interracial political coalitions that could control state governments",
+      "Federal military occupation that would enforce civil rights laws",
+      "Educational opportunities that would develop African American leadership"
     ],
     "answer": 1,
     "explanation": "While all these were concerns, the KKK's violence was most strategically directed at preventing Republican political coalitions of African Americans and white allies from maintaining control of Southern state governments. This political control was the key to all other changes. Economic, military, and educational issues were important but secondary to the immediate political threat."
@@ -11671,10 +11671,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Compromise of 1877's withdrawal of federal troops from the South was justified by Republicans as restoring normal constitutional relations, but it most directly enabled which transformation of the Reconstruction Amendments' effectiveness?",
     "choices": [
-      "A) State governments gained authority to interpret amendments independently of federal oversight",
-      "B) Constitutional protections remained intact but enforcement mechanisms were effectively eliminated",
-      "C) Supreme Court precedents replaced congressional legislation as the primary civil rights protection",
-      "D) Amendment provisions were officially suspended until Southern states demonstrated compliance"
+      "State governments gained authority to interpret amendments independently of federal oversight",
+      "Constitutional protections remained intact but enforcement mechanisms were effectively eliminated",
+      "Supreme Court precedents replaced congressional legislation as the primary civil rights protection",
+      "Amendment provisions were officially suspended until Southern states demonstrated compliance"
     ],
     "answer": 1,
     "explanation": "The Compromise left the amendments constitutionally intact but removed the federal enforcement capacity that made them effective, creating a gap between constitutional rights and practical protection. States didn't gain independent interpretive authority, Supreme Court precedents were actually weakening civil rights, and amendments weren't formally suspended - the enforcement gap was the key issue."
@@ -11691,10 +11691,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The completion of the transcontinental railroad in 1869 most directly contributed to which of the following economic developments in the American West?",
     "choices": [
-      "A) The establishment of large-scale cattle ranching operations",
-      "B) The rapid expansion of commercial agriculture and mining",
-      "C) The development of manufacturing centers in California",
-      "D) The growth of the fur trading industry"
+      "The establishment of large-scale cattle ranching operations",
+      "The rapid expansion of commercial agriculture and mining",
+      "The development of manufacturing centers in California",
+      "The growth of the fur trading industry"
     ],
     "answer": 1,
     "explanation": "The transcontinental railroad most directly enabled the rapid expansion of commercial agriculture and mining by providing efficient transportation to move crops and minerals to eastern markets. While cattle ranching did grow, it was less directly connected to the railroad's completion. Manufacturing in California developed later, and the fur trade had already declined by 1869."
@@ -11711,10 +11711,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Critics of industrialists like Andrew Carnegie and John D. Rockefeller during the Gilded Age primarily objected to their use of which business practices?",
     "choices": [
-      "A) Paying workers above-market wages to prevent unionization",
-      "B) Forming monopolies and trusts to eliminate competition",
-      "C) Investing heavily in worker safety and factory conditions",
-      "D) Refusing to expand operations beyond regional markets"
+      "Paying workers above-market wages to prevent unionization",
+      "Forming monopolies and trusts to eliminate competition",
+      "Investing heavily in worker safety and factory conditions",
+      "Refusing to expand operations beyond regional markets"
     ],
     "answer": 1,
     "explanation": "Critics called these men 'robber barons' primarily because they formed monopolies and trusts that eliminated competition and allowed them to control prices. They were not criticized for paying high wages or investing in safety - quite the opposite. They also aggressively expanded nationally, not regionally."
@@ -11731,10 +11731,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Andrew Carnegie's steel empire exemplified vertical integration because he controlled which aspects of steel production?",
     "choices": [
-      "A) Multiple competing steel companies across different regions",
-      "B) Raw materials, transportation, and manufacturing processes",
-      "C) Only the final assembly and marketing of steel products",
-      "D) Exclusively the retail distribution of finished steel goods"
+      "Multiple competing steel companies across different regions",
+      "Raw materials, transportation, and manufacturing processes",
+      "Only the final assembly and marketing of steel products",
+      "Exclusively the retail distribution of finished steel goods"
     ],
     "answer": 1,
     "explanation": "Carnegie practiced vertical integration by controlling every stage of steel production from raw materials (iron ore mines, coal mines) through transportation (railroads, ships) to manufacturing (steel mills). Option A describes horizontal integration, while C and D describe only controlling final stages, not vertical integration."
@@ -11751,10 +11751,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Homestead Strike of 1892 demonstrated which significant challenge facing labor unions during the Gilded Age?",
     "choices": [
-      "A) Lack of worker interest in joining organized labor movements",
-      "B) Government and business cooperation to suppress union activities",
-      "C) Union leaders' unwillingness to negotiate with management",
-      "D) Workers' preference for individual rather than collective bargaining"
+      "Lack of worker interest in joining organized labor movements",
+      "Government and business cooperation to suppress union activities",
+      "Union leaders' unwillingness to negotiate with management",
+      "Workers' preference for individual rather than collective bargaining"
     ],
     "answer": 1,
     "explanation": "The Homestead Strike showed how government (state militia) and business (Carnegie Steel/Frick) worked together to break strikes and suppress unions. There was significant worker interest in unions, union leaders did attempt negotiations, and workers clearly supported collective action as evidenced by the strike itself."
@@ -11771,10 +11771,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The 'New Immigration' of the late 19th century differed from earlier immigration patterns primarily in that it brought large numbers of people from which regions?",
     "choices": [
-      "A) Western and Northern Europe",
-      "B) Southern and Eastern Europe",
-      "C) East Asia and the Pacific Islands",
-      "D) Latin America and the Caribbean"
+      "Western and Northern Europe",
+      "Southern and Eastern Europe",
+      "East Asia and the Pacific Islands",
+      "Latin America and the Caribbean"
     ],
     "answer": 1,
     "explanation": "The 'New Immigration' (1880s-1920s) was characterized by large numbers of immigrants from Southern and Eastern Europe (Italians, Poles, Russians, etc.), contrasting with earlier 'Old Immigration' from Western and Northern Europe. While some Asian immigration occurred, it was much smaller in numbers and faced severe restrictions."
@@ -11791,10 +11791,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which factor most directly explains the rapid growth of American cities during the late 19th century?",
     "choices": [
-      "A) Government programs encouraging urban development",
-      "B) Industrial job opportunities attracting workers from rural areas",
-      "C) Improved city planning and infrastructure development",
-      "D) Declining agricultural productivity forcing farm abandonment"
+      "Government programs encouraging urban development",
+      "Industrial job opportunities attracting workers from rural areas",
+      "Improved city planning and infrastructure development",
+      "Declining agricultural productivity forcing farm abandonment"
     ],
     "answer": 1,
     "explanation": "Industrial job opportunities were the primary magnet drawing both rural Americans and immigrants to cities. While agricultural changes played a role, it wasn't declining productivity but rather mechanization that reduced farm labor needs. Government programs and infrastructure improvements were responses to, not causes of, urban growth."
@@ -11811,10 +11811,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Farmers and debtors during the 1890s generally supported the free coinage of silver because they believed it would lead to which economic outcome?",
     "choices": [
-      "A) Deflation that would increase the value of their land",
-      "B) Inflation that would make their debts easier to repay",
-      "C) Lower interest rates on new bank loans",
-      "D) Increased demand for agricultural exports"
+      "Deflation that would increase the value of their land",
+      "Inflation that would make their debts easier to repay",
+      "Lower interest rates on new bank loans",
+      "Increased demand for agricultural exports"
     ],
     "answer": 1,
     "explanation": "Free silver supporters believed increasing the money supply through silver coinage would cause inflation, making their fixed debts easier to repay with cheaper dollars. They opposed deflation (which hurt debtors), and while lower interest rates might result, the primary goal was inflating the currency to help with existing debt burdens."
@@ -11831,10 +11831,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which factor best explains why American industrial output increased dramatically in the late nineteenth century, as the United States shifted from a predominantly agricultural economy to the world's leading industrial nation by 1900?",
     "choices": [
-      "A) The convergence of technological innovation, abundant natural resources, and capital accumulation from wartime profits",
-      "B) The adoption of scientific management principles that maximized worker efficiency",
-      "C) The influx of skilled European immigrants who brought advanced manufacturing techniques",
-      "D) The development of a national banking system that provided stable currency and credit"
+      "The convergence of technological innovation, abundant natural resources, and capital accumulation from wartime profits",
+      "The adoption of scientific management principles that maximized worker efficiency",
+      "The influx of skilled European immigrants who brought advanced manufacturing techniques",
+      "The development of a national banking system that provided stable currency and credit"
     ],
     "answer": 0,
     "explanation": "Industrial growth resulted from the convergence of multiple factors: new technologies (steel, electricity), abundant resources (coal, iron ore), and massive capital from Civil War profiteering that funded expansion. Choice B is incorrect as scientific management came later in the early twentieth century. Choice C is wrong because most immigrants were unskilled laborers. Choice D, while important, was insufficient alone to explain such dramatic growth."
@@ -11851,10 +11851,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The term 'robber baron' applied to Gilded Age industrialists reflects which fundamental tension in American attitudes toward capitalism during this period?",
     "choices": [
-      "A) Admiration for individual success versus concern about concentrated economic power",
-      "B) Support for free market competition versus demand for government regulation",
-      "C) Appreciation for industrial progress versus nostalgia for agrarian values",
-      "D) Respect for self-made men versus criticism of inherited wealth"
+      "Admiration for individual success versus concern about concentrated economic power",
+      "Support for free market competition versus demand for government regulation",
+      "Appreciation for industrial progress versus nostalgia for agrarian values",
+      "Respect for self-made men versus criticism of inherited wealth"
     ],
     "answer": 0,
     "explanation": "Americans simultaneously celebrated individual achievement and wealth accumulation while fearing the monopolistic power these same individuals wielded over the economy. Choice B is incorrect because most Americans still opposed regulation. Choice C misses the core issue of economic power concentration. Choice D is wrong because most robber barons were self-made, not inheritors."
@@ -11871,10 +11871,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "John D. Rockefeller's horizontal integration strategy in the oil industry was most similar to which other Gilded Age business practice in its method of achieving market dominance?",
     "choices": [
-      "A) Andrew Carnegie's control of every stage of steel production from mining to distribution",
-      "B) Gustavus Swift's coordination of refrigerated railcars with meatpacking plants",
-      "C) J.P. Morgan's consolidation of competing railroad companies into unified systems",
-      "D) Philip Armour's expansion from meatpacking into grain trading and banking"
+      "Andrew Carnegie's control of every stage of steel production from mining to distribution",
+      "Gustavus Swift's coordination of refrigerated railcars with meatpacking plants",
+      "J.P. Morgan's consolidation of competing railroad companies into unified systems",
+      "Philip Armour's expansion from meatpacking into grain trading and banking"
     ],
     "answer": 2,
     "explanation": "Both Rockefeller's oil consolidation and Morgan's railroad consolidation involved buying out competitors in the same industry to eliminate competition. Choice A describes vertical integration (Carnegie). Choice B describes coordination, not consolidation. Choice D describes diversification into different industries, not horizontal integration within one industry."
@@ -11891,10 +11891,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Andrew Carnegie's vertical integration model in steel production represented a significant departure from earlier American manufacturing because it prioritized which business principle?",
     "choices": [
-      "A) Eliminating dependence on external suppliers and distributors to control costs and quality",
-      "B) Maximizing economies of scale through mass production techniques",
-      "C) Reducing labor costs by mechanizing production processes",
-      "D) Concentrating ownership to prevent stock market speculation"
+      "Eliminating dependence on external suppliers and distributors to control costs and quality",
+      "Maximizing economies of scale through mass production techniques",
+      "Reducing labor costs by mechanizing production processes",
+      "Concentrating ownership to prevent stock market speculation"
     ],
     "answer": 0,
     "explanation": "Vertical integration's key innovation was controlling every stage of production to eliminate reliance on outside companies, reducing costs and ensuring quality control. Choice B describes horizontal integration's scale benefits. Choice C focuses on labor rather than supply chain control. Choice D misunderstands the purpose, which was operational control, not preventing speculation."
@@ -11911,10 +11911,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The decline of the Knights of Labor after 1886 and the simultaneous rise of the American Federation of Labor illustrates which broader shift in American labor organization during the late nineteenth century?",
     "choices": [
-      "A) From revolutionary socialism toward pragmatic business unionism focused on immediate gains",
-      "B) From inclusive industrial unions toward exclusive craft unions organized by skill level",
-      "C) From local workplace organizing toward national political activism and lobbying",
-      "D) From violent confrontation tactics toward peaceful negotiation and arbitration"
+      "From revolutionary socialism toward pragmatic business unionism focused on immediate gains",
+      "From inclusive industrial unions toward exclusive craft unions organized by skill level",
+      "From local workplace organizing toward national political activism and lobbying",
+      "From violent confrontation tactics toward peaceful negotiation and arbitration"
     ],
     "answer": 1,
     "explanation": "The Knights of Labor included all workers regardless of skill, while the AFL organized skilled craftsmen into separate unions, reflecting a shift from inclusive to exclusive organizing strategies. Choice A is incorrect because the Knights weren't socialist. Choice C is backwards - the AFL was less political than the Knights. Choice D oversimplifies both organizations' tactical approaches."
@@ -11931,10 +11931,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The shift from 'old' immigration to 'new' immigration during the 1880s-1910s period created which complex dynamic in American urban politics?",
     "choices": [
-      "A) Earlier immigrant groups often opposed newer arrivals while simultaneously supporting expanded immigration quotas",
-      "B) Political machines simultaneously exploited ethnic divisions and created cross-ethnic coalitions for electoral success",
-      "C) Protestant reformers allied with Catholic immigrants against Jewish newcomers in municipal elections",
-      "D) Labor unions recruited new immigrants while established workers demanded immigration restrictions"
+      "Earlier immigrant groups often opposed newer arrivals while simultaneously supporting expanded immigration quotas",
+      "Political machines simultaneously exploited ethnic divisions and created cross-ethnic coalitions for electoral success",
+      "Protestant reformers allied with Catholic immigrants against Jewish newcomers in municipal elections",
+      "Labor unions recruited new immigrants while established workers demanded immigration restrictions"
     ],
     "answer": 1,
     "explanation": "Political machines like Tammany Hall both used ethnic rivalries to maintain control and built coalitions across ethnic lines to win elections, creating a complex dynamic of division and unity. Choice A is incorrect because earlier immigrants generally supported restrictions. Choice C oversimplifies religious alliances. Choice D misses the political machine's central role in urban immigrant politics."
@@ -11951,10 +11951,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The gold versus silver monetary debate of the 1890s represented competing visions of American economic development that most fundamentally disagreed about which principle?",
     "choices": [
-      "A) Whether the federal government should actively manage the money supply or allow market forces to determine currency value",
-      "B) Whether monetary policy should prioritize the interests of creditors and international trade or debtors and domestic producers",
-      "C) Whether inflation or deflation better served long-term economic growth and stability",
-      "D) Whether regional economic differences required different monetary systems or national uniformity was essential"
+      "Whether the federal government should actively manage the money supply or allow market forces to determine currency value",
+      "Whether monetary policy should prioritize the interests of creditors and international trade or debtors and domestic producers",
+      "Whether inflation or deflation better served long-term economic growth and stability",
+      "Whether regional economic differences required different monetary systems or national uniformity was essential"
     ],
     "answer": 1,
     "explanation": "The gold standard favored creditors (who were repaid in valuable currency) and international stability, while silver inflation favored debtors (easier repayment) and domestic producers (competitive exports). Choice A mischaracterizes the debate as government vs. market rather than whose interests to serve. Choice C focuses on outcomes rather than the underlying class/sectional interests. Choice D wasn't about regional systems but national policy serving different groups."
@@ -11971,10 +11971,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Supreme Court's initial opposition to New Deal legislation in cases like Schechter Poultry Corp v. United States (1935) and United States v. Butler (1936) primarily reflected which constitutional interpretation that would later be fundamentally altered by the 'constitutional revolution' of 1937?",
     "choices": [
-      "A) A narrow interpretation of the Commerce Clause that limited federal regulation to direct interstate commerce rather than activities affecting interstate commerce",
-      "B) Strict adherence to the separation of powers doctrine that prohibited Congress from delegating legislative authority to executive agencies",
-      "C) A restrictive view of the Tenth Amendment that reserved most economic regulation exclusively to state governments",
-      "D) Opposition to deficit spending based on constitutional requirements for balanced federal budgets"
+      "A narrow interpretation of the Commerce Clause that limited federal regulation to direct interstate commerce rather than activities affecting interstate commerce",
+      "Strict adherence to the separation of powers doctrine that prohibited Congress from delegating legislative authority to executive agencies",
+      "A restrictive view of the Tenth Amendment that reserved most economic regulation exclusively to state governments",
+      "Opposition to deficit spending based on constitutional requirements for balanced federal budgets"
     ],
     "answer": 0,
     "explanation": "The correct answer is A. The Court's pre-1937 decisions struck down New Deal programs primarily because they interpreted the Commerce Clause narrowly, distinguishing between direct effects on interstate commerce (which Congress could regulate) and indirect effects (which it could not). The 1937 'switch in time that saved nine' fundamentally changed this by adopting a broader interpretation that allowed regulation of activities affecting interstate commerce. B is incorrect because the delegation doctrine, while relevant, was not the primary constitutional barrier. C misrepresents the Tenth Amendment issues involved. D is wrong because there are no constitutional balanced budget requirements."
@@ -11991,10 +11991,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Marshall Plan differed from earlier American foreign aid programs primarily because it:",
     "choices": [
-      "A) Provided military assistance rather than economic aid",
-      "B) Required recipient nations to coordinate their economic recovery efforts",
-      "C) Was administered directly by the United Nations",
-      "D) Focused exclusively on rebuilding Germany's industrial capacity"
+      "Provided military assistance rather than economic aid",
+      "Required recipient nations to coordinate their economic recovery efforts",
+      "Was administered directly by the United Nations",
+      "Focused exclusively on rebuilding Germany's industrial capacity"
     ],
     "answer": 1,
     "explanation": "The Marshall Plan required European nations to work together and coordinate their reconstruction efforts, marking a shift toward multilateral cooperation. Choice A is incorrect because the Marshall Plan was economic aid, not military (that was NATO). Choice C is wrong because it was administered by the U.S., not the UN. Choice D is incorrect because it aided multiple Western European nations, not just Germany."
@@ -12011,10 +12011,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Supreme Court's decision in Brown v. Board of Education (1954) represented a significant departure from previous civil rights jurisprudence because it:",
     "choices": [
-      "A) Declared that separate facilities were inherently unequal",
-      "B) Applied the Equal Protection Clause to private businesses",
-      "C) Established federal oversight of local voting procedures",
-      "D) Required immediate integration of all public facilities"
+      "Declared that separate facilities were inherently unequal",
+      "Applied the Equal Protection Clause to private businesses",
+      "Established federal oversight of local voting procedures",
+      "Required immediate integration of all public facilities"
     ],
     "answer": 0,
     "explanation": "Brown overturned the 'separate but equal' doctrine by declaring that segregated facilities were inherently unequal, directly contradicting Plessy v. Ferguson (1896). Choice B is incorrect because Brown dealt with public schools, not private businesses. Choice C refers to later voting rights legislation. Choice D is wrong because Brown called for integration 'with all deliberate speed,' not immediately, and applied specifically to schools."
@@ -12031,10 +12031,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "President Kennedy's handling of the Cuban Missile Crisis demonstrated which Cold War strategy?",
     "choices": [
-      "A) Massive retaliation through nuclear superiority",
-      "B) Flexible response using graduated escalation",
-      "C) Détente through diplomatic negotiation",
-      "D) Rollback of Soviet influence in the Western Hemisphere"
+      "Massive retaliation through nuclear superiority",
+      "Flexible response using graduated escalation",
+      "Détente through diplomatic negotiation",
+      "Rollback of Soviet influence in the Western Hemisphere"
     ],
     "answer": 1,
     "explanation": "Kennedy used flexible response, employing a naval quarantine as a middle option between diplomacy and military invasion, showing graduated escalation. Choice A (massive retaliation) was Eisenhower's strategy that Kennedy rejected. Choice C (détente) was Nixon's later policy. Choice D is incorrect because Kennedy ultimately accepted Soviet presence in Cuba in exchange for missile removal."
@@ -12051,10 +12051,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which of the following best explains why the Yalta Conference (1945) became a source of controversy in Cold War origins, despite apparent Allied cooperation at the time?",
     "choices": [
-      "A) Stalin's refusal to enter the war against Japan violated explicit agreements",
-      "B) Disagreements over atomic bomb sharing led to immediate diplomatic breakdown",
-      "C) Ambiguous language about Eastern European 'democracy' allowed conflicting interpretations of Soviet actions",
-      "D) Roosevelt's rejection of spheres of influence contradicted Churchill's imperial goals"
+      "Stalin's refusal to enter the war against Japan violated explicit agreements",
+      "Disagreements over atomic bomb sharing led to immediate diplomatic breakdown",
+      "Ambiguous language about Eastern European 'democracy' allowed conflicting interpretations of Soviet actions",
+      "Roosevelt's rejection of spheres of influence contradicted Churchill's imperial goals"
     ],
     "answer": 2,
     "explanation": "The Yalta agreements used vague language about 'democratic' governments in Eastern Europe, which allowed Stalin to claim Soviet puppet states were legitimate while the West saw them as violations. A is wrong because Stalin did agree to enter the Pacific war. B is wrong because atomic sharing wasn't discussed at Yalta. D is wrong because Roosevelt actually accepted some sphere of influence concepts."
@@ -12071,10 +12071,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "George Kennan later criticized the application of his containment doctrine primarily because:",
     "choices": [
-      "A) It was applied militarily worldwide rather than selectively to vital strategic areas",
-      "B) It failed to account for Soviet nuclear capabilities",
-      "C) It emphasized economic aid over diplomatic solutions",
-      "D) It ignored the threat of communist expansion in Western Europe"
+      "It was applied militarily worldwide rather than selectively to vital strategic areas",
+      "It failed to account for Soviet nuclear capabilities",
+      "It emphasized economic aid over diplomatic solutions",
+      "It ignored the threat of communist expansion in Western Europe"
     ],
     "answer": 0,
     "explanation": "Kennan advocated for selective containment focused on key industrial areas like Western Europe and Japan, but policymakers applied it globally and militarily everywhere. B is wrong because Kennan did consider Soviet capabilities. C is wrong because he actually supported economic measures. D is wrong because Western Europe was exactly where he wanted to focus containment efforts."
@@ -12091,10 +12091,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Truman Doctrine's declaration that America would support 'free peoples...resisting attempted subjugation' represented a significant shift from previous foreign policy because it:",
     "choices": [
-      "A) Committed the US to military intervention against any communist government",
-      "B) Abandoned the United Nations framework in favor of unilateral action",
-      "C) Extended American security interests beyond the Western Hemisphere without a direct attack",
-      "D) Rejected the wartime alliance system in favor of ideological competition"
+      "Committed the US to military intervention against any communist government",
+      "Abandoned the United Nations framework in favor of unilateral action",
+      "Extended American security interests beyond the Western Hemisphere without a direct attack",
+      "Rejected the wartime alliance system in favor of ideological competition"
     ],
     "answer": 2,
     "explanation": "The Truman Doctrine expanded US commitments globally based on ideological grounds, moving beyond traditional hemispheric focus or responses to direct attacks. A is wrong because it didn't commit to military action everywhere. B is wrong because the US still worked through the UN when possible. D is wrong because it was a response to alliance breakdown, not a rejection of alliances themselves."
@@ -12111,10 +12111,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Marshall Plan's requirement that European nations coordinate their recovery efforts and reduce trade barriers served American interests by:",
     "choices": [
-      "A) Ensuring European dependence on American military protection",
-      "B) Creating integrated markets for American exports while strengthening Western Europe against Soviet influence",
-      "C) Preventing the formation of a European economic bloc that could compete with the United States",
-      "D) Guaranteeing American control over European industrial production"
+      "Ensuring European dependence on American military protection",
+      "Creating integrated markets for American exports while strengthening Western Europe against Soviet influence",
+      "Preventing the formation of a European economic bloc that could compete with the United States",
+      "Guaranteeing American control over European industrial production"
     ],
     "answer": 1,
     "explanation": "The Marshall Plan promoted European integration to create strong markets for US goods while building Western European strength against communism - serving both economic and strategic goals. A is wrong because this was economic, not military policy. C is wrong because the US actively encouraged European economic integration. D is wrong because Americans wanted European recovery, not control of their production."
@@ -12131,10 +12131,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which of the following best explains why Senator Joseph McCarthy's public influence collapsed so rapidly after 1954?",
     "choices": [
-      "A) President Eisenhower publicly denounced McCarthy in a nationally broadcast address, turning Republican leadership against him",
-      "B) The televised Army-McCarthy hearings exposed McCarthy's bullying and reckless accusations to a mass national audience, destroying his credibility",
-      "C) Congress passed legislation formally censuring McCarthyism as a threat to civil liberties, signaling official rejection of his methods",
-      "D) The signing of a Korean armistice eliminated public anxiety about communist threats, removing the basis for McCarthy's appeals"
+      "President Eisenhower publicly denounced McCarthy in a nationally broadcast address, turning Republican leadership against him",
+      "The televised Army-McCarthy hearings exposed McCarthy's bullying and reckless accusations to a mass national audience, destroying his credibility",
+      "Congress passed legislation formally censuring McCarthyism as a threat to civil liberties, signaling official rejection of his methods",
+      "The signing of a Korean armistice eliminated public anxiety about communist threats, removing the basis for McCarthy's appeals"
     ],
     "answer": 1,
     "explanation": "The Army-McCarthy hearings in 1954 were broadcast live on television, allowing millions of Americans to witness McCarthy's intimidating and reckless tactics firsthand. Attorney Joseph Welch's famous rebuke - 'Have you no sense of decency?' - crystallized public disillusionment. A is incorrect because Eisenhower deliberately avoided direct public confrontation with McCarthy. C is incorrect because no such legislation was passed; the Senate voted to censure McCarthy personally, not McCarthyism as a movement. D is incorrect because the Korean armistice was signed in 1953 and anti-communist fears persisted well beyond that point."
@@ -12151,10 +12151,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The resolution of the Cuban Missile Crisis through secret negotiations rather than the public missile trade announced at the time demonstrates:",
     "choices": [
-      "A) Kennedy's willingness to appear weak publicly to avoid nuclear war",
-      "B) The importance of allowing both superpowers to save face while making substantive concessions",
-      "C) Soviet diplomatic superiority in crisis management",
-      "D) The failure of traditional diplomacy in the nuclear age"
+      "Kennedy's willingness to appear weak publicly to avoid nuclear war",
+      "The importance of allowing both superpowers to save face while making substantive concessions",
+      "Soviet diplomatic superiority in crisis management",
+      "The failure of traditional diplomacy in the nuclear age"
     ],
     "answer": 1,
     "explanation": "Both sides made concessions (US missiles out of Turkey, Soviet missiles out of Cuba) but structured the deal so each could claim victory publicly, essential for future superpower relations. A is wrong because Kennedy appeared strong publicly. C is wrong because both sides managed the crisis effectively. D is wrong because traditional diplomacy actually worked to prevent war."
@@ -12171,10 +12171,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Brown v. Board decision's reliance on social science evidence about the psychological effects of segregation represented a significant shift in constitutional interpretation because it:",
     "choices": [
-      "A) Abandoned legal precedent in favor of sociological arguments",
-      "B) Applied the 14th Amendment's Equal Protection Clause to state-sponsored segregation for the first time",
-      "C) Used contemporary social research to reinterpret the meaning of constitutional equality",
-      "D) Rejected the doctrine of states' rights in educational policy"
+      "Abandoned legal precedent in favor of sociological arguments",
+      "Applied the 14th Amendment's Equal Protection Clause to state-sponsored segregation for the first time",
+      "Used contemporary social research to reinterpret the meaning of constitutional equality",
+      "Rejected the doctrine of states' rights in educational policy"
     ],
     "answer": 2,
     "explanation": "The Court used modern psychological research (like the doll tests) to argue that 'separate but equal' was inherently unequal, showing how constitutional principles could be reinterpreted with new evidence. A is wrong because the Court built on precedent while extending it. B is wrong because the 14th Amendment had been applied to segregation before (just upheld it). D is wrong because the decision was about equal protection, not states' rights per se."
@@ -12191,10 +12191,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Civil Rights Act of 1964's use of the Commerce Clause rather than the 14th Amendment as its primary constitutional basis reflected:",
     "choices": [
-      "A) Congressional desire to avoid challenges to state sovereignty",
-      "B) The Supreme Court's broader interpretation of federal commercial power versus uncertain Equal Protection enforcement",
-      "C) Political compromise with Southern Democrats who opposed constitutional amendments",
-      "D) The Act's focus on economic discrimination rather than social segregation"
+      "Congressional desire to avoid challenges to state sovereignty",
+      "The Supreme Court's broader interpretation of federal commercial power versus uncertain Equal Protection enforcement",
+      "Political compromise with Southern Democrats who opposed constitutional amendments",
+      "The Act's focus on economic discrimination rather than social segregation"
     ],
     "answer": 1,
     "explanation": "Congress used the Commerce Clause because Supreme Court precedent made federal regulation of interstate commerce more secure than relying on 14th Amendment enforcement, which had been inconsistently applied. A is wrong because both clauses involve federal power over states. C is wrong because this wasn't about amendments but constitutional interpretation. D is wrong because the Act addressed both economic and social discrimination."
@@ -12211,10 +12211,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Voting Rights Act's preclearance provision requiring federal approval for voting changes in specific states was constitutionally significant because it:",
     "choices": [
-      "A) Established federal oversight of state elections based on historical discrimination patterns",
-      "B) Applied uniform voting standards across all states for the first time",
-      "C) Transferred election administration from state to federal control",
-      "D) Required constitutional amendments to change voting procedures"
+      "Established federal oversight of state elections based on historical discrimination patterns",
+      "Applied uniform voting standards across all states for the first time",
+      "Transferred election administration from state to federal control",
+      "Required constitutional amendments to change voting procedures"
     ],
     "answer": 0,
     "explanation": "Preclearance targeted states with histories of discrimination, creating different federal oversight levels based on past practices - a novel approach to federalism. B is wrong because it only applied to certain states. C is wrong because states still administered elections, just with federal oversight. D is wrong because it regulated statutory changes, not constitutional amendments."
@@ -12231,10 +12231,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Gulf of Tonkin Resolution's broad language authorizing presidential action demonstrated the tension between:",
     "choices": [
-      "A) Congressional war powers and executive military authority in the Cold War era",
-      "B) American commitment to South Vietnam and fears of Chinese intervention",
-      "C) Public support for anti-communist intervention and opposition to military casualties",
-      "D) NATO obligations and unilateral American action in Southeast Asia"
+      "Congressional war powers and executive military authority in the Cold War era",
+      "American commitment to South Vietnam and fears of Chinese intervention",
+      "Public support for anti-communist intervention and opposition to military casualties",
+      "NATO obligations and unilateral American action in Southeast Asia"
     ],
     "answer": 0,
     "explanation": "The Resolution gave Johnson broad military authority without a formal war declaration, highlighting how Cold War crises strained the constitutional balance between congressional war powers and executive military action. B, C, and D address policy concerns but miss the core constitutional issue of war powers separation."
@@ -12251,10 +12251,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Supreme Court's unanimous decision in United States v. Nixon (1974) rejecting executive privilege claims was constitutionally significant because it:",
     "choices": [
-      "A) Established that no presidential action could be kept secret from Congress",
-      "B) Confirmed that executive privilege exists but cannot override judicial subpoenas in criminal cases",
-      "C) Ruled that impeachment proceedings automatically override presidential confidentiality",
-      "D) Declared that executive privilege was unconstitutional in all circumstances"
+      "Established that no presidential action could be kept secret from Congress",
+      "Confirmed that executive privilege exists but cannot override judicial subpoenas in criminal cases",
+      "Ruled that impeachment proceedings automatically override presidential confidentiality",
+      "Declared that executive privilege was unconstitutional in all circumstances"
     ],
     "answer": 1,
     "explanation": "The Court recognized executive privilege as a legitimate presidential power but ruled it couldn't be used to withhold evidence in criminal proceedings, balancing executive authority with judicial oversight. A and D are wrong because they're too absolute. C is wrong because this was about criminal proceedings, not impeachment directly."
@@ -12271,10 +12271,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which of the following was a central principle of Reagan's economic policy known as 'Reaganomics'?",
     "choices": [
-      "A) Supply-side tax cuts to stimulate economic growth",
-      "B) Increased government regulation of business",
-      "C) Expansion of federal welfare programs",
-      "D) Higher corporate tax rates to fund social programs"
+      "Supply-side tax cuts to stimulate economic growth",
+      "Increased government regulation of business",
+      "Expansion of federal welfare programs",
+      "Higher corporate tax rates to fund social programs"
     ],
     "answer": 0,
     "explanation": "Supply-side tax cuts were the cornerstone of Reaganomics, based on the theory that lower taxes would stimulate investment and economic growth. Options B, C, and D represent policies that Reagan actually opposed, as he favored deregulation and reduced government spending on social programs."
@@ -12291,12 +12291,12 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The fall of the Berlin Wall in 1989 symbolized which major historical development?",
     "choices": [
-      "A) The beginning of the Cold War",
-      "B) The end of the Cold War",
-      "C) The start of World War III",
-      "D) The formation of NATO"
+      "The beginning of the Cold War",
+      "The formation of NATO",
+      "The start of World War III",
+      "The end of the Cold War"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The fall of the Berlin Wall in 1989 was a key symbol of the end of the Cold War, representing the collapse of communist control in Eastern Europe. Option A is incorrect as the Cold War began in the 1940s, option C never occurred, and NATO was formed in 1949."
   },
   {
@@ -12311,12 +12311,12 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The September 11, 2001 terrorist attacks were carried out by members of which organization?",
     "choices": [
-      "A) ISIS",
-      "B) Al-Qaeda",
-      "C) Hamas",
-      "D) Hezbollah"
+      "ISIS",
+      "Hezbollah",
+      "Hamas",
+      "Al-Qaeda"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The 9/11 attacks were carried out by Al-Qaeda, led by Osama bin Laden. ISIS did not exist in 2001 (it emerged later), while Hamas and Hezbollah are different terrorist organizations that were not responsible for 9/11, though students often confuse various Middle Eastern terrorist groups."
   },
   {
@@ -12331,13 +12331,13 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which of the following best explains why Reagan's appeal to 'Reagan Democrats' was successful in the 1980 and 1984 elections?",
     "choices": [
-      "A) His promise to expand social welfare programs attracted working-class voters",
-      "B) His emphasis on traditional values and strong defense resonated with blue-collar workers who felt abandoned by the Democratic Party's cultural liberalism",
-      "C) His support for labor unions convinced industrial workers to switch parties permanently",
-      "D) His advocacy for higher taxes on the wealthy appealed to middle-income Democrats"
+      "His emphasis on traditional values and strong defense resonated with blue-collar workers who felt abandoned by the Democratic Party's cultural liberalism",
+      "His promise to expand social welfare programs attracted working-class voters",
+      "His support for labor unions convinced industrial workers to switch parties permanently",
+      "His advocacy for higher taxes on the wealthy appealed to middle-income Democrats"
     ],
-    "answer": 1,
-    "explanation": "Reagan Democrats were traditionally Democratic voters, often blue-collar and Catholic, who supported Reagan because his conservative social values and strong national defense stance appealed to them more than the Democratic Party's increasing cultural liberalism. Choice A is wrong because Reagan cut social programs. Choice C is incorrect as Reagan opposed labor unions. Choice D is false since Reagan cut taxes on the wealthy."
+    "answer": 0,
+    "explanation": "Reagan Democrats were traditionally Democratic voters, often blue-collar and Catholic, who supported Reagan because his conservative social values and strong national defense stance appealed to them more than the Democratic Party's increasing cultural liberalism. Choice B is wrong because Reagan cut social programs. Choice C is incorrect as Reagan opposed labor unions. Choice D is false since Reagan cut taxes on the wealthy."
   },
   {
     "id": "apush_u9_q239",
@@ -12351,13 +12351,13 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Economic Recovery Tax Act of 1981 reflected Reagan's supply-side economic theory by implementing policies that were intended to",
     "choices": [
-      "A) increase government spending on infrastructure to create jobs",
-      "B) reduce tax rates on high earners to stimulate investment and economic growth",
-      "C) expand social safety net programs to boost consumer spending",
-      "D) impose tariffs on foreign goods to protect American industries"
+      "reduce tax rates on high earners to stimulate investment and economic growth",
+      "increase government spending on infrastructure to create jobs",
+      "expand social safety net programs to boost consumer spending",
+      "impose tariffs on foreign goods to protect American industries"
     ],
-    "answer": 1,
-    "explanation": "Supply-side economics, or 'trickle-down' theory, argued that cutting taxes on wealthy individuals and businesses would stimulate investment, leading to job creation and economic growth that would benefit everyone. The 1981 tax cuts specifically reduced top marginal tax rates. Choice A describes Keynesian demand-side policy. Choice C contradicts Reagan's goal of reducing government programs. Choice D describes protectionism, not supply-side theory."
+    "answer": 0,
+    "explanation": "Supply-side economics, or 'trickle-down' theory, argued that cutting taxes on wealthy individuals and businesses would stimulate investment, leading to job creation and economic growth that would benefit everyone. The 1981 tax cuts specifically reduced top marginal tax rates. Choice B describes Keynesian demand-side policy. Choice C contradicts Reagan's goal of reducing government programs. Choice D describes protectionism, not supply-side theory."
   },
   {
     "id": "apush_u9_q240",
@@ -12371,13 +12371,13 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Reagan's strategy toward the Soviet Union evolved from his early presidency to his later years primarily because",
     "choices": [
-      "A) Soviet military superiority forced Reagan to adopt a more conciliatory approach",
-      "B) Gorbachev's reforms created opportunities for genuine diplomatic engagement that Reagan recognized and pursued",
-      "C) Congress pressured Reagan to reduce military spending and seek détente",
-      "D) European allies threatened to withdraw from NATO unless Reagan negotiated with Moscow"
+      "Gorbachev's reforms created opportunities for genuine diplomatic engagement that Reagan recognized and pursued",
+      "Soviet military superiority forced Reagan to adopt a more conciliatory approach",
+      "Congress pressured Reagan to reduce military spending and seek détente",
+      "European allies threatened to withdraw from NATO unless Reagan negotiated with Moscow"
     ],
-    "answer": 1,
-    "explanation": "Reagan initially took a hard line against the 'evil empire' but shifted when Gorbachev introduced glasnost and perestroika, recognizing these reforms as genuine changes that created opportunities for arms reduction and improved relations. Choice A is incorrect as the US had military advantages. Choice C is wrong since Congress generally supported Reagan's military buildup. Choice D misrepresents NATO dynamics during this period."
+    "answer": 0,
+    "explanation": "Reagan initially took a hard line against the 'evil empire' but shifted when Gorbachev introduced glasnost and perestroika, recognizing these reforms as genuine changes that created opportunities for arms reduction and improved relations. Choice B is incorrect as the US had military advantages. Choice C is wrong since Congress generally supported Reagan's military buildup. Choice D misrepresents NATO dynamics during this period."
   },
   {
     "id": "apush_u9_q241",
@@ -12391,10 +12391,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "President Bush's decision to end the Gulf War after liberating Kuwait but before removing Saddam Hussein from power reflected his concern that",
     "choices": [
-      "A) extending the war would exceed the UN mandate and potentially destabilize the coalition",
-      "B) American public opinion strongly opposed any military action beyond defending Saudi Arabia",
-      "C) Iran would intervene militarily if the war continued much longer",
-      "D) European allies threatened economic sanctions if the US invaded Iraq"
+      "extending the war would exceed the UN mandate and potentially destabilize the coalition",
+      "American public opinion strongly opposed any military action beyond defending Saudi Arabia",
+      "Iran would intervene militarily if the war continued much longer",
+      "European allies threatened economic sanctions if the US invaded Iraq"
     ],
     "answer": 0,
     "explanation": "Bush carefully built a UN-authorized coalition with the specific mandate to liberate Kuwait. Going beyond this to remove Hussein would have exceeded the legal authorization and risked fragmenting the international coalition, especially Arab allies. Choice B is wrong as public opinion supported the limited war aims. Choice C overstates Iran's capabilities and intentions. Choice D mischaracterizes European positions."
@@ -12411,10 +12411,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Clinton's strategy of 'triangulation' during his presidency involved",
     "choices": [
-      "A) adopting moderate positions that borrowed from both conservative and liberal ideas to appeal to centrist voters",
-      "B) forming military alliances with three major powers to maintain global stability",
-      "C) balancing the federal budget by equally dividing cuts between defense, domestic, and social programs",
-      "D) rotating his focus between three key issues: healthcare, education, and the environment"
+      "adopting moderate positions that borrowed from both conservative and liberal ideas to appeal to centrist voters",
+      "forming military alliances with three major powers to maintain global stability",
+      "balancing the federal budget by equally dividing cuts between defense, domestic, and social programs",
+      "rotating his focus between three key issues: healthcare, education, and the environment"
     ],
     "answer": 0,
     "explanation": "Triangulation was Clinton's political strategy of positioning himself between liberal Democrats and conservative Republicans by adopting centrist policies that incorporated elements from both sides, such as welfare reform and crime bills that appealed to conservatives while maintaining some liberal social programs. The other choices confuse triangulation with other policies or misunderstand the concept entirely."
@@ -12431,10 +12431,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Opposition to NAFTA from labor unions and some Democrats was based primarily on concerns that the agreement would",
     "choices": [
-      "A) increase illegal immigration by eliminating border controls between member nations",
-      "B) lead to job losses in American manufacturing as companies moved production to Mexico for lower wages",
-      "C) force the United States to adopt Mexico's environmental and safety standards",
-      "D) require American workers to compete directly with Canadian healthcare benefits"
+      "increase illegal immigration by eliminating border controls between member nations",
+      "lead to job losses in American manufacturing as companies moved production to Mexico for lower wages",
+      "force the United States to adopt Mexico's environmental and safety standards",
+      "require American workers to compete directly with Canadian healthcare benefits"
     ],
     "answer": 1,
     "explanation": "Labor unions opposed NAFTA because they feared American companies would relocate manufacturing to Mexico to take advantage of lower wages and weaker labor protections, resulting in job losses in US industrial sectors. Choice A confuses trade policy with immigration policy. Choice C reverses the concern about standards. Choice D misunderstands both NAFTA's scope and Canadian healthcare systems."
@@ -12451,10 +12451,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The creation of the Department of Homeland Security in 2002 represented a significant change in American government because it",
     "choices": [
-      "A) established the first federal agency dedicated to national defense since World War II",
-      "B) consolidated multiple existing agencies under a single cabinet-level department focused on domestic security",
-      "C) created a new intelligence service to compete with the CIA and FBI",
-      "D) transferred all military functions from the Pentagon to civilian control"
+      "established the first federal agency dedicated to national defense since World War II",
+      "consolidated multiple existing agencies under a single cabinet-level department focused on domestic security",
+      "created a new intelligence service to compete with the CIA and FBI",
+      "transferred all military functions from the Pentagon to civilian control"
     ],
     "answer": 1,
     "explanation": "The Department of Homeland Security consolidated 22 existing agencies (including FEMA, Coast Guard, Immigration, and others) into one cabinet-level department to improve coordination of domestic security efforts. Choice A ignores the existing Defense Department. Choice C misunderstands DHS's role relative to intelligence agencies. Choice D incorrectly describes military command structure."
@@ -12471,10 +12471,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The USA PATRIOT Act of 2001 generated controversy because critics argued that it",
     "choices": [
-      "A) failed to provide law enforcement with sufficient tools to combat terrorism",
-      "B) expanded government surveillance powers in ways that potentially violated Fourth Amendment protections",
-      "C) created too many bureaucratic obstacles for intelligence agencies to share information",
-      "D) focused exclusively on foreign terrorists while ignoring domestic threats"
+      "failed to provide law enforcement with sufficient tools to combat terrorism",
+      "expanded government surveillance powers in ways that potentially violated Fourth Amendment protections",
+      "created too many bureaucratic obstacles for intelligence agencies to share information",
+      "focused exclusively on foreign terrorists while ignoring domestic threats"
     ],
     "answer": 1,
     "explanation": "Critics argued the PATRIOT Act gave the government excessive surveillance powers, including expanded wiretapping authority and reduced judicial oversight, which they claimed violated Fourth Amendment protections against unreasonable searches. Choice A represents supporters' views, not critics'. Choice C contradicts the Act's goal of improving information sharing. Choice D mischaracterizes the Act's scope."
@@ -12491,10 +12491,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Bush administration's primary public justification for the 2003 invasion of Iraq was undermined when",
     "choices": [
-      "A) Saddam Hussein successfully negotiated a peace agreement with neighboring Iran",
-      "B) post-invasion investigations failed to discover the weapons of mass destruction that had been cited as the main threat",
-      "C) Iraqi oil reserves proved to be significantly smaller than intelligence estimates had suggested",
-      "D) The United Nations refused to authorize the use of military force against Iraq"
+      "Saddam Hussein successfully negotiated a peace agreement with neighboring Iran",
+      "post-invasion investigations failed to discover the weapons of mass destruction that had been cited as the main threat",
+      "Iraqi oil reserves proved to be significantly smaller than intelligence estimates had suggested",
+      "The United Nations refused to authorize the use of military force against Iraq"
     ],
     "answer": 1,
     "explanation": "The Bush administration's main public justification was that Iraq possessed WMDs that posed an imminent threat. When extensive post-invasion searches found no such weapons, it undermined the credibility of the war's rationale. Choice A didn't happen. Choice C wasn't a primary justification. Choice D occurred before the invasion and doesn't explain why the justification was undermined."
@@ -12511,10 +12511,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Obama's foreign policy approach differed from his predecessor's primarily in his emphasis on",
     "choices": [
-      "A) unilateral military action to address international crises",
-      "B) multilateral diplomacy and coalition-building while reducing reliance on military intervention",
-      "C) complete withdrawal from all overseas military commitments",
-      "D) focusing exclusively on economic relationships rather than security concerns"
+      "unilateral military action to address international crises",
+      "multilateral diplomacy and coalition-building while reducing reliance on military intervention",
+      "complete withdrawal from all overseas military commitments",
+      "focusing exclusively on economic relationships rather than security concerns"
     ],
     "answer": 1,
     "explanation": "Obama emphasized 'smart power' through diplomacy, international cooperation, and coalition-building, while being more cautious about military intervention than Bush. Examples include the Iran nuclear deal and Paris Climate Accord. Choice A describes Bush's approach more than Obama's. Choice C overstates Obama's position. Choice D ignores Obama's continued security focus."
@@ -12531,10 +12531,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Affordable Care Act's individual mandate requiring Americans to purchase health insurance was controversial because opponents argued it",
     "choices": [
-      "A) discriminated against elderly Americans by limiting their healthcare options",
-      "B) exceeded Congress's constitutional power by forcing individuals to purchase a private product",
-      "C) provided too generous subsidies to insurance companies at taxpayers' expense",
-      "D) created a government-run healthcare system that eliminated private insurance"
+      "discriminated against elderly Americans by limiting their healthcare options",
+      "exceeded Congress's constitutional power by forcing individuals to purchase a private product",
+      "provided too generous subsidies to insurance companies at taxpayers' expense",
+      "created a government-run healthcare system that eliminated private insurance"
     ],
     "answer": 1,
     "explanation": "The constitutional challenge centered on whether Congress could require individuals to purchase private insurance under the Commerce Clause. The Supreme Court ultimately upheld it as a valid exercise of taxing power in NFIB v. Sebelius. Choice A mischaracterizes the law's impact. Choice C wasn't the main constitutional argument. Choice D incorrectly describes the ACA, which maintained private insurance."
@@ -12551,10 +12551,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The 2008 financial crisis was precipitated primarily by",
     "choices": [
-      "A) a sudden increase in oil prices that triggered widespread inflation",
-      "B) the collapse of the subprime mortgage market and associated financial instruments",
-      "C) massive government spending that created unsustainable budget deficits",
-      "D) a trade war with China that disrupted global supply chains"
+      "a sudden increase in oil prices that triggered widespread inflation",
+      "the collapse of the subprime mortgage market and associated financial instruments",
+      "massive government spending that created unsustainable budget deficits",
+      "a trade war with China that disrupted global supply chains"
     ],
     "answer": 1,
     "explanation": "The crisis began with the collapse of the subprime mortgage market, where risky loans to borrowers with poor credit were packaged into complex financial instruments that spread the risk throughout the global financial system. When housing prices fell, these instruments became worthless, triggering bank failures. The other choices describe different economic problems not central to the 2008 crisis."
@@ -12571,10 +12571,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The rise of cable news networks and social media platforms in the 1990s and 2000s contributed to political polarization primarily by",
     "choices": [
-      "A) providing more objective and fact-based reporting than traditional media",
-      "B) allowing Americans to consume news that confirmed their existing beliefs rather than challenging them",
-      "C) reducing the amount of political information available to average citizens",
-      "D) eliminating regional differences in political opinion across the United States"
+      "providing more objective and fact-based reporting than traditional media",
+      "allowing Americans to consume news that confirmed their existing beliefs rather than challenging them",
+      "reducing the amount of political information available to average citizens",
+      "eliminating regional differences in political opinion across the United States"
     ],
     "answer": 1,
     "explanation": "Cable news and social media created 'echo chambers' where people could choose news sources that reinforced their existing views, reducing exposure to opposing perspectives and contributing to polarization. This contrasts with the earlier era of shared national news sources. Choice A is incorrect as these sources often became more partisan. Choice C is wrong as information increased. Choice D misunderstands the effect on regional differences."
@@ -12591,10 +12591,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Reagan's approach to federal regulation during the 1980s was characterized by his belief that",
     "choices": [
-      "A) environmental protection required stronger government oversight of business",
-      "B) deregulation would increase economic efficiency and promote business growth",
-      "C) federal agencies needed expanded powers to monitor international trade",
-      "D) government regulation was necessary to protect workers' rights in all industries"
+      "environmental protection required stronger government oversight of business",
+      "deregulation would increase economic efficiency and promote business growth",
+      "federal agencies needed expanded powers to monitor international trade",
+      "government regulation was necessary to protect workers' rights in all industries"
     ],
     "answer": 1,
     "explanation": "Reagan believed that reducing government regulation would unleash business efficiency and economic growth. He deregulated industries like airlines, telecommunications, and banking while reducing enforcement of environmental and workplace regulations. Choice A contradicts Reagan's environmental policies. Choice C misrepresents his trade approach. Choice D opposes his general anti-regulation philosophy."
@@ -12611,10 +12611,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The fall of the Berlin Wall in 1989 was significant because it symbolized",
     "choices": [
-      "A) the successful implementation of Reagan's Strategic Defense Initiative",
-      "B) the collapse of communist control in Eastern Europe and the weakening of Soviet power",
-      "C) the reunification of NATO and Warsaw Pact military forces",
-      "D) the beginning of democratic reforms within the Soviet Union itself"
+      "the successful implementation of Reagan's Strategic Defense Initiative",
+      "the collapse of communist control in Eastern Europe and the weakening of Soviet power",
+      "the reunification of NATO and Warsaw Pact military forces",
+      "the beginning of democratic reforms within the Soviet Union itself"
     ],
     "answer": 1,
     "explanation": "The Berlin Wall's fall symbolized the end of communist control in Eastern Europe as Soviet satellite states gained independence and moved toward democracy. It represented the broader collapse of the Soviet sphere of influence. Choice A incorrectly credits SDI. Choice C misunderstands military alliance structures. Choice D confuses Eastern European liberation with internal Soviet reforms."
@@ -12631,10 +12631,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Republican gains in the 1994 midterm elections, known as the 'Republican Revolution,' were primarily attributed to",
     "choices": [
-      "A) strong public support for Clinton's healthcare reform proposals",
-      "B) voter dissatisfaction with Clinton's policies and effective Republican messaging through the 'Contract with America'",
-      "C) a major economic recession that hurt incumbent Democrats",
-      "D) widespread approval of Clinton's handling of foreign policy crises"
+      "strong public support for Clinton's healthcare reform proposals",
+      "voter dissatisfaction with Clinton's policies and effective Republican messaging through the 'Contract with America'",
+      "a major economic recession that hurt incumbent Democrats",
+      "widespread approval of Clinton's handling of foreign policy crises"
     ],
     "answer": 1,
     "explanation": "The 1994 Republican victory resulted from voter dissatisfaction with Clinton's failed healthcare initiative, other early missteps, and effective Republican campaigning around Newt Gingrich's 'Contract with America' which promised conservative reforms. Choice A is backwards - healthcare failure hurt Democrats. Choice C is wrong as the economy was recovering. Choice D mischaracterizes Clinton's foreign policy standing at the time."
@@ -12651,10 +12651,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Bush Doctrine of preemptive war represented a departure from previous American foreign policy because it",
     "choices": [
-      "A) endorsed international cooperation through multilateral institutions like the UN",
-      "B) justified military action against potential threats before they became imminent dangers",
-      "C) focused primarily on economic sanctions rather than military intervention",
-      "D) emphasized defensive measures rather than offensive military capabilities"
+      "endorsed international cooperation through multilateral institutions like the UN",
+      "justified military action against potential threats before they became imminent dangers",
+      "focused primarily on economic sanctions rather than military intervention",
+      "emphasized defensive measures rather than offensive military capabilities"
     ],
     "answer": 1,
     "explanation": "The Bush Doctrine argued that the US could attack potential threats before they became imminent, departing from traditional just war theory and international law that required imminent threat for preemptive action. This was used to justify the Iraq invasion. Choice A describes multilateralism, which Bush often avoided. Choice C mischaracterizes the doctrine's military focus. Choice D describes defensive rather than preemptive strategy."
@@ -12671,10 +12671,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The American Recovery and Reinvestment Act of 2009 was designed to address the Great Recession through",
     "choices": [
-      "A) reducing taxes on wealthy individuals to encourage private investment",
-      "B) government spending on infrastructure, education, and direct aid to stimulate economic demand",
-      "C) eliminating federal regulations that were constraining business growth",
-      "D) providing loans exclusively to failed banks to restore financial stability"
+      "reducing taxes on wealthy individuals to encourage private investment",
+      "government spending on infrastructure, education, and direct aid to stimulate economic demand",
+      "eliminating federal regulations that were constraining business growth",
+      "providing loans exclusively to failed banks to restore financial stability"
     ],
     "answer": 1,
     "explanation": "The stimulus package followed Keynesian economic theory by using government spending to boost aggregate demand during the recession, funding infrastructure projects, education, and providing direct aid to individuals and states. Choice A describes supply-side (trickle-down) policy, which ARRA explicitly did not follow. Choice C describes deregulation, the opposite of a stimulus approach. Choice D mischaracterizes the legislation — aid went far beyond banks and included broad public investment."
@@ -12691,10 +12691,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The increasing use of primary elections to select congressional candidates since the 1970s has contributed to political polarization because",
     "choices": [
-      "A) primary voters tend to be more ideologically extreme than general election voters, favoring more partisan candidates",
-      "B) primary elections are dominated by special interest groups that promote moderate policies",
-      "C) the primary system encourages candidates to appeal to the broadest possible coalition of voters",
-      "D) primary elections eliminate the influence of political parties in candidate selection"
+      "primary voters tend to be more ideologically extreme than general election voters, favoring more partisan candidates",
+      "primary elections are dominated by special interest groups that promote moderate policies",
+      "the primary system encourages candidates to appeal to the broadest possible coalition of voters",
+      "primary elections eliminate the influence of political parties in candidate selection"
     ],
     "answer": 0,
     "explanation": "Primary elections typically attract more ideologically committed voters from each party's base, who tend to support more conservative Republicans and more liberal Democrats, leading to the nomination of more partisan candidates than would appeal to moderate general election voters. Choice B is incorrect about both special interests and moderation. Choice C describes general elections better than primaries. Choice D overstates the reduced party influence."
@@ -12711,10 +12711,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Which of the following best explains why Reagan's economic policies were controversial among economists during the 1980s?",
     "choices": [
-      "A) Supply-side tax cuts were predicted to reduce government revenue while increasing spending on defense",
-      "B) Deregulation policies were expected to increase inflation beyond acceptable levels",
-      "C) Monetary policy was transferred from the Federal Reserve to the Treasury Department",
-      "D) Government spending was redirected entirely toward social welfare programs"
+      "Supply-side tax cuts were predicted to reduce government revenue while increasing spending on defense",
+      "Deregulation policies were expected to increase inflation beyond acceptable levels",
+      "Monetary policy was transferred from the Federal Reserve to the Treasury Department",
+      "Government spending was redirected entirely toward social welfare programs"
     ],
     "answer": 0,
     "explanation": "Reagan's supply-side economics involved cutting taxes while simultaneously increasing defense spending, creating concerns about budget deficits. Choice B is wrong because deregulation was more about market efficiency than inflation. Choice C is factually incorrect as the Fed remained independent. Choice D is opposite to Reagan's actual policies of reducing social spending."
@@ -12731,10 +12731,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The fall of the Berlin Wall in 1989 was most directly the result of which combination of factors?",
     "choices": [
-      "A) NATO military intervention and UN peacekeeping forces",
-      "B) Gorbachev's reforms and growing popular pressure in Eastern Europe",
-      "C) Reagan's Strategic Defense Initiative and nuclear deterrence",
-      "D) Economic sanctions imposed by the European Community"
+      "NATO military intervention and UN peacekeeping forces",
+      "Gorbachev's reforms and growing popular pressure in Eastern Europe",
+      "Reagan's Strategic Defense Initiative and nuclear deterrence",
+      "Economic sanctions imposed by the European Community"
     ],
     "answer": 1,
     "explanation": "Gorbachev's glasnost and perestroika policies, combined with rising popular movements in Eastern Europe, directly led to the weakening of communist control and the fall of the Berlin Wall. Choice A is incorrect as no military intervention occurred. Choice C represents longer-term pressures but not direct causes. Choice D overstates the role of economic sanctions in this specific event."
@@ -12751,10 +12751,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The stagflation crisis of the 1970s contributed most directly to which of the following political and economic outcomes?",
     "choices": [
-      "A) It undermined confidence in Keynesian economic policy and fueled support for supply-side tax cuts and deregulation",
-      "B) It led to the expansion of Great Society social programs as the government sought to stimulate consumer spending",
-      "C) It strengthened labor union influence as workers demanded higher wages to keep pace with rising prices",
-      "D) It prompted Congress to increase the money supply and reduce interest rates to encourage economic growth"
+      "It undermined confidence in Keynesian economic policy and fueled support for supply-side tax cuts and deregulation",
+      "It led to the expansion of Great Society social programs as the government sought to stimulate consumer spending",
+      "It strengthened labor union influence as workers demanded higher wages to keep pace with rising prices",
+      "It prompted Congress to increase the money supply and reduce interest rates to encourage economic growth"
     ],
     "answer": 0,
     "explanation": "The stagflation of the 1970s - characterized by simultaneous high inflation and high unemployment - discredited traditional Keynesian demand-management policies, which had no effective remedy for this combination. This opened the door for supply-side economics, which argued that tax cuts and deregulation would stimulate production and tame inflation. Option B is incorrect because stagflation discredited, rather than expanded, government spending programs. Option C is incorrect because union influence declined during this period as inflation outpaced wage gains. Option D is incorrect because increasing the money supply would worsen inflation, and the Federal Reserve under Volcker actually raised interest rates sharply to combat stagflation."
@@ -12771,10 +12771,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Critics of supply-side economics during the Reagan era argued that the policy primarily benefited the wealthy because it assumed that:",
     "choices": [
-      "A) Tax cuts would automatically increase government revenue through higher growth",
-      "B) Wealthy individuals would invest tax savings in job-creating enterprises rather than speculative activities",
-      "C) Deregulation would increase competition and lower consumer prices across all sectors",
-      "D) Reduced government spending would force individuals to become more self-reliant and productive"
+      "Tax cuts would automatically increase government revenue through higher growth",
+      "Wealthy individuals would invest tax savings in job-creating enterprises rather than speculative activities",
+      "Deregulation would increase competition and lower consumer prices across all sectors",
+      "Reduced government spending would force individuals to become more self-reliant and productive"
     ],
     "answer": 1,
     "explanation": "The key criticism of supply-side economics was that it relied on the assumption that wealthy tax cut beneficiaries would invest in productive, job-creating activities rather than speculation or consumption. Option A describes the Laffer Curve theory but not the main distributional critique. Option C addresses deregulation effects, not the core supply-side tax policy. Option D describes a welfare policy assumption, not the investment behavior assumption central to supply-side theory."
@@ -12791,10 +12791,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The end of the Cold War resulted from the interaction of Reagan's military buildup with Gorbachev's reforms, but historians most commonly debate whether:",
     "choices": [
-      "A) Reagan's Strategic Defense Initiative actually accelerated or delayed Soviet collapse",
-      "B) Economic factors or political reforms were the primary cause of Soviet dissolution",
-      "C) Gorbachev intended glasnost and perestroika to preserve or transform the Soviet system",
-      "D) American pressure or internal Soviet contradictions were the decisive factor in ending the conflict"
+      "Reagan's Strategic Defense Initiative actually accelerated or delayed Soviet collapse",
+      "Economic factors or political reforms were the primary cause of Soviet dissolution",
+      "Gorbachev intended glasnost and perestroika to preserve or transform the Soviet system",
+      "American pressure or internal Soviet contradictions were the decisive factor in ending the conflict"
     ],
     "answer": 3,
     "explanation": "The central historical debate about the Cold War's end focuses on whether American policies (military pressure, economic competition) or inherent Soviet systemic problems were decisive. Option A is too narrow, focusing only on SDI. Option B addresses important factors but misses the key debate about external vs. internal causation. Option C focuses on Gorbachev's intentions, which is a subsidiary question to the broader causation debate."
@@ -12811,10 +12811,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Clinton's 'triangulation' strategy represented a fundamental shift in Democratic Party politics because it:",
     "choices": [
-      "A) Abandoned traditional liberal positions on social issues to appeal to conservative voters",
-      "B) Adopted market-oriented solutions while maintaining commitment to government's social role",
-      "C) Formed explicit coalitions with Republican moderates on key legislative initiatives",
-      "D) Prioritized foreign policy expertise over domestic economic concerns"
+      "Abandoned traditional liberal positions on social issues to appeal to conservative voters",
+      "Adopted market-oriented solutions while maintaining commitment to government's social role",
+      "Formed explicit coalitions with Republican moderates on key legislative initiatives",
+      "Prioritized foreign policy expertise over domestic economic concerns"
     ],
     "answer": 1,
     "explanation": "Triangulation involved adopting centrist, market-friendly approaches (welfare reform, financial deregulation) while maintaining the Democratic commitment to government having a positive social role. Option A is incorrect as Clinton maintained liberal social positions on most issues. Option C describes bipartisanship but not the ideological repositioning that defined triangulation. Option D mischaracterizes Clinton's domestic focus."
@@ -12831,10 +12831,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "Opposition to NAFTA among American labor unions was based primarily on the concern that:",
     "choices": [
-      "A) Mexican workers would migrate to the United States and depress wages",
-      "B) American manufacturers would relocate production to take advantage of lower labor costs",
-      "C) Free trade would eliminate tariff revenues needed for social programs",
-      "D) Environmental regulations would be weakened to maintain competitive parity"
+      "Mexican workers would migrate to the United States and depress wages",
+      "American manufacturers would relocate production to take advantage of lower labor costs",
+      "Free trade would eliminate tariff revenues needed for social programs",
+      "Environmental regulations would be weakened to maintain competitive parity"
     ],
     "answer": 1,
     "explanation": "Labor unions opposed NAFTA mainly because they feared American companies would move manufacturing jobs to Mexico to exploit lower wages and weaker labor protections. Option A addresses immigration concerns but misses the job relocation issue. Option C incorrectly suggests unions were concerned about tariff revenue for social programs. Option D reflects environmental concerns but not labor's primary objection."
@@ -12851,10 +12851,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The September 11 attacks fundamentally altered American foreign policy by legitimizing which previously controversial approach?",
     "choices": [
-      "A) Preemptive military action against potential threats rather than responding to actual attacks",
-      "B) Unilateral intervention without seeking approval from international organizations",
-      "C) Direct military engagement in the Middle East rather than relying on regional proxies",
-      "D) Prioritizing counterterrorism operations over traditional state-to-state diplomacy"
+      "Preemptive military action against potential threats rather than responding to actual attacks",
+      "Unilateral intervention without seeking approval from international organizations",
+      "Direct military engagement in the Middle East rather than relying on regional proxies",
+      "Prioritizing counterterrorism operations over traditional state-to-state diplomacy"
     ],
     "answer": 0,
     "explanation": "9/11 legitimized the doctrine of preemptive war - attacking potential threats before they materialized, most notably applied in Iraq. Option B describes unilateralism but this existed before 9/11. Option C incorrectly suggests the US hadn't intervened in the Middle East previously. Option D addresses a shift in priorities but not the fundamental doctrinal change that preemption represented."
@@ -12871,10 +12871,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The Bush administration's legal justification for expanded executive powers in the War on Terror relied most heavily on:",
     "choices": [
-      "A) The Authorization for Use of Military Force passed by Congress after 9/11",
-      "B) International law regarding self-defense against non-state actors",
-      "C) The theory of unitary executive power during wartime emergencies",
-      "D) Precedents established during previous national security crises"
+      "The Authorization for Use of Military Force passed by Congress after 9/11",
+      "International law regarding self-defense against non-state actors",
+      "The theory of unitary executive power during wartime emergencies",
+      "Precedents established during previous national security crises"
     ],
     "answer": 2,
     "explanation": "The Bush administration primarily relied on unitary executive theory - the idea that during wartime, the president has inherent constitutional authority that cannot be constrained by Congress or courts. While option A provided some legislative basis, the administration's broader claims went beyond congressional authorization. Options B and D provided supporting arguments but not the core constitutional theory driving expanded presidential powers."
@@ -12891,10 +12891,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The decision to disband the Iraqi army and exclude Baath Party members from government positions reflected the Bush administration's belief that:",
     "choices": [
-      "A) Democratic institutions could only emerge through complete elimination of authoritarian structures",
-      "B) Iraqi civil society was sufficiently developed to quickly fill governmental and security roles",
-      "C) American military forces could maintain order until new Iraqi institutions were established",
-      "D) International organizations would provide adequate transitional governance support"
+      "Democratic institutions could only emerge through complete elimination of authoritarian structures",
+      "Iraqi civil society was sufficiently developed to quickly fill governmental and security roles",
+      "American military forces could maintain order until new Iraqi institutions were established",
+      "International organizations would provide adequate transitional governance support"
     ],
     "answer": 0,
     "explanation": "De-Baathification and disbanding the army reflected the administration's ideological belief that democracy required complete elimination of previous authoritarian institutions, rather than gradual reform. Option B is incorrect as the administration underestimated but didn't necessarily believe in strong Iraqi civil society. Option C addresses military capability but not the ideological reasoning behind institutional destruction. Option D mischaracterizes the administration's view of international involvement."
@@ -12911,10 +12911,10 @@ var APUSH_MCQ = [
     "format": "text",
     "question": "The federal government's response to the 2008 financial crisis differed from previous economic downturns primarily in its:",
     "choices": [
-      "A) Speed and scale of direct intervention in private financial markets",
-      "B) Coordination between monetary and fiscal policy responses",
-      "C) Focus on mortgage relief rather than general economic stimulus",
-      "D) Rejection of traditional free-market approaches to economic recovery"
+      "Speed and scale of direct intervention in private financial markets",
+      "Coordination between monetary and fiscal policy responses",
+      "Focus on mortgage relief rather than general economic stimulus",
+      "Rejection of traditional free-market approaches to economic recovery"
     ],
     "answer": 0,
     "explanation": "The 2008 response was unprecedented in its immediate, massive direct intervention in financial markets through bank bailouts, asset purchases, and direct equity stakes. While option B occurred, policy coordination had precedent. Option C is incorrect as stimulus was broader than just mortgage relief. Option D overstates the rejection of market approaches, as intervention aimed to restore market function."

@@ -11,11 +11,11 @@ var APMICRO_MCQ = [
     "choices": [
       "The government's inability to provide public goods.",
       "A temporary shortage of a consumer good during a natural disaster.",
-      "The conflict between finite resources and unlimited human wants.",
+      "The high cost of production in developed nations.",
       "The inefficiency caused by a firm producing at a point inside its PPC.",
-      "The high cost of production in developed nations."
+      "The conflict between finite resources and unlimited human wants."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Scarcity is the fundamental economic problem: limited resources cannot satisfy unlimited human wants. The village has resources, but they are insufficient to fulfill every desire—this is the universal condition of scarcity."
   },
   {
@@ -30,11 +30,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Zero, because education is an investment in human capital.",
       "$15, the hourly wage of the job.",
-      "$45, the total wages given up to study.",
+      "The cost of the textbook used for studying.",
       "The grade the student receives on the exam.",
-      "The cost of the textbook used for studying."
+      "$45, the total wages given up to study."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Opportunity cost is the value of the next best alternative foregone. In this case, it is 3 hours * $15/hour = $45."
   },
   {
@@ -47,13 +47,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "A production possibilities curve (PPC) is bowed out from the origin. If the economy moves along the curve from producing more capital goods to more consumer goods, the opportunity cost of consumer goods will:",
     "choices": [
-      "Decrease, because capital goods are more expensive.",
       "Increase, because resources are not perfectly adaptable between the two goods.",
+      "Decrease, because capital goods are more expensive.",
       "Remain constant, because the economy is on the curve.",
       "Become zero, because the economy is efficient.",
       "Shift the PPC outward to the right."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A concave (bowed-out) PPC reflects the Law of Increasing Opportunity Costs, which occurs because resources are specialized and not equally suited for all types of production."
   },
   {
@@ -68,11 +68,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Country X has a comparative advantage in wine.",
       "Country Y has an absolute advantage in neither good.",
-      "Country X has a comparative advantage in cloth.",
+      "Neither country can benefit from trade.",
       "Country Y has a comparative advantage in cloth.",
-      "Neither country can benefit from trade."
+      "Country X has a comparative advantage in cloth."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "The cost of 1 cloth in Country X is 0.5 wine. The cost of 1 cloth in Country Y is 0.67 wine. Since Country X has a lower opportunity cost for cloth, it has the comparative advantage."
   },
   {
@@ -106,11 +106,11 @@ var APMICRO_MCQ = [
     "choices": [
       "The unemployment rate is currently 4%.",
       "Higher taxes on cigarettes will lead to a decrease in smoking.",
-      "The government should increase the minimum wage to help the poor.",
+      "A monopoly results in deadweight loss.",
       "If the price of a good rises, quantity demanded falls.",
-      "A monopoly results in deadweight loss."
+      "The government should increase the minimum wage to help the poor."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Normative statements express value judgments about what 'ought to be.' Positive statements describe what 'is'—they are testable facts or predictions. 'The government should increase the minimum wage to help the poor' is a value judgment, not a factual claim."
   },
   {
@@ -123,13 +123,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "A rational consumer will continue to consume additional units of a good until:",
     "choices": [
-      "Total utility is maximized.",
       "Marginal utility is equal to the price.",
+      "Total utility is maximized.",
       "Marginal utility is zero.",
       "The total cost of the good is minimized.",
       "Marginal benefit is less than marginal cost."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Rational decision-making occurs where MB = MC. For a consumer, MB is the Marginal Utility and MC is the Price."
   },
   {
@@ -144,11 +144,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Government planning agencies.",
       "The oldest members of the community.",
-      "Consumer sovereignty and the profit motive.",
+      "Strict adherence to historical tradition.",
       "Centralized committees.",
-      "Strict adherence to historical tradition."
+      "Consumer sovereignty and the profit motive."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "In market systems, prices and profits signal to producers what consumers want, a concept known as consumer sovereignty."
   },
   {
@@ -161,13 +161,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "Country B possesses enough land, labor, and capital to produce on its production possibilities curve, yet due to widespread unemployment and misallocation of resources it is currently producing inside the PPC. Which of the following must be true about Country B's current situation?",
     "choices": [
-      "The economy is achieving full employment.",
       "The economy is experiencing productive inefficiency or unemployment.",
+      "The economy is achieving full employment.",
       "The economy is at an unattainable level of production.",
       "The opportunity cost of moving to the curve is positive.",
       "Economic growth has shifted the curve inward."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A point inside the PPC signals that the economy is not using all of its resources efficiently—due to unemployment or misallocation. The economy could produce more of both goods by moving to the curve without needing new resources or technology."
   },
   {
@@ -182,11 +182,11 @@ var APMICRO_MCQ = [
     "choices": [
       "A decrease in its future PPC.",
       "Higher current standards of living.",
-      "Greater economic growth in the future.",
+      "An immediate shift to a point inside the PPC.",
       "A constant rate of opportunity cost.",
-      "An immediate shift to a point inside the PPC."
+      "Greater economic growth in the future."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Capital goods (tools, machinery) lead to more production capacity in the future, shifting the PPC outward further than if only consumer goods were produced."
   },
   {
@@ -201,11 +201,11 @@ var APMICRO_MCQ = [
     "choices": [
       "The PPC shifts outward to the right.",
       "The PPC shifts inward to the left.",
-      "A movement from a point inside the curve to a point on the curve.",
+      "The curve becomes a straight line, indicating constant costs.",
       "A movement along the curve from one axis to the other.",
-      "The curve becomes a straight line, indicating constant costs."
+      "A movement from a point inside the curve to a point on the curve."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Unemployment is represented by a point inside the PPC. Reaching full employment means the economy is now utilizing its resources efficiently on the boundary."
   },
   {
@@ -239,11 +239,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Money used to buy stocks and bonds.",
       "The natural resources used in production.",
-      "Human-made goods used to produce other goods and services.",
+      "The financial savings of households.",
       "The skills and knowledge of the workforce.",
-      "The financial savings of households."
+      "Human-made goods used to produce other goods and services."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Physical (real) capital refers to human-made tools, machinery, and facilities used to produce other goods and services. Money and financial assets are financial capital, which is not a factor of production in economics."
   },
   {
@@ -275,13 +275,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "Country A's opportunity cost for 1 unit of X is 3 units of Y. Country B's opportunity cost for 1 unit of X is 1 unit of Y. Which of the following terms of trade would benefit both countries?",
     "choices": [
-      "1 unit of X for 0.5 units of Y.",
       "1 unit of X for 2 units of Y.",
+      "1 unit of X for 0.5 units of Y.",
       "1 unit of X for 4 units of Y.",
       "1 unit of Y for 2 units of X.",
       "Trade is not possible."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "For trade to be mutually beneficial, the terms must fall between the two opportunity costs (between 1Y and 3Y)."
   },
   {
@@ -294,13 +294,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "A university economics department is listing research topics and must assign each to either the microeconomics or macroeconomics faculty. Which of the following research questions belongs to the microeconomics faculty?",
     "choices": [
-      "What causes the national unemployment rate to fall?",
       "How does a specific firm determine its profit-maximizing output?",
+      "What causes the national unemployment rate to fall?",
       "What is the impact of inflation on the overall economy?",
       "How does the federal government use fiscal policy?",
       "What determines the exchange rate between the dollar and the euro?"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Microeconomics focuses on individual decision-making units—firms, households, and specific markets. Questions about national unemployment, inflation, fiscal policy, and exchange rates are macroeconomic topics."
   },
   {
@@ -315,11 +315,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Produces at any point inside the PPC.",
       "Produces at the point most desired by society.",
-      "Produces on the PPC boundary.",
+      "Has zero opportunity cost for all decisions.",
       "Distributes goods equally among all citizens.",
-      "Has zero opportunity cost for all decisions."
+      "Produces on the PPC boundary."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Productive efficiency means goods are produced in the least costly way; this occurs at any point on the PPC."
   },
   {
@@ -353,11 +353,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Buy more pizza.",
       "Buy more soda.",
-      "Change nothing; utility is maximized.",
+      "Increase the price of pizza.",
       "Buy less of both.",
-      "Increase the price of pizza."
+      "Change nothing; utility is maximized."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "The utility-maximizing rule is MU1/P1 = MU2/P2. Here, 10/2 = 5 and 15/3 = 5. Since the ratios are equal, the consumer is maximizing utility."
   },
   {
@@ -372,11 +372,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Market economy.",
       "Command economy.",
-      "Traditional economy.",
+      "Capitalist economy.",
       "Mixed economy.",
-      "Capitalist economy."
+      "Traditional economy."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Traditional economies allocate resources through inherited customs, not markets or government directives. Choice B (command economy) is wrong because command economies rely on central planning, not historical tradition."
   },
   {
@@ -389,13 +389,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "Allocative efficiency occurs when:",
     "choices": [
-      "The economy is producing on its PPC.",
       "The combination of goods produced is the one most highly valued by society.",
+      "The economy is producing on its PPC.",
       "Resources are equally distributed.",
       "Firms are making the highest possible profit.",
       "Total cost is minimized regardless of output."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Allocative efficiency means we are producing the specific mix of goods that society wants (where P = MC or MB = MC)."
   },
   {
@@ -448,11 +448,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Is a temporary condition.",
       "Can be eliminated by lower prices.",
-      "Always exists, whereas shortages are temporary.",
+      "Is caused by government price ceilings.",
       "Only applies to poor countries.",
-      "Is caused by government price ceilings."
+      "Always exists, whereas shortages are temporary."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Scarcity is the permanent human condition of limited resources; shortages are market imbalances where Qd > Qs."
   },
   {
@@ -467,11 +467,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Social status.",
       "Altruism.",
-      "Profit.",
+      "Compliance with traditional values.",
       "Government subsidies.",
-      "Compliance with traditional values."
+      "Profit."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Profit is the primary driver and reward for risk-taking and innovation in a market-based system."
   },
   {
@@ -486,11 +486,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Households are the demanders of goods and services.",
       "Firms are the suppliers of labor and land.",
-      "Households provide resources to firms in exchange for income.",
       "Firms provide finished products to households.",
+      "Households provide resources to firms in exchange for income.",
       "The government determines the prices of all inputs."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "In the factor (resource) market, households are the sellers of resources (labor, land, capital) and firms are the buyers."
   },
   {
@@ -600,11 +600,11 @@ var APMICRO_MCQ = [
     "choices": [
       "A decrease in the labor force participation rate.",
       "An increase in the general price level.",
-      "Investment in human capital through education.",
       "A reallocation of resources from capital goods to consumer goods.",
+      "Investment in human capital through education.",
       "A movement from a point on the curve to a point inside the curve."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Investing in human capital increases worker productivity, which expands the economy's production capacity."
   },
   {
@@ -619,11 +619,11 @@ var APMICRO_MCQ = [
     "choices": [
       "The economy is experiencing productive inefficiency.",
       "Opportunity costs are increasing.",
-      "Resources are perfectly substitutable between the two goods.",
       "The economy cannot grow.",
+      "Resources are perfectly substitutable between the two goods.",
       "Both goods require exactly the same amount of labor."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "A straight-line PPC indicates constant opportunity costs. This occurs when resources are equally productive in both uses—perfectly substitutable between the two goods—so the trade-off ratio never changes as production shifts."
   },
   {
@@ -676,11 +676,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Individual business owners.",
       "The invisible hand of the market.",
-      "Government central planners.",
       "Consumer voting through purchases.",
+      "Government central planners.",
       "Global trade organizations."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Command economies rely on centralized government authority to make production and distribution decisions."
   },
   {
@@ -695,11 +695,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Total benefit derived from all units of the activity.",
       "Average benefit of the activity.",
-      "Additional benefit arising from a one-unit increase in the activity.",
       "Total cost minus the total benefit.",
+      "Additional benefit arising from a one-unit increase in the activity.",
       "Benefit given up when choosing the next best alternative."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Marginal always means the change from one additional unit, so marginal benefit is the extra benefit of consuming one more. Choice A is wrong because that describes total benefit, not the incremental benefit of the next unit."
   },
   {
@@ -714,11 +714,11 @@ var APMICRO_MCQ = [
     "choices": [
       "The PPC shifts outward.",
       "The PPC shifts inward.",
-      "The economy moves along the PPC toward the capital goods axis.",
       "The economy moves to a point inside the PPC.",
+      "The economy moves along the PPC toward the capital goods axis.",
       "The PPC becomes more convex."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Changing the mix of goods produced is a movement along the curve, reflecting the trade-off. The shift (growth) only happens later as a result of that investment."
   },
   {
@@ -733,11 +733,11 @@ var APMICRO_MCQ = [
     "choices": [
       "The inflation rate.",
       "The government budget deficit.",
-      "The pricing decisions of a single firm.",
       "The national output of a country.",
+      "The pricing decisions of a single firm.",
       "The total level of employment."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Individual firm behavior—such as pricing decisions—is the hallmark of microeconomics. Inflation, the government deficit, national output, and total employment are macroeconomic topics."
   },
   {
@@ -770,12 +770,12 @@ var APMICRO_MCQ = [
     "question": "According to the Law of Demand, if the price of a good increases, what will happen to the quantity demanded?",
     "choices": [
       "It will increase.",
-      "It will decrease.",
+      "The demand curve will shift to the right.",
       "It will stay the same.",
       "The demand curve will shift to the left.",
-      "The demand curve will shift to the right."
+      "It will decrease."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The Law of Demand states an inverse relationship between price and quantity demanded. A change in price causes a movement *along* the curve (quantity demanded), not a shift of the curve."
   },
   {
@@ -789,12 +789,12 @@ var APMICRO_MCQ = [
     "question": "If the price of peanut butter increases, what is the most likely effect on the market for jelly, assuming they are complements?",
     "choices": [
       "The demand for jelly will increase.",
-      "The demand for jelly will decrease.",
+      "The price of jelly will immediately rise.",
       "The quantity demanded of jelly will increase.",
       "The supply of jelly will decrease.",
-      "The price of jelly will immediately rise."
+      "The demand for jelly will decrease."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "For complementary goods, an increase in the price of one leads to a decrease in the demand for the other (shifting the demand curve left)."
   },
   {
@@ -884,12 +884,12 @@ var APMICRO_MCQ = [
     "question": "If consumer income increases and the demand for Good X decreases, Good X is classified as:",
     "choices": [
       "A normal good.",
-      "An inferior good.",
+      "A Giffen good.",
       "A substitute good.",
       "A complementary good.",
-      "A Giffen good."
+      "An inferior good."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "An inferior good is one for which demand decreases as income rises (e.g., generic brands or public transportation)."
   },
   {
@@ -903,13 +903,13 @@ var APMICRO_MCQ = [
     "question": "The Law of Supply states that, other things equal:",
     "choices": [
       "Producers will offer more for sale at lower prices.",
-      "Producers will offer more for sale at higher prices.",
+      "Price and quantity supplied are inversely related.",
       "Consumers will buy more at higher prices.",
       "Supply shifts right when taxes increase.",
-      "Price and quantity supplied are inversely related."
+      "Producers will offer more for sale at higher prices."
     ],
-    "answer": 1,
-    "explanation": "Higher prices make production more profitable, so producers are willing to supply more—a direct (positive) relationship. Choice E is wrong because it states an inverse relationship, which describes the Law of Demand, not Supply."
+    "answer": 4,
+    "explanation": "Higher prices make production more profitable, so producers are willing to supply more—a direct (positive) relationship. Choice B is wrong because it states an inverse relationship, which describes the Law of Demand, not Supply."
   },
   {
     "id": "micro-u2-h009",
@@ -922,12 +922,12 @@ var APMICRO_MCQ = [
     "question": "At a price of $10, quantity demanded is 50 units and quantity supplied is 30 units. To reach equilibrium, what must happen in a free market?",
     "choices": [
       "The price must fall to eliminate the surplus.",
-      "The price must rise to eliminate the shortage.",
+      "Supply must shift to the right.",
       "The government must subsidize production.",
       "Demand must shift to the left.",
-      "Supply must shift to the right."
+      "The price must rise to eliminate the shortage."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "When Qd > Qs, a shortage exists. In a free market, frustrated buyers will bid the price up until the quantity demanded falls and quantity supplied rises to meet at equilibrium."
   },
   {
@@ -960,12 +960,12 @@ var APMICRO_MCQ = [
     "question": "If a 10% increase in the price of a good leads to a 25% decrease in the quantity demanded, the price elasticity of demand is:",
     "choices": [
       "0.4 and inelastic.",
-      "2.5 and elastic.",
+      "1.0 and unit elastic.",
       "2.5 and inelastic.",
       "0.4 and elastic.",
-      "1.0 and unit elastic."
+      "2.5 and elastic."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Elasticity = % Change in Q / % Change in P. Here, 25% / 10% = 2.5. Since 2.5 > 1, the demand is elastic."
   },
   {
@@ -979,12 +979,12 @@ var APMICRO_MCQ = [
     "question": "A firm currently sells its product at a price of $20. If the demand for the product is inelastic and the firm raises the price to $25, what will happen to its total revenue?",
     "choices": [
       "Total revenue will decrease.",
-      "Total revenue will increase.",
+      "Total revenue will fall to zero.",
       "Total revenue will remain the same.",
       "The effect on total revenue is indeterminate.",
-      "Total revenue will fall to zero."
+      "Total revenue will increase."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "According to the Total Revenue Test, if demand is inelastic, price and total revenue move in the same direction. Therefore, a price increase leads to an increase in total revenue."
   },
   {
@@ -998,12 +998,12 @@ var APMICRO_MCQ = [
     "question": "If the income elasticity of demand for a good is -0.5, the good is a(n):",
     "choices": [
       "Normal good.",
-      "Inferior good.",
+      "Complementary good.",
       "Luxury good.",
       "Substitute good.",
-      "Complementary good."
+      "Inferior good."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A negative income elasticity coefficient means that as income rises, demand falls, which defines an inferior good."
   },
   {
@@ -1017,12 +1017,12 @@ var APMICRO_MCQ = [
     "question": "If the cross-price elasticity of demand between Good A and Good B is 1.2, which of the following is true?",
     "choices": [
       "A and B are complements.",
-      "A and B are substitutes.",
+      "The demand for Good A is price elastic.",
       "Good A is an inferior good.",
       "Good B is a luxury good.",
-      "The demand for Good A is price elastic."
+      "A and B are substitutes."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A positive cross-price elasticity indicates that the goods are substitutes (an increase in the price of one leads to an increase in the demand for the other)."
   },
   {
@@ -1055,12 +1055,12 @@ var APMICRO_MCQ = [
     "question": "If a 5% increase in the price of a good results in a 5% increase in the quantity supplied, the price elasticity of supply is:",
     "choices": [
       "Zero.",
-      "Unit elastic.",
+      "Indeterminate.",
       "Perfectly elastic.",
       "Perfectly inelastic.",
-      "Indeterminate."
+      "Unit elastic."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "When the % change in quantity equals the % change in price, the elasticity coefficient is 1, which is unit elastic."
   },
   {
@@ -1074,12 +1074,12 @@ var APMICRO_MCQ = [
     "question": "If a per-unit tax is imposed on a good with perfectly inelastic demand, who bears the entire burden of the tax?",
     "choices": [
       "The producers.",
-      "The consumers.",
+      "No one, because there is no deadweight loss.",
       "The government.",
       "Producers and consumers share the burden equally.",
-      "No one, because there is no deadweight loss."
+      "The consumers."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "When demand is perfectly inelastic, consumers are willing to buy the same quantity regardless of price, allowing producers to pass the entire tax on to them."
   },
   {
@@ -1112,12 +1112,12 @@ var APMICRO_MCQ = [
     "question": "The government sets a minimum price for wheat at $8 per bushel. The current equilibrium price of wheat is $6 per bushel. Which of the following will result from this binding price floor?",
     "choices": [
       "A shortage of the good.",
-      "A surplus of the good.",
+      "Market equilibrium.",
       "A decrease in the price of the good.",
       "An increase in the quantity demanded.",
-      "Market equilibrium."
+      "A surplus of the good."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A binding price floor is set above the equilibrium price. At $8, quantity supplied exceeds quantity demanded, creating a surplus of wheat that cannot clear at the artificially high floor price."
   },
   {
@@ -1131,12 +1131,12 @@ var APMICRO_MCQ = [
     "question": "On a downward-sloping linear demand curve, as you move from left to right (down the curve), the price elasticity of demand:",
     "choices": [
       "Increases.",
-      "Decreases.",
+      "Becomes perfectly elastic.",
       "Remains constant.",
       "Stays unit elastic.",
-      "Becomes perfectly elastic."
+      "Decreases."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A linear demand curve is elastic at high prices (top left) and inelastic at low prices (bottom right). Elasticity decreases as you move down the curve."
   },
   {
@@ -1150,12 +1150,12 @@ var APMICRO_MCQ = [
     "question": "Deadweight loss represents the:",
     "choices": [
       "Total tax revenue collected by the government.",
-      "Loss in total surplus due to a market distortion.",
+      "Cost of resources used in production.",
       "Profit lost by firms due to competition.",
       "Increase in consumer surplus from a price ceiling.",
-      "Cost of resources used in production."
+      "Loss in total surplus due to a market distortion."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Deadweight loss is the reduction in social welfare (consumer + producer surplus) that results from a market not operating at equilibrium."
   },
   {
@@ -1207,12 +1207,12 @@ var APMICRO_MCQ = [
     "question": "When a small country opens to world trade and the world price is higher than the domestic price, the country will:",
     "choices": [
       "Import the good and consumer surplus will rise.",
-      "Export the good and producer surplus will rise.",
+      "Experience a shortage in the domestic market.",
       "Import the good and producer surplus will rise.",
       "Export the good and total surplus will fall.",
-      "Experience a shortage in the domestic market."
+      "Export the good and producer surplus will rise."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "If the world price is higher, the country has a comparative advantage and will export. Producers gain more surplus than consumers lose, so total surplus rises."
   },
   {
@@ -1226,12 +1226,12 @@ var APMICRO_MCQ = [
     "question": "A tariff is a tax on imports that primarily serves to:",
     "choices": [
       "Increase the quantity of imports.",
-      "Protect domestic producers from foreign competition.",
+      "Eliminate deadweight loss.",
       "Lower the price for domestic consumers.",
       "Increase total world trade.",
-      "Eliminate deadweight loss."
+      "Protect domestic producers from foreign competition."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Tariffs raise the price of imported goods, making domestic goods more competitive and benefiting domestic producers (though harming domestic consumers)."
   },
   {
@@ -1245,12 +1245,12 @@ var APMICRO_MCQ = [
     "question": "The government wants to maximize tax revenue while minimizing deadweight loss. It should impose an excise tax on a good where:",
     "choices": [
       "Demand and supply are both highly elastic.",
-      "Demand and supply are both highly inelastic.",
-      "Demand is elastic and supply is inelastic.",
       "The good is a luxury with many substitutes.",
+      "Demand is elastic and supply is inelastic.",
+      "Demand and supply are both highly inelastic.",
       "The good has a high income elasticity of demand."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "When demand and supply are inelastic, quantity traded changes very little in response to a tax. This leads to higher tax revenue and smaller deadweight loss compared to elastic markets."
   },
   {
@@ -1264,12 +1264,12 @@ var APMICRO_MCQ = [
     "question": "A consumer is willing to pay $100 for a jacket but buys it on sale for $60. If the market price then rises to $70, what is the change in this individual's consumer surplus?",
     "choices": [
       "It increases by $10.",
-      "It decreases by $10.",
-      "It increases by $30.",
       "It decreases by $40.",
+      "It increases by $30.",
+      "It decreases by $10.",
       "It remains $40."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Initial CS = $100 - $60 = $40. New CS = $100 - $70 = $30. The surplus decreased by $10 due to the higher price."
   },
   {
@@ -1283,12 +1283,12 @@ var APMICRO_MCQ = [
     "question": "Which of the following will occur when a binding price floor is removed from a market?",
     "choices": [
       "Price will increase and a shortage will develop.",
-      "Price will decrease and quantity demanded will increase.",
-      "Producer surplus will definitely increase.",
       "Deadweight loss will increase.",
+      "Producer surplus will definitely increase.",
+      "Price will decrease and quantity demanded will increase.",
       "The supply curve will shift to the right."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A binding price floor keeps the price artificially high (surplus). Removing it allows the price to fall to equilibrium, which increases the quantity demanded."
   },
   {
@@ -1302,12 +1302,12 @@ var APMICRO_MCQ = [
     "question": "The price of a key raw material used in the production of Good Z falls significantly. Which of the following will result in the market for Good Z?",
     "choices": [
       "A decrease in the supply of Good Z.",
-      "An increase in the supply of Good Z.",
-      "A decrease in the demand for Good Z.",
       "A movement down along the supply curve for Good Z.",
+      "A decrease in the demand for Good Z.",
+      "An increase in the supply of Good Z.",
       "An increase in the price of Good Z."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Lower input costs make production more profitable, enabling firms to supply more at every price level. This shifts the supply curve to the right, increasing market supply of Good Z."
   },
   {
@@ -1321,12 +1321,12 @@ var APMICRO_MCQ = [
     "question": "If a decrease in consumer income leads to an increase in the demand for Ramen noodles, then Ramen noodles are:",
     "choices": [
       "A normal good.",
-      "An inferior good.",
-      "A substitute good.",
       "A complementary good.",
+      "A substitute good.",
+      "An inferior good.",
       "A Giffen good."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Inferior goods are defined by an inverse relationship between income and demand: when income falls, consumers buy more of them as a cheaper substitute. Choice A is wrong because normal goods move in the same direction as income—higher income raises demand, lower income reduces it."
   },
   {
@@ -1340,12 +1340,12 @@ var APMICRO_MCQ = [
     "question": "If the government provides a per-unit subsidy to the producers of a good, which of the following is true?",
     "choices": [
       "The supply curve shifts to the left.",
-      "The price paid by consumers will decrease.",
-      "The price received by producers (including the subsidy) will decrease.",
       "Consumer surplus will decrease.",
+      "The price received by producers (including the subsidy) will decrease.",
+      "The price paid by consumers will decrease.",
       "Deadweight loss is eliminated."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A subsidy shifts supply right. This lowers the equilibrium market price, increasing the quantity traded and consumer surplus (though it creates deadweight loss from overproduction)."
   },
   {
@@ -1359,12 +1359,12 @@ var APMICRO_MCQ = [
     "question": "The supply of antique furniture is likely to be:",
     "choices": [
       "Perfectly elastic.",
-      "Relatively inelastic.",
-      "Relatively elastic.",
       "Unit elastic.",
+      "Relatively elastic.",
+      "Relatively inelastic.",
       "Perfectly inelastic."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Antique furniture is limited in quantity and takes time/effort to find, making it difficult for producers to increase quantity supplied quickly in response to price changes."
   },
   {
@@ -1416,12 +1416,12 @@ var APMICRO_MCQ = [
     "question": "If a country allows trade and the world price of a good is lower than the domestic price, the country will:",
     "choices": [
       "Export the good and domestic producers will benefit.",
-      "Import the good and domestic consumers will benefit.",
-      "Export the good and total surplus will fall.",
       "Import the good and total surplus will fall.",
+      "Export the good and total surplus will fall.",
+      "Import the good and domestic consumers will benefit.",
       "Place a price floor on the good to prevent imports."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "When the world price is lower, the country will import the good. Consumers benefit from lower prices, and while domestic producers lose, the gain to consumers outweighs that loss."
   },
   {
@@ -1435,12 +1435,12 @@ var APMICRO_MCQ = [
     "question": "Rent control is an example of a:",
     "choices": [
       "Price floor.",
-      "Price ceiling.",
-      "Subsidy.",
       "Quotas.",
+      "Subsidy.",
+      "Price ceiling.",
       "Excise tax."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Rent control sets a legally binding maximum price on housing, making it a price ceiling. Choice A (price floor) is wrong because a floor sets a minimum price, like a minimum wage, not a maximum."
   },
   {
@@ -1492,12 +1492,12 @@ var APMICRO_MCQ = [
     "question": "If the government levies a tax on the sellers of a product, the supply curve will:",
     "choices": [
       "Shift to the right by the amount of the tax.",
-      "Shift to the left by the amount of the tax.",
-      "Become perfectly elastic.",
       "Not move; only the demand curve moves.",
+      "Become perfectly elastic.",
+      "Shift to the left by the amount of the tax.",
       "Become perfectly inelastic."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A tax on sellers increases their costs, shifting the supply curve upward/leftward by the exact amount of the tax."
   },
   {
@@ -1511,12 +1511,12 @@ var APMICRO_MCQ = [
     "question": "In a competitive market, if both demand and supply increase simultaneously, which of the following is true?",
     "choices": [
       "Price increases; quantity is indeterminate.",
-      "Price is indeterminate; quantity increases.",
-      "Price decreases; quantity is indeterminate.",
       "Price is indeterminate; quantity decreases.",
+      "Price decreases; quantity is indeterminate.",
+      "Price is indeterminate; quantity increases.",
       "Both price and quantity increase."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Both shifts push quantity up. However, the demand increase pushes price up while the supply increase pushes price down, making the final price change indeterminate."
   },
   {
@@ -1530,12 +1530,12 @@ var APMICRO_MCQ = [
     "question": "Which of the following is a result of an effective import quota imposed by a domestic government?",
     "choices": [
       "Domestic consumer surplus increases.",
-      "Domestic producer surplus increases.",
-      "The world price of the good decreases.",
       "Deadweight loss is eliminated.",
+      "The world price of the good decreases.",
+      "Domestic producer surplus increases.",
       "Total domestic surplus increases."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A quota restricts the quantity of imports, raising the domestic price. This benefits domestic producers (higher PS) but harms domestic consumers and creates deadweight loss."
   },
   {
@@ -1549,12 +1549,12 @@ var APMICRO_MCQ = [
     "question": "On a standard supply and demand graph, consumer surplus is represented by the area:",
     "choices": [
       "Above the supply curve and below the price.",
-      "Below the demand curve and above the price.",
-      "Below the demand curve and above the horizontal axis.",
       "Between the demand and supply curves to the right of equilibrium.",
+      "Below the demand curve and above the horizontal axis.",
+      "Below the demand curve and above the price.",
       "Bounded by the tax wedge."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Consumer surplus is the difference between what consumers are willing to pay (demand curve) and what they actually pay (market price)."
   },
   {
@@ -1567,13 +1567,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "If the demand for a product is perfectly inelastic and the government provides a per-unit subsidy to producers, who receives the full benefit of the subsidy?",
     "choices": [
-      "The producers only.",
       "The consumers only.",
+      "The producers only.",
       "The government.",
       "Producers and consumers share the benefit equally.",
       "Neither; it results in a surplus."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Similar to tax incidence, the more inelastic party receives the benefit of a subsidy. If demand is perfectly inelastic, the price paid by consumers drops by the full amount of the subsidy."
   },
   {
@@ -1586,13 +1586,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "If the equilibrium price of a good is $5 but the government sets a price ceiling at $3, and at $3 quantity demanded is 100 and quantity supplied is 60, the resulting shortage is:",
     "choices": [
-      "20 units.",
       "40 units.",
+      "20 units.",
       "60 units.",
       "100 units.",
       "160 units."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Shortage = Qd − Qs = 100 − 60 = 40 units. The price ceiling at $3 is below equilibrium ($5), so quantity demanded exceeds quantity supplied. Choice C is wrong because 60 is the quantity supplied, not the size of the shortage."
   },
   {
@@ -1605,13 +1605,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "If consumers expect the price of gasoline to rise significantly next week, what will happen to the current demand for gasoline?",
     "choices": [
-      "Demand will decrease today.",
       "Demand will increase today.",
+      "Demand will decrease today.",
       "Quantity demanded will increase today.",
       "Supply will increase today.",
       "The price will stay the same until next week."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Expectations of future price increases lead consumers to buy more now, shifting the current demand curve to the right."
   },
   {
@@ -1624,13 +1624,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "A tax of $2 per unit is imposed on a market. If the price paid by consumers rises by $1.50, what is the change in the price received by producers?",
     "choices": [
-      "It rises by $0.50.",
       "It falls by $0.50.",
+      "It rises by $0.50.",
       "It falls by $1.50.",
       "It falls by $2.00.",
       "It remains unchanged."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The total tax is the 'wedge' between the consumer price and producer price. If the consumer price rises by $1.50 of that $2.00 tax, the producers must absorb the remaining $0.50 (meaning the price they keep falls by $0.50)."
   },
   {
@@ -1643,13 +1643,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "Which of the following will happen to the demand for a normal good if consumer income falls?",
     "choices": [
-      "Demand will increase.",
       "Demand will decrease.",
+      "Demand will increase.",
       "Quantity demanded will decrease.",
       "Supply will increase.",
       "Price will increase."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "For normal goods, income and demand move in the same direction, so falling income shifts the demand curve left (decreases demand). Choice C is wrong because a movement along the demand curve (change in Qd) requires a price change, not an income change."
   },
   {
@@ -1662,13 +1662,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "If the cross-price elasticity of demand between two goods is -0.8, a decrease in the price of one good will:",
     "choices": [
-      "Decrease the demand for the other good.",
       "Increase the demand for the other good.",
+      "Decrease the demand for the other good.",
       "Decrease the quantity demanded of the other good.",
       "Have no effect on the other good.",
       "Shift the supply of the other good."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Negative cross-price elasticity means they are complements. If the price of one falls, people buy more of the other (demand shifts right)."
   },
   {
@@ -1700,13 +1700,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "A city government imposes a binding rent control law, capping apartment rents below their equilibrium level. Besides the well-known shortage of available apartments, which of the following is a common unintended consequence of this rent ceiling?",
     "choices": [
-      "An improvement in product quality.",
       "A decrease in product quality.",
+      "An improvement in product quality.",
       "An increase in producer profit.",
       "The elimination of black markets.",
       "Efficient allocation of resources."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "With more renters than units available and landlords unable to raise prices, landlords have little incentive to maintain quality. They often reduce spending on repairs and upkeep, leading to deterioration in apartment quality over time."
   },
   {
@@ -1719,14 +1719,14 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "If several new firms enter a perfectly competitive market, the market supply curve will:",
     "choices": [
-      "Shift to the left.",
       "Shift to the right.",
+      "Shift to the left.",
       "Remain stationary while demand shifts.",
       "Become perfectly inelastic.",
       "Become vertical."
     ],
-    "answer": 1,
-    "explanation": "More producers add their individual supply curves to the market total, shifting the market supply curve rightward at every price. Choice A is wrong because a leftward shift would require firms to exit the market, not enter it."
+    "answer": 0,
+    "explanation": "More producers add their individual supply curves to the market total, shifting the market supply curve rightward at every price. Choice B is wrong because a leftward shift would require firms to exit the market, not enter it."
   },
   {
     "id": "micro-u2-h052",
@@ -1776,13 +1776,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "If the demand for a good decreases while the supply remains constant, what happens to the equilibrium price and quantity?",
     "choices": [
-      "Price increases, quantity increases.",
       "Price decreases, quantity decreases.",
+      "Price increases, quantity increases.",
       "Price increases, quantity decreases.",
       "Price decreases, quantity increases.",
       "Price remains constant, quantity decreases."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A leftward shift in demand leads to a lower price and a lower quantity traded."
   },
   {
@@ -2005,12 +2005,12 @@ var APMICRO_MCQ = [
     "question": "A small bakery has one oven (fixed capital) and hires workers one at a time. The first worker produces 20 loaves per hour; the second adds 18 more; the third adds only 12 more. Which of the following laws does this pattern illustrate?",
     "choices": [
       "As more of a variable input is added to fixed inputs, total product eventually falls.",
-      "As more of a variable input is added to fixed inputs, the additional output produced eventually decreases.",
+      "The more a consumer eats, the less satisfaction they derive from each bite.",
       "As a firm increases all inputs, its average total cost increases.",
       "In the long run, all inputs are variable and costs must rise.",
-      "The more a consumer eats, the less satisfaction they derive from each bite."
+      "As more of a variable input is added to fixed inputs, the additional output produced eventually decreases."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Diminishing marginal returns refers specifically to the marginal product (additional output per additional worker) eventually decreasing as more variable inputs are added to a fixed input. Total output is still rising—but by smaller and smaller increments."
   },
   {
@@ -2024,12 +2024,12 @@ var APMICRO_MCQ = [
     "question": "A firm hires 3 workers and produces 50 units. When it hires a 4th worker, total output rises to 62 units. What is the marginal product of the 4th worker?",
     "choices": [
       "62 units.",
-      "12 units.",
+      "3 units.",
       "15.5 units.",
       "112 units.",
-      "3 units."
+      "12 units."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Marginal Product (MP) = Change in Total Product / Change in Labor. $62 - 50 = 12$."
   },
   {
@@ -2043,12 +2043,12 @@ var APMICRO_MCQ = [
     "question": "A textile factory is adding workers to a fixed number of sewing machines. As each additional worker is hired, output per worker-hour is still rising. What must be true about the factory's marginal cost of production during this phase?",
     "choices": [
       "Marginal cost is increasing.",
-      "Marginal cost is decreasing.",
+      "Total fixed cost is falling.",
       "Marginal cost is constant.",
       "Average total cost is at its minimum.",
-      "Total fixed cost is falling."
+      "Marginal cost is decreasing."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Marginal product and marginal cost move in opposite directions. When workers are becoming more specialized and productive (rising MP), each additional unit of output costs less to produce—so marginal cost is falling."
   },
   {
@@ -2063,11 +2063,11 @@ var APMICRO_MCQ = [
     "choices": [
       "The cost of flour and yeast.",
       "The hourly wages paid to delivery drivers.",
-      "The monthly rent for the building.",
       "The electricity bill used for the ovens.",
+      "The monthly rent for the building.",
       "The cost of cardboard pizza boxes."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Fixed costs do not vary with the level of output in the short run. Rent must be paid regardless of whether the restaurant produces 1 pizza or 1,000. Wages, flour, electricity, and boxes all vary with output level."
   },
   {
@@ -2082,11 +2082,11 @@ var APMICRO_MCQ = [
     "choices": [
       "It remains constant.",
       "It increases at an increasing rate.",
-      "It decreases continuously.",
       "It first decreases, then increases.",
+      "It decreases continuously.",
       "It equals the Marginal Cost."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "AFC = Total Fixed Cost / Quantity. Since TFC is constant, increasing the denominator (Q) causes AFC to 'spread' and get smaller and smaller."
   },
   {
@@ -2100,12 +2100,12 @@ var APMICRO_MCQ = [
     "question": "The Marginal Cost (MC) curve intersects the Average Total Cost (ATC) curve and the Average Variable Cost (AVC) curve at which point?",
     "choices": [
       "Their maximum points.",
-      "Their minimum points.",
+      "Where Total Revenue is maximized.",
       "Only at the vertical axis.",
       "Where AFC is zero.",
-      "Where Total Revenue is maximized."
+      "Their minimum points."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Mathematically, if the marginal unit costs less than the average, the average falls. If the marginal unit costs more, the average rises. Therefore, they must meet at the minimum of the average curves."
   },
   {
@@ -2119,12 +2119,12 @@ var APMICRO_MCQ = [
     "question": "Total Cost (TC) is the sum of:",
     "choices": [
       "Marginal Cost and Average Cost.",
-      "Variable Cost and Fixed Cost.",
+      "Implicit Costs and Explicit Costs only.",
       "Fixed Cost and Marginal Cost.",
       "Price and Quantity.",
-      "Implicit Costs and Explicit Costs only."
+      "Variable Cost and Fixed Cost."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Economically, all short-run costs are either fixed (independent of output) or variable (dependent on output)."
   },
   {
@@ -2139,11 +2139,11 @@ var APMICRO_MCQ = [
     "choices": [
       "$10.",
       "$4.",
-      "$6.",
       "$14.",
+      "$6.",
       "$60."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Total Variable Cost (TVC) = TC - TFC = $100 - $40 = $60. AVC = TVC / Q = $60 / 10 = $6."
   },
   {
@@ -2157,12 +2157,12 @@ var APMICRO_MCQ = [
     "question": "Economies of scale occur when a firm increases all inputs and finds that:",
     "choices": [
       "Total cost remains constant.",
-      "Long-run average total cost (LRATC) decreases.",
+      "Average fixed cost increases.",
       "Short-run marginal cost increases.",
       "Marginal product of labor becomes negative.",
-      "Average fixed cost increases."
+      "Long-run average total cost (LRATC) decreases."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Economies of scale is a long-run concept where increasing the scale of production (all inputs) leads to a lower per-unit cost."
   },
   {
@@ -2175,13 +2175,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "Maria left a $60,000-per-year accounting job to open her own bakery. She uses $50,000 of personal savings to fund the business and works full-time managing it. Which of the following would be considered an implicit cost of Maria's bakery?",
     "choices": [
-      "The wages paid to employees.",
-      "The interest paid on a bank loan.",
       "The forgone salary the owner could have earned working elsewhere.",
+      "The interest paid on a bank loan.",
+      "The wages paid to employees.",
       "The cost of raw materials.",
       "The taxes paid to the local government."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Implicit costs are opportunity costs of using resources already owned by the entrepreneur—they require no out-of-pocket payment. The forgone salary Maria could have earned at her accounting job is an implicit cost."
   },
   {
@@ -2194,13 +2194,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "Economic profit is calculated as:",
     "choices": [
-      "Total Revenue minus Explicit Costs.",
-      "Total Revenue minus Implicit Costs.",
       "Total Revenue minus both Explicit and Implicit Costs.",
+      "Total Revenue minus Implicit Costs.",
+      "Total Revenue minus Explicit Costs.",
       "Accounting Profit plus Implicit Costs.",
       "Total Revenue minus Marginal Cost."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Accounting profit only looks at explicit costs. Economic profit subtracts both explicit and implicit (opportunity) costs."
   },
   {
@@ -2214,12 +2214,12 @@ var APMICRO_MCQ = [
     "question": "If a firm is earning a 'Normal Profit,' which of the following is true?",
     "choices": [
       "Economic profit is positive.",
-      "Economic profit is zero.",
+      "The firm should shut down immediately.",
       "Accounting profit is zero.",
       "Total revenue is less than total cost.",
-      "The firm should shut down immediately."
+      "Economic profit is zero."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Normal profit occurs when economic profit is zero ($TR = TC$). This means the firm is earning just enough to cover all its explicit and implicit costs."
   },
   {
@@ -2233,12 +2233,12 @@ var APMICRO_MCQ = [
     "question": "If the Total Cost of producing 5 units is $50 and the Total Cost of producing 6 units is $65, the Marginal Cost of the 6th unit is:",
     "choices": [
       "$10.",
-      "$15.",
+      "$5.",
       "$13.",
       "$115.",
-      "$5."
+      "$15."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "MC = ΔTC/ΔQ = ($65 − $50) / 1 = $15. Only the change in total cost matters, not the level. Choice C ($13) is the average cost of 6 units ($65/5 rounded), a common error of dividing total cost instead of the change in cost."
   },
   {
@@ -2252,12 +2252,12 @@ var APMICRO_MCQ = [
     "question": "Apex Manufacturing operates a plant with 20 machines and 50 workers. It can adjust the number of workers on short notice, but retooling or adding new production lines requires at least two years. Which of the following best describes Apex's current production time horizon?",
     "choices": [
       "All costs are variable.",
-      "At least one input (usually capital) is fixed.",
+      "The firm can easily enter or exit the industry.",
       "The firm is making an economic profit.",
       "Less than one year has passed.",
-      "The firm can easily enter or exit the industry."
+      "At least one input (usually capital) is fixed."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The short run is not a fixed calendar period—it is any time frame in which at least one factor of production cannot be changed. Apex can vary labor immediately but cannot change its capital stock, so it is operating in the short run."
   },
   {
@@ -2271,12 +2271,12 @@ var APMICRO_MCQ = [
     "question": "As output increases, the vertical distance between the ATC and AVC curves:",
     "choices": [
       "Increases.",
-      "Decreases.",
+      "Is equal to the Marginal Cost.",
       "Remains constant.",
       "First decreases, then increases.",
-      "Is equal to the Marginal Cost."
+      "Decreases."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The distance between ATC and AVC is the Average Fixed Cost (AFC). Since AFC decreases as output rises, the two curves get closer together."
   },
   {
@@ -2289,13 +2289,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "Which of the following is a primary characteristic of a perfectly competitive market?",
     "choices": [
-      "Firms produce differentiated products.",
-      "There are significant barriers to entry and exit.",
       "Firms are 'price takers' and have no control over the market price.",
+      "There are significant barriers to entry and exit.",
+      "Firms produce differentiated products.",
       "A single firm dominates the entire market.",
       "Firms engage in extensive non-price competition, such as advertising."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "In perfect competition, there are so many buyers and sellers of an identical product that no individual can influence the price."
   },
   {
@@ -2309,12 +2309,12 @@ var APMICRO_MCQ = [
     "question": "For a firm in a perfectly competitive market, which of the following is true regarding its revenue curves?",
     "choices": [
       "Marginal Revenue is less than Price.",
-      "Price, Marginal Revenue, and Average Revenue are all equal.",
+      "Marginal Revenue decreases as the firm produces more output.",
       "Total Revenue is constant regardless of output.",
       "The demand curve for the firm is downward sloping.",
-      "Marginal Revenue decreases as the firm produces more output."
+      "Price, Marginal Revenue, and Average Revenue are all equal."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Because the firm is a price taker, it can sell any quantity at the market price ($P$). Therefore, $P = d = AR = MR$."
   },
   {
@@ -2347,12 +2347,12 @@ var APMICRO_MCQ = [
     "question": "In the short run, a firm should continue to operate even if it is losing money, as long as the price is greater than the:",
     "choices": [
       "Average Total Cost (ATC).",
-      "Average Variable Cost (AVC).",
+      "Total Cost (TC).",
       "Average Fixed Cost (AFC).",
       "Marginal Cost (MC).",
-      "Total Cost (TC)."
+      "Average Variable Cost (AVC)."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "If $P > AVC$, the firm can cover all its variable costs and has some revenue left over to pay part of its fixed costs. Shutting down would mean losing the full amount of fixed costs."
   },
   {
@@ -2366,12 +2366,12 @@ var APMICRO_MCQ = [
     "question": "The short-run supply curve for a perfectly competitive firm is the portion of its:",
     "choices": [
       "ATC curve above the AVC curve.",
-      "MC curve above the minimum AVC.",
+      "MR curve that is horizontal.",
       "MC curve above the minimum ATC.",
       "AVC curve above the MC curve.",
-      "MR curve that is horizontal."
+      "MC curve above the minimum AVC."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The firm will produce where $P = MC$ as long as $P$ is at least equal to $AVC$. Therefore, the $MC$ curve represents the quantity supplied at different prices above the shutdown point."
   },
   {
@@ -2404,12 +2404,12 @@ var APMICRO_MCQ = [
     "question": "In long-run equilibrium, a perfectly competitive firm earns:",
     "choices": [
       "Positive economic profit.",
-      "Normal profit (Zero economic profit).",
+      "Excessive economic rents.",
       "Accounting profit of zero.",
       "Negative economic profit.",
-      "Excessive economic rents."
+      "Normal profit (Zero economic profit)."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "At long-run equilibrium, $P = ATC$. Since all costs (explicit and implicit) are covered, the economic profit is zero, also known as a normal profit."
   },
   {
@@ -2442,12 +2442,12 @@ var APMICRO_MCQ = [
     "question": "In the long run, a perfectly competitive firm achieves productive efficiency because it produces where:",
     "choices": [
       "Price is at its maximum.",
-      "Average Total Cost is at its minimum.",
+      "The firm is a price searcher.",
       "Marginal Cost is at its minimum.",
       "Total Variable Cost is zero.",
-      "The firm is a price searcher."
+      "Average Total Cost is at its minimum."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Productive efficiency means producing goods at the lowest possible per-unit cost. In the long run, firms are forced by competition to produce at the minimum point of the $ATC$ curve."
   },
   {
@@ -2461,12 +2461,12 @@ var APMICRO_MCQ = [
     "question": "A firm sells 100 units of a product in a perfectly competitive market at a price of $5 per unit. What is the firm's marginal revenue for the 101st unit?",
     "choices": [
       "$500.",
-      "$5.",
+      "$0.",
       "$505.",
       "$1.",
-      "$0."
+      "$5."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "In perfect competition, $MR = P$. Since the price is $5, every additional unit sold adds exactly $5 to total revenue."
   },
   {
@@ -2480,12 +2480,12 @@ var APMICRO_MCQ = [
     "question": "If a firm's $P$ is $10, its $ATC$ is $12, and its $AVC$ is $8, the firm should:",
     "choices": [
       "Shut down immediately.",
-      "Continue to produce in the short run to minimize losses.",
+      "Exit the industry immediately.",
       "Raise its price to $12 to break even.",
       "Increase production to lower its $ATC$.",
-      "Exit the industry immediately."
+      "Continue to produce in the short run to minimize losses."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Since $P (10) > AVC (8)$, the firm covers its variable costs and $2 per unit of its fixed costs. If it shuts down, it loses all its fixed costs ($4 per unit)."
   },
   {
@@ -2499,12 +2499,12 @@ var APMICRO_MCQ = [
     "question": "In a constant-cost industry, an increase in market demand will lead to which of the following in the long run?",
     "choices": [
       "A higher equilibrium price and more firms.",
-      "The same equilibrium price and more firms.",
-      "A lower equilibrium price and fewer firms.",
       "A higher equilibrium price and fewer firms.",
+      "A lower equilibrium price and fewer firms.",
+      "The same equilibrium price and more firms.",
       "An indeterminate change in price."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "In a constant-cost industry, input prices do not change as the industry expands. Therefore, after entry occurs, the price returns to the original minimum $ATC$ level."
   },
   {
@@ -2518,12 +2518,12 @@ var APMICRO_MCQ = [
     "question": "The demand curve facing an individual firm in a perfectly competitive market is:",
     "choices": [
       "Vertical.",
-      "Perfectly elastic (horizontal).",
-      "Perfectly inelastic.",
       "Downward sloping.",
+      "Perfectly inelastic.",
+      "Perfectly elastic (horizontal).",
       "Unit elastic."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Since the firm is a price taker, it can sell any amount at the market price, making its individual demand curve horizontal."
   },
   {
@@ -2537,12 +2537,12 @@ var APMICRO_MCQ = [
     "question": "If a firm produces 50 units where $P = $20 and $ATC = $15, what is the firm's total economic profit?",
     "choices": [
       "$5.",
-      "$250.",
-      "$750.",
       "$1,000.",
+      "$750.",
+      "$250.",
       "$0."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Profit = (P − ATC) × Q = ($20 − $15) × 50 = $250. The per-unit profit margin is $5, spread over 50 units. Choice A ($5) is wrong—that is the per-unit profit margin, not total profit."
   },
   {
@@ -2556,12 +2556,12 @@ var APMICRO_MCQ = [
     "question": "Which of the following describes the long-run adjustment if firms in a perfectly competitive market are experiencing economic losses?",
     "choices": [
       "Firms will enter, decreasing market supply.",
-      "Firms will exit, decreasing market supply and increasing market price.",
-      "The demand curve for the industry will shift to the right.",
       "Firms will lower their prices to attract more customers.",
+      "The demand curve for the industry will shift to the right.",
+      "Firms will exit, decreasing market supply and increasing market price.",
       "Marginal cost curves will shift downward due to lower input costs."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Losses lead to exit. As firms leave, market supply shifts left, raising the price until the remaining firms break even ($P = ATC$)."
   },
   {
@@ -2574,14 +2574,14 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "If a firm doubles all of its inputs and its output more than doubles, the firm is experiencing:",
     "choices": [
-      "Increasing marginal returns.",
-      "Decreases in average fixed costs.",
       "Economies of scale.",
+      "Decreases in average fixed costs.",
+      "Increasing marginal returns.",
       "Constant returns to scale.",
       "Productive efficiency."
     ],
-    "answer": 2,
-    "explanation": "Trap: Option A refers to the short run (adding variable inputs to fixed ones). Economies of scale (Option C) is the correct long-run term for when output increases more than proportionally to inputs, leading to lower LRATC."
+    "answer": 0,
+    "explanation": "Trap: Option C refers to the short run (adding variable inputs to fixed ones). Economies of scale (Option C) is the correct long-run term for when output increases more than proportionally to inputs, leading to lower LRATC."
   },
   {
     "id": "micro-u3-h032",
@@ -2612,13 +2612,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "An increase in the property taxes on a firm's factory will cause which of the following?",
     "choices": [
-      "The Marginal Cost (MC) curve to shift upward.",
-      "The Average Variable Cost (AVC) curve to shift upward.",
       "The Average Total Cost (ATC) curve to shift upward.",
+      "The Average Variable Cost (AVC) curve to shift upward.",
+      "The Marginal Cost (MC) curve to shift upward.",
       "A decrease in the profit-maximizing level of output.",
       "An increase in the Average Fixed Cost (AFC) curve only."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Trap: Property taxes are a fixed cost. Fixed costs do NOT affect MC or AVC. They only affect AFC and ATC. Since ATC = AFC + AVC, if AFC rises, ATC must also rise."
   },
   {
@@ -2631,13 +2631,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "A crop farm is adding seasonal workers to harvest a fixed amount of farmland. As more workers are hired, each additional worker harvests slightly less grain than the previous one—but each worker still adds to total output. Which of the following must be true during this phase of production?",
     "choices": [
-      "Total product is decreasing.",
-      "Average total cost is at its minimum.",
       "Marginal cost is increasing.",
+      "Average total cost is at its minimum.",
+      "Total product is decreasing.",
       "Marginal cost is at its minimum.",
       "The firm is experiencing diseconomies of scale."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "When marginal product is falling but still positive, each additional unit of output requires slightly more labor than the last—so marginal cost is rising. Total product is still increasing (MP > 0), so total output has not yet declined."
   },
   {
@@ -2650,13 +2650,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "If a firm's total revenue exceeds its explicit costs but is not sufficient to cover its implicit costs as well, the firm has:",
     "choices": [
-      "An economic profit of zero.",
-      "An accounting profit of zero.",
       "An accounting profit that is positive, but an economic profit that is negative.",
+      "An accounting profit of zero.",
+      "An economic profit of zero.",
       "A normal profit.",
       "An economic profit that is positive."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Accounting profit = TR - Explicit Costs, which is positive here. Economic profit = TR - (Explicit + Implicit Costs), which is negative because TR cannot cover both. The firm appears profitable by accounting standards but is not covering all opportunity costs."
   },
   {
@@ -2670,12 +2670,12 @@ var APMICRO_MCQ = [
     "question": "In a perfectly competitive, constant-cost industry in long-run equilibrium, a permanent decrease in market demand will result in which of the following?",
     "choices": [
       "A lower market price in the long run.",
-      "The same market price and fewer firms in the long run.",
-      "A higher market price and fewer firms in the long run.",
       "Economic profits for the remaining firms.",
+      "A higher market price and fewer firms in the long run.",
+      "The same market price and fewer firms in the long run.",
       "An upward shift in the firms' cost curves."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trap: In the short run, price falls. But in the long run, firms exit until the price returns to the minimum ATC. In a constant-cost industry, that minimum ATC doesn't change, so the price returns to its original level."
   },
   {
@@ -2707,14 +2707,14 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "A perfectly competitive firm in long-run equilibrium is allocatively efficient because:",
     "choices": [
-      "It produces at the minimum of its ATC curve.",
-      "It maximizes its total revenue.",
       "Its price equals the marginal cost of the last unit produced.",
+      "It maximizes its total revenue.",
+      "It produces at the minimum of its ATC curve.",
       "It earns zero economic profit.",
       "Its marginal revenue exceeds its marginal cost."
     ],
-    "answer": 2,
-    "explanation": "Trap: Option A describes 'productive efficiency.' 'Allocative efficiency' specifically refers to the condition where $P = MC$."
+    "answer": 0,
+    "explanation": "Trap: Option C describes 'productive efficiency.' 'Allocative efficiency' specifically refers to the condition where $P = MC$."
   },
   {
     "id": "micro-u3-e039",
@@ -2727,12 +2727,12 @@ var APMICRO_MCQ = [
     "question": "If the marginal cost of producing the next unit is greater than the current average total cost, the average total cost will:",
     "choices": [
       "Decrease.",
-      "Increase.",
-      "Remain constant.",
       "Equal the marginal revenue.",
+      "Remain constant.",
+      "Increase.",
       "Fall to the level of average variable cost."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Think of your GPA. If your 'marginal' grade (this semester) is higher than your 'average' GPA, your average will go up."
   },
   {
@@ -2784,12 +2784,12 @@ var APMICRO_MCQ = [
     "question": "If the market demand for a product in a perfectly competitive industry increases, what happens to the individual firm's $d = MR$ curve?",
     "choices": [
       "It shifts to the right.",
-      "It shifts upward.",
-      "It shifts downward.",
       "It becomes downward sloping.",
+      "It shifts downward.",
+      "It shifts upward.",
       "It remains unchanged because the firm is a price taker."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trap: Option A sounds correct (Demand shifts right), but for an individual firm, the demand is a horizontal line at the market price. If market price rises, that horizontal line shifts *upward*."
   },
   {
@@ -2860,12 +2860,12 @@ var APMICRO_MCQ = [
     "question": "A perfectly competitive firm is currently producing where $MR = MC$. At this output, $ATC = $15, $AVC = $10, and $P = $12. In the short run, this firm should:",
     "choices": [
       "Shut down because it is experiencing an economic loss.",
-      "Continue to produce to minimize its loss.",
-      "Increase production to reduce its average total cost.",
       "Raise its price to $15 to break even.",
+      "Increase production to reduce its average total cost.",
+      "Continue to produce to minimize its loss.",
       "Exit the industry because $P < ATC$."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trap: Students see $P < ATC$ and assume the firm must shut down or exit. However, since $P (12) > AVC (10)$, the firm covers all its variable costs and $2 of its fixed costs. Shutting down would result in a larger loss (the full fixed cost)."
   },
   {
@@ -2879,12 +2879,12 @@ var APMICRO_MCQ = [
     "question": "In the long run, if a perfectly competitive industry's market price is greater than the minimum average total cost, which of the following will occur?",
     "choices": [
       "Firms will exit the industry, shifting supply to the left.",
-      "Firms will enter the industry, shifting supply to the right.",
-      "Individual firms will increase their prices to match the market.",
       "Demand for the industry will decrease due to high prices.",
+      "Individual firms will increase their prices to match the market.",
+      "Firms will enter the industry, shifting supply to the right.",
       "The firm's marginal cost curve will shift downward."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "If $P > min ATC$, firms are making economic profit. Profit attracts new firms. Entry increases market supply, which pushes the price back down to the $min ATC$."
   },
   {
@@ -2898,12 +2898,12 @@ var APMICRO_MCQ = [
     "question": "A firm in a perfectly competitive market has the following cost data: At $Q=5$, $TC = $50; at $Q=6$, $TC = $62. If the market price is $15, what is the marginal revenue and should the firm produce the 6th unit?",
     "choices": [
       "$MR = $12; No, because $MR < MC$.",
-      "$MR = $15; Yes, because $MR > MC$.",
-      "$MR = $15; No, because the firm is not yet at $min ATC$.",
       "$MR = $2; Yes, because total cost is increasing slowly.",
+      "$MR = $15; No, because the firm is not yet at $min ATC$.",
+      "$MR = $15; Yes, because $MR > MC$.",
       "$MR = $15; Yes, because $P > ATC$."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trap: Many forget that in perfect competition $P = MR$. Here $MR = 15$. The $MC$ of the 6th unit is $12 (62-50)$. Since $15 > 12$, producing the 6th unit adds $3 to the firm's profit."
   },
   {
@@ -2936,12 +2936,12 @@ var APMICRO_MCQ = [
     "question": "A warehouse employs workers to pack boxes. With 10 workers, total output is 500 boxes per hour. When an 11th worker is added, workers begin crowding each other and total output drops to 490 boxes per hour. Which of the following must be true about the 11th worker?",
     "choices": [
       "Total product is increasing at a decreasing rate.",
-      "Total product is decreasing.",
-      "Average product is at its maximum.",
       "The firm should hire more workers to offset the loss.",
+      "Average product is at its maximum.",
+      "Total product is decreasing.",
       "Marginal cost is at its minimum."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "When the marginal product of a worker is negative, each additional unit added to total output is negative—meaning total output itself decreases. The 11th worker is 'getting in the way,' so total production falls."
   },
   {
@@ -3431,11 +3431,11 @@ var APMICRO_MCQ = [
     "choices": [
       "The firm is a price taker.",
       "There are no barriers to entry.",
-      "The firm faces a downward-sloping demand curve.",
       "The product has many close substitutes.",
+      "The firm faces a downward-sloping demand curve.",
       "Marginal revenue equals price at all levels of output."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Because a monopolist is the sole producer, it faces the entire downward-sloping market demand curve. To sell more units, it must lower the price—unlike a price-taking firm in perfect competition, which faces a horizontal (perfectly elastic) demand curve."
   },
   {
@@ -3468,12 +3468,12 @@ var APMICRO_MCQ = [
     "question": "A monopolist is producing where MR = $10 and MC = $15. To maximize profit, the firm should:",
     "choices": [
       "Increase output and lower price.",
-      "Decrease output and raise price.",
+      "Produce where price equals marginal cost.",
       "Keep output the same and raise price.",
       "Shut down immediately.",
-      "Produce where price equals marginal cost."
+      "Decrease output and raise price."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Since MC > MR, the last unit cost more to make than it brought in. The firm should reduce production. Moving back up the demand curve means the price will rise."
   },
   {
@@ -3488,11 +3488,11 @@ var APMICRO_MCQ = [
     "choices": [
       "The inelastic region, because people must buy the good.",
       "The unit elastic point, to maximize total revenue.",
-      "The elastic region, where MR is positive.",
       "The perfectly inelastic region.",
+      "The elastic region, where MR is positive.",
       "Anywhere where price is greater than average total cost."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Trap: Common sense says 'monopolies overcharge so they must be in the inelastic part.' False. If they were in the inelastic part, MR would be negative. A rational firm never produces where MR is negative because they could increase revenue by producing less."
   },
   {
@@ -3507,11 +3507,11 @@ var APMICRO_MCQ = [
     "choices": [
       "The government grants an exclusive patent to a single firm.",
       "A firm owns all the natural resources in a region.",
-      "Long-run average total costs (LRATC) fall over the entire range of market demand.",
       "The firm is unregulated and produces at P = MC.",
+      "Long-run average total costs (LRATC) fall over the entire range of market demand.",
       "There are zero fixed costs in the industry."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Natural monopolies exist because of massive economies of scale. One large firm can produce at a lower per-unit cost than multiple small firms."
   },
   {
@@ -3525,12 +3525,12 @@ var APMICRO_MCQ = [
     "question": "A used-car dealership has perfect information about each customer's maximum willingness to pay and charges every buyer exactly that maximum. Compared to a standard monopolist charging a single price, which of the following is true about this perfectly price-discriminating dealership?",
     "choices": [
       "Deadweight loss is maximized.",
-      "Consumer surplus is zero.",
+      "The firm charges everyone the same average price.",
       "Marginal revenue is less than price.",
       "The firm produces less than a standard monopolist.",
-      "The firm charges everyone the same average price."
+      "Consumer surplus is zero."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Perfect price discrimination (first-degree) is efficient—the firm produces until P = MC, eliminating deadweight loss. However, by charging each consumer their exact reservation price, the firm captures every dollar of consumer surplus for itself, leaving consumers with zero surplus."
   },
   {
@@ -3545,11 +3545,11 @@ var APMICRO_MCQ = [
     "choices": [
       "Earn positive economic profits due to product differentiation.",
       "Produce at the minimum of its ATC curve.",
-      "Earn zero economic profit because of low barriers to entry.",
       "Be allocatively efficient.",
+      "Earn zero economic profit because of low barriers to entry.",
       "Experience a perfectly elastic demand curve."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Like perfect competition, entry/exit drives profit to zero. But because the products are different, the firm still has some market power (downward demand) and doesn't hit the minimum ATC."
   },
   {
@@ -3563,12 +3563,12 @@ var APMICRO_MCQ = [
     "question": "In a city with many hair salons, each salon differentiates its service and faces a downward-sloping demand curve. In long-run equilibrium, each salon earns zero economic profit but operates at a quantity smaller than the output that would minimize its average total cost. An economist calls this outcome which of the following?",
     "choices": [
       "The firm produces more than the socially optimal amount.",
-      "The firm could lower its average total cost by increasing output.",
+      "Marginal revenue is zero.",
       "There are too many firms in the industry.",
       "The firm is earning an economic loss in the long run.",
-      "Marginal revenue is zero."
+      "The firm could lower its average total cost by increasing output."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Excess capacity means each monopolistically competitive firm produces below its productively efficient output level (the minimum ATC point). It does not mean the firm is 'wasteful'—it simply means average costs are higher than they would be if the firm produced more."
   },
   {
@@ -3582,12 +3582,12 @@ var APMICRO_MCQ = [
     "question": "The commercial aircraft manufacturing industry is dominated by two large companies that supply the vast majority of the world's airlines. Before adjusting prices or expanding capacity, each firm carefully monitors the other's decisions. Which of the following market structures best describes this industry?",
     "choices": [
       "A single seller of a unique product.",
-      "Mutual interdependence between a few large firms.",
+      "The absence of non-price competition.",
       "Many small firms selling identical products.",
       "Zero barriers to entry.",
-      "The absence of non-price competition."
+      "Mutual interdependence between a few large firms."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "An oligopoly is characterized by a small number of large, mutually interdependent firms. Because the actions of one firm directly affect the others, strategic behavior—watching rivals before acting—is the defining feature of oligopolistic markets."
   },
   {
@@ -3601,12 +3601,12 @@ var APMICRO_MCQ = [
     "question": "Two rival airlines are each choosing between charging a high fare or a low fare. Given the fares both airlines have chosen, neither airline can increase its profits by unilaterally switching to a different fare—even though both could earn more if they cooperated. This stable outcome describes which of the following?",
     "choices": [
       "Both players are cooperating to maximize joint profits.",
-      "Neither player has an incentive to change their strategy, given the strategy of the other.",
+      "Total surplus is maximized.",
       "One player has a dominant strategy and the other does not.",
       "The outcome is socially optimal.",
-      "Total surplus is maximized."
+      "Neither player has an incentive to change their strategy, given the strategy of the other."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A Nash Equilibrium is a stable outcome where no individual player can improve by changing strategy alone, given the other's strategy. It is not necessarily the best joint outcome—the Prisoners' Dilemma shows that Nash equilibria can leave both players worse off than a cooperative solution."
   },
   {
@@ -3620,12 +3620,12 @@ var APMICRO_MCQ = [
     "question": "Compared to a perfectly competitive industry with the same costs, a monopoly will:",
     "choices": [
       "Produce more output and charge a lower price.",
-      "Produce less output and charge a higher price.",
+      "Have a horizontal marginal revenue curve.",
       "Produce the same output but charge a higher price.",
       "Be more allocatively efficient.",
-      "Have a horizontal marginal revenue curve."
+      "Produce less output and charge a higher price."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A monopoly sets MR = MC, where MR < P, so it produces less output and charges a higher price than a competitive market, creating deadweight loss. Choice D is wrong because restricting output below the allocatively efficient level is the very definition of allocative inefficiency."
   },
   {
@@ -3639,12 +3639,12 @@ var APMICRO_MCQ = [
     "question": "Cartels are difficult to maintain primarily because:",
     "choices": [
       "They are always legal and strictly regulated.",
-      "Individual members have an incentive to cheat by increasing production.",
+      "Marginal costs are zero for all members.",
       "The government forces them to produce at P = MC.",
       "The demand for the product is perfectly inelastic.",
-      "Marginal costs are zero for all members."
+      "Individual members have an incentive to cheat by increasing production."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "While the group benefits from high prices, an individual firm can make even more money by secretly lowering its price or increasing its quantity."
   },
   {
@@ -3658,12 +3658,12 @@ var APMICRO_MCQ = [
     "question": "The profit-maximizing price for a monopolist is found by:",
     "choices": [
       "Finding where MC = ATC.",
-      "Finding where MR = MC and going up to the demand curve.",
+      "Minimizing average variable cost.",
       "Finding where MR = MC and going across to the Y-axis.",
       "Setting price equal to marginal cost.",
-      "Minimizing average variable cost."
+      "Finding where MR = MC and going up to the demand curve."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The quantity is determined by MR = MC, but the price is the maximum consumers are willing to pay for that quantity (the demand curve)."
   },
   {
@@ -3676,13 +3676,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "A biotechnology firm spent 15 years and $2 billion developing a new cancer treatment. The government granted the firm a 20-year exclusive right to produce this drug, legally preventing any competitor from selling it. Which of the following best explains how the firm maintains its monopoly?",
     "choices": [
-      "A decrease in consumer income.",
-      "Standardized products.",
       "Patents and copyrights.",
+      "Standardized products.",
+      "A decrease in consumer income.",
       "Large numbers of sellers.",
       "The presence of many close substitutes."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Patents and copyrights are legal barriers to entry granted by the government. They give the holder exclusive rights to produce a product, blocking competitors from entering the market and allowing the monopolist to earn long-run economic profits."
   },
   {
@@ -3696,12 +3696,12 @@ var APMICRO_MCQ = [
     "question": "If a government regulates a natural monopoly to produce at the socially optimal (allocatively efficient) level, the firm will likely:",
     "choices": [
       "Earn high economic profits.",
-      "Experience an economic loss and require a subsidy.",
+      "Practice price discrimination.",
       "Produce at the minimum of its ATC curve.",
       "Shut down in the long run regardless of price.",
-      "Practice price discrimination."
+      "Experience an economic loss and require a subsidy."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: In a natural monopoly, MC is very low and below ATC. If P = MC, the price won't be high enough to cover the high average costs, leading to a loss."
   },
   {
@@ -3733,13 +3733,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "A monopolist and a monopolistically competitive firm are both operating in the short run and maximizing their respective profits. Despite their differences in market structure and long-run profitability, which of the following is true for BOTH firms?",
     "choices": [
-      "Price is equal to marginal revenue.",
-      "The firm earns zero economic profit.",
       "The firm produces where MR = MC.",
+      "The firm earns zero economic profit.",
+      "Price is equal to marginal revenue.",
       "The firm achieves productive efficiency.",
       "Entry of new firms is impossible."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "All profit-maximizing firms—including monopolists, monopolistic competitors, and oligopolists—produce where MR = MC. This rule maximizes profit (or minimizes loss) regardless of market structure. Price-taking firms where P = MR also follow this rule implicitly."
   },
   {
@@ -3753,12 +3753,12 @@ var APMICRO_MCQ = [
     "question": "The 'monopolistic' part of Monopolistic Competition comes from the fact that:",
     "choices": [
       "There is only one firm.",
-      "Firms have some control over price due to product differentiation.",
+      "Demand is perfectly inelastic.",
       "There are high barriers to entry.",
       "Collusion is common.",
-      "Demand is perfectly inelastic."
+      "Firms have some control over price due to product differentiation."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Because products are slightly different (e.g., different brands of soap), firms aren't forced to charge the exact same price as everyone else."
   },
   {
@@ -3771,13 +3771,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "The deadweight loss of a monopoly is represented on a graph by the area:",
     "choices": [
-      "Between the demand curve and the price.",
-      "Below the price and above the MC curve.",
       "Between the profit-maximizing quantity and the allocatively efficient quantity, under the demand curve and above MC.",
+      "Below the price and above the MC curve.",
+      "Between the demand curve and the price.",
       "Of the total economic profit.",
       "Where MR = 0."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "It's the triangle formed by the units society wanted (Demand > MC) but the monopoly refused to produce."
   },
   {
@@ -3791,12 +3791,12 @@ var APMICRO_MCQ = [
     "question": "A 'Fair-Return' price for a regulated monopoly is one where:",
     "choices": [
       "P = MC.",
-      "P = ATC.",
+      "Consumer surplus is zero.",
       "MR = 0.",
       "Economic profit is maximized.",
-      "Consumer surplus is zero."
+      "P = ATC."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: Students confuse 'Socially Optimal' (P=MC) with 'Fair Return' (P=ATC). At P=ATC, the firm breaks even (zero economic profit) and doesn't need a subsidy."
   },
   {
@@ -3810,12 +3810,12 @@ var APMICRO_MCQ = [
     "question": "Non-price competition, such as advertising, is most prevalent in which market structures?",
     "choices": [
       "Perfect Competition and Monopoly.",
-      "Monopolistic Competition and Oligopoly.",
+      "All market structures.",
       "Monopoly and Oligopoly.",
       "Perfect Competition and Monopolistic Competition.",
-      "All market structures."
+      "Monopolistic Competition and Oligopoly."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Firms in these markets use advertising to differentiate their products or capture market share without changing price."
   },
   {
@@ -3828,13 +3828,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "The government imposes a $10 million annual lump-sum tax on a monopolist that was previously maximizing profit at output Q* and price P*. After the tax is imposed, which of the following will change for the monopolist?",
     "choices": [
-      "Profit-maximizing quantity.",
-      "Profit-maximizing price.",
       "The firm's economic profit.",
+      "Profit-maximizing price.",
+      "Profit-maximizing quantity.",
       "The firm's marginal cost.",
       "The deadweight loss."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "A lump-sum tax is a fixed cost. It shifts the ATC curve upward but does not affect marginal cost. Because the profit-maximizing rule MR = MC is unchanged, the firm continues to produce Q* at price P*. Only economic profit (total revenue minus total cost including the tax) falls."
   },
   {
@@ -3848,12 +3848,12 @@ var APMICRO_MCQ = [
     "question": "Price leadership is a common practice in oligopolies where:",
     "choices": [
       "Firms formally collude to set prices.",
-      "The largest firm sets a price and others follow to avoid a price war.",
+      "The firm with the highest cost sets the price.",
       "The government sets the price for the industry.",
       "Prices are determined by the intersection of MC and ATC.",
-      "The firm with the highest cost sets the price."
+      "The largest firm sets a price and others follow to avoid a price war."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "This is a form of informal/tacit collusion. It's not illegal like a cartel, but it achieves similar results."
   },
   {
@@ -3867,12 +3867,12 @@ var APMICRO_MCQ = [
     "question": "A monopolist produces 100 units where P = $50, MC = $20, and ATC = $30. What is the firm's total profit?",
     "choices": [
       "$3,000.",
-      "$2,000.",
-      "$5,000.",
       "$7,000.",
+      "$5,000.",
+      "$2,000.",
       "$0."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Profit = (P − ATC) × Q = ($50 − $30) × 100 = $2,000. MC is irrelevant to the profit calculation; only price and average total cost matter. Choice C ($5,000) is wrong—it equals P × Q (total revenue), not profit."
   },
   {
@@ -3886,12 +3886,12 @@ var APMICRO_MCQ = [
     "question": "The three largest airlines on a major domestic route are considering lowering ticket prices after fuel costs fall. Despite the cost savings, each airline keeps its prices stable, fearing that any price cut would be immediately matched by rivals, leaving all three worse off. Which of the following best explains this behavior?",
     "choices": [
       "The firms are price takers.",
-      "Fear of starting a price war.",
-      "Barriers to entry are low.",
       "Demand is perfectly elastic.",
+      "Barriers to entry are low.",
+      "Fear of starting a price war.",
       "Marginal revenue is always constant."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Oligopolists are mutually interdependent. If one firm cuts prices, rivals will match the cut to protect market share, triggering a price war that leaves everyone with lower profits. This fear of retaliation—not collusion—is why prices tend to be sticky in oligopolistic markets."
   },
   {
@@ -3905,12 +3905,12 @@ var APMICRO_MCQ = [
     "question": "Compared to the socially optimal quantity, a profit-maximizing monopolist will produce __________ and charge __________.",
     "choices": [
       "more; less",
-      "less; more",
-      "the same; more",
       "less; less",
+      "the same; more",
+      "less; more",
       "the same; the same"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The socially optimal Q is where P = MC. The monopoly Q is where MR = MC. Since MR < P, the monopoly stops producing much sooner and charges what the market will bear."
   },
   {
@@ -3961,14 +3961,14 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "In a payoff matrix, the numbers in the cells represent:",
     "choices": [
-      "The prices charged by the firms.",
-      "The quantities produced by the firms.",
       "The profits (or utility) for each player given their choices.",
+      "The quantities produced by the firms.",
+      "The prices charged by the firms.",
       "The number of firms in the industry.",
       "The elasticity of demand."
     ],
-    "answer": 2,
-    "explanation": "A payoff matrix cell shows the outcome (profit or utility) each player receives for a particular combination of strategies chosen by all players. Choice A is wrong because prices are a strategy variable, not the payoff itself; students confuse inputs (strategy) with outputs (payoff)."
+    "answer": 0,
+    "explanation": "A payoff matrix cell shows the outcome (profit or utility) each player receives for a particular combination of strategies chosen by all players. Choice C is wrong because prices are a strategy variable, not the payoff itself; students confuse inputs (strategy) with outputs (payoff)."
   },
   {
     "id": "micro-u4-m030",
@@ -3981,12 +3981,12 @@ var APMICRO_MCQ = [
     "question": "A firm is allocatively inefficient if:",
     "choices": [
       "It is not producing at the minimum ATC.",
-      "Price is greater than marginal cost.",
-      "Economic profit is zero.",
       "Total revenue is maximized.",
+      "Economic profit is zero.",
+      "Price is greater than marginal cost.",
       "Marginal revenue equals marginal cost."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Allocative efficiency requires P = MC. If P > MC, society values the next unit more than it costs to make, but the firm isn't making it."
   },
   {
@@ -4000,12 +4000,12 @@ var APMICRO_MCQ = [
     "question": "If a natural monopoly is forced to set a price where P = ATC, the resulting output will be:",
     "choices": [
       "Greater than the socially optimal output.",
-      "Less than the socially optimal output but greater than the unregulated output.",
-      "The same as the unregulated output.",
       "Where marginal revenue is zero.",
+      "The same as the unregulated output.",
+      "Less than the socially optimal output but greater than the unregulated output.",
       "The point of maximum deadweight loss."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "P=ATC (Fair Return) is a compromise. It gets more output to consumers than a raw monopoly, but not as much as the P=MC level."
   },
   {
@@ -4019,12 +4019,12 @@ var APMICRO_MCQ = [
     "question": "Productive inefficiency in monopolistic competition is shown by:",
     "choices": [
       "P > MC.",
-      "P > min ATC.",
-      "The lack of barriers to entry.",
       "The presence of zero economic profit.",
+      "The lack of barriers to entry.",
+      "P > min ATC.",
       "MR = MC."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "If the price (and therefore the point on ATC) is above the minimum of the ATC curve, the firm is not using its resources in the least-costly way."
   },
   {
@@ -4038,12 +4038,12 @@ var APMICRO_MCQ = [
     "question": "In a prisoners' dilemma game, the Nash equilibrium usually results in:",
     "choices": [
       "The best possible outcome for both players.",
-      "A suboptimal outcome for both players compared to cooperation.",
-      "One player winning and the other losing everything.",
       "A perfectly competitive market price.",
+      "One player winning and the other losing everything.",
+      "A suboptimal outcome for both players compared to cooperation.",
       "Infinite economic profit."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trap: Players follow their dominant strategy (to confess/cheat), which leads to a worse outcome than if they had both stayed silent/cooperated."
   },
   {
@@ -4475,12 +4475,12 @@ var APMICRO_MCQ = [
     "question": "The demand for automotive workers is considered a derived demand because it depends on:",
     "choices": [
       "The supply of steel and rubber.",
-      "The demand for new cars.",
+      "The price of capital equipment.",
       "The wages of workers in other industries.",
       "The educational level of the workforce.",
-      "The price of capital equipment."
+      "The demand for new cars."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Derived demand means the demand for a resource (labor) comes from the demand for the final product that the resource helps produce."
   },
   {
@@ -4494,12 +4494,12 @@ var APMICRO_MCQ = [
     "question": "If a firm is a price taker in the product market and hires labor in a perfectly competitive labor market, its Marginal Revenue Product (MRP) curve is:",
     "choices": [
       "The same as the Marginal Product (MP) curve.",
-      "Downward sloping because of diminishing marginal returns.",
+      "Upward sloping because higher wages attract more workers.",
       "Horizontal at the market wage rate.",
       "Vertical at the point of full employment.",
-      "Upward sloping because higher wages attract more workers."
+      "Downward sloping because of diminishing marginal returns."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: Students often think MRP is flat like the firm's product demand. But MRP = MP x P. Since MP eventually falls (diminishing returns), the MRP curve must slope downward."
   },
   {
@@ -4513,12 +4513,12 @@ var APMICRO_MCQ = [
     "question": "A firm should continue to hire additional workers as long as:",
     "choices": [
       "The wage is less than the price of the product.",
-      "The Marginal Revenue Product (MRP) is greater than the Marginal Resource Cost (MRC).",
+      "The Marginal Resource Cost (MRC) is falling.",
       "The Marginal Product (MP) is increasing.",
       "Total revenue is increasing.",
-      "The Marginal Resource Cost (MRC) is falling."
+      "The Marginal Revenue Product (MRP) is greater than the Marginal Resource Cost (MRC)."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The hiring rule is identical in logic to MR=MC. A firm hires where the additional revenue from a worker (MRP) equals the additional cost of that worker (MRC/Wage)."
   },
   {
@@ -4532,12 +4532,12 @@ var APMICRO_MCQ = [
     "question": "A firm sells its product for $5 in a perfectly competitive market. Hiring a 5th worker increases total output from 20 to 25 units. What is the MRP of the 5th worker?",
     "choices": [
       "$5.",
-      "$25.",
+      "5 units.",
       "$100.",
       "$125.",
-      "5 units."
+      "$25."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: Don't use total output. Marginal Product (MP) = 5 units (25-20). MRP = MP x Price = 5 x $5 = $25."
   },
   {
@@ -4570,12 +4570,12 @@ var APMICRO_MCQ = [
     "question": "In a monopsony labor market, why is the Marginal Resource Cost (MRC) higher than the wage rate (Labor Supply)?",
     "choices": [
       "Because the firm is a price taker in the product market.",
-      "Because the firm must raise the wage for all current employees to hire one more worker.",
+      "Because workers have more market power than the firm.",
       "Because the firm is allocatively efficient.",
       "Because the supply of labor is perfectly elastic.",
-      "Because workers have more market power than the firm."
+      "Because the firm must raise the wage for all current employees to hire one more worker."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: This mirrors the Monopoly MR < P logic. Since the monopsonist is the only employer, to get more workers, they must raise the wage for the new person AND everyone they already hired."
   },
   {
@@ -4589,12 +4589,12 @@ var APMICRO_MCQ = [
     "question": "A software firm is analyzing four proposed changes to determine which would increase its demand for programmers (shift the labor demand curve to the right). Which of the following would have that effect?",
     "choices": [
       "A decrease in the price of the final product.",
-      "An increase in worker productivity (Marginal Product).",
+      "New government regulations on safety.",
       "A decrease in the market wage rate.",
       "An increase in the price of a complementary resource.",
-      "New government regulations on safety."
+      "An increase in worker productivity (Marginal Product)."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Labor demand equals the Marginal Revenue Product (MRP = MP × P). If worker productivity (MP) rises, each worker generates more revenue for the firm at every wage level, shifting the labor demand curve to the right. A lower output price reduces MRP; fewer firms reduce market demand; lower wages move along the curve rather than shifting it."
   },
   {
@@ -4608,12 +4608,12 @@ var APMICRO_MCQ = [
     "question": "A firm uses labor (L) and capital (K) to produce. The $MP_L = 20$ and $Wage = $10. The $MP_K = 50$ and $Price of Capital = $20. To minimize costs, the firm should:",
     "choices": [
       "Use more labor and less capital.",
-      "Use more capital and less labor.",
+      "Decrease both to maximize profit.",
       "Make no changes; it is already at the least-cost combination.",
       "Hire more of both because both are productive.",
-      "Decrease both to maximize profit."
+      "Use more capital and less labor."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: Labor provides 2 units of output per dollar ($20/10$). Capital provides 2.5 units per dollar ($50/20$). Capital is a better 'bang for your buck,' so use more capital and less labor."
   },
   {
@@ -4665,12 +4665,12 @@ var APMICRO_MCQ = [
     "question": "Compared to a perfectly competitive labor market, a monopsonist will hire __________ workers and pay a __________ wage.",
     "choices": [
       "more; higher",
-      "fewer; lower",
+      "more; lower.",
       "fewer; higher",
       "the same; lower",
-      "more; lower."
+      "fewer; lower"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Monopsonists restrict hiring to keep wages low. They hire where MRC=MRP but only pay the wage required by the supply curve for that quantity."
   },
   {
@@ -4684,12 +4684,12 @@ var APMICRO_MCQ = [
     "question": "If the price of robots (capital) decreases, a firm will hire more labor if the:",
     "choices": [
       "Substitution effect is stronger than the output effect.",
-      "Output effect is stronger than the substitution effect.",
+      "Marginal product of labor decreases.",
       "Labor and capital are substitutes in production.",
       "Wage of labor also decreases.",
-      "Marginal product of labor decreases."
+      "Output effect is stronger than the substitution effect."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The substitution effect makes the firm want to replace people with cheap robots. The output effect makes them want to expand production (hiring more of everything). For labor to increase, the expansion (output) must win."
   },
   {
@@ -4722,12 +4722,12 @@ var APMICRO_MCQ = [
     "question": "Deadweight loss exists in a monopsony labor market because:",
     "choices": [
       "Wages are too high for firms to survive.",
-      "The quantity of labor employed is less than the socially optimal level where $MRP = Wage$.",
+      "MRP is equal to MRC.",
       "The firm is earning zero economic profit.",
       "Labor unions increase the cost of production.",
-      "MRP is equal to MRC."
+      "The quantity of labor employed is less than the socially optimal level where $MRP = Wage$."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: Efficiency occurs where the benefit to the firm (MRP) equals the cost to the worker (Supply/Wage). Monopsonists stop hiring before this point."
   },
   {
@@ -4779,12 +4779,12 @@ var APMICRO_MCQ = [
     "question": "A top professional basketball player earns $40 million per year. A sports economist estimates that this player would still choose to play professional basketball even if paid only $500,000 per year. The remaining $39.5 million is best described as which of the following?",
     "choices": [
       "Equal to its marginal resource cost.",
-      "In excess of the factor's opportunity cost.",
+      "Necessary to keep the factor in its current use.",
       "Determined by government price floors.",
       "Exactly equal to the value of its marginal product.",
-      "Necessary to keep the factor in its current use."
+      "In excess of the factor's opportunity cost."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Economic rent is the payment to a factor of production above and beyond its opportunity cost (the minimum needed to keep it in its current use). The superstar would play for $500,000, so the extra $39.5 million is pure economic rent—payment in excess of opportunity cost."
   },
   {
@@ -4798,12 +4798,12 @@ var APMICRO_MCQ = [
     "question": "A firm's demand for labor increases if there is an increase in:",
     "choices": [
       "The wage rate.",
-      "The price of the good the labor produces.",
+      "The unemployment rate.",
       "The number of workers available.",
       "The income tax rate.",
-      "The unemployment rate."
+      "The price of the good the labor produces."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "If the price of the product rises, MRP (= MP x P) increases at every level of employment, shifting the labor demand curve to the right."
   },
   {
@@ -4817,12 +4817,12 @@ var APMICRO_MCQ = [
     "question": "An individual's labor supply curve may be backward-bending because at high wages:",
     "choices": [
       "The substitution effect is stronger than the income effect.",
-      "The income effect is stronger than the substitution effect.",
+      "There is a surplus of labor in the market.",
       "Workers become less productive.",
       "The marginal product of labor becomes negative.",
-      "There is a surplus of labor in the market."
+      "The income effect is stronger than the substitution effect."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "At very high wages, the 'income effect' (feeling rich enough to work less) eventually outweighs the 'substitution effect' (the higher cost of not working)."
   },
   {
@@ -4874,12 +4874,12 @@ var APMICRO_MCQ = [
     "question": "Wage differentials between two occupations (e.g., surgeons vs. janitors) are primarily caused by differences in:",
     "choices": [
       "The price of the final product only.",
-      "Marginal Revenue Product and the supply of qualified workers.",
+      "The location of the work.",
       "The length of the work week.",
       "Minimum wage laws.",
-      "The location of the work."
+      "Marginal Revenue Product and the supply of qualified workers."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Surgeons have a high $MRP$ and a very low supply (high human capital requirements), leading to high wages."
   },
   {
@@ -4893,12 +4893,12 @@ var APMICRO_MCQ = [
     "question": "If a firm's capital becomes more efficient due to technology, the demand for labor will decrease if labor and capital are:",
     "choices": [
       "Complements.",
-      "Substitutes.",
-      "Normal resources.",
       "Inferior resources.",
+      "Normal resources.",
+      "Substitutes.",
       "Unrelated."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "If they are substitutes, the firm will switch to the more efficient/cheaper capital and hire fewer people."
   },
   {
@@ -4931,12 +4931,12 @@ var APMICRO_MCQ = [
     "question": "An exclusive (craft) union increases the wages of its members by:",
     "choices": [
       "Increasing the demand for their labor.",
-      "Decreasing the supply of their labor through licensing or membership requirements.",
-      "Increasing the marginal product of its members.",
       "Lowering the price of complementary resources.",
+      "Increasing the marginal product of its members.",
+      "Decreasing the supply of their labor through licensing or membership requirements.",
       "Encouraging the use of capital-intensive production."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "By restricting who can do the job, they shift supply left, which forces the wage up."
   },
   {
@@ -4969,12 +4969,12 @@ var APMICRO_MCQ = [
     "question": "The supply curve of labor facing an individual firm in a perfectly competitive labor market is:",
     "choices": [
       "Vertical.",
-      "Horizontal.",
-      "Upward sloping.",
       "Downward sloping.",
+      "Upward sloping.",
+      "Horizontal.",
       "Backward bending."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trap: The *market* supply is upward sloping, but the *firm* is a wage taker and can hire any quantity at the market wage, making its supply curve horizontal."
   },
   {
@@ -4988,12 +4988,12 @@ var APMICRO_MCQ = [
     "question": "If the wage rate for farm workers increases, farmers will most likely:",
     "choices": [
       "Use more labor and less machinery.",
-      "Use more machinery and less labor.",
-      "Increase the price of their crops and hire more labor.",
       "Stop using both labor and machinery.",
+      "Increase the price of their crops and hire more labor.",
+      "Use more machinery and less labor.",
       "Decrease the marginal product of labor."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "As labor becomes more expensive, farmers will substitute toward capital (machinery)."
   },
   {
@@ -5007,12 +5007,12 @@ var APMICRO_MCQ = [
     "question": "In a monopsony, the profit-maximizing level of employment is found where __________ and the wage is found on the __________.",
     "choices": [
       "MRP = Wage; Supply curve",
-      "MRP = MRC; Supply curve",
-      "MRP = MRC; Demand curve",
       "MRC = Wage; Supply curve",
+      "MRP = MRC; Demand curve",
+      "MRP = MRC; Supply curve",
       "MR = MC; Demand curve"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trap: MRC=MRP gives the quantity. But a monopsonist doesn't pay that intersection point; they pay the lowest wage workers are willing to accept for that quantity (the Supply curve)."
   },
   {
@@ -5045,12 +5045,12 @@ var APMICRO_MCQ = [
     "question": "HealthCare Co. is reviewing expenditures to determine which ones represent investments in human capital—improvements to the internal knowledge and skills of individuals. Which of the following does NOT represent an investment in human capital?",
     "choices": [
       "Attending a coding bootcamp.",
-      "Hiring a new manager for a factory.",
-      "Completing a residency program for surgeons.",
       "Learning a second language to help with sales.",
+      "Completing a residency program for surgeons.",
+      "Hiring a new manager for a factory.",
       "Attending a workshop on time management."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Human capital refers to the knowledge, skills, and abilities embedded in individual workers. Attending training, completing residencies, and learning languages all increase a worker's human capital. Hiring a new manager acquires an external resource but does not improve the knowledge of existing employees—it is simply purchasing labor, not investing in human capital."
   },
   {
@@ -5064,12 +5064,12 @@ var APMICRO_MCQ = [
     "question": "If a firm's $MRP$ of labor is $100 and the market wage is $120, the firm should hire __________ workers to __________ profit.",
     "choices": [
       "more; increase",
-      "fewer; increase",
-      "more; decrease",
       "fewer; decrease",
+      "more; decrease",
+      "fewer; increase",
       "the same amount of; maximize"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trap: Students think hiring fewer workers always reduces profit. But here, the last worker costs more than they bring in. By firing them, the firm stops 'losing' that $20, thereby increasing total profit."
   },
   {
@@ -5083,12 +5083,12 @@ var APMICRO_MCQ = [
     "question": "The demand for labor will be more elastic if the demand for the final product is:",
     "choices": [
       "Inelastic.",
-      "Elastic.",
-      "Perfectly inelastic.",
       "Unit elastic.",
+      "Perfectly inelastic.",
+      "Elastic.",
       "Vertical."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "If consumers are very sensitive to the product's price, the firm must be very sensitive to the workers' wages, making labor demand elastic."
   },
   {
@@ -5140,12 +5140,12 @@ var APMICRO_MCQ = [
     "question": "The federal government funds an air-traffic control system that guides all aircraft through U.S. airspace. No airline can be prevented from using the system, and one airline's use does not reduce its availability to other airlines. An economist would classify this service using which pair of characteristics?",
     "choices": [
       "Excludable and Rivalrous.",
-      "Non-excludable and Non-rivalrous.",
+      "Scarcity and High cost.",
       "Government-provided and Free.",
       "Inelastic demand and Positive externalities.",
-      "Scarcity and High cost."
+      "Non-excludable and Non-rivalrous."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Public goods are defined by two properties: non-excludability (you cannot prevent people from using it once it is provided) and non-rivalry (one person's use does not diminish its availability to others). Air-traffic control and national defense are classic examples."
   },
   {
@@ -5158,13 +5158,13 @@ var APMICRO_MCQ = [
     "source": "Generated",
     "question": "In the presence of a negative externality, a free market will produce a quantity where:",
     "choices": [
-      "Marginal Social Benefit equals Marginal Social Cost.",
-      "Marginal Private Cost is greater than Marginal Social Cost.",
       "Marginal Social Cost is greater than Marginal Social Benefit.",
+      "Marginal Private Cost is greater than Marginal Social Cost.",
+      "Marginal Social Benefit equals Marginal Social Cost.",
       "Deadweight loss is eliminated.",
       "Consumer surplus is maximized at the socially optimal level."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Trap: Markets ignore external costs. Therefore, they produce 'too much' of the good, reaching a point where the cost to society (MSC) exceeds the benefit to society (MSB)."
   },
   {
@@ -5178,12 +5178,12 @@ var APMICRO_MCQ = [
     "question": "Which of the following government actions is most appropriate to correct for a positive externality, such as vaccinations?",
     "choices": [
       "An excise tax on producers.",
-      "A per-unit subsidy to consumers.",
+      "A lump-sum tax on the healthcare industry.",
       "A price ceiling to keep costs low.",
       "A regulation to limit the number of vaccinations.",
-      "A lump-sum tax on the healthcare industry."
+      "A per-unit subsidy to consumers."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Subsidies encourage more consumption/production, helping the market reach the higher socially optimal quantity."
   },
   {
@@ -5197,12 +5197,12 @@ var APMICRO_MCQ = [
     "question": "According to the Coase Theorem, private parties can solve externality problems on their own if:",
     "choices": [
       "The government intervenes with Pigouvian taxes.",
-      "Property rights are clearly defined and transaction costs are low.",
+      "All parties have equal income.",
       "The externality is positive rather than negative.",
       "The number of parties involved is very large.",
-      "All parties have equal income."
+      "Property rights are clearly defined and transaction costs are low."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: Students often think government is always needed. Coase argues that if bargaining is 'cheap' and someone 'owns' the resource, they'll settle it themselves."
   },
   {
@@ -5216,12 +5216,12 @@ var APMICRO_MCQ = [
     "question": "A neighborhood association is raising funds to install street lighting throughout the area. Every resident will benefit from safer, better-lit streets regardless of whether they donated. Many residents decline to contribute, counting on others to pay while still enjoying the lighting for free. This behavior best illustrates a problem associated with which of the following?",
     "choices": [
       "Private goods.",
-      "Public goods.",
+      "Inferior goods.",
       "Monopolies.",
       "Perfectly competitive markets.",
-      "Inferior goods."
+      "Public goods."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "The free-rider problem arises with public goods because non-excludability means people cannot be prevented from benefiting even if they do not pay. Rational individuals have an incentive to let others fund the good—undermining the private market's ability to provide it at an efficient level."
   },
   {
@@ -5235,12 +5235,12 @@ var APMICRO_MCQ = [
     "question": "The 'Tragedy of the Commons' occurs because common resources are:",
     "choices": [
       "Excludable but non-rivalrous.",
-      "Non-excludable and rivalrous.",
+      "Owned by the government.",
       "Non-excludable and non-rivalrous.",
       "Excludable and rivalrous.",
-      "Owned by the government."
+      "Non-excludable and rivalrous."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Common resources (like fish in the ocean) are open to everyone (non-excludable), but one person's catch leaves fewer for others (rivalrous), leading to over-exploitation."
   },
   {
@@ -5254,12 +5254,12 @@ var APMICRO_MCQ = [
     "question": "If a country's Lorenz Curve moves closer to the 45-degree line of perfect equality, what has happened to the Gini Coefficient?",
     "choices": [
       "It has increased, indicating more inequality.",
-      "It has decreased, indicating more equality.",
+      "It has reached 1.0.",
       "It has remained constant.",
       "It has become negative.",
-      "It has reached 1.0."
+      "It has decreased, indicating more equality."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: A Gini of 0 is perfect equality; a Gini of 1 is perfect inequality. Moving toward the 45-degree line reduces the area of inequality, lowering the Gini coefficient."
   },
   {
@@ -5311,12 +5311,12 @@ var APMICRO_MCQ = [
     "question": "In a market with a positive externality and no government intervention, the deadweight loss is the result of:",
     "choices": [
       "Producing units where the marginal social cost exceeds the marginal social benefit.",
-      "Failing to produce units where the marginal social benefit exceeds the marginal social cost.",
+      "The Gini coefficient being too high.",
       "The government over-taxing the producers.",
       "The price being too high for consumers to afford.",
-      "The Gini coefficient being too high."
+      "Failing to produce units where the marginal social benefit exceeds the marginal social cost."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: Students often think only 'too much' (negative externalities) causes DWL. In positive externalities, we produce 'too little,' missing out on social gains."
   },
   {
@@ -5330,12 +5330,12 @@ var APMICRO_MCQ = [
     "question": "A sales tax is often considered regressive because:",
     "choices": [
       "High-income individuals pay a higher percentage of their income in sales tax.",
-      "Low-income individuals spend a larger percentage of their income on taxable goods.",
+      "It encourages people to save rather than spend.",
       "The tax rate decreases as the price of the good increases.",
       "It is only applied to luxury goods.",
-      "It encourages people to save rather than spend."
+      "Low-income individuals spend a larger percentage of their income on taxable goods."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Since lower-income people spend most of what they earn on consumption, the 'flat' sales tax takes a bigger bite out of their total budget than it does for the wealthy."
   },
   {
@@ -5349,12 +5349,12 @@ var APMICRO_MCQ = [
     "question": "To achieve allocative efficiency in a market with a negative externality, the government should set a per-unit tax equal to the:",
     "choices": [
       "Marginal private cost.",
-      "Marginal external cost at the socially optimal quantity.",
+      "Total external cost.",
       "Marginal social benefit.",
       "Difference between price and average total cost.",
-      "Total external cost."
+      "Marginal external cost at the socially optimal quantity."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Trap: A 'Pigouvian' tax must exactly internalize the spillover cost (MEC) to shift the supply curve to the MSC level."
   },
   {
@@ -5368,12 +5368,12 @@ var APMICRO_MCQ = [
     "question": "Which of the following would most likely decrease income inequality in a country?",
     "choices": [
       "Replacing a progressive income tax with a flat tax.",
-      "Increasing spending on public education and job training.",
+      "A decrease in the Gini coefficient.",
       "Eliminating the minimum wage.",
       "Reducing inheritance taxes on the wealthy.",
-      "A decrease in the Gini coefficient."
+      "Increasing spending on public education and job training."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Improving human capital for lower-income groups helps raise their earning potential and reduces the wealth gap."
   },
   {
@@ -5387,12 +5387,12 @@ var APMICRO_MCQ = [
     "question": "Adverse selection occurs in the insurance market when:",
     "choices": [
       "The insurance company charges everyone the same price.",
-      "Only the people with the highest risk of loss buy insurance.",
+      "Insurance premiums are set below marginal cost.",
       "People take more risks after they are insured.",
       "The government provides universal healthcare.",
-      "Insurance premiums are set below marginal cost."
+      "Only the people with the highest risk of loss buy insurance."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Adverse selection is a 'pre-contract' problem where the 'wrong' people (the high-risk ones) are the only ones who want the deal."
   },
   {
@@ -5406,12 +5406,12 @@ var APMICRO_MCQ = [
     "question": "An insurance company observes that drivers with comprehensive collision coverage have significantly more at-fault accidents per year than drivers with high-deductible plans—even after controlling for driving experience and age. An economist analyzing this behavioral pattern would identify it as an example of which of the following?",
     "choices": [
       "A person with a family history of heart disease buys health insurance.",
-      "A person drives more recklessly after buying car insurance.",
+      "A worker is more productive after receiving a raise.",
       "A firm pollutes a river because it doesn't own the water rights.",
       "A consumer buys a 'lemon' of a car because the seller hid the defects.",
-      "A worker is more productive after receiving a raise."
+      "A person drives more recklessly after buying car insurance."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Moral hazard is a post-contract change in behavior: once insured, people take on more risk because they bear less of the cost of adverse outcomes. Comprehensive coverage reduces the personal cost of accidents, so insured drivers become less cautious. Option A (adverse selection) is a pre-contract problem; Option C is a negative externality; Option D (buying a lemon) is an asymmetric information problem at the time of purchase."
   },
   {
@@ -5425,12 +5425,12 @@ var APMICRO_MCQ = [
     "question": "An example of a negative externality in consumption is:",
     "choices": [
       "A factory polluting the air.",
-      "Second-hand smoke from a cigarette.",
+      "A firm under-investing in research and development.",
       "A homeowner planting a beautiful garden.",
       "A student getting a flu shot.",
-      "A firm under-investing in research and development."
+      "Second-hand smoke from a cigarette."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Consumption externalities happen when the *user* of the good harms others. Production externalities (A) happen when the *maker* harms others."
   },
   {
@@ -5444,12 +5444,12 @@ var APMICRO_MCQ = [
     "question": "A good is considered excludable if:",
     "choices": [
       "One person's use of the good prevents others from using it.",
-      "People can be prevented from using the good if they don't pay for it.",
+      "The marginal cost of providing it to an additional user is zero.",
       "The government provides the good for free.",
       "The good is a natural monopoly.",
-      "The marginal cost of providing it to an additional user is zero."
+      "People can be prevented from using the good if they don't pay for it."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Excludability means a provider can prevent non-payers from consuming the good, enabling a price to be charged. Choice A describes rivalrousness (one person's use reduces availability to others), which is a separate dimension of goods classification."
   },
   {
@@ -5463,12 +5463,12 @@ var APMICRO_MCQ = [
     "question": "The primary economic justification for government antitrust laws is to:",
     "choices": [
       "Ensure that all firms in an industry are the same size.",
-      "Protect consumers from high prices and output restrictions by monopolies.",
-      "Guarantee that all firms earn zero economic profit.",
       "Prevent negative externalities in production.",
+      "Guarantee that all firms earn zero economic profit.",
+      "Protect consumers from high prices and output restrictions by monopolies.",
       "Increase the Gini coefficient."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trap: Antitrust isn't about 'fairness' to firms, but about efficiency. Monopolies hurt society by under-producing and over-charging."
   },
   {
@@ -5520,12 +5520,12 @@ var APMICRO_MCQ = [
     "question": "Why does the private market often fail to provide the efficient amount of public goods?",
     "choices": [
       "Because public goods are too expensive for any one firm.",
-      "Because firms cannot profitably charge for them due to non-excludability.",
-      "Because the government has a monopoly on all public goods.",
       "Because the marginal cost of production is too high.",
+      "Because the government has a monopoly on all public goods.",
+      "Because firms cannot profitably charge for them due to non-excludability.",
       "Because consumer demand for public goods is zero."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "If you can't force people to pay, you can't make a profit, so private firms won't make the good."
   },
   {
@@ -5539,12 +5539,12 @@ var APMICRO_MCQ = [
     "question": "On a graph showing a negative externality, the socially optimal quantity is found where:",
     "choices": [
       "The Demand curve (MSB) intersects the Supply curve (MPC).",
-      "The Marginal Social Benefit curve intersects the Marginal Social Cost curve.",
-      "The Marginal Private Benefit exceeds the Marginal Private Cost.",
       "The Marginal Social Cost is at its minimum.",
+      "The Marginal Private Benefit exceeds the Marginal Private Cost.",
+      "The Marginal Social Benefit curve intersects the Marginal Social Cost curve.",
       "Price equals Average Total Cost."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Efficiency *always* requires looking at the total costs and benefits to everyone (Social)."
   },
   {
@@ -5558,12 +5558,12 @@ var APMICRO_MCQ = [
     "question": "If the Marginal Private Benefit of a good is $20 and there is a Marginal External Benefit of $10, at the current level of consumption, the good is:",
     "choices": [
       "Over-consumed by the market.",
-      "Under-consumed by the market.",
-      "Produced at the socially optimal level.",
       "Subject to a negative externality.",
+      "Produced at the socially optimal level.",
+      "Under-consumed by the market.",
       "Allocatively efficient."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Since MSB ($30) > MPB ($20), the market is ignoring some benefits and therefore consuming too little."
   },
   {
@@ -5615,12 +5615,12 @@ var APMICRO_MCQ = [
     "question": "A lighthouse guides all ships safely past dangerous coastal rocks, and each ship that uses its beam does not reduce the light available to other ships. A shared fishing lake, by contrast, becomes depleted as more boats fish it. Which of the following correctly identifies the key economic difference between a lighthouse and a shared fishing lake?",
     "choices": [
       "Public goods are excludable; common resources are not.",
-      "Public goods are non-rivalrous; common resources are rivalrous.",
-      "Public goods are provided by firms; common resources by the government.",
       "There is no difference.",
+      "Public goods are provided by firms; common resources by the government.",
+      "Public goods are non-rivalrous; common resources are rivalrous.",
       "Public goods create negative externalities."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The key distinction is rivalry. A lighthouse is non-rivalrous—one ship's use does not reduce its availability to others. A shared fishery is rivalrous—each fish caught reduces the stock available to others. Both a lighthouse and a shared fishery are non-excludable (difficult to restrict access), which is why they each create market problems."
   },
   {
@@ -5634,12 +5634,12 @@ var APMICRO_MCQ = [
     "question": "The goal of a Pigouvian tax is to:",
     "choices": [
       "Maximize tax revenue for the government.",
-      "Make the marginal private cost equal to the marginal social cost.",
-      "Provide a safety net for low-income families.",
       "Redistribute wealth from consumers to producers.",
+      "Provide a safety net for low-income families.",
+      "Make the marginal private cost equal to the marginal social cost.",
       "Eliminate the need for property rights."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "By forcing the firm to pay for the 'extra' cost it causes, the firm's own cost curves now reflect the true social cost."
   },
   {
@@ -5672,12 +5672,12 @@ var APMICRO_MCQ = [
     "question": "Government failure refers to situations where:",
     "choices": [
       "The market fails to allocate resources efficiently.",
-      "Government intervention in a market results in a less efficient outcome than the market alone.",
-      "A progressive tax system fails to reduce the Gini coefficient.",
       "The government runs a budget deficit.",
+      "A progressive tax system fails to reduce the Gini coefficient.",
+      "Government intervention in a market results in a less efficient outcome than the market alone.",
       "Voters choose to eliminate all public goods."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Trap: Markets aren't the only things that fail. Sometimes the government's 'fix' (due to bad incentives or lack of info) makes things even worse."
   },
   {
@@ -5691,12 +5691,12 @@ var APMICRO_MCQ = [
     "question": "In a market economy, the distribution of income is primarily determined by:",
     "choices": [
       "Government decree.",
-      "The prices of resources (factors) in the market.",
-      "The total amount of public goods provided.",
       "The level of the Gini coefficient.",
+      "The total amount of public goods provided.",
+      "The prices of resources (factors) in the market.",
       "The number of monopolies in the country."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "You get paid based on the value of what you sell—whether it's your labor, land, or capital."
   },
   {
@@ -5711,11 +5711,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Despite having oil reserves, coastal fishing waters, and millions of workers, a nation still cannot provide all its citizens with the housing, food, technology, and healthcare they desire. This situation illustrates which of the following economic concepts?",
     "choices": [
-      "A) The condition that resources are limited while human wants are unlimited",
-      "B) A situation where people do not have enough money to buy what they want",
-      "C) When a good becomes rare and expensive in the market",
-      "D) The inability of poor countries to meet basic needs",
-      "E) A temporary shortage of a particular product"
+      "The condition that resources are limited while human wants are unlimited",
+      "A situation where people do not have enough money to buy what they want",
+      "When a good becomes rare and expensive in the market",
+      "The inability of poor countries to meet basic needs",
+      "A temporary shortage of a particular product"
     ],
     "answer": 0,
     "explanation": "Scarcity is the fundamental economic problem: resources are limited while human wants are unlimited. This applies universally—even resource-rich nations face scarcity. Choice B confuses scarcity with poverty, C refers to temporary market shortages, D focuses only on poor countries, and E describes a temporary phenomenon rather than the universal condition."
@@ -5732,11 +5732,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If Maria chooses to spend her Saturday studying for economics instead of working at her part-time job where she earns $60, what is her opportunity cost of studying?",
     "choices": [
-      "A) $60",
-      "B) The economics grade she will receive",
-      "C) $0 because studying has no cost",
-      "D) The value of studying plus $60",
-      "E) Whatever she would have bought with the $60"
+      "$60",
+      "The economics grade she will receive",
+      "$0 because studying has no cost",
+      "The value of studying plus $60",
+      "Whatever she would have bought with the $60"
     ],
     "answer": 0,
     "explanation": "Opportunity cost is the value of the next best alternative foregone. Since Maria gives up earning $60 to study, her opportunity cost is $60. Choice B is the benefit received, not the cost. Choice C ignores the foregone earnings. Choice D adds benefits to costs incorrectly. Choice E confuses what money could buy with the money itself."
@@ -5753,11 +5753,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Country A can produce 10 cars or 20 computers per day. Country B can produce 6 cars or 12 computers per day. Which statement is correct?",
     "choices": [
-      "A) Country A has absolute advantage in both cars and computers",
-      "B) Country B has absolute advantage in both cars and computers",
-      "C) Country A has absolute advantage in cars, Country B in computers",
-      "D) Country A has absolute advantage in computers, Country B in cars",
-      "E) Neither country has absolute advantage in either good"
+      "Country A has absolute advantage in both cars and computers",
+      "Country B has absolute advantage in both cars and computers",
+      "Country A has absolute advantage in cars, Country B in computers",
+      "Country A has absolute advantage in computers, Country B in cars",
+      "Neither country has absolute advantage in either good"
     ],
     "answer": 0,
     "explanation": "Absolute advantage means being able to produce more of a good with the same resources. Country A produces more cars (10 vs 6) and more computers (20 vs 12) than Country B, so A has absolute advantage in both goods. Students often confuse this with comparative advantage or think production must be split between countries."
@@ -5774,11 +5774,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In the basic circular flow model, households provide which of the following to firms?",
     "choices": [
-      "A) Land, labor, and capital",
-      "B) Goods and services",
-      "C) Government regulations",
-      "D) Money and credit",
-      "E) Technology and innovation"
+      "Land, labor, and capital",
+      "Goods and services",
+      "Government regulations",
+      "Money and credit",
+      "Technology and innovation"
     ],
     "answer": 0,
     "explanation": "In the circular flow model, households provide factors of production (land, labor, and capital) to firms in exchange for income. Choice B describes what firms provide to households. Choice C involves government, not households. Choice D confuses the payment flow with resource flow. Choice E is too specific and not the primary flow from households to firms."
@@ -5795,11 +5795,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A country has unlimited natural resources but a limited number of skilled engineers. This situation best illustrates which economic principle?",
     "choices": [
-      "A) Scarcity exists only when all resources are limited",
-      "B) Scarcity can exist even when some resources are abundant",
-      "C) Natural resources are more important than human resources",
-      "D) Unlimited resources eliminate the need for economic choices",
-      "E) Countries with natural resources face no economic problems"
+      "Scarcity exists only when all resources are limited",
+      "Scarcity can exist even when some resources are abundant",
+      "Natural resources are more important than human resources",
+      "Unlimited resources eliminate the need for economic choices",
+      "Countries with natural resources face no economic problems"
     ],
     "answer": 1,
     "explanation": "Scarcity exists when at least one resource needed for production is limited, even if other resources are abundant. The limited skilled engineers create scarcity despite unlimited natural resources. Option A incorrectly suggests all resources must be limited, while D and E ignore that any limitation creates scarcity."
@@ -5816,11 +5816,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Sarah can either work 4 hours earning $15/hour or study for an exam. If she works, she also misses a $20 meal with friends. What is her opportunity cost of studying?",
     "choices": [
-      "A) $15",
-      "B) $20",
-      "C) $60",
-      "D) $80",
-      "E) $95"
+      "$15",
+      "$20",
+      "$60",
+      "$80",
+      "$95"
     ],
     "answer": 3,
     "explanation": "Opportunity cost includes all benefits given up. By studying, Sarah gives up both her work earnings ($15 × 4 = $60) and the meal with friends ($20), totaling $80. Students often miss the meal component (choosing C) or count only one element, but opportunity cost must include all forgone benefits."
@@ -5837,11 +5837,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If an economy operating inside its production possibilities curve suddenly has 20% of its workforce become unemployed, what will happen to the curve and the economy's position?",
     "choices": [
-      "A) The curve shifts inward and the economy moves further inside",
-      "B) The curve shifts inward but the economy moves to the curve",
-      "C) The curve stays the same and the economy moves further inside",
-      "D) The curve shifts outward and the economy moves to the curve",
-      "E) The curve stays the same and the economy moves to the curve"
+      "The curve shifts inward and the economy moves further inside",
+      "The curve shifts inward but the economy moves to the curve",
+      "The curve stays the same and the economy moves further inside",
+      "The curve shifts outward and the economy moves to the curve",
+      "The curve stays the same and the economy moves to the curve"
     ],
     "answer": 0,
     "explanation": "Increased unemployment reduces available resources, shifting the PPC inward (less maximum production possible). Since the economy was already inside the curve and loses more workers, it moves even further inside the new, smaller curve. Option C incorrectly assumes unemployed workers don't affect the curve's position."
@@ -5858,11 +5858,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Country A can produce 10 cars or 5 trucks per day. Country B can produce 8 cars or 8 trucks per day. Which statement about comparative advantage is correct?",
     "choices": [
-      "A) Country A has comparative advantage in both goods",
-      "B) Country A has comparative advantage in cars, Country B in trucks",
-      "C) Country A has comparative advantage in trucks, Country B in cars",
-      "D) Neither country has comparative advantage in either good",
-      "E) Both countries have comparative advantage in trucks"
+      "Country A has comparative advantage in both goods",
+      "Country A has comparative advantage in cars, Country B in trucks",
+      "Country A has comparative advantage in trucks, Country B in cars",
+      "Neither country has comparative advantage in either good",
+      "Both countries have comparative advantage in trucks"
     ],
     "answer": 1,
     "explanation": "Country A's opportunity cost: 1 car = 0.5 trucks, 1 truck = 2 cars. Country B's opportunity cost: 1 car = 1 truck, 1 truck = 1 car. Country A has lower opportunity cost for cars (0.5 vs 1 truck), while Country B has lower opportunity cost for trucks (1 vs 2 cars). Students often confuse this with absolute advantage or miscalculate opportunity costs."
@@ -5879,11 +5879,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Worker X can produce 12 widgets or 4 gadgets per hour. Worker Y can produce 8 widgets or 6 gadgets per hour. If the workers want to maximize total output, what should happen?",
     "choices": [
-      "A) Worker X should produce widgets since they have absolute advantage",
-      "B) Worker Y should produce gadgets since they have absolute advantage",
-      "C) Both workers should produce widgets since X has absolute advantage",
-      "D) Worker X should specialize in widgets, Worker Y in gadgets based on comparative advantage",
-      "E) Both workers should produce both goods equally"
+      "Worker X should produce widgets since they have absolute advantage",
+      "Worker Y should produce gadgets since they have absolute advantage",
+      "Both workers should produce widgets since X has absolute advantage",
+      "Worker X should specialize in widgets, Worker Y in gadgets based on comparative advantage",
+      "Both workers should produce both goods equally"
     ],
     "answer": 3,
     "explanation": "While X has absolute advantage in widgets (12 vs 8), specialization should be based on comparative advantage. X's opportunity cost per widget is 1/3 gadget vs Y's 3/4 gadget, so X should make widgets. Y has comparative advantage in gadgets (opportunity cost 4/3 widgets vs X's 3 widgets). Students often confuse absolute and comparative advantage for specialization decisions."
@@ -5900,13 +5900,13 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Two countries trade based on comparative advantage. After trade, one country produces less of both goods than before trade. This outcome indicates:",
     "choices": [
-      "A) The trade was harmful and should be stopped",
-      "B) The country lacks absolute advantage and cannot benefit",
-      "C) The country is consuming more of both goods despite producing less",
-      "D) Comparative advantage theory is incorrect",
-      "E) The country should return to self-sufficiency"
+      "The trade was harmful and should be stopped",
+      "The country lacks absolute advantage and cannot benefit",
+      "Comparative advantage theory is incorrect",
+      "The country is consuming more of both goods despite producing less",
+      "The country should return to self-sufficiency"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "When countries specialize based on comparative advantage, they may produce less of one or both goods individually but can consume more through trade. The country imports goods it no longer produces efficiently, allowing higher consumption. Students often think reduced production means reduced welfare, missing that trade allows consumption beyond production limits."
   },
   {
@@ -5921,11 +5921,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In which economic system would a government committee most likely determine both what goods are produced and their prices?",
     "choices": [
-      "A) Market economy",
-      "B) Mixed economy",
-      "C) Command economy",
-      "D) Traditional economy",
-      "E) Capitalist economy"
+      "Market economy",
+      "Mixed economy",
+      "Command economy",
+      "Traditional economy",
+      "Capitalist economy"
     ],
     "answer": 2,
     "explanation": "Command economies feature central planning where government committees make production and pricing decisions. Market economies use price signals and private decisions, while mixed economies combine both approaches. Traditional economies rely on customs and habits. Students sometimes confuse mixed economies as having complete government control."
@@ -5942,11 +5942,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In the circular flow model, when households purchase groceries from firms, this transaction represents:",
     "choices": [
-      "A) A flow of resources from households to firms",
-      "B) A flow of goods and services from households to firms",
-      "C) A flow of money from firms to households",
-      "D) A flow of goods and services from firms to households",
-      "E) A flow of factors of production from firms to households"
+      "A flow of resources from households to firms",
+      "A flow of goods and services from households to firms",
+      "A flow of money from firms to households",
+      "A flow of goods and services from firms to households",
+      "A flow of factors of production from firms to households"
     ],
     "answer": 3,
     "explanation": "When households buy groceries, firms provide goods/services to households in exchange for money flowing from households to firms. This represents the goods/services flow from firms to households. Students often confuse the direction of flows or mix up the resource market (where households sell labor) with the product market (where households buy goods)."
@@ -5963,11 +5963,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A technological breakthrough allows a factory to double its output using the same inputs. This development:",
     "choices": [
-      "A) Eliminates scarcity for that industry",
-      "B) Reduces scarcity but does not eliminate it",
-      "C) Has no effect on scarcity since wants are unlimited",
-      "D) Only affects scarcity if demand increases",
-      "E) Creates scarcity in other industries"
+      "Eliminates scarcity for that industry",
+      "Reduces scarcity but does not eliminate it",
+      "Has no effect on scarcity since wants are unlimited",
+      "Only affects scarcity if demand increases",
+      "Creates scarcity in other industries"
     ],
     "answer": 1,
     "explanation": "Increased efficiency reduces scarcity by making more goods available from the same resources, but doesn't eliminate it since resources remain limited and human wants are unlimited. Students often think efficiency improvements eliminate scarcity (A) or have no effect because wants are unlimited (C), missing that scarcity is about the relationship between limited resources and unlimited wants."
@@ -5984,11 +5984,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A student has $100 and must choose between a concert ticket ($60), a textbook ($80), or a video game ($50). If they choose the concert, what is their opportunity cost?",
     "choices": [
-      "A) $60",
-      "B) $80",
-      "C) $50",
-      "D) The textbook",
-      "E) The video game"
+      "$60",
+      "$80",
+      "$50",
+      "The textbook",
+      "The video game"
     ],
     "answer": 4,
     "explanation": "Opportunity cost is the next-best alternative forgone. With $100, the student can afford either the concert ($60) or video game ($50), but not the textbook ($80). When choosing the concert, the next-best affordable option is the video game. Students often choose the textbook (D) without considering affordability constraints, or confuse opportunity cost with the price paid (A)."
@@ -6005,11 +6005,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If Nation X has an absolute advantage in producing both wheat and cloth compared to Nation Y, which statement is necessarily true?",
     "choices": [
-      "A) Nation X should produce both goods and not trade",
-      "B) Nation Y cannot benefit from trade with Nation X",
-      "C) Nation Y must have comparative advantage in at least one good",
-      "D) Nation X has comparative advantage in both goods",
-      "E) Trade between the nations would be impossible"
+      "Nation X should produce both goods and not trade",
+      "Nation Y cannot benefit from trade with Nation X",
+      "Nation Y must have comparative advantage in at least one good",
+      "Nation X has comparative advantage in both goods",
+      "Trade between the nations would be impossible"
     ],
     "answer": 2,
     "explanation": "Even with absolute advantage in both goods, Nation X cannot have comparative advantage in both due to opportunity costs. If X is relatively better at wheat than cloth compared to Y, then Y must have comparative advantage in cloth. This fundamental principle ensures gains from trade exist. Students often think absolute advantage determines trade patterns (A, B) or is the same as comparative advantage (D)."
@@ -6026,11 +6026,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Country A can produce 20 cars or 10 computers. Country B can produce 10 cars or 20 computers. If they trade 1 car for 1.5 computers, which country benefits and why?",
     "choices": [
-      "A) Only Country A benefits because it has absolute advantage in cars",
-      "B) Only Country B benefits because it has absolute advantage in computers",
-      "C) Both countries benefit because the rate is between their opportunity costs",
-      "D) Neither benefits because they're trading equal value",
-      "E) Country B benefits more because computers are worth more than cars"
+      "Only Country A benefits because it has absolute advantage in cars",
+      "Only Country B benefits because it has absolute advantage in computers",
+      "Both countries benefit because the rate is between their opportunity costs",
+      "Neither benefits because they're trading equal value",
+      "Country B benefits more because computers are worth more than cars"
     ],
     "answer": 2,
     "explanation": "Country A's opportunity cost: 1 car = 0.5 computers. Country B's: 1 car = 2 computers. Trading 1 car for 1.5 computers benefits both: A gets more than its 0.5 computer opportunity cost, B pays less than its 2 computer opportunity cost. The trade rate falls between opportunity costs (0.5 to 2), ensuring mutual gains. Students often focus on absolute advantage or assume equal trades mean no benefit."
@@ -6047,11 +6047,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Which characteristic would most likely be found in a traditional economic system rather than a market system?",
     "choices": [
-      "A) Prices determined by supply and demand",
-      "B) Private ownership of production facilities",
-      "C) Economic roles determined by family heritage",
-      "D) Competition among producers",
-      "E) Profit-maximizing behavior"
+      "Prices determined by supply and demand",
+      "Private ownership of production facilities",
+      "Economic roles determined by family heritage",
+      "Competition among producers",
+      "Profit-maximizing behavior"
     ],
     "answer": 2,
     "explanation": "Traditional economies rely on customs, habits, and family roles passed down through generations to determine economic activity. Market systems use price mechanisms, private ownership, and competition. Students often confuse traditional systems with command systems or don't recognize how family heritage determines economic roles in traditional societies."
@@ -6068,11 +6068,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In the resource market of the circular flow model, what do households supply and what do they receive in return?",
     "choices": [
-      "A) Supply money, receive goods and services",
-      "B) Supply goods and services, receive money",
-      "C) Supply factors of production, receive money income",
-      "D) Supply factors of production, receive goods and services",
-      "E) Supply money, receive factors of production"
+      "Supply money, receive goods and services",
+      "Supply goods and services, receive money",
+      "Supply factors of production, receive money income",
+      "Supply factors of production, receive goods and services",
+      "Supply money, receive factors of production"
     ],
     "answer": 2,
     "explanation": "In resource markets, households supply factors of production (labor, land, capital) to firms and receive money income (wages, rent, profits) in return. This is opposite to product markets where households supply money and receive goods/services. Students often confuse the two markets or mix up what flows in which direction between households and firms."
@@ -6089,11 +6089,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Factory A produces 200 units per day with 10 workers. Factory B produces 150 units per day with 6 workers. Which statement about absolute and comparative advantage is correct?",
     "choices": [
-      "A) Factory A has absolute advantage, so it should produce all units",
-      "B) Factory B has absolute advantage in productivity per worker",
-      "C) Factory A has absolute advantage in total output, Factory B in labor productivity",
-      "D) Neither factory has absolute advantage",
-      "E) Absolute advantage cannot be determined without cost information"
+      "Factory A has absolute advantage, so it should produce all units",
+      "Factory B has absolute advantage in productivity per worker",
+      "Factory A has absolute advantage in total output, Factory B in labor productivity",
+      "Neither factory has absolute advantage",
+      "Absolute advantage cannot be determined without cost information"
     ],
     "answer": 2,
     "explanation": "Absolute advantage can be measured in different ways. Factory A has absolute advantage in total daily output (200 vs 150), while Factory B has absolute advantage in labor productivity (25 units/worker vs 20 units/worker). This shows absolute advantage depends on the metric used. Students often think absolute advantage is single-dimensional or confuse it with efficiency measures."
@@ -6110,11 +6110,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A country discovers a new technology that doubles the productivity of all its resources. Which of the following best describes the impact on scarcity?",
     "choices": [
-      "A) Scarcity is eliminated because resources are now twice as productive",
-      "B) Scarcity is reduced by half since productivity doubled",
-      "C) Scarcity remains unchanged because wants are unlimited relative to resources",
-      "D) Scarcity increases because people will demand more goods",
-      "E) Scarcity becomes temporary until the technology is fully implemented"
+      "Scarcity is eliminated because resources are now twice as productive",
+      "Scarcity is reduced by half since productivity doubled",
+      "Scarcity remains unchanged because wants are unlimited relative to resources",
+      "Scarcity increases because people will demand more goods",
+      "Scarcity becomes temporary until the technology is fully implemented"
     ],
     "answer": 2,
     "explanation": "Scarcity exists because human wants are unlimited while resources remain finite. Even if productivity doubles, resources are still limited and cannot satisfy all human wants. Options A and B incorrectly assume scarcity can be eliminated or quantitatively reduced. Option D confuses increased demand with scarcity itself. Option E misunderstands scarcity as a temporary condition rather than a fundamental economic problem."
@@ -6131,11 +6131,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Sarah can earn $20/hour tutoring, $15/hour at a retail job, or $12/hour doing data entry. She also values leisure time at $8/hour. If Sarah chooses to work 4 hours tutoring instead of taking leisure time, what is her opportunity cost?",
     "choices": [
-      "A) $32 in foregone leisure value",
-      "B) $60 in foregone retail earnings",
-      "C) $48 in foregone data entry earnings",
-      "D) $28 in foregone leisure value minus the difference between tutoring and retail",
-      "E) $80 in tutoring earnings"
+      "$32 in foregone leisure value",
+      "$60 in foregone retail earnings",
+      "$48 in foregone data entry earnings",
+      "$28 in foregone leisure value minus the difference between tutoring and retail",
+      "$80 in tutoring earnings"
     ],
     "answer": 0,
     "explanation": "Opportunity cost is the value of the next best alternative foregone. Since Sarah chose tutoring over leisure time (not over other work), the opportunity cost is the value of the leisure time given up: 4 hours × $8/hour = $32. Option B incorrectly assumes she was choosing between tutoring and retail work. Option C uses the wrong alternative. Option D creates an unnecessary complex calculation. Option E confuses opportunity cost with actual earnings."
@@ -6152,11 +6152,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "An economy's PPC shows increasing opportunity costs. If the economy is currently producing at a point inside the PPC and moves to a point on the PPC by increasing production of both goods, what can be concluded about opportunity costs during this move?",
     "choices": [
-      "A) Opportunity costs increase because the PPC shows increasing opportunity costs",
-      "B) Opportunity costs decrease because both goods increased",
-      "C) Opportunity costs are zero because the economy moved from inefficient to efficient production",
-      "D) Opportunity costs are constant because resources were simply reallocated",
-      "E) Opportunity costs cannot be determined without knowing the specific points"
+      "Opportunity costs increase because the PPC shows increasing opportunity costs",
+      "Opportunity costs decrease because both goods increased",
+      "Opportunity costs are zero because the economy moved from inefficient to efficient production",
+      "Opportunity costs are constant because resources were simply reallocated",
+      "Opportunity costs cannot be determined without knowing the specific points"
     ],
     "answer": 2,
     "explanation": "When moving from inside the PPC to on the PPC while increasing both goods, the economy is using previously unemployed or misallocated resources. No trade-off occurs between the two goods, so opportunity cost is zero. Option A incorrectly applies the PPC's shape to this specific movement. Option B confuses the direction of change with opportunity cost. Option D misunderstands that reallocation from inefficiency doesn't involve trade-offs. Option E is incorrect because the principle applies regardless of specific points."
@@ -6173,11 +6173,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Two countries trade at a rate of 3 wheat for 2 cloth. Country A's domestic rate is 2 wheat for 1 cloth, and Country B's domestic rate is 4 wheat for 1 cloth. What happens to the gains from trade if the trade rate changes to 5 wheat for 2 cloth?",
     "choices": [
-      "A) Both countries gain more because the trade rate moved closer to the middle of their domestic rates",
-      "B) Country A gains more while Country B gains less compared to the original trade",
-      "C) Country B gains more while Country A gains less compared to the original trade",
-      "D) The gains from trade are eliminated because the new rate is outside the mutually beneficial range",
-      "E) Total gains remain the same but are redistributed between the countries"
+      "Both countries gain more because the trade rate moved closer to the middle of their domestic rates",
+      "Country A gains more while Country B gains less compared to the original trade",
+      "Country B gains more while Country A gains less compared to the original trade",
+      "The gains from trade are eliminated because the new rate is outside the mutually beneficial range",
+      "Total gains remain the same but are redistributed between the countries"
     ],
     "answer": 2,
     "explanation": "The new rate (5W:2C or 2.5W:1C) is still between A's domestic rate (2W:1C) and B's rate (4W:1C), so trade remains mutually beneficial. However, the rate moved from 1.5W:1C toward B's domestic rate, meaning B gets relatively more wheat per cloth than before, improving B's terms of trade while worsening A's. Option A incorrectly assumes middle rates are always better. Option B reverses the effect. Option D is wrong because 2.5 is still between 2 and 4. Option E ignores that terms of trade changes affect relative gains."
@@ -6194,11 +6194,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In a mixed economy, the government decides to let market forces determine the allocation of luxury goods while directly controlling the distribution of basic necessities. This approach primarily addresses which fundamental economic problem?",
     "choices": [
-      "A) What to produce, by ensuring both luxury and necessity production",
-      "B) How to produce, by using different methods for different goods",
-      "C) For whom to produce, by ensuring equitable access to necessities while allowing market-based luxury distribution",
-      "D) When to produce, by timing government intervention appropriately",
-      "E) Where to produce, by separating government and private sector activities geographically"
+      "What to produce, by ensuring both luxury and necessity production",
+      "How to produce, by using different methods for different goods",
+      "For whom to produce, by ensuring equitable access to necessities while allowing market-based luxury distribution",
+      "When to produce, by timing government intervention appropriately",
+      "Where to produce, by separating government and private sector activities geographically"
     ],
     "answer": 2,
     "explanation": "This policy directly addresses 'for whom to produce' by using government control to ensure equitable distribution of necessities (addressing distributional concerns) while allowing markets to distribute luxuries based on purchasing power. Option A focuses on production decisions rather than distribution. Option B relates to production methods, not distribution mechanisms. Option D introduces timing, which isn't a fundamental economic question. Option E confuses the distribution mechanism with geographic considerations."
@@ -6215,11 +6215,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In the circular flow model, if households increase their saving rate while maintaining the same income level, and banks lend all additional savings to businesses for investment, what is the immediate effect on the circular flow?",
     "choices": [
-      "A) Total spending decreases because households consume less",
-      "B) The flow remains unchanged because savings become investment spending",
-      "C) Resource markets are unaffected while product markets contract",
-      "D) Both resource and product markets expand due to increased investment",
-      "E) The government must intervene to maintain equilibrium in the circular flow"
+      "Total spending decreases because households consume less",
+      "The flow remains unchanged because savings become investment spending",
+      "Resource markets are unaffected while product markets contract",
+      "Both resource and product markets expand due to increased investment",
+      "The government must intervene to maintain equilibrium in the circular flow"
     ],
     "answer": 1,
     "explanation": "In the circular flow, when households save more but banks lend it all to businesses for investment, the reduced consumption spending is exactly offset by increased investment spending. Total spending (C + I) remains constant, just shifting from consumption to investment. Option A ignores the investment offset. Option C incorrectly suggests resource markets are unaffected when investment affects factor demand. Option D wrongly suggests expansion when total spending is unchanged. Option E incorrectly assumes government intervention is necessary for this market-mediated reallocation."
@@ -6236,11 +6236,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A student has already paid $500 in non-refundable tuition for an economics course. On the day of the final exam, she must choose between taking the exam (worth 40% of her grade) or attending a job interview that could lead to a $50,000 salary. What should be considered in her opportunity cost calculation?",
     "choices": [
-      "A) The $500 tuition plus the potential lost wages from not getting the job",
-      "B) Only the potential lost wages since tuition is a sunk cost",
-      "C) The value of passing the course plus the $500 already invested",
-      "D) The difference between the job salary and potential future earnings with the degree",
-      "E) The tuition cost plus the value of the final exam grade"
+      "The $500 tuition plus the potential lost wages from not getting the job",
+      "Only the potential lost wages since tuition is a sunk cost",
+      "The value of passing the course plus the $500 already invested",
+      "The difference between the job salary and potential future earnings with the degree",
+      "The tuition cost plus the value of the final exam grade"
     ],
     "answer": 1,
     "explanation": "The $500 tuition is a sunk cost—already paid and non-recoverable regardless of the decision. Only future consequences matter for opportunity cost calculation. If she takes the exam, she forgoes the potential job opportunity. The tuition payment doesn't change based on her current choice. Options A, C, and E incorrectly include sunk costs. Option D overcomplicates by comparing long-term earnings when the immediate choice is between exam and interview."
@@ -6257,11 +6257,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A local coffee shop notices that when they raise the price of their specialty lattes from $4.50 to $5.25, the quantity demanded falls from 120 to 90 lattes per day. This observation best demonstrates which economic principle?",
     "choices": [
-      "A) The law of demand, showing an inverse relationship between price and quantity demanded",
-      "B) The law of supply, showing producers respond to higher prices",
-      "C) A decrease in demand due to changing consumer preferences",
-      "D) Price elasticity of supply in the coffee market",
-      "E) A shift in the demand curve caused by income effects"
+      "The law of demand, showing an inverse relationship between price and quantity demanded",
+      "The law of supply, showing producers respond to higher prices",
+      "A decrease in demand due to changing consumer preferences",
+      "Price elasticity of supply in the coffee market",
+      "A shift in the demand curve caused by income effects"
     ],
     "answer": 0,
     "explanation": "This scenario demonstrates the law of demand - as price increases from $4.50 to $5.25, quantity demanded decreases from 120 to 90, showing the inverse relationship between price and quantity demanded along the same demand curve. Choice B confuses supply with demand. Choice C incorrectly identifies this as a demand shift rather than movement along the curve. Choice D focuses on supply elasticity when the scenario is about demand response. Choice E incorrectly suggests a curve shift when this is movement along the existing demand curve."
@@ -6278,11 +6278,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A study reveals that regular consumption of blueberries significantly improves memory and cognitive function. Simultaneously, the average household income in the region increases by 8%. What is the most likely effect on the demand for blueberries?",
     "choices": [
-      "A) Demand increases due to the health study only, income has no effect on food demand",
-      "B) Demand decreases because higher income leads people to buy more expensive fruits",
-      "C) Demand increases due to both the positive health information and higher incomes",
-      "D) The effects cancel out, leaving demand unchanged",
-      "E) Demand becomes perfectly elastic due to the increased information"
+      "Demand increases due to the health study only, income has no effect on food demand",
+      "Demand decreases because higher income leads people to buy more expensive fruits",
+      "Demand increases due to both the positive health information and higher incomes",
+      "The effects cancel out, leaving demand unchanged",
+      "Demand becomes perfectly elastic due to the increased information"
     ],
     "answer": 2,
     "explanation": "Both factors increase demand for blueberries. The positive health study changes consumer tastes/preferences in favor of blueberries, shifting demand right. Assuming blueberries are a normal good, increased income also shifts demand right. Choice A ignores the income effect on normal goods. Choice B incorrectly assumes people will substitute away from blueberries with higher income. Choice D incorrectly suggests the effects oppose each other. Choice E confuses demand shifts with elasticity concepts."
@@ -6299,11 +6299,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A furniture manufacturer currently produces 200 dining tables per month at a price of $800 each. If market conditions allow them to sell tables at $950 each, and they increase production to 250 tables per month, this scenario illustrates:",
     "choices": [
-      "A) An increase in supply due to improved production technology",
-      "B) The law of supply, showing producers increase quantity supplied when price rises",
-      "C) A decrease in production costs leading to higher output",
-      "D) Elastic demand for dining tables in the furniture market",
-      "E) A supply curve shift due to changes in input prices"
+      "An increase in supply due to improved production technology",
+      "The law of supply, showing producers increase quantity supplied when price rises",
+      "A decrease in production costs leading to higher output",
+      "Elastic demand for dining tables in the furniture market",
+      "A supply curve shift due to changes in input prices"
     ],
     "answer": 1,
     "explanation": "This demonstrates the law of supply - as price increases from $800 to $950, the quantity supplied increases from 200 to 250 tables, showing the positive relationship between price and quantity supplied along the supply curve. Choice A incorrectly identifies this as a supply shift due to technology rather than movement along the curve. Choice C suggests cost changes when the scenario only mentions price changes. Choice D focuses on demand elasticity when the scenario is about supply response. Choice E incorrectly suggests a supply shift when this is movement along the existing supply curve."
@@ -6320,11 +6320,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In the market for electric vehicles, battery technology improves significantly, reducing production costs by 25%. At the same time, new environmental regulations require manufacturers to install expensive emission monitoring systems in their factories. What is the most likely net effect on the supply of electric vehicles?",
     "choices": [
-      "A) Supply definitely increases because technological improvements always dominate regulatory costs",
-      "B) Supply definitely decreases because regulations always increase costs more than technology reduces them",
-      "C) The net effect on supply is ambiguous and depends on the relative magnitude of cost savings versus regulatory costs",
-      "D) Supply remains unchanged because the effects exactly offset each other",
-      "E) Supply becomes perfectly inelastic due to the regulatory requirements"
+      "Supply definitely increases because technological improvements always dominate regulatory costs",
+      "Supply definitely decreases because regulations always increase costs more than technology reduces them",
+      "The net effect on supply is ambiguous and depends on the relative magnitude of cost savings versus regulatory costs",
+      "Supply remains unchanged because the effects exactly offset each other",
+      "Supply becomes perfectly inelastic due to the regulatory requirements"
     ],
     "answer": 2,
     "explanation": "The improved battery technology reduces production costs, shifting supply right (increase). However, expensive monitoring systems increase production costs, shifting supply left (decrease). The net effect depends on which cost change is larger - we cannot determine this from the given information. Choice A incorrectly assumes technology effects always dominate. Choice B incorrectly assumes regulatory costs always dominate. Choice D assumes the effects are exactly equal with no evidence. Choice E confuses supply shifts with elasticity concepts."
@@ -6341,11 +6341,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In the market for smartphones, consumer incomes rise while simultaneously the cost of semiconductor chips increases significantly. If smartphones are normal goods, what will definitely occur at the new equilibrium?",
     "choices": [
-      "A) Both equilibrium price and quantity will increase",
-      "B) Both equilibrium price and quantity will decrease",
-      "C) Equilibrium price will increase, but the change in quantity is indeterminate",
-      "D) Equilibrium quantity will increase, but the change in price is indeterminate",
-      "E) The market will experience a shortage at the original equilibrium price"
+      "Both equilibrium price and quantity will increase",
+      "Both equilibrium price and quantity will decrease",
+      "Equilibrium price will increase, but the change in quantity is indeterminate",
+      "Equilibrium quantity will increase, but the change in price is indeterminate",
+      "The market will experience a shortage at the original equilibrium price"
     ],
     "answer": 2,
     "explanation": "Rising incomes increase demand for normal goods (smartphones), shifting demand right. Higher semiconductor costs increase production costs, shifting supply left. Both shifts increase equilibrium price, so price definitely rises. However, demand shifts right (increasing quantity) while supply shifts left (decreasing quantity), making the net effect on equilibrium quantity indeterminate without knowing the relative magnitudes. Choice A ignores that supply decreases. Choice B ignores that demand increases. Choice D incorrectly states quantity definitely increases. Choice E describes a temporary condition, not the new equilibrium."
@@ -6362,11 +6362,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A city implements a rent control policy setting maximum rent at $1,200 per month in a market where equilibrium rent is $1,500. Three months later, landlords begin reducing maintenance and property improvements. This outcome demonstrates:",
     "choices": [
-      "A) The price ceiling is set too high to be effective",
-      "B) A predictable response to binding price ceilings as producers seek to reduce costs",
-      "C) Market failure requiring additional government intervention",
-      "D) The rent control policy successfully improving housing quality",
-      "E) Perfectly elastic supply in the housing market"
+      "The price ceiling is set too high to be effective",
+      "A predictable response to binding price ceilings as producers seek to reduce costs",
+      "Market failure requiring additional government intervention",
+      "The rent control policy successfully improving housing quality",
+      "Perfectly elastic supply in the housing market"
     ],
     "answer": 1,
     "explanation": "When a binding price ceiling ($1,200) is below equilibrium ($1,500), producers face reduced revenue and profit margins. Landlords respond predictably by cutting costs where possible, including maintenance and improvements, since they cannot compete through higher prices. This is a typical unintended consequence of binding price ceilings. Choice A is wrong because the ceiling is binding (effective) since it's below equilibrium. Choice C misidentifies this as market failure when it's government intervention causing the problem. Choice D incorrectly suggests the policy improves quality when the opposite occurs. Choice E incorrectly applies elasticity concepts to this price control scenario."
@@ -6383,11 +6383,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In a market for concert tickets, the equilibrium price is $80 and 1,000 tickets are sold. If a price ceiling of $60 is imposed and only 700 tickets are available, what happens to consumer surplus?",
     "choices": [
-      "A) Consumer surplus definitely increases because all consumers pay a lower price",
-      "B) Consumer surplus definitely decreases because fewer tickets are available",
-      "C) Consumer surplus may increase or decrease depending on the shape of the demand curve",
-      "D) Consumer surplus becomes zero due to the price ceiling",
-      "E) Consumer surplus is unaffected since willingness to pay hasn't changed"
+      "Consumer surplus definitely increases because all consumers pay a lower price",
+      "Consumer surplus definitely decreases because fewer tickets are available",
+      "Consumer surplus may increase or decrease depending on the shape of the demand curve",
+      "Consumer surplus becomes zero due to the price ceiling",
+      "Consumer surplus is unaffected since willingness to pay hasn't changed"
     ],
     "answer": 2,
     "explanation": "Consumer surplus with a binding price ceiling has two opposing effects: consumers who still get tickets (700) pay less ($60 vs $80), gaining surplus, but 300 consumers who would have bought at $80 can no longer purchase tickets, losing surplus. The net effect depends on the demand curve shape and the relative size of these gains and losses. Choice A ignores the loss from reduced quantity. Choice B ignores the gain from lower prices for those who do purchase. Choice D incorrectly states surplus becomes zero. Choice E ignores that consumer surplus depends on both willingness to pay and actual market outcomes."
@@ -6404,11 +6404,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A government imposes a $5 per unit tax on a good where both supply and demand are relatively elastic. Compared to a market where both supply and demand are relatively inelastic, the deadweight loss from the tax will be:",
     "choices": [
-      "A) Smaller, because elastic markets adjust prices more easily",
-      "B) Larger, because elastic markets have greater quantity responses to price changes",
-      "C) The same, because deadweight loss only depends on tax size",
-      "D) Zero, because elastic markets return to equilibrium quickly",
-      "E) Negative, because elastic markets generate more tax revenue"
+      "Smaller, because elastic markets adjust prices more easily",
+      "Larger, because elastic markets have greater quantity responses to price changes",
+      "The same, because deadweight loss only depends on tax size",
+      "Zero, because elastic markets return to equilibrium quickly",
+      "Negative, because elastic markets generate more tax revenue"
     ],
     "answer": 1,
     "explanation": "Deadweight loss occurs because taxes reduce the quantity traded below the efficient level. When both supply and demand are elastic, buyers and sellers are more responsive to price changes, so a $5 tax causes a larger reduction in quantity traded, creating more deadweight loss. When supply and demand are inelastic, the quantity reduction is smaller, creating less deadweight loss. Choice A incorrectly suggests easier price adjustment reduces deadweight loss. Choice C ignores that deadweight loss depends on quantity changes, not just tax size. Choice D incorrectly states deadweight loss is zero. Choice E incorrectly suggests deadweight loss can be negative."
@@ -6425,11 +6425,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "When the price of Brand A smartphones increases by 10%, the quantity demanded of Brand B smartphones increases by 8%. However, when the price of smartphone cases increases by 15%, the quantity demanded of Brand A smartphones decreases by 12%. These relationships indicate that:",
     "choices": [
-      "A) Brand A and Brand B are complements, while smartphones and cases are substitutes",
-      "B) Brand A and Brand B are substitutes, while smartphones and cases are complements",
-      "C) Both pairs of goods are substitutes with different elasticity values",
-      "D) Both pairs of goods are complements with different elasticity values",
-      "E) The relationships show income effects rather than substitution effects"
+      "Brand A and Brand B are complements, while smartphones and cases are substitutes",
+      "Brand A and Brand B are substitutes, while smartphones and cases are complements",
+      "Both pairs of goods are substitutes with different elasticity values",
+      "Both pairs of goods are complements with different elasticity values",
+      "The relationships show income effects rather than substitution effects"
     ],
     "answer": 1,
     "explanation": "Cross price elasticity identifies substitute vs. complement relationships. When Brand A price rises 10% and Brand B quantity demanded rises 8%, this positive cross price elasticity indicates substitutes - consumers switch from the more expensive Brand A to Brand B. When case prices rise 15% and Brand A smartphone quantity demanded falls 12%, this negative cross price elasticity indicates complements - higher case prices reduce smartphone demand because they're used together. Choice A reverses both relationships. Choices C and D incorrectly classify both relationships the same way. Choice E incorrectly identifies these as income effects when they're clearly cross price relationships."
@@ -6446,11 +6446,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A bakery's total product increases from 100 loaves to 180 loaves when it hires its 5th worker, and increases from 180 loaves to 240 loaves when it hires its 6th worker. What can be concluded about the marginal product of labor?",
     "choices": [
-      "A) The marginal product of the 5th worker is 80 loaves and the marginal product of the 6th worker is 60 loaves",
-      "B) The marginal product of the 5th worker is 60 loaves and the marginal product of the 6th worker is 80 loaves",
-      "C) The marginal product is constant at 70 loaves per worker",
-      "D) The marginal product cannot be determined without knowing fixed costs",
-      "E) The total product curve is linear between the 5th and 6th workers"
+      "The marginal product of the 5th worker is 80 loaves and the marginal product of the 6th worker is 60 loaves",
+      "The marginal product of the 5th worker is 60 loaves and the marginal product of the 6th worker is 80 loaves",
+      "The marginal product is constant at 70 loaves per worker",
+      "The marginal product cannot be determined without knowing fixed costs",
+      "The total product curve is linear between the 5th and 6th workers"
     ],
     "answer": 0,
     "explanation": "Marginal product equals the change in total product when one additional unit of labor is added. MP of 5th worker = 180 - 100 = 80 loaves; MP of 6th worker = 240 - 180 = 60 loaves. Choice B reverses the calculations. Choice C incorrectly averages the marginal products. Choice D confuses production concepts with cost concepts. Choice E is incorrect because marginal product is decreasing."
@@ -6467,11 +6467,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A firm experiences diminishing marginal returns when it increases labor from 8 to 12 workers while keeping all other inputs constant. During this range, which of the following must be true?",
     "choices": [
-      "A) Total product is decreasing",
-      "B) Marginal product is positive but decreasing",
-      "C) Average product is increasing",
-      "D) The firm should reduce output immediately",
-      "E) Variable costs are decreasing"
+      "Total product is decreasing",
+      "Marginal product is positive but decreasing",
+      "Average product is increasing",
+      "The firm should reduce output immediately",
+      "Variable costs are decreasing"
     ],
     "answer": 1,
     "explanation": "Diminishing marginal returns means each additional worker adds less output than the previous worker, so marginal product is positive (output still increases) but decreasing. Choice A is wrong because total product can still increase with diminishing returns. Choice C may or may not be true depending on whether MP is above or below AP. Choice D confuses production efficiency with profit maximization. Choice E is incorrect because adding workers increases variable costs."
@@ -6488,11 +6488,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A restaurant pays $2,000 monthly rent, $500 for utilities that don't vary with output, $300 for insurance, and $15 per hour for workers who can be hired or released daily based on customer demand. If the restaurant operates 200 hours per month, what are the total fixed costs?",
     "choices": [
-      "A) $2,000",
-      "B) $2,500",
-      "C) $2,800",
-      "D) $5,800",
-      "E) $3,000"
+      "$2,000",
+      "$2,500",
+      "$2,800",
+      "$5,800",
+      "$3,000"
     ],
     "answer": 2,
     "explanation": "Fixed costs don't change with output level. Rent ($2,000), utilities that don't vary ($500), and insurance ($300) are fixed costs totaling $2,800. Labor costs ($15/hour) are variable since workers can be hired/released based on demand. Choice A includes only rent. Choice B excludes insurance. Choice D incorrectly includes labor costs. Choice E is not the sum of any logical combination."
@@ -6509,11 +6509,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If a firm's total cost increases from $1,200 to $1,350 when production increases from 40 to 50 units, and then increases to $1,550 when production reaches 60 units, what is happening to marginal cost?",
     "choices": [
-      "A) Marginal cost is constant at $15 per unit",
-      "B) Marginal cost is decreasing from $20 to $15 per unit",
-      "C) Marginal cost is increasing from $15 to $20 per unit",
-      "D) Marginal cost cannot be calculated without knowing fixed costs",
-      "E) Marginal cost is increasing from $20 to $35 per unit"
+      "Marginal cost is constant at $15 per unit",
+      "Marginal cost is decreasing from $20 to $15 per unit",
+      "Marginal cost is increasing from $15 to $20 per unit",
+      "Marginal cost cannot be calculated without knowing fixed costs",
+      "Marginal cost is increasing from $20 to $35 per unit"
     ],
     "answer": 2,
     "explanation": "MC = change in total cost / change in quantity. From 40 to 50 units: MC = ($1,350 - $1,200)/(50 - 40) = $150/10 = $15. From 50 to 60 units: MC = ($1,550 - $1,350)/(60 - 50) = $200/10 = $20. So MC increases from $15 to $20. Choice A assumes constant MC. Choice B reverses the calculation. Choice D is wrong because MC only requires total cost changes. Choice E miscalculates the second MC as $35."
@@ -6530,11 +6530,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A firm has fixed costs of $400 and produces 20 units at a total cost of $800. If it increases production to 25 units and total costs rise to $900, what happens to average total cost?",
     "choices": [
-      "A) ATC decreases from $40 to $36",
-      "B) ATC increases from $40 to $45",
-      "C) ATC remains constant at $40",
-      "D) ATC decreases from $50 to $40",
-      "E) ATC increases from $36 to $40"
+      "ATC decreases from $40 to $36",
+      "ATC increases from $40 to $45",
+      "ATC remains constant at $40",
+      "ATC decreases from $50 to $40",
+      "ATC increases from $36 to $40"
     ],
     "answer": 0,
     "explanation": "ATC = Total Cost / Quantity. At 20 units: ATC = $800/20 = $40. At 25 units: ATC = $900/25 = $36. So ATC decreases from $40 to $36. Choice B reverses the direction of change. Choice C assumes ATC is constant. Choice D starts with an incorrect initial ATC of $50. Choice E reverses both the initial and final ATC values."
@@ -6551,11 +6551,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A firm currently produces where marginal revenue equals $25 and marginal cost equals $20. To maximize profit, the firm should:",
     "choices": [
-      "A) Decrease production because MR > MC indicates overproduction",
-      "B) Keep production constant because the firm is earning positive marginal profit",
-      "C) Increase production because each additional unit adds $5 to total profit",
-      "D) Increase price to make MR equal to MC",
-      "E) Decrease production to minimize the gap between MR and MC"
+      "Decrease production because MR > MC indicates overproduction",
+      "Keep production constant because the firm is earning positive marginal profit",
+      "Increase production because each additional unit adds $5 to total profit",
+      "Increase price to make MR equal to MC",
+      "Decrease production to minimize the gap between MR and MC"
     ],
     "answer": 2,
     "explanation": "When MR > MC, each additional unit produced adds more to revenue than to cost, increasing total profit by the difference (MR - MC = $25 - $20 = $5). The firm should increase production until MR = MC. Choice A incorrectly suggests MR > MC means overproduction. Choice B is wrong because the firm isn't maximizing profit yet. Choice D confuses the profit maximization rule. Choice E incorrectly suggests minimizing the MR-MC gap rather than producing where MR = MC."
@@ -6572,11 +6572,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In perfect competition, a firm faces a market price of $12 per unit. At its current output level, ATC = $15, AVC = $10, and MC = $12. In the short run, this firm should:",
     "choices": [
-      "A) Shut down because it's making an economic loss",
-      "B) Continue operating because price exceeds average variable cost",
-      "C) Increase output because marginal cost equals price",
-      "D) Exit the market immediately to avoid further losses",
-      "E) Decrease output to reduce average total cost"
+      "Shut down because it's making an economic loss",
+      "Continue operating because price exceeds average variable cost",
+      "Increase output because marginal cost equals price",
+      "Exit the market immediately to avoid further losses",
+      "Decrease output to reduce average total cost"
     ],
     "answer": 1,
     "explanation": "The firm should continue operating in the short run because P ($12) > AVC ($10), meaning it covers variable costs and contributes $2 per unit toward fixed costs. Shutting down would mean losing all fixed costs. Choice A applies the wrong shutdown rule (should shut down only if P < AVC). Choice C misses that the firm is already at the profit-maximizing output where MC = P. Choice D confuses short-run and long-run decisions. Choice E incorrectly suggests the firm isn't optimizing output."
@@ -6593,11 +6593,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In a perfectly competitive market in long-run equilibrium, if market demand suddenly increases, what will happen to firm profits and the number of firms in the market over time?",
     "choices": [
-      "A) Profits will increase permanently and the number of firms will remain constant",
-      "B) Profits will temporarily increase, then return to zero as new firms enter the market",
-      "C) Profits will decrease immediately and some firms will exit the market",
-      "D) Both profits and the number of firms will remain unchanged due to perfect competition",
-      "E) Profits will become negative and all firms will eventually exit the market"
+      "Profits will increase permanently and the number of firms will remain constant",
+      "Profits will temporarily increase, then return to zero as new firms enter the market",
+      "Profits will decrease immediately and some firms will exit the market",
+      "Both profits and the number of firms will remain unchanged due to perfect competition",
+      "Profits will become negative and all firms will eventually exit the market"
     ],
     "answer": 1,
     "explanation": "Increased demand raises market price above the long-run equilibrium, creating temporary economic profits. These profits attract new firms to enter the market, increasing supply and driving price back down until economic profits return to zero. Choice A ignores that profits attract entry, which eliminates profits. Choice C describes what happens with decreased demand. Choice D ignores the adjustment process following demand changes. Choice E is incorrect because demand increased, not decreased."
@@ -6614,11 +6614,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "EnergyMax Corp is the sole electricity provider in a region and can raise or lower its price by adjusting how much it produces. In contrast, wheat farmers in a competitive grain market must accept whatever price the market determines. Which of the following best describes the key difference in these firms' market power?",
     "choices": [
-      "A) The monopolist is a price maker rather than a price taker",
-      "B) The monopolist produces at minimum average total cost",
-      "C) The monopolist earns zero economic profit in the long run",
-      "D) The monopolist faces a perfectly elastic demand curve",
-      "E) The monopolist produces where price equals marginal cost"
+      "The monopolist is a price maker rather than a price taker",
+      "The monopolist produces at minimum average total cost",
+      "The monopolist earns zero economic profit in the long run",
+      "The monopolist faces a perfectly elastic demand curve",
+      "The monopolist produces where price equals marginal cost"
     ],
     "answer": 0,
     "explanation": "A monopolist is a price maker because it faces the entire downward-sloping market demand curve and can influence the market price by controlling quantity. A competitive firm is a price taker that cannot influence the market price. Choice B is wrong because monopolists don't produce at minimum ATC. Choice C is wrong because monopolists can earn long-run economic profit. Choice D is wrong because monopolists face downward-sloping demand. Choice E is wrong because monopolists set P > MC."
@@ -6635,11 +6635,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Pharma Inc. is the only producer of a patented drug with no close substitutes. To sell 100 more units, it must lower its price from $50 to $48. In contrast, a wheat farmer who raises the price above the $4 market rate loses all customers immediately. Which of the following best explains why Pharma Inc. faces a downward-sloping demand curve while the wheat farmer faces a horizontal one?",
     "choices": [
-      "A) The monopolist has higher costs of production than competitive firms",
-      "B) The monopolist is the sole supplier of a product with no close substitutes",
-      "C) The monopolist always charges a higher price than competitive firms",
-      "D) The monopolist has economies of scale that competitive firms lack",
-      "E) The monopolist faces government regulation while competitive firms do not"
+      "The monopolist has higher costs of production than competitive firms",
+      "The monopolist is the sole supplier of a product with no close substitutes",
+      "The monopolist always charges a higher price than competitive firms",
+      "The monopolist has economies of scale that competitive firms lack",
+      "The monopolist faces government regulation while competitive firms do not"
     ],
     "answer": 1,
     "explanation": "B is correct: Pharma Inc. is the sole supplier of a product with no close substitutes, so it faces the entire downward-sloping market demand curve. The wheat farmer's product is identical to all competitors', so buyers will switch away instantly if the price rises above market—creating a perfectly elastic (horizontal) demand. Cost structure (A), pricing level (C), economies of scale (D), and regulation (E) do not explain the fundamental difference in demand curve shape."
@@ -6656,11 +6656,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "StreamMax is the only streaming service in a region and currently sells 1,000 subscriptions at $15 per month. To attract 200 additional subscribers, it must lower its monthly subscription price. Assuming StreamMax cannot charge different prices to different customers, which of the following must StreamMax do to sell those additional subscriptions?",
     "choices": [
-      "A) Increase the price on all units sold",
-      "B) Keep the price constant but increase advertising",
-      "C) Lower the price on all units sold",
-      "D) Lower the price only on the additional units",
-      "E) Seek permission from regulatory authorities"
+      "Increase the price on all units sold",
+      "Keep the price constant but increase advertising",
+      "Lower the price on all units sold",
+      "Lower the price only on the additional units",
+      "Seek permission from regulatory authorities"
     ],
     "answer": 2,
     "explanation": "C is correct: a monopolist faces a downward-sloping demand curve, so to sell more units it must lower the price on all units sold (no price discrimination). A is wrong—higher prices reduce quantity demanded. B ignores the price-quantity relationship on the demand curve. D describes perfect price discrimination, which StreamMax cannot practice here. E is incorrect as pricing decisions generally do not require regulatory approval."
@@ -6677,11 +6677,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "For a monopolist, marginal revenue is less than price because:",
     "choices": [
-      "A) The monopolist has increasing marginal costs",
-      "B) The monopolist must lower the price on all previous units to sell one more unit",
-      "C) The government taxes monopoly profits",
-      "D) The monopolist faces perfectly elastic demand",
-      "E) The monopolist's average total cost is decreasing"
+      "The monopolist has increasing marginal costs",
+      "The monopolist must lower the price on all previous units to sell one more unit",
+      "The government taxes monopoly profits",
+      "The monopolist faces perfectly elastic demand",
+      "The monopolist's average total cost is decreasing"
     ],
     "answer": 1,
     "explanation": "B is correct because when a monopolist lowers price to sell one more unit, it loses revenue on all previous units that could have been sold at the higher price, making MR < P. A is about costs, not revenue relationships. C involves taxes, not the fundamental MR-P relationship. D is wrong because monopolists face downward-sloping (not perfectly elastic) demand. E discusses costs, not the reason why MR < P."
@@ -6698,11 +6698,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A profit-maximizing monopolist will choose to produce where marginal revenue equals marginal cost, then:",
     "choices": [
-      "A) Charge the price equal to marginal cost",
-      "B) Charge the price equal to marginal revenue",
-      "C) Charge the price determined by the demand curve at that quantity",
-      "D) Charge the price equal to average total cost",
-      "E) Charge the highest possible price regardless of quantity"
+      "Charge the price equal to marginal cost",
+      "Charge the price equal to marginal revenue",
+      "Charge the price determined by the demand curve at that quantity",
+      "Charge the price equal to average total cost",
+      "Charge the highest possible price regardless of quantity"
     ],
     "answer": 2,
     "explanation": "C is correct because the monopolist first determines quantity where MR = MC, then uses the demand curve to find the maximum price consumers will pay for that quantity. A describes perfect competition pricing. B is wrong because price equals MR only under perfect competition. D would result in zero economic profit but isn't necessarily profit-maximizing. E ignores the quantity-price relationship on the demand curve."
@@ -6719,11 +6719,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "The deadweight loss from monopoly occurs because:",
     "choices": [
-      "A) The monopolist earns economic profits",
-      "B) Some mutually beneficial trades between consumers and the monopolist do not occur",
-      "C) The monopolist has higher costs than competitive firms",
-      "D) Consumer surplus is transferred to producer surplus",
-      "E) The monopolist charges the highest possible price"
+      "The monopolist earns economic profits",
+      "Some mutually beneficial trades between consumers and the monopolist do not occur",
+      "The monopolist has higher costs than competitive firms",
+      "Consumer surplus is transferred to producer surplus",
+      "The monopolist charges the highest possible price"
     ],
     "answer": 1,
     "explanation": "B is correct because deadweight loss represents the lost gains from trade - consumers who value the product above marginal cost but below the monopoly price don't purchase it. A describes a transfer, not a deadweight loss. C is about cost differences, not allocative inefficiency. D describes a transfer of surplus, not a loss of total surplus. E is incorrect because monopolists don't charge the absolute highest price, but rather the profit-maximizing price."
@@ -6740,11 +6740,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Which of the following is necessary for successful price discrimination by a monopolist?",
     "choices": [
-      "A) The firm must have constant marginal costs",
-      "B) All consumers must have identical demand curves",
-      "C) The firm must be able to prevent resale of its product",
-      "D) The government must regulate the firm's pricing",
-      "E) The firm must advertise extensively to differentiate its product"
+      "The firm must have constant marginal costs",
+      "All consumers must have identical demand curves",
+      "The firm must be able to prevent resale of its product",
+      "The government must regulate the firm's pricing",
+      "The firm must advertise extensively to differentiate its product"
     ],
     "answer": 2,
     "explanation": "C is correct because if resale is possible, customers who pay lower prices could resell to those facing higher prices, undermining the price discrimination scheme. A is not necessary - price discrimination works with various cost structures. B is wrong because price discrimination requires different groups with different elasticities of demand. D is incorrect as government regulation typically restricts rather than enables price discrimination. E confuses price discrimination with product differentiation."
@@ -6761,11 +6761,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In long-run equilibrium, a monopolistically competitive firm will:",
     "choices": [
-      "A) Earn positive economic profits due to product differentiation",
-      "B) Produce at the minimum point of its average total cost curve",
-      "C) Earn zero economic profits and produce where price equals average total cost",
-      "D) Face a perfectly elastic demand curve",
-      "E) Produce the same output level as a perfectly competitive firm"
+      "Earn positive economic profits due to product differentiation",
+      "Produce at the minimum point of its average total cost curve",
+      "Earn zero economic profits and produce where price equals average total cost",
+      "Face a perfectly elastic demand curve",
+      "Produce the same output level as a perfectly competitive firm"
     ],
     "answer": 2,
     "explanation": "C is correct because free entry and exit drive economic profits to zero in long-run equilibrium, so price must equal average total cost. A is wrong because entry eliminates long-run economic profits. B describes perfect competition - monopolistic competitors don't produce at minimum ATC due to excess capacity. D is incorrect because product differentiation creates downward-sloping demand. E is wrong because monopolistic competitors produce less than the competitive output level."
@@ -6782,11 +6782,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Product differentiation in monopolistic competition serves to:",
     "choices": [
-      "A) Increase the price elasticity of demand for a firm's product",
-      "B) Make the demand curve perfectly elastic",
-      "C) Create barriers to entry for potential competitors",
-      "D) Reduce the price elasticity of demand for a firm's product",
-      "E) Eliminate all competition from the market"
+      "Increase the price elasticity of demand for a firm's product",
+      "Make the demand curve perfectly elastic",
+      "Create barriers to entry for potential competitors",
+      "Reduce the price elasticity of demand for a firm's product",
+      "Eliminate all competition from the market"
     ],
     "answer": 3,
     "explanation": "D is correct because product differentiation makes consumers view products as less substitutable, reducing the responsiveness of quantity demanded to price changes (less elastic demand). A is the opposite of what occurs. B would eliminate the firm's market power. C is incorrect because monopolistic competition has low barriers to entry. E is wrong because differentiation doesn't eliminate competition, just makes it imperfect."
@@ -6803,11 +6803,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Excess capacity in monopolistic competition means that firms:",
     "choices": [
-      "A) Produce more output than is socially optimal",
-      "B) Have unused factory buildings and equipment",
-      "C) Produce at a higher output level than the minimum efficient scale",
-      "D) Produce at a lower output level than the minimum point of average total cost",
-      "E) Always operate at a loss in the short run"
+      "Produce more output than is socially optimal",
+      "Have unused factory buildings and equipment",
+      "Produce at a higher output level than the minimum efficient scale",
+      "Produce at a lower output level than the minimum point of average total cost",
+      "Always operate at a loss in the short run"
     ],
     "answer": 3,
     "explanation": "D is correct because excess capacity means firms produce less than the output level that minimizes average total cost, indicating they could produce more efficiently at a larger scale. A is wrong because they actually produce less than socially optimal. B confuses economic excess capacity with physical unused capacity. C is the opposite - they produce below minimum efficient scale. E is incorrect because firms can be profitable while having excess capacity."
@@ -6824,11 +6824,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "The key characteristic that distinguishes oligopoly from other market structures is:",
     "choices": [
-      "A) Firms earn zero economic profits in long-run equilibrium",
-      "B) Products are always homogeneous",
-      "C) Firms are mutually interdependent in their decision making",
-      "D) There are no barriers to entry",
-      "E) Firms are price takers"
+      "Firms earn zero economic profits in long-run equilibrium",
+      "Products are always homogeneous",
+      "Firms are mutually interdependent in their decision making",
+      "There are no barriers to entry",
+      "Firms are price takers"
     ],
     "answer": 2,
     "explanation": "C is correct because oligopoly's defining feature is that firms must consider rivals' reactions to their decisions due to the small number of competitors. A describes perfect and monopolistic competition. B is wrong because oligopolies can have differentiated products. D is incorrect because oligopolies typically have significant barriers to entry. E describes perfect competition, not oligopoly."
@@ -6845,11 +6845,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A Nash equilibrium occurs when:",
     "choices": [
-      "A) All players earn equal payoffs",
-      "B) Total payoffs for all players are maximized",
-      "C) Each player is doing the best they can given the other players' strategies",
-      "D) All players choose the same strategy",
-      "E) The game results in a win-lose outcome"
+      "All players earn equal payoffs",
+      "Total payoffs for all players are maximized",
+      "Each player is doing the best they can given the other players' strategies",
+      "All players choose the same strategy",
+      "The game results in a win-lose outcome"
     ],
     "answer": 2,
     "explanation": "C is correct because Nash equilibrium is reached when no player can unilaterally improve their payoff by changing strategy, given others' strategies. A is wrong because equal payoffs aren't required for equilibrium. B describes social optimum, not Nash equilibrium. D is incorrect because players often choose different strategies in equilibrium. E mischaracterizes the nature of strategic equilibrium."
@@ -6866,11 +6866,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Collusion among oligopolistic firms is difficult to maintain because:",
     "choices": [
-      "A) It is always illegal under antitrust laws",
-      "B) Each firm has an incentive to cheat on the agreement to increase its own profits",
-      "C) Consumers will boycott firms that collude",
-      "D) Government regulations prevent firms from communicating",
-      "E) Collusive agreements always result in losses for all firms"
+      "It is always illegal under antitrust laws",
+      "Each firm has an incentive to cheat on the agreement to increase its own profits",
+      "Consumers will boycott firms that collude",
+      "Government regulations prevent firms from communicating",
+      "Collusive agreements always result in losses for all firms"
     ],
     "answer": 1,
     "explanation": "B is correct because each firm can increase profits by secretly cutting prices or increasing output while others stick to the collusive agreement, creating a prisoners' dilemma situation. A is wrong because legality varies and some implicit collusion occurs. C is incorrect because consumers typically aren't aware of collusion. D overstates regulatory restrictions on communication. E is false because successful collusion increases profits, which is why firms attempt it."
@@ -6887,11 +6887,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "The kinked demand curve model of oligopoly assumes that if one firm raises its price:",
     "choices": [
-      "A) All other firms will match the price increase",
-      "B) Other firms will raise their prices even higher",
-      "C) Other firms will not follow the price increase",
-      "D) The firm will gain market share",
-      "E) Government intervention will occur"
+      "All other firms will match the price increase",
+      "Other firms will raise their prices even higher",
+      "Other firms will not follow the price increase",
+      "The firm will gain market share",
+      "Government intervention will occur"
     ],
     "answer": 2,
     "explanation": "C is correct because the kinked demand curve model assumes rivals won't follow price increases (making demand elastic above current price) but will match price cuts (making demand inelastic below current price). A describes the assumption for price cuts, not increases. B is unrealistic behavior. D is wrong because without rivals following, the firm would lose market share. E is unrelated to the kinked demand model's assumptions."
@@ -6908,11 +6908,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "The demand for labor is considered a derived demand because it:",
     "choices": [
-      "A) depends on the demand for the good or service that labor produces",
-      "B) is determined by the supply of available workers",
-      "C) decreases as wages increase",
-      "D) is set by government regulations",
-      "E) comes from workers' desire to earn income"
+      "depends on the demand for the good or service that labor produces",
+      "is determined by the supply of available workers",
+      "decreases as wages increase",
+      "is set by government regulations",
+      "comes from workers' desire to earn income"
     ],
     "answer": 0,
     "explanation": "Derived demand means the demand for a factor of production (like labor) comes from the demand for the final product it helps produce. Option B confuses demand with supply factors, C describes the law of demand generally, D is incorrect about wage determination, and E reverses the relationship by focusing on labor supply motivations."
@@ -6929,11 +6929,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Marginal revenue product (MRP) is calculated as:",
     "choices": [
-      "A) marginal product × marginal revenue",
-      "B) total revenue ÷ number of workers",
-      "C) marginal product ÷ marginal revenue",
-      "D) total product × price",
-      "E) marginal cost × marginal product"
+      "marginal product × marginal revenue",
+      "total revenue ÷ number of workers",
+      "marginal product ÷ marginal revenue",
+      "total product × price",
+      "marginal cost × marginal product"
     ],
     "answer": 0,
     "explanation": "MRP equals marginal product times marginal revenue, showing the additional revenue generated by hiring one more worker. Option B gives average revenue product, C incorrectly divides instead of multiplies, D gives total revenue from all production, and E incorrectly uses marginal cost instead of marginal revenue."
@@ -6950,11 +6950,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In a perfectly competitive labor market, equilibrium occurs where:",
     "choices": [
-      "A) labor supply equals labor demand",
-      "B) marginal revenue product is maximized",
-      "C) the wage rate is minimized",
-      "D) unemployment is zero",
-      "E) all workers earn the same wage"
+      "labor supply equals labor demand",
+      "marginal revenue product is maximized",
+      "the wage rate is minimized",
+      "unemployment is zero",
+      "all workers earn the same wage"
     ],
     "answer": 0,
     "explanation": "Labor market equilibrium occurs where quantity of labor supplied equals quantity demanded, determining both wage and employment levels. Option B describes a firm's hiring decision but not market equilibrium, C is incorrect as equilibrium wage isn't necessarily minimum, D confuses market clearing with full employment, and E describes wage equality which isn't required for equilibrium."
@@ -6971,11 +6971,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A monopsony is a market structure where:",
     "choices": [
-      "A) there is only one buyer of labor",
-      "B) there is only one seller of labor",
-      "C) there are many buyers and sellers of labor",
-      "D) the government controls all hiring",
-      "E) workers form a single union"
+      "there is only one buyer of labor",
+      "there is only one seller of labor",
+      "there are many buyers and sellers of labor",
+      "the government controls all hiring",
+      "workers form a single union"
     ],
     "answer": 0,
     "explanation": "A monopsony exists when there is a single buyer in a market - in labor markets, this means one employer. Option B describes a monopoly seller, C describes perfect competition, D describes government control but not necessarily monopsony, and E describes unionization which is different from market structure."
@@ -6992,11 +6992,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "When a minimum wage is set above the equilibrium wage in a competitive labor market, it typically results in:",
     "choices": [
-      "A) unemployment",
-      "B) labor shortages",
-      "C) higher employment",
-      "D) lower prices for goods",
-      "E) increased labor productivity"
+      "unemployment",
+      "labor shortages",
+      "higher employment",
+      "lower prices for goods",
+      "increased labor productivity"
     ],
     "answer": 0,
     "explanation": "A minimum wage above equilibrium creates a price floor, causing quantity of labor supplied to exceed quantity demanded, resulting in unemployment. Option B would occur if minimum wage were below equilibrium, C is incorrect as employment typically falls, D may or may not occur and isn't the direct labor market effect, and E isn't a direct result of the wage floor."
@@ -7013,11 +7013,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "The primary economic goal of labor unions is to:",
     "choices": [
-      "A) increase wages and improve working conditions for members",
-      "B) maximize the number of jobs available",
-      "C) reduce the cost of production for firms",
-      "D) eliminate competition between workers",
-      "E) control the supply of goods in the market"
+      "increase wages and improve working conditions for members",
+      "maximize the number of jobs available",
+      "reduce the cost of production for firms",
+      "eliminate competition between workers",
+      "control the supply of goods in the market"
     ],
     "answer": 0,
     "explanation": "Labor unions primarily seek to increase compensation and improve working conditions for their members through collective bargaining. Option B may conflict with wage goals since higher wages can reduce employment, C benefits employers not workers, D is a means rather than the primary goal, and E relates to product markets not labor union objectives."
@@ -7034,11 +7034,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If the demand for automobiles decreases due to rising gas prices, what will happen to the demand for auto assembly workers?",
     "choices": [
-      "A) Increase because workers are needed to find new solutions",
-      "B) Decrease because the demand for labor is derived from product demand",
-      "C) Remain unchanged because labor demand is independent of product demand",
-      "D) Increase because fewer cars means more intensive production methods",
-      "E) Decrease only if wages for auto workers also decrease"
+      "Increase because workers are needed to find new solutions",
+      "Decrease because the demand for labor is derived from product demand",
+      "Remain unchanged because labor demand is independent of product demand",
+      "Increase because fewer cars means more intensive production methods",
+      "Decrease only if wages for auto workers also decrease"
     ],
     "answer": 1,
     "explanation": "The demand for labor is derived from the demand for the final product. When automobile demand decreases, fewer workers are needed to produce cars, so labor demand decreases. Choice A incorrectly assumes innovation creates more jobs immediately. Choice C misunderstands the fundamental concept of derived demand. Choice D confuses production methods with overall demand. Choice E incorrectly links labor demand to wage changes rather than product demand."
@@ -7055,11 +7055,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "For a firm operating in a perfectly competitive labor market, the marginal resource cost (MRC) of labor:",
     "choices": [
-      "A) Decreases as more workers are hired",
-      "B) Equals the wage rate for all levels of employment",
-      "C) Is always greater than the wage rate",
-      "D) Equals the marginal revenue product at equilibrium",
-      "E) Increases faster than the wage rate"
+      "Decreases as more workers are hired",
+      "Equals the wage rate for all levels of employment",
+      "Is always greater than the wage rate",
+      "Equals the marginal revenue product at equilibrium",
+      "Increases faster than the wage rate"
     ],
     "answer": 1,
     "explanation": "In a perfectly competitive labor market, firms are wage takers and can hire any quantity of workers at the market wage rate, so MRC = wage rate. Choice A is incorrect because MRC is constant, not decreasing. Choice C describes a monopsony situation. Choice D confuses MRC with the equilibrium condition (MRP = MRC). Choice E also describes monopsony behavior where MRC > wage rate and increases."
@@ -7076,11 +7076,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In a competitive labor market, if there is an increase in worker productivity, what happens to employment and wages at the new equilibrium?",
     "choices": [
-      "A) Both employment and wages decrease",
-      "B) Employment increases, wages decrease",
-      "C) Employment decreases, wages increase",
-      "D) Both employment and wages increase",
-      "E) Employment stays the same, wages increase"
+      "Both employment and wages decrease",
+      "Employment increases, wages decrease",
+      "Employment decreases, wages increase",
+      "Both employment and wages increase",
+      "Employment stays the same, wages increase"
     ],
     "answer": 3,
     "explanation": "Higher productivity increases the marginal product of labor, which increases MRP and shifts labor demand rightward. With upward-sloping labor supply, both wages and employment increase. Choice A suggests productivity hurts workers. Choice B incorrectly assumes substitution effects dominate. Choice C suggests firms hire fewer productive workers. Choice E ignores that higher wages attract more workers along the supply curve."
@@ -7097,11 +7097,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Which factor would most likely cause wages for software engineers to be higher than wages for retail workers?",
     "choices": [
-      "A) Software engineers work longer hours",
-      "B) There are more software engineer positions available",
-      "C) Software engineers have higher marginal revenue product",
-      "D) Retail workers have more job security",
-      "E) Software engineering requires less training"
+      "Software engineers work longer hours",
+      "There are more software engineer positions available",
+      "Software engineers have higher marginal revenue product",
+      "Retail workers have more job security",
+      "Software engineering requires less training"
     ],
     "answer": 2,
     "explanation": "Wage differences primarily reflect differences in marginal revenue product, which depends on productivity and the value of output produced. Software engineers typically generate higher value output than retail workers. Choice A confuses hours worked with productivity. Choice B incorrectly suggests more positions mean higher wages. Choice D mentions job security but doesn't explain wage differences. Choice E is factually incorrect about training requirements."
@@ -7118,11 +7118,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Compared to a competitive labor market, a monopsony will:",
     "choices": [
-      "A) Hire more workers at higher wages",
-      "B) Hire fewer workers at lower wages",
-      "C) Hire the same number of workers at lower wages",
-      "D) Hire more workers at the same wages",
-      "E) Hire fewer workers at higher wages"
+      "Hire more workers at higher wages",
+      "Hire fewer workers at lower wages",
+      "Hire the same number of workers at lower wages",
+      "Hire more workers at the same wages",
+      "Hire fewer workers at higher wages"
     ],
     "answer": 1,
     "explanation": "A monopsony faces an upward-sloping labor supply curve, making MRC > wage rate. The monopsony hires where MRP = MRC, resulting in less employment and lower wages compared to the competitive outcome where MRP = wage rate. Choice A describes the opposite effect. Choice C assumes employment doesn't change. Choice D ignores the monopsony's wage-setting power. Choice E correctly identifies lower employment but incorrectly suggests higher wages."
@@ -7139,11 +7139,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A monopsony's marginal resource cost (MRC) curve lies above the labor supply curve because:",
     "choices": [
-      "A) The monopsony must pay higher wages to attract workers from other industries",
-      "B) The monopsony faces perfectly elastic labor supply",
-      "C) To hire an additional worker, the monopsony must raise wages for all workers",
-      "D) Workers have more bargaining power in monopsony markets",
-      "E) The monopsony operates with increasing returns to scale"
+      "The monopsony must pay higher wages to attract workers from other industries",
+      "The monopsony faces perfectly elastic labor supply",
+      "To hire an additional worker, the monopsony must raise wages for all workers",
+      "Workers have more bargaining power in monopsony markets",
+      "The monopsony operates with increasing returns to scale"
     ],
     "answer": 2,
     "explanation": "In a monopsony, the firm faces upward-sloping labor supply. To hire one more worker, it must raise the wage rate, which applies to all workers, making the marginal cost of hiring exceed the wage rate. Choice A describes competitive markets where firms recruit from other industries. Choice B describes perfect competition. Choice D is incorrect as workers have less power under monopsony. Choice E confuses production technology with labor market structure."
@@ -7160,11 +7160,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If a minimum wage is set above the equilibrium wage in a competitive labor market, what is the most likely result?",
     "choices": [
-      "A) Employment will increase due to higher worker motivation",
-      "B) A shortage of workers will occur",
-      "C) Employment will decrease and unemployment will increase",
-      "D) Wages will automatically adjust back to equilibrium",
-      "E) Labor demand will shift rightward"
+      "Employment will increase due to higher worker motivation",
+      "A shortage of workers will occur",
+      "Employment will decrease and unemployment will increase",
+      "Wages will automatically adjust back to equilibrium",
+      "Labor demand will shift rightward"
     ],
     "answer": 2,
     "explanation": "A minimum wage above equilibrium creates a price floor, causing quantity of labor demanded to fall below quantity supplied, resulting in unemployment. Choice A confuses efficiency wage theory with minimum wage effects. Choice B incorrectly suggests shortage when surplus occurs. Choice D ignores that minimum wage prevents wage adjustment. Choice E has no basis as demand doesn't shift from wage changes alone."
@@ -7181,11 +7181,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In a monopsony labor market, a minimum wage set between the monopsony wage and competitive wage will:",
     "choices": [
-      "A) Always reduce employment",
-      "B) Have no effect on employment",
-      "C) Potentially increase both wages and employment",
-      "D) Eliminate the monopsony's market power completely",
-      "E) Shift the labor supply curve rightward"
+      "Always reduce employment",
+      "Have no effect on employment",
+      "Potentially increase both wages and employment",
+      "Eliminate the monopsony's market power completely",
+      "Shift the labor supply curve rightward"
     ],
     "answer": 2,
     "explanation": "In monopsony, a properly set minimum wage can increase both wages and employment by making the labor supply curve horizontal up to that wage, reducing the gap between wage and MRC. Choice A applies competitive market logic incorrectly. Choice B ignores the constraint minimum wage places on monopsony. Choice D overstates the effect - some monopsony power remains. Choice E confuses a price floor with a supply shift."
@@ -7202,11 +7202,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "When a labor union successfully negotiates wages above the competitive equilibrium, the most likely outcome is:",
     "choices": [
-      "A) Higher wages for all workers and higher employment",
-      "B) Higher wages for employed union members but lower total employment",
-      "C) Lower wages due to decreased productivity",
-      "D) No change in employment levels",
-      "E) Automatic increases in labor demand"
+      "Higher wages for all workers and higher employment",
+      "Higher wages for employed union members but lower total employment",
+      "Lower wages due to decreased productivity",
+      "No change in employment levels",
+      "Automatic increases in labor demand"
     ],
     "answer": 1,
     "explanation": "Unions act like monopolies in labor supply, raising wages above competitive levels. This benefits employed union members but reduces total employment as firms move up their labor demand curve. Choice A ignores the law of demand. Choice C contradicts the union's goal and success. Choice D ignores employers' response to higher wage costs. Choice E has no theoretical basis."
@@ -7223,11 +7223,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Which strategy would most effectively help a labor union achieve higher wages without reducing employment?",
     "choices": [
-      "A) Restricting the supply of labor through licensing requirements",
-      "B) Demanding wages far above the current market rate",
-      "C) Increasing worker productivity through training programs",
-      "D) Reducing the number of hours worked per week",
-      "E) Encouraging more workers to join competing firms"
+      "Restricting the supply of labor through licensing requirements",
+      "Demanding wages far above the current market rate",
+      "Increasing worker productivity through training programs",
+      "Reducing the number of hours worked per week",
+      "Encouraging more workers to join competing firms"
     ],
     "answer": 2,
     "explanation": "Increasing productivity shifts labor demand rightward, allowing higher wages without employment loss as workers' MRP increases. Choice A reduces supply but may decrease employment. Choice B creates larger employment reduction. Choice D reduces labor input without addressing wage-employment tradeoff. Choice E weakens the union's position by dispersing workers."
@@ -7244,11 +7244,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In a bilateral monopoly where a union faces a monopsony employer, the wage rate will be:",
     "choices": [
-      "A) Equal to the competitive wage rate",
-      "B) Equal to the monopsony wage rate",
-      "C) Equal to the union's preferred wage rate",
-      "D) Determined through bargaining between the union and monopsony",
-      "E) Higher than both competitive and union preferred rates"
+      "Equal to the competitive wage rate",
+      "Equal to the monopsony wage rate",
+      "Equal to the union's preferred wage rate",
+      "Determined through bargaining between the union and monopsony",
+      "Higher than both competitive and union preferred rates"
     ],
     "answer": 3,
     "explanation": "Bilateral monopoly creates indeterminate outcomes resolved through bargaining. The union wants wages above competitive level while monopsony prefers below competitive level, so negotiation determines the final wage within this range. Choice A ignores both parties' market power. Choices B and C assume one side has complete power. Choice E exceeds what either party would rationally accept."
@@ -7265,11 +7265,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Compared to a pure monopsony, the introduction of a labor union creating bilateral monopoly will most likely:",
     "choices": [
-      "A) Decrease both wages and employment",
-      "B) Increase wages but have an uncertain effect on employment",
-      "C) Have no effect on either wages or employment",
-      "D) Increase employment but decrease wages",
-      "E) Always restore competitive market outcomes"
+      "Decrease both wages and employment",
+      "Increase wages but have an uncertain effect on employment",
+      "Have no effect on either wages or employment",
+      "Increase employment but decrease wages",
+      "Always restore competitive market outcomes"
     ],
     "answer": 1,
     "explanation": "The union's presence typically pushes wages above the monopsony level toward competitive levels, but employment effects are uncertain depending on bargaining outcomes and where the final wage settles relative to competitive equilibrium. Choice A assumes union makes things worse. Choice C ignores the union's countervailing power. Choice D contradicts the union's primary goal. Choice E overstates the precision of bilateral monopoly outcomes."
@@ -7286,11 +7286,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "The demand for labor will be more elastic when:",
     "choices": [
-      "A) Labor represents a small portion of total production costs",
-      "B) There are few substitute inputs for labor",
-      "C) The demand for the final product is inelastic",
-      "D) There are many substitute inputs for labor",
-      "E) Workers require highly specialized skills"
+      "Labor represents a small portion of total production costs",
+      "There are few substitute inputs for labor",
+      "The demand for the final product is inelastic",
+      "There are many substitute inputs for labor",
+      "Workers require highly specialized skills"
     ],
     "answer": 3,
     "explanation": "Labor demand elasticity increases when substitutes are available, allowing firms to easily replace workers when wages rise. Choice A makes labor demand less elastic (small cost share). Choice B reduces elasticity by limiting substitution. Choice C makes labor demand less elastic through derived demand. Choice E suggests specialized workers have fewer substitutes, reducing elasticity."
@@ -7307,11 +7307,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If the marginal product of the 5th worker is 10 units and each unit sells for $3, what is the marginal revenue product of the 5th worker?",
     "choices": [
-      "A) $10",
-      "B) $13",
-      "C) $30",
-      "D) $50",
-      "E) Cannot be determined without knowing total output"
+      "$10",
+      "$13",
+      "$30",
+      "$50",
+      "Cannot be determined without knowing total output"
     ],
     "answer": 2,
     "explanation": "MRP = MP × Price = 10 units × $3/unit = $30. This measures the additional revenue generated by hiring the 5th worker. Choice A uses only MP, ignoring price. Choice B adds MP and price instead of multiplying. Choice D incorrectly calculates 5 × 10. Choice E is wrong because MRP only requires MP and price, not total output."
@@ -7328,11 +7328,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Which factor best explains why workers with college degrees typically earn higher wages than high school graduates?",
     "choices": [
-      "A) College graduates work in larger companies",
-      "B) College graduates have higher marginal revenue product due to increased human capital",
-      "C) College graduates face less competition for jobs",
-      "D) College graduates are protected by stronger labor unions",
-      "E) College graduates work fewer hours per week"
+      "College graduates work in larger companies",
+      "College graduates have higher marginal revenue product due to increased human capital",
+      "College graduates face less competition for jobs",
+      "College graduates are protected by stronger labor unions",
+      "College graduates work fewer hours per week"
     ],
     "answer": 1,
     "explanation": "Education increases human capital, raising worker productivity and thus MRP, leading to higher wages. This represents the economic return to education investment. Choice A confuses company size with productivity. Choice C is generally incorrect as college graduates often face significant competition. Choice D overstates union coverage among college graduates. Choice E doesn't explain wage premiums."
@@ -7349,11 +7349,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "An increase in non-labor income (such as inheritance or investment returns) will most likely:",
     "choices": [
-      "A) Increase labor supply as people can afford job training",
-      "B) Decrease labor supply due to the income effect",
-      "C) Have no effect on labor supply decisions",
-      "D) Increase labor supply by making work more attractive",
-      "E) Only affect labor supply if wages also change"
+      "Increase labor supply as people can afford job training",
+      "Decrease labor supply due to the income effect",
+      "Have no effect on labor supply decisions",
+      "Increase labor supply by making work more attractive",
+      "Only affect labor supply if wages also change"
     ],
     "answer": 1,
     "explanation": "Higher non-labor income creates a pure income effect, increasing demand for leisure (normal good) and decreasing labor supply. People can afford to work less when they have other income sources. Choice A confuses training investment with immediate labor supply. Choice C ignores the income effect on leisure demand. Choice D incorrectly suggests non-labor income makes work more attractive. Choice E misunderstands that non-labor income affects supply independently of wage changes."
@@ -7370,11 +7370,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "The deadweight loss from monopsony in labor markets results from:",
     "choices": [
-      "A) Paying workers more than their marginal revenue product",
-      "B) Hiring too many workers relative to the efficient level",
-      "C) Workers being paid less than their marginal revenue product",
-      "D) Perfect information leading to market failure",
-      "E) Government intervention in wage setting"
+      "Paying workers more than their marginal revenue product",
+      "Hiring too many workers relative to the efficient level",
+      "Workers being paid less than their marginal revenue product",
+      "Perfect information leading to market failure",
+      "Government intervention in wage setting"
     ],
     "answer": 2,
     "explanation": "Monopsony creates deadweight loss because workers are paid less than their MRP, meaning the value they produce exceeds their compensation. This indicates underemployment relative to the efficient competitive level. Choice A describes overpayment, opposite of monopsony. Choice B suggests overemployment when monopsony causes underemployment. Choice D incorrectly identifies the source of market failure. Choice E assumes government intervention exists."
@@ -7391,11 +7391,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If employers discriminate against certain workers despite equal productivity, the discriminating firms will likely:",
     "choices": [
-      "A) Increase their profits by paying lower wages",
-      "B) Face higher costs and reduced competitiveness",
-      "C) Attract the most productive workers",
-      "D) Benefit from improved worker loyalty",
-      "E) Experience no economic consequences"
+      "Increase their profits by paying lower wages",
+      "Face higher costs and reduced competitiveness",
+      "Attract the most productive workers",
+      "Benefit from improved worker loyalty",
+      "Experience no economic consequences"
     ],
     "answer": 1,
     "explanation": "Discrimination against equally productive workers creates inefficiency for discriminating firms, as they either exclude productive workers or pay wage premiums to preferred groups, raising costs and reducing competitiveness versus non-discriminating firms. Choice A ignores that equally productive workers deserve equal pay for efficiency. Choice C is incorrect as discrimination excludes productive workers. Choice D assumes loyalty benefits outweigh inefficiency costs. Choice E ignores market consequences of inefficient behavior."
@@ -7412,11 +7412,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A firm might voluntarily pay wages above the market equilibrium because:",
     "choices": [
-      "A) Government regulations require higher wages",
-      "B) Higher wages reduce worker turnover and increase productivity",
-      "C) The firm faces a shortage of workers",
-      "D) Higher wages automatically increase the demand for the firm's product",
-      "E) The firm operates as a monopsony"
+      "Government regulations require higher wages",
+      "Higher wages reduce worker turnover and increase productivity",
+      "The firm faces a shortage of workers",
+      "Higher wages automatically increase the demand for the firm's product",
+      "The firm operates as a monopsony"
     ],
     "answer": 1,
     "explanation": "Efficiency wage theory explains why firms might pay above-market wages to reduce turnover costs, increase worker effort, and attract higher-quality workers, making higher wages profitable despite higher labor costs. Choice A describes mandatory rather than voluntary wage increases. Choice C suggests market forces, not voluntary decisions. Choice D incorrectly links wages to product demand. Choice E contradicts paying above-market wages."
@@ -7433,11 +7433,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A monopsonist employer in a labor market will hire workers up to the point where marginal revenue product (MRP) equals marginal resource cost (MRC). Compared to a perfectly competitive labor market, this monopsonist will hire _____ workers at a _____ wage rate.",
     "choices": [
-      "A) fewer; lower",
-      "B) fewer; higher",
-      "C) more; lower",
-      "D) more; higher",
-      "E) the same number of; lower"
+      "fewer; lower",
+      "fewer; higher",
+      "more; lower",
+      "more; higher",
+      "the same number of; lower"
     ],
     "answer": 0,
     "explanation": "A monopsonist faces an upward-sloping labor supply curve, making MRC > wage. The monopsonist hires where MRP = MRC, which occurs at a lower quantity than the competitive equilibrium where MRP = wage. The wage paid corresponds to the supply curve at this lower quantity, resulting in both fewer workers hired and lower wages paid compared to perfect competition. Students often confuse this with monopoly (thinking higher wages) or assume only quantity or only wage changes."
@@ -7454,11 +7454,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If a minimum wage is set above the equilibrium wage in a monopsonistic labor market, what is the most likely outcome?",
     "choices": [
-      "A) Employment will definitely decrease",
-      "B) Employment will definitely increase",
-      "C) Employment may increase, decrease, or stay the same",
-      "D) The wage rate will fall below the minimum",
-      "E) Labor demand will become perfectly elastic"
+      "Employment will definitely decrease",
+      "Employment will definitely increase",
+      "Employment may increase, decrease, or stay the same",
+      "The wage rate will fall below the minimum",
+      "Labor demand will become perfectly elastic"
     ],
     "answer": 2,
     "explanation": "In a monopsonistic market, employment is already below the competitive level due to the monopsonist's market power. A minimum wage above equilibrium but below the competitive level could actually increase employment by forcing the monopsonist closer to competitive hiring. However, if set too high (above competitive level), it will decrease employment. The exact outcome depends on where the minimum wage is set relative to both the monopsony and competitive equilibrium points. Students often assume minimum wages always decrease employment (true only in competitive markets) or always increase it."
@@ -7475,11 +7475,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A technological advancement increases the productivity of skilled welders but has no effect on unskilled labor. Simultaneously, consumer preferences shift away from manufactured goods requiring welding toward services requiring unskilled labor. What will happen to the demand for skilled welders?",
     "choices": [
-      "A) Demand will definitely increase due to higher productivity",
-      "B) Demand will definitely decrease due to reduced consumer demand for welded goods",
-      "C) Demand will remain unchanged as the two effects exactly cancel out",
-      "D) The net effect on demand is indeterminate without knowing the relative magnitudes of the shifts",
-      "E) Demand will increase in the short run but decrease in the long run"
+      "Demand will definitely increase due to higher productivity",
+      "Demand will definitely decrease due to reduced consumer demand for welded goods",
+      "Demand will remain unchanged as the two effects exactly cancel out",
+      "The net effect on demand is indeterminate without knowing the relative magnitudes of the shifts",
+      "Demand will increase in the short run but decrease in the long run"
     ],
     "answer": 3,
     "explanation": "This question tests understanding that derived demand depends on both the marginal productivity of labor AND the demand for the final product. The productivity increase shifts MRP right, but decreased demand for welded goods shifts it left. Without knowing which effect dominates, the net change is indeterminate. Students often incorrectly focus on only one factor (A or B) or assume the effects cancel out exactly (C)."
@@ -7496,11 +7496,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A firm operating in a perfectly competitive labor market but selling output in a monopolistic product market will hire workers up to the point where MRP equals the wage. Compared to a firm that is perfectly competitive in both markets with identical production technology, this monopolistic firm will:",
     "choices": [
-      "A) Hire more workers because it can charge higher prices for output",
-      "B) Hire fewer workers because MR < P in the monopolistic product market",
-      "C) Hire the same number of workers because labor market competition determines employment",
-      "D) Pay higher wages because it earns monopoly profits",
-      "E) Have a vertical labor demand curve because it controls output price"
+      "Hire more workers because it can charge higher prices for output",
+      "Hire fewer workers because MR < P in the monopolistic product market",
+      "Hire the same number of workers because labor market competition determines employment",
+      "Pay higher wages because it earns monopoly profits",
+      "Have a vertical labor demand curve because it controls output price"
     ],
     "answer": 1,
     "explanation": "Since MRP = MP × MR, and monopolists have MR < P while competitive firms have MR = P, the monopolist's MRP curve lies below that of a competitive firm. This means fewer workers hired at any given wage. Students often incorrectly think higher product prices mean more hiring (A) or that labor market structure alone determines employment (C)."
@@ -7517,11 +7517,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In a monopsony labor market, if the labor supply curve has the equation W = 10 + 2L, where W is the wage rate and L is the quantity of labor, what is the relationship between MRC and the supply curve?",
     "choices": [
-      "A) MRC = W because the firm is a price taker in the labor market",
-      "B) MRC = 10 + 4L, so MRC is twice as steep as the supply curve",
-      "C) MRC = 10 + L, so MRC is half as steep as the supply curve",
-      "D) MRC lies below the supply curve because the monopsonist has market power",
-      "E) MRC is undefined because monopsonists don't follow profit-maximizing rules"
+      "MRC = W because the firm is a price taker in the labor market",
+      "MRC = 10 + 4L, so MRC is twice as steep as the supply curve",
+      "MRC = 10 + L, so MRC is half as steep as the supply curve",
+      "MRC lies below the supply curve because the monopsonist has market power",
+      "MRC is undefined because monopsonists don't follow profit-maximizing rules"
     ],
     "answer": 1,
     "explanation": "For a monopsonist facing supply curve W = 10 + 2L, total cost is TC = W × L = (10 + 2L)L = 10L + 2L². Therefore MRC = dTC/dL = 10 + 4L. The MRC curve has the same intercept but twice the slope of the supply curve. Students often think MRC = W in all cases (A) or that MRC lies below supply (D), confusing monopsony with monopoly."
@@ -7538,11 +7538,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Consider two labor markets: Market A is perfectly competitive and Market B is monopsonistic. Both markets initially have the same equilibrium employment level. If identical minimum wage laws are imposed in both markets, set at a level above the competitive wage in Market A, which statement is most accurate?",
     "choices": [
-      "A) Both markets will experience identical decreases in employment",
-      "B) Market A will have unemployment while Market B may see increased employment",
-      "C) Market B will have greater unemployment because monopsonists respond more to wage changes",
-      "D) Both markets will reach the same new employment level due to identical minimum wages",
-      "E) The minimum wage will be ineffective in Market B because monopsonists ignore wage controls"
+      "Both markets will experience identical decreases in employment",
+      "Market A will have unemployment while Market B may see increased employment",
+      "Market B will have greater unemployment because monopsonists respond more to wage changes",
+      "Both markets will reach the same new employment level due to identical minimum wages",
+      "The minimum wage will be ineffective in Market B because monopsonists ignore wage controls"
     ],
     "answer": 1,
     "explanation": "In competitive Market A, minimum wage above equilibrium creates unemployment. In monopsonistic Market B, if the minimum wage is above the monopsony wage but not too high, it can increase employment by making MRC horizontal. Students often assume identical market structures lead to identical outcomes (A, D) or misunderstand how monopsonists respond to price controls (C, E)."
@@ -7559,11 +7559,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "In a bilateral monopoly where a monopsonist employer faces a monopolist labor union, the final wage will be:",
     "choices": [
-      "A) Equal to the competitive wage because the two monopoly powers cancel out",
-      "B) Lower than the monopsony wage because both parties have market power",
-      "C) Higher than the competitive wage because the union has monopoly power",
-      "D) Indeterminate within a range bounded by what each party would prefer",
-      "E) Equal to the union's preferred wage because labor supply is more inelastic than demand"
+      "Equal to the competitive wage because the two monopoly powers cancel out",
+      "Lower than the monopsony wage because both parties have market power",
+      "Higher than the competitive wage because the union has monopoly power",
+      "Indeterminate within a range bounded by what each party would prefer",
+      "Equal to the union's preferred wage because labor supply is more inelastic than demand"
     ],
     "answer": 3,
     "explanation": "In bilateral monopoly, the monopsonist prefers a low wage (where MRC = MRP) while the union prefers a high wage (where MR from labor = supply). The actual wage depends on relative bargaining power and is indeterminate between these bounds. Students often think monopoly powers cancel to give competitive outcome (A) or that one side automatically dominates (C, E)."
@@ -7580,11 +7580,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A steel mill near a residential neighborhood releases sulfur dioxide into the air, raising residents' healthcare costs and lowering property values. These costs are borne by people who are not buyers or sellers of steel. Which of the following best describes the mill's impact on the community?",
     "choices": [
-      "A) A negative externality",
-      "B) A positive externality",
-      "C) A public good",
-      "D) A private good",
-      "E) Perfect competition"
+      "A negative externality",
+      "A positive externality",
+      "A public good",
+      "A private good",
+      "Perfect competition"
     ],
     "answer": 0,
     "explanation": "A negative externality occurs when production or consumption imposes uncompensated costs on third parties outside the market transaction. The steel mill's pollution harms residents who have no role in the steel market. This is distinct from a positive externality (benefits to third parties), and it is not related to the classification of the good as public or private."
@@ -7601,13 +7601,13 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A software company invests heavily in training its engineers in cutting-edge machine learning. Many of these engineers later move to other firms or launch startups, spreading knowledge and innovation throughout the regional tech industry—at no cost to those other firms. Which of the following best describes the broader economic impact of the company's training program?",
     "choices": [
-      "A) A negative externality",
-      "B) A positive externality",
-      "C) Market failure due to monopoly",
-      "D) The free rider problem",
-      "E) A common resource"
+      "A negative externality",
+      "The free rider problem",
+      "Market failure due to monopoly",
+      "A positive externality",
+      "A common resource"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A positive externality occurs when an action benefits third parties who do not pay for it. The software company's training creates knowledge spillovers that benefit competing firms and the broader economy without compensation. Students might confuse this with a negative externality or the free-rider problem, but the key here is the uncompensated benefit flowing outward to third parties."
   },
   {
@@ -7622,11 +7622,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "According to the Coase theorem, private parties can solve externality problems without government intervention when which condition is met?",
     "choices": [
-      "A) Transaction costs are high",
-      "B) Property rights are unclear",
-      "C) Transaction costs are low or zero",
-      "D) There are many parties involved",
-      "E) The externality is positive rather than negative"
+      "Transaction costs are high",
+      "Property rights are unclear",
+      "Transaction costs are low or zero",
+      "There are many parties involved",
+      "The externality is positive rather than negative"
     ],
     "answer": 2,
     "explanation": "The Coase theorem states that private parties can negotiate solutions to externality problems when transaction costs are low and property rights are well-defined. High transaction costs, unclear property rights, and many parties all make private negotiation more difficult, which are common student misconceptions."
@@ -7643,11 +7643,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Public goods are characterized by which two properties?",
     "choices": [
-      "A) Rivalry and excludability",
-      "B) Non-rivalry and excludability",
-      "C) Rivalry and non-excludability",
-      "D) Non-rivalry and non-excludability",
-      "E) High price and low quality"
+      "Rivalry and excludability",
+      "Non-rivalry and excludability",
+      "Rivalry and non-excludability",
+      "Non-rivalry and non-excludability",
+      "High price and low quality"
     ],
     "answer": 3,
     "explanation": "Public goods are non-rival (one person's consumption doesn't reduce availability for others) and non-excludable (can't prevent people from using them). Students often confuse the combinations or think excludability means expensive rather than the ability to prevent access."
@@ -7664,13 +7664,13 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Several towns share a regional flood-control levee system. Once built, no town can be excluded from the protection it provides. Each town's government delays funding, expecting the others to pay while still receiving flood protection. In this scenario, towns are doing which of the following?",
     "choices": [
-      "A) Pay more than their fair share for public goods",
-      "B) Consume public goods without paying for them",
-      "C) Refuse to use public transportation",
-      "D) Create negative externalities",
-      "E) Compete perfectly in markets"
+      "Pay more than their fair share for public goods",
+      "Create negative externalities",
+      "Refuse to use public transportation",
+      "Consume public goods without paying for them",
+      "Compete perfectly in markets"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The free-rider problem occurs when people (or towns) benefit from a non-excludable good without paying for it. Because the levee protects all towns regardless of who funds it, each town has an incentive to free-ride—leading to underprovision of the levee. This is not about overpaying (A), transportation mode (C), creating externalities (D), or perfect competition (E)."
   },
   {
@@ -7685,13 +7685,13 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A Gini coefficient of 0 indicates which of the following about income distribution?",
     "choices": [
-      "A) Perfect income inequality",
-      "B) Perfect income equality",
-      "C) Moderate income inequality",
-      "D) The richest person has all the income",
-      "E) Income data is unavailable"
+      "Perfect income equality",
+      "Perfect income inequality",
+      "Moderate income inequality",
+      "The richest person has all the income",
+      "Income data is unavailable"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A Gini coefficient ranges from 0 to 1, where 0 represents perfect equality (everyone has the same income) and 1 represents perfect inequality (one person has all income). Students commonly reverse this relationship or think 0 means no data."
   },
   {
@@ -7706,11 +7706,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A chemical factory produces fertilizer but also releases pollutants into a nearby river, harming local fishermen. If the government imposes a Pigouvian tax equal to the marginal external cost, what will be the result?",
     "choices": [
-      "A) The factory will produce at the socially optimal level",
-      "B) The factory will shut down completely",
-      "C) The tax will have no effect on production levels",
-      "D) Consumer surplus will increase while producer surplus remains unchanged",
-      "E) The factory will produce more than the socially optimal level"
+      "The factory will produce at the socially optimal level",
+      "The factory will shut down completely",
+      "The tax will have no effect on production levels",
+      "Consumer surplus will increase while producer surplus remains unchanged",
+      "The factory will produce more than the socially optimal level"
     ],
     "answer": 0,
     "explanation": "A Pigouvian tax equal to the marginal external cost internalizes the externality, causing the firm to produce at the socially optimal level where marginal social cost equals marginal social benefit. The factory won't necessarily shut down, the tax will affect production by raising marginal costs, and both consumer and producer surplus will be affected."
@@ -7727,13 +7727,13 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Education creates positive externalities because educated individuals benefit society beyond their personal gains. In an unregulated market for education, which of the following accurately describes the outcome?",
     "choices": [
-      "A) Too much education is consumed relative to the social optimum",
-      "B) Too little education is consumed relative to the social optimum",
-      "C) The market produces the socially optimal amount of education",
-      "D) Only negative externalities cause market failures",
-      "E) The marginal private benefit exceeds the marginal social benefit"
+      "Too little education is consumed relative to the social optimum",
+      "Too much education is consumed relative to the social optimum",
+      "The market produces the socially optimal amount of education",
+      "Only negative externalities cause market failures",
+      "The marginal private benefit exceeds the marginal social benefit"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "With positive externalities, marginal social benefit exceeds marginal private benefit. Since individuals only consider private benefits when making decisions, they consume less than the socially optimal amount. This is a classic case of market underproduction when positive externalities exist."
   },
   {
@@ -7748,11 +7748,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "According to the Coase theorem, private parties can negotiate to solve externality problems without government intervention when which conditions are met?",
     "choices": [
-      "A) Property rights are clearly defined and transaction costs are zero",
-      "B) The externality is positive rather than negative",
-      "C) Government regulation is already in place",
-      "D) Perfect competition exists in the market",
-      "E) The number of affected parties is greater than 100"
+      "Property rights are clearly defined and transaction costs are zero",
+      "The externality is positive rather than negative",
+      "Government regulation is already in place",
+      "Perfect competition exists in the market",
+      "The number of affected parties is greater than 100"
     ],
     "answer": 0,
     "explanation": "The Coase theorem states that private parties can negotiate efficient solutions to externality problems when property rights are clearly defined and transaction costs are zero (or very low). The type of externality, government regulation, market structure, and number of parties don't determine if the theorem applies - though large numbers of parties typically increase transaction costs."
@@ -7769,11 +7769,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "The U.S. military defends all American citizens simultaneously. Adding more citizens to the country does not reduce the protection available to existing citizens, and no citizen can be denied the protection once it is provided. Which of the following best explains why national defense is classified as a pure public good?",
     "choices": [
-      "A) It is expensive to produce",
-      "B) It is provided by the government",
-      "C) It is both non-rivalrous and non-excludable",
-      "D) Everyone benefits equally from it",
-      "E) It creates positive externalities"
+      "It is expensive to produce",
+      "It is provided by the government",
+      "It is both non-rivalrous and non-excludable",
+      "Everyone benefits equally from it",
+      "It creates positive externalities"
     ],
     "answer": 2,
     "explanation": "National defense is a pure public good because it exhibits both non-rivalry (one person's consumption doesn't reduce availability to others) and non-excludability (cannot prevent people from benefiting once it's provided). High cost (A) and government provision (B) are incidental. Equal benefit to all (D) is often false—those near military bases benefit differently. Creating positive externalities (E) is a related but separate concept from being a public good."
@@ -7790,11 +7790,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A neighborhood wants to install decorative streetlights that everyone can enjoy. If residents rely on voluntary contributions, what problem is most likely to occur?",
     "choices": [
-      "A) Too many streetlights will be installed",
-      "B) The streetlights will be installed but will be too expensive",
-      "C) Some residents will benefit without paying, leading to underprovision",
-      "D) The streetlights will only benefit wealthy residents",
-      "E) Perfect competition will result in optimal provision"
+      "Too many streetlights will be installed",
+      "The streetlights will be installed but will be too expensive",
+      "Some residents will benefit without paying, leading to underprovision",
+      "The streetlights will only benefit wealthy residents",
+      "Perfect competition will result in optimal provision"
     ],
     "answer": 2,
     "explanation": "This is a classic free rider problem. Since the streetlights are non-excludable, residents can benefit without paying. Knowing this, many will choose not to contribute voluntarily, hoping others will pay. This leads to underprovision of the good, not overprovision or optimal provision."
@@ -7811,13 +7811,13 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Ocean fish populations are often overfished because they represent a common resource. This occurs because ocean fish are:",
     "choices": [
-      "A) Non-rivalrous and non-excludable",
-      "B) Rivalrous and non-excludable",
-      "C) Non-rivalrous and excludable",
-      "D) Rivalrous and excludable",
-      "E) Neither rivalrous nor excludable, but expensive to catch"
+      "Rivalrous and non-excludable",
+      "Non-rivalrous and non-excludable",
+      "Non-rivalrous and excludable",
+      "Rivalrous and excludable",
+      "Neither rivalrous nor excludable, but expensive to catch"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Common resources are rivalrous (one person's use reduces availability to others) and non-excludable (difficult to prevent access). Ocean fish are rivalrous because catching fish reduces the stock available to others, and non-excludable because it's difficult to prevent access to open ocean waters. This leads to the tragedy of the commons."
   },
   {
@@ -7832,13 +7832,13 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Which factor would most likely contribute to increased income inequality in a market economy?",
     "choices": [
-      "A) Increased access to education for all income groups",
-      "B) Technological changes that increase demand for highly skilled workers",
-      "C) Progressive taxation with higher rates for high earners",
-      "D) Minimum wage increases",
-      "E) Expansion of social safety net programs"
+      "Technological changes that increase demand for highly skilled workers",
+      "Increased access to education for all income groups",
+      "Progressive taxation with higher rates for high earners",
+      "Minimum wage increases",
+      "Expansion of social safety net programs"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Technological changes that increase demand for highly skilled workers create skill-biased technological change, widening the wage gap between skilled and unskilled workers. The other options would generally decrease inequality: better education access, progressive taxation, minimum wages, and safety nets all tend to reduce income disparities."
   },
   {
@@ -7853,11 +7853,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "On a Lorenz curve, what does a point at coordinates (40%, 15%) represent?",
     "choices": [
-      "A) 40% of the population earns 15% of their potential income",
-      "B) 15% of the population earns 40% of total income",
-      "C) The bottom 40% of income earners receive 15% of total income",
-      "D) Income inequality has decreased by 40% and increased by 15%",
-      "E) The top 15% of earners receive 40% of total income"
+      "40% of the population earns 15% of their potential income",
+      "15% of the population earns 40% of total income",
+      "The bottom 40% of income earners receive 15% of total income",
+      "Income inequality has decreased by 40% and increased by 15%",
+      "The top 15% of earners receive 40% of total income"
     ],
     "answer": 2,
     "explanation": "In a Lorenz curve, the x-axis represents the cumulative percentage of population (from lowest to highest income earners) and the y-axis represents the cumulative percentage of total income. So (40%, 15%) means the bottom 40% of income earners receive 15% of total income, indicating significant inequality."
@@ -7874,13 +7874,13 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If Country A has a Gini coefficient of 0.25 and Country B has a Gini coefficient of 0.45, what can we conclude?",
     "choices": [
-      "A) Country A has higher income inequality than Country B",
-      "B) Country B has higher income inequality than Country A",
-      "C) Both countries have perfect income equality",
-      "D) Country A has perfect income inequality",
-      "E) The Gini coefficients are too close to make meaningful comparisons"
+      "Country B has higher income inequality than Country A",
+      "Country A has higher income inequality than Country B",
+      "Both countries have perfect income equality",
+      "Country A has perfect income inequality",
+      "The Gini coefficients are too close to make meaningful comparisons"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The Gini coefficient ranges from 0 (perfect equality) to 1 (perfect inequality). Since Country B has a higher Gini coefficient (0.45 vs 0.25), it has greater income inequality. A coefficient of 0.25 indicates relatively low inequality, while 0.45 indicates moderate to high inequality."
   },
   {
@@ -7895,13 +7895,13 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "When government intervention to correct market failures results in a less efficient outcome than the original market failure, this is known as:",
     "choices": [
-      "A) Regulatory capture",
-      "B) Government failure",
-      "C) Market power",
-      "D) Deadweight loss",
-      "E) Economic rent"
+      "Government failure",
+      "Regulatory capture",
+      "Market power",
+      "Deadweight loss",
+      "Economic rent"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Government failure occurs when government intervention intended to correct market failures actually creates a less efficient outcome than the original problem. Regulatory capture is when industries influence their regulators, market power refers to monopolistic control, deadweight loss is efficiency loss from any source, and economic rent is payment above opportunity cost."
   },
   {
@@ -7916,11 +7916,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A steel mill creates air pollution that increases healthcare costs for nearby residents. In the absence of government intervention, the mill's production level will be:",
     "choices": [
-      "A) Equal to the socially optimal level",
-      "B) Less than the socially optimal level",
-      "C) Greater than the socially optimal level",
-      "D) Zero, because pollution makes production unprofitable",
-      "E) Indeterminate without knowing the elasticity of demand"
+      "Equal to the socially optimal level",
+      "Less than the socially optimal level",
+      "Greater than the socially optimal level",
+      "Zero, because pollution makes production unprofitable",
+      "Indeterminate without knowing the elasticity of demand"
     ],
     "answer": 2,
     "explanation": "With negative externalities, firms only consider private costs, not social costs. Since marginal social cost exceeds marginal private cost, the firm produces more than the socially optimal level where marginal social cost equals marginal social benefit. The firm doesn't internalize the healthcare costs imposed on others."
@@ -7937,13 +7937,13 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Research and development by pharmaceutical companies often creates knowledge spillovers that benefit other firms. To achieve the socially optimal level of R&D, the government should:",
     "choices": [
-      "A) Tax pharmaceutical R&D activities",
-      "B) Subsidize pharmaceutical R&D activities",
-      "C) Regulate the maximum amount of R&D allowed",
-      "D) Do nothing, as the market will self-correct",
-      "E) Only allow government agencies to conduct R&D"
+      "Subsidize pharmaceutical R&D activities",
+      "Tax pharmaceutical R&D activities",
+      "Regulate the maximum amount of R&D allowed",
+      "Do nothing, as the market will self-correct",
+      "Only allow government agencies to conduct R&D"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Positive externalities from R&D mean marginal social benefit exceeds marginal private benefit, leading to underinvestment. Subsidies increase the private benefit, encouraging more R&D toward the social optimum. Taxes would worsen the problem, regulation would limit beneficial activity, and markets don't self-correct externalities."
   },
   {
@@ -7958,11 +7958,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Which of the following is NOT a characteristic that would make a good suitable for government provision?",
     "choices": [
-      "A) High fixed costs with declining average costs",
-      "B) Significant positive externalities in consumption",
-      "C) Non-excludability making private provision difficult",
-      "D) Perfect rivalry in consumption",
-      "E) Natural monopoly characteristics"
+      "High fixed costs with declining average costs",
+      "Significant positive externalities in consumption",
+      "Non-excludability making private provision difficult",
+      "Perfect rivalry in consumption",
+      "Natural monopoly characteristics"
     ],
     "answer": 3,
     "explanation": "Perfect rivalry in consumption (where one person's use completely prevents another's use) actually makes private provision more feasible, not less. The other characteristics - high fixed costs, positive externalities, non-excludability, and natural monopoly features - all create problems for private markets that may justify government provision."
@@ -7979,11 +7979,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Public radio stations often hold fundraising drives asking for voluntary donations. Many listeners who enjoy the programming never donate. This behavior is problematic because:",
     "choices": [
-      "A) It proves that people don't value public radio",
-      "B) It may lead to underfunding and potential station closure",
-      "C) It violates antitrust laws",
-      "D) It creates negative externalities",
-      "E) It results in overproduction of radio programming"
+      "It proves that people don't value public radio",
+      "It may lead to underfunding and potential station closure",
+      "It violates antitrust laws",
+      "It creates negative externalities",
+      "It results in overproduction of radio programming"
     ],
     "answer": 1,
     "explanation": "Free riding on public radio (listening without donating) can lead to underfunding because the station cannot exclude non-contributors from listening. This doesn't prove people don't value the service - they may value it but choose to free ride. It's not an antitrust issue, doesn't create negative externalities, and leads to underproduction, not overproduction."
@@ -8000,11 +8000,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "The tragedy of the commons occurs with common resources because:",
     "choices": [
-      "A) Individual users consider both private and social costs when making decisions",
-      "B) Individual users only consider private benefits, ignoring social costs",
-      "C) The resources are owned by the government",
-      "D) The resources are non-rivalrous",
-      "E) Perfect competition exists among users"
+      "Individual users consider both private and social costs when making decisions",
+      "Individual users only consider private benefits, ignoring social costs",
+      "The resources are owned by the government",
+      "The resources are non-rivalrous",
+      "Perfect competition exists among users"
     ],
     "answer": 1,
     "explanation": "The tragedy of the commons occurs because individual users consider only their private benefits from using the resource while ignoring the social costs (depletion, congestion) imposed on others. If users considered both private and social costs, the tragedy would be avoided. Government ownership and competition don't cause the problem, and common resources are rivalrous."
@@ -8021,11 +8021,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Which combination of policies would be most likely to reduce income inequality?",
     "choices": [
-      "A) Regressive taxation and reduced education funding",
-      "B) Progressive taxation and increased education access",
-      "C) Flat tax rates and elimination of minimum wage",
-      "D) Tax cuts for high earners and reduced social programs",
-      "E) Elimination of all government transfer programs"
+      "Regressive taxation and reduced education funding",
+      "Progressive taxation and increased education access",
+      "Flat tax rates and elimination of minimum wage",
+      "Tax cuts for high earners and reduced social programs",
+      "Elimination of all government transfer programs"
     ],
     "answer": 1,
     "explanation": "Progressive taxation (higher rates on higher incomes) and increased education access both work to reduce inequality. Progressive taxation redistributes income, while education increases opportunities for lower-income individuals. All other options would likely increase inequality by favoring higher earners or reducing support for lower-income groups."
@@ -8042,11 +8042,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If a Lorenz curve lies closer to the line of perfect equality (45-degree line), this indicates:",
     "choices": [
-      "A) Higher income inequality in the economy",
-      "B) Lower income inequality in the economy",
-      "C) Perfect income inequality",
-      "D) That the Gini coefficient equals 1",
-      "E) That income distribution data is unreliable"
+      "Higher income inequality in the economy",
+      "Lower income inequality in the economy",
+      "Perfect income inequality",
+      "That the Gini coefficient equals 1",
+      "That income distribution data is unreliable"
     ],
     "answer": 1,
     "explanation": "The closer a Lorenz curve is to the 45-degree line of perfect equality, the more equal the income distribution. Perfect equality would mean the curve coincides with the 45-degree line. Greater distance from this line indicates higher inequality, while a Gini coefficient of 1 would represent perfect inequality (curve along the bottom and right edges)."
@@ -8063,11 +8063,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A policy that successfully reduces income inequality would most likely result in:",
     "choices": [
-      "A) An increase in the Gini coefficient",
-      "B) A decrease in the Gini coefficient",
-      "C) No change in the Gini coefficient",
-      "D) The Gini coefficient becoming negative",
-      "E) The Gini coefficient exceeding 1"
+      "An increase in the Gini coefficient",
+      "A decrease in the Gini coefficient",
+      "No change in the Gini coefficient",
+      "The Gini coefficient becoming negative",
+      "The Gini coefficient exceeding 1"
     ],
     "answer": 1,
     "explanation": "The Gini coefficient measures inequality, ranging from 0 (perfect equality) to 1 (perfect inequality). A policy that reduces inequality would decrease the Gini coefficient, moving it closer to 0. The coefficient cannot be negative or exceed 1 by definition."
@@ -8084,11 +8084,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Government intervention in markets is most justified when:",
     "choices": [
-      "A) Prices are considered too high by consumers",
-      "B) Market failures prevent efficient resource allocation",
-      "C) Producers are earning positive economic profits",
-      "D) Competition is too intense",
-      "E) Consumer preferences are changing rapidly"
+      "Prices are considered too high by consumers",
+      "Market failures prevent efficient resource allocation",
+      "Producers are earning positive economic profits",
+      "Competition is too intense",
+      "Consumer preferences are changing rapidly"
     ],
     "answer": 1,
     "explanation": "Government intervention is most justified when market failures occur - situations where free markets fail to allocate resources efficiently (externalities, public goods, monopolies, information asymmetries). High prices, economic profits, intense competition, and changing preferences are normal market phenomena that don't necessarily indicate market failure requiring intervention."
@@ -8105,11 +8105,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A chemical factory produces fertilizer and emits pollution that harms nearby farms. The factory's marginal private cost is $20 per unit, and the marginal external cost from pollution is $8 per unit. If the market price is $25 per unit, what is the socially optimal solution?",
     "choices": [
-      "A) The factory should produce at the current level since price exceeds marginal private cost",
-      "B) The factory should reduce production since marginal social cost exceeds price",
-      "C) The factory should increase production since the external cost is relatively small",
-      "D) The factory should shut down completely to eliminate the externality",
-      "E) The market is already at the socially optimal level"
+      "The factory should produce at the current level since price exceeds marginal private cost",
+      "The factory should reduce production since marginal social cost exceeds price",
+      "The factory should increase production since the external cost is relatively small",
+      "The factory should shut down completely to eliminate the externality",
+      "The market is already at the socially optimal level"
     ],
     "answer": 1,
     "explanation": "Marginal social cost = marginal private cost + marginal external cost = $20 + $8 = $28. Since MSC ($28) > price ($25), the factory is overproducing and should reduce output. Choice A ignores external costs, C minimizes the significance of externalities, D is extreme, and E incorrectly assumes the market accounts for externalities."
@@ -8126,11 +8126,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A noisy factory operates next to a hotel. The factory earns $500 profit daily while imposing $300 in costs on the hotel. Installing soundproofing costs $150. According to the Coase theorem, what outcome is most likely if property rights are clearly defined and transaction costs are zero?",
     "choices": [
-      "A) The factory will always install soundproofing regardless of who has property rights",
-      "B) The hotel will move locations to avoid the noise problem",
-      "C) Soundproofing will be installed, and the parties will negotiate how to share the $150 cost",
-      "D) The factory will shut down since it causes negative externalities",
-      "E) No agreement will be reached because the parties have conflicting interests"
+      "The factory will always install soundproofing regardless of who has property rights",
+      "The hotel will move locations to avoid the noise problem",
+      "Soundproofing will be installed, and the parties will negotiate how to share the $150 cost",
+      "The factory will shut down since it causes negative externalities",
+      "No agreement will be reached because the parties have conflicting interests"
     ],
     "answer": 2,
     "explanation": "Since soundproofing costs $150 but eliminates $300 in damages, there's a net gain of $150 from installing it. Under Coase theorem, parties will negotiate to capture this mutual benefit regardless of initial property rights assignment. Choice A ignores negotiation aspects, B assumes costly solutions, D ignores that factory remains profitable, and E misunderstands that mutual gains enable agreement."
@@ -8147,11 +8147,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A private shipping company considers building and operating a lighthouse to guide vessels past dangerous coastal rocks. After analysis, it realizes that once the lighthouse is lit, it cannot charge individual ship captains for using the light—any passing ship benefits automatically. The company cancels the project. Which of the following best explains why the private market failed to provide this lighthouse?",
     "choices": [
-      "A) Public goods are too expensive for private companies to produce profitably",
-      "B) Government regulations prohibit private provision of public goods",
-      "C) Consumers cannot be excluded from benefits, making it difficult to collect payment",
-      "D) Public goods have negative externalities that private firms want to avoid",
-      "E) The demand for public goods is too low to justify private production"
+      "Public goods are too expensive for private companies to produce profitably",
+      "Government regulations prohibit private provision of public goods",
+      "Consumers cannot be excluded from benefits, making it difficult to collect payment",
+      "Public goods have negative externalities that private firms want to avoid",
+      "The demand for public goods is too low to justify private production"
     ],
     "answer": 2,
     "explanation": "Public goods are non-excludable: once provided, it is impossible (or impractical) to prevent people from benefiting regardless of payment. This creates a free-rider problem—consumers have no incentive to pay voluntarily—making it unprofitable for private firms to supply the good. Choice A confuses cost with excludability. B is factually incorrect about regulations. D confuses public goods with externalities. E ignores that the real barrier is non-excludability, not low demand."
@@ -8168,11 +8168,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "If a country's Lorenz curve shifts further away from the line of equality over a 10-year period, what can be concluded about income distribution?",
     "choices": [
-      "A) Average income has decreased for all households",
-      "B) The middle class has grown as a percentage of the population",
-      "C) Income inequality has increased in the country",
-      "D) The government has reduced taxes on lower-income groups",
-      "E) Economic growth has benefited all income groups equally"
+      "Average income has decreased for all households",
+      "The middle class has grown as a percentage of the population",
+      "Income inequality has increased in the country",
+      "The government has reduced taxes on lower-income groups",
+      "Economic growth has benefited all income groups equally"
     ],
     "answer": 2,
     "explanation": "When the Lorenz curve moves further from the line of equality, it indicates greater income inequality - meaning income is more concentrated among higher earners. Choice A confuses inequality with absolute income levels, B suggests reduced inequality, D assumes a policy cause without evidence, and E describes a situation that would move the curve closer to equality."
@@ -8189,11 +8189,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A fishing ground is shared by multiple boats, and each additional boat reduces the catch for all others. This situation demonstrates the tragedy of the commons because:",
     "choices": [
-      "A) The fishing ground is both non-rival and non-excludable like a public good",
-      "B) Individual fishers don't account for the negative externality their fishing imposes on others",
-      "C) The government should provide fishing services instead of private boats",
-      "D) There are positive externalities from fishing that are not being captured",
-      "E) The fishing ground should be converted to private property immediately"
+      "The fishing ground is both non-rival and non-excludable like a public good",
+      "Individual fishers don't account for the negative externality their fishing imposes on others",
+      "The government should provide fishing services instead of private boats",
+      "There are positive externalities from fishing that are not being captured",
+      "The fishing ground should be converted to private property immediately"
     ],
     "answer": 1,
     "explanation": "Common resources are rival but non-excludable. Each fisher considers only their private benefit, ignoring that their fishing reduces others' catches (negative externality). This leads to overuse. Choice A incorrectly describes public goods (non-rival), C suggests government provision rather than addressing the commons problem, D identifies wrong type of externality, and E assumes privatization is the only solution without considering alternatives like quotas."
@@ -8210,11 +8210,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A steel factory produces pollution that damages nearby farms. The factory's marginal private cost is $50 per ton, and the marginal external cost is $30 per ton. If a Pigouvian tax is imposed to achieve the socially optimal output, and the factory responds by installing pollution control equipment that reduces the marginal external cost to $10 per ton, what should the new tax rate be?",
     "choices": [
-      "A) $10 per ton",
-      "B) $20 per ton",
-      "C) $30 per ton",
-      "D) $40 per ton",
-      "E) $50 per ton"
+      "$10 per ton",
+      "$20 per ton",
+      "$30 per ton",
+      "$40 per ton",
+      "$50 per ton"
     ],
     "answer": 0,
     "explanation": "The Pigouvian tax should equal the marginal external cost at the socially optimal quantity. After the pollution control equipment is installed, the new marginal external cost is $10 per ton, so the tax should be $10 per ton. Students often incorrectly choose $30 (the original external cost) or $20 (the reduction amount)."
@@ -8231,11 +8231,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A pharmaceutical company's research and development creates knowledge spillovers that benefit other firms. If the government provides a per-unit subsidy to achieve the socially optimal output level, and subsequently the marginal external benefit increases due to more firms entering the industry, what will happen to economic efficiency if the subsidy remains unchanged?",
     "choices": [
-      "A) Efficiency will improve because more firms benefit from the spillovers",
-      "B) Efficiency will remain the same because the subsidy still covers the original externality",
-      "C) Efficiency will decrease because the subsidy is now too small relative to the social benefit",
-      "D) Efficiency will decrease because the subsidy creates deadweight loss with more firms",
-      "E) The effect on efficiency cannot be determined without knowing the price elasticity"
+      "Efficiency will improve because more firms benefit from the spillovers",
+      "Efficiency will remain the same because the subsidy still covers the original externality",
+      "Efficiency will decrease because the subsidy is now too small relative to the social benefit",
+      "Efficiency will decrease because the subsidy creates deadweight loss with more firms",
+      "The effect on efficiency cannot be determined without knowing the price elasticity"
     ],
     "answer": 2,
     "explanation": "When marginal external benefit increases but the subsidy remains constant, the subsidy becomes insufficient to internalize the full externality. This leads to underproduction relative to the new social optimum, reducing efficiency. Students often think more spillovers automatically improve efficiency (A) or that the original subsidy remains adequate (B)."
@@ -8252,11 +8252,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A factory's noise pollution affects 100 nearby residents. Each resident values quiet at $50 per month, while the factory would need to spend $3,000 per month to install soundproofing. According to the Coase theorem, if transaction costs are zero but residents cannot easily coordinate due to the large group size, what is the most likely outcome?",
     "choices": [
-      "A) The factory will install soundproofing because the total benefit ($5,000) exceeds the cost ($3,000)",
-      "B) Residents will successfully negotiate and pay the factory to install soundproofing",
-      "C) The factory will not install soundproofing due to the free rider problem among residents",
-      "D) The government must intervene because the Coase theorem does not apply",
-      "E) The outcome depends on who has the initial property rights"
+      "The factory will install soundproofing because the total benefit ($5,000) exceeds the cost ($3,000)",
+      "Residents will successfully negotiate and pay the factory to install soundproofing",
+      "The factory will not install soundproofing due to the free rider problem among residents",
+      "The government must intervene because the Coase theorem does not apply",
+      "The outcome depends on who has the initial property rights"
     ],
     "answer": 2,
     "explanation": "While the Coase theorem suggests efficient outcomes with zero transaction costs, coordination problems and free rider issues among large groups can prevent successful negotiation even when the total benefit exceeds costs. Each resident might hope others will pay. Students often focus only on the benefit-cost comparison (A) or assume coordination will automatically succeed (B)."
@@ -8273,11 +8273,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A neighborhood association is trying to fund a private security patrol. Each household values the service at $200 per month, and 50 households would need to contribute $150 each to fund it. However, only 20 households volunteer to pay. Which statement best explains why this represents a free rider problem rather than simply insufficient demand?",
     "choices": [
-      "A) The security service has high fixed costs that create economies of scale",
-      "B) Households that don't pay cannot be excluded from the security benefits",
-      "C) The association lacks legal authority to compel payment",
-      "D) Some households have higher incomes and should pay more",
-      "E) The service is undervalued because households don't understand the benefits"
+      "The security service has high fixed costs that create economies of scale",
+      "Households that don't pay cannot be excluded from the security benefits",
+      "The association lacks legal authority to compel payment",
+      "Some households have higher incomes and should pay more",
+      "The service is undervalued because households don't understand the benefits"
     ],
     "answer": 1,
     "explanation": "The free rider problem occurs because security patrols are non-excludable - households that don't pay still receive protection. Since each household values the service at $200 but only needs to pay $150, there's clearly sufficient demand, but non-excludability allows free riding. Students often confuse this with legal issues (C) or demand problems (E)."
@@ -8294,11 +8294,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A fishing ground is being overexploited. Currently, 100 boats each catch 10 fish per day, but each additional boat reduces everyone's catch by 0.05 fish per day due to congestion. If the price per fish is $20 and daily boat operating costs are $180, what is the difference between the private and social marginal cost of operating an additional boat?",
     "choices": [
-      "A) $10",
-      "B) $20",
-      "C) $100",
-      "D) $180",
-      "E) $280"
+      "$10",
+      "$20",
+      "$100",
+      "$180",
+      "$280"
     ],
     "answer": 2,
     "explanation": "The private marginal cost is just the boat's operating cost ($180). The social marginal cost includes the external cost imposed on other boats: 100 boats × 0.05 fish reduction × $20 per fish = $100. The difference is $100. Students often calculate the total social cost ($280) or just consider the per-boat effect ($10)."
@@ -8315,11 +8315,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Country A has a Gini coefficient of 0.3 and implements a progressive income tax that reduces it to 0.25. Country B has a Gini coefficient of 0.4 and implements the same tax policy, reducing it to 0.37. Which statement correctly interprets these results?",
     "choices": [
-      "A) Country A achieved greater inequality reduction because its Gini coefficient fell more",
-      "B) Country B achieved greater inequality reduction because it started with higher inequality",
-      "C) The tax policy was more effective in Country A because it achieved a lower final Gini coefficient",
-      "D) Country A achieved greater proportional inequality reduction",
-      "E) Both countries achieved identical inequality reduction in absolute terms"
+      "Country A achieved greater inequality reduction because its Gini coefficient fell more",
+      "Country B achieved greater inequality reduction because it started with higher inequality",
+      "The tax policy was more effective in Country A because it achieved a lower final Gini coefficient",
+      "Country A achieved greater proportional inequality reduction",
+      "Both countries achieved identical inequality reduction in absolute terms"
     ],
     "answer": 3,
     "explanation": "Country A reduced inequality by 0.05/0.30 = 16.7% proportionally, while Country B reduced it by 0.03/0.40 = 7.5%. The absolute reduction (A) and final levels (C) don't account for different starting points. Students often focus on absolute changes rather than proportional effectiveness of policies."
@@ -8336,11 +8336,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Two countries have identical Lorenz curves for pre-tax income, but Country X has a more curved (bowed) Lorenz curve for post-tax income while Country Y's post-tax Lorenz curve is closer to the line of equality. What can be concluded about their tax systems?",
     "choices": [
-      "A) Country X has a more progressive tax system",
-      "B) Country Y has a more progressive tax system",
-      "C) Both countries have equally progressive tax systems",
-      "D) Country X has higher tax rates",
-      "E) The progressivity cannot be determined from Lorenz curves alone"
+      "Country X has a more progressive tax system",
+      "Country Y has a more progressive tax system",
+      "Both countries have equally progressive tax systems",
+      "Country X has higher tax rates",
+      "The progressivity cannot be determined from Lorenz curves alone"
     ],
     "answer": 1,
     "explanation": "A Lorenz curve closer to the line of equality indicates lower inequality. Since both countries start with identical pre-tax inequality, Country Y's post-tax curve being closer to equality means its tax system is more effective at reducing inequality, indicating greater progressivity. Students often confuse more bowed curves with better outcomes."
@@ -8357,11 +8357,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A government faces a negative externality from carbon emissions and chooses between a carbon tax and a cap-and-trade system. Both are designed to achieve the same emission reduction. If firms have different abatement costs and the regulator has imperfect information about these costs, which approach is more likely to achieve cost-effective emission reduction?",
     "choices": [
-      "A) Carbon tax, because it provides price certainty",
-      "B) Cap-and-trade, because it allows firms with lower abatement costs to sell permits to higher-cost firms",
-      "C) Both are equally effective if set at the socially optimal level",
-      "D) Carbon tax, because it generates government revenue",
-      "E) Cap-and-trade, because it guarantees the emission target will be met"
+      "Carbon tax, because it provides price certainty",
+      "Cap-and-trade, because it allows firms with lower abatement costs to sell permits to higher-cost firms",
+      "Both are equally effective if set at the socially optimal level",
+      "Carbon tax, because it generates government revenue",
+      "Cap-and-trade, because it guarantees the emission target will be met"
     ],
     "answer": 1,
     "explanation": "Cap-and-trade allows trading between firms with different abatement costs, ensuring emission reductions occur where they're cheapest. This achieves cost-effectiveness even with imperfect information. A carbon tax may not account for cost differences across firms. Students often focus on certainty (A,E) or revenue (D) rather than cost-effectiveness."
@@ -8378,11 +8378,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "Country A produces two goods: automobiles and soybeans. Its production possibilities curve is bowed outward (concave to the origin). Starting from a point of balanced production, the government reallocates resources toward automobile manufacturing. As Country A moves further along its PPC in the direction of more automobiles, which of the following must be true?",
     "choices": [
-      "A) The opportunity cost of each additional unit of Good X remains constant because the economy has an absolute advantage in producing Good X.",
-      "B) The opportunity cost of each additional unit of Good X decreases because the economy becomes more efficient at producing Good X.",
-      "C) The opportunity cost of each additional unit of Good X increases because resources are not perfectly adaptable between the two goods.",
-      "D) The total production of both goods increases as the economy reallocates resources toward Good X.",
-      "E) The economy must be experiencing economic growth in order to produce more of Good X."
+      "The opportunity cost of each additional unit of Good X remains constant because the economy has an absolute advantage in producing Good X.",
+      "The opportunity cost of each additional unit of Good X decreases because the economy becomes more efficient at producing Good X.",
+      "The opportunity cost of each additional unit of Good X increases because resources are not perfectly adaptable between the two goods.",
+      "The total production of both goods increases as the economy reallocates resources toward Good X.",
+      "The economy must be experiencing economic growth in order to produce more of Good X."
     ],
     "answer": 2,
     "explanation": "A bowed-outward PPC reflects the law of increasing opportunity costs. As the economy produces more automobiles, it must divert resources increasingly less suited to auto production, so the opportunity cost per additional automobile rises. C is correct: imperfect resource adaptability is why opportunity cost increases with specialization. A is wrong—absolute advantage does not affect opportunity costs, and a bowed PPC cannot have constant costs. B is a common misconception. D is wrong—moving along the curve trades one good for the other; it does not increase both. E confuses reallocation (movement along the curve) with economic growth (outward shift)."
@@ -8398,11 +8398,11 @@ var APMICRO_MCQ = [
     "isLatex": false,
     "question": "In the circular flow model, a software engineer receives a salary from a technology firm. At the same time, she purchases a new laptop from that firm's retail store. Which of the following correctly identifies the markets through which these two transactions flow?",
     "choices": [
-      "A) Both transactions occur in the product market because they both involve exchanges of money for something of value.",
-      "B) The salary is a flow in the product market; the laptop purchase is a flow in the factor market.",
-      "C) The salary is a flow in the factor market; the laptop purchase is a flow in the product market.",
-      "D) Both transactions occur in the factor market because the engineer is both a worker and a consumer of the firm.",
-      "E) The salary is a transfer payment and does not flow through either market; only the laptop purchase flows through the product market."
+      "Both transactions occur in the product market because they both involve exchanges of money for something of value.",
+      "The salary is a flow in the product market; the laptop purchase is a flow in the factor market.",
+      "The salary is a flow in the factor market; the laptop purchase is a flow in the product market.",
+      "Both transactions occur in the factor market because the engineer is both a worker and a consumer of the firm.",
+      "The salary is a transfer payment and does not flow through either market; only the laptop purchase flows through the product market."
     ],
     "answer": 2,
     "explanation": "In the circular flow model, the factor (resource) market is where households sell their labor, land, and capital to firms in exchange for income. The product market is where households buy finished goods and services from firms. The engineer's salary represents compensation for labor, which flows through the factor market. Her laptop purchase is a purchase of a final good, which flows through the product market (C is correct). A incorrectly classifies the salary as a product market transaction - a common error when students focus on the monetary exchange rather than what is being exchanged. B reverses the two markets entirely. D incorrectly places both in the factor market. E is wrong because a salary is earned income for labor services, not a transfer payment (transfer payments are unearned income like government subsidies, which is a macroeconomic concept students sometimes confuse here)."
@@ -8419,11 +8419,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "When the price of good X increases by 10%, the quantity demanded of good Y decreases by 15%. Which of the following best describes the relationship between goods X and Y and the cross-price elasticity of demand?",
     "choices": [
-      "A) X and Y are substitutes with a cross-price elasticity of 1.5",
-      "B) X and Y are complements with a cross-price elasticity of -1.5",
-      "C) X and Y are complements with a cross-price elasticity of 1.5",
-      "D) X and Y are substitutes with a cross-price elasticity of -1.5",
-      "E) X and Y are unrelated goods with a cross-price elasticity of 0"
+      "X and Y are substitutes with a cross-price elasticity of 1.5",
+      "X and Y are complements with a cross-price elasticity of -1.5",
+      "X and Y are complements with a cross-price elasticity of 1.5",
+      "X and Y are substitutes with a cross-price elasticity of -1.5",
+      "X and Y are unrelated goods with a cross-price elasticity of 0"
     ],
     "answer": 1,
     "explanation": "Cross-price elasticity of demand (XED) is calculated as the percentage change in quantity demanded of good Y divided by the percentage change in price of good X: -15% / 10% = -1.5. A negative cross-price elasticity indicates that the goods are complements - when the price of X rises, consumers buy less of Y as well. Choice A is wrong because substitutes have a positive XED (higher price of X would increase demand for Y). Choice C incorrectly identifies them as complements but gives a positive value. Choice D reverses both the sign logic and the classification. Choice E is incorrect because the quantity demanded of Y clearly responds to changes in the price of X."
@@ -8440,11 +8440,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A monopsony employer maximizes profit by hiring workers where MRP = MFC. Compared to a perfectly competitive labor market, this monopsony will pay a wage that is:",
     "choices": [
-      "A) Equal to MRP and hire fewer workers",
-      "B) Below MRP and hire fewer workers",
-      "C) Above MRP and hire more workers",
-      "D) Below MRP and hire the same number of workers",
-      "E) Equal to MFC and hire fewer workers"
+      "Equal to MRP and hire fewer workers",
+      "Below MRP and hire fewer workers",
+      "Above MRP and hire more workers",
+      "Below MRP and hire the same number of workers",
+      "Equal to MFC and hire fewer workers"
     ],
     "answer": 1,
     "explanation": "A monopsony hires where MRP = MFC but pays the wage from the labor supply curve (which lies below MFC), not the MFC itself. This results in a wage below the worker's MRP and fewer workers hired compared to a competitive labor market. Answer A is wrong because the wage is set on the supply curve, not at MRP. Answer C reverses the direction of both distortions. Answer D is wrong because the monopsony restricts employment below the competitive quantity. Answer E is wrong because the firm pays the supply-curve wage, not MFC - paying MFC would eliminate the monopsony's surplus extraction."
@@ -8461,11 +8461,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A monopsony employer hires 200 workers at a wage of $12 per hour, while the competitive equilibrium would be 250 workers at $16 per hour. The monopoly union's preferred wage is $20 per hour. If the union and the monopsony employer engage in collective bargaining, which of the following outcomes is most likely?",
     "choices": [
-      "A) The wage will be set at $12 because the monopsony employer has all the bargaining power in the labor market.",
-      "B) The wage will be set at $20 because the union can always enforce its preferred wage through strike threats.",
-      "C) The wage will be indeterminate between $12 and $20 depending on relative bargaining power, and employment could increase toward the competitive level of 250 workers.",
-      "D) The wage will be set at the competitive level of $16 because bargaining always produces the most efficient outcome.",
-      "E) Employment will fall below 200 workers because any wage increase in a monopsony always reduces hiring."
+      "The wage will be set at $12 because the monopsony employer has all the bargaining power in the labor market.",
+      "The wage will be set at $20 because the union can always enforce its preferred wage through strike threats.",
+      "The wage will be indeterminate between $12 and $20 depending on relative bargaining power, and employment could increase toward the competitive level of 250 workers.",
+      "The wage will be set at the competitive level of $16 because bargaining always produces the most efficient outcome.",
+      "Employment will fall below 200 workers because any wage increase in a monopsony always reduces hiring."
     ],
     "answer": 2,
     "explanation": "When a union bargains with a monopsony employer, the result is called bilateral monopoly. The monopsony prefers to pay $12 (its profit-maximizing wage), while the union prefers $20 (its utility-maximizing wage). Because neither side has complete market power, the final wage is indeterminate and will fall somewhere between $12 and $20 depending on the relative bargaining strength of each party. Importantly, employment under bilateral monopoly can increase toward the competitive level of 250 workers compared to pure monopsony, because the union's bargaining power counteracts the monopsony's tendency to restrict hiring. Choice A is wrong because the union's bargaining power prevents the monopsony from simply dictating the wage. Choice B is wrong because the monopsony's market power prevents the union from unilaterally setting the wage at $20. Choice D is wrong because bilateral monopoly does not guarantee an efficient competitive outcome. Choice E incorrectly applies the logic that minimum wages always reduce employment; in a monopsony setting, counteracting market power can actually increase employment."
@@ -8482,11 +8482,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A plastics factory discharges waste into a river, reducing fish populations and harming a downstream fishing company. An environmental economist suggests the factory and fishing company could negotiate a private solution—without government intervention—by paying the factory to reduce emissions or compensating the fishing company for damages. However, the economist warns that one specific condition could prevent this private bargaining from working. Which of the following conditions would most likely prevent the two parties from reaching an efficient private solution, according to the Coase theorem?",
     "choices": [
-      "A) The factory values its right to pollute more than the fishery values clean water.",
-      "B) Property rights are clearly assigned to the factory owner.",
-      "C) Transaction costs of negotiation between the two parties are very high.",
-      "D) The government has not imposed a corrective tax on the factory.",
-      "E) The fishery owner is willing to pay the factory to reduce pollution."
+      "The factory values its right to pollute more than the fishery values clean water.",
+      "Property rights are clearly assigned to the factory owner.",
+      "Transaction costs of negotiation between the two parties are very high.",
+      "The government has not imposed a corrective tax on the factory.",
+      "The fishery owner is willing to pay the factory to reduce pollution."
     ],
     "answer": 2,
     "explanation": "The Coase theorem states that private parties can reach an efficient outcome regardless of the initial assignment of property rights, as long as property rights are well-defined and transaction costs are low. High transaction costs (C) are the primary barrier preventing Coasean bargaining from achieving efficiency. (A) is wrong—relative valuations do not prevent bargaining; the party who values the outcome more will simply pay. (B) is wrong—clearly defined property rights actually facilitate Coasean solutions. (D) is wrong—Coase specifically addresses cases where government intervention is unnecessary. (E) is wrong—willingness to pay is exactly the type of bargaining the theorem predicts will occur."
@@ -8503,11 +8503,11 @@ var APMICRO_MCQ = [
     "format": "text",
     "question": "A factory emits pollution that damages a nearby fishery. The factory's profit from polluting is $50,000, and the fishery suffers $80,000 in damages. According to the Coase theorem, if property rights are assigned to the factory and transaction costs are zero, which of the following outcomes is most likely?",
     "choices": [
-      "A) The fishery pays the factory between $50,000 and $80,000 to stop polluting, and the efficient outcome is achieved.",
-      "B) The factory continues to pollute because it holds the property rights, and the inefficient outcome persists.",
-      "C) The government must impose a Pigouvian tax of $80,000 on the factory to achieve the efficient outcome.",
-      "D) The fishery pays the factory exactly $80,000 to stop polluting, capturing all the gains from trade.",
-      "E) The factory voluntarily stops polluting because the social cost exceeds its private benefit."
+      "The fishery pays the factory between $50,000 and $80,000 to stop polluting, and the efficient outcome is achieved.",
+      "The factory continues to pollute because it holds the property rights, and the inefficient outcome persists.",
+      "The government must impose a Pigouvian tax of $80,000 on the factory to achieve the efficient outcome.",
+      "The fishery pays the factory exactly $80,000 to stop polluting, capturing all the gains from trade.",
+      "The factory voluntarily stops polluting because the social cost exceeds its private benefit."
     ],
     "answer": 0,
     "explanation": "The Coase theorem states that when property rights are well-defined and transaction costs are zero, private bargaining will lead to the socially efficient outcome regardless of who holds the property rights. Since the fishery's damage ($80,000) exceeds the factory's profit from polluting ($50,000), the fishery can pay the factory any amount between $50,000 and $80,000 to stop polluting, making both parties better off and achieving efficiency. B is wrong because it ignores the central insight of the Coase theorem - bargaining occurs even when the polluter holds the rights. C is wrong because the Coase theorem specifically demonstrates that government intervention is unnecessary when transaction costs are zero. D is wrong because the payment would be negotiated between $50,000 and $80,000 (the bargaining range), not necessarily at $80,000; paying exactly $80,000 would leave the fishery no better off than under pollution. E is wrong because the factory has no private incentive to stop voluntarily - it only stops if compensated."
@@ -8523,11 +8523,11 @@ var APMICRO_MCQ = [
     "question": "The graph below shows the market for wheat. A price floor is set at P_f. Which of the following correctly describes the outcome?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='170' y='248' text-anchor='middle' class='svg-label'>Quantity</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Price</text><line x1='70' y1='50' x2='265' y2='195' stroke='#3b82f6' stroke-width='2.5'/><text x='270' y='198' fill='#3b82f6' font-weight='600'>D</text><line x1='70' y1='195' x2='265' y2='50' stroke='#16a34a' stroke-width='2.5'/><text x='270' y='53' fill='#16a34a' font-weight='600'>S</text><circle cx='167' cy='122' r='3.5' fill='#94a3b8'/><line x1='50' y1='122' x2='167' y2='122' stroke-width='1' class='svg-axis svg-dashed'/><text x='42' y='126' text-anchor='end' class='svg-label'>P*</text><line x1='167' y1='122' x2='167' y2='220' stroke-width='1' class='svg-axis svg-dashed'/><text x='167' y='234' text-anchor='middle' class='svg-label'>Q*</text><line x1='50' y1='78' x2='285' y2='78' stroke='#dc2626' stroke-width='2.2' stroke-dasharray='8,4'/><text x='42' y='82' text-anchor='end' fill='#dc2626' font-weight='600'>P_f</text><line x1='110' y1='78' x2='110' y2='220' stroke='#3b82f6' stroke-width='1.2' class='svg-dashed'/><text x='110' y='234' text-anchor='middle' fill='#3b82f6'>Q_D</text><line x1='224' y1='78' x2='224' y2='220' stroke='#16a34a' stroke-width='1.2' class='svg-dashed'/><text x='224' y='234' text-anchor='middle' fill='#16a34a'>Q_S</text><line x1='112' y1='214' x2='222' y2='214' stroke='#dc2626' stroke-width='1.8'/><polygon points='222,214 213,210 213,218' fill='#dc2626'/><polygon points='112,214 121,210 121,218' fill='#dc2626'/><text x='167' y='209' text-anchor='middle' font-size='11' fill='#dc2626'>Surplus</text></svg>",
     "choices": [
-      "A) A shortage of (Q_S - Q_D) units results because the price floor is below equilibrium.",
-      "B) A surplus of (Q_S - Q_D) units results because quantity supplied exceeds quantity demanded at P_f.",
-      "C) The market remains in equilibrium because price floors always allow markets to clear.",
-      "D) Consumer surplus increases because consumers can now purchase more wheat at a lower price.",
-      "E) The equilibrium price rises to P_f as sellers compete to sell the additional units."
+      "A shortage of (Q_S - Q_D) units results because the price floor is below equilibrium.",
+      "A surplus of (Q_S - Q_D) units results because quantity supplied exceeds quantity demanded at P_f.",
+      "The market remains in equilibrium because price floors always allow markets to clear.",
+      "Consumer surplus increases because consumers can now purchase more wheat at a lower price.",
+      "The equilibrium price rises to P_f as sellers compete to sell the additional units."
     ],
     "answer": 1,
     "explanation": "A price floor set above the equilibrium price (P* ) prevents the price from falling to its market-clearing level. At P_f, quantity supplied (Q_S) exceeds quantity demanded (Q_D), creating a surplus equal to Q_S - Q_D. A is wrong because a price floor above equilibrium creates a surplus, not a shortage (a price ceiling below equilibrium causes a shortage). C is wrong because price floors above equilibrium prevent the market from clearing. D is wrong because P_f is above P*, meaning consumers pay more, not less — consumer surplus falls. E is wrong because the price floor is already set at P_f; it does not create upward pressure that pushes price higher."
@@ -8543,11 +8543,11 @@ var APMICRO_MCQ = [
     "question": "The graph below shows a competitive market at equilibrium. The areas labeled W, X, Y, and Z are bounded by the supply curve, demand curve, equilibrium price P*, and the axes. Which area or areas represent total economic surplus (consumer surplus plus producer surplus)?",
     "graphSvg": "<svg viewBox='0 0 310 265' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='170' y='248' text-anchor='middle' class='svg-label'>Quantity</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Price</text><line x1='70' y1='50' x2='265' y2='195' stroke='#3b82f6' stroke-width='2.5'/><text x='270' y='198' fill='#3b82f6' font-weight='600'>D</text><line x1='70' y1='195' x2='265' y2='50' stroke='#16a34a' stroke-width='2.5'/><text x='270' y='53' fill='#16a34a' font-weight='600'>S</text><line x1='50' y1='122' x2='265' y2='122' stroke-width='1.2' class='svg-axis svg-dashed'/><text x='42' y='126' text-anchor='end' class='svg-label'>P*</text><line x1='167' y1='40' x2='167' y2='220' stroke-width='1.2' class='svg-axis svg-dashed'/><text x='167' y='234' text-anchor='middle' class='svg-label'>Q*</text><text x='100' y='95' text-anchor='middle' font-size='14' font-weight='700' fill='#3b82f6'>W</text><text x='100' y='160' text-anchor='middle' font-size='14' font-weight='700' fill='#16a34a'>X</text><text x='218' y='95' text-anchor='middle' font-size='14' font-weight='700' class='svg-label'>Y</text><text x='218' y='160' text-anchor='middle' font-size='14' font-weight='700' class='svg-label'>Z</text></svg>",
     "choices": [
-      "A) W only, because only consumers benefit at equilibrium.",
-      "B) X only, because only producers earn surplus at equilibrium.",
-      "C) W and X, representing consumer surplus and producer surplus respectively.",
-      "D) W, X, Y, and Z together, because all regions below the demand curve represent value to buyers.",
-      "E) Y and Z only, because economic surplus exists only beyond the equilibrium quantity."
+      "W only, because only consumers benefit at equilibrium.",
+      "X only, because only producers earn surplus at equilibrium.",
+      "W and X, representing consumer surplus and producer surplus respectively.",
+      "W, X, Y, and Z together, because all regions below the demand curve represent value to buyers.",
+      "Y and Z only, because economic surplus exists only beyond the equilibrium quantity."
     ],
     "answer": 2,
     "explanation": "Consumer surplus is the area above the equilibrium price (P*) and below the demand curve — this is region W. Producer surplus is the area below the equilibrium price and above the supply curve — this is region X. Total economic surplus is the sum of consumer and producer surplus, so W + X. Y and Z are areas beyond Q*, where no transactions occur at equilibrium, and therefore contribute no surplus. D incorrectly includes all areas under the demand curve; the region below P* and under the demand curve (region X) belongs to producers, not consumers, and Y and Z are irrelevant at Q*. A and B each capture only half of total economic surplus."
@@ -8563,11 +8563,11 @@ var APMICRO_MCQ = [
     "question": "The graph below shows the cost curves for a perfectly competitive firm. The horizontal line represents the market price P. At which output level should the firm produce to maximize profit, and what is the firm's short-run situation?",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='50' y1='220' x2='290' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='290,220 278,215 278,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='170' y='248' text-anchor='middle' font-size='13' class='svg-label'>Quantity</text><text x='16' y='125' text-anchor='middle' font-size='13' transform='rotate(-90,16,125)' class='svg-label'>Price / Cost</text><path d='M 65 180 Q 130 60 175 68 Q 210 75 255 160' stroke='#dc2626' stroke-width='2.5' fill='none'/><text x='258' y='163' fill='#dc2626' font-weight='600'>MC</text><path d='M 65 155 Q 130 95 175 90 Q 215 88 255 120' stroke='#9333ea' stroke-width='2.5' fill='none'/><text x='258' y='123' fill='#9333ea' font-weight='600'>ATC</text><path d='M 65 175 Q 125 115 175 112 Q 215 112 255 140' stroke='#f97316' stroke-width='2' fill='none' stroke-dasharray='6,3'/><text x='258' y='143' fill='#f97316' font-weight='600'>AVC</text><line x1='50' y1='100' x2='285' y2='100' stroke='#3b82f6' stroke-width='2.2'/><text x='288' y='104' fill='#3b82f6' font-weight='600'>P=MR=AR</text><line x1='195' y1='100' x2='195' y2='220' stroke='#3b82f6' stroke-width='1.5' class='svg-dashed'/><text x='195' y='234' text-anchor='middle' class='svg-label'>Q_1</text><circle cx='195' cy='100' r='4' fill='#3b82f6'/><line x1='50' y1='88' x2='195' y2='88' stroke='#9333ea' stroke-width='1.2' class='svg-dashed'/><text x='42' y='92' text-anchor='end' fill='#9333ea'>ATC</text><text x='42' y='104' text-anchor='end' fill='#3b82f6'>P</text></svg>",
     "choices": [
-      "A) Q_1, where MC = MR; the firm is earning a positive economic profit because P exceeds ATC at Q_1.",
-      "B) Q_1, where MC = MR; the firm is incurring an economic loss because P is below ATC at Q_1.",
-      "C) A quantity less than Q_1, because producing beyond the AVC minimum always reduces profit.",
-      "D) A quantity greater than Q_1, because the firm should expand output until price equals ATC.",
-      "E) Zero output, because the firm should shut down whenever it faces any economic loss."
+      "Q_1, where MC = MR; the firm is earning a positive economic profit because P exceeds ATC at Q_1.",
+      "Q_1, where MC = MR; the firm is incurring an economic loss because P is below ATC at Q_1.",
+      "A quantity less than Q_1, because producing beyond the AVC minimum always reduces profit.",
+      "A quantity greater than Q_1, because the firm should expand output until price equals ATC.",
+      "Zero output, because the firm should shut down whenever it faces any economic loss."
     ],
     "answer": 1,
     "explanation": "The profit-maximizing rule for any firm is to produce where MC = MR. In perfect competition MR equals the market price P, so the firm produces at Q_1 where the MC curve intersects the P = MR line. At Q_1, the ATC (shown by the dashed purple line) is above P, which means average total cost exceeds price — the firm is earning a negative economic profit (a loss) on every unit. However, the firm should still produce in the short run as long as P ≥ AVC, because producing covers at least variable costs and minimizes losses compared to shutting down. Since P is above AVC at Q_1, the firm continues to operate. A is wrong because the graph shows ATC above P at Q_1, so the firm is not earning a profit. C is wrong because the MR = MC rule, not the AVC minimum, determines profit-maximizing output. D is wrong because producing until P = ATC is the break-even point, not the profit-maximizing point. E is wrong because the shutdown rule applies only when P < AVC (not shown here)."
