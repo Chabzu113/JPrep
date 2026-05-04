@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Phase 2: Rebalance correct-answer position to ~20/20/20/20/20 per unit.
+"""Phase 2: Rebalance correct-answer position to ~25/25/25/25 per unit.
 
-AP Stats has 5 choices (A-E), so target is 1/5 per position.
+AP Stats uses 4 choices (A-D), so target is 1/4 per position.
 Strategy: minimum-swap. For each unit bucket, move questions from surplus
 positions to deficit positions via choice-pair swap.
 
@@ -10,7 +10,7 @@ Each swap:
   2. Update q['answer'] to the new index.
   3. Bidirectionally swap letter references in question/explanation text.
 
-Run apstats-phase1-strip-prefix.py FIRST to remove embedded prefixes.
+Run apstats-phase1-fix4choice.py FIRST.
 
 Usage: python3 apstats-phase2-rebalance.py [--dry-run]
 """
@@ -24,18 +24,18 @@ TARGETS = [
     ROOT / 'js'       / 'data' / 'apstats_mcq.js',
     ROOT / 'electron' / 'js' / 'data' / 'apstats_mcq.js',
 ]
-LETTERS = ['A', 'B', 'C', 'D', 'E']
-N_CHOICES = 5
+LETTERS = ['A', 'B', 'C', 'D']
+N_CHOICES = 4
 
 PATTERNS = [
-    re.compile(r'(\bChoice\s+)([A-E])\b'),
-    re.compile(r'(\bchoice\s+)([A-E])\b'),
-    re.compile(r'(\bOption\s+)([A-E])\b'),
-    re.compile(r'(\boption\s+)([A-E])\b'),
-    re.compile(r'(\bAnswer\s+)([A-E])\b'),
-    re.compile(r'(\banswer\s+)([A-E])\b'),
-    re.compile(r'(\()([A-E])(\))'),
-    re.compile(r'(\b)([A-E])(\))'),
+    re.compile(r'(\bChoice\s+)([A-D])\b'),
+    re.compile(r'(\bchoice\s+)([A-D])\b'),
+    re.compile(r'(\bOption\s+)([A-D])\b'),
+    re.compile(r'(\boption\s+)([A-D])\b'),
+    re.compile(r'(\bAnswer\s+)([A-D])\b'),
+    re.compile(r'(\banswer\s+)([A-D])\b'),
+    re.compile(r'(\()([A-D])(\))'),
+    re.compile(r'(\b)([A-D])(\))'),
 ]
 
 def swap_letters_in_text(text, mapping):

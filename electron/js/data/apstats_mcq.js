@@ -10,12 +10,11 @@ var APSTATS_MCQ = [
     "question": "A researcher records the following: Age, Zip Code, Annual Income, and Highest Degree Earned. Which are categorical?",
     "choices": [
       "Age and Income",
-      "Degree only",
-      "Age and Zip Code",
       "Income only",
+      "Age and Zip Code",
       "Zip Code and Degree"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Zip codes are labels for locations (even though they use numbers), and degrees are qualitative categories.\n\n💡 If the 'average' doesn't make sense, it's categorical."
   },
   {
@@ -31,8 +30,7 @@ var APSTATS_MCQ = [
       "Mean",
       "Median",
       "Mode",
-      "Range",
-      "Standard Deviation"
+      "Range"
     ],
     "answer": 2,
     "explanation": "The peak of a distribution represents the most frequently occurring value.\n\n💡 On a dotplot, the mode is literally the tallest stack of dots."
@@ -48,12 +46,11 @@ var APSTATS_MCQ = [
     "question": "A dataset consists of the values: 4, 8, 12, 16. What is the mean?",
     "choices": [
       "8",
-      "40",
-      "12",
       "16",
+      "12",
       "10"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "(4 + 8 + 12 + 16) / 4 = 10.\n\n💡 In Desmos, use mean([4, 8, 12, 16])."
   },
   {
@@ -69,8 +66,7 @@ var APSTATS_MCQ = [
       "Blood type",
       "Favorite color",
       "Number of pets",
-      "Model of car",
-      "City of birth"
+      "Model of car"
     ],
     "answer": 2,
     "explanation": "Number of pets is a numerical count where arithmetic operations make sense.\n\n💡 Quantitative = Numbers you can meaningfully average."
@@ -86,12 +82,11 @@ var APSTATS_MCQ = [
     "question": "What is the range of the following data: 2, 5, 8, 12, 20?",
     "choices": [
       "20",
-      "8",
+      "18",
       "12",
-      "10",
-      "18"
+      "10"
     ],
-    "answer": 4,
+    "answer": 1,
     "explanation": "Range = Max - Min (20 - 2 = 18).\n\n💡 Range is very sensitive to outliers!"
   },
   {
@@ -107,8 +102,7 @@ var APSTATS_MCQ = [
       "Normal",
       "Skewed",
       "Uniform",
-      "Bimodal",
-      "Symmetric"
+      "Bimodal"
     ],
     "answer": 2,
     "explanation": "Uniform distributions are flat/rectangular in shape.\n\n💡 A fair die roll follows a uniform distribution."
@@ -126,8 +120,7 @@ var APSTATS_MCQ = [
       "Mean",
       "Standard Deviation",
       "Range",
-      "IQR",
-      "Correlation"
+      "IQR"
     ],
     "answer": 3,
     "explanation": "The IQR only looks at the middle 50%, ignoring the extreme tails.\n\n💡 Median and IQR are 'resistant'; Mean and SD are not."
@@ -143,12 +136,11 @@ var APSTATS_MCQ = [
     "question": "A histogram shows two distinct peaks with a gap. How is this described?",
     "choices": [
       "Unimodal",
-      "Symmetric",
-      "Uniform",
       "Bimodal",
-      "Skewed"
+      "Uniform",
+      "Symmetric"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Bi-modal means having two modes/peaks.\n\n💡 Bimodal data often implies two different groups were mixed together."
   },
   {
@@ -164,8 +156,7 @@ var APSTATS_MCQ = [
       "Decreases by 50",
       "Increases by 50",
       "Stays the same",
-      "Divided by 50",
-      "Becomes negative"
+      "Divided by 50"
     ],
     "answer": 2,
     "explanation": "Subtracting a constant shifts the data but does not change the spread.\n\n💡 Addition/Subtraction doesn't affect measures of spread (SD, IQR, Range)."
@@ -181,12 +172,11 @@ var APSTATS_MCQ = [
     "question": "A set of test scores is heavily skewed to the left. Which is true?",
     "choices": [
       "Mean > Median",
-      "SD = Mean",
-      "Mean = Median",
       "Mean < Median",
-      "IQR > Range"
+      "Mean = Median",
+      "SD = Mean"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "In a left-skewed distribution, the tail pulls the mean down more than the median.\n\n💡 The mean follows the tail!"
   },
   {
@@ -200,12 +190,11 @@ var APSTATS_MCQ = [
     "question": "A student scores 85 where the mean is 75 and SD is 5. What is the z-score?",
     "choices": [
       "1.0",
-      "1.5",
-      "-2.0",
       "2.0",
-      "0.5"
+      "-2.0",
+      "1.5"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "z = (85 - 75) / 5 = 2.0.\n\n💡 A z-score tells you how many SDs you are from the mean."
   },
   {
@@ -219,12 +208,11 @@ var APSTATS_MCQ = [
     "question": "Weights are converted from lbs to kg by dividing by 2.2. What is the new SD if the old was 12 lbs?",
     "choices": [
       "12 lbs",
-      "12 / 2.2^2 kg",
-      "12 * 2.2 kg",
       "12 / 2.2 kg",
-      "Unchanged"
+      "12 * 2.2 kg",
+      "12 / 2.2^2 kg"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Spread is affected by multiplication and division.\n\n💡 Multiply/Divide affects BOTH center and spread."
   },
   {
@@ -240,8 +228,7 @@ var APSTATS_MCQ = [
       "Mean: 105, SD: 25",
       "Mean: 100, SD: 20",
       "Mean: 105, SD: 20",
-      "Mean: 110, SD: 20",
-      "Mean: 105, SD: 15"
+      "Mean: 110, SD: 20"
     ],
     "answer": 2,
     "explanation": "Mean: (50*2)+5 = 105. SD: 10*2 = 20.\n\n💡 SD is not affected by the '+5'."
@@ -259,8 +246,7 @@ var APSTATS_MCQ = [
       "Large data handle",
       "Shows shape",
       "Preserves values",
-      "Easier on calculator",
-      "Accurate mean"
+      "Easier on calculator"
     ],
     "answer": 2,
     "explanation": "Histograms group data; stemplots list every digit.\n\n💡 Always read the 'Key' on a stemplot first."
@@ -278,8 +264,7 @@ var APSTATS_MCQ = [
       "0.15",
       "15%",
       "0.25",
-      "4.0",
-      "60"
+      "4.0"
     ],
     "answer": 2,
     "explanation": "15 / 60 = 0.25.\n\n💡 Relative frequency = count / total."
@@ -295,12 +280,11 @@ var APSTATS_MCQ = [
     "question": "When comparing two skewed distributions, use:",
     "choices": [
       "Mean/SD",
-      "Median/SD",
-      "Mean/IQR",
       "Median/IQR",
-      "Range/Mode"
+      "Mean/IQR",
+      "Median/SD"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Median and IQR are resistant to the skewness.\n\n💡 Use Mean/SD only for roughly symmetric data."
   },
   {
@@ -314,12 +298,11 @@ var APSTATS_MCQ = [
     "question": "Data: 10, 15, 20, 25, 30, 35, 40. IQR?",
     "choices": [
       "30",
-      "10",
-      "15",
       "20",
-      "25"
+      "15",
+      "10"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Q3(35) - Q1(15) = 20.\n\n💡 The median of 10, 15, 20 is 15."
   },
   {
@@ -335,8 +318,7 @@ var APSTATS_MCQ = [
       "68%",
       "95%",
       "99.7%",
-      "50%",
-      "34%"
+      "50%"
     ],
     "answer": 1,
     "explanation": "70 and 130 are ±2 SDs away.\n\n💡 Empirical Rule: 1 SD (68), 2 SD (95), 3 SD (99.7)."
@@ -354,8 +336,7 @@ var APSTATS_MCQ = [
       "High school heights",
       "12th grade boys",
       "Basketball team",
-      "City population",
-      "Elementary children"
+      "City population"
     ],
     "answer": 2,
     "explanation": "Basketball players are a selected group with very similar heights (low variability).\n\n💡 Smaller spread = smaller SD."
@@ -373,8 +354,7 @@ var APSTATS_MCQ = [
       "Min",
       "Q1",
       "Median",
-      "Mean",
-      "Max"
+      "Mean"
     ],
     "answer": 3,
     "explanation": "The mean is not used for boxplot boundaries.\n\n💡 A boxplot shows Min, Q1, Med, Q3, Max."
@@ -392,8 +372,7 @@ var APSTATS_MCQ = [
       "Histograms categorical",
       "Bar charts no gaps",
       "Bar charts categorical",
-      "No difference",
-      "Histogram shows median"
+      "No difference"
     ],
     "answer": 2,
     "explanation": "Gaps between bars signify distinct categories.\n\n💡 Quantitative data uses 'bins' (histograms)."
@@ -411,8 +390,7 @@ var APSTATS_MCQ = [
       "A mean > B",
       "B range likely larger",
       "50% B higher than max A",
-      "A SD larger",
-      "A more skewed"
+      "A SD larger"
     ],
     "answer": 1,
     "explanation": "Larger IQR usually implies larger overall spread for symmetric data.\n\n💡 Visualize the boxes; B is wider."
@@ -430,8 +408,7 @@ var APSTATS_MCQ = [
       "Median",
       "Range",
       "Exact count",
-      "Clusters or gaps",
-      "IQR"
+      "Clusters or gaps"
     ],
     "answer": 3,
     "explanation": "Boxplots summarize and hide gaps between data points.\n\n💡 Histograms show 'shape' in more detail."
@@ -449,8 +426,7 @@ var APSTATS_MCQ = [
       "Max values",
       "Shape/Center/Spread with context",
       "Total data points",
-      "Sum of values",
-      "The mean"
+      "Sum of values"
     ],
     "answer": 1,
     "explanation": "AP requires explicit comparison (context + comparative words).\n\n💡 Stack boxplots to compare them easily."
@@ -468,8 +444,7 @@ var APSTATS_MCQ = [
       "Mean left of median",
       "Mean right of median",
       "Same spot",
-      "Mean at peak",
-      "Median at tail"
+      "Mean at peak"
     ],
     "answer": 1,
     "explanation": "The tail pulls the mean toward the skew.\n\n💡 Mean is the 'balance point' of the area."
@@ -487,8 +462,7 @@ var APSTATS_MCQ = [
       "40% scored 70",
       "70% scored 40",
       "40% scored >= 70",
-      "40% scored <= 70",
-      "Median is 70"
+      "40% scored <= 70"
     ],
     "answer": 3,
     "explanation": "Cumulative frequency is 'at or below'.\n\n💡 The y-axis is the percentile."
@@ -506,10 +480,9 @@ var APSTATS_MCQ = [
       "5",
       "10",
       "55",
-      "70",
       "76"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Upper limit = 45 + 1.5(20) = 75. 76 > 75.\n\n💡 Formula: Q3 + 1.5*IQR or Q1 - 1.5*IQR."
   },
   {
@@ -522,13 +495,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Normal distribution, z-score -1.28. Percentile?",
     "choices": [
-      "75th",
+      "90th",
       "20th",
       "80th",
-      "90th",
       "10th"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Area left of -1.28 is approx 0.10.\n\n💡 TI-84: normalcdf(−1E99, −1.28, 0, 1) ≈ 0.10."
   },
   {
@@ -544,8 +516,7 @@ var APSTATS_MCQ = [
       "Mean < Median",
       "Left skew",
       "Mean > Median",
-      "SD is zero",
-      "Symmetric"
+      "SD is zero"
     ],
     "answer": 2,
     "explanation": "High outliers pull the mean up (right skew).\n\n💡 Mean follows the tail!"
@@ -563,8 +534,7 @@ var APSTATS_MCQ = [
       "Median",
       "IQR",
       "SD",
-      "Mode",
-      "Sample size"
+      "Mode"
     ],
     "answer": 2,
     "explanation": "SD is highly non-resistant to outliers.\n\n💡 Adding an outlier significantly increases SD."
@@ -582,8 +552,7 @@ var APSTATS_MCQ = [
       "SAT score higher",
       "ACT z higher",
       "SAT z higher",
-      "Equal",
-      "Impossible"
+      "Equal"
     ],
     "answer": 1,
     "explanation": "SAT z = (1300 − 1050) / 200 = 1.25. ACT z = (28 − 21) / 5 = 1.4. The ACT z-score is higher, so the ACT performance is relatively stronger.\n\n💡 Compare different scales using z-scores."
@@ -601,8 +570,7 @@ var APSTATS_MCQ = [
       "M:1, S:0",
       "M:0, S:1",
       "M:0, S:0",
-      "M:1, S:1",
-      "Depends"
+      "M:1, S:1"
     ],
     "answer": 1,
     "explanation": "Standardized distributions always have 0 mean and 1 SD.\n\n💡 Standard Normal Distribution N(0,1)."
@@ -620,8 +588,7 @@ var APSTATS_MCQ = [
       "Symmetric",
       "Right skew",
       "Left skew",
-      "Uniform",
-      "Bimodal"
+      "Uniform"
     ],
     "answer": 2,
     "explanation": "Mean < Median implies a left tail.\n\n💡 The 'mean' pulls toward the outliers."
@@ -639,8 +606,7 @@ var APSTATS_MCQ = [
       "1st",
       "2nd",
       "3rd",
-      "4th",
-      "Avg 3rd/4th"
+      "4th"
     ],
     "answer": 2,
     "explanation": "The lower 5 values have 3rd as median.\n\n💡 Q1 is the median of the lower half."
@@ -658,8 +624,7 @@ var APSTATS_MCQ = [
       "Symmetric",
       "Right skew",
       "Left skew",
-      "Bimodal",
-      "Uniform"
+      "Bimodal"
     ],
     "answer": 1,
     "explanation": "Longer whisker indicates a spread-out tail on that side.\n\n💡 Whiskers show the spread of the outer quartiles."
@@ -677,8 +642,7 @@ var APSTATS_MCQ = [
       "45-55",
       "40-60",
       "35-65",
-      "47.5-52.5",
-      "42.5-57.5"
+      "47.5-52.5"
     ],
     "answer": 1,
     "explanation": "50 ± 2(5) = 40 to 60.\n\n💡 95% = 2 standard deviations."
@@ -696,8 +660,7 @@ var APSTATS_MCQ = [
       "125",
       "75",
       "97.5",
-      "102.5",
-      "85"
+      "102.5"
     ],
     "answer": 1,
     "explanation": "100 + (-2.5 * 10) = 75.\n\n💡 Negative z means the value is below the mean."
@@ -715,8 +678,7 @@ var APSTATS_MCQ = [
       "1.5",
       "-1.5",
       "6",
-      "-6",
-      "0.5"
+      "-6"
     ],
     "answer": 1,
     "explanation": "(14 - 20) / 4 = -6 / 4 = -1.5.\n\n💡 Formula is (Observed - Mean) / SD."
@@ -732,12 +694,11 @@ var APSTATS_MCQ = [
     "question": "A study finds a correlation of r = -0.85 between the number of hours spent watching TV and exam scores. Which of the following best describes this relationship?",
     "choices": [
       "Strong positive linear relationship",
-      "Causes lower exam scores",
-      "Weak negative linear relationship",
       "No linear relationship",
+      "Weak negative linear relationship",
       "Strong negative linear relationship"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Correlation (r) ranges from -1 to 1. An r of -0.85 is close to -1, indicating a strong negative linear trend.\n\n💡 Remember: Correlation does NOT imply causation!"
   },
   {
@@ -751,12 +712,11 @@ var APSTATS_MCQ = [
     "question": "A researcher wants to see if the amount of fertilizer used affects the height of sunflowers. What is the explanatory variable?",
     "choices": [
       "Height of sunflowers",
-      "The researcher",
-      "Type of sunflower",
       "Amount of water",
+      "Type of sunflower",
       "Amount of fertilizer"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "The explanatory variable (x) is the one used to predict or explain changes in the response variable (y).\n\n💡 Think: Explanatory = Input (x), Response = Output (y)."
   },
   {
@@ -771,11 +731,10 @@ var APSTATS_MCQ = [
     "choices": [
       "r will be exactly 0.",
       "r will be exactly 1.",
-      "The relationship is strongly linear.",
       "r is not a reliable measure of the strength of this relationship.",
-      "There is no relationship at all."
+      "The relationship is strongly linear."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Correlation (r) only measures the strength and direction of *linear* relationships. It shouldn't be used for curved data.\n\n💡 Always look at the scatterplot before calculating r!"
   },
   {
@@ -790,11 +749,10 @@ var APSTATS_MCQ = [
     "choices": [
       "0.8",
       "0.4",
-      "1.6",
       "0.64",
-      "0.16"
+      "1.6"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "r^2 is literally the square of r. 0.8 * 0.8 = 0.64.\n\n💡 r^2 is always positive, even if r is negative."
   },
   {
@@ -808,12 +766,11 @@ var APSTATS_MCQ = [
     "question": "A regression line is calculated as y-hat = 10 + 2.5x, where x is study hours and y is test score. Interpret the slope.",
     "choices": [
       "For every 1 hour studied, the score increases by 10 points.",
-      "The correlation is 2.5.",
-      "The starting score is 2.5 points.",
       "If a student studies 0 hours, they will get a 10.",
+      "The starting score is 2.5 points.",
       "For every 1 hour studied, the score is predicted to increase by 2.5 points."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Slope is the change in y for every 1-unit increase in x. You MUST use the word 'predicted' or 'estimated' in AP Stats.\n\n💡 In the form y = a + bx, 'b' is the slope."
   },
   {
@@ -826,13 +783,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "A student studies for 4 hours and gets an 85. The regression line predicts a score of 82. What is the residual?",
     "choices": [
-      "82",
+      "3",
       "-3",
       "85",
-      "3",
-      "0.5"
+      "82"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Residual = Observed - Predicted. 85 - 82 = 3.\n\n💡 Mnemonic: RAP (Residual = Actual - Predicted)."
   },
   {
@@ -846,12 +802,11 @@ var APSTATS_MCQ = [
     "question": "A residual plot shows a clear U-shaped pattern. What does this indicate?",
     "choices": [
       "A linear model is appropriate.",
-      "The mean of the residuals is not zero.",
-      "The correlation is very strong.",
       "There are no outliers.",
+      "The correlation is very strong.",
       "A linear model is NOT appropriate; the data is likely non-linear."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "A good linear fit should show a random scatter of points in the residual plot. Any pattern (curved, fan-shaped) suggests a problem.\n\n💡 The residual plot is the ultimate test for linearity."
   },
   {
@@ -867,8 +822,7 @@ var APSTATS_MCQ = [
       "It increases.",
       "It decreases.",
       "It stays the same.",
-      "It changes sign.",
-      "It becomes zero."
+      "It changes sign."
     ],
     "answer": 2,
     "explanation": "Correlation is a standardized measure. Changing units or swapping x and y does not change the value of r.\n\n💡 r has no units (like inches or pounds) itself."
@@ -886,8 +840,7 @@ var APSTATS_MCQ = [
       "Interpolation",
       "Correlation",
       "Extrapolation",
-      "Influential points",
-      "LSRL"
+      "Influential points"
     ],
     "answer": 2,
     "explanation": "Extrapolation is making predictions outside the range of the x-values used to create the model. It is often inaccurate.\n\n💡 Never trust a prediction for an x-value far beyond your data set."
@@ -903,12 +856,11 @@ var APSTATS_MCQ = [
     "question": "A regression analysis results in r^2 = 0.75. Which is the correct interpretation?",
     "choices": [
       "75% of the data points fall on the line.",
-      "25% of the predictions are correct.",
-      "The correlation is 0.75.",
       "The slope is 0.75.",
+      "The correlation is 0.75.",
       "75% of the variation in y is accounted for by the linear relationship with x."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "r^2 (Coefficient of Determination) explains the proportion of variability in the response variable explained by the model.\n\n💡 This is a 'fill-in-the-blank' sentence you should memorize for the FRQ!"
   },
   {
@@ -924,8 +876,7 @@ var APSTATS_MCQ = [
       "1",
       "The correlation r",
       "0",
-      "The y-intercept",
-      "The mean of y"
+      "The y-intercept"
     ],
     "answer": 2,
     "explanation": "The LSRL is specifically calculated to minimize the sum of squared residuals, and the residuals themselves always sum to zero.\n\n💡 If your residuals don't sum to roughly 0, you probably calculated the line wrong."
@@ -943,8 +894,7 @@ var APSTATS_MCQ = [
       "A residual",
       "A lurking variable",
       "An influential point",
-      "A z-score",
-      "An intercept"
+      "A z-score"
     ],
     "answer": 2,
     "explanation": "Influential points are outliers that 'pull' the regression line toward themselves, changing the slope and r.\n\n💡 Removing an influential point will drastically change the slope; removing a regular outlier might not."
@@ -960,12 +910,11 @@ var APSTATS_MCQ = [
     "question": "In the model Weight = 150 + 5.2(Height_above_60_inches), what does the 150 represent?",
     "choices": [
       "The average weight of all people.",
-      "The weight of a person who is 0 inches tall.",
-      "The slope of the line.",
       "The correlation between weight and height.",
+      "The slope of the line.",
       "The predicted weight of a person who is exactly 60 inches tall."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Since x is 'height above 60', when x=0 (the person is 60 inches), the predicted weight is 150.\n\n💡 Always check if the y-intercept (x=0) actually makes sense in context."
   },
   {
@@ -978,13 +927,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Given: SD of x = 4, SD of y = 10, and r = 0.6. What is the slope of the LSRL?",
     "choices": [
-      "0.24",
+      "1.5",
       "2.5",
       "1.2",
-      "1.5",
-      "40"
+      "0.24"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Slope b = r × (Sy / Sx) = 0.6 × (10 / 4) = 0.6 × 2.5 = 1.5.\n\n💡 This formula is on the AP formula sheet. Use it when you don't have the raw data!"
   },
   {
@@ -998,12 +946,11 @@ var APSTATS_MCQ = [
     "question": "What does the standard deviation of the residuals (s) represent in context?",
     "choices": [
       "The typical distance of the data points from the mean of y.",
-      "The variation in the x-variable.",
-      "The slope of the regression line.",
       "The correlation between x and y.",
+      "The slope of the regression line.",
       "The typical distance of the observed y-values from the predicted y-values."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "s measures the 'typical' size of a residual—how far off our predictions usually are.\n\n💡 Think of 's' as the 'average error' of the model."
   },
   {
@@ -1016,13 +963,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "A LSRL has a slope of 3. The mean of x is 10 and the mean of y is 50. What is the y-intercept?",
     "choices": [
-      "50",
+      "20",
       "80",
       "30",
-      "20",
-      "10"
+      "50"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "The LSRL always passes through the point (mean x, mean y). Formula: a = mean_y - b(mean_x). a = 50 - 3(10) = 20.\n\n💡 This is how you find the intercept if you only have summary statistics."
   },
   {
@@ -1036,12 +982,11 @@ var APSTATS_MCQ = [
     "question": "A scatterplot has a strong positive linear trend. If you add an outlier that falls exactly on the LSRL but far to the right, what happens to r and r^2?",
     "choices": [
       "They both decrease.",
-      "r decreases, but r^2 increases.",
-      "r increases, but r^2 decreases.",
       "They stay exactly the same.",
+      "r increases, but r^2 decreases.",
       "They both increase."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "An outlier that follows the linear pattern but is far away strengthens the perception of the line, increasing r (making it closer to 1).\n\n💡 Points far out in the x-direction are very powerful (influential)."
   },
   {
@@ -1055,12 +1000,11 @@ var APSTATS_MCQ = [
     "question": "If r = -1, which of the following must be true?",
     "choices": [
       "There is no relationship between x and y.",
-      "x causes y to decrease.",
-      "The slope of the LSRL is -1.",
       "The y-intercept is negative.",
+      "The slope of the LSRL is -1.",
       "All residuals are equal to 0."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "If r = -1 (or 1), all data points fall exactly on the line. Since they are on the line, the distance between observed and predicted is zero.\n\n💡 Perfect correlation = Zero residuals."
   },
   {
@@ -1076,8 +1020,7 @@ var APSTATS_MCQ = [
       "Linear",
       "Power",
       "Exponential",
-      "Quadratic",
-      "Logarithmic"
+      "Quadratic"
     ],
     "answer": 2,
     "explanation": "In AP Stats, log(y) vs x linearizes exponential growth. log(y) vs log(x) linearizes power functions.\n\n💡 Check the axes! One log = Exponential. Two logs = Power."
@@ -1095,8 +1038,7 @@ var APSTATS_MCQ = [
       "2 SDs above the mean weight.",
       "0.5 SDs above the mean weight.",
       "1 SD above the mean weight.",
-      "Exactly at the mean weight.",
-      "Impossible to tell."
+      "Exactly at the mean weight."
     ],
     "answer": 2,
     "explanation": "The 'Regression to the Mean' principle: Predicted Z_y = r * Z_x. So, 0.5 * 2 = 1.\n\n💡 This is a rare but favorite 'hard' MCQ for the College Board."
@@ -1114,8 +1056,7 @@ var APSTATS_MCQ = [
       "Simple Random Sample",
       "Stratified Random Sample",
       "Cluster Sample",
-      "Convenience Sample",
-      "Systematic Sample"
+      "Convenience Sample"
     ],
     "answer": 3,
     "explanation": "Selecting based on ease of access rather than a random process is convenience sampling.\n\n💡 Convenience samples almost always lead to bias."
@@ -1130,13 +1071,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Which of the following describes a census?",
     "choices": [
+      "A survey of every individual in a population",
       "A random sample",
-      "A systematic sample",
       "An experiment",
-      "A study of volunteers",
-      "A survey of every individual in a population"
+      "A study of volunteers"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "A census is a complete count of the entire population.\n\n💡 Censuses are rare because they are expensive and difficult."
   },
   {
@@ -1149,13 +1089,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "In experimental design, what does 'replication' refer to?",
     "choices": [
+      "More than one unit in each group",
       "Repeating a study elsewhere",
-      "Double-blinding",
       "Two researchers",
-      "Same person in two groups",
-      "More than one unit in each group"
+      "Same person in two groups"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "Replication helps distinguish treatment effects from natural chance variation.\n\n💡 Replication increases the reliability of the results."
   },
   {
@@ -1168,13 +1107,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Primary reason for a sample over a census?",
     "choices": [
+      "Census is too expensive/slow",
       "Higher accuracy",
-      "Sample proves causation",
       "Sample removes all variability",
-      "Census needs random assignment",
-      "Census is too expensive/slow"
+      "Census needs random assignment"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "Logistics and cost usually make a full census impossible for large groups.\n\n💡 Sampling is the practical alternative to a census."
   },
   {
@@ -1187,13 +1125,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "An agronomist tests 3 fertilizers on 30 plots of land. What are the experimental units?",
     "choices": [
-      "30 plots of land",
-      "Fertilizers",
       "Agronomist",
+      "Fertilizers",
       "Corn produced",
-      "Sunlight"
+      "30 plots of land"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The experimental units are what the treatment is applied to.\n\n💡 Units can be people, animals, or objects."
   },
   {
@@ -1206,13 +1143,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Dividing a garden into sections with similar light and assigning both fertilizers within each section is called:",
     "choices": [
-      "Randomized Block Design",
-      "Matched Pairs",
       "Completely Randomized",
+      "Matched Pairs",
       "Observational Study",
-      "Stratified Experiment"
+      "Randomized Block Design"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Grouping similar units together (blocking) before randomization reduces variation.\n\n💡 Blocking is 'stratifying' for experiments."
   },
   {
@@ -1225,13 +1161,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Randomly selecting 10 rows of seats in a stadium and surveying everyone in those rows is:",
     "choices": [
-      "Cluster Sample",
-      "Stratified",
       "SRS",
+      "Stratified",
       "Systematic",
-      "Convenience"
+      "Cluster Sample"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Cluster sampling picks entire groups; Stratified picks individuals from all groups.\n\n💡 Cluster = 'All from some'. Stratified = 'Some from all'."
   },
   {
@@ -1244,13 +1179,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Primary purpose of random assignment in an experiment?",
     "choices": [
-      "Create similar treatment groups",
-      "Reduce variability",
       "Represent population",
+      "Reduce variability",
       "Eliminate control group",
-      "Allow double-blind"
+      "Create similar treatment groups"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Random assignment balances out lurking variables between groups.\n\n💡 Selection = Generalize; Assignment = Cause-and-Effect."
   },
   {
@@ -1263,13 +1197,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "A uniformed officer asks drivers if they wear seatbelts. This results in:",
     "choices": [
-      "Response bias",
-      "Undercoverage",
       "Non-response bias",
+      "Undercoverage",
       "Selection bias",
-      "Voluntary bias"
+      "Response bias"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Social pressure/fear leads people to provide inaccurate answers.\n\n💡 Response bias = Wrong info. Non-response = No info."
   },
   {
@@ -1285,8 +1218,7 @@ var APSTATS_MCQ = [
       "Non-response",
       "Undercoverage",
       "Voluntary bias",
-      "Wording of questions bias",
-      "Response bias"
+      "Wording of questions bias"
     ],
     "answer": 3,
     "explanation": "Loaded language leads the respondent toward a specific answer.\n\n💡 Look for leading adjectives in the prompt."
@@ -1304,8 +1236,7 @@ var APSTATS_MCQ = [
       "Selection determines cause",
       "Assignment generalizes",
       "Both needed for studies",
-      "Selection generalizes; Assignment allows causation",
-      "Experiments need no randomization"
+      "Selection generalizes; Assignment allows causation"
     ],
     "answer": 3,
     "explanation": "This is a fundamental AP distinction for scope of inference.\n\n💡 Selection is about the 'who'; Assignment is about the 'why'."
@@ -1322,11 +1253,10 @@ var APSTATS_MCQ = [
     "choices": [
       "Matched by age",
       "First 50 get A",
-      "Blocked by gender",
       "Every person has a 50% chance for either",
-      "Volunteers choose"
+      "Blocked by gender"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The key is that assignment is based entirely on a chance process.\n\n💡 Completely randomized = No subgroups/blocks."
   },
   {
@@ -1341,11 +1271,10 @@ var APSTATS_MCQ = [
     "choices": [
       "Equal chance for individual",
       "Stratified",
-      "Systematic",
       "Every group of size n has an equal chance",
-      "10% of population"
+      "Systematic"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "This is the formal definition that excludes cluster or stratified methods.\n\n💡 SRS is like pulling names out of a giant hat."
   },
   {
@@ -1358,13 +1287,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "What does 'statistically significant' mean?",
     "choices": [
+      "Unlikely to occur by chance alone",
       "Very important",
-      "Correlation is 1",
       "Census size",
-      "No confounding",
-      "Unlikely to occur by chance alone"
+      "No confounding"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "It means we found a real difference that isn't just luck.\n\n💡 This corresponds to a low P-value."
   },
   {
@@ -1377,13 +1305,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Heart rate measured 'before' and 'after' an energy drink is:",
     "choices": [
+      "Matched Pairs Design",
       "Completely Randomized",
-      "Cluster Sample",
       "Randomized Block",
-      "Observational Study",
-      "Matched Pairs Design"
+      "Observational Study"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "Each subject is their own control, receiving both treatments.\n\n💡 Before/After is the classic matched pairs setup."
   },
   {
@@ -1396,13 +1323,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "1,000 surveys mailed, only 100 received back. This is:",
     "choices": [
+      "Non-response bias",
       "Undercoverage",
-      "Random error",
       "Response bias",
-      "Convenience",
-      "Non-response bias"
+      "Convenience"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "Bias introduced because people selected for the study refused or failed to respond.\n\n💡 Non-response is about those ALREADY in the sample frame."
   },
   {
@@ -1415,13 +1341,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Decaf coffee group reports feeling more awake without knowing it's decaf. Example of:",
     "choices": [
+      "Placebo Effect",
       "Selection Bias",
-      "Double-Blinding",
       "Confounding",
-      "Blocking",
-      "Placebo Effect"
+      "Blocking"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "Subjects respond to the psychological expectation of treatment.\n\n💡 Placebos provide a baseline for human psychology."
   },
   {
@@ -1436,11 +1361,10 @@ var APSTATS_MCQ = [
     "choices": [
       "Small sample",
       "Lying",
-      "Biased tone",
       "Undercoverage of cell-only/workers",
-      "SRS"
+      "Biased tone"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Certain segments of the population have no chance of being picked.\n\n💡 Undercoverage happens when the 'list' is incomplete."
   },
   {
@@ -1456,8 +1380,7 @@ var APSTATS_MCQ = [
       "SRS",
       "Stratified",
       "Cluster",
-      "Systematic Sampling",
-      "Convenience"
+      "Systematic Sampling"
     ],
     "answer": 3,
     "explanation": "Picking based on a fixed interval (k).\n\n💡 Systematic = 'Pattern-based'."
@@ -1474,11 +1397,10 @@ var APSTATS_MCQ = [
     "choices": [
       "Population",
       "Sample",
-      "Census",
       "Sampling Frame",
-      "Stratum"
+      "Census"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The frame is the physical list (roster, directory) used to pull names.\n\n💡 Frame ≠ Population if some people aren't on the list."
   },
   {
@@ -1494,8 +1416,7 @@ var APSTATS_MCQ = [
       "Factor",
       "Placebo",
       "Confounding variable",
-      "Sample size",
-      "Control"
+      "Sample size"
     ],
     "answer": 2,
     "explanation": "We can't tell if the weight loss was the pill or the exercise.\n\n💡 Confounding variables 'confuse' the results."
@@ -1513,8 +1434,7 @@ var APSTATS_MCQ = [
       "Easier",
       "Removes variability",
       "Ensures subgroups represented and reduces variability",
-      "Ignore bias",
-      "Turns study to experiment"
+      "Ignore bias"
     ],
     "answer": 2,
     "explanation": "By grouping similar units, the sample variation is lowered.\n\n💡 Stratifying is about 'Precision'."
@@ -1532,8 +1452,7 @@ var APSTATS_MCQ = [
       "Population",
       "Vitamin users",
       "Only the volunteers",
-      "Exercisers",
-      "No one"
+      "Exercisers"
     ],
     "answer": 2,
     "explanation": "Without random selection from the population, you can't generalize broadly.\n\n💡 Volunteers = Limited scope of inference."
@@ -1548,13 +1467,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Why choose Randomized Block over Completely Randomized?",
     "choices": [
+      "Reduce variability by accounting for a known difference",
       "No randomization",
-      "Double-blind",
       "Easier",
-      "Larger sample",
-      "Reduce variability by accounting for a known difference"
+      "Larger sample"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "Blocking removes the 'noise' caused by variables we know affect the response.\n\n💡 Block what you can, randomize what you can't."
   },
   {
@@ -1567,13 +1485,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "What describes 'sampling error'?",
     "choices": [
+      "Natural sample-to-sample variation",
       "Mistake",
-      "Mean-median difference",
       "Convenience bias",
-      "Small size error",
-      "Natural sample-to-sample variation"
+      "Small size error"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "It's the natural variability of random samples, not an actual error.\n\n💡 Error = Variation; Bias = Systematic mistake."
   },
   {
@@ -1589,8 +1506,7 @@ var APSTATS_MCQ = [
       "Confounding",
       "Explanatory",
       "Response",
-      "Lurking/Common Response variable",
-      "Treatment"
+      "Lurking/Common Response variable"
     ],
     "answer": 3,
     "explanation": "A hidden third variable causing both observed effects.\n\n💡 Correlation ≠ Causation because of these."
@@ -1605,13 +1521,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "In matched pairs (both treatments), why randomize the order?",
     "choices": [
+      "Control order effects (fatigue/learning)",
       "Equal size",
-      "Generalize",
       "Double-blind",
-      "10% condition",
-      "Control order effects (fatigue/learning)"
+      "10% condition"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "If everyone did A then B, B might be worse just because they are tired.\n\n💡 Always swap the order for half the subjects."
   },
   {
@@ -1627,8 +1542,7 @@ var APSTATS_MCQ = [
       "Yes, randomized",
       "Yes, significant",
       "No, not representative of women",
-      "No, too small",
-      "Yes, protein universal"
+      "No, too small"
     ],
     "answer": 2,
     "explanation": "Sample doesn't match the target demographic.\n\n💡 Inference is only for people 'like' the subjects."
@@ -1646,8 +1560,7 @@ var APSTATS_MCQ = [
       "Control",
       "Random assignment",
       "Replication",
-      "Double-blind",
-      "Comparison"
+      "Double-blind"
     ],
     "answer": 3,
     "explanation": "Blinding is good but not strictly required for a valid experiment.\n\n💡 Control, Randomize, Replicate are the 3 essentials."
@@ -1663,12 +1576,11 @@ var APSTATS_MCQ = [
     "question": "How do volunteers affect experiments?",
     "choices": [
       "No random assignment",
-      "Unethical",
-      "No causation",
       "Non-response bias",
+      "No causation",
       "Limit generalizability"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Volunteers might differ significantly from the average person.\n\n💡 Causation okay; Generalization restricted."
   },
   {
@@ -1684,8 +1596,7 @@ var APSTATS_MCQ = [
       "Completely Randomized",
       "Randomized Block",
       "Matched Pairs Design",
-      "Observational",
-      "Cluster"
+      "Observational"
     ],
     "answer": 2,
     "explanation": "The 'pair' is the two sides of the same person's mouth.\n\n💡 Classic 'within-subject' matching."
@@ -1703,8 +1614,7 @@ var APSTATS_MCQ = [
       "2",
       "3",
       "5",
-      "6",
-      "1"
+      "6"
     ],
     "answer": 3,
     "explanation": "2 * 3 = 6 unique combinations.\n\n💡 Treatments = Product of factors and levels."
@@ -1722,8 +1632,7 @@ var APSTATS_MCQ = [
       "Increase size",
       "Double-blind",
       "Baseline for comparison",
-      "Easier assignment",
-      "No replication"
+      "Easier assignment"
     ],
     "answer": 2,
     "explanation": "It helps see what happens without the active ingredient.\n\n💡 Control = Counter-factual."
@@ -1739,12 +1648,11 @@ var APSTATS_MCQ = [
     "question": "Keeping lights and temp the same for all groups is to:",
     "choices": [
       "Increase sample",
-      "Observational",
-      "No assignment",
       "More significant",
+      "No assignment",
       "Prevent confounding"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "If temp changes for only one group, we won't know if temp or treatment caused the effect.\n\n💡 This is the 'Control' pillar of design."
   },
   {
@@ -1758,12 +1666,11 @@ var APSTATS_MCQ = [
     "question": "Increasing sample size primarily reduces:",
     "choices": [
       "Bias",
-      "Confounding",
+      "Sampling variability",
       "Non-response",
-      "Undercoverage",
-      "Sampling variability"
+      "Undercoverage"
     ],
-    "answer": 4,
+    "answer": 1,
     "explanation": "Larger samples are more precise but don't fix a fundamentally biased method.\n\n💡 Large samples can't fix bad design (bias)."
   },
   {
@@ -1776,13 +1683,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "A sugar pill in a drug trial is a:",
     "choices": [
-      "Placebo",
       "Factor",
+      "Placebo",
       "Sample",
-      "Lurking variable",
-      "Level"
+      "Lurking variable"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "An inactive treatment used as a control.\n\n💡 Placebos are the standard for control groups."
   },
   {
@@ -1798,8 +1704,7 @@ var APSTATS_MCQ = [
       "0.3",
       "0.7",
       "1.0",
-      "0.21",
-      "0.5"
+      "0.21"
     ],
     "answer": 0,
     "explanation": "P(Red) = Number of red / Total = 3 / 10 = 0.3.\n\n💡 Probability is always between 0 and 1."
@@ -1816,11 +1721,10 @@ var APSTATS_MCQ = [
     "choices": [
       "0.15",
       "1.15",
-      "0.00",
       "0.50",
       "0.85"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "P(Not A) = 1 - P(A). So, 1 - 0.15 = 0.85.\n\n💡 The sum of all possible outcomes in a sample space must equal 1."
   },
   {
@@ -1835,11 +1739,10 @@ var APSTATS_MCQ = [
     "choices": [
       "0",
       "0.5",
-      "The standard deviation",
       "The mean",
       "1"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "A valid probability distribution must account for 100% of possibilities.\n\n💡 If a table adds up to 0.99 or 1.01, it's likely a rounding error or an invalid distribution."
   },
   {
@@ -1855,8 +1758,7 @@ var APSTATS_MCQ = [
       "P(A) + P(B)",
       "P(A) * P(B)",
       "1",
-      "0",
-      "0.5"
+      "0"
     ],
     "answer": 3,
     "explanation": "Mutually exclusive (disjoint) means the events cannot happen at the same time.\n\n💡 If they can't overlap, the intersection is zero."
@@ -1873,11 +1775,10 @@ var APSTATS_MCQ = [
     "choices": [
       "Always increases",
       "Always decreases",
-      "Fluctuates more wildly",
       "Becomes exactly 0.5",
       "Approaches the theoretical probability"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "In the long run, relative frequency settles down to the true probability.\n\n💡 This is why casinos always win in the long run!"
   },
   {
@@ -1892,11 +1793,10 @@ var APSTATS_MCQ = [
     "choices": [
       "1.0",
       "0.2",
-      "0.12",
       "0.6",
       "0.8"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "P(A or B) = P(A) + P(B) - P(A and B) = 0.6 + 0.4 - 0.2 = 0.8.\n\n💡 Always subtract the overlap so you don't double-count."
   },
   {
@@ -1911,11 +1811,10 @@ var APSTATS_MCQ = [
     "choices": [
       "0.8",
       "0.2",
-      "0.5",
       "0.0",
       "0.15"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "For independent events, P(A and B) = P(A) * P(B). 0.3 * 0.5 = 0.15.\n\n💡 Independence means the occurrence of one doesn't change the probability of the other."
   },
   {
@@ -1930,11 +1829,10 @@ var APSTATS_MCQ = [
     "choices": [
       "0.7",
       "0.3",
-      "0.5",
       "0.1",
       "0.4"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "P(B|A) = P(A and B) / P(A) = 0.2 / 0.5 = 0.4.\n\n💡 The denominator is always the 'given' condition."
   },
   {
@@ -1949,11 +1847,10 @@ var APSTATS_MCQ = [
     "choices": [
       "0.5",
       "1.0",
-      "21",
       "0.3",
       "0.7"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "E(X) = Σ [x * P(x)] = (0 * 0.3) + (1 * 0.7) = 0.7.\n\n💡 Expected value is the 'long-run average' of the variable."
   },
   {
@@ -1969,8 +1866,7 @@ var APSTATS_MCQ = [
       "Binary outcomes",
       "Independent trials",
       "Fixed number of trials",
-      "Sampling without replacement from a small population",
-      "Constant probability of success"
+      "Sampling without replacement from a small population"
     ],
     "answer": 3,
     "explanation": "Binomial requires independence. Sampling without replacement from a small group violates this (unless the 10% condition is met).\n\n💡 Remember BINS: Binary, Independent, Number of trials, Success probability."
@@ -1988,8 +1884,7 @@ var APSTATS_MCQ = [
       "Geometric has no fixed n; it continues until the first success.",
       "Binomial has no fixed n.",
       "Geometric trials are dependent.",
-      "Binomial has no binary outcomes.",
-      "There is no difference."
+      "Binomial has no binary outcomes."
     ],
     "answer": 0,
     "explanation": "Binomial counts successes in n trials. Geometric counts trials until the first success.\n\n💡 Geometric = 'Wait time' until success."
@@ -2006,11 +1901,10 @@ var APSTATS_MCQ = [
     "choices": [
       "20",
       "60",
-      "75",
       "25",
       "65"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "E(aX + b) = aE(X) + b. So, 3(20) + 5 = 65.\n\n💡 Means follow all linear operations (add, subtract, multiply, divide)."
   },
   {
@@ -2023,13 +1917,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "If SD(X) = 4, what is the standard deviation of 3X + 5?",
     "choices": [
-      "4",
-      "1",
-      "17",
       "12",
-      "7"
+      "4",
+      "17",
+      "1"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "SD(aX + b) = |a| * SD(X). The '+ 5' does not affect spread. 3 * 4 = 12.\n\n💡 Adding a constant shifts the data but doesn't change the standard deviation!"
   },
   {
@@ -2044,11 +1937,10 @@ var APSTATS_MCQ = [
     "choices": [
       "10",
       "15",
-      "150",
       "5",
       "25"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "The mean of a sum is the sum of the means.\n\n💡 This works even if X and Y are NOT independent."
   },
   {
@@ -2063,11 +1955,10 @@ var APSTATS_MCQ = [
     "choices": [
       "25",
       "7",
-      "12",
       "1",
       "5"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Var(X+Y) = Var(X) + Var(Y) = 9 + 16 = 25. SD is the square root of 25, which is 5.\n\n💡 You can add variances, but you can NEVER add standard deviations."
   },
   {
@@ -2080,13 +1971,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "A fair coin is flipped 5 times. What is the probability of getting exactly 3 heads?",
     "choices": [
-      "0.5",
+      "0.3125",
       "0.6",
-      "0.05",
-      "0.125",
-      "0.3125"
+      "0.5",
+      "0.125"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "Using binomial formula or calculator: 5C3 × (0.5)^3 × (0.5)^2 = 10 × 0.125 × 0.25 = 0.3125.\n\n💡 TI-84: binompdf(5, 0.5, 3) = 0.3125."
   },
   {
@@ -2099,13 +1989,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "A shooter has a 20% chance of hitting a target. What is the probability they hit the target for the first time on the 3rd shot?",
     "choices": [
-      "0.20",
+      "0.128",
       "0.064",
-      "0.512",
-      "0.80",
-      "0.128"
+      "0.20",
+      "0.80"
     ],
-    "answer": 4,
+    "answer": 0,
     "explanation": "Geometric: (Fail)(Fail)(Success) = (0.8)(0.8)(0.2) = 0.128.\n\n💡 Geometric formula: (1-p)^(k-1) * p."
   },
   {
@@ -2120,11 +2009,10 @@ var APSTATS_MCQ = [
     "choices": [
       "0",
       "0.5",
-      "The total sample space",
       "1",
-      "The previous branch's value"
+      "The total sample space"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Every split in a tree diagram represents all possible next steps.\n\n💡 Multiply across branches for 'and'; add resulting ends for 'or'."
   },
   {
@@ -2137,13 +2025,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "If you flip a coin 100 times, what is the expected number of heads?",
     "choices": [
-      "25",
-      "10",
-      "100",
       "50",
-      "75"
+      "25",
+      "100",
+      "10"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Mean of binomial = n * p = 100 * 0.5 = 50.\n\n💡 This is simply the 'average' outcome you'd expect."
   },
   {
@@ -2159,8 +2046,7 @@ var APSTATS_MCQ = [
       "50",
       "25",
       "10",
-      "5",
-      "1"
+      "5"
     ],
     "answer": 3,
     "explanation": "SD = sqrt(n * p * (1-p)) = sqrt(100 * 0.5 * 0.5) = sqrt(25) = 5.\n\n💡 Formula: √npq."
@@ -2173,15 +2059,14 @@ var APSTATS_MCQ = [
     "topicLabel": "Intersection vs Union",
     "difficulty": "medium",
     "source": "Generated",
-    "question": "The notation P(A ∩ D) refers to:",
+    "question": "The notation P(A ∩ B) refers to:",
     "choices": [
       "A or B",
-      "Not A",
-      "A given B",
       "A and B",
-      "B given A"
+      "A given B",
+      "Not A"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "The ∩ symbol represents the intersection (AND).\n\n💡 ∩ looks like an 'n' for 'and'."
   },
   {
@@ -2196,11 +2081,10 @@ var APSTATS_MCQ = [
     "choices": [
       "A and B",
       "A given B",
-      "A only",
       "A or B",
-      "Neither A nor B"
+      "A only"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The ∪ symbol represents the union (OR).\n\n💡 ∪ looks like a 'U' for 'Union'."
   },
   {
@@ -2215,11 +2099,10 @@ var APSTATS_MCQ = [
     "choices": [
       "0",
       "1",
-      "0.68",
       "0.5",
-      "0.95"
+      "0.68"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The normal curve is symmetric around the mean (0).\n\n💡 Exactly half the data is below the mean."
   },
   {
@@ -2235,8 +2118,7 @@ var APSTATS_MCQ = [
       "0th",
       "100th",
       "50th",
-      "25th",
-      "75th"
+      "25th"
     ],
     "answer": 2,
     "explanation": "A z-score of 0 is the mean/median.\n\n💡 Mean = Median = 50th percentile in a Normal distribution."
@@ -2254,8 +2136,7 @@ var APSTATS_MCQ = [
       "Yes",
       "No",
       "Cannot be determined",
-      "Only if mutually exclusive",
-      "Only if P(A) = P(B)"
+      "Only if mutually exclusive"
     ],
     "answer": 0,
     "explanation": "Check P(A and B) first. 0.58 = 0.4 + 0.3 - X, so X = 0.12. Check if P(A)*P(B) = 0.12. 0.4 * 0.3 = 0.12. Since they match, they are independent.\n\n💡 Always test Independence using P(A and B) = P(A) * P(B)."
@@ -2273,8 +2154,7 @@ var APSTATS_MCQ = [
       "0.20",
       "0.50",
       "0.33",
-      "0.10",
-      "0.60"
+      "0.10"
     ],
     "answer": 2,
     "explanation": "P(Tea|Coffee) = P(Both) / P(Coffee) = 0.20 / 0.60 = 1/3 ≈ 0.33.\n\n💡 The 'given' (Coffee) is the new total you are dividing by."
@@ -2290,12 +2170,11 @@ var APSTATS_MCQ = [
     "question": "X and Y are independent. Var(X) = 10, Var(Y) = 10. What is Var(X - Y)?",
     "choices": [
       "0",
-      "100",
-      "10",
       "20",
-      "5"
+      "10",
+      "100"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Variances ALWAYS add when combining independent variables, even if you are subtracting the variables themselves.\n\n💡 Pythagorean Theorem of Statistics: SD(X±Y) = √(VarX + VarY)."
   },
   {
@@ -2309,12 +2188,11 @@ var APSTATS_MCQ = [
     "question": "Under what conditions can you use a Normal distribution to approximate a Binomial distribution?",
     "choices": [
       "n > 30",
-      "The 10% condition",
-      "p = 0.5",
       "np ≥ 10 and n(1-p) ≥ 10",
-      "Standard deviation > 5"
+      "p = 0.5",
+      "The 10% condition"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "The 'Large Counts' condition ensures the binomial shape is symmetric enough to be modeled by a normal curve.\n\n💡 Remember: 10 successes and 10 failures minimum."
   },
   {
@@ -2330,8 +2208,7 @@ var APSTATS_MCQ = [
       "0.1",
       "1.0",
       "0.651",
-      "0.349",
-      "0.9"
+      "0.349"
     ],
     "answer": 2,
     "explanation": "P(at least 1) = 1 - P(none). P(none) = (0.9)^10 ≈ 0.3487. 1 - 0.3487 = 0.6513.\n\n💡 It's almost always easier to calculate '1 - None'."
@@ -2349,8 +2226,7 @@ var APSTATS_MCQ = [
       "Yes",
       "No",
       "Only if P(A) + P(B) = 1",
-      "Only if P(A) = P(B)",
-      "Depends on the sample size"
+      "Only if P(A) = P(B)"
     ],
     "answer": 1,
     "explanation": "If they are mutually exclusive, P(A and B) = 0. But if they were independent, P(A and B) would be P(A)*P(B), which is non-zero. Therefore, they cannot be both.\n\n💡 Mutually exclusive events are actually highly 'dependent'—if A happens, the probability of B immediately drops to zero!"
@@ -2368,8 +2244,7 @@ var APSTATS_MCQ = [
       "0.5",
       "0.25",
       "1.5",
-      "1.0",
-      "0.75"
+      "1.0"
     ],
     "answer": 1,
     "explanation": "Var = Σ (x-mean)^2 * P(x) = (1-1.5)^2(0.5) + (2-1.5)^2(0.5) = (0.25)(0.5) + (0.25)(0.5) = 0.25.\n\n💡 Variance is the average squared distance from the mean."
@@ -2387,8 +2262,7 @@ var APSTATS_MCQ = [
       "2",
       "12",
       "28",
-      "18",
-      "4"
+      "18"
     ],
     "answer": 1,
     "explanation": "E(2X - Y) = 2(10) - 8 = 12.\n\n💡 Means are simple—just plug the numbers into the equation."
@@ -2406,8 +2280,7 @@ var APSTATS_MCQ = [
       "2",
       "5",
       "10",
-      "1",
-      "0.2"
+      "1"
     ],
     "answer": 1,
     "explanation": "Mean of geometric = 1 / p = 1 / 0.2 = 5.\n\n💡 If you have a 1 in 5 chance, you expect to wait 5 times."
@@ -2425,8 +2298,7 @@ var APSTATS_MCQ = [
       "90%",
       "1%",
       "Much less than 90%",
-      "0.9%",
-      "99%"
+      "0.9%"
     ],
     "answer": 2,
     "explanation": "Because the disease is rare, most 'positive' tests are false positives from the 99% of healthy people.\n\n💡 This is a classic 'False Positive' paradox. Use a tree diagram to solve."
@@ -2444,8 +2316,7 @@ var APSTATS_MCQ = [
       "0.5",
       "1.0",
       "0",
-      "0.2",
-      "Depends on the distribution"
+      "0.2"
     ],
     "answer": 2,
     "explanation": "In a continuous distribution, the probability of any single exact point is zero because there are infinite points.\n\n💡 We only find probabilities for 'intervals' (e.g., P(4.9 < X < 5.1)) in continuous stats."
@@ -2463,8 +2334,7 @@ var APSTATS_MCQ = [
       "100",
       "45 feet",
       "42 feet",
-      "The forest",
-      "The researcher"
+      "The forest"
     ],
     "answer": 1,
     "explanation": "A statistic is a numerical value calculated from a sample. A parameter (42 feet) describes the entire population.\n\n💡 Mnemonic: Population/Parameter (P), Sample/Statistic (S)."
@@ -2481,11 +2351,10 @@ var APSTATS_MCQ = [
     "choices": [
       "The distribution of values in a single sample.",
       "The distribution of the entire population.",
-      "A histogram of the raw data.",
       "The distribution of all possible values of a statistic for a given sample size.",
-      "The probability of a single event occurring."
+      "A histogram of the raw data."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "It describes how a statistic (like the mean) varies if we took every possible sample of size n from the population.\n\n💡 Think of it as a 'distribution of statistics' rather than a 'distribution of individuals'."
   },
   {
@@ -2501,8 +2370,7 @@ var APSTATS_MCQ = [
       "It is equal to the sample mean.",
       "The mean of its sampling distribution is equal to the true population parameter.",
       "The standard deviation is zero.",
-      "The sample size is greater than 30.",
-      "It is calculated from a Simple Random Sample (SRS)."
+      "The sample size is greater than 30."
     ],
     "answer": 1,
     "explanation": "If you take many samples and average the statistics, you should get the true parameter if the estimator is unbiased.\n\n💡 The sample mean (x-bar) is an unbiased estimator of the population mean (mu)."
@@ -2519,11 +2387,10 @@ var APSTATS_MCQ = [
     "choices": [
       "0.4",
       "0.04",
-      "0.24",
       "0.049",
-      "0.0024"
+      "0.24"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Formula: sqrt(p(1-p)/n) = sqrt(0.4 * 0.6 / 100) = sqrt(0.0024) ≈ 0.04899.\n\n💡 Standard deviation of p-hat decreases as 'n' increases. More data = more precision!"
   },
   {
@@ -2538,11 +2405,10 @@ var APSTATS_MCQ = [
     "choices": [
       "To ensure the distribution is Normal.",
       "To satisfy the Central Limit Theorem.",
-      "To ensure the mean is unbiased.",
       "To treat the observations as independent when sampling without replacement.",
-      "To reduce the sampling error."
+      "To ensure the mean is unbiased."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "If we sample too much of a population without replacement, the trials aren't independent. The 10% rule lets us ignore this complexity.\n\n💡 Always check: Is N >= 10n?"
   },
   {
@@ -2558,8 +2424,7 @@ var APSTATS_MCQ = [
       "Skewed to the right.",
       "Skewed to the left.",
       "Approximately Normal, regardless of the population shape.",
-      "Exactly equal to the population distribution.",
-      "Uniform."
+      "Exactly equal to the population distribution."
     ],
     "answer": 2,
     "explanation": "This is the magic of stats. Even if the population is weird/skewed, the means of large samples will always look like a Bell Curve.\n\n💡 This 'kick in' usually happens when n >= 30."
@@ -2577,8 +2442,7 @@ var APSTATS_MCQ = [
       "20",
       "16",
       "5",
-      "1.25",
-      "4"
+      "1.25"
     ],
     "answer": 2,
     "explanation": "Formula: sigma / sqrt(n). 20 / sqrt(16) = 20 / 4 = 5.\n\n💡 Means of larger samples vary LESS than means of smaller samples."
@@ -2596,8 +2460,7 @@ var APSTATS_MCQ = [
       "Double the sample size.",
       "Cut the sample size in half.",
       "Quadruple the sample size.",
-      "Divide the sample size by 4.",
-      "The sample size does not affect standard deviation."
+      "Divide the sample size by 4."
     ],
     "answer": 2,
     "explanation": "Because of the square root in the formula (sigma/sqrt(n)), to divide the result by 2, you must multiply 'n' by 4.\n\n💡 This 'square root law' is why getting higher precision in stats is so expensive!"
@@ -2615,8 +2478,7 @@ var APSTATS_MCQ = [
       "n > 30",
       "The population must be Normal.",
       "np >= 10 and n(1-p) >= 10",
-      "n < 10% of the population",
-      "p = 0.5"
+      "n < 10% of the population"
     ],
     "answer": 2,
     "explanation": "You need at least 10 expected successes and 10 expected failures to ensure the binomial-based distribution isn't too skewed.\n\n💡 If n=100 and p=0.01, this fails because np=1 (not normal!)."
@@ -2634,8 +2496,7 @@ var APSTATS_MCQ = [
       "It is smaller than the population mean.",
       "It is larger than the population mean.",
       "It is equal to the population mean.",
-      "It is the population mean divided by n.",
-      "It depends on the shape of the population."
+      "It is the population mean divided by n."
     ],
     "answer": 2,
     "explanation": "The mean of the sample means is an unbiased estimator of the true population mean (mu_x-bar = mu).\n\n💡 Sample means are 'centered' on the truth."
@@ -2653,8 +2514,7 @@ var APSTATS_MCQ = [
       "High bias, High variability",
       "Low bias, Low variability",
       "High bias, Low variability",
-      "Low bias, High variability",
-      "No bias, No variability"
+      "Low bias, High variability"
     ],
     "answer": 2,
     "explanation": "Bias is how far you are from the target (the bullseye). Variability is how spread out the shots are.\n\n💡 Ideally, we want Low Bias and Low Variability."
@@ -2672,8 +2532,7 @@ var APSTATS_MCQ = [
       "Skewed right",
       "Skewed left",
       "Approximately Normal",
-      "Uniform",
-      "Bimodal"
+      "Uniform"
     ],
     "answer": 2,
     "explanation": "If the population is Normal, the sampling distribution of the mean is Normal for ANY sample size (even n=1).\n\n💡 The n >= 30 rule only matters if the population is NOT Normal."
@@ -2691,8 +2550,7 @@ var APSTATS_MCQ = [
       "0.25",
       "0.023",
       "0.977",
-      "0.159",
-      "0.05"
+      "0.159"
     ],
     "answer": 1,
     "explanation": "New SD = 3 / sqrt(9) = 1. z = (66 − 64) / 1 = 2.0. Area to the right of z = 2 is approx 0.0228.\n\n💡 TI-84: normalcdf(66, 1E99, 64, 1) ≈ 0.0228."
@@ -2710,8 +2568,7 @@ var APSTATS_MCQ = [
       "5",
       "1.58",
       "25",
-      "1.34",
-      "7"
+      "1.34"
     ],
     "answer": 1,
     "explanation": "Formula: sqrt(sigma1^2/n1 + sigma2^2/n2) = sqrt(9/10 + 16/10) = sqrt(2.5) ≈ 1.58.\n\n💡 Variances of independent statistics always add, even if you are subtracting the statistics!"
@@ -2729,8 +2586,7 @@ var APSTATS_MCQ = [
       "The sample mean",
       "The sample sum",
       "The distribution of individuals in a single large sample",
-      "The sampling distribution of x-bar",
-      "A skewed population being averaged"
+      "The sampling distribution of x-bar"
     ],
     "answer": 2,
     "explanation": "A common mistake: kids think a large sample looks Normal. No, a large sample looks like the population. Only the *sampling distribution* looks Normal.\n\n💡 CLT = Statistics look normal. Population = Stays how it is."
@@ -2745,13 +2601,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "80% of students pass a test. In a random sample of 100 students, what is the probability that the sample pass rate (p-hat) is less than 75%?",
     "choices": [
-      "0.025",
+      "0.150",
       "0.050",
       "0.894",
-      "0.150",
       "0.106"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "μ = 0.8. SD = √(0.8 × 0.2 / 100) = 0.04. z = (0.75 − 0.80) / 0.04 = −1.25. P(z < −1.25) ≈ 0.1056.\n\n💡 TI-84: normalcdf(−1E99, 0.75, 0.8, 0.04) ≈ 0.1056."
   },
   {
@@ -2764,13 +2619,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "Population A has p=0.7 and Population B has p=0.5. If samples of size 100 are taken from both, what is the mean of the sampling distribution of (p-hatA - p-hatB)?",
     "choices": [
-      "0.1",
+      "0.02",
       "1.2",
       "0.35",
-      "0.02",
       "0.2"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "The mean of the difference is the difference of the means. 0.7 - 0.5 = 0.2.\n\n💡 Means of differences are easy; SDs of differences are hard."
   },
   {
@@ -2786,8 +2640,7 @@ var APSTATS_MCQ = [
       "Decreases",
       "Increases",
       "Stays the same",
-      "Becomes zero",
-      "Becomes 0.5"
+      "Becomes zero"
     ],
     "answer": 1,
     "explanation": "Larger 'n' makes the sampling distribution narrower (smaller SD). This 'squeezes' more of the probability area toward the center (mu).\n\n💡 Larger samples are 'tighter' around the true mean."
@@ -2804,11 +2657,10 @@ var APSTATS_MCQ = [
     "choices": [
       "There is a 95% chance the true parameter is in the specific interval we calculated.",
       "95% of the data points in the sample fall within the interval.",
-      "95% of the population is represented in the sample.",
       "We are 95% sure that the sample proportion is correct.",
       "If we took many samples, about 95% of the resulting intervals would capture the true population parameter."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Confidence level refers to the 'success rate' of the method used to create the interval, not the probability for a single interval.\n\n💡 Always distinguish between 'level' (the process) and 'interval' (the specific result)."
   },
   {
@@ -2824,8 +2676,7 @@ var APSTATS_MCQ = [
       "p",
       "n",
       "z*",
-      "p-hat",
-      "Standard Error"
+      "p-hat"
     ],
     "answer": 3,
     "explanation": "The sample proportion (p-hat) is the best single-value estimate for the population proportion (p).\n\n💡 The point estimate is always the center of your confidence interval."
@@ -2842,11 +2693,10 @@ var APSTATS_MCQ = [
     "choices": [
       "p = 0.50",
       "p < 0.50",
-      "p is not equal to 0.50",
       "p-hat > 0.50",
       "p > 0.50"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "The alternative hypothesis reflects the claim the researcher is trying to find evidence for.\n\n💡 Hypotheses are ALWAYS written in terms of population parameters (p), never statistics (p-hat)."
   },
   {
@@ -2861,11 +2711,10 @@ var APSTATS_MCQ = [
     "choices": [
       "The probability that the null hypothesis is true.",
       "The probability that the alternative hypothesis is true.",
-      "The significance level of the test.",
       "The probability that the sample size was too small.",
       "The probability of getting a result as extreme or more extreme than the one observed, assuming the null hypothesis is true."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "A P-value measures how 'surprising' our sample data is if nothing unusual is actually happening.\n\n💡 Lower P-values mean stronger evidence against the null."
   },
   {
@@ -2880,11 +2729,10 @@ var APSTATS_MCQ = [
     "choices": [
       "Increasing the sample size.",
       "Decreasing the confidence level.",
-      "Choosing a smaller critical value (z*).",
       "Decreasing the standard deviation of the sample.",
       "Increasing the confidence level."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Higher confidence requires a wider interval to be 'more sure,' which increases the margin of error.\n\n💡 High confidence = Wide interval; Large sample = Narrow interval."
   },
   {
@@ -2899,11 +2747,10 @@ var APSTATS_MCQ = [
     "choices": [
       "Accept the null hypothesis.",
       "Fail to reject the null hypothesis.",
-      "Prove the alternative hypothesis is 100% true.",
       "The test is invalid.",
       "Reject the null hypothesis; there is convincing evidence for the alternative."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "If the P is low, the null must go!\n\n💡 Always link the P-value to alpha in your FRQ answers."
   },
   {
@@ -2919,8 +2766,7 @@ var APSTATS_MCQ = [
       "n > 30",
       "The sample must be a census.",
       "N >= 10n",
-      "n*p-hat >= 10 and n*(1-p-hat) >= 10",
-      "p = 0.5"
+      "n*p-hat >= 10 and n*(1-p-hat) >= 10"
     ],
     "answer": 3,
     "explanation": "This 'Large Counts' condition ensures there are enough successes and failures for the sampling distribution to be approximately Normal.\n\n💡 Use p-hat for intervals, but use p_0 (null) for significance tests."
@@ -2938,8 +2784,7 @@ var APSTATS_MCQ = [
       "1.645",
       "1.96",
       "2.576",
-      "1.28",
-      "0.90"
+      "1.28"
     ],
     "answer": 0,
     "explanation": "A 90% interval leaves 5% in each tail. invNorm(0.05) on a calculator gives 1.645.\n\n💡 Memorize the Big Three: 90% (1.645), 95% (1.96), 99% (2.576)."
@@ -2957,8 +2802,7 @@ var APSTATS_MCQ = [
       "Type I Error",
       "Type II Error",
       "Standard Error",
-      "Margin of Error",
-      "Sampling Error"
+      "Margin of Error"
     ],
     "answer": 0,
     "explanation": "Type I Error is a 'false alarm'—rejecting a true null hypothesis.\n\n💡 P(Type I Error) = alpha (significance level)."
@@ -2976,8 +2820,7 @@ var APSTATS_MCQ = [
       "Type I Error",
       "Significance",
       "Power",
-      "Type II Error",
-      "Correct Decision"
+      "Type II Error"
     ],
     "answer": 3,
     "explanation": "Type II Error is a 'miss'—failing to reject a false null hypothesis.\n\n💡 Increasing sample size reduces the probability of a Type II error (increases Power). Type I error rate is set by alpha, not sample size."
@@ -2994,11 +2837,10 @@ var APSTATS_MCQ = [
     "choices": [
       "Alpha",
       "Beta",
-      "Significance",
       "Confidence",
       "Power"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Power is the 'ability' of a test to find an effect when it truly exists.\n\n💡 Power = 1 - Beta (Type II Error probability)."
   },
   {
@@ -3014,8 +2856,7 @@ var APSTATS_MCQ = [
       "752",
       "500",
       "100",
-      "1068",
-      "1500"
+      "1068"
     ],
     "answer": 3,
     "explanation": "ME = z* * sqrt(pq/n). 0.03 = 1.96 * sqrt(0.25/n). Solving for n gives ~1067.11. Always round up to 1068.\n\n💡 If no p-hat is given, use 0.5—it's the 'conservative' choice that gives the largest n."
@@ -3033,8 +2874,7 @@ var APSTATS_MCQ = [
       "0.0228",
       "0.05",
       "0.9772",
-      "0.0456",
-      "0.01"
+      "0.0456"
     ],
     "answer": 3,
     "explanation": "For a two-sided test, you find the tail area (P(Z > 2.0) = 0.0228) and multiply it by 2.\n\n💡 Always double the tail for 'not equal to' hypotheses."
@@ -3050,12 +2890,11 @@ var APSTATS_MCQ = [
     "question": "When we use p-hat instead of p to calculate the variability of the sampling distribution, the result is called the:",
     "choices": [
       "Standard Deviation",
-      "Critical Value",
-      "Variance",
       "Standard Error",
-      "Bias"
+      "Variance",
+      "Critical Value"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Standard Error is the estimate of the standard deviation when the true parameter is unknown.\n\n💡 Use SE for confidence intervals; use SD (with null p) for tests."
   },
   {
@@ -3069,12 +2908,11 @@ var APSTATS_MCQ = [
     "question": "Why do we 'pool' the data to calculate a combined p-hat in a significance test for the difference between two proportions?",
     "choices": [
       "To increase the sample size.",
-      "To reduce the P-value.",
-      "To satisfy the 10% condition.",
       "Because the null hypothesis assumes the two proportions are equal.",
-      "It is only required for confidence intervals."
+      "To satisfy the 10% condition.",
+      "To reduce the P-value."
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "If we assume p1 = p2, then the best estimate for that common p is the combined data from both samples.\n\n💡 Pooling is ONLY used for 2-prop Z-tests, NOT for intervals."
   },
   {
@@ -3090,8 +2928,7 @@ var APSTATS_MCQ = [
       "H0: p = 0.43",
       "H0: p = 0.45",
       "H0: p = 0.47",
-      "H0: p = 0.50",
-      "None would be rejected."
+      "H0: p = 0.50"
     ],
     "answer": 3,
     "explanation": "If the null value (0.50) is NOT inside the 95% confidence interval, the P-value for a two-sided test would be less than 0.05.\n\n💡 Confidence intervals are basically a range of 'plausible' null hypotheses."
@@ -3107,12 +2944,11 @@ var APSTATS_MCQ = [
     "question": "A sample of 100 students shows 40 prefer math. What is the 95% confidence interval for the true proportion?",
     "choices": [
       "(0.35, 0.45)",
-      "(0.38, 0.42)",
-      "(0.32, 0.48)",
       "(0.304, 0.496)",
-      "(0.40, 0.50)"
+      "(0.32, 0.48)",
+      "(0.38, 0.42)"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "p-hat = 0.4. SE = sqrt(0.4*0.6/100) = 0.0489. Margin of Error = 1.96 * 0.0489 = 0.096. 0.4 ± 0.096.\n\n💡 Use 1-PropZInt on your calculator to check your work."
   },
   {
@@ -3126,12 +2962,11 @@ var APSTATS_MCQ = [
     "question": "In a test for the difference between two proportions (p1 - p2), the z-statistic is -2.5. This means:",
     "choices": [
       "The sample proportions are 2.5 units apart.",
-      "The test is invalid because the z-score is negative.",
-      "The P-value is 2.5.",
       "The observed difference is 2.5 standard errors below the hypothesized difference (0).",
-      "The sample size was not large enough."
+      "The P-value is 2.5.",
+      "The test is invalid because the z-score is negative."
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Z measures how many standard errors the observation is from the null.\n\n💡 A negative z-score just means p1-hat was smaller than p2-hat."
   },
   {
@@ -3145,12 +2980,11 @@ var APSTATS_MCQ = [
     "question": "If the consequence of a Type I error (false alarm) is very dangerous, what should a researcher do?",
     "choices": [
       "Increase alpha to 0.10.",
-      "Use a one-sided test instead of two-sided.",
-      "Decrease the sample size.",
       "Decrease alpha to 0.01.",
-      "Increase the margin of error."
+      "Decrease the sample size.",
+      "Use a one-sided test instead of two-sided."
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Lowering alpha makes it harder to reject the null, which reduces the chance of making a Type I error.\n\n💡 Smaller alpha = more stringent proof required."
   },
   {
@@ -3165,11 +2999,10 @@ var APSTATS_MCQ = [
     "choices": [
       "110",
       "200",
-      "0.11",
       "0.45",
       "0.55"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "p-hat = x / n = 110 / 200 = 0.55.\n\n💡 Always convert counts to proportions before doing Z-math."
   },
   {
@@ -3183,12 +3016,11 @@ var APSTATS_MCQ = [
     "question": "If you increase the significance level (alpha) of a test from 0.05 to 0.10, what happens to the Power of the test?",
     "choices": [
       "Power decreases.",
-      "Power becomes zero.",
-      "Power stays the same.",
       "Power increases.",
-      "Type II error probability also increases."
+      "Power stays the same.",
+      "Power becomes zero."
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Increasing alpha makes it easier to reject the null. Since Power is the probability of correctly rejecting a false null, the Power goes up.\n\n💡 Trading off: Higher alpha = More Power but more Type I Errors."
   },
   {
@@ -3204,8 +3036,7 @@ var APSTATS_MCQ = [
       "sqrt(p1q1/n1 + p2q2/n2)",
       "sqrt(p1q1/n1) + sqrt(p2q2/n2)",
       "sqrt(p_pooled * q_pooled * (1/n1 + 1/n2))",
-      "(p1-p2) / n",
-      "z * sqrt(p1q1/n1)"
+      "(p1-p2) / n"
     ],
     "answer": 0,
     "explanation": "For intervals, we use the individual sample proportions to estimate variance.\n\n💡 The pooled formula is only for significance tests!"
@@ -3222,11 +3053,10 @@ var APSTATS_MCQ = [
     "choices": [
       "Increasing the sample size.",
       "Increasing the significance level (alpha).",
-      "Reducing the standard deviation.",
       "Considering an alternative value of p that is further from the null value.",
       "Decreasing the sample size."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Smaller samples provide less evidence, making it harder to reject the null and thus lowering power.\n\n💡 Bigger n = Bigger Power."
   },
   {
@@ -3241,11 +3071,10 @@ var APSTATS_MCQ = [
     "choices": [
       "More women like pizza than men.",
       "More men like pizza than women.",
-      "There is a 95% chance that the difference is exactly 6%.",
       "Exactly 2% of men like pizza.",
       "There is no significant difference because 0 is in the interval."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Since the interval includes 0, it is plausible that there is zero difference between the two proportions.\n\n💡 Interval crossing 0 = Fail to Reject H0: p1 = p2."
   },
   {
@@ -3261,8 +3090,7 @@ var APSTATS_MCQ = [
       "p1 - p2 > 0",
       "p1 - p2 = 0",
       "p1 - p2 != 0",
-      "p-hat1 = p-hat2",
-      "p1 = 0.5 and p2 = 0.5"
+      "p-hat1 = p-hat2"
     ],
     "answer": 1,
     "explanation": "The null hypothesis always assumes 'no effect' or 'no difference.'\n\n💡 p1 - p2 = 0 is the same as p1 = p2."
@@ -3280,8 +3108,7 @@ var APSTATS_MCQ = [
       "The sample size was very small.",
       "The sample size was very large.",
       "The significance level was too high.",
-      "The researcher made a Type II error.",
-      "The null hypothesis was true."
+      "The researcher made a Type II error."
     ],
     "answer": 1,
     "explanation": "With a massive sample size, even tiny differences become 'statistically significant' because the standard error becomes nearly zero.\n\n💡 Statistical significance does not always mean 'practical' significance."
@@ -3299,8 +3126,7 @@ var APSTATS_MCQ = [
       "0.84",
       "1.28",
       "1.645",
-      "1.96",
-      "0.25"
+      "1.96"
     ],
     "answer": 1,
     "explanation": "80% in the middle means 10% in each tail. invNorm(0.10) = 1.28.\n\n💡 Use invNorm on your calculator for any non-standard confidence level."
@@ -3318,8 +3144,7 @@ var APSTATS_MCQ = [
       "Reject the null",
       "Fail to reject the null",
       "Not enough information",
-      "The P-value is 0.05",
-      "The z-score is 1.96"
+      "The P-value is 0.05"
     ],
     "answer": 0,
     "explanation": "A 95% interval is equivalent to a one-sided test at alpha = 0.025. Since the entire interval is far above 0.5, we reject the null.\n\n💡 A 95% interval (two-sided) corresponds to 2.5% in each tail."
@@ -3336,11 +3161,10 @@ var APSTATS_MCQ = [
     "choices": [
       "0.15",
       "0.05",
-      "0.01",
-      "0.95",
-      "0.85"
+      "0.85",
+      "0.95"
     ],
-    "answer": 4,
+    "answer": 2,
     "explanation": "Power = 1 - Beta. 1 - 0.15 = 0.85.\n\n💡 Power and Type II error are complementary."
   },
   {
@@ -3354,12 +3178,11 @@ var APSTATS_MCQ = [
     "question": "When is it appropriate to use a t-distribution instead of a z-distribution for inference about a population mean?",
     "choices": [
       "When the sample size is large (n > 30).",
-      "When the margin of error is zero.",
-      "When the population is not Normally distributed.",
       "When the data is categorical.",
+      "When the population is not Normally distributed.",
       "When the population standard deviation (sigma) is unknown."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "In practice, we rarely know sigma. We use the sample standard deviation (s) as an estimate, which requires the t-distribution to account for the extra uncertainty.\n\n💡 If you see 's' in the problem instead of 'sigma', use T-intervals/tests."
   },
   {
@@ -3375,8 +3198,7 @@ var APSTATS_MCQ = [
       "25",
       "26",
       "50",
-      "24",
-      "1"
+      "24"
     ],
     "answer": 3,
     "explanation": "For a single sample mean, df = n - 1.\n\n💡 Degrees of freedom determine the shape of the t-curve. As df increases, the t-curve looks more like a Z-curve."
@@ -3391,13 +3213,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "What is the formula for the standard error of the sample mean (SE_x-bar)?",
     "choices": [
-      "s / n",
+      "s / sqrt(n)",
       "sigma / sqrt(n)",
       "sqrt(p(1-p)/n)",
-      "s / sqrt(n)",
-      "n * s"
+      "s / n"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "The standard error estimates the variability of the sampling distribution of the mean using sample data.\n\n💡 This is on your formula sheet under 'Standard Error for Sample Mean'."
   },
   {
@@ -3411,12 +3232,11 @@ var APSTATS_MCQ = [
     "question": "A researcher wants to test if the average weight of a cereal box is less than the advertised 16 ounces. What is the correct null hypothesis (H0)?",
     "choices": [
       "mu < 16",
-      "p = 16",
-      "x-bar = 16",
       "mu > 16",
+      "x-bar = 16",
       "mu = 16"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "The null hypothesis always states that there is no change or no difference (equality).\n\n💡 Hypotheses are about 'mu' (population), not 'x-bar' (sample)."
   },
   {
@@ -3430,12 +3250,11 @@ var APSTATS_MCQ = [
     "question": "A t-statistic of t = 3.0 means that:",
     "choices": [
       "The sample mean is 3 units above the null mean.",
-      "The p-value is 3.0.",
-      "There is a 3% chance the null is true.",
       "The sample size was 3.",
+      "There is a 3% chance the null is true.",
       "The sample mean is 3 standard errors above the null mean."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Like a z-score, a t-score measures the distance from the null in units of standard error.\n\n💡 Higher |t| values lead to smaller P-values."
   },
   {
@@ -3446,15 +3265,14 @@ var APSTATS_MCQ = [
     "topicLabel": "One-Sample vs. Two-Sample",
     "difficulty": "easy",
     "source": "Generated",
-    "question": "Which test should be used to compare the average test scores of two different classes (Class A and Class E)?",
+    "question": "Which test should be used to compare the average test scores of two different classes (Class A and Class D)?",
     "choices": [
       "One-sample t-test",
-      "Chi-square test",
-      "Matched pairs t-test",
       "One-proportion z-test",
+      "Matched pairs t-test",
       "Two-sample t-test"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Since the two classes are independent groups, a two-sample t-test is used to compare their means.\n\n💡 Check if the groups are independent (Two-sample) or related (Matched pairs)."
   },
   {
@@ -3468,12 +3286,11 @@ var APSTATS_MCQ = [
     "question": "Which of the following is true about the t-distribution compared to the standard Normal (Z) distribution?",
     "choices": [
       "The t-distribution is skewed to the right.",
-      "There is only one t-distribution regardless of sample size.",
-      "The t-distribution is taller and narrower.",
       "The t-distribution is only used for n > 30.",
+      "The t-distribution is taller and narrower.",
       "The t-distribution has 'thicker' tails and less area in the center."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Because 's' is an estimate of 'sigma', the t-distribution has more variability, putting more area in the tails to be conservative.\n\n💡 As df approach infinity, T becomes Z."
   },
   {
@@ -3489,8 +3306,7 @@ var APSTATS_MCQ = [
       "0.4",
       "16.0",
       "1.96",
-      "0.2",
-      "0.05"
+      "0.2"
     ],
     "answer": 3,
     "explanation": "Margin of error is half the width of the interval: (16.2 - 15.8) / 2 = 0.2.\n\n💡 Point Estimate (16.0) ± Margin of Error (0.2)."
@@ -3508,8 +3324,7 @@ var APSTATS_MCQ = [
       "0.95 with df=15",
       "0.05 with df=14",
       "0.975 with df=15",
-      "0.025 with df=14",
-      "0.05 with df=15"
+      "0.025 with df=14"
     ],
     "answer": 3,
     "explanation": "A 95% interval leaves 5% in the tails combined (2.5% in each tail). df = 15 - 1 = 14.\n\n💡 In Desmos/Calculator: invT(0.025, 14) or invT(0.975, 14)."
@@ -3525,12 +3340,11 @@ var APSTATS_MCQ = [
     "question": "In a matched pairs t-test, what data are we actually analyzing?",
     "choices": [
       "The means of the two groups.",
-      "The sum of the two samples.",
-      "The proportions of successes.",
       "The standard deviation of the population.",
+      "The proportions of successes.",
       "The differences between each pair of observations."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Matched pairs is essentially a one-sample t-test performed on the single list of 'difference' values (Before - After).\n\n💡 A matched pairs test always has H0: mu_diff = 0."
   },
   {
@@ -3545,11 +3359,10 @@ var APSTATS_MCQ = [
     "choices": [
       "The Central Limit Theorem (n > 30).",
       "A scatterplot of x vs y.",
-      "The P-value of the test.",
       "A boxplot or Normal Probability Plot of the sample data.",
-      "The standard deviation."
+      "The P-value of the test."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Since n is small (< 30), the CLT doesn't apply. We must check the sample data for strong skewness or outliers.\n\n💡 If the boxplot is roughly symmetric with no outliers, the condition is met."
   },
   {
@@ -3563,12 +3376,11 @@ var APSTATS_MCQ = [
     "question": "A 90% confidence interval for the mean time (in minutes) to complete a task is (12.5, 15.5). Based on this, would we reject H0: mu = 12 at the alpha = 0.10 level?",
     "choices": [
       "No, because 12.5 is greater than 12.",
-      "Maybe, we need the sample size.",
-      "No, because the interval is 3 minutes wide.",
       "Yes, because the p-value must be greater than 0.10.",
+      "No, because the interval is 3 minutes wide.",
       "Yes, because 12 is not contained in the 90% confidence interval."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "If the null value is outside the confidence interval, the result is statistically significant at that alpha level.\n\n💡 Alpha = 1 - Confidence Level (for 2-sided tests)."
   },
   {
@@ -3582,12 +3394,11 @@ var APSTATS_MCQ = [
     "question": "If you quadruple the sample size (from 25 to 100) and keep the confidence level the same, the width of the t-interval will:",
     "choices": [
       "Stay the same.",
-      "Quadruple.",
-      "Be cut in a fourth.",
       "Double.",
+      "Be cut in a fourth.",
       "Be cut in half."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Standard error is s/sqrt(n). Since sqrt(100) is twice sqrt(25), the error is divided by 2.\n\n💡 The square root law applies to both means and proportions."
   },
   {
@@ -3600,13 +3411,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "A one-sided test for Ha: mu > 50 with n = 20 results in t = 2.09. Using a t-table with df=19, we find the area to the right is between 0.025 and 0.05. What is the conclusion at alpha = 0.05?",
     "choices": [
-      "The test is invalid because p is not an exact number.",
+      "Reject H0; the result is significant.",
       "Fail to reject H0; not enough evidence.",
       "Accept H0.",
-      "Reject H0; the result is significant.",
-      "Increase the sample size."
+      "The test is invalid because p is not an exact number."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Since the P-value (the area) is less than alpha (0.05), we reject the null.\n\n💡 In 2026, you will likely use your calculator's 'tcdf' to get the exact P-value."
   },
   {
@@ -3620,12 +3430,11 @@ var APSTATS_MCQ = [
     "question": "Two independent samples have s1=5, n1=10 and s2=8, n2=10. What is the standard error for the difference (x1-bar - x2-bar)?",
     "choices": [
       "sqrt(5/10 + 8/10)",
-      "3 / 10",
-      "13 / 20",
       "sqrt(25+64) / 10",
+      "13 / 20",
       "sqrt(25/10 + 64/10)"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Formula: sqrt(s1^2/n1 + s2^2/n2).\n\n💡 Always add variances, even when comparing differences."
   },
   {
@@ -3639,12 +3448,11 @@ var APSTATS_MCQ = [
     "question": "The t-procedures are described as 'robust.' What does this mean?",
     "choices": [
       "They always give the correct answer.",
-      "They are always better than z-procedures.",
-      "They only work for large populations.",
       "They are not affected by the sample size.",
+      "They only work for large populations.",
       "They work well even if the Normality condition is slightly violated, as long as n is not too small and there are no outliers."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Robust means the p-values and confidence levels remain fairly accurate despite minor violations of assumptions.\n\n💡 Outliers are the biggest enemy of robustness—always check for them!"
   },
   {
@@ -3660,8 +3468,7 @@ var APSTATS_MCQ = [
       "It increases.",
       "It decreases.",
       "It stays the same.",
-      "It becomes zero.",
-      "It depends on the mean."
+      "It becomes zero."
     ],
     "answer": 0,
     "explanation": "Higher confidence requires capturing more area under the curve, which moves the 'cut-off' values further into the tails.\n\n💡 Higher confidence = Higher t* = Wider interval."
@@ -3677,12 +3484,11 @@ var APSTATS_MCQ = [
     "question": "A researcher compares the weight of 50 people before and after a diet. This is an example of:",
     "choices": [
       "Independent samples",
-      "Stratified sampling",
-      "One-sample z-test",
       "Two-sample z-test",
+      "One-sample z-test",
       "Matched pairs"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Each individual is measured twice; the data points are linked in pairs.\n\n💡 Before/After studies are the most common matched pairs scenario."
   },
   {
@@ -3697,11 +3503,10 @@ var APSTATS_MCQ = [
     "choices": [
       "25",
       "23",
-      "14",
       "9",
-      "10"
+      "14"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The simple conservative method uses the smaller of (n1-1) or (n2-1). 10-1 = 9.\n\n💡 Calculators use a much more complex formula (Satterthwaite) which usually gives a decimal like 21.4."
   },
   {
@@ -3717,8 +3522,7 @@ var APSTATS_MCQ = [
       "Increasing the sample standard deviation s.",
       "Increasing the confidence level.",
       "Decreasing the sample size n.",
-      "Increasing the sample size n.",
-      "Using a t-distribution with fewer degrees of freedom."
+      "Increasing the sample size n."
     ],
     "answer": 3,
     "explanation": "Larger n decreases the standard error, which shrinks the margin of error.\n\n💡 Bigger sample = more precision."
@@ -3734,12 +3538,11 @@ var APSTATS_MCQ = [
     "question": "A sample of n=9 has x-bar=55 and s=6. Testing H0: mu=50, what is the t-statistic?",
     "choices": [
       "0.83",
-      "2.00",
+      "2.50",
       "5.00",
-      "0.92",
-      "2.50"
+      "0.92"
     ],
-    "answer": 4,
+    "answer": 1,
     "explanation": "t = (55 - 50) / (6 / sqrt(9)) = 5 / (6 / 3) = 5 / 2 = 2.50.\n\n💡 Always calculate the denominator (Standard Error) first."
   },
   {
@@ -3753,12 +3556,11 @@ var APSTATS_MCQ = [
     "question": "Why is a matched pairs design often more powerful than a two-sample design?",
     "choices": [
       "It requires a smaller sample size.",
-      "It always results in a larger t-statistic.",
+      "It reduces the variability by controlling for differences between individual subjects.",
       "It doesn't require the Normality condition.",
-      "It uses the z-distribution instead of the t-distribution.",
-      "It reduces the variability by controlling for differences between individual subjects."
+      "It uses the z-distribution instead of the t-distribution."
     ],
-    "answer": 4,
+    "answer": 1,
     "explanation": "By comparing a subject to themselves, we 'cancel out' the noise of person-to-person differences, making it easier to see the treatment effect.\n\n💡 Reducing variability increases the Power of the test."
   },
   {
@@ -3772,12 +3574,11 @@ var APSTATS_MCQ = [
     "question": "If you conduct a two-sided t-test with Ha: mu != 100 and find P = 0.06, what would be the P-value for a one-sided test with Ha: mu > 100 using the same data?",
     "choices": [
       "0.12",
-      "0.94",
-      "0.06",
       "0.03",
-      "0.05"
+      "0.06",
+      "0.94"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "A two-sided P-value is double the one-sided P-value. 0.06 / 2 = 0.03 (assuming x-bar was indeed > 100).\n\n💡 1-sided P = half of 2-sided P."
   },
   {
@@ -3793,8 +3594,7 @@ var APSTATS_MCQ = [
       "The interval will be narrower.",
       "The interval will be wider and shifted to the right.",
       "The interval will be wider and shifted to the left.",
-      "The outlier will not affect the interval because it is resistant.",
-      "The confidence level will automatically increase."
+      "The outlier will not affect the interval because it is resistant."
     ],
     "answer": 1,
     "explanation": "An outlier increases x-bar (shifting the center right) and significantly increases 's' (making the interval wider).\n\n💡 Means and SDs are NOT resistant to outliers."
@@ -3812,8 +3612,7 @@ var APSTATS_MCQ = [
       "Yes, always.",
       "No, we almost never pool for means.",
       "Yes, but only if the sample sizes are equal.",
-      "Yes, but only for matched pairs.",
-      "Only if we know the population variances are equal."
+      "Yes, but only for matched pairs."
     ],
     "answer": 1,
     "explanation": "We only pool for proportions. For means, we assume unequal variances, which is more conservative and safer.\n\n💡 On your calculator, always select 'Pooled: No' for 2-Sample T-tests."
@@ -3830,11 +3629,10 @@ var APSTATS_MCQ = [
     "choices": [
       "25",
       "68",
-      "100",
       "97",
-      "385"
+      "100"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "2 = 1.96 * (10 / sqrt(n)). sqrt(n) = 19.6 / 2 = 9.8. n = 9.8^2 = 96.04. Round up to 97.\n\n💡 If sigma is given, use z*. If not, this becomes an iterative T process (usually not required on AP)."
   },
   {
@@ -3850,8 +3648,7 @@ var APSTATS_MCQ = [
       "40",
       "39",
       "20",
-      "19",
-      "18"
+      "19"
     ],
     "answer": 3,
     "explanation": "In matched pairs, n is the number of PAIRS. df = 20 - 1 = 19.\n\n💡 Don't count the total number of individuals (40); count the number of differences (20)."
@@ -3869,8 +3666,7 @@ var APSTATS_MCQ = [
       "Increase",
       "Decrease",
       "Stay the same",
-      "Increase then decrease",
-      "Become 1.0"
+      "Increase then decrease"
     ],
     "answer": 1,
     "explanation": "Larger samples make the test more sensitive to small differences, increasing Power and thus decreasing Beta.\n\n💡 Large n = More power = Fewer misses (Type II)."
@@ -3888,8 +3684,7 @@ var APSTATS_MCQ = [
       "0.66",
       "2.58",
       "0.82",
-      "1.15",
-      "1.82"
+      "1.15"
     ],
     "answer": 1,
     "explanation": "SE = sqrt(10^2/30 + 10^2/30) = sqrt(100/30 + 100/30) = sqrt(3.33 + 3.33) = sqrt(6.66) ≈ 2.58.\n\n💡 Don't forget to square the standard deviations!"
@@ -3906,11 +3701,10 @@ var APSTATS_MCQ = [
     "choices": [
       "A Chi-square distribution",
       "A Binomial distribution",
-      "A Uniform distribution",
       "A standard Normal distribution",
-      "The population distribution"
+      "A Uniform distribution"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The t-distribution was created to account for the uncertainty of 's'. As the sample gets infinite, 's' becomes exactly 'sigma', so the extra variability disappears.\n\n💡 This is why the bottom row of a t-table often lists 'z' or 'infinity'."
   },
   {
@@ -3926,8 +3720,7 @@ var APSTATS_MCQ = [
       "One-sample t-test",
       "Chi-square test for Goodness of Fit",
       "Chi-square test for Independence",
-      "Two-proportion z-test",
-      "Linear regression t-test"
+      "Two-proportion z-test"
     ],
     "answer": 1,
     "explanation": "Goodness of Fit compares an observed distribution of a single categorical variable to a hypothesized 'claimed' distribution.\n\n💡 Think 'GOF' when you have one sample and one variable."
@@ -3945,8 +3738,7 @@ var APSTATS_MCQ = [
       "Chi-square Goodness of Fit",
       "Chi-square test for Independence",
       "Two-sample t-test",
-      "Matched pairs t-test",
-      "One-proportion z-test"
+      "Matched pairs t-test"
     ],
     "answer": 1,
     "explanation": "Independence/Association tests look at two categorical variables from a single population to see if they are related.\n\n💡 Independence = One population, two variables. Homogeneity = Two populations, one variable."
@@ -3964,8 +3756,7 @@ var APSTATS_MCQ = [
       "n > 30",
       "At least 5",
       "At least 10",
-      "At least 1",
-      "np >= 10"
+      "At least 1"
     ],
     "answer": 1,
     "explanation": "The 'Large Counts' condition for Chi-square requires all expected counts (not observed) to be at least 5.\n\n💡 If any expected count is < 5, you cannot rely on the P-value."
@@ -3983,8 +3774,7 @@ var APSTATS_MCQ = [
       "12",
       "7",
       "6",
-      "11",
-      "5"
+      "11"
     ],
     "answer": 2,
     "explanation": "df = (rows - 1)(columns - 1) = (3-1)(4-1) = 2 * 3 = 6.\n\n💡 Don't count the 'Total' row or column in your df calculation!"
@@ -4002,8 +3792,7 @@ var APSTATS_MCQ = [
       "(Row Total + Column Total) / 2",
       "Observed Count / Table Total",
       "Mean of the row",
-      "(Row Total * Column Total) / Table Total",
-      "Total / Number of cells"
+      "(Row Total * Column Total) / Table Total"
     ],
     "answer": 3,
     "explanation": "This formula assumes the null hypothesis (independence) is true to find what the counts 'should' be.\n\n💡 Your calculator does this for you automatically in the 'Expected' Matrix."
@@ -4021,8 +3810,7 @@ var APSTATS_MCQ = [
       "It is symmetric and bell-shaped.",
       "It is skewed to the left.",
       "It is skewed to the right and only contains positive values.",
-      "It is a t-distribution with n-1 degrees of freedom.",
-      "It is approximately Normal if n > 30."
+      "It is a t-distribution with n-1 degrees of freedom."
     ],
     "answer": 2,
     "explanation": "Since Chi-square is calculated by squaring differences, it cannot be negative. It has a long tail to the right.\n\n💡 As degrees of freedom increase, it becomes more symmetric."
@@ -4040,8 +3828,7 @@ var APSTATS_MCQ = [
       "Variable A and Variable B are associated.",
       "Variable A and Variable B are independent.",
       "p1 = p2 = p3",
-      "The distribution is uniform.",
-      "The slope is equal to zero."
+      "The distribution is uniform."
     ],
     "answer": 1,
     "explanation": "The null always assumes 'no relationship' or 'nothing interesting is happening.'\n\n💡 Independent = No Association."
@@ -4059,8 +3846,7 @@ var APSTATS_MCQ = [
       "Smokers are less likely to have lung cancer.",
       "The observed count for this cell is very different from the expected count.",
       "The sample size for smokers was too small.",
-      "The test is invalid for this cell.",
-      "This cell matches the null hypothesis perfectly."
+      "The test is invalid for this cell."
     ],
     "answer": 1,
     "explanation": "Each cell's contribution is (O-E)^2 / E. A high contribution means that cell is a major reason why the null hypothesis was rejected.\n\n💡 Look at the 'Contributions to Chi-Square' to see which group 'caused' the significant result."
@@ -4078,8 +3864,7 @@ var APSTATS_MCQ = [
       "They are completely different.",
       "The P-values will be the same for a two-sided test.",
       "Chi-square is only for large samples.",
-      "Z-test is only for categorical data.",
-      "Z-test is more accurate."
+      "Z-test is only for categorical data."
     ],
     "answer": 1,
     "explanation": "For a 2x2 table, a Chi-square test for independence and a two-sided two-proportion z-test are mathematically equivalent.\n\n💡 Chi-square = (Z-statistic)^2 in a 2x2 table."
@@ -4097,8 +3882,7 @@ var APSTATS_MCQ = [
       "6",
       "36",
       "5",
-      "1",
-      "Depends on the number of rolls"
+      "1"
     ],
     "answer": 2,
     "explanation": "For Goodness of Fit, df = (number of categories - 1). 6 - 1 = 5.\n\n💡 Categories, not sample size!"
@@ -4116,8 +3900,7 @@ var APSTATS_MCQ = [
       "beta = 1",
       "beta = 0",
       "y-hat = 0",
-      "r = 1",
-      "mu = 0"
+      "r = 1"
     ],
     "answer": 1,
     "explanation": "A slope of 0 means there is no linear relationship between x and y.\n\n💡 Slope = 0 means the regression line is flat."
@@ -4135,8 +3918,7 @@ var APSTATS_MCQ = [
       "s",
       "SE_b",
       "sigma",
-      "r^2",
-      "y-hat"
+      "r^2"
     ],
     "answer": 1,
     "explanation": "SE_b measures how much the estimated slope would vary if we took many different samples.\n\n💡 You'll find this in the 'Computer Output' table under 'SE Coef' for the variable row."
@@ -4154,8 +3936,7 @@ var APSTATS_MCQ = [
       "n - 1",
       "n - 2",
       "n",
-      "2n",
-      "n - k"
+      "2n"
     ],
     "answer": 1,
     "explanation": "We lose two degrees of freedom because we are estimating both the slope and the y-intercept.\n\n💡 Remember: Slope has 2 letters (s, l), so df = n - 2."
@@ -4173,8 +3954,7 @@ var APSTATS_MCQ = [
       "The 'Constant' row",
       "The row labeled with the explanatory variable's name",
       "The 'R-sq' row",
-      "The 'S' row",
-      "The title row"
+      "The 'S' row"
     ],
     "answer": 1,
     "explanation": "The 'Constant' row is for the intercept; the variable row contains the slope (Coef) and its significance test (P).\n\n💡 Don't get tricked! 'Constant' is NEVER the slope."
@@ -4192,10 +3972,9 @@ var APSTATS_MCQ = [
       "Linearity",
       "Independence",
       "Normality of residuals",
-      "Equal variance of residuals",
       "Sample size n > 30"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Regression uses the t-distribution, so it doesn't strictly require n > 30 as long as the residuals are approximately Normal.\n\n💡 Mnemonic: LINER (Linear, Independent, Normal, Equal Variance, Random)."
   },
   {
@@ -4208,13 +3987,12 @@ var APSTATS_MCQ = [
     "source": "Generated",
     "question": "How is the t-statistic for a slope calculated?",
     "choices": [
-      "b * SE_b",
+      "s / sqrt(n)",
       "r / sqrt(1-r^2)",
       "y-hat / x",
-      "s / sqrt(n)",
       "(b - beta) / SE_b"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "It's the observed slope minus the hypothesized slope (usually 0) divided by the standard error of the slope.\n\n💡 This is just like a standard t-test: (Statistic - Parameter) / Standard Error."
   },
   {
@@ -4230,8 +4008,7 @@ var APSTATS_MCQ = [
       "We are 95% confident the slope is exactly 2.85.",
       "95% of the y-values are between 1.2 and 4.5.",
       "We are 95% confident that for every 1-unit increase in x, the true mean of y increases by between 1.2 and 4.5 units.",
-      "There is a 95% chance the correlation is positive.",
-      "The x-variable is 95% accurate."
+      "There is a 95% chance the correlation is positive."
     ],
     "answer": 2,
     "explanation": "A slope interval estimates the true rate of change between the variables.\n\n💡 Since the interval is entirely positive, we have evidence of a positive linear relationship."
@@ -4249,8 +4026,7 @@ var APSTATS_MCQ = [
       "Check if the scatterplot is linear.",
       "Look for a random scatter in the residual plot with no 'fan' or 'funnel' shape.",
       "Check if the residuals are Normally distributed.",
-      "Calculate the correlation coefficient r.",
-      "Perform a two-sample t-test on the residuals."
+      "Calculate the correlation coefficient r."
     ],
     "answer": 1,
     "explanation": "The residuals should have the same amount of vertical spread across all values of x.\n\n💡 A 'fan shape' in the residuals means the model is less accurate for larger x-values."
@@ -4268,8 +4044,7 @@ var APSTATS_MCQ = [
       "0.015",
       "0.06",
       "0.03",
-      "0.97",
-      "Depends on the y-intercept"
+      "0.97"
     ],
     "answer": 2,
     "explanation": "A test for the slope and a test for the correlation coefficient ($r$) use the same t-statistic and yield the same p-value.\n\n💡 No slope = No correlation."
@@ -4287,8 +4062,7 @@ var APSTATS_MCQ = [
       "The slope of the line.",
       "The standard deviation of the explanatory variable.",
       "The typical distance that the observed y-values fall from the regression line.",
-      "The sum of the squared residuals.",
-      "The sample size."
+      "The sum of the squared residuals."
     ],
     "answer": 2,
     "explanation": "S is the standard deviation of the residuals—it tells you how far 'off' your predictions are on average.\n\n💡 Smaller S = Better model fit."
@@ -4308,8 +4082,7 @@ var APSTATS_MCQ = [
       "What is your favorite color?",
       "What sport do you play?",
       "How many hours per week do you study?",
-      "What is your grade level (freshman, sophomore, junior, senior)?",
-      "Do you own a pet? (Yes or No)"
+      "What is your grade level (freshman, sophomore, junior, senior)?"
     ],
     "answer": 2,
     "explanation": "A quantitative variable takes numerical values for which arithmetic operations make sense. 'Hours per week studying' is a measurable number, making it quantitative. Favorite color, sport played, grade level, and pet ownership are all categorical variables because they place individuals into groups or categories rather than measuring a numerical amount."
@@ -4329,8 +4102,7 @@ var APSTATS_MCQ = [
       "The distribution of test scores for 30 students",
       "The number of students in each favorite-genre category (action, comedy, drama, horror)",
       "The heights of players on a basketball team",
-      "The change in a student's GPA over four years",
-      "The relationship between study time and exam score"
+      "The change in a student's GPA over four years"
     ],
     "answer": 1,
     "explanation": "Bar charts are designed to display the distribution of categorical data by showing a bar for each category whose height represents frequency or relative frequency. Genre preference is categorical. Test scores and heights are quantitative (better shown with histograms or dotplots), GPA change over time is better shown with a line graph, and the relationship between two quantitative variables is better shown with a scatterplot."
@@ -4350,8 +4122,7 @@ var APSTATS_MCQ = [
       "5",
       "6",
       "7",
-      "8",
-      "9"
+      "8"
     ],
     "answer": 2,
     "explanation": "The median is the middle value when data are arranged in order. With 7 values, the median is the 4th value. Counting: 3, 5, 5, 7, 9, 10, 12 — the 4th value is 7. A common mistake is choosing 5 (the mode) or averaging two middle values as if there were an even number of data points. Another mistake is computing the mean (51/7 ≈ 7.3) instead of the median."
@@ -4371,8 +4142,7 @@ var APSTATS_MCQ = [
       "Standard deviation",
       "Range",
       "Variance",
-      "Interquartile range (IQR)",
-      "Mean absolute deviation"
+      "Interquartile range (IQR)"
     ],
     "answer": 3,
     "explanation": "The interquartile range (IQR = Q3 - Q1) measures the spread of the middle 50% of the data, so extreme values (outliers) do not affect it. The range is heavily influenced by outliers because it uses only the minimum and maximum. Standard deviation and variance are based on the mean, which itself is pulled by outliers, making them non-resistant. Mean absolute deviation is also based on the mean and is therefore affected by outliers."
@@ -4392,8 +4162,7 @@ var APSTATS_MCQ = [
       "0.5",
       "1.0",
       "1.5",
-      "2.0",
-      "3.0"
+      "2.0"
     ],
     "answer": 3,
     "explanation": "A z-score is calculated as z = (x - mean) / standard deviation = (85 - 75) / 5 = 10 / 5 = 2.0. This means the student scored 2 standard deviations above the mean. A common error is subtracting in the wrong order (75 - 85) giving a negative value, or dividing by the wrong quantity. Choosing 1.5 or 0.5 typically results from arithmetic errors in the subtraction or division step."
@@ -4410,13 +4179,12 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A researcher records the following for each survey respondent: zip code, number of siblings, political affiliation, and annual income. Which of the following correctly classifies these variables?",
     "choices": [
-      "Zip code: categorical; number of siblings: quantitative; political affiliation: quantitative; annual income: quantitative",
+      "Zip code: quantitative; number of siblings: categorical; political affiliation: categorical; annual income: quantitative",
       "Zip code: quantitative; number of siblings: quantitative; political affiliation: categorical; annual income: quantitative",
       "Zip code: categorical; number of siblings: categorical; political affiliation: categorical; annual income: quantitative",
-      "Zip code: quantitative; number of siblings: categorical; political affiliation: categorical; annual income: quantitative",
       "Zip code: categorical; number of siblings: quantitative; political affiliation: categorical; annual income: quantitative"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Zip code is categorical because, even though it consists of digits, the numbers don't represent a measurable quantity — arithmetic on zip codes is meaningless. Number of siblings and annual income are quantitative because they represent counts and amounts. Political affiliation is categorical because it places individuals into named groups. Choice B is a common error because students see digits in a zip code and assume it must be quantitative."
   },
   {
@@ -4431,14 +4199,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A frequency table shows that 12 students scored in the 70–79 range and 30 students were surveyed in total. A student claims the relative frequency for this interval is 0.40. Another student says it is 40. Which statement is correct?",
     "choices": [
-      "The first student is correct, but only if the total number of students is exactly 30.",
+      "Neither student is correct; relative frequency must be expressed as a fraction, so the answer is 12/30.",
       "The second student is correct; relative frequency is always expressed as a percentage, so the answer is 40%.",
       "Both students are correct because 0.40 and 40% are equivalent representations.",
-      "Neither student is correct; relative frequency must be expressed as a fraction, so the answer is 12/30.",
       "The first student is correct; relative frequency is expressed as a proportion and 12/30 = 0.40."
     ],
-    "answer": 4,
-    "explanation": "Relative frequency is the proportion of observations in a category, calculated as the category frequency divided by the total. Here, 12/30 = 0.40, making the first student correct. While 40% is an equivalent value, saying 'relative frequency is 40' without the percent sign is incorrect notation. Choice C is tempting but the second student stated '40' not '40%', which is numerically wrong as a proportion. Choice D is incorrect because fractions, decimals, and percents are all acceptable ways to express relative frequency."
+    "answer": 3,
+    "explanation": "Relative frequency is the proportion of observations in a category, calculated as the category frequency divided by the total. Here, 12/30 = 0.40, making the first student correct. While 40% is an equivalent value, saying 'relative frequency is 40' without the percent sign is incorrect notation. Choice C is tempting but the second student stated '40' not '40%', which is numerically wrong as a proportion. Choice A is incorrect because fractions, decimals, and percents are all acceptable ways to express relative frequency."
   },
   {
     "id": "stats_u1_q008",
@@ -4452,14 +4219,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A bar chart displays the favorite music genres of 200 students. The bar for 'Hip-Hop' reaches a height of 80, and the bar for 'Country' reaches a height of 40. Which of the following is a valid conclusion from this chart?",
     "choices": [
-      "The ratio of Hip-Hop to Country preferences will remain constant if more students are surveyed.",
+      "Students who prefer Hip-Hop scored higher on music appreciation tests than Country fans.",
       "The combined percentage of students who prefer Hip-Hop or Country is 80%.",
       "Hip-Hop is exactly twice as popular as Country in the general population.",
-      "Students who prefer Hip-Hop scored higher on music appreciation tests than Country fans.",
       "Twice as many students prefer Hip-Hop as prefer Country."
     ],
-    "answer": 4,
-    "explanation": "Since 80 students prefer Hip-Hop and 40 prefer Country, it is valid to say twice as many students in this sample prefer Hip-Hop over Country (80/40 = 2). Choice B is incorrect: 80 + 40 = 120 out of 200, which is 60%, not 80%. Choice C overgeneralizes to the population, which is not supported by sample data alone. Choice D introduces information not present in the chart. Choice A makes an unjustified predictive claim."
+    "answer": 3,
+    "explanation": "Since 80 students prefer Hip-Hop and 40 prefer Country, it is valid to say twice as many students in this sample prefer Hip-Hop over Country (80/40 = 2). Choice B is incorrect: 80 + 40 = 120 out of 200, which is 60%, not 80%. Choice C overgeneralizes to the population, which is not supported by sample data alone. Choice A introduces information not present in the chart. Choice E makes an unjustified predictive claim."
   },
   {
     "id": "stats_u1_q009",
@@ -4473,14 +4239,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A histogram of exam scores shows a distribution that is skewed to the left. Which of the following best describes this distribution?",
     "choices": [
-      "The distribution has no scores below the median.",
+      "Most scores cluster in the middle, with equal numbers of low and high outliers.",
       "Most scores are low, with a few unusually high scores pulling the tail to the left.",
       "The distribution is symmetric, with equal tails on both sides.",
-      "Most scores cluster in the middle, with equal numbers of low and high outliers.",
       "Most scores are high, with a few unusually low scores pulling the tail to the left."
     ],
-    "answer": 4,
-    "explanation": "A left-skewed (negatively skewed) distribution has a longer tail on the left side, meaning most values are concentrated on the higher end with a few notably low values. Choice B describes a right-skewed distribution. Choice C describes a symmetric distribution. Choice D describes a roughly symmetric or bimodal distribution. Choice A is false — a left-skewed distribution certainly has values below the median."
+    "answer": 3,
+    "explanation": "A left-skewed (negatively skewed) distribution has a longer tail on the left side, meaning most values are concentrated on the higher end with a few notably low values. Choice B describes a right-skewed distribution. Choice C describes a symmetric distribution. Choice A describes a roughly symmetric or bimodal distribution. Choice E is false — a left-skewed distribution certainly has values below the median."
   },
   {
     "id": "stats_u1_q010",
@@ -4494,14 +4259,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A dotplot shows the number of hours per week students spend on social media: 1, 2, 2, 3, 3, 3, 4, 4, 5, 10. A student says the distribution is roughly symmetric. Is this correct?",
     "choices": [
-      "No; the distribution is bimodal because 3 appears most frequently.",
+      "Yes; dotplots with ten or fewer values are always considered symmetric.",
       "Yes; because the median and mean are both near the center of the data.",
       "No; the distribution is left-skewed because most values are near the low end.",
-      "Yes; dotplots with ten or fewer values are always considered symmetric.",
       "No; the single value of 10 creates a long right tail, making the distribution right-skewed."
     ],
-    "answer": 4,
-    "explanation": "The value of 10 is much higher than the rest of the data (which range from 1 to 5), creating a long tail to the right. This makes the distribution right-skewed, not symmetric. Choice C incorrectly identifies the skew direction — values clustering low with a high outlier is right-skewed, not left-skewed. Choice B is wrong because even if the mean and median were close, the shape is determined by where the tail extends. Choice D is a false rule. Choice A misidentifies the main feature of the distribution."
+    "answer": 3,
+    "explanation": "The value of 10 is much higher than the rest of the data (which range from 1 to 5), creating a long tail to the right. This makes the distribution right-skewed, not symmetric. Choice C incorrectly identifies the skew direction — values clustering low with a high outlier is right-skewed, not left-skewed. Choice B is wrong because even if the mean and median were close, the shape is determined by where the tail extends. Choice A is a false rule. Choice E misidentifies the main feature of the distribution."
   },
   {
     "id": "stats_u1_q011",
@@ -4515,14 +4279,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A dataset of household incomes in a neighborhood is strongly right-skewed due to a few very wealthy households. Which measure of center best describes a typical household income, and why?",
     "choices": [
-      "The median and mean are equally appropriate for skewed distributions.",
+      "The median, because it is resistant to the influence of extreme values.",
       "The mean, because it uses all values in the dataset and is therefore more accurate.",
       "The mode, because the most common income best represents the neighborhood.",
-      "The mean, because skewed distributions require the use of the mean for accuracy.",
-      "The median, because it is resistant to the influence of extreme values."
+      "The mean, because skewed distributions require the use of the mean for accuracy."
     ],
-    "answer": 4,
-    "explanation": "The median is the preferred measure of center for skewed distributions because it is resistant to extreme values (outliers). In a right-skewed distribution, a few very high values pull the mean upward, making it unrepresentative of the typical value. Choice B is a common misconception — using all values does not make the mean more accurate when the distribution is skewed. Choice D is the opposite of statistical best practice. Choice C is rarely used for continuous data like income. Choice A is incorrect because the mean is heavily influenced by the extreme high-income values."
+    "answer": 0,
+    "explanation": "The median is the preferred measure of center for skewed distributions because it is resistant to extreme values (outliers). In a right-skewed distribution, a few very high values pull the mean upward, making it unrepresentative of the typical value. Choice B is a common misconception — using all values does not make the mean more accurate when the distribution is skewed. Choice D is the opposite of statistical best practice. Choice C is rarely used for continuous data like income. Choice E is incorrect because the mean is heavily influenced by the extreme high-income values."
   },
   {
     "id": "stats_u1_q012",
@@ -4536,14 +4299,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "Two classes took the same test. Class A has a standard deviation of 15 points, and Class B has a standard deviation of 4 points. Both classes have the same mean of 75. Which conclusion is most appropriate?",
     "choices": [
-      "Standard deviation cannot be compared between two different classes.",
+      "Class A has more variability in scores; students in Class A performed more inconsistently than those in Class B.",
       "Class B performed better overall because a lower standard deviation means higher scores.",
       "Class A performed better overall because a higher standard deviation means more students scored above the mean.",
-      "The classes performed identically because they have the same mean.",
-      "Class A has more variability in scores; students in Class A performed more inconsistently than those in Class B."
+      "The classes performed identically because they have the same mean."
     ],
-    "answer": 4,
-    "explanation": "Standard deviation measures the spread (variability) of data around the mean. A larger standard deviation means scores are more spread out from the mean. Since both classes have the same mean of 75, Class A simply has more variability — some students scored much higher or lower than 75, while Class B's students scored more consistently near 75. Choice B incorrectly links low standard deviation to higher scores. Choice C incorrectly links high standard deviation to better performance. Choice D ignores the important information provided by the standard deviation. Choice A is false — standard deviation is directly comparable between groups."
+    "answer": 0,
+    "explanation": "Standard deviation measures the spread (variability) of data around the mean. A larger standard deviation means scores are more spread out from the mean. Since both classes have the same mean of 75, Class A simply has more variability — some students scored much higher or lower than 75, while Class B's students scored more consistently near 75. Choice B incorrectly links low standard deviation to higher scores. Choice C incorrectly links high standard deviation to better performance. Choice D ignores the important information provided by the standard deviation. Choice E is false — standard deviation is directly comparable between groups."
   },
   {
     "id": "stats_u1_q013",
@@ -4557,14 +4319,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A boxplot for a dataset shows: minimum = 10, Q1 = 20, median = 30, Q3 = 45, maximum = 60. What is the interquartile range (IQR), and what percentage of the data falls between Q1 and Q3?",
     "choices": [
-      "IQR = 40; 50% of the data falls between Q1 and Q3.",
+      "IQR = 25; 50% of the data falls between Q1 and Q3.",
       "IQR = 50; 50% of the data falls between Q1 and Q3.",
       "IQR = 25; 25% of the data falls between Q1 and Q3.",
-      "IQR = 25; 75% of the data falls between Q1 and Q3.",
-      "IQR = 25; 50% of the data falls between Q1 and Q3."
+      "IQR = 25; 75% of the data falls between Q1 and Q3."
     ],
-    "answer": 4,
-    "explanation": "The IQR = Q3 - Q1 = 45 - 20 = 25. By definition, Q1 is the 25th percentile and Q3 is the 75th percentile, so exactly 50% of the data falls between Q1 and Q3 (the middle half of the data). Choice B incorrectly calculates the IQR as the range (maximum - minimum = 50). Choice C correctly calculates IQR but incorrectly states only 25% of data falls in this range. Choice D correctly calculates IQR but confuses the percentage — 75% of data falls below Q3, not between Q1 and Q3. Choice A miscalculates the IQR."
+    "answer": 0,
+    "explanation": "The IQR = Q3 - Q1 = 45 - 20 = 25. By definition, Q1 is the 25th percentile and Q3 is the 75th percentile, so exactly 50% of the data falls between Q1 and Q3 (the middle half of the data). Choice B incorrectly calculates the IQR as the range (maximum - minimum = 50). Choice C correctly calculates IQR but incorrectly states only 25% of data falls in this range. Choice D correctly calculates IQR but confuses the percentage — 75% of data falls below Q3, not between Q1 and Q3. Choice E miscalculates the IQR."
   },
   {
     "id": "stats_u1_q014",
@@ -4581,8 +4342,7 @@ var APSTATS_MCQ = [
       "Upper fence = 80; yes, 85 is an outlier because it exceeds 80.",
       "Upper fence = 80; no, 85 is not an outlier because it is close to 80.",
       "Upper fence = 70; yes, 85 is an outlier because it exceeds 70.",
-      "Upper fence = 95; no, 85 is not an outlier because it does not exceed 95.",
-      "Upper fence = 80; yes, but only if the distribution is symmetric."
+      "Upper fence = 95; no, 85 is not an outlier because it does not exceed 95."
     ],
     "answer": 0,
     "explanation": "The upper fence is calculated as Q3 + 1.5 × IQR = 50 + 1.5(20) = 50 + 30 = 80. Since 85 > 80, the value 85 is classified as an outlier. Choice B correctly calculates the fence but incorrectly concludes 85 is not an outlier — any value beyond the fence is an outlier regardless of how close it is. Choice C adds 1.5 × IQR to Q1 instead of Q3. Choice D appears to use Q3 + 2.25 × IQR, which is not the correct formula. Choice E incorrectly adds a symmetry condition; the 1.5 × IQR rule applies regardless of distribution shape."
@@ -4602,8 +4362,7 @@ var APSTATS_MCQ = [
       "95%",
       "68%",
       "99.7%",
-      "47.5%",
-      "81.5%"
+      "47.5%"
     ],
     "answer": 0,
     "explanation": "The range 64 to 76 inches spans from 70 - 2(3) = 64 to 70 + 2(3) = 76, which is exactly 2 standard deviations below and above the mean. According to the Empirical Rule (68-95-99.7 rule), approximately 95% of data falls within 2 standard deviations of the mean. Choice B (68%) corresponds to within 1 standard deviation (67 to 73 inches). Choice C (99.7%) corresponds to within 3 standard deviations (61 to 79 inches). Choice D (47.5%) is half of 95%, which would apply to only one side of the distribution. Choice E is not a standard Empirical Rule value."
@@ -4623,8 +4382,7 @@ var APSTATS_MCQ = [
       "The English test, because the student's z-score on the English test (z = 2.0) is higher than on the math test (z = 1.6).",
       "The math test, because the student scored 8 points above the mean compared to 8 points above the mean in English.",
       "The math test, because the student's absolute score of 88 is higher than 78.",
-      "The English test, because English tests are generally harder than math tests.",
-      "Both performances were identical because the student scored 8 points above the mean in both classes."
+      "The English test, because English tests are generally harder than math tests."
     ],
     "answer": 0,
     "explanation": "Z-scores standardize performance relative to each class. Math z-score: (88 - 80)/5 = 8/5 = 1.6. English z-score: (78 - 70)/4 = 8/4 = 2.0. A higher z-score means the student performed further above the class average. Therefore, the student performed better relative to classmates on the English test. Choice B and E ignore the spread of each distribution — being 8 points above the mean means more when the standard deviation is smaller. Choice C compares raw scores across different tests, which is meaningless without accounting for the scale. Choice D introduces irrelevant external reasoning."
@@ -4644,8 +4402,7 @@ var APSTATS_MCQ = [
       "The student scored higher than approximately 72% of the students who took the test.",
       "The student answered 72% of the questions correctly.",
       "The student scored lower than approximately 72% of the students who took the test.",
-      "The student is in the top 72% of all test takers.",
-      "The student's score is 72 points above the mean score."
+      "The student is in the top 72% of all test takers."
     ],
     "answer": 0,
     "explanation": "The nth percentile means the value is greater than approximately n% of the data. Being at the 72nd percentile means the student scored higher than about 72% of test takers. Choice B is a common misconception — percentile rank describes relative standing, not the percentage of correct answers. Choice C reverses the meaning — the student scored higher than 72%, not lower. Choice D confuses percentile with being 'in the top X%'; the 72nd percentile means the student is in the top 28%, not the top 72%. Choice E incorrectly interprets percentile as a point difference from the mean."
@@ -4665,8 +4422,7 @@ var APSTATS_MCQ = [
       "Mean = 8.125, Median = 8.5, Mode = 9",
       "Mean = 8.5, Median = 8.125, Mode = 7",
       "Mean = 8.125, Median = 8, Mode = 9",
-      "Mean = 8.5, Median = 8.5, Mode = 9",
-      "Mean = 9, Median = 8.5, Mode = 9"
+      "Mean = 8.5, Median = 8.5, Mode = 9"
     ],
     "answer": 0,
     "explanation": "Mean: (4+7+7+8+9+9+9+12)/8 = 65/8 = 8.125. Median: with 8 values, the median is the average of the 4th and 5th values when ordered. The 4th value is 8 and the 5th value is 9, so median = (8+9)/2 = 8.5. Mode: 9 appears three times, more than any other value, so mode = 9. Choice B swaps the mean and median values. Choice C miscalculates the median as 8 (using only the 4th value instead of averaging the 4th and 5th). Choice D incorrectly calculates the mean as 8.5. Choice E incorrectly states the mean is 9."
@@ -4686,8 +4442,7 @@ var APSTATS_MCQ = [
       "The mean increases by 5, but the standard deviation remains unchanged.",
       "Both the mean and standard deviation increase by 5.",
       "The mean remains unchanged, but the standard deviation increases by 5.",
-      "Both the mean and standard deviation remain unchanged.",
-      "The mean increases by 5, and the standard deviation increases by 5 points divided by the number of students."
+      "Both the mean and standard deviation remain unchanged."
     ],
     "answer": 0,
     "explanation": "When a constant is added to every value in a dataset, the mean shifts by that constant (increases by 5), but the spread of the data does not change. The standard deviation measures how far values are from the mean — if every value and the mean both increase by 5, the distances between values and the mean remain identical, so the standard deviation is unchanged. Choice B is a very common misconception — adding a constant shifts the center but not the spread. Choice C incorrectly leaves the mean unchanged. Choice D is incorrect because the mean does change. Choice E presents a nonsensical formula."
@@ -4707,8 +4462,7 @@ var APSTATS_MCQ = [
       "Class A has more variability in the middle 50% of scores; Class B has at least one high score that is unusually far from its median.",
       "Class A performed better overall because its IQR is larger.",
       "Class B has more variability in the middle 50% of scores because its whisker is longer.",
-      "Both classes performed identically because they have the same median.",
-      "Class A has more high outliers than Class B because its box is larger."
+      "Both classes performed identically because they have the same median."
     ],
     "answer": 0,
     "explanation": "A larger IQR (longer box) means Class A has more spread in the middle 50% of its data. A longer right whisker in Class B indicates the upper 25% of Class B's scores extends further to the right, suggesting at least one relatively high score or that the top quarter of scores is more spread out. Choice B incorrectly equates larger IQR with better performance — IQR measures spread, not level. Choice C confuses the meaning of box width vs. whisker length; whisker length reflects the spread of the outer quarters, not the middle 50%. Choice D ignores the important spread information. Choice E confuses IQR (box width) with the location of outliers."
@@ -4728,8 +4482,7 @@ var APSTATS_MCQ = [
       "I: categorical, II: quantitative, III: categorical, IV: quantitative, V: quantitative",
       "I: quantitative, II: quantitative, III: categorical, IV: quantitative, V: quantitative",
       "I: categorical, II: quantitative, III: quantitative, IV: quantitative, V: categorical",
-      "I: categorical, II: categorical, III: categorical, IV: quantitative, V: quantitative",
-      "I: quantitative, II: quantitative, III: categorical, IV: quantitative, V: categorical"
+      "I: categorical, II: categorical, III: categorical, IV: quantitative, V: quantitative"
     ],
     "answer": 0,
     "explanation": "ZIP codes are categorical because, although numeric, they are labels with no meaningful arithmetic — adding or averaging ZIP codes is meaningless. Number of AP courses and standardized test score are quantitative (meaningful numeric operations apply). Letter grades are categorical labels (A, B, C…). Class rank is quantitative because the numbers have meaningful order and differences. Choice B incorrectly treats ZIP code as quantitative. Choice C incorrectly treats letter grade as quantitative. Choice D incorrectly treats number of AP courses as categorical. Choice E incorrectly treats ZIP code as quantitative and class rank as categorical."
@@ -4749,8 +4502,7 @@ var APSTATS_MCQ = [
       "The claim is incorrect; to assess overall popularity, you must compare the marginal frequencies: 110 prefer Instagram vs. 90 prefer TikTok, so Instagram is more popular overall, but the reasoning about seniors alone is insufficient.",
       "The claim is correct; since seniors prefer Instagram 70 to 30, Instagram dominates among upperclassmen and is therefore more popular.",
       "The claim is incorrect; conditional distributions within each grade must both favor Instagram for it to be considered more popular overall.",
-      "The claim is correct because 70 > 60, meaning more students total prefer Instagram over TikTok.",
-      "The claim cannot be evaluated without knowing the total number of students in each grade level."
+      "The claim is correct because 70 > 60, meaning more students total prefer Instagram over TikTok."
     ],
     "answer": 0,
     "explanation": "To determine overall popularity, you use marginal totals: Instagram total = 40 + 70 = 110, TikTok total = 60 + 30 = 90. Instagram is indeed more popular overall (110 vs. 90), so that part of the conclusion is correct, but the student's reasoning — basing the conclusion solely on the senior group — is flawed logic (a Simpson's Paradox-adjacent mistake). Choice A correctly identifies both that Instagram leads overall AND that the reasoning is insufficient. Choice B accepts flawed reasoning. Choice C imposes an unnecessary condition. Choice D compares wrong numbers (70 vs. 60 are not totals). Choice E is incorrect because marginal totals are already computable from the given data."
@@ -4770,8 +4522,7 @@ var APSTATS_MCQ = [
       "Class A's mean and median are approximately equal, while Class B's mean is likely greater than its median due to the right skew.",
       "Class A's mean is greater than its median because symmetric distributions have means pulled toward the peak.",
       "Class B's median is likely greater than its mean because the tail pulls the median upward.",
-      "Both classes have means equal to their medians because both are unimodal distributions.",
-      "Class B's mean and median are approximately equal because the right-skewed tail is offset by the large cluster at the low end."
+      "Both classes have means equal to their medians because both are unimodal distributions."
     ],
     "answer": 0,
     "explanation": "For a symmetric, bell-shaped distribution (Class A), the mean and median are approximately equal because the distribution is balanced. For a right-skewed distribution (Class B), the long tail on the right pulls the mean in that direction more than the median, so the mean exceeds the median. Choice B is wrong: symmetric distributions do not have means greater than medians. Choice C reverses the relationship for right skew — it is the mean, not the median, that is pulled toward the tail. Choice D is wrong because right-skewed distributions do not have equal means and medians. Choice E is wrong because the high-value tail still pulls the mean above the median regardless of where the cluster sits."
@@ -4791,8 +4542,7 @@ var APSTATS_MCQ = [
       "Both the standard deviation and IQR remain unchanged.",
       "Both the standard deviation and IQR increase by 10.",
       "The standard deviation remains unchanged, but the IQR increases by 10.",
-      "The standard deviation increases by 10, but the IQR remains unchanged.",
-      "Both the standard deviation and IQR are multiplied by 10."
+      "The standard deviation increases by 10, but the IQR remains unchanged."
     ],
     "answer": 0,
     "explanation": "Adding a constant to every data value is a linear transformation that shifts the entire distribution but does not change its spread. Standard deviation measures spread as average deviation from the mean; since every value and the mean both shift by 10, all deviations remain identical, so SD is unchanged. IQR = Q3 - Q1; since both quartiles increase by 10, their difference is unchanged. Therefore both measures of spread remain the same. Choice B confuses adding a constant with scaling. Choice C is wrong because IQR also stays the same. Choice D is wrong because SD also stays the same. Choice E confuses adding with multiplying — multiplying by a constant would scale both measures."
@@ -4812,8 +4562,7 @@ var APSTATS_MCQ = [
       "The student is correct that 85 is an outlier, but incorrect that removing it increases both the mean and median — removing a high outlier decreases the mean and may change the median in either direction.",
       "The student is correct on both counts: 85 is an outlier and removing it increases both the mean and median.",
       "The student is incorrect that 85 is an outlier because the IQR fence must be computed using 1.5 × IQR added to the mean, not Q3.",
-      "The student is correct that 85 is an outlier but incorrect about the median — the median is resistant to outliers and cannot change when one is removed.",
-      "The student is incorrect that 85 is an outlier because values must exceed 2 standard deviations above the mean to qualify."
+      "The student is correct that 85 is an outlier but incorrect about the median — the median is resistant to outliers and cannot change when one is removed."
     ],
     "answer": 0,
     "explanation": "IQR = Q3 - Q1 = 46 - 22 = 24. Upper fence = Q3 + 1.5 × IQR = 46 + 36 = 82. Since 85 > 82, it IS an outlier. Removing a value of 85 (which is above the mean in most contexts) would DECREASE the mean, not increase it — so the student's reasoning about the mean is backwards. The median CAN change when a value is removed, so saying removing it always changes the median in a specific direction is not guaranteed — it depends on the dataset size and values. Choice A correctly identifies that 85 is an outlier while correcting the mean direction and noting median is indeterminate. Choice B has the mean direction backwards. Choice C is wrong — the fence uses Q3, not the mean. Choice D is wrong because the median IS resistant but can still change value when n changes (a common misconception; resistant means outliers don't dramatically pull it, not that it literally cannot change). Choice E uses standard deviation criteria, which is not the AP Statistics rule for identifying outliers — the IQR fence method is the standard."
@@ -4833,8 +4582,7 @@ var APSTATS_MCQ = [
       "Strong, nonlinear, positive association",
       "Weak, linear, positive association",
       "Strong, linear, positive association",
-      "Moderate, nonlinear, negative association",
-      "Strong, nonlinear, negative association"
+      "Moderate, nonlinear, negative association"
     ],
     "answer": 0,
     "explanation": "The pattern is curved (nonlinear), increases (positive association), and points are close to the curve (strong). Choice C is wrong because the form is not linear — students often confuse a strong relationship with a linear one. Choice B is wrong because the association is strong, not weak. Choices D and E are wrong because the overall direction is positive, not negative."
@@ -4854,8 +4602,7 @@ var APSTATS_MCQ = [
       "It will remain 0.78",
       "It will increase because centimeters are larger units",
       "It will decrease because the scale changes",
-      "It will become negative because the units are now different",
-      "It cannot be determined without recalculating with the new data"
+      "It will become negative because the units are now different"
     ],
     "answer": 0,
     "explanation": "Correlation is unitless and is not affected by linear transformations such as changing units (multiplying by a constant). Converting inches to centimeters multiplies each height by 2.54, which is a linear transformation, so r stays at 0.78. Choice B and C reflect the misconception that unit size affects correlation. Choice D incorrectly suggests direction changes when units change. Choice E is a distractor suggesting recalculation is necessary when it is not."
@@ -4875,8 +4622,7 @@ var APSTATS_MCQ = [
       "For each additional hour studied, the predicted final exam score increases by 5.3 points",
       "For each additional point on the final exam, the number of hours studied increases by 5.3",
       "The average final exam score for students who study 0 hours is 5.3 points",
-      "For each additional hour studied, the actual final exam score increases by exactly 5.3 points",
-      "5.3% of the variation in exam scores is explained by hours studied"
+      "For each additional hour studied, the actual final exam score increases by exactly 5.3 points"
     ],
     "answer": 0,
     "explanation": "The slope of a regression line means that for each one-unit increase in x, the predicted value of y increases by the slope value — here, 5.3 points. Choice B reverses the roles of x and y. Choice C confuses the slope with the y-intercept. Choice D incorrectly says 'actual' instead of 'predicted' — a key distinction since regression gives predictions, not exact values. Choice E confuses slope with the coefficient of determination (r²)."
@@ -4896,8 +4642,7 @@ var APSTATS_MCQ = [
       "About 72.25% of the variation in monthly sales is explained by the linear relationship with advertising spending",
       "About 85% of the variation in monthly sales is explained by the linear relationship with advertising spending",
       "About 72.25% of the variation in advertising spending is explained by monthly sales",
-      "The coefficient of determination is 0.85, which means the regression line fits the data well",
-      "About 92.2% of the variation in monthly sales is explained by advertising spending, since r² = √0.85"
+      "The coefficient of determination is 0.85, which means the regression line fits the data well"
     ],
     "answer": 0,
     "explanation": "The coefficient of determination is r² = (0.85)² = 0.7225, meaning approximately 72.25% of the variation in the response variable (monthly sales) is explained by the linear relationship with the explanatory variable (advertising spending). Choice B confuses r with r², a very common student error. Choice C reverses which variable's variation is explained — r² always refers to variation in y. Choice D incorrectly states the coefficient of determination equals r rather than r². Choice E incorrectly computes r² as the square root of r rather than the square."
@@ -4915,13 +4660,12 @@ var APSTATS_MCQ = [
     "question": "A scatterplot of two variables x and y shows a clear curved (nonlinear) pattern with no obvious outliers. A student computes the correlation coefficient and gets r = 0.91. Which of the following is the most accurate interpretation?",
     "choices": [
       "The high value of r confirms that x and y have a strong linear relationship.",
-      "The correlation of 0.91 indicates that a linear model is the best model for these data.",
-      "Because the pattern is curved, r must have been computed incorrectly; r cannot be high for nonlinear data.",
       "A value of r = 0.91 means approximately 91% of the variation in y is explained by x.",
+      "Because the pattern is curved, r must have been computed incorrectly; r cannot be high for nonlinear data.",
       "The high value of r is misleading because r only measures the strength of a linear association, and the relationship is nonlinear."
     ],
-    "answer": 4,
-    "explanation": "r measures only the strength and direction of a LINEAR association. A curved pattern can still produce a high r value if the overall trend is in one direction, but using r to describe nonlinear data is misleading. Choice A incorrectly concludes the relationship is linear. Choice C is wrong because r can be high even for nonlinear data. Choice D confuses r with r², which equals about 0.83 here, not 0.91. Choice B incorrectly uses a high r as evidence for a linear model."
+    "answer": 3,
+    "explanation": "r measures only the strength and direction of a LINEAR association. A curved pattern can still produce a high r value if the overall trend is in one direction, but using r to describe nonlinear data is misleading. Choice A incorrectly concludes the relationship is linear. Choice C is wrong because r can be high even for nonlinear data. Choice B confuses r with r², which equals about 0.83 here, not 0.91. Choice E incorrectly uses a high r as evidence for a linear model."
   },
   {
     "id": "stats_u2_q033",
@@ -4938,8 +4682,7 @@ var APSTATS_MCQ = [
       "Researcher A's r is close to +1 and Researcher B's r is close to 0.",
       "Researcher A's r is close to -1 and Researcher B's r is close to +1.",
       "Researcher A's r is close to -1 and Researcher B's r is close to 0.",
-      "Researcher A's r is close to 0 and Researcher B's r is close to -1.",
-      "Both researchers have r values close to +1 because both datasets have a clear directional trend."
+      "Researcher A's r is close to 0 and Researcher B's r is close to -1."
     ],
     "answer": 2,
     "explanation": "Upper-left to lower-right indicates a negative direction (as x increases, y decreases), and tight clustering indicates strong association, so Researcher A's r is close to -1. Lower-left to upper-right indicates a positive direction, but loose scatter indicates weak association, so Researcher B's r is close to 0 (but positive). Choice A incorrectly assigns a positive r to A. Choice B gives Researcher B a strong positive r, ignoring the loose scatter. Choice D reverses the two researchers. Choice E ignores direction entirely."
@@ -4957,13 +4700,12 @@ var APSTATS_MCQ = [
     "question": "A student is studying the relationship between hours of sleep and test scores. The correlation between hours of sleep (x) and test scores (y) is r = 0.72. The student then converts all test scores from a 100-point scale to a 10-point scale by dividing each score by 10. What is the new correlation between hours of sleep and the converted test scores?",
     "choices": [
       "0.072",
-      "It cannot be determined without knowing the original data values.",
-      "7.2",
       "0.518",
+      "7.2",
       "0.72"
     ],
-    "answer": 4,
-    "explanation": "Correlation is unitless and is not affected by linear transformations such as multiplying or dividing all values of a variable by a constant, or adding/subtracting a constant. Therefore, dividing all y-values by 10 does not change r; it remains 0.72. Choice A incorrectly divides r by 10. Choice C incorrectly multiplies r by 10. Choice D computes r², not the new r. Choice B is incorrect because linear transformations have a known, predictable effect on r (they leave it unchanged)."
+    "answer": 3,
+    "explanation": "Correlation is unitless and is not affected by linear transformations such as multiplying or dividing all values of a variable by a constant, or adding/subtracting a constant. Therefore, dividing all y-values by 10 does not change r; it remains 0.72. Choice A incorrectly divides r by 10. Choice C incorrectly multiplies r by 10. Choice B computes r², not the new r. Choice E is incorrect because linear transformations have a known, predictable effect on r (they leave it unchanged)."
   },
   {
     "id": "stats_u2_q035",
@@ -4978,13 +4720,12 @@ var APSTATS_MCQ = [
     "question": "In a study of car speed (mph) and fuel efficiency (mpg), the least squares regression line is ŷ = 48 − 0.35x. Which of the following is the correct interpretation of the slope in context?",
     "choices": [
       "For every additional mile per gallon in fuel efficiency, the predicted speed decreases by 0.35 mph.",
-      "For every 1 mpg decrease in fuel efficiency, speed is predicted to increase by 0.35 mph.",
-      "The predicted fuel efficiency is 0.35 mpg when speed equals zero.",
       "For every additional mile per hour in speed, the predicted fuel efficiency increases by 0.35 mpg.",
+      "The predicted fuel efficiency is 0.35 mpg when speed equals zero.",
       "For every additional mile per hour in speed, the predicted fuel efficiency decreases by 0.35 mpg."
     ],
-    "answer": 4,
-    "explanation": "The slope of the LSRL is the predicted change in ŷ (the response variable, fuel efficiency) for each one-unit increase in x (the explanatory variable, speed). Since the slope is -0.35, fuel efficiency is predicted to decrease by 0.35 mpg for each additional mph. Choice A reverses the roles of x and y. Choice C incorrectly describes the y-intercept. Choice D has the wrong sign (says increase instead of decrease). Choice B again reverses explanatory and response variables."
+    "answer": 3,
+    "explanation": "The slope of the LSRL is the predicted change in ŷ (the response variable, fuel efficiency) for each one-unit increase in x (the explanatory variable, speed). Since the slope is -0.35, fuel efficiency is predicted to decrease by 0.35 mpg for each additional mph. Choice A reverses the roles of x and y. Choice C incorrectly describes the y-intercept. Choice B has the wrong sign (says increase instead of decrease). Choice E again reverses explanatory and response variables."
   },
   {
     "id": "stats_u2_q036",
@@ -4999,13 +4740,12 @@ var APSTATS_MCQ = [
     "question": "A student uses a least squares regression line to predict the number of calories burned (y) from minutes of exercise (x). For one observation, the actual calories burned was 310, and the predicted value from the regression line was 340. Which statement about the residual is correct?",
     "choices": [
       "The residual is +30, meaning the model overestimated the calories burned for this individual.",
-      "The residual is +30 because residuals are always positive by definition.",
-      "The residual is −30, meaning the model underestimated the calories burned for this individual.",
       "The residual is +30, meaning the model underestimated the calories burned for this individual.",
+      "The residual is −30, meaning the model underestimated the calories burned for this individual.",
       "The residual is −30, meaning the model overestimated the calories burned for this individual."
     ],
-    "answer": 4,
-    "explanation": "Residual = observed − predicted = 310 − 340 = −30. A negative residual means the observed value fell below the predicted value, so the model overestimated the calories burned. Choice A has the correct sign for 'overestimate' but gets the sign of the residual wrong (+30). Choices C and D correctly compute −30 but misidentify it as an underestimate. Choice B incorrectly claims residuals are always positive; only squared residuals used in LSRL optimization are always non-negative."
+    "answer": 3,
+    "explanation": "Residual = observed − predicted = 310 − 340 = −30. A negative residual means the observed value fell below the predicted value, so the model overestimated the calories burned. Choice A has the correct sign for 'overestimate' but gets the sign of the residual wrong (+30). Choices C and D correctly compute −30 but misidentify it as an underestimate. Choice E incorrectly claims residuals are always positive; only squared residuals used in LSRL optimization are always non-negative."
   },
   {
     "id": "stats_u2_q037",
@@ -5022,8 +4762,7 @@ var APSTATS_MCQ = [
       "The linear model is appropriate because the residuals appear symmetric around the x-axis.",
       "The linear model fits well for extreme values of x but poorly in the middle, which is acceptable in regression.",
       "The curved pattern indicates that the correlation coefficient was computed incorrectly.",
-      "A linear model is not appropriate because the curved pattern in the residual plot indicates that the relationship between the variables is nonlinear.",
-      "The curved pattern in the residual plot means the data contain influential outliers that are distorting the regression line."
+      "A linear model is not appropriate because the curved pattern in the residual plot indicates that the relationship between the variables is nonlinear."
     ],
     "answer": 3,
     "explanation": "A curved (non-random) pattern in a residual plot is the key diagnostic signal that a linear model is NOT appropriate — the true relationship is likely nonlinear. For a good linear fit, residuals should appear randomly scattered with no pattern. Choice A is wrong because a U-shape is not 'symmetric around the x-axis' in the random sense. Choice C incorrectly links the residual plot pattern to a calculation error. Choice B is a rationalization that ignores the diagnostic purpose of residual plots. Choice E confuses a curved pattern with outliers/influential points."
@@ -5043,8 +4782,7 @@ var APSTATS_MCQ = [
       "The student is correct; r = −0.6 means 60% of variation is explained.",
       "The student is incorrect; because r is negative, r² is undefined and we cannot compute the coefficient of determination.",
       "The student is incorrect; the coefficient of determination is r² = 0.36, meaning only 36% of the variation in exam scores is explained by study hours.",
-      "The student is incorrect; r² = 0.36 means 64% of the variation in exam scores is explained by study hours.",
-      "The student is incorrect; the coefficient of determination equals 1 − r = 1.6, which is impossible, suggesting an error in the data."
+      "The student is incorrect; r² = 0.36 means 64% of the variation in exam scores is explained by study hours."
     ],
     "answer": 2,
     "explanation": "The coefficient of determination is r², not r. Here r² = (−0.6)² = 0.36, meaning 36% of the variation in exam scores is explained by the linear relationship with study hours. The student confused r with r². Choice A uses r directly. Choice B incorrectly claims r² is undefined for negative r (squaring always yields a positive value). Choice D incorrectly says 64% is explained (that is actually the unexplained portion: 1 − r²). Choice E uses an incorrect formula entirely."
@@ -5064,8 +4802,7 @@ var APSTATS_MCQ = [
       "The slope will change dramatically and the correlation will decrease substantially.",
       "The slope will remain approximately the same, and the correlation will decrease because the new point is an outlier.",
       "The slope will remain approximately the same, and the correlation will increase because the new point reinforces the existing linear pattern.",
-      "The slope will increase because the new point has an extreme x-value.",
-      "Adding any point with an extreme x-value always decreases the correlation coefficient."
+      "The slope will increase because the new point has an extreme x-value."
     ],
     "answer": 2,
     "explanation": "A point that lies on (or very near) the existing regression line but has an extreme x-value is a high-leverage point that reinforces the linear trend. It will have a near-zero residual and will pull the regression line toward it, generally strengthening r (increasing it toward 1) while keeping the slope roughly the same. Choice A describes an influential outlier far from the line, not one on it. Choice B is wrong about correlation decreasing — the point fits the line well. Choice D is incorrect; extreme x-value alone does not necessarily change the slope if the point is on the line. Choice E is a false generalization."
@@ -5083,13 +4820,12 @@ var APSTATS_MCQ = [
     "question": "A regression line is fit to data on tree age (years) and tree height (feet) for trees aged 5 to 40 years: ŷ = 3 + 1.2x. A forester uses this equation to predict the height of a 200-year-old tree, getting a prediction of 243 feet. Which of the following best evaluates this prediction?",
     "choices": [
       "The prediction is reliable because the regression equation has a strong positive slope.",
-      "The prediction is unreliable because the y-intercept of 3 is too small for a 200-year-old tree.",
-      "The prediction is reliable as long as the correlation coefficient was above 0.8.",
       "The prediction is unreliable because it relies on extrapolation far beyond the range of the data used to build the model.",
-      "The prediction is reliable because linear models are always accurate for biological growth data."
+      "The prediction is reliable as long as the correlation coefficient was above 0.8.",
+      "The prediction is unreliable because the y-intercept of 3 is too small for a 200-year-old tree."
     ],
-    "answer": 3,
-    "explanation": "Extrapolation means using a regression model to predict outside the range of the observed x-values. The model was built on trees aged 5–40 years; using it for x = 200 is extreme extrapolation. The linear relationship may not hold at all for such old trees (growth typically slows), making the prediction unreliable. Choice A incorrectly equates a positive slope with reliability. Choice C incorrectly ties reliability to r; even a perfect r within the data range does not justify extrapolation. Choice B misidentifies the source of the problem as the intercept value. Choice E is a false generalization — linear models are not always appropriate for biological growth."
+    "answer": 1,
+    "explanation": "Extrapolation means using a regression model to predict outside the range of the observed x-values. The model was built on trees aged 5–40 years; using it for x = 200 is extreme extrapolation. The linear relationship may not hold at all for such old trees (growth typically slows), making the prediction unreliable. Choice A incorrectly equates a positive slope with reliability. Choice C incorrectly ties reliability to r; even a perfect r within the data range does not justify extrapolation. Choice D misidentifies the source of the problem as the intercept value. Choice E is a false generalization — linear models are not always appropriate for biological growth."
   },
   {
     "id": "stats_u2_q041",
@@ -5104,13 +4840,12 @@ var APSTATS_MCQ = [
     "question": "Which of the following is a property of the least squares regression line that is ALWAYS true?",
     "choices": [
       "The least squares regression line passes through the point (0, 0).",
-      "The least squares regression line has the largest possible correlation coefficient.",
-      "The least squares regression line minimizes the sum of the residuals.",
       "The sum of the residuals from the least squares regression line equals zero.",
-      "The slope of the least squares regression line always has the same sign as the y-intercept."
+      "The least squares regression line minimizes the sum of the residuals.",
+      "The least squares regression line has the largest possible correlation coefficient."
     ],
-    "answer": 3,
-    "explanation": "One of the fundamental properties of the LSRL is that the sum of all residuals (observed − predicted) equals exactly zero. The LSRL minimizes the sum of SQUARED residuals (not the sum of residuals, as Choice C incorrectly states — any line through the point (x̄, ȳ) will yield residuals summing to zero, but only the LSRL minimizes their sum of squares). Choice A is false — the line passes through (x̄, ȳ), not necessarily the origin. Choice B is nonsensical; r is a property of the data, not something a line maximizes. Choice E is false; the sign of the slope depends on the data, and the intercept can be any sign independently."
+    "answer": 1,
+    "explanation": "One of the fundamental properties of the LSRL is that the sum of all residuals (observed − predicted) equals exactly zero. The LSRL minimizes the sum of SQUARED residuals (not the sum of residuals, as Choice C incorrectly states — any line through the point (x̄, ȳ) will yield residuals summing to zero, but only the LSRL minimizes their sum of squares). Choice A is false — the line passes through (x̄, ȳ), not necessarily the origin. Choice D is nonsensical; r is a property of the data, not something a line maximizes. Choice E is false; the sign of the slope depends on the data, and the intercept can be any sign independently."
   },
   {
     "id": "stats_u2_q042",
@@ -5127,8 +4862,7 @@ var APSTATS_MCQ = [
       "An outlier in the x-direction only, making it high-leverage but not necessarily influential.",
       "An outlier in the y-direction only, making it a point with a large residual but low leverage.",
       "Neither an outlier nor influential, because outliers must be far from the regression line in both x and y.",
-      "An influential point because it is an outlier in both the x-direction and the y-direction, likely pulling the regression line substantially away from the other 29 points.",
-      "A point that will have no effect on the slope because 8 years of education is close to the minimum of the data."
+      "An influential point because it is an outlier in both the x-direction and the y-direction, likely pulling the regression line substantially away from the other 29 points."
     ],
     "answer": 3,
     "explanation": "This point has 8 years of education (below the cluster of 12–20, so unusual in x) AND an extreme y-value ($10 million income vs. $30K–$150K for others). This combination — unusual in both x and y — makes it highly influential, likely pulling the regression line substantially. Choice A is partially correct about leverage but misses the extreme y-value. Choice B incorrectly says it's only an outlier in y — the x-value (8 years) is also outside the main cluster. Choice C invents a non-existent requirement for outliers. Choice E is wrong; having an unusual x-value typically increases leverage and influence."
@@ -5146,13 +4880,12 @@ var APSTATS_MCQ = [
     "question": "Two regression models are fit to predict student GPA: Model 1 uses daily hours of sleep and has r² = 0.45. Model 2 uses daily hours of studying and has r² = 0.62. Which of the following conclusions is best supported by these values?",
     "choices": [
       "Studying causes higher GPAs more than sleep does, because Model 2 has a higher r².",
-      "Model 2's r² of 0.62 means that studying is 62% responsible for students' GPAs.",
-      "Model 1 is the better model because 55% of variation in GPA is unexplained, which is more than the 38% unexplained by Model 2.",
       "Model 2 explains more of the variability in GPA than Model 1, but neither model implies causation.",
-      "Since both models have r² values below 1.0, neither model is statistically useful."
+      "Model 1 is the better model because 55% of variation in GPA is unexplained, which is more than the 38% unexplained by Model 2.",
+      "Model 2's r² of 0.62 means that studying is 62% responsible for students' GPAs."
     ],
-    "answer": 3,
-    "explanation": "r² measures the proportion of variability in the response variable explained by the linear relationship — it does not imply causation. Model 2 (r² = 0.62) explains more variability in GPA than Model 1 (r² = 0.45), but we cannot conclude that studying 'causes' higher GPAs from regression alone. Choice A commits the causation fallacy. Choice C reverses the logic — the model with LESS unexplained variation (Model 2, 38% unexplained) is actually the better fitting one, not Model 1. Choice B misinterprets r² as a causal percentage. Choice E is wrong; there is no threshold below which a model is 'not useful' based solely on r²."
+    "answer": 1,
+    "explanation": "r² measures the proportion of variability in the response variable explained by the linear relationship — it does not imply causation. Model 2 (r² = 0.62) explains more variability in GPA than Model 1 (r² = 0.45), but we cannot conclude that studying 'causes' higher GPAs from regression alone. Choice A commits the causation fallacy. Choice C reverses the logic — the model with LESS unexplained variation (Model 2, 38% unexplained) is actually the better fitting one, not Model 1. Choice D misinterprets r² as a causal percentage. Choice E is wrong; there is no threshold below which a model is 'not useful' based solely on r²."
   },
   {
     "id": "stats_u2_q044",
@@ -5169,8 +4902,7 @@ var APSTATS_MCQ = [
       "The only error is that r = 0.95 is too high to be believable; correlations above 0.90 suggest a data entry error.",
       "The only error is that the researcher should use r² to make causal claims.",
       "The researcher incorrectly infers causation from correlation, and may not account for lurking variables such as economic development that could drive both population growth and coffee shop openings.",
-      "The researcher's conclusion is valid because r = 0.95 indicates a nearly perfect linear relationship, which is sufficient to establish causation.",
-      "The only error is that the sample size of 50 cities is too small to draw any conclusions about correlation."
+      "The researcher's conclusion is valid because r = 0.95 indicates a nearly perfect linear relationship, which is sufficient to establish causation."
     ],
     "answer": 2,
     "explanation": "Correlation does not imply causation — this is one of the most fundamental principles in statistics. Even a very high r only indicates association. A lurking variable (like overall economic growth or urbanization) could drive both population and coffee shop growth simultaneously, explaining the strong correlation without any direct causal link. Choice A invents a non-existent rule about correlations above 0.90. Choice B is wrong; r² does not justify causal claims either. Choice D explicitly endorses the causation fallacy. Choice E incorrectly dismisses 50 observations as too few — that is a reasonable sample for this analysis."
@@ -5190,8 +4922,7 @@ var APSTATS_MCQ = [
       "An observational study, because the researcher does not impose any treatment on the subjects",
       "An experiment, because the researcher is measuring two variables",
       "An experiment, because the researcher collected data from a large sample",
-      "An observational study, because the researcher used a survey to collect data",
-      "A census, because all 200 adults were measured"
+      "An observational study, because the researcher used a survey to collect data"
     ],
     "answer": 0,
     "explanation": "An observational study is one in which the researcher observes subjects without imposing a treatment. Since the researcher simply recorded existing coffee consumption and blood pressure without assigning participants to drink or not drink coffee, this is an observational study. Choice B and C are incorrect because collecting data on two variables or having a large sample does not make something an experiment — an experiment requires deliberate assignment of treatments. Choice D contains a true statement but gives the wrong reason; the defining feature of an observational study is lack of treatment imposition, not the use of a survey. Choice E is incorrect because a census measures an entire population, not just 200 adults."
@@ -5211,8 +4942,7 @@ var APSTATS_MCQ = [
       "Simple random sample",
       "Cluster sample",
       "Stratified random sample",
-      "Systematic random sample",
-      "Convenience sample"
+      "Systematic random sample"
     ],
     "answer": 2,
     "explanation": "A stratified random sample divides the population into non-overlapping groups called strata (here, grade levels) and then randomly selects individuals from each stratum. This is exactly what the researcher is doing. A simple random sample (A) would select 100 students from the entire school without regard for grade level. A cluster sample (B) would randomly select entire grade levels and include all students in those grades. A systematic random sample (D) would select every nth student from a list. A convenience sample (E) would select students based on ease of access. The key distinguishing feature here is that the population was divided into subgroups first, and random selection occurred within each subgroup."
@@ -5229,14 +4959,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "Which of the following is the primary advantage of conducting a well-designed experiment over an observational study when trying to determine cause and effect?",
     "choices": [
-      "Experiments allow researchers to randomly assign treatments, which helps establish causation",
       "Experiments always use larger sample sizes than observational studies",
+      "Experiments allow researchers to randomly assign treatments, which helps establish causation",
       "Experiments eliminate all sources of variability in the data",
-      "Experiments are less expensive and easier to conduct than observational studies",
-      "Experiments always produce more accurate measurements than observational studies"
+      "Experiments are less expensive and easier to conduct than observational studies"
     ],
-    "answer": 0,
-    "explanation": "The primary advantage of an experiment is that random assignment of treatments allows researchers to conclude causation rather than just association. When subjects are randomly assigned to treatment groups, confounding variables are distributed roughly equally across groups, making it more likely that any observed differences are due to the treatment itself. Choice B is false; observational studies often use larger samples. Choice C is false; experiments reduce but do not eliminate variability. Choice D is false; experiments are often more expensive and logistically complex. Choice E is false; accuracy of measurement is not inherently better in experiments. The defining power of an experiment is causal inference through random assignment."
+    "answer": 1,
+    "explanation": "The primary advantage of an experiment is that random assignment of treatments allows researchers to conclude causation rather than just association. When subjects are randomly assigned to treatment groups, confounding variables are distributed roughly equally across groups, making it more likely that any observed differences are due to the treatment itself. Choice A is false; observational studies often use larger samples. Choice C is false; experiments reduce but do not eliminate variability. Choice D is false; experiments are often more expensive and logistically complex. Choice E is false; accuracy of measurement is not inherently better in experiments. The defining power of an experiment is causal inference through random assignment."
   },
   {
     "id": "stats_u3_q048",
@@ -5253,8 +4982,7 @@ var APSTATS_MCQ = [
       "To provide a baseline for comparison so that the effect of the fertilizer can be measured",
       "To ensure that the experiment has an equal number of plants in each group",
       "To represent plants that are too weak to benefit from fertilizer",
-      "To test whether plants can survive without any nutrients",
-      "To reduce the cost of the experiment by using fewer resources"
+      "To test whether plants can survive without any nutrients"
     ],
     "answer": 0,
     "explanation": "The group that receives no fertilizer serves as the control group. Its purpose is to provide a baseline against which the treatment group can be compared. Without a control group, researchers cannot determine how much of the plant growth is due to the fertilizer versus natural growth that would have occurred anyway. Choice B describes equal group sizes, which is a design preference but not the purpose of a control group. Choice C is a misconception; plants are not placed in the control group because they are weak. Choice D describes a survival test, which is not the purpose of a control group. Choice E describes cost savings, which is unrelated to the scientific function of a control group."
@@ -5274,8 +5002,7 @@ var APSTATS_MCQ = [
       "To ensure that the sample of 60 volunteers is representative of the general population",
       "To make the experiment easier to replicate in the future",
       "To reduce the effect of confounding variables by distributing them roughly equally across groups",
-      "To guarantee that the treatment group and control group are exactly the same size",
-      "To prevent participants from knowing which group they are in"
+      "To guarantee that the treatment group and control group are exactly the same size"
     ],
     "answer": 2,
     "explanation": "The main purpose of random assignment in an experiment is to distribute potential confounding variables roughly equally across the treatment and control groups, reducing the chance that any difference in outcomes is due to something other than the treatment. Choice A describes random sampling, which is about selecting subjects from a population — random assignment is a separate concept that applies after subjects are already selected. Choice B is a secondary benefit but not the main reason. Choice D is incorrect; random assignment does not guarantee equal group sizes, though researchers may design for that separately. Choice E describes blinding, which is a different experimental technique."
@@ -5295,8 +5022,7 @@ var APSTATS_MCQ = [
       "Confounding",
       "Blinding",
       "Stratification of the sample",
-      "Blocking",
-      "Replication"
+      "Blocking"
     ],
     "answer": 3,
     "explanation": "Blocking is the process of grouping experimental units that are similar in some way that is expected to affect the response variable, and then randomly assigning treatments within each block. Here, the researcher groups by gender (a variable believed to affect test scores) before randomly assigning treatments — this is blocking. Choice A (confounding) refers to a variable that is mixed up with the treatment, which is the problem blocking helps address. Choice B (blinding) refers to concealing treatment assignment from participants or researchers. Choice C (stratification) is a term used in sampling, not experimental design, though the concept is similar — in experiments, the correct term is blocking. Choice E (replication) refers to using multiple subjects per treatment."
@@ -5316,8 +5042,7 @@ var APSTATS_MCQ = [
       "The study was conducted using a biased sample of cities",
       "The number of hospitals is a confounding variable with the size of the city, since larger cities have more hospitals and also more people who are sick",
       "Death rate is not a valid variable to measure in this type of study",
-      "The researchers failed to use a control group in their study",
-      "This is an example of voluntary response bias because only sick people go to hospitals"
+      "The researchers failed to use a control group in their study"
     ],
     "answer": 1,
     "explanation": "A confounding variable is one that is associated with both the explanatory variable and the response variable, making it difficult to determine the true cause of an observed association. Here, city size is a confounding variable: larger cities have more hospitals AND more people who are seriously ill, leading to higher death rates. The association between hospitals and death rates is explained by city size, not a causal link. Choice A is possible but does not explain the specific pattern observed. Choice C is incorrect; death rate is a perfectly valid variable. Choice D is about experimental design, but this is an observational study issue, not a missing control group. Choice E misapplies voluntary response bias, which refers to survey methodology."
@@ -5337,8 +5062,7 @@ var APSTATS_MCQ = [
       "To serve as the treatment for participants who are allergic to the real medication",
       "To control for the placebo effect, so that any improvement in the treatment group beyond that of the sugar pill group can be attributed to the medication",
       "To reduce the cost of the experiment by giving cheaper pills to half the participants",
-      "To blind the researchers so they do not know which participants received the real medication",
-      "To ensure that all participants experience some improvement in their headaches"
+      "To blind the researchers so they do not know which participants received the real medication"
     ],
     "answer": 1,
     "explanation": "A placebo is an inactive treatment given to the control group that is designed to look identical to the real treatment. Its purpose is to control for the placebo effect — the phenomenon where people improve simply because they believe they are receiving treatment. By comparing the treatment group to a group receiving a placebo, researchers can determine whether improvements are due to the actual medication or merely to the expectation of improvement. Choice A is incorrect; the placebo is not a treatment for allergic individuals. Choice C is incorrect; cost reduction is not the scientific purpose of a placebo. Choice D describes blinding of researchers, which is a separate concept. Choice E is incorrect; the goal is not to guarantee improvement in everyone but to isolate the drug's true effect."
@@ -5358,8 +5082,7 @@ var APSTATS_MCQ = [
       "It is an observational study; causation cannot be established because no treatment was imposed.",
       "It is an experiment; the lack of a control group limits conclusions.",
       "It is an observational study; the sample size is too small to draw any conclusions.",
-      "It is an experiment; confounding variables were not controlled.",
-      "It is an observational study; the researcher should have used a placebo."
+      "It is an experiment; confounding variables were not controlled."
     ],
     "answer": 0,
     "explanation": "Because the researcher only observed and recorded behavior without assigning any treatment, this is an observational study. The primary limitation is that without random assignment of treatments, causation cannot be established — other variables (confounders) could explain any association. B and D are wrong because no treatment was imposed, making this not an experiment. C is wrong because 500 is a reasonable sample size and the issue is study design, not size. E is wrong because placebos are used in experiments, not observational studies."
@@ -5379,8 +5102,7 @@ var APSTATS_MCQ = [
       "Stratified random sampling",
       "Simple random sampling",
       "Cluster sampling",
-      "Systematic sampling",
-      "Convenience sampling"
+      "Systematic sampling"
     ],
     "answer": 2,
     "explanation": "In cluster sampling, the population is divided into groups (clusters), some clusters are randomly selected, and then all members of selected clusters are included. Here, schools are the clusters, 2 are randomly chosen, and all students in those schools are surveyed. A is wrong because stratified sampling requires selecting individuals from each stratum, not entire groups. B is wrong because not every student had an equal chance of being selected (those in unchosen schools had no chance). D requires selecting every kth individual. E implies no randomness at all."
@@ -5400,8 +5122,7 @@ var APSTATS_MCQ = [
       "Response bias, because respondents may lie about their savings",
       "Undercoverage bias, because working-age people are less likely to be home and may be systematically excluded",
       "Voluntary response bias, because only motivated individuals would answer",
-      "Wording bias, because the question about retirement savings is leading",
-      "Nonresponse bias, because the sample size is too small"
+      "Wording bias, because the question about retirement savings is leading"
     ],
     "answer": 1,
     "explanation": "Calling landlines on weekday afternoons systematically excludes people who work outside the home during those hours, a group likely to have different retirement savings patterns. This is undercoverage bias — certain segments of the population have little or no chance of being selected. A is possible but not the most prominent issue identified. C requires subjects to self-select into the sample, which is not the case here. D has no evidence of a leading question. E incorrectly defines nonresponse bias and ties it to sample size."
@@ -5421,8 +5142,7 @@ var APSTATS_MCQ = [
       "The math test score at the end of eight weeks",
       "The students' prior math ability",
       "Whether a student received the tutoring program or regular coursework",
-      "The length of the experiment (eight weeks)",
-      "The random assignment process"
+      "The length of the experiment (eight weeks)"
     ],
     "answer": 2,
     "explanation": "The explanatory variable (also called the independent variable or factor) is the variable that is deliberately manipulated by the researcher — in this case, whether a student received the tutoring program or regular coursework. A is the response variable (what is being measured). B is a potential confounding variable. D is a feature of the study design, not a variable being manipulated. E is the method used to control bias, not a variable."
@@ -5442,8 +5162,7 @@ var APSTATS_MCQ = [
       "The study should have used a larger sample.",
       "The control group should have received a placebo to account for the placebo effect.",
       "All patients should have received the new medication for ethical reasons.",
-      "Blood pressure is not a valid response variable for this type of study.",
-      "Random assignment was not necessary because both groups were measured the same way."
+      "Blood pressure is not a valid response variable for this type of study."
     ],
     "answer": 1,
     "explanation": "Without a placebo for the control group, we cannot determine whether improvements in the treatment group are due to the medication itself or to the psychological effect of believing they are being treated (the placebo effect). The placebo ensures that any difference between groups is attributable to the drug's actual chemistry, not expectation. A might improve precision but does not address the core flaw. C would eliminate the control group entirely. D is incorrect — blood pressure is a standard and valid outcome. E is wrong because random assignment is essential for causal inference."
@@ -5463,8 +5182,7 @@ var APSTATS_MCQ = [
       "It creates too many treatment groups, making analysis difficult.",
       "Early arrivers may systematically differ from later arrivers, introducing confounding.",
       "The sample size of 30 per group is too small to use any assignment method.",
-      "Random assignment would make the two groups identical in all characteristics.",
-      "The control group should always be assigned first to avoid bias."
+      "Random assignment would make the two groups identical in all characteristics."
     ],
     "answer": 1,
     "explanation": "Assigning based on arrival order is problematic because early arrivers may be systematically different — for example, they might be healthier, more motivated, or have less severe conditions than later arrivers. This creates a confound between group assignment and patient characteristics. B correctly identifies this issue. A is wrong — there are only two groups. C is wrong because 30 per group can be adequate, and the issue is assignment method, not size. D is incorrect — random assignment balances groups on average but does not make them identical. E is a misconception with no statistical basis."
@@ -5484,8 +5202,7 @@ var APSTATS_MCQ = [
       "To increase the total sample size available for the study",
       "To eliminate all confounding variables from the experiment",
       "To reduce variability by accounting for soil type, allowing a clearer comparison of the fertilizer's effect",
-      "To ensure that the placebo effect does not influence plant growth",
-      "To make the study double-blind by separating the two soil types"
+      "To ensure that the placebo effect does not influence plant growth"
     ],
     "answer": 2,
     "explanation": "This is an example of blocking, where experimental units are grouped by a known source of variability (soil type) before random assignment. By comparing fertilizer vs. control within each soil type, the researcher removes soil type as a source of variability, making the treatment effect easier to detect. A is wrong — the total sample size remains 40. B is wrong — blocking reduces variability from the blocking variable but does not eliminate all confounders. D is irrelevant to plants and the placebo effect. E is wrong — double-blind refers to knowledge of treatment assignment, not physical separation."
@@ -5505,8 +5222,7 @@ var APSTATS_MCQ = [
       "The study did not use a large enough sample of towns.",
       "Population size is a confounding variable — larger towns have more of both churches and crime.",
       "The study should have been conducted as a randomized experiment.",
-      "Violent crime is not a valid response variable for this type of study.",
-      "Churches are not a measurable explanatory variable."
+      "Violent crime is not a valid response variable for this type of study."
     ],
     "answer": 1,
     "explanation": "Population size is a confounding variable that is associated with both the number of churches and the rate of crime. Larger towns naturally have more churches AND more crime simply because they have more people. This lurking variable creates a spurious association. The reporter's causal conclusion is invalid because this is an observational study with a clear confounder. A is not the core issue. C is true in principle but does not explain why the specific conclusion here is flawed. D and E are incorrect — both are measurable and valid variables."
@@ -5526,8 +5242,7 @@ var APSTATS_MCQ = [
       "The medication is ineffective because many patients improved without it.",
       "The medication provides a net benefit of 15 percentage points beyond the placebo effect.",
       "The sugar pill is more effective than the medication.",
-      "The placebo effect accounts for the full 40% improvement in the medication group.",
-      "The study is invalid because all participants should have received the real medication."
+      "The placebo effect accounts for the full 40% improvement in the medication group."
     ],
     "answer": 1,
     "explanation": "The placebo group improved by 25%, likely due to the psychological placebo effect. The medication group improved by 40%. The net effect attributable to the medication itself is 40% - 25% = 15 percentage points. This is precisely why placebo controls are used — to isolate the true treatment effect. A is incorrect because the comparison is against placebo, and the medication outperformed it. C is incorrect — the medication showed greater improvement. D is wrong — the 40% includes both the placebo effect and the medication's actual effect. E is wrong — having a placebo control is proper experimental design."
@@ -5547,8 +5262,7 @@ var APSTATS_MCQ = [
       "To prevent patients from dropping out of the study",
       "To ensure that neither patients' self-reported outcomes nor doctors' assessments are influenced by expectations about the treatment",
       "To allow the researchers to change the treatment assignments partway through if needed",
-      "To guarantee that the two groups are equally sized",
-      "To prevent the placebo group from accidentally receiving the real medication"
+      "To guarantee that the two groups are equally sized"
     ],
     "answer": 1,
     "explanation": "A double-blind design controls for bias from both directions: patients who know they received the real drug may report feeling better due to expectation (placebo effect), and doctors who know a patient received the drug may unconsciously rate their improvement more favorably. Keeping both uninformed removes these sources of bias. A is a possible side benefit but not the primary reason. C describes a serious ethical and statistical violation. D is controlled by random assignment, not blinding. E is an operational concern, not the statistical reason for double-blinding."
@@ -5568,8 +5282,7 @@ var APSTATS_MCQ = [
       "30",
       "25",
       "40",
-      "36",
-      "20"
+      "36"
     ],
     "answer": 0,
     "explanation": "In stratified random sampling, the number selected from each stratum is proportional to the stratum's size. Engineering has 300 out of 1,200 employees, which is 300/1200 = 1/4 = 25% of the workforce. 25% of the 120-person sample = 0.25 × 120 = 30 employees. B (25) would come from incorrectly dividing 100 by 4. C (40) would correspond to Sales proportionally (400/1200 × 120 = 40). D and E do not correspond to the correct proportional calculation."
@@ -5589,8 +5302,7 @@ var APSTATS_MCQ = [
       "Undercoverage bias",
       "Nonresponse bias",
       "Voluntary response bias",
-      "Response bias due to question wording",
-      "Sampling bias due to a non-random sample"
+      "Response bias due to question wording"
     ],
     "answer": 3,
     "explanation": "The phrase 'hardworking local police' is loaded language that frames officers positively before asking the question, nudging respondents toward agreement. This is response bias caused by question wording (also called leading question bias). A refers to missing population segments. B refers to people who do not respond. C refers to people self-selecting into a survey. E refers to a flawed sampling procedure. All of these are distinct from the specific issue here, which is how the question itself is phrased."
@@ -5610,8 +5322,7 @@ var APSTATS_MCQ = [
       "This is an observational study because the researchers are observing diet habits.",
       "This is an experiment, but causal conclusions are not possible because volunteers were used.",
       "This is an experiment because treatments were deliberately imposed via random assignment, allowing causal conclusions.",
-      "This is an observational study because cholesterol is the response variable, not the treatment.",
-      "This is an experiment, but it is invalid because it lacks a control group."
+      "This is an observational study because cholesterol is the response variable, not the treatment."
     ],
     "answer": 2,
     "explanation": "This is a randomized experiment because the researchers deliberately assigned (imposed) treatments — the two diets — on subjects using random assignment. Random assignment allows for causal inference by balancing confounding variables between groups. A is wrong — the researchers assigned diets, they did not merely observe naturally occurring diet choices. B is incorrect — using volunteers does limit external validity (generalizability), but causal conclusions within the study are still valid with random assignment. D confuses identifying the response variable with classifying the study type. E is wrong — the standard American diet group serves as the comparison/control group."
@@ -5631,8 +5342,7 @@ var APSTATS_MCQ = [
       "Assign all 90 participants to the medium dose group since it is the most likely to show results.",
       "Let participants choose which dose they prefer to increase compliance.",
       "Randomly assign 30 participants to each of the three dose groups.",
-      "Assign the 30 youngest participants to the low dose and the 30 oldest to the high dose.",
-      "Use only two groups (low and high dose) to simplify the analysis."
+      "Assign the 30 youngest participants to the low dose and the 30 oldest to the high dose."
     ],
     "answer": 2,
     "explanation": "Randomly assigning equal numbers of participants to each treatment group is the appropriate design. Equal group sizes maximize statistical power for comparing groups, and random assignment helps ensure balance of confounding variables across all three groups. A abandons two of the three treatments. B allows self-selection, which introduces bias and confounds. D confounds dose with age — a systematic bias. E discards the medium dose treatment, which means a key research question goes unanswered."
@@ -5652,8 +5362,7 @@ var APSTATS_MCQ = [
       "Response variable",
       "Explanatory variable",
       "Blocking variable",
-      "Confounding variable",
-      "Placebo variable"
+      "Confounding variable"
     ],
     "answer": 2,
     "explanation": "Gender is used as a blocking variable. The researcher groups participants by gender first (forming blocks), then randomly assigns treatments within each block. This controls for gender as a potential source of variability, improving the ability to detect the treatment effect. A is wrong — the response variable is blood pressure. B is wrong — the explanatory variable is whether participants did the exercise program. D is wrong — because the researcher accounted for gender by blocking, it is no longer a confound; a confounding variable is one that is not controlled. E is not a real statistical term."
@@ -5673,8 +5382,7 @@ var APSTATS_MCQ = [
       "The study should have measured math scores in addition to reading scores.",
       "Family income and parental education are confounding variables, as wealthier and more educated families are more likely to send children to preschool and also provide more reading support at home.",
       "The reading test may have been too easy, creating a ceiling effect.",
-      "The sample of children who attended preschool was likely too small.",
-      "The study was conducted over too short a time period."
+      "The sample of children who attended preschool was likely too small."
     ],
     "answer": 1,
     "explanation": "Family income and parental education are both associated with the likelihood of attending preschool (the explanatory variable) and with reading achievement (the response variable), making them confounding variables. The causal conclusion is not justified because the difference in reading scores could be due to these confounders rather than preschool attendance itself. This is an observational study — children were not randomly assigned to preschool. A, C, D, and E identify other possible limitations but none undermines the causal conclusion as directly as the presence of a clear confounding variable."
@@ -5694,8 +5402,7 @@ var APSTATS_MCQ = [
       "Students in Period 1 may differ from students in Period 3 in ways that affect math performance, and there was no random assignment to treatment.",
       "Music cannot be used as a treatment in an educational experiment.",
       "The study should have included more than two class periods.",
-      "The teacher should not have told students which group they were in.",
-      "Test scores are not a valid measure of the effect of music on learning."
+      "The teacher should not have told students which group they were in."
     ],
     "answer": 0,
     "explanation": "The core flaw is the lack of random assignment. Students in Period 1 and Period 3 may differ systematically — for example, Period 1 might have higher-achieving students, or students in different periods may have different schedules or energy levels. Without randomization, the teacher cannot attribute any difference in scores to the music treatment. A correctly identifies this. B is incorrect — music is a perfectly valid treatment variable. C would add more data but does not fix the fundamental design flaw. D would make the study single-blind but does not address the confounding of class period with treatment. E is incorrect — test scores are a standard outcome measure."
@@ -5715,8 +5422,7 @@ var APSTATS_MCQ = [
       "In a single-blind study, only one treatment group is used; in a double-blind study, two treatment groups are used.",
       "In a single-blind study, either the participants or the evaluators (but not both) are unaware of treatment assignments; in a double-blind study, both are unaware.",
       "In a single-blind study, participants know their treatment but evaluators do not; in a double-blind study, neither group knows anything about the study.",
-      "A single-blind study uses one placebo; a double-blind study uses two placebos.",
-      "In a single-blind study, only the researchers know the results; in a double-blind study, the results are hidden from everyone until the study ends."
+      "A single-blind study uses one placebo; a double-blind study uses two placebos."
     ],
     "answer": 1,
     "explanation": "Single-blind means one party — typically the participants — does not know whether they received the treatment or placebo. Double-blind means neither the participants nor the evaluators/researchers measuring outcomes know the treatment assignments. Double-blind is preferable because it prevents bias in both participant responses and evaluator assessments. A conflates blinding with the number of treatment groups. C incorrectly states that in a double-blind study 'neither group knows anything about the study' — they just don't know their treatment assignment. D invents a nonsensical definition involving the number of placebos. E describes something else entirely."
@@ -5736,8 +5442,7 @@ var APSTATS_MCQ = [
       "Randomly assign all 60 subjects to treatment and control groups without regard to sex, because randomization alone guarantees that sex will be equally distributed between groups.",
       "Block by biological sex, then randomly assign subjects within each block to treatment and control groups, because this ensures sex cannot act as a confounding variable and reduces unexplained variability in the response.",
       "Block by biological sex, then assign all males to the treatment group and all females to the control group, because this isolates the effect of sex from the effect of the drug.",
-      "Use stratified random sampling to select 15 males and 15 females for the treatment group, because stratification ensures a representative sample from each sex.",
-      "Randomly assign all 60 subjects to groups, then use a double-blind procedure to prevent sex from influencing the results, because blinding eliminates the effect of all lurking variables."
+      "Use stratified random sampling to select 15 males and 15 females for the treatment group, because stratification ensures a representative sample from each sex."
     ],
     "answer": 1,
     "explanation": "The correct answer is B. Blocking by biological sex and then randomizing within each block is the superior design because it directly controls for a known source of variability (sex). By doing so, sex cannot act as a confounding variable — any difference in outcomes between treatment and control groups cannot be attributed to an imbalance in sex. This also reduces within-group variability, increasing the power of the experiment to detect a true treatment effect. Choice A is a common trap: while randomization tends to balance groups, with only 30 subjects per group it does not guarantee balance on a variable like sex, especially in smaller experiments. Simple randomization leaves open the possibility of imbalance. Choice C is incorrect because assigning all males to one group and all females to another completely confounds sex with treatment — it is the opposite of good experimental design. Choice D confuses blocking (an experimental design concept) with stratified sampling (a data collection concept); this language applies to surveys, not experiments. Choice E is another common trap: double-blinding prevents subjects and evaluators from knowing treatment assignments, which reduces bias in measurement and the placebo effect, but it does not control for lurking variables the way blocking does."
@@ -5757,8 +5462,7 @@ var APSTATS_MCQ = [
       "The sample space has 54 outcomes because there are 52 cards and 2 coin sides.",
       "The sample space has 104 outcomes because each of the 52 cards can be paired with each of the 2 coin outcomes.",
       "The sample space has 26 outcomes because only the color of the card matters.",
-      "The sample space has 52 outcomes because the coin flip is irrelevant.",
-      "The sample space has 4 outcomes because suits and coin sides are the only relevant features."
+      "The sample space has 52 outcomes because the coin flip is irrelevant."
     ],
     "answer": 1,
     "explanation": "By the multiplication counting principle, the total number of outcomes in a two-stage experiment is the product of the outcomes at each stage. With 52 cards and 2 coin outcomes, the sample space contains 52 × 2 = 104 equally likely outcomes. Choice A incorrectly adds instead of multiplies. Choices C, D, and E reduce the sample space based on irrelevant simplifications not specified in the problem."
@@ -5778,8 +5482,7 @@ var APSTATS_MCQ = [
       "0.70",
       "0.55",
       "0.85",
-      "0.12",
-      "0.45"
+      "0.12"
     ],
     "answer": 1,
     "explanation": "Using the general addition rule: P(A or B) = P(A) + P(B) - P(A and B) = 0.40 + 0.30 - 0.15 = 0.55. Choice A simply adds 0.40 + 0.30, forgetting to subtract the overlap, a very common error. Choice C adds all three values. Choice D multiplies the probabilities, which would apply to independent events under the multiplication rule, not the addition rule. Choice E subtracts 0.15 from only one of the probabilities."
@@ -5799,8 +5502,7 @@ var APSTATS_MCQ = [
       "5/8 × 5/8",
       "5/8 × 4/7",
       "5/8 × 4/8",
-      "10/64",
-      "2/8"
+      "10/64"
     ],
     "answer": 1,
     "explanation": "When drawing without replacement, the events are dependent. Using the general multiplication rule: P(both red) = P(first red) × P(second red | first red) = (5/8) × (4/7) = 20/56 = 5/14. Choice A incorrectly assumes replacement, keeping the denominator at 8 for both draws. Choice C reduces the numerator correctly but forgets the denominator changes. Choice D is (5/8)² simplified incorrectly. Choice E guesses 2 out of 8 without proper reasoning."
@@ -5820,8 +5522,7 @@ var APSTATS_MCQ = [
       "0.45",
       "0.30",
       "0.50",
-      "0.67",
-      "0.75"
+      "0.67"
     ],
     "answer": 2,
     "explanation": "Conditional probability formula: P(tablet | laptop) = P(tablet and laptop) / P(laptop) = 0.30 / 0.60 = 0.50. Choice A gives the unconditional probability of owning a tablet, ignoring the condition. Choice B gives the joint probability directly without dividing. Choice D divides 0.30 by 0.45 instead of by 0.60, reversing the condition. Choice E divides 0.45 by 0.60, using the wrong numerator."
@@ -5841,8 +5542,7 @@ var APSTATS_MCQ = [
       "A and B are mutually exclusive because P(A and B) is small.",
       "A and B are independent because P(A and B) = P(A) × P(B).",
       "A and B are independent because P(A|B) = P(B|A).",
-      "A and B are dependent because P(A and B) ≠ 0.",
-      "A and B are mutually exclusive because P(A) + P(B) ≠ 1."
+      "A and B are dependent because P(A and B) ≠ 0."
     ],
     "answer": 1,
     "explanation": "Two events are independent if and only if P(A and B) = P(A) × P(B). Here, 0.4 × 0.5 = 0.20, which equals the given P(A and B), so A and B are independent. Choice A confuses small joint probability with mutual exclusivity; mutually exclusive events have P(A and B) = 0. Choice C states a true mathematical symmetry but is not the definition of independence. Choice D incorrectly claims any nonzero joint probability implies dependence. Choice E misapplies a rule about complementary events."
@@ -5862,8 +5562,7 @@ var APSTATS_MCQ = [
       "k must equal 0.3 so the probabilities sum to more than 1.",
       "k must equal 0.2 so that all probabilities are equal.",
       "k must equal 0.2 so the probabilities sum to 1.",
-      "k can be any value between 0 and 1.",
-      "k must equal 0.1 because four outcomes require probabilities less than 0.25."
+      "k can be any value between 0 and 1."
     ],
     "answer": 2,
     "explanation": "For a valid probability distribution, all probabilities must sum to exactly 1 and each must be between 0 and 1. So 0.2 + 0.3 + 0.3 + k = 1, which gives k = 0.2. Choice A gives k = 0.3, which would make the sum 1.1, violating the requirement. Choice B arrives at the correct value of k = 0.2 but for the wrong reason. Choice D incorrectly states k can be any value between 0 and 1. Choice E applies an incorrect rule about equal probabilities."
@@ -5883,8 +5582,7 @@ var APSTATS_MCQ = [
       "$2.90",
       "-$0.10",
       "$1.40",
-      "-$0.40",
-      "$4.30"
+      "-$0.40"
     ],
     "answer": 1,
     "explanation": "Expected gross winnings = 10(0.2) + 3(0.3) + 0(0.5) = 2.00 + 0.90 + 0 = $2.90. Since the game costs $3 to play, expected net gain = 2.90 - 3.00 = -$0.10. Choice A gives the expected gross winnings without subtracting the cost. Choice C forgets to account for all outcomes correctly. Choice D incorrectly subtracts: perhaps computing 3(0.3) - 3 + 10(0.2) without proper weighting. Choice E adds the cost rather than subtracting it."
@@ -5904,8 +5602,7 @@ var APSTATS_MCQ = [
       "E(Y) = 11, Var(Y) = 21",
       "E(Y) = 11, Var(Y) = 36",
       "E(Y) = 11, Var(Y) = 39",
-      "E(Y) = 8, Var(Y) = 18",
-      "E(Y) = 14, Var(Y) = 36"
+      "E(Y) = 8, Var(Y) = 18"
     ],
     "answer": 1,
     "explanation": "For a linear transformation Y = aX + b: E(Y) = aE(X) + b = 2(4) + 3 = 11, and Var(Y) = a²Var(X) = 4(9) = 36. The constant b does not affect variance. Choice A adds 3 to the variance (treating the constant like a multiplier). Choice C multiplies variance by 2 and adds 3, treating both the coefficient and constant as if they affect variance. Choice D only doubles E(X) without adding b, and doubles Var(X) without squaring. Choice E multiplies E(X) by 2 and adds b correctly but uses the wrong starting mean."
@@ -5925,8 +5622,7 @@ var APSTATS_MCQ = [
       "(0.25)^3 × (0.75)^7",
       "C(10,3) × (0.25)^3 × (0.75)^7",
       "C(10,3) × (0.25)^7 × (0.75)^3",
-      "C(10,3) × (0.25)^3 × (0.75)^10",
-      "10 × (0.25)^3 × (0.75)^7"
+      "C(10,3) × (0.25)^3 × (0.75)^10"
     ],
     "answer": 1,
     "explanation": "This is a binomial setting with n=10, p=0.25 (probability of guessing correctly), and k=3. The binomial probability formula is P(X=k) = C(n,k) × p^k × (1-p)^(n-k) = C(10,3) × (0.25)^3 × (0.75)^7. Choice A omits the binomial coefficient, giving the probability for one specific sequence of 3 correct and 7 incorrect. Choice C switches the exponents for p and (1-p). Choice D uses n instead of (n-k) as the exponent for (1-p). Choice E uses 10 instead of C(10,3) as the number of arrangements."
@@ -5946,8 +5642,7 @@ var APSTATS_MCQ = [
       "(0.7)^3 × (0.3)",
       "(0.3)^3 × (0.7)",
       "C(4,1) × (0.3)^1 × (0.7)^3",
-      "(0.7)^4",
-      "1 - (0.7)^4"
+      "(0.7)^4"
     ],
     "answer": 0,
     "explanation": "We want the first miss (failure) on the 4th attempt, meaning the first 3 attempts are successes (makes) and the 4th is a failure (miss). P(X=4) = (0.7)^3 × (0.3)^1 = (0.7)^3 × 0.3. This is a geometric distribution where a make is the repeated outcome and the first miss is the event of interest. Choice B incorrectly reverses the probabilities, treating misses as the initial outcomes and a make as the terminal event. Choice C applies the binomial formula with a combination coefficient, which is inappropriate here since the order is fixed. Choices D and E ignore the required miss on the 4th attempt."
@@ -5967,8 +5662,7 @@ var APSTATS_MCQ = [
       "0.25",
       "3",
       "4",
-      "2.5",
-      "7"
+      "2.5"
     ],
     "answer": 2,
     "explanation": "For a geometric distribution with probability of success p, the expected number of trials until the first success is E(X) = 1/p = 1/0.25 = 4. Choice A gives p itself, confusing the probability with the expected value. Choice B gives 1/p - 1 = 3, which would be the expected number of failures before the first success, not the expected trial number of first success. Choice D gives 1/(2p), a common arithmetic error. Choice E has no clear justification."
@@ -5988,8 +5682,7 @@ var APSTATS_MCQ = [
       "The claim is correct because mutually exclusive events never share outcomes, so they cannot influence each other.",
       "The claim is correct because P(A) + P(B) < 1.",
       "The claim is incorrect because mutually exclusive events with nonzero probabilities cannot be independent.",
-      "The claim is incorrect because independent events must have equal probabilities.",
-      "The claim is correct only if P(A) = P(B)."
+      "The claim is incorrect because independent events must have equal probabilities."
     ],
     "answer": 2,
     "explanation": "Mutually exclusive events with nonzero probabilities are actually dependent, not independent. If A and B are mutually exclusive, P(A and B) = 0. For independence, we need P(A and B) = P(A)×P(B) = 0.3×0.4 = 0.12 ≠ 0. So they cannot be independent. Knowing A occurred tells us B definitely did not, which means A affects the probability of B — the definition of dependence. Choice A contains a common intuitive misconception that 'no shared outcomes' implies 'no influence.' Choices B, D, and E apply irrelevant or incorrect criteria."
@@ -6009,8 +5702,7 @@ var APSTATS_MCQ = [
       "50/200",
       "50/80",
       "50/140",
-      "80/200",
-      "90/140"
+      "80/200"
     ],
     "answer": 2,
     "explanation": "We want P(freshman | owns a car). Total students who own a car = 50 + 90 = 140. P(freshman | owns car) = P(freshman and owns car) / P(owns car) = 50/200 ÷ 140/200 = 50/140. Choice A gives the unconditional probability of being a freshman car owner out of all students, not conditioned on owning a car. Choice B gives P(owns car | freshman), reversing the condition. Choice D gives the unconditional probability of being a freshman. Choice E gives the probability of being an upperclassman given owning a car, not a freshman."
@@ -6030,8 +5722,7 @@ var APSTATS_MCQ = [
       "E(X+Y) = 8, Var(X+Y) = 6",
       "E(X+Y) = 8, Var(X+Y) = 13",
       "E(X+Y) = 8, Var(X+Y) = 36",
-      "E(X+Y) = 15, Var(X+Y) = 13",
-      "E(X+Y) = 8, Var(X+Y) = 169"
+      "E(X+Y) = 15, Var(X+Y) = 13"
     ],
     "answer": 1,
     "explanation": "For any two random variables: E(X+Y) = E(X) + E(Y) = 5 + 3 = 8. Because X and Y are independent, Var(X+Y) = Var(X) + Var(Y) = 4 + 9 = 13. Choice A adds standard deviations instead of variances: SD(X)+SD(Y) = 2+3 = 5, then perhaps halves — not a clean error; more likely it averages the variances: (4+9)/2 ≈ 6.5, rounded. Choice C takes the product of variances (4×9=36). Choice D multiplies the means instead of adding them (5×3=15). Choice E incorrectly squares the sum of standard deviations: (SD(X)+SD(Y))² = (2+3)² = 25, not 169 — this distractor arises from adding standard deviations before squaring rather than adding variances directly."
@@ -6051,8 +5742,7 @@ var APSTATS_MCQ = [
       "P(bicycle | car) = 1/3; not independent because P(bicycle | car) ≠ P(bicycle).",
       "P(bicycle | car) = 0.20; independent because the overlap probability equals P(both).",
       "P(bicycle | car) = 0.20; not independent because P(bicycle | car) ≠ P(car).",
-      "P(bicycle | car) = 1/3; independent because 1/3 is close to 0.30.",
-      "P(bicycle | car) = 0.50; not independent because P(bicycle | car) ≠ P(bicycle)."
+      "P(bicycle | car) = 1/3; independent because 1/3 is close to 0.30."
     ],
     "answer": 0,
     "explanation": "P(bicycle | car) = P(bicycle and car) / P(car) = 0.20 / 0.60 = 1/3 ≈ 0.333. For independence, we need P(bicycle | car) = P(bicycle) = 0.30. Since 1/3 ≈ 0.333 ≠ 0.30, the events are not independent. Choice B incorrectly uses the raw joint probability as the conditional probability. Choice C computes the conditional probability correctly but checks it against the wrong probability. Choice D finds the correct conditional probability but incorrectly declares independence because the values are 'close' — independence requires exact equality in probability models. Choice E uses an incorrect formula entirely."
@@ -6072,8 +5762,7 @@ var APSTATS_MCQ = [
       "Approximately 16%",
       "Approximately 95%",
       "Approximately 2%",
-      "Approximately 85%",
-      "Approximately 50%"
+      "Approximately 85%"
     ],
     "answer": 0,
     "explanation": "Using Bayes' theorem: P(disease | positive) = P(positive | disease)·P(disease) / P(positive). P(positive) = P(positive | disease)·P(disease) + P(positive | no disease)·P(no disease) = (0.95)(0.02) + (0.10)(0.98) = 0.019 + 0.098 = 0.117. So P(disease | positive) = 0.019 / 0.117 ≈ 0.162 ≈ 16%. Choice B is the classic trap of confusing P(positive | disease) with P(disease | positive) — the sensitivity. Choice C ignores the test result entirely. Choice D might result from arithmetic errors or ignoring the base rate properly. Choice E assumes equal likelihood without calculation."
@@ -6093,8 +5782,7 @@ var APSTATS_MCQ = [
       "A and B cannot be independent, because P(A and B) = 0, but P(A)·P(B) > 0.",
       "A and B are always independent because knowing A occurred tells you nothing new about B's probability.",
       "A and B could be independent if P(A) + P(B) = 1.",
-      "A and B are independent if and only if P(A) = P(B).",
-      "A and B are independent because mutually exclusive events have no overlap."
+      "A and B are independent if and only if P(A) = P(B)."
     ],
     "answer": 0,
     "explanation": "For independence, we need P(A and B) = P(A)·P(B). Since A and B are mutually exclusive, P(A and B) = 0. Since both have positive probability, P(A)·P(B) > 0. Therefore 0 ≠ P(A)·P(B), so they are NOT independent. This is a major AP trap: students often confuse mutually exclusive with independent. Choice B is the classic misconception — knowing A occurred actually tells you B did NOT occur (since they're mutually exclusive), making them negatively dependent. Choice C is incorrect; the sum of probabilities doesn't determine independence. Choice D has no logical basis. Choice E repeats the misconception in Choice B."
@@ -6114,8 +5802,7 @@ var APSTATS_MCQ = [
       "k = 0.20; P(X > 3) = 0.35 and P(X ≥ 3) = 0.55, and these differ because P(X ≥ 3) includes the probability that X equals 3.",
       "k = 0.20; P(X > 3) = P(X ≥ 3) = 0.35 because for continuous distributions the distinction doesn't matter.",
       "k = 0.20; P(X > 3) = 0.55 and P(X ≥ 3) = 0.35 because greater than includes more values.",
-      "k = 0.80; P(X > 3) = 0.35 and the distribution is invalid because probabilities must sum to less than 1.",
-      "k = 0.20; P(X > 3) = 0.45 and P(X ≥ 3) = 0.55 because P(X = 3) = 0.10."
+      "k = 0.80; P(X > 3) = 0.35 and the distribution is invalid because probabilities must sum to less than 1."
     ],
     "answer": 0,
     "explanation": "All probabilities must sum to 1: 0.15 + 0.30 + k + 0.25 + 0.10 = 1, so k = 0.20. P(X > 3) = P(X = 4) + P(X = 5) = 0.25 + 0.10 = 0.35. P(X ≥ 3) = P(X = 3) + P(X = 4) + P(X = 5) = 0.20 + 0.25 + 0.10 = 0.55. The difference is exactly P(X = 3) = 0.20. Choice B applies a continuous distribution rule to a discrete variable — for discrete variables, > and ≥ differ. Choice C reverses the values of the two probabilities. Choice D finds k incorrectly. Choice E uses the wrong value for P(X = 3)."
@@ -6135,8 +5822,7 @@ var APSTATS_MCQ = [
       "3",
       "-2",
       "1",
-      "8",
-      "The expected value cannot be determined without knowing whether X and Y are independent."
+      "8"
     ],
     "answer": 0,
     "explanation": "The expected value of a linear combination uses the linearity property: E(3X - 2Y + 5) = 3·E(X) - 2·E(Y) + 5 = 3(4) - 2(7) + 5 = 12 - 14 + 5 = 3. The answer is A) 3. The correlation information is a deliberate distractor — correlation affects variance, not expected value. Linearity of expectation holds regardless of independence or correlation. Choice E is the trap answer targeting students who conflate variance rules with expectation rules. Choice B might result from ignoring the constant. Choice D might come from adding instead of subtracting."
@@ -6156,10 +5842,9 @@ var APSTATS_MCQ = [
       "2",
       "√(10) ≈ 3.16",
       "2√(10) ≈ 6.32",
-      "10",
       "√(52) ≈ 7.21"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "For independent random variables, Var(aX + bY) = a²·Var(X) + b²·Var(Y). Here Var(X) = 9 and Var(Y) = 16. Var(2X - Y) = 4·Var(X) + 1·Var(Y) = 4(9) + 1(16) = 36 + 16 = 52. So SD(W) = √52 ≈ 7.21, which is choice E. Choice A is the trap of computing 2(3) - 4 = 2, treating standard deviations as if they combine linearly. Choice B incorrectly computes √(3² + 4²) = √25 = 5, or attempts another incorrect combination. Choice C gives √40, arising from an error such as Var = 4(9) + 4 = 40. Choice D reports the variance rather than the standard deviation."
   },
   {
@@ -6177,8 +5862,7 @@ var APSTATS_MCQ = [
       "This is a binomial setting; P(X = 2) = C(20,2)·(0.10)²·(0.90)^18 ≈ 0.2852.",
       "This is a binomial setting; P(X = 2) = C(20,2)·(0.10)²·(0.90)^2 ≈ 0.0162.",
       "This is not a binomial setting because defective items affect the probability for subsequent items.",
-      "This is a binomial setting; P(X = 2) = (0.10)²·(0.90)^18 ≈ 0.0142, because the combination term is only needed when order matters.",
-      "This is a binomial setting; P(X = 2) = C(20,2)·(0.10)^18·(0.90)² ≈ 0, because the exponents match the number of non-defective items."
+      "This is a binomial setting; P(X = 2) = (0.10)²·(0.90)^18 ≈ 0.0142, because the combination term is only needed when order matters."
     ],
     "answer": 0,
     "explanation": "This satisfies all four binomial conditions: fixed n = 20, each trial is independent (stated), two outcomes (defective/not), constant p = 0.10. The correct formula is P(X = 2) = C(20,2)·(0.10)²·(0.90)^18 ≈ 0.2852. Choice B uses (0.90)^2 instead of (0.90)^18, a common error forgetting that the exponent on the failure probability is n - k = 18. Choice C incorrectly applies the without-replacement concern when independence is explicitly stated. Choice D omits the combination coefficient, forgetting to count arrangements. Choice E swaps the exponents for success and failure probabilities."
@@ -6198,8 +5882,7 @@ var APSTATS_MCQ = [
       "E(X) = 1/0.70 ≈ 1.43; P(X > 3) = (0.30)³ ≈ 0.027, meaning she misses the first 3 attempts.",
       "E(X) = 0.70; P(X > 3) = 1 - (0.70)³ ≈ 0.657, meaning she makes at least one in the first 3 attempts.",
       "E(X) = 1/0.70 ≈ 1.43; P(X > 3) = 1 - (0.30)³ ≈ 0.973, meaning she makes a free throw within the first 3 attempts.",
-      "E(X) = 1/0.70 ≈ 1.43; P(X > 3) = (0.70)³ ≈ 0.343, meaning she makes all of her first 3 attempts.",
-      "E(X) = 1 - 0.70 = 0.30; P(X > 3) = (0.30)³ ≈ 0.027, meaning the first success comes after attempt 3."
+      "E(X) = 1/0.70 ≈ 1.43; P(X > 3) = (0.70)³ ≈ 0.343, meaning she makes all of her first 3 attempts."
     ],
     "answer": 0,
     "explanation": "For a geometric distribution with success probability p = 0.70, E(X) = 1/p = 1/0.70 ≈ 1.43. P(X > 3) means the first success comes after the 3rd attempt, meaning the first 3 attempts are ALL misses: P(X > 3) = (1 - p)³ = (0.30)³ = 0.027. Choice A is correct. Choice B uses E(X) = p and confuses P(X > 3) with the complement of all misses in the first 3 attempts. Choice C correctly states E(X) but computes 1 - (0.30)³, which equals P(X ≤ 3), not P(X > 3). Choice D uses the success probability as the base instead of the failure probability. Choice E incorrectly computes E(X) as 1 - p, confusing the mean with the failure probability."
@@ -6219,8 +5902,7 @@ var APSTATS_MCQ = [
       "The sample proportion p-hat",
       "The population proportion p",
       "The standard error of p-hat",
-      "0.5, regardless of the true proportion",
-      "The sample size n"
+      "0.5, regardless of the true proportion"
     ],
     "answer": 1,
     "explanation": "The sampling distribution of p-hat is centered at the true population proportion p, which is the definition of an unbiased estimator. Choice A is wrong because the center is not the sample proportion itself but the parameter it estimates. Choice C is the spread, not the center. Choice D incorrectly assumes symmetry around 0.5. Choice E is the sample size, not a proportion."
@@ -6240,8 +5922,7 @@ var APSTATS_MCQ = [
       "2",
       "10",
       "25",
-      "50",
-      "100"
+      "50"
     ],
     "answer": 3,
     "explanation": "The mean of the sampling distribution of x-bar always equals the population mean μ, regardless of sample size. So the mean is 50. Choice A is σ/n = 10/25 = 2/5, not quite but in that ballpark — confusing mean with standard error. Choice B is σ alone. Choice C is the sample size. Choice E doubles the population mean, which is never correct."
@@ -6261,8 +5942,7 @@ var APSTATS_MCQ = [
       "The same shape as the population distribution",
       "A uniform distribution",
       "A skewed distribution",
-      "A Normal distribution",
-      "A bimodal distribution"
+      "A Normal distribution"
     ],
     "answer": 3,
     "explanation": "The Central Limit Theorem states that for sufficiently large sample sizes, the sampling distribution of the sample mean is approximately Normal, regardless of the shape of the population distribution. Choice A is wrong because the CLT specifically states the sampling distribution becomes Normal, not a copy of the population shape. Choices B, C, and E are all incorrect shapes that misrepresent the theorem."
@@ -6282,8 +5962,7 @@ var APSTATS_MCQ = [
       "The statistic always equals the parameter exactly",
       "The mean of the sampling distribution of the statistic equals the parameter",
       "The standard deviation of the statistic is very small",
-      "The statistic is calculated from a large sample",
-      "The sampling distribution of the statistic is Normal"
+      "The statistic is calculated from a large sample"
     ],
     "answer": 1,
     "explanation": "An unbiased estimator is one whose sampling distribution has a mean equal to the true parameter value. This does not mean individual sample values equal the parameter (Choice A), nor is it about having small spread (Choice C), large samples (Choice D), or Normality (Choice E). Those are related to precision or the CLT, but unbiasedness is specifically defined by the mean of the sampling distribution equaling the parameter."
@@ -6303,8 +5982,7 @@ var APSTATS_MCQ = [
       "Increasing the population standard deviation",
       "Decreasing the sample size",
       "Increasing the sample size",
-      "Using a biased sampling method",
-      "Increasing the population mean"
+      "Using a biased sampling method"
     ],
     "answer": 2,
     "explanation": "The standard error of the sample mean is σ/√n. Increasing n makes √n larger, which makes the standard error smaller, reducing variability. Choice A increases σ, which increases variability. Choice B decreases n, increasing the standard error. Choice D introduces bias but does not directly reduce variability. Choice E changes the center, not the spread."
@@ -6324,8 +6002,7 @@ var APSTATS_MCQ = [
       "The sample size n must be at least 30",
       "Both np and n(1-p) must be at least 10",
       "The population must be Normally distributed",
-      "The sample size must be larger than the population size",
-      "The population proportion p must equal 0.5"
+      "The sample size must be larger than the population size"
     ],
     "answer": 1,
     "explanation": "The Normal approximation for the sampling distribution of p-hat requires that both np ≥ 10 and n(1-p) ≥ 10, ensuring enough expected successes and failures. Choice A is the CLT rule of thumb for means, not proportions. Choice C is unnecessary — the population does not need to be Normal for proportions. Choice D is impossible and contradicts sampling theory. Choice E is far too restrictive; p does not have to equal 0.5."
@@ -6345,8 +6022,7 @@ var APSTATS_MCQ = [
       "p(1-p)",
       "√(p/n)",
       "√(p(1-p)/n)",
-      "p(1-p)/n",
-      "√(p(1-p)) × n"
+      "p(1-p)/n"
     ],
     "answer": 2,
     "explanation": "The standard error of p-hat is √(p(1-p)/n). This comes from the variance of a proportion being p(1-p)/n, so the standard deviation (standard error) is its square root. Choice A omits the square root and the division by n. Choice B places only p in the numerator instead of p(1-p). Choice D is the variance, not the standard deviation. Choice E incorrectly multiplies by n instead of dividing."
@@ -6366,8 +6042,7 @@ var APSTATS_MCQ = [
       "5",
       "10",
       "20",
-      "30",
-      "100"
+      "30"
     ],
     "answer": 3,
     "explanation": "The common rule of thumb used in AP Statistics is that a sample size of at least 30 is sufficient for the CLT to guarantee an approximately Normal sampling distribution of the sample mean, regardless of the population's shape. Choices A, B, and C are too small to reliably invoke the CLT. Choice E is overly conservative and not the standard threshold cited in AP Statistics."
@@ -6387,8 +6062,7 @@ var APSTATS_MCQ = [
       "Population distribution",
       "Normal distribution",
       "Sampling distribution of the sample mean",
-      "Standard error of the mean",
-      "Confidence interval for the mean"
+      "Standard error of the mean"
     ],
     "answer": 2,
     "explanation": "By definition, the sampling distribution of the sample mean is the distribution of all possible values of x-bar from samples of the same size n taken from the same population. Choice A is the distribution of individual values in the population, not sample means. Choice B is a shape, not a distribution type defined this way. Choice D is a single number measuring spread, not a distribution. Choice E is an interval estimate from one sample, not a distribution of statistics."
@@ -6408,8 +6082,7 @@ var APSTATS_MCQ = [
       "Every sample produces the same statistic value",
       "The distribution of the statistic has no variability",
       "The statistic is always greater than the parameter",
-      "The mean of the statistic's sampling distribution equals the true parameter",
-      "The sampling distribution is perfectly symmetric"
+      "The mean of the statistic's sampling distribution equals the true parameter"
     ],
     "answer": 3,
     "explanation": "No bias means the sampling distribution of the statistic is centered at the true parameter, i.e., the mean of the sampling distribution equals the parameter. Choice A describes a constant, which is unrealistic. Choice B describes zero variability, which would mean no sampling error at all. Choice C describes overestimation, which is a form of bias. Choice E describes symmetry, which is related to shape but does not define unbiasedness — a skewed distribution can still be unbiased if its mean equals the parameter."
@@ -6426,14 +6099,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A large university reports that 40% of its students work part-time. A random sample of 100 students is selected. What is the standard deviation of the sampling distribution of the sample proportion?",
     "choices": [
-      "0.0016",
+      "0.4000",
       "0.0240",
       "0.1600",
-      "0.4000",
       "0.0490"
     ],
-    "answer": 4,
-    "explanation": "The standard deviation of the sampling distribution of a proportion is sqrt(p(1-p)/n) = sqrt(0.40 * 0.60 / 100) = sqrt(0.24/100) = sqrt(0.0024) ≈ 0.0490. Choice B is the variance (0.0024), not the standard deviation. Choice C is p(1-p) without dividing by n. Choice D is just p. Choice A is p(1-p)/n without taking the square root."
+    "answer": 3,
+    "explanation": "The standard deviation of the sampling distribution of a proportion is sqrt(p(1-p)/n) = sqrt(0.40 * 0.60 / 100) = sqrt(0.24/100) = sqrt(0.0024) ≈ 0.0490. Choice B is the variance (0.0024), not the standard deviation. Choice C is p(1-p) without dividing by n. Choice A is just p. Choice E is p(1-p)/n without taking the square root."
   },
   {
     "id": "stats_u5_q107",
@@ -6447,13 +6119,12 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A population of household incomes is strongly right-skewed with mean $52,000 and standard deviation $18,000. If a random sample of 64 households is selected, which of the following best describes the shape of the sampling distribution of the sample mean?",
     "choices": [
-      "Slightly right-skewed, because the sample size is never large enough to eliminate skewness",
+      "Uniform, because sample means tend to average out across repeated samples",
       "Strongly right-skewed, because the population is strongly right-skewed",
       "Approximately normal, only if the population is first transformed to be symmetric",
-      "Uniform, because sample means tend to average out across repeated samples",
       "Approximately normal, because the sample size is large enough by the Central Limit Theorem"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "By the Central Limit Theorem, when the sample size is sufficiently large (generally n ≥ 30), the sampling distribution of the sample mean is approximately normal regardless of the shape of the population distribution. n = 64 satisfies this condition. Choice B is a common misconception — students confuse the shape of the population with the shape of the sampling distribution. Choices C, D, and E are incorrect descriptions of the CLT."
   },
   {
@@ -6468,14 +6139,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A researcher wants to reduce the standard error of the sample mean by half. If the original sample size was 36, what sample size should the researcher use?",
     "choices": [
-      "48",
+      "9",
       "72",
       "18",
-      "9",
       "144"
     ],
-    "answer": 4,
-    "explanation": "The standard error of the mean is sigma/sqrt(n). To cut the standard error in half, you need to multiply n by 4. The original n is 36, so the new n = 36 × 4 = 144. Choice B (72) reflects the misconception that you simply double n to halve the SE, which would only reduce it by a factor of 1/sqrt(2). Choice C halves n, which would increase the SE. Choice D quarters n. Choice A adds 12, which has no mathematical basis."
+    "answer": 3,
+    "explanation": "The standard error of the mean is sigma/sqrt(n). To cut the standard error in half, you need to multiply n by 4. The original n is 36, so the new n = 36 × 4 = 144. Choice B (72) reflects the misconception that you simply double n to halve the SE, which would only reduce it by a factor of 1/sqrt(2). Choice C halves n, which would increase the SE. Choice A quarters n. Choice E adds 12, which has no mathematical basis."
   },
   {
     "id": "stats_u5_q109",
@@ -6489,14 +6159,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "Which of the following statements best describes what it means for a statistic to be an unbiased estimator of a population parameter?",
     "choices": [
-      "The sample from which the statistic is computed was randomly selected",
+      "The statistic is calculated without any sampling error",
       "The statistic is always equal to the population parameter for any sample taken",
       "The standard deviation of the sampling distribution of the statistic is very small",
-      "The statistic is calculated without any sampling error",
       "The mean of the sampling distribution of the statistic equals the true population parameter"
     ],
-    "answer": 4,
-    "explanation": "An unbiased estimator is one where the mean of its sampling distribution equals the true population parameter — on average across many samples, the estimator hits the target. Choice B is wrong because individual sample statistics will vary around the parameter; they won't always equal it. Choice C describes precision/variability, not bias. Choice D confuses bias with sampling error, which always exists. Choice A describes the method of data collection, not the property of the estimator."
+    "answer": 3,
+    "explanation": "An unbiased estimator is one where the mean of its sampling distribution equals the true population parameter — on average across many samples, the estimator hits the target. Choice B is wrong because individual sample statistics will vary around the parameter; they won't always equal it. Choice C describes precision/variability, not bias. Choice A confuses bias with sampling error, which always exists. Choice E describes the method of data collection, not the property of the estimator."
   },
   {
     "id": "stats_u5_q110",
@@ -6510,14 +6179,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "Two statisticians each take random samples from the same population. Statistician A uses a sample of size 25 and Statistician B uses a sample of size 100. Which of the following statements about their sampling distributions of the sample mean is correct?",
     "choices": [
-      "The standard deviations cannot be compared unless the shape of the population is known",
+      "Statistician B's sampling distribution has a larger standard deviation because more data introduces more variability",
       "Both sampling distributions have the same standard deviation because they sample from the same population",
       "Statistician A's sampling distribution has a smaller standard deviation because smaller samples are less variable",
-      "Statistician B's sampling distribution has a larger standard deviation because more data introduces more variability",
       "Statistician B's sampling distribution has a smaller standard deviation than Statistician A's"
     ],
-    "answer": 4,
-    "explanation": "The standard deviation of the sampling distribution (standard error) equals sigma/sqrt(n). Since Statistician B has a larger n, her standard error is smaller: sigma/sqrt(100) = sigma/10 vs. sigma/sqrt(25) = sigma/5. A larger sample produces a less variable sampling distribution. Choice B incorrectly ignores the effect of sample size. Choice C has the relationship backwards. Choice D confuses more data with more variability. Choice A is wrong — the comparison holds regardless of population shape."
+    "answer": 3,
+    "explanation": "The standard deviation of the sampling distribution (standard error) equals sigma/sqrt(n). Since Statistician B has a larger n, her standard error is smaller: sigma/sqrt(100) = sigma/10 vs. sigma/sqrt(25) = sigma/5. A larger sample produces a less variable sampling distribution. Choice B incorrectly ignores the effect of sample size. Choice C has the relationship backwards. Choice A confuses more data with more variability. Choice E is wrong — the comparison holds regardless of population shape."
   },
   {
     "id": "stats_u5_q111",
@@ -6531,14 +6199,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A polling organization wants to estimate the proportion of voters who support a ballot measure. They require that the sampling distribution of the sample proportion be approximately normal. If the true proportion is believed to be about 0.15, what is the minimum sample size needed?",
     "choices": [
-      "100",
+      "10",
       "30",
       "200",
-      "10",
       "67"
     ],
-    "answer": 4,
-    "explanation": "For the sampling distribution of a proportion to be approximately normal, we need np ≥ 10 and n(1-p) ≥ 10. With p = 0.15: n(0.15) ≥ 10 → n ≥ 66.67, so n ≥ 67. Also n(0.85) ≥ 10 → n ≥ 11.8. The binding condition is np ≥ 10, requiring n ≥ 67. Choice B (n=30) only satisfies the CLT rule of thumb for means, not the proportion normality condition. Choice D is far too small. Choices C and E exceed the minimum but 67 is the correct minimum."
+    "answer": 3,
+    "explanation": "For the sampling distribution of a proportion to be approximately normal, we need np ≥ 10 and n(1-p) ≥ 10. With p = 0.15: n(0.15) ≥ 10 → n ≥ 66.67, so n ≥ 67. Also n(0.85) ≥ 10 → n ≥ 11.8. The binding condition is np ≥ 10, requiring n ≥ 67. Choice B (n=30) only satisfies the CLT rule of thumb for means, not the proportion normality condition. Choice A is far too small. Choices C and E exceed the minimum but 67 is the correct minimum."
   },
   {
     "id": "stats_u5_q112",
@@ -6552,14 +6219,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A normally distributed population has mean 80 and standard deviation 10. A random sample of size 25 is drawn. What is the probability that the sample mean is greater than 83?",
     "choices": [
-      "0.4332",
+      "0.0228",
       "0.3821",
       "0.1587",
-      "0.0228",
       "0.0668"
     ],
-    "answer": 4,
-    "explanation": "The sampling distribution of the mean has mean 80 and standard error = 10/sqrt(25) = 2. The z-score is (83-80)/2 = 1.5. P(Z > 1.5) = 1 - 0.9332 = 0.0668. Choice C uses z = (83-80)/10 = 0.3, treating the standard deviation as the standard error (common error of forgetting to divide by sqrt(n)). Choice D corresponds to z = 2.0. Choice B is associated with z = 0.3 from the right. Choice A is a partial area calculation error."
+    "answer": 3,
+    "explanation": "The sampling distribution of the mean has mean 80 and standard error = 10/sqrt(25) = 2. The z-score is (83-80)/2 = 1.5. P(Z > 1.5) = 1 - 0.9332 = 0.0668. Choice C uses z = (83-80)/10 = 0.3, treating the standard deviation as the standard error (common error of forgetting to divide by sqrt(n)). Choice A corresponds to z = 2.0. Choice B is associated with z = 0.3 from the right. Choice E is a partial area calculation error."
   },
   {
     "id": "stats_u5_q113",
@@ -6573,14 +6239,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "The Central Limit Theorem applies to which of the following situations?",
     "choices": [
-      "The sampling distribution of the sample mean only when the population is normal",
+      "Any statistic computed from a sample when the population is normal",
       "Individual observations drawn from any population with a large sample size",
       "The population distribution becoming normal as sample size increases",
-      "Any statistic computed from a sample when the population is normal",
       "The sampling distribution of the sample mean from a non-normal population when the sample size is large"
     ],
-    "answer": 4,
-    "explanation": "The CLT states that the sampling distribution of the sample mean approaches normality as the sample size increases, regardless of the population's shape — this is most powerful (and most needed) for non-normal populations. Choice B misapplies CLT to individual observations; the CLT is about the distribution of sample means, not individual values. Choice C reverses the logic — the population doesn't change, the sampling distribution does. Choice D is overly restrictive. Choice A is backwards — for normal populations, the sampling distribution is already normal for any n."
+    "answer": 3,
+    "explanation": "The CLT states that the sampling distribution of the sample mean approaches normality as the sample size increases, regardless of the population's shape — this is most powerful (and most needed) for non-normal populations. Choice B misapplies CLT to individual observations; the CLT is about the distribution of sample means, not individual values. Choice C reverses the logic — the population doesn't change, the sampling distribution does. Choice A is overly restrictive. Choice E is backwards — for normal populations, the sampling distribution is already normal for any n."
   },
   {
     "id": "stats_u5_q114",
@@ -6594,14 +6259,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A population has mean 120 and standard deviation 24. Random samples of size n are repeatedly drawn and the sample mean is recorded each time. As n increases from 16 to 64, which of the following describes what happens to the sampling distribution of the sample mean?",
     "choices": [
-      "The mean stays the same and the standard deviation increases",
+      "The mean decreases and the standard deviation decreases",
       "The mean increases and the standard deviation decreases",
       "The mean stays the same and the standard deviation stays the same",
-      "The mean decreases and the standard deviation decreases",
       "The mean stays the same and the standard deviation decreases"
     ],
-    "answer": 4,
-    "explanation": "The mean of the sampling distribution always equals the population mean (120) regardless of n — this is the unbiasedness property. The standard deviation (standard error) = 24/sqrt(n), so as n increases from 16 to 64, the SE decreases from 24/4 = 6 to 24/8 = 3. The mean is unchanged, the variability decreases. Choice B incorrectly states the mean increases. Choice C ignores the effect of sample size on SE. Choice D incorrectly states the mean decreases. Choice A has the direction of change for SE backwards."
+    "answer": 3,
+    "explanation": "The mean of the sampling distribution always equals the population mean (120) regardless of n — this is the unbiasedness property. The standard deviation (standard error) = 24/sqrt(n), so as n increases from 16 to 64, the SE decreases from 24/4 = 6 to 24/8 = 3. The mean is unchanged, the variability decreases. Choice B incorrectly states the mean increases. Choice C ignores the effect of sample size on SE. Choice A incorrectly states the mean decreases. Choice E has the direction of change for SE backwards."
   },
   {
     "id": "stats_u5_q115",
@@ -6615,14 +6279,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "In a large city, 60% of residents recycle regularly. A random sample of 200 residents is taken. What is the mean and standard deviation of the sampling distribution of the sample proportion?",
     "choices": [
-      "Mean = 0.60, SD = 0.0600",
       "Mean = 0.60, SD = 0.0012",
+      "Mean = 0.60, SD = 0.0346",
       "Mean = 120, SD = 6.93",
-      "Mean = 0.60, SD = 0.4899",
-      "Mean = 0.60, SD = 0.0346"
+      "Mean = 0.60, SD = 0.4899"
     ],
-    "answer": 4,
-    "explanation": "The mean of the sampling distribution of p-hat equals p = 0.60. The standard deviation = sqrt(p(1-p)/n) = sqrt(0.60 × 0.40 / 200) = sqrt(0.0012) ≈ 0.0346. Choice B gives the variance (0.0012) instead of the standard deviation. Choice C gives counts rather than proportions (np = 120, sqrt(np(1-p)) = 6.93). Choice D gives sqrt(p(1-p)) = sqrt(0.24) ≈ 0.4899, omitting division by n. Choice A has no clear mathematical basis."
+    "answer": 1,
+    "explanation": "The mean of the sampling distribution of p-hat equals p = 0.60. The standard deviation = sqrt(p(1-p)/n) = sqrt(0.60 × 0.40 / 200) = sqrt(0.0012) ≈ 0.0346. Choice A gives the variance (0.0012) instead of the standard deviation. Choice C gives counts rather than proportions (np = 120, sqrt(np(1-p)) = 6.93). Choice D gives sqrt(p(1-p)) = sqrt(0.24) ≈ 0.4899, omitting division by n. Choice E has no clear mathematical basis."
   },
   {
     "id": "stats_u5_q116",
@@ -6636,14 +6299,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A random variable X has a uniform distribution on the interval [0, 10], so its mean is 5 and its standard deviation is approximately 2.887. Which of the following is the best description of the distribution of the sample mean for samples of size 40?",
     "choices": [
-      "Uniform with mean 5 and standard deviation approximately 2.887",
       "Uniform with mean 5 and standard error approximately 0.456",
-      "Approximately normal with mean 5 and standard error approximately 2.887",
       "Approximately normal with mean 5 and standard error approximately 0.456",
-      "Cannot be determined without knowing if the population is normal"
+      "Approximately normal with mean 5 and standard error approximately 2.887",
+      "Uniform with mean 5 and standard deviation approximately 2.887"
     ],
-    "answer": 3,
-    "explanation": "By the Central Limit Theorem, with n = 40 (which exceeds the guideline of 30), the sampling distribution of the mean is approximately normal regardless of the uniform population shape. Its mean equals the population mean (5), and its standard error = 2.887/sqrt(40) ≈ 0.456. Choice B incorrectly retains the uniform shape. Choice C uses the population SD instead of the standard error (forgetting to divide by sqrt(n)). Choice A retains both the uniform shape and population SD. Choice E is a common misconception — the CLT does not require a normal population."
+    "answer": 1,
+    "explanation": "By the Central Limit Theorem, with n = 40 (which exceeds the guideline of 30), the sampling distribution of the mean is approximately normal regardless of the uniform population shape. Its mean equals the population mean (5), and its standard error = 2.887/sqrt(40) ≈ 0.456. Choice A incorrectly retains the uniform shape. Choice C uses the population SD instead of the standard error (forgetting to divide by sqrt(n)). Choice D retains both the uniform shape and population SD. Choice E is a common misconception — the CLT does not require a normal population."
   },
   {
     "id": "stats_u5_q117",
@@ -6657,14 +6319,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A researcher computes the median of each random sample and uses it to estimate the population mean. Assuming the population is symmetric, which of the following is most accurate?",
     "choices": [
-      "The sample median cannot be used to estimate the population mean under any circumstances",
       "The sample median is always a biased estimator of the population mean regardless of population shape",
-      "The sample median is a biased estimator because medians are never unbiased",
       "The sample median is an unbiased estimator of the population mean because for symmetric distributions, the mean and median are equal",
-      "The sample median is unbiased only when the sample size exceeds 30"
+      "The sample median is a biased estimator because medians are never unbiased",
+      "The sample median cannot be used to estimate the population mean under any circumstances"
     ],
-    "answer": 3,
-    "explanation": "For a symmetric distribution, the population mean and population median are equal. Therefore, the sample median (which is an unbiased estimator of the population median) is also an unbiased estimator of the population mean in this case. Choice B is incorrect — the bias depends on the shape of the distribution. Choice C is a blanket false statement. Choice A incorrectly rules out using the median as an estimator entirely. Choice E invokes the n > 30 rule, which relates to the CLT and normality of the sampling distribution, not to unbiasedness of the median."
+    "answer": 1,
+    "explanation": "For a symmetric distribution, the population mean and population median are equal. Therefore, the sample median (which is an unbiased estimator of the population median) is also an unbiased estimator of the population mean in this case. Choice A is incorrect — the bias depends on the shape of the distribution. Choice C is a blanket false statement. Choice D incorrectly rules out using the median as an estimator entirely. Choice E invokes the n > 30 rule, which relates to the CLT and normality of the sampling distribution, not to unbiasedness of the median."
   },
   {
     "id": "stats_u5_q118",
@@ -6678,14 +6339,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A quality control engineer samples 9 batteries from an approximately normal production line. The population mean lifetime is 500 hours with standard deviation 30 hours. What is the probability that the sample mean lifetime is between 490 and 510 hours?",
     "choices": [
-      "0.9544",
       "0.3174",
-      "0.2586",
       "0.6827",
-      "0.5000"
+      "0.2586",
+      "0.9544"
     ],
-    "answer": 3,
-    "explanation": "The standard error = 30/sqrt(9) = 10. The z-scores: z = (490-500)/10 = -1.0 and z = (510-500)/10 = 1.0. P(-1 < Z < 1) ≈ 0.6827, which is the well-known 68% rule. Choice B is 1 - 0.6827 = 0.3174, the complement. Choice A (0.9544) corresponds to within 2 standard errors. Choice C might arise from using the wrong z table region. Choice E (0.5) reflects a misconception that the interval is centered but only covers half the distribution, or errors in calculation."
+    "answer": 1,
+    "explanation": "The standard error = 30/sqrt(9) = 10. The z-scores: z = (490-500)/10 = -1.0 and z = (510-500)/10 = 1.0. P(-1 < Z < 1) ≈ 0.6827, which is the well-known 68% rule. Choice A is 1 - 0.6827 = 0.3174, the complement. Choice D (0.9544) corresponds to within 2 standard errors. Choice C might arise from using the wrong z table region. Choice E (0.5) reflects a misconception that the interval is centered but only covers half the distribution, or errors in calculation."
   },
   {
     "id": "stats_u5_q119",
@@ -6699,14 +6359,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "Which of the following correctly distinguishes the standard deviation of a population from the standard error of the mean?",
     "choices": [
-      "The standard error is always larger than the standard deviation",
+      "The standard deviation measures variability among individual values; the standard error measures variability among sample means",
       "The standard deviation measures variability among sample means; the standard error measures variability among individual values",
       "The standard deviation and standard error are the same quantity, just named differently in different contexts",
-      "The standard deviation measures variability among individual values; the standard error measures variability among sample means",
-      "The standard deviation applies only to normal distributions; the standard error applies to all distributions"
+      "The standard error is always larger than the standard deviation"
     ],
-    "answer": 3,
-    "explanation": "The standard deviation (sigma) describes how individual data values vary around the population mean. The standard error (sigma/sqrt(n)) describes how sample means vary around the population mean across repeated samples. Choice B reverses the definitions. Choice C is a common confusion — they are related but distinct concepts. Choice A has the relationship backwards: SE = sigma/sqrt(n) ≤ sigma for n ≥ 1. Choice E is incorrect — the standard deviation applies to any distribution."
+    "answer": 0,
+    "explanation": "The standard deviation (sigma) describes how individual data values vary around the population mean. The standard error (sigma/sqrt(n)) describes how sample means vary around the population mean across repeated samples. Choice B reverses the definitions. Choice C is a common confusion — they are related but distinct concepts. Choice D has the relationship backwards: SE = sigma/sqrt(n) ≤ sigma for n ≥ 1. Choice E is incorrect — the standard deviation applies to any distribution."
   },
   {
     "id": "stats_u5_q120",
@@ -6720,14 +6379,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "Population A has standard deviation 10 and Population B has standard deviation 30. Independent random samples of size 100 are taken from each. Which population's sampling distribution of the sample mean will have greater variability, and why?",
     "choices": [
-      "Population B will have less variability because larger populations produce more stable estimates",
+      "Population B, because its larger standard deviation produces a larger standard error for the same sample size",
       "Population A, because smaller standard deviations are easier to estimate accurately",
       "Both will have equal variability, because the same sample size was used",
-      "Population B, because its larger standard deviation produces a larger standard error for the same sample size",
-      "It is impossible to compare variability across different populations"
+      "Population B will have less variability because larger populations produce more stable estimates"
     ],
-    "answer": 3,
-    "explanation": "The standard error of the mean is sigma/sqrt(n). For Population A: 10/sqrt(100) = 1. For Population B: 30/sqrt(100) = 3. Population B has greater variability in its sampling distribution because its larger population standard deviation directly increases the standard error. Choice B incorrectly inverts the relationship. Choice C ignores the role of sigma — same n does not mean same SE. Choice A confuses population size with population standard deviation. Choice E is wrong — comparisons are straightforward using the SE formula."
+    "answer": 0,
+    "explanation": "The standard error of the mean is sigma/sqrt(n). For Population A: 10/sqrt(100) = 1. For Population B: 30/sqrt(100) = 3. Population B has greater variability in its sampling distribution because its larger population standard deviation directly increases the standard error. Choice B incorrectly inverts the relationship. Choice C ignores the role of sigma — same n does not mean same SE. Choice D confuses population size with population standard deviation. Choice E is wrong — comparisons are straightforward using the SE formula."
   },
   {
     "id": "stats_u5_q121",
@@ -6741,14 +6399,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A researcher is studying a population that is severely right-skewed. She takes all possible random samples of size n = 5 and plots the distribution of the sample means. Which of the following best describes this distribution?",
     "choices": [
-      "Identical in shape to the original population distribution",
+      "Still right-skewed, but less so than the original population",
       "Approximately normal, because the Central Limit Theorem applies for any sample size",
       "Exactly normal, because means of any samples are always normally distributed",
-      "Still right-skewed, but less so than the original population",
-      "Symmetric, because sample means always produce symmetric distributions regardless of sample size"
+      "Identical in shape to the original population distribution"
     ],
-    "answer": 3,
-    "explanation": "With n = 5, the sample size is too small for the CLT to produce approximate normality in a severely skewed population. The sampling distribution will still be right-skewed, though less so than the original population because averaging reduces extreme values. Choice B incorrectly applies the CLT to small samples — the CLT requires large samples (n ≥ 30 as a general guideline). Choice C is wrong — means are normally distributed only when the population is normal or n is large enough. Choice A would be true if n = 1. Choice E is wrong because symmetry is not guaranteed by small sample averaging."
+    "answer": 0,
+    "explanation": "With n = 5, the sample size is too small for the CLT to produce approximate normality in a severely skewed population. The sampling distribution will still be right-skewed, though less so than the original population because averaging reduces extreme values. Choice B incorrectly applies the CLT to small samples — the CLT requires large samples (n ≥ 30 as a general guideline). Choice C is wrong — means are normally distributed only when the population is normal or n is large enough. Choice D would be true if n = 1. Choice E is wrong because symmetry is not guaranteed by small sample averaging."
   },
   {
     "id": "stats_u5_q122",
@@ -6765,8 +6422,7 @@ var APSTATS_MCQ = [
       "Approximately normal, mean = 0.40, standard deviation = 0.049",
       "Approximately normal, mean = 0.40, standard deviation = 0.0024",
       "Skewed right, mean = 0.40, standard deviation = 0.049",
-      "Approximately normal, mean = 40, standard deviation = 4.9",
-      "Approximately normal, mean = 0.40, standard deviation = 0.24"
+      "Approximately normal, mean = 40, standard deviation = 4.9"
     ],
     "answer": 0,
     "explanation": "The standard deviation of the sampling distribution of p-hat is sqrt(p(1-p)/n) = sqrt(0.40 * 0.60 / 100) = sqrt(0.0024) ≈ 0.049. Since np = 40 ≥ 10 and n(1-p) = 60 ≥ 10, the shape is approximately normal, and the center is p = 0.40. Choice B uses the variance (0.0024) instead of the standard deviation. Choice C incorrectly claims skewness when conditions are met. Choice D confuses proportions with counts. Choice E uses sqrt(p(1-p)) without dividing by n."
@@ -6786,8 +6442,7 @@ var APSTATS_MCQ = [
       "About 0.023",
       "About 0.069",
       "About 0.308",
-      "About 0.159",
-      "About 0.046"
+      "About 0.159"
     ],
     "answer": 0,
     "explanation": "The standard error of the mean is 1.2 / sqrt(16) = 1.2 / 4 = 0.30. The z-score is (6.6 - 6) / 0.30 = 2.0. P(Z > 2.0) ≈ 0.023. Choice B uses standard deviation 1.2 directly without dividing by sqrt(n). Choice C corresponds to a z-score near 0.5, a computation error. Choice D corresponds to z = 1.0, which would result from using sqrt(n) = 2 instead of 4. Choice E corresponds to a two-tailed probability of z = 2.0, incorrectly doubling the one-tail area."
@@ -6807,8 +6462,7 @@ var APSTATS_MCQ = [
       "The sampling distribution of the sample mean will be approximately normal because the sample size is large enough.",
       "The sampling distribution of the sample mean will also be right-skewed because the population is right-skewed.",
       "The sampling distribution of the sample mean will be approximately normal only if the population is first transformed to be symmetric.",
-      "The central limit theorem does not apply here because income data cannot be normal.",
-      "The sampling distribution of the sample mean will be approximately normal only if the sample size is at least 100."
+      "The central limit theorem does not apply here because income data cannot be normal."
     ],
     "answer": 0,
     "explanation": "The Central Limit Theorem states that for sufficiently large sample sizes (generally n ≥ 30 is used as a guideline), the sampling distribution of the sample mean will be approximately normal regardless of the shape of the population distribution. With n = 36, this condition is satisfied. Choice B is a common misconception — the shape of the population does not dictate the shape of the sampling distribution when n is large. Choice C is incorrect; no transformation of the population is needed. Choice D misunderstands CLT — it applies regardless of the population distribution. Choice E overstates the required sample size; n = 30 is the common guideline, not 100."
@@ -6828,8 +6482,7 @@ var APSTATS_MCQ = [
       "The mean of the sampling distribution of the statistic equals the population parameter.",
       "The statistic always equals the population parameter in every sample.",
       "The standard deviation of the statistic is very small.",
-      "The statistic is calculated from a large random sample.",
-      "The sampling distribution of the statistic is approximately normal."
+      "The statistic is calculated from a large random sample."
     ],
     "answer": 0,
     "explanation": "An unbiased estimator is defined as a statistic whose sampling distribution has a mean equal to the true population parameter — meaning that on average across many samples, the statistic correctly targets the parameter. Choice B confuses unbiasedness with perfection; individual sample statistics will vary around the parameter, not equal it exactly. Choice C describes precision/low variability, which relates to efficiency, not unbiasedness. Choice D confuses unbiasedness with properties of large samples; sample size affects variability but not whether an estimator is unbiased. Choice E describes the shape of the sampling distribution, which is unrelated to whether the estimator is unbiased."
@@ -6849,8 +6502,7 @@ var APSTATS_MCQ = [
       "Estimator Y is preferred because it has less variability, making it more likely to produce estimates close to the true parameter.",
       "Estimator X is preferred because a larger spread means it captures the parameter more often.",
       "Neither estimator is preferred because both are unbiased.",
-      "Estimator Y is preferred because its sampling distribution must be approximately normal.",
-      "Estimator X is preferred because larger standard deviations indicate more data was used."
+      "Estimator Y is preferred because its sampling distribution must be approximately normal."
     ],
     "answer": 0,
     "explanation": "When two estimators are both unbiased, the preferred estimator is the one with less variability (smaller standard deviation), because it consistently produces estimates closer to the true parameter. Estimator Y, with a standard deviation of 1.8 compared to X's 3.2, is therefore preferred. Choice B incorrectly interprets larger spread as an advantage — more spread means estimates are farther from the parameter on average. Choice C is a common trap: unbiasedness alone is not sufficient to prefer one estimator; variability also matters. Choice D incorrectly ties normality to variability; a smaller standard deviation says nothing about the shape. Choice E incorrectly assumes that a larger standard deviation means more data was collected, which is not a valid inference."
@@ -6870,8 +6522,7 @@ var APSTATS_MCQ = [
       "np ≥ 10 and n(1−p) ≥ 10 are satisfied; mean = 0.30, SD = √(0.30·0.70/200)",
       "np ≥ 10 and n(1−p) ≥ 10 are satisfied; mean = 0.30, SD = √(0.30·0.70·200)",
       "The sample size n = 200 is large enough on its own; mean = 0.30, SD = √(0.30·0.70/200)",
-      "np ≥ 10 and n(1−p) ≥ 10 are satisfied; mean = p̂, SD = √(p̂·(1−p̂)/200)",
-      "The Central Limit Theorem applies directly to proportions; mean = 0.30, SD = 0.30/√200"
+      "np ≥ 10 and n(1−p) ≥ 10 are satisfied; mean = p̂, SD = √(p̂·(1−p̂)/200)"
     ],
     "answer": 0,
     "explanation": "The correct normality condition for a sampling distribution of a proportion requires both np ≥ 10 AND n(1−p) ≥ 10 (here 200·0.30 = 60 and 200·0.70 = 140, both ≥ 10). The mean of the sampling distribution equals the true population proportion p = 0.30, and the standard deviation (standard error) is √(p(1−p)/n) = √(0.21/200). Choice B incorrectly multiplies rather than divides by n. Choice C incorrectly states that sample size alone is the condition — the actual condition involves both np and n(1−p). Choice D uses p̂ instead of the true p in the formula, which is appropriate only when estimating; here the true p is given. Choice E applies the mean/SD formula for a sample mean (σ/√n) to proportions, which is incorrect."
@@ -6891,8 +6542,7 @@ var APSTATS_MCQ = [
       "Both distributions are centered at 50, but Researcher B's distribution has half the standard deviation of Researcher A's.",
       "Both distributions are centered at 50, but Researcher B's distribution has one-fourth the standard deviation of Researcher A's.",
       "Researcher B's distribution is centered at a lower value because larger samples produce less bias.",
-      "Both distributions are centered at 50 with the same standard deviation because they sample from the same population.",
-      "Researcher A's distribution is more normal because smaller samples better satisfy the Central Limit Theorem."
+      "Both distributions are centered at 50 with the same standard deviation because they sample from the same population."
     ],
     "answer": 0,
     "explanation": "The standard deviation of x̄ is σ/√n. For Researcher A: 12/√36 = 12/6 = 2. For Researcher B: 12/√144 = 12/12 = 1. Since 1 is half of 2, Researcher B's sampling distribution has half the standard deviation of Researcher A's. Both are unbiased estimators centered at μ = 50. Choice B is wrong because the ratio of standard deviations is 1:2 (half), not 1:4 (one-fourth) — students often confuse the ratio of variances (which is 1:4) with the ratio of standard deviations. Choice C is wrong because larger samples do not reduce bias; the mean of the sampling distribution is always μ regardless of n. Choice D ignores that variability decreases with larger n. Choice E is backwards — the CLT is more effective (distribution more normal) with larger samples, not smaller ones."
@@ -6912,8 +6562,7 @@ var APSTATS_MCQ = [
       "The sampling distribution will be approximately normal because the Central Limit Theorem applies for any sample size.",
       "The sampling distribution will be right-skewed because n = 9 is too small for the Central Limit Theorem to guarantee approximate normality.",
       "The sampling distribution will be exactly normal because the population mean and standard deviation are known.",
-      "The sampling distribution will be approximately normal because the population mean is large relative to the standard deviation.",
-      "The sampling distribution will be approximately uniform because repeated sampling smooths out skewness."
+      "The sampling distribution will be approximately normal because the population mean is large relative to the standard deviation."
     ],
     "answer": 1,
     "explanation": "The Central Limit Theorem guarantees approximate normality of the sampling distribution of x̄ for large enough n — typically n ≥ 30 is used as a guideline, but for heavily skewed populations even larger samples may be needed. With n = 9 and a strongly skewed population, the sampling distribution will still exhibit noticeable right skewness; the CLT has not yet 'kicked in.' Choice A is wrong because the CLT does NOT apply for any sample size — n must be sufficiently large, especially for non-normal populations. Choice C confuses knowing population parameters with the shape of the distribution; normality of the sampling distribution depends on n and population shape, not on whether parameters are known. Choice D is a nonsensical criterion — the ratio of mean to SD has no bearing on the CLT. Choice E is incorrect; repeated sampling does not produce a uniform distribution."
@@ -6933,8 +6582,7 @@ var APSTATS_MCQ = [
       "Both statements are correct: increasing n fourfold and halving σ each reduce the standard error by half.",
       "Only the first statement is correct: quadrupling n halves the standard error, but σ is a fixed population parameter that researchers cannot manipulate.",
       "Only the second statement is correct: halving σ halves the standard error, but quadrupling n reduces it by a factor of four, not two.",
-      "Both statements are incorrect: quadrupling n reduces the standard error by a factor of four, and halving σ reduces it by a factor of four as well.",
-      "Both statements are correct mathematically, but only changing σ is practically achievable because n cannot be controlled."
+      "Both statements are incorrect: quadrupling n reduces the standard error by a factor of four, and halving σ reduces it by a factor of four as well."
     ],
     "answer": 0,
     "explanation": "The standard error of the mean is σ/√n. If n increases from 100 to 400, √n goes from 10 to 20, so SE is halved — the first claim is correct. If σ is halved (from σ to σ/2), then SE = (σ/2)/√n = (1/2)(σ/√n), also halving the SE — the second claim is mathematically correct as well. So Choice A is correct: both statements are mathematically valid. Choice B incorrectly rejects the second claim on practical grounds while the question is about mathematical correctness. Choice C is wrong — quadrupling n does halve the SE (not reduce by 4). Choice D is wrong on both counts. Choice E is wrong because the question evaluates mathematical correctness, and also because n is very much controllable by researchers."
@@ -6954,8 +6602,7 @@ var APSTATS_MCQ = [
       "The sample median is an unbiased estimator of the population mean because for symmetric distributions the population mean and median are equal.",
       "The sample median is a biased estimator of the population mean because it does not use all data values in its calculation.",
       "The sample median is always less efficient than the sample mean regardless of the shape of the distribution.",
-      "The sample median is an unbiased estimator of the population mean for all population shapes.",
-      "The sample median is biased because it estimates the population median, not the population mean."
+      "The sample median is an unbiased estimator of the population mean for all population shapes."
     ],
     "answer": 0,
     "explanation": "For a symmetric unimodal distribution, the population mean and population median are equal. Therefore, the expected value of the sample median equals the population median, which in turn equals the population mean, making the sample median an unbiased estimator of the population mean in this specific context. Choice B is wrong — the calculation method (using all values or not) does not determine bias; bias is determined by whether E(statistic) = parameter. Choice C is wrong because it overclaims: for some heavy-tailed symmetric distributions (e.g., Cauchy), the median can actually be more efficient than the mean. Choice D overclaims — the sample median is NOT an unbiased estimator of the population mean for asymmetric distributions where mean ≠ median. Choice E conflates bias with the estimand: the sample median is an unbiased estimator of the population median always, but since mean = median for symmetric unimodal distributions, it is also unbiased for the mean in this context."
@@ -6975,8 +6622,7 @@ var APSTATS_MCQ = [
       "The student should use n = 399 (n − 1) in the denominator to correct for bias.",
       "The student is confusing the standard deviation of the sampling distribution with the standard error used in inference; p̂ = 0.48 is not the true population proportion p, so using it to describe the theoretical sampling distribution is conceptually flawed.",
       "The student cannot use the normal approximation because np̂ < 10.",
-      "The student should multiply by √400 instead of dividing to find the standard deviation.",
-      "There is no error; using p̂ in place of p is always acceptable when constructing sampling distributions."
+      "The student should multiply by √400 instead of dividing to find the standard deviation."
     ],
     "answer": 1,
     "explanation": "The key conceptual error is that the sampling distribution of p̂ is characterized by the TRUE population proportion p, not by the observed sample proportion p̂. When constructing the theoretical sampling distribution (for hypothesis testing or understanding the distribution), we use the parameter p. Using p̂ = 0.48 to describe the sampling distribution conflates the sample estimate with the population parameter — a fundamental distinction in AP Statistics. In inference (confidence intervals), we use p̂ because p is unknown, but this is called the estimated standard error, not the true standard deviation of the sampling distribution. Choice A is wrong — n−1 is used for sample standard deviation (Bessel's correction), not for the standard error of a proportion. Choice C is wrong because 400·0.48 = 192 >> 10, so the normal approximation is valid. Choice D is wrong — dividing by n under the square root is correct. Choice E is the trap that students fall into; it is NOT always acceptable, and the distinction matters conceptually."
@@ -6996,10 +6642,9 @@ var APSTATS_MCQ = [
       "The CLT states that the sampling distribution of the sample mean approaches normality as sample size increases, regardless of the shape of the population distribution.",
       "The CLT applies to the sampling distribution of the sample mean, not to individual observations drawn from the population.",
       "For a population that is already normally distributed, the sampling distribution of the sample mean is exactly normal for any sample size n ≥ 1.",
-      "The CLT implies that for sufficiently large n, about 95% of sample means will fall within approximately 2 standard errors of the population mean.",
       "The CLT guarantees that for large n, the population distribution itself will become approximately normal."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "Choice E is FALSE and is the correct answer. The CLT says nothing about the population distribution changing shape — the population distribution is fixed and does not become more normal as sample size increases. The CLT only describes the behavior of the SAMPLING DISTRIBUTION of the sample mean. This is a critical and common misconception. Choice A is a true statement of the CLT. Choice B is true and important — individual observations still follow the population distribution, not the sampling distribution. Choice C is true — if the population is normal, the sampling distribution of x̄ is exactly normal for any n (not just large n). Choice D is true — since the sampling distribution is approximately normal for large n, the empirical rule applies, so about 95% of x̄ values fall within ≈2 SEs of μ."
   },
   {
@@ -7017,8 +6662,7 @@ var APSTATS_MCQ = [
       "Dividing by n − 1 makes s² an unbiased estimator of the population variance σ², because dividing by n would systematically underestimate σ² due to using x̄ instead of μ.",
       "Dividing by n − 1 reduces the standard error of s², making it a more efficient estimator of σ².",
       "Dividing by n − 1 ensures that the sampling distribution of s² is exactly normal for all sample sizes.",
-      "Dividing by n − 1 is a convention that only matters when n is small; for large n, both formulas give nearly identical results and both are unbiased.",
-      "Dividing by n − 1 accounts for the fact that one observation in the sample is always equal to x̄, reducing the effective sample size."
+      "Dividing by n − 1 is a convention that only matters when n is small; for large n, both formulas give nearly identical results and both are unbiased."
     ],
     "answer": 0,
     "explanation": "The actual reason for the n−1 denominator (Bessel's correction) is to make s² an unbiased estimator of σ². When we compute deviations from x̄ rather than from the true population mean μ, the deviations tend to be slightly smaller (because x̄ minimizes the sum of squared deviations for that particular sample). Dividing by n would produce E(s²) < σ², a systematic underestimate. Dividing by n−1 corrects for this, yielding E(s²) = σ². The student's explanation about being 'conservative' and 'safer' is vague and incorrect as a statistical justification. Choice B is wrong — unbiasedness and efficiency are different properties; the n−1 denominator addresses bias, not efficiency. Choice C is wrong — the shape of the sampling distribution of s² follows a chi-squared distribution, not normal. Choice D is partially true numerically but false on 'both are unbiased' — the n denominator version is always biased, just less so for large n. Choice E describes losing a 'degree of freedom,' which is the intuition, but mischaracterizes it — no observation equals x̄ necessarily; we lose one degree of freedom because x̄ is estimated from the data."
@@ -7038,8 +6682,7 @@ var APSTATS_MCQ = [
       "P(Z < −1.0) ≈ 0.159, using SE = 0.5/√25 = 0.1 and z = (11.9 − 12)/0.1 = −1.0",
       "P(Z < −0.2) ≈ 0.421, using the individual observation SD of 0.5 and z = (11.9 − 12)/0.5 = −0.2",
       "P(Z < −5.0) ≈ 0.000, using SE = 0.5·√25 = 2.5 and z = (11.9 − 12)/2.5 = −0.04",
-      "P(Z < −1.0) ≈ 0.159, using SE = 0.5·25 = 12.5 and z = (11.9 − 12)/12.5",
-      "P(Z < −2.0) ≈ 0.023, using SE = 0.5/25 = 0.02 and z = (11.9 − 12)/0.02 = −5.0"
+      "P(Z < −1.0) ≈ 0.159, using SE = 0.5·25 = 12.5 and z = (11.9 − 12)/12.5"
     ],
     "answer": 0,
     "explanation": "Since the population is normally distributed, the sampling distribution of x̄ is exactly normal for any n. The standard error is SE = σ/√n = 0.5/√25 = 0.5/5 = 0.1. The z-score is z = (x̄ − μ)/SE = (11.9 − 12)/0.1 = −1.0. Thus P(x̄ < 11.9) = P(Z < −1.0) ≈ 0.159. Choice B uses the population SD instead of the SE — this is a classic error of confusing variability of individual observations with variability of the sample mean. Choice C incorrectly multiplies σ·√n instead of dividing. Choice D multiplies σ·n (no square root at all), another misconception. Choice E divides σ by n instead of √n, another frequent error students make when they forget the square root."
@@ -7059,8 +6702,7 @@ var APSTATS_MCQ = [
       "The student is wrong only about the shape: the second histogram will be more bell-shaped, but the spread will be the same.",
       "The student is wrong about both shape and spread: the second histogram will be more normal in shape AND will have a standard deviation of 15/√25 = 3, much narrower than the first.",
       "The student is wrong only about the spread: both histograms will be bell-shaped if the population is normal, but the second has a smaller standard deviation.",
-      "The student is correct because both histograms display values measured in the same units (test scores), so they must have the same distribution.",
-      "The student is wrong because the second histogram represents means of samples, which will have greater variability than individual scores since averaging introduces more randomness."
+      "The student is correct because both histograms display values measured in the same units (test scores), so they must have the same distribution."
     ],
     "answer": 1,
     "explanation": "The student conflates the distribution of individual values with the distribution of sample means. The sampling distribution of x̄ differs from the population distribution in two key ways: (1) Shape — by the CLT, it is more approximately normal even if the population is not, and (2) Spread — the standard deviation of x̄ is σ/√n = 15/√25 = 3, far less than the population SD of 15. Both corrections are needed, making B the most complete answer. Choice A addresses shape but incorrectly says the spread is the same — this is a significant error. Choice C is partially right for a normal population but fails to address the shape improvement that CLT provides for non-normal populations, and is therefore less complete. Choice D is the student's own incorrect reasoning restated. Choice E is exactly backward — averaging reduces variability, not increases it; larger n leads to smaller SE."
@@ -7080,8 +6722,7 @@ var APSTATS_MCQ = [
       "The true population proportion of students who eat breakfast daily",
       "The probability that exactly 80 students eat breakfast daily",
       "The proportion of students in the sample who eat breakfast daily",
-      "The probability that the researcher's sample is correct",
-      "The average number of students who eat breakfast daily"
+      "The probability that the researcher's sample is correct"
     ],
     "answer": 0,
     "explanation": "A confidence interval for a proportion is designed to estimate the true population proportion. The sample proportion (80/200 = 0.40) is already known — it is the point estimate used to build the interval. The interval itself gives a range of plausible values for the unknown population parameter. Choice B confuses probability with the interval's purpose. Choice C is the known sample statistic, not what the interval estimates. Choice D misinterprets confidence level as probability of correctness. Choice E confuses proportion with a mean or count."
@@ -7101,8 +6742,7 @@ var APSTATS_MCQ = [
       "Reject H0; there is sufficient evidence that p ≠ 0.50",
       "Fail to reject H0; there is insufficient evidence that p ≠ 0.50",
       "Accept H0; the true proportion is 0.50",
-      "Reject H0; the true proportion is proven to be different from 0.50",
-      "Fail to reject H0; the p-value is too small to be significant"
+      "Reject H0; the true proportion is proven to be different from 0.50"
     ],
     "answer": 0,
     "explanation": "Since the p-value (0.03) is less than the significance level (0.05), we reject H0. The correct conclusion is that there is sufficient evidence to conclude p ≠ 0.50. Choice B is wrong because a p-value below α leads to rejection, not failure to reject. Choice C is incorrect because we never 'accept' the null hypothesis — we only fail to reject it. Choice D is wrong because rejecting H0 does not prove the alternative is true; it only provides evidence for it. Choice E has the logic backwards — a smaller p-value means more evidence against H0."
@@ -7122,8 +6762,7 @@ var APSTATS_MCQ = [
       "We are 95% confident that the proportion of men who prefer the brand is between 0.04 and 0.18 higher than the proportion of women",
       "There is a 95% probability that men prefer the brand more than women",
       "We are 95% confident that the proportion of women who prefer the brand is between 0.04 and 0.18 higher than the proportion of men",
-      "95% of men prefer the brand more than women do",
-      "We are 95% confident that the difference in sample proportions is between 0.04 and 0.18"
+      "95% of men prefer the brand more than women do"
     ],
     "answer": 0,
     "explanation": "The interval (0.04, 0.18) represents plausible values for p_men - p_women. Since both values are positive, men have a higher proportion by somewhere between 0.04 and 0.18. Choice B misinterprets confidence level as a probability statement about the parameter. Choice C reverses the direction — women minus men would yield a negative interval if men prefer the brand more. Choice D misreads the confidence level as a percentage of men. Choice E is wrong because the interval estimates the population parameter difference, not the sample statistic difference, which is already known."
@@ -7143,8 +6782,7 @@ var APSTATS_MCQ = [
       "The pooled sample proportion, calculated by combining successes and sample sizes from both groups",
       "The average of the two sample proportions",
       "The larger of the two sample proportions",
-      "The sample proportion from the larger sample",
-      "The hypothesized value of 0.50"
+      "The sample proportion from the larger sample"
     ],
     "answer": 0,
     "explanation": "When the null hypothesis states that two population proportions are equal (H0: p1 = p2), we assume a common proportion exists and estimate it using the pooled proportion: p-hat_pooled = (x1 + x2) / (n1 + n2). This pools all successes over all observations. Choice B (averaging the two proportions) ignores differing sample sizes and is not the correct formula. Choice C has no statistical justification. Choice D ignores the smaller sample entirely. Choice E assumes the proportion is 0.50, which is only used when the null specifies a particular value, not when comparing two proportions."
@@ -7164,8 +6802,7 @@ var APSTATS_MCQ = [
       "Concluding the defect rate exceeds 5% when it actually does not",
       "Concluding the defect rate does not exceed 5% when it actually does",
       "Setting the significance level too low",
-      "Using too small a sample size to detect the true defect rate",
-      "Calculating the wrong test statistic"
+      "Using too small a sample size to detect the true defect rate"
     ],
     "answer": 0,
     "explanation": "A Type I error is rejecting a true null hypothesis — concluding that there is an effect or difference when there really is not. Here, H0 states the defect rate is at most 5%. A Type I error means concluding the defect rate exceeds 5% (rejecting H0) when it actually does not. Choice B describes a Type II error — failing to reject a false null hypothesis. Choice C describes a decision about α, not an error type. Choice D describes a power/design issue. Choice E is a procedural mistake, not a Type I error."
@@ -7185,8 +6822,7 @@ var APSTATS_MCQ = [
       "The null hypothesis is not rejected even though it is false",
       "The null hypothesis is rejected even though it is true",
       "The significance level α is set too high",
-      "The confidence interval does not contain the true parameter",
-      "The sample size is larger than necessary"
+      "The confidence interval does not contain the true parameter"
     ],
     "answer": 0,
     "explanation": "A Type II error is defined as failing to reject the null hypothesis when the null hypothesis is actually false. In other words, the test misses a real effect. The probability of a Type II error is denoted β. Choice B describes a Type I error (rejecting a true H0). Choice C is a design decision about α that affects error rates but is not itself an error. Choice D refers to a confidence interval not capturing the parameter, which is a separate concept. Choice E has no relation to error types."
@@ -7206,8 +6842,7 @@ var APSTATS_MCQ = [
       "Increasing the sample size",
       "Decreasing the significance level α from 0.05 to 0.01",
       "Using a two-sided test instead of a one-sided test",
-      "Decreasing the sample size",
-      "Increasing the confidence level of an associated interval"
+      "Decreasing the sample size"
     ],
     "answer": 0,
     "explanation": "Power is the probability of correctly rejecting a false null hypothesis (1 - β). Increasing the sample size reduces variability and makes it easier to detect a true effect, directly increasing power. Choice B is incorrect — decreasing α makes it harder to reject H0, which decreases power and increases the Type II error rate. Choice C is incorrect — switching from a one-sided to a two-sided test generally reduces power for a specific directional alternative. Choice D decreases power by increasing variability. Choice E is related to confidence intervals and does not directly increase power; a higher confidence level corresponds to a lower α, which reduces power."
@@ -7227,8 +6862,7 @@ var APSTATS_MCQ = [
       "the defect rate has not decreased when in fact it has decreased, so a flawed process continues to be used unnecessarily long",
       "the defect rate has decreased when in fact it has not decreased, leading to premature adoption of the new process",
       "the test statistic falls in the rejection region even though the null hypothesis is true",
-      "the significance level was set too low, making it harder to detect a real decrease in defects",
-      "the confidence interval for the true defect rate fails to capture 0.08"
+      "the significance level was set too low, making it harder to detect a real decrease in defects"
     ],
     "answer": 0,
     "explanation": "A Type II error occurs when we fail to reject a false null hypothesis. Here, if the defect rate truly has decreased (Ha is true) but the manager fails to reject H0, they incorrectly conclude there is no decrease — meaning a genuinely improved process is abandoned or delayed. Choice A correctly describes this scenario. Choice B describes a Type I error (rejecting a true H0). Choice C is the definition of a Type I error. Choice D confuses the concept of significance level with Type II error; a lower alpha increases Type II error probability but is not itself a Type II error. Choice E conflates confidence interval coverage with hypothesis test errors."
@@ -7247,12 +6881,11 @@ var APSTATS_MCQ = [
     "choices": [
       "The colleague is correct on both points — larger samples shift the center and reduce the margin of error.",
       "The colleague is incorrect on both points — the center stays at the sample proportion and the width stays the same because the confidence level is fixed.",
-      "The colleague is incorrect on both points — larger samples only affect Type I error, not confidence interval width or center.",
-      "The colleague is correct that the center shifts toward 0.5, but incorrect about the width — width is determined only by the confidence level.",
-      "The colleague is correct that the interval narrows, but incorrect that the center shifts — the center remains at the sample proportion p̂, which is unchanged."
+      "The colleague is correct that the interval narrows, but incorrect that the center shifts — the center remains at the sample proportion p̂, which is unchanged.",
+      "The colleague is correct that the center shifts toward 0.5, but incorrect about the width — width is determined only by the confidence level."
     ],
-    "answer": 4,
-    "explanation": "The center of a confidence interval for a proportion is always the sample proportion p̂. If the same sample proportion is observed in a larger sample, the center does not change. However, the margin of error z* × sqrt(p̂(1−p̂)/n) does decrease as n increases, making the interval narrower. Choice A incorrectly claims the center shifts. Choice B incorrectly says width is unaffected. Choice D confuses the center with a regression-to-the-mean idea. Choice C incorrectly links sample size only to Type I error."
+    "answer": 2,
+    "explanation": "The center of a confidence interval for a proportion is always the sample proportion p̂. If the same sample proportion is observed in a larger sample, the center does not change. However, the margin of error z* × sqrt(p̂(1−p̂)/n) does decrease as n increases, making the interval narrower. Choice A incorrectly claims the center shifts. Choice B incorrectly says width is unaffected. Choice D confuses the center with a regression-to-the-mean idea. Choice E incorrectly links sample size only to Type I error."
   },
   {
     "id": "stats_u6_q147",
@@ -7268,12 +6901,11 @@ var APSTATS_MCQ = [
     "choices": [
       "We reject H₀. There is convincing evidence that p = 0.30 is false and p is exactly the observed sample proportion.",
       "We fail to reject H₀. Because the z-score does not exceed 2, there is no evidence against H₀.",
-      "We reject H₀. There is convincing evidence that the true population proportion is greater than 0.30 for this sample.",
-      "We reject H₀. The probability that the null hypothesis is true is 0.032.",
-      "We reject H₀. There is convincing evidence at the α = 0.05 level that the true population proportion is greater than 0.30."
+      "We reject H₀. There is convincing evidence at the α = 0.05 level that the true population proportion is greater than 0.30.",
+      "We reject H₀. The probability that the null hypothesis is true is 0.032."
     ],
-    "answer": 4,
-    "explanation": "Since p-value (0.032) < α (0.05), we reject H₀. The correct conclusion states there is convincing evidence at the stated α level that the population proportion exceeds 0.30. Choice A incorrectly claims we can conclude p equals a specific value. Choice B is wrong because the decision rule uses p-value vs. α, not whether z > 2. Choice D is a classic misconception — the p-value is not the probability the null is true. Choice C incorrectly qualifies the conclusion with 'for this sample,' which confuses sample and population."
+    "answer": 2,
+    "explanation": "Since p-value (0.032) < α (0.05), we reject H₀. The correct conclusion states there is convincing evidence at the stated α level that the population proportion exceeds 0.30. Choice A incorrectly claims we can conclude p equals a specific value. Choice B is wrong because the decision rule uses p-value vs. α, not whether z > 2. Choice D is a classic misconception — the p-value is not the probability the null is true. Choice E incorrectly qualifies the conclusion with 'for this sample,' which confuses sample and population."
   },
   {
     "id": "stats_u6_q148",
@@ -7290,8 +6922,7 @@ var APSTATS_MCQ = [
       "The student is correct — an interval containing 0 proves the two proportions are equal.",
       "The student is incorrect — because the interval is not symmetric around 0, p₁ must be greater than p₂.",
       "The student is incorrect — containing 0 means the data are consistent with p₁ = p₂, but it does not prove equality; we cannot prove a null hypothesis.",
-      "The student is incorrect — because the upper bound is positive, we should conclude p₁ > p₂ at the 95% level.",
-      "The student is incorrect — the interval would need to be entirely above 0 to prove p₁ = p₂."
+      "The student is incorrect — because the upper bound is positive, we should conclude p₁ > p₂ at the 95% level."
     ],
     "answer": 2,
     "explanation": "A confidence interval containing 0 indicates that p₁ − p₂ = 0 is a plausible value, meaning we do not have convincing evidence of a difference. However, we can never 'prove' a null hypothesis — we can only fail to find evidence against it. Choice A commits the error of accepting the null as proven. Choice B incorrectly uses asymmetry as proof of direction. Choice D misreads the interval — a positive upper bound alone doesn't establish direction when 0 is included. Choice E garbles what the interval location means for equality."
@@ -7311,8 +6942,7 @@ var APSTATS_MCQ = [
       "The pooled proportion is used because it always produces a smaller standard error, making the test more powerful.",
       "The pooled proportion is used because, under H₀, we assume p₁ = p₂, so the best estimate of the common proportion combines both samples.",
       "The pooled proportion is used because it is required when sample sizes are unequal.",
-      "The pooled proportion is used in both the z-test and the confidence interval for the difference to maintain consistency.",
-      "The pooled proportion is used because individual sample proportions are unreliable when n < 100."
+      "The pooled proportion is used in both the z-test and the confidence interval for the difference to maintain consistency."
     ],
     "answer": 1,
     "explanation": "In a two-proportion z-test, H₀ assumes p₁ = p₂ = p. Since we don't know p, we estimate it by combining both samples into p̂_c. This is logically consistent with the null hypothesis assumption. Choice A may sometimes be numerically true but is not the reason — the reason is conceptual, rooted in the null assumption. Choice C is false — pooling is about hypothesis logic, not sample size inequality. Choice D is wrong — the pooled proportion is NOT used in confidence intervals for p₁ − p₂, which is a critical distinction. Choice E invents an arbitrary rule."
@@ -7332,8 +6962,7 @@ var APSTATS_MCQ = [
       "Raising α decreases the probability of a Type I error and increases the probability of a Type II error, making the test safer.",
       "Raising α increases the probability of a Type I error (approving an ineffective drug) and decreases the probability of a Type II error (failing to detect a truly effective drug), increasing power.",
       "Raising α has no effect on Type II error — it only controls the probability of rejecting a true null hypothesis.",
-      "Raising α decreases the critical value needed for rejection, which always makes the test less powerful.",
-      "Raising α means more data must be collected to maintain the same power, increasing experimental cost."
+      "Raising α decreases the critical value needed for rejection, which always makes the test less powerful."
     ],
     "answer": 1,
     "explanation": "The significance level α directly controls the probability of a Type I error (rejecting a true null). When α increases from 0.01 to 0.10, the rejection region widens, making it easier to reject H₀. This raises the Type I error rate (approving an ineffective drug) but lowers the Type II error rate β (missing a truly effective drug), thereby increasing power (1 − β). Choice A has the direction of Type I error backwards. Choice C is wrong because α directly affects Type II error inversely. Choice D is wrong — a lower critical value means more rejections, which increases power. Choice E invents a sample size requirement that doesn't follow from changing α alone."
@@ -7353,8 +6982,7 @@ var APSTATS_MCQ = [
       "A Type I error occurred because the inspector rejected a true null hypothesis.",
       "A Type II error occurred because the inspector failed to reject a false null hypothesis.",
       "No error occurred — failing to reject H₀ when the defect rate is 8% is a correct decision because 8% is close to 5%.",
-      "A Type I error occurred because the inspector failed to detect a real problem.",
-      "A Type II error occurred because the inspector accepted H₀ and proved the defect rate is 5%."
+      "A Type I error occurred because the inspector failed to detect a real problem."
     ],
     "answer": 1,
     "explanation": "A Type II error (β) occurs when H₀ is false but we fail to reject it. Here, H₀ states the defect rate is 5%, which is false (true rate is 8%), but the inspector still fails to reject H₀. This is the definition of a Type II error. Choice A confuses Type I and Type II — Type I is rejecting a TRUE null. Choice C incorrectly suggests proximity makes the wrong decision acceptable. Choice D mislabels the error type. Choice E correctly identifies the error type but uses the language 'accepted H₀ and proved,' which is incorrect — we never accept or prove H₀."
@@ -7374,8 +7002,7 @@ var APSTATS_MCQ = [
       "There is a 90% probability that the true population proportion p is between 0.52 and 0.68.",
       "90% of all sample proportions from this population will fall between 0.52 and 0.68.",
       "We are 90% confident that the interval (0.52, 0.68) captures the true population proportion p.",
-      "If we repeated this study, exactly 90% of all possible confidence intervals would contain p̂ = 0.60.",
-      "The true population proportion p is 0.60, with a 10% margin of error."
+      "If we repeated this study, exactly 90% of all possible confidence intervals would contain p̂ = 0.60."
     ],
     "answer": 2,
     "explanation": "The correct interpretation of a confidence interval is: 'We are [confidence level]% confident that the interval captures the true population parameter.' This refers to the procedure — if we repeated this process many times, about 90% of constructed intervals would contain p. Choice A is the most common misconception: once the interval is constructed, p is fixed (not random), so we cannot assign it a probability. Choice B confuses the confidence interval with a sampling distribution. Choice D incorrectly says all intervals would contain p̂ (the sample statistic) rather than p (the parameter). Choice E confuses the midpoint as a proven value and misidentifies margin of error."
@@ -7395,8 +7022,7 @@ var APSTATS_MCQ = [
       "The student should have used a one-tailed test to get a smaller p-value, allowing rejection of H₀.",
       "The student correctly failed to reject H₀, and concluding equality is appropriate since p-value > α.",
       "The student incorrectly concluded equality — failing to reject H₀ means the data are insufficient to establish a difference, not that the proportions are proven equal.",
-      "The student made a Type I error by accepting H₀ when it may be false.",
-      "The student's conclusion is wrong because p̂₁ − p̂₂ = 0.10, which is practically significant, so H₀ must be rejected."
+      "The student made a Type I error by accepting H₀ when it may be false."
     ],
     "answer": 2,
     "explanation": "Failing to reject H₀ does not mean we have proven H₀ is true. It means the data do not provide sufficient evidence to conclude a difference exists. The student's language 'the proportions are equal' overstates the conclusion. Choice A is a data-dredging suggestion that is statistically inappropriate. Choice B is partially correct in the decision but wrong to call concluding equality 'appropriate.' Choice D misnames the error — a Type I error is rejecting a true H₀, not accepting a false one; also 'accepting' H₀ is itself incorrect language. Choice E confuses practical significance (a judgment call) with statistical significance, and the decision rule is based on p-value, not the observed difference alone."
@@ -7416,8 +7042,7 @@ var APSTATS_MCQ = [
       "The samples are too small — at least 500 per group are needed for two-proportion inference.",
       "The large counts condition must be checked using the pooled proportion, not individual sample proportions, for confidence intervals.",
       "The voluntary response sample from City A is likely biased, violating the random sampling condition and making inference about the City A population invalid.",
-      "Because p̂_A − p̂_B = 0.07, the difference is too small to justify the two-proportion procedure.",
-      "The 10% condition cannot be satisfied because city populations are unknown."
+      "Because p̂_A − p̂_B = 0.07, the difference is too small to justify the two-proportion procedure."
     ],
     "answer": 2,
     "explanation": "The most critical condition for inference is that the data come from a random sample (or randomized experiment). A voluntary response sample is self-selected and systematically biased — people with strong opinions are overrepresented. This violates the random condition for City A, making any inference about the population proportion in City A unreliable regardless of other conditions. Choice A invents a minimum sample size rule of 500. Choice B is incorrect — confidence intervals use individual sample proportions for checking large counts, not the pooled proportion (pooling is for z-tests). Choice D is irrelevant — no minimum observed difference is required. Choice E is overstated — city populations are generally large enough that the 10% condition is easily assumed satisfied."
@@ -7437,8 +7062,7 @@ var APSTATS_MCQ = [
       "The t-distribution accounts for the additional variability introduced by estimating the population standard deviation with the sample standard deviation, resulting in wider intervals.",
       "The t-distribution is always more conservative than the normal distribution, so it is preferred for any inference procedure regardless of sample size.",
       "The t-distribution is used because sample data are never perfectly normally distributed, and the t-distribution corrects for skewness.",
-      "The t-distribution is used only when the sample size is less than 30, because above that threshold the sample standard deviation equals the population standard deviation.",
-      "The t-distribution produces narrower confidence intervals than the z-distribution, which makes hypothesis tests more powerful."
+      "The t-distribution is used only when the sample size is less than 30, because above that threshold the sample standard deviation equals the population standard deviation."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. When the population standard deviation is unknown, we estimate it with s, which itself varies from sample to sample. This extra source of variability means our standardized statistic follows a t-distribution rather than a standard normal. The t-distribution has heavier tails, producing wider intervals to account for this uncertainty. B is wrong because the t-distribution converges to the normal as degrees of freedom increase, so it is not 'always' preferred. C is wrong because the t-distribution does not correct for skewness — the condition is that the sampling distribution of the mean is approximately normal. D incorrectly states a hard cutoff rule and falsely claims s equals sigma above n=30. E is wrong because t-intervals are wider than z-intervals (for the same data), not narrower."
@@ -7458,8 +7082,7 @@ var APSTATS_MCQ = [
       "The claim is correct. Using df = 14 rather than df = 15 gives a larger critical value, which requires stronger evidence to reject the null hypothesis.",
       "The claim is incorrect. Degrees of freedom for a one-sample t-test equals n, not n − 1, so the correct df is 15.",
       "The claim is incorrect. Using df = 14 gives a smaller critical value than df = 15, making the test less conservative.",
-      "The claim is correct, but only if the population is known to be normally distributed.",
-      "The claim is irrelevant because at n = 15 the t-distribution is indistinguishable from the standard normal distribution."
+      "The claim is correct, but only if the population is known to be normally distributed."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. For a one-sample t-test, degrees of freedom = n − 1 = 14. As degrees of freedom decrease, the t-distribution has heavier tails, so the critical value at any given significance level increases. A larger critical value means the test statistic must be more extreme to reject H0, making the test more conservative. The student's reasoning is correct. B is wrong because df = n − 1 for a one-sample t-test. C is wrong because fewer degrees of freedom produce larger, not smaller, critical values. D is wrong because the df formula does not depend on whether the population is normal. E is wrong because the t-distribution with 14 df has noticeably heavier tails than the standard normal."
@@ -7479,8 +7102,7 @@ var APSTATS_MCQ = [
       "The student has confused confidence level with probability about a fixed parameter. Once the interval is computed, the population mean either is or is not in that interval — the 95% refers to the long-run proportion of such intervals that would capture the true mean.",
       "The student's interpretation is correct. A 95% confidence interval means there is a 95% probability that this specific interval contains the true mean.",
       "The error is that the student should say 95% of all sample means fall between 42.1 and 51.9, not the population mean.",
-      "The error is minor: the student should have said 'at least 95% probability' rather than exactly 95% probability.",
-      "The interpretation is wrong because confidence intervals only apply to proportions, not means."
+      "The error is minor: the student should have said 'at least 95% probability' rather than exactly 95% probability."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. The population mean is a fixed (though unknown) parameter, not a random variable. Once a specific interval is constructed, the true mean either lies in it or it does not — there is no probability to assign. The 95% confidence level means that if we repeated this procedure many times, 95% of the resulting intervals would contain the true mean. B is the very misconception being identified. C is wrong because the interval is not about sample means. D is wrong because softening the language does not fix the fundamental misinterpretation. E is wrong because confidence intervals are valid for means."
@@ -7500,8 +7122,7 @@ var APSTATS_MCQ = [
       "There is statistically significant evidence to reject the null hypothesis. The probability of observing a test statistic at least as extreme as the one obtained, assuming H0 is true, is 0.03.",
       "There is a 3% probability that the null hypothesis is true.",
       "There is a 97% probability that the alternative hypothesis is true.",
-      "If the study were repeated many times, 3% of the resulting test statistics would exceed the observed value.",
-      "The null hypothesis is false, and the effect size is practically significant."
+      "If the study were repeated many times, 3% of the resulting test statistics would exceed the observed value."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. A p-value is the probability of obtaining a test statistic as extreme or more extreme than the observed one, given that the null hypothesis is true. Since 0.03 < 0.05, we reject H0. B is a classic misconception — the p-value is not the probability that H0 is true. C is wrong for the same reason reversed; the p-value says nothing directly about the probability that Ha is true. D misdefines the p-value; it is not about the proportion of repeated test statistics exceeding the observed value from repeated experiments — it is a probability under H0 for the current design. E conflates statistical significance with practical significance; a small p-value does not confirm practical importance."
@@ -7521,8 +7142,7 @@ var APSTATS_MCQ = [
       "The conclusion overstates certainty. Containing 0 means we lack sufficient evidence to conclude a difference exists at this confidence level, not that the means are equal.",
       "The conclusion is fully correct. If 0 is in the interval, the two population means are proven to be equal.",
       "The conclusion is wrong because a two-sample t-interval cannot include negative values when comparing two positive means.",
-      "The conclusion is correct only if both populations are exactly normally distributed.",
-      "The student should have used a pooled t-interval, which would have excluded 0 and changed the conclusion."
+      "The conclusion is correct only if both populations are exactly normally distributed."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. A confidence interval containing 0 means the data are consistent with no difference, but it does not prove the means are equal. We fail to find evidence of a difference, which is not the same as evidence of no difference — this is the classic 'absence of evidence is not evidence of absence' error. B is wrong because statistical inference never proves equality; we can only fail to reject. C is wrong because differences can legitimately be negative. D is wrong because the condition for inference is that the sampling distribution is approximately normal, which can be met by large samples or roughly symmetric populations; the procedure does not require exact normality. E is unwarranted — there is no given reason to pool, and pooling would not necessarily change the conclusion here."
@@ -7542,8 +7162,7 @@ var APSTATS_MCQ = [
       "The colleague is incorrect. Paired t-tests require that each observation in one group be matched to a specific observation in the other group. Random assignment creates two independent groups, not paired observations.",
       "The colleague is correct. Whenever students are randomly assigned to groups, their scores are dependent and a paired t-test is required.",
       "The colleague is correct because random assignment ensures that students in Group A have identical baseline characteristics to students in Group B, making their scores paired.",
-      "Both tests are equivalent when sample sizes are equal, so it does not matter which one is used.",
-      "The colleague is correct because random assignment violates the independence condition required for a two-sample t-test."
+      "Both tests are equivalent when sample sizes are equal, so it does not matter which one is used."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. A paired t-test requires a natural pairing between each observation in one group and a specific observation in the other — such as before/after measurements on the same subject or matched pairs. Random assignment to two groups creates independent samples, not matched pairs. The two-sample t-test is appropriate here. B and C confuse random assignment with pairing; random assignment ensures group comparability on average but does not create individual matchings. D is false — the two tests use different statistics and will generally give different results. E is wrong; random assignment actually supports the independence assumption for the two-sample t-test."
@@ -7563,8 +7182,7 @@ var APSTATS_MCQ = [
       "The distribution of differences must be approximately normal, or the sample size must be large enough for the Central Limit Theorem to apply, since we have only 20 pairs.",
       "The before-measurements and after-measurements must each individually come from a normal distribution.",
       "The standard deviations of the before and after measurements must be equal.",
-      "The 20 patients must have been randomly assigned to two separate groups.",
-      "The sample size must be at least 30 for any t-procedure to be valid."
+      "The 20 patients must have been randomly assigned to two separate groups."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. In a paired t-test, the analysis is performed on the differences, which become a single sample. The key condition is that the sampling distribution of the mean difference is approximately normal. With n = 20 pairs, this requires that the differences themselves are approximately normally distributed (check with a graph). B is a common trap — we do not need the individual measurements to be normal, only the differences. C is the equal variance condition for a pooled two-sample t-test, which is irrelevant for a paired design. D is wrong because this is a matched pairs (before-after) design on the same patients, not a randomized two-group design. E is wrong — there is no strict rule that n must be at least 30; the condition depends on the shape of the distribution of differences."
@@ -7584,8 +7202,7 @@ var APSTATS_MCQ = [
       "The two-sample t-test ignores the within-subject correlation, inflating the standard error estimate and reducing the power of the test compared to the paired t-test.",
       "The two-sample t-test will always produce a smaller p-value than the paired t-test, leading to inflated Type I error.",
       "The two-sample t-test will produce biased estimates of the mean difference.",
-      "The two-sample t-test is more powerful than the paired t-test, so using it would make it easier to detect a real difference.",
-      "The two-sample t-test is invalid here only because the sample sizes are not equal."
+      "The two-sample t-test is more powerful than the paired t-test, so using it would make it easier to detect a real difference."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. When the same subjects are measured in both conditions, their times are positively correlated (fast runners tend to run fast in both settings). The paired t-test exploits this by working with differences, removing between-subject variability and producing a smaller standard error. If a two-sample t-test is used instead, it treats the observations as independent and uses a larger combined standard error that includes between-subject variability, making the test statistic smaller and the p-value larger — reducing power. B is wrong because the two-sample test typically yields a larger, not smaller, p-value in this situation. C is wrong because both tests estimate the same mean difference without bias. D is wrong for the same reason as B — the paired test is more powerful here. E is wrong because the sample sizes are equal (25 and 25), and equal sample sizes do not make a two-sample test valid for paired data."
@@ -7605,8 +7222,7 @@ var APSTATS_MCQ = [
       "Using df = 9 gives a larger critical value than df = 34, making the test more conservative — harder to reject H0 — and increasing the probability of a Type II error.",
       "Using df = 9 gives a smaller critical value, making it easier to reject H0 and increasing the probability of a Type I error.",
       "The choice of degrees of freedom does not affect hypothesis test conclusions, only confidence interval width.",
-      "Using df = 9 is always preferable because it guarantees the significance level does not exceed α.",
-      "Using df = 34 is invalid because Welch-Satterthwaite degrees of freedom must be a whole number."
+      "Using df = 9 is always preferable because it guarantees the significance level does not exceed α."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. The conservative df = min(n1−1, n2−1) = 9 results in a t-distribution with heavier tails than df ≈ 34. Heavier tails mean larger critical values for the same α, so the test statistic needs to be more extreme to reject H0. This makes the test more conservative and increases the probability of a Type II error (failing to reject a false null). B is wrong — fewer df produce larger, not smaller, critical values. C is wrong because df affects both hypothesis tests and confidence intervals. D is partially true (it controls Type I error rate at or below α), but 'always preferable' is too strong — the cost is reduced power. E is wrong; the Welch-Satterthwaite approximation yields a non-integer df that is used directly in t-table or technology calculations."
@@ -7626,8 +7242,7 @@ var APSTATS_MCQ = [
       "The manager's argument is a post-hoc change to the hypothesis based on the observed data direction, which is not valid. The hypotheses must be set before seeing the data to control the Type I error rate.",
       "The manager is correct. Switching to a one-sided test is always acceptable and will reduce the p-value to 0.0125, strengthening the conclusion.",
       "The manager is correct because one-sided tests are always more appropriate in quality control settings.",
-      "The manager is correct only if the distribution of fill volumes is symmetric around 500 mL.",
-      "Both one-sided and two-sided tests are equally valid here because the sample size is less than 30."
+      "The manager is correct only if the distribution of fill volumes is symmetric around 500 mL."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. The alternative hypothesis must be specified before collecting and examining data. Changing from a two-sided to a one-sided test after seeing the direction of the result inflates the actual Type I error rate beyond α, because the researcher is effectively taking advantage of the observed direction. This is a form of p-hacking. B is wrong — while it is arithmetically true that the one-sided p-value would be 0.0125, changing the hypothesis direction after seeing the data is not a valid procedure. C is wrong; there is no universal rule that one-sided tests are always appropriate in quality control — it depends on the stated objective before data collection. D is wrong; the validity of switching hypotheses does not depend on distributional symmetry. E is wrong; sample size has no bearing on when it is appropriate to change hypotheses."
@@ -7647,8 +7262,7 @@ var APSTATS_MCQ = [
       "The student is incorrect. Because the 90% confidence interval does not contain 0 and corresponds to a two-sided test at α = 0.10, we can conclude that H0 would be rejected.",
       "The student is correct. Confidence intervals and hypothesis tests use different formulas and cannot be used interchangeably.",
       "The student is correct because a 90% confidence interval corresponds to a one-sided test at α = 0.10, not a two-sided test.",
-      "The student is incorrect because any confidence interval not containing the null value automatically implies a p-value of exactly 0.10.",
-      "The student is correct because the correspondence between confidence intervals and hypothesis tests only holds for z-procedures, not t-procedures."
+      "The student is incorrect because any confidence interval not containing the null value automatically implies a p-value of exactly 0.10."
     ],
     "answer": 0,
     "explanation": "The correct answer is A. There is a direct duality between a two-sided hypothesis test at significance level α and a (1 − α) × 100% confidence interval. If the null value (here, 0) falls outside the 90% confidence interval, then the corresponding two-sided test at α = 0.10 would reject H0. Since 0 is not in (2.1, 9.8), we reject H0. B is wrong — confidence intervals and hypothesis tests are mathematically equivalent in this context. C is wrong; a 90% confidence interval corresponds to a two-sided test at α = 0.10, not a one-sided test. D is wrong; the duality tells us the p-value is less than α, not that it equals α exactly. E is wrong; the duality holds for t-procedures as well as z-procedures."
@@ -7668,8 +7282,7 @@ var APSTATS_MCQ = [
       "Whether two quantitative variables are linearly related",
       "Whether two categorical variables are associated",
       "Whether means differ across multiple groups",
-      "A claimed or hypothesized population distribution",
-      "Whether proportions are equal across two populations"
+      "A claimed or hypothesized population distribution"
     ],
     "answer": 3,
     "explanation": "A chi-square goodness of fit test compares observed counts to expected counts based on a hypothesized distribution for a single categorical variable. Choice B describes a chi-square test of independence. Choice C describes ANOVA. Choice A describes linear regression. Choice E describes a two-proportion z-test or chi-square homogeneity test."
@@ -7689,8 +7302,7 @@ var APSTATS_MCQ = [
       "1/6",
       "6",
       "120",
-      "20",
-      "12"
+      "20"
     ],
     "answer": 3,
     "explanation": "For a fair die, each of the 6 faces has probability 1/6. The expected count for each face is n × p = 120 × (1/6) = 20. Choice B confuses the number of faces with the expected count. Choice A gives the probability, not the count. Choice C is the total sample size. Choice E divides incorrectly."
@@ -7710,8 +7322,7 @@ var APSTATS_MCQ = [
       "The population means are all equal.",
       "The observed counts are all equal.",
       "The two variables are independent.",
-      "The observed distribution matches the claimed distribution.",
-      "The observed distribution does not match the claimed distribution."
+      "The observed distribution matches the claimed distribution."
     ],
     "answer": 3,
     "explanation": "The null hypothesis for a goodness of fit test states that the population distribution matches a specific claimed distribution. Choice B is only the null for a uniform distribution, not goodness of fit in general. Choice C is the null for a chi-square independence test. Choice A is the null for ANOVA. Choice E is actually the alternative hypothesis."
@@ -7731,8 +7342,7 @@ var APSTATS_MCQ = [
       "The distribution of one variable is the same across all populations.",
       "The two categorical variables are associated in the population.",
       "The observed counts equal the expected counts exactly.",
-      "The two categorical variables are independent in the population.",
-      "The population proportions are all equal to 0.5."
+      "The two categorical variables are independent in the population."
     ],
     "answer": 3,
     "explanation": "The null hypothesis for a chi-square test of independence states that the two categorical variables are independent — there is no association between them. Choice B is the alternative hypothesis. Choice C is never exactly true and is not the null. Choice A describes the null for a homogeneity test. Choice E is not a valid chi-square null hypothesis."
@@ -7752,8 +7362,7 @@ var APSTATS_MCQ = [
       "Estimating the mean income of adults in a city",
       "Determining if a single die is fair",
       "Testing whether gender and political affiliation are related in one sample",
-      "Comparing the distribution of preferred music genres across three different age groups",
-      "Testing whether the correlation between height and weight is significant"
+      "Comparing the distribution of preferred music genres across three different age groups"
     ],
     "answer": 3,
     "explanation": "A chi-square test of homogeneity compares the distribution of a categorical variable across multiple populations or groups. Comparing music genre preferences across three age groups fits this perfectly. Choice B is a goodness of fit test. Choice C describes a test of independence (one sample, two variables). Choices D and E involve quantitative variables and are not chi-square tests."
@@ -7773,8 +7382,7 @@ var APSTATS_MCQ = [
       "(Expected - Observed)^2 / n",
       "(Observed - Expected) / Expected",
       "(Observed - Expected)^2 / Observed",
-      "(Observed - Expected)^2 / Expected",
-      "(Observed - Expected) / Standard deviation"
+      "(Observed - Expected)^2 / Expected"
     ],
     "answer": 3,
     "explanation": "The chi-square statistic formula is the sum of (Observed - Expected)^2 / Expected for each category. Choice B forgets to square the difference, making it possible to get zero even with large deviations. Choice C divides by observed instead of expected. Choice A divides by sample size instead of expected count. Choice E describes a z-score formula."
@@ -7794,8 +7402,7 @@ var APSTATS_MCQ = [
       "3",
       "5",
       "6",
-      "4",
-      "10"
+      "4"
     ],
     "answer": 3,
     "explanation": "For a chi-square goodness of fit test, degrees of freedom = number of categories - 1 = 5 - 1 = 4. Choice B uses the number of categories itself without subtracting 1. Choices C, D, and E are all incorrect calculations that do not follow the degrees of freedom formula for this test."
@@ -7815,8 +7422,7 @@ var APSTATS_MCQ = [
       "11",
       "12",
       "7",
-      "6",
-      "3"
+      "6"
     ],
     "answer": 3,
     "explanation": "Degrees of freedom for a chi-square test of independence = (number of rows - 1) × (number of columns - 1) = (3-1) × (4-1) = 2 × 3 = 6. Choice B multiplies rows by columns without subtracting 1. Choice C adds (rows-1)+(columns-1) instead of multiplying. Choice A subtracts 1 from the total cells. Choice E uses only (rows-1)."
@@ -7836,8 +7442,7 @@ var APSTATS_MCQ = [
       "A homogeneity test always has larger degrees of freedom than an independence test.",
       "A homogeneity test uses observed counts, while an independence test uses expected counts.",
       "A homogeneity test requires quantitative data, while an independence test requires categorical data.",
-      "In a homogeneity test, samples are drawn separately from multiple populations; in an independence test, one sample is drawn and two variables are measured.",
-      "A homogeneity test compares means, while an independence test compares proportions."
+      "In a homogeneity test, samples are drawn separately from multiple populations; in an independence test, one sample is drawn and two variables are measured."
     ],
     "answer": 3,
     "explanation": "The key distinction is how data are collected: homogeneity tests draw separate samples from multiple populations to compare distributions, while independence tests draw one sample and examine the relationship between two categorical variables. Choices B and C are factually incorrect. Choice A is not a defining distinction. Choice E is wrong — neither test compares means."
@@ -7857,8 +7462,7 @@ var APSTATS_MCQ = [
       "Equal to the number of categories",
       "Close to 1",
       "Very large",
-      "Close to 0",
-      "Negative"
+      "Close to 0"
     ],
     "answer": 3,
     "explanation": "When observed counts are very close to expected counts, each (O - E)^2 / E term will be close to zero, making the total chi-square statistic close to 0. This would lead to failing to reject the null hypothesis. Choice B is plausible but incorrect — 1 is not a special threshold. Choice C would indicate observed and expected counts are far apart. Choice A has no mathematical basis. Choice E is impossible because the chi-square statistic is always non-negative since it sums squared values."
@@ -7878,8 +7482,7 @@ var APSTATS_MCQ = [
       "H0: The mean outcome is 3.5; Ha: The mean outcome is not 3.5",
       "H0: The die is not fair; Ha: The die is fair",
       "H0: The observed counts equal the expected counts; Ha: The observed counts do not equal the expected counts",
-      "H0: The die is fair (each face has probability 1/6); Ha: At least one face has a probability different from 1/6",
-      "H0: Each face appears exactly 20 times; Ha: At least one face appears a different number of times"
+      "H0: The die is fair (each face has probability 1/6); Ha: At least one face has a probability different from 1/6"
     ],
     "answer": 3,
     "explanation": "The null hypothesis for a goodness-of-fit test states that the population follows a specified distribution — here, that each face has probability 1/6. The alternative is that at least one probability differs. Option C confuses population probabilities with sample counts (the null is about the true distribution, not the observed values). Option A tests the mean, which is not the same as testing fairness. Option E incorrectly states the null in terms of observed counts rather than population probabilities."
@@ -7899,8 +7502,7 @@ var APSTATS_MCQ = [
       "40",
       "25",
       "30",
-      "20",
-      "48"
+      "20"
     ],
     "answer": 3,
     "explanation": "Expected count = (row total × column total) / grand total = (80 × 60) / 240 = 4800 / 240 = 20. Option B might come from dividing 100 by 4. Option C could result from (80 + 60) / (240/60). Option A results from adding row and column totals and dividing incorrectly. Students must remember to multiply row and column totals and divide by the grand total, not add them or use other incorrect operations."
@@ -7917,14 +7519,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A study records whether high school students participate in sports (yes/no) and their grade level (9, 10, 11, 12). A chi-square test of independence is performed. The degrees of freedom for this test is:",
     "choices": [
-      "8",
+      "7",
       "4",
       "6",
-      "7",
       "3"
     ],
-    "answer": 4,
-    "explanation": "For a chi-square test of independence, degrees of freedom = (number of rows − 1)(number of columns − 1). The table has 2 rows (yes/no) and 4 columns (grades 9–12), so df = (2−1)(4−1) = 1 × 3 = 3. Option D (7) comes from multiplying 2×4 and subtracting 1. Option A (8) comes from simply multiplying rows by columns. Option C (6) might come from (2−1)(4−1)×2. Option B (4) might come from subtracting 1 from the number of columns only."
+    "answer": 3,
+    "explanation": "For a chi-square test of independence, degrees of freedom = (number of rows − 1)(number of columns − 1). The table has 2 rows (yes/no) and 4 columns (grades 9–12), so df = (2−1)(4−1) = 1 × 3 = 3. Option A (7) comes from multiplying 2×4 and subtracting 1. Option E (8) comes from simply multiplying rows by columns. Option C (6) might come from (2−1)(4−1)×2. Option B (4) might come from subtracting 1 from the number of columns only."
   },
   {
     "id": "stats_u8_q181",
@@ -7938,14 +7539,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A researcher surveys random samples of adults from three different cities and asks each person their preferred mode of transportation (car, bus, bike, or walk). Which chi-square test is most appropriate, and what is its null hypothesis?",
     "choices": [
-      "Test of independence; H0: The distribution of transportation preference is the same across all three cities",
+      "Test of homogeneity; H0: Transportation preference and city are not associated",
       "Test of independence; H0: City of residence and transportation preference are independent",
       "Goodness-of-fit test; H0: Transportation preferences follow a uniform distribution",
-      "Test of homogeneity; H0: Transportation preference and city are not associated",
       "Test of homogeneity; H0: The distribution of transportation preference is the same across all three cities"
     ],
-    "answer": 4,
-    "explanation": "When separate random samples are drawn from multiple populations (here, three cities) to compare their distributions on a categorical variable, the test of homogeneity is correct. The null hypothesis states that the distributions are the same across populations. Option B is wrong because independence applies when one random sample is drawn and two variables are measured. Option A correctly identifies the null hypothesis wording but applies the wrong test name. Option D has the correct test but an incorrect null hypothesis statement."
+    "answer": 3,
+    "explanation": "When separate random samples are drawn from multiple populations (here, three cities) to compare their distributions on a categorical variable, the test of homogeneity is correct. The null hypothesis states that the distributions are the same across populations. Option B is wrong because independence applies when one random sample is drawn and two variables are measured. Option E correctly identifies the null hypothesis wording but applies the wrong test name. Option A has the correct test but an incorrect null hypothesis statement."
   },
   {
     "id": "stats_u8_q182",
@@ -7959,14 +7559,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "In a chi-square goodness-of-fit test, a cell has an observed count of 15 and an expected count of 20. What is the contribution of this cell to the chi-square statistic?",
     "choices": [
-      "2.50",
+      "5.00",
       "0.25",
       "1.67",
-      "5.00",
       "1.25"
     ],
-    "answer": 4,
-    "explanation": "The chi-square contribution from each cell is (observed − expected)² / expected = (15 − 20)² / 20 = 25 / 20 = 1.25. Option C (1.67) results from dividing by the observed count (25/15) instead of the expected count. Option D (5.00) comes from just computing (O − A) without squaring or dividing. Option B (0.25) might come from (O−A)/E without squaring. Option A (2.50) might result from (O−A)²/(O+A)/2 or another incorrect formula."
+    "answer": 3,
+    "explanation": "The chi-square contribution from each cell is (observed − expected)² / expected = (15 − 20)² / 20 = 25 / 20 = 1.25. Option C (1.67) results from dividing by the observed count (25/15) instead of the expected count. Option A (5.00) comes from just computing (O − E) without squaring or dividing. Option B (0.25) might come from (O−E)/E without squaring. Option E (2.50) might result from (O−E)²/(O+E)/2 or another incorrect formula."
   },
   {
     "id": "stats_u8_q183",
@@ -7980,14 +7579,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A chi-square goodness-of-fit test is conducted with 5 categories. The test statistic is 11.07. Using a significance level of 0.05, what is the degrees of freedom, and what can be concluded if the critical value at df=4, α=0.05 is 9.488?",
     "choices": [
-      "df = 4; reject H0 because 11.07 < 9.488",
-      "df = 5; reject H0 because 11.07 > 9.488",
       "df = 4; fail to reject H0 because 11.07 > 9.488",
-      "df = 5; fail to reject H0 because 11.07 < critical value",
-      "df = 4; reject H0 because 11.07 > 9.488"
+      "df = 5; reject H0 because 11.07 > 9.488",
+      "df = 4; reject H0 because 11.07 > 9.488",
+      "df = 5; fail to reject H0 because 11.07 < critical value"
     ],
-    "answer": 4,
-    "explanation": "For a goodness-of-fit test with k categories, df = k − 1 = 5 − 1 = 4. Since the test statistic 11.07 exceeds the critical value 9.488, we reject H0. Option B incorrectly uses df = 5 (not subtracting 1). Option C correctly identifies df = 4 but draws the wrong conclusion. Option A states incorrect direction of inequality. Students commonly forget to subtract 1 when computing degrees of freedom for goodness-of-fit tests."
+    "answer": 2,
+    "explanation": "For a goodness-of-fit test with k categories, df = k − 1 = 5 − 1 = 4. Since the test statistic 11.07 exceeds the critical value 9.488, we reject H0. Option B incorrectly uses df = 5 (not subtracting 1). Option A correctly identifies df = 4 but draws the wrong conclusion. Option E states incorrect direction of inequality. Students commonly forget to subtract 1 when computing degrees of freedom for goodness-of-fit tests."
   },
   {
     "id": "stats_u8_q184",
@@ -8001,14 +7599,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A chi-square test of independence yields a very small p-value (p < 0.01). Which of the following is the most appropriate conclusion?",
     "choices": [
-      "The sample size was too small to detect a meaningful relationship",
-      "There is convincing evidence that one variable causes changes in the other variable",
       "The two variables are perfectly associated",
-      "There is no association between the two variables",
-      "There is convincing evidence of an association between the two categorical variables in the population"
+      "There is convincing evidence that one variable causes changes in the other variable",
+      "There is convincing evidence of an association between the two categorical variables in the population",
+      "There is no association between the two variables"
     ],
-    "answer": 4,
-    "explanation": "A small p-value leads us to reject the null hypothesis of independence, providing evidence of an association between the two categorical variables. Option B is incorrect because chi-square tests cannot establish causation — they are observational. Option C is wrong because statistical significance does not imply perfect association. Option D is the opposite conclusion. Option A is incorrect; a small p-value actually suggests statistical significance, not a lack of power."
+    "answer": 2,
+    "explanation": "A small p-value leads us to reject the null hypothesis of independence, providing evidence of an association between the two categorical variables. Option B is incorrect because chi-square tests cannot establish causation — they are observational. Option A is wrong because statistical significance does not imply perfect association. Option D is the opposite conclusion. Option E is incorrect; a small p-value actually suggests statistical significance, not a lack of power."
   },
   {
     "id": "stats_u8_q185",
@@ -8022,14 +7619,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "Which of the following scenarios is best analyzed using a chi-square test of homogeneity rather than a test of independence?",
     "choices": [
-      "A random sample of students is asked their grade level and GPA category",
-      "A single random sample of 200 adults is asked their gender and beverage preference",
       "A random sample of 200 adults is asked to rate their health on a scale from 1 to 5",
-      "A researcher tests whether a spinner lands on each of four colors equally often",
-      "Random samples of 100 men and 100 women are each asked whether they prefer coffee, tea, or neither"
+      "A single random sample of 200 adults is asked their gender and beverage preference",
+      "Random samples of 100 men and 100 women are each asked whether they prefer coffee, tea, or neither",
+      "A researcher tests whether a spinner lands on each of four colors equally often"
     ],
-    "answer": 4,
-    "explanation": "A test of homogeneity is used when separate random samples are drawn from two or more populations and you compare the distribution of one categorical variable across those populations. Option E fits this description: two separate samples (men and women) are compared on beverage preference. Option B uses a single sample with two variables measured, which calls for a test of independence. Option C involves a quantitative variable. Option D is a goodness-of-fit test. Option A uses a single sample, so it would be a test of independence."
+    "answer": 2,
+    "explanation": "A test of homogeneity is used when separate random samples are drawn from two or more populations and you compare the distribution of one categorical variable across those populations. Option C fits this description: two separate samples (men and women) are compared on beverage preference. Option B uses a single sample with two variables measured, which calls for a test of independence. Option A involves a quantitative variable. Option D is a goodness-of-fit test. Option E uses a single sample, so it would be a test of independence."
   },
   {
     "id": "stats_u8_q186",
@@ -8043,14 +7639,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "If all observed counts in a chi-square goodness-of-fit test exactly equal their expected counts, what is the value of the chi-square statistic?",
     "choices": [
-      "It cannot be determined without knowing the sample size",
-      "1",
       "The number of categories minus 1",
-      "The sample size divided by the number of categories",
-      "0"
+      "1",
+      "0",
+      "The sample size divided by the number of categories"
     ],
-    "answer": 4,
-    "explanation": "The chi-square statistic is the sum of (O − A)²/E across all cells. If O = E for every cell, each term equals (0)²/E = 0, so the total is 0. A value of 0 means the observed data perfectly match the expected distribution under H0. Option B (1) is a common distractor. Option C confuses the statistic with degrees of freedom. Options D and E are incorrect because the formula only involves observed and expected counts, and when they match, the result is definitively 0."
+    "answer": 2,
+    "explanation": "The chi-square statistic is the sum of (O − E)²/E across all cells. If O = E for every cell, each term equals (0)²/E = 0, so the total is 0. A value of 0 means the observed data perfectly match the expected distribution under H0. Option B (1) is a common distractor. Option A confuses the statistic with degrees of freedom. Options D and E are incorrect because the formula only involves observed and expected counts, and when they match, the result is definitively 0."
   },
   {
     "id": "stats_u8_q187",
@@ -8064,14 +7659,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A teacher claims that students in her class earn grades of A, B, C, D, and F in a ratio of 2:3:3:1:1. She samples 100 students and wants to test this claim. What are the expected counts for grade A and grade F, respectively?",
     "choices": [
-      "30 and 10",
-      "25 and 5",
       "20 and 20",
-      "10 and 20",
-      "20 and 10"
+      "25 and 5",
+      "20 and 10",
+      "10 and 20"
     ],
-    "answer": 4,
-    "explanation": "The total ratio parts are 2+3+3+1+1 = 10. Grade A has ratio 2/10, so expected count = (2/10)(100) = 20. Grade F has ratio 1/10, so expected count = (1/10)(100) = 10. Option B applies uniform distribution (20 per category). Option C mistakenly assigns 20 to all categories. Option D reverses A and F. Option A assigns grade A the proportion for B or C. Students must sum all ratio parts to find the denominator before computing expected counts."
+    "answer": 2,
+    "explanation": "The total ratio parts are 2+3+3+1+1 = 10. Grade A has ratio 2/10, so expected count = (2/10)(100) = 20. Grade F has ratio 1/10, so expected count = (1/10)(100) = 10. Option B applies uniform distribution (20 per category). Option A mistakenly assigns 20 to all categories. Option D reverses A and F. Option E assigns grade A the proportion for B or C. Students must sum all ratio parts to find the denominator before computing expected counts."
   },
   {
     "id": "stats_u8_q188",
@@ -8085,14 +7679,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "In a chi-square test of independence, the null hypothesis is that two categorical variables are independent. Which of the following best describes what 'independence' means in this context?",
     "choices": [
-      "The observed counts equal the expected counts in every cell",
-      "The two variables have no variables in common in the dataset",
       "The sample means of the two variables are equal",
-      "The two variables are measured on the same scale",
-      "Knowing the value of one variable provides no information about the likely value of the other variable"
+      "The two variables have no variables in common in the dataset",
+      "Knowing the value of one variable provides no information about the likely value of the other variable",
+      "The two variables are measured on the same scale"
     ],
-    "answer": 4,
-    "explanation": "In statistics, two categorical variables are independent if knowing the category of one variable does not change the probability distribution of the other — i.e., one provides no information about the other. Option B describes data structure, not statistical independence. Option C involves means, which are not relevant for categorical variables. Option D refers to measurement, not probabilistic independence. Option A confuses the null hypothesis statement about the population with what would happen to the sample if H0 were true."
+    "answer": 2,
+    "explanation": "In statistics, two categorical variables are independent if knowing the category of one variable does not change the probability distribution of the other — i.e., one provides no information about the other. Option B describes data structure, not statistical independence. Option A involves means, which are not relevant for categorical variables. Option D refers to measurement, not probabilistic independence. Option E confuses the null hypothesis statement about the population with what would happen to the sample if H0 were true."
   },
   {
     "id": "stats_u8_q189",
@@ -8106,14 +7699,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A chi-square test of homogeneity is conducted comparing political party preference (Democrat, Republican, Independent) across four regions (North, South, East, West), using separate samples of 150 from each region. What are the degrees of freedom?",
     "choices": [
-      "12",
-      "3",
       "8",
-      "11",
-      "6"
+      "3",
+      "6",
+      "11"
     ],
-    "answer": 4,
-    "explanation": "For chi-square tests of homogeneity (and independence), df = (rows − 1)(columns − 1). With 4 regions (rows) and 3 party preferences (columns): df = (4−1)(3−1) = 3 × 2 = 6. Option B only computes one factor. Option A gives the total cells (4×3). Option D comes from (rows×columns) − 1 = 12 − 1 = 11. Option C might come from (4−1)(3−1) + 2. Students often forget to subtract 1 from both dimensions."
+    "answer": 2,
+    "explanation": "For chi-square tests of homogeneity (and independence), df = (rows − 1)(columns − 1). With 4 regions (rows) and 3 party preferences (columns): df = (4−1)(3−1) = 3 × 2 = 6. Option B only computes one factor. Option E gives the total cells (4×3). Option D comes from (rows×columns) − 1 = 12 − 1 = 11. Option A might come from (4−1)(3−1) + 2. Students often forget to subtract 1 from both dimensions."
   },
   {
     "id": "stats_u8_q190",
@@ -8127,14 +7719,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A 2×3 contingency table has a grand total of 300 observations. The row totals are 120 and 180. The column totals are 90, 150, and 60. What is the expected count for the cell in row 1, column 2?",
     "choices": [
-      "90",
-      "45",
       "72",
-      "54",
-      "60"
+      "45",
+      "60",
+      "54"
     ],
-    "answer": 4,
-    "explanation": "Expected count = (row total × column total) / grand total = (120 × 150) / 300 = 18000 / 300 = 60. Option B might come from (90 × 150)/300 = 45. Option C might use row total 180: (180 × 120)/300 = 72. Option D could come from various arithmetic errors. Option A is just the column total itself. Students must be careful to use the correct row total and column total for the specific cell."
+    "answer": 2,
+    "explanation": "Expected count = (row total × column total) / grand total = (120 × 150) / 300 = 18000 / 300 = 60. Option B might come from (90 × 150)/300 = 45. Option A might use row total 180: (180 × 120)/300 = 72. Option D could come from various arithmetic errors. Option E is just the column total itself. Students must be careful to use the correct row total and column total for the specific cell."
   },
   {
     "id": "stats_u8_q191",
@@ -8148,14 +7739,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A chi-square test is performed and yields a test statistic of χ² = 0.42 with 4 degrees of freedom. Which of the following is the most appropriate conclusion at α = 0.05?",
     "choices": [
-      "Fail to reject H0; the test statistic must be negative to reject H0",
-      "Reject H0; a small chi-square statistic indicates a significant difference",
       "Reject H0; the p-value must be less than 0.05",
-      "Fail to reject H0; the chi-square statistic must exceed the degrees of freedom to be significant",
-      "Fail to reject H0; there is not convincing evidence against the null hypothesis"
+      "Reject H0; a small chi-square statistic indicates a significant difference",
+      "Fail to reject H0; there is not convincing evidence against the null hypothesis",
+      "Fail to reject H0; the chi-square statistic must exceed the degrees of freedom to be significant"
     ],
-    "answer": 4,
-    "explanation": "A chi-square statistic of 0.42 with 4 df is very small, indicating the observed data closely match expected values. The p-value would be very large (much greater than 0.05), so we fail to reject H0. Option B is incorrect — a small chi-square indicates the opposite of significance. Option C incorrectly says the p-value is small. Option D gives a misconception about degrees of freedom as a threshold. Option A is wrong because chi-square statistics are always non-negative."
+    "answer": 2,
+    "explanation": "A chi-square statistic of 0.42 with 4 df is very small, indicating the observed data closely match expected values. The p-value would be very large (much greater than 0.05), so we fail to reject H0. Option B is incorrect — a small chi-square indicates the opposite of significance. Option A incorrectly says the p-value is small. Option D gives a misconception about degrees of freedom as a threshold. Option E is wrong because chi-square statistics are always non-negative."
   },
   {
     "id": "stats_u8_q192",
@@ -8169,14 +7759,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A researcher collects a single random sample of 400 college students and records each student's class year (1st, 2nd, 3rd, 4th) and whether they have a declared major (yes or no). What test should be used, and how many degrees of freedom does it have?",
     "choices": [
-      "Chi-square test of independence; df = 4",
-      "Chi-square test of homogeneity; df = 3",
       "Chi-square test of independence; df = 7",
-      "Chi-square goodness-of-fit test; df = 4",
-      "Chi-square test of independence; df = 3"
+      "Chi-square test of homogeneity; df = 3",
+      "Chi-square test of independence; df = 3",
+      "Chi-square goodness-of-fit test; df = 4"
     ],
-    "answer": 4,
-    "explanation": "Because one random sample is drawn and two categorical variables (class year and declared major) are measured on each individual, a test of independence is appropriate. The table is 4 rows (class year) × 2 columns (declared major), so df = (4−1)(2−1) = 3 × 1 = 3. Option B misidentifies this as a homogeneity test (which requires separate samples from separate populations). Option C uses the wrong df formula (total cells − 1 = 7). Option A uses df = 4 instead of 3."
+    "answer": 2,
+    "explanation": "Because one random sample is drawn and two categorical variables (class year and declared major) are measured on each individual, a test of independence is appropriate. The table is 4 rows (class year) × 2 columns (declared major), so df = (4−1)(2−1) = 3 × 1 = 3. Option B misidentifies this as a homogeneity test (which requires separate samples from separate populations). Option A uses the wrong df formula (total cells − 1 = 7). Option E uses df = 4 instead of 3."
   },
   {
     "id": "stats_u8_q193",
@@ -8190,14 +7779,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A chi-square test of homogeneity is conducted, and the p-value is 0.23. At α = 0.05, which conclusion is correct?",
     "choices": [
-      "Reject H0; since p = 0.23 is close to 0.05, the result is nearly significant",
       "Reject H0; the distributions are the same across the populations",
       "Fail to reject H0; there is not convincing evidence that the distributions differ across the populations",
-      "Fail to reject H0; the distributions are proven to be the same",
-      "Fail to reject H0; the test proves the null hypothesis is true"
+      "Reject H0; since p = 0.23 is close to 0.05, the result is nearly significant",
+      "Fail to reject H0; the distributions are proven to be the same"
     ],
-    "answer": 2,
-    "explanation": "Since p = 0.23 > α = 0.05, we fail to reject H0. The correct conclusion is that there is insufficient evidence to conclude the distributions differ — not that they are proven the same. Option B incorrectly says to reject H0 and draws the wrong conclusion about what rejection means. Option A misunderstands significance. Option D and E both incorrectly state that failing to reject H0 proves it true — we can never prove a null hypothesis, only fail to find evidence against it."
+    "answer": 1,
+    "explanation": "Since p = 0.23 > α = 0.05, we fail to reject H0. The correct conclusion is that there is insufficient evidence to conclude the distributions differ — not that they are proven the same. Option A incorrectly says to reject H0 and draws the wrong conclusion about what rejection means. Option C misunderstands significance. Option D and E both incorrectly state that failing to reject H0 proves it true — we can never prove a null hypothesis, only fail to find evidence against it."
   },
   {
     "id": "stats_u8_q194",
@@ -8211,14 +7799,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "Two cells in a chi-square goodness-of-fit test have the following values: Cell 1: O = 30, E = 25; Cell 2: O = 18, E = 25. What is the combined contribution of these two cells to the chi-square statistic?",
     "choices": [
-      "1.96",
       "1.00",
       "2.96",
-      "2.00",
-      "0.98"
+      "1.96",
+      "2.00"
     ],
-    "answer": 2,
-    "explanation": "Cell 1: (30−25)²/25 = 25/25 = 1.00. Cell 2: (18−25)²/25 = 49/25 = 1.96. Combined = 1.00 + 1.96 = 2.96. Option B gives only cell 1's contribution. Option A gives only cell 2's contribution. Option D might come from rounding both to 1.00. Option E halves the correct answer. Students must compute each cell's contribution separately and sum them — they cannot combine the differences before squaring."
+    "answer": 1,
+    "explanation": "Cell 1: (30−25)²/25 = 25/25 = 1.00. Cell 2: (18−25)²/25 = 49/25 = 1.96. Combined = 1.00 + 1.96 = 2.96. Option A gives only cell 1's contribution. Option C gives only cell 2's contribution. Option D might come from rounding both to 1.00. Option E halves the correct answer. Students must compute each cell's contribution separately and sum them — they cannot combine the differences before squaring."
   },
   {
     "id": "stats_u8_q195",
@@ -8232,14 +7819,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A chi-square goodness-of-fit test is used to determine whether the distribution of blood types in a hospital sample matches the known national distribution. The national proportions are: O = 44%, A = 42%, B = 10%, AB = 4%. A sample of 200 patients is taken. What is the expected count for blood type B?",
     "choices": [
-      "8",
       "10",
       "20",
-      "44",
-      "25"
+      "8",
+      "44"
     ],
-    "answer": 2,
-    "explanation": "Expected count = sample size × proportion = 200 × 0.10 = 20. Option B gives the percentage itself (10) rather than multiplying by sample size. Option A applies the AB proportion to 200: 200 × 0.04 = 8. Option D gives the count for blood type O (200 × 0.44 = 88) — actually 44 might come from using the O percentage directly as a count. Option E does not correspond to any correct computation. Always multiply n by the hypothesized proportion to get the expected count."
+    "answer": 1,
+    "explanation": "Expected count = sample size × proportion = 200 × 0.10 = 20. Option A gives the percentage itself (10) rather than multiplying by sample size. Option C applies the AB proportion to 200: 200 × 0.04 = 8. Option D gives the count for blood type O (200 × 0.44 = 88) — actually 44 might come from using the O percentage directly as a count. Option E does not correspond to any correct computation. Always multiply n by the hypothesized proportion to get the expected count."
   },
   {
     "id": "stats_u8_q196",
@@ -8253,14 +7839,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A statistics student wants to test whether a six-sided die is fair. She rolls it 120 times and records the frequency of each outcome. Which of the following correctly states the null hypothesis and the expected count for each outcome under that hypothesis?",
     "choices": [
-      "H0: The die is fair; expected count = 120 for each outcome",
       "H0: The die is not fair; expected count = 20 for each outcome",
       "H0: The die is fair; expected count = 20 for each outcome",
-      "H0: The die is fair; expected count varies based on observed frequencies",
-      "H0: Each outcome has a different probability; expected count = 20 for each outcome"
+      "H0: The die is fair; expected count = 120 for each outcome",
+      "H0: The die is fair; expected count varies based on observed frequencies"
     ],
-    "answer": 2,
-    "explanation": "Under a goodness-of-fit test for a fair die, the null hypothesis states that each face has an equal probability of 1/6. The expected count for each outcome is 120 × (1/6) = 20. Choice B incorrectly states the null as the die being unfair — the null always represents the claim being tested (fairness). Choice A confuses the total number of rolls with the expected count per outcome. Choice D is wrong because under the null of a fair die, expected counts are fixed at 20, not based on observed data. Choice E misstates the null hypothesis entirely."
+    "answer": 1,
+    "explanation": "Under a goodness-of-fit test for a fair die, the null hypothesis states that each face has an equal probability of 1/6. The expected count for each outcome is 120 × (1/6) = 20. Choice A incorrectly states the null as the die being unfair — the null always represents the claim being tested (fairness). Choice C confuses the total number of rolls with the expected count per outcome. Choice D is wrong because under the null of a fair die, expected counts are fixed at 20, not based on observed data. Choice E misstates the null hypothesis entirely."
   },
   {
     "id": "stats_u8_q197",
@@ -8274,14 +7859,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A researcher conducts a chi-square goodness-of-fit test with 5 categories. What are the degrees of freedom for this test, and why?",
     "choices": [
-      "4, because degrees of freedom equals the sample size minus 1",
       "5, because degrees of freedom equals the number of categories",
       "4, because degrees of freedom equals the number of categories minus 1",
-      "5, because degrees of freedom equals the number of categories plus the number of parameters estimated",
-      "3, because degrees of freedom equals the number of categories minus 2"
+      "4, because degrees of freedom equals the sample size minus 1",
+      "5, because degrees of freedom equals the number of categories plus the number of parameters estimated"
     ],
-    "answer": 2,
-    "explanation": "For a chi-square goodness-of-fit test, degrees of freedom = number of categories − 1 = 5 − 1 = 4. One degree of freedom is lost because once you know the counts in 4 of the 5 categories and the total sample size, the fifth count is determined. Choice B incorrectly uses the number of categories without subtracting 1. Choice A confuses this with a t-test formula. Choice D incorrectly adds parameters estimated (the basic goodness-of-fit test with fixed proportions does not lose additional degrees of freedom). Choice E subtracts 2, which is not correct for a standard goodness-of-fit test."
+    "answer": 1,
+    "explanation": "For a chi-square goodness-of-fit test, degrees of freedom = number of categories − 1 = 5 − 1 = 4. One degree of freedom is lost because once you know the counts in 4 of the 5 categories and the total sample size, the fifth count is determined. Choice A incorrectly uses the number of categories without subtracting 1. Choice C confuses this with a t-test formula. Choice D incorrectly adds parameters estimated (the basic goodness-of-fit test with fixed proportions does not lose additional degrees of freedom). Choice E subtracts 2, which is not correct for a standard goodness-of-fit test."
   },
   {
     "id": "stats_u8_q198",
@@ -8295,14 +7879,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "In a chi-square test for independence using a two-way table, which of the following formulas correctly gives the expected count for a cell in row i and column j?",
     "choices": [
-      "(Row i total × Column j total) / (Row i total + Column j total)",
       "(Row i total + Column j total) / Table total",
       "(Row i total × Column j total) / Table total",
-      "(Observed count in cell ij) / Table total",
-      "Table total / (number of rows × number of columns)"
+      "(Row i total × Column j total) / (Row i total + Column j total)",
+      "(Observed count in cell ij) / Table total"
     ],
-    "answer": 2,
-    "explanation": "The expected count for a cell in row i, column j is calculated as (row total × column total) / overall table total. This formula is derived from the multiplication rule under the assumption of independence: if row and column categories are independent, the expected proportion in a cell is the product of the marginal proportions. Choice B uses addition instead of multiplication, which has no statistical basis. Choice A divides by the sum of marginals instead of the table total, a common algebraic error. Choice D uses the observed count, not the expected. Choice E would only be correct if all row and column totals were equal, which is a special case."
+    "answer": 1,
+    "explanation": "The expected count for a cell in row i, column j is calculated as (row total × column total) / overall table total. This formula is derived from the multiplication rule under the assumption of independence: if row and column categories are independent, the expected proportion in a cell is the product of the marginal proportions. Choice A uses addition instead of multiplication, which has no statistical basis. Choice C divides by the sum of marginals instead of the table total, a common algebraic error. Choice D uses the observed count, not the expected. Choice E would only be correct if all row and column totals were equal, which is a special case."
   },
   {
     "id": "stats_u8_q199",
@@ -8316,14 +7899,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A researcher collects data from a random sample of 200 adults and records their education level (high school, college, graduate) and their preferred news source (TV, internet, newspaper). She wants to determine whether education level and preferred news source are related. Which chi-square test is most appropriate, and what is the correct null hypothesis?",
     "choices": [
-      "Goodness-of-fit test; H0: Education level and news source are equally distributed",
       "Test for homogeneity; H0: The distribution of news source preference is the same across all education levels",
       "Test for independence; H0: Education level and preferred news source are independent in the population",
-      "Test for independence; H0: Education level and preferred news source are dependent in the population",
-      "Test for homogeneity; H0: Education level and preferred news source are independent"
+      "Goodness-of-fit test; H0: Education level and news source are equally distributed",
+      "Test for independence; H0: Education level and preferred news source are dependent in the population"
     ],
-    "answer": 2,
-    "explanation": "When one random sample is drawn and two categorical variables are measured on each individual, a chi-square test for independence is appropriate. The null hypothesis states that the two variables are independent (not associated). Choice B describes the test for homogeneity, which is used when separate samples are drawn from different populations — here only one sample was drawn. Choice A misidentifies the test type entirely. Choice D incorrectly states the null as dependence; the null always states no relationship. Choice E mislabels the test type while giving an independence null, which is internally inconsistent with homogeneity."
+    "answer": 1,
+    "explanation": "When one random sample is drawn and two categorical variables are measured on each individual, a chi-square test for independence is appropriate. The null hypothesis states that the two variables are independent (not associated). Choice A describes the test for homogeneity, which is used when separate samples are drawn from different populations — here only one sample was drawn. Choice C misidentifies the test type entirely. Choice D incorrectly states the null as dependence; the null always states no relationship. Choice E mislabels the test type while giving an independence null, which is internally inconsistent with homogeneity."
   },
   {
     "id": "stats_u8_q200",
@@ -8340,8 +7922,7 @@ var APSTATS_MCQ = [
       "Chi-square test for independence; H0: City and brand preference are independent",
       "Chi-square test for homogeneity; H0: The distribution of brand preference is the same in all three cities",
       "Chi-square goodness-of-fit test; H0: Brand preferences are equally distributed across cities",
-      "Chi-square test for homogeneity; H0: Brand preference and city of residence are not associated",
-      "Chi-square test for independence; H0: The distribution of brand preference is the same in all three cities"
+      "Chi-square test for homogeneity; H0: Brand preference and city of residence are not associated"
     ],
     "answer": 1,
     "explanation": "When separate random samples are drawn from distinct populations (the three cities) and the same categorical response is measured, the chi-square test for homogeneity is appropriate. The null hypothesis states that the distribution of the response variable (brand preference) is the same across all populations. Choice A identifies the wrong test — independence is used when one sample is drawn and two variables measured simultaneously. Choice C is the wrong test type entirely. Choice D is the right test but phrases the null in terms of association rather than equal distributions, which is the language of independence, not homogeneity. Choice E has the correct null wording but the wrong test name."
@@ -8358,14 +7939,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "In a chi-square goodness-of-fit test, a particular category has an observed count of 15 and an expected count of 25. What is the contribution of this cell to the chi-square statistic?",
     "choices": [
-      "0.4",
       "4.0",
+      "0.4",
       "10.0",
-      "6.25",
-      "2.5"
+      "6.25"
     ],
-    "answer": 1,
-    "explanation": "The contribution of each cell to the chi-square statistic is (observed − expected)² / expected = (15 − 25)² / 25 = (−10)² / 25 = 100 / 25 = 4.0. Choice A results from dividing (O − E) by E without squaring: 10/25 = 0.4. Choice C is simply (O − E) = 10, forgetting to square and divide. Choice D computes (O − E)² / O = 100/16 = 6.25, incorrectly using observed in the denominator. Choice E halves the correct answer without justification, possibly from dividing by 2 somewhere incorrectly."
+    "answer": 0,
+    "explanation": "The contribution of each cell to the chi-square statistic is (observed − expected)² / expected = (15 − 25)² / 25 = (−10)² / 25 = 100 / 25 = 4.0. Choice B results from dividing (O − E) by E without squaring: 10/25 = 0.4. Choice C is simply (O − E) = 10, forgetting to square and divide. Choice D computes (O − E)² / O = 100/16 = 6.25, incorrectly using observed in the denominator. Choice E halves the correct answer without justification, possibly from dividing by 2 somewhere incorrectly."
   },
   {
     "id": "stats_u8_q202",
@@ -8379,14 +7959,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "Which of the following statements about the chi-square statistic is true?",
     "choices": [
-      "The chi-square statistic can be negative when observed counts are less than expected counts",
       "The chi-square statistic is always non-negative because it involves squaring the differences between observed and expected counts",
+      "The chi-square statistic can be negative when observed counts are less than expected counts",
       "A chi-square statistic of zero means the test was not significant, but the null hypothesis could still be false",
-      "Larger sample sizes always produce smaller chi-square statistics",
-      "The chi-square statistic measures the average squared difference between observed and expected proportions"
+      "Larger sample sizes always produce smaller chi-square statistics"
     ],
-    "answer": 1,
-    "explanation": "The chi-square statistic sums (O − E)²/E across all cells. Because each term involves a squared quantity divided by a positive number, every term is non-negative, making the total statistic always non-negative. Choice A is wrong for the same reason — squaring eliminates negative values. Choice C is partially tempting but misleading: a chi-square of exactly zero means observed perfectly equals expected in every cell, which would be extremely unusual and would provide no evidence against the null. Choice D is false; larger sample sizes with the same proportional discrepancies produce larger chi-square statistics, not smaller. Choice E is wrong because the formula uses counts, not proportions, and sums rather than averages."
+    "answer": 0,
+    "explanation": "The chi-square statistic sums (O − E)²/E across all cells. Because each term involves a squared quantity divided by a positive number, every term is non-negative, making the total statistic always non-negative. Choice B is wrong for the same reason — squaring eliminates negative values. Choice C is partially tempting but misleading: a chi-square of exactly zero means observed perfectly equals expected in every cell, which would be extremely unusual and would provide no evidence against the null. Choice D is false; larger sample sizes with the same proportional discrepancies produce larger chi-square statistics, not smaller. Choice E is wrong because the formula uses counts, not proportions, and sums rather than averages."
   },
   {
     "id": "stats_u8_q203",
@@ -8400,14 +7979,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A chi-square test for independence is performed on a 3×4 two-way table. What are the degrees of freedom for this test?",
     "choices": [
-      "12",
       "6",
+      "12",
       "11",
-      "7",
-      "3"
+      "7"
     ],
-    "answer": 1,
-    "explanation": "For a chi-square test of independence (or homogeneity) with a two-way table, degrees of freedom = (number of rows − 1) × (number of columns − 1) = (3 − 1) × (4 − 1) = 2 × 3 = 6. Choice A is simply rows × columns = 12, forgetting to subtract 1 from each. Choice C is the total number of cells minus 1 = 12 − 1 = 11, which incorrectly applies the goodness-of-fit formula. Choice D adds (r−1) + (c−1) and then multiplies incorrectly or makes another algebra error. Choice E uses only (r−1) = 2 or (c−1) = 3, ignoring the other dimension."
+    "answer": 0,
+    "explanation": "For a chi-square test of independence (or homogeneity) with a two-way table, degrees of freedom = (number of rows − 1) × (number of columns − 1) = (3 − 1) × (4 − 1) = 2 × 3 = 6. Choice B is simply rows × columns = 12, forgetting to subtract 1 from each. Choice C is the total number of cells minus 1 = 12 − 1 = 11, which incorrectly applies the goodness-of-fit formula. Choice D adds (r−1) + (c−1) and then multiplies incorrectly or makes another algebra error. Choice E uses only (r−1) = 2 or (c−1) = 3, ignoring the other dimension."
   },
   {
     "id": "stats_u8_q204",
@@ -8421,14 +7999,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A study draws separate random samples of 150 men and 150 women and asks each person to rate their satisfaction with a product as low, medium, or high. A chi-square test produces a p-value of 0.03. Which of the following is the most appropriate conclusion at the α = 0.05 significance level?",
     "choices": [
-      "There is convincing evidence that satisfaction rating and gender are independent",
       "There is convincing evidence that the distribution of satisfaction ratings differs between men and women",
+      "There is convincing evidence that satisfaction rating and gender are independent",
       "There is not convincing evidence that the distribution of satisfaction ratings differs between men and women",
-      "We can conclude that gender causes differences in satisfaction ratings",
-      "The probability that the null hypothesis is true is 0.03"
+      "We can conclude that gender causes differences in satisfaction ratings"
     ],
-    "answer": 1,
-    "explanation": "Since the p-value (0.03) is less than α (0.05), we reject the null hypothesis. The correct conclusion is that there is convincing evidence that the distribution of satisfaction ratings is not the same for men and women (the distributions differ). Choice A incorrectly states that we have evidence of independence — that would be the conclusion when we fail to reject the null. Choice C is the conclusion for failing to reject, which is inappropriate here since p < α. Choice D commits the causation error; chi-square tests cannot establish causation, only association. Choice E misinterprets the p-value as the probability that H0 is true, which is a classic misconception."
+    "answer": 0,
+    "explanation": "Since the p-value (0.03) is less than α (0.05), we reject the null hypothesis. The correct conclusion is that there is convincing evidence that the distribution of satisfaction ratings is not the same for men and women (the distributions differ). Choice B incorrectly states that we have evidence of independence — that would be the conclusion when we fail to reject the null. Choice C is the conclusion for failing to reject, which is inappropriate here since p < α. Choice D commits the causation error; chi-square tests cannot establish causation, only association. Choice E misinterprets the p-value as the probability that H0 is true, which is a classic misconception."
   },
   {
     "id": "stats_u8_q205",
@@ -8445,8 +8022,7 @@ var APSTATS_MCQ = [
       "90, 30, 30, 10",
       "85, 32, 28, 15",
       "40, 40, 40, 40",
-      "80, 40, 24, 16",
-      "9, 3, 3, 1"
+      "80, 40, 24, 16"
     ],
     "answer": 0,
     "explanation": "Under a 9:3:3:1 ratio, the total parts = 9+3+3+1 = 16. The proportions are 9/16, 3/16, 3/16, and 1/16. Expected counts are: 160×(9/16) = 90, 160×(3/16) = 30, 160×(3/16) = 30, 160×(1/16) = 10. Choice B lists the observed counts, which are never the expected counts under the null. Choice C assumes all four phenotypes are equally likely (1/4 each), ignoring the stated 9:3:3:1 ratio. Choice D incorrectly divides as if the ratio were 8:4:3:2 or uses wrong arithmetic. Choice E lists the ratio components themselves, not counts — these must be scaled by the sample size."
@@ -8463,14 +8039,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A researcher fits a least-squares regression line to data and wants to perform inference about the population slope. Which of the following conditions must be verified before conducting inference for the slope of a regression line?",
     "choices": [
-      "The mean of the response variable must equal the mean of the explanatory variable.",
+      "The sample size must be at least 100 for the Central Limit Theorem to apply to regression slopes.",
       "The explanatory and response variables must both be normally distributed in the population.",
       "The correlation coefficient must be at least 0.80 for inference to be valid.",
-      "The sample size must be at least 100 for the Central Limit Theorem to apply to regression slopes.",
       "The residuals are normally distributed, the relationship is linear, the standard deviation of the response is roughly constant, and observations are independent."
     ],
-    "answer": 4,
-    "explanation": "For inference on the slope, we check: (L) linearity, (I) independence of observations, (N) normality of residuals, and (E) equal variance (constant standard deviation of residuals). Option B is wrong because only the residuals, not the raw variables, need to be approximately normal. Option C is a common misconception — there is no minimum correlation threshold for inference. Option D is incorrect; while larger samples help, there is no strict n ≥ 100 rule. Option A has no statistical basis."
+    "answer": 3,
+    "explanation": "For inference on the slope, we check: (L) linearity, (I) independence of observations, (N) normality of residuals, and (E) equal variance (constant standard deviation of residuals). Option B is wrong because only the residuals, not the raw variables, need to be approximately normal. Option C is a common misconception — there is no minimum correlation threshold for inference. Option A is incorrect; while larger samples help, there is no strict n ≥ 100 rule. Option E has no statistical basis."
   },
   {
     "id": "stats_u9_q210",
@@ -8484,14 +8059,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A regression analysis on n = 20 data points yields a sample slope of b = 2.4 and a standard error of the slope SE_b = 0.6. Which of the following is the correct 95% confidence interval for the true population slope, using t* ≈ 2.101 with 18 degrees of freedom?",
     "choices": [
-      "2.4 ± 1.645(0.6)",
+      "2.4 ± 2.101(0.6²)",
       "2.4 ± 1.96(0.6)",
       "2.4 ± 2.101(0.6/√20)",
-      "2.4 ± 2.101(0.6²)",
       "2.4 ± 2.101(0.6)"
     ],
-    "answer": 4,
-    "explanation": "The confidence interval for the population slope is b ± t*(SE_b), where the degrees of freedom are n − 2 = 18. So the correct interval is 2.4 ± 2.101(0.6). Option B incorrectly uses z* = 1.96 instead of the t* critical value. Option C mistakenly divides SE_b by √n, which is done for means, not slopes — the SE of the slope already accounts for sample size. Option D squares the SE, which has no justification. Option A uses the z* for 90% confidence, not 95%."
+    "answer": 3,
+    "explanation": "The confidence interval for the population slope is b ± t*(SE_b), where the degrees of freedom are n − 2 = 18. So the correct interval is 2.4 ± 2.101(0.6). Option B incorrectly uses z* = 1.96 instead of the t* critical value. Option C mistakenly divides SE_b by √n, which is done for means, not slopes — the SE of the slope already accounts for sample size. Option A squares the SE, which has no justification. Option E uses the z* for 90% confidence, not 95%."
   },
   {
     "id": "stats_u9_q211",
@@ -8505,14 +8079,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A significance test for the slope of a regression line produces a p-value of 0.03. The test was conducted at the α = 0.05 significance level with H₀: β = 0. Which conclusion is most appropriate?",
     "choices": [
-      "Reject H₀; the correlation between the variables is stronger than 0.95.",
+      "Fail to reject H₀; we need a p-value less than 0.01 to reject in regression.",
       "Fail to reject H₀; a p-value of 0.03 is too small to be meaningful.",
       "Reject H₀; the population slope is exactly equal to the sample slope.",
-      "Fail to reject H₀; we need a p-value less than 0.01 to reject in regression.",
       "Reject H₀; there is convincing evidence of a linear relationship between the variables in the population."
     ],
-    "answer": 4,
-    "explanation": "Since the p-value (0.03) is less than α (0.05), we reject H₀ and conclude there is convincing evidence of a linear relationship in the population. Option B misinterprets the direction — a smaller p-value gives more evidence against H₀, not less. Option C is a major misconception; rejecting H₀ does not mean the population slope equals the sample slope. Option D is false — the threshold for rejection is the chosen α, not some fixed value of 0.01. Option A makes an unjustified claim about the correlation from just the p-value of the slope test."
+    "answer": 3,
+    "explanation": "Since the p-value (0.03) is less than α (0.05), we reject H₀ and conclude there is convincing evidence of a linear relationship in the population. Option B misinterprets the direction — a smaller p-value gives more evidence against H₀, not less. Option C is a major misconception; rejecting H₀ does not mean the population slope equals the sample slope. Option A is false — the threshold for rejection is the chosen α, not some fixed value of 0.01. Option E makes an unjustified claim about the correlation from just the p-value of the slope test."
   },
   {
     "id": "stats_u9_q212",
@@ -8526,14 +8099,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A regression analysis produces a sample slope of b = 1.8 and a standard error of the slope SE_b = 0.45. What is the value of the t-statistic used to test H₀: β = 0?",
     "choices": [
-      "1.8",
+      "2.25",
       "0.25",
       "0.81",
-      "2.25",
       "4.0"
     ],
-    "answer": 4,
-    "explanation": "The t-statistic for testing H₀: β = 0 is calculated as t = b / SE_b = 1.8 / 0.45 = 4.0. Option B inverts the fraction (0.45/1.8 = 0.25), a common arithmetic error. Option C multiplies b by SE_b instead of dividing (1.8 × 0.45 = 0.81). Option D computes 1.8/0.8, possibly confusing SE_b with something else. Option A simply reports the sample slope, which is not the test statistic."
+    "answer": 3,
+    "explanation": "The t-statistic for testing H₀: β = 0 is calculated as t = b / SE_b = 1.8 / 0.45 = 4.0. Option B inverts the fraction (0.45/1.8 = 0.25), a common arithmetic error. Option C multiplies b by SE_b instead of dividing (1.8 × 0.45 = 0.81). Option A computes 1.8/0.8, possibly confusing SE_b with something else. Option E simply reports the sample slope, which is not the test statistic."
   },
   {
     "id": "stats_u9_q213",
@@ -8547,14 +8119,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "In regression output, the standard error of the slope (SE_b) is best described as which of the following?",
     "choices": [
-      "The square root of the coefficient of determination.",
+      "The margin of error in the y-intercept estimate.",
       "The standard deviation of the response variable values around their mean.",
       "The average residual from the least-squares regression line.",
-      "The margin of error in the y-intercept estimate.",
       "A measure of the typical variation of the sample slope from the true population slope across repeated samples."
     ],
-    "answer": 4,
-    "explanation": "The standard error of the slope estimates how much the sample slope b would vary from the true slope β if the sampling process were repeated many times. It quantifies sampling variability of the slope estimator. Option B describes the standard deviation of y, not of the slope. Option C describes the mean residual, which is always 0 for least-squares regression — that is not the SE of the slope. Option D confuses the SE of the slope with something related to the intercept. Option A describes the square root of R², which is the correlation coefficient r, not SE_b."
+    "answer": 3,
+    "explanation": "The standard error of the slope estimates how much the sample slope b would vary from the true slope β if the sampling process were repeated many times. It quantifies sampling variability of the slope estimator. Option B describes the standard deviation of y, not of the slope. Option C describes the mean residual, which is always 0 for least-squares regression — that is not the SE of the slope. Option A confuses the SE of the slope with something related to the intercept. Option E describes the square root of R², which is the correlation coefficient r, not SE_b."
   },
   {
     "id": "stats_u9_q214",
@@ -8568,14 +8139,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A 95% confidence interval for the population slope β is calculated to be (0.8, 2.4). Which of the following is a correct interpretation of this interval?",
     "choices": [
-      "The population slope equals 1.6, the midpoint of the interval, with 95% certainty.",
+      "If we repeated the study, 95% of the new sample slopes would be between 0.8 and 2.4.",
       "There is a 95% probability that the true population slope is between 0.8 and 2.4.",
       "95% of all sample slopes will fall between 0.8 and 2.4.",
-      "If we repeated the study, 95% of the new sample slopes would be between 0.8 and 2.4.",
       "We are 95% confident that the true population slope is between 0.8 and 2.4."
     ],
-    "answer": 4,
-    "explanation": "The correct interpretation uses 'confident' language: we are 95% confident the true population slope falls in (0.8, 2.4). Option B is the classic frequentist vs. Bayesian trap — once the interval is computed, the true slope either is or is not in it; we cannot assign a probability to a fixed parameter. Option C confuses the confidence interval for the slope with a prediction or sampling interval for future slopes. Option D similarly misapplies the interval to future sample slopes rather than the population parameter. Option A incorrectly claims the slope equals the midpoint with certainty."
+    "answer": 3,
+    "explanation": "The correct interpretation uses 'confident' language: we are 95% confident the true population slope falls in (0.8, 2.4). Option B is the classic frequentist vs. Bayesian trap — once the interval is computed, the true slope either is or is not in it; we cannot assign a probability to a fixed parameter. Option C confuses the confidence interval for the slope with a prediction or sampling interval for future slopes. Option A similarly misapplies the interval to future sample slopes rather than the population parameter. Option E incorrectly claims the slope equals the midpoint with certainty."
   },
   {
     "id": "stats_u9_q215",
@@ -8589,14 +8159,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A researcher tests H₀: β = 0 versus Hₐ: β ≠ 0 and obtains a t-statistic of 1.75 with 23 degrees of freedom. The corresponding p-value is approximately 0.094. At the α = 0.05 significance level, what should the researcher conclude?",
     "choices": [
-      "Reject H₀; a two-sided test always leads to rejection when t > 1.5.",
+      "Reject H₀; p = 0.094 is close enough to 0.05 to reject.",
       "Reject H₀; the t-statistic is large enough to conclude a linear relationship exists.",
       "Fail to reject H₀; the population slope is definitely zero.",
-      "Reject H₀; p = 0.094 is close enough to 0.05 to reject.",
       "Fail to reject H₀; there is not sufficient evidence of a linear relationship between the variables."
     ],
-    "answer": 4,
-    "explanation": "Since the p-value (0.094) is greater than α (0.05), we fail to reject H₀. There is not sufficient evidence to conclude a linear relationship exists in the population. Option B incorrectly claims the t-statistic of 1.75 is large enough — it is not beyond the critical value for α = 0.05. Option C is a critical error: failing to reject H₀ does not prove β = 0; it only means we lack sufficient evidence against it. Option D misinterprets 'close enough' — the significance level is a strict threshold, not a fuzzy boundary. Option A is completely fabricated and has no statistical basis."
+    "answer": 3,
+    "explanation": "Since the p-value (0.094) is greater than α (0.05), we fail to reject H₀. There is not sufficient evidence to conclude a linear relationship exists in the population. Option B incorrectly claims the t-statistic of 1.75 is large enough — it is not beyond the critical value for α = 0.05. Option C is a critical error: failing to reject H₀ does not prove β = 0; it only means we lack sufficient evidence against it. Option A misinterprets 'close enough' — the significance level is a strict threshold, not a fuzzy boundary. Option E is completely fabricated and has no statistical basis."
   },
   {
     "id": "stats_u9_q216",
@@ -8610,14 +8179,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "In a regression t-test for slope with n = 25 observations, what are the correct degrees of freedom?",
     "choices": [
-      "2",
+      "22",
       "24",
       "25",
-      "22",
       "23"
     ],
-    "answer": 4,
-    "explanation": "For inference on the slope in simple linear regression, the degrees of freedom are n − 2 = 25 − 2 = 23. Two degrees of freedom are lost because two parameters (slope and intercept) are estimated from the data. Option B uses n − 1 = 24, which is appropriate for a one-sample t-test for a mean, not for regression slope. Option C uses n itself, ignoring the loss of degrees of freedom. Option D uses n − 3, which would apply to multiple regression with two predictors. Option A uses 2, perhaps confusing the number of estimated parameters with the degrees of freedom."
+    "answer": 3,
+    "explanation": "For inference on the slope in simple linear regression, the degrees of freedom are n − 2 = 25 − 2 = 23. Two degrees of freedom are lost because two parameters (slope and intercept) are estimated from the data. Option B uses n − 1 = 24, which is appropriate for a one-sample t-test for a mean, not for regression slope. Option C uses n itself, ignoring the loss of degrees of freedom. Option A uses n − 3, which would apply to multiple regression with two predictors. Option E uses 2, perhaps confusing the number of estimated parameters with the degrees of freedom."
   },
   {
     "id": "stats_u9_q217",
@@ -8631,14 +8199,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "All else being equal, which of the following changes would most directly reduce the standard error of the slope in a simple linear regression?",
     "choices": [
-      "Decreasing the value of the y-intercept",
-      "Increasing the value of the sample slope",
       "Using a higher confidence level",
+      "Increasing the value of the sample slope",
       "Increasing the sample size",
-      "Switching from a two-sided to a one-sided test"
+      "Decreasing the value of the y-intercept"
     ],
-    "answer": 3,
-    "explanation": "The standard error of the slope is inversely related to the sample size — as n increases, SE_b decreases, leading to more precise estimates. Option B is incorrect because the magnitude of the slope does not directly affect its standard error; SE_b measures variability, not the size of the slope itself. Option C changes the confidence level, which affects the critical value used in a confidence interval but not the SE_b itself. Option A addresses the y-intercept, which is a separate parameter with its own standard error; changing it does not affect SE_b for the slope. Option E refers to hypothesis test setup and has no effect on the standard error of the slope."
+    "answer": 2,
+    "explanation": "The standard error of the slope is inversely related to the sample size — as n increases, SE_b decreases, leading to more precise estimates. Option B is incorrect because the magnitude of the slope does not directly affect its standard error; SE_b measures variability, not the size of the slope itself. Option A changes the confidence level, which affects the critical value used in a confidence interval but not the SE_b itself. Option D addresses the y-intercept, which is a separate parameter with its own standard error; changing it does not affect SE_b for the slope. Option E refers to hypothesis test setup and has no effect on the standard error of the slope."
   },
   {
     "id": "stats_u9_q218",
@@ -8652,14 +8219,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A 95% confidence interval for the population slope in a regression study is calculated as (−0.3, 1.9). Based on this interval, what conclusion can be drawn about a two-sided significance test of H₀: β = 0 at α = 0.05?",
     "choices": [
-      "We would fail to reject H₀ because the upper bound is greater than 1.",
-      "We would reject H₀ because the interval contains positive values.",
       "We would reject H₀ because the interval is wider than 1 unit.",
+      "We would reject H₀ because the interval contains positive values.",
       "We would fail to reject H₀ because 0 is contained within the confidence interval.",
-      "We cannot draw any conclusions about the hypothesis test from a confidence interval."
+      "We would fail to reject H₀ because the upper bound is greater than 1."
     ],
-    "answer": 3,
-    "explanation": "A confidence interval and a two-sided significance test at the same alpha level are directly connected. If the null value (β = 0) falls inside the 95% CI, we fail to reject H₀ at α = 0.05. Since 0 is within (−0.3, 1.9), we fail to reject H₀. Option B incorrectly focuses on the sign of some values in the interval rather than whether the null value is included. Option C misidentifies interval width as the decision criterion — width is about precision, not hypothesis conclusions. Option A uses the upper bound magnitude as the criterion, which has no basis in inference logic. Option E is false; a confidence interval is directly equivalent to a two-sided hypothesis test at the corresponding significance level."
+    "answer": 2,
+    "explanation": "A confidence interval and a two-sided significance test at the same alpha level are directly connected. If the null value (β = 0) falls inside the 95% CI, we fail to reject H₀ at α = 0.05. Since 0 is within (−0.3, 1.9), we fail to reject H₀. Option B incorrectly focuses on the sign of some values in the interval rather than whether the null value is included. Option A misidentifies interval width as the decision criterion — width is about precision, not hypothesis conclusions. Option D uses the upper bound magnitude as the criterion, which has no basis in inference logic. Option E is false; a confidence interval is directly equivalent to a two-sided hypothesis test at the corresponding significance level."
   },
   {
     "id": "stats_u1_q219",
@@ -8676,8 +8242,7 @@ var APSTATS_MCQ = [
       "Zip code",
       "Favorite color",
       "Phone number",
-      "Height in centimeters",
-      "Political party affiliation"
+      "Height in centimeters"
     ],
     "answer": 3,
     "explanation": "Height in centimeters is quantitative because it is a numerical measurement for which arithmetic operations like finding the mean are meaningful. Zip codes (A) and phone numbers (C) are common traps - although they consist of digits, they are categorical because performing arithmetic on them (e.g., averaging zip codes) has no meaningful interpretation. Favorite color (B) and political party affiliation (E) are clearly categorical variables representing group membership, not measurable quantities."
@@ -8697,8 +8262,7 @@ var APSTATS_MCQ = [
       "85 is an outlier but 12 is not.",
       "Both 12 and 85 are outliers.",
       "Neither 12 nor 85 is an outlier.",
-      "12 is an outlier but 85 is not.",
-      "There is not enough information to determine whether outliers exist."
+      "12 is an outlier but 85 is not."
     ],
     "answer": 0,
     "explanation": "IQR = Q3 - Q1 = 47 - 25 = 22. The lower fence is Q1 - 1.5(IQR) = 25 - 33 = -8, and the upper fence is Q3 + 1.5(IQR) = 47 + 33 = 80. Per the standard AP Stats convention, a value is an outlier only if it falls strictly beyond (not equal to) a fence. Since 12 > -8, the minimum is not an outlier. Since 85 > 80, the maximum is an outlier. Therefore, only 85 is an outlier, making choice A the correct answer. Choice B is wrong because 12 lies well within the lower fence of -8. Choice C is wrong because 85 clearly exceeds the upper fence of 80. Choice D reverses the result — 12 is not an outlier and 85 is. Choice E is wrong because the five-number summary provides all the information needed to apply the 1.5 × IQR rule."
@@ -8718,8 +8282,7 @@ var APSTATS_MCQ = [
       "Both the mean and the median will increase.",
       "The mean will increase, but the median will remain the same.",
       "The median will increase, but the mean will remain the same.",
-      "Both the mean and the median will remain the same.",
-      "The mean will increase, and the median may or may not increase."
+      "Both the mean and the median will remain the same."
     ],
     "answer": 1,
     "explanation": "Increasing the value of the maximum observation increases the sum of all values, which increases the mean. However, the median depends only on the middle values of the ordered dataset. Since only the largest value changed and it was already the largest, the ordering of the middle values is unaffected, so the median stays the same. Choice A is a common misconception where students think any change to the data shifts both measures. Choice C confuses which measure is resistant. Choice D incorrectly assumes neither measure is affected. Choice E hedges unnecessarily - with 200 observations, changing only the maximum cannot affect the median."
@@ -8739,8 +8302,7 @@ var APSTATS_MCQ = [
       "64",
       "68",
       "72",
-      "76",
-      "84"
+      "76"
     ],
     "answer": 1,
     "explanation": "The 84th percentile in a normal distribution corresponds to a z-score of approximately +1 (since about 84% of data falls below one standard deviation above the mean by the empirical rule). On the first test: z = (x - 500)/100 = 1, so x = 600, which confirms the 84th percentile. For the same relative standing on the second test: x = mean + z(sd) = 60 + 1(8) = 68. Choice A (64) results from using z = 0.5. Choice C (72) results from incorrectly using z = 1.5. Choice D (76) comes from using z = 2, perhaps confusing the 84th percentile with the 97.5th. Choice E (84) is the trap of confusing the percentile rank with the raw score."
@@ -8760,8 +8322,7 @@ var APSTATS_MCQ = [
       "Two quantitative variables",
       "Two categorical variables",
       "One categorical and one quantitative variable",
-      "One quantitative variable only",
-      "Any combination of variable types"
+      "One quantitative variable only"
     ],
     "answer": 0,
     "explanation": "A scatterplot is specifically designed to display the relationship between two quantitative (numerical) variables. Option B describes a situation better suited for a two-way table or mosaic plot. Option C describes a situation for side-by-side boxplots or dotplots. Option D would be a single-variable display like a histogram. Option E is incorrect because scatterplots specifically require two quantitative variables."
@@ -8779,13 +8340,12 @@ var APSTATS_MCQ = [
     "question": "Which of the following values of the correlation coefficient r indicates the strongest linear relationship?",
     "choices": [
       "r = 0.65",
-      "r = -0.45",
-      "r = 0.10",
       "r = -0.90",
-      "r = 0.00"
+      "r = 0.10",
+      "r = -0.45"
     ],
-    "answer": 3,
-    "explanation": "The strength of a linear relationship is determined by the absolute value of r. |−0.90| = 0.90 is the largest absolute value among the choices, indicating the strongest linear relationship. A common misconception is that negative values of r indicate weaker relationships, but the sign only indicates direction, not strength. Option A (|0.65|) is moderate, Option C (|0.10|) is very weak, Option B (|−0.45|) is moderate, and Option E (0.00) indicates no linear relationship."
+    "answer": 1,
+    "explanation": "The strength of a linear relationship is determined by the absolute value of r. |−0.90| = 0.90 is the largest absolute value among the choices, indicating the strongest linear relationship. A common misconception is that negative values of r indicate weaker relationships, but the sign only indicates direction, not strength. Option A (|0.65|) is moderate, Option C (|0.10|) is very weak, Option D (|−0.45|) is moderate, and Option E (0.00) indicates no linear relationship."
   },
   {
     "id": "stats_u2_q225",
@@ -8800,13 +8360,12 @@ var APSTATS_MCQ = [
     "question": "The least squares regression line always passes through which point?",
     "choices": [
       "The origin (0, 0)",
-      "The point (median of x, median of y)",
-      "The point where the residual is largest",
       "The point (x-bar, y-bar)",
-      "The point (x-bar, 0)"
+      "The point where the residual is largest",
+      "The point (median of x, median of y)"
     ],
-    "answer": 3,
-    "explanation": "A fundamental property of the least squares regression line is that it always passes through the point (x-bar, y-bar), the mean of x and the mean of y. Option A is a common misconception; the line only passes through the origin if the y-intercept happens to be zero. Option C is incorrect because the largest residual has no special relationship to the line's path. Option B confuses the mean with the median. Option E incorrectly assumes the line passes through y = 0 at the mean of x."
+    "answer": 1,
+    "explanation": "A fundamental property of the least squares regression line is that it always passes through the point (x-bar, y-bar), the mean of x and the mean of y. Option A is a common misconception; the line only passes through the origin if the y-intercept happens to be zero. Option C is incorrect because the largest residual has no special relationship to the line's path. Option D confuses the mean with the median. Option E incorrectly assumes the line passes through y = 0 at the mean of x."
   },
   {
     "id": "stats_u2_q226",
@@ -8823,8 +8382,7 @@ var APSTATS_MCQ = [
       "Predicted value minus observed value",
       "Observed value minus predicted value",
       "Observed value minus the mean of y",
-      "Predicted value minus the mean of y",
-      "Observed value divided by predicted value"
+      "Predicted value minus the mean of y"
     ],
     "answer": 1,
     "explanation": "A residual is defined as the observed value (actual y) minus the predicted value (y-hat): residual = y - y-hat. Option A reverses the order, which is a very common student error and would give the opposite sign. Option C describes a deviation from the mean, not a residual from the regression line. Option D is related to explained variation but is not a residual. Option E has no standard statistical meaning in this context."
@@ -8844,8 +8402,7 @@ var APSTATS_MCQ = [
       "The linear model is a good fit for the data",
       "The linear model is not appropriate because the relationship is nonlinear",
       "There is no relationship between the two variables",
-      "The correlation coefficient is close to 1",
-      "The residuals have a constant variance"
+      "The correlation coefficient is close to 1"
     ],
     "answer": 1,
     "explanation": "A curved pattern in a residual plot indicates that a linear model does not adequately capture the relationship between the variables; a nonlinear model would be more appropriate. Option A is incorrect because a good linear fit would show a random scatter of residuals with no pattern. Option C is wrong because a curved residual pattern still indicates a relationship, just not a linear one. Option D is incorrect because a high correlation does not guarantee linearity. Option E describes a desirable property (homoscedasticity) that a curved pattern would violate."
@@ -8865,8 +8422,7 @@ var APSTATS_MCQ = [
       "The correlation between the two variables is 0.81",
       "81% of the variation in the response variable is explained by the linear relationship with the explanatory variable",
       "81% of the data points fall on the regression line",
-      "The slope of the regression line is 0.81",
-      "81% of the predictions made by the model are correct"
+      "The slope of the regression line is 0.81"
     ],
     "answer": 1,
     "explanation": "The coefficient of determination (r-squared) represents the proportion of the variation in the response variable that is explained by the linear relationship with the explanatory variable. Option A confuses r-squared with r; the correlation would be approximately 0.9 (the square root of 0.81). Option C is a common misconception; r-squared does not describe how many points lie on the line. Option D confuses r-squared with the slope. Option E misinterprets r-squared as a measure of prediction accuracy in a classification sense."
@@ -8886,8 +8442,7 @@ var APSTATS_MCQ = [
       "Has the largest y-value in the data set",
       "Has a small residual and is close to the center of the data",
       "Substantially changes the regression line or its slope when removed",
-      "Always has a positive residual",
-      "Is always an outlier in the y-direction"
+      "Always has a positive residual"
     ],
     "answer": 2,
     "explanation": "An influential point is one whose removal would substantially change the slope, intercept, or overall fit of the regression line. Option A is wrong because the largest y-value is not necessarily influential. Option B describes a point that would have very little influence. Option D is incorrect because residual sign is unrelated to influence. Option E is a misconception; influential points are often outliers in the x-direction (high leverage), not necessarily in the y-direction."
@@ -8907,8 +8462,7 @@ var APSTATS_MCQ = [
       "Interpolation",
       "Extrapolation",
       "Residual analysis",
-      "Correlation",
-      "Transformation"
+      "Correlation"
     ],
     "answer": 1,
     "explanation": "Extrapolation is the process of using a regression model to make predictions outside the range of x-values in the original data, which is risky because the established relationship may not hold. Option A (interpolation) refers to predicting within the range of observed data, which is generally more reliable. Option C refers to examining residuals for model fit. Option D is a measure of linear association, not a prediction method. Option E refers to changing the scale of variables to improve model fit."
@@ -8928,8 +8482,7 @@ var APSTATS_MCQ = [
       "Changing the units of measurement of x or y changes the value of r",
       "The value of r can exceed 1 if the association is very strong",
       "A value of r close to 0 means there is no relationship of any kind between the variables",
-      "The value of r is not affected by which variable is labeled x and which is labeled y",
-      "The correlation r can only be positive"
+      "The value of r is not affected by which variable is labeled x and which is labeled y"
     ],
     "answer": 3,
     "explanation": "The correlation coefficient r is the same regardless of which variable is designated as x and which as y; it is symmetric. Option A is incorrect because r is unitless and does not change when the units of x or y change. Option B is wrong because r is always between -1 and 1. Option C is a common misconception; r close to 0 only indicates no linear relationship, but a strong nonlinear relationship could still exist. Option E is incorrect because r can range from -1 to 1, including negative values."
@@ -8949,8 +8502,7 @@ var APSTATS_MCQ = [
       "The correlation coefficient will be exactly 1.0 because the points cluster tightly.",
       "The gap suggests there may be two distinct subgroups in the data, and a single linear summary may be misleading.",
       "The scatterplot cannot be interpreted because the variables are not both quantitative.",
-      "The gap indicates that the researcher made an error in data collection and should discard the dataset.",
-      "A scatterplot is not an appropriate display because hours studied is a categorical variable."
+      "The gap indicates that the researcher made an error in data collection and should discard the dataset."
     ],
     "answer": 1,
     "explanation": "B is correct because a gap in the middle of a scatterplot often indicates two distinct clusters or subgroups, meaning a single linear model may mask important group-level patterns. A is wrong because tight clustering does not guarantee r = 1.0, especially with two separated clusters. C and E are wrong because both variables are quantitative. D is wrong because a gap does not necessarily indicate data collection error - it may reflect a real phenomenon."
@@ -8970,8 +8522,7 @@ var APSTATS_MCQ = [
       "Negative, linear, strong",
       "Negative, nonlinear, strong",
       "Positive, nonlinear, weak",
-      "Negative, linear, weak",
-      "Negative, nonlinear, weak"
+      "Negative, linear, weak"
     ],
     "answer": 1,
     "explanation": "B is correct. The relationship is negative because price decreases as age increases, nonlinear because the pattern is curved (steep then leveling off), and strong because the points follow a clear pattern. A is wrong because the form is curved, not linear. C is wrong because the direction is negative. D is wrong because the form is nonlinear and the relationship is described as clear (strong). E is wrong because the relationship is strong, not weak - the points follow the curve closely."
@@ -8991,8 +8542,7 @@ var APSTATS_MCQ = [
       "Longer commute times cause lower quality-of-life scores because the correlation is strong and negative.",
       "The relationship between commute time and quality-of-life is weaker than the relationship between temperature and quality-of-life because -0.85 is less than 0.40.",
       "The linear relationship between commute time and quality-of-life is stronger than the linear relationship between temperature and quality-of-life.",
-      "Since neither correlation equals 1 or -1, neither relationship is statistically meaningful.",
-      "The correlation of r = 0.40 indicates that 40% of the variation in quality-of-life is explained by temperature."
+      "Since neither correlation equals 1 or -1, neither relationship is statistically meaningful."
     ],
     "answer": 2,
     "explanation": "C is correct because the strength of a linear relationship is measured by the absolute value of r. |−0.85| = 0.85 > |0.40| = 0.40, so the commute-time relationship is stronger. A is wrong because correlation does not imply causation. B is wrong because it fails to use the absolute value of r when comparing strength. D is wrong because correlations do not need to be exactly ±1 to be meaningful. E is wrong because r = 0.40 does not mean 40% of variation is explained - that would be r² = 0.16, or 16%."
@@ -9012,8 +8562,7 @@ var APSTATS_MCQ = [
       "Predicted score is 78.1; the regression line does not necessarily pass through (x-bar, y-bar).",
       "Predicted score is 78.1; the regression line always passes through (x-bar, y-bar).",
       "Predicted score is 57.6; the regression line always passes through (x-bar, y-bar).",
-      "Predicted score is 74.5; the regression line always passes through (x-bar, y-bar) so the prediction equals y-bar.",
-      "Predicted score is 78.1; the regression line passes through (x-bar, y-bar) only when r = 1."
+      "Predicted score is 74.5; the regression line always passes through (x-bar, y-bar) so the prediction equals y-bar."
     ],
     "answer": 1,
     "explanation": "B is correct. The predicted score is y-hat = 20.5 + 0.72(80) = 20.5 + 57.6 = 78.1. A key property of the least squares regression line is that it always passes through the point (x-bar, y-bar). We can verify: 20.5 + 0.72(75) = 20.5 + 54 = 74.5 = y-bar. A is wrong because the LSRL always passes through the mean point. C is wrong because 57.6 is only the product 0.72 × 80 without adding the intercept. D is wrong because the predicted value for x = 80 is not the same as y-bar. E is wrong because the property holds for all values of r, not just r = 1."
@@ -9033,8 +8582,7 @@ var APSTATS_MCQ = [
       "$25,000; the model underpredicted the selling price.",
       "-$25,000; the model overpredicted the selling price.",
       "$25,000; the model overpredicted the selling price.",
-      "-$25,000; the model underpredicted the selling price.",
-      "$545,000; the residual is the sum of observed and predicted values."
+      "-$25,000; the model underpredicted the selling price."
     ],
     "answer": 1,
     "explanation": "B is correct. The residual is calculated as observed minus predicted: $260,000 - $285,000 = -$25,000. A negative residual means the actual value was below the predicted value, so the model overpredicted. A and C incorrectly compute the residual as positive or misinterpret its meaning. D gets the sign correct but misinterprets the direction. E is completely wrong in both calculation and concept."
@@ -9054,8 +8602,7 @@ var APSTATS_MCQ = [
       "A linear model is appropriate because the residuals are balanced between positive and negative values.",
       "The linear model is a good fit because the residual plot shows a recognizable pattern.",
       "A nonlinear model would likely be more appropriate because the residual plot shows a systematic curved pattern.",
-      "The residual plot indicates that there are outliers in the dataset that should be removed.",
-      "The U-shaped pattern suggests that the correlation coefficient is close to zero."
+      "The residual plot indicates that there are outliers in the dataset that should be removed."
     ],
     "answer": 2,
     "explanation": "C is correct. A clear curved pattern (U-shape) in a residual plot indicates that a linear model does not adequately capture the relationship, and a nonlinear model (such as quadratic) may be more appropriate. A is wrong because having both positive and negative residuals does not mean the model is appropriate if there is a systematic pattern. B is wrong because a recognizable pattern in the residual plot is a sign of poor fit, not good fit - we want random scatter. D is wrong because a U-shape is a systematic pattern, not evidence of outliers. E is wrong because the pattern in residuals reflects model misspecification, not necessarily a low correlation."
@@ -9075,8 +8622,7 @@ var APSTATS_MCQ = [
       "64% of the time, the regression line correctly predicts resting heart rate.",
       "The correlation between weekly exercise hours and resting heart rate is 0.64.",
       "64% of the variation in resting heart rate can be explained by the linear relationship with weekly hours of exercise.",
-      "For every 1-hour increase in weekly exercise, resting heart rate decreases by 64%.",
-      "64% of the data points fall exactly on the regression line."
+      "For every 1-hour increase in weekly exercise, resting heart rate decreases by 64%."
     ],
     "answer": 2,
     "explanation": "C is correct. The coefficient of determination r² represents the proportion of variability in the response variable (resting heart rate) that is explained by the linear relationship with the explanatory variable (exercise hours). A is wrong because r² is not about the percentage of correct predictions. B is wrong because r² = 0.64 means r = ±0.8, not 0.64. D is wrong because r² does not describe the slope or rate of change. E is wrong because r² does not indicate what fraction of points lie on the line."
@@ -9096,8 +8642,7 @@ var APSTATS_MCQ = [
       "It is an influential point because it has a large residual, but it does not affect the slope.",
       "It is an influential point because its removal substantially changes the regression line and r².",
       "It is not influential because a single point cannot change the results of a regression analysis.",
-      "It is an outlier in the y-direction only, so it affects the intercept but not the slope.",
-      "It is influential only because it increases r²; changes to the slope are not relevant."
+      "It is an outlier in the y-direction only, so it affects the intercept but not the slope."
     ],
     "answer": 1,
     "explanation": "B is correct. An influential point is one whose removal substantially changes the regression equation or key summary statistics. This point has high leverage (its x-value of 4 is far from the range of the other x-values) and its removal changes both the slope and r² dramatically. A is wrong because influential points can and do affect the slope - this one clearly does. C is wrong because a single point, especially one with high leverage, can dramatically affect regression results. D is wrong because the point's x-value is far from the others, giving it leverage that affects the slope, not just the intercept. E is wrong because changes to the slope are a primary indicator of influence."
@@ -9117,8 +8662,7 @@ var APSTATS_MCQ = [
       "The prediction is unreliable because r² is not equal to 1.00.",
       "The prediction is unreliable because it involves extrapolation well beyond the range of the original data.",
       "The prediction will be perfectly accurate because the r² value is very high.",
-      "The prediction is unreliable because the slope is too small to produce a meaningful height for old trees.",
-      "The prediction is unreliable because age is not a quantitative variable."
+      "The prediction is unreliable because the slope is too small to produce a meaningful height for old trees."
     ],
     "answer": 1,
     "explanation": "B is correct. Extrapolation means using a regression equation to make predictions for x-values far outside the range of the original data (5 to 30 years). The linear trend observed in that range may not continue to x = 100 - tree growth typically slows with age, so the linear model would likely overestimate height. A is wrong because r² does not need to be 1.00 for predictions within the data range to be useful. C is wrong because even a high r² does not guarantee accuracy outside the data range. D is wrong because the concern is about extrapolation, not the magnitude of the slope per se. E is wrong because age is clearly a quantitative variable."
@@ -9138,8 +8682,7 @@ var APSTATS_MCQ = [
       "For each additional minute of exercise, the predicted number of calories burned increases by 35.",
       "For each additional minute of exercise, the predicted number of calories burned increases by 8.5.",
       "For each additional calorie burned, the predicted exercise duration increases by 8.5 minutes.",
-      "A person who does not exercise at all is predicted to burn 8.5 calories.",
-      "The average number of calories burned per minute of exercise is 35 + 8.5 = 43.5."
+      "A person who does not exercise at all is predicted to burn 8.5 calories."
     ],
     "answer": 1,
     "explanation": "B is correct. The slope of 8.5 means that for each additional minute of exercise, the model predicts an increase of 8.5 calories burned. A is wrong because 35 is the y-intercept, not the slope. C is wrong because it reverses the roles of x and y. D is wrong because 8.5 is the slope, not the intercept - a person who exercises 0 minutes is predicted to burn 35 calories (the intercept). E is wrong because you cannot simply add the slope and intercept to get a meaningful rate."
@@ -9159,8 +8702,7 @@ var APSTATS_MCQ = [
       "It is an outlier because it falls far from the overall pattern of the data.",
       "It is not an outlier because 25 hours is within the range of x-values.",
       "It is an outlier only if it changes the correlation coefficient significantly.",
-      "It is not an outlier because a GPA of 2.1 is a possible value.",
-      "It is an outlier only if the residual is exactly zero."
+      "It is not an outlier because a GPA of 2.1 is a possible value."
     ],
     "answer": 0,
     "explanation": "An outlier in a scatterplot is a point that deviates markedly from the overall pattern. A student who studies 25 hours but has a low GPA of 2.1 when the trend is positive falls far from the pattern. Choice B is wrong because being within the range of x-values does not prevent a point from being an outlier in the bivariate sense. Choice C confuses the definition of outlier with influential point criteria. Choice D is wrong because having a possible y-value does not mean the point fits the pattern. Choice E is incorrect because outliers have large residuals, not zero residuals."
@@ -9180,8 +8722,7 @@ var APSTATS_MCQ = [
       "Negative, linear, strong",
       "Negative, nonlinear, strong",
       "Negative, linear, weak",
-      "Positive, nonlinear, strong",
-      "Negative, nonlinear, weak"
+      "Positive, nonlinear, strong"
     ],
     "answer": 1,
     "explanation": "The relationship is negative because resale value decreases as age increases. It is nonlinear because the scatterplot shows a curved pattern (rapid decrease that levels off). It is strong because the points follow a clear pattern. Choice A is wrong because the form is curved, not linear. Choice C is wrong on both form and strength. Choice D is wrong because the direction is negative, not positive. Choice E is wrong because the relationship is described as having a clear pattern, indicating strength."
@@ -9201,8 +8742,7 @@ var APSTATS_MCQ = [
       "It will remain r = -0.85.",
       "It will change sign and become r = 0.85.",
       "It will increase in magnitude because Fahrenheit values are larger.",
-      "It will decrease in magnitude because the units changed.",
-      "It cannot be determined without knowing the specific data values."
+      "It will decrease in magnitude because the units changed."
     ],
     "answer": 0,
     "explanation": "The correlation coefficient r is unitless and is not affected by linear transformations of the variables (such as converting Celsius to Fahrenheit, which is F = 1.8C + 32). Since this transformation has a positive slope (1.8), the sign of r does not change. Choice B is wrong because sign changes only occur when one variable is multiplied by a negative constant. Choices C and D are wrong because r does not depend on the scale of measurement. Choice E is wrong because this property holds for all data sets under linear transformation."
@@ -9222,8 +8762,7 @@ var APSTATS_MCQ = [
       "For each additional absence, the final exam score decreases by 2.7 points, on average.",
       "For each additional absence, the final exam score is predicted to be 2.7 points.",
       "A student with zero absences is predicted to score 2.7 on the final exam.",
-      "For each additional point on the final exam, the number of absences decreases by 2.7.",
-      "The final exam score decreases by 2.7 percent for each additional absence."
+      "For each additional point on the final exam, the number of absences decreases by 2.7."
     ],
     "answer": 0,
     "explanation": "The slope of -2.7 means that for each additional absence, the predicted final exam score decreases by 2.7 points. Choice B is incomplete and nonsensical. Choice C confuses the slope with the intercept. Choice D reverses the roles of x and y. Choice E incorrectly states percentage rather than points. The phrase 'on average' or 'predicted' is important for proper interpretation."
@@ -9243,8 +8782,7 @@ var APSTATS_MCQ = [
       "It is influential because its removal substantially changes the slope of the regression line.",
       "It is not influential because the correlation increased when it was removed.",
       "It is an outlier because it has an extreme x-value.",
-      "It is not influential because its y-value is consistent with the trend.",
-      "It is influential only if it increases the correlation when removed."
+      "It is not influential because its y-value is consistent with the trend."
     ],
     "answer": 0,
     "explanation": "A point is influential if its removal substantially changes the regression analysis (slope, intercept, or r). Here, the slope changed from 1.8 to 1.2, which is a substantial change, so the point is influential. Choice B is wrong because influence is primarily assessed by changes in the regression equation, not whether correlation goes up or down. Choice C is wrong because having an extreme x-value makes a point high leverage, but that alone does not make it an outlier. Choice D is wrong because even points consistent with the trend can be influential if they have high leverage (extreme x-values). Choice E provides an incorrect and incomplete definition of influential."
@@ -9264,8 +8802,7 @@ var APSTATS_MCQ = [
       "The prediction is extrapolation because 100 cm is outside the range of the observed x-values.",
       "The prediction is unreliable because children weigh less than adults.",
       "The prediction is invalid because the regression line can only be used for interpolation within the y-values.",
-      "The prediction is problematic only if the r-squared value is low.",
-      "The prediction is acceptable because the linear model can be extended to any x-value."
+      "The prediction is problematic only if the r-squared value is low."
     ],
     "answer": 0,
     "explanation": "Extrapolation occurs when a prediction is made for an x-value outside the range of the observed data. Since the data only include heights from 150 cm to 195 cm, predicting for 100 cm is extrapolation and is unreliable because there is no evidence that the linear pattern continues outside the observed range. Choice B identifies a real concern but does not name the statistical issue. Choice C incorrectly refers to interpolation within y-values rather than x-values. Choice D is wrong because extrapolation is problematic regardless of r-squared. Choice E is incorrect because the linear model should not be assumed to hold beyond the observed data range."
@@ -9285,8 +8822,7 @@ var APSTATS_MCQ = [
       "The line passes through the point (10, 25).",
       "The line passes through the origin (0, 0).",
       "The line has a positive slope.",
-      "The line passes through the point (25, 10).",
-      "The sum of the squared residuals equals zero."
+      "The line passes through the point (25, 10)."
     ],
     "answer": 0,
     "explanation": "A key property of the least squares regression line is that it always passes through the point (x-bar, y-bar). Since x-bar = 10 and y-bar = 25, the line passes through (10, 25). Choice B is wrong because the line passes through the origin only if the intercept is zero, which is not guaranteed. Choice C is wrong because the slope can be positive, negative, or zero. Choice D reverses the coordinates. Choice E is wrong because the sum of squared residuals is minimized by least squares but is not zero unless all points fall exactly on the line."
@@ -9306,8 +8842,7 @@ var APSTATS_MCQ = [
       "A linear model is not appropriate for these data; a nonlinear model would be more suitable.",
       "The linear model is a good fit because the residuals are all relatively small in magnitude.",
       "There is no association between rainfall and crop yield.",
-      "The correlation between rainfall and crop yield is close to zero.",
-      "The residual plot indicates that the data contain influential outliers that should be removed."
+      "The correlation between rainfall and crop yield is close to zero."
     ],
     "answer": 0,
     "explanation": "A U-shaped pattern in a residual plot indicates that the relationship between the variables is not linear, so a linear model is inappropriate and a curved model would better capture the relationship. Choice B is wrong because the appropriateness of a model is judged by the pattern of residuals, not just their magnitude. Choice C is wrong because a nonlinear association still constitutes an association. Choice D is wrong because a curved relationship can exist even when the linear correlation coefficient is low - the issue is model form, not lack of association. Choice E is wrong because a systematic curved pattern is not the same as having influential outliers."
@@ -9327,8 +8862,7 @@ var APSTATS_MCQ = [
       "64% of the variation in final exam scores is explained by the linear relationship with hours studied.",
       "80% of the variation in final exam scores is explained by the linear relationship with hours studied.",
       "64% of the final exam scores are predicted correctly by the regression model.",
-      "80% of the data points fall on the least-squares regression line.",
-      "For each additional hour studied, the final exam score increases by 64%."
+      "80% of the data points fall on the least-squares regression line."
     ],
     "answer": 0,
     "explanation": "The coefficient of determination is r-squared. Since r = 0.80, r-squared = 0.64, meaning 64% of the variation in the response variable (final exam scores) is explained by the linear relationship with the explanatory variable (hours studied). Choice B is a common error where students confuse r with r-squared. Choice C misinterprets r-squared as a percentage of correctly predicted values rather than variation explained. Choice D incorrectly interprets r or r-squared as the proportion of points on the line. Choice E confuses the coefficient of determination with the slope of the regression line."
@@ -9348,8 +8882,7 @@ var APSTATS_MCQ = [
       "It is influential on the slope but not on the correlation.",
       "It is a high-leverage point that is influential on both the slope and the correlation.",
       "It is an outlier in the y-direction only and has no leverage.",
-      "It is a high-leverage point that strengthens the linear association.",
-      "It is influential on the correlation but not on the slope."
+      "It is a high-leverage point that strengthens the linear association."
     ],
     "answer": 1,
     "explanation": "The point has an extremely large x-value, making it a high-leverage point (far from the mean of x). Because removing it changes both the slope (decreases noticeably) and the correlation (increases from 0.45 to 0.82), it is influential on both statistics. Choice A is wrong because the correlation also changed substantially. Choice C is wrong because the point's extreme x-value gives it high leverage, not just a y-direction outlier. Choice D is wrong because removing the point increased the correlation, meaning the point was weakening (not strengthening) the linear association. Choice E is wrong because the slope also changed when the point was removed. The point pulled the regression line toward itself due to its leverage, distorting both the slope and the correlation."
@@ -9369,8 +8902,7 @@ var APSTATS_MCQ = [
       "An observational study",
       "An experiment with a control group",
       "A double-blind experiment",
-      "A randomized experiment",
-      "A matched-pairs experiment"
+      "A randomized experiment"
     ],
     "answer": 0,
     "explanation": "Because the researcher simply observed and recorded existing behaviors without imposing any treatment or manipulating any variable, this is an observational study. Options B, C, D, and E all describe experiments, which require the researcher to deliberately impose a treatment on subjects. A common misconception is that any structured data collection with volunteers qualifies as an experiment, but without the deliberate imposition of a treatment, it remains observational."
@@ -9390,8 +8922,7 @@ var APSTATS_MCQ = [
       "The sample of cities may not be representative of all cities.",
       "A confounding variable, such as temperature or population density, could be responsible for the association between ice cream trucks and crime.",
       "The researcher should have used a stratified random sample of cities to avoid bias.",
-      "The study lacks a control group of cities with no ice cream trucks.",
-      "The placebo effect may cause residents to report more crime when they see ice cream trucks."
+      "The study lacks a control group of cities with no ice cream trucks."
     ],
     "answer": 1,
     "explanation": "B is correct. This is an observational study, so no causal conclusion can be drawn. A lurking or confounding variable - such as temperature (hot weather increases both ice cream sales and aggression) or population density - could explain the observed association between ice cream trucks and crime. A is plausible but addresses generalizability, not the flawed causal claim. C incorrectly suggests a sampling method fix would resolve a confounding issue. D incorrectly applies experimental design language (control group) to an observational study. E misapplies the concept of placebo effect, which is relevant to experiments involving treatments, not observational associations."
@@ -9411,8 +8942,7 @@ var APSTATS_MCQ = [
       "Blocking on farm size eliminates the placebo effect that may cause farmers using the new fertilizer to tend their crops more carefully.",
       "Blocking on farm size and randomly assigning treatments within blocks reduces confounding by ensuring that farm size, which is associated with both treatment choice and yield, is balanced across treatment groups.",
       "Blocking on farm size removes all lurking variables from the study, guaranteeing that any observed difference in yield is caused by the fertilizer.",
-      "Blocking on farm size increases the sample size within each group, which reduces sampling variability and makes the results more generalizable.",
-      "Blocking on farm size converts the study from an experiment into a stratified random sample, which eliminates selection bias."
+      "Blocking on farm size increases the sample size within each group, which reduces sampling variability and makes the results more generalizable."
     ],
     "answer": 1,
     "explanation": "The primary flaw in the original study is that it is an observational study with self-selection: farmers chose their own treatment, and those who chose the new fertilizer had systematically larger farms with better irrigation. Farm size (and associated irrigation) is a confounding variable because it is associated with both the treatment received and the outcome (yield). The student's suggestion to block on farm size and then randomly assign fertilizer within blocks directly addresses this confounding by ensuring farm size is balanced across groups, while randomization handles other lurking variables. Choice A is wrong because the placebo effect is not the primary flaw - the main issue is confounding due to self-selection, not psychological response. Choice C is wrong because blocking on one variable does not eliminate all lurking variables; randomization helps with unmeasured variables but cannot guarantee their removal. Choice D is wrong because blocking does not increase sample size; it controls for a known source of variability. Choice E is wrong because adding blocking and random assignment makes this an experiment (a randomized block design), not a stratified random sample - these are fundamentally different concepts."
@@ -9432,8 +8962,7 @@ var APSTATS_MCQ = [
       "3",
       "6",
       "8",
-      "9",
-      "12"
+      "9"
     ],
     "answer": 2,
     "explanation": "Each flip has 2 outcomes, so the sample space has 2 x 2 x 2 = 8 outcomes. A) 3 is the number of flips, not outcomes. B) 6 confuses this with 2 x 3. D) 9 confuses this with 3 x 3. E) 12 confuses this with other counting methods."
@@ -9453,8 +8982,7 @@ var APSTATS_MCQ = [
       "0.10",
       "0.20",
       "0.45",
-      "0.70",
-      "0.90"
+      "0.70"
     ],
     "answer": 1,
     "explanation": "For independent events, P(A and B) = P(A) x P(B) = 0.4 x 0.5 = 0.20. A) 0.10 may come from halving one of the probabilities. C) 0.45 is the average of the two probabilities. D) 0.70 applies the addition rule P(A) + P(B) - P(A and B) but confuses it with the multiplication rule. E) 0.90 adds the two probabilities."
@@ -9474,8 +9002,7 @@ var APSTATS_MCQ = [
       "Check if P(A and B) = 0",
       "Check if P(A | B) = P(A)",
       "Check if P(A or B) = P(A) + P(B)",
-      "Check if P(A) + P(B) = 1",
-      "Check if P(A | B) = P(B)"
+      "Check if P(A) + P(B) = 1"
     ],
     "answer": 1,
     "explanation": "Two events are independent if and only if P(A | B) = P(A). A) P(A and B) = 0 is the definition of mutually exclusive, not independent. C) P(A or B) = P(A) + P(B) also describes mutually exclusive events. D) P(A) + P(B) = 1 describes complementary events. E) P(A | B) = P(B) is not a valid test for independence."
@@ -9495,8 +9022,7 @@ var APSTATS_MCQ = [
       "10",
       "12.5",
       "15",
-      "20",
-      "30"
+      "20"
     ],
     "answer": 2,
     "explanation": "E(X) = 10(0.5) + 20(0.5) = 5 + 10 = 15. A) 10 picks only the first value. B) 12.5 may come from averaging 5 and 20 or a similar error. D) 20 picks only the second value. E) 30 adds the two values without weighting."
@@ -9516,8 +9042,7 @@ var APSTATS_MCQ = [
       "There is a fixed number of trials.",
       "Each trial has two possible outcomes.",
       "The probability of success changes from trial to trial.",
-      "The trials are independent.",
-      "The probability of success is the same for each trial."
+      "The trials are independent."
     ],
     "answer": 2,
     "explanation": "A binomial setting requires a fixed probability of success on each trial. Choice C states that the probability changes from trial to trial, which violates the binomial conditions. All other choices (A, B, D, E) are correct conditions for a binomial distribution."
@@ -9537,8 +9062,7 @@ var APSTATS_MCQ = [
       "0.25",
       "0.417",
       "0.600",
-      "0.625",
-      "0.750"
+      "0.625"
     ],
     "answer": 3,
     "explanation": "We need P(Dog | Cat) = P(Dog and Cat) / P(Cat) = 0.25 / 0.40 = 0.625. Choice A (0.25) is the joint probability, not the conditional probability - a common error where students forget to divide. Choice B (0.417) results from dividing P(Cat and Dog) by P(Dog) instead of P(Cat), computing P(Cat | Dog). Choice C (0.600) is simply P(Dog), ignoring the given condition entirely. Choice E (0.750) could arise from an incorrect addition rule calculation."
@@ -9558,8 +9082,7 @@ var APSTATS_MCQ = [
       "7",
       "12",
       "35",
-      "144",
-      "139"
+      "144"
     ],
     "answer": 3,
     "explanation": "When a linear transformation Y = aX + b is applied, the variance of Y equals a^2 times the variance of X. Here, Var(X) = 3^2 = 9, so Var(Y) = 4^2 * 9 = 16 * 9 = 144. Choice A (7) comes from incorrectly subtracting 5 from the standard deviation (12 - 5). Choice B (12) results from multiplying the standard deviation by 4 but not squaring - computing SD(Y) instead of Var(Y). Choice C (35) comes from computing 4(9) - 5 = 31 or 4(10) - 5 = 35, applying the full linear transformation to the mean, confusing mean with variance. Choice E (139) results from computing 4^2 * 9 - 5 = 139, incorrectly subtracting the constant from the variance."
@@ -9579,8 +9102,7 @@ var APSTATS_MCQ = [
       "E(W) = 5, Var(W) = 48",
       "E(W) = 5, Var(W) = 0",
       "E(W) = 5, Var(W) = 24",
-      "E(W) = 4, Var(W) = 48",
-      "E(W) = 5, Var(W) = -24"
+      "E(W) = 4, Var(W) = 48"
     ],
     "answer": 0,
     "explanation": "E(W) = 2E(X) - 3E(Y) + 1 = 2(5) - 3(2) + 1 = 10 - 6 + 1 = 5. Since X and Y are independent, Var(W) = 2^2 Var(X) + (-3)^2 Var(Y) = 4(3) + 9(4) = 12 + 36 = 48. Choice B is wrong because students sometimes think the variances cancel when subtracting. Choice C (24) results from forgetting to square the coefficients: 2(3) + 3(4) + some error, or computing 2(3) + 9(4)/2. Choice D incorrectly computes the expected value by subtracting the constant instead of adding it. Choice E is wrong because students sometimes subtract variances when variables are subtracted, getting 4(3) - 9(4) = -24, but variance can never be negative and variances always add for independent variables regardless of whether variables are added or subtracted."
@@ -9600,8 +9122,7 @@ var APSTATS_MCQ = [
       "Approximately normal with mean 0.40 and standard deviation 0.040",
       "Approximately normal with mean 0.40 and standard deviation 0.0016",
       "Approximately normal with mean 60 and standard deviation 6",
-      "Skewed right with mean 0.40 and standard deviation 0.040",
-      "Approximately normal with mean 0.40 and standard deviation 0.245"
+      "Skewed right with mean 0.40 and standard deviation 0.040"
     ],
     "answer": 0,
     "explanation": "The sampling distribution of p-hat is approximately normal (since np = 60 >= 10 and n(1-p) = 90 >= 10) with mean p = 0.40 and standard deviation sqrt(p(1-p)/n) = sqrt(0.24/150) = sqrt(0.0016) = 0.040. Choice B confuses standard deviation with variance (0.0016 is the variance). Choice C describes the count, not the proportion. Choice D incorrectly claims the distribution is skewed when conditions for normality are met. Choice E uses sqrt(p(1-p)) without dividing by n."
@@ -9621,8 +9142,7 @@ var APSTATS_MCQ = [
       "It will be strongly skewed to the right because the population is skewed to the right.",
       "It will be approximately normal only if the population is first transformed to be normal.",
       "It will be approximately normal because the sample size is large enough for the Central Limit Theorem to apply.",
-      "It will be approximately normal because the standard deviation of the population is known.",
-      "The shape cannot be determined without knowing the exact population distribution."
+      "It will be approximately normal because the standard deviation of the population is known."
     ],
     "answer": 2,
     "explanation": "The Central Limit Theorem states that for sufficiently large sample sizes (generally n >= 30), the sampling distribution of the sample mean will be approximately normal regardless of the shape of the population distribution. With n = 100, this condition is easily met. Choice A is a common misconception that the sampling distribution inherits the population shape. Choice B incorrectly requires transformation. Choice D confuses knowing the standard deviation with the CLT condition. Choice E ignores the power of the CLT for large samples."
@@ -9642,8 +9162,7 @@ var APSTATS_MCQ = [
       "50",
       "75",
       "100",
-      "125",
-      "12.5"
+      "125"
     ],
     "answer": 2,
     "explanation": "The standard error of the sample mean is sigma/sqrt(n). With n = 25, SE = 0.5/sqrt(25) = 0.1. To cut SE in half to 0.05, we need 0.5/sqrt(n) = 0.05, so sqrt(n) = 10, meaning n = 100. To halve the standard error, you must quadruple the sample size, not double it. Choice A (50) reflects the common misconception of simply doubling n. Choice B and D are other plausible but incorrect guesses. Choice E incorrectly halves the original sample size."
@@ -9663,8 +9182,7 @@ var APSTATS_MCQ = [
       "The sample mean is a biased estimator of the population mean because 79.7 does not equal 80.",
       "The sample mean is unbiased because 79.7 is close to 80; the small difference is due to sampling variability.",
       "The sample mean would be unbiased only if all possible samples of size 50 were taken.",
-      "The sample mean is biased, but increasing the sample size from 50 to 100 would eliminate the bias.",
-      "Unbiasedness cannot be assessed without knowing the shape of the population distribution."
+      "The sample mean is biased, but increasing the sample size from 50 to 100 would eliminate the bias."
     ],
     "answer": 1,
     "explanation": "The sample mean is an unbiased estimator of the population mean, meaning that the expected value of x-bar equals the population mean. Unbiasedness is a theoretical property: over ALL possible samples, the average of x-bar equals mu. With only 200 samples, we expect some deviation from 80 due to sampling variability. Choice A confuses observed sampling variability with bias. Choice C is partially correct about the theoretical definition but incorrectly implies the estimator is not unbiased until all samples are taken. Choice D confuses reducing variability with eliminating bias. Choice E is wrong because unbiasedness of the sample mean holds regardless of population shape."
@@ -9684,8 +9202,7 @@ var APSTATS_MCQ = [
       "Both distributions are centered at 0.50, and the standard error for n = 400 is half the standard error for n = 100.",
       "Both distributions are centered at 0.50, and the standard error for n = 400 is one-fourth the standard error for n = 100.",
       "The distribution for n = 400 is centered closer to 0.50 than the distribution for n = 100, and the standard error for n = 400 is half the standard error for n = 100.",
-      "Both distributions are centered at 0.50, and the standard error for n = 400 is one-fourth the standard error for n = 100 because n is four times as large.",
-      "Both distributions are centered at 0.50, and the standard error for n = 400 is twice the standard error for n = 100 because larger samples produce more variability in the sample proportion."
+      "Both distributions are centered at 0.50, and the standard error for n = 400 is one-fourth the standard error for n = 100 because n is four times as large."
     ],
     "answer": 0,
     "explanation": "Both sampling distributions are centered at the true proportion p = 0.50 because the sample proportion is an unbiased estimator. The standard error of p-hat is sqrt(p(1-p)/n). For n = 100, SE = sqrt(0.25/100) = 0.05. For n = 400, SE = sqrt(0.25/400) = 0.025. Since 0.025 is half of 0.05, the standard error for n = 400 is half that for n = 100. Choice B and D are common errors where students confuse the factor of 4 in n with the factor in SE, forgetting the square root. Because SE depends on sqrt(n), quadrupling n cuts SE in half, not by one-fourth. Choice C incorrectly claims the centers differ; both are unbiased. Choice E incorrectly states that larger samples produce greater standard error, which is the opposite of the truth - increasing sample size decreases the standard error."
@@ -9705,8 +9222,7 @@ var APSTATS_MCQ = [
       "n = 9; the sampling distribution is approximately normal with standard deviation 8.",
       "n = 16; the sampling distribution is approximately normal with standard deviation 6.",
       "n = 36; the sampling distribution is approximately normal with standard deviation 4.",
-      "n = 36; the sampling distribution is approximately normal with standard deviation 24.",
-      "n = 16; the sampling distribution is approximately normal with standard deviation 1.5."
+      "n = 36; the sampling distribution is approximately normal with standard deviation 24."
     ],
     "answer": 2,
     "explanation": "The Central Limit Theorem states that as n increases, the sampling distribution of the sample mean becomes approximately normal regardless of the population shape, but for strongly skewed populations, larger sample sizes are needed. Among the options, n = 36 provides the best approximation to normality for a strongly right-skewed population. The standard deviation of the sampling distribution (standard error) is sigma/sqrt(n) = 24/sqrt(36) = 24/6 = 4. Choice A uses n = 9, which is too small for a strongly skewed population. Choice B uses n = 16, which may not be sufficient for strong skewness, and 24/sqrt(16) = 6, so the SE is correct but normality is questionable. Choice D correctly identifies n = 36 but uses the population standard deviation (24) instead of the standard error. Choice E uses n = 16 and an incorrect standard error calculation."
@@ -9726,8 +9242,7 @@ var APSTATS_MCQ = [
       "The claim is correct; an unbiased estimator is always preferred regardless of variability.",
       "The claim is incorrect; the biased estimator T2 is always preferred because it has smaller standard error.",
       "The claim is incorrect; T2 may be preferred because its estimates are more consistently close to theta, even though they are slightly off-center on average.",
-      "The claim is correct; bias cannot be reduced by increasing sample size, so unbiasedness must take priority.",
-      "The claim is incorrect; both estimators are equally good because bias and variability always cancel each other out."
+      "The claim is correct; bias cannot be reduced by increasing sample size, so unbiasedness must take priority."
     ],
     "answer": 2,
     "explanation": "An unbiased estimator has a sampling distribution centered at the true parameter, but if its variability is very large, individual estimates may frequently be far from the true value. A slightly biased estimator with much smaller variability may produce estimates that are consistently closer to the true parameter value. The quality of an estimator depends on both bias and variability (often assessed together via mean squared error = variance + bias squared). Choice A is wrong because it ignores the role of variability in estimator quality. Choice B is wrong because it goes too far in the other direction - a biased estimator is not always preferred. Choice D is wrong because bias can sometimes be reduced with larger samples, and the reasoning is flawed. Choice E is wrong because bias and variability do not simply cancel; they must be evaluated together, and the tradeoff depends on their magnitudes."
@@ -9747,8 +9262,7 @@ var APSTATS_MCQ = [
       "The null hypothesis is rejected when it is actually true.",
       "The null hypothesis is not rejected when it is actually false.",
       "The null hypothesis is rejected when it is actually false.",
-      "The alternative hypothesis is rejected when it is actually true.",
-      "The sample size is too small to detect a real difference."
+      "The alternative hypothesis is rejected when it is actually true."
     ],
     "answer": 0,
     "explanation": "A Type I error is defined as rejecting the null hypothesis when it is actually true (a false positive). Choice B describes a Type II error (failing to reject a false null hypothesis). Choice C describes a correct decision (rejecting a false null). Choice D is not standard terminology since we do not 'reject' the alternative hypothesis. Choice E describes a issue related to power, not the definition of a Type I error."
@@ -9768,8 +9282,7 @@ var APSTATS_MCQ = [
       "(0.501, 0.599)",
       "(0.510, 0.590)",
       "(0.500, 0.600)",
-      "(0.451, 0.549)",
-      "(0.525, 0.575)"
+      "(0.451, 0.549)"
     ],
     "answer": 0,
     "explanation": "The sample proportion is 220/400 = 0.55. The standard error is sqrt(0.55 * 0.45 / 400) = sqrt(0.00061875) ≈ 0.02487. The 95% CI is 0.55 ± 1.96(0.02487) ≈ 0.55 ± 0.0488, giving (0.5013, 0.5988), which is closest to (0.501, 0.599). Choice D uses the wrong center or a different z*; Choice E is too narrow."
@@ -9789,8 +9302,7 @@ var APSTATS_MCQ = [
       "The sample size is too small.",
       "The number of successes and failures are not both at least 10.",
       "The sample was not randomly selected.",
-      "The population is not at least 10 times the sample size.",
-      "The sampling distribution is not approximately normal."
+      "The population is not at least 10 times the sample size."
     ],
     "answer": 2,
     "explanation": "The most clearly violated condition is random selection. Surveying every student in one statistics class is a convenience sample, not a random sample from the school population. Choice A is wrong because n = 32 is not inherently too small. Choice B is wrong because there are 20 successes and 12 failures, both at least 10. Choice D may or may not be violated depending on school size, but it is not the most clearly violated condition. Choice E is a consequence of the Large Counts condition, which is actually met here."
@@ -9810,8 +9322,7 @@ var APSTATS_MCQ = [
       "The company concludes the drug lowers blood pressure when it actually does.",
       "The company concludes the drug does not lower blood pressure when it actually does.",
       "The company concludes the drug lowers blood pressure when it actually has no effect.",
-      "The company concludes the drug has no effect when it actually has no effect.",
-      "The company fails to reject H0 when the significance level is too high."
+      "The company concludes the drug has no effect when it actually has no effect."
     ],
     "answer": 2,
     "explanation": "A Type I error occurs when we reject H0 when H0 is actually true. In this context, that means concluding the drug lowers blood pressure (rejecting H0) when in reality it has no effect (H0 is true). Choice A describes a correct decision (rejecting a false H0). Choice B describes a Type II error. Choice D describes a correct decision (failing to reject a true H0). Choice E describes a procedural concern, not a Type I error."
@@ -9831,8 +9342,7 @@ var APSTATS_MCQ = [
       "0.05",
       "0.22",
       "0.60",
-      "0.70",
-      "0.78"
+      "0.70"
     ],
     "answer": 1,
     "explanation": "Power is the probability of correctly rejecting H0 when Ha is true. Power = 1 - P(Type II error). Therefore, P(Type II error) = 1 - 0.78 = 0.22. Choice A (0.05) confuses Type II error probability with the significance level (alpha). Choice E (0.78) confuses power with Type II error probability - a very common student mistake. Choices C and D are the proportions from the problem, not probabilities of errors."
@@ -9852,8 +9362,7 @@ var APSTATS_MCQ = [
       "Decrease the sample size.",
       "Decrease the significance level from 0.05 to 0.01.",
       "Increase the sample size.",
-      "Test a proportion closer to the null hypothesis value.",
-      "Use a two-sided alternative instead of a one-sided alternative."
+      "Test a proportion closer to the null hypothesis value."
     ],
     "answer": 2,
     "explanation": "Increasing the sample size reduces the standard error of the sampling distribution, making it easier to detect a true difference, which increases power. Choice A decreases power because a smaller sample increases variability. Choice B decreases power because a lower significance level makes it harder to reject H0. Choice D decreases power because a true proportion closer to p0 means the effect is smaller and harder to detect. Choice E generally decreases power compared to a one-sided test because the rejection region is split between two tails."
@@ -9873,8 +9382,7 @@ var APSTATS_MCQ = [
       "We are 95% confident that more women than men support the ballot measure.",
       "There is a 95% probability that the true difference in proportions is between -0.044 and 0.124.",
       "We are 95% confident that the true difference in the proportions of women and men who support the ballot measure is between -0.044 and 0.124.",
-      "95% of all samples will produce a difference in proportions between -0.044 and 0.124.",
-      "We are 95% confident that the sample difference in proportions is between -0.044 and 0.124."
+      "95% of all samples will produce a difference in proportions between -0.044 and 0.124."
     ],
     "answer": 2,
     "explanation": "The correct interpretation states we are 95% confident that the true difference in population proportions falls within the interval. Choice A is incorrect because the interval contains 0, so we cannot conclude more women support it. Choice B uses probability language about the parameter, which is incorrect - the parameter is fixed, and confidence refers to the method. Choice D incorrectly describes the behavior of all samples rather than the confidence level of this procedure. Choice E refers to the sample difference, but the interval estimates the population difference."
@@ -9894,8 +9402,7 @@ var APSTATS_MCQ = [
       "The production line is not shut down even though the defect rate truly exceeds 2%, resulting in defective products reaching customers.",
       "The production line is shut down for recalibration even though the defect rate is actually 2%, wasting time and money.",
       "The engineer correctly identifies that the defect rate exceeds 2% and shuts down the line.",
-      "The engineer correctly identifies that the defect rate is 2% and does not shut down the line.",
-      "The production line is shut down because the sample size was too small to detect the true defect rate."
+      "The engineer correctly identifies that the defect rate is 2% and does not shut down the line."
     ],
     "answer": 1,
     "explanation": "A Type I error means rejecting H0 when it is actually true. Here, that means concluding the defect rate exceeds 2% (and shutting down the line) when the defect rate is actually 2%. This wastes time and money on unnecessary recalibration. Choice A describes a Type II error (failing to reject H0 when Ha is true). Choices C and D describe correct decisions. Choice E confuses sample size issues with the definition of a Type I error."
@@ -9915,8 +9422,7 @@ var APSTATS_MCQ = [
       "The sample size is too small because n = 60 is less than 100, so the Normal condition fails.",
       "The 10% condition is not met because 60 is more than 10% of the school.",
       "The randomness condition is violated because this is a convenience sample with likely bias.",
-      "The success-failure condition cannot be checked without knowing the sample proportion.",
-      "The population is not normally distributed."
+      "The success-failure condition cannot be checked without knowing the sample proportion."
     ],
     "answer": 2,
     "explanation": "Surveying students in a parking lot is a convenience sample that is biased toward students who own cars, clearly violating the random sampling condition. Choice A is incorrect because there is no requirement that n ≥ 100; the Normal condition for proportions requires np ≥ 10 and n(1−p) ≥ 10, which n = 60 can satisfy. Choice B may or may not be true and is not the most obvious violation. Choice D is wrong because the success-failure condition can be checked once data are collected. Choice E is irrelevant-the population does not need to be normal for proportion inference."
@@ -9936,8 +9442,7 @@ var APSTATS_MCQ = [
       "The pooled expected counts: p-hat-pooled × n1 and p-hat-pooled × n2",
       "Each sample proportion multiplied by the total combined sample size",
       "The observed counts of successes and failures in each sample: n1*p-hat1, n1*(1−p-hat1), n2*p-hat2, n2*(1−p-hat2)",
-      "Only the number of successes in each sample",
-      "The total number of successes and total number of failures across both samples combined"
+      "Only the number of successes in each sample"
     ],
     "answer": 2,
     "explanation": "For a two-proportion z-interval (confidence interval), the Large Counts condition requires checking the observed successes and failures separately for each sample: n1*p-hat1, n1*(1−p-hat1), n2*p-hat2, and n2*(1−p-hat2) must all be at least 10. Here, City A has 7 successes and 73 failures, and City B has 9 successes and 66 failures. Since City A has only 7 successes and City B has only 9 successes, the Large Counts condition is NOT met, and the z-interval procedure is not appropriate. Note that the pooled proportion (used in hypothesis tests, not confidence intervals) would not be the correct values to check here. Choice A describes the hypothesis test approach, which is incorrect for confidence intervals. Choice D ignores failures. Choice E combines both groups, which is not how the condition is checked."
@@ -9957,8 +9462,7 @@ var APSTATS_MCQ = [
       "The company concludes the drug is more effective when it actually is more effective.",
       "The company concludes the drug is not more effective when it actually is more effective.",
       "The company concludes the drug is more effective when in reality it is not more effective than the placebo.",
-      "The company fails to reject the null hypothesis when the significance level is too high.",
-      "The company makes an error in calculating the test statistic."
+      "The company fails to reject the null hypothesis when the significance level is too high."
     ],
     "answer": 2,
     "explanation": "A Type I error occurs when we reject a true null hypothesis. In this context, H0 is that the drug is not more effective. Rejecting H0 when it is actually true means concluding the drug works when it does not. Choice A describes a correct decision. Choice B describes a Type II error. Choice D confuses significance level with hypothesis testing outcomes. Choice E refers to a computational error, not a statistical error type."
@@ -9978,8 +9482,7 @@ var APSTATS_MCQ = [
       "The board has committed a Type I error.",
       "The board has committed a Type II error.",
       "The board has made the correct decision because they did not reject H0.",
-      "The probability of this error is equal to the significance level, 0.05.",
-      "This error could have been avoided by using a larger significance level and a smaller sample size."
+      "The probability of this error is equal to the significance level, 0.05."
     ],
     "answer": 1,
     "explanation": "The true proportion is 0.60, which means H0 (p = 0.70) is false. Failing to reject a false H0 is a Type II error. Choice A is wrong because a Type I error involves rejecting a true H0. Choice C is wrong because H0 is actually false, so not rejecting it is an error. Choice D is wrong because 0.05 equals the probability of a Type I error, not Type II. Choice E is partially right about a larger significance level increasing power but wrong about smaller sample size-a larger sample size would help reduce Type II error."
@@ -9999,8 +9502,7 @@ var APSTATS_MCQ = [
       "Decrease the sample size from 400 to 100.",
       "Change the significance level from 0.05 to 0.01.",
       "Increase the sample size from 400 to 900.",
-      "Test against a true proportion that is closer to 0.50, such as p = 0.51.",
-      "Use a two-sided alternative instead of a one-sided alternative."
+      "Test against a true proportion that is closer to 0.50, such as p = 0.51."
     ],
     "answer": 2,
     "explanation": "Power increases when the sample size increases because the sampling distribution becomes narrower, making it easier to detect a true difference. Choice A decreases sample size, which decreases power. Choice B makes the significance level more stringent, which decreases power. Choice D moves the true parameter closer to the null value, making the effect harder to detect and decreasing power. Choice E splits alpha across two tails, effectively requiring a larger test statistic to reject, which decreases power for a given direction."
@@ -10020,8 +9522,7 @@ var APSTATS_MCQ = [
       "The sample size of 150 is too large for a proportion test.",
       "The expected number of successes under H0 is np0 = 150(0.03) = 4.5, which is less than 10, so the Large Counts condition is not met.",
       "The expected number of failures is too small because n(1 - p0) = 145.5 is much larger than np0.",
-      "A one-sided test cannot be used when the hypothesized proportion is less than 0.10.",
-      "The 10% condition is violated because 150 is likely more than 10% of the population."
+      "A one-sided test cannot be used when the hypothesized proportion is less than 0.10."
     ],
     "answer": 1,
     "explanation": "For a one-proportion z-test, the Large Counts condition requires both np0 >= 10 and n(1 - p0) >= 10. Here np0 = 150(0.03) = 4.5 < 10, so the Normal approximation to the sampling distribution is not appropriate. Choice A is wrong because large samples are generally fine. Choice C identifies an imbalance but does not correctly state the violation. Choice D is a fabricated rule. Choice E is likely not violated and is not the primary concern here."
@@ -10041,8 +9542,7 @@ var APSTATS_MCQ = [
       "Type II error probability decreases and power increases.",
       "Type II error probability increases and power decreases.",
       "Type II error probability decreases and power decreases.",
-      "Both Type II error probability and power increase.",
-      "There is no effect on Type II error probability or power."
+      "Both Type II error probability and power increase."
     ],
     "answer": 1,
     "explanation": "Decreasing the significance level (alpha) makes it harder to reject H0, which means we are less likely to reject H0 when it is actually false. This increases the probability of a Type II error (beta). Since power = 1 - beta, power decreases. Choice A reverses the relationship. Choice C incorrectly states that both decrease. Choice D incorrectly states that both increase. Choice E ignores the well-established tradeoff between Type I and Type II errors for a fixed sample size."
@@ -10062,8 +9562,7 @@ var APSTATS_MCQ = [
       "Increase the significance level from 0.05 to 0.10",
       "Increase the sample size from 100 to 400",
       "Increase the true population proportion from 0.60 to 0.70",
-      "Change the alternative hypothesis from Ha: p > 0.50 to Ha: p ≠ 0.50",
-      "Decrease the significance level from 0.05 to 0.01"
+      "Change the alternative hypothesis from Ha: p > 0.50 to Ha: p ≠ 0.50"
     ],
     "answer": 0,
     "explanation": "Power is the probability of correctly rejecting H0 when it is false, and the probability of a Type I error equals the significance level (alpha). Increasing alpha from 0.05 to 0.10 makes it easier to reject H0, which increases both power and the probability of a Type I error. (B) Increasing the sample size increases power but does not change alpha, so Type I error probability stays the same. (C) The true proportion is a fixed reality, not something the researcher changes in the design, and it does not affect alpha. (D) Switching to a two-sided test actually decreases power for detecting a one-directional effect while keeping alpha the same. (E) Decreasing alpha reduces both power and Type I error probability."
@@ -10083,8 +9582,7 @@ var APSTATS_MCQ = [
       "The interval suggests that pA is definitely larger than pB because more of the interval is positive.",
       "The correct interpretation is that we fail to find convincing evidence of a difference; we cannot conclude the proportions are equal.",
       "The interval is invalid because the samples were taken from different cities with different population sizes.",
-      "The journalist should have used a one-proportion z-interval instead of a two-proportion z-interval.",
-      "The interval is invalid because the success-failure condition is not met for both samples."
+      "The journalist should have used a one-proportion z-interval instead of a two-proportion z-interval."
     ],
     "answer": 1,
     "explanation": "When a confidence interval for pA - pB contains 0, the correct interpretation is that we do not have convincing evidence that the proportions differ - not that they are equal. Absence of evidence is not evidence of absence. (A) is incorrect because the interval containing 0 means 0 is a plausible value, so we cannot conclude pA > pB regardless of where the interval is centered. (C) is wrong because independent random samples from different populations with different sizes is exactly the appropriate design for a two-proportion inference. (D) is wrong because comparing two proportions requires a two-proportion procedure. (E) is wrong because the success-failure condition is easily met: 84, 116, 60, and 90 are all well above 10."
@@ -10104,8 +9602,7 @@ var APSTATS_MCQ = [
       "Thinner tails and a taller center",
       "Thicker tails and a lower center",
       "The same shape but shifted to the right",
-      "Thicker tails and a taller center",
-      "A skewed shape rather than a symmetric shape"
+      "Thicker tails and a taller center"
     ],
     "answer": 1,
     "explanation": "The t-distribution has more area in the tails (thicker tails) and a lower peak at the center compared to the standard normal distribution. This extra spread accounts for the additional uncertainty from estimating the population standard deviation. A is the opposite. C is wrong because the t-distribution is still centered at 0. D incorrectly pairs thicker tails with a taller center. E is wrong because the t-distribution is symmetric."
@@ -10124,11 +9621,10 @@ var APSTATS_MCQ = [
     "choices": [
       "25",
       "26",
-      "12",
       "24",
-      "23"
+      "12"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "For a one-sample t-procedure, the degrees of freedom equal n - 1. With n = 25, df = 25 - 1 = 24. A (25) is a common error where students forget to subtract 1. B (26) adds 1 instead. D (12) incorrectly halves the sample size. E (23) subtracts 2 instead of 1, which would apply to other procedures."
   },
   {
@@ -10146,8 +9642,7 @@ var APSTATS_MCQ = [
       "x-bar plus or minus z* times (s divided by n)",
       "x-bar plus or minus t* times (sigma divided by the square root of n)",
       "x-bar plus or minus t* times (s divided by the square root of n)",
-      "x-bar plus or minus z* times (s divided by the square root of n)",
-      "x-bar plus or minus t* times (s divided by n)"
+      "x-bar plus or minus z* times (s divided by the square root of n)"
     ],
     "answer": 2,
     "explanation": "The one-sample t-interval is x-bar ± t*(s/√n), where s is the sample standard deviation and t* comes from the t-distribution. A uses z* and divides by n instead of √n. B uses sigma (the population standard deviation), which if known would call for a z-interval instead. D uses z* instead of t*. E divides by n instead of √n."
@@ -10167,8 +9662,7 @@ var APSTATS_MCQ = [
       "The sample size is greater than 30",
       "The population standard deviation is known",
       "The population standard deviation is unknown and must be estimated from the sample",
-      "The population is known to be normally distributed",
-      "The sample mean equals the hypothesized population mean"
+      "The population is known to be normally distributed"
     ],
     "answer": 2,
     "explanation": "A t-test is used when the population standard deviation (sigma) is unknown and must be estimated using the sample standard deviation (s). B describes the condition for a z-test. A describes a guideline related to the Central Limit Theorem but is not the reason for choosing a t-test over a z-test. D describes an assumption that helps validate the procedure but does not determine the choice between z and t. E would not lead to any particular test choice."
@@ -10188,8 +9682,7 @@ var APSTATS_MCQ = [
       "The difference of the two population means",
       "The average of the two sample means",
       "The difference of the two sample means",
-      "The sum of the two sample means",
-      "The ratio of the two sample means"
+      "The sum of the two sample means"
     ],
     "answer": 2,
     "explanation": "The point estimate for a two-sample t-interval is x-bar_1 minus x-bar_2, the difference of the two sample means. A refers to population means, which are unknown parameters we are trying to estimate. B takes the average rather than the difference. D adds the means instead of subtracting. E uses a ratio, which is not relevant to this procedure."
@@ -10209,8 +9702,7 @@ var APSTATS_MCQ = [
       "The two samples must be the same size",
       "The two samples must be independent of each other",
       "The two population standard deviations must be equal",
-      "Both populations must have the same mean",
-      "Both sample sizes must be less than 30"
+      "Both populations must have the same mean"
     ],
     "answer": 1,
     "explanation": "A key condition for the two-sample t-test is that the two samples are independent. A is incorrect because equal sample sizes are not required. C describes the pooled t-test assumption, which is not generally required for the standard two-sample t-test on the AP exam. D is the null hypothesis being tested, not a condition. E is incorrect; there is no requirement that sample sizes be small."
@@ -10230,8 +9722,7 @@ var APSTATS_MCQ = [
       "Comparing mean test scores of students from two different schools",
       "Comparing the mean blood pressure of a group of patients before and after taking a medication",
       "Comparing the mean salaries of randomly selected men and women",
-      "Comparing the mean weight of apples from two different orchards",
-      "Comparing the mean commute times of workers in two different cities"
+      "Comparing the mean weight of apples from two different orchards"
     ],
     "answer": 1,
     "explanation": "A paired t-test is used when the two measurements are taken on the same subjects, creating natural pairs. Measuring blood pressure before and after medication on the same patients creates paired data. All other options involve two independent groups with no natural pairing, making a two-sample t-test appropriate for those scenarios."
@@ -10251,8 +9742,7 @@ var APSTATS_MCQ = [
       "A uniform distribution",
       "A chi-square distribution",
       "The standard normal (z) distribution",
-      "An exponential distribution",
-      "A binomial distribution"
+      "An exponential distribution"
     ],
     "answer": 2,
     "explanation": "As degrees of freedom increase, the estimate of the population standard deviation becomes more precise, and the t-distribution becomes closer and closer to the standard normal (z) distribution. A, B, D, and E are all different types of distributions that the t-distribution does not approach."
@@ -10272,8 +9762,7 @@ var APSTATS_MCQ = [
       "df = 18; the t-distribution is wider than the standard normal distribution",
       "df = 17; the t-distribution is narrower than the standard normal distribution",
       "df = 17; the t-distribution has heavier tails than the standard normal distribution",
-      "df = 18; the t-distribution is identical to the standard normal distribution",
-      "df = 17; the t-distribution has lighter tails than the standard normal distribution"
+      "df = 18; the t-distribution is identical to the standard normal distribution"
     ],
     "answer": 2,
     "explanation": "For a one-sample t-test, df = n - 1 = 18 - 1 = 17. The t-distribution with 17 degrees of freedom has heavier (thicker) tails than the standard normal distribution because of the added variability from estimating the population standard deviation with s. A is wrong because df = n - 1, not n. B is wrong because the t-distribution is wider, not narrower. D is wrong because df is not 18 and the t-distribution is not identical to the normal distribution for finite df. E is wrong because the t-distribution has heavier tails than the standard normal distribution, not lighter tails."
@@ -10293,8 +9782,7 @@ var APSTATS_MCQ = [
       "Fail to reject the null hypothesis because the sample mean is close to 200",
       "Reject the null hypothesis because the p-value is less than 0.05",
       "Fail to reject the null hypothesis because the sample size is too small to draw conclusions",
-      "Reject the null hypothesis because 215 is greater than 200",
-      "Fail to reject the null hypothesis because a t-test requires at least 30 observations"
+      "Reject the null hypothesis because 215 is greater than 200"
     ],
     "answer": 1,
     "explanation": "With df = 11, a t-statistic of 2.89 yields a two-sided p-value less than 0.05 (the critical value for a two-sided test at alpha = 0.05 with 11 df is approximately 2.201). Since 2.89 > 2.201, the p-value is less than 0.05, so we reject the null hypothesis. A is wrong because closeness of the sample mean to 200 is not how hypothesis testing works - the test statistic accounts for variability. C and E are wrong because t-tests do not require large samples (they require approximate normality of the population or sampling distribution). D has the right conclusion but the wrong reasoning - we reject based on the p-value, not simply because one number is larger than another."
@@ -10314,8 +9802,7 @@ var APSTATS_MCQ = [
       "A two-sample t-test, because there are two sets of measurements",
       "A paired t-test, because the two measurements are taken on the same individuals",
       "A one-sample z-test, because the sample size is large enough for the Central Limit Theorem",
-      "A two-sample t-test, because the before and after groups are independent",
-      "A paired t-test, because the sample sizes are equal"
+      "A two-sample t-test, because the before and after groups are independent"
     ],
     "answer": 1,
     "explanation": "Because the same 20 participants are measured before and after the program, the two sets of measurements are dependent (paired). The correct procedure is a paired t-test on the differences (before minus after). A and D are wrong because a two-sample t-test requires independent groups, and these measurements are dependent. C is wrong because 20 is not necessarily large enough to invoke the CLT, and more importantly the data are paired, not a single sample from one population. E identifies the correct test but gives the wrong reason - equal sample sizes alone do not determine whether a paired test is appropriate; what matters is that the observations are linked."
@@ -10335,8 +9822,7 @@ var APSTATS_MCQ = [
       "H0: mu1 - mu2 = 0; Ha: mu1 - mu2 is not equal to 0",
       "H0: mu1 - mu2 = 0; Ha: mu1 - mu2 > 0",
       "H0: x-bar1 - x-bar2 = 0; Ha: x-bar1 - x-bar2 > 0",
-      "H0: mu1 - mu2 > 0; Ha: mu1 - mu2 = 0",
-      "H0: mu1 = mu2 = 0; Ha: mu1 > mu2"
+      "H0: mu1 - mu2 > 0; Ha: mu1 - mu2 = 0"
     ],
     "answer": 1,
     "explanation": "The researchers have a directional claim that Method A produces higher scores, so the alternative should be one-sided: Ha: mu1 - mu2 > 0. The null hypothesis is always a statement of no difference: H0: mu1 - mu2 = 0. A is wrong because it is two-sided, not matching the directional research question. C is wrong because hypotheses are about population parameters (mu), not sample statistics (x-bar). D is wrong because it reverses the null and alternative - the null cannot be an inequality in this context. E is wrong because H0: mu1 = mu2 = 0 states both means equal zero, which is not the hypothesis of interest."
@@ -10356,8 +9842,7 @@ var APSTATS_MCQ = [
       "90% of all commuters in City A have commute times between 2.5 and 8.3 minutes longer than commuters in City B",
       "There is a 90% probability that the true difference in mean commute times is between 2.5 and 8.3 minutes",
       "We are 90% confident that the true difference in population mean commute times (City A minus City B) is between 2.5 and 8.3 minutes",
-      "We are 90% confident that the sample mean difference in commute times is between 2.5 and 8.3 minutes",
-      "If we repeated this study many times, exactly 90% of the intervals would contain the sample mean difference"
+      "We are 90% confident that the sample mean difference in commute times is between 2.5 and 8.3 minutes"
     ],
     "answer": 2,
     "explanation": "The correct interpretation of a confidence interval states that we are 90% confident the true population parameter (difference in means) lies within the interval. A is wrong because the interval is about the difference in population means, not about individual commuters. B is wrong because the true difference is a fixed value - probability statements do not apply to it after the interval is calculated. D is wrong because the sample mean difference is a known value, not something we need to estimate. E is wrong because confidence intervals capture the population parameter, not the sample statistic."
@@ -10377,8 +9862,7 @@ var APSTATS_MCQ = [
       "The t-distribution is skewed to the right for all degrees of freedom",
       "As the degrees of freedom increase, the t-distribution approaches the chi-square distribution",
       "The t-distribution has a larger standard deviation than the standard normal distribution for any finite degrees of freedom",
-      "The t-distribution can only be used when the population standard deviation is known",
-      "The center of the t-distribution shifts to the right as degrees of freedom increase"
+      "The t-distribution can only be used when the population standard deviation is known"
     ],
     "answer": 2,
     "explanation": "The t-distribution is symmetric and bell-shaped like the normal distribution, but it has heavier tails, which means it has greater spread (larger standard deviation) than the standard normal for any finite degrees of freedom. A is wrong because the t-distribution is symmetric, not skewed. B is wrong because as df increases, the t-distribution approaches the standard normal (z) distribution, not the chi-square. D is wrong because the t-distribution is specifically used when the population standard deviation is unknown and must be estimated by s. E is wrong because the t-distribution is always centered at 0, regardless of degrees of freedom."
@@ -10398,8 +9882,7 @@ var APSTATS_MCQ = [
       "The population standard deviation must be known",
       "The sample size must be at least 30",
       "The population of heights should be approximately normally distributed, or the sample should show no strong skewness or outliers",
-      "The sample standard deviation must equal the population standard deviation",
-      "Each height in the sample must be greater than the population mean"
+      "The sample standard deviation must equal the population standard deviation"
     ],
     "answer": 2,
     "explanation": "For a one-sample t-interval with a small sample (n = 15 < 30), the key condition is that the population distribution should be approximately normal, which we assess by checking the sample data for strong skewness or outliers. Since the dotplot shows approximate symmetry and no outliers, this condition is reasonably met. A is wrong because the t-procedure is used precisely when sigma is unknown. B is wrong because 30 is not a strict requirement - smaller samples are fine if the population is approximately normal. D is wrong because s is an estimate of sigma and they do not need to be equal. E makes no sense as a statistical condition."
@@ -10419,8 +9902,7 @@ var APSTATS_MCQ = [
       "The two samples are independent of each other",
       "The observations within each sample are independent",
       "The two populations must have equal variances",
-      "The sampling distributions of both sample means are approximately normal",
-      "Both samples are randomly selected or come from randomized experiments"
+      "The sampling distributions of both sample means are approximately normal"
     ],
     "answer": 2,
     "explanation": "The two-sample t-test (using the Welch/Satterthwaite approximation, which is standard in AP Statistics) does NOT require equal population variances. That assumption is associated with the pooled t-test, which is not the default procedure on the AP exam. A is required because the two-sample procedure assumes independence between groups. B is required to ensure valid inference within each group. D is required, though with n = 45 and n = 50 the Central Limit Theorem helps ensure approximate normality. E is required to generalize results to the populations of interest."
@@ -10440,8 +9922,7 @@ var APSTATS_MCQ = [
       "Increasing the sample size to 100",
       "Increasing the confidence level to 99%",
       "Increasing the sample standard deviation",
-      "Decreasing the sample size to 10",
-      "Using the population standard deviation instead of the sample standard deviation, assuming the population standard deviation is larger than 100"
+      "Decreasing the sample size to 10"
     ],
     "answer": 0,
     "explanation": "The width of a confidence interval is 2 * t* * (s / sqrt(n)). Increasing the sample size from 25 to 100 increases the denominator, which decreases the margin of error and narrows the interval. B is wrong because a higher confidence level increases t* and widens the interval. C is wrong because a larger standard deviation increases the numerator. D is wrong because a smaller sample size increases the width. E is wrong because using a larger standard deviation would widen the interval even if switching from t to z."
@@ -10461,8 +9942,7 @@ var APSTATS_MCQ = [
       "df = 17; the t-distribution has heavier tails than the standard normal",
       "df = 18; the t-distribution has heavier tails than the standard normal",
       "df = 17; the t-distribution has lighter tails than the standard normal",
-      "df = 18; the t-distribution is identical to the standard normal",
-      "df = 17; the t-distribution is identical to the standard normal"
+      "df = 18; the t-distribution is identical to the standard normal"
     ],
     "answer": 0,
     "explanation": "For a one-sample t-test with n = 18, the degrees of freedom are n - 1 = 17. The t-distribution always has heavier (thicker) tails than the standard normal distribution, which accounts for the additional variability introduced by estimating the population standard deviation with s. B is wrong because df = n - 1, not n. C is wrong because the t-distribution has heavier, not lighter, tails. D and E are wrong on both counts - df is not 18, and the t-distribution is not identical to the normal (it only approaches the normal as df increases toward infinity)."
@@ -10482,8 +9962,7 @@ var APSTATS_MCQ = [
       "t = 0.33",
       "t = 1.50",
       "t = 2.00",
-      "t = 2.33",
-      "t = 3.60"
+      "t = 2.33"
     ],
     "answer": 2,
     "explanation": "The test statistic is t = (x-bar - mu_0) / (s / sqrt(n)) = (2120 - 2000) / (360 / sqrt(36)) = 120 / (360 / 6) = 120 / 60 = 2.00. A is wrong - it results from dividing 120 by 360 without adjusting for sample size. B is wrong and may come from arithmetic errors. D is wrong and may come from using the wrong denominator. E is wrong and may come from dividing by the standard deviation alone or other miscalculations."
@@ -10503,8 +9982,7 @@ var APSTATS_MCQ = [
       "H0: mu_A = mu_B; Ha: mu_A > mu_B",
       "H0: x-bar_A = x-bar_B; Ha: x-bar_A ≠ x-bar_B",
       "H0: mu_A = mu_B; Ha: mu_A ≠ mu_B",
-      "H0: mu_A - mu_B ≠ 0; Ha: mu_A - mu_B = 0",
-      "H0: mu_A > mu_B; Ha: mu_A = mu_B"
+      "H0: mu_A - mu_B ≠ 0; Ha: mu_A - mu_B = 0"
     ],
     "answer": 2,
     "explanation": "The researcher wants to test whether the means differ, which is a two-sided test. The null hypothesis states equality of population means and the alternative states they are not equal: H0: mu_A = mu_B and Ha: mu_A ≠ mu_B. A is wrong because it is a one-sided alternative, but the question says 'differs' (two-sided). B is wrong because hypotheses are about population parameters (mu), not sample statistics (x-bar). D is wrong because the null and alternative are reversed. E is wrong because the null hypothesis should always state the condition of no difference."
@@ -10524,8 +10002,7 @@ var APSTATS_MCQ = [
       "Two-sample t-test; t = 0.67",
       "Paired t-test; t = 2.31",
       "Paired t-test; t = 0.67",
-      "Two-sample t-test; t = 2.31",
-      "Paired t-test; t = 0.80"
+      "Two-sample t-test; t = 2.31"
     ],
     "answer": 1,
     "explanation": "Because the same runners are measured under both conditions, the data are paired and a paired t-test is appropriate. The test statistic is t = d-bar / (s_d / sqrt(n)) = 0.8 / (1.2 / sqrt(12)) = 0.8 / (1.2 / 3.464) = 0.8 / 0.3464 ≈ 2.31. A and D are wrong because a two-sample t-test ignores the paired structure, which loses information about within-subject variability. C uses the paired test but computes t incorrectly (0.8/1.2 = 0.67, forgetting to divide s_d by sqrt(n)). E incorrectly uses 0.8 as the test statistic without any standardization."
@@ -10545,8 +10022,7 @@ var APSTATS_MCQ = [
       "Method 1 produces significantly higher scores than Method 2 at the 5% level.",
       "There is no difference in the population means because the interval contains 0.",
       "At the 5% significance level, there is not sufficient evidence to conclude that the population means differ.",
-      "95% of all students taught with Method 1 score between 2.5 points lower and 8.3 points higher than those taught with Method 2.",
-      "The probability is 0.95 that the true difference in means falls within the interval (−2.5, 8.3)."
+      "95% of all students taught with Method 1 score between 2.5 points lower and 8.3 points higher than those taught with Method 2."
     ],
     "answer": 2,
     "explanation": "Because the 95% confidence interval for mu_1 - mu_2 contains 0, we would fail to reject H0: mu_1 = mu_2 at the alpha = 0.05 significance level. There is not sufficient evidence to conclude a difference. A is wrong because the interval includes 0, so we cannot claim significance. B is wrong because failing to reject does not prove the means are equal - it only means we lack evidence of a difference. D is wrong because confidence intervals are about the population parameter, not individual observations. E is wrong because the interval either contains the true difference or it does not - the 95% refers to the method's long-run capture rate, not a probability statement about this specific interval."
@@ -10566,8 +10042,7 @@ var APSTATS_MCQ = [
       "The sample was selected randomly.",
       "The population of apple weights is approximately normal, or the sample shows no strong skewness or outliers.",
       "The sample size is large enough for the Central Limit Theorem to apply.",
-      "The population standard deviation is known.",
-      "The observations are independent of each other."
+      "The population standard deviation is known."
     ],
     "answer": 1,
     "explanation": "For a one-sample t-test with a small sample size (n = 12), we need the population distribution to be approximately normal. Since we cannot observe the population directly, we check the sample data for strong skewness or outliers using a graph like a dotplot. A roughly symmetric distribution with no outliers supports the normality condition. A is wrong because randomness is established by the sampling method, not the dotplot. C is wrong because n = 12 is too small for the CLT to reliably apply - that is precisely why we need to check normality. D is wrong because the t-test is used when the population standard deviation is unknown. E is wrong because independence is checked by considering the sampling design and population size, not the shape of the distribution."
@@ -10587,8 +10062,7 @@ var APSTATS_MCQ = [
       "df = 28; Ha: mu_before - mu_after > 0",
       "df = 14; Ha: mu_d > 0",
       "df = 14; Ha: mu_d ≠ 0",
-      "df = 14; Ha: mu_d < 0",
-      "df = 29; Ha: mu_d > 0"
+      "df = 14; Ha: mu_d < 0"
     ],
     "answer": 1,
     "explanation": "This is a paired design because the same 15 subjects are measured before and after. The degrees of freedom for a paired t-test are n - 1 = 15 - 1 = 14. Since differences are computed as before - after, a reduction in heart rate means the before values are larger, so the mean difference mu_d should be greater than 0. Thus Ha: mu_d > 0. A is wrong because df = 28 would be for a two-sample test with two groups of 15, which is not appropriate here. C is wrong because the researcher specifically wants to test for a reduction, making this one-sided, not two-sided. D is wrong because with differences defined as before - after, a reduction corresponds to mu_d > 0, not mu_d < 0. E is wrong because df = 29 is not correct for either a paired or two-sample scenario with n = 15."
@@ -10608,8 +10082,7 @@ var APSTATS_MCQ = [
       "90% of all employees at the company have commute times between 22.4 and 28.6 minutes.",
       "There is a 90% probability that the true mean commute time is between 22.4 and 28.6 minutes.",
       "If we repeatedly took random samples of 40 employees and constructed 90% confidence intervals, approximately 90% of those intervals would contain the true mean commute time.",
-      "90% of random samples of 40 employees will have a sample mean between 22.4 and 28.6 minutes.",
-      "We are 90% confident that the sample mean commute time is between 22.4 and 28.6 minutes."
+      "90% of random samples of 40 employees will have a sample mean between 22.4 and 28.6 minutes."
     ],
     "answer": 2,
     "explanation": "The correct interpretation of a confidence level is about the long-run behavior of the method: if we repeated the sampling process many times and built a 90% confidence interval each time, about 90% of those intervals would capture the true population mean. A is wrong because the interval estimates the population mean, not individual values. B is wrong because the true mean is a fixed value, not random - we cannot assign a probability to it being in the interval. D is wrong because the interval describes where the population mean likely falls, not where future sample means will fall. E is wrong because we already know the sample mean (it is the center of the interval) - the confidence interval is about the unknown population mean."
@@ -10629,8 +10102,7 @@ var APSTATS_MCQ = [
       "H0: mu_d = 0, Ha: mu_d > 0, df = 14",
       "H0: mu_d = 0, Ha: mu_d > 0, df = 28",
       "H0: mu_d = 0, Ha: mu_d != 0, df = 14",
-      "H0: mu_1 - mu_2 = 0, Ha: mu_1 - mu_2 > 0, df = 28",
-      "H0: mu_d = 0, Ha: mu_d > 0, df = 13"
+      "H0: mu_1 - mu_2 = 0, Ha: mu_1 - mu_2 > 0, df = 28"
     ],
     "answer": 0,
     "explanation": "This is a paired t-test because the same 15 students are measured before and after. The researcher wants to know if scores improved, so the alternative is one-sided: Ha: mu_d > 0. The degrees of freedom for a paired t-test are n - 1 = 15 - 1 = 14. Choice B incorrectly uses df = 2n - 2 = 28, which would apply to a two-sample t-test. Choice C uses the correct df but sets up a two-sided alternative, which does not match the directed research question about improvement. Choice D treats this as a two-sample problem with df = 28, ignoring the paired structure. Choice E incorrectly uses df = n - 2 = 13, which is a common confusion with regression degrees of freedom."
@@ -10650,8 +10122,7 @@ var APSTATS_MCQ = [
       "(row total times column total) divided by table total",
       "(row total plus column total) divided by table total",
       "(observed count times table total) divided by row total",
-      "table total divided by the number of cells",
-      "row total divided by the number of columns"
+      "table total divided by the number of cells"
     ],
     "answer": 0,
     "explanation": "The expected count for a cell in a two-way table is (row total × column total) / table total. Choice B is wrong because it adds rather than multiplies the marginal totals, a common arithmetic mix-up. Choice D assumes all expected counts are equal, which is only true when all marginal totals are equal. Choice C incorrectly uses the observed count in the formula. Choice E divides the row total evenly across columns, ignoring the column distribution."
@@ -10671,8 +10142,7 @@ var APSTATS_MCQ = [
       "48",
       "56",
       "40",
-      "96",
-      "67.2"
+      "96"
     ],
     "answer": 1,
     "explanation": "The expected count is calculated as (row total × column total) / grand total = (140 × 96) / 240 = 13440 / 240 = 56. Choice A (48) results from incorrectly using the male row total (100 × 96 / 200 or a similar error). Choice C (40) comes from dividing 96 by the number of categories or other arithmetic mistakes. Choice D (96) is the column marginal total for online, which ignores conditioning on gender. Choice E (67.2) could result from using 168 or another incorrect marginal."
@@ -10692,8 +10162,7 @@ var APSTATS_MCQ = [
       "Because the variables are both categorical with more than two levels",
       "Because the expected counts in each cell are at least 5",
       "Because independent random samples were drawn separately from each of three populations",
-      "Because the researchers want to test whether the two variables are associated",
-      "Because the total sample size of 450 is large enough for the chi-square approximation"
+      "Because the researchers want to test whether the two variables are associated"
     ],
     "answer": 2,
     "explanation": "The distinguishing feature of a chi-square test for homogeneity is the sampling design: independent random samples are drawn separately from each population being compared. Here, 150 students were independently sampled from each of three schools, so homogeneity is the appropriate test. Choice A is wrong because having two categorical variables with multiple levels is a feature shared by both homogeneity and independence tests — it does not distinguish between them. Choice B describes a validity condition (expected counts ≥ 5), not a reason for choosing one test type over the other. Choice D describes the goal of a test of independence, not homogeneity. Choice E describes a general condition for the chi-square approximation, not a distinguishing feature of the homogeneity test."
@@ -10713,8 +10182,7 @@ var APSTATS_MCQ = [
       "The degrees of freedom decrease by 1, and the condition that all expected counts be at least 5 is more likely to be satisfied.",
       "The degrees of freedom remain the same because the total sample size has not changed.",
       "The degrees of freedom decrease by 1, but the chi-square statistic will remain unchanged since no data are removed.",
-      "The degrees of freedom increase by 1 because there is now more information in each combined category.",
-      "The test is invalid regardless of combining because the original expected count was below 5."
+      "The degrees of freedom increase by 1 because there is now more information in each combined category."
     ],
     "answer": 0,
     "explanation": "When two categories are combined, the number of categories drops from 5 to 4, so degrees of freedom decrease from 4 to 3. Combining the small category with an adjacent one pools their expected counts, making it more likely that all expected counts meet the minimum threshold of 5. Choice B is wrong because degrees of freedom depend on the number of categories, not just sample size. Choice C is wrong because the chi-square statistic does change when categories are combined, as individual terms are replaced by a single pooled term. Choice D reverses the direction of the change. Choice E is wrong because combining categories is a standard remedy for low expected counts and does not invalidate the procedure."
@@ -10734,8 +10202,7 @@ var APSTATS_MCQ = [
       "The first study uses a test of homogeneity because separate samples are drawn from each population, while the second uses a test of independence because a single sample is classified on two variables.",
       "The first study uses a test of independence because state and party are both categorical, while the second uses a test of homogeneity because it compares neighborhoods.",
       "Both studies use a test of independence because in each case two categorical variables are being analyzed.",
-      "Both studies use a test of homogeneity because both involve comparing distributions across three groups.",
-      "The distinction does not matter because the chi-square calculations, degrees of freedom, and conclusions are always identical for any two-way table."
+      "Both studies use a test of homogeneity because both involve comparing distributions across three groups."
     ],
     "answer": 0,
     "explanation": "The key distinction is the sampling method. In the first study, independent samples are drawn from three predefined populations (states), making it a test of homogeneity - the question is whether the distribution of party affiliation is the same across states. In the second study, a single sample is drawn and individuals are classified on two variables (neighborhood and party), making it a test of independence - the question is whether the two variables are associated. Choice B reverses the assignments. Choice C incorrectly labels both as independence. Choice D incorrectly labels both as homogeneity. Choice E is a common misconception; while the mechanics are identical, the distinction matters for framing hypotheses and interpreting results, and recognizing the difference is tested on the AP exam."
@@ -10755,8 +10222,7 @@ var APSTATS_MCQ = [
       "4.80",
       "1.96",
       "4.00",
-      "12.00",
-      "0.48"
+      "12.00"
     ],
     "answer": 0,
     "explanation": "The contribution from each cell is (observed - expected)^2 / expected. For the second cell: (18 - 30)^2 / 30 = (-12)^2 / 30 = 144 / 30 = 4.80. Choice B assumes the contributions are always equal, which is a misconception. Choice C computes (observed - expected)^2 / expected incorrectly as (12)^2 / 36 or makes an arithmetic error. Choice D uses (observed - expected)^2 / 12, dividing by the difference rather than the expected count - a common procedural mistake. Choice E computes (30 - 18) / 25, confusing the formula by using the wrong expected count and forgetting to square the numerator."
@@ -10776,8 +10242,7 @@ var APSTATS_MCQ = [
       "Because 15.8 > 12.592, there is sufficient evidence to conclude that ER visits are not equally distributed across the days of the week.",
       "Because 15.8 > 14.067, there is sufficient evidence to conclude that ER visits are not equally distributed across the days of the week.",
       "Because 15.8 < 16.812, there is insufficient evidence to conclude that ER visits are not equally distributed across the days of the week.",
-      "Because 15.8 > 12.592, there is sufficient evidence to conclude that ER visits are equally distributed across the days of the week.",
-      "Because 15.8 > 14.067, there is sufficient evidence to conclude that at least one day has more visits than every other day."
+      "Because 15.8 > 12.592, there is sufficient evidence to conclude that ER visits are equally distributed across the days of the week."
     ],
     "answer": 0,
     "explanation": "The degrees of freedom are k - 1 = 7 - 1 = 6. The critical value for chi-square with df = 6 at alpha = 0.05 is 12.592. Since 15.8 > 12.592, we reject the null hypothesis and conclude that ER visits are not equally distributed. Choice B incorrectly uses df = 7 (critical value 14.067), a common error of using k instead of k - 1. Choice C incorrectly uses df = 8 or a different alpha. Choice D states the conclusion backwards - rejecting H0 means evidence against equal distribution, not for it. Choice E overstates the conclusion; the test only indicates the distribution is not uniform, not which specific day has the most visits."
@@ -10797,8 +10262,7 @@ var APSTATS_MCQ = [
       "The expected count condition requires all expected counts to be at least 5, not just one cell, and other cells could have expected counts below 5.",
       "The expected count condition requires all expected counts to be at least 10 for a chi-square test of independence, so 18 is irrelevant.",
       "The expected count of 18 was computed incorrectly; it should be (60)(45) divided by 9 since there are 9 cells.",
-      "The expected count condition only applies to chi-square goodness-of-fit tests, not to tests of independence.",
-      "The condition is actually satisfied because in a 3 x 3 table with 150 observations, no expected count can possibly be below 5."
+      "The expected count condition only applies to chi-square goodness-of-fit tests, not to tests of independence."
     ],
     "answer": 0,
     "explanation": "The expected count condition for chi-square tests requires that ALL expected cell counts be at least 5. Checking only one cell is insufficient; cells with small row or column totals could still have expected counts below 5. Choice A correctly identifies this flaw. Choice B incorrectly states the threshold is 10 (it is 5 for chi-square tests). Choice C is wrong because the expected count is correctly computed as (row total)(column total)/n = (60)(45)/150 = 18, not divided by the number of cells. Choice D is wrong because the expected count condition applies to all chi-square tests, including independence. Choice E is wrong because it is possible for expected counts to be below 5 even with n = 150 if row or column totals are very unequal."
@@ -10818,8 +10282,7 @@ var APSTATS_MCQ = [
       "The first study uses a test of homogeneity because the samples from each hospital were selected independently, while the second uses a test of independence because one sample was classified on two variables.",
       "The first study uses a test of independence because it examines the relationship between hospital and outcome, while the second uses a test of homogeneity because it compares insurance groups.",
       "Both studies use a test of independence because both examine the relationship between two categorical variables in a contingency table.",
-      "Both studies use a test of homogeneity because both compare distributions of recovery outcomes across groups.",
-      "The distinction is irrelevant because the chi-square statistic, degrees of freedom, and p-value are computed identically, so the two tests are the same in every respect."
+      "Both studies use a test of homogeneity because both compare distributions of recovery outcomes across groups."
     ],
     "answer": 0,
     "explanation": "The key distinction is how the data were collected. In the first study, separate independent samples were drawn from three hospitals, and the distribution of recovery outcomes is compared across those populations - this is a test of homogeneity. In the second study, a single sample was drawn and each individual was classified on two categorical variables (insurance type and recovery outcome) - this is a test of independence. Choice B reverses the assignments. Choice C incorrectly labels both as independence tests, ignoring that the first study drew separate samples. Choice D incorrectly labels both as homogeneity tests. Choice E is a common misconception: while the computational mechanics are identical, the hypotheses, study designs, and interpretations differ, making the distinction conceptually important on the AP exam."
@@ -10839,8 +10302,7 @@ var APSTATS_MCQ = [
       "The test uses a chi-square distribution with (3-1)(4-1) = 6 degrees of freedom.",
       "The null hypothesis states that there is no association between city and transportation preference.",
       "The data were collected by taking separate random samples from each of the three city populations.",
-      "The expected counts are calculated using the formula (row total)(column total) divided by grand total.",
-      "The chi-square statistic is computed as the sum of (observed minus expected) squared divided by expected."
+      "The expected counts are calculated using the formula (row total)(column total) divided by grand total."
     ],
     "answer": 2,
     "explanation": "The key distinction between a chi-square test of homogeneity and a chi-square test of independence is in the sampling method. A test of homogeneity involves separate random samples drawn from each population (here, each city), comparing the distribution of a single categorical variable across those populations. A test of independence involves a single sample from one population, examining the relationship between two categorical variables. Choices A, D, and E describe computational features that are identical for both tests. Choice B describes a null hypothesis that could be stated for either test. Only choice C identifies the sampling design - separate samples from distinct populations - which is what makes this a test of homogeneity."
@@ -10860,8 +10322,7 @@ var APSTATS_MCQ = [
       "Because 9.93 > 7.815, there is sufficient evidence to conclude that the distribution of blood types in this region differs from the national distribution.",
       "Because 9.93 > 9.488, there is sufficient evidence to conclude that the distribution of blood types in this region differs from the national distribution.",
       "Because 9.93 < 11.071, there is not sufficient evidence to conclude that the distribution of blood types in this region differs from the national distribution.",
-      "Because 9.93 > 7.815, there is sufficient evidence to conclude that each blood type proportion in this region differs from the national proportion.",
-      "Because 9.93 > 9.488, there is sufficient evidence to conclude that blood type and region are not independent."
+      "Because 9.93 > 7.815, there is sufficient evidence to conclude that each blood type proportion in this region differs from the national proportion."
     ],
     "answer": 0,
     "explanation": "A goodness-of-fit test with 4 categories has df = 4 - 1 = 3. The critical value at alpha = 0.05 with 3 df is 7.815. Since 9.93 > 7.815, we reject the null hypothesis. Choice B incorrectly uses df = 4 (critical value 9.488). Choice C incorrectly uses df = 5 (critical value 11.071). Choice D is wrong because a significant chi-square test does not mean every individual category differs - it only means the overall distribution differs. Choice E incorrectly frames this as a test of independence rather than a goodness-of-fit test."
@@ -10881,8 +10342,7 @@ var APSTATS_MCQ = [
       "There is convincing evidence that the distribution of preferred transportation mode is different between every possible pair of cities, meaning each city differs significantly from every other.",
       "There is convincing evidence that the distribution of preferred transportation mode is not the same across all three cities.",
       "There is convincing evidence that preferred transportation mode and city are not independent, meaning a single sample was classified by two variables simultaneously.",
-      "There is convincing evidence that the proportion of residents preferring each specific transportation mode is significantly different in every city compared to every other city.",
-      "There is convincing evidence that residents in at least one city are more likely to prefer public transit than any other transportation mode."
+      "There is convincing evidence that the proportion of residents preferring each specific transportation mode is significantly different in every city compared to every other city."
     ],
     "answer": 1,
     "explanation": "This is a chi-square test of homogeneity because independent samples were drawn from three separate populations (cities) and the distribution of a categorical variable (transportation mode) is being compared across those populations. The correct conclusion is B: there is convincing evidence the distributions are not all the same across the three cities. This is the only conclusion directly supported by a significant chi-square test of homogeneity - it tells us the distributions differ somewhere, but nothing more specific than that. Choice A is incorrect because a significant overall chi-square result only establishes that the distributions are not all identical; it does not guarantee that every individual pairwise comparison (City 1 vs. City 2, City 1 vs. City 3, City 2 vs. City 3) is significantly different. It is possible, for example, that two cities have nearly identical distributions while a third drives the overall significance. Choice B is correct because the test conclusion is precisely that the distributions are not all the same - no stronger claim is warranted. Choice C incorrectly describes the test: a chi-square test of independence involves one sample classified by two categorical variables, whereas a test of homogeneity involves separate independent samples drawn from distinct populations. These are different inferential setups. Choice D is an even stronger overstatement than A - claiming that every individual cell proportion differs across all three cities cannot be concluded from a single omnibus chi-square statistic. Choice E makes a specific directional claim about public transit being the most-preferred mode in at least one city, which is entirely unsupported by the chi-square test result; the test provides no information about which category or which city drives the difference."
@@ -10902,8 +10362,7 @@ var APSTATS_MCQ = [
       "There is convincing evidence of an association between education level and exercise frequency in the population of adults.",
       "There is convincing evidence that education level causes differences in exercise frequency among adults.",
       "There is convincing evidence that the distribution of exercise frequency is the same across all three education levels.",
-      "Fail to reject the null hypothesis because 11.8 < 12.592, meaning there is not sufficient evidence that exercise frequency distributions differ across education levels.",
-      "There is convincing evidence that exactly one education group has a different distribution of exercise frequency than the others."
+      "Fail to reject the null hypothesis because 11.8 < 12.592, meaning there is not sufficient evidence that exercise frequency distributions differ across education levels."
     ],
     "answer": 0,
     "explanation": "Since a single sample was classified by two categorical variables, this is a chi-square test of independence. A p-value of 0.004 is less than any conventional significance level, so we reject the null hypothesis of independence and conclude there is an association. Choice B is wrong because chi-square tests cannot establish causation - this is an observational study. Choice C states the opposite conclusion (it describes failing to reject a homogeneity null). Choice D is incorrect because it uses a fabricated test statistic of 11.8 rather than the actual value of 15.3; for a 3×3 table, df=(3-1)(3-1)=4, and the correct critical value at α=0.05 is 9.488, not 12.592 (12.592 is the critical value for df=6). Moreover, the actual test statistic of 15.3 far exceeds 9.488, so the null hypothesis should be rejected. Choice E overstates what the test reveals - chi-square tests detect overall departures from independence but do not pinpoint which specific group differs."
@@ -10923,8 +10382,7 @@ var APSTATS_MCQ = [
       "Expected count = 20; contribution = 5.0",
       "Expected count = 20; contribution = 0.5",
       "Expected count = 30; contribution = 0.0",
-      "Expected count = 40; contribution = 2.5",
-      "Expected count = 20; contribution = 50.0"
+      "Expected count = 40; contribution = 2.5"
     ],
     "answer": 0,
     "explanation": "The expected count is (row total x column total) / grand total = (150 x 80) / 600 = 12000 / 600 = 20. The contribution to the chi-square statistic is (observed - expected)^2 / expected = (30 - 20)^2 / 20 = 100 / 20 = 5.0. Choice B uses the correct expected count but incorrectly computes the contribution, likely by dividing (O - E) / E instead of (O - E)^2 / E. Choice C incorrectly sets expected equal to observed. Choice D incorrectly computes expected as (150 + 80) x some factor or reverses the calculation. Choice E squares 30 - 20 to get 100 but then incorrectly multiplies instead of divides, or divides by 2 instead of 20."
@@ -10944,8 +10402,7 @@ var APSTATS_MCQ = [
       "Reject the null hypothesis because 9.93 > 7.815, providing sufficient evidence that the regional distribution differs from the national distribution.",
       "Fail to reject the null hypothesis because 9.93 < 9.488, so there is not sufficient evidence that the distributions differ.",
       "Reject the null hypothesis because 9.93 > 9.488, providing sufficient evidence that the regional distribution differs from the national distribution.",
-      "Fail to reject the null hypothesis because 9.93 < 11.071, so there is not sufficient evidence that the distributions differ.",
-      "Reject the null hypothesis because 9.93 > 5.991, providing sufficient evidence that the regional distribution differs from the national distribution."
+      "Fail to reject the null hypothesis because 9.93 < 11.071, so there is not sufficient evidence that the distributions differ."
     ],
     "answer": 0,
     "explanation": "There are 4 categories, so df = 4 - 1 = 3. The critical value for chi-square with 3 df at alpha = 0.05 is 7.815. Since 9.93 > 7.815, we reject the null hypothesis. Choice B incorrectly uses df = 4 (critical value 9.488). Choice C also uses df = 4 but reaches the wrong comparison. Choice D uses df = 5 (critical value 11.071). Choice E uses df = 2 (critical value 5.991). A common student error is using df = number of categories instead of categories minus 1."
@@ -10965,8 +10422,7 @@ var APSTATS_MCQ = [
       "This is a test of homogeneity with df = 2 because the two populations were sampled independently and df = (2-1)(3-1).",
       "This is a test of independence with df = 2 because a single sample was classified by two variables and df = (2-1)(3-1).",
       "This is a test of homogeneity with df = 5 because df = (number of cells) - 1 = 6 - 1.",
-      "This is a test of independence with df = 6 because df = (rows)(columns) = (2)(3).",
-      "This is a test of homogeneity with df = 3 because there are 3 categories of internet usage and df = 3 - 1 + 1."
+      "This is a test of independence with df = 6 because df = (rows)(columns) = (2)(3)."
     ],
     "answer": 0,
     "explanation": "Because two separate populations (urban and rural) were independently sampled and then classified into internet usage categories, this is a test of homogeneity. The degrees of freedom are (r-1)(c-1) = (2-1)(3-1) = 2. Choice B incorrectly labels it a test of independence; independence applies when a single sample is classified by two variables. Choice C incorrectly computes df as (number of cells) - 1, confusing it with a goodness-of-fit formula. Choice D uses rows times columns rather than (r-1)(c-1). Choice E invents an incorrect df formula."
@@ -10986,8 +10442,7 @@ var APSTATS_MCQ = [
       "The student computed (observed - expected) / expected instead of (observed - expected)^2 / expected; the correct contribution is 3.6 as well, so there is no numerical error but the method is wrong by coincidence.",
       "There is no error; the expected count is 10 and (18 - 10)^2 / 10 = 6.4, but the student actually made an arithmetic mistake.",
       "The student correctly found the expected count as 10 and computed (18 - 10)^2 / 10 = 6.4; the student's answer of 3.6 is incorrect.",
-      "The student used the expected count formula incorrectly by adding the row and column totals and dividing by the grand total, getting an expected count of approximately 0.417.",
-      "There is no error; the expected count is 10 and (18 - 10)^2 / 18 = 3.56, which rounds to 3.6."
+      "The student used the expected count formula incorrectly by adding the row and column totals and dividing by the grand total, getting an expected count of approximately 0.417."
     ],
     "answer": 2,
     "explanation": "The expected count is (row total)(column total) / grand total = (60)(40)/240 = 10. The correct contribution to the chi-square statistic is (18 - 10)^2 / 10 = 64/10 = 6.4. The student's answer of 3.6 is incorrect. Choice A fabricates a coincidence scenario that does not hold numerically. Choice B states there is no error but then contradicts itself. Choice D describes a nonsensical formula. Choice E divides by the observed count (18) instead of the expected count (10), which is a common student error - this gives approximately 3.56, temptingly close to the student's 3.6, making it a strong distractor but still an incorrect method."
@@ -11007,8 +10462,7 @@ var APSTATS_MCQ = [
       "z-distribution",
       "t-distribution with n - 1 degrees of freedom",
       "t-distribution with n - 2 degrees of freedom",
-      "chi-square distribution with n - 2 degrees of freedom",
-      "F-distribution with 1 and n - 2 degrees of freedom"
+      "chi-square distribution with n - 2 degrees of freedom"
     ],
     "answer": 2,
     "explanation": "Inference for the slope of a regression line uses the t-distribution with n - 2 degrees of freedom, because two parameters (the intercept and slope) are estimated. Option A is wrong because z is not used for regression slope inference. Option B uses n - 1, which applies to one-sample t-procedures, not regression. Options D and E use other distributions not used for individual slope inference in AP Statistics."
@@ -11028,8 +10482,7 @@ var APSTATS_MCQ = [
       "The slope of the population regression line is 0.80.",
       "We are 95% confident that the true slope of the population regression line is between 0.42 and 1.18.",
       "There is a 95% probability that the true slope is between 0.42 and 1.18.",
-      "95% of all sample slopes fall between 0.42 and 1.18.",
-      "The p-value for testing whether the slope equals zero is 0.05."
+      "95% of all sample slopes fall between 0.42 and 1.18."
     ],
     "answer": 1,
     "explanation": "The correct interpretation of a confidence interval is that we are 95% confident the true population parameter (slope) lies within the interval. Option A is wrong because we cannot say the parameter equals any specific value. Option C is wrong because the true slope is fixed, not random, so probability language is incorrect. Option D describes sampling variability incorrectly. Option E makes an unsupported claim about the p-value."
@@ -11049,8 +10502,7 @@ var APSTATS_MCQ = [
       "H0: b1 = 0",
       "H0: beta1 = 0",
       "H0: beta1 = 1",
-      "H0: r = 0",
-      "H0: beta0 = 0"
+      "H0: r = 0"
     ],
     "answer": 1,
     "explanation": "The null hypothesis for a significance test for slope states that the population slope (beta1) equals zero, meaning there is no linear relationship between x and y in the population. Option A uses b1, which is the sample slope, not the population parameter. Option C tests whether the slope equals 1, which is not the standard null. Option D tests the correlation coefficient, which is related but not the standard formulation for a slope test. Option E tests the intercept, not the slope."
@@ -11070,8 +10522,7 @@ var APSTATS_MCQ = [
       "0.33",
       "1.6",
       "3.0",
-      "3.2",
-      "1.92"
+      "3.2"
     ],
     "answer": 2,
     "explanation": "The t-statistic is calculated as t = b1 / SE(b1) = 2.4 / 0.8 = 3.0. Option A (0.33) results from dividing SE by b1 (reversing the fraction). Option B (1.6) might come from a subtraction error. Option D (3.2) is a common arithmetic mistake. Option E (1.92) could result from incorrectly using a different formula."
@@ -11091,8 +10542,7 @@ var APSTATS_MCQ = [
       "The typical distance between observed y-values and predicted y-values",
       "The variability of the sample slope from sample to sample",
       "The strength of the linear relationship between x and y",
-      "The spread of the x-values in the dataset",
-      "The variability of the residuals around zero"
+      "The spread of the x-values in the dataset"
     ],
     "answer": 1,
     "explanation": "The standard error of the slope measures how much the sample slope b1 would vary from sample to sample if we repeatedly sampled from the population. Option A describes the standard deviation of the residuals (s), not SE(b1). Option C describes the correlation coefficient. Option D describes the spread of x-values, which is a component used in computing SE(b1) but is not what SE(b1) itself measures. Option E describes residual variability."
@@ -11112,10 +10562,9 @@ var APSTATS_MCQ = [
       "The relationship between x and y is linear.",
       "The residuals are approximately normally distributed.",
       "The variability of y is roughly constant for all values of x.",
-      "The observations are independent.",
       "The sample size must be at least 30."
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "There is no requirement that the sample size must be at least 30 for regression inference. The conditions are: linearity (A), independence of observations (D), normality of residuals (B), and equal (constant) variance of residuals across x-values (C). These are often remembered as LINE conditions. Option E is a common misconception borrowed from inference for means, but it does not apply as a strict requirement for regression inference."
   },
   {
@@ -11133,8 +10582,7 @@ var APSTATS_MCQ = [
       "1.4",
       "2.50",
       "3.5",
-      "0.021",
-      "4.9"
+      "0.021"
     ],
     "answer": 2,
     "explanation": "In standard computer output, the 'Coef' column for the predictor x gives the sample slope b1 = 3.5. Option A (1.4) is the standard error of the slope, not the slope itself. Option B (2.50) is the t-statistic. Option D (0.021) is the p-value. Option E (4.9) might result from adding the coefficient and the SE, which is not a meaningful calculation."
@@ -11154,8 +10602,7 @@ var APSTATS_MCQ = [
       "Fail to reject H0; there is not convincing evidence of a linear relationship.",
       "Reject H0; there is convincing evidence that the slope equals zero.",
       "Reject H0; there is convincing evidence of a linear relationship between x and y.",
-      "Accept H0; the slope is zero.",
-      "Reject H0; there is proof that x causes changes in y."
+      "Accept H0; the slope is zero."
     ],
     "answer": 2,
     "explanation": "Since the p-value (0.003) is less than alpha (0.05), we reject H0. This provides convincing evidence of a linear relationship between x and y. Option A is wrong because we do reject H0. Option B contradicts itself-rejecting H0 means we have evidence the slope is not zero. Option D is wrong because we never 'accept' H0 and the evidence points against it. Option E is wrong because a significance test shows association, not causation."
@@ -11175,8 +10622,7 @@ var APSTATS_MCQ = [
       "Reject H0, because the interval is wide.",
       "Reject H0, because 0.89 is greater than 0.",
       "Fail to reject H0, because 0 is contained in the interval.",
-      "Fail to reject H0, because the interval contains negative values.",
-      "Reject H0, because the sample slope is positive."
+      "Fail to reject H0, because the interval contains negative values."
     ],
     "answer": 2,
     "explanation": "Since zero is contained within the 95% confidence interval (-0.35, 0.89), we would fail to reject H0: beta1 = 0 at the alpha = 0.05 level. If zero were not in the interval, we would reject H0. Option A is wrong because the width of the interval is not what determines the test result. Option B focuses on only one endpoint. Option D gives the right conclusion but the wrong reason-containing negative values is not the key issue; containing zero is. Option E incorrectly focuses on the sign of the sample slope."
@@ -11196,8 +10642,7 @@ var APSTATS_MCQ = [
       "19",
       "18",
       "20",
-      "17",
-      "10"
+      "17"
     ],
     "answer": 1,
     "explanation": "For simple linear regression, the degrees of freedom for inference about the slope are n - 2. With n = 20, df = 20 - 2 = 18. Option A (19 = n - 1) is the degrees of freedom for a one-sample t-test, a common confusion. Option C (20 = n) does not account for any estimated parameters. Option D (17 = n - 3) subtracts too many. Option E (10) has no statistical basis here."
@@ -11217,8 +10662,7 @@ var APSTATS_MCQ = [
       "0.33",
       "1.6",
       "1.92",
-      "3.0",
-      "3.2"
+      "3.0"
     ],
     "answer": 3,
     "explanation": "The t-statistic for testing H0: beta = 0 is calculated as t = b / SE(b) = 2.4 / 0.8 = 3.0. Choice A (0.33) results from dividing SE(b) by b (inverting the formula). Choice B (1.6) may come from subtracting instead of dividing. Choice C (1.92) is a common critical value students might confuse with the test statistic. Choice E (3.2) may result from an arithmetic error."
@@ -11238,8 +10682,7 @@ var APSTATS_MCQ = [
       "t = 3.0 with 25 degrees of freedom",
       "t = 3.0 with 24 degrees of freedom",
       "t = 3.0 with 23 degrees of freedom",
-      "t = 0.333 with 23 degrees of freedom",
-      "t = 3.6 with 23 degrees of freedom"
+      "t = 0.333 with 23 degrees of freedom"
     ],
     "answer": 2,
     "explanation": "The t-statistic is calculated as t = (b - 0) / SE_b = 3.6 / 1.2 = 3.0. The degrees of freedom for the slope test in simple linear regression is n - 2 = 25 - 2 = 23. Choice A uses n df. Choice B uses n - 1 df. Choice D inverts the fraction (SE_b / b). Choice E uses the slope value directly as the t-statistic."
@@ -11259,8 +10702,7 @@ var APSTATS_MCQ = [
       "Fail to reject H_0 because 0.006 < 0.01 is not sufficient evidence",
       "Reject H_0 because the p-value of 0.006 is less than alpha = 0.01, and conclude there is convincing evidence of a linear relationship",
       "Reject H_0 because the slope of 1.85 is greater than 0",
-      "Fail to reject H_0 because the p-value should be compared to alpha/2 = 0.005 for a two-sided test",
-      "Reject H_0 because 1.85/0.62 is greater than 2"
+      "Fail to reject H_0 because the p-value should be compared to alpha/2 = 0.005 for a two-sided test"
     ],
     "answer": 1,
     "explanation": "Since p-value = 0.006 < alpha = 0.01, we reject H_0 and conclude there is convincing evidence of a linear relationship between x and y. Choice A reverses the logic of p-value comparison. Choice C uses the sign of the slope rather than the p-value to make the decision. Choice D incorrectly divides alpha by 2; the reported p-value from standard regression output for a two-sided test is already the two-sided p-value. Choice E uses an informal rule rather than the proper hypothesis testing framework."
@@ -11280,8 +10722,7 @@ var APSTATS_MCQ = [
       "Decreasing the sample size",
       "Reducing the spread of the x-values",
       "Increasing the variability of the residuals",
-      "Increasing the spread of the x-values while keeping all other factors the same",
-      "Increasing the y-intercept of the regression line"
+      "Increasing the spread of the x-values while keeping all other factors the same"
     ],
     "answer": 3,
     "explanation": "The standard error of the slope is SE_b = s / sqrt(sum of (x_i - x_bar)^2), where s is the residual standard deviation. Increasing the spread of x-values increases the denominator, which decreases SE_b. Choice A decreases sample size, which would increase SE. Choice B reduces x-spread, increasing SE. Choice C increases residual variability (s), increasing SE. Choice E changes the intercept, which does not directly affect SE_b."
@@ -11301,8 +10742,7 @@ var APSTATS_MCQ = [
       "The normality condition for the residuals",
       "The independence condition",
       "The linearity condition",
-      "The equal variance (constant spread) condition",
-      "The randomness condition"
+      "The equal variance (constant spread) condition"
     ],
     "answer": 2,
     "explanation": "A curved pattern in the residual plot indicates that the relationship between x and y is not linear, violating the linearity condition. This means a linear model is not appropriate for the data. Choice A (normality) would be assessed using a histogram or normal probability plot of residuals. Choice B (independence) relates to how data were collected. Choice D (equal variance) would show a fan or funnel shape, not a curve. Choice E (randomness) relates to the sampling or experimental design."
@@ -11322,8 +10762,7 @@ var APSTATS_MCQ = [
       "12.3",
       "4.1",
       "1.9",
-      "8.2",
-      "5.7"
+      "8.2"
     ],
     "answer": 2,
     "explanation": "The standard error of the slope is the SE Coef value in the row corresponding to the predictor variable (Hours), which is 1.9. Choice A is the y-intercept. Choice B is the standard error of the intercept, a common confusion. Choice D is s, the standard deviation of the residuals. Choice E is the slope estimate itself."
@@ -11343,8 +10782,7 @@ var APSTATS_MCQ = [
       "H_0: b = 0 vs H_a: b < 0",
       "H_0: beta = 0 vs H_a: beta is not equal to 0",
       "H_0: beta = 0 vs H_a: beta < 0",
-      "H_0: beta = 0 vs H_a: beta > 0",
-      "H_0: beta < 0 vs H_a: beta = 0"
+      "H_0: beta = 0 vs H_a: beta > 0"
     ],
     "answer": 2,
     "explanation": "The biologist suspects a negative association (higher temperature leads to lower oxygen), so the alternative should be one-sided with beta < 0. The hypotheses should reference the population parameter beta, not the sample statistic b. Choice A incorrectly uses the sample slope b. Choice B is a two-sided test that does not reflect the specific direction of her suspicion. Choice D tests in the wrong direction. Choice E reverses the null and alternative hypotheses."
@@ -11361,14 +10799,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "Two researchers each perform simple linear regression. Researcher A has 50 observations with a residual standard deviation of s = 10 and sum of squared deviations of x equal to 200. Researcher B has 50 observations with a residual standard deviation of s = 10 and sum of squared deviations of x equal to 800. How do their standard errors of the slope compare?",
     "choices": [
-      "Researcher A has a larger SE because the sum of squared deviations of x appears in the numerator of the SE formula",
+      "Researcher A has a larger SE because a smaller sum of squared deviations of x means less information about the slope",
       "They have the same SE because both have 50 observations and the same residual standard deviation",
       "Researcher B has a larger SE because a greater spread in x amplifies the effect of residual variability",
-      "Researcher A has a larger SE because a smaller sum of squared deviations of x means less information about the slope",
-      "There is not enough information to compare their standard errors"
+      "Researcher A has a larger SE because the sum of squared deviations of x appears in the numerator of the SE formula"
     ],
-    "answer": 3,
-    "explanation": "The standard error of the slope is SE_b = s / sqrt(sum of (x_i - x_bar)^2). For Researcher A: SE = 10/sqrt(200) = 10/14.14 = 0.707. For Researcher B: SE = 10/sqrt(800) = 10/28.28 = 0.354. Researcher A has a larger SE because the sum of squared deviations of x is in the denominator; a smaller value yields a larger SE, meaning less precision in estimating the slope. Choice B ignores the role of x-spread. Choice C reverses the relationship. Choice A incorrectly places the x-spread in the numerator. Choice E is incorrect because sufficient information is given."
+    "answer": 0,
+    "explanation": "The standard error of the slope is SE_b = s / sqrt(sum of (x_i - x_bar)^2). For Researcher A: SE = 10/sqrt(200) = 10/14.14 = 0.707. For Researcher B: SE = 10/sqrt(800) = 10/28.28 = 0.354. Researcher A has a larger SE because the sum of squared deviations of x is in the denominator; a smaller value yields a larger SE, meaning less precision in estimating the slope. Choice B ignores the role of x-spread. Choice C reverses the relationship. Choice D incorrectly places the x-spread in the numerator. Choice E is incorrect because sufficient information is given."
   },
   {
     "id": "stats_u9_q354",
@@ -11382,14 +10819,13 @@ var APSTATS_MCQ = [
     "format": "text",
     "question": "A least-squares regression line is computed from a random sample of 20 observations. The estimated slope is b = 3.4 and the standard error of the slope is SE_b = 1.2. What is the 95% confidence interval for the true slope? (The critical value t* for 18 df at 95% confidence is 2.101.)",
     "choices": [
-      "3.4 plus or minus 2.093(1.2)",
+      "3.4 plus or minus 2.101(1.2)",
       "3.4 plus or minus 1.96(1.2)",
       "3.4 plus or minus 2.101(1.44)",
-      "3.4 plus or minus 2.101(1.2)",
-      "3.4 plus or minus 1.96(1.44)"
+      "3.4 plus or minus 2.093(1.2)"
     ],
-    "answer": 3,
-    "explanation": "The confidence interval for slope is b plus or minus t*(SE_b) with df = n - 2 = 18. This gives 3.4 plus or minus 2.101(1.2). Choice B incorrectly uses z* = 1.96 instead of the t* critical value. Choice C incorrectly squares SE_b. Choice A uses the wrong degrees of freedom (df = 19). Choice E combines both errors of using z* and squaring SE_b."
+    "answer": 0,
+    "explanation": "The confidence interval for slope is b plus or minus t*(SE_b) with df = n - 2 = 18. This gives 3.4 plus or minus 2.101(1.2). Choice B incorrectly uses z* = 1.96 instead of the t* critical value. Choice C incorrectly squares SE_b. Choice D uses the wrong degrees of freedom (df = 19). Choice E combines both errors of using z* and squaring SE_b."
   },
   {
     "id": "stats_u9_q355",
@@ -11402,14 +10838,13 @@ var APSTATS_MCQ = [
     "isLatex": false,
     "question": "A researcher fits a regression model to 25 data points and obtains b = 0.75 with SE_b = 0.25. She tests H0: beta = 0 versus Ha: beta is not equal to 0. What is the value of the test statistic and how many degrees of freedom does it have?",
     "choices": [
-      "t = 0.33 with 23 degrees of freedom",
+      "t = 3.0 with 23 degrees of freedom",
       "t = 3.0 with 24 degrees of freedom",
       "t = 3.0 with 25 degrees of freedom",
-      "t = 3.0 with 23 degrees of freedom",
-      "t = 0.75 with 23 degrees of freedom"
+      "t = 0.33 with 23 degrees of freedom"
     ],
-    "answer": 3,
-    "explanation": "The t-statistic is (b - 0)/SE_b = 0.75/0.25 = 3.0 with df = n - 2 = 25 - 2 = 23. Choice B uses df = n - 1, a common confusion with one-sample t-tests. Choice C uses df = n. Choice A computes the reciprocal 0.25/0.75. Choice E uses just b as the test statistic without dividing by the standard error."
+    "answer": 0,
+    "explanation": "The t-statistic is (b - 0)/SE_b = 0.75/0.25 = 3.0 with df = n - 2 = 25 - 2 = 23. Choice B uses df = n - 1, a common confusion with one-sample t-tests. Choice C uses df = n. Choice D computes the reciprocal 0.25/0.75. Choice E uses just b as the test statistic without dividing by the standard error."
   },
   {
     "id": "stats_u9_q356",
@@ -11422,14 +10857,13 @@ var APSTATS_MCQ = [
     "isLatex": false,
     "question": "A computer output for a regression analysis of 30 data points shows a slope of 2.8, a standard error of the slope of 0.7, and a p-value of 0.0004 for the slope. Which of the following is the most appropriate conclusion at the alpha = 0.05 significance level?",
     "choices": [
-      "There is convincing evidence that the true slope is exactly 2.8.",
+      "There is convincing evidence of a linear relationship between x and y in the population.",
       "There is not convincing evidence of a linear relationship because the slope could be zero.",
       "There is convincing evidence that x causes y to change.",
-      "There is convincing evidence of a linear relationship between x and y in the population.",
-      "There is not convincing evidence because we do not know if the conditions are met."
+      "There is convincing evidence that the true slope is exactly 2.8."
     ],
-    "answer": 3,
-    "explanation": "Since p = 0.0004 < 0.05, we reject H0: beta = 0 and conclude there is convincing evidence of a linear relationship. Choice B contradicts the small p-value. Choice C makes a causal claim that cannot be established from a significance test alone without a designed experiment. Choice A confuses the estimate with the parameter. Choice E is overly cautious; while checking conditions is important, the question asks about the conclusion given the output."
+    "answer": 0,
+    "explanation": "Since p = 0.0004 < 0.05, we reject H0: beta = 0 and conclude there is convincing evidence of a linear relationship. Choice B contradicts the small p-value. Choice C makes a causal claim that cannot be established from a significance test alone without a designed experiment. Choice D confuses the estimate with the parameter. Choice E is overly cautious; while checking conditions is important, the question asks about the conclusion given the output."
   },
   {
     "id": "stats_u9_q357",
@@ -11442,14 +10876,13 @@ var APSTATS_MCQ = [
     "isLatex": false,
     "question": "Which of the following would decrease the standard error of the estimated slope in a simple linear regression?",
     "choices": [
-      "Reducing the range of x-values sampled",
+      "Increasing the spread of the x-values while keeping the residual variability the same",
       "Decreasing the sample size",
       "Increasing the variability of the residuals",
-      "Increasing the spread of the x-values while keeping the residual variability the same",
-      "Increasing the mean of the y-values"
+      "Reducing the range of x-values sampled"
     ],
-    "answer": 3,
-    "explanation": "The standard error of the slope is s / sqrt(sum of (x_i - x_bar)^2). Increasing the spread of x-values increases the denominator, which decreases SE_b. Choice B would decrease the denominator and increase SE_b. Choice C would increase s and thus SE_b. Choice A reduces the spread of x-values, increasing SE_b. Choice E shifts y-values but does not affect variability around the line or the spread of x."
+    "answer": 0,
+    "explanation": "The standard error of the slope is s / sqrt(sum of (x_i - x_bar)^2). Increasing the spread of x-values increases the denominator, which decreases SE_b. Choice B would decrease the denominator and increase SE_b. Choice C would increase s and thus SE_b. Choice D reduces the spread of x-values, increasing SE_b. Choice E shifts y-values but does not affect variability around the line or the spread of x."
   },
   {
     "id": "stats_u9_q359",
@@ -11462,14 +10895,13 @@ var APSTATS_MCQ = [
     "isLatex": false,
     "question": "A 95% confidence interval for the slope of the regression of test score on hours studied, based on a random sample of 40 students, is (1.8, 5.2). Which of the following is the best interpretation?",
     "choices": [
-      "We are 95% confident that each student who studies one more hour will score between 1.8 and 5.2 points higher.",
+      "We are 95% confident that the true mean increase in test score for each additional hour studied is between 1.8 and 5.2 points.",
       "There is a 95% probability that the true slope is between 1.8 and 5.2.",
       "95% of all students who study one additional hour will score between 1.8 and 5.2 points higher.",
-      "We are 95% confident that the true mean increase in test score for each additional hour studied is between 1.8 and 5.2 points.",
-      "We are 95% confident that the sample slope is between 1.8 and 5.2."
+      "We are 95% confident that each student who studies one more hour will score between 1.8 and 5.2 points higher."
     ],
-    "answer": 3,
-    "explanation": "The correct interpretation refers to the true population slope (mean change in y per unit increase in x) with 95% confidence. Choice B gives a probability statement about the parameter, which is incorrect in frequentist inference. Choice C describes individual predictions, not the slope. Choice A also describes individual outcomes. Choice E refers to the sample slope, which is a fixed known value from the data."
+    "answer": 0,
+    "explanation": "The correct interpretation refers to the true population slope (mean change in y per unit increase in x) with 95% confidence. Choice B gives a probability statement about the parameter, which is incorrect in frequentist inference. Choice C describes individual predictions, not the slope. Choice D also describes individual outcomes. Choice E refers to the sample slope, which is a fixed known value from the data."
   },
   {
     "id": "stats_u9_q360",
@@ -11485,8 +10917,7 @@ var APSTATS_MCQ = [
       "The student is correct if the alternative hypothesis is Ha: beta < 0 and the computer output reports a two-sided p-value.",
       "The student is correct regardless of the alternative hypothesis.",
       "The student is never correct because computer output always gives the appropriate p-value.",
-      "The student is correct only if the sample size is large enough for z-procedures.",
-      "The student is correct if the alternative hypothesis is Ha: mu_y > 0, testing the mean response rather than the slope."
+      "The student is correct only if the sample size is large enough for z-procedures."
     ],
     "answer": 0,
     "explanation": "Most computer output reports the two-sided p-value. If the research question calls for Ha: beta < 0, and the observed slope is negative (consistent with the alternative), the one-sided p-value is half the two-sided value: 0.006/2 = 0.003. Choice B ignores that the direction of the alternative matters. Choice C is wrong because computer output typically gives two-sided p-values by default. Choice D confuses t and z procedures. Choice E is wrong because the hypothesis being tested involves the slope parameter beta, not the mean response mu_y, and using Ha: mu_y > 0 reflects a fundamental misidentification of the parameter being tested."
@@ -11505,8 +10936,7 @@ var APSTATS_MCQ = [
       "The linearity condition is violated, so inference for the slope of this linear model is not appropriate.",
       "The equal variance condition is violated, so the standard error is unreliable.",
       "The normality condition is violated, so the t-distribution cannot be used.",
-      "The independence condition is violated, so the p-value is invalid.",
-      "No conditions are violated because the residual plot is only used to check for outliers."
+      "The independence condition is violated, so the p-value is invalid."
     ],
     "answer": 0,
     "explanation": "A curved pattern in the residual plot indicates that the relationship between x and y is not linear, violating the linearity condition. This means a linear model is inappropriate and inference based on that model is not valid. Choice B refers to a fan shape, not a curve. Choice C is assessed by looking at a histogram or normal probability plot of residuals, not curvature. Choice D would be suggested by patterns related to time or clusters, not curvature. Choice E is incorrect because residual plots are used to check multiple conditions including linearity."
@@ -11525,8 +10955,7 @@ var APSTATS_MCQ = [
       "1.2",
       "0.6",
       "2.4",
-      "4.8",
-      "0.3"
+      "4.8"
     ],
     "answer": 0,
     "explanation": "SE_b = s / sqrt(sum of (x_i - x_bar)^2). When sample size quadruples (15 to 60) and the spread of x-values per observation stays similar, the sum of squared deviations of x roughly quadruples, so its square root doubles. Thus SE_b is approximately halved: 2.4 / 2 = 1.2. Choice B divides by 4 instead of 2. Choice C assumes no change. Choice D incorrectly doubles SE_b. Choice E divides by 8, confusing multiple scaling factors."
@@ -11546,8 +10975,7 @@ var APSTATS_MCQ = [
       "t = 3.0 with 18 degrees of freedom",
       "t = 3.0 with 19 degrees of freedom",
       "t = 3.0 with 20 degrees of freedom",
-      "t = 1.6 with 18 degrees of freedom",
-      "t = 2.4 with 18 degrees of freedom"
+      "t = 1.6 with 18 degrees of freedom"
     ],
     "answer": 0,
     "explanation": "The t-statistic is calculated as b / SE(b) = 2.4 / 0.8 = 3.0. For inference on the slope of a regression line, the degrees of freedom are n - 2 = 20 - 2 = 18. Choice B incorrectly uses n - 1 = 19 degrees of freedom, which is a common error from confusing this with a one-sample t-procedure. Choice C incorrectly uses n = 20 degrees of freedom. Choice D uses an incorrect numerator (perhaps subtracting something from the slope). Choice E mistakenly uses the slope value itself as the t-statistic without dividing by the standard error."
@@ -11567,8 +10995,7 @@ var APSTATS_MCQ = [
       "We are 95% confident that the true slope of the population regression line is between 1.29 and 5.67.",
       "There is a 95% probability that the true slope of the population regression line is between 1.29 and 5.67.",
       "95% of all sample slopes from samples of size 22 will fall between 1.29 and 5.67.",
-      "We are 95% confident that the predicted response increases between 1.29 and 5.67 for each one-unit increase in x for the sampled data.",
-      "If we repeated this study many times, 95% of the resulting slopes would equal 3.48."
+      "We are 95% confident that the predicted response increases between 1.29 and 5.67 for each one-unit increase in x for the sampled data."
     ],
     "answer": 0,
     "explanation": "A is correct because a confidence interval for the slope estimates the true population parameter, and the proper interpretation states confidence in the interval capturing the true slope. B is wrong because the true slope is a fixed value, not random, so probability statements about it are incorrect. C confuses the confidence interval with a prediction interval for sample statistics. D incorrectly limits the interpretation to the sample data rather than the population parameter. E misunderstands both confidence intervals and sampling variability."
@@ -11588,8 +11015,7 @@ var APSTATS_MCQ = [
       "The t-statistic should be 2.6 / 0.80 = 3.25, and the degrees of freedom should be n - 2 = 13, so only the degrees of freedom are wrong.",
       "The degrees of freedom should be n - 1 = 14, but the t-statistic is correct.",
       "The t-statistic should be (2.6 - 0.80) / 0.80 = 2.25, and the degrees of freedom should be n - 2 = 13.",
-      "The student made no error; both the t-statistic and degrees of freedom are correct.",
-      "The t-statistic is correct, but the student should have used a two-sided alternative to match the degrees of freedom."
+      "The student made no error; both the t-statistic and degrees of freedom are correct."
     ],
     "answer": 0,
     "explanation": "A is correct. The t-statistic is calculated as (b - 0) / SE_b = 2.6 / 0.80 = 3.25, which is correct. However, for inference on the slope of a regression line, the degrees of freedom are n - 2 (one for each estimated parameter: intercept and slope), giving 15 - 2 = 13. The student incorrectly used df = 15 instead of 13. B is wrong because df = n - 1 applies to one-sample t-procedures, not regression. C is wrong because the null hypothesis value (0) is subtracted from b, not SE_b. D is wrong because the degrees of freedom are incorrect. E is wrong because the direction of the alternative hypothesis is independent of degrees of freedom."
@@ -11609,8 +11035,7 @@ var APSTATS_MCQ = [
       "Increase the spread of the x-values in the sample by sampling across a wider range of x.",
       "Remove influential outliers in the y-direction to reduce the slope estimate b.",
       "Center all x-values by subtracting the mean so that x_bar = 0.",
-      "Use a higher confidence level when constructing the confidence interval for the slope.",
-      "Transform the response variable y using a logarithmic transformation regardless of the data pattern."
+      "Use a higher confidence level when constructing the confidence interval for the slope."
     ],
     "answer": 0,
     "explanation": "A is correct. The denominator of SE_b contains the sum of squared deviations of x from its mean. Increasing the spread of x-values increases this sum, which decreases SE_b. B is incorrect because removing outliers may or may not reduce the residual standard deviation s and directly changes the data set rather than targeting the formula's components; also, reducing b itself does not reduce SE_b. C is incorrect because centering x-values does not change the sum of squared deviations from the mean - it only shifts x_bar to 0 but the deviations remain identical. D is incorrect because the confidence level affects the width of the interval through the critical value, not the standard error itself. E is incorrect because a log transformation is only appropriate when the relationship or residuals suggest it, and applying it indiscriminately could increase residual variability and worsen SE_b."
@@ -11630,8 +11055,7 @@ var APSTATS_MCQ = [
       "t = 1.647 with 23 degrees of freedom",
       "t = 4.00 with 23 degrees of freedom",
       "t = 1.647 with 24 degrees of freedom",
-      "t = 4.00 with 24 degrees of freedom",
-      "t = 1.647 with 25 degrees of freedom"
+      "t = 4.00 with 24 degrees of freedom"
     ],
     "answer": 0,
     "explanation": "The t-statistic is calculated as t = (b - beta_0) / SE_b = (3.40 - 2) / 0.85 = 1.40 / 0.85 = 1.647. The degrees of freedom for inference on slope is n - 2 = 25 - 2 = 23. Choice B incorrectly uses t = b / SE_b = 3.40 / 0.85 = 4.00, which tests H0: beta = 0 rather than H0: beta = 2. Choice C uses the correct t-statistic but wrong df (n - 1 instead of n - 2). Choice D combines both errors: wrong null value and wrong df. Choice E uses n as df, which is incorrect."
@@ -11651,8 +11075,7 @@ var APSTATS_MCQ = [
       "Increase the sample size while sampling x-values only near the mean of x",
       "Decrease the sample size but choose x-values that are more spread out",
       "Increase the sample size while keeping all x-values identical to one another",
-      "Use a higher confidence level when constructing the confidence interval for the slope",
-      "Transform the response variable y using a logarithmic transformation"
+      "Use a higher confidence level when constructing the confidence interval for the slope"
     ],
     "answer": 1,
     "explanation": "SE_b = s / sqrt(Σ(xi − x̄)²). To reduce SE_b, we need to increase the denominator by maximizing the spread of x-values. Choice B decreases sample size but selects x-values that are much more spread out, which can substantially increase Σ(xi − x̄)² and directly reduce SE_b — making it the best option among these choices. Choice A increases n but concentrates x-values near their mean, keeping Σ(xi − x̄)² small and providing minimal reduction in SE_b. Choice C is impossible: if all x-values are identical, Σ(xi − x̄)² = 0, making SE_b undefined and linear regression impossible. Choice D changes the critical value used when constructing the confidence interval but has no effect on SE_b itself. Choice E might reduce s if the transformation improves model fit, but this is indirect, not guaranteed, and changes the interpretation of the model entirely."
@@ -11672,8 +11095,7 @@ var APSTATS_MCQ = [
       "The interval is 2.45 plus or minus 2.131 times 0.60, and we are 95% confident that the true slope lies in this interval.",
       "The interval is 2.45 plus or minus 1.960 times 0.60, and we are 95% confident that the true slope lies in this interval.",
       "The interval is 2.45 plus or minus 2.131 times 4.12, and there is a 95% probability that the true slope lies in this interval.",
-      "The interval is 2.45 plus or minus 2.120 times 0.60, and there is a 95% probability that the true slope lies in this interval.",
-      "The interval is 2.45 plus or minus 2.120 times 0.60, and we are 95% confident that the true slope lies in this interval."
+      "The interval is 2.45 plus or minus 2.120 times 0.60, and there is a 95% probability that the true slope lies in this interval."
     ],
     "answer": 0,
     "explanation": "The confidence interval for slope is b +/- t* times SE_b. With n = 17 observations, df = 17 - 2 = 15, and the critical value t* for 95% confidence with 15 df is 2.131. The correct interval uses SE_b = 0.60 (not s = 4.12). Choice (B) incorrectly uses z* = 1.960 instead of the t-distribution. Choice (C) uses the correct t* but mistakenly substitutes the residual standard deviation s for SE_b. Choice (D) uses t* = 2.120 which corresponds to df = 16 (a common error of using n - 1 instead of n - 2) and uses incorrect probability language. Choice (E) uses the same wrong df = 16 critical value but with correct confidence language. The correct answer is (A) because it uses the proper critical value for df = 15 and correct interpretation language."
@@ -11693,8 +11115,7 @@ var APSTATS_MCQ = [
       "Increasing the sample size while keeping the spread of x-values the same",
       "Increasing the variability of the residuals while keeping the sample size the same",
       "Decreasing the spread of the x-values while keeping the sample size the same",
-      "Increasing both the variability of the residuals and the sample size by the same factor",
-      "Decreasing the sample size while simultaneously increasing the spread of x-values by a small amount"
+      "Increasing both the variability of the residuals and the sample size by the same factor"
     ],
     "answer": 0,
     "explanation": "The standard error of the slope is SE_b = s / sqrt(sum of (x_i - x-bar)^2), where s is the residual standard error. Increasing n while keeping the spread of x-values the same increases the sum of squared deviations of x (more points spread across the same range adds to the sum), which increases the denominator and decreases SE_b. Additionally, more data provides a better estimate of s. Choice (B) is wrong because increasing residual variability increases s, which increases SE_b. Choice (C) is wrong because decreasing the spread of x-values decreases the denominator, increasing SE_b. Choice (D) is wrong because increasing residual variability by the same factor as n would generally not decrease SE_b (the numerator grows as fast or faster than the denominator). Choice (E) is wrong because decreasing sample size removes terms from the sum of squared deviations, and a small increase in x-spread may not compensate."
@@ -11714,8 +11135,7 @@ var APSTATS_MCQ = [
       "t = 3.0 with 18 degrees of freedom",
       "t = 3.0 with 19 degrees of freedom",
       "t = 3.0 with 20 degrees of freedom",
-      "t = 0.333 with 18 degrees of freedom",
-      "t = 3.6 with 18 degrees of freedom"
+      "t = 0.333 with 18 degrees of freedom"
     ],
     "answer": 0,
     "explanation": "The t-statistic is calculated as t = b / SE(b) = 3.6 / 1.2 = 3.0. For inference on the slope of a regression line, the degrees of freedom are n - 2 = 20 - 2 = 18. Choice B uses n - 1 = 19 df, which is the degrees of freedom for a one-sample t-test, a common error. Choice C uses n = 20 df. Choice D incorrectly computes 1.2 / 3.6 (inverting the ratio). Choice E uses the slope itself (3.6) as the t-statistic rather than dividing by the standard error."
@@ -11735,8 +11155,7 @@ var APSTATS_MCQ = [
       "t = 3.00 with 20 degrees of freedom",
       "t = 3.00 with 21 degrees of freedom",
       "t = 3.00 with 22 degrees of freedom",
-      "t = 0.33 with 20 degrees of freedom",
-      "t = 3.00 with 19 degrees of freedom"
+      "t = 0.33 with 20 degrees of freedom"
     ],
     "answer": 0,
     "explanation": "The t-statistic is calculated as t = b / SE_b = 0.84 / 0.28 = 3.00. The degrees of freedom for inference about the slope of a regression line is n - 2 = 22 - 2 = 20. Choice B incorrectly uses n - 1 = 21 (a common error from one-sample t-procedures). Choice C incorrectly uses n = 22. Choice D inverts the fraction (0.28/0.84). Choice E incorrectly uses n - 3 = 19."
@@ -11756,8 +11175,7 @@ var APSTATS_MCQ = [
       "Decreasing the sample size",
       "Decreasing the spread of the x-values in the sample",
       "Increasing the variability of the residuals",
-      "Increasing the spread of the x-values in the sample",
-      "Increasing the magnitude of the slope estimate"
+      "Increasing the spread of the x-values in the sample"
     ],
     "answer": 3,
     "explanation": "The standard error of the slope is SE_b = s / sqrt(sum of (x_i - x-bar)^2), where s is the standard deviation of the residuals. Increasing the spread of x-values increases the denominator, which decreases SE_b. Choice A would decrease the denominator (fewer data points contributing to spread), increasing SE_b. Choice B would decrease the denominator, increasing SE_b. Choice C would increase s in the numerator, increasing SE_b. Choice E is a common misconception - the magnitude of the slope estimate itself does not affect the standard error of that estimate."
@@ -11777,8 +11195,7 @@ var APSTATS_MCQ = [
       "The 99% interval will be wider and will still not contain 0, so the conclusion about significance at the 0.05 level remains unchanged.",
       "The 99% interval will be wider and may contain 0, which means the slope could be declared not significantly different from 0 at the 0.01 level.",
       "The 99% interval will be narrower because a higher confidence level requires more precision.",
-      "The 99% interval will be wider, and since it uses a different standard error, the center of the interval will shift.",
-      "The 99% interval will be wider, and if it contains 0, that contradicts the result of the 95% interval, indicating an error was made."
+      "The 99% interval will be wider, and since it uses a different standard error, the center of the interval will shift."
     ],
     "answer": 1,
     "explanation": "The 99% confidence interval uses a larger t* critical value (approximately 2.878 for df = 18 vs. approximately 2.101 for 95%), making the interval wider: 3.4 ± 2.878(1.2) = (−0.054, 6.854), which does contain 0. This means we would fail to reject H_0: beta = 0 at the 0.01 significance level. Option A is wrong because the wider interval can indeed contain 0. Option C is wrong because higher confidence means wider intervals, not narrower. Option D is wrong because the standard error does not change - only the critical value changes, and the center remains at 3.4. Option E is wrong because there is no contradiction; a value can be in one interval but not another when the confidence levels differ."
@@ -11798,8 +11215,7 @@ var APSTATS_MCQ = [
       "The student will use a critical value that is too large, making it harder to reject H_0 and producing a conservative test.",
       "The student will use a critical value that is too small, making it easier to reject H_0 and inflating the Type I error rate.",
       "The student will use a critical value that is too large, inflating the Type I error rate.",
-      "There is no meaningful consequence because the difference between n − 1 and n − 2 degrees of freedom is always negligible.",
-      "The student's t-statistic itself will be incorrect because the degrees of freedom affect the calculation of the t-statistic."
+      "There is no meaningful consequence because the difference between n − 1 and n − 2 degrees of freedom is always negligible."
     ],
     "answer": 1,
     "explanation": "The correct degrees of freedom for inference about slope in simple linear regression is n − 2 = 23, not n − 1 = 24. A t-distribution with more degrees of freedom (24 vs. 23) has slightly thinner tails, yielding a slightly smaller critical value for any given significance level. This means the student would compare the test statistic against a threshold that is too small, making it slightly easier to reject H_0 and slightly inflating the Type I error rate beyond the nominal level. Option A is incorrect because the critical value is too small, not too large. Option C reverses the relationship between critical value size and Type I error. Option D is incorrect because while the difference may be small, the question asks about the direction of the consequence, which is real. Option E is incorrect because the t-statistic is computed as b/SE_b and does not depend on degrees of freedom."
