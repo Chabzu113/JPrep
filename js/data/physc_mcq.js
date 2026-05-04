@@ -711,7 +711,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "angular momentum",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u10_q5",
@@ -774,7 +775,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "rolling without slipping",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u10_q8",
@@ -795,7 +797,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "rotational inertia",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u10_q9",
@@ -858,7 +861,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "1.1 Coulomb's Law & Electric Field",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u1_q2",
@@ -900,7 +904,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "1.3 Gauss's Law",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u1_q4",
@@ -921,7 +926,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "1.3 Gauss's Law",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='100' x2='290' y2='100' stroke='#ef4444' stroke-width='3'/><text x='285' y='92' fill='#ef4444' font-size='11' font-weight='700'>line charge λ</text><ellipse cx='160' cy='100' rx='30' ry='60' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='40' x2='190' y2='40' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='160' x2='190' y2='160' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='160' y1='100' x2='200' y2='100' stroke='#64748b' stroke-width='1'/><text x='180' y='95' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='160' y='185' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian cylinder (length L)</text></svg>"
   },
   {
     "id": "physc_u1_q5",
@@ -1026,7 +1032,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "2.1 Capacitance",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u2_q2",
@@ -1068,7 +1075,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "2.2 Conductors in Electrostatic Equilibrium",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u2_q4",
@@ -1362,7 +1370,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "4.2 Ampere's Law",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u4_q3",
@@ -1383,7 +1392,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "4.3 Lorentz Force",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><g fill='#3b82f6' font-size='13' font-weight='700' text-anchor='middle'><text x='40' y='40'>•</text><text x='90' y='40'>•</text><text x='140' y='40'>•</text><text x='190' y='40'>•</text><text x='240' y='40'>•</text><text x='40' y='90'>•</text><text x='240' y='90'>•</text><text x='40' y='140'>•</text><text x='240' y='140'>•</text><text x='40' y='190'>•</text><text x='90' y='190'>•</text><text x='140' y='190'>•</text><text x='190' y='190'>•</text><text x='240' y='190'>•</text></g><text x='30' y='25' fill='#3b82f6' font-size='11' font-weight='600'>B (out of page)</text><circle cx='140' cy='110' r='55' fill='none' stroke='#ef4444' stroke-width='2.5' stroke-dasharray='4 4'/><circle cx='195' cy='110' r='8' fill='#ef4444'/><text x='195' y='115' text-anchor='middle' fill='white' font-size='11' font-weight='700'>+q</text><line x1='195' y1='110' x2='195' y2='80' stroke='#ef4444' stroke-width='2'/><polygon points='195,72 191,82 199,82' fill='#ef4444'/><text x='205' y='85' fill='#ef4444' font-size='11' font-weight='600'>v</text><text x='140' y='115' text-anchor='middle' fill='#64748b' font-size='11'>radius r</text></svg>"
   },
   {
     "id": "physc_u4_q4",
@@ -1446,7 +1456,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "4.3 Lorentz Force",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><g fill='#3b82f6' font-size='13' font-weight='700' text-anchor='middle'><text x='40' y='40'>•</text><text x='90' y='40'>•</text><text x='140' y='40'>•</text><text x='190' y='40'>•</text><text x='240' y='40'>•</text><text x='40' y='90'>•</text><text x='240' y='90'>•</text><text x='40' y='140'>•</text><text x='240' y='140'>•</text><text x='40' y='190'>•</text><text x='90' y='190'>•</text><text x='140' y='190'>•</text><text x='190' y='190'>•</text><text x='240' y='190'>•</text></g><text x='30' y='25' fill='#3b82f6' font-size='11' font-weight='600'>B (out of page)</text><circle cx='140' cy='110' r='55' fill='none' stroke='#ef4444' stroke-width='2.5' stroke-dasharray='4 4'/><circle cx='195' cy='110' r='8' fill='#ef4444'/><text x='195' y='115' text-anchor='middle' fill='white' font-size='11' font-weight='700'>+q</text><line x1='195' y1='110' x2='195' y2='80' stroke='#ef4444' stroke-width='2'/><polygon points='195,72 191,82 199,82' fill='#ef4444'/><text x='205' y='85' fill='#ef4444' font-size='11' font-weight='600'>v</text><text x='140' y='115' text-anchor='middle' fill='#64748b' font-size='11'>radius r</text></svg>"
   },
   {
     "id": "physc_u4_q7",
@@ -1467,7 +1478,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "4.2 Ampere's Law",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u4_q8",
@@ -1488,7 +1500,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "4.3 Lorentz Force",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u5_q1",
@@ -1719,7 +1732,8 @@ window.PHYSC_MCQ = [
     "topicLabel": "1.2 Electric Potential",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u7_q9",
@@ -2076,7 +2090,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "For horizontal launch, the initial vertical velocity component is zero since there is no initial upward or downward motion. Choice B confuses initial velocity with acceleration due to gravity. Choice C incorrectly assumes components must be equal. Choice A is incorrect since horizontal launch clearly defines initial conditions.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='190' x2='300' y2='190' stroke='#64748b' stroke-width='1.5'/><path d='M 50,190 Q 165,40 280,190' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='50' cy='190' r='5' fill='#94a3b8'/><circle cx='280' cy='190' r='5' fill='#94a3b8'/><line x1='50' y1='190' x2='95' y2='150' stroke='#ef4444' stroke-width='2'/><polygon points='100,146 90,148 95,156' fill='#ef4444'/><text x='105' y='148' fill='#ef4444' font-size='12' font-weight='700'>v₀</text><path d='M 50,190 A 25,25 0 0 0 75,170' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='62' y='180' fill='#64748b' font-size='11'>θ</text><text x='165' y='205' text-anchor='middle' fill='#64748b' font-size='11'>Range R</text><line x1='165' y1='75' x2='165' y2='190' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='170' y='130' fill='#94a3b8' font-size='10'>max height</text></svg>"
   },
   {
     "id": "physc_u1_q015",
@@ -2202,7 +2217,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "In projectile motion without air resistance, there is no horizontal acceleration, so the horizontal velocity component remains constant throughout flight. Choices A and B assume horizontal acceleration exists. Choice D confuses horizontal with vertical motion.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='190' x2='300' y2='190' stroke='#64748b' stroke-width='1.5'/><path d='M 50,190 Q 165,40 280,190' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='50' cy='190' r='5' fill='#94a3b8'/><circle cx='280' cy='190' r='5' fill='#94a3b8'/><line x1='50' y1='190' x2='95' y2='150' stroke='#ef4444' stroke-width='2'/><polygon points='100,146 90,148 95,156' fill='#ef4444'/><text x='105' y='148' fill='#ef4444' font-size='12' font-weight='700'>v₀</text><path d='M 50,190 A 25,25 0 0 0 75,170' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='62' y='180' fill='#64748b' font-size='11'>θ</text><text x='165' y='205' text-anchor='middle' fill='#64748b' font-size='11'>Range R</text><line x1='165' y1='75' x2='165' y2='190' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='170' y='130' fill='#94a3b8' font-size='10'>max height</text></svg>"
   },
   {
     "id": "physc_u1_q021",
@@ -2328,7 +2344,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "At maximum height, vᵧ = 0. Initial vᵧ = 20sin(30°) = 10 m/s. Using vᵧ = v₀ᵧ - gt: 0 = 10 - 10t, so t = 1.0 s. Horizontal velocity vₓ = 20cos(30°) = 17.3 m/s (constant). Distance x = vₓt = 17.3(1) = 17.3 m. Choice B uses total flight time. Choice C uses wrong horizontal velocity. Choice D uses half the correct time.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='190' x2='300' y2='190' stroke='#64748b' stroke-width='1.5'/><path d='M 50,190 Q 165,40 280,190' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='50' cy='190' r='5' fill='#94a3b8'/><circle cx='280' cy='190' r='5' fill='#94a3b8'/><line x1='50' y1='190' x2='95' y2='150' stroke='#ef4444' stroke-width='2'/><polygon points='100,146 90,148 95,156' fill='#ef4444'/><text x='105' y='148' fill='#ef4444' font-size='12' font-weight='700'>v₀</text><path d='M 50,190 A 25,25 0 0 0 75,170' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='62' y='180' fill='#64748b' font-size='11'>θ</text><text x='165' y='205' text-anchor='middle' fill='#64748b' font-size='11'>Range R</text><line x1='165' y1='75' x2='165' y2='190' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='170' y='130' fill='#94a3b8' font-size='10'>max height</text></svg>"
   },
   {
     "id": "physc_u1_q027",
@@ -2580,7 +2597,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "At the highest point, the vertical velocity component is zero, but the acceleration due to gravity remains constant throughout the entire flight. The acceleration is always g downward, regardless of the velocity at any point. Choice A incorrectly assumes zero velocity means zero acceleration. Choices B and C incorrectly try to apply trigonometric components to the acceleration, confusing it with initial velocity components.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='190' x2='300' y2='190' stroke='#64748b' stroke-width='1.5'/><path d='M 50,190 Q 165,40 280,190' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='50' cy='190' r='5' fill='#94a3b8'/><circle cx='280' cy='190' r='5' fill='#94a3b8'/><line x1='50' y1='190' x2='95' y2='150' stroke='#ef4444' stroke-width='2'/><polygon points='100,146 90,148 95,156' fill='#ef4444'/><text x='105' y='148' fill='#ef4444' font-size='12' font-weight='700'>v₀</text><path d='M 50,190 A 25,25 0 0 0 75,170' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='62' y='180' fill='#64748b' font-size='11'>θ</text><text x='165' y='205' text-anchor='middle' fill='#64748b' font-size='11'>Range R</text><line x1='165' y1='75' x2='165' y2='190' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='170' y='130' fill='#94a3b8' font-size='10'>max height</text></svg>"
   },
   {
     "id": "physc_u1_q039",
@@ -2643,7 +2661,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "For horizontal launch, find flight time using vertical motion: h = $\\frac{1}{2}$g$t^2$, so 45 = $\\frac{1}{2}$(10)$t^2$, giving $t^2$ = 9, so t = 3 s. Then use horizontal motion: x = v₀t, so 60 = v₀(3), giving v₀ = 20 m/s. Choice A uses incorrect time calculation (t = 4 s), choice C uses t = 2.4 s, and choice D uses t = 2 s. These represent common errors in calculating flight time from the height equation.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='190' x2='300' y2='190' stroke='#64748b' stroke-width='1.5'/><path d='M 50,190 Q 165,40 280,190' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='50' cy='190' r='5' fill='#94a3b8'/><circle cx='280' cy='190' r='5' fill='#94a3b8'/><line x1='50' y1='190' x2='95' y2='150' stroke='#ef4444' stroke-width='2'/><polygon points='100,146 90,148 95,156' fill='#ef4444'/><text x='105' y='148' fill='#ef4444' font-size='12' font-weight='700'>v₀</text><path d='M 50,190 A 25,25 0 0 0 75,170' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='62' y='180' fill='#64748b' font-size='11'>θ</text><text x='165' y='205' text-anchor='middle' fill='#64748b' font-size='11'>Range R</text><line x1='165' y1='75' x2='165' y2='190' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='170' y='130' fill='#94a3b8' font-size='10'>max height</text></svg>"
   },
   {
     "id": "physc_u1_q042",
@@ -2685,7 +2704,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "At impact, vₓ = v₀cos(θ) (unchanged) and vᵧ = -(v₀sin(θ) + √(v₀²si$n^2$(θ) + 2gh)) (using energy or kinematics). The angle below horizontal is φ = arctan(|vᵧ|/vₓ) = arctan((v₀sin(θ) + √(v₀²si$n^2$(θ) + 2gh))/(v₀cos(θ))). Students often forget the additional speed gained from falling through height h or use wrong sign conventions.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='190' x2='300' y2='190' stroke='#64748b' stroke-width='1.5'/><path d='M 50,190 Q 165,40 280,190' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='50' cy='190' r='5' fill='#94a3b8'/><circle cx='280' cy='190' r='5' fill='#94a3b8'/><line x1='50' y1='190' x2='95' y2='150' stroke='#ef4444' stroke-width='2'/><polygon points='100,146 90,148 95,156' fill='#ef4444'/><text x='105' y='148' fill='#ef4444' font-size='12' font-weight='700'>v₀</text><path d='M 50,190 A 25,25 0 0 0 75,170' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='62' y='180' fill='#64748b' font-size='11'>θ</text><text x='165' y='205' text-anchor='middle' fill='#64748b' font-size='11'>Range R</text><line x1='165' y1='75' x2='165' y2='190' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='170' y='130' fill='#94a3b8' font-size='10'>max height</text></svg>"
   },
   {
     "id": "physc_u1_q044",
@@ -3000,7 +3020,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "At constant velocity, acceleration is zero, so net force is zero. The component of weight parallel to the plane (mg sin 30°) must be balanced by friction force up the plane. Choice A is wrong because N = mg cos 30°, not mg. Choice B is wrong because net force is zero at constant velocity. Choice D confuses the parallel and perpendicular components.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u2_q059",
@@ -3063,7 +3084,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "At the verge of sliding, μs = tan θ. Once sliding begins at constant velocity, $\\mu$k = tan θ for the new angle. The coefficient of kinetic friction is a material property that doesn't change with angle - what changes is whether that coefficient is sufficient. Choice A and B incorrectly suggest $\\mu$k changes with angle. Choice D shows a misunderstanding of the relationship.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u2_q062",
@@ -3168,7 +3190,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "At constant velocity, mg sin θ = $\\mu$k mg cos θ, so $\\mu$k = tan θ. This relationship is independent of mass. Doubling the mass doubles both the gravitational component and the normal force (hence friction) equally, so the velocity remains constant. Choices A, B, and D all incorrectly assume mass affects the force balance.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u2_q067",
@@ -3315,7 +3338,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "At the threshold of sliding, static friction equals the component of weight down the plane: μsmg cos θ = mg sin θ. This gives μs = tan θ, so θ = arctan(0.6) = 31°. Students often confuse this with μs = sin θ (choice B), use μs = cos θ (choice C), or think it's related to the coefficient value directly (choice D).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u2_q074",
@@ -3525,7 +3549,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The net force down the incline is mg sin θ - $\\mu$k mg cos θ, giving acceleration a = g(sin θ - $\\mu$k cos θ). Since this is positive (assuming block accelerates down), using $v^2$ = v$0^2$ + 2as gives the answer. Students often confuse the sign of friction or acceleration direction, or forget that kinematic equations require careful attention to signs.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u2_q084",
@@ -4218,7 +4243,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Using work-energy theorem: W_net = ΔKE. Work by gravity = mgh = 2$\\times$10×4 = 80 J. Work by friction = -15 J. Net work = 65 J. Since initial KE = 0, final KE = 65 J, so $\\frac{1}{2}$m$v^2$ = 65, giving v = 6.2 m/s. Choice A ignores friction. Choice B uses total displacement instead of vertical. Choice D uses horizontal displacement for gravity.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u3_q118",
@@ -5352,7 +5378,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "For rolling without slipping, v = ωr where r is the radius. Students might use v = ω/r (incorrect inversion), v = ω$r^2$ (adding extra radius), or v = ω + r (incorrect addition).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u5_q173",
@@ -5499,7 +5526,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "For a solid disk, I = (1/2)M$R^2$ = (1/2)(2)(0.5)² = 0.25 kg⋅$m^2$. Using τ = Iα: α = τ/I = 3/0.25 = 12 $rad/s^2$. Choice A uses the wrong moment of inertia formula. Choice B assumes I = M$R^2$. Choice D uses I = M$R^2$ but with an extra factor of 2 error.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u5_q180",
@@ -5583,7 +5611,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Using parallel axis theorem: I = I_cm + M$d^2$. For a disk, I_cm = (1/2)M$R^2$. With d = R: I = (1/2)M$R^2$ + M(R)² = (1/2)M$R^2$ + M$R^2$ = (3/2)M$R^2$. Choice A forgets the central axis term. Choice C forgets the central axis contribution. Choice D adds incorrectly.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u5_q184",
@@ -5751,7 +5780,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "The topmost point has two velocity components: the translational velocity v (same as center of mass) plus the rotational velocity ωR in the same direction. For rolling without slipping, v = ωR, so ω = v/R. The rotational velocity at the top is ωR = v. Total velocity = v + v = 2v. Choice A ignores rotation. Choice C confuses with the bottom point. Choice D would be the instantaneous contact point.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u5_q192",
@@ -5814,7 +5844,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Using parallel axis theorem: I = I_cm + M$d^2$ = M$R^2$/2 + M$R^2$ = 3M$R^2$/2, where d = R is the distance from center to rim. Choice A ignores the theorem, choice B uses $d^2$ = R incorrectly, choice D doubles the center value incorrectly.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u5_q196",
@@ -5940,7 +5971,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "For the hanging mass: mg - T = ma. For the disk: TR = Iα where I = M$R^2$/2 and a = αR. Substituting: mg - Iα/R = mαR, so mg = α(I/R + mR) = α(MR/2 + mR). Therefore α = 2mg/(MR + 2mR).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u5_q202",
@@ -5961,7 +5993,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "For rolling without slipping, v = ωR. Total KE = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$Iω². For solid sphere, I = 2m$R^2$/5, so KE_rot = $\\frac{1}{2}$(2m$R^2$/5)ω² = (1/5)m$v^2$. Total KE = $\\frac{1}{2}$m$v^2$ + (1/5)m$v^2$ = (7/10)m$v^2$. Fraction rotational = (1/5)m$v^2$ ÷ (7/10)m$v^2$ = 2/7.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u5_q203",
@@ -6045,7 +6078,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Parallel axis theorem: I = I₀ + M$d^2$ where d is displacement. Here I₀ = M$R^2$/2 and d = R/2. So I = M$R^2$/2 + M(R/2)² = M$R^2$/2 + M$R^2$/4 = 3M$R^2$/4. Since I₀ = M$R^2$/2, we get I = I₀ + M$R^2$/4.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u5_q207",
@@ -6066,7 +6100,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Both disks have same angular acceleration α. For hanging mass: mg - T = ma where a = αr. For disk system: Tr = (I₁ + I₂)α. Substituting T: (mg - mαr)r = (I₁ + I₂)α, so mgr = α(I₁ + I₂ + m$r^2$). Therefore α = mgr/(I₁ + I₂ + m$r^2$).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg' style='max-width:240px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='120' cy='40' r='22' fill='none' stroke='#64748b' stroke-width='2'/><circle cx='120' cy='40' r='4' fill='#64748b'/><line x1='98' y1='40' x2='80' y2='150' stroke='#64748b' stroke-width='1.5'/><line x1='142' y1='40' x2='160' y2='150' stroke='#64748b' stroke-width='1.5'/><rect x='60' y='150' width='40' height='35' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5'/><text x='80' y='173' text-anchor='middle' fill='white' font-size='12' font-weight='700'>m₁</text><rect x='140' y='150' width='40' height='45' fill='#ef4444' stroke='#991b1b' stroke-width='1.5'/><text x='160' y='178' text-anchor='middle' fill='white' font-size='12' font-weight='700'>m₂</text><line x1='105' y1='15' x2='135' y2='15' stroke='#64748b' stroke-width='3'/><line x1='110' y1='15' x2='110' y2='5' stroke='#64748b' stroke-width='1.5'/><line x1='130' y1='15' x2='130' y2='5' stroke='#64748b' stroke-width='1.5'/><line x1='120' y1='5' x2='120' y2='18' stroke='#64748b' stroke-width='1.5'/><text x='120' y='225' text-anchor='middle' fill='#64748b' font-size='10'>frictionless pulley</text></svg>"
   },
   {
     "id": "physc_u5_q208",
@@ -6150,7 +6185,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "For rolling down incline: a = g sin θ/(1 + $I/mR^2$). Sphere: I = 2m$R^2$/5, so a = g sin θ/(1 + 2/5) = 5g sin θ/7. Cylinder: I = m$R^2$/2, so a = g sin θ/(1 + 1/2) = 2g sin θ/3. Since 5/7 > 2/3, sphere has greater acceleration and wins.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u5_q212",
@@ -7935,7 +7971,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Using energy conservation: $\\frac{1}{2}$m(0.8v_e)² - GMm/R = -GMm/(R+h). Since v_$e^2$ = 2GM/R, we get 0.32GM/R - GM/R = -GM/(R+h). Solving gives R+h = 25R/9, so h = 16R/9. Students often make algebraic errors or forget that height is measured from the surface, not center.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='190' x2='300' y2='190' stroke='#64748b' stroke-width='1.5'/><path d='M 50,190 Q 165,40 280,190' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='50' cy='190' r='5' fill='#94a3b8'/><circle cx='280' cy='190' r='5' fill='#94a3b8'/><line x1='50' y1='190' x2='95' y2='150' stroke='#ef4444' stroke-width='2'/><polygon points='100,146 90,148 95,156' fill='#ef4444'/><text x='105' y='148' fill='#ef4444' font-size='12' font-weight='700'>v₀</text><path d='M 50,190 A 25,25 0 0 0 75,170' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='62' y='180' fill='#64748b' font-size='11'>θ</text><text x='165' y='205' text-anchor='middle' fill='#64748b' font-size='11'>Range R</text><line x1='165' y1='75' x2='165' y2='190' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='170' y='130' fill='#94a3b8' font-size='10'>max height</text></svg>"
   },
   {
     "id": "physc_u7_q301",
@@ -8334,7 +8371,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "At equilibrium point, fields from both charges must be equal in magnitude. Let x be distance from +2Q. Then: k(2Q)/$x^2$ = kQ/(d-x)². Solving: 2(d-x)² = $x^2$, which gives x = 2d/3. Students often forget the field magnitudes must be equal, not the charges themselves.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u8_q320",
@@ -8376,7 +8414,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Gauss's law states that flux equals Q_enclosed/ε₀. Since the charge Q is inside the Gaussian surface (R < 2R), the entire charge is enclosed, giving flux = Q/ε₀. Students often think the flux depends on the charge's position within the surface or try to account for the off-center location.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u8_q322",
@@ -8418,7 +8457,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "For an infinite line charge, E = λ/2πε₀r. Setting E = E₀ and solving for r: r = λ/2πε₀E₀. Students often use the point charge formula with 4πε₀ instead of the line charge formula with 2πε₀.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='100' x2='290' y2='100' stroke='#ef4444' stroke-width='3'/><text x='285' y='92' fill='#ef4444' font-size='11' font-weight='700'>line charge λ</text><ellipse cx='160' cy='100' rx='30' ry='60' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='40' x2='190' y2='40' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='160' x2='190' y2='160' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='160' y1='100' x2='200' y2='100' stroke='#64748b' stroke-width='1'/><text x='180' y='95' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='160' y='185' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian cylinder (length L)</text></svg>"
   },
   {
     "id": "physc_u8_q324",
@@ -8439,7 +8479,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Inside a conductor in electrostatic equilibrium, the electric field is always zero. The free electrons rearrange to cancel any internal field. Students often think the field equals that of the point charge or relates to the conductor's outer surface.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u8_q325",
@@ -8460,7 +8501,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Each charge experiences repulsive forces from the other two charges. Due to symmetry, the components parallel to the triangle's sides cancel, leaving only the component pointing away from the center. Students often think forces cancel completely due to symmetry or point toward the center.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 240 220' xmlns='http://www.w3.org/2000/svg' style='max-width:240px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='120,40 50,170 190,170' fill='none' stroke='#94a3b8' stroke-width='1' stroke-dasharray='4 3'/><circle cx='120' cy='40' r='14' fill='#ef4444'/><text x='120' y='45' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><circle cx='50' cy='170' r='14' fill='#ef4444'/><text x='50' y='175' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><circle cx='190' cy='170' r='14' fill='#ef4444'/><text x='190' y='175' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><text x='30' y='105' fill='#64748b' font-size='11'>a</text><text x='210' y='105' text-anchor='end' fill='#64748b' font-size='11'>a</text><text x='120' y='195' text-anchor='middle' fill='#64748b' font-size='11'>a</text><circle cx='120' cy='127' r='2.5' fill='#3b82f6'/><text x='130' y='131' fill='#3b82f6' font-size='10'>centroid</text></svg>"
   },
   {
     "id": "physc_u8_q326",
@@ -8481,7 +8523,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "For a dipole at large distances perpendicular to the axis, E = $kp/r^3$ where p = qd is the dipole moment. The factor of 2 appears along the dipole axis, not perpendicular to it. Students often confuse the perpendicular and axial field expressions or forget the 1/$r^3$ dependence.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u8_q327",
@@ -8544,7 +8587,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Inside a uniformly charged sphere, E = $kQr/R^3$. At r = R/2: E = kQ(R/2)/$R^3$ = kQ/2$R^2$. Students often use the external field formula $kQ/r^2$ or think the field is zero inside like in a conductor.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u8_q330",
@@ -8586,7 +8630,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "By Gauss's law, flux depends only on enclosed charge, not the Gaussian surface dimensions. The same length L of line charge is enclosed regardless of radius, so flux = λL/ε₀ remains constant. Students often think flux changes with surface area or radius.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='100' x2='290' y2='100' stroke='#ef4444' stroke-width='3'/><text x='285' y='92' fill='#ef4444' font-size='11' font-weight='700'>line charge λ</text><ellipse cx='160' cy='100' rx='30' ry='60' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='40' x2='190' y2='40' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='160' x2='190' y2='160' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='160' y1='100' x2='200' y2='100' stroke='#64748b' stroke-width='1'/><text x='180' y='95' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='160' y='185' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian cylinder (length L)</text></svg>"
   },
   {
     "id": "physc_u8_q332",
@@ -8712,7 +8757,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "For zero net force, the forces from both charges must balance. Let x be the distance from +2Q. Then k(2Q)(q)/$x^2$ = k(Q)(q)/(d-x)². Solving: 2(d-x)² = $x^2$, which gives x = 2d/3. Choice A uses inverse ratio of charges. Choice B places it d/3 from smaller charge. Choice D ignores charge magnitudes.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u8_q338",
@@ -8733,7 +8779,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Gauss's law states that flux equals the total enclosed charge divided by ε₀. Both charges are inside the Gaussian surface, so Φ = (Q + 2Q)/ε₀ = 3Q/ε₀. Choice A only counts one charge. Choice B only counts the larger charge. Choice D reflects the misconception that you need to know the field distribution, but Gauss's law depends only on enclosed charge.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u8_q339",
@@ -8775,7 +8822,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "For an infinite line charge, E = λ/(2πε₀r). Setting E = E₀ and solving for r: E₀ = λ/(2πε₀r), so r = λ/(2πε₀E₀). Choice B uses the point charge constant 4π instead of 2π for line charge. Choice C has incorrect coefficient. Choice D incorrectly squares λ.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='100' x2='290' y2='100' stroke='#ef4444' stroke-width='3'/><text x='285' y='92' fill='#ef4444' font-size='11' font-weight='700'>line charge λ</text><ellipse cx='160' cy='100' rx='30' ry='60' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='40' x2='190' y2='40' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='160' x2='190' y2='160' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='160' y1='100' x2='200' y2='100' stroke='#64748b' stroke-width='1'/><text x='180' y='95' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='160' y='185' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian cylinder (length L)</text></svg>"
   },
   {
     "id": "physc_u8_q341",
@@ -8838,7 +8886,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "For a long cylindrical conductor, use a cylindrical Gaussian surface. The field has only radial component and is constant at distance r. Gauss's law gives E(2πrL) = Q/ε₀, so E = Q/(2πε₀rL). Choice B treats it as a point charge. Choice C has incorrect $r^2$ dependence. Choice D incorrectly assumes field is zero outside conductor.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='100' x2='290' y2='100' stroke='#ef4444' stroke-width='3'/><text x='285' y='92' fill='#ef4444' font-size='11' font-weight='700'>line charge λ</text><ellipse cx='160' cy='100' rx='30' ry='60' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='40' x2='190' y2='40' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='160' x2='190' y2='160' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='160' y1='100' x2='200' y2='100' stroke='#64748b' stroke-width='1'/><text x='180' y='95' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='160' y='185' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian cylinder (length L)</text></svg>"
   },
   {
     "id": "physc_u8_q344",
@@ -8859,7 +8908,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "The external charge +q repels the positive charges on the conductor, causing them to redistribute. More charge moves to the far side of the conductor, away from +q. The near side has less positive charge (or becomes less positive). Choice A ignores redistribution. Choice B incorrectly suggests like charges attract. Choice D violates charge conservation.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u8_q345",
@@ -8880,7 +8930,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "The net force on a dipole in a uniform electric field is always zero because F = qE on the positive charge and F = -qE on the negative charge, which sum to zero. Students often confuse this with torque (τ = qEd sin θ) or think the orientation matters for net force. Only in non-uniform fields does a dipole experience net force.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u8_q346",
@@ -8901,7 +8952,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "When the charge moves to 2R from center, it's outside the Gaussian surface (radius R), so flux becomes zero. Gauss's law states flux depends only on enclosed charge, not charge position within the surface. Students often think flux depends on distance to charge or apply inverse square law incorrectly to flux instead of field.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u8_q347",
@@ -8964,7 +9016,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Field along axis: E = kQx/($x^2$ + $R^2$)^(3/2). To find maximum, take derivative and set to zero: dE/dx = 0 gives x = R/√2. Students often guess x = R (incorrect) or don't properly handle the calculus. The maximum occurs closer to the ring than R because of the balance between 1/$r^2$ dependence and cos θ projection factor.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u8_q350",
@@ -8985,7 +9038,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Enclosed charge within radius r: Q = ρ × (4π/3)($r^3$ - $a^3$). By Gauss's law: E(4π$r^2$) = Q/ε₀, so E = ρ($r^3$ - $a^3$)/(3ε₀$r^2$). Students often forget to subtract the inner cavity volume $a^3$, use wrong volume formula, or confuse this with the uniform sphere case where charge grows as $r^3$ from center.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u8_q351",
@@ -9027,7 +9081,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Each infinite plane creates field σ/(2ε₀) pointing away from positive charges. Between planes, both fields point from +σ plane toward -σ plane, so they add: σ/(2ε₀) + σ/(2ε₀) = σ/ε₀. Students often think fields cancel (like outside the planes) or forget that field directions add constructively between oppositely charged planes.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u8_q353",
@@ -9069,7 +9124,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "By symmetry, the field is zero at the midpoint between the lines. At distance x from +λ line: field from +λ is λ/(2πε₀x) pointing away, field from -λ is λ/(2πε₀(d-x)) pointing toward +λ line. These cancel when x = d-x, so x = d/2. Students might think fields never cancel or solve the equations incorrectly.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='100' x2='290' y2='100' stroke='#ef4444' stroke-width='3'/><text x='285' y='92' fill='#ef4444' font-size='11' font-weight='700'>line charge λ</text><ellipse cx='160' cy='100' rx='30' ry='60' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='40' x2='190' y2='40' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='160' x2='190' y2='160' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='160' y1='100' x2='200' y2='100' stroke='#64748b' stroke-width='1'/><text x='180' y='95' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='160' y='185' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian cylinder (length L)</text></svg>"
   },
   {
     "id": "physc_u8_q355",
@@ -9090,7 +9146,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "All charge λ per unit length resides on the outer surface (inner cavity surface has zero charge since no charge is in the cavity). Surface area per unit length of outer surface = 2πR. Surface charge density = λ/(2πR). Students might incorrectly distribute charge between inner and outer surfaces or use wrong surface area formula.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='100' x2='290' y2='100' stroke='#ef4444' stroke-width='3'/><text x='285' y='92' fill='#ef4444' font-size='11' font-weight='700'>line charge λ</text><ellipse cx='160' cy='100' rx='30' ry='60' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='40' x2='190' y2='40' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='160' x2='190' y2='160' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='160' y1='100' x2='200' y2='100' stroke='#64748b' stroke-width='1'/><text x='180' y='95' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='160' y='185' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian cylinder (length L)</text></svg>"
   },
   {
     "id": "physc_u8_q356",
@@ -9132,7 +9189,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "By symmetry, the electric field at the center of any spherically symmetric charge distribution is zero. Every charge element has a corresponding element on the opposite side that produces an equal and opposite field contribution at the center. Students often try to calculate using Gauss's law incorrectly or think non-uniform density breaks the symmetry argument.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u8_q358",
@@ -9363,7 +9421,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "C = ε₀A/d, so capacitance is proportional to area A and inversely proportional to separation d. Choice B has the relationship backwards. Choice C suggests direct proportionality to both. Choice D introduces incorrect square dependence.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q369",
@@ -9405,7 +9464,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "With dielectric, C = κC₀ where κ is dielectric constant. Capacitance increases by factor κ. Choice B has relationship backwards. Choice C ignores dielectric effect. Choice D introduces incorrect square dependence.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q371",
@@ -9510,7 +9570,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Set kq₁/r₁ + kq₂/r₂ = 0. Let x be distance from +4.0 μC charge. Then k(4.0)/x + k(-2.0)/(0.30-x) = 0. Solving: 4.0/x = 2.0/(0.30-x), gives x = 0.20 m. Students often set up the equation incorrectly or make sign errors.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u9_q376",
@@ -9531,7 +9592,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "C = ε₀A/d, so when d doubles, C is halved. Since Q = CV and Q is constant, when C is halved, V must double. Students often confuse what happens when charge vs. voltage is kept constant.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q377",
@@ -9573,7 +9635,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "With battery connected, V is constant. C increases by factor κ, so U = $\\frac{1}{2}$C$V^2$ increases by factor κ = 3. Students often confuse constant charge vs. constant voltage scenarios.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q379",
@@ -9678,7 +9741,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "With disconnected battery, Q is constant. When d doubles, C halves. Since U = $Q^2$/(2C), when C halves, U doubles. Students often use U = $\\frac{1}{2}$C$V^2$ instead of appropriate formula for constant charge.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q384",
@@ -9930,7 +9994,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "When disconnected, charge Q remains constant. Since C = ε₀A/d, doubling d halves the capacitance. Using U = $Q^2$/(2C), when C is halved, energy doubles. Choice A incorrectly uses U = $\\frac{1}{2}$C$V^2$ thinking voltage is constant. Choice B ignores the change in capacitance. Choice D incorrectly squares the capacitance change.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q396",
@@ -9951,7 +10016,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "With battery connected, voltage V remains constant. Initially C₁ = κC₀ = 4C₀, so U₁ = $\\frac{1}{2}$(4C₀)$V^2$ = 2C₀$V^2$. After removing dielectric, C₂ = C₀, so U₂ = $\\frac{1}{2}$C₀$V^2$. Therefore energy decreases by factor of 4. Choice A reverses the change direction. Choices C and D use the wrong factor, possibly confusing with the square root of the dielectric constant.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q397",
@@ -9972,7 +10038,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "For an isolated spherical conductor, C = 4πε₀R. When radius doubles, capacitance doubles since it's directly proportional to radius. The potential V = kQ/R, so doubling R halves V, and since Q is constant, C = Q/V doubles. Choice A inverts the relationship. Choice C treats it like a parallel plate capacitor. Choice D squares the radius change.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u9_q398",
@@ -9993,7 +10060,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "With constant charge (disconnected), U = $Q^2$/(2C). When dielectric is inserted, C becomes κC = 3C, so the new energy is U' = $Q^2$/(2·3C) = U/3. Therefore, 1/3 of the original energy remains. Choice A incorrectly squares the dielectric constant in the denominator. Choices C and D incorrectly assume energy increases, which would violate energy conservation since no external work increases the stored energy.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q399",
@@ -10014,7 +10082,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Let the distance from +Q be x, so distance from -Q is (2d - x). Setting V = 0: kQ/x + k(-Q)/(2d - x) = 0, which gives kQ/x = kQ/(2d - x), so x = 2d - x, therefore x = d. This is the midpoint between the charges. Choice B gives d/2, which would be closer to +Q where potential would be positive. Choice C gives 2d, which is at the -Q charge location. Choice D is incorrect since we found a solution.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u9_q400",
@@ -10056,7 +10125,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "With battery connected, voltage remains constant at V. Initial: C₁ = ε₀A/d, U₁ = $\\frac{1}{2}$C₁$V^2$. After dielectric insertion: C₂ = κC₁ = 4C₁, U₂ = $\\frac{1}{2}$C₂$V^2$ = $\\frac{1}{2}$(4C₁)$V^2$ = 4($\\frac{1}{2}$C₁$V^2$) = 4U₁. Energy increases by factor of 4 because battery does work to maintain constant voltage while capacitance increases. Choice B would be correct if battery were disconnected (constant charge). Choices C and D result from confusion about energy vs. field relationships.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q402",
@@ -10098,7 +10168,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "For a dipole, V = kp cos θ/(4πε₀$r^2$) where θ is angle from dipole axis. Setting V = 0 gives cos θ = 0, so θ = 90°. This describes a plane perpendicular to the dipole axis passing through the center. Choice A would be true for a monopole. Choices C and D are more complex surfaces that don't arise from the dipole potential.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u9_q404",
@@ -10119,7 +10190,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "With battery disconnected, charge Q remains constant. Initial: C₁ = ε₀A/d, U₁ = $Q^2$/(2C₁). Final: C₂ = κε₀A/(2d) = 3ε₀A/(2d) = 3C₁/2, U₂ = $Q^2$/(2C₂) = $Q^2$/(2 × 3C₁/2) = $Q^2$/(3C₁) = U₁/3. Wait, that's not matching the choices exactly. Let me recalculate: C₂ = κε₀A/(2d) = 3ε₀A/(2d). Compared to C₁ = ε₀A/d, we have C₂ = 3C₁/2. So U₂ = $Q^2$/(2C₂) = $Q^2$/(2 × 3C₁/2) = $Q^2$/(3C₁) = (1/3) × $Q^2$/C₁. But U₁ = $Q^2$/(2C₁), so U₂ = (1/3) × 2U₁ = 2U₁/3. Hmm, this means U₂/U₁ = 2/3, so energy decreases by factor of 3/2. Actually, let me be more careful: U₂ = $Q^2$/(2C₂) and U₁ = $Q^2$/(2C₁), so U₂/U₁ = C₁/C₂ = C₁/(3C₁/2) = 2/3. So energy becomes 2/3 of original, which means it decreases. The factor is 3/2 (since 1/(2/3) = 3/2). But this gives choice D, not B. Let me reconsider C₂: if separation doubles and dielectric is added: C₂ = κε₀A/(2d) = 3ε₀A/(2d) = (3/2)(ε₀A/d) = (3/2)C₁. Then U₂/U₁ = C₁/C₂ = C₁/((3/2)C₁) = 2/3. So energy decreases to 2/3, meaning it decreases by a factor of 3/2.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q405",
@@ -10140,7 +10212,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "This creates two capacitors in series: one with dielectric of thickness fd (capacitance κε₀A/(fd)) and one with air gap of thickness (1-f)d (capacitance ε₀A/((1-f)d)). For series: 1/C = 1/C₁ + 1/C₂ = fd/(κε₀A) + (1-f)d/(ε₀A) = d/(ε₀A)[f/κ + (1-f)]. Therefore C = ε₀A/[d(f/κ + (1-f))]. Choice A represents parallel combination. Choice C has κ in wrong place. Choice D has the dielectric and air contributions swapped.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q406",
@@ -10308,7 +10381,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "In series circuits, current is the same through all components because there's only one path. Students often confuse this with voltage, which does vary across resistors in series.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q414",
@@ -10392,7 +10466,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "Kirchhoff's current law (KCL) is based on conservation of charge at junctions. Option B describes the voltage law, while C and D are incorrect statements.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q418",
@@ -10518,7 +10593,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Resistance R = ρL/A. When length doubles and radius doubles, area becomes 4 times larger (A = π$r^2$). New resistance = ρ(2L)/(4A) = R/2. Students often forget area depends on $r^2$ (choosing B) or think resistance doubles with length without considering area (choosing C).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='100' x2='290' y2='100' stroke='#ef4444' stroke-width='3'/><text x='285' y='92' fill='#ef4444' font-size='11' font-weight='700'>line charge λ</text><ellipse cx='160' cy='100' rx='30' ry='60' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='40' x2='190' y2='40' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='160' x2='190' y2='160' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='160' y1='100' x2='200' y2='100' stroke='#64748b' stroke-width='1'/><text x='180' y='95' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='160' y='185' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian cylinder (length L)</text></svg>"
   },
   {
     "id": "physc_u10_q424",
@@ -10560,7 +10636,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Current through circuit is I = EMF/(r + R) = 12V/(2Ω + 4Ω) = 2A. Terminal voltage is EMF - Ir = 12V - (2A)(2Ω) = 8V. Students often confuse terminal voltage with EMF (choice D), use wrong current calculation (choice B), or calculate voltage drop across external resistor thinking it's terminal voltage (choice C based on wrong reasoning).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q426",
@@ -10581,7 +10658,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Total resistance is 2 + 4 + 6 = 12Ω. Current is I = 24V/12Ω = 2A. Voltage across 4Ω resistor is V = IR = 2A × 4Ω = 8V. Students might use voltage divider incorrectly (choosing values based on proportions without proper calculation) or think voltage splits equally (choosing 8V for wrong reasons).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q427",
@@ -10602,7 +10680,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "In parallel circuits, all resistors have the same voltage (12V). Power P = $V^2$/R, so smaller resistance dissipates more power. P₄ = 144/4 = 36W, P₆ = 144/6 = 24W, P₁₂ = 144/12 = 12W. The 4Ω resistor dissipates most power. Students often think larger resistance dissipates more power (choice B) or that power is equal in parallel (choice D).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='170' x2='290' y2='170' stroke='#64748b' stroke-width='2'/><line x1='30' y1='170' x2='30' y2='40' stroke='#64748b' stroke-width='2'/><line x1='30' y1='40' x2='80' y2='40' stroke='#64748b' stroke-width='2'/><line x1='80' y1='35' x2='80' y2='45' stroke='#64748b' stroke-width='3'/><line x1='88' y1='30' x2='88' y2='50' stroke='#64748b' stroke-width='3'/><text x='75' y='25' fill='#64748b' font-size='11' font-weight='600'>ε</text><line x1='88' y1='40' x2='290' y2='40' stroke='#64748b' stroke-width='2'/><line x1='150' y1='40' x2='150' y2='90' stroke='#64748b' stroke-width='2'/><rect x='130' y='90' width='40' height='18' fill='none' stroke='#ef4444' stroke-width='2'/><text x='150' y='103' text-anchor='middle' fill='#ef4444' font-size='12' font-weight='700'>R₁</text><line x1='150' y1='108' x2='150' y2='170' stroke='#64748b' stroke-width='2'/><line x1='240' y1='40' x2='240' y2='90' stroke='#64748b' stroke-width='2'/><rect x='220' y='90' width='40' height='18' fill='none' stroke='#3b82f6' stroke-width='2'/><text x='240' y='103' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='700'>R₂</text><line x1='240' y1='108' x2='240' y2='170' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q428",
@@ -10623,7 +10702,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Using Kirchhoff's current law at the junction: current into junction equals current out. If I₁ = 3A and I₂ = 2A, and current flows from loop 1 to loop 2, then 1A flows from loop 1 to loop 2. Students often add currents incorrectly (choice C), get direction wrong (choice B), or think more information is needed (choice D).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q429",
@@ -10644,7 +10724,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "At t = 0, the uncharged capacitor acts like a short circuit (no voltage drop across it), so all battery voltage appears across the resistor. Initial current is I₀ = V/R. Students often think current is zero initially because capacitor is uncharged (choice A), or think capacitance affects initial current (choice D), or use some average value (choice C).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q430",
@@ -10770,7 +10851,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Initially: I₁ = V/(4R) = 0.5A, so V = 2R. After removing one resistor: I₂ = V/(3R) = 2R/(3R) = 2/3 $\\approx$ 0.67A. Students often think current decreases when resistance is removed (choice C), think it increases by 1/4 (choice B), or think removing components doesn't affect current (choice D).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q436",
@@ -10791,7 +10873,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "In parallel, voltage is same across both resistors. V = I₆Ω × 6Ω = 2A × 6Ω = 12V. Current through 12Ω resistor: I₁₂Ω = 12V/12Ω = 1A. Total current = 2A + 1A = 3A. Students might think currents are equal (choice B), forget to add currents (choice A), or double the given current (choice D).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='170' x2='290' y2='170' stroke='#64748b' stroke-width='2'/><line x1='30' y1='170' x2='30' y2='40' stroke='#64748b' stroke-width='2'/><line x1='30' y1='40' x2='80' y2='40' stroke='#64748b' stroke-width='2'/><line x1='80' y1='35' x2='80' y2='45' stroke='#64748b' stroke-width='3'/><line x1='88' y1='30' x2='88' y2='50' stroke='#64748b' stroke-width='3'/><text x='75' y='25' fill='#64748b' font-size='11' font-weight='600'>ε</text><line x1='88' y1='40' x2='290' y2='40' stroke='#64748b' stroke-width='2'/><line x1='150' y1='40' x2='150' y2='90' stroke='#64748b' stroke-width='2'/><rect x='130' y='90' width='40' height='18' fill='none' stroke='#ef4444' stroke-width='2'/><text x='150' y='103' text-anchor='middle' fill='#ef4444' font-size='12' font-weight='700'>R₁</text><line x1='150' y1='108' x2='150' y2='170' stroke='#64748b' stroke-width='2'/><line x1='240' y1='40' x2='240' y2='90' stroke='#64748b' stroke-width='2'/><rect x='220' y='90' width='40' height='18' fill='none' stroke='#3b82f6' stroke-width='2'/><text x='240' y='103' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='700'>R₂</text><line x1='240' y1='108' x2='240' y2='170' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q437",
@@ -10917,7 +11000,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Power in external resistor P = $I^2$R = [ε/(R+r)]²R. Taking derivative and setting to zero gives maximum at R = r (impedance matching). Students often choose A) thinking more current means more power, missing that P = $I^2$R goes to zero as R→0. Choice C) comes from confusing maximum power transfer with maximum efficiency conditions.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q443",
@@ -10959,7 +11043,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "In series circuits, current is same through all resistors, so P ∝ R. Total resistance = 2+4+6 = 12 Ω. Power fraction = 4/12 = 1/3. Students often choose B) 1/4 by incorrectly thinking power is inversely proportional to resistance (confusing with parallel circuits) or thinking it's simply the fraction of resistors (1 out of 4 total ohms per resistor).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q445",
@@ -10980,7 +11065,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "In parallel circuits, voltage is same across all resistors, so P = $V^2$/R. Lower resistance means higher power. P₃ = 1$8^2$/3 = 108 W, P₆ = 1$8^2$/6 = 54 W, P₉ = 1$8^2$/9 = 36 W. Students often choose C) thinking higher resistance means more power (confusing series and parallel behavior) or D) thinking equal voltage means equal power.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='170' x2='290' y2='170' stroke='#64748b' stroke-width='2'/><line x1='30' y1='170' x2='30' y2='40' stroke='#64748b' stroke-width='2'/><line x1='30' y1='40' x2='80' y2='40' stroke='#64748b' stroke-width='2'/><line x1='80' y1='35' x2='80' y2='45' stroke='#64748b' stroke-width='3'/><line x1='88' y1='30' x2='88' y2='50' stroke='#64748b' stroke-width='3'/><text x='75' y='25' fill='#64748b' font-size='11' font-weight='600'>ε</text><line x1='88' y1='40' x2='290' y2='40' stroke='#64748b' stroke-width='2'/><line x1='150' y1='40' x2='150' y2='90' stroke='#64748b' stroke-width='2'/><rect x='130' y='90' width='40' height='18' fill='none' stroke='#ef4444' stroke-width='2'/><text x='150' y='103' text-anchor='middle' fill='#ef4444' font-size='12' font-weight='700'>R₁</text><line x1='150' y1='108' x2='150' y2='170' stroke='#64748b' stroke-width='2'/><line x1='240' y1='40' x2='240' y2='90' stroke='#64748b' stroke-width='2'/><rect x='220' y='90' width='40' height='18' fill='none' stroke='#3b82f6' stroke-width='2'/><text x='240' y='103' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='700'>R₂</text><line x1='240' y1='108' x2='240' y2='170' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q446",
@@ -11022,7 +11108,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Two identical resistors R in parallel give R/2. This parallel combination in series with the third resistor R gives R/2 + R = 3R/2. Common errors include adding all three directly (3R), finding the parallel combination of all three (R/3), or incorrectly calculating the series combination as 2R.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='170' x2='290' y2='170' stroke='#64748b' stroke-width='2'/><line x1='30' y1='170' x2='30' y2='40' stroke='#64748b' stroke-width='2'/><line x1='30' y1='40' x2='80' y2='40' stroke='#64748b' stroke-width='2'/><line x1='80' y1='35' x2='80' y2='45' stroke='#64748b' stroke-width='3'/><line x1='88' y1='30' x2='88' y2='50' stroke='#64748b' stroke-width='3'/><text x='75' y='25' fill='#64748b' font-size='11' font-weight='600'>ε</text><line x1='88' y1='40' x2='290' y2='40' stroke='#64748b' stroke-width='2'/><line x1='150' y1='40' x2='150' y2='90' stroke='#64748b' stroke-width='2'/><rect x='130' y='90' width='40' height='18' fill='none' stroke='#ef4444' stroke-width='2'/><text x='150' y='103' text-anchor='middle' fill='#ef4444' font-size='12' font-weight='700'>R₁</text><line x1='150' y1='108' x2='150' y2='170' stroke='#64748b' stroke-width='2'/><line x1='240' y1='40' x2='240' y2='90' stroke='#64748b' stroke-width='2'/><rect x='220' y='90' width='40' height='18' fill='none' stroke='#3b82f6' stroke-width='2'/><text x='240' y='103' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='700'>R₂</text><line x1='240' y1='108' x2='240' y2='170' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q448",
@@ -11043,7 +11130,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "The power in external resistor is P = $I^2$R = (ε/(R+r))²R = ε²R/(R+r)². Taking dP/dR = 0 gives maximum at R = r. This is the maximum power transfer theorem. Students often think maximum power occurs at minimum resistance (R = 0) or confuse this with maximum current condition.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q449",
@@ -11064,7 +11152,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "In parallel, all resistors have the same voltage (12V). Power P = $V^2$/R, so P₁ = 144/2 = 72W, P₂ = 144/4 = 36W, P₃ = 144/6 = 24W. The smallest resistor dissipates the most power in parallel. Students often think the largest resistor dissipates most power, confusing series and parallel behavior.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='170' x2='290' y2='170' stroke='#64748b' stroke-width='2'/><line x1='30' y1='170' x2='30' y2='40' stroke='#64748b' stroke-width='2'/><line x1='30' y1='40' x2='80' y2='40' stroke='#64748b' stroke-width='2'/><line x1='80' y1='35' x2='80' y2='45' stroke='#64748b' stroke-width='3'/><line x1='88' y1='30' x2='88' y2='50' stroke='#64748b' stroke-width='3'/><text x='75' y='25' fill='#64748b' font-size='11' font-weight='600'>ε</text><line x1='88' y1='40' x2='290' y2='40' stroke='#64748b' stroke-width='2'/><line x1='150' y1='40' x2='150' y2='90' stroke='#64748b' stroke-width='2'/><rect x='130' y='90' width='40' height='18' fill='none' stroke='#ef4444' stroke-width='2'/><text x='150' y='103' text-anchor='middle' fill='#ef4444' font-size='12' font-weight='700'>R₁</text><line x1='150' y1='108' x2='150' y2='170' stroke='#64748b' stroke-width='2'/><line x1='240' y1='40' x2='240' y2='90' stroke='#64748b' stroke-width='2'/><rect x='220' y='90' width='40' height='18' fill='none' stroke='#3b82f6' stroke-width='2'/><text x='240' y='103' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='700'>R₂</text><line x1='240' y1='108' x2='240' y2='170' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q450",
@@ -11085,7 +11174,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Current I = ε/(R + r) = 12/(4 + 2) = 2A. Terminal voltage V = ε - Ir = 12 - (2)(2) = 8V. Students often forget about voltage drop across internal resistance and answer 12V, or incorrectly calculate the voltage division as 6V or 4V.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q451",
@@ -11106,7 +11196,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Kirchhoff's current law states that current in equals current out at any junction (conservation of charge). If current in = 1.5 × current out, KCL is violated. KVL could still be satisfied around loops. Students might think this violates both laws or is somehow physically possible.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q454",
@@ -11169,7 +11260,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "At t = 0⁺, the capacitor acts as a short circuit (no voltage drop), so all battery voltage appears across the resistor. The initial current is V₀/R. Students often think the voltage divides equally or that no voltage appears across the resistor initially.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u11_q457",
@@ -11190,7 +11282,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "Using the right-hand rule for F = qv × B, with v right and B into the page, the force points upward. Common mistakes include confusing the direction or forgetting that force is perpendicular to both v and B.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><g fill='#3b82f6' font-size='13' font-weight='700' text-anchor='middle'><text x='40' y='40'>•</text><text x='90' y='40'>•</text><text x='140' y='40'>•</text><text x='190' y='40'>•</text><text x='240' y='40'>•</text><text x='40' y='90'>•</text><text x='240' y='90'>•</text><text x='40' y='140'>•</text><text x='240' y='140'>•</text><text x='40' y='190'>•</text><text x='90' y='190'>•</text><text x='140' y='190'>•</text><text x='190' y='190'>•</text><text x='240' y='190'>•</text></g><text x='30' y='25' fill='#3b82f6' font-size='11' font-weight='600'>B (out of page)</text><circle cx='140' cy='110' r='55' fill='none' stroke='#ef4444' stroke-width='2.5' stroke-dasharray='4 4'/><circle cx='195' cy='110' r='8' fill='#ef4444'/><text x='195' y='115' text-anchor='middle' fill='white' font-size='11' font-weight='700'>+q</text><line x1='195' y1='110' x2='195' y2='80' stroke='#ef4444' stroke-width='2'/><polygon points='195,72 191,82 199,82' fill='#ef4444'/><text x='205' y='85' fill='#ef4444' font-size='11' font-weight='600'>v</text><text x='140' y='115' text-anchor='middle' fill='#64748b' font-size='11'>radius r</text></svg>"
   },
   {
     "id": "physc_u11_q458",
@@ -11211,7 +11304,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "The magnetic force F = IL × B is zero when the current direction is parallel to the magnetic field because sin(0°) = 0. Students often think the force is zero when perpendicular, which actually gives maximum force.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q459",
@@ -11232,7 +11326,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "Maximum torque occurs when the magnetic dipole moment is perpendicular to B, which happens when the loop plane is parallel to B. Students often confuse this with the zero torque condition when the loop plane is perpendicular to B.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q460",
@@ -11253,7 +11348,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "The Biot-Savart law shows dB ∝ $I/r^2$. Students often confuse this with Coulomb's law relationships or think it follows a 1/r dependence like some other field laws.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q461",
@@ -11295,7 +11391,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "Current in a straight wire creates concentric circular magnetic field lines around the wire. Students might think the field lines are parallel to current (like electric field lines parallel to charged rods) or radial like point charges.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q463",
@@ -11316,7 +11413,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "Inside a long solenoid, the magnetic field is uniform and parallel to the solenoid axis. Students often think it's perpendicular to the axis (confusing with field around single loops) or that it varies in strength inside.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q464",
@@ -11358,7 +11456,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "Using Biot-Savart law, all current elements in a circular loop contribute magnetic field perpendicular to the loop plane at the center. Students might think it's in the plane (confusing with field direction along the loop) or zero due to symmetry.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q466",
@@ -11379,7 +11478,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "For a solenoid, B = $\\mu$₀nI where n is turns per unit length and I is current. Students often think it depends on total turns rather than turn density, or forget one of the factors entirely.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q467",
@@ -11400,7 +11500,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "F = qvB sin θ = (1.6 $\\times$ 10⁻¹⁹)(2.0 $\\times$ 10⁶)(0.50)(sin 30°) = 8.0 $\\times$ 10⁻¹⁴ N. Choice B uses sin 90°, choice C uses cos 30°, choice A doubles the correct answer.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><g fill='#3b82f6' font-size='13' font-weight='700' text-anchor='middle'><text x='40' y='40'>•</text><text x='90' y='40'>•</text><text x='140' y='40'>•</text><text x='190' y='40'>•</text><text x='240' y='40'>•</text><text x='40' y='90'>•</text><text x='240' y='90'>•</text><text x='40' y='140'>•</text><text x='240' y='140'>•</text><text x='40' y='190'>•</text><text x='90' y='190'>•</text><text x='140' y='190'>•</text><text x='190' y='190'>•</text><text x='240' y='190'>•</text></g><text x='30' y='25' fill='#3b82f6' font-size='11' font-weight='600'>B (out of page)</text><circle cx='140' cy='110' r='55' fill='none' stroke='#ef4444' stroke-width='2.5' stroke-dasharray='4 4'/><circle cx='195' cy='110' r='8' fill='#ef4444'/><text x='195' y='115' text-anchor='middle' fill='white' font-size='11' font-weight='700'>+q</text><line x1='195' y1='110' x2='195' y2='80' stroke='#ef4444' stroke-width='2'/><polygon points='195,72 191,82 199,82' fill='#ef4444'/><text x='205' y='85' fill='#ef4444' font-size='11' font-weight='600'>v</text><text x='140' y='115' text-anchor='middle' fill='#64748b' font-size='11'>radius r</text></svg>"
   },
   {
     "id": "physc_u11_q468",
@@ -11421,7 +11522,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "The Biot-Savart law shows dB ∝ 1/$r^2$, so doubling the distance reduces the field by a factor of 4. Choice B confuses with 1/r dependence, choices C and D show misunderstanding of inverse relationships.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q469",
@@ -11442,7 +11544,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "Using Ampere's law: B = $\\mu$₀I/(2πr) = (4π $\\times$ 10⁻⁷)(8.0)/(2π × 0.040) = 4.0 $\\times$ 10⁻⁵ T. Choice B omits the factor of 2, choice C uses diameter instead of radius, choice A doubles choice C.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q470",
@@ -11463,7 +11566,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "With opposite currents, the magnetic field vectors at the midpoint both point in the same direction (using right-hand rule), so they add. Choice B would be correct for same-direction currents, choices C and D misunderstand field direction.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q471",
@@ -11484,7 +11588,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "B = $\\mu$₀nI where n = N/L = 500/0.25 = 2000 turns/m. B = (4π $\\times$ 10⁻⁷)(2000)(2.0) = 5.0 $\\times$ 10⁻³ T. Choice B doubles this, choice C uses wrong length calculation, choice A uses total turns instead of turns per unit length.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q472",
@@ -11505,7 +11610,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "For circular motion: qvB = m$v^2$/r, so v = qBr/m = (1.6 $\\times$ 10⁻¹⁹)(1.5 $\\times$ 10⁻³)(0.020)/(9.1 $\\times$ 10⁻³¹) = 5.3 $\\times$ 10⁶ m/s. Choice B doubles the result, choice A halves it, choice D uses incorrect mass.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><g fill='#3b82f6' font-size='13' font-weight='700' text-anchor='middle'><text x='40' y='40'>•</text><text x='90' y='40'>•</text><text x='140' y='40'>•</text><text x='190' y='40'>•</text><text x='240' y='40'>•</text><text x='40' y='90'>•</text><text x='240' y='90'>•</text><text x='40' y='140'>•</text><text x='240' y='140'>•</text><text x='40' y='190'>•</text><text x='90' y='190'>•</text><text x='140' y='190'>•</text><text x='190' y='190'>•</text><text x='240' y='190'>•</text></g><text x='30' y='25' fill='#3b82f6' font-size='11' font-weight='600'>B (out of page)</text><circle cx='140' cy='110' r='55' fill='none' stroke='#ef4444' stroke-width='2.5' stroke-dasharray='4 4'/><circle cx='195' cy='110' r='8' fill='#ef4444'/><text x='195' y='115' text-anchor='middle' fill='white' font-size='11' font-weight='700'>+q</text><line x1='195' y1='110' x2='195' y2='80' stroke='#ef4444' stroke-width='2'/><polygon points='195,72 191,82 199,82' fill='#ef4444'/><text x='205' y='85' fill='#ef4444' font-size='11' font-weight='600'>v</text><text x='140' y='115' text-anchor='middle' fill='#64748b' font-size='11'>radius r</text></svg>"
   },
   {
     "id": "physc_u11_q473",
@@ -11547,7 +11653,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "For a finite straight wire: B = ($\\mu$₀I/4πr) × [L/√($r^2$ + (L/2)²)] = (10⁻⁷ × 6.0/0.30) × [0.50/√(0.09 + 0.0625)] $\\approx$ 6.7 $\\times$ 10⁻⁶ T. Other choices use approximations for infinite wire or incorrect geometry.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q475",
@@ -11589,7 +11696,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "B = $\\mu$₀nI, so if n → n/2 and I → 2I, then B → $\\mu$₀(n/2)(2I) = $\\mu$₀nI, unchanged. Choice B considers only current doubling, choice A considers only turn density halving, choice D multiplies both effects incorrectly.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q477",
@@ -11610,7 +11718,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "A helical path results from circular motion (perpendicular component) combined with constant velocity along field lines (parallel component). Choice A gives straight-line motion, choice B gives circular motion, choice D is too specific about angle.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><g fill='#3b82f6' font-size='13' font-weight='700' text-anchor='middle'><text x='40' y='40'>•</text><text x='90' y='40'>•</text><text x='140' y='40'>•</text><text x='190' y='40'>•</text><text x='240' y='40'>•</text><text x='40' y='90'>•</text><text x='240' y='90'>•</text><text x='40' y='140'>•</text><text x='240' y='140'>•</text><text x='40' y='190'>•</text><text x='90' y='190'>•</text><text x='140' y='190'>•</text><text x='190' y='190'>•</text><text x='240' y='190'>•</text></g><text x='30' y='25' fill='#3b82f6' font-size='11' font-weight='600'>B (out of page)</text><circle cx='140' cy='110' r='55' fill='none' stroke='#ef4444' stroke-width='2.5' stroke-dasharray='4 4'/><circle cx='195' cy='110' r='8' fill='#ef4444'/><text x='195' y='115' text-anchor='middle' fill='white' font-size='11' font-weight='700'>+q</text><line x1='195' y1='110' x2='195' y2='80' stroke='#ef4444' stroke-width='2'/><polygon points='195,72 191,82 199,82' fill='#ef4444'/><text x='205' y='85' fill='#ef4444' font-size='11' font-weight='600'>v</text><text x='140' y='115' text-anchor='middle' fill='#64748b' font-size='11'>radius r</text></svg>"
   },
   {
     "id": "physc_u11_q478",
@@ -11631,7 +11740,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Using F = IL × B and right-hand rule: current east, field north gives force downward. |F|/L = IB = (8.0)(5.0 $\\times$ 10⁻⁵) = 4.0 $\\times$ 10⁻⁴ N/m. Choice A has wrong direction, choices C and D confuse force direction with field or current direction.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q479",
@@ -11652,7 +11762,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Torque τ = NIAB sin θ where θ is angle between area vector and field. Zero torque occurs when sin θ = 0, i.e., when the loop plane is parallel to B (area vector parallel or antiparallel to field). Choice B gives maximum torque, choice A gives intermediate torque, choice D is incorrect.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q480",
@@ -11694,7 +11805,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "For a toroidal coil: B = $\\mu$₀NI/(2πr) = (4π $\\times$ 10⁻⁷ × 200 × 4.0)/(2π × 0.10) = 1.6 $\\times$ 10⁻³ T. Choice B omits the factor of 2, choice A uses incorrect formula for straight solenoid, choice D incorrectly assumes field cancellation.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q482",
@@ -11736,7 +11848,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "The radius of circular motion is r = mv/(qB). When kinetic energy doubles, KE = $\\frac{1}{2}$m$v^2$ doubles, so v increases by √2. Since r ∝ v, the radius increases by √2. Choice A assumes direct proportionality to energy. Choice C incorrectly thinks energy doesn't affect radius. Choice D confuses with inverse relationship.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><g fill='#3b82f6' font-size='13' font-weight='700' text-anchor='middle'><text x='40' y='40'>•</text><text x='90' y='40'>•</text><text x='140' y='40'>•</text><text x='190' y='40'>•</text><text x='240' y='40'>•</text><text x='40' y='90'>•</text><text x='240' y='90'>•</text><text x='40' y='140'>•</text><text x='240' y='140'>•</text><text x='40' y='190'>•</text><text x='90' y='190'>•</text><text x='140' y='190'>•</text><text x='190' y='190'>•</text><text x='240' y='190'>•</text></g><text x='30' y='25' fill='#3b82f6' font-size='11' font-weight='600'>B (out of page)</text><circle cx='140' cy='110' r='55' fill='none' stroke='#ef4444' stroke-width='2.5' stroke-dasharray='4 4'/><circle cx='195' cy='110' r='8' fill='#ef4444'/><text x='195' y='115' text-anchor='middle' fill='white' font-size='11' font-weight='700'>+q</text><line x1='195' y1='110' x2='195' y2='80' stroke='#ef4444' stroke-width='2'/><polygon points='195,72 191,82 199,82' fill='#ef4444'/><text x='205' y='85' fill='#ef4444' font-size='11' font-weight='600'>v</text><text x='140' y='115' text-anchor='middle' fill='#64748b' font-size='11'>radius r</text></svg>"
   },
   {
     "id": "physc_u11_q484",
@@ -11757,7 +11870,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "The magnetic force on a current-carrying wire is F = BIL sin(θ), where θ is the angle between current direction and magnetic field. Here θ = 30°, so F = BIL sin(30°). Choice A ignores the angle dependence. Choice C uses cosine instead of sine. Choice D incorrectly uses tangent.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q485",
@@ -11778,7 +11892,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Torque on a magnetic dipole is τ = $\\mu$ × B = $\\mu$B sin(θ), where θ is the angle between $\\mu$ and B. Maximum torque occurs when sin(θ) = 1, which happens at θ = 90°. Choice A and D give zero torque (sin(0°) = sin(180°) = 0). Choice B gives intermediate torque value.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q486",
@@ -11799,7 +11914,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "The Biot-Savart law states dB ∝ 1/$r^2$, so when distance doubles, the magnetic field decreases by a factor of $2^2$ = 4. Choice A confuses with inverse linear relationship. Choice C incorrectly applies inverse cube relationship. Choice D ignores distance dependence entirely.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q487",
@@ -11820,7 +11936,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Applying Ampere's law: ∮B·dl = $\\mu$₀I_enclosed. For circular symmetry, B(2πr) = $\\mu$₀I, so B = $\\mu$₀I/(2πr). Choice A has incorrect factor of 4π (confusion with point charges). Choice C has r in numerator instead of denominator. Choice D has $r^2$ dependence like electric field.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q488",
@@ -11841,7 +11958,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "Each wire creates equal magnitude magnetic fields at the midpoint, but in opposite directions due to right-hand rule. The fields cancel, resulting in zero net field. Choice B incorrectly thinks fields add constructively. Choice A ignores the second wire. Choice D assumes simple addition without considering directions.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q489",
@@ -11862,7 +11980,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "The magnetic field inside a solenoid is B = $\\mu$₀nI. When both n and I are doubled, B becomes $\\mu$₀(2n)(2I) = 4$\\mu$₀nI, which is four times the original field. Choice A considers only one doubling. Choice B has no physical basis. Choice D incorrectly assumes the changes cancel out.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q491",
@@ -11904,7 +12023,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "The Biot-Savart law shows that field direction depends on the cross product of current direction with position vector. At points on the z-axis, the field points along ±z depending only on current direction (right-hand rule). Magnitude affects field strength, not direction. Distance affects magnitude, not direction.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q493",
@@ -11967,7 +12087,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "For a finite solenoid, B = ($\\mu$₀nI/2)[cos(θ₁) - cos(θ₂)] where θ₁ and θ₂ are angles from the center to the ends. When L >> R, the angles approach 0° and 180°, so cos(θ₁) $\\approx$ 1 and cos(θ₂) $\\approx$ -1, giving B = $\\mu$₀nI. Choice B is for semi-infinite solenoid, C has wrong geometric factor, D is completely incorrect.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q497",
@@ -11988,7 +12109,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Inside both solenoids, the fields superpose. The outer solenoid creates field B₁ = $\\mu$₀nI. The inner solenoid creates field B₂ = $\\mu$₀(2n)I = 2$\\mu$₀nI. Since currents are in opposite directions, the fields oppose: B_net = B₁ - B₂ = $\\mu$₀nI - 2$\\mu$₀nI = -$\\mu$₀nI. Choice A ignores the inner solenoid, C and D have sign or magnitude errors.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q498",
@@ -12009,7 +12131,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "The force on each element is dF⃗ = IdL⃗×B⃗. Due to symmetry, the components tangent to the chord cancel, leaving only the component perpendicular to the chord. The net force equals the force that would act on a straight wire connecting the endpoints: F = BI(2R) = 2BIR. Choice B incorrectly uses the arc length πR, C has wrong geometric factor, D uses diameter instead of chord length.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q499",
@@ -12072,7 +12195,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "The magnetic field inside a long solenoid is B = $\\mu$₀nI. The magnetic flux through the circular loop is Φ = BA = $\\mu$₀nI(π$R^2$). By Faraday's law, the induced EMF is |ε| = |dΦ/dt| = $\\mu$₀nπ$R^2$|dI/dt| = $\\mu$₀nπ$R^2$k. The induced current is then I_induced = ε/r = $\\mu$₀nkπ$R^2$/r. Choice B incorrectly omits the π factor and uses R instead of $R^2$. Choice A incorrectly uses R instead of $R^2$. Choice D incorrectly omits both the π and $R^2$ factors, representing the misconception that the area doesn't matter for flux.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u12_q502",
@@ -12408,7 +12532,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 3,
     "explanation": "For a solenoid: L = $\\mu$₀$n^2$Al = $\\mu$₀($N^2$/l)A = (4π $\\times$ 10⁻⁷)(50$0^2$/0.20)(4.0 $\\times$ 10⁻⁴) = (4π $\\times$ 10⁻⁷)(1.25 $\\times$ 10⁶)(4.0 $\\times$ 10⁻⁴) = 6.3 $\\times$ 10⁻⁴ H. Choice B uses N instead of $N^2$. Choice C uses l instead of 1/l. Choice A uses N instead of $N^2$ and l instead of 1/l.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u12_q518",
@@ -12723,7 +12848,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Using Faraday's law: |ε| = N|dΦ/dt| = N × A × |dB/dt| = 500 × 0.01 × 2.0 = 10 V. Students often forget to multiply by the number of turns (choice A) or incorrectly multiply by additional factors (choices C and D).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u12_q533",
@@ -12786,7 +12912,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Self-inductance of a solenoid is L = $\\mu$₀$N^2$A/l = (4π $\\times$ 10⁻⁷)(1000)²(0.001)/(0.2) = 3.14 $\\times$ 10⁻³ H. Students often make errors in the formula or forget to square the number of turns.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u12_q536",
@@ -13374,7 +13501,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "At impact, v_x = v0 and v_y = v0*tan(60) = v0*sqrt(3). Using v_y^2 = 2gH (initial vertical velocity is zero): 3v0^2 = 2gH, so H = 3v0^2/(2g). Option B forgets the tan(60) factor and uses tan(45). Option C uses an incorrect factor. Option D results from a common algebra error.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='190' x2='300' y2='190' stroke='#64748b' stroke-width='1.5'/><path d='M 50,190 Q 165,40 280,190' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='50' cy='190' r='5' fill='#94a3b8'/><circle cx='280' cy='190' r='5' fill='#94a3b8'/><line x1='50' y1='190' x2='95' y2='150' stroke='#ef4444' stroke-width='2'/><polygon points='100,146 90,148 95,156' fill='#ef4444'/><text x='105' y='148' fill='#ef4444' font-size='12' font-weight='700'>v₀</text><path d='M 50,190 A 25,25 0 0 0 75,170' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='62' y='180' fill='#64748b' font-size='11'>θ</text><text x='165' y='205' text-anchor='middle' fill='#64748b' font-size='11'>Range R</text><line x1='165' y1='75' x2='165' y2='190' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='170' y='130' fill='#94a3b8' font-size='10'>max height</text></svg>"
   },
   {
     "id": "physc_u2_q565",
@@ -13458,7 +13586,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Once the block begins to slide, kinetic friction applies. Along the incline: ma = mg sinθ - $\\mu$k mg cosθ, giving a = g sinθ - $\\mu$k g cosθ. A common mistake is using μs (choice C), but static friction only applies up to the moment of slipping. Choice A neglects friction entirely. Choice D is a fabricated expression mixing both coefficients incorrectly.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u2_q569",
@@ -13584,7 +13713,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "The block begins to slide when tan(theta) = mu_s. At that instant, the friction transitions from static to kinetic. The net force is mg*sin(theta) - mu_k*mg*cos(theta), giving acceleration g(sin(theta) - mu_k*cos(theta)). Since mu_k < mu_s and at the critical angle sin(theta) = mu_s*cos(theta), this acceleration is positive: g*cos(theta)*(mu_s - mu_k) > 0. Choice A is wrong because that would only be true if kinetic friction equaled static friction. Choice C incorrectly uses mu_s for the sliding friction. Choice D gives only the friction deceleration term without the gravitational component.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u2_q575",
@@ -13605,7 +13735,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "At terminal velocity, drag equals weight: b*v_t^2 = mg, so v_t = sqrt(mg/b). If mass doubles and b stays the same, v_t_new = sqrt(2mg/b) = v_t * sqrt(2). Choice A assumes a linear drag relationship. Choice C confuses doubling mass with quadrupling velocity. Choice D would apply if drag were cubic in velocity.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u2_q576",
@@ -13668,7 +13799,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "For an Atwood machine, the net force is (2m - m)g = mg, and the total inertia is (2m + m) = 3m. Thus a = mg/(3m) = g/3. Choice A is a common error from dividing by 2m instead of 3m. Choice C uses the net force ratio 2m/(3m) incorrectly. Choice D would be free fall, ignoring the constraint of the string.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg' style='max-width:240px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='120' cy='40' r='22' fill='none' stroke='#64748b' stroke-width='2'/><circle cx='120' cy='40' r='4' fill='#64748b'/><line x1='98' y1='40' x2='80' y2='150' stroke='#64748b' stroke-width='1.5'/><line x1='142' y1='40' x2='160' y2='150' stroke='#64748b' stroke-width='1.5'/><rect x='60' y='150' width='40' height='35' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5'/><text x='80' y='173' text-anchor='middle' fill='white' font-size='12' font-weight='700'>m₁</text><rect x='140' y='150' width='40' height='45' fill='#ef4444' stroke='#991b1b' stroke-width='1.5'/><text x='160' y='178' text-anchor='middle' fill='white' font-size='12' font-weight='700'>m₂</text><line x1='105' y1='15' x2='135' y2='15' stroke='#64748b' stroke-width='3'/><line x1='110' y1='15' x2='110' y2='5' stroke='#64748b' stroke-width='1.5'/><line x1='130' y1='15' x2='130' y2='5' stroke='#64748b' stroke-width='1.5'/><line x1='120' y1='5' x2='120' y2='18' stroke='#64748b' stroke-width='1.5'/><text x='120' y='225' text-anchor='middle' fill='#64748b' font-size='10'>frictionless pulley</text></svg>"
   },
   {
     "id": "physc_u2_q579",
@@ -13920,7 +14052,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Using Newton's second law for rotation: net torque = I * alpha. The torque from the string is FR. The moment of inertia is (1/2)MR^2. So alpha = FR / ((1/2)MR^2) = 2F/(MR). Choice B forgets the factor of 2 from the moment of inertia. Choice C inverts the relationship and gets the reciprocal. Choice D has incorrect dimensions (it would have units of m/s^2 rather than rad/s^2).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u5_q594",
@@ -14256,7 +14389,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Inside a uniform solid sphere, only the mass enclosed within the radius r contributes to the gravitational field. The enclosed mass at r = R/2 is M_enc = M(r/R)^3 = M/8. The field is g = GM_enc/r^2 = G(M/8)/(R/2)^2 = G(M/8)/(R^2/4) = GM/(2R^2). Choice B incorrectly uses the full mass M at the surface formula. Choice D is a common error from using M_enc but forgetting to properly square the reduced radius. Choice C results from an inversion error in the calculation.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u8_q613",
@@ -14277,7 +14411,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "By Gauss's law, the total electric flux through a closed surface depends only on the enclosed charge: Phi = Q_enc / epsilon_0. The shape or size of the Gaussian surface does not matter. Choice B is a common misconception that flux depends on surface area. Choice C incorrectly assumes symmetry affects total flux (symmetry helps calculate the field, not the total flux). Choice D is wrong because the flux is independent of the surface shape.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u8_q614",
@@ -14319,7 +14454,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "At the midpoint, the third charge is equidistant from both charges Q. Each charge exerts a repulsive force of magnitude kQq/(d/2)^2 = 4kQq/d^2 on q, but these two forces point in opposite directions along the line joining the charges. By symmetry, they cancel exactly, giving a net force of zero. Students often forget to account for both forces or incorrectly assume the forces add rather than cancel.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u8_q616",
@@ -14340,7 +14476,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The enclosed charge is lambda*L. By Gauss's law, the flux is lambda*L/epsilon_0. For a cylindrical Gaussian surface, the flux through the curved surface is E*(2*pi*r*L) (the end caps contribute zero flux by symmetry since E is radial). Setting E*(2*pi*r*L) = lambda*L/epsilon_0 gives E = lambda/(2*pi*epsilon_0*r). Choice B incorrectly applies the point-charge formula with 1/r^2 dependence. Choice C fails to divide by the surface area properly. Choice D uses an incorrect geometric factor.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u8_q617",
@@ -14361,7 +14498,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "In electrostatic equilibrium, the electric field inside a conductor is zero. Drawing a Gaussian surface within the conducting material of the shell (between radii 2R and 3R), the net enclosed charge must be zero. Since the inner solid sphere has charge +Q, the inner surface of the shell must have charge -Q to make the total enclosed charge zero. By conservation of charge, the outer surface of the shell then has charge +Q. Choice A ignores the induction effect. Choice C incorrectly assumes the induced charge has the same sign. Choice D incorrectly scales by the radius ratio squared.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u8_q618",
@@ -14382,7 +14520,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Using Gauss's law, the enclosed charge is the integral of rho*dV = integral from 0 to r of (alpha*r')(4*pi*r'^2)dr' = 4*pi*alpha*(r^4/4) = pi*alpha*r^4. Setting this equal to epsilon_0 * E * 4*pi*r^2 gives E = alpha*r^2/(4*epsilon_0). Choice B uses 3 in the denominator, a common error from confusing with uniform charge density integration. Choice C incorrectly uses the full radius R as if evaluating outside the sphere. Choice D corresponds to a uniform charge density result.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u8_q619",
@@ -14403,7 +14542,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "By Gauss's law applied inside the conductor, the total induced charge on the inner surface is -Q, but since the point charge is off-center, the induced charge distributes non-uniformly on the inner surface to ensure E = 0 inside the conductor. However, the conductor shields the exterior: the field outside depends only on the total charge +Q on the outer surface, and by symmetry of the spherical outer surface, this charge distributes uniformly regardless of where the charge is inside. Choice B incorrectly assumes the outer surface is also non-uniform. Choice C reverses the correct distributions. Choice D assumes both are uniform, ignoring the off-center placement effect on the inner wall.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u8_q620",
@@ -14508,7 +14648,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "Since the capacitor is disconnected, the charge Q remains constant. Inserting the dielectric increases the capacitance to C' = KC. The stored energy U = Q^2/(2C) becomes Q^2/(2KC) = U/K, so energy decreases by a factor of 3. The voltage decreases to V/K, and since E = V/d, the electric field also decreases by a factor of 3. Choice A incorrectly assumes energy increases (confusing with the battery-connected case). Choice C makes the same error in the opposite direction. Choice D correctly identifies the energy decrease but incorrectly claims E stays the same, confusing the free charge staying constant with the field staying constant.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u10_q626",
@@ -14529,7 +14670,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "The time constant is RC = (200 x 10^3)(5 x 10^-6) = 1 s. The voltage across a charging capacitor is V(t) = EMF(1 - e^(-t/RC)). At t = RC, V = 10(1 - e^-1) = 10(1 - 0.368) = 6.3 V. A (3.7 V) is the voltage across the resistor at one time constant, a common confusion where students use the decaying exponential for the capacitor. B (5.0 V) assumes the voltage is simply half the battery voltage at one time constant. D (10.0 V) is the final steady-state voltage, not the voltage at one time constant.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q627",
@@ -14550,7 +14692,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "In a parallel circuit, both resistors have the same voltage V across them. Power dissipated is P = V^2/R. For resistor R: P1 = V^2/R. For resistor 2R: P2 = V^2/(2R). The ratio P1/P2 = (V^2/R)/(V^2/2R) = 2. So the ratio is 2:1. A (1:2) is a common error from students who incorrectly think larger resistance dissipates more power (confusing with series behavior where P = I^2 R). B (1:1) assumes equal power regardless of resistance. D (4:1) results from incorrectly squaring the resistance ratio.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='170' x2='290' y2='170' stroke='#64748b' stroke-width='2'/><line x1='30' y1='170' x2='30' y2='40' stroke='#64748b' stroke-width='2'/><line x1='30' y1='40' x2='80' y2='40' stroke='#64748b' stroke-width='2'/><line x1='80' y1='35' x2='80' y2='45' stroke='#64748b' stroke-width='3'/><line x1='88' y1='30' x2='88' y2='50' stroke='#64748b' stroke-width='3'/><text x='75' y='25' fill='#64748b' font-size='11' font-weight='600'>ε</text><line x1='88' y1='40' x2='290' y2='40' stroke='#64748b' stroke-width='2'/><line x1='150' y1='40' x2='150' y2='90' stroke='#64748b' stroke-width='2'/><rect x='130' y='90' width='40' height='18' fill='none' stroke='#ef4444' stroke-width='2'/><text x='150' y='103' text-anchor='middle' fill='#ef4444' font-size='12' font-weight='700'>R₁</text><line x1='150' y1='108' x2='150' y2='170' stroke='#64748b' stroke-width='2'/><line x1='240' y1='40' x2='240' y2='90' stroke='#64748b' stroke-width='2'/><rect x='220' y='90' width='40' height='18' fill='none' stroke='#3b82f6' stroke-width='2'/><text x='240' y='103' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='700'>R₂</text><line x1='240' y1='108' x2='240' y2='170' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q628",
@@ -14613,7 +14756,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "At steady state, no current flows through the capacitor branch. All current flows through the 2 kohm and 6 kohm resistors in series: I = 10/(2k + 6k) = 10/8000 = 1.25 mA. The voltage across the 6 kohm resistor (which is also across the entire parallel combination) is V = 1.25 mA * 6 kohm = 7.5 V. Since no current flows through the 3 kohm resistor (capacitor blocks DC at steady state), there is no voltage drop across it, so the full 7.5 V appears across the capacitor. Students commonly err by trying to include the 3 kohm in a parallel calculation with 6 kohm (choice C = 3.75 V), or by ignoring the series 2 kohm resistor and saying the capacitor charges to the full battery voltage (choice D).",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q631",
@@ -14655,7 +14799,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "With opposing polarities, the net EMF is 15 - 9 = 6 V. The total resistance is 1 + 2 + 3 = 6 ohms. Current I = 6/6 = 1 A. Current flows in the direction determined by the larger EMF (Battery B), meaning current flows into the positive terminal of Battery B, so Battery B is being charged. Students may think the larger battery is being charged (choice B), or may forget to include internal resistances in the total resistance (giving I = 6/3 = 2 A, not listed, or other errors leading to choice C or D). Choice C results from using only the larger EMF (15/3 = 5, not matching either — but some students make combined errors). Choice D comes from incorrectly adding the EMFs as 12V/5ohm.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u11_q633",
@@ -14676,7 +14821,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "The magnetic field inside an ideal solenoid is B = mu_0 * n * I, where n is the number of turns per unit length. Choice A is the field around a long straight wire (common confusion with Ampere's law applied to a different geometry). Choice C incorrectly uses total number of turns N instead of turns per unit length n, which is a frequent student error of confusing N and n. Choice D incorrectly introduces a factor of 2*pi, which students sometimes add by misapplying Ampere's law.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q634",
@@ -14697,7 +14843,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "For the proton to travel undeflected, the electric force must balance the magnetic force: qE = qvB, so E = vB. Choice B) v/B is a common error from inverting the relationship. Choice C) B/v confuses which quantity is in the numerator. Choice D) v^2 B introduces an extra factor of v, which would apply if students confused this with a kinetic energy expression.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><g fill='#3b82f6' font-size='13' font-weight='700' text-anchor='middle'><text x='40' y='40'>•</text><text x='90' y='40'>•</text><text x='140' y='40'>•</text><text x='190' y='40'>•</text><text x='240' y='40'>•</text><text x='40' y='90'>•</text><text x='240' y='90'>•</text><text x='40' y='140'>•</text><text x='240' y='140'>•</text><text x='40' y='190'>•</text><text x='90' y='190'>•</text><text x='140' y='190'>•</text><text x='190' y='190'>•</text><text x='240' y='190'>•</text></g><text x='30' y='25' fill='#3b82f6' font-size='11' font-weight='600'>B (out of page)</text><circle cx='140' cy='110' r='55' fill='none' stroke='#ef4444' stroke-width='2.5' stroke-dasharray='4 4'/><circle cx='195' cy='110' r='8' fill='#ef4444'/><text x='195' y='115' text-anchor='middle' fill='white' font-size='11' font-weight='700'>+q</text><line x1='195' y1='110' x2='195' y2='80' stroke='#ef4444' stroke-width='2'/><polygon points='195,72 191,82 199,82' fill='#ef4444'/><text x='205' y='85' fill='#ef4444' font-size='11' font-weight='600'>v</text><text x='140' y='115' text-anchor='middle' fill='#64748b' font-size='11'>radius r</text></svg>"
   },
   {
     "id": "physc_u11_q635",
@@ -14718,7 +14865,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Torque on a current loop is given by tau = mB sin(theta). At 30 degrees, tau_1 = mB sin(30) = mB(1/2). At 60 degrees, tau_2 = mB sin(60) = mB(sqrt(3)/2). The ratio tau_2/tau_1 = (sqrt(3)/2)/(1/2) = sqrt(3). Choice B) 2 is the error from thinking torque doubles when the angle doubles. Choice C) sqrt(3)/2 is from computing sin(60) alone without dividing by sin(30). Choice D) 3 comes from incorrectly squaring the ratio or confusing with a tangent relationship.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q636",
@@ -14739,7 +14887,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The magnetic field at the center of a circular loop is B = mu_0 I / (2R), which is inversely proportional to R. Doubling R gives B = mu_0 I / (2 * 2R) = B_0 / 2. Choice B) B_0/4 is the common error from assuming an inverse-square dependence (confusing with Coulomb's law or the field of a dipole at large distances). Choice C) 2B_0 incorrectly assumes direct proportionality. Choice D) B_0 incorrectly assumes the field is independent of radius.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q637",
@@ -14760,7 +14909,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The magnetic field inside a solenoid is B = mu_0 n I. For the first solenoid: B_1 = mu_0(500)(3) = 1500 mu_0. For the second: B_2 = mu_0(1000)(1.5) = 1500 mu_0. The ratio is 1:1. Choice B) 2:1 comes from only comparing the currents (3 A vs 1.5 A) and ignoring the turn density. Choice C) 1:2 comes from only comparing the turn densities. Choice D) 4:1 comes from squaring the current ratio.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q638",
@@ -14865,7 +15015,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "The current in an RL circuit is i(t) = (ε/R)(1 - e^(-Rt/L)). The maximum current is ε/R. Setting i = 0.5(ε/R): 0.5 = 1 - e^(-Rt/L), so e^(-Rt/L) = 0.5, giving t = (L/R) ln 2. Choice A gives a negative time, which is nonphysical. Choice C (L/(2R)) is a common error from confusing half the time constant with the time to reach half the current. Choice D inverts L/R to R/L, giving incorrect units.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u12_q644",
@@ -14991,7 +15142,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Self-inductance of a solenoid is L = mu0 * n^2 * l * A, where n is turns per unit length. Doubling the total turns from N to 2N while keeping length l the same doubles n, so L is proportional to n^2, making L four times as large. Choice B incorrectly assumes L is proportional to N rather than N^2. Choice C ignores the additional layer. Choice D confuses the scaling.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u12_q650",
@@ -15012,7 +15164,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The maximum current is I_max = V/R, and the maximum energy stored is U_max = (1/2)*L*I_max^2. When the current is 0.5*I_max, the energy stored is (1/2)*L*(0.5*I_max)^2 = 0.25*(1/2)*L*I_max^2 = 0.25*U_max. So 25% of the maximum energy is stored. Choice B incorrectly assumes energy scales linearly with current. Choice C confuses the energy fraction. Choice D squares again unnecessarily.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u12_q651",
@@ -15138,7 +15291,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The magnetic field inside a solenoid is B = mu0*n*I. The energy density is u = B^2/(2*mu0) = (mu0*n*I)^2/(2*mu0) = mu0*n^2*I^2/2. Choice B is missing the factor of 1/2. Choice C is missing one factor of n. Choice D has mu0 in the denominator instead of the numerator.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u12_q657",
@@ -15159,7 +15313,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "When the battery is disconnected, the inductor drives current through R1 and R2 in series (since the only path for current is through both resistors in the remaining loop). The time constant is L/(R1 + R2). Choice B ignores R2. Choice C ignores R1. Choice D corresponds to an incorrect parallel combination of resistances.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='170' x2='290' y2='170' stroke='#64748b' stroke-width='2'/><line x1='30' y1='170' x2='30' y2='40' stroke='#64748b' stroke-width='2'/><line x1='30' y1='40' x2='80' y2='40' stroke='#64748b' stroke-width='2'/><line x1='80' y1='35' x2='80' y2='45' stroke='#64748b' stroke-width='3'/><line x1='88' y1='30' x2='88' y2='50' stroke='#64748b' stroke-width='3'/><text x='75' y='25' fill='#64748b' font-size='11' font-weight='600'>ε</text><line x1='88' y1='40' x2='290' y2='40' stroke='#64748b' stroke-width='2'/><line x1='150' y1='40' x2='150' y2='90' stroke='#64748b' stroke-width='2'/><rect x='130' y='90' width='40' height='18' fill='none' stroke='#ef4444' stroke-width='2'/><text x='150' y='103' text-anchor='middle' fill='#ef4444' font-size='12' font-weight='700'>R₁</text><line x1='150' y1='108' x2='150' y2='170' stroke='#64748b' stroke-width='2'/><line x1='240' y1='40' x2='240' y2='90' stroke='#64748b' stroke-width='2'/><rect x='220' y='90' width='40' height='18' fill='none' stroke='#3b82f6' stroke-width='2'/><text x='240' y='103' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='700'>R₂</text><line x1='240' y1='108' x2='240' y2='170' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u12_q658",
@@ -15180,7 +15335,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "For a toroid, B = mu0*N*I/(2*pi*r). The flux through one turn is integral of B*h*dr from a to b = mu0*N*I*h*ln(b/a)/(2*pi). The total flux linkage is N times this, so L = N*Phi/I = mu0*N^2*h*ln(b/a)/(2*pi). Choice B uses a linear approximation instead of the logarithm. Choice C incorrectly uses the area pi*(b^2 - a^2). Choice D has N instead of N^2.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u12_q659",
@@ -15222,7 +15378,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The current is I(t) = (V/R)(1 - e^(-Rt/L)). Voltage across R is V_R = IR = V(1 - e^(-Rt/L)). Voltage across L is V_L = V*e^(-Rt/L). Setting V_R = V_L: 1 - e^(-Rt/L) = e^(-Rt/L), so 2*e^(-Rt/L) = 1, e^(-Rt/L) = 1/2, giving Rt/L = ln(2), so t = (L/R)*ln(2). Choice B is the time constant itself. Choice C gives a negative time. Choice D has R/L inverted.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u12_q661",
@@ -15411,7 +15568,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 2,
     "explanation": "At constant velocity, the engine force must balance the gravitational component along the incline: F = mg sin(theta) = (1000)(10)(0.1) = 1000 N. Power = Fv = (1000)(20) = 20000 W. Distractor A uses mg sin(theta) alone without multiplying by v. Distractor B forgets to include sin(theta) correctly or uses v/2. Distractor D uses mg*v without the sin(theta) factor.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='40,170 280,170 280,70' fill='#e2e8f0' stroke='#64748b' stroke-width='1.5'/><polygon points='200,93 240,93 240,118 200,118' fill='#3b82f6' stroke='#1e40af' stroke-width='1.5' transform='rotate(-22.6 220 105)'/><line x1='220' y1='105' x2='220' y2='160' stroke='#ef4444' stroke-width='2'/><polygon points='220,165 215,153 225,153' fill='#ef4444'/><text x='230' y='150' fill='#ef4444' font-size='11' font-weight='700'>mg</text><path d='M 80,170 A 30,30 0 0 0 110,148' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='102' y='162' fill='#64748b' font-size='12'>θ</text><text x='160' y='185' text-anchor='middle' fill='#64748b' font-size='11'>incline angle θ</text></svg>"
   },
   {
     "id": "physc_u3_q671",
@@ -15768,7 +15926,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "For rolling without slipping, applying Newton's second law for translation (Mg sin(theta) - f = Ma) and rotation (fR = I*alpha, with alpha = a/R), we get f = (2/5)Ma. Substituting: Mg sin(theta) - (2/5)Ma = Ma, so Mg sin(theta) = (7/5)Ma, giving a = (5/7)g sin(theta). Choice A is the acceleration if there were no friction (pure sliding), a common error where students ignore the rotational energy or torque. Choice C incorrectly uses only the rotational fraction rather than solving the coupled equations properly. Choice D results from an algebraic inversion error in the denominator.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u5_q690",
@@ -16020,7 +16179,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "The gravitational field produced by an infinite uniform sheet of surface mass density sigma is found by integrating the contributions from all mass elements using Gauss's law for gravity (the gravitational analog of Gauss's law in electrostatics). The flux integral over a Gaussian pillbox gives: 2g A = 4 pi G sigma A, so g = 2 pi G sigma, directed perpendicular to the sheet, uniform everywhere. Since the field is uniform (independent of distance from the sheet), every part of the sphere of mass M experiences the same gravitational field g = 2 pi G sigma. Therefore, the total force on the sphere is F = Mg = 2 pi G sigma M, independent of h. Choice A incorrectly assumes the field falls off as 1/h, treating the sheet like a point mass. Choice C assumes an inverse-square falloff. Choice D has an extra factor of 2 and incorrect distance dependence. The key insight is that the infinite sheet produces a uniform gravitational field (analogous to an infinite plane of charge), which requires integration or application of Gauss's law — a common AP trap where students expect distance dependence.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u8_q702",
@@ -16041,7 +16201,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "By Gauss's law, the total electric flux through a closed surface is equal to the enclosed charge divided by epsilon_0. Since the conducting sphere has charge +Q and both Gaussian surfaces (at radius r and 2r) fully enclose the sphere, the enclosed charge is +Q in both cases. Therefore the flux is Q/epsilon_0 regardless of the Gaussian surface radius. Common mistakes: choosing B (thinking flux scales with radius like the surface area effect on field) or C (thinking flux scales with surface area, confusing flux with field strength). The electric field does decrease with distance, but the larger surface area exactly compensates, keeping the total flux constant.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 220' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='140' cy='110' r='80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><circle cx='140' cy='110' r='8' fill='#ef4444'/><text x='140' y='114' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><line x1='140' y1='110' x2='220' y2='110' stroke='#64748b' stroke-width='1'/><text x='178' y='105' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='200' y='40' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian surface</text><line x1='140' y1='110' x2='196' y2='54' stroke='#3b82f6' stroke-width='1.5'/><polygon points='200,50 192,57 196,49' fill='#3b82f6'/><text x='220' y='180' text-anchor='middle' fill='#64748b' font-size='10'>radius r</text></svg>"
   },
   {
     "id": "physc_u10_q704",
@@ -16062,7 +16223,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The time constant is τ = RC = (4000)(50 $\\times$ 10⁻⁶) = 0.2 s. The voltage across the resistor during charging is V_R(t) = EMF × e^(-t/τ) = 12e^(-t/0.2). Setting V_R = 4 V: 4 = 12e^(-t/0.2), so e^(-t/0.2) = 1/3, giving -t/0.2 = -ln(3), thus t = 0.2 ln(3) s. Choice B (0.2 ln(2)) is wrong — it results from mistakenly setting the voltage equal to half the EMF (6 V) or confusing the equation. Choice C incorrectly divides by ln(3) instead of multiplying. Choice D (0.6 s = 3τ) is a common estimate students use for 'nearly fully charged' but does not correspond to V_R = 4 V.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u10_q705",
@@ -16104,7 +16266,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Using the Biot-Savart law, dB = (mu_0 I)/(4 pi) * (dl x r-hat)/R^2. For a semicircular arc, each element dl is perpendicular to the radial direction, so dB = (mu_0 I)/(4 pi R^2) dl. Integrating over the semicircle (length pi R): B = (mu_0 I)/(4 pi R^2) * pi R = mu_0 I/(4R). Choice B corresponds to a full circular loop (twice the correct answer). Choice C omits the pi from the arc length integration. Choice D incorrectly places an extra factor of pi.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q707",
@@ -16125,7 +16288,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "By Ampere's law, B(2 pi r) = mu_0 * integral of J(r') * 2 pi r' dr' from 0 to r. The enclosed current is integral of J_0 (r'/R)^2 * 2 pi r' dr' = 2 pi J_0/R^2 * integral of r'^3 dr' from 0 to r = 2 pi J_0 r^4/(4R^2). So B * 2 pi r = mu_0 * 2 pi J_0 r^4/(4R^2), giving B = mu_0 J_0 r^3/(4R^2). Choice B uses an incorrect exponent from confusing the power in J. Choice C treats J as uniform. Choice D uses 3 instead of 4 in the denominator, a common integration error.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='100' x2='290' y2='100' stroke='#ef4444' stroke-width='3'/><text x='285' y='92' fill='#ef4444' font-size='11' font-weight='700'>line charge λ</text><ellipse cx='160' cy='100' rx='30' ry='60' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='40' x2='190' y2='40' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='160' x2='190' y2='160' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='160' y1='100' x2='200' y2='100' stroke='#64748b' stroke-width='1'/><text x='180' y='95' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='160' y='185' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian cylinder (length L)</text></svg>"
   },
   {
     "id": "physc_u11_q708",
@@ -16146,7 +16310,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The net force on a magnetic dipole in a non-uniform field is F = grad(m dot B). With m = I pi a^2 in the z-direction and dB_z/dz = beta, F_z = m * dB_z/dz = pi a^2 I beta. Choice B incorrectly assumes no net force; that only applies to uniform fields. Choice C confuses torque-related expressions with force. Choice D incorrectly includes B_0 as a multiplicative factor.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q709",
@@ -16167,7 +16332,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Ampere's law for a solenoid gives B = mu_0 n I, where n is the local turn density. Since n varies as n_0(1 + x/L), the local field is B(x) = mu_0 n_0 I (1 + x/L). Choice B uses only the constant part, ignoring the spatial variation. Choice C drops the constant term. Choice D squares the density factor, which has no physical basis.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q710",
@@ -16188,7 +16354,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The force on a differential element is dF = I dx x-hat cross B_0(x/L) z-hat = -I B_0 (x/L) (x-hat cross z-hat) dx. Since x-hat cross z-hat = -y-hat, dF = I B_0 (x/L) y-hat dx. Integrating from 0 to L: F = I B_0/L * integral of x dx from 0 to L = I B_0/L * L^2/2 = I B_0 L/2 in the y-hat direction. Choice B uses the maximum field over the whole length instead of integrating. Choice C uses an incorrect power in integration. Choice D wrongly assumes cancellation.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q711",
@@ -16209,7 +16376,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The component v_z parallel to B is unaffected by the magnetic force, so the particle drifts along z at constant speed v_z. The period of circular motion in the xy-plane is T = 2 pi m/(qB). The pitch is the z-distance per revolution: p = v_z * T = 2 pi m v_z/(qB). Choice B incorrectly uses the perpendicular velocity component. Choice C uses the total speed. Choice D omits the factor of 2 pi.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u11_q712",
@@ -16251,7 +16419,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The torque on a dipole is tau = -mB sin(theta). For small angles, sin(theta) ~ theta, so tau = -mB theta. This is simple harmonic: I_rot * d^2(theta)/dt^2 = -mB theta, giving omega = sqrt(mB/I_rot). Choice B introduces a spurious factor of 2. Choice C gives the angular frequency without the square root (dimensionally incorrect for frequency). Choice D inverts B in the square root.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q714",
@@ -16272,7 +16441,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The self-inductance of a solenoid is L_ind = mu_0 N^2 A / L. The induced EMF is |EMF| = L_ind * |dI/dt| = (mu_0 N^2 A / L) * I_0 omega cos(omega t). Choice B uses N instead of N^2, forgetting that both flux linkage and field depend on N. Choice C takes the flux itself rather than its time derivative. Choice D uses sin instead of cos, which would be the flux, not its derivative.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u11_q715",
@@ -16293,7 +16463,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Inside a toroid at radius r, B = mu_0 N I / (2 pi r). For a rectangular cross-section of height h, the total flux is Phi = integral of B * h dr from a to b = mu_0 N I h / (2 pi) * integral of dr/r from a to b = mu_0 N I h ln(b/a) / (2 pi). Choice B replaces the logarithm with a linear factor, treating B as uniform. Choice C evaluates B only at r = a and multiplies by h without proper integration over r. Choice D uses area (b^2 - a^2) suggesting a circular rather than rectangular cross-section with incorrect integration.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u12_q716",
@@ -16356,7 +16527,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Inside the toroid, by Ampere's law, B = mu_0*N*I/(2*pi*r). The flux through one turn requires integrating over the rectangular cross section: Phi = integral from a to b of B * h * dr = (mu_0*N*I*h)/(2*pi) * integral from a to b of dr/r = (mu_0*N*I*h)/(2*pi) * ln(b/a). Then L = N*Phi/I = (mu_0*N^2*h)/(2*pi) * ln(b/a). Choice B approximates the integral using the average radius, which is incorrect — students sometimes replace integral of 1/r dr with (b-a)/r_avg. Choice C uses the inner radius instead of integrating, another common shortcut error. Choice D incorrectly uses an area-based approach with (b^2 - a^2), confusing the geometry with a circular cross-section calculation.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='40' y='60' width='240' height='60' fill='none' stroke='#64748b' stroke-width='1.5'/><g fill='#ef4444' font-size='13' font-weight='700' text-anchor='middle'><text x='65' y='75'>×</text><text x='90' y='75'>×</text><text x='115' y='75'>×</text><text x='140' y='75'>×</text><text x='165' y='75'>×</text><text x='190' y='75'>×</text><text x='215' y='75'>×</text><text x='240' y='75'>×</text><text x='265' y='75'>×</text></g><g fill='#ef4444' text-anchor='middle'><circle cx='65' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='65' cy='110' r='1.5'/><circle cx='90' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='90' cy='110' r='1.5'/><circle cx='115' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='115' cy='110' r='1.5'/><circle cx='140' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='140' cy='110' r='1.5'/><circle cx='165' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='165' cy='110' r='1.5'/><circle cx='190' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='190' cy='110' r='1.5'/><circle cx='215' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='215' cy='110' r='1.5'/><circle cx='240' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='240' cy='110' r='1.5'/><circle cx='265' cy='110' r='4' fill='none' stroke='#ef4444' stroke-width='1.5'/><circle cx='265' cy='110' r='1.5'/></g><line x1='100' y1='90' x2='220' y2='90' stroke='#3b82f6' stroke-width='2.5'/><polygon points='225,90 215,86 215,94' fill='#3b82f6'/><text x='245' y='94' fill='#3b82f6' font-size='12' font-weight='700'>B</text><text x='160' y='150' text-anchor='middle' fill='#64748b' font-size='11'>solenoid (cross-section, current into top, out of bottom)</text></svg>"
   },
   {
     "id": "physc_u1_q719",
@@ -16419,7 +16591,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Inside a uniform sphere, the gravitational field at distance r from the center is g(r) = GMr/R^3 directed inward. The force on mass m is F = -GMmr/R^3. Using the work-energy theorem, W = integral from R to 0 of F dr = integral from R to 0 of (-GMmr/R^3) dr = (-GMm/R^3)(r^2/2) evaluated from R to 0 = (-GMm/R^3)(0 - R^2/2) = GMm/(2R). Setting this equal to (1/2)mv^2 gives v = sqrt(GM/R). Choice B [sqrt(2GM/R)] is the escape speed from the surface, a common confusion where students use the exterior potential energy formula -GMm/R and set |U| = (1/2)mv^2. Choice C [sqrt(GM/(2R))] results from an error in the integration limits or dropping a factor. Choice D [sqrt(3GM/R)] can arise from incorrectly using a uniform-density potential formula with wrong coefficients.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u11_q727",
@@ -16440,7 +16613,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Using the Biot-Savart law, dB = (mu_0 I / 4pi) dl x r_hat / R^2. For a circular arc, dl = R d(theta) and |dl x r_hat| = R d(theta), so dB = (mu_0 I / 4pi) d(theta) / R. Integrating from 0 to pi: B = (mu_0 I / 4pi R)(pi) = mu_0 I / (4R). This is exactly half the field of a full circular loop (mu_0 I / 2R). Choice B is the common error of using the full-loop formula without accounting for the semicircular geometry. Choice C omits the factor of pi from the integration. Choice D incorrectly multiplies by an extra factor of pi.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u11_q728",
@@ -16461,7 +16635,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The enclosed current through a circle of radius r < a is I_enc = integral from 0 to r of J_0 (r'/a)^2 (2 pi r') dr' = (2 pi J_0 / a^2) integral from 0 to r of r'^3 dr' = (2 pi J_0 / a^2)(r^4 / 4) = pi J_0 r^4 / (2a^2). By Ampere's law, B(2 pi r) = mu_0 I_enc, so B = mu_0 J_0 r^3 / (4a^2). Choice B incorrectly uses 1/3 instead of 1/4, a common integration error (confusing r^3 integral with r^2). Choice C drops the r^2 dependence from the current density. Choice D uses 1/3 which would result from integrating r'^2 dr' instead of r'^3 dr'.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 200' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='100' x2='290' y2='100' stroke='#ef4444' stroke-width='3'/><text x='285' y='92' fill='#ef4444' font-size='11' font-weight='700'>line charge λ</text><ellipse cx='160' cy='100' rx='30' ry='60' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='40' x2='190' y2='40' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='130' y1='160' x2='190' y2='160' stroke='#3b82f6' stroke-width='2' stroke-dasharray='6 4'/><line x1='160' y1='100' x2='200' y2='100' stroke='#64748b' stroke-width='1'/><text x='180' y='95' text-anchor='middle' fill='#64748b' font-size='11'>r</text><text x='160' y='185' text-anchor='middle' fill='#3b82f6' font-size='11' font-weight='600'>Gaussian cylinder (length L)</text></svg>"
   },
   {
     "id": "physc_u12_q729",
@@ -16482,7 +16657,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "The maximum current is I_max = V/R. The current in an RL circuit is i(t) = (V/R)(1 - e^(-Rt/L)). At any instant, the battery supplies power P_battery = Vi. The resistor dissipates P_R = i^2 R, and the inductor stores energy at rate P_L = Li(di/dt). From the loop equation V = iR + L(di/dt), multiplying by i gives Vi = i^2 R + Li(di/dt), so P_L = Vi - i^2 R. When i = V/(2R), we get P_R = (V/(2R))^2 * R = V^2/(4R). Also P_L = V * V/(2R) - V^2/(4R) = V^2/(2R) - V^2/(4R) = V^2/(4R). Therefore P_R / P_L = 1. A common misconception (choice B) comes from confusing instantaneous power with average power or incorrectly computing L(di/dt) without using the circuit equation. Choice C arises from students who mistakenly think P_L = (1/2)Li^2 is the rate rather than the stored energy. Choice D can arise from algebraic errors in the power balance.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><rect x='30' y='130' width='260' height='2' fill='#64748b'/><line x1='30' y1='130' x2='30' y2='60' stroke='#64748b' stroke-width='2'/><line x1='290' y1='130' x2='290' y2='60' stroke='#64748b' stroke-width='2'/><line x1='30' y1='60' x2='110' y2='60' stroke='#64748b' stroke-width='2'/><line x1='110' y1='55' x2='110' y2='65' stroke='#64748b' stroke-width='3'/><line x1='118' y1='50' x2='118' y2='70' stroke='#64748b' stroke-width='3'/><text x='95' y='45' fill='#64748b' font-size='11'>ε</text><line x1='118' y1='60' x2='160' y2='60' stroke='#64748b' stroke-width='2'/><rect x='160' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='180' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₁</text><line x1='200' y1='60' x2='240' y2='60' stroke='#64748b' stroke-width='2'/><rect x='240' y='52' width='40' height='16' fill='none' stroke='#ef4444' stroke-width='2'/><text x='260' y='45' text-anchor='middle' fill='#ef4444' font-size='11' font-weight='700'>R₂</text><line x1='280' y1='60' x2='290' y2='60' stroke='#64748b' stroke-width='2'/></svg>"
   },
   {
     "id": "physc_u1_q730",
@@ -16545,7 +16721,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "At the highest point, the vertical velocity is zero so the speed is v0*cos(theta). The only acceleration is g directed downward, which at the top is entirely centripetal (perpendicular to the horizontal velocity). Using a_c = v^2/R, we get g = (v0*cos(theta))^2 / R, so R = v0^2 cos^2(theta) / g. Choice A uses the full launch speed instead of the speed at the top. Choice C incorrectly uses the vertical component. Choice D takes the square root prematurely, using v0*cos(theta) instead of squaring it.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 320 220' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='30' y1='190' x2='300' y2='190' stroke='#64748b' stroke-width='1.5'/><path d='M 50,190 Q 165,40 280,190' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='50' cy='190' r='5' fill='#94a3b8'/><circle cx='280' cy='190' r='5' fill='#94a3b8'/><line x1='50' y1='190' x2='95' y2='150' stroke='#ef4444' stroke-width='2'/><polygon points='100,146 90,148 95,156' fill='#ef4444'/><text x='105' y='148' fill='#ef4444' font-size='12' font-weight='700'>v₀</text><path d='M 50,190 A 25,25 0 0 0 75,170' fill='none' stroke='#64748b' stroke-width='1.5'/><text x='62' y='180' fill='#64748b' font-size='11'>θ</text><text x='165' y='205' text-anchor='middle' fill='#64748b' font-size='11'>Range R</text><line x1='165' y1='75' x2='165' y2='190' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='170' y='130' fill='#94a3b8' font-size='10'>max height</text></svg>"
   },
   {
     "id": "physc_u1_q733",
@@ -16671,7 +16848,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "Using the Biot-Savart law, dB = (mu_0 I)/(4 pi) * (dl x r-hat)/r^2. For a current element at position (x, 0, 0), the displacement to the field point (0, d, 0) is (-x, d, 0) with magnitude r = sqrt(x^2 + d^2). The cross product dl x r-hat gives magnitude d/(x^2 + d^2)^(1/2) dx. Integrating dB = (mu_0 I)/(4 pi) * d dx/(x^2 + d^2)^(3/2) from x = 0 to x = L yields B = (mu_0 I)/(4 pi d) * L/sqrt(L^2 + d^2). Choice B is wrong because it uses 2 pi instead of 4 pi, a common error from confusing the finite wire result with the infinite wire formula. Choice C gives the result for a semi-infinite wire (L -> infinity limit), which students often mistakenly apply. Choice D neglects the proper (3/2) power in the denominator during integration, effectively treating r^2 instead of r^3 in the integrand.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='140' y1='20' x2='140' y2='180' stroke='#ef4444' stroke-width='3'/><polygon points='140,15 134,25 146,25' fill='#ef4444'/><text x='150' y='30' fill='#ef4444' font-size='12' font-weight='700'>I</text><circle cx='140' cy='100' r='35' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='55' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><circle cx='140' cy='100' r='75' fill='none' stroke='#3b82f6' stroke-width='1.5' stroke-dasharray='4 3'/><polygon points='175,100 168,96 168,104' fill='#3b82f6'/><polygon points='105,100 112,96 112,104' fill='#3b82f6'/><polygon points='195,100 188,96 188,104' fill='#3b82f6'/><text x='220' y='105' fill='#3b82f6' font-size='11' font-weight='600'>B</text></svg>"
   },
   {
     "id": "physc_u3_q742",
@@ -16923,7 +17101,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "With the battery connected, V is constant. The capacitance changes from C_0 to KC_0. Energy U = (1/2)CV^2, so U_new = (1/2)(KC_0)V^2 = K * (1/2)C_0*V^2 = K * U_0. The energy increases by factor K. Choice B (1/K) is the common trap for students who confuse this with the case where the capacitor is disconnected from the battery (constant Q), in which case U = Q^2/(2C) and inserting the dielectric decreases energy by 1/K. Choices C and D represent errors in applying the dielectric constant to the wrong power.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q756",
@@ -16965,7 +17144,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "When the capacitor is disconnected, the charge Q remains constant. The initial capacitance is C_0 = epsilon_0 * A / d, and after inserting the dielectric, C = kappa * C_0 = 3C_0. The energy stored is U = Q^2 / (2C). So U_final / U_initial = C_0 / (kappa * C_0) = 1/kappa = 1/3. A common mistake (Choice A) is to use U = CV^2/2 and assume V stays constant (as if the battery were still connected), giving U_final/U_initial = kappa = 3. Choice C (9) comes from incorrectly squaring kappa. Choice D (1/9) comes from incorrectly squaring the ratio 1/kappa.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u9_q758",
@@ -17091,7 +17271,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 1,
     "explanation": "When disconnected, charge Q = CV0 is constant. Initial energy Ui = Q^2/(2C). When separation triples, capacitance becomes C/3. Final energy Uf = Q^2/(2C/3) = 3Q^2/(2C) = 3CV0^2/2. Change in energy = Uf - Ui = 3CV0^2/2 - CV0^2/2 = CV0^2. A common misconception is to hold voltage constant instead of charge (which would give a decrease in energy, as in choice A). Another error is computing the ratio incorrectly (choice D). The work done pulling the plates apart accounts for the energy increase.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u9_q766",
@@ -17112,7 +17293,8 @@ window.PHYSC_MCQ = [
     ],
     "answer": 0,
     "explanation": "In a dielectric-filled capacitor, the displacement field D is determined by the free charge only. By Gauss's law for D, D = Q/A (uniform between the plates). Since D = K(x) * epsilon_0 * E(x), we get E(x) = D / (K(x) * epsilon_0) = Q / (epsilon_0 * A * (1 + 3x/d)). Choice B is wrong because it ignores the dielectric entirely (uses vacuum field). Choice C incorrectly takes the derivative of the potential — some students differentiate 1/K(x) as if E were obtained from dK/dx rather than from D/K. Choice D multiplies by K instead of dividing, a common sign/direction error where students confuse the relationship between D, K, and E, effectively making the field stronger where the dielectric constant is larger, which is physically backwards.",
-    "type": "MCQ"
+    "type": "MCQ",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='240' y2='40' stroke='#ef4444' stroke-width='4'/><text x='250' y='44' fill='#ef4444' font-size='12' font-weight='700'>+σ</text><line x1='40' y1='160' x2='240' y2='160' stroke='#3b82f6' stroke-width='4'/><text x='250' y='164' fill='#3b82f6' font-size='12' font-weight='700'>−σ</text><line x1='80' y1='50' x2='80' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='80,154 76,144 84,144' fill='#64748b'/><line x1='140' y1='50' x2='140' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='140,154 136,144 144,144' fill='#64748b'/><line x1='200' y1='50' x2='200' y2='148' stroke='#64748b' stroke-width='1.5'/><polygon points='200,154 196,144 204,144' fill='#64748b'/><text x='160' y='105' fill='#64748b' font-size='11' font-weight='600'>E</text><line x1='30' y1='40' x2='30' y2='160' stroke='#94a3b8' stroke-width='1' stroke-dasharray='3 3'/><text x='25' y='105' text-anchor='end' fill='#94a3b8' font-size='10'>d</text></svg>"
   },
   {
     "id": "physc_u10_q767",
@@ -17259,7 +17441,8 @@ window.PHYSC_MCQ = [
     "explanation": "Each charge contributes $kq/(a/\\sqrt{3}) = \\sqrt{3}\\,kq/a$. Three identical charges give $V = 3\\sqrt{3}\\,kq/a$. Choice B forgets to multiply by 3 (number of charges); Choice D uses $r = a$ instead of $a/\\sqrt{3}$.",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u9_q804",
@@ -17280,7 +17463,8 @@ window.PHYSC_MCQ = [
     "explanation": "$U = kq_1q_2/r = (9 \\times 10^9)(2 \\times 10^{-6})(-5 \\times 10^{-6})/0.10 = -0.90\\,\\text{J}$. The negative sign indicates the system is bound — work must be done against the attractive force to separate the charges to infinity.",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u9_q805",
@@ -17301,7 +17485,8 @@ window.PHYSC_MCQ = [
     "explanation": "There are $\\binom{3}{2} = 3$ unique pairs, each contributing $U_{\\text{pair}} = kq^2/a$. Total: $U = 3kq^2/a$. Common error is to count six pairs (Choice D) or forget to count interactions (Choice A).",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 240 220' xmlns='http://www.w3.org/2000/svg' style='max-width:240px;font-family:Inter,system-ui,sans-serif;font-size:12px'><polygon points='120,40 50,170 190,170' fill='none' stroke='#94a3b8' stroke-width='1' stroke-dasharray='4 3'/><circle cx='120' cy='40' r='14' fill='#ef4444'/><text x='120' y='45' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><circle cx='50' cy='170' r='14' fill='#ef4444'/><text x='50' y='175' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><circle cx='190' cy='170' r='14' fill='#ef4444'/><text x='190' y='175' text-anchor='middle' fill='white' font-size='12' font-weight='700'>+q</text><text x='30' y='105' fill='#64748b' font-size='11'>a</text><text x='210' y='105' text-anchor='end' fill='#64748b' font-size='11'>a</text><text x='120' y='195' text-anchor='middle' fill='#64748b' font-size='11'>a</text><circle cx='120' cy='127' r='2.5' fill='#3b82f6'/><text x='130' y='131' fill='#3b82f6' font-size='10'>centroid</text></svg>"
   },
   {
     "id": "physc_u9_q806",
@@ -17427,7 +17612,8 @@ window.PHYSC_MCQ = [
     "explanation": "Every element of the ring is the same distance $\\sqrt{R^2 + z^2}$ from the axial point. Since $V$ is a scalar, $V = kQ/\\sqrt{R^2 + z^2}$. Choice D is the on-axis $E$-field of a ring (vector), not $V$. At $z = 0$: $V = kQ/R$ (Choice A is the special case).",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u9_q812",
@@ -17448,7 +17634,8 @@ window.PHYSC_MCQ = [
     "explanation": "$E_z = -dV/dz = -(\\sigma/2\\varepsilon_0)\\,d/dz[\\sqrt{R^2+z^2} - z] = -(\\sigma/2\\varepsilon_0)[z/\\sqrt{R^2+z^2} - 1] = (\\sigma/2\\varepsilon_0)[1 - z/\\sqrt{R^2+z^2}]$. As $R \\to \\infty$ this approaches $\\sigma/(2\\varepsilon_0)$ (Choice D — the infinite-sheet limit, but only correct in that limit).",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 160' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><circle cx='80' cy='80' r='14' fill='#ef4444'/><text x='80' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>+q</text><circle cx='200' cy='80' r='14' fill='#3b82f6'/><text x='200' y='85' text-anchor='middle' fill='white' font-size='13' font-weight='700'>−q</text><line x1='94' y1='80' x2='186' y2='80' stroke='#64748b' stroke-width='1' stroke-dasharray='4 3'/><text x='140' y='75' text-anchor='middle' fill='#64748b' font-size='11'>d</text><text x='140' y='105' text-anchor='middle' fill='#64748b' font-size='10'>(separation)</text><line x1='40' y1='130' x2='240' y2='130' stroke='#94a3b8' stroke-width='1'/><text x='40' y='145' fill='#94a3b8' font-size='10'>x = 0</text><text x='240' y='145' text-anchor='end' fill='#94a3b8' font-size='10'>x = d</text></svg>"
   },
   {
     "id": "physc_u9_q813",
@@ -17532,7 +17719,8 @@ window.PHYSC_MCQ = [
     "explanation": "In a conductor at equilibrium, $\\vec{E} = 0$ inside, so $\\nabla V = 0$ — i.e., $V$ is uniform throughout the conductor and equal to its surface value $kQ/R$. Outside, $V = kQ/r$ (decreases as $1/r$, Choice D wrong). Choice A confuses field with potential intuition; Choice B confuses zero field with zero potential.",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='20' y1='140' x2='300' y2='140' stroke='#64748b' stroke-width='1.5'/><circle cx='160' cy='90' r='45' fill='none' stroke='#3b82f6' stroke-width='2.5'/><line x1='160' y1='90' x2='200' y2='75' stroke='#3b82f6' stroke-width='1.5'/><circle cx='160' cy='90' r='3' fill='#3b82f6'/><text x='205' y='75' fill='#3b82f6' font-size='11' font-weight='600'>R</text><path d='M 200,90 A 40,40 0 0 1 160,130' fill='none' stroke='#ef4444' stroke-width='2'/><polygon points='160,130 168,124 168,134' fill='#ef4444'/><text x='200' y='115' fill='#ef4444' font-size='12' font-weight='700'>ω</text><line x1='220' y1='90' x2='265' y2='90' stroke='#10b981' stroke-width='2.5'/><polygon points='270,90 260,86 260,94' fill='#10b981'/><text x='275' y='95' fill='#10b981' font-size='12' font-weight='700'>v</text><text x='160' y='160' text-anchor='middle' fill='#64748b' font-size='11'>rolling without slipping (v = ωR)</text></svg>"
   },
   {
     "id": "physc_u9_q817",
@@ -17574,6 +17762,7 @@ window.PHYSC_MCQ = [
     "explanation": "$E_x = -dV/dx \\approx -(\\Delta V/\\Delta x) = -((4 - 12)/2) = -(-4) = +4\\,\\text{V/m}$. The positive sign shows the field points in $+\\hat{x}$, the direction of decreasing $V$. Choice B drops the leading minus sign.",
     "calculator": false,
     "isLatex": true,
-    "format": "latex"
+    "format": "latex",
+    "graphSvg": "<svg viewBox='0 0 280 200' xmlns='http://www.w3.org/2000/svg' style='max-width:280px;font-family:Inter,system-ui,sans-serif;font-size:12px'><line x1='40' y1='40' x2='40' y2='170' stroke='#64748b' stroke-width='1.5'/><line x1='40' y1='170' x2='250' y2='170' stroke='#64748b' stroke-width='1.5'/><polygon points='40,35 36,45 44,45' fill='#64748b'/><polygon points='255,170 245,166 245,174' fill='#64748b'/><text x='30' y='35' text-anchor='end' fill='#64748b' font-size='11'>V (volts)</text><text x='258' y='185' fill='#64748b' font-size='11'>x (m)</text><line x1='40' y1='60' x2='100' y2='60' stroke='#3b82f6' stroke-width='2.5'/><line x1='100' y1='60' x2='200' y2='140' stroke='#3b82f6' stroke-width='2.5'/><line x1='200' y1='140' x2='250' y2='140' stroke='#3b82f6' stroke-width='2.5'/><text x='30' y='65' text-anchor='end' fill='#64748b' font-size='10'>12</text><text x='30' y='145' text-anchor='end' fill='#64748b' font-size='10'>4</text><line x1='100' y1='170' x2='100' y2='173' stroke='#64748b' stroke-width='1'/><text x='100' y='185' text-anchor='middle' fill='#64748b' font-size='10'>x₀</text><line x1='200' y1='170' x2='200' y2='173' stroke='#64748b' stroke-width='1'/><text x='200' y='185' text-anchor='middle' fill='#64748b' font-size='10'>x₀+2</text></svg>"
   }
 ];
