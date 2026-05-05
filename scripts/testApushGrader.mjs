@@ -81,9 +81,11 @@ check('LEQ high', leqHighResult.score.total, 5, 6);
 
 // Medium: thesis present, 2 evidence terms, one connector, no contextualization.
 // Starts with a non-evidence-term sentence so the context fallback does not fire.
+// Must be 50+ words to clear the length gate while remaining clearly mid-quality.
 const leqMedium = `Social activism significantly shaped American democracy in the postwar era.
 The Civil Rights Act of 1964 outlawed racial discrimination, but its implementation faced fierce resistance across the South.
-Brown v. Board of Education was a landmark ruling against segregated schools.`;
+Brown v. Board of Education was a landmark ruling against segregated schools, which caused the desegregation crisis across the region.
+These developments reshaped American society in important ways during this period of social change and political activism.`;
 
 const leqMediumResult = grade(leqMedium, 'leq', 8, 'apush');
 check('LEQ medium', leqMediumResult.score.total, 2, 4);

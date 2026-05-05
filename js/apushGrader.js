@@ -579,6 +579,18 @@ window.APUSHGrader = (function () {
         continue;
       }
 
+      // Gate: AP SAQ parts require substantive responses. Under 15 words cannot
+      // constitute a proper Answer-Cite-Explain response; score 0 immediately.
+      const wordCount = answerText.trim().split(/\s+/).length;
+      if (wordCount < 15) {
+        partResults[partLabel] = {
+          earned: 0,
+          reason: 'Response too brief (' + wordCount + ' words) — AP graders expect 3–5 sentences per part',
+          evFound: [], connFound: []
+        };
+        continue;
+      }
+
       const normText = answerText.toLowerCase();
       const resolved = resolveShorthands(normText, config.shorthands);
       const evResult = detectEvidence(resolved, config, unitNum);
@@ -593,7 +605,6 @@ window.APUSHGrader = (function () {
       // keyword from causalConnectors or reasoningProcessWords. This prevents false negatives
       // where a student writes a substantive, correct answer that uses slightly different
       // phrasing than the evidence bucket terms.
-      const wordCount = answerText.trim().split(/\s+/).length;
       const hasLengthReq = wordCount > 20;
       const hasReasoningKeyword =
         (config.causalConnectors || []).some(function (c) { return normText.includes(c.toLowerCase()); }) ||
@@ -667,6 +678,18 @@ window.APUSHGrader = (function () {
         type: 'leq', totalEarned: 0, max: 6,
         breakdown: { thesis: 0, context: 0, evidence: 0, analysis: 0 },
         highlights: [], details: {}
+      };
+    }
+
+    // Gate: a real LEQ must be a multi-paragraph essay. Under 50 words cannot
+    // contain a thesis + context + evidence + analysis; return 0 across the board.
+    const totalWords = text.trim().split(/\s+/).length;
+    if (totalWords < 50) {
+      return {
+        type: 'leq', totalEarned: 0, max: 6,
+        breakdown: { thesis: 0, context: 0, evidence: 0, analysis: 0 },
+        highlights: [], details: {},
+        tooShort: true
       };
     }
 
@@ -749,6 +772,19 @@ window.APUSHGrader = (function () {
         type: 'dbq', totalEarned: 0, max: 7,
         breakdown: { thesis: 0, context: 0, outsideEvidence: 0, docUse: 0, sourcing: 0 },
         highlights: [], details: {}
+      };
+    }
+
+    // Gate: under 50 words cannot be a real DBQ essay. Only docUse (mechanical
+    // citation counting) is still awarded — thesis/context/outsideEv/sourcing need prose.
+    const totalWords = text.trim().split(/\s+/).length;
+    if (totalWords < 50) {
+      const citations = gradeCitations(text, frqStimulus);
+      return {
+        type: 'dbq', totalEarned: citations.earned, max: 7,
+        breakdown: { thesis: 0, context: 0, outsideEvidence: 0, docUse: citations.earned, sourcing: 0, complexity: null },
+        highlights: [], details: { docCitations: citations.citations },
+        tooShort: true
       };
     }
 

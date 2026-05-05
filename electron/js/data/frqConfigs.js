@@ -87,7 +87,10 @@ var FRQ_CONFIGS = {
       'by the time', 'since', 'going back', 'in the years before',
       'historically', 'throughout', 'dating back', 'as early as',
       'following', 'in the wake of', 'as a result of earlier',
-      'building on', 'rooted in', 'originating in', 'tracing back'
+      'building on', 'rooted in', 'originating in', 'tracing back',
+      // Common temporal openers AP students use for contextualization
+      'during the', 'between', 'in the aftermath', 'over the course',
+      'by the mid', 'in the decades', 'at the time', 'in the years'
     ],
 
     // ─── DBQ Sourcing Triggers ───────────────────────────────────────────────
