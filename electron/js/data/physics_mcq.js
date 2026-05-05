@@ -3166,7 +3166,8 @@ window.PHYSICS_MCQ = [
       "Velocity includes direction, speed does not"
     ],
     "answer": 3,
-    "explanation": "Velocity is a vector quantity that includes both magnitude and direction, while speed is a scalar quantity that only includes magnitude. Choice A is meaningless since they measure the same physical quantity. Choice C is wrong since both can be measured in the same units. Choice B is backwards - speed is always positive while velocity can be negative depending on chosen coordinate system."
+    "explanation": "Velocity is a vector quantity that includes both magnitude and direction, while speed is a scalar quantity that only includes magnitude. Choice A is meaningless since they measure the same physical quantity. Choice C is wrong since both can be measured in the same units. Choice B is backwards - speed is always positive while velocity can be negative depending on chosen coordinate system.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q013",
@@ -3186,7 +3187,8 @@ window.PHYSICS_MCQ = [
       "50 $m/s^2$ east"
     ],
     "answer": 0,
-    "explanation": "Acceleration equals change in velocity divided by time: a = (30 - 20)/5 = 2 $m/s^2$ east. Choice B incorrectly uses the change in velocity (10 m/s) without dividing by time. Choice C incorrectly uses average velocity divided by time. Choice D multiplies change in velocity by time instead of dividing."
+    "explanation": "Acceleration equals change in velocity divided by time: a = (30 - 20)/5 = 2 $m/s^2$ east. Choice B incorrectly uses the change in velocity (10 m/s) without dividing by time. Choice C incorrectly uses average velocity divided by time. Choice D multiplies change in velocity by time instead of dividing.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q014",
@@ -3206,7 +3208,8 @@ window.PHYSICS_MCQ = [
       "v = v₀ + at"
     ],
     "answer": 3,
-    "explanation": "The equation v = v₀ + at directly relates final velocity, initial velocity, acceleration, and time without involving displacement. Choice A gives displacement in terms of initial velocity, acceleration, and time. Choice C relates velocities, acceleration, and displacement. Choice B gives displacement in terms of velocities and time."
+    "explanation": "The equation v = v₀ + at directly relates final velocity, initial velocity, acceleration, and time without involving displacement. Choice A gives displacement in terms of initial velocity, acceleration, and time. Choice C relates velocities, acceleration, and displacement. Choice B gives displacement in terms of velocities and time.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q015",
@@ -3226,7 +3229,8 @@ window.PHYSICS_MCQ = [
       "Depends on the ball's mass"
     ],
     "answer": 2,
-    "explanation": "All objects in free fall near Earth's surface experience the same acceleration of 9.8 $m/s^2$ downward, regardless of mass. Choice A would mean no acceleration, which is incorrect for free fall. Choice B has the correct magnitude but wrong direction. Choice D reflects the common misconception that heavier objects fall faster, which Galileo proved false."
+    "explanation": "All objects in free fall near Earth's surface experience the same acceleration of 9.8 $m/s^2$ downward, regardless of mass. Choice A would mean no acceleration, which is incorrect for free fall. Choice B has the correct magnitude but wrong direction. Choice D reflects the common misconception that heavier objects fall faster, which Galileo proved false.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q016",
@@ -3246,7 +3250,8 @@ window.PHYSICS_MCQ = [
       "It becomes zero at the highest point"
     ],
     "answer": 2,
-    "explanation": "The horizontal component of velocity remains constant in projectile motion because gravity only acts vertically, causing no horizontal acceleration. Choice A and B incorrectly suggest gravity affects horizontal motion. Choice D confuses horizontal and vertical components - it's the vertical component that becomes zero at the highest point."
+    "explanation": "The horizontal component of velocity remains constant in projectile motion because gravity only acts vertically, causing no horizontal acceleration. Choice A and B incorrectly suggest gravity affects horizontal motion. Choice D confuses horizontal and vertical components - it's the vertical component that becomes zero at the highest point.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q017",
@@ -3266,7 +3271,8 @@ window.PHYSICS_MCQ = [
       "20 km/h"
     ],
     "answer": 3,
-    "explanation": "Relative velocity is found by subtracting the velocities when moving in the same direction: 60 - 40 = 20 km/h. Choice A incorrectly adds the velocities. Choice C gives Car A's velocity relative to the ground, not relative to Car B. Choice B gives Car B's velocity relative to the ground."
+    "explanation": "Relative velocity is found by subtracting the velocities when moving in the same direction: 60 - 40 = 20 km/h. Choice A incorrectly adds the velocities. Choice C gives Car A's velocity relative to the ground, not relative to Car B. Choice B gives Car B's velocity relative to the ground.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q018",
@@ -3286,7 +3292,8 @@ window.PHYSICS_MCQ = [
       "Distance"
     ],
     "answer": 1,
-    "explanation": "The slope of a position vs. time graph represents velocity, since velocity is the rate of change of position with respect to time. Choice A confuses this with velocity vs. time graphs, where slope represents acceleration. Choice C represents the y-axis value, not the slope. Choice D is a scalar quantity that cannot be directly read from slope."
+    "explanation": "The slope of a position vs. time graph represents velocity, since velocity is the rate of change of position with respect to time. Choice A confuses this with velocity vs. time graphs, where slope represents acceleration. Choice C represents the y-axis value, not the slope. Choice D is a scalar quantity that cannot be directly read from slope.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q019",
@@ -3306,7 +3313,8 @@ window.PHYSICS_MCQ = [
       "Average velocity"
     ],
     "answer": 2,
-    "explanation": "The area under a velocity vs. time graph represents displacement, since displacement equals velocity multiplied by time. Choice A is represented by the slope of the velocity-time graph. Choice B is simply the y-coordinate at the final time. Choice D would require dividing the area by the time interval."
+    "explanation": "The area under a velocity vs. time graph represents displacement, since displacement equals velocity multiplied by time. Choice A is represented by the slope of the velocity-time graph. Choice B is simply the y-coordinate at the final time. Choice D would require dividing the area by the time interval.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q020",
@@ -3326,7 +3334,8 @@ window.PHYSICS_MCQ = [
       "Equal to its initial velocity"
     ],
     "answer": 2,
-    "explanation": "At the highest point, the ball momentarily stops before falling back down, so its velocity is zero. The acceleration is still 9.8 $m/s^2$ downward, but velocity and acceleration are different quantities. Choices A and B give the acceleration magnitude but incorrectly call it velocity. Choice D is incorrect since the ball must slow down due to gravity."
+    "explanation": "At the highest point, the ball momentarily stops before falling back down, so its velocity is zero. The acceleration is still 9.8 $m/s^2$ downward, but velocity and acceleration are different quantities. Choices A and B give the acceleration magnitude but incorrectly call it velocity. Choice D is incorrect since the ball must slow down due to gravity.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q021",
@@ -3346,7 +3355,8 @@ window.PHYSICS_MCQ = [
       "60 m"
     ],
     "answer": 0,
-    "explanation": "Displacement is the change in position from start to finish. Initial position = 20 m, final position = 50 m, so displacement = 50 - 20 = 30 m. Choice B is the distance from start to first turn, C is total distance traveled, and D is distance from first turn to final position."
+    "explanation": "Displacement is the change in position from start to finish. Initial position = 20 m, final position = 50 m, so displacement = 50 - 20 = 30 m. Choice B is the distance from start to first turn, C is total distance traveled, and D is distance from first turn to final position.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q022",
@@ -3366,7 +3376,8 @@ window.PHYSICS_MCQ = [
       "2 m/s north"
     ],
     "answer": 1,
-    "explanation": "Average velocity = total displacement / total time. Net displacement = 120 m north - 160 m south = 40 m south. Total time = 20 s. Average velocity = 40 m south / 20 s = 2 m/s south. Choice A uses average speed instead of velocity."
+    "explanation": "Average velocity = total displacement / total time. Net displacement = 120 m north - 160 m south = 40 m south. Total time = 20 s. Average velocity = 40 m south / 20 s = 2 m/s south. Choice A uses average speed instead of velocity.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q023",
@@ -3386,7 +3397,8 @@ window.PHYSICS_MCQ = [
       "0 $m/s^2$"
     ],
     "answer": 1,
-    "explanation": "Average acceleration = change in velocity / total time. Initial velocity = 0 m/s, final velocity = 12 m/s, total time = 10 s. Average acceleration = (12 - 0) / 10 = 1.2 $m/s^2$. Choice A only considers the first 4 seconds, C assumes uniform acceleration throughout, D ignores the acceleration phase."
+    "explanation": "Average acceleration = change in velocity / total time. Initial velocity = 0 m/s, final velocity = 12 m/s, total time = 10 s. Average acceleration = (12 - 0) / 10 = 1.2 $m/s^2$. Choice A only considers the first 4 seconds, C assumes uniform acceleration throughout, D ignores the acceleration phase.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q024",
@@ -3406,7 +3418,8 @@ window.PHYSICS_MCQ = [
       "20 m"
     ],
     "answer": 1,
-    "explanation": "Using x = v₀t + $\\frac{1}{2}$a$t^2$, where v₀ = 0, a = 2.0 $m/s^2$, t = 5.0 s. x = 0 + $\\frac{1}{2}$(2.0)(5.0)² = $\\frac{1}{2}$(2.0)(25) = 25 m. Choice A uses x = at, choice C uses x = a$t^2$, and choice D uses x = 2at."
+    "explanation": "Using x = v₀t + $\\frac{1}{2}$a$t^2$, where v₀ = 0, a = 2.0 $m/s^2$, t = 5.0 s. x = 0 + $\\frac{1}{2}$(2.0)(5.0)² = $\\frac{1}{2}$(2.0)(25) = 25 m. Choice A uses x = at, choice C uses x = a$t^2$, and choice D uses x = 2at.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q025",
@@ -3426,7 +3439,8 @@ window.PHYSICS_MCQ = [
       "0.5 s"
     ],
     "answer": 1,
-    "explanation": "At maximum height, final velocity = 0. Using v = v₀ - gt: 0 = 20 - 10t, so t = 2.0 s. Choice A forgets the factor of 2, choice C is the total flight time, and choice D uses incorrect reasoning about gravity's effect."
+    "explanation": "At maximum height, final velocity = 0. Using v = v₀ - gt: 0 = 20 - 10t, so t = 2.0 s. Choice A forgets the factor of 2, choice C is the total flight time, and choice D uses incorrect reasoning about gravity's effect.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q026",
@@ -3446,7 +3460,8 @@ window.PHYSICS_MCQ = [
       "30 m/s"
     ],
     "answer": 1,
-    "explanation": "First find time of flight using y = $\\frac{1}{2}$g$t^2$: 45 = $\\frac{1}{2}$(10)$t^2$, so t = 3 s. Then use x = v₀t: 60 = v₀(3), so v₀ = 20 m/s. Choice A uses incorrect time calculation, choice C confuses horizontal and vertical components, choice D uses range formula incorrectly."
+    "explanation": "First find time of flight using y = $\\frac{1}{2}$g$t^2$: 45 = $\\frac{1}{2}$(10)$t^2$, so t = 3 s. Then use x = v₀t: 60 = v₀(3), so v₀ = 20 m/s. Choice A uses incorrect time calculation, choice C confuses horizontal and vertical components, choice D uses range formula incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q027",
@@ -3466,7 +3481,8 @@ window.PHYSICS_MCQ = [
       "50 m/s west"
     ],
     "answer": 1,
-    "explanation": "Relative velocity = velocity of A - velocity of B = 30 m/s east - (-20 m/s east) = 30 + 20 = 50 m/s east. Choice A subtracts instead of adding, choice C ignores Car B's motion, and choice D has wrong direction."
+    "explanation": "Relative velocity = velocity of A - velocity of B = 30 m/s east - (-20 m/s east) = 30 + 20 = 50 m/s east. Choice A subtracts instead of adding, choice C ignores Car B's motion, and choice D has wrong direction.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q028",
@@ -3487,7 +3503,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "The slope of a position-time graph represents velocity. A straight line indicates constant slope, so constant velocity. Negative slope means negative velocity (moving in negative direction). Choice A would require a curved line, choice C would be horizontal, choice D would show increasing slope magnitude.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Position (m)</text><line x1='65' y1='63' x2='236' y2='205' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='236' cy='205' r='3' fill='#3b82f6'/><circle cx='65' cy='63' r='3' fill='#3b82f6'/></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Position (m)</text><line x1='65' y1='63' x2='236' y2='205' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='236' cy='205' r='3' fill='#3b82f6'/><circle cx='65' cy='63' r='3' fill='#3b82f6'/></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q029",
@@ -3507,7 +3524,8 @@ window.PHYSICS_MCQ = [
       "250 m"
     ],
     "answer": 0,
-    "explanation": "Using $v^2$ = v₀² + 2ax, where v = 0, v₀ = 25 m/s, a = -2.0 $m/s^2$. 0 = (25)² + 2(-2.0)x, so 0 = 625 - 4x, giving x = 156 m. Choice B doubles the answer, choice C forgets the 2 in the equation, choice D uses wrong kinematic equation."
+    "explanation": "Using $v^2$ = v₀² + 2ax, where v = 0, v₀ = 25 m/s, a = -2.0 $m/s^2$. 0 = (25)² + 2(-2.0)x, so 0 = 625 - 4x, giving x = 156 m. Choice B doubles the answer, choice C forgets the 2 in the equation, choice D uses wrong kinematic equation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q030",
@@ -3527,7 +3545,8 @@ window.PHYSICS_MCQ = [
       "50 m/s"
     ],
     "answer": 2,
-    "explanation": "Using $v^2$ = v₀² + 2gh, where v₀ = 0, g = 10 $m/s^2$, h = 80 m. $v^2$ = 0 + 2(10)(80) = 1600, so v = 40 m/s. Choice A uses v = √gh, choice B uses approximation errors, choice D confuses with different height."
+    "explanation": "Using $v^2$ = v₀² + 2gh, where v₀ = 0, g = 10 $m/s^2$, h = 80 m. $v^2$ = 0 + 2(10)(80) = 1600, so v = 40 m/s. Choice A uses v = √gh, choice B uses approximation errors, choice D confuses with different height.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q031",
@@ -3548,7 +3567,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "The area under a velocity-time graph represents displacement (change in position). This comes from the definition of velocity as dx/dt, so integrating gives displacement. Choice A is the slope of v-t graph, choice C would be total area divided by time, choice D would be area under |v| vs t graph.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Velocity (m/s)</text><line x1='65' y1='205' x2='236' y2='63' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='236' cy='63' r='3' fill='#3b82f6'/><circle cx='65' cy='205' r='3' fill='#3b82f6'/></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Velocity (m/s)</text><line x1='65' y1='205' x2='236' y2='63' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='236' cy='63' r='3' fill='#3b82f6'/><circle cx='65' cy='205' r='3' fill='#3b82f6'/></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q032",
@@ -3568,7 +3588,8 @@ window.PHYSICS_MCQ = [
       "-5 $m/s^2$"
     ],
     "answer": 1,
-    "explanation": "Acceleration = (vf - vi)/t = (0 - 15)/5 = -3 $m/s^2$. The negative sign indicates deceleration (slowing down). Choice A forgets the negative sign, choice C confuses time with acceleration magnitude, choice D uses time instead of velocity change."
+    "explanation": "Acceleration = (vf - vi)/t = (0 - 15)/5 = -3 $m/s^2$. The negative sign indicates deceleration (slowing down). Choice A forgets the negative sign, choice C confuses time with acceleration magnitude, choice D uses time instead of velocity change.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q033",
@@ -3588,7 +3609,8 @@ window.PHYSICS_MCQ = [
       "14 m/s"
     ],
     "answer": 2,
-    "explanation": "The boat's velocity relative to shore is the vector sum of boat velocity relative to water and water velocity relative to shore. Using Pythagorean theorem: v = √($6^2$ + $8^2$) = √(36 + 64) = √100 = 10 m/s. Choice A ignores current, choice B ignores boat motion, choice D adds velocities arithmetically."
+    "explanation": "The boat's velocity relative to shore is the vector sum of boat velocity relative to water and water velocity relative to shore. Using Pythagorean theorem: v = √($6^2$ + $8^2$) = √(36 + 64) = √100 = 10 m/s. Choice A ignores current, choice B ignores boat motion, choice D adds velocities arithmetically.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q034",
@@ -3608,7 +3630,8 @@ window.PHYSICS_MCQ = [
       "5 km"
     ],
     "answer": 1,
-    "explanation": "The north and south displacements cancel out (3 km - 3 km = 0). Only the 4 km east displacement remains. Total displacement magnitude = 4 km. Choice A is total distance, choice C is net distance ignoring cancellation, choice D would apply if the hiker hadn't returned south."
+    "explanation": "The north and south displacements cancel out (3 km - 3 km = 0). Only the 4 km east displacement remains. Total displacement magnitude = 4 km. Choice A is total distance, choice C is net distance ignoring cancellation, choice D would apply if the hiker hadn't returned south.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q035",
@@ -3629,7 +3652,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Displacement = area under v-t curve. First 5 seconds: rectangle area = 8 × 5 = 40 m. Next 4 seconds: triangle area = $\\frac{1}{2}$ × 8 × 4 = 16 m. Total = 40 + 16 = 56 m. Choice A ignores the triangle, choice C only counts the triangle doubled, choice D adds incorrectly.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Velocity (m/s)</text><line x1='168' y1='35' x2='168' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='168' y='219' text-anchor='middle' class='svg-label'>5 s</text><line x1='50' y1='69' x2='270' y2='69' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='73' text-anchor='end' class='svg-label'>8 m/s</text><line x1='65' y1='69' x2='168' y2='69' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='168' cy='69' r='3' fill='#3b82f6'/><line x1='168' y1='69' x2='250' y2='205' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='250' cy='205' r='3' fill='#3b82f6'/><circle cx='65' cy='69' r='3' fill='#3b82f6'/></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Velocity (m/s)</text><line x1='168' y1='35' x2='168' y2='205' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='168' y='219' text-anchor='middle' class='svg-label'>5 s</text><line x1='50' y1='69' x2='270' y2='69' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='73' text-anchor='end' class='svg-label'>8 m/s</text><line x1='65' y1='69' x2='168' y2='69' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='168' cy='69' r='3' fill='#3b82f6'/><line x1='168' y1='69' x2='250' y2='205' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='250' cy='205' r='3' fill='#3b82f6'/><circle cx='65' cy='69' r='3' fill='#3b82f6'/></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q036",
@@ -3649,7 +3673,8 @@ window.PHYSICS_MCQ = [
       "42 m/s"
     ],
     "answer": 0,
-    "explanation": "Using v = v₀ + at, where v₀ = 10 m/s, a = 3 $m/s^2$, t = 4 s. v = 10 + 3(4) = 10 + 12 = 22 m/s. Choice B uses wrong time, choice C adds acceleration directly to initial velocity, choice D multiplies instead of adding."
+    "explanation": "Using v = v₀ + at, where v₀ = 10 m/s, a = 3 $m/s^2$, t = 4 s. v = 10 + 3(4) = 10 + 12 = 22 m/s. Choice B uses wrong time, choice C adds acceleration directly to initial velocity, choice D multiplies instead of adding.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q037",
@@ -3669,7 +3694,8 @@ window.PHYSICS_MCQ = [
       "9:4"
     ],
     "answer": 0,
-    "explanation": "For free fall from rest, v = gt. Ball A: vA = g(2) = 2g. Ball B: vB = g(3) = 3g. Ratio vA:vB = 2g:3g = 2:3. Choice B reverses the ratio, choices C and D incorrectly use $t^2$ relationship which applies to distance, not speed."
+    "explanation": "For free fall from rest, v = gt. Ball A: vA = g(2) = 2g. Ball B: vB = g(3) = 3g. Ratio vA:vB = 2g:3g = 2:3. Choice B reverses the ratio, choices C and D incorrectly use $t^2$ relationship which applies to distance, not speed.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q038",
@@ -3689,7 +3715,8 @@ window.PHYSICS_MCQ = [
       "Velocity equals speed in circular motion"
     ],
     "answer": 1,
-    "explanation": "Velocity is a vector quantity that depends on both magnitude (speed) and direction. In circular motion, even though speed is constant, direction continuously changes, so velocity is not constant. Choice A confuses speed with velocity, choice C confuses velocity with average velocity over complete cycles, choice D ignores the vector nature."
+    "explanation": "Velocity is a vector quantity that depends on both magnitude (speed) and direction. In circular motion, even though speed is constant, direction continuously changes, so velocity is not constant. Choice A confuses speed with velocity, choice C confuses velocity with average velocity over complete cycles, choice D ignores the vector nature.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q039",
@@ -3709,7 +3736,8 @@ window.PHYSICS_MCQ = [
       "Halfway to maximum height"
     ],
     "answer": 1,
-    "explanation": "At maximum height, the vertical velocity component is zero while horizontal component remains constant. This gives minimum speed since speed = √(v$x^2$ + v$y^2$). At launch and impact, both components contribute to higher speed. Halfway up, vertical component is still significant."
+    "explanation": "At maximum height, the vertical velocity component is zero while horizontal component remains constant. This gives minimum speed since speed = √(v$x^2$ + v$y^2$). At launch and impact, both components contribute to higher speed. Halfway up, vertical component is still significant.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q040",
@@ -3729,7 +3757,8 @@ window.PHYSICS_MCQ = [
       "45 m"
     ],
     "answer": 2,
-    "explanation": "This is a projectile motion problem requiring two steps. First, find the time of flight using vertical motion: h = $\\frac{1}{2}$g$t^2$, so 20 = 5$t^2$, giving t = 2 s. Then find horizontal distance: x = v₀t = 15 × 2 = 30 m. Choice A incorrectly uses only the initial speed. Choice B incorrectly uses the building height. Choice D incorrectly multiplies all three given values."
+    "explanation": "This is a projectile motion problem requiring two steps. First, find the time of flight using vertical motion: h = $\\frac{1}{2}$g$t^2$, so 20 = 5$t^2$, giving t = 2 s. Then find horizontal distance: x = v₀t = 15 × 2 = 30 m. Choice A incorrectly uses only the initial speed. Choice B incorrectly uses the building height. Choice D incorrectly multiplies all three given values.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q041",
@@ -3749,7 +3778,8 @@ window.PHYSICS_MCQ = [
       "2.0 s only"
     ],
     "answer": 2,
-    "explanation": "Using y = v₀t - $\\frac{1}{2}$g$t^2$, we get 15 = 20t - 5$t^2$, which gives $t^2$ - 4t + 3 = 0. Factoring: (t-1)(t-3) = 0, so t = 1 s and t = 3 s. The ball passes through 15 m twice: once going up at 1 s and once coming down at 3 s. Choice A misses the second time, choice B misses the first time, and choice D incorrectly assumes only one solution exists."
+    "explanation": "Using y = v₀t - $\\frac{1}{2}$g$t^2$, we get 15 = 20t - 5$t^2$, which gives $t^2$ - 4t + 3 = 0. Factoring: (t-1)(t-3) = 0, so t = 1 s and t = 3 s. The ball passes through 15 m twice: once going up at 1 s and once coming down at 3 s. Choice A misses the second time, choice B misses the first time, and choice D incorrectly assumes only one solution exists.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u1_q042",
@@ -3769,7 +3799,8 @@ window.PHYSICS_MCQ = [
       "The acceleration is v₀ cos θ because the horizontal component is constant"
     ],
     "answer": 1,
-    "explanation": "Acceleration due to gravity is constant throughout projectile motion, always equal to g downward. At the highest point, only the vertical velocity component is zero, but acceleration remains g downward. Choice A confuses zero velocity with zero acceleration. Choice C incorrectly applies components to acceleration. Choice D confuses acceleration with velocity and has wrong units."
+    "explanation": "Acceleration due to gravity is constant throughout projectile motion, always equal to g downward. At the highest point, only the vertical velocity component is zero, but acceleration remains g downward. Choice A confuses zero velocity with zero acceleration. Choice C incorrectly applies components to acceleration. Choice D confuses acceleration with velocity and has wrong units.",
+    "type": "MCQ"
   },
   {
     "id": "U1-MCQ-03",
@@ -3824,7 +3855,8 @@ window.PHYSICS_MCQ = [
       "Neither A nor B"
     ],
     "answer": 0,
-    "explanation": "Displacement is the net change in position. Starting at origin, moving 30 km east puts the car at +30 km. Moving 20 km west brings it to +10 km, so displacement is 10 km east. Choice B adds distances instead of finding net displacement. Choice C gets the magnitude right but wrong direction. Choice D gives total distance traveled, not displacement."
+    "explanation": "Displacement is the net change in position. Starting at origin, moving 30 km east puts the car at +30 km. Moving 20 km west brings it to +10 km, so displacement is 10 km east. Choice B adds distances instead of finding net displacement. Choice C gets the magnitude right but wrong direction. Choice D gives total distance traveled, not displacement.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q043",
@@ -3844,7 +3876,8 @@ window.PHYSICS_MCQ = [
       "The forces are unbalanced"
     ],
     "answer": 0,
-    "explanation": "Newton's first law states that an object at rest remains at rest when the net force is zero. The book has forces acting on it (gravity downward, normal force upward) but they balance to give zero net force. Choice B ignores that gravity and normal force exist. Choice C ignores the normal force. Choice D contradicts the fact that the book remains at rest."
+    "explanation": "Newton's first law states that an object at rest remains at rest when the net force is zero. The book has forces acting on it (gravity downward, normal force upward) but they balance to give zero net force. Choice B ignores that gravity and normal force exist. Choice C ignores the normal force. Choice D contradicts the fact that the book remains at rest.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q044",
@@ -3864,7 +3897,8 @@ window.PHYSICS_MCQ = [
       "6 $m/s^2$"
     ],
     "answer": 0,
-    "explanation": "Using Newton's second law, F = ma, we get a = F/m = 8 N / 2 kg = 4 $m/s^2$. Choice B incorrectly multiplies F × m. Choice C mistakenly adds gravitational acceleration. Choice D comes from incorrect arithmetic."
+    "explanation": "Using Newton's second law, F = ma, we get a = F/m = 8 N / 2 kg = 4 $m/s^2$. Choice B incorrectly multiplies F × m. Choice C mistakenly adds gravitational acceleration. Choice D comes from incorrect arithmetic.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q045",
@@ -3884,7 +3918,8 @@ window.PHYSICS_MCQ = [
       "Less than 50 N in the opposite direction"
     ],
     "answer": 0,
-    "explanation": "Newton's third law states that for every action there is an equal and opposite reaction. The wall pushes back on the student with exactly 50 N in the opposite direction. Choice B has the wrong direction. Choices C and D incorrectly suggest the magnitudes are different."
+    "explanation": "Newton's third law states that for every action there is an equal and opposite reaction. The wall pushes back on the student with exactly 50 N in the opposite direction. Choice B has the wrong direction. Choices C and D incorrectly suggest the magnitudes are different.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q046",
@@ -3904,7 +3939,8 @@ window.PHYSICS_MCQ = [
       "98 N"
     ],
     "answer": 0,
-    "explanation": "The normal force equals the weight of the box: N = mg = 5 kg × 9.8 $m/s^2$ = 49 N. Since the box moves at constant velocity on a horizontal surface, there is no vertical acceleration, so the normal force balances gravity. Choice B uses mass instead of weight. Choice C suggests no normal force exists. Choice D incorrectly doubles the weight calculation."
+    "explanation": "The normal force equals the weight of the box: N = mg = 5 kg × 9.8 $m/s^2$ = 49 N. Since the box moves at constant velocity on a horizontal surface, there is no vertical acceleration, so the normal force balances gravity. Choice B uses mass instead of weight. Choice C suggests no normal force exists. Choice D incorrectly doubles the weight calculation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q047",
@@ -3924,7 +3960,8 @@ window.PHYSICS_MCQ = [
       "The friction force is zero"
     ],
     "answer": 0,
-    "explanation": "Since the block moves at constant speed, the net force is zero. Therefore, the friction force up the ramp must equal the component of weight down the ramp. Choices B and C would result in acceleration. Choice D ignores that friction opposes the motion on a rough surface."
+    "explanation": "Since the block moves at constant speed, the net force is zero. Therefore, the friction force up the ramp must equal the component of weight down the ramp. Choices B and C would result in acceleration. Choice D ignores that friction opposes the motion on a rough surface.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q048",
@@ -3944,7 +3981,8 @@ window.PHYSICS_MCQ = [
       "Newton's first law doesn't apply because the puck is moving, not at rest"
     ],
     "answer": 1,
-    "explanation": "Newton's first law states that objects maintain constant velocity unless acted upon by an unbalanced force. The puck slows due to friction (unbalanced force). Choice A incorrectly suggests objects naturally prefer rest. Choice C is wrong because inertia is a property that doesn't change. Choice D misunderstands that the first law applies to both moving and stationary objects."
+    "explanation": "Newton's first law states that objects maintain constant velocity unless acted upon by an unbalanced force. The puck slows due to friction (unbalanced force). Choice A incorrectly suggests objects naturally prefer rest. Choice C is wrong because inertia is a property that doesn't change. Choice D misunderstands that the first law applies to both moving and stationary objects.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q049",
@@ -3964,7 +4002,8 @@ window.PHYSICS_MCQ = [
       "Car A has less acceleration because there's less weight for traction"
     ],
     "answer": 0,
-    "explanation": "From F = ma, with constant force F, acceleration is inversely proportional to mass. Car A has less mass, so greater acceleration. Choice B incorrectly thinks more weight helps acceleration. Choice C ignores the mass difference. Choice D misapplies the concept of traction, which isn't the limiting factor here."
+    "explanation": "From F = ma, with constant force F, acceleration is inversely proportional to mass. Car A has less mass, so greater acceleration. Choice B incorrectly thinks more weight helps acceleration. Choice C ignores the mass difference. Choice D misapplies the concept of traction, which isn't the limiting factor here.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q050",
@@ -3984,7 +4023,8 @@ window.PHYSICS_MCQ = [
       "More than 50 N, because the wall is stronger than the person"
     ],
     "answer": 2,
-    "explanation": "Newton's third law states that forces always occur in equal and opposite pairs, regardless of motion. The wall exerts 50 N back on the person. Choice A incorrectly links force magnitude to motion. Choice B has wrong direction and magnitude. Choice D incorrectly suggests the reaction force depends on the wall's 'strength.'"
+    "explanation": "Newton's third law states that forces always occur in equal and opposite pairs, regardless of motion. The wall exerts 50 N back on the person. Choice A incorrectly links force magnitude to motion. Choice B has wrong direction and magnitude. Choice D incorrectly suggests the reaction force depends on the wall's 'strength.'",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q051",
@@ -4004,7 +4044,8 @@ window.PHYSICS_MCQ = [
       "Normal force from table only, since weight is internal to the box"
     ],
     "answer": 1,
-    "explanation": "Free body diagrams show only forces acting ON the object. The box experiences weight (downward) and normal force from table (upward). Choice A incorrectly includes the force the box exerts on the table, which acts on the table, not the box. Choice C adds an irrelevant force. Choice D incorrectly excludes weight."
+    "explanation": "Free body diagrams show only forces acting ON the object. The box experiences weight (downward) and normal force from table (upward). Choice A incorrectly includes the force the box exerts on the table, which acts on the table, not the box. Choice C adds an irrelevant force. Choice D incorrectly excludes weight.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q052",
@@ -4024,7 +4065,8 @@ window.PHYSICS_MCQ = [
       "Normal force is zero because the person is in free fall"
     ],
     "answer": 2,
-    "explanation": "For upward acceleration, net force must be upward, so normal force > weight. From F_net = ma, we get N - mg = ma, so N = mg + ma > mg. Choice A ignores acceleration effects. Choice B incorrectly thinks upward motion reduces normal force. Choice D confuses this with free fall."
+    "explanation": "For upward acceleration, net force must be upward, so normal force > weight. From F_net = ma, we get N - mg = ma, so N = mg + ma > mg. Choice A ignores acceleration effects. Choice B incorrectly thinks upward motion reduces normal force. Choice D confuses this with free fall.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q053",
@@ -4044,7 +4086,8 @@ window.PHYSICS_MCQ = [
       "There is no friction force because the book isn't moving"
     ],
     "answer": 1,
-    "explanation": "Static friction adjusts to prevent motion, equaling the applied force up to its maximum value $\\mu$_s × N. Since the book doesn't move, static friction increases to match the push. Choice A describes kinetic friction incorrectly. Choice C has the wrong relationship. Choice D incorrectly thinks friction requires motion."
+    "explanation": "Static friction adjusts to prevent motion, equaling the applied force up to its maximum value $\\mu$_s × N. Since the book doesn't move, static friction increases to match the push. Choice A describes kinetic friction incorrectly. Choice C has the wrong relationship. Choice D incorrectly thinks friction requires motion.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q054",
@@ -4064,7 +4107,8 @@ window.PHYSICS_MCQ = [
       "200 N, because tension acts in both directions along the rope"
     ],
     "answer": 2,
-    "explanation": "In equilibrium, forces balance. The upward tension must equal the downward weight of 100 N. Choice A incorrectly thinks equilibrium means no forces. Choice B incorrectly halves the tension. Choice D double-counts tension by considering both ends of the rope."
+    "explanation": "In equilibrium, forces balance. The upward tension must equal the downward weight of 100 N. Choice A incorrectly thinks equilibrium means no forces. Choice B incorrectly halves the tension. Choice D double-counts tension by considering both ends of the rope.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q055",
@@ -4084,7 +4128,8 @@ window.PHYSICS_MCQ = [
       "Tension equals the total weight of both masses (40 N)"
     ],
     "answer": 2,
-    "explanation": "In an accelerating Atwood machine, tension is less than the heavier weight but greater than the lighter weight. The system accelerates, so tension < 30 N for mass A to accelerate down, but tension > 10 N for mass B to accelerate up. Choices A and B represent static cases. Choice D incorrectly adds weights."
+    "explanation": "In an accelerating Atwood machine, tension is less than the heavier weight but greater than the lighter weight. The system accelerates, so tension < 30 N for mass A to accelerate down, but tension > 10 N for mass B to accelerate up. Choices A and B represent static cases. Choice D incorrectly adds weights.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q056",
@@ -4104,7 +4149,8 @@ window.PHYSICS_MCQ = [
       "Normal force is zero because the block is sliding freely"
     ],
     "answer": 2,
-    "explanation": "Normal force equals the component of weight perpendicular to the incline (mg cos θ), which is less than the full weight mg. The parallel component (mg sin θ) causes acceleration down the plane. Choice A incorrectly equates normal force with full weight. Choice B misunderstands the force balance. Choice D ignores the contact force."
+    "explanation": "Normal force equals the component of weight perpendicular to the incline (mg cos θ), which is less than the full weight mg. The parallel component (mg sin θ) causes acceleration down the plane. Choice A incorrectly equates normal force with full weight. Choice B misunderstands the force balance. Choice D ignores the contact force.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q057",
@@ -4124,7 +4170,8 @@ window.PHYSICS_MCQ = [
       "3 $m/s^2$ west"
     ],
     "answer": 1,
-    "explanation": "Net force = 10 N - 6 N = 4 N east. Using F = ma: a = 4 N / 2 kg = 2 $m/s^2$ east. Choice A incorrectly adds the force magnitudes. Choice C uses only the larger force. Choice D gets wrong direction and magnitude."
+    "explanation": "Net force = 10 N - 6 N = 4 N east. Using F = ma: a = 4 N / 2 kg = 2 $m/s^2$ east. Choice A incorrectly adds the force magnitudes. Choice C uses only the larger force. Choice D gets wrong direction and magnitude.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q058",
@@ -4144,7 +4191,8 @@ window.PHYSICS_MCQ = [
       "The car overcomes the reaction force by applying more force than the road can exert"
     ],
     "answer": 1,
-    "explanation": "Newton's third law pairs act on different objects, so they cannot cancel each other's effects. The road exerts a forward friction force on the car (causing the car's acceleration), while the car exerts an equal and opposite backward friction force on the road. These two forces act on different objects - the car and the road respectively - so they do not cancel. Forces only cancel when they act on the same object. Choice A incorrectly relates force magnitude to having an engine. Choices C and D misunderstand the simultaneity and equality of Newton's third law force pairs."
+    "explanation": "Newton's third law pairs act on different objects, so they cannot cancel each other's effects. The road exerts a forward friction force on the car (causing the car's acceleration), while the car exerts an equal and opposite backward friction force on the road. These two forces act on different objects - the car and the road respectively - so they do not cancel. Forces only cancel when they act on the same object. Choice A incorrectly relates force magnitude to having an engine. Choices C and D misunderstand the simultaneity and equality of Newton's third law force pairs.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q059",
@@ -4164,7 +4212,8 @@ window.PHYSICS_MCQ = [
       "Applied force, weight, normal force, and air resistance"
     ],
     "answer": 0,
-    "explanation": "All forces acting on the book must be shown: applied force (horizontal), kinetic friction (opposing motion), weight (downward), and normal force (upward). At constant velocity, horizontal forces balance and vertical forces balance. Choice B omits vertical forces. Choice C omits horizontal forces. Choice D unnecessarily adds air resistance, which is negligible for this scenario."
+    "explanation": "All forces acting on the book must be shown: applied force (horizontal), kinetic friction (opposing motion), weight (downward), and normal force (upward). At constant velocity, horizontal forces balance and vertical forces balance. Choice B omits vertical forces. Choice C omits horizontal forces. Choice D unnecessarily adds air resistance, which is negligible for this scenario.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q060",
@@ -4184,7 +4233,8 @@ window.PHYSICS_MCQ = [
       "Static friction becomes zero because gravity takes over"
     ],
     "answer": 2,
-    "explanation": "As the angle increases, the component of weight parallel to the incline (mg sin θ) increases. Static friction must increase to match this component and maintain equilibrium. Choice A ignores the changing force balance. Choice B focuses on normal force change but misses the parallel component effect. Choice D incorrectly suggests friction disappears."
+    "explanation": "As the angle increases, the component of weight parallel to the incline (mg sin θ) increases. Static friction must increase to match this component and maintain equilibrium. Choice A ignores the changing force balance. Choice B focuses on normal force change but misses the parallel component effect. Choice D incorrectly suggests friction disappears.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q061",
@@ -4205,7 +4255,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "To find the normal force the bottom book exerts on the top book, we apply Newton's second law to the top book alone as our system. The top book has mass m = 10 kg and accelerates upward at a = 5 $m/s^2$. The forces acting on the top book are the normal force N (upward) from the bottom book and gravity mg (downward). Applying Newton's second law: N - mg = ma, so N = m(g + a) = 10(10 + 5) = 10 × 15 = 150 N. The normal force is a constraint force that must account for both supporting the top book against gravity and providing the net upward force needed for acceleration. Choice A (100 N) ignores the acceleration term. Choice C (200 N) incorrectly uses the combined mass of both books. Choice D (50 N) only accounts for the acceleration term without gravity.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='80' y1='210' x2='230' y2='210' stroke-width='2' class='svg-axis'/><line x1='86' y1='210' x2='78' y2='218' stroke-width='1' class='svg-axis'/><line x1='100' y1='210' x2='92' y2='218' stroke-width='1' class='svg-axis'/><line x1='114' y1='210' x2='106' y2='218' stroke-width='1' class='svg-axis'/><line x1='128' y1='210' x2='120' y2='218' stroke-width='1' class='svg-axis'/><line x1='142' y1='210' x2='134' y2='218' stroke-width='1' class='svg-axis'/><line x1='156' y1='210' x2='148' y2='218' stroke-width='1' class='svg-axis'/><line x1='170' y1='210' x2='162' y2='218' stroke-width='1' class='svg-axis'/><line x1='184' y1='210' x2='176' y2='218' stroke-width='1' class='svg-axis'/><line x1='198' y1='210' x2='190' y2='218' stroke-width='1' class='svg-axis'/><line x1='212' y1='210' x2='204' y2='218' stroke-width='1' class='svg-axis'/><rect x='120' y='170' width='70' height='30' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='190' text-anchor='middle' font-size='11' class='svg-label'>5 kg</text><rect x='120' y='137' width='70' height='30' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='157' text-anchor='middle' font-size='11' class='svg-label'>10 kg</text><line x1='155' y1='133' x2='155.0' y2='110.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='155,100 160.0,110.0 150.0,110.0' fill='#8b5cf6' stroke='none'/><text x='162' y='112' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a = 5 m/s²</text><text x='162' y='126' text-anchor='start' fill='#8b5cf6' font-size='10' class='svg-label'>(upward)</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='80' y1='210' x2='230' y2='210' stroke-width='2' class='svg-axis'/><line x1='86' y1='210' x2='78' y2='218' stroke-width='1' class='svg-axis'/><line x1='100' y1='210' x2='92' y2='218' stroke-width='1' class='svg-axis'/><line x1='114' y1='210' x2='106' y2='218' stroke-width='1' class='svg-axis'/><line x1='128' y1='210' x2='120' y2='218' stroke-width='1' class='svg-axis'/><line x1='142' y1='210' x2='134' y2='218' stroke-width='1' class='svg-axis'/><line x1='156' y1='210' x2='148' y2='218' stroke-width='1' class='svg-axis'/><line x1='170' y1='210' x2='162' y2='218' stroke-width='1' class='svg-axis'/><line x1='184' y1='210' x2='176' y2='218' stroke-width='1' class='svg-axis'/><line x1='198' y1='210' x2='190' y2='218' stroke-width='1' class='svg-axis'/><line x1='212' y1='210' x2='204' y2='218' stroke-width='1' class='svg-axis'/><rect x='120' y='170' width='70' height='30' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='190' text-anchor='middle' font-size='11' class='svg-label'>5 kg</text><rect x='120' y='137' width='70' height='30' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='157' text-anchor='middle' font-size='11' class='svg-label'>10 kg</text><line x1='155' y1='133' x2='155.0' y2='110.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='155,100 160.0,110.0 150.0,110.0' fill='#8b5cf6' stroke='none'/><text x='162' y='112' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a = 5 m/s²</text><text x='162' y='126' text-anchor='start' fill='#8b5cf6' font-size='10' class='svg-label'>(upward)</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q062",
@@ -4226,7 +4277,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "In an Atwood machine, both masses are connected by an inextensible rope, so they must have the same magnitude of acceleration (one up, one down). The rope constraint ensures equal acceleration magnitudes. Choices A and B incorrectly suggest different accelerations. Choice D introduces an irrelevant factor.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='150' y1='22' x2='160' y2='22' stroke-width='3' class='svg-axis'/><line x1='137' y1='22' x2='131' y2='14' stroke-width='1' class='svg-axis'/><line x1='146' y1='22' x2='140' y2='14' stroke-width='1' class='svg-axis'/><line x1='155' y1='22' x2='149' y2='14' stroke-width='1' class='svg-axis'/><line x1='164' y1='22' x2='158' y2='14' stroke-width='1' class='svg-axis'/><line x1='173' y1='22' x2='167' y2='14' stroke-width='1' class='svg-axis'/><line x1='137' y1='22' x2='173' y2='22' stroke-width='2' class='svg-axis'/><line x1='155' y1='22' x2='155' y2='33' stroke-width='2' class='svg-axis'/><circle cx='155' cy='55' r='22' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='55' r='5' fill='#94a3b8'/><line x1='137' y1='59' x2='137' y2='126' stroke-width='2' class='svg-axis'/><line x1='173' y1='59' x2='173' y2='161' stroke-width='2' class='svg-axis'/><text x='129' y='93' text-anchor='end' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T</text><text x='181' y='110' text-anchor='start' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T</text><rect x='120' y='126' width='34' height='28' fill='none' stroke-width='2' class='svg-axis'/><text x='137' y='145' text-anchor='middle' font-size='11' class='svg-label'>4 kg</text><rect x='156' y='161' width='34' height='28' fill='none' stroke-width='2' class='svg-axis'/><text x='173' y='180' text-anchor='middle' font-size='11' class='svg-label'>6 kg</text><line x1='173' y1='194' x2='173.0' y2='207.0' stroke='#8b5cf6' stroke-width='2' fill='none'/><polygon points='173,217 168.0,207.0 178.0,207.0' fill='#8b5cf6' stroke='none'/><text x='179' y='211' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a</text><line x1='137' y1='121' x2='137.0' y2='108.0' stroke='#8b5cf6' stroke-width='2' fill='none'/><polygon points='137,98 142.0,108.0 132.0,108.0' fill='#8b5cf6' stroke='none'/><text x='143' y='112' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='150' y1='22' x2='160' y2='22' stroke-width='3' class='svg-axis'/><line x1='137' y1='22' x2='131' y2='14' stroke-width='1' class='svg-axis'/><line x1='146' y1='22' x2='140' y2='14' stroke-width='1' class='svg-axis'/><line x1='155' y1='22' x2='149' y2='14' stroke-width='1' class='svg-axis'/><line x1='164' y1='22' x2='158' y2='14' stroke-width='1' class='svg-axis'/><line x1='173' y1='22' x2='167' y2='14' stroke-width='1' class='svg-axis'/><line x1='137' y1='22' x2='173' y2='22' stroke-width='2' class='svg-axis'/><line x1='155' y1='22' x2='155' y2='33' stroke-width='2' class='svg-axis'/><circle cx='155' cy='55' r='22' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='55' r='5' fill='#94a3b8'/><line x1='137' y1='59' x2='137' y2='126' stroke-width='2' class='svg-axis'/><line x1='173' y1='59' x2='173' y2='161' stroke-width='2' class='svg-axis'/><text x='129' y='93' text-anchor='end' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T</text><text x='181' y='110' text-anchor='start' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T</text><rect x='120' y='126' width='34' height='28' fill='none' stroke-width='2' class='svg-axis'/><text x='137' y='145' text-anchor='middle' font-size='11' class='svg-label'>4 kg</text><rect x='156' y='161' width='34' height='28' fill='none' stroke-width='2' class='svg-axis'/><text x='173' y='180' text-anchor='middle' font-size='11' class='svg-label'>6 kg</text><line x1='173' y1='194' x2='173.0' y2='207.0' stroke='#8b5cf6' stroke-width='2' fill='none'/><polygon points='173,217 168.0,207.0 178.0,207.0' fill='#8b5cf6' stroke='none'/><text x='179' y='211' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a</text><line x1='137' y1='121' x2='137.0' y2='108.0' stroke='#8b5cf6' stroke-width='2' fill='none'/><polygon points='137,98 142.0,108.0 132.0,108.0' fill='#8b5cf6' stroke='none'/><text x='143' y='112' text-anchor='start' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q063",
@@ -4246,7 +4298,8 @@ window.PHYSICS_MCQ = [
       "The acceleration creates a real backward force on the passenger"
     ],
     "answer": 0,
-    "explanation": "The passenger's body has inertia and tends to remain at rest while the car accelerates forward. The seat must push the passenger forward, creating the sensation of being pushed back into the seat. Choice B has the wrong direction. Choices C and D invoke fictitious forces rather than explaining the inertial effect."
+    "explanation": "The passenger's body has inertia and tends to remain at rest while the car accelerates forward. The seat must push the passenger forward, creating the sensation of being pushed back into the seat. Choice B has the wrong direction. Choices C and D invoke fictitious forces rather than explaining the inertial effect.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q064",
@@ -4266,7 +4319,8 @@ window.PHYSICS_MCQ = [
       "The parallel components depend on the coefficient of friction, not the angle"
     ],
     "answer": 1,
-    "explanation": "The parallel component is mg sin(θ). Since sin(45°) $\\approx$ 0.707 > sin(30°) = 0.5, Block B has a larger parallel component. Choice A reverses the sine values. Choice C ignores the angle dependence. Choice D confuses the gravitational component with friction effects."
+    "explanation": "The parallel component is mg sin(θ). Since sin(45°) $\\approx$ 0.707 > sin(30°) = 0.5, Block B has a larger parallel component. Choice A reverses the sine values. Choice C ignores the angle dependence. Choice D confuses the gravitational component with friction effects.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q065",
@@ -4286,7 +4340,8 @@ window.PHYSICS_MCQ = [
       "Newton's first law always applies, but it predicts constant velocity only when the net force is zero"
     ],
     "answer": 3,
-    "explanation": "Newton's first law always applies as a fundamental principle, but it only predicts constant velocity when net force is zero. With friction present, there is a net force causing acceleration, so the first law correctly predicts the puck won't maintain constant velocity. Choice A incorrectly focuses on constant acceleration. Choice B wrongly suggests the law doesn't apply when forces exist. Choice C incorrectly implies the laws are mutually exclusive."
+    "explanation": "Newton's first law always applies as a fundamental principle, but it only predicts constant velocity when net force is zero. With friction present, there is a net force causing acceleration, so the first law correctly predicts the puck won't maintain constant velocity. Choice A incorrectly focuses on constant acceleration. Choice B wrongly suggests the law doesn't apply when forces exist. Choice C incorrectly implies the laws are mutually exclusive.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q066",
@@ -4306,7 +4361,8 @@ window.PHYSICS_MCQ = [
       "The truck exerts a larger force on the car, and both have equal accelerations"
     ],
     "answer": 2,
-    "explanation": "Newton's third law requires that the forces are equal in magnitude and opposite in direction - the truck pushes on the car with the same force that the car pushes on the truck. However, since F = ma and the car has less mass, it experiences greater acceleration (a = F/m). Choice A incorrectly assumes different force magnitudes. Choice B incorrectly assumes equal accelerations despite different masses. Choice D incorrectly assumes both different forces and equal accelerations."
+    "explanation": "Newton's third law requires that the forces are equal in magnitude and opposite in direction - the truck pushes on the car with the same force that the car pushes on the truck. However, since F = ma and the car has less mass, it experiences greater acceleration (a = F/m). Choice A incorrectly assumes different force magnitudes. Choice B incorrectly assumes equal accelerations despite different masses. Choice D incorrectly assumes both different forces and equal accelerations.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q067",
@@ -4327,7 +4383,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "A proper free body diagram shows only real forces acting ON the object. The box experiences weight (gravity) downward, normal force from truck bed upward, and static friction forward (providing the net force for acceleration). Choice A incorrectly includes a fictitious force. Choice C double-counts forces - friction IS the force from the truck bed. Choice D has friction in the wrong direction - static friction acts forward to accelerate the box with the truck.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='60' y1='148' x2='250' y2='148' stroke-width='2' class='svg-axis'/><line x1='66' y1='148' x2='58' y2='156' stroke-width='1' class='svg-axis'/><line x1='80' y1='148' x2='72' y2='156' stroke-width='1' class='svg-axis'/><line x1='94' y1='148' x2='86' y2='156' stroke-width='1' class='svg-axis'/><line x1='108' y1='148' x2='100' y2='156' stroke-width='1' class='svg-axis'/><line x1='122' y1='148' x2='114' y2='156' stroke-width='1' class='svg-axis'/><line x1='136' y1='148' x2='128' y2='156' stroke-width='1' class='svg-axis'/><line x1='150' y1='148' x2='142' y2='156' stroke-width='1' class='svg-axis'/><line x1='164' y1='148' x2='156' y2='156' stroke-width='1' class='svg-axis'/><line x1='178' y1='148' x2='170' y2='156' stroke-width='1' class='svg-axis'/><line x1='192' y1='148' x2='184' y2='156' stroke-width='1' class='svg-axis'/><line x1='206' y1='148' x2='198' y2='156' stroke-width='1' class='svg-axis'/><line x1='220' y1='148' x2='212' y2='156' stroke-width='1' class='svg-axis'/><line x1='234' y1='148' x2='226' y2='156' stroke-width='1' class='svg-axis'/><rect x='139' y='102' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><line x1='155' y1='118' x2='155.0' y2='173.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,183 150.0,173.0 160.0,173.0' fill='#dc2626' stroke='none'/><text x='155' y='197' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='155' y1='118' x2='155.0' y2='63.0' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='155,53 160.0,63.0 150.0,63.0' fill='#3b82f6' stroke='none'/><text x='155' y='39' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text><line x1='155' y1='118' x2='184.0' y2='118.0' stroke='#f97316' stroke-width='2.5' fill='none'/><polygon points='194,118 184.0,123.0 184.0,113.0' fill='#f97316' stroke='none'/><text x='208' y='118' text-anchor='start' fill='#f97316' font-size='12' font-weight='600' class='svg-label'>f_s</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='60' y1='148' x2='250' y2='148' stroke-width='2' class='svg-axis'/><line x1='66' y1='148' x2='58' y2='156' stroke-width='1' class='svg-axis'/><line x1='80' y1='148' x2='72' y2='156' stroke-width='1' class='svg-axis'/><line x1='94' y1='148' x2='86' y2='156' stroke-width='1' class='svg-axis'/><line x1='108' y1='148' x2='100' y2='156' stroke-width='1' class='svg-axis'/><line x1='122' y1='148' x2='114' y2='156' stroke-width='1' class='svg-axis'/><line x1='136' y1='148' x2='128' y2='156' stroke-width='1' class='svg-axis'/><line x1='150' y1='148' x2='142' y2='156' stroke-width='1' class='svg-axis'/><line x1='164' y1='148' x2='156' y2='156' stroke-width='1' class='svg-axis'/><line x1='178' y1='148' x2='170' y2='156' stroke-width='1' class='svg-axis'/><line x1='192' y1='148' x2='184' y2='156' stroke-width='1' class='svg-axis'/><line x1='206' y1='148' x2='198' y2='156' stroke-width='1' class='svg-axis'/><line x1='220' y1='148' x2='212' y2='156' stroke-width='1' class='svg-axis'/><line x1='234' y1='148' x2='226' y2='156' stroke-width='1' class='svg-axis'/><rect x='139' y='102' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><line x1='155' y1='118' x2='155.0' y2='173.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,183 150.0,173.0 160.0,173.0' fill='#dc2626' stroke='none'/><text x='155' y='197' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='155' y1='118' x2='155.0' y2='63.0' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='155,53 160.0,63.0 150.0,63.0' fill='#3b82f6' stroke='none'/><text x='155' y='39' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text><line x1='155' y1='118' x2='184.0' y2='118.0' stroke='#f97316' stroke-width='2.5' fill='none'/><polygon points='194,118 184.0,123.0 184.0,113.0' fill='#f97316' stroke='none'/><text x='208' y='118' text-anchor='start' fill='#f97316' font-size='12' font-weight='600' class='svg-label'>f_s</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q068",
@@ -4348,7 +4405,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "The person accelerates upward, so net force must be upward. Forces on person: normal force N (up) and weight mg (down). Newton's second law: N - mg = ma. Therefore N = mg + ma = m(g + a) = 70(9.8 + 2) = 70(11.8) = 826 N. Choice A incorrectly subtracts ma from mg. Choice C uses wrong direction for acceleration. Choice D ignores acceleration entirely, using only mg.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='60' y1='148' x2='250' y2='148' stroke-width='2' class='svg-axis'/><line x1='66' y1='148' x2='58' y2='156' stroke-width='1' class='svg-axis'/><line x1='80' y1='148' x2='72' y2='156' stroke-width='1' class='svg-axis'/><line x1='94' y1='148' x2='86' y2='156' stroke-width='1' class='svg-axis'/><line x1='108' y1='148' x2='100' y2='156' stroke-width='1' class='svg-axis'/><line x1='122' y1='148' x2='114' y2='156' stroke-width='1' class='svg-axis'/><line x1='136' y1='148' x2='128' y2='156' stroke-width='1' class='svg-axis'/><line x1='150' y1='148' x2='142' y2='156' stroke-width='1' class='svg-axis'/><line x1='164' y1='148' x2='156' y2='156' stroke-width='1' class='svg-axis'/><line x1='178' y1='148' x2='170' y2='156' stroke-width='1' class='svg-axis'/><line x1='192' y1='148' x2='184' y2='156' stroke-width='1' class='svg-axis'/><line x1='206' y1='148' x2='198' y2='156' stroke-width='1' class='svg-axis'/><line x1='220' y1='148' x2='212' y2='156' stroke-width='1' class='svg-axis'/><line x1='234' y1='148' x2='226' y2='156' stroke-width='1' class='svg-axis'/><rect x='139' y='102' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='123' text-anchor='middle' font-size='11' class='svg-label'>70 kg</text><line x1='155' y1='118' x2='155.0' y2='173.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,183 150.0,173.0 160.0,173.0' fill='#dc2626' stroke='none'/><text x='155' y='197' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='155' y1='118' x2='155.0' y2='50.0' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='155,40 160.0,50.0 150.0,50.0' fill='#3b82f6' stroke='none'/><text x='155' y='26' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text><text x='155' y='245' text-anchor='middle' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a = 2 m/s² (upward)</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='60' y1='148' x2='250' y2='148' stroke-width='2' class='svg-axis'/><line x1='66' y1='148' x2='58' y2='156' stroke-width='1' class='svg-axis'/><line x1='80' y1='148' x2='72' y2='156' stroke-width='1' class='svg-axis'/><line x1='94' y1='148' x2='86' y2='156' stroke-width='1' class='svg-axis'/><line x1='108' y1='148' x2='100' y2='156' stroke-width='1' class='svg-axis'/><line x1='122' y1='148' x2='114' y2='156' stroke-width='1' class='svg-axis'/><line x1='136' y1='148' x2='128' y2='156' stroke-width='1' class='svg-axis'/><line x1='150' y1='148' x2='142' y2='156' stroke-width='1' class='svg-axis'/><line x1='164' y1='148' x2='156' y2='156' stroke-width='1' class='svg-axis'/><line x1='178' y1='148' x2='170' y2='156' stroke-width='1' class='svg-axis'/><line x1='192' y1='148' x2='184' y2='156' stroke-width='1' class='svg-axis'/><line x1='206' y1='148' x2='198' y2='156' stroke-width='1' class='svg-axis'/><line x1='220' y1='148' x2='212' y2='156' stroke-width='1' class='svg-axis'/><line x1='234' y1='148' x2='226' y2='156' stroke-width='1' class='svg-axis'/><rect x='139' y='102' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='123' text-anchor='middle' font-size='11' class='svg-label'>70 kg</text><line x1='155' y1='118' x2='155.0' y2='173.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,183 150.0,173.0 160.0,173.0' fill='#dc2626' stroke='none'/><text x='155' y='197' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='155' y1='118' x2='155.0' y2='50.0' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='155,40 160.0,50.0 150.0,50.0' fill='#3b82f6' stroke='none'/><text x='155' y='26' text-anchor='middle' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text><text x='155' y='245' text-anchor='middle' fill='#8b5cf6' font-size='11' font-weight='600' class='svg-label'>a = 2 m/s² (upward)</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q069",
@@ -4369,7 +4427,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "The rope has two segments, each at 30° from vertical. For equilibrium, the vertical components of tension must balance the weight W. If T is tension in each segment, then 2T cos(30°) = W. Therefore T = W/(2cos30°). Choice A ignores the angle and simply divides weight by 2. Choice B assumes the tension equals the full weight. Choice D uses only one rope segment instead of two.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='80' y1='40' x2='230' y2='40' stroke-width='2' class='svg-axis'/><line x1='88' y1='40' x2='80' y2='30' stroke-width='1' class='svg-axis'/><line x1='102' y1='40' x2='94' y2='30' stroke-width='1' class='svg-axis'/><line x1='116' y1='40' x2='108' y2='30' stroke-width='1' class='svg-axis'/><line x1='130' y1='40' x2='122' y2='30' stroke-width='1' class='svg-axis'/><line x1='144' y1='40' x2='136' y2='30' stroke-width='1' class='svg-axis'/><line x1='158' y1='40' x2='150' y2='30' stroke-width='1' class='svg-axis'/><line x1='172' y1='40' x2='164' y2='30' stroke-width='1' class='svg-axis'/><line x1='186' y1='40' x2='178' y2='30' stroke-width='1' class='svg-axis'/><line x1='200' y1='40' x2='192' y2='30' stroke-width='1' class='svg-axis'/><line x1='214' y1='40' x2='206' y2='30' stroke-width='1' class='svg-axis'/><line x1='91' y1='40' x2='155' y2='150' stroke-width='1.5' class='svg-axis'/><line x1='219' y1='40' x2='155' y2='150' stroke-width='1.5' class='svg-axis'/><line x1='91' y1='40' x2='91' y2='88' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><line x1='219' y1='40' x2='219' y2='88' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><text x='106' y='70' text-anchor='start' font-size='10' class='svg-label'>30°</text><text x='196' y='70' text-anchor='end' font-size='10' class='svg-label'>30°</text><rect x='130' y='135' width='50' height='30' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='155' text-anchor='middle' font-size='11' class='svg-label'>Sign</text><line x1='155' y1='150' x2='132.4' y2='110.8' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='127.37500000000001,102.15209644090976 136.7,108.3 128.0,113.3' fill='#16a34a' stroke='none'/><text x='120' y='90' text-anchor='end' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T₁</text><line x1='155' y1='150' x2='177.6' y2='110.8' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='182.625,102.15209644090976 182.0,113.3 173.3,108.3' fill='#16a34a' stroke='none'/><text x='190' y='90' text-anchor='start' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T₂</text><line x1='155' y1='150' x2='155.0' y2='192.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,202 150.0,192.0 160.0,192.0' fill='#dc2626' stroke='none'/><text x='155' y='216' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>W</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='80' y1='40' x2='230' y2='40' stroke-width='2' class='svg-axis'/><line x1='88' y1='40' x2='80' y2='30' stroke-width='1' class='svg-axis'/><line x1='102' y1='40' x2='94' y2='30' stroke-width='1' class='svg-axis'/><line x1='116' y1='40' x2='108' y2='30' stroke-width='1' class='svg-axis'/><line x1='130' y1='40' x2='122' y2='30' stroke-width='1' class='svg-axis'/><line x1='144' y1='40' x2='136' y2='30' stroke-width='1' class='svg-axis'/><line x1='158' y1='40' x2='150' y2='30' stroke-width='1' class='svg-axis'/><line x1='172' y1='40' x2='164' y2='30' stroke-width='1' class='svg-axis'/><line x1='186' y1='40' x2='178' y2='30' stroke-width='1' class='svg-axis'/><line x1='200' y1='40' x2='192' y2='30' stroke-width='1' class='svg-axis'/><line x1='214' y1='40' x2='206' y2='30' stroke-width='1' class='svg-axis'/><line x1='91' y1='40' x2='155' y2='150' stroke-width='1.5' class='svg-axis'/><line x1='219' y1='40' x2='155' y2='150' stroke-width='1.5' class='svg-axis'/><line x1='91' y1='40' x2='91' y2='88' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><line x1='219' y1='40' x2='219' y2='88' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><text x='106' y='70' text-anchor='start' font-size='10' class='svg-label'>30°</text><text x='196' y='70' text-anchor='end' font-size='10' class='svg-label'>30°</text><rect x='130' y='135' width='50' height='30' fill='none' stroke-width='2' class='svg-axis'/><text x='155' y='155' text-anchor='middle' font-size='11' class='svg-label'>Sign</text><line x1='155' y1='150' x2='132.4' y2='110.8' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='127.37500000000001,102.15209644090976 136.7,108.3 128.0,113.3' fill='#16a34a' stroke='none'/><text x='120' y='90' text-anchor='end' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T₁</text><line x1='155' y1='150' x2='177.6' y2='110.8' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='182.625,102.15209644090976 182.0,113.3 173.3,108.3' fill='#16a34a' stroke='none'/><text x='190' y='90' text-anchor='start' fill='#16a34a' font-size='12' font-weight='600' class='svg-label'>T₂</text><line x1='155' y1='150' x2='155.0' y2='192.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,202 150.0,192.0 160.0,192.0' fill='#dc2626' stroke='none'/><text x='155' y='216' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>W</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q070",
@@ -4389,7 +4448,8 @@ window.PHYSICS_MCQ = [
       "58.8 N"
     ],
     "answer": 1,
-    "explanation": "Acceleration: a = (m₂ − m₁)g/(m₁ + m₂) = (6 − 4)(9.8)/(4 + 6) = 19.6/10 = 1.96 m/s². Applying Newton's second law to m₁: T − m₁g = m₁a, so T = m₁(g + a) = 4(9.8 + 1.96) = 4(11.76) = 47.04 N ≈ 47.0 N. Choice A (39.2 N) uses only m₁g, ignoring the acceleration. Choice C (48.0 N) is a rounding error. Choice D (58.8 N) incorrectly uses m₂g."
+    "explanation": "Acceleration: a = (m₂ − m₁)g/(m₁ + m₂) = (6 − 4)(9.8)/(4 + 6) = 19.6/10 = 1.96 m/s². Applying Newton's second law to m₁: T − m₁g = m₁a, so T = m₁(g + a) = 4(9.8 + 1.96) = 4(11.76) = 47.04 N ≈ 47.0 N. Choice A (39.2 N) uses only m₁g, ignoring the acceleration. Choice C (48.0 N) is a rounding error. Choice D (58.8 N) incorrectly uses m₂g.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q071",
@@ -4409,7 +4469,8 @@ window.PHYSICS_MCQ = [
       "$\\mu$ₛ $\\geq$ cot θ"
     ],
     "answer": 0,
-    "explanation": "For equilibrium on an incline: friction force up the plane equals component of weight down the plane. Maximum static friction is $\\mu$ₛN = $\\mu$ₛmg cos θ. Component of weight down plane is mg sin θ. For equilibrium: $\\mu$ₛmg cos θ $\\geq$ mg sin θ, which simplifies to $\\mu$ₛ $\\geq$ sin θ/cos θ = tan θ. Choice B omits the cos θ term in normal force. Choice C inverts the relationship. Choice D uses cotangent instead of tangent."
+    "explanation": "For equilibrium on an incline: friction force up the plane equals component of weight down the plane. Maximum static friction is $\\mu$ₛN = $\\mu$ₛmg cos θ. Component of weight down plane is mg sin θ. For equilibrium: $\\mu$ₛmg cos θ $\\geq$ mg sin θ, which simplifies to $\\mu$ₛ $\\geq$ sin θ/cos θ = tan θ. Choice B omits the cos θ term in normal force. Choice C inverts the relationship. Choice D uses cotangent instead of tangent.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u2_q072",
@@ -4429,7 +4490,8 @@ window.PHYSICS_MCQ = [
       "The forces are equal only when both objects are stationary"
     ],
     "answer": 1,
-    "explanation": "Newton's third law states that action-reaction pairs are always equal in magnitude and opposite in direction, regardless of motion. The person pushes on the wall with force F, so the wall pushes back on the person with force F. The person slides because there's no friction to balance this reaction force, but this doesn't change the magnitude of the force pair. Choice A incorrectly suggests forces depend on motion. Choice C incorrectly assumes stationary objects exert no forces. Choice D incorrectly limits equal forces to stationary cases."
+    "explanation": "Newton's third law states that action-reaction pairs are always equal in magnitude and opposite in direction, regardless of motion. The person pushes on the wall with force F, so the wall pushes back on the person with force F. The person slides because there's no friction to balance this reaction force, but this doesn't change the magnitude of the force pair. Choice A incorrectly suggests forces depend on motion. Choice C incorrectly assumes stationary objects exert no forces. Choice D incorrectly limits equal forces to stationary cases.",
+    "type": "MCQ"
   },
   {
     "id": "U2-MCQ-02",
@@ -4501,7 +4563,8 @@ window.PHYSICS_MCQ = [
       "The gravitational force that the book exerts upward on Earth"
     ],
     "answer": 2,
-    "explanation": "Newton's third law pairs involve the same type of force between the same two objects, but in opposite directions. The table exerts a normal force upward on the book, so the reaction force is the normal force the book exerts downward on the table. Choice A pairs different force types (normal vs gravitational). Choice B involves different objects (floor-table instead of book-table). Choice D involves gravitational forces between book and Earth, not normal forces between book and table."
+    "explanation": "Newton's third law pairs involve the same type of force between the same two objects, but in opposite directions. The table exerts a normal force upward on the book, so the reaction force is the normal force the book exerts downward on the table. Choice A pairs different force types (normal vs gravitational). Choice B involves different objects (floor-table instead of book-table). Choice D involves gravitational forces between book and Earth, not normal forces between book and table.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q074",
@@ -4522,7 +4585,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "In uniform circular motion, speed remains constant while direction changes continuously. Velocity changes because direction changes, acceleration is always present (centripetal), and force varies depending on the system.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q075",
@@ -4543,7 +4607,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Centripetal acceleration always points toward the center of the circular path. Students often confuse this with tangential direction (velocity direction) or think it opposes motion.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q076",
@@ -4564,7 +4629,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Friction between tires and road provides the centripetal force for a car on a flat curve. Weight acts downward, normal force acts upward, and engine force is typically tangential to motion.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q077",
@@ -4585,7 +4651,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Gravitational force follows an inverse square law (F ∝ 1/$r^2$). When distance doubles, force becomes (1/2)² = 1/4 as strong. Students often forget the square relationship.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q078",
@@ -4606,7 +4673,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Gravitational force provides the centripetal force needed for orbital motion. Centrifugal force is a fictitious force, while magnetic and electric forces are negligible for planetary motion.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q079",
@@ -4627,7 +4695,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "For circular orbits, v = √(GM/r), so speed decreases as radius increases. Students often think satellites need to go faster to reach higher orbits, confusing launch requirements with orbital speed.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q080",
@@ -4648,7 +4717,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Kepler's First Law states orbits are ellipses with the Sun at one focus, not the center. Students often think orbits are perfect circles or place the Sun at the center of the ellipse.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q081",
@@ -4669,7 +4739,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Centripetal acceleration a = $v^2$/r, so increasing speed (v) increases acceleration when radius stays constant. Students sometimes think acceleration decreases because the motion looks more stable at higher speeds.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q082",
@@ -4690,7 +4761,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Kepler's Second Law (equal areas in equal times) means planets move fastest at perihelion (closest to Sun). Students often think planets move at constant speed or fastest when farthest away.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q083",
@@ -4711,7 +4783,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Since ac = $v^2$/r, if ac remains constant and r doubles, then $v^2$/(2r) = original ac. This means $v^2$ must double, so v increases by √2. Students often think speed doubles (confusing with radius) or stays same (not recognizing the relationship).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q084",
@@ -4732,7 +4805,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Centripetal acceleration always points toward the center of the circular path, regardless of the object's position. Students often confuse this with velocity direction (tangent) or think it points downward due to gravity.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q085",
@@ -4753,7 +4827,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Fc = m$v^2$/r = (2 kg)(6 m/s)²/(3 m) = (2)(36)/3 = 24 N. Common errors include forgetting to square the velocity (getting 12 N) or incorrect arithmetic leading to 36 N or 18 N.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q086",
@@ -4774,7 +4849,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "On a flat curve, static friction between tires and road provides the centripetal force directed toward the center. Normal force acts vertically upward, weight acts downward, and air resistance opposes motion but doesn't provide centripetal force.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q087",
@@ -4795,7 +4871,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "F = Gm₁m₂/$r^2$. If r becomes 3r, then F becomes Gm₁m₂/(3r)² = Gm₁m₂/9$r^2$ = F/9. Students often forget to square the distance factor, thinking it decreases by 3, or make other arithmetic errors.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q088",
@@ -4816,7 +4893,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Gravitational force follows F = $GMm/r^2$. Doubling the orbital radius means F becomes GMm/(2r)² = GMm/4$r^2$ = F/4. Students often think it decreases by factor of 2 (not squaring) or confuse with other orbital relationships.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q089",
@@ -4837,7 +4915,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "For circular orbits, v = √(GM/r). As r increases, v decreases since they're inversely related through the square root. Students often think speed increases (confusing with centripetal acceleration) or remains constant.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q090",
@@ -4858,7 +4937,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Kepler's third law: $T^2$ ∝ $r^3$. If TA = 8TB, then (8TB)² = 64T$B^2$ ∝ r$A^3$ and T$B^2$ ∝ r$B^3$. So r$A^3$/r$B^3$ = 64, meaning rA/rB = ∛64 = 4. Students often use wrong power relationships or arithmetic errors.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q091",
@@ -4879,7 +4959,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "All points on a rigid rotating object have the same angular velocity ω. Since ac = ω²r, the rim (r = R) has ac = ω²R while the halfway point (r = R/2) has ac = ω²R/2. Students often confuse angular and linear quantities.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q092",
@@ -4901,7 +4982,8 @@ window.PHYSICS_MCQ = [
     "answer": 3,
     "explanation": "At the bottom, tension must provide centripetal force AND support the weight: T = mg + m$v^2$/r. At the top: T = m$v^2$/r - mg. At sides: T = m$v^2$/r. Bottom has maximum tension. Students often think it's the same everywhere or maximum at the top.",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='155' cy='110' r='75' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='110' r='4' fill='#94a3b8'/><circle cx='155' cy='185' r='6' fill='#94a3b8'/><line x1='155' y1='110' x2='155' y2='185' stroke-width='1.5' stroke-dasharray='5 4' class='svg-axis'/><line x1='155' y1='185' x2='155.0' y2='133.0' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='155,123 160.0,133.0 150.0,133.0' fill='#16a34a' stroke='none'/><text x='161' y='147' text-anchor='start' fill='#16a34a' font-weight='600' class='svg-label'>T</text><line x1='155' y1='185' x2='155.0' y2='223.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,233 150.0,223.0 160.0,223.0' fill='#dc2626' stroke='none'/><text x='161' y='225' text-anchor='start' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><text x='155' y='251' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>T − F_g = mv²/r  →  T is maximum here</text><text x='167' y='189' text-anchor='start' font-size='10' class='svg-label'>Bottom</text></svg>",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q093",
@@ -4922,7 +5004,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "The two identical masses exert equal and opposite forces on the middle mass since it's equidistant from both. These forces cancel, giving zero net force. Students might add the forces instead of recognizing they cancel due to symmetry.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q094",
@@ -4943,7 +5026,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "The astronaut is continuously falling toward Earth but also moving forward, creating orbital motion. Both astronaut and spacecraft fall together, creating apparent weightlessness. Common misconceptions include thinking there's no gravity in space or that distance eliminates gravity.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q095",
@@ -4964,7 +5048,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "For a satellite in a stable circular orbit, gravity provides the centripetal force: $GMm/r^2$ = m$v^2$/r, which gives v = √(GM/r). A larger orbital radius r means lower orbital speed. The period T = 2πr/v = 2π√($r^3$/GM) increases with r, so higher altitude means longer period. Both relationships assume the satellite maintains a circular orbit at that radius - the speed is uniquely determined by the orbital radius. Students often confuse the energy needed to reach a higher orbit with the orbital speed at that orbit, or incorrectly apply the period relationship.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q096",
@@ -4985,7 +5070,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Kepler's second law (equal areas in equal times) requires faster motion when closer to the Sun to sweep equal areas. Students often think speed is constant (confusing with circular motion) or fastest when farthest (intuition about 'escape').",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q097",
@@ -5007,7 +5093,8 @@ window.PHYSICS_MCQ = [
     "answer": 2,
     "explanation": "On a banked curve at design speed, the normal force is perpendicular to the banked surface. Its horizontal component provides centripetal force while its vertical component balances weight. Students often think friction is always needed or that weight provides centripetal force.",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='231' y2='135' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='250' y2='220' stroke-width='2' class='svg-axis'/><line x1='250' y1='220' x2='231' y2='135' stroke-width='1' stroke-dasharray='3 3' class='svg-axis'/><path d='M 78,220 A 28,28 0 0,0 75,208' fill='none' stroke-width='1' class='svg-axis'/><text x='85' y='212' class='svg-label' font-size='11'>θ</text><line x1='66' y1='220' x2='58' y2='228' stroke-width='1' class='svg-axis'/><line x1='84' y1='220' x2='76' y2='228' stroke-width='1' class='svg-axis'/><line x1='102' y1='220' x2='94' y2='228' stroke-width='1' class='svg-axis'/><line x1='120' y1='220' x2='112' y2='228' stroke-width='1' class='svg-axis'/><line x1='138' y1='220' x2='130' y2='228' stroke-width='1' class='svg-axis'/><line x1='156' y1='220' x2='148' y2='228' stroke-width='1' class='svg-axis'/><line x1='174' y1='220' x2='166' y2='228' stroke-width='1' class='svg-axis'/><line x1='192' y1='220' x2='184' y2='228' stroke-width='1' class='svg-axis'/><rect x='118' y='148' width='32' height='32' fill='none' stroke-width='2' class='svg-axis'/><line x1='134' y1='164' x2='134.0' y2='219.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='134,229 129.0,219.0 139.0,219.0' fill='#dc2626' stroke='none'/><text x='134' y='243' text-anchor='middle' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><line x1='134' y1='164' x2='110.8' y2='114.2' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='106.52981298685455,105.08999384261774 115.3,112.0 106.2,116.3' fill='#3b82f6' stroke='none'/><text x='101' y='92' text-anchor='end' fill='#3b82f6' font-size='12' font-weight='600' class='svg-label'>F_N</text></svg>",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q098",
@@ -5028,7 +5115,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Gravitational field g = $GM/r^2$. At surface: g = $GM/R^2$. For half value: $GM/r^2$ = (1/2)($GM/R^2$), so $r^2$ = 2$R^2$, giving r = √2R. Students often think it's simply 2R (not squaring) or make other algebraic errors.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q099",
@@ -5049,7 +5137,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Centripetal acceleration ac = ω²r. If ω doubles, then ac becomes (2ω)²r = 4ω²r, increasing by factor of 4. Students often think it doubles (linear relationship misconception) or consider other relationships incorrectly.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q100",
@@ -5070,7 +5159,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "The wrench has the same orbital velocity as the space station when released, so it continues in the same orbit and appears to float relative to the astronauts. Students often think it falls down (Earth reference frame thinking) or flies away.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q101",
@@ -5091,7 +5181,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Using ac = $v^2$/r, if ac stays constant and r doubles, then $v^2$/(2r) = v₀²/r₀, so $v^2$ = 2v₀², meaning v = √2 × v₀. Choice B incorrectly assumes direct proportionality. Choice A inverts the relationship. Choice D ignores that radius affects the required speed for constant centripetal acceleration.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q102",
@@ -5112,7 +5203,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "At the design speed v₀, the horizontal component of the normal force provides exactly the needed centripetal force. At 2v₀, the required centripetal force is 4 times larger (since F = m$v^2$/r), but the normal force component remains the same. Additional centripetal force must come from friction pointing radially inward toward the center. This is consistent with AP Physics 1 curriculum, which requires students to analyze forces in circular motion scenarios, identify the net inward force requirement, and understand that friction can supply additional centripetal force when a vehicle exceeds the design speed of a banked curve. Students often incorrectly choose friction pointing outward (choice B) because they confuse the tendency of the car to slide outward with the direction friction must act to prevent that sliding, or they select choice D believing banking always eliminates friction needs.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q103",
@@ -5133,7 +5225,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Since both have the same centripetal acceleration a_c, and F = ma_c, the force ratio equals the mass ratio. Object A has twice the mass of B, so F_A/F_B = 2:1. Students often incorrectly try to use the radius difference or think equal accelerations mean equal forces (choice A), or incorrectly combine mass and radius effects (choices C and D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q104",
@@ -5155,7 +5248,8 @@ window.PHYSICS_MCQ = [
     "answer": 1,
     "explanation": "At the bottom, both tension and weight point toward the center (upward), so T - mg = m$v^2$/r, giving T = mg + m$v^2$/r. At the top, weight helps provide centripetal force, so T + mg = m$v^2$/r, giving T = m$v^2$/r - mg. The bottom gives the largest tension. Students often think tension is constant (choice D) or greatest at the top where the ball might 'fall' (choice A).",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='155' cy='110' r='75' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='110' r='4' fill='#94a3b8'/><circle cx='155' cy='185' r='6' fill='#94a3b8'/><line x1='155' y1='110' x2='155' y2='185' stroke-width='1.5' stroke-dasharray='5 4' class='svg-axis'/><line x1='155' y1='185' x2='155.0' y2='133.0' stroke='#16a34a' stroke-width='2.5' fill='none'/><polygon points='155,123 160.0,133.0 150.0,133.0' fill='#16a34a' stroke='none'/><text x='161' y='147' text-anchor='start' fill='#16a34a' font-weight='600' class='svg-label'>T</text><line x1='155' y1='185' x2='155.0' y2='223.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,233 150.0,223.0 160.0,223.0' fill='#dc2626' stroke='none'/><text x='161' y='225' text-anchor='start' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><text x='155' y='251' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>T − F_g = mv²/r  →  T is maximum here</text><text x='167' y='189' text-anchor='start' font-size='10' class='svg-label'>Bottom</text></svg>",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q105",
@@ -5176,7 +5270,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Using F = Gm₁m₂/$r^2$, the new force is G(2m)(m)/(d/3)² = 2G$m^2$/($d^2$/9) = 18G$m^2$/$d^2$ = 18F. The mass doubling contributes a factor of 2, and the distance reduction contributes a factor of 9. Students often miss one effect: only considering mass change (choice A), only considering distance change (choice B), or incorrectly combining both (choice D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q106",
@@ -5197,7 +5292,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "By conservation of angular momentum, mvr = constant, so v₁r₁ = v₂r₂. If r₂ = 4r₁, then v₁ = 4v₂, meaning the satellite is 4 times faster at perigee. Students often confuse this with energy relationships (choice A), think it's the square of the distance ratio (choice D), or incorrectly apply other orbital relationships (choice C).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q107",
@@ -5218,7 +5314,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "For circular orbits, v = √(GM/r). The ratio is v_A/v_B = √((GM/(R+h))/(GM/(R+3h))) = √((R+3h)/(R+h)). Students often forget the square root (choice C), invert the relationship (choices B and D), or get confused about which satellite is faster and how orbital radius affects speed.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q108",
@@ -5239,7 +5336,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Kepler's third law states $T^2$ ∝ $r^3$. If T_X = 8T_E, then (8T_E)² = 64T_$E^2$ ∝ r_$X^3$, and T_$E^2$ ∝ r_$E^3$. Therefore 64(r_$E^3$) ∝ r_$X^3$, so r_$X^3$ = 64r_$E^3$, giving r_X = 4r_E. Students often use the period ratio directly (choice C), square it (choice D), or take the square root (choice A) instead of the cube root.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q109",
@@ -5260,7 +5358,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Centripetal acceleration is a_c = 4π²$r/T^2$. When r doubles and T stays constant, a_c doubles. Students often think acceleration stays the same because speed increases proportionally (choice A), or incorrectly apply a_c = $v^2$/r to conclude it stays the same when v also changes (choice A), or think it quadruples by confusing relationships (choice C).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q110",
@@ -5281,7 +5380,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "The maximum friction force provides centripetal force: μmg = m$v^2$/r. Solving: v = √(μgr) = √(0.8 $\\times$ 10 $\\times$ 100) = √800 = 28.3 m/s $\\approx$ 28 m/s. Students often forget to take the square root (choice D), use incorrect friction relationships (choice A), or make calculation errors (choice B).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q111",
@@ -5302,7 +5402,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "For a conical pendulum, T = 2π√(L cos θ/g), where L is string length. As θ increases, cos θ decreases, making the effective length (L cos θ) smaller and the period shorter. Students often think the period increases because the radius increases (choice A), or think it's independent of angle (choice C).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q112",
@@ -5323,7 +5424,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Gravitational field g = $GM/r^2$. If g₂ = g₁/4, then GM/r₂² = ($GM/R^2$)/4, so 1/r₂² = 1/(4$R^2$), giving r₂² = 4$R^2$, thus r₂ = 2R. Students often think the distance should be 1/4 as much (choice A), confuse inverse relationships (choice B), or think it should be 4 times farther (choice D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q113",
@@ -5344,7 +5446,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "The first burn increases speed to enter the transfer ellipse, but this speed is less than the final circular orbital speed at 4h. A second burn at apogee is needed to circularize the orbit. Students often think one burn gives the final speed (choice A), or that speed decreases when going to higher orbits (choice C), confusing the overall relationship with the immediate effect of the burn.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q114",
@@ -5365,7 +5468,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Kepler's second law (equal areas in equal times) gives us conservation of angular momentum: v₁r₁ = v₂r₂. So v₂/v₁ = r₁/r₂ = 1 AU/17 AU = 1/17. Students often confuse this with other inverse square relationships (choice A), think it involves square roots (choice B), or apply energy relationships incorrectly (choice D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q115",
@@ -5386,7 +5490,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "On a rigid rotating disk, all points have the same angular velocity ω. Centripetal acceleration a_c = ω²r, so the point at 2r has acceleration ω²(2r) = 4ω²r, which is four times larger. Students often think acceleration only doubles with radius (choice B), or confuse angular and linear quantities (choice D), or think acceleration doesn't depend on radius (choice A).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q116",
@@ -5408,7 +5513,8 @@ window.PHYSICS_MCQ = [
     "answer": 3,
     "explanation": "At the top with zero tension, gravity alone provides centripetal force: mg = m$v^2$/r, so v_top = √(gr). Using energy conservation from top to bottom: $\\frac{1}{2}$mv_to$p^2$ + mg(2r) = $\\frac{1}{2}$mv_botto$m^2$, giving $\\frac{1}{2}$m(gr) + 2mgr = $\\frac{1}{2}$mv_botto$m^2$, so v_bottom = √(5gr). Students often use only the top condition (choice A), forget the height difference (choice C), or make energy calculation errors (choice B).",
     "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><circle cx='155' cy='155' r='75' fill='none' stroke-width='2' class='svg-axis'/><circle cx='155' cy='155' r='4' fill='#94a3b8'/><circle cx='155' cy='80' r='6' fill='#94a3b8'/><line x1='155' y1='155' x2='155' y2='80' stroke-width='1.5' stroke-dasharray='5 4' class='svg-axis'/><text x='165' y='74' text-anchor='start' fill='#16a34a' font-size='11' class='svg-label'>T = 0</text><line x1='155' y1='80' x2='155.0' y2='130.0' stroke='#dc2626' stroke-width='2.5' fill='none'/><polygon points='155,140 150.0,130.0 160.0,130.0' fill='#dc2626' stroke='none'/><text x='161' y='128' text-anchor='start' fill='#dc2626' font-size='12' font-weight='600' class='svg-label'>F_g</text><text x='155' y='58' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>mg = mv²/r  →  v_top = √(gr)</text><text x='141' y='84' text-anchor='end' font-size='10' class='svg-label'>Top</text></svg>",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u3_q117",
@@ -5429,7 +5535,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "For circular orbits, gravitational force provides centripetal force: $GMm/r^2$ = m$v^2$/r, so v = √(GM/r). When radius increases by factor of 4, speed decreases by factor of √4 = 2, giving v/2. Students often think speed is inversely proportional to radius (choice A), or that larger orbits mean higher speeds from everyday experience (choices C, D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "U3-MCQ-02",
@@ -5554,7 +5661,8 @@ window.PHYSICS_MCQ = [
       "Newton-meter per second"
     ],
     "answer": 0,
-    "explanation": "Work is measured in Joules (J). Watt is the unit for power, Newton is the unit for force, and Newton-meter per second is not a standard unit (students might confuse this with the definition of work as force times distance)."
+    "explanation": "Work is measured in Joules (J). Watt is the unit for power, Newton is the unit for force, and Newton-meter per second is not a standard unit (students might confuse this with the definition of work as force times distance).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q119",
@@ -5574,7 +5682,8 @@ window.PHYSICS_MCQ = [
       "KE = 2m$v^2$"
     ],
     "answer": 0,
-    "explanation": "Kinetic energy is KE = (1/2)m$v^2$. Option B forgets the 1/2 factor, option C is missing the velocity squared, and option D has an incorrect coefficient of 2 instead of 1/2."
+    "explanation": "Kinetic energy is KE = (1/2)m$v^2$. Option B forgets the 1/2 factor, option C is missing the velocity squared, and option D has an incorrect coefficient of 2 instead of 1/2.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q120",
@@ -5594,7 +5703,8 @@ window.PHYSICS_MCQ = [
       "momentum"
     ],
     "answer": 0,
-    "explanation": "The work-energy theorem specifically relates net work to the change in kinetic energy. Students often confuse this with potential energy or total energy, but the theorem directly connects work to kinetic energy changes."
+    "explanation": "The work-energy theorem specifically relates net work to the change in kinetic energy. Students often confuse this with potential energy or total energy, but the theorem directly connects work to kinetic energy changes.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q121",
@@ -5614,7 +5724,8 @@ window.PHYSICS_MCQ = [
       "direction of motion"
     ],
     "answer": 0,
-    "explanation": "Gravitational potential energy depends on height above a reference point (PE = mgh). Speed relates to kinetic energy, acceleration relates to force, and direction of motion doesn't affect the magnitude of potential energy."
+    "explanation": "Gravitational potential energy depends on height above a reference point (PE = mgh). Speed relates to kinetic energy, acceleration relates to force, and direction of motion doesn't affect the magnitude of potential energy.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q122",
@@ -5634,7 +5745,8 @@ window.PHYSICS_MCQ = [
       "momentum"
     ],
     "answer": 0,
-    "explanation": "When only conservative forces act, total mechanical energy (KE + PE) is conserved. Kinetic and potential energy individually can change as they convert between forms, and momentum conservation is a separate principle."
+    "explanation": "When only conservative forces act, total mechanical energy (KE + PE) is conserved. Kinetic and potential energy individually can change as they convert between forms, and momentum conservation is a separate principle.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q123",
@@ -5654,7 +5766,8 @@ window.PHYSICS_MCQ = [
       "energy stored in a system"
     ],
     "answer": 0,
-    "explanation": "Power is the rate of doing work (P = W/t). The amount of work done is just work, force times distance is also work, and energy stored in a system describes potential energy."
+    "explanation": "Power is the rate of doing work (P = W/t). The amount of work done is just work, force times distance is also work, and energy stored in a system describes potential energy.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q124",
@@ -5674,7 +5787,8 @@ window.PHYSICS_MCQ = [
       "PE = kx"
     ],
     "answer": 0,
-    "explanation": "Spring potential energy is PE = (1/2)k$x^2$ where k is the spring constant and x is displacement. Option B is missing the 1/2 factor, options C and D are missing the $x^2$ term (students often forget that energy depends on displacement squared)."
+    "explanation": "Spring potential energy is PE = (1/2)k$x^2$ where k is the spring constant and x is displacement. Option B is missing the 1/2 factor, options C and D are missing the $x^2$ term (students often forget that energy depends on displacement squared).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q125",
@@ -5694,7 +5808,8 @@ window.PHYSICS_MCQ = [
       "potential energy and height"
     ],
     "answer": 0,
-    "explanation": "Hooke's law (F = -kx) relates the restoring force to displacement for springs. The other options describe different physics relationships: KE and velocity, power (not work and time directly), and gravitational PE and height."
+    "explanation": "Hooke's law (F = -kx) relates the restoring force to displacement for springs. The other options describe different physics relationships: KE and velocity, power (not work and time directly), and gravitational PE and height.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q126",
@@ -5714,7 +5829,8 @@ window.PHYSICS_MCQ = [
       "equal to the displacement"
     ],
     "answer": 0,
-    "explanation": "Work = F·d·cos(θ). When force is perpendicular to motion, θ = 90° and cos(90°) = 0, so work = 0. Students often think perpendicular forces do maximum work or confuse work with force or displacement values."
+    "explanation": "Work = F·d·cos(θ). When force is perpendicular to motion, θ = 90° and cos(90°) = 0, so work = 0. Students often think perpendicular forces do maximum work or confuse work with force or displacement values.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q127",
@@ -5734,7 +5850,8 @@ window.PHYSICS_MCQ = [
       "remains the same"
     ],
     "answer": 0,
-    "explanation": "Since KE = (1/2)m$v^2$, if speed doubles, then $v^2$ increases by a factor of 4, so kinetic energy increases by a factor of 4. Students often think it just doubles (linear relationship) or confuse with other relationships."
+    "explanation": "Since KE = (1/2)m$v^2$, if speed doubles, then $v^2$ increases by a factor of 4, so kinetic energy increases by a factor of 4. Students often think it just doubles (linear relationship) or confuse with other relationships.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q128",
@@ -5754,7 +5871,8 @@ window.PHYSICS_MCQ = [
       "Joule per meter"
     ],
     "answer": 0,
-    "explanation": "Power is measured in Watts (W), which equals Joules per second. Joule is the unit for energy/work, Newton is for force, and Joule per meter would be a unit for force (since work = force × distance)."
+    "explanation": "Power is measured in Watts (W), which equals Joules per second. Joule is the unit for energy/work, Newton is for force, and Joule per meter would be a unit for force (since work = force × distance).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q129",
@@ -5774,7 +5892,8 @@ window.PHYSICS_MCQ = [
       "50 J"
     ],
     "answer": 0,
-    "explanation": "Work = F·d·cos(θ). First segment: W₁ = 10 N × 5 m × cos(0°) = 50 J. Second segment: W₂ = 10 N × 3 m × cos(30°) = 30 × 0.866 = 26 J. Total work = 76 J. Choice B ignores the angle change. Choice C adds the distances first then calculates work. Choice D only considers the first segment."
+    "explanation": "Work = F·d·cos(θ). First segment: W₁ = 10 N × 5 m × cos(0°) = 50 J. Second segment: W₂ = 10 N × 3 m × cos(30°) = 30 × 0.866 = 26 J. Total work = 76 J. Choice B ignores the angle change. Choice C adds the distances first then calculates work. Choice D only considers the first segment.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q130",
@@ -5794,7 +5913,8 @@ window.PHYSICS_MCQ = [
       "2:1"
     ],
     "answer": 0,
-    "explanation": "Since KE = $\\frac{1}{2}$m$v^2$, and both have equal KE: $\\frac{1}{2}$(2m)v₁² = $\\frac{1}{2}$mv₂². This gives 2mv₁² = mv₂², so 2v₁² = v₂², therefore v₂ = v₁√2, making the ratio v₁:v₂ = 1:√2. Choice B reverses the ratio. Choice C assumes linear relationship with mass. Choice D assumes inverse linear relationship with mass."
+    "explanation": "Since KE = $\\frac{1}{2}$m$v^2$, and both have equal KE: $\\frac{1}{2}$(2m)v₁² = $\\frac{1}{2}$mv₂². This gives 2mv₁² = mv₂², so 2v₁² = v₂², therefore v₂ = v₁√2, making the ratio v₁:v₂ = 1:√2. Choice B reverses the ratio. Choice C assumes linear relationship with mass. Choice D assumes inverse linear relationship with mass.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q131",
@@ -5814,7 +5934,8 @@ window.PHYSICS_MCQ = [
       "144 J"
     ],
     "answer": 3,
-    "explanation": "Net force = 12 N − 4 N = 8 N. By Newton's second law: a = 8/2 = 4 m/s². After 3 s from rest: v = 4 × 3 = 12 m/s. Final KE = ½mv² = ½(2)(12²) = ½(2)(144) = 144 J. This is confirmed by the work-energy theorem: d = ½at² = ½(4)(9) = 18 m, so W_net = 8 × 18 = 144 J. Choice A (288 J) doubles the answer in error. Choice B (432 J) uses the applied force alone (12 × 18 = 216 J, or some other error). Choice C (216 J) is incorrect."
+    "explanation": "Net force = 12 N − 4 N = 8 N. By Newton's second law: a = 8/2 = 4 m/s². After 3 s from rest: v = 4 × 3 = 12 m/s. Final KE = ½mv² = ½(2)(12²) = ½(2)(144) = 144 J. This is confirmed by the work-energy theorem: d = ½at² = ½(4)(9) = 18 m, so W_net = 8 × 18 = 144 J. Choice A (288 J) doubles the answer in error. Choice B (432 J) uses the applied force alone (12 × 18 = 216 J, or some other error). Choice C (216 J) is incorrect.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q132",
@@ -5834,7 +5955,8 @@ window.PHYSICS_MCQ = [
       "9 m"
     ],
     "answer": 0,
-    "explanation": "Using work-energy theorem: W_net = ΔKE. Final KE = $\\frac{1}{2}$(2)(1$2^2$) = 144 J. Initial KE = 0. Net force = 12 - 4 = 8 N. So W_net = 8d = 144 J, therefore d = 18 m. Choice B uses only the applied force (12d = 144). Choice C uses applied force minus friction calculated incorrectly. Choice D uses only the friction force calculation."
+    "explanation": "Using work-energy theorem: W_net = ΔKE. Final KE = $\\frac{1}{2}$(2)(1$2^2$) = 144 J. Initial KE = 0. Net force = 12 - 4 = 8 N. So W_net = 8d = 144 J, therefore d = 18 m. Choice B uses only the applied force (12d = 144). Choice C uses applied force minus friction calculated incorrectly. Choice D uses only the friction force calculation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q133",
@@ -5854,7 +5976,8 @@ window.PHYSICS_MCQ = [
       "0 J"
     ],
     "answer": 0,
-    "explanation": "Change in gravitational PE depends only on change in height: ΔPE = mgh_final - mgh_initial = mg(h_final - h_initial). The object starts at some height, goes up 10 m, moves horizontally (no height change), then down 4 m. Net height change = +10 - 4 = +6 m. ΔPE = (5)(10)(6) = 300 J. Choice B uses only the upward displacement. Choice C uses only the net displacement incorrectly. Choice D assumes the object returned to original height."
+    "explanation": "Change in gravitational PE depends only on change in height: ΔPE = mgh_final - mgh_initial = mg(h_final - h_initial). The object starts at some height, goes up 10 m, moves horizontally (no height change), then down 4 m. Net height change = +10 - 4 = +6 m. ΔPE = (5)(10)(6) = 300 J. Choice B uses only the upward displacement. Choice C uses only the net displacement incorrectly. Choice D assumes the object returned to original height.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q134",
@@ -5874,7 +5997,8 @@ window.PHYSICS_MCQ = [
       "0.36"
     ],
     "answer": 0,
-    "explanation": "Initial energy E₀ = mgh (all potential). After bounce, energy E₁ = mg(0.8h) (all potential at maximum height). Energy lost = E₀ - E₁ = mgh - mg(0.8h) = 0.2mgh. Fraction lost = (0.2mgh)/(mgh) = 0.2. Choice B gives fraction retained. Choice C squares the height ratio. Choice D incorrectly calculates (1 - 0.$8^2$)."
+    "explanation": "Initial energy E₀ = mgh (all potential). After bounce, energy E₁ = mg(0.8h) (all potential at maximum height). Energy lost = E₀ - E₁ = mgh - mg(0.8h) = 0.2mgh. Fraction lost = (0.2mgh)/(mgh) = 0.2. Choice B gives fraction retained. Choice C squares the height ratio. Choice D incorrectly calculates (1 - 0.$8^2$).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q135",
@@ -5894,7 +6018,8 @@ window.PHYSICS_MCQ = [
       "m(800) J"
     ],
     "answer": 0,
-    "explanation": "Initial energy = mgh = m(10)(40) = 400m J. Final energy = $\\frac{1}{2}$m$v^2$ = $\\frac{1}{2}$m(2$0^2$) = 200m J. Energy lost to friction = Initial - Final = 400m - 200m = 200m J. Choice B gives final kinetic energy. Choice C gives initial potential energy. Choice D gives sum instead of difference."
+    "explanation": "Initial energy = mgh = m(10)(40) = 400m J. Final energy = $\\frac{1}{2}$m$v^2$ = $\\frac{1}{2}$m(2$0^2$) = 200m J. Energy lost to friction = Initial - Final = 400m - 200m = 200m J. Choice B gives final kinetic energy. Choice C gives initial potential energy. Choice D gives sum instead of difference.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q136",
@@ -5914,7 +6039,8 @@ window.PHYSICS_MCQ = [
       "6250 W"
     ],
     "answer": 0,
-    "explanation": "Mechanical power output needed = Fv = mgv = (200)(10)(2) = 4000 W. Since efficiency = P_out/P_in = 0.8, we have P_in = P_out/0.8 = 4000/0.8 = 5000 W. Choice B gives mechanical power output only. Choice C incorrectly multiplies by efficiency instead of dividing. Choice D uses wrong efficiency calculation."
+    "explanation": "Mechanical power output needed = Fv = mgv = (200)(10)(2) = 4000 W. Since efficiency = P_out/P_in = 0.8, we have P_in = P_out/0.8 = 4000/0.8 = 5000 W. Choice B gives mechanical power output only. Choice C incorrectly multiplies by efficiency instead of dividing. Choice D uses wrong efficiency calculation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q137",
@@ -5934,7 +6060,8 @@ window.PHYSICS_MCQ = [
       "300 kJ"
     ],
     "answer": 0,
-    "explanation": "Energy supplied by engine = P × t = 40,000 W × 8 s = 320,000 J = 320 kJ. Kinetic energy gained = ½mv² = ½(1500)(20²) = ½(1500)(400) = 300,000 J = 300 kJ. Energy lost to friction and air resistance = 320 kJ − 300 kJ = 20 kJ. Choice B (220 kJ) is incorrect. Choice C (320 kJ) is the total engine energy, not the lost portion. Choice D (300 kJ) is the kinetic energy gained, not the energy lost."
+    "explanation": "Energy supplied by engine = P × t = 40,000 W × 8 s = 320,000 J = 320 kJ. Kinetic energy gained = ½mv² = ½(1500)(20²) = ½(1500)(400) = 300,000 J = 300 kJ. Energy lost to friction and air resistance = 320 kJ − 300 kJ = 20 kJ. Choice B (220 kJ) is incorrect. Choice C (320 kJ) is the total engine energy, not the lost portion. Choice D (300 kJ) is the kinetic energy gained, not the energy lost.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q138",
@@ -5954,7 +6081,8 @@ window.PHYSICS_MCQ = [
       "108 kJ"
     ],
     "answer": 1,
-    "explanation": "Energy supplied by engine = P × t = 40,000 W × 8 s = 320 kJ. Kinetic energy gained = $\\frac{1}{2}$m$v^2$ = $\\frac{1}{2}$(1500)(1$2^2$) = $\\frac{1}{2}$(1500)(144) = 108 kJ. Energy lost to friction = Energy supplied - KE gained = 320 - 108 = 212 kJ. Choice A uses wrong KE calculation. Choice C gives total energy supplied. Choice D gives only the kinetic energy gained."
+    "explanation": "Energy supplied by engine = P × t = 40,000 W × 8 s = 320 kJ. Kinetic energy gained = $\\frac{1}{2}$m$v^2$ = $\\frac{1}{2}$(1500)(1$2^2$) = $\\frac{1}{2}$(1500)(144) = 108 kJ. Energy lost to friction = Energy supplied - KE gained = 320 - 108 = 212 kJ. Choice A uses wrong KE calculation. Choice C gives total energy supplied. Choice D gives only the kinetic energy gained.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q139",
@@ -5974,7 +6102,8 @@ window.PHYSICS_MCQ = [
       "2 J"
     ],
     "answer": 1,
-    "explanation": "Additional energy = ΔPE = ½kx₂² − ½kx₁² = ½(400)(0.3²) − ½(400)(0.2²) = 18 J − 8 J = 10 J. Choice A (18 J) is the total final PE, not the additional energy needed. Choice C (8 J) is the initial PE. Choice D (2 J) may come from incorrectly using ½k(Δx)² = ½(400)(0.1²) = 2 J, which ignores that spring PE is non-linear."
+    "explanation": "Additional energy = ΔPE = ½kx₂² − ½kx₁² = ½(400)(0.3²) − ½(400)(0.2²) = 18 J − 8 J = 10 J. Choice A (18 J) is the total final PE, not the additional energy needed. Choice C (8 J) is the initial PE. Choice D (2 J) may come from incorrectly using ½k(Δx)² = ½(400)(0.1²) = 2 J, which ignores that spring PE is non-linear.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q140",
@@ -5994,7 +6123,8 @@ window.PHYSICS_MCQ = [
       "16 J"
     ],
     "answer": 3,
-    "explanation": "Additional energy = ΔPE = ½kx₂² − ½kx₁² = ½(200)(0.5²) − ½(200)(0.3²) = 25 J − 9 J = 16 J. Choice A (18 J) is incorrect. Choice B (10 J) may come from ½k(Δx)² = ½(200)(0.2²) = 4 J (also wrong) or from confusing with a similar question. Choice C (25 J) is the total final PE, not the additional energy required."
+    "explanation": "Additional energy = ΔPE = ½kx₂² − ½kx₁² = ½(200)(0.5²) − ½(200)(0.3²) = 25 J − 9 J = 16 J. Choice A (18 J) is incorrect. Choice B (10 J) may come from ½k(Δx)² = ½(200)(0.2²) = 4 J (also wrong) or from confusing with a similar question. Choice C (25 J) is the total final PE, not the additional energy required.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q141",
@@ -6014,7 +6144,8 @@ window.PHYSICS_MCQ = [
       "240 N"
     ],
     "answer": 0,
-    "explanation": "Using Hooke's law F = kx: k = F/x = 20 N / 0.05 m = 400 N/m. For 0.12 m stretch: F = kx = (400)(0.12) = 48 N. Choice B incorrectly uses inverse proportion. Choice C assumes force is independent of stretch. Choice D multiplies instead of finding proportional relationship correctly."
+    "explanation": "Using Hooke's law F = kx: k = F/x = 20 N / 0.05 m = 400 N/m. For 0.12 m stretch: F = kx = (400)(0.12) = 48 N. Choice B incorrectly uses inverse proportion. Choice C assumes force is independent of stretch. Choice D multiplies instead of finding proportional relationship correctly.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q142",
@@ -6034,7 +6165,8 @@ window.PHYSICS_MCQ = [
       "4k"
     ],
     "answer": 0,
-    "explanation": "In parallel, both springs stretch the same amount x but share the total force F. Each spring experiences F/2, so F/2 = kx for each spring. Total force F = 2kx, so effective spring constant k_eff = F/x = 2k. Choice B confuses with series connection. Choice C assumes no change. Choice D incorrectly squares the relationship."
+    "explanation": "In parallel, both springs stretch the same amount x but share the total force F. Each spring experiences F/2, so F/2 = kx for each spring. Total force F = 2kx, so effective spring constant k_eff = F/x = 2k. Choice B confuses with series connection. Choice C assumes no change. Choice D incorrectly squares the relationship.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q143",
@@ -6054,7 +6186,8 @@ window.PHYSICS_MCQ = [
       "1155 J"
     ],
     "answer": 0,
-    "explanation": "Since the applied force is parallel to the incline and the displacement is along the incline, W = F·d·cos(0°) = 100 N $\\times$ 10 m × 1 = 1000 J. Choice B incorrectly applies cos(30°) to the force. Choice C incorrectly applies cos(60°). Choice D incorrectly applies sec(30°)."
+    "explanation": "Since the applied force is parallel to the incline and the displacement is along the incline, W = F·d·cos(0°) = 100 N $\\times$ 10 m × 1 = 1000 J. Choice B incorrectly applies cos(30°) to the force. Choice C incorrectly applies cos(60°). Choice D incorrectly applies sec(30°).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q144",
@@ -6074,7 +6207,8 @@ window.PHYSICS_MCQ = [
       "8"
     ],
     "answer": 0,
-    "explanation": "KE₁ = $\\frac{1}{2}$m(1$0^2$) = 50m and KE₂ = $\\frac{1}{2}$m(3$0^2$) = 450m. The ratio KE₂/KE₁ = 450m/50m = 9. Kinetic energy depends on $v^2$, so (30/10)² = 9. Choice B uses linear relationship with speed. Choice C incorrectly adds the squares. Choice D uses some other incorrect calculation."
+    "explanation": "KE₁ = $\\frac{1}{2}$m(1$0^2$) = 50m and KE₂ = $\\frac{1}{2}$m(3$0^2$) = 450m. The ratio KE₂/KE₁ = 450m/50m = 9. Kinetic energy depends on $v^2$, so (30/10)² = 9. Choice B uses linear relationship with speed. Choice C incorrectly adds the squares. Choice D uses some other incorrect calculation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q145",
@@ -6094,7 +6228,8 @@ window.PHYSICS_MCQ = [
       "h/√2"
     ],
     "answer": 0,
-    "explanation": "Maximum KE occurs at bottom where all PE converts to KE: KE_max = mgh. At height y, KE = mg(h-y). For KE = KE_max/2: mg(h-y) = mgh/2, so h-y = h/2, therefore y = h/2. Choice B gives quarter height. Choice C gives three-quarters height. Choice D applies incorrect square root relationship."
+    "explanation": "Maximum KE occurs at bottom where all PE converts to KE: KE_max = mgh. At height y, KE = mg(h-y). For KE = KE_max/2: mg(h-y) = mgh/2, so h-y = h/2, therefore y = h/2. Choice B gives quarter height. Choice C gives three-quarters height. Choice D applies incorrect square root relationship.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q146",
@@ -6114,7 +6249,8 @@ window.PHYSICS_MCQ = [
       "140 J"
     ],
     "answer": 0,
-    "explanation": "Applied work = 50 N × 8 m = 400 J. Friction force = $\\mu$ₖmg = 0.3 $\\times$ 10 $\\times$ 10 = 30 N. Work by friction = -30 N × 8 m = -240 J. Net work = 400 - 240 = 160 J. Choice B gives only applied work. Choice C gives only magnitude of friction work. Choice D uses incorrect friction calculation."
+    "explanation": "Applied work = 50 N × 8 m = 400 J. Friction force = $\\mu$ₖmg = 0.3 $\\times$ 10 $\\times$ 10 = 30 N. Work by friction = -30 N × 8 m = -240 J. Net work = 400 - 240 = 160 J. Choice B gives only applied work. Choice C gives only magnitude of friction work. Choice D uses incorrect friction calculation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q147",
@@ -6134,7 +6270,8 @@ window.PHYSICS_MCQ = [
       "7.07 m/s"
     ],
     "answer": 0,
-    "explanation": "At maximum stretch, all energy is potential: PE = $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$(800)(0.2$5^2$) = 25 J. At maximum speed (equilibrium position), all energy is kinetic: KE = $\\frac{1}{2}$m$v^2$ = 25 J. Solving: $\\frac{1}{2}$(2)$v^2$ = 25, so $v^2$ = 25, therefore v = 5 m/s. Choice B doubles the answer incorrectly. Choice C halves the answer. Choice D uses incorrect energy conversion."
+    "explanation": "At maximum stretch, all energy is potential: PE = $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$(800)(0.2$5^2$) = 25 J. At maximum speed (equilibrium position), all energy is kinetic: KE = $\\frac{1}{2}$m$v^2$ = 25 J. Solving: $\\frac{1}{2}$(2)$v^2$ = 25, so $v^2$ = 25, therefore v = 5 m/s. Choice B doubles the answer incorrectly. Choice C halves the answer. Choice D uses incorrect energy conversion.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q148",
@@ -6154,7 +6291,8 @@ window.PHYSICS_MCQ = [
       "10000 W"
     ],
     "answer": 0,
-    "explanation": "Work done against gravity = mgh = 500 $\\times$ 10 × 20 = 100,000 J. Average power = Work/time = 100,000 J / 25 s = 4000 W. Choice B uses incorrect mass or height. Choice C uses incorrect time. Choice D doubles the correct answer."
+    "explanation": "Work done against gravity = mgh = 500 $\\times$ 10 × 20 = 100,000 J. Average power = Work/time = 100,000 J / 25 s = 4000 W. Choice B uses incorrect mass or height. Choice C uses incorrect time. Choice D doubles the correct answer.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q149",
@@ -6174,7 +6312,8 @@ window.PHYSICS_MCQ = [
       "72 J"
     ],
     "answer": 0,
-    "explanation": "First find final velocity using conservation of momentum: (2 kg)(6 m/s) = (6 kg)v_f, so v_f = 2 m/s. Then KE = $\\frac{1}{2}$(6 kg)(2 m/s)² = 12 J. Choice B incorrectly uses only the 4 kg object's mass rather than the combined 6 kg mass in the kinetic energy calculation. Choice C is the initial KE. Choice D doubles the initial KE incorrectly."
+    "explanation": "First find final velocity using conservation of momentum: (2 kg)(6 m/s) = (6 kg)v_f, so v_f = 2 m/s. Then KE = $\\frac{1}{2}$(6 kg)(2 m/s)² = 12 J. Choice B incorrectly uses only the 4 kg object's mass rather than the combined 6 kg mass in the kinetic energy calculation. Choice C is the initial KE. Choice D doubles the initial KE incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q150",
@@ -6194,7 +6333,8 @@ window.PHYSICS_MCQ = [
       "8.0 m"
     ],
     "answer": 1,
-    "explanation": "Using conservation of energy: Initial energy = Final energy at max height. $\\frac{1}{2}$mv₀² + mgh₀ = mgh_max. $\\frac{1}{2}$(0.5)($8^2$) + (0.5)(10)(2) = (0.5)(10)h_max. 16 + 10 = 5h_max, so h_max = 5.2 m. Choice A only considers kinetic energy conversion. Choice C ignores initial height. Choice D uses incorrect energy calculation."
+    "explanation": "Using conservation of energy: Initial energy = Final energy at max height. $\\frac{1}{2}$mv₀² + mgh₀ = mgh_max. $\\frac{1}{2}$(0.5)($8^2$) + (0.5)(10)(2) = (0.5)(10)h_max. 16 + 10 = 5h_max, so h_max = 5.2 m. Choice A only considers kinetic energy conversion. Choice C ignores initial height. Choice D uses incorrect energy calculation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q151",
@@ -6214,7 +6354,8 @@ window.PHYSICS_MCQ = [
       "5.4 m/s"
     ],
     "answer": 1,
-    "explanation": "Using conservation of energy: mgh₁ = $\\frac{1}{2}$m$v^2$ + mgh₂. (2)(10)(1.2) = $\\frac{1}{2}$(2)$v^2$ + (2)(10)(0.5). 24 = $v^2$ + 10, so $v^2$ = 14 and v = 3.7 m/s. Choice A uses wrong height difference. Choice C assumes motion from 1.2 m to ground. Choice D incorrectly calculates energy conversion."
+    "explanation": "Using conservation of energy: mgh₁ = $\\frac{1}{2}$m$v^2$ + mgh₂. (2)(10)(1.2) = $\\frac{1}{2}$(2)$v^2$ + (2)(10)(0.5). 24 = $v^2$ + 10, so $v^2$ = 14 and v = 3.7 m/s. Choice A uses wrong height difference. Choice C assumes motion from 1.2 m to ground. Choice D incorrectly calculates energy conversion.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q152",
@@ -6234,7 +6375,8 @@ window.PHYSICS_MCQ = [
       "1600 W"
     ],
     "answer": 2,
-    "explanation": "Mechanical power output = Force × velocity = mg × v = (50)(10)(2) = 1000 W. Since efficiency = 80%, electrical power input = mechanical power output / efficiency = 1000 W / 0.8 = 1250 W. Choice A confuses input with output. Choice B gives mechanical power only. Choice D incorrectly multiplies by efficiency instead of dividing."
+    "explanation": "Mechanical power output = Force × velocity = mg × v = (50)(10)(2) = 1000 W. Since efficiency = 80%, electrical power input = mechanical power output / efficiency = 1000 W / 0.8 = 1250 W. Choice A confuses input with output. Choice B gives mechanical power only. Choice D incorrectly multiplies by efficiency instead of dividing.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q153",
@@ -6254,7 +6396,8 @@ window.PHYSICS_MCQ = [
       "400 N/m"
     ],
     "answer": 3,
-    "explanation": "Using conservation of energy: Spring PE converts to KE. $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$m$v^2$. $\\frac{1}{2}$k(0.1)² = $\\frac{1}{2}$(0.2)(2)². $\\frac{1}{2}$k(0.01) = 0.4. k(0.005) = 0.4, so k = 400 N/m. Choice A uses wrong mass. Choice B uses wrong compression. Choice C makes calculation error with the squared terms."
+    "explanation": "Using conservation of energy: Spring PE converts to KE. $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$m$v^2$. $\\frac{1}{2}$k(0.1)² = $\\frac{1}{2}$(0.2)(2)². $\\frac{1}{2}$k(0.01) = 0.4. k(0.005) = 0.4, so k = 400 N/m. Choice A uses wrong mass. Choice B uses wrong compression. Choice C makes calculation error with the squared terms.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q154",
@@ -6274,7 +6417,8 @@ window.PHYSICS_MCQ = [
       "0.4 m"
     ],
     "answer": 2,
-    "explanation": "At equilibrium, spring force equals weight: kx = mg. For total mass of 6 kg: x = mg/k = (6)(10)/200 = 0.3 m. Choice A only considers original 4 kg mass. Choice B uses 5 kg mass incorrectly. Choice D uses 8 kg mass. The key is recognizing that the spring compresses to support the total weight."
+    "explanation": "At equilibrium, spring force equals weight: kx = mg. For total mass of 6 kg: x = mg/k = (6)(10)/200 = 0.3 m. Choice A only considers original 4 kg mass. Choice B uses 5 kg mass incorrectly. Choice D uses 8 kg mass. The key is recognizing that the spring compresses to support the total weight.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q155",
@@ -6294,7 +6438,8 @@ window.PHYSICS_MCQ = [
       "5.7 m/s"
     ],
     "answer": 2,
-    "explanation": "Spring PE converts completely to KE: $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$m$v^2$. $\\frac{1}{2}$(250)(0.08)² = $\\frac{1}{2}$(0.05)$v^2$. $\\frac{1}{2}$(250)(0.0064) = 0.025$v^2$. 0.8 = 0.025$v^2$. $v^2$ = 32, so v = 4.0 m/s. Choice A uses wrong spring compression. Choice B makes calculation error with mass. Choice D confuses the energy conversion calculation."
+    "explanation": "Spring PE converts completely to KE: $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$m$v^2$. $\\frac{1}{2}$(250)(0.08)² = $\\frac{1}{2}$(0.05)$v^2$. $\\frac{1}{2}$(250)(0.0064) = 0.025$v^2$. 0.8 = 0.025$v^2$. $v^2$ = 32, so v = 4.0 m/s. Choice A uses wrong spring compression. Choice B makes calculation error with mass. Choice D confuses the energy conversion calculation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q156",
@@ -6314,7 +6459,8 @@ window.PHYSICS_MCQ = [
       "8:1"
     ],
     "answer": 1,
-    "explanation": "Using the work-energy theorem: Fd = $\\frac{1}{2}$m$v^2$. For the car traveling at speed v: Fd₁ = $\\frac{1}{2}$m$v^2$. For the car traveling at speed 2v: Fd₂ = $\\frac{1}{2}$m(2v)² = $\\frac{1}{2}$m(4$v^2$) = 2m$v^2$. Taking the ratio: d₂/d₁ = (2m$v^2$)/($\\frac{1}{2}$m$v^2$) = 4. Therefore the ratio of braking distances is 4:1. The key insight is that kinetic energy scales with $v^2$, so doubling the speed quadruples the kinetic energy and thus quadruples the required braking distance when the braking force is constant."
+    "explanation": "Using the work-energy theorem: Fd = $\\frac{1}{2}$m$v^2$. For the car traveling at speed v: Fd₁ = $\\frac{1}{2}$m$v^2$. For the car traveling at speed 2v: Fd₂ = $\\frac{1}{2}$m(2v)² = $\\frac{1}{2}$m(4$v^2$) = 2m$v^2$. Taking the ratio: d₂/d₁ = (2m$v^2$)/($\\frac{1}{2}$m$v^2$) = 4. Therefore the ratio of braking distances is 4:1. The key insight is that kinetic energy scales with $v^2$, so doubling the speed quadruples the kinetic energy and thus quadruples the required braking distance when the braking force is constant.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q157",
@@ -6334,7 +6480,8 @@ window.PHYSICS_MCQ = [
       "3h/4"
     ],
     "answer": 1,
-    "explanation": "At maximum height, all initial kinetic energy converts to potential energy: mgh = initial KE. At height y, KE = mg(h-y) and PE = mgy. Setting KE = 2PE: mg(h-y) = 2mgy, so h-y = 2y, giving h = 3y, therefore y = h/3. Students often set up the wrong ratio (A), forget energy conservation (C), or solve the algebra incorrectly (D)."
+    "explanation": "At maximum height, all initial kinetic energy converts to potential energy: mgh = initial KE. At height y, KE = mg(h-y) and PE = mgy. Setting KE = 2PE: mg(h-y) = 2mgy, so h-y = 2y, giving h = 3y, therefore y = h/3. Students often set up the wrong ratio (A), forget energy conservation (C), or solve the algebra incorrectly (D).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q160",
@@ -6354,7 +6501,8 @@ window.PHYSICS_MCQ = [
       "A√(3/4)"
     ],
     "answer": 1,
-    "explanation": "Total energy E = $\\frac{1}{2}$k$A^2$. At displacement x: PE = $\\frac{1}{2}$k$x^2$ and KE = $\\frac{1}{2}$k($A^2$ - $x^2$). Setting PE = 3KE: $\\frac{1}{2}$k$x^2$ = 3[$\\frac{1}{2}$k($A^2$ - $x^2$)] = (3k/2)($A^2$ - $x^2$). Simplifying: $x^2$ = 3($A^2$ - $x^2$) = 3$A^2$ - 3$x^2$, so 4$x^2$ = 3$A^2$, giving x = A√3/2. Students often solve incorrectly by not using energy conservation properly (A, C) or make algebraic errors (D)."
+    "explanation": "Total energy E = $\\frac{1}{2}$k$A^2$. At displacement x: PE = $\\frac{1}{2}$k$x^2$ and KE = $\\frac{1}{2}$k($A^2$ - $x^2$). Setting PE = 3KE: $\\frac{1}{2}$k$x^2$ = 3[$\\frac{1}{2}$k($A^2$ - $x^2$)] = (3k/2)($A^2$ - $x^2$). Simplifying: $x^2$ = 3($A^2$ - $x^2$) = 3$A^2$ - 3$x^2$, so 4$x^2$ = 3$A^2$, giving x = A√3/2. Students often solve incorrectly by not using energy conservation properly (A, C) or make algebraic errors (D).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q161",
@@ -6374,7 +6522,8 @@ window.PHYSICS_MCQ = [
       "d√(k/2m)"
     ],
     "answer": 1,
-    "explanation": "In parallel, the effective spring constant is k_eff = k + k = 2k. The total initial potential energy is $\\frac{1}{2}$k_eff $d^2$ = $\\frac{1}{2}$(2k)$d^2$ = k$d^2$. At maximum speed (equilibrium position), all potential energy converts to kinetic energy: k$d^2$ = $\\frac{1}{2}$mv_ma$x^2$. Solving: v_max = d√(2k/m). Students often forget springs in parallel add (A), confuse with series connection (D), or make calculation errors (C)."
+    "explanation": "In parallel, the effective spring constant is k_eff = k + k = 2k. The total initial potential energy is $\\frac{1}{2}$k_eff $d^2$ = $\\frac{1}{2}$(2k)$d^2$ = k$d^2$. At maximum speed (equilibrium position), all potential energy converts to kinetic energy: k$d^2$ = $\\frac{1}{2}$mv_ma$x^2$. Solving: v_max = d√(2k/m). Students often forget springs in parallel add (A), confuse with series connection (D), or make calculation errors (C).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q163",
@@ -6394,7 +6543,8 @@ window.PHYSICS_MCQ = [
       "v₀√(1 - 2$\\mu$/tanθ)"
     ],
     "answer": 2,
-    "explanation": "Going up: Work-energy theorem gives 0 - $\\frac{1}{2}$mv₀² = -mgd(sinθ + $\\mu$cosθ). Going down: $\\frac{1}{2}$m$v^2$ - 0 = mgd(sinθ - $\\mu$cosθ). Dividing equations: $v^2$/v₀² = (sinθ - $\\mu$cosθ)/(sinθ + $\\mu$cosθ), so v = v₀√((sinθ - $\\mu$cosθ)/(sinθ + $\\mu$cosθ)). Students often make sign errors with friction direction (A, B) or algebraic mistakes (D). The key is recognizing friction opposes motion in both directions."
+    "explanation": "Going up: Work-energy theorem gives 0 - $\\frac{1}{2}$mv₀² = -mgd(sinθ + $\\mu$cosθ). Going down: $\\frac{1}{2}$m$v^2$ - 0 = mgd(sinθ - $\\mu$cosθ). Dividing equations: $v^2$/v₀² = (sinθ - $\\mu$cosθ)/(sinθ + $\\mu$cosθ), so v = v₀√((sinθ - $\\mu$cosθ)/(sinθ + $\\mu$cosθ)). Students often make sign errors with friction direction (A, B) or algebraic mistakes (D). The key is recognizing friction opposes motion in both directions.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q164",
@@ -6414,7 +6564,8 @@ window.PHYSICS_MCQ = [
       "7R/2"
     ],
     "answer": 1,
-    "explanation": "At the top of the loop, for minimum contact: mg = m$v^2$/R, so $v^2$ = gR. Using energy conservation from start to top: mgh = mg(2R) + $\\frac{1}{2}$m$v^2$ = mg(2R) + $\\frac{1}{2}$mgR = mg(2R + R/2) = mg(5R/2). Therefore h = 5R/2. Students often forget the centripetal force requirement (A), include extra energy terms (C), or make calculation errors (D). The key insight is that 'just maintain contact' means normal force = 0."
+    "explanation": "At the top of the loop, for minimum contact: mg = m$v^2$/R, so $v^2$ = gR. Using energy conservation from start to top: mgh = mg(2R) + $\\frac{1}{2}$m$v^2$ = mg(2R) + $\\frac{1}{2}$mgR = mg(2R + R/2) = mg(5R/2). Therefore h = 5R/2. Students often forget the centripetal force requirement (A), include extra energy terms (C), or make calculation errors (D). The key insight is that 'just maintain contact' means normal force = 0.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q165",
@@ -6434,7 +6585,8 @@ window.PHYSICS_MCQ = [
       "250 W"
     ],
     "answer": 1,
-    "explanation": "Useful power output = (dm/dt)gh = (0.5 kg/s)(10 $m/s^2$)(20 m) = 100 W. With 80% efficiency, electrical input power = output/efficiency = 100 W / 0.80 = 125 W. Students often give just the useful power (A), double it incorrectly (C), or make calculation errors with efficiency (D). Understanding efficiency as useful output divided by total input is crucial."
+    "explanation": "Useful power output = (dm/dt)gh = (0.5 kg/s)(10 $m/s^2$)(20 m) = 100 W. With 80% efficiency, electrical input power = output/efficiency = 100 W / 0.80 = 125 W. Students often give just the useful power (A), double it incorrectly (C), or make calculation errors with efficiency (D). Understanding efficiency as useful output divided by total input is crucial.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q158",
@@ -6454,7 +6606,8 @@ window.PHYSICS_MCQ = [
       "mg(3 - 2cos(θ))cos(θ/2)"
     ],
     "answer": 1,
-    "explanation": "Using conservation of energy, the height difference between the release point and the position at angle θ/2 is h = L(cos(θ/2) - cos(θ)). Setting the loss in potential energy equal to the gain in kinetic energy: mgL(cos(θ/2) - cos(θ)) = $\\frac{1}{2}$m$v^2$, which gives $v^2$ = 2gL(cos(θ/2) - cos(θ)). At angle θ/2, applying Newton's second law along the radial direction (toward the pivot): T - mgcos(θ/2) = m$v^2$/L. Substituting $v^2$: T = mgcos(θ/2) + m(2gL(cos(θ/2) - cos(θ)))/L = mgcos(θ/2) + 2mg(cos(θ/2) - cos(θ)) = mg(3cos(θ/2) - 2cos(θ)). This is answer B. Common errors include forgetting the radial component of gravity (leading to A or C) or misapplying the algebraic simplification (leading to D)."
+    "explanation": "Using conservation of energy, the height difference between the release point and the position at angle θ/2 is h = L(cos(θ/2) - cos(θ)). Setting the loss in potential energy equal to the gain in kinetic energy: mgL(cos(θ/2) - cos(θ)) = $\\frac{1}{2}$m$v^2$, which gives $v^2$ = 2gL(cos(θ/2) - cos(θ)). At angle θ/2, applying Newton's second law along the radial direction (toward the pivot): T - mgcos(θ/2) = m$v^2$/L. Substituting $v^2$: T = mgcos(θ/2) + m(2gL(cos(θ/2) - cos(θ)))/L = mgcos(θ/2) + 2mg(cos(θ/2) - cos(θ)) = mg(3cos(θ/2) - 2cos(θ)). This is answer B. Common errors include forgetting the radial component of gravity (leading to A or C) or misapplying the algebraic simplification (leading to D).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q159",
@@ -6474,7 +6627,8 @@ window.PHYSICS_MCQ = [
       "v = Pt/m"
     ],
     "answer": 0,
-    "explanation": "With constant power P = Fv, the force F = P/v. Using F = ma = m(dv/dt), we get P/v = m(dv/dt), so P dt = mv dv. Integrating: Pt = $\\frac{1}{2}$m$v^2$, therefore v = √(2Pt/m). Students often confuse this with constant force scenarios (D), or make integration errors (B, C). The key is recognizing that constant power means force decreases as velocity increases."
+    "explanation": "With constant power P = Fv, the force F = P/v. Using F = ma = m(dv/dt), we get P/v = m(dv/dt), so P dt = mv dv. Integrating: Pt = $\\frac{1}{2}$m$v^2$, therefore v = √(2Pt/m). Students often confuse this with constant force scenarios (D), or make integration errors (B, C). The key is recognizing that constant power means force decreases as velocity increases.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u4_q162",
@@ -6494,7 +6648,8 @@ window.PHYSICS_MCQ = [
       "54 J"
     ],
     "answer": 2,
-    "explanation": "For variable force, W = ∫F dx = ∫₁³ 3$x^2$ dx = [$x^3$]₁³ = $3^3$ - $1^3$ = 27 - 1 = 26 J. Students often forget the integral approach and try to use average force (A, B), or make integration errors by forgetting the coefficient or limits (D). This requires understanding that work with variable force requires integration, not simple F·d."
+    "explanation": "For variable force, W = ∫F dx = ∫₁³ 3$x^2$ dx = [$x^3$]₁³ = $3^3$ - $1^3$ = 27 - 1 = 26 J. Students often forget the integral approach and try to use average force (A, B), or make integration errors by forgetting the coefficient or limits (D). This requires understanding that work with variable force requires integration, not simple F·d.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q166",
@@ -6514,7 +6669,8 @@ window.PHYSICS_MCQ = [
       "3.0 kg⋅m/s"
     ],
     "answer": 0,
-    "explanation": "Momentum p = mv = (2.0 kg)(5.0 m/s) = 10 kg⋅m/s. Choice B divides instead of multiplying. Choice C adds the values. Choice D uses incorrect calculation."
+    "explanation": "Momentum p = mv = (2.0 kg)(5.0 m/s) = 10 kg⋅m/s. Choice B divides instead of multiplying. Choice C adds the values. Choice D uses incorrect calculation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q167",
@@ -6534,7 +6690,8 @@ window.PHYSICS_MCQ = [
       "17 N⋅s"
     ],
     "answer": 0,
-    "explanation": "Impulse J = F$\\Delta t$ = (20 N)(3.0 s) = 60 N⋅s. Choice B divides instead of multiplying. Choice C adds the values. Choice D subtracts instead of multiplying."
+    "explanation": "Impulse J = F$\\Delta t$ = (20 N)(3.0 s) = 60 N⋅s. Choice B divides instead of multiplying. Choice C adds the values. Choice D subtracts instead of multiplying.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q168",
@@ -6554,7 +6711,8 @@ window.PHYSICS_MCQ = [
       "change in acceleration"
     ],
     "answer": 0,
-    "explanation": "The impulse-momentum theorem states that impulse equals the change in momentum (J = $\\Delta p$). Choice B confuses with work-energy theorem. Choices C and D are related but not equivalent to impulse."
+    "explanation": "The impulse-momentum theorem states that impulse equals the change in momentum (J = $\\Delta p$). Choice B confuses with work-energy theorem. Choices C and D are related but not equivalent to impulse.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q169",
@@ -6574,7 +6732,8 @@ window.PHYSICS_MCQ = [
       "Neither momentum nor kinetic energy"
     ],
     "answer": 0,
-    "explanation": "In an elastic collision within an isolated system (no net external forces), both momentum and kinetic energy are conserved. Momentum is conserved because there are no external forces acting on the system. Kinetic energy is additionally conserved in elastic collisions, distinguishing them from inelastic collisions. Choice B describes an inelastic collision, where kinetic energy is not conserved. Choice C is impossible because in an isolated system momentum is always conserved regardless of collision type. Choice D is incorrect for any collision in an isolated system."
+    "explanation": "In an elastic collision within an isolated system (no net external forces), both momentum and kinetic energy are conserved. Momentum is conserved because there are no external forces acting on the system. Kinetic energy is additionally conserved in elastic collisions, distinguishing them from inelastic collisions. Choice B describes an inelastic collision, where kinetic energy is not conserved. Choice C is impossible because in an isolated system momentum is always conserved regardless of collision type. Choice D is incorrect for any collision in an isolated system.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q170",
@@ -6594,7 +6753,8 @@ window.PHYSICS_MCQ = [
       "Neither momentum nor kinetic energy"
     ],
     "answer": 0,
-    "explanation": "In inelastic collisions, momentum is conserved but kinetic energy is not. Some kinetic energy is converted to other forms like heat or sound. Choice B is wrong because KE decreases. Choices C and D are incorrect."
+    "explanation": "In inelastic collisions, momentum is conserved but kinetic energy is not. Some kinetic energy is converted to other forms like heat or sound. Choice B is wrong because KE decreases. Choices C and D are incorrect.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q171",
@@ -6614,7 +6774,8 @@ window.PHYSICS_MCQ = [
       "They move in opposite directions with equal speeds"
     ],
     "answer": 0,
-    "explanation": "In perfectly inelastic collisions, the objects stick together and move as one unit after collision. Choice B describes elastic collision. Choice C violates momentum conservation. Choice D describes a specific elastic collision case."
+    "explanation": "In perfectly inelastic collisions, the objects stick together and move as one unit after collision. Choice B describes elastic collision. Choice C violates momentum conservation. Choice D describes a specific elastic collision case.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q172",
@@ -6634,7 +6795,8 @@ window.PHYSICS_MCQ = [
       "the momentum is zero"
     ],
     "answer": 0,
-    "explanation": "The center of mass is the point where all the mass of the system can be considered to be concentrated. Choice B is incorrect - particles can have different masses. Choices C and D don't define center of mass."
+    "explanation": "The center of mass is the point where all the mass of the system can be considered to be concentrated. Choice B is incorrect - particles can have different masses. Choices C and D don't define center of mass.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q173",
@@ -6654,7 +6816,8 @@ window.PHYSICS_MCQ = [
       "neither magnitude nor direction"
     ],
     "answer": 0,
-    "explanation": "Vector quantities have both magnitude and direction. Momentum is a vector because it depends on velocity, which is also a vector. Choice B describes scalar quantities. Choices C and D are incorrect definitions."
+    "explanation": "Vector quantities have both magnitude and direction. Momentum is a vector because it depends on velocity, which is also a vector. Choice B describes scalar quantities. Choices C and D are incorrect definitions.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q174",
@@ -6674,7 +6837,8 @@ window.PHYSICS_MCQ = [
       "At the location of the heavier object"
     ],
     "answer": 0,
-    "explanation": "For objects of equal mass, the center of mass is located at the midpoint between them. Since the masses are equal, neither object pulls the center of mass toward it more than the other. Choice D is wrong because both objects have equal mass."
+    "explanation": "For objects of equal mass, the center of mass is located at the midpoint between them. Since the masses are equal, neither object pulls the center of mass toward it more than the other. Choice D is wrong because both objects have equal mass.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q175",
@@ -6694,7 +6858,8 @@ window.PHYSICS_MCQ = [
       "6.0 m/s"
     ],
     "answer": 0,
-    "explanation": "Using conservation of momentum: (2 kg)(6 m/s) + (3 kg)(0) = (5 kg)v. Solving: 12 N⋅s = 5v, so v = 2.4 m/s. Note that N⋅s = kg⋅m/s (units of momentum), not kg⋅$m/s^2$. Choice B assumes equal sharing of initial velocity. Choice C uses incorrect mass ratio. Choice D ignores the mass increase."
+    "explanation": "Using conservation of momentum: (2 kg)(6 m/s) + (3 kg)(0) = (5 kg)v. Solving: 12 N⋅s = 5v, so v = 2.4 m/s. Note that N⋅s = kg⋅m/s (units of momentum), not kg⋅$m/s^2$. Choice B assumes equal sharing of initial velocity. Choice C uses incorrect mass ratio. Choice D ignores the mass increase.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q176",
@@ -6714,7 +6879,8 @@ window.PHYSICS_MCQ = [
       "90 m/s"
     ],
     "answer": 1,
-    "explanation": "Impulse = Ft = (150 N)(0.02 s) = 3 N⋅s. Using impulse-momentum theorem: Impulse = $\\Delta p$ = mv - 0, so 3 = (0.06)v, giving v = 50 m/s. Choice A uses wrong time units. Choice C divides instead of multiplies. Choice D uses force instead of impulse."
+    "explanation": "Impulse = Ft = (150 N)(0.02 s) = 3 N⋅s. Using impulse-momentum theorem: Impulse = $\\Delta p$ = mv - 0, so 3 = (0.06)v, giving v = 50 m/s. Choice A uses wrong time units. Choice C divides instead of multiplies. Choice D uses force instead of impulse.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q177",
@@ -6734,7 +6900,8 @@ window.PHYSICS_MCQ = [
       "30000 N"
     ],
     "answer": 2,
-    "explanation": "Change in momentum: $\\Delta p$ = 0 - (1500)(20) = -30000 kg⋅m/s. Using impulse-momentum theorem: F$\\Delta t$ = $\\Delta p$, so F(4) = -30000, giving F = -7500 N. The magnitude is 7500 N. Choice A uses incorrect calculation. Choice B ignores mass. Choice D uses total momentum instead of force."
+    "explanation": "Change in momentum: $\\Delta p$ = 0 - (1500)(20) = -30000 kg⋅m/s. Using impulse-momentum theorem: F$\\Delta t$ = $\\Delta p$, so F(4) = -30000, giving F = -7500 N. The magnitude is 7500 N. Choice A uses incorrect calculation. Choice B ignores mass. Choice D uses total momentum instead of force.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q178",
@@ -6754,7 +6921,8 @@ window.PHYSICS_MCQ = [
       "4.5 m/s"
     ],
     "answer": 1,
-    "explanation": "Initially both at rest, so total momentum = 0. After: (50)(3) + (75)(-v) = 0, where v is B's speed. Solving: 150 = 75v, so v = 2.0 m/s. Choice A uses wrong mass ratio. Choice C ignores mass difference. Choice D adds velocities incorrectly."
+    "explanation": "Initially both at rest, so total momentum = 0. After: (50)(3) + (75)(-v) = 0, where v is B's speed. Solving: 150 = 75v, so v = 2.0 m/s. Choice A uses wrong mass ratio. Choice C ignores mass difference. Choice D adds velocities incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q179",
@@ -6774,7 +6942,8 @@ window.PHYSICS_MCQ = [
       "The objects bounce back at equal speeds"
     ],
     "answer": 1,
-    "explanation": "In elastic collisions with equal masses where one is at rest, the moving object transfers all its momentum and kinetic energy to the stationary object, coming to rest itself. Choice A describes inelastic collision behavior. Choice C ignores energy conservation. Choice D describes head-on collision of moving objects."
+    "explanation": "In elastic collisions with equal masses where one is at rest, the moving object transfers all its momentum and kinetic energy to the stationary object, coming to rest itself. Choice A describes inelastic collision behavior. Choice C ignores energy conservation. Choice D describes head-on collision of moving objects.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q180",
@@ -6794,7 +6963,8 @@ window.PHYSICS_MCQ = [
       "6.0 m"
     ],
     "answer": 2,
-    "explanation": "x_cm = (m₁x₁ + m₂x₂ + m₃x₃)/(m₁ + m₂ + m₃) = (2×0 + 3×4 + 5×9)/(2+3+5) = (0+12+45)/10 = 57/10 = 5.7 m. Choice A is the middle position. Choice B uses wrong calculation. Choice D assumes equal weighting."
+    "explanation": "x_cm = (m₁x₁ + m₂x₂ + m₃x₃)/(m₁ + m₂ + m₃) = (2×0 + 3×4 + 5×9)/(2+3+5) = (0+12+45)/10 = 57/10 = 5.7 m. Choice A is the middle position. Choice B uses wrong calculation. Choice D assumes equal weighting.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q181",
@@ -6814,7 +6984,8 @@ window.PHYSICS_MCQ = [
       "12 kg⋅m/s"
     ],
     "answer": 0,
-    "explanation": "At the highest point, the vertical velocity is zero, so momentum p = mv = (0.6 kg)(0 m/s) = 0 kg⋅m/s. Choice B uses half the mass times initial velocity. Choice C uses mass times half initial velocity. Choice D uses initial momentum value."
+    "explanation": "At the highest point, the vertical velocity is zero, so momentum p = mv = (0.6 kg)(0 m/s) = 0 kg⋅m/s. Choice B uses half the mass times initial velocity. Choice C uses mass times half initial velocity. Choice D uses initial momentum value.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q182",
@@ -6834,7 +7005,8 @@ window.PHYSICS_MCQ = [
       "20 N⋅s"
     ],
     "answer": 0,
-    "explanation": "Impulse = Force × time = (-4 N)(5 s) = -20 N⋅s. The friction force opposes motion, so it is negative. Choice B incorrectly adds force and time instead of multiplying. Choice C ignores the direction of friction. Choice D ignores that friction opposes motion and gives a positive result."
+    "explanation": "Impulse = Force × time = (-4 N)(5 s) = -20 N⋅s. The friction force opposes motion, so it is negative. Choice B incorrectly adds force and time instead of multiplying. Choice C ignores the direction of friction. Choice D ignores that friction opposes motion and gives a positive result.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q183",
@@ -6854,7 +7026,8 @@ window.PHYSICS_MCQ = [
       "0.8 m/s"
     ],
     "answer": 1,
-    "explanation": "Using conservation of momentum, the initial momentum of the system is zero. After the throw: 0 = (5 kg)(8 m/s) + (100 kg)(v), where 100 kg is the combined mass of the person and boat (60 kg + 40 kg = 100 kg). Solving: 0 = 40 + 100v, so v = -40/100 = -0.4 m/s. The magnitude of the recoil velocity is 0.4 m/s, directed opposite to the package. The correct answer is B."
+    "explanation": "Using conservation of momentum, the initial momentum of the system is zero. After the throw: 0 = (5 kg)(8 m/s) + (100 kg)(v), where 100 kg is the combined mass of the person and boat (60 kg + 40 kg = 100 kg). Solving: 0 = 40 + 100v, so v = -40/100 = -0.4 m/s. The magnitude of the recoil velocity is 0.4 m/s, directed opposite to the package. The correct answer is B.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q184",
@@ -6874,7 +7047,8 @@ window.PHYSICS_MCQ = [
       "12 m/s"
     ],
     "answer": 0,
-    "explanation": "In a perfectly elastic collision between two equal-mass objects where one is initially at rest, conservation of both momentum and kinetic energy requires the moving object to stop completely and the stationary object to move forward at the original speed. The first ball's velocity after collision is 0 m/s. Choice B (3 m/s) would result from a perfectly inelastic collision where they stick together (each gets half the speed). Choice C (6 m/s) would mean the collision had no effect. Choice D (12 m/s) violates conservation of momentum."
+    "explanation": "In a perfectly elastic collision between two equal-mass objects where one is initially at rest, conservation of both momentum and kinetic energy requires the moving object to stop completely and the stationary object to move forward at the original speed. The first ball's velocity after collision is 0 m/s. Choice B (3 m/s) would result from a perfectly inelastic collision where they stick together (each gets half the speed). Choice C (6 m/s) would mean the collision had no effect. Choice D (12 m/s) violates conservation of momentum.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q185",
@@ -6894,7 +7068,8 @@ window.PHYSICS_MCQ = [
       "2000 N"
     ],
     "answer": 2,
-    "explanation": "Change in momentum: $\\Delta p$ = m(vf - vi) = 0.2(-20 - 25) = 0.2(-45) = -9 kg⋅m/s. Using F = $\\Delta p$/$\\Delta t$ = -9/0.005 = -1800 N. The magnitude is 1800 N. Choice A uses wrong velocity change. Choice B uses incomplete calculation. Choice D rounds incorrectly."
+    "explanation": "Change in momentum: $\\Delta p$ = m(vf - vi) = 0.2(-20 - 25) = 0.2(-45) = -9 kg⋅m/s. Using F = $\\Delta p$/$\\Delta t$ = -9/0.005 = -1800 N. The magnitude is 1800 N. Choice A uses wrong velocity change. Choice B uses incomplete calculation. Choice D rounds incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q186",
@@ -6914,7 +7089,8 @@ window.PHYSICS_MCQ = [
       "19 m/s"
     ],
     "answer": 2,
-    "explanation": "Using conservation of momentum: (1500)(20) + (1000)(15) = (2500)v. Initial momentum = 30000 + 15000 = 45000 kg⋅m/s. So 45000 = 2500v, giving v = 18 m/s. Choice A uses arithmetic mean. Choice B is close but uses wrong calculation. Choice D assumes momentum increases."
+    "explanation": "Using conservation of momentum: (1500)(20) + (1000)(15) = (2500)v. Initial momentum = 30000 + 15000 = 45000 kg⋅m/s. So 45000 = 2500v, giving v = 18 m/s. Choice A uses arithmetic mean. Choice B is close but uses wrong calculation. Choice D assumes momentum increases.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q187",
@@ -6934,7 +7110,8 @@ window.PHYSICS_MCQ = [
       "Its motion depends on the explosion force"
     ],
     "answer": 1,
-    "explanation": "The center of mass motion is unaffected by internal forces like explosions. Since no external forces act during the explosion, the center of mass continues with the same velocity (5 m/s to the right). Choice A assumes internal forces affect CM. Choice C assumes acceleration occurs. Choice D misunderstands internal vs external forces."
+    "explanation": "The center of mass motion is unaffected by internal forces like explosions. Since no external forces act during the explosion, the center of mass continues with the same velocity (5 m/s to the right). Choice A assumes internal forces affect CM. Choice C assumes acceleration occurs. Choice D misunderstands internal vs external forces.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q188",
@@ -6954,7 +7131,8 @@ window.PHYSICS_MCQ = [
       "pA = 4pB"
     ],
     "answer": 1,
-    "explanation": "Since KE = $p^2$/(2m), and KEA = KEB, we have p$A^2$/(2mA) = p$B^2$/(2mB). With mA = 2mB: p$A^2$/(4mB) = p$B^2$/(2mB), so p$A^2$ = 2p$B^2$, giving pA = √2 pB. Choice A ignores mass difference. Choice C uses mass ratio directly. Choice D squares the mass ratio."
+    "explanation": "Since KE = $p^2$/(2m), and KEA = KEB, we have p$A^2$/(2mA) = p$B^2$/(2mB). With mA = 2mB: p$A^2$/(4mB) = p$B^2$/(2mB), so p$A^2$ = 2p$B^2$, giving pA = √2 pB. Choice A ignores mass difference. Choice C uses mass ratio directly. Choice D squares the mass ratio.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q189",
@@ -6974,7 +7152,8 @@ window.PHYSICS_MCQ = [
       "560 N"
     ],
     "answer": 2,
-    "explanation": "Using the impulse-momentum theorem: J = $\\Delta p$ = F$\\Delta t$. Taking the initial direction of motion as positive, the initial momentum is p₁ = (2.0 kg)(8.0 m/s) = +16 kg⋅m/s. After bouncing back, the final momentum is p₂ = (2.0 kg)(-6.0 m/s) = -12 kg⋅m/s. The change in momentum is $\\Delta p$ = p₂ - p₁ = -12 - 16 = -28 kg⋅m/s. The magnitude of the average force is |F| = |$\\Delta p$|/$\\Delta t$ = 28/0.10 = 280 N. Choice A incorrectly uses only the final speed to find momentum change: (2.0)(6.0)/0.10 = 120 N $\\approx$ 40 N range. Choice B incorrectly takes the difference of speeds without accounting for direction: (2.0)(8.0 - 6.0)/0.10 = 40 N, not 140 N. Choice D incorrectly doubles the correct answer to get 560 N."
+    "explanation": "Using the impulse-momentum theorem: J = $\\Delta p$ = F$\\Delta t$. Taking the initial direction of motion as positive, the initial momentum is p₁ = (2.0 kg)(8.0 m/s) = +16 kg⋅m/s. After bouncing back, the final momentum is p₂ = (2.0 kg)(-6.0 m/s) = -12 kg⋅m/s. The change in momentum is $\\Delta p$ = p₂ - p₁ = -12 - 16 = -28 kg⋅m/s. The magnitude of the average force is |F| = |$\\Delta p$|/$\\Delta t$ = 28/0.10 = 280 N. Choice A incorrectly uses only the final speed to find momentum change: (2.0)(6.0)/0.10 = 120 N $\\approx$ 40 N range. Choice B incorrectly takes the difference of speeds without accounting for direction: (2.0)(8.0 - 6.0)/0.10 = 40 N, not 140 N. Choice D incorrectly doubles the correct answer to get 560 N.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q190",
@@ -6994,7 +7173,8 @@ window.PHYSICS_MCQ = [
       "12.0 m/s"
     ],
     "answer": 2,
-    "explanation": "For elastic collisions, both momentum and kinetic energy are conserved. Using the elastic collision formula for the initially stationary object: v₂ = (2m₁/(m₁ + m₂))v₁ = (2 × 4.0)/(4.0 + 2.0) × 6.0 = 8.0/6.0 × 6.0 = 8.0 m/s. Choice A uses an incorrect mass ratio. Choice B assumes the objects stick together (perfectly inelastic). Choice D incorrectly doubles the initial velocity without considering mass differences."
+    "explanation": "For elastic collisions, both momentum and kinetic energy are conserved. Using the elastic collision formula for the initially stationary object: v₂ = (2m₁/(m₁ + m₂))v₁ = (2 × 4.0)/(4.0 + 2.0) × 6.0 = 8.0/6.0 × 6.0 = 8.0 m/s. Choice A uses an incorrect mass ratio. Choice B assumes the objects stick together (perfectly inelastic). Choice D incorrectly doubles the initial velocity without considering mass differences.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q191",
@@ -7014,7 +7194,8 @@ window.PHYSICS_MCQ = [
       "7.5 m"
     ],
     "answer": 2,
-    "explanation": "The center of mass is calculated using x_cm = (m₁x₁ + m₂x₂)/(m₁ + m₂) = (3.0 × 0 + 6.0 × 9.0)/(3.0 + 6.0) = 54/9 = 6.0 m. The center of mass is closer to the more massive object. Choice A incorrectly uses only the lighter mass's position. Choice B assumes equal masses (geometric center). Choice D incorrectly weighs the lighter mass more heavily."
+    "explanation": "The center of mass is calculated using x_cm = (m₁x₁ + m₂x₂)/(m₁ + m₂) = (3.0 × 0 + 6.0 × 9.0)/(3.0 + 6.0) = 54/9 = 6.0 m. The center of mass is closer to the more massive object. Choice A incorrectly uses only the lighter mass's position. Choice B assumes equal masses (geometric center). Choice D incorrectly weighs the lighter mass more heavily.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q193",
@@ -7034,7 +7215,8 @@ window.PHYSICS_MCQ = [
       "30 m/s"
     ],
     "answer": 1,
-    "explanation": "The impulse equals the area under the F-t graph. This forms a trapezoid with parallel sides of 10 N and peaks of 30 N, with total width 4 s. Area = average height × width = 20 N × 4 s = 80 N⋅s. By impulse-momentum theorem: J = $\\Delta p$ = mvf - 0, so 80 = 2vf, giving vf = 40 m/s. Students often miscalculate the area or forget to use the average force."
+    "explanation": "The impulse equals the area under the F-t graph. This forms a trapezoid with parallel sides of 10 N and peaks of 30 N, with total width 4 s. Area = average height × width = 20 N × 4 s = 80 N⋅s. By impulse-momentum theorem: J = $\\Delta p$ = mvf - 0, so 80 = 2vf, giving vf = 40 m/s. Students often miscalculate the area or forget to use the average force.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q194",
@@ -7054,7 +7236,8 @@ window.PHYSICS_MCQ = [
       "Momentum is conserved regardless of kinetic energy conservation"
     ],
     "answer": 3,
-    "explanation": "Momentum conservation depends only on the absence of external forces, not on energy conservation. Inelastic collisions conserve momentum but not kinetic energy. Students often think energy and momentum conservation are linked, or that momentum is only conserved during contact. The collision geometry (head-on vs. oblique) doesn't affect momentum conservation."
+    "explanation": "Momentum conservation depends only on the absence of external forces, not on energy conservation. Inelastic collisions conserve momentum but not kinetic energy. Students often think energy and momentum conservation are linked, or that momentum is only conserved during contact. The collision geometry (head-on vs. oblique) doesn't affect momentum conservation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q195",
@@ -7074,7 +7257,8 @@ window.PHYSICS_MCQ = [
       "The objects stick together and move with half the initial velocity"
     ],
     "answer": 1,
-    "explanation": "For elastic collision with equal masses where one is at rest: conservation of momentum gives mv₁ = mv₁' + mv₂', so v₁ = v₁' + v₂'. Conservation of energy gives $\\frac{1}{2}$mv₁² = $\\frac{1}{2}$mv₁'² + $\\frac{1}{2}$mv₂'², so v₁² = v₁'² + v₂'². Solving these simultaneously gives v₁' = 0 and v₂' = v₁. The velocities are exchanged. Choice D describes perfectly inelastic collision."
+    "explanation": "For elastic collision with equal masses where one is at rest: conservation of momentum gives mv₁ = mv₁' + mv₂', so v₁ = v₁' + v₂'. Conservation of energy gives $\\frac{1}{2}$mv₁² = $\\frac{1}{2}$mv₁'² + $\\frac{1}{2}$mv₂'², so v₁² = v₁'² + v₂'². Solving these simultaneously gives v₁' = 0 and v₂' = v₁. The velocities are exchanged. Choice D describes perfectly inelastic collision.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q196",
@@ -7094,7 +7278,8 @@ window.PHYSICS_MCQ = [
       "The center of mass motion cannot be determined"
     ],
     "answer": 1,
-    "explanation": "The center of mass of a system accelerates according to Fext = Mtotal × acm, where Fext is the net external force and Mtotal is the total mass. Since an external force acts on part of the system, the center of mass will accelerate in the direction of that force. Internal forces between particles don't affect center of mass motion. Students often think the center of mass only moves if forces act on all particles."
+    "explanation": "The center of mass of a system accelerates according to Fext = Mtotal × acm, where Fext is the net external force and Mtotal is the total mass. Since an external force acts on part of the system, the center of mass will accelerate in the direction of that force. Internal forces between particles don't affect center of mass motion. Students often think the center of mass only moves if forces act on all particles.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q197",
@@ -7114,7 +7299,8 @@ window.PHYSICS_MCQ = [
       "The center of mass has zero acceleration"
     ],
     "answer": 2,
-    "explanation": "Total momentum P = Mtotal × vcm. If P = 0 and Mtotal $\\neq$ 0, then vcm = 0. The center of mass velocity is zero, but its position can be anywhere (not necessarily origin). The acceleration of the center of mass depends on external forces, not on whether momentum is zero. Students confuse momentum being zero with position being at origin."
+    "explanation": "Total momentum P = Mtotal × vcm. If P = 0 and Mtotal $\\neq$ 0, then vcm = 0. The center of mass velocity is zero, but its position can be anywhere (not necessarily origin). The acceleration of the center of mass depends on external forces, not on whether momentum is zero. Students confuse momentum being zero with position being at origin.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q198",
@@ -7134,7 +7320,8 @@ window.PHYSICS_MCQ = [
       "The impulses are actually identical if velocity changes are identical"
     ],
     "answer": 3,
-    "explanation": "Impulse is defined as the change in momentum (J = $\\Delta p$). If the velocity change is identical, the impulse must be identical regardless of the surface. The difference students observe is in the force (F = J/$\\Delta t$), not the impulse. A wall might provide larger force over shorter time, while a racket provides smaller force over longer time, but J = F⋅$\\Delta t$ remains the same."
+    "explanation": "Impulse is defined as the change in momentum (J = $\\Delta p$). If the velocity change is identical, the impulse must be identical regardless of the surface. The difference students observe is in the force (F = J/$\\Delta t$), not the impulse. A wall might provide larger force over shorter time, while a racket provides smaller force over longer time, but J = F⋅$\\Delta t$ remains the same.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q199",
@@ -7155,7 +7342,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "The impulse-momentum theorem states J = $\\Delta p$ = Favg⋅$\\Delta t$. Here, $\\Delta p$ = 50 - 10 = 40 kg⋅m/s and $\\Delta t$ = 8 s. Therefore, Favg = $\\Delta p$/$\\Delta t$ = 40/8 = 5 N. Students might incorrectly use the average momentum (30 kg⋅m/s) or make arithmetic errors. The linear increase confirms constant force.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Momentum (kg·m/s)</text><line x1='50' y1='177' x2='270' y2='177' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='181' text-anchor='end' class='svg-label'>10</text><line x1='50' y1='63' x2='270' y2='63' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='67' text-anchor='end' class='svg-label'>50</text><line x1='65' y1='177' x2='229' y2='63' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='229' cy='63' r='3' fill='#3b82f6'/><circle cx='65' cy='177' r='3' fill='#3b82f6'/></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='50' y1='220' x2='285' y2='220' stroke-width='2' class='svg-axis'/><line x1='50' y1='220' x2='50' y2='20' stroke-width='2' class='svg-axis'/><polygon points='285,220 273,215 273,225' class='svg-axis-fill'/><polygon points='50,20 45,32 55,32' class='svg-axis-fill'/><text x='282' y='238' text-anchor='end' class='svg-label'>Time (s)</text><text x='16' y='125' text-anchor='middle' transform='rotate(-90,16,125)' class='svg-label'>Momentum (kg·m/s)</text><line x1='50' y1='177' x2='270' y2='177' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='181' text-anchor='end' class='svg-label'>10</text><line x1='50' y1='63' x2='270' y2='63' stroke-width='1.5' class='svg-axis svg-dashed'/><text x='46' y='67' text-anchor='end' class='svg-label'>50</text><line x1='65' y1='177' x2='229' y2='63' stroke='#3b82f6' stroke-width='2.5' fill='none'/><circle cx='229' cy='63' r='3' fill='#3b82f6'/><circle cx='65' cy='177' r='3' fill='#3b82f6'/></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q200",
@@ -7175,7 +7363,8 @@ window.PHYSICS_MCQ = [
       "Yes, because no external forces act on the system"
     ],
     "answer": 2,
-    "explanation": "Momentum is conserved for the ball-Earth system because there are no external horizontal forces. The ball's momentum change is exactly balanced by an equal and opposite change in Earth's momentum. We must include Earth's motion for conservation to hold. Students often focus only on the ball or think momentum can't be conserved when kinetic energy is lost."
+    "explanation": "Momentum is conserved for the ball-Earth system because there are no external horizontal forces. The ball's momentum change is exactly balanced by an equal and opposite change in Earth's momentum. We must include Earth's motion for conservation to hold. Students often focus only on the ball or think momentum can't be conserved when kinetic energy is lost.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q201",
@@ -7195,7 +7384,8 @@ window.PHYSICS_MCQ = [
       "Neither momentum nor kinetic energy"
     ],
     "answer": 1,
-    "explanation": "In any collision with no external forces, momentum is always conserved. Inelastic collisions are defined as collisions where kinetic energy is not conserved (some is converted to other forms like heat, sound, or deformation energy). Students often think that if energy isn't conserved, momentum isn't either, but these conservation laws are independent."
+    "explanation": "In any collision with no external forces, momentum is always conserved. Inelastic collisions are defined as collisions where kinetic energy is not conserved (some is converted to other forms like heat, sound, or deformation energy). Students often think that if energy isn't conserved, momentum isn't either, but these conservation laws are independent.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q202",
@@ -7215,7 +7405,8 @@ window.PHYSICS_MCQ = [
       "The center of mass remains stationary"
     ],
     "answer": 2,
-    "explanation": "Since no external forces act on the rocket-fuel system in space, the center of mass must move at constant velocity (Newton's first law for systems). The rocket accelerates forward and fuel moves backward, but their center of mass continues at constant velocity. Students often think the center of mass accelerates with the rocket, forgetting that ejected fuel is part of the system."
+    "explanation": "Since no external forces act on the rocket-fuel system in space, the center of mass must move at constant velocity (Newton's first law for systems). The rocket accelerates forward and fuel moves backward, but their center of mass continues at constant velocity. Students often think the center of mass accelerates with the rocket, forgetting that ejected fuel is part of the system.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q192",
@@ -7235,7 +7426,8 @@ window.PHYSICS_MCQ = [
       "The change in momentum, contact time, and the wall's mass"
     ],
     "answer": 0,
-    "explanation": "Impulse is defined as the change in momentum (J = $\\Delta p$). In this case, if the ball has mass m, the impulse is m(4) - m(-6) = 10m (taking the rebound direction as positive), which depends only on the change in momentum. While F = $\\Delta p$/$\\Delta t$ relates force to time, the impulse itself equals only the momentum change. Contact time affects the average force during the collision, not the impulse. The wall's mass is irrelevant since we treat it as effectively immovable."
+    "explanation": "Impulse is defined as the change in momentum (J = $\\Delta p$). In this case, if the ball has mass m, the impulse is m(4) - m(-6) = 10m (taking the rebound direction as positive), which depends only on the change in momentum. While F = $\\Delta p$/$\\Delta t$ relates force to time, the impulse itself equals only the momentum change. Contact time affects the average force during the collision, not the impulse. The wall's mass is irrelevant since we treat it as effectively immovable.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q203",
@@ -7255,7 +7447,8 @@ window.PHYSICS_MCQ = [
       "The restoring force is proportional to displacement from equilibrium"
     ],
     "answer": 3,
-    "explanation": "Simple harmonic motion requires a restoring force proportional to displacement (F = -kx). Constant velocity, constant acceleration, and constant force would not produce oscillatory motion."
+    "explanation": "Simple harmonic motion requires a restoring force proportional to displacement (F = -kx). Constant velocity, constant acceleration, and constant force would not produce oscillatory motion.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q204",
@@ -7275,7 +7468,8 @@ window.PHYSICS_MCQ = [
       "10 N"
     ],
     "answer": 3,
-    "explanation": "The restoring force is F = kx = (50 N/m)(0.2 m) = 10 N. Students might incorrectly divide (5 N), multiply by 0.5 (25 N), or multiply by 5 instead of 0.2 (250 N)."
+    "explanation": "The restoring force is F = kx = (50 N/m)(0.2 m) = 10 N. Students might incorrectly divide (5 N), multiply by 0.5 (25 N), or multiply by 5 instead of 0.2 (250 N).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q205",
@@ -7295,7 +7489,8 @@ window.PHYSICS_MCQ = [
       "0.25 s"
     ],
     "answer": 3,
-    "explanation": "Period and frequency are reciprocals: T = 1/f = 1/4 Hz = 0.25 s. Students might confuse the relationship and use f directly (4 s), use f/2 (2 s), or calculate 1/2f (0.5 s)."
+    "explanation": "Period and frequency are reciprocals: T = 1/f = 1/4 Hz = 0.25 s. Students might confuse the relationship and use f directly (4 s), use f/2 (2 s), or calculate 1/2f (0.5 s).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q206",
@@ -7315,7 +7510,8 @@ window.PHYSICS_MCQ = [
       "Increase the period by a factor of √2"
     ],
     "answer": 3,
-    "explanation": "For a spring-mass system, T = 2π√(m/k). Doubling mass increases T by √2. Students might think T is directly proportional to m (double), inversely proportional (halve), or independent of m (no change)."
+    "explanation": "For a spring-mass system, T = 2π√(m/k). Doubling mass increases T by √2. Students might think T is directly proportional to m (double), inversely proportional (halve), or independent of m (no change).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q207",
@@ -7335,7 +7531,8 @@ window.PHYSICS_MCQ = [
       "Length and gravitational field strength"
     ],
     "answer": 3,
-    "explanation": "For a simple pendulum, T = 2π√(L/g), so period depends only on length and gravitational field strength. Students often think mass affects period, confuse with spring systems, or think amplitude matters for small angles."
+    "explanation": "For a simple pendulum, T = 2π√(L/g), so period depends only on length and gravitational field strength. Students often think mass affects period, confuse with spring systems, or think amplitude matters for small angles.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q208",
@@ -7355,7 +7552,8 @@ window.PHYSICS_MCQ = [
       "3 cm"
     ],
     "answer": 3,
-    "explanation": "Amplitude is the maximum displacement from equilibrium, which is 3 cm. Students might confuse amplitude with total range (6 cm), use half the maximum (1.5 cm), or add the extremes (9 cm)."
+    "explanation": "Amplitude is the maximum displacement from equilibrium, which is 3 cm. Students might confuse amplitude with total range (6 cm), use half the maximum (1.5 cm), or add the extremes (9 cm).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q209",
@@ -7376,7 +7574,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Kinetic energy is maximum when velocity is maximum, which occurs at equilibrium position. At maximum displacement, velocity is zero. Students might confuse with potential energy or think energy is constant or maximum at intermediate positions.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q210",
@@ -7397,7 +7596,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Acceleration a = -kx/m, so it's zero when displacement x = 0 (equilibrium position). At maximum displacement, acceleration is maximum. Students might confuse when different quantities are zero or think acceleration is never zero.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q211",
@@ -7418,7 +7618,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "The restoring force always points toward equilibrium position (F = -kx, negative sign indicates opposite to displacement). Students might think it points in direction of motion, away from equilibrium, or toward maximum displacement.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q212",
@@ -7438,7 +7639,8 @@ window.PHYSICS_MCQ = [
       "First increase then decrease"
     ],
     "answer": 0,
-    "explanation": "From T = 2π√(m/k), increasing k decreases the period (stronger spring oscillates faster). Students might think stiffer springs take longer (increase), have no effect (same), or show complex behavior."
+    "explanation": "From T = 2π√(m/k), increasing k decreases the period (stronger spring oscillates faster). Students might think stiffer springs take longer (increase), have no effect (same), or show complex behavior.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q213",
@@ -7459,7 +7661,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "At maximum displacement, velocity is zero (so KE = 0) and potential energy is maximum. Students might confuse the energy transformations or think both types are equal or zero at this point.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q214",
@@ -7480,7 +7683,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Using energy conservation, at maximum speed (equilibrium): KE = $\\frac{1}{2}$m$v^2$max = $\\frac{1}{2}$k$A^2$. When v = vmax/2: $\\frac{1}{2}$m(vmax/2)² + $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$k$A^2$, so ¼($\\frac{1}{2}$m$v^2$max) + $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$k$A^2$. This gives ⅛k$A^2$ + $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$k$A^2$, solving for x = A√3/2. Students often pick A/2 thinking it's proportional to speed ratio.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q215",
@@ -7500,7 +7704,8 @@ window.PHYSICS_MCQ = [
       "Decreases by factor of 2"
     ],
     "answer": 0,
-    "explanation": "Maximum restoring force occurs at maximum displacement: Fmax = kA. If k is doubled and A stays constant, Fmax doubles. The mass change doesn't affect the restoring force equation. Students might think the mass affects restoring force or confuse this with period calculations."
+    "explanation": "Maximum restoring force occurs at maximum displacement: Fmax = kA. If k is doubled and A stays constant, Fmax doubles. The mass change doesn't affect the restoring force equation. Students might think the mass affects restoring force or confuse this with period calculations.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q216",
@@ -7520,7 +7725,8 @@ window.PHYSICS_MCQ = [
       "Halved"
     ],
     "answer": 2,
-    "explanation": "In parallel, springs add: keff = k1 + k2 = 2k. Period T = 2π√(m/keff) = 2π√(m/2k) = (1/√2) × 2π√(m/k). Period decreases by factor of √2. Students often think springs in parallel behave like series or confuse with doubling effects."
+    "explanation": "In parallel, springs add: keff = k1 + k2 = 2k. Period T = 2π√(m/keff) = 2π√(m/2k) = (1/√2) × 2π√(m/k). Period decreases by factor of √2. Students often think springs in parallel behave like series or confuse with doubling effects.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q217",
@@ -7540,7 +7746,8 @@ window.PHYSICS_MCQ = [
       "20 cm"
     ],
     "answer": 0,
-    "explanation": "Amplitude is the maximum displacement from equilibrium position, not from natural length. The mass starts 5 cm below equilibrium with zero velocity, so it will oscillate 5 cm above and below equilibrium. The 10 cm compression at equilibrium is irrelevant to amplitude. Students often add the equilibrium displacement."
+    "explanation": "Amplitude is the maximum displacement from equilibrium position, not from natural length. The mass starts 5 cm below equilibrium with zero velocity, so it will oscillate 5 cm above and below equilibrium. The 10 cm compression at equilibrium is irrelevant to amplitude. Students often add the equilibrium displacement.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q218",
@@ -7560,7 +7767,8 @@ window.PHYSICS_MCQ = [
       "4T"
     ],
     "answer": 1,
-    "explanation": "For a simple pendulum, T = 2π√(L/g). If g becomes 4g, then Tnew = 2π√(L/4g) = (1/2) × 2π√(L/g) = T/2. Students often think period is directly proportional to g or forget the square root relationship."
+    "explanation": "For a simple pendulum, T = 2π√(L/g). If g becomes 4g, then Tnew = 2π√(L/4g) = (1/2) × 2π√(L/g) = T/2. Students often think period is directly proportional to g or forget the square root relationship.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q219",
@@ -7580,7 +7788,8 @@ window.PHYSICS_MCQ = [
       "x = -3A/4"
     ],
     "answer": 1,
-    "explanation": "Using energy conservation, speed depends only on distance from equilibrium. At x = +A/2, the speed is determined by the kinetic energy. By symmetry, the same speed occurs at x = -A/2. Students might think it's at -A (maximum displacement) or calculate incorrectly with energy equations."
+    "explanation": "Using energy conservation, speed depends only on distance from equilibrium. At x = +A/2, the speed is determined by the kinetic energy. By symmetry, the same speed occurs at x = -A/2. Students might think it's at -A (maximum displacement) or calculate incorrectly with energy equations.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q220",
@@ -7600,7 +7809,8 @@ window.PHYSICS_MCQ = [
       "1/3"
     ],
     "answer": 2,
-    "explanation": "Total energy E = $\\frac{1}{2}$k$A^2$. At x = A/2: PE = $\\frac{1}{2}$k(A/2)² = ⅛k$A^2$ = E/4. Since E = KE + PE, then KE = E - PE = E - E/4 = 3E/4. So KE/E = 3/4. Students often think it's 1/2 because displacement is half, or 1/4 by confusing with potential energy fraction."
+    "explanation": "Total energy E = $\\frac{1}{2}$k$A^2$. At x = A/2: PE = $\\frac{1}{2}$k(A/2)² = ⅛k$A^2$ = E/4. Since E = KE + PE, then KE = E - PE = E - E/4 = 3E/4. So KE/E = 3/4. Students often think it's 1/2 because displacement is half, or 1/4 by confusing with potential energy fraction.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q221",
@@ -7620,7 +7830,8 @@ window.PHYSICS_MCQ = [
       "4 m"
     ],
     "answer": 2,
-    "explanation": "Maximum acceleration amax = ω²A occurs at maximum displacement. Maximum speed vmax = ωA occurs at equilibrium. Given amax = 8 $m/s^2$ and vmax = 4 m/s, we have amax/vmax = ω²A/ωA = ω = 2 rad/s. Then A = vmax/ω = 4/2 = 2 m. Students often confuse which occurs where or use wrong relationships."
+    "explanation": "Maximum acceleration amax = ω²A occurs at maximum displacement. Maximum speed vmax = ωA occurs at equilibrium. Given amax = 8 $m/s^2$ and vmax = 4 m/s, we have amax/vmax = ω²A/ωA = ω = 2 rad/s. Then A = vmax/ω = 4/2 = 2 m. Students often confuse which occurs where or use wrong relationships.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q222",
@@ -7640,7 +7851,8 @@ window.PHYSICS_MCQ = [
       "f√2"
     ],
     "answer": 2,
-    "explanation": "The frequency of a spring-mass system is given by f = (1/2π)√(k/m). When both the spring constant k and mass m are doubled, the new frequency is fnew = (1/2π)√(2k/2m) = (1/2π)√(k/m) = f. Because k and m are both multiplied by the same factor of 2, the ratio k/m is unchanged, and therefore the frequency remains f. Students often incorrectly expect that doubling both quantities changes the frequency, but only the ratio of k to m determines the frequency."
+    "explanation": "The frequency of a spring-mass system is given by f = (1/2π)√(k/m). When both the spring constant k and mass m are doubled, the new frequency is fnew = (1/2π)√(2k/2m) = (1/2π)√(k/m) = f. Because k and m are both multiplied by the same factor of 2, the ratio k/m is unchanged, and therefore the frequency remains f. Students often incorrectly expect that doubling both quantities changes the frequency, but only the ratio of k to m determines the frequency.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q223",
@@ -7660,7 +7872,8 @@ window.PHYSICS_MCQ = [
       "300 N/m"
     ],
     "answer": 0,
-    "explanation": "For springs in series: 1/keff = 1/k₁ + 1/k₂ = 1/100 + 1/200 = 3/200, so keff = 200/3 = 67 N/m. Springs in series are more compliant than either individual spring. Students often add directly (parallel formula) or use harmonic mean incorrectly."
+    "explanation": "For springs in series: 1/keff = 1/k₁ + 1/k₂ = 1/100 + 1/200 = 3/200, so keff = 200/3 = 67 N/m. Springs in series are more compliant than either individual spring. Students often add directly (parallel formula) or use harmonic mean incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q224",
@@ -7680,7 +7893,8 @@ window.PHYSICS_MCQ = [
       "44%"
     ],
     "answer": 0,
-    "explanation": "T = 2π√(L/g), so T ∝ √L. If L increases by 21% to 1.21L, then Tnew = T√1.21 = T√(121/100) = T(11/10) = 1.1T. This is a 10% increase. Students often think period increases by same percentage as length or double it."
+    "explanation": "T = 2π√(L/g), so T ∝ √L. If L increases by 21% to 1.21L, then Tnew = T√1.21 = T√(121/100) = T(11/10) = 1.1T. This is a 10% increase. Students often think period increases by same percentage as length or double it.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q225",
@@ -7700,7 +7914,8 @@ window.PHYSICS_MCQ = [
       "9v"
     ],
     "answer": 2,
-    "explanation": "Maximum speed (at equilibrium) is vmax = ωA where ω = √(k/m). Since k and m are constant, ω is constant. If A triples, then vmax triples. The speed at equilibrium is directly proportional to amplitude. Students might think it's independent of amplitude or scales with $A^2$."
+    "explanation": "Maximum speed (at equilibrium) is vmax = ωA where ω = √(k/m). Since k and m are constant, ω is constant. If A triples, then vmax triples. The speed at equilibrium is directly proportional to amplitude. Students might think it's independent of amplitude or scales with $A^2$.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q226",
@@ -7720,7 +7935,8 @@ window.PHYSICS_MCQ = [
       "A/2"
     ],
     "answer": 1,
-    "explanation": "Given KE = 2PE and E = KE + PE = 2PE + PE = 3PE, so PE = E/3. Since PE = $\\frac{1}{2}$k$x^2$ and E = $\\frac{1}{2}$k$A^2$, we have $\\frac{1}{2}$k$x^2$ = (1/3)($\\frac{1}{2}$k$A^2$), giving $x^2$ = $A^2$/3, so x = A/√3. Students often use wrong energy relationships or forget the constraint that total energy is constant."
+    "explanation": "Given KE = 2PE and E = KE + PE = 2PE + PE = 3PE, so PE = E/3. Since PE = $\\frac{1}{2}$k$x^2$ and E = $\\frac{1}{2}$k$A^2$, we have $\\frac{1}{2}$k$x^2$ = (1/3)($\\frac{1}{2}$k$A^2$), giving $x^2$ = $A^2$/3, so x = A/√3. Students often use wrong energy relationships or forget the constraint that total energy is constant.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q227",
@@ -7740,7 +7956,8 @@ window.PHYSICS_MCQ = [
       "0.50 s"
     ],
     "answer": 0,
-    "explanation": "Using x = A sin($\\omega$t) with x(0) = 0, we need x = A/2. So A/2 = A sin($\\omega$t), giving sin($\\omega$t) = 1/2, so $\\omega$t = π/6. Since ω = 2π/T = π rad/s, we get t = (π/6)/π = 1/6 s $\\approx$ 0.17 s. Students often use T/8 or T/4 thinking it's proportional to displacement."
+    "explanation": "Using x = A sin($\\omega$t) with x(0) = 0, we need x = A/2. So A/2 = A sin($\\omega$t), giving sin($\\omega$t) = 1/2, so $\\omega$t = π/6. Since ω = 2π/T = π rad/s, we get t = (π/6)/π = 1/6 s $\\approx$ 0.17 s. Students often use T/8 or T/4 thinking it's proportional to displacement.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q228",
@@ -7760,7 +7977,8 @@ window.PHYSICS_MCQ = [
       "8 N"
     ],
     "answer": 1,
-    "explanation": "Restoring force F = -kx is directly proportional to displacement. If F = 12 N at x = 3 cm, then k = 12/0.03 = 400 N/m. At x = 1 cm: F = 400 × 0.01 = 4 N. Students might think it's inversely proportional or use ratios incorrectly."
+    "explanation": "Restoring force F = -kx is directly proportional to displacement. If F = 12 N at x = 3 cm, then k = 12/0.03 = 400 N/m. At x = 1 cm: F = 400 × 0.01 = 4 N. Students might think it's inversely proportional or use ratios incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q229",
@@ -7780,7 +7998,8 @@ window.PHYSICS_MCQ = [
       "6"
     ],
     "answer": 0,
-    "explanation": "To maintain the same period: T = 2π√(L/g). For same T with g_moon = g/6: 2π√(L_new/(g/6)) = 2π√(L_old/g). This gives L_new × 6 = L_old × g, so L_new = L_old/6. The length must be reduced by factor of 6. Students often think it needs to increase or use square root scaling."
+    "explanation": "To maintain the same period: T = 2π√(L/g). For same T with g_moon = g/6: 2π√(L_new/(g/6)) = 2π√(L_old/g). This gives L_new × 6 = L_old × g, so L_new = L_old/6. The length must be reduced by factor of 6. Students often think it needs to increase or use square root scaling.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q230",
@@ -7800,7 +8019,8 @@ window.PHYSICS_MCQ = [
       "0.20 J"
     ],
     "answer": 1,
-    "explanation": "Maximum KE equals total energy: KEmax = $\\frac{1}{2}$k$A^2$. First find k using T = 2π√(m/k): k = 4π²$m/T^2$ = 4π²(2)/(16) = π²/2 N/m. Then KEmax = $\\frac{1}{2}$(π²/2)(0.1)² = π²/400 $\\approx$ 0.049 J. Students might use wrong energy formulas or forget to convert units."
+    "explanation": "Maximum KE equals total energy: KEmax = $\\frac{1}{2}$k$A^2$. First find k using T = 2π√(m/k): k = 4π²$m/T^2$ = 4π²(2)/(16) = π²/2 N/m. Then KEmax = $\\frac{1}{2}$(π²/2)(0.1)² = π²/400 $\\approx$ 0.049 J. Students might use wrong energy formulas or forget to convert units.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q231",
@@ -7820,7 +8040,8 @@ window.PHYSICS_MCQ = [
       "4"
     ],
     "answer": 1,
-    "explanation": "T₁ = 2π√(1/g) and T₂ = 2π√(4/g) = 2T₁. The longer pendulum takes twice as long per oscillation. They will be in phase again when the shorter one completes 2 oscillations while the longer one completes 1. Students often think they need equal numbers of oscillations or use additive relationships."
+    "explanation": "T₁ = 2π√(1/g) and T₂ = 2π√(4/g) = 2T₁. The longer pendulum takes twice as long per oscillation. They will be in phase again when the shorter one completes 2 oscillations while the longer one completes 1. Students often think they need equal numbers of oscillations or use additive relationships.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q232",
@@ -7840,7 +8061,8 @@ window.PHYSICS_MCQ = [
       "2"
     ],
     "answer": 1,
-    "explanation": "Maximum speed vmax = ωA where ω = √(k/m) is constant. If amplitude changes from A to A/2, then vmax changes from ωA to $\\omega$(A/2) = (ωA)/2. The ratio is 1/2. Students might think energy relationship gives 1/4 or that frequency changes affect speed."
+    "explanation": "Maximum speed vmax = ωA where ω = √(k/m) is constant. If amplitude changes from A to A/2, then vmax changes from ωA to $\\omega$(A/2) = (ωA)/2. The ratio is 1/2. Students might think energy relationship gives 1/4 or that frequency changes affect speed.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q233",
@@ -7861,7 +8083,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "In SHM, acceleration a = -ω²x, so maximum acceleration is ω²A. For acceleration to be half maximum: ω²x = (1/2)(ω²A), so x = A/2. Students often confuse this with velocity relationships (A/√2) or make arithmetic errors.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='45' y1='72' x2='45' y2='192' stroke-width='3' class='svg-axis'/><line x1='45' y1='79' x2='32' y2='89' stroke-width='1' class='svg-axis'/><line x1='45' y1='93' x2='32' y2='103' stroke-width='1' class='svg-axis'/><line x1='45' y1='107' x2='32' y2='117' stroke-width='1' class='svg-axis'/><line x1='45' y1='121' x2='32' y2='131' stroke-width='1' class='svg-axis'/><line x1='45' y1='135' x2='32' y2='145' stroke-width='1' class='svg-axis'/><line x1='45' y1='149' x2='32' y2='159' stroke-width='1' class='svg-axis'/><line x1='45' y1='163' x2='32' y2='173' stroke-width='1' class='svg-axis'/><line x1='45' y1='177' x2='32' y2='187' stroke-width='1' class='svg-axis'/><line x1='45' y1='191' x2='32' y2='201' stroke-width='1' class='svg-axis'/><path d='M 45,128 L 55,128 Q 59,113 63,128 Q 67,143 71,128 Q 75,113 79,128 Q 83,143 87,128 Q 91,113 95,128 Q 99,143 103,128 Q 107,113 111,128 Q 115,143 119,128 Q 123,113 127,128 Q 131,143 135,128 L 147,128' stroke='#0891b2' stroke-width='2' fill='none'/><text x='90' y='106' text-anchor='middle' fill='#0891b2' font-size='10' class='svg-label'>k</text><line x1='45' y1='145' x2='268' y2='145' stroke-width='2' class='svg-axis'/><rect x='147' y='111' width='36' height='34' fill='none' stroke-width='2' class='svg-axis'/><text x='165' y='133' text-anchor='middle' font-size='11' class='svg-label'>m</text><line x1='68' y1='182' x2='252' y2='182' stroke-width='1.5' class='svg-axis'/><polygon points='252,182 241,177 241,187' class='svg-axis-fill'/><text x='255' y='186' text-anchor='start' font-size='12' class='svg-label'>x</text><line x1='90' y1='145' x2='90' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='90' y1='178' x2='90' y2='186' stroke-width='1.5' class='svg-axis'/><text x='90' y='198' text-anchor='middle' font-size='12' class='svg-label'>−A</text><line x1='165' y1='145' x2='165' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='165' y1='178' x2='165' y2='186' stroke-width='1.5' class='svg-axis'/><text x='165' y='198' text-anchor='middle' font-size='12' class='svg-label'>0</text><line x1='240' y1='145' x2='240' y2='182' stroke-width='1' stroke-dasharray='4 3' class='svg-axis'/><line x1='240' y1='178' x2='240' y2='186' stroke-width='1.5' class='svg-axis'/><text x='240' y='198' text-anchor='middle' font-size='12' class='svg-label'>+A</text><text x='90' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='90' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text><text x='165' y='215' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>v = max</text><text x='165' y='227' text-anchor='middle' fill='#3b82f6' font-size='10' class='svg-label'>a = 0</text><text x='240' y='215' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>v = 0</text><text x='240' y='227' text-anchor='middle' fill='#94a3b8' font-size='10' class='svg-label'>|a| = max</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q234",
@@ -7881,7 +8104,8 @@ window.PHYSICS_MCQ = [
       "0.05 N/m"
     ],
     "answer": 1,
-    "explanation": "Using Hooke's law F = kx, we have k = F/x = 2.0 N / 0.1 m = 20 N/m. Students might incorrectly use the mass (getting 4 N/m, not listed) or make calculation errors like 2.0 × 0.1 = 0.2 or confuse which values to divide."
+    "explanation": "Using Hooke's law F = kx, we have k = F/x = 2.0 N / 0.1 m = 20 N/m. Students might incorrectly use the mass (getting 4 N/m, not listed) or make calculation errors like 2.0 × 0.1 = 0.2 or confuse which values to divide.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q235",
@@ -7901,7 +8125,8 @@ window.PHYSICS_MCQ = [
       "Remains the same"
     ],
     "answer": 1,
-    "explanation": "For a spring-mass system, T = 2π√(m/k). If mass increases by factor of 4, then T = 2π√(4m/k) = 2 × 2π√(m/k), so period doubles. Students often think period increases by factor of 4 (direct proportionality misconception) or think mass doesn't affect period."
+    "explanation": "For a spring-mass system, T = 2π√(m/k). If mass increases by factor of 4, then T = 2π√(4m/k) = 2 × 2π√(m/k), so period doubles. Students often think period increases by factor of 4 (direct proportionality misconception) or think mass doesn't affect period.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q236",
@@ -7921,7 +8146,8 @@ window.PHYSICS_MCQ = [
       "Twice the original speed"
     ],
     "answer": 0,
-    "explanation": "Maximum speed v_max = ωA. Since ω depends only on k and m (unchanged), and the new amplitude is A/2, the new maximum speed is $\\omega$(A/2) = (1/2)ωA = half the original. Students might think speed is independent of amplitude or confuse energy relationships."
+    "explanation": "Maximum speed v_max = ωA. Since ω depends only on k and m (unchanged), and the new amplitude is A/2, the new maximum speed is $\\omega$(A/2) = (1/2)ωA = half the original. Students might think speed is independent of amplitude or confuse energy relationships.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q237",
@@ -7941,7 +8167,8 @@ window.PHYSICS_MCQ = [
       "8.0 seconds"
     ],
     "answer": 1,
-    "explanation": "For a simple pendulum, T = 2π√(L/g). If g increases by factor of 4, then T_new = 2π√(L/4g) = (1/2) × 2π√(L/g) = T/2 = 1.0 s. Students often think period is directly proportional to g (giving 8.0 s) or inverse to g (giving 0.5 s)."
+    "explanation": "For a simple pendulum, T = 2π√(L/g). If g increases by factor of 4, then T_new = 2π√(L/4g) = (1/2) × 2π√(L/g) = T/2 = 1.0 s. Students often think period is directly proportional to g (giving 8.0 s) or inverse to g (giving 0.5 s).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q238",
@@ -7961,7 +8188,8 @@ window.PHYSICS_MCQ = [
       "2A/3"
     ],
     "answer": 0,
-    "explanation": "Total energy E = KE + PE. If KE = 2PE, then E = 2PE + PE = 3PE, so PE = E/3. Since PE = (1/2)k$x^2$ and E = (1/2)k$A^2$, we have (1/2)k$x^2$ = (1/3)(1/2)k$A^2$, giving $x^2$ = $A^2$/3, so x = A/√3. Students often use incorrect energy relationships or make algebraic errors."
+    "explanation": "Total energy E = KE + PE. If KE = 2PE, then E = 2PE + PE = 3PE, so PE = E/3. Since PE = (1/2)k$x^2$ and E = (1/2)k$A^2$, we have (1/2)k$x^2$ = (1/3)(1/2)k$A^2$, giving $x^2$ = $A^2$/3, so x = A/√3. Students often use incorrect energy relationships or make algebraic errors.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q239",
@@ -7981,7 +8209,8 @@ window.PHYSICS_MCQ = [
       "φ = π/6"
     ],
     "answer": 0,
-    "explanation": "At t=0: x(0) = A cos(φ) = A/2, so cos(φ) = 1/2. This gives φ = ±π/3. The velocity is v(t) = -Aω sin($\\omega$t + φ), so v(0) = -Aω sin(φ). Since the particle moves in the positive direction, v(0) > 0, so sin(φ) < 0. Only φ = -π/3 satisfies both conditions. Students often choose π/3 by ignoring the velocity condition or confuse the signs in the velocity equation."
+    "explanation": "At t=0: x(0) = A cos(φ) = A/2, so cos(φ) = 1/2. This gives φ = ±π/3. The velocity is v(t) = -Aω sin($\\omega$t + φ), so v(0) = -Aω sin(φ). Since the particle moves in the positive direction, v(0) > 0, so sin(φ) < 0. Only φ = -π/3 satisfies both conditions. Students often choose π/3 by ignoring the velocity condition or confuse the signs in the velocity equation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q240",
@@ -8001,7 +8230,8 @@ window.PHYSICS_MCQ = [
       "It depends on the mass"
     ],
     "answer": 1,
-    "explanation": "The restoring force follows Hooke's law: F = -kx. The magnitude is |F| = k|x|, which is directly proportional to displacement. When displacement doubles, the restoring force magnitude doubles. Students often think it quadruples (confusing with energy relationships) or that it depends on mass (confusing force with acceleration)."
+    "explanation": "The restoring force follows Hooke's law: F = -kx. The magnitude is |F| = k|x|, which is directly proportional to displacement. When displacement doubles, the restoring force magnitude doubles. Students often think it quadruples (confusing with energy relationships) or that it depends on mass (confusing force with acceleration).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q241",
@@ -8021,7 +8251,8 @@ window.PHYSICS_MCQ = [
       "The period is halved"
     ],
     "answer": 0,
-    "explanation": "For springs in series, the effective spring constant is k_eff = k/2 (where k is the constant of each spring). The period is T = 2π√(m/k_eff) = 2π√(m/(k/2)) = 2π√(2m/k) = √2 × 2π√(m/k). The period increases by √2. Students often think springs in series add like resistors in parallel, or confuse series with parallel spring arrangements."
+    "explanation": "For springs in series, the effective spring constant is k_eff = k/2 (where k is the constant of each spring). The period is T = 2π√(m/k_eff) = 2π√(m/(k/2)) = 2π√(2m/k) = √2 × 2π√(m/k). The period increases by √2. Students often think springs in series add like resistors in parallel, or confuse series with parallel spring arrangements.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q243",
@@ -8041,7 +8272,8 @@ window.PHYSICS_MCQ = [
       "The period becomes four times as large"
     ],
     "answer": 2,
-    "explanation": "The period of a simple pendulum is T = 2π√(L/g). When g becomes g/4, the new period is T' = 2π√(L/(g/4)) = 2π√(4L/g) = 2 × 2π√(L/g) = 2T. Students often think the relationship is linear (choosing 1/4) or confuse the square root relationship direction."
+    "explanation": "The period of a simple pendulum is T = 2π√(L/g). When g becomes g/4, the new period is T' = 2π√(L/(g/4)) = 2π√(4L/g) = 2 × 2π√(L/g) = 2T. Students often think the relationship is linear (choosing 1/4) or confuse the square root relationship direction.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q244",
@@ -8061,7 +8293,8 @@ window.PHYSICS_MCQ = [
       "x = A√2/2"
     ],
     "answer": 2,
-    "explanation": "Maximum speed is v_max = ωA. Using energy conservation: $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$k$A^2$. When v = v_max/2 = ωA/2, we get $\\frac{1}{2}$m(ωA/2)² + $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$k$A^2$. Since ω² = k/m, this gives $\\frac{1}{2}$k($A^2$/4) + $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$k$A^2$, leading to $x^2$ = 3$A^2$/4, so x = A√3/2. Students often confuse this with half the maximum displacement (A/2) or use incorrect energy relationships."
+    "explanation": "Maximum speed is v_max = ωA. Using energy conservation: $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$k$A^2$. When v = v_max/2 = ωA/2, we get $\\frac{1}{2}$m(ωA/2)² + $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$k$A^2$. Since ω² = k/m, this gives $\\frac{1}{2}$k($A^2$/4) + $\\frac{1}{2}$k$x^2$ = $\\frac{1}{2}$k$A^2$, leading to $x^2$ = 3$A^2$/4, so x = A√3/2. Students often confuse this with half the maximum displacement (A/2) or use incorrect energy relationships.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q245",
@@ -8081,7 +8314,8 @@ window.PHYSICS_MCQ = [
       "√3/2"
     ],
     "answer": 2,
-    "explanation": "Total energy E = $\\frac{1}{2}$k$A^2$. At position x = A/2, potential energy is U = $\\frac{1}{2}$k(A/2)² = ⅛k$A^2$ = E/4. By conservation of energy, kinetic energy K = E - U = E - E/4 = 3E/4. Therefore, kinetic energy is 3/4 of the total energy. Students often think kinetic energy is 1/2 (confusing with the equilibrium position) or 1/4 (thinking it mirrors the potential energy fraction)."
+    "explanation": "Total energy E = $\\frac{1}{2}$k$A^2$. At position x = A/2, potential energy is U = $\\frac{1}{2}$k(A/2)² = ⅛k$A^2$ = E/4. By conservation of energy, kinetic energy K = E - U = E - E/4 = 3E/4. Therefore, kinetic energy is 3/4 of the total energy. Students often think kinetic energy is 1/2 (confusing with the equilibrium position) or 1/4 (thinking it mirrors the potential energy fraction).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q246",
@@ -8101,7 +8335,8 @@ window.PHYSICS_MCQ = [
       "t = π/ω"
     ],
     "answer": 2,
-    "explanation": "Acceleration is a(t) = -ω²x(t) = -ω²A sin($\\omega$t). Maximum magnitude acceleration occurs when |sin($\\omega$t)| = 1. Since x(t) starts at 0, the first maximum displacement (and thus maximum acceleration magnitude) occurs when sin($\\omega$t) = 1, which happens at t = π/(2ω). Students often choose t = 0 (confusing with initial conditions) or π/(4ω) (thinking of quarter period incorrectly)."
+    "explanation": "Acceleration is a(t) = -ω²x(t) = -ω²A sin($\\omega$t). Maximum magnitude acceleration occurs when |sin($\\omega$t)| = 1. Since x(t) starts at 0, the first maximum displacement (and thus maximum acceleration magnitude) occurs when sin($\\omega$t) = 1, which happens at t = π/(2ω). Students often choose t = 0 (confusing with initial conditions) or π/(4ω) (thinking of quarter period incorrectly).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q247",
@@ -8121,7 +8356,8 @@ window.PHYSICS_MCQ = [
       "Length must be decreased by factor of √6"
     ],
     "answer": 1,
-    "explanation": "The period of a simple pendulum is T = 2π√(L/g). To maintain the same period on the Moon (g_moon = g_earth/6), we need L_moon/g_moon = L_earth/g_earth, so L_moon = L_earth × (g_moon/g_earth) = L_earth/6. The length must be decreased by a factor of 6. Choice A is wrong: increasing L by 6 would increase T by √6. Choice C is wrong: increasing by √6 would require g to increase by 6. Choice D (decrease by √6) gives T_moon = 2π√(L/√6 ÷ g/6) = 2π√(6L/(g√6)) = T_earth × 6^(1/4) ≠ T_earth."
+    "explanation": "The period of a simple pendulum is T = 2π√(L/g). To maintain the same period on the Moon (g_moon = g_earth/6), we need L_moon/g_moon = L_earth/g_earth, so L_moon = L_earth × (g_moon/g_earth) = L_earth/6. The length must be decreased by a factor of 6. Choice A is wrong: increasing L by 6 would increase T by √6. Choice C is wrong: increasing by √6 would require g to increase by 6. Choice D (decrease by √6) gives T_moon = 2π√(L/√6 ÷ g/6) = 2π√(6L/(g√6)) = T_earth × 6^(1/4) ≠ T_earth.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q248",
@@ -8141,7 +8377,8 @@ window.PHYSICS_MCQ = [
       "The tension quadruples"
     ],
     "answer": 0,
-    "explanation": "Maximum tension occurs at the bottom of the swing. Using T = mg + m$v^2$/L, where v is maximum speed. Since the period doesn't depend on mass, the maximum speed v = ωA remains the same for the same amplitude. When mass doubles, both the mg term and the m$v^2$/L term double, so total tension doubles. Students often think tension is independent of mass (confusing with period) or that it increases by √2."
+    "explanation": "Maximum tension occurs at the bottom of the swing. Using T = mg + m$v^2$/L, where v is maximum speed. Since the period doesn't depend on mass, the maximum speed v = ωA remains the same for the same amplitude. When mass doubles, both the mg term and the m$v^2$/L term double, so total tension doubles. Students often think tension is independent of mass (confusing with period) or that it increases by √2.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q249",
@@ -8161,7 +8398,8 @@ window.PHYSICS_MCQ = [
       "Maximum speed increases by √2"
     ],
     "answer": 1,
-    "explanation": "Maximum speed occurs at the equilibrium position: v_max = ωA. Since ω depends only on k and m (not amplitude), when amplitude doubles, maximum speed doubles. Students often think maximum speed quadruples (confusing with energy, which goes as $A^2$) or remains the same (incorrectly thinking ω changes with amplitude)."
+    "explanation": "Maximum speed occurs at the equilibrium position: v_max = ωA. Since ω depends only on k and m (not amplitude), when amplitude doubles, maximum speed doubles. Students often think maximum speed quadruples (confusing with energy, which goes as $A^2$) or remains the same (incorrectly thinking ω changes with amplitude).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q251",
@@ -8181,7 +8419,8 @@ window.PHYSICS_MCQ = [
       "T/3"
     ],
     "answer": 1,
-    "explanation": "Starting from rest at maximum displacement: x(t) = A cos($\\omega$t). We need x = A/2, so A cos($\\omega$t) = A/2, giving cos($\\omega$t) = 1/2. This means $\\omega$t = π/3, so t = π/(3ω) = T/6 (since T = 2π/ω). Students often choose T/4 (thinking of quarter period) or T/8 (confusing with other fractional relationships)."
+    "explanation": "Starting from rest at maximum displacement: x(t) = A cos($\\omega$t). We need x = A/2, so A cos($\\omega$t) = A/2, giving cos($\\omega$t) = 1/2. This means $\\omega$t = π/3, so t = π/(3ω) = T/6 (since T = 2π/ω). Students often choose T/4 (thinking of quarter period) or T/8 (confusing with other fractional relationships).",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q252",
@@ -8201,7 +8440,8 @@ window.PHYSICS_MCQ = [
       "The effective spring constant is four times that of a single spring"
     ],
     "answer": 2,
-    "explanation": "In parallel, springs share the load equally. Each spring extends the same amount x, and each contributes force kx. Total restoring force is F = kx + kx = 2kx, giving effective spring constant k_eff = 2k. Students often confuse parallel with series arrangements (where k_eff = k/2) or think the forces don't add directly."
+    "explanation": "In parallel, springs share the load equally. Each spring extends the same amount x, and each contributes force kx. Total restoring force is F = kx + kx = 2kx, giving effective spring constant k_eff = 2k. Students often confuse parallel with series arrangements (where k_eff = k/2) or think the forces don't add directly.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q250",
@@ -8221,7 +8461,8 @@ window.PHYSICS_MCQ = [
       "x = A√3/3"
     ],
     "answer": 0,
-    "explanation": "When K = 2U and K + U = E, we have 2U + U = E, so U = E/3. Since E = $\\frac{1}{2}$k$A^2$ and U = $\\frac{1}{2}$k$x^2$, we get $\\frac{1}{2}$k$x^2$ = (1/3)($\\frac{1}{2}$k$A^2$), which gives $x^2$ = $A^2$/3, so x = A/√3. Students often solve incorrectly by setting up wrong energy ratios or making algebraic errors with the square root relationships."
+    "explanation": "When K = 2U and K + U = E, we have 2U + U = E, so U = E/3. Since E = $\\frac{1}{2}$k$A^2$ and U = $\\frac{1}{2}$k$x^2$, we get $\\frac{1}{2}$k$x^2$ = (1/3)($\\frac{1}{2}$k$A^2$), which gives $x^2$ = $A^2$/3, so x = A/√3. Students often solve incorrectly by setting up wrong energy ratios or making algebraic errors with the square root relationships.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q253",
@@ -8241,7 +8482,8 @@ window.PHYSICS_MCQ = [
       "3.0 N⋅m"
     ],
     "answer": 3,
-    "explanation": "Torque = force × moment arm = 10 N × 0.3 m = 3.0 N⋅m. Choice B adds the values instead of multiplying. Choice C divides incorrectly (10/0.3). Choice A multiplies by 0.03 instead of 0.3."
+    "explanation": "Torque = force × moment arm = 10 N × 0.3 m = 3.0 N⋅m. Choice B adds the values instead of multiplying. Choice C divides incorrectly (10/0.3). Choice A multiplies by 0.03 instead of 0.3.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q254",
@@ -8261,7 +8503,8 @@ window.PHYSICS_MCQ = [
       "The perpendicular distance from the axis of rotation to the line of action of the force"
     ],
     "answer": 3,
-    "explanation": "The moment arm is specifically the perpendicular distance from the rotation axis to the line of action of the force. Choice B confuses it with the physical length of the lever. Choice C doesn't account for the perpendicular requirement. Choice A confuses moment arm with force magnitude."
+    "explanation": "The moment arm is specifically the perpendicular distance from the rotation axis to the line of action of the force. Choice B confuses it with the physical length of the lever. Choice C doesn't account for the perpendicular requirement. Choice A confuses moment arm with force magnitude.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q255",
@@ -8281,7 +8524,8 @@ window.PHYSICS_MCQ = [
       "Both the mass of the object and how that mass is distributed relative to the axis of rotation"
     ],
     "answer": 3,
-    "explanation": "Rotational inertia depends on both mass and its distribution from the rotation axis (I = Σm$r^2$). Choice B ignores mass distribution effects. Choice C confuses rotational inertia with a condition of rotational equilibrium. Choice A confuses rotational inertia with angular momentum."
+    "explanation": "Rotational inertia depends on both mass and its distribution from the rotation axis (I = Σm$r^2$). Choice B ignores mass distribution effects. Choice C confuses rotational inertia with a condition of rotational equilibrium. Choice A confuses rotational inertia with angular momentum.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q256",
@@ -8301,7 +8545,8 @@ window.PHYSICS_MCQ = [
       "τ = Iα"
     ],
     "answer": 3,
-    "explanation": "The rotational form of Newton's second law is τ = Iα (torque equals rotational inertia times angular acceleration). Choice B uses angular velocity instead of acceleration. Choice C is the linear form. Choice A is the definition of angular momentum."
+    "explanation": "The rotational form of Newton's second law is τ = Iα (torque equals rotational inertia times angular acceleration). Choice B uses angular velocity instead of acceleration. Choice C is the linear form. Choice A is the definition of angular momentum.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q257",
@@ -8321,7 +8566,8 @@ window.PHYSICS_MCQ = [
       "The net external torque on the system is zero"
     ],
     "answer": 3,
-    "explanation": "Angular momentum is conserved when net external torque is zero. Choice B describes conservation of linear momentum. Choice C is not required for angular momentum conservation. Choice A describes uniform rotation, not conservation."
+    "explanation": "Angular momentum is conserved when net external torque is zero. Choice B describes conservation of linear momentum. Choice C is not required for angular momentum conservation. Choice A describes uniform rotation, not conservation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q258",
@@ -8341,7 +8587,8 @@ window.PHYSICS_MCQ = [
       "v = ω²r"
     ],
     "answer": 0,
-    "explanation": "For rolling without slipping, v = ωr where r is the radius. Choice B has the relationship inverted. Choice C includes an extra factor of r. Choice D incorrectly squares the angular velocity instead of keeping it linear."
+    "explanation": "For rolling without slipping, v = ωr where r is the radius. Choice B has the relationship inverted. Choice C includes an extra factor of r. Choice D incorrectly squares the angular velocity instead of keeping it linear.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q259",
@@ -8361,7 +8608,8 @@ window.PHYSICS_MCQ = [
       "Zero"
     ],
     "answer": 3,
-    "explanation": "When force is parallel to the lever arm, the moment arm (perpendicular distance) is zero, so torque = 0. Choice B occurs when force is perpendicular. Choices C and D incorrectly suggest torque equals individual components rather than their product."
+    "explanation": "When force is parallel to the lever arm, the moment arm (perpendicular distance) is zero, so torque = 0. Choice B occurs when force is perpendicular. Choices C and D incorrectly suggest torque equals individual components rather than their product.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q260",
@@ -8381,7 +8629,8 @@ window.PHYSICS_MCQ = [
       "A hollow cylinder"
     ],
     "answer": 3,
-    "explanation": "The hollow cylinder has the largest rotational inertia because its mass is distributed furthest from the axis. For equal mass and radius: hollow cylinder > solid cylinder > solid sphere. Choice A ignores that mass distribution affects rotational inertia."
+    "explanation": "The hollow cylinder has the largest rotational inertia because its mass is distributed furthest from the axis. For equal mass and radius: hollow cylinder > solid cylinder > solid sphere. Choice A ignores that mass distribution affects rotational inertia.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q261",
@@ -8401,7 +8650,8 @@ window.PHYSICS_MCQ = [
       "It becomes zero"
     ],
     "answer": 0,
-    "explanation": "When the skater pulls her arms in, her rotational inertia decreases. Since angular momentum L = Iω is conserved, ω must increase. Choice B would occur if I increased. Choice C ignores the change in rotational inertia. Choice D is physically impossible."
+    "explanation": "When the skater pulls her arms in, her rotational inertia decreases. Since angular momentum L = Iω is conserved, ω must increase. Choice B would occur if I increased. Choice C ignores the change in rotational inertia. Choice D is physically impossible.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q262",
@@ -8421,7 +8671,8 @@ window.PHYSICS_MCQ = [
       "6.0 N⋅m"
     ],
     "answer": 1,
-    "explanation": "Torque = rF sin(θ), where θ is the angle between the force and the lever arm. The force is 30° from the perpendicular to the handle, so the angle between the force and the handle itself is 90° − 30° = 60°. τ = (0.25)(12)sin(60°) = 3 × 0.866 ≈ 2.6 N·m. Choice A (1.5 N·m) is the result of incorrectly using sin(30°) = 0.5 instead of sin(60°) = 0.866. Choice C (3.0 N·m) applies the full force with no angular reduction. Choice D (6.0 N·m) uses twice the correct torque."
+    "explanation": "Torque = rF sin(θ), where θ is the angle between the force and the lever arm. The force is 30° from the perpendicular to the handle, so the angle between the force and the handle itself is 90° − 30° = 60°. τ = (0.25)(12)sin(60°) = 3 × 0.866 ≈ 2.6 N·m. Choice A (1.5 N·m) is the result of incorrectly using sin(30°) = 0.5 instead of sin(60°) = 0.866. Choice C (3.0 N·m) applies the full force with no angular reduction. Choice D (6.0 N·m) uses twice the correct torque.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q263",
@@ -8441,7 +8692,8 @@ window.PHYSICS_MCQ = [
       "0.80 m from hinges, perpendicular to door"
     ],
     "answer": 3,
-    "explanation": "Maximum torque occurs when the moment arm is maximized. The moment arm is the perpendicular distance from the pivot to the line of action of the force. This is maximized by applying the force at the greatest distance (0.80 m) perpendicular to the door. Choice B uses half the distance, C has zero moment arm, D incorrectly suggests distance doesn't matter."
+    "explanation": "Maximum torque occurs when the moment arm is maximized. The moment arm is the perpendicular distance from the pivot to the line of action of the force. This is maximized by applying the force at the greatest distance (0.80 m) perpendicular to the door. Choice B uses half the distance, C has zero moment arm, D incorrectly suggests distance doesn't matter.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q264",
@@ -8461,7 +8713,8 @@ window.PHYSICS_MCQ = [
       "1/4"
     ],
     "answer": 3,
-    "explanation": "For a solid cylinder, I = (1/2)M$R^2$. For cylinder A: IA = (1/2)M$R^2$. For cylinder B: IB = (1/2)M(2R)² = (1/2)M(4$R^2$) = 2M$R^2$. Therefore IA/IB = [(1/2)M$R^2$]/[2M$R^2$] = 1/4. Choice B incorrectly treats I as proportional to R rather than $R^2$, giving 1/2. Choice C incorrectly uses an $R^3$ dependence, giving 1/8. Choice A inverts the ratio, giving 4 scaled incorrectly to 2."
+    "explanation": "For a solid cylinder, I = (1/2)M$R^2$. For cylinder A: IA = (1/2)M$R^2$. For cylinder B: IB = (1/2)M(2R)² = (1/2)M(4$R^2$) = 2M$R^2$. Therefore IA/IB = [(1/2)M$R^2$]/[2M$R^2$] = 1/4. Choice B incorrectly treats I as proportional to R rather than $R^2$, giving 1/2. Choice C incorrectly uses an $R^3$ dependence, giving 1/8. Choice A inverts the ratio, giving 4 scaled incorrectly to 2.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q265",
@@ -8481,7 +8734,8 @@ window.PHYSICS_MCQ = [
       "1.44 N⋅m"
     ],
     "answer": 1,
-    "explanation": "First find angular acceleration: α = Δω/$\\Delta t$ = 8.0/4.0 = 2.0 $rad/s^2$. For a solid disk: I = (1/2)M$R^2$ = (1/2)(2.0)(0.30)² = 0.09 kg⋅$m^2$. Using τ = Iα: τ = (0.09)(2.0) = 0.18 N⋅m. Choice A uses I = M$R^2$, C uses I = 2M$R^2$, D uses the wrong rotational inertia formula entirely."
+    "explanation": "First find angular acceleration: α = Δω/$\\Delta t$ = 8.0/4.0 = 2.0 $rad/s^2$. For a solid disk: I = (1/2)M$R^2$ = (1/2)(2.0)(0.30)² = 0.09 kg⋅$m^2$. Using τ = Iα: τ = (0.09)(2.0) = 0.18 N⋅m. Choice A uses I = M$R^2$, C uses I = 2M$R^2$, D uses the wrong rotational inertia formula entirely.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q266",
@@ -8501,7 +8755,8 @@ window.PHYSICS_MCQ = [
       "18.0 kg⋅$m^2$/s"
     ],
     "answer": 0,
-    "explanation": "Angular momentum L = mvr when velocity is perpendicular to the radius vector. L = (0.5 kg)(6.0 m/s)(2.0 m) = 6.0 kg⋅$m^2$/s. Choice B incorrectly doubles the result, C uses half the mass, D uses L = mv$r^2$ instead of L = mvr."
+    "explanation": "Angular momentum L = mvr when velocity is perpendicular to the radius vector. L = (0.5 kg)(6.0 m/s)(2.0 m) = 6.0 kg⋅$m^2$/s. Choice B incorrectly doubles the result, C uses half the mass, D uses L = mv$r^2$ instead of L = mvr.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q267",
@@ -8521,7 +8776,8 @@ window.PHYSICS_MCQ = [
       "6.0 rad/s"
     ],
     "answer": 0,
-    "explanation": "By conservation of angular momentum: L₁ = L₂, so I₁ω₁ = I₂ω₂. (2.4)(1.5) = (1.2)ω₂, so ω₂ = 3.6/1.2 = 3.0 rad/s. Choice B incorrectly assumes angular velocity stays constant, C uses the ratio I₂/I₁ instead of I₁/I₂, D doubles the correct answer."
+    "explanation": "By conservation of angular momentum: L₁ = L₂, so I₁ω₁ = I₂ω₂. (2.4)(1.5) = (1.2)ω₂, so ω₂ = 3.6/1.2 = 3.0 rad/s. Choice B incorrectly assumes angular velocity stays constant, C uses the ratio I₂/I₁ instead of I₁/I₂, D doubles the correct answer.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q268",
@@ -8541,7 +8797,8 @@ window.PHYSICS_MCQ = [
       "ω = v/(2R)"
     ],
     "answer": 0,
-    "explanation": "For rolling without slipping, the relationship between linear velocity v and angular velocity ω is v = ωR, therefore ω = v/R. This is independent of the object's shape. Choice B has incorrect units, C and D use incorrect factors that don't apply to the basic rolling condition."
+    "explanation": "For rolling without slipping, the relationship between linear velocity v and angular velocity ω is v = ωR, therefore ω = v/R. This is independent of the object's shape. Choice B has incorrect units, C and D use incorrect factors that don't apply to the basic rolling condition.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q269",
@@ -8561,7 +8818,8 @@ window.PHYSICS_MCQ = [
       "0.85 m"
     ],
     "answer": 1,
-    "explanation": "The moment arm is the perpendicular distance from the pivot to the line of action of the force. When force is at 45° to the lever arm, the moment arm = (0.6 m)sin(45°) = 0.6 × 0.707 = 0.42 m. Choice A uses the full lever length, C uses half the lever length, D uses an incorrect trigonometric calculation."
+    "explanation": "The moment arm is the perpendicular distance from the pivot to the line of action of the force. When force is at 45° to the lever arm, the moment arm = (0.6 m)sin(45°) = 0.6 × 0.707 = 0.42 m. Choice A uses the full lever length, C uses half the lever length, D uses an incorrect trigonometric calculation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q270",
@@ -8581,7 +8839,8 @@ window.PHYSICS_MCQ = [
       "4"
     ],
     "answer": 1,
-    "explanation": "For a thin ring: I = M$R^2$. For a solid disk: I = (1/2)M$R^2$. The ratio Iring/Idisk = M$R^2$/[(1/2)M$R^2$] = 1/(1/2) = 2. Choice A assumes they're equal, C inverts the ratio, D uses an incorrect factor of 4."
+    "explanation": "For a thin ring: I = M$R^2$. For a solid disk: I = (1/2)M$R^2$. The ratio Iring/Idisk = M$R^2$/[(1/2)M$R^2$] = 1/(1/2) = 2. Choice A assumes they're equal, C inverts the ratio, D uses an incorrect factor of 4.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q271",
@@ -8601,7 +8860,8 @@ window.PHYSICS_MCQ = [
       "1.3 rad/s"
     ],
     "answer": 0,
-    "explanation": "Using τ = Iα to find angular acceleration: α = τ/I = 2.0/0.5 = 4.0 $rad/s^2$. Then using ω = ω₀ + αt with ω₀ = 0: ω = 0 + (4.0)(3.0) = 12 rad/s. Choice B is just the angular acceleration, C uses wrong time calculation, D uses τ/I incorrectly."
+    "explanation": "Using τ = Iα to find angular acceleration: α = τ/I = 2.0/0.5 = 4.0 $rad/s^2$. Then using ω = ω₀ + αt with ω₀ = 0: ω = 0 + (4.0)(3.0) = 12 rad/s. Choice B is just the angular acceleration, C uses wrong time calculation, D uses τ/I incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q273",
@@ -8621,7 +8881,8 @@ window.PHYSICS_MCQ = [
       "1/4"
     ],
     "answer": 0,
-    "explanation": "For a rolling solid cylinder: KErot = (1/2)Iω² = (1/2)[(1/2)M$R^2$]ω² = (1/4)M$R^2$ω². KEtrans = (1/2)M$v^2$ = (1/2)M(Rω)² = (1/2)M$R^2$ω². Total KE = KErot + KEtrans = (1/4)M$R^2$ω² + (1/2)M$R^2$ω² = (3/4)M$R^2$ω². The fraction that's rotational: KErot/KEtotal = [(1/4)M$R^2$ω²]/[(3/4)M$R^2$ω²] = 1/3. Choice B assumes equal division, C gives the translational fraction, D uses wrong rotational inertia."
+    "explanation": "For a rolling solid cylinder: KErot = (1/2)Iω² = (1/2)[(1/2)M$R^2$]ω² = (1/4)M$R^2$ω². KEtrans = (1/2)M$v^2$ = (1/2)M(Rω)² = (1/2)M$R^2$ω². Total KE = KErot + KEtrans = (1/4)M$R^2$ω² + (1/2)M$R^2$ω² = (3/4)M$R^2$ω². The fraction that's rotational: KErot/KEtotal = [(1/4)M$R^2$ω²]/[(3/4)M$R^2$ω²] = 1/3. Choice B assumes equal division, C gives the translational fraction, D uses wrong rotational inertia.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q274",
@@ -8641,7 +8902,8 @@ window.PHYSICS_MCQ = [
       "Cannot determine without knowing the wrench mass"
     ],
     "answer": 0,
-    "explanation": "Method A: τ = rF sin(90°) = (0.3)(100)(1) = 30 N⋅m. Method B: τ = rF sin(60°) = (0.2)(150)(0.866) = 26 N⋅m. Method A produces more torque. Choice B incorrectly calculates Method B, C assumes they're equal, D incorrectly thinks mass matters for torque calculation."
+    "explanation": "Method A: τ = rF sin(90°) = (0.3)(100)(1) = 30 N⋅m. Method B: τ = rF sin(60°) = (0.2)(150)(0.866) = 26 N⋅m. Method A produces more torque. Choice B incorrectly calculates Method B, C assumes they're equal, D incorrectly thinks mass matters for torque calculation.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q275",
@@ -8661,7 +8923,8 @@ window.PHYSICS_MCQ = [
       "The cylinder, because it has larger rotational inertia"
     ],
     "answer": 3,
-    "explanation": "For rolling objects on an incline, acceleration depends on rotational inertia. Using a = g sin θ/(1 + $I/MR^2$): for the sphere I = (2/5)M$R^2$ so a = g sin θ/(1 + 2/5) = (5/7)g sin θ; for the cylinder I = (1/2)M$R^2$ so a = g sin θ/(1 + 1/2) = (2/3)g sin θ. Since (5/7) > (2/3), the sphere has greater acceleration and reaches the bottom first. Its smaller rotational inertia means less energy goes into rotation. Choices B and D are backwards, C ignores rotational inertia effects."
+    "explanation": "For rolling objects on an incline, acceleration depends on rotational inertia. Using a = g sin θ/(1 + $I/MR^2$): for the sphere I = (2/5)M$R^2$ so a = g sin θ/(1 + 2/5) = (5/7)g sin θ; for the cylinder I = (1/2)M$R^2$ so a = g sin θ/(1 + 1/2) = (2/3)g sin θ. Since (5/7) > (2/3), the sphere has greater acceleration and reaches the bottom first. Its smaller rotational inertia means less energy goes into rotation. Choices B and D are backwards, C ignores rotational inertia effects.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q276",
@@ -8681,7 +8944,8 @@ window.PHYSICS_MCQ = [
       "The torque increases by a factor of 2"
     ],
     "answer": 0,
-    "explanation": "Torque equals force times moment arm (τ = rF). When force doubles (2F) and distance triples (3r), the new torque is (3r)(2F) = 6rF, which is 6 times the original torque rF. Option B adds the factors instead of multiplying. Option C only considers the distance change. Option D only considers the force change."
+    "explanation": "Torque equals force times moment arm (τ = rF). When force doubles (2F) and distance triples (3r), the new torque is (3r)(2F) = 6rF, which is 6 times the original torque rF. Option B adds the factors instead of multiplying. Option C only considers the distance change. Option D only considers the force change.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q277",
@@ -8701,7 +8965,8 @@ window.PHYSICS_MCQ = [
       "0.92 m"
     ],
     "answer": 0,
-    "explanation": "The moment arm is the perpendicular distance from the axis of rotation to the line of action of the force. When the force is at 30° to the door surface, the moment arm is r·sin(30°) = 0.8 m × 0.5 = 0.4 m. Option B uses cos(30°). Option C uses the full distance without considering the angle. Option D incorrectly uses sin(60°) thinking it's the complement."
+    "explanation": "The moment arm is the perpendicular distance from the axis of rotation to the line of action of the force. When the force is at 30° to the door surface, the moment arm is r·sin(30°) = 0.8 m × 0.5 = 0.4 m. Option B uses cos(30°). Option C uses the full distance without considering the angle. Option D incorrectly uses sin(60°) thinking it's the complement.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q278",
@@ -8721,7 +8986,8 @@ window.PHYSICS_MCQ = [
       "IA = IB/2"
     ],
     "answer": 0,
-    "explanation": "For a solid cylinder, I = (1/2)m$r^2$. If cylinder A has twice the radius (rA = 2rB) and the same mass, then IA = (1/2)m(2rB)² = (1/2)m(4r$B^2$) = 4 × (1/2)mr$B^2$ = 4IB. Option B incorrectly assumes linear relationship with radius. Option C ignores the radius dependence. Option D inverts the relationship."
+    "explanation": "For a solid cylinder, I = (1/2)m$r^2$. If cylinder A has twice the radius (rA = 2rB) and the same mass, then IA = (1/2)m(2rB)² = (1/2)m(4r$B^2$) = 4 × (1/2)mr$B^2$ = 4IB. Option B incorrectly assumes linear relationship with radius. Option C ignores the radius dependence. Option D inverts the relationship.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q279",
@@ -8741,7 +9007,8 @@ window.PHYSICS_MCQ = [
       "τI/t"
     ],
     "answer": 0,
-    "explanation": "Using Newton's second law for rotation: τ = Iα, so α = τ/I. Starting from rest with constant angular acceleration, ω = αt = (τ/I)t = τt/I. Option B gives angular acceleration, not velocity. Option C incorrectly uses kinematic equation for displacement. Option D has incorrect units and relationship."
+    "explanation": "Using Newton's second law for rotation: τ = Iα, so α = τ/I. Starting from rest with constant angular acceleration, ω = αt = (τ/I)t = τt/I. Option B gives angular acceleration, not velocity. Option C incorrectly uses kinematic equation for displacement. Option D has incorrect units and relationship.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q280",
@@ -8761,7 +9028,8 @@ window.PHYSICS_MCQ = [
       "4ω"
     ],
     "answer": 0,
-    "explanation": "Angular momentum is conserved when no external torques act: L = Iω = constant. Initially Li = Iω. Finally Lf = (I/2)ωf. Since Li = Lf, we have Iω = (I/2)ωf, so ωf = 2ω. Option B incorrectly assumes angular velocity decreases with inertia. Option C assumes no change. Option D uses the square of the inertia ratio."
+    "explanation": "Angular momentum is conserved when no external torques act: L = Iω = constant. Initially Li = Iω. Finally Lf = (I/2)ωf. Since Li = Lf, we have Iω = (I/2)ωf, so ωf = 2ω. Option B incorrectly assumes angular velocity decreases with inertia. Option C assumes no change. Option D uses the square of the inertia ratio.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q281",
@@ -8781,7 +9049,8 @@ window.PHYSICS_MCQ = [
       "τ = rF"
     ],
     "answer": 0,
-    "explanation": "The torque magnitude is τ = rF sin(θ) where θ is the angle between the position vector and force vector. Choice B incorrectly uses cosine, which would be for the component parallel to r. Choice C uses tangent, which has no physical meaning here. Choice D ignores the angular dependence entirely."
+    "explanation": "The torque magnitude is τ = rF sin(θ) where θ is the angle between the position vector and force vector. Choice B incorrectly uses cosine, which would be for the component parallel to r. Choice C uses tangent, which has no physical meaning here. Choice D ignores the angular dependence entirely.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q282",
@@ -8801,7 +9070,8 @@ window.PHYSICS_MCQ = [
       "0.35 m"
     ],
     "answer": 0,
-    "explanation": "The moment arm is the perpendicular distance from the axis to the line of action of the force. This equals r sin(θ) = 0.3 × sin(30°) = 0.3 × 0.5 = 0.15 m. Choice B uses cos(30°), Choice C uses the full wrench length, and Choice D incorrectly adds components."
+    "explanation": "The moment arm is the perpendicular distance from the axis to the line of action of the force. This equals r sin(θ) = 0.3 × sin(30°) = 0.3 × 0.5 = 0.15 m. Choice B uses cos(30°), Choice C uses the full wrench length, and Choice D incorrectly adds components.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q283",
@@ -8822,7 +9092,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "For rotational equilibrium, Στ = 0. So F₁(L/4) = F₂(L/3), which gives F₁ = F₂(L/3)/(L/4) = F₂(4/3). Choice B inverts the ratio, Choice C ignores moment arms, and Choice D uses an incorrect factor.",
-    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='65' y1='100' x2='245' y2='100' stroke-width='4' class='svg-axis'/><polygon points='155,100 143,118 167,118' fill='#94a3b8' stroke='none'/><line x1='139' y1='118' x2='171' y2='118' stroke-width='2' class='svg-axis'/><text x='155' y='130' text-anchor='middle' font-size='10' class='svg-label'>pivot</text><line x1='110' y1='100' x2='110.0' y2='155.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='110,165 105.0,155.0 115.0,155.0' fill='#8b5cf6' stroke='none'/><text x='116' y='157' text-anchor='start' fill='#8b5cf6' font-weight='600' class='svg-label'>F₁</text><line x1='110' y1='84' x2='155' y2='84' stroke-width='1' class='svg-axis'/><line x1='110' y1='81' x2='110' y2='87' stroke-width='1' class='svg-axis'/><line x1='155' y1='81' x2='155' y2='87' stroke-width='1' class='svg-axis'/><text x='132' y='78' text-anchor='middle' font-size='11' class='svg-label'>L/4</text><line x1='215' y1='100' x2='215.0' y2='155.0' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='215,165 210.0,155.0 220.0,155.0' fill='#3b82f6' stroke='none'/><text x='221' y='157' text-anchor='start' fill='#3b82f6' font-weight='600' class='svg-label'>F₂</text><line x1='155' y1='84' x2='215' y2='84' stroke-width='1' class='svg-axis'/><line x1='155' y1='81' x2='155' y2='87' stroke-width='1' class='svg-axis'/><line x1='215' y1='81' x2='215' y2='87' stroke-width='1' class='svg-axis'/><text x='185' y='78' text-anchor='middle' font-size='11' class='svg-label'>L/3</text><text x='155' y='210' text-anchor='middle' fill='#94a3b8' font-size='11' class='svg-label'>F₁(L/4) = F₂(L/3)</text><text x='155' y='224' text-anchor='middle' fill='#94a3b8' font-size='11' font-weight='600' class='svg-label'>F₁ = (4/3) F₂</text></svg>"
+    "graphSvg": "<svg viewBox='0 0 310 260' xmlns='http://www.w3.org/2000/svg' style='max-width:320px;font-family:Inter,system-ui,sans-serif;font-size:13px'><line x1='65' y1='100' x2='245' y2='100' stroke-width='4' class='svg-axis'/><polygon points='155,100 143,118 167,118' fill='#94a3b8' stroke='none'/><line x1='139' y1='118' x2='171' y2='118' stroke-width='2' class='svg-axis'/><text x='155' y='130' text-anchor='middle' font-size='10' class='svg-label'>pivot</text><line x1='110' y1='100' x2='110.0' y2='155.0' stroke='#8b5cf6' stroke-width='2.5' fill='none'/><polygon points='110,165 105.0,155.0 115.0,155.0' fill='#8b5cf6' stroke='none'/><text x='116' y='157' text-anchor='start' fill='#8b5cf6' font-weight='600' class='svg-label'>F₁</text><line x1='110' y1='84' x2='155' y2='84' stroke-width='1' class='svg-axis'/><line x1='110' y1='81' x2='110' y2='87' stroke-width='1' class='svg-axis'/><line x1='155' y1='81' x2='155' y2='87' stroke-width='1' class='svg-axis'/><text x='132' y='78' text-anchor='middle' font-size='11' class='svg-label'>L/4</text><line x1='215' y1='100' x2='215.0' y2='155.0' stroke='#3b82f6' stroke-width='2.5' fill='none'/><polygon points='215,165 210.0,155.0 220.0,155.0' fill='#3b82f6' stroke='none'/><text x='221' y='157' text-anchor='start' fill='#3b82f6' font-weight='600' class='svg-label'>F₂</text><line x1='155' y1='84' x2='215' y2='84' stroke-width='1' class='svg-axis'/><line x1='155' y1='81' x2='155' y2='87' stroke-width='1' class='svg-axis'/><line x1='215' y1='81' x2='215' y2='87' stroke-width='1' class='svg-axis'/><text x='185' y='78' text-anchor='middle' font-size='11' class='svg-label'>L/3</text><text x='155' y='210' text-anchor='middle' fill='#94a3b8' font-size='11' class='svg-label'>F₁(L/4) = F₂(L/3)</text><text x='155' y='224' text-anchor='middle' fill='#94a3b8' font-size='11' font-weight='600' class='svg-label'>F₁ = (4/3) F₂</text></svg>",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q284",
@@ -8842,7 +9113,8 @@ window.PHYSICS_MCQ = [
       "The ratio depends on the incline angle"
     ],
     "answer": 0,
-    "explanation": "Using τ = Iα and the rolling constraint a = αR, the angular acceleration α = g sin(θ)/(R(1 + $I/MR^2$)). For a disk, I = $\\frac{1}{2}$M$R^2$, so α = 2g sin(θ)/(3R). For a sphere, I = ⅖M$R^2$, so α = 5g sin(θ)/(7R). Since 5/7 > 2/3, the sphere has greater angular acceleration. Choice B reverses this. Choice C ignores the different rotational inertias. Choice D is incorrect since the $I/MR^2$ ratio is shape-dependent, not angle-dependent."
+    "explanation": "Using τ = Iα and the rolling constraint a = αR, the angular acceleration α = g sin(θ)/(R(1 + $I/MR^2$)). For a disk, I = $\\frac{1}{2}$M$R^2$, so α = 2g sin(θ)/(3R). For a sphere, I = ⅖M$R^2$, so α = 5g sin(θ)/(7R). Since 5/7 > 2/3, the sphere has greater angular acceleration. Choice B reverses this. Choice C ignores the different rotational inertias. Choice D is incorrect since the $I/MR^2$ ratio is shape-dependent, not angle-dependent.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q285",
@@ -8862,7 +9134,8 @@ window.PHYSICS_MCQ = [
       "Increases by factor of √2"
     ],
     "answer": 0,
-    "explanation": "Angular momentum L = mvr for a particle. When radius doubles and speed stays constant, L₂ = mv(2r) = 2mvr = 2L₁. Choice B would be correct if both mass and radius doubled. Choice C would apply if the product mr stayed constant. Choice D has no physical basis for this scenario."
+    "explanation": "Angular momentum L = mvr for a particle. When radius doubles and speed stays constant, L₂ = mv(2r) = 2mvr = 2L₁. Choice B would be correct if both mass and radius doubled. Choice C would apply if the product mr stayed constant. Choice D has no physical basis for this scenario.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q286",
@@ -8882,7 +9155,8 @@ window.PHYSICS_MCQ = [
       "Increases by factor of 9"
     ],
     "answer": 0,
-    "explanation": "Conservation of angular momentum: I₁ω₁ = I₂ω₂, so ω₂ = I₁ω₁/I₂ = 3ω₁. Initial KE: $\\frac{1}{2}$I₁ω₁². Final KE: $\\frac{1}{2}$I₂ω₂² = $\\frac{1}{2}$(I₁/3)(3ω₁)² = $\\frac{1}{2}$I₁(9ω₁²)/3 = 3($\\frac{1}{2}$I₁ω₁²). Energy increases by factor 3 due to work done pulling arms in. Choice B reverses the change. Choice C would violate energy conservation. Choice D uses ω₂² factor incorrectly."
+    "explanation": "Conservation of angular momentum: I₁ω₁ = I₂ω₂, so ω₂ = I₁ω₁/I₂ = 3ω₁. Initial KE: $\\frac{1}{2}$I₁ω₁². Final KE: $\\frac{1}{2}$I₂ω₂² = $\\frac{1}{2}$(I₁/3)(3ω₁)² = $\\frac{1}{2}$I₁(9ω₁²)/3 = 3($\\frac{1}{2}$I₁ω₁²). Energy increases by factor 3 due to work done pulling arms in. Choice B reverses the change. Choice C would violate energy conservation. Choice D uses ω₂² factor incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q287",
@@ -8902,7 +9176,8 @@ window.PHYSICS_MCQ = [
       "3/4"
     ],
     "answer": 0,
-    "explanation": "For a solid cylinder rolling without slipping: KE_total = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$Iω² = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$($\\frac{1}{2}$m$r^2$)(v/r)² = $\\frac{1}{2}$m$v^2$ + ¼m$v^2$ = ¾m$v^2$. The rotational part is ¼m$v^2$, so the fraction is (¼m$v^2$)/(¾m$v^2$) = 1/3. Choice B would be for a hollow cylinder. Choice C is the translational fraction. Choice D has no physical meaning for this geometry."
+    "explanation": "For a solid cylinder rolling without slipping: KE_total = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$Iω² = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$($\\frac{1}{2}$m$r^2$)(v/r)² = $\\frac{1}{2}$m$v^2$ + ¼m$v^2$ = ¾m$v^2$. The rotational part is ¼m$v^2$, so the fraction is (¼m$v^2$)/(¾m$v^2$) = 1/3. Choice B would be for a hollow cylinder. Choice C is the translational fraction. Choice D has no physical meaning for this geometry.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q288",
@@ -8922,7 +9197,8 @@ window.PHYSICS_MCQ = [
       "They exert equal torque"
     ],
     "answer": 0,
-    "explanation": "First person's torque: τ₁ = wF sin(θ). Second person's torque: τ₂ = (w/2)(2F) = wF. For τ₁ > τ₂: wF sin(θ) > wF, so sin(θ) > 1/2, meaning θ > 30°. Choice B ignores that the first person can have larger moment arm effect. Choice C ignores the angular dependence. Choice D only applies when θ = 30°."
+    "explanation": "First person's torque: τ₁ = wF sin(θ). Second person's torque: τ₂ = (w/2)(2F) = wF. For τ₁ > τ₂: wF sin(θ) > wF, so sin(θ) > 1/2, meaning θ > 30°. Choice B ignores that the first person can have larger moment arm effect. Choice C ignores the angular dependence. Choice D only applies when θ = 30°.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q290",
@@ -8942,7 +9218,8 @@ window.PHYSICS_MCQ = [
       "ω₀/4"
     ],
     "answer": 0,
-    "explanation": "Conservation of angular momentum: L₁ = L₂. Initially: L₁ = Iω₀ (one disk rotating, one at rest). Finally: L₂ = (2I)ωf (both disks rotating together). Therefore: Iω₀ = 2Iωf, so ωf = ω₀/2. Choice B ignores the increased rotational inertia. Choice C incorrectly adds angular velocities. Choice D uses wrong factor for the inertia change."
+    "explanation": "Conservation of angular momentum: L₁ = L₂. Initially: L₁ = Iω₀ (one disk rotating, one at rest). Finally: L₂ = (2I)ωf (both disks rotating together). Therefore: Iω₀ = 2Iωf, so ωf = ω₀/2. Choice B ignores the increased rotational inertia. Choice C incorrectly adds angular velocities. Choice D uses wrong factor for the inertia change.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u7_q291",
@@ -8962,7 +9239,8 @@ window.PHYSICS_MCQ = [
       "Both spheres reach the bottom with the same total kinetic energy, but the hollow sphere has greater translational speed."
     ],
     "answer": 0,
-    "explanation": "Applying conservation of energy from the top to the bottom of the incline, with the rolling without slipping constraint (v = rω):\n\nmgh = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$Iω² = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$I(v/r)² = $\\frac{1}{2}$m$v^2$(1 + $I/mr^2$)\n\nSolving for $v^2$: $v^2$ = 2gh / (1 + $I/mr^2$)\n\nFor the solid sphere (I = (2/5)m$r^2$, so $I/mr^2$ = 2/5):\n$v^2$_solid = 2gh / (1 + 2/5) = 2gh / (7/5) = 10gh/7 $\\approx$ 1.429gh\n\nFor the hollow sphere (I = (2/3)m$r^2$, so $I/mr^2$ = 2/3):\n$v^2$_hollow = 2gh / (1 + 2/3) = 2gh / (5/3) = 6gh/5 = 1.200gh\n\nSince 10gh/7 > 6gh/5, the solid sphere has greater translational speed. Choice B is incorrect because a larger moment of inertia means more energy goes into rotation, leaving less for translation. Choice C is incorrect because different rotational inertias cause different energy distributions between rotation and translation. Choice D is incorrect because both spheres convert the same total energy mgh, but neither has greater total kinetic energy than the other."
+    "explanation": "Applying conservation of energy from the top to the bottom of the incline, with the rolling without slipping constraint (v = rω):\n\nmgh = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$Iω² = $\\frac{1}{2}$m$v^2$ + $\\frac{1}{2}$I(v/r)² = $\\frac{1}{2}$m$v^2$(1 + $I/mr^2$)\n\nSolving for $v^2$: $v^2$ = 2gh / (1 + $I/mr^2$)\n\nFor the solid sphere (I = (2/5)m$r^2$, so $I/mr^2$ = 2/5):\n$v^2$_solid = 2gh / (1 + 2/5) = 2gh / (7/5) = 10gh/7 $\\approx$ 1.429gh\n\nFor the hollow sphere (I = (2/3)m$r^2$, so $I/mr^2$ = 2/3):\n$v^2$_hollow = 2gh / (1 + 2/3) = 2gh / (5/3) = 6gh/5 = 1.200gh\n\nSince 10gh/7 > 6gh/5, the solid sphere has greater translational speed. Choice B is incorrect because a larger moment of inertia means more energy goes into rotation, leaving less for translation. Choice C is incorrect because different rotational inertias cause different energy distributions between rotation and translation. Choice D is incorrect because both spheres convert the same total energy mgh, but neither has greater total kinetic energy than the other.",
+    "type": "MCQ"
   },
   {
     "id": "U7-MCQ-08",
@@ -8999,7 +9277,8 @@ window.PHYSICS_MCQ = [
       "6.0 m"
     ],
     "answer": 0,
-    "explanation": "By conservation of angular momentum, the total angular momentum of the system is zero since both skaters start at rest. Therefore the magnitudes of their angular momenta must be equal: mAvArA = mBvBrB. Substituting: (60 kg)(2.0 m/s)(8.0 m) = (40 kg)(3.0 m/s)(rB). This gives 960 = 120rB, so rB = 8.0 m. The answer is choice A."
+    "explanation": "By conservation of angular momentum, the total angular momentum of the system is zero since both skaters start at rest. Therefore the magnitudes of their angular momenta must be equal: mAvArA = mBvBrB. Substituting: (60 kg)(2.0 m/s)(8.0 m) = (40 kg)(3.0 m/s)(rB). This gives 960 = 120rB, so rB = 8.0 m. The answer is choice A.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u6_q001",
@@ -9614,7 +9893,8 @@ window.PHYSICS_MCQ = [
       "4"
     ],
     "answer": 0,
-    "explanation": "Rotational KE = $\\frac{1}{2}$Iω². For a hoop: I = M$R^2$, so KEhoop = $\\frac{1}{2}$M$R^2$ω². For a disk: I = $\\frac{1}{2}$M$R^2$, so KEdisk = ¼M$R^2$ω². The exact ratio is KEhoop/KEdisk = ($\\frac{1}{2}$M$R^2$ω²)/(¼M$R^2$ω²) = 2/1 = 2. Choice B would apply if they had the same rotational inertia. Choice C inverts the correct ratio. Choice D would apply if comparing energies with different angular velocities."
+    "explanation": "Rotational KE = $\\frac{1}{2}$Iω². For a hoop: I = M$R^2$, so KEhoop = $\\frac{1}{2}$M$R^2$ω². For a disk: I = $\\frac{1}{2}$M$R^2$, so KEdisk = ¼M$R^2$ω². The exact ratio is KEhoop/KEdisk = ($\\frac{1}{2}$M$R^2$ω²)/(¼M$R^2$ω²) = 2/1 = 2. Choice B would apply if they had the same rotational inertia. Choice C inverts the correct ratio. Choice D would apply if comparing energies with different angular velocities.",
+    "type": "MCQ"
   },
   {
     "id": "phys1_u5_q001",
@@ -9975,7 +10255,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "The SI unit of electric charge is the Coulomb (C), named after Charles-Augustin de Coulomb. One Coulomb is defined as the amount of charge transferred by a current of one Ampere in one second. The Volt is the unit of electric potential, the Ampere is the unit of electric current, and the Newton is the unit of force.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q293",
@@ -9996,7 +10277,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Electric field is defined as the electric force per unit positive test charge placed at that point (E = F/q). This is the fundamental definition that allows us to determine the field without actually placing a charge there.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q294",
@@ -10017,7 +10299,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "By convention, electric field lines point in the direction that a positive test charge would move. Since like charges repel, a positive test charge would be pushed away from a positive source charge, so field lines point radially outward.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q295",
@@ -10038,7 +10321,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Electric potential is measured in volts (V). Students sometimes confuse this with energy (joules) or force (newtons), but potential is energy per unit charge, which has units of volts.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q296",
@@ -10059,7 +10343,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "A capacitor stores electric charge on its plates. While it's related to electric potential energy storage, the fundamental function is charge storage. Students sometimes think it stores current, but current is charge flow, not stored charge.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q297",
@@ -10080,7 +10365,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Electric current is defined as the rate of charge flow (I = Q/t). Students often confuse current with the speed of electrons (drift velocity) or think it's the total charge present, but current specifically measures how much charge flows per unit time.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q298",
@@ -10101,7 +10387,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Electrical resistance is measured in ohms (Ω). Students sometimes confuse this with voltage (volts) or current (amperes), but resistance specifically has its own unit named after Georg Ohm.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q299",
@@ -10122,7 +10409,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "According to Ohm's law (V = IR), if voltage doubles and resistance stays constant, current must double to maintain the relationship. This shows the direct proportionality between voltage and current when resistance is constant.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q300",
@@ -10143,7 +10431,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "In electrostatic equilibrium, the electric field inside a conductor must be zero. If there were a field, charges would move, contradicting the equilibrium condition. Students often think the field is uniform or maximum somewhere inside.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q301",
@@ -10164,7 +10453,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "When the glass rod becomes positively charged, electrons are transferred from the glass to the silk, leaving the glass with a deficit of electrons (positive charge). Protons don't move in typical charging processes, charges aren't created or destroyed, and the mass change is negligible.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q302",
@@ -10185,7 +10475,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Using Coulomb's law F = kq₁q₂/$r^2$. If q₁ becomes 2q₁ and r becomes 3r, then F_new = k(2q₁)q₂/(3r)² = 2kq₁q₂/9$r^2$ = 2F/9. Students often forget to square the distance factor or miss the charge doubling.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q303",
@@ -10206,7 +10497,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Electric field E = F/q, so F = qE. If the new charge is -2q, then F_new = (-2q)E = -2F, meaning twice the magnitude but opposite direction. The negative charge experiences force opposite to the field direction.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q304",
@@ -10227,7 +10519,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Electric fields add vectorially. Since the fields are perpendicular, use Pythagorean theorem: E_net = √(4$0^2$ + 3$0^2$) = √(1600 + 900) = √2500 = 50 N/C. Students often add algebraically (70) or subtract (10).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q305",
@@ -10248,7 +10541,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "The density of field lines represents field strength - more lines per unit area means stronger field. Field lines never cross, don't form closed loops (they start on positive charges and end on negative ones), and point from positive to negative charges.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q306",
@@ -10269,7 +10563,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Potential energy U = qV. If V decreases by 20 V and q is positive, then $\\Delta U$ = q$\\Delta V$ = q(-20) < 0, so potential energy decreases. The positive charge moves naturally from high to low potential, losing potential energy.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q307",
@@ -10290,7 +10585,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Work done by external force W = q$\\Delta V$ = q(V_final - V_initial) = (2$\\times$10⁻⁶)(100-60) = (2$\\times$10⁻⁶)(40) = 80$\\times$10⁻⁶ J = 80 $\\mu$J. Moving positive charge to higher potential requires positive work input.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q308",
@@ -10311,7 +10607,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "For parallel plate capacitor, C = ε₀A/d. Doubling d halves the capacitance. Since the battery maintains constant voltage and Q = CV, halving C halves Q. Students often think Q stays constant, but that only applies when disconnected from battery.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q309",
@@ -10332,7 +10629,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "In series, capacitors have the same charge but voltage divides. For identical capacitors, voltage divides equally: V₁ = V₂ = V_total/2 = 12V/2 = 6V. Students sometimes confuse series and parallel behavior.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q310",
@@ -10353,7 +10651,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Current I = Q/t. Charge Q = (number of electrons) × (elementary charge) = (3.2$\\times$10¹⁹) × (1.6$\\times$10⁻¹⁹) = 5.12 C. Therefore I = 5.12 C / 4 s = 1.28 A. Students often forget to multiply by elementary charge.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q311",
@@ -10374,7 +10673,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Electrons drift slowly (drift velocity ~mm/s) opposite to conventional current direction. The electric field propagates at nearly light speed, but individual electrons move much slower. Students often confuse signal speed with drift velocity.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q312",
@@ -10395,7 +10695,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "R = ρL/A. When length doubles and volume stays constant, cross-sectional area halves. So R_new = ρ(2L)/(A/2) = 4ρL/A = 4R. Students often miss that both L and A change, or forget the volume constraint.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q313",
@@ -10416,7 +10717,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Using P = $V^2$/R: Series R_total = 2R, so P_series = $V^2$/(2R). Parallel R_total = R/2, so P_parallel = $V^2$/(R/2) = 2$V^2$/R. Therefore P_parallel/P_series = (2$V^2$/R)/($V^2$/2R) = 4. Parallel dissipates 4× more power.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q314",
@@ -10437,7 +10739,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Using P = $V^2$/R where V is constant (battery voltage unchanged). If R doubles, then P_new = $V^2$/(2R) = P/2. Power is halved. Students might incorrectly use P = $I^2$R and miss that current also changes when resistance changes.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q315",
@@ -10458,7 +10761,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Two identical positive charges at opposite corners of a square are equidistant from the center. A test charge placed at the center experiences repulsive forces from both charges that are equal in magnitude and exactly opposite in direction. By symmetry, these forces cancel completely, giving zero net force. Choice B (empty corner) is wrong: the test charge would be closer to one charge and the forces would not cancel. Choice C (midpoint of side) is wrong: the geometry does not produce cancellation there. Choice D is incorrect — the center is a valid equilibrium point for this symmetric configuration.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q316",
@@ -10479,7 +10783,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "On an equipotential surface, the potential is constant everywhere, so $\\Delta V$ = 0. Work done by electric field W = q$\\Delta V$ = q(0) = 0. This is true regardless of charge magnitude, distance moved, or field strength.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q317",
@@ -10500,7 +10805,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Energy stored U = $\\frac{1}{2}$C$V^2$. Initially: 100 $\\mu$J = $\\frac{1}{2}$C(10)² = 50C, so C = 2 μF. At 20 V: U = $\\frac{1}{2}$(2 μF)(20)² = $\\frac{1}{2}$(2)(400) = 400 $\\mu$J. Energy increases with the square of voltage, not linearly.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q318",
@@ -10521,7 +10827,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Current I = Q/t, so Q = It = (2 A)(30 s) = 60 C. This is a direct application of the definition of current. Students might incorrectly add or multiply the wrong values.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q319",
@@ -10542,7 +10849,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "For parallel resistors: 1/R_eq = 1/6 + 1/12 + 1/4 = 2/12 + 1/12 + 3/12 = 6/12 = 1/2, so R_eq = 2 Ω. Students often add resistances directly (getting 22 Ω) instead of using the reciprocal formula for parallel combinations.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q320",
@@ -10563,7 +10871,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Setting the fields equal: k(2q)/r² = k(8q)/(4d − r)², where r is the distance from the +2q charge. This gives (4d − r)² = 4r², so 4d − r = 2r, yielding r = 4d/3. The zero-field point is at x = 4d/3 from the +2q charge. This is closer to the weaker +2q charge, as expected — the zero point must be nearer to the weaker source so that the smaller charge's field can match the stronger one. Choice A (x = d) is too close to +2q. Choice B (x = 2d) is the midpoint — only correct if the charges were equal. Choice C (x = 3d) incorrectly places the point closer to the stronger charge.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q321",
@@ -10584,7 +10893,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "When the negative rod approaches, electrons in the sphere are repelled to the far side, leaving the near side positive. Grounding allows excess electrons to flow to ground, leaving a deficit. When ungrounded then the rod removed, the sphere retains positive charge. Students often think grounding always makes objects neutral (A) or that the sphere acquires the same charge as the rod (B).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q322",
@@ -10605,7 +10915,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "The density of electric field lines — the number of lines per unit area perpendicular to the field — represents field strength. Since the +4μC charge is four times stronger than the +1μC charge, the field near it is four times stronger and field lines are four times denser at the same distance. Choice A is wrong: field lines have no inherent length. Choice B is wrong: 'greater curvature' is not a standard or valid property used to describe field line diagrams; curvature of the lines is a geometric feature of the configuration, not a measure of field strength. Choice C is wrong: both charges are positive, so field lines point radially outward from both — they do not point in opposite directions.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q323",
@@ -10626,7 +10937,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "When electric PE decreases (ΔPE < 0), the work done by the electric field is W = −ΔPE = −(negative) > 0, so the field does positive work. For a positive charge q > 0: PE = qV, so if PE decreases, V must also decrease, meaning V_B < V_A. The positive charge moves from higher to lower potential. Choice B is wrong: V_B > V_A would require the charge to have gained PE, not lost it. Choice C is wrong: negative work corresponds to increasing PE, not decreasing PE. Choice D has both signs inverted.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q324",
@@ -10647,7 +10959,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Equal potential means zero potential difference, so W = q$\\Delta V$ = 0 for any charge moved between them. Points can have equal potential with different field strengths (A is wrong), need not be equidistant from charges in complex arrangements (B is wrong), and can exist in space, not just on conductors (D is wrong).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q325",
@@ -10668,7 +10981,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "With battery connected, voltage stays constant. Dielectric increases capacitance (C = κC₀), so charge increases (Q = CV). Energy U = $\\frac{1}{2}$C$V^2$ increases because C increases while V is constant. Students often think energy must decrease when a dielectric is added (B), or that charge stays constant when connected to a battery (C).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q326",
@@ -10689,7 +11003,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "Initially, each capacitor has half the battery voltage. When one shorts (acts like a wire), all the battery voltage appears across the good capacitor. Students often think the voltage stays the same (B) or becomes zero because of the short (A), not realizing the short redirects all voltage to the remaining capacitor.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q327",
@@ -10710,7 +11025,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Current I = nAv_d, where n is charge density, A is area, and v_d is drift velocity. If A doubles and v_d halves, then I = nA(v_d/2) × 2 = nAv_d, so current remains constant. Students often think doubling area doubles current (C) or halving velocity halves current (A), missing the inverse relationship that maintains constant current.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q328",
@@ -10731,7 +11047,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "In series circuits, current is the same everywhere due to conservation of charge - charge cannot accumulate. Despite different resistivities, the same current flows through both materials. Students often think better conductors carry more current (A) or that higher resistance somehow increases current (B).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q329",
@@ -10752,7 +11069,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Same mass and material means ρLA = ρLB, so if LA = 2LB, then AA = AB/2. Using R = ρL/A: RA = ρ(2LB)/(AB/2) = 4ρLB/AB = 4RB. Students often forget that equal mass with double length means half the cross-sectional area, thinking the ratio is just 2 (A).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q330",
@@ -10773,7 +11091,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Constant volume means if length doubles, cross-sectional area halves (V = AL constant). Using R = ρL/A: new resistance = ρ(2L)/(A/2) = 4ρL/A = 4R. Students often think resistance just doubles with length (A), forgetting that area also changes when volume is conserved.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q332",
@@ -10794,7 +11113,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "As variable resistance increases, total resistance increases, so total current I = V/(Rfixed + Rvariable) decreases. Power in fixed resistor is P = $I^2$Rfixed, which decreases as $I^2$ decreases. Students might think power increases initially due to less current 'loss' in the variable resistor (C), but the current decrease dominates throughout.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q334",
@@ -10815,7 +11135,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Change in potential energy is ΔPE = q$\\Delta V$. Since they travel the same distance in opposite directions in a uniform field, they experience equal but opposite potential differences. With equal magnitude charges (|qp| = |qe|), they have equal magnitude changes in potential energy. Students often think the sign difference matters for magnitude (A, B) or that mass affects the energy change.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "U8-MCQ-03",
@@ -10872,7 +11193,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Maximum power transfer occurs when load resistance equals source resistance (R = r). This gives P = $V^2$R/(R+r)² maximum when dP/dR = 0, solved to give R = r. Students often think smaller R gives more current and more power (B), or larger R gives more voltage and more power (A).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q333",
@@ -10893,7 +11215,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "For steady current to flow, there must be an electric field parallel to the wire (along current direction) to accelerate the charge carriers against resistance. This field is created by surface charges on the wire. Students often think the field is zero inside conductors (A), confusing electrostatic conditions with current-carrying conditions.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q335",
@@ -10914,7 +11237,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "DC stands for Direct Current, meaning the current flows in one constant direction. Students often confuse it with other 'D' words like Dynamic or Differential, but these are not correct electrical terms for this context.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q336",
@@ -10935,7 +11259,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "In series circuits, current is the same throughout because there is only one path for current to flow. Students often think current divides based on resistance (like in parallel circuits) or follows Ohm's law incorrectly by thinking larger resistance means larger current.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q337",
@@ -10956,7 +11281,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "In parallel circuits, voltage is the same across each branch because all components are connected directly to the same two points. Students often confuse this with series circuits where voltage divides, or think voltage depends on resistance values.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q338",
@@ -10977,7 +11303,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Kirchhoff's current law (KCL) is based on conservation of charge - current entering a junction must equal current leaving. Students often confuse this with voltage law or think it's related to Ohm's law relationships.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q339",
@@ -10998,7 +11325,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Power equals current times voltage (P = IV). This is the fundamental power formula. Students often confuse the relationship and think power involves division or addition of current and voltage instead of multiplication.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q340",
@@ -11019,7 +11347,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Voltmeters measure potential difference and must be connected in parallel to measure voltage across a component. Students often think voltmeters go in series like ammeters, or confuse the positioning relative to the component.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q341",
@@ -11040,7 +11369,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Ammeters measure current and must be placed in series so all current flows through them. Students often think ammeters connect in parallel like voltmeters, or try to connect them across components or power sources.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q342",
@@ -11061,7 +11391,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "In series circuits, if one component fails (open circuit), the entire circuit is broken and no current flows anywhere. Students often think the remaining bulbs continue working or change brightness based on parallel circuit behavior.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q343",
@@ -11082,7 +11413,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "In parallel circuits, each branch is independent. If one branch fails, the others continue operating normally because they have separate paths to the power source. Students often apply series circuit logic where one failure affects everything.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q344",
@@ -11103,7 +11435,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Kirchhoff's voltage law (KVL) is based on conservation of energy - the sum of voltage rises must equal voltage drops around any closed path. Students often confuse this with current law or think it relates to power or resistance relationships.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q345",
@@ -11124,7 +11457,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "In series, total resistance is 60Ω, current is 12V/60Ω = 0.2A. Voltage across 20Ω is V = IR = 0.2A × 20Ω = 4V. Students often incorrectly divide voltage equally (choice A) or use proportional reasoning incorrectly.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q346",
@@ -11145,7 +11479,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "In parallel, voltage across each resistor equals battery voltage. Current through 6Ω: 24V/6Ω = 4A. Current through 12Ω: 24V/12Ω = 2A. Total current = 4A + 2A = 6A. Students often add resistances first (choice A) or forget to add currents.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q347",
@@ -11166,7 +11501,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Power P = $I^2$R = (2A)² $\\times$ 100Ω = 4 $\\times$ 100 = 400W. Students often forget to square the current (choice C), or make other calculation errors (choices A and D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q348",
@@ -11187,7 +11523,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Adding resistance in series increases total resistance. Since I = V/R and voltage is constant, increasing R decreases current. Students might think adding components increases current (choice A) or that it depends on the specific value (choice C).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q349",
@@ -11208,7 +11545,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Adding resistors in parallel always decreases equivalent resistance because you're adding more paths for current. The equivalent resistance is always less than the smallest individual resistance. Students often think more resistors means more total resistance (choice A).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q350",
@@ -11229,7 +11567,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Power P = $V^2$/R. If voltage doubles, power increases by factor of (2V)²/R = 4$V^2$/R = 4P. Students often think power scales linearly with voltage (choice A) or use incorrect power formulas.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q351",
@@ -11250,7 +11589,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Voltmeters measure potential difference and must be connected in parallel to measure voltage across a component. Connecting in series would change the circuit and give incorrect readings. Students often confuse voltmeter (parallel) with ammeter (series) connections.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q352",
@@ -11271,7 +11611,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Ammeters measure current and must be connected in series. Low resistance ensures they don't significantly change the circuit current being measured. Students confuse ammeter placement with voltmeter placement or don't understand why low resistance is needed.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q353",
@@ -11292,7 +11633,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "For equal resistors R: Series total resistance = 2R, parallel = R/2. Power = $V^2$/Rtotal. Parallel power/Series power = [$V^2$/(R/2)]/[$V^2$/(2R)] = (2$V^2$/R)/($V^2$/2R) = 4:1. Students often think the ratio is 2:1 based on resistance ratio alone.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q354",
@@ -11313,7 +11655,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "In series circuits, current flows through a single path. If any component fails open, the entire circuit is broken and current becomes zero everywhere. Students might think current just decreases (choice B) or continues through other resistors (choice D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q355",
@@ -11334,7 +11677,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "In parallel circuits, each branch is independent. The voltage across remaining branches stays the same, so their currents remain unchanged. The total circuit current decreases, but individual branch currents are unaffected. Students often think all currents change together.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q356",
@@ -11355,7 +11699,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "KVL applies to any closed loop (sum of voltage drops equals source voltage), while KCL applies at any junction (current in equals current out). These laws are fundamental and apply regardless of circuit type or known quantities. Students often oversimplify based on circuit topology.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q357",
@@ -11376,7 +11721,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Power ratings assume normal operating voltage. In series, the same current flows through both. The 60W bulb has higher resistance (R = $V^2$/P), so P = $I^2$R gives more power to the higher resistance 60W bulb. Students often think the 100W bulb is always brighter.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q358",
@@ -11397,7 +11743,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Voltmeters have very high internal resistance to avoid affecting circuits when connected in parallel. Connected in series, this high resistance greatly reduces circuit current. The reading would be nearly the source voltage, not zero. Students might think it reads zero or causes damage.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q359",
@@ -11418,7 +11765,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Series batteries add voltages but maintain the same current capacity (limited by individual battery capacity). Two 1.5V batteries in series give 3V total but still have the amp-hour rating of one battery. Students often think current capacity also doubles in series.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q360",
@@ -11439,7 +11787,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "In series circuits, current is the same through all resistors. Using P = $I^2$R, power is proportional to resistance when current is constant. The 10Ω resistor has the highest resistance, so it dissipates the most power. Students might think the lowest resistance dissipates the most.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q361",
@@ -11460,7 +11809,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "In parallel circuits, voltage is the same across all resistors. Using P = $V^2$/R, power is inversely proportional to resistance when voltage is constant. The 6Ω resistor has the lowest resistance, so it dissipates the most power. This is opposite to the series case.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q362",
@@ -11481,7 +11831,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 3,
     "explanation": "For identical resistors R, the series equivalent resistance is 2R while the parallel equivalent resistance is R/2. Using P = $V^2$/R_eq where V is the battery voltage: P_series = $V^2$/(2R) and P_parallel = $V^2$/(R/2) = 2$V^2$/R. Therefore P_parallel/P_series = (2$V^2$/R)/($V^2$/2R) = 4. Choice A reverses the relationship. Choice B incorrectly assumes resistance doesn't affect power. Choice C uses the resistance ratio instead of the power relationship.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q363",
@@ -11502,7 +11853,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "When R = r, the voltage divides equally between internal and external resistance. By voltage division, V_external = (R/(R+r)) × emf = (r/(r+r)) × emf = 0.5 × emf = 50%. Students often think 25% (confusing with power) or 100% (ignoring internal resistance).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q364",
@@ -11523,7 +11875,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "In series, if any resistor becomes open, no current flows through the entire circuit. Since P = $I^2$R and I = 0, power in the 2Ω resistor becomes zero. Students often think current still flows (B or C) or confuse with parallel circuits where other branches remain active.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q365",
@@ -11544,7 +11897,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Initially: R_eq = R/2, P_initial = $V^2$/(R/2) = 2$V^2$/R. After adding third: R_eq = R/3, P_final = $V^2$/(R/3) = 3$V^2$/R. Change = (3$V^2$/R - 2$V^2$/R)/(2$V^2$/R) = 1/2 = 50% increase. Students often calculate 33% (thinking about resistance change) or think power decreases.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q366",
@@ -11565,7 +11919,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Kirchhoff's voltage law states the algebraic sum of voltage changes around any closed loop equals zero, regardless of sign convention chosen consistently. Students often think the sum equals battery voltage (A), that direction matters between loops (B), or that signs are predetermined (D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q367",
@@ -11586,7 +11941,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "From P = $V^2$/R, the 60W bulb has higher resistance (R₆₀ = 240Ω vs R₁₀₀ = 144Ω). In series, same current flows through both, so P = $I^2$R means higher resistance dissipates more power. The 60W bulb glows brighter. Students often think the 100W bulb is always brighter or that they're equal.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q368",
@@ -11607,7 +11963,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "Adding the ammeter (0.01Ω) in series with the 10Ω resistor increases total resistance from 10Ω to 10.01Ω. The original current is I = 12/10 = 1.2A, and the new current is I = 12/10.01 $\\approx$ 1.1988A. The fractional change in current is (10.01 - 10)/10.01 $\\approx$ 0.001, or about 0.1% decrease. Because the ammeter resistance is so small relative to the circuit resistance, the measurement minimally disturbs the circuit - which is the desired property of an ammeter. Choice B is incorrect because adding resistance always decreases current in a series circuit. Choice C is incorrect because the voltage across the 10Ω resistor actually decreases slightly. Choice D is incorrect because total power decreases slightly due to the reduced current.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q369",
@@ -11628,7 +11985,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "If V₁ = 4V across 3Ω, then I = 4V/3Ω = 4/3 A. Total circuit resistance = 3 + 6 + 1 = 10Ω. Therefore emf = I × R_total = (4/3) $\\times$ 10 = 40/3 = 13.3V. Students often forget internal resistance (A), double-count resistances (C), or use incorrect voltage relationships (D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q370",
@@ -11649,7 +12007,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "In parallel circuits, voltage across each resistor equals the source voltage. Current through the 6Ω resistor is always I = V/R = 36V/6Ω = 6A, regardless of other parallel branches. Students often think removing a parallel branch affects current in remaining branches (A, B, D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q371",
@@ -11670,7 +12029,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Kirchhoff's current law: sum of currents into junction equals sum out. If 2A + 5A + 3A = 10A flows in, then 10A must flow out through the fourth wire. Students often add all currents incorrectly (A), confuse the direction (C), or think currents cancel (D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q372",
@@ -11691,7 +12051,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Power P = $V^2$/R. When voltage doubles (24V → 48V), power changes from P₁ = (24)²/8 = 72W to P₂ = (48)²/8 = 288W. The ratio P₂/P₁ = 288/72 = 4, so power quadruples. Students often think power doubles with voltage (A) or use P = VI incorrectly.",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q373",
@@ -11712,7 +12073,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "Maximum power transfer theorem: maximum power is delivered to load when load resistance equals source internal resistance (R = r). At this point, power = ε²/(4r). Students often think minimum resistance gives maximum power (A) or maximum resistance is better (C, D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q374",
@@ -11733,7 +12095,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "The two 1000Ω voltmeters in series act as a voltage divider. Each gets half the total voltage: 12V/2 = 6V. Students often think each reads full voltage (A), forget they're measuring their own voltage drop, or think they interfere destructively (D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q375",
@@ -11754,7 +12117,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 1,
     "explanation": "In parallel with 100Ω, the 0.1Ω ammeter provides a very low resistance path. Most current flows through the ammeter (I $\\approx$ V/0.1Ω), which can be 1000× larger than intended, potentially damaging it. Students often think it reads zero (A) or correctly (C).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q376",
@@ -11775,7 +12139,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "The wire shorts out the 4Ω resistor, leaving only the 2Ω resistor in series with the battery. Current becomes I = V/R = 6V/2Ω = 3A. Students often include the shorted resistor in calculations (A), think current stays the same (A), or miscalculate (B, D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q377",
@@ -11796,7 +12161,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 0,
     "explanation": "In parallel, both resistors have the same voltage. From P = $V^2$/R for the 8Ω: 18 = $V^2$/8, so $V^2$ = 144. For the 12Ω: P = $V^2$/R = 144/12 = 12W. Students often think equal power (B), use incorrect proportions (C), or confuse with series relationships (D).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u9_q378",
@@ -11817,7 +12183,8 @@ window.PHYSICS_MCQ = [
     ],
     "answer": 2,
     "explanation": "Current I = 12V/(2Ω + 4Ω) = 2A. Power to external resistor: P_ext = $I^2$R = (2)²(4) = 16W. Total battery power output: P_total = $I^2$(R + r) = (2)²(6) = 24W. Fraction = 16W/24W = 2/3. Students often use P = $I^2$r for total power (A) or confuse with voltage ratios (B).",
-    "deprecated": true
+    "deprecated": true,
+    "type": "MCQ"
   },
   {
     "id": "phys1_u8_q001",
