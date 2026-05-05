@@ -15,7 +15,8 @@ window.APBIO_MCQ = [
       "The polarity of water molecules"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_002",
@@ -33,7 +34,8 @@ window.APBIO_MCQ = [
       "The ionic bonds in NaCl are stronger than the hydrogen bonds in water."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_003",
@@ -51,7 +53,8 @@ window.APBIO_MCQ = [
       "contains a weak acid and its conjugate base that can neutralize added acids or bases."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_004",
@@ -69,7 +72,8 @@ window.APBIO_MCQ = [
       "An increase in breathing rate removes CO2, shifting the equilibrium to reduce H+ concentration."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_005",
@@ -87,7 +91,8 @@ window.APBIO_MCQ = [
       "Lipid — glucose"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_006",
@@ -105,7 +110,8 @@ window.APBIO_MCQ = [
       "The protein is hydrolyzed into individual nucleotides."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_007",
@@ -123,7 +129,8 @@ window.APBIO_MCQ = [
       "saturated triglyceride, because it has no C=C double bonds in its fatty acid chains."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_008",
@@ -141,7 +148,8 @@ window.APBIO_MCQ = [
       "The R (side chain) group, which varies between amino acids"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_009",
@@ -159,7 +167,8 @@ window.APBIO_MCQ = [
       "The glucose monomers in cellulose are linked by beta-1,4 glycosidic bonds, making it resistant to most digestive enzymes, while starch uses alpha-1,4 bonds."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_010",
@@ -177,7 +186,8 @@ window.APBIO_MCQ = [
       "water molecules form hydrogen bonds with the fatty acid tails."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_011",
@@ -195,7 +205,8 @@ window.APBIO_MCQ = [
       "Large bodies of water moderate the climate of nearby land."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_012",
@@ -213,7 +224,8 @@ window.APBIO_MCQ = [
       "A fatty acid, a phosphate group, and a nitrogenous base"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_013",
@@ -231,7 +243,8 @@ window.APBIO_MCQ = [
       "More enzyme molecules are available to bind substrate and lower activation energy."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_014",
@@ -249,7 +262,8 @@ window.APBIO_MCQ = [
       "covalently modifying the substrate so it cannot bind to the enzyme."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_015",
@@ -267,7 +281,8 @@ window.APBIO_MCQ = [
       "The change in Gibbs free energy (∆G) is negative."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_016",
@@ -285,7 +300,8 @@ window.APBIO_MCQ = [
       "The polarity of water molecules, which allows them to surround and separate ions"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_017",
@@ -303,7 +319,8 @@ window.APBIO_MCQ = [
       "DNA"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_018",
@@ -321,7 +338,8 @@ window.APBIO_MCQ = [
       "Enzymes change the overall free energy difference between reactants and products"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_019",
@@ -339,7 +357,8 @@ window.APBIO_MCQ = [
       "The protein will likely aggregate with other proteins or be degraded because exposed hydrophobic regions are thermodynamically unstable in aqueous environments"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_020",
@@ -357,7 +376,8 @@ window.APBIO_MCQ = [
       "Extreme pH values alter the ionic state of amino acid side chains in the active site, changing the enzyme's three-dimensional shape and reducing substrate binding"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_021",
@@ -375,7 +395,8 @@ window.APBIO_MCQ = [
       "The claim is incorrect; glucose oxidation is exergonic and releases free energy, which is used to drive the endergonic synthesis of ATP"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_022",
@@ -393,7 +414,8 @@ window.APBIO_MCQ = [
       "The cohesion of water molecules through hydrogen bonding, which allows tension generated at the leaf surface to pull the entire water column upward"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_023",
@@ -411,7 +433,8 @@ window.APBIO_MCQ = [
       "A condensation (dehydration) reaction removes a water molecule as the carboxyl group of one amino acid bonds to the amino group of the next"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_024",
@@ -429,7 +452,8 @@ window.APBIO_MCQ = [
       "Noncompetitive (allosteric) inhibition, because the inhibitor binds a site other than the active site and cannot be outcompeted by substrate"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_025",
@@ -447,7 +471,8 @@ window.APBIO_MCQ = [
       "The double bonds in unsaturated fatty acids create kinks in the carbon chain, preventing close packing and reducing the melting point"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_026",
@@ -465,7 +490,8 @@ window.APBIO_MCQ = [
       "Positive ∆G reactions are spontaneous in living cells because cells are not in thermodynamic equilibrium"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_027",
@@ -483,7 +509,8 @@ window.APBIO_MCQ = [
       "The mutation will have no effect because cells can regulate the pathway through other mechanisms"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_028",
@@ -501,7 +528,8 @@ window.APBIO_MCQ = [
       "The tertiary structure of proteins is determined by the nucleotide sequence of the cell's DNA, not the amino acid sequence"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_029",
@@ -519,7 +547,8 @@ window.APBIO_MCQ = [
       "Blood pH decreases because less H2CO3 is available to donate protons to the buffer system"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_030",
@@ -537,7 +566,8 @@ window.APBIO_MCQ = [
       "Ice is less dense because it contains dissolved air bubbles from the freezing process; this provides oxygen to organisms beneath the ice"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_032",
@@ -555,7 +585,8 @@ window.APBIO_MCQ = [
       "Facilitated diffusion of a permeable substance"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_033",
@@ -573,7 +604,8 @@ window.APBIO_MCQ = [
       "Water will move into the cell by osmosis, causing the cell to swell."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_034",
@@ -591,7 +623,8 @@ window.APBIO_MCQ = [
       "Lysosome"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_035",
@@ -609,7 +642,8 @@ window.APBIO_MCQ = [
       "Ribosome (on rough ER) → ER lumen → Golgi apparatus → secretory vesicle → cell exterior"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_037",
@@ -627,7 +661,8 @@ window.APBIO_MCQ = [
       "a dynamic structure in which proteins and lipids can move laterally within the bilayer."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_038",
@@ -645,7 +680,8 @@ window.APBIO_MCQ = [
       "plasmolysis, because water exits the cell by osmosis into the hypertonic solution."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_039",
@@ -663,7 +699,8 @@ window.APBIO_MCQ = [
       "The nucleus enlarges to compensate for the increased cytoplasmic volume."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_040",
@@ -681,7 +718,8 @@ window.APBIO_MCQ = [
       "passive transport that moves glucose down its concentration gradient without ATP expenditure."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_041",
@@ -699,7 +737,8 @@ window.APBIO_MCQ = [
       "The lysosomal membrane keeps the enzymes sequestered, and the acidic pH inside lysosomes is optimal for enzyme function."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_042",
@@ -717,7 +756,8 @@ window.APBIO_MCQ = [
       "-0.4 MPa"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_043",
@@ -735,7 +775,8 @@ window.APBIO_MCQ = [
       "DNA"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_044",
@@ -753,7 +794,8 @@ window.APBIO_MCQ = [
       "Water moves into the bag; glucose moves out; starch remains in the bag."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_045",
@@ -771,7 +813,8 @@ window.APBIO_MCQ = [
       "Peroxisome"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_046",
@@ -789,7 +832,8 @@ window.APBIO_MCQ = [
       "Stores genetic information for cell division"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_047",
@@ -807,7 +851,8 @@ window.APBIO_MCQ = [
       "secondary active transport, because it uses a concentration gradient created by another pump."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_048",
@@ -825,7 +870,8 @@ window.APBIO_MCQ = [
       "Mitochondria — ATP production via cellular respiration"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_049",
@@ -843,7 +889,8 @@ window.APBIO_MCQ = [
       "Nothing will happen because red blood cells are impermeable to water"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_050",
@@ -861,7 +908,8 @@ window.APBIO_MCQ = [
       "A ciliated epithelial cell lining the respiratory tract, which uses ATP to power continuous ciliary beating"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_051",
@@ -879,7 +927,8 @@ window.APBIO_MCQ = [
       "The membrane will maintain greater fluidity at low temperatures because the kinks in unsaturated fatty acid tails prevent tight packing"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_052",
@@ -898,7 +947,8 @@ window.APBIO_MCQ = [
     ],
     "answer": 3,
     "explanation": "",
-    "graphDescription": "A line graph with external glucose concentration on the x-axis and rate of glucose uptake on the y-axis. At low concentrations the line rises steeply and linearly. As concentration increases the rate of increase slows and the curve levels off to a horizontal plateau, forming a saturation curve characteristic of carrier-mediated transport."
+    "graphDescription": "A line graph with external glucose concentration on the x-axis and rate of glucose uptake on the y-axis. At low concentrations the line rises steeply and linearly. As concentration increases the rate of increase slows and the curve levels off to a horizontal plateau, forming a saturation curve characteristic of carrier-mediated transport.",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_053",
@@ -916,7 +966,8 @@ window.APBIO_MCQ = [
       "Without a functional Golgi, proteins cannot be properly processed, sorted, and packaged into secretory vesicles for exocytosis"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_054",
@@ -934,7 +985,8 @@ window.APBIO_MCQ = [
       "The endosymbiotic theory is supported: these organelles likely originated as free-living prokaryotes engulfed by ancestral eukaryotic cells"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_055",
@@ -952,7 +1004,8 @@ window.APBIO_MCQ = [
       "The Na+ gradient established by the Na+/K+-ATPase pump provides the energy; Na+ moving down its gradient into the cell drives glucose uptake against its concentration gradient"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_056",
@@ -970,7 +1023,8 @@ window.APBIO_MCQ = [
       "Cell A has a higher surface area-to-volume ratio (3:1 vs 0.3:1), making it more efficient at exchanging materials with its environment relative to its metabolic needs"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_057",
@@ -988,7 +1042,8 @@ window.APBIO_MCQ = [
       "The fluorescent dye diffuses through the cytoplasm and labels new phospholipids synthesized on the inner leaflet"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_058",
@@ -1006,7 +1061,8 @@ window.APBIO_MCQ = [
       "In 0.4 M sucrose osmosis stops because the sucrose molecules block aquaporin channels"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_059",
@@ -1024,7 +1080,8 @@ window.APBIO_MCQ = [
       "Reduced Cl- secretion has no effect on mucus because water movement in the airway is controlled entirely by Na+ transport"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_060",
@@ -1042,7 +1099,8 @@ window.APBIO_MCQ = [
       "X: photosynthesis; Y: ribosome production; Z: fermentation"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_061",
@@ -1060,7 +1118,8 @@ window.APBIO_MCQ = [
       "The claim is incorrect; the presence of a cell membrane is the defining feature of eukaryotes"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_062",
@@ -1078,7 +1137,8 @@ window.APBIO_MCQ = [
       "How is ATP used in the formation of 3-carbon carbohydrates?"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_063",
@@ -1096,7 +1156,8 @@ window.APBIO_MCQ = [
       "Cellular respiration consumed organic molecules, releasing CO2 and water and reducing biomass"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_064",
@@ -1114,7 +1175,8 @@ window.APBIO_MCQ = [
       "convert light energy into chemical energy stored as ATP and NADPH."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_065",
@@ -1132,7 +1194,8 @@ window.APBIO_MCQ = [
       "O2 is used to power the electron transport chain, and H+ is stored in the stroma."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_066",
@@ -1150,7 +1213,8 @@ window.APBIO_MCQ = [
       "6 CO2, 6 H2O, 38 ATP"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_067",
@@ -1168,7 +1232,8 @@ window.APBIO_MCQ = [
       "NADH and FADH2, which carry electrons to the electron transport chain"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_068",
@@ -1186,7 +1251,8 @@ window.APBIO_MCQ = [
       "Electrons flow through ATP synthase, releasing energy captured as ATP."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_069",
@@ -1204,7 +1270,8 @@ window.APBIO_MCQ = [
       "To regenerate NAD+ so that glycolysis can continue to produce ATP"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_070",
@@ -1222,7 +1289,8 @@ window.APBIO_MCQ = [
       "The basic molecular structure is a helix."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_071",
@@ -1240,7 +1308,8 @@ window.APBIO_MCQ = [
       "Higher temperatures increase the kinetic energy of molecules, increasing the rate of enzymatic reactions including those in cellular respiration."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_072",
@@ -1258,7 +1327,8 @@ window.APBIO_MCQ = [
       "Light is required to excite electrons in chlorophyll to initiate electron transfer."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_073",
@@ -1276,7 +1346,8 @@ window.APBIO_MCQ = [
       "It catalyzes the reaction between CO2 and RuBP to form 3-phosphoglycerate."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_074",
@@ -1294,7 +1365,8 @@ window.APBIO_MCQ = [
       "Photosynthesis produces oxygen faster than respiration consumes it during daylight hours, and only respiration occurs at night."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_075",
@@ -1312,7 +1384,8 @@ window.APBIO_MCQ = [
       "allosteric regulation, because molecules bind to sites other than the active site to change enzyme activity."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_076",
@@ -1330,7 +1403,8 @@ window.APBIO_MCQ = [
       "fermentation in the cytoplasm."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_077",
@@ -1348,7 +1422,8 @@ window.APBIO_MCQ = [
       "Glucose-6-phosphate"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_078",
@@ -1366,7 +1441,8 @@ window.APBIO_MCQ = [
       "drive ATP synthesis by ATP synthase embedded in the thylakoid membrane."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_079",
@@ -1384,7 +1460,8 @@ window.APBIO_MCQ = [
       "Increased temperature to the optimal range"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_080",
@@ -1402,7 +1479,8 @@ window.APBIO_MCQ = [
       "the use of ATP as an energy currency that links the two reactions."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_081",
@@ -1420,7 +1498,8 @@ window.APBIO_MCQ = [
       "Light reactions in the thylakoid membrane; Calvin cycle in the stroma"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_082",
@@ -1438,7 +1517,8 @@ window.APBIO_MCQ = [
       "Glycolysis → Krebs cycle → electron transport chain and oxidative phosphorylation"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_083",
@@ -1456,7 +1536,8 @@ window.APBIO_MCQ = [
       "During intense exercise oxygen delivery to muscles cannot keep pace with ATP demand, so cells perform lactic acid fermentation to regenerate NAD+ and continue glycolysis"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_084",
@@ -1474,7 +1555,8 @@ window.APBIO_MCQ = [
       "The Calvin cycle will slow and eventually stop because NADPH production will cease, and G3P cannot be produced without both NADPH and ATP"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_085",
@@ -1492,7 +1574,8 @@ window.APBIO_MCQ = [
       "Both ATP production and heat generation increase because the uncoupler accelerates the electron transport chain"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_086",
@@ -1510,7 +1593,8 @@ window.APBIO_MCQ = [
       "C4 plants perform all photosynthesis in their roots, which have constant access to water"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_087",
@@ -1528,7 +1612,8 @@ window.APBIO_MCQ = [
       "Yeast will begin using light energy to produce ATP through photosynthesis"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_088",
@@ -1547,7 +1632,8 @@ window.APBIO_MCQ = [
     ],
     "answer": 2,
     "explanation": "",
-    "graphDescription": "A line graph with CO2 concentration (0-1000 ppm) on the x-axis and rate of photosynthesis on the y-axis, measured at constant light intensity. The curve rises steeply at low CO2 concentrations then levels off to a plateau at higher concentrations, indicating another factor has become limiting."
+    "graphDescription": "A line graph with CO2 concentration (0-1000 ppm) on the x-axis and rate of photosynthesis on the y-axis, measured at constant light intensity. The curve rises steeply at low CO2 concentrations then levels off to a plateau at higher concentrations, indicating another factor has become limiting.",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_089",
@@ -1565,7 +1651,8 @@ window.APBIO_MCQ = [
       "Chloroplasts pump H+ in the opposite direction from mitochondria and therefore produce NADPH instead of ATP"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_090",
@@ -1583,7 +1670,8 @@ window.APBIO_MCQ = [
       "NADH is produced only in the Krebs cycle where more ATP is needed, giving it preferential access to ATP synthase"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_091",
@@ -1601,7 +1689,8 @@ window.APBIO_MCQ = [
       "CAM plants use a different form of RuBisCO that functions without CO2, allowing stomata to remain closed at all times"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_092",
@@ -1619,7 +1708,8 @@ window.APBIO_MCQ = [
       "Only oxidative phosphorylation stops; glycolysis and the Krebs cycle continue at normal rates because they do not directly require oxygen"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_093",
@@ -1637,7 +1727,8 @@ window.APBIO_MCQ = [
       "Labeled oxygen from water is used to regenerate RuBP in the Calvin cycle"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_094",
@@ -1655,7 +1746,8 @@ window.APBIO_MCQ = [
       "Both C3 and C4 plants will show equal declines in photosynthesis at high temperatures because both use RuBisCO for carbon fixation"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_095",
@@ -1673,7 +1765,8 @@ window.APBIO_MCQ = [
       "UCP1 pumps Na+ ions rather than H+ ions, creating an osmotic gradient that drives water movement and heat production"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_096",
@@ -1691,7 +1784,8 @@ window.APBIO_MCQ = [
       "Green light causes stomata to close, preventing CO2 entry; algae grow poorly due to carbon starvation. A control growing the algae in elevated CO2 under green light would confirm this"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_097",
@@ -1709,7 +1803,8 @@ window.APBIO_MCQ = [
       "The pump will run in reverse, pumping Na+ in and K+ out, because eliminating ATP hydrolysis removes the directionality of the pump"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_098",
@@ -1727,7 +1822,8 @@ window.APBIO_MCQ = [
       "The dye responds to oxygen, not CO2; photosynthesis produces O2 during the day (dye turns blue) and respiration consumes O2 at night (dye turns yellow)"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_099",
@@ -1745,7 +1841,8 @@ window.APBIO_MCQ = [
       "Apoptosis involves regulated activation of proteins in specific cells that leads to their death, sculpting the developing tissue."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_100",
@@ -1763,7 +1860,8 @@ window.APBIO_MCQ = [
       "protein X normally regulates gene expression, and the underactive mutant protein blocked the cell cycle."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_101",
@@ -1781,7 +1879,8 @@ window.APBIO_MCQ = [
       "transfer of organelles from the G1 cell to the M-phase cell."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_102",
@@ -1799,7 +1898,8 @@ window.APBIO_MCQ = [
       "A decrease in thyroxine removes inhibition of the hypothalamus and anterior pituitary, leading to increased TSH secretion."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_103",
@@ -1817,7 +1917,8 @@ window.APBIO_MCQ = [
       "As blood osmolarity rises, less ADH is released, causing more water to be excreted as urine."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_104",
@@ -1835,7 +1936,8 @@ window.APBIO_MCQ = [
       "The signaling molecule binds to a receptor protein on the cell surface, initiating conformational changes."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_105",
@@ -1853,7 +1955,8 @@ window.APBIO_MCQ = [
       "cAMP directly transcribes target genes in the nucleus."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_106",
@@ -1871,7 +1974,8 @@ window.APBIO_MCQ = [
       "the cell has met conditions required for a given stage before proceeding to the next stage."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_107",
@@ -1889,7 +1993,8 @@ window.APBIO_MCQ = [
       "Telophase"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_108",
@@ -1907,7 +2012,8 @@ window.APBIO_MCQ = [
       "Steroid hormones are immediately degraded by lysosomal enzymes after binding to surface receptors."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_109",
@@ -1925,7 +2031,8 @@ window.APBIO_MCQ = [
       "Blood glucose levels rise after eating, stimulating insulin release, which then lowers blood glucose."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_110",
@@ -1943,7 +2050,8 @@ window.APBIO_MCQ = [
       "A mutation that causes the gene to be overexpressed, producing excess growth-stimulating protein"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_111",
@@ -1961,7 +2069,8 @@ window.APBIO_MCQ = [
       "direct cytoplasmic communication, enabling ions and small molecules to pass between adjacent cells."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_112",
@@ -1979,7 +2088,8 @@ window.APBIO_MCQ = [
       "Signal transduction bypasses the need for gene expression."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_113",
@@ -1997,7 +2107,8 @@ window.APBIO_MCQ = [
       "prevent apoptosis by blocking caspase activation."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_114",
@@ -2015,7 +2126,8 @@ window.APBIO_MCQ = [
       "Epinephrine binds to a cell surface receptor, triggering a signal transduction cascade that produces second messengers (such as cAMP) which activate enzymes inside the cell"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_115",
@@ -2033,7 +2145,8 @@ window.APBIO_MCQ = [
       "Cells spend the majority of the cell cycle in interphase replicating DNA and growing, so at any given time most cells will be in interphase"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_116",
@@ -2051,7 +2164,8 @@ window.APBIO_MCQ = [
       "Daughter cells will receive incomplete sets of chromosomes, leading to genomic instability, potential cell death, or cancerous transformation"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_117",
@@ -2069,7 +2183,8 @@ window.APBIO_MCQ = [
       "The pathway will be constitutively (permanently) active, potentially causing uncontrolled cell growth and contributing to cancer"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_118",
@@ -2087,7 +2202,8 @@ window.APBIO_MCQ = [
       "The claim is incorrect; this is negative feedback because high levels of sex hormones suppress the signals that originally caused their production, maintaining hormone levels within a set range"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_119",
@@ -2105,7 +2221,8 @@ window.APBIO_MCQ = [
       "Restoring the tumor suppressor will likely cause the cancer cells to pause at the G1 checkpoint or undergo apoptosis, reducing uncontrolled proliferation"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_120",
@@ -2123,7 +2240,8 @@ window.APBIO_MCQ = [
       "The cells will show a prolonged and amplified response because cAMP levels remain elevated longer, sustaining downstream kinase activity"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_121",
@@ -2141,7 +2259,8 @@ window.APBIO_MCQ = [
       "NO is highly reactive and has a very short half-life (seconds to minutes), so it acts only on nearby cells before being inactivated; it cannot reach distant tissues in functional form"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_122",
@@ -2159,7 +2278,8 @@ window.APBIO_MCQ = [
       "Unattached kinetochores generate a wait signal (via the Mad2 protein) that inhibits the APC/C, preventing securin degradation and sister chromatid separation; when nocodazole is removed, microtubules reattach to kinetochores, the wait signal is extinguished, and APC/C is activated"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_123",
@@ -2177,7 +2297,8 @@ window.APBIO_MCQ = [
       "All rapidly dividing cells will transform into cancer cells immediately because apoptosis is the only mechanism preventing tumorigenesis"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_124",
@@ -2195,7 +2316,8 @@ window.APBIO_MCQ = [
       "A drug that blocks glucose transporter (GLUT4) expression at the transcriptional level"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_125",
@@ -2213,7 +2335,8 @@ window.APBIO_MCQ = [
       "Blood Ca2+ will normalize quickly because the kidneys will excrete all excess calcium regardless of hormone levels"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_126",
@@ -2231,7 +2354,8 @@ window.APBIO_MCQ = [
       "Rb and cyclin D both encode structural components of the mitotic spindle, and losing either prevents proper chromosome segregation, causing cells to re-enter S phase immediately"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_127",
@@ -2249,7 +2373,8 @@ window.APBIO_MCQ = [
       "The cell degrades the signal molecule slowly, producing a fast effect while the molecule is intact and a slow effect as degradation products accumulate"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_128",
@@ -2267,7 +2392,8 @@ window.APBIO_MCQ = [
       "The two genes are linked on the same chromosome, and crossing over occurred between the gene loci."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_129",
@@ -2285,7 +2411,8 @@ window.APBIO_MCQ = [
       "3/4"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_130",
@@ -2303,7 +2430,8 @@ window.APBIO_MCQ = [
       "codominance, because both I^A and I^B alleles are fully expressed."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_131",
@@ -2321,7 +2449,8 @@ window.APBIO_MCQ = [
       "Prophase I, when homologous chromosomes pair up to form bivalents"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_132",
@@ -2339,7 +2468,8 @@ window.APBIO_MCQ = [
       "1/16"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_133",
@@ -2357,7 +2487,8 @@ window.APBIO_MCQ = [
       "100%"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_134",
@@ -2375,7 +2506,8 @@ window.APBIO_MCQ = [
       "3/16"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_135",
@@ -2393,7 +2525,8 @@ window.APBIO_MCQ = [
       "incomplete dominance"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_136",
@@ -2411,7 +2544,8 @@ window.APBIO_MCQ = [
       "Meiosis occurs only in somatic cells; mitosis occurs only in germ cells."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_137",
@@ -2429,7 +2563,8 @@ window.APBIO_MCQ = [
       "100%"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_138",
@@ -2447,7 +2582,8 @@ window.APBIO_MCQ = [
       "0.55 (55%)"
     ],
     "answer": 0,
-    "explanation": "If 45% are nontasters (homozygous recessive), then q² = 0.45, so q = √0.45 ≈ 0.671, and p = 1 − 0.671 ≈ 0.329. The frequency of homozygous dominant tasters is p² = (0.329)² ≈ 0.108, or about 10.8%. A common mistake is to calculate p = 1 − 0.45 = 0.55 and then p² = 0.30 — this confuses genotype frequencies with allele frequencies. You must take the square root of q² first to get q, then subtract from 1 to get p."
+    "explanation": "If 45% are nontasters (homozygous recessive), then q² = 0.45, so q = √0.45 ≈ 0.671, and p = 1 − 0.671 ≈ 0.329. The frequency of homozygous dominant tasters is p² = (0.329)² ≈ 0.108, or about 10.8%. A common mistake is to calculate p = 1 − 0.45 = 0.55 and then p² = 0.30 — this confuses genotype frequencies with allele frequencies. You must take the square root of q² first to get q, then subtract from 1 to get p.",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_139",
@@ -2465,7 +2601,8 @@ window.APBIO_MCQ = [
       "Mitochondrial inheritance"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_140",
@@ -2483,7 +2620,8 @@ window.APBIO_MCQ = [
       "Continuous variation results from mitochondrial inheritance."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_141",
@@ -2501,7 +2639,8 @@ window.APBIO_MCQ = [
       "homologous chromosome pairs align randomly at the metaphase I plate, producing new combinations of maternal and paternal chromosomes in gametes."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_142",
@@ -2519,7 +2658,8 @@ window.APBIO_MCQ = [
       "2520"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_143",
@@ -2537,7 +2677,8 @@ window.APBIO_MCQ = [
       "0"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_144",
@@ -2555,7 +2696,8 @@ window.APBIO_MCQ = [
       "Nondisjunction occurred during meiosis, resulting in a gamete with two copies of chromosome 21; when this gamete was fertilized, the zygote had three copies"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_145",
@@ -2573,7 +2715,8 @@ window.APBIO_MCQ = [
       "Cross the unknown organism with a homozygous recessive individual; if any offspring show the recessive phenotype, the unknown is heterozygous"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_146",
@@ -2591,7 +2734,8 @@ window.APBIO_MCQ = [
       "The two genes are linked — located close together on the same chromosome — so crossing over separates them in only 22% of meiotic divisions, causing them to be inherited together more often than chance predicts"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_147",
@@ -2609,7 +2753,8 @@ window.APBIO_MCQ = [
       "The mother is a carrier (X^N X^cb) having inherited the allele from her father; she passed the X^cb chromosome to the child"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_148",
@@ -2627,7 +2772,8 @@ window.APBIO_MCQ = [
       "1/4"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_149",
@@ -2645,7 +2791,8 @@ window.APBIO_MCQ = [
       "XXX — two X chromosomes are inactivated; individuals always have one fewer Barr body than X chromosomes"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_151",
@@ -2663,7 +2810,8 @@ window.APBIO_MCQ = [
       "Because the allele is rare in the population, most affected individuals inherit one copy from an affected parent and one normal allele from an unaffected parent; HH individuals would require two affected parents, which is statistically very rare"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_152",
@@ -2681,7 +2829,8 @@ window.APBIO_MCQ = [
       "Recessive epistasis is occurring: homozygous recessive individuals at one locus (bb) mask the expression of the other gene regardless of its alleles, collapsing two phenotypic classes into one"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_153",
@@ -2699,7 +2848,8 @@ window.APBIO_MCQ = [
       "Igf2 expression will be random — sometimes active, sometimes silent — because imprinting is stochastic"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_154",
@@ -2717,7 +2867,8 @@ window.APBIO_MCQ = [
       "All offspring will show only parental phenotypes because neither parent can undergo crossing over"
     ],
     "answer": 1,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_155",
@@ -2735,7 +2886,8 @@ window.APBIO_MCQ = [
       "ATPase to show transformation is not dependent on ATP"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_156",
@@ -2753,7 +2905,8 @@ window.APBIO_MCQ = [
       "5'-CUG ACU CCU GUG GAG AAG UCU-3'"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_157",
@@ -2771,7 +2924,8 @@ window.APBIO_MCQ = [
       "The enhancer is a DNA segment added to nuclear DNA of some cells during mitosis."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_158",
@@ -2789,7 +2943,8 @@ window.APBIO_MCQ = [
       "Tubulin inhibits translation of hemoglobin mRNA."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_159",
@@ -2807,7 +2962,8 @@ window.APBIO_MCQ = [
       "Rabbits and frogs share a common genetic code for expressing heritable information."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_160",
@@ -2825,7 +2981,8 @@ window.APBIO_MCQ = [
       "It synthesizes a new DNA strand by adding nucleotides complementary to the template strand, always in the 5' to 3' direction."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_161",
@@ -2843,7 +3000,8 @@ window.APBIO_MCQ = [
       "tRNA catalyzes the formation of peptide bonds between amino acids."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_162",
@@ -2861,7 +3019,8 @@ window.APBIO_MCQ = [
       "binds to the repressor and changes its shape so it can no longer bind the operator, allowing transcription."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_163",
@@ -2879,7 +3038,8 @@ window.APBIO_MCQ = [
       "frameshift mutation, because it shifts the reading frame."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_164",
@@ -2897,7 +3057,8 @@ window.APBIO_MCQ = [
       "cut DNA at specific recognition sequences, producing fragments that can be analyzed or cloned."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_165",
@@ -2915,7 +3076,8 @@ window.APBIO_MCQ = [
       "Epigenetic modifications such as DNA methylation and histone acetylation differ between twins due to environmental factors, altering gene expression without changing the DNA sequence."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_166",
@@ -2933,7 +3095,8 @@ window.APBIO_MCQ = [
       "Translation of the mRNA into protein"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_167",
@@ -2951,7 +3114,8 @@ window.APBIO_MCQ = [
       "a frameshift that alters the reading frame of all codons downstream of the mutation."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_168",
@@ -2969,7 +3133,8 @@ window.APBIO_MCQ = [
       "A guide RNA directs the Cas9 nuclease to a specific DNA sequence, where it makes a double-strand cut that can be repaired to introduce the desired change."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_169",
@@ -2987,7 +3152,8 @@ window.APBIO_MCQ = [
       "binding to complementary sequences in mRNA, causing mRNA degradation or blocking translation."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_170",
@@ -3005,7 +3171,8 @@ window.APBIO_MCQ = [
       "DNA → RNA → Protein"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_171",
@@ -3023,7 +3190,8 @@ window.APBIO_MCQ = [
       "transcription factors that bind to specific regulatory sequences and activate or repress transcription of target genes."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_172",
@@ -3041,7 +3209,8 @@ window.APBIO_MCQ = [
       "AUG encodes methionine and serves as the start codon, initiating translation"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_173",
@@ -3059,7 +3228,8 @@ window.APBIO_MCQ = [
       "Each new DNA molecule consists of one original (parental) strand and one newly synthesized strand"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_174",
@@ -3077,7 +3247,8 @@ window.APBIO_MCQ = [
       "Proteins (activators) bound to enhancer sequences interact with proteins at the promoter through DNA looping, bringing the enhancer and promoter into physical contact and stimulating transcription"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_175",
@@ -3095,7 +3266,8 @@ window.APBIO_MCQ = [
       "The mRNA will not be transcribed because the nonsense mutation prevents RNA polymerase from reading through the codon"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_176",
@@ -3113,7 +3285,8 @@ window.APBIO_MCQ = [
       "Removing methyl groups from histones causes chromatin to condense, making tumor suppressor genes more accessible"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_177",
@@ -3131,7 +3304,8 @@ window.APBIO_MCQ = [
       "The DNA template was not denatured at a high enough temperature, but this would produce multiple products rather than no product"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_178",
@@ -3149,7 +3323,8 @@ window.APBIO_MCQ = [
       "Alternative splicing changes the reading frame of the mRNA, producing an entirely different set of codons"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_179",
@@ -3167,7 +3342,8 @@ window.APBIO_MCQ = [
       "The mutation will increase the affinity of the repressor for the operator, permanently silencing the operon"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_180",
@@ -3185,7 +3361,8 @@ window.APBIO_MCQ = [
       "The problem is unique to eukaryotes and has no solution; chromosomes shorten by exactly one nucleotide per cell division"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_181",
@@ -3203,7 +3380,8 @@ window.APBIO_MCQ = [
       "Exon1 will be duplicated to fill the gap left by the failed splicing of intron A"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_182",
@@ -3221,7 +3399,8 @@ window.APBIO_MCQ = [
       "The histone acetylation marks represent sites of DNA damage that have been flagged for repair in each cell type"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_183",
@@ -3239,7 +3418,8 @@ window.APBIO_MCQ = [
       "The siRNA binds ribosomes and prevents them from recognizing the start codon of gene X mRNA"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_184",
@@ -3257,7 +3437,8 @@ window.APBIO_MCQ = [
       "The ribosome will detect the thymine dimer in the mRNA and trigger degradation of any protein translated from that region"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_185",
@@ -3275,7 +3456,8 @@ window.APBIO_MCQ = [
       "Mitochondrial ribosomes are sensitive to streptomycin because they are smaller than bacterial ribosomes and therefore more vulnerable to antibiotic disruption"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_186",
@@ -3293,7 +3475,8 @@ window.APBIO_MCQ = [
       "Each cell type synthesizes a different version of RNA polymerase that can only transcribe cell-type-specific genes"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_187",
@@ -3311,7 +3494,8 @@ window.APBIO_MCQ = [
       "Only stem cells express the guide RNA required for base editing; mature red blood cells lack the necessary machinery"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_188",
@@ -3329,7 +3513,8 @@ window.APBIO_MCQ = [
       "Reactivating telomerase increases mutation rate by destabilizing the ends of chromosomes, generating new oncogenic mutations faster"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_189",
@@ -3347,7 +3532,8 @@ window.APBIO_MCQ = [
       "The frequency of the allele is 0.0447 in the isolated population and 0.0026 in the general population, suggesting genetic drift has occurred."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_190",
@@ -3365,7 +3551,8 @@ window.APBIO_MCQ = [
       "The reduced population will likely have allelic frequencies different from the original population due to genetic drift."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_191",
@@ -3383,7 +3570,8 @@ window.APBIO_MCQ = [
       "Temporal isolation, because apple and hawthorn fruits ripen at different times, separating the mating seasons of the two populations"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_192",
@@ -3401,7 +3589,8 @@ window.APBIO_MCQ = [
       "Habitat isolation"
     ],
     "answer": 2,
-    "explanation": "The hybrid flies are healthy adults with normal lifespans, which rules out prezygotic isolation (which would prevent mating or fertilization) and mechanical isolation (a form of prezygotic isolation involving incompatible reproductive structures). The problem is that their eggs hatch less often — meaning offspring fail to develop normally. This is postzygotic isolation in the form of reduced hybrid viability: the hybrids survive to adulthood, but their offspring have reduced developmental success. Reduced hybrid fertility would mean the hybrids themselves cannot produce viable gametes or reproduce, which is not described here."
+    "explanation": "The hybrid flies are healthy adults with normal lifespans, which rules out prezygotic isolation (which would prevent mating or fertilization) and mechanical isolation (a form of prezygotic isolation involving incompatible reproductive structures). The problem is that their eggs hatch less often — meaning offspring fail to develop normally. This is postzygotic isolation in the form of reduced hybrid viability: the hybrids survive to adulthood, but their offspring have reduced developmental success. Reduced hybrid fertility would mean the hybrids themselves cannot produce viable gametes or reproduce, which is not described here.",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_193",
@@ -3419,7 +3608,8 @@ window.APBIO_MCQ = [
       "0.36"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_194",
@@ -3437,7 +3627,8 @@ window.APBIO_MCQ = [
       "It is supported by multiple independent lines of evidence including fossil records, comparative anatomy, molecular biology, and direct observation of evolutionary change."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_195",
@@ -3455,7 +3646,8 @@ window.APBIO_MCQ = [
       "Gray mice blend better with the light soil and are less likely to be captured by predators, giving them a selective advantage."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_196",
@@ -3473,7 +3665,8 @@ window.APBIO_MCQ = [
       "Reptiles are more closely related to birds than to mammals."
     ],
     "answer": 3,
-    "explanation": "When a phylogenetic tree shows mammals branching off from a node before birds diverge, the remaining lineage after the mammal split gives rise to both reptiles and birds. Reptiles and birds therefore share a more recent common ancestor with each other than either does with mammals — meaning reptiles are more closely related to birds than to mammals. Choice A is wrong because birds are shown diverging after mammals, not from mammals. Choice C, while broadly true of amniotes as a group, is not the specific conclusion the branching pattern supports. Choice B is incorrect — branching off earlier reflects an earlier divergence time, not primitiveness or ancestral status."
+    "explanation": "When a phylogenetic tree shows mammals branching off from a node before birds diverge, the remaining lineage after the mammal split gives rise to both reptiles and birds. Reptiles and birds therefore share a more recent common ancestor with each other than either does with mammals — meaning reptiles are more closely related to birds than to mammals. Choice A is wrong because birds are shown diverging after mammals, not from mammals. Choice C, while broadly true of amniotes as a group, is not the specific conclusion the branching pattern supports. Choice B is incorrect — branching off earlier reflects an earlier divergence time, not primitiveness or ancestral status.",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_197",
@@ -3491,7 +3684,8 @@ window.APBIO_MCQ = [
       "Building ponds to connect isolated populations and promote interbreeding"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_198",
@@ -3509,7 +3703,8 @@ window.APBIO_MCQ = [
       "Lamarckian inheritance of acquired characteristics"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_199",
@@ -3527,7 +3722,8 @@ window.APBIO_MCQ = [
       "geographic separation of two populations, which then diverge genetically until they can no longer interbreed."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_200",
@@ -3545,7 +3741,8 @@ window.APBIO_MCQ = [
       "The population reproduces sexually rather than asexually."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_201",
@@ -3563,7 +3760,8 @@ window.APBIO_MCQ = [
       "they display characteristics intermediate between ancestral and derived species, providing evidence for the gradual modification of lineages."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_202",
@@ -3581,7 +3779,8 @@ window.APBIO_MCQ = [
       "Sexual selection"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_203",
@@ -3599,7 +3798,8 @@ window.APBIO_MCQ = [
       "Heritable variation exists among individuals, some variants survive and reproduce better than others, and populations change over time as a result"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_204",
@@ -3617,7 +3817,8 @@ window.APBIO_MCQ = [
       "These structures are homologous, indicating that these animals share a common ancestor that had a forelimb with this basic bone structure, which was subsequently modified by natural selection for different functions"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_205",
@@ -3635,7 +3836,8 @@ window.APBIO_MCQ = [
       "0.64"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_206",
@@ -3653,7 +3855,8 @@ window.APBIO_MCQ = [
       "The founder effect: the small founding population carried only a subset of the mainland's genetic variation; random differences in allele frequencies in this founding group became amplified over generations through genetic drift"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_207",
@@ -3671,7 +3874,8 @@ window.APBIO_MCQ = [
       "Genetic drift causes random fluctuations in allele frequencies, especially in small populations; over time, chance events can fix some alleles at 100% and eliminate others entirely, independent of fitness"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_208",
@@ -3689,7 +3893,8 @@ window.APBIO_MCQ = [
       "Sympatric speciation where reproductive isolation evolved without geographic separation, driven by ecological specialization and assortative mating"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_209",
@@ -3707,7 +3912,8 @@ window.APBIO_MCQ = [
       "The claim is incorrect; bacteria do not acquire resistance through learning or directed mutation. Resistance alleles already exist in populations at low frequency; antibiotics kill susceptible bacteria but leave resistant ones to reproduce, increasing the frequency of resistance alleles through natural selection"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_210",
@@ -3725,7 +3931,8 @@ window.APBIO_MCQ = [
       "The two similar species are actually the same species and should be reclassified as a single taxon"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_211",
@@ -3743,7 +3950,8 @@ window.APBIO_MCQ = [
       "The HbS allele is neutral in malaria-free environments and has been recently introduced into Africa through gene flow"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_212",
@@ -3761,7 +3969,8 @@ window.APBIO_MCQ = [
       "Tiktaalik shows that modern fish are direct descendants of tetrapods that returned to the water"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_213",
@@ -3779,7 +3988,8 @@ window.APBIO_MCQ = [
       "Mutation is converting recessive alleles to dominant alleles faster than selection can act, reducing the frequency of homozygous recessive individuals"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_214",
@@ -3797,7 +4007,8 @@ window.APBIO_MCQ = [
       "The population with higher fitness will outcompete and replace the other through competitive exclusion"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_215",
@@ -3815,7 +4026,8 @@ window.APBIO_MCQ = [
       "Nonsynonymous substitutions are removed by DNA repair mechanisms more effectively than synonymous ones because they alter protein-coding regions"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_216",
@@ -3833,7 +4045,8 @@ window.APBIO_MCQ = [
       "The claim is incorrect; the data show the population is not evolving because the allele frequencies are fixed and cannot change"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_217",
@@ -3851,7 +4064,8 @@ window.APBIO_MCQ = [
       "The claim is incorrect; the change in moth frequency was due to genetic drift caused by population size fluctuations during the industrial revolution"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_218",
@@ -3869,7 +4083,8 @@ window.APBIO_MCQ = [
       "Amount of pollen produced by each flower (g/flower)"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_219",
@@ -3887,7 +4102,8 @@ window.APBIO_MCQ = [
       "Surface fish populations would decline due to reduced algal populations."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_220",
@@ -3905,7 +4121,8 @@ window.APBIO_MCQ = [
       "A graph showing that destabilization increases linearly with species diversity"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_221",
@@ -3923,7 +4140,8 @@ window.APBIO_MCQ = [
       "The population growth rate equals zero."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_222",
@@ -3941,7 +4159,8 @@ window.APBIO_MCQ = [
       "ice increases available light for photosynthesis, increasing primary production."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_223",
@@ -3959,7 +4178,8 @@ window.APBIO_MCQ = [
       "Population size fluctuates around the carrying capacity."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_224",
@@ -3977,7 +4197,8 @@ window.APBIO_MCQ = [
       "competitive exclusion, where two species competing for the same limiting resource cannot coexist and one is eliminated."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_225",
@@ -3995,7 +4216,8 @@ window.APBIO_MCQ = [
       "Energy flows unidirectionally from the sun through producers to consumers; at each trophic level, approximately 90% of energy is lost as heat."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_226",
@@ -4013,7 +4235,8 @@ window.APBIO_MCQ = [
       "competitive exclusion"
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_227",
@@ -4031,7 +4254,8 @@ window.APBIO_MCQ = [
       "Burning of fossil fuels such as coal, oil, and natural gas"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_228",
@@ -4049,7 +4273,8 @@ window.APBIO_MCQ = [
       "The population reached the carrying capacity of the environment due to limited nutrients and/or accumulation of waste products."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_229",
@@ -4067,7 +4292,8 @@ window.APBIO_MCQ = [
       "primary succession, because colonization begins on bare substrate with no preexisting soil."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_230",
@@ -4085,7 +4311,8 @@ window.APBIO_MCQ = [
       "decompose organic nitrogen compounds into inorganic forms."
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_231",
@@ -4103,7 +4330,8 @@ window.APBIO_MCQ = [
       "Keystone species are immune to natural selection and maintain constant population sizes."
     ],
     "answer": 2,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_232",
@@ -4121,7 +4349,8 @@ window.APBIO_MCQ = [
       "R-selected species produce many small offspring with little parental investment; K-selected species produce fewer offspring with greater parental investment."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_233",
@@ -4139,7 +4368,8 @@ window.APBIO_MCQ = [
       "top-down trophic cascade, starting with a top predator."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_234",
@@ -4157,7 +4387,8 @@ window.APBIO_MCQ = [
       "the role a species plays in its environment, including its habitat, food sources, predators, and interactions with other species."
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_235",
@@ -4175,7 +4406,8 @@ window.APBIO_MCQ = [
       "A large island close to the mainland"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_236",
@@ -4193,7 +4425,8 @@ window.APBIO_MCQ = [
       "Decomposers break down dead organic matter, releasing nutrients back into the soil and atmosphere where they can be used by producers"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_237",
@@ -4211,7 +4444,8 @@ window.APBIO_MCQ = [
       "A density-dependent factor, because as population density increased, food became limiting, increasing competition and causing the crash"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_238",
@@ -4229,7 +4463,8 @@ window.APBIO_MCQ = [
       "A keystone species, because their presence or absence has a disproportionately large effect on community structure relative to their abundance"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_239",
@@ -4248,7 +4483,8 @@ window.APBIO_MCQ = [
     ],
     "answer": 3,
     "explanation": "",
-    "graphDescription": "Three age-structure diagrams (population pyramids). Country A has a broad base tapering to a narrow top (expansive pyramid indicating rapid growth). Country B has roughly equal bar widths across all age classes (stationary pyramid indicating stable population). Country C has a narrow base with wider bars at older age classes (constrictive pyramid indicating population decline)."
+    "graphDescription": "Three age-structure diagrams (population pyramids). Country A has a broad base tapering to a narrow top (expansive pyramid indicating rapid growth). Country B has roughly equal bar widths across all age classes (stationary pyramid indicating stable population). Country C has a narrow base with wider bars at older age classes (constrictive pyramid indicating population decline).",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_240",
@@ -4266,7 +4502,8 @@ window.APBIO_MCQ = [
       "The algal bloom shades deeper water and blocks photosynthesis below; when algae die, bacterial decomposition of the massive biomass consumes dissolved oxygen, creating hypoxic conditions that kill fish and other aerobic organisms (eutrophication)"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_241",
@@ -4284,7 +4521,8 @@ window.APBIO_MCQ = [
       "Primary succession, because colonization begins on bare rock with no preexisting soil or biological community; each pioneer species modifies conditions to allow the next successional stage"
     ],
     "answer": 3,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_242",
@@ -4302,7 +4540,8 @@ window.APBIO_MCQ = [
       "Smaller forest patches have more sunlight reaching the forest floor, which changes species composition but does not reduce total species number"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_243",
@@ -4320,7 +4559,8 @@ window.APBIO_MCQ = [
       "Flooding causes plant roots to absorb all available nitrogen rapidly, depleting soil nitrogen"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_244",
@@ -4338,7 +4578,8 @@ window.APBIO_MCQ = [
       "The predator switches to eating plants once prey becomes scarce, becoming an omnivore and releasing prey population pressure"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_245",
@@ -4356,7 +4597,8 @@ window.APBIO_MCQ = [
       "The researcher's measurement methods are incorrect; GPP and NPP should always be proportional regardless of ecosystem type"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_246",
@@ -4374,7 +4616,8 @@ window.APBIO_MCQ = [
       "Harvesting at K/2 ensures predator populations remain below carrying capacity, allowing prey populations to compensate for harvest losses"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_247",
@@ -4392,7 +4635,8 @@ window.APBIO_MCQ = [
       "The diverse plot had more root biomass that stored more water, providing physical insulation from drought effects"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_248",
@@ -4410,7 +4654,8 @@ window.APBIO_MCQ = [
       "Analyze the chemical composition of soil from invaded plots to identify any unusual compounds present"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_249",
@@ -4428,7 +4673,8 @@ window.APBIO_MCQ = [
       "NPP = 2500 g C/m²/year; ecological efficiency = 10% because all ecosystems follow the exact 10% rule"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "apbio_mcq_250",
@@ -4446,7 +4692,8 @@ window.APBIO_MCQ = [
       "Approximately 75 wolves, because the population will overshoot K and then crash to K/2"
     ],
     "answer": 0,
-    "explanation": ""
+    "explanation": "",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q001",
@@ -4466,7 +4713,8 @@ window.APBIO_MCQ = [
       "High surface tension"
     ],
     "answer": 0,
-    "explanation": "High specific heat capacity allows water to absorb large amounts of heat energy before its temperature rises significantly, helping organisms maintain stable body temperatures. Low density of ice helps aquatic life survive winter but doesn't moderate temperature. Being a universal solvent helps with chemical reactions but not temperature regulation. Surface tension creates cohesion but doesn't affect temperature moderation."
+    "explanation": "High specific heat capacity allows water to absorb large amounts of heat energy before its temperature rises significantly, helping organisms maintain stable body temperatures. Low density of ice helps aquatic life survive winter but doesn't moderate temperature. Being a universal solvent helps with chemical reactions but not temperature regulation. Surface tension creates cohesion but doesn't affect temperature moderation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q002",
@@ -4486,7 +4734,8 @@ window.APBIO_MCQ = [
       "Water has ionic bonds"
     ],
     "answer": 0,
-    "explanation": "Water's bent shape creates partial positive charges on hydrogen atoms and partial negative charges on oxygen, allowing hydrogen bonds to form between molecules. Water is bent, not linear. Water is polar, not nonpolar. Water has covalent bonds within molecules, not ionic bonds."
+    "explanation": "Water's bent shape creates partial positive charges on hydrogen atoms and partial negative charges on oxygen, allowing hydrogen bonds to form between molecules. Water is bent, not linear. Water is polar, not nonpolar. Water has covalent bonds within molecules, not ionic bonds.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q003",
@@ -4506,7 +4755,8 @@ window.APBIO_MCQ = [
       "Basic"
     ],
     "answer": 0,
-    "explanation": "pH 3 is strongly acidic since it's well below 7 (neutral). The pH scale is logarithmic, so pH 3 represents a high concentration of H+ ions. Weakly acidic would be pH 5-6, neutral is pH 7, and basic is pH above 7."
+    "explanation": "pH 3 is strongly acidic since it's well below 7 (neutral). The pH scale is logarithmic, so pH 3 represents a high concentration of H+ ions. Weakly acidic would be pH 5-6, neutral is pH 7, and basic is pH above 7.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q004",
@@ -4526,7 +4776,8 @@ window.APBIO_MCQ = [
       "Is highly electronegative"
     ],
     "answer": 0,
-    "explanation": "Carbon's 4 valence electrons allow it to form 4 stable covalent bonds, creating diverse molecular structures including chains and rings. While carbon is abundant in life, this abundance results from its bonding properties, not the cause of them. Carbon is not the most electronegative element in organic molecules - oxygen is significantly more electronegative than carbon. Carbon has moderate electronegativity, not high."
+    "explanation": "Carbon's 4 valence electrons allow it to form 4 stable covalent bonds, creating diverse molecular structures including chains and rings. While carbon is abundant in life, this abundance results from its bonding properties, not the cause of them. Carbon is not the most electronegative element in organic molecules - oxygen is significantly more electronegative than carbon. Carbon has moderate electronegativity, not high.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q005",
@@ -4546,7 +4797,8 @@ window.APBIO_MCQ = [
       "Fatty acids"
     ],
     "answer": 0,
-    "explanation": "Proteins are polymers made up of amino acid monomers linked by peptide bonds. Nucleotides are monomers of nucleic acids, monosaccharides are monomers of carbohydrates, and fatty acids are components of lipids but lipids aren't true polymers."
+    "explanation": "Proteins are polymers made up of amino acid monomers linked by peptide bonds. Nucleotides are monomers of nucleic acids, monosaccharides are monomers of carbohydrates, and fatty acids are components of lipids but lipids aren't true polymers.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q006",
@@ -4566,7 +4818,8 @@ window.APBIO_MCQ = [
       "Store genetic information"
     ],
     "answer": 0,
-    "explanation": "Phospholipids have hydrophilic heads and hydrophobic tails that spontaneously arrange into bilayers, forming the basic structure of cell membranes. Fats store energy, enzymes (proteins) speed up reactions, and nucleic acids store genetic information."
+    "explanation": "Phospholipids have hydrophilic heads and hydrophobic tails that spontaneously arrange into bilayers, forming the basic structure of cell membranes. Fats store energy, enzymes (proteins) speed up reactions, and nucleic acids store genetic information.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q007",
@@ -4586,7 +4839,8 @@ window.APBIO_MCQ = [
       "Oligosaccharide"
     ],
     "answer": 0,
-    "explanation": "Glucose is a monosaccharide, the simplest form of carbohydrate consisting of a single sugar unit. Disaccharides like sucrose contain two sugar units, polysaccharides like starch contain many sugar units, and oligosaccharides contain a few sugar units."
+    "explanation": "Glucose is a monosaccharide, the simplest form of carbohydrate consisting of a single sugar unit. Disaccharides like sucrose contain two sugar units, polysaccharides like starch contain many sugar units, and oligosaccharides contain a few sugar units.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q008",
@@ -4606,7 +4860,8 @@ window.APBIO_MCQ = [
       "Guanine"
     ],
     "answer": 2,
-    "explanation": "RNA contains ribose sugar while DNA contains deoxyribose sugar. Both nucleic acids contain adenine and guanine as bases, and both have phosphate groups in their backbone structure. The presence of ribose (with an extra hydroxyl group) is a key structural difference."
+    "explanation": "RNA contains ribose sugar while DNA contains deoxyribose sugar. Both nucleic acids contain adenine and guanine as bases, and both have phosphate groups in their backbone structure. The presence of ribose (with an extra hydroxyl group) is a key structural difference.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q009",
@@ -4626,7 +4881,8 @@ window.APBIO_MCQ = [
       "Hydrogen gas"
     ],
     "answer": 2,
-    "explanation": "Dehydration synthesis removes a water molecule (H2O) to form a covalent bond between two monomers. The name 'dehydration' literally means removal of water. Carbon dioxide, oxygen gas, and hydrogen gas are not typically removed in these polymerization reactions."
+    "explanation": "Dehydration synthesis removes a water molecule (H2O) to form a covalent bond between two monomers. The name 'dehydration' literally means removal of water. Carbon dioxide, oxygen gas, and hydrogen gas are not typically removed in these polymerization reactions.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q010",
@@ -4646,7 +4902,8 @@ window.APBIO_MCQ = [
       "Add energy to chemical bonds"
     ],
     "answer": 2,
-    "explanation": "Hydrolysis breaks covalent bonds by adding water, breaking down large polymers into smaller monomers that can be absorbed. This is opposite to dehydration synthesis which builds complex molecules. Hydrolysis adds water rather than removing it, and it breaks bonds rather than adding energy to them."
+    "explanation": "Hydrolysis breaks covalent bonds by adding water, breaking down large polymers into smaller monomers that can be absorbed. This is opposite to dehydration synthesis which builds complex molecules. Hydrolysis adds water rather than removing it, and it breaks bonds rather than adding energy to them.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q011",
@@ -4666,7 +4923,8 @@ window.APBIO_MCQ = [
       "Chitin"
     ],
     "answer": 1,
-    "explanation": "Starch is the primary energy storage polysaccharide in plants, stored in roots, seeds, and other plant parts. Glycogen is the energy storage polysaccharide in animals. Cellulose provides structural support in plant cell walls. Chitin provides structural support in fungal cell walls and arthropod exoskeletons."
+    "explanation": "Starch is the primary energy storage polysaccharide in plants, stored in roots, seeds, and other plant parts. Glycogen is the energy storage polysaccharide in animals. Cellulose provides structural support in plant cell walls. Chitin provides structural support in fungal cell walls and arthropod exoskeletons.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q012",
@@ -4686,7 +4944,8 @@ window.APBIO_MCQ = [
       "Water's ability to ionize into H+ and OH-"
     ],
     "answer": 1,
-    "explanation": "Water's polarity allows it to dissolve ionic compounds like salt through ion-dipole interactions, while nonpolar substances like oil are excluded, forming spheres to minimize contact. Choice A relates to temperature regulation, C ignores the dissolution aspect, and D refers to water's slight ionization which doesn't explain these phenomena."
+    "explanation": "Water's polarity allows it to dissolve ionic compounds like salt through ion-dipole interactions, while nonpolar substances like oil are excluded, forming spheres to minimize contact. Choice A relates to temperature regulation, C ignores the dissolution aspect, and D refers to water's slight ionization which doesn't explain these phenomena.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q013",
@@ -4706,7 +4965,8 @@ window.APBIO_MCQ = [
       "They convert to covalent bonds due to increased energy"
     ],
     "answer": 2,
-    "explanation": "Increased temperature provides kinetic energy that disrupts hydrogen bonds, causing DNA strands to separate (denaturation). Choice A incorrectly suggests heat strengthens bonds, B is wrong because these are intermolecular bonds, and D is incorrect as hydrogen bonds don't convert to covalent bonds with heat."
+    "explanation": "Increased temperature provides kinetic energy that disrupts hydrogen bonds, causing DNA strands to separate (denaturation). Choice A incorrectly suggests heat strengthens bonds, B is wrong because these are intermolecular bonds, and D is incorrect as hydrogen bonds don't convert to covalent bonds with heat.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q014",
@@ -4726,7 +4986,8 @@ window.APBIO_MCQ = [
       "The buffer stops functioning until lactic acid is removed"
     ],
     "answer": 0,
-    "explanation": "Buffers maintain pH by accepting excess H+ ions when acids are added. The bicarbonate buffer system accepts H+ from lactic acid, preventing dangerous pH drops. Choice B would make the solution more acidic, C is biochemically incorrect, and D misunderstands buffer function."
+    "explanation": "Buffers maintain pH by accepting excess H+ ions when acids are added. The bicarbonate buffer system accepts H+ from lactic acid, preventing dangerous pH drops. Choice B would make the solution more acidic, C is biochemically incorrect, and D misunderstands buffer function.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q015",
@@ -4746,7 +5007,8 @@ window.APBIO_MCQ = [
       "Carbon's tendency to form ionic bonds with other atoms"
     ],
     "answer": 2,
-    "explanation": "Carbon's tetravalent nature allows it to form chains, rings, and branches, creating diverse three-dimensional structures essential for biological molecules. Choice A ignores double and triple bonds, B incorrectly states electronegativity values, and D is wrong since carbon forms covalent, not ionic bonds."
+    "explanation": "Carbon's tetravalent nature allows it to form chains, rings, and branches, creating diverse three-dimensional structures essential for biological molecules. Choice A ignores double and triple bonds, B incorrectly states electronegativity values, and D is wrong since carbon forms covalent, not ionic bonds.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q016",
@@ -4766,7 +5028,8 @@ window.APBIO_MCQ = [
       "Sample D - proteins"
     ],
     "answer": 1,
-    "explanation": "Nucleic acids contain carbon, hydrogen, oxygen, nitrogen, and phosphorus (from phosphate groups in the backbone). Sample B matches this composition. Sample A is carbohydrates (1:2:1 ratio), C is lipids (many C-H bonds), and D is proteins (sulfur from some amino acids)."
+    "explanation": "Nucleic acids contain carbon, hydrogen, oxygen, nitrogen, and phosphorus (from phosphate groups in the backbone). Sample B matches this composition. Sample A is carbohydrates (1:2:1 ratio), C is lipids (many C-H bonds), and D is proteins (sulfur from some amino acids).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q017",
@@ -4786,7 +5049,8 @@ window.APBIO_MCQ = [
       "The sequence of nucleotides"
     ],
     "answer": 1,
-    "explanation": "The reversible heat denaturation suggests disruption of secondary and tertiary structures (stabilized by hydrogen bonds and other weak interactions), while permanent urea damage confirms these structures are essential for function. Primary structure alone (A) wouldn't explain the activity loss, C ignores the secondary structure component, and D refers to nucleic acids."
+    "explanation": "The reversible heat denaturation suggests disruption of secondary and tertiary structures (stabilized by hydrogen bonds and other weak interactions), while permanent urea damage confirms these structures are essential for function. Primary structure alone (A) wouldn't explain the activity loss, C ignores the secondary structure component, and D refers to nucleic acids.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q018",
@@ -4806,7 +5070,8 @@ window.APBIO_MCQ = [
       "They are smaller than other lipid molecules"
     ],
     "answer": 1,
-    "explanation": "Phospholipids are amphipathic molecules with hydrophilic phosphate heads and hydrophobic fatty acid tails. Bilayer formation minimizes unfavorable water-hydrophobic interactions while maintaining favorable water-hydrophilic interactions. Choice A ignores the hydrophilic portion, C is incorrect about fatty acid composition, and D misrepresents molecular size relationships."
+    "explanation": "Phospholipids are amphipathic molecules with hydrophilic phosphate heads and hydrophobic fatty acid tails. Bilayer formation minimizes unfavorable water-hydrophobic interactions while maintaining favorable water-hydrophilic interactions. Choice A ignores the hydrophilic portion, C is incorrect about fatty acid composition, and D misrepresents molecular size relationships.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q019",
@@ -4826,7 +5091,8 @@ window.APBIO_MCQ = [
       "It is single-stranded DNA that has been transcribed"
     ],
     "answer": 1,
-    "explanation": "The presence of uracil indicates RNA, and equal A=U suggests base pairing within a single strand (secondary structure like hairpin loops). Unequal G≠C indicates it's not perfectly double-stranded. Choice A is wrong due to uracil presence, C incorrectly assumes double-stranded RNA follows Chargaff's rules strictly, and D describes an impossible molecule."
+    "explanation": "The presence of uracil indicates RNA, and equal A=U suggests base pairing within a single strand (secondary structure like hairpin loops). Unequal G≠C indicates it's not perfectly double-stranded. Choice A is wrong due to uracil presence, C incorrectly assumes double-stranded RNA follows Chargaff's rules strictly, and D describes an impossible molecule.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q020",
@@ -4846,7 +5112,8 @@ window.APBIO_MCQ = [
       "The amino acids must accumulate in hydrophobic regions of the cell where water is excluded before bonding can occur"
     ],
     "answer": 1,
-    "explanation": "Dehydration synthesis in aqueous environments is thermodynamically unfavorable because it removes water where water is abundant. The reaction requires energy input, typically from ATP hydrolysis. Choice A incorrectly suggests spontaneity, C is a plausible-sounding but incorrect claim about water concentration driving dehydration, and D represents a believable misconception about hydrophobic exclusion being a prerequisite for peptide bond formation."
+    "explanation": "Dehydration synthesis in aqueous environments is thermodynamically unfavorable because it removes water where water is abundant. The reaction requires energy input, typically from ATP hydrolysis. Choice A incorrectly suggests spontaneity, C is a plausible-sounding but incorrect claim about water concentration driving dehydration, and D represents a believable misconception about hydrophobic exclusion being a prerequisite for peptide bond formation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q021",
@@ -4866,7 +5133,8 @@ window.APBIO_MCQ = [
       "The low pH converts all molecules to their ionized forms"
     ],
     "answer": 1,
-    "explanation": "Hydrolysis reactions are thermodynamically favorable because they break high-energy covalent bonds in macromolecules and release free energy — the products are at a lower energy state than the reactants. The high concentration of water in aqueous environments also shifts the equilibrium toward hydrolysis, but this is a separate contributing factor rather than the primary thermodynamic reason. Choice A overemphasizes temperature's role — the stomach is not especially hot, and temperature affects reaction rate, not thermodynamic favorability. Choice C incorrectly describes enzyme function (enzymes lower activation energy and speed reactions, but do not change the products). Choice D misrepresents the role of pH."
+    "explanation": "Hydrolysis reactions are thermodynamically favorable because they break high-energy covalent bonds in macromolecules and release free energy — the products are at a lower energy state than the reactants. The high concentration of water in aqueous environments also shifts the equilibrium toward hydrolysis, but this is a separate contributing factor rather than the primary thermodynamic reason. Choice A overemphasizes temperature's role — the stomach is not especially hot, and temperature affects reaction rate, not thermodynamic favorability. Choice C incorrectly describes enzyme function (enzymes lower activation energy and speed reactions, but do not change the products). Choice D misrepresents the role of pH.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q022",
@@ -4886,7 +5154,8 @@ window.APBIO_MCQ = [
       "Ionization and buffering capacity"
     ],
     "answer": 1,
-    "explanation": "Water transport in plants relies on cohesion (water molecules sticking together via hydrogen bonds) and adhesion (water sticking to xylem walls), creating continuous water columns that can be pulled upward. Choice A describes temperature regulation properties, C describes density and solvent properties, and D describes chemical properties unrelated to transport."
+    "explanation": "Water transport in plants relies on cohesion (water molecules sticking together via hydrogen bonds) and adhesion (water sticking to xylem walls), creating continuous water columns that can be pulled upward. Choice A describes temperature regulation properties, C describes density and solvent properties, and D describes chemical properties unrelated to transport.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q023",
@@ -4906,7 +5175,8 @@ window.APBIO_MCQ = [
       "Water is more polar than H2S due to size differences only"
     ],
     "answer": 1,
-    "explanation": "Water forms hydrogen bonds due to highly electronegative oxygen bonded to hydrogen, requiring more energy to break these intermolecular forces during boiling. H2S cannot form hydrogen bonds (sulfur is less electronegative), and CH4 is nonpolar. Choice A confuses intermolecular vs intramolecular forces, C is irrelevant to boiling point, and D oversimplifies electronegativity differences."
+    "explanation": "Water forms hydrogen bonds due to highly electronegative oxygen bonded to hydrogen, requiring more energy to break these intermolecular forces during boiling. H2S cannot form hydrogen bonds (sulfur is less electronegative), and CH4 is nonpolar. Choice A confuses intermolecular vs intramolecular forces, C is irrelevant to boiling point, and D oversimplifies electronegativity differences.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q024",
@@ -4926,7 +5196,8 @@ window.APBIO_MCQ = [
       "About 100 million times different"
     ],
     "answer": 2,
-    "explanation": "pH is a logarithmic scale where each unit represents a 10-fold change in H+ concentration. The difference is 8.5 - 1.5 = 7 pH units, so 10^7 = 10 million times different. Choice A treats pH as linear, B miscalculates the logarithmic relationship, and D uses 10^8 instead of 10^7."
+    "explanation": "pH is a logarithmic scale where each unit represents a 10-fold change in H+ concentration. The difference is 8.5 - 1.5 = 7 pH units, so 10^7 = 10 million times different. Choice A treats pH as linear, B miscalculates the logarithmic relationship, and D uses 10^8 instead of 10^7.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q025",
@@ -4946,7 +5217,8 @@ window.APBIO_MCQ = [
       "Functional group isomerism due to different reactive groups"
     ],
     "answer": 1,
-    "explanation": "C4H10 can exist as butane (straight chain) or isobutane (branched), which are structural isomers with different physical properties like boiling points. Choice A requires a chiral center (not present in C4H10), C requires double bonds (C4H10 is saturated), and D requires different functional groups (both are alkanes)."
+    "explanation": "C4H10 can exist as butane (straight chain) or isobutane (branched), which are structural isomers with different physical properties like boiling points. Choice A requires a chiral center (not present in C4H10), C requires double bonds (C4H10 is saturated), and D requires different functional groups (both are alkanes).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q027",
@@ -4966,7 +5238,8 @@ window.APBIO_MCQ = [
       "Covalent disulfide bonds stabilizing the overall protein shape"
     ],
     "answer": 0,
-    "explanation": "The glutamic acid to valine substitution replaces a charged, hydrophilic R-group with a nonpolar, hydrophobic one. This directly disrupts the R-group interactions - including ionic bonds, hydrophobic interactions, and hydrogen bonds - that govern tertiary and quaternary structure. While the change originates at the primary structure level, it is the altered R-group interactions that cause abnormal hydrophobic patches on the protein surface, driving polymerization and loss of function. Although pH can disrupt hydrogen bonds involved in secondary structure, in sickle cell anemia the loss of function is most directly tied to tertiary and quaternary structural disruption caused by aberrant R-group interactions, not to changes in peptide bonds or secondary structure elements alone."
+    "explanation": "The glutamic acid to valine substitution replaces a charged, hydrophilic R-group with a nonpolar, hydrophobic one. This directly disrupts the R-group interactions - including ionic bonds, hydrophobic interactions, and hydrogen bonds - that govern tertiary and quaternary structure. While the change originates at the primary structure level, it is the altered R-group interactions that cause abnormal hydrophobic patches on the protein surface, driving polymerization and loss of function. Although pH can disrupt hydrogen bonds involved in secondary structure, in sickle cell anemia the loss of function is most directly tied to tertiary and quaternary structural disruption caused by aberrant R-group interactions, not to changes in peptide bonds or secondary structure elements alone.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q028",
@@ -4986,7 +5259,8 @@ window.APBIO_MCQ = [
       "Unsaturated fatty acids increase membrane thickness for better insulation"
     ],
     "answer": 2,
-    "explanation": "Unsaturated fatty acids have kinks from double bonds that prevent tight packing, maintaining membrane fluidity at low temperatures where saturated fats would solidify. Choice A confuses structure with energy storage, B incorrectly applies colligative properties, and D wrongly suggests increased thickness."
+    "explanation": "Unsaturated fatty acids have kinks from double bonds that prevent tight packing, maintaining membrane fluidity at low temperatures where saturated fats would solidify. Choice A confuses structure with energy storage, B incorrectly applies colligative properties, and D wrongly suggests increased thickness.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q029",
@@ -5006,7 +5280,8 @@ window.APBIO_MCQ = [
       "Glycogen can be metabolized without enzymes unlike free glucose"
     ],
     "answer": 2,
-    "explanation": "Glycogen stores large amounts of glucose in a compact, branched polymer that can be rapidly mobilized by enzymes at multiple branch points simultaneously. Choice A is incorrect about energy content, B confuses storage with aerobic metabolism, and D wrongly suggests enzyme-free metabolism is possible."
+    "explanation": "Glycogen stores large amounts of glucose in a compact, branched polymer that can be rapidly mobilized by enzymes at multiple branch points simultaneously. Choice A is incorrect about energy content, B confuses storage with aerobic metabolism, and D wrongly suggests enzyme-free metabolism is possible.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q030",
@@ -5026,7 +5301,8 @@ window.APBIO_MCQ = [
       "RNA is shorter than DNA molecules"
     ],
     "answer": 1,
-    "explanation": "RNA's single-stranded nature allows it to fold back on itself, forming complex structures like hairpins and loops that create catalytic sites. DNA's double-stranded structure limits such folding. Choice A (uracil vs thymine) doesn't directly affect catalysis, C (ribose vs deoxyribose) affects stability more than catalysis, and D incorrectly generalizes about length."
+    "explanation": "RNA's single-stranded nature allows it to fold back on itself, forming complex structures like hairpins and loops that create catalytic sites. DNA's double-stranded structure limits such folding. Choice A (uracil vs thymine) doesn't directly affect catalysis, C (ribose vs deoxyribose) affects stability more than catalysis, and D incorrectly generalizes about length.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q031",
@@ -5046,7 +5322,8 @@ window.APBIO_MCQ = [
       "Water's density changes allow polar molecules to sink while nonpolar molecules float"
     ],
     "answer": 1,
-    "explanation": "Water is a polar molecule and dissolves other polar and ionic substances by forming hydrogen bonds or electrostatic interactions with them. Ethanol has a hydroxyl (-OH) group that can form hydrogen bonds with water, so it dissolves readily. Vegetable oil is nonpolar and cannot form hydrogen bonds with water, so it is excluded and separates into its own layer — the hydrophobic effect. Choice A incorrectly connects specific heat capacity to solubility; specific heat describes how much energy is needed to raise temperature, not why substances dissolve. Choice C misapplies surface tension, which explains phenomena at the air-water interface, not differential solubility of mixed liquids. Choice D incorrectly attributes the separation to density differences rather than polarity."
+    "explanation": "Water is a polar molecule and dissolves other polar and ionic substances by forming hydrogen bonds or electrostatic interactions with them. Ethanol has a hydroxyl (-OH) group that can form hydrogen bonds with water, so it dissolves readily. Vegetable oil is nonpolar and cannot form hydrogen bonds with water, so it is excluded and separates into its own layer — the hydrophobic effect. Choice A incorrectly connects specific heat capacity to solubility; specific heat describes how much energy is needed to raise temperature, not why substances dissolve. Choice C misapplies surface tension, which explains phenomena at the air-water interface, not differential solubility of mixed liquids. Choice D incorrectly attributes the separation to density differences rather than polarity.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q032",
@@ -5066,7 +5343,8 @@ window.APBIO_MCQ = [
       "The molecules must first be phosphorylated to become reactive; this is phosphorylation"
     ],
     "answer": 1,
-    "explanation": "Dehydration synthesis removes water (H from one sugar, OH from another) to form a glycosidic bond between monosaccharides. Choice A describes hydrolysis (the reverse reaction). Choice C incorrectly focuses on energy rather than the mechanism. Choice D incorrectly claims that phosphorylation is required for sugar linkage; in reality, glycosidic bond formation proceeds through dehydration synthesis without the need for prior phosphorylation of the monomers."
+    "explanation": "Dehydration synthesis removes water (H from one sugar, OH from another) to form a glycosidic bond between monosaccharides. Choice A describes hydrolysis (the reverse reaction). Choice C incorrectly focuses on energy rather than the mechanism. Choice D incorrectly claims that phosphorylation is required for sugar linkage; in reality, glycosidic bond formation proceeds through dehydration synthesis without the need for prior phosphorylation of the monomers.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q033",
@@ -5086,7 +5364,8 @@ window.APBIO_MCQ = [
       "Water's role as a universal solvent allows it to interact directly with all amino acid side chains"
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. Water molecules form hydration shells around proteins, and the hydrophobic effect (where hydrophobic regions cluster together to minimize contact with water) is a major force stabilizing protein tertiary structure. When hydrogen bonding between water molecules is weakened, water becomes less structured and the hydrophobic effect is reduced, destabilizing the protein's folded state. Choice A incorrectly focuses on temperature regulation rather than structural stability. Choice B misrepresents cohesion as creating stabilizing pressure. Choice D is wrong because water doesn't interact directly with hydrophobic amino acids - the exclusion of water from these regions is what provides stability."
+    "explanation": "The correct answer is C. Water molecules form hydration shells around proteins, and the hydrophobic effect (where hydrophobic regions cluster together to minimize contact with water) is a major force stabilizing protein tertiary structure. When hydrogen bonding between water molecules is weakened, water becomes less structured and the hydrophobic effect is reduced, destabilizing the protein's folded state. Choice A incorrectly focuses on temperature regulation rather than structural stability. Choice B misrepresents cohesion as creating stabilizing pressure. Choice D is wrong because water doesn't interact directly with hydrophobic amino acids - the exclusion of water from these regions is what provides stability.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q034",
@@ -5106,7 +5385,8 @@ window.APBIO_MCQ = [
       "The acidic conditions protonate carboxyl groups, neutralizing negative charges essential for catalysis"
     ],
     "answer": 1,
-    "explanation": "The correct answer is B. At pH 5.8 (below the pKa of 6.0), histidine residues will be predominantly protonated and positively charged. Since the enzyme evolved to function at pH 7.4 where histidines would be mostly neutral, this change in charge distribution disrupts the active site's electrostatic environment and substrate binding. Choice A is incorrect because at low pH, histidines gain protons rather than lose them - protonation, not deprotonation, occurs below the pKa. Choice C is incorrect because peptide bonds are chemically stable at pH 5.8 and are not broken under mildly acidic conditions. Choice D, while chemically plausible regarding carboxyl group protonation, does not address the specific role of histidine residues highlighted in the question and is therefore not the best explanation for the observed pH sensitivity."
+    "explanation": "The correct answer is B. At pH 5.8 (below the pKa of 6.0), histidine residues will be predominantly protonated and positively charged. Since the enzyme evolved to function at pH 7.4 where histidines would be mostly neutral, this change in charge distribution disrupts the active site's electrostatic environment and substrate binding. Choice A is incorrect because at low pH, histidines gain protons rather than lose them - protonation, not deprotonation, occurs below the pKa. Choice C is incorrect because peptide bonds are chemically stable at pH 5.8 and are not broken under mildly acidic conditions. Choice D, while chemically plausible regarding carboxyl group protonation, does not address the specific role of histidine residues highlighted in the question and is therefore not the best explanation for the observed pH sensitivity.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u1_q036",
@@ -5126,7 +5406,8 @@ window.APBIO_MCQ = [
       "Increased protein expression levels compensate for the reduced activity of individual protein molecules"
     ],
     "answer": 1,
-    "explanation": "The correct answer is B. When a polar residue is introduced into a hydrophobic environment, the protein can maintain stability by forming new hydrogen bonds with backbone carbonyl or amino groups, or by local structural adjustments that bring other polar residues into contact. This demonstrates the protein's ability to accommodate mutations through compensatory interactions. Choice A incorrectly focuses on primary structure (which is the sequence, not the fold). Choice C describes an unlikely post-translational modification that would reverse the mutation's chemical effect. Choice D is incorrect because the question states the protein maintains its activity, not that it requires overexpression to compensate for reduced function."
+    "explanation": "The correct answer is B. When a polar residue is introduced into a hydrophobic environment, the protein can maintain stability by forming new hydrogen bonds with backbone carbonyl or amino groups, or by local structural adjustments that bring other polar residues into contact. This demonstrates the protein's ability to accommodate mutations through compensatory interactions. Choice A incorrectly focuses on primary structure (which is the sequence, not the fold). Choice C describes an unlikely post-translational modification that would reverse the mutation's chemical effect. Choice D is incorrect because the question states the protein maintains its activity, not that it requires overexpression to compensate for reduced function.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q037",
@@ -5146,7 +5427,8 @@ window.APBIO_MCQ = [
       "The organism"
     ],
     "answer": 0,
-    "explanation": "The cell is the basic structural and functional unit of all living organisms according to cell theory. Tissues are groups of cells, organs are groups of tissues, and organisms are complete living systems made of multiple organ systems."
+    "explanation": "The cell is the basic structural and functional unit of all living organisms according to cell theory. Tissues are groups of cells, organs are groups of tissues, and organisms are complete living systems made of multiple organ systems.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q038",
@@ -5166,7 +5448,8 @@ window.APBIO_MCQ = [
       "Golgi apparatus"
     ],
     "answer": 0,
-    "explanation": "Mitochondria are the powerhouses of the cell, responsible for cellular respiration and ATP production. The nucleus controls cell activities, the ER synthesizes proteins and lipids, and the Golgi apparatus modifies and packages proteins."
+    "explanation": "Mitochondria are the powerhouses of the cell, responsible for cellular respiration and ATP production. The nucleus controls cell activities, the ER synthesizes proteins and lipids, and the Golgi apparatus modifies and packages proteins.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q039",
@@ -5186,7 +5469,8 @@ window.APBIO_MCQ = [
       "Prokaryotes have ribosomes, eukaryotes do not"
     ],
     "answer": 0,
-    "explanation": "The defining difference is that prokaryotes lack a membrane-bound nucleus while eukaryotes have one. Both cell types can have cell walls, eukaryotes are typically larger, and both have ribosomes (though different types)."
+    "explanation": "The defining difference is that prokaryotes lack a membrane-bound nucleus while eukaryotes have one. Both cell types can have cell walls, eukaryotes are typically larger, and both have ribosomes (though different types).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q040",
@@ -5206,7 +5490,8 @@ window.APBIO_MCQ = [
       "Nucleic acids and proteins"
     ],
     "answer": 0,
-    "explanation": "Cell membranes are primarily composed of phospholipids forming a bilayer and embedded proteins. While carbohydrates are present, they are not primary components. Nucleic acids are not major membrane components."
+    "explanation": "Cell membranes are primarily composed of phospholipids forming a bilayer and embedded proteins. While carbohydrates are present, they are not primary components. Nucleic acids are not major membrane components.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q041",
@@ -5226,7 +5511,8 @@ window.APBIO_MCQ = [
       "Purely lipid barriers"
     ],
     "answer": 0,
-    "explanation": "The fluid mosaic model describes membranes as fluid phospholipid bilayers with embedded proteins that can move laterally. Membranes are not rigid, crystalline, or purely lipid — they contain proteins as integral components. Choice C is incorrect because solid crystalline structures would prevent the dynamic, flexible behavior that characterizes real cell membranes."
+    "explanation": "The fluid mosaic model describes membranes as fluid phospholipid bilayers with embedded proteins that can move laterally. Membranes are not rigid, crystalline, or purely lipid — they contain proteins as integral components. Choice C is incorrect because solid crystalline structures would prevent the dynamic, flexible behavior that characterizes real cell membranes.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q042",
@@ -5246,7 +5532,8 @@ window.APBIO_MCQ = [
       "Exocytosis"
     ],
     "answer": 2,
-    "explanation": "Passive transport moves substances down their concentration gradient without requiring cellular energy. Active transport, endocytosis, and exocytosis all require energy input from the cell, typically in the form of ATP."
+    "explanation": "Passive transport moves substances down their concentration gradient without requiring cellular energy. Active transport, endocytosis, and exocytosis all require energy input from the cell, typically in the form of ATP.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q043",
@@ -5266,7 +5553,8 @@ window.APBIO_MCQ = [
       "Proteins"
     ],
     "answer": 2,
-    "explanation": "Osmosis specifically refers to the movement of water across a selectively permeable membrane from areas of high water concentration to low water concentration. Salt, sugar, and protein movement involve other transport mechanisms."
+    "explanation": "Osmosis specifically refers to the movement of water across a selectively permeable membrane from areas of high water concentration to low water concentration. Salt, sugar, and protein movement involve other transport mechanisms.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q044",
@@ -5286,7 +5574,8 @@ window.APBIO_MCQ = [
       "Divide into two cells"
     ],
     "answer": 0,
-    "explanation": "In a hypertonic solution, the solute concentration is higher outside the cell, causing water to move out of the cell by osmosis, making the cell shrink. Swelling occurs in hypotonic solutions, no change in isotonic solutions."
+    "explanation": "In a hypertonic solution, the solute concentration is higher outside the cell, causing water to move out of the cell by osmosis, making the cell shrink. Swelling occurs in hypotonic solutions, no change in isotonic solutions.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q045",
@@ -5306,7 +5595,8 @@ window.APBIO_MCQ = [
       "By simple diffusion"
     ],
     "answer": 0,
-    "explanation": "Active transport requires energy to move substances against their concentration gradient, from low to high concentration. Moving with the gradient occurs in passive transport, and water channels and simple diffusion don't require energy."
+    "explanation": "Active transport requires energy to move substances against their concentration gradient, from low to high concentration. Moving with the gradient occurs in passive transport, and water channels and simple diffusion don't require energy.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q046",
@@ -5326,7 +5616,8 @@ window.APBIO_MCQ = [
       "Produce energy"
     ],
     "answer": 1,
-    "explanation": "Endocytosis is the process where cells engulf and take in materials from their external environment by forming vesicles. Releasing materials is exocytosis, cell division is mitosis/meiosis, and energy production occurs in mitochondria."
+    "explanation": "Endocytosis is the process where cells engulf and take in materials from their external environment by forming vesicles. Releasing materials is exocytosis, cell division is mitosis/meiosis, and energy production occurs in mitochondria.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q047",
@@ -5346,7 +5637,8 @@ window.APBIO_MCQ = [
       "Are stored permanently in the cytoplasm"
     ],
     "answer": 1,
-    "explanation": "In exocytosis, vesicles fuse with the cell membrane and release their contents outside the cell. Lysosomal breakdown is different, vesicles don't typically move to the nucleus for exocytosis, and the process involves release, not permanent storage."
+    "explanation": "In exocytosis, vesicles fuse with the cell membrane and release their contents outside the cell. Lysosomal breakdown is different, vesicles don't typically move to the nucleus for exocytosis, and the process involves release, not permanent storage.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q048",
@@ -5366,7 +5658,8 @@ window.APBIO_MCQ = [
       "Randomly in all directions"
     ],
     "answer": 2,
-    "explanation": "In the phospholipid bilayer, hydrophobic fatty acid tails face inward toward each other, away from water, while hydrophilic heads face outward toward the aqueous environments inside and outside the cell. This arrangement is energetically favorable."
+    "explanation": "In the phospholipid bilayer, hydrophobic fatty acid tails face inward toward each other, away from water, while hydrophilic heads face outward toward the aqueous environments inside and outside the cell. This arrangement is energetically favorable.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q049",
@@ -5386,7 +5679,8 @@ window.APBIO_MCQ = [
       "It functions mainly in lipid storage and metabolism"
     ],
     "answer": 1,
-    "explanation": "The presence of ribosomes attached to an extensive membrane network describes the rough endoplasmic reticulum (rough ER), which is characteristic of cells specialized for protein synthesis and secretion. Choice A is a plausible misconception because membranes are involved in cellular respiration (inner mitochondrial membrane), but the rough ER specifically is not the site of energy production. Choice C is plausible but incorrect because the presence of membrane-bound organelles is a feature of eukaryotic cells generally and does not specifically indicate specialization for rapid division; rapid division is more associated with structural features like condensed chromosomes and mitotic spindle formation. Choice D would require the presence of abundant lipid droplets or a predominance of smooth ER rather than ribosome-studded rough ER."
+    "explanation": "The presence of ribosomes attached to an extensive membrane network describes the rough endoplasmic reticulum (rough ER), which is characteristic of cells specialized for protein synthesis and secretion. Choice A is a plausible misconception because membranes are involved in cellular respiration (inner mitochondrial membrane), but the rough ER specifically is not the site of energy production. Choice C is plausible but incorrect because the presence of membrane-bound organelles is a feature of eukaryotic cells generally and does not specifically indicate specialization for rapid division; rapid division is more associated with structural features like condensed chromosomes and mitotic spindle formation. Choice D would require the presence of abundant lipid droplets or a predominance of smooth ER rather than ribosome-studded rough ER.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q050",
@@ -5406,7 +5700,8 @@ window.APBIO_MCQ = [
       "Transport of materials between organelles"
     ],
     "answer": 2,
-    "explanation": "Peroxisomes are specialized for fatty acid oxidation and detoxification reactions, especially in liver cells. Choice A refers to mitochondrial function, B refers to ER function, and D refers to vesicular transport systems."
+    "explanation": "Peroxisomes are specialized for fatty acid oxidation and detoxification reactions, especially in liver cells. Choice A refers to mitochondrial function, B refers to ER function, and D refers to vesicular transport systems.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q051",
@@ -5426,7 +5721,8 @@ window.APBIO_MCQ = [
       "Add more membrane proteins to the lipid bilayer"
     ],
     "answer": 0,
-    "explanation": "Cholesterol acts as a fluidity buffer, preventing membranes from becoming too rigid at low temperatures. Choice B would make membranes more fluid but is not a typical cellular response, C would make membranes more rigid at low temperatures, and D doesn't address fluidity issues."
+    "explanation": "Cholesterol acts as a fluidity buffer, preventing membranes from becoming too rigid at low temperatures. Choice B would make membranes more fluid but is not a typical cellular response, C would make membranes more rigid at low temperatures, and D doesn't address fluidity issues.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q052",
@@ -5446,7 +5742,8 @@ window.APBIO_MCQ = [
       "These proteins are embedded only in the outer leaflet of the bilayer"
     ],
     "answer": 1,
-    "explanation": "Proteins can be restricted in their movement by attachments to cytoskeletal structures or extracellular matrix. Choice A describes normal protein-lipid interactions that don't prevent movement, C incorrectly suggests size determines mobility, and D describes an unusual protein orientation that doesn't explain immobility."
+    "explanation": "Proteins can be restricted in their movement by attachments to cytoskeletal structures or extracellular matrix. Choice A describes normal protein-lipid interactions that don't prevent movement, C incorrectly suggests size determines mobility, and D describes an unusual protein orientation that doesn't explain immobility.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q053",
@@ -5466,7 +5763,8 @@ window.APBIO_MCQ = [
       "Active transport using ATP"
     ],
     "answer": 2,
-    "explanation": "The saturation kinetics (plateau at high concentrations) indicates carrier-mediated transport, while the dependence on concentration gradient indicates passive transport. Simple diffusion (A) wouldn't show saturation, channels (B) rarely saturate, and active transport (D) can work against gradients."
+    "explanation": "The saturation kinetics (plateau at high concentrations) indicates carrier-mediated transport, while the dependence on concentration gradient indicates passive transport. Simple diffusion (A) wouldn't show saturation, channels (B) rarely saturate, and active transport (D) can work against gradients.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q054",
@@ -5486,7 +5784,8 @@ window.APBIO_MCQ = [
       "Both solutions B and C have lower solute concentrations than A"
     ],
     "answer": 1,
-    "explanation": "Cell swelling indicates a hypotonic environment (lower solute concentration), while crenation indicates a hypertonic environment (higher solute concentration). Solution A is isotonic. Choice A reverses the relationship, while C and D incorrectly suggest both solutions have the same relative concentration."
+    "explanation": "Cell swelling indicates a hypotonic environment (lower solute concentration), while crenation indicates a hypertonic environment (higher solute concentration). Solution A is isotonic. Choice A reverses the relationship, while C and D incorrectly suggest both solutions have the same relative concentration.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q055",
@@ -5506,7 +5805,8 @@ window.APBIO_MCQ = [
       "Strongly hypertonic to the cell contents"
     ],
     "answer": 2,
-    "explanation": "Loss of turgor pressure indicates water loss, meaning the solution is hypertonic. However, the absence of plasmolysis indicates the hypertonicity is mild. Choice A would cause swelling, B would maintain turgor, and D would cause plasmolysis."
+    "explanation": "Loss of turgor pressure indicates water loss, meaning the solution is hypertonic. However, the absence of plasmolysis indicates the hypertonicity is mild. Choice A would cause swelling, B would maintain turgor, and D would cause plasmolysis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q056",
@@ -5526,7 +5826,8 @@ window.APBIO_MCQ = [
       "Protein synthesis would stop due to loss of K+ ions"
     ],
     "answer": 2,
-    "explanation": "Without the pump, Na+ would accumulate inside the cell, increasing internal osmotic pressure and causing water influx and swelling. Choice A is incorrect as ATP production doesn't directly depend on this pump, B understates the osmotic consequences, and D incorrectly links K+ to protein synthesis."
+    "explanation": "Without the pump, Na+ would accumulate inside the cell, increasing internal osmotic pressure and causing water influx and swelling. Choice A is incorrect as ATP production doesn't directly depend on this pump, B understates the osmotic consequences, and D incorrectly links K+ to protein synthesis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q058",
@@ -5546,7 +5847,8 @@ window.APBIO_MCQ = [
       "Insulin would be secreted continuously without regulation"
     ],
     "answer": 1,
-    "explanation": "The Golgi apparatus is essential for processing and packaging proteins into secretory vesicles. Disrupting it would impair proper vesicle formation and protein processing, reducing secretion. Choice A suggests the opposite effect, C ignores the Golgi's role in secretion, and D describes a loss of regulation rather than processing."
+    "explanation": "The Golgi apparatus is essential for processing and packaging proteins into secretory vesicles. Disrupting it would impair proper vesicle formation and protein processing, reducing secretion. Choice A suggests the opposite effect, C ignores the Golgi's role in secretion, and D describes a loss of regulation rather than processing.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q059",
@@ -5566,7 +5868,8 @@ window.APBIO_MCQ = [
       "The number of mitochondria correlates with the amount of protein synthesis required"
     ],
     "answer": 1,
-    "explanation": "Structure follows function - cells with high energy demands like muscle cells have more mitochondria for ATP production. Cardiac muscle works continuously, requiring more energy than skeletal muscle. Choice A focuses on size rather than function, C incorrectly relates to age, and D confuses energy production with protein synthesis."
+    "explanation": "Structure follows function - cells with high energy demands like muscle cells have more mitochondria for ATP production. Cardiac muscle works continuously, requiring more energy than skeletal muscle. Choice A focuses on size rather than function, C incorrectly relates to age, and D confuses energy production with protein synthesis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q060",
@@ -5586,7 +5889,8 @@ window.APBIO_MCQ = [
       "Golgi apparatus, because protein modification and sorting would be prevented without signal sequences directing vesicle fusion"
     ],
     "answer": 1,
-    "explanation": "Signal sequences direct ribosomes to the rough ER during translation, allowing newly synthesized proteins to be cotranslationally inserted into or across the ER membrane. Without signal sequences, ribosomes remain free in the cytosol and cannot associate with the rough ER membrane, directly abolishing the synthesis of secreted proteins, membrane proteins, and proteins destined for the endomembrane system. Choice A is a misconception conflating signal sequences with membrane fluidity regulation, which is actually controlled by cholesterol and fatty acid composition. Choice C is incorrect because smooth ER lipid synthesis does not rely on signal sequences. Choice D is incorrect because Golgi processing is downstream of ER entry and would only be secondarily affected."
+    "explanation": "Signal sequences direct ribosomes to the rough ER during translation, allowing newly synthesized proteins to be cotranslationally inserted into or across the ER membrane. Without signal sequences, ribosomes remain free in the cytosol and cannot associate with the rough ER membrane, directly abolishing the synthesis of secreted proteins, membrane proteins, and proteins destined for the endomembrane system. Choice A is a misconception conflating signal sequences with membrane fluidity regulation, which is actually controlled by cholesterol and fatty acid composition. Choice C is incorrect because smooth ER lipid synthesis does not rely on signal sequences. Choice D is incorrect because Golgi processing is downstream of ER entry and would only be secondarily affected.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q061",
@@ -5606,7 +5910,8 @@ window.APBIO_MCQ = [
       "Prokaryotic cells have fewer ribosomes per cell than eukaryotic cells"
     ],
     "answer": 1,
-    "explanation": "In prokaryotes, the lack of nuclear compartmentalization allows translation to begin while transcription is still occurring, enabling rapid response to environmental changes. This significantly affects gene regulation compared to eukaryotes where transcription and translation are separated. The other choices describe structural differences with less regulatory impact."
+    "explanation": "In prokaryotes, the lack of nuclear compartmentalization allows translation to begin while transcription is still occurring, enabling rapid response to environmental changes. This significantly affects gene regulation compared to eukaryotes where transcription and translation are separated. The other choices describe structural differences with less regulatory impact.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q062",
@@ -5626,7 +5931,8 @@ window.APBIO_MCQ = [
       "Improved resistance to osmotic pressure changes"
     ],
     "answer": 2,
-    "explanation": "Unsaturated fatty acids have kinks that prevent tight packing, maintaining membrane fluidity at low temperatures. This is crucial for membrane function in cold environments. Choice A describes thickness rather than fluidity, B would require saturated fats, and D relates to osmotic regulation rather than temperature adaptation."
+    "explanation": "Unsaturated fatty acids have kinks that prevent tight packing, maintaining membrane fluidity at low temperatures. This is crucial for membrane function in cold environments. Choice A describes thickness rather than fluidity, B would require saturated fats, and D relates to osmotic regulation rather than temperature adaptation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q063",
@@ -5646,7 +5952,8 @@ window.APBIO_MCQ = [
       "All membrane proteins naturally cluster due to hydrophobic interactions"
     ],
     "answer": 1,
-    "explanation": "Protein clustering often reflects functional organization, where proteins with related functions associate to form complexes or organize into functional domains. This contradicts the original fluid mosaic model's assumption of random distribution. Choice A ignores functional significance, C incorrectly associates clustering with cell damage, and D overgeneralizes clustering."
+    "explanation": "Protein clustering often reflects functional organization, where proteins with related functions associate to form complexes or organize into functional domains. This contradicts the original fluid mosaic model's assumption of random distribution. Choice A ignores functional significance, C incorrectly associates clustering with cell damage, and D overgeneralizes clustering.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q064",
@@ -5666,7 +5973,8 @@ window.APBIO_MCQ = [
       "The membrane becomes more permeable to glucose during exercise"
     ],
     "answer": 1,
-    "explanation": "During exercise, insulin and muscle contraction stimulate the translocation of glucose transporters (GLUT4) from intracellular vesicles to the plasma membrane, increasing transport capacity. Choice A contradicts the given constant concentration, C incorrectly describes the transport type, and D suggests non-specific permeability changes."
+    "explanation": "During exercise, insulin and muscle contraction stimulate the translocation of glucose transporters (GLUT4) from intracellular vesicles to the plasma membrane, increasing transport capacity. Choice A contradicts the given constant concentration, C incorrectly describes the transport type, and D suggests non-specific permeability changes.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q065",
@@ -5686,7 +5994,8 @@ window.APBIO_MCQ = [
       "All water will move to side A, leaving side B empty"
     ],
     "answer": 0,
-    "explanation": "Water moves from the area of lower solute concentration (side B, 5% salt) to higher solute concentration (side A, 10% salt). This creates a pressure difference, with higher water level on side A. Choice B reverses the direction, C ignores the concentration difference, and D is an extreme that wouldn't occur."
+    "explanation": "Water moves from the area of lower solute concentration (side B, 5% salt) to higher solute concentration (side A, 10% salt). This creates a pressure difference, with higher water level on side A. Choice B reverses the direction, C ignores the concentration difference, and D is an extreme that wouldn't occur.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q066",
@@ -5706,7 +6015,8 @@ window.APBIO_MCQ = [
       "The cell produces more water through metabolic processes"
     ],
     "answer": 1,
-    "explanation": "Osmotic adaptation typically involves accumulating compatible solutes (like proline or sugars) to balance external osmotic pressure while maintaining cell function. Choice A addresses structure not osmotic balance, C is impossible for normal function, and D cannot produce enough water to counter osmotic loss."
+    "explanation": "Osmotic adaptation typically involves accumulating compatible solutes (like proline or sugars) to balance external osmotic pressure while maintaining cell function. Choice A addresses structure not osmotic balance, C is impossible for normal function, and D cannot produce enough water to counter osmotic loss.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q067",
@@ -5726,7 +6036,8 @@ window.APBIO_MCQ = [
       "Simple diffusion enhanced by membrane proteins"
     ],
     "answer": 1,
-    "explanation": "This describes secondary active transport (symport), where glucose transport against its gradient is powered by sodium moving down its gradient, which is maintained by the sodium-potassium pump. Choice A would require direct ATP use, C and D describe passive transport that couldn't work against gradients."
+    "explanation": "This describes secondary active transport (symport), where glucose transport against its gradient is powered by sodium moving down its gradient, which is maintained by the sodium-potassium pump. Choice A would require direct ATP use, C and D describe passive transport that couldn't work against gradients.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q068",
@@ -5746,7 +6057,8 @@ window.APBIO_MCQ = [
       "These are archaeal cells, which share characteristics with both prokaryotes and eukaryotes"
     ],
     "answer": 1,
-    "explanation": "The presence of 70S ribosomes (not 80S), nucleoid region instead of nucleus, mesosomes, and lack of membrane-bound organelles are all characteristic features of prokaryotic cells. The antibiotic sensitivity pattern confirms this. Choice A is wrong because eukaryotes have 80S ribosomes. Choice C is wrong because removing the nucleus wouldn't change ribosome size. Choice D is wrong because while archaea are prokaryotes, the evidence points to bacterial characteristics."
+    "explanation": "The presence of 70S ribosomes (not 80S), nucleoid region instead of nucleus, mesosomes, and lack of membrane-bound organelles are all characteristic features of prokaryotic cells. The antibiotic sensitivity pattern confirms this. Choice A is wrong because eukaryotes have 80S ribosomes. Choice C is wrong because removing the nucleus wouldn't change ribosome size. Choice D is wrong because while archaea are prokaryotes, the evidence points to bacterial characteristics.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q069",
@@ -5766,7 +6078,8 @@ window.APBIO_MCQ = [
       "The cell would immediately undergo apoptosis due to loss of membrane integrity"
     ],
     "answer": 1,
-    "explanation": "The Golgi apparatus modifies, packages, and ships proteins from the ER. Without functional Golgi, proteins synthesized in the ER cannot be processed or packaged for secretion, leading to accumulation in the ER and impaired secretion. Choice A is wrong because ribosomes function independently of Golgi. Choice C is wrong because lysosome formation, not activity, depends on Golgi. Choice D is wrong because Golgi loss alone doesn't immediately cause apoptosis."
+    "explanation": "The Golgi apparatus modifies, packages, and ships proteins from the ER. Without functional Golgi, proteins synthesized in the ER cannot be processed or packaged for secretion, leading to accumulation in the ER and impaired secretion. Choice A is wrong because ribosomes function independently of Golgi. Choice C is wrong because lysosome formation, not activity, depends on Golgi. Choice D is wrong because Golgi loss alone doesn't immediately cause apoptosis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q070",
@@ -5786,7 +6099,8 @@ window.APBIO_MCQ = [
       "Different types of phospholipids respond oppositely to cholesterol concentration"
     ],
     "answer": 1,
-    "explanation": "At low concentrations, cholesterol inserts between phospholipids and restricts their movement (decreasing fluidity). At very high concentrations, cholesterol molecules prevent phospholipids from packing too tightly together, which can slightly increase fluidity. Choice A is wrong because flip-flop doesn't explain the biphasic effect. Choice C is wrong because cholesterol's chemical structure doesn't change. Choice D is wrong because the effect depends on cholesterol concentration, not phospholipid types."
+    "explanation": "At low concentrations, cholesterol inserts between phospholipids and restricts their movement (decreasing fluidity). At very high concentrations, cholesterol molecules prevent phospholipids from packing too tightly together, which can slightly increase fluidity. Choice A is wrong because flip-flop doesn't explain the biphasic effect. Choice C is wrong because cholesterol's chemical structure doesn't change. Choice D is wrong because the effect depends on cholesterol concentration, not phospholipid types.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q071",
@@ -5806,7 +6120,8 @@ window.APBIO_MCQ = [
       "Equal amounts of water moved in both directions because glucose concentrations equalized"
     ],
     "answer": 2,
-    "explanation": "Solution A has total solute concentration of 0.5 M (0.3 + 0.2), while Solution B has 0.4 M (0.1 + 0.3). Water moves from lower to higher solute concentration, so water moved from B to A. Choice A reverses the direction. Choice B focuses incorrectly on glucose alone and gets direction wrong. Choice D is wrong because the membrane is impermeable to solutes, so concentrations cannot equalize."
+    "explanation": "Solution A has total solute concentration of 0.5 M (0.3 + 0.2), while Solution B has 0.4 M (0.1 + 0.3). Water moves from lower to higher solute concentration, so water moved from B to A. Choice A reverses the direction. Choice B focuses incorrectly on glucose alone and gets direction wrong. Choice D is wrong because the membrane is impermeable to solutes, so concentrations cannot equalize.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u2_q072",
@@ -5826,7 +6141,8 @@ window.APBIO_MCQ = [
       "Receptor clustering in membrane domains"
     ],
     "answer": 2,
-    "explanation": "The fact that LDL can be internalized but remains trapped in clathrin-coated vesicles indicates that vesicle formation occurs but subsequent processing is blocked. Uncoating vesicles and fusion with endosomes requires ATP-dependent processes. Choice A is wrong because receptor binding is typically ATP-independent. Choice B is wrong because the experiment shows vesicle formation still occurs. Choice D is wrong because receptor clustering can occur without ATP."
+    "explanation": "The fact that LDL can be internalized but remains trapped in clathrin-coated vesicles indicates that vesicle formation occurs but subsequent processing is blocked. Uncoating vesicles and fusion with endosomes requires ATP-dependent processes. Choice A is wrong because receptor binding is typically ATP-independent. Choice B is wrong because the experiment shows vesicle formation still occurs. Choice D is wrong because receptor clustering can occur without ATP.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q073",
@@ -5846,7 +6162,8 @@ window.APBIO_MCQ = [
       "Increase the temperature of the reaction environment"
     ],
     "answer": 0,
-    "explanation": "Enzymes lower activation energy by stabilizing the transition state. They don't provide energy (that's ATP's role), don't change equilibrium position (only reaction rate), and don't increase temperature."
+    "explanation": "Enzymes lower activation energy by stabilizing the transition state. They don't provide energy (that's ATP's role), don't change equilibrium position (only reaction rate), and don't increase temperature.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q074",
@@ -5866,7 +6183,8 @@ window.APBIO_MCQ = [
       "Release energy from the products"
     ],
     "answer": 0,
-    "explanation": "Activation energy is the minimum energy needed to reach the transition state and start the reaction. It's not the total energy to complete the reaction, break all bonds, or release energy from products."
+    "explanation": "Activation energy is the minimum energy needed to reach the transition state and start the reaction. It's not the total energy to complete the reaction, break all bonds, or release energy from products.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q075",
@@ -5886,7 +6204,8 @@ window.APBIO_MCQ = [
       "Increases the enzyme's affinity for the substrate"
     ],
     "answer": 0,
-    "explanation": "Competitive inhibitors compete with substrate for the same active site. Non-competitive inhibitors bind to allosteric sites, competitive inhibition is reversible (not permanent), and it decreases rather than increases substrate affinity."
+    "explanation": "Competitive inhibitors compete with substrate for the same active site. Non-competitive inhibitors bind to allosteric sites, competitive inhibition is reversible (not permanent), and it decreases rather than increases substrate affinity.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q076",
@@ -5906,7 +6225,8 @@ window.APBIO_MCQ = [
       "Overall molecular structure"
     ],
     "answer": 0,
-    "explanation": "ATP stores energy in the high-energy bonds between phosphate groups, especially the terminal phosphate bond. The ribose sugar and adenine base don't store the releasable energy, and the overall structure is too vague."
+    "explanation": "ATP stores energy in the high-energy bonds between phosphate groups, especially the terminal phosphate bond. The ribose sugar and adenine base don't store the releasable energy, and the overall structure is too vague.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q077",
@@ -5926,7 +6246,8 @@ window.APBIO_MCQ = [
       "Nucleus"
     ],
     "answer": 0,
-    "explanation": "Glycolysis occurs in the cytoplasm of cells. The Krebs cycle occurs in the mitochondrial matrix, electron transport chain occurs in the inner mitochondrial membrane, and the nucleus is not involved in cellular respiration."
+    "explanation": "Glycolysis occurs in the cytoplasm of cells. The Krebs cycle occurs in the mitochondrial matrix, electron transport chain occurs in the inner mitochondrial membrane, and the nucleus is not involved in cellular respiration.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q078",
@@ -5946,7 +6267,8 @@ window.APBIO_MCQ = [
       "Pyruvate and lactate"
     ],
     "answer": 0,
-    "explanation": "The Krebs cycle produces electron carriers (NADH, FADH2) and releases CO2 as waste. Glucose and oxygen are reactants in cellular respiration, ATP is mainly produced later in electron transport, and pyruvate/lactate are from glycolysis/fermentation."
+    "explanation": "The Krebs cycle produces electron carriers (NADH, FADH2) and releases CO2 as waste. Glucose and oxygen are reactants in cellular respiration, ATP is mainly produced later in electron transport, and pyruvate/lactate are from glycolysis/fermentation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q079",
@@ -5966,7 +6288,8 @@ window.APBIO_MCQ = [
       "Convert CO2 into organic compounds"
     ],
     "answer": 0,
-    "explanation": "The electron transport chain uses electron energy to pump protons, creating a gradient for ATP synthesis. It doesn't directly make glucose (that's photosynthesis), doesn't break down water (water is produced), and doesn't convert CO2 (that's Calvin cycle)."
+    "explanation": "The electron transport chain uses electron energy to pump protons, creating a gradient for ATP synthesis. It doesn't directly make glucose (that's photosynthesis), doesn't break down water (water is produced), and doesn't convert CO2 (that's Calvin cycle).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q080",
@@ -5986,7 +6309,8 @@ window.APBIO_MCQ = [
       "Glucose levels are too low in the cell"
     ],
     "answer": 0,
-    "explanation": "Fermentation is an anaerobic process that occurs when oxygen isn't available for aerobic respiration. It's not related to excess ATP, high temperature, or low glucose levels - it actually requires glucose as a starting material."
+    "explanation": "Fermentation is an anaerobic process that occurs when oxygen isn't available for aerobic respiration. It's not related to excess ATP, high temperature, or low glucose levels - it actually requires glucose as a starting material.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q081",
@@ -6006,7 +6330,8 @@ window.APBIO_MCQ = [
       "Remove carbon dioxide from the atmosphere"
     ],
     "answer": 0,
-    "explanation": "Photosynthesis converts light energy into chemical energy stored in glucose. Breaking down glucose is cellular respiration's function, oxygen production is a byproduct (not the main purpose), and CO2 removal is an environmental benefit but not the primary biological purpose."
+    "explanation": "Photosynthesis converts light energy into chemical energy stored in glucose. Breaking down glucose is cellular respiration's function, oxygen production is a byproduct (not the main purpose), and CO2 removal is an environmental benefit but not the primary biological purpose.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q082",
@@ -6026,7 +6351,8 @@ window.APBIO_MCQ = [
       "Nucleus of plant cells"
     ],
     "answer": 0,
-    "explanation": "Light reactions occur in the thylakoid membranes where chlorophyll captures light energy. The Calvin cycle occurs in the stroma, glycolysis occurs in cytoplasm, and the nucleus doesn't participate in photosynthesis."
+    "explanation": "Light reactions occur in the thylakoid membranes where chlorophyll captures light energy. The Calvin cycle occurs in the stroma, glycolysis occurs in cytoplasm, and the nucleus doesn't participate in photosynthesis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q083",
@@ -6046,7 +6372,8 @@ window.APBIO_MCQ = [
       "Light energy"
     ],
     "answer": 0,
-    "explanation": "The Calvin cycle fixes CO2 into organic molecules like glucose using ATP and NADPH from light reactions. ATP and NADPH are inputs (not products), oxygen and water are from light reactions, and light energy is captured in light reactions."
+    "explanation": "The Calvin cycle fixes CO2 into organic molecules like glucose using ATP and NADPH from light reactions. ATP and NADPH are inputs (not products), oxygen and water are from light reactions, and light energy is captured in light reactions.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q084",
@@ -6066,7 +6393,8 @@ window.APBIO_MCQ = [
       "Irreversible inhibition"
     ],
     "answer": 0,
-    "explanation": "This describes competitive inhibition where the inhibitor competes with substrate for the active site. Increased Km (lower substrate affinity) with unchanged Vmax, plus the ability to overcome inhibition with excess substrate, are hallmarks of competitive inhibition. Noncompetitive inhibition would decrease Vmax. Uncompetitive inhibition decreases both Km and Vmax. Irreversible inhibition cannot be overcome by adding substrate."
+    "explanation": "This describes competitive inhibition where the inhibitor competes with substrate for the active site. Increased Km (lower substrate affinity) with unchanged Vmax, plus the ability to overcome inhibition with excess substrate, are hallmarks of competitive inhibition. Noncompetitive inhibition would decrease Vmax. Uncompetitive inhibition decreases both Km and Vmax. Irreversible inhibition cannot be overcome by adding substrate.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q085",
@@ -6086,7 +6414,8 @@ window.APBIO_MCQ = [
       "A spontaneous reaction coupled with a non-spontaneous reaction via a shared intermediate"
     ],
     "answer": 0,
-    "explanation": "ATP synthase couples the exergonic flow of protons (down their electrochemical gradient) with the endergonic synthesis of ATP from ADP + Pi. This is classic reaction coupling where a favorable reaction drives an unfavorable one. Choice B is wrong because ATP synthesis is endergonic. Choice C incorrectly states both reactions are endergonic. Choice D is incorrect because there's no shared chemical intermediate - it's energy coupling through conformational changes."
+    "explanation": "ATP synthase couples the exergonic flow of protons (down their electrochemical gradient) with the endergonic synthesis of ATP from ADP + Pi. This is classic reaction coupling where a favorable reaction drives an unfavorable one. Choice B is wrong because ATP synthesis is endergonic. Choice C incorrectly states both reactions are endergonic. Choice D is incorrect because there's no shared chemical intermediate - it's energy coupling through conformational changes.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q086",
@@ -6106,7 +6435,8 @@ window.APBIO_MCQ = [
       "Glycolysis would stop completely because fermentation would begin"
     ],
     "answer": 1,
-    "explanation": "High ATP levels inhibit phosphofructokinase (PFK), the rate-limiting enzyme of glycolysis, through negative feedback inhibition. This prevents overproduction of ATP when energy is abundant. Choice A is wrong because high ATP signals sufficient energy. Choice C ignores feedback regulation. Choice D is incorrect because fermentation occurs when oxygen is absent, and high ATP would actually prevent the need for fermentation."
+    "explanation": "High ATP levels inhibit phosphofructokinase (PFK), the rate-limiting enzyme of glycolysis, through negative feedback inhibition. This prevents overproduction of ATP when energy is abundant. Choice A is wrong because high ATP signals sufficient energy. Choice C ignores feedback regulation. Choice D is incorrect because fermentation occurs when oxygen is absent, and high ATP would actually prevent the need for fermentation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q087",
@@ -6126,7 +6456,8 @@ window.APBIO_MCQ = [
       "Activity would decrease because the cell would switch to anaerobic respiration"
     ],
     "answer": 1,
-    "explanation": "When a cell needs energy, ATP is rapidly consumed and converted to ADP. Higher ADP levels activate isocitrate dehydrogenase, speeding up the Krebs cycle to produce more NADH and FADH2 for ATP synthesis. Choice A is backwards - high energy demand depletes ATP initially. Choice C ignores the stated allosteric regulation. Choice D is wrong because oxygen availability, not energy demand alone, determines aerobic vs anaerobic respiration."
+    "explanation": "When a cell needs energy, ATP is rapidly consumed and converted to ADP. Higher ADP levels activate isocitrate dehydrogenase, speeding up the Krebs cycle to produce more NADH and FADH2 for ATP synthesis. Choice A is backwards - high energy demand depletes ATP initially. Choice C ignores the stated allosteric regulation. Choice D is wrong because oxygen availability, not energy demand alone, determines aerobic vs anaerobic respiration.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q088",
@@ -6146,7 +6477,8 @@ window.APBIO_MCQ = [
       "Lactic acid is needed as an energy source for continued muscle contraction"
     ],
     "answer": 2,
-    "explanation": "During intense exercise, oxygen becomes limiting but muscle cells need continued ATP production. Fermentation regenerates NAD+ from NADH, allowing glycolysis to continue producing ATP anaerobically. Choice A is wrong because oxygen is limited, not completely absent. Choice B is incorrect because fermentation produces much less ATP (2 vs ~30). Choice D is wrong because lactic acid is a waste product, not an energy source."
+    "explanation": "During intense exercise, oxygen becomes limiting but muscle cells need continued ATP production. Fermentation regenerates NAD+ from NADH, allowing glycolysis to continue producing ATP anaerobically. Choice A is wrong because oxygen is limited, not completely absent. Choice B is incorrect because fermentation produces much less ATP (2 vs ~30). Choice D is wrong because lactic acid is a waste product, not an energy source.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q089",
@@ -6166,7 +6498,8 @@ window.APBIO_MCQ = [
       "Electrons create the proton gradient, protons reduce NADP+, oxygen becomes part of glucose"
     ],
     "answer": 2,
-    "explanation": "Water splitting replaces electrons lost by chlorophyll in PSII when it absorbs light. The protons contribute to the thylakoid gradient used for ATP synthesis. Oxygen atoms combine to form O2 gas that is released. Choice A incorrectly states electrons directly reduce NADP+ (they do so indirectly after passing through the electron transport chain). Choice B wrongly assigns proton function. Choice D misassigns electron and proton roles and incorrectly states oxygen's fate."
+    "explanation": "Water splitting replaces electrons lost by chlorophyll in PSII when it absorbs light. The protons contribute to the thylakoid gradient used for ATP synthesis. Oxygen atoms combine to form O2 gas that is released. Choice A incorrectly states electrons directly reduce NADP+ (they do so indirectly after passing through the electron transport chain). Choice B wrongly assigns proton function. Choice D misassigns electron and proton roles and incorrectly states oxygen's fate.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q090",
@@ -6186,7 +6519,8 @@ window.APBIO_MCQ = [
       "They are transported out of the chloroplast to make glucose in the cytoplasm"
     ],
     "answer": 1,
-    "explanation": "The Calvin cycle produces 6 G3P molecules from 3 CO2, but only 1 G3P exits. The other 5 G3P molecules are rearranged using additional ATP to regenerate the 3 RuBP molecules needed to accept more CO2. Choice A is wrong because glucose synthesis requires additional energy and occurs outside the Calvin cycle proper. Choice C would waste the energy invested in fixation. Choice D describes only the 1 G3P that exits, not the other 5."
+    "explanation": "The Calvin cycle produces 6 G3P molecules from 3 CO2, but only 1 G3P exits. The other 5 G3P molecules are rearranged using additional ATP to regenerate the 3 RuBP molecules needed to accept more CO2. Choice A is wrong because glucose synthesis requires additional energy and occurs outside the Calvin cycle proper. Choice C would waste the energy invested in fixation. Choice D describes only the 1 G3P that exits, not the other 5.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q091",
@@ -6206,7 +6540,8 @@ window.APBIO_MCQ = [
       "The graph would show an inverse relationship where higher substrate concentration decreases velocity"
     ],
     "answer": 1,
-    "explanation": "Cooperative binding produces a sigmoidal curve because initial substrate binding is slow (low affinity), but as more binding sites become occupied, affinity increases dramatically, causing a sharp rise in velocity. Choice A describes non-cooperative binding. Choice C would indicate the enzyme is never saturated. Choice D describes inhibition, not cooperative binding."
+    "explanation": "Cooperative binding produces a sigmoidal curve because initial substrate binding is slow (low affinity), but as more binding sites become occupied, affinity increases dramatically, causing a sharp rise in velocity. Choice A describes non-cooperative binding. Choice C would indicate the enzyme is never saturated. Choice D describes inhibition, not cooperative binding.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q092",
@@ -6226,7 +6561,8 @@ window.APBIO_MCQ = [
       "The reaction rates cannot be compared without knowing the enzyme concentrations"
     ],
     "answer": 0,
-    "explanation": "Lower activation energy means more molecules have sufficient energy to react at a given temperature, resulting in faster reaction rates. This follows the Arrhenius equation where rate increases exponentially with decreasing activation energy. Choice B incorrectly interprets activation energy as available energy. Choice C confuses activation energy with overall energy change (ΔG). Choice D is irrelevant to the fundamental relationship between Ea and rate."
+    "explanation": "Lower activation energy means more molecules have sufficient energy to react at a given temperature, resulting in faster reaction rates. This follows the Arrhenius equation where rate increases exponentially with decreasing activation energy. Choice B incorrectly interprets activation energy as available energy. Choice C confuses activation energy with overall energy change (ΔG). Choice D is irrelevant to the fundamental relationship between Ea and rate.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q093",
@@ -6246,7 +6582,8 @@ window.APBIO_MCQ = [
       "Enzyme induction to increase production when substrate is abundant"
     ],
     "answer": 1,
-    "explanation": "This describes negative feedback inhibition where the end product (D) inhibits the first enzyme to prevent overproduction when sufficient product is present. This is efficient regulation that conserves resources. Choice A describes a different mechanism and wrong purpose. Choice C describes activation, not inhibition. Choice D describes transcriptional control, not direct enzyme inhibition."
+    "explanation": "This describes negative feedback inhibition where the end product (D) inhibits the first enzyme to prevent overproduction when sufficient product is present. This is efficient regulation that conserves resources. Choice A describes a different mechanism and wrong purpose. Choice C describes activation, not inhibition. Choice D describes transcriptional control, not direct enzyme inhibition.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q094",
@@ -6266,7 +6603,8 @@ window.APBIO_MCQ = [
       "ATP contains more phosphate groups than other energy-carrying molecules"
     ],
     "answer": 1,
-    "explanation": "ATP releases an intermediate amount of energy (~30.5 kJ/mol) that matches the energy requirements of most cellular processes. Very high-energy molecules like PEP would waste energy in reactions requiring less, while very low-energy molecules couldn't drive endergonic reactions. Choice A is wrong because ATP does hydrolyze spontaneously. Choice C is incorrect as many molecules can be regenerated. Choice D is factually wrong and irrelevant to energy considerations."
+    "explanation": "ATP releases an intermediate amount of energy (~30.5 kJ/mol) that matches the energy requirements of most cellular processes. Very high-energy molecules like PEP would waste energy in reactions requiring less, while very low-energy molecules couldn't drive endergonic reactions. Choice A is wrong because ATP does hydrolyze spontaneously. Choice C is incorrect as many molecules can be regenerated. Choice D is factually wrong and irrelevant to energy considerations.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q095",
@@ -6286,7 +6624,8 @@ window.APBIO_MCQ = [
       "It creates the NADH molecules that are essential for the pathway to continue"
     ],
     "answer": 0,
-    "explanation": "Phosphorylating glucose serves multiple purposes: it activates glucose for subsequent reactions, prevents it from leaving the cell (glucose-6-phosphate can't cross the membrane), and commits it to metabolism rather than storage. Choice B is wrong because phosphate comes from other sources too. Choice C is incorrect as this isn't the primary regulation point for glycogen synthesis. Choice D is wrong because NADH is produced in later steps, not from hexokinase."
+    "explanation": "Phosphorylating glucose serves multiple purposes: it activates glucose for subsequent reactions, prevents it from leaving the cell (glucose-6-phosphate can't cross the membrane), and commits it to metabolism rather than storage. Choice B is wrong because phosphate comes from other sources too. Choice C is incorrect as this isn't the primary regulation point for glycogen synthesis. Choice D is wrong because NADH is produced in later steps, not from hexokinase.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q096",
@@ -6306,7 +6645,8 @@ window.APBIO_MCQ = [
       "The cycle would continue normally because other enzymes could compensate for the inhibition"
     ],
     "answer": 1,
-    "explanation": "Malonate acts as a competitive inhibitor of succinate dehydrogenase, slowing the conversion of succinate to fumarate. This would cause succinate to build up behind the block and fumarate levels to drop downstream. Choice A is wrong because the cycle wouldn't stop completely with competitive inhibition. Choice C incorrectly suggests malonate is a substrate rather than inhibitor. Choice D is wrong because each enzyme has a specific reaction that others cannot perform."
+    "explanation": "Malonate acts as a competitive inhibitor of succinate dehydrogenase, slowing the conversion of succinate to fumarate. This would cause succinate to build up behind the block and fumarate levels to drop downstream. Choice A is wrong because the cycle wouldn't stop completely with competitive inhibition. Choice C incorrectly suggests malonate is a substrate rather than inhibitor. Choice D is wrong because each enzyme has a specific reaction that others cannot perform.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q097",
@@ -6326,7 +6666,8 @@ window.APBIO_MCQ = [
       "Multiple complexes are needed to transport protons across the membrane efficiently"
     ],
     "answer": 1,
-    "explanation": "Breaking the energy release into smaller steps allows cells to capture energy efficiently at each step to pump protons and build the gradient for ATP synthesis. If all energy were released at once, most would be lost as heat. Choice A is wrong because oxygen can accept electrons from many sources. Choice C doesn't explain why gradual release is beneficial. Choice D describes a result, not the reason for multiple steps."
+    "explanation": "Breaking the energy release into smaller steps allows cells to capture energy efficiently at each step to pump protons and build the gradient for ATP synthesis. If all energy were released at once, most would be lost as heat. Choice A is wrong because oxygen can accept electrons from many sources. Choice C doesn't explain why gradual release is beneficial. Choice D describes a result, not the reason for multiple steps.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q098",
@@ -6346,7 +6687,8 @@ window.APBIO_MCQ = [
       "ATP production would stop completely because oxygen is required for all ATP synthesis"
     ],
     "answer": 2,
-    "explanation": "Under aerobic conditions, yeast produces ~30-32 ATP per glucose through complete cellular respiration. Under anaerobic conditions, only glycolysis occurs (producing 2 ATP per glucose), with fermentation serving only to regenerate NAD+. Choice A is backwards - fermentation is much less efficient. Choice B ignores the major difference in ATP yield. Choice D is wrong because glycolysis produces ATP without oxygen."
+    "explanation": "Under aerobic conditions, yeast produces ~30-32 ATP per glucose through complete cellular respiration. Under anaerobic conditions, only glycolysis occurs (producing 2 ATP per glucose), with fermentation serving only to regenerate NAD+. Choice A is backwards - fermentation is much less efficient. Choice B ignores the major difference in ATP yield. Choice D is wrong because glycolysis produces ATP without oxygen.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q099",
@@ -6366,7 +6708,8 @@ window.APBIO_MCQ = [
       "High humidity and moderate temperatures with abundant water"
     ],
     "answer": 1,
-    "explanation": "C4 plants have an advantage in hot, dry, bright conditions where C3 plants would suffer from photorespiration. High temperatures favor the oxygenase activity of RuBisCO, and water stress forces stomatal closure, reducing CO2 availability - both problems that C4 plants' CO2-concentrating mechanism helps overcome. Choice A describes conditions favoring C3 plants. Choice C describes conditions where the C4 advantage is minimal. Choice D also favors C3 plants."
+    "explanation": "C4 plants have an advantage in hot, dry, bright conditions where C3 plants would suffer from photorespiration. High temperatures favor the oxygenase activity of RuBisCO, and water stress forces stomatal closure, reducing CO2 availability - both problems that C4 plants' CO2-concentrating mechanism helps overcome. Choice A describes conditions favoring C3 plants. Choice C describes conditions where the C4 advantage is minimal. Choice D also favors C3 plants.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q101",
@@ -6386,7 +6729,8 @@ window.APBIO_MCQ = [
       "Glycolysis would switch to using FAD as an electron acceptor"
     ],
     "answer": 0,
-    "explanation": "Glycolysis requires NAD+ at the glyceraldehyde-3-phosphate dehydrogenase step to accept electrons. Without NAD+, this step cannot proceed and glycolysis stops. Choice B incorrectly suggests NADH can substitute for NAD+, C misunderstands feedback mechanisms, and D confuses glycolysis with other metabolic pathways that use FAD."
+    "explanation": "Glycolysis requires NAD+ at the glyceraldehyde-3-phosphate dehydrogenase step to accept electrons. Without NAD+, this step cannot proceed and glycolysis stops. Choice B incorrectly suggests NADH can substitute for NAD+, C misunderstands feedback mechanisms, and D confuses glycolysis with other metabolic pathways that use FAD.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q102",
@@ -6406,7 +6750,8 @@ window.APBIO_MCQ = [
       "The gradient would increase because protons cannot flow back"
     ],
     "answer": 2,
-    "explanation": "Blocking Complex III stops electron transport and proton pumping at that complex and prevents Complex IV from functioning. The existing proton gradient would persist initially but gradually dissipate as protons leak back across the membrane without being replenished. Choice A suggests immediate collapse, B incorrectly implies Complex II pumps protons, and D confuses blocking electron transport with blocking ATP synthase."
+    "explanation": "Blocking Complex III stops electron transport and proton pumping at that complex and prevents Complex IV from functioning. The existing proton gradient would persist initially but gradually dissipate as protons leak back across the membrane without being replenished. Choice A suggests immediate collapse, B incorrectly implies Complex II pumps protons, and D confuses blocking electron transport with blocking ATP synthase.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q103",
@@ -6426,7 +6771,8 @@ window.APBIO_MCQ = [
       "All available NAD+ has been permanently consumed"
     ],
     "answer": 1,
-    "explanation": "Alcoholic fermentation produces ethanol as a waste product, which becomes toxic to yeast cells at high concentrations and inhibits fermentation enzymes. Choice A incorrectly states fermentation needs oxygen, C confuses different types of fermentation (yeast doesn't do lactic acid fermentation), and D misunderstands that NAD+ is recycled during fermentation."
+    "explanation": "Alcoholic fermentation produces ethanol as a waste product, which becomes toxic to yeast cells at high concentrations and inhibits fermentation enzymes. Choice A incorrectly states fermentation needs oxygen, C confuses different types of fermentation (yeast doesn't do lactic acid fermentation), and D misunderstands that NAD+ is recycled during fermentation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u3_q104",
@@ -6446,7 +6792,8 @@ window.APBIO_MCQ = [
       "RuBP levels will decrease while 3-PGA levels will increase"
     ],
     "answer": 1,
-    "explanation": "Without CO2, RuBisCO cannot fix carbon, so RuBP cannot be converted to 3-PGA, causing RuBP to accumulate. Meanwhile, existing 3-PGA continues to be processed through the cycle, depleting its levels. The light reactions continue providing ATP and NADPH to regenerate RuBP from the remaining cycle intermediates. Other choices misunderstand the specific step that becomes blocked and its effects on cycle intermediates."
+    "explanation": "Without CO2, RuBisCO cannot fix carbon, so RuBP cannot be converted to 3-PGA, causing RuBP to accumulate. Meanwhile, existing 3-PGA continues to be processed through the cycle, depleting its levels. The light reactions continue providing ATP and NADPH to regenerate RuBP from the remaining cycle intermediates. Other choices misunderstand the specific step that becomes blocked and its effects on cycle intermediates.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q105",
@@ -6466,7 +6813,8 @@ window.APBIO_MCQ = [
       "Signal amplification"
     ],
     "answer": 0,
-    "explanation": "Signal reception is the first step where a signaling molecule binds to a receptor protein. Signal transduction follows reception, cellular response is the final step, and amplification occurs during transduction."
+    "explanation": "Signal reception is the first step where a signaling molecule binds to a receptor protein. Signal transduction follows reception, cellular response is the final step, and amplification occurs during transduction.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q106",
@@ -6486,7 +6834,8 @@ window.APBIO_MCQ = [
       "Tyrosine kinase receptor"
     ],
     "answer": 2,
-    "explanation": "Steroid hormone receptors are intracellular because steroid hormones are lipophilic and can cross the plasma membrane. G protein-coupled receptors, ion channels, and tyrosine kinase receptors are all membrane-bound receptors."
+    "explanation": "Steroid hormone receptors are intracellular because steroid hormones are lipophilic and can cross the plasma membrane. G protein-coupled receptors, ion channels, and tyrosine kinase receptors are all membrane-bound receptors.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q107",
@@ -6506,7 +6855,8 @@ window.APBIO_MCQ = [
       "Glucose"
     ],
     "answer": 0,
-    "explanation": "cAMP (cyclic adenosine monophosphate) is a classic second messenger that amplifies signals inside cells. ATP is an energy molecule, DNA stores genetic information, and glucose is a sugar used for energy."
+    "explanation": "cAMP (cyclic adenosine monophosphate) is a classic second messenger that amplifies signals inside cells. ATP is an energy molecule, DNA stores genetic information, and glucose is a sugar used for energy.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q108",
@@ -6526,7 +6876,8 @@ window.APBIO_MCQ = [
       "M phase"
     ],
     "answer": 0,
-    "explanation": "DNA replication occurs during S phase (synthesis phase). G1 is cell growth before replication, G2 is growth after replication, and M phase is mitosis where the cell divides."
+    "explanation": "DNA replication occurs during S phase (synthesis phase). G1 is cell growth before replication, G2 is growth after replication, and M phase is mitosis where the cell divides.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q109",
@@ -6546,7 +6897,8 @@ window.APBIO_MCQ = [
       "Nuclear envelope reforms"
     ],
     "answer": 0,
-    "explanation": "During metaphase, chromosomes align at the metaphase plate (cell's equator). Chromosome condensation occurs in prophase, sister chromatid separation occurs in anaphase, and nuclear envelope reformation occurs in telophase."
+    "explanation": "During metaphase, chromosomes align at the metaphase plate (cell's equator). Chromosome condensation occurs in prophase, sister chromatid separation occurs in anaphase, and nuclear envelope reformation occurs in telophase.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q110",
@@ -6566,7 +6918,8 @@ window.APBIO_MCQ = [
       "They replicate chromosomes"
     ],
     "answer": 0,
-    "explanation": "Cyclins bind to and activate CDK (cyclin-dependent kinase) proteins to drive cell cycle progression. They don't destroy DNA, stop division permanently, or replicate chromosomes directly."
+    "explanation": "Cyclins bind to and activate CDK (cyclin-dependent kinase) proteins to drive cell cycle progression. They don't destroy DNA, stop division permanently, or replicate chromosomes directly.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q111",
@@ -6586,7 +6939,8 @@ window.APBIO_MCQ = [
       "Cell membrane formation"
     ],
     "answer": 0,
-    "explanation": "Apoptosis is programmed cell death, a normal process that removes damaged or unnecessary cells. Uncontrolled cell growth describes cancer, DNA replication occurs during S phase, and membrane formation is part of cytokinesis."
+    "explanation": "Apoptosis is programmed cell death, a normal process that removes damaged or unnecessary cells. Uncontrolled cell growth describes cancer, DNA replication occurs during S phase, and membrane formation is part of cytokinesis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q112",
@@ -6606,7 +6960,8 @@ window.APBIO_MCQ = [
       "They have enhanced DNA repair"
     ],
     "answer": 0,
-    "explanation": "Cancer cells divide uncontrollably due to mutations affecting cell cycle regulation. They actually resist apoptosis, ignore normal growth signals, and often have defective DNA repair mechanisms."
+    "explanation": "Cancer cells divide uncontrollably due to mutations affecting cell cycle regulation. They actually resist apoptosis, ignore normal growth signals, and often have defective DNA repair mechanisms.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q113",
@@ -6626,7 +6981,8 @@ window.APBIO_MCQ = [
       "To prevent DNA replication"
     ],
     "answer": 0,
-    "explanation": "Cell cycle checkpoints ensure proper progression by checking for DNA damage, proper chromosome attachment, etc. They actually slow down or stop division when problems are detected, reduce mutations, and allow DNA replication when conditions are right."
+    "explanation": "Cell cycle checkpoints ensure proper progression by checking for DNA damage, proper chromosome attachment, etc. They actually slow down or stop division when problems are detected, reduce mutations, and allow DNA replication when conditions are right.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q114",
@@ -6646,7 +7002,8 @@ window.APBIO_MCQ = [
       "Gases like oxygen"
     ],
     "answer": 2,
-    "explanation": "Water-soluble hormones cannot cross the lipid bilayer directly and need membrane receptors. Steroid hormones, lipids, and small gases can cross membranes due to their chemical properties."
+    "explanation": "Water-soluble hormones cannot cross the lipid bilayer directly and need membrane receptors. Steroid hormones, lipids, and small gases can cross membranes due to their chemical properties.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q115",
@@ -6666,7 +7023,8 @@ window.APBIO_MCQ = [
       "The cell immediately divides"
     ],
     "answer": 2,
-    "explanation": "When a signaling molecule binds to a receptor, the receptor undergoes a conformational change (shape change) that initiates the cellular response. The receptor is not destroyed, the molecule isn't always internalized, and the cell doesn't immediately divide."
+    "explanation": "When a signaling molecule binds to a receptor, the receptor undergoes a conformational change (shape change) that initiates the cellular response. The receptor is not destroyed, the molecule isn't always internalized, and the cell doesn't immediately divide.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q116",
@@ -6686,7 +7044,8 @@ window.APBIO_MCQ = [
       "Four"
     ],
     "answer": 2,
-    "explanation": "Mitosis produces two genetically identical daughter cells from one parent cell. One cell would mean no division occurred, three is not typical for mitosis, and four daughter cells are produced in meiosis, not mitosis."
+    "explanation": "Mitosis produces two genetically identical daughter cells from one parent cell. One cell would mean no division occurred, three is not typical for mitosis, and four daughter cells are produced in meiosis, not mitosis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q117",
@@ -6706,7 +7065,8 @@ window.APBIO_MCQ = [
       "Steroid hormone signaling"
     ],
     "answer": 2,
-    "explanation": "This describes a second messenger system where cAMP acts as the second messenger. Direct gene regulation involves transcription factors, RTK pathways involve phosphorylation cascades, and steroid hormones pass through membranes to bind intracellular receptors."
+    "explanation": "This describes a second messenger system where cAMP acts as the second messenger. Direct gene regulation involves transcription factors, RTK pathways involve phosphorylation cascades, and steroid hormones pass through membranes to bind intracellular receptors.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q118",
@@ -6726,7 +7086,8 @@ window.APBIO_MCQ = [
       "G0 checkpoint; the cell would never divide again"
     ],
     "answer": 2,
-    "explanation": "The G2/M checkpoint specifically checks for DNA damage before allowing entry into mitosis. If it fails, damaged DNA would be passed to daughter cells. The G1/S checkpoint checks for DNA damage before replication, the spindle checkpoint ensures proper chromosome attachment, and G0 is a quiescent state, not a checkpoint."
+    "explanation": "The G2/M checkpoint specifically checks for DNA damage before allowing entry into mitosis. If it fails, damaged DNA would be passed to daughter cells. The G1/S checkpoint checks for DNA damage before replication, the spindle checkpoint ensures proper chromosome attachment, and G0 is a quiescent state, not a checkpoint.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q119",
@@ -6746,7 +7107,8 @@ window.APBIO_MCQ = [
       "Cyclin B is converted to cyclin A during mitosis"
     ],
     "answer": 0,
-    "explanation": "Cyclin B accumulates during S and G2 phases through synthesis, then is rapidly degraded by the ubiquitin-proteasome system during mitosis to allow exit from M phase. Cyclins are not recycled between phases, CDKs don't destroy cyclins, and cyclins are not converted to other cyclins."
+    "explanation": "Cyclin B accumulates during S and G2 phases through synthesis, then is rapidly degraded by the ubiquitin-proteasome system during mitosis to allow exit from M phase. Cyclins are not recycled between phases, CDKs don't destroy cyclins, and cyclins are not converted to other cyclins.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q120",
@@ -6766,7 +7128,8 @@ window.APBIO_MCQ = [
       "Autophagy in response to starvation"
     ],
     "answer": 2,
-    "explanation": "These characteristics (DNA fragmentation, shrinkage, membrane blebs, no inflammation) are hallmarks of apoptosis. Necrosis causes inflammation and cell swelling, mitosis wouldn't cause these changes, and autophagy involves organelle degradation but not these specific cellular changes."
+    "explanation": "These characteristics (DNA fragmentation, shrinkage, membrane blebs, no inflammation) are hallmarks of apoptosis. Necrosis causes inflammation and cell swelling, mitosis wouldn't cause these changes, and autophagy involves organelle degradation but not these specific cellular changes.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q121",
@@ -6786,7 +7149,8 @@ window.APBIO_MCQ = [
       "Cells would undergo apoptosis too frequently"
     ],
     "answer": 2,
-    "explanation": "p53 is a tumor suppressor that halts the cell cycle when DNA damage is detected and can trigger apoptosis. Without functional p53, damaged cells continue dividing, leading to cancer. Loss of p53 doesn't slow division, affect growth signal response, or increase apoptosis."
+    "explanation": "p53 is a tumor suppressor that halts the cell cycle when DNA damage is detected and can trigger apoptosis. Without functional p53, damaged cells continue dividing, leading to cancer. Loss of p53 doesn't slow division, affect growth signal response, or increase apoptosis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q122",
@@ -6806,7 +7170,8 @@ window.APBIO_MCQ = [
       "They destroy the IP3 to terminate the signal"
     ],
     "answer": 1,
-    "explanation": "Calcium acts as a second messenger by binding to and activating various proteins like calmodulin, which then activate other enzymes, amplifying the signal. Calcium doesn't directly bind DNA for gene regulation, doesn't transport signal molecules, and doesn't destroy IP3."
+    "explanation": "Calcium acts as a second messenger by binding to and activating various proteins like calmodulin, which then activate other enzymes, amplifying the signal. Calcium doesn't directly bind DNA for gene regulation, doesn't transport signal molecules, and doesn't destroy IP3.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q123",
@@ -6826,7 +7191,8 @@ window.APBIO_MCQ = [
       "Telophase; nuclear envelope reformation separates chromatids"
     ],
     "answer": 1,
-    "explanation": "Sister chromatids separate during anaphase when cohesin proteins holding them together are degraded. The spindle checkpoint occurs in metaphase before separation, condensin helps with chromosome condensation in prophase, and telophase involves nuclear envelope reformation after separation."
+    "explanation": "Sister chromatids separate during anaphase when cohesin proteins holding them together are degraded. The spindle checkpoint occurs in metaphase before separation, condensin helps with chromosome condensation in prophase, and telophase involves nuclear envelope reformation after separation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q124",
@@ -6846,7 +7212,8 @@ window.APBIO_MCQ = [
       "Second messengers are being produced in excess"
     ],
     "answer": 1,
-    "explanation": "If the signal is present but the cell doesn't respond, the most likely issue is with signal reception - either no receptor or a non-functional receptor. Rapid signal degradation would be a signal problem, rapid transcription would indicate the pathway is working, and excess second messengers would amplify, not block, the response."
+    "explanation": "If the signal is present but the cell doesn't respond, the most likely issue is with signal reception - either no receptor or a non-functional receptor. Rapid signal degradation would be a signal problem, rapid transcription would indicate the pathway is working, and excess second messengers would amplify, not block, the response.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q125",
@@ -6866,7 +7233,8 @@ window.APBIO_MCQ = [
       "50 cells"
     ],
     "answer": 1,
-    "explanation": "Total cycle time is 20 hours, S phase is 6 hours. 6/20 = 0.3 or 30% of cells would be in S phase at any given time. This represents 30 out of 100 cells. Students often incorrectly assume equal distribution across phases or calculate incorrectly."
+    "explanation": "Total cycle time is 20 hours, S phase is 6 hours. 6/20 = 0.3 or 30% of cells would be in S phase at any given time. This represents 30 out of 100 cells. Students often incorrectly assume equal distribution across phases or calculate incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q126",
@@ -6886,7 +7254,8 @@ window.APBIO_MCQ = [
       "It ensures the signal can only affect one specific target protein"
     ],
     "answer": 1,
-    "explanation": "Signal amplification is the key advantage - each activated kinase can phosphorylate many downstream kinases, multiplying the signal. This doesn't necessarily increase speed, doesn't prevent accidental activation, and actually allows multiple targets to be affected."
+    "explanation": "Signal amplification is the key advantage - each activated kinase can phosphorylate many downstream kinases, multiplying the signal. This doesn't necessarily increase speed, doesn't prevent accidental activation, and actually allows multiple targets to be affected.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q127",
@@ -6906,7 +7275,8 @@ window.APBIO_MCQ = [
       "Cells would skip mitosis and go directly to cytokinesis"
     ],
     "answer": 1,
-    "explanation": "Without the spindle checkpoint, anaphase would begin before all chromosomes are properly attached, leading to unequal chromosome distribution (aneuploidy). Cells wouldn't arrest in metaphase without the checkpoint, DNA replication timing isn't controlled by this checkpoint, and cytokinesis follows mitosis."
+    "explanation": "Without the spindle checkpoint, anaphase would begin before all chromosomes are properly attached, leading to unequal chromosome distribution (aneuploidy). Cells wouldn't arrest in metaphase without the checkpoint, DNA replication timing isn't controlled by this checkpoint, and cytokinesis follows mitosis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q128",
@@ -6926,7 +7296,8 @@ window.APBIO_MCQ = [
       "Cells would arrest in mitosis and be unable to complete division"
     ],
     "answer": 3,
-    "explanation": "Cyclin degradation is essential for exiting mitosis. Without cyclin B degradation, cells cannot exit M phase and complete division. They wouldn't enter G0, wouldn't be stopped by checkpoints (which require cyclin degradation to proceed), and wouldn't divide faster if stuck in mitosis."
+    "explanation": "Cyclin degradation is essential for exiting mitosis. Without cyclin B degradation, cells cannot exit M phase and complete division. They wouldn't enter G0, wouldn't be stopped by checkpoints (which require cyclin degradation to proceed), and wouldn't divide faster if stuck in mitosis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q129",
@@ -6946,7 +7317,8 @@ window.APBIO_MCQ = [
       "This allows caspases to be recycled for multiple rounds of apoptosis"
     ],
     "answer": 1,
-    "explanation": "Caspases are produced as inactive zymogens to prevent inappropriate apoptosis. They're only activated when apoptotic signals are received. This isn't about membrane transport, binding capacity, or recycling - it's a safety mechanism to prevent unwanted cell death."
+    "explanation": "Caspases are produced as inactive zymogens to prevent inappropriate apoptosis. They're only activated when apoptotic signals are received. This isn't about membrane transport, binding capacity, or recycling - it's a safety mechanism to prevent unwanted cell death.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q130",
@@ -6966,7 +7338,8 @@ window.APBIO_MCQ = [
       "Cells would produce excess growth factors to stimulate neighboring cells"
     ],
     "answer": 1,
-    "explanation": "Rb protein normally blocks progression from G1 to S phase until proper signals are received. Without functional Rb, cells bypass this control and enter S phase inappropriately. Loss of Rb doesn't prevent S phase entry, doesn't trigger apoptosis, and doesn't affect growth factor production."
+    "explanation": "Rb protein normally blocks progression from G1 to S phase until proper signals are received. Without functional Rb, cells bypass this control and enter S phase inappropriately. Loss of Rb doesn't prevent S phase entry, doesn't trigger apoptosis, and doesn't affect growth factor production.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q131",
@@ -6986,7 +7359,8 @@ window.APBIO_MCQ = [
       "cAMP levels fluctuate randomly because phosphodiesterase disrupts the pathway"
     ],
     "answer": 1,
-    "explanation": "Phosphodiesterase breaks down cAMP to AMP, terminating the signal. Increased phosphodiesterase activity would decrease cAMP levels. Phosphodiesterase doesn't synthesize cAMP (that's adenylyl cyclase's role), doesn't only affect ATP, and doesn't cause random fluctuations."
+    "explanation": "Phosphodiesterase breaks down cAMP to AMP, terminating the signal. Increased phosphodiesterase activity would decrease cAMP levels. Phosphodiesterase doesn't synthesize cAMP (that's adenylyl cyclase's role), doesn't only affect ATP, and doesn't cause random fluctuations.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q132",
@@ -7006,7 +7380,8 @@ window.APBIO_MCQ = [
       "The number varies randomly"
     ],
     "answer": 1,
-    "explanation": "Mitosis produces genetically identical daughter cells with the same chromosome number as the parent. Sister chromatids separate, but each daughter cell gets one copy of each chromosome (46 total). 23 would be from meiosis, 92 would be if chromatids weren't separated, and the number doesn't vary randomly."
+    "explanation": "Mitosis produces genetically identical daughter cells with the same chromosome number as the parent. Sister chromatids separate, but each daughter cell gets one copy of each chromosome (46 total). 23 would be from meiosis, 92 would be if chromatids weren't separated, and the number doesn't vary randomly.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q133",
@@ -7026,7 +7401,8 @@ window.APBIO_MCQ = [
       "In the endoplasmic reticulum, where insulin is processed"
     ],
     "answer": 1,
-    "explanation": "Large, polar molecules like insulin cannot cross membranes, so their receptors must be on the cell surface to bind the signal molecule. Cytoplasmic and nuclear receptors are for molecules that can enter cells, and the ER isn't where signal reception typically occurs."
+    "explanation": "Large, polar molecules like insulin cannot cross membranes, so their receptors must be on the cell surface to bind the signal molecule. Cytoplasmic and nuclear receptors are for molecules that can enter cells, and the ER isn't where signal reception typically occurs.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q134",
@@ -7046,7 +7422,8 @@ window.APBIO_MCQ = [
       "These cells switched to a different type of cell division"
     ],
     "answer": 1,
-    "explanation": "The G1/S checkpoint should stop cells with DNA damage from entering S phase. Cells that continue despite damage likely have defective checkpoint machinery. If DNA was repaired, cells should resume normally, cells in G1 haven't passed the checkpoint yet, and there's no alternative division type."
+    "explanation": "The G1/S checkpoint should stop cells with DNA damage from entering S phase. Cells that continue despite damage likely have defective checkpoint machinery. If DNA was repaired, cells should resume normally, cells in G1 haven't passed the checkpoint yet, and there's no alternative division type.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q135",
@@ -7066,7 +7443,8 @@ window.APBIO_MCQ = [
       "100,000 cAMP molecules"
     ],
     "answer": 2,
-    "explanation": "This is a multiplication: 1 receptor × 10 G-proteins × 10 adenylyl cyclases × 100 cAMP/second × 1 second = 10,000 cAMP molecules. This demonstrates signal amplification. 121 would be if you added instead of multiplied, 1,000 misses one amplification step, 100,000 includes an extra factor."
+    "explanation": "This is a multiplication: 1 receptor × 10 G-proteins × 10 adenylyl cyclases × 100 cAMP/second × 1 second = 10,000 cAMP molecules. This demonstrates signal amplification. 121 would be if you added instead of multiplied, 1,000 misses one amplification step, 100,000 includes an extra factor.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q136",
@@ -7086,7 +7464,8 @@ window.APBIO_MCQ = [
       "Tumors must be large before they become dangerous"
     ],
     "answer": 1,
-    "explanation": "Normal cells have multiple safeguards (checkpoints, tumor suppressors, apoptosis pathways) that prevent uncontrolled growth. Cancer requires overcoming several of these safeguards. Single mutations aren't always repaired, nutrients don't require mutations, and it's not about tumor size but loss of growth control."
+    "explanation": "Normal cells have multiple safeguards (checkpoints, tumor suppressors, apoptosis pathways) that prevent uncontrolled growth. Cancer requires overcoming several of these safeguards. Single mutations aren't always repaired, nutrients don't require mutations, and it's not about tumor size but loss of growth control.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q137",
@@ -7106,7 +7485,8 @@ window.APBIO_MCQ = [
       "Autocrine signaling"
     ],
     "answer": 1,
-    "explanation": "This describes second messenger signaling where cAMP acts as the second messenger after the initial hormone-receptor binding. Direct gene regulation involves transcription factors, gap junctions allow direct cell-to-cell transfer, and autocrine signaling refers to cells responding to their own signals."
+    "explanation": "This describes second messenger signaling where cAMP acts as the second messenger after the initial hormone-receptor binding. Direct gene regulation involves transcription factors, gap junctions allow direct cell-to-cell transfer, and autocrine signaling refers to cells responding to their own signals.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q138",
@@ -7126,7 +7506,8 @@ window.APBIO_MCQ = [
       "Signal integration"
     ],
     "answer": 1,
-    "explanation": "This describes signal amplification, where one signal molecule can produce many product molecules through enzymatic cascades. Signal specificity refers to selective binding, termination involves stopping the signal, and integration combines multiple signals."
+    "explanation": "This describes signal amplification, where one signal molecule can produce many product molecules through enzymatic cascades. Signal specificity refers to selective binding, termination involves stopping the signal, and integration combines multiple signals.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q139",
@@ -7146,7 +7527,8 @@ window.APBIO_MCQ = [
       "Chloride ions"
     ],
     "answer": 2,
-    "explanation": "IP3 causes the release of calcium ions from the ER, which then act as a secondary signal to activate protein kinases and other enzymes. While other ions are important for cellular function, calcium is specifically released by IP3 signaling."
+    "explanation": "IP3 causes the release of calcium ions from the ER, which then act as a secondary signal to activate protein kinases and other enzymes. While other ions are important for cellular function, calcium is specifically released by IP3 signaling.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q140",
@@ -7166,7 +7548,8 @@ window.APBIO_MCQ = [
       "M phase"
     ],
     "answer": 2,
-    "explanation": "G2 phase occurs after DNA replication (S phase) but before mitosis (M phase), characterized by doubled DNA content and synthesis of proteins needed for chromosome condensation and spindle formation. G1 has normal DNA content, S phase is actively replicating DNA, and M phase involves actual division."
+    "explanation": "G2 phase occurs after DNA replication (S phase) but before mitosis (M phase), characterized by doubled DNA content and synthesis of proteins needed for chromosome condensation and spindle formation. G1 has normal DNA content, S phase is actively replicating DNA, and M phase involves actual division.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q141",
@@ -7186,7 +7569,8 @@ window.APBIO_MCQ = [
       "Prophase; chromatin condenses and chromatids become visible"
     ],
     "answer": 1,
-    "explanation": "Anaphase is when sister chromatids separate, pulled apart by shortening of spindle fibers attached to kinetochores. Metaphase involves alignment at the cell center, telophase involves nuclear envelope reformation, and prophase involves chromosome condensation. Centrioles organize spindles but don't directly pull chromatids."
+    "explanation": "Anaphase is when sister chromatids separate, pulled apart by shortening of spindle fibers attached to kinetochores. Metaphase involves alignment at the cell center, telophase involves nuclear envelope reformation, and prophase involves chromosome condensation. Centrioles organize spindles but don't directly pull chromatids.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q142",
@@ -7206,7 +7590,8 @@ window.APBIO_MCQ = [
       "The cell would skip mitosis and go directly to G1"
     ],
     "answer": 2,
-    "explanation": "Without cyclin B, the cyclin B-CDK1 complex cannot form and become active, preventing the cell from passing the G2/M checkpoint and entering mitosis. The cell would arrest in G2 phase. This wouldn't directly trigger apoptosis, affect completed DNA replication, or allow skipping mitosis."
+    "explanation": "Without cyclin B, the cyclin B-CDK1 complex cannot form and become active, preventing the cell from passing the G2/M checkpoint and entering mitosis. The cell would arrest in G2 phase. This wouldn't directly trigger apoptosis, affect completed DNA replication, or allow skipping mitosis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q143",
@@ -7226,7 +7611,8 @@ window.APBIO_MCQ = [
       "DNA replication would occur twice in the next cell cycle"
     ],
     "answer": 1,
-    "explanation": "Spindle checkpoint failure allows anaphase to proceed with improperly attached chromosomes, leading to unequal chromosome distribution and aneuploidy in daughter cells. One cell gets extra chromosomes, the other gets fewer. This doesn't guarantee identical distribution, immediate apoptosis, or affect next cycle's replication timing."
+    "explanation": "Spindle checkpoint failure allows anaphase to proceed with improperly attached chromosomes, leading to unequal chromosome distribution and aneuploidy in daughter cells. One cell gets extra chromosomes, the other gets fewer. This doesn't guarantee identical distribution, immediate apoptosis, or affect next cycle's replication timing.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u4_q144",
@@ -7246,7 +7632,8 @@ window.APBIO_MCQ = [
       "Conversion of the cell into a different cell type"
     ],
     "answer": 1,
-    "explanation": "Apoptosis is controlled cell death with organized breakdown, membrane blebbing, and phagocytosis by other cells without inflammation. Necrosis involves membrane rupture and inflammation. Apoptosis is not random destruction from injury or cellular conversion to other types."
+    "explanation": "Apoptosis is controlled cell death with organized breakdown, membrane blebbing, and phagocytosis by other cells without inflammation. Necrosis involves membrane rupture and inflammation. Apoptosis is not random destruction from injury or cellular conversion to other types.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q145",
@@ -7266,7 +7653,8 @@ window.APBIO_MCQ = [
       "To increase the chromosome number in reproductive cells"
     ],
     "answer": 0,
-    "explanation": "Meiosis produces haploid gametes from diploid cells, reducing chromosome number by half. Choice B describes mitosis, choice C describes DNA repair mechanisms, and choice D is incorrect as meiosis decreases chromosome number."
+    "explanation": "Meiosis produces haploid gametes from diploid cells, reducing chromosome number by half. Choice B describes mitosis, choice C describes DNA repair mechanisms, and choice D is incorrect as meiosis decreases chromosome number.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q146",
@@ -7286,7 +7674,8 @@ window.APBIO_MCQ = [
       "Telophase I"
     ],
     "answer": 1,
-    "explanation": "Crossing over occurs during prophase I when homologous chromosomes pair up and exchange genetic material. Students often confuse this with metaphase I when chromosomes align, but the actual exchange happens earlier during prophase I."
+    "explanation": "Crossing over occurs during prophase I when homologous chromosomes pair up and exchange genetic material. Students often confuse this with metaphase I when chromosomes align, but the actual exchange happens earlier during prophase I.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q147",
@@ -7306,7 +7695,8 @@ window.APBIO_MCQ = [
       "Linked genes are inherited together"
     ],
     "answer": 0,
-    "explanation": "Independent assortment means alleles for different traits segregate independently during meiosis. Choice B describes dominance, choice C describes segregation, and choice D contradicts independent assortment by describing linkage."
+    "explanation": "Independent assortment means alleles for different traits segregate independently during meiosis. Choice B describes dominance, choice C describes segregation, and choice D contradicts independent assortment by describing linkage.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q148",
@@ -7326,7 +7716,8 @@ window.APBIO_MCQ = [
       "An individual expressing the recessive phenotype"
     ],
     "answer": 0,
-    "explanation": "A heterozygote has two different alleles (e.g., Aa) for a trait. Choice B describes a homozygous dominant individual, choice C describes a homozygous recessive individual, and choice D describes phenotype rather than genotype."
+    "explanation": "A heterozygote has two different alleles (e.g., Aa) for a trait. Choice B describes a homozygous dominant individual, choice C describes a homozygous recessive individual, and choice D describes phenotype rather than genotype.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q149",
@@ -7346,7 +7737,8 @@ window.APBIO_MCQ = [
       "1:2:1 dominant to heterozygous to recessive"
     ],
     "answer": 0,
-    "explanation": "A monohybrid cross Aa × Aa produces a 3:1 phenotypic ratio (dominant:recessive). Choice B occurs in a testcross, choice C would require both parents to be homozygous dominant, and choice D describes genotypic ratios rather than phenotypic ratios."
+    "explanation": "A monohybrid cross Aa × Aa produces a 3:1 phenotypic ratio (dominant:recessive). Choice B occurs in a testcross, choice C would require both parents to be homozygous dominant, and choice D describes genotypic ratios rather than phenotypic ratios.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q150",
@@ -7366,7 +7758,8 @@ window.APBIO_MCQ = [
       "Four traits"
     ],
     "answer": 1,
-    "explanation": "A dihybrid cross examines two traits at the same time. Students sometimes confuse this with the number of alleles or the number of possible gamete types, but 'di-' specifically refers to two traits being studied."
+    "explanation": "A dihybrid cross examines two traits at the same time. Students sometimes confuse this with the number of alleles or the number of possible gamete types, but 'di-' specifically refers to two traits being studied.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q151",
@@ -7386,7 +7779,8 @@ window.APBIO_MCQ = [
       "Males inherit X-linked traits from both parents"
     ],
     "answer": 0,
-    "explanation": "Males have only one X chromosome (XY), so they express whatever X-linked allele they inherit. Females have two X chromosomes (XX), so they need two recessive alleles to express the trait. Choice B is incorrect as males have XY, choice C is unrelated, and choice D is wrong as males inherit X-linked traits only from mothers."
+    "explanation": "Males have only one X chromosome (XY), so they express whatever X-linked allele they inherit. Females have two X chromosomes (XX), so they need two recessive alleles to express the trait. Choice B is incorrect as males have XY, choice C is unrelated, and choice D is wrong as males inherit X-linked traits only from mothers.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q152",
@@ -7406,7 +7800,8 @@ window.APBIO_MCQ = [
       "Completely different from both parents"
     ],
     "answer": 0,
-    "explanation": "In incomplete dominance, heterozygotes show a blended phenotype (like pink flowers from red × white). Choice B describes complete dominance, choice C would be unusual, and choice D describes a novel phenotype that doesn't represent blending."
+    "explanation": "In incomplete dominance, heterozygotes show a blended phenotype (like pink flowers from red × white). Choice B describes complete dominance, choice C would be unusual, and choice D describes a novel phenotype that doesn't represent blending.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q153",
@@ -7426,7 +7821,8 @@ window.APBIO_MCQ = [
       "Tall plants being dominant over short plants"
     ],
     "answer": 0,
-    "explanation": "Type AB blood shows codominance because both A and B antigens are expressed simultaneously. Choice B describes incomplete dominance (blending), while choices C and D describe complete dominance where only one trait is expressed."
+    "explanation": "Type AB blood shows codominance because both A and B antigens are expressed simultaneously. Choice B describes incomplete dominance (blending), while choices C and D describe complete dominance where only one trait is expressed.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q154",
@@ -7446,7 +7842,8 @@ window.APBIO_MCQ = [
       "Environmental factors affect gene expression"
     ],
     "answer": 0,
-    "explanation": "Epistasis occurs when one gene masks or modifies the expression of another gene at a different locus. Choice B describes additive effects, choice C describes genetic linkage, and choice D describes environmental influence on gene expression, not epistasis."
+    "explanation": "Epistasis occurs when one gene masks or modifies the expression of another gene at a different locus. Choice B describes additive effects, choice C describes genetic linkage, and choice D describes environmental influence on gene expression, not epistasis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q155",
@@ -7466,7 +7863,8 @@ window.APBIO_MCQ = [
       "Four"
     ],
     "answer": 1,
-    "explanation": "Meiosis consists of two sequential cell divisions: meiosis I and meiosis II. This reduces chromosome number from diploid to haploid. Students sometimes confuse this with the number of cells produced (four) or think it's like mitosis (one division)."
+    "explanation": "Meiosis consists of two sequential cell divisions: meiosis I and meiosis II. This reduces chromosome number from diploid to haploid. Students sometimes confuse this with the number of cells produced (four) or think it's like mitosis (one division).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q156",
@@ -7486,7 +7884,8 @@ window.APBIO_MCQ = [
       "32"
     ],
     "answer": 1,
-    "explanation": "With 16 chromosomes (diploid), there are 8 homologous pairs. Each pair forms one bivalent during prophase I, so 8 bivalents are formed. Students often confuse the total chromosome number (16) with the number of pairs."
+    "explanation": "With 16 chromosomes (diploid), there are 8 homologous pairs. Each pair forms one bivalent during prophase I, so 8 bivalents are formed. Students often confuse the total chromosome number (16) with the number of pairs.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q157",
@@ -7506,7 +7905,8 @@ window.APBIO_MCQ = [
       "50%"
     ],
     "answer": 1,
-    "explanation": "One map unit equals 1% recombination frequency. Therefore, 20 map units = 20% recombination frequency. Students often double this (40%) or confuse it with independent assortment (50%)."
+    "explanation": "One map unit equals 1% recombination frequency. Therefore, 20 map units = 20% recombination frequency. Students often double this (40%) or confuse it with independent assortment (50%).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q158",
@@ -7526,7 +7926,8 @@ window.APBIO_MCQ = [
       "27"
     ],
     "answer": 2,
-    "explanation": "For n heterozygous genes, there are 2^n phenotypic classes. With 3 genes: 2^3 = 8 phenotypic classes. Students often confuse this with genotypic classes (27) or think linearly (3 or 6)."
+    "explanation": "For n heterozygous genes, there are 2^n phenotypic classes. With 3 genes: 2^3 = 8 phenotypic classes. Students often confuse this with genotypic classes (27) or think linearly (3 or 6).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q159",
@@ -7546,7 +7947,8 @@ window.APBIO_MCQ = [
       "84%"
     ],
     "answer": 2,
-    "explanation": "If 16% show recessive phenotype (q² = 0.16), then q = 0.4 and p = 0.6. Heterozygous frequency = 2pq = 2(0.6)(0.4) = 0.48 = 48%. Students often calculate 2q (32%) or p² + 2pq (84%)."
+    "explanation": "If 16% show recessive phenotype (q² = 0.16), then q = 0.4 and p = 0.6. Heterozygous frequency = 2pq = 2(0.6)(0.4) = 0.48 = 48%. Students often calculate 2q (32%) or p² + 2pq (84%).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q160",
@@ -7566,7 +7968,8 @@ window.APBIO_MCQ = [
       "200"
     ],
     "answer": 2,
-    "explanation": "In Aa × Aa, 3/4 of offspring show dominant phenotype (AA + Aa). 3/4 × 200 = 150 offspring. Students often think only heterozygotes (100) or all offspring (200) show dominant traits."
+    "explanation": "In Aa × Aa, 3/4 of offspring show dominant phenotype (AA + Aa). 3/4 × 200 = 150 offspring. Students often think only heterozygotes (100) or all offspring (200) show dominant traits.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q161",
@@ -7586,7 +7989,8 @@ window.APBIO_MCQ = [
       "9/16"
     ],
     "answer": 0,
-    "explanation": "Probability of aabb = (1/4 aa) × (1/4 bb) = 1/16. Students often confuse this with single trait probability (1/4) or dominant phenotype frequency (9/16)."
+    "explanation": "Probability of aabb = (1/4 aa) × (1/4 bb) = 1/16. Students often confuse this with single trait probability (1/4) or dominant phenotype frequency (9/16).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q162",
@@ -7606,7 +8010,8 @@ window.APBIO_MCQ = [
       "100%"
     ],
     "answer": 3,
-    "explanation": "All sons receive X^c from mother and Y from father, so all sons are X^c Y (colorblind). Students often apply autosomal patterns (25% or 50%) or think like daughters (0%)."
+    "explanation": "All sons receive X^c from mother and Y from father, so all sons are X^c Y (colorblind). Students often apply autosomal patterns (25% or 50%) or think like daughters (0%).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q163",
@@ -7626,7 +8031,8 @@ window.APBIO_MCQ = [
       "All pink"
     ],
     "answer": 1,
-    "explanation": "RW × RW produces 1 RR (red) : 2 RW (pink) : 1 WW (white). Students often apply complete dominance ratios (3:1) or think all offspring are intermediate (all pink)."
+    "explanation": "RW × RW produces 1 RR (red) : 2 RW (pink) : 1 WW (white). Students often apply complete dominance ratios (3:1) or think all offspring are intermediate (all pink).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q164",
@@ -7646,7 +8052,8 @@ window.APBIO_MCQ = [
       "Types A, B, AB, and O"
     ],
     "answer": 1,
-    "explanation": "I^A I^B × ii produces I^A i (type A) and I^B i (type B) offspring only. Students often include type O (parent phenotype) or type AB (other parent phenotype) in offspring."
+    "explanation": "I^A I^B × ii produces I^A i (type A) and I^B i (type B) offspring only. Students often include type O (parent phenotype) or type AB (other parent phenotype) in offspring.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q165",
@@ -7666,7 +8073,8 @@ window.APBIO_MCQ = [
       "Anaphase II"
     ],
     "answer": 2,
-    "explanation": "Homologous chromosomes separate during anaphase I. Anaphase II separates sister chromatids. Students often confuse the two anaphase stages or think separation occurs during metaphase alignment."
+    "explanation": "Homologous chromosomes separate during anaphase I. Anaphase II separates sister chromatids. Students often confuse the two anaphase stages or think separation occurs during metaphase alignment.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q166",
@@ -7686,7 +8094,8 @@ window.APBIO_MCQ = [
       "16"
     ],
     "answer": 1,
-    "explanation": "With 4 chromosomes (2 homologous pairs), without crossing over, 2^2 = 4 different combinations are possible from independent assortment alone. Students often include crossing over effects (8, 16) or underestimate (2)."
+    "explanation": "With 4 chromosomes (2 homologous pairs), without crossing over, 2^2 = 4 different combinations are possible from independent assortment alone. Students often include crossing over effects (8, 16) or underestimate (2).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q167",
@@ -7706,7 +8115,8 @@ window.APBIO_MCQ = [
       "F1 individuals are heterozygous for both traits"
     ],
     "answer": 1,
-    "explanation": "Independent assortment means traits are inherited independently. If two traits are always inherited together, they violate this law (likely due to linkage). The other options support independent assortment."
+    "explanation": "Independent assortment means traits are inherited independently. If two traits are always inherited together, they violate this law (likely due to linkage). The other options support independent assortment.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q168",
@@ -7726,7 +8136,8 @@ window.APBIO_MCQ = [
       "4:1"
     ],
     "answer": 2,
-    "explanation": "This describes complete dominance with tall dominant. F1 are all Tt (tall). F2 from Tt × Tt gives 3 tall : 1 short. Students might expect 1:1 from test cross thinking or other incorrect ratios."
+    "explanation": "This describes complete dominance with tall dominant. F1 are all Tt (tall). F2 from Tt × Tt gives 3 tall : 1 short. Students might expect 1:1 from test cross thinking or other incorrect ratios.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q169",
@@ -7746,7 +8157,8 @@ window.APBIO_MCQ = [
       "100%"
     ],
     "answer": 1,
-    "explanation": "Aa × aa produces 50% Aa (dominant phenotype) and 50% aa (recessive phenotype). Students often apply F2 ratios (25%) or think all are recessive since one parent is recessive."
+    "explanation": "Aa × aa produces 50% Aa (dominant phenotype) and 50% aa (recessive phenotype). Students often apply F2 ratios (25%) or think all are recessive since one parent is recessive.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q170",
@@ -7766,7 +8178,8 @@ window.APBIO_MCQ = [
       "16"
     ],
     "answer": 1,
-    "explanation": "AaBb can produce 4 gamete types: AB, Ab, aB, ab. For n heterozygous gene pairs, 2^n gamete types are possible. Students often confuse with F2 offspring types (16) or think too simply (2)."
+    "explanation": "AaBb can produce 4 gamete types: AB, Ab, aB, ab. For n heterozygous gene pairs, 2^n gamete types are possible. Students often confuse with F2 offspring types (16) or think too simply (2).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q171",
@@ -7786,7 +8199,8 @@ window.APBIO_MCQ = [
       "100%"
     ],
     "answer": 2,
-    "explanation": "Daughters can be X^A X^a (carrier, 50%) or X^a X^a (affected, 50%). So 50% are carriers. Students might think all daughters are carriers (100%) or apply autosomal patterns (25%)."
+    "explanation": "Daughters can be X^A X^a (carrier, 50%) or X^a X^a (affected, 50%). So 50% are carriers. Students might think all daughters are carriers (100%) or apply autosomal patterns (25%).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q172",
@@ -7806,7 +8220,8 @@ window.APBIO_MCQ = [
       "3:1 pink to white"
     ],
     "answer": 2,
-    "explanation": "RW × WW produces 50% RW (pink) and 50% WW (white), giving 1:1 ratio. Students might expect all pink (incomplete dominance misconception) or 3:1 (complete dominance pattern)."
+    "explanation": "RW × WW produces 50% RW (pink) and 50% WW (white), giving 1:1 ratio. Students might expect all pink (incomplete dominance misconception) or 3:1 (complete dominance pattern).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q173",
@@ -7826,7 +8241,8 @@ window.APBIO_MCQ = [
       "All checkered"
     ],
     "answer": 1,
-    "explanation": "BW × BW produces 1 BB (black) : 2 BW (checkered) : 1 WW (white). In codominance, heterozygotes show both traits distinctly, not a blend. Students might expect blending or dominance patterns."
+    "explanation": "BW × BW produces 1 BB (black) : 2 BW (checkered) : 1 WW (white). In codominance, heterozygotes show both traits distinctly, not a blend. Students might expect blending or dominance patterns.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q174",
@@ -7846,7 +8262,8 @@ window.APBIO_MCQ = [
       "Dominant epistasis"
     ],
     "answer": 2,
-    "explanation": "The recessive ee genotype masks the expression of the B gene, making dogs yellow regardless of B/b alleles. This is recessive epistasis. Students might confuse with dominant epistasis or other interactions."
+    "explanation": "The recessive ee genotype masks the expression of the B gene, making dogs yellow regardless of B/b alleles. This is recessive epistasis. Students might confuse with dominant epistasis or other interactions.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q175",
@@ -7866,7 +8283,8 @@ window.APBIO_MCQ = [
       "1/2"
     ],
     "answer": 2,
-    "explanation": "This is a testcross (RrYy × rryy). The heterozygous parent produces four equally likely gametes: RY, Ry, rY, ry (each 1/4). Round, green seeds require Ry from the heterozygous parent and ry from the homozygous recessive parent, occurring in 1/4 of offspring. Choice A applies dihybrid F2 ratios incorrectly. Choices B and D represent other single-trait probabilities."
+    "explanation": "This is a testcross (RrYy × rryy). The heterozygous parent produces four equally likely gametes: RY, Ry, rY, ry (each 1/4). Round, green seeds require Ry from the heterozygous parent and ry from the homozygous recessive parent, occurring in 1/4 of offspring. Choice A applies dihybrid F2 ratios incorrectly. Choices B and D represent other single-trait probabilities.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q176",
@@ -7886,7 +8304,8 @@ window.APBIO_MCQ = [
       "100%"
     ],
     "answer": 2,
-    "explanation": "The daughter must be XcXn (carrier) since she received Xc from her colorblind mother and Xn from her normal father. Her colorblind husband is XcY. Sons receive Y from father and either Xc or Xn from mother with equal probability, so 50% will be colorblind (XcY). Choice A ignores the carrier status. Choice B applies autosomal recessive logic. Choice D assumes all sons inherit the recessive allele."
+    "explanation": "The daughter must be XcXn (carrier) since she received Xc from her colorblind mother and Xn from her normal father. Her colorblind husband is XcY. Sons receive Y from father and either Xc or Xn from mother with equal probability, so 50% will be colorblind (XcY). Choice A ignores the carrier status. Choice B applies autosomal recessive logic. Choice D assumes all sons inherit the recessive allele.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q177",
@@ -7906,7 +8325,8 @@ window.APBIO_MCQ = [
       "9:4:3"
     ],
     "answer": 1,
-    "explanation": "This is recessive epistasis where bb masks the effect of gene A. Expected ratio: 9 A_B_ (agouti), 3 aaB_ (black), 4 A_bb + aabb (white, since bb prevents pigment). The 9:3:4 ratio is characteristic of recessive epistasis. Choice A is normal dihybrid ratio ignoring epistasis. Choice C represents dominant epistasis. Choice D incorrectly groups the epistatic classes."
+    "explanation": "This is recessive epistasis where bb masks the effect of gene A. Expected ratio: 9 A_B_ (agouti), 3 aaB_ (black), 4 A_bb + aabb (white, since bb prevents pigment). The 9:3:4 ratio is characteristic of recessive epistasis. Choice A is normal dihybrid ratio ignoring epistasis. Choice C represents dominant epistasis. Choice D incorrectly groups the epistatic classes.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q178",
@@ -7926,7 +8346,8 @@ window.APBIO_MCQ = [
       "All four gametes will have 8 chromosomes but two will be missing chromosome 3"
     ],
     "answer": 0,
-    "explanation": "Nondisjunction in meiosis I means both homologous chromosomes go to the same cell. This creates two cells with an extra chromosome (8+1=9) and two cells missing that chromosome (8-1=7). Choice B represents meiosis II nondisjunction. Choice C is mathematically impossible. Choice D misunderstands that nondisjunction changes total chromosome number."
+    "explanation": "Nondisjunction in meiosis I means both homologous chromosomes go to the same cell. This creates two cells with an extra chromosome (8+1=9) and two cells missing that chromosome (8-1=7). Choice B represents meiosis II nondisjunction. Choice C is mathematically impossible. Choice D misunderstands that nondisjunction changes total chromosome number.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q179",
@@ -7946,7 +8367,8 @@ window.APBIO_MCQ = [
       "40%"
     ],
     "answer": 0,
-    "explanation": "Map units equal recombination frequency percentage. 20 map units = 20% total recombination. This 20% is split equally between the two recombinant classes (Ab and aB), so each recombinant type is 10%. Students often choose B (confusing total recombination with individual recombinant classes) or C/D (incorrectly calculating parental vs recombinant frequencies)."
+    "explanation": "Map units equal recombination frequency percentage. 20 map units = 20% total recombination. This 20% is split equally between the two recombinant classes (Ab and aB), so each recombinant type is 10%. Students often choose B (confusing total recombination with individual recombinant classes) or C/D (incorrectly calculating parental vs recombinant frequencies).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q180",
@@ -7966,7 +8388,8 @@ window.APBIO_MCQ = [
       "27/64"
     ],
     "answer": 1,
-    "explanation": "For each trait, probability of homozygous recessive (aa, bb, or cc) is 1/4, and probability of not homozygous recessive is 3/4. We need exactly 2 traits homozygous recessive: C(3,2) × (1/4)² × (3/4)¹ = 3 × 1/16 × 3/4 = 9/64. Choice A uses wrong combination formula. Choice C forgets the combinatorial aspect. Choice D calculates probability of at least one homozygous recessive."
+    "explanation": "For each trait, probability of homozygous recessive (aa, bb, or cc) is 1/4, and probability of not homozygous recessive is 3/4. We need exactly 2 traits homozygous recessive: C(3,2) × (1/4)² × (3/4)¹ = 3 × 1/16 × 3/4 = 9/64. Choice A uses wrong combination formula. Choice C forgets the combinatorial aspect. Choice D calculates probability of at least one homozygous recessive.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q182",
@@ -7986,7 +8409,8 @@ window.APBIO_MCQ = [
       "64%"
     ],
     "answer": 2,
-    "explanation": "If recessive phenotype frequency is 16% = 0.16, then q² = 0.16, so q = 0.4. Therefore p = 0.6. Heterozygous frequency = 2pq = 2(0.6)(0.4) = 0.48 = 48%. Choice A represents 2q. Choice B represents p². Choice D represents the sum of dominant homozygotes and heterozygotes, a common error when students add p² + 2pq incorrectly."
+    "explanation": "If recessive phenotype frequency is 16% = 0.16, then q² = 0.16, so q = 0.4. Therefore p = 0.6. Heterozygous frequency = 2pq = 2(0.6)(0.4) = 0.48 = 48%. Choice A represents 2q. Choice B represents p². Choice D represents the sum of dominant homozygotes and heterozygotes, a common error when students add p² + 2pq incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q183",
@@ -8006,7 +8430,8 @@ window.APBIO_MCQ = [
       "Both genes are located on the X chromosome"
     ],
     "answer": 2,
-    "explanation": "A 9:4:3 ratio suggests recessive epistasis, where homozygous recessive genotypes at one locus mask the expression of the second gene — collapsing two of the standard four phenotypic classes into one (the 3 and 1 classes merge into 4). This is a classic epistatic modification of the 9:3:3:1 ratio. Choice A (gene linkage with 25% recombination) would produce ratios close to 9:3:3:1 with slight distortion, not a 9:4:3 pattern. Choice B (incomplete dominance at one locus) would create more phenotypic classes, not fewer, since heterozygotes would show a blended phenotype — it would not produce a 9:4:3 ratio. Choice D (both genes X-linked) would produce sex-linked inheritance ratios, not the autosomal F2 pattern seen here."
+    "explanation": "A 9:4:3 ratio suggests recessive epistasis, where homozygous recessive genotypes at one locus mask the expression of the second gene — collapsing two of the standard four phenotypic classes into one (the 3 and 1 classes merge into 4). This is a classic epistatic modification of the 9:3:3:1 ratio. Choice A (gene linkage with 25% recombination) would produce ratios close to 9:3:3:1 with slight distortion, not a 9:4:3 pattern. Choice B (incomplete dominance at one locus) would create more phenotypic classes, not fewer, since heterozygotes would show a blended phenotype — it would not produce a 9:4:3 ratio. Choice D (both genes X-linked) would produce sex-linked inheritance ratios, not the autosomal F2 pattern seen here.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q184",
@@ -8026,7 +8451,8 @@ window.APBIO_MCQ = [
       "150"
     ],
     "answer": 2,
-    "explanation": "Pink (RW) × white (WW) gives 50% RW (pink) and 50% WW (white). With 200 offspring, expect 100 pink flowers. Choice A represents 25% (incorrect fraction). Choice B represents 37.5% (no genetic basis). Choice D represents 75% (students might incorrectly think pink is dominant over white)."
+    "explanation": "Pink (RW) × white (WW) gives 50% RW (pink) and 50% WW (white). With 200 offspring, expect 100 pink flowers. Choice A represents 25% (incorrect fraction). Choice B represents 37.5% (no genetic basis). Choice D represents 75% (students might incorrectly think pink is dominant over white).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u5_q185",
@@ -8046,7 +8472,8 @@ window.APBIO_MCQ = [
       "31"
     ],
     "answer": 2,
-    "explanation": "Albino phenotype occurs with genotype bb__ (regardless of C gene). In a dihybrid cross, frequency of bb__ = 1/4 × 1 = 1/4. With 100 offspring: 25 albino. Choice A represents bbcc only (1/16). Choice B represents B_cc (diluted color). Choice D represents all non-normal colored mice (albino + diluted)."
+    "explanation": "Albino phenotype occurs with genotype bb__ (regardless of C gene). In a dihybrid cross, frequency of bb__ = 1/4 × 1 = 1/4. With 100 offspring: 25 albino. Choice A represents bbcc only (1/16). Choice B represents B_cc (diluted color). Choice D represents all non-normal colored mice (albino + diluted).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q186",
@@ -8066,7 +8493,8 @@ window.APBIO_MCQ = [
       "The two strands alternate between parallel and antiparallel orientation"
     ],
     "answer": 0,
-    "explanation": "DNA strands are antiparallel, meaning they run in opposite directions. One strand goes 5' to 3' while its complement goes 3' to 5'. Students often confuse this with thinking strands are identical (B) or physically perpendicular (C)."
+    "explanation": "DNA strands are antiparallel, meaning they run in opposite directions. One strand goes 5' to 3' while its complement goes 3' to 5'. Students often confuse this with thinking strands are identical (B) or physically perpendicular (C).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q187",
@@ -8086,7 +8514,8 @@ window.APBIO_MCQ = [
       "The direction depends on which chromosome is being replicated"
     ],
     "answer": 2,
-    "explanation": "DNA polymerase can only add nucleotides in the 5' to 3' direction by adding to the 3'-OH group of the growing strand. Students commonly think it works in both directions (C) or confuse the directionality (A)."
+    "explanation": "DNA polymerase can only add nucleotides in the 5' to 3' direction by adding to the 3'-OH group of the growing strand. Students commonly think it works in both directions (C) or confuse the directionality (A).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q189",
@@ -8106,7 +8535,8 @@ window.APBIO_MCQ = [
       "The poly-A tail"
     ],
     "answer": 2,
-    "explanation": "Introns are non-coding sequences removed during RNA splicing. Exons (A) are kept and joined together. The 5' cap (C) and poly-A tail (D) are added, not removed, during processing."
+    "explanation": "Introns are non-coding sequences removed during RNA splicing. Exons (A) are kept and joined together. The 5' cap (C) and poly-A tail (D) are added, not removed, during processing.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q190",
@@ -8126,7 +8556,8 @@ window.APBIO_MCQ = [
       "6"
     ],
     "answer": 2,
-    "explanation": "A codon consists of 3 nucleotides that specify one amino acid. Students sometimes think it's 2 (A) or confuse it with other molecular structures."
+    "explanation": "A codon consists of 3 nucleotides that specify one amino acid. Students sometimes think it's 2 (A) or confuse it with other molecular structures.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q191",
@@ -8146,7 +8577,8 @@ window.APBIO_MCQ = [
       "Frameshift mutation"
     ],
     "answer": 2,
-    "explanation": "A missense mutation changes one amino acid to another. Silent mutations (A) don't change the amino acid, nonsense mutations (C) create stop codons, and frameshift mutations (D) involve insertions or deletions."
+    "explanation": "A missense mutation changes one amino acid to another. Silent mutations (A) don't change the amino acid, nonsense mutations (C) create stop codons, and frameshift mutations (D) involve insertions or deletions.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q192",
@@ -8166,7 +8598,8 @@ window.APBIO_MCQ = [
       "Repressor"
     ],
     "answer": 2,
-    "explanation": "The promoter is where RNA polymerase binds to start transcription. Students confuse this with the operator (A), which is where repressors bind, or enhancers (C), which increase transcription from a distance."
+    "explanation": "The promoter is where RNA polymerase binds to start transcription. Students confuse this with the operator (A), which is where repressors bind, or enhancers (C), which increase transcription from a distance.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q193",
@@ -8186,7 +8619,8 @@ window.APBIO_MCQ = [
       "Destroys the mRNA"
     ],
     "answer": 1,
-    "explanation": "When lactose (or allolactose) is present, it binds to the lac repressor, causing it to release from the operator, allowing transcription. Students often think the repressor binds more tightly (A) or acts directly on transcription (C)."
+    "explanation": "When lactose (or allolactose) is present, it binds to the lac repressor, causing it to release from the operator, allowing transcription. Students often think the repressor binds more tightly (A) or acts directly on transcription (C).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q194",
@@ -8206,7 +8640,8 @@ window.APBIO_MCQ = [
       "Promoter sequence"
     ],
     "answer": 1,
-    "explanation": "The guide RNA (gRNA) directs Cas9 to the specific DNA sequence to be cut through base pairing. Students might confuse this with DNA polymerase (A) or think other components direct targeting."
+    "explanation": "The guide RNA (gRNA) directs Cas9 to the specific DNA sequence to be cut through base pairing. Students might confuse this with DNA polymerase (A) or think other components direct targeting.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q195",
@@ -8226,7 +8661,8 @@ window.APBIO_MCQ = [
       "Their function"
     ],
     "answer": 1,
-    "explanation": "DNA fragments are separated by size, with smaller fragments moving farther through the gel matrix. Students sometimes think separation is based on sequence (A) or other properties rather than size."
+    "explanation": "DNA fragments are separated by size, with smaller fragments moving farther through the gel matrix. Students sometimes think separation is based on sequence (A) or other properties rather than size.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q196",
@@ -8246,7 +8682,8 @@ window.APBIO_MCQ = [
       "Adds the poly-A tail"
     ],
     "answer": 1,
-    "explanation": "The 5' cap protects mRNA from degradation by 5' exonucleases and helps ribosomes recognize and bind mRNA for translation. Students often confuse its function with nuclear export (A) or think it's involved in splicing (C)."
+    "explanation": "The 5' cap protects mRNA from degradation by 5' exonucleases and helps ribosomes recognize and bind mRNA for translation. Students often confuse its function with nuclear export (A) or think it's involved in splicing (C).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q197",
@@ -8266,7 +8703,8 @@ window.APBIO_MCQ = [
       "56%"
     ],
     "answer": 1,
-    "explanation": "According to Chargaff's rules, A=T and G=C. If A=22%, then T=22%, totaling 44%. The remaining 56% is split equally between G and C, so G=28%. Students often mistakenly choose A (thinking G=A) or C (confusing G+C total with G alone)."
+    "explanation": "According to Chargaff's rules, A=T and G=C. If A=22%, then T=22%, totaling 44%. The remaining 56% is split equally between G and C, so G=28%. Students often mistakenly choose A (thinking G=A) or C (confusing G+C total with G alone).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q198",
@@ -8286,7 +8724,8 @@ window.APBIO_MCQ = [
       "The lagging strand requires more proofreading"
     ],
     "answer": 0,
-    "explanation": "DNA polymerase can only synthesize DNA in the 5' to 3' direction. Since the two strands are antiparallel, one can be synthesized continuously (leading) while the other must be made in fragments (lagging). Choice B is incorrect because both templates run antiparallel but this doesn't explain the fragmentation."
+    "explanation": "DNA polymerase can only synthesize DNA in the 5' to 3' direction. Since the two strands are antiparallel, one can be synthesized continuously (leading) while the other must be made in fragments (lagging). Choice B is incorrect because both templates run antiparallel but this doesn't explain the fragmentation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q199",
@@ -8306,7 +8745,8 @@ window.APBIO_MCQ = [
       "DNA ligase to seal any breaks in the template strand"
     ],
     "answer": 1,
-    "explanation": "RNA polymerase II requires general transcription factors (like TFIID, TFIIB, etc.) to form the pre-initiation complex and properly position the polymerase for transcription initiation. RNA polymerase has its own helicase activity, ribosomes aren't needed for transcription, and DNA ligase isn't required for normal transcription."
+    "explanation": "RNA polymerase II requires general transcription factors (like TFIID, TFIIB, etc.) to form the pre-initiation complex and properly position the polymerase for transcription initiation. RNA polymerase has its own helicase activity, ribosomes aren't needed for transcription, and DNA ligase isn't required for normal transcription.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q200",
@@ -8326,7 +8766,8 @@ window.APBIO_MCQ = [
       "No proteins will be produced because the mRNAs are defective"
     ],
     "answer": 1,
-    "explanation": "Alternative splicing creates different combinations of exons in mature mRNA, leading to proteins with different amino acid sequences and potentially different functions. This is a normal cellular process, not a defect, so the mRNAs will be translated into functional but distinct proteins."
+    "explanation": "Alternative splicing creates different combinations of exons in mature mRNA, leading to proteins with different amino acid sequences and potentially different functions. This is a normal cellular process, not a defect, so the mRNAs will be translated into functional but distinct proteins.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q201",
@@ -8346,7 +8787,8 @@ window.APBIO_MCQ = [
       "The mRNA must be processed to remove introns"
     ],
     "answer": 1,
-    "explanation": "Before the amino acid in the A site can join the chain, a peptide bond must form between it and the growing polypeptide (attached to tRNA in the P site). Translocation occurs after peptide bond formation, tRNA release happens after translocation, and mRNA processing occurs before translation."
+    "explanation": "Before the amino acid in the A site can join the chain, a peptide bond must form between it and the growing polypeptide (attached to tRNA in the P site). Translocation occurs after peptide bond formation, tRNA release happens after translocation, and mRNA processing occurs before translation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q202",
@@ -8366,7 +8808,8 @@ window.APBIO_MCQ = [
       "Translation will not initiate"
     ],
     "answer": 2,
-    "explanation": "Both UUA and UUG code for leucine due to the degeneracy (redundancy) of the genetic code. Many amino acids are encoded by multiple codons that differ in the third position. This mutation would be silent, producing no change in the protein sequence."
+    "explanation": "Both UUA and UUG code for leucine due to the degeneracy (redundancy) of the genetic code. Many amino acids are encoded by multiple codons that differ in the third position. This mutation would be silent, producing no change in the protein sequence.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q203",
@@ -8386,7 +8829,8 @@ window.APBIO_MCQ = [
       "Frameshift mutations prevent transcription from occurring"
     ],
     "answer": 1,
-    "explanation": "Frameshift mutations shift the reading frame, causing all codons downstream from the mutation to be read incorrectly, usually producing a completely different and nonfunctional protein. Point mutations typically affect only one codon. Frameshift mutations can be repaired, don't always create stops, and don't prevent transcription."
+    "explanation": "Frameshift mutations shift the reading frame, causing all codons downstream from the mutation to be read incorrectly, usually producing a completely different and nonfunctional protein. Point mutations typically affect only one codon. Frameshift mutations can be repaired, don't always create stops, and don't prevent transcription.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q204",
@@ -8406,7 +8850,8 @@ window.APBIO_MCQ = [
       "Multiple copies of the enhancer are created near the promoter"
     ],
     "answer": 1,
-    "explanation": "DNA looping allows distant enhancers to interact with promoters by bringing them into physical proximity. This enables transcription factors bound to enhancers to contact the promoter region. Enhancers are DNA sequences, not proteins, and they work through protein-protein interactions rather than direct RNA polymerase binding."
+    "explanation": "DNA looping allows distant enhancers to interact with promoters by bringing them into physical proximity. This enables transcription factors bound to enhancers to contact the promoter region. Enhancers are DNA sequences, not proteins, and they work through protein-protein interactions rather than direct RNA polymerase binding.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q205",
@@ -8426,7 +8871,8 @@ window.APBIO_MCQ = [
       "Moderate transcription because only one regulatory mechanism is active"
     ],
     "answer": 0,
-    "explanation": "When glucose is absent, cAMP levels are high, allowing CAP-cAMP to bind and enhance transcription. When lactose is present, it inactivates the lac repressor. Both conditions favor high transcription of the lac operon genes. Students often confuse the dual regulatory mechanisms or focus on only one."
+    "explanation": "When glucose is absent, cAMP levels are high, allowing CAP-cAMP to bind and enhance transcription. When lactose is present, it inactivates the lac repressor. Both conditions favor high transcription of the lac operon genes. Students often confuse the dual regulatory mechanisms or focus on only one.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q206",
@@ -8446,7 +8892,8 @@ window.APBIO_MCQ = [
       "Random cutting occurs throughout the genome"
     ],
     "answer": 1,
-    "explanation": "The guide RNA (gRNA) provides specificity by base pairing with complementary target DNA sequences. While Cas9 does the cutting and PAM sequences are required nearby, it's the gRNA that determines exactly where cutting occurs. Students often think Cas9 alone provides specificity or that PAM sequences are sufficient for targeting."
+    "explanation": "The guide RNA (gRNA) provides specificity by base pairing with complementary target DNA sequences. While Cas9 does the cutting and PAM sequences are required nearby, it's the gRNA that determines exactly where cutting occurs. Students often think Cas9 alone provides specificity or that PAM sequences are sufficient for targeting.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q207",
@@ -8466,7 +8913,8 @@ window.APBIO_MCQ = [
       "Smaller fragments are less dense and float toward the positive electrode"
     ],
     "answer": 1,
-    "explanation": "All DNA fragments have the same charge-to-mass ratio, so they experience the same electrical force. However, smaller fragments can navigate through the gel matrix pores more easily than larger fragments, allowing them to migrate farther toward the positive electrode. Size, not charge differences, determines migration distance."
+    "explanation": "All DNA fragments have the same charge-to-mass ratio, so they experience the same electrical force. However, smaller fragments can navigate through the gel matrix pores more easily than larger fragments, allowing them to migrate farther toward the positive electrode. Size, not charge differences, determines migration distance.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q208",
@@ -8486,7 +8934,8 @@ window.APBIO_MCQ = [
       "The major and minor grooves alternate along the helix"
     ],
     "answer": 1,
-    "explanation": "Antiparallel means the two strands run in opposite directions - if one strand is oriented 5' to 3', the complementary strand is oriented 3' to 5'. This arrangement is crucial for DNA replication and repair mechanisms. Students often confuse antiparallel with complementarity or think both strands run in the same direction."
+    "explanation": "Antiparallel means the two strands run in opposite directions - if one strand is oriented 5' to 3', the complementary strand is oriented 3' to 5'. This arrangement is crucial for DNA replication and repair mechanisms. Students often confuse antiparallel with complementarity or think both strands run in the same direction.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q209",
@@ -8506,7 +8955,8 @@ window.APBIO_MCQ = [
       "Okazaki fragments are synthesized in the wrong direction and must be reversed"
     ],
     "answer": 1,
-    "explanation": "DNA polymerase can only add nucleotides to a 3'-OH group, not join separate DNA fragments together. DNA ligase is needed to form phosphodiester bonds between the 3'-OH of one Okazaki fragment and the 5'-phosphate of the next. This creates gaps that only ligase can seal, not polymerase."
+    "explanation": "DNA polymerase can only add nucleotides to a 3'-OH group, not join separate DNA fragments together. DNA ligase is needed to form phosphodiester bonds between the 3'-OH of one Okazaki fragment and the 5'-phosphate of the next. This creates gaps that only ligase can seal, not polymerase.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q210",
@@ -8526,7 +8976,8 @@ window.APBIO_MCQ = [
       "3' to 5' using the template strand read 3' to 5'"
     ],
     "answer": 1,
-    "explanation": "RNA polymerase synthesizes RNA in the 5' to 3' direction by reading the template DNA strand in the 3' to 5' direction. This antiparallel relationship ensures proper base pairing. Students often confuse the directionality or assume both strands are read in the same direction."
+    "explanation": "RNA polymerase synthesizes RNA in the 5' to 3' direction by reading the template DNA strand in the 3' to 5' direction. This antiparallel relationship ensures proper base pairing. Students often confuse the directionality or assume both strands are read in the same direction.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q211",
@@ -8546,7 +8997,8 @@ window.APBIO_MCQ = [
       "The ribosome will skip over the intron sequence during translation"
     ],
     "answer": 2,
-    "explanation": "Retained introns often contain stop codons in their sequence, leading to premature translation termination and truncated proteins. Introns are not part of the normal coding sequence, so their retention disrupts the intended protein sequence. Ribosomes cannot skip sequences; they translate everything in the mRNA."
+    "explanation": "Retained introns often contain stop codons in their sequence, leading to premature translation termination and truncated proteins. Introns are not part of the normal coding sequence, so their retention disrupts the intended protein sequence. Ribosomes cannot skip sequences; they translate everything in the mRNA.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q212",
@@ -8566,7 +9018,8 @@ window.APBIO_MCQ = [
       "The ribosome automatically translocates to the next codon"
     ],
     "answer": 2,
-    "explanation": "Stop codons (UAG, UAA, UGA) don't code for amino acids. Instead, release factors recognize stop codons and promote hydrolysis of the peptide bond, releasing the completed polypeptide from the ribosome. There are no tRNAs for stop codons, and the ribosome doesn't pause or continue translating."
+    "explanation": "Stop codons (UAG, UAA, UGA) don't code for amino acids. Instead, release factors recognize stop codons and promote hydrolysis of the peptide bond, releasing the completed polypeptide from the ribosome. There are no tRNAs for stop codons, and the ribosome doesn't pause or continue translating.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q213",
@@ -8586,7 +9039,8 @@ window.APBIO_MCQ = [
       "Only closely related species share the same genetic code"
     ],
     "answer": 1,
-    "explanation": "The near universality of the genetic code (with minor exceptions in some organelles and microorganisms) provides strong evidence for common evolutionary ancestry of all life. If the code evolved independently in different lineages, we would expect much more variation. The code is actually highly conserved, not rapidly changing."
+    "explanation": "The near universality of the genetic code (with minor exceptions in some organelles and microorganisms) provides strong evidence for common evolutionary ancestry of all life. If the code evolved independently in different lineages, we would expect much more variation. The code is actually highly conserved, not rapidly changing.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q214",
@@ -8606,7 +9060,8 @@ window.APBIO_MCQ = [
       "The protein would be unaffected due to the degeneracy of the genetic code"
     ],
     "answer": 2,
-    "explanation": "A nonsense mutation creates a premature stop codon, causing translation to terminate early and producing a truncated (shortened) protein that is usually nonfunctional. This differs from missense mutations (wrong amino acid) or silent mutations (no change due to degeneracy)."
+    "explanation": "A nonsense mutation creates a premature stop codon, causing translation to terminate early and producing a truncated (shortened) protein that is usually nonfunctional. This differs from missense mutations (wrong amino acid) or silent mutations (no change due to degeneracy).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q215",
@@ -8626,7 +9081,8 @@ window.APBIO_MCQ = [
       "Gene expression would become constitutive and unregulated"
     ],
     "answer": 2,
-    "explanation": "Transcriptional activators typically work by binding DNA and then interacting with other proteins (like mediator complex or general transcription factors) to enhance transcription. Without protein-protein interactions, the activator cannot effectively promote transcription even though it binds DNA. DNA binding alone is insufficient for activation."
+    "explanation": "Transcriptional activators typically work by binding DNA and then interacting with other proteins (like mediator complex or general transcription factors) to enhance transcription. Without protein-protein interactions, the activator cannot effectively promote transcription even though it binds DNA. DNA binding alone is insufficient for activation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q216",
@@ -8646,7 +9102,8 @@ window.APBIO_MCQ = [
       "Expression increases because the cell needs more tryptophan"
     ],
     "answer": 1,
-    "explanation": "The trp operon is repressible - when tryptophan is abundant, it binds to the trp repressor (acting as a corepressor), enabling the repressor to bind the operator and block transcription. This makes sense because the cell doesn't need to make tryptophan when it's already plentiful. Students often confuse inducible (lac) and repressible (trp) systems."
+    "explanation": "The trp operon is repressible - when tryptophan is abundant, it binds to the trp repressor (acting as a corepressor), enabling the repressor to bind the operator and block transcription. This makes sense because the cell doesn't need to make tryptophan when it's already plentiful. Students often confuse inducible (lac) and repressible (trp) systems.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u6_q217",
@@ -8666,7 +9123,8 @@ window.APBIO_MCQ = [
       "Gene expression would increase because the inverted enhancer would now act as a silencer element"
     ],
     "answer": 1,
-    "explanation": "The correct answer is B. Eukaryotic enhancers function through DNA looping mechanisms that bring them into contact with promoters regardless of their orientation. The enhancer sequences contain binding sites for transcription factors that can function in either orientation when the enhancer loops to contact the promoter region. Choice A reflects the common misconception that enhancers are orientation-dependent like prokaryotic promoter elements. Choice C is incorrect because it assumes the distal enhancer becomes non-functional due to inversion, when in fact both enhancers would continue to work. Choice D is wrong because simply inverting an enhancer doesn't convert it to a silencer - these are functionally different regulatory elements with different DNA-binding proteins."
+    "explanation": "The correct answer is B. Eukaryotic enhancers function through DNA looping mechanisms that bring them into contact with promoters regardless of their orientation. The enhancer sequences contain binding sites for transcription factors that can function in either orientation when the enhancer loops to contact the promoter region. Choice A reflects the common misconception that enhancers are orientation-dependent like prokaryotic promoter elements. Choice C is incorrect because it assumes the distal enhancer becomes non-functional due to inversion, when in fact both enhancers would continue to work. Choice D is wrong because simply inverting an enhancer doesn't convert it to a silencer - these are functionally different regulatory elements with different DNA-binding proteins.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q218",
@@ -8686,7 +9144,8 @@ window.APBIO_MCQ = [
       "Mutations creating new alleles in a population"
     ],
     "answer": 0,
-    "explanation": "Natural selection operates through differential survival and reproduction based on heritable traits that affect fitness. Random changes describe genetic drift, movement between populations is gene flow, and mutations provide raw material but are not the mechanism of selection itself."
+    "explanation": "Natural selection operates through differential survival and reproduction based on heritable traits that affect fitness. Random changes describe genetic drift, movement between populations is gene flow, and mutations provide raw material but are not the mechanism of selection itself.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q219",
@@ -8706,7 +9165,8 @@ window.APBIO_MCQ = [
       "Creation of two distinct peaks in the distribution"
     ],
     "answer": 0,
-    "explanation": "Stabilizing selection favors intermediate phenotypes and selects against extremes, reducing variation around the original mean. Increased variation would occur with disruptive selection, shifting the mean describes directional selection, and two peaks result from disruptive selection."
+    "explanation": "Stabilizing selection favors intermediate phenotypes and selects against extremes, reducing variation around the original mean. Increased variation would occur with disruptive selection, shifting the mean describes directional selection, and two peaks result from disruptive selection.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q220",
@@ -8726,7 +9186,8 @@ window.APBIO_MCQ = [
       "Populations with high mutation rates"
     ],
     "answer": 1,
-    "explanation": "Genetic drift is inversely related to population size and has the strongest effect in small populations regardless of genetic diversity levels. Large populations are less affected by drift, and selection and mutation are separate evolutionary forces."
+    "explanation": "Genetic drift is inversely related to population size and has the strongest effect in small populations regardless of genetic diversity levels. Large populations are less affected by drift, and selection and mutation are separate evolutionary forces.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q221",
@@ -8746,7 +9207,8 @@ window.APBIO_MCQ = [
       "Having different ecological niches"
     ],
     "answer": 2,
-    "explanation": "The biological species concept defines species as groups that can interbreed and produce fertile offspring. Geographic separation, physical differences, and different niches may accompany speciation but are not the defining characteristic under this concept."
+    "explanation": "The biological species concept defines species as groups that can interbreed and produce fertile offspring. Geographic separation, physical differences, and different niches may accompany speciation but are not the defining characteristic under this concept.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q222",
@@ -8766,7 +9228,8 @@ window.APBIO_MCQ = [
       "The chronological order of fossil discoveries"
     ],
     "answer": 0,
-    "explanation": "Phylogenetic trees show evolutionary relationships and common ancestry among species or groups based on shared characteristics. They don't primarily show geographic distribution, ecological interactions, or fossil discovery order, though time may be represented."
+    "explanation": "Phylogenetic trees show evolutionary relationships and common ancestry among species or groups based on shared characteristics. They don't primarily show geographic distribution, ecological interactions, or fossil discovery order, though time may be represented.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q223",
@@ -8786,7 +9249,8 @@ window.APBIO_MCQ = [
       "A geographic barrier"
     ],
     "answer": 2,
-    "explanation": "Nodes in cladograms represent common ancestors - hypothetical or actual ancestral species from which descendant lineages diverged. They don't specifically represent extinct species, living species, or geographic barriers, though ancestors may be extinct."
+    "explanation": "Nodes in cladograms represent common ancestors - hypothetical or actual ancestral species from which descendant lineages diverged. They don't specifically represent extinct species, living species, or geographic barriers, though ancestors may be extinct.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q224",
@@ -8806,7 +9270,8 @@ window.APBIO_MCQ = [
       "Fossil records are complete and accurate"
     ],
     "answer": 1,
-    "explanation": "Molecular clocks assume that mutations accumulate at a relatively constant rate over time in specific genes or DNA sequences. Different genes evolve at different rates, selection varies among species, and fossil records have gaps."
+    "explanation": "Molecular clocks assume that mutations accumulate at a relatively constant rate over time in specific genes or DNA sequences. Different genes evolve at different rates, selection varies among species, and fossil records have gaps.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q225",
@@ -8826,7 +9291,8 @@ window.APBIO_MCQ = [
       "All individuals regardless of trait values"
     ],
     "answer": 2,
-    "explanation": "Directional selection favors individuals at one extreme of a trait distribution, shifting the population mean toward that extreme. Intermediate values are favored in stabilizing selection, both extremes in disruptive selection, and equal fitness describes no selection."
+    "explanation": "Directional selection favors individuals at one extreme of a trait distribution, shifting the population mean toward that extreme. Intermediate values are favored in stabilizing selection, both extremes in disruptive selection, and equal fitness describes no selection.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q226",
@@ -8846,7 +9312,8 @@ window.APBIO_MCQ = [
       "Identical environmental conditions"
     ],
     "answer": 0,
-    "explanation": "Allopatric speciation occurs when populations are geographically isolated, preventing gene flow and allowing divergent evolution. Genetic isolation without geographic separation describes sympatric speciation, hybridization combines rather than separates species, and different rather than identical conditions typically drive divergence."
+    "explanation": "Allopatric speciation occurs when populations are geographically isolated, preventing gene flow and allowing divergent evolution. Genetic isolation without geographic separation describes sympatric speciation, hybridization combines rather than separates species, and different rather than identical conditions typically drive divergence.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q227",
@@ -8866,7 +9333,8 @@ window.APBIO_MCQ = [
       "Mutation"
     ],
     "answer": 2,
-    "explanation": "The bottleneck effect is a special case of genetic drift that occurs when population size is drastically reduced, leading to random loss of alleles and reduced genetic diversity. It's not selection (non-random), gene flow (between populations), or mutation (creation of new alleles)."
+    "explanation": "The bottleneck effect is a special case of genetic drift that occurs when population size is drastically reduced, leading to random loss of alleles and reduced genetic diversity. It's not selection (non-random), gene flow (between populations), or mutation (creation of new alleles).",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q228",
@@ -8886,7 +9354,8 @@ window.APBIO_MCQ = [
       "The population will split into two species immediately"
     ],
     "answer": 1,
-    "explanation": "Natural selection favors traits that increase survival and reproduction. Dark-colored beetles have camouflage advantage, leading to higher fitness. A is wrong because mutations don't occur in response to need. C is wrong because selection favors one extreme. D is wrong because speciation takes much longer."
+    "explanation": "Natural selection favors traits that increase survival and reproduction. Dark-colored beetles have camouflage advantage, leading to higher fitness. A is wrong because mutations don't occur in response to need. C is wrong because selection favors one extreme. D is wrong because speciation takes much longer.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q229",
@@ -8906,7 +9375,8 @@ window.APBIO_MCQ = [
       "Balancing selection"
     ],
     "answer": 2,
-    "explanation": "Directional selection occurs when one extreme phenotype is favored, shifting the population mean. Here, larger beaks are consistently favored. Stabilizing selection favors the average, disruptive selection favors both extremes, and balancing selection maintains multiple alleles."
+    "explanation": "Directional selection occurs when one extreme phenotype is favored, shifting the population mean. Here, larger beaks are consistently favored. Stabilizing selection favors the average, disruptive selection favors both extremes, and balancing selection maintains multiple alleles.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q230",
@@ -8926,7 +9396,8 @@ window.APBIO_MCQ = [
       "Sexual selection for attractive traits"
     ],
     "answer": 2,
-    "explanation": "Stabilizing selection occurs when the intermediate phenotype has the highest fitness, reducing variation around the mean. Both extremes (too small and too large) have reduced survival. Sexual selection involves mate choice, not survival of offspring."
+    "explanation": "Stabilizing selection occurs when the intermediate phenotype has the highest fitness, reducing variation around the mean. Both extremes (too small and too large) have reduced survival. Sexual selection involves mate choice, not survival of offspring.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q231",
@@ -8946,7 +9417,8 @@ window.APBIO_MCQ = [
       "70%"
     ],
     "answer": 1,
-    "explanation": "If q = 0.3, then p = 0.7. Heterozygote frequency = 2pq = 2(0.7)(0.3) = 0.42 = 42%. A represents q², C represents p², and D represents p + q, which are common calculation errors."
+    "explanation": "If q = 0.3, then p = 0.7. Heterozygote frequency = 2pq = 2(0.7)(0.3) = 0.42 = 42%. A represents q², C represents p², and D represents p + q, which are common calculation errors.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q232",
@@ -8966,7 +9438,8 @@ window.APBIO_MCQ = [
       "Absence of new mutations in the gene pool"
     ],
     "answer": 2,
-    "explanation": "Gene flow (migration) introduces new alleles and changes allele frequencies, violating Hardy-Weinberg assumptions. Random mating, large population size, and absence of mutations are actually required conditions for Hardy-Weinberg equilibrium."
+    "explanation": "Gene flow (migration) introduces new alleles and changes allele frequencies, violating Hardy-Weinberg assumptions. Random mating, large population size, and absence of mutations are actually required conditions for Hardy-Weinberg equilibrium.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q233",
@@ -8986,7 +9459,8 @@ window.APBIO_MCQ = [
       "Mutations creating new alleles faster than they're lost"
     ],
     "answer": 1,
-    "explanation": "Genetic drift is the random change in allele frequencies, with stronger effects in smaller populations due to sampling error. Since the alleles don't affect survival, natural selection isn't involved. The population is isolated, so no gene flow occurs."
+    "explanation": "Genetic drift is the random change in allele frequencies, with stronger effects in smaller populations due to sampling error. Since the alleles don't affect survival, natural selection isn't involved. The population is isolated, so no gene flow occurs.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q234",
@@ -9006,7 +9480,8 @@ window.APBIO_MCQ = [
       "Adaptive radiation creating new species"
     ],
     "answer": 1,
-    "explanation": "Founder effect occurs when a small group establishes a new population, carrying only a subset of the original population's genetic variation. Bottleneck effect involves population reduction, not colonization. Gene flow would make populations more similar."
+    "explanation": "Founder effect occurs when a small group establishes a new population, carrying only a subset of the original population's genetic variation. Bottleneck effect involves population reduction, not colonization. Gene flow would make populations more similar.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q235",
@@ -9026,7 +9501,8 @@ window.APBIO_MCQ = [
       "Natural selection will be completely eliminated in both populations"
     ],
     "answer": 1,
-    "explanation": "Gene flow homogenizes allele frequencies between populations over time, reducing genetic differentiation. It doesn't make populations identical immediately, prevents speciation rather than promoting it, and doesn't eliminate natural selection."
+    "explanation": "Gene flow homogenizes allele frequencies between populations over time, reducing genetic differentiation. It doesn't make populations identical immediately, prevents speciation rather than promoting it, and doesn't eliminate natural selection.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q236",
@@ -9046,7 +9522,8 @@ window.APBIO_MCQ = [
       "It will oscillate randomly around the original frequency"
     ],
     "answer": 1,
-    "explanation": "Gene flow introduces alleles at different frequencies, which will shift the recipient population's allele frequencies toward those of the source population. Since no selection is occurring, the beneficial nature doesn't matter - only the mathematical mixing of allele frequencies."
+    "explanation": "Gene flow introduces alleles at different frequencies, which will shift the recipient population's allele frequencies toward those of the source population. Since no selection is occurring, the beneficial nature doesn't matter - only the mathematical mixing of allele frequencies.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q237",
@@ -9066,7 +9543,8 @@ window.APBIO_MCQ = [
       "Convergent evolution producing similar traits"
     ],
     "answer": 1,
-    "explanation": "Allopatric speciation occurs when populations are geographically separated and evolve reproductive isolation. Sympatric speciation occurs without geographic separation, adaptive radiation involves multiple species from one ancestor, and convergent evolution involves unrelated species."
+    "explanation": "Allopatric speciation occurs when populations are geographically separated and evolve reproductive isolation. Sympatric speciation occurs without geographic separation, adaptive radiation involves multiple species from one ancestor, and convergent evolution involves unrelated species.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q238",
@@ -9086,7 +9564,8 @@ window.APBIO_MCQ = [
       "Hybrid breakdown occurring in later generations"
     ],
     "answer": 2,
-    "explanation": "Sympatric speciation occurs within the same geographic area. Polyploidy creates immediate reproductive isolation without requiring geographic separation. This process can happen rapidly, not gradually, and involves chromosome number changes, not hybrid breakdown."
+    "explanation": "Sympatric speciation occurs within the same geographic area. Polyploidy creates immediate reproductive isolation without requiring geographic separation. This process can happen rapidly, not gradually, and involves chromosome number changes, not hybrid breakdown.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q239",
@@ -9106,7 +9585,8 @@ window.APBIO_MCQ = [
       "Genetic drift randomly changing mating preferences"
     ],
     "answer": 1,
-    "explanation": "Prezygotic isolation prevents mating from occurring in the first place. Behavioral isolation through different mating songs prevents successful mating attempts. Postzygotic isolation occurs after mating, and the populations aren't geographically isolated."
+    "explanation": "Prezygotic isolation prevents mating from occurring in the first place. Behavioral isolation through different mating songs prevents successful mating attempts. Postzygotic isolation occurs after mating, and the populations aren't geographically isolated.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q240",
@@ -9126,7 +9606,8 @@ window.APBIO_MCQ = [
       "Have evolved at exactly the same rate since diverging"
     ],
     "answer": 1,
-    "explanation": "Closely related species share more recent evolutionary history and thus more derived traits. They don't necessarily live in the same area due to dispersal, may have different evolutionary rates, and should have more genetic similarities, not fewer."
+    "explanation": "Closely related species share more recent evolutionary history and thus more derived traits. They don't necessarily live in the same area due to dispersal, may have different evolutionary rates, and should have more genetic similarities, not fewer.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q241",
@@ -9146,7 +9627,8 @@ window.APBIO_MCQ = [
       "Ecological preferences and habitat use"
     ],
     "answer": 2,
-    "explanation": "Highly conserved molecular sequences change slowly and retain evidence of ancient relationships. Behavioral traits and body shapes can evolve rapidly or show convergent evolution. Ecological preferences are often influenced by environment rather than evolutionary history."
+    "explanation": "Highly conserved molecular sequences change slowly and retain evidence of ancient relationships. Behavioral traits and body shapes can evolve rapidly or show convergent evolution. Ecological preferences are often influenced by environment rather than evolutionary history.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q242",
@@ -9166,7 +9648,8 @@ window.APBIO_MCQ = [
       "They must be present in the outgroup to be useful"
     ],
     "answer": 1,
-    "explanation": "Derived characteristics are evolutionary innovations that evolved in certain lineages after divergence from ancestors. They're not present in all organisms studied, may not be obvious features, and by definition are absent in the outgroup used for comparison."
+    "explanation": "Derived characteristics are evolutionary innovations that evolved in certain lineages after divergence from ancestors. They're not present in all organisms studied, may not be obvious features, and by definition are absent in the outgroup used for comparison.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q243",
@@ -9186,7 +9669,8 @@ window.APBIO_MCQ = [
       "All three groups evolved at the same time"
     ],
     "answer": 1,
-    "explanation": "Organisms sharing a more recent common ancestor (same node) are more closely related. Mammals didn't evolve from birds - they share a common ancestor. Position on a cladogram doesn't indicate evolutionary advancement, and the branching pattern shows different divergence times."
+    "explanation": "Organisms sharing a more recent common ancestor (same node) are more closely related. Mammals didn't evolve from birds - they share a common ancestor. Position on a cladogram doesn't indicate evolutionary advancement, and the branching pattern shows different divergence times.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q244",
@@ -9206,7 +9690,8 @@ window.APBIO_MCQ = [
       "To prove that evolution has occurred"
     ],
     "answer": 1,
-    "explanation": "Outgroups help determine trait polarity - whether characteristics are ancestral (primitive) or derived (evolved). They don't indicate recent evolution, aren't used to show convergent evolution, and aren't needed to prove evolution occurred."
+    "explanation": "Outgroups help determine trait polarity - whether characteristics are ancestral (primitive) or derived (evolved). They don't indicate recent evolution, aren't used to show convergent evolution, and aren't needed to prove evolution occurred.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q245",
@@ -9226,7 +9711,8 @@ window.APBIO_MCQ = [
       "Environmental changes have no effect on mutation rates"
     ],
     "answer": 1,
-    "explanation": "Molecular clocks assume that neutral mutations (those not affected by selection) accumulate at roughly constant rates. Different genes can evolve at different rates, selection typically constrains rather than accelerates molecular evolution, and environmental factors can influence mutation rates."
+    "explanation": "Molecular clocks assume that neutral mutations (those not affected by selection) accumulate at roughly constant rates. Different genes can evolve at different rates, selection typically constrains rather than accelerates molecular evolution, and environmental factors can influence mutation rates.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q246",
@@ -9246,7 +9732,8 @@ window.APBIO_MCQ = [
       "The sequence differences are all beneficial mutations"
     ],
     "answer": 1,
-    "explanation": "Molecular clocks depend on constant mutation rates over time. Whether the sequence codes for essential proteins, environmental pressures, or beneficial nature of mutations are less critical than rate constancy for accurate time estimates."
+    "explanation": "Molecular clocks depend on constant mutation rates over time. Whether the sequence codes for essential proteins, environmental pressures, or beneficial nature of mutations are less critical than rate constancy for accurate time estimates.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q247",
@@ -9266,7 +9753,8 @@ window.APBIO_MCQ = [
       "Having fossil evidence to calibrate the clock"
     ],
     "answer": 2,
-    "explanation": "Strong selection violates the assumption that mutations are neutral and accumulate at constant rates. Conserved sequences and fossil calibration improve reliability, while recent divergence just means fewer mutations to count but doesn't make estimates less reliable."
+    "explanation": "Strong selection violates the assumption that mutations are neutral and accumulate at constant rates. Conserved sequences and fossil calibration improve reliability, while recent divergence just means fewer mutations to count but doesn't make estimates less reliable.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q248",
@@ -9286,7 +9774,8 @@ window.APBIO_MCQ = [
       "All beetles gradually changed color during their lifetimes in response to the pollution"
     ],
     "answer": 2,
-    "explanation": "Natural selection occurs when individuals with advantageous traits have higher fitness (survival and reproductive success). Dark beetles survived better and reproduced more, increasing their frequency. A is wrong because organisms don't consciously adapt. B confuses the cause - pollution changed selection pressure, not directly causing helpful mutations. D describes acquired characteristics, which aren't inherited."
+    "explanation": "Natural selection occurs when individuals with advantageous traits have higher fitness (survival and reproductive success). Dark beetles survived better and reproduced more, increasing their frequency. A is wrong because organisms don't consciously adapt. B confuses the cause - pollution changed selection pressure, not directly causing helpful mutations. D describes acquired characteristics, which aren't inherited.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q249",
@@ -9306,7 +9795,8 @@ window.APBIO_MCQ = [
       "Sexual selection based on wing length preferences"
     ],
     "answer": 2,
-    "explanation": "Stabilizing selection occurs when individuals with intermediate phenotypes have highest fitness while extremes are selected against. Here, both very short and very long wings reduce survival. A is wrong because selection doesn't favor one extreme. B is wrong because extremes are eliminated, not favored. D is wrong because selection is based on survival, not mate choice."
+    "explanation": "Stabilizing selection occurs when individuals with intermediate phenotypes have highest fitness while extremes are selected against. Here, both very short and very long wings reduce survival. A is wrong because selection doesn't favor one extreme. B is wrong because extremes are eliminated, not favored. D is wrong because selection is based on survival, not mate choice.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q250",
@@ -9326,7 +9816,8 @@ window.APBIO_MCQ = [
       "Both populations will maintain their original allele frequencies indefinitely"
     ],
     "answer": 1,
-    "explanation": "Genetic drift has stronger effects in smaller populations because random sampling error is greater when fewer individuals reproduce. The northern population (50 individuals) will experience more dramatic random changes in allele frequencies than the southern population (500 individuals). A ignores drift effects. C incorrectly suggests larger populations have more mutations per capita. D ignores that isolated populations will diverge through drift."
+    "explanation": "Genetic drift has stronger effects in smaller populations because random sampling error is greater when fewer individuals reproduce. The northern population (50 individuals) will experience more dramatic random changes in allele frequencies than the southern population (500 individuals). A ignores drift effects. C incorrectly suggests larger populations have more mutations per capita. D ignores that isolated populations will diverge through drift.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q251",
@@ -9346,7 +9837,8 @@ window.APBIO_MCQ = [
       "The light sand population will maintain exactly 90% light fur due to strong selection"
     ],
     "answer": 0,
-    "explanation": "Gene flow introduces new alleles into populations, even if those alleles reduce fitness in the new environment. Migration of dark-furred mice will increase dark allele frequency in the light sand population, though selection will work against it. B is wrong because individual organisms don't evolve. C is wrong because gene flow occurs regardless of fitness effects. D ignores that gene flow can overcome selection when migration is strong enough."
+    "explanation": "Gene flow introduces new alleles into populations, even if those alleles reduce fitness in the new environment. Migration of dark-furred mice will increase dark allele frequency in the light sand population, though selection will work against it. B is wrong because individual organisms don't evolve. C is wrong because gene flow occurs regardless of fitness effects. D ignores that gene flow can overcome selection when migration is strong enough.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q252",
@@ -9366,7 +9858,8 @@ window.APBIO_MCQ = [
       "Parapatric speciation along an environmental gradient"
     ],
     "answer": 1,
-    "explanation": "Allopatric speciation occurs when populations become geographically separated, then diverge until reproductive isolation develops. The land bridge created geographic separation, allowing independent evolution. A is wrong because sympatric speciation occurs without geographic separation. C is wrong because this describes one speciation event, not multiple species radiating. D is wrong because parapatric speciation occurs along continuous gradients, not complete separation."
+    "explanation": "Allopatric speciation occurs when populations become geographically separated, then diverge until reproductive isolation develops. The land bridge created geographic separation, allowing independent evolution. A is wrong because sympatric speciation occurs without geographic separation. C is wrong because this describes one speciation event, not multiple species radiating. D is wrong because parapatric speciation occurs along continuous gradients, not complete separation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q253",
@@ -9386,7 +9879,8 @@ window.APBIO_MCQ = [
       "All species are equally related because they share common DNA sequences"
     ],
     "answer": 0,
-    "explanation": "Higher sequence similarity indicates more recent common ancestry and closer evolutionary relationships. Species A and B share 95% similarity (highest), indicating they are most closely related. B is wrong because 95% > 92% similarity. C is wrong because being distantly related doesn't make E 'primitive' - it may have evolved more rapidly. D ignores the quantitative differences in similarity percentages."
+    "explanation": "Higher sequence similarity indicates more recent common ancestry and closer evolutionary relationships. Species A and B share 95% similarity (highest), indicating they are most closely related. B is wrong because 95% > 92% similarity. C is wrong because being distantly related doesn't make E 'primitive' - it may have evolved more rapidly. D ignores the quantitative differences in similarity percentages.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q254",
@@ -9406,7 +9900,8 @@ window.APBIO_MCQ = [
       "The amniotic egg is a primitive trait that appeared before vertebrates evolved"
     ],
     "answer": 1,
-    "explanation": "A synapomorphy at the base of a clade indicates the trait evolved once in the common ancestor of all groups in that clade. The amniotic egg evolved in the ancestor of reptiles, birds, and mammals, then was inherited by all descendants. A is wrong because synapomorphies indicate common ancestry, not convergence. C misinterprets cladogram structure. D is wrong because the trait appears within vertebrates, not before them."
+    "explanation": "A synapomorphy at the base of a clade indicates the trait evolved once in the common ancestor of all groups in that clade. The amniotic egg evolved in the ancestor of reptiles, birds, and mammals, then was inherited by all descendants. A is wrong because synapomorphies indicate common ancestry, not convergence. C misinterprets cladogram structure. D is wrong because the trait appears within vertebrates, not before them.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u7_q255",
@@ -9426,7 +9921,8 @@ window.APBIO_MCQ = [
       "Natural selection has been acting strongly on the gene sequence"
     ],
     "answer": 0,
-    "explanation": "Molecular clocks assume constant mutation rates over time. If the actual mutation rate was higher than assumed, more differences would accumulate in less time, making the divergence appear older. A faster molecular clock would overestimate divergence time. B is wrong because both methods have limitations. C would underestimate divergence time. D could affect rates but the question asks for the most likely explanation for overestimation."
+    "explanation": "Molecular clocks assume constant mutation rates over time. If the actual mutation rate was higher than assumed, more differences would accumulate in less time, making the divergence appear older. A faster molecular clock would overestimate divergence time. B is wrong because both methods have limitations. C would underestimate divergence time. D could affect rates but the question asks for the most likely explanation for overestimation.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q256",
@@ -9446,7 +9942,8 @@ window.APBIO_MCQ = [
       "Negative growth"
     ],
     "answer": 0,
-    "explanation": "Exponential growth occurs when a population grows at a constant rate, producing a J-shaped curve. Logistic growth produces an S-shaped curve, linear growth produces a straight line, and negative growth involves population decline."
+    "explanation": "Exponential growth occurs when a population grows at a constant rate, producing a J-shaped curve. Logistic growth produces an S-shaped curve, linear growth produces a straight line, and negative growth involves population decline.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q257",
@@ -9466,7 +9963,8 @@ window.APBIO_MCQ = [
       "Growth rate becomes negative"
     ],
     "answer": 0,
-    "explanation": "In logistic growth, the growth rate decreases as the population approaches carrying capacity due to increased competition and resource limitation. The growth rate doesn't increase, remain constant, or become negative at carrying capacity."
+    "explanation": "In logistic growth, the growth rate decreases as the population approaches carrying capacity due to increased competition and resource limitation. The growth rate doesn't increase, remain constant, or become negative at carrying capacity.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q258",
@@ -9486,7 +9984,8 @@ window.APBIO_MCQ = [
       "The rate at which a population doubles"
     ],
     "answer": 0,
-    "explanation": "Carrying capacity is the maximum population size that an environment can sustain indefinitely with available resources. It's not about growth rates, minimum population sizes, or doubling times."
+    "explanation": "Carrying capacity is the maximum population size that an environment can sustain indefinitely with available resources. It's not about growth rates, minimum population sizes, or doubling times.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q259",
@@ -9506,7 +10005,8 @@ window.APBIO_MCQ = [
       "Predator population becomes extinct"
     ],
     "answer": 0,
-    "explanation": "When prey populations increase, predator populations typically increase after a time lag due to increased food availability. The predator response is delayed, not immediate, constant, or leading to extinction."
+    "explanation": "When prey populations increase, predator populations typically increase after a time lag due to increased food availability. The predator response is delayed, not immediate, constant, or leading to extinction.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q260",
@@ -9526,7 +10026,8 @@ window.APBIO_MCQ = [
       "Interference competition"
     ],
     "answer": 0,
-    "explanation": "Intraspecific competition occurs between individuals of the same species. Interspecific competition occurs between different species, while exploitative and interference are types of competition mechanisms, not classifications by species."
+    "explanation": "Intraspecific competition occurs between individuals of the same species. Interspecific competition occurs between different species, while exploitative and interference are types of competition mechanisms, not classifications by species.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q261",
@@ -9546,7 +10047,8 @@ window.APBIO_MCQ = [
       "Predation"
     ],
     "answer": 2,
-    "explanation": "Mutualism is a symbiotic relationship where both species benefit. In parasitism, one benefits and one is harmed; in commensalism, one benefits and one is unaffected; predation is not typically classified as symbiosis."
+    "explanation": "Mutualism is a symbiotic relationship where both species benefit. In parasitism, one benefits and one is harmed; in commensalism, one benefits and one is unaffected; predation is not typically classified as symbiosis.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q262",
@@ -9566,7 +10068,8 @@ window.APBIO_MCQ = [
       "Have been recently disturbed by fire"
     ],
     "answer": 2,
-    "explanation": "Primary succession occurs in areas that lack soil and have never been colonized by organisms, such as bare rock or new volcanic islands. Areas with existing soil or previous colonization undergo secondary succession."
+    "explanation": "Primary succession occurs in areas that lack soil and have never been colonized by organisms, such as bare rock or new volcanic islands. Areas with existing soil or previous colonization undergo secondary succession.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q263",
@@ -9586,7 +10089,8 @@ window.APBIO_MCQ = [
       "90%"
     ],
     "answer": 2,
-    "explanation": "Approximately 10% of energy is transferred from one trophic level to the next, following the 10% rule. The other 90% is lost as heat through metabolic processes, making 50%, 25%, and 90% incorrect."
+    "explanation": "Approximately 10% of energy is transferred from one trophic level to the next, following the 10% rule. The other 90% is lost as heat through metabolic processes, making 50%, 25%, and 90% incorrect.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q264",
@@ -9606,7 +10110,8 @@ window.APBIO_MCQ = [
       "Decomposers"
     ],
     "answer": 2,
-    "explanation": "Producers (autotrophs) are always at the base of food chains because they convert energy from sunlight or chemicals into organic compounds. Consumers depend on other organisms for energy, and decomposers break down dead material."
+    "explanation": "Producers (autotrophs) are always at the base of food chains because they convert energy from sunlight or chemicals into organic compounds. Consumers depend on other organisms for energy, and decomposers break down dead material.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q265",
@@ -9626,7 +10131,8 @@ window.APBIO_MCQ = [
       "Decomposition"
     ],
     "answer": 2,
-    "explanation": "Nitrogen fixation converts atmospheric nitrogen gas (N2) into ammonia (NH3). Denitrification converts nitrates back to nitrogen gas, nitrification converts ammonia to nitrates, and decomposition releases nitrogen from organic matter."
+    "explanation": "Nitrogen fixation converts atmospheric nitrogen gas (N2) into ammonia (NH3). Denitrification converts nitrates back to nitrogen gas, nitrification converts ammonia to nitrates, and decomposition releases nitrogen from organic matter.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q266",
@@ -9646,7 +10152,8 @@ window.APBIO_MCQ = [
       "Decomposition"
     ],
     "answer": 1,
-    "explanation": "Photosynthesis removes carbon dioxide from the atmosphere by converting it into glucose. Cellular respiration, combustion, and decomposition all release carbon dioxide into the atmosphere."
+    "explanation": "Photosynthesis removes carbon dioxide from the atmosphere by converting it into glucose. Cellular respiration, combustion, and decomposition all release carbon dioxide into the atmosphere.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q267",
@@ -9666,7 +10173,8 @@ window.APBIO_MCQ = [
       "Urbanization"
     ],
     "answer": 1,
-    "explanation": "Burning fossil fuels is the primary human activity causing increased atmospheric CO2 levels. While deforestation, agriculture, and urbanization contribute to environmental changes, fossil fuel combustion is the largest source of CO2 emissions."
+    "explanation": "Burning fossil fuels is the primary human activity causing increased atmospheric CO2 levels. While deforestation, agriculture, and urbanization contribute to environmental changes, fossil fuel combustion is the largest source of CO2 emissions.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q268",
@@ -9686,7 +10194,8 @@ window.APBIO_MCQ = [
       "Heavy metals"
     ],
     "answer": 2,
-    "explanation": "Eutrophication is primarily caused by excess nitrogen and phosphorus from agricultural runoff and sewage, leading to algal blooms. Carbon dioxide, oxygen levels, and heavy metals are not the primary causes of eutrophication."
+    "explanation": "Eutrophication is primarily caused by excess nitrogen and phosphorus from agricultural runoff and sewage, leading to algal blooms. Carbon dioxide, oxygen levels, and heavy metals are not the primary causes of eutrophication.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q269",
@@ -9706,7 +10215,8 @@ window.APBIO_MCQ = [
       "Complex root systems"
     ],
     "answer": 2,
-    "explanation": "Pioneer species typically have rapid growth and high reproductive rates to quickly colonize new areas. They are usually small, have low competitive ability, and simple structures rather than being large, highly competitive, or having complex root systems."
+    "explanation": "Pioneer species typically have rapid growth and high reproductive rates to quickly colonize new areas. They are usually small, have low competitive ability, and simple structures rather than being large, highly competitive, or having complex root systems.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q270",
@@ -9726,7 +10236,8 @@ window.APBIO_MCQ = [
       "Genetic drift reducing population fitness"
     ],
     "answer": 1,
-    "explanation": "Depletion of nutrients is the most common factor causing exponential growth to slow down as the population approaches carrying capacity. Increased mutation rate, antibiotic resistance, and genetic drift are not typical causes of growth rate reduction in exponential-to-logistic transitions."
+    "explanation": "Depletion of nutrients is the most common factor causing exponential growth to slow down as the population approaches carrying capacity. Increased mutation rate, antibiotic resistance, and genetic drift are not typical causes of growth rate reduction in exponential-to-logistic transitions.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q271",
@@ -9746,7 +10257,8 @@ window.APBIO_MCQ = [
       "When the population size exceeds the carrying capacity"
     ],
     "answer": 1,
-    "explanation": "Maximum growth rate occurs at K/2 because this is where the product of population size and remaining capacity (K-N) is maximized. At K, growth rate is zero; near zero, absolute numbers are too small; exceeding K results in negative growth."
+    "explanation": "Maximum growth rate occurs at K/2 because this is where the product of population size and remaining capacity (K-N) is maximized. At K, growth rate is zero; near zero, absolute numbers are too small; exceeding K results in negative growth.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q272",
@@ -9766,7 +10278,8 @@ window.APBIO_MCQ = [
       "The carrying capacity changes seasonally between 800 and 950 individuals"
     ],
     "answer": 1,
-    "explanation": "Carrying capacity represents the average sustainable population size (800), while temporary favorable conditions can cause overshoots. The population returning to 800 indicates this is the sustainable level, not 950 which appears to be temporary."
+    "explanation": "Carrying capacity represents the average sustainable population size (800), while temporary favorable conditions can cause overshoots. The population returning to 800 indicates this is the sustainable level, not 950 which appears to be temporary.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q273",
@@ -9786,7 +10299,8 @@ window.APBIO_MCQ = [
       "Environmental factors affect predators and prey at different times"
     ],
     "answer": 1,
-    "explanation": "Time delays occur because predators need time to find mates, reproduce, and raise offspring after prey becomes abundant. While reproductive rates differ, the key is the lag time in population response to changing food availability."
+    "explanation": "Time delays occur because predators need time to find mates, reproduce, and raise offspring after prey becomes abundant. While reproductive rates differ, the key is the lag time in population response to changing food availability.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q274",
@@ -9806,7 +10320,8 @@ window.APBIO_MCQ = [
       "Character displacement in flowering time"
     ],
     "answer": 1,
-    "explanation": "Different blooming times represent temporal resource partitioning, allowing both species to coexist by using the same resource (pollinators) at different times. This reduces direct competition rather than causing exclusion or displacement."
+    "explanation": "Different blooming times represent temporal resource partitioning, allowing both species to coexist by using the same resource (pollinators) at different times. This reduces direct competition rather than causing exclusion or displacement.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q275",
@@ -9826,7 +10341,8 @@ window.APBIO_MCQ = [
       "Mosses → lichens → grasses → trees"
     ],
     "answer": 1,
-    "explanation": "Primary succession begins with pioneer species that can colonize bare rock. Lichens break down rock to create initial soil, followed by mosses, then grasses, shrubs, and finally trees as soil depth and nutrients accumulate."
+    "explanation": "Primary succession begins with pioneer species that can colonize bare rock. Lichens break down rock to create initial soil, followed by mosses, then grasses, shrubs, and finally trees as soil depth and nutrients accumulate.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q276",
@@ -9846,7 +10362,8 @@ window.APBIO_MCQ = [
       "1 kJ"
     ],
     "answer": 1,
-    "explanation": "Energy transfer follows the 10% rule: primary consumers get ~1,000 kJ (10% of 10,000), and secondary consumers get ~100 kJ (10% of 1,000). Most energy is lost as heat through metabolic processes at each trophic level."
+    "explanation": "Energy transfer follows the 10% rule: primary consumers get ~1,000 kJ (10% of 10,000), and secondary consumers get ~100 kJ (10% of 1,000). Most energy is lost as heat through metabolic processes at each trophic level.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q277",
@@ -9866,7 +10383,8 @@ window.APBIO_MCQ = [
       "Ammonification by decomposers"
     ],
     "answer": 1,
-    "explanation": "Nitrogen fixation breaks the triple bond in N₂ and converts it to ammonia. Nitrification converts ammonia to nitrates, denitrification converts nitrates back to N₂, and ammonification converts organic nitrogen to ammonia."
+    "explanation": "Nitrogen fixation breaks the triple bond in N₂ and converts it to ammonia. Nitrification converts ammonia to nitrates, denitrification converts nitrates back to N₂, and ammonification converts organic nitrogen to ammonia.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q278",
@@ -9886,7 +10404,8 @@ window.APBIO_MCQ = [
       "Acidification of water due to excess nitrogen compounds"
     ],
     "answer": 1,
-    "explanation": "Excess nutrients cause algal blooms, which die and decompose, consuming oxygen and creating hypoxic conditions. This typically decreases biodiversity rather than increasing it, and doesn't directly cause acidification or temperature changes."
+    "explanation": "Excess nutrients cause algal blooms, which die and decompose, consuming oxygen and creating hypoxic conditions. This typically decreases biodiversity rather than increasing it, and doesn't directly cause acidification or temperature changes.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q279",
@@ -9906,7 +10425,8 @@ window.APBIO_MCQ = [
       "1.0 per year"
     ],
     "answer": 0,
-    "explanation": "Intrinsic growth rate r = birth rate - death rate = 25/1000 - 15/1000 = 0.025 - 0.015 = 0.01 per year. The other options represent common calculation errors or confusion with percentage values."
+    "explanation": "Intrinsic growth rate r = birth rate - death rate = 25/1000 - 15/1000 = 0.025 - 0.015 = 0.01 per year. The other options represent common calculation errors or confusion with percentage values.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q280",
@@ -9926,7 +10446,8 @@ window.APBIO_MCQ = [
       "Growth rate becomes negative due to overcrowding"
     ],
     "answer": 2,
-    "explanation": "In logistic growth, environmental resistance increases as population approaches carrying capacity. At 75% of K, competition for resources is greater than at 25% of K, reducing the actual growth rate despite more individuals present."
+    "explanation": "In logistic growth, environmental resistance increases as population approaches carrying capacity. At 75% of K, competition for resources is greater than at 25% of K, reducing the actual growth rate despite more individuals present.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q281",
@@ -9946,7 +10467,8 @@ window.APBIO_MCQ = [
       "Permanently decrease due to soil damage from the fire"
     ],
     "answer": 1,
-    "explanation": "Forest fires initially destroy habitat and food sources, reducing carrying capacity. However, fires often stimulate new plant growth and create edge habitats that can support more deer long-term, potentially increasing carrying capacity above pre-fire levels."
+    "explanation": "Forest fires initially destroy habitat and food sources, reducing carrying capacity. However, fires often stimulate new plant growth and create edge habitats that can support more deer long-term, potentially increasing carrying capacity above pre-fire levels.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q282",
@@ -9966,7 +10488,8 @@ window.APBIO_MCQ = [
       "Predator population will switch to alternative prey species"
     ],
     "answer": 1,
-    "explanation": "Improved prey defenses will likely lead to new equilibrium levels where the prey population stabilizes at a higher level and the predator population at a correspondingly lower level. Complete extinction or exponential growth are unlikely in stable ecosystems."
+    "explanation": "Improved prey defenses will likely lead to new equilibrium levels where the prey population stabilizes at a higher level and the predator population at a correspondingly lower level. Complete extinction or exponential growth are unlikely in stable ecosystems.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q283",
@@ -9986,7 +10509,8 @@ window.APBIO_MCQ = [
       "Habitat fragmentation forcing niche separation"
     ],
     "answer": 1,
-    "explanation": "Character displacement occurs when competing species evolve different characteristics to reduce competition. The spatial separation of nesting heights represents evolutionary divergence in response to competitive pressure, allowing coexistence."
+    "explanation": "Character displacement occurs when competing species evolve different characteristics to reduce competition. The spatial separation of nesting heights represents evolutionary divergence in response to competitive pressure, allowing coexistence.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q284",
@@ -10006,7 +10530,8 @@ window.APBIO_MCQ = [
       "Parasitism because the cleaner fish sometimes harm their host"
     ],
     "answer": 2,
-    "explanation": "This relationship demonstrates that symbioses can be context-dependent, shifting between mutualism (when cleaning) and parasitism (when biting healthy tissue). The overall relationship is beneficial but includes both positive and negative interactions."
+    "explanation": "This relationship demonstrates that symbioses can be context-dependent, shifting between mutualism (when cleaning) and parasitism (when biting healthy tissue). The overall relationship is beneficial but includes both positive and negative interactions.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q285",
@@ -10026,7 +10551,8 @@ window.APBIO_MCQ = [
       "Agricultural fields are usually located in more favorable climates"
     ],
     "answer": 1,
-    "explanation": "Secondary succession is faster because soil, nutrients, and often seed banks or root systems are already present, unlike primary succession which must start from bare rock or sand with no existing soil or biological legacy."
+    "explanation": "Secondary succession is faster because soil, nutrients, and often seed banks or root systems are already present, unlike primary succession which must start from bare rock or sand with no existing soil or biological legacy.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q286",
@@ -10046,7 +10572,8 @@ window.APBIO_MCQ = [
       "Competition becomes too intense at higher trophic levels"
     ],
     "answer": 1,
-    "explanation": "Energy loss at each trophic transfer (typically 90%) means insufficient energy remains to support viable populations beyond 4-5 levels. While other factors may play roles, the fundamental constraint is energetic, not ecological specialization or competition."
+    "explanation": "Energy loss at each trophic transfer (typically 90%) means insufficient energy remains to support viable populations beyond 4-5 levels. While other factors may play roles, the fundamental constraint is energetic, not ecological specialization or competition.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q287",
@@ -10066,7 +10593,8 @@ window.APBIO_MCQ = [
       "Fossil fuel combustion by humans"
     ],
     "answer": 1,
-    "explanation": "Photosynthesis removes approximately 120 billion tons of carbon from the atmosphere annually, far exceeding human fossil fuel emissions (~10 billion tons). Respiration and decomposition return carbon to the atmosphere rather than removing it."
+    "explanation": "Photosynthesis removes approximately 120 billion tons of carbon from the atmosphere annually, far exceeding human fossil fuel emissions (~10 billion tons). Respiration and decomposition return carbon to the atmosphere rather than removing it.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q288",
@@ -10086,7 +10614,8 @@ window.APBIO_MCQ = [
       "Changing local climate conditions within fragments"
     ],
     "answer": 1,
-    "explanation": "Fragmentation's primary impact is reducing habitat area and creating small, isolated populations that are more vulnerable to extinction due to genetic bottlenecks, edge effects, and reduced recolonization ability. Direct mortality and invasive species are secondary effects."
+    "explanation": "Fragmentation's primary impact is reducing habitat area and creating small, isolated populations that are more vulnerable to extinction due to genetic bottlenecks, edge effects, and reduced recolonization ability. Direct mortality and invasive species are secondary effects.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q289",
@@ -10106,7 +10635,8 @@ window.APBIO_MCQ = [
       "500 individuals"
     ],
     "answer": 1,
-    "explanation": "In logistic growth, the maximum growth rate occurs at K/2 (half the carrying capacity). Since K=500, maximum growth rate occurs at 250 individuals. Students often think growth rate is highest early in exponential phase (A), near carrying capacity (C or D), but logistic growth rate peaks at the inflection point where population size equals K/2."
+    "explanation": "In logistic growth, the maximum growth rate occurs at K/2 (half the carrying capacity). Since K=500, maximum growth rate occurs at 250 individuals. Students often think growth rate is highest early in exponential phase (A), near carrying capacity (C or D), but logistic growth rate peaks at the inflection point where population size equals K/2.",
+    "type": "MCQ"
   },
   {
     "id": "bio_u8_q290",
@@ -10126,6 +10656,7 @@ window.APBIO_MCQ = [
       "Oxygen depletion → reduced photosynthesis → algal death → nutrient limitation"
     ],
     "answer": 0,
-    "explanation": "Eutrophication follows a predictable sequence: excess nutrients cause algal blooms, which eventually die and decompose, consuming oxygen and causing hypoxic conditions that kill fish. Students often confuse the order of events (B, D) or assume the system self-regulates positively (C), missing that eutrophication creates a destructive cascade."
+    "explanation": "Eutrophication follows a predictable sequence: excess nutrients cause algal blooms, which eventually die and decompose, consuming oxygen and causing hypoxic conditions that kill fish. Students often confuse the order of events (B, D) or assume the system self-regulates positively (C), missing that eutrophication creates a destructive cascade.",
+    "type": "MCQ"
   }
 ];
