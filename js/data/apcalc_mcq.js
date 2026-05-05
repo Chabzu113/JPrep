@@ -15,7 +15,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 3,
-    "explanation": "Factor the numerator: (x+2)(x-2)/(x-2) = x+2. As x$\\to$2, this equals 4."
+    "explanation": "Factor the numerator: (x+2)(x-2)/(x-2) = x+2. As x$\\to$2, this equals 4.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_002",
@@ -33,7 +34,8 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 2,
-    "explanation": "Divide numerator and denominator by $x^3$. All other terms go to 0, leaving 5/3."
+    "explanation": "Divide numerator and denominator by $x^3$. All other terms go to 0, leaving 5/3.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_003",
@@ -51,7 +53,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 2,
-    "explanation": "Rewrite as (4/2) · sin(4x)/(4x). As x$\\to$0, sin(4x)/(4x)$\\to$1, so the limit is 2."
+    "explanation": "Rewrite as (4/2) · sin(4x)/(4x). As x$\\to$0, sin(4x)/(4x)$\\to$1, so the limit is 2.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_004",
@@ -69,7 +72,8 @@ var APCALC_MCQ = [
       "$\\lim_{x \\to 3} f(x)$ does not exist"
     ],
     "answer": 2,
-    "explanation": "Factor: (x-3)(x+2)/(x-3) = x+2. The limit as x$\\to$3 equals 5, but f(3) is undefined.\nRemovable discontinuity."
+    "explanation": "Factor: (x-3)(x+2)/(x-3) = x+2. The limit as x$\\to$3 equals 5, but f(3) is undefined.\nRemovable discontinuity.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_005",
@@ -87,7 +91,8 @@ var APCALC_MCQ = [
       "$+\\infty$"
     ],
     "answer": 3,
-    "explanation": "As x approaches 0 from the right, 1/x grows without bound."
+    "explanation": "As x approaches 0 from the right, 1/x grows without bound.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_006",
@@ -105,7 +110,8 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 1,
-    "explanation": "Multiply by (1+cosx)/(1+cosx) and use si$n^2$x = 1-co$s^2$x, giving si$n^2$x/[$x^2$(1+cosx)].\nAs x$\\to$0, sin(x)/x$\\to$1 and 1+cosx$\\to$2, so the result is 1/2."
+    "explanation": "Multiply by (1+cosx)/(1+cosx) and use si$n^2$x = 1-co$s^2$x, giving si$n^2$x/[$x^2$(1+cosx)].\nAs x$\\to$0, sin(x)/x$\\to$1 and 1+cosx$\\to$2, so the result is 1/2.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_007",
@@ -123,7 +129,8 @@ var APCALC_MCQ = [
       "f is continuous at x = 2 because $\\lim_{x \\to 2}$ f(x) = f(2)"
     ],
     "answer": 3,
-    "explanation": "$\\lim_{x \\to 2^-}$ = 4+1 = 5, $\\lim_{x \\to 2^+}$ = 6-1 = 5, f(2) = 5. All three agree, so f is\ncontinuous."
+    "explanation": "$\\lim_{x \\to 2^-}$ = 4+1 = 5, $\\lim_{x \\to 2^+}$ = 6-1 = 5, f(2) = 5. All three agree, so f is\ncontinuous.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_008",
@@ -141,7 +148,8 @@ var APCALC_MCQ = [
       "$-\\infty$"
     ],
     "answer": 3,
-    "explanation": "Numerator grows as $x^2$, denominator grows as x. The ratio behaves like 2x $\\to$\n-$\\infty$ as x $\\to$ -$\\infty$."
+    "explanation": "Numerator grows as $x^2$, denominator grows as x. The ratio behaves like 2x $\\to$\n-$\\infty$ as x $\\to$ -$\\infty$.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_009",
@@ -159,7 +167,8 @@ var APCALC_MCQ = [
       "$\\lim_{x \\to a}$ [f(x) + g(x)] = 0"
     ],
     "answer": 2,
-    "explanation": "By limit laws, lim[f(x)·g(x)] = L·0 = 0. The others are not guaranteed — f(x)/g(x)\ndepends on whether L is also 0."
+    "explanation": "By limit laws, lim[f(x)·g(x)] = L·0 = 0. The others are not guaranteed — f(x)/g(x)\ndepends on whether L is also 0.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_010",
@@ -199,7 +208,8 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 1,
-    "explanation": "Values approach 4 from both sides as x$\\to$2."
+    "explanation": "Values approach 4 from both sides as x$\\to$2.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_011",
@@ -217,7 +227,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 0,
-    "explanation": "For continuity, the left-hand limit must equal f(2). The left-hand limit is 2k + 3 and f(2) = $2^2$ - 1 = 3. Setting 2k + 3 = 3 yields 2k = 0, so k = 0."
+    "explanation": "For continuity, the left-hand limit must equal f(2). The left-hand limit is 2k + 3 and f(2) = $2^2$ - 1 = 3. Setting 2k + 3 = 3 yields 2k = 0, so k = 0.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_012",
@@ -235,7 +246,8 @@ var APCALC_MCQ = [
       "f is increasing on [1, 4]"
     ],
     "answer": 1,
-    "explanation": "By the Intermediate Value Theorem, since f is continuous and f(1) < 0 < f(4),\nthere must be at least one c in (1,4) where f(c) = 0."
+    "explanation": "By the Intermediate Value Theorem, since f is continuous and f(1) < 0 < f(4),\nthere must be at least one c in (1,4) where f(c) = 0.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_013",
@@ -253,7 +265,8 @@ var APCALC_MCQ = [
       "The limit cannot be determined"
     ],
     "answer": 1,
-    "explanation": "By the Squeeze Theorem, since $\\lim_{x \\to 0}$ -$x^2$ = 0 and $\\lim_{x \\to 0}$ $x^2$ = 0, we have\n$\\lim_{x \\to 0}$ f(x) = 0."
+    "explanation": "By the Squeeze Theorem, since $\\lim_{x \\to 0}$ -$x^2$ = 0 and $\\lim_{x \\to 0}$ $x^2$ = 0, we have\n$\\lim_{x \\to 0}$ f(x) = 0.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_014",
@@ -271,7 +284,8 @@ var APCALC_MCQ = [
       "f(x) = ($x^2$-9)/(x+3)"
     ],
     "answer": 2,
-    "explanation": "(x+3)/(x-3) has denominator zero at x=3 and numerator nonzero (6), so it's a\nvertical asymptote. Option A has a removable discontinuity at x=3. Option B simplifies to x+3.\nOption D simplifies to x-3."
+    "explanation": "(x+3)/(x-3) has denominator zero at x=3 and numerator nonzero (6), so it's a\nvertical asymptote. Option A has a removable discontinuity at x=3. Option B simplifies to x+3.\nOption D simplifies to x-3.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_015",
@@ -289,7 +303,8 @@ var APCALC_MCQ = [
       "3"
     ],
     "answer": 2,
-    "explanation": "Factor: ($x^3$-1)/($x^2$-1) = (x-1)($x^2$+x+1)/[(x-1)(x+1)] = ($x^2$+x+1)/(x+1). As x$\\to$1:\n(1+1+1)/(1+1) = 3/2."
+    "explanation": "Factor: ($x^3$-1)/($x^2$-1) = (x-1)($x^2$+x+1)/[(x-1)(x+1)] = ($x^2$+x+1)/(x+1). As x$\\to$1:\n(1+1+1)/(1+1) = 3/2.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_016",
@@ -307,7 +322,8 @@ var APCALC_MCQ = [
       "f(c) is undefined and the limit does not exist"
     ],
     "answer": 1,
-    "explanation": "A jump discontinuity occurs when both one-sided limits exist but are not equal\nto each other."
+    "explanation": "A jump discontinuity occurs when both one-sided limits exist but are not equal\nto each other.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_017",
@@ -325,7 +341,8 @@ var APCALC_MCQ = [
       "$\\infty$"
     ],
     "answer": 0,
-    "explanation": "Degree of numerator (2) is less than degree of denominator (3), so the limit is\n0."
+    "explanation": "Degree of numerator (2) is less than degree of denominator (3), so the limit is\n0.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_018",
@@ -343,7 +360,8 @@ var APCALC_MCQ = [
       "a = 2, b = 3"
     ],
     "answer": 0,
-    "explanation": "$\\lim_{x \\to 1^-}$ = 1-a must equal 3, so a = -2. $\\lim_{x \\to 1^+}$ = b+2 must equal 3, so b =\n1."
+    "explanation": "$\\lim_{x \\to 1^-}$ = 1-a must equal 3, so a = -2. $\\lim_{x \\to 1^+}$ = b+2 must equal 3, so b =\n1.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_019",
@@ -361,7 +379,8 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 0,
-    "explanation": "Rewrite as [sin(3x)/cos(3x)]/sin(5x) = [sin(3x)/(3x)] · [5x/sin(5x)] · (3/5) ·\n(1/cos3x). As x$\\to$0, each sinc term$\\to$1 and cos(3x)$\\to$1, giving 3/5."
+    "explanation": "Rewrite as [sin(3x)/cos(3x)]/sin(5x) = [sin(3x)/(3x)] · [5x/sin(5x)] · (3/5) ·\n(1/cos3x). As x$\\to$0, each sinc term$\\to$1 and cos(3x)$\\to$1, giving 3/5.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_020",
@@ -379,7 +398,8 @@ var APCALC_MCQ = [
       "f'(x) > 0 so f is increasing and must cross zero"
     ],
     "answer": 0,
-    "explanation": "This is a direct application of IVT. f is continuous, f(0) = -1, f(1) = 1, and 0 is\nbetween these values, guaranteeing a root."
+    "explanation": "This is a direct application of IVT. f is continuous, f(0) = -1, f(1) = 1, and 0 is\nbetween these values, guaranteeing a root.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_021",
@@ -398,7 +418,8 @@ var APCALC_MCQ = [
       "$\\lim_{x \\to 2}$ f(x) does not exist"
     ],
     "answer": 1,
-    "explanation": "The open circle at (2,3) means the limit from both sides is 3, but f(2) = 1 (closed\ncircle). Limit exists but doesn't equal f(2), so f is discontinuous there."
+    "explanation": "The open circle at (2,3) means the limit from both sides is 3, but f(2) = 1 (closed\ncircle). Limit exists but doesn't equal f(2), so f is discontinuous there.",
+    "type": "MCQ"
   },
   {
     "id": "u1_mcq_022",
@@ -417,7 +438,8 @@ var APCALC_MCQ = [
       "$\\lim_{x \\to 1}$ g(x) does not exist"
     ],
     "answer": 3,
-    "explanation": "$\\lim_{x \\to 1^-}$ = 4 and $\\lim_{x \\to 1^+}$ = -2. Since the one-sided limits are not equal, the\ntwo-sided limit does not exist."
+    "explanation": "$\\lim_{x \\to 1^-}$ = 4 and $\\lim_{x \\to 1^+}$ = -2. Since the one-sided limits are not equal, the\ntwo-sided limit does not exist.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_001",
@@ -435,7 +457,8 @@ var APCALC_MCQ = [
       "$\\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{x}$"
     ],
     "answer": 0,
-    "explanation": "The derivative of f at x is defined as the limit of the difference quotient as h\napproaches 0."
+    "explanation": "The derivative of f at x is defined as the limit of the difference quotient as h\napproaches 0.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_002",
@@ -453,7 +476,8 @@ var APCALC_MCQ = [
       "8"
     ],
     "answer": 3,
-    "explanation": "Average rate of change = [f(4) - f(1)] / (4-1) = [(16+12) - (1+3)] / 3 = (28-4)/3 =\n24/3 = 8."
+    "explanation": "Average rate of change = [f(4) - f(1)] / (4-1) = [(16+12) - (1+3)] / 3 = (28-4)/3 =\n24/3 = 8.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_003",
@@ -471,7 +495,8 @@ var APCALC_MCQ = [
       "9"
     ],
     "answer": 2,
-    "explanation": "This is the limit definition of the derivative of f(x) = $x^2$ at x = 3. f'(x) = 2x, so f'(3)\n= 6."
+    "explanation": "This is the limit definition of the derivative of f(x) = $x^2$ at x = 3. f'(x) = 2x, so f'(3)\n= 6.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_004",
@@ -489,7 +514,8 @@ var APCALC_MCQ = [
       "If f is differentiable at x = a, then f is continuous at x = a"
     ],
     "answer": 3,
-    "explanation": "Differentiability implies continuity, but not the other way around. A function can\nbe continuous but not differentiable (e.g. f(x) = |x| at x = 0)."
+    "explanation": "Differentiability implies continuity, but not the other way around. A function can\nbe continuous but not differentiable (e.g. f(x) = |x| at x = 0).",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_005",
@@ -507,7 +533,8 @@ var APCALC_MCQ = [
       "5x^4"
     ],
     "answer": 3,
-    "explanation": "By the power rule, d/dx[xⁿ] = nxⁿ⁻¹. So d/dx[$x^5$] = 5$x^4$."
+    "explanation": "By the power rule, d/dx[xⁿ] = nxⁿ⁻¹. So d/dx[$x^5$] = 5$x^4$.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_006",
@@ -525,7 +552,8 @@ var APCALC_MCQ = [
       "$\\frac{-1}{7x^6}$"
     ],
     "answer": 2,
-    "explanation": "Rewrite as x⁻⁷. By the power rule, f'(x) = -7x⁻⁸ = -7/$x^8$."
+    "explanation": "Rewrite as x⁻⁷. By the power rule, f'(x) = -7x⁻⁸ = -7/$x^8$.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_007",
@@ -543,7 +571,8 @@ var APCALC_MCQ = [
       "$\\frac{1}{4}x^{-3/4}$"
     ],
     "answer": 3,
-    "explanation": "Rewrite as x^(1/4). By the power rule, f'(x) = (1/4)x^(1/4 - 1) = (1/4)x^(-3/4)."
+    "explanation": "Rewrite as x^(1/4). By the power rule, f'(x) = (1/4)x^(1/4 - 1) = (1/4)x^(-3/4).",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_008",
@@ -561,7 +590,8 @@ var APCALC_MCQ = [
       "$4\\cos x - 3\\sin x$"
     ],
     "answer": 0,
-    "explanation": "d/dx[sin x] = cos x and d/dx[-cos x] = sin x. So f'(x) = 4cos x + 3sin x."
+    "explanation": "d/dx[sin x] = cos x and d/dx[-cos x] = sin x. So f'(x) = 4cos x + 3sin x.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_009",
@@ -579,7 +609,8 @@ var APCALC_MCQ = [
       "e^x + 3"
     ],
     "answer": 0,
-    "explanation": "d/dx[eˣ] = eˣ and d/dx[3x] = 3. So f'(x) = 5eˣ + 3."
+    "explanation": "d/dx[eˣ] = eˣ and d/dx[3x] = 3. So f'(x) = 5eˣ + 3.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_010",
@@ -597,7 +628,8 @@ var APCALC_MCQ = [
       "$3x^2 \\sin x - x^3 \\cos x$"
     ],
     "answer": 2,
-    "explanation": "By the product rule: f'(x) = ($x^3$)'sin x + $x^3$(sin x)' = 3$x^2$sin x + $x^3$cos x."
+    "explanation": "By the product rule: f'(x) = ($x^3$)'sin x + $x^3$(sin x)' = 3$x^2$sin x + $x^3$cos x.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_011",
@@ -633,7 +665,8 @@ var APCALC_MCQ = [
       "41"
     ],
     "answer": 0,
-    "explanation": "By the product rule: d/dx[f(x)g(x)] = f'(x)g(x) + f(x)g'(x) = 7(3) + 2(5) = 21 + 10 =\n31."
+    "explanation": "By the product rule: d/dx[f(x)g(x)] = f'(x)g(x) + f(x)g'(x) = 7(3) + 2(5) = 21 + 10 =\n31.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_013",
@@ -651,7 +684,8 @@ var APCALC_MCQ = [
       "15"
     ],
     "answer": 1,
-    "explanation": "dy/dx = [18x(x+2) - 9$x^2$(1)] / (x+2)² = (9$x^2$ + 36x)/(x+2)². At x=1: (9+36)/(9) = 45/9\n= 5."
+    "explanation": "dy/dx = [18x(x+2) - 9$x^2$(1)] / (x+2)² = (9$x^2$ + 36x)/(x+2)². At x=1: (9+36)/(9) = 45/9\n= 5.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_014",
@@ -669,7 +703,8 @@ var APCALC_MCQ = [
       "y = 12x - 16"
     ],
     "answer": 1,
-    "explanation": "f(2) = 8 + 12 - 4 = 16. f'(x) = 3$x^2$ + 6x, so f'(2) = 12 + 12 = 24. Tangent line: y - 16 = 24(x - 2), which gives y = 24x - 32."
+    "explanation": "f(2) = 8 + 12 - 4 = 16. f'(x) = 3$x^2$ + 6x, so f'(2) = 12 + 12 = 24. Tangent line: y - 16 = 24(x - 2), which gives y = 24x - 32.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_015",
@@ -687,7 +722,8 @@ var APCALC_MCQ = [
       "$\\frac{3}{x^2} + 2x$"
     ],
     "answer": 0,
-    "explanation": "d/dx[ln x] = 1/x. So f'(x) = 3/x + 2x."
+    "explanation": "d/dx[ln x] = 1/x. So f'(x) = 3/x + 2x.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_016",
@@ -705,7 +741,8 @@ var APCALC_MCQ = [
       "f is neither continuous nor differentiable at x = 2"
     ],
     "answer": 1,
-    "explanation": "f(2) = 7 from both sides so it's continuous. Left derivative = 3, right derivative =\n5. Since they're unequal, f is not differentiable at x = 2."
+    "explanation": "f(2) = 7 from both sides so it's continuous. Left derivative = 3, right derivative =\n5. Since they're unequal, f is not differentiable at x = 2.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_017",
@@ -723,7 +760,8 @@ var APCALC_MCQ = [
       "16x^3 - 9x^2"
     ],
     "answer": 1,
-    "explanation": "f'(x) = 16$x^3$ - 9$x^2$ + 2. f''(x) = 48$x^2$ - 18x."
+    "explanation": "f'(x) = 16$x^3$ - 9$x^2$ + 2. f''(x) = 48$x^2$ - 18x.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_018",
@@ -742,7 +780,8 @@ var APCALC_MCQ = [
       "Point D"
     ],
     "answer": 1,
-    "explanation": "By the Mean Value Theorem, the instantaneous rate of change equals the\naverage rate of change at some point. Point B is where the tangent line appears parallel to the\nsecant line connecting the endpoints."
+    "explanation": "By the Mean Value Theorem, the instantaneous rate of change equals the\naverage rate of change at some point. Point B is where the tangent line appears parallel to the\nsecant line connecting the endpoints.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_019",
@@ -760,7 +799,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 2,
-    "explanation": "This is the limit definition of the derivative of sin(x) at x = π/6. d/dx[sin x] = cos x,\nso the answer is cos(π/6) = √3/2."
+    "explanation": "This is the limit definition of the derivative of sin(x) at x = π/6. d/dx[sin x] = cos x,\nso the answer is cos(π/6) = √3/2.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_020",
@@ -792,7 +832,8 @@ var APCALC_MCQ = [
       "1.000"
     ],
     "answer": 1,
-    "explanation": "Approximation using difference quotient: [f(1)-f(0)]/(1-0) = (2-1)/1 = 1. Actual:\nf'(x) = (2/3)x^(-2/3), f'(0.5) ≈ 0.567. Difference = 1 - 0.567 = 0.433."
+    "explanation": "Approximation using difference quotient: [f(1)-f(0)]/(1-0) = (2-1)/1 = 1. Actual:\nf'(x) = (2/3)x^(-2/3), f'(0.5) ≈ 0.567. Difference = 1 - 0.567 = 0.433.",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_021",
@@ -811,7 +852,8 @@ var APCALC_MCQ = [
       "(-$\\infty$, -1) and (2, $\\infty$)"
     ],
     "answer": 1,
-    "explanation": "f'(x) < 0 where f is decreasing. The graph shows f is decreasing on (-1, 2)."
+    "explanation": "f'(x) < 0 where f is decreasing. The graph shows f is decreasing on (-1, 2).",
+    "type": "MCQ"
   },
   {
     "id": "u2_mcq_022",
@@ -829,7 +871,8 @@ var APCALC_MCQ = [
       "$-\\frac{\\sqrt{3}}{2}$"
     ],
     "answer": 3,
-    "explanation": "g(x) is the derivative of sin x, so g(x) = cos x. The instantaneous rate of change\nof g at x = π/3 is g'(π/3) = -sin(π/3) = -√3/2."
+    "explanation": "g(x) is the derivative of sin x, so g(x) = cos x. The instantaneous rate of change\nof g at x = π/3 is g'(π/3) = -sin(π/3) = -√3/2.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_001",
@@ -847,7 +890,8 @@ var APCALC_MCQ = [
       "30x(3x^2 + 1)^4"
     ],
     "answer": 3,
-    "explanation": "Chain rule: d/dx[$u^5$] = 5$u^4$·u'. Here u = 3$x^2$+1, u' = 6x. So f'(x) = 5(3$x^2$+1)⁴ · 6x =\n30x(3$x^2$+1)⁴."
+    "explanation": "Chain rule: d/dx[$u^5$] = 5$u^4$·u'. Here u = 3$x^2$+1, u' = 6x. So f'(x) = 5(3$x^2$+1)⁴ · 6x =\n30x(3$x^2$+1)⁴.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_002",
@@ -865,7 +909,8 @@ var APCALC_MCQ = [
       "$3x^2 \\cos(x^3)$"
     ],
     "answer": 3,
-    "explanation": "Chain rule: d/dx[sin(u)] = cos(u)·u'. Here u = $x^3$, u' = 3$x^2$. So f'(x) = cos($x^3$)·3$x^2$."
+    "explanation": "Chain rule: d/dx[sin(u)] = cos(u)·u'. Here u = $x^3$, u' = 3$x^2$. So f'(x) = cos($x^3$)·3$x^2$.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_003",
@@ -883,7 +928,8 @@ var APCALC_MCQ = [
       "(6x - 1)e^{3x^2 - x}"
     ],
     "answer": 3,
-    "explanation": "d/dx[eᵘ] = eᵘ·u'. Here u = 3$x^2$-x, u' = 6x-1. So f'(x) = (6x-1)e^(3$x^2$-x)."
+    "explanation": "d/dx[eᵘ] = eᵘ·u'. Here u = 3$x^2$-x, u' = 6x-1. So f'(x) = (6x-1)e^(3$x^2$-x).",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_004",
@@ -901,7 +947,8 @@ var APCALC_MCQ = [
       "I, II, and III"
     ],
     "answer": 2,
-    "explanation": "I is a composition (sin of $x^2$) — use chain rule. II is a product, not a composition\n— use product rule. III is a composition (√ of ln x) — use chain rule."
+    "explanation": "I is a composition (sin of $x^2$) — use chain rule. II is a product, not a composition\n— use product rule. III is a composition (√ of ln x) — use chain rule.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_005",
@@ -919,7 +966,8 @@ var APCALC_MCQ = [
       "8xe^{4x}"
     ],
     "answer": 2,
-    "explanation": "Product rule first: h'(x) = ($x^2$)'·e^(4x) + $x^2$·(e^(4x))'. = 2x·e^(4x) + $x^2$·4e^(4x) =\n2xe^(4x) + 4$x^2$e^(4x)."
+    "explanation": "Product rule first: h'(x) = ($x^2$)'·e^(4x) + $x^2$·(e^(4x))'. = 2x·e^(4x) + $x^2$·4e^(4x) =\n2xe^(4x) + 4$x^2$e^(4x).",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_006",
@@ -962,7 +1010,8 @@ var APCALC_MCQ = [
       "8"
     ],
     "answer": 3,
-    "explanation": "Chain rule: h'(x) = f'(g(x))·g'(x). At x = 2: h'(2) = f'(g(2))·g'(2) = f'(3)·4 = 2·4 = 8."
+    "explanation": "Chain rule: h'(x) = f'(g(x))·g'(x). At x = 2: h'(2) = f'(g(2))·g'(2) = f'(3)·4 = 2·4 = 8.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_007",
@@ -980,7 +1029,8 @@ var APCALC_MCQ = [
       "$\\frac{-y}{x}$"
     ],
     "answer": 1,
-    "explanation": "Differentiate both sides: 2x + 2y·(dy/dx) = 0. Solve: dy/dx = -x/y."
+    "explanation": "Differentiate both sides: 2x + 2y·(dy/dx) = 0. Solve: dy/dx = -x/y.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_008",
@@ -998,7 +1048,8 @@ var APCALC_MCQ = [
       "$\\frac{4}{5}$"
     ],
     "answer": 0,
-    "explanation": "Differentiate implicitly: 2x + y + x·(dy/dx) + 2y·(dy/dx) = 0. Solve for dy/dx: dy/dx\n= -(2x+y)/(x+2y). At (1,2): -(2+2)/(1+4) = -4/5."
+    "explanation": "Differentiate implicitly: 2x + y + x·(dy/dx) + 2y·(dy/dx) = 0. Solve for dy/dx: dy/dx\n= -(2x+y)/(x+2y). At (1,2): -(2+2)/(1+4) = -4/5.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_009",
@@ -1016,7 +1067,8 @@ var APCALC_MCQ = [
       "$\\cos^2(xy)$"
     ],
     "answer": 0,
-    "explanation": "Differentiate: se$c^2$(xy)·(y + x·dy/dx) = 1. Solving for dy/dx: x·se$c^2$(xy)·dy/dx = 1 - y·se$c^2$(xy), so dy/dx = (1 - y·se$c^2$(xy)) / (x·se$c^2$(xy)). Multiplying numerator and denominator by co$s^2$(xy) simplifies to (co$s^2$(xy) - y) / x."
+    "explanation": "Differentiate: se$c^2$(xy)·(y + x·dy/dx) = 1. Solving for dy/dx: x·se$c^2$(xy)·dy/dx = 1 - y·se$c^2$(xy), so dy/dx = (1 - y·se$c^2$(xy)) / (x·se$c^2$(xy)). Multiplying numerator and denominator by co$s^2$(xy) simplifies to (co$s^2$(xy) - y) / x.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_010",
@@ -1056,7 +1108,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 3,
-    "explanation": "Differentiate f(y) = $x^2$ implicitly: f'(y)·dy/dx = 2x. At (2, 3): dy/dx = 2x / f'(y) = 2(2) / f'(3) = 4/4 = 1."
+    "explanation": "Differentiate f(y) = $x^2$ implicitly: f'(y)·dy/dx = 2x. At (2, 3): dy/dx = 2x / f'(y) = 2(2) / f'(3) = 4/4 = 1.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_011",
@@ -1074,7 +1127,8 @@ var APCALC_MCQ = [
       "$\\frac{1}{3}$"
     ],
     "answer": 2,
-    "explanation": "The derivative of an inverse function: (f⁻¹)'(b) = 1/f'(a) where f(a) = b. Since f(3) =\n7, (f⁻¹)'(7) = 1/f'(3) = 1/4."
+    "explanation": "The derivative of an inverse function: (f⁻¹)'(b) = 1/f'(a) where f(a) = b. Since f(3) =\n7, (f⁻¹)'(7) = 1/f'(3) = 1/4.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_012",
@@ -1093,7 +1147,8 @@ var APCALC_MCQ = [
       "g'(2) = 1/3"
     ],
     "answer": 2,
-    "explanation": "Since f(4) = 2, we have g(2) = 4. And g'(2) = 1/f'(g(2)) = 1/f'(4) = 1/(-3) = -1/3."
+    "explanation": "Since f(4) = 2, we have g(2) = 4. And g'(2) = 1/f'(g(2)) = 1/f'(4) = 1/(-3) = -1/3.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_013",
@@ -1111,7 +1166,8 @@ var APCALC_MCQ = [
       "$\\frac{2}{\\sqrt{1-2x}}$"
     ],
     "answer": 1,
-    "explanation": "d/dx[arcsin(u)] = u'/√(1-$u^2$). Here u = 2x, u' = 2. So f'(x) = 2/√(1-(2x)²) =\n2/√(1-4$x^2$)."
+    "explanation": "d/dx[arcsin(u)] = u'/√(1-$u^2$). Here u = 2x, u' = 2. So f'(x) = 2/√(1-(2x)²) =\n2/√(1-4$x^2$).",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_014",
@@ -1129,7 +1185,8 @@ var APCALC_MCQ = [
       "$\\frac{1}{1+x^2}$"
     ],
     "answer": 2,
-    "explanation": "d/dx[arctan(u)] = u'/(1+$u^2$). Here u = $x^2$, u' = 2x. So f'(x) = 2x/(1+($x^2$)²) =\n2x/(1+$x^4$)."
+    "explanation": "d/dx[arctan(u)] = u'/(1+$u^2$). Here u = $x^2$, u' = 2x. So f'(x) = 2x/(1+($x^2$)²) =\n2x/(1+$x^4$).",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_015",
@@ -1147,7 +1204,8 @@ var APCALC_MCQ = [
       "$\\frac{2x}{(x^2+5)^2}$"
     ],
     "answer": 2,
-    "explanation": "d/dx[ln(u)] = u'/u. Here u = $x^2$+5, u' = 2x. So f'(x) = 2x/($x^2$+5)."
+    "explanation": "d/dx[ln(u)] = u'/u. Here u = $x^2$+5, u' = 2x. So f'(x) = 2x/($x^2$+5).",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_016",
@@ -1165,7 +1223,8 @@ var APCALC_MCQ = [
       "$e^x\\sin^2(e^x)\\cos(e^x)$"
     ],
     "answer": 1,
-    "explanation": "Apply the chain rule twice: d/dx[si$n^3$(eˣ)] = 3si$n^2$(eˣ)·cos(eˣ)·eˣ. The outer chain (power rule on si$n^3$) gives 3si$n^2$, the middle chain (derivative of sin) gives cos(eˣ), and the inner chain gives eˣ."
+    "explanation": "Apply the chain rule twice: d/dx[si$n^3$(eˣ)] = 3si$n^2$(eˣ)·cos(eˣ)·eˣ. The outer chain (power rule on si$n^3$) gives 3si$n^2$, the middle chain (derivative of sin) gives cos(eˣ), and the inner chain gives eˣ.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_017",
@@ -1183,7 +1242,8 @@ var APCALC_MCQ = [
       "$\\frac{1}{y}$"
     ],
     "answer": 1,
-    "explanation": "dy/dx = -x/y. $d^2$y/d$x^2$ = d/dx[-x/y] = [-y - (-x)(dy/dx)] / $y^2$ = [-y + x(-x/y)] / $y^2$ = [-($y^2$ +\n$x^2$)/y] / $y^2$ = -16/$y^3$, using $x^2$+$y^2$=16."
+    "explanation": "dy/dx = -x/y. $d^2$y/d$x^2$ = d/dx[-x/y] = [-y - (-x)(dy/dx)] / $y^2$ = [-y + x(-x/y)] / $y^2$ = [-($y^2$ +\n$x^2$)/y] / $y^2$ = -16/$y^3$, using $x^2$+$y^2$=16.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_018",
@@ -1201,7 +1261,8 @@ var APCALC_MCQ = [
       "3(f'(x))^2"
     ],
     "answer": 2,
-    "explanation": "Chain rule: d/dx[(f(x))³] = 3(f(x))²·f'(x)."
+    "explanation": "Chain rule: d/dx[(f(x))³] = 3(f(x))²·f'(x).",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_020",
@@ -1219,7 +1280,8 @@ var APCALC_MCQ = [
       "$-3\\sqrt{3}$"
     ],
     "answer": 2,
-    "explanation": "f'(x) = 2cos(3x)·(-sin(3x))·3 = -6cos(3x)sin(3x) = -3sin(6x). At x=π/12: -3sin(π/2)\n= -3."
+    "explanation": "f'(x) = 2cos(3x)·(-sin(3x))·3 = -6cos(3x)sin(3x) = -3sin(6x). At x=π/12: -3sin(π/2)\n= -3.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_021",
@@ -1237,7 +1299,8 @@ var APCALC_MCQ = [
       "y = -4x + 6"
     ],
     "answer": 0,
-    "explanation": "Differentiate implicitly: 3$x^2$ + 3$y^2$·(dy/dx) = 0. dy/dx = -$x^2$/$y^2$. At (1,2): -1/4.\nTangent: y-2 = -1/4(x-1) $\\to$ y = -x/4 + 9/4."
+    "explanation": "Differentiate implicitly: 3$x^2$ + 3$y^2$·(dy/dx) = 0. dy/dx = -$x^2$/$y^2$. At (1,2): -1/4.\nTangent: y-2 = -1/4(x-1) $\\to$ y = -x/4 + 9/4.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_022",
@@ -1255,7 +1318,8 @@ var APCALC_MCQ = [
       "$3\\sqrt{3}$"
     ],
     "answer": 0,
-    "explanation": "s'(t) = 2sin(3t)·cos(3t)·3 = 3sin(6t). At t=π/6: 3sin(π) = 0."
+    "explanation": "s'(t) = 2sin(3t)·cos(3t)·3 = 3sin(6t). At t=π/6: 3sin(π) = 0.",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_023",
@@ -1273,7 +1337,8 @@ var APCALC_MCQ = [
       "$\\arccos(x) + \\frac{1}{\\sqrt{1-x^2}}$"
     ],
     "answer": 1,
-    "explanation": "Product rule: f'(x) = (x)'arccos(x) + x·(arccos(x))' = arccos(x) + x·(-1/√(1-$x^2$)) =\narccos(x) - x/√(1-$x^2$)."
+    "explanation": "Product rule: f'(x) = (x)'arccos(x) + x·(arccos(x))' = arccos(x) + x·(-1/√(1-$x^2$)) =\narccos(x) - x/√(1-$x^2$).",
+    "type": "MCQ"
   },
   {
     "id": "u3_mcq_024",
@@ -1291,7 +1356,8 @@ var APCALC_MCQ = [
       "The derivative does not exist at (0,0)"
     ],
     "answer": 1,
-    "explanation": "First verify (0, 1) is on the curve: e^(0·1) = 1 and 0 + 1 = 1. ✓ Differentiate: e^(xy)·(y + x·dy/dx) = 1 + dy/dx. At (0, 1): $e^0$·(1 + 0) = 1 + dy/dx, so 1 = 1 + dy/dx, giving dy/dx = 0."
+    "explanation": "First verify (0, 1) is on the curve: e^(0·1) = 1 and 0 + 1 = 1. ✓ Differentiate: e^(xy)·(y + x·dy/dx) = 1 + dy/dx. At (0, 1): $e^0$·(1 + 0) = 1 + dy/dx, so 1 = 1 + dy/dx, giving dy/dx = 0.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_001",
@@ -1309,7 +1375,8 @@ var APCALC_MCQ = [
       "The population is increasing at a rate of 3,200 people per year when t = 5"
     ],
     "answer": 3,
-    "explanation": "P'(5) = 3.2 means the instantaneous rate of change of population at t = 5 is 3.2\nthousand people per year, i.e., 3,200 people per year."
+    "explanation": "P'(5) = 3.2 means the instantaneous rate of change of population at t = 5 is 3.2\nthousand people per year, i.e., 3,200 people per year.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_002",
@@ -1327,7 +1394,8 @@ var APCALC_MCQ = [
       "The rate at which the volume changes per unit increase in radius when r = 3"
     ],
     "answer": 3,
-    "explanation": "dV/dr represents the instantaneous rate of change of volume with respect to\nradius at r = 3."
+    "explanation": "dV/dr represents the instantaneous rate of change of volume with respect to\nradius at r = 3.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_003",
@@ -1345,7 +1413,8 @@ var APCALC_MCQ = [
       "6"
     ],
     "answer": 0,
-    "explanation": "v(t) = s'(t) = 3$t^2$ - 12t + 9. At t = 2: v(2) = 12 - 24 + 9 = -3."
+    "explanation": "v(t) = s'(t) = 3$t^2$ - 12t + 9. At t = 2: v(2) = 12 - 24 + 9 = -3.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_004",
@@ -1363,7 +1432,8 @@ var APCALC_MCQ = [
       "Moving right and slowing down"
     ],
     "answer": 3,
-    "explanation": "v(0.5) = 0.25 - 2 + 3 = 1.25 > 0, so the particle is moving right. a(t) = 2t - 4, so a(0.5) = -3 < 0. Since velocity and acceleration have opposite signs, the particle is slowing down."
+    "explanation": "v(0.5) = 0.25 - 2 + 3 = 1.25 > 0, so the particle is moving right. a(t) = 2t - 4, so a(0.5) = -3 < 0. Since velocity and acceleration have opposite signs, the particle is slowing down.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_005",
@@ -1381,7 +1451,8 @@ var APCALC_MCQ = [
       "The particle is moving left and speeding up"
     ],
     "answer": 3,
-    "explanation": "v(2) = 4 - 10 + 4 = -2 < 0, so moving left. a(t) = v'(t) = 2t - 5. a(2) = -1 < 0. Since\nv and a have the same sign (both negative), the particle is speeding up."
+    "explanation": "v(2) = 4 - 10 + 4 = -2 < 0, so moving left. a(t) = v'(t) = 2t - 5. a(2) = -1 < 0. Since\nv and a have the same sign (both negative), the particle is speeding up.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_007",
@@ -1399,7 +1470,8 @@ var APCALC_MCQ = [
       "$\\frac{3\\pi}{2}$"
     ],
     "answer": 0,
-    "explanation": "a(t) = v'(t) = 3cos(t). At t = π: a(π) = 3cos(π) = 3(-1) = -3."
+    "explanation": "a(t) = v'(t) = 3cos(t). At t = π: a(π) = 3cos(π) = 3(-1) = -3.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_008",
@@ -1417,7 +1489,8 @@ var APCALC_MCQ = [
       "24 gallons per minute"
     ],
     "answer": 3,
-    "explanation": "W'(t) = -8t. At t = 3: W'(3) = -24. The rate of change is -24 gal/min, meaning\nwater is leaving at 24 gallons per minute."
+    "explanation": "W'(t) = -8t. At t = 3: W'(3) = -24. The rate of change is -24 gal/min, meaning\nwater is leaving at 24 gallons per minute.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_010",
@@ -1435,7 +1508,8 @@ var APCALC_MCQ = [
       "$4\\pi \\text{ m}^2/\\text{s}$"
     ],
     "answer": 2,
-    "explanation": "Circumference = 2πr = 10π $\\to$ r = 5. A = π$r^2$, dA/dt = 2πr · dr/dt = 2π(5)(0.2) =\n2π $m^2$/s."
+    "explanation": "Circumference = 2πr = 10π $\\to$ r = 5. A = π$r^2$, dA/dt = 2πr · dr/dt = 2π(5)(0.2) =\n2π $m^2$/s.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_011",
@@ -1453,7 +1527,8 @@ var APCALC_MCQ = [
       "$-20\\pi \\text{ cm}^2/\\text{s}$"
     ],
     "answer": 0,
-    "explanation": "dS/dt = 8πr · dr/dt = 8π(5)(-2) = -80π c$m^2$/s."
+    "explanation": "dS/dt = 8πr · dr/dt = 8π(5)(-2) = -80π c$m^2$/s.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_012",
@@ -1471,7 +1546,8 @@ var APCALC_MCQ = [
       "-3/4 ft/s"
     ],
     "answer": 0,
-    "explanation": "$x^2$ + $y^2$ = 100. At x=6: y=8. Differentiate: 2x(dx/dt) + 2y(dy/dt) = 0. 2(6)(2) +\n2(8)(dy/dt) = 0. dy/dt = -24/16 = -3/2 ft/s."
+    "explanation": "$x^2$ + $y^2$ = 100. At x=6: y=8. Differentiate: 2x(dx/dt) + 2y(dy/dt) = 0. 2(6)(2) +\n2(8)(dy/dt) = 0. dy/dt = -24/16 = -3/2 ft/s.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_013",
@@ -1489,7 +1565,8 @@ var APCALC_MCQ = [
       "4.05"
     ],
     "answer": 2,
-    "explanation": "SA = 6$s^2$ = 54, so s = 3. V = $s^3$, so dV/dt = 3$s^2$(ds/dt) = 3(9)(0.1) = 2.7 cubic inches per second."
+    "explanation": "SA = 6$s^2$ = 54, so s = 3. V = $s^3$, so dV/dt = 3$s^2$(ds/dt) = 3(9)(0.1) = 2.7 cubic inches per second.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_014",
@@ -1507,7 +1584,8 @@ var APCALC_MCQ = [
       "70 mph"
     ],
     "answer": 2,
-    "explanation": "After 2 hrs: x = 60, y = 80, d = √(3600+6400) = 100. $d^2$ = $x^2$+$y^2$. 2d(dd/dt) =\n2x(dx/dt) + 2y(dy/dt). 2(100)(dd/dt) = 2(60)(30) + 2(80)(40) = 3600+6400 = 10000. dd/dt = 50\nmph."
+    "explanation": "After 2 hrs: x = 60, y = 80, d = √(3600+6400) = 100. $d^2$ = $x^2$+$y^2$. 2d(dd/dt) =\n2x(dx/dt) + 2y(dy/dt). 2(100)(dd/dt) = 2(60)(30) + 2(80)(40) = 3600+6400 = 10000. dd/dt = 50\nmph.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_015",
@@ -1525,7 +1603,8 @@ var APCALC_MCQ = [
       "3.050"
     ],
     "answer": 1,
-    "explanation": "f'(x) = 1/(2√x), f'(9) = 1/6. L(x) = f(9) + f'(9)(x-9) = 3 + (1/6)(0.1) = 3 + 0.01667 ≈\n3.017."
+    "explanation": "f'(x) = 1/(2√x), f'(9) = 1/6. L(x) = f(9) + f'(9)(x-9) = 3 + (1/6)(0.1) = 3 + 0.01667 ≈\n3.017.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_016",
@@ -1543,7 +1622,8 @@ var APCALC_MCQ = [
       "Underestimate, because f is concave down at x = 2"
     ],
     "answer": 1,
-    "explanation": "f''(x) = 6x > 0 at x = 2, so f is concave up. When a function is concave up, the\ntangent line lies below the curve, so linear approximation underestimates."
+    "explanation": "f''(x) = 6x > 0 at x = 2, so f is concave up. When a function is concave up, the\ntangent line lies below the curve, so linear approximation underestimates.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_017",
@@ -1561,7 +1641,8 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 1,
-    "explanation": "This is 0/0 indeterminate. Apply L'Hôpital's Rule: lim [eˣ/1] as x$\\to$0 = $e^0$ = 1."
+    "explanation": "This is 0/0 indeterminate. Apply L'Hôpital's Rule: lim [eˣ/1] as x$\\to$0 = $e^0$ = 1.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_018",
@@ -1579,7 +1660,8 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 3,
-    "explanation": "This is $\\infty$/$\\infty$. Apply L'Hôpital's twice: lim 3$x^2$/eˣ $\\to$ lim 6x/eˣ $\\to$ lim 6/eˣ = 0 as x $\\to$\n$\\infty$. Exponential grows faster than any polynomial."
+    "explanation": "This is $\\infty$/$\\infty$. Apply L'Hôpital's twice: lim 3$x^2$/eˣ $\\to$ lim 6x/eˣ $\\to$ lim 6/eˣ = 0 as x $\\to$\n$\\infty$. Exponential grows faster than any polynomial.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_019",
@@ -1597,7 +1679,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 1,
-    "explanation": "Apply L'Hôpital's three times (0/0 form): [1-cosx]/3$x^2$ $\\to$ [sinx]/6x $\\to$ [cosx]/6 =\n1/6 as x$\\to$0."
+    "explanation": "Apply L'Hôpital's three times (0/0 form): [1-cosx]/3$x^2$ $\\to$ [sinx]/6x $\\to$ [cosx]/6 =\n1/6 as x$\\to$0.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_020",
@@ -1615,7 +1698,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 2,
-    "explanation": "Rewrite as ln(x)/(1/x), which is -$\\infty$/$\\infty$. Apply L'Hôpital's: (1/x)/(-1/$x^2$) = -x $\\to$ 0 as\nx$\\to$0⁺."
+    "explanation": "Rewrite as ln(x)/(1/x), which is -$\\infty$/$\\infty$. Apply L'Hôpital's: (1/x)/(-1/$x^2$) = -x $\\to$ 0 as\nx$\\to$0⁺.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_021",
@@ -1633,7 +1717,8 @@ var APCALC_MCQ = [
       "$\\pi(2r - 6h)$"
     ],
     "answer": 0,
-    "explanation": "dV/dt = π[2r(dr/dt)h + $r^2$(dh/dt)] = π[2r(4)h + $r^2$(-6)] = π(8rh - 6$r^2$)."
+    "explanation": "dV/dt = π[2r(dr/dt)h + $r^2$(dh/dt)] = π[2r(4)h + $r^2$(-6)] = π(8rh - 6$r^2$).",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_022",
@@ -1651,7 +1736,8 @@ var APCALC_MCQ = [
       "t = 1 and t = 3"
     ],
     "answer": 2,
-    "explanation": "v(t) = x'(t) = 3$t^2$ - 6t - 9 = 3($t^2$ - 2t - 3) = 3(t-3)(t+1). v = 0 at t = 3 and t = -1. Since\nv changes sign at both, the particle changes direction at t = -1 and t = 3."
+    "explanation": "v(t) = x'(t) = 3$t^2$ - 6t - 9 = 3($t^2$ - 2t - 3) = 3(t-3)(t+1). v = 0 at t = 3 and t = -1. Since\nv changes sign at both, the particle changes direction at t = -1 and t = 3.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_023",
@@ -1669,7 +1755,8 @@ var APCALC_MCQ = [
       "The temperature will reach 0°F in 3 more minutes"
     ],
     "answer": 1,
-    "explanation": "T'(10) = -3 means the instantaneous rate of change of temperature at t = 10 is\n-3°F per minute — i.e., decreasing at 3°F per minute."
+    "explanation": "T'(10) = -3 means the instantaneous rate of change of temperature at t = 10 is\n-3°F per minute — i.e., decreasing at 3°F per minute.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_024",
@@ -1687,7 +1774,8 @@ var APCALC_MCQ = [
       "4.0"
     ],
     "answer": 0,
-    "explanation": "L(x) = f(4) + f'(4)(x-4) = 5 + (-2)(4.3-4) = 5 + (-2)(0.3) = 5 - 0.6 = 4.4."
+    "explanation": "L(x) = f(4) + f'(4)(x-4) = 5 + (-2)(4.3-4) = 5 + (-2)(0.3) = 5 - 0.6 = 4.4.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_025",
@@ -1705,7 +1793,8 @@ var APCALC_MCQ = [
       "$\\frac{-C}{\\pi}$"
     ],
     "answer": 0,
-    "explanation": "A = π$r^2$, dA/dt = 2πr(dr/dt) = 2πr(-2) = -4πr. Since C = 2πr, we have r = C/(2π).\ndA/dt = -4π(C/2π) = -2C."
+    "explanation": "A = π$r^2$, dA/dt = 2πr(dr/dt) = 2πr(-2) = -4πr. Since C = 2πr, we have r = C/(2π).\ndA/dt = -4π(C/2π) = -2C.",
+    "type": "MCQ"
   },
   {
     "id": "u4_mcq_026",
@@ -1723,7 +1812,8 @@ var APCALC_MCQ = [
       "$\\lim_{x \\to 1} \\frac{x^3 + 2}{x - 1}$"
     ],
     "answer": 1,
-    "explanation": "L'Hôpital's applies to 0/0 or $\\infty$/$\\infty$ forms. Choice B gives $\\infty$/$\\infty$ as x$\\to$$\\infty$. Choice A is\n0/0 but factors easily. Choice C gives 0/1 (not indeterminate). Choice D gives 3/0 (not\nindeterminate — it's a vertical asymptote)."
+    "explanation": "L'Hôpital's applies to 0/0 or $\\infty$/$\\infty$ forms. Choice B gives $\\infty$/$\\infty$ as x$\\to$$\\infty$. Choice A is\n0/0 but factors easily. Choice C gives 0/1 (not indeterminate). Choice D gives 3/0 (not\nindeterminate — it's a vertical asymptote).",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_001",
@@ -1741,7 +1831,8 @@ var APCALC_MCQ = [
       "c = 2.5"
     ],
     "answer": 3,
-    "explanation": "MVT: f'(c) = [f(4)-f(1)]/(4-1) = [(16-12)-(1-3)]/3 = [4-(-2)]/3 = 2. f'(x) = 2x-3 = 2 $\\to$\nx = 2.5."
+    "explanation": "MVT: f'(c) = [f(4)-f(1)]/(4-1) = [(16-12)-(1-3)]/3 = [4-(-2)]/3 = 2. f'(x) = 2x-3 = 2 $\\to$\nx = 2.5.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_002",
@@ -1759,7 +1850,8 @@ var APCALC_MCQ = [
       "f(x) = $x^3$ + 2x"
     ],
     "answer": 3,
-    "explanation": "MVT requires f to be continuous on [-1,1] and differentiable on (-1,1). f(x) =\n$x^3$+2x is a polynomial — both conditions satisfied. |x| is not differentiable at 0. 1/x has a\ndiscontinuity at 0. x^(2/3) is not differentiable at 0."
+    "explanation": "MVT requires f to be continuous on [-1,1] and differentiable on (-1,1). f(x) =\n$x^3$+2x is a polynomial — both conditions satisfied. |x| is not differentiable at 0. 1/x has a\ndiscontinuity at 0. x^(2/3) is not differentiable at 0.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_003",
@@ -1777,7 +1869,8 @@ var APCALC_MCQ = [
       "The car's acceleration was 0 at some point"
     ],
     "answer": 2,
-    "explanation": "The average rate of change is 120/2 = 60 mph. By MVT, assuming position is\ncontinuous and differentiable, the instantaneous speed equaled 60 mph at least once."
+    "explanation": "The average rate of change is 120/2 = 60 mph. By MVT, assuming position is\ncontinuous and differentiable, the instantaneous speed equaled 60 mph at least once.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_004",
@@ -1795,7 +1888,8 @@ var APCALC_MCQ = [
       "f is continuous on [a, b]"
     ],
     "answer": 3,
-    "explanation": "The Extreme Value Theorem states that if f is continuous on a closed interval [a,\nb], then f attains both a maximum and minimum value on that interval."
+    "explanation": "The Extreme Value Theorem states that if f is continuous on a closed interval [a,\nb], then f attains both a maximum and minimum value on that interval.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_005",
@@ -1813,7 +1907,8 @@ var APCALC_MCQ = [
       "x = -1 and x = 3"
     ],
     "answer": 2,
-    "explanation": "f'(x) = 3$x^2$ - 12x + 9 = 3($x^2$-4x+3) = 3(x-1)(x-3) = 0. Critical points at x = 1 and x =\n3."
+    "explanation": "f'(x) = 3$x^2$ - 12x + 9 = 3($x^2$-4x+3) = 3(x-1)(x-3) = 0. Critical points at x = 1 and x =\n3.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_006",
@@ -1831,7 +1926,8 @@ var APCALC_MCQ = [
       "(1, 3)"
     ],
     "answer": 3,
-    "explanation": "f'(x) = 3(x-1)(x-3). f' < 0 when 1 < x < 3, so f is decreasing on (1, 3)."
+    "explanation": "f'(x) = 3(x-1)(x-3). f' < 0 when 1 < x < 3, so f is decreasing on (1, 3).",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_007",
@@ -1849,7 +1945,8 @@ var APCALC_MCQ = [
       "Local min at x = -1; neither max nor min at x = 2"
     ],
     "answer": 3,
-    "explanation": "Critical points at x = -1 and x = 2. For x = -1: f' changes from negative to positive\n$\\to$ local min. For x = 2: (x-2)² is always $\\geq$ 0, so f' doesn't change sign at x = 2 $\\to$ neither max nor\nmin."
+    "explanation": "Critical points at x = -1 and x = 2. For x = -1: f' changes from negative to positive\n$\\to$ local min. For x = 2: (x-2)² is always $\\geq$ 0, so f' doesn't change sign at x = 2 $\\to$ neither max nor\nmin.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_008",
@@ -1867,7 +1964,8 @@ var APCALC_MCQ = [
       "6"
     ],
     "answer": 2,
-    "explanation": "f'(x) = -2x+4 = 0 $\\to$ x = 2. Evaluate: f(0)=1, f(2)=5, f(5)=-25+20+1=-4. Maximum\nis f(2) = 5."
+    "explanation": "f'(x) = -2x+4 = 0 $\\to$ x = 2. Evaluate: f(0)=1, f(2)=5, f(5)=-25+20+1=-4. Maximum\nis f(2) = 5.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_009",
@@ -1885,7 +1983,8 @@ var APCALC_MCQ = [
       "-18"
     ],
     "answer": 0,
-    "explanation": "f'(x) = 3$x^2$-3 = 0 $\\to$ x = ±1. Evaluate: f(-2)=-8+6=-2, f(-1)=-1+3=2, f(1)=1-3=-2,\nf(3)=27-9=18. Minimum is -2 at x=-2 and x=1."
+    "explanation": "f'(x) = 3$x^2$-3 = 0 $\\to$ x = ±1. Evaluate: f(-2)=-8+6=-2, f(-1)=-1+3=2, f(1)=1-3=-2,\nf(3)=27-9=18. Minimum is -2 at x=-2 and x=1.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_010",
@@ -1903,7 +2002,8 @@ var APCALC_MCQ = [
       "x = 2 only"
     ],
     "answer": 3,
-    "explanation": "f'(x) = 4$x^3$-12$x^2$, f''(x) = 12$x^2$-24x = 12x(x-2). f'' = 0 at x=0 and x=2. Check sign\nchange: f'' changes sign only at x=2 (from negative to positive). At x=0, no sign change. So\ninflection point only at x=2."
+    "explanation": "f'(x) = 4$x^3$-12$x^2$, f''(x) = 12$x^2$-24x = 12x(x-2). f'' = 0 at x=0 and x=2. Check sign\nchange: f'' changes sign only at x=2 (from negative to positive). At x=0, no sign change. So\ninflection point only at x=2.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_011",
@@ -1921,7 +2021,8 @@ var APCALC_MCQ = [
       "f is concave down"
     ],
     "answer": 2,
-    "explanation": "f''(x) > 0 means the derivative f' is increasing, which means f is concave up. This\nsays nothing about whether f itself is increasing or decreasing."
+    "explanation": "f''(x) > 0 means the derivative f' is increasing, which means f is concave up. This\nsays nothing about whether f itself is increasing or decreasing.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_012",
@@ -1939,7 +2040,8 @@ var APCALC_MCQ = [
       "The second derivative test is inconclusive"
     ],
     "answer": 0,
-    "explanation": "f''(x) = 6x - 12. f''(1) = 6-12 = -6 < 0. Since f''(1) < 0, x = 1 is a local maximum."
+    "explanation": "f''(x) = 6x - 12. f''(1) = 6-12 = -6 < 0. Since f''(1) < 0, x = 1 is a local maximum.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_013",
@@ -1957,7 +2059,8 @@ var APCALC_MCQ = [
       "The second derivative test is inconclusive at x = 0"
     ],
     "answer": 3,
-    "explanation": "f''(x) = 12$x^2$, f''(0) = 0. When f'' = 0, the second derivative test is inconclusive.\n(Using the first derivative test: f' = 4$x^3$ changes from negative to positive at x = 0, confirming it's\nactually a local minimum.)"
+    "explanation": "f''(x) = 12$x^2$, f''(0) = 0. When f'' = 0, the second derivative test is inconclusive.\n(Using the first derivative test: f' = 4$x^3$ changes from negative to positive at x = 0, confirming it's\nactually a local minimum.)",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_014",
@@ -1976,7 +2079,8 @@ var APCALC_MCQ = [
       "f has inflection points at x = -2 and x = 1"
     ],
     "answer": 0,
-    "explanation": "f' changes from positive to negative at x = -2 $\\to$ local max of f. f' changes from\nnegative to positive at x = 1 $\\to$ local min of f."
+    "explanation": "f' changes from positive to negative at x = -2 $\\to$ local max of f. f' changes from\nnegative to positive at x = 1 $\\to$ local min of f.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_015",
@@ -2022,7 +2126,8 @@ var APCALC_MCQ = [
       "f has a local minimum at x = 3"
     ],
     "answer": 3,
-    "explanation": "f'(3) = 0 and f''(3) = 2 > 0. By the second derivative test, x = 3 is a local\nminimum."
+    "explanation": "f'(3) = 0 and f''(3) = 2 > 0. By the second derivative test, x = 3 is a local\nminimum.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_016",
@@ -2040,7 +2145,8 @@ var APCALC_MCQ = [
       "20 ft × 60 ft"
     ],
     "answer": 0,
-    "explanation": "Let w = width (two sides), l = length (one side). Constraint: 2w + l = 100 $\\to$ l =\n100-2w. A = wl = w(100-2w) = 100w-2$w^2$. A' = 100-4w = 0 $\\to$ w = 25. l = 50. Area = 25×50 =\n1250 sq ft."
+    "explanation": "Let w = width (two sides), l = length (one side). Constraint: 2w + l = 100 $\\to$ l =\n100-2w. A = wl = w(100-2w) = 100w-2$w^2$. A' = 100-4w = 0 $\\to$ w = 25. l = 50. Area = 25×50 =\n1250 sq ft.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_017",
@@ -2058,7 +2164,8 @@ var APCALC_MCQ = [
       "16"
     ],
     "answer": 0,
-    "explanation": "f'(x) = 1 - 4/$x^2$ = 0 $\\to$ $x^2$ = 4 $\\to$ x = 2 (since x > 0). f(2) = 2 + 4/2 = 2 + 2 = 4. f''(x)\n= 8/$x^3$ > 0 at x = 2, confirming minimum."
+    "explanation": "f'(x) = 1 - 4/$x^2$ = 0 $\\to$ $x^2$ = 4 $\\to$ x = 2 (since x > 0). f(2) = 2 + 4/2 = 2 + 2 = 4. f''(x)\n= 8/$x^3$ > 0 at x = 2, confirming minimum.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_018",
@@ -2076,7 +2183,8 @@ var APCALC_MCQ = [
       "400 units"
     ],
     "answer": 2,
-    "explanation": "R'(x) = 200 - x = 0 $\\to$ x = 200. R''(x) = -1 < 0, confirming a maximum."
+    "explanation": "R'(x) = 200 - x = 0 $\\to$ x = 200. R''(x) = -1 < 0, confirming a maximum.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_019",
@@ -2095,7 +2203,8 @@ var APCALC_MCQ = [
       "x = 0 and x = 4"
     ],
     "answer": 0,
-    "explanation": "Inflection points of f occur where f'' = 0 and changes sign, i.e., where f' has a\nlocal max or min. f' has a local maximum at x = 2, so f'' changes from positive to negative there\n— inflection point of f at x = 2."
+    "explanation": "Inflection points of f occur where f'' = 0 and changes sign, i.e., where f' has a\nlocal max or min. f' has a local maximum at x = 2, so f'' changes from positive to negative there\n— inflection point of f at x = 2.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_020",
@@ -2113,7 +2222,8 @@ var APCALC_MCQ = [
       "(4, 6)"
     ],
     "answer": 2,
-    "explanation": "v(t) = (t-2)(t-4). v > 0 on (-$\\infty$, 2) ∪ (4, $\\infty$) and v < 0 on (2, 4). a(t) = 2t - 6, so a = 0 at t = 3. On (2, 3): v < 0 and a < 0 (same sign) — speeding up. On (3, 4): v < 0 and a > 0 (opposite signs) — slowing down."
+    "explanation": "v(t) = (t-2)(t-4). v > 0 on (-$\\infty$, 2) ∪ (4, $\\infty$) and v < 0 on (2, 4). a(t) = 2t - 6, so a = 0 at t = 3. On (2, 3): v < 0 and a < 0 (same sign) — speeding up. On (3, 4): v < 0 and a > 0 (opposite signs) — slowing down.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_021",
@@ -2132,7 +2242,8 @@ var APCALC_MCQ = [
       "x = -1 and x = 5"
     ],
     "answer": 1,
-    "explanation": "A relative minimum of f occurs where f' changes from negative to positive. This\nhappens only at x = 2."
+    "explanation": "A relative minimum of f occurs where f' changes from negative to positive. This\nhappens only at x = 2.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_022",
@@ -2151,7 +2262,8 @@ var APCALC_MCQ = [
       "f is never concave down"
     ],
     "answer": 1,
-    "explanation": "f is concave down where f'' < 0, i.e., where f' is decreasing. Since f' is\ndecreasing on (-$\\infty$, 3), f is concave down on (-$\\infty$, 3)."
+    "explanation": "f is concave down where f'' < 0, i.e., where f' is decreasing. Since f' is\ndecreasing on (-$\\infty$, 3), f is concave down on (-$\\infty$, 3).",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_023",
@@ -2189,7 +2301,8 @@ var APCALC_MCQ = [
       "f has no local minima on (1, 5)"
     ],
     "answer": 0,
-    "explanation": "[f(5)-f(1)]/(5-1) = (6-3)/4 = 3/4. By MVT, f'(c) = 3/4 for some c in (1,5)."
+    "explanation": "[f(5)-f(1)]/(5-1) = (6-3)/4 = 3/4. By MVT, f'(c) = 3/4 for some c in (1,5).",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_024",
@@ -2207,7 +2320,8 @@ var APCALC_MCQ = [
       "16 ft"
     ],
     "answer": 1,
-    "explanation": "V = $s^2$h = 32 $\\to$ h = 32/$s^2$. SA = $s^2$ + 4sh = $s^2$ + 128/s. SA' = 2s - 128/$s^2$ = 0 $\\to$\n2$s^3$ = 128 $\\to$ $s^3$ = 64 $\\to$ s = 4 ft."
+    "explanation": "V = $s^2$h = 32 $\\to$ h = 32/$s^2$. SA = $s^2$ + 4sh = $s^2$ + 128/s. SA' = 2s - 128/$s^2$ = 0 $\\to$\n2$s^3$ = 128 $\\to$ $s^3$ = 64 $\\to$ s = 4 ft.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_025",
@@ -2225,7 +2339,8 @@ var APCALC_MCQ = [
       "x = 0 and x = 3"
     ],
     "answer": 1,
-    "explanation": "Differentiate implicitly: 2x + 4y(dy/dx) - 6 = 0. Horizontal tangent when dy/dx = 0:\n2x - 6 = 0 $\\to$ x = 3."
+    "explanation": "Differentiate implicitly: 2x + 4y(dy/dx) - 6 = 0. Horizontal tangent when dy/dx = 0:\n2x - 6 = 0 $\\to$ x = 3.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_026",
@@ -2243,7 +2358,8 @@ var APCALC_MCQ = [
       "$-\\sqrt{2}$"
     ],
     "answer": 1,
-    "explanation": "f'(x) = cos(x) - sin(x) = 0 $\\to$ tan(x) = 1 $\\to$ x = π/4 and 5π/4. f(π/4) = √2/2 + √2/2 =\n√2. f(5π/4) = -√2. Check endpoints: f(0) = 1, f(2π) = 1. Absolute max is √2."
+    "explanation": "f'(x) = cos(x) - sin(x) = 0 $\\to$ tan(x) = 1 $\\to$ x = π/4 and 5π/4. f(π/4) = √2/2 + √2/2 =\n√2. f(5π/4) = -√2. Check endpoints: f(0) = 1, f(2π) = 1. Absolute max is √2.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_027",
@@ -2262,7 +2378,8 @@ var APCALC_MCQ = [
       "x = 5"
     ],
     "answer": 1,
-    "explanation": "f has an inflection point where f'' changes sign, i.e., where f' has a local\nextremum. f' has a local minimum at x = 3, so f'' changes from negative to positive there —\ninflection point at x = 3."
+    "explanation": "f has an inflection point where f'' changes sign, i.e., where f' has a local\nextremum. f' has a local minimum at x = 3, so f'' changes from negative to positive there —\ninflection point at x = 3.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_028",
@@ -2280,7 +2397,8 @@ var APCALC_MCQ = [
       "(-$\\infty$, 0)"
     ],
     "answer": 2,
-    "explanation": "f'(x) = e^(-x) - xe^(-x) = e^(-x)(1-x). f''(x) = e^(-x)(x-2). f'' > 0 when x > 2. So f is\nconcave up on (2, $\\infty$)."
+    "explanation": "f'(x) = e^(-x) - xe^(-x) = e^(-x)(1-x). f''(x) = e^(-x)(x-2). f'' > 0 when x > 2. So f is\nconcave up on (2, $\\infty$).",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_029",
@@ -2298,7 +2416,8 @@ var APCALC_MCQ = [
       "No critical point at x = 1"
     ],
     "answer": 1,
-    "explanation": "f'(x) = (4/3)x^(1/3) - (4/3)x^(-2/3) = (4/3)x^(-2/3)(x-1). f' = 0 at x = 1. f' < 0 for x <\n1, f' > 0 for x > 1. By FDT, x = 1 is a local minimum."
+    "explanation": "f'(x) = (4/3)x^(1/3) - (4/3)x^(-2/3) = (4/3)x^(-2/3)(x-1). f' = 0 at x = 1. f' < 0 for x <\n1, f' > 0 for x > 1. By FDT, x = 1 is a local minimum.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_031",
@@ -2316,7 +2435,8 @@ var APCALC_MCQ = [
       "Second Derivative Test"
     ],
     "answer": 2,
-    "explanation": "When f(a) = f(b), the MVT gives f'(c) = [f(b)-f(a)]/(b-a) = 0/4 = 0. This special\ncase is Rolle's Theorem."
+    "explanation": "When f(a) = f(b), the MVT gives f'(c) = [f(b)-f(a)]/(b-a) = 0/4 = 0. This special\ncase is Rolle's Theorem.",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_032",
@@ -2334,7 +2454,8 @@ var APCALC_MCQ = [
       "(4, 6) and (0, 0)"
     ],
     "answer": 1,
-    "explanation": "Differentiate: 2x + 2y(dy/dx) - 4 - 6(dy/dx) = 0. dy/dx = (4-2x)/(2y-6). Vertical\ntangent when denominator = 0: 2y-6 = 0 $\\to$ y = 3. Plug y=3 into original: $x^2$-4x+4=0 $\\to$ (x-2)²=0,\nonly x=2. So complete the square first: (x-2)²+(y-3)²=4, circle. Vertical tangent at y=3: x = 2±2.\nPoints: (0,3) and (4,3)."
+    "explanation": "Differentiate: 2x + 2y(dy/dx) - 4 - 6(dy/dx) = 0. dy/dx = (4-2x)/(2y-6). Vertical\ntangent when denominator = 0: 2y-6 = 0 $\\to$ y = 3. Plug y=3 into original: $x^2$-4x+4=0 $\\to$ (x-2)²=0,\nonly x=2. So complete the square first: (x-2)²+(y-3)²=4, circle. Vertical tangent at y=3: x = 2±2.\nPoints: (0,3) and (4,3).",
+    "type": "MCQ"
   },
   {
     "id": "u5_mcq_033",
@@ -2352,7 +2473,8 @@ var APCALC_MCQ = [
       "x ≈ 3.145 only"
     ],
     "answer": 2,
-    "explanation": "g'(x) = 4$x^3$-9$x^2$-1 = 12. Solve 4$x^3$-9$x^2$-13 = 0 using a calculator. Solutions are\napproximately x ≈ 2.320 and x ≈ -0.574."
+    "explanation": "g'(x) = 4$x^3$-9$x^2$-1 = 12. Solve 4$x^3$-9$x^2$-13 = 0 using a calculator. Solutions are\napproximately x ≈ 2.320 and x ≈ -0.574.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_001",
@@ -2370,7 +2492,8 @@ var APCALC_MCQ = [
       "$5 \\cdot r(5)$"
     ],
     "answer": 2,
-    "explanation": "The definite integral of a rate function over an interval gives the total\naccumulated change (net amount). ∫₀⁵ r(t) dt gives total gallons accumulated from t=0 to t=5."
+    "explanation": "The definite integral of a rate function over an interval gives the total\naccumulated change (net amount). ∫₀⁵ r(t) dt gives total gallons accumulated from t=0 to t=5.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_002",
@@ -2388,7 +2511,8 @@ var APCALC_MCQ = [
       "22"
     ],
     "answer": 3,
-    "explanation": "Displacement = ∫₁³ (3$t^2$ - 2) dt = [$t^3$ - 2t]₁³ = (27 - 6) - (1 - 2) = 21 - (-1) = 22."
+    "explanation": "Displacement = ∫₁³ (3$t^2$ - 2) dt = [$t^3$ - 2t]₁³ = (27 - 6) - (1 - 2) = 21 - (-1) = 22.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_006",
@@ -2406,7 +2530,8 @@ var APCALC_MCQ = [
       "Left sum underestimates, right sum overestimates"
     ],
     "answer": 3,
-    "explanation": "For an increasing function, left endpoints are smaller than the function values\non each subinterval $\\to$ left sum underestimates. Right endpoints are larger $\\to$ right sum\noverestimates."
+    "explanation": "For an increasing function, left endpoints are smaller than the function values\non each subinterval $\\to$ left sum underestimates. Right endpoints are larger $\\to$ right sum\noverestimates.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_007",
@@ -2424,7 +2549,8 @@ var APCALC_MCQ = [
       "T < I < M"
     ],
     "answer": 3,
-    "explanation": "When f is concave down, the trapezoid sum lies below the curve\n(underestimates) and the midpoint sum lies above (overestimates). So T < I < M."
+    "explanation": "When f is concave down, the trapezoid sum lies below the curve\n(underestimates) and the midpoint sum lies above (overestimates). So T < I < M.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_009",
@@ -2442,7 +2568,8 @@ var APCALC_MCQ = [
       "Cannot be determined"
     ],
     "answer": 2,
-    "explanation": "When the upper and lower limits of integration are equal, the definite integral\nequals 0 — there's no interval to accumulate over."
+    "explanation": "When the upper and lower limits of integration are equal, the definite integral\nequals 0 — there's no interval to accumulate over.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_010",
@@ -2460,7 +2587,8 @@ var APCALC_MCQ = [
       "-8"
     ],
     "answer": 3,
-    "explanation": "Reversing the limits of integration changes the sign: ∫₅² f(x) dx = -∫₂⁵ f(x) dx = -8."
+    "explanation": "Reversing the limits of integration changes the sign: ∫₅² f(x) dx = -∫₂⁵ f(x) dx = -8.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_011",
@@ -2478,7 +2606,8 @@ var APCALC_MCQ = [
       "40"
     ],
     "answer": 1,
-    "explanation": "By additivity: ∫₁⁵ f(x) dx = ∫₁³ f(x) dx + ∫₃⁵ f(x) dx. So ∫₃⁵ f(x) dx = 10 - 4 = 6."
+    "explanation": "By additivity: ∫₁⁵ f(x) dx = ∫₁³ f(x) dx + ∫₃⁵ f(x) dx. So ∫₃⁵ f(x) dx = 10 - 4 = 6.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_012",
@@ -2496,7 +2625,8 @@ var APCALC_MCQ = [
       "18"
     ],
     "answer": 1,
-    "explanation": "By linearity: 3∫₀⁴ f(x) dx - 2∫₀⁴ g(x) dx = 3(6) - 2(9) = 18 - 18 = 0."
+    "explanation": "By linearity: 3∫₀⁴ f(x) dx - 2∫₀⁴ g(x) dx = 3(6) - 2(9) = 18 - 18 = 0.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_013",
@@ -2514,7 +2644,8 @@ var APCALC_MCQ = [
       "x^2 + 1"
     ],
     "answer": 3,
-    "explanation": "By the Fundamental Theorem of Calculus Part 1, if g(x) = ∫₀ˣ f(t) dt, then g'(x) =\nf(x). So g'(x) = $x^2$ + 1."
+    "explanation": "By the Fundamental Theorem of Calculus Part 1, if g(x) = ∫₀ˣ f(t) dt, then g'(x) =\nf(x). So g'(x) = $x^2$ + 1.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_014",
@@ -2532,7 +2663,8 @@ var APCALC_MCQ = [
       "$2x\\cos(x^2)$"
     ],
     "answer": 1,
-    "explanation": "FTC Part 1 with chain rule: h'(x) = sin($x^2$) · d/dx[$x^2$] = sin($x^2$) · 2x = 2x·sin($x^2$)."
+    "explanation": "FTC Part 1 with chain rule: h'(x) = sin($x^2$) · d/dx[$x^2$] = sin($x^2$) · 2x = 2x·sin($x^2$).",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_015",
@@ -2550,7 +2682,8 @@ var APCALC_MCQ = [
       "e^{x^3} + e^x"
     ],
     "answer": 1,
-    "explanation": "Split using FTC with chain rule: F'(x) = eˣ³·(3$x^2$) - eˣ·(1) = 3$x^2$eˣ³ - eˣ."
+    "explanation": "Split using FTC with chain rule: F'(x) = eˣ³·(3$x^2$) - eˣ·(1) = 3$x^2$eˣ³ - eˣ.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_016",
@@ -2569,7 +2702,8 @@ var APCALC_MCQ = [
       "(0, 5)"
     ],
     "answer": 1,
-    "explanation": "g is positive when the accumulated area from 0 to x is positive (the positive area\nfrom 0 to 2 exceeds the negative area from 2 to x, until x gets large enough). g is decreasing\nwhen g'(x) = f(x) < 0, which is on (2,5). So g is positive AND decreasing on (2,5) — assuming\npositive area on (0,2) outweighs the deficit."
+    "explanation": "g is positive when the accumulated area from 0 to x is positive (the positive area\nfrom 0 to 2 exceeds the negative area from 2 to x, until x gets large enough). g is decreasing\nwhen g'(x) = f(x) < 0, which is on (2,5). So g is positive AND decreasing on (2,5) — assuming\npositive area on (0,2) outweighs the deficit.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_017",
@@ -2588,7 +2722,8 @@ var APCALC_MCQ = [
       "x = 0"
     ],
     "answer": 1,
-    "explanation": "g'(x) = f(x). g has a relative max where g' changes from positive to negative, i.e.,\nwhere f changes from positive to negative. f(6) = 0 and f changes sign from positive to negative\nat x = 6."
+    "explanation": "g'(x) = f(x). g has a relative max where g' changes from positive to negative, i.e.,\nwhere f changes from positive to negative. f(6) = 0 and f changes sign from positive to negative\nat x = 6.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_018",
@@ -2606,7 +2741,8 @@ var APCALC_MCQ = [
       "51"
     ],
     "answer": 3,
-    "explanation": "[$x^3$ - $x^2$ + x]₁⁴ = (64 - 16 + 4) - (1 - 1 + 1) = 52 - 1 = 51."
+    "explanation": "[$x^3$ - $x^2$ + x]₁⁴ = (64 - 16 + 4) - (1 - 1 + 1) = 52 - 1 = 51.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_019",
@@ -2624,7 +2760,8 @@ var APCALC_MCQ = [
       "-2"
     ],
     "answer": 2,
-    "explanation": "[-cos x]₀π = -cos(π) - (-cos(0)) = -(-1) - (-1) = 1 + 1 = 2."
+    "explanation": "[-cos x]₀π = -cos(π) - (-cos(0)) = -(-1) - (-1) = 1 + 1 = 2.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_020",
@@ -2642,7 +2779,8 @@ var APCALC_MCQ = [
       "$e^2$ - 1"
     ],
     "answer": 3,
-    "explanation": "[eˣ]₀² = $e^2$ - $e^0$ = $e^2$ - 1."
+    "explanation": "[eˣ]₀² = $e^2$ - $e^0$ = $e^2$ - 1.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_021",
@@ -2660,7 +2798,8 @@ var APCALC_MCQ = [
       "16"
     ],
     "answer": 1,
-    "explanation": "f(x) = $x^3$ is an odd function, so ∫₋₂² $x^3$ dx = 0 by symmetry. Alternatively: [$x^4$/4]₋₂² =\n4 - 4 = 0."
+    "explanation": "f(x) = $x^3$ is an odd function, so ∫₋₂² $x^3$ dx = 0 by symmetry. Alternatively: [$x^4$/4]₋₂² =\n4 - 4 = 0.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_022",
@@ -2678,7 +2817,8 @@ var APCALC_MCQ = [
       "4x^4 - 6x^2 + 2x + C"
     ],
     "answer": 1,
-    "explanation": "Integrate term by term: (4$x^4$/4) - (6$x^2$/2) + 2x + C = $x^4$ - 3$x^2$ + 2x + C."
+    "explanation": "Integrate term by term: (4$x^4$/4) - (6$x^2$/2) + 2x + C = $x^4$ - 3$x^2$ + 2x + C.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_023",
@@ -2696,7 +2836,8 @@ var APCALC_MCQ = [
       "$-\\sin x - 3\\cos x + C$"
     ],
     "answer": 2,
-    "explanation": "∫cos x dx = sin x, ∫3sin x dx = -3cos x. Total: sin x - 3cos x + C."
+    "explanation": "∫cos x dx = sin x, ∫3sin x dx = -3cos x. Total: sin x - 3cos x + C.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_024",
@@ -2714,7 +2855,8 @@ var APCALC_MCQ = [
       "e^x + $2\\ln$|x| + C"
     ],
     "answer": 3,
-    "explanation": "∫eˣ dx = eˣ, ∫(2/x) dx = 2ln|x|. Total: eˣ + 2ln|x| + C."
+    "explanation": "∫eˣ dx = eˣ, ∫(2/x) dx = 2ln|x|. Total: eˣ + 2ln|x| + C.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_025",
@@ -2732,7 +2874,8 @@ var APCALC_MCQ = [
       "6x - 4"
     ],
     "answer": 0,
-    "explanation": "f(x) = $x^3$ - 2$x^2$ + C. f(1) = 1-2+C = 2 $\\to$ C = 3. So f(x) = $x^3$ - 2$x^2$ + 3."
+    "explanation": "f(x) = $x^3$ - 2$x^2$ + C. f(1) = 1-2+C = 2 $\\to$ C = 3. So f(x) = $x^3$ - 2$x^2$ + 3.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_026",
@@ -2750,7 +2893,8 @@ var APCALC_MCQ = [
       "$\\frac{2x(x^2+1)^5}{5} + C$"
     ],
     "answer": 0,
-    "explanation": "Let u = $x^2$+1, du = 2x dx. Integral becomes ∫$u^4$ du = $u^5$/5 + C = ($x^2$+1)⁵/5 + C."
+    "explanation": "Let u = $x^2$+1, du = 2x dx. Integral becomes ∫$u^4$ du = $u^5$/5 + C = ($x^2$+1)⁵/5 + C.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_027",
@@ -2768,7 +2912,8 @@ var APCALC_MCQ = [
       "$-3\\sin(3x) + C$"
     ],
     "answer": 2,
-    "explanation": "Let u = 3x, du = 3 dx, dx = du/3. ∫cos(u)·(du/3) = (1/3)sin(u) + C = sin(3x)/3 + C."
+    "explanation": "Let u = 3x, du = 3 dx, dx = du/3. ∫cos(u)·(du/3) = (1/3)sin(u) + C = sin(3x)/3 + C.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_028",
@@ -2786,7 +2931,8 @@ var APCALC_MCQ = [
       "x^2 e^{x^2} + C"
     ],
     "answer": 1,
-    "explanation": "Let u = $x^2$, du = 2x dx $\\to$ x dx = du/2. ∫eᵘ·(du/2) = (1/2)eᵘ + C = eˣ²/2 + C."
+    "explanation": "Let u = $x^2$, du = 2x dx $\\to$ x dx = du/2. ∫eᵘ·(du/2) = (1/2)eᵘ + C = eˣ²/2 + C.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_029",
@@ -2804,7 +2950,8 @@ var APCALC_MCQ = [
       "$\\frac{1}{5}$"
     ],
     "answer": 0,
-    "explanation": "Let u = $x^3$+1, du = 3$x^2$ dx. Limits: x=0$\\to$u=1, x=1$\\to$u=2. ∫₁² $u^4$ du = [$u^5$/5]₁² = 32/5\n- 1/5 = 31/5."
+    "explanation": "Let u = $x^3$+1, du = 3$x^2$ dx. Limits: x=0$\\to$u=1, x=1$\\to$u=2. ∫₁² $u^4$ du = [$u^5$/5]₁² = 32/5\n- 1/5 = 31/5.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_030",
@@ -2822,7 +2969,8 @@ var APCALC_MCQ = [
       "$\\frac{\\ln|x^2+3|}{2} + C$"
     ],
     "answer": 2,
-    "explanation": "Let u = $x^2$+3, du = 2x dx. ∫(1/u) du = ln|u| + C = ln|$x^2$+3| + C."
+    "explanation": "Let u = $x^2$+3, du = 2x dx. ∫(1/u) du = ln|u| + C = ln|$x^2$+3| + C.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_031",
@@ -2840,7 +2988,8 @@ var APCALC_MCQ = [
       "9"
     ],
     "answer": 1,
-    "explanation": "Average value = (1/(3-0))∫₀³ $x^2$ dx = (1/3)[$x^3$/3]₀³ = (1/3)(9) = 3."
+    "explanation": "Average value = (1/(3-0))∫₀³ $x^2$ dx = (1/3)[$x^3$/3]₀³ = (1/3)(9) = 3.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_032",
@@ -2858,7 +3007,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 0,
-    "explanation": "The integrand √(4-$x^2$) represents the upper half of a circle with radius 2. ∫₀²\n√(4-$x^2$) dx is a quarter circle of radius 2. Area = (1/4)π($2^2$) = π."
+    "explanation": "The integrand √(4-$x^2$) represents the upper half of a circle with radius 2. ∫₀²\n√(4-$x^2$) dx is a quarter circle of radius 2. Area = (1/4)π($2^2$) = π.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_033",
@@ -2877,7 +3027,8 @@ var APCALC_MCQ = [
       "16 + 2π"
     ],
     "answer": 0,
-    "explanation": "Triangle area = (1/2)(4)(4) = 8. Semicircle area (below x-axis) = -(1/2)π($2^2$) =\n-2π. Total = 8 - 2π."
+    "explanation": "Triangle area = (1/2)(4)(4) = 8. Semicircle area (below x-axis) = -(1/2)π($2^2$) =\n-2π. Total = 8 - 2π.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_034",
@@ -2895,7 +3046,8 @@ var APCALC_MCQ = [
       "$\\int_{-1}^{1} e^x$ \\, dx"
     ],
     "answer": 2,
-    "explanation": "An integral of an odd function over a symmetric interval [-a, a] equals zero. f(x)\n= $x^4$sin(x): $x^4$ is even, sin(x) is odd, so the product is odd. ∫₋₃³ $x^4$sin(x) dx = 0."
+    "explanation": "An integral of an odd function over a symmetric interval [-a, a] equals zero. f(x)\n= $x^4$sin(x): $x^4$ is even, sin(x) is odd, so the product is odd. ∫₋₃³ $x^4$sin(x) dx = 0.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_035",
@@ -2913,7 +3065,8 @@ var APCALC_MCQ = [
       "$\\ln|\\sin x| + C$"
     ],
     "answer": 0,
-    "explanation": "Let u = sin x, du = cos x dx. ∫u⁻³ du = u⁻²/(-2) + C = -1/(2si$n^2$x) + C."
+    "explanation": "Let u = sin x, du = cos x dx. ∫u⁻³ du = u⁻²/(-2) + C = -1/(2si$n^2$x) + C.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_037",
@@ -2931,7 +3084,8 @@ var APCALC_MCQ = [
       "$\\frac{x^2}{2} + 2\\ln|x-1| + C$"
     ],
     "answer": 0,
-    "explanation": "Long division: ($x^2$ + 1) ÷ (x - 1) = x + 1 with remainder 2. So the integrand equals x + 1 + 2/(x-1). Integrating: $x^2$/2 + x + 2ln|x-1| + C."
+    "explanation": "Long division: ($x^2$ + 1) ÷ (x - 1) = x + 1 with remainder 2. So the integrand equals x + 1 + 2/(x-1). Integrating: $x^2$/2 + x + 2ln|x-1| + C.",
+    "type": "MCQ"
   },
   {
     "id": "u6_mcq_038",
@@ -2949,7 +3103,8 @@ var APCALC_MCQ = [
       "$\\frac{3}{4}$"
     ],
     "answer": 0,
-    "explanation": "Let u = sin x, du = cos x dx. Limits: x=0$\\to$u=0, x=π/2$\\to$u=1. ∫₀¹ $u^3$ du = [$u^4$/4]₀¹ =\n1/4."
+    "explanation": "Let u = sin x, du = cos x dx. Limits: x=0$\\to$u=0, x=π/2$\\to$u=1. ∫₀¹ $u^3$ du = [$u^4$/4]₀¹ =\n1/4.",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_001",
@@ -2967,7 +3122,8 @@ var APCALC_MCQ = [
       "$\\frac{dP}{dt} = kP$"
     ],
     "answer": 3,
-    "explanation": "Rate proportional to the current population means dP/dt = kP, which is the\nstandard exponential growth model."
+    "explanation": "Rate proportional to the current population means dP/dt = kP, which is the\nstandard exponential growth model.",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_002",
@@ -2985,7 +3141,8 @@ var APCALC_MCQ = [
       "$\\frac{dV}{dt} = kV^3, \\text{ where } k < 0$"
     ],
     "answer": 3,
-    "explanation": "Proportional to the cube of V means dV/dt = k$V^3$. Since the tank is losing water,\nk must be negative so that dV/dt < 0."
+    "explanation": "Proportional to the cube of V means dV/dt = k$V^3$. Since the tank is losing water,\nk must be negative so that dV/dt < 0.",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_003",
@@ -3003,7 +3160,8 @@ var APCALC_MCQ = [
       "$\\frac{dT}{dt} = 72kT$"
     ],
     "answer": 0,
-    "explanation": "Newton's Law of Cooling: dT/dt = k(T - 72). Since k < 0 and T > 72 initially, the\ntemperature decreases. Option (C) would require k > 0 to cool, making (A) the more standard\nform."
+    "explanation": "Newton's Law of Cooling: dT/dt = k(T - 72). Since k < 0 and T > 72 initially, the\ntemperature decreases. Option (C) would require k > 0 to cool, making (A) the more standard\nform.",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_004",
@@ -3021,7 +3179,8 @@ var APCALC_MCQ = [
       "y = e^{2x}"
     ],
     "answer": 3,
-    "explanation": "For y = e^{2x}: dy/dx = 2e^{2x} = 2y. ✓ The others fail: for y=2x, dy/dx=2 $\\neq$\n2(2x). For y=$x^2$, dy/dx=2x $\\neq$ 2$x^2$. For y=ln(2x), dy/dx=1/x $\\neq$ 2ln(2x)."
+    "explanation": "For y = e^{2x}: dy/dx = 2e^{2x} = 2y. ✓ The others fail: for y=2x, dy/dx=2 $\\neq$\n2(2x). For y=$x^2$, dy/dx=2x $\\neq$ 2$x^2$. For y=ln(2x), dy/dx=1/x $\\neq$ 2ln(2x).",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_006",
@@ -3039,7 +3198,8 @@ var APCALC_MCQ = [
       "0 and 1"
     ],
     "answer": 0,
-    "explanation": "At (0,0): dy/dx = 0 + 0 = 0. At (1,−1): dy/dx = 1 + (−1) = 0. So both slopes are 0."
+    "explanation": "At (0,0): dy/dx = 0 + 0 = 0. At (1,−1): dy/dx = 1 + (−1) = 0. So both slopes are 0.",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_008",
@@ -3057,7 +3217,8 @@ var APCALC_MCQ = [
       "Solution curves are exponential curves"
     ],
     "answer": 1,
-    "explanation": "Separating variables: y dy = -x dx $\\to$ $y^2$/2 = -$x^2$/2 + C $\\to$ $x^2$ + $y^2$ = constant. These are circles centered at the origin."
+    "explanation": "Separating variables: y dy = -x dx $\\to$ $y^2$/2 = -$x^2$/2 + C $\\to$ $x^2$ + $y^2$ = constant. These are circles centered at the origin.",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_009",
@@ -3075,7 +3236,8 @@ var APCALC_MCQ = [
       "y^2 = 2x + C"
     ],
     "answer": 1,
-    "explanation": "Separate variables: y dy = x dx. Integrate both sides: $y^2$/2 = $x^2$/2 + C₁, so $y^2$ = $x^2$\n+ C (absorbing the factor of 2 into C)."
+    "explanation": "Separate variables: y dy = x dx. Integrate both sides: $y^2$/2 = $x^2$/2 + C₁, so $y^2$ = $x^2$\n+ C (absorbing the factor of 2 into C).",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_010",
@@ -3093,7 +3255,8 @@ var APCALC_MCQ = [
       "$y = \\frac{3x^3}{y} + C$"
     ],
     "answer": 1,
-    "explanation": "Separate: dy/y = 3$x^2$ dx. Integrate: ln|y| = $x^3$ + C₁. Exponentiate: |y| = e^($x^3$+C₁) =\ne^C₁ · e^($x^3$). So y = Ce^($x^3$) where C = ±e^(C₁) is an arbitrary constant."
+    "explanation": "Separate: dy/y = 3$x^2$ dx. Integrate: ln|y| = $x^3$ + C₁. Exponentiate: |y| = e^($x^3$+C₁) =\ne^C₁ · e^($x^3$). So y = Ce^($x^3$) where C = ±e^(C₁) is an arbitrary constant.",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_011",
@@ -3111,7 +3274,8 @@ var APCALC_MCQ = [
       "$\\sqrt{7}$"
     ],
     "answer": 0,
-    "explanation": "From the general solution $y^2$ = $x^2$ + C. Apply f(2) = 0: 0 = 4 + C $\\to$ C = −4. So $y^2$\n= $x^2$ − 4. At x = 3: $y^2$ = 9 − 4 = 5, so y = √5 (taking positive root since the solution goes through\n(2,0) and increases)."
+    "explanation": "From the general solution $y^2$ = $x^2$ + C. Apply f(2) = 0: 0 = 4 + C $\\to$ C = −4. So $y^2$\n= $x^2$ − 4. At x = 3: $y^2$ = 9 − 4 = 5, so y = √5 (taking positive root since the solution goes through\n(2,0) and increases).",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_012",
@@ -3129,7 +3293,8 @@ var APCALC_MCQ = [
       "$\\ln 2 - 1$"
     ],
     "answer": 1,
-    "explanation": "Separate variables: e^y dy = -dx. Integrate: e^y = -x + C. Apply f(0) = 0: e^0 = 0 + C, so C = 1. Thus e^y = 1 - x, giving y = ln(1 - x). At x = 1/2: f(1/2) = ln(1/2) = -ln 2."
+    "explanation": "Separate variables: e^y dy = -dx. Integrate: e^y = -x + C. Apply f(0) = 0: e^0 = 0 + C, so C = 1. Thus e^y = 1 - x, giving y = ln(1 - x). At x = 1/2: f(1/2) = ln(1/2) = -ln 2.",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_013",
@@ -3147,7 +3312,8 @@ var APCALC_MCQ = [
       "$\\frac{200}{20}$"
     ],
     "answer": 2,
-    "explanation": "The solution to dy/dt = ky with y(0) = y₀ is y = y₀e^(kt). Here y₀ = 200, k = −0.05.\nAt t = 20: y = 200e^(−0.05·20) = 200e^(−1)."
+    "explanation": "The solution to dy/dt = ky with y(0) = y₀ is y = y₀e^(kt). Here y₀ = 200, k = −0.05.\nAt t = 20: y = 200e^(−0.05·20) = 200e^(−1).",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_014",
@@ -3165,7 +3331,8 @@ var APCALC_MCQ = [
       "16000"
     ],
     "answer": 2,
-    "explanation": "y = 500e^(kt). At t=3: 2000 = 500e^(3k) $\\to$ e^(3k) = 4 $\\to$ 3k = ln4. At t=6: y =\n500e^(6k) = 500(e^(3k))² = 500 · 16 = 8000."
+    "explanation": "y = 500e^(kt). At t=3: 2000 = 500e^(3k) $\\to$ e^(3k) = 4 $\\to$ 3k = ln4. At t=6: y =\n500e^(6k) = 500(e^(3k))² = 500 · 16 = 8000.",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_015",
@@ -3183,7 +3350,8 @@ var APCALC_MCQ = [
       "$\\frac{1}{8}$"
     ],
     "answer": 1,
-    "explanation": "y = y₀·(1/2)^(t/10). At t = 25: y = y₀·(1/2)^(2.5) = y₀/2^(2.5) = y₀/(4√2) = y₀·1/(2√2). The remaining fraction is 1/(2√2) ≈ 0.354."
+    "explanation": "y = y₀·(1/2)^(t/10). At t = 25: y = y₀·(1/2)^(2.5) = y₀/2^(2.5) = y₀/(4√2) = y₀·1/(2√2). The remaining fraction is 1/(2√2) ≈ 0.354.",
+    "type": "MCQ"
   },
   {
     "id": "u7_mcq_016",
@@ -3201,7 +3369,8 @@ var APCALC_MCQ = [
       "$\\frac{dy}{dx} = x + y$"
     ],
     "answer": 1,
-    "explanation": "Along y = x, dy/dx must equal 0. For dy/dx = y - x: when y = x, dy/dx = 0. ✓ When y > x (above the line), y - x > 0, so slopes are positive. ✓ When y < x (below the line), y - x < 0, so slopes are negative. ✓"
+    "explanation": "Along y = x, dy/dx must equal 0. For dy/dx = y - x: when y = x, dy/dx = 0. ✓ When y > x (above the line), y - x > 0, so slopes are positive. ✓ When y < x (below the line), y - x < 0, so slopes are negative. ✓",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_001",
@@ -3219,7 +3388,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 3,
-    "explanation": "Average value = (1/(b−a)) ∫[a,b] f(x) dx = (1/2) ∫₀² 3$x^2$ dx = (1/2)[$x^3$]₀² = (1/2)(8 −\n0) = 4."
+    "explanation": "Average value = (1/(b−a)) ∫[a,b] f(x) dx = (1/2) ∫₀² 3$x^2$ dx = (1/2)[$x^3$]₀² = (1/2)(8 −\n0) = 4.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_002",
@@ -3237,7 +3407,8 @@ var APCALC_MCQ = [
       "$\\frac{\\pi}{2}$"
     ],
     "answer": 2,
-    "explanation": "Average value = (1/π) ∫₀^π sin x dx = (1/π)[−cos x]₀^π = (1/π)(−cos π + cos 0) =\n(1/π)(1 + 1) = 2/π."
+    "explanation": "Average value = (1/π) ∫₀^π sin x dx = (1/π)[−cos x]₀^π = (1/π)(−cos π + cos 0) =\n(1/π)(1 + 1) = 2/π.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_003",
@@ -3255,7 +3426,8 @@ var APCALC_MCQ = [
       "$$\\sqrt[3]{10}$$"
     ],
     "answer": 3,
-    "explanation": "Average value = (1/(3−1)) ∫₁³ $x^3$ dx = (1/2)[$x^4$/4]₁³ = (1/2)(81/4 − 1/4) = (1/2)(80/4)\n= 10. Set h(c) = $c^3$ = 10 $\\to$ c = ∛10."
+    "explanation": "Average value = (1/(3−1)) ∫₁³ $x^3$ dx = (1/2)[$x^4$/4]₁³ = (1/2)(81/4 − 1/4) = (1/2)(80/4)\n= 10. Set h(c) = $c^3$ = 10 $\\to$ c = ∛10.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_004",
@@ -3273,7 +3445,8 @@ var APCALC_MCQ = [
       "2"
     ],
     "answer": 3,
-    "explanation": "x(t) = x(0) + ∫₀ᵗ v(s) ds. x(3) = 2 + ∫₀³ (3$t^2$ − 6t) dt = 2 + [$t^3$ − 3$t^2$]₀³ = 2 + (27 − 27 −\n0) = 2 + 0 = 2."
+    "explanation": "x(t) = x(0) + ∫₀ᵗ v(s) ds. x(3) = 2 + ∫₀³ (3$t^2$ − 6t) dt = 2 + [$t^3$ − 3$t^2$]₀³ = 2 + (27 − 27 −\n0) = 2 + 0 = 2.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_005",
@@ -3291,7 +3464,8 @@ var APCALC_MCQ = [
       "$\\frac{19}{3}$"
     ],
     "answer": 2,
-    "explanation": "v(t) = 0 at t = 2. On [0, 2]: v < 0. On [2, 3]: v > 0. Total distance = ∫₀²(4 - $t^2$) dt + ∫₂³($t^2$ - 4) dt = [4t - $t^3$/3]₀² + [$t^3$/3 - 4t]₂³ = 16/3 + 7/3 = 23/3."
+    "explanation": "v(t) = 0 at t = 2. On [0, 2]: v < 0. On [2, 3]: v > 0. Total distance = ∫₀²(4 - $t^2$) dt + ∫₂³($t^2$ - 4) dt = [4t - $t^3$/3]₀² + [$t^3$/3 - 4t]₂³ = 16/3 + 7/3 = 23/3.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_006",
@@ -3327,7 +3501,8 @@ var APCALC_MCQ = [
       "10"
     ],
     "answer": 0,
-    "explanation": "Left Riemann sum with Δt = 2: displacement ≈ v(0)·2 + v(2)·2 + v(4)·2 = 3(2) +\n(−1)(2) + 2(2) = 6 − 2 + 4 = 8."
+    "explanation": "Left Riemann sum with Δt = 2: displacement ≈ v(0)·2 + v(2)·2 + v(4)·2 = 3(2) +\n(−1)(2) + 2(2) = 6 − 2 + 4 = 8.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_007",
@@ -3345,7 +3520,8 @@ var APCALC_MCQ = [
       "30"
     ],
     "answer": 0,
-    "explanation": "Net rate = (2t + 1) - 3 = 2t - 2. Net change = ∫₀⁴(2t - 2) dt = [$t^2$ - 2t]₀⁴ = 16 - 8 = 8. Total at t = 4: 10 + 8 = 18 gallons."
+    "explanation": "Net rate = (2t + 1) - 3 = 2t - 2. Net change = ∫₀⁴(2t - 2) dt = [$t^2$ - 2t]₀⁴ = 16 - 8 = 8. Total at t = 4: 10 + 8 = 18 gallons.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_008",
@@ -3363,7 +3539,8 @@ var APCALC_MCQ = [
       "$\\frac{262}{3}$"
     ],
     "answer": 3,
-    "explanation": "Number = 50 + ∫₀⁴(10√t - 2t) dt = 50 + [(20/3)t^(3/2) - $t^2$]₀⁴ = 50 + (160/3 - 16) = 50 + 112/3 = 150/3 + 112/3 = 262/3."
+    "explanation": "Number = 50 + ∫₀⁴(10√t - 2t) dt = 50 + [(20/3)t^(3/2) - $t^2$]₀⁴ = 50 + (160/3 - 16) = 50 + 112/3 = 150/3 + 112/3 = 262/3.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_009",
@@ -3381,7 +3558,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 0,
-    "explanation": "Intersection: $x^2$ = x $\\to$ x = 0 and x = 1. On [0,1], x $\\geq$ $x^2$. Area = ∫₀¹ (x − $x^2$) dx =\n[$x^2$/2 − $x^3$/3]₀¹ = 1/2 − 1/3 = 1/6."
+    "explanation": "Intersection: $x^2$ = x $\\to$ x = 0 and x = 1. On [0,1], x $\\geq$ $x^2$. Area = ∫₀¹ (x − $x^2$) dx =\n[$x^2$/2 − $x^3$/3]₀¹ = 1/2 − 1/3 = 1/6.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_010",
@@ -3399,7 +3577,8 @@ var APCALC_MCQ = [
       "16"
     ],
     "answer": 2,
-    "explanation": "Intersection with x-axis: 4 − $x^2$ = 0 $\\to$ x = ±2. Area = ∫₋₂² (4 − $x^2$) dx = [4x − $x^3$/3]₋₂²\n= (8 − 8/3) − (−8 + 8/3) = 16 − 16/3 = 32/3."
+    "explanation": "Intersection with x-axis: 4 − $x^2$ = 0 $\\to$ x = ±2. Area = ∫₋₂² (4 − $x^2$) dx = [4x − $x^3$/3]₋₂²\n= (8 − 8/3) − (−8 + 8/3) = 16 − 16/3 = 32/3.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_011",
@@ -3417,7 +3596,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 2,
-    "explanation": "Intersection at x = π/4. On [0, π/4]: cos x $\\geq$ sin x. On [π/4, π/2]: sin x $\\geq$ cos x. Area = ∫₀^(π/4)(cos x - sin x) dx + ∫_(π/4)^(π/2)(sin x - cos x) dx = (√2 - 1) + (√2 - 1) = 2(√2 - 1)."
+    "explanation": "Intersection at x = π/4. On [0, π/4]: cos x $\\geq$ sin x. On [π/4, π/2]: sin x $\\geq$ cos x. Area = ∫₀^(π/4)(cos x - sin x) dx + ∫_(π/4)^(π/2)(sin x - cos x) dx = (√2 - 1) + (√2 - 1) = 2(√2 - 1).",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_012",
@@ -3435,7 +3615,8 @@ var APCALC_MCQ = [
       "16"
     ],
     "answer": 1,
-    "explanation": "Intersection: $y^2$ = 4 $\\to$ y = ±2. Integrating with respect to y, the right curve is x =\n4 and left is x = $y^2$. Area = ∫₋₂² (4 − $y^2$) dy = [4y − $y^3$/3]₋₂² = (8 − 8/3) − (−8 + 8/3) = 16 − 16/3 =\n32/3."
+    "explanation": "Intersection: $y^2$ = 4 $\\to$ y = ±2. Integrating with respect to y, the right curve is x =\n4 and left is x = $y^2$. Area = ∫₋₂² (4 − $y^2$) dy = [4y − $y^3$/3]₋₂² = (8 − 8/3) − (−8 + 8/3) = 16 − 16/3 =\n32/3.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_013",
@@ -3453,7 +3634,8 @@ var APCALC_MCQ = [
       "2"
     ],
     "answer": 1,
-    "explanation": "f(x) = $x^3$ − x = x($x^2$−1) = x(x−1)(x+1). Zeros at x = −1, 0, 1. On [−1, 0]: f(x) $\\geq$ 0.\nOn [0, 1]: f(x) $\\leq$ 0. Area = ∫₋₁⁰($x^3$−x)dx + ∫₀¹|$x^3$−x|dx = [$x^4$/4−$x^2$/2]₋₁⁰ + [$x^2$/2−$x^4$/4]₀¹ = (0 − (1/4−1/2)) +\n(1/2−1/4) = 1/4 + 1/4 = 1/2."
+    "explanation": "f(x) = $x^3$ − x = x($x^2$−1) = x(x−1)(x+1). Zeros at x = −1, 0, 1. On [−1, 0]: f(x) $\\geq$ 0.\nOn [0, 1]: f(x) $\\leq$ 0. Area = ∫₋₁⁰($x^3$−x)dx + ∫₀¹|$x^3$−x|dx = [$x^4$/4−$x^2$/2]₋₁⁰ + [$x^2$/2−$x^4$/4]₀¹ = (0 − (1/4−1/2)) +\n(1/2−1/4) = 1/4 + 1/4 = 1/2.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_014",
@@ -3471,7 +3653,8 @@ var APCALC_MCQ = [
       "16"
     ],
     "answer": 1,
-    "explanation": "Each cross section is a square with side length √x. Area of square = (√x)² = x.\nVolume = ∫₀⁴ x dx = [$x^2$/2]₀⁴ = 8."
+    "explanation": "Each cross section is a square with side length √x. Area of square = (√x)² = x.\nVolume = ∫₀⁴ x dx = [$x^2$/2]₀⁴ = 8.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_015",
@@ -3489,7 +3672,8 @@ var APCALC_MCQ = [
       "$\\frac{64\\pi}{15}$"
     ],
     "answer": 3,
-    "explanation": "Diameter = 4 - $x^2$, radius = (4 - $x^2$)/2. Area of semicircle = π$r^2$/2 = π(4 - $x^2$)²/8. Volume = (π/8)∫₋₂²(4 - $x^2$)² dx = (π/8)·(512/15) = 64π/15."
+    "explanation": "Diameter = 4 - $x^2$, radius = (4 - $x^2$)/2. Area of semicircle = π$r^2$/2 = π(4 - $x^2$)²/8. Volume = (π/8)∫₋₂²(4 - $x^2$)² dx = (π/8)·(512/15) = 64π/15.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_016",
@@ -3507,7 +3691,8 @@ var APCALC_MCQ = [
       "$\\frac{1}{6}$"
     ],
     "answer": 1,
-    "explanation": "Base of rectangle = x - $x^2$, height = 2(x - $x^2$). Area = 2(x - $x^2$)². Volume = 2∫₀¹(x - $x^2$)² dx = 2∫₀¹($x^2$ - 2$x^3$ + $x^4$) dx = 2[$x^3$/3 - $x^4$/2 + $x^5$/5]₀¹ = 2(1/3 - 1/2 + 1/5) = 2(1/30) = 1/15."
+    "explanation": "Base of rectangle = x - $x^2$, height = 2(x - $x^2$). Area = 2(x - $x^2$)². Volume = 2∫₀¹(x - $x^2$)² dx = 2∫₀¹($x^2$ - 2$x^3$ + $x^4$) dx = 2[$x^3$/3 - $x^4$/2 + $x^5$/5]₀¹ = 2(1/3 - 1/2 + 1/5) = 2(1/30) = 1/15.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_017",
@@ -3525,7 +3710,8 @@ var APCALC_MCQ = [
       "$32\\pi$"
     ],
     "answer": 1,
-    "explanation": "Volume = π∫₀⁴ (√x)² dx = π∫₀⁴ x dx = π[$x^2$/2]₀⁴ = π(8) = 8π."
+    "explanation": "Volume = π∫₀⁴ (√x)² dx = π∫₀⁴ x dx = π[$x^2$/2]₀⁴ = π(8) = 8π.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_018",
@@ -3543,7 +3729,8 @@ var APCALC_MCQ = [
       "$32\\pi$"
     ],
     "answer": 1,
-    "explanation": "Revolve about y-axis: express x in terms of y. From y = $x^2$, x = √y. Volume = π∫₀⁴\n(√y)² dy = π∫₀⁴ y dy = π[$y^2$/2]₀⁴ = π(8) = 8π."
+    "explanation": "Revolve about y-axis: express x in terms of y. From y = $x^2$, x = √y. Volume = π∫₀⁴\n(√y)² dy = π∫₀⁴ y dy = π[$y^2$/2]₀⁴ = π(8) = 8π.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_019",
@@ -3561,7 +3748,8 @@ var APCALC_MCQ = [
       "$\\frac{512\\pi}{15}$"
     ],
     "answer": 3,
-    "explanation": "Revolution about y = 4: radius = 4 - $x^2$. Bounds: $x^2$ = 4 $\\to$ x = ±2. Volume = π∫₋₂²(4 - $x^2$)² dx = π·(512/15) = 512π/15."
+    "explanation": "Revolution about y = 4: radius = 4 - $x^2$. Bounds: $x^2$ = 4 $\\to$ x = ±2. Volume = π∫₋₂²(4 - $x^2$)² dx = π·(512/15) = 512π/15.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_020",
@@ -3579,7 +3767,8 @@ var APCALC_MCQ = [
       "$\\frac{\\pi}{2}$"
     ],
     "answer": 0,
-    "explanation": "Washer method: outer radius R = √x, inner radius r = x. Volume =\nπ∫₀¹[(√x)²−$x^2$]dx = π∫₀¹[x−$x^2$]dx = π[$x^2$/2−$x^3$/3]₀¹ = π(1/2−1/3) = π/6."
+    "explanation": "Washer method: outer radius R = √x, inner radius r = x. Volume =\nπ∫₀¹[(√x)²−$x^2$]dx = π∫₀¹[x−$x^2$]dx = π[$x^2$/2−$x^3$/3]₀¹ = π(1/2−1/3) = π/6.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_021",
@@ -3597,7 +3786,8 @@ var APCALC_MCQ = [
       "$\\frac{2\\pi}{5}$"
     ],
     "answer": 0,
-    "explanation": "Intersection: $x^2$=√x $\\to$ $x^4$=x $\\to$ x=0,1. Express in terms of y: x=√y (right) from\ny=$x^2$, and x=$y^2$ (left) from y=√x. Revolve about y-axis, washers: outer radius √y, inner radius $y^2$.\nVolume = π∫₀¹[(√y)²−($y^2$)²]dy = π∫₀¹[y−$y^4$]dy = π[$y^2$/2−$y^5$/5]₀¹ = π(1/2−1/5) = 3π/10."
+    "explanation": "Intersection: $x^2$=√x $\\to$ $x^4$=x $\\to$ x=0,1. Express in terms of y: x=√y (right) from\ny=$x^2$, and x=$y^2$ (left) from y=√x. Revolve about y-axis, washers: outer radius √y, inner radius $y^2$.\nVolume = π∫₀¹[(√y)²−($y^2$)²]dy = π∫₀¹[y−$y^4$]dy = π[$y^2$/2−$y^5$/5]₀¹ = π(1/2−1/5) = 3π/10.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_022",
@@ -3615,7 +3805,8 @@ var APCALC_MCQ = [
       "$$\\pi \\int_0^1 [(1-x^2)^2 - (1-x)^2]\\, dx$$"
     ],
     "answer": 0,
-    "explanation": "Revolution about y=−1: outer radius = (top curve) − (−1) = x − (−1) = x+1 (since\ny=x is on top). Inner radius = $x^2$ − (−1) = $x^2$+1. Volume = π∫₀¹[(x+1)²−($x^2$+1)²]dx."
+    "explanation": "Revolution about y=−1: outer radius = (top curve) − (−1) = x − (−1) = x+1 (since\ny=x is on top). Inner radius = $x^2$ − (−1) = $x^2$+1. Volume = π∫₀¹[(x+1)²−($x^2$+1)²]dx.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_023",
@@ -3633,7 +3824,8 @@ var APCALC_MCQ = [
       "$\\frac{8}{3}$"
     ],
     "answer": 1,
-    "explanation": "Displacement = ∫₀⁴($t^2$ - 4t + 3) dt = [$t^3$/3 - 2$t^2$ + 3t]₀⁴ = (64/3 - 32 + 12) - 0 = 64/3 - 20 = 4/3."
+    "explanation": "Displacement = ∫₀⁴($t^2$ - 4t + 3) dt = [$t^3$/3 - 2$t^2$ + 3t]₀⁴ = (64/3 - 32 + 12) - 0 = 64/3 - 20 = 4/3.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_024",
@@ -3651,7 +3843,8 @@ var APCALC_MCQ = [
       "1.693"
     ],
     "answer": 2,
-    "explanation": "Solve e^x = x + 2 numerically: intersections at x ≈ -1.146 and x ≈ 1.146. Area = ∫[(x+2) - e^x]dx from -1.146 to 1.146 ≈ 1.036."
+    "explanation": "Solve e^x = x + 2 numerically: intersections at x ≈ -1.146 and x ≈ 1.146. Area = ∫[(x+2) - e^x]dx from -1.146 to 1.146 ≈ 1.036.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_025",
@@ -3669,7 +3862,8 @@ var APCALC_MCQ = [
       "65°F"
     ],
     "answer": 0,
-    "explanation": "Average = (1/12)∫₀¹²[60 + 10sin(πt/12)]dt = (1/12)[60t − 10·(12/π)·cos(πt/12)]₀¹²\n= (1/12)[(720 − (120/π)cos(π)) − (0 − (120/π)cos(0))] = (1/12)[720 + 120/π − 120/π] =\n(1/12)(720) = 60°F. The sine term integrates to zero over a full period."
+    "explanation": "Average = (1/12)∫₀¹²[60 + 10sin(πt/12)]dt = (1/12)[60t − 10·(12/π)·cos(πt/12)]₀¹²\n= (1/12)[(720 − (120/π)cos(π)) − (0 − (120/π)cos(0))] = (1/12)[720 + 120/π − 120/π] =\n(1/12)(720) = 60°F. The sine term integrates to zero over a full period.",
+    "type": "MCQ"
   },
   {
     "id": "u8_mcq_026",
@@ -3687,7 +3881,8 @@ var APCALC_MCQ = [
       "$\\pi \\int_0^1 e^{2y}$\\, dy"
     ],
     "answer": 0,
-    "explanation": "Revolution about y-axis using washer method (integrating with respect to y): y =\nln x means x = e^y. From y=0 to y=1. Outer radius = e (right boundary), inner radius = e^y.\nVolume = π∫₀¹[(e)²−(e^y)²]dy = π∫₀¹[$e^2$−e^(2y)]dy."
+    "explanation": "Revolution about y-axis using washer method (integrating with respect to y): y =\nln x means x = e^y. From y=0 to y=1. Outer radius = e (right boundary), inner radius = e^y.\nVolume = π∫₀¹[(e)²−(e^y)²]dy = π∫₀¹[$e^2$−e^(2y)]dy.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q001",
@@ -3707,7 +3902,8 @@ var APCALC_MCQ = [
       "Does not exist"
     ],
     "answer": 0,
-    "explanation": "The limit depends on the values f(x) approaches, not the actual value f(3). Since y-values approach 5 from both sides, the limit is 5. Choice B (2) is the common misconception of confusing the function value with the limit. Choice D is wrong because the two-sided limit does exist."
+    "explanation": "The limit depends on the values f(x) approaches, not the actual value f(3). Since y-values approach 5 from both sides, the limit is 5. Choice B (2) is the common misconception of confusing the function value with the limit. Choice D is wrong because the two-sided limit does exist.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q002",
@@ -3727,7 +3923,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 3,
-    "explanation": "Factor the numerator: (x^2 - 4) = (x - 2)(x + 2). Cancel (x - 2) to get (x + 2). Substituting x = 2 gives 4. Choice A (0) is the misconception of plugging in and getting 0/0 and calling that 0. Choice C (2) comes from confusing the x-value with the limit. Choice B is wrong because the limit exists after simplification."
+    "explanation": "Factor the numerator: (x^2 - 4) = (x - 2)(x + 2). Cancel (x - 2) to get (x + 2). Substituting x = 2 gives 4. Choice A (0) is the misconception of plugging in and getting 0/0 and calling that 0. Choice C (2) comes from confusing the x-value with the limit. Choice B is wrong because the limit exists after simplification.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q003",
@@ -3747,7 +3944,8 @@ var APCALC_MCQ = [
       "3"
     ],
     "answer": 3,
-    "explanation": "By the difference law for limits, the limit of [f(x) - g(x)] equals the limit of f(x) minus the limit of g(x) = 6 - 3 = 3. Choice A (2) is the misconception of dividing instead of subtracting. Choice C (9) comes from adding instead of subtracting. Choice B (18) comes from multiplying the two limits."
+    "explanation": "By the difference law for limits, the limit of [f(x) - g(x)] equals the limit of f(x) minus the limit of g(x) = 6 - 3 = 3. Choice A (2) is the misconception of dividing instead of subtracting. Choice C (9) comes from adding instead of subtracting. Choice B (18) comes from multiplying the two limits.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q004",
@@ -3767,7 +3965,8 @@ var APCALC_MCQ = [
       "Does not exist"
     ],
     "answer": 3,
-    "explanation": "For a two-sided limit to exist, the left-hand and right-hand limits must be equal. Since 7 does not equal 10, the limit does not exist. Choice A picks only the left-hand limit. Choice B picks only the right-hand limit. Choice C is the misconception of averaging the two one-sided limits."
+    "explanation": "For a two-sided limit to exist, the left-hand and right-hand limits must be equal. Since 7 does not equal 10, the limit does not exist. Choice A picks only the left-hand limit. Choice B picks only the right-hand limit. Choice C is the misconception of averaging the two one-sided limits.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q005",
@@ -3787,7 +3986,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 3,
-    "explanation": "By the Squeeze Theorem, if f(x) is bounded between g(x) and h(x) and both bounding functions approach the same limit (4), then f(x) must also approach 4. Choice A confuses the point x = 0 with the limit value. Choice C is wrong because the Squeeze Theorem guarantees the result. Choice B is wrong because the limit is determined to exist and equal 4."
+    "explanation": "By the Squeeze Theorem, if f(x) is bounded between g(x) and h(x) and both bounding functions approach the same limit (4), then f(x) must also approach 4. Choice A confuses the point x = 0 with the limit value. Choice C is wrong because the Squeeze Theorem guarantees the result. Choice B is wrong because the limit is determined to exist and equal 4.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q006",
@@ -3807,7 +4007,8 @@ var APCALC_MCQ = [
       "f'(c) exists"
     ],
     "answer": 3,
-    "explanation": "Continuity at x = c requires three conditions: f(c) is defined, the limit as x approaches c exists, and the limit equals f(c). Differentiability (f'(c) exists) is not required for continuity — a function can be continuous but not differentiable (e.g., f(x) = |x| at x = 0). Choices A, B, and C are all part of the definition of continuity."
+    "explanation": "Continuity at x = c requires three conditions: f(c) is defined, the limit as x approaches c exists, and the limit equals f(c). Differentiability (f'(c) exists) is not required for continuity — a function can be continuous but not differentiable (e.g., f(x) = |x| at x = 0). Choices A, B, and C are all part of the definition of continuity.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q007",
@@ -3827,7 +4028,8 @@ var APCALC_MCQ = [
       "Removable discontinuity"
     ],
     "answer": 3,
-    "explanation": "Factoring gives (x - 3)(x + 3)/(x - 3), which simplifies to x + 3 for x not equal to 3. The limit as x approaches 3 is 6 but f(3) is undefined, so there is a hole — a removable discontinuity. Choice A (jump) would require different one-sided limits. Choice C (infinite) would require the function to blow up to infinity. Choice B is wrong because f is not defined at x = 3."
+    "explanation": "Factoring gives (x - 3)(x + 3)/(x - 3), which simplifies to x + 3 for x not equal to 3. The limit as x approaches 3 is 6 but f(3) is undefined, so there is a hole — a removable discontinuity. Choice A (jump) would require different one-sided limits. Choice C (infinite) would require the function to blow up to infinity. Choice B is wrong because f is not defined at x = 3.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q008",
@@ -3847,7 +4049,8 @@ var APCALC_MCQ = [
       "There exists some c in (1, 5) such that f(c) = 0"
     ],
     "answer": 3,
-    "explanation": "The IVT states that if f is continuous on [a, b] and N is between f(a) and f(b), then there exists c in (a, b) with f(c) = N. Since 0 is between -3 and 7, there must be a c where f(c) = 0. Choice A describes the Extreme Value Theorem, not IVT. Choice C describes a conclusion resembling the Mean Value Theorem or Rolle's Theorem. Choice B is not guaranteed by continuity alone."
+    "explanation": "The IVT states that if f is continuous on [a, b] and N is between f(a) and f(b), then there exists c in (a, b) with f(c) = N. Since 0 is between -3 and 7, there must be a c where f(c) = 0. Choice A describes the Extreme Value Theorem, not IVT. Choice C describes a conclusion resembling the Mean Value Theorem or Rolle's Theorem. Choice B is not guaranteed by continuity alone.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q009",
@@ -3867,7 +4070,8 @@ var APCALC_MCQ = [
       "11"
     ],
     "answer": 3,
-    "explanation": "Since 2x + 1 is a polynomial and polynomials are continuous everywhere, the limit is found by direct substitution: 2(5) + 1 = 11. Choice A (10) is the misconception of forgetting to add the constant. Choice C (9) may come from subtracting instead of adding. Choice B is wrong because polynomial limits always exist at finite points."
+    "explanation": "Since 2x + 1 is a polynomial and polynomials are continuous everywhere, the limit is found by direct substitution: 2(5) + 1 = 11. Choice A (10) is the misconception of forgetting to add the constant. Choice C (9) may come from subtracting instead of adding. Choice B is wrong because polynomial limits always exist at finite points.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q010",
@@ -3887,7 +4091,8 @@ var APCALC_MCQ = [
       "Does not exist"
     ],
     "answer": 2,
-    "explanation": "The limit depends on the y-value the function approaches, not the actual function value. The hole at (3, 5) means f approaches 5 as x approaches 3. The solid dot at (3, 2) gives f(3) = 2, which is the function value, not the limit. Students often confuse the function value with the limit (choice A) or think the mismatch means the limit DNE (choice D)."
+    "explanation": "The limit depends on the y-value the function approaches, not the actual function value. The hole at (3, 5) means f approaches 5 as x approaches 3. The solid dot at (3, 2) gives f(3) = 2, which is the function value, not the limit. Students often confuse the function value with the limit (choice A) or think the mismatch means the limit DNE (choice D).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q011",
@@ -3907,7 +4112,8 @@ var APCALC_MCQ = [
       "Does not exist"
     ],
     "answer": 2,
-    "explanation": "Factor numerator: x^2 - 16 = (x-4)(x+4). Factor denominator: x^2 - 5x + 4 = (x-4)(x-1). Cancel (x-4) to get (x+4)/(x-1). Substituting x=4 gives 8/3. Choice A results from thinking the 0/0 form equals 0. Choice B comes from incorrectly simplifying. Choice D incorrectly assumes 0/0 means the limit does not exist."
+    "explanation": "Factor numerator: x^2 - 16 = (x-4)(x+4). Factor denominator: x^2 - 5x + 4 = (x-4)(x-1). Cancel (x-4) to get (x+4)/(x-1). Substituting x=4 gives 8/3. Choice A results from thinking the 0/0 form equals 0. Choice B comes from incorrectly simplifying. Choice D incorrectly assumes 0/0 means the limit does not exist.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q012",
@@ -3927,7 +4133,8 @@ var APCALC_MCQ = [
       "k = 2"
     ],
     "answer": 2,
-    "explanation": "For the limit to exist, left and right limits must be equal. Left: lim x->1^- of (x^2+1) = 2. Right: lim x->1^+ of (3x-k) = 3-k. Set 3-k = 2, so k = 1. Choice A (k=-1) gives right limit = 4. Choice B (k=0) gives right limit = 3. Choice D (k=2) gives right limit = 1. Only k=1 makes both sides equal to 2."
+    "explanation": "For the limit to exist, left and right limits must be equal. Left: lim x->1^- of (x^2+1) = 2. Right: lim x->1^+ of (3x-k) = 3-k. Set 3-k = 2, so k = 1. Choice A (k=-1) gives right limit = 4. Choice B (k=0) gives right limit = 3. Choice D (k=2) gives right limit = 1. Only k=1 makes both sides equal to 2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q013",
@@ -3947,7 +4154,8 @@ var APCALC_MCQ = [
       "$\\infty$"
     ],
     "answer": 2,
-    "explanation": "When the degrees of numerator and denominator are equal, the limit is the ratio of leading coefficients: 3/5. Choice A would apply if the numerator degree were smaller. Choice B incorrectly uses the coefficient of the second-highest term in the denominator. Choice D would apply if the numerator degree were larger."
+    "explanation": "When the degrees of numerator and denominator are equal, the limit is the ratio of leading coefficients: 3/5. Choice A would apply if the numerator degree were smaller. Choice B incorrectly uses the coefficient of the second-highest term in the denominator. Choice D would apply if the numerator degree were larger.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q014",
@@ -3967,7 +4175,8 @@ var APCALC_MCQ = [
       "f'(c) exists"
     ],
     "answer": 3,
-    "explanation": "Continuity at x = c requires: (1) f(c) is defined, (2) the limit exists, and (3) the limit equals f(c). Differentiability (choice D) is NOT required for continuity. A function can be continuous but not differentiable (e.g., f(x) = |x| at x = 0). Students sometimes conflate differentiability with continuity."
+    "explanation": "Continuity at x = c requires: (1) f(c) is defined, (2) the limit exists, and (3) the limit equals f(c). Differentiability (choice D) is NOT required for continuity. A function can be continuous but not differentiable (e.g., f(x) = |x| at x = 0). Students sometimes conflate differentiability with continuity.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q015",
@@ -3987,7 +4196,8 @@ var APCALC_MCQ = [
       "No discontinuity"
     ],
     "answer": 2,
-    "explanation": "Factor: (x^2-9)/(x-3) = (x-3)(x+3)/(x-3) = x+3 for x $\\neq$ 3. The limit as x$\\to$3 is 6, but g(3) is undefined. Since the limit exists but the function is not defined there, this is a removable discontinuity (a hole). Choice A would require different one-sided limits. Choice B would require the function to approach ±$\\infty$. Choice D is wrong because g(3) is undefined."
+    "explanation": "Factor: (x^2-9)/(x-3) = (x-3)(x+3)/(x-3) = x+3 for x $\\neq$ 3. The limit as x$\\to$3 is 6, but g(3) is undefined. Since the limit exists but the function is not defined there, this is a removable discontinuity (a hole). Choice A would require different one-sided limits. Choice B would require the function to approach ±$\\infty$. Choice D is wrong because g(3) is undefined.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q016",
@@ -4007,7 +4217,8 @@ var APCALC_MCQ = [
       "f(3) = 2"
     ],
     "answer": 1,
-    "explanation": "Since f is continuous on [1, 5] and f(1) = -3 < 0 < 7 = f(5), the IVT guarantees there is some c in (1, 5) with f(c) = 0. Choice A is the Extreme Value Theorem, not IVT. Choice C is related to Rolle's Theorem or MVT, not IVT. Choice D is too specific — IVT guarantees a value of 2 is achieved somewhere in the interval but not necessarily at x = 3."
+    "explanation": "Since f is continuous on [1, 5] and f(1) = -3 < 0 < 7 = f(5), the IVT guarantees there is some c in (1, 5) with f(c) = 0. Choice A is the Extreme Value Theorem, not IVT. Choice C is related to Rolle's Theorem or MVT, not IVT. Choice D is too specific — IVT guarantees a value of 2 is achieved somewhere in the interval but not necessarily at x = 3.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q017",
@@ -4027,7 +4238,8 @@ var APCALC_MCQ = [
       "Does not exist"
     ],
     "answer": 1,
-    "explanation": "Multiply by the conjugate: [sqrt(x+4)-2]/x · [sqrt(x+4)+2]/[sqrt(x+4)+2] = (x+4-4)/[x(sqrt(x+4)+2)] = x/[x(sqrt(x+4)+2)] = 1/[sqrt(x+4)+2]. As x$\\to$0, this becomes 1/(2+2) = 1/4. Choice A comes from incorrectly thinking the numerator$\\to$0 means the limit is 0. Choice C comes from forgetting to add both terms in the denominator."
+    "explanation": "Multiply by the conjugate: [sqrt(x+4)-2]/x · [sqrt(x+4)+2]/[sqrt(x+4)+2] = (x+4-4)/[x(sqrt(x+4)+2)] = x/[x(sqrt(x+4)+2)] = 1/[sqrt(x+4)+2]. As x$\\to$0, this becomes 1/(2+2) = 1/4. Choice A comes from incorrectly thinking the numerator$\\to$0 means the limit is 0. Choice C comes from forgetting to add both terms in the denominator.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q018",
@@ -4047,7 +4259,8 @@ var APCALC_MCQ = [
       "Does not exist"
     ],
     "answer": 1,
-    "explanation": "For x$\\to$-$\\infty$, sqrt(x^2) = |x| = -x (since x is negative). Divide numerator and denominator by |x| = -x: numerator becomes 2x/(-x) = -2. Denominator becomes sqrt(x^2+1)/(-x) = sqrt(1+1/x^2) $\\to$ 1. So the limit is -2. The common error (choice A, getting 2) comes from using sqrt(x^2) = x instead of |x| = -x when x < 0."
+    "explanation": "For x$\\to$-$\\infty$, sqrt(x^2) = |x| = -x (since x is negative). Divide numerator and denominator by |x| = -x: numerator becomes 2x/(-x) = -2. Denominator becomes sqrt(x^2+1)/(-x) = sqrt(1+1/x^2) $\\to$ 1. So the limit is -2. The common error (choice A, getting 2) comes from using sqrt(x^2) = x instead of |x| = -x when x < 0.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q019",
@@ -4067,7 +4280,8 @@ var APCALC_MCQ = [
       "Does not exist"
     ],
     "answer": 2,
-    "explanation": "As x$\\to$0^+, x is positive, so |x| = x. Therefore |x|/x = x/x = 1. Choice A (-1) is the left-hand limit, where x < 0 and |x| = -x. Choice B incorrectly assumes the function approaches 0. Choice D would be the answer for the two-sided limit since left and right limits differ."
+    "explanation": "As x$\\to$0^+, x is positive, so |x| = x. Therefore |x|/x = x/x = 1. Choice A (-1) is the left-hand limit, where x < 0 and |x| = -x. Choice B incorrectly assumes the function approaches 0. Choice D would be the answer for the two-sided limit since left and right limits differ.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q020",
@@ -4087,7 +4301,8 @@ var APCALC_MCQ = [
       "f is continuous at x = 2"
     ],
     "answer": 1,
-    "explanation": "Since both one-sided limits equal 4, the two-sided limit exists and equals 4. The function value f(2) = 1 does not affect the limit. Choice A confuses the function value with the limit. Choice C is wrong because both one-sided limits agree. Choice D is wrong because the limit (4) does not equal f(2) = 1, so f is not continuous at 2."
+    "explanation": "Since both one-sided limits equal 4, the two-sided limit exists and equals 4. The function value f(2) = 1 does not affect the limit. Choice A confuses the function value with the limit. Choice C is wrong because both one-sided limits agree. Choice D is wrong because the limit (4) does not equal f(2) = 1, so f is not continuous at 2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q021",
@@ -4107,7 +4322,8 @@ var APCALC_MCQ = [
       "a = 2"
     ],
     "answer": 2,
-    "explanation": "For continuity, the left limit must equal the right limit and equal f(2). Left: 4 + a. Right and f(2): 6a - 2. Set 4 + a = 6a - 2: 6 = 5a, so a = 6/5. Choice A (2/5) comes from an algebra error. Choice B (a=1) gives left = 5 and right = 4, not equal. Choice D (a=2) gives left = 6 and right = 10, not equal."
+    "explanation": "For continuity, the left limit must equal the right limit and equal f(2). Left: 4 + a. Right and f(2): 6a - 2. Set 4 + a = 6a - 2: 6 = 5a, so a = 6/5. Choice A (2/5) comes from an algebra error. Choice B (a=1) gives left = 5 and right = 4, not equal. Choice D (a=2) gives left = 6 and right = 10, not equal.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q022",
@@ -4127,7 +4343,8 @@ var APCALC_MCQ = [
       "The limit cannot be determined without more information"
     ],
     "answer": 3,
-    "explanation": "The form 0/0 is indeterminate — the limit could be any real number, ±$\\infty$, or may not exist depending on the specific functions. For example, f(x) = 2(x-5) and g(x) = (x-5) gives limit 2, while f(x) = (x-5)^2 and g(x) = (x-5) gives limit 0. Choice A assumes 0/anything = 0. Choice B assumes matching limits means ratio is 1. Choice C is too definitive."
+    "explanation": "The form 0/0 is indeterminate — the limit could be any real number, ±$\\infty$, or may not exist depending on the specific functions. For example, f(x) = 2(x-5) and g(x) = (x-5) gives limit 2, while f(x) = (x-5)^2 and g(x) = (x-5) gives limit 0. Choice A assumes 0/anything = 0. Choice B assumes matching limits means ratio is 1. Choice C is too definitive.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q023",
@@ -4147,7 +4364,8 @@ var APCALC_MCQ = [
       "Does not exist"
     ],
     "answer": 1,
-    "explanation": "Since -1 $\\leq$ cos(1/x) $\\leq$ 1, we have -x^2 $\\leq$ x^2 cos(1/x) $\\leq$ x^2. Both -x^2 and x^2 approach 0 as x$\\to$0, so by the Squeeze Theorem the limit is 0. Choice D is a common error from students who know cos(1/x) oscillates and incorrectly conclude the product also has no limit. Choices A and C confuse the bounds of cosine with the limit of the product."
+    "explanation": "Since -1 $\\leq$ cos(1/x) $\\leq$ 1, we have -x^2 $\\leq$ x^2 cos(1/x) $\\leq$ x^2. Both -x^2 and x^2 approach 0 as x$\\to$0, so by the Squeeze Theorem the limit is 0. Choice D is a common error from students who know cos(1/x) oscillates and incorrectly conclude the product also has no limit. Choices A and C confuse the bounds of cosine with the limit of the product.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q024",
@@ -4167,7 +4385,8 @@ var APCALC_MCQ = [
       "No discontinuity"
     ],
     "answer": 2,
-    "explanation": "As x$\\to$2, (x-2)^2 $\\to$ 0^+ from both sides, so h(x) $\\to$ +$\\infty$. This is an infinite (essential) discontinuity. Choice A is wrong because the limit is not finite. Choice B requires different finite one-sided limits, but here both sides go to +$\\infty$. Choice D is wrong because h(2) is undefined and the limit is infinite."
+    "explanation": "As x$\\to$2, (x-2)^2 $\\to$ 0^+ from both sides, so h(x) $\\to$ +$\\infty$. This is an infinite (essential) discontinuity. Choice A is wrong because the limit is not finite. Choice B requires different finite one-sided limits, but here both sides go to +$\\infty$. Choice D is wrong because h(2) is undefined and the limit is infinite.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q025",
@@ -4187,7 +4406,8 @@ var APCALC_MCQ = [
       "f(c) = 7"
     ],
     "answer": 3,
-    "explanation": "IVT guarantees every value between f(0) = 6 and f(4) = -2 (i.e., between -2 and 6) is achieved. Values 0, 3, and -1 all lie in [-2, 6]. However, 7 > 6, so IVT does not guarantee f(c) = 7. The function could achieve 7, but it is not guaranteed. Students may think any value is guaranteed or confuse the range of guaranteed values."
+    "explanation": "IVT guarantees every value between f(0) = 6 and f(4) = -2 (i.e., between -2 and 6) is achieved. Values 0, 3, and -1 all lie in [-2, 6]. However, 7 > 6, so IVT does not guarantee f(c) = 7. The function could achieve 7, but it is not guaranteed. Students may think any value is guaranteed or confuse the range of guaranteed values.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q026",
@@ -4207,7 +4427,8 @@ var APCALC_MCQ = [
       "9"
     ],
     "answer": 2,
-    "explanation": "Expand: (3+h)^2 = 9 + 6h + h^2. So (9+6h+h^2 - 9)/h = (6h + h^2)/h = 6 + h. As h$\\to$0, this equals 6. This is the derivative of x^2 at x = 3. Choice A comes from plugging h = 0 before simplifying. Choice B is half the correct answer (common arithmetic error). Choice D confuses 3^2 with the limit."
+    "explanation": "Expand: (3+h)^2 = 9 + 6h + h^2. So (9+6h+h^2 - 9)/h = (6h + h^2)/h = 6 + h. As h$\\to$0, this equals 6. This is the derivative of x^2 at x = 3. Choice A comes from plugging h = 0 before simplifying. Choice B is half the correct answer (common arithmetic error). Choice D confuses 3^2 with the limit.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q027",
@@ -4227,7 +4448,8 @@ var APCALC_MCQ = [
       "-3"
     ],
     "answer": 0,
-    "explanation": "The degree of the numerator (2) is less than the degree of the denominator (3), so the limit is 0 as x$\\to$$\\infty$. Choice B (5/2) is the error from comparing leading coefficients without considering that degrees differ. Choice C would apply if the numerator degree exceeded the denominator degree. Choice D has no valid reasoning."
+    "explanation": "The degree of the numerator (2) is less than the degree of the denominator (3), so the limit is 0 as x$\\to$$\\infty$. Choice B (5/2) is the error from comparing leading coefficients without considering that degrees differ. Choice C would apply if the numerator degree exceeded the denominator degree. Choice D has no valid reasoning.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q028",
@@ -4247,7 +4469,8 @@ var APCALC_MCQ = [
       "lim(x->3) f(x) = 7"
     ],
     "answer": 0,
-    "explanation": "Since both one-sided limits exist and are equal (both equal 5), the two-sided limit exists and equals 5. The value of f(3) does not affect the limit. Choice B is a common misconception where students confuse the function value with the limit. Choice C is wrong because the one-sided limits do agree. Choice D has no mathematical basis."
+    "explanation": "Since both one-sided limits exist and are equal (both equal 5), the two-sided limit exists and equals 5. The value of f(3) does not affect the limit. Choice B is a common misconception where students confuse the function value with the limit. Choice C is wrong because the one-sided limits do agree. Choice D has no mathematical basis.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q029",
@@ -4267,7 +4490,8 @@ var APCALC_MCQ = [
       "Does not exist"
     ],
     "answer": 0,
-    "explanation": "Direct substitution gives 0/0, so we factor. The numerator factors as (x-4)(x+4) and the denominator factors as (x-4)(x-1). Canceling (x-4) gives (x+4)/(x-1). Substituting x=4 yields 8/3. Choice B is wrong — students may incorrectly conclude the limit is 0 because the numerator is 0 before simplifying. Choice C results from incorrectly simplifying the expression. Choice D is wrong because the indeterminate form is resolvable by factoring."
+    "explanation": "Direct substitution gives 0/0, so we factor. The numerator factors as (x-4)(x+4) and the denominator factors as (x-4)(x-1). Canceling (x-4) gives (x+4)/(x-1). Substituting x=4 yields 8/3. Choice B is wrong — students may incorrectly conclude the limit is 0 because the numerator is 0 before simplifying. Choice C results from incorrectly simplifying the expression. Choice D is wrong because the indeterminate form is resolvable by factoring.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q030",
@@ -4287,7 +4511,8 @@ var APCALC_MCQ = [
       "g is continuous at x = 3"
     ],
     "answer": 0,
-    "explanation": "For x $\\neq$ 3, g(x) simplifies to (x-3)(x+3)/(x-3) = x+3, so lim(x->3) g(x) = 6. Since g(3) = 10 $\\neq$ 6, the limit exists but does not equal the function value, which is a removable discontinuity. Choice B is wrong because both one-sided limits equal 6 (they agree). Choice C is wrong because the function does not approach infinity. Choice D is wrong because g(3) = 10 $\\neq$ 6 = lim(x->3) g(x)."
+    "explanation": "For x $\\neq$ 3, g(x) simplifies to (x-3)(x+3)/(x-3) = x+3, so lim(x->3) g(x) = 6. Since g(3) = 10 $\\neq$ 6, the limit exists but does not equal the function value, which is a removable discontinuity. Choice B is wrong because both one-sided limits equal 6 (they agree). Choice C is wrong because the function does not approach infinity. Choice D is wrong because g(3) = 10 $\\neq$ 6 = lim(x->3) g(x).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q031",
@@ -4307,7 +4532,8 @@ var APCALC_MCQ = [
       "h is differentiable on (-2, 5)"
     ],
     "answer": 0,
-    "explanation": "The IVT states that if h is continuous on [a, b], then h takes on every value between h(a) and h(b). Since -3 < 4 < 8, there must exist some c in (-2, 5) where h(c) = 4. Choice B is wrong because 10 is not between -3 and 8. Choice C describes a conclusion of Rolle's Theorem or the Mean Value Theorem, not the IVT — a common student confusion. Choice D is wrong because continuity does not guarantee differentiability."
+    "explanation": "The IVT states that if h is continuous on [a, b], then h takes on every value between h(a) and h(b). Since -3 < 4 < 8, there must exist some c in (-2, 5) where h(c) = 4. Choice B is wrong because 10 is not between -3 and 8. Choice C describes a conclusion of Rolle's Theorem or the Mean Value Theorem, not the IVT — a common student confusion. Choice D is wrong because continuity does not guarantee differentiability.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q033",
@@ -4327,7 +4553,8 @@ var APCALC_MCQ = [
       "5"
     ],
     "answer": 3,
-    "explanation": "Average rate of change = (f(4) - f(1))/(4 - 1) = (16 - 1)/3 = 15/3 = 5. Choice B (8) comes from computing f(4) - f(1) = 15 and dividing by 2 instead of 3. Choice C (15) is f(4) - f(1) without dividing by the interval length. Choice A (3) is just the length of the interval."
+    "explanation": "Average rate of change = (f(4) - f(1))/(4 - 1) = (16 - 1)/3 = 15/3 = 5. Choice B (8) comes from computing f(4) - f(1) = 15 and dividing by 2 instead of 3. Choice C (15) is f(4) - f(1) without dividing by the interval length. Choice A (3) is just the length of the interval.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q034",
@@ -4347,7 +4574,8 @@ var APCALC_MCQ = [
       "24"
     ],
     "answer": 1,
-    "explanation": "The instantaneous rate of change is f'(x). f'(x) = 6x, so f'(2) = 12. Choice A (6) is the derivative coefficient without substituting x = 2. Choice C (3) is the original coefficient. Choice D (24) comes from mistakenly computing 6(2)^2 instead of 6(2)."
+    "explanation": "The instantaneous rate of change is f'(x). f'(x) = 6x, so f'(2) = 12. Choice A (6) is the derivative coefficient without substituting x = 2. Choice C (3) is the original coefficient. Choice D (24) comes from mistakenly computing 6(2)^2 instead of 6(2).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q035",
@@ -4367,7 +4595,8 @@ var APCALC_MCQ = [
       "lim as h->0 of [f(a + h) - f(a)] / h"
     ],
     "answer": 3,
-    "explanation": "The definition of the derivative is f'(a) = lim as h->0 of [f(a+h) - f(a)]/h. Choice B incorrectly uses addition instead of subtraction in the numerator. Choices C and D multiply by h instead of dividing, which is a common confusion between difference quotient structure."
+    "explanation": "The definition of the derivative is f'(a) = lim as h->0 of [f(a+h) - f(a)]/h. Choice B incorrectly uses addition instead of subtraction in the numerator. Choices C and D multiply by h instead of dividing, which is a common confusion between difference quotient structure.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q036",
@@ -4387,7 +4616,8 @@ var APCALC_MCQ = [
       "A point where the function equals zero"
     ],
     "answer": 1,
-    "explanation": "A function is not differentiable at a sharp corner because the left-hand and right-hand derivatives are not equal. Choice A is wrong because linear functions are differentiable everywhere. Choices C and D confuse the value of a function with its differentiability; the sign or zero value of a function has no bearing on differentiability."
+    "explanation": "A function is not differentiable at a sharp corner because the left-hand and right-hand derivatives are not equal. Choice A is wrong because linear functions are differentiable everywhere. Choices C and D confuse the value of a function with its differentiability; the sign or zero value of a function has no bearing on differentiability.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q037",
@@ -4407,7 +4637,8 @@ var APCALC_MCQ = [
       "6x^7"
     ],
     "answer": 1,
-    "explanation": "By the power rule, d/dx [x^n] = nx^(n-1). So d/dx [x^7] = 7x^6. Choice A forgets to reduce the exponent. Choice C reduces the exponent but forgets the coefficient. Choice D uses the wrong coefficient and keeps the original exponent."
+    "explanation": "By the power rule, d/dx [x^n] = nx^(n-1). So d/dx [x^7] = 7x^6. Choice A forgets to reduce the exponent. Choice C reduces the exponent but forgets the coefficient. Choice D uses the wrong coefficient and keeps the original exponent.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q038",
@@ -4427,7 +4658,8 @@ var APCALC_MCQ = [
       "12x^3"
     ],
     "answer": 1,
-    "explanation": "Using the sum rule and power rule: d/dx[4x^3] = 12x^2, and d/dx[7] = 0 by the constant rule. So f'(x) = 12x^2. Choice A incorrectly keeps the constant 7 instead of differentiating it to 0. Choice C forgets to multiply the coefficient by the exponent. Choice D applies the coefficient correctly but forgets to reduce the exponent."
+    "explanation": "Using the sum rule and power rule: d/dx[4x^3] = 12x^2, and d/dx[7] = 0 by the constant rule. So f'(x) = 12x^2. Choice A incorrectly keeps the constant 7 instead of differentiating it to 0. Choice C forgets to multiply the coefficient by the exponent. Choice D applies the coefficient correctly but forgets to reduce the exponent.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q039",
@@ -4447,7 +4679,8 @@ var APCALC_MCQ = [
       "tan(x)"
     ],
     "answer": 1,
-    "explanation": "The derivative of sin(x) is cos(x). This is a fundamental trig derivative that must be memorized. Choice A is incorrect because the negative sign applies to the derivative of cos(x), not sin(x). Choice C is the second derivative of sin(x). Choice D confuses derivative rules with trig identities."
+    "explanation": "The derivative of sin(x) is cos(x). This is a fundamental trig derivative that must be memorized. Choice A is incorrect because the negative sign applies to the derivative of cos(x), not sin(x). Choice C is the second derivative of sin(x). Choice D confuses derivative rules with trig identities.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q040",
@@ -4467,7 +4700,8 @@ var APCALC_MCQ = [
       "4x^2"
     ],
     "answer": 1,
-    "explanation": "f'(x) = 4x^3 by the power rule. Then f''(x) = d/dx[4x^3] = 12x^2. Choice A is the first derivative, not the second. Choice C is the third derivative. Choice D results from incorrectly applying the power rule by reducing the exponent without multiplying the coefficients properly."
+    "explanation": "f'(x) = 4x^3 by the power rule. Then f''(x) = d/dx[4x^3] = 12x^2. Choice A is the first derivative, not the second. Choice C is the third derivative. Choice D results from incorrectly applying the power rule by reducing the exponent without multiplying the coefficients properly.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q042",
@@ -4487,7 +4721,8 @@ var APCALC_MCQ = [
       "lim as h->0 of [(3+h)^2 + 5(3+h) - 24] / h"
     ],
     "answer": 3,
-    "explanation": "The limit definition of the derivative at x = 3 is f'(3) = lim as h->0 of [f(3+h) - f(3)] / h. We have f(3+h) = (3+h)^2 + 5(3+h) and f(3) = 9 + 15 = 24, giving [((3+h)^2 + 5(3+h)) - 24] / h. Choice B forgets to subtract f(3) = 24, a common error of omitting the original function value. Choice C incorrectly uses (x - 3) in the denominator instead of h, confusing the two forms of the definition. Choice A jumps ahead to a simplified numerator h^2 + 5h, which is actually the correct algebraic simplification but does not represent the definition form before simplification — and more importantly skips the setup that the question asks for."
+    "explanation": "The limit definition of the derivative at x = 3 is f'(3) = lim as h->0 of [f(3+h) - f(3)] / h. We have f(3+h) = (3+h)^2 + 5(3+h) and f(3) = 9 + 15 = 24, giving [((3+h)^2 + 5(3+h)) - 24] / h. Choice B forgets to subtract f(3) = 24, a common error of omitting the original function value. Choice C incorrectly uses (x - 3) in the denominator instead of h, confusing the two forms of the definition. Choice A jumps ahead to a simplified numerator h^2 + 5h, which is actually the correct algebraic simplification but does not represent the definition form before simplification — and more importantly skips the setup that the question asks for.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q043",
@@ -4507,7 +4742,8 @@ var APCALC_MCQ = [
       "-3sin(x) + 12x^2"
     ],
     "answer": 3,
-    "explanation": "First, find f'(x) = 3cos(x) + 4x^3 - 2. Then f''(x) = -3sin(x) + 12x^2. The derivative of the constant -2 is 0, so it disappears in the second derivative. Choice B incorrectly keeps the original 3sin(x) instead of differentiating it twice (student may have only differentiated the polynomial terms). Choice C uses -3cos(x), which would result from differentiating sin(x) only once instead of twice (mixing up first and second derivatives of the trig term). Choice A is actually the first derivative f'(x) with a sign error on the trig term — a student who only differentiated once but mistakenly wrote -3cos(x) as -3sin(x) might select this."
+    "explanation": "First, find f'(x) = 3cos(x) + 4x^3 - 2. Then f''(x) = -3sin(x) + 12x^2. The derivative of the constant -2 is 0, so it disappears in the second derivative. Choice B incorrectly keeps the original 3sin(x) instead of differentiating it twice (student may have only differentiated the polynomial terms). Choice C uses -3cos(x), which would result from differentiating sin(x) only once instead of twice (mixing up first and second derivatives of the trig term). Choice A is actually the first derivative f'(x) with a sign error on the trig term — a student who only differentiated once but mistakenly wrote -3cos(x) as -3sin(x) might select this.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q045",
@@ -4527,7 +4763,8 @@ var APCALC_MCQ = [
       "15(3x + 1)^4"
     ],
     "answer": 3,
-    "explanation": "Using the chain rule, f'(x) = 5(3x + 1)^4 * 3 = 15(3x + 1)^4. Choice B forgets to multiply by the inner derivative (3). Choice C keeps the exponent as 5 instead of reducing it. Choice A only multiplies by the inner derivative without the power."
+    "explanation": "Using the chain rule, f'(x) = 5(3x + 1)^4 * 3 = 15(3x + 1)^4. Choice B forgets to multiply by the inner derivative (3). Choice C keeps the exponent as 5 instead of reducing it. Choice A only multiplies by the inner derivative without the power.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q046",
@@ -4547,7 +4784,8 @@ var APCALC_MCQ = [
       "2x * sin(x) - x^2 * cos(x)"
     ],
     "answer": 1,
-    "explanation": "By the product rule, f'(x) = (2x)(sin x) + (x^2)(cos x). Choice A only differentiates each factor separately and multiplies them, ignoring the product rule entirely. Choice C uses a minus sign (confusing product rule with quotient rule structure). Choice D also incorrectly uses subtraction."
+    "explanation": "By the product rule, f'(x) = (2x)(sin x) + (x^2)(cos x). Choice A only differentiates each factor separately and multiplies them, ignoring the product rule entirely. Choice C uses a minus sign (confusing product rule with quotient rule structure). Choice D also incorrectly uses subtraction.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q047",
@@ -4567,7 +4805,8 @@ var APCALC_MCQ = [
       "-1 / (x + 1)^2"
     ],
     "answer": 1,
-    "explanation": "Using the quotient rule: f'(x) = [(1)(x + 1) - (x)(1)] / (x + 1)^2 = (x + 1 - x) / (x + 1)^2 = 1 / (x + 1)^2. Choice A forgets to square the denominator. Choice C puts x in the numerator (incorrect application). Choice D has the wrong sign from reversing the subtraction order."
+    "explanation": "Using the quotient rule: f'(x) = [(1)(x + 1) - (x)(1)] / (x + 1)^2 = (x + 1 - x) / (x + 1)^2 = 1 / (x + 1)^2. Choice A forgets to square the denominator. Choice C puts x in the numerator (incorrect application). Choice D has the wrong sign from reversing the subtraction order.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q048",
@@ -4587,7 +4826,8 @@ var APCALC_MCQ = [
       "1 / (1 + x^2)"
     ],
     "answer": 3,
-    "explanation": "The derivative of arctan(x) is 1/(1 + x^2). Choice B confuses it with a form related to arctanh or other inverse functions. Choice C is the derivative of arcsin(x). Choice A has an incorrect negative sign."
+    "explanation": "The derivative of arctan(x) is 1/(1 + x^2). Choice B confuses it with a form related to arctanh or other inverse functions. Choice C is the derivative of arcsin(x). Choice A has an incorrect negative sign.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q049",
@@ -4607,7 +4847,8 @@ var APCALC_MCQ = [
       "-x / y"
     ],
     "answer": 3,
-    "explanation": "Differentiating implicitly: 2x + 2y(dy/dx) = 0, so dy/dx = -2x / (2y) = -x/y. Choice B drops the negative sign. Choice C inverts x and y. Choice A incorrectly adds 1 in the denominator from an algebra error."
+    "explanation": "Differentiating implicitly: 2x + 2y(dy/dx) = 0, so dy/dx = -2x / (2y) = -x/y. Choice B drops the negative sign. Choice C inverts x and y. Choice A incorrectly adds 1 in the denominator from an algebra error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q050",
@@ -4627,7 +4868,8 @@ var APCALC_MCQ = [
       "1 / x"
     ],
     "answer": 3,
-    "explanation": "f(x) = ln(5x) = ln(5) + ln(x), so f'(x) = 1/x. Alternatively, by chain rule: (1/(5x)) * 5 = 1/x. Choice B incorrectly keeps the 5 in the numerator without canceling. Choice C forgets to multiply by the inner derivative. Choice A confuses the form with a different function."
+    "explanation": "f(x) = ln(5x) = ln(5) + ln(x), so f'(x) = 1/x. Alternatively, by chain rule: (1/(5x)) * 5 = 1/x. Choice B incorrectly keeps the 5 in the numerator without canceling. Choice C forgets to multiply by the inner derivative. Choice A confuses the form with a different function.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q051",
@@ -4647,7 +4889,8 @@ var APCALC_MCQ = [
       "-4cos(4x)"
     ],
     "answer": 1,
-    "explanation": "By the chain rule, f'(x) = -sin(4x) * 4 = -4sin(4x). Choice A forgets to multiply by the inner derivative (4). Choice C has the wrong sign (missing the negative from the cosine derivative). Choice D differentiates cosine as cosine instead of negative sine."
+    "explanation": "By the chain rule, f'(x) = -sin(4x) * 4 = -4sin(4x). Choice A forgets to multiply by the inner derivative (4). Choice C has the wrong sign (missing the negative from the cosine derivative). Choice D differentiates cosine as cosine instead of negative sine.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q052",
@@ -4667,7 +4910,8 @@ var APCALC_MCQ = [
       "1 / sqrt(1 - x^2)"
     ],
     "answer": 3,
-    "explanation": "The derivative of arcsin(x) is 1/sqrt(1 - x^2). Choice B has an incorrect negative sign (that would relate to arccos). Choice C is the derivative of arctan(x). Choice A has the wrong expression under the radical."
+    "explanation": "The derivative of arcsin(x) is 1/sqrt(1 - x^2). Choice B has an incorrect negative sign (that would relate to arccos). Choice C is the derivative of arctan(x). Choice A has the wrong expression under the radical.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q053",
@@ -4687,7 +4931,8 @@ var APCALC_MCQ = [
       "e^x - x * e^x"
     ],
     "answer": 2,
-    "explanation": "By the product rule, f'(x) = (1)(e^x) + (x)(e^x) = e^x + x*e^x = (1 + x)e^x. Choice A only differentiates x and multiplies by e^x. Choice B is the original function, not the derivative. Choice D incorrectly uses subtraction."
+    "explanation": "By the product rule, f'(x) = (1)(e^x) + (x)(e^x) = e^x + x*e^x = (1 + x)e^x. Choice A only differentiates x and multiplies by e^x. Choice B is the original function, not the derivative. Choice D incorrectly uses subtraction.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q054",
@@ -4707,7 +4952,8 @@ var APCALC_MCQ = [
       "-y / x"
     ],
     "answer": 3,
-    "explanation": "Differentiating implicitly: y + x(dy/dx) = 0, so dy/dx = -y/x. Choice B drops the negative sign. Choice C inverts the variables. Choice A attempts to solve by rewriting y = 10/x and differentiating but gets the form wrong (the correct result from that approach is -10/x^2, which equals -y/x)."
+    "explanation": "Differentiating implicitly: y + x(dy/dx) = 0, so dy/dx = -y/x. Choice B drops the negative sign. Choice C inverts the variables. Choice A attempts to solve by rewriting y = 10/x and differentiating but gets the form wrong (the correct result from that approach is -10/x^2, which equals -y/x).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q055",
@@ -4727,7 +4973,8 @@ var APCALC_MCQ = [
       "(x * cos(x) + sin(x)) / x^2"
     ],
     "answer": 1,
-    "explanation": "By the quotient rule: f'(x) = [cos(x) * x - sin(x) * 1] / x^2 = (x cos(x) - sin(x)) / x^2. Choice A only differentiates the numerator and ignores the quotient rule. Choice C reverses the subtraction order in the numerator. Choice D uses addition instead of subtraction, confusing the quotient rule with the product rule."
+    "explanation": "By the quotient rule: f'(x) = [cos(x) * x - sin(x) * 1] / x^2 = (x cos(x) - sin(x)) / x^2. Choice A only differentiates the numerator and ignores the quotient rule. Choice C reverses the subtraction order in the numerator. Choice D uses addition instead of subtraction, confusing the quotient rule with the product rule.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q056",
@@ -4747,7 +4994,8 @@ var APCALC_MCQ = [
       "6x cos(3x^2 + 1)"
     ],
     "answer": 3,
-    "explanation": "By the chain rule, f'(x) = cos(3x^2 + 1) * d/dx(3x^2 + 1) = cos(3x^2 + 1) * 6x = 6x cos(3x^2 + 1). Choice B forgets the inner derivative. Choice C keeps sin instead of cos. Choice A incorrectly adds a negative sign."
+    "explanation": "By the chain rule, f'(x) = cos(3x^2 + 1) * d/dx(3x^2 + 1) = cos(3x^2 + 1) * 6x = 6x cos(3x^2 + 1). Choice B forgets the inner derivative. Choice C keeps sin instead of cos. Choice A incorrectly adds a negative sign.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q058",
@@ -4767,7 +5015,8 @@ var APCALC_MCQ = [
       "1/(1 + 2x)^2"
     ],
     "answer": 1,
-    "explanation": "By the chain rule and the derivative of arctan(u), f'(x) = 1/(1 + (2x)^2) * 2 = 2/(1 + 4x^2). Choice A forgets the chain rule factor of 2. Choice C fails to square the 2 inside (2x)^2. Choice D incorrectly applies the formula."
+    "explanation": "By the chain rule and the derivative of arctan(u), f'(x) = 1/(1 + (2x)^2) * 2 = 2/(1 + 4x^2). Choice A forgets the chain rule factor of 2. Choice C fails to square the 2 inside (2x)^2. Choice D incorrectly applies the formula.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q059",
@@ -4787,7 +5036,8 @@ var APCALC_MCQ = [
       "(5x^2 - 2x) * e^(5x^2 - 2x - 1)"
     ],
     "answer": 1,
-    "explanation": "By the chain rule, h'(x) = e^(5x^2 - 2x) * d/dx(5x^2 - 2x) = (10x - 2)e^(5x^2 - 2x). Choice A differentiates the exponent but replaces the entire expression incorrectly. Choice C forgets the inner derivative. Choice D applies the power rule to the exponential, which is wrong."
+    "explanation": "By the chain rule, h'(x) = e^(5x^2 - 2x) * d/dx(5x^2 - 2x) = (10x - 2)e^(5x^2 - 2x). Choice A differentiates the exponent but replaces the entire expression incorrectly. Choice C forgets the inner derivative. Choice D applies the power rule to the exponential, which is wrong.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q060",
@@ -4807,7 +5057,8 @@ var APCALC_MCQ = [
       "(2x + 5)/(x^2 + 5x)"
     ],
     "answer": 3,
-    "explanation": "By the chain rule, dy/dx = (1/(x^2 + 5x)) * (2x + 5) = (2x + 5)/(x^2 + 5x). Choice B forgets the derivative of the inside. Choice C inverts the chain rule application. Choice A confuses derivative with product."
+    "explanation": "By the chain rule, dy/dx = (1/(x^2 + 5x)) * (2x + 5) = (2x + 5)/(x^2 + 5x). Choice B forgets the derivative of the inside. Choice C inverts the chain rule application. Choice A confuses derivative with product.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q061",
@@ -4827,7 +5078,8 @@ var APCALC_MCQ = [
       "cos(x) - x sin(x)"
     ],
     "answer": 3,
-    "explanation": "By the product rule, f'(x) = 1 * cos(x) + x * (-sin(x)) = cos(x) - x sin(x). Choice B only differentiates cos(x). Choice C has a sign error on the second term. Choice A forgets the first term of the product rule."
+    "explanation": "By the product rule, f'(x) = 1 * cos(x) + x * (-sin(x)) = cos(x) - x sin(x). Choice B only differentiates cos(x). Choice C has a sign error on the second term. Choice A forgets the first term of the product rule.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q062",
@@ -4847,7 +5099,8 @@ var APCALC_MCQ = [
       "-y/(x + 2y)"
     ],
     "answer": 3,
-    "explanation": "Differentiating: y + x(dy/dx) + 2y(dy/dx) = 0. Solving: dy/dx(x + 2y) = -y, so dy/dx = -y/(x + 2y). Choice B has the wrong sign. Choice C forgets to multiply the 2 in 2y. Choice A has the fraction inverted."
+    "explanation": "Differentiating: y + x(dy/dx) + 2y(dy/dx) = 0. Solving: dy/dx(x + 2y) = -y, so dy/dx = -y/(x + 2y). Choice B has the wrong sign. Choice C forgets to multiply the 2 in 2y. Choice A has the fraction inverted.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q063",
@@ -4867,7 +5120,8 @@ var APCALC_MCQ = [
       "20x^3(4x^3 - x)^4"
     ],
     "answer": 2,
-    "explanation": "By the chain rule, f'(x) = 5(4x^3 - x)^4 * (12x^2 - 1). Choice A forgets the inner derivative. Choice B applies the power to the inner derivative instead of the outer function. Choice D incorrectly computes the inner derivative."
+    "explanation": "By the chain rule, f'(x) = 5(4x^3 - x)^4 * (12x^2 - 1). Choice A forgets the inner derivative. Choice B applies the power to the inner derivative instead of the outer function. Choice D incorrectly computes the inner derivative.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q064",
@@ -4887,7 +5141,8 @@ var APCALC_MCQ = [
       "-3/sqrt(1 - 9x^2)"
     ],
     "answer": 2,
-    "explanation": "The derivative of arcsin(u) is 1/sqrt(1 - u^2) * du/dx. Here u = 3x, so f'(x) = 3/sqrt(1 - 9x^2). Choice B forgets the chain rule factor. Choice A fails to square the 3. Choice D has an incorrect negative sign."
+    "explanation": "The derivative of arcsin(u) is 1/sqrt(1 - u^2) * du/dx. Here u = 3x, so f'(x) = 3/sqrt(1 - 9x^2). Choice B forgets the chain rule factor. Choice A fails to square the 3. Choice D has an incorrect negative sign.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q065",
@@ -4907,7 +5162,8 @@ var APCALC_MCQ = [
       "x^(x-1)"
     ],
     "answer": 2,
-    "explanation": "Take ln of both sides: ln(y) = x ln(x). Differentiate: (1/y)(dy/dx) = ln(x) + 1. So dy/dx = y(ln(x) + 1) = x^x(ln(x) + 1). Choice B incorrectly applies the power rule. Choice A forgets the +1 from differentiating x ln(x). Choice D treats x^x as if x is a constant exponent."
+    "explanation": "Take ln of both sides: ln(y) = x ln(x). Differentiate: (1/y)(dy/dx) = ln(x) + 1. So dy/dx = y(ln(x) + 1) = x^x(ln(x) + 1). Choice B incorrectly applies the power rule. Choice A forgets the +1 from differentiating x ln(x). Choice D treats x^x as if x is a constant exponent.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q066",
@@ -4927,7 +5183,8 @@ var APCALC_MCQ = [
       "x/(1 + x^4)"
     ],
     "answer": 2,
-    "explanation": "f'(x) = 1/(1 + (x^2)^2) * 2x = 2x/(1 + x^4). Choice B forgets the chain rule factor of 2x. Choice A doesn't square x^2 in the denominator. Choice D has the wrong chain rule coefficient."
+    "explanation": "f'(x) = 1/(1 + (x^2)^2) * 2x = 2x/(1 + x^4). Choice B forgets the chain rule factor of 2x. Choice A doesn't square x^2 in the denominator. Choice D has the wrong chain rule coefficient.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q067",
@@ -4947,7 +5204,8 @@ var APCALC_MCQ = [
       "1/(sin(x) * cos(x))"
     ],
     "answer": 2,
-    "explanation": "By the chain rule, dy/dx = (1/sin(x)) * cos(x) = cos(x)/sin(x) = cot(x). Choice B forgets the derivative of the inside. Choice A has an incorrect negative. Choice D incorrectly applies the chain rule."
+    "explanation": "By the chain rule, dy/dx = (1/sin(x)) * cos(x) = cos(x)/sin(x) = cot(x). Choice B forgets the derivative of the inside. Choice A has an incorrect negative. Choice D incorrectly applies the chain rule.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q068",
@@ -4967,7 +5225,8 @@ var APCALC_MCQ = [
       "1 / (1 + 9x^4)"
     ],
     "answer": 2,
-    "explanation": "The derivative of arctan(u) is (1/(1+u^2)) * du/dx. Here u = 3x^2, so du/dx = 6x and u^2 = 9x^4. Thus dy/dx = 6x / (1 + 9x^4). Choice B incorrectly uses 3x^2 instead of 6x, forgetting to differentiate the inner function properly. Choice A incorrectly squares only part of the inner function, writing 1 + 3x^2 instead of 1 + (3x^2)^2. Choice D forgets the chain rule entirely and omits the derivative of the inner function."
+    "explanation": "The derivative of arctan(u) is (1/(1+u^2)) * du/dx. Here u = 3x^2, so du/dx = 6x and u^2 = 9x^4. Thus dy/dx = 6x / (1 + 9x^4). Choice B incorrectly uses 3x^2 instead of 6x, forgetting to differentiate the inner function properly. Choice A incorrectly squares only part of the inner function, writing 1 + 3x^2 instead of 1 + (3x^2)^2. Choice D forgets the chain rule entirely and omits the derivative of the inner function.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q069",
@@ -4987,7 +5246,8 @@ var APCALC_MCQ = [
       "-x^2 / (x^2 + 3y^2)"
     ],
     "answer": 2,
-    "explanation": "Differentiating implicitly: d/dx(x^2 * y) requires the product rule, giving 2xy + x^2(dy/dx). The derivative of y^3 is 3y^2(dy/dx), and the derivative of 10 is 0. So 2xy + x^2(dy/dx) + 3y^2(dy/dx) = 0. Solving: (x^2 + 3y^2)(dy/dx) = -2xy, so dy/dx = -2xy / (x^2 + 3y^2). Choice B omits the x^2 term in the denominator, forgetting that x^2(dy/dx) also contributes to collecting dy/dx. Choice A has the wrong sign, neglecting the negative when isolating dy/dx. Choice D incorrectly differentiates the x^2*y term, missing the product rule and writing -x^2 in the numerator instead of -2xy."
+    "explanation": "Differentiating implicitly: d/dx(x^2 * y) requires the product rule, giving 2xy + x^2(dy/dx). The derivative of y^3 is 3y^2(dy/dx), and the derivative of 10 is 0. So 2xy + x^2(dy/dx) + 3y^2(dy/dx) = 0. Solving: (x^2 + 3y^2)(dy/dx) = -2xy, so dy/dx = -2xy / (x^2 + 3y^2). Choice B omits the x^2 term in the denominator, forgetting that x^2(dy/dx) also contributes to collecting dy/dx. Choice A has the wrong sign, neglecting the negative when isolating dy/dx. Choice D incorrectly differentiates the x^2*y term, missing the product rule and writing -x^2 in the numerator instead of -2xy.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q070",
@@ -5007,7 +5267,8 @@ var APCALC_MCQ = [
       "cos(cos(tan(x))) * (-sin(tan(x))) * sec^2(x) * (-1)"
     ],
     "answer": 2,
-    "explanation": "Applying the chain rule three times: f'(x) = cos(cos(tan(x))) * d/dx[cos(tan(x))] = cos(cos(tan(x))) * (-sin(tan(x))) * sec^2(x) = -cos(cos(tan(x))) * sin(tan(x)) * sec^2(x). Choice B forgets the negative from the derivative of cosine. Choice A incorrectly uses cos(tan(x)) instead of sin(tan(x)) for the derivative of cosine. Choice D introduces an extra negative sign, effectively making the answer positive."
+    "explanation": "Applying the chain rule three times: f'(x) = cos(cos(tan(x))) * d/dx[cos(tan(x))] = cos(cos(tan(x))) * (-sin(tan(x))) * sec^2(x) = -cos(cos(tan(x))) * sin(tan(x)) * sec^2(x). Choice B forgets the negative from the derivative of cosine. Choice A incorrectly uses cos(tan(x)) instead of sin(tan(x)) for the derivative of cosine. Choice D introduces an extra negative sign, effectively making the answer positive.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q071",
@@ -5027,7 +5288,8 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 1,
-    "explanation": "Using the quotient rule: g'(x) = [(e^x + e^(-x))(e^x + e^(-x)) - (e^x - e^(-x))(e^x - e^(-x))] / (e^x + e^(-x))^2. The numerator is (e^x + e^(-x))^2 - (e^x - e^(-x))^2. Expanding: (e^(2x) + 2 + e^(-2x)) - (e^(2x) - 2 + e^(-2x)) = 4. So g'(x) = 4/(e^x + e^(-x))^2. Note this equals sech^2(x). Choice A is a common error from thinking tanh'(x) = 1. Choice C results from incorrectly applying the quotient rule with wrong signs on the derivative of e^(-x). Choice D wrongly assumes the function is constant."
+    "explanation": "Using the quotient rule: g'(x) = [(e^x + e^(-x))(e^x + e^(-x)) - (e^x - e^(-x))(e^x - e^(-x))] / (e^x + e^(-x))^2. The numerator is (e^x + e^(-x))^2 - (e^x - e^(-x))^2. Expanding: (e^(2x) + 2 + e^(-2x)) - (e^(2x) - 2 + e^(-2x)) = 4. So g'(x) = 4/(e^x + e^(-x))^2. Note this equals sech^2(x). Choice A is a common error from thinking tanh'(x) = 1. Choice C results from incorrectly applying the quotient rule with wrong signs on the derivative of e^(-x). Choice D wrongly assumes the function is constant.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q072",
@@ -5047,7 +5309,8 @@ var APCALC_MCQ = [
       "1/3"
     ],
     "answer": 1,
-    "explanation": "First verify whether (1, 0) is on the curve: substituting gives 1(0) + 0 = 1 + 1, so 0 = 2, which is false. The point (1, 0) does not satisfy the equation, so dy/dx cannot be evaluated there. Students who skip verification and proceed with implicit differentiation get 2xy + x^2(dy/dx) + 3y^2(dy/dx) = 1, and plugging in (1,0) gives dy/dx = 1. This is the trap in Choice A. Choice C comes from a sign error. Choice D results from an algebra mistake."
+    "explanation": "First verify whether (1, 0) is on the curve: substituting gives 1(0) + 0 = 1 + 1, so 0 = 2, which is false. The point (1, 0) does not satisfy the equation, so dy/dx cannot be evaluated there. Students who skip verification and proceed with implicit differentiation get 2xy + x^2(dy/dx) + 3y^2(dy/dx) = 1, and plugging in (1,0) gives dy/dx = 1. This is the trap in Choice A. Choice C comes from a sign error. Choice D results from an algebra mistake.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q073",
@@ -5067,7 +5330,8 @@ var APCALC_MCQ = [
       "2x / sqrt(1 - (x^2 + 1)^2)"
     ],
     "answer": 0,
-    "explanation": "The derivative of arctan(u) is 1/(1 + u^2) * du/dx. Here u = x^2 + 1, so du/dx = 2x. Thus f'(x) = 2x / (1 + (x^2 + 1)^2). Choice B incorrectly simplifies the denominator as 1 + x^4, forgetting to square the entire expression (x^2 + 1). Choice C forgets the chain rule factor 2x. Choice D confuses the arctan derivative formula with the arcsin derivative formula, using sqrt(1 - u^2) in the denominator."
+    "explanation": "The derivative of arctan(u) is 1/(1 + u^2) * du/dx. Here u = x^2 + 1, so du/dx = 2x. Thus f'(x) = 2x / (1 + (x^2 + 1)^2). Choice B incorrectly simplifies the denominator as 1 + x^4, forgetting to square the entire expression (x^2 + 1). Choice C forgets the chain rule factor 2x. Choice D confuses the arctan derivative formula with the arcsin derivative formula, using sqrt(1 - u^2) in the denominator.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q074",
@@ -5087,7 +5351,8 @@ var APCALC_MCQ = [
       "x^(sin(x)) * sin(x)/x"
     ],
     "answer": 0,
-    "explanation": "Take ln of both sides: ln(y) = sin(x)*ln(x). Differentiate: (1/y)(dy/dx) = cos(x)*ln(x) + sin(x)/x. So dy/dx = y*(cos(x)*ln(x) + sin(x)/x) = x^(sin(x))*(cos(x)*ln(x) + sin(x)/x). Choice B applies the power rule as if sin(x) were a constant exponent. Choice C only includes the derivative from differentiating sin(x) and ignores the sin(x)/x term. Choice D only includes the derivative from treating the exponent as constant and ignores the cos(x)*ln(x) term."
+    "explanation": "Take ln of both sides: ln(y) = sin(x)*ln(x). Differentiate: (1/y)(dy/dx) = cos(x)*ln(x) + sin(x)/x. So dy/dx = y*(cos(x)*ln(x) + sin(x)/x) = x^(sin(x))*(cos(x)*ln(x) + sin(x)/x). Choice B applies the power rule as if sin(x) were a constant exponent. Choice C only includes the derivative from differentiating sin(x) and ignores the sin(x)/x term. Choice D only includes the derivative from treating the exponent as constant and ignores the cos(x)*ln(x) term.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q075",
@@ -5107,7 +5372,8 @@ var APCALC_MCQ = [
       "-9/64"
     ],
     "answer": 0,
-    "explanation": "Differentiating implicitly: 2x + 2y(dy/dx) = 0, so dy/dx = -x/y. At (3,4): dy/dx = -3/4. Differentiating again: d^2y/dx^2 = (-y + x(dy/dx))/y^2 = (-y - x(x/y))/y^2. Using the quotient rule on -x/y: d^2y/dx^2 = [(-1)(y) - (-x)(dy/dx)] / y^2 = [-y + x(-x/y)] / y^2 = [-y - x^2/y] / y^2 = [(-y^2 - x^2)/y] / y^2 = -(x^2 + y^2)/y^3 = -25/64. Choice B is just the first derivative, a common error when students stop too early. Choice C has the wrong sign. Choice D uses -x^2/y^3 instead of -(x^2+y^2)/y^3, forgetting the -y term in the numerator."
+    "explanation": "Differentiating implicitly: 2x + 2y(dy/dx) = 0, so dy/dx = -x/y. At (3,4): dy/dx = -3/4. Differentiating again: d^2y/dx^2 = (-y + x(dy/dx))/y^2 = (-y - x(x/y))/y^2. Using the quotient rule on -x/y: d^2y/dx^2 = [(-1)(y) - (-x)(dy/dx)] / y^2 = [-y + x(-x/y)] / y^2 = [-y - x^2/y] / y^2 = [(-y^2 - x^2)/y] / y^2 = -(x^2 + y^2)/y^3 = -25/64. Choice B is just the first derivative, a common error when students stop too early. Choice C has the wrong sign. Choice D uses -x^2/y^3 instead of -(x^2+y^2)/y^3, forgetting the -y term in the numerator.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q076",
@@ -5127,7 +5393,8 @@ var APCALC_MCQ = [
       "(1/sqrt(1 - x^2*y^2) - y) / x"
     ],
     "answer": 0,
-    "explanation": "Differentiating both sides: 1/sqrt(1 - (xy)^2) * (y + x*dy/dx) = 0. Since the right side is 0 (derivative of a constant), we need y + x(dy/dx) = 0, giving dy/dx = -y/x. The factor 1/sqrt(1 - x^2y^2) is nonzero so it cancels. Choice B comes from setting the derivative equal to 1 instead of 0. Choice C incorrectly keeps the sqrt factor. Choice D results from moving terms incorrectly and not recognizing the right side is zero."
+    "explanation": "Differentiating both sides: 1/sqrt(1 - (xy)^2) * (y + x*dy/dx) = 0. Since the right side is 0 (derivative of a constant), we need y + x(dy/dx) = 0, giving dy/dx = -y/x. The factor 1/sqrt(1 - x^2y^2) is nonzero so it cancels. Choice B comes from setting the derivative equal to 1 instead of 0. Choice C incorrectly keeps the sqrt factor. Choice D results from moving terms incorrectly and not recognizing the right side is zero.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q077",
@@ -5147,7 +5414,8 @@ var APCALC_MCQ = [
       "2"
     ],
     "answer": 0,
-    "explanation": "Using the quotient rule: f'(x) = [sec^2(x)(1 + x^2) - tan(x)(2x)] / (1 + x^2)^2. At x = 0: sec^2(0) = 1, tan(0) = 0, so f'(0) = [1 * 1 - 0] / 1 = 1. Choice B is the value of f(0), not f'(0). Choice C may result from a sign error in the quotient rule (using low*d(high) - high*d(low) reversed). Choice D could result from incorrectly computing sec^2(0) as 2."
+    "explanation": "Using the quotient rule: f'(x) = [sec^2(x)(1 + x^2) - tan(x)(2x)] / (1 + x^2)^2. At x = 0: sec^2(0) = 1, tan(0) = 0, so f'(0) = [1 * 1 - 0] / 1 = 1. Choice B is the value of f(0), not f'(0). Choice C may result from a sign error in the quotient rule (using low*d(high) - high*d(low) reversed). Choice D could result from incorrectly computing sec^2(0) as 2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q078",
@@ -5167,7 +5435,8 @@ var APCALC_MCQ = [
       "3/(x + 1) + 4/(x - 2) + 2/(x + 5)"
     ],
     "answer": 0,
-    "explanation": "Taking ln of both sides: ln(y) = 3*ln(x+1) + 4*ln(x-2) - 2*ln(x+5). Differentiating: (1/y)(dy/dx) = 3/(x+1) + 4/(x-2) - 2/(x+5). This is the logarithmic derivative. Choice B multiplies individual derivatives together instead of using logarithmic differentiation. Choice C incorrectly combines the first two terms. Choice D has a plus sign instead of minus on the last term, forgetting that the (x+5)^2 term is in the denominator."
+    "explanation": "Taking ln of both sides: ln(y) = 3*ln(x+1) + 4*ln(x-2) - 2*ln(x+5). Differentiating: (1/y)(dy/dx) = 3/(x+1) + 4/(x-2) - 2/(x+5). This is the logarithmic derivative. Choice B multiplies individual derivatives together instead of using logarithmic differentiation. Choice C incorrectly combines the first two terms. Choice D has a plus sign instead of minus on the last term, forgetting that the (x+5)^2 term is in the denominator.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q079",
@@ -5187,7 +5456,8 @@ var APCALC_MCQ = [
       "30pi cm^2/s"
     ],
     "answer": 3,
-    "explanation": "A = pi*r^2, so dA/dt = 2*pi*r*(dr/dt) = 2*pi*(5)*(3) = 30pi. Choice B forgets the 2 from the power rule. Choice C uses r^2 instead of 2r. Choice A multiplies all three numbers without the factor of 2 correctly: 5*5*3*pi."
+    "explanation": "A = pi*r^2, so dA/dt = 2*pi*r*(dr/dt) = 2*pi*(5)*(3) = 30pi. Choice B forgets the 2 from the power rule. Choice C uses r^2 instead of 2r. Choice A multiplies all three numbers without the factor of 2 correctly: 5*5*3*pi.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q080",
@@ -5207,7 +5477,8 @@ var APCALC_MCQ = [
       "L(x) = 6x - 9"
     ],
     "answer": 3,
-    "explanation": "L(x) = f(a) + f'(a)(x - a). f(3) = 9, f'(x) = 2x so f'(3) = 6. L(x) = 9 + 6(x - 3) = 6x - 9. Choice B has a sign error on the constant. Choice C uses a instead of 2a for the derivative. Choice A incorrectly computes the constant term."
+    "explanation": "L(x) = f(a) + f'(a)(x - a). f(3) = 9, f'(x) = 2x so f'(3) = 6. L(x) = 9 + 6(x - 3) = 6x - 9. Choice B has a sign error on the constant. Choice C uses a instead of 2a for the derivative. Choice A incorrectly computes the constant term.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q081",
@@ -5227,7 +5498,8 @@ var APCALC_MCQ = [
       "2"
     ],
     "answer": 3,
-    "explanation": "MVT: f'(c) = (f(3) - f(1))/(3 - 1) = (9 - 1)/2 = 4. f'(x) = 2x, so 2c = 4 gives c = 2. Choice B is the slope value, not c. Choices C and D are the endpoints, which are not in the open interval."
+    "explanation": "MVT: f'(c) = (f(3) - f(1))/(3 - 1) = (9 - 1)/2 = 4. f'(x) = 2x, so 2c = 4 gives c = 2. Choice B is the slope value, not c. Choices C and D are the endpoints, which are not in the open interval.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q082",
@@ -5247,7 +5519,8 @@ var APCALC_MCQ = [
       "both an absolute maximum and an absolute minimum"
     ],
     "answer": 3,
-    "explanation": "The EVT states that a continuous function on a closed interval attains both an absolute maximum and minimum. Choice B is incomplete. Choice C confuses EVT with a consequence of finding extrema; the theorem itself guarantees extreme values, not critical points. Choice A confuses EVT with Rolle's or MVT."
+    "explanation": "The EVT states that a continuous function on a closed interval attains both an absolute maximum and minimum. Choice B is incomplete. Choice C confuses EVT with a consequence of finding extrema; the theorem itself guarantees extreme values, not critical points. Choice A confuses EVT with Rolle's or MVT.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q083",
@@ -5267,7 +5540,8 @@ var APCALC_MCQ = [
       "4*pi*r^2*(dr/dt)"
     ],
     "answer": 3,
-    "explanation": "Differentiate V = (4/3)*pi*r^3 with respect to t: dV/dt = (4/3)*pi*3r^2*(dr/dt) = 4*pi*r^2*(dr/dt). Choice B forgets to multiply the 3 from the power rule with the 1/3. Choice C uses 2r instead of 3r^2 for the derivative. Choice A forgets the chain rule factor dr/dt."
+    "explanation": "Differentiate V = (4/3)*pi*r^3 with respect to t: dV/dt = (4/3)*pi*3r^2*(dr/dt) = 4*pi*r^2*(dr/dt). Choice B forgets to multiply the 3 from the power rule with the 1/3. Choice C uses 2r instead of 3r^2 for the derivative. Choice A forgets the chain rule factor dr/dt.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q084",
@@ -5287,7 +5561,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 3,
-    "explanation": "Substituting x = 0 gives 0/0, so apply L'Hopital's Rule: lim e^x / 1 as x->0 = e^0 = 1. Choice B comes from incorrectly thinking the numerator dominates as zero. Choice C evaluates e^x at x = 1 instead of x = 0. Choice A is incorrect since the limit does exist."
+    "explanation": "Substituting x = 0 gives 0/0, so apply L'Hopital's Rule: lim e^x / 1 as x->0 = e^0 = 1. Choice B comes from incorrectly thinking the numerator dominates as zero. Choice C evaluates e^x at x = 1 instead of x = 0. Choice A is incorrect since the limit does exist.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q085",
@@ -5307,7 +5582,8 @@ var APCALC_MCQ = [
       "2"
     ],
     "answer": 3,
-    "explanation": "f'(c) = (f(6) - f(2))/(6 - 2) = (9 - 1)/4 = 8/4 = 2. Choice B is the numerator alone (9 - 1). Choice C is the denominator alone. Choice A is the midpoint of the interval, a common misconception."
+    "explanation": "f'(c) = (f(6) - f(2))/(6 - 2) = (9 - 1)/4 = 8/4 = 2. Choice B is the numerator alone (9 - 1). Choice C is the denominator alone. Choice A is the midpoint of the interval, a common misconception.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q086",
@@ -5327,7 +5603,8 @@ var APCALC_MCQ = [
       "5.1"
     ],
     "answer": 3,
-    "explanation": "f(25) = 5, f'(x) = 1/(2*sqrt(x)), f'(25) = 1/10. L(26) = 5 + (1/10)(26 - 25) = 5 + 0.1 = 5.1. Choice B doubles the increment. Choice C forgets the linear correction entirely. Choice A overestimates by using a much larger slope."
+    "explanation": "f(25) = 5, f'(x) = 1/(2*sqrt(x)), f'(25) = 1/10. L(26) = 5 + (1/10)(26 - 25) = 5 + 0.1 = 5.1. Choice B doubles the increment. Choice C forgets the linear correction entirely. Choice A overestimates by using a much larger slope.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q087",
@@ -5347,7 +5624,8 @@ var APCALC_MCQ = [
       "-5/6 ft/s"
     ],
     "answer": 3,
-    "explanation": "Using x^2 + y^2 = 169, differentiate: 2x(dx/dt) + 2y(dy/dt) = 0. When x = 5, y = 12. So 2(5)(2) + 2(12)(dy/dt) = 0, giving dy/dt = -20/24 = -5/6. Choice B comes from using 2(12) in the numerator instead of 2(5)(2). Choice C reverses the fraction. Choice A incorrectly uses 13 instead of 12 for y."
+    "explanation": "Using x^2 + y^2 = 169, differentiate: 2x(dx/dt) + 2y(dy/dt) = 0. When x = 5, y = 12. So 2(5)(2) + 2(12)(dy/dt) = 0, giving dy/dt = -20/24 = -5/6. Choice B comes from using 2(12) in the numerator instead of 2(5)(2). Choice C reverses the fraction. Choice A incorrectly uses 13 instead of 12 for y.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q088",
@@ -5367,7 +5645,8 @@ var APCALC_MCQ = [
       "2 in/min"
     ],
     "answer": 3,
-    "explanation": "A = pi*r^2, so dA/dt = 2pi*r*(dr/dt). With dA/dt = 6 and r = 3: 6 = 6pi*(dr/dt), so dr/dt = 1/pi. Circumference C = 2pi*r, so dC/dt = 2pi*(dr/dt) = 2pi*(1/pi) = 2. Choice A is dr/dt, not dC/dt. Choice C forgets to multiply dr/dt by 2pi. Choice B is a common arithmetic slip."
+    "explanation": "A = pi*r^2, so dA/dt = 2pi*r*(dr/dt). With dA/dt = 6 and r = 3: 6 = 6pi*(dr/dt), so dr/dt = 1/pi. Circumference C = 2pi*r, so dC/dt = 2pi*(dr/dt) = 2pi*(1/pi) = 2. Choice A is dr/dt, not dC/dt. Choice C forgets to multiply dr/dt by 2pi. Choice B is a common arithmetic slip.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q090",
@@ -5387,7 +5666,8 @@ var APCALC_MCQ = [
       "1.11"
     ],
     "answer": 1,
-    "explanation": "L(x) = f(0) + f'(0)(x - 0) = 1 + 1*x = 1 + x. At x = 0.1, L(0.1) = 1.1. Choice A confuses 0.1 with 0.01. Choice C forgets to add f(0) = 1. Choice D adds an extra term as if using a second-order approximation."
+    "explanation": "L(x) = f(0) + f'(0)(x - 0) = 1 + 1*x = 1 + x. At x = 0.1, L(0.1) = 1.1. Choice A confuses 0.1 with 0.01. Choice C forgets to add f(0) = 1. Choice D adds an extra term as if using a second-order approximation.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q091",
@@ -5407,7 +5687,8 @@ var APCALC_MCQ = [
       "7.5"
     ],
     "answer": 1,
-    "explanation": "L(x) = f(3) + f'(3)(x - 3) = 7 + (-2)(0.5) = 7 - 1 = 6. Choice A adds instead of subtracting. Choice C uses (x - 3) = 1 instead of 0.5. Choice D ignores the derivative entirely and just adds 0.5."
+    "explanation": "L(x) = f(3) + f'(3)(x - 3) = 7 + (-2)(0.5) = 7 - 1 = 6. Choice A adds instead of subtracting. Choice C uses (x - 3) = 1 instead of 0.5. Choice D ignores the derivative entirely and just adds 0.5.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q092",
@@ -5427,7 +5708,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 1,
-    "explanation": "This is 0/0 form. By L'Hopital's rule: lim = 3cos(3x)/5 evaluated at x=0 gives 3/5. Choice A inverts the fraction. Choice C is a common misconception that sin over x is 0. Choice D incorrectly applies the identity sin(x)/x -> 1 without accounting for the coefficients."
+    "explanation": "This is 0/0 form. By L'Hopital's rule: lim = 3cos(3x)/5 evaluated at x=0 gives 3/5. Choice A inverts the fraction. Choice C is a common misconception that sin over x is 0. Choice D incorrectly applies the identity sin(x)/x -> 1 without accounting for the coefficients.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q093",
@@ -5447,7 +5729,8 @@ var APCALC_MCQ = [
       "does not exist"
     ],
     "answer": 1,
-    "explanation": "Direct substitution gives 0/0. By L'Hopital's rule: lim = 3x^2/(2x) at x=1 = 3/2. Alternatively, factor: (x-1)(x^2+x+1)/[(x-1)(x+1)] = (x^2+x+1)/(x+1) = 3/2. Choice A comes from canceling incorrectly. Choice C uses only the numerator derivative. Choice D is wrong since the limit exists after resolving the indeterminate form."
+    "explanation": "Direct substitution gives 0/0. By L'Hopital's rule: lim = 3x^2/(2x) at x=1 = 3/2. Alternatively, factor: (x-1)(x^2+x+1)/[(x-1)(x+1)] = (x^2+x+1)/(x+1) = 3/2. Choice A comes from canceling incorrectly. Choice C uses only the numerator derivative. Choice D is wrong since the limit exists after resolving the indeterminate form.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q094",
@@ -5467,7 +5750,8 @@ var APCALC_MCQ = [
       "infinity"
     ],
     "answer": 1,
-    "explanation": "This is 0/0. L'Hopital: lim = 2e^(2x)/1 at x=0 = 2. Choice A ignores the chain rule on e^(2x). Choice C incorrectly evaluates e^0 - 1 as the final answer. Choice D confuses this with a different limit form."
+    "explanation": "This is 0/0. L'Hopital: lim = 2e^(2x)/1 at x=0 = 2. Choice A ignores the chain rule on e^(2x). Choice C incorrectly evaluates e^0 - 1 as the final answer. Choice D confuses this with a different limit form.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q095",
@@ -5487,7 +5771,8 @@ var APCALC_MCQ = [
       "2/3"
     ],
     "answer": 1,
-    "explanation": "f(2) = 2, f(0) = 0. Average rate = (2-0)/(2-0) = 1. f'(x) = 3x^2 - 3 = 1 gives x^2 = 4/3, so x = 2/sqrt(3) (taking positive root in [0,2]). Choice A solves f'(c) = 0 instead. Choice C solves x^2 = 3. Choice D is an arithmetic error."
+    "explanation": "f(2) = 2, f(0) = 0. Average rate = (2-0)/(2-0) = 1. f'(x) = 3x^2 - 3 = 1 gives x^2 = 4/3, so x = 2/sqrt(3) (taking positive root in [0,2]). Choice A solves f'(c) = 0 instead. Choice C solves x^2 = 3. Choice D is an arithmetic error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q096",
@@ -5507,7 +5792,8 @@ var APCALC_MCQ = [
       "The car's speed was 60 mph at both t = 0 and t = 2"
     ],
     "answer": 1,
-    "explanation": "MVT says there exists c in (0,2) with s'(c) = (120-0)/(2-0) = 60. This means the instantaneous velocity equaled 60 at some point. Choice A is too strong — MVT doesn't say constant. Choice C confuses average with maximum. Choice D claims the value at endpoints, not interior."
+    "explanation": "MVT says there exists c in (0,2) with s'(c) = (120-0)/(2-0) = 60. This means the instantaneous velocity equaled 60 at some point. Choice A is too strong — MVT doesn't say constant. Choice C confuses average with maximum. Choice D claims the value at endpoints, not interior.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q097",
@@ -5527,7 +5813,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 1,
-    "explanation": "f(3) = 15, f(1) = 3. Average rate = (15-3)/(3-1) = 6. f'(x) = 2x + 2 = 6, so x = 2. Choice A results from an error in computing the average rate. Choice C is outside the spirit of the calculation. Choice D is an endpoint, not an interior point."
+    "explanation": "f(3) = 15, f(1) = 3. Average rate = (15-3)/(3-1) = 6. f'(x) = 2x + 2 = 6, so x = 2. Choice A results from an error in computing the average rate. Choice C is outside the spirit of the calculation. Choice D is an endpoint, not an interior point.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q098",
@@ -5547,7 +5834,8 @@ var APCALC_MCQ = [
       "5/2"
     ],
     "answer": 1,
-    "explanation": "f(1) = 0 and f(3) = 0, so the conditions for Rolle's Theorem are met. f'(x) = 2x - 4 = 0 gives x = 2. Choice A and C are endpoints, not interior. Choice D results from a computation error."
+    "explanation": "f(1) = 0 and f(3) = 0, so the conditions for Rolle's Theorem are met. f'(x) = 2x - 4 = 0 gives x = 2. Choice A and C are endpoints, not interior. Choice D results from a computation error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q099",
@@ -5567,7 +5855,8 @@ var APCALC_MCQ = [
       "f(x) = x^3"
     ],
     "answer": 2,
-    "explanation": "Rolle's Theorem requires continuity on [-1,1], differentiability on (-1,1), and f(-1) = f(1). For A: f(-1)=0, f(1)=0, continuous and differentiable everywhere. B: f(-1)=0, f(1)=0, but |x| is not differentiable at x=0. C: not continuous at x=0. D: f(-1)=-1, f(1)=1, so f(-1) $\\neq$ f(1)."
+    "explanation": "Rolle's Theorem requires continuity on [-1,1], differentiability on (-1,1), and f(-1) = f(1). For A: f(-1)=0, f(1)=0, continuous and differentiable everywhere. B: f(-1)=0, f(1)=0, but |x| is not differentiable at x=0. C: not continuous at x=0. D: f(-1)=-1, f(1)=1, so f(-1) $\\neq$ f(1).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q100",
@@ -5587,7 +5876,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 2,
-    "explanation": "f(0) = 0 and f(1) = 0, so Rolle's applies. f'(x) = pi*cos(pi*x) = 0 when pi*x = pi/2, so x = 1/2. Choice B is a common mistake of dividing by 4. Choice A is outside [0,1]. Choice D is an endpoint."
+    "explanation": "f(0) = 0 and f(1) = 0, so Rolle's applies. f'(x) = pi*cos(pi*x) = 0 when pi*x = pi/2, so x = 1/2. Choice B is a common mistake of dividing by 4. Choice A is outside [0,1]. Choice D is an endpoint.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q101",
@@ -5607,7 +5897,8 @@ var APCALC_MCQ = [
       "f(x) = e^x on [0, 1]"
     ],
     "answer": 2,
-    "explanation": "f(x) = 1/(x-2) has a discontinuity at x = 2, which is in [0, 3], so the function is not continuous on the closed interval and EVT does not apply. Choices B, C, and D are all continuous on their respective closed intervals."
+    "explanation": "f(x) = 1/(x-2) has a discontinuity at x = 2, which is in [0, 3], so the function is not continuous on the closed interval and EVT does not apply. Choices B, C, and D are all continuous on their respective closed intervals.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q102",
@@ -5627,7 +5918,8 @@ var APCALC_MCQ = [
       "f has a critical point at x = 4"
     ],
     "answer": 2,
-    "explanation": "EVT guarantees existence of absolute extrema for a continuous function on a closed interval, but does not specify where they occur or their values. The max could be larger than 5 (at some point not listed) and the min could be less than 1. Choice B and C assume the given values are the extrema. Choice D is not guaranteed by EVT."
+    "explanation": "EVT guarantees existence of absolute extrema for a continuous function on a closed interval, but does not specify where they occur or their values. The max could be larger than 5 (at some point not listed) and the min could be less than 1. Choice B and C assume the given values are the extrema. Choice D is not guaranteed by EVT.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q103",
@@ -5647,7 +5939,8 @@ var APCALC_MCQ = [
       "2/(pi) ft/min"
     ],
     "answer": 2,
-    "explanation": "Since r = h/2, V = (1/3)pi(h/2)^2*h = pi*h^3/12. dV/dt = (pi/4)*h^2*(dh/dt). At h = 4: 2 = (pi/4)(16)(dh/dt) = 4pi*(dh/dt), so dh/dt = 2/(4pi) = 1/(2pi). Choice A uses h^3 in the derivative incorrectly. Choice B forgets the h^2/4 factor. Choice D is the same as B, a distractor for careless reading."
+    "explanation": "Since r = h/2, V = (1/3)pi(h/2)^2*h = pi*h^3/12. dV/dt = (pi/4)*h^2*(dh/dt). At h = 4: 2 = (pi/4)(16)(dh/dt) = 4pi*(dh/dt), so dh/dt = 2/(4pi) = 1/(2pi). Choice A uses h^3 in the derivative incorrectly. Choice B forgets the h^2/4 factor. Choice D is the same as B, a distractor for careless reading.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q104",
@@ -5667,7 +5960,8 @@ var APCALC_MCQ = [
       "does not exist"
     ],
     "answer": 2,
-    "explanation": "At x = 0, both numerator and denominator are 0 (0/0 form). Apply L'Hopital's: lim = sin(x)/(2x), still 0/0. Apply again: lim = cos(x)/2 = 1/2. Choice B comes from only applying L'Hopital once and evaluating sin(0)/(2*0) incorrectly as 0. Choice A forgets the factor of 2 in the denominator. Choice D is incorrect since the limit exists."
+    "explanation": "At x = 0, both numerator and denominator are 0 (0/0 form). Apply L'Hopital's: lim = sin(x)/(2x), still 0/0. Apply again: lim = cos(x)/2 = 1/2. Choice B comes from only applying L'Hopital once and evaluating sin(0)/(2*0) incorrectly as 0. Choice A forgets the factor of 2 in the denominator. Choice D is incorrect since the limit exists.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q105",
@@ -5687,7 +5981,8 @@ var APCALC_MCQ = [
       "1/(4pi) ft/min"
     ],
     "answer": 2,
-    "explanation": "Since r = h/2, we substitute into V = (1/3)pi*r^2*h to get V = (1/3)pi*(h/2)^2*h = pi*h^3/12. Differentiating: dV/dt = pi*h^2/4 * dh/dt. With dV/dt = 3 and h = 4: 3 = pi(16)/4 * dh/dt = 4pi * dh/dt, so dh/dt = 3/(4pi). Choice B comes from using h = 4 twice incorrectly. Choice A comes from an algebra error in the substitution. Choice D comes from incorrectly simplifying."
+    "explanation": "Since r = h/2, we substitute into V = (1/3)pi*r^2*h to get V = (1/3)pi*(h/2)^2*h = pi*h^3/12. Differentiating: dV/dt = pi*h^2/4 * dh/dt. With dV/dt = 3 and h = 4: 3 = pi(16)/4 * dh/dt = 4pi * dh/dt, so dh/dt = 3/(4pi). Choice B comes from using h = 4 twice incorrectly. Choice A comes from an algebra error in the substitution. Choice D comes from incorrectly simplifying.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q106",
@@ -5707,7 +6002,8 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 2,
-    "explanation": "Plugging in x = 0 gives 0/0 repeatedly. Apply L'Hopital's rule three times. First application: (e^x - 1 - x) / (3x^2), still 0/0. Second: (e^x - 1) / (6x), still 0/0. Third: e^x / 6, which evaluates to 1/6 at x = 0. Choice B (1/3) results from differentiating the denominator incorrectly as 3x^2 then 6x then 3. Choice A (1/2) comes from stopping after two applications of L'Hopital's rule. Choice D is incorrect and results from assuming higher-order terms vanish."
+    "explanation": "Plugging in x = 0 gives 0/0 repeatedly. Apply L'Hopital's rule three times. First application: (e^x - 1 - x) / (3x^2), still 0/0. Second: (e^x - 1) / (6x), still 0/0. Third: e^x / 6, which evaluates to 1/6 at x = 0. Choice B (1/3) results from differentiating the denominator incorrectly as 3x^2 then 6x then 3. Choice A (1/2) comes from stopping after two applications of L'Hopital's rule. Choice D is incorrect and results from assuming higher-order terms vanish.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q107",
@@ -5727,7 +6023,8 @@ var APCALC_MCQ = [
       "Rolle's Theorem does not apply"
     ],
     "answer": 2,
-    "explanation": "g(-2) = 16 - 16 = 0 and g(2) = 16 - 16 = 0, so g(-2) = g(2) and g is continuous and differentiable everywhere, so Rolle's Theorem applies. g'(x) = 4x^3 - 8x = 4x(x^2 - 2) = 0 gives x = 0, x = sqrt(2), x = -sqrt(2). All three are in (-2, 2), so there are 3 values. Choice B (2) comes from missing c = 0. Choice A (1) comes from only finding c = 0. Choice D is wrong because the hypotheses are satisfied."
+    "explanation": "g(-2) = 16 - 16 = 0 and g(2) = 16 - 16 = 0, so g(-2) = g(2) and g is continuous and differentiable everywhere, so Rolle's Theorem applies. g'(x) = 4x^3 - 8x = 4x(x^2 - 2) = 0 gives x = 0, x = sqrt(2), x = -sqrt(2). All three are in (-2, 2), so there are 3 values. Choice B (2) comes from missing c = 0. Choice A (1) comes from only finding c = 0. Choice D is wrong because the hypotheses are satisfied.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q108",
@@ -5747,7 +6044,8 @@ var APCALC_MCQ = [
       "5.01"
     ],
     "answer": 0,
-    "explanation": "L(x) = f(a) + f'(a)(x - a). f(25) = 5, f'(x) = 1/(2sqrt(x)), f'(25) = 1/10. So L(26) = 5 + (1/10)(26 - 25) = 5 + 0.1 = 5.1. Choice B (5.05) comes from using f'(25) = 1/20 by an extra factor of 2 error. Choice C (5.2) results from using (x - a) = 2 by mistake. Choice D (5.01) comes from using f'(25) = 1/100."
+    "explanation": "L(x) = f(a) + f'(a)(x - a). f(25) = 5, f'(x) = 1/(2sqrt(x)), f'(25) = 1/10. So L(26) = 5 + (1/10)(26 - 25) = 5 + 0.1 = 5.1. Choice B (5.05) comes from using f'(25) = 1/20 by an extra factor of 2 error. Choice C (5.2) results from using (x - a) = 2 by mistake. Choice D (5.01) comes from using f'(25) = 1/100.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q109",
@@ -5767,7 +6065,8 @@ var APCALC_MCQ = [
       "-24/13 ft/s"
     ],
     "answer": 0,
-    "explanation": "Using x^2 + y^2 = 169, when x = 12, y = 5. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. So 2(12)(2) + 2(5)(dy/dt) = 0, giving 48 + 10(dy/dt) = 0, dy/dt = -48/10 = -24/5. Choice B comes from inverting the ratio. Choice C comes from incorrectly using 13 in the denominator by dividing by the hypotenuse. Choice D also uses 13 incorrectly."
+    "explanation": "Using x^2 + y^2 = 169, when x = 12, y = 5. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. So 2(12)(2) + 2(5)(dy/dt) = 0, giving 48 + 10(dy/dt) = 0, dy/dt = -48/10 = -24/5. Choice B comes from inverting the ratio. Choice C comes from incorrectly using 13 in the denominator by dividing by the hypotenuse. Choice D also uses 13 incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q110",
@@ -5787,7 +6086,8 @@ var APCALC_MCQ = [
       "Does not exist"
     ],
     "answer": 0,
-    "explanation": "This is a 0 * (-infinity) indeterminate form. Rewrite as ln(x) / (1/x), which is -infinity/infinity. Applying L'Hopital's rule: (1/x) / (-1/x^2) = (1/x)(-x^2) = -x, which approaches 0 as x approaches 0+. Choice B is a common misconception from thinking the ln(x) dominates. Choice C might come from confusing with a different limit. Choice D is incorrect because the limit does exist."
+    "explanation": "This is a 0 * (-infinity) indeterminate form. Rewrite as ln(x) / (1/x), which is -infinity/infinity. Applying L'Hopital's rule: (1/x) / (-1/x^2) = (1/x)(-x^2) = -x, which approaches 0 as x approaches 0+. Choice B is a common misconception from thinking the ln(x) dominates. Choice C might come from confusing with a different limit. Choice D is incorrect because the limit does exist.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q111",
@@ -5807,7 +6107,8 @@ var APCALC_MCQ = [
       "The car's average velocity equals its maximum velocity"
     ],
     "answer": 0,
-    "explanation": "The MVT guarantees that there exists c in (0, 2) such that s'(c) = (s(2) - s(0))/(2 - 0) = 120/2 = 60 mph. This means the instantaneous velocity must equal the average velocity at some point. Choice B is too strong — MVT only guarantees one instant. Choice C uses the wrong value (total distance, not the average rate). Choice D is not guaranteed by MVT."
+    "explanation": "The MVT guarantees that there exists c in (0, 2) such that s'(c) = (s(2) - s(0))/(2 - 0) = 120/2 = 60 mph. This means the instantaneous velocity must equal the average velocity at some point. Choice B is too strong — MVT only guarantees one instant. Choice C uses the wrong value (total distance, not the average rate). Choice D is not guaranteed by MVT.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q112",
@@ -5827,7 +6128,8 @@ var APCALC_MCQ = [
       "f(x) = x^3"
     ],
     "answer": 0,
-    "explanation": "Rolle's Theorem requires (1) continuity on [-1,1], (2) differentiability on (-1,1), and (3) f(-1) = f(1). For A: f is a polynomial (continuous and differentiable everywhere), and f(-1) = 0 = f(1). For B: f(-1) = 0 = f(1) and it's continuous, but |x| is not differentiable at x = 0. For C: 1/x^2 is not continuous at x = 0. For D: f(-1) = -1 and f(1) = 1, so f(-1) $\\neq$ f(1)."
+    "explanation": "Rolle's Theorem requires (1) continuity on [-1,1], (2) differentiability on (-1,1), and (3) f(-1) = f(1). For A: f is a polynomial (continuous and differentiable everywhere), and f(-1) = 0 = f(1). For B: f(-1) = 0 = f(1) and it's continuous, but |x| is not differentiable at x = 0. For C: 1/x^2 is not continuous at x = 0. For D: f(-1) = -1 and f(1) = 1, so f(-1) $\\neq$ f(1).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q113",
@@ -5847,7 +6149,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 0,
-    "explanation": "By the Extreme Value Theorem, a continuous function on a closed interval attains its absolute max and min. We evaluate f at critical points and endpoints: f(1) = 3, f(2) = 7, f(4) = -1, f(5) = 3. The smallest value is -1 at x = 4. Choice B (3) is the endpoint value, a common mistake if students only check endpoints. Choice C and D are not values of f at any critical point or endpoint."
+    "explanation": "By the Extreme Value Theorem, a continuous function on a closed interval attains its absolute max and min. We evaluate f at critical points and endpoints: f(1) = 3, f(2) = 7, f(4) = -1, f(5) = 3. The smallest value is -1 at x = 4. Choice B (3) is the endpoint value, a common mistake if students only check endpoints. Choice C and D are not values of f at any critical point or endpoint.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q114",
@@ -5867,7 +6170,8 @@ var APCALC_MCQ = [
       "2pi cm^2/s"
     ],
     "answer": 0,
-    "explanation": "dV/dt = 4pi*r^2*(dr/dt). With dV/dt = 8pi and r = 2: 8pi = 4pi(4)(dr/dt), so dr/dt = 1/2. Now dS/dt = 8pi*r*(dr/dt) = 8pi(2)(1/2) = 8pi. Choice B (16pi) comes from forgetting to include dr/dt and computing 8pi*r. Choice C comes from using dr/dt = 1/4 by an arithmetic error. Choice D uses dr/dt = 1/8."
+    "explanation": "dV/dt = 4pi*r^2*(dr/dt). With dV/dt = 8pi and r = 2: 8pi = 4pi(4)(dr/dt), so dr/dt = 1/2. Now dS/dt = 8pi*r*(dr/dt) = 8pi(2)(1/2) = 8pi. Choice B (16pi) comes from forgetting to include dr/dt and computing 8pi*r. Choice C comes from using dr/dt = 1/4 by an arithmetic error. Choice D uses dr/dt = 1/8.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q115",
@@ -5887,7 +6191,8 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 0,
-    "explanation": "At x = 0 both numerator and denominator are 0. Apply L'Hopital's: numerator' = cos(x) - cos(x) + x*sin(x) = x*sin(x); denominator' = 1 - cos(x). Still 0/0. Apply again: numerator'' = sin(x) + x*cos(x); denominator'' = sin(x). Still 0/0 at x = 0. Apply a third time: numerator''' = cos(x) + cos(x) - x*sin(x) = 2cos(x) - x*sin(x); denominator''' = cos(x). At x = 0: 2/1 = 2. Choice B (1) comes from an error in differentiation. Choice C (3) comes from a sign error. Choice D assumes the limit is trivially 0."
+    "explanation": "At x = 0 both numerator and denominator are 0. Apply L'Hopital's: numerator' = cos(x) - cos(x) + x*sin(x) = x*sin(x); denominator' = 1 - cos(x). Still 0/0. Apply again: numerator'' = sin(x) + x*cos(x); denominator'' = sin(x). Still 0/0 at x = 0. Apply a third time: numerator''' = cos(x) + cos(x) - x*sin(x) = 2cos(x) - x*sin(x); denominator''' = cos(x). At x = 0: 2/1 = 2. Choice B (1) comes from an error in differentiation. Choice C (3) comes from a sign error. Choice D assumes the limit is trivially 0.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q116",
@@ -5907,7 +6212,8 @@ var APCALC_MCQ = [
       "2/(e^2 - 1)"
     ],
     "answer": 0,
-    "explanation": "The average rate of change is (ln(e^2) - ln(1))/(e^2 - 1) = 2/(e^2 - 1). Setting f'(c) = 1/c = 2/(e^2 - 1) gives c = (e^2 - 1)/2. Choice B (e) is a common guess since e is in the interval but 1/e $\\neq$ 2/(e^2 - 1). Choice C (e^2/2) confuses the endpoint with the answer. Choice D gives the average rate of change itself, not the value of c."
+    "explanation": "The average rate of change is (ln(e^2) - ln(1))/(e^2 - 1) = 2/(e^2 - 1). Setting f'(c) = 1/c = 2/(e^2 - 1) gives c = (e^2 - 1)/2. Choice B (e) is a common guess since e is in the interval but 1/e $\\neq$ 2/(e^2 - 1). Choice C (e^2/2) confuses the endpoint with the answer. Choice D gives the average rate of change itself, not the value of c.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q117",
@@ -5927,7 +6233,8 @@ var APCALC_MCQ = [
       "x = -1 and x = 1"
     ],
     "answer": 3,
-    "explanation": "f'(x) = 3x^2 - 3 = 3(x^2 - 1) = 3(x - 1)(x + 1). Setting f'(x) = 0 gives x = -1 and x = 1. B is wrong because f'(0) = -3, not zero. C and D each miss one critical point."
+    "explanation": "f'(x) = 3x^2 - 3 = 3(x^2 - 1) = 3(x - 1)(x + 1). Setting f'(x) = 0 gives x = -1 and x = 1. B is wrong because f'(0) = -3, not zero. C and D each miss one critical point.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q118",
@@ -5947,7 +6254,8 @@ var APCALC_MCQ = [
       "f has a local minimum at x = 2"
     ],
     "answer": 3,
-    "explanation": "By the First Derivative Test, when f' changes from negative to positive, f changes from decreasing to increasing, so there is a local minimum. B is the opposite case (positive to negative). C confuses the first derivative test with concavity analysis. D is not necessarily true."
+    "explanation": "By the First Derivative Test, when f' changes from negative to positive, f changes from decreasing to increasing, so there is a local minimum. B is the opposite case (positive to negative). C confuses the first derivative test with concavity analysis. D is not necessarily true.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q119",
@@ -5967,7 +6275,8 @@ var APCALC_MCQ = [
       "f has a local maximum at x = 3"
     ],
     "answer": 3,
-    "explanation": "Since f'(3) = 0 and f''(3) < 0, the Second Derivative Test says f has a local maximum at x = 3. A would require f''(3) > 0. C is wrong because an inflection point involves a sign change of f'', not just evaluating f'' at a critical point. D would only apply if f''(3) = 0."
+    "explanation": "Since f'(3) = 0 and f''(3) < 0, the Second Derivative Test says f has a local maximum at x = 3. A would require f''(3) > 0. C is wrong because an inflection point involves a sign change of f'', not just evaluating f'' at a critical point. D would only apply if f''(3) = 0.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q120",
@@ -5987,7 +6296,8 @@ var APCALC_MCQ = [
       "Nowhere"
     ],
     "answer": 0,
-    "explanation": "f'(x) = 2x - 4 and f''(x) = 2, which is always positive. Since f''(x) > 0 for all x, f is concave up on the entire real line. B and C are wrong because students may confuse the vertex x = 2 with a change in concavity. D is the opposite conclusion."
+    "explanation": "f'(x) = 2x - 4 and f''(x) = 2, which is always positive. Since f''(x) > 0 for all x, f is concave up on the entire real line. B and C are wrong because students may confuse the vertex x = 2 with a change in concavity. D is the opposite conclusion.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q121",
@@ -6007,7 +6317,8 @@ var APCALC_MCQ = [
       "x = 2"
     ],
     "answer": 3,
-    "explanation": "f'(x) = 3x^2 - 12x + 9 and f''(x) = 6x - 12. Setting f''(x) = 0 gives x = 2. Checking: f'' changes sign around x = 2 (negative for x < 2, positive for x > 2), confirming an inflection point. A and C are the critical points where f'(x) = 0, a common confusion. D is simply f''(0) = -12 $\\neq$ 0."
+    "explanation": "f'(x) = 3x^2 - 12x + 9 and f''(x) = 6x - 12. Setting f''(x) = 0 gives x = 2. Checking: f'' changes sign around x = 2 (negative for x < 2, positive for x > 2), confirming an inflection point. A and C are the critical points where f'(x) = 0, a common confusion. D is simply f''(0) = -12 $\\neq$ 0.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q122",
@@ -6027,7 +6338,8 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 0,
-    "explanation": "f'(x) = 2x + 4 = 0 gives x = -2. f''(x) = 2 > 0, confirming a minimum. f(-2) = 4 - 8 + 5 = 1. B is the y-intercept f(0) = 5. C is the x-value of the minimum, not the minimum value itself — a very common student error. D is a guess."
+    "explanation": "f'(x) = 2x + 4 = 0 gives x = -2. f''(x) = 2 > 0, confirming a minimum. f(-2) = 4 - 8 + 5 = 1. B is the y-intercept f(0) = 5. C is the x-value of the minimum, not the minimum value itself — a very common student error. D is a guess.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q123",
@@ -6047,7 +6359,8 @@ var APCALC_MCQ = [
       "Increasing and concave down"
     ],
     "answer": 3,
-    "explanation": "f'(x) > 0 means f is increasing, and f''(x) < 0 means f is concave down. A is wrong because it gets the concavity backwards. C and D are wrong because they misidentify the function as decreasing when f' > 0."
+    "explanation": "f'(x) > 0 means f is increasing, and f''(x) < 0 means f is concave down. A is wrong because it gets the concavity backwards. C and D are wrong because they misidentify the function as decreasing when f' > 0.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q124",
@@ -6067,7 +6380,8 @@ var APCALC_MCQ = [
       "They occur where f'(x) = 0 or f'(x) does not exist"
     ],
     "answer": 3,
-    "explanation": "By definition, critical points occur where f'(x) = 0 or where f'(x) does not exist (and x is in the domain of f). A forgets the case where f' is undefined (e.g., corners or cusps). C is false because not every critical point is an extremum (e.g., f(x) = x^3 at x = 0). D confuses critical points with possible inflection points."
+    "explanation": "By definition, critical points occur where f'(x) = 0 or where f'(x) does not exist (and x is in the domain of f). A forgets the case where f' is undefined (e.g., corners or cusps). C is false because not every critical point is an extremum (e.g., f(x) = x^3 at x = 0). D confuses critical points with possible inflection points.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q125",
@@ -6087,7 +6401,8 @@ var APCALC_MCQ = [
       "The test cannot be applied"
     ],
     "answer": 2,
-    "explanation": "f'(x) = 3x^2, which is non-negative for all x. f' does not change sign at x = 0 (it is positive on both sides except at x = 0 itself), so by the First Derivative Test there is neither a local maximum nor a local minimum. A and B are common misconceptions from assuming f'(c) = 0 always gives an extremum. D is wrong because the First Derivative Test can be applied — it simply tells us no extremum exists."
+    "explanation": "f'(x) = 3x^2, which is non-negative for all x. f' does not change sign at x = 0 (it is positive on both sides except at x = 0 itself), so by the First Derivative Test there is neither a local maximum nor a local minimum. A and B are common misconceptions from assuming f'(c) = 0 always gives an extremum. D is wrong because the First Derivative Test can be applied — it simply tells us no extremum exists.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q126",
@@ -6107,7 +6422,8 @@ var APCALC_MCQ = [
       "f has an inflection point in (a, b)"
     ],
     "answer": 2,
-    "explanation": "f''(x) > 0 on an interval means the graph of f is concave up on that interval. A is incorrect because the sign of f'' determines concavity, not whether f is increasing or decreasing. B states the opposite concavity. D is wrong because an inflection point requires a sign change of f'', but f'' > 0 throughout the interval so no sign change occurs."
+    "explanation": "f''(x) > 0 on an interval means the graph of f is concave up on that interval. A is incorrect because the sign of f'' determines concavity, not whether f is increasing or decreasing. B states the opposite concavity. D is wrong because an inflection point requires a sign change of f'', but f'' > 0 throughout the interval so no sign change occurs.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q127",
@@ -6127,7 +6443,8 @@ var APCALC_MCQ = [
       "x = 1 only"
     ],
     "answer": 0,
-    "explanation": "f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x - 1)(x - 3). Setting f'(x) = 0 gives x = 1 and x = 3. Option B uses wrong signs. Option C confuses x = 0 as a critical point. Option D misses the second root."
+    "explanation": "f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x - 1)(x - 3). Setting f'(x) = 0 gives x = 1 and x = 3. Option B uses wrong signs. Option C confuses x = 0 as a critical point. Option D misses the second root.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q128",
@@ -6147,7 +6464,8 @@ var APCALC_MCQ = [
       "f has a local minimum at x = -1 and no extremum at x = 2"
     ],
     "answer": 3,
-    "explanation": "f'(x) = (x - 2)^2(x + 1). At x = -1, f' changes from negative to positive, so there is a local minimum. At x = 2, (x - 2)^2 is always non-negative, so f' does not change sign (positive on both sides of x = 2), meaning no extremum there. Option A incorrectly assigns a max at x = 2. Option C reverses the classification. Option B claims both are minima."
+    "explanation": "f'(x) = (x - 2)^2(x + 1). At x = -1, f' changes from negative to positive, so there is a local minimum. At x = 2, (x - 2)^2 is always non-negative, so f' does not change sign (positive on both sides of x = 2), meaning no extremum there. Option A incorrectly assigns a max at x = 2. Option C reverses the classification. Option B claims both are minima.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q129",
@@ -6167,7 +6485,8 @@ var APCALC_MCQ = [
       "The test is inconclusive because g''(1) = 0"
     ],
     "answer": 0,
-    "explanation": "g'(x) = 6x^2 - 18x + 12 = 6(x - 1)(x - 2), so x = 1 is a critical point. g''(x) = 12x - 18, so g''(1) = 12 - 18 = -6 < 0. Since the second derivative is negative, x = 1 is a local maximum. Option B has the wrong sign interpretation. Option C mismatches the conclusion with the sign. Option D incorrectly claims the test is inconclusive."
+    "explanation": "g'(x) = 6x^2 - 18x + 12 = 6(x - 1)(x - 2), so x = 1 is a critical point. g''(x) = 12x - 18, so g''(1) = 12 - 18 = -6 < 0. Since the second derivative is negative, x = 1 is a local maximum. Option B has the wrong sign interpretation. Option C mismatches the conclusion with the sign. Option D incorrectly claims the test is inconclusive.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q130",
@@ -6187,7 +6506,8 @@ var APCALC_MCQ = [
       "(-infinity, -2/sqrt(3)) and (2/sqrt(3), infinity)"
     ],
     "answer": 3,
-    "explanation": "f'(x) = 4x^3 - 16x. f''(x) = 12x^2 - 16. Setting f''(x) > 0: 12x^2 - 16 > 0, so x^2 > 4/3, meaning x < -2/sqrt(3) or x > 2/sqrt(3). Option A gives where f is concave down. Option C confuses the inflection points with x = -2 and x = 2. Option B is an arbitrary interval."
+    "explanation": "f'(x) = 4x^3 - 16x. f''(x) = 12x^2 - 16. Setting f''(x) > 0: 12x^2 - 16 > 0, so x^2 > 4/3, meaning x < -2/sqrt(3) or x > 2/sqrt(3). Option A gives where f is concave down. Option C confuses the inflection points with x = -2 and x = 2. Option B is an arbitrary interval.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q131",
@@ -6207,7 +6527,8 @@ var APCALC_MCQ = [
       "4000 square meters"
     ],
     "answer": 0,
-    "explanation": "Let x be the side parallel to the river and y be the two perpendicular sides. Then x + 2y = 200, so x = 200 - 2y. Area A = xy = y(200 - 2y) = 200y - 2y^2. A'(y) = 200 - 4y = 0 gives y = 50, x = 100. Max area = 100(50) = 5000. Option B (2500) is the answer if all four sides are fenced. Option C and D are common arithmetic errors."
+    "explanation": "Let x be the side parallel to the river and y be the two perpendicular sides. Then x + 2y = 200, so x = 200 - 2y. Area A = xy = y(200 - 2y) = 200y - 2y^2. A'(y) = 200 - 4y = 0 gives y = 50, x = 100. Max area = 100(50) = 5000. Option B (2500) is the answer if all four sides are fenced. Option C and D are common arithmetic errors.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q132",
@@ -6227,7 +6548,8 @@ var APCALC_MCQ = [
       "f has an inflection point at x = 3"
     ],
     "answer": 3,
-    "explanation": "Since f' is a parabola opening upward with vertex at (3, -4), the minimum value of f' is -4 at x = 3. The second derivative f'' changes sign at x = 3 (f'' goes from negative to positive since f' has a minimum there), so f has an inflection point at x = 3. Option A and D are wrong because f'(3) = -4 $\\neq$ 0, so x = 3 is not a critical point of f. Option C is wrong because f' is positive for sufficiently large and small x values."
+    "explanation": "Since f' is a parabola opening upward with vertex at (3, -4), the minimum value of f' is -4 at x = 3. The second derivative f'' changes sign at x = 3 (f'' goes from negative to positive since f' has a minimum there), so f has an inflection point at x = 3. Option A and D are wrong because f'(3) = -4 $\\neq$ 0, so x = 3 is not a critical point of f. Option C is wrong because f' is positive for sufficiently large and small x values.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q133",
@@ -6247,7 +6569,8 @@ var APCALC_MCQ = [
       "1"
     ],
     "answer": 1,
-    "explanation": "x^2 - 4x + 3 = (x-1)(x-3). This expression is zero at x = 1 and x = 3, positive outside [1,3], and negative inside (1,3). So f(x) = x^2-4x+3 for x <= 1 or x >= 3, and f(x) = -(x^2-4x+3) for 1 < x < 3. Critical points occur where f'(x) = 0 or f'(x) doesn't exist. f' doesn't exist at x = 1 and x = 3 (corners). On (1,3), f(x) = -x^2+4x-3, so f'(x) = -2x+4 = 0 at x = 2. So there are 3 critical points: x = 1, 2, 3. Option A misses one corner. Option C overcounts. Option D only finds x = 2."
+    "explanation": "x^2 - 4x + 3 = (x-1)(x-3). This expression is zero at x = 1 and x = 3, positive outside [1,3], and negative inside (1,3). So f(x) = x^2-4x+3 for x <= 1 or x >= 3, and f(x) = -(x^2-4x+3) for 1 < x < 3. Critical points occur where f'(x) = 0 or f'(x) doesn't exist. f' doesn't exist at x = 1 and x = 3 (corners). On (1,3), f(x) = -x^2+4x-3, so f'(x) = -2x+4 = 0 at x = 2. So there are 3 critical points: x = 1, 2, 3. Option A misses one corner. Option C overcounts. Option D only finds x = 2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q134",
@@ -6267,7 +6590,8 @@ var APCALC_MCQ = [
       "f has no local extrema"
     ],
     "answer": 1,
-    "explanation": "By the first derivative test, f' changes from positive to negative at x = -2, so f has a local maximum there. f' changes from negative to positive at x = 5, so f has a local minimum there. Option A reverses the classifications—a common error. Option C ignores the sign change pattern. Option D is wrong since there are clear sign changes."
+    "explanation": "By the first derivative test, f' changes from positive to negative at x = -2, so f has a local maximum there. f' changes from negative to positive at x = 5, so f has a local minimum there. Option A reverses the classifications—a common error. Option C ignores the sign change pattern. Option D is wrong since there are clear sign changes.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q135",
@@ -6287,7 +6611,8 @@ var APCALC_MCQ = [
       "Inflection point"
     ],
     "answer": 1,
-    "explanation": "f'(x) = 4x^3 - 8x = 4x(x^2 - 2). f'(0) = 0, so x = 0 is a critical point. f''(x) = 12x^2 - 8. f''(0) = -8 < 0. Since the second derivative is negative, x = 0 is a local maximum. Option A confuses the sign. Option C incorrectly claims inconclusive. Option D confuses critical points with inflection points."
+    "explanation": "f'(x) = 4x^3 - 8x = 4x(x^2 - 2). f'(0) = 0, so x = 0 is a critical point. f''(x) = 12x^2 - 8. f''(0) = -8 < 0. Since the second derivative is negative, x = 0 is a local maximum. Option A confuses the sign. Option C incorrectly claims inconclusive. Option D confuses critical points with inflection points.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q136",
@@ -6307,7 +6632,8 @@ var APCALC_MCQ = [
       "(0, 4) only"
     ],
     "answer": 1,
-    "explanation": "f''(x) = x(x-4)(x+2) has zeros at x = -2, 0, 4. Testing signs: for x < -2 (say x = -3): (-3)(-7)(-1) = -21 < 0. For -2 < x < 0 (say x = -1): (-1)(-5)(1) = 5 > 0. For 0 < x < 4 (say x = 1): (1)(-3)(3) = -9 < 0. For x > 4 (say x = 5): (5)(1)(7) = 35 > 0. f is concave down where f'' < 0: (-infinity, -2) and (0, 4). Option A gives where f'' changes from positive to negative incorrectly. Options C and D each give only one interval."
+    "explanation": "f''(x) = x(x-4)(x+2) has zeros at x = -2, 0, 4. Testing signs: for x < -2 (say x = -3): (-3)(-7)(-1) = -21 < 0. For -2 < x < 0 (say x = -1): (-1)(-5)(1) = 5 > 0. For 0 < x < 4 (say x = 1): (1)(-3)(3) = -9 < 0. For x > 4 (say x = 5): (5)(1)(7) = 35 > 0. f is concave down where f'' < 0: (-infinity, -2) and (0, 4). Option A gives where f'' changes from positive to negative incorrectly. Options C and D each give only one interval.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q137",
@@ -6327,7 +6653,8 @@ var APCALC_MCQ = [
       "2*cbrt(4) inches"
     ],
     "answer": 0,
-    "explanation": "Let s = side length of base, h = height. Volume: s^2 * h = 32, so h = 32/s^2. Surface area (open top): S = s^2 + 4sh = s^2 + 4s(32/s^2) = s^2 + 128/s. S'(s) = 2s - 128/s^2 = 0 gives 2s^3 = 128, s^3 = 64, s = 4. S''(s) = 2 + 256/s^3 > 0 confirms minimum. Option B is a common guess. Option C doubles the answer. Option D results from an algebraic error."
+    "explanation": "Let s = side length of base, h = height. Volume: s^2 * h = 32, so h = 32/s^2. Surface area (open top): S = s^2 + 4sh = s^2 + 4s(32/s^2) = s^2 + 128/s. S'(s) = 2s - 128/s^2 = 0 gives 2s^3 = 128, s^3 = 64, s = 4. S''(s) = 2 + 256/s^3 > 0 confirms minimum. Option B is a common guess. Option C doubles the answer. Option D results from an algebraic error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q138",
@@ -6347,7 +6674,8 @@ var APCALC_MCQ = [
       "f is decreasing and concave up at x = 2"
     ],
     "answer": 1,
-    "explanation": "Since f'(2) = 0, x = 2 is a critical point. Since f''(2) = 3 > 0, the function is concave up at x = 2, so by the second derivative test it is a local minimum. The point is (2, f(2)) = (2, 1). Option A confuses the sign of f''. Option C is wrong because f'(2) = 0 and f''(2) $\\neq$ 0. Option D is wrong because f'(2) = 0, not negative."
+    "explanation": "Since f'(2) = 0, x = 2 is a critical point. Since f''(2) = 3 > 0, the function is concave up at x = 2, so by the second derivative test it is a local minimum. The point is (2, f(2)) = (2, 1). Option A confuses the sign of f''. Option C is wrong because f'(2) = 0 and f''(2) $\\neq$ 0. Option D is wrong because f'(2) = 0, not negative.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q139",
@@ -6367,7 +6695,8 @@ var APCALC_MCQ = [
       "x = -1"
     ],
     "answer": 2,
-    "explanation": "f(x) = xe^(-x). f'(x) = e^(-x) - xe^(-x) = e^(-x)(1-x). f''(x) = -e^(-x)(1-x) + e^(-x)(-1) = e^(-x)(x - 2). Setting f''(x) = 0: since e^(-x) > 0 always, x - 2 = 0, so x = 2. f'' changes sign at x = 2 (negative for x < 2, positive for x > 2). Option A confuses with f(0) = 0. Option B is the critical point where f'(x) = 0. Option D is a sign error."
+    "explanation": "f(x) = xe^(-x). f'(x) = e^(-x) - xe^(-x) = e^(-x)(1-x). f''(x) = -e^(-x)(1-x) + e^(-x)(-1) = e^(-x)(x - 2). Setting f''(x) = 0: since e^(-x) > 0 always, x - 2 = 0, so x = 2. f'' changes sign at x = 2 (negative for x < 2, positive for x > 2). Option A confuses with f(0) = 0. Option B is the critical point where f'(x) = 0. Option D is a sign error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q140",
@@ -6387,7 +6716,8 @@ var APCALC_MCQ = [
       "9"
     ],
     "answer": 0,
-    "explanation": "f'(x) = 12 - 3x^2 = 0 gives x^2 = 4, so x = 2 or x = -2. Evaluating: f(-3) = -36 + 27 = -9, f(-2) = -24 + 8 = -16, f(2) = 24 - 8 = 16, f(3) = 36 - 27 = 9. The maximum value is 16 at x = 2. Option B is f'(0) confused with f value. Option C is f(0). Option D is f(3), a common error of only checking endpoints."
+    "explanation": "f'(x) = 12 - 3x^2 = 0 gives x^2 = 4, so x = 2 or x = -2. Evaluating: f(-3) = -36 + 27 = -9, f(-2) = -24 + 8 = -16, f(2) = 24 - 8 = 16, f(3) = 36 - 27 = 9. The maximum value is 16 at x = 2. Option B is f'(0) confused with f value. Option C is f(0). Option D is f(3), a common error of only checking endpoints.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q141",
@@ -6407,7 +6737,8 @@ var APCALC_MCQ = [
       "Increasing and concave down"
     ],
     "answer": 2,
-    "explanation": "f'(x) < 0 means f is decreasing. f''(x) < 0 means f is concave down. So f is decreasing and concave down on (1, 5). Option A gets both wrong. Option B has the wrong concavity. Option D has the wrong direction of increase/decrease."
+    "explanation": "f'(x) < 0 means f is decreasing. f''(x) < 0 means f is concave down. So f is decreasing and concave down on (1, 5). Option A gets both wrong. Option B has the wrong concavity. Option D has the wrong direction of increase/decrease.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q142",
@@ -6427,7 +6758,8 @@ var APCALC_MCQ = [
       "f has no critical points"
     ],
     "answer": 2,
-    "explanation": "f(x) = (x^2-1)^(2/3). f'(x) = (2/3)(x^2-1)^(-1/3)(2x) = 4x / [3(x^2-1)^(1/3)]. f'(x) = 0 when x = 0. f'(x) is undefined when x^2 - 1 = 0, i.e., x = 1 and x = -1, and f is defined at these points (f(1) = f(-1) = 0). So all three are critical points. Option A misses where f' is undefined. Option B misses where f' = 0. Option D is incorrect."
+    "explanation": "f(x) = (x^2-1)^(2/3). f'(x) = (2/3)(x^2-1)^(-1/3)(2x) = 4x / [3(x^2-1)^(1/3)]. f'(x) = 0 when x = 0. f'(x) is undefined when x^2 - 1 = 0, i.e., x = 1 and x = -1, and f is defined at these points (f(1) = f(-1) = 0). So all three are critical points. Option A misses where f' is undefined. Option B misses where f' = 0. Option D is incorrect.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q143",
@@ -6447,7 +6779,8 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 1,
-    "explanation": "f'(x) = (2/3)x^(-1/3)(x - 4) + x^(2/3). Setting f'(x) = 0 and simplifying gives f'(x) = (5x - 8)/(3x^(1/3)). f'(x) = 0 when x = 8/5, and f'(x) is undefined when x = 0. Both x = 0 and x = 8/5 are in [-1, 5] and are in the domain of f, giving 2 critical points. A common error is forgetting x = 0 where the derivative is undefined (choosing A), or counting endpoints as critical points (choosing C)."
+    "explanation": "f'(x) = (2/3)x^(-1/3)(x - 4) + x^(2/3). Setting f'(x) = 0 and simplifying gives f'(x) = (5x - 8)/(3x^(1/3)). f'(x) = 0 when x = 8/5, and f'(x) is undefined when x = 0. Both x = 0 and x = 8/5 are in [-1, 5] and are in the domain of f, giving 2 critical points. A common error is forgetting x = 0 where the derivative is undefined (choosing A), or counting endpoints as critical points (choosing C).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q144",
@@ -6467,7 +6800,8 @@ var APCALC_MCQ = [
       "x = -3 and x = 5"
     ],
     "answer": 2,
-    "explanation": "Critical points are x = -3, 1, and 5. At x = 1, the factor (x-1)^2 does not change sign, so there is no local extremum. Testing sign changes: f' changes from positive to negative at x = -3 (local max) and from negative to positive at x = 5 (local min). Students who pick A forget that even multiplicity zeros don't cause sign changes. Students who pick B confuse local max with local min. Students who pick D incorrectly classify x = -3 as a local minimum."
+    "explanation": "Critical points are x = -3, 1, and 5. At x = 1, the factor (x-1)^2 does not change sign, so there is no local extremum. Testing sign changes: f' changes from positive to negative at x = -3 (local max) and from negative to positive at x = 5 (local min). Students who pick A forget that even multiplicity zeros don't cause sign changes. Students who pick B confuse local max with local min. Students who pick D incorrectly classify x = -3 as a local minimum.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q145",
@@ -6487,7 +6821,8 @@ var APCALC_MCQ = [
       "The second derivative test is inconclusive at all three critical points"
     ],
     "answer": 0,
-    "explanation": "f'(x) = 4x^3 - 16x = 4x(x^2 - 4), so critical points are x = 0, 2, -2. f''(x) = 12x^2 - 16. f''(0) = -16 < 0, so local max at x = 0. f''(2) = 48 - 16 = 32 > 0, so local min at x = 2. f''(-2) = 48 - 16 = 32 > 0, so local min at x = -2. Students who choose B may incorrectly think x = 0 gives f''(0) = 0. Students who choose C confuse the sign conditions of the second derivative test."
+    "explanation": "f'(x) = 4x^3 - 16x = 4x(x^2 - 4), so critical points are x = 0, 2, -2. f''(x) = 12x^2 - 16. f''(0) = -16 < 0, so local max at x = 0. f''(2) = 48 - 16 = 32 > 0, so local min at x = 2. f''(-2) = 48 - 16 = 32 > 0, so local min at x = -2. Students who choose B may incorrectly think x = 0 gives f''(0) = 0. Students who choose C confuse the sign conditions of the second derivative test.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q146",
@@ -6507,7 +6842,8 @@ var APCALC_MCQ = [
       "(-infinity, 0) only"
     ],
     "answer": 0,
-    "explanation": "Since e^x > 0 for all x and x^2 >= 0 for all x, the sign of f''(x) depends on x^2 and (x - 2). When x < 0, x^2 > 0 and (x - 2) < 0, so f'' < 0 (concave down). When 0 < x < 2, x^2 > 0 and (x - 2) < 0, so f'' < 0 (concave down). When x > 2, f'' > 0. At x = 0, f'' = 0 but does not change sign (from negative to negative). So f is concave down on (-infinity, 0) union (0, 2). Students who choose B forget the interval to the left of 0. Students who choose C ignore that f''(0) = 0 but the function is concave down on both sides, which actually supports C being tempting, but the answer is A because at x = 0 f'' = 0 exactly; however concave down means f'' < 0, so x = 0 is excluded from both intervals."
+    "explanation": "Since e^x > 0 for all x and x^2 >= 0 for all x, the sign of f''(x) depends on x^2 and (x - 2). When x < 0, x^2 > 0 and (x - 2) < 0, so f'' < 0 (concave down). When 0 < x < 2, x^2 > 0 and (x - 2) < 0, so f'' < 0 (concave down). When x > 2, f'' > 0. At x = 0, f'' = 0 but does not change sign (from negative to negative). So f is concave down on (-infinity, 0) union (0, 2). Students who choose B forget the interval to the left of 0. Students who choose C ignore that f''(0) = 0 but the function is concave down on both sides, which actually supports C being tempting, but the answer is A because at x = 0 f'' = 0 exactly; however concave down means f'' < 0, so x = 0 is excluded from both intervals.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q147",
@@ -6527,7 +6863,8 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 1,
-    "explanation": "g''(x) = (x-1)(x+1)(x-3)(x+3). Setting g''(x) = 0 gives x = -3, -1, 1, 3. We must check for sign changes. For x < -3: all four factors have signs (-)(-)(-)(-) = +. For -3 < x < -1: (-)(-)(-)(+) = -. Sign change at x = -3. For -1 < x < 1: (-)(-)(+)(+) = - wait, let me recheck: (-)(+)(-)(+) = +. Sign change at x = -1. For 1 < x < 3: (+)(+)(-)(+) = -. Sign change at x = 1. For x > 3: (+)(+)(+)(+) = +. Sign change at x = 3. All four values produce sign changes, so there are 4 inflection points. The answer is B. Students who choose A may only consider x = 1 and x = -1. Students who choose C may miss one sign change."
+    "explanation": "g''(x) = (x-1)(x+1)(x-3)(x+3). Setting g''(x) = 0 gives x = -3, -1, 1, 3. We must check for sign changes. For x < -3: all four factors have signs (-)(-)(-)(-) = +. For -3 < x < -1: (-)(-)(-)(+) = -. Sign change at x = -3. For -1 < x < 1: (-)(-)(+)(+) = - wait, let me recheck: (-)(+)(-)(+) = +. Sign change at x = -1. For 1 < x < 3: (+)(+)(-)(+) = -. Sign change at x = 1. For x > 3: (+)(+)(+)(+) = +. Sign change at x = 3. All four values produce sign changes, so there are 4 inflection points. The answer is B. Students who choose A may only consider x = 1 and x = -1. Students who choose C may miss one sign change.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q148",
@@ -6547,7 +6884,8 @@ var APCALC_MCQ = [
       "32 square inches"
     ],
     "answer": 0,
-    "explanation": "Let x = side of square base and h = height. Volume: x^2 * h = 32, so h = 32/x^2. Surface area (no top) = x^2 + 4xh = x^2 + 4x(32/x^2) = x^2 + 128/x. Taking dS/dx = 2x - 128/x^2 = 0 gives x^3 = 64, so x = 4 and h = 2. S = 16 + 128/4 = 16 + 32 = 48. Students who choose B (64) may incorrectly include a top. Students who choose C may make an algebraic error doubling the answer. Students who choose D may confuse volume with surface area."
+    "explanation": "Let x = side of square base and h = height. Volume: x^2 * h = 32, so h = 32/x^2. Surface area (no top) = x^2 + 4xh = x^2 + 4x(32/x^2) = x^2 + 128/x. Taking dS/dx = 2x - 128/x^2 = 0 gives x^3 = 64, so x = 4 and h = 2. S = 16 + 128/4 = 16 + 32 = 48. Students who choose B (64) may incorrectly include a top. Students who choose C may make an algebraic error doubling the answer. Students who choose D may confuse volume with surface area.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q149",
@@ -6567,7 +6905,8 @@ var APCALC_MCQ = [
       "f has a local min at x = 0 and a local max at x = 4"
     ],
     "answer": 2,
-    "explanation": "Since f' has x-intercepts at 0 and 4 with vertex at (2, -3), f' is negative on (0, 4) and positive outside this interval. This means f is increasing on (-infinity, 0), decreasing on (0, 4), and increasing on (4, infinity). So f has a local max at x = 0 and a local min at x = 4 — wait, that matches A. But let's also check: f' has a minimum at x = 2, meaning f'' changes sign at x = 2 (f'' = 0 at vertex of f'), so x = 2 is an inflection point of f. Both A and C have partially correct information. C says f is decreasing on (0,4) with inflection at x = 2 — both true. A says local max at 0 and local min at 4 — also true. But C is the most complete correct single statement since f does decrease on (0,4) and has an inflection point at x = 2. Actually A is also fully correct. Let me reconsider: the question asks which describes the graph. A is correct about extrema. B says inflection at 2 AND extrema at 0 and 4 — this is also correct. So B is actually the most complete answer. Answer is B."
+    "explanation": "Since f' has x-intercepts at 0 and 4 with vertex at (2, -3), f' is negative on (0, 4) and positive outside this interval. This means f is increasing on (-infinity, 0), decreasing on (0, 4), and increasing on (4, infinity). So f has a local max at x = 0 and a local min at x = 4 — wait, that matches A. But let's also check: f' has a minimum at x = 2, meaning f'' changes sign at x = 2 (f'' = 0 at vertex of f'), so x = 2 is an inflection point of f. Both A and C have partially correct information. C says f is decreasing on (0,4) with inflection at x = 2 — both true. A says local max at 0 and local min at 4 — also true. But C is the most complete correct single statement since f does decrease on (0,4) and has an inflection point at x = 2. Actually A is also fully correct. Let me reconsider: the question asks which describes the graph. A is correct about extrema. B says inflection at 2 AND extrema at 0 and 4 — this is also correct. So B is actually the most complete answer. Answer is B.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q150",
@@ -6587,7 +6926,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 2,
-    "explanation": "First, x^2 - 4x + 3 = (x-1)(x-3), which is zero at x = 1 and x = 3. On (0,1) and (3,5) the expression is positive, so f(x) = x^2 - 4x + 3 with f'(x) = 2x - 4. On (1,3) it is negative, so f(x) = -(x^2 - 4x + 3) with f'(x) = -2x + 4. Critical points occur where f'(x) = 0 or f'(x) doesn't exist. f'(x) = 0: from 2x-4 = 0, x = 2 (but x=2 is in (1,3) where f'(x) = -2x+4 = 0 at x = 2). From the other pieces, 2x - 4 = 0 gives x = 2, not in their domains. So f'(x) = 0 at x = 2. f' is undefined at x = 1 and x = 3 (corners of absolute value). Total: 3 critical points at x = 1, 2, 3. Students who choose B forget the corners. Students who choose A only find x = 2."
+    "explanation": "First, x^2 - 4x + 3 = (x-1)(x-3), which is zero at x = 1 and x = 3. On (0,1) and (3,5) the expression is positive, so f(x) = x^2 - 4x + 3 with f'(x) = 2x - 4. On (1,3) it is negative, so f(x) = -(x^2 - 4x + 3) with f'(x) = -2x + 4. Critical points occur where f'(x) = 0 or f'(x) doesn't exist. f'(x) = 0: from 2x-4 = 0, x = 2 (but x=2 is in (1,3) where f'(x) = -2x+4 = 0 at x = 2). From the other pieces, 2x - 4 = 0 gives x = 2, not in their domains. So f'(x) = 0 at x = 2. f' is undefined at x = 1 and x = 3 (corners of absolute value). Total: 3 critical points at x = 1, 2, 3. Students who choose B forget the corners. Students who choose A only find x = 2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q151",
@@ -6607,7 +6947,8 @@ var APCALC_MCQ = [
       "t = 3"
     ],
     "answer": 1,
-    "explanation": "Velocity is v(t) = x'(t) = 3t^2 - 12t + 9. To maximize velocity, take v'(t) = 6t - 12 = 0, giving t = 2. But v''(t) = 6 > 0, so t = 2 is a minimum of velocity, not a maximum. On the closed interval [0, 4], we check endpoints: v(0) = 9, v(4) = 48 - 48 + 9 = 9, v(2) = 12 - 24 + 9 = -3. Wait: v(4) = 3(16) - 12(4) + 9 = 48 - 48 + 9 = 9 and v(0) = 9. Both endpoints give v = 9, which is the max since v(2) = -3 is the min. Actually let me recheck — for a harder question, the max should be clearer. v(0) = 9, v(4) = 9. These are equal. But checking the problem again, on [0,4], the velocity is a parabola opening upward with min at t=2. So the maximum occurs at both endpoints equally. However, since the parabola opens up, as t increases past 2, v increases. At t = 4, v = 9, and for t > 4, v continues increasing. So actually on [0,4] the maximum velocity is 9, achieved at t = 0 and t = 4. Among the choices, t = 4 is listed. Students who choose A find the critical point but don't realize it's a minimum of velocity. Students who choose D confuse position extrema with velocity extrema (x'(3) = 27 - 36 + 9 = 0, which is when particle stops)."
+    "explanation": "Velocity is v(t) = x'(t) = 3t^2 - 12t + 9. To maximize velocity, take v'(t) = 6t - 12 = 0, giving t = 2. But v''(t) = 6 > 0, so t = 2 is a minimum of velocity, not a maximum. On the closed interval [0, 4], we check endpoints: v(0) = 9, v(4) = 48 - 48 + 9 = 9, v(2) = 12 - 24 + 9 = -3. Wait: v(4) = 3(16) - 12(4) + 9 = 48 - 48 + 9 = 9 and v(0) = 9. Both endpoints give v = 9, which is the max since v(2) = -3 is the min. Actually let me recheck — for a harder question, the max should be clearer. v(0) = 9, v(4) = 9. These are equal. But checking the problem again, on [0,4], the velocity is a parabola opening upward with min at t=2. So the maximum occurs at both endpoints equally. However, since the parabola opens up, as t increases past 2, v increases. At t = 4, v = 9, and for t > 4, v continues increasing. So actually on [0,4] the maximum velocity is 9, achieved at t = 0 and t = 4. Among the choices, t = 4 is listed. Students who choose A find the critical point but don't realize it's a minimum of velocity. Students who choose D confuse position extrema with velocity extrema (x'(3) = 27 - 36 + 9 = 0, which is when particle stops).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q152",
@@ -6627,7 +6968,8 @@ var APCALC_MCQ = [
       "3x^3 + C"
     ],
     "answer": 2,
-    "explanation": "The antiderivative of 3x^2 is found using the power rule for integration: increase the exponent by 1 and divide by the new exponent, giving 3x^3/3 = x^3, plus the constant of integration C. Choice B (6x + A) is the derivative, not the antiderivative. Choice A omits the constant of integration. Choice D fails to divide by the new exponent."
+    "explanation": "The antiderivative of 3x^2 is found using the power rule for integration: increase the exponent by 1 and divide by the new exponent, giving 3x^3/3 = x^3, plus the constant of integration C. Choice B (6x + A) is the derivative, not the antiderivative. Choice A omits the constant of integration. Choice D fails to divide by the new exponent.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q153",
@@ -6647,7 +6989,8 @@ var APCALC_MCQ = [
       "sin(x)"
     ],
     "answer": 1,
-    "explanation": "By the Fundamental Theorem of Calculus Part 1, if g(x) = the integral from a to x of f(t) dt, then g'(x) = f(x). Therefore g'(x) = cos(x). Choice A evaluates the integral instead of differentiating. Choice C applies an incorrect sign. Choice D confuses the antiderivative of cos(x) with the result of FTC Part 1."
+    "explanation": "By the Fundamental Theorem of Calculus Part 1, if g(x) = the integral from a to x of f(t) dt, then g'(x) = f(x). Therefore g'(x) = cos(x). Choice A evaluates the integral instead of differentiating. Choice C applies an incorrect sign. Choice D confuses the antiderivative of cos(x) with the result of FTC Part 1.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q154",
@@ -6667,7 +7010,8 @@ var APCALC_MCQ = [
       "7"
     ],
     "answer": 2,
-    "explanation": "The integral of a constant c over [a, b] equals c(b - a). Here, 4(3 - 0) = 12. Choice A confuses the integrand value with the result. Choice B may result from thinking the integral of a constant is zero. Choice D incorrectly adds 4 + 3 = 7."
+    "explanation": "The integral of a constant c over [a, b] equals c(b - a). Here, 4(3 - 0) = 12. Choice A confuses the integrand value with the result. Choice B may result from thinking the integral of a constant is zero. Choice D incorrectly adds 4 + 3 = 7.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q155",
@@ -6687,7 +7031,8 @@ var APCALC_MCQ = [
       "(1/(b + a)) * the integral from a to b of f(x) dx"
     ],
     "answer": 2,
-    "explanation": "The average value formula is (1/(b - a)) times the integral from a to b of f(x) dx. Choice B gives the total integral without dividing by the interval length. Choice A gives the average of the endpoint values, which is only correct for linear functions. Choice D incorrectly uses (b + a) instead of (b - a) in the denominator."
+    "explanation": "The average value formula is (1/(b - a)) times the integral from a to b of f(x) dx. Choice B gives the total integral without dividing by the interval length. Choice A gives the average of the endpoint values, which is only correct for linear functions. Choice D incorrectly uses (b + a) instead of (b - a) in the denominator.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q156",
@@ -6707,7 +7052,8 @@ var APCALC_MCQ = [
       "x^3 - 4x^2 + 5 ln|x| + C"
     ],
     "answer": 2,
-    "explanation": "The antiderivative of 3x^2 is x^3, the antiderivative of -4x is -2x^2, and the antiderivative of 5/x is 5 ln|x|, plus C. Choice B incorrectly uses the power rule on 5/x as if integrating to 5/x^2. Choice A is the derivative, not the antiderivative. Choice D fails to divide -4 by 2 when antidifferentiating -4x."
+    "explanation": "The antiderivative of 3x^2 is x^3, the antiderivative of -4x is -2x^2, and the antiderivative of 5/x is 5 ln|x|, plus C. Choice B incorrectly uses the power rule on 5/x as if integrating to 5/x^2. Choice A is the derivative, not the antiderivative. Choice D fails to divide -4 by 2 when antidifferentiating -4x.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q157",
@@ -6727,7 +7073,8 @@ var APCALC_MCQ = [
       "e^(2x) + sin(x) + C"
     ],
     "answer": 2,
-    "explanation": "The integral of e^(2x) is (1/2)e^(2x) by the chain rule in reverse, and the integral of cos(x) is sin(x). Choice B multiplies by 2 instead of dividing. Choice A has the wrong sign on sin(x). Choice D forgets the 1/2 factor from the chain rule."
+    "explanation": "The integral of e^(2x) is (1/2)e^(2x) by the chain rule in reverse, and the integral of cos(x) is sin(x). Choice B multiplies by 2 instead of dividing. Choice A has the wrong sign on sin(x). Choice D forgets the 1/2 factor from the chain rule.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q158",
@@ -6747,7 +7094,8 @@ var APCALC_MCQ = [
       "42"
     ],
     "answer": 2,
-    "explanation": "With 4 subintervals on [0,8], each has width 2. The left endpoints are x=0,2,4,6 with f-values 2,5,4,7. The sum is 2(2+5+4+7) = 2(18) = 36. Choice B uses the right endpoints (5+4+7+3)·2 = 38. Choice A uses width 1 instead of 2. Choice D incorrectly sums all five values and multiplies by 2."
+    "explanation": "With 4 subintervals on [0,8], each has width 2. The left endpoints are x=0,2,4,6 with f-values 2,5,4,7. The sum is 2(2+5+4+7) = 2(18) = 36. Choice B uses the right endpoints (5+4+7+3)·2 = 38. Choice A uses width 1 instead of 2. Choice D incorrectly sums all five values and multiplies by 2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q159",
@@ -6767,7 +7115,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 3,
-    "explanation": "The antiderivative of 3x^2 - 2x is x^3 - x^2. Evaluating from 0 to 2: (8 - 4) - (0 - 0) = 4. Choice B finds x^3 at x=2 only (8) without subtracting x^2. Choice C may result from arithmetic errors. Choice A might come from forgetting to subtract the x^2 term properly."
+    "explanation": "The antiderivative of 3x^2 - 2x is x^3 - x^2. Evaluating from 0 to 2: (8 - 4) - (0 - 0) = 4. Choice B finds x^3 at x=2 only (8) without subtracting x^2. Choice C may result from arithmetic errors. Choice A might come from forgetting to subtract the x^2 term properly.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q160",
@@ -6787,7 +7136,8 @@ var APCALC_MCQ = [
       "40"
     ],
     "answer": 3,
-    "explanation": "By FTC Part 1, g'(x) = x^2 + 3x. So g'(5) = 25 + 15 = 40. Choice B only computes 5^2 = 25 and forgets the 3t term. Choice C may come from evaluating at the wrong value. Choice A incorrectly evaluates the full integral from 2 to 5 instead of just the derivative."
+    "explanation": "By FTC Part 1, g'(x) = x^2 + 3x. So g'(5) = 25 + 15 = 40. Choice B only computes 5^2 = 25 and forgets the 3t term. Choice C may come from evaluating at the wrong value. Choice A incorrectly evaluates the full integral from 2 to 5 instead of just the derivative.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q161",
@@ -6807,7 +7157,8 @@ var APCALC_MCQ = [
       "3x^2 sin(x^3)"
     ],
     "answer": 3,
-    "explanation": "By FTC Part 1 combined with the chain rule, h'(x) = sin(x^3) · d/dx(x^3) = 3x^2 sin(x^3). Choice B forgets to multiply by the chain rule factor 3x^2. Choice C incorrectly takes the derivative of sin to get cos instead of applying FTC. Choice A evaluates the integral directly using -cos(t)."
+    "explanation": "By FTC Part 1 combined with the chain rule, h'(x) = sin(x^3) · d/dx(x^3) = 3x^2 sin(x^3). Choice B forgets to multiply by the chain rule factor 3x^2. Choice C incorrectly takes the derivative of sin to get cos instead of applying FTC. Choice A evaluates the integral directly using -cos(t).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q162",
@@ -6827,7 +7178,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 3,
-    "explanation": "By FTC Part 2, F(2) = F(0) + ∫ from 0 to 2 of (x^3 - 1) dx. The antiderivative of x^3 - 1 is x^4/4 - x. Evaluating from 0 to 2: (16/4 - 2) - 0 = 4 - 2 = 2. So F(2) = 2 + 2 = 4. Choice B forgets to add F(0). Choice C adds incorrectly. Choice A may result from sign errors."
+    "explanation": "By FTC Part 2, F(2) = F(0) + ∫ from 0 to 2 of (x^3 - 1) dx. The antiderivative of x^3 - 1 is x^4/4 - x. Evaluating from 0 to 2: (16/4 - 2) - 0 = 4 - 2 = 2. So F(2) = 2 + 2 = 4. Choice B forgets to add F(0). Choice C adds incorrectly. Choice A may result from sign errors.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q163",
@@ -6847,7 +7199,8 @@ var APCALC_MCQ = [
       "27"
     ],
     "answer": 1,
-    "explanation": "The average value is (1/(3-0)) ∫ from 0 to 3 of 6x^2 dx = (1/3)[2x^3] from 0 to 3 = (1/3)(54) = 18. Choice A is the value of the integral without dividing by the interval length. Choice C divides 54 by 9 instead of 3. Choice D divides 54 by 2 instead of 3."
+    "explanation": "The average value is (1/(3-0)) ∫ from 0 to 3 of 6x^2 dx = (1/3)[2x^3] from 0 to 3 = (1/3)(54) = 18. Choice A is the value of the integral without dividing by the interval length. Choice C divides 54 by 9 instead of 3. Choice D divides 54 by 2 instead of 3.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q164",
@@ -6867,7 +7220,8 @@ var APCALC_MCQ = [
       "-4/3"
     ],
     "answer": 1,
-    "explanation": "Net displacement = ∫ from 0 to 4 of (t^2 - 4t + 3) dt. The antiderivative is t^3/3 - 2t^2 + 3t. Evaluating from 0 to 4: (64/3 - 32 + 12) - 0 = 64/3 - 20 = 64/3 - 60/3 = 4/3. Choice A assumes the positive and negative parts cancel. Choice C may come from taking the absolute value of velocity. Choice D has a sign error."
+    "explanation": "Net displacement = ∫ from 0 to 4 of (t^2 - 4t + 3) dt. The antiderivative is t^3/3 - 2t^2 + 3t. Evaluating from 0 to 4: (64/3 - 32 + 12) - 0 = 64/3 - 20 = 64/3 - 60/3 = 4/3. Choice A assumes the positive and negative parts cancel. Choice C may come from taking the absolute value of velocity. Choice D has a sign error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q165",
@@ -6887,7 +7241,8 @@ var APCALC_MCQ = [
       "x^4 + 3x^2 - 1"
     ],
     "answer": 0,
-    "explanation": "Integrating: y = x^4 + 3x^2 + C. Using y(1) = 5: 1 + 3 + C = 5, so C = 1. Thus y = x^4 + 3x^2 + 1. Choice B incorrectly sets C = 5 without substituting. Choice C is the derivative of the antiderivative. Choice D uses C = -1 from an arithmetic error."
+    "explanation": "Integrating: y = x^4 + 3x^2 + C. Using y(1) = 5: 1 + 3 + C = 5, so C = 1. Thus y = x^4 + 3x^2 + 1. Choice B incorrectly sets C = 5 without substituting. Choice C is the derivative of the antiderivative. Choice D uses C = -1 from an arithmetic error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q166",
@@ -6907,7 +7262,8 @@ var APCALC_MCQ = [
       "(1/2)e^(x^2) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = x^2, then du = 2x dx. The integral becomes ∫ e^u du = e^u + C = e^(x^2) + C. Choice B incorrectly treats this as a product. Choice C introduces an extra factor of 2. Choice D incorrectly divides by 2, confusing this with an integral that needs a correction factor."
+    "explanation": "Let u = x^2, then du = 2x dx. The integral becomes ∫ e^u du = e^u + C = e^(x^2) + C. Choice B incorrectly treats this as a product. Choice C introduces an extra factor of 2. Choice D incorrectly divides by 2, confusing this with an integral that needs a correction factor.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q167",
@@ -6927,7 +7283,8 @@ var APCALC_MCQ = [
       "7"
     ],
     "answer": 0,
-    "explanation": "By the additive property of integrals, ∫ from 0 to 5 = ∫ from 0 to 3 + ∫ from 3 to 5. So ∫ from 3 to 5 = 12 - 7 = 5. Choice B adds instead of subtracting. Choice C reverses the subtraction. Choice D simply repeats one of the given values."
+    "explanation": "By the additive property of integrals, ∫ from 0 to 5 = ∫ from 0 to 3 + ∫ from 3 to 5. So ∫ from 3 to 5 = 12 - 7 = 5. Choice B adds instead of subtracting. Choice C reverses the subtraction. Choice D simply repeats one of the given values.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q168",
@@ -6947,7 +7304,8 @@ var APCALC_MCQ = [
       "34"
     ],
     "answer": 0,
-    "explanation": "Total water added = ∫ from 0 to 4 of (3t + 2) dt = [3t^2/2 + 2t] from 0 to 4 = (24 + 8) - 0 = 32. Total in tank = 10 + 32 = 42. Choice B forgets to add the initial 10 gallons. Choice C only evaluates R(4) = 14 instead of integrating. Choice D comes from an integration error."
+    "explanation": "Total water added = ∫ from 0 to 4 of (3t + 2) dt = [3t^2/2 + 2t] from 0 to 4 = (24 + 8) - 0 = 32. Total in tank = 10 + 32 = 42. Choice B forgets to add the initial 10 gallons. Choice C only evaluates R(4) = 14 instead of integrating. Choice D comes from an integration error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q169",
@@ -6967,7 +7325,8 @@ var APCALC_MCQ = [
       "11"
     ],
     "answer": 0,
-    "explanation": "Average value = (1/(5-1)) ∫ from 1 to 5 of (4x + 1) dx = (1/4)[2x^2 + x] from 1 to 5 = (1/4)[(50+5)-(2+1)] = (1/4)(52) = 13. Choice B is the integral without dividing by 4. Choice C is f(5) = 21, evaluating at an endpoint instead of averaging. Choice D represents an incorrect calculation."
+    "explanation": "Average value = (1/(5-1)) ∫ from 1 to 5 of (4x + 1) dx = (1/4)[2x^2 + x] from 1 to 5 = (1/4)[(50+5)-(2+1)] = (1/4)(52) = 13. Choice B is the integral without dividing by 4. Choice C is f(5) = 21, evaluating at an endpoint instead of averaging. Choice D represents an incorrect calculation.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q171",
@@ -6987,7 +7346,8 @@ var APCALC_MCQ = [
       "($x^2$ + 1)⁵ / 10 + C"
     ],
     "answer": 2,
-    "explanation": "Let u = $x^2$ + 1, so du = 2x dx. The integral becomes ∫ $u^4$ du = $u^5$/5 + C = ($x^2$ + 1)⁵/5 + C. Choice B forgets to divide by 5. Choice A incorrectly keeps the 2x factor outside the antiderivative. Choice D incorrectly divides by 10 as if an extra factor of 2 needed to be removed."
+    "explanation": "Let u = $x^2$ + 1, so du = 2x dx. The integral becomes ∫ $u^4$ du = $u^5$/5 + C = ($x^2$ + 1)⁵/5 + C. Choice B forgets to divide by 5. Choice A incorrectly keeps the 2x factor outside the antiderivative. Choice D incorrectly divides by 10 as if an extra factor of 2 needed to be removed.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q172",
@@ -7007,7 +7367,8 @@ var APCALC_MCQ = [
       "-sin(3x) / 3 + C"
     ],
     "answer": 1,
-    "explanation": "Let u = 3x, du = 3 dx, so dx = du/3. The integral becomes (1/3)∫ cos(u) du = sin(u)/3 + C = sin(3x)/3 + C. Choice A forgets the 1/3 factor from the chain rule. Choice C multiplies by 3 instead of dividing. Choice D has an incorrect negative sign."
+    "explanation": "Let u = 3x, du = 3 dx, so dx = du/3. The integral becomes (1/3)∫ cos(u) du = sin(u)/3 + C = sin(3x)/3 + C. Choice A forgets the 1/3 factor from the chain rule. Choice C multiplies by 3 instead of dividing. Choice D has an incorrect negative sign.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q173",
@@ -7027,7 +7388,8 @@ var APCALC_MCQ = [
       "7/3"
     ],
     "answer": 2,
-    "explanation": "Let u = $x^3$ + 1, du = 3$x^2$ dx, so 6$x^2$ dx = 2 du. When x = 0, u = 1; when x = 1, u = 2. The integral becomes 2∫₁² $u^2$ du = 2[$u^3$/3]₁² = 2(8/3 - 1/3) = 2(7/3) = 14/3. Choice B forgets to divide by 3 in the antiderivative. Choice A results from not changing limits correctly. Choice D forgets the factor of 2 from the substitution."
+    "explanation": "Let u = $x^3$ + 1, du = 3$x^2$ dx, so 6$x^2$ dx = 2 du. When x = 0, u = 1; when x = 1, u = 2. The integral becomes 2∫₁² $u^2$ du = 2[$u^3$/3]₁² = 2(8/3 - 1/3) = 2(7/3) = 14/3. Choice B forgets to divide by 3 in the antiderivative. Choice A results from not changing limits correctly. Choice D forgets the factor of 2 from the substitution.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q174",
@@ -7047,7 +7409,8 @@ var APCALC_MCQ = [
       "($e^4$ + 1) / 2"
     ],
     "answer": 2,
-    "explanation": "Let u = $x^2$, du = 2x dx, so x dx = du/2. When x = 0, u = 0; when x = 2, u = 4. The integral becomes (1/2)∫₀⁴ eᵘ du = (1/2)[eᵘ]₀⁴ = (1/2)($e^4$ - 1). Choice B forgets the 1/2 factor. Choice A forgets to subtract the lower limit evaluation $e^0$ = 1. Choice D adds 1 instead of subtracting."
+    "explanation": "Let u = $x^2$, du = 2x dx, so x dx = du/2. When x = 0, u = 0; when x = 2, u = 4. The integral becomes (1/2)∫₀⁴ eᵘ du = (1/2)[eᵘ]₀⁴ = (1/2)($e^4$ - 1). Choice B forgets the 1/2 factor. Choice A forgets to subtract the lower limit evaluation $e^0$ = 1. Choice D adds 1 instead of subtracting.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q175",
@@ -7067,7 +7430,8 @@ var APCALC_MCQ = [
       "-cot(x) + C"
     ],
     "answer": 2,
-    "explanation": "The antiderivative of se$c^2$(x) is tan(x) + C, which is a standard result since d/dx[tan(x)] = se$c^2$(x). Choice B is the derivative of sec(x), not the antiderivative of se$c^2$(x). Choice A is not a standard antiderivative form. Choice D is the antiderivative of cs$c^2$(x), not se$c^2$(x)."
+    "explanation": "The antiderivative of se$c^2$(x) is tan(x) + C, which is a standard result since d/dx[tan(x)] = se$c^2$(x). Choice B is the derivative of sec(x), not the antiderivative of se$c^2$(x). Choice A is not a standard antiderivative form. Choice D is the antiderivative of cs$c^2$(x), not se$c^2$(x).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q176",
@@ -7087,7 +7451,8 @@ var APCALC_MCQ = [
       "ln|$x^2$ + 3| + C"
     ],
     "answer": 2,
-    "explanation": "Divide each term by x: ($x^2$ + 3)/x = x + 3/x. Then ∫(x + 3/x) dx = $x^2$/2 + 3 ln|x| + C. Choice B integrates 3/x as 3x instead of 3 ln|x|. Choice A integrates x as x instead of $x^2$/2. Choice D incorrectly treats the integral as a logarithmic form without splitting the fraction."
+    "explanation": "Divide each term by x: ($x^2$ + 3)/x = x + 3/x. Then ∫(x + 3/x) dx = $x^2$/2 + 3 ln|x| + C. Choice B integrates 3/x as 3x instead of 3 ln|x|. Choice A integrates x as x instead of $x^2$/2. Choice D incorrectly treats the integral as a logarithmic form without splitting the fraction.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q177",
@@ -7107,7 +7472,8 @@ var APCALC_MCQ = [
       "$x^2$/2 - ln|x| + C"
     ],
     "answer": 1,
-    "explanation": "Divide each term by $x^2$: ($x^3$ + x)/$x^2$ = x + 1/x. Then ∫(x + 1/x) dx = $x^2$/2 + ln|x| + C. Choice A integrates 1/x as x. Choice C integrates x as $x^3$/3 (power rule error) and 1/x as x. Choice D has a negative sign on ln|x| which is incorrect."
+    "explanation": "Divide each term by $x^2$: ($x^3$ + x)/$x^2$ = x + 1/x. Then ∫(x + 1/x) dx = $x^2$/2 + ln|x| + C. Choice A integrates 1/x as x. Choice C integrates x as $x^3$/3 (power rule error) and 1/x as x. Choice D has a negative sign on ln|x| which is incorrect.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q178",
@@ -7127,7 +7493,8 @@ var APCALC_MCQ = [
       "arctan(x) / 2 + C"
     ],
     "answer": 2,
-    "explanation": "Using the formula ∫ 1/($x^2$ + $a^2$) dx = (1/a) arctan(x/a) + C with a = 2, we get (1/2) arctan(x/2) + C. Choice B forgets the 1/a factor out front. Choice A incorrectly uses 1/$a^2$ = 1/4 instead of 1/a = 1/2. Choice D places the 1/2 outside arctan(x) without adjusting the argument."
+    "explanation": "Using the formula ∫ 1/($x^2$ + $a^2$) dx = (1/a) arctan(x/a) + C with a = 2, we get (1/2) arctan(x/2) + C. Choice B forgets the 1/a factor out front. Choice A incorrectly uses 1/$a^2$ = 1/4 instead of 1/a = 1/2. Choice D places the 1/2 outside arctan(x) without adjusting the argument.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q179",
@@ -7147,7 +7514,8 @@ var APCALC_MCQ = [
       "ln|$x^2$ + 6x + 13| + C"
     ],
     "answer": 2,
-    "explanation": "Complete the square: $x^2$ + 6x + 13 = (x + 3)² + 4. Using the formula ∫ 1/((x + 3)² + 4) dx with a = 2, we get (1/2) arctan((x + 3)/2) + C. Choice B forgets the 1/a = 1/2 factor. Choice A incorrectly shifts by 6 instead of 3 when completing the square. Choice D applies a logarithmic form which requires a matching numerator of 2x + 6."
+    "explanation": "Complete the square: $x^2$ + 6x + 13 = (x + 3)² + 4. Using the formula ∫ 1/((x + 3)² + 4) dx with a = 2, we get (1/2) arctan((x + 3)/2) + C. Choice B forgets the 1/a = 1/2 factor. Choice A incorrectly shifts by 6 instead of 3 when completing the square. Choice D applies a logarithmic form which requires a matching numerator of 2x + 6.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q180",
@@ -7167,7 +7535,8 @@ var APCALC_MCQ = [
       "10 ln|2x + 7| + C"
     ],
     "answer": 2,
-    "explanation": "Let u = 2x + 7, du = 2 dx, so dx = du/2. The integral becomes (5/2) ∫ 1/u du = (5/2) ln|u| + C = (5/2) ln|2x + 7| + C. Choice B forgets the 1/2 factor from the substitution. Choice A uses a power rule instead of a logarithm. Choice D multiplies by 2 instead of dividing."
+    "explanation": "Let u = 2x + 7, du = 2 dx, so dx = du/2. The integral becomes (5/2) ∫ 1/u du = (5/2) ln|u| + C = (5/2) ln|2x + 7| + C. Choice B forgets the 1/2 factor from the substitution. Choice A uses a power rule instead of a logarithm. Choice D multiplies by 2 instead of dividing.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q181",
@@ -7187,7 +7556,8 @@ var APCALC_MCQ = [
       "(1/3)sin($x^3$) + C"
     ],
     "answer": 2,
-    "explanation": "Let u = $x^3$, then du = 3$x^2$ dx. The integral becomes ∫ cos(u) du = sin(u) + C = sin($x^3$) + C. Choice B has wrong sign. Choice A incorrectly multiplies by 3 instead of recognizing 3$x^2$ dx = du exactly. Choice D incorrectly divides by 3."
+    "explanation": "Let u = $x^3$, then du = 3$x^2$ dx. The integral becomes ∫ cos(u) du = sin(u) + C = sin($x^3$) + C. Choice B has wrong sign. Choice A incorrectly multiplies by 3 instead of recognizing 3$x^2$ dx = du exactly. Choice D incorrectly divides by 3.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q182",
@@ -7207,7 +7577,8 @@ var APCALC_MCQ = [
       "(1/2)($e^4$ + 1)"
     ],
     "answer": 2,
-    "explanation": "Let u = $x^2$, du = 2x dx, so x dx = du/2. When x=0, u=0; when x=2, u=4. Integral becomes (1/2)∫₀⁴ eᵘ du = (1/2)($e^4$ - $e^0$) = (1/2)($e^4$ - 1). Choice B forgets the 1/2 factor. Choice A forgets to subtract the lower bound evaluation. Choice D adds 1 instead of subtracting."
+    "explanation": "Let u = $x^2$, du = 2x dx, so x dx = du/2. When x=0, u=0; when x=2, u=4. Integral becomes (1/2)∫₀⁴ eᵘ du = (1/2)($e^4$ - $e^0$) = (1/2)($e^4$ - 1). Choice B forgets the 1/2 factor. Choice A forgets to subtract the lower bound evaluation. Choice D adds 1 instead of subtracting.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q183",
@@ -7227,7 +7598,8 @@ var APCALC_MCQ = [
       "si$n^3$(x)/3 + C"
     ],
     "answer": 2,
-    "explanation": "Use the power-reducing identity si$n^2$(x) = (1 - cos(2x))/2. Then ∫(1/2 - cos(2x)/2) dx = x/2 - sin(2x)/4 + C. Choice B has the wrong sign on the sin(2x) term. Choice A is not equivalent (differentiating gives sin(x)cos(x), not si$n^2$(x)). Choice D incorrectly uses a power rule for trig."
+    "explanation": "Use the power-reducing identity si$n^2$(x) = (1 - cos(2x))/2. Then ∫(1/2 - cos(2x)/2) dx = x/2 - sin(2x)/4 + C. Choice B has the wrong sign on the sin(2x) term. Choice A is not equivalent (differentiating gives sin(x)cos(x), not si$n^2$(x)). Choice D incorrectly uses a power rule for trig.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q184",
@@ -7247,7 +7619,8 @@ var APCALC_MCQ = [
       "$x^2$/2 - x + 2ln|x+1| + C"
     ],
     "answer": 3,
-    "explanation": "Perform long division: ($x^2$ + 1)/(x + 1) = x - 1 + 2/(x + 1). Integrating: $x^2$/2 - x + 2ln|x+1| + C. Choice B has wrong signs from incorrect division. Choice C has coefficient 1 instead of 2 on the ln term. Choice A forgets the 1/2 on $x^2$."
+    "explanation": "Perform long division: ($x^2$ + 1)/(x + 1) = x - 1 + 2/(x + 1). Integrating: $x^2$/2 - x + 2ln|x+1| + C. Choice B has wrong signs from incorrect division. Choice C has coefficient 1 instead of 2 on the ln term. Choice A forgets the 1/2 on $x^2$.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q185",
@@ -7267,7 +7640,8 @@ var APCALC_MCQ = [
       "(1/2)arctan((x+2)/2) + C"
     ],
     "answer": 3,
-    "explanation": "Complete the square: $x^2$ + 4x + 8 = (x+2)² + 4. Then ∫1/((x+2)² + 4) dx. Using the formula ∫1/($u^2$ + $a^2$) du = (1/a)arctan(u/a) + C with u = x+2, a = 2: result is (1/2)arctan((x+2)/2) + C. Choice B forgets the 1/a factor. Choice C incorrectly completes the square. Choice A confuses this with the ln form used for ∫(2x+4)/($x^2$+4x+8) dx."
+    "explanation": "Complete the square: $x^2$ + 4x + 8 = (x+2)² + 4. Then ∫1/((x+2)² + 4) dx. Using the formula ∫1/($u^2$ + $a^2$) du = (1/a)arctan(u/a) + C with u = x+2, a = 2: result is (1/2)arctan((x+2)/2) + C. Choice B forgets the 1/a factor. Choice C incorrectly completes the square. Choice A confuses this with the ln form used for ∫(2x+4)/($x^2$+4x+8) dx.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q186",
@@ -7287,7 +7661,8 @@ var APCALC_MCQ = [
       "-√(1 - $x^2$) + C"
     ],
     "answer": 3,
-    "explanation": "Let u = 1 - $x^2$, du = -2x dx, so x dx = -du/2. Integral becomes -(1/2)∫ u^(-1/2) du = -(1/2)(2u^(1/2)) + C = -√(1 - $x^2$) + C. Choice B has the wrong sign. Choice C is ∫1/√(1-$x^2$) dx, confusing the numerator x with 1. Choice A combines both errors."
+    "explanation": "Let u = 1 - $x^2$, du = -2x dx, so x dx = -du/2. Integral becomes -(1/2)∫ u^(-1/2) du = -(1/2)(2u^(1/2)) + C = -√(1 - $x^2$) + C. Choice B has the wrong sign. Choice C is ∫1/√(1-$x^2$) dx, confusing the numerator x with 1. Choice A combines both errors.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q187",
@@ -7307,7 +7682,8 @@ var APCALC_MCQ = [
       "1/2"
     ],
     "answer": 3,
-    "explanation": "Let u = tan(x), du = se$c^2$(x) dx. When x=0, u=0; when x=π/4, u=1. Integral becomes ∫₀¹ u du = $u^2$/2 |₀¹ = 1/2. Choice B forgets the 1/2 from integration of u. Choice C likely comes from evaluating trig incorrectly. Choice A might arise from an extra factor of 1/2."
+    "explanation": "Let u = tan(x), du = se$c^2$(x) dx. When x=0, u=0; when x=π/4, u=1. Integral becomes ∫₀¹ u du = $u^2$/2 |₀¹ = 1/2. Choice B forgets the 1/2 from integration of u. Choice C likely comes from evaluating trig incorrectly. Choice A might arise from an extra factor of 1/2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q188",
@@ -7327,7 +7703,8 @@ var APCALC_MCQ = [
       "sin(x) - si$n^3$(x)/3 + C"
     ],
     "answer": 3,
-    "explanation": "Write co$s^3$(x) = co$s^2$(x)·cos(x) = (1 - si$n^2$(x))cos(x). Let u = sin(x), du = cos(x) dx. Integral becomes ∫(1 - $u^2$) du = u - $u^3$/3 + C = sin(x) - si$n^3$(x)/3 + C. Choice B incorrectly uses a power rule. Choice C is related to differentiation not integration. Choice A has the wrong sign on the cubic term."
+    "explanation": "Write co$s^3$(x) = co$s^2$(x)·cos(x) = (1 - si$n^2$(x))cos(x). Let u = sin(x), du = cos(x) dx. Integral becomes ∫(1 - $u^2$) du = u - $u^3$/3 + C = sin(x) - si$n^3$(x)/3 + C. Choice B incorrectly uses a power rule. Choice C is related to differentiation not integration. Choice A has the wrong sign on the cubic term.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q189",
@@ -7347,7 +7724,8 @@ var APCALC_MCQ = [
       "$x^2$ + (1/2)ln($x^2$ + 1) + C"
     ],
     "answer": 3,
-    "explanation": "Long division: (2$x^3$ + 3x)/($x^2$ + 1) = 2x + x/($x^2$ + 1). Then ∫[2x + x/($x^2$ + 1)] dx = $x^2$ + (1/2)ln($x^2$ + 1) + C. For the second part, let u = $x^2$ + 1, du = 2x dx. Choice B forgets the 1/2 factor. Choice C has wrong sign on the ln term. Choice A forgets to integrate 2x."
+    "explanation": "Long division: (2$x^3$ + 3x)/($x^2$ + 1) = 2x + x/($x^2$ + 1). Then ∫[2x + x/($x^2$ + 1)] dx = $x^2$ + (1/2)ln($x^2$ + 1) + C. For the second part, let u = $x^2$ + 1, du = 2x dx. Choice B forgets the 1/2 factor. Choice C has wrong sign on the ln term. Choice A forgets to integrate 2x.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q190",
@@ -7367,7 +7745,8 @@ var APCALC_MCQ = [
       "arcsin((x - 3)/3) + C"
     ],
     "answer": 3,
-    "explanation": "Complete the square: 6x - $x^2$ = -($x^2$ - 6x) = -($x^2$ - 6x + 9 - 9) = 9 - (x-3)². So ∫1/√(9 - (x-3)²) dx = arcsin((x-3)/3) + C using the formula ∫1/√($a^2$-$u^2$) du = arcsin(u/a). Choice B fails to complete the square. Choice C uses wrong center. Choice A uses 6 instead of 3 for the radius."
+    "explanation": "Complete the square: 6x - $x^2$ = -($x^2$ - 6x) = -($x^2$ - 6x + 9 - 9) = 9 - (x-3)². So ∫1/√(9 - (x-3)²) dx = arcsin((x-3)/3) + C using the formula ∫1/√($a^2$-$u^2$) du = arcsin(u/a). Choice B fails to complete the square. Choice C uses wrong center. Choice A uses 6 instead of 3 for the radius.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q191",
@@ -7387,7 +7766,8 @@ var APCALC_MCQ = [
       "(1/2)ln(1 + e^(2x)) + C"
     ],
     "answer": 3,
-    "explanation": "Let u = 1 + e^(2x), du = 2e^(2x) dx, so e^(2x) dx = du/2. Integral becomes (1/2)∫ du/u = (1/2)ln|u| + C = (1/2)ln(1 + e^(2x)) + C. Choice B forgets the 1/2 from the chain rule. Choices C and D confuse this with an arctangent form."
+    "explanation": "Let u = 1 + e^(2x), du = 2e^(2x) dx, so e^(2x) dx = du/2. Integral becomes (1/2)∫ du/u = (1/2)ln|u| + C = (1/2)ln(1 + e^(2x)) + C. Choice B forgets the 1/2 from the chain rule. Choices C and D confuse this with an arctangent form.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q192",
@@ -7407,7 +7787,8 @@ var APCALC_MCQ = [
       "1/3"
     ],
     "answer": 3,
-    "explanation": "Let u = ln x, du = (1/x) dx. When x=1, u=0; when x=e, u=1. Integral becomes ∫₀¹ $u^2$ du = $u^3$/3 |₀¹ = 1/3. Choice B evaluates the integral as u|₀¹. Choice C uses $u^2$/2 power rule error. Choice A might come from a computational mistake."
+    "explanation": "Let u = ln x, du = (1/x) dx. When x=1, u=0; when x=e, u=1. Integral becomes ∫₀¹ $u^2$ du = $u^3$/3 |₀¹ = 1/3. Choice B evaluates the integral as u|₀¹. Choice C uses $u^2$/2 power rule error. Choice A might come from a computational mistake.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q193",
@@ -7427,7 +7808,8 @@ var APCALC_MCQ = [
       "$x^3$/3 + $x^2$/2 + x + C"
     ],
     "answer": 3,
-    "explanation": "Factor: ($x^3$ - 1)/(x - 1) = $x^2$ + x + 1 (sum of geometric series or polynomial division). Integrating: $x^3$/3 + $x^2$/2 + x + C. Choice B has wrong sign on the $x^2$ term. Choice C misses the $x^2$ term. Choice A incorrectly assumes there's a remainder term."
+    "explanation": "Factor: ($x^3$ - 1)/(x - 1) = $x^2$ + x + 1 (sum of geometric series or polynomial division). Integrating: $x^3$/3 + $x^2$/2 + x + C. Choice B has wrong sign on the $x^2$ term. Choice C misses the $x^2$ term. Choice A incorrectly assumes there's a remainder term.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q194",
@@ -7447,7 +7829,8 @@ var APCALC_MCQ = [
       "(1/2)arctan((x - 3)/2) + C"
     ],
     "answer": 3,
-    "explanation": "Complete the square: $x^2$ - 6x + 13 = (x - 3)² + 4. Then ∫1/((x-3)² + 4) dx. With u = x-3, a = 2: (1/a)arctan(u/a) = (1/2)arctan((x-3)/2) + C. Choice B forgets the 1/a factor. Choice C uses a = 4 instead of a = 2. Choice A uses 1/4 instead of 1/2."
+    "explanation": "Complete the square: $x^2$ - 6x + 13 = (x - 3)² + 4. Then ∫1/((x-3)² + 4) dx. With u = x-3, a = 2: (1/a)arctan(u/a) = (1/2)arctan((x-3)/2) + C. Choice B forgets the 1/a factor. Choice C uses a = 4 instead of a = 2. Choice A uses 1/4 instead of 1/2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q195",
@@ -7467,7 +7850,8 @@ var APCALC_MCQ = [
       "1/15"
     ],
     "answer": 1,
-    "explanation": "Let u = $x^3$ + 1, du = 3$x^2$ dx, so $x^2$ dx = du/3. When x=0, u=1; when x=1, u=2. Integral becomes (1/3)∫₁² $u^4$ du = (1/3)($u^5$/5)|₁² = (1/15)(32 - 1) = 31/15. Choice A uses 32 in the numerator, forgetting to subtract the lower bound correctly. Choice C forgets the factor of 1/3. Choice D only evaluates the lower bound subtraction incorrectly."
+    "explanation": "Let u = $x^3$ + 1, du = 3$x^2$ dx, so $x^2$ dx = du/3. When x=0, u=1; when x=1, u=2. Integral becomes (1/3)∫₁² $u^4$ du = (1/3)($u^5$/5)|₁² = (1/15)(32 - 1) = 31/15. Choice A uses 32 in the numerator, forgetting to subtract the lower bound correctly. Choice C forgets the factor of 1/3. Choice D only evaluates the lower bound subtraction incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q196",
@@ -7487,7 +7871,8 @@ var APCALC_MCQ = [
       "$x^2$ + 2x + 7ln|x - 2| + C"
     ],
     "answer": 1,
-    "explanation": "Long division: ($x^2$ + 3)/(x - 2) = x + 2 + 7/(x - 2). Verify: (x + 2)(x - 2) + 7 = $x^2$ - 4 + 7 = $x^2$ + 3 ✓. Integrating: $x^2$/2 + 2x + 7ln|x - 2| + C. Choice A uses remainder 3 instead of 7. Choice C has wrong sign on the 2x. Choice D forgets the 1/2 on $x^2$."
+    "explanation": "Long division: ($x^2$ + 3)/(x - 2) = x + 2 + 7/(x - 2). Verify: (x + 2)(x - 2) + 7 = $x^2$ - 4 + 7 = $x^2$ + 3 ✓. Integrating: $x^2$/2 + 2x + 7ln|x - 2| + C. Choice A uses remainder 3 instead of 7. Choice C has wrong sign on the 2x. Choice D forgets the 1/2 on $x^2$.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q197",
@@ -7507,7 +7892,8 @@ var APCALC_MCQ = [
       "($x^2$/2)·√($x^2$ + 5) + C"
     ],
     "answer": 1,
-    "explanation": "Let u = $x^2$ + 5, du = 2x dx, so x dx = du/2. Integral becomes (1/2)∫ u^(1/2) du = (1/2)(2/3)u^(3/2) + C = (1/3)($x^2$ + 5)^(3/2) + C. Choice A forgets the 1/2 from the substitution. Choice C uses 1/2 instead of computing (1/2)(2/3) = 1/3. Choice D incorrectly tries to integrate the product term by term."
+    "explanation": "Let u = $x^2$ + 5, du = 2x dx, so x dx = du/2. Integral becomes (1/2)∫ u^(1/2) du = (1/2)(2/3)u^(3/2) + C = (1/3)($x^2$ + 5)^(3/2) + C. Choice A forgets the 1/2 from the substitution. Choice C uses 1/2 instead of computing (1/2)(2/3) = 1/3. Choice D incorrectly tries to integrate the product term by term.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q199",
@@ -7527,7 +7913,8 @@ var APCALC_MCQ = [
       "(1/2)(27 - 5√5)"
     ],
     "answer": 1,
-    "explanation": "Let u = $x^2$ + 5, so du = 2x dx, giving x dx = du/2. When x = 0, u = 5; when x = 2, u = 9. The integral becomes (1/2)∫ from 5 to 9 of √u du = (1/2) · (2/3)u^(3/2) evaluated from 5 to 9 = (1/3)[9^(3/2) - 5^(3/2)] = (1/3)(27 - 5√5). Choice A incorrectly computes 9^(3/2) = 9 and 5^(3/2) = √5. Choice C forgets to include the 1/2 from the substitution. Choice D uses 1/2 instead of (1/2)(2/3) = 1/3."
+    "explanation": "Let u = $x^2$ + 5, so du = 2x dx, giving x dx = du/2. When x = 0, u = 5; when x = 2, u = 9. The integral becomes (1/2)∫ from 5 to 9 of √u du = (1/2) · (2/3)u^(3/2) evaluated from 5 to 9 = (1/3)[9^(3/2) - 5^(3/2)] = (1/3)(27 - 5√5). Choice A incorrectly computes 9^(3/2) = 9 and 5^(3/2) = √5. Choice C forgets to include the 1/2 from the substitution. Choice D uses 1/2 instead of (1/2)(2/3) = 1/3.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q200",
@@ -7547,7 +7934,8 @@ var APCALC_MCQ = [
       "si$n^4$(x) + C"
     ],
     "answer": 1,
-    "explanation": "Let u = sin(x), so du = cos(x) dx. The integral becomes ∫ $u^3$ du = (1/4)$u^4$ + C = (1/4)si$n^4$(x) + C. Choice A incorrectly substitutes u = cos(x) but does not account for the negative sign in du. Choice C adds a spurious negative sign, a common error when confusing sin and cos derivatives. Choice D forgets the 1/4 from integrating $u^3$."
+    "explanation": "Let u = sin(x), so du = cos(x) dx. The integral becomes ∫ $u^3$ du = (1/4)$u^4$ + C = (1/4)si$n^4$(x) + C. Choice A incorrectly substitutes u = cos(x) but does not account for the negative sign in du. Choice C adds a spurious negative sign, a common error when confusing sin and cos derivatives. Choice D forgets the 1/4 from integrating $u^3$.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q201",
@@ -7567,7 +7955,8 @@ var APCALC_MCQ = [
       "$x^2$ + 2x + 3 ln|x + 1| + C"
     ],
     "answer": 1,
-    "explanation": "Perform polynomial long division: ($x^2$ + 3x + 5) ÷ (x + 1) = x + 2 with remainder 3. So the integrand becomes x + 2 + 3/(x + 1). Integrating: (1/2)$x^2$ + 2x + 3 ln|x + 1| + C. Choice A does not perform long division and incorrectly treats numerator terms separately. Choice C integrates 3/(x+1) as 3/(x+1) instead of 3 ln|x+1|. Choice D integrates x as $x^2$ instead of (1/2)$x^2$."
+    "explanation": "Perform polynomial long division: ($x^2$ + 3x + 5) ÷ (x + 1) = x + 2 with remainder 3. So the integrand becomes x + 2 + 3/(x + 1). Integrating: (1/2)$x^2$ + 2x + 3 ln|x + 1| + C. Choice A does not perform long division and incorrectly treats numerator terms separately. Choice C integrates 3/(x+1) as 3/(x+1) instead of 3 ln|x+1|. Choice D integrates x as $x^2$ instead of (1/2)$x^2$.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q203",
@@ -7587,7 +7976,8 @@ var APCALC_MCQ = [
       "-1/(2(1 + sin(x))³) + C"
     ],
     "answer": 1,
-    "explanation": "Let u = 1 + sin(x), so du = cos(x) dx. The integral becomes ∫ u⁻³ du = u⁻²/(-2) + C = -1/(2$u^2$) + C = -1/(2(1 + sin(x))²) + C. Choice A has the wrong sign, forgetting that integrating u⁻³ gives a negative exponent coefficient. Choice C uses -3 in the denominator, confusing the original exponent with the result of integration. Choice D keeps the exponent as 3 instead of reducing it to 2 after integration."
+    "explanation": "Let u = 1 + sin(x), so du = cos(x) dx. The integral becomes ∫ u⁻³ du = u⁻²/(-2) + C = -1/(2$u^2$) + C = -1/(2(1 + sin(x))²) + C. Choice A has the wrong sign, forgetting that integrating u⁻³ gives a negative exponent coefficient. Choice C uses -3 in the denominator, confusing the original exponent with the result of integration. Choice D keeps the exponent as 3 instead of reducing it to 2 after integration.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q205",
@@ -7607,7 +7997,8 @@ var APCALC_MCQ = [
       "16/3"
     ],
     "answer": 1,
-    "explanation": "Let u = 4 − $x^2$. Then du = −2x dx, so x dx = −du/2. When x=0, u=4; when x=2, u=0. The integral becomes −(1/2)∫ from 4 to 0 of √u du = (1/2)∫ from 0 to 4 of u^(1/2) du = (1/2)·(2/3)u^(3/2) evaluated from 0 to 4 = (1/3)(8) = 8/3. Choice A results from forgetting the factor correctly. Choice C comes from confusing this with the area of a semicircle. Choice D doubles the correct answer."
+    "explanation": "Let u = 4 − $x^2$. Then du = −2x dx, so x dx = −du/2. When x=0, u=4; when x=2, u=0. The integral becomes −(1/2)∫ from 4 to 0 of √u du = (1/2)∫ from 0 to 4 of u^(1/2) du = (1/2)·(2/3)u^(3/2) evaluated from 0 to 4 = (1/3)(8) = 8/3. Choice A results from forgetting the factor correctly. Choice C comes from confusing this with the area of a semicircle. Choice D doubles the correct answer.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q206",
@@ -7627,7 +8018,8 @@ var APCALC_MCQ = [
       "−(1/2)ln(co$s^2$(x)) + C"
     ],
     "answer": 1,
-    "explanation": "Let u = ln(cos(x)). Then du = (−sin(x)/cos(x)) dx = −tan(x) dx. So tan(x) dx = −du. The integral becomes −∫u du = −$u^2$/2 + C = −(1/2)[ln(cos(x))]² + C. Choice A has the wrong sign from mishandling the negative. Choice C forgets the 1/2 from integrating u. Choice D incorrectly simplifies the squared logarithm as ln(co$s^2$x)."
+    "explanation": "Let u = ln(cos(x)). Then du = (−sin(x)/cos(x)) dx = −tan(x) dx. So tan(x) dx = −du. The integral becomes −∫u du = −$u^2$/2 + C = −(1/2)[ln(cos(x))]² + C. Choice A has the wrong sign from mishandling the negative. Choice C forgets the 1/2 from integrating u. Choice D incorrectly simplifies the squared logarithm as ln(co$s^2$x).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q208",
@@ -7647,7 +8039,8 @@ var APCALC_MCQ = [
       "−co$s^3$(x)/3 − co$s^5$(x)/5 + C"
     ],
     "answer": 0,
-    "explanation": "Write si$n^3$(x) = sin(x)(1 − co$s^2$(x)). Let u = cos(x), du = −sin(x) dx. The integral becomes −∫(1 − $u^2$)$u^2$ du = −∫($u^2$ − $u^4$) du = −$u^3$/3 + $u^5$/5 + C = −co$s^3$(x)/3 + co$s^5$(x)/5 + C. Choice B has opposite signs from dropping the negative in the substitution. Choice C incorrectly combines terms. Choice D has both terms negative, which is wrong."
+    "explanation": "Write si$n^3$(x) = sin(x)(1 − co$s^2$(x)). Let u = cos(x), du = −sin(x) dx. The integral becomes −∫(1 − $u^2$)$u^2$ du = −∫($u^2$ − $u^4$) du = −$u^3$/3 + $u^5$/5 + C = −co$s^3$(x)/3 + co$s^5$(x)/5 + C. Choice B has opposite signs from dropping the negative in the substitution. Choice C incorrectly combines terms. Choice D has both terms negative, which is wrong.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q209",
@@ -7667,7 +8060,8 @@ var APCALC_MCQ = [
       "3/4"
     ],
     "answer": 0,
-    "explanation": "Let u = tan(x), du = se$c^2$(x) dx. When x = 0, u = 0; when x = π/4, u = 1. The integral becomes ∫ from 0 to 1 of $u^3$ du = $u^4$/4 evaluated from 0 to 1 = 1/4. Choice B results from computing $u^2$/2 instead of $u^4$/4. Choice C comes from using $u^3$/3 as if integrating $u^2$. Choice D is a common miscalculation."
+    "explanation": "Let u = tan(x), du = se$c^2$(x) dx. When x = 0, u = 0; when x = π/4, u = 1. The integral becomes ∫ from 0 to 1 of $u^3$ du = $u^4$/4 evaluated from 0 to 1 = 1/4. Choice B results from computing $u^2$/2 instead of $u^4$/4. Choice C comes from using $u^3$/3 as if integrating $u^2$. Choice D is a common miscalculation.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q210",
@@ -7687,7 +8081,8 @@ var APCALC_MCQ = [
       "ln(e^(2x) + 1) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = e^(2x) + 1. Then du = 2e^(2x) dx, so e^(2x) dx = du/2. The integral becomes (1/2)∫ u^(−2) du = (1/2)(−u^(−1)) + C = −1/(2(e^(2x) + 1)) + C. Choice B has the wrong sign. Choice C forgets the factor of 1/2 from the substitution. Choice D incorrectly integrates as if the exponent were −1 instead of −2."
+    "explanation": "Let u = e^(2x) + 1. Then du = 2e^(2x) dx, so e^(2x) dx = du/2. The integral becomes (1/2)∫ u^(−2) du = (1/2)(−u^(−1)) + C = −1/(2(e^(2x) + 1)) + C. Choice B has the wrong sign. Choice C forgets the factor of 1/2 from the substitution. Choice D incorrectly integrates as if the exponent were −1 instead of −2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q211",
@@ -7707,7 +8102,8 @@ var APCALC_MCQ = [
       "arcsin((x − 2)/√5) + C"
     ],
     "answer": 0,
-    "explanation": "Rewrite: −$x^2$ + 4x + 5 = −($x^2$ − 4x) + 5 = −($x^2$ − 4x + 4) + 9 = 9 − (x − 2)². The integral becomes ∫1/√(9 − (x−2)²) dx. Using the formula ∫1/√($a^2$ − $u^2$) du = arcsin(u/a) + C with u = x−2 and a = 3, we get arcsin((x−2)/3) + C. Choice B uses x+2 instead of x−2. Choice C uses arctan instead of arcsin. Choice D uses √5 instead of 3."
+    "explanation": "Rewrite: −$x^2$ + 4x + 5 = −($x^2$ − 4x) + 5 = −($x^2$ − 4x + 4) + 9 = 9 − (x − 2)². The integral becomes ∫1/√(9 − (x−2)²) dx. Using the formula ∫1/√($a^2$ − $u^2$) du = arcsin(u/a) + C with u = x−2 and a = 3, we get arcsin((x−2)/3) + C. Choice B uses x+2 instead of x−2. Choice C uses arctan instead of arcsin. Choice D uses √5 instead of 3.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q212",
@@ -7727,7 +8123,8 @@ var APCALC_MCQ = [
       "1 − sin(1)"
     ],
     "answer": 0,
-    "explanation": "Let u = ln(x), du = 1/x dx. When x = 1, u = 0; when x = e, u = 1. The integral becomes ∫ from 0 to 1 of sin(u) du = [−cos(u)] from 0 to 1 = −cos(1) + cos(0) = 1 − cos(1). Choice B has the wrong sign. Choice C confuses sine and cosine in the antiderivative. Choice D incorrectly uses sin instead of cos."
+    "explanation": "Let u = ln(x), du = 1/x dx. When x = 1, u = 0; when x = e, u = 1. The integral becomes ∫ from 0 to 1 of sin(u) du = [−cos(u)] from 0 to 1 = −cos(1) + cos(0) = 1 − cos(1). Choice B has the wrong sign. Choice C confuses sine and cosine in the antiderivative. Choice D incorrectly uses sin instead of cos.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q213",
@@ -7747,7 +8144,8 @@ var APCALC_MCQ = [
       "−(1/2)arcsin($x^2$) + C"
     ],
     "answer": 0,
-    "explanation": "Let u = $x^2$, du = 2x dx, so x dx = du/2. The integral becomes (1/2)∫1/√(1 − $u^2$) du = (1/2)arcsin(u) + C = (1/2)arcsin($x^2$) + C. Choice B forgets the 1/2 factor from the substitution. Choice C uses arctan instead of arcsin. Choice D has the wrong sign."
+    "explanation": "Let u = $x^2$, du = 2x dx, so x dx = du/2. The integral becomes (1/2)∫1/√(1 − $u^2$) du = (1/2)arcsin(u) + C = (1/2)arcsin($x^2$) + C. Choice B forgets the 1/2 factor from the substitution. Choice C uses arctan instead of arcsin. Choice D has the wrong sign.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q214",
@@ -7767,7 +8165,8 @@ var APCALC_MCQ = [
       "$x^3$/3 − x + 2·ln($x^2$ + 1) + C"
     ],
     "answer": 0,
-    "explanation": "Divide $x^4$ + 1 by $x^2$ + 1. $x^4$ + 1 = ($x^2$ + 1)($x^2$ − 1) + 2. So the integrand is $x^2$ − 1 + 2/($x^2$ + 1). Integrating: $x^3$/3 − x + 2·arctan(x) + C. Choice B uses 1 instead of 2 for the arctan coefficient. Choice C has +x instead of −x. Choice D uses ln instead of arctan."
+    "explanation": "Divide $x^4$ + 1 by $x^2$ + 1. $x^4$ + 1 = ($x^2$ + 1)($x^2$ − 1) + 2. So the integrand is $x^2$ − 1 + 2/($x^2$ + 1). Integrating: $x^3$/3 − x + 2·arctan(x) + C. Choice B uses 1 instead of 2 for the arctan coefficient. Choice C has +x instead of −x. Choice D uses ln instead of arctan.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q215",
@@ -7787,7 +8186,8 @@ var APCALC_MCQ = [
       "(1/5)arctan((x − 1)/2) + C"
     ],
     "answer": 0,
-    "explanation": "Complete the square: $x^2$ − 2x + 5 = (x − 1)² + 4. Using ∫1/($u^2$ + $a^2$) du = (1/a)arctan(u/a) + C with u = x−1, a = 2: (1/2)arctan((x−1)/2) + C. Choice B forgets the 1/a factor. Choice C uses incorrect values for the shift and denominator. Choice D incorrectly uses 1/5."
+    "explanation": "Complete the square: $x^2$ − 2x + 5 = (x − 1)² + 4. Using ∫1/($u^2$ + $a^2$) du = (1/a)arctan(u/a) + C with u = x−1, a = 2: (1/2)arctan((x−1)/2) + C. Choice B forgets the 1/a factor. Choice C uses incorrect values for the shift and denominator. Choice D incorrectly uses 1/5.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q216",
@@ -7807,7 +8207,8 @@ var APCALC_MCQ = [
       "co$s^3$(x)·si$n^3$(x)/9 + C"
     ],
     "answer": 0,
-    "explanation": "Since cos has an odd power, write co$s^3$(x) = cos(x)(1 − si$n^2$(x)). Let u = sin(x), du = cos(x) dx. The integral becomes ∫$u^2$(1 − $u^2$) du = ∫($u^2$ − $u^4$) du = $u^3$/3 − $u^5$/5 + C = si$n^3$(x)/3 − si$n^5$(x)/5 + C. Choice B has the wrong sign on the second term. Choice C has signs reversed. Choice D incorrectly combines terms."
+    "explanation": "Since cos has an odd power, write co$s^3$(x) = cos(x)(1 − si$n^2$(x)). Let u = sin(x), du = cos(x) dx. The integral becomes ∫$u^2$(1 − $u^2$) du = ∫($u^2$ − $u^4$) du = $u^3$/3 − $u^5$/5 + C = si$n^3$(x)/3 − si$n^5$(x)/5 + C. Choice B has the wrong sign on the second term. Choice C has signs reversed. Choice D incorrectly combines terms.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q217",
@@ -7827,7 +8228,8 @@ var APCALC_MCQ = [
       "($e^2$ − 1)/3"
     ],
     "answer": 0,
-    "explanation": "Let u = $x^3$ + 1, du = 3$x^2$ dx, so $x^2$ dx = du/3. When x = 0, u = 1; when x = 1, u = 2. The integral becomes (1/3)∫ from 1 to 2 of e^u du = (1/3)[e^u] from 1 to 2 = (1/3)($e^2$ − e). Choice B forgets the 1/3 factor. Choice C omits the lower bound contribution. Choice D uses u = 0 as the lower limit instead of u = 1, forgetting that the +1 shifts the bounds."
+    "explanation": "Let u = $x^3$ + 1, du = 3$x^2$ dx, so $x^2$ dx = du/3. When x = 0, u = 1; when x = 1, u = 2. The integral becomes (1/3)∫ from 1 to 2 of e^u du = (1/3)[e^u] from 1 to 2 = (1/3)($e^2$ − e). Choice B forgets the 1/3 factor. Choice C omits the lower bound contribution. Choice D uses u = 0 as the lower limit instead of u = 1, forgetting that the +1 shifts the bounds.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q218",
@@ -7847,7 +8249,8 @@ var APCALC_MCQ = [
       "$\\frac{1}{6}$"
     ],
     "answer": 3,
-    "explanation": "The area is $\\int_0^1 (x - x^2)\\,dx = [\\frac{x^2}{2} - \\frac{x^3}{3}]_0^1 = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}$. Choice B ($\\frac{1}{3}$) results from forgetting to subtract one function and just integrating $x^2$. Choice C ($\\frac{1}{2}$) comes from only integrating $x$. Choice A ($\\frac{2}{3}$) comes from adding the integrals instead of subtracting."
+    "explanation": "The area is $\\int_0^1 (x - x^2)\\,dx = [\\frac{x^2}{2} - \\frac{x^3}{3}]_0^1 = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}$. Choice B ($\\frac{1}{3}$) results from forgetting to subtract one function and just integrating $x^2$. Choice C ($\\frac{1}{2}$) comes from only integrating $x$. Choice A ($\\frac{2}{3}$) comes from adding the integrals instead of subtracting.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q219",
@@ -7867,7 +8270,8 @@ var APCALC_MCQ = [
       "$\\pi \\int_0^4 x\\,dx$"
     ],
     "answer": 3,
-    "explanation": "The disc method gives $V = \\pi \\int_0^4 (\\sqrt{x})^2\\,dx = \\pi \\int_0^4 x\\,dx$. Choice B forgets to square the radius. Choice C uses wrong limits (0 to 2 are the y-values, not x-values). Choice A squares $x$ instead of $\\sqrt{x}$, effectively using $r = x$ instead of $r = \\sqrt{x}$."
+    "explanation": "The disc method gives $V = \\pi \\int_0^4 (\\sqrt{x})^2\\,dx = \\pi \\int_0^4 x\\,dx$. Choice B forgets to square the radius. Choice C uses wrong limits (0 to 2 are the y-values, not x-values). Choice A squares $x$ instead of $\\sqrt{x}$, effectively using $r = x$ instead of $r = \\sqrt{x}$.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q220",
@@ -7887,7 +8291,8 @@ var APCALC_MCQ = [
       "$\\pi \\int_0^1 (x^2 - x^4)\\,dx$"
     ],
     "answer": 3,
-    "explanation": "The washer method gives $V = \\pi \\int_0^1 [R(x)]^2 - [r(x)]^2\\,dx$. Since $x \\ge x^2$ on $[0,1]$, $R = x$ and $r = x^2$, so $V = \\pi \\int_0^1 (x^2 - x^4)\\,dx$. Choice B incorrectly squares the difference rather than taking the difference of squares. Choice C forgets to square the radii entirely. Choice A reverses outer and inner radii."
+    "explanation": "The washer method gives $V = \\pi \\int_0^1 [R(x)]^2 - [r(x)]^2\\,dx$. Since $x \\ge x^2$ on $[0,1]$, $R = x$ and $r = x^2$, so $V = \\pi \\int_0^1 (x^2 - x^4)\\,dx$. Choice B incorrectly squares the difference rather than taking the difference of squares. Choice C forgets to square the radii entirely. Choice A reverses outer and inner radii.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q221",
@@ -7907,7 +8312,8 @@ var APCALC_MCQ = [
       "0"
     ],
     "answer": 3,
-    "explanation": "Displacement $= \\int_0^3 (3t^2 - 6t)\\,dt = [t^3 - 3t^2]_0^3 = (27 - 27) - 0 = 0$. Choice B (9) may come from computing $\\int_0^3 3t^2\\,dt$ without the $-6t$ term. Choices C and D represent common sign or arithmetic errors students make when evaluating the antiderivative."
+    "explanation": "Displacement $= \\int_0^3 (3t^2 - 6t)\\,dt = [t^3 - 3t^2]_0^3 = (27 - 27) - 0 = 0$. Choice B (9) may come from computing $\\int_0^3 3t^2\\,dt$ without the $-6t$ term. Choices C and D represent common sign or arithmetic errors students make when evaluating the antiderivative.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q222",
@@ -7927,7 +8333,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 3,
-    "explanation": "Total distance $= \\int_0^4 |t - 2|\\,dt$. The velocity changes sign at $t = 2$. $\\int_0^2 (2-t)\\,dt = [2t - \\frac{t^2}{2}]_0^2 = 2$ and $\\int_2^4 (t-2)\\,dt = [\\frac{t^2}{2} - 2t]_2^4 = 2$. Total $= 2 + 2 = 4$. Choice B (0) is the displacement, a common error when students don't use absolute value. Choice C (2) comes from computing only one piece. Choice A (8) comes from integrating $|t-2|$ incorrectly or using $t+2$."
+    "explanation": "Total distance $= \\int_0^4 |t - 2|\\,dt$. The velocity changes sign at $t = 2$. $\\int_0^2 (2-t)\\,dt = [2t - \\frac{t^2}{2}]_0^2 = 2$ and $\\int_2^4 (t-2)\\,dt = [\\frac{t^2}{2} - 2t]_2^4 = 2$. Total $= 2 + 2 = 4$. Choice B (0) is the displacement, a common error when students don't use absolute value. Choice C (2) comes from computing only one piece. Choice A (8) comes from integrating $|t-2|$ incorrectly or using $t+2$.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q223",
@@ -7947,7 +8354,8 @@ var APCALC_MCQ = [
       "$\\frac{32}{3}$"
     ],
     "answer": 3,
-    "explanation": "The curves intersect when $y^2 = 4$, so $y = \\pm 2$. Area $= \\int_{-2}^{2} (4 - y^2)\\,dy = [4y - \\frac{y^3}{3}]_{-2}^{2} = (8 - \\frac{8}{3}) - (-8 + \\frac{8}{3}) = \\frac{32}{3}$. Choice B ($\\frac{16}{3}$) results from integrating only from 0 to 2 and forgetting symmetry. Choice C (8) comes from treating the region as a simple rectangle. Choice A (16) comes from $4 \\times 4$ without integration."
+    "explanation": "The curves intersect when $y^2 = 4$, so $y = \\pm 2$. Area $= \\int_{-2}^{2} (4 - y^2)\\,dy = [4y - \\frac{y^3}{3}]_{-2}^{2} = (8 - \\frac{8}{3}) - (-8 + \\frac{8}{3}) = \\frac{32}{3}$. Choice B ($\\frac{16}{3}$) results from integrating only from 0 to 2 and forgetting symmetry. Choice C (8) comes from treating the region as a simple rectangle. Choice A (16) comes from $4 \\times 4$ without integration.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q224",
@@ -7967,7 +8375,8 @@ var APCALC_MCQ = [
       "$\\int_0^4 \\sqrt{1 + \\frac{9}{4}x}\\,dx$"
     ],
     "answer": 3,
-    "explanation": "Arc length $= \\int_a^b \\sqrt{1 + [f'(x)]^2}\\,dx$. Here $f'(x) = \\frac{3}{2}x^{1/2}$, so $[f'(x)]^2 = \\frac{9}{4}x$. The integral is $\\int_0^4 \\sqrt{1 + \\frac{9}{4}x}\\,dx$. Choice B uses $(x^{3/2})^2 = x^3$ instead of squaring the derivative. Choice C forgets to square the derivative. Choice A omits the essential $+1$ under the radical."
+    "explanation": "Arc length $= \\int_a^b \\sqrt{1 + [f'(x)]^2}\\,dx$. Here $f'(x) = \\frac{3}{2}x^{1/2}$, so $[f'(x)]^2 = \\frac{9}{4}x$. The integral is $\\int_0^4 \\sqrt{1 + \\frac{9}{4}x}\\,dx$. Choice B uses $(x^{3/2})^2 = x^3$ instead of squaring the derivative. Choice C forgets to square the derivative. Choice A omits the essential $+1$ under the radical.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q225",
@@ -7987,7 +8396,8 @@ var APCALC_MCQ = [
       "$\\frac{81\\pi}{2}$"
     ],
     "answer": 3,
-    "explanation": "Using discs about the y-axis: $V = \\pi \\int_0^9 (\\sqrt{y})^2\\,dy = \\pi \\int_0^9 y\\,dy = \\pi [\\frac{y^2}{2}]_0^9 = \\frac{81\\pi}{2}$. Choice B ($81\\pi$) forgets to divide by 2 in the antiderivative. Choice C ($\\frac{81\\pi}{4}$) may arise from an extra factor of $\\frac{1}{2}$. Choice A ($9\\pi$) comes from not squaring or from a simplification error."
+    "explanation": "Using discs about the y-axis: $V = \\pi \\int_0^9 (\\sqrt{y})^2\\,dy = \\pi \\int_0^9 y\\,dy = \\pi [\\frac{y^2}{2}]_0^9 = \\frac{81\\pi}{2}$. Choice B ($81\\pi$) forgets to divide by 2 in the antiderivative. Choice C ($\\frac{81\\pi}{4}$) may arise from an extra factor of $\\frac{1}{2}$. Choice A ($9\\pi$) comes from not squaring or from a simplification error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q226",
@@ -8007,7 +8417,8 @@ var APCALC_MCQ = [
       "3"
     ],
     "answer": 2,
-    "explanation": "Position $s(t) = s(0) + \\int_0^t 4u\\,du = 3 + 2t^2$. At $t = 2$: $s(2) = 3 + 2(4) = 3 + 8 = 11$. Choice B (8) forgets to add the initial position $s(0) = 3$. Choice A (5) may come from computing $3 + \\int_0^2 4\\,dt = 3 + 8$... no, more likely from $3 + 2(1) = 5$ with an arithmetic error. Choice D (3) assumes no movement, ignoring the integral entirely."
+    "explanation": "Position $s(t) = s(0) + \\int_0^t 4u\\,du = 3 + 2t^2$. At $t = 2$: $s(2) = 3 + 2(4) = 3 + 8 = 11$. Choice B (8) forgets to add the initial position $s(0) = 3$. Choice A (5) may come from computing $3 + \\int_0^2 4\\,dt = 3 + 8$... no, more likely from $3 + 2(1) = 5$ with an arithmetic error. Choice D (3) assumes no movement, ignoring the integral entirely.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q228",
@@ -8027,7 +8438,8 @@ var APCALC_MCQ = [
       "2pi * integral from 0 to 2 of x(2x - x^2) dx"
     ],
     "answer": 2,
-    "explanation": "The curves y = x^2 and y = 2x intersect where x^2 = 2x, giving x = 0 and x = 2. On [0, 2], the outer radius is R = 2x and the inner radius is r = x^2. The washer method gives V = pi * integral from 0 to 2 of [(2x)^2 - (x^2)^2] dx. Choice B incorrectly squares the difference of the functions rather than subtracting the squares of the radii — a common error where students compute pi*(R - r)^2 instead of pi*(R^2 - r^2). Choice A uses the wrong upper limit of x = 4 (confusing the y-intersection value of 4 with the x-intersection value of 2). Choice D is the correct volume using the shell method about the y-axis, not the x-axis as specified."
+    "explanation": "The curves y = x^2 and y = 2x intersect where x^2 = 2x, giving x = 0 and x = 2. On [0, 2], the outer radius is R = 2x and the inner radius is r = x^2. The washer method gives V = pi * integral from 0 to 2 of [(2x)^2 - (x^2)^2] dx. Choice B incorrectly squares the difference of the functions rather than subtracting the squares of the radii — a common error where students compute pi*(R - r)^2 instead of pi*(R^2 - r^2). Choice A uses the wrong upper limit of x = 4 (confusing the y-intersection value of 4 with the x-intersection value of 2). Choice D is the correct volume using the shell method about the y-axis, not the x-axis as specified.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q229",
@@ -8047,7 +8459,8 @@ var APCALC_MCQ = [
       "17"
     ],
     "answer": 0,
-    "explanation": "By limit laws, lim(x->3) [3f(x) - g(x)] = 3·lim(x->3) f(x) - lim(x->3) g(x) = 3(5) - 2 = 13. Choice B (15) results from computing 3(5) and forgetting to subtract g(x). Choice C (7) comes from incorrectly computing 5 + 2 = 7 without the coefficient. Choice D (17) comes from adding instead of subtracting: 3(5) + 2 = 17."
+    "explanation": "By limit laws, lim(x->3) [3f(x) - g(x)] = 3·lim(x->3) f(x) - lim(x->3) g(x) = 3(5) - 2 = 13. Choice B (15) results from computing 3(5) and forgetting to subtract g(x). Choice C (7) comes from incorrectly computing 5 + 2 = 7 without the coefficient. Choice D (17) comes from adding instead of subtracting: 3(5) + 2 = 17.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q230",
@@ -8067,7 +8480,8 @@ var APCALC_MCQ = [
       "Infinite discontinuity"
     ],
     "answer": 1,
-    "explanation": "Simplifying (x^2 - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2 for x not equal to 2, so lim(x->2) g(x) = 4. Since g(2) = 5 and the limit equals 4, the limit exists but does not equal the function value, which is the definition of a removable discontinuity. Choice A is wrong because continuity requires g(2) = lim(x->2) g(x), but 5 $\\neq$ 4. Choice C is wrong because both one-sided limits equal 4 (they agree), so there is no jump. Choice D is wrong because the limit is finite, not infinite."
+    "explanation": "Simplifying (x^2 - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2 for x not equal to 2, so lim(x->2) g(x) = 4. Since g(2) = 5 and the limit equals 4, the limit exists but does not equal the function value, which is the definition of a removable discontinuity. Choice A is wrong because continuity requires g(2) = lim(x->2) g(x), but 5 $\\neq$ 4. Choice C is wrong because both one-sided limits equal 4 (they agree), so there is no jump. Choice D is wrong because the limit is finite, not infinite.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q233",
@@ -8087,7 +8501,8 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 1,
-    "explanation": "From the given inequality, subtract 2: -x^4 <= f(x) - 2 <= x^2. Divide all parts by x^2 (positive for x near 0, x != 0): -x^2 <= (f(x) - 2)/x^2 <= 1. As x approaches 0, -x^2 approaches 0 and 1 approaches 1. By the Squeeze Theorem, the limit is 1. Students who forget to divide the bounds by x^2 may incorrectly say 0 or 2. Students who think the indeterminate form means DNE are also mistaken."
+    "explanation": "From the given inequality, subtract 2: -x^4 <= f(x) - 2 <= x^2. Divide all parts by x^2 (positive for x near 0, x != 0): -x^2 <= (f(x) - 2)/x^2 <= 1. As x approaches 0, -x^2 approaches 0 and 1 approaches 1. By the Squeeze Theorem, the limit is 1. Students who forget to divide the bounds by x^2 may incorrectly say 0 or 2. Students who think the indeterminate form means DNE are also mistaken.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q234",
@@ -8107,7 +8522,8 @@ var APCALC_MCQ = [
       "g has removable discontinuities at both x = 2 and x = 3"
     ],
     "answer": 1,
-    "explanation": "Factor: g(x) = (x-1)(x-3) / [(x-2)(x-3)]. The (x-3) cancels, so the limit as x->3 exists and equals (3-1)/(3-2) = 2. Since g(3) = 5 != 2, there is a removable discontinuity at x = 3. At x = 2, the denominator is zero but the numerator (2-1) = 1 != 0, so there is a vertical asymptote at x = 2. Choice A is wrong because the factor cancels so x = 3 is not a vertical asymptote. Choice C is wrong because continuity requires the limit to equal the function value, not merely that the function is defined. Choice D is wrong because x = 2 is a non-removable (infinite) discontinuity."
+    "explanation": "Factor: g(x) = (x-1)(x-3) / [(x-2)(x-3)]. The (x-3) cancels, so the limit as x->3 exists and equals (3-1)/(3-2) = 2. Since g(3) = 5 != 2, there is a removable discontinuity at x = 3. At x = 2, the denominator is zero but the numerator (2-1) = 1 != 0, so there is a vertical asymptote at x = 2. Choice A is wrong because the factor cancels so x = 3 is not a vertical asymptote. Choice C is wrong because continuity requires the limit to equal the function value, not merely that the function is defined. Choice D is wrong because x = 2 is a non-removable (infinite) discontinuity.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q235",
@@ -8127,7 +8543,8 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 1,
-    "explanation": "Multiply by the conjugate: (sqrt(9x^2+4x) - 3x) * (sqrt(9x^2+4x) + 3x) / (sqrt(9x^2+4x) + 3x) = (9x^2+4x - 9x^2) / (sqrt(9x^2+4x) + 3x) = 4x / (sqrt(9x^2+4x) + 3x). For x -> infinity, divide numerator and denominator by x: 4 / (sqrt(9 + 4/x) + 3). As x -> infinity, this becomes 4 / (3 + 3) = 4/6 = 2/3. Students who assume the difference of two terms going to infinity is 0 choose A. Students who incorrectly simplify the conjugate expression may get 4/3. Students unfamiliar with the conjugate technique may think the limit DNE."
+    "explanation": "Multiply by the conjugate: (sqrt(9x^2+4x) - 3x) * (sqrt(9x^2+4x) + 3x) / (sqrt(9x^2+4x) + 3x) = (9x^2+4x - 9x^2) / (sqrt(9x^2+4x) + 3x) = 4x / (sqrt(9x^2+4x) + 3x). For x -> infinity, divide numerator and denominator by x: 4 / (sqrt(9 + 4/x) + 3). As x -> infinity, this becomes 4 / (3 + 3) = 4/6 = 2/3. Students who assume the difference of two terms going to infinity is 0 choose A. Students who incorrectly simplify the conjugate expression may get 4/3. Students unfamiliar with the conjugate technique may think the limit DNE.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q236",
@@ -8147,7 +8564,8 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 1,
-    "explanation": "As x->0, the lower bound -x^4 + 2 approaches 0 + 2 = 2. For the upper bound, x^2 cos(1/x) approaches 0 since |x^2 cos(1/x)| <= x^2 -> 0, so x^2 cos(1/x) + 2 approaches 2. By the Squeeze Theorem, lim f(x) = 2. Choice A (0) comes from ignoring the +2 constant. Choice D is a common trap because students see cos(1/x) and assume oscillation prevents a limit. Choice C is a miscalculation."
+    "explanation": "As x->0, the lower bound -x^4 + 2 approaches 0 + 2 = 2. For the upper bound, x^2 cos(1/x) approaches 0 since |x^2 cos(1/x)| <= x^2 -> 0, so x^2 cos(1/x) + 2 approaches 2. By the Squeeze Theorem, lim f(x) = 2. Choice A (0) comes from ignoring the +2 constant. Choice D is a common trap because students see cos(1/x) and assume oscillation prevents a limit. Choice C is a miscalculation.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q237",
@@ -8167,7 +8585,8 @@ var APCALC_MCQ = [
       "The limit does not exist"
     ],
     "answer": 1,
-    "explanation": "Evaluating the lower bound at x = 1: -(1)^4 + 2(1)^2 = -1 + 2 = 1. Evaluating the upper bound at x = 1: (1)^4 - 2(1)^2 + 2 = 1 - 2 + 2 = 1. Since both bounds approach 1, by the Squeeze Theorem, lim f(x) = 1. A common error (choice A) is miscomputing the bounds or confusing the structure with a problem where the limit is 0. Choice C (2) results from only evaluating the upper bound incorrectly as 1 + 2 = 3 or dropping the negative sign in the lower bound. Choice D is chosen by students who mistakenly believe the Squeeze Theorem cannot apply when the bounding functions are polynomials of degree 4."
+    "explanation": "Evaluating the lower bound at x = 1: -(1)^4 + 2(1)^2 = -1 + 2 = 1. Evaluating the upper bound at x = 1: (1)^4 - 2(1)^2 + 2 = 1 - 2 + 2 = 1. Since both bounds approach 1, by the Squeeze Theorem, lim f(x) = 1. A common error (choice A) is miscomputing the bounds or confusing the structure with a problem where the limit is 0. Choice C (2) results from only evaluating the upper bound incorrectly as 1 + 2 = 3 or dropping the negative sign in the lower bound. Choice D is chosen by students who mistakenly believe the Squeeze Theorem cannot apply when the bounding functions are polynomials of degree 4.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q238",
@@ -8187,7 +8606,8 @@ var APCALC_MCQ = [
       "11"
     ],
     "answer": 3,
-    "explanation": "f(3) = 27 - 6 + 5 = 26 and f(1) = 1 - 2 + 5 = 4. Average rate of change = (26 - 4)/(3 - 1) = 22/2 = 11. Choice C (22) is the numerator only, a common error of forgetting to divide by the interval length. Choice B (12) results from an arithmetic error. Choice A (24) could result from incorrectly computing f(3)."
+    "explanation": "f(3) = 27 - 6 + 5 = 26 and f(1) = 1 - 2 + 5 = 4. Average rate of change = (26 - 4)/(3 - 1) = 22/2 = 11. Choice C (22) is the numerator only, a common error of forgetting to divide by the interval length. Choice B (12) results from an arithmetic error. Choice A (24) could result from incorrectly computing f(3).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q239",
@@ -8207,7 +8627,8 @@ var APCALC_MCQ = [
       "t = 6"
     ],
     "answer": 2,
-    "explanation": "The instantaneous velocity is s'(t) = 2t - 6. Setting 2t - 6 = 0 gives t = 3. Choice A (t = 0) is a common mistake of plugging in zero rather than solving. Choice D (t = 6) results from using the coefficient 6 without dividing. Choice B (t = 1) may come from misreading or an algebraic error."
+    "explanation": "The instantaneous velocity is s'(t) = 2t - 6. Setting 2t - 6 = 0 gives t = 3. Choice A (t = 0) is a common mistake of plugging in zero rather than solving. Choice D (t = 6) results from using the coefficient 6 without dividing. Choice B (t = 1) may come from misreading or an algebraic error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q240",
@@ -8227,7 +8648,8 @@ var APCALC_MCQ = [
       "lim as h->0 of [(2+h)^2 + 3(2+h) - 10] / h"
     ],
     "answer": 3,
-    "explanation": "By definition, f'(2) = lim as h->0 of [f(2+h) - f(2)] / h. Here f(2+h) = (2+h)^2 + 3(2+h) and f(2) = 4 + 6 = 10. So the expression is [(2+h)^2 + 3(2+h) - 10] / h. Choice B forgets to subtract f(2). Choice C fails to distribute the 3 correctly into 3(2+h). Choice A skips to a simplified form incorrectly by dropping constant terms prematurely."
+    "explanation": "By definition, f'(2) = lim as h->0 of [f(2+h) - f(2)] / h. Here f(2+h) = (2+h)^2 + 3(2+h) and f(2) = 4 + 6 = 10. So the expression is [(2+h)^2 + 3(2+h) - 10] / h. Choice B forgets to subtract f(2). Choice C fails to distribute the 3 correctly into 3(2+h). Choice A skips to a simplified form incorrectly by dropping constant terms prematurely.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q241",
@@ -8247,7 +8669,8 @@ var APCALC_MCQ = [
       "g is differentiable at x = 4 and g'(4) = 1"
     ],
     "answer": 2,
-    "explanation": "The function g(x) = |x - 4| has a corner at x = 4. The left-hand derivative is -1 and the right-hand derivative is +1, so the derivative does not exist there. Choice A incorrectly assumes continuity implies differentiability. Choice B is wrong because g is continuous at x = 4 (it just isn't differentiable). Choice D incorrectly claims the derivative exists and equals 1."
+    "explanation": "The function g(x) = |x - 4| has a corner at x = 4. The left-hand derivative is -1 and the right-hand derivative is +1, so the derivative does not exist there. Choice A incorrectly assumes continuity implies differentiability. Choice B is wrong because g is continuous at x = 4 (it just isn't differentiable). Choice D incorrectly claims the derivative exists and equals 1.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q242",
@@ -8267,7 +8690,8 @@ var APCALC_MCQ = [
       "-12/x^5"
     ],
     "answer": 3,
-    "explanation": "Rewrite f(x) = 3x^(-4). By the power rule, f'(x) = 3(-4)x^(-5) = -12x^(-5) = -12/x^5. Choice B results from using a positive exponent and reducing the power incorrectly. Choice C uses the wrong resulting exponent of -3 instead of -5. Choice A applies a misremembered rule similar to dividing by the exponent instead of multiplying."
+    "explanation": "Rewrite f(x) = 3x^(-4). By the power rule, f'(x) = 3(-4)x^(-5) = -12x^(-5) = -12/x^5. Choice B results from using a positive exponent and reducing the power incorrectly. Choice C uses the wrong resulting exponent of -3 instead of -5. Choice A applies a misremembered rule similar to dividing by the exponent instead of multiplying.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q243",
@@ -8287,7 +8711,8 @@ var APCALC_MCQ = [
       "15x^2 - 7x"
     ],
     "answer": 1,
-    "explanation": "Using the power rule on 5x^3 gives 15x^2, and the derivative of the constant -7 is 0. So h'(x) = 15x^2. Choice A is a common error where students keep the constant -7 in the derivative. Choice C forgets to multiply by the exponent 3. Choice D incorrectly treats -7 as -7x before differentiating."
+    "explanation": "Using the power rule on 5x^3 gives 15x^2, and the derivative of the constant -7 is 0. So h'(x) = 15x^2. Choice A is a common error where students keep the constant -7 in the derivative. Choice C forgets to multiply by the exponent 3. Choice D incorrectly treats -7 as -7x before differentiating.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q244",
@@ -8307,7 +8732,8 @@ var APCALC_MCQ = [
       "(1/2)x^(-1/2) - (1/2)x^(-3/2)"
     ],
     "answer": 3,
-    "explanation": "Using the power rule on each term: d/dx[x^(1/2)] = (1/2)x^(-1/2) and d/dx[x^(-1/2)] = (-1/2)x^(-3/2). By the sum rule, f'(x) = (1/2)x^(-1/2) - (1/2)x^(-3/2). Choice B uses a positive sign on the second term, forgetting that the exponent -1/2 produces a negative coefficient. Choice C reduces exponents incorrectly. Choice A makes both terms negative."
+    "explanation": "Using the power rule on each term: d/dx[x^(1/2)] = (1/2)x^(-1/2) and d/dx[x^(-1/2)] = (-1/2)x^(-3/2). By the sum rule, f'(x) = (1/2)x^(-1/2) - (1/2)x^(-3/2). Choice B uses a positive sign on the second term, forgetting that the exponent -1/2 produces a negative coefficient. Choice C reduces exponents incorrectly. Choice A makes both terms negative.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q245",
@@ -8327,7 +8753,8 @@ var APCALC_MCQ = [
       "-2cos(x) - 3sin(x)"
     ],
     "answer": 2,
-    "explanation": "d/dx[sin(x)] = cos(x) and d/dx[cos(x)] = -sin(x). So f'(x) = 2cos(x) - 3(-sin(x)) = 2cos(x) + 3sin(x). Choice B forgets that the derivative of cos(x) is -sin(x), not sin(x). Choice A negates the derivative of sin(x). Choice D negates both terms incorrectly."
+    "explanation": "d/dx[sin(x)] = cos(x) and d/dx[cos(x)] = -sin(x). So f'(x) = 2cos(x) - 3(-sin(x)) = 2cos(x) + 3sin(x). Choice B forgets that the derivative of cos(x) is -sin(x), not sin(x). Choice A negates the derivative of sin(x). Choice D negates both terms incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q246",
@@ -8347,7 +8774,8 @@ var APCALC_MCQ = [
       "5x^4 - 12x^2 + 2"
     ],
     "answer": 2,
-    "explanation": "f'(x) = 5x^4 - 12x^2 + 2. f''(x) = 20x^3 - 24x. f'''(x) = 60x^2 - 24. Choice D is the first derivative, not the third. Choice A is the second derivative. Choice B incorrectly keeps an x on the constant term -24, as if the derivative of -24x were -24x instead of -24."
+    "explanation": "f'(x) = 5x^4 - 12x^2 + 2. f''(x) = 20x^3 - 24x. f'''(x) = 60x^2 - 24. Choice D is the first derivative, not the third. Choice A is the second derivative. Choice B incorrectly keeps an x on the constant term -24, as if the derivative of -24x were -24x instead of -24.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q247",
@@ -8367,7 +8795,8 @@ var APCALC_MCQ = [
       "7/2"
     ],
     "answer": 1,
-    "explanation": "The best approximation for f'(4) uses the symmetric difference quotient: [f(6) - f(2)] / (6 - 2) = (18 - 8) / 4 = 10/4 = 5/2. Choice A uses (f(4) - f(2))/(4 - 2) = 3/2, a one-sided estimate. Choice C uses f(4)/4 = 11/4, confusing average value with rate of change. Choice D uses (f(6) - f(4))/(6 - 4) = 7/2, the other one-sided estimate."
+    "explanation": "The best approximation for f'(4) uses the symmetric difference quotient: [f(6) - f(2)] / (6 - 2) = (18 - 8) / 4 = 10/4 = 5/2. Choice A uses (f(4) - f(2))/(4 - 2) = 3/2, a one-sided estimate. Choice C uses f(4)/4 = 11/4, confusing average value with rate of change. Choice D uses (f(6) - f(4))/(6 - 4) = 7/2, the other one-sided estimate.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q248",
@@ -8387,7 +8816,8 @@ var APCALC_MCQ = [
       "17"
     ],
     "answer": 2,
-    "explanation": "f(4) = 64 - 8 = 56 and f(1) = 1 - 2 = -1. Average rate of change = (56 - (-1))/(4 - 1) = 57/3 = 19. Choice B (21) comes from an arithmetic error such as computing f(1) = 0. Choice A (56) is just f(4), a common mistake of forgetting to subtract f(1) and divide. Choice D (17) results from miscalculating f(4) as 54."
+    "explanation": "f(4) = 64 - 8 = 56 and f(1) = 1 - 2 = -1. Average rate of change = (56 - (-1))/(4 - 1) = 57/3 = 19. Choice B (21) comes from an arithmetic error such as computing f(1) = 0. Choice A (56) is just f(4), a common mistake of forgetting to subtract f(1) and divide. Choice D (17) results from miscalculating f(4) as 54.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q249",
@@ -8407,7 +8837,8 @@ var APCALC_MCQ = [
       "t = 5"
     ],
     "answer": 2,
-    "explanation": "The instantaneous rate of change is s'(t) = 2t - 5. Setting 2t - 5 = 0 gives t = 5/2. Choices B and C (t = 2 and t = 3) are the roots of s(t) = 0, a common error where students set the original function equal to zero instead of the derivative. Choice D (t = 5) comes from forgetting to divide by 2."
+    "explanation": "The instantaneous rate of change is s'(t) = 2t - 5. Setting 2t - 5 = 0 gives t = 5/2. Choices B and C (t = 2 and t = 3) are the roots of s(t) = 0, a common error where students set the original function equal to zero instead of the derivative. Choice D (t = 5) comes from forgetting to divide by 2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q250",
@@ -8427,7 +8858,8 @@ var APCALC_MCQ = [
       "lim as h->0 of [h^2 + 1] / h"
     ],
     "answer": 2,
-    "explanation": "By definition, f'(3) = lim as h->0 of [f(3+h) - f(3)] / h. f(3+h) = (3+h)^2 + 1 and f(3) = 9 + 1 = 10. So f'(3) = lim as h->0 of [(3+h)^2 + 1 - 10] / h. Choice B forgets to subtract f(3). Choice A subtracts 10 but drops the +1 from f(3+h). Choice D incorrectly simplifies (3+h)^2 as h^2."
+    "explanation": "By definition, f'(3) = lim as h->0 of [f(3+h) - f(3)] / h. f(3+h) = (3+h)^2 + 1 and f(3) = 9 + 1 = 10. So f'(3) = lim as h->0 of [(3+h)^2 + 1 - 10] / h. Choice B forgets to subtract f(3). Choice A subtracts 10 but drops the +1 from f(3+h). Choice D incorrectly simplifies (3+h)^2 as h^2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q251",
@@ -8447,7 +8879,8 @@ var APCALC_MCQ = [
       "4x^(3/2)"
     ],
     "answer": 0,
-    "explanation": "Using the power rule, f'(x) = 4 * (5/2) * x^(5/2 - 1) = 10x^(3/2). Choice B keeps the exponent as 5/2 instead of reducing it by 1. Choice C forgets to multiply the coefficient 4 by 5/2. Choice D drops the 5/2 multiplier entirely and only reduces the exponent."
+    "explanation": "Using the power rule, f'(x) = 4 * (5/2) * x^(5/2 - 1) = 10x^(3/2). Choice B keeps the exponent as 5/2 instead of reducing it by 1. Choice C forgets to multiply the coefficient 4 by 5/2. Choice D drops the 5/2 multiplier entirely and only reduces the exponent.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q252",
@@ -8467,7 +8900,8 @@ var APCALC_MCQ = [
       "12x^4"
     ],
     "answer": 0,
-    "explanation": "The derivative of 3x^4 is 12x^3 by the power rule, and the derivative of the constant 7 is 0. So h'(x) = 12x^3. Choice B incorrectly carries the constant 7 through the derivative. Choice C forgets to multiply the coefficient 3 by the exponent 4. Choice D applies the coefficient multiplication but forgets to reduce the exponent by 1."
+    "explanation": "The derivative of 3x^4 is 12x^3 by the power rule, and the derivative of the constant 7 is 0. So h'(x) = 12x^3. Choice B incorrectly carries the constant 7 through the derivative. Choice C forgets to multiply the coefficient 3 by the exponent 4. Choice D applies the coefficient multiplication but forgets to reduce the exponent by 1.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q253",
@@ -8487,7 +8921,8 @@ var APCALC_MCQ = [
       "-3"
     ],
     "answer": 0,
-    "explanation": "f'(x) = 6x^2 - 10x + 3 by applying the power rule and sum rule term by term. f'(1) = 6(1) - 10(1) + 3 = 6 - 10 + 3 = -1. Choice B is f(1) = 2 - 5 + 3 - 8 = -8, confusing the function value with the derivative. Choice C (1) is a sign error. Choice D (-3) comes from omitting the constant term derivative incorrectly or arithmetic errors."
+    "explanation": "f'(x) = 6x^2 - 10x + 3 by applying the power rule and sum rule term by term. f'(1) = 6(1) - 10(1) + 3 = 6 - 10 + 3 = -1. Choice B is f(1) = 2 - 5 + 3 - 8 = -8, confusing the function value with the derivative. Choice C (1) is a sign error. Choice D (-3) comes from omitting the constant term derivative incorrectly or arithmetic errors.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q254",
@@ -8507,7 +8942,8 @@ var APCALC_MCQ = [
       "-3cos(x) - 2sin(x)"
     ],
     "answer": 0,
-    "explanation": "The derivative of sin(x) is cos(x) and the derivative of cos(x) is -sin(x). So f'(x) = 3cos(x) - 2(-sin(x)) = 3cos(x) + 2sin(x). Choice B forgets the negative in the derivative of cos(x), giving -2sin(x) instead of +2sin(x). Choice C reverses both signs. Choice D applies incorrect signs to both trig derivatives."
+    "explanation": "The derivative of sin(x) is cos(x) and the derivative of cos(x) is -sin(x). So f'(x) = 3cos(x) - 2(-sin(x)) = 3cos(x) + 2sin(x). Choice B forgets the negative in the derivative of cos(x), giving -2sin(x) instead of +2sin(x). Choice C reverses both signs. Choice D applies incorrect signs to both trig derivatives.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q255",
@@ -8527,7 +8963,8 @@ var APCALC_MCQ = [
       "20x^3 - 9x"
     ],
     "answer": 0,
-    "explanation": "First derivative: f'(x) = 5x^4 - 9x^2 + 2. Second derivative: f''(x) = 20x^3 - 18x. Choice B is the first derivative f'(x), not the second. Choice C is the third derivative f'''(x). Choice D results from incorrectly differentiating -9x^2 as -9x instead of -18x in the second derivative step."
+    "explanation": "First derivative: f'(x) = 5x^4 - 9x^2 + 2. Second derivative: f''(x) = 20x^3 - 18x. Choice B is the first derivative f'(x), not the second. Choice C is the third derivative f'''(x). Choice D results from incorrectly differentiating -9x^2 as -9x instead of -18x in the second derivative step.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q256",
@@ -8547,7 +8984,8 @@ var APCALC_MCQ = [
       "12x^(-3) + (1/2)x^(-1/2)"
     ],
     "answer": 0,
-    "explanation": "Applying the power rule: d/dx[6x^(-2)] = 6(-2)x^(-3) = -12x^(-3) and d/dx[x^(1/2)] = (1/2)x^(-1/2). So g'(x) = -12x^(-3) + (1/2)x^(-1/2). Choice B incorrectly reduces the exponent -2 by adding 1 to get -1 instead of -3. Choice C does not reduce the exponent on the square root term. Choice D has the wrong sign on the first term, forgetting the negative from (-2)."
+    "explanation": "Applying the power rule: d/dx[6x^(-2)] = 6(-2)x^(-3) = -12x^(-3) and d/dx[x^(1/2)] = (1/2)x^(-1/2). So g'(x) = -12x^(-3) + (1/2)x^(-1/2). Choice B incorrectly reduces the exponent -2 by adding 1 to get -1 instead of -3. Choice C does not reduce the exponent on the square root term. Choice D has the wrong sign on the first term, forgetting the negative from (-2).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q257",
@@ -8567,7 +9005,8 @@ var APCALC_MCQ = [
       "3"
     ],
     "answer": 2,
-    "explanation": "First factor: x^2 - 4x + 3 = (x - 1)(x - 3), which equals zero at x = 1 and x = 3. The parabola is negative between x = 1 and x = 3, so the absolute value creates a cusp (corner) at both x = 1 and x = 3 where the graph reflects upward. At these points the left-hand and right-hand derivatives differ, so f is not differentiable. That gives 2 points. A) 0 is wrong because students may forget the absolute value creates corners. B) 1 is wrong if a student only identifies one root. D) 3 is wrong if a student incorrectly counts the vertex of the parabola at x = 2 as a point of non-differentiability, but f is smooth there since x^2 - 4x + 3 is strictly negative near x = 2 and the absolute value simply negates a smooth function."
+    "explanation": "First factor: x^2 - 4x + 3 = (x - 1)(x - 3), which equals zero at x = 1 and x = 3. The parabola is negative between x = 1 and x = 3, so the absolute value creates a cusp (corner) at both x = 1 and x = 3 where the graph reflects upward. At these points the left-hand and right-hand derivatives differ, so f is not differentiable. That gives 2 points. A) 0 is wrong because students may forget the absolute value creates corners. B) 1 is wrong if a student only identifies one root. D) 3 is wrong if a student incorrectly counts the vertex of the parabola at x = 2 as a point of non-differentiability, but f is smooth there since x^2 - 4x + 3 is strictly negative near x = 2 and the absolute value simply negates a smooth function.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q258",
@@ -8587,7 +9026,8 @@ var APCALC_MCQ = [
       "-6"
     ],
     "answer": 0,
-    "explanation": "Using the product rule: f'(x) = 3x^2 * sin(x) + x^3 * cos(x). Applying the product rule again to each term: f''(x) = 6x * sin(x) + 3x^2 * cos(x) + 3x^2 * cos(x) - x^3 * sin(x) = 6x * sin(x) + 6x^2 * cos(x) - x^3 * sin(x). Evaluating at x = 0: f''(0) = 6(0)sin(0) + 6(0)^2 cos(0) - (0)^3 sin(0) = 0. B) 3 is a common error from misapplying the product rule once and evaluating incorrectly. C) 6 comes from students who compute 6x and plug in x = 1 instead of x = 0, or who forget that sin(0) = 0 and only keep the 6x term evaluated incorrectly. D) -6 is a sign error variant of the same misconception."
+    "explanation": "Using the product rule: f'(x) = 3x^2 * sin(x) + x^3 * cos(x). Applying the product rule again to each term: f''(x) = 6x * sin(x) + 3x^2 * cos(x) + 3x^2 * cos(x) - x^3 * sin(x) = 6x * sin(x) + 6x^2 * cos(x) - x^3 * sin(x). Evaluating at x = 0: f''(0) = 6(0)sin(0) + 6(0)^2 cos(0) - (0)^3 sin(0) = 0. B) 3 is a common error from misapplying the product rule once and evaluating incorrectly. C) 6 comes from students who compute 6x and plug in x = 1 instead of x = 0, or who forget that sin(0) = 0 and only keep the 6x term evaluated incorrectly. D) -6 is a sign error variant of the same misconception.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q267",
@@ -8607,7 +9047,8 @@ var APCALC_MCQ = [
       "-1/sqrt(1 - x^2)"
     ],
     "answer": 0,
-    "explanation": "The derivative of arctan(x) is 1/(1 + x^2). Choice B is the derivative of arcsin(x), a common confusion between inverse trig derivatives. Choice C incorrectly includes a negative sign, which students may recall from the derivative of arccos(x). Choice D is the derivative of arccos(x), mixing up both the formula and the sign."
+    "explanation": "The derivative of arctan(x) is 1/(1 + x^2). Choice B is the derivative of arcsin(x), a common confusion between inverse trig derivatives. Choice C incorrectly includes a negative sign, which students may recall from the derivative of arccos(x). Choice D is the derivative of arccos(x), mixing up both the formula and the sign.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q268",
@@ -8627,7 +9068,8 @@ var APCALC_MCQ = [
       "-6x cos(3x^2 + 1)"
     ],
     "answer": 0,
-    "explanation": "Using the chain rule, f'(x) = cos(3x^2 + 1) * d/dx(3x^2 + 1) = cos(3x^2 + 1) * 6x = 6x cos(3x^2 + 1). Choice B forgets the inner derivative. Choice C keeps sin instead of switching to cos. Choice D incorrectly introduces a negative sign."
+    "explanation": "Using the chain rule, f'(x) = cos(3x^2 + 1) * d/dx(3x^2 + 1) = cos(3x^2 + 1) * 6x = 6x cos(3x^2 + 1). Choice B forgets the inner derivative. Choice C keeps sin instead of switching to cos. Choice D incorrectly introduces a negative sign.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q269",
@@ -8647,7 +9089,8 @@ var APCALC_MCQ = [
       "-(2x + 1)/(1 + 2y)"
     ],
     "answer": 0,
-    "explanation": "Differentiating implicitly: 2x + y + x(dy/dx) + 2y(dy/dx) = 0. The product rule on xy gives y + x(dy/dx). Solving: dy/dx(x + 2y) = -(2x + y), so dy/dx = -(2x + y)/(x + 2y). Choice B has the wrong sign. Choice C ignores the xy term's product rule. Choice D treats y and x in the xy term as constants when differentiating."
+    "explanation": "Differentiating implicitly: 2x + y + x(dy/dx) + 2y(dy/dx) = 0. The product rule on xy gives y + x(dy/dx). Solving: dy/dx(x + 2y) = -(2x + y), so dy/dx = -(2x + y)/(x + 2y). Choice B has the wrong sign. Choice C ignores the xy term's product rule. Choice D treats y and x in the xy term as constants when differentiating.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q270",
@@ -8667,7 +9110,8 @@ var APCALC_MCQ = [
       "-4/(1 + 16x^2)"
     ],
     "answer": 0,
-    "explanation": "The derivative of arctan(u) is 1/(1+u^2) * du/dx. Here u = 4x, so f'(x) = 1/(1+(4x)^2) * 4 = 4/(1+16x^2). Choice B forgets the chain rule factor of 4. Choice C fails to square the 4 inside (4x)^2. Choice D incorrectly introduces a negative sign, confusing arctan with another inverse trig function."
+    "explanation": "The derivative of arctan(u) is 1/(1+u^2) * du/dx. Here u = 4x, so f'(x) = 1/(1+(4x)^2) * 4 = 4/(1+16x^2). Choice B forgets the chain rule factor of 4. Choice C fails to square the 4 inside (4x)^2. Choice D incorrectly introduces a negative sign, confusing arctan with another inverse trig function.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q271",
@@ -8687,7 +9131,8 @@ var APCALC_MCQ = [
       "-2x e^(sin(x^2))"
     ],
     "answer": 0,
-    "explanation": "Applying the chain rule twice: f'(x) = e^(cos(x^2)) * d/dx[cos(x^2)] = e^(cos(x^2)) * (-sin(x^2)) * 2x = -2x sin(x^2) e^(cos(x^2)). Choice B forgets the innermost derivative 2x. Choice C uses cos instead of -sin when differentiating cos. Choice D incorrectly changes cos to sin inside the exponential."
+    "explanation": "Applying the chain rule twice: f'(x) = e^(cos(x^2)) * d/dx[cos(x^2)] = e^(cos(x^2)) * (-sin(x^2)) * 2x = -2x sin(x^2) e^(cos(x^2)). Choice B forgets the innermost derivative 2x. Choice C uses cos instead of -sin when differentiating cos. Choice D incorrectly changes cos to sin inside the exponential.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q272",
@@ -8707,7 +9152,8 @@ var APCALC_MCQ = [
       "-3/4"
     ],
     "answer": 2,
-    "explanation": "Differentiate implicitly: d/dx[arctan(xy)] + d/dx[y^2] = 0. For arctan(xy), use the chain rule: 1/(1+(xy)^2) * (y + x dy/dx). For y^2: 2y dy/dx. At (1,1): 1/(1+1) * (1 + dy/dx) + 2 dy/dx = 0, so (1/2)(1 + dy/dx) + 2 dy/dx = 0. Expanding: 1/2 + (1/2) dy/dx + 2 dy/dx = 0, so 1/2 + (5/2) dy/dx = 0, giving dy/dx = -1/5. Choice A (-1/4) results from incorrectly computing 1/(1+xy) instead of 1/(1+(xy)^2). Choice B (-1/6) comes from using 2/(1+(xy)^2) in the derivative. Choice D (-3/4) results from forgetting the chain rule on arctan and only differentiating y + x dy/dx without the 1/(1+(xy)^2) factor."
+    "explanation": "Differentiate implicitly: d/dx[arctan(xy)] + d/dx[y^2] = 0. For arctan(xy), use the chain rule: 1/(1+(xy)^2) * (y + x dy/dx). For y^2: 2y dy/dx. At (1,1): 1/(1+1) * (1 + dy/dx) + 2 dy/dx = 0, so (1/2)(1 + dy/dx) + 2 dy/dx = 0. Expanding: 1/2 + (1/2) dy/dx + 2 dy/dx = 0, so 1/2 + (5/2) dy/dx = 0, giving dy/dx = -1/5. Choice A (-1/4) results from incorrectly computing 1/(1+xy) instead of 1/(1+(xy)^2). Choice B (-1/6) comes from using 2/(1+(xy)^2) in the derivative. Choice D (-3/4) results from forgetting the chain rule on arctan and only differentiating y + x dy/dx without the 1/(1+(xy)^2) factor.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q273",
@@ -8727,7 +9173,8 @@ var APCALC_MCQ = [
       "(x^2 + 1)^(sin x) * [cos(x) + 2x sin(x) / (x^2 + 1)]"
     ],
     "answer": 0,
-    "explanation": "Take ln of both sides: ln y = sin(x) * ln(x^2 + 1). Differentiate: (1/y) dy/dx = cos(x) * ln(x^2 + 1) + sin(x) * 2x/(x^2 + 1). Multiply both sides by y = (x^2 + 1)^(sin x) to get choice A. Choice B is wrong because it treats sin(x) as a constant exponent and uses the power rule, a very common error when the exponent is a function. Choice C forgets the chain rule on ln(x^2 + 1), differentiating it as 1/(x^2 + 1) instead of 2x/(x^2 + 1). Choice D drops the ln(x^2 + 1) factor from the first term, writing cos(x) instead of cos(x) * ln(x^2 + 1), which results from a product rule error."
+    "explanation": "Take ln of both sides: ln y = sin(x) * ln(x^2 + 1). Differentiate: (1/y) dy/dx = cos(x) * ln(x^2 + 1) + sin(x) * 2x/(x^2 + 1). Multiply both sides by y = (x^2 + 1)^(sin x) to get choice A. Choice B is wrong because it treats sin(x) as a constant exponent and uses the power rule, a very common error when the exponent is a function. Choice C forgets the chain rule on ln(x^2 + 1), differentiating it as 1/(x^2 + 1) instead of 2x/(x^2 + 1). Choice D drops the ln(x^2 + 1) factor from the first term, writing cos(x) instead of cos(x) * ln(x^2 + 1), which results from a product rule error.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q274",
@@ -8747,7 +9194,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 1,
-    "explanation": "The Mean Value Theorem states there exists c in (1, 3) such that f'(c) = (f(3) - f(1))/(3 - 1). We have f(3) = 9, f(1) = 1, so (9 - 1)/(3 - 1) = 4. Since f'(x) = 2x, setting 2c = 4 gives c = 2. Choice A (c = 1) is an endpoint and not in the open interval. Choice C (c = 3) is the other endpoint. Choice D (c = 4) results from confusing the slope value with c itself."
+    "explanation": "The Mean Value Theorem states there exists c in (1, 3) such that f'(c) = (f(3) - f(1))/(3 - 1). We have f(3) = 9, f(1) = 1, so (9 - 1)/(3 - 1) = 4. Since f'(x) = 2x, setting 2c = 4 gives c = 2. Choice A (c = 1) is an endpoint and not in the open interval. Choice C (c = 3) is the other endpoint. Choice D (c = 4) results from confusing the slope value with c itself.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q275",
@@ -8767,7 +9215,8 @@ var APCALC_MCQ = [
       "L(x) = 25 + (1/10)(x - 25)"
     ],
     "answer": 0,
-    "explanation": "The linearization formula is L(x) = f(a) + f'(a)(x - a). Here f(25) = 5 and f'(x) = 1/(2*sqrt(x)), so f'(25) = 1/(2*5) = 1/10. Thus L(x) = 5 + (1/10)(x - 25). Choice B uses f'(25) = 1/5, a common error from forgetting the factor of 2 in the derivative. Choice C uses f'(25) = 10, confusing 2*sqrt(25) with 1/(2*sqrt(25)). Choice D uses 25 instead of sqrt(25) for f(a)."
+    "explanation": "The linearization formula is L(x) = f(a) + f'(a)(x - a). Here f(25) = 5 and f'(x) = 1/(2*sqrt(x)), so f'(25) = 1/(2*5) = 1/10. Thus L(x) = 5 + (1/10)(x - 25). Choice B uses f'(25) = 1/5, a common error from forgetting the factor of 2 in the derivative. Choice C uses f'(25) = 10, confusing 2*sqrt(25) with 1/(2*sqrt(25)). Choice D uses 25 instead of sqrt(25) for f(a).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u5_q277",
@@ -8787,7 +9236,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 1,
-    "explanation": "Inflection points occur where f''(x) changes sign. Setting f''(x) = x^2(x - 3)(x + 1) = 0 gives x = 0, x = 3, and x = -1. Testing intervals: for x < -1, f'' is positive; for -1 < x < 0, f'' is negative (sign change at x = -1); for 0 < x < 3, f'' is still negative (no sign change at x = 0 because x^2 does not change sign); for x > 3, f'' is positive (sign change at x = 3). So f'' changes sign at x = -1 and x = 3 only, giving 2 inflection points. A common mistake is choosing 3 (option C) by counting all zeros of f'' including x = 0, but x^2 is always non-negative so there is no sign change there. Choosing 1 (option A) may result from only checking one side, and 4 (option D) may come from miscounting intervals."
+    "explanation": "Inflection points occur where f''(x) changes sign. Setting f''(x) = x^2(x - 3)(x + 1) = 0 gives x = 0, x = 3, and x = -1. Testing intervals: for x < -1, f'' is positive; for -1 < x < 0, f'' is negative (sign change at x = -1); for 0 < x < 3, f'' is still negative (no sign change at x = 0 because x^2 does not change sign); for x > 3, f'' is positive (sign change at x = 3). So f'' changes sign at x = -1 and x = 3 only, giving 2 inflection points. A common mistake is choosing 3 (option C) by counting all zeros of f'' including x = 0, but x^2 is always non-negative so there is no sign change there. Choosing 1 (option A) may result from only checking one side, and 4 (option D) may come from miscounting intervals.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q279",
@@ -8807,7 +9257,8 @@ var APCALC_MCQ = [
       "t = 0"
     ],
     "answer": 1,
-    "explanation": "The amount of water at time t is W(t) = 10 + integral from 0 to t of (4s - s^2) ds. To maximize, set R(t) = 0: 4t - t^2 = t(4 - t) = 0, so t = 0 or t = 4. R(t) > 0 on (0,4) and R(t) < 0 on (4,5), so water flows in until t = 4 and flows out after. By the first derivative test (W'(t) = R(t) changes from positive to negative at t = 4), the maximum occurs at t = 4. Choice A (t=2) is the vertex of the rate function (maximum rate), a common mistake of maximizing the rate instead of the accumulation. Choice C (t=5) is the endpoint but water has been draining from t=4 to t=5. Choice D (t=0) is wrong since water flows in immediately after t=0."
+    "explanation": "The amount of water at time t is W(t) = 10 + integral from 0 to t of (4s - s^2) ds. To maximize, set R(t) = 0: 4t - t^2 = t(4 - t) = 0, so t = 0 or t = 4. R(t) > 0 on (0,4) and R(t) < 0 on (4,5), so water flows in until t = 4 and flows out after. By the first derivative test (W'(t) = R(t) changes from positive to negative at t = 4), the maximum occurs at t = 4. Choice A (t=2) is the vertex of the rate function (maximum rate), a common mistake of maximizing the rate instead of the accumulation. Choice C (t=5) is the endpoint but water has been draining from t=4 to t=5. Choice D (t=0) is wrong since water flows in immediately after t=0.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q280",
@@ -8827,7 +9278,8 @@ var APCALC_MCQ = [
       "Midpoint sum < integral from 1 to 5 of f(x) dx < Trapezoidal sum"
     ],
     "answer": 1,
-    "explanation": "For a concave down function, the trapezoidal rule underestimates the integral because the trapezoids cut below the curve, while the midpoint rule overestimates because the tangent line at the midpoint lies above the curve. So Trapezoidal sum < integral < Midpoint sum, which is choice B. Choice A is wrong because we cannot determine whether the left Riemann sum is greater than the integral without knowing if f is increasing or decreasing. Choice C is wrong for the same reason — concavity alone does not determine the relationship of left and right sums to the integral. Choice D reverses the trapezoidal and midpoint relationships, a common student error of confusing concave up and concave down behavior."
+    "explanation": "For a concave down function, the trapezoidal rule underestimates the integral because the trapezoids cut below the curve, while the midpoint rule overestimates because the tangent line at the midpoint lies above the curve. So Trapezoidal sum < integral < Midpoint sum, which is choice B. Choice A is wrong because we cannot determine whether the left Riemann sum is greater than the integral without knowing if f is increasing or decreasing. Choice C is wrong for the same reason — concavity alone does not determine the relationship of left and right sums to the integral. Choice D reverses the trapezoidal and midpoint relationships, a common student error of confusing concave up and concave down behavior.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q281",
@@ -8847,7 +9299,8 @@ var APCALC_MCQ = [
       "t = 2 - sqrt(2)"
     ],
     "answer": 1,
-    "explanation": "The net rate of change of water in the tank is R(t) - 2 = 4t - t^2 - 2 = -(t^2 - 4t + 2). The amount of water is maximized when the net rate equals zero: t^2 - 4t + 2 = 0. By the quadratic formula, t = (4 +/- sqrt(16 - 8))/2 = 2 +/- sqrt(2). Since t = 2 - sqrt(2) approximately 0.586 makes the net rate change from negative to positive (net rate is negative just before), and t = 2 + sqrt(2) approximately 3.414 makes the net rate change from positive to negative, the maximum occurs at t = 2 + sqrt(2). Choice A is wrong because students may set R(t) = 0 or find the vertex of the inflow rate rather than the net rate. Choice C is wrong because students may assume the endpoint is the maximum. Choice D gives the other root where the net rate changes from negative to positive, which is actually a minimum of the water level."
+    "explanation": "The net rate of change of water in the tank is R(t) - 2 = 4t - t^2 - 2 = -(t^2 - 4t + 2). The amount of water is maximized when the net rate equals zero: t^2 - 4t + 2 = 0. By the quadratic formula, t = (4 +/- sqrt(16 - 8))/2 = 2 +/- sqrt(2). Since t = 2 - sqrt(2) approximately 0.586 makes the net rate change from negative to positive (net rate is negative just before), and t = 2 + sqrt(2) approximately 3.414 makes the net rate change from positive to negative, the maximum occurs at t = 2 + sqrt(2). Choice A is wrong because students may set R(t) = 0 or find the vertex of the inflow rate rather than the net rate. Choice C is wrong because students may assume the endpoint is the maximum. Choice D gives the other root where the net rate changes from negative to positive, which is actually a minimum of the water level.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q284",
@@ -8867,7 +9320,8 @@ var APCALC_MCQ = [
       "2(e^4 - 1)"
     ],
     "answer": 0,
-    "explanation": "Let u = x^2, so du = 2x dx, meaning x dx = du/2. When x = 0, u = 0; when x = 2, u = 4. The integral becomes (1/2) * integral from 0 to 4 of e^u du = (1/2)(e^4 - e^0) = (1/2)(e^4 - 1). Choice B is wrong because it omits the 1/2 factor from the substitution. Choice C is wrong because it forgets to subtract the lower bound evaluation e^0 = 1. Choice D is wrong because it multiplies by 2 instead of 1/2, a common error when solving for du."
+    "explanation": "Let u = x^2, so du = 2x dx, meaning x dx = du/2. When x = 0, u = 0; when x = 2, u = 4. The integral becomes (1/2) * integral from 0 to 4 of e^u du = (1/2)(e^4 - e^0) = (1/2)(e^4 - 1). Choice B is wrong because it omits the 1/2 factor from the substitution. Choice C is wrong because it forgets to subtract the lower bound evaluation e^0 = 1. Choice D is wrong because it multiplies by 2 instead of 1/2, a common error when solving for du.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q285",
@@ -8887,7 +9341,8 @@ var APCALC_MCQ = [
       "x^2 - x + 4 ln|x + 1| + C"
     ],
     "answer": 0,
-    "explanation": "Perform polynomial long division: (x^2 + 3) / (x + 1) = x - 1 + 4/(x + 1). Integrating term by term: integral of x dx = x^2/2, integral of -1 dx = -x, integral of 4/(x + 1) dx = 4 ln|x + 1|. So the answer is (x^2)/2 - x + 4 ln|x + 1| + C. Choice B has +x instead of -x, a sign error in the long division quotient. Choice C uses 2 instead of 4 for the remainder, reflecting an arithmetic error in the division. Choice D has x^2 instead of x^2/2, forgetting to apply the power rule correctly when integrating x."
+    "explanation": "Perform polynomial long division: (x^2 + 3) / (x + 1) = x - 1 + 4/(x + 1). Integrating term by term: integral of x dx = x^2/2, integral of -1 dx = -x, integral of 4/(x + 1) dx = 4 ln|x + 1|. So the answer is (x^2)/2 - x + 4 ln|x + 1| + C. Choice B has +x instead of -x, a sign error in the long division quotient. Choice C uses 2 instead of 4 for the remainder, reflecting an arithmetic error in the division. Choice D has x^2 instead of x^2/2, forgetting to apply the power rule correctly when integrating x.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q286",
@@ -8907,7 +9362,8 @@ var APCALC_MCQ = [
       "(1/4) arctan((x + 3)/2) + C"
     ],
     "answer": 0,
-    "explanation": "Complete the square: x^2 + 6x + 13 = (x + 3)^2 + 4. The integral becomes integral of 1/((x + 3)^2 + 4) dx. Using the formula integral of 1/(u^2 + a^2) du = (1/a) arctan(u/a) + C with u = x + 3 and a = 2, we get (1/2) arctan((x + 3)/2) + C. Choice B forgets the 1/a = 1/2 factor out front. Choice C incorrectly uses a^2 = 4 instead of a = 2 in the denominator of the arctan argument. Choice D uses 1/a^2 = 1/4 instead of 1/a = 1/2 as the leading coefficient."
+    "explanation": "Complete the square: x^2 + 6x + 13 = (x + 3)^2 + 4. The integral becomes integral of 1/((x + 3)^2 + 4) dx. Using the formula integral of 1/(u^2 + a^2) du = (1/a) arctan(u/a) + C with u = x + 3 and a = 2, we get (1/2) arctan((x + 3)/2) + C. Choice B forgets the 1/a = 1/2 factor out front. Choice C incorrectly uses a^2 = 4 instead of a = 2 in the denominator of the arctan argument. Choice D uses 1/a^2 = 1/4 instead of 1/a = 1/2 as the leading coefficient.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q288",
@@ -8927,7 +9383,8 @@ var APCALC_MCQ = [
       "2/3"
     ],
     "answer": 2,
-    "explanation": "The area is the integral from 0 to 1 of (x - x^2) dx = [x^2/2 - x^3/3] from 0 to 1 = 1/2 - 1/3 = 1/6. Choice B (1/3) results from forgetting to subtract one function and only integrating x^2. Choice A (1/2) comes from only integrating x. Choice D (2/3) comes from adding 1/2 and 1/3 instead of subtracting."
+    "explanation": "The area is the integral from 0 to 1 of (x - x^2) dx = [x^2/2 - x^3/3] from 0 to 1 = 1/2 - 1/3 = 1/6. Choice B (1/3) results from forgetting to subtract one function and only integrating x^2. Choice A (1/2) comes from only integrating x. Choice D (2/3) comes from adding 1/2 and 1/3 instead of subtracting.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q290",
@@ -8947,7 +9404,8 @@ var APCALC_MCQ = [
       "\\(4\\)"
     ],
     "answer": 2,
-    "explanation": "The curves intersect where x^2 = 2x, so x = 0 and x = 2. The area is the integral from 0 to 2 of (2x - x^2) dx = [x^2 - x^3/3] from 0 to 2 = (4 - 8/3) = 4/3. Choice B (8/3) results from forgetting to subtract one curve from the other or doubling. Choice A (2/3) comes from a sign or algebra error. Choice D (4) results from integrating only 2x without subtracting x^2."
+    "explanation": "The curves intersect where x^2 = 2x, so x = 0 and x = 2. The area is the integral from 0 to 2 of (2x - x^2) dx = [x^2 - x^3/3] from 0 to 2 = (4 - 8/3) = 4/3. Choice B (8/3) results from forgetting to subtract one curve from the other or doubling. Choice A (2/3) comes from a sign or algebra error. Choice D (4) results from integrating only 2x without subtracting x^2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q291",
@@ -8967,7 +9425,8 @@ var APCALC_MCQ = [
       "\\(\\frac{16\\pi}{3}\\)"
     ],
     "answer": 2,
-    "explanation": "Using the disc method, V = pi * integral from 0 to 4 of (sqrt(x))^2 dx = pi * integral from 0 to 4 of x dx = pi * [x^2/2] from 0 to 4 = pi * 8 = 8pi. Choice B (4pi) comes from forgetting to square the radius or an integration error. Choice A (16pi) comes from not dividing by 2 during integration. Choice D (16pi/3) results from incorrectly using x^(3/2) as the integrand."
+    "explanation": "Using the disc method, V = pi * integral from 0 to 4 of (sqrt(x))^2 dx = pi * integral from 0 to 4 of x dx = pi * [x^2/2] from 0 to 4 = pi * 8 = 8pi. Choice B (4pi) comes from forgetting to square the radius or an integration error. Choice A (16pi) comes from not dividing by 2 during integration. Choice D (16pi/3) results from incorrectly using x^(3/2) as the integrand.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q292",
@@ -8987,7 +9446,8 @@ var APCALC_MCQ = [
       "\\(2\\pi \\int_0^1 x(x - x^2)\\, dx\\)"
     ],
     "answer": 2,
-    "explanation": "The washer method gives V = pi * integral of (R^2 - r^2) dx where R = x (outer) and r = x^2 (inner) on [0,1]. So V = pi * integral from 0 to 1 of (x^2 - x^4) dx. Choice B incorrectly squares the difference (x - x^2)^2 instead of taking the difference of squares. Choice A squares the already-squared terms. Choice D is the shell method setup, which would be used for revolution about the y-axis."
+    "explanation": "The washer method gives V = pi * integral of (R^2 - r^2) dx where R = x (outer) and r = x^2 (inner) on [0,1]. So V = pi * integral from 0 to 1 of (x^2 - x^4) dx. Choice B incorrectly squares the difference (x - x^2)^2 instead of taking the difference of squares. Choice A squares the already-squared terms. Choice D is the shell method setup, which would be used for revolution about the y-axis.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q293",
@@ -9007,7 +9467,8 @@ var APCALC_MCQ = [
       "\\(\\frac{\\pi}{3}\\)"
     ],
     "answer": 2,
-    "explanation": "Using the shell method: V = 2pi * integral from 0 to 1 of x * x^2 dx = 2pi * integral from 0 to 1 of x^3 dx = 2pi * [x^4/4] from 0 to 1 = 2pi * (1/4) = pi/2. Choice B (2pi/3) comes from integrating x * x instead of x * x^2 (using the wrong height). Choice A (pi) comes from forgetting the 1/4 factor. Choice D (pi/3) results from using the disc method formula incorrectly."
+    "explanation": "Using the shell method: V = 2pi * integral from 0 to 1 of x * x^2 dx = 2pi * integral from 0 to 1 of x^3 dx = 2pi * [x^4/4] from 0 to 1 = 2pi * (1/4) = pi/2. Choice B (2pi/3) comes from integrating x * x instead of x * x^2 (using the wrong height). Choice A (pi) comes from forgetting the 1/4 factor. Choice D (pi/3) results from using the disc method formula incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q294",
@@ -9027,7 +9488,8 @@ var APCALC_MCQ = [
       "\\(\\int_0^1 (1 + x^4)\\, dx\\)"
     ],
     "answer": 1,
-    "explanation": "Arc length = integral of sqrt(1 + (dy/dx)^2) dx. Here dy/dx = x^2, so (dy/dx)^2 = x^4. The integral is integral from 0 to 1 of sqrt(1 + x^4) dx. Choice A uses x^6, which would come from squaring x^3 instead of x^2. Choice C uses x^3, forgetting to square the derivative. Choice D forgets the square root in the arc length formula."
+    "explanation": "Arc length = integral of sqrt(1 + (dy/dx)^2) dx. Here dy/dx = x^2, so (dy/dx)^2 = x^4. The integral is integral from 0 to 1 of sqrt(1 + x^4) dx. Choice A uses x^6, which would come from squaring x^3 instead of x^2. Choice C uses x^3, forgetting to square the derivative. Choice D forgets the square root in the arc length formula.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q295",
@@ -9047,7 +9509,8 @@ var APCALC_MCQ = [
       "\\(8\\)"
     ],
     "answer": 1,
-    "explanation": "Setting y^2 = 4 - y^2 gives y^2 = 2, so y = ±sqrt(2). The area is integral from -sqrt(2) to sqrt(2) of [(4 - y^2) - y^2] dy = integral of (4 - 2y^2) dy = [4y - 2y^3/3] from -sqrt(2) to sqrt(2) = 2[4sqrt(2) - 2(2sqrt(2))/3] = 2[4sqrt(2) - 4sqrt(2)/3] = 2[8sqrt(2)/3] = 16sqrt(2)/3. Choice A comes from only integrating from 0 to sqrt(2) and forgetting to double. Choice C (32/3) incorrectly uses y = ±2 as bounds. Choice D (8) comes from a simplified estimate without proper integration."
+    "explanation": "Setting y^2 = 4 - y^2 gives y^2 = 2, so y = ±sqrt(2). The area is integral from -sqrt(2) to sqrt(2) of [(4 - y^2) - y^2] dy = integral of (4 - 2y^2) dy = [4y - 2y^3/3] from -sqrt(2) to sqrt(2) = 2[4sqrt(2) - 2(2sqrt(2))/3] = 2[4sqrt(2) - 4sqrt(2)/3] = 2[8sqrt(2)/3] = 16sqrt(2)/3. Choice A comes from only integrating from 0 to sqrt(2) and forgetting to double. Choice C (32/3) incorrectly uses y = ±2 as bounds. Choice D (8) comes from a simplified estimate without proper integration.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q296",
@@ -9067,7 +9530,8 @@ var APCALC_MCQ = [
       "\\(\\frac{128\\pi}{7}\\)"
     ],
     "answer": 1,
-    "explanation": "Revolving about the y-axis, we use the disc method with x as a function of y: x = y^(1/3). V = pi * integral from 0 to 8 of [y^(1/3)]^2 dy = pi * integral from 0 to 8 of y^(2/3) dy = pi * [y^(5/3)/(5/3)] from 0 to 8 = pi * (3/5) * 8^(5/3) = pi * (3/5) * 32 = 96pi/5. Choice A (48pi/5) comes from a factor-of-2 error. Choice C (32pi) forgets the 3/5 coefficient. Choice D (128pi/7) uses the wrong exponent in integration, treating it as y^(6/7) or similar."
+    "explanation": "Revolving about the y-axis, we use the disc method with x as a function of y: x = y^(1/3). V = pi * integral from 0 to 8 of [y^(1/3)]^2 dy = pi * integral from 0 to 8 of y^(2/3) dy = pi * [y^(5/3)/(5/3)] from 0 to 8 = pi * (3/5) * 8^(5/3) = pi * (3/5) * 32 = 96pi/5. Choice A (48pi/5) comes from a factor-of-2 error. Choice C (32pi) forgets the 3/5 coefficient. Choice D (128pi/7) uses the wrong exponent in integration, treating it as y^(6/7) or similar.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q299",
@@ -9087,7 +9551,8 @@ var APCALC_MCQ = [
       "4"
     ],
     "answer": 1,
-    "explanation": "On the interval [pi/4, 5pi/4], sin(x) >= cos(x). The area is the integral from pi/4 to 5pi/4 of [sin(x) - cos(x)] dx = [-cos(x) - sin(x)] evaluated from pi/4 to 5pi/4. At x = 5pi/4: -cos(5pi/4) - sin(5pi/4) = -(-sqrt(2)/2) - (-sqrt(2)/2) = sqrt(2). At x = pi/4: -cos(pi/4) - sin(pi/4) = -sqrt(2)/2 - sqrt(2)/2 = -sqrt(2). The area = sqrt(2) - (-sqrt(2)) = 2*sqrt(2). Choice A (sqrt(2)) results from dropping one of the endpoint evaluations. Choice C (2) comes from incorrectly integrating without the cosine term. Choice D (4) results from incorrectly doubling the answer or mishandling the absolute value over a wrong interval."
+    "explanation": "On the interval [pi/4, 5pi/4], sin(x) >= cos(x). The area is the integral from pi/4 to 5pi/4 of [sin(x) - cos(x)] dx = [-cos(x) - sin(x)] evaluated from pi/4 to 5pi/4. At x = 5pi/4: -cos(5pi/4) - sin(5pi/4) = -(-sqrt(2)/2) - (-sqrt(2)/2) = sqrt(2). At x = pi/4: -cos(pi/4) - sin(pi/4) = -sqrt(2)/2 - sqrt(2)/2 = -sqrt(2). The area = sqrt(2) - (-sqrt(2)) = 2*sqrt(2). Choice A (sqrt(2)) results from dropping one of the endpoint evaluations. Choice C (2) comes from incorrectly integrating without the cosine term. Choice D (4) results from incorrectly doubling the answer or mishandling the absolute value over a wrong interval.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q302",
@@ -9107,7 +9572,8 @@ var APCALC_MCQ = [
       "pi * integral from 0 to 2 of [(2x-1)^2 - (x^2-1)^2] dx"
     ],
     "answer": 1,
-    "explanation": "The curves y = x^2 and y = 2x intersect at x = 0 and x = 2. When revolving about y = -1, the outer radius is the distance from y = -1 to the farther curve (y = 2x), giving R_outer = 2x - (-1) = 2x + 1. The inner radius is the distance from y = -1 to the closer curve (y = x^2), giving R_inner = x^2 - (-1) = x^2 + 1. The washer method yields V = pi * integral from 0 to 2 of [(2x+1)^2 - (x^2+1)^2] dx, which is choice B. Choice A is the common error of ignoring the shift to y = -1 entirely (revolving about y = 0 instead). Choice C incorrectly subtracts 1 instead of adding 1, as if the axis were y = 1. Choice D makes the same subtraction error and also reverses which function is the outer versus inner radius."
+    "explanation": "The curves y = x^2 and y = 2x intersect at x = 0 and x = 2. When revolving about y = -1, the outer radius is the distance from y = -1 to the farther curve (y = 2x), giving R_outer = 2x - (-1) = 2x + 1. The inner radius is the distance from y = -1 to the closer curve (y = x^2), giving R_inner = x^2 - (-1) = x^2 + 1. The washer method yields V = pi * integral from 0 to 2 of [(2x+1)^2 - (x^2+1)^2] dx, which is choice B. Choice A is the common error of ignoring the shift to y = -1 entirely (revolving about y = 0 instead). Choice C incorrectly subtracts 1 instead of adding 1, as if the axis were y = 1. Choice D makes the same subtraction error and also reverses which function is the outer versus inner radius.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q303",
@@ -9127,7 +9593,8 @@ var APCALC_MCQ = [
       "Removable discontinuity at x = -1 and vertical asymptote at x = 1"
     ],
     "answer": 0,
-    "explanation": "Factor the numerator: x^2 - 4x + 3 = (x - 1)(x - 3). Factor the denominator: x^2 - 1 = (x - 1)(x + 1). The common factor (x - 1) cancels, leaving f(x) = (x - 3)/(x + 1) for x $\\neq$ 1. At x = 1, the limit exists (equals -2/2 = -1) but f(1) is undefined, so there is a removable discontinuity. At x = -1, the simplified function has a nonzero numerator (-4) over zero, producing a vertical asymptote. Choice B is wrong because it treats both as vertical asymptotes, ignoring the cancellation. Choice C is wrong because x = -1 does not have a finite limit. Choice D reverses which point is removable and which is an asymptote."
+    "explanation": "Factor the numerator: x^2 - 4x + 3 = (x - 1)(x - 3). Factor the denominator: x^2 - 1 = (x - 1)(x + 1). The common factor (x - 1) cancels, leaving f(x) = (x - 3)/(x + 1) for x $\\neq$ 1. At x = 1, the limit exists (equals -2/2 = -1) but f(1) is undefined, so there is a removable discontinuity. At x = -1, the simplified function has a nonzero numerator (-4) over zero, producing a vertical asymptote. Choice B is wrong because it treats both as vertical asymptotes, ignoring the cancellation. Choice C is wrong because x = -1 does not have a finite limit. Choice D reverses which point is removable and which is an asymptote.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q304",
@@ -9147,7 +9614,8 @@ var APCALC_MCQ = [
       "k = -2 and x = 2 is a removable discontinuity"
     ],
     "answer": 2,
-    "explanation": "Factor the numerator: x^2 - 4x + 3 = (x-1)(x-3). Factor the denominator: x^2 - 5x + 6 = (x-2)(x-3). The simplified form is (x-1)/(x-2) for x != 3. At x = 3: lim as x->3 of (x-1)/(x-2) = 2/1 = 2, so k = 2 makes f continuous at x = 3. At x = 2: the simplified function (x-1)/(x-2) has a non-zero numerator (2-1 = 1) and a zero denominator, producing a vertical asymptote (infinite discontinuity). Choice A is wrong because it incorrectly identifies x = 2 as removable - a common error when students see a factored form and assume all discontinuities from the original rational function are removable. Choice B has the wrong k value. Choice D has both errors."
+    "explanation": "Factor the numerator: x^2 - 4x + 3 = (x-1)(x-3). Factor the denominator: x^2 - 5x + 6 = (x-2)(x-3). The simplified form is (x-1)/(x-2) for x != 3. At x = 3: lim as x->3 of (x-1)/(x-2) = 2/1 = 2, so k = 2 makes f continuous at x = 3. At x = 2: the simplified function (x-1)/(x-2) has a non-zero numerator (2-1 = 1) and a zero denominator, producing a vertical asymptote (infinite discontinuity). Choice A is wrong because it incorrectly identifies x = 2 as removable - a common error when students see a factored form and assume all discontinuities from the original rational function are removable. Choice B has the wrong k value. Choice D has both errors.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q305",
@@ -9167,7 +9635,8 @@ var APCALC_MCQ = [
       "-4"
     ],
     "answer": 0,
-    "explanation": "Evaluate both bounding functions at x = 2. The lower bound is (2)^2 - 4(2) + 4 = 4 - 8 + 4 = 0. The upper bound is (2)^2 - 2(2) = 4 - 4 = 0. Since both bounds approach 0 as x approaches 2, by the Squeeze Theorem, the limit of f(x) is 0. Choice B (2) comes from confusing the value x approaches with the limit value. Choice C is wrong because the Squeeze Theorem guarantees existence when both bounds converge to the same value. Choice D results from an algebra error such as evaluating -(2)^2 instead of (2)^2."
+    "explanation": "Evaluate both bounding functions at x = 2. The lower bound is (2)^2 - 4(2) + 4 = 4 - 8 + 4 = 0. The upper bound is (2)^2 - 2(2) = 4 - 4 = 0. Since both bounds approach 0 as x approaches 2, by the Squeeze Theorem, the limit of f(x) is 0. Choice B (2) comes from confusing the value x approaches with the limit value. Choice C is wrong because the Squeeze Theorem guarantees existence when both bounds converge to the same value. Choice D results from an algebra error such as evaluating -(2)^2 instead of (2)^2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q306",
@@ -9187,7 +9656,8 @@ var APCALC_MCQ = [
       "k = 3; otherwise an infinite discontinuity, because (x - 2) does not cancel from the denominator"
     ],
     "answer": 0,
-    "explanation": "Factor the numerator as (x - 2)(x^2 + 2x + 4) and the denominator as (x - 2)(x + 2). After canceling (x - 2), the simplified form is (x^2 + 2x + 4)/(x + 2). Evaluating at x = 2 gives (4 + 4 + 4)/(2 + 2) = 12/4 = 3. So the limit as x approaches 2 is 3, meaning k must equal 3 for continuity. If k is any other value, the two-sided limit still exists and equals 3, but g(2) does not equal 3, so the discontinuity is removable - not a jump or infinite discontinuity. Choice B is wrong because both one-sided limits equal 3, so there is no jump. Choice C is wrong because the limit equals 3, not 2. Choice D is wrong because the (x - 2) factor cancels completely from numerator and denominator, so there is no vertical asymptote and hence no infinite discontinuity. Only choice A correctly identifies both k = 3 and the removable nature of the discontinuity when k is chosen incorrectly."
+    "explanation": "Factor the numerator as (x - 2)(x^2 + 2x + 4) and the denominator as (x - 2)(x + 2). After canceling (x - 2), the simplified form is (x^2 + 2x + 4)/(x + 2). Evaluating at x = 2 gives (4 + 4 + 4)/(2 + 2) = 12/4 = 3. So the limit as x approaches 2 is 3, meaning k must equal 3 for continuity. If k is any other value, the two-sided limit still exists and equals 3, but g(2) does not equal 3, so the discontinuity is removable - not a jump or infinite discontinuity. Choice B is wrong because both one-sided limits equal 3, so there is no jump. Choice C is wrong because the limit equals 3, not 2. Choice D is wrong because the (x - 2) factor cancels completely from numerator and denominator, so there is no vertical asymptote and hence no infinite discontinuity. Only choice A correctly identifies both k = 3 and the removable nature of the discontinuity when k is chosen incorrectly.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q307",
@@ -9207,7 +9677,8 @@ var APCALC_MCQ = [
       "The claim is justified because h is continuous on [-1, 3]"
     ],
     "answer": 0,
-    "explanation": "The IVT requires continuity on the closed interval in question. Since h has a non-removable discontinuity at x = 1 from the right, h is not continuous on [1, 3], so the IVT cannot be applied on that interval to guarantee h(c) = 1. Choice B correctly identifies a valid IVT application on [-1, 1] but answers a different question than what the student claimed (the student specified c in (1, 3), not (-1, 1)). Choice C ignores the continuity requirement entirely - having the right function values is necessary but not sufficient. Choice D is false because the problem explicitly states h has a non-removable discontinuity at x = 1."
+    "explanation": "The IVT requires continuity on the closed interval in question. Since h has a non-removable discontinuity at x = 1 from the right, h is not continuous on [1, 3], so the IVT cannot be applied on that interval to guarantee h(c) = 1. Choice B correctly identifies a valid IVT application on [-1, 1] but answers a different question than what the student claimed (the student specified c in (1, 3), not (-1, 1)). Choice C ignores the continuity requirement entirely - having the right function values is necessary but not sufficient. Choice D is false because the problem explicitly states h has a non-removable discontinuity at x = 1.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q308",
@@ -9227,7 +9698,8 @@ var APCALC_MCQ = [
       "x = 2 only"
     ],
     "answer": 0,
-    "explanation": "Factor: f(x) = (x-1)(x-3)/((x-2)(x-3)). For x != 3, this simplifies to (x-1)/(x-2). At x = 3, the limit is (3-1)/(3-2) = 2, which exists and is finite, but f(3) = 5 != 2, so x = 3 is a removable discontinuity. At x = 2, the simplified form (x-1)/(x-2) has a vertical asymptote (limit is +/- infinity), so x = 2 is a non-removable (infinite) discontinuity. At x = 1, the simplified function gives (1-1)/(1-2) = 0, and f(1) = 0, so f is actually continuous at x = 1. The correct answer is x = 3 only."
+    "explanation": "Factor: f(x) = (x-1)(x-3)/((x-2)(x-3)). For x != 3, this simplifies to (x-1)/(x-2). At x = 3, the limit is (3-1)/(3-2) = 2, which exists and is finite, but f(3) = 5 != 2, so x = 3 is a removable discontinuity. At x = 2, the simplified form (x-1)/(x-2) has a vertical asymptote (limit is +/- infinity), so x = 2 is a non-removable (infinite) discontinuity. At x = 1, the simplified function gives (1-1)/(1-2) = 0, and f(1) = 0, so f is actually continuous at x = 1. The correct answer is x = 3 only.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u1_q309",
@@ -9247,7 +9719,8 @@ var APCALC_MCQ = [
       "g has a zero on (0, 4) but the subinterval cannot be determined"
     ],
     "answer": 2,
-    "explanation": "Since f is continuous on [0,4], g(x) = f(x) - x is also continuous on [0,4]. Evaluate: g(0) = f(0) - 0 = -3, g(2) = f(2) - 2 = 3, g(4) = f(4) - 4 = -2. On [0,2]: g(0) = -3 < 0 and g(2) = 3 > 0, so by IVT there is at least one c in (0,2) where g(c) = 0. On [2,4]: g(2) = 3 > 0 and g(4) = -2 < 0, so by IVT there is at least one c in (2,4) where g(c) = 0. Therefore g has at least one zero in each subinterval. Students who only check one interval may choose A or B. Students who think IVT cannot specify subintervals choose D. The correct answer is C."
+    "explanation": "Since f is continuous on [0,4], g(x) = f(x) - x is also continuous on [0,4]. Evaluate: g(0) = f(0) - 0 = -3, g(2) = f(2) - 2 = 3, g(4) = f(4) - 4 = -2. On [0,2]: g(0) = -3 < 0 and g(2) = 3 > 0, so by IVT there is at least one c in (0,2) where g(c) = 0. On [2,4]: g(2) = 3 > 0 and g(4) = -2 < 0, so by IVT there is at least one c in (2,4) where g(c) = 0. Therefore g has at least one zero in each subinterval. Students who only check one interval may choose A or B. Students who think IVT cannot specify subintervals choose D. The correct answer is C.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q310",
@@ -9267,7 +9740,8 @@ var APCALC_MCQ = [
       "15x^4 - 2cos(x) + 7"
     ],
     "answer": 1,
-    "explanation": "First, find f'(x) = 15x^4 - 2cos(x) + 7. Then f''(x) = 60x^3 + 2sin(x). The derivative of -2cos(x) is 2sin(x), and the constant 7 differentiates to 0. Choice A (60x^3 + 2sin(x) + 7) is wrong because it keeps the constant 7 through both derivatives. Choice C (60x^3 - 2sin(x)) reflects a sign error where the student forgot that the derivative of -cos(x) is sin(x), not -sin(x). Choice D is f'(x), not f''(x) - a common mistake of stopping after only one differentiation."
+    "explanation": "First, find f'(x) = 15x^4 - 2cos(x) + 7. Then f''(x) = 60x^3 + 2sin(x). The derivative of -2cos(x) is 2sin(x), and the constant 7 differentiates to 0. Choice A (60x^3 + 2sin(x) + 7) is wrong because it keeps the constant 7 through both derivatives. Choice C (60x^3 - 2sin(x)) reflects a sign error where the student forgot that the derivative of -cos(x) is sin(x), not -sin(x). Choice D is f'(x), not f''(x) - a common mistake of stopping after only one differentiation.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q311",
@@ -9287,7 +9761,8 @@ var APCALC_MCQ = [
       "f'(0) does not exist because the left- and right-hand limits differ"
     ],
     "answer": 2,
-    "explanation": "Using the limit definition, f'(0) = lim(h->0) [h^(1/3) - 0]/h = lim(h->0) 1/h^(2/3). As h approaches 0, h^(2/3) approaches 0 from the positive side (since h^(2/3) is always nonneg), so 1/h^(2/3) approaches +infinity. The derivative does not exist because the limit is infinite, meaning the graph has a vertical tangent at x = 0. Choice A incorrectly assumes the cube root flattens out. Choice B results from applying the power rule without checking its validity at x = 0 (the power rule gives (1/3)x^(-2/3), which is undefined at x = 0). Choice D confuses this with a cusp where one-sided limits differ in sign; here both sides go to +infinity."
+    "explanation": "Using the limit definition, f'(0) = lim(h->0) [h^(1/3) - 0]/h = lim(h->0) 1/h^(2/3). As h approaches 0, h^(2/3) approaches 0 from the positive side (since h^(2/3) is always nonneg), so 1/h^(2/3) approaches +infinity. The derivative does not exist because the limit is infinite, meaning the graph has a vertical tangent at x = 0. Choice A incorrectly assumes the cube root flattens out. Choice B results from applying the power rule without checking its validity at x = 0 (the power rule gives (1/3)x^(-2/3), which is undefined at x = 0). Choice D confuses this with a cusp where one-sided limits differ in sign; here both sides go to +infinity.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q312",
@@ -9307,7 +9782,8 @@ var APCALC_MCQ = [
       "36x^2 - sin(x)"
     ],
     "answer": 1,
-    "explanation": "f(x) = 3x^4 - sin(x). First derivative: f'(x) = 12x^3 - cos(x). Second derivative: f''(x) = 36x^2 - (-sin(x)) = 36x^2 + sin(x). Third derivative: f'''(x) = 72x + cos(x). Choice A (72x - cos(x)) results from incorrectly keeping the negative sign through all trig derivatives, forgetting that the derivative of -sin(x) is -cos(x) and the derivative of -cos(x) is sin(x), not -sin(x). Choices C and D are the second derivative (correct and incorrect sign versions), a common error from stopping one step too early."
+    "explanation": "f(x) = 3x^4 - sin(x). First derivative: f'(x) = 12x^3 - cos(x). Second derivative: f''(x) = 36x^2 - (-sin(x)) = 36x^2 + sin(x). Third derivative: f'''(x) = 72x + cos(x). Choice A (72x - cos(x)) results from incorrectly keeping the negative sign through all trig derivatives, forgetting that the derivative of -sin(x) is -cos(x) and the derivative of -cos(x) is sin(x), not -sin(x). Choices C and D are the second derivative (correct and incorrect sign versions), a common error from stopping one step too early.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q313",
@@ -9327,7 +9803,8 @@ var APCALC_MCQ = [
       "c = 3"
     ],
     "answer": 0,
-    "explanation": "Average rate of change on [1, 4]: [g(4) - g(1)]/(4 - 1) = [(64 - 24) - (1 - 6)]/3 = [40 - (-5)]/3 = 45/3 = 15. The instantaneous rate of change is g'(x) = 3x^2 - 6. Setting 3x^2 - 6 = 15 gives 3x^2 = 21, so x^2 = 7 and x = sqrt(7) (approximately 2.646, which is in (1, 4)). Choice B (5/2) comes from averaging the endpoints (1+4)/2, confusing the midpoint with the MVT value. Choice C (sqrt(3)) results from setting 3x^2 - 6 = 3, an arithmetic error. Choice D (c = 3) is a common guess from picking a convenient integer in the interval."
+    "explanation": "Average rate of change on [1, 4]: [g(4) - g(1)]/(4 - 1) = [(64 - 24) - (1 - 6)]/3 = [40 - (-5)]/3 = 45/3 = 15. The instantaneous rate of change is g'(x) = 3x^2 - 6. Setting 3x^2 - 6 = 15 gives 3x^2 = 21, so x^2 = 7 and x = sqrt(7) (approximately 2.646, which is in (1, 4)). Choice B (5/2) comes from averaging the endpoints (1+4)/2, confusing the midpoint with the MVT value. Choice C (sqrt(3)) results from setting 3x^2 - 6 = 3, an arithmetic error. Choice D (c = 3) is a common guess from picking a convenient integer in the interval.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q314",
@@ -9347,7 +9824,8 @@ var APCALC_MCQ = [
       "f'(0) does not exist because the left- and right-hand limits of the difference quotient are not equal"
     ],
     "answer": 0,
-    "explanation": "f(x) = x|x| can be written as x^2 for x >= 0 and -x^2 for x < 0. The difference quotient at 0 is f(h)/h. For h > 0, f(h)/h = h^2/h = h -> 0. For h < 0, f(h)/h = -h^2/h = -h -> 0. Both one-sided limits equal 0, so f'(0) = 0. Choice B comes from confusing f with |x| and thinking the slope is 1. Choice C is wrong because f is continuous at 0. Choice D is a common misconception from students who assume absolute value functions are never differentiable at the critical point."
+    "explanation": "f(x) = x|x| can be written as x^2 for x >= 0 and -x^2 for x < 0. The difference quotient at 0 is f(h)/h. For h > 0, f(h)/h = h^2/h = h -> 0. For h < 0, f(h)/h = -h^2/h = -h -> 0. Both one-sided limits equal 0, so f'(0) = 0. Choice B comes from confusing f with |x| and thinking the slope is 1. Choice C is wrong because f is continuous at 0. Choice D is a common misconception from students who assume absolute value functions are never differentiable at the critical point.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u2_q316",
@@ -9367,7 +9845,8 @@ var APCALC_MCQ = [
       "3"
     ],
     "answer": 3,
-    "explanation": "The average rate of change is (g(4) - g(0))/(4 - 0). g(4) = 64 - 96 + 36 + 2 = 6 and g(0) = 2, so the average rate is (6 - 2)/4 = 1. The instantaneous rate is g'(x) = 3x^2 - 12x + 9. Setting 3x^2 - 12x + 9 = 1 gives 3x^2 - 12x + 8 = 0. The discriminant is 144 - 96 = 48 > 0, so there are two real solutions: x = (12 ± sqrt(48))/6 = 2 ± (2sqrt(3))/3, approximately 0.845 and 3.155. Both values lie in the open interval (0, 4), giving exactly 2 values of c in the open interval."
+    "explanation": "The average rate of change is (g(4) - g(0))/(4 - 0). g(4) = 64 - 96 + 36 + 2 = 6 and g(0) = 2, so the average rate is (6 - 2)/4 = 1. The instantaneous rate is g'(x) = 3x^2 - 12x + 9. Setting 3x^2 - 12x + 9 = 1 gives 3x^2 - 12x + 8 = 0. The discriminant is 144 - 96 = 48 > 0, so there are two real solutions: x = (12 ± sqrt(48))/6 = 2 ± (2sqrt(3))/3, approximately 0.845 and 3.155. Both values lie in the open interval (0, 4), giving exactly 2 values of c in the open interval.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q321",
@@ -9387,7 +9866,8 @@ var APCALC_MCQ = [
       "1 / (1 + 4x^2)"
     ],
     "answer": 1,
-    "explanation": "The derivative of arctan(u) is 1/(1 + u^2) * du/dx. Here u = 4x, so du/dx = 4 and u^2 = 16x^2. Thus g'(x) = 4/(1 + 16x^2). Choice A forgets the chain rule factor of 4. Choice C incorrectly squares only the coefficient (writing 4x^2 instead of 16x^2) while remembering the chain rule multiplier. Choice D makes both errors: forgetting the chain rule multiplier and not squaring properly."
+    "explanation": "The derivative of arctan(u) is 1/(1 + u^2) * du/dx. Here u = 4x, so du/dx = 4 and u^2 = 16x^2. Thus g'(x) = 4/(1 + 16x^2). Choice A forgets the chain rule factor of 4. Choice C incorrectly squares only the coefficient (writing 4x^2 instead of 16x^2) while remembering the chain rule multiplier. Choice D makes both errors: forgetting the chain rule multiplier and not squaring properly.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u3_q322",
@@ -9407,7 +9887,8 @@ var APCALC_MCQ = [
       "-1"
     ],
     "answer": 1,
-    "explanation": "Using the quotient rule: h'(x) = [(e^x)(x^2 + 1) - (e^x)(2x)] / (x^2 + 1)^2. At x = 0: numerator = (1)(1) - (1)(0) = 1, denominator = (1)^2 = 1, so h'(0) = 1. Choice A results from incorrectly thinking the numerator cancels to zero. Choice C comes from incorrectly computing the numerator as e^0 * (0 + 1) + e^0 * 0 = 2, confusing the subtraction in the quotient rule with addition (a common sign error). Choice D results from reversing the order in the quotient rule numerator, computing (2x)(e^x) - (x^2+1)(e^x)."
+    "explanation": "Using the quotient rule: h'(x) = [(e^x)(x^2 + 1) - (e^x)(2x)] / (x^2 + 1)^2. At x = 0: numerator = (1)(1) - (1)(0) = 1, denominator = (1)^2 = 1, so h'(0) = 1. Choice A results from incorrectly thinking the numerator cancels to zero. Choice C comes from incorrectly computing the numerator as e^0 * (0 + 1) + e^0 * 0 = 2, confusing the subtraction in the quotient rule with addition (a common sign error). Choice D results from reversing the order in the quotient rule numerator, computing (2x)(e^x) - (x^2+1)(e^x).",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q323",
@@ -9427,7 +9908,8 @@ var APCALC_MCQ = [
       "8/pi"
     ],
     "answer": 0,
-    "explanation": "By similar triangles, r/h = 4/8 = 1/2, so r = h/2. The volume of a cone is V = (1/3)pi*r^2*h = (1/3)pi*(h/2)^2*h = pi*h^3/12. Differentiating: dV/dt = (pi*h^2/4)(dh/dt). At h = 4 and dV/dt = 2: 2 = (pi*16/4)(dh/dt) = 4pi*(dh/dt), so dh/dt = 1/(2pi). Choice B (2/pi) results from forgetting the 1/3 in the cone volume formula. Choice C (1/(8pi)) results from an arithmetic error in which the student evaluates pi*h^2/4 at h=4 as 8pi instead of 4pi (e.g., computing 4^2/4 as 2 instead of 4). Choice D (8/pi) results from incorrectly differentiating the volume formula."
+    "explanation": "By similar triangles, r/h = 4/8 = 1/2, so r = h/2. The volume of a cone is V = (1/3)pi*r^2*h = (1/3)pi*(h/2)^2*h = pi*h^3/12. Differentiating: dV/dt = (pi*h^2/4)(dh/dt). At h = 4 and dV/dt = 2: 2 = (pi*16/4)(dh/dt) = 4pi*(dh/dt), so dh/dt = 1/(2pi). Choice B (2/pi) results from forgetting the 1/3 in the cone volume formula. Choice C (1/(8pi)) results from an arithmetic error in which the student evaluates pi*h^2/4 at h=4 as 8pi instead of 4pi (e.g., computing 4^2/4 as 2 instead of 4). Choice D (8/pi) results from incorrectly differentiating the volume formula.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u4_q324",
@@ -9447,7 +9929,8 @@ var APCALC_MCQ = [
       "3"
     ],
     "answer": 2,
-    "explanation": "First compute the average rate of change: f(4) = 64 - 96 + 36 + 1 = 5 and f(0) = 1, so [f(4)-f(0)]/(4-0) = 4/4 = 1. Now f'(x) = 3x^2 - 12x + 9. Setting f'(c) = 1 gives 3c^2 - 12c + 9 = 1, or 3c^2 - 12c + 8 = 0. Using the quadratic formula: c = (12 +/- sqrt(144 - 96))/6 = (12 +/- sqrt(48))/6 = 2 +/- (2sqrt(3))/3. Since 2sqrt(3)/3 is approximately 1.155, both c = 2 - 1.155 = 0.845 and c = 2 + 1.155 = 3.155 lie in (0, 4), giving 2 values. Choice B (1) is a common error from students who assume the MVT guarantees exactly one value. Choice A is wrong because the MVT guarantees at least one. Choice D is wrong because a cubic derivative yields a quadratic equation with at most 2 solutions."
+    "explanation": "First compute the average rate of change: f(4) = 64 - 96 + 36 + 1 = 5 and f(0) = 1, so [f(4)-f(0)]/(4-0) = 4/4 = 1. Now f'(x) = 3x^2 - 12x + 9. Setting f'(c) = 1 gives 3c^2 - 12c + 9 = 1, or 3c^2 - 12c + 8 = 0. Using the quadratic formula: c = (12 +/- sqrt(144 - 96))/6 = (12 +/- sqrt(48))/6 = 2 +/- (2sqrt(3))/3. Since 2sqrt(3)/3 is approximately 1.155, both c = 2 - 1.155 = 0.845 and c = 2 + 1.155 = 3.155 lie in (0, 4), giving 2 values. Choice B (1) is a common error from students who assume the MVT guarantees exactly one value. Choice A is wrong because the MVT guarantees at least one. Choice D is wrong because a cubic derivative yields a quadratic equation with at most 2 solutions.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q325",
@@ -9467,7 +9950,8 @@ var APCALC_MCQ = [
       "2x * sqrt(x^2 + 1)"
     ],
     "answer": 0,
-    "explanation": "By FTC Part 1 combined with the chain rule, g'(x) = sqrt((x^2)^3 + 1) * d/dx(x^2) = sqrt(x^6 + 1) * 2x. Choice B incorrectly substitutes x instead of x^2 into t^3. Choice C forgets the chain rule factor of 2x. Choice D incorrectly simplifies (x^2)^3 as x^2 instead of x^6."
+    "explanation": "By FTC Part 1 combined with the chain rule, g'(x) = sqrt((x^2)^3 + 1) * d/dx(x^2) = sqrt(x^6 + 1) * 2x. Choice B incorrectly substitutes x instead of x^2 into t^3. Choice C forgets the chain rule factor of 2x. Choice D incorrectly simplifies (x^2)^3 as x^2 instead of x^6.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q326",
@@ -9487,7 +9971,8 @@ var APCALC_MCQ = [
       "12"
     ],
     "answer": 0,
-    "explanation": "The average value is (1/(4-0)) * integral from 0 to 4 of (3x^2 - 6x) dx. The antiderivative is x^3 - 3x^2. Evaluating: (4^3 - 3(4^2)) - (0) = 64 - 48 = 16. Then (1/4)(16) = 4. Choice B (16) is the value of the definite integral without dividing by the interval length. Choice C (8) results from dividing by 2 instead of 4. Choice D (12) may come from an antiderivative error such as forgetting the coefficient when integrating."
+    "explanation": "The average value is (1/(4-0)) * integral from 0 to 4 of (3x^2 - 6x) dx. The antiderivative is x^3 - 3x^2. Evaluating: (4^3 - 3(4^2)) - (0) = 64 - 48 = 16. Then (1/4)(16) = 4. Choice B (16) is the value of the definite integral without dividing by the interval length. Choice C (8) results from dividing by 2 instead of 4. Choice D (12) may come from an antiderivative error such as forgetting the coefficient when integrating.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q327",
@@ -9507,7 +9992,8 @@ var APCALC_MCQ = [
       "x^3 * sqrt(1 + x^6)"
     ],
     "answer": 0,
-    "explanation": "By FTC Part 1 combined with the chain rule, g'(x) = sqrt(1 + (x^3)^2) * d/dx(x^3) = 3x^2 * sqrt(1 + x^6). Choice B forgets the chain rule factor of 3x^2. Choice C substitutes x instead of x^3 into the integrand. Choice D incorrectly uses x^3 as the chain rule derivative instead of 3x^2."
+    "explanation": "By FTC Part 1 combined with the chain rule, g'(x) = sqrt(1 + (x^3)^2) * d/dx(x^3) = 3x^2 * sqrt(1 + x^6). Choice B forgets the chain rule factor of 3x^2. Choice C substitutes x instead of x^3 into the integrand. Choice D incorrectly uses x^3 as the chain rule derivative instead of 3x^2.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q328",
@@ -9527,7 +10013,8 @@ var APCALC_MCQ = [
       "5/6 gallons"
     ],
     "answer": 0,
-    "explanation": "Evaluate the integral from 0 to 5 of (4t - t^2 - 3) dt. Finding the antiderivative gives [2t^2 - t^3/3 - 3t]. Evaluating from 0 to 5: (2(25) - 125/3 - 3(5)) - 0 = (50 - 125/3 - 15) = 35 - 125/3 = (105 - 125)/3 = -20/3 gallons. Choice B (25/3 gallons) results from only considering the inflow term and forgetting the outflow. Choice C (-25/6 gallons) comes from a plausible arithmetic error during evaluation. Choice D (5/6 gallons) results from an arithmetic error in combining terms."
+    "explanation": "Evaluate the integral from 0 to 5 of (4t - t^2 - 3) dt. Finding the antiderivative gives [2t^2 - t^3/3 - 3t]. Evaluating from 0 to 5: (2(25) - 125/3 - 3(5)) - 0 = (50 - 125/3 - 15) = 35 - 125/3 = (105 - 125)/3 = -20/3 gallons. Choice B (25/3 gallons) results from only considering the inflow term and forgetting the outflow. Choice C (-25/6 gallons) comes from a plausible arithmetic error during evaluation. Choice D (5/6 gallons) results from an arithmetic error in combining terms.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q329",
@@ -9547,7 +10034,8 @@ var APCALC_MCQ = [
       "(sin(4x^2) - g(x)) / x"
     ],
     "answer": 3,
-    "explanation": "g(x) = (1/(2x)) * integral from 0 to 2x of sin(t^2) dt. Using the product rule: g'(x) = (-1/(2x^2)) * integral from 0 to 2x of sin(t^2) dt + (1/(2x)) * d/dx[integral from 0 to 2x of sin(t^2) dt]. By FTC Part 1 with the chain rule, d/dx[integral from 0 to 2x of sin(t^2) dt] = sin((2x)^2) * 2 = 2sin(4x^2). So g'(x) = -g(x)/x + (1/(2x))*2sin(4x^2) = -g(x)/x + sin(4x^2)/x = (sin(4x^2) - g(x))/x, which is choice D. Choice B forgets the product rule entirely. Choice C only accounts for the FTC part without the quotient/product rule. Choice A is a common partial simplification error where the factor of 2 from the chain rule is not properly combined."
+    "explanation": "g(x) = (1/(2x)) * integral from 0 to 2x of sin(t^2) dt. Using the product rule: g'(x) = (-1/(2x^2)) * integral from 0 to 2x of sin(t^2) dt + (1/(2x)) * d/dx[integral from 0 to 2x of sin(t^2) dt]. By FTC Part 1 with the chain rule, d/dx[integral from 0 to 2x of sin(t^2) dt] = sin((2x)^2) * 2 = 2sin(4x^2). So g'(x) = -g(x)/x + (1/(2x))*2sin(4x^2) = -g(x)/x + sin(4x^2)/x = (sin(4x^2) - g(x))/x, which is choice D. Choice B forgets the product rule entirely. Choice C only accounts for the FTC part without the quotient/product rule. Choice A is a common partial simplification error where the factor of 2 from the chain rule is not properly combined.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u6_q330",
@@ -9567,7 +10055,8 @@ var APCALC_MCQ = [
       "(1/(2x)) * [2sin(4x^2)] - (1/(4x^2)) * the integral from 0 to 2x of sin(t^2) dt"
     ],
     "answer": 3,
-    "explanation": "g(x) = (1/(2x)) * integral from 0 to 2x of sin(t^2) dt. Using the quotient rule with numerator F(x) = integral from 0 to 2x of sin(t^2) dt and denominator 2x: g'(x) = [F'(x)(2x) - F(x)(2)] / (4x^2). By FTC Part 1 with the chain rule, F'(x) = sin((2x)^2) * 2 = 2sin(4x^2). So g'(x) = [2sin(4x^2)(2x) - 2F(x)] / (4x^2) = [4x sin(4x^2) - 2F(x)] / (4x^2) = (1/(2x))[2sin(4x^2)] - (1/(4x^2)) * integral from 0 to 2x of sin(t^2) dt, which is choice D. Choice A incorrectly uses 1/(2x) instead of 1/(4x^2) on the second term (wrong quotient rule). Choice B forgets the quotient rule entirely and only applies FTC. Choice C incorrectly applies the product rule without proper scaling, omitting the 1/(2x) factor on the derivative term and dropping the denominator structure entirely."
+    "explanation": "g(x) = (1/(2x)) * integral from 0 to 2x of sin(t^2) dt. Using the quotient rule with numerator F(x) = integral from 0 to 2x of sin(t^2) dt and denominator 2x: g'(x) = [F'(x)(2x) - F(x)(2)] / (4x^2). By FTC Part 1 with the chain rule, F'(x) = sin((2x)^2) * 2 = 2sin(4x^2). So g'(x) = [2sin(4x^2)(2x) - 2F(x)] / (4x^2) = [4x sin(4x^2) - 2F(x)] / (4x^2) = (1/(2x))[2sin(4x^2)] - (1/(4x^2)) * integral from 0 to 2x of sin(t^2) dt, which is choice D. Choice A incorrectly uses 1/(2x) instead of 1/(4x^2) on the second term (wrong quotient rule). Choice B forgets the quotient rule entirely and only applies FTC. Choice C incorrectly applies the product rule without proper scaling, omitting the 1/(2x) factor on the derivative term and dropping the denominator structure entirely.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u7_q332",
@@ -9587,7 +10076,8 @@ var APCALC_MCQ = [
       "(1/2)ln|x^2+6x+13| + C"
     ],
     "answer": 0,
-    "explanation": "Complete the square: x^2 + 6x + 13 = (x+3)^2 + 4. The integral becomes integral of 1/((x+3)^2 + 4) dx. Using the formula integral of 1/(u^2+a^2) du = (1/a)arctan(u/a) + C with u = x+3 and a = 2, we get (1/2)arctan((x+3)/2) + C. Choice A is correct. Choice B forgets the 1/a factor out front, a very common mistake when students recall the arctan formula as just arctan(u/a). Choice C incorrectly uses a=4 instead of a=2 (confusing a^2 with a). Choice D incorrectly applies an ln rule as if the numerator were the derivative of the denominator, which it is not."
+    "explanation": "Complete the square: x^2 + 6x + 13 = (x+3)^2 + 4. The integral becomes integral of 1/((x+3)^2 + 4) dx. Using the formula integral of 1/(u^2+a^2) du = (1/a)arctan(u/a) + C with u = x+3 and a = 2, we get (1/2)arctan((x+3)/2) + C. Choice A is correct. Choice B forgets the 1/a factor out front, a very common mistake when students recall the arctan formula as just arctan(u/a). Choice C incorrectly uses a=4 instead of a=2 (confusing a^2 with a). Choice D incorrectly applies an ln rule as if the numerator were the derivative of the denominator, which it is not.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q333",
@@ -9607,7 +10097,8 @@ var APCALC_MCQ = [
       "8pi/3"
     ],
     "answer": 1,
-    "explanation": "Using the disc method, V = pi * integral from 0 to 4 of (sqrt(x))^2 dx = pi * integral from 0 to 4 of x dx = pi * [x^2/2] from 0 to 4 = pi * (16/2) = 8pi. Choice A (4pi) results from forgetting to square the radius or making an integration error. Choice C (16pi) comes from omitting the 1/2 when integrating x. Choice D (8pi/3) comes from incorrectly integrating sqrt(x) without squaring it first, computing pi * integral of x^(1/2) dx."
+    "explanation": "Using the disc method, V = pi * integral from 0 to 4 of (sqrt(x))^2 dx = pi * integral from 0 to 4 of x dx = pi * [x^2/2] from 0 to 4 = pi * (16/2) = 8pi. Choice A (4pi) results from forgetting to square the radius or making an integration error. Choice C (16pi) comes from omitting the 1/2 when integrating x. Choice D (8pi/3) comes from incorrectly integrating sqrt(x) without squaring it first, computing pi * integral of x^(1/2) dx.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q334",
@@ -9627,7 +10118,8 @@ var APCALC_MCQ = [
       "pi/5"
     ],
     "answer": 1,
-    "explanation": "The curves intersect at x = 0 and x = 1. For 0 <= x <= 1, x >= x^2, so the outer radius is R = x and the inner radius is r = x^2. V = pi * integral from 0 to 1 of (x^2 - x^4) dx = pi * [x^3/3 - x^5/5] from 0 to 1 = pi * (1/3 - 1/5) = pi * (2/15) = 2pi/15. Choice A (3pi/10) results from incorrectly computing 1/2 - 1/5. Choice C (pi/6) comes from integrating the area formula (x - x^2) instead of the washer formula. Choice D (pi/5) comes from only using the inner radius squared term."
+    "explanation": "The curves intersect at x = 0 and x = 1. For 0 <= x <= 1, x >= x^2, so the outer radius is R = x and the inner radius is r = x^2. V = pi * integral from 0 to 1 of (x^2 - x^4) dx = pi * [x^3/3 - x^5/5] from 0 to 1 = pi * (1/3 - 1/5) = pi * (2/15) = 2pi/15. Choice A (3pi/10) results from incorrectly computing 1/2 - 1/5. Choice C (pi/6) comes from integrating the area formula (x - x^2) instead of the washer formula. Choice D (pi/5) comes from only using the inner radius squared term.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q335",
@@ -9647,7 +10139,8 @@ var APCALC_MCQ = [
       "32pi/5"
     ],
     "answer": 0,
-    "explanation": "Using the shell method with shells parallel to the y-axis: V = 2pi * integral from 0 to 2 of x * (x^2) dx = 2pi * integral from 0 to 2 of x^3 dx = 2pi * [x^4/4] from 0 to 2 = 2pi * (16/4) = 2pi * 4 = 8pi. Choice B (4pi) comes from forgetting the factor of 2 in the shell formula. Choice C (16pi/3) comes from incorrectly integrating x^2 instead of x^3. Choice D (32pi/5) results from using the disc method formula incorrectly or integrating x^4 by mistake."
+    "explanation": "Using the shell method with shells parallel to the y-axis: V = 2pi * integral from 0 to 2 of x * (x^2) dx = 2pi * integral from 0 to 2 of x^3 dx = 2pi * [x^4/4] from 0 to 2 = 2pi * (16/4) = 2pi * 4 = 8pi. Choice B (4pi) comes from forgetting the factor of 2 in the shell formula. Choice C (16pi/3) comes from incorrectly integrating x^2 instead of x^3. Choice D (32pi/5) results from using the disc method formula incorrectly or integrating x^4 by mistake.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q336",
@@ -9667,7 +10160,8 @@ var APCALC_MCQ = [
       "integral from 0 to 3 of (1 + x) dx"
     ],
     "answer": 0,
-    "explanation": "The arc length formula is L = integral of sqrt(1 + (dy/dx)^2) dx. Here dy/dx = (2/3)(3/2)x^(1/2) = x^(1/2). So (dy/dx)^2 = x. The integrand is sqrt(1 + x). Choice B incorrectly cubes x, possibly from squaring x^(3/2) instead of x^(1/2). Choice C comes from forgetting to simplify the derivative and squaring (2/3)x^(3/2) directly. Choice D forgets the square root entirely."
+    "explanation": "The arc length formula is L = integral of sqrt(1 + (dy/dx)^2) dx. Here dy/dx = (2/3)(3/2)x^(1/2) = x^(1/2). So (dy/dx)^2 = x. The integrand is sqrt(1 + x). Choice B incorrectly cubes x, possibly from squaring x^(3/2) instead of x^(1/2). Choice C comes from forgetting to simplify the derivative and squaring (2/3)x^(3/2) directly. Choice D forgets the square root entirely.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q337",
@@ -9687,7 +10181,8 @@ var APCALC_MCQ = [
       "16pi"
     ],
     "answer": 0,
-    "explanation": "Solving y = x^3 for x gives x = y^(1/3). When revolving about the y-axis, the disc has radius r = y^(1/3). V = pi * integral from 0 to 8 of (y^(1/3))^2 dy = pi * integral from 0 to 8 of y^(2/3) dy = pi * [y^(5/3)/(5/3)] from 0 to 8 = pi * (3/5) * 8^(5/3) = pi * (3/5) * 32 = 96pi/5. Choice B (24pi) comes from incorrectly computing 8^(5/3) or the antiderivative. Choice C (128pi/7) results from using the wrong exponent in integration. Choice D (16pi) comes from forgetting to square the radius."
+    "explanation": "Solving y = x^3 for x gives x = y^(1/3). When revolving about the y-axis, the disc has radius r = y^(1/3). V = pi * integral from 0 to 8 of (y^(1/3))^2 dy = pi * integral from 0 to 8 of y^(2/3) dy = pi * [y^(5/3)/(5/3)] from 0 to 8 = pi * (3/5) * 8^(5/3) = pi * (3/5) * 32 = 96pi/5. Choice B (24pi) comes from incorrectly computing 8^(5/3) or the antiderivative. Choice C (128pi/7) results from using the wrong exponent in integration. Choice D (16pi) comes from forgetting to square the radius.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q338",
@@ -9707,7 +10202,8 @@ var APCALC_MCQ = [
       "14"
     ],
     "answer": 0,
-    "explanation": "s(3) = s(0) + integral from 0 to 3 of v(t) dt = 5 + integral from 0 to 3 of (3t^2 - 12) dt = 5 + [t^3 - 12t] from 0 to 3 = 5 + (27 - 36) - 0 = 5 + (-9) = -4. Note that the net signed displacement (the integral of velocity) equals -9, meaning the particle moved a net of 9 units in the negative direction over [0, 3]; this is the signed value and should not be confused with total distance traveled. Choice B (4) comes from using the absolute value of the displacement instead of the signed displacement. Choice C (-9) comes from forgetting to add the initial position s(0) = 5. Choice D (14) comes from incorrectly adding 9 instead of subtracting."
+    "explanation": "s(3) = s(0) + integral from 0 to 3 of v(t) dt = 5 + integral from 0 to 3 of (3t^2 - 12) dt = 5 + [t^3 - 12t] from 0 to 3 = 5 + (27 - 36) - 0 = 5 + (-9) = -4. Note that the net signed displacement (the integral of velocity) equals -9, meaning the particle moved a net of 9 units in the negative direction over [0, 3]; this is the signed value and should not be confused with total distance traveled. Choice B (4) comes from using the absolute value of the displacement instead of the signed displacement. Choice C (-9) comes from forgetting to add the initial position s(0) = 5. Choice D (14) comes from incorrectly adding 9 instead of subtracting.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q339",
@@ -9727,7 +10223,8 @@ var APCALC_MCQ = [
       "3"
     ],
     "answer": 0,
-    "explanation": "First, find the intersections of x = y^2 and x = y + 2 by setting y^2 = y + 2, which gives y^2 - y - 2 = 0, or (y - 2)(y + 1) = 0. So y = -1 and y = 2. The area is the integral from -1 to 2 of (right curve minus left curve) dy = integral from -1 to 2 of [(y + 2) - y^2] dy. Evaluating: [y^2/2 + 2y - y^3/3] from -1 to 2 = (4/2 + 4 - 8/3) - (1/2 - 2 + 1/3) = (2 + 4 - 8/3) - (1/2 - 2 + 1/3) = (6 - 8/3) - (-3/2 + 1/3) = (18/3 - 8/3) - (-9/6 + 2/6) = 10/3 - (-7/6) = 10/3 + 7/6 = 20/6 + 7/6 = 27/6 = 9/2. Choice B subtracts incorrectly, Choice C halves the correct answer, and Choice D results from an arithmetic error in evaluation."
+    "explanation": "First, find the intersections of x = y^2 and x = y + 2 by setting y^2 = y + 2, which gives y^2 - y - 2 = 0, or (y - 2)(y + 1) = 0. So y = -1 and y = 2. The area is the integral from -1 to 2 of (right curve minus left curve) dy = integral from -1 to 2 of [(y + 2) - y^2] dy. Evaluating: [y^2/2 + 2y - y^3/3] from -1 to 2 = (4/2 + 4 - 8/3) - (1/2 - 2 + 1/3) = (2 + 4 - 8/3) - (1/2 - 2 + 1/3) = (6 - 8/3) - (-3/2 + 1/3) = (18/3 - 8/3) - (-9/6 + 2/6) = 10/3 - (-7/6) = 10/3 + 7/6 = 20/6 + 7/6 = 27/6 = 9/2. Choice B subtracts incorrectly, Choice C halves the correct answer, and Choice D results from an arithmetic error in evaluation.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q340",
@@ -9747,7 +10244,8 @@ var APCALC_MCQ = [
       "1/3"
     ],
     "answer": 0,
-    "explanation": "The curves intersect where x^2 = 2x, so x = 0 and x = 2. The area is the integral from 0 to 2 of (2x - x^2) dx = [x^2 - x^3/3] from 0 to 2 = (4 - 8/3) = 4/3. Choice B (2/3) results from integrating from 0 to 1 only or a factor error. Choice C (8/3) comes from forgetting to subtract one curve from the other or doubling. Choice D (1/3) results from reversing the curves and getting a sign error combined with a limits mistake."
+    "explanation": "The curves intersect where x^2 = 2x, so x = 0 and x = 2. The area is the integral from 0 to 2 of (2x - x^2) dx = [x^2 - x^3/3] from 0 to 2 = (4 - 8/3) = 4/3. Choice B (2/3) results from integrating from 0 to 1 only or a factor error. Choice C (8/3) comes from forgetting to subtract one curve from the other or doubling. Choice D (1/3) results from reversing the curves and getting a sign error combined with a limits mistake.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q341",
@@ -9767,7 +10265,8 @@ var APCALC_MCQ = [
       "2*pi * integral from 0 to 1 of x(x - x^2) dx"
     ],
     "answer": 0,
-    "explanation": "Using the washer method, the outer radius is R = x and the inner radius is r = x^2 (since x >= x^2 on [0,1]). The volume is pi * integral from 0 to 1 of (R^2 - r^2) dx = pi * integral from 0 to 1 of (x^2 - x^4) dx. Choice B incorrectly squares the difference of the functions rather than taking the difference of the squares - a very common student error. Choice C reverses outer and inner radii, which would give a negative value. Choice D is the shell method setup, which would apply if revolving about the y-axis, not the x-axis."
+    "explanation": "Using the washer method, the outer radius is R = x and the inner radius is r = x^2 (since x >= x^2 on [0,1]). The volume is pi * integral from 0 to 1 of (R^2 - r^2) dx = pi * integral from 0 to 1 of (x^2 - x^4) dx. Choice B incorrectly squares the difference of the functions rather than taking the difference of the squares - a very common student error. Choice C reverses outer and inner radii, which would give a negative value. Choice D is the shell method setup, which would apply if revolving about the y-axis, not the x-axis.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q342",
@@ -9787,7 +10286,8 @@ var APCALC_MCQ = [
       "20/3"
     ],
     "answer": 0,
-    "explanation": "First find where v(t) = 0: t^2 - 4t + 3 = (t-1)(t-3) = 0 at t = 1 and t = 3. Total distance = integral from 0 to 1 of |v(t)| dt + integral from 1 to 3 of |v(t)| dt + integral from 3 to 4 of |v(t)| dt. On [0,1], v(t) > 0: integral = [t^3/3 - 2t^2 + 3t] from 0 to 1 = 1/3 - 2 + 3 = 4/3. On [1,3], v(t) < 0: integral of |v| = -[t^3/3 - 2t^2 + 3t] from 1 to 3 = -(9 - 18 + 9 - 1/3 + 2 - 3) = -(-4/3) = 4/3. On [3,4], v(t) > 0: integral = [t^3/3 - 2t^2 + 3t] from 3 to 4 = (64/3 - 32 + 12) - (9 - 18 + 9) = 4/3. Total = 4/3 + 4/3 + 4/3 = 4. Choice B (4/3) is the displacement (net change in position), a common error from not using absolute value. Choice C (28/3) results from incorrectly computing the antiderivative. Choice D (20/3) comes from a sign error in one of the subintervals."
+    "explanation": "First find where v(t) = 0: t^2 - 4t + 3 = (t-1)(t-3) = 0 at t = 1 and t = 3. Total distance = integral from 0 to 1 of |v(t)| dt + integral from 1 to 3 of |v(t)| dt + integral from 3 to 4 of |v(t)| dt. On [0,1], v(t) > 0: integral = [t^3/3 - 2t^2 + 3t] from 0 to 1 = 1/3 - 2 + 3 = 4/3. On [1,3], v(t) < 0: integral of |v| = -[t^3/3 - 2t^2 + 3t] from 1 to 3 = -(9 - 18 + 9 - 1/3 + 2 - 3) = -(-4/3) = 4/3. On [3,4], v(t) > 0: integral = [t^3/3 - 2t^2 + 3t] from 3 to 4 = (64/3 - 32 + 12) - (9 - 18 + 9) = 4/3. Total = 4/3 + 4/3 + 4/3 = 4. Choice B (4/3) is the displacement (net change in position), a common error from not using absolute value. Choice C (28/3) results from incorrectly computing the antiderivative. Choice D (20/3) comes from a sign error in one of the subintervals.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q343",
@@ -9807,7 +10307,8 @@ var APCALC_MCQ = [
       "pi * integral from 0 to 4 of [(5 - sqrt(y))^2 - (5 - y/2)^2] dy"
     ],
     "answer": 0,
-    "explanation": "The curves intersect at x = 0 and x = 2. When revolving about y = 5 (above the region), the outer radius is the distance from y = 5 to the farther curve (y = x^2, which is smaller, so 5 - x^2 is larger) and the inner radius is the distance to the closer curve (y = 2x, giving 5 - 2x). Choice B reverses outer and inner radii - a common error when students confuse which curve is closer to the axis of revolution. Choice C incorrectly uses the area between curves formula squared without accounting for the axis of revolution. Choice D sets up the integral in y but incorrectly identifies the outer and inner radii."
+    "explanation": "The curves intersect at x = 0 and x = 2. When revolving about y = 5 (above the region), the outer radius is the distance from y = 5 to the farther curve (y = x^2, which is smaller, so 5 - x^2 is larger) and the inner radius is the distance to the closer curve (y = 2x, giving 5 - 2x). Choice B reverses outer and inner radii - a common error when students confuse which curve is closer to the axis of revolution. Choice C incorrectly uses the area between curves formula squared without accounting for the axis of revolution. Choice D sets up the integral in y but incorrectly identifies the outer and inner radii.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q344",
@@ -9827,7 +10328,8 @@ var APCALC_MCQ = [
       "2 - integral from 1 to 4 of |t^2 - 5t + 4| dt"
     ],
     "answer": 2,
-    "explanation": "The correct answer is choice C: 2 + integral from 1 to 4 of (t^2 - 5t + 4) dt. v(t) = t^2 - 5t + 4 = (t - 1)(t - 4). The velocity is negative on (1, 4), meaning the particle moves left during this interval. The particle is farthest to the left at t = 4, where it stops moving left. To find the position at t = 4, we start from the initial position x(0) = 2 and add the net displacement from t = 1 to t = 4 (the interval during which the particle moves left). Since v(t) is positive on (0, 1), the particle first moves right and returns to a local reference, but the net displacement starting from t = 1 accounts for the leftward motion. The position at t = 4 is 2 + integral from 1 to 4 of (t^2 - 5t + 4) dt. Choice A incorrectly starts the integral at t = 0, including rightward displacement from (0,1) that offsets the leftward motion. Choice B forgets the initial position x(0) = 2. Choice D incorrectly uses the absolute value, which would compute total distance rather than net displacement."
+    "explanation": "The correct answer is choice C: 2 + integral from 1 to 4 of (t^2 - 5t + 4) dt. v(t) = t^2 - 5t + 4 = (t - 1)(t - 4). The velocity is negative on (1, 4), meaning the particle moves left during this interval. The particle is farthest to the left at t = 4, where it stops moving left. To find the position at t = 4, we start from the initial position x(0) = 2 and add the net displacement from t = 1 to t = 4 (the interval during which the particle moves left). Since v(t) is positive on (0, 1), the particle first moves right and returns to a local reference, but the net displacement starting from t = 1 accounts for the leftward motion. The position at t = 4 is 2 + integral from 1 to 4 of (t^2 - 5t + 4) dt. Choice A incorrectly starts the integral at t = 0, including rightward displacement from (0,1) that offsets the leftward motion. Choice B forgets the initial position x(0) = 2. Choice D incorrectly uses the absolute value, which would compute total distance rather than net displacement.",
+    "type": "MCQ"
   },
   {
     "id": "calc_u8_q346",
@@ -9847,6 +10349,7 @@ var APCALC_MCQ = [
       "integral from pi/4 to pi of [sin(x) - cos(x)] dx + integral from pi to 5pi/4 of [cos(x) - sin(x)] dx"
     ],
     "answer": 1,
-    "explanation": "On the interval (pi/4, 5pi/4), sin(x) >= cos(x), so the area is the integral of [sin(x) - cos(x)] dx from pi/4 to 5pi/4. Choice A reverses the order of subtraction, yielding a negative value. Choice C incorrectly adds the functions instead of subtracting. Choice D unnecessarily splits the integral and reverses the subtraction on the second piece, incorrectly assuming the top and bottom curves switch at x = pi when they do not switch until x = 5pi/4."
+    "explanation": "On the interval (pi/4, 5pi/4), sin(x) >= cos(x), so the area is the integral of [sin(x) - cos(x)] dx from pi/4 to 5pi/4. Choice A reverses the order of subtraction, yielding a negative value. Choice C incorrectly adds the functions instead of subtracting. Choice D unnecessarily splits the integral and reverses the subtraction on the second piece, incorrectly assuming the top and bottom curves switch at x = pi when they do not switch until x = 5pi/4.",
+    "type": "MCQ"
   }
 ];
