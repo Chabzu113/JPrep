@@ -17,7 +17,8 @@ var APUSH_MCQ = [
       "A highly developed and sophisticated urban civilization."
     ],
     "answer": 3,
-    "explanation": "Cortés compares the city to major Spanish urban centers, highlighting its infrastructure and massive markets."
+    "explanation": "Cortés compares the city to major Spanish urban centers, highlighting its infrastructure and massive markets.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q2",
@@ -37,7 +38,8 @@ var APUSH_MCQ = [
       "The immediate conversion of all infrastructure into Christian missions."
     ],
     "answer": 0,
-    "explanation": "The existing organization of the Aztec Empire allowed the Spanish to implement the Encomienda System to extract labor."
+    "explanation": "The existing organization of the Aztec Empire allowed the Spanish to implement the Encomienda System to extract labor.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q4",
@@ -57,7 +59,8 @@ var APUSH_MCQ = [
       "To encourage the Spanish Crown to replace the Encomienda System with African slave labor."
     ],
     "answer": 0,
-    "explanation": "Las Casas was a Dominican friar who advocated for the 'New Laws' of 1542 to end the abuse of Native Americans."
+    "explanation": "Las Casas was a Dominican friar who advocated for the 'New Laws' of 1542 to end the abuse of Native Americans.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q5",
@@ -77,14 +80,15 @@ var APUSH_MCQ = [
       "Spanish missionaries overextending into Pueblo territories in the Rio Grande valley."
     ],
     "answer": 0,
-    "explanation": "The Spanish Crown wanted to save souls while the conquistadors wanted to extract wealth through labor."
+    "explanation": "The Spanish Crown wanted to save souls while the conquistadors wanted to extract wealth through labor.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q6",
     "subject": "apush",
     "unit": 1,
     "topic": "1.4 Columbian Exchange",
-    "topicLabel": "1.4 Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -97,14 +101,15 @@ var APUSH_MCQ = [
       "A prolonged drought that lasted over a century."
     ],
     "answer": 0,
-    "explanation": "Disease was the primary cause of the massive indigenous population collapse following contact."
+    "explanation": "Disease was the primary cause of the massive indigenous population collapse following contact.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q7",
     "subject": "apush",
     "unit": 1,
     "topic": "1.4 Columbian Exchange",
-    "topicLabel": "1.4 Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -117,14 +122,15 @@ var APUSH_MCQ = [
       "The rise of the transatlantic slave trade to replace indigenous labor."
     ],
     "answer": 3,
-    "explanation": "As the native population died off, the Spanish turned to enslaved Africans to work plantations and mines."
+    "explanation": "As the native population died off, the Spanish turned to enslaved Africans to work plantations and mines.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q8",
     "subject": "apush",
     "unit": 1,
     "topic": "1.2 Native American Societies",
-    "topicLabel": "1.2 Native American Societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -137,7 +143,8 @@ var APUSH_MCQ = [
       "The need to manage competition over resources and land among neighboring tribes."
     ],
     "answer": 3,
-    "explanation": "The League of Peace was formed to maintain stability and manage resource competition in the Northeast."
+    "explanation": "The League of Peace was formed to maintain stability and manage resource competition in the Northeast.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q9",
@@ -157,14 +164,15 @@ var APUSH_MCQ = [
       "A desire to maintain social order and justify Spanish dominance in a racially diverse society."
     ],
     "answer": 3,
-    "explanation": "The Caste system (Sistema de Castas) was a racial hierarchy used to maintain power for pure-blooded Spaniards (Peninsulares)."
+    "explanation": "The Caste system (Sistema de Castas) was a racial hierarchy used to maintain power for pure-blooded Spaniards (Peninsulares).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q10",
     "subject": "apush",
     "unit": 1,
     "topic": "1.2 Native American Societies",
-    "topicLabel": "1.2 Native American Societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -177,14 +185,15 @@ var APUSH_MCQ = [
       "The development of nomadic societies in the Great Basin."
     ],
     "answer": 2,
-    "explanation": "Maize allowed for settled, complex societies with specialized labor and social hierarchies."
+    "explanation": "Maize allowed for settled, complex societies with specialized labor and social hierarchies.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q11",
     "subject": "apush",
     "unit": 1,
     "topic": "1.3 European Exploration",
-    "topicLabel": "1.3 European Exploration",
+    "topicLabel": "1.3 European Exploration in the Americas",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -197,14 +206,15 @@ var APUSH_MCQ = [
       "Prevent conflict between two major Catholic powers over new lands."
     ],
     "answer": 3,
-    "explanation": "The treaty was brokered by the Pope to divide the New World between Spain and Portugal."
+    "explanation": "The treaty was brokered by the Pope to divide the New World between Spain and Portugal.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q12",
     "subject": "apush",
     "unit": 1,
     "topic": "1.4 Columbian Exchange",
-    "topicLabel": "1.4 Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -217,14 +227,15 @@ var APUSH_MCQ = [
       "Native American resistance to European technology."
     ],
     "answer": 0,
-    "explanation": "The horse was a European animal that transformed Plains Indian cultures into mobile, bison-hunting societies."
+    "explanation": "The horse was a European animal that transformed Plains Indian cultures into mobile, bison-hunting societies.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q13",
     "subject": "apush",
     "unit": 1,
     "topic": "1.5 Labor, Slavery, and Caste",
-    "topicLabel": "1.5 Labor, Slavery, and Caste",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -237,14 +248,15 @@ var APUSH_MCQ = [
       "The expansion of the Encomienda System."
     ],
     "answer": 3,
-    "explanation": "Sepúlveda argued that Native Americans were 'natural slaves,' justifying their forced labor under Spanish rule."
+    "explanation": "Sepúlveda argued that Native Americans were 'natural slaves,' justifying their forced labor under Spanish rule.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q14",
     "subject": "apush",
     "unit": 1,
     "topic": "1.2 Native American Societies",
-    "topicLabel": "1.2 Native American Societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -257,14 +269,15 @@ var APUSH_MCQ = [
       "A lack of stone and timber for building."
     ],
     "answer": 0,
-    "explanation": "Puebloan cliff dwellings provided protection from enemies and helped regulate temperature in the desert heat."
+    "explanation": "Puebloan cliff dwellings provided protection from enemies and helped regulate temperature in the desert heat.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q15",
     "subject": "apush",
     "unit": 1,
     "topic": "1.3 European Exploration",
-    "topicLabel": "1.3 European Exploration",
+    "topicLabel": "1.3 European Exploration in the Americas",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -277,14 +290,15 @@ var APUSH_MCQ = [
       "The pursuit of personal fame for explorers."
     ],
     "answer": 2,
-    "explanation": "Religious conversion was a central pillar of Spanish and French colonial efforts."
+    "explanation": "Religious conversion was a central pillar of Spanish and French colonial efforts.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q16",
     "subject": "apush",
     "unit": 1,
     "topic": "1.4 Columbian Exchange",
-    "topicLabel": "1.4 Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -297,7 +311,8 @@ var APUSH_MCQ = [
       "The spread of smallpox to European cities."
     ],
     "answer": 0,
-    "explanation": "American crops led to a massive population boom in Europe and Asia due to their high caloric value."
+    "explanation": "American crops led to a massive population boom in Europe and Asia due to their high caloric value.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q17",
@@ -317,14 +332,15 @@ var APUSH_MCQ = [
       "A legalistic justification for the subjugation of indigenous people."
     ],
     "answer": 3,
-    "explanation": "The document was read (often to people who didn't understand it) to provide a legal pretext for war and enslavement if they didn't submit."
+    "explanation": "The document was read (often to people who didn't understand it) to provide a legal pretext for war and enslavement if they didn't submit.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q18",
     "subject": "apush",
     "unit": 1,
     "topic": "1.5 Labor, Slavery, and Caste",
-    "topicLabel": "1.5 Labor, Slavery, and Caste",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -337,7 +353,8 @@ var APUSH_MCQ = [
       "Established a permanent border between French and Spanish claims."
     ],
     "answer": 2,
-    "explanation": "The Asiento was a monopoly contract (license) granted by the Spanish Crown to other European nations — initially Portugal, later England — permitting them to supply enslaved Africans to Spanish colonies. It was a revenue-generating arrangement, not simply a tax mechanism."
+    "explanation": "The Asiento was a monopoly contract (license) granted by the Spanish Crown to other European nations — initially Portugal, later England — permitting them to supply enslaved Africans to Spanish colonies. It was a revenue-generating arrangement, not simply a tax mechanism.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q20",
@@ -357,7 +374,8 @@ var APUSH_MCQ = [
       "Native Americans were 'natural slaves' and deserved to be conquered."
     ],
     "answer": 2,
-    "explanation": "Las Casas defended the humanity of Native Americans against the arguments of Sepúlveda."
+    "explanation": "Las Casas defended the humanity of Native Americans against the arguments of Sepúlveda.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q21",
@@ -377,14 +395,15 @@ var APUSH_MCQ = [
       "Forming pan-Indian alliances that successfully drove all Europeans back to the sea."
     ],
     "answer": 2,
-    "explanation": "Cultural preservation and 'syncretism' (blending beliefs) were common forms of 'soft' resistance."
+    "explanation": "Cultural preservation and 'syncretism' (blending beliefs) were common forms of 'soft' resistance.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q22",
     "subject": "apush",
     "unit": 1,
     "topic": "1.4 Columbian Exchange",
-    "topicLabel": "1.4 Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -397,14 +416,15 @@ var APUSH_MCQ = [
       "The depiction of Spanish conquerors as uniquely cruel and murderous toward Native Americans."
     ],
     "answer": 3,
-    "explanation": "The 'Black Legend' was used by rivals like England to justify their own (supposedly more humane) colonization efforts."
+    "explanation": "The 'Black Legend' was used by rivals like England to justify their own (supposedly more humane) colonization efforts.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q23",
     "subject": "apush",
     "unit": 1,
     "topic": "1.2 Native American Societies",
-    "topicLabel": "1.2 Native American Societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -417,14 +437,15 @@ var APUSH_MCQ = [
       "A system where land was divided equally among three daughters in a family."
     ],
     "answer": 2,
-    "explanation": "This method provided a high-protein diet and was environmentally sustainable, supporting larger populations."
+    "explanation": "This method provided a high-protein diet and was environmentally sustainable, supporting larger populations.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q24",
     "subject": "apush",
     "unit": 1,
     "topic": "1.3 European Exploration",
-    "topicLabel": "1.3 European Exploration",
+    "topicLabel": "1.3 European Exploration in the Americas",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -437,14 +458,15 @@ var APUSH_MCQ = [
       "Were new types of weapons used to defeat the Aztec Empire."
     ],
     "answer": 2,
-    "explanation": "Technological improvements in the 15th century were essential for the 'Age of Discovery.'"
+    "explanation": "Technological improvements in the 15th century were essential for the 'Age of Discovery.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q25",
     "subject": "apush",
     "unit": 1,
     "topic": "1.5 Labor, Slavery, and Caste",
-    "topicLabel": "1.5 Labor, Slavery, and Caste",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -457,14 +479,15 @@ var APUSH_MCQ = [
       "The Spanish Crown successfully prevented any racial mixing in its colonies."
     ],
     "answer": 2,
-    "explanation": "Unlike the later English 'one-drop' rule, the Spanish created a complex hierarchy for the many mixed-race groups (Mestizo, Mulatto, etc.)."
+    "explanation": "Unlike the later English 'one-drop' rule, the Spanish created a complex hierarchy for the many mixed-race groups (Mestizo, Mulatto, etc.).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q26",
     "subject": "apush",
     "unit": 1,
     "topic": "1.2 Native American Societies",
-    "topicLabel": "1.2 Native American Societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -477,7 +500,8 @@ var APUSH_MCQ = [
       "The abundance of fish and timber from the Pacific Ocean and forests."
     ],
     "answer": 3,
-    "explanation": "The resource-rich Pacific Northwest allowed for settled, wealthy societies without the need for farming."
+    "explanation": "The resource-rich Pacific Northwest allowed for settled, wealthy societies without the need for farming.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q27",
@@ -497,14 +521,15 @@ var APUSH_MCQ = [
       "The discovery of the Mississippi River."
     ],
     "answer": 0,
-    "explanation": "Oñate's violence toward the Acoma led to his eventual removal by the Spanish Crown, highlighting the brutality of early colonization."
+    "explanation": "Oñate's violence toward the Acoma led to his eventual removal by the Spanish Crown, highlighting the brutality of early colonization.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q28",
     "subject": "apush",
     "unit": 1,
     "topic": "1.4 Columbian Exchange",
-    "topicLabel": "1.4 Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -517,7 +542,8 @@ var APUSH_MCQ = [
       "The cost of transporting enslaved people from Africa became cheaper than feeding native workers."
     ],
     "answer": 2,
-    "explanation": "The high mortality rate of the indigenous population due to disease made the system economically unsustainable."
+    "explanation": "The high mortality rate of the indigenous population due to disease made the system economically unsustainable.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q29",
@@ -537,14 +563,15 @@ var APUSH_MCQ = [
       "The Spanish prohibited the spread of Catholicism in their colonies."
     ],
     "answer": 2,
-    "explanation": "French colonization was based on a small number of traders who relied on native cooperation, unlike the Spanish labor-extractive model."
+    "explanation": "French colonization was based on a small number of traders who relied on native cooperation, unlike the Spanish labor-extractive model.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q30",
     "subject": "apush",
     "unit": 1,
     "topic": "1.4 Columbian Exchange",
-    "topicLabel": "1.4 Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -557,7 +584,8 @@ var APUSH_MCQ = [
       "Potatoes"
     ],
     "answer": 3,
-    "explanation": "Potatoes (along with corn and tomatoes) are native to the Americas and were introduced to Europe via the Columbian Exchange."
+    "explanation": "Potatoes (along with corn and tomatoes) are native to the Americas and were introduced to Europe via the Columbian Exchange.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q1",
@@ -577,7 +605,8 @@ var APUSH_MCQ = [
       "The New England colonies"
     ],
     "answer": 3,
-    "explanation": "Winthrop was the governor of the Massachusetts Bay Colony; his 'City upon a Hill' speech defined the Puritan mission in New England."
+    "explanation": "Winthrop was the governor of the Massachusetts Bay Colony; his 'City upon a Hill' speech defined the Puritan mission in New England.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q2",
@@ -597,7 +626,8 @@ var APUSH_MCQ = [
       "The development of tight-knit, homogeneous communities centered around the church."
     ],
     "answer": 3,
-    "explanation": "The Puritan 'City upon a Hill' ideal led to community-focused towns where religious and civic life were deeply intertwined."
+    "explanation": "The Puritan 'City upon a Hill' ideal led to community-focused towns where religious and civic life were deeply intertwined.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q3",
@@ -617,7 +647,8 @@ var APUSH_MCQ = [
       "Winthrop's followers established friendly, permanent alliances with all local indigenous tribes."
     ],
     "answer": 0,
-    "explanation": "New England was settled for religious reasons (Puritanism), while Virginia/Maryland (Chesapeake) were settled for wealth (tobacco)."
+    "explanation": "New England was settled for religious reasons (Puritanism), while Virginia/Maryland (Chesapeake) were settled for wealth (tobacco).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q4",
@@ -637,7 +668,8 @@ var APUSH_MCQ = [
       "The transport of enslaved Africans across the Atlantic to the Americas."
     ],
     "answer": 3,
-    "explanation": "The Middle Passage was the brutal forced journey of enslaved people from Africa to the New World."
+    "explanation": "The Middle Passage was the brutal forced journey of enslaved people from Africa to the New World.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q5",
@@ -657,7 +689,8 @@ var APUSH_MCQ = [
       "Legally defined slavery as a hereditary status based on race."
     ],
     "answer": 3,
-    "explanation": "By tying status to the mother (partus sequitur ventrem), Virginia ensured that the children of enslaved women remained property, creating a self-sustaining slave population."
+    "explanation": "By tying status to the mother (partus sequitur ventrem), Virginia ensured that the children of enslaved women remained property, creating a self-sustaining slave population.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q6",
@@ -677,7 +710,8 @@ var APUSH_MCQ = [
       "A decrease in the supply of English servants and fears of social unrest following Bacon's Rebellion."
     ],
     "answer": 3,
-    "explanation": "After Bacon’s Rebellion (1676), elites feared the alliance of poor whites and blacks, leading them to favor permanent, racially-defined slavery over temporary servitude."
+    "explanation": "After Bacon’s Rebellion (1676), elites feared the alliance of poor whites and blacks, leading them to favor permanent, racially-defined slavery over temporary servitude.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q7",
@@ -697,7 +731,8 @@ var APUSH_MCQ = [
       "A total lack of any agricultural exports."
     ],
     "answer": 2,
-    "explanation": "The Middle Colonies, particularly Pennsylvania (Quakers), were the most ethnically and religiously diverse regions."
+    "explanation": "The Middle Colonies, particularly Pennsylvania (Quakers), were the most ethnically and religiously diverse regions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q8",
@@ -717,7 +752,8 @@ var APUSH_MCQ = [
       "The Puritan requirement for religious conformity in Massachusetts Bay."
     ],
     "answer": 3,
-    "explanation": "Penn’s radical religious tolerance was the opposite of the strict religious laws in New England where dissenters like Roger Williams were banished."
+    "explanation": "Penn’s radical religious tolerance was the opposite of the strict religious laws in New England where dissenters like Roger Williams were banished.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q9",
@@ -737,7 +773,8 @@ var APUSH_MCQ = [
       "Jamestown"
     ],
     "answer": 3,
-    "explanation": "Jamestown was founded in 1607 by the Virginia Company."
+    "explanation": "Jamestown was founded in 1607 by the Virginia Company.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q10",
@@ -757,7 +794,8 @@ var APUSH_MCQ = [
       "The French established trade alliances and intermarried with natives to facilitate the fur trade."
     ],
     "answer": 3,
-    "explanation": "The French relied on a 'frontier of inclusion,' working with natives for economic gain rather than displacing them for land like the English."
+    "explanation": "The French relied on a 'frontier of inclusion,' working with natives for economic gain rather than displacing them for land like the English.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q11",
@@ -777,7 +815,8 @@ var APUSH_MCQ = [
       "Mercantilism"
     ],
     "answer": 3,
-    "explanation": "Mercantilism aimed to enrich the mother country (England) by strictly controlling colonial trade to ensure a favorable balance of trade."
+    "explanation": "Mercantilism aimed to enrich the mother country (England) by strictly controlling colonial trade to ensure a favorable balance of trade.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q12",
@@ -797,7 +836,8 @@ var APUSH_MCQ = [
       "The total cessation of all trade with the West Indies."
     ],
     "answer": 0,
-    "explanation": "Colonists routinely ignored the Navigation Acts and smuggled goods with the Dutch and French to maximize profit."
+    "explanation": "Colonists routinely ignored the Navigation Acts and smuggled goods with the Dutch and French to maximize profit.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q13",
@@ -817,7 +857,8 @@ var APUSH_MCQ = [
       "Indigo"
     ],
     "answer": 2,
-    "explanation": "John Rolfe introduced a sweeter strain of tobacco that became the Chesapeake's main export."
+    "explanation": "John Rolfe introduced a sweeter strain of tobacco that became the Chesapeake's main export.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q14",
@@ -837,7 +878,8 @@ var APUSH_MCQ = [
       "The Puritan effort to assimilate Native Americans into English religious and social structures."
     ],
     "answer": 3,
-    "explanation": "Praying Towns were settlements where Native Americans were expected to adopt English clothing, language, and Christianity."
+    "explanation": "Praying Towns were settlements where Native Americans were expected to adopt English clothing, language, and Christianity.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q15",
@@ -857,7 +899,8 @@ var APUSH_MCQ = [
       "The Pope's decree to remove all Protestants from the New World."
     ],
     "answer": 0,
-    "explanation": "The war was the last major effort by the Native Americans of southern New England to drive out the English settlers."
+    "explanation": "The war was the last major effort by the Native Americans of southern New England to drive out the English settlers.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q16",
@@ -877,7 +920,8 @@ var APUSH_MCQ = [
       "Grant 50 acres of land to anyone who paid for the passage of a laborer to the colony."
     ],
     "answer": 3,
-    "explanation": "The system incentivized the importation of laborers (indentured servants) by rewarding the 'masters' with land."
+    "explanation": "The system incentivized the importation of laborers (indentured servants) by rewarding the 'masters' with land.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q17",
@@ -897,7 +941,8 @@ var APUSH_MCQ = [
       "The immediate emancipation of all enslaved people in the colony."
     ],
     "answer": 0,
-    "explanation": "White fear of future rebellions led to the Negro Act of 1740, which severely restricted enslaved people's rights."
+    "explanation": "White fear of future rebellions led to the Negro Act of 1740, which severely restricted enslaved people's rights.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q18",
@@ -917,7 +962,8 @@ var APUSH_MCQ = [
       "The Dutch"
     ],
     "answer": 3,
-    "explanation": "The Dutch West India Company established New Amsterdam for the fur trade before the English took it over in 1664."
+    "explanation": "The Dutch West India Company established New Amsterdam for the fur trade before the English took it over in 1664.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q19",
@@ -937,7 +983,8 @@ var APUSH_MCQ = [
       "Higher life expectancy and more stable families."
     ],
     "answer": 2,
-    "explanation": "Diseases (malaria) and the nature of plantation work made the Chesapeake a much deadlier and less family-oriented region in the 17th century."
+    "explanation": "Diseases (malaria) and the nature of plantation work made the Chesapeake a much deadlier and less family-oriented region in the 17th century.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q20",
@@ -957,7 +1004,8 @@ var APUSH_MCQ = [
       "Native Americans from land displacement."
     ],
     "answer": 0,
-    "explanation": "Maryland was founded as a haven for Catholics, but as Protestants moved in, the Act was needed to ensure Catholics could still practice their faith."
+    "explanation": "Maryland was founded as a haven for Catholics, but as Protestants moved in, the Act was needed to ensure Catholics could still practice their faith.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q21",
@@ -977,7 +1025,8 @@ var APUSH_MCQ = [
       "English refusal to use any native crops like corn."
     ],
     "answer": 0,
-    "explanation": "Europeans believed in private property and fences; Native Americans believed in communal land use."
+    "explanation": "Europeans believed in private property and fences; Native Americans believed in communal land use.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q22",
@@ -997,7 +1046,8 @@ var APUSH_MCQ = [
       "Was the first written constitution in the American colonies."
     ],
     "answer": 3,
-    "explanation": "It set a precedent for written frameworks of government that limited the power of the executive."
+    "explanation": "It set a precedent for written frameworks of government that limited the power of the executive.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q23",
@@ -1017,7 +1067,8 @@ var APUSH_MCQ = [
       "The Canadian fur-trading posts."
     ],
     "answer": 2,
-    "explanation": "The Carolinas were heavily influenced by the 'Barbados Model' of brutal, large-scale sugar and rice plantation slavery."
+    "explanation": "The Carolinas were heavily influenced by the 'Barbados Model' of brutal, large-scale sugar and rice plantation slavery.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q24",
@@ -1037,7 +1088,8 @@ var APUSH_MCQ = [
       "A series of bloody wars between the King and the colonial governors."
     ],
     "answer": 2,
-    "explanation": "As long as raw materials flowed, Britain left the colonies alone, which led to a growing sense of independence."
+    "explanation": "As long as raw materials flowed, Britain left the colonies alone, which led to a growing sense of independence.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q25",
@@ -1057,7 +1109,8 @@ var APUSH_MCQ = [
       "The increasing religious zeal and expansion of the Puritan church."
     ],
     "answer": 2,
-    "explanation": "The church lowered the requirements for membership because the children of the 'Saints' were not having their own 'conversion experiences.'"
+    "explanation": "The church lowered the requirements for membership because the children of the 'Saints' were not having their own 'conversion experiences.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q26",
@@ -1077,7 +1130,8 @@ var APUSH_MCQ = [
       "A contract for the sale of Manhattan."
     ],
     "answer": 0,
-    "explanation": "The Pilgrims agreed to form a 'civil body politic' and follow laws they created themselves."
+    "explanation": "The Pilgrims agreed to form a 'civil body politic' and follow laws they created themselves.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q27",
@@ -1097,7 +1151,8 @@ var APUSH_MCQ = [
       "The total destruction of the Aztec capital."
     ],
     "answer": 0,
-    "explanation": "After the revolt, the Spanish realized they had to be more tolerant of Pueblo religious practices to keep the peace."
+    "explanation": "After the revolt, the Spanish realized they had to be more tolerant of Pueblo religious practices to keep the peace.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q28",
@@ -1117,7 +1172,8 @@ var APUSH_MCQ = [
       "Enslaved people were required to rotate between field work and house work every month."
     ],
     "answer": 0,
-    "explanation": "The Task System allowed for more autonomy and the preservation of Gullah culture compared to the Gang System of the Chesapeake."
+    "explanation": "The Task System allowed for more autonomy and the preservation of Gullah culture compared to the Gang System of the Chesapeake.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q29",
@@ -1137,7 +1193,8 @@ var APUSH_MCQ = [
       "Provide free molasses to poor families in London."
     ],
     "answer": 2,
-    "explanation": "It was a classic mercantilist law designed to protect British trade interests, though it was widely bypassed by smuggling."
+    "explanation": "It was a classic mercantilist law designed to protect British trade interests, though it was widely bypassed by smuggling.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q30",
@@ -1157,7 +1214,8 @@ var APUSH_MCQ = [
       "Rhode Island"
     ],
     "answer": 1,
-    "explanation": "James Oglethorpe founded Georgia to help the 'worthy poor' and protect the Carolinas from Spanish attacks."
+    "explanation": "James Oglethorpe founded Georgia to help the 'worthy poor' and protect the Carolinas from Spanish attacks.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q31",
@@ -1177,7 +1235,8 @@ var APUSH_MCQ = [
       "The Pilgrims and the Wampanoag."
     ],
     "answer": 2,
-    "explanation": "This alliance helped the English gain control over the fur trade and use the Iroquois as a buffer against the French."
+    "explanation": "This alliance helped the English gain control over the fur trade and use the Iroquois as a buffer against the French.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q32",
@@ -1197,7 +1256,8 @@ var APUSH_MCQ = [
       "Encouraged colonists to challenge traditional authority and trust their own judgment."
     ],
     "answer": 3,
-    "explanation": "The spiritual independence of the Great Awakening paved the way for the political independence of the Revolution."
+    "explanation": "The spiritual independence of the Great Awakening paved the way for the political independence of the Revolution.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q33",
@@ -1217,7 +1277,8 @@ var APUSH_MCQ = [
       "The founding of the Quaker faith."
     ],
     "answer": 1,
-    "explanation": "They were the most famous preachers of the revival movement that swept through the colonies."
+    "explanation": "They were the most famous preachers of the revival movement that swept through the colonies.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q34",
@@ -1237,7 +1298,8 @@ var APUSH_MCQ = [
       "Connecticut"
     ],
     "answer": 2,
-    "explanation": "Rhode Island was founded on the principles of religious freedom and separation of church and state."
+    "explanation": "Rhode Island was founded on the principles of religious freedom and separation of church and state.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q35",
@@ -1257,14 +1319,15 @@ var APUSH_MCQ = [
       "The abolition of slavery."
     ],
     "answer": 0,
-    "explanation": "John Peter Zenger was acquitted of libel for criticizing the governor, establishing that truth is a defense against libel."
+    "explanation": "John Peter Zenger was acquitted of libel for criticizing the governor, establishing that truth is a defense against libel.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q36",
     "subject": "apush",
     "unit": 2,
     "topic": "2.7 Comparison",
-    "topicLabel": "2.7 Comparison",
+    "topicLabel": "2.7 Comparison in Period 2",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -1277,7 +1340,8 @@ var APUSH_MCQ = [
       "The adoption of British architectural styles, legal systems, and consumer habits."
     ],
     "answer": 3,
-    "explanation": "Anglicization was the process of the colonies becoming more 'English' over time as they became wealthier and more connected to the empire."
+    "explanation": "Anglicization was the process of the colonies becoming more 'English' over time as they became wealthier and more connected to the empire.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q37",
@@ -1297,7 +1361,8 @@ var APUSH_MCQ = [
       "The establishment of mission systems in the Southwest and Florida."
     ],
     "answer": 3,
-    "explanation": "The Spanish used missions (and accompanying presidios) to secure their frontier and convert indigenous populations."
+    "explanation": "The Spanish used missions (and accompanying presidios) to secure their frontier and convert indigenous populations.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q38",
@@ -1317,7 +1382,8 @@ var APUSH_MCQ = [
       "Paid wage laborers from France"
     ],
     "answer": 2,
-    "explanation": "Before the transition to slavery in the late 1600s, poor Englishmen (indentured servants) did most of the work."
+    "explanation": "Before the transition to slavery in the late 1600s, poor Englishmen (indentured servants) did most of the work.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q39",
@@ -1337,7 +1403,8 @@ var APUSH_MCQ = [
       "A desire to rejoin the Dutch Empire."
     ],
     "answer": 1,
-    "explanation": "Jacob Leisler’s brief takeover of New York was fueled by resentment toward the wealthy merchant class."
+    "explanation": "Jacob Leisler’s brief takeover of New York was fueled by resentment toward the wealthy merchant class.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q1",
@@ -1357,7 +1424,8 @@ var APUSH_MCQ = [
       "The immediate withdrawal of all British troops from North America."
     ],
     "answer": 0,
-    "explanation": "The 1763 Treaty of Paris ended French presence in North America, making Britain the dominant power."
+    "explanation": "The 1763 Treaty of Paris ended French presence in North America, making Britain the dominant power.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q2",
@@ -1377,7 +1445,8 @@ var APUSH_MCQ = [
       "The immediate abolition of the Navigation Acts."
     ],
     "answer": 0,
-    "explanation": "After the war, Britain faced massive debt and decided to tax the colonies directly, ending the era of 'salutary neglect.'"
+    "explanation": "After the war, Britain faced massive debt and decided to tax the colonies directly, ending the era of 'salutary neglect.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q3",
@@ -1397,7 +1466,8 @@ var APUSH_MCQ = [
       "Protect French fur-trading interests in the Great Lakes region."
     ],
     "answer": 0,
-    "explanation": "Following Pontiac's Rebellion, the British sought to stabilize the frontier by preventing settlement west of the Appalachians."
+    "explanation": "Following Pontiac's Rebellion, the British sought to stabilize the frontier by preventing settlement west of the Appalachians.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q4",
@@ -1417,7 +1487,8 @@ var APUSH_MCQ = [
       "By requesting more British troops for protection."
     ],
     "answer": 0,
-    "explanation": "Colonists felt the Proclamation was an infringement on their rights, as they had fought the French and Indian War specifically to gain access to that land."
+    "explanation": "Colonists felt the Proclamation was an infringement on their rights, as they had fought the French and Indian War specifically to gain access to that land.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q5",
@@ -1437,7 +1508,8 @@ var APUSH_MCQ = [
       "Provide an objective, historical account of the event."
     ],
     "answer": 0,
-    "explanation": "Revere used the engraving as propaganda to frame the British soldiers as unprovoked aggressors."
+    "explanation": "Revere used the engraving as propaganda to frame the British soldiers as unprovoked aggressors.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q6",
@@ -1457,7 +1529,8 @@ var APUSH_MCQ = [
       "Traditional British mercantilist theory."
     ],
     "answer": 0,
-    "explanation": "Paine utilized Enlightenment logic (John Locke) to argue that monarchies were inherently irrational and that self-rule was a natural right."
+    "explanation": "Paine utilized Enlightenment logic (John Locke) to argue that monarchies were inherently irrational and that self-rule was a natural right.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q7",
@@ -1477,7 +1550,8 @@ var APUSH_MCQ = [
       "As a secret code for the Continental Army's generals."
     ],
     "answer": 0,
-    "explanation": "Unlike previous legalistic pamphlets, 'Common Sense' was written for the masses, which helped turn the tide toward independence."
+    "explanation": "Unlike previous legalistic pamphlets, 'Common Sense' was written for the masses, which helped turn the tide toward independence.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q8",
@@ -1497,7 +1571,8 @@ var APUSH_MCQ = [
       "A superior navy that controlled the Atlantic."
     ],
     "answer": 0,
-    "explanation": "The Franco-American alliance of 1778 proved decisive — French naval power countered British sea dominance, and French troops and financing gave the Continental Army critical support it could not have sustained alone."
+    "explanation": "The Franco-American alliance of 1778 proved decisive — French naval power countered British sea dominance, and French troops and financing gave the Continental Army critical support it could not have sustained alone.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q9",
@@ -1517,7 +1592,8 @@ var APUSH_MCQ = [
       "It was the first time the British army surrendered."
     ],
     "answer": 2,
-    "explanation": "The victory proved the Americans could win, convincing King Louis XVI to provide the navy and funding needed to defeat Britain."
+    "explanation": "The victory proved the Americans could win, convincing King Louis XVI to provide the navy and funding needed to defeat Britain.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q10",
@@ -1537,7 +1613,8 @@ var APUSH_MCQ = [
       "The immediate granting of universal suffrage."
     ],
     "answer": 0,
-    "explanation": "While women did not get the vote, the revolution led to 'Republican Motherhood,' the idea that women were vital in raising virtuous citizens for the new republic."
+    "explanation": "While women did not get the vote, the revolution led to 'Republican Motherhood,' the idea that women were vital in raising virtuous citizens for the new republic.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q11",
@@ -1557,7 +1634,8 @@ var APUSH_MCQ = [
       "Rejoin the British Empire for economic stability."
     ],
     "answer": 2,
-    "explanation": "The contradiction between revolutionary rhetoric ('all men are created equal') and slavery led many Northern states to pass gradual emancipation laws."
+    "explanation": "The contradiction between revolutionary rhetoric ('all men are created equal') and slavery led many Northern states to pass gradual emancipation laws.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q12",
@@ -1577,7 +1655,8 @@ var APUSH_MCQ = [
       "Declare war."
     ],
     "answer": 0,
-    "explanation": "The Articles purposely created a weak central government that could not tax, leading to financial instability."
+    "explanation": "The Articles purposely created a weak central government that could not tax, leading to financial instability.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q13",
@@ -1597,7 +1676,8 @@ var APUSH_MCQ = [
       "Showed the need for a stronger central government to maintain order."
     ],
     "answer": 3,
-    "explanation": "The government's inability to quickly stop the rebellion alarmed elites and led to the call for the Constitutional Convention."
+    "explanation": "The government's inability to quickly stop the rebellion alarmed elites and led to the call for the Constitutional Convention.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q14",
@@ -1617,7 +1697,8 @@ var APUSH_MCQ = [
       "Allowed states to secede from the Union at any time."
     ],
     "answer": 1,
-    "explanation": "This was one of the few successes of the Articles, setting a precedent for how new states would enter the union and banning slavery in that region."
+    "explanation": "This was one of the few successes of the Articles, setting a precedent for how new states would enter the union and banning slavery in that region.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q15",
@@ -1637,7 +1718,8 @@ var APUSH_MCQ = [
       "How to count enslaved people for representation."
     ],
     "answer": 0,
-    "explanation": "It created a bicameral legislature: the House (based on population) and the Senate (equal representation)."
+    "explanation": "It created a bicameral legislature: the House (based on population) and the Senate (equal representation).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q16",
@@ -1657,7 +1739,8 @@ var APUSH_MCQ = [
       "The number of states required to ratify an amendment."
     ],
     "answer": 2,
-    "explanation": "Southern states wanted enslaved people to count for representation but not taxes; the compromise settled on 3 out of 5."
+    "explanation": "Southern states wanted enslaved people to count for representation but not taxes; the compromise settled on 3 out of 5.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q17",
@@ -1677,7 +1760,8 @@ var APUSH_MCQ = [
       "That the Executive branch would become a monarchy."
     ],
     "answer": 1,
-    "explanation": "Madison argued that a large republic would actually prevent any single faction from gaining too much power, refuting the idea that republics must be small."
+    "explanation": "Madison argued that a large republic would actually prevent any single faction from gaining too much power, refuting the idea that republics must be small.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q18",
@@ -1697,7 +1781,8 @@ var APUSH_MCQ = [
       "Lacked a Bill of Rights to protect individual liberties."
     ],
     "answer": 3,
-    "explanation": "The addition of the Bill of Rights was the key compromise that led to the ratification of the Constitution."
+    "explanation": "The addition of the Bill of Rights was the key compromise that led to the ratification of the Constitution.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q19",
@@ -1717,7 +1802,8 @@ var APUSH_MCQ = [
       "The creation of a National Bank."
     ],
     "answer": 3,
-    "explanation": "Hamilton wanted a National Bank to stabilize the economy and tie the interests of the wealthy to the federal government."
+    "explanation": "Hamilton wanted a National Bank to stabilize the economy and tie the interests of the wealthy to the federal government.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q20",
@@ -1737,7 +1823,8 @@ var APUSH_MCQ = [
       "The Articles of Confederation were still in effect."
     ],
     "answer": 2,
-    "explanation": "Unlike Shays's Rebellion, Washington suppressed the Whiskey Rebellion with federal troops, proving the Constitution's strength."
+    "explanation": "Unlike Shays's Rebellion, Washington suppressed the Whiskey Rebellion with federal troops, proving the Constitution's strength.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q21",
@@ -1757,7 +1844,8 @@ var APUSH_MCQ = [
       "Calls for the United States to honor the terms of the Franco-American alliance of 1778."
     ],
     "answer": 0,
-    "explanation": "Washington wanted to remain neutral to protect the fragile young nation from being dragged into European wars."
+    "explanation": "Washington wanted to remain neutral to protect the fragile young nation from being dragged into European wars.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q22",
@@ -1777,7 +1865,8 @@ var APUSH_MCQ = [
       "Debates over the power of the federal government, Hamilton's bank, and foreign policy."
     ],
     "answer": 3,
-    "explanation": "Hamilton (Federalist) and Jefferson (Democratic-Republican) disagreed on the bank, the French Revolution, and 'strict' vs. 'loose' construction of the Constitution."
+    "explanation": "Hamilton (Federalist) and Jefferson (Democratic-Republican) disagreed on the bank, the French Revolution, and 'strict' vs. 'loose' construction of the Constitution.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q23",
@@ -1797,7 +1886,8 @@ var APUSH_MCQ = [
       "Threatened the authority of state governments to regulate speech within their own borders."
     ],
     "answer": 1,
-    "explanation": "The law made it illegal to criticize the government, which Jeffersonians saw as a direct violation of the Bill of Rights."
+    "explanation": "The law made it illegal to criticize the government, which Jeffersonians saw as a direct violation of the Bill of Rights.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q24",
@@ -1817,7 +1907,8 @@ var APUSH_MCQ = [
       "Nullification (the right of states to ignore federal laws they deemed unconstitutional)."
     ],
     "answer": 3,
-    "explanation": "Drafted by Jefferson and Madison, these resolutions argued states could nullify federal laws like the Alien and Sedition Acts."
+    "explanation": "Drafted by Jefferson and Madison, these resolutions argued states could nullify federal laws like the Alien and Sedition Acts.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q25",
@@ -1837,7 +1928,8 @@ var APUSH_MCQ = [
       "John Adams"
     ],
     "answer": 0,
-    "explanation": "Jefferson drafted the document, drawing heavily on Enlightenment ideals."
+    "explanation": "Jefferson drafted the document, drawing heavily on Enlightenment ideals.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q26",
@@ -1857,7 +1949,8 @@ var APUSH_MCQ = [
       "A direct tax on internal colonial goods rather than an import duty."
     ],
     "answer": 3,
-    "explanation": "Previous taxes like the Sugar Act were trade duties (external); the Stamp Act was a direct tax on everyday items (internal), sparking 'No Taxation Without Representation.'"
+    "explanation": "Previous taxes like the Sugar Act were trade duties (external); the Stamp Act was a direct tax on everyday items (internal), sparking 'No Taxation Without Representation.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q27",
@@ -1877,7 +1970,8 @@ var APUSH_MCQ = [
       "Conflict between coastal elites and backcountry settlers over protection and representation."
     ],
     "answer": 3,
-    "explanation": "Backcountry farmers often felt neglected by the wealthier, coastal-based colonial and state governments."
+    "explanation": "Backcountry farmers often felt neglected by the wealthier, coastal-based colonial and state governments.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q28",
@@ -1897,7 +1991,8 @@ var APUSH_MCQ = [
       "Secured the purchase of Florida from Spain."
     ],
     "answer": 0,
-    "explanation": "This was vital for Western farmers to get their goods to market."
+    "explanation": "This was vital for Western farmers to get their goods to market.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q29",
@@ -1917,7 +2012,8 @@ var APUSH_MCQ = [
       "Life, liberty, and the pursuit of happiness."
     ],
     "answer": 3,
-    "explanation": "Jefferson adapted Locke’s 'Life, Liberty, and Property' into this famous phrase."
+    "explanation": "Jefferson adapted Locke’s 'Life, Liberty, and Property' into this famous phrase.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q30",
@@ -1937,7 +2033,8 @@ var APUSH_MCQ = [
       "The immediate impeachment of John Adams."
     ],
     "answer": 2,
-    "explanation": "When French agents demanded a bribe, Americans were outraged, leading to an undeclared naval war."
+    "explanation": "When French agents demanded a bribe, Americans were outraged, leading to an undeclared naval war.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q31",
@@ -1957,7 +2054,8 @@ var APUSH_MCQ = [
       "The taxation of state governments."
     ],
     "answer": 2,
-    "explanation": "Hamilton argued the government had 'implied powers' to carry out its duties, even if not explicitly listed in the Constitution."
+    "explanation": "Hamilton argued the government had 'implied powers' to carry out its duties, even if not explicitly listed in the Constitution.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q32",
@@ -1977,7 +2075,8 @@ var APUSH_MCQ = [
       "The violent overthrow of the Federalist government."
     ],
     "answer": 1,
-    "explanation": "Thomas Jefferson’s victory over John Adams was the first time in modern history that power shifted between opposing parties without bloodshed."
+    "explanation": "Thomas Jefferson’s victory over John Adams was the first time in modern history that power shifted between opposing parties without bloodshed.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q33",
@@ -1997,7 +2096,8 @@ var APUSH_MCQ = [
       "The Battle of Yorktown."
     ],
     "answer": 2,
-    "explanation": "The Sons of Liberty used both protests and direct action (like the Tea Party) to resist British policies."
+    "explanation": "The Sons of Liberty used both protests and direct action (like the Tea Party) to resist British policies.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q34",
@@ -2017,7 +2117,8 @@ var APUSH_MCQ = [
       "Utilize the large number of Loyalists believed to live in the South."
     ],
     "answer": 3,
-    "explanation": "The British hoped that Southern Loyalists would help them reclaim the colonies from the bottom up."
+    "explanation": "The British hoped that Southern Loyalists would help them reclaim the colonies from the bottom up.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q35",
@@ -2037,7 +2138,8 @@ var APUSH_MCQ = [
       "They formed their own independent nation that was recognized by France."
     ],
     "answer": 2,
-    "explanation": "Native Americans correctly feared that an American victory would lead to more westward expansion."
+    "explanation": "Native Americans correctly feared that an American victory would lead to more westward expansion.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q36",
@@ -2057,7 +2159,8 @@ var APUSH_MCQ = [
       "It abolished the Bill of Rights."
     ],
     "answer": 1,
-    "explanation": "While it got the British out of frontier forts, it didn't stop them from seizing American ships, outraging Jeffersonians."
+    "explanation": "While it got the British out of frontier forts, it didn't stop them from seizing American ships, outraging Jeffersonians.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q37",
@@ -2077,7 +2180,8 @@ var APUSH_MCQ = [
       "Adopt the US Constitution."
     ],
     "answer": 1,
-    "explanation": "Proposed by Benjamin Franklin during the French and Indian War, it was rejected by the colonies who feared losing their autonomy."
+    "explanation": "Proposed by Benjamin Franklin during the French and Indian War, it was rejected by the colonies who feared losing their autonomy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q38",
@@ -2097,7 +2201,8 @@ var APUSH_MCQ = [
       "The end of the French and Indian War."
     ],
     "answer": 1,
-    "explanation": "This victory secured the Northwest Territory for American settlement."
+    "explanation": "This victory secured the Northwest Territory for American settlement.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q39",
@@ -2117,7 +2222,8 @@ var APUSH_MCQ = [
       "Only the King could tax the colonies."
     ],
     "answer": 2,
-    "explanation": "Parliament wanted to save face after repealing the Stamp Act by asserting their absolute authority over the colonies."
+    "explanation": "Parliament wanted to save face after repealing the Stamp Act by asserting their absolute authority over the colonies.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q40",
@@ -2137,7 +2243,8 @@ var APUSH_MCQ = [
       "France, Haiti, and Latin America."
     ],
     "answer": 3,
-    "explanation": "The success of the American model of liberty and self-rule sparked a global wave of democratic movements."
+    "explanation": "The success of the American model of liberty and self-rule sparked a global wave of democratic movements.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q41",
@@ -2157,7 +2264,8 @@ var APUSH_MCQ = [
       "The Articles of Confederation."
     ],
     "answer": 1,
-    "explanation": "The Bill of Rights was added to protect individual rights from federal overreach."
+    "explanation": "The Bill of Rights was added to protect individual rights from federal overreach.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q42",
@@ -2177,7 +2285,8 @@ var APUSH_MCQ = [
       "The Boston Tea Party."
     ],
     "answer": 3,
-    "explanation": "The acts were intended to punish Boston by closing the harbor and suspending the Massachusetts government."
+    "explanation": "The acts were intended to punish Boston by closing the harbor and suspending the Massachusetts government.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q43",
@@ -2197,7 +2306,8 @@ var APUSH_MCQ = [
       "Hobbes"
     ],
     "answer": 0,
-    "explanation": "Montesquieu advocated for three branches of government (Legislative, Executive, Judicial) with checks and balances."
+    "explanation": "Montesquieu advocated for three branches of government (Legislative, Executive, Judicial) with checks and balances.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q44",
@@ -2217,7 +2327,8 @@ var APUSH_MCQ = [
       "Serving as the primary generals in the Continental Army."
     ],
     "answer": 1,
-    "explanation": "The 'Daughters of Liberty' were essential in making the non-importation agreements (boycotts) effective."
+    "explanation": "The 'Daughters of Liberty' were essential in making the non-importation agreements (boycotts) effective.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q45",
@@ -2237,7 +2348,8 @@ var APUSH_MCQ = [
       "A slave who led a rebellion in Virginia."
     ],
     "answer": 0,
-    "explanation": "Genêt’s actions tested Washington's Neutrality Proclamation and worsened tensions between Federalists and Republicans."
+    "explanation": "Genêt’s actions tested Washington's Neutrality Proclamation and worsened tensions between Federalists and Republicans.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q46",
@@ -2257,7 +2369,8 @@ var APUSH_MCQ = [
       "Yorktown"
     ],
     "answer": 3,
-    "explanation": "The surrender of Lord Cornwallis at Yorktown (1781) effectively ended the fighting."
+    "explanation": "The surrender of Lord Cornwallis at Yorktown (1781) effectively ended the fighting.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q47",
@@ -2277,7 +2390,8 @@ var APUSH_MCQ = [
       "The President to be elected every 6 months."
     ],
     "answer": 2,
-    "explanation": "This made the document virtually impossible to change, as any single state could block an amendment."
+    "explanation": "This made the document virtually impossible to change, as any single state could block an amendment.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q48",
@@ -2297,7 +2411,8 @@ var APUSH_MCQ = [
       "Small farmers, backcountry settlers, and those who feared a strong central government."
     ],
     "answer": 3,
-    "explanation": "They believed that a powerful federal government would become tyrannical, similar to the British Crown."
+    "explanation": "They believed that a powerful federal government would become tyrannical, similar to the British Crown.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q49",
@@ -2317,7 +2432,8 @@ var APUSH_MCQ = [
       "The Bill of Rights was unnecessary."
     ],
     "answer": 0,
-    "explanation": "Jefferson used this logic to oppose the National Bank, as a bank was not an 'enumerated power.'"
+    "explanation": "Jefferson used this logic to oppose the National Bank, as a bank was not an 'enumerated power.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q50",
@@ -2337,7 +2453,8 @@ var APUSH_MCQ = [
       "The existence of slavery."
     ],
     "answer": 2,
-    "explanation": "Colonists argued that because they had no representatives in Parliament, Parliament had no right to tax them."
+    "explanation": "Colonists argued that because they had no representatives in Parliament, Parliament had no right to tax them.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q51",
@@ -2357,7 +2474,8 @@ var APUSH_MCQ = [
       "The pursuit of extreme personal wealth at any cost."
     ],
     "answer": 1,
-    "explanation": "Leaders like Washington believed a republic could only survive if its citizens were moral and civic-minded."
+    "explanation": "Leaders like Washington believed a republic could only survive if its citizens were moral and civic-minded.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q52",
@@ -2377,7 +2495,8 @@ var APUSH_MCQ = [
       "A final attempt by the colonists to avoid a full-scale war with Britain."
     ],
     "answer": 3,
-    "explanation": "Even after fighting began, some members of the Continental Congress hoped for a peaceful resolution."
+    "explanation": "Even after fighting began, some members of the Continental Congress hoped for a peaceful resolution.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q53",
@@ -2397,7 +2516,8 @@ var APUSH_MCQ = [
       "They successfully pushed the British out of the Ohio River Valley."
     ],
     "answer": 2,
-    "explanation": "With the French gone, Native Americans had only one European power to deal with, significantly reducing their diplomatic leverage."
+    "explanation": "With the French gone, Native Americans had only one European power to deal with, significantly reducing their diplomatic leverage.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q54",
@@ -2417,7 +2537,8 @@ var APUSH_MCQ = [
       "The Declaration of Independence"
     ],
     "answer": 1,
-    "explanation": "The Stamp Act was passed in 1765, starting the decade of protests leading to the war."
+    "explanation": "The Stamp Act was passed in 1765, starting the decade of protests leading to the war.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q55",
@@ -2437,7 +2558,8 @@ var APUSH_MCQ = [
       "Prevent anyone over the age of 35 from becoming President."
     ],
     "answer": 2,
-    "explanation": "By giving each branch ways to limit the others (e.g., the Veto, Judicial Review), the Founders sought to prevent tyranny."
+    "explanation": "By giving each branch ways to limit the others (e.g., the Veto, Judicial Review), the Founders sought to prevent tyranny.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q56",
@@ -2457,7 +2579,8 @@ var APUSH_MCQ = [
       "The Constitution cannot be changed under any circumstances."
     ],
     "answer": 1,
-    "explanation": "This theory would later be used by Southern states to justify secession before the Civil War."
+    "explanation": "This theory would later be used by Southern states to justify secession before the Civil War.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q57",
@@ -2477,7 +2600,8 @@ var APUSH_MCQ = [
       "Lexington and Concord"
     ],
     "answer": 3,
-    "explanation": "The 'Shot Heard 'Round the World' occurred in April 1775."
+    "explanation": "The 'Shot Heard 'Round the World' occurred in April 1775.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q58",
@@ -2497,7 +2621,8 @@ var APUSH_MCQ = [
       "The French seizure of American merchant ships."
     ],
     "answer": 3,
-    "explanation": "France was angry about Jay's Treaty and began attacking American shipping, leading to naval skirmishes."
+    "explanation": "France was angry about Jay's Treaty and began attacking American shipping, leading to naval skirmishes.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q59",
@@ -2517,7 +2642,8 @@ var APUSH_MCQ = [
       "It had no effect whatsoever on the institution."
     ],
     "answer": 2,
-    "explanation": "While the North moved toward abolition, the South grew more defensive of slavery, seeing it as essential to their way of life."
+    "explanation": "While the North moved toward abolition, the South grew more defensive of slavery, seeing it as essential to their way of life.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q60",
@@ -2537,14 +2663,15 @@ var APUSH_MCQ = [
       "Promoting nationalistic themes and the virtues of the new republic."
     ],
     "answer": 3,
-    "explanation": "Artists like John Trumbull and writers like Noah Webster sought to create a distinct, heroic American culture."
+    "explanation": "Artists like John Trumbull and writers like Noah Webster sought to create a distinct, heroic American culture.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q1",
     "subject": "apush",
     "unit": 4,
     "topic": "4.2 Rise of Political Parties and the Era of Jefferson",
-    "topicLabel": "4.2 Rise of Political Parties and the Era of Jefferson",
+    "topicLabel": "4.2 The Rise of Political Parties and the Era of Jefferson",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -2557,14 +2684,15 @@ var APUSH_MCQ = [
       "Repeal the Constitution and call a new constitutional convention."
     ],
     "answer": 1,
-    "explanation": "After the 'Revolution of 1800,' Jefferson sought to unify the country by emphasizing shared American values despite partisan differences."
+    "explanation": "After the 'Revolution of 1800,' Jefferson sought to unify the country by emphasizing shared American values despite partisan differences.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q2",
     "subject": "apush",
     "unit": 4,
     "topic": "4.2 Rise of Political Parties",
-    "topicLabel": "4.2 Rise of Political Parties",
+    "topicLabel": "4.2 The Rise of Political Parties and the Era of Jefferson",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -2577,14 +2705,15 @@ var APUSH_MCQ = [
       "The repeal of the whiskey tax."
     ],
     "answer": 0,
-    "explanation": "The Constitution does not explicitly grant the President the power to purchase land; Jefferson used 'implied powers' to secure Louisiana, a Federalist-style move."
+    "explanation": "The Constitution does not explicitly grant the President the power to purchase land; Jefferson used 'implied powers' to secure Louisiana, a Federalist-style move.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q3",
     "subject": "apush",
     "unit": 4,
     "topic": "4.2 Rise of Political Parties",
-    "topicLabel": "4.2 Rise of Political Parties",
+    "topicLabel": "4.2 The Rise of Political Parties and the Era of Jefferson",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -2597,7 +2726,8 @@ var APUSH_MCQ = [
       "The right of the President to ignore Supreme Court rulings."
     ],
     "answer": 0,
-    "explanation": "Chief Justice John Marshall established that the Supreme Court has the final authority to determine the constitutionality of laws."
+    "explanation": "Chief Justice John Marshall established that the Supreme Court has the final authority to determine the constitutionality of laws.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q4",
@@ -2617,7 +2747,8 @@ var APUSH_MCQ = [
       "The threat of Russia expanding into the Oregon Territory."
     ],
     "answer": 0,
-    "explanation": "Following the Napoleonic Wars, the US wanted to prevent a European resurgence in the Western Hemisphere."
+    "explanation": "Following the Napoleonic Wars, the US wanted to prevent a European resurgence in the Western Hemisphere.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q5",
@@ -2637,7 +2768,8 @@ var APUSH_MCQ = [
       "The abolition of the international slave trade."
     ],
     "answer": 2,
-    "explanation": "By making cotton processing profitable, the gin 're-invigorated' slavery just as it was beginning to decline."
+    "explanation": "By making cotton processing profitable, the gin 're-invigorated' slavery just as it was beginning to decline.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q6",
@@ -2657,7 +2789,8 @@ var APUSH_MCQ = [
       "Was funded entirely by the British government."
     ],
     "answer": 2,
-    "explanation": "Transportation innovations like canals and railroads created a 'National Market' that tied Northern industry to Western agriculture, deepening sectional differences — the South remained connected via the Mississippi River and coastal trade but was increasingly divergent economically."
+    "explanation": "Transportation innovations like canals and railroads created a 'National Market' that tied Northern industry to Western agriculture, deepening sectional differences — the South remained connected via the Mississippi River and coastal trade but was increasingly divergent economically.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q7",
@@ -2677,7 +2810,8 @@ var APUSH_MCQ = [
       "The rejection of steam power in favor of manual labor."
     ],
     "answer": 0,
-    "explanation": "Lowell mills provided a rare opportunity for women to earn wages, though under strict moral and social supervision."
+    "explanation": "Lowell mills provided a rare opportunity for women to earn wages, though under strict moral and social supervision.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q8",
@@ -2697,7 +2831,8 @@ var APUSH_MCQ = [
       "Native Americans protesting the Trail of Tears."
     ],
     "answer": 2,
-    "explanation": "The Whig Party formed specifically to oppose Jackson, whom they accused of ignoring the Constitution and the other branches of government."
+    "explanation": "The Whig Party formed specifically to oppose Jackson, whom they accused of ignoring the Constitution and the other branches of government.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q10",
@@ -2717,7 +2852,8 @@ var APUSH_MCQ = [
       "The Sioux"
     ],
     "answer": 0,
-    "explanation": "Under the Indian Removal Act, the Cherokee were forced to march from Georgia to Oklahoma, resulting in thousands of deaths."
+    "explanation": "Under the Indian Removal Act, the Cherokee were forced to march from Georgia to Oklahoma, resulting in thousands of deaths.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q11",
@@ -2737,7 +2873,8 @@ var APUSH_MCQ = [
       "Scientific rationalism and Deism."
     ],
     "answer": 0,
-    "explanation": "This religious fervor fueled various 19th-century reform movements like temperance and abolition."
+    "explanation": "This religious fervor fueled various 19th-century reform movements like temperance and abolition.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q12",
@@ -2757,7 +2894,8 @@ var APUSH_MCQ = [
       "The Seneca Falls Convention"
     ],
     "answer": 3,
-    "explanation": "The Seneca Falls Convention was the first major women's rights convention in the US, led by Elizabeth Cady Stanton."
+    "explanation": "The Seneca Falls Convention was the first major women's rights convention in the US, led by Elizabeth Cady Stanton.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q13",
@@ -2777,7 +2915,8 @@ var APUSH_MCQ = [
       "Reduce or ban the consumption of alcohol."
     ],
     "answer": 3,
-    "explanation": "Reformers (often women) argued that alcohol led to domestic violence, poverty, and social disorder."
+    "explanation": "Reformers (often women) argued that alcohol led to domestic violence, poverty, and social disorder.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q14",
@@ -2797,7 +2936,8 @@ var APUSH_MCQ = [
       "The political party led by Andrew Jackson."
     ],
     "answer": 1,
-    "explanation": "Many early anti-slavery advocates did not believe in a multi-racial society and wanted to 'repatriate' Black people to Africa."
+    "explanation": "Many early anti-slavery advocates did not believe in a multi-racial society and wanted to 'repatriate' Black people to Africa.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q15",
@@ -2817,7 +2957,8 @@ var APUSH_MCQ = [
       "Tobacco"
     ],
     "answer": 0,
-    "explanation": "Cotton made up more than half of all US exports, making the 'Cotton Kingdom' vital to the national economy."
+    "explanation": "Cotton made up more than half of all US exports, making the 'Cotton Kingdom' vital to the national economy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q16",
@@ -2837,7 +2978,8 @@ var APUSH_MCQ = [
       "A policy of total isolation from European trade."
     ],
     "answer": 2,
-    "explanation": "Clay wanted to use federal power to link the different regions of the country into an interdependent economy."
+    "explanation": "Clay wanted to use federal power to link the different regions of the country into an interdependent economy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q17",
@@ -2857,7 +2999,8 @@ var APUSH_MCQ = [
       "Abolishing slavery in all new territories."
     ],
     "answer": 2,
-    "explanation": "The compromise maintained the balance of power in the Senate but highlighted the growing 'sectionalism' between North and South."
+    "explanation": "The compromise maintained the balance of power in the Senate but highlighted the growing 'sectionalism' between North and South.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q18",
@@ -2877,7 +3020,8 @@ var APUSH_MCQ = [
       "They wanted to help Napoleon conquer Europe."
     ],
     "answer": 0,
-    "explanation": "Led by Henry Clay and John C. Calhoun, these young Westerners and Southerners were eager for a second war of independence."
+    "explanation": "Led by Henry Clay and John C. Calhoun, these young Westerners and Southerners were eager for a second war of independence.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q19",
@@ -2897,7 +3041,8 @@ var APUSH_MCQ = [
       "The movement of production from the home (the 'putting-out' system) to the factory."
     ],
     "answer": 3,
-    "explanation": "The shift to factory work separated the workplace from the home and led to the growth of the middle class."
+    "explanation": "The shift to factory work separated the workplace from the home and led to the growth of the middle class.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q20",
@@ -2917,7 +3062,8 @@ var APUSH_MCQ = [
       "Detailed drawings of the battle of Waterloo."
     ],
     "answer": 1,
-    "explanation": "These artists sought to capture the 'sublime' beauty of American nature, reflecting a growing sense of national identity."
+    "explanation": "These artists sought to capture the 'sublime' beauty of American nature, reflecting a growing sense of national identity.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q21",
@@ -2937,7 +3083,8 @@ var APUSH_MCQ = [
       "Harsher slave codes and increased restriction on the movement and education of Black people."
     ],
     "answer": 3,
-    "explanation": "The rebellion terrified White Southerners, leading to a 'crackdown' on all Black residents, free or enslaved."
+    "explanation": "The rebellion terrified White Southerners, leading to a 'crackdown' on all Black residents, free or enslaved.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q22",
@@ -2957,7 +3104,8 @@ var APUSH_MCQ = [
       "Abraham Lincoln"
     ],
     "answer": 2,
-    "explanation": "Jackson's presidency saw the removal of property requirements for voting, allowing most White men to participate in politics."
+    "explanation": "Jackson's presidency saw the removal of property requirements for voting, allowing most White men to participate in politics.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q23",
@@ -2977,14 +3125,15 @@ var APUSH_MCQ = [
       "The bank should be controlled by the British Parliament."
     ],
     "answer": 2,
-    "explanation": "Jackson's 'Bank War' was a central event in his presidency, reflecting his distrust of centralized financial power."
+    "explanation": "Jackson's 'Bank War' was a central event in his presidency, reflecting his distrust of centralized financial power.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q24",
     "subject": "apush",
     "unit": 4,
     "topic": "4.2 Rise of Political Parties",
-    "topicLabel": "4.2 Rise of Political Parties",
+    "topicLabel": "4.2 The Rise of Political Parties and the Era of Jefferson",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -2997,7 +3146,8 @@ var APUSH_MCQ = [
       "Resulted in the death of the Federalist Party after they were accused of being unpatriotic for opposing the War of 1812."
     ],
     "answer": 3,
-    "explanation": "New England Federalists met to discuss grievances (and even secession), which made them look like traitors once the war ended in a 'victory.'"
+    "explanation": "New England Federalists met to discuss grievances (and even secession), which made them look like traitors once the war ended in a 'victory.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q25",
@@ -3017,7 +3167,8 @@ var APUSH_MCQ = [
       "The woman’s place was in the home, where she would provide a moral refuge for her husband and children."
     ],
     "answer": 3,
-    "explanation": "This ideology emerged as a result of the Market Revolution separating work from home life."
+    "explanation": "This ideology emerged as a result of the Market Revolution separating work from home life.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q26",
@@ -3037,7 +3188,8 @@ var APUSH_MCQ = [
       "Edgar Allan Poe"
     ],
     "answer": 0,
-    "explanation": "Transcendentalists believed in the divinity of nature and the importance of individual intuition over tradition."
+    "explanation": "Transcendentalists believed in the divinity of nature and the importance of individual intuition over tradition.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q27",
@@ -3057,14 +3209,15 @@ var APUSH_MCQ = [
       "Founded the Mormon church."
     ],
     "answer": 2,
-    "explanation": "Douglass’s autobiography was one of the most influential anti-slavery documents of the 19th century."
+    "explanation": "Douglass’s autobiography was one of the most influential anti-slavery documents of the 19th century.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q28",
     "subject": "apush",
     "unit": 4,
     "topic": "4.5 Market Revolution",
-    "topicLabel": "4.5 Market Revolution",
+    "topicLabel": "4.5 Market Revolution: Industrialization",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -3077,14 +3230,15 @@ var APUSH_MCQ = [
       "The construction of railroads."
     ],
     "answer": 3,
-    "explanation": "Railroads revolutionized transportation by moving goods faster and cheaper than wagons or canals."
+    "explanation": "Railroads revolutionized transportation by moving goods faster and cheaper than wagons or canals.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q29",
     "subject": "apush",
     "unit": 4,
     "topic": "4.13 Society of the South",
-    "topicLabel": "4.13 Society of the South",
+    "topicLabel": "4.13 The Society of the South in the Early Republic",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -3097,7 +3251,8 @@ var APUSH_MCQ = [
       "Slavery was prohibited by the Bible."
     ],
     "answer": 2,
-    "explanation": "This argument was used by Southerners like John C. Calhoun to justify the institution as beneficial to both races."
+    "explanation": "This argument was used by Southerners like John C. Calhoun to justify the institution as beneficial to both races.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q30",
@@ -3117,7 +3272,8 @@ var APUSH_MCQ = [
       "A secret trade route for illegal cotton."
     ],
     "answer": 1,
-    "explanation": "Harriet Tubman is the most famous 'conductor' on this dangerous network."
+    "explanation": "Harriet Tubman is the most famous 'conductor' on this dangerous network.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q31",
@@ -3137,7 +3293,8 @@ var APUSH_MCQ = [
       "Great Britain"
     ],
     "answer": 3,
-    "explanation": "The war was caused by trade disputes, impressment, and British support for Native American raids."
+    "explanation": "The war was caused by trade disputes, impressment, and British support for Native American raids.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q32",
@@ -3157,7 +3314,8 @@ var APUSH_MCQ = [
       "The belief that John Quincy Adams made a deal with Henry Clay to win the presidency."
     ],
     "answer": 3,
-    "explanation": "When Clay threw his support to Adams in the House election and then became Secretary of State, Jackson's followers cried foul."
+    "explanation": "When Clay threw his support to Adams in the House election and then became Secretary of State, Jackson's followers cried foul.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q33",
@@ -3177,7 +3335,8 @@ var APUSH_MCQ = [
       "The Massachusetts Bay Colony."
     ],
     "answer": 1,
-    "explanation": "Utopian societies sought to create perfect social environments based on communal living and shared labor."
+    "explanation": "Utopian societies sought to create perfect social environments based on communal living and shared labor.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q34",
@@ -3197,7 +3356,8 @@ var APUSH_MCQ = [
       "Political supporters were rewarded with government jobs after an election victory."
     ],
     "answer": 3,
-    "explanation": "Andrew Jackson famously used this system to fill the bureaucracy with loyal Democrats."
+    "explanation": "Andrew Jackson famously used this system to fill the bureaucracy with loyal Democrats.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q35",
@@ -3217,14 +3377,15 @@ var APUSH_MCQ = [
       "A pro-British militia."
     ],
     "answer": 2,
-    "explanation": "Led by Martin Van Buren, this group helped pioneer the modern party system that Jackson would later lead."
+    "explanation": "Led by Martin Van Buren, this group helped pioneer the modern party system that Jackson would later lead.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q36",
     "subject": "apush",
     "unit": 4,
     "topic": "4.2 Rise of Political Parties",
-    "topicLabel": "4.2 Rise of Political Parties",
+    "topicLabel": "4.2 The Rise of Political Parties and the Era of Jefferson",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -3237,14 +3398,15 @@ var APUSH_MCQ = [
       "Friendly relations with the Soviet Union."
     ],
     "answer": 0,
-    "explanation": "Following the collapse of the Federalists, the nation appeared politically unified under James Monroe."
+    "explanation": "Following the collapse of the Federalists, the nation appeared politically unified under James Monroe.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q37",
     "subject": "apush",
     "unit": 4,
     "topic": "4.5 Market Revolution",
-    "topicLabel": "4.5 Market Revolution",
+    "topicLabel": "4.5 Market Revolution: Industrialization",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -3257,7 +3419,8 @@ var APUSH_MCQ = [
       "A secret escape route for enslaved people."
     ],
     "answer": 0,
-    "explanation": "The road helped facilitate the movement of settlers and goods across the Appalachian Mountains."
+    "explanation": "The road helped facilitate the movement of settlers and goods across the Appalachian Mountains.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q38",
@@ -3277,7 +3440,8 @@ var APUSH_MCQ = [
       "Called for enslaved people to use violence to secure their freedom."
     ],
     "answer": 3,
-    "explanation": "Walker's radical stance terrified Southerners and even some moderate Northern abolitionists."
+    "explanation": "Walker's radical stance terrified Southerners and even some moderate Northern abolitionists.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q39",
@@ -3297,14 +3461,15 @@ var APUSH_MCQ = [
       "The rights of Native Americans."
     ],
     "answer": 1,
-    "explanation": "Dix's reports on the horrific conditions in asylums led to the creation of state-funded mental hospitals."
+    "explanation": "Dix's reports on the horrific conditions in asylums led to the creation of state-funded mental hospitals.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q40",
     "subject": "apush",
     "unit": 4,
     "topic": "4.2 Rise of Political Parties",
-    "topicLabel": "4.2 Rise of Political Parties",
+    "topicLabel": "4.2 The Rise of Political Parties and the Era of Jefferson",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -3317,7 +3482,8 @@ var APUSH_MCQ = [
       "George Washington to avoid political parties."
     ],
     "answer": 1,
-    "explanation": "This led directly to the Marbury v. Madison case when Jefferson refused to deliver the commissions."
+    "explanation": "This led directly to the Marbury v. Madison case when Jefferson refused to deliver the commissions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q41",
@@ -3337,7 +3503,8 @@ var APUSH_MCQ = [
       "The US Navy"
     ],
     "answer": 1,
-    "explanation": "Mann campaigned for better schoolhouses, longer school terms, and expanded curriculum in Massachusetts."
+    "explanation": "Mann campaigned for better schoolhouses, longer school terms, and expanded curriculum in Massachusetts.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q42",
@@ -3357,7 +3524,8 @@ var APUSH_MCQ = [
       "The President should be limited to one term."
     ],
     "answer": 0,
-    "explanation": "The amendment sparked the Missouri Compromise crisis as Southerners saw it as a threat to the sectional balance."
+    "explanation": "The amendment sparked the Missouri Compromise crisis as Southerners saw it as a threat to the sectional balance.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q43",
@@ -3377,7 +3545,8 @@ var APUSH_MCQ = [
       "Banned the discussion of abolitionist petitions on the floor of Congress."
     ],
     "answer": 3,
-    "explanation": "The rule was an attempt to silence the growing anti-slavery movement, but it actually made abolitionists look like defenders of free speech."
+    "explanation": "The rule was an attempt to silence the growing anti-slavery movement, but it actually made abolitionists look like defenders of free speech.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q44",
@@ -3397,7 +3566,8 @@ var APUSH_MCQ = [
       "Being the epicenter of intense religious revivals and the birthplace of new religious movements."
     ],
     "answer": 3,
-    "explanation": "The name came from the idea that the area had been 'swept over' by the fires of religious fervor so many times."
+    "explanation": "The name came from the idea that the area had been 'swept over' by the fires of religious fervor so many times.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q45",
@@ -3417,14 +3587,15 @@ var APUSH_MCQ = [
       "The worship of the British King."
     ],
     "answer": 2,
-    "explanation": "The Shakers were one of the many religious 'experiments' of the mid-19th century."
+    "explanation": "The Shakers were one of the many religious 'experiments' of the mid-19th century.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q46",
     "subject": "apush",
     "unit": 4,
     "topic": "4.5 Market Revolution",
-    "topicLabel": "4.5 Market Revolution",
+    "topicLabel": "4.5 Market Revolution: Industrialization",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -3437,7 +3608,8 @@ var APUSH_MCQ = [
       "Transcontinental Railroad"
     ],
     "answer": 1,
-    "explanation": "The B&O began operations in 1830, ushering in the railroad era."
+    "explanation": "The B&O began operations in 1830, ushering in the railroad era.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q47",
@@ -3457,7 +3629,8 @@ var APUSH_MCQ = [
       "The complete rejection of any modern technology."
     ],
     "answer": 2,
-    "explanation": "Oneida was a perfectionist communal society that challenged traditional 19th-century social norms."
+    "explanation": "Oneida was a perfectionist communal society that challenged traditional 19th-century social norms.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q48",
@@ -3477,7 +3650,8 @@ var APUSH_MCQ = [
       "The Cherokee must leave Georgia immediately."
     ],
     "answer": 1,
-    "explanation": "Andrew Jackson famously ignored this ruling, reportedly saying, 'John Marshall has made his decision; now let him enforce it!'"
+    "explanation": "Andrew Jackson famously ignored this ruling, reportedly saying, 'John Marshall has made his decision; now let him enforce it!'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q49",
@@ -3497,7 +3671,8 @@ var APUSH_MCQ = [
       "The US gaining the Florida territory."
     ],
     "answer": 2,
-    "explanation": "No land changed hands, but the US felt a surge of nationalism for having survived a second war with Britain."
+    "explanation": "No land changed hands, but the US felt a surge of nationalism for having survived a second war with Britain.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q50",
@@ -3517,14 +3692,15 @@ var APUSH_MCQ = [
       "The Liberator"
     ],
     "answer": 3,
-    "explanation": "Garrison was a radical who called for the 'immediate and uncompensated' emancipation of all slaves."
+    "explanation": "Garrison was a radical who called for the 'immediate and uncompensated' emancipation of all slaves.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q51",
     "subject": "apush",
     "unit": 4,
     "topic": "4.13 Society of the South",
-    "topicLabel": "4.13 Society of the South",
+    "topicLabel": "4.13 The Society of the South in the Early Republic",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -3537,14 +3713,15 @@ var APUSH_MCQ = [
       "Non-slaveholding subsistence farmers (Yeomen)."
     ],
     "answer": 3,
-    "explanation": "While the 'Planter Class' held political power, the majority of White Southerners did not own slaves."
+    "explanation": "While the 'Planter Class' held political power, the majority of White Southerners did not own slaves.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q52",
     "subject": "apush",
     "unit": 4,
     "topic": "4.5 Market Revolution",
-    "topicLabel": "4.5 Market Revolution",
+    "topicLabel": "4.5 Market Revolution: Industrialization",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -3557,7 +3734,8 @@ var APUSH_MCQ = [
       "Allowed boats to travel upstream against the current."
     ],
     "answer": 3,
-    "explanation": "This transformed river travel, especially on the Mississippi and Ohio Rivers, making two-way trade possible."
+    "explanation": "This transformed river travel, especially on the Mississippi and Ohio Rivers, making two-way trade possible.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q53",
@@ -3577,7 +3755,8 @@ var APUSH_MCQ = [
       "All federal land to be paid for in gold or silver (specie) rather than paper money."
     ],
     "answer": 3,
-    "explanation": "This policy contributed to the Panic of 1837 by causing a sudden contraction in the money supply."
+    "explanation": "This policy contributed to the Panic of 1837 by causing a sudden contraction in the money supply.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q54",
@@ -3597,14 +3776,15 @@ var APUSH_MCQ = [
       "Andrew Jackson"
     ],
     "answer": 3,
-    "explanation": "Jackson's victory at New Orleans (after the peace treaty was signed) made him a national superstar."
+    "explanation": "Jackson's victory at New Orleans (after the peace treaty was signed) made him a national superstar.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q55",
     "subject": "apush",
     "unit": 4,
     "topic": "4.9 Development of American Culture",
-    "topicLabel": "4.9 Development of American Culture",
+    "topicLabel": "4.9 The Development of an American Culture",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -3617,7 +3797,8 @@ var APUSH_MCQ = [
       "Led a rebellion against the National Bank."
     ],
     "answer": 0,
-    "explanation": "Their work (like 'Rip Van Winkle' and 'The Last of the Mohicans') helped define a unique American literary identity."
+    "explanation": "Their work (like 'Rip Van Winkle' and 'The Last of the Mohicans') helped define a unique American literary identity.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q56",
@@ -3637,14 +3818,15 @@ var APUSH_MCQ = [
       "Celebrated the founding of the Constitution."
     ],
     "answer": 2,
-    "explanation": "Minstrelsy reinforced racial stereotypes and White supremacy in the North and South."
+    "explanation": "Minstrelsy reinforced racial stereotypes and White supremacy in the North and South.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q57",
     "subject": "apush",
     "unit": 4,
     "topic": "4.2 Rise of Political Parties",
-    "topicLabel": "4.2 Rise of Political Parties",
+    "topicLabel": "4.2 The Rise of Political Parties and the Era of Jefferson",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -3657,7 +3839,8 @@ var APUSH_MCQ = [
       "Led to a war with Spain."
     ],
     "answer": 2,
-    "explanation": "Jefferson hoped to stop impressment by cutting off trade, but it only ended up hurting American merchants."
+    "explanation": "Jefferson hoped to stop impressment by cutting off trade, but it only ended up hurting American merchants.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q58",
@@ -3677,7 +3860,8 @@ var APUSH_MCQ = [
       "The nickname for the Supreme Court in the 1830s."
     ],
     "answer": 1,
-    "explanation": "Jackson relied more on his friends and political allies than his Senate-confirmed department heads."
+    "explanation": "Jackson relied more on his friends and political allies than his Senate-confirmed department heads.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q59",
@@ -3697,7 +3881,8 @@ var APUSH_MCQ = [
       "Opposed to the development of railroads."
     ],
     "answer": 0,
-    "explanation": "Nativist groups like the 'Know-Nothing' Party feared that Irish Catholics would be more loyal to the Pope than the US government."
+    "explanation": "Nativist groups like the 'Know-Nothing' Party feared that Irish Catholics would be more loyal to the Pope than the US government.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q60",
@@ -3717,7 +3902,8 @@ var APUSH_MCQ = [
       "Andrew Jackson"
     ],
     "answer": 0,
-    "explanation": "Following the murder of Joseph Smith, Young led the group west to the Salt Lake Valley to escape religious persecution."
+    "explanation": "Following the murder of Joseph Smith, Young led the group west to the Salt Lake Valley to escape religious persecution.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q1",
@@ -3737,7 +3923,8 @@ var APUSH_MCQ = [
       "The establishment of a national bank."
     ],
     "answer": 2,
-    "explanation": "Manifest Destiny was the 19th-century belief that the United States was destined by God to expand its dominion and spread democracy and capitalism across the entire North American continent."
+    "explanation": "Manifest Destiny was the 19th-century belief that the United States was destined by God to expand its dominion and spread democracy and capitalism across the entire North American continent.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q2",
@@ -3757,7 +3944,8 @@ var APUSH_MCQ = [
       "Slavery should be prohibited in any territory acquired from Mexico."
     ],
     "answer": 3,
-    "explanation": "The Wilmot Proviso failed to pass the Senate but heightened sectional tensions by raising the question of slavery's expansion into new western lands."
+    "explanation": "The Wilmot Proviso failed to pass the Senate but heightened sectional tensions by raising the question of slavery's expansion into new western lands.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q3",
@@ -3777,7 +3965,8 @@ var APUSH_MCQ = [
       "It radicalized many Northerners who were previously indifferent to slavery."
     ],
     "answer": 3,
-    "explanation": "By forcing Northern citizens to assist in the capture of runaway slaves, the law brought the reality of slavery to the North and increased abolitionist sentiment."
+    "explanation": "By forcing Northern citizens to assist in the capture of runaway slaves, the law brought the reality of slavery to the North and increased abolitionist sentiment.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q4",
@@ -3797,7 +3986,8 @@ var APUSH_MCQ = [
       "Opposition to the expansion of slavery into Kansas."
     ],
     "answer": 0,
-    "explanation": "Nativism spiked in the 1850s due to the influx of Irish and German immigrants, leading to the rise of this short-lived political party."
+    "explanation": "Nativism spiked in the 1850s due to the influx of Irish and German immigrants, leading to the rise of this short-lived political party.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q5",
@@ -3817,7 +4007,8 @@ var APUSH_MCQ = [
       "Judicial Review"
     ],
     "answer": 2,
-    "explanation": "Popular sovereignty allowed the residents of a territory to vote on whether to allow slavery, effectively repealing the Missouri Compromise of 1820."
+    "explanation": "Popular sovereignty allowed the residents of a territory to vote on whether to allow slavery, effectively repealing the Missouri Compromise of 1820.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q6",
@@ -3837,7 +4028,8 @@ var APUSH_MCQ = [
       "The publication of Uncle Tom’s Cabin."
     ],
     "answer": 2,
-    "explanation": "The attempt to use popular sovereignty led to pro-slavery and anti-slavery settlers flooding Kansas, resulting in guerrilla warfare."
+    "explanation": "The attempt to use popular sovereignty led to pro-slavery and anti-slavery settlers flooding Kansas, resulting in guerrilla warfare.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q7",
@@ -3857,7 +4049,8 @@ var APUSH_MCQ = [
       "The prevention of the further spread of slavery into the territories."
     ],
     "answer": 3,
-    "explanation": "The 'Free Soil' ideology of the early Republican Party sought to contain slavery where it already existed rather than ending it immediately everywhere."
+    "explanation": "The 'Free Soil' ideology of the early Republican Party sought to contain slavery where it already existed rather than ending it immediately everywhere.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q8",
@@ -3877,7 +4070,8 @@ var APUSH_MCQ = [
       "Established the 14th Amendment."
     ],
     "answer": 2,
-    "explanation": "Taney ruled that Congress had no power to ban slavery in territories, essentially making all territories open to slavery and outraging Republicans."
+    "explanation": "Taney ruled that Congress had no power to ban slavery in territories, essentially making all territories open to slavery and outraging Republicans.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q9",
@@ -3897,7 +4091,8 @@ var APUSH_MCQ = [
       "Fort Sumter"
     ],
     "answer": 3,
-    "explanation": "South Carolina troops fired on the federal fort in April 1861, beginning the armed conflict."
+    "explanation": "South Carolina troops fired on the federal fort in April 1861, beginning the armed conflict.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q10",
@@ -3917,7 +4112,8 @@ var APUSH_MCQ = [
       "Was ruled unconstitutional by the Supreme Court in 1864."
     ],
     "answer": 0,
-    "explanation": "Lincoln did not free slaves in the border states (like Kentucky or Maryland) to avoid driving them into the Confederacy."
+    "explanation": "Lincoln did not free slaves in the border states (like Kentucky or Maryland) to avoid driving them into the Confederacy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q11",
@@ -3937,7 +4133,8 @@ var APUSH_MCQ = [
       "It led to a military alliance between the US and the Confederacy."
     ],
     "answer": 0,
-    "explanation": "By making the war about slavery, Lincoln ensured that Britain and France (who were anti-slavery) would not intervene on behalf of the South."
+    "explanation": "By making the war about slavery, Lincoln ensured that Britain and France (who were anti-slavery) would not intervene on behalf of the South.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q12",
@@ -3957,7 +4154,8 @@ var APUSH_MCQ = [
       "Led to the signing of the Emancipation Proclamation."
     ],
     "answer": 2,
-    "explanation": "Lee's defeat at Gettysburg halted Confederate momentum and began the long retreat that ended at Appomattox."
+    "explanation": "Lee's defeat at Gettysburg halted Confederate momentum and began the long retreat that ended at Appomattox.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q13",
@@ -3977,7 +4175,8 @@ var APUSH_MCQ = [
       "Established the income tax."
     ],
     "answer": 0,
-    "explanation": "Ratified in 1865, it permanently ended the legal institution of slavery in the United States."
+    "explanation": "Ratified in 1865, it permanently ended the legal institution of slavery in the United States.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q14",
@@ -3997,7 +4196,8 @@ var APUSH_MCQ = [
       "Encourage Black people to move to the North."
     ],
     "answer": 2,
-    "explanation": "Black Codes were repressive laws designed to maintain White supremacy and keep Black laborers in a state of quasi-slavery."
+    "explanation": "Black Codes were repressive laws designed to maintain White supremacy and keep Black laborers in a state of quasi-slavery.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q15",
@@ -4017,7 +4217,8 @@ var APUSH_MCQ = [
       "The Dred Scott decision."
     ],
     "answer": 2,
-    "explanation": "The 15th Amendment (1870) prohibited states from denying the right to vote based on race, color, or previous condition of servitude."
+    "explanation": "The 15th Amendment (1870) prohibited states from denying the right to vote based on race, color, or previous condition of servitude.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q16",
@@ -4037,7 +4238,8 @@ var APUSH_MCQ = [
       "The 'Redeemers' in the Southern Democratic Party."
     ],
     "answer": 0,
-    "explanation": "Radical Republicans believed the federal government should take a harsh line with the South to ensure civil rights for freedmen."
+    "explanation": "Radical Republicans believed the federal government should take a harsh line with the South to ensure civil rights for freedmen.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q17",
@@ -4057,7 +4259,8 @@ var APUSH_MCQ = [
       "The election of Rutherford B. Hayes and the withdrawal of federal troops from the South."
     ],
     "answer": 3,
-    "explanation": "The compromise effectively ended Reconstruction, allowing Southern Democrats to regain control (the 'Redemption') and ushering in the Jim Crow era."
+    "explanation": "The compromise effectively ended Reconstruction, allowing Southern Democrats to regain control (the 'Redemption') and ushering in the Jim Crow era.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q18",
@@ -4077,7 +4280,8 @@ var APUSH_MCQ = [
       "California"
     ],
     "answer": 2,
-    "explanation": "Expansionists wanted the US to claim all of the Oregon Territory up to the 54°40' line."
+    "explanation": "Expansionists wanted the US to claim all of the Oregon Territory up to the 54°40' line.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q19",
@@ -4097,14 +4301,15 @@ var APUSH_MCQ = [
       "Resulted in the US gaining the Mexican Cession (California, New Mexico, etc.)."
     ],
     "answer": 3,
-    "explanation": "Mexico ceded roughly half its territory to the US, which immediately reignited the debate over the expansion of slavery."
+    "explanation": "Mexico ceded roughly half its territory to the US, which immediately reignited the debate over the expansion of slavery.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q20",
     "subject": "apush",
     "unit": 5,
     "topic": "5.5 Sectional Conflict",
-    "topicLabel": "5.5 Sectional Conflict",
+    "topicLabel": "5.5 Sectional Conflict: Regional Differences",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4117,7 +4322,8 @@ var APUSH_MCQ = [
       "A threat to the economic opportunities of small White farmers."
     ],
     "answer": 3,
-    "explanation": "Free Soilers weren't necessarily moral abolitionists; they argued that slave labor made it impossible for free White labor to compete and prosper."
+    "explanation": "Free Soilers weren't necessarily moral abolitionists; they argued that slave labor made it impossible for free White labor to compete and prosper.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q21",
@@ -4137,7 +4343,8 @@ var APUSH_MCQ = [
       "John Brown"
     ],
     "answer": 0,
-    "explanation": "The book humanized the enslaved experience for many Northerners, making the 'peculiar institution' a moral issue."
+    "explanation": "The book humanized the enslaved experience for many Northerners, making the 'peculiar institution' a moral issue.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q22",
@@ -4157,7 +4364,8 @@ var APUSH_MCQ = [
       "Start a massive slave uprising."
     ],
     "answer": 3,
-    "explanation": "Brown hoped to seize the federal arsenal and arm enslaved people, but he was captured and executed, becoming a martyr in the North and a villain in the South."
+    "explanation": "Brown hoped to seize the federal arsenal and arm enslaved people, but he was captured and executed, becoming a martyr in the North and a villain in the South.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q23",
@@ -4177,14 +4385,15 @@ var APUSH_MCQ = [
       "Provided a constitutional basis for civil rights by defining citizenship and requiring 'due process.'"
     ],
     "answer": 3,
-    "explanation": "It overturned the Dred Scott decision by granting citizenship to 'all persons born or naturalized in the United States.'"
+    "explanation": "It overturned the Dred Scott decision by granting citizenship to 'all persons born or naturalized in the United States.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q24",
     "subject": "apush",
     "unit": 5,
     "topic": "5.8 Military Conflict",
-    "topicLabel": "5.8 Military Conflict",
+    "topicLabel": "5.8 Military Conflict in the Civil War",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4197,7 +4406,8 @@ var APUSH_MCQ = [
       "Invasion of Canada to gain resources."
     ],
     "answer": 1,
-    "explanation": "This plan aimed to suffocate the Southern economy by cutting off trade and splitting the Confederacy in two."
+    "explanation": "This plan aimed to suffocate the Southern economy by cutting off trade and splitting the Confederacy in two.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q25",
@@ -4217,7 +4427,8 @@ var APUSH_MCQ = [
       "The total industrialization of Georgia and Alabama."
     ],
     "answer": 1,
-    "explanation": "With no land or capital of their own, freedmen were forced into contracts that favored landowners, keeping them in a state of 'economic bondage.'"
+    "explanation": "With no land or capital of their own, freedmen were forced into contracts that favored landowners, keeping them in a state of 'economic bondage.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q26",
@@ -4237,7 +4448,8 @@ var APUSH_MCQ = [
       "Protect the property of former Confederate leaders."
     ],
     "answer": 1,
-    "explanation": "It was the first major federal relief agency in US history."
+    "explanation": "It was the first major federal relief agency in US history.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q27",
@@ -4257,14 +4469,15 @@ var APUSH_MCQ = [
       "Supported the 15th Amendment."
     ],
     "answer": 1,
-    "explanation": "They used intimidation and political maneuvering to end Reconstruction-era reforms."
+    "explanation": "They used intimidation and political maneuvering to end Reconstruction-era reforms.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q28",
     "subject": "apush",
     "unit": 5,
     "topic": "5.9 Government Policies",
-    "topicLabel": "5.9 Government Policies",
+    "topicLabel": "5.9 Government Policies During the Civil War",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4277,14 +4490,15 @@ var APUSH_MCQ = [
       "Was a former slave owner."
     ],
     "answer": 2,
-    "explanation": "Passed by the Republican Congress during the war, this encouraged Western settlement and the development of 'Free Soil' agriculture."
+    "explanation": "Passed by the Republican Congress during the war, this encouraged Western settlement and the development of 'Free Soil' agriculture.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q29",
     "subject": "apush",
     "unit": 5,
     "topic": "5.8 Military Conflict",
-    "topicLabel": "5.8 Military Conflict",
+    "topicLabel": "5.8 Military Conflict in the Civil War",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4297,7 +4511,8 @@ var APUSH_MCQ = [
       "Only attacking military targets."
     ],
     "answer": 1,
-    "explanation": "Sherman believed that the war would only end when the Southern population felt the full cost of rebellion."
+    "explanation": "Sherman believed that the war would only end when the Southern population felt the full cost of rebellion.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q30",
@@ -4317,14 +4532,15 @@ var APUSH_MCQ = [
       "Ulysses S. Grant"
     ],
     "answer": 2,
-    "explanation": "Johnson was impeached by Radical Republicans for violating the Tenure of Office Act, though he was acquitted by one vote in the Senate."
+    "explanation": "Johnson was impeached by Radical Republicans for violating the Tenure of Office Act, though he was acquitted by one vote in the Senate.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q31",
     "subject": "apush",
     "unit": 5,
     "topic": "5.4 Compromise of 1850",
-    "topicLabel": "5.4 Compromise of 1850",
+    "topicLabel": "5.4 The Compromise of 1850",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4337,7 +4553,8 @@ var APUSH_MCQ = [
       "The annexation of Cuba."
     ],
     "answer": 1,
-    "explanation": "To balance the admission of free California, the South received a stricter Fugitive Slave Law."
+    "explanation": "To balance the admission of free California, the South received a stricter Fugitive Slave Law.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q32",
@@ -4357,14 +4574,15 @@ var APUSH_MCQ = [
       "Establish a base in the Philippines."
     ],
     "answer": 2,
-    "explanation": "When leaked, the manifesto caused an outcry in the North, where it was seen as a 'Slave Power' conspiracy."
+    "explanation": "When leaked, the manifesto caused an outcry in the North, where it was seen as a 'Slave Power' conspiracy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q33",
     "subject": "apush",
     "unit": 5,
     "topic": "5.7 Election of 1860",
-    "topicLabel": "5.7 Election of 1860",
+    "topicLabel": "5.7 Election of 1860 and Secession",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4377,14 +4595,15 @@ var APUSH_MCQ = [
       "The signing of a new compromise with the South."
     ],
     "answer": 1,
-    "explanation": "Southern states viewed Lincoln as a radical abolitionist whose election signaled the end of their political influence."
+    "explanation": "Southern states viewed Lincoln as a radical abolitionist whose election signaled the end of their political influence.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q34",
     "subject": "apush",
     "unit": 5,
     "topic": "5.8 Military Conflict",
-    "topicLabel": "5.8 Military Conflict",
+    "topicLabel": "5.8 Military Conflict in the Civil War",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -4397,7 +4616,8 @@ var APUSH_MCQ = [
       "William T. Sherman"
     ],
     "answer": 0,
-    "explanation": "Lee was the most legendary Confederate general, winning several major battles before his eventual surrender."
+    "explanation": "Lee was the most legendary Confederate general, winning several major battles before his eventual surrender.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q35",
@@ -4417,7 +4637,8 @@ var APUSH_MCQ = [
       "Weakened the 14th Amendment by limiting the federal government's power to protect civil rights."
     ],
     "answer": 3,
-    "explanation": "The Supreme Court ruled that the 14th Amendment only protected 'federal' citizenship rights, leaving 'civil rights' to be handled (and often ignored) by the states."
+    "explanation": "The Supreme Court ruled that the 14th Amendment only protected 'federal' citizenship rights, leaving 'civil rights' to be handled (and often ignored) by the states.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q36",
@@ -4437,7 +4658,8 @@ var APUSH_MCQ = [
       "Northern Whites who moved South after the war."
     ],
     "answer": 1,
-    "explanation": "They were seen as traitors to their region by most White Southerners."
+    "explanation": "They were seen as traitors to their region by most White Southerners.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q37",
@@ -4457,7 +4679,8 @@ var APUSH_MCQ = [
       "Confederate soldiers who refused to surrender."
     ],
     "answer": 0,
-    "explanation": "The name came from the idea that they carried all their belongings in bags made of carpet."
+    "explanation": "The name came from the idea that they carried all their belongings in bags made of carpet.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q38",
@@ -4477,14 +4700,15 @@ var APUSH_MCQ = [
       "Lincoln was a secret slave owner."
     ],
     "answer": 2,
-    "explanation": "This argument during the Lincoln-Douglas debates helped Douglas win the Senate seat but lost him the support of the South in 1860."
+    "explanation": "This argument during the Lincoln-Douglas debates helped Douglas win the Senate seat but lost him the support of the South in 1860.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q39",
     "subject": "apush",
     "unit": 5,
     "topic": "5.8 Military Conflict",
-    "topicLabel": "5.8 Military Conflict",
+    "topicLabel": "5.8 Military Conflict in the Civil War",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4497,7 +4721,8 @@ var APUSH_MCQ = [
       "The ships that transported Lincoln to Washington."
     ],
     "answer": 2,
-    "explanation": "Their battle in 1862 marked the end of the era of wooden sailing ships in naval warfare."
+    "explanation": "Their battle in 1862 marked the end of the era of wooden sailing ships in naval warfare.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q40",
@@ -4517,14 +4742,15 @@ var APUSH_MCQ = [
       "California"
     ],
     "answer": 3,
-    "explanation": "The '49ers' flooded the territory, leading to its rapid admission as a state in 1850."
+    "explanation": "The '49ers' flooded the territory, leading to its rapid admission as a state in 1850.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q41",
     "subject": "apush",
     "unit": 5,
     "topic": "5.9 Government Policies",
-    "topicLabel": "5.9 Government Policies",
+    "topicLabel": "5.9 Government Policies During the Civil War",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -4537,14 +4763,15 @@ var APUSH_MCQ = [
       "Provide federal land to states to fund the creation of agricultural and mechanical colleges."
     ],
     "answer": 3,
-    "explanation": "This was part of a series of laws passed during the war to promote Northern-style economic development."
+    "explanation": "This was part of a series of laws passed during the war to promote Northern-style economic development.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q42",
     "subject": "apush",
     "unit": 5,
     "topic": "5.8 Military Conflict",
-    "topicLabel": "5.8 Military Conflict",
+    "topicLabel": "5.8 Military Conflict in the Civil War",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4557,14 +4784,15 @@ var APUSH_MCQ = [
       "Lead to the immediate surrender of the South."
     ],
     "answer": 1,
-    "explanation": "While tactically a draw, it was a strategic win for the Union that changed the diplomatic landscape."
+    "explanation": "While tactically a draw, it was a strategic win for the Union that changed the diplomatic landscape.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q43",
     "subject": "apush",
     "unit": 5,
     "topic": "5.8 Military Conflict",
-    "topicLabel": "5.8 Military Conflict",
+    "topicLabel": "5.8 Military Conflict in the Civil War",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -4577,14 +4805,15 @@ var APUSH_MCQ = [
       "George McClellan"
     ],
     "answer": 0,
-    "explanation": "Grant's 'war of attrition' eventually wore down the Confederate forces."
+    "explanation": "Grant's 'war of attrition' eventually wore down the Confederate forces.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q44",
     "subject": "apush",
     "unit": 5,
     "topic": "5.5 Sectional Conflict",
-    "topicLabel": "5.5 Sectional Conflict",
+    "topicLabel": "5.5 Sectional Conflict: Regional Differences",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4597,7 +4826,8 @@ var APUSH_MCQ = [
       "Slavery was economically harmful to non-slaveholding White Southerners."
     ],
     "answer": 3,
-    "explanation": "Helper’s book was banned in the South because it suggested a class conflict among Whites over slavery."
+    "explanation": "Helper’s book was banned in the South because it suggested a class conflict among Whites over slavery.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q45",
@@ -4617,14 +4847,15 @@ var APUSH_MCQ = [
       "Charles Sumner"
     ],
     "answer": 1,
-    "explanation": "Lincoln wanted a lenient policy that would allow a state to return to the Union once 10% of its voters swore an oath of loyalty."
+    "explanation": "Lincoln wanted a lenient policy that would allow a state to return to the Union once 10% of its voters swore an oath of loyalty.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q46",
     "subject": "apush",
     "unit": 5,
     "topic": "5.8 Military Conflict",
-    "topicLabel": "5.8 Military Conflict",
+    "topicLabel": "5.8 Military Conflict in the Civil War",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -4637,14 +4868,15 @@ var APUSH_MCQ = [
       "Appomattox Court House"
     ],
     "answer": 3,
-    "explanation": "This event effectively ended the Civil War."
+    "explanation": "This event effectively ended the Civil War.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q47",
     "subject": "apush",
     "unit": 5,
     "topic": "5.5 Sectional Conflict",
-    "topicLabel": "5.5 Sectional Conflict",
+    "topicLabel": "5.5 Sectional Conflict: Regional Differences",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4657,7 +4889,8 @@ var APUSH_MCQ = [
       "End the draft."
     ],
     "answer": 1,
-    "explanation": "These laws represented a state-level challenge to federal pro-slavery policy."
+    "explanation": "These laws represented a state-level challenge to federal pro-slavery policy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q48",
@@ -4677,7 +4910,8 @@ var APUSH_MCQ = [
       "The use of violence and intimidation to suppress the Black vote and ensure a Democratic victory."
     ],
     "answer": 3,
-    "explanation": "This 'Redemption' tactic was used across the South to dismantle Reconstruction."
+    "explanation": "This 'Redemption' tactic was used across the South to dismantle Reconstruction.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q50",
@@ -4697,14 +4931,15 @@ var APUSH_MCQ = [
       "End the slave trade."
     ],
     "answer": 0,
-    "explanation": "Lincoln (a young Whig at the time) was skeptical of President Polk’s claim that Mexico had invaded the US."
+    "explanation": "Lincoln (a young Whig at the time) was skeptical of President Polk’s claim that Mexico had invaded the US.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q51",
     "subject": "apush",
     "unit": 5,
     "topic": "5.8 Military Conflict",
-    "topicLabel": "5.8 Military Conflict",
+    "topicLabel": "5.8 Military Conflict in the Civil War",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4717,14 +4952,15 @@ var APUSH_MCQ = [
       "Gold miners in California."
     ],
     "answer": 1,
-    "explanation": "They were seen as internal threats to the Union war effort by the Lincoln administration."
+    "explanation": "They were seen as internal threats to the Union war effort by the Lincoln administration.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q52",
     "subject": "apush",
     "unit": 5,
     "topic": "5.9 Government Policies",
-    "topicLabel": "5.9 Government Policies",
+    "topicLabel": "5.9 Government Policies During the Civil War",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4737,7 +4973,8 @@ var APUSH_MCQ = [
       "A desire to join the Confederate Army."
     ],
     "answer": 0,
-    "explanation": "The riots were the most violent civil unrest in US history until that point."
+    "explanation": "The riots were the most violent civil unrest in US history until that point.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q53",
@@ -4757,7 +4994,8 @@ var APUSH_MCQ = [
       "Only White property owners."
     ],
     "answer": 2,
-    "explanation": "While it broke the racial barrier, it notably did not include women, leading to a split in the women’s rights movement."
+    "explanation": "While it broke the racial barrier, it notably did not include women, leading to a split in the women’s rights movement.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q54",
@@ -4777,7 +5015,8 @@ var APUSH_MCQ = [
       "Illegal cotton sales to France."
     ],
     "answer": 2,
-    "explanation": "The scandal tarnished Grant's reputation and distracted from Reconstruction efforts."
+    "explanation": "The scandal tarnished Grant's reputation and distracted from Reconstruction efforts.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q55",
@@ -4797,14 +5036,15 @@ var APUSH_MCQ = [
       "It ended slavery in the border states."
     ],
     "answer": 2,
-    "explanation": "The Wade-Davis Bill imposed two separate conditions for Southern readmission: first, 50% of a state's 1860 voters had to take a loyalty oath before reorganization could even begin (the reorganization threshold); second, only those who could swear they had never voluntarily supported the Confederacy — the 'ironclad oath' — were eligible to vote or hold office in the new state government. These were distinct requirements, not the same condition. Lincoln pocket-vetoed the bill, preferring his more lenient 10% plan."
+    "explanation": "The Wade-Davis Bill imposed two separate conditions for Southern readmission: first, 50% of a state's 1860 voters had to take a loyalty oath before reorganization could even begin (the reorganization threshold); second, only those who could swear they had never voluntarily supported the Confederacy — the 'ironclad oath' — were eligible to vote or hold office in the new state government. These were distinct requirements, not the same condition. Lincoln pocket-vetoed the bill, preferring his more lenient 10% plan.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q56",
     "subject": "apush",
     "unit": 5,
     "topic": "5.7 Election of 1860",
-    "topicLabel": "5.7 Election of 1860",
+    "topicLabel": "5.7 Election of 1860 and Secession",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -4817,14 +5057,15 @@ var APUSH_MCQ = [
       "Jefferson Davis"
     ],
     "answer": 3,
-    "explanation": "Davis was a former US Senator from Mississippi."
+    "explanation": "Davis was a former US Senator from Mississippi.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q57",
     "subject": "apush",
     "unit": 5,
     "topic": "5.5 Sectional Conflict",
-    "topicLabel": "5.5 Sectional Conflict",
+    "topicLabel": "5.5 Sectional Conflict: Regional Differences",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -4837,7 +5078,8 @@ var APUSH_MCQ = [
       "Kansas"
     ],
     "answer": 3,
-    "explanation": "These were key violent episodes in the 'Bleeding Kansas' conflict."
+    "explanation": "These were key violent episodes in the 'Bleeding Kansas' conflict.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q58",
@@ -4857,14 +5099,15 @@ var APUSH_MCQ = [
       "Declare war on Britain."
     ],
     "answer": 1,
-    "explanation": "It was rejected by Lincoln because it would have allowed for the expansion of slavery."
+    "explanation": "It was rejected by Lincoln because it would have allowed for the expansion of slavery.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q59",
     "subject": "apush",
     "unit": 5,
     "topic": "5.9 Government Policies",
-    "topicLabel": "5.9 Government Policies",
+    "topicLabel": "5.9 Government Policies During the Civil War",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -4877,7 +5120,8 @@ var APUSH_MCQ = [
       "St. Louis"
     ],
     "answer": 2,
-    "explanation": "The Union Pacific and Central Pacific tracks were joined with a golden spike."
+    "explanation": "The Union Pacific and Central Pacific tracks were joined with a golden spike.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q60",
@@ -4897,7 +5141,8 @@ var APUSH_MCQ = [
       "Fight against the British."
     ],
     "answer": 0,
-    "explanation": "The KKK acted as a paramilitary wing of the Southern Democratic Party."
+    "explanation": "The KKK acted as a paramilitary wing of the Southern Democratic Party.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q1",
@@ -4917,7 +5162,8 @@ var APUSH_MCQ = [
       "The abolition of the sharecropping system in the South."
     ],
     "answer": 2,
-    "explanation": "The railroad allowed for the rapid movement of raw materials from the West to Eastern factories and finished goods back to Western settlers."
+    "explanation": "The railroad allowed for the rapid movement of raw materials from the West to Eastern factories and finished goods back to Western settlers.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q2",
@@ -4937,7 +5183,8 @@ var APUSH_MCQ = [
       "A return to the pre-war plantation economy based on slave labor."
     ],
     "answer": 2,
-    "explanation": "Grady and others argued for Southern industrialization (textiles, steel), though the social reality remained dominated by Jim Crow laws and sharecropping."
+    "explanation": "Grady and others argued for Southern industrialization (textiles, steel), though the social reality remained dominated by Jim Crow laws and sharecropping.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q3",
@@ -4957,7 +5204,8 @@ var APUSH_MCQ = [
       "Create a system of tribal self-governance modeled on US county governments."
     ],
     "answer": 0,
-    "explanation": "The act was a forced assimilation policy that sought to turn Native Americans into individual farmers and weaken tribal identities."
+    "explanation": "The act was a forced assimilation policy that sought to turn Native Americans into individual farmers and weaken tribal identities.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q4",
@@ -4977,7 +5225,8 @@ var APUSH_MCQ = [
       "The government should seize all private property and redistribute it."
     ],
     "answer": 2,
-    "explanation": "Carnegie advocated for philanthropy (building libraries, universities) rather than direct charity to the poor, believing the rich were 'trustees' for the public good."
+    "explanation": "Carnegie advocated for philanthropy (building libraries, universities) rather than direct charity to the poor, believing the rich were 'trustees' for the public good.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q5",
@@ -4997,7 +5246,8 @@ var APUSH_MCQ = [
       "Merging with or buying out competitors within the same industry to create a monopoly."
     ],
     "answer": 3,
-    "explanation": "Horizontal integration focuses on controlling one 'level' of the industry (like oil refining) to eliminate competition."
+    "explanation": "Horizontal integration focuses on controlling one 'level' of the industry (like oil refining) to eliminate competition.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q6",
@@ -5017,7 +5267,8 @@ var APUSH_MCQ = [
       "John D. Rockefeller"
     ],
     "answer": 2,
-    "explanation": "Carnegie controlled the mines, the ships, the railroads, and the steel mills—the entire supply chain."
+    "explanation": "Carnegie controlled the mines, the ships, the railroads, and the steel mills—the entire supply chain.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q7",
@@ -5037,7 +5288,8 @@ var APUSH_MCQ = [
       "Aimed for broad social reform and included women, Black workers, and unskilled laborers."
     ],
     "answer": 3,
-    "explanation": "The Knights were more radical and inclusive, while the AFL (led by Samuel Gompers) focused on 'bread and butter' issues like wages and hours for skilled workers."
+    "explanation": "The Knights were more radical and inclusive, while the AFL (led by Samuel Gompers) focused on 'bread and butter' issues like wages and hours for skilled workers.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q8",
@@ -5057,14 +5309,15 @@ var APUSH_MCQ = [
       "East Asia and the Pacific Islands."
     ],
     "answer": 2,
-    "explanation": "This shift in origin led to increased nativism, as these immigrants were often Catholic or Jewish and did not speak English."
+    "explanation": "This shift in origin led to increased nativism, as these immigrants were often Catholic or Jewish and did not speak English.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q9",
     "subject": "apush",
     "unit": 6,
     "topic": "6.8 Immigration and Migration",
-    "topicLabel": "6.8 Immigration and Migration",
+    "topicLabel": "6.8 Immigration and Migration in the Gilded Age",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -5077,7 +5330,8 @@ var APUSH_MCQ = [
       "Ellis Island"
     ],
     "answer": 3,
-    "explanation": "Ellis Island opened in 1892 as a federal processing center for immigrants."
+    "explanation": "Ellis Island opened in 1892 as a federal processing center for immigrants.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q10",
@@ -5097,14 +5351,15 @@ var APUSH_MCQ = [
       "Promoted the benefits of the factory system."
     ],
     "answer": 2,
-    "explanation": "Riis’s photojournalism shocked the middle class and sparked early Progressive reforms in urban housing."
+    "explanation": "Riis’s photojournalism shocked the middle class and sparked early Progressive reforms in urban housing.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q12",
     "subject": "apush",
     "unit": 6,
     "topic": "6.12 Controversies over Government",
-    "topicLabel": "6.12 Controversies over Government",
+    "topicLabel": "6.12 Controversies over the Role of Government in the Gilded Age",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -5117,14 +5372,15 @@ var APUSH_MCQ = [
       "No companies in the US were large enough to be considered trusts."
     ],
     "answer": 2,
-    "explanation": "Courts often ruled that union strikes were 'restraints of trade,' perverting the original intent of the law."
+    "explanation": "Courts often ruled that union strikes were 'restraints of trade,' perverting the original intent of the law.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q13",
     "subject": "apush",
     "unit": 6,
     "topic": "6.3 Westward Expansion",
-    "topicLabel": "6.3 Westward Expansion",
+    "topicLabel": "6.3 Westward Expansion: Social and Cultural Development",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -5137,7 +5393,8 @@ var APUSH_MCQ = [
       "The Wounded Knee Massacre"
     ],
     "answer": 3,
-    "explanation": "In 1890, the US Army killed over 150 Lakota Sioux, effectively ending armed indigenous resistance in the region."
+    "explanation": "In 1890, the US Army killed over 150 Lakota Sioux, effectively ending armed indigenous resistance in the region.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q14",
@@ -5157,7 +5414,8 @@ var APUSH_MCQ = [
       "The US should conquer Mexico to expand the frontier."
     ],
     "answer": 0,
-    "explanation": "Turner’s thesis was written in response to the 1890 census, which declared that the frontier line no longer existed."
+    "explanation": "Turner’s thesis was written in response to the 1890 census, which declared that the frontier line no longer existed.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q15",
@@ -5177,7 +5435,8 @@ var APUSH_MCQ = [
       "The immediate privatization of the railroads."
     ],
     "answer": 0,
-    "explanation": "Populists and 'Silverites' believed that inflating the currency with silver would help farmers pay off their debts."
+    "explanation": "Populists and 'Silverites' believed that inflating the currency with silver would help farmers pay off their debts.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q16",
@@ -5197,7 +5456,8 @@ var APUSH_MCQ = [
       "The immediate passage of the 8-hour workday law."
     ],
     "answer": 2,
-    "explanation": "The bombing in Chicago turned public opinion against radical labor movements."
+    "explanation": "The bombing in Chicago turned public opinion against radical labor movements.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q17",
@@ -5217,7 +5477,8 @@ var APUSH_MCQ = [
       "Campaign for municipal ownership of Chicago's water and transit infrastructure."
     ],
     "answer": 0,
-    "explanation": "Hull House became a model for the Settlement House movement, which addressed the problems of industrial urbanization."
+    "explanation": "Hull House became a model for the Settlement House movement, which addressed the problems of industrial urbanization.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q18",
@@ -5237,7 +5498,8 @@ var APUSH_MCQ = [
       "Henry Ford"
     ],
     "answer": 2,
-    "explanation": "Edison’s inventions were fundamental to the Second Industrial Revolution."
+    "explanation": "Edison’s inventions were fundamental to the Second Industrial Revolution.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q19",
@@ -5257,7 +5519,8 @@ var APUSH_MCQ = [
       "The invention of the telephone."
     ],
     "answer": 0,
-    "explanation": "Steel replaced iron as the primary building material for skyscrapers, bridges, and railroads."
+    "explanation": "Steel replaced iron as the primary building material for skyscrapers, bridges, and railroads.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q20",
@@ -5277,7 +5540,8 @@ var APUSH_MCQ = [
       "Pro-business, pro-tariff, and pro-gold standard."
     ],
     "answer": 0,
-    "explanation": "The Populists represented the interests of farmers and laborers against the 'monopolies' of the Gilded Age."
+    "explanation": "The Populists represented the interests of farmers and laborers against the 'monopolies' of the Gilded Age.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q21",
@@ -5297,7 +5561,8 @@ var APUSH_MCQ = [
       "Universal Suffrage"
     ],
     "answer": 0,
-    "explanation": "This decision legalized Jim Crow segregation for over half a century."
+    "explanation": "This decision legalized Jim Crow segregation for over half a century.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q22",
@@ -5317,7 +5582,8 @@ var APUSH_MCQ = [
       "Providing services and jobs to immigrants in exchange for their votes."
     ],
     "answer": 3,
-    "explanation": "While corrupt, political machines provided a primitive social safety net for new arrivals."
+    "explanation": "While corrupt, political machines provided a primitive social safety net for new arrivals.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q23",
@@ -5337,14 +5603,15 @@ var APUSH_MCQ = [
       "All religious people should move to the West."
     ],
     "answer": 0,
-    "explanation": "The Social Gospel challenged the 'Social Darwinist' idea that the poor were responsible for their own fate."
+    "explanation": "The Social Gospel challenged the 'Social Darwinist' idea that the poor were responsible for their own fate.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q24",
     "subject": "apush",
     "unit": 6,
     "topic": "6.12 Controversies over the Role of Government",
-    "topicLabel": "6.12 Controversies over the Role of Government",
+    "topicLabel": "6.12 Controversies over the Role of Government in the Gilded Age",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -5357,7 +5624,8 @@ var APUSH_MCQ = [
       "Regulate the prices charged by railroads."
     ],
     "answer": 3,
-    "explanation": "Farmers had long complained that railroads were overcharging them to ship crops."
+    "explanation": "Farmers had long complained that railroads were overcharging them to ship crops.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q25",
@@ -5377,14 +5645,15 @@ var APUSH_MCQ = [
       "The creation of labor unions."
     ],
     "answer": 2,
-    "explanation": "It applied 'survival of the fittest' to human society, suggesting that the rich were naturally superior and the poor were unfit."
+    "explanation": "It applied 'survival of the fittest' to human society, suggesting that the rich were naturally superior and the poor were unfit.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q26",
     "subject": "apush",
     "unit": 6,
     "topic": "6.8 Immigration and Migration",
-    "topicLabel": "6.8 Immigration and Migration",
+    "topicLabel": "6.8 Immigration and Migration in the Gilded Age",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -5397,14 +5666,15 @@ var APUSH_MCQ = [
       "Ban the use of the Chinese language in schools."
     ],
     "answer": 0,
-    "explanation": "Nativism and labor competition on the West Coast led to this discriminatory law."
+    "explanation": "Nativism and labor competition on the West Coast led to this discriminatory law.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q27",
     "subject": "apush",
     "unit": 6,
     "topic": "6.3 Westward Expansion",
-    "topicLabel": "6.3 Westward Expansion",
+    "topicLabel": "6.3 Westward Expansion: Social and Cultural Development",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -5417,7 +5687,8 @@ var APUSH_MCQ = [
       "A spiritual movement that promised the return of the buffalo and the disappearance of White people."
     ],
     "answer": 3,
-    "explanation": "The US government feared the movement would lead to an uprising, contributing to the Wounded Knee Massacre."
+    "explanation": "The US government feared the movement would lead to an uprising, contributing to the Wounded Knee Massacre.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q28",
@@ -5437,14 +5708,15 @@ var APUSH_MCQ = [
       "Forcing the company to pay higher wages."
     ],
     "answer": 2,
-    "explanation": "President Cleveland used the 'interruption of mail' as a legal excuse to break the strike, showing the government's pro-business bias."
+    "explanation": "President Cleveland used the 'interruption of mail' as a legal excuse to break the strike, showing the government's pro-business bias.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q29",
     "subject": "apush",
     "unit": 6,
     "topic": "6.8 Immigration and Migration",
-    "topicLabel": "6.8 Immigration and Migration",
+    "topicLabel": "6.8 Immigration and Migration in the Gilded Age",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -5457,14 +5729,15 @@ var APUSH_MCQ = [
       "A crowded, poorly built, and often unsanitary apartment building for the urban poor."
     ],
     "answer": 3,
-    "explanation": "Tenements were symbols of the negative social consequences of rapid urbanization."
+    "explanation": "Tenements were symbols of the negative social consequences of rapid urbanization.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q30",
     "subject": "apush",
     "unit": 6,
     "topic": "6.3 Westward Expansion",
-    "topicLabel": "6.3 Westward Expansion",
+    "topicLabel": "6.3 Westward Expansion: Social and Cultural Development",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -5477,7 +5750,8 @@ var APUSH_MCQ = [
       "The Homestead Act"
     ],
     "answer": 3,
-    "explanation": "The promise of free land was the ultimate 'pull' factor for Western migration."
+    "explanation": "The promise of free land was the ultimate 'pull' factor for Western migration.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q31",
@@ -5497,7 +5771,8 @@ var APUSH_MCQ = [
       "Moving to Liberia in Africa."
     ],
     "answer": 2,
-    "explanation": "Washington was a 'gradualist' who believed Black Americans should prove their economic worth to gain respect."
+    "explanation": "Washington was a 'gradualist' who believed Black Americans should prove their economic worth to gain respect.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q32",
@@ -5517,14 +5792,15 @@ var APUSH_MCQ = [
       "Du Bois believed Black Americans should focus solely on farming."
     ],
     "answer": 1,
-    "explanation": "Du Bois rejected Washington's 'accommodation' and believed that rights were non-negotiable."
+    "explanation": "Du Bois rejected Washington's 'accommodation' and believed that rights were non-negotiable.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q33",
     "subject": "apush",
     "unit": 6,
     "topic": "6.12 Controversies over Government",
-    "topicLabel": "6.12 Controversies over Government",
+    "topicLabel": "6.12 Controversies over the Role of Government in the Gilded Age",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -5537,7 +5813,8 @@ var APUSH_MCQ = [
       "Tax the cattle industry."
     ],
     "answer": 1,
-    "explanation": "These were the first state-level attempts to regulate big business, though they were later challenged in the courts."
+    "explanation": "These were the first state-level attempts to regulate big business, though they were later challenged in the courts.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q34",
@@ -5557,7 +5834,8 @@ var APUSH_MCQ = [
       "Henry Ford"
     ],
     "answer": 2,
-    "explanation": "The strike became famous for the violent battle between strikers and Pinkerton detectives."
+    "explanation": "The strike became famous for the violent battle between strikers and Pinkerton detectives.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q35",
@@ -5577,14 +5855,15 @@ var APUSH_MCQ = [
       "Mark Twain"
     ],
     "answer": 3,
-    "explanation": "Twain used the term to satirize the era’s corruption and greed."
+    "explanation": "Twain used the term to satirize the era’s corruption and greed.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q37",
     "subject": "apush",
     "unit": 6,
     "topic": "6.3 Westward Expansion",
-    "topicLabel": "6.3 Westward Expansion",
+    "topicLabel": "6.3 Westward Expansion: Social and Cultural Development",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -5597,14 +5876,15 @@ var APUSH_MCQ = [
       "The total surrender of the Sioux."
     ],
     "answer": 2,
-    "explanation": "Often called 'Custer's Last Stand,' the battle resulted in approximately 268 total U.S. Army soldiers killed — including the roughly 210 men of Custer's immediate battalion as well as casualties from Reno's and Benteen's commands. It was a temporary victory that only intensified the U.S. effort to crush tribal resistance."
+    "explanation": "Often called 'Custer's Last Stand,' the battle resulted in approximately 268 total U.S. Army soldiers killed — including the roughly 210 men of Custer's immediate battalion as well as casualties from Reno's and Benteen's commands. It was a temporary victory that only intensified the U.S. effort to crush tribal resistance.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q38",
     "subject": "apush",
     "unit": 6,
     "topic": "6.2 Westward Expansion",
-    "topicLabel": "6.2 Westward Expansion",
+    "topicLabel": "6.2 Westward Expansion: Economic Development",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -5617,7 +5897,8 @@ var APUSH_MCQ = [
       "African Americans who migrated from the post-Reconstruction South to Kansas."
     ],
     "answer": 3,
-    "explanation": "They were seeking to escape the violence and lack of opportunity in the Jim Crow South."
+    "explanation": "They were seeking to escape the violence and lack of opportunity in the Jim Crow South.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q39",
@@ -5637,14 +5918,15 @@ var APUSH_MCQ = [
       "AC (championed by Tesla/Westinghouse) proved more efficient for long-distance power transmission."
     ],
     "answer": 3,
-    "explanation": "The 'War of the Currents' was won by AC, allowing for the widespread electrification of American cities."
+    "explanation": "The 'War of the Currents' was won by AC, allowing for the widespread electrification of American cities.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q40",
     "subject": "apush",
     "unit": 6,
     "topic": "6.3 Westward Expansion: Economic Development",
-    "topicLabel": "6.3 Westward Expansion: Economic Development",
+    "topicLabel": "6.2 Westward Expansion: Economic Development",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -5657,14 +5939,15 @@ var APUSH_MCQ = [
       "A massive deposit of silver in Nevada that spurred Western development."
     ],
     "answer": 3,
-    "explanation": "The influx of silver from Nevada helped drive the debate over bimetallism."
+    "explanation": "The influx of silver from Nevada helped drive the debate over bimetallism.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q41",
     "subject": "apush",
     "unit": 6,
     "topic": "6.12 Controversies over Government",
-    "topicLabel": "6.12 Controversies over Government",
+    "topicLabel": "6.12 Controversies over the Role of Government in the Gilded Age",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -5677,7 +5960,8 @@ var APUSH_MCQ = [
       "Child labor was constitutional."
     ],
     "answer": 0,
-    "explanation": "This was a major victory for the Grange movement and the idea of government regulation."
+    "explanation": "This was a major victory for the Grange movement and the idea of government regulation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q42",
@@ -5697,14 +5981,15 @@ var APUSH_MCQ = [
       "Many small companies compete for customers."
     ],
     "answer": 0,
-    "explanation": "Monopolies (or Trusts) dominated the Gilded Age economy, leading to calls for reform."
+    "explanation": "Monopolies (or Trusts) dominated the Gilded Age economy, leading to calls for reform.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q43",
     "subject": "apush",
     "unit": 6,
     "topic": "6.8 Immigration and Migration",
-    "topicLabel": "6.8 Immigration and Migration",
+    "topicLabel": "6.8 Immigration and Migration in the Gilded Age",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -5717,14 +6002,15 @@ var APUSH_MCQ = [
       "The movement of people from cities back to farms."
     ],
     "answer": 1,
-    "explanation": "Nativism spiked during the Gilded Age due to the arrival of 'New Immigrants' from Southern and Eastern Europe."
+    "explanation": "Nativism spiked during the Gilded Age due to the arrival of 'New Immigrants' from Southern and Eastern Europe.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q44",
     "subject": "apush",
     "unit": 6,
     "topic": "6.3 Westward Expansion",
-    "topicLabel": "6.3 Westward Expansion",
+    "topicLabel": "6.3 Westward Expansion: Social and Cultural Development",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -5737,7 +6023,8 @@ var APUSH_MCQ = [
       "A precursor to an armed rebellion by Native American tribes."
     ],
     "answer": 3,
-    "explanation": "This fear directly led to the tensions that resulted in the Wounded Knee Massacre."
+    "explanation": "This fear directly led to the tensions that resulted in the Wounded Knee Massacre.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q45",
@@ -5757,7 +6044,8 @@ var APUSH_MCQ = [
       "The Middle Class"
     ],
     "answer": 3,
-    "explanation": "Industrialization created a new 'white-collar' workforce that enjoyed increased leisure time and consumer power."
+    "explanation": "Industrialization created a new 'white-collar' workforce that enjoyed increased leisure time and consumer power.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q46",
@@ -5777,7 +6065,8 @@ var APUSH_MCQ = [
       "Adopted the use of silver as currency."
     ],
     "answer": 1,
-    "explanation": "This was a victory for Republicans and 'hard money' advocates over the Populists."
+    "explanation": "This was a victory for Republicans and 'hard money' advocates over the Populists.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q47",
@@ -5797,7 +6086,8 @@ var APUSH_MCQ = [
       "An agreement between two competing railroads."
     ],
     "answer": 2,
-    "explanation": "Employers used these contracts to prevent unions from organizing their workforce."
+    "explanation": "Employers used these contracts to prevent unions from organizing their workforce.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q48",
@@ -5817,7 +6107,8 @@ var APUSH_MCQ = [
       "Alexander Graham Bell"
     ],
     "answer": 3,
-    "explanation": "Bell’s telephone revolutionized communication and created new jobs, particularly for women as operators."
+    "explanation": "Bell’s telephone revolutionized communication and created new jobs, particularly for women as operators.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q49",
@@ -5837,7 +6128,8 @@ var APUSH_MCQ = [
       "The end of poverty for small farmers."
     ],
     "answer": 0,
-    "explanation": "This system replaced slavery as the primary method of labor exploitation in the South."
+    "explanation": "This system replaced slavery as the primary method of labor exploitation in the South.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q50",
@@ -5857,14 +6149,15 @@ var APUSH_MCQ = [
       "A strike was successfully won by workers."
     ],
     "answer": 0,
-    "explanation": "While federal forces had been used in labor contexts before, the 1877 Great Railroad Strike saw President Hayes deploy troops on an unprecedented national scale — mobilizing across multiple states simultaneously to suppress the walkout and restore rail service. This scale of coordinated federal military intervention set a powerful precedent for government action in labor disputes on the side of business interests."
+    "explanation": "While federal forces had been used in labor contexts before, the 1877 Great Railroad Strike saw President Hayes deploy troops on an unprecedented national scale — mobilizing across multiple states simultaneously to suppress the walkout and restore rail service. This scale of coordinated federal military intervention set a powerful precedent for government action in labor disputes on the side of business interests.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q51",
     "subject": "apush",
     "unit": 6,
     "topic": "6.2 Westward Expansion",
-    "topicLabel": "6.2 Westward Expansion",
+    "topicLabel": "6.2 Westward Expansion: Economic Development",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -5877,7 +6170,8 @@ var APUSH_MCQ = [
       "Soldiers from Washington to California."
     ],
     "answer": 2,
-    "explanation": "The cattle industry was a major part of the post-war Western economy."
+    "explanation": "The cattle industry was a major part of the post-war Western economy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q52",
@@ -5897,7 +6191,8 @@ var APUSH_MCQ = [
       "Boss Morgan"
     ],
     "answer": 1,
-    "explanation": "William 'Boss' Tweed stole millions from New York City through graft and corruption."
+    "explanation": "William 'Boss' Tweed stole millions from New York City through graft and corruption.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q53",
@@ -5917,14 +6212,15 @@ var APUSH_MCQ = [
       "The prohibition of alcohol and social reforms based on 'applied Christianity.'"
     ],
     "answer": 3,
-    "explanation": "Led by Frances Willard, the WCTU was the largest women's organization in the 19th century."
+    "explanation": "Led by Frances Willard, the WCTU was the largest women's organization in the 19th century.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q54",
     "subject": "apush",
     "unit": 6,
     "topic": "6.3 Westward Expansion",
-    "topicLabel": "6.3 Westward Expansion",
+    "topicLabel": "6.3 Westward Expansion: Social and Cultural Development",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -5937,14 +6233,15 @@ var APUSH_MCQ = [
       "The Comstock Lode"
     ],
     "answer": 3,
-    "explanation": "This was the richest silver mine in American history."
+    "explanation": "This was the richest silver mine in American history.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q55",
     "subject": "apush",
     "unit": 6,
     "topic": "6.2 Westward Expansion",
-    "topicLabel": "6.2 Westward Expansion",
+    "topicLabel": "6.2 Westward Expansion: Economic Development",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -5957,7 +6254,8 @@ var APUSH_MCQ = [
       "Was used to trap bison."
     ],
     "answer": 2,
-    "explanation": "The closing of the open range led to 'range wars' between cattlemen and farmers."
+    "explanation": "The closing of the open range led to 'range wars' between cattlemen and farmers.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q56",
@@ -5977,7 +6275,8 @@ var APUSH_MCQ = [
       "A ban on all manufacturing."
     ],
     "answer": 0,
-    "explanation": "McKinley’s victory signaled the end of the Populist challenge and the dominance of the 'industrial' interest."
+    "explanation": "McKinley’s victory signaled the end of the Populist challenge and the dominance of the 'industrial' interest.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q57",
@@ -5997,7 +6296,8 @@ var APUSH_MCQ = [
       "Thomas Edison"
     ],
     "answer": 1,
-    "explanation": "Carnegie believed the wealthy should act as 'agents' for the poor."
+    "explanation": "Carnegie believed the wealthy should act as 'agents' for the poor.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q58",
@@ -6017,14 +6317,15 @@ var APUSH_MCQ = [
       "A government inspector."
     ],
     "answer": 1,
-    "explanation": "The use of 'scabs' (strikebreakers) often led to violence during Gilded Age labor disputes."
+    "explanation": "The use of 'scabs' (strikebreakers) often led to violence during Gilded Age labor disputes.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q59",
     "subject": "apush",
     "unit": 6,
     "topic": "6.12 Controversies over Government",
-    "topicLabel": "6.12 Controversies over Government",
+    "topicLabel": "6.12 Controversies over the Role of Government in the Gilded Age",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -6037,14 +6338,15 @@ var APUSH_MCQ = [
       "Abolished the US Senate."
     ],
     "answer": 0,
-    "explanation": "Because railroads crossed state lines, only the federal government had the constitutional right to regulate them."
+    "explanation": "Because railroads crossed state lines, only the federal government had the constitutional right to regulate them.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q60",
     "subject": "apush",
     "unit": 6,
     "topic": "6.8 Immigration and Migration",
-    "topicLabel": "6.8 Immigration and Migration",
+    "topicLabel": "6.8 Immigration and Migration in the Gilded Age",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -6057,7 +6359,8 @@ var APUSH_MCQ = [
       "The government paid them to live there."
     ],
     "answer": 1,
-    "explanation": "These enclaves (like Little Italy or Chinatown) helped immigrants transition to American life."
+    "explanation": "These enclaves (like Little Italy or Chinatown) helped immigrants transition to American life.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q1",
@@ -6077,7 +6380,8 @@ var APUSH_MCQ = [
       "The acquisition of overseas territories to spread American civilization and Christianity."
     ],
     "answer": 3,
-    "explanation": "Imperialists argued that 'stronger' nations were destined to dominate 'weaker' ones, often citing a moral duty to civilize others."
+    "explanation": "Imperialists argued that 'stronger' nations were destined to dominate 'weaker' ones, often citing a moral duty to civilize others.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q2",
@@ -6097,7 +6401,8 @@ var APUSH_MCQ = [
       "The sinking of the USS Maine in Havana Harbor and the influence of 'Yellow Journalism.'"
     ],
     "answer": 3,
-    "explanation": "Sensationalist reporting (Yellow Journalism) whipped up public outrage over the Maine and Spanish treatment of Cubans."
+    "explanation": "Sensationalist reporting (Yellow Journalism) whipped up public outrage over the Maine and Spanish treatment of Cubans.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q3",
@@ -6117,7 +6422,8 @@ var APUSH_MCQ = [
       "Hawaii must be returned to its original monarchy."
     ],
     "answer": 2,
-    "explanation": "This allowed the US to govern territories like Puerto Rico and the Philippines without granting the inhabitants the full rights of US citizens."
+    "explanation": "This allowed the US to govern territories like Puerto Rico and the Philippines without granting the inhabitants the full rights of US citizens.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q4",
@@ -6137,7 +6443,8 @@ var APUSH_MCQ = [
       "Soldiers who fought in the trenches of WWI."
     ],
     "answer": 2,
-    "explanation": "Writers like Ida Tarbell (Standard Oil) and Upton Sinclair (The Jungle) drove the demand for government reform."
+    "explanation": "Writers like Ida Tarbell (Standard Oil) and Upton Sinclair (The Jungle) drove the demand for government reform.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q5",
@@ -6157,7 +6464,8 @@ var APUSH_MCQ = [
       "Social Security Act."
     ],
     "answer": 1,
-    "explanation": "The book’s disgusting descriptions of the meatpacking industry horrified President Theodore Roosevelt and the public."
+    "explanation": "The book’s disgusting descriptions of the meatpacking industry horrified President Theodore Roosevelt and the public.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q6",
@@ -6177,7 +6485,8 @@ var APUSH_MCQ = [
       "A German alliance with Mexico against the United States."
     ],
     "answer": 3,
-    "explanation": "Germany promised to help Mexico regain territory lost in the Mexican-American War if they joined the Central Powers."
+    "explanation": "Germany promised to help Mexico regain territory lost in the Mexican-American War if they joined the Central Powers.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q7",
@@ -6197,7 +6506,8 @@ var APUSH_MCQ = [
       "The relocation of Native Americans to urban centers."
     ],
     "answer": 1,
-    "explanation": "Black Americans sought to escape Jim Crow violence and take advantage of wartime factory jobs in the North."
+    "explanation": "Black Americans sought to escape Jim Crow violence and take advantage of wartime factory jobs in the North.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q8",
@@ -6217,7 +6527,8 @@ var APUSH_MCQ = [
       "Speech can be restricted if it poses a 'clear and present danger' to the nation."
     ],
     "answer": 3,
-    "explanation": "This upheld the Espionage and Sedition Acts, limiting free speech during wartime."
+    "explanation": "This upheld the Espionage and Sedition Acts, limiting free speech during wartime.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q9",
@@ -6237,7 +6548,8 @@ var APUSH_MCQ = [
       "The right to vote for women."
     ],
     "answer": 3,
-    "explanation": "This was the culmination of decades of activism by the women's suffrage movement."
+    "explanation": "This was the culmination of decades of activism by the women's suffrage movement.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q10",
@@ -6257,7 +6569,8 @@ var APUSH_MCQ = [
       "A potential invasion by Japan."
     ],
     "answer": 1,
-    "explanation": "The fear led to the Palmer Raids and increased hostility toward immigrants and labor unions."
+    "explanation": "The fear led to the Palmer Raids and increased hostility toward immigrants and labor unions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q11",
@@ -6277,7 +6590,8 @@ var APUSH_MCQ = [
       "Modernism/Science and Fundamentalism/Religion."
     ],
     "answer": 3,
-    "explanation": "The trial centered on a teacher's right to teach evolution in a public school, highlighting the split between urban modernists and rural traditionalists."
+    "explanation": "The trial centered on a teacher's right to teach evolution in a public school, highlighting the split between urban modernists and rural traditionalists.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q12",
@@ -6297,7 +6611,8 @@ var APUSH_MCQ = [
       "Excessive speculation and 'buying on margin.'"
     ],
     "answer": 3,
-    "explanation": "Investors were borrowing money to buy stocks, inflating prices until the bubble burst."
+    "explanation": "Investors were borrowing money to buy stocks, inflating prices until the bubble burst.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q13",
@@ -6317,7 +6632,8 @@ var APUSH_MCQ = [
       "Relief, Recovery, and Reform."
     ],
     "answer": 3,
-    "explanation": "Relief for the unemployed, Recovery for the economy, and Reform to prevent future depressions."
+    "explanation": "Relief for the unemployed, Recovery for the economy, and Reform to prevent future depressions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q14",
@@ -6337,7 +6653,8 @@ var APUSH_MCQ = [
       "Manage the stock market."
     ],
     "answer": 2,
-    "explanation": "It was designed to restore public confidence in the banking system."
+    "explanation": "It was designed to restore public confidence in the banking system.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q15",
@@ -6357,7 +6674,8 @@ var APUSH_MCQ = [
       "Subsidies for movie theaters."
     ],
     "answer": 1,
-    "explanation": "This created the modern American welfare state's safety net."
+    "explanation": "This created the modern American welfare state's safety net.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q16",
@@ -6377,7 +6695,8 @@ var APUSH_MCQ = [
       "Promote free trade with Japan."
     ],
     "answer": 1,
-    "explanation": "These acts reflected the strong isolationist sentiment in the US following the horrors of the Great War."
+    "explanation": "These acts reflected the strong isolationist sentiment in the US following the horrors of the Great War.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q17",
@@ -6397,14 +6716,15 @@ var APUSH_MCQ = [
       "Ended US neutrality by allowing the 'lending' of war materials to the Allies."
     ],
     "answer": 3,
-    "explanation": "FDR described it as 'lending a garden hose to a neighbor whose house is on fire,' effectively making the US the 'Arsenal of Democracy.'"
+    "explanation": "FDR described it as 'lending a garden hose to a neighbor whose house is on fire,' effectively making the US the 'Arsenal of Democracy.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q18",
     "subject": "apush",
     "unit": 7,
     "topic": "7.13 World War II: Military",
-    "topicLabel": "7.13 World War II: Military",
+    "topicLabel": "7.13 World War II: Military and Diplomacy",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -6417,7 +6737,8 @@ var APUSH_MCQ = [
       "September 1, 1939"
     ],
     "answer": 1,
-    "explanation": "A 'date which will live in infamy,' leading to the US entry into WWII."
+    "explanation": "A 'date which will live in infamy,' leading to the US entry into WWII.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q19",
@@ -6437,7 +6758,8 @@ var APUSH_MCQ = [
       "Crack the German Enigma code."
     ],
     "answer": 1,
-    "explanation": "The project resulted in the weapons used on Hiroshima and Nagasaki."
+    "explanation": "The project resulted in the weapons used on Hiroshima and Nagasaki.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q20",
@@ -6457,7 +6779,8 @@ var APUSH_MCQ = [
       "US, Britain, and the Soviet Union."
     ],
     "answer": 3,
-    "explanation": "The 'Big Three' (Roosevelt, Churchill, Stalin) met to discuss the postwar reorganization of Europe."
+    "explanation": "The 'Big Three' (Roosevelt, Churchill, Stalin) met to discuss the postwar reorganization of Europe.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q21",
@@ -6477,7 +6800,8 @@ var APUSH_MCQ = [
       "An intellectual and cultural explosion of African American art, literature, and music."
     ],
     "answer": 3,
-    "explanation": "Artists like Langston Hughes and Louis Armstrong celebrated Black culture and identity."
+    "explanation": "Artists like Langston Hughes and Louis Armstrong celebrated Black culture and identity.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q22",
@@ -6497,7 +6821,8 @@ var APUSH_MCQ = [
       "Established the income tax."
     ],
     "answer": 2,
-    "explanation": "This ushered in the era of Prohibition."
+    "explanation": "This ushered in the era of Prohibition.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q23",
@@ -6517,7 +6842,8 @@ var APUSH_MCQ = [
       "Bankers seeking government bailouts."
     ],
     "answer": 1,
-    "explanation": "The violent dispersal of the veterans by the military hurt President Hoover's reputation."
+    "explanation": "The violent dispersal of the veterans by the military hurt President Hoover's reputation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q24",
@@ -6537,14 +6863,15 @@ var APUSH_MCQ = [
       "Proposed radical redistribution of wealth through massive taxes on the rich."
     ],
     "answer": 3,
-    "explanation": "Long's populism pressured FDR to move further to the 'left' in the Second New Deal."
+    "explanation": "Long's populism pressured FDR to move further to the 'left' in the Second New Deal.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q25",
     "subject": "apush",
     "unit": 7,
     "topic": "7.13 World War II: Military",
-    "topicLabel": "7.13 World War II: Military",
+    "topicLabel": "7.13 World War II: Military and Diplomacy",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -6557,7 +6884,8 @@ var APUSH_MCQ = [
       "D-Day"
     ],
     "answer": 3,
-    "explanation": "This massive amphibious assault opened a second front in Europe against the Nazis."
+    "explanation": "This massive amphibious assault opened a second front in Europe against the Nazis.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q26",
@@ -6577,7 +6905,8 @@ var APUSH_MCQ = [
       "The forced internment of Japanese Americans on the West Coast."
     ],
     "answer": 3,
-    "explanation": "Despite no evidence of disloyalty, thousands were relocated to inland camps based on fear and racism."
+    "explanation": "Despite no evidence of disloyalty, thousands were relocated to inland camps based on fear and racism.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q27",
@@ -6597,7 +6926,8 @@ var APUSH_MCQ = [
       "The President cannot issue executive orders."
     ],
     "answer": 1,
-    "explanation": "The Court prioritized perceived national security over individual civil liberties."
+    "explanation": "The Court prioritized perceived national security over individual civil liberties.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q28",
@@ -6617,7 +6947,8 @@ var APUSH_MCQ = [
       "Create a lasting peace and a 'League of Nations' to prevent future wars."
     ],
     "answer": 3,
-    "explanation": "Wilson's idealistic vision was largely ignored by European leaders at the Treaty of Versailles."
+    "explanation": "Wilson's idealistic vision was largely ignored by European leaders at the Treaty of Versailles.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q30",
@@ -6637,14 +6968,15 @@ var APUSH_MCQ = [
       "Abolish the Supreme Court entirely."
     ],
     "answer": 0,
-    "explanation": "The plan failed and was seen by many as a dangerous overreach of executive power."
+    "explanation": "The plan failed and was seen by many as a dangerous overreach of executive power.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q31",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -6657,14 +6989,15 @@ var APUSH_MCQ = [
       "Immigrants who were denied entry to the US."
     ],
     "answer": 1,
-    "explanation": "Famous authors included F. Scott Fitzgerald and Ernest Hemingway."
+    "explanation": "Famous authors included F. Scott Fitzgerald and Ernest Hemingway.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q32",
     "subject": "apush",
     "unit": 7,
     "topic": "7.2 Imperialism",
-    "topicLabel": "7.2 Imperialism",
+    "topicLabel": "7.2 Imperialism: Debates",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -6677,7 +7010,8 @@ var APUSH_MCQ = [
       "China"
     ],
     "answer": 3,
-    "explanation": "The US wanted to ensure equal trading rights for all nations in the Chinese market."
+    "explanation": "The US wanted to ensure equal trading rights for all nations in the Chinese market.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q33",
@@ -6697,7 +7031,8 @@ var APUSH_MCQ = [
       "Abolishing the state government."
     ],
     "answer": 0,
-    "explanation": "It turned Wisconsin into a 'laboratory of democracy' during the Progressive Era."
+    "explanation": "It turned Wisconsin into a 'laboratory of democracy' during the Progressive Era.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q34",
@@ -6717,7 +7052,8 @@ var APUSH_MCQ = [
       "Established the 40-hour work week."
     ],
     "answer": 1,
-    "explanation": "It was considered the 'Magna Carta of Labor' and led to a massive increase in union membership."
+    "explanation": "It was considered the 'Magna Carta of Labor' and led to a massive increase in union membership.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q35",
@@ -6737,14 +7073,15 @@ var APUSH_MCQ = [
       "The industrial cities of the North."
     ],
     "answer": 2,
-    "explanation": "Drought and poor farming techniques led to massive soil erosion and 'black blizzards.'"
+    "explanation": "Drought and poor farming techniques led to massive soil erosion and 'black blizzards.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q36",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -6757,7 +7094,8 @@ var APUSH_MCQ = [
       "Severely restrict immigration, particularly from Southern and Eastern Europe."
     ],
     "answer": 3,
-    "explanation": "This reflected the nativist sentiment and the desire for cultural homogeneity during the 1920s."
+    "explanation": "This reflected the nativist sentiment and the desire for cultural homogeneity during the 1920s.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q37",
@@ -6777,7 +7115,8 @@ var APUSH_MCQ = [
       "Drafting men into the army."
     ],
     "answer": 0,
-    "explanation": "Led by George Creel, it utilized posters, films, and 'Four-Minute Men' to create pro-war enthusiasm."
+    "explanation": "Led by George Creel, it utilized posters, films, and 'Four-Minute Men' to create pro-war enthusiasm.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q38",
@@ -6797,7 +7136,8 @@ var APUSH_MCQ = [
       "William McKinley"
     ],
     "answer": 0,
-    "explanation": "Roosevelt believed the government should act as an impartial referee between capital and labor."
+    "explanation": "Roosevelt believed the government should act as an impartial referee between capital and labor.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q39",
@@ -6817,7 +7157,8 @@ var APUSH_MCQ = [
       "Legalized the use of poison gas."
     ],
     "answer": 1,
-    "explanation": "Though idealistic and unenforceable, it reflected the desire for global peace after WWI."
+    "explanation": "Though idealistic and unenforceable, it reflected the desire for global peace after WWI.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q40",
@@ -6837,7 +7178,8 @@ var APUSH_MCQ = [
       "It was funded through a special tax levied on Appalachian coal mining operations."
     ],
     "answer": 1,
-    "explanation": "Critics argued it was an overreach of federal authority into the private sector."
+    "explanation": "Critics argued it was an overreach of federal authority into the private sector.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q41",
@@ -6857,14 +7199,15 @@ var APUSH_MCQ = [
       "Victory for the Navy and Victory for the Army."
     ],
     "answer": 2,
-    "explanation": "This was a slogan used by African Americans to demand equal rights as they served their country."
+    "explanation": "This was a slogan used by African Americans to demand equal rights as they served their country.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q42",
     "subject": "apush",
     "unit": 7,
     "topic": "7.13 World War II: Military",
-    "topicLabel": "7.13 World War II: Military",
+    "topicLabel": "7.13 World War II: Military and Diplomacy",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -6877,7 +7220,8 @@ var APUSH_MCQ = [
       "Using submarines to sink all Japanese transport ships."
     ],
     "answer": 0,
-    "explanation": "This allowed the US to conserve resources and move faster toward the Japanese mainland."
+    "explanation": "This allowed the US to conserve resources and move faster toward the Japanese mainland.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q43",
@@ -6897,14 +7241,15 @@ var APUSH_MCQ = [
       "The integration of the US Marine Corps."
     ],
     "answer": 1,
-    "explanation": "Randolph successfully used the threat of protest to force FDR into action regarding racial equality in employment."
+    "explanation": "Randolph successfully used the threat of protest to force FDR into action regarding racial equality in employment.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q44",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -6917,14 +7262,15 @@ var APUSH_MCQ = [
       "The Internet"
     ],
     "answer": 1,
-    "explanation": "Radio created a national culture by allowing people across the country to hear the same music, news, and ads."
+    "explanation": "Radio created a national culture by allowing people across the country to hear the same music, news, and ads.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q45",
     "subject": "apush",
     "unit": 7,
     "topic": "7.2 Imperialism",
-    "topicLabel": "7.2 Imperialism",
+    "topicLabel": "7.2 Imperialism: Debates",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -6937,7 +7283,8 @@ var APUSH_MCQ = [
       "The US would join the British Empire."
     ],
     "answer": 2,
-    "explanation": "This led to frequent US military interventions in Latin American nations."
+    "explanation": "This led to frequent US military interventions in Latin American nations.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q46",
@@ -6957,7 +7304,8 @@ var APUSH_MCQ = [
       "The right to bear arms."
     ],
     "answer": 2,
-    "explanation": "Previously, Senators were chosen by state legislatures, a system seen as corrupt by Progressives."
+    "explanation": "Previously, Senators were chosen by state legislatures, a system seen as corrupt by Progressives.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q47",
@@ -6977,14 +7325,15 @@ var APUSH_MCQ = [
       "Formal speeches to Congress."
     ],
     "answer": 2,
-    "explanation": "These chats built a direct emotional connection between the President and the people."
+    "explanation": "These chats built a direct emotional connection between the President and the people.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q48",
     "subject": "apush",
     "unit": 7,
     "topic": "7.5 WWI: Military",
-    "topicLabel": "7.5 WWI: Military",
+    "topicLabel": "7.5 World War I: Military and Diplomacy",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -6997,7 +7346,8 @@ var APUSH_MCQ = [
       "The Tuskegee Airmen"
     ],
     "answer": 0,
-    "explanation": "Pershing insisted that American troops fight as an independent force rather than being used as replacements for the Allies."
+    "explanation": "Pershing insisted that American troops fight as an independent force rather than being used as replacements for the Allies.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q49",
@@ -7017,14 +7367,15 @@ var APUSH_MCQ = [
       "The United Nations military command."
     ],
     "answer": 2,
-    "explanation": "It laid the groundwork for the modern global financial system."
+    "explanation": "It laid the groundwork for the modern global financial system.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q50",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -7037,7 +7388,8 @@ var APUSH_MCQ = [
       "Men who worked in airplane factories."
     ],
     "answer": 0,
-    "explanation": "Flappers represented a shift toward greater independence and social freedom for women."
+    "explanation": "Flappers represented a shift toward greater independence and social freedom for women.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q51",
@@ -7057,7 +7409,8 @@ var APUSH_MCQ = [
       "The end of the US debt."
     ],
     "answer": 2,
-    "explanation": "This was an example of 'economic nationalism' that backfired."
+    "explanation": "This was an example of 'economic nationalism' that backfired.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q52",
@@ -7077,7 +7430,8 @@ var APUSH_MCQ = [
       "Women should have the same working hours as men."
     ],
     "answer": 2,
-    "explanation": "While it protected women from overwork, it also legally enshrined gender discrimination."
+    "explanation": "While it protected women from overwork, it also legally enshrined gender discrimination.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q53",
@@ -7097,14 +7451,15 @@ var APUSH_MCQ = [
       "Men to join the Navy."
     ],
     "answer": 0,
-    "explanation": "Millions of women entered the workforce to replace men who were fighting overseas."
+    "explanation": "Millions of women entered the workforce to replace men who were fighting overseas.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q55",
     "subject": "apush",
     "unit": 7,
     "topic": "7.13 WWII: Military",
-    "topicLabel": "7.13 WWII: Military",
+    "topicLabel": "7.13 World War II: Military and Diplomacy",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -7117,14 +7472,15 @@ var APUSH_MCQ = [
       "The Soviet Union entered the war against Japan."
     ],
     "answer": 1,
-    "explanation": "After Midway, Japan was on the defensive for the remainder of the war."
+    "explanation": "After Midway, Japan was on the defensive for the remainder of the war.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q57",
     "subject": "apush",
     "unit": 7,
     "topic": "7.6 WWI: Home Front",
-    "topicLabel": "7.6 WWI: Home Front",
+    "topicLabel": "7.6 World War I: Home Front",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7137,14 +7493,15 @@ var APUSH_MCQ = [
       "A type of rapid-fire cannon."
     ],
     "answer": 0,
-    "explanation": "They were part of the Committee on Public Information's propaganda effort."
+    "explanation": "They were part of the Committee on Public Information's propaganda effort.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q58",
     "subject": "apush",
     "unit": 7,
     "topic": "7.14 WWII: Home Front",
-    "topicLabel": "7.14 WWII: Home Front",
+    "topicLabel": "7.14 World War II: Home Front",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -7157,7 +7514,8 @@ var APUSH_MCQ = [
       "Labor unions and factory owners."
     ],
     "answer": 0,
-    "explanation": "The riots were fueled by racial tensions and the perception that the zoot suits were unpatriotic during wartime rationing."
+    "explanation": "The riots were fueled by racial tensions and the perception that the zoot suits were unpatriotic during wartime rationing.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q59",
@@ -7177,7 +7535,8 @@ var APUSH_MCQ = [
       "The Progressive Party (formed by Theodore Roosevelt)"
     ],
     "answer": 3,
-    "explanation": "Roosevelt split from the Republicans, allowing the Democrat Woodrow Wilson to win the election."
+    "explanation": "Roosevelt split from the Republicans, allowing the Democrat Woodrow Wilson to win the election.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q60",
@@ -7197,14 +7556,15 @@ var APUSH_MCQ = [
       "SEC"
     ],
     "answer": 1,
-    "explanation": "The CCC was one of the most popular and successful New Deal relief programs."
+    "explanation": "The CCC was one of the most popular and successful New Deal relief programs.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q61",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7217,7 +7577,8 @@ var APUSH_MCQ = [
       "The abolition of the NAACP."
     ],
     "answer": 2,
-    "explanation": "Garvey promoted Black economic independence and pride, differing from the integrationist approach of W.E.B. Du Bois."
+    "explanation": "Garvey promoted Black economic independence and pride, differing from the integrationist approach of W.E.B. Du Bois.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q62",
@@ -7237,14 +7598,15 @@ var APUSH_MCQ = [
       "The Soviet Union"
     ],
     "answer": 1,
-    "explanation": "The policy aimed to replace military intervention with cooperation and trade."
+    "explanation": "The policy aimed to replace military intervention with cooperation and trade.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q63",
     "subject": "apush",
     "unit": 7,
     "topic": "7.5 WWI: Military",
-    "topicLabel": "7.5 WWI: Military",
+    "topicLabel": "7.5 World War I: Military and Diplomacy",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7257,7 +7619,8 @@ var APUSH_MCQ = [
       "The Civil War"
     ],
     "answer": 1,
-    "explanation": "Before WWII occurred, WWI was simply known as the Great War because of its unprecedented scale."
+    "explanation": "Before WWII occurred, WWI was simply known as the Great War because of its unprecedented scale.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q64",
@@ -7277,7 +7640,8 @@ var APUSH_MCQ = [
       "Upheld the New Deal."
     ],
     "answer": 2,
-    "explanation": "The Supreme Court ruled that Congress could not delegate legislative power to the executive branch."
+    "explanation": "The Supreme Court ruled that Congress could not delegate legislative power to the executive branch.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q65",
@@ -7297,14 +7661,15 @@ var APUSH_MCQ = [
       "New vacation resorts built by the government."
     ],
     "answer": 1,
-    "explanation": "The name reflected the public's blame of Herbert Hoover for the economic crisis."
+    "explanation": "The name reflected the public's blame of Herbert Hoover for the economic crisis.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q66",
     "subject": "apush",
     "unit": 7,
     "topic": "7.2 Imperialism",
-    "topicLabel": "7.2 Imperialism",
+    "topicLabel": "7.2 Imperialism: Debates",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7317,7 +7682,8 @@ var APUSH_MCQ = [
       "Gain control of the world’s banana trade."
     ],
     "answer": 2,
-    "explanation": "After Colombia refused to sell the land, the US supported Panamanian independence to get the deal done."
+    "explanation": "After Colombia refused to sell the land, the US supported Panamanian independence to get the deal done.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q67",
@@ -7337,7 +7703,8 @@ var APUSH_MCQ = [
       "Unconditional surrender or face 'prompt and utter destruction.'"
     ],
     "answer": 3,
-    "explanation": "When Japan refused, Truman authorized the use of the atomic bomb."
+    "explanation": "When Japan refused, Truman authorized the use of the atomic bomb.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q68",
@@ -7357,14 +7724,15 @@ var APUSH_MCQ = [
       "Gave women the vote."
     ],
     "answer": 1,
-    "explanation": "Progressives believed an income tax was fairer than tariffs for raising government revenue."
+    "explanation": "Progressives believed an income tax was fairer than tariffs for raising government revenue.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q69",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7377,7 +7745,8 @@ var APUSH_MCQ = [
       "The intense anti-immigrant and anti-radical prejudice of the 1920s."
     ],
     "answer": 3,
-    "explanation": "The two Italian immigrants/anarchists were convicted and executed despite questionable evidence."
+    "explanation": "The two Italian immigrants/anarchists were convicted and executed despite questionable evidence.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q70",
@@ -7397,7 +7766,8 @@ var APUSH_MCQ = [
       "Go to war with Japan over Manchuria."
     ],
     "answer": 1,
-    "explanation": "It was a policy of 'moral condemnation' that had little practical effect on Japanese expansion."
+    "explanation": "It was a policy of 'moral condemnation' that had little practical effect on Japanese expansion.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q71",
@@ -7417,14 +7787,15 @@ var APUSH_MCQ = [
       "John Muir"
     ],
     "answer": 3,
-    "explanation": "Muir was a 'preservationist,' unlike Roosevelt, who was a 'conservationist.'"
+    "explanation": "Muir was a 'preservationist,' unlike Roosevelt, who was a 'conservationist.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q72",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7437,7 +7808,8 @@ var APUSH_MCQ = [
       "Calvin Coolidge"
     ],
     "answer": 2,
-    "explanation": "It involved the illegal leasing of federal oil reserves to private companies, symbolizing the corruption of the Harding administration."
+    "explanation": "It involved the illegal leasing of federal oil reserves to private companies, symbolizing the corruption of the Harding administration.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q73",
@@ -7457,7 +7829,8 @@ var APUSH_MCQ = [
       "Collect corporate taxes."
     ],
     "answer": 0,
-    "explanation": "The SEC aimed to restore investor confidence after the crash."
+    "explanation": "The SEC aimed to restore investor confidence after the crash.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q74",
@@ -7477,14 +7850,15 @@ var APUSH_MCQ = [
       "The end of immigration."
     ],
     "answer": 0,
-    "explanation": "The death of 146 workers (mostly young immigrant women) shocked the nation into action."
+    "explanation": "The death of 146 workers (mostly young immigrant women) shocked the nation into action.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q75",
     "subject": "apush",
     "unit": 7,
     "topic": "7.14 WWII: Home Front",
-    "topicLabel": "7.14 WWII: Home Front",
+    "topicLabel": "7.14 World War II: Home Front",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7497,14 +7871,15 @@ var APUSH_MCQ = [
       "Brazil"
     ],
     "answer": 0,
-    "explanation": "The program addressed wartime labor shortages but led to long-term issues regarding migrant rights."
+    "explanation": "The program addressed wartime labor shortages but led to long-term issues regarding migrant rights.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q76",
     "subject": "apush",
     "unit": 7,
     "topic": "7.7 WWI: Victory",
-    "topicLabel": "7.7 WWI: Victory",
+    "topicLabel": "7.7 World War I: Victory and Aftermath",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -7517,14 +7892,15 @@ var APUSH_MCQ = [
       "They thought the treaty was too lenient on Germany."
     ],
     "answer": 2,
-    "explanation": "Isolationist 'Irreconcilables' and 'Reservationists' led by Henry Cabot Lodge blocked the treaty."
+    "explanation": "Isolationist 'Irreconcilables' and 'Reservationists' led by Henry Cabot Lodge blocked the treaty.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q77",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -7537,7 +7913,8 @@ var APUSH_MCQ = [
       "A period of intense religious fasting."
     ],
     "answer": 0,
-    "explanation": "Jazz was the 'soundtrack' of the Roaring Twenties."
+    "explanation": "Jazz was the 'soundtrack' of the Roaring Twenties.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q79",
@@ -7557,14 +7934,15 @@ var APUSH_MCQ = [
       "Annex Canada."
     ],
     "answer": 0,
-    "explanation": "Hoover believed that stabilizing big business would eventually help the average citizen, but it was 'too little, too late.'"
+    "explanation": "Hoover believed that stabilizing big business would eventually help the average citizen, but it was 'too little, too late.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q80",
     "subject": "apush",
     "unit": 7,
     "topic": "7.13 WWII: Military",
-    "topicLabel": "7.13 WWII: Military",
+    "topicLabel": "7.13 World War II: Military and Diplomacy",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -7577,14 +7955,15 @@ var APUSH_MCQ = [
       "Midway and Pearl Harbor"
     ],
     "answer": 1,
-    "explanation": "The bombings in August 1945 led to the Japanese surrender."
+    "explanation": "The bombings in August 1945 led to the Japanese surrender.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q81",
     "subject": "apush",
     "unit": 7,
     "topic": "7.12 WWII: Mobilization",
-    "topicLabel": "7.12 WWII: Mobilization",
+    "topicLabel": "7.12 World War II: Mobilization",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7597,7 +7976,8 @@ var APUSH_MCQ = [
       "Setting the price of stocks."
     ],
     "answer": 2,
-    "explanation": "Rationing was a key part of the home front experience during the war."
+    "explanation": "Rationing was a key part of the home front experience during the war.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q82",
@@ -7617,14 +7997,15 @@ var APUSH_MCQ = [
       "The end of all labor unions."
     ],
     "answer": 2,
-    "explanation": "This was the last major piece of New Deal legislation."
+    "explanation": "This was the last major piece of New Deal legislation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q84",
     "subject": "apush",
     "unit": 7,
     "topic": "7.5 WWI: Diplomacy",
-    "topicLabel": "7.5 WWI: Diplomacy",
+    "topicLabel": "7.5 World War I: Military and Diplomacy",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7637,7 +8018,8 @@ var APUSH_MCQ = [
       "Secret code book."
     ],
     "answer": 0,
-    "explanation": "The sinking shifted American public opinion against Germany."
+    "explanation": "The sinking shifted American public opinion against Germany.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q85",
@@ -7657,14 +8039,15 @@ var APUSH_MCQ = [
       "Reschedule German reparations payments and provide loans to stabilize the German economy."
     ],
     "answer": 3,
-    "explanation": "It created a 'circle of money' where the US lent to Germany, who paid the Allies, who paid the US back for war debts."
+    "explanation": "It created a 'circle of money' where the US lent to Germany, who paid the Allies, who paid the US back for war debts.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q87",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7677,7 +8060,8 @@ var APUSH_MCQ = [
       "A return to the plantation system."
     ],
     "answer": 0,
-    "explanation": "The influx of Black residents into Northern cities led to competition for jobs and housing, sparking violent clashes."
+    "explanation": "The influx of Black residents into Northern cities led to competition for jobs and housing, sparking violent clashes.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q88",
@@ -7697,7 +8081,8 @@ var APUSH_MCQ = [
       "Unions were illegal."
     ],
     "answer": 0,
-    "explanation": "This 'Lochner Era' saw the Court frequently strike down labor regulations."
+    "explanation": "This 'Lochner Era' saw the Court frequently strike down labor regulations.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q89",
@@ -7717,14 +8102,15 @@ var APUSH_MCQ = [
       "Seize all the gold in the country."
     ],
     "answer": 1,
-    "explanation": "This successfully stopped the 'bank runs' and restored trust in the system."
+    "explanation": "This successfully stopped the 'bank runs' and restored trust in the system.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q90",
     "subject": "apush",
     "unit": 7,
     "topic": "7.13 WWII: Military",
-    "topicLabel": "7.13 WWII: Military",
+    "topicLabel": "7.13 World War II: Military and Diplomacy",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7737,7 +8123,8 @@ var APUSH_MCQ = [
       "A type of advanced airplane."
     ],
     "answer": 0,
-    "explanation": "Their success challenged the racist belief that Black men could not fly complex aircraft."
+    "explanation": "Their success challenged the racist belief that Black men could not fly complex aircraft.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q91",
@@ -7757,14 +8144,15 @@ var APUSH_MCQ = [
       "Japan was a threat to peace."
     ],
     "answer": 0,
-    "explanation": "The report fueled the isolationist movement in the 1930s."
+    "explanation": "The report fueled the isolationist movement in the 1930s.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q92",
     "subject": "apush",
     "unit": 7,
     "topic": "7.2 Imperialism",
-    "topicLabel": "7.2 Imperialism",
+    "topicLabel": "7.2 Imperialism: Debates",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -7777,14 +8165,15 @@ var APUSH_MCQ = [
       "Woodrow Wilson"
     ],
     "answer": 2,
-    "explanation": "Roosevelt’s war record was key to his political rise."
+    "explanation": "Roosevelt’s war record was key to his political rise.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q93",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7797,14 +8186,15 @@ var APUSH_MCQ = [
       "Prohibition"
     ],
     "answer": 1,
-    "explanation": "Sanger’s work was controversial but fundamental to the modern reproductive rights movement."
+    "explanation": "Sanger’s work was controversial but fundamental to the modern reproductive rights movement.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q94",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -7817,14 +8207,15 @@ var APUSH_MCQ = [
       "Resulted in the abolition of the Navy."
     ],
     "answer": 2,
-    "explanation": "The strike convinced many that a Bolshevik-style revolution was beginning in the US."
+    "explanation": "The strike convinced many that a Bolshevik-style revolution was beginning in the US.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q95",
     "subject": "apush",
     "unit": 7,
     "topic": "7.13 WWII: Military",
-    "topicLabel": "7.13 WWII: Military",
+    "topicLabel": "7.13 World War II: Military and Diplomacy",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -7837,7 +8228,8 @@ var APUSH_MCQ = [
       "George Patton"
     ],
     "answer": 1,
-    "explanation": "Eisenhower planned and oversaw the D-Day invasion."
+    "explanation": "Eisenhower planned and oversaw the D-Day invasion.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q96",
@@ -7857,7 +8249,8 @@ var APUSH_MCQ = [
       "The annexation of Cuba."
     ],
     "answer": 2,
-    "explanation": "The scandal caused a rift between Taft and his predecessor, Theodore Roosevelt."
+    "explanation": "The scandal caused a rift between Taft and his predecessor, Theodore Roosevelt.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q97",
@@ -7877,14 +8270,15 @@ var APUSH_MCQ = [
       "Build new dams in the West."
     ],
     "answer": 2,
-    "explanation": "It also famously hired photographers like Dorothea Lange to document the Depression."
+    "explanation": "It also famously hired photographers like Dorothea Lange to document the Depression.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q98",
     "subject": "apush",
     "unit": 7,
     "topic": "7.8 1920s: Cultural Controversies",
-    "topicLabel": "7.8 1920s: Cultural Controversies",
+    "topicLabel": "7.8 1920s: Cultural and Political Controversies",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -7897,14 +8291,15 @@ var APUSH_MCQ = [
       "The Beatles"
     ],
     "answer": 0,
-    "explanation": "Armstrong was a defining figure of the Harlem Renaissance and the Jazz Age."
+    "explanation": "Armstrong was a defining figure of the Harlem Renaissance and the Jazz Age.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q99",
     "subject": "apush",
     "unit": 7,
     "topic": "7.2 Imperialism",
-    "topicLabel": "7.2 Imperialism",
+    "topicLabel": "7.2 Imperialism: Debates",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7917,7 +8312,8 @@ var APUSH_MCQ = [
       "Govern the Philippines forever."
     ],
     "answer": 0,
-    "explanation": "Though Cuba was technically independent, the Platt Amendment made it a US protectorate."
+    "explanation": "Though Cuba was technically independent, the Platt Amendment made it a US protectorate.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q100",
@@ -7937,7 +8333,8 @@ var APUSH_MCQ = [
       "League of Nations"
     ],
     "answer": 3,
-    "explanation": "Unlike the League, the US actually joined the UN, marking a definitive end to American isolationism."
+    "explanation": "Unlike the League, the US actually joined the UN, marking a definitive end to American isolationism.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q1",
@@ -7957,14 +8354,15 @@ var APUSH_MCQ = [
       "Promote the spread of communism in Western Europe."
     ],
     "answer": 2,
-    "explanation": "Starting with aid to Greece and Turkey, the Truman Doctrine committed the US to 'containing' communism wherever it threatened to spread."
+    "explanation": "Starting with aid to Greece and Turkey, the Truman Doctrine committed the US to 'containing' communism wherever it threatened to spread.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q2",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -7977,7 +8375,8 @@ var APUSH_MCQ = [
       "Rebuild the economies of Western Europe to prevent the appeal of communism."
     ],
     "answer": 3,
-    "explanation": "By stabilizing European economies, the US hoped to create strong democratic allies and markets for American goods."
+    "explanation": "By stabilizing European economies, the US hoped to create strong democratic allies and markets for American goods.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q3",
@@ -7997,14 +8396,15 @@ var APUSH_MCQ = [
       "A commitment to absolute free speech."
     ],
     "answer": 0,
-    "explanation": "Senator Joseph McCarthy’s 'witch hunts' in the early 1950s created a climate of fear and paranoia without providing evidence of subversion."
+    "explanation": "Senator Joseph McCarthy’s 'witch hunts' in the early 1950s created a climate of fear and paranoia without providing evidence of subversion.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q4",
     "subject": "apush",
     "unit": 8,
     "topic": "8.4 Economy After 1945",
-    "topicLabel": "8.4 Economy After 1945",
+    "topicLabel": "8.4 Economy after 1945",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8017,7 +8417,8 @@ var APUSH_MCQ = [
       "Drafting more men into the army during peacetime."
     ],
     "answer": 2,
-    "explanation": "This fueled the growth of the middle class and the expansion of the suburbs (Levittowns)."
+    "explanation": "This fueled the growth of the middle class and the expansion of the suburbs (Levittowns).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q5",
@@ -8037,7 +8438,8 @@ var APUSH_MCQ = [
       "Racial segregation in public schools was unconstitutional."
     ],
     "answer": 3,
-    "explanation": "The Court ruled that 'separate but equal' facilities were inherently unequal, overturning Plessy v. Ferguson."
+    "explanation": "The Court ruled that 'separate but equal' facilities were inherently unequal, overturning Plessy v. Ferguson.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q6",
@@ -8057,7 +8459,8 @@ var APUSH_MCQ = [
       "Gave President Johnson broad authority to use military force in Southeast Asia without a formal war declaration."
     ],
     "answer": 3,
-    "explanation": "This led to a massive escalation of US troops in Vietnam."
+    "explanation": "This led to a massive escalation of US troops in Vietnam.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q7",
@@ -8077,7 +8480,8 @@ var APUSH_MCQ = [
       "The Black Codes"
     ],
     "answer": 2,
-    "explanation": "Both the New Deal and the Great Society sought to use federal power to provide a social safety net and address poverty."
+    "explanation": "Both the New Deal and the Great Society sought to use federal power to provide a social safety net and address poverty.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q8",
@@ -8097,7 +8501,8 @@ var APUSH_MCQ = [
       "Advocating for the return of Jim Crow laws."
     ],
     "answer": 0,
-    "explanation": "Leaders like Malcolm X and groups like the Black Panthers felt that nonviolent civil disobedience was not working fast enough."
+    "explanation": "Leaders like Malcolm X and groups like the Black Panthers felt that nonviolent civil disobedience was not working fast enough.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q9",
@@ -8117,14 +8522,15 @@ var APUSH_MCQ = [
       "Betty Friedan"
     ],
     "answer": 3,
-    "explanation": "Friedan challenged the idea that women were exclusively satisfied with being housewives and mothers."
+    "explanation": "Friedan challenged the idea that women were exclusively satisfied with being housewives and mothers.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q10",
     "subject": "apush",
     "unit": 8,
     "topic": "8.14 1970s: The Energy Crisis and Stagflation",
-    "topicLabel": "8.14 1970s: The Energy Crisis and Stagflation",
+    "topicLabel": "8.14 The 1970s: Challenges",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8137,7 +8543,8 @@ var APUSH_MCQ = [
       "The total abolition of the income tax."
     ],
     "answer": 2,
-    "explanation": "This baffled economists who previously thought inflation and unemployment moved in opposite directions."
+    "explanation": "This baffled economists who previously thought inflation and unemployment moved in opposite directions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q11",
@@ -8157,14 +8564,15 @@ var APUSH_MCQ = [
       "The resignation of Richard Nixon."
     ],
     "answer": 3,
-    "explanation": "Nixon resigned in 1974 to avoid certain impeachment and conviction following the cover-up of a break-in at the Democratic National Committee."
+    "explanation": "Nixon resigned in 1974 to avoid certain impeachment and conviction following the cover-up of a break-in at the Democratic National Committee.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q12",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8177,14 +8585,15 @@ var APUSH_MCQ = [
       "The Soviet blockade of West Berlin."
     ],
     "answer": 3,
-    "explanation": "The US and Britain flew supplies into West Berlin for nearly a year to bypass the Soviet blockade."
+    "explanation": "The US and Britain flew supplies into West Berlin for nearly a year to bypass the Soviet blockade.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q13",
     "subject": "apush",
     "unit": 8,
     "topic": "8.4 Culture after 1945",
-    "topicLabel": "8.4 Culture after 1945",
+    "topicLabel": "8.5 Culture after 1945",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8197,14 +8606,15 @@ var APUSH_MCQ = [
       "Strict adherence to traditional family values."
     ],
     "answer": 0,
-    "explanation": "Writers like Jack Kerouac and Allen Ginsberg were the precursors to the 1960s counterculture."
+    "explanation": "Writers like Jack Kerouac and Allen Ginsberg were the precursors to the 1960s counterculture.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q14",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8217,14 +8627,15 @@ var APUSH_MCQ = [
       "Banned the use of nuclear weapons."
     ],
     "answer": 0,
-    "explanation": "It shifted US policy from mere diplomatic containment to aggressive military buildup."
+    "explanation": "It shifted US policy from mere diplomatic containment to aggressive military buildup.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q15",
     "subject": "apush",
     "unit": 8,
     "topic": "8.7 The Civil Rights Movement in the 1960s",
-    "topicLabel": "8.7 The Civil Rights Movement in the 1960s",
+    "topicLabel": "8.7 The Civil Rights Movement Intensifies (1960s)",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8237,7 +8648,8 @@ var APUSH_MCQ = [
       "The Selma to Montgomery March"
     ],
     "answer": 1,
-    "explanation": "The march helped pressure Congress to pass the Civil Rights Act of 1964."
+    "explanation": "The march helped pressure Congress to pass the Civil Rights Act of 1964.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q16",
@@ -8257,7 +8669,8 @@ var APUSH_MCQ = [
       "The Head Start program and the Job Corps"
     ],
     "answer": 3,
-    "explanation": "These programs aimed to provide education and vocational training to the underprivileged."
+    "explanation": "These programs aimed to provide education and vocational training to the underprivileged.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q17",
@@ -8277,14 +8690,15 @@ var APUSH_MCQ = [
       "Proved to the American public that the war was far from over, leading to a massive decline in support."
     ],
     "answer": 3,
-    "explanation": "Despite being a military loss for the North, it was a psychological victory that exposed the 'credibility gap' of the US government."
+    "explanation": "Despite being a military loss for the North, it was a psychological victory that exposed the 'credibility gap' of the US government.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q18",
     "subject": "apush",
     "unit": 8,
     "topic": "8.13 Environmentalism",
-    "topicLabel": "8.13 Environmentalism",
+    "topicLabel": "8.14 The 1970s: Challenges",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8297,14 +8711,15 @@ var APUSH_MCQ = [
       "Pesticides, specifically DDT"
     ],
     "answer": 3,
-    "explanation": "The book is credited with launching the modern environmental movement and leading to the creation of the EPA."
+    "explanation": "The book is credited with launching the modern environmental movement and leading to the creation of the EPA.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q19",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8317,7 +8732,8 @@ var APUSH_MCQ = [
       "Fidel Castro and the US Navy."
     ],
     "answer": 2,
-    "explanation": "It was the closest the world ever came to a full-scale nuclear exchange."
+    "explanation": "It was the closest the world ever came to a full-scale nuclear exchange.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q20",
@@ -8337,14 +8753,15 @@ var APUSH_MCQ = [
       "School prayer"
     ],
     "answer": 2,
-    "explanation": "The Court ruled that while race could be a factor in admissions, specific racial quotas were unconstitutional."
+    "explanation": "The Court ruled that while race could be a factor in admissions, specific racial quotas were unconstitutional.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q21",
     "subject": "apush",
     "unit": 8,
     "topic": "8.15 1970s Foreign Policy",
-    "topicLabel": "8.15 1970s Foreign Policy",
+    "topicLabel": "8.15 Politics and Culture in the 1970s",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8357,14 +8774,15 @@ var APUSH_MCQ = [
       "The rescue of hostages in Iran."
     ],
     "answer": 0,
-    "explanation": "The accords provided a framework for a historic peace treaty in the Middle East."
+    "explanation": "The accords provided a framework for a historic peace treaty in the Middle East.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q22",
     "subject": "apush",
     "unit": 8,
     "topic": "8.4 Postwar Culture",
-    "topicLabel": "8.4 Postwar Culture",
+    "topicLabel": "8.5 Culture after 1945",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8377,14 +8795,15 @@ var APUSH_MCQ = [
       "The massive increase in the US birth rate between 1946 and 1964."
     ],
     "answer": 3,
-    "explanation": "This demographic explosion shaped the American economy and culture for decades."
+    "explanation": "This demographic explosion shaped the American economy and culture for decades.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q23",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8397,7 +8816,8 @@ var APUSH_MCQ = [
       "The Soviet Union would eventually collapse from within."
     ],
     "answer": 1,
-    "explanation": "This theory was the primary justification for US military involvement in Vietnam."
+    "explanation": "This theory was the primary justification for US military involvement in Vietnam.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q24",
@@ -8417,7 +8837,8 @@ var APUSH_MCQ = [
       "The Chicano movement."
     ],
     "answer": 0,
-    "explanation": "A police raid on the Stonewall Inn sparked days of protests by the gay community."
+    "explanation": "A police raid on the Stonewall Inn sparked days of protests by the gay community.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q25",
@@ -8437,14 +8858,15 @@ var APUSH_MCQ = [
       "Serve in the military."
     ],
     "answer": 1,
-    "explanation": "The ruling legalized abortion nationwide, sparking a major political and cultural divide."
+    "explanation": "The ruling legalized abortion nationwide, sparking a major political and cultural divide.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q26",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8457,7 +8879,8 @@ var APUSH_MCQ = [
       "Buzz Aldrin"
     ],
     "answer": 0,
-    "explanation": "The 1969 Apollo 11 mission was seen as the ultimate victory in the 'Space Race' with the USSR."
+    "explanation": "The 1969 Apollo 11 mission was seen as the ultimate victory in the 'Space Race' with the USSR.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q27",
@@ -8477,7 +8900,8 @@ var APUSH_MCQ = [
       "Southeast Asia"
     ],
     "answer": 1,
-    "explanation": "It promised US military aid to any Middle Eastern country threatened by communism."
+    "explanation": "It promised US military aid to any Middle Eastern country threatened by communism.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q28",
@@ -8497,7 +8921,8 @@ var APUSH_MCQ = [
       "Active-duty soldiers"
     ],
     "answer": 1,
-    "explanation": "Medicaid, by contrast, was designed to help the poor."
+    "explanation": "Medicaid, by contrast, was designed to help the poor.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q29",
@@ -8517,14 +8942,15 @@ var APUSH_MCQ = [
       "Cesar Chavez"
     ],
     "answer": 3,
-    "explanation": "Chavez led the Delano grape strike and boycott to secure better wages and rights for farmworkers."
+    "explanation": "Chavez led the Delano grape strike and boycott to secure better wages and rights for farmworkers.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q30",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8537,14 +8963,15 @@ var APUSH_MCQ = [
       "A mutual defense alliance between the US and Western European nations."
     ],
     "answer": 3,
-    "explanation": "The Soviet equivalent was the Warsaw Pact."
+    "explanation": "The Soviet equivalent was the Warsaw Pact.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q31",
     "subject": "apush",
     "unit": 8,
     "topic": "8.15 1970s Foreign Policy",
-    "topicLabel": "8.15 1970s Foreign Policy",
+    "topicLabel": "8.15 Politics and Culture in the 1970s",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8557,7 +8984,8 @@ var APUSH_MCQ = [
       "Start a war with China."
     ],
     "answer": 1,
-    "explanation": "Détente led to the SALT I treaty and Nixon’s historic visit to Beijing."
+    "explanation": "Détente led to the SALT I treaty and Nixon’s historic visit to Beijing.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q32",
@@ -8577,14 +9005,15 @@ var APUSH_MCQ = [
       "Give the President more power in war."
     ],
     "answer": 2,
-    "explanation": "It was a direct reaction to the perceived executive overreach during the Vietnam War."
+    "explanation": "It was a direct reaction to the perceived executive overreach during the Vietnam War.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q33",
     "subject": "apush",
     "unit": 8,
     "topic": "8.7 The Civil Rights Movement in the 1960s",
-    "topicLabel": "8.7 The Civil Rights Movement in the 1960s",
+    "topicLabel": "8.7 The Civil Rights Movement Intensifies (1960s)",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8597,14 +9026,15 @@ var APUSH_MCQ = [
       "Rode bicycles across the South to protest for peace."
     ],
     "answer": 2,
-    "explanation": "They faced horrific violence but successfully drew national attention to the failure to enforce desegregation laws."
+    "explanation": "They faced horrific violence but successfully drew national attention to the failure to enforce desegregation laws.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q34",
     "subject": "apush",
     "unit": 8,
     "topic": "8.15 1970s",
-    "topicLabel": "8.15 1970s",
+    "topicLabel": "8.15 Politics and Culture in the 1970s",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8617,7 +9047,8 @@ var APUSH_MCQ = [
       "Jimmy Carter"
     ],
     "answer": 3,
-    "explanation": "The failure to rescue the 52 American hostages made Carter look weak and ineffective."
+    "explanation": "The failure to rescue the 52 American hostages made Carter look weak and ineffective.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q35",
@@ -8637,7 +9068,8 @@ var APUSH_MCQ = [
       "The March on Washington"
     ],
     "answer": 1,
-    "explanation": "The occupation of Alcatraz Island was led by 'Indians of All Tribes,' not AIM. They sought to draw attention to the government's violation of native treaties."
+    "explanation": "The occupation of Alcatraz Island was led by 'Indians of All Tribes,' not AIM. They sought to draw attention to the government's violation of native treaties.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q36",
@@ -8657,14 +9089,15 @@ var APUSH_MCQ = [
       "Lowered the price of gasoline."
     ],
     "answer": 2,
-    "explanation": "The highways were justified as essential for national defense (evacuating cities during nuclear war)."
+    "explanation": "The highways were justified as essential for national defense (evacuating cities during nuclear war).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q37",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8677,7 +9110,8 @@ var APUSH_MCQ = [
       "A stalemate and a 'demilitarized zone' (DMZ) near the 38th parallel."
     ],
     "answer": 3,
-    "explanation": "The border remains almost exactly where it was before the war started in 1950."
+    "explanation": "The border remains almost exactly where it was before the war started in 1950.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q38",
@@ -8697,7 +9131,8 @@ var APUSH_MCQ = [
       "The Black Panthers"
     ],
     "answer": 2,
-    "explanation": "It was a founding document of the 'New Left' and called for 'participatory democracy.'"
+    "explanation": "It was a founding document of the 'New Left' and called for 'participatory democracy.'",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q39",
@@ -8717,14 +9152,15 @@ var APUSH_MCQ = [
       "Solar power"
     ],
     "answer": 1,
-    "explanation": "The partial meltdown of a nuclear reactor in Pennsylvania halted the construction of new nuclear plants in the US for decades."
+    "explanation": "The partial meltdown of a nuclear reactor in Pennsylvania halted the construction of new nuclear plants in the US for decades.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q40",
     "subject": "apush",
     "unit": 8,
     "topic": "8.6 The Civil Rights Movement",
-    "topicLabel": "8.6 The Civil Rights Movement",
+    "topicLabel": "8.6 Early Steps in the Civil Rights Movement (1940s and 1950s)",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8737,7 +9173,8 @@ var APUSH_MCQ = [
       "Jackie Robinson"
     ],
     "answer": 3,
-    "explanation": "Robinson’s entry into the MLB in 1947 was a major symbolic milestone for civil rights."
+    "explanation": "Robinson’s entry into the MLB in 1947 was a major symbolic milestone for civil rights.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q41",
@@ -8757,14 +9194,15 @@ var APUSH_MCQ = [
       "A constitutional right to privacy, specifically regarding the use of contraceptives."
     ],
     "answer": 3,
-    "explanation": "This 'right to privacy' served as the legal foundation for Roe v. Wade later on."
+    "explanation": "This 'right to privacy' served as the legal foundation for Roe v. Wade later on.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q42",
     "subject": "apush",
     "unit": 8,
     "topic": "8.15 1970s",
-    "topicLabel": "8.15 1970s",
+    "topicLabel": "8.15 Politics and Culture in the 1970s",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8777,14 +9215,15 @@ var APUSH_MCQ = [
       "It led to a massive surplus of oil in the US."
     ],
     "answer": 0,
-    "explanation": "The embargo was a retaliation for US support of Israel in the Yom Kippur War."
+    "explanation": "The embargo was a retaliation for US support of Israel in the Yom Kippur War.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q43",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8797,7 +9236,8 @@ var APUSH_MCQ = [
       "Winston Churchill"
     ],
     "answer": 3,
-    "explanation": "Churchill's speech in Fulton, Missouri, warned of the Soviet takeover of Eastern Europe."
+    "explanation": "Churchill's speech in Fulton, Missouri, warned of the Soviet takeover of Eastern Europe.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q44",
@@ -8817,14 +9257,15 @@ var APUSH_MCQ = [
       "The Soviet Union was about to invade Alaska."
     ],
     "answer": 0,
-    "explanation": "The leak by Daniel Ellsberg deepened the 'credibility gap' and fueled the anti-war movement."
+    "explanation": "The leak by Daniel Ellsberg deepened the 'credibility gap' and fueled the anti-war movement.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q45",
     "subject": "apush",
     "unit": 8,
     "topic": "8.7 The Civil Rights Movement in the 1960s",
-    "topicLabel": "8.7 The Civil Rights Movement in the 1960s",
+    "topicLabel": "8.7 The Civil Rights Movement Intensifies (1960s)",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -8837,14 +9278,15 @@ var APUSH_MCQ = [
       "James Meredith"
     ],
     "answer": 2,
-    "explanation": "The SCLC focused on nonviolent direct action through Black churches."
+    "explanation": "The SCLC focused on nonviolent direct action through Black churches.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q46",
     "subject": "apush",
     "unit": 8,
     "topic": "8.7 Civil Rights in the 1960s",
-    "topicLabel": "8.7 Civil Rights in the 1960s",
+    "topicLabel": "8.7 The Civil Rights Movement Intensifies (1960s)",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8857,7 +9299,8 @@ var APUSH_MCQ = [
       "Private homes."
     ],
     "answer": 0,
-    "explanation": "This was the most comprehensive civil rights legislation since Reconstruction."
+    "explanation": "This was the most comprehensive civil rights legislation since Reconstruction.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q47",
@@ -8877,14 +9320,15 @@ var APUSH_MCQ = [
       "It was ratified by the required 38 states prior to the 1982 deadline."
     ],
     "answer": 1,
-    "explanation": "Opponents argued it would hurt traditional family structures and eliminate women's privileges (like the exemption from the draft)."
+    "explanation": "Opponents argued it would hurt traditional family structures and eliminate women's privileges (like the exemption from the draft).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q48",
     "subject": "apush",
     "unit": 8,
     "topic": "8.4 Postwar Economy",
-    "topicLabel": "8.4 Postwar Economy",
+    "topicLabel": "8.4 Economy after 1945",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8897,7 +9341,8 @@ var APUSH_MCQ = [
       "Alaska"
     ],
     "answer": 2,
-    "explanation": "Air conditioning, lower taxes, and defense industry jobs drove this massive population shift."
+    "explanation": "Air conditioning, lower taxes, and defense industry jobs drove this massive population shift.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q49",
@@ -8917,14 +9362,15 @@ var APUSH_MCQ = [
       "Surrender to the Soviet Union."
     ],
     "answer": 2,
-    "explanation": "The US feared that falling behind in space meant falling behind in missile technology."
+    "explanation": "The US feared that falling behind in space meant falling behind in missile technology.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q50",
     "subject": "apush",
     "unit": 8,
     "topic": "8.12 The Counterculture",
-    "topicLabel": "8.12 The Counterculture",
+    "topicLabel": "8.12 The Youth Culture of the 1960s",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8937,7 +9383,8 @@ var APUSH_MCQ = [
       "A celebration of the Vietnam War."
     ],
     "answer": 1,
-    "explanation": "Over 400,000 people attended the music festival in upstate New York."
+    "explanation": "Over 400,000 people attended the music festival in upstate New York.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q51",
@@ -8957,14 +9404,15 @@ var APUSH_MCQ = [
       "A bomb dropped on the US Capitol."
     ],
     "answer": 0,
-    "explanation": "When the news broke in 1969, it further divided the American public over the morality of the war."
+    "explanation": "When the news broke in 1969, it further divided the American public over the morality of the war.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q52",
     "subject": "apush",
     "unit": 8,
     "topic": "8.15 1970s",
-    "topicLabel": "8.15 1970s",
+    "topicLabel": "8.15 Politics and Culture in the 1970s",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -8977,14 +9425,15 @@ var APUSH_MCQ = [
       "Jimmy Carter"
     ],
     "answer": 0,
-    "explanation": "Ford was appointed Vice President after Spiro Agnew resigned, and became President after Nixon resigned."
+    "explanation": "Ford was appointed Vice President after Spiro Agnew resigned, and became President after Nixon resigned.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q53",
     "subject": "apush",
     "unit": 8,
     "topic": "8.6 Civil Rights Movement",
-    "topicLabel": "8.6 Civil Rights Movement",
+    "topicLabel": "8.6 Early Steps in the Civil Rights Movement (1940s and 1950s)",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -8997,14 +9446,15 @@ var APUSH_MCQ = [
       "Malcolm X"
     ],
     "answer": 0,
-    "explanation": "The year-long boycott led to a Supreme Court ruling that bus segregation was illegal."
+    "explanation": "The year-long boycott led to a Supreme Court ruling that bus segregation was illegal.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q56",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -9017,14 +9467,15 @@ var APUSH_MCQ = [
       "A type of nuclear submarine."
     ],
     "answer": 1,
-    "explanation": "The incident derailed a planned peace summit between Eisenhower and Khrushchev."
+    "explanation": "The incident derailed a planned peace summit between Eisenhower and Khrushchev.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q58",
     "subject": "apush",
     "unit": 8,
     "topic": "8.2 The Cold War",
-    "topicLabel": "8.2 The Cold War",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -9037,14 +9488,15 @@ var APUSH_MCQ = [
       "Joseph Stalin"
     ],
     "answer": 1,
-    "explanation": "The CIA-backed invasion was a major embarrassment for the Kennedy administration."
+    "explanation": "The CIA-backed invasion was a major embarrassment for the Kennedy administration.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q59",
     "subject": "apush",
     "unit": 8,
     "topic": "8.15 1970s",
-    "topicLabel": "8.15 1970s",
+    "topicLabel": "8.15 Politics and Culture in the 1970s",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -9057,7 +9509,8 @@ var APUSH_MCQ = [
       "The end of the Space Race."
     ],
     "answer": 2,
-    "explanation": "The killing of four students by the National Guard shocked the nation and radicalized the anti-war movement."
+    "explanation": "The killing of four students by the National Guard shocked the nation and radicalized the anti-war movement.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q60",
@@ -9077,14 +9530,15 @@ var APUSH_MCQ = [
       "Fix the price of gold."
     ],
     "answer": 1,
-    "explanation": "While criticized by some as accepting Soviet dominance, they eventually emboldened dissidents in Eastern Europe."
+    "explanation": "While criticized by some as accepting Soviet dominance, they eventually emboldened dissidents in Eastern Europe.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q1",
     "subject": "apush",
     "unit": 9,
     "topic": "9.2 Conservative Movement",
-    "topicLabel": "9.2 Conservative Movement",
+    "topicLabel": "9.2 The Conservative Movement of the 1980s",
     "difficulty": "easy",
     "calculator": "none",
     "isLatex": false,
@@ -9097,7 +9551,8 @@ var APUSH_MCQ = [
       "Tax cuts, deregulation, and a reduction in the size of the federal government."
     ],
     "answer": 3,
-    "explanation": "Known as 'Reaganomics' or supply-side economics, these policies aimed to stimulate the economy by reducing the burden on businesses and the wealthy."
+    "explanation": "Known as 'Reaganomics' or supply-side economics, these policies aimed to stimulate the economy by reducing the burden on businesses and the wealthy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q3",
@@ -9117,7 +9572,8 @@ var APUSH_MCQ = [
       "The illegal sale of weapons to Iran to fund anti-communist rebels in Nicaragua."
     ],
     "answer": 3,
-    "explanation": "The scandal broke because the administration bypassed a Congressional ban on funding the 'Contras' (anti-communist fighters)."
+    "explanation": "The scandal broke because the administration bypassed a Congressional ban on funding the 'Contras' (anti-communist fighters).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q4",
@@ -9137,14 +9593,15 @@ var APUSH_MCQ = [
       "Mikhail Gorbachev"
     ],
     "answer": 3,
-    "explanation": "Gorbachev’s reforms of 'openness' and 'restructuring' eventually led to the collapse of the Soviet Union."
+    "explanation": "Gorbachev’s reforms of 'openness' and 'restructuring' eventually led to the collapse of the Soviet Union.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q5",
     "subject": "apush",
     "unit": 9,
     "topic": "9.2 The Conservative Movement",
-    "topicLabel": "9.2 The Conservative Movement",
+    "topicLabel": "9.2 The Conservative Movement of the 1980s",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -9157,7 +9614,8 @@ var APUSH_MCQ = [
       "The legalization of all drugs."
     ],
     "answer": 2,
-    "explanation": "Religious conservatives became a powerful voting bloc for the Republican Party starting in the 1980 election."
+    "explanation": "Religious conservatives became a powerful voting bloc for the Republican Party starting in the 1980 election.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q6",
@@ -9177,7 +9635,8 @@ var APUSH_MCQ = [
       "Gave the President the power to deport any citizen."
     ],
     "answer": 2,
-    "explanation": "It was a bipartisan attempt to address the growing issue of undocumented immigration."
+    "explanation": "It was a bipartisan attempt to address the growing issue of undocumented immigration.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q7",
@@ -9197,7 +9656,8 @@ var APUSH_MCQ = [
       "The abolition of the stock market."
     ],
     "answer": 2,
-    "explanation": "Digital technology revolutionized how information was shared and how business was conducted globally."
+    "explanation": "Digital technology revolutionized how information was shared and how business was conducted globally.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q8",
@@ -9217,14 +9677,15 @@ var APUSH_MCQ = [
       "Create a single currency for all of North America."
     ],
     "answer": 2,
-    "explanation": "While it increased trade, it was controversial for causing the loss of some American manufacturing jobs to Mexico."
+    "explanation": "While it increased trade, it was controversial for causing the loss of some American manufacturing jobs to Mexico.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q9",
     "subject": "apush",
     "unit": 9,
     "topic": "9.2 The Conservative Movement",
-    "topicLabel": "9.2 The Conservative Movement",
+    "topicLabel": "9.2 The Conservative Movement of the 1980s",
     "difficulty": "hard",
     "calculator": "none",
     "isLatex": false,
@@ -9237,7 +9698,8 @@ var APUSH_MCQ = [
       "Expanding the power of the President."
     ],
     "answer": 0,
-    "explanation": "It helped the Republican Party take control of both houses of Congress for the first time in 40 years."
+    "explanation": "It helped the Republican Party take control of both houses of Congress for the first time in 40 years.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q10",
@@ -9257,7 +9719,8 @@ var APUSH_MCQ = [
       "The Viet Cong"
     ],
     "answer": 2,
-    "explanation": "Led by Osama bin Laden, the group used hijacked planes to attack the World Trade Center and the Pentagon."
+    "explanation": "Led by Osama bin Laden, the group used hijacked planes to attack the World Trade Center and the Pentagon.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q11",
@@ -9277,7 +9740,8 @@ var APUSH_MCQ = [
       "Expanded the government’s surveillance powers, raising concerns about civil liberties and privacy."
     ],
     "answer": 3,
-    "explanation": "The act was passed quickly after 9/11 to help prevent future attacks, but critics argued it violated the 4th Amendment."
+    "explanation": "The act was passed quickly after 9/11 to help prevent future attacks, but critics argued it violated the 4th Amendment.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q12",
@@ -9297,7 +9761,8 @@ var APUSH_MCQ = [
       "Abolish all nuclear weapons."
     ],
     "answer": 2,
-    "explanation": "This policy was used to justify the 2003 invasion of Iraq based on the belief that Saddam Hussein possessed weapons of mass destruction."
+    "explanation": "This policy was used to justify the 2003 invasion of Iraq based on the belief that Saddam Hussein possessed weapons of mass destruction.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q13",
@@ -9317,7 +9782,8 @@ var APUSH_MCQ = [
       "Barack Obama"
     ],
     "answer": 3,
-    "explanation": "Obama was elected in 2008 during a major economic recession."
+    "explanation": "Obama was elected in 2008 during a major economic recession.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q15",
@@ -9337,7 +9803,8 @@ var APUSH_MCQ = [
       "Abolish private insurance companies."
     ],
     "answer": 2,
-    "explanation": "It remains one of the most significant and debated pieces of legislation in the 21st century."
+    "explanation": "It remains one of the most significant and debated pieces of legislation in the 21st century.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q17",
@@ -9357,7 +9824,8 @@ var APUSH_MCQ = [
       "Political spending by corporations and unions is a form of protected speech under the First Amendment."
     ],
     "answer": 3,
-    "explanation": "This led to the rise of 'Super PACs' and a massive increase in the amount of money spent on political campaigns."
+    "explanation": "This led to the rise of 'Super PACs' and a massive increase in the amount of money spent on political campaigns.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q18",
@@ -9377,7 +9845,8 @@ var APUSH_MCQ = [
       "Gay and lesbian individuals in the military."
     ],
     "answer": 3,
-    "explanation": "The policy was a compromise by the Clinton administration that was eventually repealed under the Obama administration."
+    "explanation": "The policy was a compromise by the Clinton administration that was eventually repealed under the Obama administration.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q19",
@@ -9397,7 +9866,8 @@ var APUSH_MCQ = [
       "A total lack of rain."
     ],
     "answer": 2,
-    "explanation": "This shift has had major political consequences, as these states became 'battlegrounds' in elections."
+    "explanation": "This shift has had major political consequences, as these states became 'battlegrounds' in elections.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q20",
@@ -9417,7 +9887,8 @@ var APUSH_MCQ = [
       "The legalization of same-sex marriage nationwide."
     ],
     "answer": 3,
-    "explanation": "The Court ruled that the 14th Amendment requires states to license and recognize same-sex marriages."
+    "explanation": "The Court ruled that the 14th Amendment requires states to license and recognize same-sex marriages.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q21",
@@ -9437,7 +9908,8 @@ var APUSH_MCQ = [
       "High oil prices."
     ],
     "answer": 2,
-    "explanation": "The movement pushed the Republican Party toward a more fiscally conservative and populist stance."
+    "explanation": "The movement pushed the Republican Party toward a more fiscally conservative and populist stance.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q22",
@@ -9457,7 +9929,8 @@ var APUSH_MCQ = [
       "The Great Wall of China was built."
     ],
     "answer": 2,
-    "explanation": "This event signaled the beginning of the end for communist governments in Eastern Europe."
+    "explanation": "This event signaled the beginning of the end for communist governments in Eastern Europe.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q23",
@@ -9477,7 +9950,8 @@ var APUSH_MCQ = [
       "A dispute over the border with Canada."
     ],
     "answer": 2,
-    "explanation": "It combined various agencies into one department to improve coordination in protecting the country from terrorism."
+    "explanation": "It combined various agencies into one department to improve coordination in protecting the country from terrorism.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q25",
@@ -9497,7 +9971,8 @@ var APUSH_MCQ = [
       "John F. Kennedy"
     ],
     "answer": 2,
-    "explanation": "Reagan's speech in 1987 challenged Gorbachev to prove his commitment to reform."
+    "explanation": "Reagan's speech in 1987 challenged Gorbachev to prove his commitment to reform.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q26",
@@ -9517,7 +9992,8 @@ var APUSH_MCQ = [
       "Legalizing free trade with France."
     ],
     "answer": 0,
-    "explanation": "The US participation in the agreement has been a major point of political debate between parties."
+    "explanation": "The US participation in the agreement has been a major point of political debate between parties.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q27",
@@ -9537,7 +10013,8 @@ var APUSH_MCQ = [
       "Abolished the use of paper ballots."
     ],
     "answer": 2,
-    "explanation": "Critics argued the decision weakened protections for minority voters, while supporters argued the 'pre-clearance' requirements were outdated."
+    "explanation": "Critics argued the decision weakened protections for minority voters, while supporters argued the 'pre-clearance' requirements were outdated.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q28",
@@ -9557,7 +10034,8 @@ var APUSH_MCQ = [
       "Amazon"
     ],
     "answer": 3,
-    "explanation": "Amazon transformed retail by moving shopping from physical stores to the internet."
+    "explanation": "Amazon transformed retail by moving shopping from physical stores to the internet.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q29",
@@ -9577,14 +10055,15 @@ var APUSH_MCQ = [
       "Reduce the number of nuclear weapons held by the US and the Soviet Union/Russia."
     ],
     "answer": 3,
-    "explanation": "These treaties marked the transition from the Cold War to a more cooperative era in nuclear diplomacy."
+    "explanation": "These treaties marked the transition from the Cold War to a more cooperative era in nuclear diplomacy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q30",
     "subject": "apush",
     "unit": 9,
     "topic": "9.2 The Conservative Movement",
-    "topicLabel": "9.2 The Conservative Movement",
+    "topicLabel": "9.2 The Conservative Movement of the 1980s",
     "difficulty": "medium",
     "calculator": "none",
     "isLatex": false,
@@ -9597,14 +10076,15 @@ var APUSH_MCQ = [
       "The first woman to serve on the Supreme Court."
     ],
     "answer": 3,
-    "explanation": "Appointed by Ronald Reagan in 1981, she often served as a crucial 'swing vote' on the Court."
+    "explanation": "Appointed by Ronald Reagan in 1981, she often served as a crucial 'swing vote' on the Court.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q101",
     "subject": "apush",
     "unit": 1,
     "topic": "Native American societies",
-    "topicLabel": "Native American societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -9617,14 +10097,15 @@ var APUSH_MCQ = [
       "Great Plains tribes"
     ],
     "answer": 0,
-    "explanation": "The Mississippian culture (800-1600 CE) was characterized by large earthen mounds, particularly at Cahokia. Pueblo peoples built cliff dwellings in the Southwest, the Iroquois built longhouses in the Northeast, and Great Plains tribes were nomadic hunters."
+    "explanation": "The Mississippian culture (800-1600 CE) was characterized by large earthen mounds, particularly at Cahokia. Pueblo peoples built cliff dwellings in the Southwest, the Iroquois built longhouses in the Northeast, and Great Plains tribes were nomadic hunters.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q102",
     "subject": "apush",
     "unit": 1,
     "topic": "Columbian Exchange",
-    "topicLabel": "Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -9637,14 +10118,15 @@ var APUSH_MCQ = [
       "Potatoes"
     ],
     "answer": 3,
-    "explanation": "Potatoes provided a cheap, nutritious food source that supported European population growth. Tobacco was primarily a cash crop, cotton became important later for textiles, and sugar was valuable but not as crucial for sustaining populations as the potato."
+    "explanation": "Potatoes provided a cheap, nutritious food source that supported European population growth. Tobacco was primarily a cash crop, cotton became important later for textiles, and sugar was valuable but not as crucial for sustaining populations as the potato.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q103",
     "subject": "apush",
     "unit": 1,
     "topic": "encomienda system",
-    "topicLabel": "encomienda system",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -9657,14 +10139,15 @@ var APUSH_MCQ = [
       "Demand tribute and labor from Native Americans"
     ],
     "answer": 3,
-    "explanation": "The encomienda system granted Spanish colonists the right to demand tribute and labor from Native Americans in exchange for supposed protection and religious instruction. It was not about plantation ownership, tax-free trade, or independent governance."
+    "explanation": "The encomienda system granted Spanish colonists the right to demand tribute and labor from Native Americans in exchange for supposed protection and religious instruction. It was not about plantation ownership, tax-free trade, or independent governance.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q104",
     "subject": "apush",
     "unit": 1,
     "topic": "Aztec and Inca empires",
-    "topicLabel": "Aztec and Inca empires",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -9677,14 +10160,15 @@ var APUSH_MCQ = [
       "Disease epidemics among Native Americans"
     ],
     "answer": 3,
-    "explanation": "Disease epidemics, particularly smallpox, devastated Native American populations who had no immunity to Old World diseases. This demographic collapse was more decisive than military tactics, as the Aztecs did resist fiercely and the Spanish were vastly outnumbered."
+    "explanation": "Disease epidemics, particularly smallpox, devastated Native American populations who had no immunity to Old World diseases. This demographic collapse was more decisive than military tactics, as the Aztecs did resist fiercely and the Spanish were vastly outnumbered.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q105",
     "subject": "apush",
     "unit": 1,
     "topic": "Native American societies",
-    "topicLabel": "Native American societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9697,14 +10181,15 @@ var APUSH_MCQ = [
       "developed sophisticated irrigation systems to adapt to arid conditions"
     ],
     "answer": 3,
-    "explanation": "The Pueblo peoples developed complex irrigation systems including canals and terraces to farm in the arid Southwest, while Eastern Woodland peoples relied on natural rainfall and different techniques. Choice A is wrong because Pueblos were agricultural. Choice C confuses them with other societies. Choice B is incorrect as they grew beans and squash alongside maize."
+    "explanation": "The Pueblo peoples developed complex irrigation systems including canals and terraces to farm in the arid Southwest, while Eastern Woodland peoples relied on natural rainfall and different techniques. Choice A is wrong because Pueblos were agricultural. Choice C confuses them with other societies. Choice B is incorrect as they grew beans and squash alongside maize.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q106",
     "subject": "apush",
     "unit": 1,
     "topic": "Columbian Exchange",
-    "topicLabel": "Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9717,14 +10202,15 @@ var APUSH_MCQ = [
       "The spread of epidemic diseases like smallpox and typhus"
     ],
     "answer": 3,
-    "explanation": "Epidemic diseases killed an estimated 90% of Native Americans within a century of contact, making this the most immediate and devastating impact. While livestock (A), agricultural displacement (C), and resource depletion (D) were significant long-term problems, disease had the most rapid and catastrophic demographic effect."
+    "explanation": "Epidemic diseases killed an estimated 90% of Native Americans within a century of contact, making this the most immediate and devastating impact. While livestock (A), agricultural displacement (C), and resource depletion (D) were significant long-term problems, disease had the most rapid and catastrophic demographic effect.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q107",
     "subject": "apush",
     "unit": 1,
     "topic": "Spanish colonization",
-    "topicLabel": "Spanish colonization",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9737,14 +10223,15 @@ var APUSH_MCQ = [
       "encourage intermarriage between Spanish colonists and Native Americans"
     ],
     "answer": 0,
-    "explanation": "Congregación was the Spanish policy of forcibly relocating Native Americans into concentrated settlements, often missions, to facilitate religious conversion and colonial administration. This was not about partnerships (B), equality (C), or encouraging intermarriage (D), but about control and cultural transformation of Native populations."
+    "explanation": "Congregación was the Spanish policy of forcibly relocating Native Americans into concentrated settlements, often missions, to facilitate religious conversion and colonial administration. This was not about partnerships (B), equality (C), or encouraging intermarriage (D), but about control and cultural transformation of Native populations.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q108",
     "subject": "apush",
     "unit": 1,
     "topic": "Portuguese exploration",
-    "topicLabel": "Portuguese exploration",
+    "topicLabel": "1.3 European Exploration in the Americas",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9757,14 +10244,15 @@ var APUSH_MCQ = [
       "focus on establishing profitable trade routes to Asia and Africa"
     ],
     "answer": 3,
-    "explanation": "Portugal was already profitably engaged in Asian spice trade and African gold/slave trade, making the Americas less immediately attractive. Portugal had excellent navigational technology (A), no particular religious objections (C), and adequate finances from existing trade (D). Their focus remained on their lucrative Eastern trade routes until later American opportunities emerged."
+    "explanation": "Portugal was already profitably engaged in Asian spice trade and African gold/slave trade, making the Americas less immediately attractive. Portugal had excellent navigational technology (A), no particular religious objections (C), and adequate finances from existing trade (D). Their focus remained on their lucrative Eastern trade routes until later American opportunities emerged.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q109",
     "subject": "apush",
     "unit": 1,
     "topic": "European motives",
-    "topicLabel": "European motives",
+    "topicLabel": "1.3 European Exploration in the Americas",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9777,14 +10265,15 @@ var APUSH_MCQ = [
       "only the Catholic Church should oversee colonial expansion"
     ],
     "answer": 1,
-    "explanation": "The Spanish saw these three motives as complementary rather than competing - spreading Christianity, gaining wealth, and enhancing Spain's power all served each other. They didn't see economics as secondary (A), weren't limited to immediately profitable areas (C), and didn't give the Church exclusive control (D). The integration of these motives characterized Spanish colonial policy."
+    "explanation": "The Spanish saw these three motives as complementary rather than competing - spreading Christianity, gaining wealth, and enhancing Spain's power all served each other. They didn't see economics as secondary (A), weren't limited to immediately profitable areas (C), and didn't give the Church exclusive control (D). The integration of these motives characterized Spanish colonial policy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q110",
     "subject": "apush",
     "unit": 1,
     "topic": "encomienda system",
-    "topicLabel": "encomienda system",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9797,14 +10286,15 @@ var APUSH_MCQ = [
       "was temporary and designed to eventually grant full citizenship to Native Americans"
     ],
     "answer": 1,
-    "explanation": "The encomienda was legally justified as Spanish colonists providing protection and Christian education in exchange for Native labor and tribute, creating a theoretical reciprocal relationship. Unlike slavery, it wasn't based on ownership of people but on rights to labor. However, it didn't provide wages (A), didn't allow free movement (C), and wasn't intended to lead to citizenship (D). Notably, while the encomienda system devastated Native populations, this demographic collapse was driven largely by epidemic disease, to which all Native Americans - regardless of their status under the encomienda - equally lacked immunity. Smaller, more isolated Native communities were especially vulnerable to complete demographic collapse, as disease could wipe out an entire population before any recovery was possible."
+    "explanation": "The encomienda was legally justified as Spanish colonists providing protection and Christian education in exchange for Native labor and tribute, creating a theoretical reciprocal relationship. Unlike slavery, it wasn't based on ownership of people but on rights to labor. However, it didn't provide wages (A), didn't allow free movement (C), and wasn't intended to lead to citizenship (D). Notably, while the encomienda system devastated Native populations, this demographic collapse was driven largely by epidemic disease, to which all Native Americans - regardless of their status under the encomienda - equally lacked immunity. Smaller, more isolated Native communities were especially vulnerable to complete demographic collapse, as disease could wipe out an entire population before any recovery was possible.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q111",
     "subject": "apush",
     "unit": 1,
     "topic": "Aztec empire",
-    "topicLabel": "Aztec empire",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9817,14 +10307,15 @@ var APUSH_MCQ = [
       "the immediate devastating impact of smallpox on Aztec warriors"
     ],
     "answer": 2,
-    "explanation": "Cortés succeeded primarily by allying with thousands of indigenous peoples (Tlaxcalans and others) who resented Aztec dominance. While Spanish technology helped (A), the Quetzalcoatl connection was likely exaggerated (B), and disease played a major role but took time to spread (D). The key was turning Aztec political enemies into Spanish allies."
+    "explanation": "Cortés succeeded primarily by allying with thousands of indigenous peoples (Tlaxcalans and others) who resented Aztec dominance. While Spanish technology helped (A), the Quetzalcoatl connection was likely exaggerated (B), and disease played a major role but took time to spread (D). The key was turning Aztec political enemies into Spanish allies.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q112",
     "subject": "apush",
     "unit": 1,
     "topic": "Inca empire",
-    "topicLabel": "Inca empire",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9837,14 +10328,15 @@ var APUSH_MCQ = [
       "the empire's communication system was too slow to coordinate defense"
     ],
     "answer": 1,
-    "explanation": "The Inca Empire was highly centralized around the emperor and key administrative centers, so capturing or killing leadership paralyzed the system. This centralization, while effective for governance, made it vulnerable to decapitation strikes. The empire was actually centralized, not decentralized (A), and had military experience (C) and effective communications (D), but these couldn't overcome leadership collapse."
+    "explanation": "The Inca Empire was highly centralized around the emperor and key administrative centers, so capturing or killing leadership paralyzed the system. This centralization, while effective for governance, made it vulnerable to decapitation strikes. The empire was actually centralized, not decentralized (A), and had military experience (C) and effective communications (D), but these couldn't overcome leadership collapse.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q113",
     "subject": "apush",
     "unit": 1,
     "topic": "Native American societies",
-    "topicLabel": "Native American societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9857,14 +10349,15 @@ var APUSH_MCQ = [
       "invasion by more technologically advanced Mesoamerican peoples"
     ],
     "answer": 1,
-    "explanation": "Archaeological evidence suggests Mississippian decline resulted from environmental stress, climate change, and depletion of resources around major centers like Cahokia. Plains warfare (A) wasn't the primary factor, pre-Columbian European disease contact didn't occur (C), and Mesoamerican invasion didn't happen (D). Environmental and resource pressures best explain the pre-contact decline."
+    "explanation": "Archaeological evidence suggests Mississippian decline resulted from environmental stress, climate change, and depletion of resources around major centers like Cahokia. Plains warfare (A) wasn't the primary factor, pre-Columbian European disease contact didn't occur (C), and Mesoamerican invasion didn't happen (D). Environmental and resource pressures best explain the pre-contact decline.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q114",
     "subject": "apush",
     "unit": 1,
     "topic": "Columbian Exchange",
-    "topicLabel": "Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9877,14 +10370,15 @@ var APUSH_MCQ = [
       "Pacific Northwest fishing and whaling activities"
     ],
     "answer": 1,
-    "explanation": "Horses revolutionized Plains Indian culture, transforming buffalo hunting from difficult, dangerous work to efficient mounted hunting, and dramatically changing warfare and mobility. Horses had minimal impact on Eastern Woodland agriculture (A), Southwest irrigation (C), or Pacific Northwest fishing (D). The Great Plains saw the most dramatic cultural transformation from horse adoption."
+    "explanation": "Horses revolutionized Plains Indian culture, transforming buffalo hunting from difficult, dangerous work to efficient mounted hunting, and dramatically changing warfare and mobility. Horses had minimal impact on Eastern Woodland agriculture (A), Southwest irrigation (C), or Pacific Northwest fishing (D). The Great Plains saw the most dramatic cultural transformation from horse adoption.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q115",
     "subject": "apush",
     "unit": 1,
     "topic": "Spanish colonization",
-    "topicLabel": "Spanish colonization",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9897,14 +10391,15 @@ var APUSH_MCQ = [
       "held the highest positions in the Catholic Church hierarchy"
     ],
     "answer": 2,
-    "explanation": "Peninsulares topped the social hierarchy because they were Spanish-born and considered racially/culturally superior to American-born criollos or mixed-race people. While they often had wealth (A) and some had military experience (B) or church positions (D), their status derived fundamentally from Spanish birth and perceived racial purity, not from achievements or roles in the colonies."
+    "explanation": "Peninsulares topped the social hierarchy because they were Spanish-born and considered racially/culturally superior to American-born criollos or mixed-race people. While they often had wealth (A) and some had military experience (B) or church positions (D), their status derived fundamentally from Spanish birth and perceived racial purity, not from achievements or roles in the colonies.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q116",
     "subject": "apush",
     "unit": 1,
     "topic": "European motives",
-    "topicLabel": "European motives",
+    "topicLabel": "1.3 European Exploration in the Americas",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9917,14 +10412,15 @@ var APUSH_MCQ = [
       "American territories were necessary for European population expansion"
     ],
     "answer": 1,
-    "explanation": "Mercantilism drove European competition - nations believed wealth was finite and national power required controlling trade routes and accumulating precious metals. Europeans didn't think gold supplies were unlimited (A), didn't initially plan to use Natives as slaves extensively (C), and population pressure wasn't the primary motive (D). Mercantilist theory explaining wealth and power through trade control best explains the competition."
+    "explanation": "Mercantilism drove European competition - nations believed wealth was finite and national power required controlling trade routes and accumulating precious metals. Europeans didn't think gold supplies were unlimited (A), didn't initially plan to use Natives as slaves extensively (C), and population pressure wasn't the primary motive (D). Mercantilist theory explaining wealth and power through trade control best explains the competition.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q117",
     "subject": "apush",
     "unit": 1,
     "topic": "demographic collapse",
-    "topicLabel": "demographic collapse",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9937,14 +10433,15 @@ var APUSH_MCQ = [
       "Intermarriage between Europeans and Native peoples was common"
     ],
     "answer": 0,
-    "explanation": "Mission systems concentrated Native populations, facilitating disease transmission and cultural disruption while preventing traditional survival strategies. Areas with sparse European settlement (B) actually allowed faster recovery, traditional practices (C) often aided survival, and intermarriage (D) sometimes provided advantages. Concentrated mission populations suffered sustained demographic pressure from disease and cultural destruction."
+    "explanation": "Mission systems concentrated Native populations, facilitating disease transmission and cultural disruption while preventing traditional survival strategies. Areas with sparse European settlement (B) actually allowed faster recovery, traditional practices (C) often aided survival, and intermarriage (D) sometimes provided advantages. Concentrated mission populations suffered sustained demographic pressure from disease and cultural destruction.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q118",
     "subject": "apush",
     "unit": 1,
     "topic": "encomienda system",
-    "topicLabel": "encomienda system",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9957,14 +10454,15 @@ var APUSH_MCQ = [
       "created dangerous alliances between encomenderos and Native leaders"
     ],
     "answer": 1,
-    "explanation": "Las Casas and other critics argued the encomienda violated Christian teaching about human dignity and the rights of indigenous peoples. His arguments were primarily moral and religious, not economic efficiency concerns (A), resource access issues (C), or fears about political alliances (D). The humanitarian critique focused on Christian ethics and Native peoples' spiritual equality."
+    "explanation": "Las Casas and other critics argued the encomienda violated Christian teaching about human dignity and the rights of indigenous peoples. His arguments were primarily moral and religious, not economic efficiency concerns (A), resource access issues (C), or fears about political alliances (D). The humanitarian critique focused on Christian ethics and Native peoples' spiritual equality.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q119",
     "subject": "apush",
     "unit": 1,
     "topic": "Aztec empire",
-    "topicLabel": "Aztec empire",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9977,14 +10475,15 @@ var APUSH_MCQ = [
       "demonstrating that Native peoples would accept foreign political control"
     ],
     "answer": 1,
-    "explanation": "The Aztec tribute system created widespread resentment among subject peoples, making them willing allies for Spanish conquistadors against Aztec rule. The system didn't provide maps to Spanish (A), wasn't similar to European taxation (C), and didn't prove acceptance of foreign control generally (D) - rather, it proved that oppressed peoples would rebel against their oppressors when given the opportunity."
+    "explanation": "The Aztec tribute system created widespread resentment among subject peoples, making them willing allies for Spanish conquistadors against Aztec rule. The system didn't provide maps to Spanish (A), wasn't similar to European taxation (C), and didn't prove acceptance of foreign control generally (D) - rather, it proved that oppressed peoples would rebel against their oppressors when given the opportunity.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q120",
     "subject": "apush",
     "unit": 1,
     "topic": "Inca empire",
-    "topicLabel": "Inca empire",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -9997,14 +10496,15 @@ var APUSH_MCQ = [
       "connected Spanish settlements with existing Native American trade networks"
     ],
     "answer": 1,
-    "explanation": "The extensive Inca road system allowed Spanish forces to move quickly through the empire and maintain supply lines, using infrastructure originally designed for Inca administration and military control. The roads didn't connect to Europe (A), didn't prove Native compliance with conquerors (C), and weren't initially about trade networks (D). The strategic military advantage of mobility was key."
+    "explanation": "The extensive Inca road system allowed Spanish forces to move quickly through the empire and maintain supply lines, using infrastructure originally designed for Inca administration and military control. The roads didn't connect to Europe (A), didn't prove Native compliance with conquerors (C), and weren't initially about trade networks (D). The strategic military advantage of mobility was key.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q121",
     "subject": "apush",
     "unit": 1,
     "topic": "Portuguese exploration",
-    "topicLabel": "Portuguese exploration",
+    "topicLabel": "1.3 European Exploration in the Americas",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10017,14 +10517,15 @@ var APUSH_MCQ = [
       "extracting precious metals through forced Native American labor"
     ],
     "answer": 0,
-    "explanation": "Portuguese Brazil focused on sugar plantation agriculture using enslaved Africans, contrasting with Spanish emphasis on precious metals and encomienda labor. While Spanish also established settlements (B), Portugal's distinctive approach was plantation agriculture. Portugal didn't emphasize diplomacy with Natives more than Spain (C), and didn't focus on precious metals extraction like Spain (D)."
+    "explanation": "Portuguese Brazil focused on sugar plantation agriculture using enslaved Africans, contrasting with Spanish emphasis on precious metals and encomienda labor. While Spanish also established settlements (B), Portugal's distinctive approach was plantation agriculture. Portugal didn't emphasize diplomacy with Natives more than Spain (C), and didn't focus on precious metals extraction like Spain (D).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q122",
     "subject": "apush",
     "unit": 1,
     "topic": "Native American societies",
-    "topicLabel": "Native American societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10037,14 +10538,15 @@ var APUSH_MCQ = [
       "establishment of permanent settlements and towns"
     ],
     "answer": 1,
-    "explanation": "The Iroquois Confederacy was distinctive for uniting five (later six) separate nations under a common political system while maintaining individual nation identities. Other Eastern Woodland peoples also practiced agriculture (A), weren't influenced by European concepts initially (C), and also had permanent settlements (D). The confederacy system was the unique political innovation."
+    "explanation": "The Iroquois Confederacy was distinctive for uniting five (later six) separate nations under a common political system while maintaining individual nation identities. Other Eastern Woodland peoples also practiced agriculture (A), weren't influenced by European concepts initially (C), and also had permanent settlements (D). The confederacy system was the unique political innovation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q123",
     "subject": "apush",
     "unit": 1,
     "topic": "Columbian Exchange",
-    "topicLabel": "Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10057,14 +10559,15 @@ var APUSH_MCQ = [
       "reducing European dependence on trade with Asian and African partners"
     ],
     "answer": 1,
-    "explanation": "American crops, especially potatoes, provided more calories per acre and grew in marginal soils, supporting larger European populations and reducing famine. These crops didn't replace wheat as primary grain (A), weren't mainly about exports initially (C), and didn't significantly reduce Asian/African trade dependence (D). The nutritional and agricultural advantages directly supported demographic expansion."
+    "explanation": "American crops, especially potatoes, provided more calories per acre and grew in marginal soils, supporting larger European populations and reducing famine. These crops didn't replace wheat as primary grain (A), weren't mainly about exports initially (C), and didn't significantly reduce Asian/African trade dependence (D). The nutritional and agricultural advantages directly supported demographic expansion.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q124",
     "subject": "apush",
     "unit": 1,
     "topic": "Columbian Exchange",
-    "topicLabel": "Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10077,14 +10580,15 @@ var APUSH_MCQ = [
       "Native Americans refused European medical treatments due to religious beliefs"
     ],
     "answer": 2,
-    "explanation": "Native American populations had been isolated from Old World diseases for thousands of years and therefore lacked immunity to diseases like smallpox, measles, and typhus. This lack of previous exposure, not inferior immune systems (A), intentional warfare (B), or refusal of treatment (D), explains the demographic catastrophe that reduced Native populations by an estimated 90% in many areas."
+    "explanation": "Native American populations had been isolated from Old World diseases for thousands of years and therefore lacked immunity to diseases like smallpox, measles, and typhus. This lack of previous exposure, not inferior immune systems (A), intentional warfare (B), or refusal of treatment (D), explains the demographic catastrophe that reduced Native populations by an estimated 90% in many areas.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q125",
     "subject": "apush",
     "unit": 1,
     "topic": "encomienda system",
-    "topicLabel": "encomienda system",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10097,14 +10601,15 @@ var APUSH_MCQ = [
       "created a system of intermarriage between Spanish colonists and Native American nobility"
     ],
     "answer": 1,
-    "explanation": "The encomienda system granted Spanish colonists (encomenderos) the right to demand labor and tribute from Native Americans in exchange for supposed protection and Christian conversion. It did not grant ownership of people or land (A), nor was it primarily about trade (C) or intermarriage (D). While often abusive in practice, the system was legally justified as providing protection and religious instruction to Native peoples."
+    "explanation": "The encomienda system granted Spanish colonists (encomenderos) the right to demand labor and tribute from Native Americans in exchange for supposed protection and Christian conversion. It did not grant ownership of people or land (A), nor was it primarily about trade (C) or intermarriage (D). While often abusive in practice, the system was legally justified as providing protection and religious instruction to Native peoples.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q126",
     "subject": "apush",
     "unit": 1,
     "topic": "Native American societies",
-    "topicLabel": "Native American societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10117,14 +10622,15 @@ var APUSH_MCQ = [
       "That Native Americans had no social hierarchies"
     ],
     "answer": 0,
-    "explanation": "Mississippian culture created large, permanent settlements like Cahokia based on intensive maize agriculture, directly contradicting European beliefs that Native Americans were nomadic. While Europeans also misunderstood Native concepts of property, social organization, and agriculture, the permanence of settlements was the most fundamental challenge to European justifications for land claims."
+    "explanation": "Mississippian culture created large, permanent settlements like Cahokia based on intensive maize agriculture, directly contradicting European beliefs that Native Americans were nomadic. While Europeans also misunderstood Native concepts of property, social organization, and agriculture, the permanence of settlements was the most fundamental challenge to European justifications for land claims.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q127",
     "subject": "apush",
     "unit": 1,
     "topic": "Columbian Exchange",
-    "topicLabel": "Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10137,14 +10643,15 @@ var APUSH_MCQ = [
       "The availability of new raw materials for emerging industries"
     ],
     "answer": 1,
-    "explanation": "The massive influx of gold and silver from the Americas increased Europe's money supply, facilitating the growth of banking, credit systems, and market-based economies that characterized early capitalism. While new crops, trade routes, and raw materials were important, the expansion of money supply was the most direct catalyst for the transition from land-based feudal economies to money-based capitalist systems."
+    "explanation": "The massive influx of gold and silver from the Americas increased Europe's money supply, facilitating the growth of banking, credit systems, and market-based economies that characterized early capitalism. While new crops, trade routes, and raw materials were important, the expansion of money supply was the most direct catalyst for the transition from land-based feudal economies to money-based capitalist systems.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q128",
     "subject": "apush",
     "unit": 1,
     "topic": "Spanish colonization",
-    "topicLabel": "Spanish colonization",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10157,14 +10664,15 @@ var APUSH_MCQ = [
       "The disagreement between secular authorities and Catholic Church officials"
     ],
     "answer": 1,
-    "explanation": "The separate republic system revealed the fundamental contradiction in Spanish colonial ideology: while Christianity theoretically made all converts equal, the colonial system required maintaining social hierarchies to ensure Spanish dominance and extract wealth. This legal segregation allowed Spain to claim Christian equality while maintaining practical control and exploitation."
+    "explanation": "The separate republic system revealed the fundamental contradiction in Spanish colonial ideology: while Christianity theoretically made all converts equal, the colonial system required maintaining social hierarchies to ensure Spanish dominance and extract wealth. This legal segregation allowed Spain to claim Christian equality while maintaining practical control and exploitation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q129",
     "subject": "apush",
     "unit": 1,
     "topic": "Portuguese exploration",
-    "topicLabel": "Portuguese exploration",
+    "topicLabel": "1.3 European Exploration in the Americas",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10177,14 +10685,15 @@ var APUSH_MCQ = [
       "The terms of the Treaty of Tordesillas limiting Portuguese expansion"
     ],
     "answer": 0,
-    "explanation": "Portugal encountered established, powerful kingdoms and empires in Africa and Asia (like the Mughal Empire, Ming China, and various African states) that could effectively resist conquest, making trading posts more practical. In Brazil, they found decentralized indigenous societies more vulnerable to conquest. Disease patterns, Church policy, and Tordesillas were less determinative than the political-military realities they faced."
+    "explanation": "Portugal encountered established, powerful kingdoms and empires in Africa and Asia (like the Mughal Empire, Ming China, and various African states) that could effectively resist conquest, making trading posts more practical. In Brazil, they found decentralized indigenous societies more vulnerable to conquest. Disease patterns, Church policy, and Tordesillas were less determinative than the political-military realities they faced.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q130",
     "subject": "apush",
     "unit": 1,
     "topic": "European motives",
-    "topicLabel": "European motives",
+    "topicLabel": "1.3 European Exploration in the Americas",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10197,14 +10706,15 @@ var APUSH_MCQ = [
       "The technological limitations preventing direct oceanic exploration"
     ],
     "answer": 2,
-    "explanation": "The persistent search for a Northwest Passage, despite mounting evidence of its impracticality, demonstrates how competitive pressures drove European exploration. Each nation hoped to find an exclusive route to Asian markets that would bypass competitors' established routes. While geographic misconceptions existed, the continued pursuit despite contrary evidence shows competition was the primary driver, not ignorance."
+    "explanation": "The persistent search for a Northwest Passage, despite mounting evidence of its impracticality, demonstrates how competitive pressures drove European exploration. Each nation hoped to find an exclusive route to Asian markets that would bypass competitors' established routes. While geographic misconceptions existed, the continued pursuit despite contrary evidence shows competition was the primary driver, not ignorance.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q131",
     "subject": "apush",
     "unit": 1,
     "topic": "demographic collapse",
-    "topicLabel": "demographic collapse",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10217,14 +10727,15 @@ var APUSH_MCQ = [
       "It caused Europeans to abandon territorial expansion in favor of trading posts"
     ],
     "answer": 1,
-    "explanation": "The massive population decline made tribute systems (like encomienda) unsustainable, forcing Spanish colonists to shift toward plantation agriculture with imported African slave labor. This transition was unintended but necessary for maintaining colonial profitability. While other labor systems evolved, the specific shift from tribute extraction to direct production was the most significant structural change caused by demographic collapse."
+    "explanation": "The massive population decline made tribute systems (like encomienda) unsustainable, forcing Spanish colonists to shift toward plantation agriculture with imported African slave labor. This transition was unintended but necessary for maintaining colonial profitability. While other labor systems evolved, the specific shift from tribute extraction to direct production was the most significant structural change caused by demographic collapse.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q132",
     "subject": "apush",
     "unit": 1,
     "topic": "encomienda system",
-    "topicLabel": "encomienda system",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10237,14 +10748,15 @@ var APUSH_MCQ = [
       "The declining profitability due to indigenous population collapse"
     ],
     "answer": 1,
-    "explanation": "The Spanish Crown's main concern was that encomenderos were becoming too powerful and independent, potentially challenging royal authority as feudal lords had in medieval Spain. While missionary objections and population decline were factors, the Crown's primary motivation was preventing the emergence of a colonial nobility that might threaten centralized control over the colonies and their wealth."
+    "explanation": "The Spanish Crown's main concern was that encomenderos were becoming too powerful and independent, potentially challenging royal authority as feudal lords had in medieval Spain. While missionary objections and population decline were factors, the Crown's primary motivation was preventing the emergence of a colonial nobility that might threaten centralized control over the colonies and their wealth.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q133",
     "subject": "apush",
     "unit": 1,
     "topic": "Aztec empire",
-    "topicLabel": "Aztec empire",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10257,14 +10769,15 @@ var APUSH_MCQ = [
       "The absence of metal weapons and armor for military defense"
     ],
     "answer": 0,
-    "explanation": "The Aztec tribute system created widespread resentment among subject peoples, who readily allied with Cortés against their Aztec overlords. This internal division was more crucial than technological or religious factors. While human sacrifice, communication methods, and military technology played roles, the political fragmentation caused by tribute extraction provided Cortés with the indigenous allies essential to his success."
+    "explanation": "The Aztec tribute system created widespread resentment among subject peoples, who readily allied with Cortés against their Aztec overlords. This internal division was more crucial than technological or religious factors. While human sacrifice, communication methods, and military technology played roles, the political fragmentation caused by tribute extraction provided Cortés with the indigenous allies essential to his success.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q134",
     "subject": "apush",
     "unit": 1,
     "topic": "Inca empire",
-    "topicLabel": "Inca empire",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10277,14 +10790,15 @@ var APUSH_MCQ = [
       "Spanish administrative experience and the complexity of Inca bureaucracy"
     ],
     "answer": 0,
-    "explanation": "The combination of disease-caused population decline and the civil war between the royal brothers created optimal conditions for Spanish conquest. The empire was weakened demographically by smallpox and politically divided by succession conflict. While technology, religion, and administration were factors, the timing of Pizarro's arrival during this double crisis was the decisive advantage."
+    "explanation": "The combination of disease-caused population decline and the civil war between the royal brothers created optimal conditions for Spanish conquest. The empire was weakened demographically by smallpox and politically divided by succession conflict. While technology, religion, and administration were factors, the timing of Pizarro's arrival during this double crisis was the decisive advantage.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q135",
     "subject": "apush",
     "unit": 1,
     "topic": "Native American societies",
-    "topicLabel": "Native American societies",
+    "topicLabel": "1.2 Native American Societies Before European Contact",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10297,14 +10811,15 @@ var APUSH_MCQ = [
       "The varying degrees of political centralization among indigenous communities"
     ],
     "answer": 1,
-    "explanation": "The timing and type of first contact (whether with explorers, traders, missionaries, or conquistadors) fundamentally shaped indigenous responses and capabilities. Groups experiencing early epidemics without European presence developed different strategies than those meeting Europeans directly. While technology, environment, and political organization influenced responses, the specific historical circumstances of initial contact were most determinative."
+    "explanation": "The timing and type of first contact (whether with explorers, traders, missionaries, or conquistadors) fundamentally shaped indigenous responses and capabilities. Groups experiencing early epidemics without European presence developed different strategies than those meeting Europeans directly. While technology, environment, and political organization influenced responses, the specific historical circumstances of initial contact were most determinative.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q136",
     "subject": "apush",
     "unit": 1,
     "topic": "Columbian Exchange",
-    "topicLabel": "Columbian Exchange",
+    "topicLabel": "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10317,14 +10832,15 @@ var APUSH_MCQ = [
       "It created new trade opportunities that strengthened indigenous economic independence"
     ],
     "answer": 2,
-    "explanation": "European livestock fundamentally altered indigenous landscapes and territorial concepts. Cattle and pigs required different land management than indigenous practices, leading to conflicts over land use and contributing to the erosion of traditional territorial systems. While livestock provided some benefits, the dominant long-term effect was the transformation of indigenous relationships with land and space."
+    "explanation": "European livestock fundamentally altered indigenous landscapes and territorial concepts. Cattle and pigs required different land management than indigenous practices, leading to conflicts over land use and contributing to the erosion of traditional territorial systems. While livestock provided some benefits, the dominant long-term effect was the transformation of indigenous relationships with land and space.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q137",
     "subject": "apush",
     "unit": 1,
     "topic": "Spanish colonization",
-    "topicLabel": "Spanish colonization",
+    "topicLabel": "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10337,14 +10853,15 @@ var APUSH_MCQ = [
       "Provide legal protections for indigenous peoples against Spanish exploitation"
     ],
     "answer": 1,
-    "explanation": "The casta system created elaborate racial categories that acknowledged widespread mixing while preserving Spanish dominance through hierarchical classification. Rather than preventing mixing or providing equality, it systematized inequality in a mixed-race society. The system's complexity reveals Spanish efforts to maintain control despite demographic realities that challenged simple racial divisions."
+    "explanation": "The casta system created elaborate racial categories that acknowledged widespread mixing while preserving Spanish dominance through hierarchical classification. Rather than preventing mixing or providing equality, it systematized inequality in a mixed-race society. The system's complexity reveals Spanish efforts to maintain control despite demographic realities that challenged simple racial divisions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u1_q138",
     "subject": "apush",
     "unit": 1,
     "topic": "European motives",
-    "topicLabel": "European motives",
+    "topicLabel": "1.3 European Exploration in the Americas",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10357,14 +10874,15 @@ var APUSH_MCQ = [
       "The recent development of more accurate maps and navigation techniques"
     ],
     "answer": 1,
-    "explanation": "Ottoman control of Eastern Mediterranean and overland routes to Asia forced Europeans to seek alternative paths to Asian markets, making oceanic exploration an economic necessity rather than just an option. While technology, religion, and navigation improvements enabled oceanic exploration, the blockage of traditional routes was the primary motivation that drove the Age of Exploration's oceanic focus."
+    "explanation": "Ottoman control of Eastern Mediterranean and overland routes to Asia forced Europeans to seek alternative paths to Asian markets, making oceanic exploration an economic necessity rather than just an option. While technology, religion, and navigation improvements enabled oceanic exploration, the blockage of traditional routes was the primary motivation that drove the Age of Exploration's oceanic focus.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q139",
     "subject": "apush",
     "unit": 2,
     "topic": "Chesapeake colonies",
-    "topicLabel": "Chesapeake colonies",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -10377,14 +10895,15 @@ var APUSH_MCQ = [
       "Fishing"
     ],
     "answer": 0,
-    "explanation": "Tobacco cultivation was the primary economic activity that drove the Chesapeake economy. Fur trading was more important in New France and the Middle colonies, shipbuilding was significant in New England, and fishing was the major industry in New England coastal areas."
+    "explanation": "Tobacco cultivation was the primary economic activity that drove the Chesapeake economy. Fur trading was more important in New France and the Middle colonies, shipbuilding was significant in New England, and fishing was the major industry in New England coastal areas.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q140",
     "subject": "apush",
     "unit": 2,
     "topic": "Puritan theology",
-    "topicLabel": "Puritan theology",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -10397,14 +10916,15 @@ var APUSH_MCQ = [
       "Following the Ten Commandments"
     ],
     "answer": 1,
-    "explanation": "Puritans believed in predestination - that God had already determined who would be saved before birth. This contrasts with Catholic emphasis on good works, and while Puritans valued moral behavior and church attendance, these were seen as signs of salvation rather than causes of it."
+    "explanation": "Puritans believed in predestination - that God had already determined who would be saved before birth. This contrasts with Catholic emphasis on good works, and while Puritans valued moral behavior and church attendance, these were seen as signs of salvation rather than causes of it.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q141",
     "subject": "apush",
     "unit": 2,
     "topic": "indentured servitude",
-    "topicLabel": "indentured servitude",
+    "topicLabel": "2.6 Slavery in the British Colonies",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -10417,14 +10937,15 @@ var APUSH_MCQ = [
       "They became permanent servants with wages"
     ],
     "answer": 1,
-    "explanation": "After completing their terms (usually 4-7 years), indentured servants received 'freedom dues' which might include clothes, tools, or small amounts of money, and became free colonists. They were not required to serve again, land ownership was not automatic but possible to achieve, and the permanent servant status did not exist in this system."
+    "explanation": "After completing their terms (usually 4-7 years), indentured servants received 'freedom dues' which might include clothes, tools, or small amounts of money, and became free colonists. They were not required to serve again, land ownership was not automatic but possible to achieve, and the permanent servant status did not exist in this system.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q142",
     "subject": "apush",
     "unit": 2,
     "topic": "Bacon's Rebellion",
-    "topicLabel": "Bacon's Rebellion",
+    "topicLabel": "2.6 Slavery in the British Colonies",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -10437,14 +10958,15 @@ var APUSH_MCQ = [
       "South Carolina"
     ],
     "answer": 2,
-    "explanation": "Bacon's Rebellion took place in Virginia in 1676, led by Nathaniel Bacon against Governor William Berkeley. Students often confuse early colonial conflicts, but this specific rebellion over Indian policy and political representation occurred in the Chesapeake region, not in New England, the Middle colonies, or the Lower South."
+    "explanation": "Bacon's Rebellion took place in Virginia in 1676, led by Nathaniel Bacon against Governor William Berkeley. Students often confuse early colonial conflicts, but this specific rebellion over Indian policy and political representation occurred in the Chesapeake region, not in New England, the Middle colonies, or the Lower South.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q143",
     "subject": "apush",
     "unit": 2,
     "topic": "Chesapeake colonies",
-    "topicLabel": "Chesapeake colonies",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10457,14 +10979,15 @@ var APUSH_MCQ = [
       "Overwork in textile manufacturing and mining operations"
     ],
     "answer": 0,
-    "explanation": "High mortality in the Chesapeake resulted from disease (malaria, dysentery), contaminated water sources, and food shortages during early settlement periods. Option B overstates warfare frequency, C confuses regions (Puritans were in New England), and D misidentifies the primary economic activities (tobacco, not manufacturing)."
+    "explanation": "High mortality in the Chesapeake resulted from disease (malaria, dysentery), contaminated water sources, and food shortages during early settlement periods. Option B overstates warfare frequency, C confuses regions (Puritans were in New England), and D misidentifies the primary economic activities (tobacco, not manufacturing).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q144",
     "subject": "apush",
     "unit": 2,
     "topic": "New England colonies",
-    "topicLabel": "New England colonies",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10477,14 +11000,15 @@ var APUSH_MCQ = [
       "Democratic participation and universal suffrage"
     ],
     "answer": 2,
-    "explanation": "The 'city upon a hill' ideology promoted tight-knit communities with strong moral oversight and conformity to Puritan values. Option A is incorrect as Puritans were intolerant of other faiths, B misrepresents their communal economic approach, and D overstates political participation (limited to church members)."
+    "explanation": "The 'city upon a hill' ideology promoted tight-knit communities with strong moral oversight and conformity to Puritan values. Option A is incorrect as Puritans were intolerant of other faiths, B misrepresents their communal economic approach, and D overstates political participation (limited to church members).",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q145",
     "subject": "apush",
     "unit": 2,
     "topic": "Middle colonies",
-    "topicLabel": "Middle colonies",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10497,14 +11021,15 @@ var APUSH_MCQ = [
       "Geographic isolation protecting local industries from competition"
     ],
     "answer": 1,
-    "explanation": "Pennsylvania's Quaker tolerance attracted diverse religious groups, including skilled German and Dutch immigrants, fostering economic growth through varied trades and commerce. Option A describes Virginia/Maryland, C contradicts Pennsylvania's relatively open trade policies, and D is geographically inaccurate."
+    "explanation": "Pennsylvania's Quaker tolerance attracted diverse religious groups, including skilled German and Dutch immigrants, fostering economic growth through varied trades and commerce. Option A describes Virginia/Maryland, C contradicts Pennsylvania's relatively open trade policies, and D is geographically inaccurate.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q146",
     "subject": "apush",
     "unit": 2,
     "topic": "indentured servitude",
-    "topicLabel": "indentured servitude",
+    "topicLabel": "2.6 Slavery in the British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10517,14 +11042,15 @@ var APUSH_MCQ = [
       "Competition from family-based farming reducing labor demand"
     ],
     "answer": 1,
-    "explanation": "Economic recovery in England after mid-17th century disruptions meant fewer people needed to indenture themselves for passage. This, combined with former servants competing for land, led planters toward slave labor. Option A is incorrect (no legal prohibitions), C misrepresents Anglican positions, and D ignores the continued high labor demand."
+    "explanation": "Economic recovery in England after mid-17th century disruptions meant fewer people needed to indenture themselves for passage. This, combined with former servants competing for land, led planters toward slave labor. Option A is incorrect (no legal prohibitions), C misrepresents Anglican positions, and D ignores the continued high labor demand.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q147",
     "subject": "apush",
     "unit": 2,
     "topic": "transatlantic slave trade",
-    "topicLabel": "transatlantic slave trade",
+    "topicLabel": "2.6 Slavery in the British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10537,14 +11063,15 @@ var APUSH_MCQ = [
       "The creation of separate colonial courts for labor disputes"
     ],
     "answer": 0,
-    "explanation": "Laws establishing that children would follow the status of their mothers created hereditary slavery, making enslaved people a more valuable long-term investment than indentured servants. Option B misrepresents conversion policies, C overstates legal requirements, and D doesn't address the slavery transition."
+    "explanation": "Laws establishing that children would follow the status of their mothers created hereditary slavery, making enslaved people a more valuable long-term investment than indentured servants. Option B misrepresents conversion policies, C overstates legal requirements, and D doesn't address the slavery transition.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q148",
     "subject": "apush",
     "unit": 2,
     "topic": "colonial society",
-    "topicLabel": "colonial society",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10557,14 +11084,15 @@ var APUSH_MCQ = [
       "Integration of immigrant populations into existing communities"
     ],
     "answer": 1,
-    "explanation": "Land availability varied dramatically by region - abundant in Pennsylvania and the backcountry but limited in established New England towns, creating different mobility patterns. Options A, C, and D, while varying somewhat by region, didn't create as fundamental differences in social advancement opportunities."
+    "explanation": "Land availability varied dramatically by region - abundant in Pennsylvania and the backcountry but limited in established New England towns, creating different mobility patterns. Options A, C, and D, while varying somewhat by region, didn't create as fundamental differences in social advancement opportunities.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q149",
     "subject": "apush",
     "unit": 2,
     "topic": "Puritan theology",
-    "topicLabel": "Puritan theology",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10577,14 +11105,15 @@ var APUSH_MCQ = [
       "Division between supporters and opponents of religious establishment"
     ],
     "answer": 0,
-    "explanation": "Predestination suggested material success might indicate divine favor, creating anxiety about whether wealth demonstrated election or dangerous pride. Option B relates to different theological debates, C wasn't the primary tension from predestination, and D addresses church-state relations rather than theological doctrine."
+    "explanation": "Predestination suggested material success might indicate divine favor, creating anxiety about whether wealth demonstrated election or dangerous pride. Option B relates to different theological debates, C wasn't the primary tension from predestination, and D addresses church-state relations rather than theological doctrine.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q150",
     "subject": "apush",
     "unit": 2,
     "topic": "mercantilism",
-    "topicLabel": "mercantilism",
+    "topicLabel": "2.4 Transatlantic Trade",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10597,14 +11126,15 @@ var APUSH_MCQ = [
       "Establish standardized weights and measures across all colonies"
     ],
     "answer": 1,
-    "explanation": "Mercantilism aimed to maximize national wealth through favorable trade balances and precious metal accumulation. The Navigation Acts directed colonial trade through England to achieve these goals. Options A, C, and D address different policy objectives not central to mercantilist economic theory."
+    "explanation": "Mercantilism aimed to maximize national wealth through favorable trade balances and precious metal accumulation. The Navigation Acts directed colonial trade through England to achieve these goals. Options A, C, and D address different policy objectives not central to mercantilist economic theory.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q151",
     "subject": "apush",
     "unit": 2,
     "topic": "triangular trade",
-    "topicLabel": "triangular trade",
+    "topicLabel": "2.4 Transatlantic Trade",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10617,14 +11147,15 @@ var APUSH_MCQ = [
       "Focusing exclusively on cod fishing and timber exports to European markets"
     ],
     "answer": 1,
-    "explanation": "New England merchants used profits from selling rum (and sometimes engaging in slave trading) to buy sugar and molasses in the Caribbean, completing profitable triangular routes. Option A misrepresents New England's limited agriculture, C understates the complexity of trade networks, and D ignores Caribbean connections."
+    "explanation": "New England merchants used profits from selling rum (and sometimes engaging in slave trading) to buy sugar and molasses in the Caribbean, completing profitable triangular routes. Option A misrepresents New England's limited agriculture, C understates the complexity of trade networks, and D ignores Caribbean connections.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q152",
     "subject": "apush",
     "unit": 2,
     "topic": "Bacon's Rebellion",
-    "topicLabel": "Bacon's Rebellion",
+    "topicLabel": "2.6 Slavery in the British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10637,14 +11168,15 @@ var APUSH_MCQ = [
       "Cultural disagreements about the role of slavery in colonial society"
     ],
     "answer": 2,
-    "explanation": "The rebellion highlighted tensions between the established Tidewater elite and backcountry settlers who felt underrepresented and unprotected from Native American conflicts. Option A misidentifies the religious composition, B overstates crop diversity, and D anachronistically projects later slavery debates."
+    "explanation": "The rebellion highlighted tensions between the established Tidewater elite and backcountry settlers who felt underrepresented and unprotected from Native American conflicts. Option A misidentifies the religious composition, B overstates crop diversity, and D anachronistically projects later slavery debates.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q153",
     "subject": "apush",
     "unit": 2,
     "topic": "Chesapeake colonies",
-    "topicLabel": "Chesapeake colonies",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10657,14 +11189,15 @@ var APUSH_MCQ = [
       "Availability of mountain valleys protected from severe weather"
     ],
     "answer": 1,
-    "explanation": "The numerous rivers flowing into Chesapeake Bay allowed ships to reach individual plantations directly, making tobacco export economically viable without major port cities. Option A overstates overland connections, C describes deep-water ports (less crucial than river access), and D misrepresents the geographic setting."
+    "explanation": "The numerous rivers flowing into Chesapeake Bay allowed ships to reach individual plantations directly, making tobacco export economically viable without major port cities. Option A overstates overland connections, C describes deep-water ports (less crucial than river access), and D misrepresents the geographic setting.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q154",
     "subject": "apush",
     "unit": 2,
     "topic": "New England colonies",
-    "topicLabel": "New England colonies",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10677,14 +11210,15 @@ var APUSH_MCQ = [
       "Establish cultural superiority over other colonial regions"
     ],
     "answer": 1,
-    "explanation": "Puritans believed individual Bible reading was essential for salvation and proper Christian living, driving their commitment to education. Option A anachronistically assumes democratic ideals, C understates religious motivations, and D misrepresents their primary educational purposes."
+    "explanation": "Puritans believed individual Bible reading was essential for salvation and proper Christian living, driving their commitment to education. Option A anachronistically assumes democratic ideals, C understates religious motivations, and D misrepresents their primary educational purposes.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q155",
     "subject": "apush",
     "unit": 2,
     "topic": "Middle colonies",
-    "topicLabel": "Middle colonies",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10697,14 +11231,15 @@ var APUSH_MCQ = [
       "Economic opportunities in fur trading that appealed to various groups"
     ],
     "answer": 1,
-    "explanation": "The Dutch had established relatively tolerant policies toward different ethnic and religious groups, and the English largely continued these practices after 1664. Option A overstates planned recruitment, C misrepresents migration patterns, and D focuses too narrowly on fur trading."
+    "explanation": "The Dutch had established relatively tolerant policies toward different ethnic and religious groups, and the English largely continued these practices after 1664. Option A overstates planned recruitment, C misrepresents migration patterns, and D focuses too narrowly on fur trading.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q156",
     "subject": "apush",
     "unit": 2,
     "topic": "indentured servitude",
-    "topicLabel": "indentured servitude",
+    "topicLabel": "2.6 Slavery in the British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10717,14 +11252,15 @@ var APUSH_MCQ = [
       "Requirements to continue working for their former masters"
     ],
     "answer": 2,
-    "explanation": "Freed servants competed with each other and new immigrants for land and jobs, often pushing them toward frontier areas or keeping them in dependent relationships. Option A is incorrect (they could legally own property), B overstates social restrictions, and D misrepresents the legal end of service obligations."
+    "explanation": "Freed servants competed with each other and new immigrants for land and jobs, often pushing them toward frontier areas or keeping them in dependent relationships. Option A is incorrect (they could legally own property), B overstates social restrictions, and D misrepresents the legal end of service obligations.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q157",
     "subject": "apush",
     "unit": 2,
     "topic": "colonial society",
-    "topicLabel": "colonial society",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10737,14 +11273,15 @@ var APUSH_MCQ = [
       "Geographic isolation from European cultural influences"
     ],
     "answer": 2,
-    "explanation": "Colonial women's roles were primarily defined by the economic demands of household production, which required their participation in manufacturing, food processing, and agricultural work. English common law (A) established legal constraints such as coverture, and religious teachings (B) reinforced expectations of female subordination, but these were secondary to the immediate economic realities of colonial life. Geographic isolation (D) overstates the degree to which colonists were cut off from European cultural norms."
+    "explanation": "Colonial women's roles were primarily defined by the economic demands of household production, which required their participation in manufacturing, food processing, and agricultural work. English common law (A) established legal constraints such as coverture, and religious teachings (B) reinforced expectations of female subordination, but these were secondary to the immediate economic realities of colonial life. Geographic isolation (D) overstates the degree to which colonists were cut off from European cultural norms.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q158",
     "subject": "apush",
     "unit": 2,
     "topic": "Puritan theology",
-    "topicLabel": "Puritan theology",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10757,14 +11294,15 @@ var APUSH_MCQ = [
       "Balancing economic prosperity versus spiritual devotion"
     ],
     "answer": 0,
-    "explanation": "The Half-Way Covenant allowed baptism for children of non-converted church members, balancing the desire to maintain conversion standards with the practical need to keep second-generation colonists connected to the church. Options B, C, and D address different theological tensions not resolved by this specific compromise."
+    "explanation": "The Half-Way Covenant allowed baptism for children of non-converted church members, balancing the desire to maintain conversion standards with the practical need to keep second-generation colonists connected to the church. Options B, C, and D address different theological tensions not resolved by this specific compromise.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q159",
     "subject": "apush",
     "unit": 2,
     "topic": "Chesapeake colonies",
-    "topicLabel": "Chesapeake colonies",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10777,14 +11315,15 @@ var APUSH_MCQ = [
       "The establishment of religious tolerance and the creation of a diversified economy based on small-scale farming"
     ],
     "answer": 1,
-    "explanation": "The correct answer is B. Virginia's economic success came from tobacco cultivation (introduced by John Rolfe) and the headright system that encouraged immigration by granting land. Choice A is incorrect because while the House of Burgesses was established in 1619, relations with Native Americans deteriorated. Choice C is wrong because no significant gold was found in Virginia. Choice D is incorrect because Virginia was Anglican, not religiously tolerant, and became economically dependent on tobacco monoculture."
+    "explanation": "The correct answer is B. Virginia's economic success came from tobacco cultivation (introduced by John Rolfe) and the headright system that encouraged immigration by granting land. Choice A is incorrect because while the House of Burgesses was established in 1619, relations with Native Americans deteriorated. Choice C is wrong because no significant gold was found in Virginia. Choice D is incorrect because Virginia was Anglican, not religiously tolerant, and became economically dependent on tobacco monoculture.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q160",
     "subject": "apush",
     "unit": 2,
     "topic": "New England colonies",
-    "topicLabel": "New England colonies",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10797,14 +11336,15 @@ var APUSH_MCQ = [
       "Established a rigid class hierarchy based on wealth and land ownership"
     ],
     "answer": 1,
-    "explanation": "The correct answer is B. The Puritan covenant community uniquely linked church membership to political participation - only 'visible saints' could vote and hold office. Choice A is incorrect because Puritans emphasized collective responsibility over individualism. Choice C is wrong because New England Puritans were intolerant of other religious groups. Choice D is incorrect because while social hierarchy existed, it was based more on religious standing and community service than purely on wealth."
+    "explanation": "The correct answer is B. The Puritan covenant community uniquely linked church membership to political participation - only 'visible saints' could vote and hold office. Choice A is incorrect because Puritans emphasized collective responsibility over individualism. Choice C is wrong because New England Puritans were intolerant of other religious groups. Choice D is incorrect because while social hierarchy existed, it was based more on religious standing and community service than purely on wealth.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q161",
     "subject": "apush",
     "unit": 2,
     "topic": "Middle colonies",
-    "topicLabel": "Middle colonies",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10817,14 +11357,15 @@ var APUSH_MCQ = [
       "Extensive fur trading relationships with Native American tribes as the primary economic base"
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. The Middle colonies were characterized by religious tolerance (Quakers, Dutch Reformed, Germans, etc.), ethnic diversity, fertile soil, and rivers like the Hudson and Delaware that facilitated trade. Choice A is incorrect because the Middle colonies used smaller farms and less slave labor than the Chesapeake. Choice B is wrong because the Middle colonies were religiously diverse, not uniform. Choice D is incorrect because while fur trading existed, agriculture and commerce were the primary economic activities."
+    "explanation": "The correct answer is C. The Middle colonies were characterized by religious tolerance (Quakers, Dutch Reformed, Germans, etc.), ethnic diversity, fertile soil, and rivers like the Hudson and Delaware that facilitated trade. Choice A is incorrect because the Middle colonies used smaller farms and less slave labor than the Chesapeake. Choice B is wrong because the Middle colonies were religiously diverse, not uniform. Choice D is incorrect because while fur trading existed, agriculture and commerce were the primary economic activities.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q162",
     "subject": "apush",
     "unit": 2,
     "topic": "indentured servitude",
-    "topicLabel": "indentured servitude",
+    "topicLabel": "2.6 Slavery in the British Colonies",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10837,14 +11378,15 @@ var APUSH_MCQ = [
       "Competition from free wage labor that proved more economically efficient than bound labor"
     ],
     "answer": 1,
-    "explanation": "The correct answer is B. Indentured servitude declined because improving economic conditions in England reduced the supply of willing servants, while planters increasingly preferred enslaved Africans who served for life and whose children were also enslaved. Choice A is incorrect because there were no laws prohibiting indentured servitude based on moral grounds. Choice C is wrong because while Bacon's Rebellion involved some servants, it didn't end the system. Choice D is incorrect because free wage labor was not widely available or preferred by planters seeking bound labor."
+    "explanation": "The correct answer is B. Indentured servitude declined because improving economic conditions in England reduced the supply of willing servants, while planters increasingly preferred enslaved Africans who served for life and whose children were also enslaved. Choice A is incorrect because there were no laws prohibiting indentured servitude based on moral grounds. Choice C is wrong because while Bacon's Rebellion involved some servants, it didn't end the system. Choice D is incorrect because free wage labor was not widely available or preferred by planters seeking bound labor.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q163",
     "subject": "apush",
     "unit": 2,
     "topic": "transatlantic slave trade",
-    "topicLabel": "transatlantic slave trade",
+    "topicLabel": "2.6 Slavery in the British Colonies",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10857,14 +11399,15 @@ var APUSH_MCQ = [
       "Portuguese traders' decision to redirect their slave trade from Brazil to the more profitable North American markets"
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. The end of the Royal African Company's monopoly in 1698 allowed private colonial merchants to enter the slave trade, dramatically increasing the supply of enslaved people to North American colonies and reducing costs. Choice A is incorrect because the monopoly actually limited supply. Choice B is wrong because Spanish demand didn't directly facilitate trade to English colonies. Choice D is incorrect because Portuguese traders continued supplying Brazil; North American expansion came from English colonial merchants entering the trade."
+    "explanation": "The correct answer is C. The end of the Royal African Company's monopoly in 1698 allowed private colonial merchants to enter the slave trade, dramatically increasing the supply of enslaved people to North American colonies and reducing costs. Choice A is incorrect because the monopoly actually limited supply. Choice B is wrong because Spanish demand didn't directly facilitate trade to English colonies. Choice D is incorrect because Portuguese traders continued supplying Brazil; North American expansion came from English colonial merchants entering the trade.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q164",
     "subject": "apush",
     "unit": 2,
     "topic": "colonial society",
-    "topicLabel": "colonial society",
+    "topicLabel": "2.3 The Regions of British Colonies",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10877,14 +11420,15 @@ var APUSH_MCQ = [
       "A merit-based system where education and individual achievement were the primary determinants of social position"
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. Colonial society was hierarchical but varied by region - New England emphasized religious standing and community service, the Chesapeake focused on land ownership and tobacco wealth, while race became increasingly important everywhere as slavery expanded. Choice A is incorrect because some mobility existed, especially for white men. Choice B is wrong because opportunities were limited by race, gender, and class. Choice D is incorrect because while education mattered in New England, birth circumstances and race were often more determinative of social position."
+    "explanation": "The correct answer is C. Colonial society was hierarchical but varied by region - New England emphasized religious standing and community service, the Chesapeake focused on land ownership and tobacco wealth, while race became increasingly important everywhere as slavery expanded. Choice A is incorrect because some mobility existed, especially for white men. Choice B is wrong because opportunities were limited by race, gender, and class. Choice D is incorrect because while education mattered in New England, birth circumstances and race were often more determinative of social position.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u2_q165",
     "subject": "apush",
     "unit": 2,
     "topic": "mercantilism",
-    "topicLabel": "mercantilism",
+    "topicLabel": "2.4 Transatlantic Trade",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -10897,14 +11441,15 @@ var APUSH_MCQ = [
       "Colonial economic independence would strengthen the overall British Empire by creating diverse trading partners"
     ],
     "answer": 2,
-    "explanation": "The correct answer is C. Mercantilism viewed economics as zero-sum competition where colonies should supply raw materials to and buy manufactured goods from the mother country, creating a favorable balance of trade for England. Choice A is incorrect because mercantilists opposed free trade, preferring protective policies. Choice B is wrong because England wanted to prevent colonial manufacturing to maintain dependence. Choice D is incorrect because mercantilists wanted colonial dependence, not independence, to ensure England's economic dominance."
+    "explanation": "The correct answer is C. Mercantilism viewed economics as zero-sum competition where colonies should supply raw materials to and buy manufactured goods from the mother country, creating a favorable balance of trade for England. Choice A is incorrect because mercantilists opposed free trade, preferring protective policies. Choice B is wrong because England wanted to prevent colonial manufacturing to maintain dependence. Choice D is incorrect because mercantilists wanted colonial dependence, not independence, to ensure England's economic dominance.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q166",
     "subject": "apush",
     "unit": 3,
     "topic": "Salutary neglect",
-    "topicLabel": "Salutary neglect",
+    "topicLabel": "2.4 Transatlantic Trade",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10917,14 +11462,15 @@ var APUSH_MCQ = [
       "Political representation in the British Parliament"
     ],
     "answer": 1,
-    "explanation": "Salutary neglect allowed colonies to develop economic independence through smuggling and trade outside official British channels, creating expectations of autonomy that were threatened when Britain later tightened control. Choice A is wrong because military alliances were limited and varied. Choice C is incorrect as religious diversity, not unity, characterized the colonies. Choice D is wrong because colonists never gained parliamentary representation."
+    "explanation": "Salutary neglect allowed colonies to develop economic independence through smuggling and trade outside official British channels, creating expectations of autonomy that were threatened when Britain later tightened control. Choice A is wrong because military alliances were limited and varied. Choice C is incorrect as religious diversity, not unity, characterized the colonies. Choice D is wrong because colonists never gained parliamentary representation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q167",
     "subject": "apush",
     "unit": 3,
     "topic": "French and Indian War",
-    "topicLabel": "French and Indian War",
+    "topicLabel": "3.2 The Seven Years War (French and Indian War)",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10937,14 +11483,15 @@ var APUSH_MCQ = [
       "Native American tribes formed new alliances against British expansion"
     ],
     "answer": 1,
-    "explanation": "Britain's massive war debt from the French and Indian War led directly to new taxes like the Sugar Act and Stamp Act, sparking colonial resistance. Choice A contributed to long-term tensions but wasn't the immediate cause of 1760s resistance. Choice C is incorrect as colonial military performance was mixed and not the primary factor. Choice D describes ongoing frontier tensions but not the main driver of organized colonial resistance to British policy."
+    "explanation": "Britain's massive war debt from the French and Indian War led directly to new taxes like the Sugar Act and Stamp Act, sparking colonial resistance. Choice A contributed to long-term tensions but wasn't the immediate cause of 1760s resistance. Choice C is incorrect as colonial military performance was mixed and not the primary factor. Choice D describes ongoing frontier tensions but not the main driver of organized colonial resistance to British policy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q168",
     "subject": "apush",
     "unit": 3,
     "topic": "Colonial resistance",
-    "topicLabel": "Colonial resistance",
+    "topicLabel": "3.3 Taxation Without Representation",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10957,14 +11504,15 @@ var APUSH_MCQ = [
       "Created alternative trade relationships with France and Spain"
     ],
     "answer": 1,
-    "explanation": "Non-importation agreements worked by hurting British merchants economically, who then pressured Parliament to repeal unpopular acts like the Stamp Act and Townshend Acts. Choice A is incorrect as these agreements often divided social classes, with some benefiting more than others. Choice C is wrong because boycotts were economic, not military demonstrations. Choice D is incorrect as the agreements focused on reducing imports, not creating new trade partnerships."
+    "explanation": "Non-importation agreements worked by hurting British merchants economically, who then pressured Parliament to repeal unpopular acts like the Stamp Act and Townshend Acts. Choice A is incorrect as these agreements often divided social classes, with some benefiting more than others. Choice C is wrong because boycotts were economic, not military demonstrations. Choice D is incorrect as the agreements focused on reducing imports, not creating new trade partnerships.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q169",
     "subject": "apush",
     "unit": 3,
     "topic": "Declaration of Independence",
-    "topicLabel": "Declaration of Independence",
+    "topicLabel": "3.5 The American Revolution",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10977,14 +11525,15 @@ var APUSH_MCQ = [
       "Propose specific terms for a negotiated settlement with Britain"
     ],
     "answer": 2,
-    "explanation": "The grievances were included to show that the colonists had tried peaceful means to address their concerns before resorting to revolution, justifying their drastic action to domestic and international audiences. Choice A is incorrect as the Declaration wasn't creating legal precedent for a future constitution. Choice B is wrong because the Declaration announced separation, not reconciliation. Choice D is incorrect as the document declared independence rather than proposing negotiated terms."
+    "explanation": "The grievances were included to show that the colonists had tried peaceful means to address their concerns before resorting to revolution, justifying their drastic action to domestic and international audiences. Choice A is incorrect as the Declaration wasn't creating legal precedent for a future constitution. Choice B is wrong because the Declaration announced separation, not reconciliation. Choice D is incorrect as the document declared independence rather than proposing negotiated terms.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q170",
     "subject": "apush",
     "unit": 3,
     "topic": "Articles of Confederation",
-    "topicLabel": "Articles of Confederation",
+    "topicLabel": "3.7 The Articles of Confederation",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -10997,14 +11546,15 @@ var APUSH_MCQ = [
       "Failure to establish a common currency for all states"
     ],
     "answer": 2,
-    "explanation": "Shays' Rebellion exposed the federal government's inability to respond to domestic unrest because it lacked executive authority and couldn't raise troops without state consent. Choice A, while a weakness, wasn't directly relevant to handling the rebellion. Choice B was a problem but not the one highlighted by Shays' Rebellion specifically. Choice D was an economic issue but not the primary weakness exposed by armed rebellion against state authority."
+    "explanation": "Shays' Rebellion exposed the federal government's inability to respond to domestic unrest because it lacked executive authority and couldn't raise troops without state consent. Choice A, while a weakness, wasn't directly relevant to handling the rebellion. Choice B was a problem but not the one highlighted by Shays' Rebellion specifically. Choice D was an economic issue but not the primary weakness exposed by armed rebellion against state authority.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q171",
     "subject": "apush",
     "unit": 3,
     "topic": "Federalist vs Anti-Federalist",
-    "topicLabel": "Federalist vs Anti-Federalist",
+    "topicLabel": "3.8 The Constitutional Convention and Debates over Ratification",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -11017,14 +11567,15 @@ var APUSH_MCQ = [
       "Restrict the federal government's power to tax individuals directly"
     ],
     "answer": 2,
-    "explanation": "The Federalists' promise to add a bill of rights directly addressed Anti-Federalist fears about individual liberties being trampled by a strong central government, leading to ratification and the first ten amendments. Choice A is incorrect as presidential term limits weren't a major Anti-Federalist concern and weren't promised. Choice B is wrong because direct election of senators wasn't proposed until much later. Choice D is incorrect as the power to tax was actually something Federalists wanted to strengthen, not restrict."
+    "explanation": "The Federalists' promise to add a bill of rights directly addressed Anti-Federalist fears about individual liberties being trampled by a strong central government, leading to ratification and the first ten amendments. Choice A is incorrect as presidential term limits weren't a major Anti-Federalist concern and weren't promised. Choice B is wrong because direct election of senators wasn't proposed until much later. Choice D is incorrect as the power to tax was actually something Federalists wanted to strengthen, not restrict.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q173",
     "subject": "apush",
     "unit": 3,
     "topic": "French and Indian War",
-    "topicLabel": "French and Indian War",
+    "topicLabel": "3.2 The Seven Years War (French and Indian War)",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11037,14 +11588,15 @@ var APUSH_MCQ = [
       "British demands for colonial military contributions and colonial assemblies' constitutional objections to standing armies"
     ],
     "answer": 1,
-    "explanation": "The Albany Plan failed because colonies needed unity against France but wouldn't give up their assemblies' power to tax to Franklin's proposed central government. Choice A focuses on expansion rather than governance structure. Choice C uses anachronistic terms. Choice D misrepresents the Plan's focus on colonial unity rather than British military demands."
+    "explanation": "The Albany Plan failed because colonies needed unity against France but wouldn't give up their assemblies' power to tax to Franklin's proposed central government. Choice A focuses on expansion rather than governance structure. Choice C uses anachronistic terms. Choice D misrepresents the Plan's focus on colonial unity rather than British military demands.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u3_q174",
     "subject": "apush",
     "unit": 3,
     "topic": "Declaration of Independence",
-    "topicLabel": "Declaration of Independence",
+    "topicLabel": "3.5 The American Revolution",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11057,14 +11609,15 @@ var APUSH_MCQ = [
       "establish precedent for a strong executive in their future government by emphasizing the importance of royal power"
     ],
     "answer": 1,
-    "explanation": "The colonists directed their grievances at King George III rather than Parliament to maintain the legal fiction that they remained loyal British subjects wronged by royal tyranny. Under English constitutional theory, Parliament was their legitimate lawmaking body — but colonists had developed the argument that Parliament had no authority over them without representation. By blaming the King instead, they framed independence as a defensive response to royal despotism rather than outright rebellion against legitimate authority, a strategically crucial distinction for both domestic morale and international credibility. Choice A is wrong because colonists were moving toward republican self-governance, not defending monarchy. Choice C overstates divine right appeals, which would have directly contradicted their natural rights arguments. Choice D misreads the Declaration as a forward-looking blueprint for executive power rather than a political justification for separation."
+    "explanation": "The colonists directed their grievances at King George III rather than Parliament to maintain the legal fiction that they remained loyal British subjects wronged by royal tyranny. Under English constitutional theory, Parliament was their legitimate lawmaking body — but colonists had developed the argument that Parliament had no authority over them without representation. By blaming the King instead, they framed independence as a defensive response to royal despotism rather than outright rebellion against legitimate authority, a strategically crucial distinction for both domestic morale and international credibility. Choice A is wrong because colonists were moving toward republican self-governance, not defending monarchy. Choice C overstates divine right appeals, which would have directly contradicted their natural rights arguments. Choice D misreads the Declaration as a forward-looking blueprint for executive power rather than a political justification for separation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q175",
     "subject": "apush",
     "unit": 4,
     "topic": "Hamilton financial plan",
-    "topicLabel": "Hamilton financial plan",
+    "topicLabel": "3.10 Shaping a New Republic",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11077,14 +11630,15 @@ var APUSH_MCQ = [
       "established a dangerous precedent for federal intervention in state affairs"
     ],
     "answer": 1,
-    "explanation": "Hamilton's assumption plan was controversial because states like Virginia had already paid off most of their Revolutionary War debts, while states like Massachusetts had not. Assumption rewarded the fiscally irresponsible states at the expense of responsible ones. Choice A is wrong because taxation powers were constitutional. Choice C reflects opposition rhetoric but wasn't the core issue. Choice D misses the specific fiscal inequity problem."
+    "explanation": "Hamilton's assumption plan was controversial because states like Virginia had already paid off most of their Revolutionary War debts, while states like Massachusetts had not. Assumption rewarded the fiscally irresponsible states at the expense of responsible ones. Choice A is wrong because taxation powers were constitutional. Choice C reflects opposition rhetoric but wasn't the core issue. Choice D misses the specific fiscal inequity problem.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q176",
     "subject": "apush",
     "unit": 4,
     "topic": "Jefferson presidency",
-    "topicLabel": "Jefferson presidency",
+    "topicLabel": "4.2 The Rise of Political Parties and the Era of Jefferson",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11097,14 +11651,15 @@ var APUSH_MCQ = [
       "established the principle of judicial review through Marbury v. Madison"
     ],
     "answer": 0,
-    "explanation": "The 'Revolution of 1800' was revolutionary because it proved democratic government could survive a peaceful transfer of power between opposing parties - a development considered unprecedented in modern republican governance at the time. Choice B is wrong because Jefferson largely preserved Hamilton's financial system, including the Bank of the United States. Choice C is incorrect because Federalists continued to contest national elections well into the 1810s and remained influential regionally. Choice D describes a significant constitutional milestone established during Jefferson's presidency, but judicial review was the result of a legal dispute - not the defining characteristic of what contemporaries and historians meant by the 'Revolution of 1800,' which specifically referred to the electoral transition of power itself."
+    "explanation": "The 'Revolution of 1800' was revolutionary because it proved democratic government could survive a peaceful transfer of power between opposing parties - a development considered unprecedented in modern republican governance at the time. Choice B is wrong because Jefferson largely preserved Hamilton's financial system, including the Bank of the United States. Choice C is incorrect because Federalists continued to contest national elections well into the 1810s and remained influential regionally. Choice D describes a significant constitutional milestone established during Jefferson's presidency, but judicial review was the result of a legal dispute - not the defining characteristic of what contemporaries and historians meant by the 'Revolution of 1800,' which specifically referred to the electoral transition of power itself.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q177",
     "subject": "apush",
     "unit": 4,
     "topic": "Louisiana Purchase",
-    "topicLabel": "Louisiana Purchase",
+    "topicLabel": "4.4 America on the World Stage",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11117,14 +11672,15 @@ var APUSH_MCQ = [
       "congressional legislation retroactively authorizing the purchase"
     ],
     "answer": 2,
-    "explanation": "Jefferson, despite his strict constructionist beliefs, resolved his constitutional concerns by embracing loose construction of treaty-making powers to justify the purchase. Choice A is wrong because no amendment was passed. Choice B is incorrect because the Court didn't rule on this. Choice D misrepresents the process - Congress approved funding but didn't retroactively authorize."
+    "explanation": "Jefferson, despite his strict constructionist beliefs, resolved his constitutional concerns by embracing loose construction of treaty-making powers to justify the purchase. Choice A is wrong because no amendment was passed. Choice B is incorrect because the Court didn't rule on this. Choice D misrepresents the process - Congress approved funding but didn't retroactively authorize.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q178",
     "subject": "apush",
     "unit": 4,
     "topic": "War of 1812",
-    "topicLabel": "War of 1812",
+    "topicLabel": "4.4 America on the World Stage",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11137,14 +11693,15 @@ var APUSH_MCQ = [
       "called for the impeachment of President Madison"
     ],
     "answer": 1,
-    "explanation": "The Hartford Convention's timing was disastrous - their grievances seemed treasonous when news of military victories and peace arrived, destroying Federalist credibility. Choice A is wrong because they didn't actually propose secession, just discussed it. Choice C misses why it was damaging. Choice D is incorrect about their specific proposals."
+    "explanation": "The Hartford Convention's timing was disastrous - their grievances seemed treasonous when news of military victories and peace arrived, destroying Federalist credibility. Choice A is wrong because they didn't actually propose secession, just discussed it. Choice C misses why it was damaging. Choice D is incorrect about their specific proposals.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q179",
     "subject": "apush",
     "unit": 4,
     "topic": "market revolution",
-    "topicLabel": "market revolution",
+    "topicLabel": "4.5 Market Revolution: Industrialization",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11157,14 +11714,15 @@ var APUSH_MCQ = [
       "the development of transportation networks linking distant markets"
     ],
     "answer": 2,
-    "explanation": "The market revolution's most fundamental change was transforming labor relationships from family/community-based production to impersonal wage labor contracts. This affected all other changes. Choices A, B, and D were important components but the shift to wage labor was the underlying transformation that enabled and characterized the market economy."
+    "explanation": "The market revolution's most fundamental change was transforming labor relationships from family/community-based production to impersonal wage labor contracts. This affected all other changes. Choices A, B, and D were important components but the shift to wage labor was the underlying transformation that enabled and characterized the market economy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q180",
     "subject": "apush",
     "unit": 4,
     "topic": "Jacksonian democracy",
-    "topicLabel": "Jacksonian democracy",
+    "topicLabel": "4.8 Jackson and Federal Power",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11177,14 +11735,15 @@ var APUSH_MCQ = [
       "concentrated dangerous power in the hands of unelected financiers"
     ],
     "answer": 3,
-    "explanation": "Jackson's bank war centered on his belief that the BUS concentrated too much undemocratic power in private hands, threatening republican government. While choice B captures class concerns, choice D better reflects his core democratic philosophy. Choice A misrepresents his view - he opposed concentrated private power, not federal power per se. Choice C wasn't his primary concern."
+    "explanation": "Jackson's bank war centered on his belief that the BUS concentrated too much undemocratic power in private hands, threatening republican government. While choice B captures class concerns, choice D better reflects his core democratic philosophy. Choice A misrepresents his view - he opposed concentrated private power, not federal power per se. Choice C wasn't his primary concern.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q181",
     "subject": "apush",
     "unit": 4,
     "topic": "Second Great Awakening",
-    "topicLabel": "Second Great Awakening",
+    "topicLabel": "4.10 The Second Great Awakening",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11197,14 +11756,15 @@ var APUSH_MCQ = [
       "appeal primarily to frontier and rural populations rather than established communities"
     ],
     "answer": 1,
-    "explanation": "The Second Great Awakening's key theological shift was toward Arminian beliefs emphasizing individual choice in salvation, rejecting Calvinist predestination that dominated the First Awakening. Choice A existed in both awakenings. Choice C describes methods, not fundamental differences. Choice D is geographically inaccurate - the Second Awakening was also strong in established areas."
+    "explanation": "The Second Great Awakening's key theological shift was toward Arminian beliefs emphasizing individual choice in salvation, rejecting Calvinist predestination that dominated the First Awakening. Choice A existed in both awakenings. Choice C describes methods, not fundamental differences. Choice D is geographically inaccurate - the Second Awakening was also strong in established areas.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q182",
     "subject": "apush",
     "unit": 4,
     "topic": "reform movements",
-    "topicLabel": "reform movements",
+    "topicLabel": "4.11 An Age of Reform",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11217,14 +11777,15 @@ var APUSH_MCQ = [
       "drawing their leadership from evangelical Protestant religious traditions"
     ],
     "answer": 1,
-    "explanation": "Antebellum reformers shared an optimistic environmental determinism - the belief that changing conditions (education, prisons, asylums, alcohol availability) could perfect society and individuals. Choice A is wrong because most avoided federal power. Choice C reverses their emphasis on systemic change. Choice D overstates evangelical dominance across all reforms."
+    "explanation": "Antebellum reformers shared an optimistic environmental determinism - the belief that changing conditions (education, prisons, asylums, alcohol availability) could perfect society and individuals. Choice A is wrong because most avoided federal power. Choice C reverses their emphasis on systemic change. Choice D overstates evangelical dominance across all reforms.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q183",
     "subject": "apush",
     "unit": 4,
     "topic": "abolitionism",
-    "topicLabel": "abolitionism",
+    "topicLabel": "4.11 An Age of Reform",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11237,14 +11798,15 @@ var APUSH_MCQ = [
       "built the first biracial coalition of antislavery activists"
     ],
     "answer": 0,
-    "explanation": "Garrison revolutionized abolitionism by demanding immediate emancipation, breaking from the gradualist colonization movement that dominated earlier antislavery efforts. Choice B is wrong - he actually rejected political action. Choice C misrepresents his pacifist philosophy. Choice D overstates his role in biracial organizing compared to his immediatist doctrine."
+    "explanation": "Garrison revolutionized abolitionism by demanding immediate emancipation, breaking from the gradualist colonization movement that dominated earlier antislavery efforts. Choice B is wrong - he actually rejected political action. Choice C misrepresents his pacifist philosophy. Choice D overstates his role in biracial organizing compared to his immediatist doctrine.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q184",
     "subject": "apush",
     "unit": 4,
     "topic": "women's rights",
-    "topicLabel": "women's rights",
+    "topicLabel": "4.11 An Age of Reform",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11257,14 +11819,15 @@ var APUSH_MCQ = [
       "successfully linked women's rights to the broader abolitionist movement"
     ],
     "answer": 2,
-    "explanation": "Seneca Falls was groundbreaking for systematically articulating women's grievances across legal, social, and political spheres in the Declaration of Sentiments. Choice A is wrong - it achieved no immediate legal changes. Choice B is incorrect - national organization came later. Choice D misses that the convention's significance was its comprehensive women's rights focus, not abolitionist links."
+    "explanation": "Seneca Falls was groundbreaking for systematically articulating women's grievances across legal, social, and political spheres in the Declaration of Sentiments. Choice A is wrong - it achieved no immediate legal changes. Choice B is incorrect - national organization came later. Choice D misses that the convention's significance was its comprehensive women's rights focus, not abolitionist links.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q185",
     "subject": "apush",
     "unit": 4,
     "topic": "Hamilton financial plan",
-    "topicLabel": "Hamilton financial plan",
+    "topicLabel": "3.10 Shaping a New Republic",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11277,14 +11840,15 @@ var APUSH_MCQ = [
       "eliminated sectional tensions between Northern and Southern economic interests"
     ],
     "answer": 1,
-    "explanation": "Hamilton's system permanently linked federal policy to commercial and financial interests through debt holders, banks, and manufacturing support. This alliance shaped American economic development. Choice A overstates federal supremacy. Choice C focuses on constitutional interpretation rather than structural economic relationships. Choice D is wrong - it actually increased sectional tensions."
+    "explanation": "Hamilton's system permanently linked federal policy to commercial and financial interests through debt holders, banks, and manufacturing support. This alliance shaped American economic development. Choice A overstates federal supremacy. Choice C focuses on constitutional interpretation rather than structural economic relationships. Choice D is wrong - it actually increased sectional tensions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q186",
     "subject": "apush",
     "unit": 4,
     "topic": "Jefferson presidency",
-    "topicLabel": "Jefferson presidency",
+    "topicLabel": "4.2 The Rise of Political Parties and the Era of Jefferson",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11297,14 +11861,15 @@ var APUSH_MCQ = [
       "was undermined by widespread smuggling and non-compliance"
     ],
     "answer": 1,
-    "explanation": "The embargo failed because Jefferson overestimated American economic independence and underestimated how much the U.S. economy depended on foreign trade, causing severe domestic economic hardship. Choice A is wrong - commerce regulation was constitutional. Choice C reverses causation. Choice D describes a symptom, not the fundamental cause of failure."
+    "explanation": "The embargo failed because Jefferson overestimated American economic independence and underestimated how much the U.S. economy depended on foreign trade, causing severe domestic economic hardship. Choice A is wrong - commerce regulation was constitutional. Choice C reverses causation. Choice D describes a symptom, not the fundamental cause of failure.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q187",
     "subject": "apush",
     "unit": 4,
     "topic": "War of 1812",
-    "topicLabel": "War of 1812",
+    "topicLabel": "4.4 America on the World Stage",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11317,14 +11882,15 @@ var APUSH_MCQ = [
       "strengthened federal authority through successful wartime mobilization"
     ],
     "answer": 1,
-    "explanation": "The war's trade disruptions forced American manufacturing development, launching industrialization. This economic transformation was the war's most significant long-term impact. Choice A overstates the result - European interference continued. Choice C is wrong - territorial issues were largely settled before 1812. Choice D misrepresents the often ineffective federal war effort."
+    "explanation": "The war's trade disruptions forced American manufacturing development, launching industrialization. This economic transformation was the war's most significant long-term impact. Choice A overstates the result - European interference continued. Choice C is wrong - territorial issues were largely settled before 1812. Choice D misrepresents the often ineffective federal war effort.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q188",
     "subject": "apush",
     "unit": 4,
     "topic": "market revolution",
-    "topicLabel": "market revolution",
+    "topicLabel": "4.5 Market Revolution: Industrialization",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11337,14 +11903,15 @@ var APUSH_MCQ = [
       "establishing legal equality between men and women in commercial law"
     ],
     "answer": 1,
-    "explanation": "The market revolution's key gender impact was separating production from homes, creating distinct 'separate spheres' - public/male and domestic/female. This ideological separation was more fundamental than specific employment changes. Choice A was important but secondary. Choice C is wrong - it changed rather than reduced women's contributions. Choice D is factually incorrect."
+    "explanation": "The market revolution's key gender impact was separating production from homes, creating distinct 'separate spheres' - public/male and domestic/female. This ideological separation was more fundamental than specific employment changes. Choice A was important but secondary. Choice C is wrong - it changed rather than reduced women's contributions. Choice D is factually incorrect.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q189",
     "subject": "apush",
     "unit": 4,
     "topic": "Jacksonian democracy",
-    "topicLabel": "Jacksonian democracy",
+    "topicLabel": "4.8 Jackson and Federal Power",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11357,14 +11924,15 @@ var APUSH_MCQ = [
       "federal employment should be distributed equally among all social classes"
     ],
     "answer": 1,
-    "explanation": "Jackson justified the spoils system through democratic theory - rotation prevented the creation of an entrenched bureaucratic aristocracy and made government more responsive to the people. Choice A contradicts the spoils system entirely. Choice C focuses on party rewards rather than democratic theory. Choice D misrepresents his class-neutral rhetoric."
+    "explanation": "Jackson justified the spoils system through democratic theory - rotation prevented the creation of an entrenched bureaucratic aristocracy and made government more responsive to the people. Choice A contradicts the spoils system entirely. Choice C focuses on party rewards rather than democratic theory. Choice D misrepresents his class-neutral rhetoric.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u4_q190",
     "subject": "apush",
     "unit": 4,
     "topic": "reform movements",
-    "topicLabel": "reform movements",
+    "topicLabel": "4.11 An Age of Reform",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11377,14 +11945,15 @@ var APUSH_MCQ = [
       "offered a solution to urban poverty and immigrant social problems"
     ],
     "answer": 0,
-    "explanation": "Temperance succeeded by linking alcohol to broader anxieties about family breakdown and economic inefficiency in the market economy. This broad appeal transcended gender and class lines. Choice B overstates women's political exclusion before temperance. Choice C is wrong - parties initially avoided the divisive issue. Choice D reflects nativist elements but wasn't the primary appeal."
+    "explanation": "Temperance succeeded by linking alcohol to broader anxieties about family breakdown and economic inefficiency in the market economy. This broad appeal transcended gender and class lines. Choice B overstates women's political exclusion before temperance. Choice C is wrong - parties initially avoided the divisive issue. Choice D reflects nativist elements but wasn't the primary appeal.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q191",
     "subject": "apush",
     "unit": 5,
     "topic": "Mexican-American War",
-    "topicLabel": "Mexican-American War",
+    "topicLabel": "5.3 The Mexican-American War",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11397,14 +11966,15 @@ var APUSH_MCQ = [
       "The fracturing of the Democratic Party over whether newly acquired Mexican territories should be open to free or slave labor"
     ],
     "answer": 0,
-    "explanation": "The Wilmot Proviso showed how sectional identity was beginning to override party loyalty, with Northern Democrats and Whigs voting together against Southern Democrats and Whigs. While Northern Whigs did critique Manifest Destiny, opposition to expansion was not the proviso's primary revelation. The proviso exposed sectional fault lines across both parties rather than solely fracturing the Democrats, and though it highlighted slavery's contradictions with expansion, the most significant political shift was the overriding of party loyalty by sectional allegiance."
+    "explanation": "The Wilmot Proviso showed how sectional identity was beginning to override party loyalty, with Northern Democrats and Whigs voting together against Southern Democrats and Whigs. While Northern Whigs did critique Manifest Destiny, opposition to expansion was not the proviso's primary revelation. The proviso exposed sectional fault lines across both parties rather than solely fracturing the Democrats, and though it highlighted slavery's contradictions with expansion, the most significant political shift was the overriding of party loyalty by sectional allegiance.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q192",
     "subject": "apush",
     "unit": 5,
     "topic": "Compromise of 1850",
-    "topicLabel": "Compromise of 1850",
+    "topicLabel": "5.4 The Compromise of 1850",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11417,14 +11987,15 @@ var APUSH_MCQ = [
       "Southern Democrats and Northern Whigs formed a permanent alliance on slavery issues"
     ],
     "answer": 2,
-    "explanation": "Douglas's success showed that different members could support different parts of the compromise - some Northerners backed California's admission but opposed the Fugitive Slave Act, while some Southerners supported the Fugitive Slave Act but opposed California's admission. This revealed the complexity of sectional politics beyond simple North-South divisions."
+    "explanation": "Douglas's success showed that different members could support different parts of the compromise - some Northerners backed California's admission but opposed the Fugitive Slave Act, while some Southerners supported the Fugitive Slave Act but opposed California's admission. This revealed the complexity of sectional politics beyond simple North-South divisions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q193",
     "subject": "apush",
     "unit": 5,
     "topic": "Lincoln-Douglas debates",
-    "topicLabel": "Lincoln-Douglas Debates",
+    "topicLabel": "5.6 Failure of Compromise",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11437,14 +12008,15 @@ var APUSH_MCQ = [
       "Expose Douglas as a secret abolitionist to his Democratic base"
     ],
     "answer": 0,
-    "explanation": "Lincoln's question was a political trap - if Douglas said territories could exclude slavery (the Freeport Doctrine), he'd alienate Southern Democrats needed for 1860; if he said they couldn't, he'd lose Illinois voters. This brilliant strategy helped fracture the Democratic Party while costing Lincoln the Senate seat."
+    "explanation": "Lincoln's question was a political trap - if Douglas said territories could exclude slavery (the Freeport Doctrine), he'd alienate Southern Democrats needed for 1860; if he said they couldn't, he'd lose Illinois voters. This brilliant strategy helped fracture the Democratic Party while costing Lincoln the Senate seat.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q194",
     "subject": "apush",
     "unit": 5,
     "topic": "secession",
-    "topicLabel": "Secession Crisis",
+    "topicLabel": "5.7 Election of 1860 and Secession",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11457,14 +12029,15 @@ var APUSH_MCQ = [
       "The constitutional framework for resolving sectional disputes had already collapsed before Lincoln took office"
     ],
     "answer": 1,
-    "explanation": "Because Deep South states seceded before Lincoln was inaugurated or enacted any policies, their actions most clearly demonstrate that secessionists were motivated by anticipated threats to slavery based on Republican ideology rather than actual policy changes. Lincoln had not yet taken any constitutional action, no economic policies had been implemented, and the constitutional framework for dispute resolution-though strained-had not formally collapsed prior to secession. The timing reveals that the driving force was political fear about slavery's future, not a response to concrete governing decisions."
+    "explanation": "Because Deep South states seceded before Lincoln was inaugurated or enacted any policies, their actions most clearly demonstrate that secessionists were motivated by anticipated threats to slavery based on Republican ideology rather than actual policy changes. Lincoln had not yet taken any constitutional action, no economic policies had been implemented, and the constitutional framework for dispute resolution-though strained-had not formally collapsed prior to secession. The timing reveals that the driving force was political fear about slavery's future, not a response to concrete governing decisions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q195",
     "subject": "apush",
     "unit": 5,
     "topic": "Civil War",
-    "topicLabel": "Civil War Origins",
+    "topicLabel": "5.5 Sectional Conflict: Regional Differences",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11477,14 +12050,15 @@ var APUSH_MCQ = [
       "Avoiding military confrontation would allow time for a negotiated settlement"
     ],
     "answer": 0,
-    "explanation": "Lincoln's careful strategy of supplying (not reinforcing) the fort put the Confederacy in the position of either allowing federal authority or firing first. By notifying South Carolina of his peaceful resupply intentions, Lincoln ensured that if the Confederacy attacked, it would bear responsibility for starting the conflict, thereby uniting Northern opinion behind the war effort. The Upper South had already shown it would secede if war began, peaceful intentions weren't the primary goal, and Lincoln had concluded negotiation had failed."
+    "explanation": "Lincoln's careful strategy of supplying (not reinforcing) the fort put the Confederacy in the position of either allowing federal authority or firing first. By notifying South Carolina of his peaceful resupply intentions, Lincoln ensured that if the Confederacy attacked, it would bear responsibility for starting the conflict, thereby uniting Northern opinion behind the war effort. The Upper South had already shown it would secede if war began, peaceful intentions weren't the primary goal, and Lincoln had concluded negotiation had failed.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q196",
     "subject": "apush",
     "unit": 5,
     "topic": "Civil War",
-    "topicLabel": "Civil War Strategy",
+    "topicLabel": "5.8 Military Conflict in the Civil War",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11497,14 +12071,15 @@ var APUSH_MCQ = [
       "The role of slavery in sustaining the war effort"
     ],
     "answer": 1,
-    "explanation": "Both strategies assumed economic pressure would work quickly - the Anaconda Plan expected rapid Southern collapse, while King Cotton diplomacy expected immediate European intervention. Both sides' determination to fight prolonged the war beyond these economic timelines. Industrial capacity and slavery were factors, but the time element was the key miscalculation for both strategies."
+    "explanation": "Both strategies assumed economic pressure would work quickly - the Anaconda Plan expected rapid Southern collapse, while King Cotton diplomacy expected immediate European intervention. Both sides' determination to fight prolonged the war beyond these economic timelines. Industrial capacity and slavery were factors, but the time element was the key miscalculation for both strategies.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q197",
     "subject": "apush",
     "unit": 5,
     "topic": "Emancipation Proclamation",
-    "topicLabel": "Emancipation Proclamation",
+    "topicLabel": "5.9 Government Policies During the Civil War",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11517,14 +12092,15 @@ var APUSH_MCQ = [
       "It focused Union military efforts on areas where slave labor supported Confederate armies"
     ],
     "answer": 0,
-    "explanation": "Lincoln's most pressing political concern was retaining the loyalty of the border states — Kentucky, Missouri, Maryland, and Delaware — which remained in the Union but had significant slaveholder populations. Losing even one to the Confederacy could have been strategically devastating. By limiting emancipation to rebelling states, Lincoln ensured border state slaveholders did not view the proclamation as a direct threat, preserving their loyalty. The war powers rationale — treating emancipation as seizure of enemy property under his authority as commander-in-chief — provided the constitutional mechanism that made this politically driven boundary legally defensible. In other words, the war powers argument explains the legal form of the limitation, but preventing border state secession was the driving political calculation behind it. Choice C was unrealistic by late 1862 as Confederate resolve had hardened. Choice D, while slave labor did support Confederate logistics, was not the primary driver of the geographic restriction."
+    "explanation": "Lincoln's most pressing political concern was retaining the loyalty of the border states — Kentucky, Missouri, Maryland, and Delaware — which remained in the Union but had significant slaveholder populations. Losing even one to the Confederacy could have been strategically devastating. By limiting emancipation to rebelling states, Lincoln ensured border state slaveholders did not view the proclamation as a direct threat, preserving their loyalty. The war powers rationale — treating emancipation as seizure of enemy property under his authority as commander-in-chief — provided the constitutional mechanism that made this politically driven boundary legally defensible. In other words, the war powers argument explains the legal form of the limitation, but preventing border state secession was the driving political calculation behind it. Choice C was unrealistic by late 1862 as Confederate resolve had hardened. Choice D, while slave labor did support Confederate logistics, was not the primary driver of the geographic restriction.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q198",
     "subject": "apush",
     "unit": 5,
     "topic": "Civil War",
-    "topicLabel": "Civil War Turning Points",
+    "topicLabel": "5.8 Military Conflict in the Civil War",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11537,14 +12113,15 @@ var APUSH_MCQ = [
       "Convincing border states Maryland and Kentucky to join the Confederacy"
     ],
     "answer": 0,
-    "explanation": "Britain and France were waiting for a Confederate victory on Union soil before recognizing Confederate independence. Antietam prevented this by stopping Lee's invasion. The 1864 election was still two years away, the battle wasn't decisive for either side, and the border states' loyalty was already established by late 1862."
+    "explanation": "Britain and France were waiting for a Confederate victory on Union soil before recognizing Confederate independence. Antietam prevented this by stopping Lee's invasion. The 1864 election was still two years away, the battle wasn't decisive for either side, and the border states' loyalty was already established by late 1862.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q199",
     "subject": "apush",
     "unit": 5,
     "topic": "Civil War",
-    "topicLabel": "Civil War Home Front",
+    "topicLabel": "5.9 Government Policies During the Civil War",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11557,14 +12134,15 @@ var APUSH_MCQ = [
       "Tension between federal authority and local community control"
     ],
     "answer": 1,
-    "explanation": "The riots showed how poor whites, especially immigrants, resented fighting a war that might free slaves who would compete for jobs, while wealthy men could buy substitutes. This exposed the contradiction between emancipation goals and class-based military service. While immigrant tensions and party politics were involved, the core issue was the class-race intersection in war aims."
+    "explanation": "The riots showed how poor whites, especially immigrants, resented fighting a war that might free slaves who would compete for jobs, while wealthy men could buy substitutes. This exposed the contradiction between emancipation goals and class-based military service. While immigrant tensions and party politics were involved, the core issue was the class-race intersection in war aims.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q200",
     "subject": "apush",
     "unit": 5,
     "topic": "Reconstruction amendments",
-    "topicLabel": "Reconstruction Amendments",
+    "topicLabel": "5.10 Reconstruction",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11577,14 +12155,15 @@ var APUSH_MCQ = [
       "Transferring primary responsibility for citizenship rights from states to federal government"
     ],
     "answer": 2,
-    "explanation": "The 14th Amendment created constitutional grounds for federal intervention when states violated individual rights, fundamentally changing federalism. The Bill of Rights wasn't applied to states until later Supreme Court decisions, federal supremacy wasn't absolute in all civil rights matters, and states retained significant roles in citizenship rights - but the federal intervention power was the key constitutional innovation."
+    "explanation": "The 14th Amendment created constitutional grounds for federal intervention when states violated individual rights, fundamentally changing federalism. The Bill of Rights wasn't applied to states until later Supreme Court decisions, federal supremacy wasn't absolute in all civil rights matters, and states retained significant roles in citizenship rights - but the federal intervention power was the key constitutional innovation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q201",
     "subject": "apush",
     "unit": 5,
     "topic": "Reconstruction amendments",
-    "topicLabel": "Fifteenth Amendment",
+    "topicLabel": "5.10 Reconstruction",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11597,14 +12176,15 @@ var APUSH_MCQ = [
       "Arguments that only former slaves, not all African Americans, deserved voting rights"
     ],
     "answer": 0,
-    "explanation": "The Fifteenth Amendment's enumeration of 'race, color, or previous condition of servitude' deliberately omitted 'sex,' and this omission was the most explicitly documented political controversy surrounding the amendment. Elizabeth Cady Stanton, Susan B. Anthony, and other suffragists who had allied with abolitionists throughout the war bitterly opposed the amendment's narrow language, viewing it as a betrayal after decades of shared activism — it fractured the suffrage movement for a generation. The specific wording also avoided language that would challenge property or literacy qualifications affecting white voters, which is the AP focus of choice A — Republican framers were careful not to accidentally invalidate existing restrictions on white voting while extending the franchise to Black men. Both concerns shaped the language, but the women's suffrage exclusion was the loudest and most historically documented controversy of the ratification debate."
+    "explanation": "The Fifteenth Amendment's enumeration of 'race, color, or previous condition of servitude' deliberately omitted 'sex,' and this omission was the most explicitly documented political controversy surrounding the amendment. Elizabeth Cady Stanton, Susan B. Anthony, and other suffragists who had allied with abolitionists throughout the war bitterly opposed the amendment's narrow language, viewing it as a betrayal after decades of shared activism — it fractured the suffrage movement for a generation. The specific wording also avoided language that would challenge property or literacy qualifications affecting white voters, which is the AP focus of choice A — Republican framers were careful not to accidentally invalidate existing restrictions on white voting while extending the franchise to Black men. Both concerns shaped the language, but the women's suffrage exclusion was the loudest and most historically documented controversy of the ratification debate.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q202",
     "subject": "apush",
     "unit": 5,
     "topic": "Reconstruction amendments",
-    "topicLabel": "Reconstruction Implementation",
+    "topicLabel": "5.10 Reconstruction",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11617,14 +12197,15 @@ var APUSH_MCQ = [
       "Supreme Court's reduced role in interpreting constitutional amendments"
     ],
     "answer": 0,
-    "explanation": "These enforcement clauses were the first explicit constitutional grants of congressional power to protect individual rights against state violation. While they affected federalism, they didn't create general federal override authority. They enabled but didn't require congressional action, and didn't reduce Supreme Court interpretive authority."
+    "explanation": "These enforcement clauses were the first explicit constitutional grants of congressional power to protect individual rights against state violation. While they affected federalism, they didn't create general federal override authority. They enabled but didn't require congressional action, and didn't reduce Supreme Court interpretive authority.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q203",
     "subject": "apush",
     "unit": 5,
     "topic": "Reconstruction amendments",
-    "topicLabel": "Congressional Reconstruction",
+    "topicLabel": "5.10 Reconstruction",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11637,14 +12218,15 @@ var APUSH_MCQ = [
       "Amendment ratification could be required for restoration of congressional representation"
     ],
     "answer": 3,
-    "explanation": "The precedent established was linking amendment ratification to congressional representation, not statehood (these states were considered still in the Union). Congress didn't exclude state legislatures from ratifying, and while military authority was used for broader Reconstruction, the specific constitutional precedent was the representation-ratification connection."
+    "explanation": "The precedent established was linking amendment ratification to congressional representation, not statehood (these states were considered still in the Union). Congress didn't exclude state legislatures from ratifying, and while military authority was used for broader Reconstruction, the specific constitutional precedent was the representation-ratification connection.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q204",
     "subject": "apush",
     "unit": 5,
     "topic": "Reconstruction amendments",
-    "topicLabel": "Reconstruction Resistance",
+    "topicLabel": "5.11 Failure of Reconstruction",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11657,14 +12239,15 @@ var APUSH_MCQ = [
       "Educational opportunities that would develop African American leadership"
     ],
     "answer": 1,
-    "explanation": "While all these were concerns, the KKK's violence was most strategically directed at preventing Republican political coalitions of African Americans and white allies from maintaining control of Southern state governments. This political control was the key to all other changes. Economic, military, and educational issues were important but secondary to the immediate political threat."
+    "explanation": "While all these were concerns, the KKK's violence was most strategically directed at preventing Republican political coalitions of African Americans and white allies from maintaining control of Southern state governments. This political control was the key to all other changes. Economic, military, and educational issues were important but secondary to the immediate political threat.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u5_q205",
     "subject": "apush",
     "unit": 5,
     "topic": "Compromise of 1877",
-    "topicLabel": "Compromise of 1877",
+    "topicLabel": "5.12 Controversies over Reconstruction",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11677,14 +12260,15 @@ var APUSH_MCQ = [
       "Amendment provisions were officially suspended until Southern states demonstrated compliance"
     ],
     "answer": 1,
-    "explanation": "The Compromise left the amendments constitutionally intact but removed the federal enforcement capacity that made them effective, creating a gap between constitutional rights and practical protection. States didn't gain independent interpretive authority, Supreme Court precedents were actually weakening civil rights, and amendments weren't formally suspended - the enforcement gap was the key issue."
+    "explanation": "The Compromise left the amendments constitutionally intact but removed the federal enforcement capacity that made them effective, creating a gap between constitutional rights and practical protection. States didn't gain independent interpretive authority, Supreme Court precedents were actually weakening civil rights, and amendments weren't formally suspended - the enforcement gap was the key issue.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q206",
     "subject": "apush",
     "unit": 6,
     "topic": "transcontinental railroad",
-    "topicLabel": "Transcontinental Railroad",
+    "topicLabel": "6.2 Westward Expansion: Economic Development",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -11697,14 +12281,15 @@ var APUSH_MCQ = [
       "The growth of the fur trading industry"
     ],
     "answer": 1,
-    "explanation": "The transcontinental railroad most directly enabled the rapid expansion of commercial agriculture and mining by providing efficient transportation to move crops and minerals to eastern markets. While cattle ranching did grow, it was less directly connected to the railroad's completion. Manufacturing in California developed later, and the fur trade had already declined by 1869."
+    "explanation": "The transcontinental railroad most directly enabled the rapid expansion of commercial agriculture and mining by providing efficient transportation to move crops and minerals to eastern markets. While cattle ranching did grow, it was less directly connected to the railroad's completion. Manufacturing in California developed later, and the fur trade had already declined by 1869.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q207",
     "subject": "apush",
     "unit": 6,
     "topic": "robber barons",
-    "topicLabel": "Robber Barons",
+    "topicLabel": "6.6 The Rise of Industrial Capitalism",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -11717,14 +12302,15 @@ var APUSH_MCQ = [
       "Refusing to expand operations beyond regional markets"
     ],
     "answer": 1,
-    "explanation": "Critics called these men 'robber barons' primarily because they formed monopolies and trusts that eliminated competition and allowed them to control prices. They were not criticized for paying high wages or investing in safety - quite the opposite. They also aggressively expanded nationally, not regionally."
+    "explanation": "Critics called these men 'robber barons' primarily because they formed monopolies and trusts that eliminated competition and allowed them to control prices. They were not criticized for paying high wages or investing in safety - quite the opposite. They also aggressively expanded nationally, not regionally.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q208",
     "subject": "apush",
     "unit": 6,
     "topic": "vertical integration",
-    "topicLabel": "Vertical Integration",
+    "topicLabel": "6.6 The Rise of Industrial Capitalism",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -11737,14 +12323,15 @@ var APUSH_MCQ = [
       "Exclusively the retail distribution of finished steel goods"
     ],
     "answer": 1,
-    "explanation": "Carnegie practiced vertical integration by controlling every stage of steel production from raw materials (iron ore mines, coal mines) through transportation (railroads, ships) to manufacturing (steel mills). Option A describes horizontal integration, while C and D describe only controlling final stages, not vertical integration."
+    "explanation": "Carnegie practiced vertical integration by controlling every stage of steel production from raw materials (iron ore mines, coal mines) through transportation (railroads, ships) to manufacturing (steel mills). Option A describes horizontal integration, while C and D describe only controlling final stages, not vertical integration.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q209",
     "subject": "apush",
     "unit": 6,
     "topic": "labor unions",
-    "topicLabel": "Labor Unions",
+    "topicLabel": "6.7 Labor in the Gilded Age",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -11757,14 +12344,15 @@ var APUSH_MCQ = [
       "Workers' preference for individual rather than collective bargaining"
     ],
     "answer": 1,
-    "explanation": "The Homestead Strike showed how government (state militia) and business (Carnegie Steel/Frick) worked together to break strikes and suppress unions. There was significant worker interest in unions, union leaders did attempt negotiations, and workers clearly supported collective action as evidenced by the strike itself."
+    "explanation": "The Homestead Strike showed how government (state militia) and business (Carnegie Steel/Frick) worked together to break strikes and suppress unions. There was significant worker interest in unions, union leaders did attempt negotiations, and workers clearly supported collective action as evidenced by the strike itself.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q210",
     "subject": "apush",
     "unit": 6,
     "topic": "immigration waves",
-    "topicLabel": "Immigration Waves",
+    "topicLabel": "6.8 Immigration and Migration in the Gilded Age",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -11777,14 +12365,15 @@ var APUSH_MCQ = [
       "Latin America and the Caribbean"
     ],
     "answer": 1,
-    "explanation": "The 'New Immigration' (1880s-1920s) was characterized by large numbers of immigrants from Southern and Eastern Europe (Italians, Poles, Russians, etc.), contrasting with earlier 'Old Immigration' from Western and Northern Europe. While some Asian immigration occurred, it was much smaller in numbers and faced severe restrictions."
+    "explanation": "The 'New Immigration' (1880s-1920s) was characterized by large numbers of immigrants from Southern and Eastern Europe (Italians, Poles, Russians, etc.), contrasting with earlier 'Old Immigration' from Western and Northern Europe. While some Asian immigration occurred, it was much smaller in numbers and faced severe restrictions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q211",
     "subject": "apush",
     "unit": 6,
     "topic": "urbanization",
-    "topicLabel": "Urbanization",
+    "topicLabel": "6.8 Immigration and Migration in the Gilded Age",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -11797,14 +12386,15 @@ var APUSH_MCQ = [
       "Declining agricultural productivity forcing farm abandonment"
     ],
     "answer": 1,
-    "explanation": "Industrial job opportunities were the primary magnet drawing both rural Americans and immigrants to cities. While agricultural changes played a role, it wasn't declining productivity but rather mechanization that reduced farm labor needs. Government programs and infrastructure improvements were responses to, not causes of, urban growth."
+    "explanation": "Industrial job opportunities were the primary magnet drawing both rural Americans and immigrants to cities. While agricultural changes played a role, it wasn't declining productivity but rather mechanization that reduced farm labor needs. Government programs and infrastructure improvements were responses to, not causes of, urban growth.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q212",
     "subject": "apush",
     "unit": 6,
     "topic": "gold vs silver debate",
-    "topicLabel": "Gold vs Silver Debate",
+    "topicLabel": "6.12 Controversies over the Role of Government in the Gilded Age",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -11817,14 +12407,15 @@ var APUSH_MCQ = [
       "Increased demand for agricultural exports"
     ],
     "answer": 1,
-    "explanation": "Free silver supporters believed increasing the money supply through silver coinage would cause inflation, making their fixed debts easier to repay with cheaper dollars. They opposed deflation (which hurt debtors), and while lower interest rates might result, the primary goal was inflating the currency to help with existing debt burdens."
+    "explanation": "Free silver supporters believed increasing the money supply through silver coinage would cause inflation, making their fixed debts easier to repay with cheaper dollars. They opposed deflation (which hurt debtors), and while lower interest rates might result, the primary goal was inflating the currency to help with existing debt burdens.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q213",
     "subject": "apush",
     "unit": 6,
     "topic": "Gilded Age industry",
-    "topicLabel": "Gilded Age industry",
+    "topicLabel": "6.6 The Rise of Industrial Capitalism",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11837,14 +12428,15 @@ var APUSH_MCQ = [
       "The development of a national banking system that provided stable currency and credit"
     ],
     "answer": 0,
-    "explanation": "Industrial growth resulted from the convergence of multiple factors: new technologies (steel, electricity), abundant resources (coal, iron ore), and massive capital from Civil War profiteering that funded expansion. Choice B is incorrect as scientific management came later in the early twentieth century. Choice C is wrong because most immigrants were unskilled laborers. Choice D, while important, was insufficient alone to explain such dramatic growth."
+    "explanation": "Industrial growth resulted from the convergence of multiple factors: new technologies (steel, electricity), abundant resources (coal, iron ore), and massive capital from Civil War profiteering that funded expansion. Choice B is incorrect as scientific management came later in the early twentieth century. Choice C is wrong because most immigrants were unskilled laborers. Choice D, while important, was insufficient alone to explain such dramatic growth.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q214",
     "subject": "apush",
     "unit": 6,
     "topic": "robber barons",
-    "topicLabel": "robber barons",
+    "topicLabel": "6.6 The Rise of Industrial Capitalism",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11857,14 +12449,15 @@ var APUSH_MCQ = [
       "Respect for self-made men versus criticism of inherited wealth"
     ],
     "answer": 0,
-    "explanation": "Americans simultaneously celebrated individual achievement and wealth accumulation while fearing the monopolistic power these same individuals wielded over the economy. Choice B is incorrect because most Americans still opposed regulation. Choice C misses the core issue of economic power concentration. Choice D is wrong because most robber barons were self-made, not inheritors."
+    "explanation": "Americans simultaneously celebrated individual achievement and wealth accumulation while fearing the monopolistic power these same individuals wielded over the economy. Choice B is incorrect because most Americans still opposed regulation. Choice C misses the core issue of economic power concentration. Choice D is wrong because most robber barons were self-made, not inheritors.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q215",
     "subject": "apush",
     "unit": 6,
     "topic": "horizontal integration",
-    "topicLabel": "horizontal integration",
+    "topicLabel": "6.6 The Rise of Industrial Capitalism",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11877,14 +12470,15 @@ var APUSH_MCQ = [
       "Philip Armour's expansion from meatpacking into grain trading and banking"
     ],
     "answer": 2,
-    "explanation": "Both Rockefeller's oil consolidation and Morgan's railroad consolidation involved buying out competitors in the same industry to eliminate competition. Choice A describes vertical integration (Carnegie). Choice B describes coordination, not consolidation. Choice D describes diversification into different industries, not horizontal integration within one industry."
+    "explanation": "Both Rockefeller's oil consolidation and Morgan's railroad consolidation involved buying out competitors in the same industry to eliminate competition. Choice A describes vertical integration (Carnegie). Choice B describes coordination, not consolidation. Choice D describes diversification into different industries, not horizontal integration within one industry.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q216",
     "subject": "apush",
     "unit": 6,
     "topic": "vertical integration",
-    "topicLabel": "vertical integration",
+    "topicLabel": "6.6 The Rise of Industrial Capitalism",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11897,14 +12491,15 @@ var APUSH_MCQ = [
       "Concentrating ownership to prevent stock market speculation"
     ],
     "answer": 0,
-    "explanation": "Vertical integration's key innovation was controlling every stage of production to eliminate reliance on outside companies, reducing costs and ensuring quality control. Choice B describes horizontal integration's scale benefits. Choice C focuses on labor rather than supply chain control. Choice D misunderstands the purpose, which was operational control, not preventing speculation."
+    "explanation": "Vertical integration's key innovation was controlling every stage of production to eliminate reliance on outside companies, reducing costs and ensuring quality control. Choice B describes horizontal integration's scale benefits. Choice C focuses on labor rather than supply chain control. Choice D misunderstands the purpose, which was operational control, not preventing speculation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q217",
     "subject": "apush",
     "unit": 6,
     "topic": "labor unions",
-    "topicLabel": "labor unions",
+    "topicLabel": "6.7 Labor in the Gilded Age",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11917,14 +12512,15 @@ var APUSH_MCQ = [
       "From violent confrontation tactics toward peaceful negotiation and arbitration"
     ],
     "answer": 1,
-    "explanation": "The Knights of Labor included all workers regardless of skill, while the AFL organized skilled craftsmen into separate unions, reflecting a shift from inclusive to exclusive organizing strategies. Choice A is incorrect because the Knights weren't socialist. Choice C is backwards - the AFL was less political than the Knights. Choice D oversimplifies both organizations' tactical approaches."
+    "explanation": "The Knights of Labor included all workers regardless of skill, while the AFL organized skilled craftsmen into separate unions, reflecting a shift from inclusive to exclusive organizing strategies. Choice A is incorrect because the Knights weren't socialist. Choice C is backwards - the AFL was less political than the Knights. Choice D oversimplifies both organizations' tactical approaches.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q218",
     "subject": "apush",
     "unit": 6,
     "topic": "immigration waves",
-    "topicLabel": "immigration waves",
+    "topicLabel": "6.8 Immigration and Migration in the Gilded Age",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11937,14 +12533,15 @@ var APUSH_MCQ = [
       "Labor unions recruited new immigrants while established workers demanded immigration restrictions"
     ],
     "answer": 1,
-    "explanation": "Political machines like Tammany Hall both used ethnic rivalries to maintain control and built coalitions across ethnic lines to win elections, creating a complex dynamic of division and unity. Choice A is incorrect because earlier immigrants generally supported restrictions. Choice C oversimplifies religious alliances. Choice D misses the political machine's central role in urban immigrant politics."
+    "explanation": "Political machines like Tammany Hall both used ethnic rivalries to maintain control and built coalitions across ethnic lines to win elections, creating a complex dynamic of division and unity. Choice A is incorrect because earlier immigrants generally supported restrictions. Choice C oversimplifies religious alliances. Choice D misses the political machine's central role in urban immigrant politics.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u6_q219",
     "subject": "apush",
     "unit": 6,
     "topic": "gold vs silver debate",
-    "topicLabel": "gold vs silver debate",
+    "topicLabel": "6.12 Controversies over the Role of Government in the Gilded Age",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11957,14 +12554,15 @@ var APUSH_MCQ = [
       "Whether regional economic differences required different monetary systems or national uniformity was essential"
     ],
     "answer": 1,
-    "explanation": "The gold standard favored creditors (who were repaid in valuable currency) and international stability, while silver inflation favored debtors (easier repayment) and domestic producers (competitive exports). Choice A mischaracterizes the debate as government vs. market rather than whose interests to serve. Choice C focuses on outcomes rather than the underlying class/sectional interests. Choice D wasn't about regional systems but national policy serving different groups."
+    "explanation": "The gold standard favored creditors (who were repaid in valuable currency) and international stability, while silver inflation favored debtors (easier repayment) and domestic producers (competitive exports). Choice A mischaracterizes the debate as government vs. market rather than whose interests to serve. Choice C focuses on outcomes rather than the underlying class/sectional interests. Choice D wasn't about regional systems but national policy serving different groups.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u7_q220",
     "subject": "apush",
     "unit": 7,
     "topic": "New Deal programs",
-    "topicLabel": "New Deal programs",
+    "topicLabel": "7.10 New Deal Policies",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -11977,14 +12575,15 @@ var APUSH_MCQ = [
       "Opposition to deficit spending based on constitutional requirements for balanced federal budgets"
     ],
     "answer": 0,
-    "explanation": "The correct answer is A. The Court's pre-1937 decisions struck down New Deal programs primarily because they interpreted the Commerce Clause narrowly, distinguishing between direct effects on interstate commerce (which Congress could regulate) and indirect effects (which it could not). The 1937 'switch in time that saved nine' fundamentally changed this by adopting a broader interpretation that allowed regulation of activities affecting interstate commerce. B is incorrect because the delegation doctrine, while relevant, was not the primary constitutional barrier. C misrepresents the Tenth Amendment issues involved. D is wrong because there are no constitutional balanced budget requirements."
+    "explanation": "The correct answer is A. The Court's pre-1937 decisions struck down New Deal programs primarily because they interpreted the Commerce Clause narrowly, distinguishing between direct effects on interstate commerce (which Congress could regulate) and indirect effects (which it could not). The 1937 'switch in time that saved nine' fundamentally changed this by adopting a broader interpretation that allowed regulation of activities affecting interstate commerce. B is incorrect because the delegation doctrine, while relevant, was not the primary constitutional barrier. C misrepresents the Tenth Amendment issues involved. D is wrong because there are no constitutional balanced budget requirements.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q221",
     "subject": "apush",
     "unit": 8,
     "topic": "Marshall Plan",
-    "topicLabel": "Marshall Plan",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -11997,14 +12596,15 @@ var APUSH_MCQ = [
       "Focused exclusively on rebuilding Germany's industrial capacity"
     ],
     "answer": 1,
-    "explanation": "The Marshall Plan required European nations to work together and coordinate their reconstruction efforts, marking a shift toward multilateral cooperation. Choice A is incorrect because the Marshall Plan was economic aid, not military (that was NATO). Choice C is wrong because it was administered by the U.S., not the UN. Choice D is incorrect because it aided multiple Western European nations, not just Germany."
+    "explanation": "The Marshall Plan required European nations to work together and coordinate their reconstruction efforts, marking a shift toward multilateral cooperation. Choice A is incorrect because the Marshall Plan was economic aid, not military (that was NATO). Choice C is wrong because it was administered by the U.S., not the UN. Choice D is incorrect because it aided multiple Western European nations, not just Germany.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q222",
     "subject": "apush",
     "unit": 8,
     "topic": "Brown v Board",
-    "topicLabel": "Brown v Board",
+    "topicLabel": "8.6 Early Steps in the Civil Rights Movement (1940s and 1950s)",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12017,14 +12617,15 @@ var APUSH_MCQ = [
       "Required immediate integration of all public facilities"
     ],
     "answer": 0,
-    "explanation": "Brown overturned the 'separate but equal' doctrine by declaring that segregated facilities were inherently unequal, directly contradicting Plessy v. Ferguson (1896). Choice B is incorrect because Brown dealt with public schools, not private businesses. Choice C refers to later voting rights legislation. Choice D is wrong because Brown called for integration 'with all deliberate speed,' not immediately, and applied specifically to schools."
+    "explanation": "Brown overturned the 'separate but equal' doctrine by declaring that segregated facilities were inherently unequal, directly contradicting Plessy v. Ferguson (1896). Choice B is incorrect because Brown dealt with public schools, not private businesses. Choice C refers to later voting rights legislation. Choice D is wrong because Brown called for integration 'with all deliberate speed,' not immediately, and applied specifically to schools.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q223",
     "subject": "apush",
     "unit": 8,
     "topic": "Cuban Missile Crisis",
-    "topicLabel": "Cuban Missile Crisis",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12037,14 +12638,15 @@ var APUSH_MCQ = [
       "Rollback of Soviet influence in the Western Hemisphere"
     ],
     "answer": 1,
-    "explanation": "Kennedy used flexible response, employing a naval quarantine as a middle option between diplomacy and military invasion, showing graduated escalation. Choice A (massive retaliation) was Eisenhower's strategy that Kennedy rejected. Choice C (détente) was Nixon's later policy. Choice D is incorrect because Kennedy ultimately accepted Soviet presence in Cuba in exchange for missile removal."
+    "explanation": "Kennedy used flexible response, employing a naval quarantine as a middle option between diplomacy and military invasion, showing graduated escalation. Choice A (massive retaliation) was Eisenhower's strategy that Kennedy rejected. Choice C (détente) was Nixon's later policy. Choice D is incorrect because Kennedy ultimately accepted Soviet presence in Cuba in exchange for missile removal.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q224",
     "subject": "apush",
     "unit": 8,
     "topic": "Cold War origins",
-    "topicLabel": "Cold War origins",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12057,14 +12659,15 @@ var APUSH_MCQ = [
       "Roosevelt's rejection of spheres of influence contradicted Churchill's imperial goals"
     ],
     "answer": 2,
-    "explanation": "The Yalta agreements used vague language about 'democratic' governments in Eastern Europe, which allowed Stalin to claim Soviet puppet states were legitimate while the West saw them as violations. A is wrong because Stalin did agree to enter the Pacific war. B is wrong because atomic sharing wasn't discussed at Yalta. D is wrong because Roosevelt actually accepted some sphere of influence concepts."
+    "explanation": "The Yalta agreements used vague language about 'democratic' governments in Eastern Europe, which allowed Stalin to claim Soviet puppet states were legitimate while the West saw them as violations. A is wrong because Stalin did agree to enter the Pacific war. B is wrong because atomic sharing wasn't discussed at Yalta. D is wrong because Roosevelt actually accepted some sphere of influence concepts.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q225",
     "subject": "apush",
     "unit": 8,
     "topic": "containment policy",
-    "topicLabel": "containment policy",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12077,14 +12680,15 @@ var APUSH_MCQ = [
       "It ignored the threat of communist expansion in Western Europe"
     ],
     "answer": 0,
-    "explanation": "Kennan advocated for selective containment focused on key industrial areas like Western Europe and Japan, but policymakers applied it globally and militarily everywhere. B is wrong because Kennan did consider Soviet capabilities. C is wrong because he actually supported economic measures. D is wrong because Western Europe was exactly where he wanted to focus containment efforts."
+    "explanation": "Kennan advocated for selective containment focused on key industrial areas like Western Europe and Japan, but policymakers applied it globally and militarily everywhere. B is wrong because Kennan did consider Soviet capabilities. C is wrong because he actually supported economic measures. D is wrong because Western Europe was exactly where he wanted to focus containment efforts.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q226",
     "subject": "apush",
     "unit": 8,
     "topic": "Truman Doctrine",
-    "topicLabel": "Truman Doctrine",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12097,14 +12701,15 @@ var APUSH_MCQ = [
       "Rejected the wartime alliance system in favor of ideological competition"
     ],
     "answer": 2,
-    "explanation": "The Truman Doctrine expanded US commitments globally based on ideological grounds, moving beyond traditional hemispheric focus or responses to direct attacks. A is wrong because it didn't commit to military action everywhere. B is wrong because the US still worked through the UN when possible. D is wrong because it was a response to alliance breakdown, not a rejection of alliances themselves."
+    "explanation": "The Truman Doctrine expanded US commitments globally based on ideological grounds, moving beyond traditional hemispheric focus or responses to direct attacks. A is wrong because it didn't commit to military action everywhere. B is wrong because the US still worked through the UN when possible. D is wrong because it was a response to alliance breakdown, not a rejection of alliances themselves.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q227",
     "subject": "apush",
     "unit": 8,
     "topic": "Marshall Plan",
-    "topicLabel": "Marshall Plan",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12117,14 +12722,15 @@ var APUSH_MCQ = [
       "Guaranteeing American control over European industrial production"
     ],
     "answer": 1,
-    "explanation": "The Marshall Plan promoted European integration to create strong markets for US goods while building Western European strength against communism - serving both economic and strategic goals. A is wrong because this was economic, not military policy. C is wrong because the US actively encouraged European economic integration. D is wrong because Americans wanted European recovery, not control of their production."
+    "explanation": "The Marshall Plan promoted European integration to create strong markets for US goods while building Western European strength against communism - serving both economic and strategic goals. A is wrong because this was economic, not military policy. C is wrong because the US actively encouraged European economic integration. D is wrong because Americans wanted European recovery, not control of their production.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q228",
     "subject": "apush",
     "unit": 8,
     "topic": "McCarthyism",
-    "topicLabel": "McCarthyism",
+    "topicLabel": "8.3 The Red Scare",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12137,14 +12743,15 @@ var APUSH_MCQ = [
       "The signing of a Korean armistice eliminated public anxiety about communist threats, removing the basis for McCarthy's appeals"
     ],
     "answer": 1,
-    "explanation": "The Army-McCarthy hearings in 1954 were broadcast live on television, allowing millions of Americans to witness McCarthy's intimidating and reckless tactics firsthand. Attorney Joseph Welch's famous rebuke - 'Have you no sense of decency?' - crystallized public disillusionment. A is incorrect because Eisenhower deliberately avoided direct public confrontation with McCarthy. C is incorrect because no such legislation was passed; the Senate voted to censure McCarthy personally, not McCarthyism as a movement. D is incorrect because the Korean armistice was signed in 1953 and anti-communist fears persisted well beyond that point."
+    "explanation": "The Army-McCarthy hearings in 1954 were broadcast live on television, allowing millions of Americans to witness McCarthy's intimidating and reckless tactics firsthand. Attorney Joseph Welch's famous rebuke - 'Have you no sense of decency?' - crystallized public disillusionment. A is incorrect because Eisenhower deliberately avoided direct public confrontation with McCarthy. C is incorrect because no such legislation was passed; the Senate voted to censure McCarthy personally, not McCarthyism as a movement. D is incorrect because the Korean armistice was signed in 1953 and anti-communist fears persisted well beyond that point.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q229",
     "subject": "apush",
     "unit": 8,
     "topic": "Cuban Missile Crisis",
-    "topicLabel": "Cuban Missile Crisis",
+    "topicLabel": "8.2 The Cold War from 1945 to 1980",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12157,14 +12764,15 @@ var APUSH_MCQ = [
       "The failure of traditional diplomacy in the nuclear age"
     ],
     "answer": 1,
-    "explanation": "Both sides made concessions (US missiles out of Turkey, Soviet missiles out of Cuba) but structured the deal so each could claim victory publicly, essential for future superpower relations. A is wrong because Kennedy appeared strong publicly. C is wrong because both sides managed the crisis effectively. D is wrong because traditional diplomacy actually worked to prevent war."
+    "explanation": "Both sides made concessions (US missiles out of Turkey, Soviet missiles out of Cuba) but structured the deal so each could claim victory publicly, essential for future superpower relations. A is wrong because Kennedy appeared strong publicly. C is wrong because both sides managed the crisis effectively. D is wrong because traditional diplomacy actually worked to prevent war.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q230",
     "subject": "apush",
     "unit": 8,
     "topic": "Brown v Board",
-    "topicLabel": "Brown v Board",
+    "topicLabel": "8.6 Early Steps in the Civil Rights Movement (1940s and 1950s)",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12177,14 +12785,15 @@ var APUSH_MCQ = [
       "Rejected the doctrine of states' rights in educational policy"
     ],
     "answer": 2,
-    "explanation": "The Court used modern psychological research (like the doll tests) to argue that 'separate but equal' was inherently unequal, showing how constitutional principles could be reinterpreted with new evidence. A is wrong because the Court built on precedent while extending it. B is wrong because the 14th Amendment had been applied to segregation before (just upheld it). D is wrong because the decision was about equal protection, not states' rights per se."
+    "explanation": "The Court used modern psychological research (like the doll tests) to argue that 'separate but equal' was inherently unequal, showing how constitutional principles could be reinterpreted with new evidence. A is wrong because the Court built on precedent while extending it. B is wrong because the 14th Amendment had been applied to segregation before (just upheld it). D is wrong because the decision was about equal protection, not states' rights per se.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q231",
     "subject": "apush",
     "unit": 8,
     "topic": "Civil Rights Act 1964",
-    "topicLabel": "Civil Rights Act 1964",
+    "topicLabel": "8.7 The Civil Rights Movement Intensifies (1960s)",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12197,14 +12806,15 @@ var APUSH_MCQ = [
       "The Act's focus on economic discrimination rather than social segregation"
     ],
     "answer": 1,
-    "explanation": "Congress used the Commerce Clause because Supreme Court precedent made federal regulation of interstate commerce more secure than relying on 14th Amendment enforcement, which had been inconsistently applied. A is wrong because both clauses involve federal power over states. C is wrong because this wasn't about amendments but constitutional interpretation. D is wrong because the Act addressed both economic and social discrimination."
+    "explanation": "Congress used the Commerce Clause because Supreme Court precedent made federal regulation of interstate commerce more secure than relying on 14th Amendment enforcement, which had been inconsistently applied. A is wrong because both clauses involve federal power over states. C is wrong because this wasn't about amendments but constitutional interpretation. D is wrong because the Act addressed both economic and social discrimination.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q232",
     "subject": "apush",
     "unit": 8,
     "topic": "Voting Rights Act 1965",
-    "topicLabel": "Voting Rights Act 1965",
+    "topicLabel": "8.7 The Civil Rights Movement Intensifies (1960s)",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12217,14 +12827,15 @@ var APUSH_MCQ = [
       "Required constitutional amendments to change voting procedures"
     ],
     "answer": 0,
-    "explanation": "Preclearance targeted states with histories of discrimination, creating different federal oversight levels based on past practices - a novel approach to federalism. B is wrong because it only applied to certain states. C is wrong because states still administered elections, just with federal oversight. D is wrong because it regulated statutory changes, not constitutional amendments."
+    "explanation": "Preclearance targeted states with histories of discrimination, creating different federal oversight levels based on past practices - a novel approach to federalism. B is wrong because it only applied to certain states. C is wrong because states still administered elections, just with federal oversight. D is wrong because it regulated statutory changes, not constitutional amendments.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q233",
     "subject": "apush",
     "unit": 8,
     "topic": "Vietnam War escalation",
-    "topicLabel": "Vietnam War escalation",
+    "topicLabel": "8.9 The Vietnam War",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12237,14 +12848,15 @@ var APUSH_MCQ = [
       "NATO obligations and unilateral American action in Southeast Asia"
     ],
     "answer": 0,
-    "explanation": "The Resolution gave Johnson broad military authority without a formal war declaration, highlighting how Cold War crises strained the constitutional balance between congressional war powers and executive military action. B, C, and D address policy concerns but miss the core constitutional issue of war powers separation."
+    "explanation": "The Resolution gave Johnson broad military authority without a formal war declaration, highlighting how Cold War crises strained the constitutional balance between congressional war powers and executive military action. B, C, and D address policy concerns but miss the core constitutional issue of war powers separation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u8_q234",
     "subject": "apush",
     "unit": 8,
     "topic": "Watergate",
-    "topicLabel": "Watergate",
+    "topicLabel": "8.15 Politics and Culture in the 1970s",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12257,14 +12869,15 @@ var APUSH_MCQ = [
       "Declared that executive privilege was unconstitutional in all circumstances"
     ],
     "answer": 1,
-    "explanation": "The Court recognized executive privilege as a legitimate presidential power but ruled it couldn't be used to withhold evidence in criminal proceedings, balancing executive authority with judicial oversight. A and D are wrong because they're too absolute. C is wrong because this was about criminal proceedings, not impeachment directly."
+    "explanation": "The Court recognized executive privilege as a legitimate presidential power but ruled it couldn't be used to withhold evidence in criminal proceedings, balancing executive authority with judicial oversight. A and D are wrong because they're too absolute. C is wrong because this was about criminal proceedings, not impeachment directly.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q235",
     "subject": "apush",
     "unit": 9,
     "topic": "Reaganomics",
-    "topicLabel": "Reaganomics",
+    "topicLabel": "9.2 The Conservative Movement of the 1980s",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -12277,14 +12890,15 @@ var APUSH_MCQ = [
       "Higher corporate tax rates to fund social programs"
     ],
     "answer": 0,
-    "explanation": "Supply-side tax cuts were the cornerstone of Reaganomics, based on the theory that lower taxes would stimulate investment and economic growth. Options B, C, and D represent policies that Reagan actually opposed, as he favored deregulation and reduced government spending on social programs."
+    "explanation": "Supply-side tax cuts were the cornerstone of Reaganomics, based on the theory that lower taxes would stimulate investment and economic growth. Options B, C, and D represent policies that Reagan actually opposed, as he favored deregulation and reduced government spending on social programs.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q236",
     "subject": "apush",
     "unit": 9,
     "topic": "Cold War end",
-    "topicLabel": "Cold War end",
+    "topicLabel": "9.3 The End of the Cold War",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -12297,14 +12911,15 @@ var APUSH_MCQ = [
       "The end of the Cold War"
     ],
     "answer": 3,
-    "explanation": "The fall of the Berlin Wall in 1989 was a key symbol of the end of the Cold War, representing the collapse of communist control in Eastern Europe. Option A is incorrect as the Cold War began in the 1940s, option C never occurred, and NATO was formed in 1949."
+    "explanation": "The fall of the Berlin Wall in 1989 was a key symbol of the end of the Cold War, representing the collapse of communist control in Eastern Europe. Option A is incorrect as the Cold War began in the 1940s, option C never occurred, and NATO was formed in 1949.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q237",
     "subject": "apush",
     "unit": 9,
     "topic": "9/11",
-    "topicLabel": "9/11",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "easy",
     "calculator": false,
     "isLatex": false,
@@ -12317,14 +12932,15 @@ var APUSH_MCQ = [
       "Al-Qaeda"
     ],
     "answer": 3,
-    "explanation": "The 9/11 attacks were carried out by Al-Qaeda, led by Osama bin Laden. ISIS did not exist in 2001 (it emerged later), while Hamas and Hezbollah are different terrorist organizations that were not responsible for 9/11, though students often confuse various Middle Eastern terrorist groups."
+    "explanation": "The 9/11 attacks were carried out by Al-Qaeda, led by Osama bin Laden. ISIS did not exist in 2001 (it emerged later), while Hamas and Hezbollah are different terrorist organizations that were not responsible for 9/11, though students often confuse various Middle Eastern terrorist groups.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q238",
     "subject": "apush",
     "unit": 9,
     "topic": "Reagan Revolution",
-    "topicLabel": "Reagan Revolution",
+    "topicLabel": "9.2 The Conservative Movement of the 1980s",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12337,14 +12953,15 @@ var APUSH_MCQ = [
       "His advocacy for higher taxes on the wealthy appealed to middle-income Democrats"
     ],
     "answer": 0,
-    "explanation": "Reagan Democrats were traditionally Democratic voters, often blue-collar and Catholic, who supported Reagan because his conservative social values and strong national defense stance appealed to them more than the Democratic Party's increasing cultural liberalism. Choice B is wrong because Reagan cut social programs. Choice C is incorrect as Reagan opposed labor unions. Choice D is false since Reagan cut taxes on the wealthy."
+    "explanation": "Reagan Democrats were traditionally Democratic voters, often blue-collar and Catholic, who supported Reagan because his conservative social values and strong national defense stance appealed to them more than the Democratic Party's increasing cultural liberalism. Choice B is wrong because Reagan cut social programs. Choice C is incorrect as Reagan opposed labor unions. Choice D is false since Reagan cut taxes on the wealthy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q239",
     "subject": "apush",
     "unit": 9,
     "topic": "Reaganomics",
-    "topicLabel": "Reaganomics",
+    "topicLabel": "9.2 The Conservative Movement of the 1980s",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12357,14 +12974,15 @@ var APUSH_MCQ = [
       "impose tariffs on foreign goods to protect American industries"
     ],
     "answer": 0,
-    "explanation": "Supply-side economics, or 'trickle-down' theory, argued that cutting taxes on wealthy individuals and businesses would stimulate investment, leading to job creation and economic growth that would benefit everyone. The 1981 tax cuts specifically reduced top marginal tax rates. Choice B describes Keynesian demand-side policy. Choice C contradicts Reagan's goal of reducing government programs. Choice D describes protectionism, not supply-side theory."
+    "explanation": "Supply-side economics, or 'trickle-down' theory, argued that cutting taxes on wealthy individuals and businesses would stimulate investment, leading to job creation and economic growth that would benefit everyone. The 1981 tax cuts specifically reduced top marginal tax rates. Choice B describes Keynesian demand-side policy. Choice C contradicts Reagan's goal of reducing government programs. Choice D describes protectionism, not supply-side theory.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q240",
     "subject": "apush",
     "unit": 9,
     "topic": "Cold War end",
-    "topicLabel": "Cold War end",
+    "topicLabel": "9.3 The End of the Cold War",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12377,14 +12995,15 @@ var APUSH_MCQ = [
       "European allies threatened to withdraw from NATO unless Reagan negotiated with Moscow"
     ],
     "answer": 0,
-    "explanation": "Reagan initially took a hard line against the 'evil empire' but shifted when Gorbachev introduced glasnost and perestroika, recognizing these reforms as genuine changes that created opportunities for arms reduction and improved relations. Choice B is incorrect as the US had military advantages. Choice C is wrong since Congress generally supported Reagan's military buildup. Choice D misrepresents NATO dynamics during this period."
+    "explanation": "Reagan initially took a hard line against the 'evil empire' but shifted when Gorbachev introduced glasnost and perestroika, recognizing these reforms as genuine changes that created opportunities for arms reduction and improved relations. Choice B is incorrect as the US had military advantages. Choice C is wrong since Congress generally supported Reagan's military buildup. Choice D misrepresents NATO dynamics during this period.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q241",
     "subject": "apush",
     "unit": 9,
     "topic": "Gulf War",
-    "topicLabel": "Gulf War",
+    "topicLabel": "9.3 The End of the Cold War",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12397,14 +13016,15 @@ var APUSH_MCQ = [
       "European allies threatened economic sanctions if the US invaded Iraq"
     ],
     "answer": 0,
-    "explanation": "Bush carefully built a UN-authorized coalition with the specific mandate to liberate Kuwait. Going beyond this to remove Hussein would have exceeded the legal authorization and risked fragmenting the international coalition, especially Arab allies. Choice B is wrong as public opinion supported the limited war aims. Choice C overstates Iran's capabilities and intentions. Choice D mischaracterizes European positions."
+    "explanation": "Bush carefully built a UN-authorized coalition with the specific mandate to liberate Kuwait. Going beyond this to remove Hussein would have exceeded the legal authorization and risked fragmenting the international coalition, especially Arab allies. Choice B is wrong as public opinion supported the limited war aims. Choice C overstates Iran's capabilities and intentions. Choice D mischaracterizes European positions.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q242",
     "subject": "apush",
     "unit": 9,
     "topic": "Clinton era",
-    "topicLabel": "Clinton era",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12417,14 +13037,15 @@ var APUSH_MCQ = [
       "rotating his focus between three key issues: healthcare, education, and the environment"
     ],
     "answer": 0,
-    "explanation": "Triangulation was Clinton's political strategy of positioning himself between liberal Democrats and conservative Republicans by adopting centrist policies that incorporated elements from both sides, such as welfare reform and crime bills that appealed to conservatives while maintaining some liberal social programs. The other choices confuse triangulation with other policies or misunderstand the concept entirely."
+    "explanation": "Triangulation was Clinton's political strategy of positioning himself between liberal Democrats and conservative Republicans by adopting centrist policies that incorporated elements from both sides, such as welfare reform and crime bills that appealed to conservatives while maintaining some liberal social programs. The other choices confuse triangulation with other policies or misunderstand the concept entirely.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q243",
     "subject": "apush",
     "unit": 9,
     "topic": "NAFTA",
-    "topicLabel": "NAFTA",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12437,14 +13058,15 @@ var APUSH_MCQ = [
       "require American workers to compete directly with Canadian healthcare benefits"
     ],
     "answer": 1,
-    "explanation": "Labor unions opposed NAFTA because they feared American companies would relocate manufacturing to Mexico to take advantage of lower wages and weaker labor protections, resulting in job losses in US industrial sectors. Choice A confuses trade policy with immigration policy. Choice C reverses the concern about standards. Choice D misunderstands both NAFTA's scope and Canadian healthcare systems."
+    "explanation": "Labor unions opposed NAFTA because they feared American companies would relocate manufacturing to Mexico to take advantage of lower wages and weaker labor protections, resulting in job losses in US industrial sectors. Choice A confuses trade policy with immigration policy. Choice C reverses the concern about standards. Choice D misunderstands both NAFTA's scope and Canadian healthcare systems.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q244",
     "subject": "apush",
     "unit": 9,
     "topic": "9/11",
-    "topicLabel": "9/11",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12457,14 +13079,15 @@ var APUSH_MCQ = [
       "transferred all military functions from the Pentagon to civilian control"
     ],
     "answer": 1,
-    "explanation": "The Department of Homeland Security consolidated 22 existing agencies (including FEMA, Coast Guard, Immigration, and others) into one cabinet-level department to improve coordination of domestic security efforts. Choice A ignores the existing Defense Department. Choice C misunderstands DHS's role relative to intelligence agencies. Choice D incorrectly describes military command structure."
+    "explanation": "The Department of Homeland Security consolidated 22 existing agencies (including FEMA, Coast Guard, Immigration, and others) into one cabinet-level department to improve coordination of domestic security efforts. Choice A ignores the existing Defense Department. Choice C misunderstands DHS's role relative to intelligence agencies. Choice D incorrectly describes military command structure.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q245",
     "subject": "apush",
     "unit": 9,
     "topic": "War on Terror",
-    "topicLabel": "War on Terror",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12477,14 +13100,15 @@ var APUSH_MCQ = [
       "focused exclusively on foreign terrorists while ignoring domestic threats"
     ],
     "answer": 1,
-    "explanation": "Critics argued the PATRIOT Act gave the government excessive surveillance powers, including expanded wiretapping authority and reduced judicial oversight, which they claimed violated Fourth Amendment protections against unreasonable searches. Choice A represents supporters' views, not critics'. Choice C contradicts the Act's goal of improving information sharing. Choice D mischaracterizes the Act's scope."
+    "explanation": "Critics argued the PATRIOT Act gave the government excessive surveillance powers, including expanded wiretapping authority and reduced judicial oversight, which they claimed violated Fourth Amendment protections against unreasonable searches. Choice A represents supporters' views, not critics'. Choice C contradicts the Act's goal of improving information sharing. Choice D mischaracterizes the Act's scope.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q246",
     "subject": "apush",
     "unit": 9,
     "topic": "Iraq War",
-    "topicLabel": "Iraq War",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12497,14 +13121,15 @@ var APUSH_MCQ = [
       "The United Nations refused to authorize the use of military force against Iraq"
     ],
     "answer": 1,
-    "explanation": "The Bush administration's main public justification was that Iraq possessed WMDs that posed an imminent threat. When extensive post-invasion searches found no such weapons, it undermined the credibility of the war's rationale. Choice A didn't happen. Choice C wasn't a primary justification. Choice D occurred before the invasion and doesn't explain why the justification was undermined."
+    "explanation": "The Bush administration's main public justification was that Iraq possessed WMDs that posed an imminent threat. When extensive post-invasion searches found no such weapons, it undermined the credibility of the war's rationale. Choice A didn't happen. Choice C wasn't a primary justification. Choice D occurred before the invasion and doesn't explain why the justification was undermined.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q247",
     "subject": "apush",
     "unit": 9,
     "topic": "Obama presidency",
-    "topicLabel": "Obama presidency",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12517,14 +13142,15 @@ var APUSH_MCQ = [
       "focusing exclusively on economic relationships rather than security concerns"
     ],
     "answer": 1,
-    "explanation": "Obama emphasized 'smart power' through diplomacy, international cooperation, and coalition-building, while being more cautious about military intervention than Bush. Examples include the Iran nuclear deal and Paris Climate Accord. Choice A describes Bush's approach more than Obama's. Choice C overstates Obama's position. Choice D ignores Obama's continued security focus."
+    "explanation": "Obama emphasized 'smart power' through diplomacy, international cooperation, and coalition-building, while being more cautious about military intervention than Bush. Examples include the Iran nuclear deal and Paris Climate Accord. Choice A describes Bush's approach more than Obama's. Choice C overstates Obama's position. Choice D ignores Obama's continued security focus.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q248",
     "subject": "apush",
     "unit": 9,
     "topic": "ACA",
-    "topicLabel": "ACA",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12537,14 +13163,15 @@ var APUSH_MCQ = [
       "created a government-run healthcare system that eliminated private insurance"
     ],
     "answer": 1,
-    "explanation": "The constitutional challenge centered on whether Congress could require individuals to purchase private insurance under the Commerce Clause. The Supreme Court ultimately upheld it as a valid exercise of taxing power in NFIB v. Sebelius. Choice A mischaracterizes the law's impact. Choice C wasn't the main constitutional argument. Choice D incorrectly describes the ACA, which maintained private insurance."
+    "explanation": "The constitutional challenge centered on whether Congress could require individuals to purchase private insurance under the Commerce Clause. The Supreme Court ultimately upheld it as a valid exercise of taxing power in NFIB v. Sebelius. Choice A mischaracterizes the law's impact. Choice C wasn't the main constitutional argument. Choice D incorrectly describes the ACA, which maintained private insurance.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q249",
     "subject": "apush",
     "unit": 9,
     "topic": "Great Recession",
-    "topicLabel": "Great Recession",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12557,14 +13184,15 @@ var APUSH_MCQ = [
       "a trade war with China that disrupted global supply chains"
     ],
     "answer": 1,
-    "explanation": "The crisis began with the collapse of the subprime mortgage market, where risky loans to borrowers with poor credit were packaged into complex financial instruments that spread the risk throughout the global financial system. When housing prices fell, these instruments became worthless, triggering bank failures. The other choices describe different economic problems not central to the 2008 crisis."
+    "explanation": "The crisis began with the collapse of the subprime mortgage market, where risky loans to borrowers with poor credit were packaged into complex financial instruments that spread the risk throughout the global financial system. When housing prices fell, these instruments became worthless, triggering bank failures. The other choices describe different economic problems not central to the 2008 crisis.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q250",
     "subject": "apush",
     "unit": 9,
     "topic": "political polarization",
-    "topicLabel": "political polarization",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12577,14 +13205,15 @@ var APUSH_MCQ = [
       "eliminating regional differences in political opinion across the United States"
     ],
     "answer": 1,
-    "explanation": "Cable news and social media created 'echo chambers' where people could choose news sources that reinforced their existing views, reducing exposure to opposing perspectives and contributing to polarization. This contrasts with the earlier era of shared national news sources. Choice A is incorrect as these sources often became more partisan. Choice C is wrong as information increased. Choice D misunderstands the effect on regional differences."
+    "explanation": "Cable news and social media created 'echo chambers' where people could choose news sources that reinforced their existing views, reducing exposure to opposing perspectives and contributing to polarization. This contrasts with the earlier era of shared national news sources. Choice A is incorrect as these sources often became more partisan. Choice C is wrong as information increased. Choice D misunderstands the effect on regional differences.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q251",
     "subject": "apush",
     "unit": 9,
     "topic": "Reagan Revolution",
-    "topicLabel": "Reagan Revolution",
+    "topicLabel": "9.2 The Conservative Movement of the 1980s",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12597,14 +13226,15 @@ var APUSH_MCQ = [
       "government regulation was necessary to protect workers' rights in all industries"
     ],
     "answer": 1,
-    "explanation": "Reagan believed that reducing government regulation would unleash business efficiency and economic growth. He deregulated industries like airlines, telecommunications, and banking while reducing enforcement of environmental and workplace regulations. Choice A contradicts Reagan's environmental policies. Choice C misrepresents his trade approach. Choice D opposes his general anti-regulation philosophy."
+    "explanation": "Reagan believed that reducing government regulation would unleash business efficiency and economic growth. He deregulated industries like airlines, telecommunications, and banking while reducing enforcement of environmental and workplace regulations. Choice A contradicts Reagan's environmental policies. Choice C misrepresents his trade approach. Choice D opposes his general anti-regulation philosophy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q252",
     "subject": "apush",
     "unit": 9,
     "topic": "Cold War end",
-    "topicLabel": "Cold War end",
+    "topicLabel": "9.3 The End of the Cold War",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12617,14 +13247,15 @@ var APUSH_MCQ = [
       "the beginning of democratic reforms within the Soviet Union itself"
     ],
     "answer": 1,
-    "explanation": "The Berlin Wall's fall symbolized the end of communist control in Eastern Europe as Soviet satellite states gained independence and moved toward democracy. It represented the broader collapse of the Soviet sphere of influence. Choice A incorrectly credits SDI. Choice C misunderstands military alliance structures. Choice D confuses Eastern European liberation with internal Soviet reforms."
+    "explanation": "The Berlin Wall's fall symbolized the end of communist control in Eastern Europe as Soviet satellite states gained independence and moved toward democracy. It represented the broader collapse of the Soviet sphere of influence. Choice A incorrectly credits SDI. Choice C misunderstands military alliance structures. Choice D confuses Eastern European liberation with internal Soviet reforms.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q253",
     "subject": "apush",
     "unit": 9,
     "topic": "Clinton era",
-    "topicLabel": "Clinton era",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12637,14 +13268,15 @@ var APUSH_MCQ = [
       "widespread approval of Clinton's handling of foreign policy crises"
     ],
     "answer": 1,
-    "explanation": "The 1994 Republican victory resulted from voter dissatisfaction with Clinton's failed healthcare initiative, other early missteps, and effective Republican campaigning around Newt Gingrich's 'Contract with America' which promised conservative reforms. Choice A is backwards - healthcare failure hurt Democrats. Choice C is wrong as the economy was recovering. Choice D mischaracterizes Clinton's foreign policy standing at the time."
+    "explanation": "The 1994 Republican victory resulted from voter dissatisfaction with Clinton's failed healthcare initiative, other early missteps, and effective Republican campaigning around Newt Gingrich's 'Contract with America' which promised conservative reforms. Choice A is backwards - healthcare failure hurt Democrats. Choice C is wrong as the economy was recovering. Choice D mischaracterizes Clinton's foreign policy standing at the time.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q254",
     "subject": "apush",
     "unit": 9,
     "topic": "War on Terror",
-    "topicLabel": "War on Terror",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12657,14 +13289,15 @@ var APUSH_MCQ = [
       "emphasized defensive measures rather than offensive military capabilities"
     ],
     "answer": 1,
-    "explanation": "The Bush Doctrine argued that the US could attack potential threats before they became imminent, departing from traditional just war theory and international law that required imminent threat for preemptive action. This was used to justify the Iraq invasion. Choice A describes multilateralism, which Bush often avoided. Choice C mischaracterizes the doctrine's military focus. Choice D describes defensive rather than preemptive strategy."
+    "explanation": "The Bush Doctrine argued that the US could attack potential threats before they became imminent, departing from traditional just war theory and international law that required imminent threat for preemptive action. This was used to justify the Iraq invasion. Choice A describes multilateralism, which Bush often avoided. Choice C mischaracterizes the doctrine's military focus. Choice D describes defensive rather than preemptive strategy.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q255",
     "subject": "apush",
     "unit": 9,
     "topic": "Great Recession",
-    "topicLabel": "Great Recession",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12677,14 +13310,15 @@ var APUSH_MCQ = [
       "providing loans exclusively to failed banks to restore financial stability"
     ],
     "answer": 1,
-    "explanation": "The stimulus package followed Keynesian economic theory by using government spending to boost aggregate demand during the recession, funding infrastructure projects, education, and providing direct aid to individuals and states. Choice A describes supply-side (trickle-down) policy, which ARRA explicitly did not follow. Choice C describes deregulation, the opposite of a stimulus approach. Choice D mischaracterizes the legislation — aid went far beyond banks and included broad public investment."
+    "explanation": "The stimulus package followed Keynesian economic theory by using government spending to boost aggregate demand during the recession, funding infrastructure projects, education, and providing direct aid to individuals and states. Choice A describes supply-side (trickle-down) policy, which ARRA explicitly did not follow. Choice C describes deregulation, the opposite of a stimulus approach. Choice D mischaracterizes the legislation — aid went far beyond banks and included broad public investment.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q256",
     "subject": "apush",
     "unit": 9,
     "topic": "political polarization",
-    "topicLabel": "political polarization",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12697,14 +13331,15 @@ var APUSH_MCQ = [
       "primary elections eliminate the influence of political parties in candidate selection"
     ],
     "answer": 0,
-    "explanation": "Primary elections typically attract more ideologically committed voters from each party's base, who tend to support more conservative Republicans and more liberal Democrats, leading to the nomination of more partisan candidates than would appeal to moderate general election voters. Choice B is incorrect about both special interests and moderation. Choice C describes general elections better than primaries. Choice D overstates the reduced party influence."
+    "explanation": "Primary elections typically attract more ideologically committed voters from each party's base, who tend to support more conservative Republicans and more liberal Democrats, leading to the nomination of more partisan candidates than would appeal to moderate general election voters. Choice B is incorrect about both special interests and moderation. Choice C describes general elections better than primaries. Choice D overstates the reduced party influence.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q257",
     "subject": "apush",
     "unit": 9,
     "topic": "Reaganomics",
-    "topicLabel": "Reaganomics",
+    "topicLabel": "9.2 The Conservative Movement of the 1980s",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12717,14 +13352,15 @@ var APUSH_MCQ = [
       "Government spending was redirected entirely toward social welfare programs"
     ],
     "answer": 0,
-    "explanation": "Reagan's supply-side economics involved cutting taxes while simultaneously increasing defense spending, creating concerns about budget deficits. Choice B is wrong because deregulation was more about market efficiency than inflation. Choice C is factually incorrect as the Fed remained independent. Choice D is opposite to Reagan's actual policies of reducing social spending."
+    "explanation": "Reagan's supply-side economics involved cutting taxes while simultaneously increasing defense spending, creating concerns about budget deficits. Choice B is wrong because deregulation was more about market efficiency than inflation. Choice C is factually incorrect as the Fed remained independent. Choice D is opposite to Reagan's actual policies of reducing social spending.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q258",
     "subject": "apush",
     "unit": 9,
     "topic": "Cold War end",
-    "topicLabel": "Cold War end",
+    "topicLabel": "9.3 The End of the Cold War",
     "difficulty": "medium",
     "calculator": false,
     "isLatex": false,
@@ -12737,14 +13373,15 @@ var APUSH_MCQ = [
       "Economic sanctions imposed by the European Community"
     ],
     "answer": 1,
-    "explanation": "Gorbachev's glasnost and perestroika policies, combined with rising popular movements in Eastern Europe, directly led to the weakening of communist control and the fall of the Berlin Wall. Choice A is incorrect as no military intervention occurred. Choice C represents longer-term pressures but not direct causes. Choice D overstates the role of economic sanctions in this specific event."
+    "explanation": "Gorbachev's glasnost and perestroika policies, combined with rising popular movements in Eastern Europe, directly led to the weakening of communist control and the fall of the Berlin Wall. Choice A is incorrect as no military intervention occurred. Choice C represents longer-term pressures but not direct causes. Choice D overstates the role of economic sanctions in this specific event.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q259",
     "subject": "apush",
     "unit": 9,
     "topic": "1970s Stagflation",
-    "topicLabel": "1970s Stagflation",
+    "topicLabel": "8.14 The 1970s: Challenges",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12757,14 +13394,15 @@ var APUSH_MCQ = [
       "It prompted Congress to increase the money supply and reduce interest rates to encourage economic growth"
     ],
     "answer": 0,
-    "explanation": "The stagflation of the 1970s - characterized by simultaneous high inflation and high unemployment - discredited traditional Keynesian demand-management policies, which had no effective remedy for this combination. This opened the door for supply-side economics, which argued that tax cuts and deregulation would stimulate production and tame inflation. Option B is incorrect because stagflation discredited, rather than expanded, government spending programs. Option C is incorrect because union influence declined during this period as inflation outpaced wage gains. Option D is incorrect because increasing the money supply would worsen inflation, and the Federal Reserve under Volcker actually raised interest rates sharply to combat stagflation."
+    "explanation": "The stagflation of the 1970s - characterized by simultaneous high inflation and high unemployment - discredited traditional Keynesian demand-management policies, which had no effective remedy for this combination. This opened the door for supply-side economics, which argued that tax cuts and deregulation would stimulate production and tame inflation. Option B is incorrect because stagflation discredited, rather than expanded, government spending programs. Option C is incorrect because union influence declined during this period as inflation outpaced wage gains. Option D is incorrect because increasing the money supply would worsen inflation, and the Federal Reserve under Volcker actually raised interest rates sharply to combat stagflation.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q260",
     "subject": "apush",
     "unit": 9,
     "topic": "Reaganomics",
-    "topicLabel": "Reaganomics",
+    "topicLabel": "9.2 The Conservative Movement of the 1980s",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12777,14 +13415,15 @@ var APUSH_MCQ = [
       "Reduced government spending would force individuals to become more self-reliant and productive"
     ],
     "answer": 1,
-    "explanation": "The key criticism of supply-side economics was that it relied on the assumption that wealthy tax cut beneficiaries would invest in productive, job-creating activities rather than speculation or consumption. Option A describes the Laffer Curve theory but not the main distributional critique. Option C addresses deregulation effects, not the core supply-side tax policy. Option D describes a welfare policy assumption, not the investment behavior assumption central to supply-side theory."
+    "explanation": "The key criticism of supply-side economics was that it relied on the assumption that wealthy tax cut beneficiaries would invest in productive, job-creating activities rather than speculation or consumption. Option A describes the Laffer Curve theory but not the main distributional critique. Option C addresses deregulation effects, not the core supply-side tax policy. Option D describes a welfare policy assumption, not the investment behavior assumption central to supply-side theory.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q261",
     "subject": "apush",
     "unit": 9,
     "topic": "Cold War end",
-    "topicLabel": "Cold War end",
+    "topicLabel": "9.3 The End of the Cold War",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12797,14 +13436,15 @@ var APUSH_MCQ = [
       "American pressure or internal Soviet contradictions were the decisive factor in ending the conflict"
     ],
     "answer": 3,
-    "explanation": "The central historical debate about the Cold War's end focuses on whether American policies (military pressure, economic competition) or inherent Soviet systemic problems were decisive. Option A is too narrow, focusing only on SDI. Option B addresses important factors but misses the key debate about external vs. internal causation. Option C focuses on Gorbachev's intentions, which is a subsidiary question to the broader causation debate."
+    "explanation": "The central historical debate about the Cold War's end focuses on whether American policies (military pressure, economic competition) or inherent Soviet systemic problems were decisive. Option A is too narrow, focusing only on SDI. Option B addresses important factors but misses the key debate about external vs. internal causation. Option C focuses on Gorbachev's intentions, which is a subsidiary question to the broader causation debate.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q263",
     "subject": "apush",
     "unit": 9,
     "topic": "Clinton era",
-    "topicLabel": "Clinton era",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12817,14 +13457,15 @@ var APUSH_MCQ = [
       "Prioritized foreign policy expertise over domestic economic concerns"
     ],
     "answer": 1,
-    "explanation": "Triangulation involved adopting centrist, market-friendly approaches (welfare reform, financial deregulation) while maintaining the Democratic commitment to government having a positive social role. Option A is incorrect as Clinton maintained liberal social positions on most issues. Option C describes bipartisanship but not the ideological repositioning that defined triangulation. Option D mischaracterizes Clinton's domestic focus."
+    "explanation": "Triangulation involved adopting centrist, market-friendly approaches (welfare reform, financial deregulation) while maintaining the Democratic commitment to government having a positive social role. Option A is incorrect as Clinton maintained liberal social positions on most issues. Option C describes bipartisanship but not the ideological repositioning that defined triangulation. Option D mischaracterizes Clinton's domestic focus.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q264",
     "subject": "apush",
     "unit": 9,
     "topic": "NAFTA",
-    "topicLabel": "NAFTA",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12837,14 +13478,15 @@ var APUSH_MCQ = [
       "Environmental regulations would be weakened to maintain competitive parity"
     ],
     "answer": 1,
-    "explanation": "Labor unions opposed NAFTA mainly because they feared American companies would move manufacturing jobs to Mexico to exploit lower wages and weaker labor protections. Option A addresses immigration concerns but misses the job relocation issue. Option C incorrectly suggests unions were concerned about tariff revenue for social programs. Option D reflects environmental concerns but not labor's primary objection."
+    "explanation": "Labor unions opposed NAFTA mainly because they feared American companies would move manufacturing jobs to Mexico to exploit lower wages and weaker labor protections. Option A addresses immigration concerns but misses the job relocation issue. Option C incorrectly suggests unions were concerned about tariff revenue for social programs. Option D reflects environmental concerns but not labor's primary objection.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q265",
     "subject": "apush",
     "unit": 9,
     "topic": "9/11",
-    "topicLabel": "9/11",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12857,14 +13499,15 @@ var APUSH_MCQ = [
       "Prioritizing counterterrorism operations over traditional state-to-state diplomacy"
     ],
     "answer": 0,
-    "explanation": "9/11 legitimized the doctrine of preemptive war - attacking potential threats before they materialized, most notably applied in Iraq. Option B describes unilateralism but this existed before 9/11. Option C incorrectly suggests the US hadn't intervened in the Middle East previously. Option D addresses a shift in priorities but not the fundamental doctrinal change that preemption represented."
+    "explanation": "9/11 legitimized the doctrine of preemptive war - attacking potential threats before they materialized, most notably applied in Iraq. Option B describes unilateralism but this existed before 9/11. Option C incorrectly suggests the US hadn't intervened in the Middle East previously. Option D addresses a shift in priorities but not the fundamental doctrinal change that preemption represented.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q266",
     "subject": "apush",
     "unit": 9,
     "topic": "War on Terror",
-    "topicLabel": "War on Terror",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12877,14 +13520,15 @@ var APUSH_MCQ = [
       "Precedents established during previous national security crises"
     ],
     "answer": 2,
-    "explanation": "The Bush administration primarily relied on unitary executive theory - the idea that during wartime, the president has inherent constitutional authority that cannot be constrained by Congress or courts. While option A provided some legislative basis, the administration's broader claims went beyond congressional authorization. Options B and D provided supporting arguments but not the core constitutional theory driving expanded presidential powers."
+    "explanation": "The Bush administration primarily relied on unitary executive theory - the idea that during wartime, the president has inherent constitutional authority that cannot be constrained by Congress or courts. While option A provided some legislative basis, the administration's broader claims went beyond congressional authorization. Options B and D provided supporting arguments but not the core constitutional theory driving expanded presidential powers.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q267",
     "subject": "apush",
     "unit": 9,
     "topic": "Iraq War",
-    "topicLabel": "Iraq War",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12897,14 +13541,15 @@ var APUSH_MCQ = [
       "International organizations would provide adequate transitional governance support"
     ],
     "answer": 0,
-    "explanation": "De-Baathification and disbanding the army reflected the administration's ideological belief that democracy required complete elimination of previous authoritarian institutions, rather than gradual reform. Option B is incorrect as the administration underestimated but didn't necessarily believe in strong Iraqi civil society. Option C addresses military capability but not the ideological reasoning behind institutional destruction. Option D mischaracterizes the administration's view of international involvement."
+    "explanation": "De-Baathification and disbanding the army reflected the administration's ideological belief that democracy required complete elimination of previous authoritarian institutions, rather than gradual reform. Option B is incorrect as the administration underestimated but didn't necessarily believe in strong Iraqi civil society. Option C addresses military capability but not the ideological reasoning behind institutional destruction. Option D mischaracterizes the administration's view of international involvement.",
+    "type": "MCQ"
   },
   {
     "id": "apush_u9_q269",
     "subject": "apush",
     "unit": 9,
     "topic": "Great Recession",
-    "topicLabel": "Great Recession",
+    "topicLabel": "9.7 Domestic Developments in the 1990s through the Early 21st Century",
     "difficulty": "hard",
     "calculator": false,
     "isLatex": false,
@@ -12917,6 +13562,7 @@ var APUSH_MCQ = [
       "Rejection of traditional free-market approaches to economic recovery"
     ],
     "answer": 0,
-    "explanation": "The 2008 response was unprecedented in its immediate, massive direct intervention in financial markets through bank bailouts, asset purchases, and direct equity stakes. While option B occurred, policy coordination had precedent. Option C is incorrect as stimulus was broader than just mortgage relief. Option D overstates the rejection of market approaches, as intervention aimed to restore market function."
+    "explanation": "The 2008 response was unprecedented in its immediate, massive direct intervention in financial markets through bank bailouts, asset purchases, and direct equity stakes. While option B occurred, policy coordination had precedent. Option C is incorrect as stimulus was broader than just mortgage relief. Option D overstates the rejection of market approaches, as intervention aimed to restore market function.",
+    "type": "MCQ"
   }
 ];
