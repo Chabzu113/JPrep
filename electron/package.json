@@ -1,7 +1,7 @@
 {
   "name": "jprep",
-  "version": "2.4.0",
-  "description": "JPrep — Multi-Subject AP Practice Platform",
+  "version": "2.5.0",
+  "description": "JPrep \u2014 Multi-Subject AP Practice Platform",
   "main": "main.js",
   "author": "Abhijay Ramaka",
   "license": "MIT",
@@ -22,8 +22,18 @@
     "mac": {
       "category": "public.app-category.education",
       "target": [
-        { "target": "dmg", "arch": ["arm64"] },
-        { "target": "zip", "arch": ["arm64"] }
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "arm64"
+          ]
+        }
       ],
       "artifactName": "${productName}-Mac.${ext}",
       "icon": "icon.png"
